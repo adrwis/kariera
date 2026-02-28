@@ -1,0 +1,168 @@
+/* ============================================
+   Kariera Explorer — Search (Fuse.js)
+   ============================================ */
+
+const CareerSearch = (() => {
+  let fuseMain = null;   // careers.json (rich profiles)
+  let fuseKzis = null;   // kzis-index.json (all names)
+  let careersData = [];
+  let kzisData = [];
+  let isLoaded = false;
+
+  // Category mapping for filtering
+  const CATEGORY_MAP = {
+    it: ['informatyk', 'programista', 'analityk-danych', 'tester', 'administrator-systemow', 'grafik-komputerowy', 'specjalista-cyberbezpieczenstwa', 'projektant-ux'],
+    medycyna: ['lekarz', 'pielegniarka', 'farmaceuta', 'fizjoterapeuta', 'ratownik-medyczny', 'dentysta', 'dietetyk', 'psycholog'],
+    prawo: ['prawnik', 'sedzia', 'notariusz', 'komornik'],
+    edukacja: ['nauczyciel', 'wykładowca', 'pedagog', 'logopeda', 'bibliotekarz'],
+    biznes: ['ksiegowy', 'analityk-danych', 'menedzer', 'ekonomista', 'doradca-finansowy', 'audytor'],
+    inzynieria: ['inzynier-budownictwa', 'architekt', 'inzynier-mechanik', 'elektryk', 'geodeta'],
+    sztuka: ['grafik', 'aktor', 'muzyk', 'fotograf', 'dziennikarz', 'tlumacz', 'projektant-mody'],
+    przyroda: ['weterynarze', 'ogrodnik', 'lesnik', 'rolnik', 'ekolog'],
+    uslugi: ['kucharz', 'fryzjer', 'barista', 'kelner', 'pilot-wycieczek'],
+    bezpieczenstwo: ['policjant', 'strazak', 'zolnierz', 'ochroniarz', 'detektyw'],
+  };
+
+  async function loadData() {
+    if (isLoaded) return;
+    try {
+      const [careersRes, kzisRes] = await Promise.all([
+        fetch('data/careers.json'),
+        fetch('data/kzis-index.json'),
+      ]);
+
+      if (careersRes.ok) {
+        careersData = await careersRes.json();
+      }
+      if (kzisRes.ok) {
+        kzisData = await kzisRes.json();
+      }
+
+      // Initialize Fuse.js for rich careers
+      if (careersData.length && typeof Fuse !== 'undefined') {
+        fuseMain = new Fuse(careersData, {
+          keys: [
+            { name: 'name', weight: 0.4 },
+            { name: 'aliases', weight: 0.25 },
+            { name: 'shortDescription', weight: 0.2 },
+            { name: 'skills.required', weight: 0.15 },
+          ],
+          threshold: 0.35,
+          includeScore: true,
+          minMatchCharLength: 2,
+        });
+      }
+
+      // Initialize Fuse.js for KZiS index
+      if (kzisData.length && typeof Fuse !== 'undefined') {
+        fuseKzis = new Fuse(kzisData, {
+          keys: [
+            { name: 'name', weight: 0.7 },
+            { name: 'group', weight: 0.3 },
+          ],
+          threshold: 0.3,
+          includeScore: true,
+          minMatchCharLength: 2,
+        });
+      }
+
+      isLoaded = true;
+    } catch (err) {
+      console.error('Failed to load career data:', err);
+    }
+  }
+
+  // Search across both datasets
+  function search(query, limit = 30) {
+    const results = { rich: [], simple: [] };
+    if (!query || query.length < 2) return results;
+
+    // Search rich profiles
+    if (fuseMain) {
+      results.rich = fuseMain.search(query, { limit })
+        .map(r => ({ ...r.item, _score: r.score }));
+    }
+
+    // Search KZiS index (exclude those already in rich results)
+    if (fuseKzis) {
+      const richIds = new Set(results.rich.map(r => r.code));
+      results.simple = fuseKzis.search(query, { limit: limit * 2 })
+        .filter(r => !richIds.has(r.item.code))
+        .slice(0, limit)
+        .map(r => ({ ...r.item, _score: r.score }));
+    }
+
+    return results;
+  }
+
+  // Search by category
+  function searchByCategory(cat) {
+    const ids = CATEGORY_MAP[cat] || [];
+    const rich = careersData.filter(c => ids.includes(c.id));
+    const simple = kzisData.filter(k =>
+      k.category === cat && !rich.some(r => r.code === k.code)
+    );
+    return { rich, simple };
+  }
+
+  // Autocomplete (returns top N matches for live dropdown)
+  function autocomplete(query, limit = 8) {
+    if (!query || query.length < 2) return [];
+
+    const results = [];
+
+    // First, rich profiles (prioritized)
+    if (fuseMain) {
+      const mainResults = fuseMain.search(query, { limit });
+      for (const r of mainResults) {
+        results.push({
+          id: r.item.id,
+          name: r.item.name,
+          code: r.item.code,
+          type: 'rich',
+          score: r.score,
+        });
+      }
+    }
+
+    // Then, KZiS index
+    if (fuseKzis && results.length < limit) {
+      const richCodes = new Set(results.map(r => r.code));
+      const kzisResults = fuseKzis.search(query, { limit: limit * 2 });
+      for (const r of kzisResults) {
+        if (richCodes.has(r.item.code)) continue;
+        if (results.length >= limit) break;
+        results.push({
+          id: r.item.id || r.item.code,
+          name: r.item.name,
+          code: r.item.code,
+          type: 'simple',
+          score: r.score,
+        });
+      }
+    }
+
+    return results;
+  }
+
+  // Get career by ID (rich profile)
+  function getCareerById(id) {
+    return careersData.find(c => c.id === id) || null;
+  }
+
+  // Get KZiS entry by code
+  function getKzisByCode(code) {
+    return kzisData.find(k => k.code === code) || null;
+  }
+
+  return {
+    loadData,
+    search,
+    searchByCategory,
+    autocomplete,
+    getCareerById,
+    getKzisByCode,
+    get isReady() { return isLoaded; },
+    get careers() { return careersData; },
+  };
+})();

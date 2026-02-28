@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kariera Explorer — Znajdź swój zawód</title>
+  <meta name="description" content="Wyszukiwarka zawodów dla osób, które nie wiedzą kim chcą zostać. Ponad 2500 zawodów z opisami, zarobkami i ścieżkami edukacji.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Kariera Explorer — Znajdź swój zawód">
+  <meta property="og:description" content="Wyszukiwarka zawodów dla osób, które nie wiedzą kim chcą zostać. Ponad 2500 zawodów z opisami, zarobkami i ścieżkami edukacji.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pl_PL">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Przejdź do treści</a>
+  <canvas id="constellation" aria-hidden="true"></canvas>
+
+  <!-- Top bar -->
+  <header class="topbar">
+    <a href="#/" class="topbar__logo" aria-label="Kariera Explorer — strona główna">
+      <span class="topbar__icon">K</span>
+      <span class="topbar__title">Kariera Explorer</span>
+    </a>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Przełącz motyw jasny/ciemny">
+      <svg class="theme-toggle__icon theme-toggle__icon--sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+      </svg>
+      <svg class="theme-toggle__icon theme-toggle__icon--moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+      </svg>
+    </button>
+  </header>
+
+  <main id="main">
+    <!-- ===== VIEW: LANDING ===== -->
+    <section id="view-landing" class="view view--landing" role="region" aria-label="Wyszukiwarka zawodów">
+      <div class="landing">
+        <div class="landing__hero">
+          <h1 class="landing__title">
+            <span class="landing__title-static">Kariera</span>
+            <span class="landing__title-accent">Explorer</span>
+          </h1>
+          <p class="landing__typing" id="typingText" aria-live="polite"></p>
+        </div>
+
+        <form class="search-box" id="searchForm" role="search" aria-label="Szukaj zawodu">
+          <div class="search-box__name-row">
+            <label for="userName" class="search-box__label">Jak masz na imię? <span class="search-box__optional">(opcjonalne)</span></label>
+            <input type="text" id="userName" class="search-box__input search-box__input--name" placeholder="np. Anna" autocomplete="given-name">
+          </div>
+          <div class="search-box__query-row">
+            <label for="searchQuery" class="search-box__label">Kim chcesz zostać? Co Cię interesuje?</label>
+            <div class="search-box__input-wrapper">
+              <input type="text" id="searchQuery" class="search-box__input search-box__input--query" placeholder="np. psycholog, programista, coś z ludźmi..." autocomplete="off" aria-autocomplete="list" aria-controls="autocompleteList" aria-expanded="false">
+              <ul id="autocompleteList" class="autocomplete" role="listbox" aria-label="Podpowiedzi zawodów" hidden></ul>
+            </div>
+          </div>
+          <button type="submit" class="search-box__btn" id="searchBtn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            Sprawdź
+          </button>
+        </form>
+
+        <!-- Popular careers tags -->
+        <div class="popular" aria-label="Popularne zawody">
+          <p class="popular__label">Popularne:</p>
+          <div class="popular__tags" role="list">
+            <a href="#/zawod/psycholog" class="popular__tag" role="listitem">Psycholog</a>
+            <a href="#/zawod/programista" class="popular__tag" role="listitem">Programista</a>
+            <a href="#/zawod/lekarz" class="popular__tag" role="listitem">Lekarz</a>
+            <a href="#/zawod/architekt" class="popular__tag" role="listitem">Architekt</a>
+            <a href="#/zawod/nauczyciel" class="popular__tag" role="listitem">Nauczyciel</a>
+            <a href="#/zawod/grafik" class="popular__tag" role="listitem">Grafik</a>
+            <a href="#/zawod/prawnik" class="popular__tag" role="listitem">Prawnik</a>
+            <a href="#/zawod/analityk-danych" class="popular__tag" role="listitem">Analityk danych</a>
+          </div>
+        </div>
+
+        <!-- Category tiles -->
+        <div class="categories" aria-label="Przeglądaj kategorie">
+          <h2 class="categories__heading">Przeglądaj kategorie</h2>
+          <div class="categories__grid" role="list">
+            <a href="#/wyniki?cat=it" class="category-tile" role="listitem">
+              <span class="category-tile__icon" aria-hidden="true">💻</span>
+              <span class="category-tile__name">IT i Technologia</span>
+            </a>
+            <a href="#/wyniki?cat=medycyna" class="category-tile" role="listitem">
+              <span class="category-tile__icon" aria-hidden="true">🏥</span>
+              <span class="category-tile__name">Medycyna i Zdrowie</span>
+            </a>
+            <a href="#/wyniki?cat=prawo" class="category-tile" role="listitem">
+              <span class="category-tile__icon" aria-hidden="true">⚖️</span>
+              <span class="category-tile__name">Prawo i Administracja</span>
+            </a>
+            <a href="#/wyniki?cat=edukacja" class="category-tile" role="listitem">
+              <span class="category-tile__icon" aria-hidden="true">📚</span>
+              <span class="category-tile__name">Edukacja i Nauka</span>
+            </a>
+            <a href="#/wyniki?cat=biznes" class="category-tile" role="listitem">
+              <span class="category-tile__icon" aria-hidden="true">📊</span>
+              <span class="category-tile__name">Biznes i Finanse</span>
+            </a>
+            <a href="#/wyniki?cat=inzynieria" class="category-tile" role="listitem">
+              <span class="category-tile__icon" aria-hidden="true">🔧</span>
+              <span class="category-tile__name">Inżynieria</span>
+            </a>
+            <a href="#/wyniki?cat=sztuka" class="category-tile" role="listitem">
+              <span class="category-tile__icon" aria-hidden="true">🎨</span>
+              <span class="category-tile__name">Sztuka i Kultura</span>
+            </a>
+            <a href="#/wyniki?cat=przyroda" class="category-tile" role="listitem">
+              <span class="category-tile__icon" aria-hidden="true">🌿</span>
+              <span class="category-tile__name">Przyroda i Środowisko</span>
+            </a>
+            <a href="#/wyniki?cat=uslugi" class="category-tile" role="listitem">
+              <span class="category-tile__icon" aria-hidden="true">🤝</span>
+              <span class="category-tile__name">Usługi i Handel</span>
+            </a>
+            <a href="#/wyniki?cat=bezpieczenstwo" class="category-tile" role="listitem">
+              <span class="category-tile__icon" aria-hidden="true">🛡️</span>
+              <span class="category-tile__name">Bezpieczeństwo</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== VIEW: WYNIKI ===== -->
+    <section id="view-wyniki" class="view view--wyniki" role="region" aria-label="Wyniki wyszukiwania" hidden>
+      <div class="results">
+        <div class="results__header">
+          <a href="#/" class="results__back" aria-label="Wróć do wyszukiwarki">&larr; Wróć</a>
+          <h2 class="results__title">Wyniki wyszukiwania</h2>
+          <p class="results__query" id="resultsQuery"></p>
+        </div>
+        <div class="results__list" id="resultsList" role="list"></div>
+        <div class="results__empty" id="resultsEmpty" hidden>
+          <p class="results__empty-text">Nie znaleziono zawodów pasujących do zapytania.</p>
+          <a href="#/" class="results__empty-link">Spróbuj ponownie</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== VIEW: DETAL ZAWODU ===== -->
+    <section id="view-zawod" class="view view--zawod" role="region" aria-label="Szczegóły zawodu" hidden>
+      <div class="career-detail" id="careerDetail">
+        <a href="#/" class="results__back" aria-label="Wróć do wyszukiwarki">&larr; Wróć</a>
+        <!-- Filled dynamically by JS -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Kariera Explorer &copy; 2026 &middot; Dane: <a href="https://psz.praca.gov.pl" target="_blank" rel="noopener">KZiS</a>, <a href="https://barometrzawodow.pl" target="_blank" rel="noopener">Barometr Zawodów</a>, <a href="https://psz.praca.gov.pl/rynek-pracy/bazy-danych/infodoradca" target="_blank" rel="noopener">INFOdoradca+</a></p>
+  </footer>
+
+  <!-- Fuse.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

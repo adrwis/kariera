@@ -1,0 +1,844 @@
+[
+  {
+    "id": "psycholog",
+    "code": "263401",
+    "name": "Psycholog",
+    "aliases": ["psycholog kliniczny", "psycholog dziecięcy", "psycholog szkolny"],
+    "shortDescription": "Diagnozuje i wspiera zdrowie psychiczne, prowadzi badania psychologiczne i pomaga ludziom radzić sobie z trudnościami emocjonalnymi.",
+    "fullDescription": "Psycholog zajmuje się badaniem procesów psychicznych i zachowań ludzi. Pracuje w poradniach, szpitalach, szkołach, firmach lub prowadzi własną praktykę. Diagnozuje zaburzenia, prowadzi terapię, realizuje programy profilaktyczne i wspiera rozwój osobisty klientów. Wymaga empatii, cierpliwości i umiejętności aktywnego słuchania.",
+    "salary": { "min": 4500, "max": 12000, "currency": "PLN" },
+    "demand": "zrównoważony",
+    "category": "medycyna",
+    "skills": {
+      "required": ["Empatia i aktywne słuchanie", "Diagnostyka psychologiczna", "Prowadzenie wywiadu klinicznego", "Znajomość testów psychologicznych", "Analiza zachowań", "Komunikacja interpersonalna"],
+      "certifications": [
+        { "name": "Certyfikat psychoterapeuty PTP", "url": "https://www.ptp.org.pl" }
+      ],
+      "training": [
+        { "name": "4-letnie szkolenie psychoterapeutyczne", "providers": ["Szkoła Psychoterapii przy SWPS", "Krakowskie Centrum Psychodynamiczne"] }
+      ]
+    },
+    "education": {
+      "level": "magister",
+      "fields": ["Psychologia"],
+      "schools": [
+        { "name": "UW — Wydział Psychologii", "url": "https://psych.uw.edu.pl", "city": "Warszawa" },
+        { "name": "UJ — Instytut Psychologii", "url": "https://psychologia.uj.edu.pl", "city": "Kraków" },
+        { "name": "Uniwersytet SWPS", "url": "https://www.swps.pl", "city": "Warszawa" },
+        { "name": "UAM — Wydział Psychologii i Kognitywistyki", "url": "https://psychologia.amu.edu.pl", "city": "Poznań" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Kazimierz Dąbrowski", "description": "Twórca teorii dezintegracji pozytywnej" },
+      { "name": "Jerzy Mellibruda", "description": "Pionier terapii uzależnień w Polsce" },
+      { "name": "Carl Rogers", "description": "Twórca terapii skoncentrowanej na osobie" }
+    ],
+    "relatedCareers": ["psychoterapeuta", "pedagog", "psychiatra"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025"]
+  },
+  {
+    "id": "programista",
+    "code": "251401",
+    "name": "Programista",
+    "aliases": ["developer", "software engineer", "inżynier oprogramowania", "koder"],
+    "shortDescription": "Tworzy oprogramowanie, aplikacje webowe i mobilne, pisze kod w różnych językach programowania.",
+    "fullDescription": "Programista projektuje, tworzy i utrzymuje oprogramowanie komputerowe. Pracuje z różnymi technologiami — od aplikacji webowych, przez systemy mobilne, po sztuczną inteligencję. Zawód wymaga logicznego myślenia, ciągłego uczenia się nowych technologii i umiejętności pracy zespołowej. Może pracować w firmach IT, startupach, korporacjach lub jako freelancer.",
+    "salary": { "min": 7000, "max": 25000, "currency": "PLN" },
+    "demand": "deficytowy",
+    "category": "it",
+    "skills": {
+      "required": ["Logiczne myślenie", "Znajomość języków programowania (Python, JavaScript, Java)", "Algorytmy i struktury danych", "Praca z bazami danych (SQL)", "System kontroli wersji (Git)", "Praca zespołowa (Agile/Scrum)"],
+      "certifications": [
+        { "name": "AWS Certified Developer", "url": "https://aws.amazon.com/certification/" },
+        { "name": "Oracle Certified Professional Java", "url": "https://education.oracle.com" }
+      ],
+      "training": [
+        { "name": "Bootcampy programistyczne (3-6 miesięcy)", "providers": ["Codecool", "Kodilla", "SDA"] }
+      ]
+    },
+    "education": {
+      "level": "inżynier lub magister (opcjonalnie)",
+      "fields": ["Informatyka", "Inżynieria oprogramowania", "Matematyka stosowana"],
+      "schools": [
+        { "name": "PW — Wydział Elektroniki i Technik Informacyjnych", "url": "https://www.elka.pw.edu.pl", "city": "Warszawa" },
+        { "name": "AGH — Wydział Informatyki", "url": "https://www.informatyka.agh.edu.pl", "city": "Kraków" },
+        { "name": "UW — Wydział Matematyki, Informatyki i Mechaniki", "url": "https://www.mimuw.edu.pl", "city": "Warszawa" },
+        { "name": "Politechnika Wrocławska — Wydział Informatyki i Telekomunikacji", "url": "https://wit.pwr.edu.pl", "city": "Wrocław" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Linus Torvalds", "description": "Twórca systemu Linux" },
+      { "name": "Marcin Iwiński", "description": "Współzałożyciel CD Projekt RED" },
+      { "name": "Guido van Rossum", "description": "Twórca języka Python" }
+    ],
+    "relatedCareers": ["tester", "analityk-danych", "administrator-systemow", "projektant-ux"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025", "No Fluff Jobs"]
+  },
+  {
+    "id": "lekarz",
+    "code": "221101",
+    "name": "Lekarz",
+    "aliases": ["doktor", "medyk", "lekarz ogólny", "lekarz pierwszego kontaktu"],
+    "shortDescription": "Diagnozuje choroby, leczy pacjentów i prowadzi profilaktykę zdrowotną. Jeden z najbardziej odpowiedzialnych zawodów.",
+    "fullDescription": "Lekarz rozpoznaje choroby, ordynuje leczenie, wykonuje zabiegi i operacje, a także prowadzi profilaktykę zdrowotną. Pracuje w szpitalach, przychodniach, gabinetach prywatnych. Studia trwają 6 lat + staż podyplomowy (13 miesięcy) + specjalizacja (4-6 lat). Zawód wymaga ciągłego dokształcania, odporności na stres i empatii.",
+    "salary": { "min": 6000, "max": 30000, "currency": "PLN" },
+    "demand": "deficytowy",
+    "category": "medycyna",
+    "skills": {
+      "required": ["Wiedza medyczna", "Diagnostyka kliniczna", "Komunikacja z pacjentem", "Odporność na stres", "Praca zespołowa", "Ciągłe dokształcanie (CME)"],
+      "certifications": [
+        { "name": "Prawo wykonywania zawodu (PWZ)", "url": "https://nil.org.pl" },
+        { "name": "Tytuł specjalisty (CMKP)", "url": "https://www.cmkp.edu.pl" }
+      ],
+      "training": [
+        { "name": "Staż podyplomowy (13 miesięcy)", "providers": ["Szpitale kliniczne"] },
+        { "name": "Specjalizacja lekarska (4-6 lat)", "providers": ["CMKP"] }
+      ]
+    },
+    "education": {
+      "level": "magister (lekarz)",
+      "fields": ["Lekarski (jednolite 6-letnie)"],
+      "schools": [
+        { "name": "WUM — Warszawski Uniwersytet Medyczny", "url": "https://www.wum.edu.pl", "city": "Warszawa" },
+        { "name": "UJ CM — Collegium Medicum", "url": "https://www.cm.uj.edu.pl", "city": "Kraków" },
+        { "name": "GUMed — Gdański Uniwersytet Medyczny", "url": "https://www.gumed.edu.pl", "city": "Gdańsk" },
+        { "name": "UM Wrocław", "url": "https://www.umw.edu.pl", "city": "Wrocław" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Ludwik Hirszfeld", "description": "Odkrywca grup krwi, immunolog" },
+      { "name": "Zbigniew Religa", "description": "Pionier transplantologii w Polsce" },
+      { "name": "Janusz Korczak", "description": "Lekarz, pedagog, pisarz" }
+    ],
+    "relatedCareers": ["pielegniarka", "farmaceuta", "fizjoterapeuta", "ratownik-medyczny"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025", "NIL"]
+  },
+  {
+    "id": "architekt",
+    "code": "216101",
+    "name": "Architekt",
+    "aliases": ["architekt budynków", "projektant budynków"],
+    "shortDescription": "Projektuje budynki i przestrzenie publiczne, łącząc estetykę z funkcjonalnością i przepisami budowlanymi.",
+    "fullDescription": "Architekt tworzy projekty budynków mieszkalnych, użyteczności publicznej i komercyjnych. Odpowiada za estetykę, funkcjonalność, bezpieczeństwo i zgodność z prawem budowlanym. Współpracuje z inżynierami, inwestorami i wykonawcami. Pracuje w pracowniach architektonicznych, firmach deweloperskich lub prowadzi własną działalność.",
+    "salary": { "min": 5000, "max": 15000, "currency": "PLN" },
+    "demand": "zrównoważony",
+    "category": "inzynieria",
+    "skills": {
+      "required": ["Projektowanie architektoniczne", "AutoCAD / Revit / ArchiCAD", "Znajomość prawa budowlanego", "Kreślenie techniczne", "Wizualizacja 3D", "Komunikacja z klientem"],
+      "certifications": [
+        { "name": "Uprawnienia budowlane (PIIB)", "url": "https://www.piib.org.pl" }
+      ],
+      "training": [
+        { "name": "Praktyka zawodowa (1-1,5 roku)", "providers": ["Pracownie architektoniczne"] }
+      ]
+    },
+    "education": {
+      "level": "magister inżynier",
+      "fields": ["Architektura", "Architektura i urbanistyka"],
+      "schools": [
+        { "name": "PW — Wydział Architektury", "url": "https://www.arch.pw.edu.pl", "city": "Warszawa" },
+        { "name": "Politechnika Krakowska — Wydział Architektury", "url": "https://arch.pk.edu.pl", "city": "Kraków" },
+        { "name": "Politechnika Wrocławska — Wydział Architektury", "url": "https://wa.pwr.edu.pl", "city": "Wrocław" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Stefan Kuryłowicz", "description": "Wybitny polski architekt modernistyczny" },
+      { "name": "Zaha Hadid", "description": "Ikona światowej architektury parametrycznej" },
+      { "name": "Daniel Libeskind", "description": "Twórca Muzeum Żydowskiego w Berlinie (ur. w Łodzi)" }
+    ],
+    "relatedCareers": ["inzynier-budownictwa", "urbanista", "projektant-wnetrz"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025"]
+  },
+  {
+    "id": "nauczyciel",
+    "code": "233010",
+    "name": "Nauczyciel",
+    "aliases": ["pedagog szkolny", "nauczyciel szkolny", "belfer", "edukator"],
+    "shortDescription": "Uczy i wychowuje dzieci i młodzież w szkołach, przekazuje wiedzę i rozwija kompetencje uczniów.",
+    "fullDescription": "Nauczyciel planuje i prowadzi zajęcia dydaktyczne, ocenia postępy uczniów, współpracuje z rodzicami i innymi nauczycielami. Pracuje w szkołach podstawowych, ponadpodstawowych lub ośrodkach edukacyjnych. Zawód wymaga cierpliwości, kreatywności, umiejętności komunikacji i ciągłego doskonalenia warsztatu pedagogicznego.",
+    "salary": { "min": 4500, "max": 8500, "currency": "PLN" },
+    "demand": "deficytowy",
+    "category": "edukacja",
+    "skills": {
+      "required": ["Wiedza merytoryczna z przedmiotu", "Dydaktyka i metodyka nauczania", "Zarządzanie klasą", "Komunikacja z uczniami i rodzicami", "Tworzenie materiałów edukacyjnych", "Cierpliwość i empatia"],
+      "certifications": [
+        { "name": "Kwalifikacje pedagogiczne", "url": "https://www.men.gov.pl" }
+      ],
+      "training": [
+        { "name": "Studia podyplomowe pedagogiczne", "providers": ["Uczelnie wyższe w całej Polsce"] },
+        { "name": "Awans zawodowy nauczyciela (Karta Nauczyciela)", "providers": ["Kuratoria oświaty"] }
+      ]
+    },
+    "education": {
+      "level": "magister + przygotowanie pedagogiczne",
+      "fields": ["Kierunek przedmiotowy + przygotowanie pedagogiczne", "Pedagogika"],
+      "schools": [
+        { "name": "UW — dowolny wydział + kurs pedagogiczny", "url": "https://www.uw.edu.pl", "city": "Warszawa" },
+        { "name": "UP Kraków — Uniwersytet Pedagogiczny", "url": "https://www.up.krakow.pl", "city": "Kraków" },
+        { "name": "UG — Wydział Nauk Społecznych", "url": "https://wns.ug.edu.pl", "city": "Gdańsk" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Maria Montessori", "description": "Twórczyni metody Montessori" },
+      { "name": "Janusz Korczak", "description": "Pedagog, pisarz, obrońca praw dzieci" },
+      { "name": "Celestyn Freinet", "description": "Twórca pedagogiki Freinetowskiej" }
+    ],
+    "relatedCareers": ["pedagog", "logopeda", "wykładowca"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025", "MEN"]
+  },
+  {
+    "id": "grafik",
+    "code": "216602",
+    "name": "Grafik komputerowy",
+    "aliases": ["graphic designer", "projektant graficzny", "grafik DTP"],
+    "shortDescription": "Tworzy projekty wizualne — loga, plakaty, strony internetowe, materiały marketingowe i identyfikację wizualną.",
+    "fullDescription": "Grafik komputerowy projektuje materiały wizualne przy pomocy specjalistycznego oprogramowania. Tworzy logotypy, branding, ulotki, banery, interfejsy stron i aplikacji. Pracuje w agencjach reklamowych, wydawnictwach, działach marketingu lub jako freelancer. Wymaga kreatywności, znajomości typografii, kompozycji i trendów designu.",
+    "salary": { "min": 4000, "max": 12000, "currency": "PLN" },
+    "demand": "zrównoważony",
+    "category": "sztuka",
+    "skills": {
+      "required": ["Adobe Photoshop / Illustrator / InDesign", "Typografia i kompozycja", "Teoria koloru", "Projektowanie UX/UI (opcjonalnie)", "Figma / Sketch", "Kreatywność i zmysł estetyczny"],
+      "certifications": [
+        { "name": "Adobe Certified Professional", "url": "https://www.adobe.com/certified.html" }
+      ],
+      "training": [
+        { "name": "Kursy grafiki komputerowej", "providers": ["Coders Lab", "Szkoła Forma"] }
+      ]
+    },
+    "education": {
+      "level": "licencjat lub magister (opcjonalnie)",
+      "fields": ["Grafika", "Wzornictwo", "Komunikacja wizualna"],
+      "schools": [
+        { "name": "ASP Warszawa", "url": "https://www.asp.waw.pl", "city": "Warszawa" },
+        { "name": "ASP Kraków", "url": "https://www.asp.krakow.pl", "city": "Kraków" },
+        { "name": "Szkoła Forma", "url": "https://www.szkolaforma.pl", "city": "Poznań" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Henryk Tomaszewski", "description": "Ikona polskiej szkoły plakatu" },
+      { "name": "Jan Lenica", "description": "Wybitny grafik i twórca plakatów" },
+      { "name": "Stefan Sagmeister", "description": "Światowej sławy grafik austriacki" }
+    ],
+    "relatedCareers": ["projektant-ux", "fotograf", "projektant-mody"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025"]
+  },
+  {
+    "id": "prawnik",
+    "code": "261101",
+    "name": "Prawnik",
+    "aliases": ["adwokat", "radca prawny", "jurista"],
+    "shortDescription": "Doradza w kwestiach prawnych, reprezentuje klientów przed sądami i organami administracyjnymi.",
+    "fullDescription": "Prawnik udziela porad prawnych, sporządza umowy, reprezentuje klientów w postępowaniach sądowych i administracyjnych. Po ukończeniu studiów prawniczych może zdać egzamin na aplikację adwokacką, radcowską, notarialną lub komorniczą. Pracuje w kancelariach, firmach, instytucjach publicznych lub prowadzi własną działalność.",
+    "salary": { "min": 5000, "max": 20000, "currency": "PLN" },
+    "demand": "zrównoważony",
+    "category": "prawo",
+    "skills": {
+      "required": ["Znajomość prawa polskiego i europejskiego", "Analiza dokumentów prawnych", "Argumentacja i retoryka", "Negocjacje", "Pisanie pism procesowych", "Etyka zawodowa"],
+      "certifications": [
+        { "name": "Egzamin adwokacki (ORA)", "url": "https://www.adwokatura.pl" },
+        { "name": "Egzamin radcowski (OIRP)", "url": "https://www.oirp.pl" }
+      ],
+      "training": [
+        { "name": "Aplikacja adwokacka (3 lata)", "providers": ["Okręgowe Rady Adwokackie"] },
+        { "name": "Aplikacja radcowska (3 lata)", "providers": ["Okręgowe Izby Radców Prawnych"] }
+      ]
+    },
+    "education": {
+      "level": "magister",
+      "fields": ["Prawo (jednolite 5-letnie)"],
+      "schools": [
+        { "name": "UW — Wydział Prawa i Administracji", "url": "https://www.wpia.uw.edu.pl", "city": "Warszawa" },
+        { "name": "UJ — Wydział Prawa i Administracji", "url": "https://wpia.uj.edu.pl", "city": "Kraków" },
+        { "name": "UAM — Wydział Prawa i Administracji", "url": "https://prawo.amu.edu.pl", "city": "Poznań" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Rafał Lemkin", "description": "Twórca pojęcia 'ludobójstwo', prawnik z Lwowa" },
+      { "name": "Adam Bodnar", "description": "Były Rzecznik Praw Obywatelskich, Minister Sprawiedliwości" }
+    ],
+    "relatedCareers": ["sedzia", "notariusz", "mediator"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025"]
+  },
+  {
+    "id": "analityk-danych",
+    "code": "252101",
+    "name": "Analityk danych",
+    "aliases": ["data analyst", "analityk biznesowy", "business analyst"],
+    "shortDescription": "Analizuje dane, tworzy raporty i wizualizacje, które pomagają firmom podejmować lepsze decyzje biznesowe.",
+    "fullDescription": "Analityk danych zbiera, przetwarza i interpretuje dane z różnych źródeł. Tworzy raporty, dashboardy i wizualizacje wspierające decyzje strategiczne. Pracuje z narzędziami takimi jak Excel, SQL, Power BI, Alteryx czy Python. Zatrudniany w korporacjach, firmach konsultingowych, bankach i startupach. Zawód łączy umiejętności analityczne z komunikowaniem wyników biznesowi.",
+    "salary": { "min": 6000, "max": 18000, "currency": "PLN" },
+    "demand": "deficytowy",
+    "category": "biznes",
+    "skills": {
+      "required": ["Excel zaawansowany (formuły, Power Query, Power Pivot)", "SQL", "Power BI / Tableau", "Myślenie analityczne", "Komunikacja wyników", "Podstawy statystyki"],
+      "certifications": [
+        { "name": "Microsoft Certified: Data Analyst Associate (PL-300)", "url": "https://learn.microsoft.com/en-us/certifications/data-analyst-associate/" },
+        { "name": "Google Data Analytics Certificate", "url": "https://grow.google/certificates/data-analytics/" }
+      ],
+      "training": [
+        { "name": "Kursy analizy danych", "providers": ["Coursera", "DataCamp", "Alteryx Academy"] }
+      ]
+    },
+    "education": {
+      "level": "licencjat lub magister",
+      "fields": ["Matematyka", "Statystyka", "Informatyka", "Ekonomia", "Zarządzanie"],
+      "schools": [
+        { "name": "SGH — Szkoła Główna Handlowa", "url": "https://www.sgh.waw.pl", "city": "Warszawa" },
+        { "name": "UW — Wydział Nauk Ekonomicznych", "url": "https://www.wne.uw.edu.pl", "city": "Warszawa" },
+        { "name": "UEK — Uniwersytet Ekonomiczny", "url": "https://www.uek.krakow.pl", "city": "Kraków" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Hans Rosling", "description": "Wizualizacja danych zdrowotnych, TED Talks" },
+      { "name": "Nate Silver", "description": "Analityk danych, twórca FiveThirtyEight" }
+    ],
+    "relatedCareers": ["programista", "ekonomista", "statystyk"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025", "No Fluff Jobs"]
+  },
+  {
+    "id": "pielegniarka",
+    "code": "222101",
+    "name": "Pielęgniarka / Pielęgniarz",
+    "aliases": ["pielęgniarka", "pielęgniarz", "nurse"],
+    "shortDescription": "Sprawuje opiekę nad pacjentami, wykonuje zabiegi medyczne i wspiera lekarzy w procesie leczenia.",
+    "fullDescription": "Pielęgniarka/pielęgniarz zapewnia opiekę zdrowotną pacjentom w szpitalach, przychodniach, domach opieki i w domu pacjenta. Wykonuje pomiary, podaje leki, asystuje przy zabiegach, edukuje pacjentów. Zawód wymaga empatii, odporności na stres, zdolności organizacyjnych i ciągłego kształcenia.",
+    "salary": { "min": 5000, "max": 10000, "currency": "PLN" },
+    "demand": "deficytowy",
+    "category": "medycyna",
+    "skills": {
+      "required": ["Opieka nad pacjentem", "Wykonywanie zabiegów pielęgniarskich", "Podawanie leków", "Dokumentacja medyczna", "Komunikacja z pacjentem i rodziną", "Pierwsza pomoc"],
+      "certifications": [
+        { "name": "Prawo wykonywania zawodu pielęgniarki (OIPiP)", "url": "https://www.nipip.pl" }
+      ],
+      "training": [
+        { "name": "Szkolenia specjalizacyjne", "providers": ["CKPPiP"] }
+      ]
+    },
+    "education": {
+      "level": "licencjat",
+      "fields": ["Pielęgniarstwo"],
+      "schools": [
+        { "name": "WUM — Wydział Nauk o Zdrowiu", "url": "https://www.wum.edu.pl", "city": "Warszawa" },
+        { "name": "UJ CM — Wydział Nauk o Zdrowiu", "url": "https://www.cm.uj.edu.pl", "city": "Kraków" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Florence Nightingale", "description": "Prekursorka nowoczesnego pielęgniarstwa" },
+      { "name": "Hanna Chrzanowska", "description": "Polska pielęgniarka, błogosławiona Kościoła katolickiego" }
+    ],
+    "relatedCareers": ["lekarz", "ratownik-medyczny", "polozna"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025"]
+  },
+  {
+    "id": "farmaceuta",
+    "code": "226201",
+    "name": "Farmaceuta",
+    "aliases": ["aptekarz", "magister farmacji"],
+    "shortDescription": "Wydaje leki, doradza w kwestiach farmakoterapii i dba o bezpieczeństwo stosowania leków.",
+    "fullDescription": "Farmaceuta przygotowuje i wydaje leki, doradza pacjentom i lekarzom w zakresie farmakoterapii, kontroluje interakcje leków. Pracuje w aptekach, firmach farmaceutycznych, szpitalach lub instytucjach nadzoru. Studia trwają 5,5 roku (jednolite magisterskie) + 6-miesięczna praktyka.",
+    "salary": { "min": 6000, "max": 14000, "currency": "PLN" },
+    "demand": "deficytowy",
+    "category": "medycyna",
+    "skills": {
+      "required": ["Wiedza farmakologiczna", "Znajomość interakcji leków", "Komunikacja z pacjentem", "Sporządzanie leków recepturowych", "Zarządzanie apteką", "Farmacja kliniczna"],
+      "certifications": [
+        { "name": "Prawo wykonywania zawodu farmaceuty", "url": "https://www.nia.org.pl" }
+      ],
+      "training": []
+    },
+    "education": {
+      "level": "magister (jednolite 5,5-letnie)",
+      "fields": ["Farmacja"],
+      "schools": [
+        { "name": "WUM — Wydział Farmaceutyczny", "url": "https://www.wum.edu.pl", "city": "Warszawa" },
+        { "name": "UJ CM — Wydział Farmaceutyczny", "url": "https://www.cm.uj.edu.pl", "city": "Kraków" },
+        { "name": "UM Wrocław — Wydział Farmaceutyczny", "url": "https://www.umw.edu.pl", "city": "Wrocław" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Ignacy Łukasiewicz", "description": "Farmaceuta i wynalazca lampy naftowej" },
+      { "name": "Tadeusz Pankiewicz", "description": "Aptekarz z krakowskiego getta, Sprawiedliwy wśród Narodów Świata" }
+    ],
+    "relatedCareers": ["lekarz", "chemik", "biotechnolog"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025"]
+  },
+  {
+    "id": "fizjoterapeuta",
+    "code": "229201",
+    "name": "Fizjoterapeuta",
+    "aliases": ["rehabilitant", "terapeuta fizyczny", "physiotherapist"],
+    "shortDescription": "Pomaga pacjentom odzyskać sprawność fizyczną przez ćwiczenia, masaże i zabiegi fizykalne.",
+    "fullDescription": "Fizjoterapeuta planuje i prowadzi rehabilitację pacjentów po urazach, operacjach, chorobach neurologicznych i ortopedycznych. Stosuje ćwiczenia lecznicze, masaż, fizykoterapię (np. ultradźwięki, laser). Pracuje w szpitalach, przychodniach rehabilitacyjnych, ośrodkach sportowych lub prowadzi własny gabinet.",
+    "salary": { "min": 4500, "max": 12000, "currency": "PLN" },
+    "demand": "deficytowy",
+    "category": "medycyna",
+    "skills": {
+      "required": ["Diagnostyka funkcjonalna", "Kinezyterapia", "Masaż leczniczy", "Fizykoterapia", "Anatomia i biomechanika", "Komunikacja z pacjentem"],
+      "certifications": [
+        { "name": "Prawo wykonywania zawodu fizjoterapeuty (KIF)", "url": "https://kif.info.pl" }
+      ],
+      "training": [
+        { "name": "Szkolenia specjalizacyjne (terapia manualna, McKenzie, PNF)", "providers": ["Centra szkoleniowe fizjoterapii"] }
+      ]
+    },
+    "education": {
+      "level": "magister (jednolite 5-letnie od 2019)",
+      "fields": ["Fizjoterapia"],
+      "schools": [
+        { "name": "AWF Warszawa", "url": "https://www.awf.edu.pl", "city": "Warszawa" },
+        { "name": "AWF Kraków", "url": "https://www.awf.krakow.pl", "city": "Kraków" },
+        { "name": "AWF Wrocław", "url": "https://www.awf.wroc.pl", "city": "Wrocław" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Robin McKenzie", "description": "Twórca metody McKenzie (Nowa Zelandia)" }
+    ],
+    "relatedCareers": ["lekarz", "pielegniarka", "terapeuta-zajeciowy"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025"]
+  },
+  {
+    "id": "ksiegowy",
+    "code": "331301",
+    "name": "Księgowy",
+    "aliases": ["księgowa", "accountant", "główna księgowa"],
+    "shortDescription": "Prowadzi dokumentację finansową firmy, sporządza bilanse, deklaracje podatkowe i sprawozdania.",
+    "fullDescription": "Księgowy prowadzi ewidencję operacji gospodarczych, sporządza sprawozdania finansowe, deklaracje podatkowe i rozliczenia z ZUS. Pracuje w biurach rachunkowych, działach finansowych firm lub prowadzi własne biuro księgowe. Wymaga dokładności, znajomości prawa podatkowego i umiejętności obsługi programów księgowych.",
+    "salary": { "min": 4500, "max": 12000, "currency": "PLN" },
+    "demand": "deficytowy",
+    "category": "biznes",
+    "skills": {
+      "required": ["Rachunkowość i finanse", "Prawo podatkowe", "Programy księgowe (Comarch, Sage, SAP)", "Microsoft Excel", "Dokładność i sumienność", "Sprawozdawczość finansowa"],
+      "certifications": [
+        { "name": "Certyfikat księgowego (SKwP)", "url": "https://www.skwp.pl" },
+        { "name": "ACCA", "url": "https://www.accaglobal.com" }
+      ],
+      "training": [
+        { "name": "Kursy księgowości", "providers": ["SKwP", "Akademia MDDP"] }
+      ]
+    },
+    "education": {
+      "level": "licencjat lub magister",
+      "fields": ["Finanse i rachunkowość", "Ekonomia"],
+      "schools": [
+        { "name": "SGH — Szkoła Główna Handlowa", "url": "https://www.sgh.waw.pl", "city": "Warszawa" },
+        { "name": "UEK — Uniwersytet Ekonomiczny", "url": "https://www.uek.krakow.pl", "city": "Kraków" },
+        { "name": "UE Wrocław", "url": "https://www.ue.wroc.pl", "city": "Wrocław" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Luca Pacioli", "description": "Ojciec księgowości, twórca podwójnego zapisu (XV w.)" }
+    ],
+    "relatedCareers": ["audytor", "doradca-podatkowy", "ekonomista"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025"]
+  },
+  {
+    "id": "kucharz",
+    "code": "512001",
+    "name": "Kucharz",
+    "aliases": ["szef kuchni", "chef", "kuchmistrz", "cook"],
+    "shortDescription": "Przygotowuje posiłki w restauracjach, hotelach i cateringach, tworzy menu i dba o jakość potraw.",
+    "fullDescription": "Kucharz przygotowuje potrawy zgodnie z recepturami lub tworzy autorskie dania. Odpowiada za dobór składników, techniki przyrządzania, estetykę podania i przestrzeganie zasad higieny (HACCP). Pracuje w restauracjach, hotelach, stołówkach lub firmach cateringowych. Szef kuchni dodatkowo zarządza zespołem i planuje menu.",
+    "salary": { "min": 3800, "max": 10000, "currency": "PLN" },
+    "demand": "deficytowy",
+    "category": "uslugi",
+    "skills": {
+      "required": ["Techniki gotowania", "Znajomość kuchni polskiej i międzynarodowej", "Planowanie menu", "Zasady HACCP", "Organizacja pracy kuchni", "Kreatywność kulinarna"],
+      "certifications": [
+        { "name": "Certyfikat HACCP", "url": "" }
+      ],
+      "training": [
+        { "name": "Szkoła gastronomiczna / technikum gastronomiczne", "providers": ["ZSG w całej Polsce"] }
+      ]
+    },
+    "education": {
+      "level": "zawodowe lub średnie",
+      "fields": ["Gastronomia", "Technik żywienia"],
+      "schools": [
+        { "name": "ZSG Nr 1 Warszawa", "url": "", "city": "Warszawa" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Robert Makłowicz", "description": "Krytyk kulinarny, prezenter TV, popularyzator kuchni" },
+      { "name": "Wojciech Modest Amaro", "description": "Pierwszy polski szef kuchni z gwiazdką Michelin" }
+    ],
+    "relatedCareers": ["cukiernik", "dietetyk", "kelner"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025"]
+  },
+  {
+    "id": "tester",
+    "code": "251903",
+    "name": "Tester oprogramowania",
+    "aliases": ["QA engineer", "tester QA", "quality assurance"],
+    "shortDescription": "Sprawdza jakość oprogramowania, wyszukuje błędy i dba o to, by aplikacje działały poprawnie.",
+    "fullDescription": "Tester oprogramowania weryfikuje, czy aplikacje działają zgodnie z wymaganiami. Projektuje przypadki testowe, wykonuje testy manualne i automatyczne, raportuje błędy. Pracuje w firmach IT, bankach, e-commerce. Zawód często traktowany jako ścieżka wejścia do branży IT — nie wymaga umiejętności programowania na start, choć automatyzacja testów ją wymaga.",
+    "salary": { "min": 5000, "max": 16000, "currency": "PLN" },
+    "demand": "deficytowy",
+    "category": "it",
+    "skills": {
+      "required": ["Myślenie analityczne", "Projektowanie przypadków testowych", "Narzędzia testowe (Jira, TestRail)", "Podstawy SQL", "Testy API (Postman)", "Automatyzacja testów (Selenium, Cypress — zaawansowane)"],
+      "certifications": [
+        { "name": "ISTQB Foundation Level", "url": "https://www.istqb.org" }
+      ],
+      "training": [
+        { "name": "Kursy testowania oprogramowania", "providers": ["Coders Lab", "SDA"] }
+      ]
+    },
+    "education": {
+      "level": "licencjat (opcjonalnie)",
+      "fields": ["Informatyka", "Dowolny kierunek + kurs QA"],
+      "schools": [
+        { "name": "Politechnika (dowolna) — Informatyka", "url": "", "city": "" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "James Bach", "description": "Guru testowania eksploracyjnego" }
+    ],
+    "relatedCareers": ["programista", "analityk-danych", "administrator-systemow"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025"]
+  },
+  {
+    "id": "dentysta",
+    "code": "226101",
+    "name": "Dentysta",
+    "aliases": ["stomatolog", "lekarz dentysta", "lekarz stomatolog"],
+    "shortDescription": "Leczy choroby zębów i jamy ustnej, wykonuje zabiegi stomatologiczne i profilaktykę.",
+    "fullDescription": "Dentysta diagnozuje i leczy choroby zębów, dziąseł i jamy ustnej. Wykonuje zabiegi zachowawcze, protetyczne, chirurgiczne i ortodontyczne. Studia trwają 5 lat (jednolite), po nich staż podyplomowy. Może pracować w gabinecie prywatnym, przychodni lub szpitalu. Jeden z najlepiej opłacanych zawodów medycznych.",
+    "salary": { "min": 8000, "max": 30000, "currency": "PLN" },
+    "demand": "deficytowy",
+    "category": "medycyna",
+    "skills": {
+      "required": ["Stomatologia zachowawcza", "Protetyka", "Chirurgia stomatologiczna", "Radiologia stomatologiczna", "Komunikacja z pacjentem", "Precyzja manualna"],
+      "certifications": [
+        { "name": "Prawo wykonywania zawodu lekarza dentysty", "url": "https://nil.org.pl" }
+      ],
+      "training": []
+    },
+    "education": {
+      "level": "magister (jednolite 5-letnie)",
+      "fields": ["Lekarsko-dentystyczny"],
+      "schools": [
+        { "name": "WUM — Wydział Lekarsko-Dentystyczny", "url": "https://www.wum.edu.pl", "city": "Warszawa" },
+        { "name": "UJ CM", "url": "https://www.cm.uj.edu.pl", "city": "Kraków" },
+        { "name": "UM Łódź", "url": "https://www.umed.lodz.pl", "city": "Łódź" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Pierre Fauchard", "description": "Ojciec nowoczesnej stomatologii (XVIII w.)" }
+    ],
+    "relatedCareers": ["lekarz", "ortodonta", "protetyk"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025"]
+  },
+  {
+    "id": "fotograf",
+    "code": "343101",
+    "name": "Fotograf",
+    "aliases": ["photographer", "fotoreporter", "fotograf ślubny"],
+    "shortDescription": "Utrwala obrazy za pomocą aparatu fotograficznego — reportaże, portrety, fotografia produktowa, ślubna.",
+    "fullDescription": "Fotograf wykonuje zdjęcia w różnych konwencjach: reportaż, portret, fotografia produktowa, ślubna, mody, krajobrazowa. Pracuje z klientami indywidualnymi, agencjami, mediami lub jako artysta. Wymaga oka do kompozycji, znajomości techniki (oświetlenie, obróbka), umiejętności pracy z ludźmi i marketingu własnej marki.",
+    "salary": { "min": 3500, "max": 12000, "currency": "PLN" },
+    "demand": "zrównoważony",
+    "category": "sztuka",
+    "skills": {
+      "required": ["Kompozycja i kadrowanie", "Obsługa aparatu i oświetlenia", "Adobe Lightroom / Photoshop", "Praca z klientem", "Marketing i budowanie portfolio", "Fotografia cyfrowa i analogowa"],
+      "certifications": [],
+      "training": [
+        { "name": "Kursy fotografii", "providers": ["Szkoła fotografii w Krakowie", "Leica Academy"] }
+      ]
+    },
+    "education": {
+      "level": "opcjonalne (licencjat)",
+      "fields": ["Fotografia", "Grafika", "Sztuka mediów"],
+      "schools": [
+        { "name": "PWSFTviT — Szkoła Filmowa w Łodzi", "url": "https://www.filmschool.lodz.pl", "city": "Łódź" },
+        { "name": "ASP Warszawa", "url": "https://www.asp.waw.pl", "city": "Warszawa" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Adam Lach", "description": "Fotoreporter, laureat World Press Photo" },
+      { "name": "Chris Niedenthal", "description": "Legendarny fotoreporter, zdjęcie kina Moskwa" }
+    ],
+    "relatedCareers": ["grafik", "operator-kamery", "dziennikarz"],
+    "sources": ["INFOdoradca+"]
+  },
+  {
+    "id": "dziennikarz",
+    "code": "264201",
+    "name": "Dziennikarz",
+    "aliases": ["reporter", "redaktor", "publicysta", "journalist"],
+    "shortDescription": "Zbiera informacje, pisze artykuły i relacje, informuje opinię publiczną o ważnych wydarzeniach.",
+    "fullDescription": "Dziennikarz zbiera, weryfikuje i przekazuje informacje za pośrednictwem prasy, telewizji, radia i mediów internetowych. Prowadzi wywiady, pisze reportaże i analizy, relacjonuje wydarzenia. Pracuje w redakcjach, agencjach prasowych, mediach cyfrowych lub jako freelancer. Wymaga dobrego pióra, dociekliwości i etyki.",
+    "salary": { "min": 4000, "max": 12000, "currency": "PLN" },
+    "demand": "nadwyżkowy",
+    "category": "sztuka",
+    "skills": {
+      "required": ["Pisanie i redagowanie tekstów", "Weryfikacja faktów", "Prowadzenie wywiadu", "Obsługa mediów cyfrowych", "Etyka dziennikarska", "Praca pod presją czasu"],
+      "certifications": [],
+      "training": []
+    },
+    "education": {
+      "level": "magister",
+      "fields": ["Dziennikarstwo", "Komunikacja społeczna", "Filologia polska"],
+      "schools": [
+        { "name": "UW — Wydział Dziennikarstwa", "url": "https://www.wdib.uw.edu.pl", "city": "Warszawa" },
+        { "name": "UJ — Instytut Dziennikarstwa", "url": "https://media.uj.edu.pl", "city": "Kraków" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Ryszard Kapuściński", "description": "Legendarny reporter, podróżnik, pisarz" },
+      { "name": "Hanna Krall", "description": "Reportażystka, autorka 'Zdążyć przed Panem Bogiem'" }
+    ],
+    "relatedCareers": ["fotograf", "specjalista-pr", "copywriter"],
+    "sources": ["INFOdoradca+"]
+  },
+  {
+    "id": "ratownik-medyczny",
+    "code": "325601",
+    "name": "Ratownik medyczny",
+    "aliases": ["paramedyk", "paramedic"],
+    "shortDescription": "Udziela pierwszej pomocy i ratuje życie na miejscu wypadków, w karetkach pogotowia i SOR-ach.",
+    "fullDescription": "Ratownik medyczny udziela świadczeń zdrowotnych w stanach nagłego zagrożenia życia. Pracuje w zespołach ratownictwa medycznego (karetki), szpitalnych oddziałach ratunkowych i przy zabezpieczeniu imprez masowych. Studia trwają 3 lata (licencjat). Wymaga odporności na stres, szybkiego podejmowania decyzji i sprawności fizycznej.",
+    "salary": { "min": 4500, "max": 9000, "currency": "PLN" },
+    "demand": "deficytowy",
+    "category": "medycyna",
+    "skills": {
+      "required": ["Zaawansowane zabiegi resuscytacyjne (ALS)", "Ocena stanu pacjenta", "Unieruchamianie złamań", "Obsługa sprzętu medycznego", "Praca w stresie", "Praca zespołowa"],
+      "certifications": [
+        { "name": "Prawo wykonywania zawodu ratownika medycznego", "url": "" }
+      ],
+      "training": [
+        { "name": "Kursy ALS, ITLS, PHTLS", "providers": ["Polskie Towarzystwo Medycyny Ratunkowej"] }
+      ]
+    },
+    "education": {
+      "level": "licencjat",
+      "fields": ["Ratownictwo medyczne"],
+      "schools": [
+        { "name": "WUM — Wydział Nauk o Zdrowiu", "url": "https://www.wum.edu.pl", "city": "Warszawa" },
+        { "name": "UJ CM", "url": "https://www.cm.uj.edu.pl", "city": "Kraków" }
+      ]
+    },
+    "famousPeople": [],
+    "relatedCareers": ["lekarz", "pielegniarka", "strazak"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025"]
+  },
+  {
+    "id": "projektant-ux",
+    "code": "251201",
+    "name": "Projektant UX/UI",
+    "aliases": ["UX designer", "UI designer", "projektant doświadczeń użytkownika"],
+    "shortDescription": "Projektuje interfejsy i doświadczenia użytkowników aplikacji i stron internetowych.",
+    "fullDescription": "Projektant UX/UI bada potrzeby użytkowników, tworzy wireframe'y, prototypy i finalny design interfejsów cyfrowych. Dba o to, by produkty cyfrowe były intuicyjne, estetyczne i dostępne. Pracuje z programistami, analitykami i klientami. Łączy wiedzę z psychologii, designu i technologii.",
+    "salary": { "min": 6000, "max": 18000, "currency": "PLN" },
+    "demand": "deficytowy",
+    "category": "it",
+    "skills": {
+      "required": ["Figma / Sketch / Adobe XD", "Badania użytkowników", "Wireframing i prototypowanie", "Design system", "Podstawy HTML/CSS", "Testowanie użyteczności"],
+      "certifications": [
+        { "name": "Google UX Design Certificate", "url": "https://grow.google/certificates/ux-design/" }
+      ],
+      "training": [
+        { "name": "Kursy UX/UI", "providers": ["Coders Lab", "UX Design Institute"] }
+      ]
+    },
+    "education": {
+      "level": "licencjat (opcjonalnie)",
+      "fields": ["Informatyka", "Grafika", "Psychologia", "Wzornictwo"],
+      "schools": [
+        { "name": "ASP Warszawa — Wydział Wzornictwa", "url": "https://www.asp.waw.pl", "city": "Warszawa" },
+        { "name": "SWPS — Human-Computer Interaction", "url": "https://www.swps.pl", "city": "Warszawa" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Don Norman", "description": "Autor 'The Design of Everyday Things', twórca terminu UX" },
+      { "name": "Jony Ive", "description": "Były szef designu Apple" }
+    ],
+    "relatedCareers": ["grafik", "programista", "analityk-danych"],
+    "sources": ["INFOdoradca+", "No Fluff Jobs"]
+  },
+  {
+    "id": "elektryk",
+    "code": "741201",
+    "name": "Elektryk",
+    "aliases": ["instalator elektryczny", "monter instalacji elektrycznych", "electrician"],
+    "shortDescription": "Montuje, naprawia i konserwuje instalacje elektryczne w budynkach i zakładach przemysłowych.",
+    "fullDescription": "Elektryk projektuje, montuje, konserwuje i naprawia instalacje elektryczne. Pracuje na budowach, w zakładach przemysłowych, firmach instalacyjnych lub prowadzi własną działalność. Wymaga uprawnień energetycznych (SEP), znajomości norm i przepisów BHP. Zawód z dużym zapotrzebowaniem na rynku pracy.",
+    "salary": { "min": 4500, "max": 10000, "currency": "PLN" },
+    "demand": "deficytowy",
+    "category": "inzynieria",
+    "skills": {
+      "required": ["Montaż instalacji elektrycznych", "Czytanie schematów elektrycznych", "Pomiary elektryczne", "Znajomość norm i przepisów", "BHP przy instalacjach elektrycznych", "Uprawnienia SEP"],
+      "certifications": [
+        { "name": "Świadectwo kwalifikacyjne SEP (grupa 1)", "url": "" }
+      ],
+      "training": [
+        { "name": "Kurs SEP", "providers": ["Stowarzyszenie Elektryków Polskich"] }
+      ]
+    },
+    "education": {
+      "level": "zawodowe lub średnie",
+      "fields": ["Elektryk", "Technik elektryk"],
+      "schools": [
+        { "name": "Zespoły szkół elektrycznych w całej Polsce", "url": "", "city": "" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Nikola Tesla", "description": "Wynalazca prądu zmiennego" },
+      { "name": "Thomas Edison", "description": "Wynalazca żarówki i systemu dystrybucji prądu" }
+    ],
+    "relatedCareers": ["inzynier-elektryk", "automatyk", "technik-energetyk"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025"]
+  },
+  {
+    "id": "policjant",
+    "code": "335401",
+    "name": "Policjant",
+    "aliases": ["funkcjonariusz policji", "officer"],
+    "shortDescription": "Dba o porządek publiczny i bezpieczeństwo obywateli, ściga przestępców i zapobiega przestępczości.",
+    "fullDescription": "Policjant chroni życie i zdrowie obywateli, utrzymuje porządek publiczny, prowadzi działania prewencyjne i dochodzeniowo-śledcze. Pracuje w komendach, na ulicach, w laboratoriach kryminalistycznych. Służba wymaga odporności fizycznej i psychicznej, uczciwości, umiejętności pracy pod presją.",
+    "salary": { "min": 5000, "max": 10000, "currency": "PLN" },
+    "demand": "deficytowy",
+    "category": "bezpieczenstwo",
+    "skills": {
+      "required": ["Znajomość prawa karnego i wykroczeń", "Taktyka interwencyjna", "Samoobrona i techniki obezwładniania", "Obsługa broni służbowej", "Pierwsza pomoc", "Komunikacja i deeskalacja konfliktu"],
+      "certifications": [],
+      "training": [
+        { "name": "Szkolenie zawodowe podstawowe (6 miesięcy)", "providers": ["Szkoły Policji"] }
+      ]
+    },
+    "education": {
+      "level": "średnie (minimum) + szkolenie policyjne",
+      "fields": ["Dowolny kierunek + rekrutacja do Policji"],
+      "schools": [
+        { "name": "Szkoła Policji w Słupsku", "url": "https://www.slupsk.szkolapolicji.gov.pl", "city": "Słupsk" },
+        { "name": "Wyższa Szkoła Policji w Szczytnie", "url": "https://www.wspol.edu.pl", "city": "Szczytno" }
+      ]
+    },
+    "famousPeople": [],
+    "relatedCareers": ["strazak", "zolnierz", "detektyw"],
+    "sources": ["INFOdoradca+", "Policja.pl"]
+  },
+  {
+    "id": "strazak",
+    "code": "541001",
+    "name": "Strażak",
+    "aliases": ["firefighter", "strażak PSP", "ratownik pożarnictwa"],
+    "shortDescription": "Gasi pożary, ratuje ludzi z zagrożeń i prowadzi akcje ratownictwa technicznego i chemicznego.",
+    "fullDescription": "Strażak gasi pożary, prowadzi akcje ratownicze (wypadki drogowe, klęski żywiołowe, zagrożenia chemiczne), udziela pomocy przedmedycznej. Służy w Państwowej Straży Pożarnej (PSP) lub Ochotniczej Straży Pożarnej (OSP). Wymaga doskonałej sprawności fizycznej, odwagi, umiejętności pracy zespołowej.",
+    "salary": { "min": 4500, "max": 8500, "currency": "PLN" },
+    "demand": "zrównoważony",
+    "category": "bezpieczenstwo",
+    "skills": {
+      "required": ["Gaszenie pożarów", "Ratownictwo techniczne", "Ratownictwo medyczne (KPP)", "Obsługa sprzętu gaśniczego", "Sprawność fizyczna", "Praca zespołowa w stresie"],
+      "certifications": [],
+      "training": [
+        { "name": "Szkolenie podstawowe PSP", "providers": ["Szkoły Aspirantów PSP"] }
+      ]
+    },
+    "education": {
+      "level": "średnie lub wyższe (inżynier pożarnictwa)",
+      "fields": ["Inżynieria bezpieczeństwa pożarowego", "Dowolny + rekrutacja PSP"],
+      "schools": [
+        { "name": "SGSP — Szkoła Główna Służby Pożarniczej", "url": "https://www.sgsp.edu.pl", "city": "Warszawa" }
+      ]
+    },
+    "famousPeople": [],
+    "relatedCareers": ["policjant", "ratownik-medyczny", "zolnierz"],
+    "sources": ["INFOdoradca+"]
+  },
+  {
+    "id": "dietetyk",
+    "code": "229901",
+    "name": "Dietetyk",
+    "aliases": ["doradca żywieniowy", "nutritionist"],
+    "shortDescription": "Planuje diety i programy żywieniowe, doradza w zakresie zdrowego odżywiania i leczenia dietą.",
+    "fullDescription": "Dietetyk ocenia stan odżywienia pacjentów, planuje indywidualne diety, edukuje w zakresie prawidłowego żywienia. Pracuje w szpitalach, poradniach dietetycznych, sieciach fitness, firmach cateringowych lub prowadzi własną praktykę online. Coraz popularniejszy zawód ze względu na rosnącą świadomość zdrowotną.",
+    "salary": { "min": 3500, "max": 8000, "currency": "PLN" },
+    "demand": "zrównoważony",
+    "category": "medycyna",
+    "skills": {
+      "required": ["Planowanie diet", "Znajomość fizjologii żywienia", "Analiza składu ciała", "Dietetyka kliniczna", "Komunikacja z pacjentem", "Prowadzenie konsultacji online"],
+      "certifications": [],
+      "training": [
+        { "name": "Kursy specjalistyczne (dietetyka sportowa, kliniczna)", "providers": ["Polskie Towarzystwo Dietetyki"] }
+      ]
+    },
+    "education": {
+      "level": "licencjat lub magister",
+      "fields": ["Dietetyka", "Żywienie człowieka"],
+      "schools": [
+        { "name": "SGGW — Wydział Żywienia Człowieka", "url": "https://www.sggw.edu.pl", "city": "Warszawa" },
+        { "name": "WUM — Wydział Nauk o Zdrowiu", "url": "https://www.wum.edu.pl", "city": "Warszawa" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Anna Lewandowska", "description": "Dietetyk sportowy, trenerka, przedsiębiorca" }
+    ],
+    "relatedCareers": ["lekarz", "fizjoterapeuta", "trener-personalny"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025"]
+  },
+  {
+    "id": "tlumacz",
+    "code": "264301",
+    "name": "Tłumacz",
+    "aliases": ["translator", "interpreter", "tłumacz przysięgły", "tłumacz ustny"],
+    "shortDescription": "Przekłada teksty lub tłumaczy ustnie z jednego języka na inny, zachowując sens i styl oryginału.",
+    "fullDescription": "Tłumacz przekłada dokumenty, literaturę, treści specjalistyczne (prawnicze, medyczne, techniczne) lub tłumaczy ustnie na konferencjach, w sądach i instytucjach. Tłumacz przysięgły wykonuje uwierzytelnione tłumaczenia dokumentów urzędowych. Wymaga doskonałej znajomości co najmniej dwóch języków, wiedzy specjalistycznej i precyzji.",
+    "salary": { "min": 4000, "max": 12000, "currency": "PLN" },
+    "demand": "zrównoważony",
+    "category": "sztuka",
+    "skills": {
+      "required": ["Biegła znajomość dwóch+ języków", "Terminologia specjalistyczna", "Narzędzia CAT (SDL Trados, memoQ)", "Redakcja i korekta tekstu", "Tłumaczenie konsekutywne/symultaniczne (ustne)", "Kultura i kontekst językowy"],
+      "certifications": [
+        { "name": "Tłumacz przysięgły (egzamin MS)", "url": "https://www.gov.pl/web/sprawiedliwosc/tlumacze-przysiegli" }
+      ],
+      "training": []
+    },
+    "education": {
+      "level": "magister",
+      "fields": ["Filologia", "Lingwistyka stosowana", "Translatoryka"],
+      "schools": [
+        { "name": "UW — Instytut Lingwistyki Stosowanej", "url": "https://www.ils.uw.edu.pl", "city": "Warszawa" },
+        { "name": "UJ — Wydział Filologiczny", "url": "https://www.filg.uj.edu.pl", "city": "Kraków" },
+        { "name": "UAM — Wydział Neofilologii", "url": "https://neofilologia.amu.edu.pl", "city": "Poznań" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "Irena Tuwim", "description": "Tłumaczka literatury rosyjskiej" },
+      { "name": "Stanisław Barańczak", "description": "Poeta i tłumacz Shakespeare'a" }
+    ],
+    "relatedCareers": ["dziennikarz", "copywriter", "filolog"],
+    "sources": ["INFOdoradca+"]
+  },
+  {
+    "id": "weterynarz",
+    "code": "225101",
+    "name": "Weterynarz",
+    "aliases": ["lekarz weterynarii", "vet", "veterinarian"],
+    "shortDescription": "Leczy zwierzęta domowe, hodowlane i egzotyczne, wykonuje zabiegi i prowadzi profilaktykę.",
+    "fullDescription": "Weterynarz diagnozuje choroby zwierząt, wykonuje zabiegi chirurgiczne, szczepienia, nadzoruje bezpieczeństwo żywności pochodzenia zwierzęcego. Pracuje w lecznicach dla małych zwierząt, gospodarstwach, ogrodach zoologicznych lub inspekcji weterynaryjnej. Studia trwają 5,5 roku (jednolite magisterskie).",
+    "salary": { "min": 4500, "max": 12000, "currency": "PLN" },
+    "demand": "zrównoważony",
+    "category": "przyroda",
+    "skills": {
+      "required": ["Diagnostyka weterynaryjna", "Chirurgia weterynaryjna", "Farmakologia weterynaryjna", "USG i RTG zwierząt", "Komunikacja z właścicielami", "Opieka nad zwierzętami egzotycznymi"],
+      "certifications": [
+        { "name": "Prawo wykonywania zawodu lekarza weterynarii", "url": "https://www.vetpol.org.pl" }
+      ],
+      "training": []
+    },
+    "education": {
+      "level": "magister (jednolite 5,5-letnie)",
+      "fields": ["Weterynaria"],
+      "schools": [
+        { "name": "SGGW — Wydział Medycyny Weterynaryjnej", "url": "https://www.sggw.edu.pl", "city": "Warszawa" },
+        { "name": "UP Wrocław — Wydział Medycyny Weterynaryjnej", "url": "https://www.upwr.edu.pl", "city": "Wrocław" },
+        { "name": "UWM Olsztyn — Wydział Medycyny Weterynaryjnej", "url": "https://www.uwm.edu.pl", "city": "Olsztyn" }
+      ]
+    },
+    "famousPeople": [
+      { "name": "James Herriot", "description": "Weterynarz-pisarz, autor 'Wszystkie stworzenia'" }
+    ],
+    "relatedCareers": ["zoolog", "behawiorysta-zwierzat", "technik-weterynarii"],
+    "sources": ["INFOdoradca+", "Barometr Zawodów 2025"]
+  }
+]
