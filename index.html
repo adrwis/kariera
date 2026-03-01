@@ -27,10 +27,7 @@
 
   <!-- Top bar -->
   <header class="topbar">
-    <a href="#/" class="topbar__logo" aria-label="NextMove — strona główna">
-      <span class="topbar__icon">N</span>
-      <span class="topbar__title">NextMove</span>
-    </a>
+    <span class="topbar__motto">Znajdź swoją ścieżkę kariery z naszą pomocą</span>
     <div class="topbar__right">
       <span class="topbar__stat">80+ zawodów</span>
       <button class="theme-toggle" id="themeToggle" type="button" aria-label="Przełącz motyw jasny/ciemny">
@@ -95,50 +92,114 @@
           </div>
 
           <aside class="landing__right">
-            <div class="categories" aria-label="Przeglądaj kategorie">
-              <h2 class="categories__heading">Przeglądaj kategorie</h2>
-              <div class="categories__grid" role="list">
-                <a href="#/wyniki?cat=it" class="category-tile" role="listitem">
-                  <span class="category-tile__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></span>
-                  <span class="category-tile__name">IT i Technologia</span>
-                </a>
-                <a href="#/wyniki?cat=medycyna" class="category-tile" role="listitem">
-                  <span class="category-tile__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
-                  <span class="category-tile__name">Medycyna i Zdrowie</span>
-                </a>
-                <a href="#/wyniki?cat=prawo" class="category-tile" role="listitem">
-                  <span class="category-tile__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 22h18"/><path d="M6 18v-7"/><path d="M10 18v-7"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="m12 2-9 7h18z"/></svg></span>
-                  <span class="category-tile__name">Prawo i Administracja</span>
-                </a>
-                <a href="#/wyniki?cat=edukacja" class="category-tile" role="listitem">
-                  <span class="category-tile__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6"/><path d="M6 12v5c3 3 9 3 12 0v-5"/><path d="m2 10 10-5 10 5-10 5z"/></svg></span>
-                  <span class="category-tile__name">Edukacja i Nauka</span>
-                </a>
-                <a href="#/wyniki?cat=biznes" class="category-tile" role="listitem">
-                  <span class="category-tile__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></span>
-                  <span class="category-tile__name">Biznes i Finanse</span>
-                </a>
-                <a href="#/wyniki?cat=inzynieria" class="category-tile" role="listitem">
-                  <span class="category-tile__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
-                  <span class="category-tile__name">Inżynieria</span>
-                </a>
-                <a href="#/wyniki?cat=sztuka" class="category-tile" role="listitem">
-                  <span class="category-tile__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg></span>
-                  <span class="category-tile__name">Sztuka i Kultura</span>
-                </a>
-                <a href="#/wyniki?cat=przyroda" class="category-tile" role="listitem">
-                  <span class="category-tile__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8c-4 0-8 2-10 7 5-1 8 0 10-7z"/><path d="M2 22c2-5 4-9 11-11"/><path d="M22 2c-2 5-4 9-11 11"/></svg></span>
-                  <span class="category-tile__name">Przyroda i Środowisko</span>
-                </a>
-                <a href="#/wyniki?cat=uslugi" class="category-tile" role="listitem">
-                  <span class="category-tile__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></span>
-                  <span class="category-tile__name">Usługi i Handel</span>
-                </a>
-                <a href="#/wyniki?cat=bezpieczenstwo" class="category-tile" role="listitem">
-                  <span class="category-tile__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
-                  <span class="category-tile__name">Bezpieczeństwo</span>
-                </a>
+            <div class="filters-panel" aria-label="Przeglądaj i filtruj zawody">
+              <h2 class="filters-panel__heading">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+                Przeglądaj i filtruj
+              </h2>
+
+              <!-- Categories as selectable chips -->
+              <div class="filters__group">
+                <label class="filters__label">Kategoria</label>
+                <div class="filters__cats" id="filterCats" role="group" aria-label="Wybierz kategorie">
+                  <button type="button" class="filters__cat-chip" data-cat="it">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                    IT
+                  </button>
+                  <button type="button" class="filters__cat-chip" data-cat="medycyna">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                    Medycyna
+                  </button>
+                  <button type="button" class="filters__cat-chip" data-cat="prawo">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 22h18"/><path d="M6 18v-7"/><path d="M10 18v-7"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="m12 2-9 7h18z"/></svg>
+                    Prawo
+                  </button>
+                  <button type="button" class="filters__cat-chip" data-cat="edukacja">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6"/><path d="M6 12v5c3 3 9 3 12 0v-5"/><path d="m2 10 10-5 10 5-10 5z"/></svg>
+                    Edukacja
+                  </button>
+                  <button type="button" class="filters__cat-chip" data-cat="biznes">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+                    Biznes
+                  </button>
+                  <button type="button" class="filters__cat-chip" data-cat="inzynieria">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    Inżynieria
+                  </button>
+                  <button type="button" class="filters__cat-chip" data-cat="sztuka">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg>
+                    Sztuka
+                  </button>
+                  <button type="button" class="filters__cat-chip" data-cat="przyroda">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8c-4 0-8 2-10 7 5-1 8 0 10-7z"/><path d="M2 22c2-5 4-9 11-11"/><path d="M22 2c-2 5-4 9-11 11"/></svg>
+                    Przyroda
+                  </button>
+                  <button type="button" class="filters__cat-chip" data-cat="uslugi">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                    Usługi
+                  </button>
+                  <button type="button" class="filters__cat-chip" data-cat="bezpieczenstwo">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    Bezpieczeństwo
+                  </button>
+                </div>
               </div>
+
+              <hr class="filters__divider">
+
+              <!-- Salary -->
+              <div class="filters__group">
+                <label class="filters__label">Zarobki (PLN brutto/mies.)</label>
+                <div class="filters__salary">
+                  <div class="filters__salary-inputs">
+                    <input type="number" id="salaryMin" class="filters__input filters__input--num" min="3000" max="35000" step="500" value="3000" aria-label="Minimalne zarobki">
+                    <span class="filters__salary-sep">–</span>
+                    <input type="number" id="salaryMax" class="filters__input filters__input--num" min="3000" max="35000" step="500" value="35000" aria-label="Maksymalne zarobki">
+                  </div>
+                  <div class="filters__range-track" id="salaryTrack">
+                    <input type="range" id="salaryRangeMin" class="filters__range" min="3000" max="35000" step="500" value="3000" aria-label="Suwak minimum zarobków">
+                    <input type="range" id="salaryRangeMax" class="filters__range" min="3000" max="35000" step="500" value="35000" aria-label="Suwak maximum zarobków">
+                  </div>
+                </div>
+              </div>
+
+              <!-- Demand -->
+              <div class="filters__group">
+                <label class="filters__label">Zapotrzebowanie</label>
+                <div class="filters__checks">
+                  <label class="filters__check">
+                    <input type="checkbox" value="deficytowy" checked>
+                    <span class="filters__check-dot filters__check-dot--deficit"></span>
+                    Deficytowy
+                  </label>
+                  <label class="filters__check">
+                    <input type="checkbox" value="zrównoważony" checked>
+                    <span class="filters__check-dot filters__check-dot--balanced"></span>
+                    Zrównoważony
+                  </label>
+                  <label class="filters__check">
+                    <input type="checkbox" value="nadwyżkowy" checked>
+                    <span class="filters__check-dot filters__check-dot--surplus"></span>
+                    Nadwyżkowy
+                  </label>
+                </div>
+              </div>
+
+              <!-- School -->
+              <div class="filters__group">
+                <label class="filters__label" for="schoolFilter">Uczelnia</label>
+                <div class="filters__school-wrapper">
+                  <input type="text" id="schoolFilter" class="filters__input" placeholder="Wpisz nazwę uczelni..." autocomplete="off" aria-autocomplete="list" aria-controls="schoolDropdown">
+                  <ul id="schoolDropdown" class="filters__dropdown" role="listbox" hidden></ul>
+                </div>
+                <div class="filters__school-selected" id="schoolSelected"></div>
+              </div>
+
+              <button type="button" class="filters__btn" id="filterBtn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+                Filtruj
+              </button>
+              <button type="button" class="filters__reset" id="filterReset">Resetuj filtry</button>
             </div>
           </aside>
         </div>

@@ -139,10 +139,58 @@ const CareerSearch = (() => {
     return kzisData.find(k => k.code === code) || null;
   }
 
+  // Filter careers by multiple criteria
+  function filterCareers({ categories, salaryMin, salaryMax, demands, schools }) {
+    let filtered = careersData;
+
+    // Category filter
+    if (categories && categories.length > 0) {
+      filtered = filtered.filter(c => categories.includes(c.category));
+    }
+
+    // Salary filter
+    if (salaryMin != null || salaryMax != null) {
+      filtered = filtered.filter(c => {
+        if (!c.salary) return false;
+        const min = salaryMin || 0;
+        const max = salaryMax || Infinity;
+        return c.salary.max >= min && c.salary.min <= max;
+      });
+    }
+
+    // Demand filter
+    if (demands && demands.length > 0 && demands.length < 3) {
+      filtered = filtered.filter(c => demands.includes(c.demand));
+    }
+
+    // School filter
+    if (schools && schools.length > 0) {
+      filtered = filtered.filter(c => {
+        if (!c.education || !c.education.schools) return false;
+        return c.education.schools.some(s => schools.includes(s.name));
+      });
+    }
+
+    return { rich: filtered, simple: [] };
+  }
+
+  // Get all unique schools
+  function getAllSchools() {
+    const set = new Set();
+    for (const c of careersData) {
+      if (c.education && c.education.schools) {
+        for (const s of c.education.schools) set.add(s.name);
+      }
+    }
+    return [...set].sort((a, b) => a.localeCompare(b, 'pl'));
+  }
+
   return {
     loadData,
     search,
     searchByCategory,
+    filterCareers,
+    getAllSchools,
     autocomplete,
     getCareerById,
     getKzisByCode,

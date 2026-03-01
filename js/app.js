@@ -291,8 +291,46 @@
       b.classList.toggle('results__sort-btn--active', b.dataset.sort === 'relevance');
     }
 
+    const isFilter = params.get('filter') === '1';
+
     let results;
-    if (cat) {
+    if (isFilter) {
+      const catsStr = params.get('cats');
+      const categories = catsStr ? catsStr.split(',') : [];
+      const sMin = parseInt(params.get('smin')) || null;
+      const sMax = parseInt(params.get('smax')) || null;
+      const demandStr = params.get('demand');
+      const demands = demandStr ? demandStr.split(',') : [];
+      const schoolsStr = params.get('schools');
+      const schools = schoolsStr ? schoolsStr.split('|') : [];
+
+      results = CareerSearch.filterCareers({
+        categories,
+        salaryMin: sMin,
+        salaryMax: sMax,
+        demands,
+        schools,
+      });
+
+      // Build description
+      const parts = [];
+      if (categories.length) {
+        parts.push(categories.map(c => CATEGORY_NAMES[c] || c).join(', '));
+      }
+      if (sMin || sMax) {
+        parts.push(`zarobki ${(sMin || 3000).toLocaleString('pl-PL')}–${(sMax || 35000).toLocaleString('pl-PL')} PLN`);
+      }
+      if (demands.length && demands.length < 3) {
+        parts.push(`zapotrzebowanie: ${demands.join(', ')}`);
+      }
+      if (schools.length) {
+        parts.push(`uczelnia: ${schools.join(', ')}`);
+      }
+      const name = localStorage.getItem('kr-name');
+      resultsQuery.textContent = name
+        ? `${name}, oto wyniki filtrowania: ${parts.join(' · ') || 'wszystkie zawody'}`
+        : `Filtrowanie: ${parts.join(' · ') || 'wszystkie zawody'}`;
+    } else if (cat) {
       results = CareerSearch.searchByCategory(cat);
       const catName = CATEGORY_NAMES[cat] || cat;
       const name = localStorage.getItem('kr-name');
@@ -703,10 +741,147 @@
     return str.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
 
+  // --- Filters ---
+  const salaryMinInput = document.getElementById('salaryMin');
+  const salaryMaxInput = document.getElementById('salaryMax');
+  const salaryRangeMin = document.getElementById('salaryRangeMin');
+  const salaryRangeMax = document.getElementById('salaryRangeMax');
+  const demandChecks = document.querySelectorAll('.filters__check input[type="checkbox"]');
+  const schoolFilterInput = document.getElementById('schoolFilter');
+  const schoolDropdown = document.getElementById('schoolDropdown');
+  const schoolSelected = document.getElementById('schoolSelected');
+  const filterBtn = document.getElementById('filterBtn');
+  const filterReset = document.getElementById('filterReset');
+
+  let selectedSchools = [];
+  let selectedCategories = [];
+  let allSchools = [];
+
+  // Category chip toggles
+  const catChips = document.querySelectorAll('.filters__cat-chip');
+  catChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      const cat = chip.dataset.cat;
+      const idx = selectedCategories.indexOf(cat);
+      if (idx >= 0) {
+        selectedCategories.splice(idx, 1);
+        chip.classList.remove('filters__cat-chip--active');
+      } else {
+        selectedCategories.push(cat);
+        chip.classList.add('filters__cat-chip--active');
+      }
+    });
+  });
+
+  // Sync range sliders ↔ number inputs
+  function syncSalary(source) {
+    if (source === 'range') {
+      let min = parseInt(salaryRangeMin.value);
+      let max = parseInt(salaryRangeMax.value);
+      if (min > max) { const t = min; min = max; max = t; }
+      salaryMinInput.value = min;
+      salaryMaxInput.value = max;
+    } else {
+      let min = parseInt(salaryMinInput.value) || 3000;
+      let max = parseInt(salaryMaxInput.value) || 35000;
+      if (min > max) { const t = min; min = max; max = t; }
+      salaryRangeMin.value = min;
+      salaryRangeMax.value = max;
+    }
+  }
+
+  salaryRangeMin.addEventListener('input', () => syncSalary('range'));
+  salaryRangeMax.addEventListener('input', () => syncSalary('range'));
+  salaryMinInput.addEventListener('change', () => syncSalary('input'));
+  salaryMaxInput.addEventListener('change', () => syncSalary('input'));
+
+  // School autocomplete
+  schoolFilterInput.addEventListener('input', () => {
+    const q = schoolFilterInput.value.trim().toLowerCase();
+    if (q.length < 2) { schoolDropdown.hidden = true; return; }
+
+    const matches = allSchools
+      .filter(s => s.toLowerCase().includes(q) && !selectedSchools.includes(s))
+      .slice(0, 8);
+
+    if (!matches.length) { schoolDropdown.hidden = true; return; }
+
+    schoolDropdown.innerHTML = '';
+    for (const name of matches) {
+      const li = document.createElement('li');
+      li.className = 'filters__dropdown-item';
+      li.setAttribute('role', 'option');
+      li.textContent = name;
+      li.addEventListener('click', () => {
+        selectedSchools.push(name);
+        renderSchoolTags();
+        schoolFilterInput.value = '';
+        schoolDropdown.hidden = true;
+      });
+      schoolDropdown.appendChild(li);
+    }
+    schoolDropdown.hidden = false;
+  });
+
+  // Close school dropdown on outside click
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.filters__school-wrapper')) {
+      schoolDropdown.hidden = true;
+    }
+  });
+
+  function renderSchoolTags() {
+    schoolSelected.innerHTML = '';
+    for (const name of selectedSchools) {
+      const tag = document.createElement('span');
+      tag.className = 'filters__school-tag';
+      tag.innerHTML = `${escapeHtml(name)} <button type="button" class="filters__school-tag-remove" aria-label="Usuń ${escapeHtml(name)}">&times;</button>`;
+      tag.querySelector('button').addEventListener('click', () => {
+        selectedSchools = selectedSchools.filter(s => s !== name);
+        renderSchoolTags();
+      });
+      schoolSelected.appendChild(tag);
+    }
+  }
+
+  // Filter button
+  filterBtn.addEventListener('click', () => {
+    const params = new URLSearchParams();
+    params.set('filter', '1');
+
+    if (selectedCategories.length) params.set('cats', selectedCategories.join(','));
+
+    const sMin = parseInt(salaryMinInput.value) || 3000;
+    const sMax = parseInt(salaryMaxInput.value) || 35000;
+    if (sMin > 3000) params.set('smin', sMin);
+    if (sMax < 35000) params.set('smax', sMax);
+
+    const activeDemands = [...demandChecks].filter(c => c.checked).map(c => c.value);
+    if (activeDemands.length < 3) params.set('demand', activeDemands.join(','));
+
+    if (selectedSchools.length) params.set('schools', selectedSchools.join('|'));
+
+    window.location.hash = `#/wyniki?${params.toString()}`;
+  });
+
+  // Reset button
+  filterReset.addEventListener('click', () => {
+    salaryMinInput.value = 3000;
+    salaryMaxInput.value = 35000;
+    salaryRangeMin.value = 3000;
+    salaryRangeMax.value = 35000;
+    demandChecks.forEach(c => { c.checked = true; });
+    selectedSchools = [];
+    selectedCategories = [];
+    renderSchoolTags();
+    catChips.forEach(c => c.classList.remove('filters__cat-chip--active'));
+  });
+
   // --- Init ---
   async function init() {
     // Load data
     await CareerSearch.loadData();
+    allSchools = CareerSearch.getAllSchools();
 
     // Start animations
     Constellation.init();
