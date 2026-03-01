@@ -376,12 +376,10 @@ main {
 }
 
 .landing__title-static {
-  display: block;
   color: var(--kr-text);
 }
 
 .landing__title-accent {
-  display: block;
   background: linear-gradient(
     135deg,
     var(--kr-primary) 0%,
