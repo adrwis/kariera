@@ -191,3 +191,43 @@ Sprint WCAG 2.1 AA + tap targets mobilne. Dodano aria-live region, focus managem
 | `index.html` | +`aria-activedescendant=""` na `#searchQuery` |
 | `js/app.js` | `h2`→`h1` w renderRichDetail + renderFallbackDetail, id na li w renderAutocomplete, aria-activedescendant w updateAcSelection + closeAutocomplete |
 | `css/style.css` | `.career-hero__aliases` — italic, muted |
+
+---
+
+## Sesja 3 — Faza 6b: SEO + Data Expansion
+
+### Podsumowanie
+
+Dodano brakujące pliki SEO (robots.txt, sitemap.xml, 404.html, manifest.json, README.md), naprawiono favicon (K→N), rozbudowano dane z 25 do 79 szczegółowych profili zawodów. Zaktualizowano KZiS index (105→117 wpisów, linkowanie do profili).
+
+**Build:** statyczny HTML/CSS/JS — brak builda
+**Pliki zmodyfikowane:** 4 | **Pliki nowe:** 5
+
+---
+
+### 1. Pliki SEO i PWA
+**Problem:** Brak robots.txt, sitemap.xml, 404.html, manifest.json i README.
+**Rozwiązanie:** Dodano wszystkie pliki, manifest podpięty w `<head>`, meta theme-color.
+| Plik | Zmiana |
+|------|--------|
+| `robots.txt` | Allow all + sitemap URL |
+| `sitemap.xml` | Jedna URL (SPA) |
+| `404.html` | Auto-redirect do `#/` |
+| `manifest.json` | Nazwa, ikona SVG, kolory |
+| `README.md` | Opis projektu, tech stack, features |
+| `index.html` | +manifest link, +theme-color, "2500+ zawodów"→"80+" |
+
+### 2. Favicon fix
+**Problem:** Favicon wyświetlał literę "K" (stara nazwa "Kariera").
+**Rozwiązanie:** Zmiana na "N" (NextMove).
+| Plik | Zmiana |
+|------|--------|
+| `favicon.svg` | `K`→`N` w tagu text |
+
+### 3. Rozbudowa profili zawodów (25→79)
+**Problem:** Tylko 25 szczegółowych profili, cel fazy 6b to 80+.
+**Rozwiązanie:** Wygenerowano 54 nowe profile w 10 kategoriach.
+| Plik | Zmiana |
+|------|--------|
+| `data/careers.json` | 25→79 profili (medycyna 13, it 9, inżynieria 9, sztuka 9, biznes 9, usługi 8, przyroda 7, prawo 6, bezpieczeństwo 5, edukacja 4) |
+| `data/kzis-index.json` | 105→117 wpisów, dodano pola `id` do ~50 istniejących + 5 nowych wpisów (adwokat, żołnierz, nauczyciel akademicki, pracownik ochrony, funkcjonariusz SG) |

@@ -1,0 +1,16 @@
+{
+  "name": "NextMove — Znajdź swój zawód",
+  "short_name": "NextMove",
+  "description": "Wyszukiwarka zawodów dla osób, które nie wiedzą kim chcą zostać.",
+  "start_url": "/kariera/",
+  "display": "standalone",
+  "background_color": "#f5f7fa",
+  "theme_color": "#1a237e",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
