@@ -43,6 +43,7 @@
   </header>
 
   <main id="main">
+    <div id="srAnnounce" class="sr-only" aria-live="polite" aria-atomic="true"></div>
     <!-- ===== VIEW: LANDING ===== -->
     <section id="view-landing" class="view view--landing" role="region" aria-label="Wyszukiwarka zawodów">
       <div class="landing">
@@ -65,7 +66,7 @@
               <div class="search-box__query-row">
                 <label for="searchQuery" class="search-box__label">Kim chcesz zostać? Co Cię interesuje?</label>
                 <div class="search-box__input-wrapper">
-                  <input type="text" id="searchQuery" class="search-box__input search-box__input--query" placeholder="np. psycholog, programista, coś z ludźmi..." autocomplete="off" aria-autocomplete="list" aria-controls="autocompleteList" aria-expanded="false">
+                  <input type="text" id="searchQuery" class="search-box__input search-box__input--query" placeholder="np. psycholog, programista, coś z ludźmi..." autocomplete="off" aria-autocomplete="list" aria-controls="autocompleteList" aria-expanded="false" aria-activedescendant="">
                   <ul id="autocompleteList" class="autocomplete" role="listbox" aria-label="Podpowiedzi zawodów" hidden></ul>
                 </div>
               </div>
@@ -78,16 +79,16 @@
             <!-- Popular careers tags -->
             <div class="popular" aria-label="Popularne zawody">
               <p class="popular__label">Popularne:</p>
-              <div class="popular__tags" role="list">
-                <a href="#/zawod/psycholog" class="popular__tag" role="listitem">Psycholog</a>
-                <a href="#/zawod/programista" class="popular__tag" role="listitem">Programista</a>
-                <a href="#/zawod/lekarz" class="popular__tag" role="listitem">Lekarz</a>
-                <a href="#/zawod/architekt" class="popular__tag" role="listitem">Architekt</a>
-                <a href="#/zawod/nauczyciel" class="popular__tag" role="listitem">Nauczyciel</a>
-                <a href="#/zawod/grafik" class="popular__tag" role="listitem">Grafik</a>
-                <a href="#/zawod/prawnik" class="popular__tag" role="listitem">Prawnik</a>
-                <a href="#/zawod/analityk-danych" class="popular__tag" role="listitem">Analityk danych</a>
-              </div>
+              <ul class="popular__tags">
+                <li><a href="#/zawod/psycholog" class="popular__tag">Psycholog</a></li>
+                <li><a href="#/zawod/programista" class="popular__tag">Programista</a></li>
+                <li><a href="#/zawod/lekarz" class="popular__tag">Lekarz</a></li>
+                <li><a href="#/zawod/architekt" class="popular__tag">Architekt</a></li>
+                <li><a href="#/zawod/nauczyciel" class="popular__tag">Nauczyciel</a></li>
+                <li><a href="#/zawod/grafik" class="popular__tag">Grafik</a></li>
+                <li><a href="#/zawod/prawnik" class="popular__tag">Prawnik</a></li>
+                <li><a href="#/zawod/analityk-danych" class="popular__tag">Analityk danych</a></li>
+              </ul>
             </div>
           </div>
 

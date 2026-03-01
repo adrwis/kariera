@@ -137,4 +137,57 @@ Implementacja wyników wyszukiwania (Faza 4) i pełny upgrade widoku detalu zawo
 | Plik | Zmiana |
 |------|--------|
 | `js/app.js` | `DEMAND_LABELS` map, `aliasesHtml`, salary label, demand title attr |
+
+---
+
+## Sesja 2 — Faza 6a: WCAG + Mobile Responsive
+
+### Podsumowanie
+
+Sprint WCAG 2.1 AA + tap targets mobilne. Dodano aria-live region, focus management, announce() dla screen readerów, poprawiono semantykę popular tags (div→ul/li), dodano brakujące :focus-visible dla 9 elementów, tap targets 44px na mobile, heading hierarchy h2→h1 w detalu, aria-activedescendant w autocomplete.
+
+**Build:** statyczny HTML/CSS/JS — brak builda
+**Pliki zmodyfikowane:** 3 | **Pliki nowe:** 0
+
+---
+
+### 1. Aria-live region + .sr-only
+**Problem:** Screen readery nie ogłaszały zmian widoku ani wyników wyszukiwania.
+**Rozwiązanie:** `#srAnnounce` div z `aria-live="polite"`, klasa `.sr-only` w CSS, helper `announce()` w JS.
+| Plik | Zmiana |
+|------|--------|
+| `index.html` | +`<div id="srAnnounce">` po `<main>` |
+| `css/style.css` | +`.sr-only` utility class |
+| `js/app.js` | +`announce()` helper, wywołania w handleResults, renderRichDetail, renderFallbackDetail |
+
+### 2. Popular tags: semantyka div→ul/li
+**Problem:** `div[role="list"]` z `a[role="listitem"]` — poprawny ARIA, ale natywna semantyka lepsza.
+**Rozwiązanie:** Zamiana na `<ul>/<li>/<a>`, reset listy w CSS (`list-style:none`, `display:contents` na `li`).
+| Plik | Zmiana |
+|------|--------|
+| `index.html` | `div.popular__tags`→`ul`, `a[role=listitem]`→`li>a` |
+| `css/style.css` | +lista reset: `.popular__tags { list-style:none }`, `.popular__tags > li { display:contents }` |
+
+### 3. Focus management
+**Problem:** Po nawigacji między widokami focus zostawał na poprzednim elemencie — screen reader nie informował o zmianie.
+**Rozwiązanie:** `showView()` przenosi focus na heading (`tabindex="-1"` + `.focus()`), render functions focusują `h1.career-hero__name`.
+| Plik | Zmiana |
+|------|--------|
+| `js/app.js` | Focus w `showView()` (landing/wyniki), focus+announce w `renderRichDetail()` i `renderFallbackDetail()` |
+| `css/style.css` | +`[tabindex="-1"]:focus { outline: none }` |
+
+### 4. Focus-visible + tap targets
+**Problem:** 9 elementów interaktywnych bez widocznego focus ring, tap targets <44px na mobile.
+**Rozwiązanie:** Zbiorczy selektor `:focus-visible` z `outline: 3px solid var(--kr-accent)`, tap targets 44px w `@media (max-width: 900px)`.
+| Plik | Zmiana |
+|------|--------|
+| `css/style.css` | +9 selektorów `:focus-visible`, +tap targets `.popular__tag`, `.results__sort-btn`, `.results__back`, `.theme-toggle` |
+
+### 5. Heading hierarchy + aria-activedescendant
+**Problem:** Detal zawodu miał `<h2>` jako główny heading (brak `<h1>`), autocomplete bez `aria-activedescendant`.
+**Rozwiązanie:** `h2`→`h1` w obu render functions, `li.id = 'ac-item-N'` + `aria-activedescendant` tracking w autocomplete.
+| Plik | Zmiana |
+|------|--------|
+| `index.html` | +`aria-activedescendant=""` na `#searchQuery` |
+| `js/app.js` | `h2`→`h1` w renderRichDetail + renderFallbackDetail, id na li w renderAutocomplete, aria-activedescendant w updateAcSelection + closeAutocomplete |
 | `css/style.css` | `.career-hero__aliases` — italic, muted |

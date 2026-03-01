@@ -129,6 +129,22 @@ body {
   top: 0;
 }
 
+/* --- Screen reader only --- */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Programmatic focus — no outline ring */
+[tabindex="-1"]:focus { outline: none; }
+
 /* --- Canvas (background) --- */
 #constellation {
   position: fixed;
@@ -580,6 +596,12 @@ main {
   display: flex;
   gap: 0.45rem;
   flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.popular__tags > li {
+  display: contents;
 }
 
 .popular__tag {
@@ -1346,6 +1368,20 @@ main {
   color: var(--kr-accent);
 }
 
+/* --- Focus-visible for interactive elements --- */
+.theme-toggle:focus-visible,
+.results__sort-btn:focus-visible,
+.results__back:focus-visible,
+.results__empty-back:focus-visible,
+.results__search-btn:focus-visible,
+.topbar__logo:focus-visible,
+.career-hero__category:focus-visible,
+.career-fallback__link:focus-visible,
+.footer a:focus-visible {
+  outline: 3px solid var(--kr-accent);
+  outline-offset: 2px;
+}
+
 /* ============================================
    REDUCED MOTION
    ============================================ */
@@ -1421,6 +1457,12 @@ main {
   .popular {
     justify-content: center;
   }
+
+  /* Tap targets 44px */
+  .popular__tag { min-height: 44px; display: inline-flex; align-items: center; }
+  .results__sort-btn { min-height: 44px; padding: 0.5rem 1rem; }
+  .results__back, .results__empty-back { min-height: 44px; display: inline-flex; align-items: center; }
+  .theme-toggle { width: 44px; height: 44px; }
 }
 
 /* Tablet career detail: 2 columns, 3rd full width */

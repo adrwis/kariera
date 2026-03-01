@@ -24,6 +24,15 @@
   let currentResults = null;
   let currentSort = 'relevance';
 
+  // --- Screen reader announcements ---
+  const srAnnounce = document.getElementById('srAnnounce');
+  function announce(msg) {
+    if (!srAnnounce) return;
+    srAnnounce.textContent = '';
+    void srAnnounce.offsetHeight;
+    srAnnounce.textContent = msg;
+  }
+
   // --- Theme ---
   const themeToggle = document.getElementById('themeToggle');
   const savedTheme = localStorage.getItem('kr-theme');
@@ -58,6 +67,15 @@
       }
     }
     window.scrollTo(0, 0);
+
+    // Focus management: move focus to heading of new view (skip 'zawod' — handled by render functions)
+    if (name !== 'zawod') {
+      const heading = views[name].querySelector('h1, h2');
+      if (heading) {
+        heading.setAttribute('tabindex', '-1');
+        heading.focus({ preventScroll: true });
+      }
+    }
   }
 
   // --- Router ---
@@ -195,9 +213,13 @@
     acIndex = -1;
     autocompleteList.innerHTML = '';
 
-    for (const r of results) {
+    searchInput.removeAttribute('aria-activedescendant');
+
+    for (let i = 0; i < results.length; i++) {
+      const r = results[i];
       const li = document.createElement('li');
       li.className = 'autocomplete__item';
+      li.id = 'ac-item-' + i;
       li.setAttribute('role', 'option');
       li.setAttribute('aria-selected', 'false');
       li.innerHTML = `
@@ -223,6 +245,9 @@
     items.forEach((item, i) => {
       item.setAttribute('aria-selected', i === acIndex ? 'true' : 'false');
     });
+    if (acIndex >= 0 && items[acIndex]) {
+      searchInput.setAttribute('aria-activedescendant', items[acIndex].id);
+    }
   }
 
   function closeAutocomplete() {
@@ -230,6 +255,7 @@
     autocompleteList.innerHTML = '';
     acIndex = -1;
     searchInput.setAttribute('aria-expanded', 'false');
+    searchInput.removeAttribute('aria-activedescendant');
   }
 
   // Close autocomplete on outside click
@@ -301,6 +327,7 @@
       resultsCount.textContent = '';
       resultsToolbar.hidden = true;
       resultsEmpty.hidden = false;
+      announce('Nie znaleziono zawodów');
 
       // Populate empty state category suggestions
       resultsEmptyCats.innerHTML = '';
@@ -318,6 +345,7 @@
     resultsEmpty.hidden = true;
     resultsToolbar.hidden = false;
     resultsCount.textContent = `Znaleziono ${total} ${pluralZawod(total)}`;
+    announce(`Znaleziono ${total} ${pluralZawod(total)}`);
 
     // Store for sorting
     currentResults = results;
@@ -571,7 +599,7 @@
 
       <div class="career-hero career-hero--detail">
         ${categoryBadge}
-        <h2 class="career-hero__name">${escapeHtml(c.name)}</h2>
+        <h1 class="career-hero__name">${escapeHtml(c.name)}</h1>
         ${aliasesHtml}
         <p class="career-hero__code">KZiS: ${escapeHtml(c.code)}</p>
         <div class="career-hero__badges">
@@ -599,6 +627,10 @@
       ${relatedHtml}
       ${sourcesHtml}
     `;
+
+    const heading = careerDetail.querySelector('.career-hero__name');
+    if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true }); }
+    announce(`Zawód: ${c.name}`);
   }
 
   function renderFallbackDetail(kzis) {
@@ -630,7 +662,7 @@
 
       <div class="career-hero career-hero--detail">
         ${categoryBadge}
-        <h2 class="career-hero__name">${escapeHtml(kzis.name)}</h2>
+        <h1 class="career-hero__name">${escapeHtml(kzis.name)}</h1>
         <p class="career-hero__code">KZiS: ${escapeHtml(kzis.code)}${kzis.group ? ` · ${escapeHtml(kzis.group)}` : ''}</p>
       </div>
 
@@ -652,6 +684,10 @@
 
       ${suggestionsHtml}
     `;
+
+    const heading = careerDetail.querySelector('.career-hero__name');
+    if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true }); }
+    announce(`Zawód: ${kzis.name}`);
   }
 
   // --- Utilities ---
