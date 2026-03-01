@@ -295,7 +295,7 @@ main {
 .landing {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0.75rem 2.5rem 0.5rem;
+  padding: 0.5rem 2.5rem 0.25rem;
   flex: 1;
   display: flex;
   align-items: center;
@@ -303,8 +303,8 @@ main {
 
 .landing__split {
   display: grid;
-  grid-template-columns: 1fr 370px;
-  gap: 3rem;
+  grid-template-columns: 1fr 330px;
+  gap: 2.5rem;
   align-items: start;
   width: 100%;
 }
@@ -336,7 +336,7 @@ main {
 /* --- Hero --- */
 .landing__hero {
   text-align: left;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   position: relative;
 }
 
@@ -408,10 +408,9 @@ main {
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid var(--kr-glass-border);
   border-radius: 20px;
-  padding: 1.25rem 1.5rem;
+  padding: 1.15rem 1.5rem;
   box-shadow: var(--kr-glass-shadow), var(--kr-glass-inset);
-  margin-bottom: 1.25rem;
-  max-width: 480px;
+  margin-bottom: 1rem;
   transition: box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
@@ -615,22 +614,22 @@ main {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid var(--kr-glass-border);
-  border-radius: 20px;
-  padding: 1.25rem 1.35rem;
+  border-radius: 16px;
+  padding: 0.85rem 1rem;
   box-shadow: var(--kr-glass-shadow), var(--kr-glass-inset);
 }
 
 .filters-panel__heading {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.4rem;
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--kr-text-muted);
-  margin-bottom: 1rem;
+  margin-bottom: 0.6rem;
 }
 
 .filters-panel__heading svg {
@@ -641,20 +640,20 @@ main {
 .filters__cats {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem;
+  gap: 0.25rem;
 }
 
 .filters__cat-chip {
   display: inline-flex;
   align-items: center;
-  gap: 0.3rem;
-  padding: 0.35rem 0.7rem;
+  gap: 0.2rem;
+  padding: 0.25rem 0.55rem;
   border-radius: 100px;
   border: 1.5px solid var(--kr-border);
   background: var(--kr-bg-alt);
   color: var(--kr-text-muted);
   font-family: inherit;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
@@ -694,34 +693,34 @@ main {
   border: none;
   height: 1px;
   background: linear-gradient(90deg, transparent, var(--kr-border), transparent);
-  margin: 0.85rem 0;
+  margin: 0.5rem 0;
 }
 
 /* ============================================
    FILTER CONTROLS
    ============================================ */
 .filters__group {
-  margin-bottom: 1rem;
+  margin-bottom: 0.55rem;
 }
 
 .filters__label {
   display: block;
-  font-size: 0.82rem;
+  font-size: 0.75rem;
   font-weight: 600;
   color: var(--kr-text);
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.25rem;
 }
 
 /* Salary inputs */
 .filters__salary-inputs {
   display: flex;
   align-items: center;
-  gap: 0.4rem;
-  margin-bottom: 0.5rem;
+  gap: 0.3rem;
+  margin-bottom: 0.3rem;
 }
 
 .filters__input--num {
-  width: 5.5rem;
+  width: 5rem;
   text-align: center;
 }
 
@@ -731,13 +730,13 @@ main {
 }
 
 .filters__input {
-  padding: 0.45rem 0.65rem;
+  padding: 0.35rem 0.55rem;
   border: 1.5px solid var(--kr-input-border);
-  border-radius: 10px;
+  border-radius: 8px;
   background: var(--kr-input-bg);
   color: var(--kr-text);
   font-family: inherit;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   transition: border-color 0.2s, box-shadow 0.2s;
   width: 100%;
 }
@@ -750,7 +749,7 @@ main {
 /* Dual range slider */
 .filters__range-track {
   position: relative;
-  height: 28px;
+  height: 22px;
   display: flex;
   align-items: center;
 }
@@ -806,21 +805,21 @@ main {
 .filters__checks {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 0.15rem;
 }
 
 .filters__check {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  font-size: 0.82rem;
+  gap: 0.4rem;
+  font-size: 0.75rem;
   cursor: pointer;
-  padding: 0.3rem 0;
+  padding: 0.15rem 0;
 }
 
 .filters__check input[type="checkbox"] {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   accent-color: var(--kr-primary);
   cursor: pointer;
 }
@@ -875,8 +874,8 @@ main {
 .filters__school-selected {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.3rem;
-  margin-top: 0.4rem;
+  gap: 0.2rem;
+  margin-top: 0.25rem;
 }
 
 .filters__school-tag {
@@ -917,20 +916,21 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 0.4rem;
   width: 100%;
-  padding: 0.7rem 1.5rem;
+  padding: 0.55rem 1.25rem;
   border: none;
-  border-radius: 12px;
+  border-radius: 10px;
   background: var(--kr-primary);
   color: #fff;
   font-family: 'Sora', sans-serif;
-  font-size: 0.88rem;
+  font-size: 0.82rem;
   font-weight: 600;
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
   box-shadow: 0 4px 16px rgba(26, 35, 126, 0.2);
-  margin-bottom: 0.5rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.3rem;
 }
 .filters__btn:hover {
   transform: translateY(-2px);
@@ -946,12 +946,12 @@ main {
 .filters__reset {
   display: block;
   width: 100%;
-  padding: 0.5rem;
+  padding: 0.3rem;
   border: none;
   background: none;
   color: var(--kr-text-muted);
   font-family: inherit;
-  font-size: 0.8rem;
+  font-size: 0.72rem;
   font-weight: 500;
   cursor: pointer;
   text-align: center;
@@ -1350,6 +1350,202 @@ main {
   font-style: italic;
   color: var(--kr-text-muted);
   margin-top: 0.15rem;
+}
+
+/* ============================================
+   FAMOUS PEOPLE — Cards + Popup
+   ============================================ */
+.famous-people {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.famous-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--kr-border);
+  border-radius: 10px;
+  background: var(--kr-bg-alt);
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.famous-card:hover {
+  border-color: var(--kr-secondary);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(0, 137, 123, 0.12);
+}
+.famous-card:focus-visible {
+  outline: 3px solid var(--kr-accent);
+  outline-offset: 2px;
+}
+
+/* Initials avatar */
+.famous-card__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, var(--kr-primary), var(--kr-primary-light));
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.famous-card__info {
+  min-width: 0;
+}
+
+.famous-card__name {
+  font-weight: 600;
+  font-size: 0.88rem;
+  color: var(--kr-text);
+  line-height: 1.3;
+}
+
+.famous-card__desc {
+  font-size: 0.78rem;
+  color: var(--kr-text-muted);
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.famous-card__chevron {
+  margin-left: auto;
+  flex-shrink: 0;
+  color: var(--kr-text-muted);
+  opacity: 0.4;
+  transition: opacity 0.2s, transform 0.2s;
+}
+.famous-card:hover .famous-card__chevron {
+  opacity: 0.8;
+  transform: translateX(2px);
+}
+
+/* ---- Person Popup / Modal ---- */
+.person-popup-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 500;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  animation: popupFadeIn 0.2s ease;
+}
+
+@keyframes popupFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.person-popup {
+  background: var(--kr-card-bg);
+  border: 1px solid var(--kr-border);
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 480px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  position: relative;
+  animation: popupSlideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes popupSlideUp {
+  from { opacity: 0; transform: translateY(20px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.person-popup__close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--kr-border);
+  border-radius: 50%;
+  background: var(--kr-bg-alt);
+  color: var(--kr-text-muted);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  line-height: 1;
+  transition: background 0.2s, color 0.2s;
+}
+.person-popup__close:hover {
+  background: var(--kr-demand-deficit);
+  color: #fff;
+  border-color: transparent;
+}
+.person-popup__close:focus-visible {
+  outline: 3px solid var(--kr-accent);
+  outline-offset: 2px;
+}
+
+.person-popup__header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.person-popup__avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, var(--kr-primary), var(--kr-secondary));
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.person-popup__name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--kr-primary);
+  line-height: 1.3;
+}
+
+.person-popup__subtitle {
+  font-size: 0.85rem;
+  color: var(--kr-text-muted);
+  font-style: italic;
+}
+
+.person-popup__bio {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--kr-text);
+}
+
+.person-popup__bio p {
+  margin-bottom: 0.5rem;
+}
+.person-popup__bio p:last-child {
+  margin-bottom: 0;
 }
 
 /* Related careers */

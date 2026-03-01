@@ -519,6 +519,8 @@
   };
 
   function renderRichDetail(c) {
+    currentCareerData = c;
+
     const salaryText = c.salary
       ? `${c.salary.min.toLocaleString('pl-PL')}–${c.salary.max.toLocaleString('pl-PL')} PLN brutto/mies.`
       : '';
@@ -595,11 +597,21 @@
     // Famous people column
     let famousHtml = '';
     if (c.famousPeople && c.famousPeople.length) {
-      famousHtml += '<ul class="career-column__list">';
-      for (const p of c.famousPeople) {
-        famousHtml += `<li class="career-column__item"><strong>${escapeHtml(p.name)}</strong>${p.description ? ` — ${escapeHtml(p.description)}` : ''}</li>`;
+      famousHtml += '<div class="famous-people">';
+      for (let fi = 0; fi < c.famousPeople.length; fi++) {
+        const p = c.famousPeople[fi];
+        const initials = getInitials(p.name);
+        famousHtml += `
+          <button type="button" class="famous-card" data-person-idx="${fi}" aria-label="Pokaż biografię: ${escapeAttr(p.name)}">
+            <span class="famous-card__avatar" aria-hidden="true">${escapeHtml(initials)}</span>
+            <span class="famous-card__info">
+              <span class="famous-card__name">${escapeHtml(p.name)}</span>
+              <span class="famous-card__desc">${escapeHtml(p.description || '')}</span>
+            </span>
+            <svg class="famous-card__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>`;
       }
-      famousHtml += '</ul>';
+      famousHtml += '</div>';
     } else {
       famousHtml = '<p class="career-column__empty">Brak danych</p>';
     }
@@ -727,6 +739,75 @@
     if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true }); }
     announce(`Zawód: ${kzis.name}`);
   }
+
+  // --- Famous people popup ---
+  let currentCareerData = null;
+
+  function getInitials(name) {
+    if (!name) return '?';
+    const parts = name.trim().split(/\s+/);
+    if (parts.length === 1) return parts[0][0].toUpperCase();
+    return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
+  }
+
+  function openPersonPopup(person) {
+    // Close any existing popup
+    closePersonPopup();
+
+    const initials = getInitials(person.name);
+    const overlay = document.createElement('div');
+    overlay.className = 'person-popup-overlay';
+    overlay.id = 'personPopupOverlay';
+
+    const bioText = person.bio
+      ? person.bio.split('\n').map(p => `<p>${escapeHtml(p)}</p>`).join('')
+      : `<p>${escapeHtml(person.description || 'Brak dodatkowych informacji.')}</p>`;
+
+    overlay.innerHTML = `
+      <div class="person-popup" role="dialog" aria-modal="true" aria-label="Biografia: ${escapeAttr(person.name)}">
+        <button type="button" class="person-popup__close" aria-label="Zamknij">&times;</button>
+        <div class="person-popup__header">
+          <span class="person-popup__avatar" aria-hidden="true">${escapeHtml(initials)}</span>
+          <div>
+            <div class="person-popup__name">${escapeHtml(person.name)}</div>
+            ${person.description ? `<div class="person-popup__subtitle">${escapeHtml(person.description)}</div>` : ''}
+          </div>
+        </div>
+        <div class="person-popup__bio">${bioText}</div>
+      </div>
+    `;
+
+    document.body.appendChild(overlay);
+
+    // Focus close button
+    const closeBtn = overlay.querySelector('.person-popup__close');
+    closeBtn.focus();
+
+    // Close handlers
+    closeBtn.addEventListener('click', closePersonPopup);
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) closePersonPopup();
+    });
+    overlay.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closePersonPopup();
+    });
+
+    announce(`Biografia: ${person.name}`);
+  }
+
+  function closePersonPopup() {
+    const overlay = document.getElementById('personPopupOverlay');
+    if (overlay) overlay.remove();
+  }
+
+  // Delegate click on famous cards
+  careerDetail.addEventListener('click', (e) => {
+    const card = e.target.closest('.famous-card');
+    if (!card || !currentCareerData) return;
+    const idx = parseInt(card.dataset.personIdx);
+    const person = currentCareerData.famousPeople && currentCareerData.famousPeople[idx];
+    if (person) openPersonPopup(person);
+  });
 
   // --- Utilities ---
   function escapeHtml(str) {

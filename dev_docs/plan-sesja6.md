@@ -23,10 +23,11 @@
 - Przycisk "Filtruj" → strona z listą zawodów, sortowalna
 - Search form zwężony (max-width: 480px)
 
-### 5. Znane osoby — zdjęcia + popup z biografią
-- Na podstronie zawodu: kolumna "Znane osoby"
-- Dodać zdjęcia obok imienia i nazwiska
-- Kliknięcie → popup z krótką biografią
+### 5. ✅ Znane osoby — zdjęcia + popup z biografią
+- Klikalne karty z inicjałami jako avatar (gradient circle)
+- Popup modal z biografią (blur backdrop, slide-up, Escape/click-outside close)
+- Bio dodane do 130 osób w careers.json
+- Sesja 2026-03-02: `.famous-card` + `.person-popup` + 130 bios
 
 ### 6. Uczelnie — popup ze szczegółami
 - Kliknięcie w uczelnię → popup z:
@@ -52,4 +53,4 @@
 
 ---
 
-## Status: 4/9 DONE — next: pkt 5 (znane osoby — zdjęcia + popup)
+## Status: 5/9 DONE — next: pkt 6 (uczelnie — popup ze szczegółami)

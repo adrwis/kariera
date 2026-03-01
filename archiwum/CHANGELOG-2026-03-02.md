@@ -60,3 +60,33 @@ Sesja 6: Implementacja 4 z 9 punktów planu NextMove — szybkie fixy UI (centro
 | Plik | Zmiana |
 |------|--------|
 | `css/style.css` | Usunięto `.categories__grid`, `.category-tile` styles; dodano `.filters-panel` glass card |
+
+---
+
+## Sesja 2
+
+### Podsumowanie
+
+Landing page no-scroll fix (szerszy search box, kompaktowe filtry) + implementacja pkt 5 planu — znane osoby z kartami, inicjałami jako avatary i popup z biografią.
+
+**Pliki zmodyfikowane:** 3 | **Pliki nowe:** 0
+
+---
+
+### 1. Landing page — szerszy search box + kompaktowe filtry (plan pkt dodatkowy)
+**Problem:** Search box ograniczony do 480px, filtry zajmowały dużo miejsca pionowego.
+**Rozwiązanie:** Usunięto max-width z search-box, skompaktowano cały panel filtrów (mniejsze paddingi, fonty, gapy). Grid right column 370→330px.
+
+| Plik | Zmiana |
+|------|--------|
+| `css/style.css` | `.search-box` max-width usunięty; `.filters-panel` padding 1.25→0.85rem; `.filters__cat-chip` font 0.75→0.7rem; `.filters__group` margin 1→0.55rem; `.filters__label` 0.82→0.75rem; `.filters__checks` gap 0.4→0.15rem; `.filters__btn` font 0.88→0.82rem; grid column 370→330px |
+
+### 2. Znane osoby — karty z inicjałami + popup z biografią (plan pkt 5)
+**Problem:** Znane osoby renderowane jako prosta lista `<li>` bez interakcji.
+**Rozwiązanie:** Nowe klikalne karty z avatarem (inicjały w gradient circle), chevron, oraz modal popup z biografią (blur backdrop, slide-up animacja, close na ×/Escape/overlay click, focus management, aria-modal).
+
+| Plik | Zmiana |
+|------|--------|
+| `css/style.css` | Nowe: `.famous-card` (avatar + chevron + hover), `.person-popup-overlay` (blur bg), `.person-popup` (dialog, slide-up anim), `.person-popup__close/header/avatar/name/bio` |
+| `js/app.js` | Nowe: `getInitials()`, `openPersonPopup()`, `closePersonPopup()`, `currentCareerData` state, delegowany click na `.famous-card`, render kart w `renderRichDetail()` |
+| `data/careers.json` | Dodano `bio` do wszystkich 130 znanych osób (2-3 zdania PL, daty życia, osiągnięcia) |

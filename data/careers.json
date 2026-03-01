@@ -73,15 +73,18 @@
     "famousPeople": [
       {
         "name": "Kazimierz Dąbrowski",
-        "description": "Twórca teorii dezintegracji pozytywnej"
+        "description": "Twórca teorii dezintegracji pozytywnej",
+        "bio": "Polski psychiatra i psycholog (1902–1980). Stworzył teorię dezintegracji pozytywnej, opisującą rozwój osobowości przez kryzysy emocjonalne. Pracował na Uniwersytecie Alberta w Kanadzie oraz w Polsce."
       },
       {
         "name": "Jerzy Mellibruda",
-        "description": "Pionier terapii uzależnień w Polsce"
+        "description": "Pionier terapii uzależnień w Polsce",
+        "bio": "Polski psycholog i psychoterapeuta (1939–2014). Pionier leczenia uzależnień w Polsce, współtwórca Państwowej Agencji Rozwiązywania Problemów Alkoholowych. Autor licznych publikacji z zakresu psychologii uzależnień."
       },
       {
         "name": "Carl Rogers",
-        "description": "Twórca terapii skoncentrowanej na osobie"
+        "description": "Twórca terapii skoncentrowanej na osobie",
+        "bio": "Amerykański psycholog (1902–1987). Twórca terapii skoncentrowanej na osobie (client-centered therapy) i jeden z założycieli psychologii humanistycznej. Trzykrotnie nominowany do Pokojowej Nagrody Nobla."
       }
     ],
     "relatedCareers": [
@@ -176,15 +179,18 @@
     "famousPeople": [
       {
         "name": "Linus Torvalds",
-        "description": "Twórca systemu Linux"
+        "description": "Twórca systemu Linux",
+        "bio": "Fińsko-amerykański programista (ur. 1969). Twórca jądra systemu operacyjnego Linux oraz systemu kontroli wersji Git. Jedna z najbardziej wpływowych postaci w historii oprogramowania open source."
       },
       {
         "name": "Marcin Iwiński",
-        "description": "Współzałożyciel CD Projekt RED"
+        "description": "Współzałożyciel CD Projekt RED",
+        "bio": "Polski przedsiębiorca (ur. 1974). Współzałożyciel CD Projekt i CD Projekt RED — studia odpowiedzialnego za serię gier Wiedźmin i Cyberpunk 2077. Jeden z najbardziej znanych polskich przedsiębiorców branży gier."
       },
       {
         "name": "Guido van Rossum",
-        "description": "Twórca języka Python"
+        "description": "Twórca języka Python",
+        "bio": "Holenderski programista (ur. 1956). Twórca języka programowania Python, jednego z najpopularniejszych języków na świecie. Pracował m.in. w Google i Dropbox, obecnie w Microsoft."
       }
     ],
     "relatedCareers": [
@@ -283,15 +289,18 @@
     "famousPeople": [
       {
         "name": "Ludwik Hirszfeld",
-        "description": "Odkrywca grup krwi, immunolog"
+        "description": "Odkrywca grup krwi, immunolog",
+        "bio": "Polski lekarz i immunolog (1884–1954). Współodkrywca grup krwi (układ AB0) i pionier serologii. Podczas II wojny światowej walczył z epidemiami w warszawskim getcie."
       },
       {
         "name": "Zbigniew Religa",
-        "description": "Pionier transplantologii w Polsce"
+        "description": "Pionier transplantologii w Polsce",
+        "bio": "Polski kardiochirurg (1938–2009). Dokonał pierwszego udanego przeszczepu serca w Polsce w 1985 roku. Był także ministrem zdrowia i senatorem RP."
       },
       {
         "name": "Janusz Korczak",
-        "description": "Lekarz, pedagog, pisarz"
+        "description": "Lekarz, pedagog, pisarz",
+        "bio": "Polski lekarz, pedagog i pisarz (1878–1942). Twórca nowatorskiego systemu wychowawczego i obrońca praw dziecka. Zginął w Treblince, dobrowolnie towarzysząc swoim wychowankom z Domu Sierot."
       }
     ],
     "relatedCareers": [
@@ -374,15 +383,18 @@
     "famousPeople": [
       {
         "name": "Stefan Kuryłowicz",
-        "description": "Wybitny polski architekt modernistyczny"
+        "description": "Wybitny polski architekt modernistyczny",
+        "bio": "Polski architekt (1949–2011). Jeden z najwybitniejszych polskich architektów XX i XXI wieku, twórca modernistycznych budynków użyteczności publicznej. Zaprojektował m.in. Terminal 2 na Okęciu i gmach Biblioteki UW."
       },
       {
         "name": "Zaha Hadid",
-        "description": "Ikona światowej architektury parametrycznej"
+        "description": "Ikona światowej architektury parametrycznej",
+        "bio": "Iracko-brytyjska architektka (1950–2016). Pierwsza kobieta uhonorowana Nagrodą Pritzkera, pionierka architektury parametrycznej i dekonstruktywistycznej. Jej futurystyczne projekty zmieniły oblicze współczesnej architektury."
       },
       {
         "name": "Daniel Libeskind",
-        "description": "Twórca Muzeum Żydowskiego w Berlinie (ur. w Łodzi)"
+        "description": "Twórca Muzeum Żydowskiego w Berlinie (ur. w Łodzi)",
+        "bio": "Polsko-amerykański architekt (ur. 1946 w Łodzi). Twórca Muzeum Żydowskiego w Berlinie i autor planu odbudowy World Trade Center w Nowym Jorku. Znany z ekspresyjnej architektury o silnym ładunku emocjonalnym."
       }
     ],
     "relatedCareers": [
@@ -471,15 +483,18 @@
     "famousPeople": [
       {
         "name": "Maria Montessori",
-        "description": "Twórczyni metody Montessori"
+        "description": "Twórczyni metody Montessori",
+        "bio": "Włoska lekarka i pedagożka (1870–1952). Twórczyni metody Montessori, rewolucyjnego systemu edukacji opartego na samodzielności dziecka. Jej podejście pedagogiczne jest stosowane w tysiącach szkół na całym świecie."
       },
       {
         "name": "Janusz Korczak",
-        "description": "Pedagog, pisarz, obrońca praw dzieci"
+        "description": "Pedagog, pisarz, obrońca praw dzieci",
+        "bio": "Polski lekarz, pedagog i pisarz (1878–1942). Twórca nowatorskiego systemu wychowawczego i obrońca praw dziecka. Zginął w Treblince, dobrowolnie towarzysząc swoim wychowankom z Domu Sierot."
       },
       {
         "name": "Celestyn Freinet",
-        "description": "Twórca pedagogiki Freinetowskiej"
+        "description": "Twórca pedagogiki Freinetowskiej",
+        "bio": "Francuski pedagog (1896–1966). Twórca pedagogiki Freinetowskiej, opartej na swobodnej ekspresji i współpracy uczniów. Jego metody, takie jak drukarnia szkolna i gazetka uczniowska, zrewolucjonizowały nauczanie."
       }
     ],
     "relatedCareers": [
@@ -564,15 +579,18 @@
     "famousPeople": [
       {
         "name": "Henryk Tomaszewski",
-        "description": "Ikona polskiej szkoły plakatu"
+        "description": "Ikona polskiej szkoły plakatu",
+        "bio": "Polski grafik i plakacista (1914–2005). Ikona polskiej szkoły plakatu, profesor Akademii Sztuk Pięknych w Warszawie. Jego prace wystawiano w najważniejszych muzeach świata."
       },
       {
         "name": "Jan Lenica",
-        "description": "Wybitny grafik i twórca plakatów"
+        "description": "Wybitny grafik i twórca plakatów",
+        "bio": "Polski grafik, plakacista i animator (1928–2001). Współtwórca polskiej szkoły plakatu i pionier animacji artystycznej. Tworzył w Paryżu i Berlinie, zdobywając międzynarodowe uznanie."
       },
       {
         "name": "Stefan Sagmeister",
-        "description": "Światowej sławy grafik austriacki"
+        "description": "Światowej sławy grafik austriacki",
+        "bio": "Austriacki grafik i typograf (ur. 1962). Światowej sławy projektant, zdobywca dwóch nagród Grammy za design okładek płyt. Współzałożyciel studia Sagmeister & Walsh w Nowym Jorku."
       }
     ],
     "relatedCareers": [
@@ -663,11 +681,13 @@
     "famousPeople": [
       {
         "name": "Rafał Lemkin",
-        "description": "Twórca pojęcia 'ludobójstwo', prawnik z Lwowa"
+        "description": "Twórca pojęcia 'ludobójstwo', prawnik z Lwowa",
+        "bio": "Polski prawnik żydowskiego pochodzenia (1900–1959). Twórca pojęcia „ludobójstwo” (genocide) i główny architekt Konwencji ONZ o zapobieganiu i karaniu zbrodni ludobójstwa. Urodził się w Bezwodnem na Podlasiu."
       },
       {
         "name": "Adam Bodnar",
-        "description": "Były Rzecznik Praw Obywatelskich, Minister Sprawiedliwości"
+        "description": "Były Rzecznik Praw Obywatelskich, Minister Sprawiedliwości",
+        "bio": "Polski prawnik (ur. 1977). Rzecznik Praw Obywatelskich w latach 2015–2021, od 2023 Minister Sprawiedliwości i Prokurator Generalny. Specjalista prawa konstytucyjnego i praw człowieka."
       }
     ],
     "relatedCareers": [
@@ -758,11 +778,13 @@
     "famousPeople": [
       {
         "name": "Hans Rosling",
-        "description": "Wizualizacja danych zdrowotnych, TED Talks"
+        "description": "Wizualizacja danych zdrowotnych, TED Talks",
+        "bio": "Szwedzki lekarz i statystyk (1948–2017). Wizjoner wizualizacji danych, współtwórca narzędzia Gapminder. Autor bestsellera „Factfulness”, popularyzator myślenia opartego na danych."
       },
       {
         "name": "Nate Silver",
-        "description": "Analityk danych, twórca FiveThirtyEight"
+        "description": "Analityk danych, twórca FiveThirtyEight",
+        "bio": "Amerykański statystyk i publicysta (ur. 1978). Twórca portalu FiveThirtyEight, znanego z prognoz wyborczych i sportowych. Autor książki „Sygnał i szum” o sztuce prognozowania."
       }
     ],
     "relatedCareers": [
@@ -839,11 +861,13 @@
     "famousPeople": [
       {
         "name": "Florence Nightingale",
-        "description": "Prekursorka nowoczesnego pielęgniarstwa"
+        "description": "Prekursorka nowoczesnego pielęgniarstwa",
+        "bio": "Brytyjska pielęgniarka i statystyczka (1820–1910). Prekursorka nowoczesnego pielęgniarstwa, zreformowała opiekę nad rannymi podczas wojny krymskiej. Pionierka wykorzystania statystyki w medycynie."
       },
       {
         "name": "Hanna Chrzanowska",
-        "description": "Polska pielęgniarka, błogosławiona Kościoła katolickiego"
+        "description": "Polska pielęgniarka, błogosławiona Kościoła katolickiego",
+        "bio": "Polska pielęgniarka (1902–1973). Pionierka pielęgniarstwa domowego i społecznego w Polsce, beatyfikowana przez Kościół katolicki w 2018 roku. Całe życie poświęciła opiece nad chorymi i ubogimi w Krakowie."
       }
     ],
     "relatedCareers": [
@@ -916,11 +940,13 @@
     "famousPeople": [
       {
         "name": "Ignacy Łukasiewicz",
-        "description": "Farmaceuta i wynalazca lampy naftowej"
+        "description": "Farmaceuta i wynalazca lampy naftowej",
+        "bio": "Polski farmaceuta i wynalazca (1822–1882). Wynalazca lampy naftowej i pionier przemysłu naftowego na świecie. Jego apteka we Lwowie była miejscem pierwszej destylacji ropy naftowej."
       },
       {
         "name": "Tadeusz Pankiewicz",
-        "description": "Aptekarz z krakowskiego getta, Sprawiedliwy wśród Narodów Świata"
+        "description": "Aptekarz z krakowskiego getta, Sprawiedliwy wśród Narodów Świata",
+        "bio": "Polski farmaceuta (1908–1993). Właściciel jedynej apteki „Pod Orłem” w krakowskim getcie, ratował życie wielu Żydów. Odznaczony tytułem Sprawiedliwy wśród Narodów Świata."
       }
     ],
     "relatedCareers": [
@@ -1001,7 +1027,8 @@
     "famousPeople": [
       {
         "name": "Robin McKenzie",
-        "description": "Twórca metody McKenzie (Nowa Zelandia)"
+        "description": "Twórca metody McKenzie (Nowa Zelandia)",
+        "bio": "Nowozelandzki fizjoterapeuta (1931–2013). Twórca metody diagnostyki i terapii mechanicznej (MDT), znanej jako metoda McKenzie. Jego podejście do leczenia bólu kręgosłupa jest stosowane na całym świecie."
       }
     ],
     "relatedCareers": [
@@ -1088,7 +1115,8 @@
     "famousPeople": [
       {
         "name": "Luca Pacioli",
-        "description": "Ojciec księgowości, twórca podwójnego zapisu (XV w.)"
+        "description": "Ojciec księgowości, twórca podwójnego zapisu (XV w.)",
+        "bio": "Włoski matematyk i franciszkanin (ok. 1447–1517). Autor dzieła „Summa de arithmetica”, w którym opisał system podwójnego zapisu księgowego. Uznawany za ojca nowoczesnej rachunkowości."
       }
     ],
     "relatedCareers": [
@@ -1161,11 +1189,13 @@
     "famousPeople": [
       {
         "name": "Robert Makłowicz",
-        "description": "Krytyk kulinarny, prezenter TV, popularyzator kuchni"
+        "description": "Krytyk kulinarny, prezenter TV, popularyzator kuchni",
+        "bio": "Polski krytyk kulinarny i prezenter telewizyjny (ur. 1963). Popularyzator kuchni śródziemnomorskiej i podróżniczej, znany z programów kulinarnych TVP. Jego kanał na YouTube zdobył ogromną popularność."
       },
       {
         "name": "Wojciech Modest Amaro",
-        "description": "Pierwszy polski szef kuchni z gwiazdką Michelin"
+        "description": "Pierwszy polski szef kuchni z gwiazdką Michelin",
+        "bio": "Polski szef kuchni (ur. 1972). Pierwszy Polak uhonorowany gwiazdką Michelin za restaurację Atelier Amaro w Warszawie. Promotor kuchni opartej na polskich produktach sezonowych."
       }
     ],
     "relatedCareers": [
@@ -1238,7 +1268,8 @@
     "famousPeople": [
       {
         "name": "James Bach",
-        "description": "Guru testowania eksploracyjnego"
+        "description": "Guru testowania eksploracyjnego",
+        "bio": "Amerykański specjalista ds. testowania oprogramowania (ur. 1966). Guru testowania eksploracyjnego i kontekstowego, współtwórca szkoły Rapid Software Testing. Autor wpływowej książki „Lessons Learned in Software Testing”."
       }
     ],
     "relatedCareers": [
@@ -1312,7 +1343,8 @@
     "famousPeople": [
       {
         "name": "Pierre Fauchard",
-        "description": "Ojciec nowoczesnej stomatologii (XVIII w.)"
+        "description": "Ojciec nowoczesnej stomatologii (XVIII w.)",
+        "bio": "Francuski chirurg i stomatolog (1678–1761). Uznawany za ojca nowoczesnej stomatologii, autor przełomowego dzieła „Le Chirurgien Dentiste” z 1728 roku. Wprowadził naukowe podejście do leczenia zębów."
       }
     ],
     "relatedCareers": [
@@ -1386,11 +1418,13 @@
     "famousPeople": [
       {
         "name": "Adam Lach",
-        "description": "Fotoreporter, laureat World Press Photo"
+        "description": "Fotoreporter, laureat World Press Photo",
+        "bio": "Polski fotoreporter (ur. 1983). Laureat nagrody World Press Photo, dokumentalista społecznych problemów Śląska i Donbasu. Jego projekty fotograficzne zdobyły uznanie na arenie międzynarodowej."
       },
       {
         "name": "Chris Niedenthal",
-        "description": "Legendarny fotoreporter, zdjęcie kina Moskwa"
+        "description": "Legendarny fotoreporter, zdjęcie kina Moskwa",
+        "bio": "Polsko-brytyjski fotoreporter (ur. 1950). Autor ikonicznych zdjęć z okresu stanu wojennego, w tym słynnego ujęcia czołgu przed kinem „Moskwa”. Dokumentował przełomowe wydarzenia w historii Polski."
       }
     ],
     "relatedCareers": [
@@ -1456,11 +1490,13 @@
     "famousPeople": [
       {
         "name": "Ryszard Kapuściński",
-        "description": "Legendarny reporter, podróżnik, pisarz"
+        "description": "Legendarny reporter, podróżnik, pisarz",
+        "bio": "Polski reporter, podróżnik i pisarz (1932–2007). Jeden z najwybitniejszych reportażystów XX wieku, autor „Cesarza” i „Imperium”. Relacjonował konflikty i przemiany w Afryce, Azji i Ameryce Łacińskiej."
       },
       {
         "name": "Hanna Krall",
-        "description": "Reportażystka, autorka 'Zdążyć przed Panem Bogiem'"
+        "description": "Reportażystka, autorka 'Zdążyć przed Panem Bogiem'",
+        "bio": "Polska pisarka i reportażystka (ur. 1935). Autorka „Zdążyć przed Panem Bogiem” — wywiadu-rzeki z Markiem Edelmanem. Uznawana za jedną z najważniejszych polskich reportażystek."
       }
     ],
     "relatedCareers": [
@@ -1609,11 +1645,13 @@
     "famousPeople": [
       {
         "name": "Don Norman",
-        "description": "Autor 'The Design of Everyday Things', twórca terminu UX"
+        "description": "Autor 'The Design of Everyday Things', twórca terminu UX",
+        "bio": "Amerykański naukowiec i projektant (ur. 1935). Autor kultowej książki „The Design of Everyday Things” i twórca terminu „User Experience” (UX). Profesor emeritus UC San Diego i współzałożyciel Nielsen Norman Group."
       },
       {
         "name": "Jony Ive",
-        "description": "Były szef designu Apple"
+        "description": "Były szef designu Apple",
+        "bio": "Brytyjski projektant przemysłowy (ur. 1967). Były szef działu designu Apple, odpowiedzialny za projekt iMaca, iPoda, iPhone’a i iPada. Uznawany za jednego z najbardziej wpływowych designerów XXI wieku."
       }
     ],
     "relatedCareers": [
@@ -1685,11 +1723,13 @@
     "famousPeople": [
       {
         "name": "Nikola Tesla",
-        "description": "Wynalazca prądu zmiennego"
+        "description": "Wynalazca prądu zmiennego",
+        "bio": "Serbsko-amerykański wynalazca i inżynier (1856–1943). Pionier prądu zmiennego (AC), silnika indukcyjnego i wielu innych przełomowych technologii. Jego prace położyły fundamenty pod współczesną elektrotechnikę."
       },
       {
         "name": "Thomas Edison",
-        "description": "Wynalazca żarówki i systemu dystrybucji prądu"
+        "description": "Wynalazca żarówki i systemu dystrybucji prądu",
+        "bio": "Amerykański wynalazca i przedsiębiorca (1847–1931). Twórca żarówki, fonografu i systemu dystrybucji prądu stałego. Posiadał ponad tysiąc patentów i jest jednym z najsłynniejszych wynalazców w historii."
       }
     ],
     "relatedCareers": [
@@ -1886,7 +1926,8 @@
     "famousPeople": [
       {
         "name": "Anna Lewandowska",
-        "description": "Dietetyk sportowy, trenerka, przedsiębiorca"
+        "description": "Dietetyk sportowy, trenerka, przedsiębiorca",
+        "bio": "Polska dietetyczka, trenerka i przedsiębiorca (ur. 1988). Mistrzyni karate, twórczyni marki Healthy Center i aplikacji Diet & Training. Popularyzatorka zdrowego stylu życia w Polsce."
       }
     ],
     "relatedCareers": [
@@ -1963,11 +2004,13 @@
     "famousPeople": [
       {
         "name": "Irena Tuwim",
-        "description": "Tłumaczka literatury rosyjskiej"
+        "description": "Tłumaczka literatury rosyjskiej",
+        "bio": "Polska tłumaczka (1900–1987). Wybitna tłumaczka literatury rosyjskiej na język polski, siostra poety Juliana Tuwima. Przełożyła dzieła m.in. Tołstoja, Czechowa i Bułhakowa."
       },
       {
         "name": "Stanisław Barańczak",
-        "description": "Poeta i tłumacz Shakespeare'a"
+        "description": "Poeta i tłumacz Shakespeare'a",
+        "bio": "Polski poeta, tłumacz i literaturoznawca (1946–2014). Wybitny tłumacz Shakespeare’a i poezji anglojęzycznej na język polski, profesor Uniwersytetu Harvarda. Współtwórca Nowej Fali w polskiej poezji."
       }
     ],
     "relatedCareers": [
@@ -2040,7 +2083,8 @@
     "famousPeople": [
       {
         "name": "James Herriot",
-        "description": "Weterynarz-pisarz, autor 'Wszystkie stworzenia'"
+        "description": "Weterynarz-pisarz, autor 'Wszystkie stworzenia'",
+        "bio": "Brytyjski weterynarz i pisarz (1916–1995), właśc. James Alfred Wight. Autor bestsellerowej serii „Wszystkie stworzenia duże i małe” opartej na doświadczeniach wiejskiego weterynarza. Jego książki spopularyzowały zawód weterynarza na całym świecie."
       }
     ],
     "relatedCareers": [
@@ -2128,11 +2172,13 @@
     "famousPeople": [
       {
         "name": "Adam Haertle",
-        "description": "Twórca serwisu Zaufana Trzecia Strona"
+        "description": "Twórca serwisu Zaufana Trzecia Strona",
+        "bio": "Polski dziennikarz i ekspert ds. cyberbezpieczeństwa (ur. ok. 1980). Twórca i redaktor naczelny portalu Zaufana Trzecia Strona (ZTS), jednego z najważniejszych polskich serwisów o bezpieczeństwie IT. Ceniony prelegent na konferencjach branżowych."
       },
       {
         "name": "Kevin Mitnick",
-        "description": "Legendarny haker, później konsultant bezpieczeństwa"
+        "description": "Legendarny haker, później konsultant bezpieczeństwa",
+        "bio": "Amerykański haker i konsultant bezpieczeństwa (1963–2023). Najbardziej znany haker w historii, był poszukiwany przez FBI w latach 90. Po odbyciu kary więzienia został cenionym ekspertem ds. cyberbezpieczeństwa i autorem bestsellerów."
       }
     ],
     "relatedCareers": [
@@ -2220,11 +2266,13 @@
     "famousPeople": [
       {
         "name": "Andrew Ng",
-        "description": "Współtwórca Coursera, pionier deep learning"
+        "description": "Współtwórca Coursera, pionier deep learning",
+        "bio": "Brytyjsko-amerykański informatyk (ur. 1976). Współtwórca platformy edukacyjnej Coursera i pionier deep learningu, były szef Google Brain i Baidu AI. Profesor Uniwersytetu Stanforda i jeden z najważniejszych badaczy sztucznej inteligencji."
       },
       {
         "name": "Przemysław Biecek",
-        "description": "Polski naukowiec, ekspert XAI (Explainable AI)"
+        "description": "Polski naukowiec, ekspert XAI (Explainable AI)",
+        "bio": "Polski informatyk i statystyk (ur. 1979). Profesor Politechniki Warszawskiej, jeden z czołowych światowych ekspertów w dziedzinie wyjaśnialnej sztucznej inteligencji (XAI). Twórca narzędzi DALEX i DrWhy do interpretacji modeli ML."
       }
     ],
     "relatedCareers": [
@@ -2312,11 +2360,13 @@
     "famousPeople": [
       {
         "name": "Kelsey Hightower",
-        "description": "Ewangelista Kubernetes w Google"
+        "description": "Ewangelista Kubernetes w Google",
+        "bio": "Amerykański inżynier IT (ur. ok. 1981). Ewangelista Kubernetes i technologii chmurowych w Google, ceniony prelegent i edukator. Autor książki „Kubernetes: Up and Running” i zwolennik otwartego oprogramowania."
       },
       {
         "name": "Patrick Debois",
-        "description": "Twórca ruchu DevOps"
+        "description": "Twórca ruchu DevOps",
+        "bio": "Belgijski inżynier IT (ur. ok. 1970). Uznawany za ojca ruchu DevOps, organizator pierwszej konferencji DevOpsDays w Gandawie w 2009 roku. Jego wizja połączenia pracy developerów i operacji zmieniła branżę IT."
       }
     ],
     "relatedCareers": [
@@ -2403,11 +2453,13 @@
     "famousPeople": [
       {
         "name": "Thomas Limoncelli",
-        "description": "Autor 'The Practice of System and Network Administration'"
+        "description": "Autor 'The Practice of System and Network Administration'",
+        "bio": "Amerykański administrator systemów i autor (ur. ok. 1969). Autor podręcznika „The Practice of System and Network Administration”, uznawanego za biblię administratorów. Pracował m.in. w Google i Stack Overflow."
       },
       {
         "name": "Linus Torvalds",
-        "description": "Twórca jądra Linux"
+        "description": "Twórca jądra Linux",
+        "bio": "Fińsko-amerykański programista (ur. 1969). Twórca jądra systemu operacyjnego Linux oraz systemu kontroli wersji Git. Jedna z najbardziej wpływowych postaci w historii oprogramowania open source."
       }
     ],
     "relatedCareers": [
@@ -2486,7 +2538,8 @@
     "famousPeople": [
       {
         "name": "Steve Wozniak",
-        "description": "Współzałożyciel Apple, mistrz hardware'u"
+        "description": "Współzałożyciel Apple, mistrz hardware'u",
+        "bio": "Amerykański inżynier i wynalazca (ur. 1950). Współzałożyciel firmy Apple, konstruktor komputerów Apple I i Apple II. Uważany za jednego z ojców rewolucji komputerów osobistych."
       }
     ],
     "relatedCareers": [
@@ -2570,15 +2623,18 @@
     "famousPeople": [
       {
         "name": "Marcin Iwiński",
-        "description": "Współzałożyciel CD Projekt RED (Wiedźmin, Cyberpunk)"
+        "description": "Współzałożyciel CD Projekt RED (Wiedźmin, Cyberpunk)",
+        "bio": "Polski przedsiębiorca (ur. 1974). Współzałożyciel CD Projekt i CD Projekt RED — studia odpowiedzialnego za serię gier Wiedźmin i Cyberpunk 2077. Jeden z najbardziej znanych polskich przedsiębiorców branży gier."
       },
       {
         "name": "Adrian Chmielarz",
-        "description": "Twórca Painkiller i The Vanishing of Ethan Carter"
+        "description": "Twórca Painkiller i The Vanishing of Ethan Carter",
+        "bio": "Polski projektant gier (ur. 1973). Współzałożyciel studia People Can Fly (Painkiller, Bulletstorm) i The Astronauts (The Vanishing of Ethan Carter). Jeden z najbardziej uznanych polskich twórców gier wideo."
       },
       {
         "name": "Hideo Kojima",
-        "description": "Twórca serii Metal Gear Solid"
+        "description": "Twórca serii Metal Gear Solid",
+        "bio": "Japoński projektant gier (ur. 1963). Twórca kultowej serii Metal Gear Solid i Death Stranding, założyciel Kojima Productions. Uznawany za jednego z najważniejszych autorów w historii gier wideo."
       }
     ],
     "relatedCareers": [
@@ -2662,11 +2718,13 @@
     "famousPeople": [
       {
         "name": "Leszek Balcerowicz",
-        "description": "Autor polskiej transformacji gospodarczej"
+        "description": "Autor polskiej transformacji gospodarczej",
+        "bio": "Polski ekonomista i polityk (ur. 1947). Architekt polskiej transformacji gospodarczej (Plan Balcerowicza), były wicepremier i prezes NBP. Profesor SGH, jeden z najważniejszych ekonomistów Europy Środkowej."
       },
       {
         "name": "Marek Belka",
-        "description": "Były premier i prezes NBP"
+        "description": "Były premier i prezes NBP",
+        "bio": "Polski ekonomista i polityk (ur. 1952). Były premier RP i prezes Narodowego Banku Polskiego. Profesor Uniwersytetu Łódzkiego, pracował też w Międzynarodowym Funduszu Walutowym."
       }
     ],
     "relatedCareers": [
@@ -2750,11 +2808,13 @@
     "famousPeople": [
       {
         "name": "Warren Buffett",
-        "description": "Legendarny inwestor, prezes Berkshire Hathaway"
+        "description": "Legendarny inwestor, prezes Berkshire Hathaway",
+        "bio": "Amerykański inwestor i filantrop (ur. 1930). Prezes Berkshire Hathaway, jeden z najbogatszych ludzi na świecie, znany jako „Wyrocznia z Omaha”. Propagator inwestowania długoterminowego w wartość (value investing)."
       },
       {
         "name": "Marcin Iwuć",
-        "description": "Polski bloger finansowy, autor 'Finansowy Ninja'"
+        "description": "Polski bloger finansowy, autor 'Finansowy Ninja'",
+        "bio": "Polski bloger finansowy i edukator (ur. ok. 1980). Autor bestsellera „Finansowy Ninja” i twórca bloga o finansach osobistych. Popularyzator wiedzy o oszczędzaniu i inwestowaniu w Polsce."
       }
     ],
     "relatedCareers": [
@@ -2838,11 +2898,13 @@
     "famousPeople": [
       {
         "name": "Dave Ulrich",
-        "description": "Twórca modelu ról HR"
+        "description": "Twórca modelu ról HR",
+        "bio": "Amerykański profesor i konsultant (ur. 1953). Twórca modelu ról HR (HR Business Partner), uważany za jednego z najbardziej wpływowych myślicieli w zarządzaniu zasobami ludzkimi. Profesor Ross School of Business na Uniwersytecie Michigan."
       },
       {
         "name": "Laszlo Bock",
-        "description": "Były VP People Operations w Google"
+        "description": "Były VP People Operations w Google",
+        "bio": "Amerykański menedżer rumuńskiego pochodzenia (ur. 1972). Były VP People Operations w Google, gdzie zrewolucjonizował podejście do zarządzania talentami. Autor bestsellera „Work Rules!” o kulturze pracy Google."
       }
     ],
     "relatedCareers": [
@@ -2930,11 +2992,13 @@
     "famousPeople": [
       {
         "name": "Seth Godin",
-        "description": "Guru marketingu, autor 'Purple Cow'"
+        "description": "Guru marketingu, autor 'Purple Cow'",
+        "bio": "Amerykański przedsiębiorca i autor (ur. 1960). Guru marketingu internetowego, autor bestsellerów „Purple Cow” i „Permission Marketing”. Jeden z najbardziej wpływowych myślicieli w dziedzinie marketingu cyfrowego."
       },
       {
         "name": "Paweł Tkaczyk",
-        "description": "Polski strateg marketingowy, autor 'Grywalizacja'"
+        "description": "Polski strateg marketingowy, autor 'Grywalizacja'",
+        "bio": "Polski strateg marketingowy i autor (ur. 1978). Twórca agencji MIDEA, ekspert ds. budowania marek i grywalizacji. Autor książki „Grywalizacja” i popularny prelegent na konferencjach biznesowych."
       }
     ],
     "relatedCareers": [
@@ -3018,11 +3082,13 @@
     "famousPeople": [
       {
         "name": "Edward Bernays",
-        "description": "Ojciec public relations"
+        "description": "Ojciec public relations",
+        "bio": "Austriacko-amerykański specjalista PR (1891–1995). Uznawany za ojca public relations, bratanek Zygmunta Freuda. Wykorzystywał psychologię tłumu do tworzenia kampanii PR, które zmieniły współczesny marketing."
       },
       {
         "name": "Krystyna Janda",
-        "description": "Aktorka, mistrzowsko zarządza PR własnego teatru"
+        "description": "Aktorka, mistrzowsko zarządza PR własnego teatru",
+        "bio": "Polska aktorka i reżyserka (ur. 1952). Jedna z najwybitniejszych polskich aktorek, założycielka Teatru Polonia i Och-Teatru w Warszawie. Znana z ról w filmach Wajdy i umiejętnego zarządzania swoimi teatrami."
       }
     ],
     "relatedCareers": [
@@ -3105,7 +3171,8 @@
     "famousPeople": [
       {
         "name": "Witold Modzelewski",
-        "description": "Były wiceminister finansów, ekspert podatkowy"
+        "description": "Były wiceminister finansów, ekspert podatkowy",
+        "bio": "Polski prawnik i ekonomista (ur. 1951). Były wiceminister finansów i prezes Instytutu Studiów Podatkowych. Uznawany za jednego z najważniejszych polskich ekspertów w dziedzinie prawa podatkowego."
       }
     ],
     "relatedCareers": [
@@ -3193,7 +3260,8 @@
     "famousPeople": [
       {
         "name": "Arthur Andersen",
-        "description": "Założyciel jednej z największych firm audytorskich"
+        "description": "Założyciel jednej z największych firm audytorskich",
+        "bio": "Amerykański księgowy (1885–1947). Założyciel firmy audytorskiej Arthur Andersen & Co., jednej z największych na świecie. Pionier niezależnego audytu finansowego i standardów etyki zawodowej."
       }
     ],
     "relatedCareers": [
@@ -3282,11 +3350,13 @@
     "famousPeople": [
       {
         "name": "Irvin Yalom",
-        "description": "Psychoterapeuta egzystencjalny, autor 'Kat miłości'"
+        "description": "Psychoterapeuta egzystencjalny, autor 'Kat miłości'",
+        "bio": "Amerykański psychiatra i pisarz (ur. 1931). Jeden z twórców psychoterapii egzystencjalnej, profesor emeritus Uniwersytetu Stanforda. Autor bestsellerów „Kat miłości” i „Kiedy Nietzsche szlochał”."
       },
       {
         "name": "Jerzy Mellibruda",
-        "description": "Pionier terapii uzależnień w Polsce"
+        "description": "Pionier terapii uzależnień w Polsce",
+        "bio": "Polski psycholog i psychoterapeuta (1939–2014). Pionier leczenia uzależnień w Polsce, współtwórca Państwowej Agencji Rozwiązywania Problemów Alkoholowych. Autor licznych publikacji z zakresu psychologii uzależnień."
       }
     ],
     "relatedCareers": [
@@ -3368,11 +3438,13 @@
     "famousPeople": [
       {
         "name": "Antoni Kępiński",
-        "description": "Twórca polskiej szkoły psychiatrii humanistycznej"
+        "description": "Twórca polskiej szkoły psychiatrii humanistycznej",
+        "bio": "Polski psychiatra (1918–1972). Twórca polskiej szkoły psychiatrii humanistycznej, autor koncepcji „metabolizmu informacyjnego”. Jego dzieła, w tym „Rytm życia” i „Melancholia”, pozostają kamieniami milowymi polskiej psychiatrii."
       },
       {
         "name": "Sigmund Freud",
-        "description": "Ojciec psychoanalizy"
+        "description": "Ojciec psychoanalizy",
+        "bio": "Austriacki neurolog i psychiatra (1856–1939). Ojciec psychoanalizy, twórca koncepcji podświadomości, kompleksu Edypa i interpretacji snów. Jego teorie fundamentalnie zmieniły rozumienie ludzkiej psychiki."
       }
     ],
     "relatedCareers": [
@@ -3455,11 +3527,13 @@
     "famousPeople": [
       {
         "name": "Janusz Korczak",
-        "description": "Lekarz-pedagog, obrońca praw dziecka"
+        "description": "Lekarz-pedagog, obrońca praw dziecka",
+        "bio": "Polski lekarz, pedagog i pisarz (1878–1942). Twórca nowatorskiego systemu wychowawczego i obrońca praw dziecka. Zginął w Treblince, dobrowolnie towarzysząc swoim wychowankom z Domu Sierot."
       },
       {
         "name": "Benjamin Spock",
-        "description": "Autor kultowego podręcznika pediatrii"
+        "description": "Autor kultowego podręcznika pediatrii",
+        "bio": "Amerykański pediatra (1903–1998). Autor kultowej książki „Dziecko — pielęgnowanie i wychowanie”, jednego z najlepiej sprzedających się podręczników XX wieku. Zrewolucjonizował podejście rodziców do wychowania dzieci."
       }
     ],
     "relatedCareers": [
@@ -3542,11 +3616,13 @@
     "famousPeople": [
       {
         "name": "Zbigniew Religa",
-        "description": "Kardiochirurg, dokonał pierwszego przeszczepu serca w Polsce"
+        "description": "Kardiochirurg, dokonał pierwszego przeszczepu serca w Polsce",
+        "bio": "Polski kardiochirurg (1938–2009). Dokonał pierwszego udanego przeszczepu serca w Polsce w 1985 roku. Był także ministrem zdrowia i senatorem RP."
       },
       {
         "name": "Christiaan Barnard",
-        "description": "Wykonał pierwszy przeszczep serca na świecie"
+        "description": "Wykonał pierwszy przeszczep serca na świecie",
+        "bio": "Południowoafrykański kardiochirurg (1922–2001). W 1967 roku wykonał pierwszy udany przeszczep serca na świecie w szpitalu Groote Schuur w Kapsztadzie. Jego osiągnięcie otworzyło nową erę w transplantologii."
       }
     ],
     "relatedCareers": [
@@ -3629,11 +3705,13 @@
     "famousPeople": [
       {
         "name": "Zbigniew Religa",
-        "description": "Kardiochirurg, pionier transplantologii w Polsce"
+        "description": "Kardiochirurg, pionier transplantologii w Polsce",
+        "bio": "Polski kardiochirurg (1938–2009). Dokonał pierwszego udanego przeszczepu serca w Polsce w 1985 roku. Był także ministrem zdrowia i senatorem RP."
       },
       {
         "name": "Marian Zembala",
-        "description": "Kardiochirurg, były minister zdrowia"
+        "description": "Kardiochirurg, były minister zdrowia",
+        "bio": "Polski kardiochirurg (1950–2016). Wybitny specjalista transplantologii, dyrektor Śląskiego Centrum Chorób Serca w Zabrzu. Był ministrem zdrowia w 2015 roku, wykonał setki przeszczepów serca."
       }
     ],
     "relatedCareers": [
@@ -3714,11 +3792,13 @@
     "famousPeople": [
       {
         "name": "Małgorzata Gersdorf",
-        "description": "Była I Prezes Sądu Najwyższego"
+        "description": "Była I Prezes Sądu Najwyższego",
+        "bio": "Polska prawniczka (ur. 1952). Pierwsza Prezes Sądu Najwyższego w latach 2014–2020, symbolicznie broniąca niezawisłości sądownictwa. Profesor prawa pracy na Uniwersytecie Warszawskim."
       },
       {
         "name": "Ruth Bader Ginsburg",
-        "description": "Ikona sprawiedliwości, sędzia Sądu Najwyższego USA"
+        "description": "Ikona sprawiedliwości, sędzia Sądu Najwyższego USA",
+        "bio": "Amerykańska prawniczka (1933–2020). Sędzia Sądu Najwyższego USA od 1993 roku, ikona walki o równouprawnienie kobiet. Znana jako „Notorious RBG”, stała się symbolem praworządności i sprawiedliwości."
       }
     ],
     "relatedCareers": [
@@ -3799,7 +3879,8 @@
     "famousPeople": [
       {
         "name": "Stanisław Piotrowicz",
-        "description": "Znany polski prokurator i polityk"
+        "description": "Znany polski prokurator i polityk",
+        "bio": "Polski prawnik i polityk (ur. 1952). Były prokurator i senator RP, przewodniczący sejmowej komisji sprawiedliwości. Kontrowersyjna postać polskiej sceny polityczno-prawnej."
       }
     ],
     "relatedCareers": [
@@ -3879,7 +3960,8 @@
     "famousPeople": [
       {
         "name": "Benoit Renaud",
-        "description": "Przewodniczący Międzynarodowej Unii Notariatu"
+        "description": "Przewodniczący Międzynarodowej Unii Notariatu",
+        "bio": "Francuski notariusz. Pełnił funkcję przewodniczącego Międzynarodowej Unii Notariatu (UINL), reprezentując środowisko notariuszy na arenie międzynarodowej. Działał na rzecz harmonizacji prawa notarialnego na świecie."
       }
     ],
     "relatedCareers": [
@@ -3959,7 +4041,8 @@
     "famousPeople": [
       {
         "name": "Rafał Fronczek",
-        "description": "Były prezes Krajowej Rady Komorniczej"
+        "description": "Były prezes Krajowej Rady Komorniczej",
+        "bio": "Polski komornik (ur. ok. 1970). Prezes Krajowej Rady Komorniczej w latach 2006–2018, reformator zawodu komornika w Polsce. Działał na rzecz profesjonalizacji i poprawy wizerunku zawodu."
       }
     ],
     "relatedCareers": [
@@ -4040,11 +4123,13 @@
     "famousPeople": [
       {
         "name": "Roman Giertych",
-        "description": "Znany adwokat, były poseł"
+        "description": "Znany adwokat, były poseł",
+        "bio": "Polski adwokat i polityk (ur. 1971). Jeden z najbardziej znanych polskich adwokatów, były poseł i minister edukacji. Prowadzi głośne sprawy karne i cywilne, aktywny komentator życia publicznego."
       },
       {
         "name": "Thurgood Marshall",
-        "description": "Pierwszy afroamerykański sędzia Sądu Najwyższego USA, wcześniej adwokat"
+        "description": "Pierwszy afroamerykański sędzia Sądu Najwyższego USA, wcześniej adwokat",
+        "bio": "Amerykański prawnik (1908–1993). Pierwszy afroamerykański sędzia Sądu Najwyższego USA, wcześniej wybitny adwokat praw obywatelskich. Wygrał przełomową sprawę Brown v. Board of Education, kończącą segregację rasową w szkołach."
       }
     ],
     "relatedCareers": [
@@ -4128,11 +4213,13 @@
     "famousPeople": [
       {
         "name": "Tadeusz Kościuszko",
-        "description": "Bohater Polski i USA, generał"
+        "description": "Bohater Polski i USA, generał",
+        "bio": "Polski i amerykański bohater narodowy (1746–1817). Generał, inżynier wojskowy i przywódca insurekcji kościuszkowskiej. Walczył o niepodległość zarówno Polski, jak i Stanów Zjednoczonych."
       },
       {
         "name": "Władysław Anders",
-        "description": "Dowódca II Korpusu Polskiego"
+        "description": "Dowódca II Korpusu Polskiego",
+        "bio": "Polski generał (1892–1970). Dowódca II Korpusu Polskiego, który zasłynął zwycięstwem pod Monte Cassino w 1944 roku. Po wojnie pozostał na emigracji w Londynie jako symbol wolnej Polski."
       }
     ],
     "relatedCareers": [
@@ -4207,7 +4294,8 @@
     "famousPeople": [
       {
         "name": "Kevin Costner",
-        "description": "Aktor znany z roli ochroniarza w filmie 'Bodyguard'"
+        "description": "Aktor znany z roli ochroniarza w filmie 'Bodyguard'",
+        "bio": "Amerykański aktor, reżyser i producent (ur. 1955). Zdobywca dwóch Oscarów za film „Tańczący z wilkami”, znany też z roli ochroniarza w filmie „Bodyguard”. Jedna z największych gwiazd Hollywood lat 80. i 90."
       }
     ],
     "relatedCareers": [
@@ -4284,7 +4372,8 @@
     "famousPeople": [
       {
         "name": "Tomasz Praga",
-        "description": "Były Komendant Główny Straży Granicznej"
+        "description": "Były Komendant Główny Straży Granicznej",
+        "bio": "Polski funkcjonariusz Straży Granicznej. Pełnił funkcję Komendanta Głównego Straży Granicznej, odpowiadając za ochronę granic państwowych. Kierował modernizacją i profesjonalizacją formacji."
       }
     ],
     "relatedCareers": [
@@ -4367,15 +4456,18 @@
     "famousPeople": [
       {
         "name": "Daniel Olbrychski",
-        "description": "Legenda polskiego kina"
+        "description": "Legenda polskiego kina",
+        "bio": "Polski aktor (ur. 1945). Legenda polskiego kina, muza Andrzeja Wajdy, zagrał w ponad 200 filmach. Zdobywca licznych nagród, w tym nagrody na festiwalu w Cannes."
       },
       {
         "name": "Joanna Kulig",
-        "description": "Gwiazda 'Zimnej Wojny' Pawlikowskiego"
+        "description": "Gwiazda 'Zimnej Wojny' Pawlikowskiego",
+        "bio": "Polska aktorka i piosenkarka (ur. 1982). Gwiazda filmu „Zimna Wojna” Pawła Pawlikowskiego, nominowana do Europejskiej Nagrody Filmowej. Absolwentka krakowskiej PWST, łączy talent aktorski z wokalnym."
       },
       {
         "name": "Zbigniew Cybulski",
-        "description": "Polski James Dean, gwiazda 'Popiołu i diamentu'"
+        "description": "Polski James Dean, gwiazda 'Popiołu i diamentu'",
+        "bio": "Polski aktor (1927–1967). Nazywany „polskim Jamesem Deanem”, ikona polskiego kina za sprawą roli w „Popiele i diamencie” Wajdy. Zginął tragicznie w wypadku kolejowym we Wrocławiu."
       }
     ],
     "relatedCareers": [
@@ -4460,11 +4552,13 @@
     "famousPeople": [
       {
         "name": "Fryderyk Chopin",
-        "description": "Najsłynniejszy polski kompozytor"
+        "description": "Najsłynniejszy polski kompozytor",
+        "bio": "Polski kompozytor i pianista (1810–1849). Najsłynniejszy polski muzyk w historii, wirtuoz fortepianu i twórca nokturnów, polonezów, mazurków i etiud. Większość życia tworzył w Paryżu, pozostając symbolem polskiej kultury."
       },
       {
         "name": "Krzysztof Penderecki",
-        "description": "Kompozytor muzyki współczesnej, laureat Grammy"
+        "description": "Kompozytor muzyki współczesnej, laureat Grammy",
+        "bio": "Polski kompozytor i dyrygent (1933–2020). Jeden z najważniejszych kompozytorów muzyki współczesnej XX wieku, laureat czterech nagród Grammy. Autor „Trenu ofiarom Hiroszimy” i „Polskiego Requiem”."
       }
     ],
     "relatedCareers": [
@@ -4547,15 +4641,18 @@
     "famousPeople": [
       {
         "name": "Andrzej Wajda",
-        "description": "Laureat Oscara, twórca polskiej szkoły filmowej"
+        "description": "Laureat Oscara, twórca polskiej szkoły filmowej",
+        "bio": "Polski reżyser filmowy (1926–2016). Twórca polskiej szkoły filmowej, laureat Oscara za całokształt twórczości. Reżyser kultowych filmów „Popiół i diament”, „Człowiek z marmuru” i „Katyń”."
       },
       {
         "name": "Paweł Pawlikowski",
-        "description": "Reżyser 'Idy' i 'Zimnej Wojny', laureat Oscara"
+        "description": "Reżyser 'Idy' i 'Zimnej Wojny', laureat Oscara",
+        "bio": "Polsko-brytyjski reżyser (ur. 1957). Laureat Oscara za najlepszy film nieanglojęzyczny „Ida” (2015), twórca „Zimnej Wojny”. Jeden z najbardziej uznanych współczesnych polskich reżyserów na świecie."
       },
       {
         "name": "Agnieszka Holland",
-        "description": "Reżyserka 'Europa Europa', nominowana do Oscara"
+        "description": "Reżyserka 'Europa Europa', nominowana do Oscara",
+        "bio": "Polska reżyserka filmowa (ur. 1948). Trzykrotnie nominowana do Oscara, twórczyni filmów „Europa Europa”, „W ciemności” i „Zielona granica”. Jedna z najważniejszych postaci polskiego i europejskiego kina."
       }
     ],
     "relatedCareers": [
@@ -4639,11 +4736,13 @@
     "famousPeople": [
       {
         "name": "Dorota Szelągowska",
-        "description": "Projektantka wnętrz, prowadząca programy telewizyjne"
+        "description": "Projektantka wnętrz, prowadząca programy telewizyjne",
+        "bio": "Polska projektantka wnętrz i prezenterka telewizyjna (ur. 1978). Prowadząca popularne programy o aranżacji wnętrz w TVN, córka pisarki Katarzyny Grocholi. Autorka książek o designie i stylu życia."
       },
       {
         "name": "Kelly Wearstler",
-        "description": "Amerykańska ikona designu wnętrz"
+        "description": "Amerykańska ikona designu wnętrz",
+        "bio": "Amerykańska projektantka wnętrz (ur. 1967). Jedna z najbardziej wpływowych designerek na świecie, znana z eklektycznego, odważnego stylu. Projektuje luksusowe wnętrza hoteli i rezydencji na całym świecie."
       }
     ],
     "relatedCareers": [
@@ -4728,11 +4827,13 @@
     "famousPeople": [
       {
         "name": "Maciej Zień",
-        "description": "Jeden z najsłynniejszych polskich projektantów mody"
+        "description": "Jeden z najsłynniejszych polskich projektantów mody",
+        "bio": "Polski projektant mody (ur. 1974). Jeden z najbardziej rozpoznawalnych polskich kreatorów, znany z eleganckich kolekcji i projektów dla gwiazd. Wielokrotnie nagradzany, ubierał m.in. polskie delegacje olimpijskie."
       },
       {
         "name": "Coco Chanel",
-        "description": "Legendarna kreatorka mody, twórczyni domu Chanel"
+        "description": "Legendarna kreatorka mody, twórczyni domu Chanel",
+        "bio": "Francuska projektantka mody (1883–1971). Założycielka domu mody Chanel, rewolucjonistka kobiecej garderoby — wprowadziła „małą czarną” i perfumy Chanel No. 5. Jedna z najbardziej wpływowych postaci w historii mody."
       }
     ],
     "relatedCareers": [
@@ -4816,11 +4917,13 @@
     "famousPeople": [
       {
         "name": "Janusz Korczak",
-        "description": "Lekarz i pedagog, obrońca praw dziecka"
+        "description": "Lekarz i pedagog, obrońca praw dziecka",
+        "bio": "Polski lekarz, pedagog i pisarz (1878–1942). Twórca nowatorskiego systemu wychowawczego i obrońca praw dziecka. Zginął w Treblince, dobrowolnie towarzysząc swoim wychowankom z Domu Sierot."
       },
       {
         "name": "Maria Montessori",
-        "description": "Twórczyni pedagogiki Montessori"
+        "description": "Twórczyni pedagogiki Montessori",
+        "bio": "Włoska lekarka i pedagożka (1870–1952). Twórczyni metody Montessori, rewolucyjnego systemu edukacji opartego na samodzielności dziecka. Jej podejście pedagogiczne jest stosowane w tysiącach szkół na całym świecie."
       }
     ],
     "relatedCareers": [
@@ -4905,7 +5008,8 @@
     "famousPeople": [
       {
         "name": "Leon Kaczmarek",
-        "description": "Twórca polskiej szkoły logopedycznej"
+        "description": "Twórca polskiej szkoły logopedycznej",
+        "bio": "Polski logopeda i językoznawca (1920–1999). Twórca polskiej szkoły logopedycznej, profesor UMCS w Lublinie. Autor fundamentalnych prac z zakresu rozwoju mowy dziecka i metodologii logopedii."
       }
     ],
     "relatedCareers": [
@@ -4986,11 +5090,13 @@
     "famousPeople": [
       {
         "name": "Maria Skłodowska-Curie",
-        "description": "Noblistka, profesorka Sorbony"
+        "description": "Noblistka, profesorka Sorbony",
+        "bio": "Polsko-francuska fizyczka i chemiczka (1867–1934). Pierwsza kobieta uhonorowana Nagrodą Nobla — zdobyła ją dwukrotnie (fizyka 1903, chemia 1911). Odkrywczyni polonu i radu, profesorka Sorbony w Paryżu."
       },
       {
         "name": "Olga Tokarczuk",
-        "description": "Noblistka, wykładowczyni literatury"
+        "description": "Noblistka, wykładowczyni literatury",
+        "bio": "Polska pisarka (ur. 1962). Laureatka Literackiej Nagrody Nobla 2018, autorka powieści „Bieguni” i „Księgi Jakubowe”. Jedna z najważniejszych współczesnych polskich pisarek, tłumaczona na dziesiątki języków."
       }
     ],
     "relatedCareers": [
@@ -5065,7 +5171,8 @@
     "famousPeople": [
       {
         "name": "Vidal Sassoon",
-        "description": "Rewolucjonista fryzjerstwa, twórca geometrycznych cięć"
+        "description": "Rewolucjonista fryzjerstwa, twórca geometrycznych cięć",
+        "bio": "Brytyjski fryzjer i przedsiębiorca (1928–2012). Rewolucjonista fryzjerstwa, twórca geometrycznych cięć i nowoczesnego podejścia do strzyżenia. Zbudował globalną markę produktów do pielęgnacji włosów."
       }
     ],
     "relatedCareers": [
@@ -5147,7 +5254,8 @@
     "famousPeople": [
       {
         "name": "Helena Rubinstein",
-        "description": "Polka, twórczyni globalnego imperium kosmetycznego"
+        "description": "Polka, twórczyni globalnego imperium kosmetycznego",
+        "bio": "Polsko-amerykańska przedsiębiorczyni (1872–1965). Urodzona w Krakowie, zbudowała jedno z największych imperiów kosmetycznych na świecie. Pionierka nowoczesnej kosmetologii i jedna z najbogatszych kobiet swoich czasów."
       }
     ],
     "relatedCareers": [
@@ -5223,7 +5331,8 @@
     "famousPeople": [
       {
         "name": "Paweł Małecki",
-        "description": "Znany polski cukiernik, mistrz tortów artystycznych"
+        "description": "Znany polski cukiernik, mistrz tortów artystycznych",
+        "bio": "Polski cukiernik i mistrz tortów artystycznych. Znany z efektownych dekoracji cukierniczych i współpracy z mediami. Popularyzator sztuki cukierniczej w Polsce, uczestnik programów telewizyjnych."
       }
     ],
     "relatedCareers": [
@@ -5299,7 +5408,8 @@
     "famousPeople": [
       {
         "name": "Chad Robertson",
-        "description": "Założyciel Tartine Bakery, guru zakwasu"
+        "description": "Założyciel Tartine Bakery, guru zakwasu",
+        "bio": "Amerykański piekarz (ur. ok. 1970). Założyciel legendarnej Tartine Bakery w San Francisco, guru piekarnictwa na zakwasie. Autor bestsellerowej książki „Tartine Bread”, która zrewolucjonizowała domowe pieczenie chleba."
       }
     ],
     "relatedCareers": [
@@ -5376,7 +5486,8 @@
     "famousPeople": [
       {
         "name": "Agnieszka Rojewska",
-        "description": "Polka — Mistrzyni Świata Baristów 2018"
+        "description": "Polka — Mistrzyni Świata Baristów 2018",
+        "bio": "Polska baristka (ur. ok. 1990). Mistrzyni Świata Baristów 2018 (World Barista Championship) — pierwsza Polka i pierwsza kobieta z tytułem. Współwłaścicielka kawiarni Cafe Targowa i ambasadorka polskiej kultury kawowej."
       }
     ],
     "relatedCareers": [
@@ -5455,7 +5566,8 @@
     "famousPeople": [
       {
         "name": "Rick Steves",
-        "description": "Amerykański guru turystyki europejskiej"
+        "description": "Amerykański guru turystyki europejskiej",
+        "bio": "Amerykański pisarz podróżniczy i prezenter (ur. 1955). Autor bestsellerowych przewodników po Europie i gospodarz programów telewizyjnych o podróżach. Jeden z najbardziej wpływowych popularyzatorów turystyki w USA."
       }
     ],
     "relatedCareers": [
@@ -5531,7 +5643,8 @@
     "famousPeople": [
       {
         "name": "Sam Maloof",
-        "description": "Legendarny amerykański stolarz-artysta"
+        "description": "Legendarny amerykański stolarz-artysta",
+        "bio": "Amerykański stolarz i artysta (1916–2009). Legendarny twórca mebli, szczególnie bujanych foteli, uznawanych za dzieła sztuki. Laureat MacArthur Fellowship, jego prace znajdują się w zbiorach Smithsonian."
       }
     ],
     "relatedCareers": [
@@ -5613,11 +5726,13 @@
     "famousPeople": [
       {
         "name": "Stefan Bryła",
-        "description": "Konstruktor pierwszego na świecie mostu spawanego"
+        "description": "Konstruktor pierwszego na świecie mostu spawanego",
+        "bio": "Polski inżynier (1886–1943). Konstruktor pierwszego na świecie mostu spawanego (most na Słudwi, 1929), pionier technologii spawania w budownictwie. Profesor Politechniki Lwowskiej, zginął zamordowany podczas okupacji."
       },
       {
         "name": "Gustave Eiffel",
-        "description": "Twórca wieży Eiffla w Paryżu"
+        "description": "Twórca wieży Eiffla w Paryżu",
+        "bio": "Francuski inżynier (1832–1923). Twórca słynnej wieży Eiffla w Paryżu, wzniesionej na Wystawę Światową 1889 roku. Projektował też konstrukcję nośną Statui Wolności i liczne mosty na całym świecie."
       }
     ],
     "relatedCareers": [
@@ -5701,11 +5816,13 @@
     "famousPeople": [
       {
         "name": "Nikola Tesla",
-        "description": "Wynalazca prądu zmiennego i wielu maszyn"
+        "description": "Wynalazca prądu zmiennego i wielu maszyn",
+        "bio": "Serbsko-amerykański wynalazca i inżynier (1856–1943). Pionier prądu zmiennego (AC), silnika indukcyjnego i wielu innych przełomowych technologii. Jego prace położyły fundamenty pod współczesną elektrotechnikę."
       },
       {
         "name": "James Watt",
-        "description": "Udoskonalił maszynę parową, rewolucja przemysłowa"
+        "description": "Udoskonalił maszynę parową, rewolucja przemysłowa",
+        "bio": "Szkocki wynalazca i inżynier (1736–1819). Udoskonalił maszynę parową, co zapoczątkowało rewolucję przemysłową. Na jego cześć nazwano jednostkę mocy — wat."
       }
     ],
     "relatedCareers": [
@@ -5787,7 +5904,8 @@
     "famousPeople": [
       {
         "name": "Tadeusz Kościuszko",
-        "description": "Inżynier wojskowy i geodeta, bohater narodowy"
+        "description": "Inżynier wojskowy i geodeta, bohater narodowy",
+        "bio": "Polski i amerykański bohater narodowy (1746–1817). Generał, inżynier wojskowy i przywódca insurekcji kościuszkowskiej. Walczył o niepodległość zarówno Polski, jak i Stanów Zjednoczonych."
       }
     ],
     "relatedCareers": [
@@ -5871,11 +5989,13 @@
     "famousPeople": [
       {
         "name": "Jan Gehl",
-        "description": "Duński urbanista, twórca koncepcji miasta ludzkiego"
+        "description": "Duński urbanista, twórca koncepcji miasta ludzkiego",
+        "bio": "Duński architekt i urbanista (ur. 1936). Twórca koncepcji „miasta ludzkiego” — projektowania przestrzeni miejskich przyjaznych pieszym i rowerzystom. Jego idee zrewolucjonizowały urbanistykę na całym świecie."
       },
       {
         "name": "Le Corbusier",
-        "description": "Wizjoner urbanistyki modernistycznej"
+        "description": "Wizjoner urbanistyki modernistycznej",
+        "bio": "Szwajcarsko-francuski architekt (1887–1965), właśc. Charles-Édouard Jeanneret. Jeden z najważniejszych architektów XX wieku, wizjoner urbanistyki modernistycznej. Twórca koncepcji „maszyny do mieszkania” i projektant Chandigarh w Indiach."
       }
     ],
     "relatedCareers": [
@@ -5951,7 +6071,8 @@
     "famousPeople": [
       {
         "name": "Enzo Ferrari",
-        "description": "Założyciel marki Ferrari, pasjonat mechaniki"
+        "description": "Założyciel marki Ferrari, pasjonat mechaniki",
+        "bio": "Włoski przedsiębiorca i kierowca wyścigowy (1898–1988). Założyciel marki Ferrari, jednej z najbardziej legendarnych marek motoryzacyjnych świata. Przez dekady jego samochody dominowały w wyścigach Formuły 1."
       }
     ],
     "relatedCareers": [
@@ -6028,7 +6149,8 @@
     "famousPeople": [
       {
         "name": "Stefan Bryła",
-        "description": "Pionier spawania konstrukcji stalowych"
+        "description": "Pionier spawania konstrukcji stalowych",
+        "bio": "Polski inżynier (1886–1943). Konstruktor pierwszego na świecie mostu spawanego (most na Słudwi, 1929), pionier technologii spawania w budownictwie. Profesor Politechniki Lwowskiej, zginął zamordowany podczas okupacji."
       }
     ],
     "relatedCareers": [
@@ -6111,7 +6233,8 @@
     "famousPeople": [
       {
         "name": "Gerardus Mercator",
-        "description": "Twórca odwzorowania Mercatora, ikona kartografii"
+        "description": "Twórca odwzorowania Mercatora, ikona kartografii",
+        "bio": "Flamandzki kartograf i geograf (1512–1594). Twórca odwzorowania walcowego (projekcja Mercatora), które zrewolucjonizowało nawigację morską. Uznawany za jedną z najważniejszych postaci w historii kartografii."
       }
     ],
     "relatedCareers": [
@@ -6194,7 +6317,8 @@
     "famousPeople": [
       {
         "name": "Frederick Law Olmsted",
-        "description": "Projektant Central Parku w Nowym Jorku"
+        "description": "Projektant Central Parku w Nowym Jorku",
+        "bio": "Amerykański architekt krajobrazu (1822–1903). Projektant Central Parku w Nowym Jorku i wielu innych słynnych parków miejskich w USA. Uznawany za ojca amerykańskiej architektury krajobrazu."
       }
     ],
     "relatedCareers": [
@@ -6278,7 +6402,8 @@
     "famousPeople": [
       {
         "name": "Jadwiga Łuszczewska",
-        "description": "Pionierka polskiego rolnictwa ekologicznego"
+        "description": "Pionierka polskiego rolnictwa ekologicznego",
+        "bio": "Polska pionierka rolnictwa ekologicznego. Działała na rzecz zrównoważonego rolnictwa i ochrony tradycyjnych odmian roślin w Polsce. Propagatorka ekologicznych metod uprawy i przetwórstwa żywności."
       }
     ],
     "relatedCareers": [
@@ -6359,7 +6484,8 @@
     "famousPeople": [
       {
         "name": "Adam Loret",
-        "description": "Pierwszy dyrektor Lasów Państwowych"
+        "description": "Pierwszy dyrektor Lasów Państwowych",
+        "bio": "Polski leśnik i organizator (1884–1940). Pierwszy dyrektor naczelny Lasów Państwowych (1924–1939), twórca nowoczesnej organizacji leśnictwa w Polsce. Zginął w obozie koncentracyjnym Sachsenhausen."
       }
     ],
     "relatedCareers": [
@@ -6436,7 +6562,8 @@
     "famousPeople": [
       {
         "name": "Monty Don",
-        "description": "Brytyjski ogrodnik, prezenter Gardeners' World"
+        "description": "Brytyjski ogrodnik, prezenter Gardeners' World",
+        "bio": "Brytyjski ogrodnik, pisarz i prezenter telewizyjny (ur. 1955). Gospodarz kultowego programu BBC „Gardeners’ World”, popularyzator ogrodnictwa ekologicznego. Autor wielu książek o ogrodach i zrównoważonym podejściu do uprawy roślin."
       }
     ],
     "relatedCareers": [
@@ -6519,11 +6646,13 @@
     "famousPeople": [
       {
         "name": "Greta Thunberg",
-        "description": "Aktywistka klimatyczna, symbol ruchu ekologicznego"
+        "description": "Aktywistka klimatyczna, symbol ruchu ekologicznego",
+        "bio": "Szwedzka aktywistka klimatyczna (ur. 2003). Inicjatorka ruchu „Piątki dla Przyszłości” (Fridays for Future), symbol młodzieżowego protestu przeciw zmianom klimatu. Wielokrotnie nominowana do Pokojowej Nagrody Nobla."
       },
       {
         "name": "Wangari Maathai",
-        "description": "Noblistka, założycielka Green Belt Movement"
+        "description": "Noblistka, założycielka Green Belt Movement",
+        "bio": "Kenijska aktywistka i polityczka (1940–2011). Laureatka Pokojowej Nagrody Nobla 2004, założycielka Green Belt Movement — organizacji, która posadziła ponad 50 milionów drzew. Pierwsza Afrykanka uhonorowana Noblem."
       }
     ],
     "relatedCareers": [
@@ -6597,7 +6726,8 @@
     "famousPeople": [
       {
         "name": "James Herriot",
-        "description": "Weterynarz-pisarz, autor 'Wszystkie stworzenia'"
+        "description": "Weterynarz-pisarz, autor 'Wszystkie stworzenia'",
+        "bio": "Brytyjski weterynarz i pisarz (1916–1995), właśc. James Alfred Wight. Autor bestsellerowej serii „Wszystkie stworzenia duże i małe” opartej na doświadczeniach wiejskiego weterynarza. Jego książki spopularyzowały zawód weterynarza na całym świecie."
       }
     ],
     "relatedCareers": [
