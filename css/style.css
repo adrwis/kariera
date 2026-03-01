@@ -46,6 +46,13 @@
   --kr-tile-bg: rgba(255, 255, 255, 0.6);
   --kr-tile-border: rgba(224, 228, 234, 0.8);
   --kr-tile-hover-shadow: 0 12px 40px rgba(0, 137, 123, 0.18);
+  /* Sora title + button */
+  --kr-title-grad-from: #2d3561;
+  --kr-title-grad-to: #1e88e5;
+  --kr-btn-bg: #1e88e5;
+  --kr-btn-hover: #1976d2;
+  --kr-btn-shadow: rgba(30, 136, 229, 0.25);
+  --kr-btn-shadow-hover: rgba(30, 136, 229, 0.4);
   color-scheme: light;
 }
 
@@ -89,6 +96,13 @@
   --kr-tile-bg: rgba(22, 27, 34, 0.6);
   --kr-tile-border: rgba(48, 54, 61, 0.8);
   --kr-tile-hover-shadow: 0 12px 40px rgba(77, 182, 172, 0.15);
+  /* Sora title + button */
+  --kr-title-grad-from: #7986cb;
+  --kr-title-grad-to: #42a5f5;
+  --kr-btn-bg: #42a5f5;
+  --kr-btn-hover: #1e88e5;
+  --kr-btn-shadow: rgba(66, 165, 245, 0.25);
+  --kr-btn-shadow-hover: rgba(66, 165, 245, 0.4);
   color-scheme: dark;
 }
 
@@ -204,10 +218,10 @@ body {
   width: 36px;
   height: 36px;
   border-radius: 10px;
-  background: linear-gradient(135deg, var(--kr-primary), var(--kr-secondary));
+  background: linear-gradient(135deg, var(--kr-title-grad-from), var(--kr-title-grad-to));
   color: var(--kr-accent);
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 700;
+  font-family: 'Sora', sans-serif;
+  font-weight: 600;
   font-size: 1.05rem;
   box-shadow: 0 0 20px var(--kr-glow-secondary),
               0 2px 8px rgba(0, 0, 0, 0.15);
@@ -222,8 +236,8 @@ body {
 }
 
 .topbar__title {
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 700;
+  font-family: 'Sora', sans-serif;
+  font-weight: 600;
   font-size: 1.15rem;
   letter-spacing: -0.01em;
 }
@@ -367,35 +381,34 @@ main {
 }
 
 .landing__title {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: clamp(2.6rem, 6vw, 4.2rem);
-  font-weight: 800;
-  line-height: 0.95;
-  letter-spacing: -0.03em;
+  font-family: 'Sora', sans-serif;
+  font-size: clamp(2.8rem, 6.5vw, 4.4rem);
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.04em;
   margin-bottom: 0.75rem;
 }
 
 .landing__title-static {
   color: var(--kr-text);
+  opacity: 0.7;
 }
 
 .landing__title-accent {
-  background: linear-gradient(
-    135deg,
-    var(--kr-primary) 0%,
-    var(--kr-primary-light) 100%
-  );
+  font-weight: 600;
+  background: linear-gradient(135deg, var(--kr-title-grad-from) 0%, var(--kr-title-grad-to) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .landing__subtitle {
+  font-family: 'Sora', sans-serif;
   font-size: 1.1rem;
   color: var(--kr-text-muted);
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 0.35rem;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
 }
 
 .landing__typing {
@@ -482,45 +495,32 @@ main {
   position: relative;
 }
 
-/* Search button with shimmer */
+/* Search button */
 .search-box__btn {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   width: 100%;
-  padding: 0.75rem 2rem;
+  padding: 0.8rem 2rem;
   border: none;
-  border-radius: 14px;
-  background: linear-gradient(135deg, var(--kr-primary), var(--kr-secondary));
+  border-radius: 12px;
+  background: var(--kr-btn-bg);
   color: #fff;
-  font-family: inherit;
-  font-size: 1.05rem;
-  font-weight: 700;
-  letter-spacing: 0.01em;
+  font-family: 'Sora', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   cursor: pointer;
-  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease;
-  position: relative;
-  overflow: hidden;
-}
-
-.search-box__btn::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-  transition: left 0.6s ease;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, background 0.25s ease;
+  box-shadow: 0 4px 20px var(--kr-btn-shadow);
 }
 
 .search-box__btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(0, 137, 123, 0.35);
-}
-.search-box__btn:hover::before {
-  left: 100%;
+  box-shadow: 0 6px 28px var(--kr-btn-shadow-hover);
+  background: var(--kr-btn-hover);
 }
 .search-box__btn:active {
   transform: translateY(0);
