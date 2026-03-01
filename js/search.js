@@ -9,20 +9,6 @@ const CareerSearch = (() => {
   let kzisData = [];
   let isLoaded = false;
 
-  // Category mapping for filtering
-  const CATEGORY_MAP = {
-    it: ['informatyk', 'programista', 'analityk-danych', 'tester', 'administrator-systemow', 'grafik-komputerowy', 'specjalista-cyberbezpieczenstwa', 'projektant-ux'],
-    medycyna: ['lekarz', 'pielegniarka', 'farmaceuta', 'fizjoterapeuta', 'ratownik-medyczny', 'dentysta', 'dietetyk', 'psycholog'],
-    prawo: ['prawnik', 'sedzia', 'notariusz', 'komornik'],
-    edukacja: ['nauczyciel', 'wykładowca', 'pedagog', 'logopeda', 'bibliotekarz'],
-    biznes: ['ksiegowy', 'analityk-danych', 'menedzer', 'ekonomista', 'doradca-finansowy', 'audytor'],
-    inzynieria: ['inzynier-budownictwa', 'architekt', 'inzynier-mechanik', 'elektryk', 'geodeta'],
-    sztuka: ['grafik', 'aktor', 'muzyk', 'fotograf', 'dziennikarz', 'tlumacz', 'projektant-mody'],
-    przyroda: ['weterynarze', 'ogrodnik', 'lesnik', 'rolnik', 'ekolog'],
-    uslugi: ['kucharz', 'fryzjer', 'barista', 'kelner', 'pilot-wycieczek'],
-    bezpieczenstwo: ['policjant', 'strazak', 'zolnierz', 'ochroniarz', 'detektyw'],
-  };
-
   async function loadData() {
     if (isLoaded) return;
     try {
@@ -97,11 +83,9 @@ const CareerSearch = (() => {
 
   // Search by category
   function searchByCategory(cat) {
-    const ids = CATEGORY_MAP[cat] || [];
-    const rich = careersData.filter(c => ids.includes(c.id));
-    const simple = kzisData.filter(k =>
-      k.category === cat && !rich.some(r => r.code === k.code)
-    );
+    const rich = careersData.filter(c => c.category === cat);
+    const richCodes = new Set(rich.map(r => r.code));
+    const simple = kzisData.filter(k => k.category === cat && !richCodes.has(k.code));
     return { rich, simple };
   }
 
