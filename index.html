@@ -146,14 +146,33 @@
     <section id="view-wyniki" class="view view--wyniki" role="region" aria-label="Wyniki wyszukiwania" hidden>
       <div class="results">
         <div class="results__header">
-          <a href="#/" class="results__back" aria-label="Wróć do wyszukiwarki">&larr; Wróć</a>
+          <a href="#/" class="results__back" id="resultsBack" aria-label="Wróć do wyszukiwarki">&larr; Wróć</a>
           <h2 class="results__title">Wyniki wyszukiwania</h2>
           <p class="results__query" id="resultsQuery"></p>
+          <p class="results__count" id="resultsCount"></p>
+          <form class="results__search" id="resultsSearchForm" role="search" aria-label="Szukaj ponownie">
+            <input type="text" class="results__search-input" id="resultsSearchInput" placeholder="Szukaj zawodu..." autocomplete="off">
+            <button type="submit" class="results__search-btn" aria-label="Szukaj">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            </button>
+          </form>
+          <div class="results__toolbar" id="resultsToolbar" hidden>
+            <button type="button" class="results__sort-btn results__sort-btn--active" data-sort="relevance">Trafność</button>
+            <button type="button" class="results__sort-btn" data-sort="name">Nazwa A-Z</button>
+            <button type="button" class="results__sort-btn" data-sort="salary">Zarobki ↓</button>
+          </div>
         </div>
         <div class="results__list" id="resultsList" role="list"></div>
         <div class="results__empty" id="resultsEmpty" hidden>
-          <p class="results__empty-text">Nie znaleziono zawodów pasujących do zapytania.</p>
-          <a href="#/" class="results__empty-link">Spróbuj ponownie</a>
+          <svg class="results__empty-icon" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.3-4.3"/>
+            <path d="M8 11h6"/>
+          </svg>
+          <p class="results__empty-title">Nie znaleziono zawodów</p>
+          <p class="results__empty-text">Spróbuj innego słowa lub przejrzyj kategorie:</p>
+          <div class="results__empty-cats" id="resultsEmptyCats"></div>
+          <a href="#/" class="results__empty-back">&larr; Wróć do wyszukiwarki</a>
         </div>
       </div>
     </section>
