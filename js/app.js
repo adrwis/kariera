@@ -20,7 +20,7 @@
   };
 
   // --- State ---
-  let lastResultsHash = '';
+  let lastResultsPath = '';
   let currentResults = null;
   let currentSort = 'relevance';
 
@@ -81,12 +81,21 @@
     }
   }
 
-  // --- Router ---
+  // --- Router (History API) ---
+  const BASE = '/kariera';
+
   function getRoute() {
-    const hash = window.location.hash || '#/';
-    if (hash.startsWith('#/wyniki')) return { view: 'wyniki', params: new URLSearchParams(hash.split('?')[1] || '') };
-    if (hash.startsWith('#/zawod/')) return { view: 'zawod', params: hash.replace('#/zawod/', '') };
+    const path = window.location.pathname.replace(BASE, '') || '/';
+    const search = window.location.search;
+    if (path.startsWith('/wyniki')) return { view: 'wyniki', params: new URLSearchParams(search) };
+    if (path.startsWith('/zawod/')) return { view: 'zawod', params: path.replace('/zawod/', '') };
     return { view: 'landing', params: null };
+  }
+
+  function go(routePath) {
+    const url = BASE + routePath;
+    history.pushState(null, '', url);
+    navigate();
   }
 
   function navigate() {
@@ -100,7 +109,7 @@
 
       case 'wyniki':
         showView('wyniki');
-        lastResultsHash = window.location.hash;
+        lastResultsPath = window.location.pathname + window.location.search;
         handleResults(route.params);
         { // Dynamic title for results
           const q = route.params.get('q') || route.params.get('cat') || '';
@@ -120,7 +129,7 @@
     }
   }
 
-  window.addEventListener('hashchange', navigate);
+  window.addEventListener('popstate', navigate);
 
   // --- Search form (landing) ---
   const searchForm = document.getElementById('searchForm');
@@ -142,7 +151,7 @@
     if (name) localStorage.setItem('kr-name', name);
 
     // Navigate to results
-    window.location.hash = `#/wyniki?q=${encodeURIComponent(query)}`;
+    go(`/wyniki?q=${encodeURIComponent(query)}`);
     closeAutocomplete();
   });
 
@@ -154,7 +163,7 @@
     e.preventDefault();
     const query = resultsSearchInput.value.trim();
     if (!query) return;
-    window.location.hash = `#/wyniki?q=${encodeURIComponent(query)}`;
+    go(`/wyniki?q=${encodeURIComponent(query)}`);
   });
 
   // --- Sort toolbar ---
@@ -237,11 +246,7 @@
         <span class="autocomplete__item-code">${escapeHtml(r.code)}</span>
       `;
       li.addEventListener('click', () => {
-        if (r.type === 'rich') {
-          window.location.hash = `#/zawod/${r.id}`;
-        } else {
-          window.location.hash = `#/zawod/${r.code}`;
-        }
+        go(`/zawod/${r.type === 'rich' ? r.id : r.code}`);
         closeAutocomplete();
       });
       autocompleteList.appendChild(li);
@@ -366,7 +371,7 @@
     if (total === 1) {
       const item = results.rich[0] || results.simple[0];
       const id = item.id || item.code;
-      window.location.hash = `#/zawod/${id}`;
+      go(`/zawod/${id}`);
       return;
     }
 
@@ -382,7 +387,7 @@
       const suggestedCats = ['it', 'medycyna', 'biznes', 'edukacja', 'sztuka'];
       for (const catKey of suggestedCats) {
         const a = document.createElement('a');
-        a.href = `#/wyniki?cat=${catKey}`;
+        a.href = `${BASE}/wyniki?cat=${catKey}`;
         a.className = 'popular__tag';
         a.textContent = CATEGORY_NAMES[catKey];
         resultsEmptyCats.appendChild(a);
@@ -455,7 +460,7 @@
 
   function createRichCard(career) {
     const a = document.createElement('a');
-    a.href = `#/zawod/${career.id}`;
+    a.href = `${BASE}/zawod/${career.id}`;
     a.className = 'result-card';
     a.setAttribute('role', 'listitem');
 
@@ -479,7 +484,7 @@
 
   function createSimpleCard(entry) {
     const a = document.createElement('a');
-    a.href = `#/zawod/${entry.code}`;
+    a.href = `${BASE}/zawod/${entry.code}`;
     a.className = 'result-card result-card--simple';
     a.setAttribute('role', 'listitem');
     a.innerHTML = `
@@ -493,7 +498,7 @@
   const careerDetail = document.getElementById('careerDetail');
 
   function getBackHref() {
-    return lastResultsHash || '#/';
+    return lastResultsPath || BASE + '/';
   }
 
   function handleCareerDetail(idOrCode) {
@@ -517,7 +522,7 @@
       <a href="${escapeAttr(getBackHref())}" class="results__back">&larr; Wróć</a>
       <div class="career-fallback">
         <p class="career-fallback__text">Nie znaleziono zawodu o identyfikatorze "${escapeHtml(idOrCode)}".</p>
-        <a href="#/" class="career-fallback__link">Wróć do wyszukiwarki</a>
+        <a href="${BASE}/" class="career-fallback__link">Wróć do wyszukiwarki</a>
       </div>
     `;
   }
@@ -540,7 +545,7 @@
 
     const catName = CATEGORY_NAMES[c.category] || '';
     const categoryBadge = catName
-      ? `<a href="#/wyniki?cat=${escapeAttr(c.category)}" class="career-hero__category">${escapeHtml(catName)}</a>`
+      ? `<a href="${BASE}/wyniki?cat=${escapeAttr(c.category)}" class="career-hero__category">${escapeHtml(catName)}</a>`
       : '';
 
     const aliasesHtml = c.aliases && c.aliases.length
@@ -687,7 +692,7 @@
       const relatedTags = c.relatedCareers.map(id => {
         const rich = CareerSearch.getCareerById(id);
         const label = rich ? rich.name : id.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-        return `<a href="#/zawod/${escapeAttr(id)}" class="popular__tag">${escapeHtml(label)}</a>`;
+        return `<a href="${BASE}/zawod/${escapeAttr(id)}" class="popular__tag">${escapeHtml(label)}</a>`;
       }).join('');
       relatedHtml = `
         <div class="career-related career-related--detail">
@@ -759,7 +764,7 @@
   function renderFallbackDetail(kzis) {
     const catName = CATEGORY_NAMES[kzis.category] || '';
     const categoryBadge = catName
-      ? `<a href="#/wyniki?cat=${escapeAttr(kzis.category)}" class="career-hero__category">${escapeHtml(catName)}</a>`
+      ? `<a href="${BASE}/wyniki?cat=${escapeAttr(kzis.category)}" class="career-hero__category">${escapeHtml(catName)}</a>`
       : '';
 
     // Find up to 5 rich profiles from the same category
@@ -773,7 +778,7 @@
           <div class="career-fallback__suggestions">
             <h4 class="career-fallback__suggestions-title">Inne zawody z kategorii ${escapeHtml(catName)}</h4>
             <div class="career-fallback__suggestions-tags">
-              ${suggestions.map(s => `<a href="#/zawod/${escapeAttr(s.id)}" class="popular__tag">${escapeHtml(s.name)}</a>`).join('')}
+              ${suggestions.map(s => `<a href="${BASE}/zawod/${escapeAttr(s.id)}" class="popular__tag">${escapeHtml(s.name)}</a>`).join('')}
             </div>
           </div>
         `;
@@ -1411,7 +1416,7 @@
 
     if (selectedSchools.length) params.set('schools', selectedSchools.join('|'));
 
-    window.location.hash = `#/wyniki?${params.toString()}`;
+    go(`/wyniki?${params.toString()}`);
   });
 
   // Reset button
@@ -1451,6 +1456,25 @@
   scrollTopBtn.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
+
+  // --- Intercept internal link clicks for pushState ---
+  document.addEventListener('click', (e) => {
+    const a = e.target.closest('a[href]');
+    if (!a) return;
+    const href = a.getAttribute('href');
+    // Only intercept internal /kariera/ links (not external, not anchors, not new tab)
+    if (!href || !href.startsWith(BASE + '/') && !href.startsWith(BASE + '?')) return;
+    if (a.target === '_blank' || e.ctrlKey || e.metaKey || e.shiftKey) return;
+    e.preventDefault();
+    history.pushState(null, '', href);
+    navigate();
+  });
+
+  // --- Backwards compat: migrate old hash URLs ---
+  if (window.location.hash.startsWith('#/')) {
+    const hashPath = window.location.hash.slice(1); // e.g. "/zawod/psycholog" or "/wyniki?q=test"
+    history.replaceState(null, '', BASE + hashPath);
+  }
 
   // --- Init ---
   async function init() {

@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/kariera/">
   <title>NextMove — Znajdź swój zawód</title>
   <meta name="description" content="Wyszukiwarka zawodów dla osób, które nie wiedzą kim chcą zostać. Ponad 80 zawodów z opisami, zarobkami i ścieżkami edukacji.">
   <meta name="robots" content="index, follow">
@@ -30,8 +31,9 @@
   <meta name="theme-color" content="#1a237e">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@300;400;600&family=Space+Grotesk:wght@500;700&display=swap" as="style">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@300;400;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -50,6 +52,13 @@
       "priceCurrency": "PLN"
     }
   }
+  </script>
+  <!-- SPA redirect: restore path from 404.html -->
+  <script>
+    (function() {
+      var r = sessionStorage.getItem('spa-redirect');
+      if (r) { sessionStorage.removeItem('spa-redirect'); history.replaceState(null, '', r); }
+    })();
   </script>
 </head>
 <body>
@@ -110,14 +119,14 @@
             <div class="popular" aria-label="Popularne zawody">
               <p class="popular__label">Popularne:</p>
               <ul class="popular__tags">
-                <li><a href="#/zawod/psycholog" class="popular__tag">Psycholog</a></li>
-                <li><a href="#/zawod/programista" class="popular__tag">Programista</a></li>
-                <li><a href="#/zawod/lekarz" class="popular__tag">Lekarz</a></li>
-                <li><a href="#/zawod/architekt" class="popular__tag">Architekt</a></li>
-                <li><a href="#/zawod/nauczyciel" class="popular__tag">Nauczyciel</a></li>
-                <li><a href="#/zawod/grafik" class="popular__tag">Grafik</a></li>
-                <li><a href="#/zawod/prawnik" class="popular__tag">Prawnik</a></li>
-                <li><a href="#/zawod/analityk-danych" class="popular__tag">Analityk danych</a></li>
+                <li><a href="/kariera/zawod/psycholog" class="popular__tag">Psycholog</a></li>
+                <li><a href="/kariera/zawod/programista" class="popular__tag">Programista</a></li>
+                <li><a href="/kariera/zawod/lekarz" class="popular__tag">Lekarz</a></li>
+                <li><a href="/kariera/zawod/architekt" class="popular__tag">Architekt</a></li>
+                <li><a href="/kariera/zawod/nauczyciel" class="popular__tag">Nauczyciel</a></li>
+                <li><a href="/kariera/zawod/grafik" class="popular__tag">Grafik</a></li>
+                <li><a href="/kariera/zawod/prawnik" class="popular__tag">Prawnik</a></li>
+                <li><a href="/kariera/zawod/analityk-danych" class="popular__tag">Analityk danych</a></li>
               </ul>
             </div>
           </div>
@@ -241,7 +250,7 @@
     <section id="view-wyniki" class="view view--wyniki" role="region" aria-label="Wyniki wyszukiwania" hidden>
       <div class="results">
         <div class="results__header">
-          <a href="#/" class="results__back" id="resultsBack" aria-label="Wróć do wyszukiwarki">&larr; Wróć</a>
+          <a href="/kariera/" class="results__back" id="resultsBack" aria-label="Wróć do wyszukiwarki">&larr; Wróć</a>
           <h2 class="results__title">Wyniki wyszukiwania</h2>
           <p class="results__query" id="resultsQuery"></p>
           <p class="results__count" id="resultsCount"></p>
@@ -267,7 +276,7 @@
           <p class="results__empty-title">Nie znaleziono zawodów</p>
           <p class="results__empty-text">Spróbuj innego słowa lub przejrzyj kategorie:</p>
           <div class="results__empty-cats" id="resultsEmptyCats"></div>
-          <a href="#/" class="results__empty-back">&larr; Wróć do wyszukiwarki</a>
+          <a href="/kariera/" class="results__empty-back">&larr; Wróć do wyszukiwarki</a>
         </div>
       </div>
     </section>
@@ -275,7 +284,7 @@
     <!-- ===== VIEW: DETAL ZAWODU ===== -->
     <section id="view-zawod" class="view view--zawod" role="region" aria-label="Szczegóły zawodu" hidden>
       <div class="career-detail" id="careerDetail">
-        <a href="#/" class="results__back" aria-label="Wróć do wyszukiwarki">&larr; Wróć</a>
+        <a href="/kariera/" class="results__back" aria-label="Wróć do wyszukiwarki">&larr; Wróć</a>
         <!-- Filled dynamically by JS -->
       </div>
     </section>
@@ -292,8 +301,8 @@
 
   <!-- Fuse.js CDN -->
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
-  <script src="js/animations.js" defer></script>
-  <script src="js/search.js" defer></script>
-  <script src="js/app.js" defer></script>
+  <script src="js/animations.min.js" defer></script>
+  <script src="js/search.min.js" defer></script>
+  <script src="js/app.min.js" defer></script>
 </body>
 </html>

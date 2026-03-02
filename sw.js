@@ -1,12 +1,12 @@
 /* NextMove — Service Worker */
-const CACHE_NAME = 'nextmove-v1';
+const CACHE_NAME = 'nextmove-v2';
 const APP_SHELL = [
   '/kariera/',
   '/kariera/index.html',
-  '/kariera/css/style.css',
-  '/kariera/js/app.js',
-  '/kariera/js/search.js',
-  '/kariera/js/animations.js',
+  '/kariera/css/style.min.css',
+  '/kariera/js/app.min.js',
+  '/kariera/js/search.min.js',
+  '/kariera/js/animations.min.js',
   '/kariera/data/careers.json',
   '/kariera/data/kzis-index.json',
   '/kariera/manifest.json',
@@ -33,15 +33,26 @@ self.addEventListener('activate', (e) => {
   self.clients.claim();
 });
 
-// Fetch: cache-first for app shell, network-first for external
+// Fetch: cache-first for app shell, SPA fallback for navigation
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
 
   // Skip non-GET and cross-origin (except Google Fonts + CDN)
   if (e.request.method !== 'GET') return;
 
-  // For same-origin requests: cache-first
+  // For same-origin requests
   if (url.origin === self.location.origin) {
+    // SPA navigation fallback: serve index.html for /kariera/ subpaths
+    if (e.request.mode === 'navigate' && url.pathname.startsWith('/kariera/')) {
+      e.respondWith(
+        caches.match('/kariera/index.html').then((cached) =>
+          cached || fetch('/kariera/index.html')
+        )
+      );
+      return;
+    }
+
+    // Cache-first for static assets
     e.respondWith(
       caches.match(e.request).then((cached) => {
         const fetchPromise = fetch(e.request).then((response) => {

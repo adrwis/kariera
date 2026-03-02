@@ -3,17 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>404 — NextMove</title>
-  <meta http-equiv="refresh" content="0;url=/kariera/#/">
+  <title>NextMove</title>
+  <script>
+    // SPA redirect for GitHub Pages — store path and redirect to root
+    var path = window.location.pathname + window.location.search;
+    if (path.startsWith('/kariera/') && path !== '/kariera/' && path !== '/kariera/index.html') {
+      sessionStorage.setItem('spa-redirect', path);
+      window.location.replace('/kariera/');
+    }
+  </script>
   <style>
     body { font-family: 'Inter', system-ui, sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; background: #f5f7fa; color: #1a1a2e; text-align: center; }
     a { color: #00897b; font-weight: 600; }
   </style>
 </head>
 <body>
-  <div>
-    <h1>404</h1>
-    <p>Strona nie istnieje. <a href="/kariera/#/">Wróć do NextMove</a></p>
-  </div>
+  <noscript>
+    <div>
+      <h1>404</h1>
+      <p>Strona nie istnieje. <a href="/kariera/">Wróć do NextMove</a></p>
+    </div>
+  </noscript>
 </body>
 </html>
