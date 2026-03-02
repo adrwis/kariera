@@ -540,7 +540,24 @@
     // Skills column
     let skillsHtml = '';
     if (c.skills) {
-      if (c.skills.required && c.skills.required.length) {
+      if (c.skills.soft && c.skills.soft.length) {
+        skillsHtml += '<h4 class="career-column__subtitle">Umiejętności miękkie</h4>';
+        skillsHtml += '<ul class="career-column__list career-column__list--soft">';
+        for (const s of c.skills.soft) {
+          skillsHtml += `<li class="career-column__item career-column__item--soft">${escapeHtml(s)}</li>`;
+        }
+        skillsHtml += '</ul>';
+      }
+      if (c.skills.technical && c.skills.technical.length) {
+        skillsHtml += '<h4 class="career-column__subtitle career-column__subtitle--spaced">Umiejętności techniczne</h4>';
+        skillsHtml += '<ul class="career-column__list career-column__list--tech">';
+        for (const s of c.skills.technical) {
+          skillsHtml += `<li class="career-column__item career-column__item--tech">${escapeHtml(s)}</li>`;
+        }
+        skillsHtml += '</ul>';
+      }
+      // Fallback for old data format
+      if (!c.skills.soft && !c.skills.technical && c.skills.required && c.skills.required.length) {
         skillsHtml += '<h4 class="career-column__subtitle">Wymagane umiejętności</h4>';
         skillsHtml += '<ul class="career-column__list">';
         for (const s of c.skills.required) {
@@ -560,15 +577,24 @@
       }
       if (c.skills.training && c.skills.training.length) {
         skillsHtml += '<h4 class="career-column__subtitle career-column__subtitle--spaced">Szkolenia</h4>';
-        skillsHtml += '<ul class="career-column__list">';
-        for (const t of c.skills.training) {
-          skillsHtml += `<li class="career-column__item">${escapeHtml(t.name)}`;
-          if (t.providers && t.providers.length) {
-            skillsHtml += `<span class="career-column__providers">${t.providers.map(escapeHtml).join(', ')}</span>`;
-          }
-          skillsHtml += '</li>';
+        skillsHtml += '<div class="training-cards">';
+        for (let ti = 0; ti < c.skills.training.length; ti++) {
+          const t = c.skills.training[ti];
+          const provCount = t.providers ? t.providers.length : 0;
+          const metaText = t.price ? t.price : (provCount ? provCount + ' provider' + (provCount > 1 ? 'ów' : '') : '');
+          skillsHtml += `
+            <button type="button" class="training-card" data-training-idx="${ti}" aria-label="Szczegóły: ${escapeAttr(t.name)}">
+              <span class="training-card__icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              </span>
+              <span class="training-card__info">
+                <span class="training-card__name">${escapeHtml(t.name)}</span>
+                ${metaText ? `<span class="training-card__meta">${escapeHtml(metaText)}</span>` : ''}
+              </span>
+              <svg class="training-card__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>`;
         }
-        skillsHtml += '</ul>';
+        skillsHtml += '</div>';
       }
     }
 
@@ -583,14 +609,22 @@
       }
       if (c.education.schools && c.education.schools.length) {
         eduHtml += '<h4 class="career-column__subtitle career-column__subtitle--spaced">Uczelnie</h4>';
-        eduHtml += '<ul class="career-column__list">';
-        for (const s of c.education.schools) {
-          const link = s.url
-            ? `<a href="${escapeAttr(s.url)}" target="_blank" rel="noopener" class="career-column__link">${escapeHtml(s.name)}</a>`
-            : escapeHtml(s.name);
-          eduHtml += `<li class="career-column__item">${link}${s.city ? ` <span class="career-column__annotation">(${escapeHtml(s.city)})</span>` : ''}</li>`;
+        eduHtml += '<div class="school-cards">';
+        for (let si = 0; si < c.education.schools.length; si++) {
+          const s = c.education.schools[si];
+          eduHtml += `
+            <button type="button" class="school-card" data-school-idx="${si}" aria-label="Szczegóły: ${escapeAttr(s.name)}">
+              <span class="school-card__icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 22h20"/><path d="M6 18V7"/><path d="M18 18V7"/><path d="M2 10l10-6 10 6"/><rect x="10" y="12" width="4" height="6"/></svg>
+              </span>
+              <span class="school-card__info">
+                <span class="school-card__name">${escapeHtml(s.name)}</span>
+                ${s.city ? `<span class="school-card__city">${escapeHtml(s.city)}</span>` : ''}
+              </span>
+              <svg class="school-card__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>`;
         }
-        eduHtml += '</ul>';
+        eduHtml += '</div>';
       }
     }
 
@@ -614,6 +648,27 @@
       famousHtml += '</div>';
     } else {
       famousHtml = '<p class="career-column__empty">Brak danych</p>';
+    }
+
+    // Workplaces column
+    let workplacesHtml = '';
+    if (c.workplaces && c.workplaces.length) {
+      workplacesHtml += '<div class="workplace-list">';
+      for (const wp of c.workplaces) {
+        workplacesHtml += `
+          <div class="workplace-item">
+            <span class="workplace-item__icon" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+            </span>
+            <span class="workplace-item__info">
+              <span class="workplace-item__name">${escapeHtml(wp.name)}</span>
+              ${wp.description ? `<span class="workplace-item__desc">${escapeHtml(wp.description)}</span>` : ''}
+            </span>
+          </div>`;
+      }
+      workplacesHtml += '</div>';
+    } else {
+      workplacesHtml = '<p class="career-column__empty">Brak danych</p>';
     }
 
     // Related careers
@@ -667,6 +722,10 @@
         <div class="career-column career-column--detail">
           <h3 class="career-column__title">Wykształcenie i uczelnie</h3>
           ${eduHtml || '<p class="career-column__empty">Brak danych</p>'}
+        </div>
+        <div class="career-column career-column--detail">
+          <h3 class="career-column__title">Gdzie pracować</h3>
+          ${workplacesHtml}
         </div>
         <div class="career-column career-column--detail">
           <h3 class="career-column__title">Znane osoby</h3>
@@ -763,6 +822,13 @@
       ? person.bio.split('\n').map(p => `<p>${escapeHtml(p)}</p>`).join('')
       : `<p>${escapeHtml(person.description || 'Brak dodatkowych informacji.')}</p>`;
 
+    const sourceHtml = person.sourceUrl
+      ? `<a href="${escapeAttr(person.sourceUrl)}" target="_blank" rel="noopener" class="person-popup__source">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          Źródło
+        </a>`
+      : '';
+
     overlay.innerHTML = `
       <div class="person-popup" role="dialog" aria-modal="true" aria-label="Biografia: ${escapeAttr(person.name)}">
         <button type="button" class="person-popup__close" aria-label="Zamknij">&times;</button>
@@ -774,6 +840,7 @@
           </div>
         </div>
         <div class="person-popup__bio">${bioText}</div>
+        ${sourceHtml}
       </div>
     `;
 
@@ -803,11 +870,240 @@
   // Delegate click on famous cards
   careerDetail.addEventListener('click', (e) => {
     const card = e.target.closest('.famous-card');
-    if (!card || !currentCareerData) return;
-    const idx = parseInt(card.dataset.personIdx);
-    const person = currentCareerData.famousPeople && currentCareerData.famousPeople[idx];
-    if (person) openPersonPopup(person);
+    if (card && currentCareerData) {
+      const idx = parseInt(card.dataset.personIdx);
+      const person = currentCareerData.famousPeople && currentCareerData.famousPeople[idx];
+      if (person) openPersonPopup(person);
+      return;
+    }
+
+    // Delegate click on school cards
+    const schoolCard = e.target.closest('.school-card');
+    if (schoolCard && currentCareerData) {
+      const si = parseInt(schoolCard.dataset.schoolIdx);
+      const school = currentCareerData.education && currentCareerData.education.schools && currentCareerData.education.schools[si];
+      if (school) openSchoolPopup(school);
+      return;
+    }
+
+    // Delegate click on training cards
+    const trainingCard = e.target.closest('.training-card');
+    if (trainingCard && currentCareerData) {
+      const ti = parseInt(trainingCard.dataset.trainingIdx);
+      const training = currentCareerData.skills && currentCareerData.skills.training && currentCareerData.skills.training[ti];
+      if (training) openTrainingPopup(training);
+    }
   });
+
+  // --- School popup ---
+  function openSchoolPopup(school) {
+    closeSchoolPopup();
+
+    const overlay = document.createElement('div');
+    overlay.className = 'person-popup-overlay';
+    overlay.id = 'schoolPopupOverlay';
+
+    // Build website link
+    const linkHtml = school.url
+      ? `<a href="${escapeAttr(school.url)}" target="_blank" rel="noopener" class="school-popup__link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          Strona uczelni
+        </a>`
+      : '';
+
+    // Build modes sections (stacjonarne / niestacjonarne)
+    let modesHtml = '';
+    if (school.modes && school.modes.length) {
+      for (const mode of school.modes) {
+        const modeLabel = escapeHtml(mode.type.charAt(0).toUpperCase() + mode.type.slice(1));
+        const paidBadge = mode.paid
+          ? `<span class="school-popup__badge school-popup__badge--paid">płatne${mode.tuition ? ' · ' + escapeHtml(mode.tuition) : ''}</span>`
+          : '<span class="school-popup__badge school-popup__badge--free">bezpłatne</span>';
+
+        let thresholdRows = '';
+        if (mode.thresholds && mode.thresholds.length) {
+          thresholdRows = `
+            <table class="school-popup__thresholds">
+              <thead><tr><th>Rok</th><th>Punkty</th></tr></thead>
+              <tbody>
+                ${mode.thresholds.map(t => `<tr><td>${escapeHtml(String(t.year))}</td><td>${escapeHtml(String(t.points))} pkt</td></tr>`).join('')}
+              </tbody>
+            </table>`;
+        }
+
+        modesHtml += `
+          <div class="school-popup__section">
+            <div class="school-popup__section-title">${modeLabel} ${paidBadge}</div>
+            ${thresholdRows}
+          </div>`;
+      }
+    } else if (school.thresholds && school.thresholds.length) {
+      // Fallback for old data format (flat thresholds)
+      modesHtml = `
+        <div class="school-popup__section">
+          <div class="school-popup__section-title">Progi punktowe</div>
+          <table class="school-popup__thresholds">
+            <thead><tr><th>Rok</th><th>Punkty</th></tr></thead>
+            <tbody>
+              ${school.thresholds.map(t => `<tr><td>${escapeHtml(String(t.year))}</td><td>${escapeHtml(String(t.points))} pkt</td></tr>`).join('')}
+            </tbody>
+          </table>
+        </div>`;
+    }
+
+    // Build requirements list
+    let reqsHtml = '';
+    if (school.requirements && school.requirements.length) {
+      reqsHtml = `
+        <div class="school-popup__section">
+          <div class="school-popup__section-title">Wymagania maturalne</div>
+          <ul class="school-popup__requirements">
+            ${school.requirements.map(r => `<li>${escapeHtml(r)}</li>`).join('')}
+          </ul>
+        </div>`;
+    }
+
+    // Fallback if no data at all
+    const hasData = (school.modes && school.modes.length) || (school.thresholds && school.thresholds.length) || (school.requirements && school.requirements.length);
+    const noDataHtml = !hasData
+      ? '<p style="font-size:0.88rem;color:var(--kr-text-muted);font-style:italic;">Szczegółowe dane rekrutacyjne będą dostępne wkrótce.</p>'
+      : '';
+
+    overlay.innerHTML = `
+      <div class="school-popup" role="dialog" aria-modal="true" aria-label="Szczegóły: ${escapeAttr(school.name)}">
+        <button type="button" class="school-popup__close" aria-label="Zamknij">&times;</button>
+        <div class="school-popup__header">
+          <span class="school-popup__icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 22h20"/><path d="M6 18V7"/><path d="M18 18V7"/><path d="M2 10l10-6 10 6"/><rect x="10" y="12" width="4" height="6"/></svg>
+          </span>
+          <div>
+            <div class="school-popup__name">${escapeHtml(school.name)}</div>
+            ${school.city ? `<div class="school-popup__city">${escapeHtml(school.city)}</div>` : ''}
+          </div>
+        </div>
+        ${linkHtml}
+        ${modesHtml}
+        ${reqsHtml}
+        ${noDataHtml}
+      </div>
+    `;
+
+    document.body.appendChild(overlay);
+
+    const closeBtn = overlay.querySelector('.school-popup__close');
+    closeBtn.focus();
+
+    closeBtn.addEventListener('click', closeSchoolPopup);
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) closeSchoolPopup();
+    });
+    overlay.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeSchoolPopup();
+    });
+
+    announce(`Szczegóły uczelni: ${school.name}`);
+  }
+
+  function closeSchoolPopup() {
+    const overlay = document.getElementById('schoolPopupOverlay');
+    if (overlay) overlay.remove();
+  }
+
+  // --- Training popup ---
+  function openTrainingPopup(training) {
+    closeTrainingPopup();
+
+    const overlay = document.createElement('div');
+    overlay.className = 'person-popup-overlay';
+    overlay.id = 'trainingPopupOverlay';
+
+    // Description
+    const descHtml = training.description
+      ? `<div class="training-popup__desc">${escapeHtml(training.description)}</div>`
+      : '';
+
+    // Meta grid (price + requirements)
+    let metaItems = '';
+    if (training.price) {
+      metaItems += `
+        <div class="training-popup__meta-item">
+          <span class="training-popup__meta-label">Cena</span>
+          <span class="training-popup__meta-value">${escapeHtml(training.price)}</span>
+        </div>`;
+    }
+    if (training.requirements) {
+      metaItems += `
+        <div class="training-popup__meta-item">
+          <span class="training-popup__meta-label">Wymagania</span>
+          <span class="training-popup__meta-value">${escapeHtml(training.requirements)}</span>
+        </div>`;
+    }
+    const metaHtml = metaItems ? `<div class="training-popup__meta-grid">${metaItems}</div>` : '';
+
+    // Providers list
+    let providersHtml = '';
+    if (training.providers && training.providers.length) {
+      const providerItems = training.providers.map(prov => {
+        const isObj = typeof prov === 'object';
+        const name = isObj ? prov.name : prov;
+        const url = isObj ? prov.url : null;
+        const linkTag = url
+          ? `<a href="${escapeAttr(url)}" target="_blank" rel="noopener" class="training-popup__provider-link">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Strona
+            </a>`
+          : '';
+        return `<li class="training-popup__provider">
+          <span class="training-popup__provider-name">${escapeHtml(name)}</span>
+          ${linkTag}
+        </li>`;
+      }).join('');
+      providersHtml = `
+        <div class="training-popup__providers-title">Rekomendowani organizatorzy</div>
+        <ul class="training-popup__providers">${providerItems}</ul>`;
+    }
+
+    // Fallback
+    const noDataHtml = !training.description && !training.price && (!training.providers || !training.providers.length)
+      ? '<p style="font-size:0.88rem;color:var(--kr-text-muted);font-style:italic;">Szczegóły szkolenia będą dostępne wkrótce.</p>'
+      : '';
+
+    overlay.innerHTML = `
+      <div class="training-popup" role="dialog" aria-modal="true" aria-label="Szkolenie: ${escapeAttr(training.name)}">
+        <button type="button" class="training-popup__close" aria-label="Zamknij">&times;</button>
+        <div class="training-popup__header">
+          <span class="training-popup__icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          </span>
+          <div class="training-popup__name">${escapeHtml(training.name)}</div>
+        </div>
+        ${descHtml}
+        ${metaHtml}
+        ${providersHtml}
+        ${noDataHtml}
+      </div>
+    `;
+
+    document.body.appendChild(overlay);
+
+    const closeBtn = overlay.querySelector('.training-popup__close');
+    closeBtn.focus();
+
+    closeBtn.addEventListener('click', closeTrainingPopup);
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) closeTrainingPopup();
+    });
+    overlay.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeTrainingPopup();
+    });
+
+    announce(`Szkolenie: ${training.name}`);
+  }
+
+  function closeTrainingPopup() {
+    const overlay = document.getElementById('trainingPopupOverlay');
+    if (overlay) overlay.remove();
+  }
 
   // --- Utilities ---
   function escapeHtml(str) {

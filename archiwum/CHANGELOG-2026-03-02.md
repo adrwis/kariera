@@ -90,3 +90,66 @@ Landing page no-scroll fix (szerszy search box, kompaktowe filtry) + implementac
 | `css/style.css` | Nowe: `.famous-card` (avatar + chevron + hover), `.person-popup-overlay` (blur bg), `.person-popup` (dialog, slide-up anim), `.person-popup__close/header/avatar/name/bio` |
 | `js/app.js` | Nowe: `getInitials()`, `openPersonPopup()`, `closePersonPopup()`, `currentCareerData` state, delegowany click na `.famous-card`, render kart w `renderRichDetail()` |
 | `data/careers.json` | Dodano `bio` do wszystkich 130 znanych osób (2-3 zdania PL, daty życia, osiągnięcia) |
+
+---
+
+## Sesja 3
+
+### Podsumowanie
+
+Implementacja pkt 6-9 planu sesji 6: popup uczelni (tryby stacj./niestacj., progi, wymagania maturalne, płatność), popup szkoleń (opis, cena, wymagania, providerzy z linkami), kolumna "Gdzie pracować" (4-6 miejsc pracy per zawód, layout 2×2), podział umiejętności na miękkie vs techniczne. Dodatkowo: link źródłowy (Wikipedia) w popupie znanych osób.
+
+**Build:** nie dotyczy (vanilla HTML/CSS/JS)
+**Pliki zmodyfikowane:** 3 | **Pliki nowe:** 0
+
+---
+
+### 1. Popup uczelni — klikalne karty + tryby studiów (plan pkt 6)
+**Problem:** Uczelnie renderowane jako prosta lista `<li>` z linkiem. Brak szczegółów rekrutacyjnych.
+**Rozwiązanie:** Klikalne karty `.school-card` z ikonką budynku SVG. Popup `.school-popup` z: linkiem do strony uczelni, osobnymi sekcjami dla stacjonarnych (badge "bezpłatne") i niestacjonarnych (badge "płatne · X PLN/semestr"), tabelą progów punktowych 2023-2025, listą wymagań maturalnych.
+
+| Plik | Zmiana |
+|------|--------|
+| `css/style.css` | Nowe: `.school-card` + `__icon/__info/__name/__city/__chevron`, `.school-popup` + `__close/__header/__icon/__name/__city/__link/__section/__section-title/__thresholds/__requirements/__badge--free/__badge--paid` |
+| `js/app.js` | Renderowanie uczelni zmienione z `<li>` na `<button class="school-card">`, nowe: `openSchoolPopup()`/`closeSchoolPopup()`, obsługa `modes[]` (stacj./niestacj.) z fallback na stary format |
+| `data/careers.json` | 213 szkół: `thresholds` → `modes[]` ({type, paid, tuition, thresholds[]}), uczelnie prywatne (SWPS, ALK, itp.) oba tryby paid. Niestacjonarne progi ~15-25 pkt niższe |
+
+### 2. Link źródłowy w popupie znanych osób (rozszerzenie pkt 5)
+**Problem:** Popup biografii nie miał linka do źródła informacji.
+**Rozwiązanie:** Przycisk "Źródło" z linkiem do polskiej Wikipedii (lub Google Search jako fallback dla 18 obscure osób).
+
+| Plik | Zmiana |
+|------|--------|
+| `css/style.css` | Nowy: `.person-popup__source` (przycisk-link, hover: primary bg) |
+| `js/app.js` | Renderowanie `sourceUrl` w popupie jako link z ikonką SVG |
+| `data/careers.json` | `sourceUrl` dodane do 130 znanych osób (112 pl.wikipedia, 18 Google fallback) |
+
+### 3. Popup szkoleń — karty + szczegóły (plan pkt 7)
+**Problem:** Szkolenia renderowane jako prosta lista z providerami jako tekst.
+**Rozwiązanie:** Klikalne karty `.training-card` z ikonką książki (teal gradient). Popup `.training-popup` z: opisem szkolenia, siatką cena+wymagania, listą rekomendowanych organizatorów z linkami.
+
+| Plik | Zmiana |
+|------|--------|
+| `css/style.css` | Nowe: `.training-card` + `__icon/__info/__name/__meta/__chevron`, `.training-popup` + `__close/__header/__icon/__name/__desc/__meta-grid/__meta-item/__meta-label/__meta-value/__providers-title/__providers/__provider/__provider-name/__provider-link` |
+| `js/app.js` | Renderowanie szkoleń jako karty, nowe: `openTrainingPopup()`/`closeTrainingPopup()`, obsługa providerów jako obiektów z URL |
+| `data/careers.json` | 77 szkoleń: dodano `description`, `requirements`, `price`; `providers` ze string[] → {name, url}[] |
+
+### 4. Kolumna "Gdzie pracować" (plan pkt 8)
+**Problem:** Brak informacji o miejscach pracy na stronie detalu zawodu.
+**Rozwiązanie:** Nowa 4. kolumna w layoucie detalu zawodu. Grid zmieniony z 3-kolumnowego na 2×2. Każde miejsce pracy z ikonką walizki, nazwą i krótkim opisem.
+
+| Plik | Zmiana |
+|------|--------|
+| `css/style.css` | Grid `.career-columns` zmieniony z `repeat(3, 1fr)` na `repeat(2, 1fr)`. Tablet breakpoint uproszczony do 1-kolumnowego. Nowe: `.workplace-list`, `.workplace-item` + `__icon/__info/__name/__desc` |
+| `js/app.js` | Nowa sekcja renderowania `workplacesHtml`, 4. kolumna "Gdzie pracować" w HTML |
+| `data/careers.json` | `workplaces[]` dodane do 79 karier (4-6 miejsc pracy z name+description) |
+
+### 5. Podział umiejętności miękkie vs techniczne (plan pkt 9)
+**Problem:** Umiejętności w jednej liście `skills.required` bez rozróżnienia typów.
+**Rozwiązanie:** Podział na `skills.soft` (💬) i `skills.technical` (⚙️) z osobnymi sekcjami i ikonkami emoji.
+
+| Plik | Zmiana |
+|------|--------|
+| `css/style.css` | Nowe: `.career-column__item--soft::before` (💬), `.career-column__item--tech::before` (⚙️) z padding-left i position absolute |
+| `js/app.js` | Osobne renderowanie `c.skills.soft` i `c.skills.technical` z fallback na `c.skills.required` |
+| `data/careers.json` | `skills.required` → `skills.soft` + `skills.technical` w 79 karierach (137 soft + 336 technical = 473 total) |

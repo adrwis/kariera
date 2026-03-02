@@ -29,28 +29,31 @@
 - Bio dodane do 130 osób w careers.json
 - Sesja 2026-03-02: `.famous-card` + `.person-popup` + 130 bios
 
-### 6. Uczelnie — popup ze szczegółami
-- Kliknięcie w uczelnię → popup z:
-  - Stroną internetową uczelni
-  - Progi punktowe z ostatnich 2-3 lat
-  - Co trzeba zrobić żeby się dostać (przedmioty na maturze itp.)
+### 6. ✅ Uczelnie — popup ze szczegółami
+- Klikalne karty `.school-card` z ikonką budynku SVG
+- Popup z: stroną uczelni, tryby stacj./niestacj. (badge płatne/bezpłatne + czesne), progi punktowe 2023-2025, wymagania maturalne
+- 213 szkół z danymi modes[], requirements[]
+- Bonus: link źródłowy (Wikipedia) w popupie znanych osób (130 sourceUrl)
+- Sesja 2026-03-02: `.school-card` + `.school-popup` + modes + sourceUrl
 
-### 7. Szkolenia — popup z rekomendacjami
-- Kliknięcie w szkolenie → popup z:
-  - Starannie wyselekcjonowane szkolenia (jakość prowadzących, opinie)
-  - Opis szkolenia
-  - Wymagania
-  - Cena
+### 7. ✅ Szkolenia — popup z rekomendacjami
+- Klikalne karty `.training-card` z ikonką książki (teal gradient)
+- Popup z: opisem, ceną, wymaganiami, listą rekomendowanych organizatorów z linkami
+- 77 szkoleń z description, price, requirements; providers jako obiekty {name, url}
+- Sesja 2026-03-02: `.training-card` + `.training-popup`
 
-### 8. NOWA kolumna: "Gdzie można pracować"
-- Na podstronie zawodu dodać kolumnę z miejscami pracy
-- Np. psycholog → HR, konsultacje psychologiczne, psycholog sądowy
-- Odnośniki do tych obszarów po więcej szczegółów
+### 8. ✅ NOWA kolumna: "Gdzie można pracować"
+- 4. kolumna w layoucie detalu (grid 2×2 zamiast 3-kolumn)
+- Każde miejsce pracy z ikonką walizki, nazwą i opisem
+- 79 karier × 4-6 workplaces (name + description)
+- Sesja 2026-03-02: `.workplace-item` + grid `repeat(2, 1fr)`
 
-### 9. Podział umiejętności
-- Oddzielić umiejętności miękkie od technicznych/certyfikowanych
-- Osobne sekcje w kolumnie umiejętności
+### 9. ✅ Podział umiejętności
+- `skills.required` → `skills.soft` (💬) + `skills.technical` (⚙️)
+- Osobne sekcje z emoji ikonkami
+- 79 karier: 137 soft + 336 technical = 473 total
+- Sesja 2026-03-02: fallback na `required` dla starego formatu
 
 ---
 
-## Status: 5/9 DONE — next: pkt 6 (uczelnie — popup ze szczegółami)
+## Status: 9/9 DONE — ALL COMPLETE
