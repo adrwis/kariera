@@ -1202,7 +1202,7 @@
         </li>`;
       }).join('');
       providersHtml = `
-        <div class="training-popup__providers-title">Rekomendowani organizatorzy</div>
+        <div class="training-popup__providers-title">Przykładowi organizatorzy</div>
         <ul class="training-popup__providers">${providerItems}</ul>`;
     }
 
