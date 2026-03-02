@@ -855,35 +855,69 @@
     } catch { return null; }
   }
 
-  async function fetchWikiThumb(sourceUrl) {
-    if (wikiThumbCache.has(sourceUrl)) return wikiThumbCache.get(sourceUrl);
+  async function fetchWikiThumb(sourceUrl, personName) {
+    const key = sourceUrl || personName;
+    if (wikiThumbCache.has(key)) return wikiThumbCache.get(key);
     const info = getWikiInfo(sourceUrl);
-    if (!info) { wikiThumbCache.set(sourceUrl, null); return null; }
+    const cache = (url) => { wikiThumbCache.set(key, url); return url; };
+    // If no Wikipedia URL, try searching by name
+    const nameTitle = personName ? personName.replace(/\s+/g, '_') : null;
+    if (!info && !nameTitle) return cache(null);
     try {
-      // Try original language
-      let resp = await fetch(`https://${info.lang}.wikipedia.org/api/rest_v1/page/summary/${info.title}`);
-      if (resp.ok) {
-        const data = await resp.json();
-        if (data.thumbnail) { wikiThumbCache.set(sourceUrl, data.thumbnail.source); return data.thumbnail.source; }
-      }
-      // Fallback: try English Wikipedia
-      if (info.lang !== 'en') {
-        resp = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${info.title}`);
-        if (resp.ok) {
-          const data = await resp.json();
-          if (data.thumbnail) { wikiThumbCache.set(sourceUrl, data.thumbnail.source); return data.thumbnail.source; }
+      // Build list of titles to try: from URL + from person name
+      const titles = [];
+      if (info) titles.push(info.title);
+      if (nameTitle && (!info || nameTitle !== info.title)) titles.push(nameTitle);
+      const baseLang = info ? info.lang : 'pl';
+      const langs = [baseLang, ...(baseLang !== 'en' ? ['en'] : [])];
+
+      // Strategy 1: REST API
+      for (const title of titles) {
+        for (const lang of langs) {
+          const resp = await fetch(`https://${lang}.wikipedia.org/api/rest_v1/page/summary/${title}`);
+          if (resp.ok) {
+            const data = await resp.json();
+            if (data.thumbnail) return cache(data.thumbnail.source);
+          }
         }
       }
-      wikiThumbCache.set(sourceUrl, null);
-      return null;
-    } catch { wikiThumbCache.set(sourceUrl, null); return null; }
+      // Strategy 2: pageimages Action API
+      for (const title of titles) {
+        for (const lang of langs) {
+          const resp = await fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(title)}&prop=pageimages&pithumbsize=200&format=json&origin=*`);
+          if (resp.ok) {
+            const data = await resp.json();
+            const pages = data.query && data.query.pages;
+            if (pages) {
+              const page = Object.values(pages)[0];
+              if (page && page.thumbnail) return cache(page.thumbnail.source);
+            }
+          }
+        }
+      }
+      // Strategy 3: Wikidata P18
+      for (const title of titles) {
+        for (const lang of langs) {
+          const wdResp = await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&sites=${lang}wiki&titles=${encodeURIComponent(title)}&props=claims&format=json&origin=*`);
+          if (wdResp.ok) {
+            const wdData = await wdResp.json();
+            const entity = wdData.entities && Object.values(wdData.entities)[0];
+            if (entity && entity.claims && entity.claims.P18) {
+              const filename = entity.claims.P18[0].mainsnak.datavalue.value;
+              return cache(`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(filename)}?width=200`);
+            }
+          }
+        }
+      }
+      return cache(null);
+    } catch { return cache(null); }
   }
 
   function loadFamousThumbs(people) {
     if (!people || !people.length) return;
     people.forEach((p, i) => {
-      if (!p.sourceUrl) return;
-      fetchWikiThumb(p.sourceUrl).then(thumb => {
+      if (!p.sourceUrl && !p.name) return;
+      fetchWikiThumb(p.sourceUrl, p.name).then(thumb => {
         if (!thumb) return;
         const avatar = document.querySelector(`.famous-card[data-person-idx="${i}"] .famous-card__avatar`);
         if (avatar) {
@@ -924,7 +958,7 @@
         </a>`
       : '';
 
-    const thumbUrl = person.sourceUrl ? wikiThumbCache.get(person.sourceUrl) : null;
+    const thumbUrl = wikiThumbCache.get(person.sourceUrl || person.name) || null;
     const avatarContent = thumbUrl
       ? `<span class="person-popup__avatar person-popup__avatar--has-img" aria-hidden="true"><img src="${thumbUrl}" alt="" class="person-popup__avatar-img"></span>`
       : `<span class="person-popup__avatar" aria-hidden="true">${escapeHtml(initials)}</span>`;
