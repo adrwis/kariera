@@ -1,5 +1,5 @@
 /* ============================================
-   Kariera Explorer — Animations
+   NextMove — Animations
    Constellation network + Typing effect
    ============================================ */
 
@@ -153,7 +153,7 @@ const TypingEffect = (() => {
   const phrases = [
     'Odkryj swoje powołanie...',
     'Kim chcesz zostać?',
-    'Ponad 2500 zawodów do odkrycia',
+    'Ponad 80 szczegółowych profili zawodów',
     'Znajdź swoją ścieżkę kariery',
     'Twoja przyszłość zaczyna się tutaj',
   ];

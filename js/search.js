@@ -1,5 +1,5 @@
 /* ============================================
-   Kariera Explorer — Search (Fuse.js)
+   NextMove — Search (Fuse.js)
    ============================================ */
 
 const CareerSearch = (() => {

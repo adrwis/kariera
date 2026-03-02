@@ -57,3 +57,26 @@
 ---
 
 ## Status: 9/9 DONE — ALL COMPLETE
+
+---
+
+## QA Audit (sesja 2, 2026-03-02)
+
+6 audytorów przeanalizowało projekt. Naprawiono 5 CRITICAL + 10 HIGH + 8 MEDIUM issues:
+- [x] Service Worker (offline + install)
+- [x] Ikony PWA (192/512/maskable + OG image)
+- [x] manifest.json (kompletny)
+- [x] iOS auto-zoom fix (font-size: 1rem)
+- [x] OG/Twitter/canonical/JSON-LD meta
+- [x] Dynamiczny document.title
+- [x] Focus trap w 3 popupach
+- [x] Focus return po zamknięciu popupu
+- [x] School dropdown keyboard nav
+- [x] Defer na skryptach
+- [x] Popup overflow-y + mobile sizing
+- [x] Heading hierarchy (h3→h2)
+- [x] Copy fixes ("providerów", "2500→80")
+- [x] Dark footer contrast, aria-label, theme announce
+- [ ] History API migration (FUTURE — C1, wymaga osobnej sesji)
+- [ ] Minification build step (FUTURE — H7)
+- [ ] Google Fonts preload (FUTURE — H8)

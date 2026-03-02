@@ -47,6 +47,9 @@
     const next = current === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', next);
     localStorage.setItem('kr-theme', next);
+    announce(next === 'dark' ? 'Ciemny motyw' : 'Jasny motyw');
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    if (metaTheme) metaTheme.setAttribute('content', next === 'dark' ? '#0d1117' : '#1a237e');
   });
 
   // --- Views ---
@@ -92,21 +95,28 @@
     switch (route.view) {
       case 'landing':
         showView('landing');
+        document.title = 'NextMove — Znajdź swój zawód';
         break;
 
       case 'wyniki':
         showView('wyniki');
         lastResultsHash = window.location.hash;
         handleResults(route.params);
+        { // Dynamic title for results
+          const q = route.params.get('q') || route.params.get('cat') || '';
+          document.title = q ? `${q} — wyniki | NextMove` : 'Wyniki | NextMove';
+        }
         break;
 
       case 'zawod':
         showView('zawod');
         handleCareerDetail(route.params);
+        // Title set inside renderRichDetail / renderFallbackDetail
         break;
 
       default:
         showView('landing');
+        document.title = 'NextMove — Znajdź swój zawód';
     }
   }
 
@@ -541,7 +551,7 @@
     let skillsHtml = '';
     if (c.skills) {
       if (c.skills.soft && c.skills.soft.length) {
-        skillsHtml += '<h4 class="career-column__subtitle">Umiejętności miękkie</h4>';
+        skillsHtml += '<h3 class="career-column__subtitle">Umiejętności miękkie</h4>';
         skillsHtml += '<ul class="career-column__list career-column__list--soft">';
         for (const s of c.skills.soft) {
           skillsHtml += `<li class="career-column__item career-column__item--soft">${escapeHtml(s)}</li>`;
@@ -549,7 +559,7 @@
         skillsHtml += '</ul>';
       }
       if (c.skills.technical && c.skills.technical.length) {
-        skillsHtml += '<h4 class="career-column__subtitle career-column__subtitle--spaced">Umiejętności techniczne</h4>';
+        skillsHtml += '<h3 class="career-column__subtitle career-column__subtitle--spaced">Umiejętności techniczne</h4>';
         skillsHtml += '<ul class="career-column__list career-column__list--tech">';
         for (const s of c.skills.technical) {
           skillsHtml += `<li class="career-column__item career-column__item--tech">${escapeHtml(s)}</li>`;
@@ -558,7 +568,7 @@
       }
       // Fallback for old data format
       if (!c.skills.soft && !c.skills.technical && c.skills.required && c.skills.required.length) {
-        skillsHtml += '<h4 class="career-column__subtitle">Wymagane umiejętności</h4>';
+        skillsHtml += '<h3 class="career-column__subtitle">Wymagane umiejętności</h4>';
         skillsHtml += '<ul class="career-column__list">';
         for (const s of c.skills.required) {
           skillsHtml += `<li class="career-column__item">${escapeHtml(s)}</li>`;
@@ -566,7 +576,7 @@
         skillsHtml += '</ul>';
       }
       if (c.skills.certifications && c.skills.certifications.length) {
-        skillsHtml += '<h4 class="career-column__subtitle career-column__subtitle--spaced">Certyfikaty</h4>';
+        skillsHtml += '<h3 class="career-column__subtitle career-column__subtitle--spaced">Certyfikaty</h4>';
         skillsHtml += '<ul class="career-column__list">';
         for (const cert of c.skills.certifications) {
           skillsHtml += cert.url
@@ -576,12 +586,12 @@
         skillsHtml += '</ul>';
       }
       if (c.skills.training && c.skills.training.length) {
-        skillsHtml += '<h4 class="career-column__subtitle career-column__subtitle--spaced">Szkolenia</h4>';
+        skillsHtml += '<h3 class="career-column__subtitle career-column__subtitle--spaced">Szkolenia</h4>';
         skillsHtml += '<div class="training-cards">';
         for (let ti = 0; ti < c.skills.training.length; ti++) {
           const t = c.skills.training[ti];
           const provCount = t.providers ? t.providers.length : 0;
-          const metaText = t.price ? t.price : (provCount ? provCount + ' provider' + (provCount > 1 ? 'ów' : '') : '');
+          const metaText = t.price ? t.price : (provCount ? provCount + ' organizator' + (provCount > 1 ? 'ów' : '') : '');
           skillsHtml += `
             <button type="button" class="training-card" data-training-idx="${ti}" aria-label="Szczegóły: ${escapeAttr(t.name)}">
               <span class="training-card__icon" aria-hidden="true">
@@ -608,7 +618,7 @@
         eduHtml += `<p class="career-column__text"><strong>Kierunki:</strong> ${c.education.fields.map(escapeHtml).join(', ')}</p>`;
       }
       if (c.education.schools && c.education.schools.length) {
-        eduHtml += '<h4 class="career-column__subtitle career-column__subtitle--spaced">Uczelnie</h4>';
+        eduHtml += '<h3 class="career-column__subtitle career-column__subtitle--spaced">Uczelnie</h4>';
         eduHtml += '<div class="school-cards">';
         for (let si = 0; si < c.education.schools.length; si++) {
           const s = c.education.schools[si];
@@ -716,19 +726,19 @@
 
       <div class="career-columns career-columns--detail">
         <div class="career-column career-column--detail">
-          <h3 class="career-column__title">Umiejętności i certyfikaty</h3>
+          <h2 class="career-column__title">Umiejętności i certyfikaty</h3>
           ${skillsHtml || '<p class="career-column__empty">Brak danych</p>'}
         </div>
         <div class="career-column career-column--detail">
-          <h3 class="career-column__title">Wykształcenie i uczelnie</h3>
+          <h2 class="career-column__title">Wykształcenie i uczelnie</h3>
           ${eduHtml || '<p class="career-column__empty">Brak danych</p>'}
         </div>
         <div class="career-column career-column--detail">
-          <h3 class="career-column__title">Gdzie pracować</h3>
+          <h2 class="career-column__title">Gdzie pracować</h3>
           ${workplacesHtml}
         </div>
         <div class="career-column career-column--detail">
-          <h3 class="career-column__title">Znane osoby</h3>
+          <h2 class="career-column__title">Znane osoby</h3>
           ${famousHtml}
         </div>
       </div>
@@ -740,6 +750,7 @@
     const heading = careerDetail.querySelector('.career-hero__name');
     if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true }); }
     announce(`Zawód: ${c.name}`);
+    document.title = `${c.name} — zawód | NextMove`;
   }
 
   function renderFallbackDetail(kzis) {
@@ -797,6 +808,34 @@
     const heading = careerDetail.querySelector('.career-hero__name');
     if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true }); }
     announce(`Zawód: ${kzis.name}`);
+    document.title = `${kzis.name} | NextMove`;
+  }
+
+  // --- Popup utilities (focus trap + focus return) ---
+  let popupTrigger = null;
+
+  function trapFocus(container) {
+    container.addEventListener('keydown', (e) => {
+      if (e.key !== 'Tab') return;
+      const focusable = container.querySelectorAll('a[href], button:not([disabled]), input, [tabindex]:not([tabindex="-1"])');
+      if (!focusable.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    });
+  }
+
+  function restoreFocus() {
+    if (popupTrigger && popupTrigger.focus) {
+      popupTrigger.focus();
+      popupTrigger = null;
+    }
   }
 
   // --- Famous people popup ---
@@ -810,7 +849,7 @@
   }
 
   function openPersonPopup(person) {
-    // Close any existing popup
+    popupTrigger = document.activeElement;
     closePersonPopup();
 
     const initials = getInitials(person.name);
@@ -846,11 +885,10 @@
 
     document.body.appendChild(overlay);
 
-    // Focus close button
     const closeBtn = overlay.querySelector('.person-popup__close');
     closeBtn.focus();
+    trapFocus(overlay.querySelector('.person-popup'));
 
-    // Close handlers
     closeBtn.addEventListener('click', closePersonPopup);
     overlay.addEventListener('click', (e) => {
       if (e.target === overlay) closePersonPopup();
@@ -865,6 +903,7 @@
   function closePersonPopup() {
     const overlay = document.getElementById('personPopupOverlay');
     if (overlay) overlay.remove();
+    restoreFocus();
   }
 
   // Delegate click on famous cards
@@ -897,6 +936,7 @@
 
   // --- School popup ---
   function openSchoolPopup(school) {
+    popupTrigger = document.activeElement;
     closeSchoolPopup();
 
     const overlay = document.createElement('div');
@@ -992,6 +1032,7 @@
 
     const closeBtn = overlay.querySelector('.school-popup__close');
     closeBtn.focus();
+    trapFocus(overlay.querySelector('.school-popup'));
 
     closeBtn.addEventListener('click', closeSchoolPopup);
     overlay.addEventListener('click', (e) => {
@@ -1007,10 +1048,12 @@
   function closeSchoolPopup() {
     const overlay = document.getElementById('schoolPopupOverlay');
     if (overlay) overlay.remove();
+    restoreFocus();
   }
 
   // --- Training popup ---
   function openTrainingPopup(training) {
+    popupTrigger = document.activeElement;
     closeTrainingPopup();
 
     const overlay = document.createElement('div');
@@ -1088,6 +1131,7 @@
 
     const closeBtn = overlay.querySelector('.training-popup__close');
     closeBtn.focus();
+    trapFocus(overlay.querySelector('.training-popup'));
 
     closeBtn.addEventListener('click', closeTrainingPopup);
     overlay.addEventListener('click', (e) => {
@@ -1103,6 +1147,7 @@
   function closeTrainingPopup() {
     const overlay = document.getElementById('trainingPopupOverlay');
     if (overlay) overlay.remove();
+    restoreFocus();
   }
 
   // --- Utilities ---
@@ -1200,10 +1245,43 @@
     schoolDropdown.hidden = false;
   });
 
+  // School dropdown keyboard navigation
+  let schoolAcIndex = -1;
+  schoolFilterInput.addEventListener('keydown', (e) => {
+    const items = schoolDropdown.querySelectorAll('.filters__dropdown-item');
+    if (!items.length || schoolDropdown.hidden) return;
+
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      schoolAcIndex = Math.min(schoolAcIndex + 1, items.length - 1);
+      items.forEach((it, i) => it.classList.toggle('filters__dropdown-item--active', i === schoolAcIndex));
+      if (items[schoolAcIndex]) items[schoolAcIndex].scrollIntoView({ block: 'nearest' });
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      schoolAcIndex = Math.max(schoolAcIndex - 1, 0);
+      items.forEach((it, i) => it.classList.toggle('filters__dropdown-item--active', i === schoolAcIndex));
+      if (items[schoolAcIndex]) items[schoolAcIndex].scrollIntoView({ block: 'nearest' });
+    } else if (e.key === 'Enter' && schoolAcIndex >= 0) {
+      e.preventDefault();
+      items[schoolAcIndex].click();
+      schoolAcIndex = -1;
+    } else if (e.key === 'Escape') {
+      schoolDropdown.hidden = true;
+      schoolAcIndex = -1;
+    }
+  });
+
+  // Toggle aria-expanded on school filter
+  const schoolObserver = new MutationObserver(() => {
+    schoolFilterInput.setAttribute('aria-expanded', String(!schoolDropdown.hidden));
+  });
+  schoolObserver.observe(schoolDropdown, { attributes: true, attributeFilter: ['hidden'] });
+
   // Close school dropdown on outside click
   document.addEventListener('click', (e) => {
     if (!e.target.closest('.filters__school-wrapper')) {
       schoolDropdown.hidden = true;
+      schoolAcIndex = -1;
     }
   });
 
@@ -1253,6 +1331,11 @@
     renderSchoolTags();
     catChips.forEach(c => c.classList.remove('filters__cat-chip--active'));
   });
+
+  // --- Service Worker registration ---
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/kariera/sw.js').catch(() => {});
+  }
 
   // --- Init ---
   async function init() {
