@@ -77,6 +77,6 @@
 - [x] Heading hierarchy (h3→h2)
 - [x] Copy fixes ("providerów", "2500→80")
 - [x] Dark footer contrast, aria-label, theme announce
-- [ ] History API migration (FUTURE — C1, wymaga osobnej sesji)
-- [ ] Minification build step (FUTURE — H7)
-- [ ] Google Fonts preload (FUTURE — H8)
+- [x] History API migration (C1) ✅ Sesja 4 — pushState routing, 404.html SPA redirect, <base> tag
+- [x] Minification build step (H7) ✅ Sesja 4 — esbuild transform, -43.7KB total
+- [x] Google Fonts preload (H8) ✅ Sesja 4 — <link rel="preload" as="style">
