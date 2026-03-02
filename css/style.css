@@ -1416,6 +1416,16 @@ main {
   background: linear-gradient(135deg, var(--kr-primary), var(--kr-primary-light));
   text-transform: uppercase;
   user-select: none;
+  overflow: hidden;
+}
+.famous-card__avatar--has-img {
+  background: none;
+}
+.famous-card__avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .famous-card__info {
@@ -1541,6 +1551,16 @@ main {
   background: linear-gradient(135deg, var(--kr-primary), var(--kr-secondary));
   text-transform: uppercase;
   user-select: none;
+  overflow: hidden;
+}
+.person-popup__avatar--has-img {
+  background: none;
+}
+.person-popup__avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .person-popup__name {
@@ -2509,6 +2529,45 @@ main {
     font-size: 0.78rem;
     padding: 0.3rem 0.7rem;
   }
+}
+
+/* --- Scroll to top button --- */
+.scroll-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--kr-glass-border);
+  background: var(--kr-glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: var(--kr-glass-shadow);
+  color: var(--kr-primary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  opacity: 0;
+  transform: translateY(10px);
+  pointer-events: none;
+  transition: opacity 0.3s, transform 0.3s, background 0.2s, color 0.2s;
+}
+.scroll-top--visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+.scroll-top:hover {
+  background: var(--kr-primary);
+  color: #fff;
+  border-color: var(--kr-primary);
+}
+.scroll-top:focus-visible {
+  outline: 3px solid var(--kr-accent);
+  outline-offset: 2px;
 }
 
 /* --- Print --- */

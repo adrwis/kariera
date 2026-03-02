@@ -751,6 +751,9 @@
     if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true }); }
     announce(`Zawód: ${c.name}`);
     document.title = `${c.name} — zawód | NextMove`;
+
+    // Load Wikipedia thumbnails for famous people
+    loadFamousThumbs(c.famousPeople);
   }
 
   function renderFallbackDetail(kzis) {
@@ -838,6 +841,59 @@
     }
   }
 
+  // --- Wikipedia thumbnail cache ---
+  const wikiThumbCache = new Map();
+
+  function getWikiInfo(sourceUrl) {
+    if (!sourceUrl) return null;
+    try {
+      const url = new URL(sourceUrl);
+      if (!url.hostname.includes('wikipedia.org')) return null;
+      const parts = url.pathname.split('/wiki/');
+      if (parts.length < 2) return null;
+      return { lang: url.hostname.split('.')[0], title: parts[1] };
+    } catch { return null; }
+  }
+
+  async function fetchWikiThumb(sourceUrl) {
+    if (wikiThumbCache.has(sourceUrl)) return wikiThumbCache.get(sourceUrl);
+    const info = getWikiInfo(sourceUrl);
+    if (!info) { wikiThumbCache.set(sourceUrl, null); return null; }
+    try {
+      // Try original language
+      let resp = await fetch(`https://${info.lang}.wikipedia.org/api/rest_v1/page/summary/${info.title}`);
+      if (resp.ok) {
+        const data = await resp.json();
+        if (data.thumbnail) { wikiThumbCache.set(sourceUrl, data.thumbnail.source); return data.thumbnail.source; }
+      }
+      // Fallback: try English Wikipedia
+      if (info.lang !== 'en') {
+        resp = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${info.title}`);
+        if (resp.ok) {
+          const data = await resp.json();
+          if (data.thumbnail) { wikiThumbCache.set(sourceUrl, data.thumbnail.source); return data.thumbnail.source; }
+        }
+      }
+      wikiThumbCache.set(sourceUrl, null);
+      return null;
+    } catch { wikiThumbCache.set(sourceUrl, null); return null; }
+  }
+
+  function loadFamousThumbs(people) {
+    if (!people || !people.length) return;
+    people.forEach((p, i) => {
+      if (!p.sourceUrl) return;
+      fetchWikiThumb(p.sourceUrl).then(thumb => {
+        if (!thumb) return;
+        const avatar = document.querySelector(`.famous-card[data-person-idx="${i}"] .famous-card__avatar`);
+        if (avatar) {
+          avatar.innerHTML = `<img src="${thumb}" alt="" class="famous-card__avatar-img">`;
+          avatar.classList.add('famous-card__avatar--has-img');
+        }
+      });
+    });
+  }
+
   // --- Famous people popup ---
   let currentCareerData = null;
 
@@ -868,11 +924,16 @@
         </a>`
       : '';
 
+    const thumbUrl = person.sourceUrl ? wikiThumbCache.get(person.sourceUrl) : null;
+    const avatarContent = thumbUrl
+      ? `<span class="person-popup__avatar person-popup__avatar--has-img" aria-hidden="true"><img src="${thumbUrl}" alt="" class="person-popup__avatar-img"></span>`
+      : `<span class="person-popup__avatar" aria-hidden="true">${escapeHtml(initials)}</span>`;
+
     overlay.innerHTML = `
       <div class="person-popup" role="dialog" aria-modal="true" aria-label="Biografia: ${escapeAttr(person.name)}">
         <button type="button" class="person-popup__close" aria-label="Zamknij">&times;</button>
         <div class="person-popup__header">
-          <span class="person-popup__avatar" aria-hidden="true">${escapeHtml(initials)}</span>
+          ${avatarContent}
           <div>
             <div class="person-popup__name">${escapeHtml(person.name)}</div>
             ${person.description ? `<div class="person-popup__subtitle">${escapeHtml(person.description)}</div>` : ''}
@@ -1336,6 +1397,26 @@
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/kariera/sw.js').catch(() => {});
   }
+
+  // --- Scroll to top ---
+  const scrollTopBtn = document.getElementById('scrollTopBtn');
+  let scrollTicking = false;
+
+  window.addEventListener('scroll', () => {
+    if (!scrollTicking) {
+      requestAnimationFrame(() => {
+        const show = window.scrollY > 300;
+        scrollTopBtn.classList.toggle('scroll-top--visible', show);
+        scrollTopBtn.setAttribute('aria-hidden', String(!show));
+        scrollTicking = false;
+      });
+      scrollTicking = true;
+    }
+  });
+
+  scrollTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
 
   // --- Init ---
   async function init() {
