@@ -21,7 +21,7 @@
       "certifications": [
         {
           "name": "Certyfikat psychoterapeuty PTP",
-          "url": "https://www.ptp.org.pl"
+          "url": "https://psych.org.pl"
         }
       ],
       "training": [
@@ -30,7 +30,7 @@
           "providers": [
             {
               "name": "Szkoła Psychoterapii przy SWPS",
-              "url": "https://psychoterapia.swps.pl"
+              "url": "https://www.swps.pl"
             },
             {
               "name": "Krakowskie Centrum Psychodynamiczne",
@@ -349,16 +349,12 @@
           "name": "Bootcampy programistyczne (3-6 miesięcy)",
           "providers": [
             {
-              "name": "Codecool",
-              "url": "https://codecool.com/pl"
-            },
-            {
               "name": "Kodilla",
               "url": "https://kodilla.com/pl"
             },
             {
               "name": "SDA",
-              "url": "https://sdacademy.pl"
+              "url": "https://sdacademy.com"
             }
           ],
           "description": "Intensywne kursy programowania obejmujące naukę języków programowania, frameworków webowych i narzędzi deweloperskich. Uczestnicy realizują projekty praktyczne i budują portfolio. Program przygotowuje do podjęcia pierwszej pracy jako junior developer.",
@@ -742,7 +738,7 @@
         },
         {
           "name": "UJ CM — Collegium Medicum",
-          "url": "https://www.cm.uj.edu.pl",
+          "url": "https://cm-uj.krakow.pl",
           "city": "Kraków",
           "requirements": [
             "Biologia (R)",
@@ -1166,7 +1162,7 @@
       "certifications": [
         {
           "name": "Kwalifikacje pedagogiczne",
-          "url": "https://www.men.gov.pl"
+          "url": "https://www.gov.pl/web/edukacja"
         }
       ],
       "training": [
@@ -1175,7 +1171,7 @@
           "providers": [
             {
               "name": "Uczelnie wyższe w całej Polsce",
-              "url": "https://www.up.krakow.pl"
+              "url": "https://www.uken.krakow.pl"
             }
           ],
           "description": "Studia przygotowujące do wykonywania zawodu nauczyciela, obejmujące pedagogikę, dydaktykę przedmiotową i psychologię rozwojową. Uczestnicy odbywają praktyki w szkołach i uczą się planowania zajęć. Program trwa zazwyczaj 3 semestry.",
@@ -1264,7 +1260,7 @@
         },
         {
           "name": "UP Kraków — Uniwersytet Pedagogiczny",
-          "url": "https://www.up.krakow.pl",
+          "url": "https://www.uken.krakow.pl",
           "city": "Kraków",
           "requirements": [
             "Język polski (P)",
@@ -1441,7 +1437,7 @@
       "certifications": [
         {
           "name": "Adobe Certified Professional",
-          "url": "https://www.adobe.com/certified.html"
+          "url": "https://certification.adobe.com"
         }
       ],
       "training": [
@@ -1451,10 +1447,6 @@
             {
               "name": "Coders Lab",
               "url": "https://coderslab.pl"
-            },
-            {
-              "name": "Szkoła Forma",
-              "url": "https://www.szkolaforma.pl"
             }
           ],
           "description": "Szkolenia z obsługi profesjonalnych programów graficznych (Adobe Photoshop, Illustrator, InDesign). Uczestnicy uczą się projektowania materiałów drukowanych, identyfikacji wizualnej i grafiki cyfrowej. Kursy prowadzone są w formie stacjonarnej i online.",
@@ -1578,56 +1570,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "Szkoła Forma",
-          "url": "https://www.szkolaforma.pl",
-          "city": "Poznań",
-          "requirements": [
-            "Egzamin praktyczny (portfolio)",
-            "Język polski (P)",
-            "Historia sztuki lub informatyka (P)"
-          ],
-          "modes": [
-            {
-              "type": "stacjonarne",
-              "paid": true,
-              "tuition": "4800 PLN/semestr",
-              "thresholds": [
-                {
-                  "year": 2025,
-                  "points": 70
-                },
-                {
-                  "year": 2024,
-                  "points": 69
-                },
-                {
-                  "year": 2023,
-                  "points": 67
-                }
-              ]
-            },
-            {
-              "type": "niestacjonarne",
-              "paid": true,
-              "tuition": "4800 PLN/semestr",
-              "thresholds": [
-                {
-                  "year": 2025,
-                  "points": 55
-                },
-                {
-                  "year": 2024,
-                  "points": 54
-                },
-                {
-                  "year": 2023,
-                  "points": 52
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -1713,7 +1655,7 @@
         },
         {
           "name": "Egzamin radcowski (OIRP)",
-          "url": "https://www.oirp.pl"
+          "url": "https://kirp.pl"
         }
       ],
       "training": [
@@ -1734,7 +1676,7 @@
           "providers": [
             {
               "name": "Okręgowe Izby Radców Prawnych",
-              "url": "https://www.oirp.pl"
+              "url": "https://kirp.pl"
             }
           ],
           "description": "Trzyletnia aplikacja przygotowująca do zawodu radcy prawnego. Program obejmuje szkolenie teoretyczne i praktyczne z zakresu prawa cywilnego, karnego, administracyjnego i gospodarczego. Kończy się egzaminem radcowskim.",
@@ -1997,7 +1939,7 @@
             },
             {
               "name": "Alteryx Academy",
-              "url": "https://community.alteryx.com/t5/Alteryx-Academy/ct-p/academy"
+              "url": "https://community.alteryx.com/t5/Learning-Resources/ct-p/alteryx-academy"
             }
           ],
           "description": "Szkolenia z narzędzi analitycznych (Python, R, SQL, Power BI, Tableau) oraz metod statystycznych. Uczestnicy uczą się eksploracji danych, wizualizacji i tworzenia raportów biznesowych. Kursy obejmują projekty na rzeczywistych zbiorach danych.",
@@ -2329,7 +2271,7 @@
         },
         {
           "name": "UJ CM — Wydział Nauk o Zdrowiu",
-          "url": "https://www.cm.uj.edu.pl",
+          "url": "https://cm-uj.krakow.pl",
           "city": "Kraków",
           "requirements": [
             "Biologia (R)",
@@ -2449,7 +2391,7 @@
       "certifications": [
         {
           "name": "Prawo wykonywania zawodu farmaceuty",
-          "url": "https://www.nia.org.pl"
+          "url": "https://www.nia.gov.pl"
         }
       ],
       "training": [],
@@ -2521,7 +2463,7 @@
         },
         {
           "name": "UJ CM — Wydział Farmaceutyczny",
-          "url": "https://www.cm.uj.edu.pl",
+          "url": "https://cm-uj.krakow.pl",
           "city": "Kraków",
           "requirements": [
             "Biologia (R)",
@@ -2772,7 +2714,7 @@
         },
         {
           "name": "AWF Kraków",
-          "url": "https://www.awf.krakow.pl",
+          "url": "https://www.akf.krakow.pl",
           "city": "Kraków",
           "requirements": [
             "Biologia (R)",
@@ -2953,7 +2895,7 @@
             },
             {
               "name": "Akademia MDDP",
-              "url": "https://www.akademiamddp.pl"
+              "url": "https://www.adnakademia.pl"
             }
           ],
           "description": "Szkolenia z rachunkowości na różnych poziomach zaawansowania — od podstaw księgowości po pełną księgowość i bilansistę. Uczestnicy poznają zasady prowadzenia ksiąg rachunkowych, rozliczeń podatkowych i sporządzania sprawozdań finansowych.",
@@ -3079,7 +3021,7 @@
         },
         {
           "name": "UE Wrocław",
-          "url": "https://www.ue.wroc.pl",
+          "url": "https://uew.pl",
           "city": "Wrocław",
           "requirements": [
             "Matematyka (R)",
@@ -3228,7 +3170,7 @@
       "schools": [
         {
           "name": "ZSG Nr 1 Warszawa",
-          "url": "https://www.wsg.bydgoszcz.pl",
+          "url": "https://www.wsg.pl",
           "city": "Warszawa",
           "requirements": [
             "Egzamin praktyczny (kulinaria)",
@@ -3339,7 +3281,7 @@
             },
             {
               "name": "SDA",
-              "url": "https://sdacademy.pl"
+              "url": "https://sdacademy.com"
             }
           ],
           "description": "Szkolenia przygotowujące do pracy testera QA, obejmujące testowanie manualne i automatyczne, pisanie przypadków testowych oraz zarządzanie defektami. Program przygotowuje do egzaminu ISTQB Foundation Level.",
@@ -3367,7 +3309,7 @@
       "schools": [
         {
           "name": "Politechnika (dowolna) — Informatyka",
-          "url": "https://www.pjwstk.edu.pl",
+          "url": "https://pja.edu.pl",
           "city": "",
           "requirements": [
             "Matematyka (R)",
@@ -3550,7 +3492,7 @@
         },
         {
           "name": "UJ CM",
-          "url": "https://www.cm.uj.edu.pl",
+          "url": "https://cm-uj.krakow.pl",
           "city": "Kraków",
           "requirements": [
             "Biologia (R)",
@@ -3599,7 +3541,7 @@
         },
         {
           "name": "UM Łódź",
-          "url": "https://www.umed.lodz.pl",
+          "url": "https://umed.pl",
           "city": "Łódź",
           "requirements": [
             "Biologia (R)",
@@ -3712,10 +3654,6 @@
         {
           "name": "Kursy fotografii",
           "providers": [
-            {
-              "name": "Szkoła fotografii w Krakowie",
-              "url": "https://szkolafotografii.krakow.pl"
-            },
             {
               "name": "Leica Academy",
               "url": "https://www.leica-camera.com/pl-PL/Leica-Akademie"
@@ -4094,19 +4032,14 @@
     "demand": "deficytowy",
     "category": "medycyna",
     "skills": {
-      "certifications": [
-        {
-          "name": "Prawo wykonywania zawodu ratownika medycznego",
-          "url": "https://www.kfrm.pl"
-        }
-      ],
+      "certifications": [],
       "training": [
         {
           "name": "Kursy ALS, ITLS, PHTLS",
           "providers": [
             {
               "name": "Polskie Towarzystwo Medycyny Ratunkowej",
-              "url": "https://www.ptmr.org.pl"
+              "url": "https://ptmr.med.pl"
             }
           ],
           "description": "Zaawansowane kursy ratownictwa medycznego: ALS (zaawansowane zabiegi resuscytacyjne), ITLS/PHTLS (opieka przedszpitalna w urazach). Szkolenia prowadzone na fantomach i w symulacjach klinicznych z certyfikacją międzynarodową.",
@@ -4182,7 +4115,7 @@
         },
         {
           "name": "UJ CM",
-          "url": "https://www.cm.uj.edu.pl",
+          "url": "https://cm-uj.krakow.pl",
           "city": "Kraków",
           "requirements": [
             "Biologia (R)",
@@ -4638,7 +4571,7 @@
           "providers": [
             {
               "name": "Szkoły Policji",
-              "url": "https://www.policja.pl/pol/szkolenia"
+              "url": "https://www.policja.pl"
             }
           ],
           "description": "Sześciomiesięczne szkolenie podstawowe dla nowo przyjętych policjantów. Obejmuje prawo karne, taktykę i techniki interwencji, musztrę, strzelectwo oraz wychowanie fizyczne. Realizowane w szkołach policyjnych.",
@@ -4695,7 +4628,7 @@
         },
         {
           "name": "Wyższa Szkoła Policji w Szczytnie",
-          "url": "https://www.wspol.edu.pl",
+          "url": "https://akademiapolicji.edu.pl",
           "city": "Szczytno",
           "requirements": [
             "Sprawność fizyczna (egzamin)",
@@ -4812,7 +4745,7 @@
       "schools": [
         {
           "name": "SGSP — Szkoła Główna Służby Pożarniczej",
-          "url": "https://www.sgsp.edu.pl",
+          "url": "https://apoz.edu.pl",
           "city": "Warszawa",
           "requirements": [
             "Sprawność fizyczna (egzamin)",
@@ -5214,7 +5147,7 @@
         },
         {
           "name": "UAM — Wydział Neofilologii",
-          "url": "https://neofilologia.amu.edu.pl",
+          "url": "https://wn.amu.edu.pl",
           "city": "Poznań",
           "requirements": [
             "Egzamin praktyczny (portfolio)",
@@ -5608,7 +5541,7 @@
       "schools": [
         {
           "name": "WAT — Wydział Cybernetyki",
-          "url": "https://www.wat.edu.pl",
+          "url": "https://www.wojsko-polskie.pl/wat/",
           "city": "Warszawa",
           "requirements": [
             "Matematyka (R)",
@@ -5818,10 +5751,6 @@
             {
               "name": "DataWorkshop",
               "url": "https://dataworkshop.eu"
-            },
-            {
-              "name": "Codecool",
-              "url": "https://codecool.com/pl"
             }
           ],
           "description": "Intensywne programy szkoleniowe z zakresu uczenia maszynowego, statystyki, programowania w Python i R oraz wizualizacji danych. Uczestnicy realizują projekty end-to-end na rzeczywistych danych. Trwają zazwyczaj 3–6 miesięcy.",
@@ -5899,7 +5828,7 @@
         },
         {
           "name": "PW — Wydział MiNI",
-          "url": "https://www.mini.pw.edu.pl",
+          "url": "https://ww2.mini.pw.edu.pl",
           "city": "Warszawa",
           "requirements": [
             "Matematyka (R)",
@@ -6083,7 +6012,7 @@
           "providers": [
             {
               "name": "A Cloud Guru",
-              "url": "https://acloudguru.com"
+              "url": "https://www.pluralsight.com/cloud-guru"
             },
             {
               "name": "Linux Foundation",
@@ -6599,7 +6528,7 @@
           "providers": [
             {
               "name": "CKZ",
-              "url": "https://www.ckz.edu.pl"
+              "url": "https://cpkz.edu.pl"
             },
             {
               "name": "Szkoły branżowe II stopnia",
@@ -6779,7 +6708,7 @@
       "certifications": [
         {
           "name": "Unity Certified Developer",
-          "url": "https://unity.com/certification"
+          "url": "https://unity.com/products/unity-certifications"
         }
       ],
       "training": [
@@ -7439,7 +7368,7 @@
         },
         {
           "name": "UE Wrocław",
-          "url": "https://www.ue.wroc.pl",
+          "url": "https://uew.pl",
           "city": "Wrocław",
           "requirements": [
             "Matematyka (R)",
@@ -7814,11 +7743,11 @@
       "certifications": [
         {
           "name": "Google Ads Certification",
-          "url": "https://skillshop.google.com"
+          "url": "https://skillshop.withgoogle.com"
         },
         {
           "name": "Meta Blueprint",
-          "url": "https://www.facebook.com/business/learn/certification"
+          "url": "https://www.facebookblueprint.com"
         }
       ],
       "training": [
@@ -8088,10 +8017,6 @@
           "name": "Kursy PR i komunikacji",
           "providers": [
             {
-              "name": "Akademia PR",
-              "url": "https://www.akademiapr.pl"
-            },
-            {
               "name": "Związek Firm PR",
               "url": "https://www.zfpr.pl"
             }
@@ -8171,7 +8096,7 @@
         },
         {
           "name": "UJ — Instytut Dziennikarstwa",
-          "url": "https://dziennikarstwo.uj.edu.pl",
+          "url": "https://media.uj.edu.pl",
           "city": "Kraków",
           "requirements": [
             "Matematyka (P)",
@@ -8840,7 +8765,7 @@
       "certifications": [
         {
           "name": "Certyfikat psychoterapeuty PTP",
-          "url": "https://www.ptp.org.pl"
+          "url": "https://psych.org.pl"
         },
         {
           "name": "Certyfikat EAPTI",
@@ -9123,7 +9048,7 @@
             },
             {
               "name": "CM UJ Kraków",
-              "url": "https://www.cm.uj.edu.pl"
+              "url": "https://cm-uj.krakow.pl"
             }
           ],
           "description": "Cztero-pięcioletni program specjalizacyjny z psychiatrii obejmujący diagnostykę zaburzeń psychicznych, farmakoterapię, psychoterapię i psychiatrię sądową. Rezydent pracuje na oddziałach stacjonarnych, w ambulatoriach i na dyżurach ostrej psychiatrii.",
@@ -9180,7 +9105,7 @@
         },
         {
           "name": "CM UJ — Collegium Medicum",
-          "url": "https://www.cm.uj.edu.pl",
+          "url": "https://cm-uj.krakow.pl",
           "city": "Kraków",
           "requirements": [
             "Biologia (R)",
@@ -9321,7 +9246,7 @@
             },
             {
               "name": "CM UJ",
-              "url": "https://www.cm.uj.edu.pl"
+              "url": "https://cm-uj.krakow.pl"
             },
             {
               "name": "UM Poznań",
@@ -9412,7 +9337,7 @@
         },
         {
           "name": "CM UJ — Collegium Medicum",
-          "url": "https://www.cm.uj.edu.pl",
+          "url": "https://cm-uj.krakow.pl",
           "city": "Kraków",
           "requirements": [
             "Biologia (R)",
@@ -9523,11 +9448,11 @@
             },
             {
               "name": "CM UJ",
-              "url": "https://www.cm.uj.edu.pl"
+              "url": "https://cm-uj.krakow.pl"
             },
             {
               "name": "UM Łódź",
-              "url": "https://www.umed.lodz.pl"
+              "url": "https://umed.pl"
             }
           ],
           "description": "Pięcio-sześcioletni program specjalizacyjny z chirurgii ogólnej. Obejmuje techniki operacyjne, chirurgię laparoskopową, urazową, onkologiczną i transplantacyjną. Rezydent asystuje i samodzielnie wykonuje zabiegi pod nadzorem specjalisty.",
@@ -9584,7 +9509,7 @@
         },
         {
           "name": "CM UJ — Collegium Medicum",
-          "url": "https://www.cm.uj.edu.pl",
+          "url": "https://cm-uj.krakow.pl",
           "city": "Kraków",
           "requirements": [
             "Biologia (R)",
@@ -9725,7 +9650,7 @@
             },
             {
               "name": "CM UJ",
-              "url": "https://www.cm.uj.edu.pl"
+              "url": "https://cm-uj.krakow.pl"
             },
             {
               "name": "ŚUM Katowice",
@@ -9786,7 +9711,7 @@
         },
         {
           "name": "CM UJ — Collegium Medicum",
-          "url": "https://www.cm.uj.edu.pl",
+          "url": "https://cm-uj.krakow.pl",
           "city": "Kraków",
           "requirements": [
             "Biologia (R)",
@@ -10299,7 +10224,7 @@
         },
         {
           "name": "UWr — Wydział Prawa",
-          "url": "https://prawo.uni.wroc.pl",
+          "url": "https://prawo.uwr.edu.pl",
           "city": "Wrocław",
           "requirements": [
             "Matematyka (P)",
@@ -11150,11 +11075,11 @@
           "providers": [
             {
               "name": "AWL Wrocław",
-              "url": "https://www.awl.edu.pl"
+              "url": "https://www.wojsko-polskie.pl/awl/"
             },
             {
               "name": "WAT Warszawa",
-              "url": "https://www.wat.edu.pl"
+              "url": "https://www.wojsko-polskie.pl/wat/"
             },
             {
               "name": "AMW Gdynia",
@@ -11186,7 +11111,7 @@
       "schools": [
         {
           "name": "WAT — Wojskowa Akademia Techniczna",
-          "url": "https://www.wat.edu.pl",
+          "url": "https://www.wojsko-polskie.pl/wat/",
           "city": "Warszawa",
           "requirements": [
             "Sprawność fizyczna (egzamin)",
@@ -11216,7 +11141,7 @@
         },
         {
           "name": "AWL — Akademia Wojsk Lądowych",
-          "url": "https://www.awl.edu.pl",
+          "url": "https://www.wojsko-polskie.pl/awl/",
           "city": "Wrocław",
           "requirements": [
             "Sprawność fizyczna (egzamin)",
@@ -11568,7 +11493,7 @@
         },
         {
           "name": "WAT — Bezpieczeństwo narodowe",
-          "url": "https://www.wat.edu.pl",
+          "url": "https://www.wojsko-polskie.pl/wat/",
           "city": "Warszawa",
           "requirements": [
             "Sprawność fizyczna (egzamin)",
@@ -11943,7 +11868,7 @@
             },
             {
               "name": "AM Katowice",
-              "url": "https://www.amuz.katowice.pl"
+              "url": "https://am.katowice.pl"
             }
           ],
           "description": "Wyższe studia muzyczne na akademiach muzycznych obejmujące grę na instrumencie, teorię muzyki, harmonię, kontrapunkt, dyrygowanie i kameralistykę. Studenci regularnie występują na koncertach i konkursach. Studia trwają 5 lat (jednolite magisterskie).",
@@ -12196,7 +12121,7 @@
           "providers": [
             {
               "name": "PWSFTviT Łódź",
-              "url": "https://www.szkolafilmowa.lodz.pl"
+              "url": "https://www.filmschool.lodz.pl"
             },
             {
               "name": "Wajda School",
@@ -12327,7 +12252,7 @@
         },
         {
           "name": "UŚ — Wydział Radia i Telewizji",
-          "url": "https://www.writ.us.edu.pl",
+          "url": "https://www.writv.us.edu.pl",
           "city": "Katowice",
           "requirements": [
             "Egzamin praktyczny (portfolio filmowe)",
@@ -12454,7 +12379,7 @@
       "certifications": [
         {
           "name": "Członkostwo SARP / IDA",
-          "url": "https://www.sarp.org.pl"
+          "url": "https://www.sarp.pl"
         }
       ],
       "training": [
@@ -12724,7 +12649,7 @@
             },
             {
               "name": "School of Form",
-              "url": "https://www.schoolofform.pl"
+              "url": "https://sof.edu.pl"
             },
             {
               "name": "ASP Łódź",
@@ -12856,7 +12781,7 @@
         },
         {
           "name": "School of Form",
-          "url": "https://www.schoolofform.pl",
+          "url": "https://sof.edu.pl",
           "city": "Poznań",
           "requirements": [
             "Egzamin praktyczny (portfolio)",
@@ -13114,7 +13039,7 @@
         },
         {
           "name": "UP Kraków — Uniwersytet Pedagogiczny",
-          "url": "https://www.up.krakow.pl",
+          "url": "https://www.uken.krakow.pl",
           "city": "Kraków",
           "requirements": [
             "Język polski (P)",
@@ -13486,7 +13411,7 @@
       "certifications": [
         {
           "name": "Stopień doktora",
-          "url": "https://www.gov.pl/web/edukacja-i-nauka"
+          "url": "https://www.gov.pl/web/edukacja"
         }
       ],
       "training": [
@@ -13737,7 +13662,7 @@
       "certifications": [
         {
           "name": "Tytuł czeladnika / mistrza fryzjerstwa",
-          "url": "https://www.irp.org.pl"
+          "url": "https://www.irp-fundacja.pl"
         }
       ],
       "training": [
@@ -13750,7 +13675,7 @@
             },
             {
               "name": "Akademia fryzjerska Toni&Guy",
-              "url": "https://www.toniguy.pl"
+              "url": "https://www.toniguy.com"
             }
           ],
           "description": "Szkolenie zawodowe obejmujące techniki strzyżenia, koloryzacji, stylizacji i pielęgnacji włosów. Uczniowie pracują na modelkach pod nadzorem instruktora. Program zakończony egzaminem czeladniczym lub mistrzowskim w rzemiośle fryzjerskim.",
@@ -14147,7 +14072,7 @@
       "certifications": [
         {
           "name": "Tytuł czeladnika / mistrza cukiernictwa",
-          "url": "https://www.irp.org.pl"
+          "url": "https://www.irp-fundacja.pl"
         }
       ],
       "training": [
@@ -14308,7 +14233,7 @@
       "certifications": [
         {
           "name": "Tytuł czeladnika / mistrza piekarnictwa",
-          "url": "https://www.irp.org.pl"
+          "url": "https://www.irp-fundacja.pl"
         }
       ],
       "training": [
@@ -14477,10 +14402,6 @@
           "name": "Kursy baristyczne SCA",
           "providers": [
             {
-              "name": "Coffee Proficiency",
-              "url": "https://coffeeproficiency.com"
-            },
-            {
               "name": "Speciality Coffee Academy",
               "url": "https://sca.coffee/education"
             }
@@ -14512,56 +14433,6 @@
         "Gastronomia"
       ],
       "schools": [
-        {
-          "name": "Coffee Proficiency",
-          "url": "https://coffeeproficiency.com",
-          "city": "Warszawa",
-          "requirements": [
-            "Egzamin praktyczny (kulinaria)",
-            "Biologia lub chemia (P)",
-            "Matematyka (P)"
-          ],
-          "modes": [
-            {
-              "type": "stacjonarne",
-              "paid": true,
-              "tuition": "3200 PLN/semestr",
-              "thresholds": [
-                {
-                  "year": 2025,
-                  "points": 61
-                },
-                {
-                  "year": 2024,
-                  "points": 58
-                },
-                {
-                  "year": 2023,
-                  "points": 56
-                }
-              ]
-            },
-            {
-              "type": "niestacjonarne",
-              "paid": true,
-              "tuition": "2800 PLN/semestr",
-              "thresholds": [
-                {
-                  "year": 2025,
-                  "points": 42
-                },
-                {
-                  "year": 2024,
-                  "points": 39
-                },
-                {
-                  "year": 2023,
-                  "points": 37
-                }
-              ]
-            }
-          ]
-        },
         {
           "name": "Akademia Baristyczna",
           "city": "Kraków",
@@ -14878,7 +14749,7 @@
       "certifications": [
         {
           "name": "Tytuł czeladnika / mistrza stolarstwa",
-          "url": "https://www.irp.org.pl"
+          "url": "https://www.irp-fundacja.pl"
         }
       ],
       "training": [
@@ -14891,7 +14762,7 @@
             },
             {
               "name": "CKZ",
-              "url": "https://www.ckz.edu.pl"
+              "url": "https://cpkz.edu.pl"
             }
           ],
           "description": "Szkolenie zawodowe obejmujące obróbkę drewna, techniki stolarskie, obsługę maszyn i narzędzi CNC, projektowanie mebli i wykończenie powierzchni. Uczniowie realizują projekty praktyczne. Program zakończony egzaminem zawodowym.",
@@ -15291,7 +15162,7 @@
       "certifications": [
         {
           "name": "Certyfikat SolidWorks CSWP",
-          "url": "https://www.solidworks.com/certifications"
+          "url": "https://www.solidworks.com/solidworks-certification-program"
         }
       ],
       "training": [
@@ -15548,7 +15419,7 @@
       "certifications": [
         {
           "name": "Uprawnienia geodezyjne (GGK)",
-          "url": "https://www.gov.pl/web/rozwoj-technologia/geodezja-i-kartografia"
+          "url": "https://www.gugik.gov.pl"
         }
       ],
       "training": [
@@ -16051,7 +15922,7 @@
       "certifications": [
         {
           "name": "Tytuł czeladnika / mistrza mechanika",
-          "url": "https://www.irp.org.pl"
+          "url": "https://www.irp-fundacja.pl"
         }
       ],
       "training": [
@@ -16061,10 +15932,6 @@
             {
               "name": "Bosch Car Service",
               "url": "https://www.boschcarservice.com/pl"
-            },
-            {
-              "name": "ASO marek",
-              "url": "https://www.dealerzy.com.pl"
             }
           ],
           "description": "Szkolenia autoryzowane przez producentów samochodów (Toyota, VW, BMW, Mercedes). Obejmują diagnostykę komputerową, naprawę silników, skrzyń biegów i układów elektronicznych. Prowadzone w centrach szkoleniowych importerów.",
@@ -16212,7 +16079,7 @@
       "certifications": [
         {
           "name": "Uprawnienia spawalnicze (UDT / IS)",
-          "url": "https://www.is.gliwice.pl"
+          "url": "https://git.lukasiewicz.gov.pl/centrum-spawalnictwa-2/"
         }
       ],
       "training": [
@@ -16221,11 +16088,7 @@
           "providers": [
             {
               "name": "Instytut Spawalnictwa Gliwice",
-              "url": "https://www.is.gliwice.pl"
-            },
-            {
-              "name": "ośrodki szkoleniowe",
-              "url": "https://www.spawanie.pl"
+              "url": "https://git.lukasiewicz.gov.pl/centrum-spawalnictwa-2/"
             }
           ],
           "description": "Szkolenia z metod spawania (MIG/MAG, TIG, MMA, spawanie gazowe) zakończone egzaminem i wydaniem certyfikatu wg normy EN ISO 9606. Obejmują teorię, BHP i intensywne ćwiczenia praktyczne na stanowiskach spawalniczych.",
@@ -16253,7 +16116,7 @@
       "schools": [
         {
           "name": "IS — Instytut Spawalnictwa",
-          "url": "https://www.is.gliwice.pl",
+          "url": "https://git.lukasiewicz.gov.pl/centrum-spawalnictwa-2/",
           "city": "Gliwice",
           "requirements": [
             "Matematyka (R)",
@@ -16464,7 +16327,7 @@
         },
         {
           "name": "UW — Wydział Geografii",
-          "url": "https://www.geograf.uw.edu.pl",
+          "url": "https://wgsr.uw.edu.pl",
           "city": "Warszawa",
           "requirements": [
             "Matematyka (R)",
@@ -16665,7 +16528,7 @@
       "schools": [
         {
           "name": "SGGW — Wydział Ogrodnictwa",
-          "url": "https://www.sggw.pl",
+          "url": "https://www.sggw.edu.pl",
           "city": "Warszawa",
           "requirements": [
             "Biologia (R)",
@@ -16763,7 +16626,7 @@
         },
         {
           "name": "UR Kraków — Wydział Biotechnologii i Ogrodnictwa",
-          "url": "https://www.ur.krakow.pl",
+          "url": "https://urk.edu.pl",
           "city": "Kraków",
           "requirements": [
             "Biologia (R)",
@@ -16916,7 +16779,7 @@
       "schools": [
         {
           "name": "SGGW — Wydział Rolnictwa i Ekologii",
-          "url": "https://www.sggw.pl",
+          "url": "https://www.sggw.edu.pl",
           "city": "Warszawa",
           "requirements": [
             "Biologia (R)",
@@ -17134,7 +16997,7 @@
           "providers": [
             {
               "name": "CILP Bedoń",
-              "url": "https://www.lasy.gov.pl/cilp"
+              "url": "https://www.cilp.lasy.gov.pl"
             }
           ],
           "description": "Roczna służba przygotowawcza w Lasach Państwowych obejmująca praktykę w nadleśnictwach z zakresu hodowli lasu, ochrony lasu, pozyskania drewna i edukacji leśnej. Kończy się egzaminem i stałym zatrudnieniem.",
@@ -17161,7 +17024,7 @@
       "schools": [
         {
           "name": "SGGW — Wydział Leśny",
-          "url": "https://www.sggw.pl",
+          "url": "https://www.sggw.edu.pl",
           "city": "Warszawa",
           "requirements": [
             "Biologia (R)",
@@ -17259,7 +17122,7 @@
         },
         {
           "name": "UR Kraków — Wydział Leśny",
-          "url": "https://www.ur.krakow.pl",
+          "url": "https://urk.edu.pl",
           "city": "Kraków",
           "requirements": [
             "Biologia (R)",
@@ -17411,7 +17274,7 @@
       "schools": [
         {
           "name": "SGGW — Wydział Ogrodnictwa",
-          "url": "https://www.sggw.pl",
+          "url": "https://www.sggw.edu.pl",
           "city": "Warszawa",
           "requirements": [
             "Biologia (R)",
@@ -17812,12 +17675,7 @@
       "training": [
         {
           "name": "Technikum weterynaryjne (4 lata)",
-          "providers": [
-            {
-              "name": "Zespoły Szkół Rolniczych",
-              "url": "https://www.zsr.edu.pl"
-            }
-          ],
+          "providers": [],
           "description": "Czteroletni program kształcenia w technikum weterynaryjnym obejmujący anatomię i fizjologię zwierząt, diagnostykę laboratoryjną, farmakologię weterynaryjną i asystowanie przy zabiegach. Uczniowie odbywają praktyki w lecznicach weterynaryjnych.",
           "requirements": "Ukończona szkoła podstawowa",
           "price": "Bezpłatne (szkoła publiczna) lub 4000–6000 PLN/rok (szkoły prywatne)"

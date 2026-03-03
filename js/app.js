@@ -1565,6 +1565,17 @@
 
     if (selectedSchools.length) params.set('schools', selectedSchools.join('|'));
 
+    // Save filter state to sessionStorage
+    try {
+      sessionStorage.setItem('kr-filters', JSON.stringify({
+        cats: selectedCategories,
+        sMin: parseInt(salaryMinInput.value) || 3000,
+        sMax: parseInt(salaryMaxInput.value) || 35000,
+        demands: [...demandChecks].filter(c => c.checked).map(c => c.value),
+        schools: selectedSchools,
+      }));
+    } catch (_) {}
+
     go(`/wyniki?${params.toString()}`);
   });
 
@@ -1579,7 +1590,43 @@
     selectedCategories = [];
     renderSchoolTags();
     catChips.forEach(c => { c.classList.remove('filters__cat-chip--active'); c.setAttribute('aria-pressed', 'false'); });
+    try { sessionStorage.removeItem('kr-filters'); } catch (_) {}
   });
+
+  // Restore filter state from sessionStorage on landing
+  function restoreFilters() {
+    try {
+      const saved = sessionStorage.getItem('kr-filters');
+      if (!saved) return;
+      const f = JSON.parse(saved);
+
+      // Categories
+      if (f.cats && f.cats.length) {
+        selectedCategories = f.cats;
+        catChips.forEach(chip => {
+          const active = f.cats.includes(chip.dataset.cat);
+          chip.classList.toggle('filters__cat-chip--active', active);
+          chip.setAttribute('aria-pressed', String(active));
+        });
+      }
+
+      // Salary
+      if (f.sMin) { salaryMinInput.value = f.sMin; salaryRangeMin.value = f.sMin; }
+      if (f.sMax) { salaryMaxInput.value = f.sMax; salaryRangeMax.value = f.sMax; }
+
+      // Demand
+      if (f.demands) {
+        demandChecks.forEach(c => { c.checked = f.demands.includes(c.value); });
+      }
+
+      // Schools
+      if (f.schools && f.schools.length) {
+        selectedSchools = f.schools;
+        renderSchoolTags();
+      }
+    } catch (_) {}
+  }
+  restoreFilters();
 
   // --- Service Worker registration ---
   if ('serviceWorker' in navigator) {

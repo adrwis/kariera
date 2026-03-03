@@ -107,6 +107,27 @@ server.listen(0, async () => {
     check('Filter URL has /kariera/wyniki', page.url().includes('/kariera/wyniki'));
     check('Filter URL has filter params', page.url().includes('filter=1'));
 
+    // Test 10: Filter state persistence via sessionStorage
+    // After filtering (test 9), sessionStorage should have kr-filters
+    const savedFilters = await page.evaluate(() => sessionStorage.getItem('kr-filters'));
+    check('Filter state saved to sessionStorage', savedFilters !== null && savedFilters.includes('it'));
+
+    // Navigate to a career, then back to landing — filters should restore
+    await page.click('.result-card');
+    await page.waitForTimeout(2000);
+    await page.goBack(); // back to results
+    await page.waitForTimeout(500);
+    await page.goBack(); // back to landing
+    await page.waitForTimeout(1000);
+    const itChipActive = await page.locator('.filters__cat-chip[data-cat="it"]').getAttribute('class');
+    check('Filter state restored on landing', itChipActive.includes('filters__cat-chip--active'));
+
+    // Test 11: Reset clears sessionStorage
+    await page.click('#filterReset');
+    await page.waitForTimeout(200);
+    const afterReset = await page.evaluate(() => sessionStorage.getItem('kr-filters'));
+    check('Reset clears filter state', afterReset === null);
+
     console.log(`\n${passed} passed, ${failed} failed`);
     console.log('JS errors:', errors.length ? errors.join('; ') : 'NONE');
   } catch (e) {
