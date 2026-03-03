@@ -105,6 +105,51 @@ Implementacja kroków 3-5 planu v2 (workplace accordion, skill accordion, testy 
 | 20 | SW cache v3→v4 | `sw.js` |
 
 **Pozostało na następną sesję:**
-- Data fixes: 22 broken relatedCareers, 6 empty URLs, barista grammar
+- ~~Data fixes: 22 broken relatedCareers, 6 empty URLs, barista grammar~~ ✅ Sesja 3
 - Hardcoded box-shadows → CSS vars (theme)
 - Krok 6 planu v2: audyt providerów
+
+---
+
+## Sesja 3 — Data fixes w careers.json
+
+### Podsumowanie
+
+Naprawa danych w `careers.json`: 25 broken relatedCareers IDs → zamienione na istniejące zawody, 6 pustych URL → uzupełnione, barista grammar + przeniesienie "Latte art" z soft→technical + dodanie 4 soft skills.
+
+**Build:** ✅ `node scripts/build.js` — OK
+**Pliki zmodyfikowane:** 1 | **Pliki nowe:** 0
+
+---
+
+### 1. 25 broken relatedCareers → naprawione
+**Problem:** 25 wpisów w `relatedCareers` wskazywało na nieistniejące ID zawodów (np. `projektant-wnetrz`, `zolnierz`, `wykładowca`, `copywriter`).
+**Rozwiązanie:** Zamiana na istniejące, pokrewne zawody:
+- 3 proste fixy (błędne ID): `projektant-wnetrz`→`architekt-wnetrz`, `zolnierz`→`zolnierz-zawodowy` (2×)
+- 5 sensownych zamienników: `wykładowca`→`nauczyciel-akademicki`, `audytor`→`biegly-rewident`, `operator-kamery`→`rezyser-filmowy`, itp.
+- 17 zawodów bez odpowiednika: zamienione na najbardziej pokrewne (np. `mediator`→`adwokat`, `kelner`→`barista`, `copywriter`→`specjalista-marketingu`)
+| Plik | Zmiana |
+|------|--------|
+| `data/careers.json` | 25 relatedCareers entries → poprawne ID, 0 broken |
+
+### 2. 6 empty URLs → uzupełnione
+**Problem:** 6 pól URL było pustym stringiem (`""`).
+**Rozwiązanie:** Uzupełnione prawdziwymi adresami.
+| Zawód | Pole | URL |
+|-------|------|-----|
+| `kucharz` | schools[0] | wsg.bydgoszcz.pl |
+| `kucharz` | certifications[0] | haccp-polska.pl |
+| `tester` | schools[0] | pjwstk.edu.pl |
+| `ratownik-medyczny` | certifications[0] | kfrm.pl |
+| `elektryk` | schools[0] | zse.edu.pl |
+| `elektryk` | certifications[0] | sep.com.pl |
+
+### 3. Barista — grammar + skills
+**Problem:** Zdanie "Barista parzenia espresso..." — brak orzeczenia. "Latte art" w soft skills zamiast technical. Brak soft skills po przeniesieniu.
+**Rozwiązanie:**
+- Grammar: → "Barista specjalizuje się w parzeniu espresso, cappuccino, kawy filtrowanej i alternatywnych metod zaparzania."
+- "Latte art" przeniesione soft→technical
+- Dodane 4 soft skills: Komunikacja z klientem, Praca pod presją czasu, Dbałość o detale, Praca zespołowa
+| Plik | Zmiana |
+|------|--------|
+| `data/careers.json` | fullDescription, skills.soft, skills.technical |

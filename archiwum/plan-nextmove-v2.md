@@ -90,4 +90,14 @@ Cel: poprawa UX + interaktywność — klikalne workplace'y z ofertami pracy, kl
 | `css/style.css` | 2 ✅, 3, 4 |
 | `index.html` | 2 ✅ |
 | `sw.js` | 2 ✅, 5 |
-| `data/careers.json` | 6 |
+| `data/careers.json` | 6, data fixes ✅ |
+
+---
+
+## Data fixes (Sesja 3, 2026-03-03)
+
+Naprawione poza planem v2:
+- [x] 25 broken relatedCareers → poprawne ID
+- [x] 6 empty URLs → uzupełnione
+- [x] Barista grammar + Latte art soft→technical + 4 soft skills
+- [ ] Hardcoded box-shadows → CSS vars (MEDIUM, osobna sesja)

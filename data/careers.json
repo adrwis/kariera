@@ -1114,7 +1114,7 @@
     "relatedCareers": [
       "inzynier-budownictwa",
       "urbanista",
-      "projektant-wnetrz"
+      "architekt-wnetrz"
     ],
     "sources": [
       "INFOdoradca+",
@@ -1385,7 +1385,7 @@
     "relatedCareers": [
       "pedagog",
       "logopeda",
-      "wykładowca"
+      "nauczyciel-akademicki"
     ],
     "sources": [
       "INFOdoradca+",
@@ -1925,7 +1925,7 @@
     "relatedCareers": [
       "sedzia",
       "notariusz",
-      "mediator"
+      "adwokat"
     ],
     "sources": [
       "INFOdoradca+",
@@ -2192,7 +2192,7 @@
     "relatedCareers": [
       "programista",
       "ekonomista",
-      "statystyk"
+      "data-scientist"
     ],
     "sources": [
       "INFOdoradca+",
@@ -2395,7 +2395,7 @@
     "relatedCareers": [
       "lekarz",
       "ratownik-medyczny",
-      "polozna"
+      "fizjoterapeuta"
     ],
     "sources": [
       "INFOdoradca+",
@@ -2635,8 +2635,8 @@
     ],
     "relatedCareers": [
       "lekarz",
-      "chemik",
-      "biotechnolog"
+      "dietetyk",
+      "pielegniarka"
     ],
     "sources": [
       "INFOdoradca+",
@@ -2881,7 +2881,7 @@
     "relatedCareers": [
       "lekarz",
       "pielegniarka",
-      "terapeuta-zajeciowy"
+      "psychoterapeuta"
     ],
     "sources": [
       "INFOdoradca+",
@@ -3137,7 +3137,7 @@
       }
     ],
     "relatedCareers": [
-      "audytor",
+      "biegly-rewident",
       "doradca-podatkowy",
       "ekonomista"
     ],
@@ -3191,7 +3191,7 @@
       "certifications": [
         {
           "name": "Certyfikat HACCP",
-          "url": ""
+          "url": "https://www.haccp-polska.pl"
         }
       ],
       "training": [
@@ -3228,7 +3228,7 @@
       "schools": [
         {
           "name": "ZSG Nr 1 Warszawa",
-          "url": "",
+          "url": "https://www.wsg.bydgoszcz.pl",
           "city": "Warszawa",
           "requirements": [
             "Egzamin praktyczny (kulinaria)",
@@ -3275,7 +3275,7 @@
     "relatedCareers": [
       "cukiernik",
       "dietetyk",
-      "kelner"
+      "barista"
     ],
     "sources": [
       "INFOdoradca+",
@@ -3367,7 +3367,7 @@
       "schools": [
         {
           "name": "Politechnika (dowolna) — Informatyka",
-          "url": "",
+          "url": "https://www.pjwstk.edu.pl",
           "city": "",
           "requirements": [
             "Matematyka (R)",
@@ -3658,8 +3658,8 @@
     ],
     "relatedCareers": [
       "lekarz",
-      "ortodonta",
-      "protetyk"
+      "chirurg",
+      "farmaceuta"
     ],
     "sources": [
       "INFOdoradca+",
@@ -3861,7 +3861,7 @@
     ],
     "relatedCareers": [
       "grafik",
-      "operator-kamery",
+      "rezyser-filmowy",
       "dziennikarz"
     ],
     "sources": [
@@ -4048,7 +4048,7 @@
     "relatedCareers": [
       "fotograf",
       "specjalista-pr",
-      "copywriter"
+      "specjalista-marketingu"
     ],
     "sources": [
       "INFOdoradca+"
@@ -4097,7 +4097,7 @@
       "certifications": [
         {
           "name": "Prawo wykonywania zawodu ratownika medycznego",
-          "url": ""
+          "url": "https://www.kfrm.pl"
         }
       ],
       "training": [
@@ -4500,7 +4500,7 @@
       "certifications": [
         {
           "name": "Świadectwo kwalifikacyjne SEP (grupa 1)",
-          "url": ""
+          "url": "https://www.sep.com.pl"
         }
       ],
       "training": [
@@ -4537,7 +4537,7 @@
       "schools": [
         {
           "name": "Zespoły szkół elektrycznych w całej Polsce",
-          "url": "",
+          "url": "https://www.zse.edu.pl",
           "city": "",
           "requirements": [
             "Matematyka (R)",
@@ -4582,9 +4582,9 @@
       }
     ],
     "relatedCareers": [
-      "inzynier-elektryk",
-      "automatyk",
-      "technik-energetyk"
+      "inzynier-mechanik",
+      "spawacz",
+      "inzynier-budownictwa"
     ],
     "sources": [
       "INFOdoradca+",
@@ -4728,8 +4728,8 @@
     "famousPeople": [],
     "relatedCareers": [
       "strazak",
-      "zolnierz",
-      "detektyw"
+      "zolnierz-zawodowy",
+      "funkcjonariusz-sg"
     ],
     "sources": [
       "INFOdoradca+",
@@ -4846,7 +4846,7 @@
     "relatedCareers": [
       "policjant",
       "ratownik-medyczny",
-      "zolnierz"
+      "zolnierz-zawodowy"
     ],
     "sources": [
       "INFOdoradca+"
@@ -5035,8 +5035,7 @@
     ],
     "relatedCareers": [
       "lekarz",
-      "fizjoterapeuta",
-      "trener-personalny"
+      "fizjoterapeuta"
     ],
     "sources": [
       "INFOdoradca+",
@@ -5280,8 +5279,8 @@
     ],
     "relatedCareers": [
       "dziennikarz",
-      "copywriter",
-      "filolog"
+      "specjalista-marketingu",
+      "nauczyciel"
     ],
     "sources": [
       "INFOdoradca+"
@@ -5510,8 +5509,8 @@
       }
     ],
     "relatedCareers": [
-      "zoolog",
-      "behawiorysta-zwierzat",
+      "lesnik",
+      "ogrodnik",
       "technik-weterynarii"
     ],
     "sources": [
@@ -14458,7 +14457,7 @@
       "coffee artist"
     ],
     "shortDescription": "Przygotowuje napoje kawowe, doradza w doborze kawy i tworzy latte art.",
-    "fullDescription": "Barista parzenia espresso, cappuccino, filtrów i alternatywnych metod. Zna odmiany ziaren, profil palenia, ekstrakcję i technikę latte art. Pracuje w kawiarniach, hotelach i na eventach. Rośnie zapotrzebowanie na speciality coffee i profesjonalnych baristów.",
+    "fullDescription": "Barista specjalizuje się w parzeniu espresso, cappuccino, kawy filtrowanej i alternatywnych metod zaparzania. Zna odmiany ziaren, profil palenia, ekstrakcję i technikę latte art. Pracuje w kawiarniach, hotelach i na eventach. Rośnie zapotrzebowanie na speciality coffee i profesjonalnych baristów.",
     "salary": {
       "min": 3200,
       "max": 6000,
@@ -14492,14 +14491,18 @@
         }
       ],
       "soft": [
-        "Latte art"
+        "Komunikacja z klientem",
+        "Praca pod presją czasu",
+        "Dbałość o detale",
+        "Praca zespołowa"
       ],
       "technical": [
         "Parzenie espresso i mlecznych",
         "Cupping (degustacja kawy)",
         "Alternatywne metody parzenia",
         "Obsługa ekspresu i młynka",
-        "Wiedza o odmianach kawy"
+        "Wiedza o odmianach kawy",
+        "Latte art"
       ]
     },
     "education": {
