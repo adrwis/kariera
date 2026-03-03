@@ -575,17 +575,18 @@
 
   // --- Workplace job search links builder ---
   function buildJobSearchLinks(careerName, workplaceName, category) {
-    const q = encodeURIComponent(`${careerName} ${workplaceName}`);
+    const qCareer = encodeURIComponent(careerName);
     const links = [
-      { label: 'Pracuj.pl', url: `https://www.pracuj.pl/praca/${encodeURIComponent(careerName + ' ' + workplaceName)}` },
-      { label: 'Indeed', url: `https://pl.indeed.com/jobs?q=${q}` },
+      { label: 'Pracuj.pl', url: `https://www.pracuj.pl/praca/${qCareer};kw` },
+      { label: 'LinkedIn', url: `https://www.linkedin.com/jobs/search/?keywords=${qCareer}` },
+      { label: 'Indeed', url: `https://pl.indeed.com/jobs?q=${qCareer}` },
     ];
     if (category === 'it') {
-      links.push({ label: 'Just Join IT', url: `https://justjoin.it/offers?keyword=${q}` });
-      links.push({ label: 'No Fluff Jobs', url: `https://nofluffjobs.com/pl?criteria=keyword%3D${q}` });
+      links.push({ label: 'Just Join IT', url: `https://justjoin.it/offers?keyword=${qCareer}` });
+      links.push({ label: 'No Fluff Jobs', url: `https://nofluffjobs.com/pl?criteria=keyword%3D${qCareer}` });
     }
     if (category === 'medycyna') {
-      links.push({ label: 'MP Praca', url: `https://www.mp.pl/praca/szukaj?query=${q}` });
+      links.push({ label: 'MP Praca', url: `https://www.mp.pl/praca/szukaj?query=${qCareer}` });
     }
     return links.map(l =>
       `<a href="${escapeAttr(l.url)}" target="_blank" rel="noopener" class="workplace-links__link">${escapeHtml(l.label)}<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>`
@@ -598,7 +599,6 @@
     const links = [
       { label: 'Udemy', url: `https://www.udemy.com/courses/search/?q=${q}&lang=pl` },
       { label: 'Coursera', url: `https://www.coursera.org/search?query=${q}` },
-      { label: 'Szkolenia.com', url: `https://szkolenia.com/szukaj?q=${q}` },
     ];
     if (skillType === 'technical') {
       links.push({ label: 'LinkedIn Learning', url: `https://www.linkedin.com/learning/search?keywords=${q}` });
@@ -1008,7 +1008,7 @@
       // Strategy 2: pageimages Action API
       for (const title of titles) {
         for (const lang of langs) {
-          const resp = await fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(title)}&prop=pageimages&pithumbsize=200&format=json&origin=*`);
+          const resp = await fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(title)}&prop=pageimages&pithumbsize=400&format=json&origin=*`);
           if (resp.ok) {
             const data = await resp.json();
             const pages = data.query && data.query.pages;
@@ -1028,7 +1028,7 @@
             const entity = wdData.entities && Object.values(wdData.entities)[0];
             if (entity && entity.claims && entity.claims.P18) {
               const filename = entity.claims.P18[0].mainsnak.datavalue.value;
-              return cache(`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(filename)}?width=200`);
+              return cache(`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(filename)}?width=600`);
             }
           }
         }
@@ -1085,7 +1085,7 @@
 
     const thumbUrl = wikiThumbCache.get(person.sourceUrl || person.name) || null;
     const avatarContent = thumbUrl
-      ? `<span class="person-popup__avatar person-popup__avatar--has-img" aria-hidden="true"><img src="${thumbUrl}" alt="" class="person-popup__avatar-img"></span>`
+      ? `<button type="button" class="person-popup__avatar person-popup__avatar--has-img person-popup__avatar--zoomable" aria-label="Powiększ zdjęcie: ${escapeAttr(person.name)}" data-photo-url="${escapeAttr(thumbUrl)}"><img src="${thumbUrl}" alt="" class="person-popup__avatar-img"></button>`
       : `<span class="person-popup__avatar" aria-hidden="true">${escapeHtml(initials)}</span>`;
 
     overlay.innerHTML = `
@@ -1117,14 +1117,50 @@
       if (e.key === 'Escape') closePersonPopup();
     });
 
+    // Photo lightbox on avatar click
+    const zoomBtn = overlay.querySelector('.person-popup__avatar--zoomable');
+    if (zoomBtn) {
+      zoomBtn.addEventListener('click', () => {
+        openPhotoLightbox(zoomBtn.dataset.photoUrl, person.name);
+      });
+    }
+
     announce(`Biografia: ${person.name}`);
   }
 
   function closePersonPopup() {
+    closePhotoLightbox();
     const overlay = document.getElementById('personPopupOverlay');
     if (overlay) overlay.remove();
     document.body.style.overflow = '';
     restoreFocus();
+  }
+
+  // --- Photo lightbox ---
+  function openPhotoLightbox(url, altText) {
+    closePhotoLightbox();
+    const lb = document.createElement('div');
+    lb.className = 'photo-lightbox';
+    lb.id = 'photoLightbox';
+    lb.innerHTML = `
+      <button type="button" class="photo-lightbox__close" aria-label="Zamknij zdjęcie">&times;</button>
+      <img src="${escapeAttr(url)}" alt="${escapeAttr(altText)}" class="photo-lightbox__img">
+    `;
+    document.body.appendChild(lb);
+    const closeBtn = lb.querySelector('.photo-lightbox__close');
+    closeBtn.focus();
+    closeBtn.addEventListener('click', closePhotoLightbox);
+    lb.addEventListener('click', (e) => {
+      if (e.target === lb) closePhotoLightbox();
+    });
+    lb.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') { e.stopPropagation(); closePhotoLightbox(); }
+    });
+  }
+
+  function closePhotoLightbox() {
+    const lb = document.getElementById('photoLightbox');
+    if (lb) lb.remove();
   }
 
   // Delegate click on famous cards

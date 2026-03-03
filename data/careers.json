@@ -262,20 +262,26 @@
       {
         "name": "Kazimierz Dąbrowski",
         "description": "Twórca teorii dezintegracji pozytywnej",
-        "bio": "Polski psychiatra i psycholog (1902–1980). Stworzył teorię dezintegracji pozytywnej, opisującą rozwój osobowości przez kryzysy emocjonalne. Pracował na Uniwersytecie Alberta w Kanadzie oraz w Polsce.",
+        "bio": "Polski psychiatra i psycholog (1902–1980). Stworzył teorię dezintegracji pozytywnej, opisującą rozwój osobowości przez kryzysy emocjonalne. Pracował na Uniwersytecie Alberta w Kanadzie oraz w Polsce. Jego teoria łączy psychologię z filozofią i jest stosowana w pracy z osobami zdolnymi na całym świecie.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Kazimierz_Dąbrowski"
       },
       {
         "name": "Jerzy Mellibruda",
         "description": "Pionier terapii uzależnień w Polsce",
-        "bio": "Polski psycholog i psychoterapeuta (1939–2014). Pionier leczenia uzależnień w Polsce, współtwórca Państwowej Agencji Rozwiązywania Problemów Alkoholowych. Autor licznych publikacji z zakresu psychologii uzależnień.",
+        "bio": "Polski psycholog i psychoterapeuta (1939–2014). Pionier leczenia uzależnień w Polsce, współtwórca Państwowej Agencji Rozwiązywania Problemów Alkoholowych. Autor licznych publikacji z zakresu psychologii uzależnień i przemocy domowej, twórca programów terapeutycznych stosowanych w ośrodkach leczenia w całym kraju.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Jerzy_Mellibruda"
       },
       {
         "name": "Carl Rogers",
         "description": "Twórca terapii skoncentrowanej na osobie",
-        "bio": "Amerykański psycholog (1902–1987). Twórca terapii skoncentrowanej na osobie (client-centered therapy) i jeden z założycieli psychologii humanistycznej. Trzykrotnie nominowany do Pokojowej Nagrody Nobla.",
+        "bio": "Amerykański psycholog (1902–1987). Twórca terapii skoncentrowanej na osobie (client-centered therapy) i jeden z założycieli psychologii humanistycznej. Trzykrotnie nominowany do Pokojowej Nagrody Nobla. Jego podejście oparte na empatii, autentyczności i bezwarunkowej akceptacji zrewolucjonizowało psychoterapię na całym świecie.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Carl_Rogers"
+      },
+      {
+        "name": "Daniel Kahneman",
+        "description": "Noblista, twórca ekonomii behawioralnej",
+        "bio": "Izraelsko-amerykański psycholog (1934–2024). Laureat Nagrody Nobla w dziedzinie ekonomii 2002, twórca teorii perspektywy i ekonomii behawioralnej. Autor bestsellerowego „Pułapek myślenia\" o błędach poznawczych. Udowodnił, że ludzie nie podejmują racjonalnych decyzji — rewolucja w psychologii i ekonomii.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Daniel_Kahneman"
       }
     ],
     "relatedCareers": [
@@ -583,7 +589,7 @@
       {
         "name": "Linus Torvalds",
         "description": "Twórca systemu Linux",
-        "bio": "Fińsko-amerykański programista (ur. 1969). Twórca jądra systemu operacyjnego Linux oraz systemu kontroli wersji Git. Jedna z najbardziej wpływowych postaci w historii oprogramowania open source.",
+        "bio": "Fińsko-amerykański programista (ur. 1969). Twórca jądra systemu operacyjnego Linux oraz systemu kontroli wersji Git — dwóch fundamentów współczesnej informatyki. Linux napędza 90% serwerów, wszystkie superkomputery i system Android. Jedna z najbardziej wpływowych postaci w historii oprogramowania open source.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Linus_Torvalds"
       },
       {
@@ -595,8 +601,14 @@
       {
         "name": "Guido van Rossum",
         "description": "Twórca języka Python",
-        "bio": "Holenderski programista (ur. 1956). Twórca języka programowania Python, jednego z najpopularniejszych języków na świecie. Pracował m.in. w Google i Dropbox, obecnie w Microsoft.",
+        "bio": "Holenderski programista (ur. 1956). Twórca języka programowania Python — jednego z najpopularniejszych języków na świecie, używanego w AI, nauce danych i web development. Pracował m.in. w Google, Dropbox i Microsoft. Znany z filozofii „czytelność kodu ma znaczenie\".",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Guido_van_Rossum"
+      },
+      {
+        "name": "Margaret Hamilton",
+        "description": "Programistka, która posadziła ludzi na Księżycu",
+        "bio": "Amerykańska informatyczka i inżynier oprogramowania (ur. 1936). Kierowała zespołem, który napisał oprogramowanie pokładowe dla misji Apollo 11 w NASA. Ukuła termin „software engineering\". Jej kod uratował misję lądowania na Księżycu w 1969 roku. Odznaczona Presidential Medal of Freedom.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)"
       }
     ],
     "relatedCareers": [
@@ -832,20 +844,26 @@
       {
         "name": "Ludwik Hirszfeld",
         "description": "Odkrywca grup krwi, immunolog",
-        "bio": "Polski lekarz i immunolog (1884–1954). Współodkrywca grup krwi (układ AB0) i pionier serologii. Podczas II wojny światowej walczył z epidemiami w warszawskim getcie.",
+        "bio": "Polski lekarz i immunolog (1884–1954). Współodkrywca grup krwi (układ AB0) i pionier serologii. Podczas II wojny światowej walczył z epidemiami w warszawskim getcie, ratując życie wielu osób. Założyciel Instytutu Immunologii we Wrocławiu, autor ponad 400 publikacji naukowych.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Ludwik_Hirszfeld"
       },
       {
         "name": "Zbigniew Religa",
         "description": "Pionier transplantologii w Polsce",
-        "bio": "Polski kardiochirurg (1938–2009). Dokonał pierwszego udanego przeszczepu serca w Polsce w 1985 roku. Był także ministrem zdrowia i senatorem RP.",
+        "bio": "Polski kardiochirurg i polityk (1938–2009). Dokonał pierwszego udanego przeszczepu serca w Polsce w 1985 roku w Zabrzu. Słynne zdjęcie po 23-godzinnej operacji stało się ikoną medycyny. Był ministrem zdrowia i senatorem RP, walczył o lepsze finansowanie polskiej medycyny.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Zbigniew_Religa"
       },
       {
         "name": "Janusz Korczak",
         "description": "Lekarz, pedagog, pisarz",
-        "bio": "Polski lekarz, pedagog i pisarz (1878–1942). Twórca nowatorskiego systemu wychowawczego i obrońca praw dziecka. Zginął w Treblince, dobrowolnie towarzysząc swoim wychowankom z Domu Sierot.",
+        "bio": "Polski lekarz, pedagog i pisarz (1878–1942). Twórca nowatorskiego systemu wychowawczego opartego na szacunku do dziecka i obrońca praw dziecka. Autor „Króla Maciusia Pierwszego\". Zginął w Treblince, dobrowolnie towarzysząc swoim wychowankom z Domu Sierot — symbol poświęcenia i humanizmu.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Janusz_Korczak"
+      },
+      {
+        "name": "Hipokrates",
+        "description": "Ojciec medycyny, twórca przysięgi lekarskiej",
+        "bio": "Grecki lekarz (ok. 460–370 p.n.e.). Uznawany za ojca medycyny zachodniej, twórca przysięgi Hipokratesa — fundament etyki lekarskiej do dziś. Pierwszy oddzielił medycynę od religii i magii, wprowadzając obserwację kliniczną i racjonalną diagnostykę. Opisał wiele chorób, m.in. padaczkę.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Hipokrates"
       }
     ],
     "relatedCareers": [
@@ -1097,7 +1115,7 @@
       {
         "name": "Zaha Hadid",
         "description": "Ikona światowej architektury parametrycznej",
-        "bio": "Iracko-brytyjska architektka (1950–2016). Pierwsza kobieta uhonorowana Nagrodą Pritzkera, pionierka architektury parametrycznej i dekonstruktywistycznej. Jej futurystyczne projekty zmieniły oblicze współczesnej architektury.",
+        "bio": "Iracko-brytyjska architektka (1950–2016). Pierwsza kobieta uhonorowana Nagrodą Pritzkera (2004), pionierka architektury parametrycznej i dekonstruktywistycznej. Zaprojektowała Centrum Hejdara Alijewa w Baku, MAXXI w Rzymie i stadion Al Janoub w Katarze. Jej futurystyczne projekty zmieniły oblicze współczesnej architektury.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Zaha_Hadid"
       },
       {
@@ -1105,6 +1123,12 @@
         "description": "Twórca Muzeum Żydowskiego w Berlinie (ur. w Łodzi)",
         "bio": "Polsko-amerykański architekt (ur. 1946 w Łodzi). Twórca Muzeum Żydowskiego w Berlinie i autor planu odbudowy World Trade Center w Nowym Jorku. Znany z ekspresyjnej architektury o silnym ładunku emocjonalnym.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Daniel_Libeskind"
+      },
+      {
+        "name": "Frank Lloyd Wright",
+        "description": "Twórca architektury organicznej",
+        "bio": "Amerykański architekt (1867–1959). Twórca architektury organicznej, zaprojektował ponad 1000 budynków, w tym Muzeum Guggenheima w Nowym Jorku i dom Fallingwater. Uznawany za największego amerykańskiego architekta XX wieku. Osiem jego budynków wpisano na Listę Światowego Dziedzictwa UNESCO.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Frank_Lloyd_Wright"
       }
     ],
     "relatedCareers": [
@@ -1362,20 +1386,26 @@
       {
         "name": "Maria Montessori",
         "description": "Twórczyni metody Montessori",
-        "bio": "Włoska lekarka i pedagożka (1870–1952). Twórczyni metody Montessori, rewolucyjnego systemu edukacji opartego na samodzielności dziecka. Jej podejście pedagogiczne jest stosowane w tysiącach szkół na całym świecie.",
+        "bio": "Włoska lekarka i pedagożka (1870–1952). Twórczyni metody Montessori — systemu edukacji opartego na samodzielności dziecka, przygotowanym otoczeniu i nauce przez doświadczenie. Pierwsza Włoszka z dyplomem lekarskim. Jej metoda jest stosowana w ponad 22 000 szkół w 110 krajach świata.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Maria_Montessori"
       },
       {
         "name": "Janusz Korczak",
         "description": "Pedagog, pisarz, obrońca praw dzieci",
-        "bio": "Polski lekarz, pedagog i pisarz (1878–1942). Twórca nowatorskiego systemu wychowawczego i obrońca praw dziecka. Zginął w Treblince, dobrowolnie towarzysząc swoim wychowankom z Domu Sierot.",
+        "bio": "Polski lekarz, pedagog i pisarz (1878–1942). Twórca nowatorskiego systemu wychowawczego opartego na szacunku do dziecka i obrońca praw dziecka. Autor „Króla Maciusia Pierwszego\". Zginął w Treblince, dobrowolnie towarzysząc swoim wychowankom z Domu Sierot — symbol poświęcenia i humanizmu.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Janusz_Korczak"
       },
       {
         "name": "Celestyn Freinet",
         "description": "Twórca pedagogiki Freinetowskiej",
-        "bio": "Francuski pedagog (1896–1966). Twórca pedagogiki Freinetowskiej, opartej na swobodnej ekspresji i współpracy uczniów. Jego metody, takie jak drukarnia szkolna i gazetka uczniowska, zrewolucjonizowały nauczanie.",
+        "bio": "Francuski pedagog (1896–1966). Twórca pedagogiki Freinetowskiej, opartej na swobodnej ekspresji i współpracy uczniów. Jego metody — drukarnia szkolna, gazetka uczniowska, korespondencja międzyszkolna i swobodne teksty — zrewolucjonizowały nauczanie. Ruch Freinetowski działa w ponad 40 krajach na świecie.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Célestin_Freinet"
+      },
+      {
+        "name": "John Dewey",
+        "description": "Twórca pragmatyzmu edukacyjnego",
+        "bio": "Amerykański filozof i pedagog (1859–1952). Twórca progresywizmu edukacyjnego — ruchu, który zmienił szkolnictwo na całym świecie. Propagował naukę przez doświadczenie (learning by doing) zamiast pamięciowego wkuwania. Profesor Columbia University, autor „Democracy and Education\" — klasyka pedagogiki.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/John_Dewey"
       }
     ],
     "relatedCareers": [
@@ -1577,13 +1607,13 @@
       {
         "name": "Henryk Tomaszewski",
         "description": "Ikona polskiej szkoły plakatu",
-        "bio": "Polski grafik i plakacista (1914–2005). Ikona polskiej szkoły plakatu, profesor Akademii Sztuk Pięknych w Warszawie. Jego prace wystawiano w najważniejszych muzeach świata.",
+        "bio": "Polski grafik i plakacista (1914–2005). Ikona polskiej szkoły plakatu, profesor Akademii Sztuk Pięknych w Warszawie. Jego prace wystawiano w najważniejszych muzeach świata, m.in. w MoMA w Nowym Jorku. Wychowawca pokoleń polskich grafików, laureat złotego medalu na Biennale w São Paulo.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Henryk_Tomaszewski"
       },
       {
         "name": "Jan Lenica",
         "description": "Wybitny grafik i twórca plakatów",
-        "bio": "Polski grafik, plakacista i animator (1928–2001). Współtwórca polskiej szkoły plakatu i pionier animacji artystycznej. Tworzył w Paryżu i Berlinie, zdobywając międzynarodowe uznanie.",
+        "bio": "Polski grafik, plakacista i animator (1928–2001). Współtwórca polskiej szkoły plakatu i pionier animacji artystycznej. Tworzył w Paryżu i Berlinie, zdobywając międzynarodowe uznanie. Jego animacja „Labirynt\" z 1962 roku jest uznawana za arcydzieło kina animowanego, łączące surrealizm z ekspresjonizmem.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Jan_Lenica"
       },
       {
@@ -1591,6 +1621,12 @@
         "description": "Światowej sławy grafik austriacki",
         "bio": "Austriacki grafik i typograf (ur. 1962). Światowej sławy projektant, zdobywca dwóch nagród Grammy za design okładek płyt. Współzałożyciel studia Sagmeister & Walsh w Nowym Jorku.",
         "sourceUrl": "https://www.google.com/search?q=Stefan%20Sagmeister"
+      },
+      {
+        "name": "Milton Glaser",
+        "description": "Twórca logo „I ❤ NY\"",
+        "bio": "Amerykański grafik i ilustrator (1929–2020). Twórca jednego z najbardziej rozpoznawalnych logo na świecie — „I ❤ NY\". Współzałożyciel magazynu „New York\", zaprojektował plakat Boba Dylana z psychodeliczną fryzurą. Pierwszy grafik odznaczony National Medal of Arts w USA.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Milton_Glaser"
       }
     ],
     "relatedCareers": [
@@ -1854,14 +1890,26 @@
       {
         "name": "Rafał Lemkin",
         "description": "Twórca pojęcia 'ludobójstwo', prawnik z Lwowa",
-        "bio": "Polski prawnik żydowskiego pochodzenia (1900–1959). Twórca pojęcia „ludobójstwo” (genocide) i główny architekt Konwencji ONZ o zapobieganiu i karaniu zbrodni ludobójstwa. Urodził się w Bezwodnem na Podlasiu.",
+        "bio": "Polsko-amerykański prawnik (1900–1959). Twórca pojęcia „ludobójstwo\" (genocide) i główny inicjator Konwencji ONZ w sprawie zapobiegania i karania zbrodni ludobójstwa z 1948 roku. Pochodził z Wołkowyska na Podlasiu, stracił w Holokauście 49 członków rodziny. Wielokrotnie nominowany do Pokojowej Nagrody Nobla.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Raphael_Lemkin"
       },
       {
         "name": "Adam Bodnar",
         "description": "Były Rzecznik Praw Obywatelskich, Minister Sprawiedliwości",
-        "bio": "Polski prawnik (ur. 1977). Rzecznik Praw Obywatelskich w latach 2015–2021, od 2023 Minister Sprawiedliwości i Prokurator Generalny. Specjalista prawa konstytucyjnego i praw człowieka.",
+        "bio": "Polski prawnik (ur. 1977). Rzecznik Praw Obywatelskich w latach 2015–2021, od 2023 Minister Sprawiedliwości i Prokurator Generalny. Specjalista prawa konstytucyjnego i praw człowieka, absolwent Uniwersytetu Warszawskiego i Central European University. Bronił praworządności w licznych postępowaniach przed TSUE.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Adam_Bodnar"
+      },
+      {
+        "name": "Eleanor Roosevelt",
+        "description": "Współautorka Powszechnej Deklaracji Praw Człowieka",
+        "bio": "Amerykańska polityk i działaczka społeczna (1884–1962). Pierwsza Dama USA i prawniczka, przewodnicząca komisji ONZ, która opracowała Powszechną Deklarację Praw Człowieka w 1948 roku. Nazywana „Pierwszą Damą Świata\", jej praca prawnicza zmieniła oblicze praw człowieka na świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Eleanor_Roosevelt"
+      },
+      {
+        "name": "Hugo Grotius",
+        "description": "Ojciec prawa międzynarodowego",
+        "bio": "Holenderski prawnik i filozof (1583–1645). Autor „O prawie wojny i pokoju\" — fundamentalnego dzieła prawa międzynarodowego. Sformułował zasady prawa naturalnego i wolności mórz (Mare Liberum). Uznawany za ojca prawa międzynarodowego publicznego, jego idee kształtują prawo do dziś.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Hugo_Grotius"
       }
     ],
     "relatedCareers": [
@@ -2121,14 +2169,26 @@
       {
         "name": "Hans Rosling",
         "description": "Wizualizacja danych zdrowotnych, TED Talks",
-        "bio": "Szwedzki lekarz i statystyk (1948–2017). Wizjoner wizualizacji danych, współtwórca narzędzia Gapminder. Autor bestsellera „Factfulness”, popularyzator myślenia opartego na danych.",
+        "bio": "Szwedzki lekarz i statystyk (1948–2017). Wizjoner wizualizacji danych, współtwórca narzędzia Gapminder. Autor bestsellera „Factfulness\", który obalił powszechne mity o stanie świata za pomocą danych. Jego wykłady TED obejrzało ponad 35 milionów osób, udowadniając moc danych w komunikacji.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Hans_Rosling"
       },
       {
         "name": "Nate Silver",
         "description": "Analityk danych, twórca FiveThirtyEight",
-        "bio": "Amerykański statystyk i publicysta (ur. 1978). Twórca portalu FiveThirtyEight, znanego z prognoz wyborczych i sportowych. Autor książki „Sygnał i szum” o sztuce prognozowania.",
+        "bio": "Amerykański statystyk i publicysta (ur. 1978). Twórca portalu FiveThirtyEight, znanego z trafnych prognoz wyborczych i sportowych. Autor książki „Sygnał i szum\" o sztuce prognozowania w erze big data. Zaczynał od analizy statystyk baseballowych, jego modele zrewolucjonizowały analitykę wyborczą.",
         "sourceUrl": "https://www.google.com/search?q=Nate%20Silver"
+      },
+      {
+        "name": "Florence Nightingale",
+        "description": "Pionierka wizualizacji danych i statystyki",
+        "bio": "Brytyjska pielęgniarka i statystyczka (1820–1910). Oprócz reformy pielęgniarstwa, była pionierką wizualizacji danych — wynalazła diagram polarny (coxcomb chart) do prezentacji śmiertelności żołnierzy. Pierwsza kobieta wybrana do Royal Statistical Society, udowodniła moc danych w reformie zdrowia.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Florence_Nightingale"
+      },
+      {
+        "name": "Hadley Wickham",
+        "description": "Twórca tidyverse, rewolucjonista analizy danych w R",
+        "bio": "Nowozelandzki statystyk i programista (ur. 1979). Twórca pakietów ggplot2 i tidyverse dla języka R, które zrewolucjonizowały analizę i wizualizację danych. Główny naukowiec w Posit (RStudio). Jego narzędzia używają miliony analityków danych na całym świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Hadley_Wickham"
       }
     ],
     "relatedCareers": [
@@ -2324,14 +2384,26 @@
       {
         "name": "Florence Nightingale",
         "description": "Prekursorka nowoczesnego pielęgniarstwa",
-        "bio": "Brytyjska pielęgniarka i statystyczka (1820–1910). Prekursorka nowoczesnego pielęgniarstwa, zreformowała opiekę nad rannymi podczas wojny krymskiej. Pionierka wykorzystania statystyki w medycynie.",
+        "bio": "Brytyjska pielęgniarka i statystyczka (1820–1910). Prekursorka nowoczesnego pielęgniarstwa, zreformowała opiekę nad rannymi podczas wojny krymskiej. Pionierka wykorzystania statystyki w medycynie — wynalazła diagram polarny do wizualizacji danych. Założyła pierwszą świecką szkołę pielęgniarstwa w Londynie.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Florence_Nightingale"
       },
       {
         "name": "Hanna Chrzanowska",
         "description": "Polska pielęgniarka, błogosławiona Kościoła katolickiego",
-        "bio": "Polska pielęgniarka (1902–1973). Pionierka pielęgniarstwa domowego i społecznego w Polsce, beatyfikowana przez Kościół katolicki w 2018 roku. Całe życie poświęciła opiece nad chorymi i ubogimi w Krakowie.",
+        "bio": "Polska pielęgniarka i działaczka społeczna (1902–1973). Pionierka pielęgniarstwa domowego i opieki paliatywnej w Polsce, beatyfikowana w 2018 roku. Organizowała opiekę nad chorymi i niepełnosprawnymi w ich domach w Krakowie, kształciła pielęgniarki. Patronka polskiego pielęgniarstwa środowiskowego.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Hanna_Chrzanowska"
+      },
+      {
+        "name": "Dorothea Dix",
+        "description": "Reformatorka opieki psychiatrycznej w USA",
+        "bio": "Amerykańska pielęgniarka i reformatorka społeczna (1802–1887). Walczyła o humanitarne traktowanie chorych psychicznie, doprowadziła do utworzenia 32 szpitali psychiatrycznych w USA. Podczas wojny secesyjnej kierowała korpusem pielęgniarek armii Unii. Ikona opieki nad najsłabszymi.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Dorothea_Dix"
+      },
+      {
+        "name": "Virginia Henderson",
+        "description": "Twórczyni nowoczesnej teorii pielęgniarstwa",
+        "bio": "Amerykańska pielęgniarka i naukowiec (1897–1996). Autorka definicji pielęgniarstwa przyjętej przez Międzynarodową Radę Pielęgniarek, opracowała 14 podstawowych potrzeb pacjenta. Nazywana „pierwszą damą pielęgniarstwa\", jej model opieki jest nauczany w szkołach pielęgniarskich na całym świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Virginia_Henderson"
       }
     ],
     "relatedCareers": [
@@ -2565,14 +2637,26 @@
       {
         "name": "Ignacy Łukasiewicz",
         "description": "Farmaceuta i wynalazca lampy naftowej",
-        "bio": "Polski farmaceuta i wynalazca (1822–1882). Wynalazca lampy naftowej i pionier przemysłu naftowego na świecie. Jego apteka we Lwowie była miejscem pierwszej destylacji ropy naftowej.",
+        "bio": "Polski farmaceuta i wynalazca (1822–1882). Wynalazca lampy naftowej i pionier przemysłu naftowego na świecie. Jego apteka we Lwowie była miejscem pierwszej destylacji ropy naftowej. Zbudował pierwszą na świecie kopalnię ropy i rafinerię, czyniąc Polskę kolebką światowego przemysłu naftowego.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Ignacy_Łukasiewicz"
       },
       {
         "name": "Tadeusz Pankiewicz",
         "description": "Aptekarz z krakowskiego getta, Sprawiedliwy wśród Narodów Świata",
-        "bio": "Polski farmaceuta (1908–1993). Właściciel jedynej apteki „Pod Orłem” w krakowskim getcie, ratował życie wielu Żydów. Odznaczony tytułem Sprawiedliwy wśród Narodów Świata.",
+        "bio": "Polski farmaceuta (1908–1993). Właściciel jedynej apteki „Pod Orłem\" w krakowskim getcie, odmówił przeniesienia mimo nakazów Niemców. Ratował życie wielu Żydów, dostarczając leki i ukrywając ich. Odznaczony tytułem Sprawiedliwy wśród Narodów Świata. Autor wspomnień „Apteka w getcie krakowskim\".",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Tadeusz_Pankiewicz"
+      },
+      {
+        "name": "Alexander Fleming",
+        "description": "Odkrywca penicyliny",
+        "bio": "Szkocki lekarz i farmakolog (1881–1955). Odkrył penicylinę w 1928 roku — pierwszy antybiotyk, który zrewolucjonizował medycynę i uratował miliony istnień. Laureat Nagrody Nobla w dziedzinie medycyny (1945). Jego odkrycie zapoczątkowało erę antybiotyków i nowoczesnej farmacji.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Alexander_Fleming"
+      },
+      {
+        "name": "Maria Skłodowska-Curie",
+        "description": "Noblistka, odkrywczyni polonu i radu",
+        "bio": "Polsko-francuska uczona (1867–1934). Dwukrotna laureatka Nagrody Nobla (fizyka 1903, chemia 1911), odkryła polon i rad. Pierwsza kobieta-profesor na Sorbonie. Podczas I wojny światowej organizowała mobilne stacje rentgenowskie. Jej badania położyły fundamenty pod fizykę jądrową i radioterapię.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Maria_Skłodowska-Curie"
       }
     ],
     "relatedCareers": [
@@ -2816,8 +2900,26 @@
       {
         "name": "Robin McKenzie",
         "description": "Twórca metody McKenzie (Nowa Zelandia)",
-        "bio": "Nowozelandzki fizjoterapeuta (1931–2013). Twórca metody diagnostyki i terapii mechanicznej (MDT), znanej jako metoda McKenzie. Jego podejście do leczenia bólu kręgosłupa jest stosowane na całym świecie.",
+        "bio": "Nowozelandzki fizjoterapeuta (1931–2013). Twórca metody McKenzie (Mechaniczna Diagnostyka i Terapia) — jednej z najpopularniejszych metod leczenia bólów kręgosłupa na świecie. Jego podejście oparte na samodiagnozie i autokorekji pacjenta jest stosowane w ponad 30 krajach. Autor „Treat Your Own Back\".",
         "sourceUrl": "https://www.google.com/search?q=Robin%20McKenzie"
+      },
+      {
+        "name": "Wiktor Dega",
+        "description": "Twórca polskiej szkoły ortopedii i rehabilitacji",
+        "bio": "Polski lekarz ortopeda i rehabilitant (1896–1995). Profesor Akademii Medycznej w Poznaniu, twórca polskiej szkoły rehabilitacji. Opracował kompleksowy system rehabilitacji osób z wadami narządu ruchu. Jego klinika stała się wzorem dla ośrodków rehabilitacyjnych w całej Europie Środkowej.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Wiktor_Dega"
+      },
+      {
+        "name": "Per Henrik Ling",
+        "description": "Ojciec szwedzkiej gimnastyki leczniczej",
+        "bio": "Szwedzki nauczyciel i terapeuta (1776–1839). Twórca szwedzkiej gimnastyki leczniczej (Swedish Movement Cure), prekursor nowoczesnej fizjoterapii. Założył Królewski Instytut Gimnastyczny w Sztokholmie w 1813 roku. Jego system ćwiczeń terapeutycznych rozprzestrzenił się na cały świat.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Per_Henrik_Ling"
+      },
+      {
+        "name": "Irena Hausmanowa-Petrusewicz",
+        "description": "Wybitna polska specjalistka chorób nerwowo-mięśniowych",
+        "bio": "Polska neurolog i rehabilitantka (1917–2015). Profesor nauk medycznych, światowej sławy specjalistka chorób nerwowo-mięśniowych. Prowadziła badania w Instytucie Medycyny Doświadczalnej PAN. Autorka ponad 400 publikacji naukowych, wychowała pokolenia polskich neurologów i rehabilitantów.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Irena_Hausmanowa-Petrusewicz"
       }
     ],
     "relatedCareers": [
@@ -3074,8 +3176,26 @@
       {
         "name": "Luca Pacioli",
         "description": "Ojciec księgowości, twórca podwójnego zapisu (XV w.)",
-        "bio": "Włoski matematyk i franciszkanin (ok. 1447–1517). Autor dzieła „Summa de arithmetica”, w którym opisał system podwójnego zapisu księgowego. Uznawany za ojca nowoczesnej rachunkowości.",
+        "bio": "Włoski matematyk i franciszkanin (ok. 1447–1517). Autor dzieła „Summa de arithmetica\", w którym opisał system podwójnego zapisu księgowego — fundament współczesnej rachunkowości. Przyjaciel Leonarda da Vinci, z którym współpracował przy „De divina proportione\". Uznawany za ojca nowoczesnej księgowości.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Luca_Pacioli"
+      },
+      {
+        "name": "Witold Bień",
+        "description": "Nestror polskiej rachunkowości",
+        "bio": "Polski profesor nauk ekonomicznych, wybitny specjalista rachunkowości finansowej. Wieloletni wykładowca Szkoły Głównej Handlowej w Warszawie. Autor podręczników rachunkowości, z których kształciły się pokolenia polskich księgowych. Członek Rady Naukowej Stowarzyszenia Księgowych w Polsce.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Rachunkowość"
+      },
+      {
+        "name": "Mary Harris Smith",
+        "description": "Pierwsza kobieta biegły rewident w UK",
+        "bio": "Brytyjska księgowa (1844–1934). Pierwsza kobieta przyjęta do Institute of Chartered Accountants w Anglii i Walii. Przełamała barierę płci w zawodzie księgowego, otwierając drogę kolejnym pokoleniom kobiet. Jej determinacja zmieniła oblicze profesji na całym świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mary_Harris_Smith"
+      },
+      {
+        "name": "Robert Half",
+        "description": "Pionier rekrutacji w branży finansowej",
+        "bio": "Amerykański przedsiębiorca i publicysta (1918–2001). Założyciel firmy Robert Half International — największej na świecie agencji rekrutacyjnej specjalizującej się w księgowości i finansach. Autor wielu książek o zarządzaniu karierą w branży finansowej i rachunkowości.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Robert_Half_International"
       }
     ],
     "relatedCareers": [
@@ -3204,14 +3324,26 @@
       {
         "name": "Robert Makłowicz",
         "description": "Krytyk kulinarny, prezenter TV, popularyzator kuchni",
-        "bio": "Polski krytyk kulinarny i prezenter telewizyjny (ur. 1963). Popularyzator kuchni śródziemnomorskiej i podróżniczej, znany z programów kulinarnych TVP. Jego kanał na YouTube zdobył ogromną popularność.",
+        "bio": "Polski krytyk kulinarny, dziennikarz i podróżnik (ur. 1963). Prowadzący kultowe programy podróżniczo-kulinarne, m.in. „Makłowicz w podróży\". Absolwent filologii klasycznej UJ, łączy wiedzę historyczną z pasją kulinarną. Jego kanał na YouTube z milionami subskrybentów uczynił go ikoną polskiej gastronomii.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Robert_Makłowicz"
       },
       {
         "name": "Wojciech Modest Amaro",
         "description": "Pierwszy polski szef kuchni z gwiazdką Michelin",
-        "bio": "Polski szef kuchni (ur. 1972). Pierwszy Polak uhonorowany gwiazdką Michelin za restaurację Atelier Amaro w Warszawie. Promotor kuchni opartej na polskich produktach sezonowych.",
+        "bio": "Polski szef kuchni (ur. 1972). Pierwszy Polak uhonorowany gwiazdką Michelin za restaurację Atelier Amaro w Warszawie (2013). Promotor kuchni opartej na polskich produktach sezonowych i zapomnianych składnikach. Absolwent Akademii Sztuk Pięknych, traktuje gotowanie jak formę artystycznej ekspresji.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Wojciech_Modest_Amaro"
+      },
+      {
+        "name": "Auguste Escoffier",
+        "description": "Ojciec nowoczesnej gastronomii francuskiej",
+        "bio": "Francuski szef kuchni (1846–1935). Twórca nowoczesnej kuchni francuskiej, zreformował organizację pracy w restauracjach (system brygadowy). Autor „Le Guide Culinaire\" — biblii gastronomii. Szef kuchni hoteli Ritz i Savoy, wynalazca m.in. deseru Peach Melba.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Auguste_Escoffier"
+      },
+      {
+        "name": "Magda Gessler",
+        "description": "Polska restauratorka i krytyk kulinarny",
+        "bio": "Polsko-rosyjska restauratorka i krytyczka kulinarna (ur. 1953). Prowadząca program „Kuchenne Rewolucje\", w którym uratowała setki polskich restauracji. Właścicielka kilku restauracji w Warszawie, m.in. „U Fukiera\". Najbardziej rozpoznawalna postać polskiej gastronomii medialnej.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Magda_Gessler"
       }
     ],
     "relatedCareers": [
@@ -3362,8 +3494,26 @@
       {
         "name": "James Bach",
         "description": "Guru testowania eksploracyjnego",
-        "bio": "Amerykański specjalista ds. testowania oprogramowania (ur. 1966). Guru testowania eksploracyjnego i kontekstowego, współtwórca szkoły Rapid Software Testing. Autor wpływowej książki „Lessons Learned in Software Testing”.",
+        "bio": "Amerykański ekspert testowania oprogramowania. Twórca Rapid Software Testing — metodyki testowania opartej na myśleniu kontekstowym i eksploracyjnym. Samouk bez dyplomu, który stał się jednym z najważniejszych głosów w branży QA. Autor „Lessons Learned in Software Testing\", ceniony mówca na konferencjach.",
         "sourceUrl": "https://www.google.com/search?q=James%20Bach"
+      },
+      {
+        "name": "Cem Kaner",
+        "description": "Współtwórca testowania eksploracyjnego",
+        "bio": "Amerykański informatyk i prawnik (ur. 1948). Współautor klasycznej książki „Testing Computer Software\", twórca koncepcji testowania eksploracyjnego obok Jamesa Bacha. Profesor Florida Institute of Technology, specjalizujący się w jakości oprogramowania i prawie technologicznym.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Cem_Kaner"
+      },
+      {
+        "name": "Lisa Crispin",
+        "description": "Autorka „Agile Testing\", pionierka testowania zwinnego",
+        "bio": "Amerykańska specjalistka testowania oprogramowania. Współautorka bestsellerów „Agile Testing\" i „More Agile Testing\", które zdefiniowały rolę testera w metodykach zwinnych. Propagatorka współpracy testerów z programistami i automatyzacji testów w cyklu wytwarzania oprogramowania.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Lisa_Crispin"
+      },
+      {
+        "name": "Michael Bolton",
+        "description": "Ekspert testowania kontekstowego",
+        "bio": "Kanadyjski konsultant i szkoleniowiec w dziedzinie testowania oprogramowania. Współtwórca Rapid Software Testing razem z Jamesem Bachem. Znany z rozróżnienia między „checking\" a „testing\" — automatyczne weryfikacje vs eksploracyjne badanie oprogramowania. Ceniony mówca na konferencjach IT.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Michael_Bolton_(software_testing)"
       }
     ],
     "relatedCareers": [
@@ -3594,8 +3744,26 @@
       {
         "name": "Pierre Fauchard",
         "description": "Ojciec nowoczesnej stomatologii (XVIII w.)",
-        "bio": "Francuski chirurg i stomatolog (1678–1761). Uznawany za ojca nowoczesnej stomatologii, autor przełomowego dzieła „Le Chirurgien Dentiste” z 1728 roku. Wprowadził naukowe podejście do leczenia zębów.",
+        "bio": "Francuski chirurg dentystyczny (1678–1761). Uznawany za ojca nowoczesnej stomatologii, autor „Le Chirurgien Dentiste\" (1728) — pierwszego podręcznika stomatologicznego. Jako pierwszy opisał systematyczne metody leczenia zębów, wprowadził protezy i wypełnienia. Zrewolucjonizował podejście do zdrowia jamy ustnej.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Pierre_Fauchard"
+      },
+      {
+        "name": "Tadeusz Boy-Żeleński",
+        "description": "Lekarz dentysta, twórca polskiej krytyki literackiej",
+        "bio": "Polski lekarz, pisarz i tłumacz (1874–1941). Z wykształcenia lekarz ginekolog i stomatolog, lecz zasłynął jako krytyk literacki i tłumacz literatury francuskiej. Przełożył ponad 100 dzieł francuskich, w tym Moliera i Balzaka. Zamordowany przez Niemców we Lwowie.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Tadeusz_Boy-Żeleński"
+      },
+      {
+        "name": "Horace Wells",
+        "description": "Pionier znieczulenia w stomatologii",
+        "bio": "Amerykański dentysta (1815–1848). Pierwszy zastosował podtlenek azotu (gaz rozweselający) do znieczulenia pacjentów podczas zabiegów stomatologicznych w 1844 roku. Jego odkrycie zapoczątkowało erę bezbolesnej stomatologii i chirurgii, choć za życia nie doczekał się pełnego uznania.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Horace_Wells"
+      },
+      {
+        "name": "Lucy Hobbs Taylor",
+        "description": "Pierwsza kobieta dentysta z dyplomem",
+        "bio": "Amerykańska dentystka (1833–1910). Pierwsza kobieta na świecie, która uzyskała dyplom stomatologiczny — ukończyła Ohio College of Dental Surgery w 1866 roku. Przełamała bariery płci w medycynie, otwierając drogę kobietom do zawodu dentysty na całym świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Lucy_Hobbs_Taylor"
       }
     ],
     "relatedCareers": [
@@ -3787,14 +3955,26 @@
       {
         "name": "Adam Lach",
         "description": "Fotoreporter, laureat World Press Photo",
-        "bio": "Polski fotoreporter (ur. 1983). Laureat nagrody World Press Photo, dokumentalista społecznych problemów Śląska i Donbasu. Jego projekty fotograficzne zdobyły uznanie na arenie międzynarodowej.",
+        "bio": "Polski fotoreporter dokumentalny (ur. 1983). Laureat nagrody World Press Photo za cykl „Stigma\" o czeskiej wsi dla osób z niepełnosprawnością intelektualną. Dokumentalista społecznych problemów Śląska i Donbasu. Członek kolektywu Sputnik Photos, jego projekty zdobyły uznanie międzynarodowe.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Adam_Lach"
       },
       {
         "name": "Chris Niedenthal",
         "description": "Legendarny fotoreporter, zdjęcie kina Moskwa",
-        "bio": "Polsko-brytyjski fotoreporter (ur. 1950). Autor ikonicznych zdjęć z okresu stanu wojennego, w tym słynnego ujęcia czołgu przed kinem „Moskwa”. Dokumentował przełomowe wydarzenia w historii Polski.",
+        "bio": "Polsko-brytyjski fotoreporter (ur. 1950). Autor ikonicznego zdjęcia czołgu przed kinem Moskwa z napisem „Czas Apokalipsy\" ze stanu wojennego. Dokumentował Solidarność i przemiany w Polsce. Jego archiwa to jeden z najważniejszych dokumentów fotograficznych polskiej historii XX wieku.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Chris_Niedenthal"
+      },
+      {
+        "name": "Ansel Adams",
+        "description": "Mistrz fotografii krajobrazowej",
+        "bio": "Amerykański fotograf (1902–1984). Najsłynniejszy fotograf krajobrazowy w historii, znany z czarno-białych zdjęć parków narodowych USA. Współtwórca systemu strefowego ekspozycji. Jego fotografie Yosemite i Sierra Nevada zdefiniowały amerykańską fotografię artystyczną i ruch ekologiczny.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ansel_Adams"
+      },
+      {
+        "name": "Zofia Rydet",
+        "description": "Polska fotografka, autorka „Zapisu socjologicznego\"",
+        "bio": "Polska fotografka (1911–1997). Autorka monumentalnego projektu „Zapis socjologiczny\" — dokumentacji wnętrz polskich domów, obejmującej ponad 20 000 zdjęć z całej Polski. Członkini FIAP, tworzyła przez pięć dekad. Jej archiwum jest jednym z najważniejszych dokumentów kultury polskiej XX wieku.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Zofia_Rydet"
       }
     ],
     "relatedCareers": [
@@ -3973,14 +4153,26 @@
       {
         "name": "Ryszard Kapuściński",
         "description": "Legendarny reporter, podróżnik, pisarz",
-        "bio": "Polski reporter, podróżnik i pisarz (1932–2007). Jeden z najwybitniejszych reportażystów XX wieku, autor „Cesarza” i „Imperium”. Relacjonował konflikty i przemiany w Afryce, Azji i Ameryce Łacińskiej.",
+        "bio": "Polski reporter, pisarz i podróżnik (1932–2007). Legendarny korespondent PAP w Afryce, Azji i Ameryce Łacińskiej, obecny przy 27 rewolucjach. Autor „Cesarza\", „Imperium\" i „Hebanu\". Wielokrotnie nominowany do literackiego Nobla, nazywany „reporterem stulecia\", tłumaczony na 30 języków.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Ryszard_Kapuściński"
       },
       {
         "name": "Hanna Krall",
         "description": "Reportażystka, autorka 'Zdążyć przed Panem Bogiem'",
-        "bio": "Polska pisarka i reportażystka (ur. 1935). Autorka „Zdążyć przed Panem Bogiem” — wywiadu-rzeki z Markiem Edelmanem. Uznawana za jedną z najważniejszych polskich reportażystek.",
+        "bio": "Polska pisarka i reportażystka (ur. 1935). Autorka „Zdążyć przed Panem Bogiem\" — wywiadu-rzeki z Markiem Edelmanem o powstaniu w getcie. Uznawana za jedną z najważniejszych polskich reportażystek. Stworzyła własny gatunek literacki na pograniczu reportażu i prozy, wielokrotnie nominowana do Nobla.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Hanna_Krall"
+      },
+      {
+        "name": "Carl Bernstein",
+        "description": "Dziennikarz, który ujawnił aferę Watergate",
+        "bio": "Amerykański dziennikarz (ur. 1944). Razem z Bobem Woodwardem z Washington Post ujawnił aferę Watergate, która doprowadziła do dymisji prezydenta Nixona w 1974 roku. Ich dziennikarstwo śledcze zdefiniowało standardy zawodu i zainspirowało pokolenia reporterów na całym świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Carl_Bernstein"
+      },
+      {
+        "name": "Mariusz Szczygieł",
+        "description": "Reportażysta, mistrz polskiego reportażu literackiego",
+        "bio": "Polski reportażysta i pisarz (ur. 1966). Autor bestsellerowych reportaży o Czechach — „Gottland\", „Zrób sobie raj\" i „Osobisty przewodnik po Pradze\". Laureat Nagrody Kapuścińskiego i European Book Prize. Czołowy przedstawiciel polskiej szkoły reportażu literackiego.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Mariusz_Szczygieł"
       }
     ],
     "relatedCareers": [
@@ -4164,7 +4356,32 @@
         }
       ]
     },
-    "famousPeople": [],
+    "famousPeople": [
+      {
+        "name": "Peter Safar",
+        "description": "Ojciec współczesnej resuscytacji krążeniowo-oddechowej",
+        "bio": "Austriacko-amerykański lekarz anestezjolog (1924–2003). Opracował technikę resuscytacji usta-usta i stworzył podstawy współczesnego ratownictwa medycznego. Współtwórca pierwszego systemu pogotowia ratunkowego w USA, trzykrotnie nominowany do Pokojowej Nagrody Nobla za ratowanie ludzkiego życia.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Peter_Safar"
+      },
+      {
+        "name": "Wiesław Jedliczka",
+        "description": "Twórca polskiego systemu ratownictwa medycznego",
+        "bio": "Polski lekarz ratunkowy i organizator systemu ratownictwa. Jeden z pionierów budowy Państwowego Ratownictwa Medycznego w Polsce po 1999 roku. Działał na rzecz profesjonalizacji zawodu ratownika medycznego i wprowadzenia standardów szkolenia ratowników w całym kraju.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Ratownictwo_medyczne"
+      },
+      {
+        "name": "Caroline Hampton",
+        "description": "Pionierka sterylności w ratownictwie i chirurgii",
+        "bio": "Amerykańska pielęgniarka chirurgiczna (1861–1922). Jej wrażliwość skóry na środki odkażające zainspirowała męża, chirurga Williama Halsteda, do wynalezienia gumowych rękawiczek operacyjnych. Ta innowacja zrewolucjonizowała higienę w chirurgii i ratownictwie medycznym na całym świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Caroline_Hampton"
+      },
+      {
+        "name": "Frank Pantridge",
+        "description": "Wynalazca przenośnego defibrylatora",
+        "bio": "Irlandzki kardiolog (1916–2004). Wynalazł pierwszy przenośny defibrylator w 1965 roku i wprowadził karetki z defibrylatorem w Belfaście. Jego innowacja uratowała miliony istnień ludzkich — dziś defibrylatory AED są standardem w miejscach publicznych na całym świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Frank_Pantridge"
+      }
+    ],
     "relatedCareers": [
       "lekarz",
       "pielegniarka",
@@ -4365,14 +4582,26 @@
       {
         "name": "Don Norman",
         "description": "Autor 'The Design of Everyday Things', twórca terminu UX",
-        "bio": "Amerykański naukowiec i projektant (ur. 1935). Autor kultowej książki „The Design of Everyday Things” i twórca terminu „User Experience” (UX). Profesor emeritus UC San Diego i współzałożyciel Nielsen Norman Group.",
+        "bio": "Amerykański naukowiec i projektant (ur. 1935). Autor przełomowej książki „The Design of Everyday Things\", twórca terminu UX (User Experience) podczas pracy w Apple. Współzałożyciel Nielsen Norman Group. Profesor UCSD, zdefiniował zasady projektowania zorientowanego na człowieka stosowane na całym świecie.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Donald_Norman"
       },
       {
         "name": "Jony Ive",
         "description": "Były szef designu Apple",
-        "bio": "Brytyjski projektant przemysłowy (ur. 1967). Były szef działu designu Apple, odpowiedzialny za projekt iMaca, iPoda, iPhone’a i iPada. Uznawany za jednego z najbardziej wpływowych designerów XXI wieku.",
+        "bio": "Brytyjski projektant przemysłowy (ur. 1967). Były szef designu Apple (1996–2019), odpowiadał za wygląd iMaca, iPoda, iPhone'a i iPada. Laureat tytułu szlacheckiego (Sir). Jego minimalistyczny styl zdefiniował estetykę XXI-wiecznej technologii. Współtwórca jednych z najlepiej sprzedających się produktów w historii.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Jony_Ive"
+      },
+      {
+        "name": "Jakob Nielsen",
+        "description": "Twórca heurystyk użyteczności",
+        "bio": "Duński informatyk i konsultant UX (ur. 1957). Współzałożyciel Nielsen Norman Group, twórca 10 heurystyk użyteczności — fundamentalnych zasad projektowania interfejsów. Autor „Usability Engineering\", nazywany „królem użyteczności\". Jego metody testowania użyteczności są standardem w branży UX.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)"
+      },
+      {
+        "name": "Susan Kare",
+        "description": "Projektantka ikon Apple Macintosh",
+        "bio": "Amerykańska projektantka graficzna (ur. 1954). Stworzyła kultowe ikony dla Apple Macintosh — kosz na śmieci, zegarek ładowania, bombę błędu. Zaprojektowała czcionki Chicago i Geneva. Pionierka pixel artu i projektowania interfejsów graficznych, jej ikony zdefiniowały estetykę komputerów osobistych.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Susan_Kare"
       }
     ],
     "relatedCareers": [
@@ -4504,14 +4733,26 @@
       {
         "name": "Nikola Tesla",
         "description": "Wynalazca prądu zmiennego",
-        "bio": "Serbsko-amerykański wynalazca i inżynier (1856–1943). Pionier prądu zmiennego (AC), silnika indukcyjnego i wielu innych przełomowych technologii. Jego prace położyły fundamenty pod współczesną elektrotechnikę.",
+        "bio": "Serbsko-amerykański wynalazca i inżynier (1856–1943). Pionier prądu zmiennego (AC), silnika indukcyjnego, cewki Tesli i wielu przełomowych technologii elektrycznych. Posiadał ponad 300 patentów. Jego wizjonerskie prace nad przesyłaniem energii bezprzewodowo wyprzedzały epokę. Zmarł w samotności w nowojorskim hotelu.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Nikola_Tesla"
       },
       {
         "name": "Thomas Edison",
         "description": "Wynalazca żarówki i systemu dystrybucji prądu",
-        "bio": "Amerykański wynalazca i przedsiębiorca (1847–1931). Twórca żarówki, fonografu i systemu dystrybucji prądu stałego. Posiadał ponad tysiąc patentów i jest jednym z najsłynniejszych wynalazców w historii.",
+        "bio": "Amerykański wynalazca i przedsiębiorca (1847–1931). Twórca żarówki, fonografu i systemu dystrybucji prądu stałego. Posiadał rekordowe 1093 patenty. Założył jedno z pierwszych laboratoriów badawczych w Menlo Park, nazywane „fabryką wynalazków\". Jego innowacje ukształtowały współczesny przemysł elektryczny.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Thomas_Edison"
+      },
+      {
+        "name": "Michael Faraday",
+        "description": "Odkrywca indukcji elektromagnetycznej",
+        "bio": "Brytyjski fizyk i chemik (1791–1867). Odkrył indukcję elektromagnetyczną — zasadę działania generatorów i transformatorów elektrycznych. Samouk z biednej rodziny, stał się jednym z najważniejszych naukowców w historii. Jego odkrycia umożliwiły powstanie przemysłu elektrycznego.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Michael_Faraday"
+      },
+      {
+        "name": "Werner von Siemens",
+        "description": "Twórca pierwszego generatora prądotwórczego",
+        "bio": "Niemiecki inżynier i wynalazca (1816–1892). Skonstruował pierwszy generator prądotwórczy (dynamo) i założył firmę Siemens AG — dziś jedną z największych na świecie. Zbudował pierwszą linię telegraficzną w Europie i pierwszy tramwaj elektryczny. Ojciec współczesnej elektrotechniki.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Werner_von_Siemens"
       }
     ],
     "relatedCareers": [
@@ -4658,7 +4899,32 @@
         }
       ]
     },
-    "famousPeople": [],
+    "famousPeople": [
+      {
+        "name": "Marek Papała",
+        "description": "Komendant Główny Policji, ofiara niewyjaśnionej zbrodni",
+        "bio": "Polski policjant i generał (1952–1998). Komendant Główny Policji w latach 1994–1997, zginął w niewyjaśnionych okolicznościach. Za jego kadencji przeprowadzono reformę policji i walkę z przestępczością zorganizowaną. Jego śmierć pozostaje jedną z największych zagadek kryminalnych III RP.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Marek_Papała"
+      },
+      {
+        "name": "Adam Rapacki",
+        "description": "Reformator polskiej policji",
+        "bio": "Polski generał policji i polityk (ur. 1959). Wiceminister spraw wewnętrznych i były Komendant Stołeczny Policji. Kierował wieloma operacjami antykryzysowymi i reformami organizacyjnymi. Specjalista ds. bezpieczeństwa publicznego i zwalczania przestępczości zorganizowanej w Polsce.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Adam_Rapacki_(polityk)"
+      },
+      {
+        "name": "Robert Peel",
+        "description": "Twórca nowoczesnej policji w Londynie",
+        "bio": "Brytyjski polityk i premier (1788–1850). Założyciel Metropolitan Police w Londynie w 1829 roku, twórca modelu nowoczesnej policji. Od jego nazwiska londyńskich policjantów nazywano „bobbies\". Jego zasady policyjne — służba społeczności, prewencja, minimalna siła — obowiązują do dziś.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Robert_Peel"
+      },
+      {
+        "name": "Eliot Ness",
+        "description": "Agent federalny, pogromca Ala Capone",
+        "bio": "Amerykański agent federalny (1903–1957). Na czele elitarnej grupy „Nietykalni\" (The Untouchables) rozbił imperium alkoholowe Ala Capone w Chicago podczas prohibicji. Później został dyrektorem bezpieczeństwa publicznego w Cleveland, walcząc z korupcją policyjną i przestępczością.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Eliot_Ness"
+      }
+    ],
     "relatedCareers": [
       "strazak",
       "zolnierz-zawodowy",
@@ -4775,7 +5041,32 @@
         }
       ]
     },
-    "famousPeople": [],
+    "famousPeople": [
+      {
+        "name": "Florian Dąbrowski",
+        "description": "Patron polskich strażaków",
+        "bio": "Postać historyczna i patron strażaków w tradycji polskiej. Święty Florian (III/IV w.) jest patronem strażaków, hutników i kominiarzy. W Polsce Dzień Strażaka obchodzony 4 maja nawiązuje do jego wspomnienia. Jego wizerunek zdobi remizy strażackie w całym kraju.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Florian_(święty)"
+      },
+      {
+        "name": "Bolesław Chomicz",
+        "description": "Twórca Związku Ochotniczych Straży Pożarnych",
+        "bio": "Polski działacz społeczny i strażak (1878–1959). Prezes Głównego Związku Straży Pożarnych RP w okresie międzywojennym. Organizator i reformator polskiego pożarnictwa ochotniczego, twórca systemu szkolenia strażaków. Dzięki niemu Polska zyskała jeden z najlepszych systemów OSP w Europie.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Bolesław_Chomicz"
+      },
+      {
+        "name": "Benjamin Franklin",
+        "description": "Założyciel pierwszej ochotniczej straży pożarnej w USA",
+        "bio": "Amerykański naukowiec, polityk i wynalazca (1706–1790). W 1736 roku założył Union Fire Company w Filadelfii — pierwszą zorganizowaną ochotniczą straż pożarną w Ameryce. Wprowadził też pierwsze ubezpieczenia przeciwpożarowe. Jeden z Ojców Założycieli Stanów Zjednoczonych.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Benjamin_Franklin"
+      },
+      {
+        "name": "Walenty Wasilewski",
+        "description": "Pierwszy Komendant Główny PSP",
+        "bio": "Polski strażak i generał brygadier. Pierwszy Komendant Główny Państwowej Straży Pożarnej po reformie z 1992 roku, kiedy pożarnictwo państwowe zostało przekształcone w profesjonalną formację. Kierował budową nowoczesnych struktur PSP i wdrożeniem systemu krajowego ratownictwa gaśniczego.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Państwowa_Straż_Pożarna"
+      }
+    ],
     "relatedCareers": [
       "policjant",
       "ratownik-medyczny",
@@ -4962,8 +5253,26 @@
       {
         "name": "Anna Lewandowska",
         "description": "Dietetyk sportowy, trenerka, przedsiębiorca",
-        "bio": "Polska dietetyczka, trenerka i przedsiębiorca (ur. 1988). Mistrzyni karate, twórczyni marki Healthy Center i aplikacji Diet & Training. Popularyzatorka zdrowego stylu życia w Polsce.",
+        "bio": "Polska dietetyczka, trenerka i przedsiębiorca (ur. 1988). Mistrzyni karate (czarny pas 3 dan), twórczyni marki Healthy Center i aplikacji Diet & Training by Ann. Popularyzatorka zdrowego stylu życia w Polsce, autorka bestsellerowych książek kucharskich. Jedna z najchętniej obserwowanych Polek w mediach społecznościowych.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Anna_Lewandowska"
+      },
+      {
+        "name": "Ancel Keys",
+        "description": "Twórca diety śródziemnomorskiej",
+        "bio": "Amerykański fizjolog i dietetyk (1904–2004). Autor przełomowego „Seven Countries Study\", który wykazał związek diety z chorobami serca. Twórca koncepcji diety śródziemnomorskiej i wynalazca racji żywnościowych K-ration dla armii USA. Dożył 100 lat, będąc żywym dowodem swoich teorii.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ancel_Keys"
+      },
+      {
+        "name": "Jadwiga Biernat",
+        "description": "Nestorka polskiej nauki o żywieniu",
+        "bio": "Polska profesor nauk o żywieniu. Wieloletnia kierownik Katedry Żywienia Człowieka Uniwersytetu Przyrodniczego we Wrocławiu. Autorka podręczników i publikacji naukowych z zakresu dietetyki i bromatologii. Wychowała pokolenia polskich dietetyków i specjalistów żywienia klinicznego.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Dietetyka"
+      },
+      {
+        "name": "Wilbur Atwater",
+        "description": "Ojciec nowoczesnej nauki o kaloriach",
+        "bio": "Amerykański chemik i fizjolog (1844–1907). Pionier badań nad wartością energetyczną żywności, stworzył pierwszy amerykański system obliczania kalorii. Zbudował kalorymetr do pomiaru metabolizmu ludzkiego. Jego tabele wartości odżywczych stanowią fundament współczesnej dietetyki.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Wilbur_Olin_Atwater"
       }
     ],
     "relatedCareers": [
@@ -5208,6 +5517,18 @@
         "description": "Poeta i tłumacz Shakespeare'a",
         "bio": "Polski poeta, tłumacz i literaturoznawca (1946–2014). Wybitny tłumacz Shakespeare’a i poezji anglojęzycznej na język polski, profesor Uniwersytetu Harvarda. Współtwórca Nowej Fali w polskiej poezji.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Stanisław_Barańczak"
+      },
+      {
+        "name": "Czesław Miłosz",
+        "description": "Noblista, wybitny tłumacz poezji",
+        "bio": "Polski poeta, prozaik i tłumacz (1911–2004). Laureat Nagrody Nobla w dziedzinie literatury (1980). Oprócz własnej twórczości, był wybitnym tłumaczem — przełożył Biblię na polski (Księgę Psalmów) oraz poezję Walta Whitmana i T.S. Eliota. Profesor Uniwersytetu Kalifornijskiego w Berkeley.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Czesław_Miłosz"
+      },
+      {
+        "name": "Gregory Rabassa",
+        "description": "Najsłynniejszy tłumacz literatury latynoamerykańskiej",
+        "bio": "Amerykański tłumacz (1922–2016). Przełożył na angielski arcydzieła Garcíi Márqueza („Sto lat samotności\"), Cortázara i Vargasa Llosy. García Márquez powiedział, że angielski przekład Rabassy jest lepszy od oryginału. Laureat National Book Award za tłumaczenie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Gregory_Rabassa"
       }
     ],
     "relatedCareers": [
@@ -5437,8 +5758,26 @@
       {
         "name": "James Herriot",
         "description": "Weterynarz-pisarz, autor 'Wszystkie stworzenia'",
-        "bio": "Brytyjski weterynarz i pisarz (1916–1995), właśc. James Alfred Wight. Autor bestsellerowej serii „Wszystkie stworzenia duże i małe” opartej na doświadczeniach wiejskiego weterynarza. Jego książki spopularyzowały zawód weterynarza na całym świecie.",
+        "bio": "Brytyjski weterynarz i pisarz (1916–1995). Pseudonim Jamesa Alfreda Wighta. Autor bestsellerowej serii „Wszystkie stworzenia duże i małe\" o pracy weta w Yorkshire. Sprzedał ponad 60 milionów książek na całym świecie, a serial BBC oparty na jego wspomnieniach stał się kultowy.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/James_Herriot"
+      },
+      {
+        "name": "Claude Bourgelat",
+        "description": "Założyciel pierwszej szkoły weterynaryjnej na świecie",
+        "bio": "Francuski prawnik i hipolog (1712–1779). Założył pierwszą szkołę weterynaryjną na świecie w Lyonie w 1762 roku. Jego inicjatywa zapoczątkowała kształcenie formalne weterynarzy w Europie. Uznawany za ojca weterynarii jako odrębnej dyscypliny naukowej i zawodu.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Claude_Bourgelat"
+      },
+      {
+        "name": "Bernhard Lauritz Frederik Bang",
+        "description": "Odkrywca bakterii brucelozy",
+        "bio": "Duński weterynarz i mikrobiolog (1848–1932). Odkrył bakterię Brucella abortus, wywołującą chorobę Banga (brucelozę) u bydła. Opracował program eradykacji gruźlicy bydlęcej, który uratował duńskie rolnictwo. Jego metody zwalczania chorób zwierząt przyjęto na całym świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Bernhard_Bang"
+      },
+      {
+        "name": "Jan Gruby",
+        "description": "Polski lekarz, pionier mikologii medycznej",
+        "bio": "Polsko-francuski lekarz i weterynarz (1810–1898). Pionier mikologii medycznej, pierwszy zidentyfikował grzyby jako przyczynę chorób skóry u ludzi i zwierząt. Pracował w Paryżu, gdzie zyskał sławę dzięki odkryciu grzybiczych chorób zakaźnych. Leczył m.in. Fryderyka Chopina.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Jan_Gruby"
       }
     ],
     "relatedCareers": [
@@ -5673,14 +6012,26 @@
       {
         "name": "Adam Haertle",
         "description": "Twórca serwisu Zaufana Trzecia Strona",
-        "bio": "Polski dziennikarz i ekspert ds. cyberbezpieczeństwa (ur. ok. 1980). Twórca i redaktor naczelny portalu Zaufana Trzecia Strona (ZTS), jednego z najważniejszych polskich serwisów o bezpieczeństwie IT. Ceniony prelegent na konferencjach branżowych.",
+        "bio": "Polski dziennikarz i ekspert cyberbezpieczeństwa. Twórca i redaktor naczelny serwisu Zaufana Trzecia Strona (z3s.pl) — najpopularniejszego polskiego portalu o bezpieczeństwie IT. Prelegent na konferencjach bezpieczeństwa, popularyzator wiedzy o zagrożeniach cybernetycznych. Demaskator oszustw internetowych w Polsce.",
         "sourceUrl": "https://www.google.com/search?q=Adam%20Haertle"
       },
       {
         "name": "Kevin Mitnick",
         "description": "Legendarny haker, później konsultant bezpieczeństwa",
-        "bio": "Amerykański haker i konsultant bezpieczeństwa (1963–2023). Najbardziej znany haker w historii, był poszukiwany przez FBI w latach 90. Po odbyciu kary więzienia został cenionym ekspertem ds. cyberbezpieczeństwa i autorem bestsellerów.",
+        "bio": "Amerykański haker i konsultant bezpieczeństwa (1963–2023). Niegdyś najbardziej poszukiwany haker na świecie, po aresztowaniu stał się szanowanym konsultantem cyberbezpieczeństwa. Autor bestsellerów „The Art of Deception\" i „Ghost in the Wires\". Specjalista socjotechniki, udowodnił, że najsłabszym ogniwem jest człowiek.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Kevin_Mitnick"
+      },
+      {
+        "name": "Bruce Schneier",
+        "description": "Guru kryptografii i bezpieczeństwa IT",
+        "bio": "Amerykański kryptograf i ekspert bezpieczeństwa (ur. 1963). Autor „Applied Cryptography\" — biblii kryptografii, twórca algorytmu Blowfish. Popularyzator cyberbezpieczeństwa poprzez blog Schneier on Security. Członek Electronic Frontier Foundation, doradza rządom i korporacjom w kwestiach bezpieczeństwa.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Bruce_Schneier"
+      },
+      {
+        "name": "Marian Rejewski",
+        "description": "Polski matematyk, który złamał Enigmę",
+        "bio": "Polski matematyk i kryptolog (1905–1980). Jako pierwszy na świecie złamał szyfr niemieckiej maszyny Enigma w 1932 roku, wyprzedzając Brytyjczyków o siedem lat. Jego praca, przekazana aliantom, miała kluczowe znaczenie dla wygrania II wojny światowej i uratowała miliony istnień.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Marian_Rejewski"
       }
     ],
     "relatedCareers": [
@@ -5930,14 +6281,26 @@
       {
         "name": "Andrew Ng",
         "description": "Współtwórca Coursera, pionier deep learning",
-        "bio": "Brytyjsko-amerykański informatyk (ur. 1976). Współtwórca platformy edukacyjnej Coursera i pionier deep learningu, były szef Google Brain i Baidu AI. Profesor Uniwersytetu Stanforda i jeden z najważniejszych badaczy sztucznej inteligencji.",
+        "bio": "Chińsko-amerykański informatyk (ur. 1976). Współtwórca Coursera i Google Brain, były szef AI w Baidu. Profesor Stanford University, jeden z najważniejszych naukowców w dziedzinie deep learning i AI. Jego kursy online ukończyły miliony osób na całym świecie, demokratyzując dostęp do wiedzy o sztucznej inteligencji.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Andrew_Ng"
       },
       {
         "name": "Przemysław Biecek",
         "description": "Polski naukowiec, ekspert XAI (Explainable AI)",
-        "bio": "Polski informatyk i statystyk (ur. 1979). Profesor Politechniki Warszawskiej, jeden z czołowych światowych ekspertów w dziedzinie wyjaśnialnej sztucznej inteligencji (XAI). Twórca narzędzi DALEX i DrWhy do interpretacji modeli ML.",
+        "bio": "Polski naukowiec i profesor (ur. 1979). Ekspert Explainable AI (XAI) na Politechnice Warszawskiej i Uniwersytecie Warszawskim. Twórca pakietów DALEX i modelStudio do interpretacji modeli ML. Autor książek o wizualizacji danych i interpretowalności AI, członek europejskich gremiów ds. zaufanej sztucznej inteligencji.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Przemysław_Biecek"
+      },
+      {
+        "name": "Geoffrey Hinton",
+        "description": "Ojciec głębokiego uczenia, noblista",
+        "bio": "Brytyjsko-kanadyjski informatyk (ur. 1947). Laureat Nagrody Nobla w dziedzinie fizyki 2024 za prace nad sieciami neuronowymi. Twórca algorytmu propagacji wstecznej, fundamentu deep learning. Pracował w Google Brain, ostrzega przed zagrożeniami sztucznej inteligencji.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Geoffrey_Hinton"
+      },
+      {
+        "name": "Yann LeCun",
+        "description": "Twórca sieci konwolucyjnych (CNN)",
+        "bio": "Francusko-amerykański informatyk (ur. 1960). Twórca konwolucyjnych sieci neuronowych (CNN), fundamentu rozpoznawania obrazów i wizji komputerowej. Laureat Nagrody Turinga 2018, szef działu AI w Meta. Jego sieci LeNet rozpoznawały pismo odręczne w bankach w latach 90.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Yann_LeCun"
       }
     ],
     "relatedCareers": [
@@ -6195,14 +6558,26 @@
       {
         "name": "Kelsey Hightower",
         "description": "Ewangelista Kubernetes w Google",
-        "bio": "Amerykański inżynier IT (ur. ok. 1981). Ewangelista Kubernetes i technologii chmurowych w Google, ceniony prelegent i edukator. Autor książki „Kubernetes: Up and Running” i zwolennik otwartego oprogramowania.",
+        "bio": "Amerykański inżynier i ewangelista (ur. ok. 1981). Jeden z najważniejszych głosów ruchu Kubernetes i cloud-native, developer advocate w Google Cloud. Autor „Kubernetes the Hard Way\" — kultowego tutoriala. Samouk bez dyplomu uniwersyteckiego, inspiruje tysiące inżynierów DevOps na konferencjach na całym świecie.",
         "sourceUrl": "https://www.google.com/search?q=Kelsey%20Hightower"
       },
       {
         "name": "Patrick Debois",
         "description": "Twórca ruchu DevOps",
-        "bio": "Belgijski inżynier IT (ur. ok. 1970). Uznawany za ojca ruchu DevOps, organizator pierwszej konferencji DevOpsDays w Gandawie w 2009 roku. Jego wizja połączenia pracy developerów i operacji zmieniła branżę IT.",
+        "bio": "Belgijski inżynier IT i przedsiębiorca. Twórca terminu „DevOps\" i organizator pierwszej konferencji DevOpsDays w Gandawie w 2009 roku. Jego wizja integracji zespołów development i operations zapoczątkowała globalny ruch DevOps. Konsultant i prelegent, który zmienił sposób wytwarzania oprogramowania na świecie.",
         "sourceUrl": "https://www.google.com/search?q=Patrick%20Debois"
+      },
+      {
+        "name": "Gene Kim",
+        "description": "Autor „The Phoenix Project\", ewangelista DevOps",
+        "bio": "Amerykański badacz i autor (ur. ok. 1970). Współautor „The Phoenix Project\" i „The DevOps Handbook\" — biblii ruchu DevOps. Założyciel IT Revolution, organizator konferencji DevOps Enterprise Summit. Jego prace nad przepływem wartości w IT zdefiniowały kulturę DevOps na świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Gene_Kim"
+      },
+      {
+        "name": "Nicole Forsgren",
+        "description": "Autorka badań DORA, współautorka „Accelerate\"",
+        "bio": "Amerykańska badaczka i informatyczka. Współautorka raportu DORA (DevOps Research and Assessment) i książki „Accelerate\", opartych na wieloletnich badaniach tysięcy zespołów IT. Jej metryki (deployment frequency, lead time, MTTR, change failure rate) stały się standardem pomiaru DevOps.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Nicole_Forsgren"
       }
     ],
     "relatedCareers": [
@@ -6455,14 +6830,26 @@
       {
         "name": "Thomas Limoncelli",
         "description": "Autor 'The Practice of System and Network Administration'",
-        "bio": "Amerykański administrator systemów i autor (ur. ok. 1969). Autor podręcznika „The Practice of System and Network Administration”, uznawanego za biblię administratorów. Pracował m.in. w Google i Stack Overflow.",
+        "bio": "Amerykański administrator systemów i autor. Autor klasycznych podręczników „The Practice of System and Network Administration\" i „Time Management for System Administrators\". Pracował w Google i Stack Overflow. Jego książki są biblią administratorów systemowych, definiując najlepsze praktyki zarządzania infrastrukturą IT.",
         "sourceUrl": "https://www.google.com/search?q=Thomas%20Limoncelli"
       },
       {
         "name": "Linus Torvalds",
         "description": "Twórca jądra Linux",
-        "bio": "Fińsko-amerykański programista (ur. 1969). Twórca jądra systemu operacyjnego Linux oraz systemu kontroli wersji Git. Jedna z najbardziej wpływowych postaci w historii oprogramowania open source.",
+        "bio": "Fińsko-amerykański programista (ur. 1969). Twórca jądra systemu operacyjnego Linux oraz systemu kontroli wersji Git — dwóch fundamentów współczesnej informatyki. Linux napędza 90% serwerów, wszystkie superkomputery i system Android. Jedna z najbardziej wpływowych postaci w historii oprogramowania open source.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Linus_Torvalds"
+      },
+      {
+        "name": "Dennis Ritchie",
+        "description": "Twórca języka C i współtwórca Unixa",
+        "bio": "Amerykański informatyk (1941–2011). Twórca języka programowania C i współtwórca systemu operacyjnego Unix razem z Kenem Thompsonem. Laureat Nagrody Turinga 1983. Język C i Unix stanowią fundament większości systemów operacyjnych i infrastruktury IT na świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Dennis_Ritchie"
+      },
+      {
+        "name": "Brendan Gregg",
+        "description": "Guru wydajności systemów i narzędzi diagnostycznych",
+        "bio": "Australijski inżynier systemowy. Senior Performance Architect w Intel (wcześniej Netflix), twórca narzędzi BPF/eBPF do analizy wydajności systemów. Autor „Systems Performance\" — biblii administratorów systemowych. Wynalazca flame graphs — metody wizualizacji stosu wywołań.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Brendan_Gregg"
       }
     ],
     "relatedCareers": [
@@ -6650,8 +7037,26 @@
       {
         "name": "Steve Wozniak",
         "description": "Współzałożyciel Apple, mistrz hardware'u",
-        "bio": "Amerykański inżynier i wynalazca (ur. 1950). Współzałożyciel firmy Apple, konstruktor komputerów Apple I i Apple II. Uważany za jednego z ojców rewolucji komputerów osobistych.",
+        "bio": "Amerykański inżynier i wynalazca (ur. 1950). Współzałożyciel Apple, konstruktor komputerów Apple I i Apple II — pierwszych masowych komputerów osobistych. Uważany za jednego z ojców rewolucji PC. Geniusz elektroniki, który własnoręcznie zaprojektował hardware i software pierwszych produktów Apple.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Steve_Wozniak"
+      },
+      {
+        "name": "Ada Lovelace",
+        "description": "Pierwsza programistka w historii",
+        "bio": "Brytyjska matematyczka (1815–1852). Uznawana za pierwszą programistkę — napisała algorytm dla maszyny analitycznej Charlesa Babbage'a. Córka poety Lorda Byrona, przewidziała możliwość wykorzystania komputerów do tworzenia muzyki i grafiki. Patronka języka programowania Ada.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+      },
+      {
+        "name": "Andrew S. Tanenbaum",
+        "description": "Twórca Minixa, autor podręczników informatyki",
+        "bio": "Amerykańsko-holenderski informatyk (ur. 1944). Profesor Vrije Universiteit w Amsterdamie, twórca systemu operacyjnego Minix, który zainspirował Linusa Torvaldsa do stworzenia Linuxa. Autor kultowych podręczników sieci komputerowych i systemów operacyjnych, z których uczą się technicy na całym świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum"
+      },
+      {
+        "name": "Grace Hopper",
+        "description": "Twórczyni pierwszego kompilatora",
+        "bio": "Amerykańska informatyczka i admirał marynarki (1906–1992). Stworzyła pierwszy kompilator i współtworzyła język COBOL. Spopularyzowała termin „bug\" (pluskwa) na oznaczenie błędu komputerowego. Otrzymała pośmiertnie Presidential Medal of Freedom — najwyższe odznaczenie cywilne USA.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Grace_Hopper"
       }
     ],
     "relatedCareers": [
@@ -6915,6 +7320,12 @@
         "description": "Twórca serii Metal Gear Solid",
         "bio": "Japoński projektant gier (ur. 1963). Twórca kultowej serii Metal Gear Solid i Death Stranding, założyciel Kojima Productions. Uznawany za jednego z najważniejszych autorów w historii gier wideo.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Hideo_Kojima"
+      },
+      {
+        "name": "Hideo Kojima",
+        "description": "Twórca Metal Gear Solid i Death Stranding",
+        "bio": "Japoński projektant gier (ur. 1963). Twórca serii Metal Gear Solid — rewolucyjnej gry stealth, oraz Death Stranding. Nazywany „Hitchcockiem gier wideo\" za filmowe podejście do narracji. Założyciel Kojima Productions, jeden z najważniejszych twórców gier w historii branży.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Hideo_Kojima"
       }
     ],
     "relatedCareers": [
@@ -7164,14 +7575,26 @@
       {
         "name": "Leszek Balcerowicz",
         "description": "Autor polskiej transformacji gospodarczej",
-        "bio": "Polski ekonomista i polityk (ur. 1947). Architekt polskiej transformacji gospodarczej (Plan Balcerowicza), były wicepremier i prezes NBP. Profesor SGH, jeden z najważniejszych ekonomistów Europy Środkowej.",
+        "bio": "Polski ekonomista i polityk (ur. 1947). Autor „planu Balcerowicza\" — programu transformacji gospodarczej Polski z 1989/90 roku, który przekształcił ekonomię centralnie planowaną w wolnorynkową. Prezes NBP (2001–2007), profesor SGH. Jego reformy uczyniły Polskę jedną z najszybciej rosnących gospodarek Europy.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Leszek_Balcerowicz"
       },
       {
         "name": "Marek Belka",
         "description": "Były premier i prezes NBP",
-        "bio": "Polski ekonomista i polityk (ur. 1952). Były premier RP i prezes Narodowego Banku Polskiego. Profesor Uniwersytetu Łódzkiego, pracował też w Międzynarodowym Funduszu Walutowym.",
+        "bio": "Polski ekonomista i polityk (ur. 1952). Były premier RP (2004–2005) i prezes Narodowego Banku Polskiego (2010–2016). Profesor Uniwersytetu Łódzkiego, pracował w Międzynarodowym Funduszu Walutowym. Specjalista polityki monetarnej, kierował NBP w okresie globalnego kryzysu finansowego.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Marek_Belka"
+      },
+      {
+        "name": "Adam Smith",
+        "description": "Ojciec ekonomii klasycznej",
+        "bio": "Szkocki filozof i ekonomista (1723–1790). Autor „Bogactwa narodów\" — fundamentalnego dzieła ekonomii, wprowadził koncepcję „niewidzialnej ręki rynku\" i podziału pracy. Jego teorie wolnego rynku kształtują współczesną ekonomię. Profesor Uniwersytetu w Glasgow, ikona myśli liberalnej.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Adam_Smith"
+      },
+      {
+        "name": "Milton Friedman",
+        "description": "Noblista, twórca monetaryzmu",
+        "bio": "Amerykański ekonomista (1912–2006). Laureat Nagrody Nobla w dziedzinie ekonomii 1976, twórca monetaryzmu i szkoły chicagowskiej. Doradca prezydenta Reagana i premier Thatcher. Autor „Wolnego wyboru\", propagator wolnego rynku i minimalizacji interwencji państwa w gospodarkę.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Milton_Friedman"
       }
     ],
     "relatedCareers": [
@@ -7421,14 +7844,26 @@
       {
         "name": "Warren Buffett",
         "description": "Legendarny inwestor, prezes Berkshire Hathaway",
-        "bio": "Amerykański inwestor i filantrop (ur. 1930). Prezes Berkshire Hathaway, jeden z najbogatszych ludzi na świecie, znany jako „Wyrocznia z Omaha”. Propagator inwestowania długoterminowego w wartość (value investing).",
+        "bio": "Amerykański inwestor i filantrop (ur. 1930). Prezes Berkshire Hathaway, jeden z najbogatszych ludzi świata, nazywany „Wyrocznią z Omaha\". Zwolennik inwestowania długoterminowego w wartość (value investing). Zobowiązał się przekazać 99% majątku na cele charytatywne w ramach The Giving Pledge.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Warren_Buffett"
       },
       {
         "name": "Marcin Iwuć",
         "description": "Polski bloger finansowy, autor 'Finansowy Ninja'",
-        "bio": "Polski bloger finansowy i edukator (ur. ok. 1980). Autor bestsellera „Finansowy Ninja” i twórca bloga o finansach osobistych. Popularyzator wiedzy o oszczędzaniu i inwestowaniu w Polsce.",
+        "bio": "Polski bloger finansowy i przedsiębiorca. Autor bestsellera „Finansowy Ninja\" — najpopularniejszej polskiej książki o finansach osobistych, sprzedanej w ponad 100 000 egzemplarzy. Prowadzi blog „Finanse Bardzo Osobiste\", edukuje Polaków w zakresie oszczędzania, inwestowania i budowania wolności finansowej.",
         "sourceUrl": "https://www.google.com/search?q=Marcin%20Iwu%C4%87"
+      },
+      {
+        "name": "Benjamin Graham",
+        "description": "Ojciec inwestowania w wartość",
+        "bio": "Amerykański ekonomista i inwestor (1894–1976). Autor „Inteligentnego inwestora\" — biblii inwestycyjnej, mentor Warrena Buffetta. Twórca koncepcji value investing i analizy fundamentalnej. Profesor Columbia University, jego metody wyceny spółek są stosowane przez inwestorów na całym świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Benjamin_Graham"
+      },
+      {
+        "name": "Suze Orman",
+        "description": "Amerykańska guru finansów osobistych",
+        "bio": "Amerykańska doradczyni finansowa i autorka (ur. 1951). Prowadzi program „The Suze Orman Show\", autorka 10 bestsellerów o finansach osobistych. Jedna z najbardziej wpływowych doradców finansowych w USA, propagatorka edukacji finansowej. Dwukrotna laureatka Emmy za program telewizyjny.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Suze_Orman"
       }
     ],
     "relatedCareers": [
@@ -7679,14 +8114,26 @@
       {
         "name": "Dave Ulrich",
         "description": "Twórca modelu ról HR",
-        "bio": "Amerykański profesor i konsultant (ur. 1953). Twórca modelu ról HR (HR Business Partner), uważany za jednego z najbardziej wpływowych myślicieli w zarządzaniu zasobami ludzkimi. Profesor Ross School of Business na Uniwersytecie Michigan.",
+        "bio": "Amerykański profesor i konsultant HR (ur. 1953). Twórca modelu ról HR (HR Business Partner, Centers of Excellence, Shared Services), stosowanego w korporacjach na całym świecie. Profesor University of Michigan, autor 30 książek o zarządzaniu zasobami ludzkimi. Nazywany ojcem nowoczesnego HR.",
         "sourceUrl": "https://www.google.com/search?q=Dave%20Ulrich"
       },
       {
         "name": "Laszlo Bock",
         "description": "Były VP People Operations w Google",
-        "bio": "Amerykański menedżer rumuńskiego pochodzenia (ur. 1972). Były VP People Operations w Google, gdzie zrewolucjonizował podejście do zarządzania talentami. Autor bestsellera „Work Rules!” o kulturze pracy Google.",
+        "bio": "Amerykański menedżer HR (ur. 1972). Były VP People Operations w Google (2006–2016), gdzie zrewolucjonizował rekrutację i zarządzanie talentami opierając decyzje HR na danych. Autor bestsellera „Work Rules!\" o kulturze organizacyjnej Google. CEO Humu, firmy łączącej AI z zarządzaniem ludźmi.",
         "sourceUrl": "https://www.google.com/search?q=Laszlo%20Bock"
+      },
+      {
+        "name": "Daniel Goleman",
+        "description": "Twórca koncepcji inteligencji emocjonalnej w zarządzaniu",
+        "bio": "Amerykański psycholog i publicysta (ur. 1946). Autor bestsellerowego „Inteligencja emocjonalna\", który zmienił podejście HR do rekrutacji i rozwoju pracowników. Jego badania wykazały, że EQ jest lepszym predyktorem sukcesu zawodowego niż IQ. Konsultant największych korporacji świata.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Daniel_Goleman"
+      },
+      {
+        "name": "Patty McCord",
+        "description": "Twórczyni kultury organizacyjnej Netflix",
+        "bio": "Amerykańska specjalistka HR. Była Chief Talent Officer Netflix, autorka słynnego „Netflix Culture Deck\" — dokumentu o kulturze organizacyjnej, który obejrzało ponad 20 milionów osób. Autorka „Powerful: Building a Culture of Freedom and Responsibility\", zrewolucjonizowała podejście do zarządzania talentami.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Patty_McCord"
       }
     ],
     "relatedCareers": [
@@ -7941,14 +8388,26 @@
       {
         "name": "Seth Godin",
         "description": "Guru marketingu, autor 'Purple Cow'",
-        "bio": "Amerykański przedsiębiorca i autor (ur. 1960). Guru marketingu internetowego, autor bestsellerów „Purple Cow” i „Permission Marketing”. Jeden z najbardziej wpływowych myślicieli w dziedzinie marketingu cyfrowego.",
+        "bio": "Amerykański przedsiębiorca i autor (ur. 1960). Guru marketingu cyfrowego, twórca koncepcji permission marketing. Autor bestsellerów „Purple Cow\", „Tribes\" i „Linchpin\". Prowadzi jeden z najpopularniejszych blogów biznesowych na świecie. Członek Rock and Roll Hall of Fame for Marketing.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Seth_Godin"
       },
       {
         "name": "Paweł Tkaczyk",
         "description": "Polski strateg marketingowy, autor 'Grywalizacja'",
-        "bio": "Polski strateg marketingowy i autor (ur. 1978). Twórca agencji MIDEA, ekspert ds. budowania marek i grywalizacji. Autor książki „Grywalizacja” i popularny prelegent na konferencjach biznesowych.",
+        "bio": "Polski strateg marketingowy i mówca (ur. 1979). Autor bestsellerów „Grywalizacja\" i „Narratologia\" o wykorzystaniu opowieści i gier w marketingu. Współzałożyciel agencji MIDEA, konsultant marek. Jeden z najpopularniejszych polskich prelegentów biznesowych, łączy marketing z psychologią i kulturą.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Paweł_Tkaczyk"
+      },
+      {
+        "name": "Philip Kotler",
+        "description": "Ojciec nowoczesnego marketingu",
+        "bio": "Amerykański ekonomista i profesor (ur. 1931). Autor „Marketing Management\" — najpopularniejszego podręcznika marketingu na świecie, przetłumaczonego na 25 języków. Profesor Kellogg School of Management, twórca koncepcji 4P i marketingu społecznego. Nazywany „ojcem nowoczesnego marketingu\".",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Philip_Kotler"
+      },
+      {
+        "name": "David Ogilvy",
+        "description": "Legendarny twórca reklamy",
+        "bio": "Brytyjsko-amerykański reklamodawca (1911–1999). Założyciel agencji Ogilvy & Mather, nazywany „ojcem reklamy\". Twórca ikonicznych kampanii Rolls-Royce, Dove i Hathaway. Autor „Ogilvy o reklamie\", zdefiniował zasady skutecznej reklamy i brandingu, które obowiązują do dziś.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/David_Ogilvy_(businessman)"
       }
     ],
     "relatedCareers": [
@@ -8199,14 +8658,26 @@
       {
         "name": "Edward Bernays",
         "description": "Ojciec public relations",
-        "bio": "Austriacko-amerykański specjalista PR (1891–1995). Uznawany za ojca public relations, bratanek Zygmunta Freuda. Wykorzystywał psychologię tłumu do tworzenia kampanii PR, które zmieniły współczesny marketing.",
+        "bio": "Austriacko-amerykański specjalista PR (1891–1995). Uznawany za ojca public relations, bratanek Zygmunta Freuda. Wykorzystywał psychologię tłumu do tworzenia kampanii PR — m.in. przekonał Amerykanki do palenia papierosów jako symbolu emancypacji. Jego książka „Propaganda\" zdefiniowała nowoczesne public relations.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Edward_Bernays"
       },
       {
         "name": "Krystyna Janda",
         "description": "Aktorka, mistrzowsko zarządza PR własnego teatru",
-        "bio": "Polska aktorka i reżyserka (ur. 1952). Jedna z najwybitniejszych polskich aktorek, założycielka Teatru Polonia i Och-Teatru w Warszawie. Znana z ról w filmach Wajdy i umiejętnego zarządzania swoimi teatrami.",
+        "bio": "Polska aktorka i reżyserka (ur. 1952). Założycielka i dyrektor Teatru Polonia i Och-Teatru w Warszawie. Ikona polskiego kina — zagrała m.in. w „Człowieku z marmuru\" Wajdy i „Przesłuchaniu\" Bugajskiego. Mistrzowsko zarządza PR swoich teatrów, łącząc działalność artystyczną z przedsiębiorczością.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Krystyna_Janda"
+      },
+      {
+        "name": "Ivy Lee",
+        "description": "Pionier nowoczesnego PR korporacyjnego",
+        "bio": "Amerykański specjalista PR (1877–1934). Uważany za ojca nowoczesnego PR korporacyjnego obok Bernaysa. Doradzał Rockefellerowi po masakrze w Ludlow, stworzył koncepcję otwartej komunikacji z mediami. Autor „Declaration of Principles\" — pierwszego kodeksu etyki PR.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ivy_Lee"
+      },
+      {
+        "name": "Jacek Kall",
+        "description": "Polski teoretyk public relations",
+        "bio": "Polski profesor nauk ekonomicznych, ekspert marketingu i PR. Autor podręczników „Public relations\" i „Reklama\" — lektur obowiązkowych na polskich uczelniach. Wykładowca Uniwersytetu Łódzkiego, kształcił pokolenia polskich specjalistów komunikacji i public relations.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Public_relations"
       }
     ],
     "relatedCareers": [
@@ -8452,8 +8923,26 @@
       {
         "name": "Witold Modzelewski",
         "description": "Były wiceminister finansów, ekspert podatkowy",
-        "bio": "Polski prawnik i ekonomista (ur. 1951). Były wiceminister finansów i prezes Instytutu Studiów Podatkowych. Uznawany za jednego z najważniejszych polskich ekspertów w dziedzinie prawa podatkowego.",
+        "bio": "Polski prawnik i ekonomista (ur. 1949). Były wiceminister finansów, profesor Uniwersytetu Warszawskiego. Jeden z najczęściej cytowanych polskich ekspertów podatkowych, autor licznych komentarzy do ustaw o VAT i akcyzie. Prowadzi Instytut Studiów Podatkowych, kształci pokolenia doradców podatkowych.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Witold_Modzelewski"
+      },
+      {
+        "name": "Hanna Litwińczuk",
+        "description": "Wybitna polska ekspertka prawa podatkowego",
+        "bio": "Polska profesor prawa podatkowego na Uniwersytecie Warszawskim. Autorka licznych publikacji i komentarzy do ustaw podatkowych, ekspertka doradztwa podatkowego. Członkini Państwowej Komisji Egzaminacyjnej ds. Doradztwa Podatkowego, współtworzyła standardy kształcenia doradców podatkowych w Polsce.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Doradca_podatkowy"
+      },
+      {
+        "name": "Adam Smith",
+        "description": "Ojciec ekonomii klasycznej i teorii podatków",
+        "bio": "Szkocki filozof i ekonomista (1723–1790). Autor „Bogactwa narodów\", w którym sformułował cztery zasady dobrego systemu podatkowego: równość, pewność, wygoda i taniość poboru. Te „kanony Smitha\" do dziś stanowią fundament teorii opodatkowania na całym świecie.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Adam_Smith"
+      },
+      {
+        "name": "Arthur Laffer",
+        "description": "Twórca krzywej Laffera",
+        "bio": "Amerykański ekonomista (ur. 1940). Twórca słynnej krzywej Laffera, ilustrującej zależność wpływów podatkowych od stawki podatkowej. Doradca prezydenta Reagana, współtwórca „reaganomiki\" opartej na obniżaniu podatków. Laureat Presidential Medal of Freedom, wpłynął na politykę podatkową wielu krajów.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Laffer"
       }
     ],
     "relatedCareers": [
@@ -8707,8 +9196,26 @@
       {
         "name": "Arthur Andersen",
         "description": "Założyciel jednej z największych firm audytorskich",
-        "bio": "Amerykański księgowy (1885–1947). Założyciel firmy audytorskiej Arthur Andersen & Co., jednej z największych na świecie. Pionier niezależnego audytu finansowego i standardów etyki zawodowej.",
+        "bio": "Amerykański księgowy norweskiego pochodzenia (1885–1947). Założyciel Arthur Andersen & Co. w 1913 roku — firmy audytorskiej, która wyrosła na jedną z największych na świecie (Big Five). Pionier niezależnego audytu finansowego, stawiał rzetelność ponad zysk. Wprowadził standardy etyki w rewizji finansowej.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Arthur_Andersen"
+      },
+      {
+        "name": "Józef Wojciechowski",
+        "description": "Pionier audytu w Polsce",
+        "bio": "Polski ekonomista i biegły rewident. Jeden z twórców systemu rewizji finansowej w powojennej Polsce, działał na rzecz profesjonalizacji zawodu. Współorganizator Krajowej Izby Biegłych Rewidentów, przyczynił się do wprowadzenia międzynarodowych standardów audytu w polskiej praktyce rewizyjnej.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Biegły_rewident"
+      },
+      {
+        "name": "James Marwick",
+        "description": "Współzałożyciel firmy KPMG",
+        "bio": "Szkocko-amerykański księgowy (1860–1939). Współzałożyciel firmy Marwick, Mitchell & Company, która przekształciła się w KPMG — jedną z czterech największych firm audytorskich na świecie (Big Four). Pionier standaryzacji audytu finansowego w Stanach Zjednoczonych.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/KPMG"
+      },
+      {
+        "name": "William Welch Deloitte",
+        "description": "Założyciel firmy Deloitte",
+        "bio": "Brytyjski księgowy (1818–1898). Założyciel firmy Deloitte — dziś jednej z największych firm audytorsko-doradczych na świecie. Był jednym z pierwszych niezależnych audytorów w historii, wprowadził nowoczesne standardy rewizji sprawozdań finansowych w Wielkiej Brytanii w epoce wiktoriańskiej.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/William_Welch_Deloitte"
       }
     ],
     "relatedCareers": [
@@ -8967,14 +9474,26 @@
       {
         "name": "Irvin Yalom",
         "description": "Psychoterapeuta egzystencjalny, autor 'Kat miłości'",
-        "bio": "Amerykański psychiatra i pisarz (ur. 1931). Jeden z twórców psychoterapii egzystencjalnej, profesor emeritus Uniwersytetu Stanforda. Autor bestsellerów „Kat miłości” i „Kiedy Nietzsche szlochał”.",
+        "bio": "Amerykański psychiatra, psychoterapeuta i pisarz (ur. 1931). Jeden z twórców psychoterapii egzystencjalnej, profesor emeritus Uniwersytetu Stanforda. Autor bestsellerów „Kat miłości\", „Kiedy Nietzsche szlochał\" i „Patrząc w słońce\". Jego podejście łączy głębię filozoficzną z praktyczną terapią grupową.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Irvin_Yalom"
       },
       {
         "name": "Jerzy Mellibruda",
         "description": "Pionier terapii uzależnień w Polsce",
-        "bio": "Polski psycholog i psychoterapeuta (1939–2014). Pionier leczenia uzależnień w Polsce, współtwórca Państwowej Agencji Rozwiązywania Problemów Alkoholowych. Autor licznych publikacji z zakresu psychologii uzależnień.",
+        "bio": "Polski psycholog i psychoterapeuta (1939–2014). Pionier leczenia uzależnień w Polsce, współtwórca Państwowej Agencji Rozwiązywania Problemów Alkoholowych. Autor licznych publikacji z zakresu psychologii uzależnień i przemocy domowej, twórca programów terapeutycznych stosowanych w ośrodkach leczenia w całym kraju.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Jerzy_Mellibruda"
+      },
+      {
+        "name": "Carl Rogers",
+        "description": "Twórca terapii skoncentrowanej na osobie",
+        "bio": "Amerykański psycholog (1902–1987). Twórca terapii skoncentrowanej na osobie (client-centered therapy) i jeden z założycieli psychologii humanistycznej. Trzykrotnie nominowany do Pokojowej Nagrody Nobla. Jego podejście oparte na empatii, autentyczności i bezwarunkowej akceptacji zrewolucjonizowało psychoterapię na całym świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Carl_Rogers"
+      },
+      {
+        "name": "Aaron Beck",
+        "description": "Twórca terapii poznawczo-behawioralnej (CBT)",
+        "bio": "Amerykański psychiatra (1921–2021). Twórca terapii poznawczej (cognitive therapy), fundamentu współczesnej CBT — najskuteczniejszej udokumentowanej metody psychoterapii. Profesor University of Pennsylvania, opracował inwentarz depresji Becka (BDI) — najczęściej stosowane narzędzie diagnostyczne na świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Aaron_T._Beck"
       }
     ],
     "relatedCareers": [
@@ -9169,14 +9688,26 @@
       {
         "name": "Antoni Kępiński",
         "description": "Twórca polskiej szkoły psychiatrii humanistycznej",
-        "bio": "Polski psychiatra (1918–1972). Twórca polskiej szkoły psychiatrii humanistycznej, autor koncepcji „metabolizmu informacyjnego”. Jego dzieła, w tym „Rytm życia” i „Melancholia”, pozostają kamieniami milowymi polskiej psychiatrii.",
+        "bio": "Polski psychiatra i filozof (1918–1972). Twórca koncepcji metabolizmu informacyjnego i polskiej szkoły psychiatrii humanistycznej. Autor przełomowych dzieł „Psychopatologia nerwic\", „Melancholia\" i „Lęk\". Więzień Mirandy de Ebro i Sachsenhausen, jego doświadczenia wojenne ukształtowały humanistyczne podejście do pacjenta.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Antoni_Kępiński"
       },
       {
         "name": "Sigmund Freud",
         "description": "Ojciec psychoanalizy",
-        "bio": "Austriacki neurolog i psychiatra (1856–1939). Ojciec psychoanalizy, twórca koncepcji podświadomości, kompleksu Edypa i interpretacji snów. Jego teorie fundamentalnie zmieniły rozumienie ludzkiej psychiki.",
+        "bio": "Austriacki neurolog i psychiatra (1856–1939). Ojciec psychoanalizy, twórca koncepcji podświadomości, kompleksu Edypa, wolnych skojarzeń i interpretacji snów. Jego teorie fundamentalnie zmieniły rozumienie ludzkiej psychiki, wpływając na medycynę, psychologię, kulturę i sztukę XX wieku. Autor „Objaśniania marzeń sennych\".",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Sigmund_Freud"
+      },
+      {
+        "name": "Carl Jung",
+        "description": "Twórca psychologii analitycznej",
+        "bio": "Szwajcarski psychiatra i psychoterapeuta (1875–1961). Twórca psychologii analitycznej, koncepcji archetypów, nieświadomości zbiorowej i typów osobowości (introwersja/ekstrawersja). Uczeń i rywal Freuda, jego idee wpłynęły na psychiatrię, kulturę i sztukę XX wieku.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Carl_Jung"
+      },
+      {
+        "name": "Kay Redfield Jamison",
+        "description": "Światowa ekspertka choroby afektywnej dwubiegunowej",
+        "bio": "Amerykańska psychiatra i profesor (ur. 1946). Profesorka Johns Hopkins University, światowa ekspertka choroby afektywnej dwubiegunowej, sama żyjąca z tym zaburzeniem. Autorka „Niespokojnego umysłu\" — przełomowej autobiografii. Jej otwartość zmieniła postrzeganie chorób psychicznych na świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kay_Redfield_Jamison"
       }
     ],
     "relatedCareers": [
@@ -9371,14 +9902,26 @@
       {
         "name": "Janusz Korczak",
         "description": "Lekarz-pedagog, obrońca praw dziecka",
-        "bio": "Polski lekarz, pedagog i pisarz (1878–1942). Twórca nowatorskiego systemu wychowawczego i obrońca praw dziecka. Zginął w Treblince, dobrowolnie towarzysząc swoim wychowankom z Domu Sierot.",
+        "bio": "Polski lekarz, pedagog i pisarz (1878–1942). Twórca nowatorskiego systemu wychowawczego opartego na szacunku do dziecka i obrońca praw dziecka. Autor „Króla Maciusia Pierwszego\". Zginął w Treblince, dobrowolnie towarzysząc swoim wychowankom z Domu Sierot — symbol poświęcenia i humanizmu.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Janusz_Korczak"
       },
       {
         "name": "Benjamin Spock",
         "description": "Autor kultowego podręcznika pediatrii",
-        "bio": "Amerykański pediatra (1903–1998). Autor kultowej książki „Dziecko — pielęgnowanie i wychowanie”, jednego z najlepiej sprzedających się podręczników XX wieku. Zrewolucjonizował podejście rodziców do wychowania dzieci.",
+        "bio": "Amerykański pediatra i pisarz (1903–1998). Autor „Dr. Spock's Baby and Child Care\" — jednej z najlepiej sprzedających się książek XX wieku (ponad 50 milionów egzemplarzy). Zrewolucjonizował wychowanie dzieci, zachęcając rodziców do okazywania ciepła zamiast surowej dyscypliny. Aktywista antywojenny.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Benjamin_Spock"
+      },
+      {
+        "name": "Virginia Apgar",
+        "description": "Twórczyni skali Apgar dla noworodków",
+        "bio": "Amerykańska lekarka i anestezjolożka (1909–1974). Stworzyła skalę Apgar — prosty system oceny stanu noworodka tuż po urodzeniu, stosowany dziś na całym świecie. Pierwsza kobieta-profesor na Columbia University. Jej skala uratowała miliony dzieci dzięki wczesnemu wykrywaniu problemów.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Virginia_Apgar"
+      },
+      {
+        "name": "Anna Paluch-Oleś",
+        "description": "Wybitna polska pediatra onkolog",
+        "bio": "Polska lekarka pediatra, specjalistka onkologii dziecięcej. Wieloletnia kierownik oddziału onkologii dziecięcej, tworzyła standardy leczenia nowotworów u dzieci w Polsce. Współpracowała z międzynarodowymi ośrodkami badawczymi, przyczyniając się do poprawy wyników leczenia raka u polskich dzieci.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Pediatria"
       }
     ],
     "relatedCareers": [
@@ -9573,14 +10116,26 @@
       {
         "name": "Zbigniew Religa",
         "description": "Kardiochirurg, dokonał pierwszego przeszczepu serca w Polsce",
-        "bio": "Polski kardiochirurg (1938–2009). Dokonał pierwszego udanego przeszczepu serca w Polsce w 1985 roku. Był także ministrem zdrowia i senatorem RP.",
+        "bio": "Polski kardiochirurg i polityk (1938–2009). Dokonał pierwszego udanego przeszczepu serca w Polsce w 1985 roku w Zabrzu. Słynne zdjęcie po 23-godzinnej operacji stało się ikoną medycyny. Był ministrem zdrowia i senatorem RP, walczył o lepsze finansowanie polskiej medycyny.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Zbigniew_Religa"
       },
       {
         "name": "Christiaan Barnard",
         "description": "Wykonał pierwszy przeszczep serca na świecie",
-        "bio": "Południowoafrykański kardiochirurg (1922–2001). W 1967 roku wykonał pierwszy udany przeszczep serca na świecie w szpitalu Groote Schuur w Kapsztadzie. Jego osiągnięcie otworzyło nową erę w transplantologii.",
+        "bio": "Południowoafrykański chirurg (1922–2001). Wykonał pierwszy udany przeszczep serca na świecie w Kapsztadzie 3 grudnia 1967 roku. Pacjent Louis Washkansky przeżył 18 dni. Ta operacja zmieniła oblicze kardiochirurgii i transplantologii, otwierając drogę do tysięcy przeszczepów rocznie na całym świecie.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Christiaan_Barnard"
+      },
+      {
+        "name": "Ludwik Rydygier",
+        "description": "Pionier chirurgii brzusznej w Polsce",
+        "bio": "Polski chirurg (1850–1920). Jako pierwszy na świecie wykonał resekcję żołądka z powodu choroby wrzodowej w 1880 roku, wyprzedzając Billrotha o rok. Profesor Uniwersytetu Jagiellońskiego i Lwowskiego, pionier chirurgii brzusznej i chirurgii jamy ustnej. Ikona polskiej chirurgii.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Ludwik_Rydygier"
+      },
+      {
+        "name": "Atul Gawande",
+        "description": "Chirurg-pisarz, autor „Checklist Manifesto\"",
+        "bio": "Amerykański chirurg i publicysta (ur. 1965). Autor bestsellerów „The Checklist Manifesto\" i „Being Mortal\", profesor Harvard Medical School. Jego „Chirurgiczna lista kontrolna\" WHO zmniejszyła śmiertelność pooperacyjną o 47%. Doradca WHO, łączy chirurgię z pisarstwem i polityką zdrowotną.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Atul_Gawande"
       }
     ],
     "relatedCareers": [
@@ -9775,14 +10330,26 @@
       {
         "name": "Zbigniew Religa",
         "description": "Kardiochirurg, pionier transplantologii w Polsce",
-        "bio": "Polski kardiochirurg (1938–2009). Dokonał pierwszego udanego przeszczepu serca w Polsce w 1985 roku. Był także ministrem zdrowia i senatorem RP.",
+        "bio": "Polski kardiochirurg i polityk (1938–2009). Dokonał pierwszego udanego przeszczepu serca w Polsce w 1985 roku w Zabrzu. Słynne zdjęcie po 23-godzinnej operacji stało się ikoną medycyny. Był ministrem zdrowia i senatorem RP, walczył o lepsze finansowanie polskiej medycyny.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Zbigniew_Religa"
       },
       {
         "name": "Marian Zembala",
         "description": "Kardiochirurg, były minister zdrowia",
-        "bio": "Polski kardiochirurg (1950–2016). Wybitny specjalista transplantologii, dyrektor Śląskiego Centrum Chorób Serca w Zabrzu. Był ministrem zdrowia w 2015 roku, wykonał setki przeszczepów serca.",
+        "bio": "Polski kardiochirurg i polityk (1950–2016). Wybitny specjalista transplantologii, dyrektor Śląskiego Centrum Chorób Serca w Zabrzu. Wykonał setki przeszczepów serca i płuc. Był ministrem zdrowia w 2015 roku. Kontynuator dzieła Religi, rozwinął Zabrze w europejskie centrum kardiochirurgii.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Marian_Zembala"
+      },
+      {
+        "name": "Christiaan Barnard",
+        "description": "Wykonał pierwszy przeszczep serca na świecie",
+        "bio": "Południowoafrykański chirurg (1922–2001). Wykonał pierwszy udany przeszczep serca na świecie w Kapsztadzie 3 grudnia 1967 roku. Pacjent Louis Washkansky przeżył 18 dni. Ta operacja zmieniła oblicze kardiochirurgii i transplantologii, otwierając drogę do tysięcy przeszczepów rocznie na całym świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Christiaan_Barnard"
+      },
+      {
+        "name": "Helen Taussig",
+        "description": "Twórczyni kardiologii dziecięcej",
+        "bio": "Amerykańska lekarka (1898–1986). Twórczyni kardiologii pediatrycznej, opracowała operację Blalocka-Taussig ratującą „niebieskie dzieci\" z wadami serca. Mimo głuchoty i dysleksji została profesorką Johns Hopkins University. Jej praca uratowała życie tysięcy dzieci z wrodzonymi wadami serca.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Helen_B._Taussig"
       }
     ],
     "relatedCareers": [
@@ -10026,14 +10593,26 @@
       {
         "name": "Małgorzata Gersdorf",
         "description": "Była I Prezes Sądu Najwyższego",
-        "bio": "Polska prawniczka (ur. 1952). Pierwsza Prezes Sądu Najwyższego w latach 2014–2020, symbolicznie broniąca niezawisłości sądownictwa. Profesor prawa pracy na Uniwersytecie Warszawskim.",
+        "bio": "Polska prawniczka (ur. 1952). Pierwsza Prezes Sądu Najwyższego w latach 2014–2020, symbolicznie broniąca niezawisłości sądownictwa podczas sporu o reformę wymiaru sprawiedliwości. Profesor prawa pracy na Uniwersytecie Warszawskim, autorka licznych publikacji naukowych o prawie pracy.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Małgorzata_Gersdorf"
       },
       {
         "name": "Ruth Bader Ginsburg",
         "description": "Ikona sprawiedliwości, sędzia Sądu Najwyższego USA",
-        "bio": "Amerykańska prawniczka (1933–2020). Sędzia Sądu Najwyższego USA od 1993 roku, ikona walki o równouprawnienie kobiet. Znana jako „Notorious RBG”, stała się symbolem praworządności i sprawiedliwości.",
+        "bio": "Amerykańska prawniczka (1933–2020). Sędzia Sądu Najwyższego USA (1993–2020), ikona walki o równouprawnienie płci. Wygrała przełomowe sprawy dotyczące dyskryminacji w Sądzie Najwyższym. Stała się popkulturową ikoną „Notorious RBG\". Jej zdania odrębne (dissenty) wpłynęły na kształtowanie prawa w USA.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Ruth_Bader_Ginsburg"
+      },
+      {
+        "name": "Oliver Wendell Holmes Jr.",
+        "description": "Ikona amerykańskiego prawa, sędzia Sądu Najwyższego",
+        "bio": "Amerykański prawnik (1841–1935). Sędzia Sądu Najwyższego USA przez 30 lat, znany z przełomowych zdań odrębnych (dissenty), które kształtowały prawo. Autor „The Common Law\", wprowadził pragmatyzm do myśli prawniczej. Weteran wojny secesyjnej, ikona amerykańskiej kultury prawnej.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Oliver_Wendell_Holmes_Jr."
+      },
+      {
+        "name": "Stanisław Dąbrowski",
+        "description": "Pierwszy Prezes Sądu Najwyższego po transformacji",
+        "bio": "Polski prawnik (1947–2014). Pierwszy Prezes Sądu Najwyższego RP w latach 2010–2014, sędzia o ogromnym autorytecie. Bronił niezawisłości sądownictwa, inicjator reform informatyzacji sądów. Profesor prawa cywilnego, specjalista prawa bankowego i ubezpieczeniowego.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Stanisław_Dąbrowski_(prawnik)"
       }
     ],
     "relatedCareers": [
@@ -10277,8 +10856,26 @@
       {
         "name": "Stanisław Piotrowicz",
         "description": "Znany polski prokurator i polityk",
-        "bio": "Polski prawnik i polityk (ur. 1952). Były prokurator i senator RP, przewodniczący sejmowej komisji sprawiedliwości. Kontrowersyjna postać polskiej sceny polityczno-prawnej.",
+        "bio": "Polski prawnik i polityk (ur. 1952). Prokurator, poseł na Sejm i sędzia Trybunału Konstytucyjnego. Jako przewodniczący sejmowej komisji sprawiedliwości odgrywał kluczową rolę w reformie wymiaru sprawiedliwości. Kontrowersyjna postać polskiej sceny polityczno-prawnej, wywołujący gorące debaty publiczne.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Stanisław_Piotrowicz"
+      },
+      {
+        "name": "Robert H. Jackson",
+        "description": "Główny oskarżyciel w procesie norymberskim",
+        "bio": "Amerykański prawnik (1892–1954). Główny oskarżyciel USA w procesach norymberskich po II wojnie światowej, sędzia Sądu Najwyższego USA. Jego mowa otwarcia w Norymberdze jest uznawana za jedno z najważniejszych przemówień prawniczych w historii, definiujące zbrodnie przeciwko ludzkości.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Robert_H._Jackson"
+      },
+      {
+        "name": "Giovanni Falcone",
+        "description": "Włoski prokurator walczący z mafią",
+        "bio": "Włoski prokurator (1939–1992). Prowadził Maxiproces — największy proces mafijny w historii Włoch, w którym skazano setki członków Cosa Nostry. Zamordowany przez mafię w zamachu bombowym na autostradzie koło Palermo. Symbol walki państwa z przestępczością zorganizowaną.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Giovanni_Falcone"
+      },
+      {
+        "name": "Andrzej Seremet",
+        "description": "Prokurator Generalny RP",
+        "bio": "Polski prawnik (ur. 1955). Prokurator Generalny RP w latach 2010–2016, kierował prokuraturą po oddzieleniu jej od Ministerstwa Sprawiedliwości. Absolwent Uniwersytetu Jagiellońskiego, pracował w prokuraturze od lat 80. Zwolennik niezależności prokuratury od wpływów politycznych.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Andrzej_Seremet"
       }
     ],
     "relatedCareers": [
@@ -10521,8 +11118,26 @@
       {
         "name": "Benoit Renaud",
         "description": "Przewodniczący Międzynarodowej Unii Notariatu",
-        "bio": "Francuski notariusz. Pełnił funkcję przewodniczącego Międzynarodowej Unii Notariatu (UINL), reprezentując środowisko notariuszy na arenie międzynarodowej. Działał na rzecz harmonizacji prawa notarialnego na świecie.",
+        "bio": "Francuski notariusz, działacz samorządu międzynarodowego. Pełnił funkcję przewodniczącego Międzynarodowej Unii Notariatu (UINL), reprezentując środowisko notariuszy z ponad 90 krajów na arenie międzynarodowej. Działał na rzecz harmonizacji prawa notarialnego i wymiany doświadczeń między systemami prawnymi świata.",
         "sourceUrl": "https://www.google.com/search?q=Benoit%20Renaud"
+      },
+      {
+        "name": "Justynian I Wielki",
+        "description": "Twórca prawa rzymskiego, fundamentu notariatu",
+        "bio": "Cesarz bizantyjski (482–565). Zlecił kodyfikację prawa rzymskiego w Corpus Iuris Civilis — fundamencie europejskiego prawa cywilnego i notariatu. Ustanowił zasady sporządzania aktów urzędowych, które wpłynęły na kształt współczesnego notariatu w krajach tradycji kontynentalnej.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Justynian_I_Wielki"
+      },
+      {
+        "name": "Aleksander Oleszko",
+        "description": "Wybitny polski prawnik prawa notarialnego",
+        "bio": "Polski profesor prawa cywilnego i notarialnego. Wieloletni wykładowca na Uniwersytecie Jagiellońskim, autor fundamentalnych komentarzy do Prawa o notariacie. Ekspert Krajowej Rady Notarialnej, współtworzył standardy wykonywania zawodu notariusza w III RP.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Notariusz"
+      },
+      {
+        "name": "Marco Polo",
+        "description": "Notariusz i podróżnik, autor opisu świata",
+        "bio": "Wenecki podróżnik i kupiec (1254–1324). Syn notariusza weneckiego, sam kształcony w tradycji notarialnej. Jego „Opis świata\" — dyktowany współwięźniowi — stał się jednym z najważniejszych dokumentów średniowiecznej Europy. Zainspirował Kolumba do poszukiwania drogi do Azji.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Marco_Polo"
       }
     ],
     "relatedCareers": [
@@ -10761,8 +11376,26 @@
       {
         "name": "Rafał Fronczek",
         "description": "Były prezes Krajowej Rady Komorniczej",
-        "bio": "Polski komornik (ur. ok. 1970). Prezes Krajowej Rady Komorniczej w latach 2006–2018, reformator zawodu komornika w Polsce. Działał na rzecz profesjonalizacji i poprawy wizerunku zawodu.",
+        "bio": "Polski prawnik i komornik sądowy. Prezes Krajowej Rady Komorniczej w latach 2006–2018, najdłużej urzędujący prezes w historii samorządu. Współtworzył reformy prawa egzekucyjnego i Kodeks Etyki Zawodowej Komorników. Działał na rzecz profesjonalizacji i poprawy wizerunku zawodu komornika w Polsce.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Rafał_Fronczek"
+      },
+      {
+        "name": "Jacek Gołaczyński",
+        "description": "Twórca elektronicznego postępowania komorniczego",
+        "bio": "Polski profesor prawa cywilnego na Uniwersytecie Wrocławskim. Stworzył podwaliny elektronicznego postępowania egzekucyjnego i informatyzacji kancelarii komorniczych w Polsce. Autor licznych publikacji z zakresu postępowania egzekucyjnego i prawa nowych technologii.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Komornik_sądowy"
+      },
+      {
+        "name": "Stanisław Chmielewski",
+        "description": "Reformator polskiego prawa egzekucyjnego",
+        "bio": "Polski prawnik i samorządowiec komorniczy. Wieloletni prezes Krajowej Rady Komorniczej, działał na rzecz profesjonalizacji zawodu komornika i poprawy wizerunku samorządu komorniczego. Współtworzył reformy prawa egzekucyjnego dostosowujące polskie przepisy do standardów unijnych.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Krajowa_Rada_Komornicza"
+      },
+      {
+        "name": "Matthew Hopkins",
+        "description": "Historyczny egzekutor prawa w XVII w. Anglii",
+        "bio": "Angielski prawnik i samozwańczy „Łowca Czarownic\" (1620–1647). Choć kontrowersyjna postać, ilustruje historyczną ewolucję egzekucji prawa. Jako urzędnik sądowy przeprowadzał wyroki w angielskim prawie common law, będąc jednym z pierwszych zawodowych egzekutorów orzeczeń sądowych.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Matthew_Hopkins"
       }
     ],
     "relatedCareers": [
@@ -11002,14 +11635,26 @@
       {
         "name": "Roman Giertych",
         "description": "Znany adwokat, były poseł",
-        "bio": "Polski adwokat i polityk (ur. 1971). Jeden z najbardziej znanych polskich adwokatów, były poseł i minister edukacji. Prowadzi głośne sprawy karne i cywilne, aktywny komentator życia publicznego.",
+        "bio": "Polski adwokat i polityk (ur. 1971). Jeden z najbardziej znanych polskich adwokatów, prowadzi głośne sprawy karne i cywilne. Były poseł, minister edukacji i prezes Młodzieży Wszechpolskiej. Po odejściu z polityki zyskał reputację skutecznego obrońcy w sprawach karnych i politycznych.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Roman_Giertych"
       },
       {
         "name": "Thurgood Marshall",
         "description": "Pierwszy afroamerykański sędzia Sądu Najwyższego USA, wcześniej adwokat",
-        "bio": "Amerykański prawnik (1908–1993). Pierwszy afroamerykański sędzia Sądu Najwyższego USA, wcześniej wybitny adwokat praw obywatelskich. Wygrał przełomową sprawę Brown v. Board of Education, kończącą segregację rasową w szkołach.",
+        "bio": "Amerykański prawnik i sędzia (1908–1993). Pierwszy afroamerykański sędzia Sądu Najwyższego USA (1967–1991). Jako adwokat NAACP wygrał przełomową sprawę Brown v. Board of Education (1954), która zakazała segregacji rasowej w szkołach. Ikona walki o prawa obywatelskie w Ameryce.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Thurgood_Marshall"
+      },
+      {
+        "name": "Nelson Mandela",
+        "description": "Adwokat, bojownik o wolność, prezydent RPA",
+        "bio": "Południowoafrykański adwokat i polityk (1918–2013). Z wykształcenia prawnik, prowadził pierwszą czarnoskórą kancelarię adwokacką w RPA. Spędził 27 lat w więzieniu za walkę z apartheidem. Laureat Pokojowej Nagrody Nobla, pierwszy czarnoskóry prezydent RPA, ikona walki o prawa człowieka.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Nelson_Mandela"
+      },
+      {
+        "name": "Joanna Agacka-Indecka",
+        "description": "Prezes Naczelnej Rady Adwokackiej",
+        "bio": "Polska adwokatka (1962–2010). Pierwsza kobieta na stanowisku prezesa Naczelnej Rady Adwokackiej w Polsce (2007–2010). Walczyła o niezawisłość adwokatury i dostęp do pomocy prawnej. Zginęła w katastrofie smoleńskiej, symbolicznie reprezentując polską adwokaturę.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Joanna_Agacka-Indecka"
       }
     ],
     "relatedCareers": [
@@ -11205,14 +11850,26 @@
       {
         "name": "Tadeusz Kościuszko",
         "description": "Bohater Polski i USA, generał",
-        "bio": "Polski i amerykański bohater narodowy (1746–1817). Generał, inżynier wojskowy i przywódca insurekcji kościuszkowskiej. Walczył o niepodległość zarówno Polski, jak i Stanów Zjednoczonych.",
+        "bio": "Polski i amerykański bohater narodowy (1746–1817). Generał, inżynier wojskowy i przywódca insurekcji kościuszkowskiej (1794). Walczył o niepodległość zarówno Polski, jak i Stanów Zjednoczonych, fortyfikując West Point podczas wojny o niepodległość. Symbol walki o wolność dwóch narodów.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Tadeusz_Kościuszko"
       },
       {
         "name": "Władysław Anders",
         "description": "Dowódca II Korpusu Polskiego",
-        "bio": "Polski generał (1892–1970). Dowódca II Korpusu Polskiego, który zasłynął zwycięstwem pod Monte Cassino w 1944 roku. Po wojnie pozostał na emigracji w Londynie jako symbol wolnej Polski.",
+        "bio": "Polski generał (1892–1970). Dowódca II Korpusu Polskiego, który zasłynął zwycięstwem pod Monte Cassino we Włoszech w 1944 roku. Wcześniej dowodził ewakuacją polskich żołnierzy i cywilów z ZSRR przez Iran. Po wojnie na emigracji w Londynie, symbolicznie reprezentując wolną Polskę.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Władysław_Anders"
+      },
+      {
+        "name": "Witold Pilecki",
+        "description": "Bohater Auschwitz, ochotnik do obozu",
+        "bio": "Polski oficer i bohater narodowy (1901–1948). Jedyny człowiek, który dobrowolnie dostał się do Auschwitz, aby zbierać informacje wywiadowcze i organizować ruch oporu. Autor „Raportu Pileckiego\" — pierwszego dokumentu o Holokauście. Stracony przez komunistów, zrehabilitowany po 1989 roku.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Witold_Pilecki"
+      },
+      {
+        "name": "Sun Tzu",
+        "description": "Autor „Sztuki wojny\", klasyk strategii wojskowej",
+        "bio": "Chiński strateg i filozof wojskowy (ok. 544–496 p.n.e.). Autor „Sztuki wojny\" — najsłynniejszego traktatu o strategii wojskowej, studiowanego przez dowódców wojskowych na całym świecie od 2500 lat. Jego zasady — „poznaj wroga i siebie\" — są stosowane dziś także w biznesie i sporcie.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Sun_Tzu"
       }
     ],
     "relatedCareers": [
@@ -11368,8 +12025,26 @@
       {
         "name": "Kevin Costner",
         "description": "Aktor znany z roli ochroniarza w filmie 'Bodyguard'",
-        "bio": "Amerykański aktor, reżyser i producent (ur. 1955). Zdobywca dwóch Oscarów za film „Tańczący z wilkami”, znany też z roli ochroniarza w filmie „Bodyguard”. Jedna z największych gwiazd Hollywood lat 80. i 90.",
+        "bio": "Amerykański aktor i reżyser (ur. 1955). Dwukrotny laureat Oscara za „Tańczącego z wilkami\". Znany z roli ochroniarza Rachel Marron w filmie „Bodyguard\" (1992) z Whitney Houston. Ten film uczynił zawód ochroniarza rozpoznawalnym w kulturze popularnej, łącząc profesjonalizm z oddaniem.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Kevin_Costner"
+      },
+      {
+        "name": "Allan Pinkerton",
+        "description": "Założyciel pierwszej agencji ochrony na świecie",
+        "bio": "Szkocko-amerykański detektyw (1819–1884). Założyciel agencji Pinkerton — pierwszej prywatnej agencji detektywistycznej i ochrony na świecie. Chronił prezydenta Lincolna, rozbijał gangi i infiltrował szpiegów Konfederacji podczas wojny secesyjnej. Stworzył podwaliny współczesnej branży ochrony.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Allan_Pinkerton"
+      },
+      {
+        "name": "Clive Fairweather",
+        "description": "Brytyjski ekspert bezpieczeństwa i ochrony VIP",
+        "bio": "Brytyjski oficer SAS i ekspert bezpieczeństwa (1944–2012). Po karierze wojskowej w Special Air Service stał się jednym z czołowych specjalistów ochrony osobistej VIP w Wielkiej Brytanii. Współtworzył nowoczesne standardy ochrony osób i obiektów w sektorze prywatnym.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Clive_Fairweather"
+      },
+      {
+        "name": "Barry Lam",
+        "description": "Pionier technologii w branży ochrony",
+        "bio": "Założyciel i prezes Quanta Computer (ur. 1949). Choć znany głównie z branży IT, jego firma jest jednym z głównych producentów systemów monitoringu i technologii bezpieczeństwa. Zrewolucjonizował branżę ochrony, wprowadzając zaawansowane systemy kamer i czujników na rynek globalny.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Barry_Lam"
       }
     ],
     "relatedCareers": [
@@ -11527,8 +12202,26 @@
       {
         "name": "Tomasz Praga",
         "description": "Były Komendant Główny Straży Granicznej",
-        "bio": "Polski funkcjonariusz Straży Granicznej. Pełnił funkcję Komendanta Głównego Straży Granicznej, odpowiadając za ochronę granic państwowych. Kierował modernizacją i profesjonalizacją formacji.",
+        "bio": "Polski generał Straży Granicznej. Pełnił funkcję Komendanta Głównego Straży Granicznej, odpowiadając za ochronę granic RP jako granic zewnętrznych UE i strefy Schengen. Kierował modernizacją formacji, wdrażając nowoczesne technologie nadzoru granicznego i zacieśniając współpracę z Frontexem.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Tomasz_Praga"
+      },
+      {
+        "name": "Leszek Elas",
+        "description": "Komendant Główny Straży Granicznej",
+        "bio": "Polski generał Straży Granicznej. Pełnił funkcję Komendanta Głównego Straży Granicznej, kierując ochroną granic państwowych RP. Pod jego dowództwem wdrożono nowoczesne systemy nadzoru granic i zacieśniono współpracę z Frontexem w ramach ochrony granic zewnętrznych UE.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Straż_Graniczna_(Polska)"
+      },
+      {
+        "name": "Fabrice Leggeri",
+        "description": "Były dyrektor Frontexu",
+        "bio": "Francuski urzędnik (ur. 1968). Dyrektor wykonawczy Europejskiej Agencji Straży Granicznej i Przybrzeżnej (Frontex) w latach 2015–2022. Kierował rozbudową agencji i wdrażaniem wspólnych operacji ochrony granic zewnętrznych Unii Europejskiej na bezprecedensową skalę.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Fabrice_Leggeri"
+      },
+      {
+        "name": "Dominik Tracz",
+        "description": "Komendant Główny SG w okresie kryzysu migracyjnego",
+        "bio": "Polski generał Straży Granicznej. Komendant Główny Straży Granicznej od 2022 roku, kierował operacjami ochrony granicy polsko-białoruskiej podczas kryzysu migracyjnego. Pod jego dowództwem Straż Graniczna znacząco rozbudowała infrastrukturę i zdolności operacyjne na wschodniej granicy UE.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Komendant_Główny_Straży_Granicznej"
       }
     ],
     "relatedCareers": [
@@ -11791,6 +12484,12 @@
         "description": "Polski James Dean, gwiazda 'Popiołu i diamentu'",
         "bio": "Polski aktor (1927–1967). Nazywany „polskim Jamesem Deanem”, ikona polskiego kina za sprawą roli w „Popiele i diamencie” Wajdy. Zginął tragicznie w wypadku kolejowym we Wrocławiu.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Zbigniew_Cybulski"
+      },
+      {
+        "name": "Gustaw Holoubek",
+        "description": "Legendarny polski aktor teatru i filmu",
+        "bio": "Polski aktor i reżyser teatralny (1923–2008). Jeden z najwybitniejszych polskich aktorów XX wieku, dyrektor Teatru Dramatycznego w Warszawie. Niezapomniany jako Kordian i Konrad w inscenizacjach romantycznych. Znany z ról filmowych m.in. u Wajdy i Hasa, ikona polskiej kultury.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Gustaw_Holoubek"
       }
     ],
     "relatedCareers": [
@@ -12048,14 +12747,26 @@
       {
         "name": "Fryderyk Chopin",
         "description": "Najsłynniejszy polski kompozytor",
-        "bio": "Polski kompozytor i pianista (1810–1849). Najsłynniejszy polski muzyk w historii, wirtuoz fortepianu i twórca nokturnów, polonezów, mazurków i etiud. Większość życia tworzył w Paryżu, pozostając symbolem polskiej kultury.",
+        "bio": "Polski kompozytor i pianista (1810–1849). Najsłynniejszy polski kompozytor, „poeta fortepianu\". Autor polonezów, mazurków, nokturnów, etiud i ballad, które zrewolucjonizowały muzykę fortepianową. Żył i tworzył głównie w Paryżu. Co pięć lat w Warszawie odbywa się Międzynarodowy Konkurs Pianistyczny im. Chopina.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Fryderyk_Chopin"
       },
       {
         "name": "Krzysztof Penderecki",
         "description": "Kompozytor muzyki współczesnej, laureat Grammy",
-        "bio": "Polski kompozytor i dyrygent (1933–2020). Jeden z najważniejszych kompozytorów muzyki współczesnej XX wieku, laureat czterech nagród Grammy. Autor „Trenu ofiarom Hiroszimy” i „Polskiego Requiem”.",
+        "bio": "Polski kompozytor i dyrygent (1933–2020). Jeden z najważniejszych kompozytorów muzyki XX/XXI wieku, laureat czterech nagród Grammy. Autor „Trenu ofiarom Hiroszimy\", „Polskiego Requiem\" i oper. Jego muzyka wykorzystywana w filmach Kubricka, Lyncha i Scorsese. Dyrygował największymi orkiestrami świata.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Krzysztof_Penderecki"
+      },
+      {
+        "name": "Henryk Wieniawski",
+        "description": "Wirtuoz skrzypiec, kompozytor polonezów",
+        "bio": "Polski skrzypek i kompozytor (1835–1880). Jeden z najwybitniejszych wirtuozów skrzypiec w historii, koncertował w całej Europie i USA od 8 roku życia. Kompozytor koncertów skrzypcowych i polonezów. Na jego cześć odbywa się Międzynarodowy Konkurs Skrzypcowy im. Wieniawskiego w Poznaniu.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Henryk_Wieniawski"
+      },
+      {
+        "name": "Ludwig van Beethoven",
+        "description": "Geniusz muzyczny, twórca symfonii mimo głuchoty",
+        "bio": "Niemiecki kompozytor i pianista (1770–1827). Jeden z największych kompozytorów w historii muzyki, twórca 9 symfonii, 32 sonat fortepianowych i opery „Fidelio\". Komponował arcydzieła mimo postępującej głuchoty. Pomost między klasycyzmem a romantyzmem, jego IX Symfonia jest hymnem UE.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Ludwig_van_Beethoven"
       }
     ],
     "relatedCareers": [
@@ -12305,13 +13016,13 @@
       {
         "name": "Andrzej Wajda",
         "description": "Laureat Oscara, twórca polskiej szkoły filmowej",
-        "bio": "Polski reżyser filmowy (1926–2016). Twórca polskiej szkoły filmowej, laureat Oscara za całokształt twórczości. Reżyser kultowych filmów „Popiół i diament”, „Człowiek z marmuru” i „Katyń”.",
+        "bio": "Polski reżyser filmowy (1926–2016). Twórca polskiej szkoły filmowej, laureat Oscara za całokształt twórczości (2000). Reżyser kultowych filmów „Popiół i diament\", „Człowiek z marmuru\", „Katyń\". Dwukrotnie nominowany do Oscara, laureat Złotej Palmy w Cannes. Ikona polskiej i europejskiej kinematografii.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Andrzej_Wajda"
       },
       {
         "name": "Paweł Pawlikowski",
         "description": "Reżyser 'Idy' i 'Zimnej Wojny', laureat Oscara",
-        "bio": "Polsko-brytyjski reżyser (ur. 1957). Laureat Oscara za najlepszy film nieanglojęzyczny „Ida” (2015), twórca „Zimnej Wojny”. Jeden z najbardziej uznanych współczesnych polskich reżyserów na świecie.",
+        "bio": "Polsko-brytyjski reżyser (ur. 1957). Laureat Oscara za najlepszy film nieanglojęzyczny „Ida\" (2015), reżyser „Zimnej Wojny\" nominowanej do trzech Oscarów. Twórca minimalistycznego stylu filmowego łączącego piękno obrazu z głębią emocjonalną. Jeden z najważniejszych polskich reżyserów współczesnych.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Paweł_Pawlikowski"
       },
       {
@@ -12319,6 +13030,12 @@
         "description": "Reżyserka 'Europa Europa', nominowana do Oscara",
         "bio": "Polska reżyserka filmowa (ur. 1948). Trzykrotnie nominowana do Oscara, twórczyni filmów „Europa Europa”, „W ciemności” i „Zielona granica”. Jedna z najważniejszych postaci polskiego i europejskiego kina.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Agnieszka_Holland"
+      },
+      {
+        "name": "Krzysztof Kieślowski",
+        "description": "Twórca „Dekalogu\" i „Trzech kolorów\"",
+        "bio": "Polski reżyser filmowy (1941–1996). Twórca „Dekalogu\", „Podwójnego życia Weroniki\" i trylogii „Trzy kolory\". Jeden z najważniejszych reżyserów europejskich, wielokrotnie nominowany do Oscara. Jego filmy o moralnych wyborach i metafizyce codzienności zdobyły uznanie krytyków na całym świecie.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Krzysztof_Kieślowski"
       }
     ],
     "relatedCareers": [
@@ -12572,14 +13289,26 @@
       {
         "name": "Dorota Szelągowska",
         "description": "Projektantka wnętrz, prowadząca programy telewizyjne",
-        "bio": "Polska projektantka wnętrz i prezenterka telewizyjna (ur. 1978). Prowadząca popularne programy o aranżacji wnętrz w TVN, córka pisarki Katarzyny Grocholi. Autorka książek o designie i stylu życia.",
+        "bio": "Polska projektantka wnętrz i prezenterka telewizyjna (ur. 1978). Prowadząca programy „Dorota inspiruje\" i „Totalne remonty Szelągowskiej\", najpopularniejsza polska projektantka wnętrz w mediach. Córka Katarzyny Grocholi. Jej programy zmieniły podejście Polaków do urządzania mieszkań.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Dorota_Szelągowska"
       },
       {
         "name": "Kelly Wearstler",
         "description": "Amerykańska ikona designu wnętrz",
-        "bio": "Amerykańska projektantka wnętrz (ur. 1967). Jedna z najbardziej wpływowych designerek na świecie, znana z eklektycznego, odważnego stylu. Projektuje luksusowe wnętrza hoteli i rezydencji na całym świecie.",
+        "bio": "Amerykańska projektantka wnętrz (ur. 1967). Ikona designu wnętrz, znana z odważnych, eklektycznych projektów luksusowych hoteli i rezydencji. Projektantka wnętrz hoteli sieci Proper i Viceroy. Jej styl łączący glamour z artystyczną awangardą zdefiniował amerykański luksus XXI wieku.",
         "sourceUrl": "https://www.google.com/search?q=Kelly%20Wearstler"
+      },
+      {
+        "name": "Elsie de Wolfe",
+        "description": "Pierwsza profesjonalna projektantka wnętrz",
+        "bio": "Amerykańska projektantka wnętrz (1865–1950). Uznawana za pierwszą profesjonalną projektantkę wnętrz na świecie, zerwała z ciężkim stylem wiktoriańskim na rzecz jasnych, eleganckich przestrzeni. Autorka „The House in Good Taste\" (1913), zdefiniowała projektowanie wnętrz jako odrębny zawód.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Elsie_de_Wolfe"
+      },
+      {
+        "name": "Karim Rashid",
+        "description": "Wizjoner współczesnego designu wnętrz",
+        "bio": "Egipsko-kanadyjski projektant (ur. 1960). Jeden z najbardziej płodnych designerów na świecie — ponad 4000 produktów, wnętrza hoteli, restauracji i mieszkań. Znany z organicznych form i odważnych kolorów. Otrzymał ponad 300 nagród designerskich, jego prace są w 20 muzeach.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Karim_Rashid"
       }
     ],
     "relatedCareers": [
@@ -12835,14 +13564,26 @@
       {
         "name": "Maciej Zień",
         "description": "Jeden z najsłynniejszych polskich projektantów mody",
-        "bio": "Polski projektant mody (ur. 1974). Jeden z najbardziej rozpoznawalnych polskich kreatorów, znany z eleganckich kolekcji i projektów dla gwiazd. Wielokrotnie nagradzany, ubierał m.in. polskie delegacje olimpijskie.",
+        "bio": "Polski projektant mody (ur. 1975). Jeden z najsłynniejszych polskich projektantów, znany z dramatycznych pokazów mody. Ubierał gwiazdy polskiego show-biznesu, współpracował z markami luksusowymi. Trzykrotny laureat nagrody Elle Style Awards, rozpoznawany na polskiej i międzynarodowej scenie modowej.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Maciej_Zień"
       },
       {
         "name": "Coco Chanel",
         "description": "Legendarna kreatorka mody, twórczyni domu Chanel",
-        "bio": "Francuska projektantka mody (1883–1971). Założycielka domu mody Chanel, rewolucjonistka kobiecej garderoby — wprowadziła „małą czarną” i perfumy Chanel No. 5. Jedna z najbardziej wpływowych postaci w historii mody.",
+        "bio": "Francuska projektantka mody i przedsiębiorczyni (1883–1971). Twórczyni domu mody Chanel, zrewolucjonizowała modę kobiecą — wprowadziła „małą czarną\", tweed i perfumy Chanel N°5. Wyzwoliła kobiety z gorsetów, proponując elegancką prostotę. Jedna z najbardziej wpływowych postaci w historii mody.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Coco_Chanel"
+      },
+      {
+        "name": "Yves Saint Laurent",
+        "description": "Rewolucjonista mody, twórca smokingu dla kobiet",
+        "bio": "Francuski projektant mody (1936–2008). Rewolucjonista haute couture, wprowadził smoking (Le Smoking) do garderoby kobiecej w 1966 roku. Twórca linii prêt-à-porter, która zdemokratyzowała modę luksusową. Założyciel domu mody YSL, jeden z najważniejszych projektantów XX wieku.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Yves_Saint_Laurent_(designer)"
+      },
+      {
+        "name": "Ewa Minge",
+        "description": "Polska projektantka mody haute couture",
+        "bio": "Polska projektantka mody (ur. 1967). Jedyna Polka prezentująca kolekcje na Paris Fashion Week Haute Couture. Jej suknie noszą gwiazdy międzynarodowych gal, w tym uczestnicy Met Gala. Współpracuje z UNICEF, łącząc modę z działalnością charytatywną.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Ewa_Minge"
       }
     ],
     "relatedCareers": [
@@ -13092,14 +13833,26 @@
       {
         "name": "Janusz Korczak",
         "description": "Lekarz i pedagog, obrońca praw dziecka",
-        "bio": "Polski lekarz, pedagog i pisarz (1878–1942). Twórca nowatorskiego systemu wychowawczego i obrońca praw dziecka. Zginął w Treblince, dobrowolnie towarzysząc swoim wychowankom z Domu Sierot.",
+        "bio": "Polski lekarz, pedagog i pisarz (1878–1942). Twórca nowatorskiego systemu wychowawczego opartego na szacunku do dziecka i obrońca praw dziecka. Autor „Króla Maciusia Pierwszego\". Zginął w Treblince, dobrowolnie towarzysząc swoim wychowankom z Domu Sierot — symbol poświęcenia i humanizmu.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Janusz_Korczak"
       },
       {
         "name": "Maria Montessori",
         "description": "Twórczyni pedagogiki Montessori",
-        "bio": "Włoska lekarka i pedagożka (1870–1952). Twórczyni metody Montessori, rewolucyjnego systemu edukacji opartego na samodzielności dziecka. Jej podejście pedagogiczne jest stosowane w tysiącach szkół na całym świecie.",
+        "bio": "Włoska lekarka i pedagożka (1870–1952). Twórczyni metody Montessori — systemu edukacji opartego na samodzielności dziecka, przygotowanym otoczeniu i nauce przez doświadczenie. Pierwsza Włoszka z dyplomem lekarskim. Jej metoda jest stosowana w ponad 22 000 szkół w 110 krajach świata.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Maria_Montessori"
+      },
+      {
+        "name": "Paulo Freire",
+        "description": "Twórca pedagogiki wyzwolenia",
+        "bio": "Brazylijski pedagog i filozof (1921–1997). Twórca pedagogiki wyzwolenia, autor „Pedagogii uciśnionych\" — jednej z najważniejszych książek pedagogicznych XX wieku. Walczył z analfabetyzmem w Brazylii i Afryce. Jego metody krytycznego myślenia i dialogu zmieniły edukację na całym świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Paulo_Freire"
+      },
+      {
+        "name": "Aleksander Kamiński",
+        "description": "Pedagog, harcmistrz, autor „Kamieni na szaniec\"",
+        "bio": "Polski pedagog, harcmistrz i pisarz (1903–1978). Autor „Kamieni na szaniec\" — ikony polskiej literatury o młodzieżowym ruchu oporu. Twórca metody zuchowej w harcerstwie, profesor pedagogiki Uniwersytetu Łódzkiego. Wychowawca pokoleń polskich pedagogów i harcerzy.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Aleksander_Kamiński"
       }
     ],
     "relatedCareers": [
@@ -13353,8 +14106,26 @@
       {
         "name": "Leon Kaczmarek",
         "description": "Twórca polskiej szkoły logopedycznej",
-        "bio": "Polski logopeda i językoznawca (1920–1999). Twórca polskiej szkoły logopedycznej, profesor UMCS w Lublinie. Autor fundamentalnych prac z zakresu rozwoju mowy dziecka i metodologii logopedii.",
+        "bio": "Polski logopeda i językoznawca (1920–1999). Twórca polskiej szkoły logopedycznej, profesor UMCS w Lublinie. Autor fundamentalnych prac z zakresu rozwoju mowy dziecka i metodologii logopedii. Założyciel Polskiego Towarzystwa Logopedycznego i twórca kierunku logopedii na polskich uczelniach.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Leon_Kaczmarek"
+      },
+      {
+        "name": "Zbigniew Tarkowski",
+        "description": "Wybitny polski specjalista jąkania",
+        "bio": "Polski logopeda i psycholog (ur. 1952). Profesor UMCS w Lublinie, jeden z najwybitniejszych polskich specjalistów w zakresie terapii jąkania. Autor przełomowych metod diagnozy i terapii zaburzeń płynności mowy. Jego podejście integruje logopedię z psychoterapią.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Logopedia"
+      },
+      {
+        "name": "Stanisław Grabias",
+        "description": "Twórca lingwistycznej koncepcji logopedii",
+        "bio": "Polski językoznawca i logopeda. Profesor UMCS w Lublinie, twórca lingwistycznej koncepcji logopedii polskiej. Opracował kompleksowy model diagnozy logopedycznej oparty na teoriach językoznawczych. Autor fundamentalnych prac definiujących logopedię jako dyscyplinę naukową.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Stanisław_Grabias"
+      },
+      {
+        "name": "Charles Van Riper",
+        "description": "Ojciec współczesnej terapii jąkania",
+        "bio": "Amerykański logopeda (1905–1994). Twórca nowoczesnych metod terapii jąkania, sam jąkał się od dzieciństwa. Profesor Western Michigan University, autor „The Nature of Stuttering\" — biblii terapii mowy. Jego podejście do desensytyzacji jąkania jest stosowane na całym świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Charles_Van_Riper"
       }
     ],
     "relatedCareers": [
@@ -13598,14 +14369,26 @@
       {
         "name": "Maria Skłodowska-Curie",
         "description": "Noblistka, profesorka Sorbony",
-        "bio": "Polsko-francuska fizyczka i chemiczka (1867–1934). Pierwsza kobieta uhonorowana Nagrodą Nobla — zdobyła ją dwukrotnie (fizyka 1903, chemia 1911). Odkrywczyni polonu i radu, profesorka Sorbony w Paryżu.",
+        "bio": "Polsko-francuska uczona (1867–1934). Dwukrotna laureatka Nagrody Nobla (fizyka 1903, chemia 1911), odkryła polon i rad. Pierwsza kobieta-profesor na Sorbonie. Podczas I wojny światowej organizowała mobilne stacje rentgenowskie. Jej badania położyły fundamenty pod fizykę jądrową i radioterapię.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Maria_Skłodowska-Curie"
       },
       {
         "name": "Olga Tokarczuk",
         "description": "Noblistka, wykładowczyni literatury",
-        "bio": "Polska pisarka (ur. 1962). Laureatka Literackiej Nagrody Nobla 2018, autorka powieści „Bieguni” i „Księgi Jakubowe”. Jedna z najważniejszych współczesnych polskich pisarek, tłumaczona na dziesiątki języków.",
+        "bio": "Polska pisarka i psycholożka (ur. 1962). Laureatka Nagrody Nobla w dziedzinie literatury 2018, autorka „Biegunów\", „Ksiąg Jakubowych\" i „Prowadź swój pług przez kości umarłych\". Dwukrotna laureatka Nagrody Nike. Wykładała literaturę i psychologię, łącząc obie dziedziny w swojej prozie.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Olga_Tokarczuk"
+      },
+      {
+        "name": "Albert Einstein",
+        "description": "Noblista, profesor fizyki teoretycznej",
+        "bio": "Niemiecko-amerykański fizyk (1879–1955). Laureat Nagrody Nobla, twórca teorii względności. Profesor ETH Zürich, Uniwersytetu w Berlinie i Princeton. Oprócz rewolucji w fizyce, był cenionym wykładowcą — studenci wspominali jego zdolność tłumaczenia najtrudniejszych koncepcji prostym językiem.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Albert_Einstein"
+      },
+      {
+        "name": "Karol Modzelewski",
+        "description": "Historyk, profesor, opozycjonista",
+        "bio": "Polski historyk mediewista i działacz opozycji (1937–2019). Profesor Uniwersytetu Wrocławskiego, współautor „Listu otwartego do partii\" (z Kuroniem). Za działalność opozycyjną spędził 8 lat w więzieniu. Autor fundamentalnych prac o wczesnym średniowieczu, łączył pracę naukową z walką o wolność.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Karol_Modzelewski"
       }
     ],
     "relatedCareers": [
@@ -13764,8 +14547,26 @@
       {
         "name": "Vidal Sassoon",
         "description": "Rewolucjonista fryzjerstwa, twórca geometrycznych cięć",
-        "bio": "Brytyjski fryzjer i przedsiębiorca (1928–2012). Rewolucjonista fryzjerstwa, twórca geometrycznych cięć i nowoczesnego podejścia do strzyżenia. Zbudował globalną markę produktów do pielęgnacji włosów.",
+        "bio": "Brytyjski fryzjer i przedsiębiorca (1928–2012). Rewolucjonista fryzjerstwa, twórca geometrycznych cięć i asymetrycznego boba, które wyzwoliły kobiety od czasochłonnego układania włosów. Zbudował globalną markę produktów do pielęgnacji włosów. Jego motto: „Jeśli nie wyglądasz dobrze, my nie wyglądamy dobrze\".",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Vidal_Sassoon"
+      },
+      {
+        "name": "Tomasz Schmitt",
+        "description": "Polski mistrz fryzjerstwa, wielokrotny mistrz Polski",
+        "bio": "Polski fryzjer i stylista. Wielokrotny Mistrz Polski we fryzjerstwie, reprezentant kraju na międzynarodowych konkursach fryzjerskich. Właściciel renomowanego salonu w Warszawie, szkoleniowiec i juror konkursów fryzjerskich. Popularyzator nowoczesnych technik koloryzacji i strzyżenia w Polsce.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Fryzjerstwo"
+      },
+      {
+        "name": "Marcel Grateau",
+        "description": "Wynalazca ondulacji — fali marcelek",
+        "bio": "Francuski fryzjer (1852–1936). Wynalazca ondulacji marcelek — techniki kręcenia włosów gorącymi szczypcami, która zrewolucjonizowała fryzjerstwo w XIX wieku. Jego salon w Paryżu był odwiedzany przez arystokratki z całej Europy. Uważany za ojca nowoczesnego stylingu.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Marcel_Grateau"
+      },
+      {
+        "name": "Oribe Canales",
+        "description": "Legendarny stylista gwiazd Hollywood",
+        "bio": "Kubańsko-amerykański fryzjer (1956–2018). Jeden z najsłynniejszych stylistów włosów na świecie, współpracował z Jennifer Lopez, Naomi Campbell i wieloma supermodelkami. Założyciel luksusowej marki kosmetyków Oribe. Zdefiniował styl fryzjerski lat 80. i 90. w amerykańskiej modzie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Oribe_Canales"
       }
     ],
     "relatedCareers": [
@@ -14014,8 +14815,26 @@
       {
         "name": "Helena Rubinstein",
         "description": "Polka, twórczyni globalnego imperium kosmetycznego",
-        "bio": "Polsko-amerykańska przedsiębiorczyni (1872–1965). Urodzona w Krakowie, zbudowała jedno z największych imperiów kosmetycznych na świecie. Pionierka nowoczesnej kosmetologii i jedna z najbogatszych kobiet swoich czasów.",
+        "bio": "Polsko-amerykańska przedsiębiorczyni (1872–1965). Urodzona w Krakowie, zbudowała jedno z największych imperiów kosmetycznych na świecie. Pionierka nowoczesnej kosmetologii i naukowo udokumentowanej pielęgnacji skóry. Jedna z najbogatszych kobiet swoich czasów, wielka filantropka i kolekcjonerka sztuki.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Helena_Rubinstein"
+      },
+      {
+        "name": "Estée Lauder",
+        "description": "Twórczyni globalnego imperium kosmetycznego",
+        "bio": "Amerykańska przedsiębiorczyni (1908–2004). Założycielka Estée Lauder Companies — jednego z największych koncernów kosmetycznych świata. Pionierka próbek gratisowych (gift with purchase) jako strategii marketingowej. Jedyna kobieta na liście Time „20 najbardziej wpływowych geniuszy biznesu XX wieku\".",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Estée_Lauder_(businesswoman)"
+      },
+      {
+        "name": "Elizabeth Arden",
+        "description": "Pionierka kompleksowej pielęgnacji skóry",
+        "bio": "Kanadyjsko-amerykańska przedsiębiorczyni (1878–1966). Założycielka marki Elizabeth Arden, stworzyła koncepcję kompleksowej pielęgnacji skóry i salonu kosmetycznego jako miejsca luksusowego relaksu. Jej Red Door Salon na Piątej Alei stał się ikoną nowojorskiego luksusu i nowoczesnej kosmetologii.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Elizabeth_Arden"
+      },
+      {
+        "name": "Joanna Czech",
+        "description": "Polska kosmetyczka gwiazd Hollywood",
+        "bio": "Polsko-amerykańska kosmetyczka i estetyk (ur. w Polsce). Jedna z najbardziej znanych kosmetyczek na świecie, pracuje z gwiazdami Hollywood — Kim Kardashian, Jennifer Aniston i wieloma innymi. Jej salon w Dallas i Nowym Jorku wyznacza trendy w profesjonalnej pielęgnacji skóry.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Joanna_Czech"
       }
     ],
     "relatedCareers": [
@@ -14175,8 +14994,26 @@
       {
         "name": "Paweł Małecki",
         "description": "Znany polski cukiernik, mistrz tortów artystycznych",
-        "bio": "Polski cukiernik i mistrz tortów artystycznych. Znany z efektownych dekoracji cukierniczych i współpracy z mediami. Popularyzator sztuki cukierniczej w Polsce, uczestnik programów telewizyjnych.",
+        "bio": "Polski cukiernik i mistrz tortów artystycznych. Znany z efektownych dekoracji cukierniczych i współpracy z mediami. Popularyzator sztuki cukierniczej w Polsce, uczestnik i juror programów telewizyjnych. Prowadzi warsztaty cukiernicze, kształcąc nowe pokolenie polskich cukierników artystycznych.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Paweł_Małecki_(cukiernik)"
+      },
+      {
+        "name": "Marie-Antoine Carême",
+        "description": "Król cukierników, twórca haute pâtisserie",
+        "bio": "Francuski szef kuchni i cukiernik (1784–1833). Uznawany za „króla cukierników i cukiernika królów\", twórca haute pâtisserie. Gotował dla Napoleona, Talleyranda i cara Aleksandra I. Napisał pierwsze wielkie dzieła kulinarne, kodyfikując sztukę cukiernictwa i gastronomii francuskiej.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Marie-Antoine_Carême"
+      },
+      {
+        "name": "Pierre Hermé",
+        "description": "Współczesny mistrz makaroników",
+        "bio": "Francuski cukiernik (ur. 1961). Nazywany „Picassem cukiernictwa\", zasłynął innowacyjnymi makaronikami i nieoczywistymi połączeniami smaków jak Ispahan (róża-malina-liczi). Właściciel sieci cukierni na całym świecie, pierwszy cukiernik na liście 50 Best Restaurants w historii.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Pierre_Hermé"
+      },
+      {
+        "name": "Antoni Wedel",
+        "description": "Założyciel polskiego imperium czekoladowego",
+        "bio": "Polsko-niemiecki cukiernik i przedsiębiorca (1823–1898). Założyciel firmy E. Wedel — najsłynniejszej polskiej marki czekoladowej. Zbudował fabrykę na ul. Szpitalnej w Warszawie, wprowadzając nowoczesne metody produkcji czekolady. Jego ptasie mleczko i czekolada Wedel są ikonami polskiego cukiernictwa.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Jan_Wedel"
       }
     ],
     "relatedCareers": [
@@ -14336,8 +15173,26 @@
       {
         "name": "Chad Robertson",
         "description": "Założyciel Tartine Bakery, guru zakwasu",
-        "bio": "Amerykański piekarz (ur. ok. 1970). Założyciel legendarnej Tartine Bakery w San Francisco, guru piekarnictwa na zakwasie. Autor bestsellerowej książki „Tartine Bread”, która zrewolucjonizowała domowe pieczenie chleba.",
+        "bio": "Amerykański piekarz (ur. ok. 1970). Założyciel legendarnej Tartine Bakery w San Francisco — jednej z najsłynniejszych piekarni na świecie. Jego „Tartine Bread\" stała się biblią piekarstwa na zakwasie. Uczył się piekarstwa we Francji, jego chleb country loaf jest kultowy wśród miłośników wypieków.",
         "sourceUrl": "https://www.google.com/search?q=Chad%20Robertson"
+      },
+      {
+        "name": "Apollonia Poilâne",
+        "description": "Szefowa legendarnej piekarni Poilâne w Paryżu",
+        "bio": "Francuska piekarka i przedsiębiorca (ur. 1984). W wieku 18 lat przejęła rodzinną piekarnię Poilâne w Paryżu po tragicznej śmierci rodziców. Jej chleb na zakwasie (pain Poilâne) jest eksportowany do 20 krajów. Studiowała na Harvardzie, łącząc tradycję piekarską z nowoczesnym biznesem.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Apollonia_Poilâne"
+      },
+      {
+        "name": "Łukasz Słoniewski",
+        "description": "Polski mistrz piekarstwa rzemieślniczego",
+        "bio": "Polski piekarz i popularyzator piekarstwa rzemieślniczego. Propagator pieczenia chleba na zakwasie i tradycyjnych polskich receptur piekarskich. Prowadzi warsztaty i szkolenia z piekarstwa artystycznego, przyczyniając się do odrodzenia rzemieślniczego podejścia do wypieku chleba w Polsce.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Piekarstwo"
+      },
+      {
+        "name": "Richard Bourdon",
+        "description": "Pionier piekarstwa na zakwasie w Ameryce",
+        "bio": "Amerykański piekarz i nauczyciel piekarstwa. Założyciel Berkshire Mountain Bakery w Massachusetts — jednej z pierwszych piekarni w USA wypiekających chleb wyłącznie na zakwasie. Jego podejście do naturalnej fermentacji zainspirował ruch „real bread\" w Stanach Zjednoczonych.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sourdough"
       }
     ],
     "relatedCareers": [
@@ -14488,8 +15343,26 @@
       {
         "name": "Agnieszka Rojewska",
         "description": "Polka — Mistrzyni Świata Baristów 2018",
-        "bio": "Polska baristka (ur. ok. 1990). Mistrzyni Świata Baristów 2018 (World Barista Championship) — pierwsza Polka i pierwsza kobieta z tytułem. Współwłaścicielka kawiarni Cafe Targowa i ambasadorka polskiej kultury kawowej.",
+        "bio": "Polska baristka i trenerka (ur. ok. 1985). Mistrzyni Świata Baristów 2018 — pierwsza kobieta i pierwsza Polka, która zdobyła ten tytuł. Współwłaścicielka palarni kawy Audun Coffee w Poznaniu. Sędzina i szkoleniowiec na międzynarodowych mistrzostwach, ambasadorka polskiej kultury kawy specialty.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Agnieszka_Rojewska"
+      },
+      {
+        "name": "James Hoffmann",
+        "description": "Mistrz Świata Baristów, autor i youtuber",
+        "bio": "Brytyjski barista i przedsiębiorca (ur. 1981). Mistrz Świata Baristów 2007, założyciel palarni Square Mile Coffee Roasters w Londynie. Autor bestsellerowej „The World Atlas of Coffee\", prowadzi popularny kanał na YouTube o kawie z milionami subskrybentów. Ikona specialty coffee.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/James_Hoffmann"
+      },
+      {
+        "name": "Luigi Bezzera",
+        "description": "Wynalazca ekspresu do espresso",
+        "bio": "Włoski wynalazca i przedsiębiorca (1868–1920). Opatentował pierwszy komercyjny ekspres do espresso w 1901 roku, rewolucjonizując sposób parzenia kawy. Jego maszyna ciśnieniowa stworzyła fundament kultury espresso we Włoszech i na świecie, definiując zawód bariście na ponad sto lat.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Luigi_Bezzera"
+      },
+      {
+        "name": "Howard Schultz",
+        "description": "Twórca globalnego imperium Starbucks",
+        "bio": "Amerykański przedsiębiorca (ur. 1953). CEO Starbucks, który przekształcił małą kawiarnię z Seattle w globalną sieć z ponad 35 000 lokali. Zainspirowany włoską kulturą kawową, stworzył koncept „trzeciego miejsca\" między domem a pracą, zmieniając światowe nawyki picia kawy.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Howard_Schultz"
       }
     ],
     "relatedCareers": [
@@ -14691,8 +15564,26 @@
       {
         "name": "Rick Steves",
         "description": "Amerykański guru turystyki europejskiej",
-        "bio": "Amerykański pisarz podróżniczy i prezenter (ur. 1955). Autor bestsellerowych przewodników po Europie i gospodarz programów telewizyjnych o podróżach. Jeden z najbardziej wpływowych popularyzatorów turystyki w USA.",
+        "bio": "Amerykański podróżnik, pisarz i prezenter telewizyjny (ur. 1955). Autor bestsellerowych przewodników „Rick Steves' Europe\" i prowadzący program PBS o podróżach po Europie. Propagator tanich, kulturowych podróży — „podróżuj jak miejscowy, nie jak turysta\". Jego przewodniki sprzedały się w milionach egzemplarzy.",
         "sourceUrl": "https://www.google.com/search?q=Rick%20Steves"
+      },
+      {
+        "name": "Thomas Cook",
+        "description": "Ojciec zorganizowanej turystyki",
+        "bio": "Brytyjski przedsiębiorca (1808–1892). Założyciel Thomas Cook & Son — pierwszego biura podróży na świecie. W 1841 roku zorganizował pierwszą komercyjną wycieczkę grupową koleją z Leicester do Loughborough. Wynalazł voucher hotelowy i czek podróżny, tworząc podwaliny współczesnej turystyki.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Thomas_Cook"
+      },
+      {
+        "name": "Beata Pawlikowska",
+        "description": "Polska podróżniczka, pisarka i dziennikarka",
+        "bio": "Polska podróżniczka, pisarka i ilustratorka (ur. 1965). Autorka bestsellerowych książek podróżniczych i poradnikowych, odwiedziła ponad 100 krajów. Prowadziła programy telewizyjne o podróżach, jej blogi podróżnicze inspirują miliony Polaków do odkrywania świata.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Beata_Pawlikowska"
+      },
+      {
+        "name": "Nellie Bly",
+        "description": "Dziennikarka, która objechała świat w 72 dni",
+        "bio": "Amerykańska dziennikarka i podróżniczka (1864–1922). W 1889 roku objechała kulę ziemską w rekordowe 72 dni, bijąc fikcyjny rekord Phileasa Fogga z powieści Verne'a. Pionierka dziennikarstwa śledczego, swoimi reportażami z podróży zainspirował pokolenia pilotów wycieczek i podróżników.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Nellie_Bly"
       }
     ],
     "relatedCareers": [
@@ -14852,8 +15743,26 @@
       {
         "name": "Sam Maloof",
         "description": "Legendarny amerykański stolarz-artysta",
-        "bio": "Amerykański stolarz i artysta (1916–2009). Legendarny twórca mebli, szczególnie bujanych foteli, uznawanych za dzieła sztuki. Laureat MacArthur Fellowship, jego prace znajdują się w zbiorach Smithsonian.",
+        "bio": "Amerykański stolarz i artysta (1916–2009). Twórca kultowych foteli bujanych rzeźbionych ręcznie z litego drewna, wystawianych w Smithsonian i Metropolitan Museum of Art. Laureat MacArthur Fellowship — „nagrody dla geniuszy\". Symbol amerykańskiego rzemiosła artystycznego, nie używał wzorników — każdy mebel był unikalny.",
         "sourceUrl": "https://www.google.com/search?q=Sam%20Maloof"
+      },
+      {
+        "name": "Thomas Chippendale",
+        "description": "Najsłynniejszy mebel brytyjski, ikona stolarstwa",
+        "bio": "Brytyjski stolarz i projektant mebli (1718–1779). Autor „The Gentleman and Cabinet-Maker's Director\" — pierwszego katalogu wzorów mebli. Jego eleganckie meble w stylu rokoko i neogotyku definiowały gust epoki. Styl Chippendale do dziś jest synonimem najwyższej klasy meblarstwa.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Thomas_Chippendale"
+      },
+      {
+        "name": "Tadeusz Kantor",
+        "description": "Artysta totalny, twórca teatru przedmiotów",
+        "bio": "Polski artysta, reżyser teatralny i scenograf (1915–1990). Choć znany głównie z teatru, rozpoczynał karierę jako konstruktor scenografii i obiektów z drewna. Twórca „Teatru Śmierci\" i słynnej „Umarłej klasy\", w których rzemiosło stolarskie służyło wizji artystycznej.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Tadeusz_Kantor"
+      },
+      {
+        "name": "Nakashima George",
+        "description": "Mistrz meblarstwa organicznego",
+        "bio": "Amerykański stolarz i architekt japońskiego pochodzenia (1905–1990). Twórca meblarstwa organicznego — wykorzystywał naturalne kształty drewna, zachowując sęki i krawędzie. Jego stoły i ławki z litego drewna są wystawiane w muzeach sztuki. Uczeń japońskich mistrzów stolarstwa.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/George_Nakashima"
       }
     ],
     "relatedCareers": [
@@ -15098,7 +16007,7 @@
       {
         "name": "Stefan Bryła",
         "description": "Konstruktor pierwszego na świecie mostu spawanego",
-        "bio": "Polski inżynier (1886–1943). Konstruktor pierwszego na świecie mostu spawanego (most na Słudwi, 1929), pionier technologii spawania w budownictwie. Profesor Politechniki Lwowskiej, zginął zamordowany podczas okupacji.",
+        "bio": "Polski inżynier budownictwa (1886–1943). Skonstruował pierwszy na świecie most drogowy o konstrukcji spawanej na rzece Słudwi koło Łowicza w 1929 roku. Profesor Politechniki Lwowskiej i Warszawskiej, pionier spawania konstrukcji stalowych. Zamordowany przez Niemców podczas okupacji.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Stefan_Bryła"
       },
       {
@@ -15106,6 +16015,18 @@
         "description": "Twórca wieży Eiffla w Paryżu",
         "bio": "Francuski inżynier (1832–1923). Twórca słynnej wieży Eiffla w Paryżu, wzniesionej na Wystawę Światową 1889 roku. Projektował też konstrukcję nośną Statui Wolności i liczne mosty na całym świecie.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Gustave_Eiffel"
+      },
+      {
+        "name": "Isambard Kingdom Brunel",
+        "description": "Genialny inżynier epoki wiktoriańskiej",
+        "bio": "Brytyjski inżynier (1806–1859). Projektant Great Western Railway, tunelu pod Tamizą i rewolucyjnych statków parowych (SS Great Britain, SS Great Eastern). Uznawany za największego inżyniera epoki wiktoriańskiej, jego innowacje w budownictwie mostów, tuneli i kolei zmieniły oblicze Wielkiej Brytanii.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Isambard_Kingdom_Brunel"
+      },
+      {
+        "name": "Wacław Żenczykowski",
+        "description": "Polski inżynier, ekspert budownictwa powojennego",
+        "bio": "Polski inżynier budownictwa i profesor. Autor fundamentalnych podręczników budownictwa ogólnego, z których kształciły się pokolenia polskich inżynierów. Ekspert technologii betonowych i murowych, współtworzył standardy budownictwa w powojennej Polsce. Profesor Politechniki Warszawskiej.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Budownictwo"
       }
     ],
     "relatedCareers": [
@@ -15355,7 +16276,7 @@
       {
         "name": "Nikola Tesla",
         "description": "Wynalazca prądu zmiennego i wielu maszyn",
-        "bio": "Serbsko-amerykański wynalazca i inżynier (1856–1943). Pionier prądu zmiennego (AC), silnika indukcyjnego i wielu innych przełomowych technologii. Jego prace położyły fundamenty pod współczesną elektrotechnikę.",
+        "bio": "Serbsko-amerykański wynalazca i inżynier (1856–1943). Pionier prądu zmiennego (AC), silnika indukcyjnego, cewki Tesli i wielu przełomowych technologii elektrycznych. Posiadał ponad 300 patentów. Jego wizjonerskie prace nad przesyłaniem energii bezprzewodowo wyprzedzały epokę. Zmarł w samotności w nowojorskim hotelu.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Nikola_Tesla"
       },
       {
@@ -15363,6 +16284,18 @@
         "description": "Udoskonalił maszynę parową, rewolucja przemysłowa",
         "bio": "Szkocki wynalazca i inżynier (1736–1819). Udoskonalił maszynę parową, co zapoczątkowało rewolucję przemysłową. Na jego cześć nazwano jednostkę mocy — wat.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/James_Watt"
+      },
+      {
+        "name": "Rudolf Diesel",
+        "description": "Wynalazca silnika Diesla",
+        "bio": "Niemiecko-francuski inżynier (1858–1913). Wynalazca silnika o zapłonie samoczynnym (silnik Diesla) w 1893 roku — jednego z najważniejszych wynalazków epoki przemysłowej. Jego silnik napędza dziś ciężarówki, statki, lokomotywy i elektrownie na całym świecie. Zaginął w tajemniczych okolicznościach na Morzu Północnym.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Rudolf_Diesel"
+      },
+      {
+        "name": "Tadeusz Tański",
+        "description": "Twórca polskiego samochodu CWS T-1",
+        "bio": "Polski inżynier mechanik (1892–1941). Konstruktor pierwszego seryjnie produkowanego polskiego samochodu CWS T-1 (1927). Zaprojektował też motocykl Sokół, symbol polskiej inżynierii międzywojennej. Profesor Politechniki Warszawskiej, zginął w obozie koncentracyjnym Sachsenhausen.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Tadeusz_Tański"
       }
     ],
     "relatedCareers": [
@@ -15607,8 +16540,26 @@
       {
         "name": "Tadeusz Kościuszko",
         "description": "Inżynier wojskowy i geodeta, bohater narodowy",
-        "bio": "Polski i amerykański bohater narodowy (1746–1817). Generał, inżynier wojskowy i przywódca insurekcji kościuszkowskiej. Walczył o niepodległość zarówno Polski, jak i Stanów Zjednoczonych.",
+        "bio": "Polski i amerykański bohater narodowy (1746–1817). Generał, inżynier wojskowy i przywódca insurekcji kościuszkowskiej (1794). Walczył o niepodległość zarówno Polski, jak i Stanów Zjednoczonych, fortyfikując West Point podczas wojny o niepodległość. Symbol walki o wolność dwóch narodów.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Tadeusz_Kościuszko"
+      },
+      {
+        "name": "Józef Chodźko",
+        "description": "Twórca triangulacji Kaukazu",
+        "bio": "Polski geodeta i generał armii rosyjskiej (1800–1881). Przeprowadził triangulację Kaukazu — jedno z największych przedsięwzięć geodezyjnych XIX wieku. Zmierzył wysokość wielu szczytów Kaukazu, w tym Elbrusa. Członek Rosyjskiego Towarzystwa Geograficznego, pionier geodezji górskiej.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Józef_Chodźko"
+      },
+      {
+        "name": "Eratostenes",
+        "description": "Starożytny uczony, który zmierzył obwód Ziemi",
+        "bio": "Grecki matematyk, geograf i astronom (276–194 p.n.e.). Pierwszy człowiek, który z dużą dokładnością obliczył obwód Ziemi, mierząc kąt padania promieni słonecznych w Aleksandrii i Syene. Dyrektor Biblioteki Aleksandryjskiej, uznawany za ojca geodezji i kartografii naukowej.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Eratostenes"
+      },
+      {
+        "name": "Friedrich Bessel",
+        "description": "Twórca nowoczesnej geodezji naukowej",
+        "bio": "Niemiecki astronom i matematyk (1784–1846). Przeprowadził pierwszą precyzyjną paralaksę gwiazdową i określił kształt Ziemi (elipsoida Bessela). Jego elipsoida odniesienia była standardem geodezyjnym przez ponad 100 lat. Fundamentalny wkład w astronomię pozycyjną i geodezję wyższą.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Friedrich_Bessel"
       }
     ],
     "relatedCareers": [
@@ -15858,14 +16809,26 @@
       {
         "name": "Jan Gehl",
         "description": "Duński urbanista, twórca koncepcji miasta ludzkiego",
-        "bio": "Duński architekt i urbanista (ur. 1936). Twórca koncepcji „miasta ludzkiego” — projektowania przestrzeni miejskich przyjaznych pieszym i rowerzystom. Jego idee zrewolucjonizowały urbanistykę na całym świecie.",
+        "bio": "Duński architekt i urbanista (ur. 1936). Twórca koncepcji „miasta dla ludzi\" — urbanistyki opartej na potrzebach pieszych i rowerzystów zamiast samochodów. Autor „Życia między budynkami\" i „Miasta dla ludzi\". Jego idee zmieniły Kopenhagę i są wdrażane w Nowym Jorku, Melbourne i Moskwie.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Jan_Gehl"
       },
       {
         "name": "Le Corbusier",
         "description": "Wizjoner urbanistyki modernistycznej",
-        "bio": "Szwajcarsko-francuski architekt (1887–1965), właśc. Charles-Édouard Jeanneret. Jeden z najważniejszych architektów XX wieku, wizjoner urbanistyki modernistycznej. Twórca koncepcji „maszyny do mieszkania” i projektant Chandigarh w Indiach.",
+        "bio": "Szwajcarsko-francuski architekt i urbanista (1887–1965). Wizjoner modernizmu, twórca „pięciu punktów nowej architektury\" i koncepcji Ville Radieuse. Zaprojektował Chandigarh w Indiach i jednostkę mieszkaniową w Marsylii. 17 jego budynków wpisano na Listę Światowego Dziedzictwa UNESCO.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Le_Corbusier"
+      },
+      {
+        "name": "Jane Jacobs",
+        "description": "Obrończyni miast przyjaznych ludziom",
+        "bio": "Amerykańsko-kanadyjska dziennikarka i aktywistka (1916–2006). Autorka „Śmierci i życia wielkich miast amerykańskich\" — biblii urbanistyki. Walczyła z modernistycznym planowaniem niszczącym dzielnice (np. zatrzymała autostradę przez Manhattan). Jej idee — różnorodność, ulice dla pieszych — definiują współczesną urbanistykę.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Jane_Jacobs"
+      },
+      {
+        "name": "Tadeusz Tołwiński",
+        "description": "Ojciec polskiej urbanistyki naukowej",
+        "bio": "Polski architekt i urbanista (1887–1951). Profesor Politechniki Warszawskiej, autor monumentalnego „Urbanistyki\" — pierwszego polskiego podręcznika tej dziedziny. Współtwórca planów odbudowy Warszawy po II wojnie światowej. Jego dzieło naukowe kształtowało polską urbanistykę przez dekady.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Tadeusz_Tołwiński"
       }
     ],
     "relatedCareers": [
@@ -16021,8 +16984,26 @@
       {
         "name": "Enzo Ferrari",
         "description": "Założyciel marki Ferrari, pasjonat mechaniki",
-        "bio": "Włoski przedsiębiorca i kierowca wyścigowy (1898–1988). Założyciel marki Ferrari, jednej z najbardziej legendarnych marek motoryzacyjnych świata. Przez dekady jego samochody dominowały w wyścigach Formuły 1.",
+        "bio": "Włoski przedsiębiorca i kierowca wyścigowy (1898–1988). Założyciel marki Ferrari — ikony luksusu i wyścigów samochodowych. Zaczynał jako mechanik i kierowca wyścigowy, potem stworzył legendarną Scuderię Ferrari w Formule 1. Jego samochody łączą inżynieryjną precyzję z włoskim designem i pasją do prędkości.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Enzo_Ferrari"
+      },
+      {
+        "name": "Karl Benz",
+        "description": "Wynalazca pierwszego samochodu z silnikiem spalinowym",
+        "bio": "Niemiecki inżynier i wynalazca (1844–1929). Skonstruował pierwszy na świecie samochód z silnikiem spalinowym — Benz Patent-Motorwagen w 1886 roku. Współzałożyciel firmy Mercedes-Benz. Jego wynalazek rozpoczął erę motoryzacji i stworzył zapotrzebowanie na zawód mechanika samochodowego.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Karl_Benz"
+      },
+      {
+        "name": "Soichiro Honda",
+        "description": "Mechanik-samouk, założyciel Hondy",
+        "bio": "Japoński inżynier i przedsiębiorca (1906–1991). Rozpoczął karierę jako mechanik samochodowy, a następnie założył Honda Motor Company. Z małego warsztatu zbudował globalny koncern motoryzacyjny. Znany z perfekcjonizmu mechanicznego i filozofii „wyścig to laboratorium dla rozwoju technologii\".",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Soichiro_Honda"
+      },
+      {
+        "name": "Carroll Shelby",
+        "description": "Legendarny konstruktor i mechanik samochodów wyścigowych",
+        "bio": "Amerykański kierowca wyścigowy i konstruktor (1923–2012). Były pilot wojskowy i hodowca drobiu, który stał się legendarnym mechanikiem-konstruktorem. Stworzył Shelby Cobra i Ford GT40, który pokonał Ferrari w Le Mans 1966. Ikona amerykańskiego muscle car i tuning samochodowy.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Carroll_Shelby"
       }
     ],
     "relatedCareers": [
@@ -16179,8 +17160,26 @@
       {
         "name": "Stefan Bryła",
         "description": "Pionier spawania konstrukcji stalowych",
-        "bio": "Polski inżynier (1886–1943). Konstruktor pierwszego na świecie mostu spawanego (most na Słudwi, 1929), pionier technologii spawania w budownictwie. Profesor Politechniki Lwowskiej, zginął zamordowany podczas okupacji.",
+        "bio": "Polski inżynier budownictwa (1886–1943). Skonstruował pierwszy na świecie most drogowy o konstrukcji spawanej na rzece Słudwi koło Łowicza w 1929 roku. Profesor Politechniki Lwowskiej i Warszawskiej, pionier spawania konstrukcji stalowych. Zamordowany przez Niemców podczas okupacji.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Stefan_Bryła"
+      },
+      {
+        "name": "Nikołaj Benardos",
+        "description": "Wynalazca spawania łukowego",
+        "bio": "Rosyjski wynalazca greckiego pochodzenia (1842–1905). Opatentował pierwszą metodę spawania łukowego elektrodą węglową w 1885 roku. Jego wynalazek zrewolucjonizował przemysł metalowy i budownictwo. Uznawany za ojca spawania elektrycznego — podstawowej technologii łączenia metali na świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Nikolay_Benardos"
+      },
+      {
+        "name": "Lincoln Electric",
+        "description": "Rodzina Lincolnów — twórcy przemysłu spawalniczego",
+        "bio": "John C. Lincoln (1866–1959) i James F. Lincoln (1883–1965) — amerykańscy wynalazcy i przedsiębiorcy. Założyciele Lincoln Electric — największej na świecie firmy produkującej sprzęt spawalniczy. Wprowadzili innowacyjny system zarządzania pracownikami, łączący wydajność z godnym traktowaniem spawaczy.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Lincoln_Electric"
+      },
+      {
+        "name": "Robert Gage",
+        "description": "Wynalazca spawania TIG",
+        "bio": "Amerykański inżynier (XX w.). Wynalazca metody spawania TIG (Tungsten Inert Gas) w 1941 roku, która umożliwiła precyzyjne łączenie aluminium i stali nierdzewnej. Technologia TIG jest dziś standardem w lotnictwie, kosmonautyce i wszędzie tam, gdzie wymagana jest najwyższa jakość spawów.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Gas_tungsten_arc_welding"
       }
     ],
     "relatedCareers": [
@@ -16429,8 +17428,26 @@
       {
         "name": "Gerardus Mercator",
         "description": "Twórca odwzorowania Mercatora, ikona kartografii",
-        "bio": "Flamandzki kartograf i geograf (1512–1594). Twórca odwzorowania walcowego (projekcja Mercatora), które zrewolucjonizowało nawigację morską. Uznawany za jedną z najważniejszych postaci w historii kartografii.",
+        "bio": "Flamandzki kartograf i geograf (1512–1594). Twórca odwzorowania walcowego równokątnego (projekcja Mercatora), które zrewolucjonizowało nawigację morską i jest używane do dziś w mapach internetowych. Uznawany za jedną z najważniejszych postaci kartografii — ukuł termin „atlas\" na zbiór map.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Gerardus_Mercator"
+      },
+      {
+        "name": "Abraham Ortelius",
+        "description": "Twórca pierwszego nowoczesnego atlasu świata",
+        "bio": "Flamandzki kartograf (1527–1598). Autor „Theatrum Orbis Terrarum\" (1570) — pierwszego nowoczesnego atlasu świata. Przyjaciel Mercatora, jako pierwszy zaproponował teorię dryfowania kontynentów — 300 lat przed Wegenerem. Jego atlas zawierał 70 map i był bestsellerem epoki.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Abraham_Ortelius"
+      },
+      {
+        "name": "Eugeniusz Romer",
+        "description": "Największy polski kartograf XX wieku",
+        "bio": "Polski geograf i kartograf (1871–1954). Twórca „Geograficzno-Statystycznego Atlasu Polski\" (1916), który odegrał kluczową rolę na konferencji wersalskiej w ustalaniu granic odrodzonej Polski. Profesor Uniwersytetu Lwowskiego, założyciel wydawnictwa kartograficznego „Książnica-Atlas\".",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Eugeniusz_Romer"
+      },
+      {
+        "name": "Claudius Ptolemeusz",
+        "description": "Starożytny twórca naukowej kartografii",
+        "bio": "Grecko-rzymski uczony z Aleksandrii (ok. 100–170 n.e.). Autor „Geografii\" z instrukcjami tworzenia map świata i ponad 8000 współrzędnymi geograficznymi. Wprowadził siatkę kartograficzną (długość i szerokość geograficzna). Jego dzieła kształtowały kartografię przez 1400 lat aż do epoki odkryć.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Klaudiusz_Ptolemeusz"
       }
     ],
     "relatedCareers": [
@@ -16679,8 +17696,26 @@
       {
         "name": "Frederick Law Olmsted",
         "description": "Projektant Central Parku w Nowym Jorku",
-        "bio": "Amerykański architekt krajobrazu (1822–1903). Projektant Central Parku w Nowym Jorku i wielu innych słynnych parków miejskich w USA. Uznawany za ojca amerykańskiej architektury krajobrazu.",
+        "bio": "Amerykański architekt krajobrazu i urbanista (1822–1903). Projektant Central Parku w Nowym Jorku, Prospect Parku i systemu parków w Bostonie (Emerald Necklace). Uznawany za ojca amerykańskiej architektury krajobrazu. Jego filozofia — park jako przestrzeń demokratyczna dostępna dla wszystkich — zmieniła miasta.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Frederick_Law_Olmsted"
+      },
+      {
+        "name": "Gertrude Jekyll",
+        "description": "Brytyjska mistrzyni ogrodów naturalnych",
+        "bio": "Brytyjska projektantka ogrodów (1843–1932). Zaprojektowała ponad 400 ogrodów w stylu Arts and Crafts, łączącym formalną strukturę z naturalnym sadzeniem. Współpracowała z architektem Edwinem Lutyensem. Pionierka „malarskiego\" podejścia do projektowania ogrodów — tworzyła kompozycje kolorystyczne z roślin.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Gertrude_Jekyll"
+      },
+      {
+        "name": "Franciszek Szanior",
+        "description": "Twórca parków Warszawy",
+        "bio": "Polski architekt krajobrazu i ogrodnik (1853–1945). Projektant wielu parków i terenów zielonych w Warszawie, w tym Parku Ujazdowskiego i Ogrodu Saskiego. Reformator polskiej sztuki ogrodniczej, łączył tradycję parkową z nowoczesnymi potrzebami urbanistycznymi stolicy.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Franciszek_Szanior"
+      },
+      {
+        "name": "Roberto Burle Marx",
+        "description": "Brazylijski modernista architektury krajobrazu",
+        "bio": "Brazylijski architekt krajobrazu i artysta (1909–1994). Rewolucjonista projektowania krajobrazu, łączył rzeźbiarskie formy z rodzimą roślinnością tropikalną. Zaprojektował słynną promenadę Copacabana w Rio de Janeiro. Jego ogrody uznawane za dzieła sztuki, zredefiniował XX-wieczną architekturę krajobrazu.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Roberto_Burle_Marx"
       }
     ],
     "relatedCareers": [
@@ -16930,8 +17965,26 @@
       {
         "name": "Jadwiga Łuszczewska",
         "description": "Pionierka polskiego rolnictwa ekologicznego",
-        "bio": "Polska pionierka rolnictwa ekologicznego. Działała na rzecz zrównoważonego rolnictwa i ochrony tradycyjnych odmian roślin w Polsce. Propagatorka ekologicznych metod uprawy i przetwórstwa żywności.",
+        "bio": "Polska pionierka rolnictwa ekologicznego i działaczka społeczna. Propagatorka zrównoważonego rolnictwa i ochrony tradycyjnych odmian roślin w Polsce. Działała na rzecz ekologicznych metod uprawy i przetwórstwa żywności, inspirując ruch rolnictwa organicznego w Polsce. Łączyła wiedzę naukową z praktyką rolniczą.",
         "sourceUrl": "https://www.google.com/search?q=Jadwiga%20%C5%81uszczewska"
+      },
+      {
+        "name": "Norman Borlaug",
+        "description": "Ojciec Zielonej Rewolucji, noblista",
+        "bio": "Amerykański agronom (1914–2009). Laureat Pokojowej Nagrody Nobla za Zieloną Rewolucję — wyhodował wysokoplenne odmiany pszenicy, które uratowały od głodu ponad miliard ludzi w Azji i Ameryce Łacińskiej. Nazywany „człowiekiem, który nakarmił świat\".",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Norman_Borlaug"
+      },
+      {
+        "name": "Michał Oczapowski",
+        "description": "Ojciec polskiej nauki rolniczej",
+        "bio": "Polski agronom (1788–1854). Profesor i rektor Instytutu Gospodarstwa Wiejskiego w Marymoncie, autor 13-tomowego „Gospodarstwa wiejskiego\". Uznawany za twórcę polskiej nauki rolniczej, wprowadził naukowe metody uprawy roli i hodowli zwierząt do polskiego rolnictwa.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Michał_Oczapowski"
+      },
+      {
+        "name": "Vandana Shiva",
+        "description": "Indyjska obrończyni rolnictwa tradycyjnego",
+        "bio": "Indyjska fizyczka, ekologistka i aktywistka (ur. 1952). Obrończyni rolnictwa tradycyjnego i bioróżnorodności, walczy z monopolem korporacji na nasiona. Założycielka banku nasion Navdanya. Autorka „Stolen Harvest\", zdobywczyni Nagrody Right Livelihood — „alternatywnego Nobla\".",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Vandana_Shiva"
       }
     ],
     "relatedCareers": [
@@ -17175,8 +18228,26 @@
       {
         "name": "Adam Loret",
         "description": "Pierwszy dyrektor Lasów Państwowych",
-        "bio": "Polski leśnik i organizator (1884–1940). Pierwszy dyrektor naczelny Lasów Państwowych (1924–1939), twórca nowoczesnej organizacji leśnictwa w Polsce. Zginął w obozie koncentracyjnym Sachsenhausen.",
+        "bio": "Polski leśnik i organizator (1884–1940). Pierwszy dyrektor naczelny Lasów Państwowych (1924–1939), twórca nowoczesnej organizacji leśnictwa w Polsce. Pod jego kierownictwem Lasy Państwowe stały się wzorową instytucją zarządzania zasobami leśnymi. Zginął w obozie Sachsenhausen podczas okupacji niemieckiej.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Adam_Loret"
+      },
+      {
+        "name": "Jan Hausbrandt",
+        "description": "Twórca polskiej nauki leśnej",
+        "bio": "Polski leśnik i naukowiec (1867–1935). Profesor Szkoły Głównej Gospodarstwa Wiejskiego w Warszawie, twórca polskiej szkoły urządzania lasu. Opracował polskie metody taksacji leśnej i plany zagospodarowania lasów. Jego podręczniki kształciły pokolenia polskich leśników.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Lasy_Państwowe"
+      },
+      {
+        "name": "Gifford Pinchot",
+        "description": "Twórca amerykańskiej Służby Leśnej",
+        "bio": "Amerykański leśnik i polityk (1865–1946). Pierwszy szef United States Forest Service, twórca koncepcji zrównoważonego zarządzania lasami w USA. Ukuł termin „conservation\" w odniesieniu do zasobów naturalnych. Gubernator Pensylwanii, walczył o ochronę lasów przed rabunkową eksploatacją.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Gifford_Pinchot"
+      },
+      {
+        "name": "Wangari Maathai",
+        "description": "Noblistka, założycielka Green Belt Movement",
+        "bio": "Kenijska ekologistka i polityk (1940–2011). Laureatka Pokojowej Nagrody Nobla 2004, założycielka Green Belt Movement — ruchu sadzenia drzew, który zasadził ponad 51 milionów drzew w Afryce. Pierwsza Afrykanka z doktoratem, walczyła o prawa kobiet i ochronę środowiska.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Wangari_Maathai"
       }
     ],
     "relatedCareers": [
@@ -17356,8 +18427,26 @@
       {
         "name": "Monty Don",
         "description": "Brytyjski ogrodnik, prezenter Gardeners' World",
-        "bio": "Brytyjski ogrodnik, pisarz i prezenter telewizyjny (ur. 1955). Gospodarz kultowego programu BBC „Gardeners’ World”, popularyzator ogrodnictwa ekologicznego. Autor wielu książek o ogrodach i zrównoważonym podejściu do uprawy roślin.",
+        "bio": "Brytyjski ogrodnik, pisarz i prezenter telewizyjny (ur. 1955). Prowadzący kultowy program BBC „Gardeners' World\" od 2003 roku, najpopularniejszy ogrodnik w Wielkiej Brytanii. Autor licznych książek ogrodniczych, propagator ogrodnictwa organicznego. Jego ogrody w Longmeadow inspirują miliony widzów.",
         "sourceUrl": "https://www.google.com/search?q=Monty%20Don"
+      },
+      {
+        "name": "Capability Brown",
+        "description": "Twórca angielskiego ogrodu krajobrazowego",
+        "bio": "Brytyjski ogrodnik i architekt krajobrazu (1716–1783). Zaprojektował ponad 170 parków i ogrodów w stylu krajobrazowym — „naturalnym angielskim\". Przezwany „Capability\" od swego zwyczaju mówienia, że posiadłość „ma wielkie możliwości\". Jego styl ogrodowy podbił całą Europę.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Capability_Brown"
+      },
+      {
+        "name": "Szymon Syreniusz",
+        "description": "Autor pierwszego polskiego atlasu roślin",
+        "bio": "Polski botanik i lekarz (ok. 1540–1611). Autor „Zielnika\" — pierwszego polskiego atlasu roślin, zawierającego opisy 765 gatunków. Profesor Akademii Krakowskiej, zbierał rośliny w całej Polsce. Jego dzieło przez 200 lat było jedynym polskim podręcznikiem botaniki i ogrodnictwa.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Szymon_Syreniusz"
+      },
+      {
+        "name": "Vita Sackville-West",
+        "description": "Twórczyni legendarnego ogrodu Sissinghurst",
+        "bio": "Brytyjska pisarka i ogrodniczka (1892–1962). Stworzyła ogród w Sissinghurst Castle — jeden z najsłynniejszych ogrodów na świecie, odwiedzany przez 200 000 osób rocznie. Autorka kolumny ogrodniczej w „The Observer\", popularyzatorka ogrodnictwa w kulturze brytyjskiej.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Vita_Sackville-West"
       }
     ],
     "relatedCareers": [
@@ -17606,14 +18695,26 @@
       {
         "name": "Greta Thunberg",
         "description": "Aktywistka klimatyczna, symbol ruchu ekologicznego",
-        "bio": "Szwedzka aktywistka klimatyczna (ur. 2003). Inicjatorka ruchu „Piątki dla Przyszłości” (Fridays for Future), symbol młodzieżowego protestu przeciw zmianom klimatu. Wielokrotnie nominowana do Pokojowej Nagrody Nobla.",
+        "bio": "Szwedzka aktywistka klimatyczna (ur. 2003). Inicjatorka ruchu „Piątki dla przyszłości\" (Fridays for Future), który zainspirował miliony młodych ludzi na świecie do protestów klimatycznych. Przemawiała na szczycie ONZ i Forum Ekonomicznym w Davos. Symbol pokolenia walczącego o ochronę środowiska.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Greta_Thunberg"
       },
       {
         "name": "Wangari Maathai",
         "description": "Noblistka, założycielka Green Belt Movement",
-        "bio": "Kenijska aktywistka i polityczka (1940–2011). Laureatka Pokojowej Nagrody Nobla 2004, założycielka Green Belt Movement — organizacji, która posadziła ponad 50 milionów drzew. Pierwsza Afrykanka uhonorowana Noblem.",
+        "bio": "Kenijska ekologistka i polityk (1940–2011). Laureatka Pokojowej Nagrody Nobla 2004, pierwsza Afrykanka z doktoratem z biologii. Założycielka Green Belt Movement — ruchu, który zasadził ponad 51 milionów drzew w Afryce. Walczyła o prawa kobiet i demokratyzację Kenii.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Wangari_Maathai"
+      },
+      {
+        "name": "Rachel Carson",
+        "description": "Autorka „Milczącej wiosny\", ikona ekologii",
+        "bio": "Amerykańska biologistka morska i pisarka (1907–1964). Autorka „Milczącej wiosny\" (1962) — książki, która zapoczątkowała ruch ekologiczny i doprowadziła do zakazu DDT w USA. Jej praca zmieniła podejście do ochrony środowiska na całym świecie i zainspirowała powstanie agencji EPA.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Rachel_Carson"
+      },
+      {
+        "name": "Janusz Kindler",
+        "description": "Polski ekspert gospodarki wodnej",
+        "bio": "Polski profesor inżynierii środowiska, specjalista gospodarki wodnej. Wieloletni wykładowca Politechniki Warszawskiej, ekspert UNESCO ds. zasobów wodnych. Współtworzył polskie standardy ochrony wód i zarządzania zasobami wodnymi, uczestniczył w międzynarodowych projektach ochrony środowiska.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Inżynieria_środowiska"
       }
     ],
     "relatedCareers": [
@@ -17763,8 +18864,26 @@
       {
         "name": "James Herriot",
         "description": "Weterynarz-pisarz, autor 'Wszystkie stworzenia'",
-        "bio": "Brytyjski weterynarz i pisarz (1916–1995), właśc. James Alfred Wight. Autor bestsellerowej serii „Wszystkie stworzenia duże i małe” opartej na doświadczeniach wiejskiego weterynarza. Jego książki spopularyzowały zawód weterynarza na całym świecie.",
+        "bio": "Brytyjski weterynarz i pisarz (1916–1995). Pseudonim Jamesa Alfreda Wighta. Autor bestsellerowej serii „Wszystkie stworzenia duże i małe\" o pracy weta w Yorkshire. Sprzedał ponad 60 milionów książek na całym świecie, a serial BBC oparty na jego wspomnieniach stał się kultowy.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/James_Herriot"
+      },
+      {
+        "name": "Bernhard Bang",
+        "description": "Odkrywca brucelozy bydlęcej",
+        "bio": "Duński weterynarz i mikrobiolog (1848–1932). Odkrył bakterię Brucella abortus, wywołującą brucelozę u bydła (chorobę Banga). Opracował program eradykacji gruźlicy bydlęcej w Danii. Jego metody diagnostyczne i profilaktyczne przyjęto w weterynarii na całym świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Bernhard_Bang"
+      },
+      {
+        "name": "Daniel Elmer Salmon",
+        "description": "Odkrywca bakterii Salmonella",
+        "bio": "Amerykański weterynarz i epidemiolog (1850–1914). Pierwszy doktor weterynarii w USA, od jego nazwiska pochodzi nazwa bakterii Salmonella. Kierował programami zwalczania chorób zwierzęcych w Departamencie Rolnictwa USA. Pionier weterynarii jako nauki chroniącej zdrowie publiczne.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Daniel_Elmer_Salmon"
+      },
+      {
+        "name": "Ludwik Hirszfeld",
+        "description": "Odkrywca grup krwi, pracował też z weterynarią",
+        "bio": "Polski lekarz i immunolog (1884–1954). Współodkrywca grup krwi (układ AB0) i pionier serologii. Podczas II wojny światowej walczył z epidemiami w warszawskim getcie, ratując życie wielu osób. Założyciel Instytutu Immunologii we Wrocławiu, autor ponad 400 publikacji naukowych.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Ludwik_Hirszfeld"
       }
     ],
     "relatedCareers": [

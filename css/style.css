@@ -1708,6 +1708,68 @@ main {
   color: #fff;
 }
 
+/* Zoomable avatar in person popup */
+.person-popup__avatar--zoomable {
+  cursor: zoom-in;
+  border: none;
+  padding: 0;
+  font: inherit;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.person-popup__avatar--zoomable:hover {
+  transform: scale(1.1);
+  box-shadow: var(--kr-glow-secondary-strong);
+}
+.person-popup__avatar--zoomable:focus-visible {
+  outline: 3px solid var(--kr-focus-ring);
+  outline-offset: 2px;
+}
+
+/* ---- Photo Lightbox ---- */
+.photo-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.85);
+  animation: fadeIn 0.2s ease;
+  cursor: zoom-out;
+}
+.photo-lightbox__img {
+  max-width: 90vw;
+  max-height: 85vh;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+  cursor: default;
+}
+.photo-lightbox__close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.photo-lightbox__close:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+.photo-lightbox__close:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+}
+
 /* ---- School Cards ---- */
 .school-cards {
   display: flex;
