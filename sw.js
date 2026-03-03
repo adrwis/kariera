@@ -1,5 +1,5 @@
 /* NextMove — Service Worker */
-const CACHE_NAME = 'nextmove-v4';
+const CACHE_NAME = 'nextmove-v5';
 const APP_SHELL = [
   '/kariera/',
   '/kariera/index.html',

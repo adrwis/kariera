@@ -5,23 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <base href="/kariera/">
   <title>NextMove — Znajdź swój zawód</title>
-  <meta name="description" content="Wyszukiwarka zawodów dla osób, które nie wiedzą kim chcą zostać. Blisko 80 zawodów z opisami, zarobkami i ścieżkami edukacji.">
+  <meta name="description" content="Wyszukiwarka zawodów dla osób, które nie wiedzą kim chcą zostać. Zarobki, uczelnie, szkolenia i oferty pracy — blisko 80 szczegółowych profili.">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph -->
   <meta property="og:title" content="NextMove — Znajdź swój zawód">
-  <meta property="og:description" content="Wyszukiwarka zawodów dla osób, które nie wiedzą kim chcą zostać. Blisko 80 zawodów z opisami, zarobkami i ścieżkami edukacji.">
+  <meta property="og:description" content="Wyszukiwarka zawodów dla osób, które nie wiedzą kim chcą zostać. Zarobki, uczelnie, szkolenia i oferty pracy — blisko 80 szczegółowych profili.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pl_PL">
   <meta property="og:url" content="https://adrwis.github.io/kariera/">
   <meta property="og:image" content="https://adrwis.github.io/kariera/icons/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="NextMove — wyszukiwarka zawodów">
   <meta property="og:site_name" content="NextMove">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="NextMove — Znajdź swój zawód">
-  <meta name="twitter:description" content="Wyszukiwarka zawodów dla osób, które nie wiedzą kim chcą zostać. Blisko 80 zawodów z opisami, zarobkami i ścieżkami edukacji.">
+  <meta name="twitter:description" content="Wyszukiwarka zawodów dla osób, które nie wiedzą kim chcą zostać. Zarobki, uczelnie, szkolenia i oferty pracy — blisko 80 szczegółowych profili.">
   <meta name="twitter:image" content="https://adrwis.github.io/kariera/icons/og-image.png">
+  <meta name="twitter:image:alt" content="NextMove — wyszukiwarka zawodów">
 
   <link rel="canonical" href="https://adrwis.github.io/kariera/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -112,7 +116,7 @@
               <div class="search-box__query-row">
                 <label for="searchQuery" class="search-box__label">Kim chcesz zostać? Co Cię interesuje?</label>
                 <div class="search-box__input-wrapper">
-                  <input type="text" id="searchQuery" class="search-box__input search-box__input--query" placeholder="np. psycholog, programista, coś z ludźmi..." autocomplete="off" aria-autocomplete="list" aria-controls="autocompleteList" aria-expanded="false" aria-activedescendant="">
+                  <input type="text" id="searchQuery" class="search-box__input search-box__input--query" placeholder="np. psycholog, programista, coś z ludźmi..." autocomplete="off" autocapitalize="off" autocorrect="off" aria-autocomplete="list" aria-controls="autocompleteList" aria-expanded="false" aria-activedescendant="">
                   <ul id="autocompleteList" class="autocomplete" role="listbox" aria-label="Podpowiedzi zawodów" hidden></ul>
                 </div>
               </div>
@@ -149,43 +153,43 @@
               <div class="filters__group">
                 <label class="filters__label">Kategoria</label>
                 <div class="filters__cats" id="filterCats" role="group" aria-label="Wybierz kategorie">
-                  <button type="button" class="filters__cat-chip" data-cat="it">
+                  <button type="button" class="filters__cat-chip" aria-pressed="false" data-cat="it">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
                     IT
                   </button>
-                  <button type="button" class="filters__cat-chip" data-cat="medycyna">
+                  <button type="button" class="filters__cat-chip" aria-pressed="false" data-cat="medycyna">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
                     Medycyna
                   </button>
-                  <button type="button" class="filters__cat-chip" data-cat="prawo">
+                  <button type="button" class="filters__cat-chip" aria-pressed="false" data-cat="prawo">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 22h18"/><path d="M6 18v-7"/><path d="M10 18v-7"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="m12 2-9 7h18z"/></svg>
                     Prawo
                   </button>
-                  <button type="button" class="filters__cat-chip" data-cat="edukacja">
+                  <button type="button" class="filters__cat-chip" aria-pressed="false" data-cat="edukacja">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6"/><path d="M6 12v5c3 3 9 3 12 0v-5"/><path d="m2 10 10-5 10 5-10 5z"/></svg>
                     Edukacja
                   </button>
-                  <button type="button" class="filters__cat-chip" data-cat="biznes">
+                  <button type="button" class="filters__cat-chip" aria-pressed="false" data-cat="biznes">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
                     Biznes
                   </button>
-                  <button type="button" class="filters__cat-chip" data-cat="inzynieria">
+                  <button type="button" class="filters__cat-chip" aria-pressed="false" data-cat="inzynieria">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
                     Inżynieria
                   </button>
-                  <button type="button" class="filters__cat-chip" data-cat="sztuka">
+                  <button type="button" class="filters__cat-chip" aria-pressed="false" data-cat="sztuka">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg>
                     Sztuka
                   </button>
-                  <button type="button" class="filters__cat-chip" data-cat="przyroda">
+                  <button type="button" class="filters__cat-chip" aria-pressed="false" data-cat="przyroda">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8c-4 0-8 2-10 7 5-1 8 0 10-7z"/><path d="M2 22c2-5 4-9 11-11"/><path d="M22 2c-2 5-4 9-11 11"/></svg>
                     Przyroda
                   </button>
-                  <button type="button" class="filters__cat-chip" data-cat="uslugi">
+                  <button type="button" class="filters__cat-chip" aria-pressed="false" data-cat="uslugi">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
                     Usługi
                   </button>
-                  <button type="button" class="filters__cat-chip" data-cat="bezpieczenstwo">
+                  <button type="button" class="filters__cat-chip" aria-pressed="false" data-cat="bezpieczenstwo">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                     Bezpieczeństwo
                   </button>
@@ -236,7 +240,7 @@
               <div class="filters__group">
                 <label class="filters__label" for="schoolFilter">Uczelnia</label>
                 <div class="filters__school-wrapper">
-                  <input type="text" id="schoolFilter" class="filters__input" placeholder="Wpisz nazwę uczelni..." autocomplete="off" aria-autocomplete="list" aria-controls="schoolDropdown">
+                  <input type="text" id="schoolFilter" class="filters__input" placeholder="Wpisz nazwę uczelni..." autocomplete="off" autocapitalize="off" autocorrect="off" aria-autocomplete="list" aria-controls="schoolDropdown">
                   <ul id="schoolDropdown" class="filters__dropdown" role="listbox" hidden></ul>
                 </div>
                 <div class="filters__school-selected" id="schoolSelected"></div>
@@ -262,15 +266,15 @@
           <p class="results__query" id="resultsQuery"></p>
           <p class="results__count" id="resultsCount"></p>
           <form class="results__search" id="resultsSearchForm" role="search" aria-label="Szukaj ponownie">
-            <input type="text" class="results__search-input" id="resultsSearchInput" placeholder="Szukaj zawodu..." autocomplete="off" aria-label="Szukaj zawodu">
+            <input type="text" class="results__search-input" id="resultsSearchInput" placeholder="Szukaj zawodu..." autocomplete="off" autocapitalize="off" autocorrect="off" aria-label="Szukaj zawodu">
             <button type="submit" class="results__search-btn" aria-label="Szukaj">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
             </button>
           </form>
           <div class="results__toolbar" id="resultsToolbar" hidden>
-            <button type="button" class="results__sort-btn results__sort-btn--active" data-sort="relevance">Trafność</button>
-            <button type="button" class="results__sort-btn" data-sort="name">Nazwa A-Z</button>
-            <button type="button" class="results__sort-btn" data-sort="salary">Zarobki ↓</button>
+            <button type="button" class="results__sort-btn results__sort-btn--active" data-sort="relevance" aria-pressed="true">Trafność</button>
+            <button type="button" class="results__sort-btn" data-sort="name" aria-pressed="false">Nazwa A-Z</button>
+            <button type="button" class="results__sort-btn" data-sort="salary" aria-pressed="false">Zarobki ↓</button>
           </div>
         </div>
         <div class="results__list" id="resultsList" role="list"></div>

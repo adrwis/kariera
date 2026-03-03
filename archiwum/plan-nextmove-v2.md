@@ -100,4 +100,15 @@ Naprawione poza planem v2:
 - [x] 25 broken relatedCareers → poprawne ID
 - [x] 6 empty URLs → uzupełnione
 - [x] Barista grammar + Latte art soft→technical + 4 soft skills
-- [ ] Hardcoded box-shadows → CSS vars (MEDIUM, osobna sesja)
+- [x] Hardcoded box-shadows → CSS vars (Sesja 4 — 23 shadows + 8 rgba → 11 vars)
+
+## Audyt Sesja 4 (2026-03-03) — 6× audyt + 27 fixów
+
+- [x] 23 box-shadows + 8 rgba → 11 CSS vars (theme dark mode)
+- [x] SEO: description sync + og:image meta
+- [x] WCAG: aria-pressed (13 btn), school dropdown a11y, heading hierarchy
+- [x] Mobile: 13 font sizes bump, 6 touch targets, slider thumbs
+- [x] UX: breadcrumbs, scroll position preserve, loading indicator
+- [x] matchMedia change listener, autocapitalize inputs, SW v5
+- [ ] Filter state persistence (sessionStorage) — osobna sesja
+- [ ] Krok 6: audyt providerów — osobna sesja

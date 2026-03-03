@@ -42,6 +42,15 @@
     document.documentElement.setAttribute('data-theme', 'dark');
   }
 
+  // Listen for OS theme changes (if user hasn't manually set theme)
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+    if (!localStorage.getItem('kr-theme')) {
+      document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+      const metaTheme = document.querySelector('meta[name="theme-color"]');
+      if (metaTheme) metaTheme.setAttribute('content', e.matches ? '#0d1117' : '#1a237e');
+    }
+  });
+
   themeToggle.addEventListener('click', () => {
     const current = document.documentElement.getAttribute('data-theme');
     const next = current === 'dark' ? 'light' : 'dark';
@@ -59,7 +68,14 @@
     zawod: document.getElementById('view-zawod'),
   };
 
+  const scrollPositions = {};
+  let isPopstate = false;
+
   function showView(name) {
+    // Save current view's scroll position
+    const currentView = Object.keys(views).find(k => !views[k].hidden);
+    if (currentView) scrollPositions[currentView] = window.scrollY;
+
     for (const [key, el] of Object.entries(views)) {
       if (key === name) {
         el.hidden = false;
@@ -69,7 +85,13 @@
         el.classList.remove('active');
       }
     }
-    window.scrollTo(0, 0);
+
+    // Restore scroll on back-nav, scroll to top on forward-nav
+    if (isPopstate && scrollPositions[name] !== undefined) {
+      requestAnimationFrame(() => window.scrollTo(0, scrollPositions[name]));
+    } else {
+      window.scrollTo(0, 0);
+    }
 
     // Focus management: move focus to heading of new view (skip 'zawod' — handled by render functions)
     if (name !== 'zawod') {
@@ -145,7 +167,7 @@
     }
   }
 
-  window.addEventListener('popstate', navigate);
+  window.addEventListener('popstate', () => { isPopstate = true; navigate(); isPopstate = false; });
 
   // --- Search form (landing) ---
   const searchForm = document.getElementById('searchForm');
@@ -795,8 +817,16 @@
       `;
     }
 
+    const catSlug = c.category || '';
+    const catLabel = CATEGORY_NAMES[catSlug] || catSlug;
     careerDetail.innerHTML = `
-      <a href="${escapeAttr(getBackHref())}" class="results__back">&larr; Wróć</a>
+      <nav class="breadcrumb" aria-label="Ścieżka nawigacji">
+        <ol class="breadcrumb__list">
+          <li class="breadcrumb__item"><a href="${BASE}/">NextMove</a></li>
+          ${catSlug ? `<li class="breadcrumb__item"><a href="${BASE}/wyniki?cat=${escapeAttr(catSlug)}">${escapeHtml(catLabel)}</a></li>` : ''}
+          <li class="breadcrumb__item" aria-current="page">${escapeHtml(c.name)}</li>
+        </ol>
+      </nav>
 
       <div class="career-hero career-hero--detail">
         ${categoryBadge}
@@ -857,7 +887,7 @@
       if (suggestions.length) {
         suggestionsHtml = `
           <div class="career-fallback__suggestions">
-            <h4 class="career-fallback__suggestions-title">Inne zawody z kategorii ${escapeHtml(catName)}</h4>
+            <h3 class="career-fallback__suggestions-title">Inne zawody z kategorii ${escapeHtml(catName)}</h3>
             <div class="career-fallback__suggestions-tags">
               ${suggestions.map(s => `<a href="${BASE}/zawod/${escapeAttr(s.id)}" class="popular__tag">${escapeHtml(s.name)}</a>`).join('')}
             </div>
@@ -866,8 +896,16 @@
       }
     }
 
+    const fbCatSlug = kzis.category || '';
+    const fbCatLabel = CATEGORY_NAMES[fbCatSlug] || fbCatSlug;
     careerDetail.innerHTML = `
-      <a href="${escapeAttr(getBackHref())}" class="results__back">&larr; Wróć</a>
+      <nav class="breadcrumb" aria-label="Ścieżka nawigacji">
+        <ol class="breadcrumb__list">
+          <li class="breadcrumb__item"><a href="${BASE}/">NextMove</a></li>
+          ${fbCatSlug ? `<li class="breadcrumb__item"><a href="${BASE}/wyniki?cat=${escapeAttr(fbCatSlug)}">${escapeHtml(fbCatLabel)}</a></li>` : ''}
+          <li class="breadcrumb__item" aria-current="page">${escapeHtml(kzis.name)}</li>
+        </ol>
+      </nav>
 
       <div class="career-hero career-hero--detail">
         ${categoryBadge}
@@ -879,7 +917,7 @@
         <svg class="career-fallback__icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
         </svg>
-        <h3 class="career-fallback__heading">Profil w przygotowaniu</h3>
+        <h2 class="career-fallback__heading">Profil w przygotowaniu</h2>
         <p class="career-fallback__text">Szczegółowy profil tego zawodu jest w przygotowaniu. Sprawdź zewnętrzne źródła:</p>
         <div class="career-fallback__links">
           <a href="https://psz.praca.gov.pl/rynek-pracy/bazy-danych/infodoradca/-/infodoradca/zawody" target="_blank" rel="noopener" class="career-fallback__link">
@@ -1442,6 +1480,8 @@
       const li = document.createElement('li');
       li.className = 'filters__dropdown-item';
       li.setAttribute('role', 'option');
+      li.setAttribute('aria-selected', 'false');
+      li.id = 'school-item-' + matches.indexOf(name);
       li.textContent = name;
       li.addEventListener('click', () => {
         selectedSchools.push(name);
@@ -1463,13 +1503,13 @@
     if (e.key === 'ArrowDown') {
       e.preventDefault();
       schoolAcIndex = Math.min(schoolAcIndex + 1, items.length - 1);
-      items.forEach((it, i) => it.classList.toggle('filters__dropdown-item--active', i === schoolAcIndex));
-      if (items[schoolAcIndex]) items[schoolAcIndex].scrollIntoView({ block: 'nearest' });
+      items.forEach((it, i) => { it.classList.toggle('filters__dropdown-item--active', i === schoolAcIndex); it.setAttribute('aria-selected', String(i === schoolAcIndex)); });
+      if (items[schoolAcIndex]) { items[schoolAcIndex].scrollIntoView({ block: 'nearest' }); schoolFilterInput.setAttribute('aria-activedescendant', items[schoolAcIndex].id); }
     } else if (e.key === 'ArrowUp') {
       e.preventDefault();
       schoolAcIndex = Math.max(schoolAcIndex - 1, 0);
-      items.forEach((it, i) => it.classList.toggle('filters__dropdown-item--active', i === schoolAcIndex));
-      if (items[schoolAcIndex]) items[schoolAcIndex].scrollIntoView({ block: 'nearest' });
+      items.forEach((it, i) => { it.classList.toggle('filters__dropdown-item--active', i === schoolAcIndex); it.setAttribute('aria-selected', String(i === schoolAcIndex)); });
+      if (items[schoolAcIndex]) { items[schoolAcIndex].scrollIntoView({ block: 'nearest' }); schoolFilterInput.setAttribute('aria-activedescendant', items[schoolAcIndex].id); }
     } else if (e.key === 'Enter' && schoolAcIndex >= 0) {
       e.preventDefault();
       items[schoolAcIndex].click();
@@ -1588,9 +1628,19 @@
 
   // --- Init ---
   async function init() {
+    // Show loading state
+    const searchBtn = document.getElementById('searchBtn');
+    const filterBtn = document.querySelector('.filters__btn');
+    if (searchBtn) searchBtn.disabled = true;
+    if (filterBtn) filterBtn.disabled = true;
+
     // Load data
     await CareerSearch.loadData();
     allSchools = CareerSearch.getAllSchools();
+
+    // Remove loading state
+    if (searchBtn) searchBtn.disabled = false;
+    if (filterBtn) filterBtn.disabled = false;
 
     // Start animations
     Constellation.init();
