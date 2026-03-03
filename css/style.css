@@ -13,7 +13,7 @@
   --kr-text-muted: #5a5a7a;
   --kr-primary: #1a237e;
   --kr-primary-light: #3949ab;
-  --kr-secondary: #00897b;
+  --kr-secondary: #00796b;
   --kr-secondary-light: #26a69a;
   --kr-accent: #ffd600;
   --kr-accent-dark: #f9a825;
@@ -34,7 +34,7 @@
   --kr-footer-text: #a0a0c0;
   --kr-demand-deficit: #c62828;
   --kr-demand-balanced: #2e7d32;
-  --kr-demand-surplus: #ef6c00;
+  --kr-demand-surplus: #bf5b00;
   /* Glass */
   --kr-glass-bg: rgba(255, 255, 255, 0.55);
   --kr-glass-border: rgba(255, 255, 255, 0.4);
@@ -53,6 +53,7 @@
   --kr-btn-hover: #1a237e;
   --kr-btn-shadow: rgba(57, 73, 171, 0.25);
   --kr-btn-shadow-hover: rgba(57, 73, 171, 0.4);
+  --kr-focus-ring: #1a237e;
   color-scheme: light;
 }
 
@@ -99,10 +100,11 @@
   /* Sora title + button */
   --kr-title-grad-from: #7986cb;
   --kr-title-grad-to: #42a5f5;
-  --kr-btn-bg: #7986cb;
-  --kr-btn-hover: #9fa8da;
+  --kr-btn-bg: #5c6bc0;
+  --kr-btn-hover: #7986cb;
   --kr-btn-shadow: rgba(121, 134, 203, 0.25);
   --kr-btn-shadow-hover: rgba(121, 134, 203, 0.4);
+  --kr-focus-ring: #ffd600;
   color-scheme: dark;
 }
 
@@ -499,7 +501,7 @@ main {
   transform: translateY(0);
 }
 .search-box__btn:focus-visible {
-  outline: 3px solid var(--kr-accent);
+  outline: 3px solid var(--kr-focus-ring);
   outline-offset: 2px;
 }
 
@@ -595,7 +597,7 @@ main {
   border-color: transparent;
 }
 .popular__tag:focus-visible {
-  outline: 3px solid var(--kr-accent);
+  outline: 3px solid var(--kr-focus-ring);
   outline-offset: 2px;
 }
 
@@ -684,7 +686,7 @@ main {
 .filters__cat-chip--active svg { opacity: 1; color: #fff; }
 
 .filters__cat-chip:focus-visible {
-  outline: 3px solid var(--kr-accent);
+  outline: 3px solid var(--kr-focus-ring);
   outline-offset: 2px;
 }
 
@@ -939,7 +941,7 @@ main {
 }
 .filters__btn:active { transform: translateY(0); }
 .filters__btn:focus-visible {
-  outline: 3px solid var(--kr-accent);
+  outline: 3px solid var(--kr-focus-ring);
   outline-offset: 2px;
 }
 
@@ -1025,7 +1027,7 @@ main {
   border-color: var(--kr-secondary);
 }
 .result-card:focus-visible {
-  outline: 3px solid var(--kr-accent);
+  outline: 3px solid var(--kr-focus-ring);
   outline-offset: 2px;
 }
 
@@ -1319,6 +1321,7 @@ main {
 .career-column__item--tech {
   padding-left: 1.4rem;
   position: relative;
+  overflow: hidden;
 }
 .career-column__item--soft::before,
 .career-column__item--tech::before {
@@ -1331,6 +1334,77 @@ main {
 }
 .career-column__item--tech::before {
   content: '⚙️';
+}
+
+/* Skill accordion */
+.skill-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  font-size: 0.9rem;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+.skill-btn:hover .skill-btn__label {
+  color: var(--kr-secondary);
+}
+.skill-btn:focus-visible {
+  outline: 2px solid var(--kr-secondary);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+.skill-btn__chevron {
+  flex-shrink: 0;
+  color: var(--kr-secondary);
+  opacity: 0.6;
+  transition: transform 0.2s ease, opacity 0.15s;
+}
+.skill-btn:hover .skill-btn__chevron {
+  opacity: 1;
+}
+.skill-btn[aria-expanded="true"] .skill-btn__chevron {
+  transform: rotate(180deg);
+}
+
+.skill-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0.35rem 0 0.15rem;
+}
+.skill-links__title {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--kr-text-muted);
+  width: 100%;
+  margin-bottom: 0.05rem;
+}
+.skill-links__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  background: var(--kr-tag-bg);
+  color: var(--kr-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.15s, color 0.15s;
+}
+.skill-links__link:hover {
+  background: var(--kr-secondary);
+  color: #fff;
+}
+.skill-links__link:focus-visible {
+  outline: 2px solid var(--kr-secondary);
+  outline-offset: 1px;
 }
 
 .career-column__link {
@@ -1396,7 +1470,7 @@ main {
   box-shadow: 0 4px 16px rgba(0, 137, 123, 0.12);
 }
 .famous-card:focus-visible {
-  outline: 3px solid var(--kr-accent);
+  outline: 3px solid var(--kr-focus-ring);
   outline-offset: 2px;
 }
 
@@ -1505,8 +1579,8 @@ main {
   position: absolute;
   top: 0.75rem;
   right: 0.75rem;
-  width: 32px;
-  height: 32px;
+  width: 44px;
+  height: 44px;
   border: 1px solid var(--kr-border);
   border-radius: 50%;
   background: var(--kr-bg-alt);
@@ -1525,7 +1599,7 @@ main {
   border-color: transparent;
 }
 .person-popup__close:focus-visible {
-  outline: 3px solid var(--kr-accent);
+  outline: 3px solid var(--kr-focus-ring);
   outline-offset: 2px;
 }
 
@@ -1635,7 +1709,7 @@ main {
   box-shadow: 0 4px 16px rgba(26, 35, 126, 0.1);
 }
 .school-card:focus-visible {
-  outline: 3px solid var(--kr-accent);
+  outline: 3px solid var(--kr-focus-ring);
   outline-offset: 2px;
 }
 
@@ -1702,8 +1776,8 @@ main {
   position: absolute;
   top: 0.75rem;
   right: 0.75rem;
-  width: 32px;
-  height: 32px;
+  width: 44px;
+  height: 44px;
   border: 1px solid var(--kr-border);
   border-radius: 50%;
   background: var(--kr-bg-alt);
@@ -1722,7 +1796,7 @@ main {
   border-color: transparent;
 }
 .school-popup__close:focus-visible {
-  outline: 3px solid var(--kr-accent);
+  outline: 3px solid var(--kr-focus-ring);
   outline-offset: 2px;
 }
 
@@ -1899,7 +1973,7 @@ main {
   box-shadow: 0 4px 16px rgba(0, 137, 123, 0.1);
 }
 .training-card:focus-visible {
-  outline: 3px solid var(--kr-accent);
+  outline: 3px solid var(--kr-focus-ring);
   outline-offset: 2px;
 }
 
@@ -1969,8 +2043,8 @@ main {
   position: absolute;
   top: 0.75rem;
   right: 0.75rem;
-  width: 32px;
-  height: 32px;
+  width: 44px;
+  height: 44px;
   border: 1px solid var(--kr-border);
   border-radius: 50%;
   background: var(--kr-bg-alt);
@@ -1989,7 +2063,7 @@ main {
   border-color: transparent;
 }
 .training-popup__close:focus-visible {
-  outline: 3px solid var(--kr-accent);
+  outline: 3px solid var(--kr-focus-ring);
   outline-offset: 2px;
 }
 
@@ -2109,14 +2183,35 @@ main {
   gap: 0.4rem;
 }
 
+.workplace-item-wrapper {
+  border: 1px solid var(--kr-border);
+  border-radius: 10px;
+  background: var(--kr-bg-alt);
+  overflow: hidden;
+}
+
 .workplace-item {
   display: flex;
   align-items: flex-start;
   gap: 0.6rem;
   padding: 0.55rem 0.7rem;
-  border: 1px solid var(--kr-border);
-  border-radius: 10px;
-  background: var(--kr-bg-alt);
+  width: 100%;
+}
+
+.workplace-item--interactive {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  text-align: left;
+  font-family: inherit;
+  transition: background 0.15s;
+}
+.workplace-item--interactive:hover {
+  background: var(--kr-tag-bg);
+}
+.workplace-item--interactive:focus-visible {
+  outline: 2px solid var(--kr-secondary);
+  outline-offset: -2px;
 }
 
 .workplace-item__icon {
@@ -2148,6 +2243,57 @@ main {
   color: var(--kr-text-muted);
   line-height: 1.4;
   margin-top: 0.1rem;
+}
+
+.workplace-item__chevron {
+  flex-shrink: 0;
+  margin-top: 0.3rem;
+  color: var(--kr-secondary);
+  opacity: 0.7;
+  transition: transform 0.2s ease, opacity 0.15s;
+}
+.workplace-item--interactive:hover .workplace-item__chevron {
+  opacity: 1;
+}
+.workplace-item--interactive[aria-expanded="true"] .workplace-item__chevron {
+  transform: rotate(180deg);
+}
+
+.workplace-links {
+  padding: 0.4rem 0.7rem 0.6rem;
+  border-top: 1px solid var(--kr-border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+}
+.workplace-links__title {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--kr-text-muted);
+  width: 100%;
+  margin-bottom: 0.1rem;
+}
+.workplace-links__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.78rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  background: var(--kr-tag-bg);
+  color: var(--kr-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.15s, color 0.15s;
+}
+.workplace-links__link:hover {
+  background: var(--kr-secondary);
+  color: #fff;
+}
+.workplace-links__link:focus-visible {
+  outline: 2px solid var(--kr-secondary);
+  outline-offset: 1px;
 }
 
 /* Related careers */
@@ -2236,13 +2382,17 @@ main {
   animation: detailReveal 0.4s ease both;
   animation-delay: 240ms;
 }
-.career-related--detail {
+.career-column--detail:nth-child(4) {
   animation: detailReveal 0.4s ease both;
   animation-delay: 320ms;
 }
+.career-related--detail {
+  animation: detailReveal 0.4s ease both;
+  animation-delay: 400ms;
+}
 .career-sources--detail {
   animation: detailReveal 0.4s ease both;
-  animation-delay: 380ms;
+  animation-delay: 460ms;
 }
 
 /* Fallback for KZiS-only */
@@ -2345,7 +2495,7 @@ main {
 .career-hero__category:focus-visible,
 .career-fallback__link:focus-visible,
 .footer a:focus-visible {
-  outline: 3px solid var(--kr-accent);
+  outline: 3px solid var(--kr-focus-ring);
   outline-offset: 2px;
 }
 
@@ -2423,6 +2573,21 @@ main {
   .results__sort-btn { min-height: 44px; padding: 0.5rem 1rem; }
   .results__back, .results__empty-back { min-height: 44px; display: inline-flex; align-items: center; }
   .theme-toggle { width: 44px; height: 44px; }
+  .results__search-btn { width: 44px; height: 44px; }
+
+  /* Touch targets — accordion & interactive elements */
+  .skill-btn { min-height: 44px; padding: 0.4rem 0.25rem; }
+  .skill-links__link { min-height: 44px; padding: 0.5rem 0.75rem; font-size: 0.85rem; display: inline-flex; align-items: center; }
+  .workplace-links__link { min-height: 44px; padding: 0.5rem 0.75rem; font-size: 0.85rem; }
+  .workplace-item--interactive { min-height: 48px; }
+  .school-card, .famous-card, .training-card { min-height: 48px; }
+  .autocomplete__item { min-height: 44px; }
+  .filters__dropdown-item { min-height: 44px; display: flex; align-items: center; }
+  .filters__school-tag-remove { width: 32px; height: 32px; }
+
+  /* iOS zoom fix for inputs (601-900px range) */
+  .results__search-input,
+  .filters__input { font-size: 1rem; }
 }
 
 /* Tablet career detail: 1 column */
@@ -2571,7 +2736,7 @@ main {
   transform: translateY(1px);
 }
 .scroll-top:focus-visible {
-  outline: 3px solid var(--kr-accent);
+  outline: 3px solid var(--kr-focus-ring);
   outline-offset: 2px;
 }
 .scroll-top__icon {

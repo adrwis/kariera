@@ -1,7 +1,7 @@
 {
   "name": "NextMove — Znajdź swój zawód",
   "short_name": "NextMove",
-  "description": "Wyszukiwarka zawodów dla osób, które nie wiedzą kim chcą zostać. Ponad 80 zawodów z opisami, zarobkami i ścieżkami edukacji.",
+  "description": "Wyszukiwarka zawodów dla osób, które nie wiedzą kim chcą zostać. Blisko 80 zawodów z opisami, zarobkami i ścieżkami edukacji.",
   "start_url": "/kariera/",
   "display": "standalone",
   "background_color": "#f5f7fa",

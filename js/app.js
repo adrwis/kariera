@@ -98,34 +98,50 @@
     navigate();
   }
 
+  // --- Dynamic SEO meta updates ---
+  const defaultDesc = 'Wyszukiwarka zawodów dla osób, które nie wiedzą kim chcą zostać. Zarobki, uczelnie, szkolenia i oferty pracy — blisko 80 szczegółowych profili.';
+  function updateMeta(title, desc, path) {
+    document.title = title;
+    const fullUrl = 'https://adrwis.github.io' + path;
+    const setMeta = (sel, attr, val) => { const el = document.querySelector(sel); if (el) el.setAttribute(attr, val); };
+    setMeta('link[rel="canonical"]', 'href', fullUrl);
+    setMeta('meta[name="description"]', 'content', desc);
+    setMeta('meta[property="og:title"]', 'content', title);
+    setMeta('meta[property="og:description"]', 'content', desc);
+    setMeta('meta[property="og:url"]', 'content', fullUrl);
+    setMeta('meta[name="twitter:title"]', 'content', title);
+    setMeta('meta[name="twitter:description"]', 'content', desc);
+  }
+
   function navigate() {
     const route = getRoute();
 
     switch (route.view) {
       case 'landing':
         showView('landing');
-        document.title = 'NextMove — Znajdź swój zawód';
+        updateMeta('NextMove — Znajdź swój zawód', defaultDesc, BASE + '/');
         break;
 
       case 'wyniki':
         showView('wyniki');
         lastResultsPath = window.location.pathname + window.location.search;
         handleResults(route.params);
-        { // Dynamic title for results
-          const q = route.params.get('q') || route.params.get('cat') || '';
-          document.title = q ? `${q} — wyniki | NextMove` : 'Wyniki | NextMove';
+        { const q = route.params.get('q') || route.params.get('cat') || '';
+          const title = q ? `${q} — wyniki | NextMove` : 'Wyniki | NextMove';
+          const desc = q ? `Wyniki wyszukiwania: ${q} — zawody, zarobki, uczelnie.` : 'Wyniki wyszukiwania zawodów.';
+          updateMeta(title, desc, window.location.pathname + window.location.search);
         }
         break;
 
       case 'zawod':
         showView('zawod');
         handleCareerDetail(route.params);
-        // Title set inside renderRichDetail / renderFallbackDetail
+        // Title/meta set inside renderRichDetail / renderFallbackDetail
         break;
 
       default:
         showView('landing');
-        document.title = 'NextMove — Znajdź swój zawód';
+        updateMeta('NextMove — Znajdź swój zawód', defaultDesc, BASE + '/');
     }
   }
 
@@ -180,7 +196,9 @@
 
     // Update active state
     for (const b of resultsToolbar.querySelectorAll('.results__sort-btn')) {
-      b.classList.toggle('results__sort-btn--active', b === btn);
+      const isActive = b === btn;
+      b.classList.toggle('results__sort-btn--active', isActive);
+      b.setAttribute('aria-pressed', String(isActive));
     }
 
     // Re-render with new sort
@@ -533,6 +551,41 @@
     'nadwyżkowy': 'Nadwyżkowy (więcej kandydatów niż ofert)',
   };
 
+  // --- Workplace job search links builder ---
+  function buildJobSearchLinks(careerName, workplaceName, category) {
+    const q = encodeURIComponent(`${careerName} ${workplaceName}`);
+    const links = [
+      { label: 'Pracuj.pl', url: `https://www.pracuj.pl/praca/${encodeURIComponent(careerName + ' ' + workplaceName)}` },
+      { label: 'Indeed', url: `https://pl.indeed.com/jobs?q=${q}` },
+    ];
+    if (category === 'it') {
+      links.push({ label: 'Just Join IT', url: `https://justjoin.it/offers?keyword=${q}` });
+      links.push({ label: 'No Fluff Jobs', url: `https://nofluffjobs.com/pl?criteria=keyword%3D${q}` });
+    }
+    if (category === 'medycyna') {
+      links.push({ label: 'MP Praca', url: `https://www.mp.pl/praca/szukaj?query=${q}` });
+    }
+    return links.map(l =>
+      `<a href="${escapeAttr(l.url)}" target="_blank" rel="noopener" class="workplace-links__link">${escapeHtml(l.label)}<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>`
+    ).join('');
+  }
+
+  // --- Skill training links builder ---
+  function buildSkillTrainingLinks(skillName, skillType) {
+    const q = encodeURIComponent(skillName);
+    const links = [
+      { label: 'Udemy', url: `https://www.udemy.com/courses/search/?q=${q}&lang=pl` },
+      { label: 'Coursera', url: `https://www.coursera.org/search?query=${q}` },
+      { label: 'Szkolenia.com', url: `https://szkolenia.com/szukaj?q=${q}` },
+    ];
+    if (skillType === 'technical') {
+      links.push({ label: 'LinkedIn Learning', url: `https://www.linkedin.com/learning/search?keywords=${q}` });
+    }
+    return links.map(l =>
+      `<a href="${escapeAttr(l.url)}" target="_blank" rel="noopener" class="skill-links__link">${escapeHtml(l.label)}<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>`
+    ).join('');
+  }
+
   function renderRichDetail(c) {
     currentCareerData = c;
 
@@ -556,24 +609,44 @@
     let skillsHtml = '';
     if (c.skills) {
       if (c.skills.soft && c.skills.soft.length) {
-        skillsHtml += '<h3 class="career-column__subtitle">Umiejętności miękkie</h4>';
+        skillsHtml += '<h3 class="career-column__subtitle">Umiejętności miękkie</h3>';
         skillsHtml += '<ul class="career-column__list career-column__list--soft">';
         for (const s of c.skills.soft) {
-          skillsHtml += `<li class="career-column__item career-column__item--soft">${escapeHtml(s)}</li>`;
+          const trainingLinks = buildSkillTrainingLinks(s, 'soft');
+          skillsHtml += `<li class="career-column__item career-column__item--soft">
+            <button type="button" class="skill-btn" aria-expanded="false">
+              <span class="skill-btn__label">${escapeHtml(s)}</span>
+              <svg class="skill-btn__chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="skill-links" hidden>
+              <div class="skill-links__title">Szukaj szkoleń</div>
+              ${trainingLinks}
+            </div>
+          </li>`;
         }
         skillsHtml += '</ul>';
       }
       if (c.skills.technical && c.skills.technical.length) {
-        skillsHtml += '<h3 class="career-column__subtitle career-column__subtitle--spaced">Umiejętności techniczne</h4>';
+        skillsHtml += '<h3 class="career-column__subtitle career-column__subtitle--spaced">Umiejętności techniczne</h3>';
         skillsHtml += '<ul class="career-column__list career-column__list--tech">';
         for (const s of c.skills.technical) {
-          skillsHtml += `<li class="career-column__item career-column__item--tech">${escapeHtml(s)}</li>`;
+          const trainingLinks = buildSkillTrainingLinks(s, 'technical');
+          skillsHtml += `<li class="career-column__item career-column__item--tech">
+            <button type="button" class="skill-btn" aria-expanded="false">
+              <span class="skill-btn__label">${escapeHtml(s)}</span>
+              <svg class="skill-btn__chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="skill-links" hidden>
+              <div class="skill-links__title">Szukaj szkoleń</div>
+              ${trainingLinks}
+            </div>
+          </li>`;
         }
         skillsHtml += '</ul>';
       }
       // Fallback for old data format
       if (!c.skills.soft && !c.skills.technical && c.skills.required && c.skills.required.length) {
-        skillsHtml += '<h3 class="career-column__subtitle">Wymagane umiejętności</h4>';
+        skillsHtml += '<h3 class="career-column__subtitle">Wymagane umiejętności</h3>';
         skillsHtml += '<ul class="career-column__list">';
         for (const s of c.skills.required) {
           skillsHtml += `<li class="career-column__item">${escapeHtml(s)}</li>`;
@@ -581,7 +654,7 @@
         skillsHtml += '</ul>';
       }
       if (c.skills.certifications && c.skills.certifications.length) {
-        skillsHtml += '<h3 class="career-column__subtitle career-column__subtitle--spaced">Certyfikaty</h4>';
+        skillsHtml += '<h3 class="career-column__subtitle career-column__subtitle--spaced">Certyfikaty</h3>';
         skillsHtml += '<ul class="career-column__list">';
         for (const cert of c.skills.certifications) {
           skillsHtml += cert.url
@@ -591,7 +664,7 @@
         skillsHtml += '</ul>';
       }
       if (c.skills.training && c.skills.training.length) {
-        skillsHtml += '<h3 class="career-column__subtitle career-column__subtitle--spaced">Szkolenia</h4>';
+        skillsHtml += '<h3 class="career-column__subtitle career-column__subtitle--spaced">Szkolenia</h3>';
         skillsHtml += '<div class="training-cards">';
         for (let ti = 0; ti < c.skills.training.length; ti++) {
           const t = c.skills.training[ti];
@@ -623,7 +696,7 @@
         eduHtml += `<p class="career-column__text"><strong>Kierunki:</strong> ${c.education.fields.map(escapeHtml).join(', ')}</p>`;
       }
       if (c.education.schools && c.education.schools.length) {
-        eduHtml += '<h3 class="career-column__subtitle career-column__subtitle--spaced">Uczelnie</h4>';
+        eduHtml += '<h3 class="career-column__subtitle career-column__subtitle--spaced">Uczelnie</h3>';
         eduHtml += '<div class="school-cards">';
         for (let si = 0; si < c.education.schools.length; si++) {
           const s = c.education.schools[si];
@@ -670,15 +743,23 @@
     if (c.workplaces && c.workplaces.length) {
       workplacesHtml += '<div class="workplace-list">';
       for (const wp of c.workplaces) {
+        const jobLinks = buildJobSearchLinks(c.name, wp.name, c.category);
         workplacesHtml += `
-          <div class="workplace-item">
-            <span class="workplace-item__icon" aria-hidden="true">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
-            </span>
-            <span class="workplace-item__info">
-              <span class="workplace-item__name">${escapeHtml(wp.name)}</span>
-              ${wp.description ? `<span class="workplace-item__desc">${escapeHtml(wp.description)}</span>` : ''}
-            </span>
+          <div class="workplace-item-wrapper">
+            <button type="button" class="workplace-item workplace-item--interactive" aria-expanded="false">
+              <span class="workplace-item__icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+              </span>
+              <span class="workplace-item__info">
+                <span class="workplace-item__name">${escapeHtml(wp.name)}</span>
+                ${wp.description ? `<span class="workplace-item__desc">${escapeHtml(wp.description)}</span>` : ''}
+              </span>
+              <svg class="workplace-item__chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="workplace-links" hidden>
+              <div class="workplace-links__title">Oferty pracy</div>
+              ${jobLinks}
+            </div>
           </div>`;
       }
       workplacesHtml += '</div>';
@@ -731,19 +812,19 @@
 
       <div class="career-columns career-columns--detail">
         <div class="career-column career-column--detail">
-          <h2 class="career-column__title">Umiejętności i certyfikaty</h3>
+          <h2 class="career-column__title">Umiejętności i certyfikaty</h2>
           ${skillsHtml || '<p class="career-column__empty">Brak danych</p>'}
         </div>
         <div class="career-column career-column--detail">
-          <h2 class="career-column__title">Wykształcenie i uczelnie</h3>
+          <h2 class="career-column__title">Wykształcenie i uczelnie</h2>
           ${eduHtml || '<p class="career-column__empty">Brak danych</p>'}
         </div>
         <div class="career-column career-column--detail">
-          <h2 class="career-column__title">Gdzie pracować</h3>
+          <h2 class="career-column__title">Gdzie pracować</h2>
           ${workplacesHtml}
         </div>
         <div class="career-column career-column--detail">
-          <h2 class="career-column__title">Znane osoby</h3>
+          <h2 class="career-column__title">Znane osoby</h2>
           ${famousHtml}
         </div>
       </div>
@@ -755,7 +836,7 @@
     const heading = careerDetail.querySelector('.career-hero__name');
     if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true }); }
     announce(`Zawód: ${c.name}`);
-    document.title = `${c.name} — zawód | NextMove`;
+    updateMeta(`${c.name} — zawód | NextMove`, c.shortDescription || c.fullDescription || defaultDesc, `${BASE}/zawod/${c.id}`);
 
     // Load Wikipedia thumbnails for famous people
     loadFamousThumbs(c.famousPeople);
@@ -816,7 +897,7 @@
     const heading = careerDetail.querySelector('.career-hero__name');
     if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true }); }
     announce(`Zawód: ${kzis.name}`);
-    document.title = `${kzis.name} | NextMove`;
+    updateMeta(`${kzis.name} | NextMove`, `Profil zawodu: ${kzis.name}`, `${BASE}/zawod/${kzis.id}`);
   }
 
   // --- Popup utilities (focus trap + focus return) ---
@@ -946,6 +1027,7 @@
   function openPersonPopup(person) {
     popupTrigger = document.activeElement;
     closePersonPopup();
+    document.body.style.overflow = 'hidden';
 
     const initials = getInitials(person.name);
     const overlay = document.createElement('div');
@@ -1003,6 +1085,7 @@
   function closePersonPopup() {
     const overlay = document.getElementById('personPopupOverlay');
     if (overlay) overlay.remove();
+    document.body.style.overflow = '';
     restoreFocus();
   }
 
@@ -1031,6 +1114,26 @@
       const ti = parseInt(trainingCard.dataset.trainingIdx);
       const training = currentCareerData.skills && currentCareerData.skills.training && currentCareerData.skills.training[ti];
       if (training) openTrainingPopup(training);
+      return;
+    }
+
+    // Delegate click on workplace accordion buttons
+    const wpBtn = e.target.closest('.workplace-item--interactive');
+    if (wpBtn) {
+      const expanded = wpBtn.getAttribute('aria-expanded') === 'true';
+      wpBtn.setAttribute('aria-expanded', String(!expanded));
+      const links = wpBtn.nextElementSibling;
+      if (links) links.hidden = expanded;
+      return;
+    }
+
+    // Delegate click on skill accordion buttons
+    const skillBtn = e.target.closest('.skill-btn');
+    if (skillBtn) {
+      const expanded = skillBtn.getAttribute('aria-expanded') === 'true';
+      skillBtn.setAttribute('aria-expanded', String(!expanded));
+      const links = skillBtn.nextElementSibling;
+      if (links) links.hidden = expanded;
     }
   });
 
@@ -1038,6 +1141,7 @@
   function openSchoolPopup(school) {
     popupTrigger = document.activeElement;
     closeSchoolPopup();
+    document.body.style.overflow = 'hidden';
 
     const overlay = document.createElement('div');
     overlay.className = 'person-popup-overlay';
@@ -1148,6 +1252,7 @@
   function closeSchoolPopup() {
     const overlay = document.getElementById('schoolPopupOverlay');
     if (overlay) overlay.remove();
+    document.body.style.overflow = '';
     restoreFocus();
   }
 
@@ -1155,6 +1260,7 @@
   function openTrainingPopup(training) {
     popupTrigger = document.activeElement;
     closeTrainingPopup();
+    document.body.style.overflow = 'hidden';
 
     const overlay = document.createElement('div');
     overlay.className = 'person-popup-overlay';
@@ -1247,6 +1353,7 @@
   function closeTrainingPopup() {
     const overlay = document.getElementById('trainingPopupOverlay');
     if (overlay) overlay.remove();
+    document.body.style.overflow = '';
     restoreFocus();
   }
 
@@ -1288,9 +1395,11 @@
       if (idx >= 0) {
         selectedCategories.splice(idx, 1);
         chip.classList.remove('filters__cat-chip--active');
+        chip.setAttribute('aria-pressed', 'false');
       } else {
         selectedCategories.push(cat);
         chip.classList.add('filters__cat-chip--active');
+        chip.setAttribute('aria-pressed', 'true');
       }
     });
   });
@@ -1429,7 +1538,7 @@
     selectedSchools = [];
     selectedCategories = [];
     renderSchoolTags();
-    catChips.forEach(c => c.classList.remove('filters__cat-chip--active'));
+    catChips.forEach(c => { c.classList.remove('filters__cat-chip--active'); c.setAttribute('aria-pressed', 'false'); });
   });
 
   // --- Service Worker registration ---
@@ -1447,6 +1556,7 @@
         const show = window.scrollY > 300;
         scrollTopBtn.classList.toggle('scroll-top--visible', show);
         scrollTopBtn.setAttribute('aria-hidden', String(!show));
+        scrollTopBtn.setAttribute('tabindex', show ? '0' : '-1');
         scrollTicking = false;
       });
       scrollTicking = true;

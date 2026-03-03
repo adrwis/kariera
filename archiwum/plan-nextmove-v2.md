@@ -1,7 +1,7 @@
 # Plan — NextMove v2: 5 zmian na podstronie zawodu
 
 > **Data:** 2026-03-03
-> **Status:** W trakcie (2/6 kroków)
+> **Status:** W trakcie (5/6 kroków)
 
 ---
 
@@ -27,7 +27,7 @@ Cel: poprawa UX + interaktywność — klikalne workplace'y z ofertami pracy, kl
 - **Zmiana:** Solid primary bg, pill shape z labelem "Na górę" (desktop), circle (mobile), box-shadow
 - **Status:** ✅ Done (sesja 2026-03-03)
 
-### [ ] 3. Workplace → klikalne z linkami do ofert pracy (~30 min)
+### [x] 3. Workplace → klikalne z linkami do ofert pracy (~30 min)
 - **Wzorzec:** Accordion inline (nie popup)
 - **JS:** W `renderRichDetail()` workplace `<div>` → `<button>` z chevronem, nowa `buildJobSearchLinks(careerName, workplaceName, category)`
   - Zawsze: pracuj.pl, indeed.pl
@@ -48,7 +48,7 @@ Cel: poprawa UX + interaktywność — klikalne workplace'y z ofertami pracy, kl
   </div>
   ```
 
-### [ ] 4. Skille → klikalne z linkami do szkoleń (~25 min)
+### [x] 4. Skille → klikalne z linkami do szkoleń (~25 min)
 - **Wzorzec:** Accordion inline (identyczny pattern jak workplace)
 - **JS:** W `renderRichDetail()` skill `<li>` zawiera `<button class="skill-btn">` z chevronem + `<div class="skill-links" hidden>`
   - Nowa `buildSkillTrainingLinks(skillName, skillType, careerData)`:
@@ -58,7 +58,7 @@ Cel: poprawa UX + interaktywność — klikalne workplace'y z ofertami pracy, kl
 - **CSS:** `.skill-btn`, `.skill-links`, `.skill-links__link`
 - **Uwaga:** Istniejące `::before` pseudo-elementy (emoji) na `<li>` zostają
 
-### [ ] 5. Build + testy Playwright (~15 min)
+### [x] 5. Build + testy Playwright (~15 min)
 - `node scripts/build.js`
 - Bump SW cache version (jeśli potrzebne)
 - Playwright testy:

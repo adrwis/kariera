@@ -153,9 +153,9 @@ const TypingEffect = (() => {
   const phrases = [
     'Odkryj swoje powołanie...',
     'Kim chcesz zostać?',
-    'Ponad 80 szczegółowych profili zawodów',
+    'Blisko 80 szczegółowych profili zawodów',
+    'Zarobki, uczelnie, szkolenia i oferty pracy',
     'Znajdź swoją ścieżkę kariery',
-    'Twoja przyszłość zaczyna się tutaj',
   ];
 
   let element = null;
