@@ -27,6 +27,12 @@ for (const f of fs.readdirSync(DIR).filter(f => f.endsWith('.json') && f !== 'in
     if (s.admission) s.admission = s.admission.replace('nie jest kluczowy', 'nie decyduje o przyjęciu');
     for (const p2 of s.profiles || []) {
       if (/ - /.test(p2.name)) { p2.name = tidyName(p2.name); changed++; }
+      // Języki wpisane z RSPO albo bez pokrycia w źródle oferty (audyt 2026-10-01)
+      if ([29709, 6128].includes(s.rspo) && (p2.languages || []).length) { p2.languages = []; changed++; }
+      // Liceum Jezuitów w Gdyni, klasa architektoniczno-graficzna: regulamin punktuje też plastykę
+      if (s.rspo === 6128 && /architektoniczno-graficzna/i.test(p2.name) && !(p2.scoredSubjects || []).includes('plastyka')) {
+        p2.scoredSubjects = [...(p2.scoredSubjects || []), 'plastyka']; changed++;
+      }
     }
   }
   fs.writeFileSync(p, JSON.stringify(d));

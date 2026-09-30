@@ -25,6 +25,7 @@ const Szkoly = (function () {
     hist: 'historia', wos: 'WOS', hsz: 'historia sztuki', hmuz: 'historia muzyki', fil: 'filozofia', lac: 'łacina',
     ang_dwj: 'angielski dwujęzyczny', niem_dwj: 'niemiecki dwujęzyczny', fr_dwj: 'francuski dwujęzyczny',
     hisz_dwj: 'hiszpański dwujęzyczny', ros_dwj: 'rosyjski dwujęzyczny', wlo_dwj: 'włoski dwujęzyczny',
+    ukr: 'język ukraiński', ukr_dwj: 'ukraiński dwujęzyczny', norw: 'język norweski',
   };
 
   // Dopełniacz do zdań typu „matury rozszerzonej z biologii”
@@ -463,7 +464,10 @@ const Szkoly = (function () {
     if (!th.length) return '';
     return th.map(t => {
       const who = t.kind === 'wstępna kwalifikacja' ? 'wstępna kwalifikacja' : t.kind ? 'ostatnia osoba zakwalifikowana' : 'ostatnia osoba przyjęta';
-      return `<div class="szkola__threshold">Próg ${esc(t.year)}: <strong>${fmtNum(t.min)} z ${esc(t.scale)} pkt</strong> <span class="szkola__muted">(${who})</span> ${sourceLink(t.sourceUrl)}</div>`;
+      const unfilled = t.filled === false
+        ? `<div class="szkola__muted">Klasa nie wypełniła limitu miejsc${t.qualified != null && t.places ? ` (${esc(t.qualified)} z ${esc(t.places)})` : ''}, więc przyjęto wszystkich chętnych. Ten wynik nie jest progiem konkurencyjnym.</div>`
+        : '';
+      return `<div class="szkola__threshold">Próg ${esc(t.year)}: <strong>${fmtNum(t.min)} z ${esc(t.scale)} pkt</strong> <span class="szkola__muted">(${who})</span> ${sourceLink(t.sourceUrl)}${unfilled}</div>`;
     }).join('');
   }
 

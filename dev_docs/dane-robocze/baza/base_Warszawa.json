@@ -72,6 +72,10 @@
     "mat": {
      "n": 16,
      "mean": 64.8
+    },
+    "wos": {
+     "n": 7,
+     "mean": 80.9
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -177,6 +181,10 @@
     "mat": {
      "n": 34,
      "mean": 80.6
+    },
+    "wos": {
+     "n": 6,
+     "mean": 78
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -249,6 +257,10 @@
     },
     "wlo": {
      "n": 1,
+     "mean": null
+    },
+    "wos": {
+     "n": 4,
      "mean": null
     }
    },
@@ -395,6 +407,10 @@
     "mat": {
      "n": 2,
      "mean": null
+    },
+    "wos": {
+     "n": 8,
+     "mean": 28.8
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -474,6 +490,10 @@
     "mat": {
      "n": 13,
      "mean": 21.5
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -566,6 +586,10 @@
     "mat": {
      "n": 21,
      "mean": 45
+    },
+    "wos": {
+     "n": 2,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -666,6 +690,10 @@
     "mat": {
      "n": 23,
      "mean": 54.9
+    },
+    "wos": {
+     "n": 9,
+     "mean": 70.9
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -915,6 +943,10 @@
     "mat": {
      "n": 123,
      "mean": 44.9
+    },
+    "wos": {
+     "n": 16,
+     "mean": 58
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -1031,6 +1063,10 @@
     "mat": {
      "n": 123,
      "mean": 69.2
+    },
+    "wos": {
+     "n": 20,
+     "mean": 79.7
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -1231,6 +1267,10 @@
     "mat": {
      "n": 138,
      "mean": 70.1
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -1340,6 +1380,10 @@
     "mat": {
      "n": 52,
      "mean": 32.4
+    },
+    "wos": {
+     "n": 12,
+     "mean": 34.7
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -1448,6 +1492,10 @@
     "mat": {
      "n": 76,
      "mean": 26.6
+    },
+    "wos": {
+     "n": 7,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -1543,6 +1591,10 @@
     "mat": {
      "n": 36,
      "mean": 40.6
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -1645,6 +1697,10 @@
     "mat": {
      "n": 5,
      "mean": 18.4
+    },
+    "wos": {
+     "n": 10,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -1748,6 +1804,10 @@
     "mat": {
      "n": 29,
      "mean": 57.4
+    },
+    "wos": {
+     "n": 11,
+     "mean": 48.9
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -1810,6 +1870,10 @@
     },
     "pol": {
      "n": 3,
+     "mean": null
+    },
+    "wos": {
+     "n": 1,
      "mean": null
     }
    },
@@ -1911,6 +1975,14 @@
     "mat": {
      "n": 20,
      "mean": 42
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    },
+    "ukr_dwj": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -1987,6 +2059,10 @@
     "mat": {
      "n": 21,
      "mean": 27.5
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -2102,6 +2178,14 @@
     "mat": {
      "n": 108,
      "mean": 43.1
+    },
+    "wos": {
+     "n": 22,
+     "mean": 53.9
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -2202,6 +2286,10 @@
     "mat": {
      "n": 16,
      "mean": 23.8
+    },
+    "wos": {
+     "n": 13,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -2281,6 +2369,10 @@
     "ros": {
      "n": 8,
      "mean": 82.5
+    },
+    "wos": {
+     "n": 6,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -2381,6 +2473,10 @@
     "mat": {
      "n": 7,
      "mean": 5.7
+    },
+    "wos": {
+     "n": 13,
+     "mean": 22.9
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -2481,6 +2577,10 @@
     "mat": {
      "n": 24,
      "mean": 44.1
+    },
+    "wos": {
+     "n": 40,
+     "mean": 66.4
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -2705,6 +2805,10 @@
     "mat": {
      "n": 184,
      "mean": 75.4
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -2870,6 +2974,10 @@
     "mat": {
      "n": 5,
      "mean": 8
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -3040,6 +3148,10 @@
     "mat": {
      "n": 54,
      "mean": 57.7
+    },
+    "wos": {
+     "n": 6,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -3160,6 +3272,10 @@
     "pol": {
      "n": 3,
      "mean": null
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -3234,6 +3350,10 @@
     },
     "mat": {
      "n": 1,
+     "mean": null
+    },
+    "wos": {
+     "n": 2,
      "mean": null
     }
    },
@@ -3336,6 +3456,14 @@
     "mat": {
      "n": 71,
      "mean": 50.4
+    },
+    "wos": {
+     "n": 40,
+     "mean": null
+    },
+    "ukr": {
+     "n": 8,
+     "mean": 87.8
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -3474,6 +3602,14 @@
     "mat": {
      "n": 407,
      "mean": 19.2
+    },
+    "wos": {
+     "n": 296,
+     "mean": 26.2
+    },
+    "ukr": {
+     "n": 4,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -3593,6 +3729,10 @@
     "mat": {
      "n": 35,
      "mean": 64.8
+    },
+    "wos": {
+     "n": 12,
+     "mean": 74.2
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -3717,6 +3857,10 @@
     "mat": {
      "n": 132,
      "mean": 68.5
+    },
+    "wos": {
+     "n": 28,
+     "mean": 76.8
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -3832,6 +3976,10 @@
     "mat": {
      "n": 10,
      "mean": 21.2
+    },
+    "wos": {
+     "n": 7,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -3941,6 +4089,10 @@
     "mat": {
      "n": 111,
      "mean": 36.2
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -4089,6 +4241,10 @@
     "mat": {
      "n": 120,
      "mean": 45.5
+    },
+    "wos": {
+     "n": 10,
+     "mean": 68.6
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -4202,6 +4358,10 @@
     "mat": {
      "n": 315,
      "mean": 71.9
+    },
+    "wos": {
+     "n": 18,
+     "mean": 72.7
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -4290,6 +4450,10 @@
     "mat": {
      "n": 6,
      "mean": 27.3
+    },
+    "wos": {
+     "n": 2,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -4462,6 +4626,10 @@
     "mat": {
      "n": 14,
      "mean": 28.5
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -4560,6 +4728,10 @@
     "mat": {
      "n": 72,
      "mean": 43.3
+    },
+    "wos": {
+     "n": 19,
+     "mean": 47.8
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -4664,6 +4836,10 @@
     "mat": {
      "n": 31,
      "mean": 38.9
+    },
+    "wos": {
+     "n": 16,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -5032,6 +5208,10 @@
     "mat": {
      "n": 22,
      "mean": 27.5
+    },
+    "wos": {
+     "n": 9,
+     "mean": 41.3
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -5125,6 +5305,10 @@
     "mat": {
      "n": 13,
      "mean": 57.8
+    },
+    "wos": {
+     "n": 8,
+     "mean": 74.8
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -5197,6 +5381,10 @@
     "mat": {
      "n": 1,
      "mean": null
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -5264,6 +5452,10 @@
     "ang_dwj": {
      "n": 1,
      "mean": null
+    },
+    "wos": {
+     "n": 5,
+     "mean": 36.4
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -5360,6 +5552,10 @@
     },
     "mat": {
      "n": 1,
+     "mean": null
+    },
+    "wos": {
+     "n": 4,
      "mean": null
     }
    },
@@ -5458,6 +5654,10 @@
     "mat": {
      "n": 9,
      "mean": 18.2
+    },
+    "wos": {
+     "n": 15,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -5543,6 +5743,10 @@
     "mat": {
      "n": 18,
      "mean": 62.6
+    },
+    "wos": {
+     "n": 10,
+     "mean": 48
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -5755,6 +5959,10 @@
     "mat": {
      "n": 10,
      "mean": 19
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -5860,6 +6068,10 @@
     "mat": {
      "n": 7,
      "mean": 23.7
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -5935,6 +6147,10 @@
     "mat": {
      "n": 6,
      "mean": 28.3
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -6018,6 +6234,10 @@
     "mat": {
      "n": 5,
      "mean": 29.2
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -6106,6 +6326,10 @@
     "mat": {
      "n": 22,
      "mean": 33.8
+    },
+    "wos": {
+     "n": 8,
+     "mean": 36.8
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -6187,6 +6411,10 @@
     },
     "mat": {
      "n": 3,
+     "mean": null
+    },
+    "wos": {
+     "n": 1,
      "mean": null
     }
    },
@@ -6280,6 +6508,10 @@
     "mat": {
      "n": 10,
      "mean": 45.4
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -6379,6 +6611,10 @@
     "mat": {
      "n": 38,
      "mean": 46.3
+    },
+    "wos": {
+     "n": 20,
+     "mean": 39
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -6478,6 +6714,10 @@
     "mat": {
      "n": 27,
      "mean": 47.7
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -6562,6 +6802,10 @@
     "mat": {
      "n": 12,
      "mean": 51.8
+    },
+    "wos": {
+     "n": 10,
+     "mean": 32.8
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -6643,6 +6887,10 @@
     "mat": {
      "n": 8,
      "mean": 11.8
+    },
+    "wos": {
+     "n": 5,
+     "mean": 28.4
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -6830,6 +7078,10 @@
     "mat": {
      "n": 6,
      "mean": 49.3
+    },
+    "wos": {
+     "n": 8,
+     "mean": 59
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -6927,6 +7179,10 @@
     "mat": {
      "n": 5,
      "mean": 64.4
+    },
+    "wos": {
+     "n": 7,
+     "mean": 48
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -7265,6 +7521,10 @@
     "mat": {
      "n": 32,
      "mean": 23.6
+    },
+    "wos": {
+     "n": 13,
+     "mean": 29.7
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -7342,6 +7602,10 @@
     },
     "mat": {
      "n": 1,
+     "mean": null
+    },
+    "wos": {
+     "n": 2,
      "mean": null
     }
    },
@@ -7522,6 +7786,10 @@
     "mat": {
      "n": 67,
      "mean": 25.1
+    },
+    "wos": {
+     "n": 6,
+     "mean": 47.7
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -7618,6 +7886,10 @@
     "mat": {
      "n": 10,
      "mean": 30.2
+    },
+    "wos": {
+     "n": 17,
+     "mean": 55.3
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -7721,6 +7993,14 @@
     "mat": {
      "n": 41,
      "mean": 23.9
+    },
+    "wos": {
+     "n": 8,
+     "mean": 40.2
+    },
+    "ukr": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -7816,6 +8096,14 @@
     "mat": {
      "n": 12,
      "mean": 11
+    },
+    "wos": {
+     "n": 43,
+     "mean": 37.1
+    },
+    "ukr_dwj": {
+     "n": 4,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -7906,6 +8194,10 @@
     "mat": {
      "n": 1,
      "mean": null
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -7994,6 +8286,10 @@
     "mat": {
      "n": 29,
      "mean": 20
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -8098,6 +8394,10 @@
     "mat": {
      "n": 49,
      "mean": 45.3
+    },
+    "wos": {
+     "n": 18,
+     "mean": 60.6
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -8211,6 +8511,10 @@
     "mat": {
      "n": 89,
      "mean": 76.7
+    },
+    "wos": {
+     "n": 15,
+     "mean": 80.7
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -8309,6 +8613,10 @@
     "mat": {
      "n": 20,
      "mean": 27.5
+    },
+    "wos": {
+     "n": 7,
+     "mean": 35.7
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -8420,6 +8728,14 @@
     "mat": {
      "n": 20,
      "mean": 37.4
+    },
+    "wos": {
+     "n": 15,
+     "mean": 39.5
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -8531,6 +8847,10 @@
     "mat": {
      "n": 124,
      "mean": 74.4
+    },
+    "wos": {
+     "n": 10,
+     "mean": 78.4
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -8630,6 +8950,10 @@
     "mat": {
      "n": 18,
      "mean": 8.6
+    },
+    "wos": {
+     "n": 26,
+     "mean": 32.2
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -8743,6 +9067,14 @@
     "mat": {
      "n": 130,
      "mean": 47.5
+    },
+    "wos": {
+     "n": 15,
+     "mean": 62.9
+    },
+    "ukr_dwj": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -8835,6 +9167,10 @@
     "mat": {
      "n": 40,
      "mean": 20.8
+    },
+    "wos": {
+     "n": 8,
+     "mean": 48.8
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -8925,6 +9261,14 @@
     },
     "mat": {
      "n": 4,
+     "mean": null
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
+    },
+    "ukr": {
+     "n": 1,
      "mean": null
     }
    },
@@ -9048,6 +9392,10 @@
     "mat": {
      "n": 22,
      "mean": 24.9
+    },
+    "wos": {
+     "n": 24,
+     "mean": 58.7
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -9140,6 +9488,10 @@
     "mat": {
      "n": 15,
      "mean": 5.6
+    },
+    "wos": {
+     "n": 54,
+     "mean": 33.2
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -9252,6 +9604,10 @@
     "mat": {
      "n": 53,
      "mean": 25.4
+    },
+    "wos": {
+     "n": 19,
+     "mean": 49.7
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -9359,6 +9715,10 @@
     "mat": {
      "n": 42,
      "mean": 49.1
+    },
+    "wos": {
+     "n": 7,
+     "mean": 41.4
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -9461,6 +9821,14 @@
     "mat": {
      "n": 84,
      "mean": 70.1
+    },
+    "wos": {
+     "n": 17,
+     "mean": 55.8
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -9615,6 +9983,10 @@
     "ros": {
      "n": 1,
      "mean": null
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -9717,6 +10089,14 @@
     "mat": {
      "n": 50,
      "mean": 45.8
+    },
+    "wos": {
+     "n": 6,
+     "mean": 46.7
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -9803,6 +10183,14 @@
     "mat": {
      "n": 12,
      "mean": 9
+    },
+    "wos": {
+     "n": 5,
+     "mean": 28
+    },
+    "ukr": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -9886,6 +10274,10 @@
     "mat": {
      "n": 22,
      "mean": 6.4
+    },
+    "wos": {
+     "n": 11,
+     "mean": 25.3
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -10097,6 +10489,10 @@
     },
     "mat": {
      "n": 3,
+     "mean": null
+    },
+    "wos": {
+     "n": 1,
      "mean": null
     }
    },
@@ -10421,6 +10817,10 @@
     "mat": {
      "n": 6,
      "mean": 57.7
+    },
+    "wos": {
+     "n": 2,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -10634,6 +11034,10 @@
     },
     "mat": {
      "n": 3,
+     "mean": null
+    },
+    "wos": {
+     "n": 4,
      "mean": null
     }
    },
@@ -11005,6 +11409,10 @@
     "mat": {
      "n": 3,
      "mean": null
+    },
+    "wos": {
+     "n": 2,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -11103,6 +11511,14 @@
     "mat": {
      "n": 14,
      "mean": 13.7
+    },
+    "wos": {
+     "n": 6,
+     "mean": 22.3
+    },
+    "ukr_dwj": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -11202,6 +11618,10 @@
     "mat": {
      "n": 13,
      "mean": 45.4
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -11359,6 +11779,10 @@
     "mat": {
      "n": 30,
      "mean": 33.5
+    },
+    "wos": {
+     "n": 5,
+     "mean": 22.8
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -11452,6 +11876,14 @@
     "mat": {
      "n": 6,
      "mean": 53.7
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -11676,6 +12108,10 @@
     "mat": {
      "n": 4,
      "mean": null
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -11763,6 +12199,10 @@
     "mat": {
      "n": 10,
      "mean": 30.8
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -11866,6 +12306,10 @@
     "mat": {
      "n": 21,
      "mean": 46.6
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -11961,6 +12405,10 @@
     "mat": {
      "n": 13,
      "mean": 50.5
+    },
+    "wos": {
+     "n": 10,
+     "mean": 63.2
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -12084,6 +12532,10 @@
     "mat": {
      "n": 15,
      "mean": 58.3
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -12177,6 +12629,10 @@
     "mat": {
      "n": 12,
      "mean": 53.7
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -12245,6 +12701,10 @@
      "mean": null
     },
     "mat": {
+     "n": 3,
+     "mean": null
+    },
+    "wos": {
      "n": 3,
      "mean": null
     }
@@ -12347,6 +12807,10 @@
     "mat": {
      "n": 35,
      "mean": 68.2
+    },
+    "wos": {
+     "n": 6,
+     "mean": 74.3
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -12430,6 +12894,10 @@
     },
     "mat": {
      "n": 4,
+     "mean": null
+    },
+    "wos": {
+     "n": 3,
      "mean": null
     }
    },
@@ -12530,6 +12998,10 @@
     "mat": {
      "n": 15,
      "mean": 54.3
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -12638,6 +13110,10 @@
     "mat": {
      "n": 17,
      "mean": 57.8
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -12712,6 +13188,10 @@
     },
     "mat": {
      "n": 3,
+     "mean": null
+    },
+    "wos": {
+     "n": 4,
      "mean": null
     }
    },
@@ -12895,6 +13375,10 @@
     "mat": {
      "n": 132,
      "mean": 71.5
+    },
+    "wos": {
+     "n": 16,
+     "mean": 80.4
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -13018,6 +13502,10 @@
     "mat": {
      "n": 175,
      "mean": 67.3
+    },
+    "wos": {
+     "n": 22,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -13121,6 +13609,10 @@
     "mat": {
      "n": 72,
      "mean": 69.3
+    },
+    "wos": {
+     "n": 29,
+     "mean": 82.1
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -13234,6 +13726,10 @@
     "mat": {
      "n": 162,
      "mean": 73.1
+    },
+    "wos": {
+     "n": 20,
+     "mean": 86.4
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -13329,6 +13825,10 @@
     "mat": {
      "n": 12,
      "mean": 49.7
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -13433,6 +13933,10 @@
     "mat": {
      "n": 3,
      "mean": null
+    },
+    "wos": {
+     "n": 13,
+     "mean": 66.5
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -13621,6 +14125,10 @@
     "mat": {
      "n": 5,
      "mean": 31.6
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -13730,6 +14238,10 @@
     "mat": {
      "n": 93,
      "mean": 50.8
+    },
+    "wos": {
+     "n": 50,
+     "mean": 69.5
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -13817,6 +14329,10 @@
     },
     "mat": {
      "n": 3,
+     "mean": null
+    },
+    "wos": {
+     "n": 8,
      "mean": null
     }
    },
@@ -13930,6 +14446,10 @@
     "mat": {
      "n": 126,
      "mean": 60.7
+    },
+    "wos": {
+     "n": 24,
+     "mean": 64.3
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -14032,6 +14552,10 @@
     "mat": {
      "n": 90,
      "mean": 33.5
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -14115,6 +14639,10 @@
     "mat": {
      "n": 20,
      "mean": 11.8
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -14215,6 +14743,10 @@
     "mat": {
      "n": 6,
      "mean": 15
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -14320,6 +14852,10 @@
     "mat": {
      "n": 98,
      "mean": 66.6
+    },
+    "wos": {
+     "n": 31,
+     "mean": 74.9
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -14430,6 +14966,10 @@
     "mat": {
      "n": 84,
      "mean": 44.1
+    },
+    "wos": {
+     "n": 28,
+     "mean": 73.2
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -14539,6 +15079,18 @@
     "mat": {
      "n": 112,
      "mean": 52.6
+    },
+    "wos": {
+     "n": 24,
+     "mean": 72.5
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
+    },
+    "ukr_dwj": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -14650,6 +15202,10 @@
     "mat": {
      "n": 222,
      "mean": 75.1
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -14759,6 +15315,10 @@
     "mat": {
      "n": 128,
      "mean": 62.4
+    },
+    "wos": {
+     "n": 16,
+     "mean": 70.9
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -14865,6 +15425,10 @@
     "mat": {
      "n": 130,
      "mean": 73.7
+    },
+    "wos": {
+     "n": 7,
+     "mean": 88.6
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -14970,6 +15534,10 @@
     "mat": {
      "n": 145,
      "mean": 65.3
+    },
+    "wos": {
+     "n": 29,
+     "mean": 73.9
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -15087,6 +15655,14 @@
     "mat": {
      "n": 69,
      "mean": 34.2
+    },
+    "wos": {
+     "n": 15,
+     "mean": 48.7
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -15200,6 +15776,10 @@
     "mat": {
      "n": 30,
      "mean": 22.7
+    },
+    "wos": {
+     "n": 20,
+     "mean": 40.3
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -15308,6 +15888,10 @@
     "mat": {
      "n": 100,
      "mean": 57.1
+    },
+    "wos": {
+     "n": 39,
+     "mean": 63.1
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -15428,6 +16012,10 @@
     "mat": {
      "n": 83,
      "mean": 54.6
+    },
+    "wos": {
+     "n": 52,
+     "mean": 57
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -15536,6 +16124,10 @@
     "mat": {
      "n": 24,
      "mean": 42.6
+    },
+    "wos": {
+     "n": 12,
+     "mean": 43.5
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -15663,6 +16255,10 @@
     "mat": {
      "n": 23,
      "mean": 16.5
+    },
+    "wos": {
+     "n": 9,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -15766,6 +16362,14 @@
     "mat": {
      "n": 75,
      "mean": 49.9
+    },
+    "wos": {
+     "n": 27,
+     "mean": 61.6
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -15867,6 +16471,10 @@
     "mat": {
      "n": 46,
      "mean": 48.5
+    },
+    "wos": {
+     "n": 11,
+     "mean": 50.4
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -15978,6 +16586,10 @@
     "mat": {
      "n": 37,
      "mean": 54.2
+    },
+    "wos": {
+     "n": 33,
+     "mean": 77.3
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -16086,6 +16698,10 @@
     "mat": {
      "n": 75,
      "mean": 45.3
+    },
+    "wos": {
+     "n": 11,
+     "mean": 62.5
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -16189,6 +16805,10 @@
     "mat": {
      "n": 115,
      "mean": 52.4
+    },
+    "wos": {
+     "n": 17,
+     "mean": 64.7
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -16301,6 +16921,10 @@
     "mat": {
      "n": 162,
      "mean": 73.7
+    },
+    "wos": {
+     "n": 21,
+     "mean": 76.8
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -16390,6 +17014,10 @@
     "mat": {
      "n": 6,
      "mean": 15.3
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -16508,6 +17136,10 @@
     "mat": {
      "n": 126,
      "mean": 58
+    },
+    "wos": {
+     "n": 18,
+     "mean": 76.2
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -16616,6 +17248,10 @@
     "mat": {
      "n": 98,
      "mean": 65.4
+    },
+    "wos": {
+     "n": 9,
+     "mean": 77.3
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -16706,6 +17342,14 @@
     },
     "mat": {
      "n": 4,
+     "mean": null
+    },
+    "wos": {
+     "n": 10,
+     "mean": 34.6
+    },
+    "ukr": {
+     "n": 1,
      "mean": null
     }
    },
@@ -16815,6 +17459,10 @@
     "mat": {
      "n": 90,
      "mean": 43.3
+    },
+    "wos": {
+     "n": 44,
+     "mean": 55.8
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -16919,6 +17567,10 @@
     "mat": {
      "n": 24,
      "mean": 43.1
+    },
+    "wos": {
+     "n": 16,
+     "mean": 44.4
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -17007,6 +17659,14 @@
     "mat": {
      "n": 18,
      "mean": 13.2
+    },
+    "wos": {
+     "n": 13,
+     "mean": 27.8
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -17125,6 +17785,10 @@
     "mat": {
      "n": 95,
      "mean": 72.7
+    },
+    "wos": {
+     "n": 14,
+     "mean": 90.3
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -17238,6 +17902,10 @@
     "mat": {
      "n": 121,
      "mean": 68.6
+    },
+    "wos": {
+     "n": 11,
+     "mean": 80
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -17349,6 +18017,10 @@
     "mat": {
      "n": 75,
      "mean": 52.6
+    },
+    "wos": {
+     "n": 31,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -17433,6 +18105,10 @@
     "mat": {
      "n": 2,
      "mean": null
+    },
+    "wos": {
+     "n": 5,
+     "mean": 38.8
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -17550,6 +18226,10 @@
     "mat": {
      "n": 109,
      "mean": 70.6
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -17653,6 +18333,10 @@
     "mat": {
      "n": 33,
      "mean": 55.7
+    },
+    "wos": {
+     "n": 19,
+     "mean": 74.9
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -17752,6 +18436,14 @@
     "mat": {
      "n": 6,
      "mean": 17.7
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -17866,6 +18558,10 @@
     "mat": {
      "n": 98,
      "mean": 60.9
+    },
+    "wos": {
+     "n": 22,
+     "mean": 67.4
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -17973,6 +18669,10 @@
     "mat": {
      "n": 110,
      "mean": 57
+    },
+    "wos": {
+     "n": 20,
+     "mean": 73.8
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -18082,6 +18782,10 @@
     "mat": {
      "n": 65,
      "mean": 47.4
+    },
+    "wos": {
+     "n": 12,
+     "mean": 60
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -18418,6 +19122,10 @@
     "mat": {
      "n": 1,
      "mean": null
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -18576,6 +19284,10 @@
     "mat": {
      "n": 14,
      "mean": 4.9
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -18729,6 +19441,10 @@
     "pol": {
      "n": 5,
      "mean": 50.2
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -18813,6 +19529,10 @@
     "mat": {
      "n": 2,
      "mean": null
+    },
+    "wos": {
+     "n": 15,
+     "mean": 20.4
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -18899,6 +19619,10 @@
     "mat": {
      "n": 9,
      "mean": 24.5
+    },
+    "wos": {
+     "n": 2,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -18999,6 +19723,10 @@
     "mat": {
      "n": 141,
      "mean": 36.3
+    },
+    "wos": {
+     "n": 10,
+     "mean": 37.3
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -19091,6 +19819,10 @@
     "mat": {
      "n": 114,
      "mean": 37.2
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -19262,6 +19994,10 @@
     "mat": {
      "n": 23,
      "mean": 21.8
+    },
+    "wos": {
+     "n": 5,
+     "mean": 44
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -19367,6 +20103,10 @@
     "mat": {
      "n": 9,
      "mean": 20.4
+    },
+    "wos": {
+     "n": 8,
+     "mean": 36.1
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -19431,6 +20171,10 @@
     },
     "mat": {
      "n": 3,
+     "mean": null
+    },
+    "wos": {
+     "n": 1,
      "mean": null
     }
    },
@@ -19525,6 +20269,10 @@
     "mat": {
      "n": 47,
      "mean": 25.1
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -19680,6 +20428,10 @@
     "mat": {
      "n": 1,
      "mean": null
+    },
+    "wos": {
+     "n": 5,
+     "mean": 19
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -19886,6 +20638,10 @@
     "mat": {
      "n": 2,
      "mean": null
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -20058,6 +20814,10 @@
     "mat": {
      "n": 8,
      "mean": 17
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -20144,6 +20904,10 @@
     "mat": {
      "n": 2,
      "mean": null
+    },
+    "wos": {
+     "n": 6,
+     "mean": 9.7
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -20319,6 +21083,10 @@
     "mat": {
      "n": 3,
      "mean": null
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -20410,6 +21178,10 @@
     "mat": {
      "n": 6,
      "mean": 14.7
+    },
+    "wos": {
+     "n": 7,
+     "mean": 20.9
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -20495,6 +21267,10 @@
     },
     "ang_dwj": {
      "n": 1,
+     "mean": null
+    },
+    "wos": {
+     "n": 4,
      "mean": null
     }
    },
@@ -20678,6 +21454,18 @@
     "mat": {
      "n": 1,
      "mean": null
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
+    },
+    "ukr": {
+     "n": 2,
+     "mean": null
+    },
+    "ukr_dwj": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -20846,6 +21634,14 @@
     "mat": {
      "n": 38,
      "mean": 30.8
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -20943,6 +21739,10 @@
     "mat": {
      "n": 24,
      "mean": 10.7
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -21031,6 +21831,10 @@
     "mat": {
      "n": 2,
      "mean": null
+    },
+    "wos": {
+     "n": 8,
+     "mean": 9.6
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -21106,6 +21910,10 @@
     "mat": {
      "n": 18,
      "mean": 16.8
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -21198,6 +22006,10 @@
     "mat": {
      "n": 4,
      "mean": null
+    },
+    "wos": {
+     "n": 8,
+     "mean": 22.8
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -21277,6 +22089,10 @@
      "mean": null
     },
     "mat": {
+     "n": 3,
+     "mean": null
+    },
+    "wos": {
      "n": 3,
      "mean": null
     }
@@ -21360,6 +22176,10 @@
     },
     "mat": {
      "n": 3,
+     "mean": null
+    },
+    "wos": {
+     "n": 1,
      "mean": null
     }
    },
@@ -21535,6 +22355,14 @@
     "mat": {
      "n": 31,
      "mean": 15.4
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -21623,6 +22451,10 @@
     "mat": {
      "n": 9,
      "mean": 7.6
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -21706,6 +22538,10 @@
     "mat": {
      "n": 72,
      "mean": 30.5
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -21860,6 +22696,10 @@
     "mat": {
      "n": 6,
      "mean": 5.3
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -21957,6 +22797,10 @@
     "mat": {
      "n": 4,
      "mean": null
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -22029,6 +22873,10 @@
     },
     "mat": {
      "n": 2,
+     "mean": null
+    },
+    "wos": {
+     "n": 1,
      "mean": null
     }
    },
@@ -22114,6 +22962,14 @@
     "mat": {
      "n": 11,
      "mean": 11.3
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -22199,6 +23055,10 @@
     "mat": {
      "n": 14,
      "mean": 1.7
+    },
+    "wos": {
+     "n": 8,
+     "mean": 11.1
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -22330,6 +23190,10 @@
     "mat": {
      "n": 1,
      "mean": null
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -22451,6 +23315,10 @@
      "mean": null
     },
     "mat": {
+     "n": 2,
+     "mean": null
+    },
+    "wos": {
      "n": 2,
      "mean": null
     }
