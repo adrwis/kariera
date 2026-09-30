@@ -464,10 +464,10 @@ const Szkoly = (function () {
     if (!th.length) return '';
     return th.map(t => {
       const who = t.kind === 'wstępna kwalifikacja' ? 'wstępna kwalifikacja' : t.kind ? 'ostatnia osoba zakwalifikowana' : 'ostatnia osoba przyjęta';
-      const unfilled = t.filled === false
-        ? `<div class="szkola__muted">Klasa nie wypełniła limitu miejsc${t.qualified != null && t.places ? ` (${esc(t.qualified)} z ${esc(t.places)})` : ''}, więc przyjęto wszystkich chętnych. Ten wynik nie jest progiem konkurencyjnym.</div>`
+      const admitted = t.qualified != null && t.places
+        ? `<div class="szkola__muted">Przyjętych: ${esc(t.qualified)} na ${esc(t.places)} ${plural(t.places, 'miejsce', 'miejsca', 'miejsc')}.</div>`
         : '';
-      return `<div class="szkola__threshold">Próg ${esc(t.year)}: <strong>${fmtNum(t.min)} z ${esc(t.scale)} pkt</strong> <span class="szkola__muted">(${who})</span> ${sourceLink(t.sourceUrl)}${unfilled}</div>`;
+      return `<div class="szkola__threshold">Próg ${esc(t.year)}: <strong>${fmtNum(t.min)} z ${esc(t.scale)} pkt</strong> <span class="szkola__muted">(${who})</span> ${sourceLink(t.sourceUrl)}${admitted}</div>`;
     }).join('');
   }
 
@@ -595,7 +595,7 @@ const Szkoly = (function () {
 
         <section class="szkola__section">
           <h2 class="career-column__title">Klasy${year ? ` w roku ${esc(year)}` : ''}</h2>
-          ${anyThresholds ? '<p class="career-column__text szkola__muted">Próg to liczba punktów ostatniej osoby przyjętej do klasy. Zwykle skala wynosi od 0 do 200: połowa to egzamin ósmoklasisty, połowa oceny ze świadectwa i osiągnięcia. Klasy ze sprawdzianem (sportowe, dwujęzyczne) mogą mieć wyższą skalę, podaną przy progu.</p>' : ''}
+          ${anyThresholds ? '<p class="career-column__text szkola__muted">Próg to liczba punktów ostatniej osoby przyjętej albo zakwalifikowanej do klasy, tak jak podaje źródło. Zwykle skala wynosi od 0 do 200: połowa to egzamin ósmoklasisty, połowa oceny ze świadectwa i osiągnięcia. Klasy ze sprawdzianem (sportowe, dwujęzyczne) mogą mieć wyższą skalę, podaną przy progu.</p>' : ''}
           ${profiles.length
             ? `<ul class="szkola__profiles">${profiles.map(p => profileHtml(p, isTech)).join('')}</ul>`
             : '<p class="career-column__empty">Brak danych o klasach w NextMove. Ofertę sprawdzisz na stronie szkoły.</p>'}
