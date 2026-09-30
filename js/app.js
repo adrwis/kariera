@@ -760,7 +760,7 @@
               </span>
               <span class="school-card__info">
                 <span class="school-card__name">${escapeHtml(s.name)}</span>
-                ${s.city ? `<span class="school-card__city">${escapeHtml(s.city)}</span>` : ''}
+                ${s.city || s.program ? `<span class="school-card__city">${escapeHtml([s.city, s.program].filter(Boolean).join(' · '))}</span>` : ''}
               </span>
               <svg class="school-card__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
             </button>`;
