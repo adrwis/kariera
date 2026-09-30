@@ -1,7 +1,7 @@
 # NextMove — plan rozszerzenia o licea (LO)
 
 > **Data:** 2026-09-30
-> **Status:** W trakcie. Pilot: Gdańsk, licea i technika. Praca na lokalnej gałęzi `licea-gdansk`, bez wypychania.
+> **Status (2026-10-01):** Etapy 0 do 4 zrobione dla Gdańska, Gdyni, Sopotu i Warszawy (rekrutacja 2026/27). Dane uczelni zaktualizowane o progi 2026 i uczelnie trójmiejskie. Skrypty scalające i wyniki agentów w `dev_docs/dane-robocze/`.
 > **Wzór:** mapakarier.org/strefa-mlodziezy (filtr preferencji z przedmiotami szkolnymi, losowanie zawodu, osobna ścieżka dla ósmoklasistów, język pisany do nastolatka)
 
 ---
@@ -106,3 +106,20 @@ Po pilocie kolejne miasta. W RSPO jest 2848 LO młodzieżowych w całej Polsce. 
 - Licencja Mapy Egzaminów CKE.
 - Jak dostać login do oficjalnego API RSPO.
 - Kwota płacy minimalnej na 2026 r., przyjęta przez krytyka.
+
+
+---
+
+## Stan po nocy 2026-10-01
+
+**Zrobione**
+- Szkoły średnie: Gdańsk 57, Gdynia 29, Sopot 8, Warszawa 253 (RSPO, szkoły z uczniami). Oferta klas 2026/27 i progi 2026 (i 2025 tam, gdzie klasa się nie zmieniła) z oficjalnych źródeł: pliki Biura Edukacji m.st. Warszawy, serwisy statystyk VULCAN Gdyni i Sopotu, Nabór Pomorze, strony i regulaminy szkół. Matura 2026 z CKE.
+- Uczelnie: progi 2026, poprawione wiersze z cudzych kierunków, konwencja „I tura” z opisem tury przy każdym progu, wymagania i czesne 2026/27. Dodane uczelnie trójmiejskie (UG, PG, GUMed, UMG, AMW, AWFiS, ASP, Akademia Muzyczna).
+- Kod: wybór miasta, filtry na kodach rozszerzeń, poprawki z audytu (wyścigi, bfcache, trasy z ukośnikiem, noindex, odmiana, kontrast, telefon, akordeony), service worker network-first, `scripts/test-szkoly.js`.
+- Styl: bez długich myślników i półpauz w danych i tekstach strony.
+
+**Otwarte**
+- SEO: podstrony nadal zwracają 404 (trik z 404.html); statyczne strony i sitemap odłożone.
+- Quiz zainteresowań i kalkulator punktów ósmoklasisty.
+- 40 opisów zawodów kończy się formułą „Wymaga X, Y i Z” (do przepisania).
+- Progi 2026 części uczelni (UW, UJ, WUM, UG) jeszcze nieopublikowane: do uzupełnienia po publikacji.
