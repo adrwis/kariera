@@ -30,10 +30,13 @@ const CareerSearch = (() => {
           keys: [
             { name: 'name', weight: 0.4 },
             { name: 'aliases', weight: 0.25 },
-            { name: 'shortDescription', weight: 0.2 },
-            { name: 'skills.required', weight: 0.15 },
+            { name: 'shortDescription', weight: 0.15 },
+            { name: 'skills.soft', weight: 0.1 },
+            { name: 'skills.technical', weight: 0.05 },
+            { name: 'fullDescription', weight: 0.05 },
           ],
           threshold: 0.35,
+          ignoreLocation: true,
           includeScore: true,
           minMatchCharLength: 2,
         });

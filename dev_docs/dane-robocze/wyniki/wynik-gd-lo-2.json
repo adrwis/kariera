@@ -1,0 +1,1745 @@
+[
+ {
+  "rspo": 81755,
+  "profiles": [
+   {
+    "name": "Wariant rozszerzeń: j. polski, historia",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem",
+     "ros"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://spglo.pl/gdanskie-liceum-ogolnoksztalcace/rekrutacja/"
+   },
+   {
+    "name": "Wariant rozszerzeń: biologia, chemia",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem",
+     "ros"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://spglo.pl/gdanskie-liceum-ogolnoksztalcace/rekrutacja/"
+   },
+   {
+    "name": "Wariant rozszerzeń: geografia, j. angielski",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem",
+     "ros"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://spglo.pl/gdanskie-liceum-ogolnoksztalcace/rekrutacja/"
+   },
+   {
+    "name": "Wariant rozszerzeń: informatyka, j. angielski",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem",
+     "ros"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://spglo.pl/gdanskie-liceum-ogolnoksztalcace/rekrutacja/"
+   },
+   {
+    "name": "Wariant rozszerzeń: matematyka, geografia",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem",
+     "ros"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://spglo.pl/gdanskie-liceum-ogolnoksztalcace/rekrutacja/"
+   },
+   {
+    "name": "Wariant rozszerzeń: matematyka, fizyka",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem",
+     "ros"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://spglo.pl/gdanskie-liceum-ogolnoksztalcace/rekrutacja/"
+   },
+   {
+    "name": "Wariant rozszerzeń: matematyka, informatyka",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "inf"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem",
+     "ros"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://spglo.pl/gdanskie-liceum-ogolnoksztalcace/rekrutacja/"
+   },
+   {
+    "name": "Wariant rozszerzeń: matematyka, j. angielski",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem",
+     "ros"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://spglo.pl/gdanskie-liceum-ogolnoksztalcace/rekrutacja/"
+   }
+  ],
+  "admission": "Szkoła niepubliczna, bez punktacji. Warunek: formularz rejestracyjny na stronie; pierwszeństwo mają kandydaci, których rodzeństwo uczęszcza do Gdańskiej Szkoły Podstawowej. Decyzję o przyjęciu podejmuje dyrektor po rozmowie z rodzicami; potem umowa i wpisowe. W formularzu deklaruje się jedną parę rozszerzeń, drugi język (hiszpański, niemiecki, rosyjski) i przedmiot do wyboru w kl. I (filozofia, muzyka, plastyka).",
+  "noOffer2026": false,
+  "doubts": [
+   "Formularz rekrutacyjny 2026/2027 wymienia 8 wariantów par rozszerzeń (wybór ucznia w ramach jednej klasy), a nie osobne oddziały. W porównaniu z 2025/26 zniknęły warianty pol-hist-WOS (jest pol-hist), bio-ang, chem-ang, fiz-inf; doszedł inf-ang. Liczby miejsc brak. Angielski jako język obcy przyjęty z danych wejściowych nie jest wprost wymieniony na stronie rekrutacji (formularz podaje tylko drugi język) - w languages zostawiono ang, bo występuje w wariantach rozszerzeń."
+  ],
+  "checkedUrls": [
+   "https://spglo.pl/gdanskie-liceum-ogolnoksztalcace/rekrutacja/",
+   "https://spglo.pl/gdanskie-liceum-ogolnoksztalcace/oferta/"
+  ]
+ },
+ {
+  "rspo": 81759,
+  "profiles": [
+   {
+    "name": "Klasa I - program indywidualny (j. angielski rozszerzony obowiązkowo + 2 rozszerzenia wybrane przez ucznia)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "pol",
+      "mat",
+      "hist",
+      "wos",
+      "geo",
+      "bio",
+      "chem",
+      "fiz",
+      "inf",
+      "fil"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "fr",
+     "niem",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang"
+    ],
+    "places": 22,
+    "thresholds": [],
+    "sourceUrl": "https://olpi.pl/rekrutacja-olpi/"
+   }
+  ],
+  "admission": "Szkoła niepubliczna, poza systemem Nabór Pomorze. Dwa etapy: I - spotkanie zapoznawcze z pełnomocnikiem dyrektora ds. rekrutacji (do 8.05.2026), II - wniosek (ankieta online do 13.05) i 10-minutowa autoprezentacja przed komisją (16.05.2026); wyniki do 18.05.2026, umowa i wpisowe 1000 zł do 29.05. Punktacja szkolna (maks. ok. 100 pkt): oceny z j. polskiego, matematyki, j. angielskiego i jednego wybranego przedmiotu (biologia, chemia, fizyka, geografia, historia, informatyka) ze świadectwa lub za I okres kl. VIII oraz ocena prezentacji przed komisją (maks. 30 pkt).",
+  "noOffer2026": false,
+  "doubts": [
+   "Uczeń wybiera DWA rozszerzenia z listy w extendedChoice (format pola przewiduje wybór jednego z grupy). Liczba miejsc 22 to \"ok. 22 uczniów\" z regulaminu 2026/2027. scoredSubjects: pol, mat, ang oraz jeden przedmiot wybrany przez kandydata (bio, chem, fiz, geo, hist, inf) - ten czwarty nie jest wpisany; punktacja jest szkolna (skala ok. 100 pkt, z prezentacją), nie 200-punktowa.",
+   "Regulamin 2026/2027 jest pod linkiem pobierania o mylącej nazwie \"olpi-informator-kandydata-2023-2024\" (plik z datą aktualizacji 24.03.2026)."
+  ],
+  "checkedUrls": [
+   "https://olpi.pl/rekrutacja-olpi/",
+   "https://olpi.pl/olpi/",
+   "https://olpi.pl/rekrutacja/",
+   "https://olpi.pl/specjalizacje-olpi/",
+   "https://olpi.pl/download/olpi-informator-kandydata-2023-2024/?wpdmdl=10279"
+  ]
+ },
+ {
+  "rspo": 86002,
+  "profiles": [
+   {
+    "name": "profil medyczny (biologiczno-chemiczny)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://gla.gfo.pl/profil-medyczny-biologiczno-chemiczny-2/"
+   },
+   {
+    "name": "profil biologiczno-matematyczny",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "mat",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://gla.gfo.pl/profil-biologiczno-matematyczny-3/"
+   },
+   {
+    "name": "profil ekonomiczny z j. chińskim",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "chiński"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://gla.gfo.pl/profil-ekonomiczny/"
+   },
+   {
+    "name": "profil humanistyczny z j. włoskim",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "hist",
+      "hsz"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "wlo"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://gla.gfo.pl/profil-humanistyczny-3/"
+   },
+   {
+    "name": "profil matematyczno-fizyczny",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "inf",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://gla.gfo.pl/profil-matematyczno-fizyczny-3/"
+   },
+   {
+    "name": "profil matematyczno-informatyczny",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "inf",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "inf",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://gla.gfo.pl/profil-matematyczno-informatyczny-3/"
+   }
+  ],
+  "admission": "Szkoła niepubliczna, bez egzaminu ósmoklasisty w punktacji. Dokumenty do 8.05.2026 (karta zgłoszenia, deklaracje, świadectwo kl. VII i oceny z I sem. kl. VIII). Punktacja szkolna maks. 73 pkt: wyróżnienie w kl. VII, oceny z j. polskiego i matematyki oraz dwóch przedmiotów profilowych (kl. VII i I sem. VIII), wolontariat, konkursy, 6 pkt dla ósmoklasistów szkół GFO; do tego rozmowa kwalifikacyjno-profilowa z komisją i spotkanie z rodzicami. Laureaci/finaliści konkursów wojewódzkich i olimpiad z pominięciem kwalifikacji. Wyniki telefonicznie do 5.06.2026, wpisowe 1500 zł.",
+  "noOffer2026": false,
+  "doubts": [
+   "Matematyka rozszerzona: szkoła uczy matematyki w grupach zaawansowania; do grupy rozszerzonej \"z klucza\" trafiają tylko profile matematyczne. W profilach medycznym, ekonomicznym i humanistycznym matematyka jest wymieniona z gwiazdką - nie wpisano jej do extended. W profilu biologiczno-matematycznym wpisano mat (profil jest opisany jako realizacja biologii i matematyki rozszerzonej), choć strona dodaje tę samą gwiazdkę.",
+   "J. angielski rozszerzony wpisano wszystkim profilom: \"Wszyscy uczniowie i uczennice kontynuują naukę języka angielskiego według programu rozszerzonego\" (strona Profile 2026/2027).",
+   "Profil humanistyczny: rozszerzenie historia LUB historia sztuki, warunkiem uruchomienia grupy jest min. 8 osób. Mat-fiz: informatyka rozszerzona dla chętnych; mat-inf: fizyka dla chętnych (nie wpisano).",
+   "Profile matematyczne: do punktacji liczona wyższa ocena z fizyki lub informatyki (w scoredSubjects obie). Punktacja szkolna (maks. 73), nie skala 200. Liczby miejsc brak; szkoła \"planuje\" 6 klas.",
+   "Języki \"chiński\" (profil ekonomiczny, trzeci język) - brak kodu na liście, wpisano nazwę."
+  ],
+  "checkedUrls": [
+   "https://gla.gfo.pl/",
+   "https://gla.gfo.pl/profile/",
+   "https://gla.gfo.pl/zasady-rekrutacji/",
+   "https://gla.gfo.pl/profil-medyczny-biologiczno-chemiczny-2/",
+   "https://gla.gfo.pl/profil-biologiczno-matematyczny-3/",
+   "https://gla.gfo.pl/profil-ekonomiczny/",
+   "https://gla.gfo.pl/profil-humanistyczny-3/",
+   "https://gla.gfo.pl/profil-matematyczno-fizyczny-3/",
+   "https://gla.gfo.pl/profil-matematyczno-informatyczny-3/",
+   "https://gla.gfo.pl/wp-json/wp/v2/media?search=rekrut"
+  ]
+ },
+ {
+  "rspo": 86065,
+  "profiles": [
+   {
+    "name": "Grade 9 (klasa I liceum) - program brytyjski Pearson Edexcel (IGCSE, potem International A Level), nauka w j. angielskim",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://hisg.gfo.pl/pl/nasz-program/"
+   }
+  ],
+  "admission": "Szkoła niepubliczna, międzynarodowa; rekrutacja przez cały rok. Absolwenci EISG (szkoła podstawowa GFO) mają gwarantowane miejsce. Kandydaci z innych szkół: rozmowa kwalifikacyjna z dyrektorem oraz test poziomujący z j. angielskiego i matematyki (certyfikat CAE zwalnia z testu z angielskiego). Dokumenty: świadectwo SP, zaświadczenie o wyniku egzaminu ósmoklasisty, karta zgłoszenia, formularz umowy.",
+  "noOffer2026": false,
+  "doubts": [
+   "Oferta nie ma klas profilowanych ani polskich rozszerzeń: stacjonarnie program brytyjski (Grades 9-10 IGCSE, 11-12 AS/A Level, uczeń wybiera 3-4 przedmioty A-Level); polska podstawa programowa i matura tylko w trybie edukacji domowej. Strona nie ma daty \"2026/2027\" przy ofercie, ale ulotka \"HISG 2026\" (08.2026) i strona rekrutacji (rekrutacja całoroczna) opisują bieżącą ofertę. Liczby miejsc brak (\"kameralne klasy, liczba miejsc ograniczona\"). Język hiszpański: \"uczą się języka hiszpańskiego na poziomie zaawansowanym\" (Nasz program)."
+  ],
+  "checkedUrls": [
+   "https://hisg.gfo.pl/pl/",
+   "https://hisg.gfo.pl/pl/rekrutacja/",
+   "https://hisg.gfo.pl/pl/nasz-program/",
+   "https://hisg.gfo.pl/pl/nasza-oferta/",
+   "https://hisg.gfo.pl/wp-content/uploads/2026/08/Ulotka-HISG-2.pdf",
+   "https://rekrutacja.hisg.gfo.pl/"
+  ]
+ },
+ {
+  "rspo": 115485,
+  "profiles": [
+   {
+    "name": "Klasa prawnicza",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "wos"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/kierunki/d/klasa-prawnicza/gdansk/"
+   },
+   {
+    "name": "Klasa marketing i kreacja",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "wos"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/kierunki/d/klasa-marketing-i-kreacja/gdansk/"
+   },
+   {
+    "name": "Klasa filmowa",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/kierunki/d/klasa-filmowa/gdansk/"
+   },
+   {
+    "name": "Klasa aranżacja wnętrz",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hsz",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "plastyka"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/kierunki/d/klasa-aranzacja-wnetrz/gdansk/"
+   },
+   {
+    "name": "Klasa medyczno-ratownicza",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/kierunki/d/klasa-medyczno-ratownicza/gdansk/"
+   },
+   {
+    "name": "Klasa stylizacja i wizerunek",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "plastyka"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/kierunki/d/klasa-stylizacja-i-wizerunek/gdansk/"
+   },
+   {
+    "name": "Klasa media i komunikacja",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "wos"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/kierunki/d/klasa-media-i-komunikacja/gdansk/"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Strony profili nie mają daty roku szkolnego; za ofertę 2026/2027 przyjęto 7 profili bez dopisku \"-arch\" w adresie (strona Oferta, stan 1.10.2026), przy stronie rekrutacji \"Rekrutacja 2026/27\" i regulaminie na rok 2026/2027. Profile z \"-arch\" (językowa, kosmetologiczna, kryminalistyczna, psychologiczna, projektowania graficznego) pominięto jako archiwalne.",
+   "Szkoła rekrutuje przez Nabór Pomorze, skala 200 pkt (regulamin 2026/2027, załącznik 1), ale progów nie publikuje. Regulamin mówi też o możliwej rozmowie kwalifikacyjnej; strona rekrutacji opisuje \"rozmowę o potencjale ucznia\" (nie egzamin).",
+   "Przedmioty punktowane wg załącznika 1: pol, mat, ang + przedmiot profilowy: WOS (prawniczy, media i komunikacja, marketing i kreacja), plastyka (aranżacja wnętrz, stylizacja i wizerunek), biologia (medyczno-ratowniczy), drugi język obcy (filmowy - bez kodu, bo język nieokreślony). \"plastyka\" nie ma kodu na liście - wpisano słowo.",
+   "Drugiego języka obcego (jakie języki) strony nie podają; w languages tylko ang. Liczby miejsc brak (\"ograniczona\")."
+  ],
+  "checkedUrls": [
+   "https://szkolasrednia.teb.pl/szkoly/d/liceum/gdansk/",
+   "https://szkolasrednia.teb.pl/szkoly/d/liceum/gdansk/oferta/",
+   "https://szkolasrednia.teb.pl/szkoly/d/liceum/gdansk/rekrutacja/",
+   "https://szkolasrednia.teb.pl/wp-content/uploads/2025/10/Regulamin-i-harmonogram-rekrutacji-Liceum-Ogolnoksztalcace.pdf",
+   "https://szkolasrednia.teb.pl/kierunki/d/klasa-prawnicza/gdansk/",
+   "https://szkolasrednia.teb.pl/kierunki/d/klasa-marketing-i-kreacja/gdansk/",
+   "https://szkolasrednia.teb.pl/kierunki/d/klasa-filmowa/gdansk/",
+   "https://szkolasrednia.teb.pl/kierunki/d/klasa-aranzacja-wnetrz/gdansk/",
+   "https://szkolasrednia.teb.pl/kierunki/d/klasa-medyczno-ratownicza/gdansk/",
+   "https://szkolasrednia.teb.pl/kierunki/d/klasa-stylizacja-i-wizerunek/gdansk/",
+   "https://szkolasrednia.teb.pl/kierunki/d/klasa-media-i-komunikacja/gdansk/",
+   "https://szkolasrednia.teb.pl/kierunki/d/klasa-jezykowa-arch/gdansk/"
+  ]
+ },
+ {
+  "rspo": 122271,
+  "profiles": [
+   {
+    "name": "Klasa I - indywidualny profil (uczeń sam wybiera przedmioty rozszerzone)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "fr"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceum.adegdansk.pl/pytania-i-odpowiedzi/"
+   }
+  ],
+  "admission": "Szkoła niepubliczna, rekrutacja całoroczna do kl. 1 na rok 2026/2027 (bez czekania na egzamin ósmoklasisty): dokumenty mailem (wnioski rodziców i kandydata, ostatnie świadectwo, osiągnięcia, opłata rekrutacyjna 250 zł), rozmowa rekrutacyjna z kandydatem i rodzicami, rozmowa podsumowująca i umowa. Kryterium: na ile szkoła pomoże wykorzystać potencjał ucznia. Świadectwo SP i wynik egzaminu dostarcza się później.",
+  "noOffer2026": false,
+  "doubts": [
+   "Brak klas profilowanych: \"uczeń tworzy swój profil - sam decyduje, jakie przedmioty rozszerzone wybiera\" (Pytania i odpowiedzi); lista dostępnych rozszerzeń nie jest podana. Liczby miejsc brak. Języki: angielski obowiązkowy, do wyboru hiszpański lub francuski."
+  ],
+  "checkedUrls": [
+   "https://liceum.adegdansk.pl/",
+   "https://liceum.adegdansk.pl/rekrutacja/",
+   "https://liceum.adegdansk.pl/pytania-i-odpowiedzi/"
+  ]
+ },
+ {
+  "rspo": 124191,
+  "profiles": [],
+  "admission": null,
+  "noOffer2026": true,
+  "doubts": [
+   "Strona ZSO nr 9 nie ma żadnych informacji o rekrutacji ani o ofercie XXV LO (strony \"O szkole\" i \"Kontakt\" są puste). Miejski przewodnik \"Gdańskie szkoły średnie 2026-2027\" nie wymienia XXV LO. Szkoła specjalna, w danych wejściowych 0 uczniów - prawdopodobnie brak naboru ogólnodostępnego, ale źródło tego wprost nie mówi."
+  ],
+  "checkedUrls": [
+   "https://zso9.edu.gdansk.pl/pl",
+   "https://zso9.edu.gdansk.pl/pl/page/o-szkole-1",
+   "https://zso9.edu.gdansk.pl/pl/page/kontakt-1",
+   "https://zso9.edu.gdansk.pl/pl/artc/aktualnosci.2.html",
+   "https://edu.gdansk.pl/rekrutacja-do-szkol-ponadpodstawowych.101035.html",
+   "https://edu.gdansk.pl/files/PRZEWODNIK_SZKOLY_PONADPODSTAWOWE%202026-2027.pdf",
+   "https://web.archive.org/cdx/search/cdx?url=zso9.edu.gdansk.pl&matchType=domain"
+  ]
+ },
+ {
+  "rspo": 125432,
+  "profiles": [
+   {
+    "name": "1G Oddział Przygotowania Mundurowego - Straż Graniczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceumspartakus.pl/wp-content/uploads/2026/03/REGULAMIN-rekrutacji-2026_2027-SPARTAKUS_Gdansk.pdf"
+   },
+   {
+    "name": "1P Oddział Przygotowania Mundurowego - Policja",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "wos",
+     "hist"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "hist"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceumspartakus.pl/wp-content/uploads/2026/03/REGULAMIN-rekrutacji-2026_2027-SPARTAKUS_Gdansk.pdf"
+   },
+   {
+    "name": "1W Oddział Przygotowania Wojskowego",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceumspartakus.pl/wp-content/uploads/2026/03/REGULAMIN-rekrutacji-2026_2027-SPARTAKUS_Gdansk.pdf"
+   },
+   {
+    "name": "1 MS Oddział Mistrzostwa Sportowego (piłka nożna)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [
+     "wychowanie fizyczne"
+    ],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceumspartakus.pl/wp-content/uploads/2026/03/REGULAMIN-rekrutacji-2026_2027-SPARTAKUS_Gdansk.pdf"
+   }
+  ],
+  "admission": "Szkoła niepubliczna, własna rekrutacja (poza Naborem Pomorze). Wniosek i opłata 200 zł (23.03-29.05.2026). Klasy mundurowe: maks. 100 pkt = test sprawnościowy (30) + rozmowa kwalifikacyjna (20) + średnia ocen z kl. VIII z j. polskiego, matematyki, j. angielskiego i geografii (1G, 1W) lub historii (1P) (50); minimum do przyjęcia 70 pkt. Testy i rozmowy 2-3.06.2026. Oddział mistrzostwa sportowego (piłka nożna): osobny regulamin - test sprawnościowy, rozmowa motywacyjna, osiągnięcia sportowe, zaświadczenie lekarskie; decyzja dyrektora.",
+  "noOffer2026": false,
+  "doubts": [
+   "Oddział może liczyć od 20 do 24 miejsc (regulamin VI.2); oddział bez minimalnej liczby kandydatów może nie powstać - places nie wpisano.",
+   "1 MS: rozszerzenia wg tabeli \"W-F\" i j. angielski; W-F wpisano w extendedOther. Próg 70/100 pkt to minimum regulaminowe dla klas mundurowych, nie próg z wyników rekrutacji, więc nie ma go w thresholds.",
+   "Języki w tabeli regulaminu: 1G rosyjski + angielski, 1P i 1W niemiecki + angielski, 1MS niemiecki + angielski (odczyt z układu tabeli w PDF)."
+  ],
+  "checkedUrls": [
+   "https://liceumspartakus.pl/gdansk/",
+   "https://liceumspartakus.pl/wp-json/wp/v2/media?search=regulamin",
+   "https://liceumspartakus.pl/wp-content/uploads/2026/03/REGULAMIN-rekrutacji-2026_2027-SPARTAKUS_Gdansk.pdf",
+   "https://liceumspartakus.pl/wp-content/uploads/2026/04/Regulamin-naboru-do-klas-SMS-SPARTAKUS.pdf"
+  ]
+ },
+ {
+  "rspo": 130828,
+  "profiles": [
+   {
+    "name": "Klasa I liceum z modułem wojskowym",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://gdansk.szkolyfeniks.pl/o-nas/"
+   }
+  ],
+  "admission": "Szkoła niepubliczna o uprawnieniach szkoły publicznej, poza naborem elektronicznym. Wniosek (opłata rekrutacyjna 130 zł) i zaświadczenie lekarskie o bardzo dobrym stanie zdrowia; rozmowa kwalifikacyjna i próba sprawności fizycznej 2.06.2026; lista wstępnie przyjętych 15.06.2026; lista przyjętych 8.07.2026. Brak punktacji ocen/egzaminu w opublikowanych zasadach.",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona podaje tylko \"Nabór prowadzony jest do klas pierwszych Liceum Ogólnokształcącego z modułem wojskowym\" bez rozszerzeń. Szkolny zestaw podręczników 2026/2027 dla kl. I zawiera geografię w zakresie rozszerzonym i j. polski \"zakres podstawowy i rozszerzony\" - to sugeruje rozszerzenia, ale nie jest wprost opisem oferty, więc extended puste. Języki ang i niem wpisano na podstawie tego zestawu podręczników. Liczby miejsc brak."
+  ],
+  "checkedUrls": [
+   "https://gdansk.szkolyfeniks.pl/",
+   "https://gdansk.szkolyfeniks.pl/rekrutacja/",
+   "https://gdansk.szkolyfeniks.pl/o-nas/",
+   "https://gdansk.szkolyfeniks.pl/wp-content/uploads/sites/5/2025/02/Gdansk-wniosek-2025.pdf",
+   "https://gdansk.szkolyfeniks.pl/wp-content/uploads/sites/5/2026/08/klasa-I.pdf",
+   "https://gdansk.szkolyfeniks.pl/wp-json/wp/v2/media"
+  ]
+ },
+ {
+  "rspo": 133201,
+  "profiles": [
+   {
+    "name": "Klasa I SMS LO (sportowa; dyscypliny: koszykówka dziewcząt i chłopców, badminton, tenis stołowy, piłka nożna, rugby, szermierka, tenis ziemny)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.szkolagortata.pl/rekrutacja_gdansk.html"
+   }
+  ],
+  "admission": "Szkoła mistrzostwa sportowego, nabór poza systemem elektronicznym. Wniosek do 29.05.2026, próby sprawności fizycznej do 12.06.2026, lista zakwalifikowanych 14.07.2026. Kryteria m.in.: akceptacja statutu, wynik egzaminu ósmoklasisty, oceny ze świadectwa SP, pozytywna opinia trenera SMS MG13, brak przeciwwskazań zdrowotnych (lekarz sportowy); decyzję zatwierdza dyrektor. Strona nie podaje punktacji ani listy punktowanych przedmiotów.",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona nie opisuje rozszerzeń. Wykaz podręczników 2026/27 dla kl. I LO wymienia geografię \"dla rozszerzenia\" (zakres rozszerzony) - nie wpisano jako rozszerzenia obowiązkowego. Języki: angielski i hiszpański wg wykazu podręczników kl. I. Liczby miejsc brak."
+  ],
+  "checkedUrls": [
+   "https://www.szkolagortata.pl/gdansk.html",
+   "https://www.szkolagortata.pl/rekrutacja_gdansk.html",
+   "https://www.szkolagortata.pl/assets/doc/podreczniki_gda.pdf"
+  ]
+ },
+ {
+  "rspo": 262211,
+  "profiles": [
+   {
+    "name": "1A dwujęzyczna z j. angielskim, politechniczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat",
+     "fiz",
+     "inf"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://lo10.edu.gdansk.pl/Content/pub/451/25_26/Rekrutacja%2026_27/regulamin-rekrutacji-2026-2027.pdf"
+   },
+   {
+    "name": "1B dwujęzyczna z j. angielskim, biomedyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://lo10.edu.gdansk.pl/Content/pub/451/25_26/Rekrutacja%2026_27/regulamin-rekrutacji-2026-2027.pdf"
+   },
+   {
+    "name": "1C grupa I dwujęzyczna z j. angielskim, biznesowa (mat, geo)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat",
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://lo10.edu.gdansk.pl/Content/pub/451/25_26/Rekrutacja%2026_27/regulamin-rekrutacji-2026-2027.pdf"
+   },
+   {
+    "name": "1C grupa II dwujęzyczna z j. angielskim, biznesowa (mat, WOS)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "wos",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://lo10.edu.gdansk.pl/Content/pub/451/25_26/Rekrutacja%2026_27/regulamin-rekrutacji-2026-2027.pdf"
+   },
+   {
+    "name": "1D grupa I dwujęzyczna z j. angielskim, lingwistyczno-społeczna (pol, hist, j. hiszp./niem.)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "pol",
+     "hist"
+    ],
+    "extendedChoice": [
+     [
+      "hisz",
+      "niem"
+     ]
+    ],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://lo10.edu.gdansk.pl/Content/pub/451/25_26/Rekrutacja%2026_27/regulamin-rekrutacji-2026-2027.pdf"
+   },
+   {
+    "name": "1D grupa II dwujęzyczna z j. angielskim, lingwistyczno-społeczna (pol, WOS, j. hiszp./niem.)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "pol",
+     "wos"
+    ],
+    "extendedChoice": [
+     [
+      "hisz",
+      "niem"
+     ]
+    ],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "wos",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://lo10.edu.gdansk.pl/Content/pub/451/25_26/Rekrutacja%2026_27/regulamin-rekrutacji-2026-2027.pdf"
+   },
+   {
+    "name": "1E dwujęzyczna z j. angielskim, przyrodnicza",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "bio",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://lo10.edu.gdansk.pl/Content/pub/451/25_26/Rekrutacja%2026_27/regulamin-rekrutacji-2026-2027.pdf"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progi 2026 nie znalezione: strona szkoły (dział Rekrutacja 2026/2027, aktualności) ani edu.gdansk.pl nie publikują progów; wyszukiwarka oferty/statystyk w nabor-pomorze działa tylko przez formularz (nie wysyłano).",
+   "Regulamin mówi o 5 klasach; 1C i 1D dzielą się na grupy (I/II) - wpisano je jako osobne profile. Liczby miejsc regulamin nie podaje.",
+   "Skala punktów w X LOD: maks. 201 (200 + 1 pkt za sprawdzian kompetencji językowych x 0,02). Pozytywny wynik SKJ (min. 25/50 pkt) jest warunkiem udziału w rekrutacji.",
+   "1B: punktowana wyższa z ocen biologia/chemia (w scoredSubjects wpisano obie).",
+   "1D: rozszerzenie drugiego języka (hiszpański albo niemiecki) jako kontynuacja ze SP, poziom III.2 - wpisane w extendedChoice."
+  ],
+  "checkedUrls": [
+   "https://lo10.edu.gdansk.pl/pl",
+   "https://lo10.edu.gdansk.pl/pl/page/rekrutacja-2026-2027-2",
+   "https://lo10.edu.gdansk.pl/pl/artc/rekrutacja-2026-2027.2067.html",
+   "https://lo10.edu.gdansk.pl/pl/art/regulamin-rekrutacji-2026-2027.98376.html",
+   "https://lo10.edu.gdansk.pl/Content/pub/451/25_26/Rekrutacja%2026_27/regulamin-rekrutacji-2026-2027.pdf",
+   "https://lo10.edu.gdansk.pl/pl/art/ulotka-szkoly-2026-2027.98390.html",
+   "https://lo10.edu.gdansk.pl/Content/articles/foto/ulotka-szkoly-2026-2027-673509.jpg",
+   "https://edu.gdansk.pl/rekrutacja-26.html",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer.xhtml"
+  ]
+ },
+ {
+  "rspo": 265997,
+  "profiles": [
+   {
+    "name": "Liceum Thinking Zone (model VESS, bez klas profilowanych)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://thinkingzone.pl/liceum/"
+   }
+  ],
+  "admission": "Szkoła niepubliczna; rekrutacja przez umówienie spotkania (join@thinkingzone.pl, formularz Calendly \"spotkanie otwierające\"). Strona nie podaje kryteriów punktowych ani terminów.",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona \"Rekrutacja Liceum\" (stan 1.10.2026) opisuje liceum kl. 1-4 w modelu VESS, ale nie podaje roku szkolnego, klas/profili, listy rozszerzeń, języków ani liczby miejsc. Jedyny profilowy element: blok \"BIZNES I ZARZĄDZANIE\" w programie (nie wpisano do extendedOther - nie wiadomo, czy to przedmiot rozszerzony). Oferta wpisana jako bieżąca, bez potwierdzenia daty 2026/2027."
+  ],
+  "checkedUrls": [
+   "https://thinkingzone.pl/liceum/",
+   "https://thinkingzone.pl/"
+  ]
+ },
+ {
+  "rspo": 269593,
+  "profiles": [],
+  "admission": "Szkoła niepubliczna (Chrześcijańska Fundacja Edukacji Montessori). Strona edukacjadomowa.info fundacji: \"REKRUTACJA do klas 1-8 szkoły podstawowej oraz 1-4 liceum trwa\" - rekrutacja do edukacji domowej przez formularz online.",
+  "noOffer2026": true,
+  "doubts": [
+   "Szkoła nie ma własnej strony (w RSPO tylko e-mail w domenie montessori.gda.pl). Strona montessori.gda.pl \"Rekrutacja 2026/2027\" dotyczy wyłącznie stacjonarnego przedszkola i szkoły podstawowej. Liceum pojawia się tylko na edukacjadomowa.info (rekrutacja do edukacji domowej, kl. 1-4 LO; ta sama strona wspomina też rok 2025/26, więc tekst może być nieaktualny). Brak oferty klas/rozszerzeń na 2026/2027."
+  ],
+  "checkedUrls": [
+   "https://rspo.gov.pl/api/Institution/269593",
+   "https://montessori.gda.pl/",
+   "https://www.montessori.gda.pl/rekrutacja",
+   "https://www.montessori.gda.pl/szkola-przymorze",
+   "http://www.edukacjadomowa.info/"
+  ]
+ },
+ {
+  "rspo": 271870,
+  "profiles": [
+   {
+    "name": "Oddział A (mat, inf, fiz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "inf",
+     "fiz"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "inf"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://ulo.pozytywneinicjatywy.pl/wp-content/uploads/2026/02/Zarzadzenie-dyrektora-ULO-1_26-w-sprawe-REKRUTACJI-na-rok-szkolny-2026_2027.pdf"
+   },
+   {
+    "name": "Oddział Bb (bio, chem, ang)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://ulo.pozytywneinicjatywy.pl/wp-content/uploads/2026/02/Zarzadzenie-dyrektora-ULO-1_26-w-sprawe-REKRUTACJI-na-rok-szkolny-2026_2027.pdf"
+   },
+   {
+    "name": "Oddział Bd dwujęzyczny z j. angielskim (bio, chem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://ulo.pozytywneinicjatywy.pl/wp-content/uploads/2026/02/Zarzadzenie-dyrektora-ULO-1_26-w-sprawe-REKRUTACJI-na-rok-szkolny-2026_2027.pdf"
+   },
+   {
+    "name": "Oddział Cb (pol, bio, ang)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "bio",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "hist"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://ulo.pozytywneinicjatywy.pl/wp-content/uploads/2026/02/Zarzadzenie-dyrektora-ULO-1_26-w-sprawe-REKRUTACJI-na-rok-szkolny-2026_2027.pdf"
+   },
+   {
+    "name": "Oddział Ch (pol, hist, ang)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "hist"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://ulo.pozytywneinicjatywy.pl/wp-content/uploads/2026/02/Zarzadzenie-dyrektora-ULO-1_26-w-sprawe-REKRUTACJI-na-rok-szkolny-2026_2027.pdf"
+   },
+   {
+    "name": "Oddział Db (mat, biznes i zarządzanie, ang)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [
+     "biznes i zarządzanie"
+    ],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "inf"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://ulo.pozytywneinicjatywy.pl/wp-content/uploads/2026/02/Zarzadzenie-dyrektora-ULO-1_26-w-sprawe-REKRUTACJI-na-rok-szkolny-2026_2027.pdf"
+   },
+   {
+    "name": "Oddział Dd dwujęzyczny z j. angielskim (mat, geo)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "hist"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://ulo.pozytywneinicjatywy.pl/wp-content/uploads/2026/02/Zarzadzenie-dyrektora-ULO-1_26-w-sprawe-REKRUTACJI-na-rok-szkolny-2026_2027.pdf"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progi 2026 nie opublikowane: strona Pytania i odpowiedzi (stan 1.10.2026) ma grafiki tylko do \"2025/2026\"; w bibliotece mediów WP od 06.2026 brak pliku z progami.",
+   "Grafika \"Progi punktowe w roku szkolnym 2025/2026\" (https://ulo.pozytywneinicjatywy.pl/wp-content/uploads/2025/07/image-1.png) podaje progi z rekrutacji 2025 wyłącznie skrótami: Ai 166.25, Af 170.65, Bm 166.47, Bc 178.80, Ch 158.20, Cb 168.15, Dm 165.11, Dh 157.60. Zarządzenie rekrutacyjne 2025/26 nazywa grupy A1, A2, B1, B2, C1, C2, D1, D2 i nie przypisuje im tych skrótów, więc progów 2025 nie wpisano. Zarządzenie 2026/27 używa nazw Ch (pol-hist-ang) i Cb (pol-bio-ang) dla oddziałów o tym samym profilu co grupy C1/C2 z 2025 - dopasowanie prawdopodobne, ale nie jest wprost potwierdzone przez szkołę dla grafiki 2025. Pozostałe skróty z 2025 (Ai, Af, Bm, Bc, Dm, Dh) nie odpowiadają nazwom oddziałów 2026 (A, Bb, Bd, Db, Dd).",
+   "Niespójność w zarządzeniu 2026: §2 nazywa oddział biol-chem-ang \"Bb\", a §4 (oceny punktowane) \"Bc\"; lista podręczników 2026/27 używa \"1 BB\". Wpisano \"Bb\".",
+   "Oddział A w 2026 ma rozszerzenia mat, inf, fiz (bez j. angielskiego, inaczej niż grupy A1/A2 w 2025). Oddziały Bd i Dd realizują angielski w zakresie dwujęzycznym - nie wpisano ang do extended, bo zarządzenie nie nazywa go rozszerzeniem.",
+   "Lista podręczników 2026/27 i plan lekcji potwierdzają otwarcie 7 klas pierwszych: 1A, 1BB, 1BD, 1CB, 1CH, 1DB, 1DD. Miejsca: oddział A 28, pozostałe po 14 (zarządzenie §2 i §4 p. 8)."
+  ],
+  "checkedUrls": [
+   "https://ulo.pozytywneinicjatywy.pl/pytania-i-odpowiedzi/",
+   "https://ulo.pozytywneinicjatywy.pl/oferta-edukacyjna/",
+   "https://ulo.pozytywneinicjatywy.pl/wp-content/uploads/2026/02/Zarzadzenie-dyrektora-ULO-1_26-w-sprawe-REKRUTACJI-na-rok-szkolny-2026_2027.pdf",
+   "https://ulo.pozytywneinicjatywy.pl/wp-content/uploads/2026/06/26_27-Regulamin-przyjecia-do-klas-dwujezycznych_aktu.pdf",
+   "https://ulo.pozytywneinicjatywy.pl/wp-content/uploads/2025/07/image-1.png",
+   "https://ulo.pozytywneinicjatywy.pl/wp-content/uploads/2025/05/progi2425-1.jpg",
+   "https://ulo.pozytywneinicjatywy.pl/wp-content/uploads/2025/03/Zarzadzenie-Dyrektora-ULO-ws.-rekrutacji-2025_26.pdf",
+   "https://ulo.pozytywneinicjatywy.pl/wp-json/wp/v2/media?after=2026-06-01T00:00:00",
+   "https://ulo.pozytywneinicjatywy.pl/wp-content/uploads/2026/07/Lista_podrecznikow_2026-2027_klasy-pierwsze.pdf",
+   "https://ulo.pozytywneinicjatywy.pl/wp-content/uploads/2026/09/klasy_2026_27_od-21.09.pdf"
+  ]
+ },
+ {
+  "rspo": 271909,
+  "profiles": [
+   {
+    "name": "Grade 9 (klasa I LO) - Pre-IB (autorski program BISG: polska podstawa programowa + metodyka IB; potem IB Diploma w kl. 11-12)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://bisg.edu.pl/pre-ib-programme/"
+   }
+  ],
+  "admission": "Szkoła niepubliczna, międzynarodowa. \"Admission for 2026/27\": przyjęcia do Pre-IB do wyczerpania miejsc; kryteria: świadectwa z kl. 7 i 8, egzaminy wstępne z angielskiego i matematyki (po angielsku), wzorowe/bardzo dobre zachowanie (\"excellent conduct grade\"), rozmowa z kandydatami z krótkiej listy.",
+  "noOffer2026": false,
+  "doubts": [
+   "places = 24 to maksymalna liczebność klasy (\"Maximum class size: 24 students\"), nie liczba wolnych miejsc. Nazwa w RSPO zawiera \"z oddziałami dwujęzycznymi\", ale strona Pre-IB nie nazywa klasy dwujęzyczną - bilingual pozostawiono null. Języki drugie (hiszpański, francuski, niemiecki) ze strony MFL, opisanej ogólnie dla całej szkoły. Brak listy rozszerzeń."
+  ],
+  "checkedUrls": [
+   "https://bisg.edu.pl/pre-ib-programme/",
+   "https://bisg.edu.pl/mfl-modern-foreign-languages/"
+  ]
+ },
+ {
+  "rspo": 276468,
+  "profiles": [
+   {
+    "name": "Klasa I - bez profilu; j. angielski rozszerzony standardowo, pozostałe rozszerzenia wybierane pod koniec kl. I (po teście kwalifikacyjnym)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "pol",
+      "mat",
+      "geo",
+      "inf",
+      "fiz",
+      "bio",
+      "chem"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.liceumcolumbus.pl/oferta-edukacyjna"
+   }
+  ],
+  "admission": "Szkoła niepubliczna, rekrutacja 2026/2027 niezależna od wyniku egzaminu ósmoklasisty: zgłoszenie (mail/telefon), spotkanie rodziców i kandydata z dyrektorem, rozmowa kwalifikacyjna z kandydatem, decyzja; opłata rekrutacyjna 200 zł. Wyniki do 5.06.2026, gwarancja miejsca po umowie, wpisowym i świadectwie do 30.06.2026. W rekrutacji uzupełniającej (lipiec/sierpień) liczą się wynik egzaminu ósmoklasisty i rozmowa.",
+  "noOffer2026": false,
+  "doubts": [
+   "Rozszerzeń nie wybiera się przy rekrutacji: uczeń komponuje zestaw pod koniec kl. I z listy (pol, ang, mat, geo, inf, fiz, bio, chem) po teście kwalifikacyjnym; liczba wybieranych przedmiotów nie jest podana. J. angielski \"standardowo na poziomie rozszerzonym\". Drugi język obcy i liczba miejsc - brak informacji."
+  ],
+  "checkedUrls": [
+   "https://www.liceumcolumbus.pl/rekrutacja",
+   "https://www.liceumcolumbus.pl/oferta-edukacyjna"
+  ]
+ },
+ {
+  "rspo": 478065,
+  "profiles": [
+   {
+    "name": "Klasa I LO (bez opisanych profili)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://mentalarts.pl/rekrutacja/"
+   }
+  ],
+  "admission": "Szkoła niepubliczna. Strona \"Rekrutacja 2026/2027\": formularz zgłoszeniowy (m.in. do kl. I LO), potem kontakt szkoły, spotkanie z rodzicami, indywidualna rozmowa z kandydatem, informacja o wyniku mailem; bezzwrotna opłata rekrutacyjna (w regulaminie 1250 zł).",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona rekrutacji ma nagłówek \"Rekrutacja 2026/2027\" i pozwala zgłosić kandydata do kl. I LO, ale szkoła nie publikuje profili, rozszerzeń ani liczby miejsc. Podlinkowany regulamin rekrutacji dotyczy roku 2021/2022 (terminy i opłata mogą być nieaktualne). Strona wspomina naukę \"dziesięciu języków\" bez listy - languages puste."
+  ],
+  "checkedUrls": [
+   "https://mentalarts.pl/",
+   "https://mentalarts.pl/rekrutacja/",
+   "https://mentalarts.pl/Regulamin-Rekrutacji-Mental-Arts.pdf",
+   "https://mentalarts.pl/dla-kandydatow.html"
+  ]
+ },
+ {
+  "rspo": 480246,
+  "profiles": [
+   {
+    "name": "Klasa I SMS LO - piłka nożna (chłopcy)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.sms.gedania1922.pl/rekrutacja-2026-27-35805/liceum-35807"
+   }
+  ],
+  "admission": "Szkoła mistrzostwa sportowego klubu GKS Gedania 1922 (piłka nożna). Strona \"Rekrutacja 2026/27 - Liceum\" podaje tylko kontakt do dyrektora sportowego i koordynatora ds. rekrutacji i skautingu oraz dokumenty naborowe (dane kandydata, podanie z pytaniem o przynależność klubową i trenera). Kryteriów punktowych brak.",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona rekrutacji 2026/27 nie opisuje rozszerzeń, języków ani liczby miejsc. Dyscyplina (piłka nożna) i chłopięcy charakter klasy wynikają z opisu treningów i podania (\"syn\", przynależność klubowa); podanie o przyjęcie ma w nagłówku rok 2023/2024 (stary druk)."
+  ],
+  "checkedUrls": [
+   "https://www.sms.gedania1922.pl/",
+   "https://www.sms.gedania1922.pl/rekrutacja-2026-27-35805/liceum-35807",
+   "https://www.sms.gedania1922.pl/liceum-35818/klasa-i-lo-37385",
+   "https://www.sms.gedania1922.pl/content/podanie-o-przyjecie-do-klasy-lo.pdf",
+   "https://www.sms.gedania1922.pl/content/dane-kandydata-sms-lo.pdf"
+  ]
+ },
+ {
+  "rspo": 480958,
+  "profiles": [
+   {
+    "name": "Liceum Praktyczne (jeden profil dla całej szkoły: biznes i zarządzanie + j. angielski rozszerzone)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [
+     "biznes i zarządzanie"
+    ],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "fr"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceumpraktyczne.pl/faq/"
+   }
+  ],
+  "admission": "Szkoła niepubliczna (Stowarzyszenie Dobra Edukacja), rekrutacja całoroczna: formularz zgłoszeniowy, rozmowa rekrutacyjna, złożenie dokumentów (świadectwo i zaświadczenie o egzaminie ósmoklasisty po ich otrzymaniu) i umowa; opłata rekrutacyjna 250 zł.",
+  "noOffer2026": false,
+  "doubts": [
+   "Oferta z FAQ (stan 1.10.2026), które wspomina kursy praktyczne startujące \"w roku szkolnym 2026/27\"; jednocześnie baner na stronach rekrutacji nadal brzmi \"Trwa rekrutacja na rok szkolny 2025/2026!\". Rozszerzenia: biznes i zarządzanie oraz j. angielski (\"poza podstawowym zakresem ... oferujemy rozszerzenia\"); nie jest wprost napisane, że są obowiązkowe dla wszystkich. Liczby miejsc brak."
+  ],
+  "checkedUrls": [
+   "https://liceumpraktyczne.pl/",
+   "https://liceumpraktyczne.pl/faq/",
+   "https://liceumpraktyczne.pl/rekrutacja/",
+   "https://liceumpraktyczne.pl/rekrutacja-do-liceum/"
+  ]
+ },
+ {
+  "rspo": 482465,
+  "profiles": [
+   {
+    "name": "humanistyczny (2 rozszerzenia do wyboru z: j. polski, historia, j. angielski)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [
+     [
+      "pol",
+      "hist",
+      "ang"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceumdyplomus.pl/pl"
+   },
+   {
+    "name": "biologiczno-chemiczny (2 rozszerzenia do wyboru z: biologia, chemia, j. angielski)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [
+     [
+      "bio",
+      "chem",
+      "ang"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceumdyplomus.pl/pl"
+   },
+   {
+    "name": "geograficzno-ekonomiczny (2 rozszerzenia do wyboru z: geografia, biznes i zarządzanie, j. angielski)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [
+     [
+      "geo",
+      "ang"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [
+     "biznes i zarządzanie (jedno z możliwych rozszerzeń)"
+    ],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceumdyplomus.pl/pl"
+   }
+  ],
+  "admission": "Szkoła niepubliczna, liceum z nauczaniem domowym (edukacja domowa, platforma w chmurze + zajęcia online, egzaminy klasyfikacyjne w siedzibie w Gdańsku). Zapis: formularz zgłoszenia kandydata i opłata rekrutacyjna, rozmowa rekrutacyjna (osobiście lub online), decyzja komisji, potem oryginały świadectwa i zaświadczenia o egzaminie ósmoklasisty. Rekrutacja uzupełniająca 2026/2027 od 15.07.2026, wolne miejsca w kl. 1-3.",
+  "noOffer2026": false,
+  "doubts": [
+   "Uczeń wybiera DWA z trzech przedmiotów danego profilu (w extendedChoice wpisano całą trójkę; format pola przewiduje wybór jednego). Ostateczny wybór profilu rozszerzeń następuje pod koniec kl. I. Profil ekonomiczny z 2025/26 (geo, mat, ang) zastąpiono w 2026/27 geograficzno-ekonomicznym (geo, biznes i zarządzanie, ang). Szkoła działa w formule edukacji domowej. Języków i liczby miejsc strona nie podaje."
+  ],
+  "checkedUrls": [
+   "https://liceumdyplomus.pl/pl",
+   "https://liceumdyplomus.pl/pl/rekrutacja",
+   "https://liceum.dyplomus.pl/pl/rekrutacja"
+  ]
+ }
+]

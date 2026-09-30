@@ -4,28 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <base href="/kariera/">
-  <title>NextMove — Znajdź swój zawód</title>
-  <meta name="description" content="Wyszukiwarka zawodów dla osób, które nie wiedzą kim chcą zostać. Zarobki, uczelnie, szkolenia i oferty pracy — blisko 80 szczegółowych profili.">
+  <title>NextMove | Znajdź swój zawód</title>
+  <meta name="description" content="Wyszukiwarka zawodów dla osób, które nie wiedzą, kim chcą zostać. Zarobki, uczelnie, szkoły średnie, szkolenia i oferty pracy.">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="NextMove — Znajdź swój zawód">
-  <meta property="og:description" content="Wyszukiwarka zawodów dla osób, które nie wiedzą kim chcą zostać. Zarobki, uczelnie, szkolenia i oferty pracy — blisko 80 szczegółowych profili.">
+  <meta property="og:title" content="NextMove | Znajdź swój zawód">
+  <meta property="og:description" content="Wyszukiwarka zawodów dla osób, które nie wiedzą, kim chcą zostać. Zarobki, uczelnie, szkoły średnie, szkolenia i oferty pracy.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pl_PL">
   <meta property="og:url" content="https://adrwis.github.io/kariera/">
   <meta property="og:image" content="https://adrwis.github.io/kariera/icons/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="NextMove — wyszukiwarka zawodów">
+  <meta property="og:image:alt" content="NextMove, wyszukiwarka zawodów">
   <meta property="og:site_name" content="NextMove">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="NextMove — Znajdź swój zawód">
-  <meta name="twitter:description" content="Wyszukiwarka zawodów dla osób, które nie wiedzą kim chcą zostać. Zarobki, uczelnie, szkolenia i oferty pracy — blisko 80 szczegółowych profili.">
+  <meta name="twitter:title" content="NextMove | Znajdź swój zawód">
+  <meta name="twitter:description" content="Wyszukiwarka zawodów dla osób, które nie wiedzą, kim chcą zostać. Zarobki, uczelnie, szkoły średnie, szkolenia i oferty pracy.">
   <meta name="twitter:image" content="https://adrwis.github.io/kariera/icons/og-image.png">
-  <meta name="twitter:image:alt" content="NextMove — wyszukiwarka zawodów">
+  <meta name="twitter:image:alt" content="NextMove, wyszukiwarka zawodów">
 
   <link rel="canonical" href="https://adrwis.github.io/kariera/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -88,7 +88,7 @@
   <main id="main">
     <noscript>
       <div style="max-width:600px;margin:3rem auto;padding:2rem;text-align:center;font-family:Inter,sans-serif">
-        <h1>NextMove — Wyszukiwarka Zawodów</h1>
+        <h1>NextMove, wyszukiwarka zawodów</h1>
         <p style="margin:1rem 0">Ta aplikacja wymaga JavaScript. Włącz obsługę skryptów w przeglądarce, aby korzystać z wyszukiwarki.</p>
         <p style="color:#666">Dane z oficjalnych źródeł: KZiS, Barometr Zawodów, INFOdoradca+</p>
       </div>
@@ -105,7 +105,7 @@
                 <span class="landing__title-accent">Move</span>
               </h1>
               <p class="landing__subtitle">A jaki będzie Twój następny ruch?</p>
-              <p class="landing__typing" id="typingText" aria-live="polite"></p>
+              <p class="landing__typing" id="typingText" aria-hidden="true"></p>
             </div>
 
             <form class="search-box" id="searchForm" role="search" aria-label="Szukaj zawodu">
@@ -116,7 +116,7 @@
               <div class="search-box__query-row">
                 <label for="searchQuery" class="search-box__label">Kim chcesz zostać? Co Cię interesuje?</label>
                 <div class="search-box__input-wrapper">
-                  <input type="text" id="searchQuery" class="search-box__input search-box__input--query" placeholder="np. psycholog, programista, coś z ludźmi..." autocomplete="off" autocapitalize="off" autocorrect="off" aria-autocomplete="list" aria-controls="autocompleteList" aria-expanded="false" aria-activedescendant="">
+                  <input type="text" id="searchQuery" class="search-box__input search-box__input--query" placeholder="np. psycholog, programista, fryzjer" autocomplete="off" autocapitalize="off" autocorrect="off" aria-autocomplete="list" aria-controls="autocompleteList" aria-expanded="false" aria-activedescendant="">
                   <ul id="autocompleteList" class="autocomplete" role="listbox" aria-label="Podpowiedzi zawodów" hidden></ul>
                 </div>
               </div>
@@ -143,7 +143,7 @@
 
             <a href="/kariera/szkoly" class="school-entry">
               <span class="school-entry__title">Wybieram szkołę po 8 klasie</span>
-              <span class="school-entry__text">Licea i technika w Gdańsku: klasy, rozszerzenia, wyniki matur i progi punktowe.</span>
+              <span class="school-entry__text">Licea i technika w Trójmieście i Warszawie: klasy, rozszerzenia, wyniki matur, a tam, gdzie szkoły je podają, progi punktowe.</span>
             </a>
           </div>
 
@@ -209,7 +209,7 @@
                 <div class="filters__salary">
                   <div class="filters__salary-inputs">
                     <input type="number" id="salaryMin" class="filters__input filters__input--num" min="3000" max="35000" step="500" value="3000" aria-label="Minimalne zarobki">
-                    <span class="filters__salary-sep">–</span>
+                    <span class="filters__salary-sep">do</span>
                     <input type="number" id="salaryMax" class="filters__input filters__input--num" min="3000" max="35000" step="500" value="35000" aria-label="Maksymalne zarobki">
                   </div>
                   <div class="filters__range-track" id="salaryTrack">
@@ -226,17 +226,17 @@
                   <label class="filters__check">
                     <input type="checkbox" value="deficytowy" checked>
                     <span class="filters__check-dot filters__check-dot--deficit"></span>
-                    Deficytowy
+                    Łatwo o pracę (deficytowy)
                   </label>
                   <label class="filters__check">
                     <input type="checkbox" value="zrównoważony" checked>
                     <span class="filters__check-dot filters__check-dot--balanced"></span>
-                    Zrównoważony
+                    Stabilny rynek (zrównoważony)
                   </label>
                   <label class="filters__check">
                     <input type="checkbox" value="nadwyżkowy" checked>
                     <span class="filters__check-dot filters__check-dot--surplus"></span>
-                    Nadwyżkowy
+                    Duża konkurencja (nadwyżkowy)
                   </label>
                 </div>
               </div>
@@ -270,6 +270,7 @@
           <h2 class="results__title">Wyniki wyszukiwania</h2>
           <p class="results__query" id="resultsQuery"></p>
           <p class="results__count" id="resultsCount"></p>
+          <p class="results__school-hint" id="resultsSchoolHint" hidden>Szukasz szkoły średniej? <a href="/kariera/szkoly">Zobacz licea i technika</a>.</p>
           <form class="results__search" id="resultsSearchForm" role="search" aria-label="Szukaj ponownie">
             <input type="text" class="results__search-input" id="resultsSearchInput" placeholder="Szukaj zawodu..." autocomplete="off" autocapitalize="off" autocorrect="off" aria-label="Szukaj zawodu">
             <button type="submit" class="results__search-btn" aria-label="Szukaj">
@@ -323,7 +324,7 @@
   </button>
 
   <footer class="footer">
-    <p>NextMove &copy; 2026 &middot; Dane: <a href="https://psz.praca.gov.pl" target="_blank" rel="noopener">KZiS</a>, <a href="https://barometrzawodow.pl" target="_blank" rel="noopener">Barometr Zawodów</a>, <a href="https://psz.praca.gov.pl/rynek-pracy/bazy-danych/infodoradca" target="_blank" rel="noopener">INFOdoradca+</a></p>
+    <p>NextMove &copy; 2026 &middot; Dane: <a href="https://psz.praca.gov.pl" target="_blank" rel="noopener">KZiS</a>, <a href="https://barometrzawodow.pl" target="_blank" rel="noopener">Barometr Zawodów</a>, <a href="https://psz.praca.gov.pl/rynek-pracy/bazy-danych/infodoradca" target="_blank" rel="noopener">INFOdoradca+</a>, <a href="https://rspo.gov.pl" target="_blank" rel="noopener">RSPO</a>, <a href="https://mapa.wyniki.edu.pl" target="_blank" rel="noopener">CKE</a>, strony uczelni i szkół</p>
   </footer>
 
   <!-- Fuse.js CDN -->

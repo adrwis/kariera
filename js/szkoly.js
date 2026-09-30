@@ -7,7 +7,16 @@
 const Szkoly = (function () {
   'use strict';
 
-  const DATA_URL = 'data/szkoly/gdansk.json';
+  const DATA_DIR = 'data/szkoly/';
+  const CITIES = {
+    gdansk: { name: 'Gdańsk', loc: 'w Gdańsku', files: ['gdansk'] },
+    gdynia: { name: 'Gdynia', loc: 'w Gdyni', files: ['gdynia'] },
+    sopot: { name: 'Sopot', loc: 'w Sopocie', files: ['sopot'] },
+    trojmiasto: { name: 'Trójmiasto', loc: 'w Trójmieście', files: ['gdansk', 'gdynia', 'sopot'] },
+    warszawa: { name: 'Warszawa', loc: 'w Warszawie', files: ['warszawa'] },
+  };
+  const CITY_CHIPS = ['trojmiasto', 'gdansk', 'gdynia', 'sopot', 'warszawa'];
+  const DEFAULT_CITY = 'gdansk';
 
   const SUBJECTS = {
     mat: 'matematyka', pol: 'język polski', ang: 'język angielski', niem: 'język niemiecki',
@@ -56,8 +65,10 @@ const Szkoly = (function () {
   };
 
   let ctx = null;
-  let data = null;
-  let loading = null;
+  const fileCache = {};       // slug pliku -> Promise z danymi
+  const setCache = {};        // slug miasta -> Promise ze scalonym zbiorem
+  let indexPromise = null;
+  let lastCareer = null;      // do przełączania miasta w sekcji na profilu zawodu
   let renderSeq = 0;          // chroni przed wstawieniem wyniku po zmianie widoku
   let backContext = null;     // {href, label} dla linku powrotu ze strony szkoły
 
@@ -65,30 +76,76 @@ const Szkoly = (function () {
 
   function setBackContext(c) { backContext = c; }
 
-  function load() {
-    if (data) return Promise.resolve(data);
-    if (!loading) {
-      loading = fetch(DATA_URL)
-        .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-        .then(json => { data = json; prepare(data); return data; })
-        .catch(err => { loading = null; throw err; });
-    }
-    return loading;
+  function fetchJson(url) {
+    return fetch(url).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
   }
 
-  // Średnie z rozszerzeń w całym Gdańsku (ważone liczbą zdających) z tych samych danych CKE
+  function loadFile(slug) {
+    if (!fileCache[slug]) {
+      fileCache[slug] = fetchJson(DATA_DIR + slug + '.json').catch(err => { delete fileCache[slug]; throw err; });
+    }
+    return fileCache[slug];
+  }
+
+  // Zbiór szkół dla miasta (Trójmiasto = trzy pliki razem)
+  function load(citySlug) {
+    const slug = CITIES[citySlug] ? citySlug : currentCity();
+    if (!setCache[slug]) {
+      setCache[slug] = Promise.all(CITIES[slug].files.map(loadFile)).then(parts => {
+        const d = {
+          slug, city: CITIES[slug],
+          retrieved: parts.map(p => p.retrieved).sort().pop(),
+          schools: parts.flatMap(p => p.schools.map(s => ({ ...s, city: s.city || p.city }))),
+        };
+        prepare(d);
+        return d;
+      }).catch(err => { delete setCache[slug]; throw err; });
+    }
+    return setCache[slug];
+  }
+
+  // Indeks rspo -> plik miasta, żeby otworzyć stronę szkoły bez wczytywania wszystkich miast
+  function loadIndex() {
+    if (!indexPromise) indexPromise = fetchJson(DATA_DIR + 'index.json').catch(err => { indexPromise = null; throw err; });
+    return indexPromise;
+  }
+
+  // Po przywróceniu strony z bfcache przerwane pobrania zostają w pamięci jako wiszące obietnice
+  function resetPending() {
+    for (const k of Object.keys(fileCache)) delete fileCache[k];
+    for (const k of Object.keys(setCache)) delete setCache[k];
+    indexPromise = null;
+  }
+
+  function currentCity() {
+    try {
+      const c = localStorage.getItem('kr-miasto');
+      if (CITIES[c]) return c;
+    } catch (e) { /* brak dostępu do localStorage */ }
+    return DEFAULT_CITY;
+  }
+
+  function setCity(slug) {
+    if (!CITIES[slug]) return;
+    try { localStorage.setItem('kr-miasto', slug); } catch (e) { /* ignoruj */ }
+  }
+
+  // Średnie z rozszerzeń w mieście (ważone liczbą zdających) z tych samych danych CKE, osobno dla każdego roku matury
   function prepare(d) {
     const acc = {};
     for (const s of d.schools) {
-      const ext = (s.matura && s.matura.extended) || {};
-      for (const [code, v] of Object.entries(ext)) {
+      if (!s.matura) continue;
+      const y = s.matura.year;
+      for (const [code, v] of Object.entries(s.matura.extended || {})) {
         if (!v || v.mean == null || !v.n) continue;
-        acc[code] = acc[code] || { sum: 0, n: 0 };
-        acc[code].sum += v.mean * v.n;
-        acc[code].n += v.n;
+        acc[y] = acc[y] || {};
+        acc[y][code] = acc[y][code] || { sum: 0, n: 0 };
+        acc[y][code].sum += v.mean * v.n;
+        acc[y][code].n += v.n;
       }
     }
-    d.cityMeans = Object.fromEntries(Object.entries(acc).map(([k, v]) => [k, Math.round(v.sum / v.n * 10) / 10]));
+    d.cityMeans = Object.fromEntries(Object.entries(acc).map(([y, subj]) =>
+      [y, Object.fromEntries(Object.entries(subj).map(([k, v]) => [k, Math.round(v.sum / v.n * 10) / 10]))]));
   }
 
   // --- Helpers ---
@@ -200,8 +257,9 @@ const Szkoly = (function () {
     };
   }
 
-  function filtersToQuery(f) {
+  function filtersToQuery(f, citySlug) {
     const p = new URLSearchParams();
+    if (citySlug) p.set('miasto', citySlug);
     if (f.typ) p.set('typ', f.typ);
     if (f.rozsz.length) p.set('rozsz', f.rozsz.join(','));
     if (f.dz) p.set('dz', f.dz);
@@ -250,7 +308,7 @@ const Szkoly = (function () {
     return `<span class="szkoly__badge">zdawalność matury ${fmtNum(m.passRate)}%</span>`;
   }
 
-  function schoolCard(s, matching, f) {
+  function schoolCard(s, matching, f, showCity) {
     const list = f.rozsz.length ? matching : s.profiles || [];
     const shown = list.slice(0, 4);
     const more = list.length - shown.length;
@@ -258,6 +316,7 @@ const Szkoly = (function () {
     const badges = [
       `<span class="szkoly__badge szkoly__badge--${typeKey(s.type)}">${typeLabel(s.type)}</span>`,
       `<span class="szkoly__badge">${s.public ? 'publiczna' : 'niepubliczna'}</span>`,
+      showCity && s.city ? `<span class="szkoly__badge">${esc(s.city)}</span>` : '',
       s.district ? `<span class="szkoly__badge">${esc(s.district)}</span>` : '',
       maturaBadge(s.matura),
       hasThresholds ? '<span class="szkoly__badge szkoly__badge--progi">progi punktowe</span>' : '',
@@ -284,8 +343,11 @@ const Szkoly = (function () {
       <div class="results szkoly">
         <div class="results__header">
           <a href="${ctx.BASE}/" class="results__back">&larr; Strona główna</a>
-          <h1 class="results__title">Szkoły średnie w Gdańsku</h1>
+          <h1 class="results__title">Szkoły średnie ${esc(d.city.loc)}</h1>
           <p class="results__query">Licea i technika dla absolwentów podstawówki.${year ? ` Oferta klas na rok ${esc(year)}.` : ''}</p>
+          <nav class="szkoly__cities" aria-label="Miasto">
+            ${CITY_CHIPS.map(c => `<a href="${ctx.BASE}/szkoly?miasto=${c}" class="szkoly__city${c === d.slug ? ' szkoly__city--active' : ''}"${c === d.slug ? ' aria-current="page"' : ''}>${esc(CITIES[c].name)}</a>`).join('')}
+          </nav>
           <details class="szkoly__filters-wrap"${activeCount || window.innerWidth > 700 ? ' open' : ''}>
             <summary class="szkoly__filters-toggle">Filtry${activeCount ? ` (${activeCount})` : ''}</summary>
             <form class="szkoly__filters" id="szkolyFilters">
@@ -307,7 +369,7 @@ const Szkoly = (function () {
                 <label class="szkoly__field">
                   <span class="szkoly__legend">Dzielnica</span>
                   <select name="dz" class="szkoly__select">
-                    <option value="">Cały Gdańsk</option>
+                    <option value="">Wszystkie</option>
                     ${districts.map(x => `<option value="${attr(x)}"${f.dz === x ? ' selected' : ''}>${esc(x)}</option>`).join('')}
                   </select>
                 </label>
@@ -322,7 +384,7 @@ const Szkoly = (function () {
           <p class="results__count" id="szkolyCount" aria-live="polite"></p>
         </div>
         <ul class="results__list szkoly__list" id="szkolyList"></ul>
-        <p class="szkoly__footnote">Źródła: RSPO (MEN, licencja CC BY 4.0), wyniki matur CKE i OKE w Gdańsku, strony i regulaminy rekrutacji szkół. Na stronie każdej szkoły są linki do konkretnych dokumentów. Dane z ${fmtDate(d.retrieved)}.</p>
+        <p class="szkoly__footnote">Źródła: RSPO (MEN, licencja CC BY 4.0), wyniki matur CKE, strony i regulaminy rekrutacji szkół. Na stronie każdej szkoły są linki do konkretnych dokumentów. Dane z ${fmtDate(d.retrieved)}.</p>
       </div>`;
 
     const form = container.querySelector('#szkolyFilters');
@@ -335,7 +397,7 @@ const Szkoly = (function () {
         pub: fd.get('pub') === '1',
         q: (fd.get('q') || '').trim(),
       };
-      history.replaceState(null, '', ctx.BASE + '/szkoly' + filtersToQuery(nf));
+      history.replaceState(null, '', ctx.BASE + '/szkoly' + filtersToQuery(nf, d.slug));
       renderListResults(container, d, nf);
     };
     form.addEventListener('change', e => { if (e.target.name !== 'q') update(); });
@@ -347,28 +409,31 @@ const Szkoly = (function () {
     const list = container.querySelector('#szkolyList');
     const count = container.querySelector('#szkolyCount');
     const res = filterSchools(d.schools, f);
+    const showCity = CITIES[d.slug].files.length > 1;
     backContext = { href: location.pathname + location.search, label: 'Wróć do listy szkół' };
     if (res.length) {
       count.textContent = `Pasujące szkoły: ${res.length}`;
-      list.innerHTML = res.map(x => schoolCard(x.school, x.matching, f)).join('');
+      list.innerHTML = res.map(x => schoolCard(x.school, x.matching, f, showCity)).join('');
       return;
     }
     count.textContent = 'Żadna szkoła nie pasuje do tych filtrów.';
     list.innerHTML = `
       <li class="szkoly__empty">
         ${f.rozsz.length > 1 ? 'Spróbuj wybrać mniej przedmiotów naraz. ' : ''}
-        ${hasActiveFilters(f) ? `<a href="${ctx.BASE}/szkoly" class="szkoly__clear">Wyczyść filtry</a>` : ''}
+        ${hasActiveFilters(f) ? `<a href="${ctx.BASE}/szkoly?miasto=${d.slug}" class="szkoly__clear">Wyczyść filtry</a>` : ''}
       </li>`;
   }
 
   async function renderList(container, params) {
     const my = ++renderSeq;
+    const citySlug = CITIES[params.get('miasto')] ? params.get('miasto') : currentCity();
+    setCity(citySlug);
     container.innerHTML = '<p class="szkoly__loading">Wczytuję szkoły…</p>';
     let d;
-    try { d = await load(); } catch (e) { if (my === renderSeq) showError(container); return; }
+    try { d = await load(citySlug); } catch (e) { if (my === renderSeq) showError(container); return; }
     if (my !== renderSeq) return;
     setRobots('index, follow');
-    ctx.updateMeta('Szkoły średnie w Gdańsku | NextMove', 'Licea i technika w Gdańsku: klasy, przedmioty rozszerzone, wyniki matur i progi punktowe.', ctx.BASE + '/szkoly');
+    ctx.updateMeta(`Szkoły średnie ${d.city.loc} | NextMove`, `Licea i technika ${d.city.loc}: klasy, przedmioty rozszerzone, wyniki matur i progi punktowe.`, `${ctx.BASE}/szkoly?miasto=${d.slug}`);
     const f = readFilters(params, d);
     renderListShell(container, d, f);
     renderListResults(container, d, f);
@@ -408,7 +473,7 @@ const Szkoly = (function () {
       </li>`;
   }
 
-  function maturaHtml(m, cityMeans) {
+  function maturaHtml(m, cityMeans, cityName, cityLoc) {
     if (!m) return '<p class="career-column__empty">CKE nie podaje wyników matury dla tej szkoły (np. szkoła nie ma jeszcze absolwentów).</p>';
     const ext = Object.entries(m.extended || {})
       .filter(([, v]) => v && v.n)
@@ -421,8 +486,8 @@ const Szkoly = (function () {
       ${rows ? `
       <div class="szkola__table-wrap">
         <table class="school-popup__thresholds szkola__matura">
-          <caption class="school-popup__caption">Matura rozszerzona: ile osób zdawało i średni wynik. Ostatnia kolumna to średnia wszystkich szkół w Gdańsku z tym przedmiotem, dla porównania.</caption>
-          <thead><tr><th>Przedmiot</th><th>Zdających</th><th>Średnia</th><th>Gdańsk</th></tr></thead>
+          <caption class="school-popup__caption">Matura rozszerzona: ile osób zdawało i średni wynik. Ostatnia kolumna to średnia wszystkich szkół ${esc(cityLoc)} z tym przedmiotem, dla porównania.</caption>
+          <thead><tr><th>Przedmiot</th><th>Zdających</th><th>Średnia</th><th>${esc(cityName)}</th></tr></thead>
           <tbody>${rows}</tbody>
         </table>
       </div>` : ''}`;
@@ -462,7 +527,7 @@ const Szkoly = (function () {
       <div class="results szkoly">
         <a href="${ctx.BASE}/szkoly" class="results__back">&larr; Wszystkie szkoły</a>
         <h1 class="results__title">Nie ma takiej szkoły w bazie</h1>
-        <p class="results__query">Na razie są tu tylko licea i technika z Gdańska.</p>
+        <p class="results__query">Na razie są tu licea i technika z Gdańska, Gdyni, Sopotu i Warszawy.</p>
       </div>`;
     ctx.updateMeta('Nie znaleziono szkoły | NextMove', 'Tej szkoły nie ma w bazie NextMove.', location.pathname);
     setRobots('noindex');
@@ -472,17 +537,24 @@ const Szkoly = (function () {
   async function renderDetail(container, rspo) {
     const my = ++renderSeq;
     container.innerHTML = '<p class="szkoly__loading">Wczytuję szkołę…</p>';
-    let d;
-    try { d = await load(); } catch (e) { if (my === renderSeq) showError(container); return; }
+    let d, s;
+    try {
+      const idx = await loadIndex();
+      const file = idx.rspo && idx.rspo[String(rspo)];
+      if (file) {
+        const citySlug = Object.keys(CITIES).find(k => CITIES[k].files.length === 1 && CITIES[k].files[0] === file);
+        d = await load(citySlug);
+        s = d.schools.find(x => String(x.rspo) === String(rspo));
+      }
+    } catch (e) { if (my === renderSeq) showError(container); return; }
     if (my !== renderSeq) return;
-    const s = d.schools.find(x => String(x.rspo) === String(rspo));
     if (!s) { notFound(container); return; }
     setRobots('index, follow');
     const isTech = s.type === 'technikum';
     const profiles = s.profiles || [];
     const anyThresholds = profiles.some(p => (p.thresholds || []).length);
     const year = profiles.map(p => p.schoolYear).find(Boolean) || schoolYearOf(d);
-    const back = backContext || { href: `${ctx.BASE}/szkoly`, label: 'Wszystkie szkoły' };
+    const back = backContext || { href: `${ctx.BASE}/szkoly?miasto=${d.slug}`, label: `Szkoły ${d.city.loc}` };
     container.innerHTML = `
       <div class="results szkoly szkola">
         <a href="${attr(back.href)}" class="results__back">&larr; ${esc(back.label)}</a>
@@ -512,7 +584,7 @@ const Szkoly = (function () {
 
         <section class="szkola__section">
           <h2 class="career-column__title">Matura${s.matura ? ` ${esc(s.matura.year)}` : ''}</h2>
-          ${maturaHtml(s.matura, d.cityMeans || {})}
+          ${maturaHtml(s.matura, (d.cityMeans || {})[s.matura ? s.matura.year : 0] || {}, d.city.name, d.city.loc)}
         </section>
 
         ${relatedCareersHtml(s)}
@@ -524,7 +596,7 @@ const Szkoly = (function () {
           </ul>
         </section>
       </div>`;
-    ctx.updateMeta(`${s.shortName || s.name} | Gdańsk | NextMove`, `${typeLabel(s.type)} w Gdańsku: klasy, rozszerzenia, wyniki matur.`, `${ctx.BASE}/szkola/${s.rspo}`);
+    ctx.updateMeta(`${s.shortName || s.name} | ${s.city || d.city.name} | NextMove`, `${typeLabel(s.type)} ${CITIES[d.slug].loc}: klasy, rozszerzenia, wyniki matur.`, `${ctx.BASE}/szkola/${s.rspo}`);
     ctx.announce(`Szkoła: ${s.shortName || s.name}`);
     focusHeading(container);
   }
@@ -579,14 +651,15 @@ const Szkoly = (function () {
     return [parts.join(''), ...multi].filter(Boolean).join(', a także ');
   }
 
-  function filterHref(groups) {
+  function filterHref(groups, citySlug) {
     const codes = groups.filter(g => g.length === 1).map(g => g[0]).filter(c => FILTER_SUBJECTS.includes(c));
-    return `${ctx.BASE}/szkoly?typ=liceum${codes.length ? '&rozsz=' + codes.join(',') : ''}`;
+    return `${ctx.BASE}/szkoly?miasto=${citySlug}&typ=liceum${codes.length ? '&rozsz=' + codes.join(',') : ''}`;
   }
 
   async function careerSectionHtml(career) {
+    lastCareer = career;
     let d;
-    try { d = await load(); } catch (e) { return ''; }
+    try { d = await load(currentCity()); } catch (e) { return ''; }
     const wanted = CAREER_PROFESSIONS[career.id];
     const tech = wanted
       ? d.schools.filter(s => s.type === 'technikum' && (s.profiles || []).some(p => professionMatches(p.profession, wanted)))
@@ -595,12 +668,24 @@ const Szkoly = (function () {
     const lo = required.length
       ? d.schools.filter(s => s.type === 'liceum').map(s => ({ s, ps: (s.profiles || []).filter(p => profileCovers(p, required)) })).filter(x => x.ps.length)
       : [];
-    if (!tech.length && !lo.length && !recommended.length) return '';
+    const citySwitch = `
+      <p class="career-secondary__cities">Miasto:
+        ${CITY_CHIPS.map(c => `<button type="button" class="szkoly__city${c === d.slug ? ' szkoly__city--active' : ''}" data-city="${c}" aria-pressed="${c === d.slug}">${esc(CITIES[c].name)}</button>`).join('')}
+      </p>`;
+    if (!tech.length && !lo.length && !recommended.length) {
+      return `
+      <section class="career-secondary">
+        <h2 class="career-column__title">Szkoła średnia ${esc(d.city.loc)}</h2>
+        ${citySwitch}
+        <p class="career-column__text">Nie znaleźliśmy technikum z tym zawodem ${esc(d.city.loc)}, a uczelnie nie wymagają konkretnych rozszerzeń.</p>
+        <a href="${ctx.BASE}/szkoly?miasto=${d.slug}" class="career-secondary__all">Wszystkie licea i technika ${esc(d.city.loc)}</a>
+      </section>`;
+    }
 
     const techHtml = tech.length ? `
       <h3 class="career-column__subtitle">Technika z tym zawodem</h3>
       <ul class="szkoly__mini">
-        ${tech.map(s => `<li><a href="${ctx.BASE}/szkola/${attr(s.rspo)}">${esc(s.shortName || s.name)}</a>${s.district ? ` <span class="szkola__muted">· ${esc(s.district)}</span>` : ''}</li>`).join('')}
+        ${tech.map(s => `<li><a href="${ctx.BASE}/szkola/${attr(s.rspo)}">${esc(s.shortName || s.name)}</a> <span class="szkola__muted">· ${esc([CITIES[d.slug].files.length > 1 ? s.city : '', s.district].filter(Boolean).join(', '))}</span></li>`).join('')}
       </ul>` : '';
 
     let loHtml = '';
@@ -612,24 +697,40 @@ const Szkoly = (function () {
       <ul class="szkoly__mini">
         ${lo.slice(0, MAX_LO).map(x => `<li><a href="${ctx.BASE}/szkola/${attr(x.s.rspo)}">${esc(x.s.shortName || x.s.name)}</a> <span class="szkola__muted">· ${x.ps.map(p => esc(p.name)).join(', ')}</span></li>`).join('')}
       </ul>
-      ${lo.length > MAX_LO ? `<p class="career-column__text"><a href="${attr(filterHref(required))}">Zobacz wszystkie ${lo.length} ${plural(lo.length, 'liceum', 'licea', 'liceów')}</a></p>` : ''}`;
+      ${lo.length > MAX_LO ? `<p class="career-column__text"><a href="${attr(filterHref(required, d.slug))}">Zobacz wszystkie ${lo.length} ${plural(lo.length, 'liceum', 'licea', 'liceów')}</a></p>` : ''}`;
     } else if (recommended.length) {
       loHtml = `
       <h3 class="career-column__subtitle">Liceum</h3>
       <p class="career-column__text">Uczelnie przyjmują z maturą podstawową albo rozszerzoną, więc pasuje każde liceum. Więcej punktów da rozszerzenie ${esc(groupsSentence(recommended))}.</p>
-      <p class="career-column__text"><a href="${attr(filterHref(recommended))}">Licea z takimi klasami</a></p>`;
+      <p class="career-column__text"><a href="${attr(filterHref(recommended, d.slug))}">Licea z takimi klasami</a></p>`;
     }
 
     return `
       <section class="career-secondary">
-        <h2 class="career-column__title">Szkoła średnia w Gdańsku</h2>
+        <h2 class="career-column__title">Szkoła średnia ${esc(d.city.loc)}</h2>
+        ${citySwitch}
         ${techHtml}
         ${loHtml}
-        <a href="${ctx.BASE}/szkoly" class="career-secondary__all">Wszystkie licea i technika w Gdańsku</a>
+        <a href="${ctx.BASE}/szkoly?miasto=${d.slug}" class="career-secondary__all">Wszystkie licea i technika ${esc(d.city.loc)}</a>
       </section>`;
   }
 
-  return { init, load, renderList, renderDetail, careerSectionHtml, setBackContext, CAREER_PROFESSIONS };
+  // Przełączanie miasta w sekcji na profilu zawodu
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('.career-secondary [data-city]');
+    if (!btn || !lastCareer) return;
+    setCity(btn.dataset.city);
+    const section = btn.closest('.career-secondary');
+    const career = lastCareer;
+    careerSectionHtml(career).then(html => {
+      if (!html || !section.isConnected || lastCareer !== career) return;
+      section.outerHTML = html;
+      const again = document.querySelector(`.career-secondary [data-city="${btn.dataset.city}"]`);
+      if (again) again.focus();
+    });
+  });
+
+  return { init, load, renderList, renderDetail, careerSectionHtml, setBackContext, currentCity, resetPending, CAREER_PROFESSIONS };
 })();
 
 window.Szkoly = Szkoly;

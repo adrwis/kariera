@@ -19,6 +19,13 @@
     bezpieczenstwo: 'Bezpieczeństwo',
   };
 
+  // Short, plain-language labels for labour demand (the badge title explains the official term)
+  const DEMAND_SHORT = {
+    deficytowy: 'łatwo o pracę',
+    'zrównoważony': 'stabilny rynek pracy',
+    'nadwyżkowy': 'duża konkurencja',
+  };
+
   // --- State ---
   let lastResultsPath = '';
   let currentResults = null;
@@ -112,9 +119,9 @@
     const path = window.location.pathname.replace(BASE, '') || '/';
     const search = window.location.search;
     if (path.startsWith('/wyniki')) return { view: 'wyniki', params: new URLSearchParams(search) };
-    if (path.startsWith('/zawod/')) return { view: 'zawod', params: path.replace('/zawod/', '') };
+    if (path.startsWith('/zawod/')) return { view: 'zawod', params: path.slice('/zawod/'.length).replace(/\/+$/, '') };
     if (path === '/szkoly' || path === '/szkoly/') return { view: 'szkoly', params: new URLSearchParams(search) };
-    if (path.startsWith('/szkola/')) return { view: 'szkola', params: path.replace('/szkola/', '') };
+    if (path.startsWith('/szkola/')) return { view: 'szkola', params: path.slice('/szkola/'.length).replace(/\/+$/, '') };
     return { view: 'landing', params: null };
   }
 
@@ -125,7 +132,7 @@
   }
 
   // --- Dynamic SEO meta updates ---
-  const defaultDesc = 'Wyszukiwarka zawodów dla osób, które nie wiedzą kim chcą zostać. Zarobki, uczelnie, szkolenia i oferty pracy — blisko 80 szczegółowych profili.';
+  const defaultDesc = 'Wyszukiwarka zawodów dla osób, które nie wiedzą, kim chcą zostać. Zarobki, uczelnie, szkoły średnie, szkolenia i oferty pracy.';
   function updateMeta(title, desc, path) {
     document.title = title;
     const fullUrl = 'https://adrwis.github.io' + path;
@@ -144,17 +151,19 @@
 
     switch (route.view) {
       case 'landing':
+        Szkoly.setBackContext(null);
         showView('landing');
-        updateMeta('NextMove — Znajdź swój zawód', defaultDesc, BASE + '/');
+        updateMeta('NextMove | Znajdź swój zawód', defaultDesc, BASE + '/');
         break;
 
       case 'wyniki':
+        Szkoly.setBackContext(null);
         showView('wyniki');
         lastResultsPath = window.location.pathname + window.location.search;
         handleResults(route.params);
         { const q = route.params.get('q') || route.params.get('cat') || '';
-          const title = q ? `${q} — wyniki | NextMove` : 'Wyniki | NextMove';
-          const desc = q ? `Wyniki wyszukiwania: ${q} — zawody, zarobki, uczelnie.` : 'Wyniki wyszukiwania zawodów.';
+          const title = q ? `${q} | wyniki | NextMove` : 'Wyniki | NextMove';
+          const desc = q ? `Wyniki wyszukiwania: ${q}. Zawody, zarobki, uczelnie.` : 'Wyniki wyszukiwania zawodów.';
           updateMeta(title, desc, window.location.pathname + window.location.search);
         }
         break;
@@ -177,11 +186,13 @@
 
       default:
         showView('landing');
-        updateMeta('NextMove — Znajdź swój zawód', defaultDesc, BASE + '/');
+        updateMeta('NextMove | Znajdź swój zawód', defaultDesc, BASE + '/');
     }
   }
 
   window.addEventListener('popstate', () => { isPopstate = true; navigate(); isPopstate = false; });
+  // Page restored from the back/forward cache: requests in flight were cancelled, so render again
+  window.addEventListener('pageshow', (e) => { if (e.persisted) { Szkoly.resetPending(); navigate(); } });
 
   // --- Search form (landing) ---
   const searchForm = document.getElementById('searchForm');
@@ -387,7 +398,7 @@
         parts.push(categories.map(c => CATEGORY_NAMES[c] || c).join(', '));
       }
       if (sMin || sMax) {
-        parts.push(`zarobki ${(sMin || 3000).toLocaleString('pl-PL')}–${(sMax || 35000).toLocaleString('pl-PL')} PLN`);
+        parts.push(`zarobki ${(sMin || 3000).toLocaleString('pl-PL')} do ${(sMax || 35000).toLocaleString('pl-PL')} PLN`);
       }
       if (demands.length && demands.length < 3) {
         parts.push(`zapotrzebowanie: ${demands.join(', ')}`);
@@ -419,13 +430,16 @@
     // Pre-fill inline search
     resultsSearchInput.value = query;
 
+    // Queries about schools point to the secondary-school section
+    const schoolHint = document.getElementById('resultsSchoolHint');
+    if (schoolHint) schoolHint.hidden = !/(liceum|licea|lo\b|technikum|technika|szkoł|szkol)/i.test(query);
+
     const total = results.rich.length + results.simple.length;
 
-    // Single result → redirect to detail
-    if (total === 1) {
-      const item = results.rich[0] || results.simple[0];
-      const id = item.id || item.code;
-      go(`/zawod/${id}`);
+    // Single full profile → go straight to detail (replace, so Back returns to the previous page)
+    if (total === 1 && results.rich.length === 1) {
+      history.replaceState(null, '', `${BASE}/zawod/${results.rich[0].id}`);
+      navigate();
       return;
     }
 
@@ -519,18 +533,17 @@
     a.setAttribute('role', 'listitem');
 
     const salaryText = career.salary
-      ? `${career.salary.min.toLocaleString('pl-PL')}–${career.salary.max.toLocaleString('pl-PL')} PLN`
+      ? `${career.salary.min.toLocaleString('pl-PL')} do ${career.salary.max.toLocaleString('pl-PL')} PLN`
       : '';
 
     const demandClass = career.demand ? `result-card__badge--demand-${career.demand}` : '';
 
     a.innerHTML = `
       <div class="result-card__name">${escapeHtml(career.name)}</div>
-      <div class="result-card__code">KZiS: ${escapeHtml(career.code)}</div>
       <div class="result-card__desc">${escapeHtml(career.shortDescription || '')}</div>
       <div class="result-card__meta">
         ${salaryText ? `<span class="result-card__badge result-card__badge--salary">${salaryText}</span>` : ''}
-        ${career.demand ? `<span class="result-card__badge ${demandClass}">${escapeHtml(career.demand)}</span>` : ''}
+        ${career.demand ? `<span class="result-card__badge ${demandClass}">${escapeHtml(DEMAND_SHORT[career.demand] || career.demand)}</span>` : ''}
       </div>
     `;
     return a;
@@ -582,9 +595,9 @@
   }
 
   const DEMAND_LABELS = {
-    deficytowy: 'Deficytowy (poszukiwany na rynku pracy)',
-    'zrównoważony': 'Zrównoważony (podaż ≈ popyt)',
-    'nadwyżkowy': 'Nadwyżkowy (więcej kandydatów niż ofert)',
+    deficytowy: 'Zawód deficytowy: pracodawcy szukają więcej osób, niż jest kandydatów',
+    'zrównoważony': 'Zawód zrównoważony: kandydatów jest mniej więcej tyle, ile ofert',
+    'nadwyżkowy': 'Zawód nadwyżkowy: kandydatów jest więcej niż ofert',
   };
 
   // --- Workplace job search links builder ---
@@ -626,7 +639,7 @@
     currentCareerData = c;
 
     const salaryText = c.salary
-      ? `${c.salary.min.toLocaleString('pl-PL')}–${c.salary.max.toLocaleString('pl-PL')} PLN brutto/mies.`
+      ? `${c.salary.min.toLocaleString('pl-PL')} do ${c.salary.max.toLocaleString('pl-PL')} PLN brutto/mies.`
       : '';
 
     const demandClass = c.demand ? `result-card__badge--demand-${c.demand}` : '';
@@ -849,7 +862,7 @@
         <p class="career-hero__code">KZiS: ${escapeHtml(c.code)}</p>
         <div class="career-hero__badges">
           ${salaryText ? `<span class="result-card__badge result-card__badge--salary">${salaryText}</span>` : ''}
-          ${c.demand ? `<span class="result-card__badge ${demandClass}"${demandTitle}>${escapeHtml(c.demand)}</span>` : ''}
+          ${c.demand ? `<span class="result-card__badge ${demandClass}"${demandTitle}>${escapeHtml(DEMAND_SHORT[c.demand] || c.demand)}</span>` : ''}
         </div>
         ${c.fullDescription ? `<p class="career-hero__desc">${escapeHtml(c.fullDescription)}</p>` : (c.shortDescription ? `<p class="career-hero__desc">${escapeHtml(c.shortDescription)}</p>` : '')}
       </div>
@@ -880,14 +893,15 @@
     const heading = careerDetail.querySelector('.career-hero__name');
     if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true }); }
     announce(`Zawód: ${c.name}`);
-    updateMeta(`${c.name} — zawód | NextMove`, c.shortDescription || c.fullDescription || defaultDesc, `${BASE}/zawod/${c.id}`);
+    updateMeta(`${c.name} | zawód | NextMove`, c.shortDescription || c.fullDescription || defaultDesc, `${BASE}/zawod/${c.id}`);
 
     // Load Wikipedia thumbnails for famous people
     loadFamousThumbs(c.famousPeople);
 
-    // Secondary schools (Gdańsk) — loaded lazily, skipped if user navigated away
+    // Secondary schools (per chosen city): loaded lazily, skipped if user navigated away
+    Szkoly.setBackContext({ href: `${BASE}/zawod/${c.id}`, label: c.name });
     Szkoly.careerSectionHtml(c).then(html => {
-      if (!html || currentCareerData !== c) return;
+      if (!html || currentCareerData !== c || careerDetail.querySelector('.career-secondary')) return;
       const anchor = careerDetail.querySelector('.career-columns--detail');
       if (anchor) anchor.insertAdjacentHTML('afterend', html);
     });
@@ -942,10 +956,10 @@
         <p class="career-fallback__text">Szczegółowy profil tego zawodu jest w przygotowaniu. Sprawdź zewnętrzne źródła:</p>
         <div class="career-fallback__links">
           <a href="https://psz.praca.gov.pl/rynek-pracy/bazy-danych/infodoradca/-/infodoradca/zawody" target="_blank" rel="noopener" class="career-fallback__link">
-            INFOdoradca+ &rarr;
+            INFOdoradca+
           </a>
           <a href="https://barometrzawodow.pl" target="_blank" rel="noopener" class="career-fallback__link career-fallback__link--secondary">
-            Barometr Zawodów &rarr;
+            Barometr Zawodów
           </a>
         </div>
       </div>

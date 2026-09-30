@@ -1,0 +1,2563 @@
+[
+ {
+  "rspo": 30451,
+  "type": "liceum",
+  "name": "GDYŃSKIE LICEUM AUTORSKIE SPOŁECZNEGO TOWARZYSTWA OŚWIATOWEGO",
+  "shortName": null,
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Stefana Okrzei 6, 81-228 Gdynia",
+  "geo": {
+   "lat": 54.53027,
+   "lng": 18.50232
+  },
+  "url": "http://www.gla.edu.pl/",
+  "public": false,
+  "students": 76,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "mistrzostwa sportowego"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 68,
+   "examinees": 25,
+   "certificates": 17,
+   "extended": {
+    "bio": {
+     "n": 11,
+     "mean": 20.5
+    },
+    "geo": {
+     "n": 9,
+     "mean": 29.2
+    },
+    "ang": {
+     "n": 23,
+     "mean": 48.4
+    },
+    "pol": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 2,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/30451",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 4045,
+  "type": "liceum",
+  "name": "I AKADEMICKIE LICEUM OGÓLNOKSZTAŁCĄCE IM. ZASŁUŻONYCH LUDZI MORZA",
+  "shortName": null,
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Narcyzowa 6, 81-653 Gdynia",
+  "geo": {
+   "lat": 54.49877,
+   "lng": 18.51645
+  },
+  "url": "https://1alo.org/",
+  "public": true,
+  "students": 473,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 98.1,
+   "examinees": 154,
+   "certificates": 151,
+   "extended": {
+    "bio": {
+     "n": 31,
+     "mean": 58.3
+    },
+    "chem": {
+     "n": 23,
+     "mean": 42.6
+    },
+    "fil": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 13,
+     "mean": 47.6
+    },
+    "geo": {
+     "n": 48,
+     "mean": 60.7
+    },
+    "hist": {
+     "n": 16,
+     "mean": 44.7
+    },
+    "hsz": {
+     "n": 2,
+     "mean": null
+    },
+    "inf": {
+     "n": 13,
+     "mean": 34.8
+    },
+    "ang": {
+     "n": 153,
+     "mean": 84.5
+    },
+    "hisz": {
+     "n": 1,
+     "mean": null
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 25,
+     "mean": 66.3
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 65,
+     "mean": 39
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/4045",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 23199,
+  "type": "liceum",
+  "name": "II LICEUM OGÓLNOKSZTAŁCĄCE Z ODDZIAŁAMI DWUJĘZYCZNYMI IM. ADAMA MICKIEWICZA",
+  "shortName": "II LO",
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Wolności 22b, 81-327 Gdynia",
+  "geo": {
+   "lat": 54.5191,
+   "lng": 18.51975
+  },
+  "url": "https://www.lo2gdynia.pl/",
+  "public": true,
+  "students": 786,
+  "languages": [
+   "ang",
+   "fr",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 99,
+   "examinees": 205,
+   "certificates": 203,
+   "extended": {
+    "bio": {
+     "n": 34,
+     "mean": 52.4
+    },
+    "chem": {
+     "n": 23,
+     "mean": 47.9
+    },
+    "fil": {
+     "n": 5,
+     "mean": 68
+    },
+    "fiz": {
+     "n": 34,
+     "mean": 51.1
+    },
+    "geo": {
+     "n": 69,
+     "mean": 60.9
+    },
+    "hist": {
+     "n": 18,
+     "mean": 62.9
+    },
+    "hsz": {
+     "n": 9,
+     "mean": 54.3
+    },
+    "inf": {
+     "n": 15,
+     "mean": 45.6
+    },
+    "ang": {
+     "n": 201,
+     "mean": 87.2
+    },
+    "ang_dwj": {
+     "n": 4,
+     "mean": null
+    },
+    "fr": {
+     "n": 8,
+     "mean": 54.1
+    },
+    "fr_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 38,
+     "mean": 59.4
+    },
+    "mat": {
+     "n": 128,
+     "mean": 56.3
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/23199",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 29583,
+  "type": "liceum",
+  "name": "III LICEUM OGÓLNOKSZTAŁCĄCE Z ODDZ. DWUJĘZYCZNYMI IM. MARYNARKI WOJENNEJ RP",
+  "shortName": "III LO",
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Legionów 27, 81-405 Gdynia",
+  "geo": {
+   "lat": 54.50721,
+   "lng": 18.5447
+  },
+  "url": "https://www.lo3.gdynia.pl/",
+  "public": true,
+  "students": 696,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "międzynarodowy",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 154,
+   "certificates": 154,
+   "extended": {
+    "bio": {
+     "n": 37,
+     "mean": 69.8
+    },
+    "chem": {
+     "n": 41,
+     "mean": 78.6
+    },
+    "fil": {
+     "n": 6,
+     "mean": 85
+    },
+    "fiz": {
+     "n": 45,
+     "mean": 72.4
+    },
+    "geo": {
+     "n": 25,
+     "mean": 79.8
+    },
+    "hist": {
+     "n": 16,
+     "mean": 80.8
+    },
+    "hsz": {
+     "n": 6,
+     "mean": 46
+    },
+    "inf": {
+     "n": 37,
+     "mean": 69.1
+    },
+    "ang": {
+     "n": 96,
+     "mean": 93
+    },
+    "ang_dwj": {
+     "n": 54,
+     "mean": 87
+    },
+    "hisz": {
+     "n": 1,
+     "mean": null
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "niem_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 24,
+     "mean": 72.9
+    },
+    "wlo": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 105,
+     "mean": 73.5
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/29583",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 3957,
+  "type": "liceum",
+  "name": "IX LICEUM OGÓLNOKSZTAŁCĄCE IM. MARSZAŁKA JÓZEFA PIŁSUDSKIEGO",
+  "shortName": "IX LO",
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Orłowska 57, 81-542 Gdynia",
+  "geo": {
+   "lat": 54.47848,
+   "lng": 18.55088
+  },
+  "url": "https://www.lo9.gdynia.pl/",
+  "public": true,
+  "students": 748,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 98.9,
+   "examinees": 182,
+   "certificates": 180,
+   "extended": {
+    "bio": {
+     "n": 31,
+     "mean": 50.7
+    },
+    "chem": {
+     "n": 12,
+     "mean": 33.4
+    },
+    "fil": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 24,
+     "mean": 35.2
+    },
+    "geo": {
+     "n": 64,
+     "mean": 53.5
+    },
+    "hist": {
+     "n": 26,
+     "mean": 38.9
+    },
+    "hsz": {
+     "n": 6,
+     "mean": 35.3
+    },
+    "inf": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 180,
+     "mean": 81.3
+    },
+    "ang_dwj": {
+     "n": 2,
+     "mean": null
+    },
+    "hisz": {
+     "n": 3,
+     "mean": null
+    },
+    "lac": {
+     "n": 2,
+     "mean": null
+    },
+    "pol": {
+     "n": 53,
+     "mean": 44.8
+    },
+    "mat": {
+     "n": 85,
+     "mean": 30.4
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/3957",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 31207,
+  "type": "liceum",
+  "name": "KATOLICKIE LICEUM OGÓLNOKSZTAŁCĄCE IM. ŚW. JANA PAWŁA II W GDYNI",
+  "shortName": null,
+  "city": "Gdynia",
+  "district": null,
+  "address": "pl. św. Andrzeja 2, 81-168 Gdynia",
+  "geo": {
+   "lat": 54.55283,
+   "lng": 18.50902
+  },
+  "url": "https://www.katolik.info.pl",
+  "public": true,
+  "students": 122,
+  "languages": [
+   "ang",
+   "fr",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 37,
+   "certificates": 37,
+   "extended": {
+    "bio": {
+     "n": 10,
+     "mean": 66.2
+    },
+    "chem": {
+     "n": 6,
+     "mean": 54.3
+    },
+    "fiz": {
+     "n": 16,
+     "mean": 61.7
+    },
+    "geo": {
+     "n": 4,
+     "mean": null
+    },
+    "hist": {
+     "n": 4,
+     "mean": null
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "inf": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 36,
+     "mean": 89.3
+    },
+    "pol": {
+     "n": 4,
+     "mean": null
+    },
+    "mat": {
+     "n": 20,
+     "mean": 60.6
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/31207",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 129601,
+  "type": "liceum",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE TEB EDUKACJA W GDYNI",
+  "shortName": null,
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Armii Krajowej 30, 81-366 Gdynia",
+  "geo": {
+   "lat": 54.51756,
+   "lng": 18.5411
+  },
+  "url": "https://www.liceum.teb.pl/miasta/gdynia/",
+  "public": false,
+  "students": 269,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 61.3,
+   "examinees": 31,
+   "certificates": 19,
+   "extended": {
+    "bio": {
+     "n": 16,
+     "mean": 18.8
+    },
+    "chem": {
+     "n": 5,
+     "mean": 21.6
+    },
+    "geo": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 23,
+     "mean": 56.2
+    },
+    "pol": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 2,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/129601",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 6128,
+  "type": "liceum",
+  "name": "OGÓLNOKSZTAŁCĄCE LICEUM JEZUITÓW Z ODDZIAŁAMI DWUJĘZYCZNYMI IM ŚW. STANISŁAWA KOSTKI W GDYNI",
+  "shortName": null,
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Tatrzańska 35, 81-313 Gdynia",
+  "geo": {
+   "lat": 54.51537,
+   "lng": 18.52544
+  },
+  "url": "https://jezuici.edu.pl/",
+  "public": false,
+  "students": 70,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 93.1,
+   "examinees": 29,
+   "certificates": 27,
+   "extended": {
+    "bio": {
+     "n": 5,
+     "mean": 35.8
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 1,
+     "mean": null
+    },
+    "hist": {
+     "n": 5,
+     "mean": 48
+    },
+    "inf": {
+     "n": 4,
+     "mean": null
+    },
+    "ang": {
+     "n": 21,
+     "mean": 80.3
+    },
+    "ang_dwj": {
+     "n": 8,
+     "mean": 76.9
+    },
+    "hisz": {
+     "n": 2,
+     "mean": null
+    },
+    "pol": {
+     "n": 4,
+     "mean": null
+    },
+    "mat": {
+     "n": 14,
+     "mean": 35.3
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/6128",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 262373,
+  "type": "liceum",
+  "name": "PIERWSZE SPOŁECZNE LICEUM OGÓLNOKSZTAŁCĄCE SZKOŁA MISTRZOSTWA SPORTOWEGO W GDYNI",
+  "shortName": null,
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Stefana Okrzei 6, 81-228 Gdynia",
+  "geo": {
+   "lat": 54.53027,
+   "lng": 18.50232
+  },
+  "url": "https://pslo.edu.pl/",
+  "public": false,
+  "students": 151,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "mistrzostwa sportowego"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 66.7,
+   "examinees": 45,
+   "certificates": 30,
+   "extended": {
+    "bio": {
+     "n": 20,
+     "mean": 24.4
+    },
+    "chem": {
+     "n": 3,
+     "mean": null
+    },
+    "fiz": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 15,
+     "mean": 28.5
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 36,
+     "mean": 65.6
+    },
+    "pol": {
+     "n": 1,
+     "mean": null
+    },
+    "wlo": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 8,
+     "mean": 11
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/262373",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 25697,
+  "type": "liceum",
+  "name": "V LICEUM OGÓLNOKSZTAŁCĄCE IM.PŁK.STANISŁAWA DĄBKA",
+  "shortName": "V LO",
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Arendta Dickmana 14, 81-109 Gdynia",
+  "geo": {
+   "lat": 54.55025,
+   "lng": 18.54814
+  },
+  "url": "https://www.vlogdynia.pl",
+  "public": true,
+  "students": 511,
+  "languages": [
+   "ang",
+   "fr",
+   "niem",
+   "ros"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "sportowy"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 85.2,
+   "examinees": 189,
+   "certificates": 161,
+   "extended": {
+    "bio": {
+     "n": 47,
+     "mean": 27.3
+    },
+    "chem": {
+     "n": 14,
+     "mean": 26.7
+    },
+    "fiz": {
+     "n": 9,
+     "mean": 10.7
+    },
+    "geo": {
+     "n": 42,
+     "mean": 38.9
+    },
+    "hist": {
+     "n": 20,
+     "mean": 43
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "inf": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 166,
+     "mean": 68.8
+    },
+    "ang_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "fr": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 40,
+     "mean": 32.4
+    },
+    "ros": {
+     "n": 10,
+     "mean": 95.1
+    },
+    "ros_dwj": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 45,
+     "mean": 19
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/25697",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 3640,
+  "type": "liceum",
+  "name": "VI LICEUM OGÓLNOKSZTAŁCĄCE IM. WACŁAWA SIERPIŃSKIEGO",
+  "shortName": "VI LO",
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Mikołaja Kopernika 34, 81-424 Gdynia",
+  "geo": {
+   "lat": 54.50307,
+   "lng": 18.54099
+  },
+  "url": "http://vilo.org/",
+  "public": true,
+  "students": 560,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 161,
+   "certificates": 161,
+   "extended": {
+    "bio": {
+     "n": 38,
+     "mean": 72.6
+    },
+    "chem": {
+     "n": 20,
+     "mean": 70.1
+    },
+    "fiz": {
+     "n": 55,
+     "mean": 61.5
+    },
+    "geo": {
+     "n": 31,
+     "mean": 79.5
+    },
+    "hist": {
+     "n": 19,
+     "mean": 62.8
+    },
+    "hsz": {
+     "n": 2,
+     "mean": null
+    },
+    "inf": {
+     "n": 9,
+     "mean": 57.1
+    },
+    "ang": {
+     "n": 151,
+     "mean": 90.9
+    },
+    "ang_dwj": {
+     "n": 5,
+     "mean": 90.6
+    },
+    "fr": {
+     "n": 1,
+     "mean": null
+    },
+    "hisz": {
+     "n": 2,
+     "mean": null
+    },
+    "pol": {
+     "n": 35,
+     "mean": 62
+    },
+    "mat": {
+     "n": 114,
+     "mean": 59.4
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/3640",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 21211,
+  "type": "liceum",
+  "name": "VII SPORTOWE LICEUM OGÓLNOKSZTAŁCĄCE IM. JÓZEFA WYBICKIEGO",
+  "shortName": "VII LO",
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Władysława IV 54, 81-384 Gdynia",
+  "geo": {
+   "lat": 54.51287,
+   "lng": 18.53722
+  },
+  "url": "https://www.zssogdynia.pl",
+  "public": true,
+  "students": 360,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 94,
+   "examinees": 67,
+   "certificates": 63,
+   "extended": {
+    "bio": {
+     "n": 2,
+     "mean": null
+    },
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 3,
+     "mean": null
+    },
+    "geo": {
+     "n": 30,
+     "mean": 39.4
+    },
+    "hist": {
+     "n": 6,
+     "mean": 44.8
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 55,
+     "mean": 69
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 14,
+     "mean": 41.4
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 16,
+     "mean": 16.8
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/21211",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 3620,
+  "type": "liceum",
+  "name": "X LICEUM OGÓLNOKSZTAŁCĄCE IM. GDYŃSKICH NAUCZYCIELI BOHATERÓW II WOJNY ŚWIATOWEJ",
+  "shortName": "X LO",
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Władysława IV 58, 81-384 Gdynia",
+  "geo": {
+   "lat": 54.51105,
+   "lng": 18.53691
+  },
+  "url": "http://xlogdynia.pl/",
+  "public": true,
+  "students": 465,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem",
+   "ros"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 96.9,
+   "examinees": 130,
+   "certificates": 126,
+   "extended": {
+    "bio": {
+     "n": 40,
+     "mean": 62.5
+    },
+    "chem": {
+     "n": 21,
+     "mean": 49.2
+    },
+    "fiz": {
+     "n": 24,
+     "mean": 45
+    },
+    "geo": {
+     "n": 26,
+     "mean": 72.3
+    },
+    "hist": {
+     "n": 4,
+     "mean": null
+    },
+    "hsz": {
+     "n": 8,
+     "mean": 58.4
+    },
+    "inf": {
+     "n": 10,
+     "mean": 63
+    },
+    "ang": {
+     "n": 108,
+     "mean": 86.9
+    },
+    "ang_dwj": {
+     "n": 18,
+     "mean": 86.9
+    },
+    "pol": {
+     "n": 39,
+     "mean": 47.1
+    },
+    "ros": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 63,
+     "mean": 52.5
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/3620",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 18942,
+  "type": "liceum",
+  "name": "XIV LICEUM OGÓLNOKSZTAŁCĄCE Z ODDZIAŁAMI DWUJĘZYCZNYMI IM. MIKOŁAJA KOPERNIKA W GDYNI",
+  "shortName": "XIV LO",
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Wejherowska 55, 81-049 Gdynia",
+  "geo": {
+   "lat": 54.54227,
+   "lng": 18.46695
+  },
+  "url": "http://lo.xivlo.pl/",
+  "public": true,
+  "students": 609,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 98.6,
+   "examinees": 217,
+   "certificates": 214,
+   "extended": {
+    "bio": {
+     "n": 47,
+     "mean": 54.9
+    },
+    "chem": {
+     "n": 35,
+     "mean": 42.5
+    },
+    "fil": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 18,
+     "mean": 34.1
+    },
+    "geo": {
+     "n": 64,
+     "mean": 53.8
+    },
+    "hist": {
+     "n": 14,
+     "mean": 60.5
+    },
+    "hsz": {
+     "n": 2,
+     "mean": null
+    },
+    "inf": {
+     "n": 11,
+     "mean": 66.2
+    },
+    "ang": {
+     "n": 168,
+     "mean": 82.3
+    },
+    "ang_dwj": {
+     "n": 33,
+     "mean": 84.4
+    },
+    "fr": {
+     "n": 1,
+     "mean": null
+    },
+    "hisz": {
+     "n": 18,
+     "mean": 62.6
+    },
+    "niem": {
+     "n": 3,
+     "mean": null
+    },
+    "pol": {
+     "n": 67,
+     "mean": 49
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "wlo": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 79,
+     "mean": 45.6
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/18942",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 11009,
+  "type": "liceum",
+  "name": "XV LICEUM OGÓLNOKSZTAŁCĄCE SPECJALNE DLA NIEDOSŁYSZĄCYCH",
+  "shortName": "XV LO",
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. gen. Józefa Hallera 9, 81-453 Gdynia",
+  "geo": {
+   "lat": 54.49863,
+   "lng": 18.54671
+  },
+  "url": "https://www.nieslyszacygdynia.pl/",
+  "public": true,
+  "students": 0,
+  "languages": [],
+  "specifics": [],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/11009",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 21325,
+  "type": "liceum",
+  "name": "XVI LICEUM OGÓLNOKSZTAŁCĄCE SPECJALNE",
+  "shortName": "XVI LO",
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Energetyków 13, 81-184 Gdynia",
+  "geo": {
+   "lat": 54.54036,
+   "lng": 18.50268
+  },
+  "url": "http://sosw2gdynia.pl/",
+  "public": true,
+  "students": 110,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "specjalny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": null,
+   "examinees": 1,
+   "certificates": 0,
+   "extended": {
+    "bio": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/21325",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 196346,
+  "type": "liceum",
+  "name": "XVII LICEUM OGÓLNOKSZTAŁCĄCE W GDYNI",
+  "shortName": "XVII LO",
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Wiczlińska 50a, 81-578 Gdynia",
+  "geo": {
+   "lat": 54.48825,
+   "lng": 18.42866
+  },
+  "url": "http://17logdynia.pl/",
+  "public": true,
+  "students": 442,
+  "languages": [
+   "ang",
+   "fr",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 121,
+   "certificates": 121,
+   "extended": {
+    "bio": {
+     "n": 27,
+     "mean": 38.8
+    },
+    "chem": {
+     "n": 14,
+     "mean": 38.6
+    },
+    "fiz": {
+     "n": 12,
+     "mean": 29.2
+    },
+    "geo": {
+     "n": 31,
+     "mean": 58
+    },
+    "hist": {
+     "n": 14,
+     "mean": 37.1
+    },
+    "hsz": {
+     "n": 2,
+     "mean": null
+    },
+    "inf": {
+     "n": 9,
+     "mean": 33.3
+    },
+    "ang": {
+     "n": 118,
+     "mean": 83.1
+    },
+    "ang_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "hisz": {
+     "n": 1,
+     "mean": null
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 22,
+     "mean": 30.5
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 59,
+     "mean": 42.5
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/196346",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 60373,
+  "type": "technikum",
+  "name": "PRYWATNE TECHNIKUM GASTRONOMICZNE E.T.MAZUREK",
+  "shortName": null,
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Nauczycielska 6, 81-614 Gdynia",
+  "geo": {
+   "lat": 54.50011,
+   "lng": 18.50592
+  },
+  "url": "https://szkolymazurek.pl",
+  "public": false,
+  "students": 21,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [
+   "Technik żywienia i usług gastronomicznych"
+  ],
+  "matura": {
+   "year": 2025,
+   "passRate": 83.3,
+   "examinees": 6,
+   "certificates": 5,
+   "extended": {
+    "ang": {
+     "n": 5,
+     "mean": 69.4
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2025/EM2023_2025_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/60373",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2025",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2025/EM2023_2025_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 279291,
+  "type": "technikum",
+  "name": "TECHNIKUM ,,COSINUS'' W GDYNI",
+  "shortName": null,
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Hugo Kołłątaja 1, 81-332 Gdynia",
+  "geo": {
+   "lat": 54.52031,
+   "lng": 18.52592
+  },
+  "url": "https://www.cosinus.pl/gdynia",
+  "public": false,
+  "students": 592,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik informatyk",
+   "Technik teleinformatyk",
+   "Technik architektury krajobrazu",
+   "Technik weterynarii",
+   "Technik usług fryzjerskich",
+   "Technik fotografii i multimediów",
+   "Technik organizacji turystyki",
+   "Technik reklamy",
+   "Technik programista"
+  ],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/279291",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 18862,
+  "type": "technikum",
+  "name": "TECHNIKUM BUDOWLANE",
+  "shortName": null,
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. płk. Stanisława Dąbka 207, 81-155 Gdynia",
+  "geo": {
+   "lat": 54.55619,
+   "lng": 18.5193
+  },
+  "url": "https://ckziu2-gdynia.edupage.org/",
+  "public": true,
+  "students": 74,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [
+   "Technik robót wykończeniowych w budownictwie"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 37.5,
+   "examinees": 8,
+   "certificates": 3,
+   "extended": {
+    "ang": {
+     "n": 6,
+     "mean": 45.2
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/18862",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 12039,
+  "type": "technikum",
+  "name": "TECHNIKUM BUDOWY OKRĘTÓW",
+  "shortName": null,
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Morska 79, 81-222 Gdynia",
+  "geo": {
+   "lat": 54.52505,
+   "lng": 18.514
+  },
+  "url": "https://ckziu1gdynia.wixsite.com/ckziu1gdynia/o-szkole",
+  "public": true,
+  "students": 220,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy",
+   "przygotowania wojskowego"
+  ],
+  "professionsRspo": [
+   "Technik mechanik lotniczy",
+   "Technik eksploatacji portów i terminali",
+   "Technik budowy jednostek pływających",
+   "Technik spawalnictwa"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 72,
+   "examinees": 25,
+   "certificates": 18,
+   "extended": {
+    "geo": {
+     "n": 1,
+     "mean": null
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 19,
+     "mean": 52.5
+    },
+    "mat": {
+     "n": 6,
+     "mean": 4.7
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/12039",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 11366,
+  "type": "technikum",
+  "name": "TECHNIKUM CHŁODNICZE IM. PROF. M.T. HUBERA",
+  "shortName": null,
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Sambora 48, 81-201 Gdynia",
+  "geo": {
+   "lat": 54.52666,
+   "lng": 18.4912
+  },
+  "url": "https://zschie.pl/",
+  "public": true,
+  "students": 129,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik elektronik",
+   "Technik elektryk",
+   "Technik mechanik",
+   "Technik chłodnictwa i klimatyzacji"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 90,
+   "examinees": 20,
+   "certificates": 18,
+   "extended": {
+    "fiz": {
+     "n": 5,
+     "mean": 9.2
+    },
+    "geo": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 17,
+     "mean": 67.9
+    },
+    "ang_dwj": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 16,
+     "mean": 11.9
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/11366",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 23054,
+  "type": "technikum",
+  "name": "TECHNIKUM EKONOMICZNE Z ODDZIAŁAMI DWUJĘZYCZNYMI IM. ROTMISTRZA WITOLDA PILECKIEGO",
+  "shortName": null,
+  "city": "Gdynia",
+  "district": null,
+  "address": "al. Zwycięstwa 194, 81-540 Gdynia",
+  "geo": {
+   "lat": 54.48249,
+   "lng": 18.5494
+  },
+  "url": "http://www.zsae.gdynia.pl/",
+  "public": true,
+  "students": 452,
+  "languages": [
+   "ang",
+   "niem",
+   "ros"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [
+   "Technik ekonomista",
+   "Technik rachunkowości",
+   "Technik grafiki i poligrafii cyfrowej",
+   "Technik reklamy"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 85.4,
+   "examinees": 89,
+   "certificates": 76,
+   "extended": {
+    "bio": {
+     "n": 7,
+     "mean": 23.9
+    },
+    "chem": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 4,
+     "mean": null
+    },
+    "geo": {
+     "n": 34,
+     "mean": 39.3
+    },
+    "hist": {
+     "n": 3,
+     "mean": null
+    },
+    "hsz": {
+     "n": 2,
+     "mean": null
+    },
+    "ang": {
+     "n": 49,
+     "mean": 68.8
+    },
+    "ang_dwj": {
+     "n": 20,
+     "mean": 53.9
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 8,
+     "mean": 17.5
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 10,
+     "mean": 20.8
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/23054",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 11365,
+  "type": "technikum",
+  "name": "TECHNIKUM ELEKTRONICZNE NR 1 Z ODDZIAŁAMI DWUJĘZYCZNYMI",
+  "shortName": "Technikum nr 1",
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Sambora 48, 81-201 Gdynia",
+  "geo": {
+   "lat": 54.52666,
+   "lng": 18.4912
+  },
+  "url": "https://zschie.pl/",
+  "public": true,
+  "students": 755,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [
+   "Technik elektronik",
+   "Technik elektryk",
+   "Technik mechatronik",
+   "Technik informatyk",
+   "Technik programista"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 95.8,
+   "examinees": 120,
+   "certificates": 115,
+   "extended": {
+    "bio": {
+     "n": 2,
+     "mean": null
+    },
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 17,
+     "mean": 23.1
+    },
+    "geo": {
+     "n": 7,
+     "mean": 39.3
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "inf": {
+     "n": 32,
+     "mean": 34.2
+    },
+    "ang": {
+     "n": 110,
+     "mean": 74.9
+    },
+    "ang_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 8,
+     "mean": 4.8
+    },
+    "ros_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 88,
+     "mean": 19.7
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/11365",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 11768,
+  "type": "technikum",
+  "name": "TECHNIKUM GASTRONOMICZNE",
+  "shortName": null,
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Morska 77, 81-222 Gdynia",
+  "geo": {
+   "lat": 54.52499,
+   "lng": 18.51598
+  },
+  "url": "http://zshg.pl/",
+  "public": true,
+  "students": 346,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [
+   "Technik żywienia i usług gastronomicznych"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 55.3,
+   "examinees": 47,
+   "certificates": 26,
+   "extended": {
+    "bio": {
+     "n": 7,
+     "mean": 16
+    },
+    "geo": {
+     "n": 2,
+     "mean": null
+    },
+    "ang": {
+     "n": 28,
+     "mean": 53.4
+    },
+    "pol": {
+     "n": 4,
+     "mean": null
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/11768",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 23094,
+  "type": "technikum",
+  "name": "TECHNIKUM HANDLOWE",
+  "shortName": null,
+  "city": "Gdynia",
+  "district": null,
+  "address": "al. Zwycięstwa 194, 81-540 Gdynia",
+  "geo": {
+   "lat": 54.48249,
+   "lng": 18.5494
+  },
+  "url": "http://www.zsae.gdynia.pl/",
+  "public": true,
+  "students": 0,
+  "languages": [],
+  "specifics": [],
+  "professionsRspo": [
+   "Technik handlowiec"
+  ],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/23094",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 11767,
+  "type": "technikum",
+  "name": "TECHNIKUM HOTELARSKIE",
+  "shortName": null,
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Morska 77, 81-222 Gdynia",
+  "geo": {
+   "lat": 54.52499,
+   "lng": 18.51598
+  },
+  "url": "http://zshg.pl/",
+  "public": true,
+  "students": 401,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [
+   "Technik hotelarstwa",
+   "Technik organizacji turystyki"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 83,
+   "examinees": 47,
+   "certificates": 39,
+   "extended": {
+    "bio": {
+     "n": 5,
+     "mean": 19
+    },
+    "geo": {
+     "n": 16,
+     "mean": 24.8
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 36,
+     "mean": 64.3
+    },
+    "pol": {
+     "n": 7,
+     "mean": 24.1
+    },
+    "wlo": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 3,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/11767",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 11852,
+  "type": "technikum",
+  "name": "TECHNIKUM MECHANICZNE NR 1",
+  "shortName": "Technikum nr 1",
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Morska 79, 81-222 Gdynia",
+  "geo": {
+   "lat": 54.52505,
+   "lng": 18.514
+  },
+  "url": "https://ckziu1-gdynia.edupage.org/",
+  "public": true,
+  "students": 236,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik mechanik",
+   "Technik pojazdów samochodowych",
+   "Technik transportu drogowego"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 84.4,
+   "examinees": 32,
+   "certificates": 27,
+   "extended": {
+    "fiz": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 1,
+     "mean": null
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 19,
+     "mean": 62.1
+    },
+    "wlo": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 11,
+     "mean": 8.7
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/11852",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 12154,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 3",
+  "shortName": "Technikum nr 3",
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. płk. Stanisława Dąbka 207, 81-155 Gdynia",
+  "geo": {
+   "lat": 54.55619,
+   "lng": 18.5193
+  },
+  "url": "https://ckziu2-gdynia.edupage.org/",
+  "public": true,
+  "students": 284,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik handlowiec",
+   "Technik usług fryzjerskich",
+   "Technik przemysłu mody",
+   "Technik stylista"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 29.2,
+   "examinees": 24,
+   "certificates": 7,
+   "extended": {
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 2,
+     "mean": null
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 19,
+     "mean": 35.7
+    },
+    "pol": {
+     "n": 3,
+     "mean": null
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/12154",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 19685,
+  "type": "technikum",
+  "name": "TECHNIKUM TEB EDUKACJA W GDYNI",
+  "shortName": null,
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Armii Krajowej 30, 81-366 Gdynia",
+  "geo": {
+   "lat": 54.51756,
+   "lng": 18.5411
+  },
+  "url": "https://www.technikum.pl",
+  "public": false,
+  "students": 378,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik analityk",
+   "Technik elektryk",
+   "Technik informatyk",
+   "Technik weterynarii",
+   "Technik optyk",
+   "Technik ekonomista",
+   "Technik spedytor",
+   "Technik logistyk",
+   "Technik usług fryzjerskich",
+   "Technik przemysłu mody",
+   "Technik lotniskowych służb operacyjnych",
+   "Technik fotografii i multimediów",
+   "Technik grafiki i poligrafii cyfrowej",
+   "Technik organizacji turystyki",
+   "Technik reklamy",
+   "Technik programista",
+   "Technik robotyk",
+   "Technik agroogrodnictwa",
+   "Technik cyberbezpieczeństwa"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 69.5,
+   "examinees": 82,
+   "certificates": 57,
+   "extended": {
+    "bio": {
+     "n": 23,
+     "mean": 31
+    },
+    "chem": {
+     "n": 6,
+     "mean": 13.2
+    },
+    "fiz": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 3,
+     "mean": null
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "inf": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 65,
+     "mean": 63.4
+    },
+    "ang_dwj": {
+     "n": 2,
+     "mean": null
+    },
+    "pol": {
+     "n": 8,
+     "mean": 40
+    },
+    "mat": {
+     "n": 19,
+     "mean": 17.8
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/19685",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 4616,
+  "type": "technikum",
+  "name": "TECHNIKUM TRANSPORTOWE",
+  "shortName": null,
+  "city": "Gdynia",
+  "district": null,
+  "address": "ul. Morska 186, 81-225 Gdynia",
+  "geo": {
+   "lat": 54.53498,
+   "lng": 18.48293
+  },
+  "url": "http://www.zsetgdynia.pl/",
+  "public": true,
+  "students": 747,
+  "languages": [
+   "ang",
+   "niem",
+   "ros"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik transportu kolejowego",
+   "Technik automatyk sterowania ruchem kolejowym",
+   "Technik architektury krajobrazu",
+   "Technik spedytor",
+   "Technik logistyk",
+   "Technik urządzeń i systemów energetyki odnawialnej",
+   "Technik architektury krajobrazu i arborystyki"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 65.6,
+   "examinees": 122,
+   "certificates": 80,
+   "extended": {
+    "bio": {
+     "n": 9,
+     "mean": 21.4
+    },
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 16,
+     "mean": 29.6
+    },
+    "hsz": {
+     "n": 2,
+     "mean": null
+    },
+    "ang": {
+     "n": 82,
+     "mean": 60.5
+    },
+    "ang_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "hisz": {
+     "n": 1,
+     "mean": null
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 9,
+     "mean": 24.9
+    },
+    "ros": {
+     "n": 4,
+     "mean": null
+    },
+    "wlo": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 21,
+     "mean": 19.2
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/4616",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ }
+]

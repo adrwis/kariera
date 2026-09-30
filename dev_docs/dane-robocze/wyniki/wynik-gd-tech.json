@@ -1,0 +1,3406 @@
+[
+ {
+  "rspo": 9647,
+  "profiles": [
+   {
+    "name": "1abc [O] Technik informatyk (ang*-niem*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik informatyk",
+    "qualifications": [
+     "INF.02",
+     "INF.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang (gdy brak – najwyższa ocena z języka obcego)",
+     "fiz"
+    ],
+    "places": 84,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=506"
+   },
+   {
+    "name": "1d [O] Technik programista (ang*-niem*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik programista",
+    "qualifications": [
+     "INF.03",
+     "INF.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang (gdy brak – najwyższa ocena z języka obcego)",
+     "fiz"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=520"
+   },
+   {
+    "name": "1e [O] Technik automatyk (ang*-niem*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik automatyk",
+    "qualifications": [
+     "ELM.01",
+     "ELM.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang (gdy brak – najwyższa ocena z języka obcego)",
+     "fiz"
+    ],
+    "places": 56,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=529"
+   },
+   {
+    "name": "1f [O] Technik elektronik (ang*-niem*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik elektronik",
+    "qualifications": [
+     "ELM.02",
+     "ELM.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang (gdy brak – najwyższa ocena z języka obcego)",
+     "fiz"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=530"
+   },
+   {
+    "name": "1g [O] Technik robotyk (ang*-niem*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik robotyk",
+    "qualifications": [
+     "ELM.07",
+     "ELM.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang (gdy brak – najwyższa ocena z języka obcego)",
+     "fiz"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1382"
+   },
+   {
+    "name": "1h [O] Technik teleinformatyk (ang*-niem*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik teleinformatyk",
+    "qualifications": [
+     "INF.07",
+     "INF.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang (gdy brak – najwyższa ocena z języka obcego)",
+     "fiz"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=531"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1abc to jedna grupa rekrutacyjna na trzy oddziały (1a, 1b, 1c) technik informatyk, łącznie 84 miejsca; nie rozdzielałem na klasy.",
+   "W porównaniu z 2025/26 nie ma drugiej klasy teleinformatyków (1i); 1e technik automatyk ma 56 miejsc (dwa oddziały).",
+   "RSPO wymienia też zawód technik szerokopasmowej komunikacji elektronicznej, którego nie ma w ofercie 2026/27.",
+   "Progów 2026 (ani 2025) nie znalazłem: nabor-pomorze.edu.com.pl publikuje tylko liczbę miejsc i chętnych, a strona szkoły i edu.gdansk.pl (przewodnik 2026/27) nie podają punktów ostatniej przyjętej osoby.",
+   "Kwalifikacje wg załącznika nr 2 do rozporządzenia (t.j. Dz.U. 2024 poz. 611 ze zm. Dz.U. 2025 poz. 230, 771 i Dz.U. 2026 poz. 404), stan dla rocznika od 1.09.2026."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=55",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1382",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=506",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=520",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=529",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=530",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=531",
+   "https://promo.zsl.gda.pl/rekrutacja/regulamin",
+   "https://zsl.edu.gdansk.pl/pl/getfile/46553/90701/regulamin_rekrutacja_2026_2027.pdf",
+   "https://zsl.edu.gdansk.pl/pl/page/rekrutacja-2019-4",
+   "https://rspo.gov.pl/api/Institution/9647"
+  ]
+ },
+ {
+  "rspo": 11821,
+  "profiles": [
+   {
+    "name": "11FOT Technik fotografii i multimediów - patronat CANON",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik fotografii i multimediów",
+    "qualifications": [
+     "AUD.02",
+     "AUD.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=927"
+   },
+   {
+    "name": "11TIES Technik informatyk i ESPORT- patronat MSI",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik informatyk",
+    "qualifications": [
+     "INF.02",
+     "INF.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=922"
+   },
+   {
+    "name": "11TOR Technik reklamy - grafika i media społecznościowe",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik reklamy",
+    "qualifications": [
+     "PGF.07",
+     "PGF.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=934"
+   },
+   {
+    "name": "11TOT Technik organizacji turystyki - event manager",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik organizacji turystyki",
+    "qualifications": [
+     "HGT.07",
+     "HGT.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=909"
+   },
+   {
+    "name": "11TPSIntel Tech. programista spec.sztuczna inteligencja",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik programista",
+    "qualifications": [
+     "INF.03",
+     "INF.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2077"
+   },
+   {
+    "name": "11TW Technik weterynarii",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik weterynarii",
+    "qualifications": [
+     "ROL.11",
+     "ROL.12"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 25,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=931"
+   },
+   {
+    "name": "1TC Technik cyberbezpieczeństwa",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik cyberbezpieczeństwa",
+    "qualifications": [
+     "INF.11",
+     "INF.12"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000404",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4348"
+   },
+   {
+    "name": "1TE Technik elektryk",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik elektryk",
+    "qualifications": [
+     "ELE.02",
+     "ELE.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3903"
+   },
+   {
+    "name": "1TIC Technik informatyk - cyberbezpieczeństwo",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik informatyk",
+    "qualifications": [
+     "INF.02",
+     "INF.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3044"
+   },
+   {
+    "name": "1TL Technik logistyk",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik logistyk",
+    "qualifications": [
+     "SPL.01",
+     "SPL.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3873"
+   },
+   {
+    "name": "1TLSO Technik lotniskowych służb operacyjnych",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik lotniskowych służb operacyjnych",
+    "qualifications": [
+     "TLO.05",
+     "TLO.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000404",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3883"
+   },
+   {
+    "name": "1TPPG Technik programista - projektowanie gier",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik programista",
+    "qualifications": [
+     "INF.03",
+     "INF.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3039"
+   },
+   {
+    "name": "1TPSID Technik programista SI - dwujęzyczna Intel",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": "technik programista",
+    "qualifications": [
+     "INF.03",
+     "INF.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3049"
+   },
+   {
+    "name": "1TR Technik robotyk",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik robotyk",
+    "qualifications": [
+     "ELM.07",
+     "ELM.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3888"
+   },
+   {
+    "name": "1TS Technik stylista",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik stylista",
+    "qualifications": [
+     "MOD.03",
+     "MOD.15"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "plastyka"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3893"
+   },
+   {
+    "name": "1TUF Technik usług fryzjerskich",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik usług fryzjerskich",
+    "qualifications": [
+     "FRK.01",
+     "FRK.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3898"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Grupy 1TC (technik cyberbezpieczeństwa), 1TE (technik elektryk), 1TLSO (technik lotniskowych służb operacyjnych), 1TPSID (programista dwujęzyczny) i 1TR (technik robotyk) mają w systemie naboru 0 miejsc przy kilkudziesięciu chętnych; nie wiem, czy oddziały ruszyły. places=null.",
+   "1TPSID: typ szczególny „dwujęzyczny (drugi język: język angielski)” wg systemu naboru.",
+   "Technik lotniskowych służb operacyjnych: od 1.09.2026 kwalifikacje TLO.05 i TLO.06 (Dz.U. 2026 poz. 404), stara TLO.02 nie dotyczy tego rocznika. Technik cyberbezpieczeństwa: INF.11 i INF.12 (Dz.U. 2026 poz. 404).",
+   "Przedmioty punktowane i rozszerzenia wzięte z kart oddziałów w systemie nabor-pomorze (poprzednio były bez źródła). Regulamin w systemie odsyła do technikum.pl, którego nie sprawdzałem (serwis sieciowy TEB, strona szkoły).",
+   "RSPO wymienia też m.in. technik analityk, optyk, ekonomista, spedytor, przemysłu mody, agroogrodnictwa; nie ma ich w ofercie 2026/27.",
+   "Progów 2026 (ani 2025) nie znalazłem: nabor-pomorze.edu.com.pl publikuje tylko liczbę miejsc i chętnych, a strona szkoły i edu.gdansk.pl (przewodnik 2026/27) nie podają punktów ostatniej przyjętej osoby.",
+   "Kwalifikacje wg załącznika nr 2 do rozporządzenia (t.j. Dz.U. 2024 poz. 611 ze zm. Dz.U. 2025 poz. 230, 771 i Dz.U. 2026 poz. 404), stan dla rocznika od 1.09.2026."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=359",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2077",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3039",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3044",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3049",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3873",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3883",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3888",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3893",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3898",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3903",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4348",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=909",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=922",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=927",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=931",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=934",
+   "https://szkolasrednia.teb.pl/szkoly/d/technikum/gdansk/",
+   "https://rspo.gov.pl/api/Institution/11821"
+  ]
+ },
+ {
+  "rspo": 15302,
+  "profiles": [
+   {
+    "name": "1A t. analityk z elementami analizy farmaceut./kosmet",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "chem",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik analityk",
+    "qualifications": [
+     "CHM.03",
+     "CHM.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "chem",
+     "bio"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=452"
+   },
+   {
+    "name": "1B t. technol. chem. z technol. paliw/ śr. farmaceut",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "chem",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik technologii chemicznej",
+    "qualifications": [
+     "CHM.02",
+     "CHM.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "chem",
+     "inf"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=467"
+   },
+   {
+    "name": "1C technik technol. żywności z elementami dietetyki",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "chem",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik technologii żywności",
+    "qualifications": [
+     "SPC.01",
+     "SPC.07"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "chem",
+     "bio"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=470"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1C: technik technologii żywności ma kwalifikację pierwszą do wyboru (SPC.01–SPC.05); szkoła podaje SPC.01 + SPC.07.",
+   "Progów 2026 (ani 2025) nie znalazłem: nabor-pomorze.edu.com.pl publikuje tylko liczbę miejsc i chętnych, a strona szkoły i edu.gdansk.pl (przewodnik 2026/27) nie podają punktów ostatniej przyjętej osoby.",
+   "Kwalifikacje wg załącznika nr 2 do rozporządzenia (t.j. Dz.U. 2024 poz. 611 ze zm. Dz.U. 2025 poz. 230, 771 i Dz.U. 2026 poz. 404), stan dla rocznika od 1.09.2026."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=60",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=452",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=467",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=470",
+   "https://ckzu2.edu.gdansk.pl/pl/getfile/51431/91383/Rekrutacja%20%20%20regulamin%202026_2027.pdf",
+   "https://ckzu2.edu.gdansk.pl/pl/page/nabor-2024-2025",
+   "https://rspo.gov.pl/api/Institution/15302"
+  ]
+ },
+ {
+  "rspo": 15976,
+  "profiles": [
+   {
+    "name": "1a technik hotelarstwa (ang*-niem*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik hotelarstwa",
+    "qualifications": [
+     "HGT.03",
+     "HGT.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "inf"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3159"
+   },
+   {
+    "name": "1b technik hotelarstwa (ang*-fr*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik hotelarstwa",
+    "qualifications": [
+     "HGT.03",
+     "HGT.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "inf"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=428"
+   },
+   {
+    "name": "1c technik usług kelnerskich (ang*-niem*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik usług kelnerskich",
+    "qualifications": [
+     "HGT.01",
+     "HGT.11"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "inf"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3264"
+   },
+   {
+    "name": "1k technik żywienia i usług gastr. (ang*-fr*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik żywienia i usług gastronomicznych",
+    "qualifications": [
+     "HGT.02",
+     "HGT.12"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "inf"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=433"
+   },
+   {
+    "name": "1m technik żywienia i usług gastr. (ang*-niem*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik żywienia i usług gastronomicznych",
+    "qualifications": [
+     "HGT.02",
+     "HGT.12"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "inf"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=431"
+   },
+   {
+    "name": "1n technik żywienia i usług gastr. (ang*-hisz*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik żywienia i usług gastronomicznych",
+    "qualifications": [
+     "HGT.02",
+     "HGT.12"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "inf"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2575"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progów 2026 (ani 2025) nie znalazłem: nabor-pomorze.edu.com.pl publikuje tylko liczbę miejsc i chętnych, a strona szkoły i edu.gdansk.pl (przewodnik 2026/27) nie podają punktów ostatniej przyjętej osoby.",
+   "Kwalifikacje wg załącznika nr 2 do rozporządzenia (t.j. Dz.U. 2024 poz. 611 ze zm. Dz.U. 2025 poz. 230, 771 i Dz.U. 2026 poz. 404), stan dla rocznika od 1.09.2026."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=30",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2575",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3159",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3264",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=428",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=431",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=433",
+   "https://zsgh.edu.gdansk.pl/Content/pub/455/Rekrutacja%202026-2027/zsgh-regulamin_rekrutacji-2026-2027.pdf",
+   "https://zsgh.edu.gdansk.pl/pl/art/planowany-nabor-na-rok-szk-2026-27.98803.html",
+   "https://rspo.gov.pl/api/Institution/15976"
+  ]
+ },
+ {
+  "rspo": 16180,
+  "profiles": [
+   {
+    "name": "1ATS [O] Technik pojazdów samochodowych (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik pojazdów samochodowych",
+    "qualifications": [
+     "MOT.02",
+     "MOT.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "inf lub technika (wyższa ocena)"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=711"
+   },
+   {
+    "name": "1BTS [O] Technik pojazdów samochodowych (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik pojazdów samochodowych",
+    "qualifications": [
+     "MOT.05",
+     "MOT.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf lub technika (wyższa ocena)",
+     "fiz"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=708"
+   },
+   {
+    "name": "1CTS [O] Technik pojazdów samochodowych (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik pojazdów samochodowych",
+    "qualifications": [
+     "MOT.05",
+     "MOT.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "inf lub technika (wyższa ocena)"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3429"
+   },
+   {
+    "name": "1TM [O] Technik mechanik (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik mechanik",
+    "qualifications": [
+     "MEC.03",
+     "MEC.09"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20250000230",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "inf lub technika (wyższa ocena)"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=714"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Technik pojazdów samochodowych: 1ATS ma MOT.02 + MOT.06 (systemy mechatroniczne), 1BTS i 1CTS MOT.05 + MOT.06 – wg opisów oddziałów, zgodnie z wariantami „albo” w rozporządzeniu.",
+   "1CTS ma w systemie rozszerzony język angielski, 1ATS/1BTS/1TM matematykę.",
+   "Progów 2026 (ani 2025) nie znalazłem: nabor-pomorze.edu.com.pl publikuje tylko liczbę miejsc i chętnych, a strona szkoły i edu.gdansk.pl (przewodnik 2026/27) nie podają punktów ostatniej przyjętej osoby.",
+   "Kwalifikacje wg załącznika nr 2 do rozporządzenia (t.j. Dz.U. 2024 poz. 611 ze zm. Dz.U. 2025 poz. 230, 771 i Dz.U. 2026 poz. 404), stan dla rocznika od 1.09.2026."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=52",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3429",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=708",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=711",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=714",
+   "https://zss.edu.gdansk.pl/pl/getfile/3681/90675/rekrutacja%202026_regulamin.pdf",
+   "https://rspo.gov.pl/api/Institution/16180"
+  ]
+ },
+ {
+  "rspo": 17095,
+  "profiles": [
+   {
+    "name": "1E [O] Technik eksploatacji portów i terminali (ang-ros)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik eksploatacji portów i terminali",
+    "qualifications": [
+     "SPL.02",
+     "SPL.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "język obcy (najwyższa ocena)"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=329"
+   },
+   {
+    "name": "1H [O] Technik hotelarstwa (ang-fra*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik hotelarstwa",
+    "qualifications": [
+     "HGT.03",
+     "HGT.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "język obcy (najwyższa ocena)"
+    ],
+    "places": 13,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=324"
+   },
+   {
+    "name": "1L [O] Technik logistyk (ang-ros)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik logistyk",
+    "qualifications": [
+     "SPL.01",
+     "SPL.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "język obcy (najwyższa ocena)"
+    ],
+    "places": 39,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=325"
+   },
+   {
+    "name": "1M [O] Technik mechanik okrętowy (ang-niem*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik mechanik okrętowy",
+    "qualifications": [
+     "TWO.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "język obcy (najwyższa ocena)"
+    ],
+    "places": 13,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=320"
+   },
+   {
+    "name": "1N [O] Technik nawigator morski (ang-niem*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik nawigator morski",
+    "qualifications": [
+     "TWO.07"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "język obcy (najwyższa ocena)"
+    ],
+    "places": 39,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=321"
+   },
+   {
+    "name": "1S [O] Technik spedytor (ang-ros)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik spedytor",
+    "qualifications": [
+     "SPL.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "język obcy (najwyższa ocena)"
+    ],
+    "places": 13,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=326"
+   },
+   {
+    "name": "1Z [O] Technik żeglugi śródlądowej (ang-niem*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik żeglugi śródlądowej",
+    "qualifications": [
+     "TWO.08",
+     "TWO.09"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "język obcy (najwyższa ocena)"
+    ],
+    "places": 13,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=322"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Regulamin szkoły dzieli część oddziałów na półklasy: 1MZ (mechanik okrętowy 13 + żegluga śródlądowa 13), 1NL (logistyk 13 + nawigator 13), 1HS (hotelarz 13 + spedytor 13); system naboru prowadzi grupy per zawód (1N i 1L po 39 miejsc).",
+   "Opis oddziału 1S w systemie podaje kwalifikację „SPL.03. Organizacja transportu oraz obsługa klientów i kontrahentów”; w rozporządzeniu ta nazwa to SPL.05, wpisałem SPL.05.",
+   "Progów 2026 (ani 2025) nie znalazłem: nabor-pomorze.edu.com.pl publikuje tylko liczbę miejsc i chętnych, a strona szkoły i edu.gdansk.pl (przewodnik 2026/27) nie podają punktów ostatniej przyjętej osoby.",
+   "Kwalifikacje wg załącznika nr 2 do rozporządzenia (t.j. Dz.U. 2024 poz. 611 ze zm. Dz.U. 2025 poz. 230, 771 i Dz.U. 2026 poz. 404), stan dla rocznika od 1.09.2026."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=58",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=320",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=321",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=322",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=324",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=325",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=326",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=329",
+   "https://zsm.edu.gdansk.pl/pl/getfile/1496/90829/KOMUNIKATY%20REKRUTACYJNE-2026-2027.pdf",
+   "https://zsm.edu.gdansk.pl/pl/page/rekrutacja-2018-1-12",
+   "https://rspo.gov.pl/api/Institution/17095"
+  ]
+ },
+ {
+  "rspo": 17295,
+  "profiles": [
+   {
+    "name": "1D T. ochrony środ. z energią odnawialną/tech. wody",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "chem",
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik ochrony środowiska",
+    "qualifications": [
+     "CHM.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "chem",
+     "geo"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=471"
+   },
+   {
+    "name": "1G [O] Technik gospodarki odpadami (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "chem",
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik gospodarki odpadami",
+    "qualifications": [
+     "CHM.07",
+     "CHM.09"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "chem",
+     "geo"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2671"
+   },
+   {
+    "name": "1M T. inż. środ. i melioracji z geodezją/ techn. wody",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "chem",
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik inżynierii środowiska i melioracji",
+    "qualifications": [
+     "BUD.21",
+     "BUD.22"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "chem",
+     "geo"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=474"
+   },
+   {
+    "name": "1T Technik weterynarii",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik weterynarii",
+    "qualifications": [
+     "ROL.11",
+     "ROL.12"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3781"
+   },
+   {
+    "name": "1W Technik weterynarii",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik weterynarii",
+    "qualifications": [
+     "ROL.11",
+     "ROL.12"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=475"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1G technik gospodarki odpadami: regulamin szkoły planuje 26 miejsc, w systemie naboru 0 miejsc (21 chętnych) – prawdopodobnie oddział nie ruszył; places=null.",
+   "Są dwa oddziały technik weterynarii (1T i 1W), oba 26 miejsc.",
+   "Progów 2026 (ani 2025) nie znalazłem: nabor-pomorze.edu.com.pl publikuje tylko liczbę miejsc i chętnych, a strona szkoły i edu.gdansk.pl (przewodnik 2026/27) nie podają punktów ostatniej przyjętej osoby.",
+   "Kwalifikacje wg załącznika nr 2 do rozporządzenia (t.j. Dz.U. 2024 poz. 611 ze zm. Dz.U. 2025 poz. 230, 771 i Dz.U. 2026 poz. 404), stan dla rocznika od 1.09.2026."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=81",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2671",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3781",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=471",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=474",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=475",
+   "https://ckzu2.edu.gdansk.pl/pl/getfile/51431/91383/Rekrutacja%20%20%20regulamin%202026_2027.pdf",
+   "https://rspo.gov.pl/api/Institution/17295"
+  ]
+ },
+ {
+  "rspo": 19119,
+  "profiles": [
+   {
+    "name": "1AK [O] Technik architektury krajobrazu i arborystyki (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik architektury krajobrazu i arborystyki",
+    "qualifications": [
+     "OGR.10",
+     "OGR.13"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000404",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=170"
+   },
+   {
+    "name": "1AW [O] Technik aranżacji wnętrz (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik aranżacji wnętrz",
+    "qualifications": [
+     "BUD.34",
+     "BUD.35"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "ang"
+    ],
+    "places": 56,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2552"
+   },
+   {
+    "name": "1TR [O] Technik reklamy (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik reklamy",
+    "qualifications": [
+     "PGF.07",
+     "PGF.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=177"
+   },
+   {
+    "name": "1TT [O] Technik organizacji turystyki (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik organizacji turystyki",
+    "qualifications": [
+     "HGT.07",
+     "HGT.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=185"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Od 1.09.2026 nie rozpoczyna się kształcenia w zawodzie „technik architektury krajobrazu” (Dz.U. 2026 poz. 404 § 8); szkoła prowadzi nabór na nowy zawód „technik architektury krajobrazu i arborystyki” (OGR.10 + OGR.13).",
+   "Nowy w ofercie: 1AW technik aranżacji wnętrz (56 miejsc, BUD.34 + BUD.35).",
+   "Progów 2026 (ani 2025) nie znalazłem: nabor-pomorze.edu.com.pl publikuje tylko liczbę miejsc i chętnych, a strona szkoły i edu.gdansk.pl (przewodnik 2026/27) nie podają punktów ostatniej przyjętej osoby.",
+   "Kwalifikacje wg załącznika nr 2 do rozporządzenia (t.j. Dz.U. 2024 poz. 611 ze zm. Dz.U. 2025 poz. 230, 771 i Dz.U. 2026 poz. 404), stan dla rocznika od 1.09.2026."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=33",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=170",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=177",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=185",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2552",
+   "https://zsap.edu.gdansk.pl/pl/page/rekrutacja-3",
+   "https://rspo.gov.pl/api/Institution/19119"
+  ]
+ },
+ {
+  "rspo": 19174,
+  "profiles": [
+   {
+    "name": "1AE Technik Ekonomista (ang+niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik ekonomista",
+    "qualifications": [
+     "EKA.04",
+     "EKA.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "geo"
+    ],
+    "places": 30,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=692"
+   },
+   {
+    "name": "1AH Technik Handlowiec (ang+niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik handlowiec",
+    "qualifications": [
+     "HAN.01",
+     "HAN.02"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "geo"
+    ],
+    "places": 30,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=696"
+   },
+   {
+    "name": "1AR Technik Rachunkowości (ang+niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik rachunkowości",
+    "qualifications": [
+     "EKA.05",
+     "EKA.07"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "geo"
+    ],
+    "places": 30,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=695"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1AR technik rachunkowości: system naboru wymienia rozszerzenia matematyka i geografia, a regulamin szkoły tylko matematykę; wpisałem mat.",
+   "Progów 2026 (ani 2025) nie znalazłem: nabor-pomorze.edu.com.pl publikuje tylko liczbę miejsc i chętnych, a strona szkoły i edu.gdansk.pl (przewodnik 2026/27) nie podają punktów ostatniej przyjętej osoby.",
+   "Kwalifikacje wg załącznika nr 2 do rozporządzenia (t.j. Dz.U. 2024 poz. 611 ze zm. Dz.U. 2025 poz. 230, 771 i Dz.U. 2026 poz. 404), stan dla rocznika od 1.09.2026."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=25",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=692",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=695",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=696",
+   "https://seh.edu.gdansk.pl/pl/getfile/912/91404/NOWY__REGULAMIN%20REKRUTACJI_NA_ROK__2026-2027_PDF_NEW.pdf",
+   "https://rspo.gov.pl/api/Institution/19174"
+  ]
+ },
+ {
+  "rspo": 19648,
+  "profiles": [
+   {
+    "name": "1C technik elektronik ( sterowniki przemysłowe)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik elektronik",
+    "qualifications": [
+     "ELM.02",
+     "ELM.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "fiz"
+    ],
+    "places": 30,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=409"
+   },
+   {
+    "name": "1D technik elektryk (energia odnawialna)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik elektryk",
+    "qualifications": [
+     "ELE.02",
+     "ELE.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "fiz"
+    ],
+    "places": 45,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=412"
+   },
+   {
+    "name": "1E technik energetyk (energetyka jądrowa)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik energetyk",
+    "qualifications": [
+     "ELE.06",
+     "ELE.07"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "fiz"
+    ],
+    "places": 45,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=414"
+   },
+   {
+    "name": "1F technik informatyk ( cyber bezpieczeństwo)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik informatyk",
+    "qualifications": [
+     "INF.02",
+     "INF.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "inf"
+    ],
+    "places": 45,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=406"
+   },
+   {
+    "name": "1O technik urządzeń i systemów energetyki odnawialnej",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik urządzeń i systemów energetyki odnawialnej",
+    "qualifications": [
+     "ELE.10",
+     "ELE.11"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "fiz"
+    ],
+    "places": 30,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=416"
+   },
+   {
+    "name": "1P technik programista (techniki chmurowe/AI)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik programista",
+    "qualifications": [
+     "INF.03",
+     "INF.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "inf"
+    ],
+    "places": 45,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=418"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1O: system naboru podaje obowiązkowe rozszerzenia język angielski + matematyka, a opis tej samej grupy „Biologia i matematyka.”; wpisałem tylko mat.",
+   "1O: lista punktowanych w systemie i tabela w regulaminie podają fizykę, ale § 2 regulaminu przypisuje temu zawodowi biologię; wpisałem fiz (wg systemu).",
+   "Technik urządzeń i systemów energetyki odnawialnej: ELE.10 + ELE.11 (ELE.24 nie istnieje). Technik energetyk: ELE.06 + ELE.07.",
+   "Regulamin 2026/27 wymienia jeszcze oddział 1K/P (technik informatyk / technik programista), którego nie ma w systemie naboru; w stosunku do 2025/26 brak klas 1G i 1I.",
+   "Progów 2026 (ani 2025) nie znalazłem: nabor-pomorze.edu.com.pl publikuje tylko liczbę miejsc i chętnych, a strona szkoły i edu.gdansk.pl (przewodnik 2026/27) nie podają punktów ostatniej przyjętej osoby.",
+   "Kwalifikacje wg załącznika nr 2 do rozporządzenia (t.j. Dz.U. 2024 poz. 611 ze zm. Dz.U. 2025 poz. 230, 771 i Dz.U. 2026 poz. 404), stan dla rocznika od 1.09.2026."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=46",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=406",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=409",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=412",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=414",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=416",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=418",
+   "https://cms-panel.edu.gdansk.pl/Content/pub/458/Rekrutacja/rekrutacja-regulamin-2026.pdf",
+   "https://zse.edu.gdansk.pl/pl/page/rekrutacja-2018-1-8",
+   "https://rspo.gov.pl/api/Institution/19648"
+  ]
+ },
+ {
+  "rspo": 21236,
+  "profiles": [
+   {
+    "name": "1A Technik mechatronik - programowanie robotów",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik mechatronik",
+    "qualifications": [
+     "ELM.03",
+     "ELM.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "fiz"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=774"
+   },
+   {
+    "name": "1B Technik mechatronik",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik mechatronik",
+    "qualifications": [
+     "ELM.03",
+     "ELM.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "ang"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=780"
+   },
+   {
+    "name": "1C Technik mechatronik",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik mechatronik",
+    "qualifications": [
+     "ELM.03",
+     "ELM.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "ang"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3034"
+   },
+   {
+    "name": "1D Technik budowy jednostek pływających",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik budowy jednostek pływających",
+    "qualifications": [
+     "TWO.03",
+     "TWO.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "technika"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=781"
+   },
+   {
+    "name": "1E Technik elektryk-inst.przem.i na jedn.pływ.",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik elektryk",
+    "qualifications": [
+     "ELE.02",
+     "ELE.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "technika"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=785"
+   },
+   {
+    "name": "1G Technik urządzeń dźwigowych",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik urządzeń dźwigowych",
+    "qualifications": [
+     "ELE.08",
+     "ELE.09"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "technika"
+    ],
+    "places": 13,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=784"
+   },
+   {
+    "name": "1K Technik chłodnictwa i klimatyzacji",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik chłodnictwa i klimatyzacji",
+    "qualifications": [
+     "ELE.03",
+     "ELE.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "technika"
+    ],
+    "places": 13,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=788"
+   },
+   {
+    "name": "1LH Technik mechanik - program. i obsługa dronów",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik mechanik",
+    "qualifications": [
+     "MEC.03",
+     "MEC.09"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20250000230",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "technika"
+    ],
+    "places": 13,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2422"
+   },
+   {
+    "name": "1LL Technik mechanik - projektowanie 3 D",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik mechanik",
+    "qualifications": [
+     "MEC.08",
+     "MEC.09"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20250000230",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "technika"
+    ],
+    "places": 13,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=789"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Opisy oddziałów w systemie podają błędne kwalifikacje: 1E elektryk „ELE.02 + ELE.03”, 1G urządzeń dźwigowych „BUD.16 + BUD.17”, 1K chłodnictwa „ELE.06 + ELE.07”. Wpisałem wg rozporządzenia: ELE.02+ELE.05, ELE.08+ELE.09, ELE.03+ELE.04.",
+   "Technik mechanik: 1LH MEC.03 + MEC.09, 1LL MEC.08 + MEC.09 (wg opisów, zgodne z Dz.U. 2025 poz. 230).",
+   "RSPO wymienia też technik automatyk sterowania ruchem kolejowym, którego nie ma w ofercie 2026/27.",
+   "Progów 2026 (ani 2025) nie znalazłem: nabor-pomorze.edu.com.pl publikuje tylko liczbę miejsc i chętnych, a strona szkoły i edu.gdansk.pl (przewodnik 2026/27) nie podają punktów ostatniej przyjętej osoby.",
+   "Kwalifikacje wg załącznika nr 2 do rozporządzenia (t.j. Dz.U. 2024 poz. 611 ze zm. Dz.U. 2025 poz. 230, 771 i Dz.U. 2026 poz. 404), stan dla rocznika od 1.09.2026."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=71",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2422",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3034",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=774",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=780",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=781",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=784",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=785",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=788",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=789",
+   "https://conradinum.edu.gdansk.pl/pl/page/rekrutacja-13",
+   "https://rspo.gov.pl/api/Institution/21236"
+  ]
+ },
+ {
+  "rspo": 40819,
+  "profiles": [
+   {
+    "name": "1E technik stylista (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik stylista",
+    "qualifications": [
+     "MOD.03",
+     "MOD.15"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio/chem/fiz/geo (najwyższa ocena)",
+     "plastyka lub technika (wyższa ocena)"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=596"
+   },
+   {
+    "name": "1G [O] Technik usług fryzjerskich (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik usług fryzjerskich",
+    "qualifications": [
+     "FRK.01",
+     "FRK.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio/chem/fiz/geo (najwyższa ocena)",
+     "plastyka lub technika (wyższa ocena)"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=567"
+   },
+   {
+    "name": "1i [O] Technik przemysłu mody (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik przemysłu mody",
+    "qualifications": [
+     "MOD.03",
+     "MOD.11"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio/chem/fiz/geo (najwyższa ocena)",
+     "plastyka lub technika (wyższa ocena)"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=573"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1E technik stylista: system naboru podaje rozszerzony język angielski, a regulamin szkoły i opis oddziału chemię; wpisałem chem.",
+   "1E: opis oddziału podaje egzaminy MOD.03 i „FRK.01”, rozporządzenie dla technika stylisty przewiduje MOD.03 + MOD.15; wpisałem wg rozporządzenia.",
+   "Progów 2026 (ani 2025) nie znalazłem: nabor-pomorze.edu.com.pl publikuje tylko liczbę miejsc i chętnych, a strona szkoły i edu.gdansk.pl (przewodnik 2026/27) nie podają punktów ostatniej przyjętej osoby.",
+   "Kwalifikacje wg załącznika nr 2 do rozporządzenia (t.j. Dz.U. 2024 poz. 611 ze zm. Dz.U. 2025 poz. 230, 771 i Dz.U. 2026 poz. 404), stan dla rocznika od 1.09.2026."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=36",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=567",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=573",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=596",
+   "https://zskw.edu.gdansk.pl/pl/getfile/55893/92139/Regulamin%20rekrutacji%202026-2027_.pdf",
+   "https://rspo.gov.pl/api/Institution/40819"
+  ]
+ },
+ {
+  "rspo": 42893,
+  "profiles": [
+   {
+    "name": "1A [O] Technik budownictwa (ang-hisz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik budownictwa",
+    "qualifications": [
+     "BUD.12",
+     "BUD.14"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang lub hisz (wyższa ocena)",
+     "inf"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=869"
+   },
+   {
+    "name": "1B [O] Technik dekarstwa (ang-hisz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik dekarstwa",
+    "qualifications": [
+     "BUD.03",
+     "BUD.27"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang lub hisz (wyższa ocena)",
+     "inf"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1717"
+   },
+   {
+    "name": "1D [O] Technik inżynierii sanitarnej (ang-hisz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik inżynierii sanitarnej",
+    "qualifications": [
+     "BUD.09",
+     "BUD.20"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang lub hisz (wyższa ocena)",
+     "inf"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=879"
+   },
+   {
+    "name": "1E [O] Technik geodeta (ang-hisz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik geodeta",
+    "qualifications": [
+     "BUD.18",
+     "BUD.19"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang lub hisz (wyższa ocena)",
+     "inf"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=871"
+   },
+   {
+    "name": "1N [O] Technik gospodarki nieruchomościami (ang-hisz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik gospodarki nieruchomościami",
+    "qualifications": [
+     "EKA.09"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20250000771",
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang lub hisz (wyższa ocena)",
+     "inf"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4163"
+   },
+   {
+    "name": "1P [O] Technik technologii drewna (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik technologii drewna",
+    "qualifications": [
+     "DRM.04",
+     "DRM.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang lub niem (wyższa ocena)",
+     "inf"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=876"
+   },
+   {
+    "name": "1R [O] Technik renowacji elementów architektury (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik renowacji elementów architektury",
+    "qualifications": [
+     "BUD.23",
+     "BUD.24"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang lub niem (wyższa ocena)",
+     "inf"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=872"
+   },
+   {
+    "name": "1T [O] Technik budowy dróg (ang-hisz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik budowy dróg",
+    "qualifications": [
+     "BUD.13",
+     "BUD.15"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang lub hisz (wyższa ocena)",
+     "inf"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4148"
+   },
+   {
+    "name": "1W [O] Technik robót wykończeniowych w budownictwie (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik robót wykończeniowych w budownictwie",
+    "qualifications": [
+     "BUD.11",
+     "BUD.25"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang lub niem (wyższa ocena)",
+     "inf"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=881"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Nowy zawód w ofercie: 1N technik gospodarki nieruchomościami (EKA.09, Dz.U. 2025 poz. 771).",
+   "Technik budownictwa ma pierwszą kwalifikację do wyboru; szkoła podaje BUD.12 + BUD.14.",
+   "Progów 2026 (ani 2025) nie znalazłem: nabor-pomorze.edu.com.pl publikuje tylko liczbę miejsc i chętnych, a strona szkoły i edu.gdansk.pl (przewodnik 2026/27) nie podają punktów ostatniej przyjętej osoby.",
+   "Kwalifikacje wg załącznika nr 2 do rozporządzenia (t.j. Dz.U. 2024 poz. 611 ze zm. Dz.U. 2025 poz. 230, 771 i Dz.U. 2026 poz. 404), stan dla rocznika od 1.09.2026."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=73",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1717",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4148",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4163",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=869",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=871",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=872",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=876",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=879",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=881",
+   "https://psb.edu.gdansk.pl/pl/page/rekrutacja-2019-2020-1-64",
+   "https://rspo.gov.pl/api/Institution/42893"
+  ]
+ },
+ {
+  "rspo": 86228,
+  "profiles": [
+   {
+    "name": "1BT Technik grafiki i poligrafii cyfrowej",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik grafiki i poligrafii cyfrowej",
+    "qualifications": [
+     "PGF.04",
+     "PGF.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "chem lub inf (wyższa ocena)"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=655"
+   },
+   {
+    "name": "1CT Technik informatyk",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik informatyk",
+    "qualifications": [
+     "INF.02",
+     "INF.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "język obcy (najwyższa ocena)"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=658"
+   },
+   {
+    "name": "1DT Technik programista",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik programista",
+    "qualifications": [
+     "INF.03",
+     "INF.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "inf"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1437"
+   },
+   {
+    "name": "1ET Technik usług fryzjerskich",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik usług fryzjerskich",
+    "qualifications": [
+     "FRK.01",
+     "FRK.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "bio lub chem (wyższa ocena)"
+    ],
+    "places": 34,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1442"
+   },
+   {
+    "name": "1FT Technik fotografii i multimediów",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik fotografii i multimediów",
+    "qualifications": [
+     "AUD.02",
+     "AUD.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "język obcy (najwyższa ocena)",
+     "inf"
+    ],
+    "places": 34,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=659"
+   },
+   {
+    "name": "1GT Technik organizacji turystyki",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik organizacji turystyki",
+    "qualifications": [
+     "HGT.07",
+     "HGT.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "język obcy (najwyższa ocena)"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3404"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "RSPO wymienia też technik mechatronik, którego nie ma w ofercie 2026/27.",
+   "Progów 2026 (ani 2025) nie znalazłem: nabor-pomorze.edu.com.pl publikuje tylko liczbę miejsc i chętnych, a strona szkoły i edu.gdansk.pl (przewodnik 2026/27) nie podają punktów ostatniej przyjętej osoby.",
+   "Kwalifikacje wg załącznika nr 2 do rozporządzenia (t.j. Dz.U. 2024 poz. 611 ze zm. Dz.U. 2025 poz. 230, 771 i Dz.U. 2026 poz. 404), stan dla rocznika od 1.09.2026."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=77",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1437",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1442",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3404",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=655",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=658",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=659",
+   "https://psr.gda.pl/wp-content/uploads/2026/02/Regulamin-rekrutacji-2026_2027.pdf",
+   "https://psr.gda.pl/2026/07/15/rekrutacja-2026/",
+   "https://psr.gda.pl/2026/08/25/rekrutacja-2026-2/",
+   "https://rspo.gov.pl/api/Institution/86228"
+  ]
+ },
+ {
+  "rspo": 127924,
+  "profiles": [
+   {
+    "name": "1TC Technik grafiki i poligrafii cyfrowej [integracyjny cz. ogólnodostępna]",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik grafiki i poligrafii cyfrowej",
+    "qualifications": [
+     "PGF.04",
+     "PGF.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 15,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=763"
+   },
+   {
+    "name": "1TC-i [I-i] Technik grafiki i poligrafii cyfrowej (ang-niem) [integracyjny cz. dla kandydatów z orzeczeniem o potrzebie kształcenia specjalnego]",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik grafiki i poligrafii cyfrowej",
+    "qualifications": [
+     "PGF.04",
+     "PGF.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 5,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2526"
+   },
+   {
+    "name": "1TCF/Ci [I-i] Technik grafiki i poligrafii cyfrowej (ang-niem) [integracyjny cz. dla kandydatów z orzeczeniem o potrzebie kształcenia specjalnego]",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik grafiki i poligrafii cyfrowej",
+    "qualifications": [
+     "PGF.04",
+     "PGF.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 2,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4058"
+   },
+   {
+    "name": "1TCF/Co [I-o] Technik grafiki i poligrafii cyfrowej (ang-niem) [integracyjny cz. ogólnodostępna]",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik grafiki i poligrafii cyfrowej",
+    "qualifications": [
+     "PGF.04",
+     "PGF.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 8,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4053"
+   },
+   {
+    "name": "1TCF/Fi [I-i] Technik fotografii i multimediów (ang-niem) [integracyjny cz. dla kandydatów z orzeczeniem o potrzebie kształcenia specjalnego]",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik fotografii i multimediów",
+    "qualifications": [
+     "AUD.02",
+     "AUD.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 3,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4048"
+   },
+   {
+    "name": "1TCF/Fo [I-o] Technik fotografii i multimediów (ang-niem) [integracyjny cz. ogólnodostępna]",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik fotografii i multimediów",
+    "qualifications": [
+     "AUD.02",
+     "AUD.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 7,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4043"
+   },
+   {
+    "name": "1TF [I-o] Technik fotografii i multimediów (ang-niem*) [integracyjny cz. ogólnodostępna]",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik fotografii i multimediów",
+    "qualifications": [
+     "AUD.02",
+     "AUD.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 15,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2596"
+   },
+   {
+    "name": "1TF-i [I-i] Technik fotografii i multimediów (ang-niem*) [integracyjny cz. dla kandydatów z orzeczeniem o potrzebie kształcenia specjalnego]",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik fotografii i multimediów",
+    "qualifications": [
+     "AUD.02",
+     "AUD.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 5,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2593"
+   },
+   {
+    "name": "1TFG-F Technik fotografii i multimediów",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik fotografii i multimediów",
+    "qualifications": [
+     "AUD.02",
+     "AUD.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 13,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=768"
+   },
+   {
+    "name": "1TFG-G Technik grafiki i poligrafii cyfrowej z reklamą",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik grafiki i poligrafii cyfrowej",
+    "qualifications": [
+     "PGF.04",
+     "PGF.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 13,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1470"
+   },
+   {
+    "name": "1TG [O] Technik grafiki i poligrafii cyfrowej (ang-niem*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik grafiki i poligrafii cyfrowej",
+    "qualifications": [
+     "PGF.04",
+     "PGF.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3524"
+   },
+   {
+    "name": "1TS Technik spawalnictwa",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [
+     "fizyka konstrukcji spawanych"
+    ],
+    "profession": "technik spawalnictwa",
+    "qualifications": [
+     "MEC.03",
+     "MEC.10"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1471"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Część grup to oddziały integracyjne: [I-i] dla kandydatów z orzeczeniem o potrzebie kształcenia specjalnego, [I-o] część ogólnodostępna; typ dopisany w nazwie.",
+   "1TS: opis rozszerzeń wymienia „drugi przedmiot rozszerzony: fizyka konstrukcji spawanych” – wpisane w extendedOther.",
+   "Technik spawalnictwa ma pierwszą kwalifikację do wyboru; szkoła podaje MEC.03 + MEC.10.",
+   "RSPO wymienia też technik gazownictwa i technik procesów introligatorskich, których nie ma w ofercie 2026/27.",
+   "Progów 2026 (ani 2025) nie znalazłem: nabor-pomorze.edu.com.pl publikuje tylko liczbę miejsc i chętnych, a strona szkoły i edu.gdansk.pl (przewodnik 2026/27) nie podają punktów ostatniej przyjętej osoby.",
+   "Kwalifikacje wg załącznika nr 2 do rozporządzenia (t.j. Dz.U. 2024 poz. 611 ze zm. Dz.U. 2025 poz. 230, 771 i Dz.U. 2026 poz. 404), stan dla rocznika od 1.09.2026."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=293",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1470",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1471",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2526",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2593",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2596",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3524",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4043",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4048",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4053",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4058",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=763",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=768",
+   "https://ckzu1.edu.gdansk.pl/pl",
+   "https://rspo.gov.pl/api/Institution/127924"
+  ]
+ },
+ {
+  "rspo": 272465,
+  "profiles": [],
+  "admission": "Szkoła niepubliczna, poza systemem nabor-pomorze. Rekrutacja ciągła: zgłoszenie, rozmowa rekrutacyjna z kandydatem i rodzicami, rozmowa podsumowująca i umowa; opłata rekrutacyjna 250 zł, czesne 1890 zł/mies. (wg strony szkoły).",
+  "noOffer2026": true,
+  "doubts": [
+   "Strona szkoły opisuje tylko kierunek technik programista (INF.03, INF.04, praktyki w Sii), ale nie podaje roku szkolnego ani liczby miejsc; nie znalazłem oferty jawnie oznaczonej jako 2026/2027, więc profiles puste.",
+   "RSPO wymienia zawody technik programista i technik reklamy; technika reklamy strona szkoły nie oferuje.",
+   "Progów 2026 (ani 2025) nie znalazłem: nabor-pomorze.edu.com.pl publikuje tylko liczbę miejsc i chętnych, a strona szkoły i edu.gdansk.pl (przewodnik 2026/27) nie podają punktów ostatniej przyjętej osoby."
+  ],
+  "checkedUrls": [
+   "https://technikum.adegdansk.pl/",
+   "https://technikum.adegdansk.pl/rekrutacja/",
+   "https://technikum.adegdansk.pl/program/",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://rspo.gov.pl/api/Institution/272465"
+  ]
+ },
+ {
+  "rspo": 480106,
+  "profiles": [
+   {
+    "name": "1P [O] Technik programista (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol"
+    ],
+    "extendedChoice": [
+     [
+      "ang"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik programista",
+    "qualifications": [
+     "INF.03",
+     "INF.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2546"
+   },
+   {
+    "name": "1TI [O] Technik informatyk (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik informatyk",
+    "qualifications": [
+     "INF.02",
+     "INF.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4451"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Obie grupy mają w systemie naboru 0 miejsc (47–48 chętnych); places=null.",
+   "1P: system podaje obowiązkowe rozszerzenie „język polski” i jako „do wyboru” tylko język angielski – wpisane dosłownie, wygląda na błąd konfiguracji.",
+   "Strona cosinus.pl potwierdza nabór do technikum CosinusYoung 15+ na 2026/2027 (technik informatyk, technik programista).",
+   "Progów 2026 (ani 2025) nie znalazłem: nabor-pomorze.edu.com.pl publikuje tylko liczbę miejsc i chętnych, a strona szkoły i edu.gdansk.pl (przewodnik 2026/27) nie podają punktów ostatniej przyjętej osoby.",
+   "Kwalifikacje wg załącznika nr 2 do rozporządzenia (t.j. Dz.U. 2024 poz. 611 ze zm. Dz.U. 2025 poz. 230, 771 i Dz.U. 2026 poz. 404), stan dla rocznika od 1.09.2026."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=526",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2546",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4451",
+   "https://www.cosinus.pl/gdansk",
+   "https://www.cosinus.pl/gdansk/technik-programista",
+   "https://www.cosinus.pl/rekrutacja",
+   "https://rspo.gov.pl/api/Institution/480106"
+  ]
+ }
+]

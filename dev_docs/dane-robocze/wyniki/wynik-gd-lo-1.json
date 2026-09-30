@@ -1,0 +1,3868 @@
+[
+ {
+  "rspo": 6934,
+  "profiles": [
+   {
+    "name": "1a matematyczno-informatyczno-językowa",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "places": 30,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3109"
+   },
+   {
+    "name": "1b humanistyczna z edukacją filmową",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "wos"
+    ],
+    "places": 30,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3114"
+   },
+   {
+    "name": "1c psychologiczno-społeczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "bio"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "obcy (najwyższa ocena)"
+    ],
+    "places": 60,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=493"
+   },
+   {
+    "name": "1d geograficzno-matematyczna z turystyką regionu",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": 30,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=495"
+   },
+   {
+    "name": "1e europejska",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "wos",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": 30,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1982"
+   },
+   {
+    "name": "1f biologiczno-chemiczna z zajęciami laboratoryjnymi",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "chem",
+     "bio"
+    ],
+    "places": 30,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=496"
+   },
+   {
+    "name": "0h klasa wstępna do klasy dwujęzycznej z językiem hiszpańskim",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": "hisz",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "hisz",
+     "ang"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "obcy (najwyższa ocena)"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=497"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Nie znaleziono progów 2026 ani 2025 na stronie szkoły.",
+   "1c psychologiczno-społeczna ma w naborze 60 miejsc (prawdopodobnie dwa oddziały); wpisano liczbę z systemu.",
+   "0h (oddział wstępny, 32 miejsca, 18 h hiszpańskiego w klasie 0): przedmioty rozszerzone historia i geografia od klasy pierwszej; szkoła publikuje też zasady sprawdzianu predyspozycji językowych."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=79",
+   "https://lo15.edu.gdansk.pl/pl",
+   "https://lo15.edu.gdansk.pl/pl/page/rekrutacja-31",
+   "https://lo15.edu.gdansk.pl/pl/page/rekrutacja-31/rekrutacja-2021-2022",
+   "https://lo15.edu.gdansk.pl/Content/pub/452/rekrutacja%202026-27/regulamin-rekrutacji-2026-r.pdf",
+   "https://lo15.edu.gdansk.pl/pl/artc/aktualnosci.2.html"
+  ]
+ },
+ {
+  "rspo": 6954,
+  "profiles": [
+   {
+    "name": "1A ekonomiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=622"
+   },
+   {
+    "name": "1B artystyczna - grupa plastyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang",
+     "hsz"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 18,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=624"
+   },
+   {
+    "name": "1B artystyczna - grupa muzyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang",
+     "hmuz"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 10,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=627"
+   },
+   {
+    "name": "1C społeczno-prawna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "wos"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=630"
+   },
+   {
+    "name": "1D biomedyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=633"
+   },
+   {
+    "name": "1E interdyscyplinarna - grupa mat-fiz",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "ros",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "places": 13,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=636"
+   },
+   {
+    "name": "1E interdyscyplinarna - grupa mat-biol",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "ros",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 15,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2470"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Strona szkoły nie ma działu rekrutacji; oferta wyłącznie z systemu Nabór Pomorze. Progów 2026 nie znaleziono."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=21",
+   "https://lo19.edu.gdansk.pl/pl",
+   "https://lo19.edu.gdansk.pl/pl/artc/aktualnosci.2.html"
+  ]
+ },
+ {
+  "rspo": 6968,
+  "profiles": [
+   {
+    "name": "1A dwujęzyczna medyczna biol-chem",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 27,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=975"
+   },
+   {
+    "name": "1B-fiz dwujęzyczna politechniczna mat-fiz",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3604"
+   },
+   {
+    "name": "1B-inf dwujęzyczna politechniczna mat-inf",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "inf",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "ang"
+    ],
+    "places": 13,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2629"
+   },
+   {
+    "name": "1C-biol dwujęzyczna dwuprofilowa mat-biol",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2644"
+   },
+   {
+    "name": "1C-chem dwujęzyczna dwuprofilowa mat-chem",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "chem",
+     "ang"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=977"
+   },
+   {
+    "name": "1D-geo dwujęzyczna ekonomiczno-biznesowa mat-geo",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1246"
+   },
+   {
+    "name": "1D-biz dwujęzyczna ekonomiczno-biznesowa mat-biz",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [
+     "biznes i zarządzanie"
+    ],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": 13,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4073"
+   },
+   {
+    "name": "1MIF olimpijska fiz-inf-mat",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz",
+     "inf"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "inf"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3274"
+   },
+   {
+    "name": "1E fiz-inf-mat",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz",
+     "inf"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "inf"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4471"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progów 2026 nie znaleziono na stronie szkoły.",
+   "Język angielski w klasach dwujęzycznych wpisany jako rozszerzony, bo nabór podaje: 'język angielski na poziomie dwujęzycznym' w zakresie rozszerzonym."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=22",
+   "https://www.xxlo.pl/",
+   "https://www.xxlo.pl/liceum-2/informacje-dla-kandydatow/",
+   "https://www.xxlo.pl/liceum-2/profile-klas/",
+   "https://www.xxlo.pl/liceum/aktualnosci",
+   "https://www.xxlo.pl/assets/Uploads/Zasady-rekrutacji-w-roku-szkolnym-2026-2027.pdf"
+  ]
+ },
+ {
+  "rspo": 7051,
+  "profiles": [
+   {
+    "name": "1A biologiczno-chemiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 30,
+    "thresholds": [
+     {
+      "year": 2025,
+      "min": 168.4,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://www.vlo.gda.pl/2025/07/15/progi-zakwalifikowania-do-v-lo-w-gdansku-na-rok-szkolny-2025-26/"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=915"
+   },
+   {
+    "name": "1B matematyczno-fizyczno-informatyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz",
+     "inf"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang/niem"
+    ],
+    "places": 30,
+    "thresholds": [
+     {
+      "year": 2025,
+      "min": 171.85,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://www.vlo.gda.pl/2025/07/15/progi-zakwalifikowania-do-v-lo-w-gdansku-na-rok-szkolny-2025-26/"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=917"
+   },
+   {
+    "name": "1C matematyczno-biologiczna z językiem angielskim",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang/niem"
+    ],
+    "places": 30,
+    "thresholds": [
+     {
+      "year": 2025,
+      "min": 172.05,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://www.vlo.gda.pl/2025/07/15/progi-zakwalifikowania-do-v-lo-w-gdansku-na-rok-szkolny-2025-26/"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=918"
+   },
+   {
+    "name": "1D-fiz dwujęzyczna matematyczno-fizyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2025,
+      "min": 178.21,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://www.vlo.gda.pl/2025/07/15/progi-zakwalifikowania-do-v-lo-w-gdansku-na-rok-szkolny-2025-26/"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1747"
+   },
+   {
+    "name": "1D-geo dwujęzyczna matematyczno-geograficzna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2025,
+      "min": 175.9,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://www.vlo.gda.pl/2025/07/15/progi-zakwalifikowania-do-v-lo-w-gdansku-na-rok-szkolny-2025-26/"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=924"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progów 2026 nie opublikowano (brak wpisu po 21.07.2026); dodano progi 2025 z wpisu 'Progi zakwalifikowania do V LO ... 2025/26'.",
+   "PDF 'progi-do-V-LO.pdf' podaje D-fiz 2025 jako 178,2, wpis z 15.07.2025 jako 178,21; wpisano 178,21.",
+   "Klasy E z 2025 (pol-hist-ang, mat-geo-ang) nie występują w ofercie 2026/27.",
+   "Plik 'Rekrutacja-2026-27-regulamin.pdf' zawiera daty z 2025 r.; oferta wzięta z systemu Nabór Pomorze."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=12",
+   "https://www.vlo.gda.pl/",
+   "https://www.vlo.gda.pl/rekrutacja/",
+   "https://www.vlo.gda.pl/2026/07/01/praca-komisji-rekrutacyjnej-vlo/",
+   "https://www.vlo.gda.pl/wp-content/uploads/2026/03/progi-do-V-LO.pdf",
+   "https://www.vlo.gda.pl/2025/07/15/progi-zakwalifikowania-do-v-lo-w-gdansku-na-rok-szkolny-2025-26/",
+   "https://www.vlo.gda.pl/wp-json/wp/v2/posts?after=2026-07-01T00:00:00",
+   "https://www.vlo.gda.pl/wp-content/uploads/2026/06/Rekrutacja-2026-27-regulamin.pdf"
+  ]
+ },
+ {
+  "rspo": 7099,
+  "profiles": [
+   {
+    "name": "1A1 ekonomiczna dwujęzyczna (geografia-matematyka)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "mat"
+    ],
+    "extendedChoice": [
+     [
+      "fr",
+      "hisz",
+      "niem"
+     ]
+    ],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "geo"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 170.4,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://lo3.edu.gdansk.pl/pl/getfile/57672/92251/Progi%20punktowe%20rekrutacja%202026_27.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1353"
+   },
+   {
+    "name": "1A2 ekonomiczna dwujęzyczna (biznes i zarządzanie-matematyka)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [
+     [
+      "fr",
+      "hisz",
+      "niem"
+     ]
+    ],
+    "bilingual": "ang",
+    "extendedOther": [
+     "biznes i zarządzanie"
+    ],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "geo"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 166.95,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://lo3.edu.gdansk.pl/pl/getfile/57672/92251/Progi%20punktowe%20rekrutacja%202026_27.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3409"
+   },
+   {
+    "name": "1B1 medyczna dwujęzyczna (biologia-chemia)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "bio"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 177.32,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://lo3.edu.gdansk.pl/pl/getfile/57672/92251/Progi%20punktowe%20rekrutacja%202026_27.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=949"
+   },
+   {
+    "name": "1B2 medyczna dwujęzyczna (biologia-matematyka)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "bio"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 175.82,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://lo3.edu.gdansk.pl/pl/getfile/57672/92251/Progi%20punktowe%20rekrutacja%202026_27.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2614"
+   },
+   {
+    "name": "1C1 prawno-dyplomatyczna dwujęzyczna (historia-polski)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "pol"
+    ],
+    "extendedChoice": [
+     [
+      "fr",
+      "hisz",
+      "niem"
+     ]
+    ],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "hist"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 167.14,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://lo3.edu.gdansk.pl/pl/getfile/57672/92251/Progi%20punktowe%20rekrutacja%202026_27.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=952"
+   },
+   {
+    "name": "1C2 prawno-dyplomatyczna dwujęzyczna (geografia-polski)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "pol"
+    ],
+    "extendedChoice": [
+     [
+      "fr",
+      "hisz",
+      "niem"
+     ]
+    ],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "geo"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 161.29,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://lo3.edu.gdansk.pl/pl/getfile/57672/92251/Progi%20punktowe%20rekrutacja%202026_27.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2620"
+   },
+   {
+    "name": "1D1 politechniczna dwujęzyczna (fizyka-matematyka)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "fiz"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 172.66,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://lo3.edu.gdansk.pl/pl/getfile/57672/92251/Progi%20punktowe%20rekrutacja%202026_27.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=955"
+   },
+   {
+    "name": "1D2 politechniczna dwujęzyczna (informatyka-matematyka)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "inf"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 168.88,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://lo3.edu.gdansk.pl/pl/getfile/57672/92251/Progi%20punktowe%20rekrutacja%202026_27.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2626"
+   },
+   {
+    "name": "1IB-MYP oddział międzynarodowy",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol"
+    ],
+    "extendedChoice": [
+     [
+      "bio",
+      "chem",
+      "fiz",
+      "geo",
+      "hist",
+      "hsz",
+      "inf",
+      "mat"
+     ]
+    ],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "bio/geo/hist"
+    ],
+    "places": 56,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 174.9,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://lo3.edu.gdansk.pl/pl/getfile/57672/92251/Progi%20punktowe%20rekrutacja%202026_27.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=956"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progi 2026 z PDF 'Progi punktowe rekrutacja 2026_27' (etykieta: 'Najniższa liczba punktów z osiągnięć'); PDF nie mówi, czy to lista zakwalifikowanych czy przyjętych, więc kind = null.",
+   "Nabór nie wymienia angielskiego wśród obowiązkowych przedmiotów rozszerzonych (6 h tygodniowo); nie dopisano go do extended.",
+   "1IB-MYP: 56 miejsc; 'przedmioty rozszerzone do wyboru' to lista dla programu IB, liczba wybieranych przedmiotów nie jest podana."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=10",
+   "https://lo3.edu.gdansk.pl/pl",
+   "https://lo3.edu.gdansk.pl/pl/page/rekrutacja-27",
+   "https://lo3.edu.gdansk.pl/pl/page/rekrutacja-27/progi-punktowe-rekrutacja-2026-27",
+   "https://lo3.edu.gdansk.pl/pl/getfile/57672/92251/Progi%20punktowe%20rekrutacja%202026_27.pdf",
+   "https://lo3.edu.gdansk.pl/pl/artc/aktualnosci.2.html"
+  ]
+ },
+ {
+  "rspo": 7753,
+  "profiles": [
+   {
+    "name": "1a medialno-prawnicza",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol"
+    ],
+    "extendedChoice": [
+     [
+      "hist",
+      "wos"
+     ],
+     [
+      "ang",
+      "fr"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "hist"
+    ],
+    "places": 30,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=267"
+   },
+   {
+    "name": "1b akademicka (matematyczno-fizyczna)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "fiz"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=269"
+   },
+   {
+    "name": "1c politechniczna (matematyczno-fizyczna z informatyką lub chemią)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz"
+    ],
+    "extendedChoice": [
+     [
+      "chem",
+      "inf"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "places": 60,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=272"
+   },
+   {
+    "name": "1d ekonomiczna (matematyczno-geograficzna)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": 30,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=274"
+   },
+   {
+    "name": "1e medyczna (biologiczno-chemiczna)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 30,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=276"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progów 2026 nie znaleziono.",
+   "1a: nabór wymienia jako obowiązkowe historię i angielski, ale opis oddziału mówi: historia lub WOS (wybór od klasy II) oraz angielski lub francuski (wybór po przyjęciu); wpisano jako extendedChoice.",
+   "1d: WOS 'do wyboru od klasy II' (grupa międzyoddziałowa) jako dodatkowa opcja; nie wpisano do extended ani extendedChoice.",
+   "1c: 60 miejsc (dwa oddziały); chemia lub informatyka wybierana w klasie II."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=8",
+   "https://ilo.gda.pl/",
+   "https://ilo.gda.pl/rekrutacja/regulamin-rekrutacji-na-r-sz-2025-2026/",
+   "https://ilo.gda.pl/rekrutacja/profile/",
+   "https://ilo.gda.pl/wp-json/wp/v2/posts?after=2026-06-15T00:00:00",
+   "https://ilo.gda.pl/wp-json/wp/v2/pages?search=progi"
+  ]
+ },
+ {
+  "rspo": 7982,
+  "profiles": [
+   {
+    "name": "1A matematyczno-fizyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2405"
+   },
+   {
+    "name": "1B prawno-dyplomatyczna z historią",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=113"
+   },
+   {
+    "name": "1C matematyczno-biologiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3019"
+   },
+   {
+    "name": "1D biologiczno-chemiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=117"
+   },
+   {
+    "name": "1E medialno-lingwistyczna z wiedzą o społeczeństwie",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "wos"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=119"
+   },
+   {
+    "name": "1F matematyczno-geograficzna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=111"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Strona szkoły nie ma działu rekrutacji 2026/27; oferta z systemu Nabór Pomorze. Progów 2026 nie znaleziono."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=14",
+   "https://lo7.edu.gdansk.pl/pl",
+   "https://lo7.edu.gdansk.pl/pl/artc/aktualnosci.2.html"
+  ]
+ },
+ {
+  "rspo": 7983,
+  "profiles": [
+   {
+    "name": "1A sportowa - piłka nożna Lechia",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "mat",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 20,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=512"
+   },
+   {
+    "name": "1B biologiczno-chemiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=517"
+   },
+   {
+    "name": "1C matematyczno-geograficzna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2031"
+   },
+   {
+    "name": "1D humanistyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2674"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progów 2026 nie znaleziono.",
+   "1A sportowa: w naborze 'minimalna liczba punktów: obowiązuje' i testy sprawnościowe."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=26",
+   "https://lo21.edu.gdansk.pl/pl",
+   "https://lo21.edu.gdansk.pl/pl/page/rekrutacja-2024-2025-3",
+   "https://lo21.edu.gdansk.pl/pl/getfile/46888/90876/REGULAMIN%20REKRUTACJI.pdf",
+   "https://lo21.edu.gdansk.pl/pl/artc/aktualnosci.2.html"
+  ]
+ },
+ {
+  "rspo": 11174,
+  "profiles": [
+   {
+    "name": "IA grupa MG (matematyka-geografia)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo"
+    ],
+    "extendedChoice": [
+     [
+      "fiz",
+      "ang"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz/geo",
+     "ang"
+    ],
+    "places": 15,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=337"
+   },
+   {
+    "name": "IA grupa BCh (biologia-chemia)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [
+     [
+      "mat",
+      "fiz",
+      "ang"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio/chem"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=339"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progów 2026 nie znaleziono.",
+   "Regulamin 2026/27 podaje 'przedmioty rozszerzone do wyboru' bez liczby wybieranych przedmiotów."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=17",
+   "https://zso2.edu.gdansk.pl/pl",
+   "https://zso2.edu.gdansk.pl/pl/page/rekrutacja-17/xxiv-liceum-ogolnoksztalcace",
+   "https://zso2.edu.gdansk.pl/pl/getfile/9921/91205/Regulamin%20XXIV%20Liceum%20Og%C3%B3lnokszta%C5%82c%C4%85cego_2026_2027.pdf",
+   "https://zso2.edu.gdansk.pl/pl/artc/aktualnosci.2.html"
+  ]
+ },
+ {
+  "rspo": 11181,
+  "profiles": [
+   {
+    "name": "1A biznesowa",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": 28,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 164.95,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://zso1.edu.gdansk.pl/pl/art/progi-punktowe-2026.102686.html"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=838"
+   },
+   {
+    "name": "1B humanistyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 28,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 162.2,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://zso1.edu.gdansk.pl/pl/art/progi-punktowe-2026.102686.html"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=844"
+   },
+   {
+    "name": "1C gr.1 fizyczno-matematyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "inf"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 166.25,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://zso1.edu.gdansk.pl/pl/art/progi-punktowe-2026.102686.html"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3124"
+   },
+   {
+    "name": "1C gr.2 informatyczno-matematyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "inf"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "ang"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 163.55,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://zso1.edu.gdansk.pl/pl/art/progi-punktowe-2026.102686.html"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=846"
+   },
+   {
+    "name": "1D biotechnologiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "mat",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 28,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 170.1,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://zso1.edu.gdansk.pl/pl/art/progi-punktowe-2026.102686.html"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3783"
+   },
+   {
+    "name": "1E informatyka: multimedia i AI",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "inf",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "ang"
+    ],
+    "places": 28,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 161.7,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://zso1.edu.gdansk.pl/pl/art/progi-punktowe-2026.102686.html"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3788"
+   },
+   {
+    "name": "1F medyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 28,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 168.8,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://zso1.edu.gdansk.pl/pl/art/progi-punktowe-2026.102686.html"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3134"
+   },
+   {
+    "name": "1G językowa",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "hisz",
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 28,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 163.45,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://zso1.edu.gdansk.pl/pl/art/progi-punktowe-2026.102686.html"
+     }
+    ],
+    "sourceUrl": "https://zso1.edu.gdansk.pl/pl/page/rekrutacja-2025-26-1/g-jezykowa-jezyk-angielski-jezyk-hiszpanski-geografia"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progi 2026 z artykułu z 15.07.2026 (dzień list zakwalifikowanych, tekst gratuluje 'zakwalifikowanym'), stąd kind = 'zakwalifikowani'.",
+   "1G językowa: nabór nie podaje przedmiotów rozszerzonych; wpisano je ze strony szkoły (sourceUrl profilu), liczba miejsc i punktowane przedmioty z naboru."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=16",
+   "https://zso1.edu.gdansk.pl/pl",
+   "https://zso1.edu.gdansk.pl/pl/page/rekrutacja-2025-26-1",
+   "https://zso1.edu.gdansk.pl/pl/art/progi-punktowe-2026.102686.html",
+   "https://zso1.edu.gdansk.pl/Content/articles/foto/progi-punktowe-2026-708082.jpg",
+   "https://zso1.edu.gdansk.pl/pl/page/rekrutacja-2025-26-1/g-jezykowa-jezyk-angielski-jezyk-hiszpanski-geografia",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3794"
+  ]
+ },
+ {
+  "rspo": 11182,
+  "profiles": [
+   {
+    "name": "1a grupa 1 lingwistyczna z językiem angielskim i francuskim",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "fr",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "fr",
+     "ang"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=964"
+   },
+   {
+    "name": "1a grupa 2 lingwistyczna z językiem angielskim i niemieckim",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "niem",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "niem",
+     "ang"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=966"
+   },
+   {
+    "name": "1b matematyczno-geograficzna z językiem angielskim",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=968"
+   },
+   {
+    "name": "1c biologiczno-chemiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=970"
+   },
+   {
+    "name": "1d matematyczno-informatyczna z językiem angielskim",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "inf",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "ang"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1355"
+   },
+   {
+    "name": "1e matematyczno-fizyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=972"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progów 2026 nie znaleziono."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=15",
+   "https://lo8.gda.pl/",
+   "https://lo8.gda.pl/rekrutacja,90,pl",
+   "https://lo8.gda.pl/regulamin-rekrutacji-w-2026-roku,570,pl",
+   "https://lo8.gda.pl/files/570/regulamin-rekrutacji-2026-r.pdf"
+  ]
+ },
+ {
+  "rspo": 15300,
+  "profiles": [
+   {
+    "name": "1A humanistyczno-prawna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "hist"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2426"
+   },
+   {
+    "name": "1B matematyczno-geograficzna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2428"
+   },
+   {
+    "name": "1C psychologiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2563"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progów 2026 nie znaleziono. Podstrony klas na stronie szkoły nadal mają adresy '2025-26'; oferta z naboru 2026."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=20",
+   "https://lo14.edu.gdansk.pl/pl",
+   "https://lo14.edu.gdansk.pl/pl/page/rekrutacja-9",
+   "https://lo14.edu.gdansk.pl/pl/page/rekrutacja-9/dokumenty-terminy-i-regulaminy",
+   "https://lo14.edu.gdansk.pl/pl/getfile/51617/91291/REGULAMIN%20REKRUTACJI%20-%20XIV%20LO.doc",
+   "https://lo14.edu.gdansk.pl/pl/artc/aktualnosci.2.html"
+  ]
+ },
+ {
+  "rspo": 17601,
+  "profiles": [
+   {
+    "name": "1A humanistyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang",
+     "hist"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2665"
+   },
+   {
+    "name": "1Bii humanistyczna (oddział integracyjny, część ogólnodostępna)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang",
+     "hist"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "hist"
+    ],
+    "places": 15,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1624"
+   },
+   {
+    "name": "1Bi humanistyczna (oddział integracyjny, miejsca dla kandydatów z orzeczeniem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang",
+     "hist"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [],
+    "places": 5,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2662"
+   },
+   {
+    "name": "1Ci przyrodnicza (oddział integracyjny, część ogólnodostępna)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 15,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2656"
+   },
+   {
+    "name": "1iC przyrodnicza (oddział integracyjny, miejsca dla kandydatów z orzeczeniem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [],
+    "places": 5,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3579"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Strona ZSO nr 10 nie ma działu rekrutacji do LO; oferta z systemu Nabór Pomorze. Progów 2026 nie znaleziono.",
+   "Grupy dla kandydatów z orzeczeniem (1Bi, 1iC, po 5 miejsc) nie mają w naborze listy przedmiotów punktowanych."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=123",
+   "https://zso10.edu.gdansk.pl/pl",
+   "https://zso10.edu.gdansk.pl/pl/artc/aktualnosci.2.html"
+  ]
+ },
+ {
+  "rspo": 17730,
+  "profiles": [
+   {
+    "name": "1A sportowa (pływanie, judo, gimnastyka sportowa, piłka ręczna, piłka nożna kobiet)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "mat",
+      "pol"
+     ],
+     [
+      "geo",
+      "bio"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio/geo"
+    ],
+    "places": 25,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=944"
+   },
+   {
+    "name": "1B sportowa (lekkoatletyka, piłka nożna mężczyzn)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "mat",
+      "pol"
+     ],
+     [
+      "geo",
+      "bio"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio/geo"
+    ],
+    "places": 25,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=959"
+   },
+   {
+    "name": "1C sportowa (piłka ręczna mężczyzn)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "mat",
+      "pol"
+     ],
+     [
+      "geo",
+      "bio"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio/geo"
+    ],
+    "places": 50,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=961"
+   },
+   {
+    "name": "1M mistrzostwa sportowego (gimnastyka sportowa, judo, pływanie, lekka atletyka)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "mat",
+      "pol"
+     ],
+     [
+      "geo",
+      "bio"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio/geo"
+    ],
+    "places": 25,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1222"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progów 2026 nie znaleziono. Wszystkie oddziały mają w naborze 'minimalna liczba punktów: obowiązuje' (wymagania sportowe).",
+   "1C ma w naborze 50 miejsc."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=19",
+   "https://zssms.edu.gdansk.pl/pl",
+   "https://zssms.edu.gdansk.pl/pl/page/rekrutacja-2023-2024-3/rekrutacja-do-xii-sportowego-liceum-ogolnoksztalcacego-z-oddzialami-mistrzostwa-sportowego",
+   "https://zssms.edu.gdansk.pl/pl/getfile/42524/90304/Regulamin%20KLASA%20%20A%20B%20C%2020260216_11072076.pdf",
+   "https://zssms.edu.gdansk.pl/pl/getfile/42524/90305/Regulamin%20KLASA%20M20260216_11042174.pdf",
+   "https://zssms.edu.gdansk.pl/pl/artc/aktualnosci.2.html"
+  ]
+ },
+ {
+  "rspo": 18356,
+  "profiles": [
+   {
+    "name": "1A1 ratownictwa medycznego",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "bio"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=254"
+   },
+   {
+    "name": "1A2 celno-administracyjna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "bio"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=250"
+   },
+   {
+    "name": "1B1 policyjna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "pol",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "hist"
+    ],
+    "places": 15,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=247"
+   },
+   {
+    "name": "1B2 bezpieczeństwa infrastruktury krytycznej",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "pol",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "hist"
+    ],
+    "places": 13,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2554"
+   },
+   {
+    "name": "1C wojskowa",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "geo"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=253"
+   },
+   {
+    "name": "1D1 medialna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "wos",
+     "pol",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "wos"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=286"
+   },
+   {
+    "name": "1D2 mediacyjna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "wos",
+     "pol",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "wos"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=289"
+   },
+   {
+    "name": "1E1 mistrzostwa sportowego - piłka siatkowa chłopców",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "bio"
+    ],
+    "places": 10,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=257"
+   },
+   {
+    "name": "1E2 mistrzostwa sportowego - piłka siatkowa dziewcząt",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "bio"
+    ],
+    "places": 8,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3711"
+   },
+   {
+    "name": "1F1 Straży Granicznej",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [
+     "biznes i zarządzanie"
+    ],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "geo"
+    ],
+    "places": 15,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=246"
+   },
+   {
+    "name": "1F2 zarządzania komunikacją społeczną",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [
+     "biznes i zarządzanie"
+    ],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "obcy (najwyższa ocena)",
+     "geo"
+    ],
+    "places": 13,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3655"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progów 2026 nie znaleziono.",
+   "Zmiany względem 2025/26: 1B2 to bezpieczeństwo infrastruktury krytycznej (hist-pol-ang), klasa MS siatkówki ma matematykę zamiast biologii."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=11",
+   "https://lo4.edu.gdansk.pl/pl",
+   "https://lo4.edu.gdansk.pl/pl/page/rekrutacja-2026-27",
+   "https://lo4.edu.gdansk.pl/pl/page/rekrutacja-2026-27/oferta-edukacyjna",
+   "https://lo4.edu.gdansk.pl/pl/page/rekrutacja-2026-27/pliki-do-pobrania",
+   "https://lo4.edu.gdansk.pl/pl/getfile/53224/91722/regulamin%20rekrutacji%2026-27%20.pdf",
+   "https://lo4.edu.gdansk.pl/pl/artc/aktualnosci.2.html"
+  ]
+ },
+ {
+  "rspo": 18579,
+  "profiles": [
+   {
+    "name": "1A humanistyczno-prawna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "pol",
+      "wos"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "hist"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=719"
+   },
+   {
+    "name": "1B dziennikarsko-artystyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "geo",
+      "wos"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "wos",
+     "ang"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=755"
+   },
+   {
+    "name": "1C biologiczno-chemiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "chem",
+      "mat"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 56,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=721"
+   },
+   {
+    "name": "1D mistrzostwa sportowego (wioślarstwo, kajakarstwo)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 10,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=725"
+   },
+   {
+    "name": "1E ratownictwa wodnego",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 20,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3119"
+   },
+   {
+    "name": "1F lingwistyczno-psychologiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang",
+     "fr"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "fr/hisz/niem"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1985"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progów 2026 nie znaleziono.",
+   "1C biologiczno-chemiczna: 56 miejsc; trzeci przedmiot rozszerzony do wyboru: chemia lub matematyka."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=13",
+   "https://zso6.edu.gdansk.pl/pl",
+   "https://zso6.edu.gdansk.pl/pl/art/rekrutacja-lo.89583.html",
+   "https://zso6.edu.gdansk.pl/pl/getartfile/89583/31463/REGULAMIN%20REKRUTACJI%202026.pdf",
+   "https://zso6.edu.gdansk.pl/pl/page/vi-lo"
+  ]
+ },
+ {
+  "rspo": 43407,
+  "profiles": [
+   {
+    "name": "1a politechniczna (mat-fiz) lub ekonomiczna (mat-geo)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "fiz",
+      "geo"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz/geo/inf",
+     "ang/fr/hisz/niem/ros"
+    ],
+    "places": 10,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=761"
+   },
+   {
+    "name": "1b humanistyczna (historia + polski lub WOS)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "pol",
+      "wos"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio/chem",
+     "obcy (najwyższa ocena)"
+    ],
+    "places": 8,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=799"
+   },
+   {
+    "name": "1c medyczna (biologia-chemia)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist/wos",
+     "ang/obcy"
+    ],
+    "places": 8,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=809"
+   },
+   {
+    "name": "1d społeczno-ekonomiczna (geografia-WOS)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "wos",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "wos"
+    ],
+    "places": 5,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2241"
+   },
+   {
+    "name": "1e biologiczno-humanistyczna (biologia-polski)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "pol",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 6,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4178"
+   }
+  ],
+  "admission": "Dwa etapy: I etap to rozmowa kwalifikacyjna (14.05-19.06.2026) i punkty za świadectwo klasy VII (wyróżnienie 2 pkt, polski i matematyka po 5 pkt, 2 wybrane przedmioty do 10 pkt). II etap: wniosek w systemie Nabór Pomorze ze szkołą na pierwszym miejscu. Opłata wpisowa po liście zakwalifikowanych.",
+  "noOffer2026": false,
+  "doubts": [
+   "Angielski dopisany do extended na podstawie strony 'Oferta edukacyjna 2026/2027': wszyscy uczniowie realizują rozszerzony program angielskiego (5 h); nabór go nie wymienia.",
+   "Przedmioty punktowane w naborze wyglądają na zamienione między 1b (max(biol,chem)) i 1c (max(hist,wos)); wpisano je tak, jak podaje nabór.",
+   "Progów nie publikuje (szkoła niepubliczna, dwuetapowa rekrutacja)."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=366",
+   "https://www.akademickieliceum.eu/",
+   "https://www.akademickieliceum.eu/oferta/oferta-edukacyjna-2/",
+   "https://www.akademickieliceum.eu/oferta/rekrutacja/",
+   "https://www.akademickieliceum.eu/wp-json/wp/v2/posts?after=2026-06-15T00:00:00"
+  ]
+ },
+ {
+  "rspo": 43409,
+  "profiles": [],
+  "admission": "Według strony 'Zasady rekrutacji' (bez daty, zmieniana 2024): jedynym etapem jest rozmowa z kandydatem i rodzicami; wyniki egzaminu i świadectwo nie wpływają na przyjęcie; potwierdzenie przez wpłatę wpisowego.",
+  "noOffer2026": true,
+  "doubts": [
+   "Brak oferty z oznaczeniem 2026/2027: strona 'Zasady rekrutacji' ostatnio zmieniana w 2024 r., podstrony klas (filmowo-aktorska, wokalna) bez przedmiotów rozszerzonych i bez dat. Szkoły nie ma w systemie Nabór Pomorze.",
+   "Na stronie są podręczniki na rok 2026/2027 dla klas 1-4, co potwierdza, że szkoła działa, ale nie opisuje klas."
+  ],
+  "checkedUrls": [
+   "https://cg.gda.pl/",
+   "https://cg.gda.pl/rekrutacja/",
+   "https://cg.gda.pl/rekrutacja-old/klasa-filmowo-aktorska/",
+   "https://cg.gda.pl/klasa-wokalna/",
+   "https://cg.gda.pl/wp-json/wp/v2/pages?search=progi",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml"
+  ]
+ },
+ {
+  "rspo": 57154,
+  "profiles": [
+   {
+    "name": "klasa psychologiczna (psychologiczno-arteterapeutyczna)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "pol",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://magellanum.edu.pl/"
+   },
+   {
+    "name": "klasa wizażu i stylizacji",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "hist",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://magellanum.edu.pl/"
+   },
+   {
+    "name": "klasa menadżerska",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [
+     "biznes i zarządzanie"
+    ],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://magellanum.edu.pl/"
+   },
+   {
+    "name": "klasa medialno-dziennikarska (e-dziennikarska)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://magellanum.edu.pl/"
+   },
+   {
+    "name": "klasa turystyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "hist",
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://magellanum.edu.pl/"
+   },
+   {
+    "name": "klasa gamingowa",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "inf",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://magellanum.edu.pl/"
+   }
+  ],
+  "admission": "Bez punktów: rozmowa z kandydatem i rodzicami, zwiedzanie szkoły, decyzja obu stron; rekrutacja otwarta cały rok. Szkoła prywatna (czesne, zniżki za wyniki i dla uczniów z orzeczeniem PPP).",
+  "noOffer2026": false,
+  "doubts": [
+   "Oferta z sekcji 'Rekrutacja do liceum ogólnokształcącego w Gdańsku 2026/27' na stronie głównej; brak liczby miejsc (klasy zwykle 8-osobowe). Języki: podany tylko angielski (rozszerzony we wszystkich klasach); drugiego języka strona nie wymienia.",
+   "Menadżerska: 'BIZ' zinterpretowano jako biznes i zarządzanie."
+  ],
+  "checkedUrls": [
+   "https://magellanum.edu.pl/",
+   "https://magellanum.edu.pl/klasa-psychologiczna",
+   "https://magellanum.edu.pl/klasa-turystyczna"
+  ]
+ },
+ {
+  "rspo": 74772,
+  "profiles": [
+   {
+    "name": "1A politechniczna (mat-fiz-ang)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "norw"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "places": 28,
+    "thresholds": [
+     {
+      "year": 2025,
+      "min": 168.75,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://cms-panel.edu.gdansk.pl/Content/pub/448/regulamin-rekrutacji.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=683"
+   },
+   {
+    "name": "1Bh humanistyczna - grupa pol/ang/hist",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang",
+     "hist"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=686"
+   },
+   {
+    "name": "1Bw humanistyczna - grupa pol/ang/wos",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4208"
+   },
+   {
+    "name": "1C medyczna (biol-chem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "wlo",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 28,
+    "thresholds": [
+     {
+      "year": 2025,
+      "min": 168.55,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://cms-panel.edu.gdansk.pl/Content/pub/448/regulamin-rekrutacji.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=689"
+   },
+   {
+    "name": "1D przyrodnicza (mat-biol-ang)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "mat",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "wlo"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 56,
+    "thresholds": [
+     {
+      "year": 2025,
+      "min": 172.6,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://cms-panel.edu.gdansk.pl/Content/pub/448/regulamin-rekrutacji.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3104"
+   },
+   {
+    "name": "1E menedżerska (mat-geo-ang)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "wlo"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": 28,
+    "thresholds": [
+     {
+      "year": 2025,
+      "min": 167.45,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://cms-panel.edu.gdansk.pl/Content/pub/448/regulamin-rekrutacji.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=690"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progów 2026 nie znaleziono. Progi 2025 z tabeli w regulaminie rekrutacji 2026/2027 (kolumna 'Progi punktowe, rekrutacja 2025/2026').",
+   "1B humanistyczna: próg 2025 = 154,75 pkt, ale w 2025 był to profil pol-hist-wos, a w 2026 są dwie grupy (pol-ang-hist, pol-ang-wos); progu nie przypisano.",
+   "1D przyrodnicza ma w naborze 56 miejsc (dwa oddziały)."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=9",
+   "https://lo2.edu.gdansk.pl/pl",
+   "https://lo2.edu.gdansk.pl/pl/page/rekrutacja-20",
+   "https://lo2.edu.gdansk.pl/pl/page/rekrutacja-20/informacje-i-dokumenty-do-pobrania",
+   "https://cms-panel.edu.gdansk.pl/Content/pub/448/regulamin-rekrutacji.pdf",
+   "https://lo2.edu.gdansk.pl/pl/artc/aktualnosci.2.html"
+  ]
+ }
+]
