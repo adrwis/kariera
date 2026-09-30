@@ -43,7 +43,7 @@ function cleanProfile(p) {
 }
 
 // Poprawki po raportach agentów (zasada: tylko dane pewne)
-const CLEAR_EXTENDED = new Set([478575]);          // TEB Warszawa: rozszerzenia z niedatowanych stron klas
+const CLEAR_EXTENDED = new Set([478575, 79804]);  // TEB i ALO przy PJATK: rozszerzenia z niedatowanych podstron klas
 const DROP_PROFILES = new Set([485988]);           // InnEdu: „ścieżki” edukacji domowej, nie oddziały
 
 const index = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/szkoly/index.json'), 'utf8'));

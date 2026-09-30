@@ -674,6 +674,7 @@ const Szkoly = (function () {
     const { required, recommended } = careerMaturaGroups(career);
     const lo = required.length
       ? d.schools.filter(s => s.type === 'liceum').map(s => ({ s, ps: (s.profiles || []).filter(p => profileCovers(p, required)) })).filter(x => x.ps.length)
+        .sort((a, b) => (romanValue(a.s.shortName) - romanValue(b.s.shortName)) || (a.s.shortName || a.s.name).localeCompare(b.s.shortName || b.s.name, 'pl'))
       : [];
     const citySwitch = `
       <p class="career-secondary__cities">Miasto:

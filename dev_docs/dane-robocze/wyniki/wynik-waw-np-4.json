@@ -598,5 +598,43 @@
    "http://web.archive.org/cdx/search/cdx?url=szkolahermes.edu.pl*"
   ],
   "rspo": 90980
+ },
+ {
+  "shortName": "Prywatne Technikum Weterynarii nr 1 im. Simony Kossak (Szkoła ze Zwierzętami)",
+  "url": "https://www.szkolazezwierzetami.edu.pl/technikum/",
+  "profiles": [
+   {
+    "name": "technik weterynarii",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik weterynarii",
+    "qualifications": [
+     "ROL.11",
+     "ROL.12"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.szkolazezwierzetami.edu.pl/rekrutacja-na-rok-szkolny-2026-2027/"
+   }
+  ],
+  "admission": "Bez punktacji w skali 200. Rekrutacja do klasy I na 2026/2027: obowiązkowe spotkanie rekrutacyjne z rodzicem (rozmowa z dyrektorem o tematyce weterynaryjnej, rozmowa z pedagog specjalną, ankieta rodzica o funkcjonowaniu dziecka w szkole); kandydat przynosi oceny z I semestru kl. VIII i kopię świadectwa kl. VII; dni otwarte 11.03 i 15.04.2026. Źródło: https://www.szkolazezwierzetami.edu.pl/rekrutacja-na-rok-szkolny-2026-2027/",
+  "noOffer2026": false,
+  "doubts": [
+   "Datowane ogłoszenie o rekrutacji 2026/2027 dotyczy „klasy I” bez nazwy zawodu; szkoła kształci wyłącznie w zawodzie technik weterynarii (https://www.szkolazezwierzetami.edu.pl/technikum/, RSPO), stąd profil. Liczby miejsc nie podano.",
+   "Adres z RSPO www.pckz.edu.pl przekierowuje na https://www.szkolazezwierzetami.edu.pl/."
+  ],
+  "checkedUrls": [
+   "https://www.pckz.edu.pl",
+   "https://www.szkolazezwierzetami.edu.pl/technikum/",
+   "https://www.szkolazezwierzetami.edu.pl/rekrutacje/",
+   "https://www.szkolazezwierzetami.edu.pl/rekrutacja-na-rok-szkolny-2026-2027/"
+  ],
+  "rspo": 27487
  }
 ]
