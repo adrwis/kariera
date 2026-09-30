@@ -6,7 +6,14 @@ const ROOT = path.resolve(__dirname, '../..');
 const W = path.join(__dirname, 'wyniki');
 const DATA = path.join(ROOT, 'data/careers.json');
 const isUrl = u => typeof u === 'string' && /^https?:\/\/\S+$/.test(u);
-const SKIP = [['pracownik-ochrony', /./]]; // UG Bezpieczeństwo narodowe, AMW Bezpieczeństwo wewnętrzne: dopasowanie na granicy
+const SKIP = [
+  ['pracownik-ochrony', /./],           // UG Bezpieczeństwo narodowe, AMW Bezpieczeństwo wewnętrzne: dopasowanie na granicy
+  ['psycholog', /^GUMed/],              // psychologia zdrowia nie daje uprawnień psychologa
+  ['psychoterapeuta', /^GUMed/],
+  ['projektant-ux', /^ASP/],            // grafika i wzornictwo: dopasowanie nieoczywiste
+];
+// Tryb, w którym limit miejsc nie został wypełniony: najniższy wynik nie jest progiem
+const DROP_MODE = [[/^ASP/, 'architekt-wnetrz', 'niestacjonarne']];
 
 const entries = [1, 2].map(n => path.join(W, `wynik-tri-uczelnie-${n}.json`)).filter(fs.existsSync)
   .flatMap(f => JSON.parse(fs.readFileSync(f, 'utf8')));
@@ -25,7 +32,8 @@ for (const e of entries) {
       if (m.tuitionYear) out.tuitionYear = m.tuitionYear;
       if (m.tuitionNote) out.tuitionNote = m.tuitionNote;
     }
-    out.thresholds = (m.thresholds || [])
+    const dropMode = DROP_MODE.some(([re, career, type]) => re.test(e.name) && e.career === career && m.type === type);
+    out.thresholds = (dropMode ? [] : m.thresholds || [])
       .filter(t => typeof t.points === 'number' && isUrl(t.sourceUrl) && (t.scaleMax || t.scaleFormula))
       .map(t => {
         const o = { year: t.year, points: t.points };

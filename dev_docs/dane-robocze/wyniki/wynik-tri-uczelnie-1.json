@@ -1,0 +1,3486 @@
+[
+ {
+  "career": "psycholog",
+  "name": "UG, Wydział Nauk Społecznych",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/psychologia/",
+  "program": "Psychologia (jednolite magisterskie)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Dwa przedmioty spośród: biologia, chemia, język obcy, filozofia, fizyka, geografia, historia, matematyka, WOS (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,3"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,3"
+   },
+   {
+    "anyOf": [
+     "bio",
+     "chem",
+     "obcy",
+     "fil",
+     "fiz",
+     "geo",
+     "hist",
+     "mat",
+     "wos"
+    ],
+    "level": "P lub R",
+    "note": "dwa przedmioty do wyboru (także psychologia; obcy = drugi język), waga 0,2 każdy"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/psychologia/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 112.15,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 114.0,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 111.6,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "psycholog",
+  "name": "GUMed, Wydział Nauk o Zdrowiu",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.gumed.edu.pl/29820.html",
+  "program": "Psychologia zdrowia (jednolite magisterskie)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Dwa przedmioty spośród: język obcy, biologia, chemia, filozofia, fizyka, geografia, historia, matematyka (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "R: 1% = 1 pkt, P: 1% = 0,6 pkt"
+   },
+   {
+    "anyOf": [
+     "obcy",
+     "bio",
+     "chem",
+     "fil",
+     "fiz",
+     "geo",
+     "hist",
+     "mat"
+    ],
+    "level": "P lub R",
+    "note": "dwa do wyboru, najwyżej jeden język obcy; R: 1% = 1 pkt, P: 1% = 0,6 pkt"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.gumed.edu.pl/attachment/attachment/116537/zal_nr_1_do_u9026_tj_Uchwaly_rekrutacyjnej.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 239.2,
+      "scaleMax": 300,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/77191.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2024,
+      "points": 206,
+      "scaleMax": 300,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/83198.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2025,
+      "points": 221.8,
+      "scaleMax": 300,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/86924.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2026,
+      "points": 221,
+      "scaleMax": 300,
+      "sourceUrl": "https://rekrutacja2026.gumed.edu.pl/wyniki/266",
+      "round": "I nabór, lista przyjętych wg stanu na 02.09.2026 (najniższa suma punktów na liście)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "nauczyciel",
+  "name": "AWFiS w Gdańsku",
+  "city": "Gdańsk",
+  "url": "https://awf.gda.pl/ksztalcenie/wychowanie-fizyczne-jsm/",
+  "program": "Wychowanie fizyczne (jednolite magisterskie, profil praktyczny)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Dowolny przedmiot wybrany przez kandydata (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "maks. 24 pkt (R) / 18 pkt (P)"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "maks. 24 pkt (R) / 18 pkt (P)"
+   },
+   {
+    "anyOf": [
+     "mat",
+     "obcy",
+     "bio",
+     "chem",
+     "fiz",
+     "inf",
+     "geo",
+     "hist",
+     "wos",
+     "hsz",
+     "fil",
+     "lac"
+    ],
+    "level": "P lub R",
+    "note": "przedmiot wybrany przez kandydata"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://awf.gda.pl/wp-content/uploads/2026/04/U-21-2026-uchwala-rekrutacyjna-na-studia-w-jez.-polskim-na-rok-2026.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2026,
+      "points": 18.0,
+      "scaleFormula": "3 przedmioty przeliczane tabelami AWFiS: P maks. 18 pkt, R maks. 24 pkt za przedmiot; konkurs świadectw maks. 72 pkt, do 5 pkt za j. obcy dwujęzyczny/IB/EB",
+      "sourceUrl": "https://awf.gda.pl/wp-content/uploads/2026/07/lista_rankingowa_przyjetych_ID_WF_29072026.pdf",
+      "round": "rekrutacja podstawowa, lista przyjętych z 29.07.2026"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "prawnik",
+  "name": "UG, Wydział Prawa i Administracji",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/prawo-2/",
+  "program": "Prawo (jednolite magisterskie)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Historia, WOS, matematyka, geografia lub język łaciński (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,35"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,35"
+   },
+   {
+    "anyOf": [
+     "hist",
+     "wos",
+     "mat",
+     "geo",
+     "lac"
+    ],
+    "level": "P lub R",
+    "note": "jeden do wyboru, waga 0,3"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/prawo-2/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 111.25,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 114.61,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 113.63,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "tuition": "8460 PLN/rok (6 rat po 1410 PLN)",
+    "tuitionSource": "https://bip.ug.edu.pl/sites/default/files/nodes/akty_normatywne/120364/files/zalacznik_nr_1.pdf",
+    "tuitionYear": "2026/2027",
+    "thresholds": []
+   }
+  ]
+ },
+ {
+  "career": "pielegniarka",
+  "name": "GUMed, Wydział Nauk o Zdrowiu",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.gumed.edu.pl/1258.html",
+  "program": "Pielęgniarstwo (I stopnia)",
+  "requirements": [
+   "Biologia (P lub R)",
+   "Chemia, fizyka lub matematyka (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "bio"
+    ],
+    "level": "P lub R",
+    "note": "R: 1% = 1 pkt, P: 1% = 0,6 pkt"
+   },
+   {
+    "anyOf": [
+     "chem",
+     "fiz",
+     "mat"
+    ],
+    "level": "P lub R",
+    "note": "jeden do wyboru; R: 1% = 1 pkt, P: 1% = 0,6 pkt"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.gumed.edu.pl/attachment/attachment/116537/zal_nr_1_do_u9026_tj_Uchwaly_rekrutacyjnej.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 105,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/77191.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2024,
+      "points": 74.8,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/83198.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2025,
+      "points": 103.4,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/86924.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2026,
+      "points": 117.4,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja2026.gumed.edu.pl/wyniki/269",
+      "round": "I nabór, lista przyjętych wg stanu na 02.09.2026 (najniższa suma punktów na liście)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "fizjoterapeuta",
+  "name": "GUMed, Wydział Nauk o Zdrowiu",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.gumed.edu.pl/1255.html",
+  "program": "Fizjoterapia (jednolite magisterskie)",
+  "requirements": [
+   "Biologia (P lub R)",
+   "Chemia, fizyka, język obcy, informatyka lub matematyka (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "bio"
+    ],
+    "level": "P lub R",
+    "note": "R: 1% = 1 pkt, P: 1% = 0,6 pkt"
+   },
+   {
+    "anyOf": [
+     "chem",
+     "fiz",
+     "obcy",
+     "inf",
+     "mat"
+    ],
+    "level": "P lub R",
+    "note": "jeden do wyboru; R: 1% = 1 pkt, P: 1% = 0,6 pkt"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.gumed.edu.pl/attachment/attachment/116537/zal_nr_1_do_u9026_tj_Uchwaly_rekrutacyjnej.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 153,
+      "scaleFormula": "biologia + 1 przedmiot, R: 1% = 1 pkt, P: 1% = 0,6 pkt; maks. 200 pkt, plus 20 pkt dodatkowych za uprawnienia ratownika WOPR (maks. 220)",
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/77191.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2024,
+      "points": 146,
+      "scaleFormula": "biologia + 1 przedmiot, R: 1% = 1 pkt, P: 1% = 0,6 pkt; maks. 200 pkt, plus 20 pkt dodatkowych za uprawnienia ratownika WOPR (maks. 220)",
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/83198.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2025,
+      "points": 157.2,
+      "scaleFormula": "biologia + 1 przedmiot, R: 1% = 1 pkt, P: 1% = 0,6 pkt; maks. 200 pkt, plus 20 pkt dodatkowych za uprawnienia ratownika WOPR (maks. 220)",
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/86924.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2026,
+      "points": 165,
+      "scaleFormula": "biologia + 1 przedmiot, R: 1% = 1 pkt, P: 1% = 0,6 pkt; maks. 200 pkt, plus 20 pkt dodatkowych za uprawnienia ratownika WOPR (maks. 220)",
+      "sourceUrl": "https://rekrutacja2026.gumed.edu.pl/wyniki/263",
+      "round": "I nabór, lista przyjętych wg stanu na 02.09.2026 (najniższa suma punktów na liście)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "fizjoterapeuta",
+  "name": "AWFiS w Gdańsku",
+  "city": "Gdańsk",
+  "url": "https://awf.gda.pl/ksztalcenie/fizjoterapia-jsm/",
+  "program": "Fizjoterapia (jednolite magisterskie, profil praktyczny)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Biologia, chemia lub fizyka (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "maks. 24 pkt (R) / 18 pkt (P)"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "maks. 24 pkt (R) / 18 pkt (P)"
+   },
+   {
+    "anyOf": [
+     "bio",
+     "chem",
+     "fiz"
+    ],
+    "level": "P lub R",
+    "note": "biologia, chemia lub fizyka (brak = 0 pkt)"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://awf.gda.pl/wp-content/uploads/2026/04/U-21-2026-uchwala-rekrutacyjna-na-studia-w-jez.-polskim-na-rok-2026.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2026,
+      "points": 47.0,
+      "scaleFormula": "3 przedmioty przeliczane tabelami AWFiS: P maks. 18 pkt, R maks. 24 pkt za przedmiot; konkurs świadectw maks. 72 pkt, do 5 pkt za j. obcy dwujęzyczny/IB/EB, 5 pkt za dyplom zawodowy technika",
+      "sourceUrl": "https://awf.gda.pl/wp-content/uploads/2026/07/lista-ID-osob-przyjetych_Fizjoterapia_jednolite-studia-magisterskie_stacjonarne_24.07.2026.pdf",
+      "round": "rekrutacja podstawowa, lista przyjętych z 24.07.2026"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "dentysta",
+  "name": "GUMed, Wydział Lekarski",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.gumed.edu.pl/1249.html",
+  "program": "Lekarsko-dentystyczny (jednolite magisterskie, 5 lat)",
+  "requirements": [
+   "Biologia (R)",
+   "Chemia, fizyka lub matematyka (R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "bio"
+    ],
+    "level": "R",
+    "note": "1% = 1 pkt"
+   },
+   {
+    "anyOf": [
+     "chem",
+     "fiz",
+     "mat"
+    ],
+    "level": "R",
+    "note": "jeden do wyboru, 1% = 1 pkt"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.gumed.edu.pl/attachment/attachment/116537/zal_nr_1_do_u9026_tj_Uchwaly_rekrutacyjnej.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 172,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/77191.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2024,
+      "points": 161,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/83198.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2025,
+      "points": 161,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/86924.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2026,
+      "points": 170,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja2026.gumed.edu.pl/wyniki/265",
+      "round": "I nabór, lista przyjętych wg stanu na 02.09.2026 (najniższa suma punktów na liście)"
+     }
+    ]
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "tuition": "30000 PLN/semestr",
+    "tuitionSource": "https://rekrutacja.gumed.edu.pl/attachment/attachment/115881/z4126_oplaty_za_ksztalcenie_w_roku_akademickim_26_27.pdf",
+    "tuitionYear": "2026/2027",
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 134,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/77191.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2024,
+      "points": 135,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/83198.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2025,
+      "points": 126,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/86924.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2026,
+      "points": 135,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja2026.gumed.edu.pl/wyniki/285",
+      "round": "I nabór, lista przyjętych wg stanu na 02.09.2026 (najniższa suma punktów na liście)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "dziennikarz",
+  "name": "UG, Wydział Nauk Społecznych",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/dziennikarstwo-i-komunikacja-spoleczna-2/",
+  "program": "Dziennikarstwo i komunikacja społeczna (I stopnia)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Biologia, chemia, filozofia, fizyka, geografia, historia, historia sztuki, informatyka, matematyka, WOS lub język obcy (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,5"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,2"
+   },
+   {
+    "anyOf": [
+     "bio",
+     "chem",
+     "fil",
+     "fiz",
+     "geo",
+     "hist",
+     "hsz",
+     "inf",
+     "mat",
+     "wos",
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "jeden do wyboru (także historia muzyki; obcy = drugi język), waga 0,3"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/dziennikarstwo-i-komunikacja-spoleczna-2/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 102.7,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 106.0,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 105.0,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "dziennikarz",
+  "name": "UG, Wydział Filologiczny",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/filologia-polska-2/",
+  "program": "Filologia polska (I stopnia)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Historia, WOS, historia sztuki, matematyka, geografia, fizyka, biologia, język obcy, język łaciński lub filozofia (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,5"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,2"
+   },
+   {
+    "anyOf": [
+     "hist",
+     "wos",
+     "hsz",
+     "mat",
+     "geo",
+     "fiz",
+     "bio",
+     "obcy",
+     "lac",
+     "fil"
+    ],
+    "level": "P lub R",
+    "note": "jeden do wyboru (obcy = drugi język), waga 0,3"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/filologia-polska-2/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 85.4,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 79.25,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 86.4,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "projektant-ux",
+  "name": "ASP w Gdańsku, Wydział Wzornictwa",
+  "city": "Gdańsk",
+  "url": "https://asp.gda.pl/rekrutacja/wydzial-wzornictwa/wzornictwo-i-stopnia,303",
+  "program": "Wzornictwo (I stopnia)",
+  "requirements": [
+   "Świadectwo dojrzałości (wyniki matur nie są liczone)",
+   "Egzamin wstępny (konkursowy, kilka etapów)"
+  ],
+  "requirementsStructured": [],
+  "exam": "Trzy etapy: I ocena teczki (portfolio i uzasadnienie wyboru kierunku), II wielozadaniowy egzamin praktyczny, III rozmowa kwalifikacyjna; minimum punktowe z każdego etapu.",
+  "requirementsSource": "https://asp.gda.pl/rekrutacja/wydzial-wzornictwa/wzornictwo-i-stopnia/harmonogram-i-wymagania,1045",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2026,
+      "points": 101,
+      "scaleMax": 160,
+      "sourceUrl": "https://asp.gda.pl/upload/tinymce/a45a7d02d760e7d6a5fd250fbb281dddf9f29e18.pdf",
+      "round": "rekrutacja podstawowa 2026/27, ostatnia osoba mieszcząca się w limicie przyjęć"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "projektant-ux",
+  "name": "ASP w Gdańsku, Wydział Grafiki",
+  "city": "Gdańsk",
+  "url": "https://asp.gda.pl/rekrutacja/wydzial-grafiki/kierunki/grafika-jednolite-magisterskie,341",
+  "program": "Grafika (jednolite magisterskie)",
+  "requirements": [
+   "Świadectwo dojrzałości (wyniki matur nie są liczone)",
+   "Egzamin wstępny (konkursowy, kilka etapów)"
+  ],
+  "requirementsStructured": [],
+  "exam": "Trzy etapy: I ocena teczki (20 prac, w tym min. 5 malarskich i 5 rysunków), II egzamin praktyczny (rysunek i malarstwo, projekt graficzny, zadanie z mediów), III rozmowa kwalifikacyjna; minimum punktowe z każdego etapu.",
+  "requirementsSource": "https://asp.gda.pl/rekrutacja/wydzial-grafiki/kierunki/grafika-jednolite-magisterskie/harmonogram-i-wymagania,1049",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2026,
+      "points": 156,
+      "scaleMax": 250,
+      "sourceUrl": "https://asp.gda.pl/upload/tinymce/eef7774298ab73878846926b62532c8d86952a7d.pdf",
+      "round": "rekrutacja podstawowa 2026/27, ostatnia osoba mieszcząca się w limicie przyjęć"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "dietetyk",
+  "name": "GUMed, Wydział Nauk o Zdrowiu",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.gumed.edu.pl/1271.html",
+  "program": "Dietetyka (I stopnia)",
+  "requirements": [
+   "Dwa przedmioty spośród: biologia, chemia, fizyka, język obcy, informatyka, matematyka (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "bio",
+     "chem",
+     "fiz",
+     "obcy",
+     "inf",
+     "mat"
+    ],
+    "level": "P lub R",
+    "note": "dwa do wyboru, najwyżej jeden język obcy; R: 1% = 1 pkt, P: 1% = 0,6 pkt"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.gumed.edu.pl/attachment/attachment/116537/zal_nr_1_do_u9026_tj_Uchwaly_rekrutacyjnej.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 161,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/77191.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2024,
+      "points": 119,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/83198.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2025,
+      "points": 134.6,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/86924.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2026,
+      "points": 138.6,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja2026.gumed.edu.pl/wyniki/267",
+      "round": "I nabór, lista przyjętych wg stanu na 02.09.2026 (najniższa suma punktów na liście)"
+     }
+    ]
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "tuition": "5850 PLN/semestr",
+    "tuitionSource": "https://rekrutacja.gumed.edu.pl/attachment/attachment/115881/z4126_oplaty_za_ksztalcenie_w_roku_akademickim_26_27.pdf",
+    "tuitionYear": "2026/2027",
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 63.4,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/77191.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2024,
+      "points": 61,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/83198.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2025,
+      "points": 77,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/86924.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2026,
+      "points": 61.8,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja2026.gumed.edu.pl/wyniki/286",
+      "round": "I nabór, lista przyjętych wg stanu na 02.09.2026 (najniższa suma punktów na liście)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "dietetyk",
+  "name": "AWFiS w Gdańsku",
+  "city": "Gdańsk",
+  "url": "https://awf.gda.pl/ksztalcenie/dietetyka-w-sporcie-i-rekreacji-i-stopien/",
+  "program": "Dietetyka w sporcie i rekreacji (I stopnia, profil praktyczny)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Dowolny przedmiot wybrany przez kandydata (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "maks. 24 pkt (R) / 18 pkt (P)"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "maks. 24 pkt (R) / 18 pkt (P)"
+   },
+   {
+    "anyOf": [
+     "mat",
+     "obcy",
+     "bio",
+     "chem",
+     "fiz",
+     "inf",
+     "geo",
+     "hist",
+     "wos",
+     "hsz",
+     "fil",
+     "lac"
+    ],
+    "level": "P lub R",
+    "note": "przedmiot wybrany przez kandydata"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://awf.gda.pl/wp-content/uploads/2026/04/U-21-2026-uchwala-rekrutacyjna-na-studia-w-jez.-polskim-na-rok-2026.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2026,
+      "points": 20.0,
+      "scaleFormula": "3 przedmioty przeliczane tabelami AWFiS: P maks. 18 pkt, R maks. 24 pkt za przedmiot; konkurs świadectw maks. 72 pkt, do 5 pkt za j. obcy dwujęzyczny/IB/EB, 5 pkt za dyplom zawodowy technika",
+      "sourceUrl": "https://awf.gda.pl/wp-content/uploads/2026/07/lista_rankingowa_przyjetych_osob_w_rekrutacji_id_DwSiR_I_st_29072026.pdf",
+      "round": "rekrutacja podstawowa, lista przyjętych z 29.07.2026"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "data-scientist",
+  "name": "PG, Wydział Elektroniki, Telekomunikacji i Informatyki",
+  "city": "Gdańsk",
+  "url": "https://pg.edu.pl/rekrutacja/rekrutacja-obywatele-polscy/studia-i-stopnia/wykaz-kierunkow/inzynieria-danych",
+  "program": "Inżynieria danych (I stopnia, inżynierskie, w języku angielskim)",
+  "requirements": [
+   "Matematyka (P lub R)",
+   "Fizyka lub informatyka (P lub R)",
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "mat"
+    ],
+    "level": "P lub R",
+    "note": "mnożnik p (P 0,4, R 1,0)"
+   },
+   {
+    "anyOf": [
+     "fiz",
+     "inf"
+    ],
+    "level": "P lub R",
+    "note": "przedmiot dodatkowy, mnożnik p (P 0,4, R 1,0)"
+   },
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,1"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,1 × p"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Akty%20prawne/Zasady%20rekrutacji/2026.2027/US%20124-2025.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 145.52,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Progi%20punktowe%20studia%20I%20stopnia%202023.2024.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2024,
+      "points": 154.1,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Rekrutacja%20na%20rok%20akademicki%202024.2025%20PROGI%20I%20LIMITY.1.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2025,
+      "points": 154.9,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Progi%20i%20limity%20na%20rok%20akademicki%202025-2026%20v.2.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2026,
+      "points": 170.7,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Limity%20i%20progi%20punktowe%202026-27.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "data-scientist",
+  "name": "PG, Wydział Fizyki Technicznej i Matematyki Stosowanej",
+  "city": "Gdańsk",
+  "url": "https://pg.edu.pl/rekrutacja/rekrutacja-obywatele-polscy/studia-i-stopnia/wykaz-kierunkow/matematyka",
+  "program": "Matematyka (I stopnia)",
+  "requirements": [
+   "Matematyka (P lub R)",
+   "Fizyka lub informatyka (P lub R)",
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "mat"
+    ],
+    "level": "P lub R",
+    "note": "mnożnik p (P 0,4, R 1,0)"
+   },
+   {
+    "anyOf": [
+     "fiz",
+     "inf"
+    ],
+    "level": "P lub R",
+    "note": "przedmiot dodatkowy, mnożnik p (P 0,4, R 1,0)"
+   },
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,1"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,1 × p"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Akty%20prawne/Zasady%20rekrutacji/2026.2027/US%20124-2025.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 76.88,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Progi%20punktowe%20studia%20I%20stopnia%202023.2024.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2024,
+      "points": 58.0,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Rekrutacja%20na%20rok%20akademicki%202024.2025%20PROGI%20I%20LIMITY.1.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2025,
+      "points": 58.56,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Progi%20i%20limity%20na%20rok%20akademicki%202025-2026%20v.2.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2026,
+      "points": 66.4,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Limity%20i%20progi%20punktowe%202026-27.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "data-scientist",
+  "name": "UG, Wydział Zarządzania",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/informatyka-i-ekonometria-2/",
+  "program": "Informatyka i ekonometria (I stopnia)",
+  "requirements": [
+   "Matematyka (P lub R)",
+   "Język obcy (P lub R)",
+   "Geografia, historia, informatyka, WOS lub język polski (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "mat"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,4"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,3"
+   },
+   {
+    "anyOf": [
+     "geo",
+     "hist",
+     "inf",
+     "wos",
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "jeden do wyboru, waga 0,3"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/informatyka-i-ekonometria-2/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 97.0,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 90.95,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 80.2,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "tuition": "8160 PLN/rok (6 rat po 1360 PLN)",
+    "tuitionSource": "https://bip.ug.edu.pl/sites/default/files/nodes/akty_normatywne/120364/files/zalacznik_nr_1.pdf",
+    "tuitionYear": "2026/2027",
+    "thresholds": []
+   }
+  ]
+ },
+ {
+  "career": "administrator-systemow",
+  "name": "PG, Wydział Elektroniki, Telekomunikacji i Informatyki",
+  "city": "Gdańsk",
+  "url": "https://pg.edu.pl/rekrutacja/rekrutacja-obywatele-polscy/studia-i-stopnia/wykaz-kierunkow/informatyka",
+  "program": "Informatyka (I stopnia, inżynierskie)",
+  "requirements": [
+   "Matematyka (P lub R)",
+   "Fizyka lub informatyka (P lub R)",
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "mat"
+    ],
+    "level": "P lub R",
+    "note": "mnożnik p (P 0,4, R 1,0)"
+   },
+   {
+    "anyOf": [
+     "fiz",
+     "inf"
+    ],
+    "level": "P lub R",
+    "note": "przedmiot dodatkowy, mnożnik p (P 0,4, R 1,0)"
+   },
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,1"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,1 × p"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Akty%20prawne/Zasady%20rekrutacji/2026.2027/US%20124-2025.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 148.42,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Progi%20punktowe%20studia%20I%20stopnia%202023.2024.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2024,
+      "points": 145.9,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Rekrutacja%20na%20rok%20akademicki%202024.2025%20PROGI%20I%20LIMITY.1.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2025,
+      "points": 124.3,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Progi%20i%20limity%20na%20rok%20akademicki%202025-2026%20v.2.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2026,
+      "points": 134.51,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Limity%20i%20progi%20punktowe%202026-27.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     }
+    ]
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "tuition": "4150 PLN/semestr",
+    "tuitionSource": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Akty%20prawne/Oplaty%20za%20uslugi%20edukacyjne/2026.2027/ZR%2034-2026.pdf",
+    "tuitionYear": "2026/2027",
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 95.4,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Progi%20punktowe%20studia%20I%20stopnia%202023.2024.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2024,
+      "points": 104.9,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Rekrutacja%20na%20rok%20akademicki%202024.2025%20PROGI%20I%20LIMITY.1.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2025,
+      "points": 81,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Progi%20i%20limity%20na%20rok%20akademicki%202025-2026%20v.2.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2026,
+      "points": 81,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Limity%20i%20progi%20punktowe%202026-27.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "administrator-systemow",
+  "name": "UG, Wydział Matematyki, Fizyki i Informatyki",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/informatyka-profil-praktyczny/",
+  "program": "Informatyka, profil praktyczny (I stopnia, inżynierskie)",
+  "requirements": [
+   "Matematyka (P lub R)",
+   "Język obcy lub informatyka (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "mat"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,8"
+   },
+   {
+    "anyOf": [
+     "obcy",
+     "inf"
+    ],
+    "level": "P lub R",
+    "note": "język obcy lub informatyka, waga 0,2"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/informatyka-profil-praktyczny/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 108.0,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 103.8,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 100.0,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "administrator-systemow",
+  "name": "UMG, Wydział Informatyki",
+  "city": "Gdynia",
+  "url": "https://umg.edu.pl/informatyka",
+  "program": "Informatyka (I stopnia, inżynierskie, profil praktyczny)",
+  "requirements": [
+   "Matematyka (P)",
+   "Język obcy (P)",
+   "Matematyka, fizyka, chemia, geografia, biologia lub informatyka (R)",
+   "Język obcy (R)",
+   "Dyplom technika w zawodzie z wykazu UMG: do 10 pkt dodatkowo (maks. 110 pkt)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "mat"
+    ],
+    "level": "P",
+    "note": "współczynnik 0,20 (maks. 20 pkt)"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P",
+    "note": "współczynnik 0,15 (maks. 15 pkt)"
+   },
+   {
+    "anyOf": [
+     "mat",
+     "fiz",
+     "chem",
+     "geo",
+     "bio",
+     "inf"
+    ],
+    "level": "R",
+    "note": "jeden do wyboru, współczynnik 0,40 (maks. 40 pkt)"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "R",
+    "note": "współczynnik 0,25 (maks. 25 pkt)"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://umg.edu.pl/sites/default/files/2026-04/zal-nr_1_do_68-18-szczegolowe-zasady-rekrutacji-26-27.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": []
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "thresholds": []
+   }
+  ]
+ },
+ {
+  "career": "programista-gier",
+  "name": "UG, Wydział Matematyki, Fizyki i Informatyki",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/informatyka-profil-ogolnoakademicki-2/",
+  "program": "Informatyka, profil ogólnoakademicki (I stopnia)",
+  "requirements": [
+   "Matematyka (P lub R)",
+   "Język obcy lub informatyka (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "mat"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,8"
+   },
+   {
+    "anyOf": [
+     "obcy",
+     "inf"
+    ],
+    "level": "P lub R",
+    "note": "język obcy lub informatyka, waga 0,2"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/informatyka-profil-ogolnoakademicki-2/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 109.2,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 102.9,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 101.3,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "tuition": "9360 PLN/rok (6 rat po 1560 PLN)",
+    "tuitionSource": "https://bip.ug.edu.pl/sites/default/files/nodes/akty_normatywne/120364/files/zalacznik_nr_1.pdf",
+    "tuitionYear": "2026/2027",
+    "thresholds": []
+   }
+  ]
+ },
+ {
+  "career": "doradca-finansowy",
+  "name": "UG, Wydział Zarządzania",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/finanse-i-rachunkowosc-4/",
+  "program": "Finanse i rachunkowość (I stopnia)",
+  "requirements": [
+   "Matematyka (P lub R)",
+   "Język obcy (P lub R)",
+   "Geografia, historia, informatyka, WOS lub język polski (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "mat"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,4"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,3"
+   },
+   {
+    "anyOf": [
+     "geo",
+     "hist",
+     "inf",
+     "wos",
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "jeden do wyboru, waga 0,3"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/finanse-i-rachunkowosc-4/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 98.6,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 94.65,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 99.6,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "tuition": "8160 PLN/rok (6 rat po 1360 PLN)",
+    "tuitionSource": "https://bip.ug.edu.pl/sites/default/files/nodes/akty_normatywne/120364/files/zalacznik_nr_1.pdf",
+    "tuitionYear": "2026/2027",
+    "thresholds": []
+   }
+  ]
+ },
+ {
+  "career": "doradca-finansowy",
+  "name": "UG, Wydział Ekonomiczny",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/ekonomia-3/",
+  "program": "Ekonomia (I stopnia)",
+  "requirements": [
+   "Matematyka (P lub R)",
+   "Język obcy (P lub R)",
+   "Geografia, historia, informatyka, WOS lub język polski (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "mat"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,3"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,4"
+   },
+   {
+    "anyOf": [
+     "geo",
+     "hist",
+     "inf",
+     "wos",
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "jeden do wyboru, waga 0,3"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/ekonomia-3/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 96.6,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 93.9,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 92.55,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "tuition": "8160 PLN/rok (6 rat po 1360 PLN)",
+    "tuitionSource": "https://bip.ug.edu.pl/sites/default/files/nodes/akty_normatywne/120364/files/zalacznik_nr_1.pdf",
+    "tuitionYear": "2026/2027",
+    "thresholds": []
+   }
+  ]
+ },
+ {
+  "career": "specjalista-marketingu",
+  "name": "UG, Wydział Zarządzania",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/zarzadzanie-3/",
+  "program": "Zarządzanie (I stopnia)",
+  "requirements": [
+   "Matematyka (P lub R)",
+   "Język obcy (P lub R)",
+   "Geografia, historia, informatyka, WOS lub język polski (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "mat"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,3"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,4"
+   },
+   {
+    "anyOf": [
+     "geo",
+     "hist",
+     "inf",
+     "wos",
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "jeden do wyboru, waga 0,3"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/zarzadzanie-3/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 100.8,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 92.1,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 99.0,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "tuition": "8160 PLN/rok (6 rat po 1360 PLN)",
+    "tuitionSource": "https://bip.ug.edu.pl/sites/default/files/nodes/akty_normatywne/120364/files/zalacznik_nr_1.pdf",
+    "tuitionYear": "2026/2027",
+    "thresholds": []
+   }
+  ]
+ },
+ {
+  "career": "doradca-podatkowy",
+  "name": "UG, Wydział Prawa i Administracji",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/podatki-i-doradztwo-podatkowe/",
+  "program": "Podatki i doradztwo podatkowe (I stopnia, wspólnie z Wydziałem Zarządzania)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Matematyka, fizyka, historia, WOS, informatyka lub geografia (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,35"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,35"
+   },
+   {
+    "anyOf": [
+     "mat",
+     "fiz",
+     "hist",
+     "wos",
+     "inf",
+     "geo"
+    ],
+    "level": "P lub R",
+    "note": "jeden do wyboru, waga 0,3"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/podatki-i-doradztwo-podatkowe/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 97.65,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 98.95,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 96.1,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "tuition": "6960 PLN/rok (6 rat po 1160 PLN)",
+    "tuitionSource": "https://bip.ug.edu.pl/sites/default/files/nodes/akty_normatywne/120364/files/zalacznik_nr_1.pdf",
+    "tuitionYear": "2026/2027",
+    "thresholds": []
+   }
+  ]
+ },
+ {
+  "career": "doradca-podatkowy",
+  "name": "UG, Wydział Prawa i Administracji",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/prawo-2/",
+  "program": "Prawo (jednolite magisterskie)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Historia, WOS, matematyka, geografia lub język łaciński (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,35"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,35"
+   },
+   {
+    "anyOf": [
+     "hist",
+     "wos",
+     "mat",
+     "geo",
+     "lac"
+    ],
+    "level": "P lub R",
+    "note": "jeden do wyboru, waga 0,3"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/prawo-2/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 111.25,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 114.61,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 113.63,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "tuition": "8460 PLN/rok (6 rat po 1410 PLN)",
+    "tuitionSource": "https://bip.ug.edu.pl/sites/default/files/nodes/akty_normatywne/120364/files/zalacznik_nr_1.pdf",
+    "tuitionYear": "2026/2027",
+    "thresholds": []
+   }
+  ]
+ },
+ {
+  "career": "psychoterapeuta",
+  "name": "UG, Wydział Nauk Społecznych",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/psychologia/",
+  "program": "Psychologia (jednolite magisterskie)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Dwa przedmioty spośród: biologia, chemia, język obcy, filozofia, fizyka, geografia, historia, matematyka, WOS (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,3"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,3"
+   },
+   {
+    "anyOf": [
+     "bio",
+     "chem",
+     "obcy",
+     "fil",
+     "fiz",
+     "geo",
+     "hist",
+     "mat",
+     "wos"
+    ],
+    "level": "P lub R",
+    "note": "dwa przedmioty do wyboru (także psychologia; obcy = drugi język), waga 0,2 każdy"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/psychologia/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 112.15,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 114.0,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 111.6,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "psychoterapeuta",
+  "name": "GUMed, Wydział Nauk o Zdrowiu",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.gumed.edu.pl/29820.html",
+  "program": "Psychologia zdrowia (jednolite magisterskie)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Dwa przedmioty spośród: język obcy, biologia, chemia, filozofia, fizyka, geografia, historia, matematyka (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "R: 1% = 1 pkt, P: 1% = 0,6 pkt"
+   },
+   {
+    "anyOf": [
+     "obcy",
+     "bio",
+     "chem",
+     "fil",
+     "fiz",
+     "geo",
+     "hist",
+     "mat"
+    ],
+    "level": "P lub R",
+    "note": "dwa do wyboru, najwyżej jeden język obcy; R: 1% = 1 pkt, P: 1% = 0,6 pkt"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.gumed.edu.pl/attachment/attachment/116537/zal_nr_1_do_u9026_tj_Uchwaly_rekrutacyjnej.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 239.2,
+      "scaleMax": 300,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/77191.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2024,
+      "points": 206,
+      "scaleMax": 300,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/83198.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2025,
+      "points": 221.8,
+      "scaleMax": 300,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/86924.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2026,
+      "points": 221,
+      "scaleMax": 300,
+      "sourceUrl": "https://rekrutacja2026.gumed.edu.pl/wyniki/266",
+      "round": "I nabór, lista przyjętych wg stanu na 02.09.2026 (najniższa suma punktów na liście)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "pediatra",
+  "name": "GUMed, Wydział Lekarski",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.gumed.edu.pl/1247.html",
+  "program": "Lekarski (jednolite magisterskie, 6 lat)",
+  "requirements": [
+   "Biologia (R)",
+   "Chemia, fizyka lub matematyka (R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "bio"
+    ],
+    "level": "R",
+    "note": "1% = 1 pkt"
+   },
+   {
+    "anyOf": [
+     "chem",
+     "fiz",
+     "mat"
+    ],
+    "level": "R",
+    "note": "jeden do wyboru, 1% = 1 pkt"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.gumed.edu.pl/attachment/attachment/116537/zal_nr_1_do_u9026_tj_Uchwaly_rekrutacyjnej.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 171,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/77191.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2024,
+      "points": 158,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/83198.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2025,
+      "points": 161,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/86924.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2026,
+      "points": 170,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja2026.gumed.edu.pl/wyniki/264",
+      "round": "I nabór, lista przyjętych wg stanu na 02.09.2026 (najniższa suma punktów na liście)"
+     }
+    ]
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "tuition": "26900 PLN/semestr",
+    "tuitionSource": "https://rekrutacja.gumed.edu.pl/attachment/attachment/115881/z4126_oplaty_za_ksztalcenie_w_roku_akademickim_26_27.pdf",
+    "tuitionYear": "2026/2027",
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 115,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/77191.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2024,
+      "points": 112,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/83198.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2025,
+      "points": 115,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/86924.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2026,
+      "points": 140,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja2026.gumed.edu.pl/wyniki/284",
+      "round": "I nabór, lista przyjętych wg stanu na 02.09.2026 (najniższa suma punktów na liście)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "kardiolog",
+  "name": "GUMed, Wydział Lekarski",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.gumed.edu.pl/1247.html",
+  "program": "Lekarski (jednolite magisterskie, 6 lat)",
+  "requirements": [
+   "Biologia (R)",
+   "Chemia, fizyka lub matematyka (R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "bio"
+    ],
+    "level": "R",
+    "note": "1% = 1 pkt"
+   },
+   {
+    "anyOf": [
+     "chem",
+     "fiz",
+     "mat"
+    ],
+    "level": "R",
+    "note": "jeden do wyboru, 1% = 1 pkt"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.gumed.edu.pl/attachment/attachment/116537/zal_nr_1_do_u9026_tj_Uchwaly_rekrutacyjnej.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 171,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/77191.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2024,
+      "points": 158,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/83198.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2025,
+      "points": 161,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/86924.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2026,
+      "points": 170,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja2026.gumed.edu.pl/wyniki/264",
+      "round": "I nabór, lista przyjętych wg stanu na 02.09.2026 (najniższa suma punktów na liście)"
+     }
+    ]
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "tuition": "26900 PLN/semestr",
+    "tuitionSource": "https://rekrutacja.gumed.edu.pl/attachment/attachment/115881/z4126_oplaty_za_ksztalcenie_w_roku_akademickim_26_27.pdf",
+    "tuitionYear": "2026/2027",
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 115,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/77191.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2024,
+      "points": 112,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/83198.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2025,
+      "points": 115,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja.gumed.edu.pl/86924.html",
+      "round": "minimalna konieczna liczba punktów (zestawienie GUMed „Progi punktowe i liczba kandydatów”)"
+     },
+     {
+      "year": 2026,
+      "points": 140,
+      "scaleMax": 200,
+      "sourceUrl": "https://rekrutacja2026.gumed.edu.pl/wyniki/284",
+      "round": "I nabór, lista przyjętych wg stanu na 02.09.2026 (najniższa suma punktów na liście)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "prokurator",
+  "name": "UG, Wydział Prawa i Administracji",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/prawo-2/",
+  "program": "Prawo (jednolite magisterskie)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Historia, WOS, matematyka, geografia lub język łaciński (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,35"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,35"
+   },
+   {
+    "anyOf": [
+     "hist",
+     "wos",
+     "mat",
+     "geo",
+     "lac"
+    ],
+    "level": "P lub R",
+    "note": "jeden do wyboru, waga 0,3"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/prawo-2/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 111.25,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 114.61,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 113.63,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "tuition": "8460 PLN/rok (6 rat po 1410 PLN)",
+    "tuitionSource": "https://bip.ug.edu.pl/sites/default/files/nodes/akty_normatywne/120364/files/zalacznik_nr_1.pdf",
+    "tuitionYear": "2026/2027",
+    "thresholds": []
+   }
+  ]
+ },
+ {
+  "career": "komornik",
+  "name": "UG, Wydział Prawa i Administracji",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/prawo-2/",
+  "program": "Prawo (jednolite magisterskie)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Historia, WOS, matematyka, geografia lub język łaciński (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,35"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,35"
+   },
+   {
+    "anyOf": [
+     "hist",
+     "wos",
+     "mat",
+     "geo",
+     "lac"
+    ],
+    "level": "P lub R",
+    "note": "jeden do wyboru, waga 0,3"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/prawo-2/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 111.25,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 114.61,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 113.63,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "tuition": "8460 PLN/rok (6 rat po 1410 PLN)",
+    "tuitionSource": "https://bip.ug.edu.pl/sites/default/files/nodes/akty_normatywne/120364/files/zalacznik_nr_1.pdf",
+    "tuitionYear": "2026/2027",
+    "thresholds": []
+   }
+  ]
+ },
+ {
+  "career": "funkcjonariusz-sg",
+  "name": "UG, Wydział Prawa i Administracji",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/administracja-2/",
+  "program": "Administracja (I stopnia)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Historia, WOS, matematyka, geografia lub język łaciński (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,35"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,35"
+   },
+   {
+    "anyOf": [
+     "hist",
+     "wos",
+     "mat",
+     "geo",
+     "lac"
+    ],
+    "level": "P lub R",
+    "note": "jeden do wyboru, waga 0,3"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/administracja-2/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 96.2,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 95.33,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 92.23,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "tuition": "6960 PLN/rok (6 rat po 1160 PLN)",
+    "tuitionSource": "https://bip.ug.edu.pl/sites/default/files/nodes/akty_normatywne/120364/files/zalacznik_nr_1.pdf",
+    "tuitionYear": "2026/2027",
+    "thresholds": []
+   }
+  ]
+ },
+ {
+  "career": "funkcjonariusz-sg",
+  "name": "UG, Wydział Nauk Społecznych",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/bezpieczenstwo-narodowe-2/",
+  "program": "Bezpieczeństwo narodowe (I stopnia)",
+  "requirements": [
+   "Język polski lub język obcy (P lub R)",
+   "Język obcy, biologia, chemia, filozofia, fizyka, geografia, historia, historia sztuki, matematyka lub WOS (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol",
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "język polski lub język obcy, waga 0,5"
+   },
+   {
+    "anyOf": [
+     "obcy",
+     "bio",
+     "chem",
+     "fil",
+     "fiz",
+     "geo",
+     "hist",
+     "hsz",
+     "mat",
+     "wos"
+    ],
+    "level": "P lub R",
+    "note": "jeden do wyboru (obcy = drugi język), waga 0,5"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/bezpieczenstwo-narodowe-2/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 105.0,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 107.25,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 98.0,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "muzyk",
+  "name": "Akademia Muzyczna w Gdańsku, Wydział Instrumentalny",
+  "city": "Gdańsk",
+  "url": "https://amuz.gda.pl/wydzialy/wydzial-ii-instrumentalny,14",
+  "program": "Instrumentalistyka, specjalność gra na instrumencie (I stopnia)",
+  "requirements": [
+   "Świadectwo dojrzałości (wyniki matur nie są liczone)",
+   "Egzamin wstępny (przesłuchania, skala 1–25 pkt za każdy egzamin)"
+  ],
+  "requirementsStructured": [],
+  "exam": "I etap: egzamin z instrumentu głównego (program na poziomie dyplomu szkoły muzycznej II stopnia). II etap: gra a vista i samodzielne przygotowanie utworu otrzymanego w dniu egzaminu. Każdy egzamin oceniany w skali 1–25; do II etapu średnia min. 18 pkt, egzamin zdany przy min. 13 pkt z każdego przedmiotu II etapu i średniej min. 15 pkt; o kolejności decyduje suma punktów.",
+  "requirementsSource": "https://amuz.gda.pl/upload/tinymce/dfbb5f6b6fc4b802b84f32e6e48cc537a401195c.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": []
+   }
+  ]
+ },
+ {
+  "career": "muzyk",
+  "name": "Akademia Muzyczna w Gdańsku, Wydział Dyrygentury, Kompozycji i Teorii Muzyki",
+  "city": "Gdańsk",
+  "url": "https://amuz.gda.pl/wydzialy/wydzial-i-dyrygentury-kompozycji-i-teorii-muzyki,13",
+  "program": "Kompozycja i teoria muzyki, specjalność kompozycja (I stopnia)",
+  "requirements": [
+   "Świadectwo dojrzałości (wyniki matur nie są liczone)",
+   "Egzamin wstępny (przesłuchania, skala 1–25 pkt za każdy egzamin)"
+  ],
+  "requirementsStructured": [],
+  "exam": "I etap: trzy autorskie kompozycje (partytury PDF i nagrania) z rozmową oraz kształcenie słuchu (dyktando, egzamin ustny). II etap: fortepian (dwa utwory, w tym jeden sprzed 1800 r.). Każdy egzamin oceniany w skali 1–25; do II etapu średnia min. 18 pkt, egzamin zdany przy min. 13 pkt z każdego przedmiotu II etapu i średniej min. 15 pkt; o kolejności decyduje suma punktów.",
+  "requirementsSource": "https://amuz.gda.pl/upload/tinymce/dfbb5f6b6fc4b802b84f32e6e48cc537a401195c.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": []
+   }
+  ]
+ },
+ {
+  "career": "muzyk",
+  "name": "Akademia Muzyczna w Gdańsku, Wydział Dyrygentury Chóralnej, Muzyki Kościelnej, Edukacji Artystycznej, Rytmiki i Jazzu",
+  "city": "Gdańsk",
+  "url": "https://amuz.gda.pl/wydzialy/wydzial-iv-dyrygentury-choralnej-muzyki-koscielnej-edukacji-artystycznej-rytmiki-i-jazzu,16",
+  "program": "Jazz i muzyka estradowa, specjalność instrumentalistyka jazzowa (I stopnia)",
+  "requirements": [
+   "Świadectwo dojrzałości (wyniki matur nie są liczone)",
+   "Egzamin wstępny (przesłuchania, skala 1–25 pkt za każdy egzamin)"
+  ],
+  "requirementsStructured": [],
+  "exam": "I etap: gra na instrumencie z pamięci (standard swingowy blues/rhythm changes, dowolny standard, utwór dowolny, z improwizacją) i krótka rozmowa. II etap: kształcenie słuchu (ustnie). Od 1.10.2026 kierunek w nowym Wydziale V Jazzu i Muzyki Rozrywkowej. Każdy egzamin oceniany w skali 1–25; do II etapu średnia min. 18 pkt, egzamin zdany przy min. 13 pkt z każdego przedmiotu II etapu i średniej min. 15 pkt; o kolejności decyduje suma punktów.",
+  "requirementsSource": "https://amuz.gda.pl/upload/tinymce/dfbb5f6b6fc4b802b84f32e6e48cc537a401195c.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": []
+   }
+  ]
+ },
+ {
+  "career": "architekt-wnetrz",
+  "name": "ASP w Gdańsku, Wydział Architektury",
+  "city": "Gdańsk",
+  "url": "https://asp.gda.pl/rekrutacja/wydzial-architektury/kierunki/architektura-wnetrz-i-stopnia,301",
+  "program": "Architektura wnętrz (I stopnia)",
+  "requirements": [
+   "Świadectwo dojrzałości (wyniki matur nie są liczone)",
+   "Egzamin wstępny (konkursowy, kilka etapów)"
+  ],
+  "requirementsStructured": [],
+  "exam": "Studia stacjonarne: I etap egzamin praktyczny (zadanie egzaminacyjne) i przegląd 8–12 autorskich prac plastycznych, II etap rozmowa kwalifikacyjna; minimum punktowe z każdego etapu. Niestacjonarne: ocena teczki prac (m.in. rysunki perspektywiczne, rzut mieszkania, studia dłoni i stóp) i rozmowa kwalifikacyjna.",
+  "requirementsSource": "https://asp.gda.pl/rekrutacja/wydzial-architektury/kierunki/architektura-wnetrz-i-stopnia/harmonogram-i-wymagania,1043",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2026,
+      "points": 91,
+      "scaleMax": 130,
+      "sourceUrl": "https://asp.gda.pl/upload/tinymce/dfc8d859fd2b056dd5292ef6e74889dba0ad5a0b.pdf",
+      "round": "rekrutacja podstawowa 2026/27, ostatnia osoba mieszcząca się w limicie przyjęć"
+     }
+    ]
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "tuition": "4600 PLN/semestr (sem. 1–2; 4800 PLN w sem. 3–4, 5200 PLN w sem. 5–6)",
+    "tuitionSource": "https://asp.gda.pl/upload/tinymce/f1b283c8e5e1efd93f134bce056658d1cc71ea00.pdf",
+    "tuitionYear": "2026/2027",
+    "thresholds": [
+     {
+      "year": 2026,
+      "points": 59,
+      "scaleMax": 100,
+      "sourceUrl": "https://asp.gda.pl/upload/tinymce/0f8160b4eb9b0a51e8be7a6fafec6639d928061b.pdf",
+      "round": "I nabór 2026/27, ostatnia osoba przyjęta (limit 20 niewypełniony, wymagane minimum 35 pkt)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "architekt-wnetrz",
+  "name": "PG, Wydział Architektury",
+  "city": "Gdańsk",
+  "url": "https://pg.edu.pl/rekrutacja/rekrutacja-obywatele-polscy/studia-i-stopnia/wykaz-kierunkow/architektura",
+  "program": "Architektura (I stopnia, inżynierskie)",
+  "requirements": [
+   "Matematyka (P lub R)",
+   "Historia sztuki lub informatyka (P lub R)",
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Sprawdzian predyspozycji do zawodu architekta"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "mat"
+    ],
+    "level": "P lub R",
+    "note": "mnożnik p (P 0,4, R 1,0)"
+   },
+   {
+    "anyOf": [
+     "hsz",
+     "inf"
+    ],
+    "level": "P lub R",
+    "note": "przedmiot dodatkowy, mnożnik p (P 0,4, R 1,0)"
+   },
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,1"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,1 × p"
+   }
+  ],
+  "exam": "Obowiązkowy konkursowy sprawdzian predyspozycji do zawodu architekta (maks. 100 pkt, z minimum punktowym); punkty ze sprawdzianu dodaje się do punktów z matury.",
+  "requirementsSource": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Akty%20prawne/Zasady%20rekrutacji/2026.2027/US%20124-2025.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 147.0,
+      "scaleFormula": "punkty PG dla Architektury: WA = S + W, S = sprawdzian predyspozycji (maks. 100 pkt), W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 320 pkt (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Progi%20punktowe%20studia%20I%20stopnia%202023.2024.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2024,
+      "points": 146.2,
+      "scaleFormula": "punkty PG dla Architektury: WA = S + W, S = sprawdzian predyspozycji (maks. 100 pkt), W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 320 pkt (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Rekrutacja%20na%20rok%20akademicki%202024.2025%20PROGI%20I%20LIMITY.1.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2025,
+      "points": 148.1,
+      "scaleFormula": "punkty PG dla Architektury: WA = S + W, S = sprawdzian predyspozycji (maks. 100 pkt), W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 320 pkt (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Progi%20i%20limity%20na%20rok%20akademicki%202025-2026%20v.2.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2026,
+      "points": 172.7,
+      "scaleFormula": "punkty PG dla Architektury: WA = S + W, S = sprawdzian predyspozycji (maks. 100 pkt), W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 320 pkt (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Limity%20i%20progi%20punktowe%202026-27.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "pedagog",
+  "name": "UG, Wydział Nauk Społecznych",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/pedagogika-2/",
+  "program": "Pedagogika (I stopnia)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Dwa przedmioty spośród: biologia, chemia, język obcy, filozofia, fizyka, geografia, historia, historia sztuki, matematyka, WOS (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,4"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,2"
+   },
+   {
+    "anyOf": [
+     "bio",
+     "chem",
+     "obcy",
+     "fil",
+     "fiz",
+     "geo",
+     "hist",
+     "hsz",
+     "mat",
+     "wos"
+    ],
+    "level": "P lub R",
+    "note": "dwa przedmioty do wyboru (obcy = drugi język), waga 0,2 każdy"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/pedagogika-2/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 65.8,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 70.3,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 82.9,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "pedagog",
+  "name": "UG, Wydział Nauk Społecznych",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/pedagogika-specjalna/",
+  "program": "Pedagogika specjalna (jednolite magisterskie)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Dwa przedmioty spośród: biologia, chemia, język obcy, filozofia, fizyka, geografia, historia, historia sztuki, matematyka, WOS (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,4"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,2"
+   },
+   {
+    "anyOf": [
+     "bio",
+     "chem",
+     "obcy",
+     "fil",
+     "fiz",
+     "geo",
+     "hist",
+     "hsz",
+     "mat",
+     "wos"
+    ],
+    "level": "P lub R",
+    "note": "dwa przedmioty do wyboru (obcy = drugi język), waga 0,2 każdy"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/pedagogika-specjalna/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 29.6,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 61.1,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 73.5,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "kosmetyczka",
+  "name": "AWFiS w Gdańsku",
+  "city": "Gdańsk",
+  "url": "https://awf.gda.pl/ksztalcenie/kosmetologia-i-stopien/",
+  "program": "Kosmetologia (I stopnia, profil praktyczny)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Biologia lub chemia (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "maks. 24 pkt (R) / 18 pkt (P)"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "maks. 24 pkt (R) / 18 pkt (P)"
+   },
+   {
+    "anyOf": [
+     "bio",
+     "chem"
+    ],
+    "level": "P lub R",
+    "note": "biologia lub chemia (brak = 0 pkt)"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://awf.gda.pl/wp-content/uploads/2026/04/U-21-2026-uchwala-rekrutacyjna-na-studia-w-jez.-polskim-na-rok-2026.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2026,
+      "points": 19.0,
+      "scaleFormula": "3 przedmioty przeliczane tabelami AWFiS: P maks. 18 pkt, R maks. 24 pkt za przedmiot; konkurs świadectw maks. 72 pkt, do 5 pkt za j. obcy dwujęzyczny/IB/EB, 5 pkt za dyplom zawodowy technika",
+      "sourceUrl": "https://awf.gda.pl/wp-content/uploads/2026/07/lista_rankingowa_przyjetych_osob_w_rekrutacji_id_KOS_I_st_29072026-1.pdf",
+      "round": "rekrutacja podstawowa, lista przyjętych z 29.07.2026"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "pilot-wycieczek",
+  "name": "UG, Wydział Historyczny",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/krajoznawstwo-i-turystyka-historyczna-2/",
+  "program": "Krajoznawstwo i turystyka historyczna (I stopnia)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Historia, historia sztuki, WOS, geografia, filozofia, biologia, matematyka lub fizyka (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,25"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,25"
+   },
+   {
+    "anyOf": [
+     "hist",
+     "hsz",
+     "wos",
+     "geo",
+     "fil",
+     "bio",
+     "mat",
+     "fiz"
+    ],
+    "level": "P lub R",
+    "note": "jeden do wyboru (także język kaszubski), waga 0,5"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/krajoznawstwo-i-turystyka-historyczna-2/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 73.5,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 49.25,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 59.25,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "pilot-wycieczek",
+  "name": "AWFiS w Gdańsku",
+  "city": "Gdańsk",
+  "url": "https://awf.gda.pl/ksztalcenie/turystyka-i-hotelarstwo-i-stopien/",
+  "program": "Turystyka i hotelarstwo (I stopnia, profil praktyczny)",
+  "requirements": [
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)",
+   "Dowolny przedmiot wybrany przez kandydata (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "maks. 24 pkt (R) / 18 pkt (P)"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "maks. 24 pkt (R) / 18 pkt (P)"
+   },
+   {
+    "anyOf": [
+     "mat",
+     "obcy",
+     "bio",
+     "chem",
+     "fiz",
+     "inf",
+     "geo",
+     "hist",
+     "wos",
+     "hsz",
+     "fil",
+     "lac"
+    ],
+    "level": "P lub R",
+    "note": "przedmiot wybrany przez kandydata"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://awf.gda.pl/wp-content/uploads/2026/04/U-21-2026-uchwala-rekrutacyjna-na-studia-w-jez.-polskim-na-rok-2026.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2026,
+      "points": 14.0,
+      "scaleFormula": "3 przedmioty przeliczane tabelami AWFiS: P maks. 18 pkt, R maks. 24 pkt za przedmiot; konkurs świadectw maks. 72 pkt, do 5 pkt za j. obcy dwujęzyczny/IB/EB, 5 pkt za dyplom zawodowy technika",
+      "sourceUrl": "https://awf.gda.pl/wp-content/uploads/2026/07/lista_rankingowa_przyjetych_osob_w_rekrutacji_id_TiH_I_st_29072026.pdf",
+      "round": "rekrutacja podstawowa, lista przyjętych z 29.07.2026"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "inzynier-budownictwa",
+  "name": "PG, Wydział Inżynierii Lądowej i Środowiska",
+  "city": "Gdańsk",
+  "url": "https://pg.edu.pl/rekrutacja/rekrutacja-obywatele-polscy/studia-i-stopnia/wykaz-kierunkow/budownictwo",
+  "program": "Budownictwo (I stopnia, inżynierskie)",
+  "requirements": [
+   "Matematyka (P lub R)",
+   "Fizyka lub informatyka (P lub R)",
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "mat"
+    ],
+    "level": "P lub R",
+    "note": "mnożnik p (P 0,4, R 1,0)"
+   },
+   {
+    "anyOf": [
+     "fiz",
+     "inf"
+    ],
+    "level": "P lub R",
+    "note": "przedmiot dodatkowy, mnożnik p (P 0,4, R 1,0)"
+   },
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,1"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,1 × p"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Akty%20prawne/Zasady%20rekrutacji/2026.2027/US%20124-2025.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 50.56,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Progi%20punktowe%20studia%20I%20stopnia%202023.2024.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2024,
+      "points": 49.2,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Rekrutacja%20na%20rok%20akademicki%202024.2025%20PROGI%20I%20LIMITY.1.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2025,
+      "points": 61.6,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Progi%20i%20limity%20na%20rok%20akademicki%202025-2026%20v.2.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2026,
+      "points": 71.9,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Limity%20i%20progi%20punktowe%202026-27.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     }
+    ]
+   },
+   {
+    "type": "niestacjonarne",
+    "paid": true,
+    "tuition": "3490 PLN/semestr",
+    "tuitionSource": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Akty%20prawne/Oplaty%20za%20uslugi%20edukacyjne/2026.2027/ZR%2034-2026.pdf",
+    "tuitionYear": "2026/2027",
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 36.16,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Progi%20punktowe%20studia%20I%20stopnia%202023.2024.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2024,
+      "points": 37.0,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Rekrutacja%20na%20rok%20akademicki%202024.2025%20PROGI%20I%20LIMITY.1.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2025,
+      "points": 52.8,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Progi%20i%20limity%20na%20rok%20akademicki%202025-2026%20v.2.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2026,
+      "points": 53.02,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Limity%20i%20progi%20punktowe%202026-27.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "geodeta",
+  "name": "PG, Wydział Inżynierii Lądowej i Środowiska",
+  "city": "Gdańsk",
+  "url": "https://pg.edu.pl/rekrutacja/rekrutacja-obywatele-polscy/studia-i-stopnia/wykaz-kierunkow/geodezja-i-kartografia",
+  "program": "Geodezja i kartografia (I stopnia, inżynierskie)",
+  "requirements": [
+   "Matematyka (P lub R)",
+   "Fizyka, geografia lub informatyka (P lub R)",
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "mat"
+    ],
+    "level": "P lub R",
+    "note": "mnożnik p (P 0,4, R 1,0)"
+   },
+   {
+    "anyOf": [
+     "fiz",
+     "geo",
+     "inf"
+    ],
+    "level": "P lub R",
+    "note": "przedmiot dodatkowy, mnożnik p (P 0,4, R 1,0)"
+   },
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,1"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,1 × p"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Akty%20prawne/Zasady%20rekrutacji/2026.2027/US%20124-2025.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 90.0,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Progi%20punktowe%20studia%20I%20stopnia%202023.2024.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2024,
+      "points": 97.7,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Rekrutacja%20na%20rok%20akademicki%202024.2025%20PROGI%20I%20LIMITY.1.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2025,
+      "points": 104.4,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Progi%20i%20limity%20na%20rok%20akademicki%202025-2026%20v.2.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2026,
+      "points": 120.44,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Limity%20i%20progi%20punktowe%202026-27.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "kartograf",
+  "name": "PG, Wydział Inżynierii Lądowej i Środowiska",
+  "city": "Gdańsk",
+  "url": "https://pg.edu.pl/rekrutacja/rekrutacja-obywatele-polscy/studia-i-stopnia/wykaz-kierunkow/geodezja-i-kartografia",
+  "program": "Geodezja i kartografia (I stopnia, inżynierskie)",
+  "requirements": [
+   "Matematyka (P lub R)",
+   "Fizyka, geografia lub informatyka (P lub R)",
+   "Język polski (P lub R)",
+   "Język obcy (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "mat"
+    ],
+    "level": "P lub R",
+    "note": "mnożnik p (P 0,4, R 1,0)"
+   },
+   {
+    "anyOf": [
+     "fiz",
+     "geo",
+     "inf"
+    ],
+    "level": "P lub R",
+    "note": "przedmiot dodatkowy, mnożnik p (P 0,4, R 1,0)"
+   },
+   {
+    "anyOf": [
+     "pol"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,1"
+   },
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,1 × p"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Akty%20prawne/Zasady%20rekrutacji/2026.2027/US%20124-2025.pdf",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 90.0,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Progi%20punktowe%20studia%20I%20stopnia%202023.2024.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2024,
+      "points": 97.7,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Rekrutacja%20na%20rok%20akademicki%202024.2025%20PROGI%20I%20LIMITY.1.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2025,
+      "points": 104.4,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Progi%20i%20limity%20na%20rok%20akademicki%202025-2026%20v.2.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     },
+     {
+      "year": 2026,
+      "points": 120.44,
+      "scaleFormula": "punkty rekrutacyjne PG: W = matematyka·p + przedmiot dodatkowy·p + 0,1·j. polski + 0,1·j. obcy·p (p = 0,4 dla P, 1,0 dla R); maks. ok. 220 pkt plus punkty za dyplomy z zał. nr 5 (wzór z zasad 2026/2027)",
+      "sourceUrl": "https://cdn.files.pg.edu.pl/main/Rekrutacja/Progi%20punktowe/Limity%20i%20progi%20punktowe%202026-27.pdf",
+      "round": "próg = minimalna liczba punktów na kierunku (rekrutacja na semestr zimowy)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "career": "kartograf",
+  "name": "UG, Wydział Oceanografii i Geografii",
+  "city": "Gdańsk",
+  "url": "https://rekrutacja.ug.edu.pl/kierunek/geografia/",
+  "program": "Geografia (I stopnia)",
+  "requirements": [
+   "Język obcy (P lub R)",
+   "Geografia (P lub R)",
+   "Biologia, chemia, fizyka, historia, informatyka, matematyka lub WOS (P lub R)"
+  ],
+  "requirementsStructured": [
+   {
+    "anyOf": [
+     "obcy"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,2"
+   },
+   {
+    "anyOf": [
+     "geo"
+    ],
+    "level": "P lub R",
+    "note": "waga 0,6"
+   },
+   {
+    "anyOf": [
+     "bio",
+     "chem",
+     "fiz",
+     "hist",
+     "inf",
+     "mat",
+     "wos"
+    ],
+    "level": "P lub R",
+    "note": "jeden do wyboru, waga 0,2"
+   }
+  ],
+  "exam": null,
+  "requirementsSource": "https://rekrutacja.ug.edu.pl/kierunek/geografia/",
+  "requirementsYear": "2026/2027",
+  "modes": [
+   {
+    "type": "stacjonarne",
+    "paid": false,
+    "thresholds": [
+     {
+      "year": 2023,
+      "points": 31.2,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2024,
+      "points": 47.2,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     },
+     {
+      "year": 2025,
+      "points": 33.4,
+      "scaleFormula": "punkty rankingowe UG: wynik matury (%) × waga przedmiotu, poziom R dodatkowo × 1,5; wagi sumują się do 1, więc maksimum 150 pkt (zasady z kart kierunków 2026/2027)",
+      "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+      "round": "rekrutacja podstawowa (lista podstawowa, bez naborów dodatkowych)"
+     }
+    ]
+   }
+  ]
+ }
+]
