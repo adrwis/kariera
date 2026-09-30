@@ -1224,5 +1224,90 @@
    "https://lo50.skie.pl/rekrutacja/terminy-rekrutacji/",
    "https://lo50.skie.pl/rekrutacja-uzupelniajaca/"
   ]
+ },
+ {
+  "rspo": 271713,
+  "shortName": "Liceum Niepubliczne Fundacji Amicus",
+  "url": "https://www.liceum-amicus.pl/",
+  "profiles": [
+   {
+    "name": "Klasa I 2026/2027 – edukacja domowa",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.liceum-amicus.pl/rekrutacja"
+   }
+  ],
+  "admission": "Brak progów i kryteriów selekcji. Nabór do edukacji domowej: skany świadectwa, wyniku E8, oświadczeń i wniosku rodziców oraz karty zgłoszenia wysyła się na fundacja.amicus@wp.pl; decyzja mailem w ciągu kilku dni; rekrutacja przez cały rok do zamknięcia listy. Źródło: https://www.liceum-amicus.pl/rekrutacja",
+  "noOffer2026": false,
+  "doubts": [
+   "Szkoła działa głównie jako liceum dla uczniów w edukacji domowej („Trwa rekrutacja na rok szkolny 2026/2027 edukacji domowej”). Strona główna wspomina też liceum stacjonarne, ale nie opisuje jego oferty. Lista podręczników dla klasy I 2026/2027 zawiera podręczniki rozszerzone z historii, geografii i matematyki, bez informacji, czy to obowiązkowe rozszerzenia, więc extended puste.",
+   "Strona szkoły to https://www.liceum-amicus.pl/ (RSPO bez URL). fundacjaamicus.pl to inna fundacja, a amicus.edu.pl to inne liceum (Witosa 18)."
+  ],
+  "checkedUrls": [
+   "https://fundacjaamicus.pl/",
+   "https://amicus.edu.pl/",
+   "https://www.liceum-amicus.pl/",
+   "https://www.liceum-amicus.pl/rekrutacja"
+  ]
+ },
+ {
+  "rspo": 478739,
+  "shortName": null,
+  "url": null,
+  "profiles": [],
+  "admission": null,
+  "noOffer2026": true,
+  "doubts": [
+   "Nie znaleziono działającej strony szkoły. Domena z e-maila RSPO (dobratu.edu.pl, www.dobratu.edu.pl) to parking nazwa.pl; web.archive.org nie ma kopii. Organ prowadzący to DOBRATU sp. z o.o. (w RSPO e-mail w domenie operator.edu.pl), ale na https://operator.edu.pl/pl/ nie ma informacji o tym liceum. Nie sprawdzono innych domen, bo WebSearch jest niedostępny."
+  ],
+  "checkedUrls": [
+   "https://dobratu.edu.pl/",
+   "https://www.dobratu.edu.pl/",
+   "https://operator.edu.pl/pl/",
+   "https://web.archive.org/cdx/search/cdx?url=dobratu.edu.pl"
+  ]
+ },
+ {
+  "rspo": 481028,
+  "shortName": null,
+  "url": null,
+  "profiles": [],
+  "admission": null,
+  "noOffer2026": true,
+  "doubts": [
+   "Nie znaleziono strony szkoły. RSPO nie podaje URL, e-mail jest w domenie 3xm.pl, a http://3xm.pl/ to strona drukarni. https://www.liceumkorczaka.pl/ to inne liceum im. Korczaka (ul. Szczęśliwicka 50/54, Ochota), a korczak.edu.pl to VI LO w Sosnowcu. Żadnego z nich nie przypisano do tej szkoły (ul. Rogatkowa 50, Wawer)."
+  ],
+  "checkedUrls": [
+   "http://3xm.pl/",
+   "https://www.liceumkorczaka.pl/",
+   "https://korczak.edu.pl/",
+   "https://szkolakorczak.pl/"
+  ]
+ },
+ {
+  "rspo": 73747,
+  "shortName": "LO Niepubliczne nr 27 „Szkoła Rodzinna”",
+  "url": "https://szkolarodzinna.pl/strona-glowna-lo/",
+  "profiles": [],
+  "admission": "Brak progów punktowych. Nabór całoroczny w miarę wolnych miejsc; przyjęcie po rozmowie kwalifikacyjnej z dyrektorem (mocne i słabe strony, zainteresowania, dotychczasowa edukacja, osiągnięcia), po wcześniejszym umówieniu telefonicznym. Źródło: https://szkolarodzinna.pl/rekrutacja-lo/",
+  "noOffer2026": true,
+  "doubts": [
+   "Strona rekrutacji nie jest datowana i nie podaje oferty klas ani rozszerzeń na 2026/2027. Szkoła działa (rozpoczęcie roku 2026/2027 w aktualnościach), ale datowanej oferty nie znaleziono. Strona szkoły: https://szkolarodzinna.pl/strona-glowna-lo/ (RSPO bez URL)."
+  ],
+  "checkedUrls": [
+   "https://szkolarodzinna.pl/",
+   "https://szkolarodzinna.pl/strona-glowna-lo/",
+   "https://szkolarodzinna.pl/rekrutacja-lo/"
+  ]
  }
 ]

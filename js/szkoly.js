@@ -300,6 +300,13 @@ const Szkoly = (function () {
         || (a.school.shortName || a.school.name).localeCompare(b.school.shortName || b.school.name, 'pl', { numeric: true }));
   }
 
+  // Krótka etykieta klasy na liście: nazwa, a przy nazwach z samym symbolem także rozszerzenia
+  function profileLabel(p) {
+    const ext = (p.extended || []).map(subjectName);
+    if (p.nameSource && ext.length) return `${p.name}: ${ext.join(', ')}`;
+    return p.name;
+  }
+
   function maturaBadge(m) {
     if (!m || m.passRate == null) return '';
     if (m.examinees && m.examinees < 20) {
@@ -322,7 +329,7 @@ const Szkoly = (function () {
       hasThresholds ? '<span class="szkoly__badge szkoly__badge--progi">progi punktowe</span>' : '',
     ].join('');
     const profilesHtml = shown.length
-      ? `<ul class="szkoly__card-profiles">${shown.map(p => `<li>${esc(p.name)}</li>`).join('')}${more > 0 ? `<li class="szkoly__more">i ${more} więcej</li>` : ''}</ul>`
+      ? `<ul class="szkoly__card-profiles">${shown.map(p => `<li>${esc(profileLabel(p))}</li>`).join('')}${more > 0 ? `<li class="szkoly__more">i ${more} więcej</li>` : ''}</ul>`
       : '<p class="szkoly__card-none">Brak danych o klasach w NextMove.</p>';
     return `
       <li>
@@ -695,7 +702,7 @@ const Szkoly = (function () {
       <h3 class="career-column__subtitle">Licea z pasującymi klasami</h3>
       <p class="career-column__text szkola__muted">Uczelnie na tej stronie zwykle wymagają matury rozszerzonej ${esc(groupsSentence(required))}.</p>
       <ul class="szkoly__mini">
-        ${lo.slice(0, MAX_LO).map(x => `<li><a href="${ctx.BASE}/szkola/${attr(x.s.rspo)}">${esc(x.s.shortName || x.s.name)}</a> <span class="szkola__muted">· ${x.ps.map(p => esc(p.name)).join(', ')}</span></li>`).join('')}
+        ${lo.slice(0, MAX_LO).map(x => `<li><a href="${ctx.BASE}/szkola/${attr(x.s.rspo)}">${esc(x.s.shortName || x.s.name)}</a> <span class="szkola__muted">· ${x.ps.map(p => esc(profileLabel(p))).join('; ')}</span></li>`).join('')}
       </ul>
       ${lo.length > MAX_LO ? `<p class="career-column__text"><a href="${attr(filterHref(required, d.slug))}">Zobacz wszystkie ${lo.length} ${plural(lo.length, 'liceum', 'licea', 'liceów')}</a></p>` : ''}`;
     } else if (recommended.length) {

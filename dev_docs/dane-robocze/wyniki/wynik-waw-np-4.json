@@ -409,5 +409,194 @@
    "https://bullerbyn.edu.pl"
   ],
   "rspo": 482286
+ },
+ {
+  "shortName": "Techni Schools Warszawa",
+  "url": "https://www.technischools.com",
+  "profiles": [
+   {
+    "name": "technik programista",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik programista",
+    "qualifications": [
+     "INF.03",
+     "INF.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [],
+    "scoredSubjects": [],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://web.archive.org/web/20260422203427/https://www.technischools.com/"
+   }
+  ],
+  "admission": "Bez punktacji w skali 200: formularz rekrutacyjny i test online w aplikacji szkoły, ostatni etap to rozmowa z pedagogiem i dyrektorem szkoły; podpisanie umowy i opłata rekrutacyjna (Warszawa 3490 zł). Na rocznik 2026 w Warszawie „tylko 32 miejsca”, I etap rekrutacji do 30.04.2026. Źródła: https://www.technischools.com/admission-rules , https://web.archive.org/web/20260422203427/https://www.technischools.com/",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona https://www.technischools.com/technik-cyberbezpieczenstwa zapowiada „Nowy kierunek 2026” technik cyberbezpieczeństwa, ale nie wskazuje miasta; RSPO dla Warszawy podaje tylko technika programistę. Nie wpisano jako profilu.",
+   "Liczba 32 miejsc pochodzi z bloku „Warszawa, ul. Młynarska 8/12” na stronie głównej z 22.04.2026 („Tylko 32 miejsca w roczniku 2026”)."
+  ],
+  "checkedUrls": [
+   "https://www.technischools.com/",
+   "https://www.technischools.com/admission-rules",
+   "https://www.technischools.com/technik-cyberbezpieczenstwa",
+   "https://web.archive.org/web/20260422203427/https://www.technischools.com/"
+  ],
+  "rspo": 274615
+ },
+ {
+  "shortName": "Niepubliczne Technikum Usługowe ZDZ (Szkoła na Starówce)",
+  "url": "https://szkoly.zdz.edu.pl",
+  "profiles": [
+   {
+    "name": "technik informatyk",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik informatyk",
+    "qualifications": [
+     "INF.02",
+     "INF.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkoly.zdz.edu.pl/rekrutacja/"
+   },
+   {
+    "name": "technik programista – cyberbezpieczeństwo",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik programista",
+    "qualifications": [
+     "INF.03",
+     "INF.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkoly.zdz.edu.pl/rekrutacja/"
+   },
+   {
+    "name": "technik realizacji nagrań",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik realizacji nagrań",
+    "qualifications": [
+     "AUD.08",
+     "AUD.09"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkoly.zdz.edu.pl/rekrutacja/"
+   },
+   {
+    "name": "technik realizacji nagłośnień",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik realizacji nagłośnień",
+    "qualifications": [
+     "AUD.06",
+     "AUD.07"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkoly.zdz.edu.pl/rekrutacja/"
+   },
+   {
+    "name": "technik żywienia i usług gastronomicznych – dietetyka",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik żywienia i usług gastronomicznych",
+    "qualifications": [
+     "HGT.02",
+     "HGT.12"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkoly.zdz.edu.pl/rekrutacja/"
+   },
+   {
+    "name": "technik usług fryzjerskich – kosmetyka – barbering",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik usług fryzjerskich",
+    "qualifications": [
+     "FRK.01",
+     "FRK.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkoly.zdz.edu.pl/rekrutacja/"
+   }
+  ],
+  "admission": "Bez punktacji w skali 200. O przyjęciu decyduje wynik rozmowy kwalifikacyjnej z dyrektorem (kandydat i rodzice, termin po rezerwacji telefonicznej) oraz ocena zachowania na świadectwie ukończenia SP; wymagane podanie, list motywacyjny, świadectwo, wyniki egzaminu ósmoklasisty, zaświadczenie lekarskie; w dniu rozmowy podpisanie umowy i wpisowe. Źródło: https://szkoly.zdz.edu.pl/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona „Rekrutacja 2026/2027” wymienia zawody bez liczby miejsc i języków; sekcja opłat na tej samej stronie jest opisana jako „REKRUTACJA 2025/2026”.",
+   "Dopiski „cyberbezpieczeństwo”, „dietetyka”, „kosmetyka – barbering” to nazwy specjalności szkoły, nie osobne zawody; kwalifikacje wpisano dla zawodów z klasyfikacji.",
+   "URL z RSPO z prefiksem www (www.szkoly.zdz.edu.pl) nie odpowiada; działa https://szkoly.zdz.edu.pl."
+  ],
+  "checkedUrls": [
+   "https://www.szkoly.zdz.edu.pl",
+   "https://szkoly.zdz.edu.pl/",
+   "https://szkoly.zdz.edu.pl/rekrutacja/"
+  ],
+  "rspo": 27792
+ },
+ {
+  "shortName": "Technikum Hermes",
+  "url": "https://www.szkolahermes.edu.pl",
+  "profiles": [],
+  "admission": "Bez punktacji w skali 200: o przyjęciu decyduje kolejność zgłoszeń i złożenie dokumentów (podanie, zdjęcie, świadectwo, wyniki egzaminu ósmoklasisty), potem umowa i badania medycyny pracy; dokumenty przyjmowane od 30 stycznia do 30 sierpnia (bez podanego roku); szkoła przyjmuje uczniów z orzeczeniem o potrzebie kształcenia specjalnego. Źródło: https://www.szkolahermes.edu.pl/rekrutacja",
+  "noOffer2026": true,
+  "doubts": [
+   "Oferta (technik informatyk, technik handlowiec: https://www.szkolahermes.edu.pl/oferta) i strona rekrutacji nie mają daty ani roku szkolnego; nie znaleziono datowanej oferty na 2026/2027 (sprawdzono też kopie w web.archive.org). Profili nie wpisano."
+  ],
+  "checkedUrls": [
+   "https://www.szkolahermes.edu.pl/",
+   "https://www.szkolahermes.edu.pl/rekrutacja",
+   "https://www.szkolahermes.edu.pl/oferta",
+   "https://www.szkolahermes.edu.pl/blog",
+   "http://web.archive.org/cdx/search/cdx?url=szkolahermes.edu.pl*"
+  ],
+  "rspo": 90980
  }
 ]

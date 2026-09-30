@@ -594,5 +594,98 @@
    "https://sites.google.com/bullerbyn.pl/astrid-edu-pl",
    "https://sites.google.com/bullerbyn.pl/astrid-edu-pl/rekrutacja"
   ]
+ },
+ {
+  "rspo": 131722,
+  "shortName": "Classical School (Liceum nr 271)",
+  "url": "https://classicalschool.edu.pl/",
+  "profiles": [],
+  "admission": "Nauczanie indywidualne jeden na jeden w systemie brytyjskim (iGCSE, A Level), bez klas, profili i progów punktowych. Rekrutacja przez spotkania diagnostyczne z nauczycielami i psychologami szkoły; na podstawie raportu szkoła układa indywidualny program ucznia. Źródło: https://classicalschool.edu.pl/ (treść z https://classicalschool.edu.pl/wp-json/atc-aka/v1/homepage)",
+  "noOffer2026": true,
+  "doubts": [
+   "Strona jest aplikacją JavaScript. Treść odczytano z jej źródła danych (wp-json/atc-aka/v1/homepage). Nie ma daty ani oferty na 2026/2027."
+  ],
+  "checkedUrls": [
+   "https://classicalschool.edu.pl/",
+   "https://classicalschool.edu.pl/wp-json/atc-aka/v1/homepage",
+   "https://classicalschool.edu.pl/sitemap.xml"
+  ]
+ },
+ {
+  "rspo": 480515,
+  "shortName": "Liceum Edukacji Wielojęzycznej LEW",
+  "url": "https://l-e-w.pl/",
+  "profiles": [],
+  "admission": "Rekrutacja przez cały rok, bez progów punktowych. Do klas pierwszych decyduje komisja na podstawie indywidualnej rozmowy (m.in. krótka wypowiedź po angielsku o wybranej książce, rozmowa z dyrektorem) i testów z j. polskiego i matematyki; do klas II-IV rozmowa oraz kolejność zgłoszeń, jeśli są wolne miejsca. Szkoła nie ma klas profilowanych: ścieżkę kształcenia i rozszerzenia uczeń wybiera pod koniec klasy I. Autorski program dwujęzyczny polsko-angielski (6 godz. ang), drugi język francuski lub hiszpański (2 godz.). Źródło: https://l-e-w.pl/rekrutacja/",
+  "noOffer2026": true,
+  "doubts": [
+   "Formularz zgłoszeniowy pozwala wybrać rok 2026/2027 oraz „klasę dwujęzyczną (polsko-angielską)” albo „klasę polskojęzyczną”, ale szkoła nie publikuje datowanej oferty oddziałów na 2026/2027. FAQ (bez daty) mówi, że klasy nie są profilowane. Nie wpisano profili."
+  ],
+  "checkedUrls": [
+   "https://www.l-e-w.pl",
+   "https://l-e-w.pl/",
+   "https://l-e-w.pl/rekrutacja/"
+  ]
+ },
+ {
+  "rspo": 479210,
+  "shortName": "Liceum Filmowe i Kreacji Gier Wideo",
+  "url": "https://liceumfilmoweigier.pl/",
+  "profiles": [],
+  "admission": "Szkoła niepubliczna poza systemem naboru m.st. Warszawy, bez progów punktowych. Kandydat składa podanie (online lub w sekretariacie), w dniu rozmowy pisze 90-minutowy test predyspozycji (j. polski, j. angielski, matematyka na poziomie egzaminu ósmoklasisty) i przechodzi ok. 20-minutową rozmowę z prezentacją zainteresowań lub portfolio (z udziałem rodzica). Oceny są jednym z kilku czynników. Wynik podawany jest w ciągu 10 dni roboczych. Na 2026/27 trwa rekrutacja uzupełniająca; opłaty dla klasy 1 rocznika 2026-2027: 2200 zł/mies. (IX-VI), 1100 zł/mies. (VII-VIII), wpisowe 2000 zł. Źródło: https://liceumfilmoweigier.pl/pl/lf/C_WSFO.LF.1005/REKRUTACJA-TRWA!",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona „Oferta” (https://liceumfilmoweigier.pl/pl/lf/7562/OFERTA) wymienia bez daty profile: aktorski, charakteryzacji filmowej i wizażu, filmowy, kreacji gier wideo. Opis szkoły mówi o rozszerzeniach obowiązkowych z j. polskiego i j. angielskiego oraz do wyboru z geografii, historii, matematyki i historii sztuki. Niedatowany ramowy plan pokazuje w klasach I-IV „3+2R” godzin angielskiego. Brak datowanej oferty klas na 2026/2027, więc profili nie wpisano.",
+   "Strona rekrutacji jest już przestawiona na nabór 2027/2028 (podania od 01.10.2026); zostały na niej informacje o rekrutacji uzupełniającej 2026/27 i opłatach dla rocznika 2026-2027."
+  ],
+  "checkedUrls": [
+   "https://liceumfilmoweigier.pl/",
+   "https://liceumfilmoweigier.pl/pl/lf/C_WSFO.LF.1005/REKRUTACJA-TRWA!",
+   "https://liceumfilmoweigier.pl/pl/lf/7562/OFERTA",
+   "https://liceumfilmoweigier.pl/pl/lf/C_WSFO.LF.2888/DLA-KANDYDATA-I-RODZICA",
+   "https://liceumfilmoweigier.pl/pl/lf/7562/1435/profil-aktorski",
+   "https://liceumfilmoweigier.pl/pl/lf/7562/347/profil-filmowy",
+   "https://liceumfilmoweigier.pl/palio/html.wmedia?_Instance=wsfonline&_Connector=data&_ID=14293&_CheckSum=-1371545998"
+  ]
+ },
+ {
+  "rspo": 273209,
+  "shortName": "Liceum Miodowa (Liceum Chocimska na Miodowej)",
+  "url": "https://liceum.chocimska.edu.pl/",
+  "profiles": [
+   {
+    "name": "klasy pierwsze bez profilu (j. angielski rozszerzony dla wszystkich, pozostałe rozszerzenia wybierane w klasie II)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceum.chocimska.edu.pl/rekrutacja/"
+   }
+  ],
+  "admission": "Rekrutacja do klas pierwszych na 2026/27 bez skali 200: zgłoszenie do 8.04.2026; I etap 11.04.2026 – ATUS (Autorski Test Umiejętności Szkolnych: praca z tekstem, matematyka, j. angielski, ok. 120 min); II etap 18 lub 19.04.2026 – zadanie grupowe (ok. 4 godz.); wyniki mailem do 24.04.2026. Oczekiwany angielski co najmniej B1/B1+. Osobny konkurs rekrutacyjny „Miasto przyszłości”: wyróżnienie daje przyjęcie bez rekrutacji. Czesne 2300 zł/mies., wpisowe 2300 zł. Źródło: https://liceum.chocimska.edu.pl/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Liczby klas pierwszych na 2026/27 nie podano. Wpisano jeden zbiorczy wpis na podstawie zdania ze strony rekrutacji 2026/27: „W liceum wszystkie klasy realizują program rozszerzony z języka angielskiego”. Według niedatowanej strony „Rozszerzenia” (https://liceum.chocimska.edu.pl/o-nas/rozszerzenia/) dwa dodatkowe rozszerzenia uczeń wybiera na początku klasy II spośród: polski, matematyka, historia, biologia, geografia, fizyka, WOS, chemia, BIZ, filozofia, historia sztuki.",
+   "RSPO nie podaje strony www. Stronę szkoły znaleziono po domenie z e-maila w RSPO (liceum@chocimska.edu.pl): chocimska.edu.pl, potem liceum.chocimska.edu.pl. Adres www.liceumchocimska.edu.pl nie działa."
+  ],
+  "checkedUrls": [
+   "https://www.chocimska.edu.pl/",
+   "http://www.liceumchocimska.edu.pl/",
+   "https://liceum.chocimska.edu.pl/",
+   "https://liceum.chocimska.edu.pl/rekrutacja/",
+   "https://liceum.chocimska.edu.pl/o-nas/rozszerzenia/"
+  ]
  }
 ]

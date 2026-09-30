@@ -1,0 +1,6111 @@
+[
+ {
+  "rspo": 4045,
+  "profiles": [
+   {
+    "name": "1A1 mat-inf-ang. (ang,hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 159.9,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d3e0ad8e57486a7d3af/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4343"
+   },
+   {
+    "name": "1A2 mat-chem-ang. (ang,hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "chem",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "chem",
+     "ang"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 155.55,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d400ad8e57486a7d3b0/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4353"
+   },
+   {
+    "name": "1B1 biol-mat-ang (ang,hiszp,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 165.7,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d410ad8e57486a7d3b1/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4358"
+   },
+   {
+    "name": "1B2 biol-pol-ang (ang,hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 157.25,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d430ad8e57486a7d3b2/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4383"
+   },
+   {
+    "name": "1C1 pol-hist-ang (ang,hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 154.8,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d460ad8e57486a7d3b3/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4388"
+   },
+   {
+    "name": "1C2 pol-wos-ang (ang,hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "pol",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 152.4,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d470ad8e57486a7d3b4/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4393"
+   },
+   {
+    "name": "1D mat-geo-ang (ang,hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": 30,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 159.65,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d490ad8e57486a7d3b5/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4398"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=82",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/02588995/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4343",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d3e0ad8e57486a7d3af/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4353",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d400ad8e57486a7d3b0/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4358",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d410ad8e57486a7d3b1/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4383",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d430ad8e57486a7d3b2/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4388",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d460ad8e57486a7d3b3/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4393",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d470ad8e57486a7d3b4/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4398",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d490ad8e57486a7d3b5/2026"
+  ]
+ },
+ {
+  "rspo": 23199,
+  "profiles": [
+   {
+    "name": "0W Wstępna z j.francuskim(bez znajomości języka)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "fr",
+     "ang"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 153.85,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d5a0ad8e57486a7d3bf/2026"
+     },
+     {
+      "year": 2025,
+      "min": 144.45,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7abbbc0897545ac52688/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2039",
+    "specialType": "wstępny (drugi język: język francuski)"
+   },
+   {
+    "name": "1A Chemiczno-matematyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "chem",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [
+     [
+      "fil",
+      "hsz",
+      "inf",
+      "wos"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "chem",
+     "fiz"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 168.65,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d570ad8e57486a7d3be/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2037"
+   },
+   {
+    "name": "1B Prawnicza",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [
+     [
+      "fil",
+      "hsz",
+      "inf",
+      "wos"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 162.3,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d4d0ad8e57486a7d3ba/2026"
+     },
+     {
+      "year": 2025,
+      "min": 167.45,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ab1bc0897545ac52683/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=672"
+   },
+   {
+    "name": "1C Matematyczno-fizyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [
+     [
+      "fil",
+      "hsz",
+      "inf",
+      "wos"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "chem"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 169.5,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d4f0ad8e57486a7d3bb/2026"
+     },
+     {
+      "year": 2025,
+      "min": 165.4,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ab3bc0897545ac52684/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=673"
+   },
+   {
+    "name": "1D Matematyczno-geograficzna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [
+     [
+      "fil",
+      "hsz",
+      "inf",
+      "wos"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "geo"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 167.7,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d510ad8e57486a7d3bc/2026"
+     },
+     {
+      "year": 2025,
+      "min": 168.4,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ab5bc0897545ac52685/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=676"
+   },
+   {
+    "name": "1E Biologiczno-chemiczno",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "fil",
+      "hsz",
+      "inf",
+      "wos"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 173.4,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d540ad8e57486a7d3bd/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=679"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "0W Wstępna z j.francuskim(bez znajomości języka): punktowane także max(fran,hiszp,niem,ros,wło) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=83",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/13759689/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2039",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d5a0ad8e57486a7d3bf/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7abbbc0897545ac52688/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2037",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d570ad8e57486a7d3be/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=672",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d4d0ad8e57486a7d3ba/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ab1bc0897545ac52683/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=673",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d4f0ad8e57486a7d3bb/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ab3bc0897545ac52684/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=676",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d510ad8e57486a7d3bc/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ab5bc0897545ac52685/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=679",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d540ad8e57486a7d3bd/2026"
+  ]
+ },
+ {
+  "rspo": 29583,
+  "profiles": [
+   {
+    "name": "1B 1BIOCHEM",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 185.95,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d5f0ad8e57486a7d3c8/2026"
+     },
+     {
+      "year": 2025,
+      "min": 180.95,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7abebc0897545ac52691/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=835"
+   },
+   {
+    "name": "1Bdw 1BIOCHEM dw",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 209.1,
+      "scale": 220,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d5c0ad8e57486a7d3c3/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3304",
+    "specialType": "dwujęzyczny (drugi język: język angielski)"
+   },
+   {
+    "name": "1G-MATFIZ 1G-MATFIZ",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 8,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 178.8,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d610ad8e57486a7d3c9/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4253"
+   },
+   {
+    "name": "1G-MATFIZdw 1G-MATFIZ dw",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 7,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 198.25,
+      "scale": 220,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d5c0ad8e57486a7d3c4/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3309",
+    "specialType": "dwujęzyczny (drugi język: język angielski)"
+   },
+   {
+    "name": "1G-MATGEO 1G-MATGEO",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [
+     "biznes i zarządzanie"
+    ],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 7,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 176.45,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d620ad8e57486a7d3ca/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4258"
+   },
+   {
+    "name": "1G-MATGEOdw 1G-MATGEO dw",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [
+     "biznes i zarządzanie"
+    ],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 7,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 197.9,
+      "scale": 220,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d630ad8e57486a7d3cb/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4263",
+    "specialType": "dwujęzyczny (drugi język: język angielski)"
+   },
+   {
+    "name": "1M 1MATFIZ",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "inf"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 198.85,
+      "scale": 220,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d5d0ad8e57486a7d3c5/2026"
+     },
+     {
+      "year": 2025,
+      "min": 189.95,
+      "scale": 220,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7abcbc0897545ac5268d/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=822"
+   },
+   {
+    "name": "1N-NASPO 1N-NASPO",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fil",
+     "hist",
+     "pol",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "hist"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 171.75,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d650ad8e57486a7d3cd/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4313"
+   },
+   {
+    "name": "1N-NASPOdw 1N-NASPOdw",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fil",
+     "hist",
+     "pol",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "hist"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 191.95,
+      "scale": 220,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d640ad8e57486a7d3cc/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4293",
+    "specialType": "dwujęzyczny (drugi język: język angielski)"
+   },
+   {
+    "name": "1P 1MATINFO",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "inf"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 198.8,
+      "scale": 220,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d5e0ad8e57486a7d3c6/2026"
+     },
+     {
+      "year": 2025,
+      "min": 181.6,
+      "scale": 220,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7abdbc0897545ac5268e/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=825"
+   },
+   {
+    "name": "1Z MYP",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "pol",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 200.4,
+      "scale": 220,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d5e0ad8e57486a7d3c7/2026"
+     },
+     {
+      "year": 2025,
+      "min": 196.05,
+      "scale": 220,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7abebc0897545ac52690/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=831",
+    "specialType": "międzynarodowy"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1Bdw 1BIOCHEM dw: maksymalna liczba punktów w systemie naboru 220, próg wpisany w skali 220",
+   "1G-MATFIZdw 1G-MATFIZ dw: maksymalna liczba punktów w systemie naboru 220, próg wpisany w skali 220",
+   "1G-MATGEOdw 1G-MATGEO dw: maksymalna liczba punktów w systemie naboru 220, próg wpisany w skali 220",
+   "1M 1MATFIZ: maksymalna liczba punktów w systemie naboru 220, próg wpisany w skali 220",
+   "1N-NASPOdw 1N-NASPOdw: maksymalna liczba punktów w systemie naboru 220, próg wpisany w skali 220",
+   "1P 1MATINFO: maksymalna liczba punktów w systemie naboru 220, próg wpisany w skali 220",
+   "1Z MYP: maksymalna liczba punktów w systemie naboru 220, próg wpisany w skali 220",
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=84",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/59527877/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=835",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d5f0ad8e57486a7d3c8/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7abebc0897545ac52691/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3304",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d5c0ad8e57486a7d3c3/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4253",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d610ad8e57486a7d3c9/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3309",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d5c0ad8e57486a7d3c4/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4258",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d620ad8e57486a7d3ca/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4263",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d630ad8e57486a7d3cb/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=822",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d5d0ad8e57486a7d3c5/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7abcbc0897545ac5268d/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4313",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d650ad8e57486a7d3cd/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4293",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d640ad8e57486a7d3cc/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=825",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d5e0ad8e57486a7d3c6/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7abdbc0897545ac5268e/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=831",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d5e0ad8e57486a7d3c7/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7abebc0897545ac52690/2025"
+  ]
+ },
+ {
+  "rspo": 3957,
+  "profiles": [
+   {
+    "name": "1A psychologiczna (psychologia, nauki społeczne)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 155.3,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c740ad8e57486a7d2e6/2026"
+     },
+     {
+      "year": 2025,
+      "min": 150.2,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a38bc0897545ac525ed/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=128"
+   },
+   {
+    "name": "1B biologiczno-chemiczna (kierunki biomedyczne)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 155.7,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c7a0ad8e57486a7d2e7/2026"
+     },
+     {
+      "year": 2025,
+      "min": 154.55,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a3bbc0897545ac525ee/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=132"
+   },
+   {
+    "name": "1C psychologiczna (psychologia, nauki społeczne)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 147.75,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c7d0ad8e57486a7d2e8/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=144"
+   },
+   {
+    "name": "1D matematyka-geografia /ekonomia i politechnika",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 159.85,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c7f0ad8e57486a7d2e9/2026"
+     },
+     {
+      "year": 2025,
+      "min": 148.2,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a40bc0897545ac525f0/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=159"
+   },
+   {
+    "name": "1E teatralno-filmowa (kierunki artystyczne)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 149.15,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c830ad8e57486a7d2ea/2026"
+     },
+     {
+      "year": 2025,
+      "min": 144.25,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a42bc0897545ac525f1/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3069"
+   },
+   {
+    "name": "1F humanistyczna (prawo i dziennikarstwo)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 149.3,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c6f0ad8e57486a7d2e5/2026"
+     },
+     {
+      "year": 2025,
+      "min": 146.55,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a44bc0897545ac525f2/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3074"
+   },
+   {
+    "name": "1G biologiczno-chemiczna (kierunki biomedyczne)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 153.65,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c860ad8e57486a7d2eb/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3776"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=298",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/25649028/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=128",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c740ad8e57486a7d2e6/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a38bc0897545ac525ed/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=132",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c7a0ad8e57486a7d2e7/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a3bbc0897545ac525ee/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=144",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c7d0ad8e57486a7d2e8/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=159",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c7f0ad8e57486a7d2e9/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a40bc0897545ac525f0/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3069",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c830ad8e57486a7d2ea/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a42bc0897545ac525f1/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3074",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c6f0ad8e57486a7d2e5/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a44bc0897545ac525f2/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3776",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c860ad8e57486a7d2eb/2026"
+  ]
+ },
+ {
+  "rspo": 129601,
+  "profiles": [
+   {
+    "name": "1ALO klasa kosmetologiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2251"
+   },
+   {
+    "name": "1BLO klasa kryminalistyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2255"
+   },
+   {
+    "name": "1CLO klasa projektowania graficznego",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hsz",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2257"
+   },
+   {
+    "name": "1DLO klasa psychologiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 30,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2262"
+   },
+   {
+    "name": "1FLO klasa językowa",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3589"
+   },
+   {
+    "name": "1ILO klasa medyczno-ratownicza",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4188"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "W ofercie systemu naboru z liczbą miejsc 0 (prawdopodobnie oddział nieuruchomiony, pominięty w profiles): 1ELO klasa biznesowa; 1GLO klasa filmowa; 1HLO klasa marketing i kreacja; 1JLO klasa prawnicza; 1KLO klasa stylizacja i wizerunek"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=507",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2251",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2255",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2257",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2262",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2514",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3589",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4173",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4183",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4188",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4193",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4198"
+  ]
+ },
+ {
+  "rspo": 25697,
+  "profiles": [
+   {
+    "name": "1A1 Akademicka mat-geo",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "fr",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 146.35,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d6b0ad8e57486a7d3d2/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=743"
+   },
+   {
+    "name": "1A2 Akademicka mat-info",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 143.85,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d670ad8e57486a7d3d0/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1364"
+   },
+   {
+    "name": "1B Biomedyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "fr",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 141.25,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d660ad8e57486a7d3cf/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2125"
+   },
+   {
+    "name": "1C Humanistyczna: policyjno-prawna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 138.95,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d680ad8e57486a7d3d1/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3635"
+   },
+   {
+    "name": "1D [S] Sportowa biol-geo",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat"
+    ],
+    "places": 24,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 80.0,
+      "scale": 100,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d6c0ad8e57486a7d3d3/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4338",
+    "specialType": "sportowy"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1D [S] Sportowa biol-geo: maksymalna liczba punktów w systemie naboru 100, próg wpisany w skali 100",
+   "1A1 Akademicka mat-geo: punktowane także I_najl(biol,chem,fiz,geo,hist,inf,ang,wos), II_najl(biol,chem,fiz,geo,hist,inf,ang,wos) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1A2 Akademicka mat-info: punktowane także I_najl(biol,chem,fiz,geo,hist,inf,ang,wos), II_najl(biol,chem,fiz,geo,hist,inf,ang,wos) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1B Biomedyczna: punktowane także I_najl(biol,chem,fiz,geo,hist,inf,ang,wos), II_najl(biol,chem,fiz,geo,hist,inf,ang,wos) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1C Humanistyczna: policyjno-prawna: punktowane także I_najl(biol,chem,fiz,geo,hist,inf,ang,wos), II_najl(biol,chem,fiz,geo,hist,inf,ang,wos) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1D [S] Sportowa biol-geo: punktowane także I_najl(biol,chem,fiz,geo,hist,inf,ang,wos), II_najl(biol,chem,fiz,geo,hist,inf,ang,wos) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=86",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/87910605/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=743",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d6b0ad8e57486a7d3d2/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1364",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d670ad8e57486a7d3d0/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2125",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d660ad8e57486a7d3cf/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3635",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d680ad8e57486a7d3d1/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4338",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d6c0ad8e57486a7d3d3/2026"
+  ]
+ },
+ {
+  "rspo": 3640,
+  "profiles": [
+   {
+    "name": "1A [O] fiz-ang-mat (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 172.65,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d6d0ad8e57486a7d3d5/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=343"
+   },
+   {
+    "name": "1B_h [O] geogr-ang-mat (ang-hisz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 174.9,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d710ad8e57486a7d3d7/2026"
+     },
+     {
+      "year": 2025,
+      "min": 168.2,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ac9bc0897545ac5269d/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=349"
+   },
+   {
+    "name": "1B_n [O] geogr-ang-mat (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 171.95,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d6f0ad8e57486a7d3d6/2026"
+     },
+     {
+      "year": 2025,
+      "min": 167.0,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ac7bc0897545ac5269c/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=348"
+   },
+   {
+    "name": "1C_h [O] fiz-inf-mat (ang-hisz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "inf",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "inf"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 170.7,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d760ad8e57486a7d3da/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3469"
+   },
+   {
+    "name": "1C_n [O] fiz-inf-mat (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "inf",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "fiz"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 170.0,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d730ad8e57486a7d3d8/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=352"
+   },
+   {
+    "name": "1D_f [O] biol-chem (ang-fra)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 176.85,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d740ad8e57486a7d3d9/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=365"
+   },
+   {
+    "name": "1D_n [O] biol-chem (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 175.4,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d770ad8e57486a7d3db/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3499"
+   },
+   {
+    "name": "1E_hum [O] hist-pol-wos (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "pol",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "wos"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 164.2,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d7c0ad8e57486a7d3dd/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4158"
+   },
+   {
+    "name": "1E_m [O] biol-mat (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 174.9,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d790ad8e57486a7d3dc/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4153"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1A [O] fiz-ang-mat (ang-niem): punktowane także max(chem,geo) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1B_h [O] geogr-ang-mat (ang-hisz): punktowane także max(chem,fiz) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1B_n [O] geogr-ang-mat (ang-niem): punktowane także max(chem,fiz) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=87",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/60060286/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=343",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d6d0ad8e57486a7d3d5/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=349",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d710ad8e57486a7d3d7/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ac9bc0897545ac5269d/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=348",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d6f0ad8e57486a7d3d6/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ac7bc0897545ac5269c/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3469",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d760ad8e57486a7d3da/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=352",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d730ad8e57486a7d3d8/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=365",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d740ad8e57486a7d3d9/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3499",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d770ad8e57486a7d3db/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4158",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d7c0ad8e57486a7d3dd/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4153",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d790ad8e57486a7d3dc/2026"
+  ]
+ },
+ {
+  "rspo": 21211,
+  "profiles": [
+   {
+    "name": "1A społeczna (geogr-wos-ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 142.9,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d860ad8e57486a7d3e7/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1012"
+   },
+   {
+    "name": "1B medyczna (biol-chem-ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "chem"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 145.15,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d890ad8e57486a7d3e8/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1017"
+   },
+   {
+    "name": "1C psychologiczna (pol-biol-ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 143.0,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d8c0ad8e57486a7d3e9/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3751"
+   },
+   {
+    "name": "1D lingwistyczna (pol-ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 140.85,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d8f0ad8e57486a7d3ea/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3756"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=88",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/48058254/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1012",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d860ad8e57486a7d3e7/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1017",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d890ad8e57486a7d3e8/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3751",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d8c0ad8e57486a7d3e9/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3756",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d8f0ad8e57486a7d3ea/2026"
+  ]
+ },
+ {
+  "rspo": 3620,
+  "profiles": [
+   {
+    "name": "1A-mat-fiz mat-fiz(ang-niem/hisz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [
+     [
+      "bio",
+      "chem",
+      "geo",
+      "hist",
+      "inf",
+      "ang",
+      "pol",
+      "wos"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 167.45,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d920ad8e57486a7d3ec/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=84"
+   },
+   {
+    "name": "1B-biol-chem biol-chem(ang-niem/hisz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [
+     [
+      "fiz",
+      "geo",
+      "hist",
+      "inf",
+      "ang",
+      "pol",
+      "mat",
+      "wos"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 171.05,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d950ad8e57486a7d3ed/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=87"
+   },
+   {
+    "name": "1C-pol-wos pol-wos(ang-niem/hisz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "wos"
+    ],
+    "extendedChoice": [
+     [
+      "bio",
+      "chem",
+      "fiz",
+      "geo",
+      "hist",
+      "inf",
+      "ang",
+      "mat"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 160.45,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d990ad8e57486a7d3ee/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1375"
+   },
+   {
+    "name": "1D-mat-geo mat-geo(ang-niem/hisz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "mat"
+    ],
+    "extendedChoice": [
+     [
+      "bio",
+      "chem",
+      "fiz",
+      "hist",
+      "inf",
+      "ang",
+      "pol",
+      "wos"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 165.45,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d9d0ad8e57486a7d3ef/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2611"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=91",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/29230778/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=84",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d920ad8e57486a7d3ec/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=87",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d950ad8e57486a7d3ed/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1375",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d990ad8e57486a7d3ee/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2611",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d9d0ad8e57486a7d3ef/2026"
+  ]
+ },
+ {
+  "rspo": 18942,
+  "profiles": [
+   {
+    "name": "1a Dwujęzyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "bio",
+      "geo",
+      "hist",
+      "hisz",
+      "pol",
+      "wos"
+     ]
+    ],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 157.4,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2da40ad8e57486a7d3f5/2026"
+     },
+     {
+      "year": 2025,
+      "min": 150.0,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ae2bc0897545ac526ae/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=561",
+    "specialType": "dwujęzyczny (drugi język: język angielski)"
+   },
+   {
+    "name": "1b Humanistyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol"
+    ],
+    "extendedChoice": [
+     [
+      "bio",
+      "geo",
+      "hist",
+      "ang",
+      "hisz",
+      "wos"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 154.0,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2daa0ad8e57486a7d3f8/2026"
+     },
+     {
+      "year": 2025,
+      "min": 159.25,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ae8bc0897545ac526b1/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1878"
+   },
+   {
+    "name": "1c Politechniczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [
+     [
+      "chem",
+      "fiz",
+      "geo",
+      "inf",
+      "ang"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "fiz"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 163.45,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2da50ad8e57486a7d3f6/2026"
+     },
+     {
+      "year": 2025,
+      "min": 160.45,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ae3bc0897545ac526af/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=570"
+   },
+   {
+    "name": "1d Biomedyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio"
+    ],
+    "extendedChoice": [
+     [
+      "chem",
+      "ang",
+      "pol",
+      "mat"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "chem"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 166.85,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2da80ad8e57486a7d3f7/2026"
+     },
+     {
+      "year": 2025,
+      "min": 163.15,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ae6bc0897545ac526b0/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=576"
+   },
+   {
+    "name": "1e Lingwistyczno-humanistyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "bio",
+      "hist",
+      "hisz",
+      "pol",
+      "wos"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "hist"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 153.45,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dad0ad8e57486a7d3f9/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3761"
+   },
+   {
+    "name": "1f Lingwistyczna-biznesowa",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "chem",
+      "fiz",
+      "geo",
+      "inf",
+      "hisz",
+      "mat"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 160.05,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2daf0ad8e57486a7d3fa/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3771"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=96",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/57943240/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=561",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2da40ad8e57486a7d3f5/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ae2bc0897545ac526ae/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1878",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2daa0ad8e57486a7d3f8/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ae8bc0897545ac526b1/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=570",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2da50ad8e57486a7d3f6/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ae3bc0897545ac526af/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=576",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2da80ad8e57486a7d3f7/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ae6bc0897545ac526b0/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3761",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dad0ad8e57486a7d3f9/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3771",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2daf0ad8e57486a7d3fa/2026"
+  ]
+ },
+ {
+  "rspo": 196346,
+  "profiles": [
+   {
+    "name": "1A matematyczno - geograficzna (ang-niem/fra)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 163.4,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c950ad8e57486a7d2fa/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1296"
+   },
+   {
+    "name": "1B matematyczno - informatyczna (ang-niem/fra)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 163.35,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c9e0ad8e57486a7d2fe/2026"
+     },
+     {
+      "year": 2025,
+      "min": 156.7,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a4cbc0897545ac525f8/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1519"
+   },
+   {
+    "name": "1C_1 matematyczno - fizyczna (ang-niem/fra)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "fiz"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 163.45,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c980ad8e57486a7d2fb/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2511"
+   },
+   {
+    "name": "1C_2 matematyczno - biologiczna (ang - niem / fra)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 165.85,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2ca00ad8e57486a7d2ff/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4403"
+   },
+   {
+    "name": "1D_1 biologiczno-chemiczna (ang-niem/fra)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 167.8,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c990ad8e57486a7d2fc/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2521"
+   },
+   {
+    "name": "1D_2 humanistyczna (ang-niem/fra)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 160.55,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c9c0ad8e57486a7d2fd/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2525"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1D_1 biologiczno-chemiczna (ang-niem/fra): punktowane także max(biol,chem) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=300",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/05494958/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1296",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c950ad8e57486a7d2fa/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1519",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c9e0ad8e57486a7d2fe/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a4cbc0897545ac525f8/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2511",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c980ad8e57486a7d2fb/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4403",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2ca00ad8e57486a7d2ff/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2521",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c990ad8e57486a7d2fc/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2525",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c9c0ad8e57486a7d2fd/2026"
+  ]
+ },
+ {
+  "rspo": 279291,
+  "profiles": [
+   {
+    "name": "324002 [O] Technik weterynarii (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik weterynarii",
+    "qualifications": [
+     "ROL.11",
+     "ROL.12"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 48,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4456"
+   },
+   {
+    "name": "333907 [O] Technik reklamy (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik reklamy",
+    "qualifications": [
+     "PGF.07",
+     "PGF.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 48,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4466"
+   },
+   {
+    "name": "343105 [O] Technik fotografii i multimediów (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf"
+    ],
+    "extendedChoice": [
+     [
+      "mat"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik fotografii i multimediów",
+    "qualifications": [
+     "AUD.02",
+     "AUD.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 48,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4461"
+   },
+   {
+    "name": "351203 [O] Technik informatyk (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik informatyk",
+    "qualifications": [
+     "INF.02",
+     "INF.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 48,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2351"
+   },
+   {
+    "name": "351406 [O] Technik programista (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik programista",
+    "qualifications": [
+     "INF.03",
+     "INF.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "ang"
+    ],
+    "places": 48,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2356"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=520",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4456",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4466",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4461",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2351",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2356"
+  ]
+ },
+ {
+  "rspo": 18862,
+  "profiles": [
+   {
+    "name": "1TRW [O] Technik robót wykończeniowych w budownictwie (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik robót wykończeniowych w budownictwie",
+    "qualifications": [
+     "BUD.11",
+     "BUD.25"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 89.4,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cd10ad8e57486a7d326/2026"
+     },
+     {
+      "year": 2025,
+      "min": 69.9,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a66bc0897545ac52612/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=297"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1TRW [O] Technik robót wykończeniowych w budownictwie (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena, max(plas,tech) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=310",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/31908333/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=297",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cd10ad8e57486a7d326/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a66bc0897545ac52612/2025"
+  ]
+ },
+ {
+  "rspo": 12039,
+  "profiles": [
+   {
+    "name": "1TBJP TECHNIK BUDOWY JEDNOSTEK PŁYWAJĄCYCH",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik budowy jednostek pływających",
+    "qualifications": [
+     "TWO.03",
+     "TWO.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 66.9,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cf80ad8e57486a7d35e/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=124",
+    "specialType": "przygotowania wojskowego"
+   },
+   {
+    "name": "1TEPIT TECHNIK EKSPLOATACJI PORTÓW I TERMINALI",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik eksploatacji portów i terminali",
+    "qualifications": [
+     "SPL.02",
+     "SPL.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 113.35,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cf70ad8e57486a7d35d/2026"
+     },
+     {
+      "year": 2025,
+      "min": 88.1,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a7bbc0897545ac52637/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=123"
+   },
+   {
+    "name": "1TML TECHNIK MECHANIK LOTNICZY",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik mechanik lotniczy",
+    "qualifications": [
+     "TLO.07"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000404",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 98.45,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cf80ad8e57486a7d35f/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=125",
+    "specialType": "przygotowania wojskowego"
+   },
+   {
+    "name": "1TS TECHNIK SPAWALNICTWA",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik spawalnictwa",
+    "qualifications": [
+     "MEC.03 albo MEC.04 albo MEC.08 albo TWO.03",
+     "MEC.10"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 87.75,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cf90ad8e57486a7d360/2026"
+     },
+     {
+      "year": 2025,
+      "min": 33.85,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a7dbc0897545ac5263a/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2578"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=324",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/17037992/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=124",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cf80ad8e57486a7d35e/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=123",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cf70ad8e57486a7d35d/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a7bbc0897545ac52637/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=125",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cf80ad8e57486a7d35f/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2578",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cf90ad8e57486a7d360/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a7dbc0897545ac5263a/2025"
+  ]
+ },
+ {
+  "rspo": 11366,
+  "profiles": [
+   {
+    "name": "1k [O] Technik chłodnictwa i klimatyzacji (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik chłodnictwa i klimatyzacji",
+    "qualifications": [
+     "ELE.03",
+     "ELE.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 109.65,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dc50ad8e57486a7d429/2026"
+     },
+     {
+      "year": 2025,
+      "min": 101.05,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7afdbc0897545ac526da/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=640"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1k [O] Technik chłodnictwa i klimatyzacji (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=110",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/36792911/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=640",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dc50ad8e57486a7d429/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7afdbc0897545ac526da/2025"
+  ]
+ },
+ {
+  "rspo": 23054,
+  "profiles": [
+   {
+    "name": "1A1 TE, technik ekonomista (dwujęzyczna z jęz. ang)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "geo"
+     ]
+    ],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": "technik ekonomista",
+    "qualifications": [
+     "EKA.04",
+     "EKA.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 117.75,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db20ad8e57486a7d3fc/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=599",
+    "specialType": "dwujęzyczny (drugi język: język angielski)"
+   },
+   {
+    "name": "1A2 TE, [O] Technik ekonomista (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "geo"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik ekonomista",
+    "qualifications": [
+     "EKA.04",
+     "EKA.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 143.45,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db40ad8e57486a7d3ff/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1783"
+   },
+   {
+    "name": "1B TRa, [O] Technik rachunkowości (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "geo"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik rachunkowości",
+    "qualifications": [
+     "EKA.05",
+     "EKA.07"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 90.65,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db50ad8e57486a7d400/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1785"
+   },
+   {
+    "name": "1C TR, technik reklamy (j.ang., j.niem.)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "geo"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik reklamy",
+    "qualifications": [
+     "PGF.07",
+     "PGF.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 105.0,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db20ad8e57486a7d3fd/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=605"
+   },
+   {
+    "name": "1D1_TG [D] Technik grafiki i poligrafii cyfrowej (ang-ros)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "geo"
+     ]
+    ],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": "technik grafiki i poligrafii cyfrowej",
+    "qualifications": [
+     "PGF.04",
+     "PGF.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 44.4,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db60ad8e57486a7d401/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4088",
+    "specialType": "dwujęzyczny (drugi język: język angielski)"
+   },
+   {
+    "name": "1D2 TG, t.grafiki i poligrafii cyfrowej (j.ang.j.ros.)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "geo"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik grafiki i poligrafii cyfrowej",
+    "qualifications": [
+     "PGF.04",
+     "PGF.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 119.5,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db30ad8e57486a7d3fe/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=606"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=97",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/39570802/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=599",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db20ad8e57486a7d3fc/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1783",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db40ad8e57486a7d3ff/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1785",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db50ad8e57486a7d400/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=605",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db20ad8e57486a7d3fd/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4088",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db60ad8e57486a7d401/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=606",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db30ad8e57486a7d3fe/2026"
+  ]
+ },
+ {
+  "rspo": 11365,
+  "profiles": [
+   {
+    "name": "1ai [O] Technik informatyk (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik informatyk",
+    "qualifications": [
+     "INF.02",
+     "INF.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 127.65,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dca0ad8e57486a7d432/2026"
+     },
+     {
+      "year": 2025,
+      "min": 121.35,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b00bc0897545ac526e2/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=646"
+   },
+   {
+    "name": "1e [O] Technik elektronik (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik elektronik",
+    "qualifications": [
+     "ELM.02",
+     "ELM.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 127.35,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dcd0ad8e57486a7d435/2026"
+     },
+     {
+      "year": 2025,
+      "min": 110.8,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b02bc0897545ac526e5/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=652"
+   },
+   {
+    "name": "1el [O] Technik elektryk (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik elektryk",
+    "qualifications": [
+     "ELE.02",
+     "ELE.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 141.5,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dc80ad8e57486a7d431/2026"
+     },
+     {
+      "year": 2025,
+      "min": 99.5,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7affbc0897545ac526e1/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=643"
+   },
+   {
+    "name": "1m [O] Technik mechatronik (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik mechatronik",
+    "qualifications": [
+     "ELM.03",
+     "ELM.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 152.5,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dcc0ad8e57486a7d434/2026"
+     },
+     {
+      "year": 2025,
+      "min": 128.9,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b01bc0897545ac526e4/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=650"
+   },
+   {
+    "name": "1pr [O] Technik programista (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik programista",
+    "qualifications": [
+     "INF.03",
+     "INF.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf"
+    ],
+    "places": 58,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 28.65,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dcf0ad8e57486a7d436/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4323"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "W ofercie systemu naboru z liczbą miejsc 0 (prawdopodobnie oddział nieuruchomiony, pominięty w profiles): 1prdj [D] Technik programista (ang-niem)",
+   "1ai [O] Technik informatyk (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1e [O] Technik elektronik (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1el [O] Technik elektryk (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1m [O] Technik mechatronik (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1pr [O] Technik programista (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=111",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/16048423/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=646",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dca0ad8e57486a7d432/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b00bc0897545ac526e2/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=652",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dcd0ad8e57486a7d435/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b02bc0897545ac526e5/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=643",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dc80ad8e57486a7d431/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7affbc0897545ac526e1/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=650",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dcc0ad8e57486a7d434/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b01bc0897545ac526e4/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4323",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dcf0ad8e57486a7d436/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=649"
+  ]
+ },
+ {
+  "rspo": 11768,
+  "profiles": [
+   {
+    "name": "1TG [O] Technik żywienia i usług gastronomicznych (ang-niem,fra)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik żywienia i usług gastronomicznych",
+    "qualifications": [
+     "HGT.02",
+     "HGT.12"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio"
+    ],
+    "places": 58,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 111.55,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dbc0ad8e57486a7d40a/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1385"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1TG [O] Technik żywienia i usług gastronomicznych (ang-niem,fra): punktowane także max(ang,obcy) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=101",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/51787406/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1385",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dbc0ad8e57486a7d40a/2026"
+  ]
+ },
+ {
+  "rspo": 11767,
+  "profiles": [
+   {
+    "name": "1TH [O] Technik hotelarstwa (ang-fra)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik hotelarstwa",
+    "qualifications": [
+     "HGT.03",
+     "HGT.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 122.15,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db80ad8e57486a7d407/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1390"
+   },
+   {
+    "name": "1TOT [O] Technik organizacji turystyki (ang-fra,hisz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik organizacji turystyki",
+    "qualifications": [
+     "HGT.07",
+     "HGT.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "fr",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo"
+    ],
+    "places": 58,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 105.7,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db90ad8e57486a7d408/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1397"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1TH [O] Technik hotelarstwa (ang-fra): punktowane także max(ang,obcy) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1TOT [O] Technik organizacji turystyki (ang-fra,hisz): punktowane także max(ang,obcy) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=100",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/86322283/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1390",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db80ad8e57486a7d407/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1397",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db90ad8e57486a7d408/2026"
+  ]
+ },
+ {
+  "rspo": 11852,
+  "profiles": [
+   {
+    "name": "1TM TECHNIK MECHANIK",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik mechanik",
+    "qualifications": [
+     "MEC.03 albo MEC.08 albo MEC.11",
+     "MEC.09"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20250000230",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "fiz"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 96.85,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cfa0ad8e57486a7d363/2026"
+     },
+     {
+      "year": 2025,
+      "min": 80.0,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a7ebc0897545ac5263d/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=135"
+   },
+   {
+    "name": "1TPS TECHNIK POJAZDÓW SAMOCHODOWYCH",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik pojazdów samochodowych",
+    "qualifications": [
+     "MOT.02 albo MOT.05",
+     "MOT.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "fiz"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 97.2,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cf90ad8e57486a7d362/2026"
+     },
+     {
+      "year": 2025,
+      "min": 77.25,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a7dbc0897545ac5263c/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=131"
+   },
+   {
+    "name": "1TTD TECHNIK TRANSPORTU DROGOWEGO",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik transportu drogowego",
+    "qualifications": [
+     "TDR.03",
+     "TDR.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000404",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "fiz"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 84.95,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cfb0ad8e57486a7d364/2026"
+     },
+     {
+      "year": 2025,
+      "min": 55.15,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a7ebc0897545ac5263e/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2602"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=325",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/00345635/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=135",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cfa0ad8e57486a7d363/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a7ebc0897545ac5263d/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=131",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cf90ad8e57486a7d362/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a7dbc0897545ac5263c/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2602",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cfb0ad8e57486a7d364/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a7ebc0897545ac5263e/2025"
+  ]
+ },
+ {
+  "rspo": 12154,
+  "profiles": [
+   {
+    "name": "1TH [O] Technik handlowiec (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik handlowiec",
+    "qualifications": [
+     "HAN.01",
+     "HAN.02"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 48.65,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2ce20ad8e57486a7d332/2026"
+     },
+     {
+      "year": 2025,
+      "min": 64.2,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a71bc0897545ac5261d/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2413"
+   },
+   {
+    "name": "1TPM [O] Technik przemysłu mody (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik przemysłu mody",
+    "qualifications": [
+     "MOD.03",
+     "MOD.11"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 55.75,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2ce10ad8e57486a7d331/2026"
+     },
+     {
+      "year": 2025,
+      "min": 71.85,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a71bc0897545ac5261c/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=302"
+   },
+   {
+    "name": "1TS [O] Technik stylista (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik stylista",
+    "qualifications": [
+     "MOD.03",
+     "MOD.15"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 85.25,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2ce00ad8e57486a7d32f/2026"
+     },
+     {
+      "year": 2025,
+      "min": 66.55,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a71bc0897545ac5261e/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3089"
+   },
+   {
+    "name": "1TUF [O] Technik usług fryzjerskich (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik usług fryzjerskich",
+    "qualifications": [
+     "FRK.01",
+     "FRK.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 32.8,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2ce10ad8e57486a7d330/2026"
+     },
+     {
+      "year": 2025,
+      "min": 55.4,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a70bc0897545ac5261b/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=300"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1TH [O] Technik handlowiec (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena, max(plas,tech) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1TPM [O] Technik przemysłu mody (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena, max(plas,tech) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1TS [O] Technik stylista (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena, max(plas,tech) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1TUF [O] Technik usług fryzjerskich (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena, max(plas,tech) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=313",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/17405162/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2413",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2ce20ad8e57486a7d332/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a71bc0897545ac5261d/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=302",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2ce10ad8e57486a7d331/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a71bc0897545ac5261c/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3089",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2ce00ad8e57486a7d32f/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a71bc0897545ac5261e/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=300",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2ce10ad8e57486a7d330/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a70bc0897545ac5261b/2025"
+  ]
+ },
+ {
+  "rspo": 19685,
+  "profiles": [
+   {
+    "name": "1A Technik weterynarii",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik weterynarii",
+    "qualifications": [
+     "ROL.11",
+     "ROL.12"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=841"
+   },
+   {
+    "name": "1B Technik fotografii i multimediów",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik fotografii i multimediów",
+    "qualifications": [
+     "AUD.02",
+     "AUD.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=865"
+   },
+   {
+    "name": "1D Technik organizacji turystyki- event manager",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik organizacji turystyki",
+    "qualifications": [
+     "HGT.07",
+     "HGT.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1027"
+   },
+   {
+    "name": "1E Technik programista ze Sztuczną inteligencją",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik programista",
+    "qualifications": [
+     "INF.03",
+     "INF.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "ang"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1724"
+   },
+   {
+    "name": "1G Technik informatyk - cyberbezpieczeństwo",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik informatyk",
+    "qualifications": [
+     "INF.02",
+     "INF.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=854"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "W ofercie systemu naboru z liczbą miejsc 0 (prawdopodobnie oddział nieuruchomiony, pominięty w profiles): 1C Technik programista - klasa dwujęzyczna; 1F Technik reklamy - grafika i social media; 1H Technik elektryk; 1I Technik grafiki i poligrafii cyfrowej; 1J Technik logistyk; 1K Technik usług fryzjerskich; 1L Technik lotniskowych służb operacyjnych; 1M Technik robotyk; 1N Technik cyberbezpieczeństwa"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=362",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=841",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=865",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3574",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1027",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1724",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1030",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=854",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4213",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4218",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4223",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4228",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4233",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4238",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4243"
+  ]
+ },
+ {
+  "rspo": 4616,
+  "profiles": [
+   {
+    "name": "1A [O] Technik architektury krajobrazu i arborystyki (ang-ros)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik architektury krajobrazu i arborystyki",
+    "qualifications": [
+     "OGR.10",
+     "OGR.13"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000404",
+    "languages": [
+     "ang",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 99.4,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dd50ad8e57486a7d43e/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=45"
+   },
+   {
+    "name": "1K [O] Technik transportu kolejowego (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik transportu kolejowego",
+    "qualifications": [
+     "TKO.07",
+     "TKO.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 101.75,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dd70ad8e57486a7d440/2026"
+     },
+     {
+      "year": 2025,
+      "min": 93.4,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b08bc0897545ac526ef/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=51"
+   },
+   {
+    "name": "1L [O] Technik logistyk (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik logistyk",
+    "qualifications": [
+     "SPL.01",
+     "SPL.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 133.3,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dd10ad8e57486a7d43c/2026"
+     },
+     {
+      "year": 2025,
+      "min": 120.0,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b04bc0897545ac526eb/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=39"
+   },
+   {
+    "name": "1R [O] Technik automatyk sterowania ruchem kolejowym (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik automatyk sterowania ruchem kolejowym",
+    "qualifications": [
+     "TKO.02"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 97.65,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dd90ad8e57486a7d441/2026"
+     },
+     {
+      "year": 2025,
+      "min": 68.6,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b09bc0897545ac526f0/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1813"
+   },
+   {
+    "name": "1S [O] Technik spedytor (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik spedytor",
+    "qualifications": [
+     "SPL.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 29,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 119.75,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dd30ad8e57486a7d43d/2026"
+     },
+     {
+      "year": 2025,
+      "min": 111.4,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b06bc0897545ac526ec/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=42"
+   },
+   {
+    "name": "1U [O] Technik urządzeń i systemów energetyki odnawialnej (ang-ros)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik urządzeń i systemów energetyki odnawialnej",
+    "qualifications": [
+     "ELE.10",
+     "ELE.11"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "fiz"
+    ],
+    "places": 15,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 119.0,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dd60ad8e57486a7d43f/2026"
+     },
+     {
+      "year": 2025,
+      "min": 95.65,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b08bc0897545ac526ee/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=50"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=113",
+   "https://gdynia-stat.edu.com.pl/api/turtle/school-details/70408458/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=45",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dd50ad8e57486a7d43e/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=51",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dd70ad8e57486a7d440/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b08bc0897545ac526ef/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=39",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dd10ad8e57486a7d43c/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b04bc0897545ac526eb/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1813",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dd90ad8e57486a7d441/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b09bc0897545ac526f0/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=42",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dd30ad8e57486a7d43d/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b06bc0897545ac526ec/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=50",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dd60ad8e57486a7d43f/2026",
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b08bc0897545ac526ee/2025"
+  ]
+ },
+ {
+  "rspo": 12233,
+  "profiles": [
+   {
+    "name": "1a1 POLITECHNICZNY",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 148.95,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b370ad8e57486a7d205/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=331"
+   },
+   {
+    "name": "1a2 EKONOMICZNY",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 150.85,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b3d0ad8e57486a7d209/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2395"
+   },
+   {
+    "name": "1b1 PRAWNY",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "hist"
+    ],
+    "places": 18,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 136.9,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b390ad8e57486a7d206/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=334"
+   },
+   {
+    "name": "1b2 SPOŁECZNY",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 10,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 142.75,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b3e0ad8e57486a7d20b/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3716"
+   },
+   {
+    "name": "1c1 BIOMEDYCZNA",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 156.7,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b3a0ad8e57486a7d207/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=340"
+   },
+   {
+    "name": "1c2 PSYCHOLOGICZNY",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 149.05,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b3f0ad8e57486a7d20c/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3721"
+   },
+   {
+    "name": "1d KOSZYKARSKA MISTRZOSTWA SPORTOWEGO",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 16,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 153.0,
+      "scale": 180,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b3e0ad8e57486a7d20a/2026"
+     },
+     {
+      "year": 2025,
+      "min": 145.0,
+      "scale": 180,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca798abc0897545ac52532/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=464",
+    "specialType": "mistrzostwa sportowego"
+   },
+   {
+    "name": "1e1 ARCHITEKTONICZNA",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hsz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 145.35,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b3c0ad8e57486a7d208/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=342"
+   },
+   {
+    "name": "1e2 ARTYSTYCZNY",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hsz",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang"
+    ],
+    "places": 13,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 141.05,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b370ad8e57486a7d204/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3099"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1d KOSZYKARSKA MISTRZOSTWA SPORTOWEGO: maksymalna liczba punktów w systemie naboru 180, próg wpisany w skali 180",
+   "1e1 ARCHITEKTONICZNA: punktowane także plastyka (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1e2 ARTYSTYCZNY: punktowane także plastyka (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "Progi 2026/2025 z serwisu statystyk VULCAN sopot-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie obejmuje 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=1",
+   "https://sopot-stat.edu.com.pl/api/turtle/school-details/13858377/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=331",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b370ad8e57486a7d205/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2395",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b3d0ad8e57486a7d209/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=334",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b390ad8e57486a7d206/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3716",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b3e0ad8e57486a7d20b/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=340",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b3a0ad8e57486a7d207/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3721",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b3f0ad8e57486a7d20c/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=464",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b3e0ad8e57486a7d20a/2026",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca798abc0897545ac52532/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=342",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b3c0ad8e57486a7d208/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3099",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b370ad8e57486a7d204/2026"
+  ]
+ },
+ {
+  "rspo": 5431,
+  "profiles": [
+   {
+    "name": "1A humanistyczno-społeczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [
+     [
+      "hist",
+      "wos"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "wos",
+     "hist"
+    ],
+    "places": 30,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 155.45,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b410ad8e57486a7d210/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2067"
+   },
+   {
+    "name": "1B matematyczno-fizyczno/geograficzna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [
+     [
+      "fiz",
+      "geo"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang"
+    ],
+    "places": 28,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 169.25,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b440ad8e57486a7d211/2026"
+     },
+     {
+      "year": 2025,
+      "min": 166.85,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca798ebc0897545ac5253a/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=262"
+   },
+   {
+    "name": "1C biologiczno-chemiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": 31,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 169.55,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b470ad8e57486a7d212/2026"
+     },
+     {
+      "year": 2025,
+      "min": 165.35,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca7990bc0897545ac5253b/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=265"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1B matematyczno-fizyczno/geograficzna: punktowane także max(fiz,geo) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "Progi 2026/2025 z serwisu statystyk VULCAN sopot-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie obejmuje 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=3",
+   "https://sopot-stat.edu.com.pl/api/turtle/school-details/93558802/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2067",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b410ad8e57486a7d210/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=262",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b440ad8e57486a7d211/2026",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca798ebc0897545ac5253a/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=265",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b470ad8e57486a7d212/2026",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca7990bc0897545ac5253b/2025"
+  ]
+ },
+ {
+  "rspo": 5519,
+  "profiles": [
+   {
+    "name": "1A lingwistyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "hisz",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang"
+    ],
+    "places": 28,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 147.2,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b4f0ad8e57486a7d21a/2026"
+     },
+     {
+      "year": 2025,
+      "min": 146.65,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca7994bc0897545ac52542/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=232"
+   },
+   {
+    "name": "1B1 psychologiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "fil",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 148.0,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b500ad8e57486a7d21b/2026"
+     },
+     {
+      "year": 2025,
+      "min": 142.3,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca7995bc0897545ac52543/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=234"
+   },
+   {
+    "name": "1B2 medyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 14,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 151.15,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b530ad8e57486a7d21c/2026"
+     },
+     {
+      "year": 2025,
+      "min": 148.05,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca7997bc0897545ac52544/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2472"
+   },
+   {
+    "name": "1C ekonomiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 28,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 150.25,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b4d0ad8e57486a7d219/2026"
+     },
+     {
+      "year": 2025,
+      "min": 130.6,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca7993bc0897545ac52541/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1214"
+   },
+   {
+    "name": "1D społeczno - medialna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf",
+     "ang",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 28,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 137.55,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b540ad8e57486a7d21d/2026"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3878"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1A lingwistyczna: punktowane także język obcy nowożytny - najwyższa ocena (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "Progi 2026/2025 z serwisu statystyk VULCAN sopot-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie obejmuje 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=4",
+   "https://sopot-stat.edu.com.pl/api/turtle/school-details/62044196/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=232",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b4f0ad8e57486a7d21a/2026",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca7994bc0897545ac52542/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=234",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b500ad8e57486a7d21b/2026",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca7995bc0897545ac52543/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2472",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b530ad8e57486a7d21c/2026",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca7997bc0897545ac52544/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1214",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b4d0ad8e57486a7d219/2026",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca7993bc0897545ac52541/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3878",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b540ad8e57486a7d21d/2026"
+  ]
+ },
+ {
+  "rspo": 12126,
+  "profiles": [
+   {
+    "name": "1 [O] ang (ang-hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "bio",
+      "chem",
+      "fiz",
+      "geo",
+      "hist",
+      "inf",
+      "pol",
+      "mat",
+      "wos"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang"
+    ],
+    "places": 18,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2668"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1 [O] ang (ang-hisz,niem): punktowane także max(biol,chem,fiz,geo,hist,inf,hiszp,niem,wos) (reguła wyboru oceny, nie wpisana do scoredSubjects)"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=614",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2668"
+  ]
+ },
+ {
+  "rspo": 11657,
+  "profiles": [
+   {
+    "name": "1Th [O] Technik hotelarstwa (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik hotelarstwa",
+    "qualifications": [
+     "HGT.03",
+     "HGT.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 28,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 42.85,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b590ad8e57486a7d228/2026"
+     },
+     {
+      "year": 2025,
+      "min": 30.65,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca799abc0897545ac5254f/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=384"
+   },
+   {
+    "name": "1Ti [O] Technik informatyk (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik informatyk",
+    "qualifications": [
+     "INF.02",
+     "INF.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 28,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 40.55,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b580ad8e57486a7d227/2026"
+     },
+     {
+      "year": 2025,
+      "min": 54.65,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca799abc0897545ac5254e/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=375"
+   },
+   {
+    "name": "1Tl [O] Technik logistyk (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik logistyk",
+    "qualifications": [
+     "SPL.01",
+     "SPL.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 28,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 38.5,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b590ad8e57486a7d229/2026"
+     },
+     {
+      "year": 2025,
+      "min": 45.85,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca799bbc0897545ac52550/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=388"
+   },
+   {
+    "name": "1Tp [O] Technik eksploatacji portów i terminali",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik eksploatacji portów i terminali",
+    "qualifications": [
+     "SPL.02",
+     "SPL.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 28,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 60.1,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b580ad8e57486a7d226/2026"
+     },
+     {
+      "year": 2025,
+      "min": 43.85,
+      "scale": 200,
+      "kind": "zakwalifikowani",
+      "sourceUrl": "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca799abc0897545ac5254d/2025"
+     }
+    ],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1174"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progi 2026/2025 z serwisu statystyk VULCAN sopot-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie obejmuje 2026"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=6",
+   "https://sopot-stat.edu.com.pl/api/turtle/school-details/45167874/2026",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=384",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b590ad8e57486a7d228/2026",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca799abc0897545ac5254f/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=375",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b580ad8e57486a7d227/2026",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca799abc0897545ac5254e/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=388",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b590ad8e57486a7d229/2026",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca799bbc0897545ac52550/2025",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1174",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/6abc2b580ad8e57486a7d226/2026",
+   "https://sopot-stat.edu.com.pl/api/turtle/offered-group-details/68ca799abc0897545ac5254d/2025"
+  ]
+ }
+]
