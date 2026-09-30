@@ -1,0 +1,598 @@
+[
+ {
+  "rspo": 85127,
+  "shortName": "LO ŻAGLE",
+  "url": "https://lozagle.sternik.edu.pl/",
+  "profiles": [],
+  "admission": "Rekrutacja poza systemem punktowym (liceum dla chłopców). Etapy dla kandydatów spoza SP ŻAGLE: wniosek rekrutacyjny, testy diagnozujące, rozmowa rodziców i kandydata z przedstawicielem szkoły, decyzja szkoły i rodziców. Szkoła nie tworzy klas profilowanych, uczniowie wybierają rozszerzenia indywidualnie. Opłaty podane dla roku 2026/2027 (czesne 2179,50 zł x 12, opłata rekrutacyjna 1300 zł). Źródła: https://lozagle.sternik.edu.pl/#rekrutacja, https://lozagle.sternik.edu.pl/aktualnosci/egzamin-maturalny/",
+  "noOffer2026": false,
+  "doubts": [
+   "Brak klas profilowanych: komunikat z 13.07.2026 mówi, że szkoła nie tworzy klas profilowanych i uczniowie wybierają rozszerzenia indywidualnie; sekcja rekrutacji podaje opłaty na rok 2026/2027. Nie wpisano profilu, bo szkoła nie publikuje listy oddziałów ani przydziału rozszerzeń na 2026/2027."
+  ],
+  "checkedUrls": [
+   "https://zagle.sternik.edu.pl",
+   "https://spzagle.sternik.edu.pl/",
+   "https://lozagle.sternik.edu.pl/",
+   "https://lozagle.sternik.edu.pl/aktualnosci/egzamin-maturalny/"
+  ]
+ },
+ {
+  "rspo": 27005,
+  "shortName": "2 SLO im. Pawła Jasienicy STO",
+  "url": "https://www.2slo.pl/",
+  "profiles": [
+   {
+    "name": "dwie klasy pierwsze (oddziały polskie, bez profilu – indywidualny wybór rozszerzeń)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.2slo.pl/proces-aplikacji/"
+   }
+  ],
+  "admission": "Oddziały polskie: przyjęcie wyłącznie na podstawie pisemnego egzaminu wstępnego szkoły (j. polski i matematyka 0-10 pkt z wagami, maks. 12 pkt każdy; j. angielski 0-5 pkt, maks. 6 pkt), bez skali 200 i bez punktów za świadectwo. Zwolnienia dla laureatów/finalistów konkursów kuratoryjnych i olimpiad, certyfikat FCE. W 2026 zapisy 14.03-21.04.2026, egzaminy 25-26.04.2026, lista przyjętych do 13.05.2026; opłata za egzamin 700 zł. Na rok 2026/27 szkoła otworzyła dwie klasy pierwsze liceum; brak klas profilowanych, uczeń kształtuje indywidualny profil rozszerzeń w pierwszym roku nauki. Oddziały międzynarodowe (Pre-IB/IB) mają osobny egzamin (j. polski lub English A, j. angielski, matematyka + rozmowa). Źródła: https://www.2slo.pl/proces-aplikacji/, https://www.2slo.pl/wp-content/uploads/2026/05/REGULAMIN-REKRUTACJI-05.2026.pdf, https://www.2slo.pl/wyniki-egzaminow-2/, https://ib.2slo.pl/rekrutacja/proces-aplikacji/",
+  "noOffer2026": false,
+  "doubts": [
+   "Wpisano jeden zbiorczy wpis na „dwie klasy pierwsze liceum” z oficjalnego komunikatu na 2026/27 (https://www.2slo.pl/proces-aplikacji/), bez rozszerzeń, bo klasy nie mają profili. Języki (ang oraz do wyboru hiszpański, francuski lub niemiecki) pochodzą z listy przyjętych na 2026/27 (https://www.2slo.pl/wyniki-egzaminow-2/). Niedatowana strona „Indywidualne profilowanie” (https://www.2slo.pl/program/indywidualne-profilowanie/) podaje, że j. angielski jest tylko na poziomie rozszerzonym, a pozostałe rozszerzenia uczeń wybiera indywidualnie (np. mat-fiz-inf, bio-chem-mat, hist-wos-fil).",
+   "Oddział międzynarodowy (Pre-IB, ib.2slo.pl): strona procesu aplikacji jest już zaktualizowana na nabór 2027 (egzamin 20-21.03.2027); oferty Pre-IB datowanej na 2026/2027 nie znaleziono.",
+   "Adres z RSPO (e-mail info@2slo.waw.pl) wskazuje domenę 2slo.waw.pl, która zwraca 403; działająca oficjalna strona to https://www.2slo.pl/."
+  ],
+  "checkedUrls": [
+   "http://2slo.waw.pl/",
+   "https://www.2slo.pl/",
+   "https://www.2slo.pl/proces-aplikacji/",
+   "https://www.2slo.pl/rekrutacja/",
+   "https://www.2slo.pl/rekrutacja/dokumenty/",
+   "https://www.2slo.pl/wp-content/uploads/2026/05/REGULAMIN-REKRUTACJI-05.2026.pdf",
+   "https://www.2slo.pl/wyniki-egzaminow-2/",
+   "https://www.2slo.pl/program/indywidualne-profilowanie/",
+   "https://www.2slo.pl/klasa-akademicka-sgh/",
+   "https://ib.2slo.pl/",
+   "https://ib.2slo.pl/rekrutacja/proces-aplikacji/"
+  ]
+ },
+ {
+  "rspo": 27999,
+  "shortName": "21 SLO im. Jerzego Grotowskiego",
+  "url": "https://21slo.edu.pl/",
+  "profiles": [
+   {
+    "name": "klasa pierwsza (jedna klasa, profil humanistyczny)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://21slo.edu.pl/regulamin-rekrutacji/"
+   }
+  ],
+  "admission": "Własny egzamin wstępny, bez skali 200: część pisemna (kompetencje z j. polskiego, do 40 pkt) i ustna (prezentacja zainteresowań do 50 pkt, rozmowa o prezentacji do 30 pkt, rozmowa o formularzu egzaminacyjnym do 20 pkt), łącznie do 140 pkt; próg przyjęcia ustala komisja. Zapisy od 7.02.2026, opłata egzaminacyjna 450 zł, egzaminy marzec-kwiecień 2026, wyniki 17.04.2026; od 4.05.2026 rekrutacja uzupełniająca. Wyniki egzaminu ósmoklasisty liczą się tylko do stypendium. Na 2026/27 szkoła przyjmuje uczniów do jednej klasy pierwszej. Źródła: https://21slo.edu.pl/regulamin-rekrutacji/, https://21slo.edu.pl/kalendarium-rekrutacji/, https://21slo.edu.pl/2026/04/wyniki-rekrutacji-2026-27/, https://21slo.edu.pl/2026/05/rekrutacja-uzupelniajaca-do-klasy-1/",
+  "noOffer2026": false,
+  "doubts": [
+   "Regulamin „Zasady rekrutacji do klasy pierwszej w roku szkolnym 2026/27” mówi o jednej klasie pierwszej; o profilu humanistycznym mówi strona https://21slo.edu.pl/rekrutacja/. Szkoła nie podaje przedmiotów rozszerzonych dla tej klasy, więc pole extended zostało puste. Nie jest to informacja, że klasa nie ma rozszerzeń. Nie podano też liczby miejsc."
+  ],
+  "checkedUrls": [
+   "https://21slo.edu.pl/",
+   "https://21slo.edu.pl/rekrutacja/",
+   "https://21slo.edu.pl/regulamin-rekrutacji/",
+   "https://21slo.edu.pl/kalendarium-rekrutacji/",
+   "https://21slo.edu.pl/2025/11/rekrutacja-2026-27/",
+   "https://21slo.edu.pl/2026/04/wyniki-rekrutacji-2026-27/",
+   "https://21slo.edu.pl/2026/05/rekrutacja-uzupelniajaca-do-klasy-1/",
+   "https://21slo.edu.pl/przedmioty/"
+  ]
+ },
+ {
+  "rspo": 272783,
+  "shortName": "Akademickie LO w Warszawie",
+  "url": "https://www.akademickielo.pl/warszawa/",
+  "profiles": [
+   {
+    "name": "klasa I – Oddział Przygotowania Wojskowego (mundurowa)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.akademickielo.pl/wp-content/uploads/2026/08/Wykaz-podrecznikow-–-klasa-1-mundurowa-2026-27.docx"
+   },
+   {
+    "name": "klasa I – społeczno-prawna",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.akademickielo.pl/wp-content/uploads/2026/08/Wykaz-podrecznikow-–-klasy-1-ALO-2026-27-spoleczno-prawna.docx"
+   },
+   {
+    "name": "klasa I – biologiczno-chemiczna (specjalności: lekarska, kosmetyczna, psychologiczno-pedagogiczna)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.akademickielo.pl/wp-content/uploads/2026/08/Wykaz-podrecznikow-–-klasy-1-ALO-2026-27-lekarski-kosmetyczny-psych.-ped.-rozszerzenia.docx"
+   }
+  ],
+  "admission": "Zapisy poza elektronicznym systemem naboru, bez progów punktowych: rezerwacja miejsca (formularz online, telefon lub wizyta w sekretariacie), liczba miejsc ograniczona, nabór na 2026/27 ogłaszany jako trwający. Wymagane dokumenty: podanie, świadectwo ukończenia SP, zaświadczenie o wynikach egzaminu ósmoklasisty, karta zdrowia, zdjęcia. Źródła: https://www.akademickielo.pl/warszawa-informacje-rekrutacyjne/, https://www.akademickielo.pl/warszawa/",
+  "noOffer2026": false,
+  "doubts": [
+   "Profile wpisano według wykazów podręczników „na rok szkolny 2026/2027” dla klas I (sierpień 2026). Rozszerzeń nie wpisano, bo szkoła ich nie wymienia; można je tylko wywnioskować z podręczników (np. WOS i geografia w zakresie rozszerzonym w klasie mundurowej, WOS i historia rozszerzona w społeczno-prawnej).",
+   "Formularz „Wniosek o przyjęcie… Rok Szkolny 2026/27” wymienia więcej specjalności (OPW, psychologiczno-pedagogiczna, kosmetyczna, lekarska, medialna, społeczno-prawna, lingwistyczna), a strona także dietetyczną i informatyczną z programowaniem. Wykazy podręczników pokazują tylko trzy klasy I, więc tylko je wpisano; pozostałe nie wyglądają na osobne oddziały.",
+   "Strona www.akademickielo.pl obsługuje kilka miast (Bydgoszcz, Warszawa, Łódź, Toruń); wszystkie dane pochodzą z podstrony warszawskiej (ul. Miła 2)."
+  ],
+  "checkedUrls": [
+   "https://www.akademickielo.pl/",
+   "https://www.akademickielo.pl/warszawa/",
+   "https://www.akademickielo.pl/warszawa-informacje-rekrutacyjne/",
+   "https://www.akademickielo.pl/wp-content/uploads/2026/08/Wykaz-podrecznikow-–-klasa-1-mundurowa-2026-27.docx",
+   "https://www.akademickielo.pl/wp-content/uploads/2026/08/Wykaz-podrecznikow-–-klasy-1-ALO-2026-27-spoleczno-prawna.docx",
+   "https://www.akademickielo.pl/wp-content/uploads/2026/08/Wykaz-podrecznikow-–-klasy-1-ALO-2026-27-lekarski-kosmetyczny-psych.-ped.-rozszerzenia.docx"
+  ]
+ },
+ {
+  "rspo": 31134,
+  "shortName": "Akademickie LO Vistula",
+  "url": "https://liceum.vistula.edu.pl/",
+  "profiles": [],
+  "admission": "Rekrutacja poza systemem elektronicznym, bez progów punktowych: kandydat wysyła na liceum@vistula.edu.pl podanie o przyjęcie, skan świadectwa z poprzedniego roku, wykaz ocen cząstkowych z bieżącego roku i ewentualną opinię poradni. Szkoła podkreśla 6 godzin j. angielskiego tygodniowo w grupach według poziomu. Źródło: https://liceum.vistula.edu.pl/rekrutacja-lp/",
+  "noOffer2026": false,
+  "doubts": [
+   "Szkoła ma w roku 2026/27 jedną klasę I (ogłoszenie o rozpoczęciu roku z 28.08.2026 na https://liceum.vistula.edu.pl/), ale nie publikuje profilu ani przedmiotów rozszerzonych tej klasy. Strona rekrutacji nie ma daty. Wykaz podręczników 2026/2027 (https://liceum.vistula.edu.pl/wp-content/uploads/2026/07/books_2026_2027.pdf) obejmuje tylko klasę 4, a rozszerzenia są w nim „przy wyborze rozszerzenia”, czyli do wyboru. Nie wpisano profilu."
+  ],
+  "checkedUrls": [
+   "https://liceum.vistula.edu.pl/",
+   "https://liceum.vistula.edu.pl/rekrutacja-lp/",
+   "https://liceum.vistula.edu.pl/wp-content/uploads/2026/07/books_2026_2027.pdf"
+  ]
+ },
+ {
+  "rspo": 79804,
+  "shortName": "ALO przy PJATK",
+  "url": "https://liceum.pja.edu.pl/",
+  "profiles": [
+   {
+    "name": "Sigma AI Class – profil informatyczno-matematyczny",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "inf",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem",
+     "japoński"
+    ],
+    "scoredSubjects": [
+     "mat",
+     "inf",
+     "fiz"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceum.pja.edu.pl/rekrutacja"
+   },
+   {
+    "name": "Art Design – profil graficzno-informatyczny",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hsz",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem",
+     "japoński"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "ang",
+     "inf"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceum.pja.edu.pl/rekrutacja"
+   },
+   {
+    "name": "Sakura & Zen – profil kulturoznawczy",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem",
+     "japoński"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "ang",
+     "hist"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceum.pja.edu.pl/rekrutacja"
+   }
+  ],
+  "admission": "Rekrutacja własna, bez skali 200: decyduje średnia ocen z trzech przedmiotów profilowych na świadectwie ukończenia klasy 7 SP, wynik egzaminu wstępnego (test jednokrotnego wyboru, 45 min: j. polski, matematyka, pytania ogólne) i w przypadkach szczególnych rozmowa z dyrekcją. Art Design wymaga dodatkowo teczki prac (ocena tylko wewnętrzna). Egzaminy 24-26.03.2026 i 21-23.04.2026, opłata 450 zł. Listy zakwalifikowanych nie są publikowane. Źródła: https://liceum.pja.edu.pl/rekrutacja, https://liceum.pja.edu.pl/3t_fV7UcpT/wp-content/uploads/2025/11/Regulamin-rekrutacji-2026-2027.pdf",
+  "noOffer2026": false,
+  "doubts": [
+   "Lista profili pochodzi ze strony rekrutacji: „W roku szkolnym 2026/27 planujemy utworzyć klasy o profilach…”. Przedmioty rozszerzone i języki wzięto z podstron profili, które nie mają daty (stopka „ALO 2025/2026”). Obie strony podają te same nazwy profili.",
+   "Regulamin rekrutacji 2026/27 wymienia też Lex & Civitas (profil prawniczy; punktowane pol, ang, hist) i GeoTravel (profil geograficzno-turystyczny; geo, hist, ang). Na obecnej stronie rekrutacji te dwa profile są ukryte w komentarzu HTML, więc ich nie wpisano. Strona pokazuje też kryteria dla BioInf / BioChem (profil biologiczno-chemiczny), którego nie ma na liście 2026/27.",
+   "scoredSubjects to przedmioty, z których liczy się średnią ocen na świadectwie klasy 7 (nie ósmej), według regulaminu 2026/27.",
+   "Kod „japoński” w languages jest poza standardową listą kodów (tak jak w bazie RSPO)."
+  ],
+  "checkedUrls": [
+   "https://www.liceum.pja.edu.pl",
+   "https://liceum.pja.edu.pl/",
+   "https://liceum.pja.edu.pl/rekrutacja",
+   "https://liceum.pja.edu.pl/3t_fV7UcpT/wp-content/uploads/2025/11/Regulamin-rekrutacji-2026-2027.pdf",
+   "https://liceum.pja.edu.pl/szkola/sigma-ai-class-profil-informatyczno-matematyczny/",
+   "https://liceum.pja.edu.pl/szkola/art-design-profil-graficzno-informatyczny/",
+   "https://liceum.pja.edu.pl/szkola/sakura-zen-profil-kulturoznawczy/"
+  ]
+ },
+ {
+  "rspo": 25712,
+  "shortName": "ALO nr 42",
+  "url": "https://alon42.waw.pl/",
+  "profiles": [],
+  "admission": "Rekrutacja własna bez skali 200: egzaminy wstępne 10-12.04.2026 (przed nimi warsztaty z j. polskiego i matematyki), zebranie informacyjne 14.03.2026. Wymagane: świadectwo lub kopia świadectwa klasy VII, wykaz ocen z I półrocza klasy VIII, podanie. Szkoła zapewnia 5 godzin j. angielskiego i 5 godzin drugiego języka (niemiecki, francuski lub hiszpański) tygodniowo. Źródło: https://alon42.waw.pl/rekrutacja-na-rok-szkolny-2026-27/",
+  "noOffer2026": false,
+  "doubts": [
+   "Komunikat „Rekrutacja na rok szkolny 2026/27” z 11.01.2026 nie podaje liczby ani profili klas pierwszych, przedmiotów rozszerzonych ani zasad punktacji egzaminu. Nie wpisano profili."
+  ],
+  "checkedUrls": [
+   "https://www.alon42.waw.pl",
+   "https://alon42.waw.pl/",
+   "https://alon42.waw.pl/oferta-dla-kandydatow-do-liceum/",
+   "https://alon42.waw.pl/kandydaci/",
+   "https://alon42.waw.pl/rekrutacja-na-rok-szkolny-2026-27/"
+  ]
+ },
+ {
+  "rspo": 278899,
+  "shortName": "British International School (Międzynarodowe Brytyjskie LO nr 326)",
+  "url": "https://bis.edu.pl/",
+  "profiles": [],
+  "admission": "Szkoła międzynarodowa realizująca Pearson Edexcel IGCSE (klasy 1-2 LO) i A Level (klasy 3-4), bez polskich profili i bez progów w skali 200. Rekrutacja: spotkanie z dyrektorem centrum, egzaminy z matematyki i j. angielskiego, wniosek z dokumentami szkolnymi, umowa. Czesne 50 000 zł rocznie. IGCSE: obowiązkowe matematyka i English Language, 5-7 przedmiotów. Źródło: https://bis.edu.pl/#admissions",
+  "noOffer2026": true,
+  "doubts": [
+   "Strona nie ma daty i nie wspomina o roku 2026/2027; programy i warunki przyjęcia opisano ogólnie, bez oddziałów na 2026/2027."
+  ],
+  "checkedUrls": [
+   "https://bis.edu.pl/",
+   "https://bis.edu.pl/#admissions"
+  ]
+ },
+ {
+  "rspo": 110110,
+  "shortName": "The British School Warsaw",
+  "url": "https://www.nordangliaeducation.com/tbsw-warsaw",
+  "profiles": [],
+  "admission": "Szkoła międzynarodowa (Nord Anglia): IGCSE (Year 10-11), Pre-IB (roczny kurs przygotowawczy) i IB Diploma (Year 12-13), bez polskich profili i bez progów w skali 200. Zgłoszenia przez cały rok, zależnie od wolnych miejsc; kandydaci do Year 9-10 i Year 12 piszą test zdolności poznawczych CAT4 i przechodzą rozmowę z zespołem Secondary, czasem też dodatkowe testy (językowe). Czesne podane dla roku 2026-27. Źródła: https://www.nordangliaeducation.com/tbsw-warsaw/admissions/entry-requirements, https://www.nordangliaeducation.com/tbsw-warsaw/admissions/tuition-fees",
+  "noOffer2026": true,
+  "doubts": [
+   "Strona szkoły prowadzi pod domenę nordangliaeducation.com (przekierowanie z thebritishschool.pl). Opłaty są datowane na 2026-27, ale szkoła nie ma oddziałów liceum z rozszerzeniami w polskim rozumieniu; programy IGCSE/Pre-IB/IB opisano bez daty. Nie wpisano profili."
+  ],
+  "checkedUrls": [
+   "https://www.thebritishschool.pl",
+   "https://www.nordangliaeducation.com/tbsw-warsaw",
+   "https://www.nordangliaeducation.com/tbsw-warsaw/admissions/entry-requirements",
+   "https://www.nordangliaeducation.com/tbsw-warsaw/academic-excellence/pre-ib-programme",
+   "https://www.nordangliaeducation.com/tbsw-warsaw/admissions/tuition-fees"
+  ]
+ },
+ {
+  "rspo": 133569,
+  "shortName": "Chrześcijańskie Liceum Samuel",
+  "url": "https://liceum.samuel.pl/",
+  "profiles": [],
+  "admission": "Rekrutacja ciągła („trwa cały rok”), bez progów punktowych: formularz kontaktowy, spotkanie z rodzicami i kandydatem, dzień próbny z udziałem w lekcjach i testem z j. angielskiego, wyniki i podpisanie umowy. Obecnie trwa rekrutacja uzupełniająca do klas 1-3. Szkoła ma jeden profil „Komunikacja i nowe technologie”, a rozszerzenia wybiera uczeń. Źródła: https://liceum.samuel.pl/rekrutacja/, https://liceum.samuel.pl/profil-komunikacja-i-nowe-technologie/",
+  "noOffer2026": true,
+  "doubts": [
+   "Strony rekrutacji i profilu „Komunikacja i nowe technologie” (rozszerzenia do wyboru, jedna klasa) nie mają daty ani roku szkolnego, więc nie wpisano profilu na 2026/2027."
+  ],
+  "checkedUrls": [
+   "https://samuel.pl/",
+   "https://liceum.samuel.pl/",
+   "https://liceum.samuel.pl/rekrutacja/",
+   "https://liceum.samuel.pl/profil-komunikacja-i-nowe-technologie/"
+  ]
+ },
+ {
+  "rspo": 480247,
+  "shortName": "Edison High School (Edison International Schools)",
+  "url": "https://szkola-edison.pl/szkola-srednia/",
+  "profiles": [],
+  "admission": "Rekrutacja bez progów punktowych: formularz zgłoszeniowy, spotkanie rekrutacyjne z uczniem i rodzicami, ocena gotowości akademickiej (testy i rozmowy), indywidualna decyzja o przyjęciu. Program Cambridge: LO 1-2 IGCSE, LO 3-4 A/AS Levels (cennik 2026/2027). Źródła: https://szkola-edison.pl/szkola-srednia/rekrutacja/, https://szkola-edison.pl/szkola-srednia/program-nauczania/, https://szkola-edison.pl/cennik/cennik-2026-2027/",
+  "noOffer2026": true,
+  "doubts": [
+   "Datowany jest tylko cennik 2026/2027 (LO 1-2 IGCSE, LO 3-4 A/AS Levels). Strona nie podaje oddziałów, profili ani rozszerzeń na 2026/2027, a strona rekrutacji nie ma daty."
+  ],
+  "checkedUrls": [
+   "https://szkola-edison.pl/",
+   "https://szkola-edison.pl/szkola-srednia/rekrutacja/",
+   "https://szkola-edison.pl/szkola-srednia/program-nauczania/",
+   "https://szkola-edison.pl/cennik/cennik-2026-2027/"
+  ]
+ },
+ {
+  "rspo": 26799,
+  "shortName": "I Katolickie Liceum Społeczne",
+  "url": "https://ikls.edu.pl/",
+  "profiles": [],
+  "admission": "Nabór do klasy pierwszej na 2026/2027 bez progów w skali 200. Podstawą przyjęcia są rozmowa kwalifikacyjna, wyniki egzaminu ósmoklasisty i świadectwo; na rozmowę zapisuje sekretariat. Języki: angielski 5 godz./tydz., drugi język niemiecki lub hiszpański 2 godz./tydz. Szkoła prowadzi sekcje (specjalności) medyczną, techniczną i humanistyczną. Źródło: https://ikls.edu.pl/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona „Rekrutacja 2026/2027” wymienia rozszerzenia oferowane w szkole (j. angielski, geografia, WOS, chemia, biologia, historia, matematyka, fizyka, informatyka), ale nie mówi, które obowiązują w klasie pierwszej 2026/27. Sekcja „Planowane klasy z rozszerzeniami” zawiera tylko informacje o językach. Nie wpisano profili."
+  ],
+  "checkedUrls": [
+   "https://www.ikls.edu.pl",
+   "https://ikls.edu.pl/",
+   "https://ikls.edu.pl/rekrutacja/",
+   "https://ikls.edu.pl/wp-content/uploads/2026/08/PODRECZNIKI_26_27.pdf"
+  ]
+ },
+ {
+  "rspo": 275491,
+  "shortName": "Liceum w Chmurze (I LO)",
+  "url": "https://szkolawchmurze.org/",
+  "profiles": [],
+  "admission": "Szkoła dla uczniów w edukacji domowej (nauka zdalna), bez oddziałów profilowanych i bez progów punktowych. Rekrutacja na rok szkolny 2026/2027 przez formularz online i wniosek (m.in. profilem zaufanym); po pozytywnej rekrutacji szkoła wydaje predecyzję, a potem decyzję o przyjęciu razem ze zgodą na edukację domową. Warunki: m.in. zamieszkanie w Polsce, płynna znajomość polskiego, promocja do kolejnej klasy, limity wieku. Uczniowie liceum wybierają dowolnie od dwóch do trzech rozszerzeń. Źródło: https://szkolawchmurze.org/ (treść aplikacji; artykuł „Rekrutacja do szkoły podstawowej i Liceum w Chmurze na rok szkolny 2026/2027” na chmuropedia.szkolawchmurze.org)",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona jest aplikacją JavaScript. Treści (rekrutacja 2026/2027, warunki przyjęcia, wybór 2-3 rozszerzeń) odczytano z kodu strony (main-es2015.*.js), a nie z wyrenderowanej strony. Brak klas i profili, więc nic nie wpisano w profiles."
+  ],
+  "checkedUrls": [
+   "https://szkolawchmurze.org/",
+   "https://szkolawchmurze.org/sitemap.xml",
+   "https://szkolawchmurze.org/main-es2015.fd5237d6699c2d69913b.js"
+  ]
+ },
+ {
+  "rspo": 26977,
+  "shortName": "I SLO „Bednarska”",
+  "url": "https://bdnr.pl/",
+  "profiles": [],
+  "admission": "Autorski egzamin wstępny, bez skali 200. Na 2026/2027: etap 1 pisemny (13-15.03.2026: test poziomujący z j. angielskiego, część matematyczno-przyrodnicza, część humanistyczna), etap 2 ustny w formie jednego wybranego konkursu lub kursu (21-22.03.2026, m.in. konkurs matematyczny, teatralny, filmowy, historyczno-wosowy, hispanistyczny „Entre dos Mundos” i kurs germanistyczny „Ale-mania” prowadzące do rozszerzeń Hiszpański XL / Niemiecki XL). Rejestracja do 27.02.2026 w panelu rej.bdnr.pl z opłatą, wyniki 30.04.2026, wpisowe 1950 zł. Osobna ścieżka dla osób niepolskojęzycznych (możliwa klasa przygotowawcza). Źródła: https://info.bdnr.pl/?page_id=1442, http://info.bdnr.pl/ (Rekrutacja na rok szkolny 2026/2027), http://info.bdnr.pl/?page_id=44",
+  "noOffer2026": false,
+  "doubts": [
+   "Szkoła nie tworzy klas profilowanych. Strona „Dlaczego I SLO?” (bez daty) opisuje indywidualny plan z dowolnym wyborem rozszerzeń, a j. angielski rozszerzony obowiązuje wszystkich. Nie wpisano profili na 2026/2027."
+  ],
+  "checkedUrls": [
+   "https://bdnr.pl/",
+   "https://bdnr.pl/rekrutacja-2026/",
+   "http://info.bdnr.pl/",
+   "https://info.bdnr.pl/?page_id=1442",
+   "http://info.bdnr.pl/?page_id=195",
+   "http://info.bdnr.pl/?page_id=44",
+   "http://info.bdnr.pl/?page_id=514"
+  ]
+ },
+ {
+  "rspo": 480767,
+  "shortName": "II Liceum im. Zofii i Jędrzeja Moraczewskich (edukacja domowa)",
+  "url": "https://ed.moracz.edu.pl/liceum/",
+  "profiles": [],
+  "admission": "Liceum dla uczniów w edukacji domowej, bez oddziałów profilowanych i bez progów punktowych. Na 2026/2027 zapis przez złożenie dokumentów od 8.06.2026 (wniosek, oświadczenie o edukacji domowej, ankieta, świadectwo i zaświadczenie o egzaminie ósmoklasisty); pierwszy etap do 17.07.2026, przy wolnych miejscach ponownie od 10.08 do 25.08.2026. Rekrutacja do klas I-III, tylko uczniowie niepełnoletni. Opłata roczna 1000 zł. Źródło: https://ed.moracz.edu.pl/liceum/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Szkołę rozpoznano po e-mailu z RSPO (ed.liceum@moracz.edu.pl). Na stronie kontaktowej moracz.edu.pl jest to „II Liceum im. Zofii i Jędrzeja Moraczewskich, ul. Cyrulików 87, Rembertów” (w RSPO: nr 89), ze stroną 2.liceum.moracz.edu.pl, która nie odpowiada. Rekrutację opisuje ed.moracz.edu.pl. Edukacja domowa nie ma klas ani rozszerzeń, więc nie wpisano profili.",
+   "Stacjonarne Liceum Moraczewskich (al. Piłsudskiego 73, Wesoła) to inna szkoła, poza tym plikiem."
+  ],
+  "checkedUrls": [
+   "https://moracz.edu.pl/",
+   "https://moracz.edu.pl/kontakt/",
+   "https://moracz.edu.pl/lo/",
+   "https://moracz.edu.pl/liceum",
+   "https://2.liceum.moracz.edu.pl/",
+   "https://ed.moracz.edu.pl/",
+   "https://ed.moracz.edu.pl/liceum/rekrutacja/"
+  ]
+ },
+ {
+  "rspo": 84871,
+  "shortName": "International American School (LO Niepubliczne nr 72 „IAS”)",
+  "url": "https://ias.edu.pl/",
+  "profiles": [],
+  "admission": "Szkoła międzynarodowa (Grades 9-12), bez polskich profili i progów w skali 200. Rekrutacja na 2026/2027 i 2027/2028 otwarta przez cały rok, zależnie od wolnych miejsc: wniosek online (admissions.ias.edu.pl), świadectwa i list polecający od dyrektora lub nauczyciela, podpisanie umowy, decyzja działu rekrutacji, opłata wpisowa. W Grade 10 uczeń wybiera ścieżkę: IB Diploma, American High School Diploma albo polska matura. Źródła: https://ias.edu.pl/recruitment/, https://ias.edu.pl/education/high-school/",
+  "noOffer2026": true,
+  "doubts": [
+   "Rekrutacja 2026/2027 jest datowana, ale szkoła nie ma oddziałów liceum z rozszerzeniami (ścieżki IB, amerykańska i matura od Grade 10). Nie wpisano profili."
+  ],
+  "checkedUrls": [
+   "https://ias.edu.pl/",
+   "https://ias.edu.pl/recruitment/",
+   "https://ias.edu.pl/education/high-school/"
+  ]
+ },
+ {
+  "rspo": 133566,
+  "shortName": "Katolickie LO im. ks. Jerzego Popiełuszki",
+  "url": "https://chlodna.edupage.org/",
+  "profiles": [
+   {
+    "name": "klasa pierwsza z indywidualnym profilem (2-3 rozszerzenia do wyboru)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "hisz",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [],
+    "places": 16,
+    "thresholds": [],
+    "sourceUrl": "https://www.ogrodowa.pl/liceum_ogolnoksztalcace/rekrutacja/"
+   }
+  ],
+  "admission": "Rekrutacja bez skali 200. Kryteria w kolejności: rozmowa kwalifikacyjna z kandydatem i rodzicami (termin ustalany indywidualnie), ocena z zachowania i oceny z I semestru klasy 8, test sprawdzający (przy zgłoszeniu od stycznia do czerwca), wyniki egzaminu ósmoklasisty, oceny z j. polskiego i matematyki na świadectwie, sukcesy w konkursach i olimpiadach. Czesne 2000 zł/mies., wpisowe 1000 zł. Źródło: https://www.ogrodowa.pl/liceum_ogolnoksztalcace/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Na 2026/2027 planowana jest jedna klasa pierwsza na 16 miejsc. Kandydat sam ustala profil: wybiera 2-3 rozszerzenia z listy (pol, mat, bio, geo, chem, fiz, hist, wos) oraz drugi język (hiszpański, francuski lub niemiecki). Klasa nie ma więc wspólnych rozszerzeń; pole extended zostało puste.",
+   "Strona ogrodowa.pl odsyła do nowej strony liceum https://chlodna.edupage.org/ (ul. Chłodna 9; RSPO podaje ul. Ogrodowa 3a). Podstrona rekrutacji na edupage ładuje treść skryptem i nie dała się odczytać."
+  ],
+  "checkedUrls": [
+   "https://www.ogrodowa.pl/",
+   "https://www.ogrodowa.pl/liceum_ogolnoksztalcace/rekrutacja/",
+   "https://www.ogrodowa.pl/liceum_ogolnoksztalcace/liceum_katolickie/",
+   "https://chlodna.edupage.org/",
+   "https://chlodna.edupage.org/a/rekrutacja"
+  ]
+ },
+ {
+  "rspo": 84878,
+  "shortName": "Katolickie LO im. św. Pawła z Tarsu",
+  "url": "https://kulszkola.pl/",
+  "profiles": [],
+  "admission": "Rekrutacja indywidualna, bez progów punktowych: spotkanie kwalifikacyjne w uzgodnionym terminie (rozmowa, praca pisemna na dowolny temat, kilka zadań z matematyki przy nauczycielu). Klasa pierwsza nie ma profilu; rozszerzenia uczeń wybiera po klasie I. Nabór do klasy IB opiera się na egzaminie. Źródło: https://kulszkola.pl/ (tymczasowa strona z informacjami o rekrutacji na 2023/24)",
+  "noOffer2026": true,
+  "doubts": [
+   "Stara strona szkoły jest wyłączona. Tymczasowa strona https://kulszkola.pl/ opisuje rekrutację na rok 2023/24 (klasa pierwsza do 18 osób bez profilu, klasa IB do 10 osób). Oferty na 2026/2027 nie znaleziono."
+  ],
+  "checkedUrls": [
+   "https://www.kulszkola.pl",
+   "https://kulszkola.pl/",
+   "http://kulszkola.pl/rekrutacja"
+  ]
+ },
+ {
+  "rspo": 480745,
+  "shortName": "Korczakowskie Liceum w Warszawie",
+  "url": "https://warszawa.korczakowskieliceum.pl/",
+  "profiles": [],
+  "admission": "Rekrutacja bez progów punktowych, w trzech etapach: zgłoszenie przez formularz na stronie (dostępny rok 2026/2027, klasy 1-4), udział w zajęciach aktywizujących i warsztatach przedmiotowych, rozmowy indywidualne. Potem kandydat składa świadectwo i zaświadczenie o wynikach egzaminu ósmoklasisty. Opłata rekrutacyjna 200 zł, wpisowe 1000 zł, czesne 2500 zł/mies. Klasy do 18 uczniów, rozszerzenia wybierane po pierwszej klasie. Źródła: https://warszawa.korczakowskieliceum.pl/dla-kandydatow/, https://warszawa.korczakowskieliceum.pl/rekrutacja/",
+  "noOffer2026": true,
+  "doubts": [
+   "Formularz zgłoszeniowy pozwala wybrać rok 2026/2027, ale szkoła nie publikuje datowanej oferty klas. Strona „Dla kandydatów” (bez daty) mówi, że rozszerzenia wybiera się po pierwszej klasie. Nie wpisano profili."
+  ],
+  "checkedUrls": [
+   "https://warszawa.korczakowskieliceum.pl/",
+   "https://warszawa.korczakowskieliceum.pl/dla-kandydatow/",
+   "https://warszawa.korczakowskieliceum.pl/rekrutacja/"
+  ]
+ },
+ {
+  "rspo": 262819,
+  "shortName": "Akademeia High School",
+  "url": "https://www.akademeia.edu.pl/",
+  "profiles": [],
+  "admission": "Szkoła w systemie brytyjskim (IGCSE, A Level), bez polskich profili i progów w skali 200. Kandydaci do Year 10 (I liceum) biorą udział w weekendach rekrutacyjnych (Assessment Days): testy z j. angielskiego i matematyki, rozmowa z nauczycielem przedmiotu, zadanie grupowe, testy online z rozumowania werbalnego i niewerbalnego. Na rok 2026/2027 szkoła przyjmuje aplikacje latem w indywidualnym trybie; nabór na 2027/2028 prowadzi w Assessment Days od 27-28.11.2026. Źródło: https://www.akademeia.edu.pl/pl/rekrutacja/aplikuj",
+  "noOffer2026": true,
+  "doubts": [
+   "Strona podaje zasady rekrutacji na 2026/2027, ale szkoła realizuje program brytyjski (Year 9-13), bez oddziałów z polskimi rozszerzeniami. Nie wpisano profili."
+  ],
+  "checkedUrls": [
+   "https://akademeia.edu.pl",
+   "https://www.akademeia.edu.pl/",
+   "https://www.akademeia.edu.pl/pl/rekrutacja/aplikuj"
+  ]
+ },
+ {
+  "rspo": 270348,
+  "shortName": "Liceum ADE Warszawa (Akademia Dobrej Edukacji)",
+  "url": "https://liceum.adewarszawa.pl/",
+  "profiles": [],
+  "admission": "Rekrutacja ciągła, bez progów punktowych. Na 2026/2027 do klasy pierwszej: formularz zgłoszeniowy, spotkanie z rodzicami, indywidualna rozmowa z kandydatem w szkole, wspólna decyzja, umowa oraz dokumenty (świadectwo i zaświadczenie o wynikach egzaminu ósmoklasisty). Uczeń sam wybiera rozszerzenia od drugiej klasy. Źródło: https://liceum.adewarszawa.pl/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona „Rekrutacja 2026/2027” zaprasza do klasy pierwszej na 2026/2027, ale szkoła nie tworzy klas profilowanych (rozszerzenia od drugiej klasy według wyboru ucznia). Nie wpisano profili."
+  ],
+  "checkedUrls": [
+   "https://adewarszawa.pl/",
+   "https://liceum.adewarszawa.pl/",
+   "https://liceum.adewarszawa.pl/rekrutacja/",
+   "https://adewarszawa.pl/blog/rekrutacja-do-liceum-ade-warszawa-trwa/"
+  ]
+ },
+ {
+  "rspo": 264374,
+  "shortName": "Liceum Astrid",
+  "url": "https://sites.google.com/bullerbyn.pl/astrid-edu-pl",
+  "profiles": [],
+  "admission": "Liceum dla uczniów w edukacji domowej (w tym program Przystań Warszawa dla uczniów z orzeczeniem o potrzebie kształcenia specjalnego i program Wolne Liceum), bez klas profilowanych i progów punktowych. Warunki kwalifikacji: uczeń niepełnoletni i odbyta konsultacja kwalifikacyjna. Źródło: https://sites.google.com/bullerbyn.pl/astrid-edu-pl/rekrutacja",
+  "noOffer2026": true,
+  "doubts": [
+   "Adres www.astrid.edu.pl przekierowuje na stronę w Google Sites. Strona rekrutacji nie ma daty ani roku szkolnego, więc nie znaleziono oferty datowanej na 2026/2027."
+  ],
+  "checkedUrls": [
+   "https://www.astrid.edu.pl",
+   "https://sites.google.com/bullerbyn.pl/astrid-edu-pl",
+   "https://sites.google.com/bullerbyn.pl/astrid-edu-pl/rekrutacja"
+  ]
+ }
+]

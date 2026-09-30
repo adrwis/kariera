@@ -1,0 +1,1228 @@
+[
+ {
+  "rspo": 85020,
+  "shortName": "Liceum Ogólnokształcące Szkół Beaty Mydłowskiej",
+  "url": "https://szkolymydlowskiej.pl/",
+  "profiles": [],
+  "admission": "Liceum dla młodzieży Szkół Beaty Mydłowskiej: brak progów punktowych. O przyjęciu decyduje kolejność złożenia dokumentów / podpisania umowy; podanie składa się osobiście w sekretariacie (ul. Kaleńska 3) z rodzicem, z zaświadczeniem o wynikach E8 i świadectwem. Źródło: https://szkolymydlowskiej.pl/rekrutacja/rekrutacja-liceum-i-technikum/",
+  "noOffer2026": true,
+  "doubts": [
+   "Strona https://szkolymydlowskiej.pl/oferta/liceum-ogolnoksztalcace/liceum-dla-mlodziezy/ wymienia trzy klasy: geograficzno-społeczną (geo, WOS, ang rozszerzone), biologiczno-chemiczną (bio, chem, ang) i humanistyczną (pol, hist, ang), języki ang + hiszp. Oferta nie jest datowana na 2026/2027, więc profili nie wpisano."
+  ],
+  "checkedUrls": [
+   "https://szkolymydlowskiej.pl/",
+   "https://szkolymydlowskiej.pl/oferta/liceum-ogolnoksztalcace/liceum-dla-mlodziezy/",
+   "https://szkolymydlowskiej.pl/rekrutacja/rekrutacja-liceum-i-technikum/"
+  ]
+ },
+ {
+  "rspo": 130689,
+  "shortName": "LO „Multimedia”",
+  "url": "https://liceummultimedia.edu.pl/",
+  "profiles": [
+   {
+    "name": "Klasa I (jedyny oddział na poziomie)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "ang",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "wlo",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [],
+    "places": 12,
+    "thresholds": [],
+    "sourceUrl": "https://liceummultimedia.edu.pl/wp-content/uploads/2026/07/LiceumOgolnoksztalcaceMultimediawWarszawie.pdf"
+   }
+  ],
+  "admission": "Brak progów punktowych. Rekrutacja: przesłanie świadectwa, wyników E8 i ewentualnych opinii PPP na liceum@wsp.pl, rozmowa kwalifikacyjna z kandydatem (20-30 min, stacjonarnie lub Zoom), podpisanie umowy. Źródło: https://liceummultimedia.edu.pl/ (sekcja „Rekrutacja 2026/2027”).",
+  "noOffer2026": false,
+  "doubts": [
+   "Oferta pochodzi z przewodnika PDF z lipca 2026 (link na stronie z nagłówkiem „Rekrutacja 2026/2027”); sam PDF nie ma w treści roku szkolnego 2026/2027. Jedna klasa na poziomie, maks. 12 uczniów (places=12 to limit liczebności, nie liczba miejsc z naboru). Drugi język: rodzice wskazują dwa z hiszp./wł./fr./niem., szkoła uruchamia dwa najczęściej wybierane."
+  ],
+  "checkedUrls": [
+   "https://liceummultimedia.edu.pl/",
+   "https://liceummultimedia.edu.pl/wp-content/uploads/2026/07/LiceumOgolnoksztalcaceMultimediawWarszawie.pdf",
+   "https://liceummultimedia.edu.pl/program-nauczania/"
+  ]
+ },
+ {
+  "rspo": 80125,
+  "shortName": "LO „Szkoła Liderów”",
+  "url": "https://www.szkola-lider.pl/",
+  "profiles": [
+   {
+    "name": "Klasa prawo i przedsiębiorczość",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.szkola-lider.pl/zapisy/"
+   },
+   {
+    "name": "Klasa psychologiczno-coachingowa",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.szkola-lider.pl/zapisy/"
+   },
+   {
+    "name": "Klasa medialno-językowa",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.szkola-lider.pl/zapisy/"
+   },
+   {
+    "name": "Klasa sportowa",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.szkola-lider.pl/zapisy/"
+   },
+   {
+    "name": "Klasa turystyczno-podróżnicza",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.szkola-lider.pl/zapisy/"
+   },
+   {
+    "name": "Klasa dwujęzyczna",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.szkola-lider.pl/zapisy/"
+   }
+  ],
+  "admission": "Brak progów i egzaminów wstępnych („nie przeprowadzamy egzaminów wstępnych ani konkursu świadectw”). Przyjęcia według kolejności zgłoszeń do wyczerpania miejsc: kontakt telefoniczny lub mailowy, wpisowe, podpisanie umowy o kształcenie. Źródło: https://www.szkola-lider.pl/zapisy/",
+  "noOffer2026": false,
+  "doubts": [
+   "Sekcja „PROFILE KLAS 2026/2027” na https://www.szkola-lider.pl/zapisy/ podaje tylko nazwy i opisy klas, bez przedmiotów rozszerzonych, więc extended puste. Klasa dwujęzyczna: źródło nie podaje języka, bilingual=null (inna podstrona https://www.szkola-lider.pl/o-liceum/klasy/ opisuje niedatowaną klasę kulturoznawczo-językową z ang. i hiszp.)."
+  ],
+  "checkedUrls": [
+   "https://www.szkola-lider.pl/",
+   "https://www.szkola-lider.pl/zapisy/",
+   "https://www.szkola-lider.pl/o-liceum/klasy/"
+  ]
+ },
+ {
+  "rspo": 479785,
+  "shortName": "Liceum Artes Liberales (LAL)",
+  "url": "https://lal.edu.pl/",
+  "profiles": [],
+  "admission": "Brak progów punktowych. Rekrutacja: formularz online + opłata egzaminacyjna 700 zł, praca własna z wykładami i kursem matematyki na platformie, następnie w szkole test z wiedzy ogólnej, test z matematyki, rozmowa po angielsku, test poziomujący z drugiego języka, zadanie grupowe i rozmowa indywidualna (także z rodzicami). Decyzję szkoła przekazuje po spotkaniu. Źródło: https://lal.edu.pl/rekrutacja/",
+  "noOffer2026": true,
+  "doubts": [
+   "LAL nie ma klas profilowanych: uczeń wybiera dowolne rozszerzenia, decyzja zapada w pierwszym roku (https://lal.edu.pl/rekrutacja/). Strona rekrutacji nie jest datowana na 2026/2027, a oferty klas brak, więc profiles puste."
+  ],
+  "checkedUrls": [
+   "https://lal.edu.pl/",
+   "https://lal.edu.pl/rekrutacja/"
+  ]
+ },
+ {
+  "rspo": 130665,
+  "shortName": "Liceum LifeSkills nr 1",
+  "url": "https://lol1.pl/",
+  "profiles": [
+   {
+    "name": "Klasa pierwsza 2026/2027 (bez profilu)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://lol1.pl/rekrutacja-2/"
+   }
+  ],
+  "admission": "Brak progów punktowych („oceny i punkty są ważne, ale nie najważniejsze”). Rekrutacja 2026/2027: formularz zgłoszeniowy, dzień otwarty lub spotkanie z dyrekcją, warsztat rekrutacyjny (praca w grupie), spotkanie indywidualne i podpisanie umowy, test poziomująco-diagnostyczny z podstawowych przedmiotów. Źródło: https://lol1.pl/rekrutacja-2/",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona rekrutacji (https://lol1.pl/rekrutacja-2/) mówi o jednej klasie pierwszej 2026/2027 bez profilu. Rozszerzenia uczniowie wybierają dopiero w klasie 3 (niedatowana strona https://lol1.pl/4lata_plan/), więc extended puste. Na stronie w lipcu 2026: „Przyjmiemy jeszcze kilka osób do klasy pierwszej 2026/2027”."
+  ],
+  "checkedUrls": [
+   "https://lol1.pl/",
+   "https://lol1.pl/rekrutacja-2/",
+   "https://lol1.pl/4lata_plan/",
+   "https://lol1.pl/profile/"
+  ]
+ },
+ {
+  "rspo": 25668,
+  "shortName": "Liceum Polonijne – Kolegium św. Stanisława Kostki",
+  "url": "https://www.liceumpolonijne.edu.pl/",
+  "profiles": [
+   {
+    "name": "Rozszerzenia matematyka – informatyka",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "inf"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "wlo",
+     "niem",
+     "ros"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.liceumpolonijne.edu.pl/assets/docs/zasady-rekrutacji.pdf"
+   },
+   {
+    "name": "Rozszerzenia matematyka – fizyka",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "wlo",
+     "niem",
+     "ros"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.liceumpolonijne.edu.pl/assets/docs/zasady-rekrutacji.pdf"
+   },
+   {
+    "name": "Rozszerzenia geografia – wiedza o społeczeństwie",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "wlo",
+     "niem",
+     "ros"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.liceumpolonijne.edu.pl/assets/docs/zasady-rekrutacji.pdf"
+   },
+   {
+    "name": "Rozszerzenia historia – wiedza o społeczeństwie",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "wlo",
+     "niem",
+     "ros"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.liceumpolonijne.edu.pl/assets/docs/zasady-rekrutacji.pdf"
+   },
+   {
+    "name": "Rozszerzenia biologia – chemia",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "wlo",
+     "niem",
+     "ros"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.liceumpolonijne.edu.pl/assets/docs/zasady-rekrutacji.pdf"
+   }
+  ],
+  "admission": "Brak progów w skali 200. Szkoła dla młodzieży polskiego pochodzenia z zagranicy (liceum z internatem i bez). Dokumenty rozpatrywane na bieżąco w miarę napływu zgłoszeń; do liceum bez internatu przyjęcie na podstawie rozmowy kwalifikacyjnej; „o przyjęciu decyduje konkurs świadectw, wzorowe zachowanie oraz motywacja do nauki” (bez podanej punktacji). Źródło: https://www.liceumpolonijne.edu.pl/assets/docs/zasady-rekrutacji.pdf",
+  "noOffer2026": false,
+  "doubts": [
+   "„Zasady rekrutacji na rok szkolny 2026/2027” wymieniają pięć zestawów rozszerzeń, uruchamianych przy co najmniej 6 zgłoszonych uczniach. To grupy rozszerzeń, niekoniecznie osobne oddziały. Angielski rozszerzony „na różnych poziomach”, drugi język do wyboru: wł./niem./ros.; polski jako język dodatkowy.",
+   "Strona główna (SPA) pokazuje w sekcji „Rozszerzenia” sześć połączeń, w tym MAT–GEO i GEO–J. ROS., których nie ma w PDF 2026/2027 (PDF ma geo–WOS). Ta lista nie jest datowana, więc wpisano tylko zestawy z PDF."
+  ],
+  "checkedUrls": [
+   "https://www.liceumpolonijne.edu.pl/",
+   "https://www.liceumpolonijne.edu.pl/assets/docs/zasady-rekrutacji.pdf"
+  ]
+ },
+ {
+  "rspo": 25461,
+  "shortName": "LO Niepubliczne nr 29 im. I.J. Paderewskiego",
+  "url": "https://www.liceumpaderewskiego.edu.pl/",
+  "profiles": [
+   {
+    "name": "IA – profil humanistyczno-prawny",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.liceumpaderewskiego.edu.pl/rekrutacja"
+   },
+   {
+    "name": "IB – profil matematyczno-biznesowy",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.liceumpaderewskiego.edu.pl/rekrutacja"
+   }
+  ],
+  "admission": "Brak progów punktowych. O przyjęciu decyduje rozmowa kwalifikacyjna z dyrektorem (kandydat z rodzicami, do wglądu świadectwo i zaświadczenie o wyniku E8); decyzja w ciągu 7 dni, potem umowa. Strona dodaje, że udział w konkursach i wolontariacie jest „dodatkowo punktowany”, bez podanej skali. Źródło: https://www.liceumpaderewskiego.edu.pl/rekrutacja",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona podaje IA jako „brak miejsc”, IB „wolne miejsca”. W drugiej sekcji tej samej strony klasa ścisła nazywa się „IB Ścisła”, a przy humanistycznej widnieje zniekształcone „Klasa IA Klasa IB Humanistyczna”; nazwy przyjęto z pierwszej sekcji."
+  ],
+  "checkedUrls": [
+   "https://www.liceumpaderewskiego.edu.pl/",
+   "https://www.liceumpaderewskiego.edu.pl/rekrutacja"
+  ]
+ },
+ {
+  "rspo": 25835,
+  "shortName": "LO Niepubliczne nr 43 im. Lotników Amerykańskich (PSPO)",
+  "url": "https://www.pspo.edu.pl/liceum/",
+  "profiles": [
+   {
+    "name": "Klasa pierwsza 2026/2027 (rozszerzenia wybierane indywidualnie)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.pspo.edu.pl/liceum/strefa-rodzica/rekrutacja/"
+   }
+  ],
+  "admission": "Brak progów w skali 200. Przy przyjęciu do klasy I w 2026/2027 brane są pod uwagę: wyniki wewnętrznych testów z języka polskiego, matematyki i angielskiego, rozmowa z kandydatem, oceny z I półrocza klasy 8. Decyzję podejmuje Komisja Rekrutacyjna; opłata rekrutacyjna 300 zł. Źródło: „Zasady rekrutacji na rok szkolny 2026/2027” (PDF na Google Drive podlinkowany ze strony szkoły) https://drive.google.com/file/d/1RaEjck0E4UQ8ZSOVOhWk-0JfE99SNXGK/view , strona: https://www.pspo.edu.pl/liceum/strefa-rodzica/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona rekrutacji 2026/2027 mówi, że „każdy uczeń sam tworzy profil własnej edukacji, wybierając dowolne rozszerzenia”; brak klas profilowanych, więc jeden profil bez rozszerzeń. Nazwa szkoły zawiera „z oddziałami dwujęzycznymi”, ale źródła 2026/2027 nie mówią, czy klasa I 2026/2027 jest dwujęzyczna, więc bilingual=null."
+  ],
+  "checkedUrls": [
+   "https://www.pspo.edu.pl/",
+   "https://www.pspo.edu.pl/liceum/",
+   "https://www.pspo.edu.pl/liceum/strefa-rodzica/rekrutacja/",
+   "https://drive.google.com/file/d/1RaEjck0E4UQ8ZSOVOhWk-0JfE99SNXGK/view?usp=sharing"
+  ]
+ },
+ {
+  "rspo": 25825,
+  "shortName": "LO Niepubliczne nr 40 (Fundacja „Nauka i Wiedza”)",
+  "url": "https://www.edukator.pl/szkoly/",
+  "profiles": [
+   {
+    "name": "Klasa pierwsza 2026/2027 (rozszerzenia wybierane indywidualnie)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.edukator.pl/szkoly/page/dla-kandydatow"
+   }
+  ],
+  "admission": "Brak progów punktowych. „Rekrutacja do klas pierwszych na rok szkolny 2026/2027”: kandydat wysyła na rekrutacjalo@edukator.pl skan świadectwa ukończenia SP, zaświadczenie o wynikach E8 i telefon; obowiązuje opłata rekrutacyjna. Strona nie opisuje kryteriów wyboru ani punktacji. Źródło: https://www.edukator.pl/szkoly/page/dla-kandydatow",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona szkoły to podstrona portalu edukator.pl (https://www.edukator.pl/szkoly); treść ładowana skryptem, odczytana z danych osadzonych w HTML. Niedatowana strona „Jak uczymy” (https://www.edukator.pl/szkoly/page/jak-uczymy) mówi, że uczeń od klasy pierwszej sam wybiera dwa przedmioty rozszerzone, bez stałych zestawów, a wszyscy mają 5 h angielskiego (przygotowanie do poziomu rozszerzonego); drugi język: niem./hiszp./fr./ros. Klas profilowanych brak, więc jeden profil bez rozszerzeń."
+  ],
+  "checkedUrls": [
+   "https://www.edukator.pl/",
+   "https://www.edukator.pl/szkoly/",
+   "https://www.edukator.pl/szkoly/page/dla-kandydatow",
+   "https://www.edukator.pl/szkoly/page/jak-uczymy"
+  ]
+ },
+ {
+  "rspo": 86227,
+  "shortName": "LO Niepubliczne nr 6 Varsovia",
+  "url": "https://liceumvarsovia.edu.pl/",
+  "profiles": [
+   {
+    "name": "1A – Klasa dwujęzyczna ogólna",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "fr"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceumvarsovia.edu.pl/rekrutacja/klasa-dwujezyczna-ogolna/"
+   },
+   {
+    "name": "1B – Profil ekonomiczno-biznesowy (Biznes / Angielski)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "fr"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceumvarsovia.edu.pl/rekrutacja/profil-ekonomiczno-biznesowy/"
+   },
+   {
+    "name": "1C – Klasa ogólna z nauczaniem hybrydowym",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "fr"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceumvarsovia.edu.pl/rekrutacja/klasa-z-nauczaniem-hybrydowym/"
+   }
+  ],
+  "admission": "Brak progów w skali 200. Rekrutacja 2026/2027: zgłoszenie (osobiście, telefonicznie lub formularzem), spotkanie informacyjne, dla kandydatów spoza SP Fundacji Varsovia pisemne egzaminy wstępne z polskiego, matematyki i angielskiego (po 45 min; 6-7 marca 2026), rozmowa kwalifikacyjna; warunkiem przyjęcia jest ostateczna rozmowa dyrekcji z rodzicami i kandydatem. Opłata rekrutacyjna 300 zł. Źródło: https://liceumvarsovia.edu.pl/rekrutacja/zasady-rekrutacji-2026-2027/",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona https://liceumvarsovia.edu.pl/rekrutacja/ („Rekrutacja do klas pierwszych 2026/2027”) i formularz wymieniają 1A ogólną dwujęzyczną, 1B Biznes/Angielski i 1C ogólną z nauczaniem hybrydowym. W klasie dwujęzycznej przedmioty rozszerzone (1-3, dowolne) wybiera się w klasie drugiej, więc extended puste; dla 1B i 1C strony nie podają rozszerzeń. Drugi język w formularzu: niem./hiszp./fr. Stara domena z RSPO www.varsovia.edu.pl nie odpowiada; varsovia.edu.pl to strona szkoły podstawowej z linkiem do liceumvarsovia.edu.pl."
+  ],
+  "checkedUrls": [
+   "https://varsovia.edu.pl/",
+   "https://liceumvarsovia.edu.pl/",
+   "https://liceumvarsovia.edu.pl/rekrutacja/",
+   "https://liceumvarsovia.edu.pl/rekrutacja/zasady-rekrutacji-2026-2027/",
+   "https://liceumvarsovia.edu.pl/rekrutacja/klasa-dwujezyczna-ogolna/",
+   "https://liceumvarsovia.edu.pl/rekrutacja/profil-ekonomiczno-biznesowy/",
+   "https://liceumvarsovia.edu.pl/rekrutacja/klasa-z-nauczaniem-hybrydowym/"
+  ]
+ },
+ {
+  "rspo": 26954,
+  "shortName": "LO Niepubliczne nr 13",
+  "url": "https://www.los13.edu.pl/",
+  "profiles": [
+   {
+    "name": "Klasa pierwsza 2026/2027 (bez profilu)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.los13.edu.pl/?page_id=54"
+   }
+  ],
+  "admission": "Brak progów punktowych. Podanie i kwestionariusz składa się mailowo lub w sekretariacie, potem spotkanie rekrutacyjne (uczeń z rodzicem). Według zasad rekrutacji decydują rozmowa kwalifikacyjna i kolejność złożenia podań; decyzję podejmuje Komisja Rekrutacyjna. Od 20.04.2026 nabór do klas pierwszych 2026/2027 prowadzony tylko na listę rezerwową. Źródła: https://www.los13.edu.pl/?page_id=54 oraz PDF zasad (sformułowany dla 2025/2026) http://www.los13.edu.pl/wordpress/wp-content/uploads/2025/01/Zasady-rekrutacji-do-Liceum-Ogolnoksztalcacego-Niepublicznego-Nr-13.pdf",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona rekrutacji jest datowana na 2026/2027, ale podlinkowany PDF z zasadami mówi o roku 2025/2026. Niedatowana „Oferta szkoły” (https://www.los13.edu.pl/?page_id=11): od klasy drugiej co najmniej dwa przedmioty rozszerzone do wyboru, rozszerzony angielski, drugi język niem./fr./hiszp./ros. zależnie od chętnych, dodatkowo łacina. Profili klas brak, więc jeden profil bez rozszerzeń."
+  ],
+  "checkedUrls": [
+   "https://www.los13.edu.pl/",
+   "https://www.los13.edu.pl/?p=582",
+   "https://www.los13.edu.pl/?page_id=54",
+   "https://www.los13.edu.pl/?page_id=11",
+   "http://www.los13.edu.pl/wordpress/wp-content/uploads/2025/01/Zasady-rekrutacji-do-Liceum-Ogolnoksztalcacego-Niepublicznego-Nr-13.pdf"
+  ]
+ },
+ {
+  "rspo": 30936,
+  "shortName": "LO Przymierza Rodzin im. św. Jana Pawła II",
+  "url": "https://www.loprzymierze.edu.pl/",
+  "profiles": [
+   {
+    "name": "Klasy I – 2 oddziały po 20 osób (rozszerzenia wybierane przez ucznia)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [],
+    "places": 40,
+    "thresholds": [],
+    "sourceUrl": "https://www.loprzymierze.edu.pl/rekrutacja"
+   }
+  ],
+  "admission": "Brak progów w skali 200. Nabór na podstawie egzaminu wstępnego (11.04.2026): pisemny z matematyki (20 pkt) i polskiego (20 pkt), test z angielskiego (10 pkt), a dla najlepszych z części pisemnej rozmowa kwalifikacyjna (10 pkt); razem maks. 60 pkt. Przyjmowani kandydaci z „wymaganą liczbą punktów” (strona jej nie podaje). Laureaci konkursów zwolnieni z pisemnych, certyfikat FCE zwalnia z testu z angielskiego. 40 miejsc, w tym 4 preferencyjne. Później ogłoszono dodatkową rekrutację (kontakt z sekretariatem). Źródło: https://www.loprzymierze.edu.pl/rekrutacja",
+  "noOffer2026": false,
+  "doubts": [
+   "W 2026/2027 dwie 20-osobowe klasy „z możliwością rozszerzania różnych przedmiotów wybranych przez ucznia”; rozszerzenia wybierane po dwóch miesiącach nauki, więc extended puste. Programy autorskie: angielski przygotowujący do matury rozszerzonej, humanistyczny (historia sztuki, filozofia), matematyczny (8 h matematyki). Punktacja egzaminu w skali 60; minimum przyjęcia nieopublikowane, więc thresholds puste."
+  ],
+  "checkedUrls": [
+   "https://www.loprzymierze.edu.pl/",
+   "https://www.loprzymierze.edu.pl/rekrutacja",
+   "https://www.loprzymierze.edu.pl/kalendarz-rekrutacji"
+  ]
+ },
+ {
+  "rspo": 29820,
+  "shortName": "LO Społeczne nr 17 („Siedemnastka”)",
+  "url": "https://www.los17.pl/",
+  "profiles": [
+   {
+    "name": "Klasa pierwsza 2026/2027 (klasy nieprofilowane)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.los17.pl/dla_kandydata/"
+   }
+  ],
+  "admission": "Brak progów punktowych. Procedura 2026/2027: formularz zgłoszeniowy (zamknięty 16 czerwca), rozmowa kwalifikacyjna z dyrekcją (od 14 maja 2026; bez odpytywania z wiedzy), przesłanie wyników E8 między 3 a 8 lipca 2026, informacja o przyjęciu do 15 lipca 2026, podpisanie umowy. Źródło: https://www.los17.pl/dla_kandydata/",
+  "noOffer2026": false,
+  "doubts": [
+   "Klasy nie są sprofilowane: uczeń sam wybiera rozszerzenia; klasy 15-osobowe, angielski 4 h w grupach poziomowych, drugi język do wyboru (niedatowana strona https://www.los17.pl/o_szkole/). Dlatego jeden profil bez rozszerzeń."
+  ],
+  "checkedUrls": [
+   "https://www.los17.pl/",
+   "https://www.los17.pl/dla_kandydata/",
+   "https://www.los17.pl/o_szkole/"
+  ]
+ },
+ {
+  "rspo": 133629,
+  "shortName": "LO TE Vizja z Oddziałami Dwujęzycznymi (Warszawa Centrum)",
+  "url": "https://tevizja.pl/warszawa-centrum/matura-polska/",
+  "profiles": [],
+  "admission": "Brak progów punktowych. Rekrutacja do liceum TE Vizja: rejestracja w systemie https://zapisy.tevizja.pl i opłata egzaminacyjna, egzamin wstępny z matematyki, polskiego i angielskiego (terminy od lutego), potem spotkanie z koordynatorem i podpisanie umowy. Źródło: https://tevizja.pl/rekrutacja-do-te-vizja/",
+  "noOffer2026": true,
+  "doubts": [
+   "Strona liceum przy Okopowej 59 (https://tevizja.pl/warszawa-centrum/matura-polska/) nie jest datowana na 2026/2027. Opisuje, że wszyscy uczniowie klas pierwszych zaczynają na profilu ogólnym (oddziały dwujęzyczne z angielskim), rozszerzenia i profil wybiera się po 1. roku; angielski rozszerzony w każdej klasie, drugi język fr./niem./hiszp.; w klasach III-IV program IB DP (https://tevizja.pl/warszawa-centrum/program-ib/). Profili nie wpisano.",
+   "Strona rekrutacji (zmodyfikowana 2025-11-05) jest wspólna dla wszystkich placówek TE Vizja i też nie podaje roku szkolnego."
+  ],
+  "checkedUrls": [
+   "https://tevizja.pl/",
+   "https://tevizja.pl/rekrutacja-do-te-vizja/",
+   "https://tevizja.pl/warszawa-centrum/matura-polska/",
+   "https://tevizja.pl/warszawa-centrum/program-ib/"
+  ]
+ },
+ {
+  "rspo": 478575,
+  "shortName": "LO TEB Edukacja w Warszawie",
+  "url": "https://szkolasrednia.teb.pl/szkoly/d/liceum/warszawa/",
+  "profiles": [
+   {
+    "name": "Klasa językowa",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/2026_PODANIE_O_PRZYJECIE_DO_LICEUM_WAR-1.pdf"
+   },
+   {
+    "name": "Klasa kosmetologiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/2026_PODANIE_O_PRZYJECIE_DO_LICEUM_WAR-1.pdf"
+   },
+   {
+    "name": "Klasa kryminalistyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "chem",
+     "bio"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/2026_PODANIE_O_PRZYJECIE_DO_LICEUM_WAR-1.pdf"
+   },
+   {
+    "name": "Klasa medyczno-ratownicza",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/2026_PODANIE_O_PRZYJECIE_DO_LICEUM_WAR-1.pdf"
+   },
+   {
+    "name": "Klasa prawnicza",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/2026_PODANIE_O_PRZYJECIE_DO_LICEUM_WAR-1.pdf"
+   },
+   {
+    "name": "Klasa psychologiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "bio"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/2026_PODANIE_O_PRZYJECIE_DO_LICEUM_WAR-1.pdf"
+   }
+  ],
+  "admission": "Brak progów i egzaminów wstępnych. Według „Regulaminu rekrutacji do klas pierwszych na rok szkolny 2026/2027” zgłoszenia rozpatruje się według kolejności wpływu kompletu dokumentów; kandydaci z naganną lub nieodpowiednią oceną zachowania nie są przyjmowani w rekrutacji podstawowej; możliwa rozmowa o potencjale kandydata. Klasa „flex”: kolejność zgłoszeń, bez oceny zachowania. Źródło: https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/Liceum-regulamin-rekrutacji.pdf (skan), strona https://szkolasrednia.teb.pl/miasta/d/warszawa/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Lista sześciu klas pochodzi z „Podania o przyjęcie do liceum” w Warszawie na 2026/2027 (część „Oferta liceum dla klasy pierwszej w roku szkolnym 2026/2027”). Przedmioty rozszerzone wzięto ze stron klas dla Warszawy (np. https://szkolasrednia.teb.pl/kierunki/d/klasa-prawnicza/warszawa/). Te strony nie są datowane, a większość adresów ma końcówkę „-arch”, choć linkuje do nich aktualna strona liceum https://szkolasrednia.teb.pl/szkoly/d/liceum/warszawa/.",
+   "Regulamin 2026/2027 i harmonogram (https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/Harmonogram-rekrutacji-na-rok-szkolny-2026_2027_klasa-FLEX.pdf) wspominają też „klasę flex”, której nie ma na liście klas w podaniu; nie wpisano jej jako profilu. Dyrektor może nie uruchomić oddziału przy zbyt małej liczbie chętnych."
+  ],
+  "checkedUrls": [
+   "https://szkolasrednia.teb.pl/miasta/d/warszawa/",
+   "https://szkolasrednia.teb.pl/szkoly/d/liceum/warszawa/",
+   "https://szkolasrednia.teb.pl/miasta/d/warszawa/rekrutacja/",
+   "https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/2026_PODANIE_O_PRZYJECIE_DO_LICEUM_WAR-1.pdf",
+   "https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/Liceum-regulamin-rekrutacji.pdf",
+   "https://szkolasrednia.teb.pl/kierunki/d/klasa-jezykowa-arch/warszawa/",
+   "https://szkolasrednia.teb.pl/kierunki/d/klasa-kosmetologiczna-arch/warszawa/",
+   "https://szkolasrednia.teb.pl/kierunki/d/klasa-kryminalistyczna-arch/warszawa/",
+   "https://szkolasrednia.teb.pl/kierunki/d/klasa-medyczno-ratownicza/warszawa/",
+   "https://szkolasrednia.teb.pl/kierunki/d/klasa-prawnicza/warszawa/",
+   "https://szkolasrednia.teb.pl/kierunki/d/klasa-psychologiczna-arch/warszawa/"
+  ]
+ },
+ {
+  "rspo": 270503,
+  "shortName": "LO Wyspa JP2",
+  "url": "https://wyspajp2.pl/liceum/",
+  "profiles": [
+   {
+    "name": "Klasa pierwsza 2026/2027",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "geo",
+     "ang",
+     "hist"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://wyspajp2.pl/liceum/rekrutacja/"
+   }
+  ],
+  "admission": "Brak progów w skali 200. I rekrutacja (wiosenna, konkursowa): oceny z klasy 7 i I semestru klasy 8 (średnia min. 4,0, zachowanie co najmniej dobre, min. 4 z polskiego, angielskiego, religii i dwóch przedmiotów do wyboru) oraz rozmowa rekrutacyjna. II rekrutacja: świadectwo ukończenia SP ze średnią min. 4,0, zachowanie co najmniej dobre, wyniki E8 i rozmowa kwalifikacyjna. Laureaci i finaliści konkursów MKO zwolnieni z kryteriów. Źródło: https://wyspajp2.pl/liceum/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Na stronie „Trwa REKRUTACJA na rok szkolny 2026/2027” podano rozszerzenia polski, geografia, angielski, historia („inne fakultatywnie”) i drugi język hiszpański. Nie wiadomo, czy to jedna klasa z czterema rozszerzeniami, czy pula do wyboru; przyjęto jedną klasę z tymi rozszerzeniami. Adres z RSPO www.wyspajp2.pl to strona wspólna z SP; liceum jest pod https://wyspajp2.pl/liceum/."
+  ],
+  "checkedUrls": [
+   "https://www.wyspajp2.pl/",
+   "https://wyspajp2.pl/liceum/",
+   "https://wyspajp2.pl/liceum/rekrutacja/",
+   "https://wyspajp2.pl/liceum/rekrutacja/formularz-rekrutacyjny/"
+  ]
+ },
+ {
+  "rspo": 275355,
+  "shortName": "LO z Oddziałami Dwujęzycznymi Fundacji Szkolnej (LOFS)",
+  "url": "https://lo.fundacjaszkolna.edu.pl/",
+  "profiles": [],
+  "admission": "Brak progów punktowych. Najważniejsze jest spotkanie i rozmowa z kandydatem i rodzicem, po których szkoła przekazuje decyzję; do klasy pierwszej składa się świadectwo z klasy 7, wykaz ocen z klasy 8 i zaświadczenie o wynikach E8. Źródło: https://lo.fundacjaszkolna.edu.pl/rekrutacja/",
+  "noOffer2026": true,
+  "doubts": [
+   "Strona rekrutacji nie jest datowana; jedynie formularz zgłoszeniowy pozwala wybrać rok 2025/2026 lub 2026/2027. Na stronie głównej (niedatowanej): rozszerzenia wybiera się dopiero w drugiej klasie, bez sztywnych profili. Oferty klas na 2026/2027 nie znaleziono, więc profiles puste."
+  ],
+  "checkedUrls": [
+   "https://lo.fundacjaszkolna.edu.pl/",
+   "https://lo.fundacjaszkolna.edu.pl/rekrutacja/"
+  ]
+ },
+ {
+  "rspo": 485988,
+  "shortName": "Liceum InnEdu (Fundacja Szkolna)",
+  "url": "https://innedu.pl/",
+  "profiles": [
+   {
+    "name": "Hybryda PRO – ścieżka matematyczno-geograficzna (edukacja domowa/hybrydowa)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://innedu.pl/oferta/"
+   },
+   {
+    "name": "Hybryda PRO – ścieżka matematyczno-fizyczna (edukacja domowa/hybrydowa)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://innedu.pl/oferta/"
+   },
+   {
+    "name": "Hybryda PRO – ścieżka biologiczno-chemiczna (edukacja domowa/hybrydowa)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://innedu.pl/oferta/"
+   },
+   {
+    "name": "Hybryda PRO – ścieżka polonistyczno-historyczna (edukacja domowa/hybrydowa)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://innedu.pl/oferta/"
+   }
+  ],
+  "admission": "Brak progów i kryteriów selekcji. Szkoła dla uczniów w edukacji domowej i hybrydowej: formularz zgłoszeniowy, kontakt z koordynatorką rekrutacji, wypełnienie przesłanych dokumentów i podpisanie umowy. Źródło: https://innedu.pl/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "To liceum dla uczniów w edukacji domowej (InnEdu, Fundacja Szkolna), a nie szkoła z tradycyjnymi oddziałami. Oferta „obowiązuje w roku szkolnym 2026/2027” (https://innedu.pl/oferta/): ED z platformą, Hybryda Basic (bloki rozszerzone mat-fiz, mat-geo, bio-chem, humanistyczny pol+hist albo pojedyncze przedmioty) i nowa od września 2026 w Warszawie Hybryda PRO z czterema ścieżkami maturalnymi. Jako profile wpisano ścieżki Hybrydy PRO; to nie są oddziały klasowe. Warto rozważyć pominięcie tej szkoły w wyszukiwarce klas.",
+   "Adres z RSPO (sekretariat@ed.fundacjaszkolna.edu.pl) prowadzi przez ed.fundacjaszkolna.edu.pl do https://innedu.pl/."
+  ],
+  "checkedUrls": [
+   "https://ed.fundacjaszkolna.edu.pl/",
+   "https://innedu.pl/",
+   "https://innedu.pl/oferta/",
+   "https://innedu.pl/rekrutacja/"
+  ]
+ },
+ {
+  "rspo": 277478,
+  "shortName": "LO ZDZ w Warszawie (Szkoła na Starówce)",
+  "url": "https://liceum.zdz.edu.pl/",
+  "profiles": [
+   {
+    "name": "Profil artystyczny",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang",
+     "hist"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceum.zdz.edu.pl/rekrutacja/"
+   },
+   {
+    "name": "Profil społeczno-turystyczny",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "wos",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceum.zdz.edu.pl/rekrutacja/"
+   },
+   {
+    "name": "Profil psychologiczno-pedagogiczny",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "wos",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceum.zdz.edu.pl/rekrutacja/"
+   },
+   {
+    "name": "Profil robotyka i systemy dronowe",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "inf",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceum.zdz.edu.pl/rekrutacja/"
+   }
+  ],
+  "admission": "Brak progów punktowych („U nas nie ma progów punktowych”); szkoła nie uczestniczy w naborze elektronicznym. Rekrutacja: podanie i list motywacyjny mailem, dokumenty (świadectwo, zaświadczenie E8), rozmowa kwalifikacyjna z dyrektorem; o przyjęciu decydują wynik rozmowy i ocena zachowania. Źródło: https://liceum.zdz.edu.pl/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona „Rekrutacja 2026/2027” podaje cztery planowane klasy. W planie lekcji od 07.09.2026 (https://szkoly.zdz.edu.pl/wp-content/uploads/2026/09/07.09-klasy.pdf) z pierwszych klas LO są tylko 1Art i 1ST, czyli prawdopodobnie ruszyły tylko profil artystyczny i społeczno-turystyczny. Profil psychologiczno-pedagogiczny i robotyka mogły nie zostać uruchomione (wniosek z planu lekcji, nie z komunikatu szkoły)."
+  ],
+  "checkedUrls": [
+   "https://liceum.zdz.edu.pl/",
+   "https://liceum.zdz.edu.pl/rekrutacja/",
+   "https://szkoly.zdz.edu.pl/wp-content/uploads/2026/09/07.09-klasy.pdf"
+  ]
+ },
+ {
+  "rspo": 478866,
+  "shortName": "Lighthouse Liceum Stevensona",
+  "url": "https://stevenson.lighthouse.waw.pl/",
+  "profiles": [
+   {
+    "name": "Klasa pierwsza (rozszerzenia wybierane przez ucznia)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://stevenson.lighthouse.waw.pl/#rekrutacja"
+   }
+  ],
+  "admission": "Brak progów w skali 200. Egzamin wstępny 30 maja 2026: praca pisemna (wypowiedź na zadany temat i część matematyczna, 120 min) oraz 20-minutowa rozmowa kwalifikacyjna o zainteresowaniach i oczekiwaniach. Zgłoszenie przez ankietę rekrutacyjną i opłata egzaminacyjna 300 zł. Źródło: https://stevenson.lighthouse.waw.pl/#rekrutacja",
+  "noOffer2026": false,
+  "doubts": [
+   "Sekcja rekrutacji nie pisze wprost „2026/2027”, ale terminy (dzień otwarty 20.05.2026, egzamin 30.05.2026) dotyczą naboru na 2026/2027. Klas profilowanych brak: „uczniowie sami wybierają rozszerzenia i konstruują swój profil”; matematyka i języki w grupach poziomowanych. Adres z RSPO www.stevensonlo.pl przekierowuje na https://stevenson.lighthouse.waw.pl/."
+  ],
+  "checkedUrls": [
+   "https://www.stevensonlo.pl/",
+   "https://stevenson.lighthouse.waw.pl/"
+  ]
+ },
+ {
+  "rspo": 266352,
+  "shortName": "LO im. Salvadora Dalego",
+  "url": "https://liceumdalego.pl/",
+  "profiles": [
+   {
+    "name": "Klasa filmu i telewizji",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceumdalego.pl/zapisy/"
+   },
+   {
+    "name": "Klasa malarstwa i sztuki",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceumdalego.pl/zapisy/"
+   },
+   {
+    "name": "Klasa muzyki",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceumdalego.pl/zapisy/"
+   },
+   {
+    "name": "Klasa mody i fotografii",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceumdalego.pl/zapisy/"
+   },
+   {
+    "name": "Klasa grafiki komputerowej",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceumdalego.pl/zapisy/"
+   }
+  ],
+  "admission": "Brak progów, egzaminów wstępnych i konkursu świadectw. Przyjęcia według kolejności zgłoszeń do wyczerpania miejsc: kontakt telefoniczny lub mailowy, umowa o kształcenie, wpisowe; świadectwo i zaświadczenie E8 dostarcza się na koniec roku. Źródło: https://liceumdalego.pl/zapisy/",
+  "noOffer2026": false,
+  "doubts": [
+   "Lista pięciu klas pochodzi z https://liceumdalego.pl/zapisy/ („Już zapisujemy na rok szkolny 2026/2027”). Niedatowana strona https://liceumdalego.pl/klasy/ mówi, że historię sztuki (klasa sztuki), historię muzyki (klasa muzyki) albo informatykę lub historię sztuki (klasa grafiki) „można wybrać” jako rozszerzenie od klasy pierwszej. To wybór, nie obowiązkowe rozszerzenie, więc extended puste.",
+   "Szkoła mieści się pod tym samym adresem (Bobrowiecka 9) i ma ten sam cennik co LO „Szkoła Liderów”; cennik wymienia „klasy dwujęzyczne”, choć Dali żadnej takiej klasy nie oferuje."
+  ],
+  "checkedUrls": [
+   "https://liceumdalego.pl/",
+   "https://liceumdalego.pl/zapisy/",
+   "https://liceumdalego.pl/klasy/"
+  ]
+ },
+ {
+  "rspo": 29755,
+  "shortName": "LO nr 50 SKiE",
+  "url": "https://lo50.skie.pl/",
+  "profiles": [],
+  "admission": "Brak progów w skali 200. Rekrutacja dwuetapowa: test z polskiego, matematyki i angielskiego (90 min każdy) oraz rozmowa kwalifikacyjna (znajomość „Antygony” i „Małego Księcia” plus autoprezentacja), niezależnie od wyniku testu. Opłata rekrutacyjna 200 zł; przyjęcia w turach; rekrutacja uzupełniająca do wyczerpania miejsc. Źródło: https://lo50.skie.pl/rekrutacja/zasady-rekrutacji/",
+  "noOffer2026": true,
+  "doubts": [
+   "Strony zasad i terminów rekrutacji nie podają roku szkolnego (terminy testów 20.04-18.05 bez roku). Strona rekrutacji uzupełniającej mówi o „elastycznym wyborze rozszerzeń od drugiej klasy”, bez klas profilowanych. Datowanej oferty 2026/2027 nie znaleziono. URL szkoły: https://lo50.skie.pl/ (RSPO podaje tylko e-mail @skie.pl)."
+  ],
+  "checkedUrls": [
+   "https://skie.pl/",
+   "https://lo50.skie.pl/",
+   "https://lo50.skie.pl/rekrutacja/zasady-rekrutacji/",
+   "https://lo50.skie.pl/rekrutacja/terminy-rekrutacji/",
+   "https://lo50.skie.pl/rekrutacja-uzupelniajaca/"
+  ]
+ }
+]

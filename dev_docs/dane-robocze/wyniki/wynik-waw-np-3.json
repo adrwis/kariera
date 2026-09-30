@@ -1,0 +1,761 @@
+[
+ {
+  "rspo": 270480,
+  "shortName": "International European School Warsaw (IES) – High School",
+  "url": "https://ies.waw.pl/",
+  "profiles": [],
+  "admission": "Egzamin wstępny: angielski, matematyka i jeden przedmiot do wyboru (historia, geografia, biologia, chemia, fizyka), po 0–100 pkt; min. 150 pkt z testów, by zostać zaproszonym na rozmowę po angielsku (0–70 pkt) przed komisją; wyniki rekrutacji są ostateczne. Nauka w sekcji Cambridge (IGCSE, potem A-levels) lub IB DP. Brak progów w skali 200. Źródło (niedatowane): https://ies.waw.pl/ies/high",
+  "noOffer2026": true,
+  "doubts": [
+   "Strona High School (https://ies.waw.pl/ies/high) opisuje ofertę bez daty: w klasie 1 (Year 9) wybór 8 przedmiotów w grupach, języki obce do wyboru: niemiecki, francuski, hiszpański, włoski, rosyjski; potem IGCSE i IB DP lub A-levels. Nie wpisano profili, bo brak datowanej oferty na 2026/2027. Dni otwarte ogłoszone na 10.10 i 21.11.2026 (nabór na kolejny rok).",
+   "Domena ies-warsaw.pl (z e-maila w RSPO) przekierowuje na https://ies.waw.pl/."
+  ],
+  "checkedUrls": [
+   "https://ies-warsaw.pl",
+   "https://ies.waw.pl/",
+   "https://ies.waw.pl/ies/high",
+   "https://ies.waw.pl/initial-registration"
+  ]
+ },
+ {
+  "rspo": 133632,
+  "shortName": "Międzynarodowe Liceum Niepubliczne w Warszawie (Ogólnopolski Operator Oświaty)",
+  "url": "https://mnlo.operator.edu.pl/",
+  "profiles": [
+   {
+    "name": "klasa pierwsza liceum (polski i ukraiński system nauczania równolegle; profil nie podany)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://mnlo.operator.edu.pl/rekrutacja/"
+   }
+  ],
+  "admission": "Rekrutacja na 2026/2027 w trybie ciągłym do wyczerpania miejsc: formularz zgłoszeniowy, spotkanie rekrutacyjne w szkole lub rozmowa, dokumenty, umowa; o miejscu decyduje kolejność zgłoszeń i komplet dokumentów, możliwa lista rezerwowa. Szkoła głównie dla uczniów z Ukrainy, polska znajomość języka nie jest wymagana na starcie. Brak progów punktowych. Źródło: https://mnlo.operator.edu.pl/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona nie podaje profili, rozszerzeń, języków obcych ani liczby miejsc; mówi o nauce w językach ukraińskim i polskim (klasy 9–11 w numeracji ukraińskiej). Adres strony znaleziony przez stronę organu prowadzącego: https://operator.edu.pl/pl/placowki/miedzynarodowe-liceum-niepubliczne-w-warszawie/."
+  ],
+  "checkedUrls": [
+   "https://operator.edu.pl/pl/placowki/miedzynarodowe-liceum-niepubliczne-w-warszawie/",
+   "https://mnlo.operator.edu.pl/",
+   "https://mnlo.operator.edu.pl/rekrutacja/"
+  ]
+ },
+ {
+  "rspo": 482471,
+  "shortName": "Międzynarodowe LO TE Vizja (Mokotów)",
+  "url": "https://tevizja.pl/warszawa-mokotow/matura-polska/",
+  "profiles": [],
+  "admission": "Rejestracja przez formularz, egzaminy wstępne z języka polskiego, angielskiego i matematyki, rozmowa kandydata i rodziców z dyrektorem (z analizą wyników egzaminu ósmoklasisty i świadectwa), decyzja dyrektora, umowa edukacyjna. Brak progów punktowych. Źródła: https://tevizja.pl/warszawa-mokotow/matura-polska/ , https://tevizja.pl/rekrutacja-do-te-vizja/",
+  "noOffer2026": true,
+  "doubts": [
+   "Niedatowana strona https://tevizja.pl/warszawa-mokotow/matura-polska/ (Międzynarodowe LO TE Vizja): klasy pierwsze na profilu ogólnym, wybór profilu od klasy II: mat-inf (mat, inf), humanistyczny dziennikarsko-prawniczy (pol, hist), biznesowy (mat, geo), biol-chem (bio, chem); angielski rozszerzony w każdej klasie; drugi język fr/niem/hisz; strona mówi o 'programie dwujęzycznym'. Nie wpisano, bo brak daty oferty 2026/2027.",
+   "Adres RSPO ul. 1 Sierpnia 8A (Włochy) pokrywa się z adresem na stronie kampusu; strona opisuje go jako 'Mokotów'."
+  ],
+  "checkedUrls": [
+   "https://tevizja.pl/",
+   "https://tevizja.pl/rekrutacja-do-te-vizja/",
+   "https://tevizja.pl/warszawa-mokotow/matura-polska/",
+   "https://tevizja.pl/warszawa-centrum/program-ib/"
+  ]
+ },
+ {
+  "rspo": 84862,
+  "shortName": "Thames British School Warsaw – High School",
+  "url": "https://www.thamesbritishschool.pl/",
+  "profiles": [],
+  "admission": "Rekrutacja na zasadach szkoły międzynarodowej: wizyta/dzień otwarty, dzień próbny lub rozmowa z członkiem kierownictwa szkoły, formularz aplikacyjny i dokumenty, w zależności od wieku i języka – test z angielskiego. Brak progów punktowych. Źródło: https://www.thamesbritishschool.pl/admissions/how-to-apply",
+  "noOffer2026": true,
+  "doubts": [
+   "Strona High School (https://www.thamesbritishschool.pl/learning-and-teaching/high-school) opisuje program anglojęzyczny IGCSE (14–16 lat), a potem A levels lub IB Diploma (Years 12–13), bez daty i bez klas w rozumieniu polskiego liceum. Nie znalazłem datowanej oferty na 2026/2027.",
+   "Adres RSPO: ul. Gładka 31 (Włochy), e-mail mokotowhigh@; strona opisuje kampus High School na Mokotowie (Tulipan House)."
+  ],
+  "checkedUrls": [
+   "https://thamesbritishschool.pl/",
+   "https://www.thamesbritishschool.pl/learning-and-teaching/high-school",
+   "https://www.thamesbritishschool.pl/admissions/how-to-apply",
+   "https://www.thamesbritishschool.pl/our-campuses/mokotow-high-school-campus"
+  ]
+ },
+ {
+  "rspo": 272092,
+  "shortName": "Niepubliczne Liceum Eduventura",
+  "url": "https://eduventura.pl/liceum/",
+  "profiles": [
+   {
+    "name": "klasa pierwsza (profil nie podany)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://eduventura.pl/aktualnosci/"
+   }
+  ],
+  "admission": "Zgłoszenie przez formularz rekrutacyjny online (wybór roku 2026/2027 i klasy I liceum), dzień otwarty 11.04.2026 z omówieniem zasad rekrutacji; wpisowe i czesne. Strona nie opisuje kryteriów przyjęcia; brak progów punktowych. Źródła: https://eduventura.pl/formularz-rekrutacyjny/ , https://eduventura.pl/aktualnosci/",
+  "noOffer2026": false,
+  "doubts": [
+   "Datowane są tylko: dzień otwarty 11.04.2026 z informacją o rekrutacji do liceum i formularz z wyborem roku 2026/2027. Niedatowana strona https://eduventura.pl/liceum/ mówi, że uczniowie uczą się angielskiego w zakresie rozszerzonym (5 h) i drugiego języka nowożytnego rozszerzonego (3 h), bez wskazania, jakiego. Nie wpisano rozszerzeń ani języków.",
+   "Brak liczby miejsc i kryteriów przyjęcia."
+  ],
+  "checkedUrls": [
+   "https://eduventura.pl/",
+   "https://eduventura.pl/liceum/",
+   "https://eduventura.pl/formularz-rekrutacyjny/",
+   "https://eduventura.pl/aktualnosci/",
+   "https://eduventura.pl/czesne/"
+  ]
+ },
+ {
+  "rspo": 483685,
+  "shortName": "Liceum Indygo",
+  "url": "https://szkolaindygo.edu.pl/",
+  "profiles": [
+   {
+    "name": "liceum w formule edukacji domowej (bez podziału na profile)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolaindygo.edu.pl/rekrutacja-szkola-indygo/"
+   }
+  ],
+  "admission": "Rekrutacja 2026/27 przez cały rok przez platformę Domowi.edu.pl: formularz, rozmowa weryfikacyjna z przedstawicielem Centrum Nauczania Domowego, dokumenty (świadectwo ukończenia SP, zdjęcie). Nauka w formule edukacji domowej, bezpłatna. Brak progów punktowych. Źródło: https://szkolaindygo.edu.pl/rekrutacja-szkola-indygo/",
+  "noOffer2026": false,
+  "doubts": [
+   "Szkoła działa w formule edukacji domowej; strona nie podaje profili, rozszerzeń, języków ani liczby miejsc."
+  ],
+  "checkedUrls": [
+   "https://szkolaindygo.edu.pl/",
+   "https://szkolaindygo.edu.pl/rekrutacja-szkola-indygo/"
+  ]
+ },
+ {
+  "rspo": 484245,
+  "shortName": "NLO Bezpieczna Przystań",
+  "url": "https://bezpiecznaprzystan.edu.pl/nasze-szkoly/",
+  "profiles": [],
+  "admission": "Liceum w formule edukacji domowej (bezpłatne): zapis przez kontakt z koordynatorem edukacji domowej (ed@bezpiecznaprzystan.edu.pl), wniosek rodzica o zgodę dyrektora na edukację domową, coroczne egzaminy klasyfikacyjne. Brak egzaminów wstępnych i progów punktowych. Źródło (niedatowane): https://bezpiecznaprzystan.edu.pl/nasze-szkoly/",
+  "noOffer2026": true,
+  "doubts": [
+   "Strona prowadzącego (poradnia psychologiczno-pedagogiczna) opisuje liceum tylko ogólnie jako szkołę dla uczniów w edukacji domowej, bez daty, klas, profili i oferty na 2026/2027."
+  ],
+  "checkedUrls": [
+   "https://bezpiecznaprzystan.edu.pl/",
+   "https://bezpiecznaprzystan.edu.pl/sitemap.xml",
+   "https://bezpiecznaprzystan.edu.pl/page-sitemap.xml",
+   "https://bezpiecznaprzystan.edu.pl/nasze-szkoly/"
+  ]
+ },
+ {
+  "rspo": 133558,
+  "shortName": "NLO im. Roberta Schumana Fundacji „Primus”",
+  "url": "https://primus.com.pl/liceum/oferta",
+  "profiles": [],
+  "admission": "Rejestracja online, dokumenty (świadectwo, wynik egzaminu ósmoklasisty), pisemny egzamin wstępny z języka polskiego, angielskiego i matematyki oraz rozmowa kwalifikacyjna; punkty dodatkowe (10 pkt dla uczniów NSP 47, 5 pkt za konkursy/osiągnięcia, 3 pkt za wolontariat); przyjęcie bez egzaminu m.in. dla laureatów konkursów kuratoryjnych i olimpiad; certyfikat FCE min. B2 zwalnia z egzaminu z angielskiego. Harmonogram z datami 2026: rejestracja od 9.02.2026, egzaminy 19–20.03 i 26–27.03.2026, formalności do 12.05.2026. Brak progów w skali 200. Źródło: https://primus.com.pl/liceum/rekrutacja (treść ładowana z https://primus.com.pl/api/site-settings)",
+  "noOffer2026": true,
+  "doubts": [
+   "Strona rekrutacji jest obecnie opisana jako 'rok szkolny 2027/28' (egzaminy w 2027), a lista profili jest na tej stronie. Profile: Klasa Ścisła (angielski rozszerzony obowiązkowo, kolejne rozszerzenia do wyboru z fiz, chem, bio, geo, inf, mat) i Klasa Dwujęzyczna z angielskim (kolejne rozszerzenia do wyboru z pol, hist, fil, wos, mat, geo, hisz, niem, fr); drugi język hiszpański, francuski lub niemiecki. Nie wpisano, bo nie da się potwierdzić, że ta oferta dotyczyła naboru 2026/2027. Web.archive.org był niedostępny.",
+   "Harmonogram z datami z 2026 (nabór na 2026/2027) nie wymienia klas."
+  ],
+  "checkedUrls": [
+   "https://primus.com.pl/",
+   "https://primus.com.pl/sitemap.xml",
+   "https://primus.com.pl/liceum/rekrutacja",
+   "https://primus.com.pl/liceum/oferta",
+   "https://primus.com.pl/api/site-settings"
+  ]
+ },
+ {
+  "rspo": 482237,
+  "shortName": "Liceum Lumanai",
+  "url": "https://lumanai.edu.pl/",
+  "profiles": [
+   {
+    "name": "klasa pierwsza, model hybrydowy (uczeń sam wybiera rozszerzenia)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://lumanai.edu.pl/rekrutacja-uzupelniajaca-do-liceum-lumanai-wrzesien-2026/"
+   }
+  ],
+  "admission": "Rozmowa rekrutacyjna online z kandydatem i rodzicami, potem dokumenty (świadectwo 7 klasy, oceny z I semestru 8 klasy) i umowa; o przyjęciu decyduje kolejność zgłoszeń. Wynik egzaminu ósmoklasisty nie jest kluczowy. W 09.2026 trwa rekrutacja uzupełniająca do klasy I 2026/2027. Brak progów punktowych. Źródła: https://lumanai.edu.pl/rekrutacja/ , https://lumanai.edu.pl/rekrutacja-uzupelniajaca-do-liceum-lumanai-wrzesien-2026/",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona rekrutacji podaje 'Liczba uczniów na 2025 rok: dwie klasy pierwsze po maks. 20 osób' – nagłówek z rokiem 2025, więc nie wpisano places dla 2026/2027.",
+   "Brak informacji o językach obcych i konkretnych rozszerzeniach; uczeń sam wybiera rozszerzenia."
+  ],
+  "checkedUrls": [
+   "https://lumanai.edu.pl/",
+   "https://lumanai.edu.pl/rekrutacja/",
+   "https://lumanai.edu.pl/rekrutacja-uzupelniajaca-do-liceum-lumanai-wrzesien-2026/"
+  ]
+ },
+ {
+  "rspo": 266036,
+  "shortName": "Liceum Montessori (Ursus)",
+  "url": "https://liceum-montessori.pl/",
+  "profiles": [
+   {
+    "name": "klasa pierwsza (rozszerzenia wybierane indywidualnie przez ucznia)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceum-montessori.pl/rekrutacja"
+   }
+  ],
+  "admission": "Rekrutacja (także uzupełniająca do klas I i II na 2026/2027): zgłoszenie przez formularz/telefon/e-mail, dokumenty (karta zgłoszenia, ankiety, odręczny list motywacyjny, kopia świadectwa VIII klasy i wyniki egzaminu ósmoklasisty, film-autoprezentacja do 5 min), dzień otwarty i rozmowa z wybranymi kandydatami, decyzja komisji rekrutacyjnej i umowa. Brak progów punktowych. Źródło: https://liceum-montessori.pl/rekrutacja",
+  "noOffer2026": false,
+  "doubts": [
+   "Niedatowana strona https://liceum-montessori.pl/nauka/rozszerzenia: uczniowie dowolnie wybierają rozszerzenia (gwarantowane: mat, pol, geo, bio, wos; inne od 6 chętnych), wszyscy uczą się angielskiego na poziomie rozszerzonym, drugi język: hiszpański, niemiecki lub francuski. Nie wpisano do profilu, bo strona nie jest datowana na 2026/2027.",
+   "Brak liczby miejsc."
+  ],
+  "checkedUrls": [
+   "https://liceum-montessori.pl/",
+   "https://liceum-montessori.pl/rekrutacja",
+   "https://liceum-montessori.pl/nauka/rozszerzenia"
+  ]
+ },
+ {
+  "rspo": 133549,
+  "shortName": "NLO nr 2 im. Janusza Korczaka",
+  "url": "https://www.liceumkorczaka.pl/",
+  "profiles": [
+   {
+    "name": "klasa pierwsza (rozszerzenia wybierane przez ucznia)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://www.liceumkorczaka.pl/rekrutacja/"
+   }
+  ],
+  "admission": "Pisemne egzaminy wstępne na 2026/2027: język polski 14.04.2026, matematyka 15.04.2026; wymagane min. 50% z polskiego i 40% z matematyki. Potem umowa i dokumenty (świadectwo, zaświadczenie o wyniku egzaminu ósmoklasisty). Planowana jedna klasa pierwsza do 24 uczniów. Wpisowe 1500 zł, czesne 2100 zł. Brak progów w skali 200. Źródło: https://www.liceumkorczaka.pl/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Rozszerzenia: niedatowana strona https://www.liceumkorczaka.pl/rozszerzenia/ podaje angielski rozszerzony obowiązkowo od klasy I, od klasy II wybór z pol, hist, wos, mat, bio, geo, chem. Prezentacja 'Prezentacja_LO_Korczaka_2026' (https://www.liceumkorczaka.pl/wp-content/uploads/2026/08/Prezentacja_LO_Korczaka_2026-1.pdf) mówi, że uczeń sam wybiera rozszerzenia (ang, mat, geo, bio, chem, pol, hist, wos). Nie wpisano extended=['ang'], bo informacja o obowiązkowym rozszerzeniu jest tylko na stronie niedatowanej.",
+   "Języki (ang + niem lub hisz) wzięto z prezentacji 2026, nie z samej strony rekrutacji."
+  ],
+  "checkedUrls": [
+   "https://www.liceumkorczaka.pl/",
+   "https://www.liceumkorczaka.pl/rekrutacja/",
+   "https://www.liceumkorczaka.pl/rozszerzenia/",
+   "https://www.liceumkorczaka.pl/wp-content/uploads/2026/08/Prezentacja_LO_Korczaka_2026-1.pdf"
+  ]
+ },
+ {
+  "rspo": 30761,
+  "shortName": "NLO nr 61 im. Stefana Kisielewskiego",
+  "url": "https://nlo61.pl/",
+  "profiles": [
+   {
+    "name": "klasa ogólna (uczeń sam wybiera przedmioty rozszerzone w klasie I)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "wlo",
+     "ros",
+     "fr"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nlo61.pl/rekrutacja-2026-2027/"
+   }
+  ],
+  "admission": "Rekrutacja 2026/2027 przez rozmowę kwalifikacyjną po rejestracji telefonicznej; wpisowe 1000 zł, czesne. Brak progów punktowych. Źródło: https://nlo61.pl/rekrutacja-2026-2027/",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona podaje 'szkoła o profilu ogólnym' i swobodny wybór rozszerzeń przez ucznia; nie podaje listy rozszerzeń ani liczby miejsc (klasy do 18 osób). Języki: angielski obowiązkowy, drugi do wyboru z niemieckiego, hiszpańskiego, włoskiego, rosyjskiego, francuskiego."
+  ],
+  "checkedUrls": [
+   "https://nlo61.pl/",
+   "https://nlo61.pl/rekrutacja-2026-2027/",
+   "https://nlo61.pl/rekrutacja/"
+  ]
+ },
+ {
+  "rspo": 73683,
+  "shortName": "NLO nr 81 SGH",
+  "url": "https://www.liceumsgh.pl/",
+  "profiles": [
+   {
+    "name": "klasa pierwsza (profil nie podany w dokumentach rekrutacyjnych)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.liceumsgh.pl/files/original/regulamin_rekrutacji_nlo-81-2026_-2027.pdf"
+   }
+  ],
+  "admission": "Pisemny egzamin wstępny (opłata 500 zł): matematyka 0–20 pkt, język angielski 0–20 pkt, geografia lub historia do wyboru 0–20 pkt. Zdany egzamin: min. 30 pkt łącznie i min. 8 pkt z każdej części; punkty dodatkowe (certyfikat B2 4 pkt, finalista konkursu kuratoryjnego 10 pkt, zawody 2–3 pkt, nie sumują się); laureaci konkursów kuratoryjnych zwolnieni. O przyjęciu decyduje suma punktów; lista przyjętych i rezerwowa. Na 2026/2027: egzaminy 13.04 lub 20.04.2026, listy 27.04.2026. Brak progów w skali 200. Źródła: https://www.liceumsgh.pl/files/original/regulamin_rekrutacji_nlo-81-2026_-2027.pdf , https://www.liceumsgh.pl/files/original/harmonogram-rekrutacji-2026-2027.pdf",
+  "noOffer2026": false,
+  "doubts": [
+   "Regulamin i harmonogram 2026/2027 nie podają profilu, rozszerzeń, języków ani liczby miejsc; strona główna wspomina 'uczniowie klasy I' (jedna klasa) we wrześniu 2026."
+  ],
+  "checkedUrls": [
+   "https://www.liceumsgh.pl/",
+   "https://www.liceumsgh.pl/kandydaci",
+   "https://www.liceumsgh.pl/strona/25/p/Dokumenty__do_pobrania",
+   "https://www.liceumsgh.pl/strona/23/p/Regulamin_rekrutacji",
+   "https://www.liceumsgh.pl/strona/24/p/Harmonogram",
+   "https://www.liceumsgh.pl/files/original/regulamin_rekrutacji_nlo-81-2026_-2027.pdf",
+   "https://www.liceumsgh.pl/files/original/harmonogram-rekrutacji-2026-2027.pdf"
+  ]
+ },
+ {
+  "rspo": 485061,
+  "shortName": "Sapiens Innovative School – Liceum",
+  "url": "https://sapienswarsaw.school/",
+  "profiles": [
+   {
+    "name": "High School / Liceum, klasa 1 (program łączący IGCSE/A-Level z polską podstawą, nauczanie po angielsku)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://sapienswarsaw.school/tuitions/"
+   }
+  ],
+  "admission": "Bez egzaminów wstępnych: zgłoszenie (admission inquiry), spotkanie/rozmowa z uczniem i rodzicami, zalecane testy z angielskiego i polskiego, ocena motywacji, gotowości do samodzielnej nauki i angielskiego min. B1; decyzja w ciągu kilku dni, formularz zapisu, umowa. Czesne 2026–2027 dla liceum (klasy 1–4): 55 000 zł/rok. Brak progów punktowych. Źródła: https://sapienswarsaw.school/tuitions/ , https://sapienswarsaw.school/faq/",
+  "noOffer2026": false,
+  "doubts": [
+   "Datowana na 2026–2027 jest tylko strona opłat z pozycją 'High School / Liceum 1–4 grades'. Niedatowana strona https://sapienswarsaw.school/curriculum/ opisuje 5 ścieżek licealnych w przedmiotach Cambridge: Creative Industries & Strategic Thinking (Art & Design, Psychology, Business), Biomedical & Psychological Sciences (Biology, Chemistry, Psychology), Behavioural Economics & Management (Business, Psychology, Mathematics), Engineering, Technology & Data Sciences (Physics, Mathematics, IT), International Business & Economics (Business, Global Perspectives, Mathematics). Nie wpisano jako profili: brak daty, a przedmioty nie są rozszerzeniami maturalnymi w rozumieniu polskiej szkoły.",
+   "Główny język nauczania: angielski (FAQ); szkoła nie określa klasy jako dwujęzycznej. RSPO: szkoła działa od 02.02.2026."
+  ],
+  "checkedUrls": [
+   "https://sapienswarsaw.school/",
+   "https://sapienswarsaw.school/faq/",
+   "https://sapienswarsaw.school/tuitions/",
+   "https://sapienswarsaw.school/curriculum/"
+  ]
+ },
+ {
+  "rspo": 485557,
+  "shortName": "NLO Techni Schools w Warszawie",
+  "url": "https://technischools.com/",
+  "profiles": [],
+  "admission": "Wg regulaminu rekrutacji Techni Schools (opisuje Niepubliczne Technikum Programistyczne): formularz i test online w aplikacji rekrutacyjnej, ewentualna rozmowa z dyrektorem i zespołem psychologiczno-pedagogicznym, umowa, dokumenty; czesne w Warszawie 3490 zł/mies., opłata rekrutacyjna 3490 zł. Brak progów punktowych. Źródło: https://technischools.com/admission-rules",
+  "noOffer2026": true,
+  "doubts": [
+   "RSPO: szkoła utworzona 21.05.2026, działalność od 01.09.2026, ul. Młynarska 8/12 (ten sam adres co Technikum Techni Schools). Strona technischools.com opisuje wyłącznie technikum; nie znalazłem strony tego liceum ani jego oferty na 2026/2027.",
+   "Ogłoszenie z 14.08.2026 (https://technischools.com/announcements/warsaw/konkurs-zloty-indeks-2026) wymienia 'Techni Zdalni – Liceum w Edukacji Domowej' (https://www.technizdalni.com/liceum, ścieżki typu biol-chem, mat-fiz, mat-inf itd., rozszerzenia dowolnie dobierane), ale ta strona podaje RSPO 274615 i 278650, nie 485557, i nie jest datowana na 2026/2027. Nie przypisano."
+  ],
+  "checkedUrls": [
+   "https://technischools.com/",
+   "https://technischools.com/admission-rules",
+   "https://technischools.com/faq",
+   "https://technischools.com/announcements",
+   "https://technischools.com/announcements/warsaw/spotkanie-informacyjne-maj-2026",
+   "https://technischools.com/announcements/warsaw/konkurs-zloty-indeks-2026",
+   "https://www.technizdalni.com/liceum"
+  ]
+ },
+ {
+  "rspo": 484168,
+  "shortName": "NLO „Nowa Szkoła” (First Ukrainian School / Nezlamna, Warszawa)",
+  "url": "https://nezlamna.org/",
+  "profiles": [],
+  "admission": "Wg strony fundacji (dane z roku 2022/2023, niedatowane na 2026/2027): rejestracja przez formularz Google, przesłanie dokumentów online, potem złożenie dokumentów w szkole; kontakt mailowy/przez media społecznościowe. Brak progów punktowych. Źródło: https://nezlamna.org/information-about-studying-at-school/",
+  "noOffer2026": true,
+  "doubts": [
+   "Szkołę zidentyfikowano po e-mailu z RSPO (director@warsaw.nezlamna.org) i adresie Al. Jerozolimskie 179 podanym na nezlamna.org. Domena warsaw.nezlamna.org nie odpowiada; nezlamna.org blokuje curl (403), odczyt przez WebFetch. Strona z informacjami o nauce opisuje rok 2022/2023 (klasy A i B po 22–28 dzieci, pogłębiony angielski, polski jako język obcy) i nie ma oferty liceum na 2026/2027."
+  ],
+  "checkedUrls": [
+   "https://warsaw.nezlamna.org/",
+   "https://nezlamna.org/",
+   "https://nezlamna.org/information-about-studying-at-school/"
+  ]
+ },
+ {
+  "rspo": 268858,
+  "shortName": "Warsaw Montessori High School",
+  "url": "https://highschool.wmf.edu.pl/",
+  "profiles": [
+   {
+    "name": "Pre-IB (klasa I; w klasie III program IB Diploma Programme)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://highschool.wmf.edu.pl/2025/10/23/rekrutacja-na-rok-szkolny-2026-27/"
+   }
+  ],
+  "admission": "Rekrutacja na 2026/2027 do Pre-IB (klasy I i II) i IB DP (klasa III): egzaminy pisemne 28.03.2026, rozmowy kwalifikacyjne 18.04.2026, aplikacje także na bieżąco. Egzaminy pisemne z angielskiego, polskiego i matematyki oraz rozmowa po angielsku; opłata rekrutacyjna 750 zł (wg strony Pre-IB opisującej już nabór 2027/2028). Brak progów punktowych. Źródła: https://highschool.wmf.edu.pl/2025/10/23/rekrutacja-na-rok-szkolny-2026-27/ , https://highschool.wmf.edu.pl/rekrutacja/rekrutacja-do-pre-ib/",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona nie określa klasy jako dwujęzycznej ani nie podaje rozszerzeń, języków i liczby miejsc dla 2026/2027; bilingual pozostawiono null."
+  ],
+  "checkedUrls": [
+   "https://highschool.wmf.edu.pl/",
+   "https://highschool.wmf.edu.pl/rekrutacja/",
+   "https://highschool.wmf.edu.pl/rekrutacja/rekrutacja-do-pre-ib/",
+   "https://highschool.wmf.edu.pl/2025/10/23/rekrutacja-na-rok-szkolny-2026-27/"
+  ]
+ },
+ {
+  "rspo": 481134,
+  "shortName": "Liceum Wspierania Rozwoju",
+  "url": "https://liceumwspierania.edu.pl/",
+  "profiles": [
+   {
+    "name": "klasa pierwsza specjalna dla uczniów ze spektrum autyzmu (z orzeczeniem)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://liceumwspierania.edu.pl/rekrutacja/"
+   }
+  ],
+  "admission": "Szkoła specjalna, bezpłatna, dla uczniów w normie intelektualnej z orzeczeniem o potrzebie kształcenia specjalnego ze względu na autyzm (w tym zespół Aspergera). Rekrutacja do klasy I 2026/2027 (dokumenty 19.01–13.02.2026, zakończona): spotkanie z rodzicami, spotkanie z kandydatem, spotkanie grupowe dla wybranych kandydatów; pierwszeństwo dla kandydatów z Bielan. Brak progów punktowych. Źródło: https://liceumwspierania.edu.pl/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Brak liczby miejsc na 2026/2027; niedatowana strona oferty (https://liceumwspierania.edu.pl/oferta-szkoly/) mówi o klasach maks. 12 osób. Brak informacji o rozszerzeniach i językach."
+  ],
+  "checkedUrls": [
+   "https://liceumwspierania.edu.pl/",
+   "https://liceumwspierania.edu.pl/rekrutacja/",
+   "https://liceumwspierania.edu.pl/oferta-szkoly/",
+   "https://liceumwspierania.edu.pl/dla-kandydatow/"
+  ]
+ },
+ {
+  "rspo": 277542,
+  "shortName": "Nowatorskie LO (Puławska 435A)",
+  "url": "https://nowatorska.pl/szkola-stacjonarna/",
+  "profiles": [],
+  "admission": "Zgłoszenie przez formularz na stronie („Rekrutacja trwa”, LO klasy 1–4 przy ul. Puławskiej), rozmowa rekrutacyjna z rodzicami/opiekunami (z dokumentacją specjalistyczną dziecka), następnie dokumenty rekrutacyjne NLO; szkoła prowadzi też edukację domową. Brak egzaminów wstępnych i progów punktowych. Źródła (niedatowane): https://nowatorska.pl/szkola-stacjonarna/ , https://nowatorska.pl/rekrutacja/",
+  "noOffer2026": true,
+  "doubts": [
+   "Adres z RSPO www.liceum.nowatorska.pl nie odpowiada (błąd DNS); działa https://nowatorska.pl/. Strony nie są datowane na 2026/2027 i nie podają profili ani rozszerzeń liceum; dokumenty rekrutacyjne NLO pochodzą z 05.2025 (https://nowatorska.pl/app/uploads/2025/05/Dokumenty-rekrutacyjne-NLO_05.25.pdf)."
+  ],
+  "checkedUrls": [
+   "https://www.liceum.nowatorska.pl/",
+   "https://liceum.nowatorska.pl/",
+   "https://nowatorska.pl/",
+   "https://nowatorska.pl/rekrutacja/",
+   "https://nowatorska.pl/szkola-stacjonarna/"
+  ]
+ },
+ {
+  "rspo": 482239,
+  "shortName": "Optima High School",
+  "url": "https://optimahighschool.pl/",
+  "profiles": [],
+  "admission": "Szkoła online w formule edukacji domowej: zgłoszenie przez przesłanie wypełnionych dokumentów rekrutacyjnych na rekrutacja@optimahighschool.pl, zobowiązanie do rocznych egzaminów klasyfikacyjnych (online); matura w siedzibie szkoły w Warszawie. Brak progów punktowych i egzaminów wstępnych na stronie. Źródła (niedatowane): https://optimahighschool.pl/documents , https://optimahighschool.pl/how-to-study",
+  "noOffer2026": true,
+  "doubts": [
+   "Strona (cennik, zasady nauki, dokumenty) nie jest datowana na 2026/2027 i nie opisuje klas ani profili; klasy I–IV w pakietach cenowych. Nie wpisano profili."
+  ],
+  "checkedUrls": [
+   "https://optimahighschool.pl/",
+   "https://optimahighschool.pl/services",
+   "https://optimahighschool.pl/how-to-study",
+   "https://optimahighschool.pl/about-us",
+   "https://optimahighschool.pl/documents"
+  ]
+ },
+ {
+  "rspo": 13008,
+  "shortName": "PLON „Klasyk”",
+  "url": "https://www.loklasyk.pl/",
+  "profiles": [],
+  "admission": "Liceum dla kandydatów z zagranicy (z internatem). Zgłoszenie mailowe z dokumentami i świadectwem; pierwszeństwo dla kandydatów ze średnią min. 4,0 z ostatniej klasy (konkurs świadectw), możliwe przyjęcie z niższymi ocenami przy silnej motywacji; lista rezerwowa, wpisowe. Brak progów punktowych. Opis dotyczy naboru na 2025/26. Źródło: https://www.loklasyk.pl/rekrutacja",
+  "noOffer2026": true,
+  "doubts": [
+   "Strona rekrutacji ma nagłówki 'Na rok szkolny 2026/27', ale szczegółowa treść (grupy profilowe, zasady przyjęć, opłaty) jest opisana jako nabór 'na rok szkolny 2025-2026'. Grupy profilowe z tego opisu: politechniczny (mat, fiz, inf), medyczno-przyrodniczy (bio, chem), prawno-humanistyczny (hist, wos, ang), ekonomiczny (geo, mat, ang). Nie wpisano, bo nie są datowane na 2026/2027."
+  ],
+  "checkedUrls": [
+   "https://www.loklasyk.pl/",
+   "https://www.loklasyk.pl/rekrutacja"
+  ]
+ },
+ {
+  "rspo": 106173,
+  "shortName": "Polsko-Niemiecka Szkoła Spotkań i Dialogu im. Willy'ego Brandta (WBS) – LO",
+  "url": "https://wbs.pl/",
+  "profiles": [],
+  "admission": "Pion niemieckojęzyczny: przyjęcie do klas wyższych możliwe w każdej chwili przy wolnych miejscach (maks. 25 uczniów w klasie); do klas 9 i 10 dla osób, których językiem ojczystym nie jest niemiecki, wymagany certyfikat B2 z niemieckiego i pomyślna rozmowa kwalifikacyjna; do klasy 11 z reguły tylko uczniowie wcześniej uczący się w szkole niemieckiej. Decyzję podejmuje dyrekcja. Brak progów punktowych. Źródło: https://wbs.pl/pion_niemieckojezyczny-1482.html",
+  "noOffer2026": true,
+  "doubts": [
+   "Strony rekrutacji WBS na 2026/27 opisują tylko nabór do klasy 1 (szkoła podstawowa: pion niemieckojęzyczny i oddział międzynarodowy). Nie znalazłem oferty klas liceum ogólnokształcącego na 2026/2027 ani opisu, jak klasy liceum odpowiadają numeracji 9–12 szkoły niemieckiej."
+  ],
+  "checkedUrls": [
+   "https://wbs.pl/",
+   "https://wbs.pl/strona_glowna-1298.html",
+   "https://wbs.pl/rekrutacja-1357.html",
+   "https://wbs.pl/pion_niemieckojezyczny-1482.html",
+   "https://wbs.pl/oddzial_miedzynarodowy-1484.html",
+   "https://wbs.pl/aufnahmeverfahren-1526.html",
+   "https://wbs.pl/sekundarstufe-1520.html"
+  ]
+ },
+ {
+  "rspo": 131718,
+  "shortName": "LO im. Zofii i Jędrzeja Moraczewskich (Moracz)",
+  "url": "https://moracz.edu.pl/liceum/",
+  "profiles": [
+   {
+    "name": "grupa rozszerzeń I (mat, fiz, inf, ang – wybór 2 lub 3)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [
+     [
+      "mat",
+      "fiz",
+      "inf",
+      "ang"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://moracz.edu.pl/liceum/rekrutacja/"
+   },
+   {
+    "name": "grupa rozszerzeń II (pol, hist, wos, ang – wybór 2 lub 3)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [
+     [
+      "pol",
+      "hist",
+      "wos",
+      "ang"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://moracz.edu.pl/liceum/rekrutacja/"
+   },
+   {
+    "name": "grupa rozszerzeń III (bio, chem, geo, mat, ang – wybór 2 lub 3)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [
+     [
+      "bio",
+      "chem",
+      "geo",
+      "mat",
+      "ang"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://moracz.edu.pl/liceum/rekrutacja/"
+   }
+  ],
+  "admission": "Rekrutacja do liceum stacjonarnego na 2026/2027: wniosek, ankieta, świadectwo z klasy 7 (i opinia/orzeczenie) od 9.03.2026; rozmowa rekrutacyjna kandydata i rodziców z dyrektor; świadectwo i wynik egzaminu ósmoklasisty do 9.07.2026; informacja o przyjęciu 14.07.2026; wpisowe, czesne, umowa. Brak progów punktowych. Źródło: https://moracz.edu.pl/liceum/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Szkoła opisuje klasy z wyborem jednej z trzech grup rozszerzeń; w grupie uczeń wybiera 2 lub 3 przedmioty. Zapisano jako trzy profile z extendedChoice zawierającym całą grupę, co nie oddaje dokładnie reguły '2 lub 3 z grupy'. Nie wiadomo, czy grupy to osobne oddziały.",
+   "Języki: angielski (konwersacje, w każdej grupie jako rozszerzenie do wyboru), niemiecki, hiszpański; strona nie mówi, czy drugi język jest do wyboru.",
+   "RSPO podaje 664 uczniów – szkoła prowadzi też edukację domową (https://moracz.edu.pl/edukacja-domowa/); nie badano oferty edukacji domowej. Brak liczby miejsc."
+  ],
+  "checkedUrls": [
+   "https://moracz.edu.pl/",
+   "https://moracz.edu.pl/liceum",
+   "https://moracz.edu.pl/liceum/rekrutacja/"
+  ]
+ },
+ {
+  "rspo": 274944,
+  "shortName": "Prywatne LO im. Zuzanny Ginczanki (Lauder-Morasha)",
+  "url": "https://ginczanka.edu.pl/",
+  "profiles": [
+   {
+    "name": "klasa pierwsza na profilu ogólnym (rozszerzenia od klasy II/III)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://ginczanka.edu.pl/rekrutacja/"
+   }
+  ],
+  "admission": "Rekrutacja 2026/2027: formularz online i list motywacyjny, rozmowa kwalifikacyjna (autoprezentacja, przeczytane teksty literackie, zadania matematyczne; wymagana opłata egzaminacyjna), spotkanie z rodzicami, zadania zespołowe w szkole. Klasy pierwsze od września 2026 liczą 15–18 uczniów każda. Brak progów punktowych. Źródło: https://ginczanka.edu.pl/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona mówi o 'kolejnych klasach pierwszych' po 15–18 osób, bez podania liczby oddziałów, więc places = null. Wszystkie klasy pierwsze na profilu ogólnym; brak informacji o językach.",
+   "Domena lm.edu.pl (z e-maila w RSPO) przekierowuje na lauder-morasha.edu.pl; strona liceum to https://ginczanka.edu.pl/."
+  ],
+  "checkedUrls": [
+   "https://lm.edu.pl",
+   "https://ginczanka.edu.pl/",
+   "https://ginczanka.edu.pl/rekrutacja/"
+  ]
+ },
+ {
+  "rspo": 25463,
+  "shortName": "Prywatne LO nr 32 im. Jeana Monneta",
+  "url": null,
+  "profiles": [],
+  "admission": null,
+  "noOffer2026": true,
+  "doubts": [
+   "RSPO nie podaje strony www; domena z e-maila (liceum@monnet.pl) – http(s)://monnet.pl i www.monnet.pl zwracają 404 (serwer nazwa.pl), inne warianty (monnet.edu.pl, liceummonnet.pl, monnet.waw.pl) nie istnieją. Web.archive.org był chwilowo niedostępny. Nie znalazłem oficjalnej strony ani oferty 2026/2027."
+  ],
+  "checkedUrls": [
+   "https://monnet.pl/",
+   "http://www.monnet.pl/",
+   "http://www.monnet.pl/liceum",
+   "https://monnet.edu.pl/",
+   "https://liceummonnet.pl/",
+   "https://monnet.waw.pl/"
+  ]
+ },
+ {
+  "rspo": 29252,
+  "shortName": "Prywatne LO Sióstr Nazaretanek",
+  "url": "https://nazaretanki.edu.pl/",
+  "profiles": [],
+  "admission": null,
+  "noOffer2026": true,
+  "doubts": [
+   "Strona szkoły https://nazaretanki.edu.pl/ (także www.) pokazuje 'Trwają prace techniczne'; podstrony zwracają błąd 500 (sprawdzone 1.10.2026). Web.archive.org był chwilowo niedostępny. Nie znalazłem oferty ani zasad rekrutacji na 2026/2027.",
+   "Strona zgromadzenia (https://nazaretanki.pl/szkoly-i-przedszkola/) wymienia pod adresem ul. Czerniakowska 137 tylko 'Szkołę Podstawową Sióstr Nazaretanek z Oddziałami Dwujęzycznymi', bez liceum."
+  ],
+  "checkedUrls": [
+   "https://nazaretanki.edu.pl/",
+   "https://www.nazaretanki.edu.pl/",
+   "https://nazaretanki.edu.pl/liceum",
+   "https://nazaretanki.edu.pl/rekrutacja",
+   "https://nazaretanki.pl/szkoly-i-przedszkola/"
+  ]
+ }
+]

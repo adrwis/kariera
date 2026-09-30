@@ -1,0 +1,413 @@
+[
+ {
+  "shortName": "LO im. Cecylii Plater-Zyberkówny (Platerki)",
+  "url": "https://liceum.platerki.pl",
+  "profiles": [],
+  "admission": "Rekrutacja 2026/2027 bez punktacji w skali 200: egzaminy wstępne 18.04.2026 z matematyki, języka polskiego i angielskiego (po max 20 pkt, razem 60) oraz rozmowa rekrutacyjna (max 40 pkt); dodatkowo 5 pkt za udział w Maratonie Ósmoklasisty; dokumenty do 27.03.2026, wyniki do 30.04.2026; opłata rekrutacyjna. Źródło: https://web.archive.org/web/20251213111431/https://liceum.platerki.pl/rekrutacja-i-czesne/ (obecna wersja strony dotyczy już naboru 2027: https://liceum.platerki.pl/rekrutacja-i-czesne/).",
+  "noOffer2026": false,
+  "doubts": [
+   "Datowana rekrutacja na 2026 potwierdzona (kopia z 13.12.2025), ale nie ma datowanego opisu klasy I na 2026/2027. Niedatowana strona https://liceum.platerki.pl/jak-uczymy/ mówi, że profil (przyrodniczy biol+chem, matematyczny, kulturoznawczy hist+wos) wybiera się próbnie w II klasie, a ostatecznie w III; w I klasie intensywny angielski z elementami dwujęzyczności. Profili nie wpisano."
+  ],
+  "checkedUrls": [
+   "https://www.cpz.edu.pl",
+   "https://platerki.pl/",
+   "https://liceum.platerki.pl/rekrutacja-i-czesne/",
+   "https://web.archive.org/web/20251213111431/https://liceum.platerki.pl/rekrutacja-i-czesne/",
+   "https://liceum.platerki.pl/jak-uczymy/"
+  ],
+  "rspo": 133547
+ },
+ {
+  "shortName": "LO Sióstr Zmartwychwstanek (Szarotka)",
+  "url": "https://szarotka.edu.pl",
+  "profiles": [
+   {
+    "name": "klasa I, grupa humanistyczna (I grupa rozszerzeń)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist",
+     "wos",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szarotka.edu.pl/?page_id=2745"
+   },
+   {
+    "name": "klasa I, grupa biologiczno-chemiczna (II grupa rozszerzeń)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "mat",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szarotka.edu.pl/?page_id=2745"
+   }
+  ],
+  "admission": "Bez punktacji i bez egzaminów wstępnych. Wymagania: akceptacja katolickiego charakteru szkoły, średnia ocen min. 4,0, zachowanie min. bardzo dobre. O przyjęciu decyduje rozmowa rekrutacyjna z Siostrą Dyrektor (od 16.06.2026), podpisanie umowy rezerwacyjnej i wpłata wpisowego (do 29.06.2026), terminowe złożenie dokumentów. Na 2026/2027 trwa rekrutacja uzupełniająca do wyczerpania miejsc. Źródło: https://szarotka.edu.pl/?page_id=2745",
+  "noOffer2026": false,
+  "doubts": [
+   "Jedna klasa I dzielona na dwie grupy rozszerzeń; wpisano jako dwa profile. Szkoła podaje też: „Inne rozszerzenia według zapotrzebowania np. geografia (min. 5 osób)”.",
+   "Drugi język (francuski albo niemiecki) wynika z niedatowanej strony https://szarotka.edu.pl/?page_id=2037, więc w languages wpisano tylko angielski."
+  ],
+  "checkedUrls": [
+   "https://www.szarotka.edu.pl",
+   "https://szarotka.edu.pl/?page_id=2745",
+   "https://szarotka.edu.pl/?page_id=2037",
+   "https://szarotka.edu.pl/?page_id=1184"
+  ],
+  "rspo": 29709
+ },
+ {
+  "shortName": "Saska Szkoła Realna",
+  "url": "https://saskarealna.edu.pl",
+  "profiles": [],
+  "admission": "Bez punktacji w skali 200. Egzamin własny szkoły (metoda Bednarskiej Szkoły Realnej): testy z języka polskiego i matematyki (50% punktów) oraz zadanie zespołowe i rozmowa indywidualna (50%); po wyniku pozytywnym tydzień próbny. Opłata egzaminacyjna. Na rok 2026/2027 szkoła prowadzi rekrutację uzupełniającą na wolne miejsca w klasach 1 i 3 (egzamin z polskiego, matematyki i rozmowa). Źródło: https://saskarealna.edu.pl/rekrutacja",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona szkoły opisuje trzy specjalizacje (Media Art – Realny Twórca, społeczno-biznesowa Realny Przedsiębiorca, przyrodnicza: https://saskarealna.edu.pl/specjalizacje/specjalizacja-przyrodnicza), ale bez daty i bez przypisanych przedmiotów rozszerzonych; nie wpisano profili.",
+   "Strona rekrutacji (stan 1.10.2026) dotyczy już naboru 2027/28 i uzupełniającego 2026/27; nie znaleziono datowanej listy klas na 2026/2027."
+  ],
+  "checkedUrls": [
+   "https://saskarealna.edu.pl",
+   "https://saskarealna.edu.pl/rekrutacja",
+   "https://saskarealna.edu.pl/specjalizacje/media-art-realny-tworca",
+   "https://saskarealna.edu.pl/specjalizacje/biznesowo-spoleczna-realny-przedsiebiorca",
+   "https://saskarealna.edu.pl/specjalizacje/specjalizacja-przyrodnicza"
+  ],
+  "rspo": 277799
+ },
+ {
+  "shortName": "LO TPD im. S. Tułodzieckiego (Helenów)",
+  "url": "https://helenow.pl/liceum/",
+  "profiles": [],
+  "admission": "Specjalne LO dla młodzieży z niepełnosprawnością ruchową i innymi niepełnosprawnościami (w tym spektrum autyzmu), wymagane orzeczenie o potrzebie kształcenia specjalnego w LO. Szkoła nie uczestniczy w elektronicznym naborze; decyzja o przyjęciu po rozmowie kwalifikacyjnej z kandydatem i rodzicami oraz analizie orzeczenia, możliwa weryfikacja wiedzy w trakcie rozmowy. Nabór do klasy 1 na 2026/2027 ogłoszony 4.05.2026: https://helenow.pl/liceum/?p=3566 ; zasady: https://helenow.pl/liceum/?page_id=10",
+  "noOffer2026": false,
+  "doubts": [
+   "Szkoła potwierdza nabór do klasy 1 na 2026/2027, ale nie podaje profilu ani przedmiotów rozszerzonych; profili nie wpisano."
+  ],
+  "checkedUrls": [
+   "https://helenow.pl",
+   "https://helenow.pl/liceum/",
+   "https://helenow.pl/liceum/?p=3566",
+   "https://helenow.pl/liceum/?page_id=10",
+   "https://helenow.pl/liceum/?page_id=2"
+  ],
+  "rspo": 82643
+ },
+ {
+  "shortName": "SLO nr 1 STO im. J. Nowaka-Jeziorańskiego",
+  "url": "https://slojedynka.zsosto.pl",
+  "profiles": [],
+  "admission": "Zasady na 2026/2027 bez punktacji w skali 200. Rekrutacja zewnętrzna: egzaminy pisemne (j. polski, matematyka, j. angielski, ok. 210 min), średnia ocen z przedmiotów z Karty Kandydata, ocena zachowania, osiągnięcia i rozmowa kwalifikacyjna; ostateczna decyzja dyrektora; opłata rekrutacyjna 500 zł. Rekrutacja wewnętrzna (uczniowie SSP nr 1 STO) bez egzaminu przy średniej min. 4,0, ocenach min. dobrych z polskiego, matematyki i języka obcego, zachowaniu min. dobrym, rekomendacji RP i rozmowie. Źródło: https://slojedynka.zsosto.pl/kandydaci/zasady-rekrutacji",
+  "noOffer2026": false,
+  "doubts": [
+   "Adres z RSPO (www.slojedynka.zsosto.pl) zwraca 404; działa https://slojedynka.zsosto.pl.",
+   "Niedatowana strona https://slojedynka.zsosto.pl/kandydaci/informacje-ogolne: w klasie pierwszej program ogólny, rozszerzony tylko angielski, profil i 2–3 rozszerzenia uczniowie wybierają wiosną klasy I (realizacja od klasy II, https://slojedynka.zsosto.pl/uczniowie/przedmioty-rozszerzone). Brak datowanej oferty klas na 2026/2027, profili nie wpisano."
+  ],
+  "checkedUrls": [
+   "https://www.slojedynka.zsosto.pl",
+   "https://slojedynka.zsosto.pl/",
+   "https://slojedynka.zsosto.pl/kandydaci/informacje-ogolne",
+   "https://slojedynka.zsosto.pl/kandydaci/zasady-rekrutacji",
+   "https://slojedynka.zsosto.pl/kandydaci/kalendarium",
+   "https://slojedynka.zsosto.pl/uczniowie/przedmioty-rozszerzone"
+  ],
+  "rspo": 263354
+ },
+ {
+  "shortName": "SLO nr 25 im. Marzenny Okońskiej",
+  "url": "https://okonska.edu.pl",
+  "profiles": [],
+  "admission": "Bez punktacji w skali 200. Rekrutacja 2026: ankieta rekrutacyjna do 17.03.2026, diagnozy pisemne 21.03.2026 z matematyki, języka angielskiego (test poziomujący; możliwy inny język) i języka polskiego; o kolejności przyjęcia decydują pozytywne wyniki wszystkich trzech diagnoz, potem zapis w sekretariacie i dostarczenie świadectwa oraz wyniku egzaminu ósmoklasisty. Źródła: https://okonska.edu.pl/terminy/ , https://okonska.edu.pl/zasady/",
+  "noOffer2026": false,
+  "doubts": [
+   "Szkoła nie ma oddziałów profilowanych: rozszerzenia wybiera uczeń indywidualnie (w formularzu rekrutacyjnym albo do 30 października klasy I), zajęcia w grupach 2–8 osób. Opis pochodzi z niedatowanego PDF z 2015 r. (http://okonska.nazwa.pl/oferta_lo.pdf, podlinkowany z https://okonska.edu.pl/liceum/oferta-edukacyjna/), więc profili nie wpisano.",
+   "Adres z RSPO pusty; oficjalna strona szkoły to https://okonska.edu.pl (e-mail z RSPO szkolaokonska@gmail.com podany na stronie)."
+  ],
+  "checkedUrls": [
+   "https://okonska.edu.pl",
+   "https://okonska.edu.pl/liceum/oferta-edukacyjna/",
+   "http://okonska.nazwa.pl/oferta_lo.pdf",
+   "https://okonska.edu.pl/terminy/",
+   "https://okonska.edu.pl/zasady/"
+  ],
+  "rspo": 84867
+ },
+ {
+  "shortName": "SLO nr 3 STO",
+  "url": "https://3slo.pl",
+  "profiles": [],
+  "admission": "Bez punktacji i egzaminów: podstawą przyjęcia jest rozmowa kwalifikacyjna kandydata i rodziców z dyrektorem, termin ustalany indywidualnie przez sekretariat; potem podpisanie umowy. Nabór na 2026/2027 rozpoczęty 15.10.2025 (kopia: https://web.archive.org/web/20251006173902/https://3slo.pl/nowosci-szczegoly-wpisu/rekrutacja-na-rok-szkolny-2026-2027-2). Zasady: https://3slo.pl/rekrutacja-liceum-zasady-rekrutacji",
+  "noOffer2026": false,
+  "doubts": [
+   "Oferta LO (PDF z 2024 r., bez wskazania roku szkolnego: http://3slo.pl/media/uploads/images/pdf/24%20LO%20Oferta.pdf) mówi o klasach do 20 osób i swobodnym wyborze przedmiotów rozszerzonych przez ucznia; brak oddziałów profilowanych i brak datowanej oferty klas na 2026/2027, profili nie wpisano.",
+   "Ogłoszenie o naborze 2026/2027 w kopii archiwalnej jest wspólne dla szkoły podstawowej i liceum STO; nie wymienia klas LO."
+  ],
+  "checkedUrls": [
+   "https://www.3slo.pl",
+   "https://3slo.pl/rekrutacja-liceum-zasady-rekrutacji",
+   "https://3slo.pl/rekrutacja-liceum-terminy-spotka",
+   "https://3slo.pl/nowosci-szczegoly-wpisu/rekrutacja-na-rok-szkolny-2027-2028-2",
+   "http://3slo.pl/media/uploads/images/pdf/24%20LO%20Oferta.pdf",
+   "https://web.archive.org/web/20251006173902/https://3slo.pl/nowosci-szczegoly-wpisu/rekrutacja-na-rok-szkolny-2026-2027-2",
+   "https://web.archive.org/web/20260217044224/https://3slo.pl/rekrutacja-liceum-zasady-rekrutacji"
+  ],
+  "rspo": 27703
+ },
+ {
+  "shortName": "SLO nr 4 im. Batalionu AK „Parasol”",
+  "url": "https://www.batalionparasol.pl/slo4/",
+  "profiles": [
+   {
+    "name": "klasa pierwsza bez profilu (2–3 rozszerzenia wybierane po klasie I)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://www.batalionparasol.pl/slo4/kandydaci-do-liceum/"
+   }
+  ],
+  "admission": "Bez punktacji w skali 200. Rekrutacja 2026/2027: dokumenty do 20.03.2026 (świadectwo po kl. VII, ankieta), egzaminy pisemne 27.03.2026 (j. polski) i 28.03.2026 (matematyka), wyniki 16.04.2026, egzaminy ustne z polskiego i matematyki 23–25.04.2026 (część kandydatów zwolniona), lista przyjętych do 30.04.2026, umowy do 11.05.2026; opłata rekrutacyjna 600 zł. Źródła: https://www.batalionparasol.pl/slo4/kandydaci-do-liceum/ , https://www.batalionparasol.pl/slo4/wyniki-egzaminow-pisemnych-do-liceum-2/",
+  "noOffer2026": false,
+  "doubts": [
+   "Oferta 2026/2027: „trzy lub cztery klasy pierwsze”, klasy do 16 uczniów, bez sztywnego profilowania; wpisano jeden zbiorczy profil, places null. Języki: angielski obowiązkowy, drugi do wyboru francuski/niemiecki/hiszpański.",
+   "RSPO nie podaje adresu WWW; e-mail sekretariat@slo4.edu.pl, domena slo4.edu.pl przekierowuje na https://www.batalionparasol.pl/slo4/."
+  ],
+  "checkedUrls": [
+   "https://slo4.edu.pl",
+   "https://www.batalionparasol.pl/slo4/kandydaci-do-liceum/",
+   "https://www.batalionparasol.pl/slo4/wyniki-egzaminow-pisemnych-do-liceum-2/",
+   "https://batalionparasol.pl/slo4/klasy-akademickie-sgh/"
+  ],
+  "rspo": 27748
+ },
+ {
+  "shortName": "SLO nr 7 im. Bronisława Geremka",
+  "url": "https://7.slo7.waw.pl",
+  "profiles": [
+   {
+    "name": "klasy pierwsze ogólnodostępne (2 oddziały, bez profilu)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://7.slo7.waw.pl/rekrutacja/dla-kandydatow/"
+   }
+  ],
+  "admission": "Bez progów w skali 200. Rekrutacja do klas pierwszych 2026/2027 od 20.01.2026: podanie (do 17.04.2026), potem rozmowa rekrutacyjna (predyspozycyjna) w kwietniu; szkoła bierze pod uwagę wynik egzaminu ósmoklasisty, świadectwo i rozmowę; pierwszeństwo przy braku miejsc dla uczestników bezpłatnych zajęć „Liceum Tutorial”. Źródło: https://7.slo7.waw.pl/rekrutacja/dla-kandydatow/ . Klasy specjalistyczne Centrum Edukacji Alternatywnej (dla uczniów z orzeczeniem ze względu na spektrum autyzmu) rekrutują osobno: https://cea.slo7.waw.pl/dni-otwarte-dla-kandydatow-do-pierwszej-klasy-liceum/",
+  "noOffer2026": false,
+  "doubts": [
+   "Szkoła podaje „W roku 2026/27 otwieramy dwie klasy pierwsze”, ale bez profili i przedmiotów rozszerzonych; wpisano jeden zbiorczy profil bez rozszerzeń.",
+   "Centrum Edukacji Alternatywnej SLO 7 zapowiadało rekrutację do klas pierwszych 2026/2027 (spotkanie 17.02.2026), bez liczby miejsc i opisu klas; nie wpisano jako osobny profil.",
+   "Strona główna https://slo7.waw.pl jest tylko rozdzielnią; właściwa strona liceum to https://7.slo7.waw.pl."
+  ],
+  "checkedUrls": [
+   "https://slo7.waw.pl",
+   "https://7.slo7.waw.pl/rekrutacja/",
+   "https://7.slo7.waw.pl/rekrutacja/dla-kandydatow/",
+   "https://7.slo7.waw.pl/rekrutacja/spotkania-informacyjne/",
+   "https://cea.slo7.waw.pl/dni-otwarte-dla-kandydatow-do-pierwszej-klasy-liceum/"
+  ],
+  "rspo": 27835
+ },
+ {
+  "shortName": "SLO nr 99 STO (Zespół Szkół STO na Bemowie)",
+  "url": "https://slo99.edu.pl",
+  "profiles": [
+   {
+    "name": "klasy pierwsze o profilu ogólnym (2 oddziały, rozszerzenia wybierane indywidualnie)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://slo99.edu.pl/rekrutacja/"
+   }
+  ],
+  "admission": "Bez punktacji. Rekrutacja 2026/2027: podania 5–16.02.2026, lista rekrutacyjna wg kolejności złożenia dokumentów (18.02.2026; możliwa odmowa przy zachowaniu niższym niż dobre), grupowe spotkanie kwalifikacyjne 21.02.2026, indywidualne spotkania kandydata z rodzicami 23.02–17.03.2026, decyzje I tury 20.03.2026, II tura od 18.03.2026; opłata rekrutacyjna 400 zł. Decyzję podejmuje dyrektor na podstawie rekomendacji komisji. Źródła: https://slo99.edu.pl/rekrutacja/ , regulamin (na rok 2025/2026): https://slo99.edu.pl/wp-content/uploads/sites/5/2025/01/Zasady-rekrutacji-na-strone.pdf",
+  "noOffer2026": false,
+  "doubts": [
+   "Szkoła „planuje otworzyć dwie klasy pierwsze” o profilu ogólnym, bez stałych rozszerzeń; wpisano jeden zbiorczy profil bez rozszerzeń.",
+   "Podlinkowany regulamin rekrutacji jest opisany jako na rok 2025/2026; harmonogram 2026/2027 jest na stronie rekrutacji.",
+   "URL z RSPO (stonabemowie.edu.pl) to strona zespołu; strona liceum to https://slo99.edu.pl."
+  ],
+  "checkedUrls": [
+   "https://stonabemowie.edu.pl",
+   "https://slo99.edu.pl/",
+   "https://slo99.edu.pl/rekrutacja/",
+   "https://slo99.edu.pl/wp-content/uploads/sites/5/2025/01/Zasady-rekrutacji-na-strone.pdf"
+  ],
+  "rspo": 270506
+ },
+ {
+  "shortName": "SLO Startowa 4K im. Wojciecha Młynarskiego",
+  "url": "https://www.startowa.edu.pl",
+  "profiles": [],
+  "admission": "Bez punktacji w skali 200. Rekrutacja 2026/2027: zapisy i opłata (400 zł) do 13.03.2026, egzamin pisemny z j. polskiego 27.03.2026 i matematyki 28.03.2026, egzaminy ustne 15–18.04.2026 (prezentacja kandydata oparta na wizycie w muzeum i dodatkowym źródle + rozmowa z komisją). Dodatkowo konkurs „Starcie na Starcie” (4.03.2026) z biologii, chemii, fizyki, geografii, historii, filozofii i społeczno-biznesowy, dający gwarantowane miejsce w klasie I. Rekrutacja uzupełniająca do klasy I na podstawie wyniku egzaminu ósmoklasisty i rozmowy. Źródła: https://web.archive.org/web/20260301055226/https://www.startowa.edu.pl/rekrutacja/ , https://www.startowa.edu.pl/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Domena z RSPO www.liceum.edu.pl jest wystawiona na sprzedaż (sklep.premium.pl); oficjalna strona szkoły to https://www.startowa.edu.pl (e-mail z RSPO startowa4k@startowa.edu.pl).",
+   "Brak oddziałów profilowanych: wg niedatowanej strony https://www.startowa.edu.pl/zajecia-i-ocenianie/ rozszerzenia wybiera się po I trymestrze klasy I, angielski wszyscy na poziomie rozszerzonym. Brak datowanej oferty klas na 2026/2027, profili nie wpisano."
+  ],
+  "checkedUrls": [
+   "https://www.liceum.edu.pl",
+   "https://www.startowa.edu.pl/",
+   "https://www.startowa.edu.pl/rekrutacja/",
+   "https://web.archive.org/web/20260301055226/https://www.startowa.edu.pl/rekrutacja/",
+   "https://www.startowa.edu.pl/zajecia-i-ocenianie/"
+  ],
+  "rspo": 265873
+ },
+ {
+  "shortName": "Społeczne Waldorfskie LO nr 1",
+  "url": "https://waldorfska.edupage.org",
+  "profiles": [],
+  "admission": "Bez punktacji w skali 200. Nabór do klasy pierwszej na 2026/2027: zgłoszenie online, spotkanie w formie dnia otwartego, egzamin wstępny (j. polski – wypowiedź pisemna, matematyka – 4–5 zadań otwartych, j. angielski – krótka rozmowa), następnie informacja o przyjęciu i podpisanie umowy. Źródło: https://waldorfska.edupage.org/a/rekrutacja",
+  "noOffer2026": false,
+  "doubts": [
+   "Szkoła potwierdza nabór do klasy I na 2026/2027, ale nie podaje profilu ani przedmiotów rozszerzonych; profili nie wpisano."
+  ],
+  "checkedUrls": [
+   "https://waldorfska.edupage.org/",
+   "https://waldorfska.edupage.org/a/rekrutacja",
+   "https://waldorfska.edu.pl/rekrutacja/"
+  ],
+  "rspo": 133639
+ },
+ {
+  "shortName": "Sportowe LO nr 67 MGM",
+  "url": "https://www.mgm.edu.pl",
+  "profiles": [],
+  "admission": "Bez punktacji, testów i egzaminów wstępnych; nabór całoroczny. Decyzja dyrektora po rozmowie kwalifikacyjnej (umawianej przez formularz lub telefonicznie), na którą kandydat przynosi świadectwo ukończenia SP i zaświadczenie o wyniku egzaminu ósmoklasisty; potwierdzeniem jest opłata administracyjna. Program SportTutor (indywidualny tok nauki dla sportowców). Źródło: https://www.mgm.edu.pl/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona rekrutacji ma w tytule „Rekrutacja do Liceum Ogólnokształcącego MGM 2026”, ale treść nie podaje roku szkolnego ani klas/profili; nie znaleziono datowanej oferty klas na 2026/2027, profili nie wpisano. Traktowanie naboru 2026 jako potwierdzonego opiera się tylko na tytule strony."
+  ],
+  "checkedUrls": [
+   "https://www.mgm.edu.pl/",
+   "https://www.mgm.edu.pl/rekrutacja/",
+   "https://www.mgm.edu.pl/liceum-dla-sportowcow/"
+  ],
+  "rspo": 104537
+ },
+ {
+  "shortName": "Wawerska Szkoła Realna",
+  "url": "https://realna.waw.pl",
+  "profiles": [
+   {
+    "name": "klasy pierwsze bez profilu (2 oddziały po maks. 20 osób)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": 40,
+    "thresholds": [],
+    "sourceUrl": "https://web.archive.org/web/20260217145701/https://realna.waw.pl/rekrutacja-2/"
+   }
+  ],
+  "admission": "Bez punktacji w skali 200. Egzamin własny (rekrutacja 13–20.04.2026): zadanie zespołowe (30% punktów), autorskie testy z j. polskiego i matematyki (40%), rozmowa kwalifikacyjna z prezentacją osiągnięć (30%); zapisy przez system rekrutacyjny szkoły, opłata egzaminacyjna 450 zł; lista rezerwowa. Rekrutacja uzupełniająca do klasy 1 na 2026/27: 25–26.08.2026. Źródła: https://web.archive.org/web/20260217145701/https://realna.waw.pl/rekrutacja-2/ , https://realna.waw.pl/rekrutacja-2/",
+  "noOffer2026": false,
+  "doubts": [
+   "Szkoła planowała na 2026/27 dwie klasy pierwsze po maks. 20 osób, bez profili; specjalizacje i dowolne rozszerzenia dopiero od klasy II (niedatowana strona https://realna.waw.pl/specjalizacje/). Wpisano jeden zbiorczy profil bez rozszerzeń, places = 40 (2 × 20)."
+  ],
+  "checkedUrls": [
+   "https://www.realna.waw.pl",
+   "https://realna.waw.pl/rekrutacja-2/",
+   "https://web.archive.org/web/20260217145701/https://realna.waw.pl/rekrutacja-2/",
+   "https://realna.waw.pl/specjalizacje/"
+  ],
+  "rspo": 272146
+ },
+ {
+  "shortName": "Wielokulturowe Liceum Humanistyczne im. Jacka Kuronia (WLH)",
+  "url": "https://www.wlh.edu.pl",
+  "profiles": [],
+  "admission": "Bez punktacji w skali 200. Rekrutacja 2026/2027 trzyetapowa: obowiązkowy udział w trzech zajęciach rekrutacyjnych (22, 25, 26.05.2026; zapisy 11–21.05.2026, opłata 200 zł), praca pisemna na jeden z tematów z zajęć (do 7.06.2026), rozmowa o pracy (od 9.06.2026); wyniki 22.06.2026. Źródło: https://www.wlh.edu.pl/rekrutacja2026-2027",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona rekrutacji 2026/2027 nie podaje liczby klas, profilu ani przedmiotów rozszerzonych; profili nie wpisano."
+  ],
+  "checkedUrls": [
+   "https://www.wlh.edu.pl/",
+   "https://www.wlh.edu.pl/rekrutacja2026-2027"
+  ],
+  "rspo": 84874
+ },
+ {
+  "shortName": "Wolne Liceum",
+  "url": "https://wolneliceum.pl",
+  "profiles": [],
+  "admission": "Szkoła demokratyczna, bez punktacji i egzaminów: formularz zgłoszeniowy online, 1–2 spotkania rekrutacyjne (konsultacje z rodzicami i kandydatem; opłata łącznie 450 zł), przyjęcie przy wolnych miejscach i wieku poniżej 18 lat; ograniczona liczba miejsc dla osób ze specjalnymi potrzebami. Stan na 1.10.2026: brak miejsc w programie stacjonarnym na 2026/2027, nabór tylko do edukacji domowej. Źródło: https://wolneliceum.pl/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Szkoła prowadziła rekrutację na 2026/27 (link „Rekrutacja 26/27” na https://wolneliceum.pl), ale nie podaje liczby klas, profili ani rozszerzeń; obecnie miejsca w programie stacjonarnym na 2026/2027 wyczerpane. Profili nie wpisano.",
+   "RSPO nie podaje WWW; strona https://wolneliceum.pl podaje adres Inżynierska 8, zgodny z RSPO (e-mail w RSPO w domenie bullerbyn.edu.pl – organ prowadzący)."
+  ],
+  "checkedUrls": [
+   "https://wolneliceum.pl/",
+   "https://wolneliceum.pl/rekrutacja/",
+   "https://wolneliceum.edu.pl",
+   "https://bullerbyn.edu.pl"
+  ],
+  "rspo": 482286
+ }
+]

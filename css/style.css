@@ -3062,3 +3062,4 @@ p.school-popup__caption { margin: 0.25rem 0 0.4rem; }
 .results__school-hint { margin-top: 0.5rem; font-size: 0.95rem; }
 .results__school-hint a { color: var(--kr-secondary); font-weight: 600; }
 .view--landing { overflow-x: clip; }
+.school-popup__round { display: block; font-size: 0.72rem; color: var(--kr-text-muted); font-weight: 400; text-transform: none; letter-spacing: 0; }

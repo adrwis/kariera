@@ -747,7 +747,11 @@
       if (c.education.schools && c.education.schools.length) {
         eduHtml += '<h3 class="career-column__subtitle career-column__subtitle--spaced">Uczelnie</h3>';
         eduHtml += '<div class="school-cards">';
-        for (let si = 0; si < c.education.schools.length; si++) {
+        // Uczelnie z miasta wybranego w części o szkołach średnich idą na górę (indeks zostaje oryginalny dla popupu)
+        const cityPref = Szkoly.currentCity() === 'warszawa' ? ['Warszawa'] : ['Gdańsk', 'Gdynia', 'Sopot'];
+        const order = c.education.schools.map((s, i) => i)
+          .sort((a, b) => (cityPref.includes(c.education.schools[b].city) - cityPref.includes(c.education.schools[a].city)) || a - b);
+        for (const si of order) {
           const s = c.education.schools[si];
           eduHtml += `
             <button type="button" class="school-card" data-school-idx="${si}" aria-label="Szczegóły: ${escapeAttr(s.name)}">
@@ -1273,7 +1277,7 @@
           ? ` <a href="${escapeAttr(mode.tuitionSource)}" target="_blank" rel="noopener" class="school-popup__src">źródło${mode.tuitionYear ? ', ' + escapeHtml(mode.tuitionYear) : ''}</a>`
           : '';
         const paidBadge = mode.paid
-          ? `<span class="school-popup__badge school-popup__badge--paid">płatne${mode.tuition ? ' · ' + escapeHtml(mode.tuition) : ''}</span>${tuitionSrc}`
+          ? `<span class="school-popup__badge school-popup__badge--paid">płatne${mode.tuition ? ' · ' + escapeHtml(mode.tuition) : ''}</span>${tuitionSrc}${mode.tuitionNote ? `<span class="school-popup__round">${escapeHtml(mode.tuitionNote)}</span>` : ''}`
           : '<span class="school-popup__badge school-popup__badge--free">bezpłatne</span>';
 
         let thresholdRows = '';
@@ -1292,7 +1296,8 @@
                   const src = isHttpUrl(t.sourceUrl)
                     ? `<a href="${escapeAttr(t.sourceUrl)}" target="_blank" rel="noopener">link</a>`
                     : '';
-                  return `<tr><td>${escapeHtml(String(t.year))}</td><td>${escapeHtml(pts)} pkt</td><td>${src}</td></tr>`;
+                  const round = t.round ? `<span class="school-popup__round">${escapeHtml(t.round)}</span>` : '';
+                  return `<tr><td>${escapeHtml(String(t.year))}${round}</td><td>${escapeHtml(pts)} pkt</td><td>${src}</td></tr>`;
                 }).join('')}
               </tbody>
             </table>`;

@@ -1,0 +1,4546 @@
+[
+ {
+  "school": "UW — Wydział Psychologii",
+  "career": "psycholog",
+  "program": "Psychologia (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 79.25,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia-osoba_przyjeta_2023-24.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2024,
+     "points": 80.2,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2024-25.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2025,
+     "points": 80.1,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2025-26.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/SJ-PS/",
+   "academicYear": "2026/2027",
+   "note": "Zasady kwalifikacji w IRK UW PELNE2026 identyczne jak w 2025/2026 (polski, matematyka, język obcy P lub R + przedmiot do wyboru R); jedyna różnica: do listy języków obcych dopisano ukraiński. Próg kwalifikacji 50 pkt bez zmian."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "14100 PLN/rok",
+    "amount": 14100,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://monitor.uw.edu.pl/Lists/Uchway/Attachments/7859/M.2026.209.Zarz.78.pdf",
+    "tuitionNote": "Zarządzenie nr 78 Rektora UW z 9.06.2026 (studia niestacjonarne-wieczorowe jednolite, opłata za rok; 14100 zł niezależnie od liczby rat). Dotyczy osób rozpoczynających studia w 2026/2027."
+   }
+  ],
+  "notes": "Próg 2026: UW nie opublikował jeszcze zestawienia „Punkty ostatniej osoby przyjętej” za 2026/27 (strona statystyk kończy się na 2025-26). Wiersz „Psychologia (Psychology)*”: wartość dotyczy studiów w jęz. polskim (przypis w PDF). Wszystkie wartości 2023–2025 w kolumnie I tura; zgodne z danymi."
+ },
+ {
+  "school": "UW — Wydział Psychologii",
+  "career": "psychoterapeuta",
+  "program": "Psychologia (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 79.25,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia-osoba_przyjeta_2023-24.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2024,
+     "points": 80.2,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2024-25.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2025,
+     "points": 80.1,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2025-26.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/SJ-PS/",
+   "academicYear": "2026/2027",
+   "note": "Zasady kwalifikacji w IRK UW PELNE2026 identyczne jak w 2025/2026 (polski, matematyka, język obcy P lub R + przedmiot do wyboru R); jedyna różnica: do listy języków obcych dopisano ukraiński. Próg kwalifikacji 50 pkt bez zmian."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "14100 PLN/rok",
+    "amount": 14100,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://monitor.uw.edu.pl/Lists/Uchway/Attachments/7859/M.2026.209.Zarz.78.pdf",
+    "tuitionNote": "Zarządzenie nr 78 Rektora UW z 9.06.2026 (studia niestacjonarne-wieczorowe jednolite, opłata za rok; 14100 zł niezależnie od liczby rat). Dotyczy osób rozpoczynających studia w 2026/2027."
+   }
+  ],
+  "notes": "Próg 2026: UW nie opublikował jeszcze zestawienia „Punkty ostatniej osoby przyjętej” za 2026/27 (strona statystyk kończy się na 2025-26). Wiersz „Psychologia (Psychology)*”: wartość dotyczy studiów w jęz. polskim (przypis w PDF). Wszystkie wartości 2023–2025 w kolumnie I tura; zgodne z danymi."
+ },
+ {
+  "school": "UJ — Instytut Psychologii",
+  "career": "psycholog",
+  "program": "Psychologia (jednolite magisterskie, Wydział Filozoficzny, Instytut Psychologii)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 94.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2024,
+     "points": 80,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2025,
+     "points": 83,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/psycho_wfilz_sjm_P/?from=field%3Apsycho",
+   "academicYear": "2026/2027",
+   "note": "IRK UJ IiJM_P_26: 2 wyniki (R) z grupy biologia, chemia, fizyka, filozofia, geografia, historia, informatyka, język angielski, język polski, matematyka, WOS; suma dzielona przez 4. Uwaga: język angielski ma wagę 1, pozostałe przedmioty wagę 2. Podstawa: uchwała Senatu UJ nr 58/VI/2025 z 24.06.2025."
+  },
+  "tuition": [],
+  "notes": "Wiersz sprawdzony: Wydział Filozoficzny, poz. 7 „psychologia” (nie mylić z psychologią na Wydziale Zarządzania i Komunikacji Społecznej, poz. 6: 71,5/73,5/75). Próg 2026: zestawienie UJ (1s_SWJP_P.pdf) wciąż ze stanem na 6.10.2025; wersja z rekrutacją 2026 nieopublikowana."
+ },
+ {
+  "school": "UJ — Instytut Psychologii",
+  "career": "psychoterapeuta",
+  "program": "Psychologia (jednolite magisterskie, Wydział Filozoficzny, Instytut Psychologii)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 94.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2024,
+     "points": 80,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2025,
+     "points": 83,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/psycho_wfilz_sjm_P/?from=field%3Apsycho",
+   "academicYear": "2026/2027",
+   "note": "IRK UJ IiJM_P_26: 2 wyniki (R) z grupy biologia, chemia, fizyka, filozofia, geografia, historia, informatyka, język angielski, język polski, matematyka, WOS; suma dzielona przez 4. Uwaga: język angielski ma wagę 1, pozostałe przedmioty wagę 2. Podstawa: uchwała Senatu UJ nr 58/VI/2025 z 24.06.2025."
+  },
+  "tuition": [],
+  "notes": "Wiersz sprawdzony: Wydział Filozoficzny, poz. 7 „psychologia” (nie mylić z psychologią na Wydziale Zarządzania i Komunikacji Społecznej, poz. 6: 71,5/73,5/75). Próg 2026: zestawienie UJ (1s_SWJP_P.pdf) wciąż ze stanem na 6.10.2025; wersja z rekrutacją 2026 nieopublikowana."
+ },
+ {
+  "school": "Uniwersytet SWPS",
+  "career": "psycholog",
+  "program": "Psychologia (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "updated",
+   "display": [
+    "Lista rankingowa: suma wyników z dwóch najlepiej zdanych przedmiotów maturalnych (część pisemna, dowolne przedmioty, P lub R)",
+    "Minimalny próg: łącznie 120 pkt (nowa matura; 1% P = 1 pkt, 1% R = 1,5 pkt, 1% matury dwujęzycznej = 2 pkt)"
+   ],
+   "structured": [
+    {
+     "anyOf": [
+      "dowolny"
+     ],
+     "level": "P lub R"
+    },
+    {
+     "anyOf": [
+      "dowolny"
+     ],
+     "level": "P lub R"
+    }
+   ],
+   "exam": null,
+   "minPoints": 120,
+   "sourceUrl": "https://www.swps.pl/images/DOKUMENTY/REKRUTACJA/2026/Szczegolowe-zasady-rekrutacji-na-kierunki-w-jezyku-polskim-Uniwersytet-SWPS-2026-2027.pdf",
+   "academicYear": "2026/2027",
+   "note": "Zmiana względem 2025/2026: próg minimalny obniżony ze 130 do 120 pkt; przyjęcie według miejsca na liście rankingowej (dwa nabory; Warszawa stacjonarne 10%/90% limitu, niestacjonarne 30%/70%)."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "updated",
+    "display": "9830 PLN/semestr",
+    "amount": 9830,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.swps.pl/images/DOKUMENTY/REKRUTACJA/2026/Uniwersytet-SWPS-Wzor-umowy-o-warunkach-odp%C5%82atnosci-za-studia-2026.pdf",
+    "tuitionNote": "Tabela czesnego za pierwszy rok studiów 2026/2027, Warszawa, jednolite magisterskie; płatność w 2 ratach semestralnych (jednorazowo 18900 PLN/rok, 10 rat po 1995 PLN). Tabela nie różnicuje form studiów. Opłaty mogą podlegać waloryzacji."
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "9830 PLN/semestr",
+    "amount": 9830,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.swps.pl/images/DOKUMENTY/REKRUTACJA/2026/Uniwersytet-SWPS-Wzor-umowy-o-warunkach-odp%C5%82atnosci-za-studia-2026.pdf",
+    "tuitionNote": "Tabela czesnego za pierwszy rok studiów 2026/2027, Warszawa, jednolite magisterskie; płatność w 2 ratach semestralnych (jednorazowo 18900 PLN/rok, 10 rat po 1995 PLN). Tabela nie różnicuje form studiów. Opłaty mogą podlegać waloryzacji."
+   }
+  ],
+  "notes": "SWPS prowadzi listy rankingowe, ale nie publikuje wyniku ostatniej osoby przyjętej; publikuje tylko próg minimalny (120 pkt w 2026/27)."
+ },
+ {
+  "school": "Uniwersytet SWPS",
+  "career": "specjalista-pr",
+  "program": "Dziennikarstwo i komunikacja społeczna (I stopnia)",
+  "thresholdsFix": {
+   "stacjonarne": [],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_applicable",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.swps.pl/images/DOKUMENTY/REKRUTACJA/2026/Szczegolowe-zasady-rekrutacji-na-kierunki-w-jezyku-polskim-Uniwersytet-SWPS-2026-2027.pdf",
+   "academicYear": "2026/2027",
+   "note": "Wydział Nauk Społecznych w Warszawie: „wstęp wolny do limitu miejsc” (ST i NST)."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "updated",
+    "display": "7490 PLN/semestr",
+    "amount": 7490,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.swps.pl/images/DOKUMENTY/REKRUTACJA/2026/Uniwersytet-SWPS-Wzor-umowy-o-warunkach-odp%C5%82atnosci-za-studia-2026.pdf",
+    "tuitionNote": "Tabela czesnego za pierwszy rok studiów 2026/2027, Warszawa, studia I stopnia; płatność w 2 ratach semestralnych (jednorazowo 14400 PLN/rok, 10 rat po 1520 PLN). Tabela nie różnicuje form studiów."
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "7490 PLN/semestr",
+    "amount": 7490,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.swps.pl/images/DOKUMENTY/REKRUTACJA/2026/Uniwersytet-SWPS-Wzor-umowy-o-warunkach-odp%C5%82atnosci-za-studia-2026.pdf",
+    "tuitionNote": "Tabela czesnego za pierwszy rok studiów 2026/2027, Warszawa, studia I stopnia; płatność w 2 ratach semestralnych (jednorazowo 14400 PLN/rok, 10 rat po 1520 PLN). Tabela nie różnicuje form studiów."
+   }
+  ],
+  "notes": "Wstęp wolny, brak progów."
+ },
+ {
+  "school": "Uniwersytet SWPS",
+  "career": "psychoterapeuta",
+  "program": "Psychologia (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "updated",
+   "display": [
+    "Lista rankingowa: suma wyników z dwóch najlepiej zdanych przedmiotów maturalnych (część pisemna, dowolne przedmioty, P lub R)",
+    "Minimalny próg: łącznie 120 pkt (nowa matura; 1% P = 1 pkt, 1% R = 1,5 pkt, 1% matury dwujęzycznej = 2 pkt)"
+   ],
+   "structured": [
+    {
+     "anyOf": [
+      "dowolny"
+     ],
+     "level": "P lub R"
+    },
+    {
+     "anyOf": [
+      "dowolny"
+     ],
+     "level": "P lub R"
+    }
+   ],
+   "exam": null,
+   "minPoints": 120,
+   "sourceUrl": "https://www.swps.pl/images/DOKUMENTY/REKRUTACJA/2026/Szczegolowe-zasady-rekrutacji-na-kierunki-w-jezyku-polskim-Uniwersytet-SWPS-2026-2027.pdf",
+   "academicYear": "2026/2027",
+   "note": "Zmiana względem 2025/2026: próg minimalny obniżony ze 130 do 120 pkt; przyjęcie według miejsca na liście rankingowej (dwa nabory; Warszawa stacjonarne 10%/90% limitu, niestacjonarne 30%/70%)."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "updated",
+    "display": "9830 PLN/semestr",
+    "amount": 9830,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.swps.pl/images/DOKUMENTY/REKRUTACJA/2026/Uniwersytet-SWPS-Wzor-umowy-o-warunkach-odp%C5%82atnosci-za-studia-2026.pdf",
+    "tuitionNote": "Tabela czesnego za pierwszy rok studiów 2026/2027, Warszawa, jednolite magisterskie; płatność w 2 ratach semestralnych (jednorazowo 18900 PLN/rok, 10 rat po 1995 PLN). Tabela nie różnicuje form studiów. Opłaty mogą podlegać waloryzacji."
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "9830 PLN/semestr",
+    "amount": 9830,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.swps.pl/images/DOKUMENTY/REKRUTACJA/2026/Uniwersytet-SWPS-Wzor-umowy-o-warunkach-odp%C5%82atnosci-za-studia-2026.pdf",
+    "tuitionNote": "Tabela czesnego za pierwszy rok studiów 2026/2027, Warszawa, jednolite magisterskie; płatność w 2 ratach semestralnych (jednorazowo 18900 PLN/rok, 10 rat po 1995 PLN). Tabela nie różnicuje form studiów. Opłaty mogą podlegać waloryzacji."
+   }
+  ],
+  "notes": "SWPS prowadzi listy rankingowe, ale nie publikuje wyniku ostatniej osoby przyjętej; publikuje tylko próg minimalny (120 pkt w 2026/27)."
+ },
+ {
+  "school": "UAM — Wydział Psychologii i Kognitywistyki",
+  "career": "psycholog",
+  "program": "Psychologia (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 77.3,
+     "scaleMax": 100,
+     "sourceUrl": "https://psychologia.amu.edu.pl/__data/assets/pdf_file/0023/490334/Dzien_Kandydata_WPiK_progi.pdf",
+     "round": "jedna wartość: „Próg pkt” po rekrutacji 2023 (wydział podaje przyjętych łącznie z odwołaniami)"
+    }
+   ],
+   "niestacjonarne": [
+    {
+     "year": 2023,
+     "points": 49.0,
+     "scaleMax": 100,
+     "sourceUrl": "https://psychologia.amu.edu.pl/__data/assets/pdf_file/0023/490334/Dzien_Kandydata_WPiK_progi.pdf",
+     "round": "jedna wartość: „Próg pkt” po rekrutacji 2023"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": "Uzupełniono brakujący rok 2023 (stacjonarne 77,3; niestacjonarne 49,00) z PDF Wydziału Psychologii i Kognitywistyki „FAQ: Rekrutacja WPiK”. Dla 2024–2026 wydział nie publikuje progów.",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.amu.edu.pl/kierunki-studiow/psychologia,380",
+   "academicYear": "2026/2027",
+   "note": "SIR UAM 2026/2027: język obcy (P/R), język polski (P/R), 1 przedmiot z grupy biologia, chemia, fizyka, geografia, historia, informatyka, j. kaszubski, j. grecki i kultura antyczna, j. łaciński i kultura antyczna, matematyka, WOS (P/R). W danych wejściowych lista grupy 3 bez kaszubskiego i greckiego (nie ustalono, czy to zmiana, czy pominięcie)."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "5000 PLN/semestr",
+    "amount": 5000,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://rekrutacja.amu.edu.pl/kierunki-studiow/psychologia,381",
+    "tuitionNote": "Kwota dotyczy I roku studiów („wysokość opłaty semestralnej za I rok studiów”); możliwe 4 raty po 1250 zł."
+   }
+  ],
+  "notes": "Skala: suma ważona maks. 100 pkt. Dane 2023 z PDF wydziału, to nowy wpis; zweryfikuj przed publikacją."
+ },
+ {
+  "school": "PW — Wydział Elektroniki i Technik Informacyjnych",
+  "career": "programista",
+  "program": "Informatyka (I stopień, inżynierskie, stacjonarne)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 201,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.elka.pw.edu.pl/Kandydaci/Opis-kierunkow-studiow/Progi-punktowe",
+     "round": "„Min. pkt.” z tabeli WEiTI (etap nieopisany; zakończenie I etapu kwalifikacji)"
+    },
+    {
+     "year": 2024,
+     "points": 191,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.elka.pw.edu.pl/Kandydaci/Opis-kierunkow-studiow/Progi-punktowe",
+     "round": "„Min. pkt.” z tabeli WEiTI (etap nieopisany; zakończenie I etapu kwalifikacji)"
+    },
+    {
+     "year": 2025,
+     "points": 187,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.elka.pw.edu.pl/Kandydaci/Opis-kierunkow-studiow/Progi-punktowe",
+     "round": "I etap kwalifikacji (tabela WEiTI; zgodne z komunikatem MKR PW z 18.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 181,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-17072026-r",
+     "round": "I etap kwalifikacji (komunikat MKR PW z 17.07.2026)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.pw.edu.pl/sites/default/files/2026-05/Przedmioty%20i%20wsp%C3%B3%C5%82czynniki%20wagowe%202026_2027.pdf",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [],
+  "notes": "Informatyka (WEiTI) 2026: I etap 181 (lista rezerwowa), II etap 178 (komunikat MKR z 24.07.2026, kwalifikacja zakończona). Strona WEiTI z progami nie została jeszcze zaktualizowana o 2026. Wiersz 2023–2025 sprawdzony: „Informatyka”."
+ },
+ {
+  "school": "PW — Wydział Elektroniki i Technik Informacyjnych",
+  "career": "specjalista-cyberbezpieczenstwa",
+  "program": "Cyberbezpieczeństwo (I stopień, inżynierskie, stacjonarne)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 197,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.elka.pw.edu.pl/Kandydaci/Opis-kierunkow-studiow/Progi-punktowe",
+     "round": "„Min. pkt.” z tabeli WEiTI (etap nieopisany; zakończenie I etapu kwalifikacji)"
+    },
+    {
+     "year": 2024,
+     "points": 193,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.elka.pw.edu.pl/Kandydaci/Opis-kierunkow-studiow/Progi-punktowe",
+     "round": "„Min. pkt.” z tabeli WEiTI (etap nieopisany; zakończenie I etapu kwalifikacji)"
+    },
+    {
+     "year": 2025,
+     "points": 200,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.elka.pw.edu.pl/Kandydaci/Opis-kierunkow-studiow/Progi-punktowe",
+     "round": "I etap kwalifikacji (tabela WEiTI; zgodne z komunikatem MKR PW z 18.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 199,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-17072026-r",
+     "round": "I etap kwalifikacji (komunikat MKR PW z 17.07.2026)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.pw.edu.pl/sites/default/files/2026-05/Przedmioty%20i%20wsp%C3%B3%C5%82czynniki%20wagowe%202026_2027.pdf",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [],
+  "notes": "Cyberbezpieczeństwo 2026: I etap 199, kwalifikacja zakończona. W tabeli WEiTI wiersze „Automatyka i robotyka” i „Cyberbezpieczeństwo” mają identyczne wartości 2023–2025 (197/193/200); dla 2025 komunikat MKR potwierdza 200 dla obu. 2023–2024 nie sprawdzono w komunikatach (web.archive ograniczony)."
+ },
+ {
+  "school": "PW — Wydział Elektroniki i Technik Informacyjnych",
+  "career": "devops-engineer",
+  "program": "Informatyka (I stopień, inżynierskie, stacjonarne)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 201,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.elka.pw.edu.pl/Kandydaci/Opis-kierunkow-studiow/Progi-punktowe",
+     "round": "„Min. pkt.” z tabeli WEiTI (etap nieopisany; zakończenie I etapu kwalifikacji)"
+    },
+    {
+     "year": 2024,
+     "points": 191,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.elka.pw.edu.pl/Kandydaci/Opis-kierunkow-studiow/Progi-punktowe",
+     "round": "„Min. pkt.” z tabeli WEiTI (etap nieopisany; zakończenie I etapu kwalifikacji)"
+    },
+    {
+     "year": 2025,
+     "points": 187,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.elka.pw.edu.pl/Kandydaci/Opis-kierunkow-studiow/Progi-punktowe",
+     "round": "I etap kwalifikacji (tabela WEiTI; zgodne z komunikatem MKR PW z 18.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 181,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-17072026-r",
+     "round": "I etap kwalifikacji (komunikat MKR PW z 17.07.2026)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.pw.edu.pl/sites/default/files/2026-05/Przedmioty%20i%20wsp%C3%B3%C5%82czynniki%20wagowe%202026_2027.pdf",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [],
+  "notes": "Informatyka (WEiTI) 2026: I etap 181 (lista rezerwowa), II etap 178 (komunikat MKR z 24.07.2026, kwalifikacja zakończona). Strona WEiTI z progami nie została jeszcze zaktualizowana o 2026. Wiersz 2023–2025 sprawdzony: „Informatyka”."
+ },
+ {
+  "school": "PW — Wydział Elektroniki i Technik Informacyjnych",
+  "career": "administrator-systemow",
+  "program": "Informatyka (I stopień, inżynierskie, stacjonarne)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 201,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.elka.pw.edu.pl/Kandydaci/Opis-kierunkow-studiow/Progi-punktowe",
+     "round": "„Min. pkt.” z tabeli WEiTI (etap nieopisany; zakończenie I etapu kwalifikacji)"
+    },
+    {
+     "year": 2024,
+     "points": 191,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.elka.pw.edu.pl/Kandydaci/Opis-kierunkow-studiow/Progi-punktowe",
+     "round": "„Min. pkt.” z tabeli WEiTI (etap nieopisany; zakończenie I etapu kwalifikacji)"
+    },
+    {
+     "year": 2025,
+     "points": 187,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.elka.pw.edu.pl/Kandydaci/Opis-kierunkow-studiow/Progi-punktowe",
+     "round": "I etap kwalifikacji (tabela WEiTI; zgodne z komunikatem MKR PW z 18.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 181,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-17072026-r",
+     "round": "I etap kwalifikacji (komunikat MKR PW z 17.07.2026)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.pw.edu.pl/sites/default/files/2026-05/Przedmioty%20i%20wsp%C3%B3%C5%82czynniki%20wagowe%202026_2027.pdf",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [],
+  "notes": "Informatyka (WEiTI) 2026: I etap 181 (lista rezerwowa), II etap 178 (komunikat MKR z 24.07.2026, kwalifikacja zakończona). Strona WEiTI z progami nie została jeszcze zaktualizowana o 2026. Wiersz 2023–2025 sprawdzony: „Informatyka”."
+ },
+ {
+  "school": "PW — Wydział Elektroniki i Technik Informacyjnych",
+  "career": "programista-gier",
+  "program": "Informatyka (I stopień, inżynierskie, stacjonarne)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 201,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.elka.pw.edu.pl/Kandydaci/Opis-kierunkow-studiow/Progi-punktowe",
+     "round": "„Min. pkt.” z tabeli WEiTI (etap nieopisany; zakończenie I etapu kwalifikacji)"
+    },
+    {
+     "year": 2024,
+     "points": 191,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.elka.pw.edu.pl/Kandydaci/Opis-kierunkow-studiow/Progi-punktowe",
+     "round": "„Min. pkt.” z tabeli WEiTI (etap nieopisany; zakończenie I etapu kwalifikacji)"
+    },
+    {
+     "year": 2025,
+     "points": 187,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.elka.pw.edu.pl/Kandydaci/Opis-kierunkow-studiow/Progi-punktowe",
+     "round": "I etap kwalifikacji (tabela WEiTI; zgodne z komunikatem MKR PW z 18.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 181,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-17072026-r",
+     "round": "I etap kwalifikacji (komunikat MKR PW z 17.07.2026)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.pw.edu.pl/sites/default/files/2026-05/Przedmioty%20i%20wsp%C3%B3%C5%82czynniki%20wagowe%202026_2027.pdf",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [],
+  "notes": "Informatyka (WEiTI) 2026: I etap 181 (lista rezerwowa), II etap 178 (komunikat MKR z 24.07.2026, kwalifikacja zakończona). Strona WEiTI z progami nie została jeszcze zaktualizowana o 2026. Wiersz 2023–2025 sprawdzony: „Informatyka”."
+ },
+ {
+  "school": "AGH — Wydział Informatyki",
+  "career": "programista",
+  "program": "Informatyka (I stopień, inżynierskie, stacjonarne, Wydział Informatyki)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2024,
+     "points": 900,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+     "round": "Cykl 1 (kwalifikacja 16.07.2024)"
+    },
+    {
+     "year": 2025,
+     "points": 884,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+     "round": "Cykl 1 (kwalifikacja 15.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 800,
+     "scaleMax": 1000,
+     "sourceUrl": "https://web.archive.org/web/20260909200004/https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+     "round": "Cykl 1 (kwalifikacja 13.07.2026)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/informatyka/",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [],
+  "notes": "Informatyka 2026: Cykl 1 800, Cykl 2 792, Cykl 3 788, potem rekrutacja zakończona, w Cyklu 5 wznowiona. Strona rekrutacja.agh.edu.pl zwraca obecnie błąd 500 (błąd krytyczny WordPressa); wartości odczytano z kopii tej strony w web.archive.org z 9.09.2026 (tabela „Progi punktowe”, zakładki per rekrutacja). AGH nie publikuje w tej tabeli rekrutacji letniej 2023."
+ },
+ {
+  "school": "AGH — Wydział Informatyki",
+  "career": "specjalista-cyberbezpieczenstwa",
+  "program": "Cyberbezpieczeństwo (I stopień, inżynierskie, stacjonarne, Wydział Informatyki, Elektroniki i Telekomunikacji)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2024,
+     "points": 950,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+     "round": "Cykl 1 (kwalifikacja 16.07.2024)"
+    },
+    {
+     "year": 2025,
+     "points": 978,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+     "round": "Cykl 1 (kwalifikacja 15.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 982,
+     "scaleMax": 1000,
+     "sourceUrl": "https://web.archive.org/web/20260909200004/https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+     "round": "Cykl 1 (kwalifikacja 13.07.2026)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/cyberbezpieczenstwo/",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [],
+  "notes": "Cyberbezpieczeństwo 2026: cykle 1–4: 982/966/964/956. Strona rekrutacja.agh.edu.pl zwraca obecnie błąd 500 (błąd krytyczny WordPressa); wartości odczytano z kopii tej strony w web.archive.org z 9.09.2026 (tabela „Progi punktowe”, zakładki per rekrutacja). AGH nie publikuje w tej tabeli rekrutacji letniej 2023."
+ },
+ {
+  "school": "AGH — Wydział Informatyki",
+  "career": "data-scientist",
+  "program": "Informatyka (I stopień, inżynierskie, stacjonarne, Wydział Informatyki)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2024,
+     "points": 900,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+     "round": "Cykl 1 (kwalifikacja 16.07.2024)"
+    },
+    {
+     "year": 2025,
+     "points": 884,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+     "round": "Cykl 1 (kwalifikacja 15.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 800,
+     "scaleMax": 1000,
+     "sourceUrl": "https://web.archive.org/web/20260909200004/https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+     "round": "Cykl 1 (kwalifikacja 13.07.2026)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/informatyka/",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [],
+  "notes": "Informatyka 2026: Cykl 1 800, Cykl 2 792, Cykl 3 788, potem rekrutacja zakończona, w Cyklu 5 wznowiona. Strona rekrutacja.agh.edu.pl zwraca obecnie błąd 500 (błąd krytyczny WordPressa); wartości odczytano z kopii tej strony w web.archive.org z 9.09.2026 (tabela „Progi punktowe”, zakładki per rekrutacja). AGH nie publikuje w tej tabeli rekrutacji letniej 2023."
+ },
+ {
+  "school": "AGH — Wydział Informatyki",
+  "career": "programista-gier",
+  "program": "Informatyka (I stopień, inżynierskie, stacjonarne, Wydział Informatyki)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2024,
+     "points": 900,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+     "round": "Cykl 1 (kwalifikacja 16.07.2024)"
+    },
+    {
+     "year": 2025,
+     "points": 884,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+     "round": "Cykl 1 (kwalifikacja 15.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 800,
+     "scaleMax": 1000,
+     "sourceUrl": "https://web.archive.org/web/20260909200004/https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+     "round": "Cykl 1 (kwalifikacja 13.07.2026)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": "Rok 2025: 876 to wiersz „Tworzenie Przestrzeni Wirtualnych i Gier” (TPWiG), a entry wskazuje kierunek Informatyka. Zastąpiono wartościami wiersza „Informatyka” (2024: 900, 2025: 884) i dodano 2024.",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/informatyka/",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [],
+  "notes": "Jeżeli dla kariery programista-gier ma być pokazywany kierunek TPWiG, trzeba zmienić program i wymagania. Progi TPWiG, Cykl 1: 2025 876 (WR 398/40), 2026 768 (cykle 2026: 768/740/728/720). TPWiG nie występuje w tabeli 2024. Strona rekrutacja.agh.edu.pl zwraca obecnie błąd 500 (błąd krytyczny WordPressa); wartości odczytano z kopii tej strony w web.archive.org z 9.09.2026 (tabela „Progi punktowe”, zakładki per rekrutacja). AGH nie publikuje w tej tabeli rekrutacji letniej 2023."
+ },
+ {
+  "school": "UW — Wydział Matematyki, Informatyki i Mechaniki",
+  "career": "programista",
+  "program": "Informatyka (I stopień, MIM UW)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 93.65,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia-osoba_przyjeta_2023-24.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2024,
+     "points": 91.14,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2024-25.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2025,
+     "points": 90.36,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2025-26.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/S1-INF/",
+   "academicYear": "2026/2027",
+   "note": "Identyczne jak 2025/2026 (polski P/R 5%, matematyka R 15%, język obcy P/R 10%, matematyka lub informatyka R 50%, przedmiot do wyboru R 20%; próg 55 pkt); dopisano tylko ukraiński do listy języków."
+  },
+  "tuition": [],
+  "notes": "Próg 2026 nieopublikowany przez UW (brak zestawienia 2026-27)."
+ },
+ {
+  "school": "Politechnika Wrocławska — Wydział Informatyki i Telekomunikacji",
+  "career": "programista",
+  "program": "Informatyka stosowana (I stopień, inżynierskie, stacjonarne)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 471.85,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "Tura 1"
+    },
+    {
+     "year": 2024,
+     "points": 447.8,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "Tura 1"
+    },
+    {
+     "year": 2025,
+     "points": 426.05,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "I tura"
+    },
+    {
+     "year": 2026,
+     "points": 387.35,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "I tura (2026/2027; II i III tura: brak dodatkowego progu)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/kryteria-przyjec/kryteria-przyjec-na-studia-i-stopnia/",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [],
+  "notes": "Wiersz „Informatyka stosowana” (Wydział Informatyki i Telekomunikacji) sprawdzony dla wszystkich lat. Dla porównania Informatyka techniczna 2026: 279,60 (I tura)."
+ },
+ {
+  "school": "WUM — Warszawski Uniwersytet Medyczny",
+  "career": "lekarz",
+  "program": "Lekarski (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 237.2,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2023_0.pdf",
+     "round": "jedna wartość: „próg punktowy na podstawie decyzji Komisji” (WUM nie publikuje tur)"
+    },
+    {
+     "year": 2024,
+     "points": 213,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2024_za_wkr.pdf",
+     "round": "„Zasadnicze postępowanie rekrutacyjne” (pierwsza z dwóch kolumn; druga to nabór uzupełniający)"
+    },
+    {
+     "year": 2025,
+     "points": 221,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2025_za_wkr.pdf",
+     "round": "jedna wartość: „próg punktowy” (WUM nie publikuje tur)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/us_nr_41_z_30.06.2025_r._zalacznik_nr_9.pdf",
+   "academicYear": "2026/2027",
+   "note": "Uchwała nr 41/2025 Senatu WUM z 30.06.2025 (warunki rekrutacji 2026/2027), załącznik nr 9; przedmioty i przeliczniki bez zmian względem 2025/26 (uchwała 67/2026 zmienia tylko terminy, zał. 22). Strona zbiorcza: https://rekrutacja-info.wum.edu.pl/uchwala-rekrutacyjna-2026-2027"
+  },
+  "tuition": [],
+  "notes": "Wiersz „Kierunek lekarski – jednolite magisterskie stacjonarne” zgodny we wszystkich latach (wartości 237,2 / 213 / 221; w nawiasie w źródle kryterium dodatkowe z biologii). Strona https://rekrutacja-info.wum.edu.pl/progi-punktowe ma progi tylko do rekrutacji 2025; próg 2026 nie opublikowany (stan 1.10.2026)."
+ },
+ {
+  "school": "WUM — Warszawski Uniwersytet Medyczny",
+  "career": "psychiatra",
+  "program": "Lekarski (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 237.2,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2023_0.pdf",
+     "round": "jedna wartość: „próg punktowy na podstawie decyzji Komisji” (WUM nie publikuje tur)"
+    },
+    {
+     "year": 2024,
+     "points": 213,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2024_za_wkr.pdf",
+     "round": "„Zasadnicze postępowanie rekrutacyjne” (pierwsza z dwóch kolumn; druga to nabór uzupełniający)"
+    },
+    {
+     "year": 2025,
+     "points": 221,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2025_za_wkr.pdf",
+     "round": "jedna wartość: „próg punktowy” (WUM nie publikuje tur)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/us_nr_41_z_30.06.2025_r._zalacznik_nr_9.pdf",
+   "academicYear": "2026/2027",
+   "note": "Uchwała nr 41/2025 Senatu WUM z 30.06.2025 (warunki rekrutacji 2026/2027), załącznik nr 9; przedmioty i przeliczniki bez zmian względem 2025/26 (uchwała 67/2026 zmienia tylko terminy, zał. 22). Strona zbiorcza: https://rekrutacja-info.wum.edu.pl/uchwala-rekrutacyjna-2026-2027"
+  },
+  "tuition": [],
+  "notes": "Wiersz „Kierunek lekarski – jednolite magisterskie stacjonarne” zgodny we wszystkich latach (wartości 237,2 / 213 / 221; w nawiasie w źródle kryterium dodatkowe z biologii). Strona https://rekrutacja-info.wum.edu.pl/progi-punktowe ma progi tylko do rekrutacji 2025; próg 2026 nie opublikowany (stan 1.10.2026)."
+ },
+ {
+  "school": "WUM — Warszawski Uniwersytet Medyczny",
+  "career": "pediatra",
+  "program": "Lekarski (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 237.2,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2023_0.pdf",
+     "round": "jedna wartość: „próg punktowy na podstawie decyzji Komisji” (WUM nie publikuje tur)"
+    },
+    {
+     "year": 2024,
+     "points": 213,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2024_za_wkr.pdf",
+     "round": "„Zasadnicze postępowanie rekrutacyjne” (pierwsza z dwóch kolumn; druga to nabór uzupełniający)"
+    },
+    {
+     "year": 2025,
+     "points": 221,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2025_za_wkr.pdf",
+     "round": "jedna wartość: „próg punktowy” (WUM nie publikuje tur)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/us_nr_41_z_30.06.2025_r._zalacznik_nr_9.pdf",
+   "academicYear": "2026/2027",
+   "note": "Uchwała nr 41/2025 Senatu WUM z 30.06.2025 (warunki rekrutacji 2026/2027), załącznik nr 9; przedmioty i przeliczniki bez zmian względem 2025/26 (uchwała 67/2026 zmienia tylko terminy, zał. 22). Strona zbiorcza: https://rekrutacja-info.wum.edu.pl/uchwala-rekrutacyjna-2026-2027"
+  },
+  "tuition": [],
+  "notes": "Wiersz „Kierunek lekarski – jednolite magisterskie stacjonarne” zgodny we wszystkich latach (wartości 237,2 / 213 / 221; w nawiasie w źródle kryterium dodatkowe z biologii). Strona https://rekrutacja-info.wum.edu.pl/progi-punktowe ma progi tylko do rekrutacji 2025; próg 2026 nie opublikowany (stan 1.10.2026)."
+ },
+ {
+  "school": "WUM — Warszawski Uniwersytet Medyczny",
+  "career": "chirurg",
+  "program": "Lekarski (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 237.2,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2023_0.pdf",
+     "round": "jedna wartość: „próg punktowy na podstawie decyzji Komisji” (WUM nie publikuje tur)"
+    },
+    {
+     "year": 2024,
+     "points": 213,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2024_za_wkr.pdf",
+     "round": "„Zasadnicze postępowanie rekrutacyjne” (pierwsza z dwóch kolumn; druga to nabór uzupełniający)"
+    },
+    {
+     "year": 2025,
+     "points": 221,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2025_za_wkr.pdf",
+     "round": "jedna wartość: „próg punktowy” (WUM nie publikuje tur)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/us_nr_41_z_30.06.2025_r._zalacznik_nr_9.pdf",
+   "academicYear": "2026/2027",
+   "note": "Uchwała nr 41/2025 Senatu WUM z 30.06.2025 (warunki rekrutacji 2026/2027), załącznik nr 9; przedmioty i przeliczniki bez zmian względem 2025/26 (uchwała 67/2026 zmienia tylko terminy, zał. 22). Strona zbiorcza: https://rekrutacja-info.wum.edu.pl/uchwala-rekrutacyjna-2026-2027"
+  },
+  "tuition": [],
+  "notes": "Wiersz „Kierunek lekarski – jednolite magisterskie stacjonarne” zgodny we wszystkich latach (wartości 237,2 / 213 / 221; w nawiasie w źródle kryterium dodatkowe z biologii). Strona https://rekrutacja-info.wum.edu.pl/progi-punktowe ma progi tylko do rekrutacji 2025; próg 2026 nie opublikowany (stan 1.10.2026)."
+ },
+ {
+  "school": "WUM — Warszawski Uniwersytet Medyczny",
+  "career": "kardiolog",
+  "program": "Lekarski (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 237.2,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2023_0.pdf",
+     "round": "jedna wartość: „próg punktowy na podstawie decyzji Komisji” (WUM nie publikuje tur)"
+    },
+    {
+     "year": 2024,
+     "points": 213,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2024_za_wkr.pdf",
+     "round": "„Zasadnicze postępowanie rekrutacyjne” (pierwsza z dwóch kolumn; druga to nabór uzupełniający)"
+    },
+    {
+     "year": 2025,
+     "points": 221,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2025_za_wkr.pdf",
+     "round": "jedna wartość: „próg punktowy” (WUM nie publikuje tur)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/us_nr_41_z_30.06.2025_r._zalacznik_nr_9.pdf",
+   "academicYear": "2026/2027",
+   "note": "Uchwała nr 41/2025 Senatu WUM z 30.06.2025 (warunki rekrutacji 2026/2027), załącznik nr 9; przedmioty i przeliczniki bez zmian względem 2025/26 (uchwała 67/2026 zmienia tylko terminy, zał. 22). Strona zbiorcza: https://rekrutacja-info.wum.edu.pl/uchwala-rekrutacyjna-2026-2027"
+  },
+  "tuition": [],
+  "notes": "Wiersz „Kierunek lekarski – jednolite magisterskie stacjonarne” zgodny we wszystkich latach (wartości 237,2 / 213 / 221; w nawiasie w źródle kryterium dodatkowe z biologii). Strona https://rekrutacja-info.wum.edu.pl/progi-punktowe ma progi tylko do rekrutacji 2025; próg 2026 nie opublikowany (stan 1.10.2026)."
+ },
+ {
+  "school": "UJ CM — Collegium Medicum",
+  "career": "lekarz",
+  "program": "Lekarski (jednolite magisterskie, Wydział Lekarski UJ CM)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 81.33,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2024,
+     "points": 73.67,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2025,
+     "points": 75.67,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/lekars_sjm_P/?from=field:lekars",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [],
+  "notes": "Wiersz sprawdzony: Wydział Lekarski, stacjonarne, „kierunek lekarski”. Zestawienie UJ z rekrutacją 2026 nieopublikowane."
+ },
+ {
+  "school": "GUMed — Gdański Uniwersytet Medyczny",
+  "career": "lekarz",
+  "program": "Lekarski (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 171,
+     "scaleMax": 200,
+     "sourceUrl": "https://rekrutacja.gumed.edu.pl/77191.html",
+     "round": "jedna wartość: „minimalna, konieczna liczba punktów” (GUMed nie publikuje tur)"
+    },
+    {
+     "year": 2024,
+     "points": 158,
+     "scaleMax": 200,
+     "sourceUrl": "https://rekrutacja.gumed.edu.pl/83198.html",
+     "round": "jedna wartość: „minimalna, konieczna liczba punktów” (GUMed nie publikuje tur)"
+    },
+    {
+     "year": 2025,
+     "points": 161,
+     "scaleMax": 200,
+     "sourceUrl": "https://rekrutacja.gumed.edu.pl/86924.html",
+     "round": "jedna wartość: „minimalna, konieczna liczba punktów” (GUMed nie publikuje tur)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.gumed.edu.pl/attachment/attachment/116537/zal_nr_1_do_u9026_tj_Uchwaly_rekrutacyjnej.pdf",
+   "academicYear": "2026/2027",
+   "note": "Tekst jednolity uchwały nr 72/2025 Senatu GUMed (warunki rekrutacji 2026/2027): biologia R + jeden z: chemia, fizyka lub matematyka R; kryterium dodatkowe przy remisie: biologia R. Bez zmian."
+  },
+  "tuition": [],
+  "notes": "Wiersz „lekarski*” studia stacjonarne zgodny (171 / 158 / 161). Na liście stron z progami (https://rekrutacja.gumed.edu.pl/86924.html) najnowsza jest rekrutacja 2025; próg 2026 nie opublikowany (stan 1.10.2026)."
+ },
+ {
+  "school": "GUMed — Gdański Uniwersytet Medyczny",
+  "career": "psychiatra",
+  "program": "Lekarski (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 171,
+     "scaleMax": 200,
+     "sourceUrl": "https://rekrutacja.gumed.edu.pl/77191.html",
+     "round": "jedna wartość: „minimalna, konieczna liczba punktów” (GUMed nie publikuje tur)"
+    },
+    {
+     "year": 2024,
+     "points": 158,
+     "scaleMax": 200,
+     "sourceUrl": "https://rekrutacja.gumed.edu.pl/83198.html",
+     "round": "jedna wartość: „minimalna, konieczna liczba punktów” (GUMed nie publikuje tur)"
+    },
+    {
+     "year": 2025,
+     "points": 161,
+     "scaleMax": 200,
+     "sourceUrl": "https://rekrutacja.gumed.edu.pl/86924.html",
+     "round": "jedna wartość: „minimalna, konieczna liczba punktów” (GUMed nie publikuje tur)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.gumed.edu.pl/attachment/attachment/116537/zal_nr_1_do_u9026_tj_Uchwaly_rekrutacyjnej.pdf",
+   "academicYear": "2026/2027",
+   "note": "Tekst jednolity uchwały nr 72/2025 Senatu GUMed (warunki rekrutacji 2026/2027): biologia R + jeden z: chemia, fizyka lub matematyka R; kryterium dodatkowe przy remisie: biologia R. Bez zmian."
+  },
+  "tuition": [],
+  "notes": "Wiersz „lekarski*” studia stacjonarne zgodny (171 / 158 / 161). Na liście stron z progami (https://rekrutacja.gumed.edu.pl/86924.html) najnowsza jest rekrutacja 2025; próg 2026 nie opublikowany (stan 1.10.2026)."
+ },
+ {
+  "school": "UM Wrocław",
+  "career": "lekarz",
+  "program": "Lekarski (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 242,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja.umw.edu.pl/oferta-kierunek-lekarski/",
+     "round": "jedna wartość: minimalna liczba punktów kwalifikująca na kierunek (UMW publikuje tylko ten próg)"
+    },
+    {
+     "year": 2024,
+     "points": 161,
+     "scaleMax": 200,
+     "sourceUrl": "https://rekrutacja.umw.edu.pl/oferta-kierunek-lekarski/",
+     "round": "jedna wartość: minimalna liczba punktów kwalifikująca na kierunek (UMW publikuje tylko ten próg)"
+    },
+    {
+     "year": 2025,
+     "points": 165,
+     "scaleMax": 200,
+     "sourceUrl": "https://rekrutacja.umw.edu.pl/oferta-kierunek-lekarski/",
+     "round": "jedna wartość: minimalna liczba punktów kwalifikująca na kierunek (UMW publikuje tylko ten próg)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.umw.edu.pl/wp-content/uploads/2026/05/zal.1_2774-8.pdf",
+   "academicYear": "2026/2027",
+   "note": "Załącznik nr 11 do uchwały nr 2774 Senatu UMW z 25.06.2025 (2026/2027): biologia R obowiązkowo + chemia, matematyka, fizyka lub fizyka i astronomia R; minimum 100 pkt w sumie, min. 30 z każdego przedmiotu."
+  },
+  "tuition": [],
+  "notes": "Zmiana skali 300→200 jest prawidłowa: strona kierunku podaje, że od rekrutacji 2024/2025 liczą się 2 przedmioty, wcześniej 3. Strona kierunku podaje limity 2026/2027, ale najnowszy próg dotyczy rekrutacji 2025/2026; próg 2026 nie opublikowany (stan 1.10.2026)."
+ },
+ {
+  "school": "PW — Wydział Architektury",
+  "career": "architekt",
+  "program": "Architektura (jednolite magisterskie, stacjonarne)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 205,
+     "scaleMax": 400,
+     "sourceUrl": "https://web.archive.org/web/20231129024613/https://bps.pw.edu.pl/Aktualnosci/Komunikat-Miedzywydzialowej-Komisji-Rekrutacyjnej-z-dnia-18.07.2023-r",
+     "round": "I tura kwalifikacji (komunikat MKR 18.07.2023)"
+    },
+    {
+     "year": 2024,
+     "points": 172,
+     "scaleMax": 400,
+     "sourceUrl": "https://web.archive.org/web/20240722152855/https://www.bps.pw.edu.pl/Aktualnosci/Komunikat-Miedzywydzialowej-Komisji-Rekrutacyjnej-z-dnia-18.07.2024-r",
+     "round": "I etap kwalifikacji (komunikat MKR 18.07.2024); w II etapie (25.07.2024) próg bez zmian 172, brak nowo zakwalifikowanych"
+    },
+    {
+     "year": 2025,
+     "points": 176,
+     "scaleMax": 400,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-18072025-r",
+     "round": "I etap kwalifikacji (komunikat MKR 18.07.2025); po II etapie (25.07.2025) próg 172"
+    },
+    {
+     "year": 2026,
+     "points": 200,
+     "scaleMax": 400,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-17072026-r",
+     "round": "I etap kwalifikacji (komunikat MKR 17.07.2026, status: lista rezerwowa); po II etapie (24.07.2026) próg 194, kwalifikacja zakończona"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": "2025: zmieniono 172 (II etap, 25.07.2025) na 176 (I etap, 18.07.2025) zgodnie z konwencją I tury; 2024: źródło zmienione na komunikat I etapu 18.07.2024 (wartość 172 bez zmian).",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.pw.edu.pl/sites/default/files/2026-04/Zasady%20ustalania%20punkt%C3%B3w%20kwalifikacyjnych%202026_2027.pdf",
+   "academicYear": "2026/2027",
+   "note": "Dane wejściowe już dla 2026/2027; nie weryfikowano ponownie treści PDF."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   }
+  ],
+  "notes": "PW publikuje progi w komunikatach MKR po każdym etapie. Skala: Architektura do 400 pkt PK (pozostałe kierunki 225). Alternatywne wartości końcowe (po II etapie): 2024 172, 2025 172, 2026 194 (komunikat 24.07.2026)."
+ },
+ {
+  "school": "PW — Wydział Architektury",
+  "career": "urbanista",
+  "program": "Architektura (jednolite magisterskie, stacjonarne)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 205,
+     "scaleMax": 400,
+     "sourceUrl": "https://web.archive.org/web/20231129024613/https://bps.pw.edu.pl/Aktualnosci/Komunikat-Miedzywydzialowej-Komisji-Rekrutacyjnej-z-dnia-18.07.2023-r",
+     "round": "I tura kwalifikacji (komunikat MKR 18.07.2023)"
+    },
+    {
+     "year": 2024,
+     "points": 172,
+     "scaleMax": 400,
+     "sourceUrl": "https://web.archive.org/web/20240722152855/https://www.bps.pw.edu.pl/Aktualnosci/Komunikat-Miedzywydzialowej-Komisji-Rekrutacyjnej-z-dnia-18.07.2024-r",
+     "round": "I etap kwalifikacji (komunikat MKR 18.07.2024); w II etapie (25.07.2024) próg bez zmian 172, brak nowo zakwalifikowanych"
+    },
+    {
+     "year": 2025,
+     "points": 176,
+     "scaleMax": 400,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-18072025-r",
+     "round": "I etap kwalifikacji (komunikat MKR 18.07.2025); po II etapie (25.07.2025) próg 172"
+    },
+    {
+     "year": 2026,
+     "points": 200,
+     "scaleMax": 400,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-17072026-r",
+     "round": "I etap kwalifikacji (komunikat MKR 17.07.2026, status: lista rezerwowa); po II etapie (24.07.2026) próg 194, kwalifikacja zakończona"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": "Progi w danych (140/126/130, skala 225) pochodziły z wiersza „Gospodarka przestrzenna” (Wydział Geodezji i Kartografii), nie z Architektury. Zastąpiono wierszem Architektura (jednolite studia magisterskie), skala 400: 205/172/176/200 (I etap). Dla porządku: GP WGiK I etap to 2023 140, 2024 126 (wg danych wejściowych), 2025 134 (18.07.2025), 2026 144 (17.07.2026); po II etapie 2025 130, 2026 140.",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.pw.edu.pl/sites/default/files/2026-04/Zasady%20ustalania%20punkt%C3%B3w%20kwalifikacyjnych%202026_2027.pdf",
+   "academicYear": "2026/2027",
+   "note": "Dane wejściowe już dla 2026/2027; nie weryfikowano ponownie treści PDF."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   }
+  ],
+  "notes": "Jeśli ścieżka urbanisty ma prowadzić przez Gospodarkę przestrzenną, trzeba by zmienić szkołę/wydział na WGiK i program — tu zostawiono program Architektura i poprawiono progi."
+ },
+ {
+  "school": "Politechnika Krakowska — Wydział Architektury",
+  "career": "architekt",
+  "program": "Architektura (I stopień, inżynierskie, 4-letnie, stacjonarne i niestacjonarne)",
+  "thresholdsFix": {
+   "stacjonarne": [],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://bip.malopolska.pl/e,pobierz,get.html?id=4147977",
+   "academicYear": "2026/2027",
+   "note": "Dane wejściowe już dla 2026/2027."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "9000 PLN/semestr",
+    "amount": 9000,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://rekrutacja.pk.edu.pl/oferta_dydaktyczna/architektura-i-stopnia/",
+    "tuitionNote": "Strona oferty w rekrutacji 2026/27: „Opłata za semestr studiów niestacjonarnych: 9000 zł”; strona nie wskazuje wprost roku akademickiego stawki."
+   }
+  ],
+  "notes": "PK nie publikuje progów punktowych (wyniku ostatniej osoby przyjętej) na stronie rekrutacja.pk.edu.pl; komunikat z 13.07.2026 podaje tylko liczbę zgłoszeń i miejsc (Architektura: 1027 zgłoszeń, 225+30 miejsc; Gospodarka przestrzenna: 362 zgłoszenia, 108 miejsc) — https://rekrutacja.pk.edu.pl/aktualnosci/pierwszy-cykl-rekrutacji-na-politechnike-te-kierunki-przyciagnely-najwiecej-kandydatow/"
+ },
+ {
+  "school": "Politechnika Krakowska — Wydział Architektury",
+  "career": "urbanista",
+  "program": "Gospodarka przestrzenna (I stopień, inżynierskie, 3,5-letnie, stacjonarne; kierunek międzywydziałowy WIŚiE, WA, WIL)",
+  "thresholdsFix": {
+   "stacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://bip.malopolska.pl/e,pobierz,get.html?id=4147977",
+   "academicYear": "2026/2027",
+   "note": "Dane wejściowe już dla 2026/2027."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   }
+  ],
+  "notes": "PK nie publikuje progów punktowych (wyniku ostatniej osoby przyjętej) na stronie rekrutacja.pk.edu.pl; komunikat z 13.07.2026 podaje tylko liczbę zgłoszeń i miejsc (Architektura: 1027 zgłoszeń, 225+30 miejsc; Gospodarka przestrzenna: 362 zgłoszenia, 108 miejsc) — https://rekrutacja.pk.edu.pl/aktualnosci/pierwszy-cykl-rekrutacji-na-politechnike-te-kierunki-przyciagnely-najwiecej-kandydatow/"
+ },
+ {
+  "school": "Politechnika Wrocławska — Wydział Architektury",
+  "career": "architekt",
+  "program": "Architektura (I stopień, inżynierskie, stacjonarne)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 627,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski + egzamin z rysunku",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "Tura 1 (tabela 2023/2024; tura 2: 613,45, tura 3: 568)"
+    },
+    {
+     "year": 2024,
+     "points": 560.55,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski + egzamin z rysunku",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "Tura 1 (tabela 2024/2025; tura 2: 509,5)"
+    },
+    {
+     "year": 2025,
+     "points": 624.05,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski + egzamin z rysunku",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "I tura (tabela 2025/2026; II tura: 563,35)"
+    },
+    {
+     "year": 2026,
+     "points": 570.3,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski + egzamin z rysunku",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "I tura (tabela 2026/2027; II tura: 482,55; III tura: –)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/kryteria-przyjec/kryteria-przyjec-na-studia-i-stopnia/",
+   "academicYear": "2026/2027",
+   "note": "Dane wejściowe już dla 2026/2027."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   }
+  ],
+  "notes": "Wiersz Architektura (Wydział Architektury) potwierdzony dla 2023–2025; wartości 2023–2025 zgodne z danymi wejściowymi."
+ },
+ {
+  "school": "UKEN — Uniwersytet Komisji Edukacji Narodowej",
+  "career": "nauczyciel",
+  "program": "Pedagogika przedszkolna i wczesnoszkolna (jednolite magisterskie; wybrana jako kierunek nauczycielski, specjalność nauczycielska)",
+  "thresholdsFix": {
+   "stacjonarne": [],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://usosirk.uken.krakow.pl/pl/offer/2026_2027_Z_I_1_1/programme/PPW-SJ/?from=field:PPW",
+   "academicYear": "2026/2027",
+   "note": "Dane już dla 2026/2027; IRK potwierdza: suma wyników matury z j. polskiego i j. obcego nowożytnego (P lub R)."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "5600 PLN/rok",
+    "amount": 5600,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.uken.krakow.pl/kandydat/studia-jednolite-magisterskie/oplaty/oplaty-za-studia-niestacjonarne-jednolite-magisterskie",
+    "tuitionNote": "Zarządzenie Rektora UKEN nr R.Z.0211.57.2026 z 29.05.2026 (zm. R.Z.0211.76.2026 i R.Z.0211.88.2026) — opłaty dla cykli rozpoczynających się w 2026/2027; stawka jednakowa na wszystkie lata studiów."
+   }
+  ],
+  "notes": "UKEN nie publikuje progów punktowych (wyniku ostatniej osoby przyjętej) na stronach kandydata ani w IRK (usosirk.uken.krakow.pl) — w danych brak progów także za 2023–2025."
+ },
+ {
+  "school": "UKEN — Uniwersytet Komisji Edukacji Narodowej",
+  "career": "pedagog",
+  "program": "Pedagogika (studia I stopnia)",
+  "thresholdsFix": {
+   "stacjonarne": [],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://usosirk.uken.krakow.pl/pl/offer/2026_2027_Z_I_1_1/programme/PED-SL/?from=field:PED",
+   "academicYear": "2026/2027",
+   "note": "Dane już dla 2026/2027; IRK: wynik matury z j. polskiego (P lub R)."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "5400 PLN/rok",
+    "amount": 5400,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.uken.krakow.pl/kandydat/studia-i-stopnia/oplaty/oplaty-za-studia-niestacjonarne-i-stopnia",
+    "tuitionNote": "Zarządzenie Rektora UKEN nr R.Z.0211.57.2026 z 29.05.2026 (zm. R.Z.0211.76.2026 i R.Z.0211.88.2026) — opłaty dla cykli rozpoczynających się w 2026/2027; stawka jednakowa na wszystkie lata studiów."
+   }
+  ],
+  "notes": "UKEN nie publikuje progów punktowych (wyniku ostatniej osoby przyjętej) na stronach kandydata ani w IRK (usosirk.uken.krakow.pl) — w danych brak progów także za 2023–2025."
+ },
+ {
+  "school": "UG — Wydział Nauk Społecznych",
+  "career": "nauczyciel",
+  "program": "Pedagogika przedszkolna i wczesnoszkolna (jednolite magisterskie, stacjonarne; wybrana jako kierunek nauczycielski WNS)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 74.15,
+     "scaleFormula": "suma wyników matur z mnożnikami przedmiotów (rozszerzenie × 1,5)",
+     "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2023-2024-i-i-ii-stopien-studia-stacjonarne.pdf",
+     "round": "jedna wartość: próg punktowy (wynik ostatniej osoby przyjętej) po zakończeniu rekrutacji; UG nie rozbija na tury"
+    },
+    {
+     "year": 2024,
+     "points": 74.5,
+     "scaleFormula": "suma wyników matur z mnożnikami przedmiotów (rozszerzenie × 1,5)",
+     "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-w-roku-akademickim-2024-2025-i-i-ii-stopien-studia-stacjonarne.pdf",
+     "round": "jedna wartość: próg punktowy (wynik ostatniej osoby przyjętej) po zakończeniu rekrutacji; UG nie rozbija na tury"
+    },
+    {
+     "year": 2025,
+     "points": 84.8,
+     "scaleFormula": "suma wyników matur z mnożnikami przedmiotów (rozszerzenie × 1,5)",
+     "sourceUrl": "https://rekrutacja.ug.edu.pl/wp-content/uploads/2026/06/progi-punktowe-2025-2026.pdf",
+     "round": "jedna wartość: próg punktowy (wynik ostatniej osoby przyjętej) po zakończeniu rekrutacji; UG nie rozbija na tury"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": "Progi w danych (65,8 / 70,3 / 82,9) pochodziły z wiersza „Pedagogika I st. 3 S”. Poprawny wiersz „Pedagogika przedszkolna i wczesnoszkolna M 5 S”: 2023/24 74,15; 2024/25 74,50; 2025/26 84,80 pkt.",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.ug.edu.pl/kierunek/pedagogika-przedszkolna-i-wczesnoszkolna/",
+   "academicYear": "2026/2027",
+   "note": "Dane wejściowe już dla 2026/2027."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   }
+  ],
+  "notes": "Strona https://rekrutacja.ug.edu.pl/niezbednik-kandydata/progi-punktowe-i-liczba-kandydatow-na-miejsce/ (stan 1.10.2026) zawiera tylko zestawienia 2023/24–2025/26; progów 2026/27 brak. Źródło 2025 zmienione na aktualnie linkowaną kopię z 2026/06 (treść wiersza identyczna jak w pliku z 2026/03)."
+ },
+ {
+  "school": "ASP Warszawa",
+  "career": "grafik",
+  "program": "Grafika (stacjonarne jednolite magisterskie; niestacjonarne I stopnia)",
+  "thresholdsFix": {
+   "stacjonarne": [],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://asp.waw.pl/app/uploads/2025/10/regulamin-rekrutacji-na-rok-akademicki-2026-2027.docx",
+   "academicYear": "2026/2027",
+   "note": "Dane wejściowe już dla 2026/2027."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "6200 PLN/semestr",
+    "amount": 6200,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://asp.waw.pl/app/uploads/2026/05/zarzadzenie-nr-112026.pdf",
+    "tuitionNote": "Zarządzenie nr 11/2026 Rektora ASP z 6.05.2026, Wydział Grafiki, niestacjonarne I stopnia: I rok 12400 zł/rok (6200 zł/semestr); kolejne lata 11800 zł/rok (5900 zł/semestr). Kwota 6200/semestr dotyczy tylko I roku."
+   }
+  ],
+  "notes": "Egzamin praktyczny, matura niepunktowana. ASP publikuje listy rekrutacyjne wyłącznie w systemie Akademus (https://asp.waw.pl/wyniki-rekrutacji/), bez publicznego progu punktowego."
+ },
+ {
+  "school": "ASP Kraków",
+  "career": "grafik",
+  "program": "Grafika (stacjonarne jednolite magisterskie, 10 semestrów)",
+  "thresholdsFix": {
+   "stacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.asp.krakow.pl/grafika-egzaminy-wstepne/",
+   "academicYear": "2026/2027",
+   "note": "Dane wejściowe już dla 2026/2027. Strona podaje minima egzaminu: min. 10 pkt z etapu I (portfolio) do dopuszczenia do etapu II, egzamin zdany przy łącznie min. 25 pkt — to próg zaliczenia, nie wynik ostatniej osoby przyjętej."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   }
+  ],
+  "notes": "Egzamin praktyczny, matura niepunktowana; ASP Kraków nie publikuje wyniku ostatniej osoby przyjętej."
+ },
+ {
+  "school": "UW — Wydział Prawa i Administracji",
+  "career": "prawnik",
+  "program": "Prawo (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 74.33,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia-osoba_przyjeta_2023-24.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2024,
+     "points": 74.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2024-25.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2025,
+     "points": 74,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2025-26.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/SJ-PR/",
+   "academicYear": "2026/2027",
+   "note": "Zasady w IRK UW PELNE2026 identyczne jak 2025/2026; dopisano tylko ukraiński do listy języków obcych."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "12800 PLN/rok",
+    "amount": 12800,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://monitor.uw.edu.pl/Lists/Uchway/Attachments/7859/M.2026.209.Zarz.78.pdf",
+    "tuitionNote": "Zarządzenie nr 78 Rektora UW z 9.06.2026, prawo, studia niestacjonarne-wieczorowe jednolite: opłata jednorazowa za rok (wariant A). Raty: 2 raty 13200, 3 raty 13500, 8 rat 14000 zł. Dotyczy osób rozpoczynających studia w 2026/2027."
+   }
+  ],
+  "notes": "Próg 2026 nieopublikowany przez UW. 2023–2025 kolumna I tura."
+ },
+ {
+  "school": "UW — Wydział Prawa i Administracji",
+  "career": "doradca-podatkowy",
+  "program": "Prawo (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 74.33,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia-osoba_przyjeta_2023-24.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2024,
+     "points": 74.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2024-25.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2025,
+     "points": 74,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2025-26.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/SJ-PR/",
+   "academicYear": "2026/2027",
+   "note": "Zasady w IRK UW PELNE2026 identyczne jak 2025/2026; dopisano tylko ukraiński do listy języków obcych."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "12800 PLN/rok",
+    "amount": 12800,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://monitor.uw.edu.pl/Lists/Uchway/Attachments/7859/M.2026.209.Zarz.78.pdf",
+    "tuitionNote": "Zarządzenie nr 78 Rektora UW z 9.06.2026, prawo, studia niestacjonarne-wieczorowe jednolite: opłata jednorazowa za rok (wariant A). Raty: 2 raty 13200, 3 raty 13500, 8 rat 14000 zł. Dotyczy osób rozpoczynających studia w 2026/2027."
+   }
+  ],
+  "notes": "Próg 2026 nieopublikowany przez UW. 2023–2025 kolumna I tura."
+ },
+ {
+  "school": "UW — Wydział Prawa i Administracji",
+  "career": "sedzia",
+  "program": "Prawo (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 74.33,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia-osoba_przyjeta_2023-24.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2024,
+     "points": 74.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2024-25.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2025,
+     "points": 74,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2025-26.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/SJ-PR/",
+   "academicYear": "2026/2027",
+   "note": "Zasady w IRK UW PELNE2026 identyczne jak 2025/2026; dopisano tylko ukraiński do listy języków obcych."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "12800 PLN/rok",
+    "amount": 12800,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://monitor.uw.edu.pl/Lists/Uchway/Attachments/7859/M.2026.209.Zarz.78.pdf",
+    "tuitionNote": "Zarządzenie nr 78 Rektora UW z 9.06.2026, prawo, studia niestacjonarne-wieczorowe jednolite: opłata jednorazowa za rok (wariant A). Raty: 2 raty 13200, 3 raty 13500, 8 rat 14000 zł. Dotyczy osób rozpoczynających studia w 2026/2027."
+   }
+  ],
+  "notes": "Próg 2026 nieopublikowany przez UW. 2023–2025 kolumna I tura."
+ },
+ {
+  "school": "UW — Wydział Prawa i Administracji",
+  "career": "prokurator",
+  "program": "Prawo (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 74.33,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia-osoba_przyjeta_2023-24.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2024,
+     "points": 74.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2024-25.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2025,
+     "points": 74,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2025-26.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/SJ-PR/",
+   "academicYear": "2026/2027",
+   "note": "Zasady w IRK UW PELNE2026 identyczne jak 2025/2026; dopisano tylko ukraiński do listy języków obcych."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "12800 PLN/rok",
+    "amount": 12800,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://monitor.uw.edu.pl/Lists/Uchway/Attachments/7859/M.2026.209.Zarz.78.pdf",
+    "tuitionNote": "Zarządzenie nr 78 Rektora UW z 9.06.2026, prawo, studia niestacjonarne-wieczorowe jednolite: opłata jednorazowa za rok (wariant A). Raty: 2 raty 13200, 3 raty 13500, 8 rat 14000 zł. Dotyczy osób rozpoczynających studia w 2026/2027."
+   }
+  ],
+  "notes": "Próg 2026 nieopublikowany przez UW. 2023–2025 kolumna I tura."
+ },
+ {
+  "school": "UW — Wydział Prawa i Administracji",
+  "career": "notariusz",
+  "program": "Prawo (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 74.33,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia-osoba_przyjeta_2023-24.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2024,
+     "points": 74.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2024-25.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2025,
+     "points": 74,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2025-26.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/SJ-PR/",
+   "academicYear": "2026/2027",
+   "note": "Zasady w IRK UW PELNE2026 identyczne jak 2025/2026; dopisano tylko ukraiński do listy języków obcych."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "12800 PLN/rok",
+    "amount": 12800,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://monitor.uw.edu.pl/Lists/Uchway/Attachments/7859/M.2026.209.Zarz.78.pdf",
+    "tuitionNote": "Zarządzenie nr 78 Rektora UW z 9.06.2026, prawo, studia niestacjonarne-wieczorowe jednolite: opłata jednorazowa za rok (wariant A). Raty: 2 raty 13200, 3 raty 13500, 8 rat 14000 zł. Dotyczy osób rozpoczynających studia w 2026/2027."
+   }
+  ],
+  "notes": "Próg 2026 nieopublikowany przez UW. 2023–2025 kolumna I tura."
+ },
+ {
+  "school": "UW — Wydział Prawa i Administracji",
+  "career": "komornik",
+  "program": "Prawo (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 74.33,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia-osoba_przyjeta_2023-24.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2024,
+     "points": 74.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2024-25.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2025,
+     "points": 74,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2025-26.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/SJ-PR/",
+   "academicYear": "2026/2027",
+   "note": "Zasady w IRK UW PELNE2026 identyczne jak 2025/2026; dopisano tylko ukraiński do listy języków obcych."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "12800 PLN/rok",
+    "amount": 12800,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://monitor.uw.edu.pl/Lists/Uchway/Attachments/7859/M.2026.209.Zarz.78.pdf",
+    "tuitionNote": "Zarządzenie nr 78 Rektora UW z 9.06.2026, prawo, studia niestacjonarne-wieczorowe jednolite: opłata jednorazowa za rok (wariant A). Raty: 2 raty 13200, 3 raty 13500, 8 rat 14000 zł. Dotyczy osób rozpoczynających studia w 2026/2027."
+   }
+  ],
+  "notes": "Próg 2026 nieopublikowany przez UW. 2023–2025 kolumna I tura."
+ },
+ {
+  "school": "UW — Wydział Prawa i Administracji",
+  "career": "adwokat",
+  "program": "Prawo (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 74.33,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia-osoba_przyjeta_2023-24.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2024,
+     "points": 74.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2024-25.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2025,
+     "points": 74,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2025-26.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/SJ-PR/",
+   "academicYear": "2026/2027",
+   "note": "Zasady w IRK UW PELNE2026 identyczne jak 2025/2026; dopisano tylko ukraiński do listy języków obcych."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "12800 PLN/rok",
+    "amount": 12800,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://monitor.uw.edu.pl/Lists/Uchway/Attachments/7859/M.2026.209.Zarz.78.pdf",
+    "tuitionNote": "Zarządzenie nr 78 Rektora UW z 9.06.2026, prawo, studia niestacjonarne-wieczorowe jednolite: opłata jednorazowa za rok (wariant A). Raty: 2 raty 13200, 3 raty 13500, 8 rat 14000 zł. Dotyczy osób rozpoczynających studia w 2026/2027."
+   }
+  ],
+  "notes": "Próg 2026 nieopublikowany przez UW. 2023–2025 kolumna I tura."
+ },
+ {
+  "school": "UJ — Wydział Prawa i Administracji",
+  "career": "prawnik",
+  "program": "Prawo (jednolite magisterskie, Wydział Prawa i Administracji)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 83.9,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2024,
+     "points": 81,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2025,
+     "points": 82.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/prawo_sjm_P/?from=field:prawo",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "8400 PLN/rok",
+    "amount": 8400,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/prawo_njm_P/",
+    "tuitionNote": "IRK UJ 2026/27: 8 400 zł za każdy rok studiów (I–V)."
+   }
+  ],
+  "notes": "Wiersz sprawdzony: WPiA, studia stacjonarne, poz. 2 „prawo”. Studia niestacjonarne: „nie dotyczy” (brak progu). Zestawienie UJ z rekrutacją 2026 nieopublikowane."
+ },
+ {
+  "school": "UJ — Wydział Prawa i Administracji",
+  "career": "doradca-podatkowy",
+  "program": "Prawo (jednolite magisterskie, Wydział Prawa i Administracji)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 83.9,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2024,
+     "points": 81,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2025,
+     "points": 82.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/prawo_sjm_P/?from=field:prawo",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "8400 PLN/rok",
+    "amount": 8400,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/prawo_njm_P/",
+    "tuitionNote": "IRK UJ 2026/27: 8 400 zł za każdy rok studiów (I–V)."
+   }
+  ],
+  "notes": "Wiersz sprawdzony: WPiA, studia stacjonarne, poz. 2 „prawo”. Studia niestacjonarne: „nie dotyczy” (brak progu). Zestawienie UJ z rekrutacją 2026 nieopublikowane."
+ },
+ {
+  "school": "UJ — Wydział Prawa i Administracji",
+  "career": "sedzia",
+  "program": "Prawo (jednolite magisterskie, Wydział Prawa i Administracji)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 83.9,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2024,
+     "points": 81,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2025,
+     "points": 82.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/prawo_sjm_P/?from=field:prawo",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "8400 PLN/rok",
+    "amount": 8400,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/prawo_njm_P/",
+    "tuitionNote": "IRK UJ 2026/27: 8 400 zł za każdy rok studiów (I–V)."
+   }
+  ],
+  "notes": "Wiersz sprawdzony: WPiA, studia stacjonarne, poz. 2 „prawo”. Studia niestacjonarne: „nie dotyczy” (brak progu). Zestawienie UJ z rekrutacją 2026 nieopublikowane."
+ },
+ {
+  "school": "UJ — Wydział Prawa i Administracji",
+  "career": "prokurator",
+  "program": "Prawo (jednolite magisterskie, Wydział Prawa i Administracji)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 83.9,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2024,
+     "points": 81,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2025,
+     "points": 82.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/prawo_sjm_P/?from=field:prawo",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "8400 PLN/rok",
+    "amount": 8400,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/prawo_njm_P/",
+    "tuitionNote": "IRK UJ 2026/27: 8 400 zł za każdy rok studiów (I–V)."
+   }
+  ],
+  "notes": "Wiersz sprawdzony: WPiA, studia stacjonarne, poz. 2 „prawo”. Studia niestacjonarne: „nie dotyczy” (brak progu). Zestawienie UJ z rekrutacją 2026 nieopublikowane."
+ },
+ {
+  "school": "UJ — Wydział Prawa i Administracji",
+  "career": "notariusz",
+  "program": "Prawo (jednolite magisterskie, Wydział Prawa i Administracji)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 83.9,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2024,
+     "points": 81,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2025,
+     "points": 82.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/prawo_sjm_P/?from=field:prawo",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "8400 PLN/rok",
+    "amount": 8400,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/prawo_njm_P/",
+    "tuitionNote": "IRK UJ 2026/27: 8 400 zł za każdy rok studiów (I–V)."
+   }
+  ],
+  "notes": "Wiersz sprawdzony: WPiA, studia stacjonarne, poz. 2 „prawo”. Studia niestacjonarne: „nie dotyczy” (brak progu). Zestawienie UJ z rekrutacją 2026 nieopublikowane."
+ },
+ {
+  "school": "UJ — Wydział Prawa i Administracji",
+  "career": "komornik",
+  "program": "Prawo (jednolite magisterskie, Wydział Prawa i Administracji)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 83.9,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2024,
+     "points": 81,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2025,
+     "points": 82.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/prawo_sjm_P/?from=field:prawo",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "8400 PLN/rok",
+    "amount": 8400,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/prawo_njm_P/",
+    "tuitionNote": "IRK UJ 2026/27: 8 400 zł za każdy rok studiów (I–V)."
+   }
+  ],
+  "notes": "Wiersz sprawdzony: WPiA, studia stacjonarne, poz. 2 „prawo”. Studia niestacjonarne: „nie dotyczy” (brak progu). Zestawienie UJ z rekrutacją 2026 nieopublikowane."
+ },
+ {
+  "school": "UJ — Wydział Prawa i Administracji",
+  "career": "adwokat",
+  "program": "Prawo (jednolite magisterskie, Wydział Prawa i Administracji)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 83.9,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2024,
+     "points": 81,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2025,
+     "points": 82.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/prawo_sjm_P/?from=field:prawo",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "8400 PLN/rok",
+    "amount": 8400,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/prawo_njm_P/",
+    "tuitionNote": "IRK UJ 2026/27: 8 400 zł za każdy rok studiów (I–V)."
+   }
+  ],
+  "notes": "Wiersz sprawdzony: WPiA, studia stacjonarne, poz. 2 „prawo”. Studia niestacjonarne: „nie dotyczy” (brak progu). Zestawienie UJ z rekrutacją 2026 nieopublikowane."
+ },
+ {
+  "school": "UAM — Wydział Prawa i Administracji",
+  "career": "prawnik",
+  "program": "Prawo (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 77,
+     "scaleMax": 100,
+     "sourceUrl": "https://web.archive.org/web/20240913123724/https://prawo.amu.edu.pl/harmonogram-rekrutacji/",
+     "round": "jedna wartość: „próg punktowy” dla studiów stacjonarnych na stronie WPiA (tura nieokreślona)"
+    },
+    {
+     "year": 2024,
+     "points": 76.4,
+     "scaleMax": 100,
+     "sourceUrl": "https://web.archive.org/web/20250515065749/https://prawo.amu.edu.pl/harmonogram-rekrutacji/",
+     "round": "jedna wartość: „próg punktowy” dla studiów stacjonarnych na stronie WPiA (tura nieokreślona)"
+    },
+    {
+     "year": 2025,
+     "points": 79.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://web.archive.org/web/20251116160609/https://prawo.amu.edu.pl/harmonogram-rekrutacji/",
+     "round": "jedna wartość: „próg punktowy” dla studiów stacjonarnych na stronie WPiA (tura nieokreślona)"
+    },
+    {
+     "year": 2026,
+     "points": 83.6,
+     "scaleMax": 100,
+     "sourceUrl": "https://prawo.amu.edu.pl/harmonogram-rekrutacji/",
+     "round": "jedna wartość: „próg punktowy” dla studiów stacjonarnych na stronie WPiA (tura nieokreślona); „Rekrutacja 2026/2027”"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.amu.edu.pl/kierunki-studiow/prawo,374",
+   "academicYear": "2026/2027",
+   "note": "SIR UAM 2026/2027: język polski (P/R), język obcy nowożytny (P/R), historia/matematyka/WOS (P/R), jak w danych. Podstawa: Uchwała Senatu UAM nr 535/2023/2024 ze zm."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "3000 PLN/semestr",
+    "amount": 3000,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://rekrutacja.amu.edu.pl/kierunki-studiow/prawo,375",
+    "tuitionNote": "Kwota dotyczy I roku studiów („opłata semestralna za I rok”); możliwe 4 raty po 750 zł."
+   }
+  ],
+  "notes": "2025 potwierdzono w kopii archiwalnej z 16.11.2025. Na niestacjonarne przyjmuje się według kolejności złożenia dokumentów do wypełnienia limitu, więc progu nie ma."
+ },
+ {
+  "school": "UAM — Wydział Prawa i Administracji",
+  "career": "sedzia",
+  "program": "Prawo (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 77,
+     "scaleMax": 100,
+     "sourceUrl": "https://web.archive.org/web/20240913123724/https://prawo.amu.edu.pl/harmonogram-rekrutacji/",
+     "round": "jedna wartość: „próg punktowy” dla studiów stacjonarnych na stronie WPiA (tura nieokreślona)"
+    },
+    {
+     "year": 2024,
+     "points": 76.4,
+     "scaleMax": 100,
+     "sourceUrl": "https://web.archive.org/web/20250515065749/https://prawo.amu.edu.pl/harmonogram-rekrutacji/",
+     "round": "jedna wartość: „próg punktowy” dla studiów stacjonarnych na stronie WPiA (tura nieokreślona)"
+    },
+    {
+     "year": 2025,
+     "points": 79.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://web.archive.org/web/20251116160609/https://prawo.amu.edu.pl/harmonogram-rekrutacji/",
+     "round": "jedna wartość: „próg punktowy” dla studiów stacjonarnych na stronie WPiA (tura nieokreślona)"
+    },
+    {
+     "year": 2026,
+     "points": 83.6,
+     "scaleMax": 100,
+     "sourceUrl": "https://prawo.amu.edu.pl/harmonogram-rekrutacji/",
+     "round": "jedna wartość: „próg punktowy” dla studiów stacjonarnych na stronie WPiA (tura nieokreślona); „Rekrutacja 2026/2027”"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "added",
+  "rowFix": "Entry nie miało progów, choć dotyczy tego samego kierunku co „prawnik” (Prawo, WPiA UAM, stacjonarne). Uzupełniono pełną listę 2023–2026.",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.amu.edu.pl/kierunki-studiow/prawo,374",
+   "academicYear": "2026/2027",
+   "note": "SIR UAM 2026/2027: język polski (P/R), język obcy nowożytny (P/R), historia/matematyka/WOS (P/R), jak w danych. Podstawa: Uchwała Senatu UAM nr 535/2023/2024 ze zm."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "3000 PLN/semestr",
+    "amount": 3000,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://rekrutacja.amu.edu.pl/kierunki-studiow/prawo,375",
+    "tuitionNote": "Kwota dotyczy I roku studiów („opłata semestralna za I rok”); możliwe 4 raty po 750 zł."
+   }
+  ],
+  "notes": "2025 potwierdzono w kopii archiwalnej z 16.11.2025. Na niestacjonarne przyjmuje się według kolejności złożenia dokumentów do wypełnienia limitu, więc progu nie ma."
+ },
+ {
+  "school": "UAM — Wydział Prawa i Administracji",
+  "career": "notariusz",
+  "program": "Prawo (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 77,
+     "scaleMax": 100,
+     "sourceUrl": "https://web.archive.org/web/20240913123724/https://prawo.amu.edu.pl/harmonogram-rekrutacji/",
+     "round": "jedna wartość: „próg punktowy” dla studiów stacjonarnych na stronie WPiA (tura nieokreślona)"
+    },
+    {
+     "year": 2024,
+     "points": 76.4,
+     "scaleMax": 100,
+     "sourceUrl": "https://web.archive.org/web/20250515065749/https://prawo.amu.edu.pl/harmonogram-rekrutacji/",
+     "round": "jedna wartość: „próg punktowy” dla studiów stacjonarnych na stronie WPiA (tura nieokreślona)"
+    },
+    {
+     "year": 2025,
+     "points": 79.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://web.archive.org/web/20251116160609/https://prawo.amu.edu.pl/harmonogram-rekrutacji/",
+     "round": "jedna wartość: „próg punktowy” dla studiów stacjonarnych na stronie WPiA (tura nieokreślona)"
+    },
+    {
+     "year": 2026,
+     "points": 83.6,
+     "scaleMax": 100,
+     "sourceUrl": "https://prawo.amu.edu.pl/harmonogram-rekrutacji/",
+     "round": "jedna wartość: „próg punktowy” dla studiów stacjonarnych na stronie WPiA (tura nieokreślona); „Rekrutacja 2026/2027”"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "added",
+  "rowFix": "Entry nie miało progów, choć dotyczy tego samego kierunku co „prawnik” (Prawo, WPiA UAM, stacjonarne). Uzupełniono pełną listę 2023–2026.",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.amu.edu.pl/kierunki-studiow/prawo,374",
+   "academicYear": "2026/2027",
+   "note": "SIR UAM 2026/2027: język polski (P/R), język obcy nowożytny (P/R), historia/matematyka/WOS (P/R), jak w danych. Podstawa: Uchwała Senatu UAM nr 535/2023/2024 ze zm."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "3000 PLN/semestr",
+    "amount": 3000,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://rekrutacja.amu.edu.pl/kierunki-studiow/prawo,375",
+    "tuitionNote": "Kwota dotyczy I roku studiów („opłata semestralna za I rok”); możliwe 4 raty po 750 zł."
+   }
+  ],
+  "notes": "2025 potwierdzono w kopii archiwalnej z 16.11.2025. Na niestacjonarne przyjmuje się według kolejności złożenia dokumentów do wypełnienia limitu, więc progu nie ma."
+ },
+ {
+  "school": "UAM — Wydział Prawa i Administracji",
+  "career": "adwokat",
+  "program": "Prawo (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 77,
+     "scaleMax": 100,
+     "sourceUrl": "https://web.archive.org/web/20240913123724/https://prawo.amu.edu.pl/harmonogram-rekrutacji/",
+     "round": "jedna wartość: „próg punktowy” dla studiów stacjonarnych na stronie WPiA (tura nieokreślona)"
+    },
+    {
+     "year": 2024,
+     "points": 76.4,
+     "scaleMax": 100,
+     "sourceUrl": "https://web.archive.org/web/20250515065749/https://prawo.amu.edu.pl/harmonogram-rekrutacji/",
+     "round": "jedna wartość: „próg punktowy” dla studiów stacjonarnych na stronie WPiA (tura nieokreślona)"
+    },
+    {
+     "year": 2025,
+     "points": 79.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://web.archive.org/web/20251116160609/https://prawo.amu.edu.pl/harmonogram-rekrutacji/",
+     "round": "jedna wartość: „próg punktowy” dla studiów stacjonarnych na stronie WPiA (tura nieokreślona)"
+    },
+    {
+     "year": 2026,
+     "points": 83.6,
+     "scaleMax": 100,
+     "sourceUrl": "https://prawo.amu.edu.pl/harmonogram-rekrutacji/",
+     "round": "jedna wartość: „próg punktowy” dla studiów stacjonarnych na stronie WPiA (tura nieokreślona); „Rekrutacja 2026/2027”"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "added",
+  "rowFix": "Entry nie miało progów, choć dotyczy tego samego kierunku co „prawnik” (Prawo, WPiA UAM, stacjonarne). Uzupełniono pełną listę 2023–2026.",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.amu.edu.pl/kierunki-studiow/prawo,374",
+   "academicYear": "2026/2027",
+   "note": "SIR UAM 2026/2027: język polski (P/R), język obcy nowożytny (P/R), historia/matematyka/WOS (P/R), jak w danych. Podstawa: Uchwała Senatu UAM nr 535/2023/2024 ze zm."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "3000 PLN/semestr",
+    "amount": 3000,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://rekrutacja.amu.edu.pl/kierunki-studiow/prawo,375",
+    "tuitionNote": "Kwota dotyczy I roku studiów („opłata semestralna za I rok”); możliwe 4 raty po 750 zł."
+   }
+  ],
+  "notes": "2025 potwierdzono w kopii archiwalnej z 16.11.2025. Na niestacjonarne przyjmuje się według kolejności złożenia dokumentów do wypełnienia limitu, więc progu nie ma."
+ },
+ {
+  "school": "SGH — Szkoła Główna Handlowa",
+  "career": "analityk-danych",
+  "program": "Metody ilościowe w ekonomii i systemy informacyjne",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 316,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 306 pkt"
+    },
+    {
+     "year": 2024,
+     "points": 308,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 296 pkt"
+    },
+    {
+     "year": 2025,
+     "points": 325,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 316 pkt"
+    },
+    {
+     "year": 2026,
+     "points": 340,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 336 pkt"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "added",
+  "rowFix": "Wiersz poprawny (SGH publikuje jeden próg dla całej rekrutacji na studia licencjackie stacjonarne, bez podziału na kierunki — identyczne progi dla wszystkich kierunków są zgodne ze źródłem). Zmiana wartości 2023–2025 wyłącznie z powodu konwencji tur: dane wejściowe zawierały progi końcowe (306/296/316), tu pierwszy ranking (316/308/325).",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://web.archive.org/web/20260513130112/https://www.sgh.waw.pl/przeliczanie-punktow-z-matury",
+   "academicYear": "2026/2027",
+   "note": "Kopia strony z 13.05.2026 (w trakcie rekrutacji 2026/27) identyczna co do kategorii z wersją 2025/26: kat. I matematyka albo fizyka (R), kat. II fizyka/informatyka/geografia/historia/WOS (R), kat. III język obcy (R), kat. IV drugi język obcy (P lub R), max 333 pkt z matury + test SGH na stacjonarne. UWAGA: bieżąca wersja strony (stan 1.10.2026, prawdopodobnie już na 2027/28) zmienia kat. I na samą matematykę i dodaje „biznes i zarządzanie” do kat. II — nie dotyczy rekrutacji 2026/27, do sprawdzenia przy następnej aktualizacji."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.sgh.waw.pl/oplaty-za-studia-licencjackie",
+    "tuitionNote": "studia bezpłatne dla obywateli polskich"
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "5700 PLN/semestr",
+    "amount": 5700,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.sgh.waw.pl/oplaty-za-studia-licencjackie",
+    "tuitionNote": "5700 PLN przy płatności jednorazowej za semestr; 5900 PLN za semestr przy 5 ratach po 1180 PLN. Zarządzenie nr 15 Rektora SGH z 12.03.2026 (studenci rozpoczynający studia w 2026/2027). Poprzednio 5500 PLN/semestr."
+   }
+  ],
+  "notes": "Rekrutacja na SGH jest wspólna dla studiów licencjackich — kierunek wybiera się w trakcie studiów, więc próg nie jest progiem konkretnego kierunku. Skala 433 = 333 z matury + 100 z testu SGH (tylko stacjonarne). Progów dla niestacjonarnych SGH nie publikuje („zazwyczaj niższe”)."
+ },
+ {
+  "school": "SGH — Szkoła Główna Handlowa",
+  "career": "ksiegowy",
+  "program": "Finanse i rachunkowość",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 316,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 306 pkt"
+    },
+    {
+     "year": 2024,
+     "points": 308,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 296 pkt"
+    },
+    {
+     "year": 2025,
+     "points": 325,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 316 pkt"
+    },
+    {
+     "year": 2026,
+     "points": 340,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 336 pkt"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "added",
+  "rowFix": "Wiersz poprawny (SGH publikuje jeden próg dla całej rekrutacji na studia licencjackie stacjonarne, bez podziału na kierunki — identyczne progi dla wszystkich kierunków są zgodne ze źródłem). Zmiana wartości 2023–2025 wyłącznie z powodu konwencji tur: dane wejściowe zawierały progi końcowe (306/296/316), tu pierwszy ranking (316/308/325).",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://web.archive.org/web/20260513130112/https://www.sgh.waw.pl/przeliczanie-punktow-z-matury",
+   "academicYear": "2026/2027",
+   "note": "Kopia strony z 13.05.2026 (w trakcie rekrutacji 2026/27) identyczna co do kategorii z wersją 2025/26: kat. I matematyka albo fizyka (R), kat. II fizyka/informatyka/geografia/historia/WOS (R), kat. III język obcy (R), kat. IV drugi język obcy (P lub R), max 333 pkt z matury + test SGH na stacjonarne. UWAGA: bieżąca wersja strony (stan 1.10.2026, prawdopodobnie już na 2027/28) zmienia kat. I na samą matematykę i dodaje „biznes i zarządzanie” do kat. II — nie dotyczy rekrutacji 2026/27, do sprawdzenia przy następnej aktualizacji."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.sgh.waw.pl/oplaty-za-studia-licencjackie",
+    "tuitionNote": "studia bezpłatne dla obywateli polskich"
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "5700 PLN/semestr",
+    "amount": 5700,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.sgh.waw.pl/oplaty-za-studia-licencjackie",
+    "tuitionNote": "5700 PLN przy płatności jednorazowej za semestr; 5900 PLN za semestr przy 5 ratach po 1180 PLN. Zarządzenie nr 15 Rektora SGH z 12.03.2026 (studenci rozpoczynający studia w 2026/2027). Poprzednio 5500 PLN/semestr."
+   }
+  ],
+  "notes": "Rekrutacja na SGH jest wspólna dla studiów licencjackich — kierunek wybiera się w trakcie studiów, więc próg nie jest progiem konkretnego kierunku. Skala 433 = 333 z matury + 100 z testu SGH (tylko stacjonarne). Progów dla niestacjonarnych SGH nie publikuje („zazwyczaj niższe”)."
+ },
+ {
+  "school": "SGH — Szkoła Główna Handlowa",
+  "career": "ekonomista",
+  "program": "Ekonomia stosowana",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 316,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 306 pkt"
+    },
+    {
+     "year": 2024,
+     "points": 308,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 296 pkt"
+    },
+    {
+     "year": 2025,
+     "points": 325,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 316 pkt"
+    },
+    {
+     "year": 2026,
+     "points": 340,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 336 pkt"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "added",
+  "rowFix": "Wiersz poprawny (SGH publikuje jeden próg dla całej rekrutacji na studia licencjackie stacjonarne, bez podziału na kierunki — identyczne progi dla wszystkich kierunków są zgodne ze źródłem). Zmiana wartości 2023–2025 wyłącznie z powodu konwencji tur: dane wejściowe zawierały progi końcowe (306/296/316), tu pierwszy ranking (316/308/325).",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://web.archive.org/web/20260513130112/https://www.sgh.waw.pl/przeliczanie-punktow-z-matury",
+   "academicYear": "2026/2027",
+   "note": "Kopia strony z 13.05.2026 (w trakcie rekrutacji 2026/27) identyczna co do kategorii z wersją 2025/26: kat. I matematyka albo fizyka (R), kat. II fizyka/informatyka/geografia/historia/WOS (R), kat. III język obcy (R), kat. IV drugi język obcy (P lub R), max 333 pkt z matury + test SGH na stacjonarne. UWAGA: bieżąca wersja strony (stan 1.10.2026, prawdopodobnie już na 2027/28) zmienia kat. I na samą matematykę i dodaje „biznes i zarządzanie” do kat. II — nie dotyczy rekrutacji 2026/27, do sprawdzenia przy następnej aktualizacji."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.sgh.waw.pl/oplaty-za-studia-licencjackie",
+    "tuitionNote": "studia bezpłatne dla obywateli polskich"
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "5700 PLN/semestr",
+    "amount": 5700,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.sgh.waw.pl/oplaty-za-studia-licencjackie",
+    "tuitionNote": "5700 PLN przy płatności jednorazowej za semestr; 5900 PLN za semestr przy 5 ratach po 1180 PLN. Zarządzenie nr 15 Rektora SGH z 12.03.2026 (studenci rozpoczynający studia w 2026/2027). Poprzednio 5500 PLN/semestr."
+   }
+  ],
+  "notes": "Rekrutacja na SGH jest wspólna dla studiów licencjackich — kierunek wybiera się w trakcie studiów, więc próg nie jest progiem konkretnego kierunku. Skala 433 = 333 z matury + 100 z testu SGH (tylko stacjonarne). Progów dla niestacjonarnych SGH nie publikuje („zazwyczaj niższe”)."
+ },
+ {
+  "school": "SGH — Szkoła Główna Handlowa",
+  "career": "doradca-finansowy",
+  "program": "Finanse i rachunkowość",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 316,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 306 pkt"
+    },
+    {
+     "year": 2024,
+     "points": 308,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 296 pkt"
+    },
+    {
+     "year": 2025,
+     "points": 325,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 316 pkt"
+    },
+    {
+     "year": 2026,
+     "points": 340,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 336 pkt"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "added",
+  "rowFix": "Wiersz poprawny (SGH publikuje jeden próg dla całej rekrutacji na studia licencjackie stacjonarne, bez podziału na kierunki — identyczne progi dla wszystkich kierunków są zgodne ze źródłem). Zmiana wartości 2023–2025 wyłącznie z powodu konwencji tur: dane wejściowe zawierały progi końcowe (306/296/316), tu pierwszy ranking (316/308/325).",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://web.archive.org/web/20260513130112/https://www.sgh.waw.pl/przeliczanie-punktow-z-matury",
+   "academicYear": "2026/2027",
+   "note": "Kopia strony z 13.05.2026 (w trakcie rekrutacji 2026/27) identyczna co do kategorii z wersją 2025/26: kat. I matematyka albo fizyka (R), kat. II fizyka/informatyka/geografia/historia/WOS (R), kat. III język obcy (R), kat. IV drugi język obcy (P lub R), max 333 pkt z matury + test SGH na stacjonarne. UWAGA: bieżąca wersja strony (stan 1.10.2026, prawdopodobnie już na 2027/28) zmienia kat. I na samą matematykę i dodaje „biznes i zarządzanie” do kat. II — nie dotyczy rekrutacji 2026/27, do sprawdzenia przy następnej aktualizacji."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.sgh.waw.pl/oplaty-za-studia-licencjackie",
+    "tuitionNote": "studia bezpłatne dla obywateli polskich"
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "5700 PLN/semestr",
+    "amount": 5700,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.sgh.waw.pl/oplaty-za-studia-licencjackie",
+    "tuitionNote": "5700 PLN przy płatności jednorazowej za semestr; 5900 PLN za semestr przy 5 ratach po 1180 PLN. Zarządzenie nr 15 Rektora SGH z 12.03.2026 (studenci rozpoczynający studia w 2026/2027). Poprzednio 5500 PLN/semestr."
+   }
+  ],
+  "notes": "Rekrutacja na SGH jest wspólna dla studiów licencjackich — kierunek wybiera się w trakcie studiów, więc próg nie jest progiem konkretnego kierunku. Skala 433 = 333 z matury + 100 z testu SGH (tylko stacjonarne). Progów dla niestacjonarnych SGH nie publikuje („zazwyczaj niższe”)."
+ },
+ {
+  "school": "SGH — Szkoła Główna Handlowa",
+  "career": "specjalista-marketingu",
+  "program": "Zarządzanie",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 316,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 306 pkt"
+    },
+    {
+     "year": 2024,
+     "points": 308,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 296 pkt"
+    },
+    {
+     "year": 2025,
+     "points": 325,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 316 pkt"
+    },
+    {
+     "year": 2026,
+     "points": 340,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 336 pkt"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "added",
+  "rowFix": "Wiersz poprawny (SGH publikuje jeden próg dla całej rekrutacji na studia licencjackie stacjonarne, bez podziału na kierunki — identyczne progi dla wszystkich kierunków są zgodne ze źródłem). Zmiana wartości 2023–2025 wyłącznie z powodu konwencji tur: dane wejściowe zawierały progi końcowe (306/296/316), tu pierwszy ranking (316/308/325).",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://web.archive.org/web/20260513130112/https://www.sgh.waw.pl/przeliczanie-punktow-z-matury",
+   "academicYear": "2026/2027",
+   "note": "Kopia strony z 13.05.2026 (w trakcie rekrutacji 2026/27) identyczna co do kategorii z wersją 2025/26: kat. I matematyka albo fizyka (R), kat. II fizyka/informatyka/geografia/historia/WOS (R), kat. III język obcy (R), kat. IV drugi język obcy (P lub R), max 333 pkt z matury + test SGH na stacjonarne. UWAGA: bieżąca wersja strony (stan 1.10.2026, prawdopodobnie już na 2027/28) zmienia kat. I na samą matematykę i dodaje „biznes i zarządzanie” do kat. II — nie dotyczy rekrutacji 2026/27, do sprawdzenia przy następnej aktualizacji."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.sgh.waw.pl/oplaty-za-studia-licencjackie",
+    "tuitionNote": "studia bezpłatne dla obywateli polskich"
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "5700 PLN/semestr",
+    "amount": 5700,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.sgh.waw.pl/oplaty-za-studia-licencjackie",
+    "tuitionNote": "5700 PLN przy płatności jednorazowej za semestr; 5900 PLN za semestr przy 5 ratach po 1180 PLN. Zarządzenie nr 15 Rektora SGH z 12.03.2026 (studenci rozpoczynający studia w 2026/2027). Poprzednio 5500 PLN/semestr."
+   }
+  ],
+  "notes": "Rekrutacja na SGH jest wspólna dla studiów licencjackich — kierunek wybiera się w trakcie studiów, więc próg nie jest progiem konkretnego kierunku. Skala 433 = 333 z matury + 100 z testu SGH (tylko stacjonarne). Progów dla niestacjonarnych SGH nie publikuje („zazwyczaj niższe”)."
+ },
+ {
+  "school": "SGH — Szkoła Główna Handlowa",
+  "career": "doradca-podatkowy",
+  "program": "Finanse i rachunkowość",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 316,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 306 pkt"
+    },
+    {
+     "year": 2024,
+     "points": 308,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 296 pkt"
+    },
+    {
+     "year": 2025,
+     "points": 325,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 316 pkt"
+    },
+    {
+     "year": 2026,
+     "points": 340,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 336 pkt"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "added",
+  "rowFix": "Wiersz poprawny (SGH publikuje jeden próg dla całej rekrutacji na studia licencjackie stacjonarne, bez podziału na kierunki — identyczne progi dla wszystkich kierunków są zgodne ze źródłem). Zmiana wartości 2023–2025 wyłącznie z powodu konwencji tur: dane wejściowe zawierały progi końcowe (306/296/316), tu pierwszy ranking (316/308/325).",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://web.archive.org/web/20260513130112/https://www.sgh.waw.pl/przeliczanie-punktow-z-matury",
+   "academicYear": "2026/2027",
+   "note": "Kopia strony z 13.05.2026 (w trakcie rekrutacji 2026/27) identyczna co do kategorii z wersją 2025/26: kat. I matematyka albo fizyka (R), kat. II fizyka/informatyka/geografia/historia/WOS (R), kat. III język obcy (R), kat. IV drugi język obcy (P lub R), max 333 pkt z matury + test SGH na stacjonarne. UWAGA: bieżąca wersja strony (stan 1.10.2026, prawdopodobnie już na 2027/28) zmienia kat. I na samą matematykę i dodaje „biznes i zarządzanie” do kat. II — nie dotyczy rekrutacji 2026/27, do sprawdzenia przy następnej aktualizacji."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.sgh.waw.pl/oplaty-za-studia-licencjackie",
+    "tuitionNote": "studia bezpłatne dla obywateli polskich"
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "5700 PLN/semestr",
+    "amount": 5700,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.sgh.waw.pl/oplaty-za-studia-licencjackie",
+    "tuitionNote": "5700 PLN przy płatności jednorazowej za semestr; 5900 PLN za semestr przy 5 ratach po 1180 PLN. Zarządzenie nr 15 Rektora SGH z 12.03.2026 (studenci rozpoczynający studia w 2026/2027). Poprzednio 5500 PLN/semestr."
+   }
+  ],
+  "notes": "Rekrutacja na SGH jest wspólna dla studiów licencjackich — kierunek wybiera się w trakcie studiów, więc próg nie jest progiem konkretnego kierunku. Skala 433 = 333 z matury + 100 z testu SGH (tylko stacjonarne). Progów dla niestacjonarnych SGH nie publikuje („zazwyczaj niższe”)."
+ },
+ {
+  "school": "SGH — Szkoła Główna Handlowa",
+  "career": "biegly-rewident",
+  "program": "Finanse i rachunkowość",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 316,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 306 pkt"
+    },
+    {
+     "year": 2024,
+     "points": 308,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 296 pkt"
+    },
+    {
+     "year": 2025,
+     "points": 325,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 316 pkt"
+    },
+    {
+     "year": 2026,
+     "points": 340,
+     "scaleMax": 433,
+     "sourceUrl": "https://www.sgh.waw.pl/archiwalne-progi-punktowe-na-studia-licencjackie",
+     "round": "pierwszy ranking (obywatele polscy); próg końcowy po wszystkich rankingach: 336 pkt"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "added",
+  "rowFix": "Wiersz poprawny (SGH publikuje jeden próg dla całej rekrutacji na studia licencjackie stacjonarne, bez podziału na kierunki — identyczne progi dla wszystkich kierunków są zgodne ze źródłem). Zmiana wartości 2023–2025 wyłącznie z powodu konwencji tur: dane wejściowe zawierały progi końcowe (306/296/316), tu pierwszy ranking (316/308/325).",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://web.archive.org/web/20260513130112/https://www.sgh.waw.pl/przeliczanie-punktow-z-matury",
+   "academicYear": "2026/2027",
+   "note": "Kopia strony z 13.05.2026 (w trakcie rekrutacji 2026/27) identyczna co do kategorii z wersją 2025/26: kat. I matematyka albo fizyka (R), kat. II fizyka/informatyka/geografia/historia/WOS (R), kat. III język obcy (R), kat. IV drugi język obcy (P lub R), max 333 pkt z matury + test SGH na stacjonarne. UWAGA: bieżąca wersja strony (stan 1.10.2026, prawdopodobnie już na 2027/28) zmienia kat. I na samą matematykę i dodaje „biznes i zarządzanie” do kat. II — nie dotyczy rekrutacji 2026/27, do sprawdzenia przy następnej aktualizacji."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.sgh.waw.pl/oplaty-za-studia-licencjackie",
+    "tuitionNote": "studia bezpłatne dla obywateli polskich"
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "5700 PLN/semestr",
+    "amount": 5700,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.sgh.waw.pl/oplaty-za-studia-licencjackie",
+    "tuitionNote": "5700 PLN przy płatności jednorazowej za semestr; 5900 PLN za semestr przy 5 ratach po 1180 PLN. Zarządzenie nr 15 Rektora SGH z 12.03.2026 (studenci rozpoczynający studia w 2026/2027). Poprzednio 5500 PLN/semestr."
+   }
+  ],
+  "notes": "Rekrutacja na SGH jest wspólna dla studiów licencjackich — kierunek wybiera się w trakcie studiów, więc próg nie jest progiem konkretnego kierunku. Skala 433 = 333 z matury + 100 z testu SGH (tylko stacjonarne). Progów dla niestacjonarnych SGH nie publikuje („zazwyczaj niższe”)."
+ },
+ {
+  "school": "UW — Wydział Nauk Ekonomicznych",
+  "career": "analityk-danych",
+  "program": "Ekonometria i Data Science (wspólna rekrutacja: Ekonomia; Finanse i rachunkowość; Ekonometria i Data Science, I stopień)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 82.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia-osoba_przyjeta_2023-24.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2024,
+     "points": 73.89,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2024-25.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2025,
+     "points": 75,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2025-26.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/S1-EK/",
+   "academicYear": "2026/2027",
+   "note": "Wspólna rekrutacja na ekonomię, finanse i rachunkowość oraz ekonometrię i Data Science: polski P/R 5%, matematyka R 75%, język obcy P/R 20%, próg 50 pkt. Bez zmian, dopisano tylko ukraiński do listy języków."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "10900 PLN/rok",
+    "amount": 10900,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://monitor.uw.edu.pl/Lists/Uchway/Attachments/7859/M.2026.209.Zarz.78.pdf",
+    "tuitionNote": "Zarządzenie nr 78 Rektora UW z 9.06.2026, poz. 36 (pierwszy rok wspólny: ekonometria i DS, ekonomia, FiR), studia niestacjonarne I stopnia: opłata jednorazowa za rok. 2 raty 11200, 10 rat 11500 zł. Dotyczy rozpoczynających studia w 2026/2027."
+   }
+  ],
+  "notes": "Wiersz UW: „Ekonomia; finanse i rachunkowość; informatyka i ekonometria” (2023–2024) / „…ekonometria i Data Science” (2025), kolumna I tura. Próg 2026 nieopublikowany."
+ },
+ {
+  "school": "UW — Wydział Nauk Ekonomicznych",
+  "career": "ekonomista",
+  "program": "Ekonomia (wspólna rekrutacja: Ekonomia; Finanse i rachunkowość; Ekonometria i Data Science, I stopień)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 82.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia-osoba_przyjeta_2023-24.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2024,
+     "points": 73.89,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2024-25.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2025,
+     "points": 75,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2025-26.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/S1-EK/",
+   "academicYear": "2026/2027",
+   "note": "Wspólna rekrutacja na ekonomię, finanse i rachunkowość oraz ekonometrię i Data Science: polski P/R 5%, matematyka R 75%, język obcy P/R 20%, próg 50 pkt. Bez zmian, dopisano tylko ukraiński do listy języków."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "10900 PLN/rok",
+    "amount": 10900,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://monitor.uw.edu.pl/Lists/Uchway/Attachments/7859/M.2026.209.Zarz.78.pdf",
+    "tuitionNote": "Zarządzenie nr 78 Rektora UW z 9.06.2026, poz. 36 (pierwszy rok wspólny: ekonometria i DS, ekonomia, FiR), studia niestacjonarne I stopnia: opłata jednorazowa za rok. 2 raty 11200, 10 rat 11500 zł. Dotyczy rozpoczynających studia w 2026/2027."
+   }
+  ],
+  "notes": "Wiersz UW: „Ekonomia; finanse i rachunkowość; informatyka i ekonometria” (2023–2024) / „…ekonometria i Data Science” (2025), kolumna I tura. Próg 2026 nieopublikowany."
+ },
+ {
+  "school": "UEK — Uniwersytet Ekonomiczny",
+  "career": "analityk-danych",
+  "program": "Analityka gospodarcza",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 120.4,
+     "scaleMax": 200,
+     "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2023/07/Stat_1st_stac_23_pl.pdf",
+     "round": "jedna wartość: „Przyjęci od liczby pkt.” w lipcowej statystyce rekrutacji (Polacy, studia stacjonarne); UEK nie publikuje progów per tura"
+    },
+    {
+     "year": 2024,
+     "points": 143.2,
+     "scaleMax": 200,
+     "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2024/07/Statystyka-Polacy.pdf",
+     "round": "jedna wartość: „Przyjęci od liczby pkt.” w lipcowej statystyce rekrutacji (Polacy, studia stacjonarne); UEK nie publikuje progów per tura"
+    },
+    {
+     "year": 2025,
+     "points": 146.2,
+     "scaleMax": 200,
+     "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2025/07/statystyka_Polacy_25_26.pdf",
+     "round": "jedna wartość: „Przyjęci od liczby pkt.” w lipcowej statystyce rekrutacji (Polacy, studia stacjonarne); UEK nie publikuje progów per tura"
+    },
+    {
+     "year": 2026,
+     "points": 161,
+     "scaleMax": 200,
+     "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2026/07/Statystyki_Polacy_2026_27.pdf",
+     "round": "jedna wartość: „Przyjęci od liczby pkt.” w lipcowej statystyce rekrutacji (Polacy, studia stacjonarne); UEK nie publikuje progów per tura"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2026/06/Tabelka-z-przedmiotami-2026_27-1.pdf",
+   "academicYear": "2026/2027",
+   "note": "Tabela przedmiotów 2026/27: przedmiot pierwszy matematyka (P lub R); drugi do wyboru: chemia, fizyka, geografia, historia, informatyka, język obcy, WOS (P lub R) — bez zmian względem danych."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "3800 PLN/semestr",
+    "amount": 3800,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://studiuj.uek.krakow.pl/rekrutacja/oplaty-studia-stacjonarne-i-niestacjonarne-1-stopnia-oraz-jednolite-magisterskie/",
+    "tuitionNote": "„W roku akademickim 2026/27 opłata za jeden semestr studiów wynosi 3800 zł na wszystkich kierunkach” (Zarządzenie Rektora UEK nr R.0211.15.2026 z 23.03.2026). Poprzednio 3700 PLN/semestr."
+   }
+  ],
+  "notes": "Wiersze 2023–2025 zgodne ze źródłami. Statystyka 2026/27 opublikowana 15.07.2026."
+ },
+ {
+  "school": "UEK — Uniwersytet Ekonomiczny",
+  "career": "ksiegowy",
+  "program": "Finanse i rachunkowość",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 142.2,
+     "scaleMax": 200,
+     "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2023/07/Stat_1st_stac_23_pl.pdf",
+     "round": "jedna wartość: „Przyjęci od liczby pkt.” w lipcowej statystyce rekrutacji (Polacy, studia stacjonarne); UEK nie publikuje progów per tura"
+    },
+    {
+     "year": 2024,
+     "points": 139.8,
+     "scaleMax": 200,
+     "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2024/07/Statystyka-Polacy.pdf",
+     "round": "jedna wartość: „Przyjęci od liczby pkt.” w lipcowej statystyce rekrutacji (Polacy, studia stacjonarne); UEK nie publikuje progów per tura"
+    },
+    {
+     "year": 2025,
+     "points": 149.2,
+     "scaleMax": 200,
+     "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2025/07/statystyka_Polacy_25_26.pdf",
+     "round": "jedna wartość: „Przyjęci od liczby pkt.” w lipcowej statystyce rekrutacji (Polacy, studia stacjonarne); UEK nie publikuje progów per tura"
+    },
+    {
+     "year": 2026,
+     "points": 154.2,
+     "scaleMax": 200,
+     "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2026/07/Statystyki_Polacy_2026_27.pdf",
+     "round": "jedna wartość: „Przyjęci od liczby pkt.” w lipcowej statystyce rekrutacji (Polacy, studia stacjonarne); UEK nie publikuje progów per tura"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2026/06/Tabelka-z-przedmiotami-2026_27-1.pdf",
+   "academicYear": "2026/2027",
+   "note": "Tabela przedmiotów 2026/27: przedmiot pierwszy matematyka (P lub R); drugi do wyboru: fizyka, geografia, historia, informatyka, język obcy, język polski, WOS (P lub R) — bez zmian względem danych."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "3800 PLN/semestr",
+    "amount": 3800,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://studiuj.uek.krakow.pl/rekrutacja/oplaty-studia-stacjonarne-i-niestacjonarne-1-stopnia-oraz-jednolite-magisterskie/",
+    "tuitionNote": "„W roku akademickim 2026/27 opłata za jeden semestr studiów wynosi 3800 zł na wszystkich kierunkach” (Zarządzenie Rektora UEK nr R.0211.15.2026 z 23.03.2026). Poprzednio 3700 PLN/semestr."
+   }
+  ],
+  "notes": "Wiersze 2023–2025 zgodne ze źródłami. Statystyka 2026/27 opublikowana 15.07.2026."
+ },
+ {
+  "school": "UEK — Uniwersytet Ekonomiczny",
+  "career": "ekonomista",
+  "program": "Ekonomia",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 136.4,
+     "scaleMax": 200,
+     "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2023/07/Stat_1st_stac_23_pl.pdf",
+     "round": "jedna wartość: „Przyjęci od liczby pkt.” w lipcowej statystyce rekrutacji (Polacy, studia stacjonarne); UEK nie publikuje progów per tura"
+    },
+    {
+     "year": 2024,
+     "points": 140.6,
+     "scaleMax": 200,
+     "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2024/07/Statystyka-Polacy.pdf",
+     "round": "jedna wartość: „Przyjęci od liczby pkt.” w lipcowej statystyce rekrutacji (Polacy, studia stacjonarne); UEK nie publikuje progów per tura"
+    },
+    {
+     "year": 2025,
+     "points": 147.8,
+     "scaleMax": 200,
+     "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2025/07/statystyka_Polacy_25_26.pdf",
+     "round": "jedna wartość: „Przyjęci od liczby pkt.” w lipcowej statystyce rekrutacji (Polacy, studia stacjonarne); UEK nie publikuje progów per tura"
+    },
+    {
+     "year": 2026,
+     "points": 152.2,
+     "scaleMax": 200,
+     "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2026/07/Statystyki_Polacy_2026_27.pdf",
+     "round": "jedna wartość: „Przyjęci od liczby pkt.” w lipcowej statystyce rekrutacji (Polacy, studia stacjonarne); UEK nie publikuje progów per tura"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2026/06/Tabelka-z-przedmiotami-2026_27-1.pdf",
+   "academicYear": "2026/2027",
+   "note": "Tabela przedmiotów 2026/27: przedmiot pierwszy matematyka (P lub R); drugi do wyboru: fizyka, geografia, historia, informatyka, język obcy, język polski, WOS (P lub R) — bez zmian względem danych."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "3800 PLN/semestr",
+    "amount": 3800,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://studiuj.uek.krakow.pl/rekrutacja/oplaty-studia-stacjonarne-i-niestacjonarne-1-stopnia-oraz-jednolite-magisterskie/",
+    "tuitionNote": "„W roku akademickim 2026/27 opłata za jeden semestr studiów wynosi 3800 zł na wszystkich kierunkach” (Zarządzenie Rektora UEK nr R.0211.15.2026 z 23.03.2026). Poprzednio 3700 PLN/semestr."
+   }
+  ],
+  "notes": "Wiersze 2023–2025 zgodne ze źródłami. Statystyka 2026/27 opublikowana 15.07.2026."
+ },
+ {
+  "school": "UEK — Uniwersytet Ekonomiczny",
+  "career": "biegly-rewident",
+  "program": "Finanse i rachunkowość",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 142.2,
+     "scaleMax": 200,
+     "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2023/07/Stat_1st_stac_23_pl.pdf",
+     "round": "jedna wartość: „Przyjęci od liczby pkt.” w lipcowej statystyce rekrutacji (Polacy, studia stacjonarne); UEK nie publikuje progów per tura"
+    },
+    {
+     "year": 2024,
+     "points": 139.8,
+     "scaleMax": 200,
+     "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2024/07/Statystyka-Polacy.pdf",
+     "round": "jedna wartość: „Przyjęci od liczby pkt.” w lipcowej statystyce rekrutacji (Polacy, studia stacjonarne); UEK nie publikuje progów per tura"
+    },
+    {
+     "year": 2025,
+     "points": 149.2,
+     "scaleMax": 200,
+     "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2025/07/statystyka_Polacy_25_26.pdf",
+     "round": "jedna wartość: „Przyjęci od liczby pkt.” w lipcowej statystyce rekrutacji (Polacy, studia stacjonarne); UEK nie publikuje progów per tura"
+    },
+    {
+     "year": 2026,
+     "points": 154.2,
+     "scaleMax": 200,
+     "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2026/07/Statystyki_Polacy_2026_27.pdf",
+     "round": "jedna wartość: „Przyjęci od liczby pkt.” w lipcowej statystyce rekrutacji (Polacy, studia stacjonarne); UEK nie publikuje progów per tura"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://studiuj.uek.krakow.pl/wp-content/uploads/2026/06/Tabelka-z-przedmiotami-2026_27-1.pdf",
+   "academicYear": "2026/2027",
+   "note": "Tabela przedmiotów 2026/27: przedmiot pierwszy matematyka (P lub R); drugi do wyboru: fizyka, geografia, historia, informatyka, język obcy, język polski, WOS (P lub R) — bez zmian względem danych."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "3800 PLN/semestr",
+    "amount": 3800,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://studiuj.uek.krakow.pl/rekrutacja/oplaty-studia-stacjonarne-i-niestacjonarne-1-stopnia-oraz-jednolite-magisterskie/",
+    "tuitionNote": "„W roku akademickim 2026/27 opłata za jeden semestr studiów wynosi 3800 zł na wszystkich kierunkach” (Zarządzenie Rektora UEK nr R.0211.15.2026 z 23.03.2026). Poprzednio 3700 PLN/semestr."
+   }
+  ],
+  "notes": "Wiersze 2023–2025 zgodne ze źródłami. Statystyka 2026/27 opublikowana 15.07.2026."
+ },
+ {
+  "school": "WUM — Wydział Nauk o Zdrowiu",
+  "career": "pielegniarka",
+  "program": "Pielęgniarstwo (I stopnia)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 190,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2023_0.pdf",
+     "round": "jedna wartość: „próg punktowy na podstawie decyzji Komisji” (WUM nie publikuje tur)"
+    },
+    {
+     "year": 2024,
+     "points": 179,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2024_za_wkr.pdf",
+     "round": "„Zasadnicze postępowanie rekrutacyjne” (pierwsza z dwóch kolumn; druga to nabór uzupełniający)"
+    },
+    {
+     "year": 2025,
+     "points": 214.2,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2025_za_wkr.pdf",
+     "round": "jedna wartość: „próg punktowy” (WUM nie publikuje tur)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/us_nr_41_z_30.06.2025_r._zalacznik_nr_12.pdf",
+   "academicYear": "2026/2027",
+   "note": "Uchwała nr 41/2025 Senatu WUM z 30.06.2025 (warunki rekrutacji 2026/2027), załącznik nr 12; przedmioty i przeliczniki bez zmian względem 2025/26 (uchwała 67/2026 zmienia tylko terminy, zał. 22). Strona zbiorcza: https://rekrutacja-info.wum.edu.pl/uchwala-rekrutacyjna-2026-2027"
+  },
+  "tuition": [],
+  "notes": "Wiersz „Pielęgniarstwo – studia I stopnia stacjonarne” zgodny (190 / 179 / 214,2). próg 2026 nie opublikowany (stan 1.10.2026)."
+ },
+ {
+  "school": "WUM — Wydział Nauk o Zdrowiu",
+  "career": "ratownik-medyczny",
+  "program": "Ratownictwo medyczne (I stopnia)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 138,
+     "scaleMax": 200,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2023_0.pdf",
+     "round": "jedna wartość: „próg punktowy na podstawie decyzji Komisji” (WUM nie publikuje tur)"
+    },
+    {
+     "year": 2024,
+     "points": 50,
+     "scaleMax": 200,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2024_za_wkr.pdf",
+     "round": "„Zasadnicze postępowanie rekrutacyjne” (pierwsza z dwóch kolumn; druga to nabór uzupełniający)"
+    },
+    {
+     "year": 2025,
+     "points": 119.8,
+     "scaleMax": 200,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2025_za_wkr.pdf",
+     "round": "jedna wartość: „próg punktowy” (WUM nie publikuje tur)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": "Uzupełniono brakujący rok 2024: 50 pkt (wiersz „Ratownictwo medyczne – studia I stopnia stacjonarne”, kolumna „Zasadnicze postępowanie rekrutacyjne”). Wartości 2023 i 2025 zgodne.",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/us_nr_41_z_30.06.2025_r._zalacznik_nr_14.pdf",
+   "academicYear": "2026/2027",
+   "note": "Uchwała nr 41/2025 Senatu WUM z 30.06.2025 (warunki rekrutacji 2026/2027), załącznik nr 14; przedmioty i przeliczniki bez zmian względem 2025/26 (uchwała 67/2026 zmienia tylko terminy, zał. 22). Strona zbiorcza: https://rekrutacja-info.wum.edu.pl/uchwala-rekrutacyjna-2026-2027"
+  },
+  "tuition": [],
+  "notes": "Próg 2024 (50) jest bardzo niski, prawdopodobnie przyjęto wszystkich spełniających minimum przy 398 kandydatach na 120 miejsc; wartość dokładnie jak w źródle. próg 2026 nie opublikowany (stan 1.10.2026)."
+ },
+ {
+  "school": "WUM — Wydział Nauk o Zdrowiu",
+  "career": "dietetyk",
+  "program": "Dietetyka (I stopnia)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 94.9,
+     "scaleMax": 270,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2023_0.pdf",
+     "round": "jedna wartość: „próg punktowy na podstawie decyzji Komisji” (WUM nie publikuje tur)"
+    },
+    {
+     "year": 2024,
+     "points": 147.9,
+     "scaleMax": 270,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2024_za_wkr.pdf",
+     "round": "„Zasadnicze postępowanie rekrutacyjne” (pierwsza z dwóch kolumn; druga to nabór uzupełniający)"
+    },
+    {
+     "year": 2025,
+     "points": 57.7,
+     "scaleMax": 270,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2025_za_wkr.pdf",
+     "round": "jedna wartość: „próg punktowy” (WUM nie publikuje tur)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": "Uzupełniono brakujący rok 2025: 57,7 pkt (wiersz „Dietetyka – studia I stopnia stacjonarne”). Wartości 2023 i 2024 zgodne.",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/us_nr_41_z_30.06.2025_r._zalacznik_nr_4.pdf",
+   "academicYear": "2026/2027",
+   "note": "Uchwała nr 41/2025 Senatu WUM z 30.06.2025 (warunki rekrutacji 2026/2027), załącznik nr 4; przedmioty i przeliczniki bez zmian względem 2025/26 (uchwała 67/2026 zmienia tylko terminy, zał. 22). Strona zbiorcza: https://rekrutacja-info.wum.edu.pl/uchwala-rekrutacyjna-2026-2027"
+  },
+  "tuition": [],
+  "notes": "Skala 270 przyjęta z danych wejściowych, nie weryfikowana. próg 2026 nie opublikowany (stan 1.10.2026)."
+ },
+ {
+  "school": "UJ CM — Wydział Nauk o Zdrowiu",
+  "career": "pielegniarka",
+  "program": "Pielęgniarstwo (I stopień, Wydział Nauk o Zdrowiu UJ CM)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 72,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2024,
+     "points": 73,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2025,
+     "points": 85.72,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/pieleg_s1s_P/?from=field:pieleg",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [],
+  "notes": "Wiersz sprawdzony: Wydział Nauk o Zdrowiu, „pielęgniarstwo”."
+ },
+ {
+  "school": "WUM — Wydział Farmaceutyczny",
+  "career": "farmaceuta",
+  "program": "Farmacja (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 114.9,
+     "scaleMax": 200,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2023_0.pdf",
+     "round": "jedna wartość: „próg punktowy na podstawie decyzji Komisji” (WUM nie publikuje tur)"
+    },
+    {
+     "year": 2024,
+     "points": 42,
+     "scaleMax": 200,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2024_za_wkr.pdf",
+     "round": "„Zasadnicze postępowanie rekrutacyjne” (pierwsza z dwóch kolumn; druga to nabór uzupełniający)"
+    },
+    {
+     "year": 2025,
+     "points": 71.4,
+     "scaleMax": 200,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2025_za_wkr.pdf",
+     "round": "jedna wartość: „próg punktowy” (WUM nie publikuje tur)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": "Uzupełniono brakujący rok 2024: 42 pkt (wiersz „Farmacja – studia jednolite magisterskie stacjonarne”; ta sama wartość 42 w kolumnie zasadniczego postępowania i naboru uzupełniającego). Wartości 2023 i 2025 zgodne.",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/us_nr_41_z_30.06.2025_r._zalacznik_nr_6.pdf",
+   "academicYear": "2026/2027",
+   "note": "Uchwała nr 41/2025 Senatu WUM z 30.06.2025 (warunki rekrutacji 2026/2027), załącznik nr 6; przedmioty i przeliczniki bez zmian względem 2025/26 (uchwała 67/2026 zmienia tylko terminy, zał. 22). Strona zbiorcza: https://rekrutacja-info.wum.edu.pl/uchwala-rekrutacyjna-2026-2027"
+  },
+  "tuition": [],
+  "notes": "Próg 2024 (42) jest bardzo niski (536 kandydatów na 190 miejsc), wartość dokładnie jak w źródle. próg 2026 nie opublikowany (stan 1.10.2026)."
+ },
+ {
+  "school": "UJ CM — Wydział Farmaceutyczny",
+  "career": "farmaceuta",
+  "program": "Farmacja (jednolite magisterskie, Wydział Farmaceutyczny UJ CM)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 58,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2024,
+     "points": 50,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2025,
+     "points": 55,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/farmac_sjm_P/?from=field:farmac",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [],
+  "notes": "Wiersz sprawdzony: Wydział Farmaceutyczny, „farmacja”. W 2024 była II tura: 53,00 (I tura 50,00)."
+ },
+ {
+  "school": "UM Wrocław — Wydział Farmaceutyczny",
+  "career": "farmaceuta",
+  "program": "Farmacja (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 67,
+     "scaleMax": 200,
+     "sourceUrl": "https://rekrutacja.umw.edu.pl/oferta-kierunek-farmacja/",
+     "round": "jedna wartość: minimalna liczba punktów kwalifikująca na kierunek (UMW publikuje tylko ten próg)"
+    },
+    {
+     "year": 2024,
+     "points": 70,
+     "scaleMax": 200,
+     "sourceUrl": "https://rekrutacja.umw.edu.pl/oferta-kierunek-farmacja/",
+     "round": "jedna wartość: minimalna liczba punktów kwalifikująca na kierunek (UMW publikuje tylko ten próg)"
+    },
+    {
+     "year": 2025,
+     "points": 79,
+     "scaleMax": 200,
+     "sourceUrl": "https://rekrutacja.umw.edu.pl/oferta-kierunek-farmacja/",
+     "round": "jedna wartość: minimalna liczba punktów kwalifikująca na kierunek (UMW publikuje tylko ten próg)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.umw.edu.pl/wp-content/uploads/2026/05/zal.1_2774-8.pdf",
+   "academicYear": "2026/2027",
+   "note": "Załącznik nr 11 do uchwały nr 2774 Senatu UMW (2026/2027): chemia R obowiązkowo + biologia lub matematyka (P ×0,8 lub R ×1); min. 30 pkt z każdego przedmiotu."
+  },
+  "tuition": [],
+  "notes": "Wartości zgodne ze stroną kierunku (67 / 70 / 79). próg 2026 nie opublikowany (stan 1.10.2026)."
+ },
+ {
+  "school": "AWF Warszawa",
+  "career": "fizjoterapeuta",
+  "program": "Fizjoterapia (jednolite 5-letnie magisterskie stacjonarne, Wydział Rehabilitacji, Warszawa)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 68,
+     "scaleMax": 112,
+     "sourceUrl": "https://www.awf.edu.pl/__data/assets/pdf_file/0004/58495/Egzaminy-wstepne-2023.pdf",
+     "round": "jedna wartość: próg punktowy = wynik ostatniej osoby przyjętej z listy rankingowej"
+    },
+    {
+     "year": 2024,
+     "points": 70,
+     "scaleMax": 112,
+     "sourceUrl": "https://www.awf.edu.pl/__data/assets/pdf_file/0017/61523/Egzaminy-wstepne-2024.pdf",
+     "round": "jedna wartość: próg punktowy = wynik ostatniej osoby przyjętej z listy rankingowej"
+    },
+    {
+     "year": 2025,
+     "points": 74,
+     "scaleMax": 112,
+     "sourceUrl": "https://www.awf.edu.pl/__data/assets/pdf_file/0009/67257/Egzaminy-wstepne-2025.pdf",
+     "round": "jedna wartość: próg punktowy = wynik ostatniej osoby przyjętej z listy rankingowej"
+    },
+    {
+     "year": 2026,
+     "points": 80,
+     "scaleMax": 112,
+     "sourceUrl": "https://www.awf.edu.pl/__data/assets/pdf_file/0020/73028/Egzaminy-wstepne-2026.pdf",
+     "round": "jedna wartość: próg punktowy = wynik ostatniej osoby przyjętej z listy rankingowej (nabór lipcowy)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.awf.edu.pl/__data/assets/pdf_file/0004/68197/zasady-przyjec-na-2026-2027-AWF-Warszawa-wersja-Senat.pdf",
+   "academicYear": "2026/2027",
+   "note": "Dane wejściowe już dla 2026/2027."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   }
+  ],
+  "notes": "Wiersz „Fizjoterapia — Jednolite 5-letnie studia magisterskie” potwierdzony w PDF 2023–2025. 2026/27: 2122 kandydatów, 180 miejsc, próg 80. Lista PDF: https://www.awf.edu.pl/kandydat/Informacje-dla-kandydatow/Progi-punktowe-na-studia. Skala 112 przejęta z danych wejściowych (nie weryfikowana)."
+ },
+ {
+  "school": "AKF — Akademia Kultury Fizycznej w Krakowie",
+  "career": "fizjoterapeuta",
+  "program": "Fizjoterapia (jednolite 5-letnie magisterskie, Wydział Rehabilitacji Ruchowej)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2024,
+     "points": 97.5,
+     "scaleMax": 150,
+     "sourceUrl": "https://web.archive.org/web/20250314153744/https://esr.akf.krakow.pl/images/listy_rankingowe/fizjoterapia-5-letnie-jednolite-studia.pdf",
+     "round": "TURA 1 (lista rankingowa z 17.07.2024); najniższy wynik z decyzją „przyjęty” (poz. rankingowa 295)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://esr.akf.krakow.pl/wydzial-rehabilitacji-ruchowej-licencjaty/fizjoterapia-5-letnie-jednolite-studia-magisterskie",
+   "academicYear": "2026/2027",
+   "note": "Dane już dla 2026/2027. Strona: jeden przedmiot z biologii/fizyki/chemii/matematyki (P lub R); P: 1%=1 pkt, R fizyka/chemia/matematyka: 1%=1,5 pkt, R biologia: 1%=2 pkt; laureaci 200 pkt — w 2026/27 maksimum to 200 pkt, a nie 150."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   }
+  ],
+  "notes": "Lista rankingowa 2026/27 (TURA 1, 15.07.2026, https://esr.akf.krakow.pl/images/listy_rankingowe/fizjoterapia-5-letnie-jednolite-studia.pdf; ten sam URL co 2024, nadpisywany co roku) ma decyzję „przyjęty” wpisaną tylko przy jednej osobie (136,000 pkt, poz. 252 z 2131 kandydatów), więc wyniku ostatniej osoby przyjętej nie da się ustalić — nie dodano progu 2026. Próg 2024 (97,5) wyliczono tą samą metodą z listy, na której decyzje były wpisane tylko wybiórczo (31 osób), więc jest niepewny. Uwaga na skalę: w 2024 max 150, w 2026/27 zasady dają max 200 (biologia R ×2). Brak danych 2023 i 2025 (plik nadpisywany; kopii archiwalnych nie szukano szerzej)."
+ },
+ {
+  "school": "AWF Wrocław",
+  "career": "fizjoterapeuta",
+  "program": "Fizjoterapia (jednolite magisterskie stacjonarne, Wydział Fizjoterapii)",
+  "thresholdsFix": {
+   "stacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.awf.wroc.pl/kierunek/fizjoterapia/",
+   "academicYear": "2026/2027",
+   "note": "Dane już dla 2026/2027; strona potwierdza: wynik matury z jednego przedmiotu (P lub R) spośród biologii, fizyki, chemii, matematyki."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   }
+  ],
+  "notes": "AWF Wrocław nie publikuje progów ani wyniku ostatniej osoby przyjętej; komunikaty komisji (https://rekrutacja.awf.wroc.pl/decyzje-komisji-rekrutacyjnej/, np. 24.07.2026) informują tylko o kolejnych kwalifikacjach z list rezerwowych, statusy są w IRK."
+ },
+ {
+  "school": "UE Wrocław",
+  "career": "ksiegowy",
+  "program": "Finanse i rachunkowość",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 165,
+     "scaleMax": 300,
+     "sourceUrl": "https://web.archive.org/web/20251029004851/https://rekrutacja.uew.pl/informacje-praktyczne/najwazniejsze-informacje/progi-punktowe/",
+     "round": "jedna wartość na kierunek („Progi punktowe na rok akademicki …”); UEW nie rozbija na tury"
+    },
+    {
+     "year": 2024,
+     "points": 150,
+     "scaleMax": 300,
+     "sourceUrl": "https://web.archive.org/web/20251029004851/https://rekrutacja.uew.pl/informacje-praktyczne/najwazniejsze-informacje/progi-punktowe/",
+     "round": "jedna wartość na kierunek („Progi punktowe na rok akademicki …”); UEW nie rozbija na tury"
+    },
+    {
+     "year": 2025,
+     "points": 160,
+     "scaleMax": 300,
+     "sourceUrl": "https://web.archive.org/web/20251029004851/https://rekrutacja.uew.pl/informacje-praktyczne/najwazniejsze-informacje/progi-punktowe/",
+     "round": "jedna wartość na kierunek („Progi punktowe na rok akademicki …”); UEW nie rozbija na tury"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "not_found",
+   "sourceUrl": null,
+   "academicYear": "2026/2027",
+   "note": "Nie udało się sprawdzić zasad na 2026/27: rekrutacja.uew.pl i uew.pl zwracają 403 (Cloudflare) dla curl i WebFetch; brak kopii strony zasad z 2026 w web.archive.org (ostatnia 07.08.2025, zasady 2025/26: matematyka + język obcy nowożytny + jeden przedmiot z listy, P lub R). Strona kierunku z 13.07.2026 (archiwum) linkuje „Zasady rekrutacji na studia stacjonarne”, ale bez treści."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "not_found",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "Strona opłat niedostępna (403 Cloudflare), brak kopii archiwalnej z 2026; pozostaje stawka z danych: 3850 PLN/semestr (2025/26)."
+   }
+  ],
+  "notes": "Wiersz „Finanse i rachunkowość” potwierdzony w kopii archiwalnej z 29.10.2025 (2023/24: 165, 2024/25: 150, 2025/26: 160). Progu 2026/27 nie da się zweryfikować — strona rekrutacja.uew.pl blokuje dostęp automatyczny (403), a web.archive.org nie ma kopii strony progów z 2026. Status not_published oznacza tu „nie znaleziono”, nie potwierdzony brak publikacji — warto sprawdzić ręcznie w przeglądarce: https://rekrutacja.uew.pl/informacje-praktyczne/najwazniejsze-informacje/progi-punktowe/"
+ },
+ {
+  "school": "UE Wrocław",
+  "career": "doradca-finansowy",
+  "program": "Finanse i rachunkowość",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 165,
+     "scaleMax": 300,
+     "sourceUrl": "https://web.archive.org/web/20251029004851/https://rekrutacja.uew.pl/informacje-praktyczne/najwazniejsze-informacje/progi-punktowe/",
+     "round": "jedna wartość na kierunek („Progi punktowe na rok akademicki …”); UEW nie rozbija na tury"
+    },
+    {
+     "year": 2024,
+     "points": 150,
+     "scaleMax": 300,
+     "sourceUrl": "https://web.archive.org/web/20251029004851/https://rekrutacja.uew.pl/informacje-praktyczne/najwazniejsze-informacje/progi-punktowe/",
+     "round": "jedna wartość na kierunek („Progi punktowe na rok akademicki …”); UEW nie rozbija na tury"
+    },
+    {
+     "year": 2025,
+     "points": 160,
+     "scaleMax": 300,
+     "sourceUrl": "https://web.archive.org/web/20251029004851/https://rekrutacja.uew.pl/informacje-praktyczne/najwazniejsze-informacje/progi-punktowe/",
+     "round": "jedna wartość na kierunek („Progi punktowe na rok akademicki …”); UEW nie rozbija na tury"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "not_found",
+   "sourceUrl": null,
+   "academicYear": "2026/2027",
+   "note": "Nie udało się sprawdzić zasad na 2026/27: rekrutacja.uew.pl i uew.pl zwracają 403 (Cloudflare) dla curl i WebFetch; brak kopii strony zasad z 2026 w web.archive.org (ostatnia 07.08.2025, zasady 2025/26: matematyka + język obcy nowożytny + jeden przedmiot z listy, P lub R). Strona kierunku z 13.07.2026 (archiwum) linkuje „Zasady rekrutacji na studia stacjonarne”, ale bez treści."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "not_found",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "Strona opłat niedostępna (403 Cloudflare), brak kopii archiwalnej z 2026; pozostaje stawka z danych: 3850 PLN/semestr (2025/26)."
+   }
+  ],
+  "notes": "Wiersz „Finanse i rachunkowość” potwierdzony w kopii archiwalnej z 29.10.2025 (2023/24: 165, 2024/25: 150, 2025/26: 160). Progu 2026/27 nie da się zweryfikować — strona rekrutacja.uew.pl blokuje dostęp automatyczny (403), a web.archive.org nie ma kopii strony progów z 2026. Status not_published oznacza tu „nie znaleziono”, nie potwierdzony brak publikacji — warto sprawdzić ręcznie w przeglądarce: https://rekrutacja.uew.pl/informacje-praktyczne/najwazniejsze-informacje/progi-punktowe/"
+ },
+ {
+  "school": "WUM — Wydział Lekarsko-Dentystyczny",
+  "career": "dentysta",
+  "program": "Lekarsko-dentystyczny (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 238,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2023_0.pdf",
+     "round": "jedna wartość: „próg punktowy na podstawie decyzji Komisji” (WUM nie publikuje tur)"
+    },
+    {
+     "year": 2024,
+     "points": 218,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2024_za_wkr.pdf",
+     "round": "„Zasadnicze postępowanie rekrutacyjne” (pierwsza z dwóch kolumn; druga to nabór uzupełniający)"
+    },
+    {
+     "year": 2025,
+     "points": 210,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2025_za_wkr.pdf",
+     "round": "jedna wartość: „próg punktowy” (WUM nie publikuje tur)"
+    }
+   ],
+   "niestacjonarne": [
+    {
+     "year": 2023,
+     "points": 187.6,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2023_0.pdf",
+     "round": "jedna wartość: „próg punktowy na podstawie decyzji Komisji” (WUM nie publikuje tur)"
+    },
+    {
+     "year": 2024,
+     "points": 152.5,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2024_za_wkr.pdf",
+     "round": "„Zasadnicze postępowanie rekrutacyjne” (pierwsza z dwóch kolumn; druga to nabór uzupełniający)"
+    },
+    {
+     "year": 2025,
+     "points": 160,
+     "scaleMax": 300,
+     "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/progi_punktowe_2025_za_wkr.pdf",
+     "round": "jedna wartość: „próg punktowy” (WUM nie publikuje tur)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/us_nr_41_z_30.06.2025_r._zalacznik_nr_10.pdf",
+   "academicYear": "2026/2027",
+   "note": "Uchwała nr 41/2025 Senatu WUM z 30.06.2025 (warunki rekrutacji 2026/2027), załącznik nr 10; przedmioty i przeliczniki bez zmian względem 2025/26 (uchwała 67/2026 zmienia tylko terminy, zał. 22). Strona zbiorcza: https://rekrutacja-info.wum.edu.pl/uchwala-rekrutacyjna-2026-2027"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "83600 PLN/rok",
+    "amount": 83600,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://rekrutacja-info.wum.edu.pl/sites/rekrutacja-info.wum.edu.pl/files/zarzadzenie_rektora_96_2026_z_27.04.2026_calosc.pdf",
+    "tuitionNote": "Zarządzenie nr 96/2026 Rektora WUM, zał. 3 (studia niestacjonarne, rozpoczynający w 2026/2027): opłata roczna jednorazowo 83600 PLN (w 2 ratach 85400, w 4 ratach 86800); cały tok studiów 418000 PLN. Poprzednio w danych 75 000 PLN/rok."
+   }
+  ],
+  "notes": "Wiersze „Kierunek lekarsko-dentystyczny” stacjonarne (238/218/210) i niestacjonarne NW (187,6/152,5/160) zgodne. próg 2026 nie opublikowany (stan 1.10.2026)."
+ },
+ {
+  "school": "UJ CM",
+  "career": "dentysta",
+  "program": "Lekarsko-dentystyczny (jednolite magisterskie, Wydział Lekarski UJ CM)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 85.72,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2024,
+     "points": 84,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2025,
+     "points": 83,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    }
+   ],
+   "niestacjonarne": [
+    {
+     "year": 2023,
+     "points": 60,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2024,
+     "points": 67,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2025,
+     "points": 62.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/lekars.dent_sjm_P/?from=field:lekars.dent",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "70000 PLN/rok",
+    "amount": 70000,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/lekars.dent_njm_P/",
+    "tuitionNote": "IRK UJ 2026/27: 70 000 zł za każdy rok studiów."
+   }
+  ],
+  "notes": "Wiersze sprawdzone: Wydział Lekarski, „kierunek lekarsko-dentystyczny”, stacjonarne i niestacjonarne."
+ },
+ {
+  "school": "UJ CM",
+  "career": "ratownik-medyczny",
+  "program": "Ratownictwo medyczne (I stopień, Wydział Nauk o Zdrowiu UJ CM)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 82,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2024,
+     "points": 83,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    },
+    {
+     "year": 2025,
+     "points": 85,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uj.edu.pl/documents/1458734/159766207/1s_SWJP_P.pdf",
+     "round": "I tura (kolumna „realny próg punktowy – wynik ostatniej osoby zakwalifikowanej do przyjęcia”, I tura; zestawienie UJ)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uj.edu.pl/pl/offer/IiJM_P_26/programme/ratown.medy_s1s_P/?from=field:ratown.medy",
+   "academicYear": "2026/2027",
+   "note": "Wymagania w danych wejściowych już dotyczą 2026/2027; nie weryfikowano ponownie."
+  },
+  "tuition": [],
+  "notes": "Wiersz sprawdzony: Wydział Nauk o Zdrowiu, „ratownictwo medyczne”."
+ },
+ {
+  "school": "UM Łódź",
+  "career": "dentysta",
+  "program": "Lekarsko-dentystyczny (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 336,
+     "scaleMax": 400,
+     "sourceUrl": "https://rekrutacja.umed.lodz.pl/pliki/STATYSTYKA-2023-2024-na-str.pdf",
+     "round": "kolumna „1 próg punktowy” (pierwsza tura) w statystyce UMED"
+    },
+    {
+     "year": 2024,
+     "points": 320,
+     "scaleMax": 400,
+     "sourceUrl": "https://rekrutacja.umed.lodz.pl/pliki/STATYSTYKA-2024-2025-ostateczna.pdf",
+     "round": "kolumna „1 próg punktowy” (pierwsza tura) w statystyce UMED"
+    },
+    {
+     "year": 2025,
+     "points": 320,
+     "scaleMax": 400,
+     "sourceUrl": "https://rekrutacja.umed.lodz.pl/pliki/STATYSTYKA-2025-2026ost.pdf",
+     "round": "kolumna „1 próg punktowy” (pierwsza tura) w statystyce UMED"
+    },
+    {
+     "year": 2026,
+     "points": 326,
+     "scaleMax": 400,
+     "sourceUrl": "https://rekrutacja.umed.pl/pierwsze-progi-punktowe-3/",
+     "round": "pierwsze progi punktowe, komunikat z 14.07.2026 (I tura)"
+    }
+   ],
+   "niestacjonarne": [
+    {
+     "year": 2023,
+     "points": 280,
+     "scaleMax": 400,
+     "sourceUrl": "https://rekrutacja.umed.lodz.pl/pliki/STATYSTYKA-2023-2024-na-str.pdf",
+     "round": "kolumna „1 próg punktowy” (pierwsza tura) w statystyce UMED"
+    },
+    {
+     "year": 2024,
+     "points": 268,
+     "scaleMax": 400,
+     "sourceUrl": "https://rekrutacja.umed.lodz.pl/pliki/STATYSTYKA-2024-2025-ostateczna.pdf",
+     "round": "kolumna „1 próg punktowy” (pierwsza tura) w statystyce UMED"
+    },
+    {
+     "year": 2025,
+     "points": 268,
+     "scaleMax": 400,
+     "sourceUrl": "https://rekrutacja.umed.lodz.pl/pliki/STATYSTYKA-2025-2026ost.pdf",
+     "round": "kolumna „1 próg punktowy” (pierwsza tura) w statystyce UMED"
+    },
+    {
+     "year": 2026,
+     "points": 270,
+     "scaleMax": 400,
+     "sourceUrl": "https://rekrutacja.umed.pl/kolejne-progi-punktowe-17/",
+     "round": "pierwszy opublikowany próg dla studiów niestacjonarnych, komunikat „Kolejne progi punktowe” z 21.07.2026 (pierwszy komunikat z 14.07 obejmował tylko studia stacjonarne); może nie być równoważny kolumnie „1 próg”"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": "Zmiana konwencji tur: dotychczasowe wartości (stac. 320/308/306, niestac. 254/234/256) to kolumna „Ostatni próg punktowy” (końcowy próg po wszystkich turach). Wg konwencji „preferuj I turę” zastąpiono je kolumną „1 próg punktowy” z tych samych plików: stac. 336/320/320, niestac. 280/268/268. Wiersze kierunku były poprawne.",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://bip.umed.pl/sites/legal-acts/legalActs/Uchwa%C5%82y/Uchwala_2025_049.pdf",
+   "academicYear": "2026/2027",
+   "note": "Uchwała nr 49/2025 Senatu UM w Łodzi z 26.06.2025 (studia rozpoczynające się w 2026/2027): dwa z czterech przedmiotów R (biologia, chemia, matematyka, fizyka), język polski P tylko do rozstrzygania remisów. Bez zmian względem uchwały 45/2024."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "30500 PLN/semestr",
+    "amount": 30500,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://rekrutacja.umed.lodz.pl/oplaty/",
+    "tuitionNote": "Tabela (obraz https://rekrutacja.umed.pl/pliki/opl.png) „Opłaty za studia niestacjonarne ... 2026/2027”: 30500 zł za semestr jednorazowo (2 raty: 31720, 3 raty: 32331). Poprzednio w danych 26 000 PLN/semestr."
+   }
+  ],
+  "notes": "Ostatnie progi (gdyby wybrać konwencję końcową): stac. 2023 320 (320/70 z j. polskim), 2024 308, 2025 306; niestac. 254/234/256. W 2026 rekrutacja trwa (kończy się 15.10), statystyka 2026-2027 nieopublikowana; kolejne progi 2026: stac. 322 (21.07); niestac. 270 (21.07). Dane w statystyce UMED (np. 2023 „320/70”) zawierają po ukośniku wynik z j. polskiego rozstrzygający remis."
+ },
+ {
+  "school": "UM Łódź",
+  "career": "chirurg",
+  "program": "Lekarski (jednolite magisterskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 340,
+     "scaleMax": 400,
+     "sourceUrl": "https://rekrutacja.umed.lodz.pl/pliki/STATYSTYKA-2023-2024-na-str.pdf",
+     "round": "kolumna „1 próg punktowy” (pierwsza tura) w statystyce UMED"
+    },
+    {
+     "year": 2024,
+     "points": 332,
+     "scaleMax": 400,
+     "sourceUrl": "https://rekrutacja.umed.lodz.pl/pliki/STATYSTYKA-2024-2025-ostateczna.pdf",
+     "round": "kolumna „1 próg punktowy” (pierwsza tura) w statystyce UMED"
+    },
+    {
+     "year": 2025,
+     "points": 332,
+     "scaleMax": 400,
+     "sourceUrl": "https://rekrutacja.umed.lodz.pl/pliki/STATYSTYKA-2025-2026ost.pdf",
+     "round": "kolumna „1 próg punktowy” (pierwsza tura) w statystyce UMED"
+    },
+    {
+     "year": 2026,
+     "points": 334,
+     "scaleMax": 400,
+     "sourceUrl": "https://rekrutacja.umed.pl/pierwsze-progi-punktowe-3/",
+     "round": "pierwsze progi punktowe, komunikat z 14.07.2026 (I tura)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": "Zmiana konwencji tur: dotychczasowe wartości 320/308/314 to kolumna „Ostatni próg punktowy” wiersza „LEKARSKI jmgr stacjonarne” (poprawny wiersz). Wg konwencji „preferuj I turę” zastąpiono je kolumną „1 próg punktowy”: 340/332/332.",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://bip.umed.pl/sites/legal-acts/legalActs/Uchwa%C5%82y/Uchwala_2025_049.pdf",
+   "academicYear": "2026/2027",
+   "note": "Uchwała nr 49/2025 Senatu UM w Łodzi z 26.06.2025 (studia rozpoczynające się w 2026/2027): dwa z czterech przedmiotów R (biologia, chemia, matematyka, fizyka), język polski P tylko do rozstrzygania remisów. Bez zmian względem uchwały 45/2024."
+  },
+  "tuition": [],
+  "notes": "Ostatnie progi: 2023 320, 2024 308 (308/67), 2025 314. Kolejne progi 2026 (lekarski stac.): 332 (21.07), 330 (28.07), 328 (15.09), 326 (22.09), 324/75 (29.09.2026); rekrutacja trwa do 15.10.2026, końcowa statystyka 2026-2027 jeszcze nieopublikowana."
+ },
+ {
+  "school": "PWSFTviT — Szkoła Filmowa w Łodzi",
+  "career": "fotograf",
+  "program": "Fotografia (stacjonarne jednolite magisterskie 5-letnie, Wydział Operatorski i Realizacji Telewizyjnej)",
+  "thresholdsFix": {
+   "stacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.filmschool.lodz.pl/studia/rekrutacja/jednolite-studia-magisterskie-5-letnie-3/39",
+   "academicYear": "2026/2027",
+   "note": "Dane już dla 2026/2027; strona rekrutacyjna 2026/27 potwierdza wieloetapowy egzamin praktyczny."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   }
+  ],
+  "notes": "Rekrutacja wyłącznie przez egzaminy praktyczne (matura niepunktowana); szkoła publikuje tylko terminy ogłoszenia wyników etapów, bez progów punktowych."
+ },
+ {
+  "school": "PWSFTviT — Szkoła Filmowa w Łodzi",
+  "career": "aktor",
+  "program": "Aktorstwo (stacjonarne jednolite magisterskie, Wydział Aktorski)",
+  "thresholdsFix": {
+   "stacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.filmschool.lodz.pl/studia/rekrutacja/jednolite-studia-magisterskie/34",
+   "academicYear": "2026/2027",
+   "note": "Dane już dla 2026/2027; strona rekrutacyjna 2026/27 potwierdza wieloetapowy egzamin praktyczny."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   }
+  ],
+  "notes": "Rekrutacja wyłącznie przez egzaminy praktyczne (matura niepunktowana); szkoła publikuje tylko terminy ogłoszenia wyników etapów, bez progów punktowych."
+ },
+ {
+  "school": "PWSFTviT — Szkoła Filmowa w Łodzi",
+  "career": "rezyser-filmowy",
+  "program": "Reżyseria filmowa i telewizyjna (stacjonarne jednolite 5-letnie, Wydział Reżyserii Filmowej i Telewizyjnej)",
+  "thresholdsFix": {
+   "stacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.filmschool.lodz.pl/studia/rekrutacja/jednolite-studia-5-letnie/2",
+   "academicYear": "2026/2027",
+   "note": "Dane już dla 2026/2027; strona rekrutacyjna 2026/27 potwierdza wieloetapowy egzamin praktyczny."
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "studia bezpłatne"
+   }
+  ],
+  "notes": "Rekrutacja wyłącznie przez egzaminy praktyczne (matura niepunktowana); szkoła publikuje tylko terminy ogłoszenia wyników etapów, bez progów punktowych."
+ },
+ {
+  "school": "UW — Wydział Dziennikarstwa",
+  "career": "dziennikarz",
+  "program": "Dziennikarstwo i medioznawstwo (I stopień)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 65.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia-osoba_przyjeta_2023-24.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2024,
+     "points": 69.2,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2024-25.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2025,
+     "points": 66,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2025-26.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/S1-DM/",
+   "academicYear": "2026/2027",
+   "note": "Zasady w IRK UW PELNE2026 identyczne jak 2025/2026; dopisano tylko ukraiński do listy języków obcych."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "9500 PLN/rok",
+    "amount": 9500,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://monitor.uw.edu.pl/Lists/Uchway/Attachments/7859/M.2026.209.Zarz.78.pdf",
+    "tuitionNote": "Zarządzenie nr 78 Rektora UW z 9.06.2026, dziennikarstwo i medioznawstwo, studia niestacjonarne I i II stopnia: opłata jednorazowa za rok. 2 raty 9800, 4 raty 10200, 6 rat 10500 zł. Dotyczy rozpoczynających studia w 2026/2027."
+   }
+  ],
+  "notes": "Próg 2026 nieopublikowany przez UW. 2023–2025 kolumna I tura."
+ },
+ {
+  "school": "UW — Wydział Dziennikarstwa",
+  "career": "specjalista-pr",
+  "program": "Dziennikarstwo i medioznawstwo (I stopień)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 65.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia-osoba_przyjeta_2023-24.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2024,
+     "points": 69.2,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2024-25.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    },
+    {
+     "year": 2025,
+     "points": 66,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2025-26.pdf",
+     "round": "I tura (kolumna „I tura” w zestawieniu UW „z uwzględnieniem tur rekrutacji”)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/S1-DM/",
+   "academicYear": "2026/2027",
+   "note": "Zasady w IRK UW PELNE2026 identyczne jak 2025/2026; dopisano tylko ukraiński do listy języków obcych."
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "9500 PLN/rok",
+    "amount": 9500,
+    "period": "rok",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://monitor.uw.edu.pl/Lists/Uchway/Attachments/7859/M.2026.209.Zarz.78.pdf",
+    "tuitionNote": "Zarządzenie nr 78 Rektora UW z 9.06.2026, dziennikarstwo i medioznawstwo, studia niestacjonarne I i II stopnia: opłata jednorazowa za rok. 2 raty 9800, 4 raty 10200, 6 rat 10500 zł. Dotyczy rozpoczynających studia w 2026/2027."
+   }
+  ],
+  "notes": "Próg 2026 nieopublikowany przez UW. 2023–2025 kolumna I tura."
+ }
+]
