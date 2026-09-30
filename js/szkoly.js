@@ -581,7 +581,7 @@ const Szkoly = (function () {
 
         <section class="szkola__section">
           <h2 class="career-column__title">Klasy${year ? ` w roku ${esc(year)}` : ''}</h2>
-          ${anyThresholds ? '<p class="career-column__text szkola__muted">Próg to liczba punktów ostatniej osoby przyjętej do klasy. Skala od 0 do 200: połowa to egzamin ósmoklasisty, połowa oceny ze świadectwa i osiągnięcia.</p>' : ''}
+          ${anyThresholds ? '<p class="career-column__text szkola__muted">Próg to liczba punktów ostatniej osoby przyjętej do klasy. Zwykle skala wynosi od 0 do 200: połowa to egzamin ósmoklasisty, połowa oceny ze świadectwa i osiągnięcia. Klasy ze sprawdzianem (sportowe, dwujęzyczne) mogą mieć wyższą skalę, podaną przy progu.</p>' : ''}
           ${profiles.length
             ? `<ul class="szkola__profiles">${profiles.map(p => profileHtml(p, isTech)).join('')}</ul>`
             : '<p class="career-column__empty">Brak danych o klasach w NextMove. Ofertę sprawdzisz na stronie szkoły.</p>'}

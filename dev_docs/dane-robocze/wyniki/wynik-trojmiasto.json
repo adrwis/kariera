@@ -1,6 +1,27 @@
 [
  {
+  "rspo": 30451,
+  "shortName": "Gdyńskie Liceum Autorskie STO",
+  "url": "http://www.gla.edu.pl/",
+  "district": "Grabówek",
+  "profiles": [],
+  "admission": "Rekrutacja do Gdyńskiego Liceum Autorskiego STO – Szkoły Mistrzostwa Sportowego odbywa się wyłącznie za pośrednictwem klubu SSA Arka Gdynia.",
+  "noOffer2026": true,
+  "doubts": [
+   "Szkoła nie publikuje oferty oddziałów na 2026/2027. Wykaz podręczników na 2026/2027 dla klasy 1S wymienia podręczniki w zakresie rozszerzonym z biologii („dla uczniów decydujących się na rozszerzenie”) i geografii oraz języki: angielski, hiszpański, niemiecki; to nie jest oferta rekrutacyjna, więc nie wpisano profilu."
+  ],
+  "checkedUrls": [
+   "https://www.gla.edu.pl/rekrutacja/",
+   "https://www.gla.edu.pl/2026/08/05/wykaz-podrecznikow-na-rok-szkolny-2026-2027/",
+   "http://www.gla.edu.pl/wp-content/uploads/2026/08/Wykaz-podreczniow-w-GLA-na-rok-szkolny-2026_2027-klasa-1S.pdf",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
+  ]
+ },
+ {
   "rspo": 4045,
+  "shortName": "I ALO im. Zasłużonych Ludzi Morza",
+  "url": "https://1alo.org/",
+  "district": "Witomino",
   "profiles": [
    {
     "name": "1A1 mat-inf-ang. (ang,hisz,niem)",
@@ -283,18 +304,22 @@
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4393",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d470ad8e57486a7d3b4/2026",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4398",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d490ad8e57486a7d3b5/2026"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d490ad8e57486a7d3b5/2026",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 23199,
+  "shortName": "II LO im. A. Mickiewicza",
+  "url": "https://www.lo2gdynia.pl/",
+  "district": "Działki Leśne",
   "profiles": [
    {
     "name": "0W Wstępna z j.francuskim(bez znajomości języka)",
     "schoolYear": "2026/2027",
     "extended": [],
     "extendedChoice": [],
-    "bilingual": null,
+    "bilingual": "fr",
     "extendedOther": [],
     "profession": null,
     "qualifications": [],
@@ -573,6 +598,7 @@
   "admission": null,
   "noOffer2026": false,
   "doubts": [
+   "0W Wstępna z j.francuskim(bez znajomości języka): klasa wstępna (przygotowawcza) do nauki w oddziale dwujęzycznym, język: język francuski; bilingual ustawione na ten język",
    "0W Wstępna z j.francuskim(bez znajomości języka): punktowane także max(fran,hiszp,niem,ros,wło) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
    "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
   ],
@@ -594,11 +620,15 @@
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d510ad8e57486a7d3bc/2026",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7ab5bc0897545ac52685/2025",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=679",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d540ad8e57486a7d3bd/2026"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d540ad8e57486a7d3bd/2026",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 29583,
+  "shortName": "III LO im. Marynarki Wojennej RP",
+  "url": "https://www.lo3.gdynia.pl/",
+  "district": "Wzgórze Św. Maksymiliana",
   "profiles": [
    {
     "name": "1B 1BIOCHEM",
@@ -1095,11 +1125,15 @@
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7abdbc0897545ac5268e/2025",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=831",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d5e0ad8e57486a7d3c7/2026",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7abebc0897545ac52690/2025"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7abebc0897545ac52690/2025",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 3957,
+  "shortName": "IX LO im. J. Piłsudskiego",
+  "url": "https://www.lo9.gdynia.pl/",
+  "district": "Orłowo",
   "profiles": [
    {
     "name": "1A psychologiczna (psychologia, nauki społeczne)",
@@ -1415,11 +1449,135 @@
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c6f0ad8e57486a7d2e5/2026",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a44bc0897545ac525f2/2025",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3776",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c860ad8e57486a7d2eb/2026"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c860ad8e57486a7d2eb/2026",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
+  ]
+ },
+ {
+  "rspo": 31207,
+  "shortName": "Katolickie LO im. św. Jana Pawła II",
+  "url": "https://www.katolik.info.pl",
+  "district": "Obłuże",
+  "profiles": [
+   {
+    "name": "humanistyczny",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://katolik.info.pl/wp-content/uploads/2026/02/2026_2027_regulamin_rekrutacji_lo_small.pdf"
+   },
+   {
+    "name": "biologiczno-chemiczny",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://katolik.info.pl/wp-content/uploads/2026/02/2026_2027_regulamin_rekrutacji_lo_small.pdf"
+   },
+   {
+    "name": "matematyczno-fizyczny",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://katolik.info.pl/wp-content/uploads/2026/02/2026_2027_regulamin_rekrutacji_lo_small.pdf"
+   },
+   {
+    "name": "sztuczna inteligencja i programowanie (AI)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "inf"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://katolik.info.pl/wp-content/uploads/2026/02/2026_2027_regulamin_rekrutacji_lo_small.pdf"
+   }
+  ],
+  "admission": "Rekrutacja dwuetapowa prowadzona przez szkołę: formularz elektroniczny i dokumenty, punkty za oceny ze świadectwa, aktywność społeczną i świadectwo z wyróżnieniem, następnie wypowiedź pisemna i indywidualna rozmowa kwalifikacyjna z Dyrekcją. Oddziały uruchamiane w zależności od zainteresowania; możliwa klasa z maks. 3 przedmiotami rozszerzonymi wskazanymi przez kandydata (punktowane: pol, mat, ang + 1 wskazany przedmiot).",
+  "noOffer2026": false,
+  "doubts": [
+   "Regulamin (§2) dopuszcza też „klasę z przedmiotami rozszerzonymi wskazanymi przez kandydata (maksymalnie 3)” – niewpisana jako osobny profil, bo nie wiadomo, czy została uruchomiona.",
+   "Języki obce w poszczególnych oddziałach nie są podane w regulaminie.",
+   "Przy języku angielskim w punktacji regulamin dopuszcza inny obcy język nowożytny, jeśli brak oceny z angielskiego."
+  ],
+  "checkedUrls": [
+   "https://katolik.info.pl/rekrutacja-liceum/",
+   "https://katolik.info.pl/wp-content/uploads/2026/02/2026_2027_regulamin_rekrutacji_lo_small.pdf",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 129601,
+  "shortName": "LO TEB Edukacja w Gdyni",
+  "url": "https://www.liceum.teb.pl/miasta/gdynia/",
+  "district": "Śródmieście",
   "profiles": [
    {
     "name": "1ALO klasa kosmetologiczna",
@@ -1601,11 +1759,210 @@
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4183",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4188",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4193",
-   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4198"
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4198",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
+  ]
+ },
+ {
+  "rspo": 6128,
+  "shortName": "Liceum Jezuitów w Gdyni",
+  "url": "https://jezuici.edu.pl/",
+  "district": "Działki Leśne",
+  "profiles": [
+   {
+    "name": "Ia humanistyczno-medialna",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "wos",
+     "hist"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://jezuici.edu.pl/wp-content/uploads/2026/01/OLJ_SZCZEGOLOWE-KRYTERIA-NABORU-DLA-KANDYDATOW_2026-2027.pdf"
+   },
+   {
+    "name": "Ib matematyczno-geograficzna",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://jezuici.edu.pl/wp-content/uploads/2026/01/OLJ_SZCZEGOLOWE-KRYTERIA-NABORU-DLA-KANDYDATOW_2026-2027.pdf"
+   },
+   {
+    "name": "Ic architektoniczno-graficzna",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://jezuici.edu.pl/wp-content/uploads/2026/01/OLJ_SZCZEGOLOWE-KRYTERIA-NABORU-DLA-KANDYDATOW_2026-2027.pdf"
+   },
+   {
+    "name": "Id psychologiczna",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://jezuici.edu.pl/wp-content/uploads/2026/01/OLJ_SZCZEGOLOWE-KRYTERIA-NABORU-DLA-KANDYDATOW_2026-2027.pdf"
+   },
+   {
+    "name": "Ie biologiczno-chemiczna",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://jezuici.edu.pl/wp-content/uploads/2026/01/OLJ_SZCZEGOLOWE-KRYTERIA-NABORU-DLA-KANDYDATOW_2026-2027.pdf"
+   }
+  ],
+  "admission": "Szkoła płatna (czesne 1700 zł/mies., wpisowe). Rekrutacja: kwestionariusz, rozmowa kandydata i rodziców z Dyrekcją (wynik rozmowy wpływa na dalsze postępowanie), następnie wniosek w elektronicznym systemie naboru. Punkty: egzamin ósmoklasisty (maks. 100) i świadectwo (maks. 100).",
+  "noOffer2026": false,
+  "doubts": [
+   "Szkoła nie podaje wprost przedmiotów rozszerzonych; opisy profili mówią o „szczególnym uwzględnieniu” przedmiotów na maturze: psychologiczna – biologia, j. polski, j. angielski; architektoniczno-graficzna – matematyka, historia sztuki, j. angielski; matematyczno-geograficzna – matematyka, geografia, j. angielski; biologiczno-chemiczna – biologia i chemia. Pola extended pozostawione puste.",
+   "Klasa Ic: punktowana także plastyka (brak kodu w słowniku, pominięta w scoredSubjects).",
+   "Języki: strona oferty podaje dla całego liceum angielski, hiszpański i niemiecki; przydział drugiego języka do klas nieznany.",
+   "Punktacja szkoły nie odpowiada schematowi ministerialnemu (egzamin 100 pkt: pol 35, mat 35, język 30; oceny 18/17/14/8/2 pkt)."
+  ],
+  "checkedUrls": [
+   "https://jezuici.edu.pl/liceum/rekrutacja/",
+   "https://jezuici.edu.pl/liceum/profile/",
+   "https://jezuici.edu.pl/liceum/oferta/",
+   "https://jezuici.edu.pl/wp-content/uploads/2026/01/OLJ_SZCZEGOLOWE-KRYTERIA-NABORU-DLA-KANDYDATOW_2026-2027.pdf",
+   "https://jezuici.edu.pl/wp-content/uploads/2026/01/OLJ_OPLATY-I-ZASADY-REKRUTACJI_2026.2027.pdf",
+   "https://jezuici.edu.pl/wp-content/uploads/2026/01/OLJ-PROFIL-PSYCHOLOGICZNY.pdf",
+   "https://jezuici.edu.pl/wp-content/uploads/2026/01/OLJ_PROFIL-ARCHITEKTONICZNO-GRAFICZNY.pdf",
+   "https://jezuici.edu.pl/wp-content/uploads/2026/01/OLJ_PROFIL-MATEMATYCZNO-GEOGRAFICZNY.pdf",
+   "https://jezuici.edu.pl/wp-content/uploads/2026/01/OLJ-PROFIL-BIOLOGICZNO_CHEMICZNY_a.pdf",
+   "https://jezuici.edu.pl/wp-content/uploads/2026/01/OLJ_PROFIL-HUMANISTYCZNO-MEDIALNY.pdf",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
+  ]
+ },
+ {
+  "rspo": 262373,
+  "shortName": "Pierwsze Społeczne LO SMS w Gdyni",
+  "url": "https://pslo.edu.pl/",
+  "district": "Grabówek",
+  "profiles": [
+   {
+    "name": "klasa pierwsza z wyborem przedmiotów rozszerzonych",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [
+     [
+      "pol",
+      "mat",
+      "bio",
+      "geo",
+      "hist"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://pslo.edu.pl/rekrutacja/"
+   }
+  ],
+  "admission": "Szkoła płatna. O przyjęciu decyduje Dyrektor na podstawie wytycznych Zarządu, z uwzględnieniem konkursu świadectw (ze szczególnym uwzględnieniem wyników egzaminu ósmoklasisty). Podania z wykazem ocen składa się w sekretariacie.",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona nie podaje, ile przedmiotów rozszerzonych wybiera uczeń z listy (j. polski, matematyka, biologia, geografia, historia)."
+  ],
+  "checkedUrls": [
+   "https://pslo.edu.pl/",
+   "https://pslo.edu.pl/rekrutacja/",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 25697,
+  "shortName": "V LO im. płk. S. Dąbka",
+  "url": "https://www.vlogdynia.pl",
+  "district": "Oksywie",
   "profiles": [
    {
     "name": "1A1 Akademicka mat-geo",
@@ -1812,11 +2169,15 @@
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3635",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d680ad8e57486a7d3d1/2026",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4338",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d6c0ad8e57486a7d3d3/2026"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d6c0ad8e57486a7d3d3/2026",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 3640,
+  "shortName": "VI LO im. W. Sierpińskiego",
+  "url": "http://vilo.org/",
+  "district": "Wzgórze Św. Maksymiliana",
   "profiles": [
    {
     "name": "1A [O] fiz-ang-mat (ang-niem)",
@@ -2181,11 +2542,15 @@
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4158",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d7c0ad8e57486a7d3dd/2026",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4153",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d790ad8e57486a7d3dc/2026"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d790ad8e57486a7d3dc/2026",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 21211,
+  "shortName": "VII Sportowe LO im. J. Wybickiego w ZSSO",
+  "url": "http://www.zssogdynia.pl/",
+  "district": "Śródmieście",
   "profiles": [
    {
     "name": "1A społeczna (geogr-wos-ang-niem)",
@@ -2343,11 +2708,15 @@
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3751",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d8c0ad8e57486a7d3e9/2026",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3756",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d8f0ad8e57486a7d3ea/2026"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d8f0ad8e57486a7d3ea/2026",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 3620,
+  "shortName": "X LO w Gdyni",
+  "url": "http://xlogdynia.pl/",
+  "district": "Śródmieście",
   "profiles": [
    {
     "name": "1A-mat-fiz mat-fiz(ang-niem/hisz)",
@@ -2553,11 +2922,15 @@
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1375",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d990ad8e57486a7d3ee/2026",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2611",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d9d0ad8e57486a7d3ef/2026"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2d9d0ad8e57486a7d3ef/2026",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 18942,
+  "shortName": "XIV LO im. M. Kopernika",
+  "url": "http://lo.xivlo.pl/",
+  "district": "Chylonia",
   "profiles": [
    {
     "name": "1a Dwujęzyczna",
@@ -2872,11 +3245,51 @@
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3761",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dad0ad8e57486a7d3f9/2026",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3771",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2daf0ad8e57486a7d3fa/2026"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2daf0ad8e57486a7d3fa/2026",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
+  ]
+ },
+ {
+  "rspo": 11009,
+  "shortName": "XV LO Specjalne dla Niedosłyszących w ZSO nr 6",
+  "url": "https://www.nieslyszacygdynia.pl/",
+  "district": null,
+  "profiles": [],
+  "admission": "Liceum specjalne dla uczniów niedosłyszących (ZSO nr 6 w Gdyni); wymagane orzeczenie o potrzebie kształcenia specjalnego, podanie, świadectwo i zaświadczenie o wynikach egzaminu ósmoklasisty.",
+  "noOffer2026": true,
+  "doubts": [
+   "RSPO: 0 uczniów. Strona szkoły nie podaje oferty klasy I liceum na 2026/2027.",
+   "district: punkt z RSPO leży 9 m od granicy dzielnicy Redłowo na mapie dzielnic Gdyni (otwartedane.gdynia.pl); przy tej odległości przypisanie niepewne, wpisano null."
+  ],
+  "checkedUrls": [
+   "https://www.nieslyszacygdynia.pl/",
+   "https://www.nieslyszacygdynia.pl/index.php/rekrutacja",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
+  ]
+ },
+ {
+  "rspo": 21325,
+  "shortName": "XVI LO Specjalne w SOSW nr 2",
+  "url": "http://sosw2gdynia.pl/",
+  "district": "Śródmieście",
+  "profiles": [],
+  "admission": "Czteroletnie liceum specjalne w SOSW nr 2 dla uczniów z orzeczeniem o potrzebie kształcenia specjalnego (m.in. niepełnosprawność intelektualna w stopniu lekkim, słabowidzący, słabosłyszący, niepełnosprawność ruchowa, autyzm, zagrożenie niedostosowaniem społecznym); przyjęcie na podanie z orzeczeniem poradni, opinią i świadectwem.",
+  "noOffer2026": true,
+  "doubts": [
+   "Strona podaje ogólne zasady przyjęć bez oferty oddziałów na 2026/2027."
+  ],
+  "checkedUrls": [
+   "http://sosw2gdynia.pl/",
+   "http://sosw2gdynia.pl/rekrutacja/",
+   "http://sosw2gdynia.pl/sample-page/liceum/",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 196346,
+  "shortName": "XVII LO w Gdyni",
+  "url": "http://17logdynia.pl/",
+  "district": "Chwarzno-Wiczlino",
   "profiles": [
    {
     "name": "1A matematyczno - geograficzna (ang-niem/fra)",
@@ -3128,11 +3541,33 @@
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2521",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c990ad8e57486a7d2fc/2026",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2525",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c9c0ad8e57486a7d2fd/2026"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2c9c0ad8e57486a7d2fd/2026",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
+  ]
+ },
+ {
+  "rspo": 60373,
+  "shortName": "Prywatne Technikum Gastronomiczne E.T. Mazurek",
+  "url": "http://szkoly-mazurka.pl/",
+  "district": "Witomino",
+  "profiles": [],
+  "admission": null,
+  "noOffer2026": true,
+  "doubts": [
+   "Adres z RSPO (szkolymazurek.pl) nie działa (brak DNS), brak kopii w web.archive.org. Strona http://szkoly-mazurka.pl/ (domena z adresu e-mail w RSPO) zawiera tylko dane kontaktowe, bez oferty. Szkoła nie występuje w systemie nabor-pomorze.edu.com.pl."
+  ],
+  "checkedUrls": [
+   "https://szkolymazurek.pl",
+   "http://szkoly-mazurka.pl/",
+   "https://web.archive.org/cdx/search/cdx?url=szkolymazurek.pl&matchType=domain",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 279291,
+  "shortName": "Technikum „Cosinus” w Gdyni",
+  "url": "https://www.cosinus.pl/gdynia",
+  "district": null,
   "profiles": [
    {
     "name": "324002 [O] Technik weterynarii (ang-niem)",
@@ -3288,18 +3723,24 @@
   ],
   "admission": null,
   "noOffer2026": false,
-  "doubts": [],
+  "doubts": [
+   "district: punkt z RSPO leży 26 m od granicy dzielnicy Działki Leśne na mapie dzielnic Gdyni (otwartedane.gdynia.pl); przy tej odległości przypisanie niepewne, wpisano null."
+  ],
   "checkedUrls": [
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=520",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4456",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4466",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4461",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2351",
-   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2356"
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2356",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 18862,
+  "shortName": "Technikum Budowlane w CKZiU nr 2",
+  "url": "https://ckziu2-gdynia.edupage.org/",
+  "district": "Obłuże",
   "profiles": [
    {
     "name": "1TRW [O] Technik robót wykończeniowych w budownictwie (ang-niem)",
@@ -3355,11 +3796,15 @@
    "https://gdynia-stat.edu.com.pl/api/turtle/school-details/31908333/2026",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=297",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cd10ad8e57486a7d326/2026",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a66bc0897545ac52612/2025"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a66bc0897545ac52612/2025",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 12039,
+  "shortName": "Technikum Budowy Okrętów w CKZiU nr 1",
+  "url": "https://ckziu1-gdynia.edupage.org/",
+  "district": "Grabówek",
   "profiles": [
    {
     "name": "1TBJP TECHNIK BUDOWY JEDNOSTEK PŁYWAJĄCYCH",
@@ -3546,11 +3991,15 @@
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cf80ad8e57486a7d35f/2026",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2578",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cf90ad8e57486a7d360/2026",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a7dbc0897545ac5263a/2025"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a7dbc0897545ac5263a/2025",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 11366,
+  "shortName": "Technikum Chłodnicze w ZSChiE",
+  "url": "https://zschie.pl/",
+  "district": "Leszczynki",
   "profiles": [
    {
     "name": "1k [O] Technik chłodnictwa i klimatyzacji (ang-niem)",
@@ -3608,11 +4057,15 @@
    "https://gdynia-stat.edu.com.pl/api/turtle/school-details/36792911/2026",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=640",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dc50ad8e57486a7d429/2026",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7afdbc0897545ac526da/2025"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7afdbc0897545ac526da/2025",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 23054,
+  "shortName": "Technikum Ekonomiczne w ZSA-E",
+  "url": "http://www.zsae.gdynia.pl/",
+  "district": "Orłowo",
   "profiles": [
    {
     "name": "1A1 TE, technik ekonomista (dwujęzyczna z jęz. ang)",
@@ -3882,11 +4335,15 @@
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4088",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db60ad8e57486a7d401/2026",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=606",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db30ad8e57486a7d3fe/2026"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db30ad8e57486a7d3fe/2026",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 11365,
+  "shortName": "Technikum Elektroniczne nr 1 w ZSChiE",
+  "url": "https://zschie.pl/",
+  "district": "Leszczynki",
   "profiles": [
    {
     "name": "1ai [O] Technik informatyk (ang-niem)",
@@ -4130,11 +4587,15 @@
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b01bc0897545ac526e4/2025",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4323",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dcf0ad8e57486a7d436/2026",
-   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=649"
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=649",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 11768,
+  "shortName": "Technikum Gastronomiczne w ZSH-G",
+  "url": "http://zshg.pl/",
+  "district": "Grabówek",
   "profiles": [
    {
     "name": "1TG [O] Technik żywienia i usług gastronomicznych (ang-niem,fra)",
@@ -4185,11 +4646,32 @@
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=101",
    "https://gdynia-stat.edu.com.pl/api/turtle/school-details/51787406/2026",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1385",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dbc0ad8e57486a7d40a/2026"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dbc0ad8e57486a7d40a/2026",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
+  ]
+ },
+ {
+  "rspo": 23094,
+  "shortName": "Technikum Handlowe w ZSA-E",
+  "url": "http://www.zsae.gdynia.pl/",
+  "district": "Orłowo",
+  "profiles": [],
+  "admission": null,
+  "noOffer2026": true,
+  "doubts": [
+   "RSPO: 0 uczniów. Szkoła nie występuje w ofercie systemu nabor-pomorze.edu.com.pl na 2026/2027 (w ZSA-E rekrutuje Technikum Ekonomiczne)."
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "http://www.zsae.gdynia.pl/",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 11767,
+  "shortName": "Technikum Hotelarskie w ZSH-G",
+  "url": "http://zshg.pl/",
+  "district": "Grabówek",
   "profiles": [
    {
     "name": "1TH [O] Technik hotelarstwa (ang-fra)",
@@ -4278,11 +4760,15 @@
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1390",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db80ad8e57486a7d407/2026",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=1397",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db90ad8e57486a7d408/2026"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2db90ad8e57486a7d408/2026",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 11852,
+  "shortName": "Technikum Mechaniczne nr 1 w CKZiU nr 1",
+  "url": "https://ckziu1-gdynia.edupage.org/",
+  "district": "Grabówek",
   "profiles": [
    {
     "name": "1TM TECHNIK MECHANIK",
@@ -4436,11 +4922,15 @@
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a7dbc0897545ac5263c/2025",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2602",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2cfb0ad8e57486a7d364/2026",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a7ebc0897545ac5263e/2025"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a7ebc0897545ac5263e/2025",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 12154,
+  "shortName": "Technikum nr 3 w CKZiU nr 2",
+  "url": "https://ckziu2-gdynia.edupage.org/",
+  "district": "Obłuże",
   "profiles": [
    {
     "name": "1TH [O] Technik handlowiec (ang-niem)",
@@ -4634,11 +5124,15 @@
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a71bc0897545ac5261e/2025",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=300",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2ce10ad8e57486a7d330/2026",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a70bc0897545ac5261b/2025"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7a70bc0897545ac5261b/2025",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 19685,
+  "shortName": "Technikum TEB Edukacja w Gdyni",
+  "url": "https://www.technikum.pl",
+  "district": "Śródmieście",
   "profiles": [
    {
     "name": "1A Technik weterynarii",
@@ -4806,11 +5300,15 @@
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4228",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4233",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4238",
-   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4243"
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4243",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 4616,
+  "shortName": "Technikum Transportowe w ZSET",
+  "url": "http://www.zsetgdynia.pl/",
+  "district": null,
   "profiles": [
    {
     "name": "1A [O] Technik architektury krajobrazu i arborystyki (ang-ros)",
@@ -5071,7 +5569,8 @@
   "admission": null,
   "noOffer2026": false,
   "doubts": [
-   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026"
+   "Progi 2026/2025 z serwisu statystyk VULCAN gdynia-stat.edu.com.pl (pole 'Liczba punktów ostatniego zakwalifikowanego - próg punktowy'); lista lat w tym serwisie nie pokazuje jeszcze 2026, ale API zwraca dane 2026",
+   "district: punkt z RSPO leży 22 m od granicy dzielnicy Chylonia na mapie dzielnic Gdyni (otwartedane.gdynia.pl); przy tej odległości przypisanie niepewne, wpisano null."
   ],
   "checkedUrls": [
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=113",
@@ -5092,11 +5591,15 @@
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b06bc0897545ac526ec/2025",
    "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=50",
    "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/6abc2dd60ad8e57486a7d43f/2026",
-   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b08bc0897545ac526ee/2025"
+   "https://gdynia-stat.edu.com.pl/api/turtle/offered-group-details/68ca7b08bc0897545ac526ee/2025",
+   "https://otwartedane.gdynia.pl/pl/dataset/6197975f-bfb2-4ccd-a56f-6dd645048a88/resource/973c73dc-82cd-4da6-a771-f4b7826036e1/download/dzielnice_gdyni.zip"
   ]
  },
  {
   "rspo": 12233,
+  "shortName": "I LO im. M. Skłodowskiej-Curie w Sopocie",
+  "url": "https://1losopot.pl",
+  "district": null,
   "profiles": [
    {
     "name": "1a1 POLITECHNICZNY",
@@ -5466,6 +5969,9 @@
  },
  {
   "rspo": 5431,
+  "shortName": "II LO im. B. Chrobrego w Sopocie",
+  "url": "https://www.lo2.sopot.pl",
+  "district": null,
   "profiles": [
    {
     "name": "1A humanistyczno-społeczna",
@@ -5620,6 +6126,9 @@
  },
  {
   "rspo": 5519,
+  "shortName": "III LO im. A. Osieckiej w Sopocie",
+  "url": "https://www.3lo.sopot.pl/",
+  "district": null,
   "profiles": [
    {
     "name": "1A lingwistyczna",
@@ -5855,7 +6364,42 @@
   ]
  },
  {
+  "rspo": 483083,
+  "shortName": "Liceum LAS Academy w Sopocie",
+  "url": "https://www.lasacademy.pl",
+  "district": null,
+  "profiles": [],
+  "admission": "Liceum realizujące program Matury Międzynarodowej (IB DP); rekrutacja przez formularz na stronie.",
+  "noOffer2026": true,
+  "doubts": [
+   "Na 2026/2027 szkoła prowadzi rekrutację tylko do klasy 3 LO (1. IB) i 4 LO (2. IB); brak naboru do klasy pierwszej."
+  ],
+  "checkedUrls": [
+   "https://lasacademy.pl/rekrutacja/",
+   "https://lasacademy.pl/liceum/"
+  ]
+ },
+ {
+  "rspo": 5060,
+  "shortName": "Sopocka Akademia Tenisowa",
+  "url": "https://www.akademiatenisowa.pl",
+  "district": null,
+  "profiles": [],
+  "admission": "Szkoła płatna (czesne 1500 zł/mies., wpisowe 1500 zł). Rekrutacja: rozmowa kwalifikacyjna i świadectwo ukończenia szkoły podstawowej; pierwszeństwo mają uczniowie skierowani przez Polski Związek Tenisowy, kluby i związki sportowe.",
+  "noOffer2026": true,
+  "doubts": [
+   "Strona podaje ogólną ofertę bez podziału na oddziały i bez roku szkolnego: j. angielski 5 godz., j. niemiecki lub rosyjski 3 godz., możliwość nauki hiszpańskiego, „rozszerzenia od I klasy liceum” bez wskazania przedmiotów. Nie wpisano profilu 2026/2027."
+  ],
+  "checkedUrls": [
+   "https://akademiatenisowa.pl/oferta/rekrutacja/",
+   "https://akademiatenisowa.pl/oferta/system-stacjonarny/"
+  ]
+ },
+ {
   "rspo": 12126,
+  "shortName": "Sopockie Autonomiczne Liceum",
+  "url": "https://sal.gfo.pl/",
+  "district": null,
   "profiles": [
    {
     "name": "1 [O] ang (ang-hisz,niem)",
@@ -5907,7 +6451,25 @@
   ]
  },
  {
+  "rspo": 275264,
+  "shortName": "VI LO Specjalne w ZS nr 6 w Sopocie",
+  "url": "https://zss6sopot.pl",
+  "district": null,
+  "profiles": [],
+  "admission": "Szkoła przyszpitalna (Zespół Szkół nr 6 przy Pomorskim Centrum Reumatologicznym w Sopocie): uczeń jest przyjmowany do szkoły w dniu przyjęcia do szpitala; brak naboru do klas pierwszych.",
+  "noOffer2026": true,
+  "doubts": [],
+  "checkedUrls": [
+   "https://zss6sopot.pl/",
+   "https://zss6sopot.pl/o-szkole,29,pl",
+   "https://zss6sopot.pl/informacje-o-szkole,27,pl"
+  ]
+ },
+ {
   "rspo": 11657,
+  "shortName": "Technikum nr 1 w ZST w Sopocie",
+  "url": "https://zstsopot.edupage.org/",
+  "district": null,
   "profiles": [
    {
     "name": "1Th [O] Technik hotelarstwa (ang-niem)",

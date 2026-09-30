@@ -636,5 +636,367 @@
    "https://www.szkolazezwierzetami.edu.pl/rekrutacja-na-rok-szkolny-2026-2027/"
   ],
   "rspo": 27487
+ },
+ {
+  "shortName": "Technikum dla Młodzieży (SKK), ul. Miła 2",
+  "url": "https://najlepszetechnikum.pl/warszawa/",
+  "profiles": [
+   {
+    "name": "Technikum Weterynaryjne",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik weterynarii",
+    "qualifications": [
+     "ROL.11",
+     "ROL.12"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://najlepszetechnikum.pl/warszawa/"
+   },
+   {
+    "name": "Technikum Weterynaryjne – Oddział Przygotowania Wojskowego (OPW)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik weterynarii",
+    "qualifications": [
+     "ROL.11",
+     "ROL.12"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://najlepszetechnikum.pl/warszawa/"
+   }
+  ],
+  "admission": "Bez punktacji w skali 200; zapisy poza elektronicznym systemem naboru: formularz online, telefon lub wizyta w sekretariacie, rezerwacja miejsca (liczba ograniczona); dokumenty: świadectwo ukończenia SP, podanie, zaświadczenie o wyniku egzaminu ósmoklasisty, karta zdrowia, zdjęcia. „Nabór na rok szkolny 26/27 już trwa”. Źródła: https://najlepszetechnikum.pl/warszawa/ , https://najlepszetechnikum.pl/warszawa-informacje-rekrutacyjne/",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona profilu https://najlepszetechnikum.pl/warszawa/technikum-weterynaryjne-warszawa/ ma w tytule „Rok Szkolny 25/26” i podaje rozszerzenia chemia, biologia; strona OPW https://najlepszetechnikum.pl/technikum-weterynaryjne-oddzialu-przygotowania-wojskowego-opw-3/ jest niedatowana i podaje rozszerzenia biologia, chemia, WOS, geografia. Rozszerzeń nie wpisano, bo nie pochodzą z datowanej oferty 2026/27.",
+   "Oba profile wynikają z datowanej strony głównej („NABÓR NA ROK SZKOLNY 26/27”, lista „Nasze technika”) i z wykazu podręczników „klasa 1 Technikum Wet. 2026-27”. Liczby miejsc nie podano.",
+   "RSPO nie podaje WWW (e-mail szkoly.warszawa@skk.pl); strona szkoły to https://najlepszetechnikum.pl/warszawa/ (podlinkowana ze skk.pl jako „Technikum dla Młodzieży”), adres ul. Miła 2 zgodny z RSPO."
+  ],
+  "checkedUrls": [
+   "https://www.skk.pl/",
+   "https://najlepszetechnikum.pl/",
+   "https://najlepszetechnikum.pl/warszawa/",
+   "https://najlepszetechnikum.pl/warszawa-informacje-rekrutacyjne/",
+   "https://najlepszetechnikum.pl/warszawa/technikum-weterynaryjne-warszawa/",
+   "https://najlepszetechnikum.pl/technikum-weterynaryjne-oddzialu-przygotowania-wojskowego-opw-3/",
+   "https://najlepszetechnikum.pl/wp-content/uploads/2026/08/Wykaz-podrecznikow-klasa-1-Technikum-Wet.-2026-27.docx"
+  ],
+  "rspo": 272807
+ },
+ {
+  "shortName": "Technikum Hotelarskie (Szkoły Beaty Mydłowskiej)",
+  "url": "https://szkolymydlowskiej.pl",
+  "profiles": [
+   {
+    "name": "technik hotelarstwa",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik hotelarstwa",
+    "qualifications": [
+     "HGT.03",
+     "HGT.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "hisz"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolymydlowskiej.pl/dokumenty/REKRUTACJA/Technikum/HOT/Podanie%20o%20przyj%C4%99cie%20do%20Technikum%20Hotelarskie%202026-2027%20klasa%201.pdf"
+   }
+  ],
+  "admission": "Bez punktacji w skali 200: o przyjęciu decyduje kolejność złożenia dokumentów/podpisania umowy; podanie składa się osobiście z rodzicem w sekretariacie (ul. Kaleńska 3) wraz ze świadectwem, zaświadczeniem o wyniku egzaminu ósmoklasisty, zdjęciem, kwestionariuszem i zaświadczeniem lekarskim. Źródło: https://szkolymydlowskiej.pl/rekrutacja/rekrutacja-liceum-i-technikum/",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona rekrutacji i opisy kierunków (https://szkolymydlowskiej.pl/oferta/technikum/) są niedatowane; profil wpisano na podstawie datowanego formularza podania „2026-2027 klasa 1” (https://szkolymydlowskiej.pl/rekrutacja/dokumenty-rekrutacyjne/). W formularzu podany jest tylko drugi język obcy (hiszpański); pierwszego języka ani liczby miejsc nie podano.",
+   "Niedatowana strona https://szkolymydlowskiej.pl/oferta/technikum/technik-hotelarstwa/ podaje przedmiot rozszerzony: język angielski; nie wpisano do extended."
+  ],
+  "checkedUrls": [
+   "https://www.szkolymydlowskiej.pl",
+   "https://szkolymydlowskiej.pl/rekrutacja/rekrutacja-liceum-i-technikum/",
+   "https://szkolymydlowskiej.pl/rekrutacja/dokumenty-rekrutacyjne/",
+   "https://szkolymydlowskiej.pl/oferta/technikum/",
+   "https://szkolymydlowskiej.pl/oferta/technikum/technik-hotelarstwa/",
+   "https://szkolymydlowskiej.pl/dokumenty/REKRUTACJA/Technikum/HOT/Podanie%20o%20przyj%C4%99cie%20do%20Technikum%20Hotelarskie%202026-2027%20klasa%201.pdf"
+  ],
+  "rspo": 28704
+ },
+ {
+  "shortName": "Technikum Obsługi Turystycznej (Szkoły Beaty Mydłowskiej)",
+  "url": "https://szkolymydlowskiej.pl",
+  "profiles": [
+   {
+    "name": "technik organizacji turystyki",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik organizacji turystyki",
+    "qualifications": [
+     "HGT.07",
+     "HGT.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "hisz"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolymydlowskiej.pl/dokumenty/REKRUTACJA/Technikum/TOT/Podanie%20o%20przyj%C4%99cie%20do%20Technikum%20obs%C5%82ugi%20turystycznej%202026-2027%20klasa%201.pdf"
+   }
+  ],
+  "admission": "Bez punktacji w skali 200: o przyjęciu decyduje kolejność złożenia dokumentów/podpisania umowy; podanie składa się osobiście z rodzicem w sekretariacie (ul. Kaleńska 3) wraz ze świadectwem, zaświadczeniem o wyniku egzaminu ósmoklasisty, zdjęciem, kwestionariuszem i zaświadczeniem lekarskim. Źródło: https://szkolymydlowskiej.pl/rekrutacja/rekrutacja-liceum-i-technikum/",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona rekrutacji i opisy kierunków (https://szkolymydlowskiej.pl/oferta/technikum/) są niedatowane; profil wpisano na podstawie datowanego formularza podania „2026-2027 klasa 1” (https://szkolymydlowskiej.pl/rekrutacja/dokumenty-rekrutacyjne/). W formularzu podany jest tylko drugi język obcy (hiszpański); pierwszego języka ani liczby miejsc nie podano."
+  ],
+  "checkedUrls": [
+   "https://www.szkolymydlowskiej.pl",
+   "https://szkolymydlowskiej.pl/rekrutacja/rekrutacja-liceum-i-technikum/",
+   "https://szkolymydlowskiej.pl/rekrutacja/dokumenty-rekrutacyjne/",
+   "https://szkolymydlowskiej.pl/oferta/technikum/",
+   "https://szkolymydlowskiej.pl/oferta/technikum/technik-organizacji-turystyki/",
+   "https://szkolymydlowskiej.pl/dokumenty/REKRUTACJA/Technikum/TOT/Podanie%20o%20przyj%C4%99cie%20do%20Technikum%20obs%C5%82ugi%20turystycznej%202026-2027%20klasa%201.pdf"
+  ],
+  "rspo": 28887
+ },
+ {
+  "shortName": "Technikum Zawodowe (Szkoły Beaty Mydłowskiej)",
+  "url": "https://szkolymydlowskiej.pl",
+  "profiles": [
+   {
+    "name": "technik żywienia i usług gastronomicznych",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik żywienia i usług gastronomicznych",
+    "qualifications": [
+     "HGT.02",
+     "HGT.12"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "hisz"
+    ],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolymydlowskiej.pl/dokumenty/REKRUTACJA/Technikum/%C5%BBYWIENIE/Podanie%20o%20przyj%C4%99cie%20do%20TG%202026-2027%20klasa%201.pdf"
+   }
+  ],
+  "admission": "Bez punktacji w skali 200: o przyjęciu decyduje kolejność złożenia dokumentów/podpisania umowy; podanie składa się osobiście z rodzicem w sekretariacie (ul. Kaleńska 3) wraz ze świadectwem, zaświadczeniem o wyniku egzaminu ósmoklasisty, zdjęciem, kwestionariuszem i zaświadczeniem lekarskim. Źródło: https://szkolymydlowskiej.pl/rekrutacja/rekrutacja-liceum-i-technikum/",
+  "noOffer2026": false,
+  "doubts": [
+   "Strona rekrutacji i opisy kierunków (https://szkolymydlowskiej.pl/oferta/technikum/) są niedatowane; profil wpisano na podstawie datowanego formularza podania „2026-2027 klasa 1” (https://szkolymydlowskiej.pl/rekrutacja/dokumenty-rekrutacyjne/). W formularzu podany jest tylko drugi język obcy (hiszpański); pierwszego języka ani liczby miejsc nie podano.",
+   "Pozostałe zawody Technikum Zawodowego (technik informatyk, programista, logistyk, usług fryzjerskich) są w ofercie strony i we wspólnym formularzu podania bez daty („Podanie o przyjęcie do TZ - inf, pr, fr, log”, drugi język niemiecki lub rosyjski: https://szkolymydlowskiej.pl/dokumenty/REKRUTACJA/Technikum/INF%2C%20PROGRAMISTA%2C%20LOGISTYK%2C%20FRYZJER/Podanie%20o%20przyj%C4%99cie%20do%20TZ%20-%20inf%2C%20pr%2C%20fr%2C%20log.pdf); nie wpisano ich jako profili 2026/2027."
+  ],
+  "checkedUrls": [
+   "https://www.szkolymydlowskiej.pl",
+   "https://szkolymydlowskiej.pl/rekrutacja/rekrutacja-liceum-i-technikum/",
+   "https://szkolymydlowskiej.pl/rekrutacja/dokumenty-rekrutacyjne/",
+   "https://szkolymydlowskiej.pl/oferta/technikum/",
+   "https://szkolymydlowskiej.pl/oferta/technikum/technik-zywienia-i-uslug-gastronomicznych/",
+   "https://szkolymydlowskiej.pl/dokumenty/REKRUTACJA/Technikum/%C5%BBYWIENIE/Podanie%20o%20przyj%C4%99cie%20do%20TG%202026-2027%20klasa%201.pdf",
+   "https://szkolymydlowskiej.pl/dokumenty/REKRUTACJA/Technikum/INF%2C%20PROGRAMISTA%2C%20LOGISTYK%2C%20FRYZJER/Podanie%20o%20przyj%C4%99cie%20do%20TZ%20-%20inf%2C%20pr%2C%20fr%2C%20log.pdf"
+  ],
+  "rspo": 90982
+ },
+ {
+  "shortName": "Technikum TEB Edukacja w Warszawie",
+  "url": "https://szkolasrednia.teb.pl/szkoly/d/technikum/warszawa/",
+  "profiles": [
+   {
+    "name": "Technik fotografii i multimediów – klasa patronacka Canon",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik fotografii i multimediów",
+    "qualifications": [
+     "AUD.02",
+     "AUD.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/2026_PODANIE_O_PRZYJECIE_DO_TECHNIKUM_WAR-1.pdf"
+   },
+   {
+    "name": "Technik informatyk – cyberbezpieczeństwo",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik informatyk",
+    "qualifications": [
+     "INF.02",
+     "INF.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/2026_PODANIE_O_PRZYJECIE_DO_TECHNIKUM_WAR-1.pdf"
+   },
+   {
+    "name": "Technik informatyk i E-SPORT – klasa patronacka MSI",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik informatyk",
+    "qualifications": [
+     "INF.02",
+     "INF.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/2026_PODANIE_O_PRZYJECIE_DO_TECHNIKUM_WAR-1.pdf"
+   },
+   {
+    "name": "Technik programista – klasa patronacka Cisco Networking Academy",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik programista",
+    "qualifications": [
+     "INF.03",
+     "INF.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/2026_PODANIE_O_PRZYJECIE_DO_TECHNIKUM_WAR-1.pdf"
+   },
+   {
+    "name": "Technik programista ze spec. Sztuczna inteligencja – klasa patronacka Intel",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik programista",
+    "qualifications": [
+     "INF.03",
+     "INF.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/2026_PODANIE_O_PRZYJECIE_DO_TECHNIKUM_WAR-1.pdf"
+   },
+   {
+    "name": "Technik reklamy – grafika i media społecznościowe",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik reklamy",
+    "qualifications": [
+     "PGF.07",
+     "PGF.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/2026_PODANIE_O_PRZYJECIE_DO_TECHNIKUM_WAR-1.pdf"
+   },
+   {
+    "name": "Technik weterynarii",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik weterynarii",
+    "qualifications": [
+     "ROL.11",
+     "ROL.12"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [],
+    "scoredSubjects": [],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/2026_PODANIE_O_PRZYJECIE_DO_TECHNIKUM_WAR-1.pdf"
+   }
+  ],
+  "admission": "Bez punktacji w skali 200. Regulamin rekrutacji na 2026/2027: zgłoszenia rozpatrywane według kolejności wpływu kompletu dokumentów; w rekrutacji podstawowej nie są uwzględniane podania kandydatów z oceną zachowania naganną lub nieodpowiednią; możliwa rozmowa o potencjale kandydata; dla technika weterynarii wymagana zgoda rodzica na szkolenie z prowadzenia pojazdu kat. B. Harmonogram: podania 1.02–22.06.2026, dokumenty 27.06–10.07.2026, lista zakwalifikowanych 15.07.2026, wyniki 21.07.2026, umowy 22.07–31.08.2026. Źródła: https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/Technikum-regulamin-rekrutacji.pdf (skan), https://szkolasrednia.teb.pl/miasta/d/warszawa/rekrutacja/",
+  "noOffer2026": false,
+  "doubts": [
+   "Lista kierunków pochodzi z formularza „Podanie o przyjęcie do technikum” (oferta dla klasy pierwszej w naborze 2026/2027, Warszawa). Liczby miejsc nie podano; regulamin zastrzega nieuruchomienie oddziału przy zbyt małej liczbie chętnych.",
+   "URL z RSPO https://technikum.pl/miasta/warszawa przekierowuje na https://szkolasrednia.teb.pl/miasta/d/warszawa/."
+  ],
+  "checkedUrls": [
+   "https://technikum.pl/miasta/warszawa",
+   "https://szkolasrednia.teb.pl/miasta/d/warszawa/",
+   "https://szkolasrednia.teb.pl/miasta/d/warszawa/oferta/",
+   "https://szkolasrednia.teb.pl/szkoly/d/technikum/warszawa/",
+   "https://szkolasrednia.teb.pl/miasta/d/warszawa/rekrutacja/",
+   "https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/2026_PODANIE_O_PRZYJECIE_DO_TECHNIKUM_WAR-1.pdf",
+   "https://szkolasrednia.teb.pl/wp-content/uploads/2025/11/Technikum-regulamin-rekrutacji.pdf"
+  ],
+  "rspo": 478178
+ },
+ {
+  "shortName": "Technikum „Cosinus Plus” w Warszawie",
+  "url": "https://www.cosinus.pl/warszawa",
+  "profiles": [],
+  "admission": "Bez punktacji w skali 200; szkoła niepubliczna bezpłatna, poza systemem elektronicznego naboru. Rekrutacja 2026: dokumenty od 2.02.2026 (kopia świadectwa kl. 7, kwestionariusz osobowy, skierowanie na badania medycyny pracy), listy zakwalifikowanych na koniec każdego miesiąca (31.03, 30.04, 29.05, 30.06.2026), uzupełnienie oryginałów do 11.07.2026, listy przyjętych 10.07.2026; zapisy w sekretariacie ul. Łucka 13 lub online. Źródło: https://www.cosinus.pl/rekrutacja/young (sekcja Warszawa, „Technikum Informatyczne »Cosinus Plus«”).",
+  "noOffer2026": false,
+  "doubts": [
+   "Lista kierunków dla Warszawy na https://www.cosinus.pl/warszawa („Rekrutacja na kierunki: technik informatyk, technik programista, technik spedytor, technik usług fryzjerskich, technik cyberbezpieczeństwa”) nie ma daty ani roku szkolnego; ogólnosieciowa strona https://www.cosinus.pl/young/technikum mówi o naborze do klas I w 2026/2027, ale bez przypisania zawodów do Warszawy. Profili nie wpisano. RSPO wymienia też technika lotniskowych służb operacyjnych i technika elektromobilności.",
+   "Kopia strony Warszawy z 13.04.2026 (https://web.archive.org/web/20260413013757/https://www.cosinus.pl/warszawa), czyli z okresu naboru 2026, w sekcji „Technikum” wymienia: technik elektromobilności, informatyk, programista, spedytor, usług fryzjerskich; lista nie ma daty ani roku szkolnego, więc nie wpisano jej jako profili 2026/2027.",
+   "Harmonogram nazywa szkołę „Technikum Informatyczne »Cosinus Plus«” (ul. Łucka 13), RSPO: Technikum „Cosinus Plus” w Warszawie, ul. Łucka 13."
+  ],
+  "checkedUrls": [
+   "https://www.cosinus.pl/",
+   "https://www.cosinus.pl/warszawa",
+   "https://www.cosinus.pl/young/technikum",
+   "https://www.cosinus.pl/rekrutacja/young",
+   "https://web.archive.org/web/20260413013757/https://www.cosinus.pl/warszawa"
+  ],
+  "rspo": 278508
  }
 ]
