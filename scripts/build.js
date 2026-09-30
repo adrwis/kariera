@@ -1,14 +1,14 @@
 // NextMove — Build script (minification)
-// Uses esbuild from parent project (adriana-gusciora-pl)
+// Requires: npm install
 
-const esbuild = require('C:/Users/adria/OneDrive/Dokumenty/GitHub/adriana-gusciora-pl/node_modules/.pnpm/esbuild@0.25.12/node_modules/esbuild');
+const esbuild = require('esbuild');
 const path = require('path');
 const fs = require('fs');
 
 const ROOT = path.resolve(__dirname, '..');
 
 async function build() {
-  const jsFiles = ['app.js', 'search.js', 'animations.js'];
+  const jsFiles = ['app.js', 'search.js', 'szkoly.js', 'animations.js'];
   let totalSaved = 0;
 
   // Minify JS files

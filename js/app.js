@@ -66,6 +66,8 @@
     landing: document.getElementById('view-landing'),
     wyniki: document.getElementById('view-wyniki'),
     zawod: document.getElementById('view-zawod'),
+    szkoly: document.getElementById('view-szkoly'),
+    szkola: document.getElementById('view-szkola'),
   };
 
   const scrollPositions = {};
@@ -93,8 +95,8 @@
       window.scrollTo(0, 0);
     }
 
-    // Focus management: move focus to heading of new view (skip 'zawod' — handled by render functions)
-    if (name !== 'zawod') {
+    // Focus management: move focus to heading of new view (skip views rendered async — handled by render functions)
+    if (name !== 'zawod' && name !== 'szkoly' && name !== 'szkola') {
       const heading = views[name].querySelector('h1, h2');
       if (heading) {
         heading.setAttribute('tabindex', '-1');
@@ -111,6 +113,8 @@
     const search = window.location.search;
     if (path.startsWith('/wyniki')) return { view: 'wyniki', params: new URLSearchParams(search) };
     if (path.startsWith('/zawod/')) return { view: 'zawod', params: path.replace('/zawod/', '') };
+    if (path === '/szkoly' || path === '/szkoly/') return { view: 'szkoly', params: new URLSearchParams(search) };
+    if (path.startsWith('/szkola/')) return { view: 'szkola', params: path.replace('/szkola/', '') };
     return { view: 'landing', params: null };
   }
 
@@ -159,6 +163,16 @@
         showView('zawod');
         handleCareerDetail(route.params);
         // Title/meta set inside renderRichDetail / renderFallbackDetail
+        break;
+
+      case 'szkoly':
+        showView('szkoly');
+        Szkoly.renderList(document.getElementById('szkolyView'), route.params);
+        break;
+
+      case 'szkola':
+        showView('szkola');
+        Szkoly.renderDetail(document.getElementById('szkolaView'), route.params);
         break;
 
       default:
@@ -870,6 +884,13 @@
 
     // Load Wikipedia thumbnails for famous people
     loadFamousThumbs(c.famousPeople);
+
+    // Secondary schools (Gdańsk) — loaded lazily, skipped if user navigated away
+    Szkoly.careerSectionHtml(c).then(html => {
+      if (!html || currentCareerData !== c) return;
+      const anchor = careerDetail.querySelector('.career-columns--detail');
+      if (anchor) anchor.insertAdjacentHTML('afterend', html);
+    });
   }
 
   function renderFallbackDetail(kzis) {
@@ -1234,17 +1255,31 @@
     if (school.modes && school.modes.length) {
       for (const mode of school.modes) {
         const modeLabel = escapeHtml(mode.type.charAt(0).toUpperCase() + mode.type.slice(1));
+        const tuitionSrc = mode.tuition && isHttpUrl(mode.tuitionSource)
+          ? ` <a href="${escapeAttr(mode.tuitionSource)}" target="_blank" rel="noopener" class="school-popup__src">źródło${mode.tuitionYear ? ', ' + escapeHtml(mode.tuitionYear) : ''}</a>`
+          : '';
         const paidBadge = mode.paid
-          ? `<span class="school-popup__badge school-popup__badge--paid">płatne${mode.tuition ? ' · ' + escapeHtml(mode.tuition) : ''}</span>`
+          ? `<span class="school-popup__badge school-popup__badge--paid">płatne${mode.tuition ? ' · ' + escapeHtml(mode.tuition) : ''}</span>${tuitionSrc}`
           : '<span class="school-popup__badge school-popup__badge--free">bezpłatne</span>';
 
         let thresholdRows = '';
         if (mode.thresholds && mode.thresholds.length) {
+          const first = mode.thresholds[0];
+          const scaleNote = first.scaleMax
+            ? `Skala od 0 do ${escapeHtml(String(first.scaleMax))} pkt.`
+            : first.scaleFormula ? `Punkty liczone wzorem uczelni: ${escapeHtml(first.scaleFormula)}.` : '';
           thresholdRows = `
             <table class="school-popup__thresholds">
-              <thead><tr><th>Rok</th><th>Punkty</th></tr></thead>
+              <caption class="school-popup__caption">Punkty ostatniej przyjętej osoby. ${scaleNote}</caption>
+              <thead><tr><th>Rok rekrutacji</th><th>Punkty</th><th>Źródło</th></tr></thead>
               <tbody>
-                ${mode.thresholds.map(t => `<tr><td>${escapeHtml(String(t.year))}</td><td>${escapeHtml(String(t.points))} pkt</td></tr>`).join('')}
+                ${mode.thresholds.map(t => {
+                  const pts = String(t.points).replace('.', ',') + (t.scaleMax && t.scaleMax !== first.scaleMax ? ` / ${t.scaleMax}` : '');
+                  const src = isHttpUrl(t.sourceUrl)
+                    ? `<a href="${escapeAttr(t.sourceUrl)}" target="_blank" rel="noopener">link</a>`
+                    : '';
+                  return `<tr><td>${escapeHtml(String(t.year))}</td><td>${escapeHtml(pts)} pkt</td><td>${src}</td></tr>`;
+                }).join('')}
               </tbody>
             </table>`;
         }
@@ -1271,18 +1306,29 @@
 
     // Build requirements list
     let reqsHtml = '';
-    if (school.requirements && school.requirements.length) {
+    if ((school.requirements && school.requirements.length) || school.exam) {
+      const reqMeta = [
+        school.program ? `Kierunek: ${escapeHtml(school.program)}` : '',
+        school.requirementsYear ? `rekrutacja ${escapeHtml(school.requirementsYear)}` : '',
+      ].filter(Boolean).join(', ');
+      const reqSrc = isHttpUrl(school.requirementsSource)
+        ? ` <a href="${escapeAttr(school.requirementsSource)}" target="_blank" rel="noopener" class="school-popup__src">źródło</a>`
+        : '';
       reqsHtml = `
         <div class="school-popup__section">
-          <div class="school-popup__section-title">Wymagania maturalne</div>
+          <div class="school-popup__section-title">Co liczy się w rekrutacji</div>
+          ${reqMeta || reqSrc ? `<p class="school-popup__caption">${reqMeta}.${reqSrc}</p>` : ''}
+          ${school.requirements && school.requirements.length ? `
           <ul class="school-popup__requirements">
             ${school.requirements.map(r => `<li>${escapeHtml(r)}</li>`).join('')}
           </ul>
+          <p class="school-popup__caption">P oznacza maturę na poziomie podstawowym, R na poziomie rozszerzonym.</p>` : ''}
+          ${school.exam ? `<p class="school-popup__exam"><strong>Egzamin:</strong> ${escapeHtml(school.exam)}</p>` : ''}
         </div>`;
     }
 
     // Fallback if no data at all
-    const hasData = (school.modes && school.modes.length) || (school.thresholds && school.thresholds.length) || (school.requirements && school.requirements.length);
+    const hasData = (school.modes && school.modes.length) || (school.thresholds && school.thresholds.length) || (school.requirements && school.requirements.length) || school.exam;
     const noDataHtml = !hasData
       ? '<p style="font-size:0.88rem;color:var(--kr-text-muted);font-style:italic;">Szczegółowe dane rekrutacyjne będą dostępne wkrótce.</p>'
       : '';
@@ -1442,6 +1488,10 @@
   function escapeAttr(str) {
     if (!str) return '';
     return str.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  function isHttpUrl(str) {
+    return typeof str === 'string' && /^https?:\/\//i.test(str);
   }
 
   // --- Filters ---
@@ -1710,6 +1760,8 @@
   }
 
   // --- Init ---
+  Szkoly.init({ BASE, escapeHtml, escapeAttr, isHttpUrl, updateMeta, announce });
+
   async function init() {
     // Show loading state
     const searchBtn = document.getElementById('searchBtn');

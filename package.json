@@ -1,0 +1,12 @@
+{
+  "name": "nextmove",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node scripts/test-qa.js"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12",
+    "playwright": "1.58.2"
+  }
+}

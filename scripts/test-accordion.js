@@ -6,7 +6,7 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
-const { chromium } = require('C:/Users/adria/OneDrive/Dokumenty/GitHub/adriana-gusciora-pl/node_modules/.pnpm/playwright@1.58.2/node_modules/playwright');
+const { chromium } = require('playwright');
 
 const MIME = { '.html':'text/html','.css':'text/css','.js':'application/javascript','.json':'application/json','.svg':'image/svg+xml','.png':'image/png' };
 const ROOT = path.resolve(__dirname, '..');
@@ -114,7 +114,7 @@ server.listen(0, async () => {
     const sLinkTexts = await page.$$eval('.skill-links__link', els => els.map(e => e.textContent.trim()));
     ok(sLinkTexts.some(t => t.includes('Udemy')), 'Has Udemy link');
     ok(sLinkTexts.some(t => t.includes('Coursera')), 'Has Coursera link');
-    ok(sLinkTexts.some(t => t.includes('Szkolenia.com')), 'Has Szkolenia.com link');
+    // Szkolenia.com removed deliberately in 53eea6e
 
     // Click to collapse
     await firstSkill.click();

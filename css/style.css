@@ -2005,9 +2005,22 @@ main {
   border-bottom: none;
 }
 
-.school-popup__thresholds td:last-child {
+.school-popup__thresholds td:nth-child(2) {
   font-weight: 700;
   color: var(--kr-primary);
+}
+
+.school-popup__thresholds td:last-child a {
+  color: var(--kr-primary);
+  font-size: 0.8rem;
+}
+
+.school-popup__caption {
+  caption-side: top;
+  text-align: left;
+  font-size: 0.78rem;
+  color: var(--kr-text-muted);
+  padding-bottom: 0.4rem;
 }
 
 .school-popup__requirements {
@@ -2893,3 +2906,127 @@ main {
   .view { display: block !important; }
   .landing__split { display: block; }
 }
+
+/* ============================================
+   SZKOŁY ŚREDNIE (licea i technika)
+   ============================================ */
+.school-entry {
+  display: block;
+  margin-top: 1.5rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--kr-border);
+  border-left: 4px solid var(--kr-secondary);
+  border-radius: 12px;
+  background: var(--kr-card-bg);
+  color: var(--kr-text);
+  text-decoration: none;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+.school-entry:hover { box-shadow: var(--kr-card-shadow-hover); border-color: var(--kr-secondary); }
+.school-entry:focus-visible { outline: 3px solid var(--kr-focus-ring); outline-offset: 2px; }
+.school-entry__title {
+  display: block;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--kr-primary);
+}
+.school-entry__text { display: block; font-size: 0.88rem; color: var(--kr-text-muted); margin-top: 0.2rem; }
+
+.szkoly__loading, .szkoly__empty { color: var(--kr-text-muted); padding: 2rem 0; text-align: center; list-style: none; }
+.szkoly__filters { margin-top: 1.25rem; display: flex; flex-direction: column; gap: 1rem; }
+.szkoly__fieldset { border: none; padding: 0; margin: 0; min-width: 0; }
+.szkoly__legend {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--kr-text-muted);
+  margin-bottom: 0.4rem;
+  padding: 0;
+}
+.szkoly__chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.szkoly__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 44px;
+  padding: 0 0.85rem;
+  border: 1px solid var(--kr-border);
+  border-radius: 999px;
+  background: var(--kr-card-bg);
+  font-size: 0.88rem;
+  cursor: pointer;
+}
+.szkoly__chip:has(input:checked) { background: var(--kr-tag-bg); border-color: var(--kr-primary-light); color: var(--kr-tag-text); font-weight: 600; }
+.szkoly__chip:has(input:focus-visible) { outline: 3px solid var(--kr-focus-ring); outline-offset: 2px; }
+.szkoly__chip input { accent-color: var(--kr-primary-light); margin: 0; }
+.szkoly__row { display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-end; }
+.szkoly__field { display: flex; flex-direction: column; flex: 1 1 14rem; min-width: 0; }
+.szkoly__select {
+  min-height: 44px;
+  padding: 0 0.75rem;
+  border: 1px solid var(--kr-input-border);
+  border-radius: 10px;
+  background: var(--kr-input-bg);
+  color: var(--kr-text);
+  font: inherit;
+  font-size: 1rem;
+}
+.szkoly__chip--solo { flex: 0 0 auto; }
+.szkoly__list { list-style: none; padding: 0; margin: 0; }
+.szkoly__badges { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 0.5rem 0; }
+.szkoly__badge {
+  font-size: 0.75rem;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background: var(--kr-tag-bg);
+  color: var(--kr-tag-text);
+}
+.szkoly__badge--liceum { background: var(--kr-primary-light); color: #fff; }
+.szkoly__badge--technikum { background: var(--kr-secondary); color: #fff; }
+.szkoly__badge--progi { border: 1px solid var(--kr-secondary); background: transparent; color: var(--kr-secondary); }
+.szkoly__card-profiles { margin: 0.4rem 0 0; padding-left: 1.1rem; font-size: 0.88rem; color: var(--kr-text); }
+.szkoly__card-profiles li { margin: 0.1rem 0; }
+.szkoly__more { list-style: none; margin-left: -1.1rem; color: var(--kr-text-muted); }
+.szkoly__card-none { font-size: 0.85rem; color: var(--kr-text-muted); font-style: italic; margin: 0.4rem 0 0; }
+.szkoly__footnote { margin-top: 2rem; font-size: 0.8rem; color: var(--kr-text-muted); }
+
+.szkola__section { margin-top: 2rem; }
+.szkola__muted { color: var(--kr-text-muted); font-size: 0.85rem; }
+.szkola__profiles { list-style: none; padding: 0; margin: 0.75rem 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: 0.75rem; }
+.szkola__profile { border: 1px solid var(--kr-border); border-radius: 12px; padding: 1rem; background: var(--kr-card-bg); }
+.szkola__profile-name { font-family: 'Space Grotesk', sans-serif; font-size: 1rem; color: var(--kr-primary); margin: 0 0 0.5rem; }
+.szkola__dl { margin: 0; font-size: 0.85rem; }
+.szkola__dl div { margin: 0.25rem 0; }
+.szkola__dl dt { display: inline; color: var(--kr-text-muted); }
+.szkola__dl dt::after { content: ': '; }
+.szkola__dl dd { display: inline; margin: 0; }
+.szkola__threshold { margin-top: 0.5rem; font-size: 0.85rem; }
+.szkola__threshold strong { color: var(--kr-primary); }
+.szkola__threshold a, .szkola__profile-src a, .szkola__sources a, .career-column__text a { color: var(--kr-secondary); }
+.szkola__profile-src { margin-top: 0.5rem; font-size: 0.8rem; }
+.szkola__table-wrap { overflow-x: auto; }
+.szkola__matura td:nth-child(2) { font-weight: 400; color: var(--kr-text); }
+.szkola__matura td:last-child { font-weight: 700; color: var(--kr-primary); }
+.szkola__sources { padding-left: 1.1rem; font-size: 0.85rem; }
+.szkola__tags { display: flex; flex-wrap: wrap; gap: 0.5rem; list-style: none; padding: 0; }
+
+.career-secondary {
+  margin-top: 2rem;
+  padding: 1.25rem;
+  border: 1px solid var(--kr-border);
+  border-left: 4px solid var(--kr-secondary);
+  border-radius: 12px;
+  background: var(--kr-card-bg);
+}
+.szkoly__mini { padding-left: 1.1rem; margin: 0.4rem 0 0.75rem; font-size: 0.9rem; }
+.szkoly__mini li { margin: 0.2rem 0; }
+.szkoly__mini a, .career-secondary__all { color: var(--kr-secondary); font-weight: 500; }
+.career-secondary__all { display: inline-block; margin-top: 0.5rem; font-size: 0.9rem; }
+.career-secondary { margin-bottom: 2rem; }
+.szkola .career-hero__desc a { color: var(--kr-secondary); }
+.school-popup__src { font-size: 0.78rem; color: var(--kr-secondary); margin-left: 0.35rem; font-weight: 400; text-transform: none; letter-spacing: 0; }
+.school-popup__exam { font-size: 0.85rem; margin-top: 0.5rem; color: var(--kr-text); }
+p.school-popup__caption { margin: 0.25rem 0 0.4rem; }
