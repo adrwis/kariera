@@ -432,7 +432,7 @@
 
     // Queries about schools point to the secondary-school section
     const schoolHint = document.getElementById('resultsSchoolHint');
-    if (schoolHint) schoolHint.hidden = !/(liceum|licea|lo\b|technikum|technika|szkoł|szkol)/i.test(query);
+    if (schoolHint) schoolHint.hidden = !/(liceum|licea|\blo\b|technikum|technika\b|szkoła|szkoły|szkole|szkołę|szkol(?!en))/i.test(query);
 
     const total = results.rich.length + results.simple.length;
 
@@ -907,7 +907,7 @@
     Szkoly.careerSectionHtml(c).then(html => {
       if (!html || currentCareerData !== c || careerDetail.querySelector('.career-secondary')) return;
       const anchor = careerDetail.querySelector('.career-columns--detail');
-      if (anchor) anchor.insertAdjacentHTML('afterend', html);
+      if (anchor) anchor.insertAdjacentHTML('beforebegin', html);
     });
   }
 
@@ -1102,8 +1102,8 @@
   }
 
   function openPersonPopup(person) {
-    popupTrigger = document.activeElement;
     closePersonPopup();
+    popupTrigger = document.activeElement;
     document.body.style.overflow = 'hidden';
 
     const initials = getInitials(person.name);
@@ -1252,8 +1252,8 @@
 
   // --- School popup ---
   function openSchoolPopup(school) {
-    popupTrigger = document.activeElement;
     closeSchoolPopup();
+    popupTrigger = document.activeElement;
     document.body.style.overflow = 'hidden';
 
     const overlay = document.createElement('div');
@@ -1296,8 +1296,10 @@
                   const src = isHttpUrl(t.sourceUrl)
                     ? `<a href="${escapeAttr(t.sourceUrl)}" target="_blank" rel="noopener">link</a>`
                     : '';
-                  const round = t.round ? `<span class="school-popup__round">${escapeHtml(t.round)}</span>` : '';
-                  return `<tr><td>${escapeHtml(String(t.year))}${round}</td><td>${escapeHtml(pts)} pkt</td><td>${src}</td></tr>`;
+                  const short = shortRound(t.round);
+                  const round = short ? `<span class="school-popup__round">${escapeHtml(short)}</span>` : '';
+                  const srcTitled = t.round && src ? src.replace('<a ', `<a title="${escapeAttr(t.round)}" `) : src;
+                  return `<tr><td>${escapeHtml(String(t.year))}${round}</td><td>${escapeHtml(pts)} pkt</td><td>${srcTitled}</td></tr>`;
                 }).join('')}
               </tbody>
             </table>`;
@@ -1397,8 +1399,8 @@
 
   // --- Training popup ---
   function openTrainingPopup(training) {
-    popupTrigger = document.activeElement;
     closeTrainingPopup();
+    popupTrigger = document.activeElement;
     document.body.style.overflow = 'hidden';
 
     const overlay = document.createElement('div');
@@ -1507,6 +1509,17 @@
   function escapeAttr(str) {
     if (!str) return '';
     return str.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  // Short label of the recruitment round for the popup; the full description goes to the link title
+  function shortRound(round) {
+    if (!round) return '';
+    const r = round.toLowerCase();
+    if (/nowy wzór/.test(r)) return 'I tura, nowy wzór punktacji';
+    if (/(^|\W)(i tura|tura 1|tura i|i etap|etap i|cykl 1|1 próg|pierwsz)/.test(r) || /realny próg/.test(r)) return 'I tura';
+    if (/lista podstawow/.test(r)) return 'lista podstawowa';
+    if (/zakwalifikowan/.test(r)) return 'ostatnia osoba zakwalifikowana';
+    return round.length <= 30 ? round : '';
   }
 
   function isHttpUrl(str) {
@@ -1787,6 +1800,10 @@
     const filterBtn = document.querySelector('.filters__btn');
     if (searchBtn) searchBtn.disabled = true;
     if (filterBtn) filterBtn.disabled = true;
+
+    // School pages do not need the career data up front: render them right away
+    const firstView = getRoute().view;
+    if (firstView === 'szkoly' || firstView === 'szkola') navigate();
 
     // Load data
     await CareerSearch.loadData();

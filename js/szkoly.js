@@ -303,7 +303,8 @@ const Szkoly = (function () {
   // Krótka etykieta klasy na liście: nazwa, a przy nazwach z samym symbolem także rozszerzenia
   function profileLabel(p) {
     const ext = (p.extended || []).map(subjectName);
-    if (p.nameSource && ext.length) return `${p.name}: ${ext.join(', ')}`;
+    const lower = (p.name || '').toLowerCase();
+    if (ext.length && (p.nameSource || !ext.some(e => lower.includes(e.split(' ').pop().slice(0, 4))))) return `${p.name}: ${ext.join(', ')}`;
     return p.name;
   }
 
@@ -408,7 +409,12 @@ const Szkoly = (function () {
       renderListResults(container, d, nf);
     };
     form.addEventListener('change', e => { if (e.target.name !== 'q') update(); });
-    form.addEventListener('input', e => { if (e.target.name === 'q') update(); });
+    let timer = null;
+    form.addEventListener('input', e => {
+      if (e.target.name !== 'q') return;
+      clearTimeout(timer);
+      timer = setTimeout(update, 250);
+    });
     form.addEventListener('submit', e => { e.preventDefault(); update(); });
   }
 
@@ -434,6 +440,10 @@ const Szkoly = (function () {
   async function renderList(container, params) {
     const my = ++renderSeq;
     const citySlug = CITIES[params.get('miasto')] ? params.get('miasto') : currentCity();
+    if (params.get('miasto') && params.get('miasto') !== citySlug) {
+      params.set('miasto', citySlug);
+      history.replaceState(null, '', `${ctx.BASE}/szkoly?${params}`);
+    }
     setCity(citySlug);
     container.innerHTML = '<p class="szkoly__loading">Wczytuję szkoły…</p>';
     let d;
@@ -452,8 +462,8 @@ const Szkoly = (function () {
     const th = (p.thresholds || []).slice().sort((a, b) => b.year - a.year);
     if (!th.length) return '';
     return th.map(t => {
-      const kind = t.kind ? ` (${esc(t.kind)})` : '';
-      return `<div class="szkola__threshold">Próg ${esc(t.year)}${kind}: <strong>${fmtNum(t.min)} / ${esc(t.scale)} pkt</strong> ${sourceLink(t.sourceUrl)}</div>`;
+      const who = t.kind === 'wstępna kwalifikacja' ? 'wstępna kwalifikacja' : t.kind ? 'ostatnia osoba zakwalifikowana' : 'ostatnia osoba przyjęta';
+      return `<div class="szkola__threshold">Próg ${esc(t.year)}: <strong>${fmtNum(t.min)} z ${esc(t.scale)} pkt</strong> <span class="szkola__muted">(${who})</span> ${sourceLink(t.sourceUrl)}</div>`;
     }).join('');
   }
 
@@ -486,10 +496,10 @@ const Szkoly = (function () {
       .filter(([, v]) => v && v.n)
       .sort((a, b) => b[1].n - a[1].n);
     const rows = ext.map(([code, v]) => `
-      <tr><td>${esc(subjectName(code))}</td><td>${esc(v.n)}</td><td>${v.mean != null ? fmtNum(v.mean) + '%' : '<span class="szkola__muted">mniej niż 5 osób</span>'}</td><td>${cityMeans[code] != null ? fmtNum(cityMeans[code]) + '%' : ''}</td></tr>`).join('');
+      <tr><td>${esc(subjectName(code))}</td><td>${esc(v.n)}</td><td>${v.mean != null ? fmtNum(v.mean) + '%' : '<span class="szkola__muted">poniżej 5</span>'}</td><td>${cityMeans[code] != null ? fmtNum(cityMeans[code]) + '%' : ''}</td></tr>`).join('');
     const n = m.examinees;
     return `
-      <p class="career-column__text">Zdawalność: <strong>${fmtNum(m.passRate)}%</strong>${n ? `, zdawało ${esc(n)} ${plural(n, 'osoba', 'osoby', 'osób')}` : ''}. ${sourceLink(m.sourceUrl, 'dane CKE')}</p>
+      <p class="career-column__text">${m.passRate != null ? `Zdawalność: <strong>${fmtNum(m.passRate)}%</strong>` : 'CKE nie podaje zdawalności (za mało zdających)'}${n ? `, zdawało ${esc(n)} ${plural(n, 'osoba', 'osoby', 'osób')}` : ''}. ${sourceLink(m.sourceUrl, 'dane CKE')}</p>
       ${rows ? `
       <div class="szkola__table-wrap">
         <table class="school-popup__thresholds szkola__matura">
@@ -693,8 +703,9 @@ const Szkoly = (function () {
     const techHtml = tech.length ? `
       <h3 class="career-column__subtitle">Technika z tym zawodem</h3>
       <ul class="szkoly__mini">
-        ${tech.map(s => `<li><a href="${ctx.BASE}/szkola/${attr(s.rspo)}">${esc(s.shortName || s.name)}</a> <span class="szkola__muted">· ${esc([CITIES[d.slug].files.length > 1 ? s.city : '', s.district].filter(Boolean).join(', '))}</span></li>`).join('')}
-      </ul>` : '';
+        ${tech.slice(0, 6).map(s => `<li><a href="${ctx.BASE}/szkola/${attr(s.rspo)}">${esc(s.shortName || s.name)}</a> <span class="szkola__muted">· ${esc([CITIES[d.slug].files.length > 1 ? s.city : '', s.district].filter(Boolean).join(', '))}</span></li>`).join('')}
+      </ul>
+      ${tech.length > 6 ? `<p class="career-column__text"><a href="${ctx.BASE}/szkoly?miasto=${d.slug}&typ=technikum&q=${encodeURIComponent(wanted[0])}">Zobacz wszystkie ${tech.length} ${plural(tech.length, 'technikum', 'technika', 'techników')}</a></p>` : ''}` : '';
 
     let loHtml = '';
     const MAX_LO = 6;
@@ -703,7 +714,7 @@ const Szkoly = (function () {
       <h3 class="career-column__subtitle">Licea z pasującymi klasami</h3>
       <p class="career-column__text szkola__muted">Uczelnie na tej stronie zwykle wymagają matury rozszerzonej ${esc(groupsSentence(required))}.</p>
       <ul class="szkoly__mini">
-        ${lo.slice(0, MAX_LO).map(x => `<li><a href="${ctx.BASE}/szkola/${attr(x.s.rspo)}">${esc(x.s.shortName || x.s.name)}</a> <span class="szkola__muted">· ${x.ps.map(p => esc(profileLabel(p))).join('; ')}</span></li>`).join('')}
+        ${lo.slice(0, MAX_LO).map(x => `<li><a href="${ctx.BASE}/szkola/${attr(x.s.rspo)}">${esc(x.s.shortName || x.s.name)}</a> <span class="szkola__muted">· ${CITIES[d.slug].files.length > 1 && x.s.city ? esc(x.s.city) + ', ' : ''}${x.ps.map(p => esc(profileLabel(p))).join('; ')}</span></li>`).join('')}
       </ul>
       ${lo.length > MAX_LO ? `<p class="career-column__text"><a href="${attr(filterHref(required, d.slug))}">Zobacz wszystkie ${lo.length} ${plural(lo.length, 'liceum', 'licea', 'liceów')}</a></p>` : ''}`;
     } else if (recommended.length) {
@@ -727,10 +738,19 @@ const Szkoly = (function () {
   document.addEventListener('click', e => {
     const btn = e.target.closest('.career-secondary [data-city]');
     if (!btn || !lastCareer) return;
-    setCity(btn.dataset.city);
     const section = btn.closest('.career-secondary');
     const career = lastCareer;
-    careerSectionHtml(career).then(html => {
+    const previous = currentCity();
+    const slug = btn.dataset.city;
+    load(slug).then(() => {
+      setCity(slug);
+      return careerSectionHtml(career);
+    }).catch(() => {
+      setCity(previous);
+      const msg = section.querySelector('.career-secondary__error') || section.appendChild(Object.assign(document.createElement('p'), { className: 'career-column__text career-secondary__error' }));
+      msg.textContent = 'Nie udało się wczytać szkół z tego miasta. Spróbuj ponownie.';
+      return '';
+    }).then(html => {
       if (!html || !section.isConnected || lastCareer !== career) return;
       section.outerHTML = html;
       const again = document.querySelector(`.career-secondary [data-city="${btn.dataset.city}"]`);
