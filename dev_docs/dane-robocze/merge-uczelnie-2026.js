@@ -19,7 +19,9 @@ const DROP = [
   [/^Politechnika Łódzka — FTIMS/, 'administrator-systemow', 2024],
   [/^AKF/, 'fizjoterapeuta', 2024],
 ];
-const dropped = (r, t) => DROP.some(([re, career, year]) => re.test(r.school) && r.career === career && t.year === year);
+// Politechnika Krakowska publikuje tylko „wymaganą liczbę punktów” (minimum), nie wynik ostatniej osoby przyjętej
+const dropped = (r, t) => /^Politechnika Krakowska/.test(r.school)
+  || DROP.some(([re, career, year]) => re.test(r.school) && r.career === career && t.year === year);
 
 // Rozstrzygnięcia po raportach agentów
 function adjust(r, type, t) {
@@ -27,6 +29,7 @@ function adjust(r, type, t) {
     return { ...t, scaleMax: undefined, scaleFormula: 'punkty rekrutacyjne Akademii Pożarniczej, uczelnia nie podaje maksimum' };
   }
   if (/SGGW/.test(r.school) && r.career === 'weterynarz' && t.year === 2025) return { ...t, scaleMax: 80 };
+  if (/^AGH/.test(r.school) && t.year === 2026) return { ...t, round: (t.round ? t.round + ', ' : '') + 'nowy wzór punktacji, nie porównuj wprost z latami wcześniejszymi' };
   return t;
 }
 
@@ -51,7 +54,7 @@ for (const c of data) {
       if (!Array.isArray(fix) || !fix.length) continue;
       const valid = fix.filter(t => !dropped(r, t)).map(t => adjust(r, m.type, t))
         .filter(t => typeof t.points === 'number' && isUrl(t.sourceUrl) && (t.scaleMax || t.scaleFormula));
-      if (!valid.length) continue;
+      if (!valid.length) { if (/^Politechnika Krakowska/.test(r.school)) m.thresholds = []; continue; }
       m.thresholds = valid.map(cleanThreshold).sort((a, b) => a.year - b.year);
       log.modesUpdated++;
       log.thresholds2026 += m.thresholds.filter(t => t.year === 2026).length;

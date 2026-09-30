@@ -1,0 +1,2096 @@
+[
+ {
+  "school": "Politechnika Wrocławska — Wydział Budownictwa Lądowego i Wodnego",
+  "career": "inzynier-budownictwa",
+  "program": "Budownictwo (studia I stopnia)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 111.9,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "I tura (rekrutacja letnia, studia stacjonarne)"
+    },
+    {
+     "year": 2024,
+     "points": 117.65,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "I tura (rekrutacja letnia, studia stacjonarne)"
+    },
+    {
+     "year": 2025,
+     "points": 100,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "I tura (rekrutacja letnia, studia stacjonarne)"
+    },
+    {
+     "year": 2026,
+     "points": 193,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "I tura (rekrutacja letnia, studia stacjonarne)"
+    }
+   ],
+   "niestacjonarne": [
+    {
+     "year": 2023,
+     "points": 42.5,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-niestacjonarne/",
+     "round": "jedna wartość: próg rekrutacji letniej (lipiec), studia niestacjonarne"
+    },
+    {
+     "year": 2024,
+     "points": 26.1,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-niestacjonarne/",
+     "round": "jedna wartość: próg rekrutacji letniej (lipiec), studia niestacjonarne"
+    },
+    {
+     "year": 2025,
+     "points": 40.1,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-niestacjonarne/",
+     "round": "jedna wartość: próg rekrutacji letniej (lipiec), studia niestacjonarne"
+    },
+    {
+     "year": 2026,
+     "points": 70.1,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-niestacjonarne/",
+     "round": "jedna wartość: próg rekrutacji lipiec 2026, studia niestacjonarne"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "display": [
+    "Matematyka (P lub R)",
+    "Fizyka (P lub R) jako przedmiot dodatkowy (Budownictwo w grupie „pozostałe kierunki studiów”)",
+    "Język obcy (P lub R), waga 0,1",
+    "Język polski (P lub R), waga 0,1"
+   ],
+   "structured": [
+    {
+     "anyOf": [
+      "matematyka"
+     ],
+     "level": "P lub R"
+    },
+    {
+     "anyOf": [
+      "fizyka"
+     ],
+     "level": "P lub R"
+    },
+    {
+     "anyOf": [
+      "jezyk_obcy"
+     ],
+     "level": "P lub R"
+    },
+    {
+     "anyOf": [
+      "jezyk_polski"
+     ],
+     "level": "P lub R"
+    }
+   ],
+   "exam": null,
+   "sourceUrl": "https://rekrutacja.pwr.edu.pl/wp-content/uploads/2026/05/WIR-2026-zal-3-przedmiot-dodatkowy-zmiana-maj_tekst-jednolity-zalacznik-2-do-uchwaly.pdf",
+   "academicYear": "2026/2027",
+   "formulaSource": "https://rekrutacja.pwr.edu.pl/wp-content/uploads/2026/03/WIR-2026-zal-1-dokument-glowny.pdf"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "4300 PLN/semestr",
+    "amount": 4300,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://rekrutacja.pwr.edu.pl/po-rekrutacji/oplaty/",
+    "tuitionNote": "Stawka wg ZW nr 72/2026 z 29.05.2026 dla cykli rozpoczynających się w 2026/2027 (dotyczy całego cyklu, nie tylko I roku)."
+   }
+  ],
+  "notes": "Progi 2023–2025 zgodne z wierszem Budownictwo (Wydział Budownictwa Lądowego i Wodnego, Wrocław), kolumna I tura; nie mylić z „Budownictwo” w Filii w Wałbrzychu (2026: 114,95). 2026 stacjonarne: I tura 193 (minimalny wskaźnik 100 pkt), II tura 162,35, III tura 224,75. Wzór WI bez zmian (WI = M + PD + 0,1JO + 0,1JP, maks. 535). 2024 próg 117,65 przy minimum 70."
+ },
+ {
+  "school": "Politechnika Wrocławska — Wydział Mechaniczny",
+  "career": "inzynier-mechanik",
+  "program": "Mechanika i budowa maszyn (studia I stopnia)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 111.4,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "I tura (rekrutacja letnia, studia stacjonarne)"
+    },
+    {
+     "year": 2024,
+     "points": 150.25,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "I tura (rekrutacja letnia, studia stacjonarne)"
+    },
+    {
+     "year": 2025,
+     "points": 218.05,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "I tura (rekrutacja letnia, studia stacjonarne)"
+    },
+    {
+     "year": 2026,
+     "points": 378.4,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "I tura (rekrutacja letnia, studia stacjonarne)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "updated",
+   "display": [
+    "Matematyka (P lub R)",
+    "Przedmiot dodatkowy: fizyka lub matematyka (P lub R)",
+    "Język obcy (P lub R), waga 0,1",
+    "Język polski (P lub R), waga 0,1"
+   ],
+   "structured": [
+    {
+     "anyOf": [
+      "matematyka"
+     ],
+     "level": "P lub R"
+    },
+    {
+     "anyOf": [
+      "fizyka",
+      "matematyka"
+     ],
+     "level": "P lub R"
+    },
+    {
+     "anyOf": [
+      "jezyk_obcy"
+     ],
+     "level": "P lub R"
+    },
+    {
+     "anyOf": [
+      "jezyk_polski"
+     ],
+     "level": "P lub R"
+    }
+   ],
+   "exam": null,
+   "sourceUrl": "https://rekrutacja.pwr.edu.pl/wp-content/uploads/2026/05/WIR-2026-zal-3-przedmiot-dodatkowy-zmiana-maj_tekst-jednolity-zalacznik-2-do-uchwaly.pdf",
+   "academicYear": "2026/2027",
+   "formulaSource": "https://rekrutacja.pwr.edu.pl/wp-content/uploads/2026/03/WIR-2026-zal-1-dokument-glowny.pdf"
+  },
+  "tuition": [],
+  "notes": "Progi 2023–2025 z wiersza Mechanika i budowa maszyn w bloku Wydziału Mechanicznego (Wrocław), I tura; nie z Filii w Legnicy (2026: 96,55). 2026: I tura 378,40, II tura 315,2. Zmiana wymagań: w 2025/26 kierunek był w grupie „pozostałe kierunki” (przedmiot dodatkowy tylko fizyka); w załączniku 3 na 2026/27 ma osobny wiersz: fizyka lub matematyka. Odczyt z tabeli graficznej załącznika (zacienione pola). Tryb niestacjonarny nie występuje w danych; I stopnia niestacjonarne MiBM nie ma w tabeli czesnego 2026/27 (5810 PLN/semestr dotyczy II stopnia)."
+ },
+ {
+  "school": "Politechnika Wrocławska — Wydział Inżynierii Środowiska",
+  "career": "inzynier-srodowiska",
+  "program": "Inżynieria środowiska (studia I stopnia)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 103.2,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "I tura (rekrutacja letnia, studia stacjonarne)"
+    },
+    {
+     "year": 2024,
+     "points": 104.25,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "I tura (rekrutacja letnia, studia stacjonarne)"
+    },
+    {
+     "year": 2025,
+     "points": 80.2,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "I tura (rekrutacja letnia, studia stacjonarne)"
+    },
+    {
+     "year": 2026,
+     "points": 111.25,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-stacjonarne/",
+     "round": "I tura (rekrutacja letnia, studia stacjonarne)"
+    }
+   ],
+   "niestacjonarne": [
+    {
+     "year": 2023,
+     "points": 42.9,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-niestacjonarne/",
+     "round": "jedna wartość: próg rekrutacji letniej (lipiec), studia niestacjonarne"
+    },
+    {
+     "year": 2025,
+     "points": 47.25,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-niestacjonarne/",
+     "round": "jedna wartość: próg rekrutacji letniej (lipiec), studia niestacjonarne"
+    },
+    {
+     "year": 2026,
+     "points": 118.7,
+     "scaleFormula": "wskaźnik PWr: matematyka + przedmiot dodatkowy + 0,1 × j. obcy + 0,1 × j. polski",
+     "sourceUrl": "https://rekrutacja.pwr.edu.pl/rekrutacja/progi-punktowe/progi-studia-i-stopnia-niestacjonarne/",
+     "round": "jedna wartość: próg rekrutacji lipiec 2026, studia niestacjonarne"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "updated",
+   "display": [
+    "Matematyka (P lub R)",
+    "Przedmiot dodatkowy: fizyka lub matematyka (P lub R)",
+    "Język obcy (P lub R), waga 0,1",
+    "Język polski (P lub R), waga 0,1"
+   ],
+   "structured": [
+    {
+     "anyOf": [
+      "matematyka"
+     ],
+     "level": "P lub R"
+    },
+    {
+     "anyOf": [
+      "fizyka",
+      "matematyka"
+     ],
+     "level": "P lub R"
+    },
+    {
+     "anyOf": [
+      "jezyk_obcy"
+     ],
+     "level": "P lub R"
+    },
+    {
+     "anyOf": [
+      "jezyk_polski"
+     ],
+     "level": "P lub R"
+    }
+   ],
+   "exam": null,
+   "sourceUrl": "https://rekrutacja.pwr.edu.pl/wp-content/uploads/2026/05/WIR-2026-zal-3-przedmiot-dodatkowy-zmiana-maj_tekst-jednolity-zalacznik-2-do-uchwaly.pdf",
+   "academicYear": "2026/2027",
+   "formulaSource": "https://rekrutacja.pwr.edu.pl/wp-content/uploads/2026/03/WIR-2026-zal-1-dokument-glowny.pdf"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "3900 PLN/semestr",
+    "amount": 3900,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://rekrutacja.pwr.edu.pl/po-rekrutacji/oplaty/",
+    "tuitionNote": "Stawka wg ZW nr 72/2026 z 29.05.2026 dla cykli rozpoczynających się w 2026/2027."
+   }
+  ],
+  "notes": "Progi zgodne z wierszem Inżynieria środowiska (Wydział Inżynierii Środowiska), I tura. 2026 stacjonarne: I tura 111,25 (minimum 80 pkt), II tura 320,2, III tura 327,30. Niestacjonarne 2024: „wszyscy przyjęci” (brak wartości liczbowej, dlatego pominięte). Zmiana wymagań: w 2025/26 grupa „pozostałe kierunki” (tylko fizyka), w 2026/27 fizyka lub matematyka jako przedmiot dodatkowy (odczyt z tabeli graficznej)."
+ },
+ {
+  "school": "AGH — Wydział Inżynierii Mechanicznej i Robotyki",
+  "career": "inzynier-mechanik",
+  "program": "Mechanika i Budowa Maszyn (studia I stopnia inżynierskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2024,
+     "points": 400,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
+     "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 16.07.2024)"
+    },
+    {
+     "year": 2025,
+     "points": 450,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
+     "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 15.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 640,
+     "scaleMax": 1000,
+     "sourceUrl": "https://web.archive.org/web/20260909200004/https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+     "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 13.07.2026)"
+    }
+   ],
+   "niestacjonarne": [
+    {
+     "year": 2024,
+     "points": 120,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
+     "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 25.07.2024)"
+    },
+    {
+     "year": 2025,
+     "points": 120,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
+     "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 25.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 300,
+     "scaleMax": 1000,
+     "sourceUrl": "https://web.archive.org/web/20260909200004/https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+     "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 24.07.2026)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "updated",
+   "display": [
+    "Matematyka (P), składnik M, waga 2",
+    "P1 (waga 6): matematyka, fizyka lub informatyka (R)",
+    "P2 (waga 2): matematyka, fizyka, informatyka lub język obcy (R), inny przedmiot niż w P1",
+    "Stacjonarne: minimalny wskaźnik WR 300 pkt"
+   ],
+   "structured": [
+    {
+     "anyOf": [
+      "matematyka"
+     ],
+     "level": "P"
+    },
+    {
+     "anyOf": [
+      "matematyka",
+      "fizyka",
+      "informatyka"
+     ],
+     "level": "R"
+    },
+    {
+     "anyOf": [
+      "matematyka",
+      "fizyka",
+      "informatyka",
+      "jezyk_obcy"
+     ],
+     "level": "R"
+    }
+   ],
+   "exam": null,
+   "sourceUrl": "https://rekrutacja.agh.edu.pl/wp-content/uploads/2026/06/tabela1_26_27.pdf",
+   "formulaSource": "https://rekrutacja.agh.edu.pl/wp-content/uploads/2026/06/uchwala_2026_2027_warunki_rekrutacji.pdf",
+   "academicYear": "2026/2027"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "3300 PLN/semestr",
+    "amount": 3300,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://rekrutacja.agh.edu.pl/wp-content/uploads/2026/05/zarzadzenie_rektora_39_2026_oplaty_2026_2027_zalacznik_1.pdf",
+    "tuitionNote": "Zarządzenie Rektora AGH nr 39/2026, tabela 1 (I stopnia inżynierskie), ta sama stawka w semestrach I–VIII."
+   }
+  ],
+  "notes": "Wiersz „Mechanika i Budowa Maszyn” (nie „Mechanical Engineering”, 640 w 2026). Progi 2024–2025 zgodne z tabelą progów AGH (cykl 1). 2026 stacjonarne: cykl 1 640, cykl 2 660, cykl 3 802, cykl 4 nie rankingowano. Strona rekrutacja.agh.edu.pl zwracała 1.10.2026 błąd 500, próg 2026 odczytany z kopii w web.archive.org z 9.09.2026. Brak progów 2023 letniej na stronie (zakładki od 2023/24 zimowej). Wzór na 2026/27 zmieniony: WR = 2·M + 6·P1 + 2·P2 + D (maks. 1000); w 2025/26 było WR = M + 3·G1 + G2. P1 i P2 liczone tylko z matury rozszerzonej, ten sam przedmiot nie może być użyty w P1 i P2; na studia stacjonarne wymagane WR ≥ 300. Progi 2026 nie są więc wprost porównywalne z 2024–2025."
+ },
+ {
+  "school": "AGH — Wydział Geodezji Górniczej i Inżynierii Środowiska",
+  "career": "geodeta",
+  "program": "Geodezja i Kartografia (studia I stopnia inżynierskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2024,
+     "points": 700,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
+     "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 16.07.2024)"
+    },
+    {
+     "year": 2025,
+     "points": 600,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
+     "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 15.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 770,
+     "scaleMax": 1000,
+     "sourceUrl": "https://web.archive.org/web/20260909200004/https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+     "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 13.07.2026)"
+    }
+   ],
+   "niestacjonarne": [
+    {
+     "year": 2024,
+     "points": 170,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
+     "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 25.07.2024)"
+    },
+    {
+     "year": 2025,
+     "points": 134,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
+     "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 25.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 96,
+     "scaleMax": 1000,
+     "sourceUrl": "https://web.archive.org/web/20260909200004/https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+     "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 24.07.2026)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "updated",
+   "display": [
+    "Matematyka (P), składnik M, waga 2",
+    "P1 (waga 6): matematyka, fizyka, informatyka lub geografia (R)",
+    "P2 (waga 2): matematyka, fizyka, informatyka, geografia lub język obcy (R), inny przedmiot niż w P1",
+    "Stacjonarne: minimalny wskaźnik WR 300 pkt"
+   ],
+   "structured": [
+    {
+     "anyOf": [
+      "matematyka"
+     ],
+     "level": "P"
+    },
+    {
+     "anyOf": [
+      "matematyka",
+      "fizyka",
+      "informatyka",
+      "geografia"
+     ],
+     "level": "R"
+    },
+    {
+     "anyOf": [
+      "matematyka",
+      "fizyka",
+      "informatyka",
+      "geografia",
+      "jezyk_obcy"
+     ],
+     "level": "R"
+    }
+   ],
+   "exam": null,
+   "sourceUrl": "https://rekrutacja.agh.edu.pl/wp-content/uploads/2026/06/tabela1_26_27.pdf",
+   "formulaSource": "https://rekrutacja.agh.edu.pl/wp-content/uploads/2026/06/uchwala_2026_2027_warunki_rekrutacji.pdf",
+   "academicYear": "2026/2027"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "3400 PLN/semestr",
+    "amount": 3400,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://rekrutacja.agh.edu.pl/wp-content/uploads/2026/05/zarzadzenie_rektora_39_2026_oplaty_2026_2027_zalacznik_1.pdf",
+    "tuitionNote": "Zarządzenie Rektora AGH nr 39/2026, tabela 1 (I stopnia inżynierskie), ta sama stawka w semestrach I–VIII."
+   }
+  ],
+  "notes": "Progi 2024–2025 zgodne z wierszem Geodezja i Kartografia (cykl 1). 2026 stacjonarne: cykl 1 770, cykl 2 716, cykl 3 730, cykl 4 780. Niestacjonarne 2026 cykl 1: 96 (minimum 300 dotyczy tylko stacjonarnych). Strona AGH zwracała 1.10.2026 błąd 500, odczyt z kopii web.archive.org z 9.09.2026. Wzór na 2026/27 zmieniony: WR = 2·M + 6·P1 + 2·P2 + D (maks. 1000); w 2025/26 było WR = M + 3·G1 + G2. P1 i P2 liczone tylko z matury rozszerzonej, ten sam przedmiot nie może być użyty w P1 i P2; na studia stacjonarne wymagane WR ≥ 300. Progi 2026 nie są więc wprost porównywalne z 2024–2025."
+ },
+ {
+  "school": "AGH — Wydział Geodezji Górniczej i Inżynierii Środowiska",
+  "career": "kartograf",
+  "program": "Geodezja i Kartografia (studia I stopnia inżynierskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2024,
+     "points": 700,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
+     "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 16.07.2024)"
+    },
+    {
+     "year": 2025,
+     "points": 600,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
+     "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 15.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 770,
+     "scaleMax": 1000,
+     "sourceUrl": "https://web.archive.org/web/20260909200004/https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+     "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 13.07.2026)"
+    }
+   ],
+   "niestacjonarne": [
+    {
+     "year": 2024,
+     "points": 170,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
+     "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 25.07.2024)"
+    },
+    {
+     "year": 2025,
+     "points": 134,
+     "scaleMax": 1000,
+     "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
+     "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 25.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 96,
+     "scaleMax": 1000,
+     "sourceUrl": "https://web.archive.org/web/20260909200004/https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+     "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 24.07.2026)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "updated",
+   "display": [
+    "Matematyka (P), składnik M, waga 2",
+    "P1 (waga 6): matematyka, fizyka, informatyka lub geografia (R)",
+    "P2 (waga 2): matematyka, fizyka, informatyka, geografia lub język obcy (R), inny przedmiot niż w P1",
+    "Stacjonarne: minimalny wskaźnik WR 300 pkt"
+   ],
+   "structured": [
+    {
+     "anyOf": [
+      "matematyka"
+     ],
+     "level": "P"
+    },
+    {
+     "anyOf": [
+      "matematyka",
+      "fizyka",
+      "informatyka",
+      "geografia"
+     ],
+     "level": "R"
+    },
+    {
+     "anyOf": [
+      "matematyka",
+      "fizyka",
+      "informatyka",
+      "geografia",
+      "jezyk_obcy"
+     ],
+     "level": "R"
+    }
+   ],
+   "exam": null,
+   "sourceUrl": "https://rekrutacja.agh.edu.pl/wp-content/uploads/2026/06/tabela1_26_27.pdf",
+   "formulaSource": "https://rekrutacja.agh.edu.pl/wp-content/uploads/2026/06/uchwala_2026_2027_warunki_rekrutacji.pdf",
+   "academicYear": "2026/2027"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "updated",
+    "display": "3400 PLN/semestr",
+    "amount": 3400,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://rekrutacja.agh.edu.pl/wp-content/uploads/2026/05/zarzadzenie_rektora_39_2026_oplaty_2026_2027_zalacznik_1.pdf",
+    "tuitionNote": "Zarządzenie Rektora AGH nr 39/2026, tabela 1 (I stopnia inżynierskie), ta sama stawka w semestrach I–VIII."
+   }
+  ],
+  "notes": "Progi 2024–2025 zgodne z wierszem Geodezja i Kartografia (cykl 1). 2026 stacjonarne: cykl 1 770, cykl 2 716, cykl 3 730, cykl 4 780. Niestacjonarne 2026 cykl 1: 96 (minimum 300 dotyczy tylko stacjonarnych). Strona AGH zwracała 1.10.2026 błąd 500, odczyt z kopii web.archive.org z 9.09.2026. Wzór na 2026/27 zmieniony: WR = 2·M + 6·P1 + 2·P2 + D (maks. 1000); w 2025/26 było WR = M + 3·G1 + G2. P1 i P2 liczone tylko z matury rozszerzonej, ten sam przedmiot nie może być użyty w P1 i P2; na studia stacjonarne wymagane WR ≥ 300. Progi 2026 nie są więc wprost porównywalne z 2024–2025."
+ },
+ {
+  "school": "SGGW — Wydział Ogrodnictwa",
+  "career": "architekt-krajobrazu",
+  "program": "Architektura krajobrazu (I stopnia, inżynierskie, stacjonarne)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 68.6,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2024/04/Progi-punktowe-2023_24_gotowy.pdf",
+     "round": "Tura 1 (T1), 02.08.2023"
+    },
+    {
+     "year": 2024,
+     "points": 45.6,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2025/02/Progi-punktowe-2024_25Z.pdf",
+     "round": "Tura 1 (T1)"
+    },
+    {
+     "year": 2025,
+     "points": 51.5,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2026/01/Progi-punktowe-2025_26Z-1.pdf",
+     "round": "Tura 1 (T1), 22.07.2025"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2026/04/Uchwala_nr_68b__rek_2026_27_zal_1a.pdf",
+   "academicYear": "2026/2027"
+  },
+  "tuition": [],
+  "notes": "Progi 2023–2025 zgodne z wierszem Architektura krajobrazu, stacjonarne, Tura 1. Wymagania 2026/27 (nr 2 w zał. 1a): bez zmian względem 2025/26, wzór WK = PKG×0,3 + (PKD v EZ)×0,2 + EW. Zestawienie progów SGGW za rekrutację 2026/2027 nie zostało opublikowane (stan 1.10.2026; zestawienie za 2025/26 ukazało się w styczniu 2026). SGGW w 2026 przeszła na nową strukturę 8 wydziałów, nazwa wydziału w danych może być nieaktualna (nie weryfikowano przypisania kierunku)."
+ },
+ {
+  "school": "SGGW — Wydział Ogrodnictwa",
+  "career": "ogrodnik",
+  "program": "Ogrodnictwo (I stopnia, inżynierskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 21,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2024/04/Progi-punktowe-2023_24_gotowy.pdf",
+     "round": "Tura 1 (T1), 02.08.2023"
+    },
+    {
+     "year": 2024,
+     "points": 23.8,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2025/02/Progi-punktowe-2024_25Z.pdf",
+     "round": "Tura 1 (T1)"
+    },
+    {
+     "year": 2025,
+     "points": 27.6,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2026/01/Progi-punktowe-2025_26Z-1.pdf",
+     "round": "Tura 1 (T1), 22.07.2025"
+    }
+   ],
+   "niestacjonarne": [
+    {
+     "year": 2023,
+     "points": 21,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2024/04/Progi-punktowe-2023_24_gotowy.pdf",
+     "round": "Tura 1 (T1), 02.08.2023"
+    },
+    {
+     "year": 2024,
+     "points": 27.65,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2025/02/Progi-punktowe-2024_25Z.pdf",
+     "round": "Tura 1 (T1)"
+    },
+    {
+     "year": 2025,
+     "points": 20.4,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2026/01/Progi-punktowe-2025_26Z-1.pdf",
+     "round": "Tura 1 (T1), 22.07.2025"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2026/04/Uchwala_nr_68b__rek_2026_27_zal_1a.pdf",
+   "academicYear": "2026/2027"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "3500 PLN/semestr",
+    "amount": 3500,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2026/04/Zalacznik-do-Zarzadzenia-Nr-29-Rektora-Szkoly-Glownej-Gospodarstwa-Wiejskiego-w-Warszawie-z-dnia-20-kwietnia-2026-r.pdf",
+    "tuitionNote": "Zarządzenie Nr 29 Rektora SGGW z 20.04.2026, tabela 1 (studia niestacjonarne I stopnia, opłata roczna 7000 zł); dotyczy studentów rozpoczynających studia w 2026/2027."
+   }
+  ],
+  "notes": "Progi zgodne z wierszami Ogrodnictwo (nie „Ogrodnictwo miejskie i arborystyka”), Tura 1. Wymagania 2026/27 (nr 28) bez zmian. Zestawienie progów SGGW za rekrutację 2026/2027 nie zostało opublikowane (stan 1.10.2026; zestawienie za 2025/26 ukazało się w styczniu 2026). SGGW w 2026 przeszła na nową strukturę 8 wydziałów, nazwa wydziału w danych może być nieaktualna (nie weryfikowano przypisania kierunku)."
+ },
+ {
+  "school": "SGGW — Wydział Rolnictwa i Ekologii",
+  "career": "rolnik",
+  "program": "Rolnictwo (I stopnia, inżynierskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 21.7,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2024/04/Progi-punktowe-2023_24_gotowy.pdf",
+     "round": "Tura 1 (T1), 02.08.2023"
+    },
+    {
+     "year": 2024,
+     "points": 21,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2025/02/Progi-punktowe-2024_25Z.pdf",
+     "round": "Tura 1 (T1)"
+    },
+    {
+     "year": 2025,
+     "points": 18,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2026/01/Progi-punktowe-2025_26Z-1.pdf",
+     "round": "Tura 1 (T1), 22.07.2025"
+    }
+   ],
+   "niestacjonarne": [
+    {
+     "year": 2023,
+     "points": 21,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2024/04/Progi-punktowe-2023_24_gotowy.pdf",
+     "round": "Tura 1 (T1), 02.08.2023"
+    },
+    {
+     "year": 2025,
+     "points": 23.4,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2026/01/Progi-punktowe-2025_26Z-1.pdf",
+     "round": "Tura 1 (T1), 22.07.2025"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2026/04/Uchwala_nr_68b__rek_2026_27_zal_1a.pdf",
+   "academicYear": "2026/2027"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "3500 PLN/semestr",
+    "amount": 3500,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2026/04/Zalacznik-do-Zarzadzenia-Nr-29-Rektora-Szkoly-Glownej-Gospodarstwa-Wiejskiego-w-Warszawie-z-dnia-20-kwietnia-2026-r.pdf",
+    "tuitionNote": "Zarządzenie Nr 29 Rektora SGGW z 20.04.2026, tabela 1 (studia niestacjonarne I stopnia, opłata roczna 7000 zł); dotyczy studentów rozpoczynających studia w 2026/2027."
+   }
+  ],
+  "notes": "Progi zgodne z wierszem Rolnictwo (nie „Ekologiczne rolnictwo i produkcja żywności”), Tura 1. Niestacjonarne 2024: w zestawieniu brak wartości („-”). Wymagania 2026/27 (nr 31) bez zmian: biologia, chemia albo matematyka, WK = PKG×1. Zestawienie progów SGGW za rekrutację 2026/2027 nie zostało opublikowane (stan 1.10.2026; zestawienie za 2025/26 ukazało się w styczniu 2026). SGGW w 2026 przeszła na nową strukturę 8 wydziałów, nazwa wydziału w danych może być nieaktualna (nie weryfikowano przypisania kierunku)."
+ },
+ {
+  "school": "SGGW — Wydział Leśny",
+  "career": "lesnik",
+  "program": "Leśnictwo (I stopnia, inżynierskie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 30,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2024/04/Progi-punktowe-2023_24_gotowy.pdf",
+     "round": "Tura 1 (T1), 02.08.2023"
+    },
+    {
+     "year": 2024,
+     "points": 23.1,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2025/02/Progi-punktowe-2024_25Z.pdf",
+     "round": "Tura 1 (T1)"
+    },
+    {
+     "year": 2025,
+     "points": 29.1,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2026/01/Progi-punktowe-2025_26Z-1.pdf",
+     "round": "Tura 1 (T1), 22.07.2025"
+    }
+   ],
+   "niestacjonarne": [
+    {
+     "year": 2023,
+     "points": 21,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2024/04/Progi-punktowe-2023_24_gotowy.pdf",
+     "round": "Tura 1 (T1), 02.08.2023"
+    },
+    {
+     "year": 2024,
+     "points": 21,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2025/02/Progi-punktowe-2024_25Z.pdf",
+     "round": "Tura 1 (T1)"
+    },
+    {
+     "year": 2025,
+     "points": 20.4,
+     "scaleMax": 100,
+     "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2026/01/Progi-punktowe-2025_26Z-1.pdf",
+     "round": "Tura 1 (T1), 22.07.2025"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2026/04/Uchwala_nr_68b__rek_2026_27_zal_1a.pdf",
+   "academicYear": "2026/2027"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "3450 PLN/semestr",
+    "amount": 3450,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.sggw.edu.pl/wp-content/uploads/2026/04/Zalacznik-do-Zarzadzenia-Nr-29-Rektora-Szkoly-Glownej-Gospodarstwa-Wiejskiego-w-Warszawie-z-dnia-20-kwietnia-2026-r.pdf",
+    "tuitionNote": "Zarządzenie Nr 29 Rektora SGGW z 20.04.2026, tabela 1 (studia niestacjonarne I stopnia, opłata roczna 6900 zł); dotyczy studentów rozpoczynających studia w 2026/2027."
+   }
+  ],
+  "notes": "Progi zgodne z wierszem Leśnictwo, Tura 1. Wymagania 2026/27 (nr 23) bez zmian. Zestawienie progów SGGW za rekrutację 2026/2027 nie zostało opublikowane (stan 1.10.2026; zestawienie za 2025/26 ukazało się w styczniu 2026). SGGW w 2026 przeszła na nową strukturę 8 wydziałów, nazwa wydziału w danych może być nieaktualna (nie weryfikowano przypisania kierunku)."
+ },
+ {
+  "school": "UW — Wydział Pedagogiczny",
+  "career": "pedagog",
+  "program": "Pedagogika opiekuńczo-wychowawcza i szkolna (I stopnia; nowy kierunek od 2026/27, wcześniej kierunek Pedagogika ze specjalnościami)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 50,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia-osoba_przyjeta_2023-24.pdf",
+     "round": "I tura"
+    },
+    {
+     "year": 2024,
+     "points": 50.85,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2024-25.pdf",
+     "round": "I tura"
+    },
+    {
+     "year": 2025,
+     "points": 52.16,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2025-26.pdf",
+     "round": "I tura"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/S1-PE-POWS/",
+   "academicYear": "2026/2027",
+   "note": "requirementsYear w danych już 2026/2027, nie wymagało weryfikacji"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "not_found",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/NZ1-PE-POWS/",
+    "tuitionNote": "Strona IRK odsyła do rekrutacja.uw.edu.pl/oplaty/, która zwraca 403; stawki na 2026/27 nie udało się potwierdzić."
+   }
+  ],
+  "notes": "Uwaga na ciągłość: progi 2023–2025 pochodzą z wiersza „Pedagogika” (I tura; II tura: 2023 60,43, 2024 67,02). To był kierunek S1-PE z dwiema specjalnościami (Andragogika – organizacja edukacji dorosłych; Pomoc społeczno-wychowawcza dziecku i rodzinie), potwierdzone w IRK PELNE2025 (kopia web.archive.org z 22.06.2025). Od 2026/27 Wydział prowadzi osobne kierunki: „Pedagogika opiekuńczo – wychowawcza i szkolna” (S1-PE-POWS, limit 30) i „Andragogika – trener kompetencji przyszłości” (S1-AND-TKP). Progi 2023–2025 są więc progami kierunku-poprzednika, nie samego POWS. Nie mylić z „Pedagogika przedszkolna i wczesnoszkolna” ani „Pedagogika specjalna”. Zestawienie „Punkty ostatniej osoby przyjętej” za 2026/27 nie jest jeszcze opublikowane na rekrutacja.uw.edu.pl/statystyki (sprawdzone 1.10.2026; w 2025 ukazało się po zakończeniu rekrutacji)."
+ },
+ {
+  "school": "UW — Wydział Polonistyki (Logopedia)",
+  "career": "logopeda",
+  "program": "Logopedia ogólna i kliniczna (I stopnia)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 68.67,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia-osoba_przyjeta_2023-24.pdf",
+     "round": "I tura"
+    },
+    {
+     "year": 2024,
+     "points": 66.93,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2024-25.pdf",
+     "round": "I tura"
+    },
+    {
+     "year": 2025,
+     "points": 64.51,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2025-26.pdf",
+     "round": "I tura"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/S1-LOG/",
+   "academicYear": "2026/2027",
+   "note": "requirementsYear w danych już 2026/2027, nie wymagało weryfikacji"
+  },
+  "tuition": [],
+  "notes": "Progi 2023–2025 zgodne z wierszem „Logopedia ogólna i kliniczna”, I tura (jedyna wartość w wierszu). Zestawienie „Punkty ostatniej osoby przyjętej” za 2026/27 nie jest jeszcze opublikowane na rekrutacja.uw.edu.pl/statystyki (sprawdzone 1.10.2026; w 2025 ukazało się po zakończeniu rekrutacji)."
+ },
+ {
+  "school": "UW — Gospodarka przestrzenna",
+  "career": "urbanista",
+  "program": "Gospodarka przestrzenna (I stopnia, Wydział Geografii i Studiów Regionalnych)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 59.1,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia-osoba_przyjeta_2023-24.pdf",
+     "round": "I tura"
+    },
+    {
+     "year": 2024,
+     "points": 50.1,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2024-25.pdf",
+     "round": "I tura"
+    },
+    {
+     "year": 2025,
+     "points": 55.05,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2025-26.pdf",
+     "round": "I tura"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/S1-GP/",
+   "academicYear": "2026/2027",
+   "note": "requirementsYear w danych już 2026/2027, nie wymagało weryfikacji"
+  },
+  "tuition": [],
+  "notes": "Progi 2023–2025 zgodne z wierszem „Gospodarka przestrzenna”, I tura. Zestawienie „Punkty ostatniej osoby przyjętej” za 2026/27 nie jest jeszcze opublikowane na rekrutacja.uw.edu.pl/statystyki (sprawdzone 1.10.2026; w 2025 ukazało się po zakończeniu rekrutacji)."
+ },
+ {
+  "school": "UW — Wydział Geografii i Studiów Regionalnych",
+  "career": "kartograf",
+  "program": "Geografia (I stopnia)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 50.13,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia-osoba_przyjeta_2023-24.pdf",
+     "round": "I tura"
+    },
+    {
+     "year": 2024,
+     "points": 50.09,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2024-25.pdf",
+     "round": "I tura"
+    },
+    {
+     "year": 2025,
+     "points": 50.63,
+     "scaleMax": 100,
+     "sourceUrl": "https://rekrutacja.uw.edu.pl/files/pdf/Punkty_ostatnia_osoba_przyjeta_2025-26.pdf",
+     "round": "I tura"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.uw.edu.pl/pl/offer/PELNE2026/programme/S1-GF/",
+   "academicYear": "2026/2027",
+   "note": "requirementsYear w danych już 2026/2027, nie wymagało weryfikacji"
+  },
+  "tuition": [],
+  "notes": "Progi 2023–2025 zgodne z wierszem „Geografia”, I tura (II tura: 2023 52,39, 2024 52,52). Zestawienie „Punkty ostatniej osoby przyjętej” za 2026/27 nie jest jeszcze opublikowane na rekrutacja.uw.edu.pl/statystyki (sprawdzone 1.10.2026; w 2025 ukazało się po zakończeniu rekrutacji)."
+ },
+ {
+  "school": "UMP — Kosmetologia",
+  "career": "kosmetyczka",
+  "program": "Kosmetologia (studia I stopnia, stacjonarne, 3-letnie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 85,
+     "scaleMax": 200,
+     "sourceUrl": "https://www.ump.edu.pl/rekrutacja/studia-I-II-stopnia-oraz-jednolite-magisterskie/progi-punktowe/rekrutacja-2023",
+     "round": "jedna wartość: próg punktowy dla rekrutacji (UMP nie publikuje podziału na tury)"
+    },
+    {
+     "year": 2024,
+     "points": 55.5,
+     "scaleMax": 200,
+     "sourceUrl": "https://www.ump.edu.pl/rekrutacja/studia-I-II-stopnia-oraz-jednolite-magisterskie/progi-punktowe/rekrutacja-2024",
+     "round": "jedna wartość: próg punktowy dla rekrutacji (UMP nie publikuje podziału na tury)"
+    },
+    {
+     "year": 2025,
+     "points": 65,
+     "scaleMax": 200,
+     "sourceUrl": "https://www.ump.edu.pl/rekrutacja/studia-I-II-stopnia-oraz-jednolite-magisterskie/progi-punktowe",
+     "round": "jedna wartość: próg punktowy dla rekrutacji (UMP nie publikuje podziału na tury)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.ump.edu.pl/media/uid/de44-_3_6_22--744058/d_7d66.pdf",
+   "academicYear": "2026/2027",
+   "note": "requirementsYear w danych już 2026/2027"
+  },
+  "tuition": [],
+  "notes": "Progi 2023–2025 zgodne z wierszem „Kosmetologia – I stopnia” / „Kosmetologia, stacjonarne pierwszego stopnia” (2023: „85 (max 200)”, 2024: „55,5 (max 200)”). Strona progów UMP pokazuje nadal rok 2025/2026 (aktualizacja 12.03.2026), brak podstrony za 2026/2027 (stan 1.10.2026)."
+ },
+ {
+  "school": "UM Łódź — Kosmetologia",
+  "career": "kosmetyczka",
+  "program": "Kosmetologia (studia I stopnia, stacjonarne, 3-letnie)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 180,
+     "scaleMax": 400,
+     "sourceUrl": "https://rekrutacja.umed.lodz.pl/pliki/STATYSTYKA-2023-2024-na-str.pdf",
+     "round": "pierwszy próg (kolumna „1 próg” / „Pierwszy próg” w statystyce końcowej)"
+    },
+    {
+     "year": 2024,
+     "points": 170,
+     "scaleMax": 400,
+     "sourceUrl": "https://rekrutacja.umed.lodz.pl/pliki/STATYSTYKA-2024-2025-ostateczna.pdf",
+     "round": "pierwszy próg (kolumna „1 próg” / „Pierwszy próg” w statystyce końcowej)"
+    },
+    {
+     "year": 2025,
+     "points": 170,
+     "scaleMax": 400,
+     "sourceUrl": "https://rekrutacja.umed.lodz.pl/pliki/STATYSTYKA-2025-2026ost.pdf",
+     "round": "pierwszy próg (kolumna „1 próg” / „Pierwszy próg” w statystyce końcowej)"
+    },
+    {
+     "year": 2026,
+     "points": 140,
+     "scaleMax": 400,
+     "sourceUrl": "https://rekrutacja.umed.pl/kolejne-progi-punktowe-17/",
+     "round": "pierwszy próg dla Kosmetologii I st., ogłoszony 21.07.2026; do 29.09.2026 niezmieniony"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": "Zmiana konwencji tury, nie błąd wiersza: w danych były wartości z kolumny „Ostatni próg” (2023: 170, 2024: 160, 2025: 122). Zgodnie z konwencją „I tura / cykl 1” podaję „1 próg”: 180, 170, 170.",
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.umed.pl/studia-w-jezyku-polskim/kosmetologia/",
+   "academicYear": "2026/2027",
+   "note": "requirementsYear w danych już 2026/2027"
+  },
+  "tuition": [],
+  "notes": "UM Łódź publikuje kolejne progi w komunikatach, a po rekrutacji statystykę końcową z kolumnami „1 próg” i „Ostatni próg”. Statystyka za 2026/27 jeszcze nie wyszła (brak na /statystyki/, stan 1.10.2026). Próg 2026 pochodzi z komunikatu z 21.07.2026 (Kosmetologia – 140). Kolejne komunikaty do 29.09.2026 nie zmieniały progu, więc na dziś pierwszy i ostatni próg 2026 to 140. Sprawdziłem, że komunikaty to ten sam typ danych co statystyka: w 2025 pierwszy próg z komunikatu (22.07.2025: 170) zgadza się z „Pierwszym progiem” w statystyce, a ostatni (16.09.2025: 122) z „Ostatnim progiem”. Jeśli wolicie zostać przy konwencji „ostatni próg”: 170, 160, 122, a 2026 wstępnie 140, do potwierdzenia w statystyce końcowej."
+ },
+ {
+  "school": "PW — Wydział Inżynierii Lądowej",
+  "career": "inzynier-budownictwa",
+  "program": "Budownictwo (I stopnia inż., stacjonarne 8 sem.; jednolite mgr 10 sem. rekrutowane osobno; niestacjonarne zjazdowe 9 sem.)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 113,
+     "scaleMax": 225,
+     "sourceUrl": "https://web.archive.org/web/20231129024613/https://bps.pw.edu.pl/Aktualnosci/Komunikat-Miedzywydzialowej-Komisji-Rekrutacyjnej-z-dnia-18.07.2023-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 18.07.2023)"
+    },
+    {
+     "year": 2024,
+     "points": 110,
+     "scaleMax": 225,
+     "sourceUrl": "https://web.archive.org/web/20240722152855/https://www.bps.pw.edu.pl/Aktualnosci/Komunikat-Miedzywydzialowej-Komisji-Rekrutacyjnej-z-dnia-18.07.2024-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 18.07.2024)"
+    },
+    {
+     "year": 2025,
+     "points": 120,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-18072025-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 18.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 122,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-17072026-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 17.07.2026)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "display": [
+    "Matematyka (P lub R), waga 1,00",
+    "Przedmiot do wyboru: fizyka 1,00; chemia lub informatyka 0,75; biologia lub geografia 0,50 (P lub R)",
+    "Język obcy (P lub R), waga 0,25"
+   ],
+   "sourceUrl": "https://www.pw.edu.pl/sites/default/files/2026-05/Przedmioty%20i%20wsp%C3%B3%C5%82czynniki%20wagowe%202026_2027.pdf",
+   "academicYear": "2026/2027"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "5700 PLN/semestr",
+    "amount": 5700,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.bip.pw.edu.pl/content/download/81496/765243/file/132_2026_DECYZJA%20Rektora.pdf",
+    "tuitionNote": "Decyzja nr 132/2026 Rektora PW, zał. 1 tab. 1. Kwota bazowa (kn), od której liczy się indywidualną opłatę semestralną proporcjonalnie do ECTS; przy standardowym planie równa opłacie za semestr."
+   }
+  ],
+  "notes": "Wiersz „Budownictwo” (I stopnia) Wydziału Inżynierii Lądowej, nie „Budownictwo (jednolite studia magisterskie)” (2025: 127, 2026: 140) ani „Civil Engineering”. Program w danych wymaga korekty: jednolite studia mgr z Budownictwa były rekrutowane już w 2025 (komunikat z 18.07.2025), nie dopiero od 2026/27. 2026, II etap (24.07.2026): 122. Współczynniki wagowe 2026/27 takie same jak w 2025/26. Niestacjonarne: PW nie publikuje progów punktowych. Wcześniej w danych brak progów stacjonarnych. Uzupełniono pełną listę 2023–2026 z komunikatów Międzywydziałowej Komisji Rekrutacyjnej (próg I etapu kwalifikacji, skala do 225 pkt PK)."
+ },
+ {
+  "school": "PW — Wydział Mechaniczny Energetyki i Lotnictwa",
+  "career": "inzynier-mechanik",
+  "program": "Mechanika i projektowanie maszyn (I stopnia inż., stacjonarne i niestacjonarne zjazdowe, 7 sem.)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 182,
+     "scaleMax": 225,
+     "sourceUrl": "https://web.archive.org/web/20231129024613/https://bps.pw.edu.pl/Aktualnosci/Komunikat-Miedzywydzialowej-Komisji-Rekrutacyjnej-z-dnia-18.07.2023-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 18.07.2023)"
+    },
+    {
+     "year": 2024,
+     "points": 180,
+     "scaleMax": 225,
+     "sourceUrl": "https://web.archive.org/web/20240722152855/https://www.bps.pw.edu.pl/Aktualnosci/Komunikat-Miedzywydzialowej-Komisji-Rekrutacyjnej-z-dnia-18.07.2024-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 18.07.2024)"
+    },
+    {
+     "year": 2025,
+     "points": 194,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-18072025-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 18.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 198,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-17072026-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 17.07.2026)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "display": [
+    "Matematyka (P lub R), waga 1,00",
+    "Przedmiot do wyboru: fizyka 1,00; informatyka 0,75; chemia lub biologia 0,50 (P lub R)",
+    "Język obcy (P lub R), waga 0,25"
+   ],
+   "sourceUrl": "https://www.pw.edu.pl/sites/default/files/2026-05/Przedmioty%20i%20wsp%C3%B3%C5%82czynniki%20wagowe%202026_2027.pdf",
+   "academicYear": "2026/2027"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "6210 PLN/semestr",
+    "amount": 6210,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.bip.pw.edu.pl/content/download/81496/765243/file/132_2026_DECYZJA%20Rektora.pdf",
+    "tuitionNote": "Decyzja nr 132/2026 Rektora PW, zał. 1 tab. 1. Kwota bazowa (kn), od której liczy się indywidualną opłatę semestralną proporcjonalnie do ECTS; przy standardowym planie równa opłacie za semestr."
+   }
+  ],
+  "notes": "Wiersz „Mechanika i Projektowanie Maszyn” (MEiL, kod 113C-ISP-PM), nie „Mechanika i Budowa Maszyn” z Wydziału Mechanicznego Technologicznego (2026: 116). W 2026 po I etapie „kwalifikacja zakończona”. Niestacjonarne: PW nie publikuje progów punktowych. Wcześniej w danych brak progów stacjonarnych. Uzupełniono pełną listę 2023–2026 z komunikatów Międzywydziałowej Komisji Rekrutacyjnej (próg I etapu kwalifikacji, skala do 225 pkt PK)."
+ },
+ {
+  "school": "PW — Wydział Instalacji Budowlanych, Hydrotechniki i Inżynierii Środowiska",
+  "career": "inzynier-srodowiska",
+  "program": "Inżynieria środowiska (I stopnia inż., 7 sem.; Wydział Inżynierii Środowiska)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 75,
+     "scaleMax": 225,
+     "sourceUrl": "https://web.archive.org/web/20231129024613/https://bps.pw.edu.pl/Aktualnosci/Komunikat-Miedzywydzialowej-Komisji-Rekrutacyjnej-z-dnia-18.07.2023-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 18.07.2023)"
+    },
+    {
+     "year": 2024,
+     "points": 87,
+     "scaleMax": 225,
+     "sourceUrl": "https://web.archive.org/web/20240722152855/https://www.bps.pw.edu.pl/Aktualnosci/Komunikat-Miedzywydzialowej-Komisji-Rekrutacyjnej-z-dnia-18.07.2024-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 18.07.2024)"
+    },
+    {
+     "year": 2025,
+     "points": 108,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-18072025-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 18.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 124,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-17072026-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 17.07.2026)"
+    }
+   ],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "updated",
+   "display": [
+    "Matematyka (P lub R), waga 1,00",
+    "Przedmiot do wyboru (P lub R): fizyka, informatyka lub geografia 1,00; chemia lub biologia 0,75",
+    "Język obcy (P lub R), waga 0,25"
+   ],
+   "structured": [
+    {
+     "anyOf": [
+      "matematyka"
+     ],
+     "level": "P lub R"
+    },
+    {
+     "anyOf": [
+      "fizyka",
+      "chemia",
+      "informatyka",
+      "biologia",
+      "geografia"
+     ],
+     "level": "P lub R"
+    },
+    {
+     "anyOf": [
+      "jezyk_obcy"
+     ],
+     "level": "P lub R"
+    }
+   ],
+   "exam": null,
+   "sourceUrl": "https://www.pw.edu.pl/sites/default/files/2026-05/Przedmioty%20i%20wsp%C3%B3%C5%82czynniki%20wagowe%202026_2027.pdf",
+   "academicYear": "2026/2027"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "4500 PLN/semestr",
+    "amount": 4500,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.bip.pw.edu.pl/content/download/81496/765243/file/132_2026_DECYZJA%20Rektora.pdf",
+    "tuitionNote": "Decyzja nr 132/2026 Rektora PW, zał. 1 tab. 1. Kwota bazowa (kn), od której liczy się indywidualną opłatę semestralną proporcjonalnie do ECTS; przy standardowym planie równa opłacie za semestr."
+   }
+  ],
+  "notes": "Wiersz „Inżynieria Środowiska” (Warszawa), nie „Environmental Engineering”, „Ochrona Środowiska” ani Inżynieria Środowiska w Filii w Płocku. Zbiór przedmiotów bez zmian, zmieniły się wagi: 2025/26 fizyka 1,00, chemia 1,00, informatyka 0,75, biologia 0,75, geografia 0,75; 2026/27 fizyka 1,00, chemia 0,75, informatyka 1,00, biologia 0,75, geografia 1,00. Wydział w 2026 występuje jako „Wydział Inżynierii Środowiska”. 2026, II etap: 122. Niestacjonarne: PW nie publikuje progów punktowych. Wcześniej w danych brak progów stacjonarnych. Uzupełniono pełną listę 2023–2026 z komunikatów Międzywydziałowej Komisji Rekrutacyjnej (próg I etapu kwalifikacji, skala do 225 pkt PK)."
+ },
+ {
+  "school": "PW — Wydział Geodezji i Kartografii",
+  "career": "geodeta",
+  "program": "Geodezja i kartografia (I stopnia inż., stacjonarne 7 sem.)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 110,
+     "scaleMax": 225,
+     "sourceUrl": "https://web.archive.org/web/20231129024613/https://bps.pw.edu.pl/Aktualnosci/Komunikat-Miedzywydzialowej-Komisji-Rekrutacyjnej-z-dnia-18.07.2023-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 18.07.2023)"
+    },
+    {
+     "year": 2024,
+     "points": 105,
+     "scaleMax": 225,
+     "sourceUrl": "https://web.archive.org/web/20240722152855/https://www.bps.pw.edu.pl/Aktualnosci/Komunikat-Miedzywydzialowej-Komisji-Rekrutacyjnej-z-dnia-18.07.2024-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 18.07.2024)"
+    },
+    {
+     "year": 2025,
+     "points": 114,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-18072025-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 18.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 119,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-17072026-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 17.07.2026)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "display": [
+    "Matematyka (P lub R), waga 1,00",
+    "Przedmiot do wyboru: fizyka 1,00; informatyka lub geografia 0,75; chemia lub biologia 0,50 (P lub R)",
+    "Język obcy (P lub R), waga 0,25"
+   ],
+   "sourceUrl": "https://www.pw.edu.pl/sites/default/files/2026-05/Przedmioty%20i%20wsp%C3%B3%C5%82czynniki%20wagowe%202026_2027.pdf",
+   "academicYear": "2026/2027"
+  },
+  "tuition": [],
+  "notes": "Wiersz „Geodezja i Kartografia” (kod 106C-ISP-GK), nie Geoinformatyka ani Gospodarka Przestrzenna. 2026, II etap (24.07.2026): 112.  Wcześniej w danych brak progów stacjonarnych. Uzupełniono pełną listę 2023–2026 z komunikatów Międzywydziałowej Komisji Rekrutacyjnej (próg I etapu kwalifikacji, skala do 225 pkt PK)."
+ },
+ {
+  "school": "PW — Wydział Geodezji i Kartografii",
+  "career": "kartograf",
+  "program": "Geodezja i kartografia (I stopnia inż., stacjonarne 7 sem.)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 110,
+     "scaleMax": 225,
+     "sourceUrl": "https://web.archive.org/web/20231129024613/https://bps.pw.edu.pl/Aktualnosci/Komunikat-Miedzywydzialowej-Komisji-Rekrutacyjnej-z-dnia-18.07.2023-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 18.07.2023)"
+    },
+    {
+     "year": 2024,
+     "points": 105,
+     "scaleMax": 225,
+     "sourceUrl": "https://web.archive.org/web/20240722152855/https://www.bps.pw.edu.pl/Aktualnosci/Komunikat-Miedzywydzialowej-Komisji-Rekrutacyjnej-z-dnia-18.07.2024-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 18.07.2024)"
+    },
+    {
+     "year": 2025,
+     "points": 114,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-18072025-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 18.07.2025)"
+    },
+    {
+     "year": 2026,
+     "points": 119,
+     "scaleMax": 225,
+     "sourceUrl": "https://www.pw.edu.pl/aktualnosci/komunikat-miedzywydzialowej-komisji-rekrutacyjnej-z-17072026-r",
+     "round": "I etap kwalifikacji, rekrutacja lipcowa (komunikat MKR z 17.07.2026)"
+    }
+   ]
+  },
+  "threshold2026Status": "added",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "display": [
+    "Matematyka (P lub R), waga 1,00",
+    "Przedmiot do wyboru: fizyka 1,00; informatyka lub geografia 0,75; chemia lub biologia 0,50 (P lub R)",
+    "Język obcy (P lub R), waga 0,25"
+   ],
+   "sourceUrl": "https://www.pw.edu.pl/sites/default/files/2026-05/Przedmioty%20i%20wsp%C3%B3%C5%82czynniki%20wagowe%202026_2027.pdf",
+   "academicYear": "2026/2027"
+  },
+  "tuition": [],
+  "notes": "Wiersz „Geodezja i Kartografia” (kod 106C-ISP-GK), nie Geoinformatyka ani Gospodarka Przestrzenna. 2026, II etap (24.07.2026): 112.  Wcześniej w danych brak progów stacjonarnych. Uzupełniono pełną listę 2023–2026 z komunikatów Międzywydziałowej Komisji Rekrutacyjnej (próg I etapu kwalifikacji, skala do 225 pkt PK)."
+ },
+ {
+  "school": "Politechnika Krakowska — Wydział Inżynierii Lądowej",
+  "career": "inzynier-budownictwa",
+  "program": "Budownictwo (studia I stopnia)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 156,
+     "scaleFormula": "wskaźnik PK: W = W1 + W2 (2026/27: W = M + 2R); matematyka P = 1 pkt/% lub R = 2 pkt/%, przedmiot charakterystyczny R = 2 pkt/%; maks. 400",
+     "sourceUrl": "https://rekrutacja.pk.edu.pl/wp-content/uploads/2024/01/progi-punktowe_23_24_st.pdf",
+     "round": "jedna wartość: „Wymagana liczba punktów” w zestawieniu PK za cały nabór (bez podziału na tury)"
+    },
+    {
+     "year": 2024,
+     "points": 160,
+     "scaleFormula": "wskaźnik PK: W = W1 + W2 (2026/27: W = M + 2R); matematyka P = 1 pkt/% lub R = 2 pkt/%, przedmiot charakterystyczny R = 2 pkt/%; maks. 400",
+     "sourceUrl": "https://rekrutacja.pk.edu.pl/wp-content/uploads/2024/10/progi-punktowe_24_25_st.pdf",
+     "round": "jedna wartość: „Wymagana liczba punktów” w zestawieniu PK za cały nabór (bez podziału na tury)"
+    },
+    {
+     "year": 2025,
+     "points": 160,
+     "scaleFormula": "wskaźnik PK: W = W1 + W2 (2026/27: W = M + 2R); matematyka P = 1 pkt/% lub R = 2 pkt/%, przedmiot charakterystyczny R = 2 pkt/%; maks. 400",
+     "sourceUrl": "https://rekrutacja.pk.edu.pl/wp-content/uploads/2025/10/progi-punktowe_25_26_st.pdf",
+     "round": "jedna wartość: „Wymagana liczba punktów” w zestawieniu PK za cały nabór (bez podziału na tury)"
+    }
+   ],
+   "niestacjonarne": [
+    {
+     "year": 2023,
+     "points": 100,
+     "scaleFormula": "wskaźnik PK: W = W1 + W2 (2026/27: W = M + 2R); matematyka P = 1 pkt/% lub R = 2 pkt/%, przedmiot charakterystyczny R = 2 pkt/%; maks. 400",
+     "sourceUrl": "https://rekrutacja.pk.edu.pl/wp-content/uploads/2024/01/progi-punktowe_23_24_nst.pdf",
+     "round": "jedna wartość: „Wymagana liczba punktów” w zestawieniu PK za cały nabór (bez podziału na tury)"
+    },
+    {
+     "year": 2024,
+     "points": 100,
+     "scaleFormula": "wskaźnik PK: W = W1 + W2 (2026/27: W = M + 2R); matematyka P = 1 pkt/% lub R = 2 pkt/%, przedmiot charakterystyczny R = 2 pkt/%; maks. 400",
+     "sourceUrl": "https://rekrutacja.pk.edu.pl/wp-content/uploads/2024/10/progi-punktowe_24_25_nst.pdf",
+     "round": "jedna wartość: „Wymagana liczba punktów” w zestawieniu PK za cały nabór (bez podziału na tury)"
+    },
+    {
+     "year": 2025,
+     "points": 100,
+     "scaleFormula": "wskaźnik PK: W = W1 + W2 (2026/27: W = M + 2R); matematyka P = 1 pkt/% lub R = 2 pkt/%, przedmiot charakterystyczny R = 2 pkt/%; maks. 400",
+     "sourceUrl": "https://rekrutacja.pk.edu.pl/wp-content/uploads/2025/10/progi-punktowe_25_26_nst.pdf",
+     "round": "jedna wartość: „Wymagana liczba punktów” w zestawieniu PK za cały nabór (bez podziału na tury)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "display": [
+    "Matematyka (P lub R), składnik M",
+    "Przedmiot charakterystyczny (R): matematyka, fizyka (lub fizyka i astronomia), chemia lub informatyka; dla Budownictwa 2R może przyjąć wartość M"
+   ],
+   "sourceUrl": "https://www.pk.edu.pl//informator-dla-kandydatow-na-studia/informator_2026-7.pdf",
+   "academicYear": "2026/2027"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "not_found",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://rekrutacja.pk.edu.pl/oplaty/",
+    "tuitionNote": "Strona „Opłaty” podaje tylko opłatę rekrutacyjną (85 zł). Nie znalazłem zarządzenia o czesnym na 2026/27 (BIP PK to aplikacja JS, nie do odczytu curl)."
+   }
+  ],
+  "notes": "Wiersz „BUDOWNICTWO” (w j. polskim), nie „BUDOWNICTWO w j. angielskim” (2023: 160). W 2026/27 wzór zapisany jako W = M + 2R zamiast W = W1 + W2, zasada liczenia ta sama. Przedmioty dla Budownictwa bez zmian (odczyt z tabeli graficznej informatora 2026/27, s. 5). Próg 2026 nieopublikowany: PK wydaje zestawienie „Progi punktowe” po zakończeniu naboru (za 2025/26 w październiku 2025), a strona https://rekrutacja.pk.edu.pl/progi-punktowe-na-studia-i-stopnia-na-pk/ kończy się na 2025/26 (stan 1.10.2026). Wcześniej w danych brak progów, uzupełniono 2023–2025. Wartość to „wymagana liczba punktów” (minimum kwalifikacji), nie wynik ostatniej osoby przyjętej."
+ },
+ {
+  "school": "Politechnika Krakowska — Wydział Inżynierii Środowiska i Energetyki",
+  "career": "inzynier-srodowiska",
+  "program": "Inżynieria środowiska (studia I stopnia)",
+  "thresholdsFix": {
+   "stacjonarne": [
+    {
+     "year": 2023,
+     "points": 70,
+     "scaleFormula": "wskaźnik PK: W = W1 + W2 (2026/27: W = M + 2R); matematyka P = 1 pkt/% lub R = 2 pkt/%, przedmiot charakterystyczny R = 2 pkt/%; maks. 400",
+     "sourceUrl": "https://rekrutacja.pk.edu.pl/wp-content/uploads/2024/01/progi-punktowe_23_24_st.pdf",
+     "round": "jedna wartość: „Wymagana liczba punktów” w zestawieniu PK za cały nabór (bez podziału na tury)"
+    },
+    {
+     "year": 2024,
+     "points": 70,
+     "scaleFormula": "wskaźnik PK: W = W1 + W2 (2026/27: W = M + 2R); matematyka P = 1 pkt/% lub R = 2 pkt/%, przedmiot charakterystyczny R = 2 pkt/%; maks. 400",
+     "sourceUrl": "https://rekrutacja.pk.edu.pl/wp-content/uploads/2024/10/progi-punktowe_24_25_st.pdf",
+     "round": "jedna wartość: „Wymagana liczba punktów” w zestawieniu PK za cały nabór (bez podziału na tury)"
+    },
+    {
+     "year": 2025,
+     "points": 70,
+     "scaleFormula": "wskaźnik PK: W = W1 + W2 (2026/27: W = M + 2R); matematyka P = 1 pkt/% lub R = 2 pkt/%, przedmiot charakterystyczny R = 2 pkt/%; maks. 400",
+     "sourceUrl": "https://rekrutacja.pk.edu.pl/wp-content/uploads/2025/10/progi-punktowe_25_26_st.pdf",
+     "round": "jedna wartość: „Wymagana liczba punktów” w zestawieniu PK za cały nabór (bez podziału na tury)"
+    }
+   ],
+   "niestacjonarne": [
+    {
+     "year": 2023,
+     "points": 50,
+     "scaleFormula": "wskaźnik PK: W = W1 + W2 (2026/27: W = M + 2R); matematyka P = 1 pkt/% lub R = 2 pkt/%, przedmiot charakterystyczny R = 2 pkt/%; maks. 400",
+     "sourceUrl": "https://rekrutacja.pk.edu.pl/wp-content/uploads/2024/01/progi-punktowe_23_24_nst.pdf",
+     "round": "jedna wartość: „Wymagana liczba punktów” w zestawieniu PK za cały nabór (bez podziału na tury)"
+    },
+    {
+     "year": 2024,
+     "points": 50,
+     "scaleFormula": "wskaźnik PK: W = W1 + W2 (2026/27: W = M + 2R); matematyka P = 1 pkt/% lub R = 2 pkt/%, przedmiot charakterystyczny R = 2 pkt/%; maks. 400",
+     "sourceUrl": "https://rekrutacja.pk.edu.pl/wp-content/uploads/2024/10/progi-punktowe_24_25_nst.pdf",
+     "round": "jedna wartość: „Wymagana liczba punktów” w zestawieniu PK za cały nabór (bez podziału na tury)"
+    },
+    {
+     "year": 2025,
+     "points": 50,
+     "scaleFormula": "wskaźnik PK: W = W1 + W2 (2026/27: W = M + 2R); matematyka P = 1 pkt/% lub R = 2 pkt/%, przedmiot charakterystyczny R = 2 pkt/%; maks. 400",
+     "sourceUrl": "https://rekrutacja.pk.edu.pl/wp-content/uploads/2025/10/progi-punktowe_25_26_nst.pdf",
+     "round": "jedna wartość: „Wymagana liczba punktów” w zestawieniu PK za cały nabór (bez podziału na tury)"
+    }
+   ]
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "updated",
+   "display": [
+    "Matematyka (P lub R), składnik M",
+    "Przedmiot charakterystyczny (R): fizyka (lub fizyka i astronomia), biologia, chemia, geografia lub informatyka; od 2026/27 także matematyka (R), jeśli M liczone z matematyki P"
+   ],
+   "structured": [
+    {
+     "anyOf": [
+      "matematyka"
+     ],
+     "level": "P lub R"
+    },
+    {
+     "anyOf": [
+      "fizyka",
+      "biologia",
+      "chemia",
+      "geografia",
+      "informatyka",
+      "matematyka"
+     ],
+     "level": "R"
+    }
+   ],
+   "exam": null,
+   "sourceUrl": "https://www.pk.edu.pl//informator-dla-kandydatow-na-studia/informator_2026-7.pdf",
+   "academicYear": "2026/2027"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "not_found",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://rekrutacja.pk.edu.pl/oplaty/",
+    "tuitionNote": "Strona „Opłaty” podaje tylko opłatę rekrutacyjną (85 zł). Nie znalazłem zarządzenia o czesnym na 2026/27 (BIP PK to aplikacja JS, nie do odczytu curl)."
+   }
+  ],
+  "notes": "Wiersz „INŻYNIERIA ŚRODOWISKA”, nie nowy kierunek niestacjonarny „inżynieria środowiska i energetyka” (od 2026/27). Zmiana: w informatorze 2026/27 matematyka rozszerzona może być przedmiotem R na wszystkich wydziałach poza Architekturą (w 2025/26 tylko WIEiK i Mechaniczny). W tabeli 2026/27 IŚ ma zaznaczoną kolumnę „matematyka” dla R, a w 2025/26 jej nie było (odczyt graficzny). Próg 2026 nieopublikowany: PK wydaje zestawienie „Progi punktowe” po zakończeniu naboru (za 2025/26 w październiku 2025), a strona https://rekrutacja.pk.edu.pl/progi-punktowe-na-studia-i-stopnia-na-pk/ kończy się na 2025/26 (stan 1.10.2026). Wcześniej w danych brak progów, uzupełniono 2023–2025. Wartość to „wymagana liczba punktów” (minimum kwalifikacji), nie wynik ostatniej osoby przyjętej."
+ },
+ {
+  "school": "UP Wrocław — Wydział Przyrodniczo-Technologiczny",
+  "career": "architekt-krajobrazu",
+  "program": "architektura krajobrazu (studia I stopnia, ogólnoakademickie)",
+  "thresholdsFix": {
+   "stacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "display": [
+    "Język polski (P lub R)",
+    "Język obcy nowożytny (P lub R)",
+    "Jeden do wyboru: biologia, geografia, matematyka lub informatyka (P lub R)"
+   ],
+   "sourceUrl": "https://bip.upwr.edu.pl/akty-prawne/uchwaly/uchwaly-senatu/2025-rok/uchwala-nr-372025-senatu-uniwersytetu-przyrodniczego-we-wroclawiu-z-dnia-27-czerwca-2025-roku-37.html",
+   "academicYear": "2026/2027",
+   "note": "Uchwała Senatu UPWr nr 37/2025 z 27.06.2025, zał. nr 1 (oferta kierunków i przedmioty kwalifikacyjne 2026/2027)"
+  },
+  "tuition": [],
+  "notes": "Uwaga do nazwy szkoły: w załącznikach 2025/26 i 2026/27 architektura krajobrazu jest na Wydziale Gospodarki Przestrzennej i Architektury Krajobrazu, nie na Wydziale Przyrodniczo-Technologicznym (pola school nie zmieniałem). rekrutacja.upwr.edu.pl zwraca 403/503 dla curl i WebFetch (1.10.2026), a w web.archive.org nie znalazłem kopii strony progów ani czesnego z 2026. Nie mogłem więc sprawdzić, czy UPWr publikuje progi i ile wynosi czesne na 2026/27."
+ },
+ {
+  "school": "UP Wrocław — Wydział Rolnictwa",
+  "career": "rolnik",
+  "program": "rolnictwo (studia I stopnia, ogólnoakademickie)",
+  "thresholdsFix": {
+   "stacjonarne": [],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "display": [
+    "Język polski (P lub R)",
+    "Język obcy nowożytny (P lub R)",
+    "Jeden do wyboru: biologia, chemia, fizyka, geografia, informatyka lub matematyka (P lub R)"
+   ],
+   "sourceUrl": "https://bip.upwr.edu.pl/akty-prawne/uchwaly/uchwaly-senatu/2025-rok/uchwala-nr-372025-senatu-uniwersytetu-przyrodniczego-we-wroclawiu-z-dnia-27-czerwca-2025-roku-37.html",
+   "academicYear": "2026/2027"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "not_found",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": null,
+    "tuitionNote": "Strona opłat UPWr niedostępna (403)."
+   }
+  ],
+  "notes": "Uwaga do nazwy szkoły: rolnictwo jest w obu latach na Wydziale Przyrodniczo-Technologicznym. UPWr nie ma „Wydziału Rolnictwa” (pola school nie zmieniałem). rekrutacja.upwr.edu.pl zwraca 403/503 dla curl i WebFetch (1.10.2026), a w web.archive.org nie znalazłem kopii strony progów ani czesnego z 2026. Nie mogłem więc sprawdzić, czy UPWr publikuje progi i ile wynosi czesne na 2026/27."
+ },
+ {
+  "school": "UMCS — Wydział Humanistyczny",
+  "career": "logopeda",
+  "program": "Logopedia z audiologią (I stopień, Wydział Filologiczny)",
+  "thresholdsFix": {
+   "stacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "display": [
+    "Język polski (P lub R): R 1% = 2 pkt, P 1% = 1 pkt",
+    "Jeden z: matematyka, biologia, fizyka lub fizyka i astronomia (P lub R): R 1% = 2 pkt, P 1% = 1 pkt",
+    "Sprawdzian predyspozycji (rozmowa, wymowa), maks. 120 pkt, minimum 80 pkt"
+   ],
+   "sourceUrl": "https://phavi.umcs.pl/at/attachments/2025/0708/145542-zal-1-2025-zasady-przyjec-na-kierunki-studiow-po-komisji-17062025-popr-www.pdf",
+   "academicYear": "2026/2027",
+   "note": "Załącznik 1 do uchwały Senatu UMCS nr XXVI-10.7/25 z 25.06.2025; przedmioty i sprawdzian bez zmian, dopisano jedynie przelicznik P/R"
+  },
+  "tuition": [],
+  "notes": "Nie znalazłem oficjalnego zestawienia progów UMCS za żaden rok (strona kandydata nie ma działu progów), więc brak progów także za 2026."
+ },
+ {
+  "school": "UŚ — Wydział Humanistyczny",
+  "career": "logopeda",
+  "program": "Logopedia (I stopień, stacjonarne)",
+  "thresholdsFix": {
+   "stacjonarne": []
+  },
+  "threshold2026Status": "not_applicable",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.us.edu.pl/wp-content/uploads/2026/05/zal_do_256_2026_1_Wydzial_Humanistyczny-1.pdf",
+   "academicYear": "2026/2027",
+   "note": "requirementsYear w danych już 2026/2027"
+  },
+  "tuition": [],
+  "notes": "UŚ na kartach kierunków pisze wprost: „Na Uniwersytecie Śląskim nie ustalamy minimalnych progów punktowych na żadnym kierunku… Progi przyjęcia zmieniają się co roku” i nie publikuje wyniku ostatniej osoby przyjętej (np. https://rekrutacja.us.edu.pl/karta-kierunku/mathematics/)."
+ },
+ {
+  "school": "UW — Uniwersytet Warszawski",
+  "career": "nauczyciel-akademicki",
+  "program": null,
+  "thresholdsFix": {
+   "stacjonarne": []
+  },
+  "threshold2026Status": "not_applicable",
+  "rowFix": null,
+  "requirements": {
+   "status": "not_found"
+  },
+  "tuition": [],
+  "notes": "Brak programu studiów (kariera nauczyciela akademickiego: ścieżka przez studia II stopnia i szkołę doktorską). Progi, wymagania i czesne nie dotyczą."
+ },
+ {
+  "school": "UJ — Uniwersytet Jagielloński",
+  "career": "nauczyciel-akademicki",
+  "program": null,
+  "thresholdsFix": {
+   "stacjonarne": []
+  },
+  "threshold2026Status": "not_applicable",
+  "rowFix": null,
+  "requirements": {
+   "status": "not_found"
+  },
+  "tuition": [],
+  "notes": "Brak programu studiów (kariera nauczyciela akademickiego: ścieżka przez studia II stopnia i szkołę doktorską). Progi, wymagania i czesne nie dotyczą."
+ },
+ {
+  "school": "UAM — Uniwersytet im. Adama Mickiewicza",
+  "career": "nauczyciel-akademicki",
+  "program": null,
+  "thresholdsFix": {
+   "stacjonarne": []
+  },
+  "threshold2026Status": "not_applicable",
+  "rowFix": null,
+  "requirements": {
+   "status": "not_found"
+  },
+  "tuition": [],
+  "notes": "Brak programu studiów (kariera nauczyciela akademickiego: ścieżka przez studia II stopnia i szkołę doktorską). Progi, wymagania i czesne nie dotyczą."
+ },
+ {
+  "school": "UR Kraków — Wydział Biotechnologii i Ogrodnictwa",
+  "career": "architekt-krajobrazu",
+  "program": "architektura krajobrazu (studia I stopnia, stacjonarne)",
+  "thresholdsFix": {
+   "stacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.urk.edu.pl/pl/offer/I_st_2026_2027_Z/programme/IAKZZ.SI.07/?from=field:IAKXY",
+   "academicYear": "2026/2027",
+   "note": "requirementsYear w danych już 2026/2027"
+  },
+  "tuition": [],
+  "notes": "URK nie publikuje zestawienia progów punktowych (brak takiej strony na rekrutacja.urk.edu.pl i w IRK, stan 1.10.2026)."
+ },
+ {
+  "school": "UR Kraków — Wydział Leśny",
+  "career": "lesnik",
+  "program": "leśnictwo (studia I stopnia)",
+  "thresholdsFix": {
+   "stacjonarne": [],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://irk.urk.edu.pl/pl/offer/I_st_2026_2027_Z/programme/LASZZ.SI.07/?from=field:LLSXX",
+   "academicYear": "2026/2027",
+   "note": "requirementsYear w danych już 2026/2027"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "3000 PLN/semestr",
+    "amount": 3000,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://akty.urk.edu.pl/d/PDHEFQQ4-XFF0Wm9jVEdrXgxuD0Z7WlwXIBtKZDUWQENVIAdFc20aNWxEdSIpXlAVUn0CQ3hRRUg/zr_59_z3_2026.pdf",
+    "tuitionNote": "Zarządzenie Rektora URK nr 59/2026 z 26.05.2026, zał. 3 (niestacjonarne I stopnia, zł/semestr), link ze strony https://rekrutacja.urk.edu.pl/rekrutacja/oplaty"
+   }
+  ],
+  "notes": "URK nie publikuje zestawienia progów punktowych (brak takiej strony na rekrutacja.urk.edu.pl i w IRK, stan 1.10.2026)."
+ },
+ {
+  "school": "UP Poznań — Wydział Rolnictwa",
+  "career": "rolnik",
+  "program": "rolnictwo (studia I stopnia, inżynierskie)",
+  "thresholdsFix": {
+   "stacjonarne": [],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://up.poznan.pl/kandydat/stopien-1",
+   "academicYear": "2026/2027",
+   "note": "requirementsYear w danych już 2026/2027. Strona kandydata potwierdza: przedmiot kierunkowy biologia, chemia, informatyka albo matematyka (P 1% = 0,6 pkt, R 1% = 0,8 pkt), j. polski i j. obcy po 0,1 pkt za 1% (zarządzenie nr 39/2026)"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "2100 PLN/semestr",
+    "amount": 2100,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://up.poznan.pl/kandydat/stopien-1",
+    "tuitionNote": "Opłata semestralna na studiach I stopnia rozpoczynających się w 2026/2027."
+   }
+  ],
+  "notes": "UP Poznań nie publikuje zestawienia progów dla I stopnia (strona kandydata podaje tylko limity i minimum 30 pkt na studia stacjonarne, stan 1.10.2026)."
+ },
+ {
+  "school": "UP Poznań — Wydział Leśny",
+  "career": "lesnik",
+  "program": "leśnictwo (studia I stopnia, inżynierskie)",
+  "thresholdsFix": {
+   "stacjonarne": [],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://up.poznan.pl/kandydat/stopien-1",
+   "academicYear": "2026/2027",
+   "note": "requirementsYear w danych już 2026/2027; przedmiot kierunkowy biologia albo matematyka"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "2800 PLN/semestr",
+    "amount": 2800,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://up.poznan.pl/kandydat/stopien-1",
+    "tuitionNote": "Opłata semestralna na studiach I stopnia rozpoczynających się w 2026/2027."
+   }
+  ],
+  "notes": "UP Poznań nie publikuje zestawienia progów dla I stopnia (strona kandydata podaje tylko limity i minimum 30 pkt na studia stacjonarne, stan 1.10.2026)."
+ },
+ {
+  "school": "ASP im. Jana Matejki w Krakowie",
+  "career": "architekt-wnetrz",
+  "program": "Architektura wnętrz (jednolite magisterskie stacjonarne; niestacjonarne I stopnia), Wydział Architektury Wnętrz",
+  "thresholdsFix": {
+   "stacjonarne": [],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_applicable",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://bip.malopolska.pl/e,pobierz,get.html?id=3851280",
+   "academicYear": "2026/2027",
+   "note": "requirementsYear w danych już 2026/2027"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "4700 PLN/semestr",
+    "amount": 4700,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://bip.malopolska.pl/e,pobierz,get.html?id=4141258",
+    "tuitionNote": "Zarządzenie nr 28/2026 Rektora ASP w Krakowie z 20.05.2026, zał. 2. Architektura wnętrz I stopnia: 4700 zł za semestr, 32900 zł za cały cykl."
+   }
+  ],
+  "notes": "Rekrutacja na podstawie egzaminu praktycznego/portfolio i rozmowy, bez rankingu maturalnego. Uczelnia nie publikuje progów punktowych."
+ },
+ {
+  "school": "ASP Łódź — Wydział Sztuk Projektowych",
+  "career": "projektant-mody",
+  "program": "Projektowanie ubioru (studia stacjonarne I stopnia, profil ogólnoakademicki)",
+  "thresholdsFix": {
+   "stacjonarne": []
+  },
+  "threshold2026Status": "not_applicable",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://bip.asp.lodz.pl/attachments/1278/download/Uchwa%25C5%2582a%2520Senatu%2520nr%252049%2F25%2Fk24-28",
+   "academicYear": "2026/2027",
+   "note": "requirementsYear w danych już 2026/2027"
+  },
+  "tuition": [],
+  "notes": "Rekrutacja na podstawie egzaminu praktycznego/portfolio i rozmowy, bez rankingu maturalnego. Uczelnia nie publikuje progów punktowych. Wyniki matury nie są punktowane."
+ },
+ {
+  "school": "Viamoda — Szkoła Wyższa",
+  "career": "projektant-mody",
+  "program": "Wzornictwo, specjalność Projektowanie ubioru i zarządzanie technologią (także: Projektowanie ubioru i kostiumografia), studia I stopnia, 7 semestrów",
+  "thresholdsFix": {
+   "stacjonarne": [],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_applicable",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.viamoda.edu.pl/rekrutacja/rekrutacja-iicencjat/",
+   "academicYear": "2026/2027",
+   "note": "requirementsYear w danych już 2026/2027"
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "unchanged",
+    "display": "8800 PLN/semestr",
+    "amount": 8800,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.viamoda.edu.pl/wp-content/uploads/2026/03/czesne-I-stopien-2026-27.pdf",
+    "tuitionNote": "Kwota tylko za I rok (17400 zł rocznie). II i III rok: 9300 zł za semestr, VII semestr: 9350 zł; kwoty od II roku podlegają waloryzacji."
+   },
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "8300 PLN/semestr",
+    "amount": 8300,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://www.viamoda.edu.pl/wp-content/uploads/2026/03/czesne-I-stopien-2026-27.pdf",
+    "tuitionNote": "Kwota tylko za I rok (16400 zł rocznie). II i III rok: 8800 zł za semestr, VII semestr: 8850 zł; kwoty od II roku podlegają waloryzacji."
+   }
+  ],
+  "notes": "Uczelnia niepubliczna, przyjmuje bez egzaminów, do wyczerpania limitu miejsc. Progów brak. Opłata wpisowa 550 zł."
+ },
+ {
+  "school": "APS — Akademia Pedagogiki Specjalnej",
+  "career": "pedagog",
+  "program": "Pedagogika specjalna (jednolite studia magisterskie, stacjonarne i niestacjonarne)",
+  "thresholdsFix": {
+   "stacjonarne": [],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://www.aps.edu.pl/rekrutacja/pedagogika-specjalna/wymagania-rekrutacyjne/",
+   "academicYear": "2026/2027",
+   "note": "requirementsYear w danych już 2026/2027"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "3600 PLN/semestr",
+    "amount": 3600,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://bip.aps.edu.pl/zarzadzenie/z-254-2026",
+    "tuitionNote": "Kwota za semestry I–II. Zarządzenie Rektora APS nr 254/2026 z 29.05.2026, zał. 1, dla rozpoczynających studia w 2026/27: semestry III–IV 3700 zł, V–VI 3800 zł, VII–X 3900 zł."
+   }
+  ],
+  "notes": "Na stronach rekrutacji APS nie znalazłem zestawienia progów punktowych za żaden rok."
+ },
+ {
+  "school": "AWF — Turystyka i rekreacja",
+  "career": "pilot-wycieczek",
+  "program": "Turystyka i rekreacja (studia I stopnia, licencjackie)",
+  "thresholdsFix": {
+   "stacjonarne": [],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.awf.wroc.pl/kierunek/turystyka-i-rekreacja/",
+   "academicYear": "2026/2027",
+   "note": "requirementsYear w danych już 2026/2027"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "unchanged",
+    "display": "4500 PLN/semestr",
+    "amount": 4500,
+    "period": "semestr",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://rekrutacja.awf.wroc.pl/studia-niestacjonarne-oplaty/",
+    "tuitionNote": "Jednorazowo 4500 zł albo 4 raty po 1125 zł za semestr (Regulamin opłat 2026/27)."
+   }
+  ],
+  "notes": "Na rekrutacja.awf.wroc.pl nie znalazłem zestawienia progów punktowych."
+ },
+ {
+  "school": "UWM — Wydział Geoinżynierii",
+  "career": "geodeta",
+  "program": "Geodezja i kartografia (studia I stopnia inżynierskie, 7 semestrów)",
+  "thresholdsFix": {
+   "stacjonarne": [],
+   "niestacjonarne": []
+  },
+  "threshold2026Status": "not_published",
+  "rowFix": null,
+  "requirements": {
+   "status": "unchanged",
+   "sourceUrl": "https://rekrutacja.uwm.edu.pl/kryteria-kwalifikacji/",
+   "academicYear": "2026/2027",
+   "note": "requirementsYear w danych już 2026/2027"
+  },
+  "tuition": [
+   {
+    "type": "niestacjonarne",
+    "status": "not_found",
+    "display": null,
+    "amount": null,
+    "period": null,
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://rekrutacja.uwm.edu.pl/rekrutacja/geodezja-i-kartografia/",
+    "tuitionNote": "Karta kierunku podaje tylko opłatę rekrutacyjną. Nie znalazłem zarządzenia o czesnym na 2026/27."
+   }
+  ],
+  "notes": "UWM nie publikuje zestawienia progów na stronie rekrutacji."
+ },
+ {
+  "school": "Łukasiewicz – GIT, Centrum Spawalnictwa",
+  "career": "spawacz",
+  "program": null,
+  "thresholdsFix": {
+   "stacjonarne": []
+  },
+  "threshold2026Status": "not_applicable",
+  "rowFix": null,
+  "requirements": {
+   "status": "not_found"
+  },
+  "tuition": [
+   {
+    "type": "stacjonarne",
+    "status": "not_found",
+    "display": null,
+    "amount": null,
+    "period": "kurs",
+    "academicYear": "2026/2027",
+    "sourceUrl": "https://git.lukasiewicz.gov.pl/szkolenie-i-nadzor-spawalniczy/",
+    "tuitionNote": "Na stronach Centrum nie ma cennika kursów, więc nie potwierdziłem kwoty „od 4000 PLN/kurs” z danych."
+   }
+  ],
+  "notes": "Kurs spawalniczy, nie studia. Progi i wymagania maturalne nie dotyczą."
+ }
+]
