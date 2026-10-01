@@ -1,0 +1,397 @@
+{
+ "psycholog": {
+  "shortDescription": "Rozmawia z ludźmi w trudnych chwilach, diagnozuje zaburzenia, prowadzi terapię i bada, jak ludzie myślą i się zachowują.",
+  "fullDescription": "Psycholog bada, jak ludzie myślą i się zachowują, i pomaga tym, którzy mają kłopoty emocjonalne. W poradni lub szpitalu diagnozuje zaburzenia i prowadzi terapię, w szkole pomaga uczniom, a w dziale HR firmy zajmuje się rekrutacją i wsparciem pracowników. Może też dyżurować w ośrodku interwencji kryzysowej albo prowadzić własny gabinet. Trzeba umieć długo i uważnie słuchać, także wtedy, gdy rozmówca opowiada o czymś bardzo bolesnym.",
+  "notes": ""
+ },
+ "programista": {
+  "shortDescription": "Pisze kod, z którego powstają aplikacje, strony internetowe i systemy, np. bankowe.",
+  "fullDescription": "Programista projektuje i pisze oprogramowanie, a potem je poprawia i rozwija. Może tworzyć aplikacje webowe i mobilne albo systemy wykorzystujące sztuczną inteligencję. Pracuje w firmach technologicznych, software house'ach, startupach i bankach, często zdalnie lub jako freelancer, zwykle w zespole z innymi programistami. Technologie szybko się zmieniają, więc nawet po latach pracy trzeba regularnie uczyć się nowych narzędzi.",
+  "notes": ""
+ },
+ "lekarz": {
+  "shortDescription": "Bada pacjentów, rozpoznaje choroby i decyduje o leczeniu, a w niektórych specjalizacjach sam wykonuje zabiegi i operacje.",
+  "fullDescription": "Lekarz rozpoznaje choroby, ustala leczenie i zajmuje się profilaktyką, żeby pacjenci w ogóle nie zachorowali. Pracuje w szpitalu, przychodni, prywatnej klinice, w ratownictwie medycznym albo we własnym gabinecie, a w zależności od specjalizacji wykonuje też zabiegi i operacje. Droga do zawodu jest długa: 6 lat studiów, 13 miesięcy stażu, a potem 4 do 6 lat specjalizacji. Lekarz często decyduje pod presją czasu i musi spokojnie wytłumaczyć diagnozę przestraszonemu pacjentowi.",
+  "notes": "Usunięto ogólnik o „najbardziej odpowiedzialnym” zawodzie z krótkiego opisu. Długości studiów, stażu i specjalizacji przeniesione bez zmian, warto je okresowo sprawdzać, bo zasady stażu i specjalizacji bywają zmieniane."
+ },
+ "architekt": {
+  "shortDescription": "Projektuje domy, biurowce i budynki publiczne tak, żeby były wygodne, ładne i zgodne z przepisami.",
+  "fullDescription": "Architekt projektuje budynki mieszkalne, biurowe i publiczne. Przygotowuje projekt, uzgadnia go z inwestorem, a potem współpracuje z inżynierami i wykonawcami, żeby budynek powstał zgodnie z planem i prawem budowlanym. Pracuje w pracowni architektonicznej, biurze urbanistycznym, u dewelopera, w urzędzie wydającym pozwolenia na budowę albo na własny rachunek. Klient często chce więcej, niż pozwalają przepisy, więc trzeba znaleźć rozwiązanie, które pogodzi jedno z drugim.",
+  "notes": ""
+ },
+ "nauczyciel": {
+  "shortDescription": "Prowadzi lekcje, sprawdza i ocenia prace uczniów, rozmawia z rodzicami i pomaga młodym ludziom się rozwijać.",
+  "fullDescription": "Nauczyciel uczy wybranego przedmiotu i wychowuje dzieci oraz młodzież. Przygotowuje lekcje i materiały, prowadzi zajęcia, sprawdza prace i rozmawia z rodzicami. Pracuje w przedszkolu, szkole podstawowej lub średniej, w szkole językowej, prowadzi korepetycje albo kursy dla dorosłych. Trzeba utrzymać uwagę całej klasy i jeszcze raz, cierpliwie, wytłumaczyć temat temu, kto go nie zrozumiał.",
+  "notes": ""
+ },
+ "grafik": {
+  "shortDescription": "Projektuje logo, plakaty, okładki i wygląd stron internetowych w programach graficznych.",
+  "fullDescription": "Grafik komputerowy projektuje w programach graficznych to, co ma przyciągać wzrok: logo, ulotki, banery, okładki, wygląd stron i aplikacji. Pracuje w agencji reklamowej, studiu graficznym, wydawnictwie, dziale marketingu firmy, studiu gier albo jako freelancer. Typowe zlecenie zaczyna się od rozmowy z klientem, potem powstaje kilka propozycji i kolejne poprawki. Klient często zgłasza uwagi wtedy, gdy projekt wydawał się już gotowy, a każda poprawka nadal musi trzymać się zasad kompozycji i typografii.",
+  "notes": ""
+ },
+ "prawnik": {
+  "shortDescription": "Udziela porad prawnych, pisze umowy i reprezentuje klientów w sądach i urzędach.",
+  "fullDescription": "Prawnik udziela porad, przygotowuje umowy i pisma oraz reprezentuje klientów w sądzie i w urzędach. Pracuje w kancelarii, dziale prawnym firmy, sądzie, administracji publicznej albo na własny rachunek. Po studiach prawniczych może zdać egzamin na aplikację, np. adwokacką, radcowską lub notarialną. Dużo czasu zajmuje czytanie dokumentów i przepisów, a każde pismo trzeba napisać tak, żeby nie dało się go zrozumieć na dwa sposoby.",
+  "notes": "Oryginał wymienia „aplikację komorniczą”. Według mojej wiedzy aplikację komorniczą zniesiono ustawą o komornikach sądowych z 2018 r. (droga prowadzi przez asesurę komorniczą), dlatego pominąłem ją w tekście. Do sprawdzenia."
+ },
+ "analityk-danych": {
+  "shortDescription": "Zbiera i porządkuje dane, a z wyników robi raporty i wykresy, na podstawie których firma podejmuje decyzje.",
+  "fullDescription": "Analityk danych zbiera dane z różnych źródeł, porządkuje je i sprawdza, co z nich wynika. Pracuje w Excelu, SQL, Power BI, Alteryxie albo Pythonie i przygotowuje raporty oraz dashboardy. Zatrudniają go firmy technologiczne, banki, firmy konsultingowe, sklepy internetowe i działy BI dużych korporacji. Często musi wyjaśnić wynik analizy osobom, które nie znają się na statystyce, tak żeby mogły na tej podstawie coś zdecydować.",
+  "notes": ""
+ },
+ "pielegniarka": {
+  "shortDescription": "Opiekuje się pacjentami, podaje leki, wykonuje pomiary i pomaga lekarzom przy zabiegach.",
+  "fullDescription": "Pielęgniarka lub pielęgniarz opiekuje się chorymi w szpitalu, przychodni i w domu pacjenta. Na dyżurze wykonuje pomiary, podaje leki, asystuje przy zabiegach i tłumaczy pacjentom, jak o siebie dbać. Pracuje na oddziale szpitalnym, w przychodni, domu opieki, hospicjum, pogotowiu albo w prywatnej klinice. Trzeba zachować spokój, gdy kilka pilnych spraw dzieje się naraz, i jeszcze znaleźć czas na rozmowę z zaniepokojoną rodziną.",
+  "notes": ""
+ },
+ "farmaceuta": {
+  "shortDescription": "Wydaje leki w aptece, tłumaczy, jak je przyjmować, i pilnuje, żeby nie szkodziły sobie nawzajem.",
+  "fullDescription": "Farmaceuta przygotowuje i wydaje leki, doradza pacjentom i lekarzom, jak je stosować, i sprawdza, czy leki, które ktoś przyjmuje, nie wchodzą ze sobą w groźne interakcje. Pracuje w aptece ogólnodostępnej lub szpitalnej, w firmie farmaceutycznej, hurtowni leków albo w inspekcji, która kontroluje apteki. Jednolite studia magisterskie trwają 5,5 roku. Przy aptecznym okienku trzeba szybko ocenić, kiedy wystarczy lek bez recepty, a kiedy pacjenta trzeba odesłać do lekarza.",
+  "notes": "Oryginał podaje „5,5 roku + 6-miesięczna praktyka”, co sugeruje 6 lat łącznie. Według mojej wiedzy półroczna praktyka w aptece mieści się w 5,5 roku studiów (ostatni semestr), więc pominąłem „+6 miesięcy”. Do sprawdzenia."
+ },
+ "fizjoterapeuta": {
+  "shortDescription": "Ćwiczy z pacjentami po urazach i operacjach, żeby odzyskali sprawność, stosuje też masaż i zabiegi fizykalne.",
+  "fullDescription": "Fizjoterapeuta pomaga pacjentom odzyskać sprawność po urazach, operacjach oraz chorobach neurologicznych i ortopedycznych. Układa plan rehabilitacji, ćwiczy z pacjentem, wykonuje masaż i zabiegi fizykalne, np. ultradźwiękami albo laserem. Pracuje w gabinecie fizjoterapii, na szpitalnym oddziale rehabilitacji, w klubie sportowym, sanatorium, domu opieki lub we własnej praktyce. Postępy bywają powolne, a fizjoterapeuta musi przekonać zmęczonego pacjenta, żeby ćwiczył dalej.",
+  "notes": ""
+ },
+ "ksiegowy": {
+  "shortDescription": "Prowadzi księgi firmy, rozlicza podatki i składki ZUS, przygotowuje sprawozdania finansowe.",
+  "fullDescription": "Księgowy zapisuje i rozlicza operacje finansowe firmy. Księguje dokumenty w programie księgowym, przygotowuje deklaracje podatkowe, rozliczenia z ZUS i sprawozdania finansowe. Pracuje w biurze rachunkowym, dziale finansów firmy, korporacji międzynarodowej, urzędzie skarbowym albo we własnym biurze. Każda deklaracja musi być bez pomyłek, a zmiany w przepisach podatkowych trzeba śledzić na bieżąco.",
+  "notes": ""
+ },
+ "kucharz": {
+  "shortDescription": "Przygotowuje dania w restauracji, hotelu lub cateringu, dobiera składniki i dba o higienę w kuchni.",
+  "fullDescription": "Kucharz przygotowuje potrawy według receptur albo wymyśla własne dania. Dobiera składniki, gotuje, dba o to, jak danie wygląda na talerzu, i przestrzega zasad higieny HACCP. Pracuje w restauracji, hotelu, stołówce, firmie cateringowej, na statku wycieczkowym albo we własnym lokalu, a szef kuchni dodatkowo kieruje zespołem i układa menu. W godzinach największego ruchu trzeba wydać wiele zamówień jednocześnie i każde musi być tak samo dobre.",
+  "notes": ""
+ },
+ "tester": {
+  "shortDescription": "Szuka błędów w aplikacjach i opisuje je programistom, żeby program działał tak, jak powinien.",
+  "fullDescription": "Tester oprogramowania sprawdza, czy aplikacja działa zgodnie z wymaganiami. Wymyśla scenariusze testów, sprawdza je ręcznie albo pisze testy automatyczne i zgłasza znalezione błędy programistom. Pracuje w firmach technologicznych, software house'ach, bankach, sklepach internetowych, firmach telekomunikacyjnych lub zdalnie na zlecenie. Na start nie trzeba umieć programować, więc wiele osób w ten sposób wchodzi do branży IT, ale automatyzacja testów wymaga już pisania kodu.",
+  "notes": ""
+ },
+ "dentysta": {
+  "shortDescription": "Leczy zęby, dziąsła i jamę ustną: wypełnia ubytki, robi protezy, usuwa zęby i prowadzi profilaktykę.",
+  "fullDescription": "Dentysta rozpoznaje i leczy choroby zębów, dziąseł i jamy ustnej. Wykonuje zabiegi zachowawcze, protetyczne, chirurgiczne i ortodontyczne oraz pilnuje profilaktyki. Po 5 latach jednolitych studiów odbywa staż podyplomowy, a potem pracuje w prywatnym gabinecie, klinice, poradni NFZ, na oddziale chirurgii szczękowo-twarzowej albo we własnej praktyce. Zabiegi wymagają bardzo precyzyjnych ruchów dłoni, a wielu pacjentów boi się wizyty i trzeba ich najpierw uspokoić.",
+  "notes": "Usunięto zdanie „Jeden z najlepiej opłacanych zawodów medycznych”: to teza o zarobkach bez źródła w pliku."
+ },
+ "fotograf": {
+  "shortDescription": "Robi zdjęcia na zlecenie: portrety, reportaże, śluby, zdjęcia produktów i mody.",
+  "fullDescription": "Fotograf robi zdjęcia na zamówienie klientów, agencji i redakcji albo realizuje własne projekty artystyczne. Fotografuje ludzi, wydarzenia, śluby, produkty do sklepów internetowych, modę lub krajobrazy, a potem obrabia zdjęcia na komputerze. Pracuje w studiu fotograficznym, agencji reklamowej, redakcji, firmie e-commerce albo jako freelancer. Fotograf pracujący na własny rachunek musi sam szukać klientów i pokazywać swoje portfolio, a do tego dobrze ustawić światło i ludzi przed obiektywem.",
+  "notes": ""
+ },
+ "dziennikarz": {
+  "shortDescription": "Zbiera i sprawdza informacje, rozmawia z ludźmi i pisze lub nagrywa materiały o tym, co dzieje się na świecie.",
+  "fullDescription": "Dziennikarz zbiera informacje, sprawdza je i przekazuje odbiorcom w prasie, radiu, telewizji albo w internecie. Prowadzi wywiady, pisze artykuły, reportaże i analizy, relacjonuje wydarzenia. Pracuje w redakcji gazety lub portalu, stacji telewizyjnej lub radiowej, agencji prasowej albo jako niezależny dziennikarz i bloger. Często pracuje pod presją terminu, a mimo pośpiechu każdą informację trzeba potwierdzić, zanim trafi do odbiorców.",
+  "notes": ""
+ },
+ "ratownik-medyczny": {
+  "shortDescription": "Ratuje życie w karetce, na szpitalnym oddziale ratunkowym i na miejscu wypadków.",
+  "fullDescription": "Ratownik medyczny pomaga ludziom, których życie jest nagle zagrożone. Jeździ karetką do wypadków i nagłych zachorowań, pracuje na szpitalnym oddziale ratunkowym, w straży pożarnej, w lotniczym pogotowiu albo zabezpiecza imprezy masowe. Do zawodu prowadzą 3-letnie studia licencjackie. Na miejscu wypadku trzeba szybko zdecydować, co robić, i działać mimo stresu, a sama praca jest też wymagająca fizycznie.",
+  "notes": ""
+ },
+ "projektant-ux": {
+  "shortDescription": "Projektuje, jak wyglądają i działają aplikacje i strony internetowe, tak żeby łatwo się z nich korzystało.",
+  "fullDescription": "Projektant UX/UI sprawdza, czego potrzebują użytkownicy, i na tej podstawie projektuje aplikacje oraz strony internetowe. Rozmawia z użytkownikami, rysuje szkice ekranów (wireframe'y), buduje klikalne prototypy i przygotowuje gotowy wygląd interfejsu. Pracuje w firmie technologicznej, agencji interaktywnej, software housie, banku, startupie albo jako freelancer, zawsze blisko programistów i analityków. Testy z użytkownikami często pokazują, że pomysł, który wydawał się dobry, trzeba przerobić, i trzeba to umieć przyjąć.",
+  "notes": ""
+ },
+ "elektryk": {
+  "shortDescription": "Montuje, naprawia i sprawdza instalacje elektryczne w domach, na budowach i w zakładach przemysłowych.",
+  "fullDescription": "Elektryk zakłada, konserwuje i naprawia instalacje elektryczne. Pracuje na budowach, gdzie montuje instalacje w nowych budynkach, w zakładach przemysłowych, firmach instalacyjnych i energetyce albo na własny rachunek, jeżdżąc do zleceń. Do pracy potrzebne są uprawnienia energetyczne, potocznie nazywane uprawnieniami SEP. Przy pracy z prądem każda pomyłka jest groźna, dlatego obowiązują ścisłe normy i przepisy BHP.",
+  "notes": "Oryginał mówi, że elektryk „projektuje” instalacje. Projektowanie instalacji wymaga zwykle uprawnień budowlanych w specjalności instalacyjnej, więc pominąłem to słowo. „Uprawnienia SEP” to nazwa potoczna (świadectwo kwalifikacji wydają komisje egzaminacyjne, często przy SEP), stąd „potocznie”. Usunięto „zawód z dużym zapotrzebowaniem na rynku pracy” jako tezę bez źródła."
+ },
+ "policjant": {
+  "shortDescription": "Pilnuje porządku i bezpieczeństwa na ulicach, ściga przestępców i prowadzi dochodzenia.",
+  "fullDescription": "Policjant chroni ludzi i pilnuje porządku publicznego. Patroluje ulice, kontroluje ruch drogowy, interweniuje w konfliktach, a w wydziale kryminalnym prowadzi dochodzenia i śledztwa. Pracuje w komisariacie, wydziale ruchu drogowego, CBŚP albo w laboratorium kryminalistycznym, gdzie analizuje ślady. Często trzeba uspokoić agresywną osobę, zanim sytuacja wymknie się spod kontroli, i zachować uczciwość także pod dużą presją.",
+  "notes": ""
+ },
+ "strazak": {
+  "shortDescription": "Gasi pożary i ratuje ludzi przy wypadkach drogowych, powodziach i wyciekach niebezpiecznych substancji.",
+  "fullDescription": "Strażak gasi pożary i ratuje ludzi przy wypadkach drogowych, klęskach żywiołowych i zagrożeniach chemicznych, a poszkodowanym udziela pierwszej pomocy. Zawodowo służy w Państwowej Straży Pożarnej, np. w jednostce ratowniczo-gaśniczej. Może też pracować w straży lotniskowej lub zakładowej albo kontrolować zabezpieczenia przeciwpożarowe w budynkach. Akcja wymaga dużej siły i kondycji, a w dymie i hałasie wszystko zależy od tego, czy cały zespół dobrze ze sobą współpracuje.",
+  "notes": "Oryginał podaje, że strażak „służy w PSP lub OSP”. Ochotnicza Straż Pożarna to działalność społeczna, zwykle nie zawód, dlatego OSP nie ma w tekście jako miejsca pracy. Miejsce pracy „Ochotnicza Straż Pożarna” na liście warto rozważyć do usunięcia. „Powodzie” w krótkim opisie to przykład klęski żywiołowej z oryginału."
+ },
+ "dietetyk": {
+  "shortDescription": "Układa jadłospisy i diety dopasowane do zdrowia i celów pacjenta, uczy, jak zdrowo jeść.",
+  "fullDescription": "Dietetyk ocenia, jak pacjent się odżywia, i układa dla niego indywidualną dietę. Rozmawia z pacjentem o nawykach, przygotowuje jadłospisy i tłumaczy, jak zdrowo jeść, a w szpitalu planuje żywienie chorych. Pracuje w poradni dietetycznej, szpitalu, klubie fitness, firmie z dietami pudełkowymi, we własnym gabinecie albo prowadzi edukację żywieniową w internecie. Najtrudniej jest pomóc komuś wytrwać przy nowych nawykach, gdy zapał z pierwszych dni mija.",
+  "notes": "Usunięto „coraz popularniejszy zawód ze względu na rosnącą świadomość zdrowotną” jako ogólnik bez źródła."
+ },
+ "tlumacz": {
+  "shortDescription": "Przekłada teksty z jednego języka na inny albo tłumaczy na żywo podczas rozmów, rozpraw i konferencji.",
+  "fullDescription": "Tłumacz przekłada teksty i wypowiedzi na inny język tak, żeby zachować ich sens i styl. Tłumaczy dokumenty, książki i teksty specjalistyczne, np. prawnicze, medyczne lub techniczne, albo tłumaczy ustnie na konferencjach, w sądach i instytucjach. Pracuje w biurze tłumaczeń, korporacji, instytucjach UE, sądzie i prokuraturze albo jako freelancer, a tłumacz przysięgły uwierzytelnia tłumaczenia dokumentów urzędowych. Trzeba bardzo dobrze znać co najmniej dwa języki i dziedzinę, której dotyczy tekst, bo jedno źle dobrane słowo może zmienić sens umowy.",
+  "notes": ""
+ },
+ "weterynarz": {
+  "shortDescription": "Leczy zwierzęta domowe, gospodarskie i zwierzęta w zoo, szczepi je i operuje.",
+  "fullDescription": "Weterynarz rozpoznaje i leczy choroby zwierząt. Bada, szczepi i operuje zwierzęta domowe, gospodarskie i egzotyczne, a w inspekcji weterynaryjnej kontroluje bezpieczeństwo żywności pochodzenia zwierzęcego. Pracuje w klinice dla zwierząt domowych, lecznicy dla zwierząt gospodarskich, ogrodzie zoologicznym albo we własnej praktyce, a studia trwają 5,5 roku. Zwierzę nie powie, co je boli, więc diagnoza wymaga uważnej obserwacji, a z właścicielem trzeba rozmawiać spokojnie także wtedy, gdy wiadomość jest zła.",
+  "notes": ""
+ },
+ "specjalista-cyberbezpieczenstwa": {
+  "shortDescription": "Chroni systemy komputerowe firm i instytucji przed atakami hakerów i reaguje, gdy do ataku dojdzie.",
+  "fullDescription": "Specjalista ds. cyberbezpieczeństwa chroni sieci, serwery i dane organizacji przed atakami. Sprawdza zabezpieczenia, próbując się do nich włamać w kontrolowany sposób (testy penetracyjne), monitoruje sieć, reaguje na incydenty i szkoli pracowników. Pracuje w firmie zajmującej się bezpieczeństwem IT, banku, dziale IT korporacji, w służbach specjalnych i wojsku albo jako niezależny audytor szukający luk na zlecenie. Atakujący ciągle wymyślają nowe metody, więc trzeba na bieżąco śledzić zagrożenia i uczyć się nowych technik.",
+  "notes": ""
+ },
+ "data-scientist": {
+  "shortDescription": "Szuka prawidłowości w dużych zbiorach danych i buduje modele, które przewidują np. ryzyko albo zachowania klientów.",
+  "fullDescription": "Data scientist analizuje duże zbiory danych i buduje modele uczenia maszynowego, łącząc statystykę, programowanie i wiedzę o danej branży. Pisze kod w Pythonie lub R, korzysta z SQL i narzędzi ML, a wyniki pokazuje na wykresach. W banku tworzy modele oceny ryzyka, w sklepie internetowym systemy rekomendacji, w firmie farmaceutycznej analizuje dane z badań klinicznych, pracuje też w startupach AI i instytutach badawczych. Najtrudniej bywa wytłumaczyć wynik modelu tak, żeby osoba bez wykształcenia technicznego zrozumiała, co z niego wynika.",
+  "notes": ""
+ },
+ "devops-engineer": {
+  "shortDescription": "Automatyzuje wdrażanie oprogramowania i dba o to, żeby serwery i chmura działały bez przerw.",
+  "fullDescription": "DevOps engineer łączy pracę programistów z utrzymaniem systemów, na których działa oprogramowanie. Buduje automatyczne procesy wdrażania kodu (CI/CD), zarządza kontenerami i chmurą AWS, Azure lub GCP, monitoruje systemy i automatyzuje powtarzalne zadania w narzędziach takich jak Terraform czy Ansible. Pracuje w firmach technologicznych, firmach chmurowych, bankach, software house'ach i startupach. Gdy system przestaje działać, przyczynę trzeba znaleźć szybko, a bez dobrej znajomości Linuxa jest to bardzo trudne.",
+  "notes": ""
+ },
+ "administrator-systemow": {
+  "shortDescription": "Dba o serwery, sieć i kopie zapasowe, żeby systemy komputerowe w firmie działały bez awarii.",
+  "fullDescription": "Administrator systemów dba o to, żeby serwery, sieć i usługi IT w organizacji działały bez przerw. Instaluje i konfiguruje systemy operacyjne, robi kopie zapasowe, monitoruje wydajność i usuwa awarie, zarówno na serwerach w firmie, jak i w chmurze. Pracuje w firmie IT, korporacji, centrum danych, na uczelni lub w instytucji publicznej albo obsługuje z zewnątrz kilka mniejszych firm. Gdy coś przestaje działać, cała firma czeka na naprawę, więc trzeba działać szybko i mieć gotowy plan odtworzenia danych.",
+  "notes": ""
+ },
+ "technik-informatyk": {
+  "shortDescription": "Składa, konfiguruje i naprawia komputery i sieci, pomaga użytkownikom, gdy coś przestaje działać.",
+  "fullDescription": "Technik informatyk montuje, konfiguruje i naprawia komputery oraz sieci. Instaluje systemy operacyjne, rozwiązuje problemy ze sprzętem i oprogramowaniem i dba o podstawowe bezpieczeństwo. Pracuje na helpdesku w dziale IT firmy, w serwisie komputerowym, w szkole przy pracowniach komputerowych, w sklepie komputerowym albo na własny rachunek. Zgłoszenia przychodzą często od osób, które nie potrafią opisać problemu, więc trzeba cierpliwie dopytać i wytłumaczyć rozwiązanie prostymi słowami.",
+  "notes": ""
+ },
+ "programista-gier": {
+  "shortDescription": "Programuje gry: zasady rozgrywki, fizykę świata i zachowanie postaci, którymi steruje komputer.",
+  "fullDescription": "Programista gier pisze kod, który odpowiada za mechanikę rozgrywki, grafikę, dźwięk i sztuczną inteligencję postaci. Pracuje w silnikach takich jak Unity czy Unreal Engine, poprawia wydajność gry i współpracuje z grafikami oraz projektantami. Zatrudniają go duże studia (AAA), studia niezależne, firmy robiące gry mobilne lub VR/AR, może też tworzyć własną grę. Gra musi działać płynnie na różnych urządzeniach, więc dużo czasu zajmuje szukanie błędów i przyspieszanie kodu.",
+  "notes": "Usunięto „Polska branża gamedev jest jedną z najsilniejszych w Europie” jako ogólnik bez źródła w pliku."
+ },
+ "ekonomista": {
+  "shortDescription": "Bada, co dzieje się w gospodarce, przygotowuje prognozy i doradza firmom oraz instytucjom państwowym.",
+  "fullDescription": "Ekonomista bada, jak działa gospodarka, zarówno w pojedynczej firmie, jak i w całym kraju. Przygotowuje analizy rynku, prognozy i modele wzrostu oraz ocenia, jak nowe przepisy wpłyną na gospodarkę. Pracuje w banku, także w NBP, w ministerstwie, firmie konsultingowej, instytucie badawczym albo na uczelni. Prognoza nigdy nie jest pewna, a wyniki trzeba przedstawić tak, żeby ktoś mógł na ich podstawie podjąć decyzję.",
+  "notes": ""
+ },
+ "doradca-finansowy": {
+  "shortDescription": "Pomaga ludziom zaplanować oszczędzanie, inwestowanie i ubezpieczenia, dopasowując rady do ich sytuacji.",
+  "fullDescription": "Doradca finansowy analizuje sytuację finansową klienta i proponuje, jak oszczędzać, inwestować i zabezpieczyć się przed ryzykiem. Spotyka się z klientami, rozmawia o ich celach i przygotowuje plan finansowy. Pracuje w banku, firmie ubezpieczeniowej, domu maklerskim, firmie doradczej albo prowadzi własną praktykę. Klienci boją się stracić pieniądze, więc obok wiedzy o finansach i podatkach liczy się umiejętność spokojnej rozmowy.",
+  "notes": "W bankach i u ubezpieczycieli doradca często ma też cele sprzedażowe (w pliku jest umiejętność „Sprzedaż doradcza”). Opis tego nie ukrywa, ale też nie mówi wprost; do decyzji, czy dopisać."
+ },
+ "specjalista-hr": {
+  "shortDescription": "Szuka i zatrudnia pracowników, organizuje szkolenia i dba o to, żeby ludziom dobrze pracowało się w firmie.",
+  "fullDescription": "Specjalista ds. HR zajmuje się ludźmi w firmie: rekrutacją, wdrażaniem nowych osób, szkoleniami i ocenami pracowników. Przegląda zgłoszenia kandydatów, prowadzi rozmowy kwalifikacyjne, współpracuje z menedżerami i pilnuje, żeby firma przestrzegała prawa pracy. Pracuje w korporacji, agencji rekrutacyjnej, firmie szkoleniowej, startupie albo w firmie, która obsługuje kadry innych przedsiębiorstw. Często stoi pomiędzy pracownikiem a szefem i musi przekazywać także złe wiadomości, np. o odrzuceniu kandydatury.",
+  "notes": ""
+ },
+ "specjalista-marketingu": {
+  "shortDescription": "Planuje kampanie reklamowe, prowadzi profile firmy w mediach społecznościowych i sprawdza, co przynosi efekty.",
+  "fullDescription": "Specjalista ds. marketingu planuje, jak promować produkty i usługi firmy. Prowadzi kampanie w internecie, m.in. w wyszukiwarkach i mediach społecznościowych, tworzy treści, analizuje wyniki w Google Analytics i współpracuje z agencjami. Pracuje w agencji reklamowej, dziale marketingu firmy, sklepie internetowym, startupie, domu mediowym albo jako freelancer. Każdy pomysł na kampanię sprawdza się potem w liczbach, a te nie zawsze pokazują dobry wynik.",
+  "notes": ""
+ },
+ "specjalista-pr": {
+  "shortDescription": "Dba o dobry wizerunek firmy lub instytucji, pisze komunikaty dla mediów i odpowiada na pytania dziennikarzy.",
+  "fullDescription": "Specjalista ds. PR dba o to, jak media i ludzie postrzegają firmę lub instytucję. Pisze informacje prasowe, organizuje konferencje i wydarzenia, prowadzi media społecznościowe i utrzymuje kontakt z dziennikarzami oraz influencerami. Pracuje w agencji PR, dziale komunikacji firmy, jako rzecznik prasowy instytucji publicznej, w organizacji pozarządowej albo na własny rachunek. Najtrudniejsze są kryzysy: gdy o firmie pojawia się zła wiadomość, trzeba szybko przygotować odpowiedź i starannie dobrać każde słowo.",
+  "notes": ""
+ },
+ "doradca-podatkowy": {
+  "shortDescription": "Wyjaśnia przepisy podatkowe, pomaga legalnie płacić niższe podatki i reprezentuje klientów przed urzędem skarbowym.",
+  "fullDescription": "Doradca podatkowy pomaga firmom i osobom prywatnym zrozumieć przepisy podatkowe i dobrze je zastosować. Przygotowuje deklaracje, szuka legalnych sposobów na obniżenie podatków i reprezentuje klientów przed urzędami skarbowymi oraz sądami administracyjnymi. Pracuje w kancelarii podatkowej, biurze rachunkowym, dużej firmie doradczej, dziale podatkowym korporacji albo we własnej kancelarii, a do wykonywania zawodu potrzebny jest wpis na listę doradców podatkowych. Przepisy bywają niejasne, więc trzeba dużo czytać i umieć znaleźć w nich odpowiedź na nietypowe pytanie klienta.",
+  "notes": ""
+ },
+ "biegly-rewident": {
+  "shortDescription": "Sprawdza sprawozdania finansowe firm i potwierdza, że rzetelnie pokazują stan ich finansów.",
+  "fullDescription": "Biegły rewident niezależnie bada sprawozdania finansowe spółek. Ocenia, czy księgi rachunkowe są prowadzone prawidłowo, jak działa kontrola wewnętrzna i czy wszystko zgadza się z ustawą o rachunkowości oraz MSSF. Pracuje w firmie audytorskiej, w tym w największych firmach tzw. wielkiej czwórki, w dziale audytu wewnętrznego korporacji, w KNF albo we własnej kancelarii, a do zawodu prowadzi egzamin państwowy. Zarząd firmy nie zawsze zgadza się z oceną rewidenta, a wtedy trzeba ją obronić, opierając się na ogromnej liczbie sprawdzonych dokumentów.",
+  "notes": "„Egzamin państwowy” to w praktyce cykl egzaminów i obowiązkowa praktyka; oryginał to upraszcza, zostawiłem bez rozwijania."
+ },
+ "psychoterapeuta": {
+  "shortDescription": "Prowadzi regularne spotkania terapeutyczne z osobami w depresji, lęku, po traumie lub w kryzysie.",
+  "fullDescription": "Psychoterapeuta pomaga ludziom poradzić sobie z depresją, lękiem, traumą i kryzysami życiowymi. Prowadzi terapię indywidualną, par lub grupową w wybranym nurcie, np. poznawczo-behawioralnym albo psychodynamicznym. Pracuje w gabinecie, poradni zdrowia psychicznego, szpitalu psychiatrycznym, ośrodku leczenia uzależnień albo prowadzi terapię online, a po studiach musi ukończyć 4-letnie szkolenie psychoterapeutyczne. Pacjenci opowiadają o najtrudniejszych sprawach, więc trzeba słuchać bardzo uważnie i z empatią, sesja po sesji.",
+  "notes": "W Polsce zawód psychoterapeuty nie ma jeszcze pełnej ustawowej regulacji; „4-letnie szkolenie” to wymóg towarzystw i NFZ. Zostawiłem jak w oryginale, do sprawdzenia przy ewentualnych zmianach prawa."
+ },
+ "psychiatra": {
+  "shortDescription": "Lekarz, który rozpoznaje i leczy choroby psychiczne, m.in. lekami, i współpracuje z psychoterapeutami.",
+  "fullDescription": "Psychiatra to lekarz, który rozpoznaje i leczy choroby psychiczne. Przepisuje leki, np. antydepresanty, neuroleptyki i stabilizatory nastroju, sprawdza, jak działają, i współpracuje z psychoterapeutami. Pracuje w szpitalu psychiatrycznym, poradni zdrowia psychicznego, prywatnej klinice, na oddziale dla dzieci i młodzieży albo we własnym gabinecie. Czasem trzeba pomóc komuś w ostrym kryzysie psychicznym i szybko zdecydować o leczeniu w rozmowie z pacjentem i jego bliskimi.",
+  "notes": ""
+ },
+ "pediatra": {
+  "shortDescription": "Lekarz dzieci i nastolatków: bada, szczepi, leczy infekcje i choroby przewlekłe.",
+  "fullDescription": "Pediatra leczy dzieci od urodzenia do 18. roku życia. Prowadzi badania bilansowe i szczepienia, rozpoznaje infekcje i choroby przewlekłe, a w razie potrzeby współpracuje z innymi specjalistami. Pracuje w przychodni, szpitalu dziecięcym, na oddziale noworodkowym, w prywatnej klinice albo we własnym gabinecie. Małe dziecko nie potrafi powiedzieć, co mu dolega, a rodzice bywają bardzo zdenerwowani, więc trzeba spokojnie rozmawiać z jednymi i drugimi.",
+  "notes": ""
+ },
+ "chirurg": {
+  "shortDescription": "Lekarz, który operuje pacjentów i decyduje, kiedy choroba wymaga zabiegu chirurgicznego.",
+  "fullDescription": "Chirurg to lekarz, który leczy operacyjnie. Wykonuje zarówno proste zabiegi, jak i skomplikowane operacje ratujące życie, pracując na sali operacyjnej razem z anestezjologiem i pielęgniarkami. Może wybrać specjalizację, np. chirurgię ogólną, naczyniową, onkologiczną lub plastyczną, i pracować w szpitalu, centrum onkologicznym, na SOR albo w prywatnej klinice. Szkolenie trwa wiele lat, a podczas operacji trzeba zachować precyzję i spokój, także gdy coś idzie niezgodnie z planem.",
+  "notes": ""
+ },
+ "kardiolog": {
+  "shortDescription": "Lekarz, który bada i leczy serce i naczynia krwionośne, wykonuje EKG, echo serca i zabiegi.",
+  "fullDescription": "Kardiolog to lekarz zajmujący się chorobami serca i naczyń krwionośnych. Wykonuje i ocenia badania takie jak EKG, echo serca czy koronarografia, przeprowadza zabiegi angioplastyki i leczy nadciśnienie, arytmie, niewydolność serca i chorobę wieńcową. Pracuje na oddziale kardiologii, w pracowni hemodynamiki, poradni, centrum rehabilitacji kardiologicznej albo w prywatnej klinice. Przy ostrych stanach trzeba decydować szybko, a potem latami opiekować się pacjentem i pilnować, żeby trzymał się zaleceń.",
+  "notes": "Koronarografię i angioplastykę wykonują zwykle kardiolodzy inwazyjni w pracowniach hemodynamiki, a nie każdy kardiolog. Oryginał pisze ogólnie, zostawiłem."
+ },
+ "sedzia": {
+  "shortDescription": "Prowadzi rozprawy w sądzie, wysłuchuje stron i świadków, ocenia dowody i wydaje wyroki.",
+  "fullDescription": "Sędzia rozstrzyga sprawy sądowe na podstawie przepisów prawa. Prowadzi rozprawy, przesłuchuje strony i świadków, analizuje dowody i wydaje wyroki oraz postanowienia. Orzeka w sądzie rejonowym, okręgowym, apelacyjnym lub administracyjnym, a najbardziej doświadczeni w Sądzie Najwyższym; jedną z dróg do zawodu jest aplikacja w Krajowej Szkole Sądownictwa i Prokuratury zakończona egzaminem sędziowskim. Wyrok wpływa na życie ludzi, więc trzeba go dobrze uzasadnić i zachować bezstronność, nawet gdy sprawa budzi silne emocje.",
+  "notes": "Oryginał przedstawia Krajową Szkołę Sądownictwa jako jedyną drogę do zawodu. Sędzią mogą zostać też m.in. doświadczeni adwokaci, radcowie i prokuratorzy, dlatego napisałem „jedną z dróg”. Usunąłem „nieskazitelny charakter” jako listę cech."
+ },
+ "prokurator": {
+  "shortDescription": "Prowadzi śledztwa w sprawach karnych, zbiera dowody i oskarża podejrzanych przed sądem.",
+  "fullDescription": "Prokurator ściga przestępstwa i występuje w sądzie jako oskarżyciel. Prowadzi i nadzoruje śledztwa, zbiera dowody, przesłuchuje podejrzanych i świadków, współpracuje z policją, a potem wnosi akt oskarżenia i popiera go na rozprawie. Pracuje w prokuraturze rejonowej, okręgowej, regionalnej, w Prokuraturze Krajowej albo w Prokuraturze Europejskiej, a jedną z dróg do zawodu jest aplikacja w Krajowej Szkole Sądownictwa i Prokuratury. Akta sprawy bywają bardzo obszerne, a w sądzie obrońca podważa każdy przedstawiony dowód.",
+  "notes": "Oryginał podaje ukończenie KSSiP jako warunek konieczny. To nie jedyna droga (np. asystenci prokuratora, inne zawody prawnicze), stąd „jedną z dróg”."
+ },
+ "notariusz": {
+  "shortDescription": "Sporządza ważne dokumenty, np. umowy sprzedaży mieszkania, testamenty i umowy spółek, oraz poświadcza dokumenty.",
+  "fullDescription": "Notariusz jest osobą zaufania publicznego, która przygotowuje dokumenty wymagające formy aktu notarialnego. Sporządza umowy sprzedaży nieruchomości, testamenty i akty założycielskie spółek, poświadcza dokumenty, przechowuje oryginały aktów i prowadzi rejestry. Pracuje w kancelarii notarialnej, a do zawodu prowadzi egzamin notarialny i powołanie przez Ministra Sprawiedliwości. Każdy akt musi być bezbłędny, a przed podpisaniem notariusz tłumaczy stronom, co dokładnie podpisują.",
+  "notes": ""
+ },
+ "komornik": {
+  "shortDescription": "Wykonuje wyroki sądów: ściąga długi z pensji, kont bankowych i majątku dłużników.",
+  "fullDescription": "Komornik sądowy doprowadza do wykonania wyroków sądowych, gdy dłużnik nie płaci dobrowolnie. Zajmuje wynagrodzenie, konta bankowe, nieruchomości i rzeczy dłużnika, sporządza protokoły zajęcia i prowadzi licytacje. Pracuje we własnej kancelarii działającej przy sądzie rejonowym. Rozmowy z dłużnikami bywają bardzo nerwowe, a komornik musi zachować spokój i działać zgodnie z przepisami, także gdy widzi, że dłużnik jest w trudnej sytuacji.",
+  "notes": "Oryginał podaje jako warunek aplikację komorniczą i egzamin. Według mojej wiedzy aplikację komorniczą zniesiono w 2018 r.; dziś droga prowadzi przez egzamin komorniczy i pracę jako asesor. Pominąłem tę informację w tekście do czasu sprawdzenia."
+ },
+ "adwokat": {
+  "shortDescription": "Broni i reprezentuje klientów w sądzie, udziela porad prawnych i pisze pisma procesowe.",
+  "fullDescription": "Adwokat pomaga klientom w sprawach karnych, cywilnych i administracyjnych. Udziela porad, przygotowuje umowy i pisma procesowe, reprezentuje klientów w sądzie, a w sprawach karnych broni oskarżonych. Pracuje w kancelarii adwokackiej, obsługuje firmy albo pomaga bezpłatnie w organizacjach pozarządowych, a zawód wykonuje po 3-letniej aplikacji i egzaminie adwokackim. Na sali sądowej trzeba przekonująco argumentować, a w rozmowach z drugą stroną negocjować, zawsze w interesie klienta i zgodnie z zasadami etyki zawodowej.",
+  "notes": ""
+ },
+ "zolnierz-zawodowy": {
+  "shortDescription": "Służy w Wojsku Polskim, szkoli się, bierze udział w ćwiczeniach i misjach za granicą.",
+  "fullDescription": "Żołnierz zawodowy pełni służbę w Siłach Zbrojnych RP: szkoli się, bierze udział w ćwiczeniach, a część żołnierzy wyjeżdża na misje NATO i ONZ. Może służyć w jednostce bojowej, sztabie, wojskach specjalnych albo szkolić innych w akademii wojskowej. Specjalizacji jest wiele, m.in. piechota, wojska pancerne, lotnictwo, marynarka wojenna i obrona cyberprzestrzeni. Żołnierz jedzie tam, gdzie skieruje go dowództwo, także daleko od rodziny, i stale musi dbać o kondycję.",
+  "notes": "Oryginał ma błąd językowy „cyberwojna” w wyliczeniu specjalizacji (powinno być np. „wojska obrony cyberprzestrzeni”); w tekście „obrona cyberprzestrzeni”. Usunięto „od szeregowego po generała”."
+ },
+ "pracownik-ochrony": {
+  "shortDescription": "Pilnuje sklepów, biur, imprez i transportów pieniędzy, obserwuje monitoring i reaguje na zagrożenia.",
+  "fullDescription": "Pracownik ochrony dba o bezpieczeństwo ludzi i mienia. Obserwuje obraz z kamer, sprawdza, kto wchodzi do budynku, i interweniuje, gdy dzieje się coś niepokojącego. Pracuje w firmie ochroniarskiej, centrum handlowym, biurowcu, przy zabezpieczeniu imprez masowych albo przy konwojowaniu gotówki. Zwykle zmiana mija spokojnie, a mimo to trzeba zachować czujność i umieć szybko zareagować, gdy pojawi się zagrożenie.",
+  "notes": "Oryginał: „Może posiadać licencję kwalifikowanego pracownika ochrony”. Licencje zastąpiono w 2014 r. wpisem na listę kwalifikowanych pracowników ochrony fizycznej, dlatego pominąłem to zdanie."
+ },
+ "funkcjonariusz-sg": {
+  "shortDescription": "Strzeże granic Polski, sprawdza dokumenty na przejściach granicznych i lotniskach, zwalcza przemyt.",
+  "fullDescription": "Funkcjonariusz Straży Granicznej chroni granicę państwa. Patroluje granicę, sprawdza dokumenty na przejściach granicznych i lotniskach, wykrywa nielegalne przekroczenia i przemyt. Służy w placówce lub oddziale Straży Granicznej albo w Komendzie Głównej, współpracuje z policją i z Frontexem. Po przyjęciu przechodzi szkolenie podstawowe, a w służbie przydaje się dobra kondycja i znajomość języków obcych, bo na przejściu rozmawia się z podróżnymi z różnych krajów.",
+  "notes": ""
+ },
+ "aktor": {
+  "shortDescription": "Gra role w teatrze, filmie, serialach i reklamach, podkłada głos w dubbingu.",
+  "fullDescription": "Aktor tworzy postaci w teatrze, filmie, serialach i reklamach albo podkłada głos w studiu dubbingowym. Uczy się tekstu na pamięć, pracuje z reżyserem na próbach, ćwiczy głos i ruch, a w teatrze muzycznym także śpiewa i tańczy. Część aktorów ma etat w teatrze, inni chodzą na castingi i pracują od projektu do projektu. Zarobki bywają nieregularne, więc trzeba poradzić sobie z okresami bez propozycji i z odmowami po kolejnych przesłuchaniach.",
+  "notes": "Usunięto słowo „talent” z listy wymagań."
+ },
+ "muzyk": {
+  "shortDescription": "Gra na instrumencie na koncertach i w nagraniach, komponuje i aranżuje utwory.",
+  "fullDescription": "Muzyk wykonuje i tworzy muzykę klasyczną lub rozrywkową. Gra w orkiestrze lub zespole, występuje na koncertach, nagrywa w studiu, komponuje i aranżuje utwory. Może być solistą, muzykiem sesyjnym, nauczycielem w szkole muzycznej albo producentem. Do zawodu prowadzą lata regularnych ćwiczeń, a na koncercie trzeba zagrać dobrze niezależnie od tremy i zmęczenia.",
+  "notes": ""
+ },
+ "rezyser-filmowy": {
+  "shortDescription": "Kieruje pracą nad filmem lub serialem: decyduje, jak ma wyglądać, prowadzi aktorów i czuwa nad montażem.",
+  "fullDescription": "Reżyser filmowy decyduje, jak będzie wyglądał film i o czym opowie. Pracuje z aktorami, ustala z operatorem kadry i oświetlenie, a ze scenografem i montażystą dba, żeby całość była spójna. Tworzy filmy fabularne i dokumentalne, seriale dla telewizji i platform streamingowych, reklamy, czasem spektakle teatralne, w studiu filmowym, domu produkcyjnym albo przy własnych projektach. Na planie kieruje pracą wielu osób, więc trzeba jasno mówić, czego się chce, i pilnować, żeby zdjęcia szły zgodnie z planem.",
+  "notes": "Usunięto „Polska szkoła filmowa jest jedną z najwyżej cenionych na świecie” jako ogólnik niezwiązany z opisem pracy."
+ },
+ "architekt-wnetrz": {
+  "shortDescription": "Projektuje wnętrza mieszkań, biur, hoteli i sklepów: układ, kolory, oświetlenie i meble.",
+  "fullDescription": "Architekt wnętrz projektuje, jak urządzić pomieszczenia, żeby były wygodne i ładne. Dobiera materiały, kolory, oświetlenie i meble, przygotowuje projekt w programie CAD i uzgadnia go z klientem, architektem i wykonawcami. Pracuje w pracowni architektonicznej, biurze projektowym, u dewelopera, w salonie meblowym albo prowadzi własne studio. Trzeba zrozumieć, jak klient chce mieszkać lub pracować, nawet gdy sam nie umie tego dokładnie opisać.",
+  "notes": ""
+ },
+ "projektant-mody": {
+  "shortDescription": "Rysuje projekty ubrań i dodatków, dobiera tkaniny i przygotowuje całe kolekcje.",
+  "fullDescription": "Projektant mody wymyśla ubrania i dodatki, a potem doprowadza je do gotowego produktu. Rysuje szkice, dobiera tkaniny, nadzoruje szycie prototypów i przygotowuje kolekcje na pokazy. Pracuje w domu mody, firmie odzieżowej, atelier szyjącym na miarę, kostiumerii teatru lub filmu albo rozwija własną markę. Kolekcję projektuje się z wyprzedzeniem, więc trzeba wyczuć, co będzie modne, gdy trafi do sklepów, i wiedzieć, czy projekt da się uszyć.",
+  "notes": ""
+ },
+ "pedagog": {
+  "shortDescription": "Pomaga uczniom, którzy mają kłopoty w nauce lub z rówieśnikami, i prowadzi w szkole zajęcia profilaktyczne.",
+  "fullDescription": "Pedagog szkolny wspiera uczniów, którzy mają kłopoty w nauce albo w relacjach z rówieśnikami. Rozpoznaje problemy, np. przemoc rówieśniczą, prowadzi zajęcia profilaktyczne, pomaga uczniom z niepełnosprawnościami i współpracuje z rodzicami oraz poradnią psychologiczno-pedagogiczną. Pracuje w szkole, poradni, świetlicy, ośrodku wychowawczym lub ośrodku pomocy społecznej, a czasem przygotowuje opinie dla sądu rodzinnego. Często trzeba pogodzić skłócone strony i zdobyć zaufanie ucznia, który nie chce z nikim rozmawiać.",
+  "notes": ""
+ },
+ "logopeda": {
+  "shortDescription": "Uczy dzieci poprawnie wymawiać głoski, pomaga osobom, które się jąkają, i dorosłym po udarze odzyskać mowę.",
+  "fullDescription": "Logopeda rozpoznaje i leczy zaburzenia mowy, głosu i komunikacji. Prowadzi terapię wad wymowy, jąkania i afazji, czyli zaburzeń mowy po uszkodzeniu mózgu, np. po udarze, a na zajęciach stosuje ćwiczenia artykulacyjne, oddechowe i gry logopedyczne. Pracuje z dziećmi i dorosłymi, także z osobami z wadami słuchu, w poradni, przedszkolu, szkole, szpitalu, centrum terapii autyzmu albo we własnym gabinecie. Efekty przychodzą powoli, więc zajęcia muszą być prowadzone tak, żeby dziecku chciało się ćwiczyć.",
+  "notes": "Usunięto „coraz większe zapotrzebowanie ze względu na opóźnienia rozwoju mowy” jako tezę bez źródła."
+ },
+ "nauczyciel-akademicki": {
+  "shortDescription": "Uczy studentów na wykładach i zajęciach, prowadzi badania naukowe i publikuje ich wyniki.",
+  "fullDescription": "Nauczyciel akademicki uczy studentów i prowadzi badania naukowe. Prowadzi wykłady, ćwiczenia i seminaria, opiekuje się pracami dyplomowymi, pisze artykuły naukowe i wnioski o granty, wyjeżdża na konferencje. Pracuje na uczelni publicznej lub prywatnej, w instytucie PAN albo w dziale badawczym firmy, a kariera prowadzi zwykle od asystenta i adiunkta do profesora. Zajęcia ze studentami i badania trzeba prowadzić równolegle, a wniosek o grant czy artykuł nie zawsze zostaje przyjęty.",
+  "notes": "Oryginał podaje doktorat jako warunek. Na stanowisko asystenta wystarcza zwykle tytuł magistra, a doktorat jest potrzebny na stanowisko adiunkta; pominąłem to zdanie."
+ },
+ "fryzjer": {
+  "shortDescription": "Strzyże, farbuje i układa włosy, doradza klientom, jaka fryzura będzie do nich pasować.",
+  "fullDescription": "Fryzjer strzyże, farbuje, prostuje i układa włosy, robi też trwałą ondulację i fryzury okolicznościowe. Rozmawia z klientem, doradza mu fryzurę i kolor, a potem wykonuje usługę. Pracuje w salonie fryzjerskim, barbershopie, studiu beauty, salonie ślubnym, przy produkcjach filmowych i teatralnych, jako mobilny stylista albo we własnym salonie. Klient opisuje wymarzoną fryzurę po swojemu, więc trzeba dobrze zrozumieć, o co mu chodzi, i dokładnie to wykonać.",
+  "notes": ""
+ },
+ "kosmetyczka": {
+  "shortDescription": "Wykonuje zabiegi pielęgnacyjne twarzy i ciała, depilację, makijaż permanentny i stylizację paznokci.",
+  "fullDescription": "Kosmetyczka wykonuje zabiegi, które pielęgnują i upiększają skórę twarzy i ciała. Oczyszcza i nawilża skórę, robi zabiegi przeciwstarzeniowe, depilację, makijaż permanentny i stylizację paznokci. Pracuje w salonie kosmetycznym, spa, hotelu, klinice medycyny estetycznej, doradza i szkoli w drogerii lub dla marki kosmetycznej albo prowadzi własny gabinet. Każdy klient ma inną skórę i inne oczekiwania, więc trzeba dobrać zabieg do osoby i uczciwie powiedzieć, czego nie da się osiągnąć.",
+  "notes": "Usunięto zdanie o kosmetologu i „zabiegach z zakresu dermatologii estetycznej”: zabiegi medycyny estetycznej (np. iniekcje) są zastrzeżone dla lekarzy, a sformułowanie było mylące."
+ },
+ "cukiernik": {
+  "shortDescription": "Piecze torty, ciasta i desery, robi pralinki, czekoladki i dekoracje z cukru.",
+  "fullDescription": "Cukiernik przygotowuje torty, ciasta, desery, pralinki, czekoladki i dekoracje cukrowe. Odmierza składniki, piecze i dekoruje, a w pracowni tortów artystycznych przygotowuje torty weselne i okolicznościowe. Pracuje w cukierni lub piekarni, restauracji, hotelu, zakładzie produkcyjnym albo we własnej cukierni. Przepis trzeba zachować co do grama, a dekoracja zamówionego tortu musi wyglądać tak, jak klient sobie wyobraził.",
+  "notes": ""
+ },
+ "piekarz": {
+  "shortDescription": "Wypieka chleb, bułki i bagietki, pilnuje, żeby ciasto dobrze wyrosło.",
+  "fullDescription": "Piekarz przygotowuje ciasto na chleb i bułki, pilnuje fermentacji i wypieka różne rodzaje pieczywa, np. chleb na zakwasie czy bagietki. Pracuje w piekarni rzemieślniczej, zakładzie piekarniczym, piekarni w supermarkecie, hotelu lub restauracji albo prowadzi własną piekarnię. Pieczywo musi być gotowe rano, więc praca zaczyna się bardzo wcześnie, a dźwiganie worków z mąką i praca przy piecu wymagają siły.",
+  "notes": ""
+ },
+ "barista": {
+  "shortDescription": "Parzy espresso, cappuccino i kawę metodami alternatywnymi, zna się na ziarnach i robi latte art.",
+  "fullDescription": "Barista przygotowuje napoje kawowe: espresso, cappuccino, kawę filtrowaną i parzoną innymi metodami. Zna odmiany ziaren i stopnie palenia, wie, jak ustawić ekstrakcję, rysuje wzory na mleku (latte art) i doradza gościom, jaką kawę wybrać. Pracuje w kawiarni specjalistycznej lub sieciowej, hotelu, palarni kawy, na eventach albo prowadzi kursy dla innych baristów. Gdy przed ladą ustawia się kolejka, trzeba pracować szybko, a każda kawa ma smakować tak samo dobrze.",
+  "notes": "Usunięto „rośnie zapotrzebowanie na speciality coffee i profesjonalnych baristów” jako tezę bez źródła."
+ },
+ "pilot-wycieczek": {
+  "shortDescription": "Jeździ z grupami turystów, pilnuje planu podróży, opowiada o zwiedzanych miejscach i rozwiązuje problemy.",
+  "fullDescription": "Pilot wycieczek opiekuje się grupą turystów w podróży po Polsce i za granicą. Pilnuje planu dnia, transportu i noclegów, opowiada o zwiedzanych miejscach i dba o bezpieczeństwo uczestników. Pracuje dla biur podróży i touroperatorów, na statkach wycieczkowych, oprowadza po muzeach albo organizuje własne wycieczki po regionie. Gdy autokar się spóźni albo ktoś zgubi paszport, pilot musi szybko znaleźć rozwiązanie, często w obcym języku.",
+  "notes": "Oprowadzanie po muzeach i obiektach (z listy miejsc pracy) to zwykle zadanie przewodnika, osobnego zawodu. Zostawiłem, bo jest w pliku."
+ },
+ "stolarz": {
+  "shortDescription": "Robi z drewna meble na wymiar, zabudowy, schody, okna i drzwi.",
+  "fullDescription": "Stolarz obrabia drewno i płyty drewnopochodne i robi z nich meble na wymiar, zabudowy, schody, okna, drzwi i elementy wykończeniowe. Pracuje tradycyjnymi narzędziami i na maszynach CNC, a gotowe meble często montuje u klienta. Zatrudnia go zakład stolarski, fabryka mebli, firma budowlana albo pracownia odnawiająca zabytkowe meble, może też prowadzić własny warsztat. Pomyłki w drewnie nie da się cofnąć, więc każdy element dokładnie się mierzy i przemyśla, zanim trafi pod piłę.",
+  "notes": ""
+ },
+ "inzynier-budownictwa": {
+  "shortDescription": "Projektuje konstrukcje budynków, mostów i dróg, oblicza ich wytrzymałość i nadzoruje budowę.",
+  "fullDescription": "Inżynier budownictwa projektuje konstrukcje i pilnuje, żeby budowa przebiegała zgodnie z projektem. Wykonuje obliczenia wytrzymałościowe, przygotowuje kosztorysy, może kierować budową albo pracować jako inspektor nadzoru. Pracuje w biurze projektowym, firmie budowlanej, u dewelopera, w urzędzie nadzoru budowlanego albo przy budowie dróg, mostów i tuneli. Do samodzielnego projektowania i kierowania budową potrzebne są uprawnienia budowlane, a błąd w obliczeniach może zagrozić bezpieczeństwu budynku.",
+  "notes": "Oryginał podaje uprawnienia budowlane jako warunek bez zastrzeżeń. Uprawnienia są potrzebne do samodzielnych funkcji (projektant, kierownik budowy, inspektor), a pracę w zawodzie można zacząć bez nich; doprecyzowałem."
+ },
+ "inzynier-mechanik": {
+  "shortDescription": "Projektuje maszyny i urządzenia, liczy ich wytrzymałość i usprawnia produkcję w fabrykach.",
+  "fullDescription": "Inżynier mechanik projektuje i konstruuje maszyny, narzędzia i urządzenia przemysłowe. Pracuje w programach CAD/CAM, wykonuje obliczenia wytrzymałościowe, dobiera materiały, przygotowuje dokumentację techniczną i nadzoruje produkcję. Zatrudniają go zakłady produkcyjne, biura konstrukcyjne, firmy motoryzacyjne, energetyka, np. przy turbinach i odnawialnych źródłach energii, oraz firmy doradcze. Projekt musi wytrzymać prawdziwe obciążenia, więc każdą część trzeba policzyć i sprawdzić, zanim trafi do produkcji.",
+  "notes": ""
+ },
+ "geodeta": {
+  "shortDescription": "Mierzy teren, wyznacza granice działek i tworzy mapy potrzebne do budowy i dla urzędów.",
+  "fullDescription": "Geodeta mierzy i opisuje teren za pomocą tachimetrów, odbiorników GPS i dronów. Wyznacza granice działek, przygotowuje mapy do projektów budowlanych, wykonuje pomiary na budowie i aktualizuje ewidencję gruntów. Pracuje w firmie geodezyjnej, urzędzie, firmie budowlanej, biurze projektowym albo na własny rachunek. Duża część pracy odbywa się w terenie, niezależnie od pogody, a do samodzielnego wykonywania prac geodezyjnych potrzebne są uprawnienia zawodowe.",
+  "notes": "Oryginał podaje uprawnienia geodezyjne jako warunek bez zastrzeżeń. Uprawnienia są potrzebne do samodzielnych funkcji, pracę można zacząć bez nich; doprecyzowałem."
+ },
+ "urbanista": {
+  "shortDescription": "Planuje, jak mają się rozwijać miasta i wsie: gdzie powstaną domy, drogi, parki i tereny zielone.",
+  "fullDescription": "Urbanista planuje układ przestrzenny miast, dzielnic i wsi. Przygotowuje miejscowe plany zagospodarowania przestrzennego, studia i analizy urbanistyczne, współpracując z architektami, samorządami i mieszkańcami. Pracuje w urzędzie miasta lub gminy, biurze urbanistycznym, pracowni architektonicznej, u dewelopera albo w ministerstwie. Na konsultacjach społecznych spotyka mieszkańców o sprzecznych oczekiwaniach i musi znaleźć rozwiązanie dobre dla okolicy i dla przyrody.",
+  "notes": ""
+ },
+ "mechanik-samochodowy": {
+  "shortDescription": "Szuka usterek w samochodach za pomocą komputera diagnostycznego i naprawia silniki, hamulce i elektronikę.",
+  "fullDescription": "Mechanik samochodowy naprawia i serwisuje samochody osobowe i dostawcze. Podłącza auto do komputera diagnostycznego, szuka usterki, wymienia części, naprawia silnik, hamulce, zawieszenie i elektronikę. Pracuje w autoryzowanym serwisie, niezależnym warsztacie, stacji diagnostycznej, przy flocie firmowej albo we własnym warsztacie. Coraz więcej aut ma napęd elektryczny, więc trzeba stale uczyć się nowych układów i narzędzi.",
+  "notes": ""
+ },
+ "spawacz": {
+  "shortDescription": "Łączy metalowe elementy spawaniem przy budowie konstrukcji stalowych, rurociągów i statków.",
+  "fullDescription": "Spawacz łączy części z metalu różnymi metodami spawania, np. MIG/MAG, TIG albo elektrodą. Spawa konstrukcje stalowe, rurociągi, zbiorniki i kadłuby statków. Pracuje w zakładzie przemysłowym, stoczni, na budowie, przy rurociągach i gazociągach, a dobrzy spawacze znajdują pracę także za granicą, np. w Norwegii. Do pracy potrzebne są uprawnienia spawalnicze, a spoina musi być dokładna, choć pracuje się w hałasie i wysokiej temperaturze.",
+  "notes": "Usunięto „zawód deficytowy” jako tezę bez źródła w pliku; zostawiono informację o pracy za granicą, bo wynika z listy miejsc pracy."
+ },
+ "kartograf": {
+  "shortDescription": "Tworzy mapy, głównie cyfrowe, i przetwarza dane o terenie w programach GIS.",
+  "fullDescription": "Kartograf projektuje i tworzy mapy topograficzne, tematyczne i nawigacyjne. Dziś większość pracy odbywa się na komputerze: kartograf przetwarza dane satelitarne i lotnicze w programach GIS, takich jak QGIS czy ArcGIS. Pracuje w Głównym Urzędzie Geodezji i Kartografii, firmie geoinformatycznej, wydawnictwie map turystycznych i edukacyjnych, w wojsku albo w firmie technologicznej, która tworzy mapy do nawigacji. Mapa musi być dokładna i zarazem czytelna, więc trzeba zdecydować, które informacje pokazać, a które pominąć.",
+  "notes": ""
+ },
+ "architekt-krajobrazu": {
+  "shortDescription": "Projektuje ogrody, parki, place zabaw i inne tereny zielone, dobiera rośliny i planuje ścieżki.",
+  "fullDescription": "Architekt krajobrazu projektuje tereny zielone: prywatne ogrody, parki miejskie, place zabaw i tereny rekreacyjne. Dobiera rośliny, planuje ścieżki, oświetlenie i małą architekturę, coraz częściej także rozwiązania, które zatrzymują wodę deszczową w mieście. Pracuje w pracowni architektury krajobrazu, urzędzie miasta lub gminy, u dewelopera, w biurze ochrony środowiska albo we własnej pracowni. Rośliny rosną latami, więc trzeba przewidzieć, jak ogród będzie wyglądał za kilka lat i w każdej porze roku.",
+  "notes": ""
+ },
+ "rolnik": {
+  "shortDescription": "Uprawia zboża, warzywa lub owoce albo hoduje zwierzęta i prowadzi gospodarstwo rolne.",
+  "fullDescription": "Rolnik prowadzi gospodarstwo rolne i produkuje żywność. Uprawia zboża, warzywa lub owoce albo hoduje bydło, drób czy świnie, obsługuje maszyny rolnicze, decyduje o nawożeniu i ochronie roślin. Może prowadzić rodzinne lub ekologiczne gospodarstwo, działać w spółdzielni albo pracować w dużej firmie rolno-spożywczej. Plony zależą od pogody, a do prowadzenia gospodarstwa potrzebna jest wiedza o uprawach, ekonomii i nowych technologiach, np. dronach.",
+  "notes": ""
+ },
+ "lesnik": {
+  "shortDescription": "Dba o las: planuje nasadzenia, chroni drzewa przed chorobami i pożarami, nadzoruje wycinkę.",
+  "fullDescription": "Leśnik zarządza lasem i dba o jego zdrowie. Planuje nasadzenia, przerzedza drzewostan, chroni las przed chorobami i pożarami, nadzoruje pozyskanie drewna i dba o różnorodność przyrody. Pracuje w nadleśnictwie Lasów Państwowych, parku narodowym lub krajobrazowym, firmie leśnej, inspekcji ochrony środowiska albo w instytucie badawczym. Dużo czasu spędza w terenie o każdej porze roku, a do zawodu potrzebne jest wykształcenie leśne.",
+  "notes": ""
+ },
+ "ogrodnik": {
+  "shortDescription": "Zakłada i pielęgnuje ogrody, trawniki i rabaty, sadzi rośliny i przycina drzewa.",
+  "fullDescription": "Ogrodnik zakłada i pielęgnuje ogrody, trawniki, rabaty i tereny zielone. Sadzi rośliny, przycina drzewa, podlewa i nawozi, może też specjalizować się w roślinach ozdobnych, warzywach lub sadownictwie. Pracuje w firmie ogrodniczej, szkółce roślin, parku miejskim lub botanicznym, centrum ogrodniczym albo prowadzi własną firmę. Większość pracy odbywa się na zewnątrz i wymaga wysiłku fizycznego, a każda roślina potrzebuje innej opieki.",
+  "notes": "W oryginale literówka „przycinaje” (poprawnie „przycina”)."
+ },
+ "inzynier-srodowiska": {
+  "shortDescription": "Projektuje sieci wodociągowe, oczyszczalnie ścieków i systemy, które chronią wodę i powietrze.",
+  "fullDescription": "Inżynier środowiska projektuje instalacje, które chronią wodę i powietrze przed zanieczyszczeniem. Projektuje sieci wodno-kanalizacyjne, oczyszczalnie ścieków i systemy wentylacji, przygotowuje raporty o oddziaływaniu inwestycji na środowisko i monitoruje zanieczyszczenia. Pracuje w firmie wodociągowej, biurze ochrony środowiska, zakładzie gospodarki odpadami, urzędzie wydającym pozwolenia środowiskowe albo w firmie doradczej. Rozwiązania chroniące środowisko często podnoszą koszty inwestycji, więc inżynier musi umieć uzasadnić je inwestorowi.",
+  "notes": "Usunięto „coraz ważniejszy w kontekście zielonej transformacji i ESG” jako ogólnik."
+ },
+ "technik-weterynarii": {
+  "shortDescription": "Pomaga lekarzowi weterynarii przy badaniach i zabiegach, szczepi zwierzęta i pobiera próbki.",
+  "fullDescription": "Technik weterynarii pomaga lekarzowi weterynarii w badaniach, zabiegach i operacjach. Przygotowuje zwierzęta do zabiegów, szczepi je, pobiera próbki do badań i prowadzi dokumentację. Pracuje w klinice weterynaryjnej, laboratorium, schronisku, ogrodzie zoologicznym, sklepie zoologicznym albo w inspekcji weterynaryjnej. Zwierzęta bywają przestraszone i agresywne, więc trzeba je spokojnie i bezpiecznie przytrzymać, a właścicielom wyjaśnić, co się dzieje.",
+  "notes": "Zakres samodzielnych czynności technika (np. szczepienia) jest ograniczony przepisami i zwykle odbywa się pod nadzorem lekarza; oryginał tego nie precyzuje, zostawiłem."
+ }
+}
