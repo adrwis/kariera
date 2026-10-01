@@ -46,7 +46,7 @@ function cleanProfile(p) {
 const CLEAR_EXTENDED = new Set([478575, 79804]);  // TEB i ALO przy PJATK: rozszerzenia z niedatowanych podstron klas
 const DROP_PROFILES = new Set([485988]);           // InnEdu: „ścieżki” edukacji domowej, nie oddziały
 // Licea dla uczniów w edukacji domowej: decyzja Ady 2026-10-01, nie pokazujemy (II LO Moraczewskich, Amicus, InnEdu)
-const EXCLUDE = new Set([480767, 271713, 485988, 482086, 482133]); // + Szczecin: Liceum WIR, Liceum Herberta
+const EXCLUDE = new Set([480767, 271713, 485988, 482086, 482133, 478552]); // + Szczecin: Liceum WIR, Liceum Herberta; Katowice: Szkoła w Chmurze
 // Progi przypisane do klasy po profilu, a nie po nazwie (niepewne): [rspo, wzór nazwy klasy, rok]
 const DROP_THRESHOLDS = [[7000, /^1E\b/, 2026]]; // V LO Szczecin: szkoła nazywa klasę mat-fiz „1D”, nabór „1E”
 
