@@ -15,3 +15,5 @@ Zasada: na stronę trafia tylko to, co ma oficjalne źródło; niepewne rzeczy s
 8. `npm run build && npm test`
 
 Instrukcje dla agentów zbierających dane: `INSTRUKCJA-*.md`, `baza/INSTRUKCJA-MIASTA.md`.
+
+Po kroku 6 jednorazowo: `apply-decyzje-2026-10-01.js` (decyzje Ady: przywrócone wartości odstające, TPWiG na AGH).

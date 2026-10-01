@@ -45,11 +45,14 @@ function cleanProfile(p) {
 // Poprawki po raportach agentów (zasada: tylko dane pewne)
 const CLEAR_EXTENDED = new Set([478575, 79804]);  // TEB i ALO przy PJATK: rozszerzenia z niedatowanych podstron klas
 const DROP_PROFILES = new Set([485988]);           // InnEdu: „ścieżki” edukacji domowej, nie oddziały
+// Licea dla uczniów w edukacji domowej: decyzja Ady 2026-10-01, nie pokazujemy (II LO Moraczewskich, Amicus, InnEdu)
+const EXCLUDE = new Set([480767, 271713, 485988]);
 
 const index = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/szkoly/index.json'), 'utf8'));
+for (const r of EXCLUDE) delete index.rspo[r];
 const log = [];
 for (const [slug, city] of [['warszawa', 'Warszawa'], ['gdynia', 'Gdynia'], ['sopot', 'Sopot']]) {
-  const base = JSON.parse(fs.readFileSync(path.join(B, `base_${city}.json`), 'utf8')).filter(s => s.students > 0);
+  const base = JSON.parse(fs.readFileSync(path.join(B, `base_${city}.json`), 'utf8')).filter(s => s.students > 0 && !EXCLUDE.has(s.rspo));
   let withProfiles = 0, thresholds = 0, done = 0;
   const schools = base.map(({ professionsRspo, ...s }) => {
     const r = results.get(s.rspo);

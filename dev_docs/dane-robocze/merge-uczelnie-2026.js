@@ -8,17 +8,12 @@ const DATA = path.join(ROOT, 'data/careers.json');
 
 const results = [1, 2, 3].map(n => path.join(W, `wynik-uczelnie-${n}.json`)).filter(fs.existsSync)
   .flatMap(f => JSON.parse(fs.readFileSync(f, 'utf8')));
-const byKey = new Map(results.map(r => [r.school + '|' + r.career, r]));
+const norm = n => n.replace(/\s+[–—]\s+/g, ', ');
+const byKey = new Map(results.map(r => [norm(r.school) + '|' + r.career, r]));
 const isUrl = u => typeof u === 'string' && /^https?:\/\/\S+$/.test(u);
 
-// Wartości odstające usunięte decyzją Ady 2026-09-30 (są w źródłach, ale niepewne); do ponownej decyzji
-const DROP = [
-  [/^WUM — Wydział Farmaceutyczny/, 'farmaceuta', 2024],
-  [/^WUM — Wydział Nauk o Zdrowiu/, 'ratownik-medyczny', 2024],
-  [/^WUM — Wydział Nauk o Zdrowiu/, 'dietetyk', 2025],
-  [/^Politechnika Łódzka — FTIMS/, 'administrator-systemow', 2024],
-  [/^AKF/, 'fizjoterapeuta', 2024],
-];
+// Wartości odstające (WUM, PŁ, AKF) przywrócone decyzją Ady 2026-10-01: lista wyjątków jest pusta.
+const DROP = [];
 // Politechnika Krakowska publikuje tylko „wymaganą liczbę punktów” (minimum), nie wynik ostatniej osoby przyjętej
 const dropped = (r, t) => /^Politechnika Krakowska/.test(r.school)
   || DROP.some(([re, career, year]) => re.test(r.school) && r.career === career && t.year === year);
@@ -45,7 +40,7 @@ const data = JSON.parse(fs.readFileSync(DATA, 'utf8'));
 const log = { entries: 0, modesUpdated: 0, thresholds2026: 0, rowFixes: [], reqUpdated: 0, reqYear: 0, tuitionUpdated: 0, programs: 0, missing: 0 };
 for (const c of data) {
   for (const s of c.education.schools) {
-    const r = byKey.get(s.name + '|' + c.id);
+    const r = byKey.get(norm(s.name) + '|' + c.id);
     if (!r) { log.missing++; continue; }
     log.entries++;
     if (r.program && r.program !== s.program) { s.program = r.program; log.programs++; }
