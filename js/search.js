@@ -13,7 +13,7 @@ const CareerSearch = (() => {
     if (isLoaded) return;
     try {
       const [careersRes, kzisRes] = await Promise.all([
-        fetch('data/careers.json'),
+        fetch('data/careers.min.json'),
         fetch('data/kzis-index.json'),
       ]);
 
@@ -141,7 +141,8 @@ const CareerSearch = (() => {
 
     // First, rich profiles (prioritized)
     if (fuseMain) {
-      const mainResults = fuseMain.search(query, { limit });
+      // Tylko dobre dopasowania: słabsze to zwykle przypadkowe trafienia w opisie (np. „weteryn” → geodeta)
+      const mainResults = fuseMain.search(query, { limit }).filter(r => r.score <= 0.2);
       for (const r of mainResults) {
         results.push({
           id: r.item.id,

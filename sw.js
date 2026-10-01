@@ -1,5 +1,5 @@
 /* NextMove — Service Worker */
-const CACHE_NAME = 'nextmove-v8';
+const CACHE_NAME = 'nextmove-v9';
 const APP_SHELL = [
   '/kariera/',
   '/kariera/index.html',
@@ -9,9 +9,8 @@ const APP_SHELL = [
   '/kariera/js/szkoly.min.js',
   '/kariera/js/quiz.min.js',
   '/kariera/data/szkoly/index.json',
-  '/kariera/data/szkoly/gdansk.json',
   '/kariera/js/animations.min.js',
-  '/kariera/data/careers.json',
+  '/kariera/data/careers.min.json',
   '/kariera/data/kzis-index.json',
   '/kariera/manifest.json',
   '/kariera/favicon.svg',

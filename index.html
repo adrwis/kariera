@@ -71,7 +71,13 @@
 
   <!-- Top bar -->
   <header class="topbar">
-    <span class="topbar__motto">Znajdź swoją ścieżkę kariery z naszą pomocą</span>
+    <a href="/kariera/" class="topbar__logo" aria-label="NextMove, strona główna">NextMove</a>
+    <nav class="topbar__nav" aria-label="Główne">
+      <a href="/kariera/quiz" data-nav="quiz">Quiz</a>
+      <a href="/kariera/wyniki?filter=1" data-nav="wyniki">Zawody</a>
+      <a href="/kariera/szkoly" data-nav="szkoly">Szkoły</a>
+      <a href="/kariera/kalkulator" data-nav="kalkulator">Kalkulator</a>
+    </nav>
     <div class="topbar__right">
       <span class="topbar__stat">79 zawodów</span>
       <button class="theme-toggle" id="themeToggle" type="button" aria-label="Przełącz motyw jasny/ciemny">
@@ -116,7 +122,7 @@
               <div class="search-box__query-row">
                 <label for="searchQuery" class="search-box__label">Kim chcesz zostać? Co Cię interesuje?</label>
                 <div class="search-box__input-wrapper">
-                  <input type="text" id="searchQuery" class="search-box__input search-box__input--query" placeholder="np. psycholog, zwierzęta, rysowanie" autocomplete="off" autocapitalize="off" autocorrect="off" aria-autocomplete="list" aria-controls="autocompleteList" aria-expanded="false" aria-activedescendant="">
+                  <input type="text" role="combobox" id="searchQuery" class="search-box__input search-box__input--query" placeholder="np. psycholog, zwierzęta, rysowanie" autocomplete="off" autocapitalize="off" autocorrect="off" aria-autocomplete="list" aria-controls="autocompleteList" aria-expanded="false" aria-activedescendant="">
                   <ul id="autocompleteList" class="autocomplete" role="listbox" aria-label="Podpowiedzi zawodów" hidden></ul>
                 </div>
               </div>
@@ -275,7 +281,7 @@
       <div class="results">
         <div class="results__header">
           <a href="/kariera/" class="results__back" id="resultsBack" aria-label="Wróć do wyszukiwarki">&larr; Wróć</a>
-          <h2 class="results__title">Wyniki wyszukiwania</h2>
+          <h1 class="results__title">Wyniki wyszukiwania</h1>
           <p class="results__query" id="resultsQuery"></p>
           <p class="results__count" id="resultsCount"></p>
           <p class="results__school-hint" id="resultsSchoolHint" hidden>Szukasz szkoły średniej? <a href="/kariera/szkoly">Zobacz licea i technika</a>.</p>
@@ -336,7 +342,7 @@
   </main>
 
   <!-- Scroll to top -->
-  <button type="button" class="scroll-top" id="scrollTopBtn" aria-label="Wróć na górę" aria-hidden="true">
+  <button type="button" class="scroll-top" id="scrollTopBtn" aria-label="Wróć na górę" aria-hidden="true" tabindex="-1">
     <svg class="scroll-top__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
     <span class="scroll-top__label">Na górę</span>
   </button>

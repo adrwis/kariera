@@ -296,7 +296,17 @@ const Szkoly = (function () {
       dz: districts.has(dz) ? dz : '',
       pub: params.get('pub') === '1',
       q: (params.get('q') || '').trim(),
+      sort: SORTS.some(([k]) => k === params.get('sort')) ? params.get('sort') : '',
     };
+  }
+
+  const SORTS = [['', 'Nazwa'], ['prog-nisko', 'Najniższy próg'], ['prog-wysoko', 'Najwyższy próg'], ['matura', 'Zdawalność matury']];
+  const PAGE = 20;
+
+  // Zakres ostatnich progów (skala 200) w klasach szkoły
+  function thresholdRange(profiles) {
+    const mins = profiles.map(p => latestThreshold(p)).filter(Boolean).map(t => t.min);
+    return mins.length ? { lo: Math.min(...mins), hi: Math.max(...mins) } : null;
   }
 
   function filtersToQuery(f, citySlug) {
@@ -307,6 +317,7 @@ const Szkoly = (function () {
     if (f.dz) p.set('dz', f.dz);
     if (f.pub) p.set('pub', '1');
     if (f.q) p.set('q', f.q);
+    if (f.sort) p.set('sort', f.sort);
     const s = p.toString();
     return s ? '?' + s : '';
   }
@@ -342,6 +353,20 @@ const Szkoly = (function () {
         || (a.school.shortName || a.school.name).localeCompare(b.school.shortName || b.school.name, 'pl', { numeric: true }));
   }
 
+  function sortSchools(res, f) {
+    if (!f.sort) return res;
+    const key = x => {
+      if (f.sort === 'matura') return x.school.matura && x.school.matura.passRate;
+      const r = thresholdRange(f.rozsz.length ? x.matching : x.school.profiles || []);
+      return r && (f.sort === 'prog-nisko' ? r.lo : r.hi);
+    };
+    const dir = f.sort === 'prog-nisko' ? 1 : -1;
+    // Stabilnie: szkoły bez danych na końcu, w dotychczasowej kolejności
+    return res.map((x, i) => ({ x, i, k: key(x) }))
+      .sort((a, b) => (a.k == null) - (b.k == null) || (a.k != null && b.k != null && (a.k - b.k) * dir) || a.i - b.i)
+      .map(o => o.x);
+  }
+
   // Krótka etykieta klasy na liście: nazwa, a przy nazwach z samym symbolem także rozszerzenia
   function profileLabel(p) {
     const ext = (p.extended || []).map(subjectName);
@@ -363,13 +388,15 @@ const Szkoly = (function () {
     const shown = list.slice(0, 4);
     const more = list.length - shown.length;
     const hasThresholds = (s.profiles || []).some(p => (p.thresholds || []).length);
+    const range = thresholdRange(list);
     const badges = [
       `<span class="szkoly__badge szkoly__badge--${typeKey(s.type)}">${typeLabel(s.type)}</span>`,
       `<span class="szkoly__badge">${s.public ? 'publiczna' : 'niepubliczna'}</span>`,
       showCity && s.city ? `<span class="szkoly__badge">${esc(s.city)}</span>` : '',
       s.district ? `<span class="szkoly__badge">${esc(s.district)}</span>` : '',
       maturaBadge(s.matura),
-      hasThresholds ? '<span class="szkoly__badge szkoly__badge--progi">progi punktowe</span>' : '',
+      range ? `<span class="szkoly__badge szkoly__badge--progi">${range.lo === range.hi ? `próg ${fmtNum(range.lo)} pkt` : `progi ${fmtNum(range.lo)} do ${fmtNum(range.hi)} pkt`}</span>`
+        : hasThresholds ? '<span class="szkoly__badge szkoly__badge--progi">progi punktowe</span>' : '',
     ].join('');
     const profilesHtml = shown.length
       ? `<ul class="szkoly__card-profiles">${shown.map(p => `<li>${esc(profileLabel(p))}</li>`).join('')}${more > 0 ? `<li class="szkoly__more">i ${more} więcej</li>` : ''}</ul>`
@@ -428,6 +455,12 @@ const Szkoly = (function () {
                 </label>
                 <label class="szkoly__chip szkoly__chip--solo"><input type="checkbox" name="pub" value="1"${f.pub ? ' checked' : ''}> Tylko publiczne</label>
               </div>
+              <label class="szkoly__field">
+                <span class="szkoly__legend">Sortuj</span>
+                <select name="sort" class="szkoly__select">
+                  ${SORTS.map(([v, l]) => `<option value="${v}"${f.sort === v ? ' selected' : ''}>${l}</option>`).join('')}
+                </select>
+              </label>
             </form>
           </details>
           <p class="results__count" id="szkolyCount" aria-live="polite"></p>
@@ -445,6 +478,7 @@ const Szkoly = (function () {
         dz: fd.get('dz') || '',
         pub: fd.get('pub') === '1',
         q: (fd.get('q') || '').trim(),
+        sort: fd.get('sort') || '',
       };
       history.replaceState(null, '', ctx.BASE + '/szkoly' + filtersToQuery(nf, d.slug));
       renderListResults(container, d, nf);
@@ -462,12 +496,29 @@ const Szkoly = (function () {
   function renderListResults(container, d, f) {
     const list = container.querySelector('#szkolyList');
     const count = container.querySelector('#szkolyCount');
-    const res = filterSchools(d.schools, f);
+    const res = sortSchools(filterSchools(d.schools, f), f);
     const showCity = CITIES[d.slug].files.length > 1;
-    backContext = { href: location.pathname + location.search, label: 'Wróć do listy szkół' };
+    const here = location.pathname + location.search;
+    backContext = { href: here, label: 'Wróć do listy szkół' };
     if (res.length) {
       count.textContent = `Pasujące szkoły: ${res.length}`;
-      list.innerHTML = res.map(x => schoolCard(x.school, x.matching, f, showCity)).join('');
+      // Liczba pokazanych kart zapamiętana dla adresu, żeby powrót ze strony szkoły trafił w to samo miejsce
+      let shown = PAGE;
+      try { const m = JSON.parse(sessionStorage.getItem('kr-szkoly-shown') || 'null'); if (m && m.href === here) shown = m.n; } catch (e) { /* ignoruj */ }
+      const draw = () => {
+        list.innerHTML = res.slice(0, shown).map(x => schoolCard(x.school, x.matching, f, showCity)).join('')
+          + (res.length > shown ? `<li class="szkoly__more-wrap"><button type="button" class="szkoly__more-btn">Pokaż kolejne ${Math.min(PAGE, res.length - shown)} (zostało ${res.length - shown})</button></li>` : '');
+        const btn = list.querySelector('.szkoly__more-btn');
+        if (btn) btn.addEventListener('click', () => {
+          const first = shown;
+          shown += PAGE;
+          try { sessionStorage.setItem('kr-szkoly-shown', JSON.stringify({ href: location.pathname + location.search, n: shown })); } catch (e) { /* ignoruj */ }
+          draw();
+          const next = list.children[first] && list.children[first].querySelector('a');
+          if (next) next.focus();
+        });
+      };
+      draw();
       return;
     }
     count.textContent = 'Żadna szkoła nie pasuje do tych filtrów.';
@@ -553,7 +604,8 @@ const Szkoly = (function () {
       .filter(([, v]) => v && v.n)
       .sort((a, b) => b[1].n - a[1].n);
     const rows = ext.map(([code, v]) => `
-      <tr><td>${esc(subjectName(code))}</td><td>${esc(v.n)}</td><td>${v.mean != null ? fmtNum(v.mean) + '%' : '<span class="szkola__muted">poniżej 5</span>'}</td><td>${cityMeans[code] != null ? fmtNum(cityMeans[code]) + '%' : ''}</td></tr>`).join('');
+      <tr><td>${esc(subjectName(code))}</td><td>${esc(v.n)}</td><td>${v.mean != null ? fmtNum(v.mean) + '%' + compareMark(v.mean, cityMeans[code]) : '<span class="szkola__muted">brak*</span>'}</td><td>${cityMeans[code] != null ? fmtNum(cityMeans[code]) + '%' : ''}</td></tr>`).join('');
+    const hidden = ext.some(([, v]) => v.mean == null);
     const n = m.examinees;
     return `
       <p class="career-column__text">${m.passRate != null ? `Zdawalność: <strong>${fmtNum(m.passRate)}%</strong>` : 'CKE nie podaje zdawalności (za mało zdających)'}${n ? `, zdawało ${esc(n)} ${plural(n, 'osoba', 'osoby', 'osób')}` : ''}. ${sourceLink(m.sourceUrl, 'dane CKE')}</p>
@@ -564,7 +616,16 @@ const Szkoly = (function () {
           <thead><tr><th>Przedmiot</th><th>Zdających</th><th>Średnia</th><th>${esc(cityName)}</th></tr></thead>
           <tbody>${rows}</tbody>
         </table>
-      </div>` : ''}`;
+      </div>
+      ${hidden ? '<p class="career-column__text szkola__muted">* CKE nie podaje średniej, gdy przedmiot zdawało mniej niż 5 osób.</p>' : ''}` : ''}`;
+  }
+
+  // ▲ albo ▼, gdy średnia szkoły różni się od średniej miasta o co najmniej 3 punkty procentowe
+  function compareMark(mean, city) {
+    if (city == null || Math.abs(mean - city) < 3) return '';
+    return mean > city
+      ? ' <span class="szkola__up" aria-hidden="true">▲</span><span class="sr-only">, powyżej średniej miasta</span>'
+      : ' <span class="szkola__down" aria-hidden="true">▼</span><span class="sr-only">, poniżej średniej miasta</span>';
   }
 
   function relatedCareersHtml(s) {
@@ -653,7 +714,7 @@ const Szkoly = (function () {
             ? `<ul class="szkola__profiles">${profiles.map(p => profileHtml(p, isTech)).join('')}</ul>`
             : '<p class="career-column__empty">Brak danych o klasach w NextMove. Ofertę sprawdzisz na stronie szkoły.</p>'}
           ${s.admission ? `<p class="career-column__text">${esc(s.admission)}</p>` : ''}
-          ${profiles.length && !anyThresholds ? '<p class="career-column__text szkola__muted">Szkoła nie publikuje progów punktowych.</p>' : ''}
+          ${profiles.length && !anyThresholds ? `<p class="career-column__text szkola__muted">Nie mamy jeszcze progów punktowych tej szkoły. Sprawdź je ${ctx.isHttpUrl(s.url) ? `<a href="${attr(s.url)}" target="_blank" rel="noopener">na stronie szkoły</a>` : 'na stronie szkoły'} albo w systemie naboru w Twoim mieście.</p>` : ''}
         </section>
 
         <section class="szkola__section">
@@ -794,7 +855,14 @@ const Szkoly = (function () {
       <h3 class="career-column__subtitle">Licea z pasującymi klasami</h3>
       <p class="career-column__text szkola__muted">Uczelnie na tej stronie zwykle liczą rozszerzoną maturę ${esc(groupsSentence(required))}.${recommended.length ? ` Część uczelni dolicza też punkty za rozszerzenie ${esc(groupsSentence(recommended))}.` : ''}</p>
       <ul class="szkoly__mini">
-        ${lo.slice(0, MAX_LO).map(x => `<li><a href="${ctx.BASE}/szkola/${attr(x.s.rspo)}">${esc(x.s.shortName || x.s.name)}</a> <span class="szkola__muted">· ${CITIES[d.slug].files.length > 1 && x.s.city ? esc(x.s.city) + ', ' : ''}${x.ps.map(p => esc(profileLabel(p))).join('; ')}</span></li>`).join('')}
+        ${lo.slice(0, MAX_LO).map(x => {
+          const where = [CITIES[d.slug].files.length > 1 ? x.s.city : '', x.s.district].filter(Boolean).join(', ');
+          const classes = x.ps.map(p => {
+            const t = latestThreshold(p);
+            return esc(profileLabel(p)) + (t ? ` <span class="szkoly__thr-inline">(próg ${esc(t.year)}: ${fmtNum(t.min)} pkt)</span>` : '');
+          }).join('; ');
+          return `<li><a href="${ctx.BASE}/szkola/${attr(x.s.rspo)}">${esc(x.s.shortName || x.s.name)}</a>${where ? ` <span class="szkola__muted">(${esc(where)})</span>` : ''} <span class="szkola__muted">· ${classes}</span></li>`;
+        }).join('')}
       </ul>
       ${lo.length > MAX_LO ? `<p class="career-column__text"><a href="${attr(filterHref(required, d.slug))}">Zobacz wszystkie ${lo.length} ${plural(lo.length, 'liceum', 'licea', 'liceów')}</a></p>` : ''}`;
     } else if (recommended.length) {
@@ -810,6 +878,7 @@ const Szkoly = (function () {
         ${citySwitch}
         ${techHtml}
         ${loHtml}
+        <p class="career-column__text"><a href="${ctx.BASE}/kalkulator?miasto=${d.slug}">Policz swoje punkty i sprawdź szanse w kalkulatorze</a></p>
         <a href="${ctx.BASE}/szkoly?miasto=${d.slug}" class="career-secondary__all">Wszystkie licea i technika ${esc(d.city.loc)}</a>
       </section>`;
   }

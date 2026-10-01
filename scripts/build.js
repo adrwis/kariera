@@ -43,6 +43,17 @@ async function build() {
   totalSaved += cssSrcSize - cssOutSize;
   console.log(`  css/style.css → style.min.css  (${cssSrcSize} → ${cssOutSize} bytes, -${cssPct}%)`);
 
+  // Dane zawodów bez wcięć i bez pól roboczych, których strona nie pokazuje
+  const careersSrc = path.join(ROOT, 'data', 'careers.json');
+  const careersOut = path.join(ROOT, 'data', 'careers.min.json');
+  const careers = JSON.parse(fs.readFileSync(careersSrc, 'utf-8'));
+  const dropKeys = new Set(['tuitionNoteRaw']);
+  fs.writeFileSync(careersOut, JSON.stringify(careers, (k, v) => (dropKeys.has(k) ? undefined : v)));
+  const cSrc = fs.statSync(careersSrc).size;
+  const cOut = fs.statSync(careersOut).size;
+  totalSaved += cSrc - cOut;
+  console.log(`  data/careers.json → careers.min.json  (${cSrc} → ${cOut} bytes, -${Math.round((1 - cOut / cSrc) * 100)}%)`);
+
   console.log(`\n  Total saved: ${(totalSaved / 1024).toFixed(1)} KB`);
 }
 

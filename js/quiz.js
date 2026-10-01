@@ -148,11 +148,30 @@ const Quiz = (function () {
           </fieldset>
           <p><button type="button" class="szkoly__clear quiz__reset" id="quizReset">Zacznij od nowa</button></p>
         </form>
-        <div id="quizResults" aria-live="polite"></div>
+        <div id="quizResults"></div>
+        <p class="sr-only" id="quizLive" aria-live="polite"></p>
+        <button type="button" class="quiz__jump" id="quizJump" hidden></button>
       </div>`;
     const form = container.querySelector('#quizForm');
     const out = container.querySelector('#quizResults');
     const maxMsg = container.querySelector('#quizMax');
+    const live = container.querySelector('#quizLive');
+    const jump = container.querySelector('#quizJump');
+    let resultsVisible = false;
+    // Na telefonie wyniki są daleko pod pytaniami: przyklejony przycisk przewija do nich
+    const syncJump = () => {
+      const n = out.querySelectorAll('.quiz__result').length;
+      jump.hidden = !n || resultsVisible;
+      if (n) jump.textContent = `Pasuje ${n} ${n === 1 ? 'zawód' : n < 5 ? 'zawody' : 'zawodów'} · Zobacz`;
+    };
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(([e]) => { resultsVisible = e.isIntersecting; syncJump(); }).observe(out);
+    }
+    jump.addEventListener('click', () => {
+      out.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const h = out.querySelector('h2');
+      if (h) { h.setAttribute('tabindex', '-1'); h.focus({ preventScroll: true }); }
+    });
     const update = e => {
       // Limit zainteresowań: przy przekroczeniu cofamy ostatnie zaznaczenie
       if (e && e.target && e.target.name === 'interests' && e.target.checked && form.querySelectorAll('input[name="interests"]:checked').length > MAX_INTERESTS) {
@@ -164,6 +183,10 @@ const Quiz = (function () {
       const a = readAnswers(form);
       save(a);
       out.innerHTML = resultsHtml(a);
+      const names = [...out.querySelectorAll('.quiz__result .result-card__name')].map(x => x.textContent);
+      // Czytnik ekranu słyszy krótkie podsumowanie, a nie całą listę po każdym kliknięciu
+      if (e) live.textContent = names.length ? `Pasuje ${names.length} zawodów, najwyżej: ${names[0]}.` : '';
+      syncJump();
     };
     form.addEventListener('change', update);
     container.querySelector('#quizReset').addEventListener('click', () => {

@@ -97,6 +97,12 @@
       }
     }
 
+    // Zaznaczenie bieżącej sekcji w górnym pasku
+    const navKey = { zawod: 'wyniki', szkola: 'szkoly' }[name] || name;
+    document.querySelectorAll('.topbar__nav [data-nav]').forEach(a => {
+      if (a.dataset.nav === navKey) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+    });
+
     // Restore scroll on back-nav, scroll to top on forward-nav
     if (isPopstate && scrollPositions[name] !== undefined) {
       requestAnimationFrame(() => window.scrollTo(0, scrollPositions[name]));
@@ -375,8 +381,34 @@
   const resultsCount = document.getElementById('resultsCount');
   const resultsEmptyCats = document.getElementById('resultsEmptyCats');
 
+  // Nazwy miast w zapytaniu („weterynarz łódź”): szukamy samego zawodu i podpowiadamy szkoły w tym mieście
+  const QUERY_CITIES = [
+    [/\b(łódź|lodz|łodzi|lodzi)\b/i, 'lodz', 'w Łodzi'], [/\b(warszawa|warszawie|warszawy)\b/i, 'warszawa', 'w Warszawie'],
+    [/\b(kraków|krakow|krakowie)\b/i, 'krakow', 'w Krakowie'], [/\b(wrocław|wroclaw|wrocławiu|wroclawiu)\b/i, 'wroclaw', 'we Wrocławiu'],
+    [/\b(poznań|poznan|poznaniu)\b/i, 'poznan', 'w Poznaniu'], [/\b(gdańsk|gdansk|gdańsku|gdansku)\b/i, 'gdansk', 'w Gdańsku'],
+    [/\b(gdynia|gdyni)\b/i, 'gdynia', 'w Gdyni'], [/\b(sopot|sopocie)\b/i, 'sopot', 'w Sopocie'],
+    [/\b(trójmiasto|trojmiasto|trójmieście|trojmiescie)\b/i, 'trojmiasto', 'w Trójmieście'],
+    [/\b(szczecin|szczecinie)\b/i, 'szczecin', 'w Szczecinie'], [/\b(bydgoszcz|bydgoszczy)\b/i, 'bydgoszcz', 'w Bydgoszczy'],
+    [/\b(lublin|lublinie)\b/i, 'lublin', 'w Lublinie'], [/\b(białystok|bialystok|białymstoku|bialymstoku)\b/i, 'bialystok', 'w Białymstoku'],
+    [/\b(katowice|katowicach)\b/i, 'katowice', 'w Katowicach'], [/\b(wejherowo|wejherowie)\b/i, 'wejherowo', 'w powiecie wejherowskim'],
+  ];
+  const SCHOOL_WORDS = /(^|\s)(liceum|licea|lo|technikum|szkoła|szkoły|szkole|szkołę|szkola|szkoly|w|we|do)(?=\s|$)/gi;
+
+  function splitQuery(query) {
+    // \b w JS nie rozpoznaje polskich liter, dlatego dopasowujemy na kopii bez ogonków
+    const plain = query.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ł/g, 'l');
+    const hit = QUERY_CITIES.find(([re]) => re.test(plain) || re.test(query));
+    if (!hit) return { query, city: null };
+    const words = query.split(/\s+/);
+    const plainWords = plain.split(/\s+/);
+    const rest = words.filter((w, i) => !hit[0].test(plainWords[i]) && !hit[0].test(w)).join(' ').replace(SCHOOL_WORDS, ' ').replace(/\s+/g, ' ').trim();
+    return { query: rest, city: { slug: hit[1], loc: hit[2] } };
+  }
+
   function handleResults(params) {
-    const query = params.get('q') || '';
+    const rawQuery = params.get('q') || '';
+    const split = splitQuery(rawQuery);
+    const query = split.query || rawQuery;
     const cat = params.get('cat') || '';
 
     // Reset sort to relevance
@@ -442,13 +474,24 @@
     }
 
     // Pre-fill inline search
-    resultsSearchInput.value = query;
+    resultsSearchInput.value = rawQuery;
 
     // Queries about schools point to the secondary-school section
     const schoolHint = document.getElementById('resultsSchoolHint');
-    if (schoolHint) schoolHint.hidden = !/(liceum|licea|\blo\b|technikum|technika\b|szkoła|szkoły|szkole|szkołę|szkol(?!en))/i.test(query);
+    if (schoolHint) {
+      const wantsSchool = /(liceum|licea|\blo\b|technikum|technika\b|szkoła|szkoły|szkole|szkołę|szkol(?!en))/i.test(rawQuery);
+      if (split.city) {
+        schoolHint.innerHTML = `Szkoły średnie ${escapeHtml(split.city.loc)}: <a href="${BASE}/szkoly?miasto=${split.city.slug}">zobacz licea i technika</a>.`;
+      } else {
+        schoolHint.innerHTML = `Szukasz szkoły średniej? <a href="${BASE}/szkoly">Zobacz licea i technika</a>.`;
+      }
+      schoolHint.hidden = !wantsSchool && !split.city;
+    }
 
     const total = results.rich.length + results.simple.length;
+
+    // Miasto z zapytania staje się wybranym miastem, żeby profil zawodu od razu pokazał szkoły w nim
+    if (split.city) { try { localStorage.setItem('kr-miasto', split.city.slug); } catch (e) { /* ignoruj */ } }
 
     // Single full profile → go straight to detail (replace, so Back returns to the previous page)
     if (total === 1 && results.rich.length === 1) {
@@ -466,8 +509,12 @@
 
       // Populate empty state category suggestions
       resultsEmptyCats.innerHTML = '';
-      const suggestedCats = ['it', 'medycyna', 'biznes', 'edukacja', 'sztuka'];
-      for (const catKey of suggestedCats) {
+      const quiz = document.createElement('a');
+      quiz.href = `${BASE}/quiz`;
+      quiz.className = 'popular__tag popular__tag--quiz';
+      quiz.textContent = 'Nie wiesz, czego szukać? Zrób quiz';
+      resultsEmptyCats.appendChild(quiz);
+      for (const catKey of Object.keys(CATEGORY_NAMES)) {
         const a = document.createElement('a');
         a.href = `${BASE}/wyniki?cat=${catKey}`;
         a.className = 'popular__tag';
@@ -1297,23 +1344,31 @@
         let thresholdRows = '';
         if (mode.thresholds && mode.thresholds.length) {
           const first = mode.thresholds[0];
-          const scaleNote = first.scaleMax
-            ? `Skala od 0 do ${escapeHtml(String(first.scaleMax))} pkt.`
-            : first.scaleFormula ? `Punkty liczone wzorem uczelni: ${escapeHtml(first.scaleFormula)}.` : '';
+          // Gdy lata mają różne skale, każdy wiersz pokazuje swoją skalę i procent, żeby lat nie porównywać „na oko”
+          const scales = new Set(mode.thresholds.map(t => t.scaleMax || ''));
+          const mixed = scales.size > 1;
+          const scaleNote = mixed
+            ? 'Uczelnia zmieniała skalę punktów, dlatego przy każdym roku jest jego skala i procent.'
+            : first.scaleMax
+              ? `Skala od 0 do ${escapeHtml(String(first.scaleMax))} pkt.`
+              : first.scaleFormula ? `Punkty liczone wzorem uczelni: ${escapeHtml(first.scaleFormula)}.` : '';
           thresholdRows = `
             <table class="school-popup__thresholds">
               <caption class="school-popup__caption">Punkty ostatniej przyjętej osoby. ${scaleNote}</caption>
               <thead><tr><th>Rok rekrutacji</th><th>Punkty</th><th>Źródło</th></tr></thead>
               <tbody>
                 ${mode.thresholds.map(t => {
-                  const pts = String(t.points).replace('.', ',') + (t.scaleMax && t.scaleMax !== first.scaleMax ? ` / ${t.scaleMax}` : '');
+                  const num = String(t.points).replace('.', ',');
+                  const pct = mixed && t.scaleMax && typeof t.points === 'number' ? ` (${Math.round(t.points / t.scaleMax * 100)}%)` : '';
+                  const pts = mixed
+                    ? (t.scaleMax ? `${num} z ${t.scaleMax} pkt${pct}` : `${num} pkt${t.scaleFormula ? ', wzór uczelni' : ''}`)
+                    : `${num} pkt`;
                   const src = isHttpUrl(t.sourceUrl)
-                    ? `<a href="${escapeAttr(t.sourceUrl)}" target="_blank" rel="noopener">link</a>`
+                    ? `<a href="${escapeAttr(t.sourceUrl)}" target="_blank" rel="noopener"${t.round ? ` title="${escapeAttr(t.round)}"` : ''} aria-label="źródło, rok ${escapeAttr(String(t.year))}">źródło</a>`
                     : '';
                   const short = shortRound(t.round);
                   const round = short ? `<span class="school-popup__round">${escapeHtml(short)}</span>` : '';
-                  const srcTitled = t.round && src ? src.replace('<a ', `<a title="${escapeAttr(t.round)}" `) : src;
-                  return `<tr><td>${escapeHtml(String(t.year))}${round}</td><td>${escapeHtml(pts)} pkt</td><td>${srcTitled}</td></tr>`;
+                  return `<tr><td>${escapeHtml(String(t.year))}${round}</td><td>${escapeHtml(pts)}</td><td>${src}</td></tr>`;
                 }).join('')}
               </tbody>
             </table>`;

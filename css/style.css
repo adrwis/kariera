@@ -3010,7 +3010,12 @@ main {
 .szkola__profile-src { margin-top: 0.5rem; font-size: 0.8rem; }
 .szkola__table-wrap { overflow-x: auto; }
 .szkola__matura td:nth-child(2) { font-weight: 400; color: var(--kr-text); }
-.szkola__matura td:last-child { font-weight: 700; color: var(--kr-primary); }
+.szkola__matura td:nth-child(3) { font-weight: 700; color: var(--kr-primary); }
+.szkola__matura td:last-child { font-weight: 400; color: var(--kr-text-muted); }
+.szkola__up { color: #2e7d32; font-size: 0.8em; }
+.szkola__down { color: #c62828; font-size: 0.8em; }
+[data-theme="dark"] .szkola__up { color: #81c784; }
+[data-theme="dark"] .szkola__down { color: #ef9a9a; }
 .szkola__sources { padding-left: 1.1rem; font-size: 0.85rem; }
 .szkola__tags { display: flex; flex-wrap: wrap; gap: 0.5rem; list-style: none; padding: 0; }
 
@@ -3098,3 +3103,41 @@ p.school-popup__caption { margin: 0.25rem 0 0.4rem; }
 .quiz__reset { background: none; border: none; padding: 0; cursor: pointer; font: inherit; text-decoration: underline; }
 .kalk__more-filters { margin-top: 0.75rem; }
 .kalk__more-filters summary { cursor: pointer; font-weight: 600; margin-bottom: 0.5rem; }
+
+/* Nawigacja w górnym pasku */
+.topbar__logo { font-family: 'Sora', sans-serif; font-weight: 700; color: var(--kr-text); text-decoration: none; margin-right: 1.25rem; white-space: nowrap; }
+.topbar__nav { display: flex; gap: 0.25rem; flex: 1; min-width: 0; }
+.topbar__nav a { padding: 0.4rem 0.7rem; border-radius: 100px; color: var(--kr-text-muted); text-decoration: none; font-size: 0.9rem; font-weight: 500; white-space: nowrap; }
+.topbar__nav a:hover { color: var(--kr-text); background: var(--kr-tag-bg); }
+.topbar__nav a[aria-current="page"] { color: var(--kr-primary); background: var(--kr-tag-bg); }
+.topbar__nav a:focus-visible, .topbar__logo:focus-visible { outline: 3px solid var(--kr-primary); outline-offset: 2px; }
+@media (max-width: 600px) {
+  .topbar__logo { display: none; }
+  .topbar__nav { gap: 0; }
+  .topbar__nav a { padding: 0.55rem 0.5rem; font-size: 0.85rem; min-height: 44px; display: inline-flex; align-items: center; }
+}
+
+.quiz__jump { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(1rem + env(safe-area-inset-bottom, 0px)); z-index: 90;
+  padding: 0.75rem 1.25rem; min-height: 44px; border: none; border-radius: 100px; background: var(--kr-primary); color: #fff;
+  font: inherit; font-weight: 600; box-shadow: 0 6px 20px rgba(0,0,0,0.2); cursor: pointer; white-space: nowrap; }
+.quiz__jump:focus-visible { outline: 3px solid var(--kr-text); outline-offset: 2px; }
+@media (min-width: 900px) { .quiz__jump { display: none; } }
+
+/* Tryb ciemny: ciemny tekst na jasnym fiolecie, kontrast co najmniej 4,5:1 */
+[data-theme="dark"] .skip-link,
+[data-theme="dark"] .filters__btn,
+[data-theme="dark"] .person-popup__source:hover,
+[data-theme="dark"] .school-popup__link:hover,
+[data-theme="dark"] .scroll-top,
+[data-theme="dark"] .quiz__jump { color: #0d1117; }
+
+/* Wyraźny fokus na tagach i chipach */
+.popular__tag:focus-visible,
+.filters__cat-chip:focus-visible,
+.szkoly__chip:focus-within,
+.school-entry:focus-visible { outline: 3px solid var(--kr-primary); outline-offset: 2px; }
+
+.szkoly__more-wrap { list-style: none; text-align: center; padding: 0.5rem 0 1rem; }
+.szkoly__more-btn { font: inherit; font-weight: 600; padding: 0.7rem 1.4rem; min-height: 44px; border-radius: 100px; border: 1px solid var(--kr-border); background: var(--kr-bg-alt); color: var(--kr-text); cursor: pointer; }
+.szkoly__more-btn:focus-visible { outline: 3px solid var(--kr-primary); outline-offset: 2px; }
+.szkoly__thr-inline { white-space: nowrap; color: var(--kr-text); }

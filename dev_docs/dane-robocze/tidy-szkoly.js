@@ -35,6 +35,8 @@ for (const f of fs.readdirSync(DIR).filter(f => f.endsWith('.json') && f !== 'in
     if (s.shortName && s.shortName === s.shortName.toUpperCase() && /[A-ZĄĆĘŁŃÓŚŹŻ]{5,}/.test(s.shortName.replace(/\b[IVXLC]+\b/g, ''))) {
       s.shortName = titleCase(s.shortName); changed++;
     }
+    // Skrót „LO” zepsuty przez wcześniejszą wersję titleCase („VIII Lo”)
+    if (s.shortName && /\bLo\b/.test(s.shortName)) { s.shortName = s.shortName.replace(/\bLo\b/g, 'LO'); changed++; }
     if (s.admission) s.admission = s.admission.replace('nie jest kluczowy', 'nie decyduje o przyjęciu').replace(/z kluczowych przedmiotów/g, 'z najważniejszych przedmiotów').replace(/kluczow\w*/g, 'najważniejsze');
     for (const p2 of s.profiles || []) {
       if (/ - |o: [A-ZĄĆĘŁŃÓŚŹŻ][a-z]/.test(p2.name)) { p2.name = tidyName(p2.name); changed++; }
