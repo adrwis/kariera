@@ -1,0 +1,2635 @@
+[
+ {
+  "rspo": 19202,
+  "profiles": [
+   {
+    "name": "1A1 [O] hist-ang-pol (ang-niem*,wlo,hisz*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "wlo",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "hist"
+    ],
+    "places": 12,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2684"
+   },
+   {
+    "name": "1B1 [O] fiz-ang-mat (ang-niem*,hisz*,wlo)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "wlo"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "fiz"
+    ],
+    "places": 22,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2694"
+   },
+   {
+    "name": "1A2 [O] ang-pol-wos (ang-niem*,hisz*,wlo)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "pol",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "wlo"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "wos"
+    ],
+    "places": 20,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2729"
+   },
+   {
+    "name": "1C1 [O] biol-chem-ang (ang-niem*,hisz*,wlo)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "wlo"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "chem"
+    ],
+    "places": 29,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2769"
+   },
+   {
+    "name": "1B2 [O] inf-ang-mat (ang-niem*,hisz*,wlo)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "wlo"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 10,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2779"
+   },
+   {
+    "name": "1C2 [O] chem-ang-mat (ang-niem*,hisz*,wlo)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "chem",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "wlo"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "chem"
+    ],
+    "places": 3,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2784"
+   },
+   {
+    "name": "1E1 [O] geogr-ang-mat (ang-niem*,hisz*,wlo)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "wlo"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 28,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2834"
+   },
+   {
+    "name": "1F1 [O] biol-ang-pol (ang-niem*,hisz*,wlo)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "wlo"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 20,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2864"
+   },
+   {
+    "name": "1D1 [D] niem (ang-niem*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "niem"
+    ],
+    "extendedChoice": [
+     [
+      "geo",
+      "pol"
+     ]
+    ],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang"
+    ],
+    "places": 8,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2919",
+    "specialType": "dwujęzyczny (drugi język: język angielski)"
+   },
+   {
+    "name": "1E2 [O] ang-mat-wos (ang-niem*,hisz*,wlo)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "wlo"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "wos"
+    ],
+    "places": 4,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3808"
+   },
+   {
+    "name": "1F2 [O] biol-ang-mat (ang-niem*,hisz*,wlo)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "wlo"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 12,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3813"
+   },
+   {
+    "name": "1D2 [D] hiszp (ang-hisz*)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hisz"
+    ],
+    "extendedChoice": [
+     [
+      "geo",
+      "pol"
+     ]
+    ],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4428",
+    "specialType": "dwujęzyczny (drugi język: język angielski)"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1D1 [D] niem (ang-niem*): system naboru podaje 'Przedmioty rozszerzone do wyboru: geografia, język polski' bez liczby przedmiotów do wybrania; wpisane jako jedna grupa extendedChoice",
+   "1D1 [D] niem (ang-niem*): punktowane także max(hiszp,niem) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1D1 [D] niem (ang-niem*): maksymalna liczba punktów w systemie naboru 250 (sprawdzian kompetencji językowych lub próba sprawności fizycznej)",
+   "1D2 [D] hiszp (ang-hisz*): system naboru podaje 'Przedmioty rozszerzone do wyboru: geografia, język polski' bez liczby przedmiotów do wybrania; wpisane jako jedna grupa extendedChoice",
+   "1D2 [D] hiszp (ang-hisz*): punktowane także max(hiszp,niem) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1D2 [D] hiszp (ang-hisz*): maksymalna liczba punktów w systemie naboru 250 (sprawdzian kompetencji językowych lub próba sprawności fizycznej)",
+   "Brak progów 2026 i 2025: dla powiatu wejherowskiego nie znaleziono serwisu statystyk VULCAN (sprawdzone m.in. wejherowo-stat, powiat-wejherowski-stat, powiatwejherowski-stat, wejherowski-stat, rumia-stat, reda-stat, pomorze-stat, nabor-pomorze-stat; istnieją tylko gdansk/gdynia/sopot/chojnice/starogard-stat), a strony szkoły i powiatu (powiatwejherowski.pl) nie publikują progów"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=554",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2684",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2694",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2729",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2769",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2779",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2784",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2834",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2864",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2919",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3808",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3813",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4428",
+   "https://www.lo1.rumia.pl/rekrutacja",
+   "https://www.lo1.rumia.pl/terminarz-postepowania-rekrutacyjnego",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/index.xhtml",
+   "https://wejherowo-stat.edu.com.pl/api/turtle/school-offers?page=0&size=1",
+   "https://www.powiatwejherowski.pl/oferta-edukacyjna-na-rok-szkolny-2026-2027",
+   "https://www.powiatwejherowski.pl/rekrutacja-na-rok-szkolny-2026-2027",
+   "https://pzs3.info/wp-content/uploads/2026/03/Edu_Nawigator-wer10strony.pdf"
+  ],
+  "shortName": "I LO Rumia"
+ },
+ {
+  "rspo": 23579,
+  "profiles": [
+   {
+    "name": "1a [O] hist-ang-wos (ang-hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "ang",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "hist"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2704"
+   },
+   {
+    "name": "1d [O] geogr-ang-mat (ang-niem,hisz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 18,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2739"
+   },
+   {
+    "name": "1gDW [D] geogr-mat (ang-hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": "ang",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2814",
+    "specialType": "dwujęzyczny (drugi język: język angielski)"
+   },
+   {
+    "name": "1b [O] biol-chem-ang (ang-hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang"
+    ],
+    "places": 50,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2929"
+   },
+   {
+    "name": "1c [O] biol-ang-pol (ang-hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2944"
+   },
+   {
+    "name": "1e [O] fiz-ang-mat (ang-hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "fiz"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2949"
+   },
+   {
+    "name": "1f1 [O] biol-ang-mat (ang-hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2954"
+   },
+   {
+    "name": "1f2 [O] chem-ang-mat (ang-hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "chem",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "chem",
+     "ang"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2959"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1gDW [D] geogr-mat (ang-hisz,niem): maksymalna liczba punktów w systemie naboru 225 (sprawdzian kompetencji językowych lub próba sprawności fizycznej)",
+   "1b [O] biol-chem-ang (ang-hisz,niem): punktowane także max(biol,chem) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "Brak progów 2026 i 2025: dla powiatu wejherowskiego nie znaleziono serwisu statystyk VULCAN (sprawdzone m.in. wejherowo-stat, powiat-wejherowski-stat, powiatwejherowski-stat, wejherowski-stat, rumia-stat, reda-stat, pomorze-stat, nabor-pomorze-stat; istnieją tylko gdansk/gdynia/sopot/chojnice/starogard-stat), a strony szkoły i powiatu (powiatwejherowski.pl) nie publikują progów"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=549",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2704",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2739",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2814",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2929",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2944",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2949",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2954",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2959",
+   "https://www.liceum1.pl",
+   "https://www.liceum1.pl/rekrutacja/informacje-o-rekrutacji",
+   "https://www.liceum1.pl/rekrutacja/informacje-o-rekrutacji?view=article&id=433",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/index.xhtml",
+   "https://wejherowo-stat.edu.com.pl/api/turtle/school-offers?page=0&size=1",
+   "https://www.powiatwejherowski.pl/oferta-edukacyjna-na-rok-szkolny-2026-2027",
+   "https://www.powiatwejherowski.pl/rekrutacja-na-rok-szkolny-2026-2027",
+   "https://pzs3.info/wp-content/uploads/2026/03/Edu_Nawigator-wer10strony.pdf"
+  ],
+  "shortName": "I LO Wejherowo"
+ },
+ {
+  "rspo": 73138,
+  "profiles": [
+   {
+    "name": "1A_psych-pedag [O] biol-ang-pol (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4328"
+   },
+   {
+    "name": "1B_sportowo-obronna [O] geogr-ang-mat (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4333"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1B_sportowo-obronna [O] geogr-ang-mat (ang-niem): maksymalna liczba punktów w systemie naboru 380 (sprawdzian kompetencji językowych lub próba sprawności fizycznej)",
+   "1B_sportowo-obronna [O] geogr-ang-mat (ang-niem): system naboru: 'Minimalna liczba punktów: obowiązuje' (wartość nie podana)",
+   "Brak progów 2026 i 2025: dla powiatu wejherowskiego nie znaleziono serwisu statystyk VULCAN (sprawdzone m.in. wejherowo-stat, powiat-wejherowski-stat, powiatwejherowski-stat, wejherowski-stat, rumia-stat, reda-stat, pomorze-stat, nabor-pomorze-stat; istnieją tylko gdansk/gdynia/sopot/chojnice/starogard-stat), a strony szkoły i powiatu (powiatwejherowski.pl) nie publikują progów"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=631",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4328",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4333",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/index.xhtml",
+   "https://wejherowo-stat.edu.com.pl/api/turtle/school-offers?page=0&size=1",
+   "https://www.powiatwejherowski.pl/oferta-edukacyjna-na-rok-szkolny-2026-2027",
+   "https://www.powiatwejherowski.pl/rekrutacja-na-rok-szkolny-2026-2027",
+   "https://pzs3.info/wp-content/uploads/2026/03/Edu_Nawigator-wer10strony.pdf"
+  ],
+  "shortName": "II LO Rumia"
+ },
+ {
+  "rspo": 12467,
+  "profiles": [
+   {
+    "name": "1aLO [O] biol-geogr-ang (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2764"
+   },
+   {
+    "name": "1bLO [O] hist-ang-pol (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2794"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1aLO [O] biol-geogr-ang (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1bLO [O] hist-ang-pol (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "Brak progów 2026 i 2025: dla powiatu wejherowskiego nie znaleziono serwisu statystyk VULCAN (sprawdzone m.in. wejherowo-stat, powiat-wejherowski-stat, powiatwejherowski-stat, wejherowski-stat, rumia-stat, reda-stat, pomorze-stat, nabor-pomorze-stat; istnieją tylko gdansk/gdynia/sopot/chojnice/starogard-stat), a strony szkoły i powiatu (powiatwejherowski.pl) nie publikują progów"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=559",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2764",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2794",
+   "https://wejherowo-elektryk.pl",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/index.xhtml",
+   "https://wejherowo-stat.edu.com.pl/api/turtle/school-offers?page=0&size=1",
+   "https://www.powiatwejherowski.pl/oferta-edukacyjna-na-rok-szkolny-2026-2027",
+   "https://www.powiatwejherowski.pl/rekrutacja-na-rok-szkolny-2026-2027",
+   "https://pzs3.info/wp-content/uploads/2026/03/Edu_Nawigator-wer10strony.pdf"
+  ],
+  "shortName": "III LO Wejherowo"
+ },
+ {
+  "rspo": 13908,
+  "profiles": [
+   {
+    "name": "1LOa klasa sportowa z edukacją pożarniczą",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 31,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2869"
+   },
+   {
+    "name": "1LOb klasa nowoczesne technologie",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2974"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Brak progów 2026 i 2025: dla powiatu wejherowskiego nie znaleziono serwisu statystyk VULCAN (sprawdzone m.in. wejherowo-stat, powiat-wejherowski-stat, powiatwejherowski-stat, wejherowski-stat, rumia-stat, reda-stat, pomorze-stat, nabor-pomorze-stat; istnieją tylko gdansk/gdynia/sopot/chojnice/starogard-stat), a strony szkoły i powiatu (powiatwejherowski.pl) nie publikują progów"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=584",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2869",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2974",
+   "https://pzs3.info/rekrutacja-26-27/",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/index.xhtml",
+   "https://wejherowo-stat.edu.com.pl/api/turtle/school-offers?page=0&size=1",
+   "https://www.powiatwejherowski.pl/oferta-edukacyjna-na-rok-szkolny-2026-2027",
+   "https://www.powiatwejherowski.pl/rekrutacja-na-rok-szkolny-2026-2027",
+   "https://pzs3.info/wp-content/uploads/2026/03/Edu_Nawigator-wer10strony.pdf"
+  ],
+  "shortName": "IV LO Wejherowo"
+ },
+ {
+  "rspo": 478661,
+  "profiles": [],
+  "admission": null,
+  "noOffer2026": true,
+  "doubts": [
+   "Szkoły nie ma w systemie Nabór Pomorze. Strona szkoły: komunikat dyrektora z 12.06.2025, że klasa I LMS w roku 2025/2026 nie zostanie utworzona (decyzja Wójta Gminy Gniewino nr 4424.1.2025.MP); brak informacji o naborze 2026/2027"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://www.szkolawgniewinie.com.pl/index.php?opcja=placowki&szkola=4",
+   "https://www.szkolawgniewinie.com.pl/index.php?opcja=Szkola-Mistrzostwa-Sportowego",
+   "https://www.szkolawgniewinie.com.pl/index.php?opcja=download&kat=Rekrutacja",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/index.xhtml",
+   "https://wejherowo-stat.edu.com.pl/api/turtle/school-offers?page=0&size=1",
+   "https://www.powiatwejherowski.pl/oferta-edukacyjna-na-rok-szkolny-2026-2027",
+   "https://www.powiatwejherowski.pl/rekrutacja-na-rok-szkolny-2026-2027",
+   "https://pzs3.info/wp-content/uploads/2026/03/Edu_Nawigator-wer10strony.pdf"
+  ],
+  "shortName": "LMS Gniewino"
+ },
+ {
+  "rspo": 30203,
+  "profiles": [
+   {
+    "name": "1W [PW] geogr-mat (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "fiz"
+    ],
+    "places": 30,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2734",
+    "specialType": "przygotowania wojskowego"
+   },
+   {
+    "name": "1A [O] inf-ang (ang-ros)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "fiz"
+    ],
+    "places": 30,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4203"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "W ofercie systemu naboru z liczbą miejsc 0 (prawdopodobnie oddział nieuruchomiony, pominięty w profiles): 1P [O] chem-geogr (ang-ros)",
+   "Brak progów 2026 i 2025: dla powiatu wejherowskiego nie znaleziono serwisu statystyk VULCAN (sprawdzone m.in. wejherowo-stat, powiat-wejherowski-stat, powiatwejherowski-stat, wejherowski-stat, rumia-stat, reda-stat, pomorze-stat, nabor-pomorze-stat; istnieją tylko gdansk/gdynia/sopot/chojnice/starogard-stat), a strony szkoły i powiatu (powiatwejherowski.pl) nie publikują progów"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=534",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2709",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2734",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4203",
+   "https://pzsreda.edu.pl/rekrutacja/rekrutacja/",
+   "https://pzsreda.edu.pl/rekrutacja/informacje-ogolne/",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/index.xhtml",
+   "https://wejherowo-stat.edu.com.pl/api/turtle/school-offers?page=0&size=1",
+   "https://www.powiatwejherowski.pl/oferta-edukacyjna-na-rok-szkolny-2026-2027",
+   "https://www.powiatwejherowski.pl/rekrutacja-na-rok-szkolny-2026-2027",
+   "https://pzs3.info/wp-content/uploads/2026/03/Edu_Nawigator-wer10strony.pdf"
+  ],
+  "shortName": "LO w Redzie"
+ },
+ {
+  "rspo": 485790,
+  "profiles": [],
+  "admission": null,
+  "noOffer2026": true,
+  "doubts": [
+   "Szkoły nie ma w systemie Nabór Pomorze. Strona (Wix) ma wpis 'Rekrutacja na rok szkolny 2026/2027 rozpoczęta!', ale bez listy klas, profili i zasad przyjęcia (treść 'Oferta i opłaty' nie wczytała się)"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://www.dejacsb.com/rekrutacjadejacsb",
+   "https://www.dejacsb.com/single-post/rekrutacja-na-rok-szkolny-2026-2027-rozpoczęta",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/index.xhtml",
+   "https://wejherowo-stat.edu.com.pl/api/turtle/school-offers?page=0&size=1",
+   "https://www.powiatwejherowski.pl/oferta-edukacyjna-na-rok-szkolny-2026-2027",
+   "https://www.powiatwejherowski.pl/rekrutacja-na-rok-szkolny-2026-2027",
+   "https://pzs3.info/wp-content/uploads/2026/03/Edu_Nawigator-wer10strony.pdf"
+  ],
+  "shortName": "Prywatne LO DEJA CSB"
+ },
+ {
+  "rspo": 55531,
+  "profiles": [
+   {
+    "name": "1d-ekonom-biznesowy [O] ang-mat (ang-niem,hisz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [
+     [
+      "geo"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4408"
+   },
+   {
+    "name": "1c-politechniczny [O] ang-mat (ang-hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [
+     [
+      "fiz",
+      "inf"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4413"
+   },
+   {
+    "name": "1b-psychologiczny [O] biol-ang (ang-hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "pol"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4433"
+   },
+   {
+    "name": "1b-medyczny [O] biol-ang (ang-hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "chem",
+      "mat"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4438"
+   },
+   {
+    "name": "1a-społeczno-prawny [O] ang (ang-hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [
+     [
+      "hist",
+      "pol",
+      "wos"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat"
+    ],
+    "places": 24,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4443"
+   },
+   {
+    "name": "1a-lingwistyczny [O] ang-pol (ang-hisz,niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [
+     [
+      "hisz",
+      "niem"
+     ]
+    ],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang"
+    ],
+    "places": 12,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4448"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1d-ekonom-biznesowy [O] ang-mat (ang-niem,hisz): system naboru podaje 'Przedmioty rozszerzone do wyboru: geografia' bez liczby przedmiotów do wybrania; wpisane jako jedna grupa extendedChoice",
+   "1d-ekonom-biznesowy [O] ang-mat (ang-niem,hisz): system naboru: 'Minimalna liczba punktów: obowiązuje' (wartość nie podana)",
+   "1c-politechniczny [O] ang-mat (ang-hisz,niem): system naboru podaje 'Przedmioty rozszerzone do wyboru: fizyka, informatyka' bez liczby przedmiotów do wybrania; wpisane jako jedna grupa extendedChoice",
+   "1c-politechniczny [O] ang-mat (ang-hisz,niem): punktowane także I_najl(fiz,inf,ang), II_najl(fiz,inf,ang) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1c-politechniczny [O] ang-mat (ang-hisz,niem): system naboru: 'Minimalna liczba punktów: obowiązuje' (wartość nie podana)",
+   "1b-psychologiczny [O] biol-ang (ang-hisz,niem): system naboru podaje 'Przedmioty rozszerzone do wyboru: język polski' bez liczby przedmiotów do wybrania; wpisane jako jedna grupa extendedChoice",
+   "1b-psychologiczny [O] biol-ang (ang-hisz,niem): system naboru: 'Minimalna liczba punktów: obowiązuje' (wartość nie podana)",
+   "1b-medyczny [O] biol-ang (ang-hisz,niem): system naboru podaje 'Przedmioty rozszerzone do wyboru: chemia, matematyka' bez liczby przedmiotów do wybrania; wpisane jako jedna grupa extendedChoice",
+   "1b-medyczny [O] biol-ang (ang-hisz,niem): punktowane także I_najl(biol,chem,ang), II_najl(biol,chem,ang) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1b-medyczny [O] biol-ang (ang-hisz,niem): system naboru: 'Minimalna liczba punktów: obowiązuje' (wartość nie podana)",
+   "1a-społeczno-prawny [O] ang (ang-hisz,niem): system naboru podaje 'Przedmioty rozszerzone do wyboru: historia, język polski, wiedza o społeczeństwie' bez liczby przedmiotów do wybrania; wpisane jako jedna grupa extendedChoice",
+   "1a-społeczno-prawny [O] ang (ang-hisz,niem): punktowane także I_najl(hist,ang,wos), II_najl(hist,ang,wos) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1a-społeczno-prawny [O] ang (ang-hisz,niem): system naboru: 'Minimalna liczba punktów: obowiązuje' (wartość nie podana)",
+   "1a-lingwistyczny [O] ang-pol (ang-hisz,niem): system naboru podaje 'Przedmioty rozszerzone do wyboru: język hiszpański, język niemiecki' bez liczby przedmiotów do wybrania; wpisane jako jedna grupa extendedChoice",
+   "1a-lingwistyczny [O] ang-pol (ang-hisz,niem): punktowane także max(hiszp,niem) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1a-lingwistyczny [O] ang-pol (ang-hisz,niem): system naboru: 'Minimalna liczba punktów: obowiązuje' (wartość nie podana)",
+   "Brak progów 2026 i 2025: dla powiatu wejherowskiego nie znaleziono serwisu statystyk VULCAN (sprawdzone m.in. wejherowo-stat, powiat-wejherowski-stat, powiatwejherowski-stat, wejherowski-stat, rumia-stat, reda-stat, pomorze-stat, nabor-pomorze-stat; istnieją tylko gdansk/gdynia/sopot/chojnice/starogard-stat), a strony szkoły i powiatu (powiatwejherowski.pl) nie publikują progów"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=643",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4408",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4413",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4433",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4438",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4443",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4448",
+   "https://www.liceum.salezjanskie.pl/rekrutacja.html",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/index.xhtml",
+   "https://wejherowo-stat.edu.com.pl/api/turtle/school-offers?page=0&size=1",
+   "https://www.powiatwejherowski.pl/oferta-edukacyjna-na-rok-szkolny-2026-2027",
+   "https://www.powiatwejherowski.pl/rekrutacja-na-rok-szkolny-2026-2027",
+   "https://pzs3.info/wp-content/uploads/2026/03/Edu_Nawigator-wer10strony.pdf"
+  ],
+  "shortName": "Salezjańskie LO Rumia"
+ },
+ {
+  "rspo": 17862,
+  "profiles": [
+   {
+    "name": "1e komunikacja międzynarodowa",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2689"
+   },
+   {
+    "name": "1c kreatywność cyfrowa",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 12,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2719"
+   },
+   {
+    "name": "1m nauki medyczne i odnowa biologiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2774"
+   },
+   {
+    "name": "1t profil politechniczny",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 19,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2804"
+   },
+   {
+    "name": "1p profil prawniczy",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "pol",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "ros",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "hist"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2819"
+   },
+   {
+    "name": "1s sport i turystyka",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 31,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2844",
+    "specialType": "sportowy"
+   },
+   {
+    "name": "1z zdrowie publiczne",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 59,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2854"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1e komunikacja międzynarodowa: punktowane także max(fran,hiszp,niem,ros,wło) (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1s sport i turystyka: system naboru podaje maksymalną liczbę punktów 1 (prawdopodobnie błąd wpisu)",
+   "1s sport i turystyka: system naboru: 'Minimalna liczba punktów: obowiązuje' (wartość nie podana)",
+   "Brak progów 2026 i 2025: dla powiatu wejherowskiego nie znaleziono serwisu statystyk VULCAN (sprawdzone m.in. wejherowo-stat, powiat-wejherowski-stat, powiatwejherowski-stat, wejherowski-stat, rumia-stat, reda-stat, pomorze-stat, nabor-pomorze-stat; istnieją tylko gdansk/gdynia/sopot/chojnice/starogard-stat), a strony szkoły i powiatu (powiatwejherowski.pl) nie publikują progów"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=599",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2689",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2719",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2774",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2804",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2819",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2844",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2854",
+   "https://www.pzs4-samochodowka.pl/wszystko-o-rekrutacji/",
+   "https://www.pzs4-samochodowka.pl/rekrutacja-najczesciej-zadawane-pytania/",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/index.xhtml",
+   "https://wejherowo-stat.edu.com.pl/api/turtle/school-offers?page=0&size=1",
+   "https://www.powiatwejherowski.pl/oferta-edukacyjna-na-rok-szkolny-2026-2027",
+   "https://www.powiatwejherowski.pl/rekrutacja-na-rok-szkolny-2026-2027",
+   "https://pzs3.info/wp-content/uploads/2026/03/Edu_Nawigator-wer10strony.pdf"
+  ],
+  "shortName": "V LO Wejherowo"
+ },
+ {
+  "rspo": 196409,
+  "profiles": [],
+  "admission": "Szkoła specjalna w Ośrodku Szkolno-Wychowawczym nr 2 (organ: Marszałek Województwa Pomorskiego), poza elektronicznym naborem: podanie do dyrektora, orzeczenie o potrzebie kształcenia specjalnego, pozytywna ocena funkcjonalna zespołu ds. naboru, skierowanie z organu prowadzącego. O przyjęciu nie decyduje kolejność podań.",
+  "noOffer2026": true,
+  "doubts": [
+   "Szkoły nie ma w systemie Nabór Pomorze; strona ośrodka nie podaje listy oddziałów/zawodów na 2026/2027 ani liczby miejsc"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://www.osw2wejherowo.pl/edukacja/nabor",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/index.xhtml",
+   "https://wejherowo-stat.edu.com.pl/api/turtle/school-offers?page=0&size=1",
+   "https://www.powiatwejherowski.pl/oferta-edukacyjna-na-rok-szkolny-2026-2027",
+   "https://www.powiatwejherowski.pl/rekrutacja-na-rok-szkolny-2026-2027",
+   "https://pzs3.info/wp-content/uploads/2026/03/Edu_Nawigator-wer10strony.pdf"
+  ],
+  "shortName": "VI LO Specjalne (OSW nr 2)"
+ },
+ {
+  "rspo": 29390,
+  "profiles": [
+   {
+    "name": "1aT_arch [O] Technik architektury krajobrazu i arborystyki (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik architektury krajobrazu i arborystyki",
+    "qualifications": [
+     "OGR.10",
+     "OGR.13"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000404",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 16,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2744"
+   },
+   {
+    "name": "1bT_port [PW] Technik eksploatacji portów i terminali (ang-ros)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik eksploatacji portów i terminali",
+    "qualifications": [
+     "SPL.02",
+     "SPL.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 30,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2759",
+    "specialType": "przygotowania wojskowego"
+   },
+   {
+    "name": "1cT_grafika [O] Technik grafiki i poligrafii cyfrowej (ang-hisz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik grafiki i poligrafii cyfrowej",
+    "qualifications": [
+     "PGF.04",
+     "PGF.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "chem"
+    ],
+    "places": 16,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2824"
+   },
+   {
+    "name": "1dT_fot [O] Technik fotografii i multimediów",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik fotografii i multimediów",
+    "qualifications": [
+     "AUD.02",
+     "AUD.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "chem"
+    ],
+    "places": 16,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2829"
+   },
+   {
+    "name": "1aT_geo [O] Technik geodeta (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik geodeta",
+    "qualifications": [
+     "BUD.18",
+     "BUD.19"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 16,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2849"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "W ofercie systemu naboru z liczbą miejsc 0 (prawdopodobnie oddział nieuruchomiony, pominięty w profiles): 1ct_nagr [O] Technik realizacji nagrań (ang-niem)",
+   "1dT_fot [O] Technik fotografii i multimediów: nazwa oddziału i opis mówią o zawodzie technik fotografii i multimediów, ale pole 'Kształcenie zawodowe' w systemie naboru podaje 'Technik grafiki i poligrafii cyfrowej'; wpisano zawód z nazwy oddziału",
+   "Brak progów 2026 i 2025: dla powiatu wejherowskiego nie znaleziono serwisu statystyk VULCAN (sprawdzone m.in. wejherowo-stat, powiat-wejherowski-stat, powiatwejherowski-stat, wejherowski-stat, rumia-stat, reda-stat, pomorze-stat, nabor-pomorze-stat; istnieją tylko gdansk/gdynia/sopot/chojnice/starogard-stat), a strony szkoły i powiatu (powiatwejherowski.pl) nie publikują progów"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=539",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2744",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2759",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2824",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2829",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2849",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2859",
+   "https://pzsreda.edu.pl/rekrutacja/rekrutacja/",
+   "https://pzsreda.edu.pl/rekrutacja/informacje-ogolne/",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/index.xhtml",
+   "https://wejherowo-stat.edu.com.pl/api/turtle/school-offers?page=0&size=1",
+   "https://www.powiatwejherowski.pl/oferta-edukacyjna-na-rok-szkolny-2026-2027",
+   "https://www.powiatwejherowski.pl/rekrutacja-na-rok-szkolny-2026-2027",
+   "https://pzs3.info/wp-content/uploads/2026/03/Edu_Nawigator-wer10strony.pdf"
+  ],
+  "shortName": "Technikum w Redzie"
+ },
+ {
+  "rspo": 12739,
+  "profiles": [
+   {
+    "name": "1a+bT [O] Technik elektryk (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik elektryk",
+    "qualifications": [
+     "ELE.02",
+     "ELE.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 64,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2679"
+   },
+   {
+    "name": "1dt [O] Technik automatyk (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik automatyk",
+    "qualifications": [
+     "ELM.01",
+     "ELM.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3354"
+   },
+   {
+    "name": "1ct [O] Technik elektronik (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik elektronik",
+    "qualifications": [
+     "ELM.02",
+     "ELM.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3359"
+   },
+   {
+    "name": "1eT [O] Technik informatyk (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik informatyk",
+    "qualifications": [
+     "INF.02",
+     "INF.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf"
+    ],
+    "places": 48,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3364"
+   },
+   {
+    "name": "1fT [O] Technik teleinformatyk (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik teleinformatyk",
+    "qualifications": [
+     "INF.07",
+     "INF.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf"
+    ],
+    "places": 16,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3374"
+   },
+   {
+    "name": "1gt [O] Technik programista (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik programista",
+    "qualifications": [
+     "INF.03",
+     "INF.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz"
+    ],
+    "places": 16,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3379"
+   },
+   {
+    "name": "1enT [O] Technik energetyk (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik energetyk",
+    "qualifications": [
+     "ELE.06",
+     "ELE.07"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf"
+    ],
+    "places": 16,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3384"
+   },
+   {
+    "name": "1oT [O] Technik urządzeń i systemów energetyki odnawialnej (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik urządzeń i systemów energetyki odnawialnej",
+    "qualifications": [
+     "ELE.10",
+     "ELE.11"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf"
+    ],
+    "places": 16,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3389"
+   },
+   {
+    "name": "1dzT [O] Technik urządzeń dźwigowych (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik urządzeń dźwigowych",
+    "qualifications": [
+     "ELE.08",
+     "ELE.09"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf"
+    ],
+    "places": 16,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4318"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "1dt [O] Technik automatyk (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1ct [O] Technik elektronik (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1eT [O] Technik informatyk (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1fT [O] Technik teleinformatyk (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1gt [O] Technik programista (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1enT [O] Technik energetyk (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1oT [O] Technik urządzeń i systemów energetyki odnawialnej (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "1dzT [O] Technik urządzeń dźwigowych (ang-niem): punktowane także język obcy nowożytny - najwyższa ocena (reguła wyboru oceny, nie wpisana do scoredSubjects)",
+   "Brak progów 2026 i 2025: dla powiatu wejherowskiego nie znaleziono serwisu statystyk VULCAN (sprawdzone m.in. wejherowo-stat, powiat-wejherowski-stat, powiatwejherowski-stat, wejherowski-stat, rumia-stat, reda-stat, pomorze-stat, nabor-pomorze-stat; istnieją tylko gdansk/gdynia/sopot/chojnice/starogard-stat), a strony szkoły i powiatu (powiatwejherowski.pl) nie publikują progów"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=564",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2679",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3354",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3359",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3364",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3374",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3379",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3384",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3389",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=4318",
+   "https://wejherowo-elektryk.pl",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/index.xhtml",
+   "https://wejherowo-stat.edu.com.pl/api/turtle/school-offers?page=0&size=1",
+   "https://www.powiatwejherowski.pl/oferta-edukacyjna-na-rok-szkolny-2026-2027",
+   "https://www.powiatwejherowski.pl/rekrutacja-na-rok-szkolny-2026-2027",
+   "https://pzs3.info/wp-content/uploads/2026/03/Edu_Nawigator-wer10strony.pdf"
+  ],
+  "shortName": "Technikum nr 1 Wejherowo"
+ },
+ {
+  "rspo": 30200,
+  "profiles": [
+   {
+    "name": "1G [O] Technik żywienia i usług gastronomicznych (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik żywienia i usług gastronomicznych",
+    "qualifications": [
+     "HGT.02",
+     "HGT.12"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 29,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2699"
+   },
+   {
+    "name": "1L [O] Technik logistyk (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik logistyk",
+    "qualifications": [
+     "SPL.01",
+     "SPL.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2714"
+   },
+   {
+    "name": "1H [O] Technik hotelarstwa (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik hotelarstwa",
+    "qualifications": [
+     "HGT.03",
+     "HGT.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 45,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2789"
+   },
+   {
+    "name": "1O [O] Technik organizacji turystyki (ang-hisz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik organizacji turystyki",
+    "qualifications": [
+     "HGT.07",
+     "HGT.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 47,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2809"
+   },
+   {
+    "name": "1S [O] Technik spedytor (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik spedytor",
+    "qualifications": [
+     "SPL.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 14,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2889"
+   },
+   {
+    "name": "1P [O] Technik programista (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik programista",
+    "qualifications": [
+     "INF.03",
+     "INF.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 16,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2899"
+   },
+   {
+    "name": "1I [O] Technik informatyk (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik informatyk",
+    "qualifications": [
+     "INF.02",
+     "INF.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 15,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2924"
+   },
+   {
+    "name": "1E [O] Technik ekonomista (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik ekonomista",
+    "qualifications": [
+     "EKA.04",
+     "EKA.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 16,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2934"
+   },
+   {
+    "name": "1R [O] Technik rachunkowości (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik rachunkowości",
+    "qualifications": [
+     "EKA.05",
+     "EKA.07"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 16,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2939"
+   },
+   {
+    "name": "1N [O] Technik gospodarki nieruchomościami (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik gospodarki nieruchomościami",
+    "qualifications": [
+     "EKA.09"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20250000771",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "inf"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2979"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "W ofercie systemu naboru z liczbą miejsc 0 (prawdopodobnie oddział nieuruchomiony, pominięty w profiles): 1K [O] Technik usług kelnerskich (ang-niem)",
+   "Brak progów 2026 i 2025: dla powiatu wejherowskiego nie znaleziono serwisu statystyk VULCAN (sprawdzone m.in. wejherowo-stat, powiat-wejherowski-stat, powiatwejherowski-stat, wejherowski-stat, rumia-stat, reda-stat, pomorze-stat, nabor-pomorze-stat; istnieją tylko gdansk/gdynia/sopot/chojnice/starogard-stat), a strony szkoły i powiatu (powiatwejherowski.pl) nie publikują progów"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=589",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2699",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2714",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2789",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2809",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2889",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2899",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2924",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2934",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2939",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2979",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2984",
+   "https://pzs3.info/rekrutacja-26-27/",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/index.xhtml",
+   "https://wejherowo-stat.edu.com.pl/api/turtle/school-offers?page=0&size=1",
+   "https://www.powiatwejherowski.pl/oferta-edukacyjna-na-rok-szkolny-2026-2027",
+   "https://www.powiatwejherowski.pl/rekrutacja-na-rok-szkolny-2026-2027",
+   "https://pzs3.info/wp-content/uploads/2026/03/Edu_Nawigator-wer10strony.pdf"
+  ],
+  "shortName": "Technikum nr 2 Wejherowo"
+ },
+ {
+  "rspo": 18253,
+  "profiles": [
+   {
+    "name": "1tps technik pojazdów samochodowych",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik pojazdów samochodowych",
+    "qualifications": [
+     "MOT.02 albo MOT.05",
+     "MOT.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "fiz"
+    ],
+    "places": 59,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2874"
+   },
+   {
+    "name": "1tm technik mechanik",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik mechanik",
+    "qualifications": [
+     "MEC.03 albo MEC.08 albo MEC.11",
+     "MEC.09"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20250000230",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "fiz"
+    ],
+    "places": 26,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2884"
+   },
+   {
+    "name": "1tchik technik chłodnictwa i klimatyzacji",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik chłodnictwa i klimatyzacji",
+    "qualifications": [
+     "ELE.03",
+     "ELE.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "fiz"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2894"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Brak progów 2026 i 2025: dla powiatu wejherowskiego nie znaleziono serwisu statystyk VULCAN (sprawdzone m.in. wejherowo-stat, powiat-wejherowski-stat, powiatwejherowski-stat, wejherowski-stat, rumia-stat, reda-stat, pomorze-stat, nabor-pomorze-stat; istnieją tylko gdansk/gdynia/sopot/chojnice/starogard-stat), a strony szkoły i powiatu (powiatwejherowski.pl) nie publikują progów"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=604",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2874",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2884",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2894",
+   "https://www.pzs4-samochodowka.pl/wszystko-o-rekrutacji/",
+   "https://www.pzs4-samochodowka.pl/rekrutacja-najczesciej-zadawane-pytania/",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/index.xhtml",
+   "https://wejherowo-stat.edu.com.pl/api/turtle/school-offers?page=0&size=1",
+   "https://www.powiatwejherowski.pl/oferta-edukacyjna-na-rok-szkolny-2026-2027",
+   "https://www.powiatwejherowski.pl/rekrutacja-na-rok-szkolny-2026-2027",
+   "https://pzs3.info/wp-content/uploads/2026/03/Edu_Nawigator-wer10strony.pdf"
+  ],
+  "shortName": "Technikum nr 3 Wejherowo"
+ },
+ {
+  "rspo": 12103,
+  "profiles": [],
+  "admission": "Szkoła specjalna w Ośrodku Szkolno-Wychowawczym nr 2 (organ: Marszałek Województwa Pomorskiego), poza elektronicznym naborem: podanie do dyrektora, orzeczenie o potrzebie kształcenia specjalnego, pozytywna ocena funkcjonalna zespołu ds. naboru, skierowanie z organu prowadzącego. O przyjęciu nie decyduje kolejność podań.",
+  "noOffer2026": true,
+  "doubts": [
+   "Szkoły nie ma w systemie Nabór Pomorze; strona ośrodka nie podaje listy oddziałów/zawodów na 2026/2027 ani liczby miejsc"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml",
+   "https://www.osw2wejherowo.pl/edukacja/nabor",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/index.xhtml",
+   "https://wejherowo-stat.edu.com.pl/api/turtle/school-offers?page=0&size=1",
+   "https://www.powiatwejherowski.pl/oferta-edukacyjna-na-rok-szkolny-2026-2027",
+   "https://www.powiatwejherowski.pl/rekrutacja-na-rok-szkolny-2026-2027",
+   "https://pzs3.info/wp-content/uploads/2026/03/Edu_Nawigator-wer10strony.pdf"
+  ],
+  "shortName": "Technikum Specjalne nr 4 (OSW nr 2)"
+ },
+ {
+  "rspo": 55521,
+  "profiles": [
+   {
+    "name": "1D [O] Technik usług fryzjerskich (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [
+     "biznes i zarządzanie"
+    ],
+    "profession": "technik usług fryzjerskich",
+    "qualifications": [
+     "FRK.01",
+     "FRK.03"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2914"
+   },
+   {
+    "name": "1A [O] Technik żywienia i usług gastronomicznych (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [
+     "biznes i zarządzanie"
+    ],
+    "profession": "technik żywienia i usług gastronomicznych",
+    "qualifications": [
+     "HGT.02",
+     "HGT.12"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3194"
+   },
+   {
+    "name": "1B [O] Technik logistyk (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik logistyk",
+    "qualifications": [
+     "SPL.01",
+     "SPL.04"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 16,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3199"
+   },
+   {
+    "name": "1E [O] Technik spedytor (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik spedytor",
+    "qualifications": [
+     "SPL.05"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 16,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3204"
+   },
+   {
+    "name": "1C [O] Technik organizacji turystyki (ang-hisz)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik organizacji turystyki",
+    "qualifications": [
+     "HGT.07",
+     "HGT.08"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3209"
+   },
+   {
+    "name": "1F [O] Technik hotelarstwa (ang-niem)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": "technik hotelarstwa",
+    "qualifications": [
+     "HGT.03",
+     "HGT.06"
+    ],
+    "qualificationsSource": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611",
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": 32,
+    "thresholds": [],
+    "sourceUrl": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3214"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Brak progów 2026 i 2025: dla powiatu wejherowskiego nie znaleziono serwisu statystyk VULCAN (sprawdzone m.in. wejherowo-stat, powiat-wejherowski-stat, powiatwejherowski-stat, wejherowski-stat, rumia-stat, reda-stat, pomorze-stat, nabor-pomorze-stat; istnieją tylko gdansk/gdynia/sopot/chojnice/starogard-stat), a strony szkoły i powiatu (powiatwejherowski.pl) nie publikują progów"
+  ],
+  "checkedUrls": [
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_school_details.xhtml?schoolId=574",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2914",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3194",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3199",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3204",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3209",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=3214",
+   "https://www.hipolit.info/rekrutacja.html",
+   "https://nabor-pomorze.edu.com.pl/kandydat/app/index.xhtml",
+   "https://wejherowo-stat.edu.com.pl/api/turtle/school-offers?page=0&size=1",
+   "https://www.powiatwejherowski.pl/oferta-edukacyjna-na-rok-szkolny-2026-2027",
+   "https://www.powiatwejherowski.pl/rekrutacja-na-rok-szkolny-2026-2027",
+   "https://pzs3.info/wp-content/uploads/2026/03/Edu_Nawigator-wer10strony.pdf"
+  ],
+  "shortName": "Technikum w Rumi"
+ }
+]
