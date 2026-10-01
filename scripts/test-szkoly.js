@@ -150,6 +150,25 @@ server.listen(0, async () => {
   check('liczba spoza zakresu daje komunikat', await page.isVisible('#err_osi'));
   await page.evaluate(() => sessionStorage.clear());
 
+  console.log('\n=== Quiz i wyszukiwanie po zainteresowaniach ===');
+  await page.goto(base + '/quiz');
+  await page.evaluate(() => sessionStorage.clear());
+  await page.reload();
+  await page.waitForSelector('#quizForm');
+  await page.check('input[name=interests][value=zwierzeta]');
+  await page.waitForSelector('.quiz__result');
+  const quizTop = await page.$$eval('.quiz__result .result-card__name', x => x.map(e => e.textContent));
+  check('quiz: zwierzęta podpowiadają weterynarza', quizTop.includes('Weterynarz'), quizTop.join(', '));
+  for (const v of ['ludzie', 'dzieci', 'sztuka', 'komputery', 'liczby']) await page.check(`input[name=interests][value=${v}]`);
+  check('quiz: najwyżej 5 zainteresowań', (await page.$$('input[name=interests]:checked')).length === 5 && await page.isVisible('#quizMax'));
+  await page.goto(base + '/wyniki?q=' + encodeURIComponent('coś z ludźmi'));
+  await page.waitForSelector('.result-card__name');
+  check('wyszukiwanie „coś z ludźmi” daje zawody', (await page.$$('.result-card')).length >= 3);
+  await page.goto(base + '/wyniki?q=' + encodeURIComponent('praca z dziećmi'));
+  await page.waitForSelector('.result-card__name');
+  check('wyszukiwanie „praca z dziećmi” zaczyna się od nauczyciela', /Nauczyciel/.test(await page.textContent('.result-card__name')));
+  await page.evaluate(() => sessionStorage.clear());
+
   console.log('\n=== Telefon ===');
   const mobile = await browser.newPage({ viewport: { width: 390, height: 800 } });
   for (const u of ['/', '/zawod/lekarz', '/szkoly', '/szkola/7051']) {

@@ -1,0 +1,1373 @@
+{
+ "psycholog": {
+  "interests": [
+   "ludzie",
+   "zdrowie",
+   "nauka"
+  ],
+  "contact": "duzy",
+  "physical": "maly",
+  "places": [
+   "biuro",
+   "szpital",
+   "szkola"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "bio",
+   "pol",
+   "wos"
+  ]
+ },
+ "programista": {
+  "interests": [
+   "komputery",
+   "liczby"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro",
+   "dom"
+  ],
+  "path": "studia",
+  "subjects": [
+   "inf",
+   "mat",
+   "ang"
+  ]
+ },
+ "lekarz": {
+  "interests": [
+   "zdrowie",
+   "ludzie",
+   "nauka"
+  ],
+  "contact": "duzy",
+  "physical": "sredni",
+  "places": [
+   "szpital"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "bio",
+   "chem",
+   "fiz"
+  ]
+ },
+ "architekt": {
+  "interests": [
+   "sztuka",
+   "budowanie",
+   "liczby"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro",
+   "teren"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "mat",
+   "plastyka",
+   "fiz"
+  ]
+ },
+ "nauczyciel": {
+  "interests": [
+   "dzieci",
+   "ludzie"
+  ],
+  "contact": "duzy",
+  "physical": "sredni",
+  "places": [
+   "szkola"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "pol"
+  ]
+ },
+ "grafik": {
+  "interests": [
+   "sztuka",
+   "komputery"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro",
+   "dom"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "plastyka",
+   "inf"
+  ]
+ },
+ "prawnik": {
+  "interests": [
+   "prawo",
+   "ludzie",
+   "pisanie"
+  ],
+  "contact": "duzy",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "pol",
+   "wos",
+   "hist"
+  ]
+ },
+ "analityk-danych": {
+  "interests": [
+   "liczby",
+   "komputery",
+   "biznes"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "studia",
+  "subjects": [
+   "mat",
+   "inf",
+   "ang"
+  ]
+ },
+ "pielegniarka": {
+  "interests": [
+   "zdrowie",
+   "ludzie"
+  ],
+  "contact": "duzy",
+  "physical": "duzy",
+  "places": [
+   "szpital"
+  ],
+  "path": "studia",
+  "subjects": [
+   "bio",
+   "chem"
+  ]
+ },
+ "farmaceuta": {
+  "interests": [
+   "zdrowie",
+   "nauka",
+   "ludzie"
+  ],
+  "contact": "duzy",
+  "physical": "maly",
+  "places": [
+   "sklep",
+   "szpital"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "chem",
+   "bio"
+  ]
+ },
+ "fizjoterapeuta": {
+  "interests": [
+   "zdrowie",
+   "sport",
+   "ludzie"
+  ],
+  "contact": "duzy",
+  "physical": "duzy",
+  "places": [
+   "szpital"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "bio",
+   "wf"
+  ]
+ },
+ "ksiegowy": {
+  "interests": [
+   "liczby",
+   "biznes",
+   "prawo"
+  ],
+  "contact": "maly",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "studia",
+  "subjects": [
+   "mat",
+   "wos"
+  ]
+ },
+ "kucharz": {
+  "interests": [
+   "jedzenie",
+   "budowanie"
+  ],
+  "contact": "sredni",
+  "physical": "duzy",
+  "places": [
+   "warsztat"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "technika",
+   "chem"
+  ]
+ },
+ "tester": {
+  "interests": [
+   "komputery",
+   "technika"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro",
+   "dom"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "inf",
+   "ang",
+   "mat"
+  ]
+ },
+ "dentysta": {
+  "interests": [
+   "zdrowie",
+   "ludzie"
+  ],
+  "contact": "duzy",
+  "physical": "sredni",
+  "places": [
+   "szpital"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "bio",
+   "chem"
+  ]
+ },
+ "fotograf": {
+  "interests": [
+   "sztuka",
+   "ludzie"
+  ],
+  "contact": "duzy",
+  "physical": "sredni",
+  "places": [
+   "teren",
+   "warsztat"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "plastyka",
+   "inf"
+  ]
+ },
+ "dziennikarz": {
+  "interests": [
+   "pisanie",
+   "ludzie"
+  ],
+  "contact": "duzy",
+  "physical": "sredni",
+  "places": [
+   "biuro",
+   "teren"
+  ],
+  "path": "studia",
+  "subjects": [
+   "pol",
+   "wos",
+   "hist"
+  ]
+ },
+ "ratownik-medyczny": {
+  "interests": [
+   "zdrowie",
+   "bezpieczenstwo",
+   "ludzie"
+  ],
+  "contact": "duzy",
+  "physical": "duzy",
+  "places": [
+   "teren",
+   "szpital"
+  ],
+  "path": "studia",
+  "subjects": [
+   "bio",
+   "chem",
+   "wf"
+  ]
+ },
+ "projektant-ux": {
+  "interests": [
+   "sztuka",
+   "komputery",
+   "ludzie"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro",
+   "dom"
+  ],
+  "path": "studia",
+  "subjects": [
+   "inf",
+   "plastyka",
+   "ang"
+  ]
+ },
+ "elektryk": {
+  "interests": [
+   "technika",
+   "budowanie"
+  ],
+  "contact": "sredni",
+  "physical": "duzy",
+  "places": [
+   "teren",
+   "warsztat"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "fiz",
+   "technika",
+   "mat"
+  ]
+ },
+ "policjant": {
+  "interests": [
+   "bezpieczenstwo",
+   "prawo",
+   "ludzie",
+   "sport"
+  ],
+  "contact": "duzy",
+  "physical": "duzy",
+  "places": [
+   "teren",
+   "biuro"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "wos",
+   "wf",
+   "pol"
+  ]
+ },
+ "strazak": {
+  "interests": [
+   "bezpieczenstwo",
+   "sport",
+   "technika"
+  ],
+  "contact": "sredni",
+  "physical": "duzy",
+  "places": [
+   "teren"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "wf",
+   "chem",
+   "fiz"
+  ]
+ },
+ "dietetyk": {
+  "interests": [
+   "zdrowie",
+   "jedzenie",
+   "ludzie",
+   "sport"
+  ],
+  "contact": "duzy",
+  "physical": "maly",
+  "places": [
+   "biuro",
+   "szpital"
+  ],
+  "path": "studia",
+  "subjects": [
+   "bio",
+   "chem"
+  ]
+ },
+ "tlumacz": {
+  "interests": [
+   "jezyki",
+   "pisanie"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro",
+   "dom"
+  ],
+  "path": "studia",
+  "subjects": [
+   "ang",
+   "pol"
+  ]
+ },
+ "weterynarz": {
+  "interests": [
+   "zwierzeta",
+   "zdrowie",
+   "nauka"
+  ],
+  "contact": "sredni",
+  "physical": "sredni",
+  "places": [
+   "szpital",
+   "teren"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "bio",
+   "chem"
+  ]
+ },
+ "specjalista-cyberbezpieczenstwa": {
+  "interests": [
+   "komputery",
+   "bezpieczenstwo"
+  ],
+  "contact": "maly",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "studia",
+  "subjects": [
+   "inf",
+   "mat",
+   "ang"
+  ]
+ },
+ "data-scientist": {
+  "interests": [
+   "liczby",
+   "komputery",
+   "nauka"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "studia",
+  "subjects": [
+   "mat",
+   "inf",
+   "ang"
+  ]
+ },
+ "devops-engineer": {
+  "interests": [
+   "komputery",
+   "technika"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro",
+   "dom"
+  ],
+  "path": "studia",
+  "subjects": [
+   "inf",
+   "ang",
+   "mat"
+  ]
+ },
+ "administrator-systemow": {
+  "interests": [
+   "komputery",
+   "technika"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "inf",
+   "ang"
+  ]
+ },
+ "technik-informatyk": {
+  "interests": [
+   "komputery",
+   "technika"
+  ],
+  "contact": "sredni",
+  "physical": "sredni",
+  "places": [
+   "warsztat",
+   "biuro"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "inf",
+   "fiz"
+  ]
+ },
+ "programista-gier": {
+  "interests": [
+   "komputery",
+   "sztuka",
+   "liczby"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro",
+   "dom"
+  ],
+  "path": "studia",
+  "subjects": [
+   "inf",
+   "mat",
+   "fiz"
+  ]
+ },
+ "ekonomista": {
+  "interests": [
+   "liczby",
+   "biznes",
+   "nauka"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "studia",
+  "subjects": [
+   "mat",
+   "wos",
+   "geo"
+  ]
+ },
+ "doradca-finansowy": {
+  "interests": [
+   "liczby",
+   "biznes",
+   "ludzie"
+  ],
+  "contact": "duzy",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "studia",
+  "subjects": [
+   "mat",
+   "wos"
+  ]
+ },
+ "specjalista-hr": {
+  "interests": [
+   "ludzie",
+   "biznes"
+  ],
+  "contact": "duzy",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "studia",
+  "subjects": [
+   "pol",
+   "wos"
+  ]
+ },
+ "specjalista-marketingu": {
+  "interests": [
+   "biznes",
+   "pisanie",
+   "sztuka"
+  ],
+  "contact": "duzy",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "studia",
+  "subjects": [
+   "pol",
+   "ang",
+   "inf"
+  ]
+ },
+ "specjalista-pr": {
+  "interests": [
+   "pisanie",
+   "ludzie",
+   "biznes"
+  ],
+  "contact": "duzy",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "studia",
+  "subjects": [
+   "pol",
+   "wos",
+   "ang"
+  ]
+ },
+ "doradca-podatkowy": {
+  "interests": [
+   "prawo",
+   "liczby",
+   "biznes"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "studia",
+  "subjects": [
+   "mat",
+   "wos"
+  ]
+ },
+ "biegly-rewident": {
+  "interests": [
+   "liczby",
+   "prawo",
+   "biznes"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "mat",
+   "wos"
+  ]
+ },
+ "psychoterapeuta": {
+  "interests": [
+   "ludzie",
+   "zdrowie"
+  ],
+  "contact": "duzy",
+  "physical": "maly",
+  "places": [
+   "biuro",
+   "szpital"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "bio",
+   "pol"
+  ]
+ },
+ "psychiatra": {
+  "interests": [
+   "zdrowie",
+   "ludzie",
+   "nauka"
+  ],
+  "contact": "duzy",
+  "physical": "maly",
+  "places": [
+   "szpital"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "bio",
+   "chem"
+  ]
+ },
+ "pediatra": {
+  "interests": [
+   "zdrowie",
+   "dzieci",
+   "ludzie"
+  ],
+  "contact": "duzy",
+  "physical": "sredni",
+  "places": [
+   "szpital"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "bio",
+   "chem"
+  ]
+ },
+ "chirurg": {
+  "interests": [
+   "zdrowie",
+   "nauka"
+  ],
+  "contact": "sredni",
+  "physical": "duzy",
+  "places": [
+   "szpital"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "bio",
+   "chem",
+   "fiz"
+  ]
+ },
+ "kardiolog": {
+  "interests": [
+   "zdrowie",
+   "nauka",
+   "ludzie"
+  ],
+  "contact": "duzy",
+  "physical": "sredni",
+  "places": [
+   "szpital"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "bio",
+   "chem",
+   "fiz"
+  ]
+ },
+ "sedzia": {
+  "interests": [
+   "prawo",
+   "pisanie"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "pol",
+   "wos",
+   "hist"
+  ]
+ },
+ "prokurator": {
+  "interests": [
+   "prawo",
+   "bezpieczenstwo"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "pol",
+   "wos"
+  ]
+ },
+ "notariusz": {
+  "interests": [
+   "prawo",
+   "pisanie"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "pol",
+   "wos"
+  ]
+ },
+ "komornik": {
+  "interests": [
+   "prawo",
+   "liczby"
+  ],
+  "contact": "sredni",
+  "physical": "sredni",
+  "places": [
+   "biuro",
+   "teren"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "wos",
+   "mat"
+  ]
+ },
+ "adwokat": {
+  "interests": [
+   "prawo",
+   "ludzie"
+  ],
+  "contact": "duzy",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "pol",
+   "wos",
+   "hist"
+  ]
+ },
+ "zolnierz-zawodowy": {
+  "interests": [
+   "bezpieczenstwo",
+   "sport",
+   "technika",
+   "podroze"
+  ],
+  "contact": "sredni",
+  "physical": "duzy",
+  "places": [
+   "teren"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "wf",
+   "geo",
+   "fiz"
+  ]
+ },
+ "pracownik-ochrony": {
+  "interests": [
+   "bezpieczenstwo",
+   "ludzie"
+  ],
+  "contact": "sredni",
+  "physical": "sredni",
+  "places": [
+   "teren",
+   "sklep"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "wf",
+   "wos"
+  ]
+ },
+ "funkcjonariusz-sg": {
+  "interests": [
+   "bezpieczenstwo",
+   "prawo",
+   "jezyki",
+   "podroze"
+  ],
+  "contact": "duzy",
+  "physical": "sredni",
+  "places": [
+   "teren"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "ang",
+   "wos",
+   "geo",
+   "wf"
+  ]
+ },
+ "aktor": {
+  "interests": [
+   "scena",
+   "pisanie"
+  ],
+  "contact": "duzy",
+  "physical": "sredni",
+  "places": [
+   "scena"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "pol",
+   "muzyka"
+  ]
+ },
+ "muzyk": {
+  "interests": [
+   "scena",
+   "sztuka"
+  ],
+  "contact": "sredni",
+  "physical": "sredni",
+  "places": [
+   "scena"
+  ],
+  "path": "studia",
+  "subjects": [
+   "muzyka"
+  ]
+ },
+ "rezyser-filmowy": {
+  "interests": [
+   "scena",
+   "sztuka",
+   "pisanie"
+  ],
+  "contact": "duzy",
+  "physical": "sredni",
+  "places": [
+   "scena",
+   "teren"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "pol",
+   "plastyka",
+   "hist"
+  ]
+ },
+ "architekt-wnetrz": {
+  "interests": [
+   "sztuka",
+   "budowanie"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro",
+   "teren"
+  ],
+  "path": "studia",
+  "subjects": [
+   "plastyka",
+   "mat"
+  ]
+ },
+ "projektant-mody": {
+  "interests": [
+   "wyglad",
+   "sztuka"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "warsztat"
+  ],
+  "path": "studia",
+  "subjects": [
+   "plastyka",
+   "technika"
+  ]
+ },
+ "pedagog": {
+  "interests": [
+   "dzieci",
+   "ludzie"
+  ],
+  "contact": "duzy",
+  "physical": "maly",
+  "places": [
+   "szkola"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "pol",
+   "wos"
+  ]
+ },
+ "logopeda": {
+  "interests": [
+   "dzieci",
+   "zdrowie",
+   "ludzie"
+  ],
+  "contact": "duzy",
+  "physical": "maly",
+  "places": [
+   "szkola",
+   "biuro"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "pol",
+   "bio"
+  ]
+ },
+ "nauczyciel-akademicki": {
+  "interests": [
+   "nauka",
+   "ludzie",
+   "pisanie"
+  ],
+  "contact": "duzy",
+  "physical": "maly",
+  "places": [
+   "szkola"
+  ],
+  "path": "dlugie",
+  "subjects": [
+   "mat",
+   "ang",
+   "pol"
+  ]
+ },
+ "fryzjer": {
+  "interests": [
+   "wyglad",
+   "ludzie"
+  ],
+  "contact": "duzy",
+  "physical": "sredni",
+  "places": [
+   "sklep"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "plastyka",
+   "chem"
+  ]
+ },
+ "kosmetyczka": {
+  "interests": [
+   "wyglad",
+   "zdrowie",
+   "ludzie"
+  ],
+  "contact": "duzy",
+  "physical": "sredni",
+  "places": [
+   "sklep"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "bio",
+   "chem"
+  ]
+ },
+ "cukiernik": {
+  "interests": [
+   "jedzenie",
+   "sztuka"
+  ],
+  "contact": "maly",
+  "physical": "duzy",
+  "places": [
+   "warsztat"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "technika",
+   "plastyka",
+   "chem"
+  ]
+ },
+ "piekarz": {
+  "interests": [
+   "jedzenie",
+   "budowanie"
+  ],
+  "contact": "maly",
+  "physical": "duzy",
+  "places": [
+   "warsztat"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "technika",
+   "chem"
+  ]
+ },
+ "barista": {
+  "interests": [
+   "jedzenie",
+   "ludzie"
+  ],
+  "contact": "duzy",
+  "physical": "sredni",
+  "places": [
+   "sklep"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "ang"
+  ]
+ },
+ "pilot-wycieczek": {
+  "interests": [
+   "podroze",
+   "ludzie",
+   "jezyki"
+  ],
+  "contact": "duzy",
+  "physical": "sredni",
+  "places": [
+   "teren"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "ang",
+   "geo",
+   "hist"
+  ]
+ },
+ "stolarz": {
+  "interests": [
+   "budowanie",
+   "technika"
+  ],
+  "contact": "maly",
+  "physical": "duzy",
+  "places": [
+   "warsztat"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "technika",
+   "mat",
+   "plastyka"
+  ]
+ },
+ "inzynier-budownictwa": {
+  "interests": [
+   "budowanie",
+   "technika",
+   "liczby"
+  ],
+  "contact": "sredni",
+  "physical": "sredni",
+  "places": [
+   "biuro",
+   "teren"
+  ],
+  "path": "studia",
+  "subjects": [
+   "mat",
+   "fiz"
+  ]
+ },
+ "inzynier-mechanik": {
+  "interests": [
+   "technika",
+   "liczby"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro",
+   "warsztat"
+  ],
+  "path": "studia",
+  "subjects": [
+   "mat",
+   "fiz",
+   "technika"
+  ]
+ },
+ "geodeta": {
+  "interests": [
+   "liczby",
+   "technika"
+  ],
+  "contact": "maly",
+  "physical": "sredni",
+  "places": [
+   "teren",
+   "biuro"
+  ],
+  "path": "studia",
+  "subjects": [
+   "mat",
+   "geo",
+   "inf"
+  ]
+ },
+ "urbanista": {
+  "interests": [
+   "sztuka",
+   "budowanie"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "studia",
+  "subjects": [
+   "geo",
+   "mat",
+   "wos"
+  ]
+ },
+ "mechanik-samochodowy": {
+  "interests": [
+   "technika",
+   "budowanie"
+  ],
+  "contact": "sredni",
+  "physical": "duzy",
+  "places": [
+   "warsztat"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "technika",
+   "fiz"
+  ]
+ },
+ "spawacz": {
+  "interests": [
+   "budowanie",
+   "technika"
+  ],
+  "contact": "maly",
+  "physical": "duzy",
+  "places": [
+   "warsztat",
+   "teren"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "technika",
+   "fiz"
+  ]
+ },
+ "kartograf": {
+  "interests": [
+   "komputery",
+   "sztuka"
+  ],
+  "contact": "maly",
+  "physical": "maly",
+  "places": [
+   "biuro"
+  ],
+  "path": "studia",
+  "subjects": [
+   "geo",
+   "inf",
+   "mat"
+  ]
+ },
+ "architekt-krajobrazu": {
+  "interests": [
+   "przyroda",
+   "sztuka"
+  ],
+  "contact": "sredni",
+  "physical": "sredni",
+  "places": [
+   "biuro",
+   "teren"
+  ],
+  "path": "studia",
+  "subjects": [
+   "bio",
+   "plastyka",
+   "geo"
+  ]
+ },
+ "rolnik": {
+  "interests": [
+   "przyroda",
+   "zwierzeta",
+   "technika",
+   "biznes"
+  ],
+  "contact": "maly",
+  "physical": "duzy",
+  "places": [
+   "teren"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "bio",
+   "chem",
+   "technika"
+  ]
+ },
+ "lesnik": {
+  "interests": [
+   "przyroda",
+   "zwierzeta"
+  ],
+  "contact": "maly",
+  "physical": "duzy",
+  "places": [
+   "teren"
+  ],
+  "path": "studia",
+  "subjects": [
+   "bio",
+   "geo"
+  ]
+ },
+ "ogrodnik": {
+  "interests": [
+   "przyroda",
+   "budowanie"
+  ],
+  "contact": "sredni",
+  "physical": "duzy",
+  "places": [
+   "teren"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "bio",
+   "technika"
+  ]
+ },
+ "inzynier-srodowiska": {
+  "interests": [
+   "przyroda",
+   "technika",
+   "nauka"
+  ],
+  "contact": "sredni",
+  "physical": "maly",
+  "places": [
+   "biuro",
+   "teren"
+  ],
+  "path": "studia",
+  "subjects": [
+   "chem",
+   "bio",
+   "mat"
+  ]
+ },
+ "technik-weterynarii": {
+  "interests": [
+   "zwierzeta",
+   "zdrowie"
+  ],
+  "contact": "sredni",
+  "physical": "sredni",
+  "places": [
+   "szpital"
+  ],
+  "path": "krotka",
+  "subjects": [
+   "bio",
+   "chem"
+  ]
+ }
+}

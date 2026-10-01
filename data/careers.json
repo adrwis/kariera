@@ -958,7 +958,28 @@
         "name": "Własna praktyka",
         "description": "Prywatny gabinet psychologiczny"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "ludzie",
+        "zdrowie",
+        "nauka"
+      ],
+      "contact": "duzy",
+      "physical": "maly",
+      "places": [
+        "biuro",
+        "szpital",
+        "szkola"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "bio",
+        "pol",
+        "wos"
+      ],
+      "keywords": "ludzie rozmowy pomaganie zdrowie ciało człowieka nauka badania eksperymenty"
+    }
   },
   {
     "id": "programista",
@@ -2442,7 +2463,26 @@
         "name": "Freelance / zdalnie",
         "description": "Projekty na zlecenie z dowolnego miejsca"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "komputery",
+        "liczby"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro",
+        "dom"
+      ],
+      "path": "studia",
+      "subjects": [
+        "inf",
+        "mat",
+        "ang"
+      ],
+      "keywords": "komputery programowanie liczby analizy finanse matematyka"
+    }
   },
   {
     "id": "lekarz",
@@ -3332,7 +3372,26 @@
         "name": "Własna praktyka",
         "description": "Prywatny gabinet lekarski"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "zdrowie",
+        "ludzie",
+        "nauka"
+      ],
+      "contact": "duzy",
+      "physical": "sredni",
+      "places": [
+        "szpital"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "bio",
+        "chem",
+        "fiz"
+      ],
+      "keywords": "zdrowie ciało człowieka ludzie rozmowy pomaganie nauka badania eksperymenty"
+    }
   },
   {
     "id": "architekt",
@@ -3985,7 +4044,27 @@
         "name": "Własna pracownia",
         "description": "Indywidualne projekty architektoniczne"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "sztuka",
+        "budowanie",
+        "liczby"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro",
+        "teren"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "mat",
+        "plastyka",
+        "fiz"
+      ],
+      "keywords": "rysowanie projektowanie tworzenie sztuka budowanie praca rękami majsterkowanie liczby analizy finanse matematyka"
+    }
   },
   {
     "id": "nauczyciel",
@@ -4861,7 +4940,23 @@
         "name": "Placówka kształcenia ustawicznego",
         "description": "Szkolenia i kursy dla dorosłych"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "dzieci",
+        "ludzie"
+      ],
+      "contact": "duzy",
+      "physical": "sredni",
+      "places": [
+        "szkola"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "pol"
+      ],
+      "keywords": "dzieci młodzież ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "grafik",
@@ -5307,7 +5402,25 @@
         "name": "Studio gier",
         "description": "Grafika 2D/3D do gier komputerowych"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "sztuka",
+        "komputery"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro",
+        "dom"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "plastyka",
+        "inf"
+      ],
+      "keywords": "rysowanie projektowanie tworzenie sztuka komputery programowanie"
+    }
   },
   {
     "id": "prawnik",
@@ -6159,7 +6272,26 @@
         "name": "Administracja publiczna",
         "description": "Tworzenie i opiniowanie regulacji prawnych"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "prawo",
+        "ludzie",
+        "pisanie"
+      ],
+      "contact": "duzy",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "pol",
+        "wos",
+        "hist"
+      ],
+      "keywords": "prawo zasady ludzie rozmowy pomaganie pisanie czytanie media"
+    }
   },
   {
     "id": "analityk-danych",
@@ -7538,7 +7670,26 @@
         "name": "Dział BI w korporacji",
         "description": "Business intelligence i dashboardy"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "liczby",
+        "komputery",
+        "biznes"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "studia",
+      "subjects": [
+        "mat",
+        "inf",
+        "ang"
+      ],
+      "keywords": "liczby analizy finanse matematyka komputery programowanie biznes sprzedaż organizowanie"
+    }
   },
   {
     "id": "pielegniarka",
@@ -8172,7 +8323,24 @@
         "name": "Prywatna klinika",
         "description": "Opieka pielęgniarska w sektorze prywatnym"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "zdrowie",
+        "ludzie"
+      ],
+      "contact": "duzy",
+      "physical": "duzy",
+      "places": [
+        "szpital"
+      ],
+      "path": "studia",
+      "subjects": [
+        "bio",
+        "chem"
+      ],
+      "keywords": "zdrowie ciało człowieka ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "farmaceuta",
@@ -8776,7 +8944,26 @@
         "name": "Inspekcja farmaceutyczna",
         "description": "Kontrola jakości i nadzór nad aptekami"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "zdrowie",
+        "nauka",
+        "ludzie"
+      ],
+      "contact": "duzy",
+      "physical": "maly",
+      "places": [
+        "sklep",
+        "szpital"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "chem",
+        "bio"
+      ],
+      "keywords": "zdrowie ciało człowieka nauka badania eksperymenty ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "fizjoterapeuta",
@@ -9531,7 +9718,25 @@
         "name": "Dom opieki",
         "description": "Rehabilitacja osób starszych"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "zdrowie",
+        "sport",
+        "ludzie"
+      ],
+      "contact": "duzy",
+      "physical": "duzy",
+      "places": [
+        "szpital"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "bio",
+        "wf"
+      ],
+      "keywords": "zdrowie ciało człowieka sport ruch ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "ksiegowy",
@@ -10357,7 +10562,25 @@
         "name": "Własne biuro rachunkowe",
         "description": "Prowadzenie biura rachunkowego"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "liczby",
+        "biznes",
+        "prawo"
+      ],
+      "contact": "maly",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "studia",
+      "subjects": [
+        "mat",
+        "wos"
+      ],
+      "keywords": "liczby analizy finanse matematyka biznes sprzedaż organizowanie prawo zasady"
+    }
   },
   {
     "id": "kucharz",
@@ -10538,7 +10761,24 @@
         "name": "Własna restauracja",
         "description": "Prowadzenie autorskiego lokalu gastronomicznego"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "jedzenie",
+        "budowanie"
+      ],
+      "contact": "sredni",
+      "physical": "duzy",
+      "places": [
+        "warsztat"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "technika",
+        "chem"
+      ],
+      "keywords": "gotowanie jedzenie budowanie praca rękami majsterkowanie"
+    }
   },
   {
     "id": "tester",
@@ -11695,7 +11935,26 @@
         "name": "Freelance / zdalnie",
         "description": "Testowanie na zlecenie"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "komputery",
+        "technika"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro",
+        "dom"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "inf",
+        "ang",
+        "mat"
+      ],
+      "keywords": "komputery programowanie maszyny elektronika urządzenia technika"
+    }
   },
   {
     "id": "dentysta",
@@ -12551,7 +12810,24 @@
         "name": "Własna praktyka",
         "description": "Prywatna praktyka stomatologiczna"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "zdrowie",
+        "ludzie"
+      ],
+      "contact": "duzy",
+      "physical": "sredni",
+      "places": [
+        "szpital"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "bio",
+        "chem"
+      ],
+      "keywords": "zdrowie ciało człowieka ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "fotograf",
@@ -12753,7 +13029,25 @@
         "name": "Firma e-commerce",
         "description": "Zdjęcia produktowe do sklepów online"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "sztuka",
+        "ludzie"
+      ],
+      "contact": "duzy",
+      "physical": "sredni",
+      "places": [
+        "teren",
+        "warsztat"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "plastyka",
+        "inf"
+      ],
+      "keywords": "rysowanie projektowanie tworzenie sztuka ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "dziennikarz",
@@ -13459,7 +13753,26 @@
         "name": "Freelance / blog",
         "description": "Niezależne dziennikarstwo i publicystyka"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "pisanie",
+        "ludzie"
+      ],
+      "contact": "duzy",
+      "physical": "sredni",
+      "places": [
+        "biuro",
+        "teren"
+      ],
+      "path": "studia",
+      "subjects": [
+        "pol",
+        "wos",
+        "hist"
+      ],
+      "keywords": "pisanie czytanie media ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "ratownik-medyczny",
@@ -14014,7 +14327,27 @@
         "name": "Lotnicze pogotowie ratunkowe",
         "description": "Ratownictwo z helikoptera HEMS"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "zdrowie",
+        "bezpieczenstwo",
+        "ludzie"
+      ],
+      "contact": "duzy",
+      "physical": "duzy",
+      "places": [
+        "teren",
+        "szpital"
+      ],
+      "path": "studia",
+      "subjects": [
+        "bio",
+        "chem",
+        "wf"
+      ],
+      "keywords": "zdrowie ciało człowieka bezpieczeństwo ratowanie mundur ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "projektant-ux",
@@ -14213,7 +14546,27 @@
         "name": "Freelance",
         "description": "Projekty UX/UI na zlecenie"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "sztuka",
+        "komputery",
+        "ludzie"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro",
+        "dom"
+      ],
+      "path": "studia",
+      "subjects": [
+        "inf",
+        "plastyka",
+        "ang"
+      ],
+      "keywords": "rysowanie projektowanie tworzenie sztuka komputery programowanie ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "elektryk",
@@ -14742,7 +15095,26 @@
         "name": "Własna działalność",
         "description": "Usługi elektryczne na zlecenie"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "technika",
+        "budowanie"
+      ],
+      "contact": "sredni",
+      "physical": "duzy",
+      "places": [
+        "teren",
+        "warsztat"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "fiz",
+        "technika",
+        "mat"
+      ],
+      "keywords": "maszyny elektronika urządzenia technika budowanie praca rękami majsterkowanie"
+    }
   },
   {
     "id": "policjant",
@@ -14914,7 +15286,28 @@
         "name": "Laboratorium kryminalistyczne",
         "description": "Analiza śladów i dowodów"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "bezpieczenstwo",
+        "prawo",
+        "ludzie",
+        "sport"
+      ],
+      "contact": "duzy",
+      "physical": "duzy",
+      "places": [
+        "teren",
+        "biuro"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "wos",
+        "wf",
+        "pol"
+      ],
+      "keywords": "bezpieczeństwo ratowanie mundur prawo zasady ludzie rozmowy pomaganie sport ruch"
+    }
   },
   {
     "id": "strazak",
@@ -15102,7 +15495,26 @@
         "name": "Inspektorat ochrony przeciwpożarowej",
         "description": "Kontrola i nadzór przeciwpożarowy"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "bezpieczenstwo",
+        "sport",
+        "technika"
+      ],
+      "contact": "sredni",
+      "physical": "duzy",
+      "places": [
+        "teren"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "wf",
+        "chem",
+        "fiz"
+      ],
+      "keywords": "bezpieczeństwo ratowanie mundur sport ruch maszyny elektronika urządzenia technika"
+    }
   },
   {
     "id": "dietetyk",
@@ -16003,7 +16415,26 @@
         "name": "Media / influencer",
         "description": "Edukacja żywieniowa w internecie"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "zdrowie",
+        "jedzenie",
+        "ludzie"
+      ],
+      "contact": "duzy",
+      "physical": "maly",
+      "places": [
+        "biuro",
+        "szpital"
+      ],
+      "path": "studia",
+      "subjects": [
+        "bio",
+        "chem"
+      ],
+      "keywords": "zdrowie ciało człowieka gotowanie jedzenie ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "tlumacz",
@@ -17032,7 +17463,25 @@
         "name": "Freelance",
         "description": "Tłumaczenia pisemne i ustne na zlecenie"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "jezyki",
+        "pisanie"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro",
+        "dom"
+      ],
+      "path": "studia",
+      "subjects": [
+        "ang",
+        "pol"
+      ],
+      "keywords": "języki obce pisanie czytanie media"
+    }
   },
   {
     "id": "weterynarz",
@@ -17384,7 +17833,26 @@
         "name": "Własna praktyka",
         "description": "Prywatna klinika weterynaryjna"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "zwierzeta",
+        "zdrowie",
+        "nauka"
+      ],
+      "contact": "sredni",
+      "physical": "sredni",
+      "places": [
+        "szpital",
+        "teren"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "bio",
+        "chem"
+      ],
+      "keywords": "zwierzęta zdrowie ciało człowieka nauka badania eksperymenty"
+    }
   },
   {
     "id": "specjalista-cyberbezpieczenstwa",
@@ -17992,7 +18460,25 @@
         "name": "Freelance / bug bounty",
         "description": "Testy penetracyjne na zlecenie"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "komputery",
+        "bezpieczenstwo"
+      ],
+      "contact": "maly",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "studia",
+      "subjects": [
+        "inf",
+        "mat",
+        "ang"
+      ],
+      "keywords": "komputery programowanie bezpieczeństwo ratowanie mundur"
+    }
   },
   {
     "id": "data-scientist",
@@ -18966,7 +19452,26 @@
         "name": "Instytut badawczy",
         "description": "Badania naukowe z wykorzystaniem danych"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "liczby",
+        "komputery",
+        "nauka"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "studia",
+      "subjects": [
+        "mat",
+        "inf",
+        "ang"
+      ],
+      "keywords": "liczby analizy finanse matematyka komputery programowanie nauka badania eksperymenty"
+    }
   },
   {
     "id": "devops-engineer",
@@ -20283,7 +20788,26 @@
         "name": "Startup",
         "description": "Budowanie infrastruktury od podstaw"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "komputery",
+        "technika"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro",
+        "dom"
+      ],
+      "path": "studia",
+      "subjects": [
+        "inf",
+        "ang",
+        "mat"
+      ],
+      "keywords": "komputery programowanie maszyny elektronika urządzenia technika"
+    }
   },
   {
     "id": "administrator-systemow",
@@ -21512,7 +22036,24 @@
         "name": "MSP / outsourcing IT",
         "description": "Zewnętrzna obsługa informatyczna firm"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "komputery",
+        "technika"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "inf",
+        "ang"
+      ],
+      "keywords": "komputery programowanie maszyny elektronika urządzenia technika"
+    }
   },
   {
     "id": "technik-informatyk",
@@ -22668,7 +23209,25 @@
         "name": "Własna działalność",
         "description": "Usługi informatyczne na zlecenie"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "komputery",
+        "technika"
+      ],
+      "contact": "sredni",
+      "physical": "sredni",
+      "places": [
+        "warsztat",
+        "biuro"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "inf",
+        "fiz"
+      ],
+      "keywords": "komputery programowanie maszyny elektronika urządzenia technika"
+    }
   },
   {
     "id": "programista-gier",
@@ -23711,7 +24270,27 @@
         "name": "Freelance / własny projekt",
         "description": "Samodzielna produkcja gier"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "komputery",
+        "sztuka",
+        "liczby"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro",
+        "dom"
+      ],
+      "path": "studia",
+      "subjects": [
+        "inf",
+        "mat",
+        "fiz"
+      ],
+      "keywords": "komputery programowanie rysowanie projektowanie tworzenie sztuka liczby analizy finanse matematyka"
+    }
   },
   {
     "id": "ekonomista",
@@ -24651,7 +25230,26 @@
         "name": "Uczelnia wyższa",
         "description": "Dydaktyka i badania naukowe"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "liczby",
+        "biznes",
+        "nauka"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "studia",
+      "subjects": [
+        "mat",
+        "wos",
+        "geo"
+      ],
+      "keywords": "liczby analizy finanse matematyka biznes sprzedaż organizowanie nauka badania eksperymenty"
+    }
   },
   {
     "id": "doradca-finansowy",
@@ -25421,7 +26019,25 @@
         "name": "Własna praktyka",
         "description": "Prywatne doradztwo majątkowe"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "liczby",
+        "biznes",
+        "ludzie"
+      ],
+      "contact": "duzy",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "studia",
+      "subjects": [
+        "mat",
+        "wos"
+      ],
+      "keywords": "liczby analizy finanse matematyka biznes sprzedaż organizowanie ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "specjalista-hr",
@@ -26495,7 +27111,24 @@
         "name": "Firma outsourcingowa HR",
         "description": "Zewnętrzna obsługa kadrowa klientów"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "ludzie",
+        "biznes"
+      ],
+      "contact": "duzy",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "studia",
+      "subjects": [
+        "pol",
+        "wos"
+      ],
+      "keywords": "ludzie rozmowy pomaganie biznes sprzedaż organizowanie"
+    }
   },
   {
     "id": "specjalista-marketingu",
@@ -27347,7 +27980,26 @@
         "name": "Firma mediowa",
         "description": "Planowanie i zakup mediów reklamowych"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "biznes",
+        "pisanie",
+        "sztuka"
+      ],
+      "contact": "duzy",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "studia",
+      "subjects": [
+        "pol",
+        "ang",
+        "inf"
+      ],
+      "keywords": "biznes sprzedaż organizowanie pisanie czytanie media rysowanie projektowanie tworzenie sztuka"
+    }
   },
   {
     "id": "specjalista-pr",
@@ -28180,7 +28832,26 @@
         "name": "Freelance / konsulting",
         "description": "Doradztwo PR na zlecenie"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "pisanie",
+        "ludzie",
+        "biznes"
+      ],
+      "contact": "duzy",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "studia",
+      "subjects": [
+        "pol",
+        "wos",
+        "ang"
+      ],
+      "keywords": "pisanie czytanie media ludzie rozmowy pomaganie biznes sprzedaż organizowanie"
+    }
   },
   {
     "id": "doradca-podatkowy",
@@ -29110,7 +29781,25 @@
         "name": "Własna kancelaria",
         "description": "Prywatna praktyka doradcy podatkowego"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "prawo",
+        "liczby",
+        "biznes"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "studia",
+      "subjects": [
+        "mat",
+        "wos"
+      ],
+      "keywords": "prawo zasady liczby analizy finanse matematyka biznes sprzedaż organizowanie"
+    }
   },
   {
     "id": "biegly-rewident",
@@ -29885,7 +30574,25 @@
         "name": "Własna kancelaria",
         "description": "Prowadzenie firmy audytorskiej"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "liczby",
+        "prawo",
+        "biznes"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "mat",
+        "wos"
+      ],
+      "keywords": "liczby analizy finanse matematyka prawo zasady biznes sprzedaż organizowanie"
+    }
   },
   {
     "id": "psychoterapeuta",
@@ -30780,7 +31487,25 @@
         "name": "Własna praktyka",
         "description": "Prywatny gabinet psychoterapeutyczny"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "ludzie",
+        "zdrowie"
+      ],
+      "contact": "duzy",
+      "physical": "maly",
+      "places": [
+        "biuro",
+        "szpital"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "bio",
+        "pol"
+      ],
+      "keywords": "ludzie rozmowy pomaganie zdrowie ciało człowieka"
+    }
   },
   {
     "id": "psychiatra",
@@ -31598,7 +32323,25 @@
         "name": "Własna praktyka",
         "description": "Prywatny gabinet psychiatryczny"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "zdrowie",
+        "ludzie",
+        "nauka"
+      ],
+      "contact": "duzy",
+      "physical": "maly",
+      "places": [
+        "szpital"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "bio",
+        "chem"
+      ],
+      "keywords": "zdrowie ciało człowieka ludzie rozmowy pomaganie nauka badania eksperymenty"
+    }
   },
   {
     "id": "pediatra",
@@ -32523,7 +33266,25 @@
         "name": "Własna praktyka",
         "description": "Prywatny gabinet pediatryczny"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "zdrowie",
+        "dzieci",
+        "ludzie"
+      ],
+      "contact": "duzy",
+      "physical": "sredni",
+      "places": [
+        "szpital"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "bio",
+        "chem"
+      ],
+      "keywords": "zdrowie ciało człowieka dzieci młodzież ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "chirurg",
@@ -33458,7 +34219,25 @@
         "name": "Prywatna klinika",
         "description": "Zabiegi chirurgiczne w sektorze prywatnym"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "zdrowie",
+        "nauka"
+      ],
+      "contact": "sredni",
+      "physical": "duzy",
+      "places": [
+        "szpital"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "bio",
+        "chem",
+        "fiz"
+      ],
+      "keywords": "zdrowie ciało człowieka nauka badania eksperymenty"
+    }
   },
   {
     "id": "kardiolog",
@@ -34371,7 +35150,26 @@
         "name": "Prywatna klinika",
         "description": "Specjalistyczne konsultacje kardiologiczne"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "zdrowie",
+        "nauka",
+        "ludzie"
+      ],
+      "contact": "duzy",
+      "physical": "sredni",
+      "places": [
+        "szpital"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "bio",
+        "chem",
+        "fiz"
+      ],
+      "keywords": "zdrowie ciało człowieka nauka badania eksperymenty ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "sedzia",
@@ -35208,7 +36006,25 @@
         "name": "Sąd Najwyższy",
         "description": "Nadzór judykacyjny nad sądami powszechnymi"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "prawo",
+        "pisanie"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "pol",
+        "wos",
+        "hist"
+      ],
+      "keywords": "prawo zasady pisanie czytanie media"
+    }
   },
   {
     "id": "prokurator",
@@ -36033,7 +36849,24 @@
         "name": "Prokuratura Europejska (EPPO)",
         "description": "Ściganie przestępstw przeciw budżetowi UE"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "prawo",
+        "bezpieczenstwo"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "pol",
+        "wos"
+      ],
+      "keywords": "prawo zasady bezpieczeństwo ratowanie mundur"
+    }
   },
   {
     "id": "notariusz",
@@ -36865,7 +37698,24 @@
         "name": "Kancelaria notarialna w dużym mieście",
         "description": "Obsługa transakcji korporacyjnych"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "prawo",
+        "pisanie"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "pol",
+        "wos"
+      ],
+      "keywords": "prawo zasady pisanie czytanie media"
+    }
   },
   {
     "id": "komornik",
@@ -37694,7 +38544,25 @@
         "name": "Kancelaria wieloosobowa",
         "description": "Egzekucja w zespole komorników"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "prawo",
+        "liczby"
+      ],
+      "contact": "sredni",
+      "physical": "sredni",
+      "places": [
+        "biuro",
+        "teren"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "wos",
+        "mat"
+      ],
+      "keywords": "prawo zasady liczby analizy finanse matematyka"
+    }
   },
   {
     "id": "adwokat",
@@ -38531,7 +39399,25 @@
         "name": "Własna kancelaria",
         "description": "Prowadzenie indywidualnej praktyki adwokackiej"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "prawo",
+        "ludzie"
+      ],
+      "contact": "duzy",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "pol",
+        "wos",
+        "hist"
+      ],
+      "keywords": "prawo zasady ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "zolnierz-zawodowy",
@@ -38797,7 +39683,27 @@
         "name": "Akademia wojskowa",
         "description": "Szkolenie kadry i instruktorstwo"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "bezpieczenstwo",
+        "sport",
+        "technika",
+        "podroze"
+      ],
+      "contact": "sredni",
+      "physical": "duzy",
+      "places": [
+        "teren"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "wf",
+        "geo",
+        "fiz"
+      ],
+      "keywords": "bezpieczeństwo ratowanie mundur sport ruch maszyny elektronika urządzenia technika podróże turystyka"
+    }
   },
   {
     "id": "pracownik-ochrony",
@@ -38913,7 +39819,25 @@
         "name": "Konwojowanie wartości",
         "description": "Transport gotówki i cennych przesyłek"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "bezpieczenstwo",
+        "ludzie"
+      ],
+      "contact": "sredni",
+      "physical": "sredni",
+      "places": [
+        "teren",
+        "sklep"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "wf",
+        "wos"
+      ],
+      "keywords": "bezpieczeństwo ratowanie mundur ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "funkcjonariusz-sg",
@@ -39460,7 +40384,28 @@
         "name": "Komenda Główna SG",
         "description": "Planowanie i zarządzanie strategiczne"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "bezpieczenstwo",
+        "prawo",
+        "jezyki",
+        "podroze"
+      ],
+      "contact": "duzy",
+      "physical": "sredni",
+      "places": [
+        "teren"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "ang",
+        "wos",
+        "geo",
+        "wf"
+      ],
+      "keywords": "bezpieczeństwo ratowanie mundur prawo zasady języki obce podróże turystyka"
+    }
   },
   {
     "id": "aktor",
@@ -39705,7 +40650,23 @@
         "name": "Freelance / castingi",
         "description": "Praca projektowa od castingu do castingu"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "scena"
+      ],
+      "contact": "duzy",
+      "physical": "sredni",
+      "places": [
+        "scena"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "pol",
+        "muzyka"
+      ],
+      "keywords": "muzyka teatr film scena"
+    }
   },
   {
     "id": "muzyk",
@@ -40126,7 +41087,23 @@
         "name": "Freelance / sesje nagraniowe",
         "description": "Muzyk sesyjny na zlecenie"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "scena",
+        "sztuka"
+      ],
+      "contact": "sredni",
+      "physical": "sredni",
+      "places": [
+        "scena"
+      ],
+      "path": "studia",
+      "subjects": [
+        "muzyka"
+      ],
+      "keywords": "muzyka teatr film scena rysowanie projektowanie tworzenie sztuka"
+    }
   },
   {
     "id": "rezyser-filmowy",
@@ -40329,7 +41306,27 @@
         "name": "Freelance / własne projekty",
         "description": "Niezależne produkcje filmowe"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "scena",
+        "sztuka",
+        "pisanie"
+      ],
+      "contact": "duzy",
+      "physical": "sredni",
+      "places": [
+        "scena",
+        "teren"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "pol",
+        "plastyka",
+        "hist"
+      ],
+      "keywords": "muzyka teatr film scena rysowanie projektowanie tworzenie sztuka pisanie czytanie media"
+    }
   },
   {
     "id": "architekt-wnetrz",
@@ -40841,7 +41838,25 @@
         "name": "Freelance / własna pracownia",
         "description": "Indywidualne projekty wnętrz na zlecenie"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "sztuka",
+        "budowanie"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro",
+        "teren"
+      ],
+      "path": "studia",
+      "subjects": [
+        "plastyka",
+        "mat"
+      ],
+      "keywords": "rysowanie projektowanie tworzenie sztuka budowanie praca rękami majsterkowanie"
+    }
   },
   {
     "id": "projektant-mody",
@@ -41042,7 +42057,24 @@
         "name": "Własna marka",
         "description": "Prowadzenie autorskiego brandu modowego"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "wyglad",
+        "sztuka"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "warsztat"
+      ],
+      "path": "studia",
+      "subjects": [
+        "plastyka",
+        "technika"
+      ],
+      "keywords": "uroda moda wygląd rysowanie projektowanie tworzenie sztuka"
+    }
   },
   {
     "id": "pedagog",
@@ -42341,7 +43373,24 @@
         "name": "Sąd rodzinny",
         "description": "Opinie pedagogiczne dla sądu"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "dzieci",
+        "ludzie"
+      ],
+      "contact": "duzy",
+      "physical": "maly",
+      "places": [
+        "szkola"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "pol",
+        "wos"
+      ],
+      "keywords": "dzieci młodzież ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "logopeda",
@@ -42996,7 +44045,26 @@
         "name": "Centrum autyzmu",
         "description": "Terapia mowy u dzieci ze spektrum"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "dzieci",
+        "zdrowie",
+        "ludzie"
+      ],
+      "contact": "duzy",
+      "physical": "maly",
+      "places": [
+        "szkola",
+        "biuro"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "pol",
+        "bio"
+      ],
+      "keywords": "dzieci młodzież zdrowie ciało człowieka ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "nauczyciel-akademicki",
@@ -43151,7 +44219,26 @@
         "name": "Konferencje / wykłady gościnne",
         "description": "Prelekcje i popularyzacja nauki"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "nauka",
+        "ludzie",
+        "pisanie"
+      ],
+      "contact": "duzy",
+      "physical": "maly",
+      "places": [
+        "szkola"
+      ],
+      "path": "dlugie",
+      "subjects": [
+        "mat",
+        "ang",
+        "pol"
+      ],
+      "keywords": "nauka badania eksperymenty ludzie rozmowy pomaganie pisanie czytanie media"
+    }
   },
   {
     "id": "fryzjer",
@@ -43270,7 +44357,24 @@
         "name": "Własny salon",
         "description": "Prowadzenie własnego salonu fryzjerskiego"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "wyglad",
+        "ludzie"
+      ],
+      "contact": "duzy",
+      "physical": "sredni",
+      "places": [
+        "sklep"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "plastyka",
+        "chem"
+      ],
+      "keywords": "uroda moda wygląd ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "kosmetyczka",
@@ -43840,7 +44944,25 @@
         "name": "Własny gabinet",
         "description": "Prowadzenie własnego gabinetu kosmetycznego"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "wyglad",
+        "zdrowie",
+        "ludzie"
+      ],
+      "contact": "duzy",
+      "physical": "sredni",
+      "places": [
+        "sklep"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "bio",
+        "chem"
+      ],
+      "keywords": "uroda moda wygląd zdrowie ciało człowieka ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "cukiernik",
@@ -43960,7 +45082,25 @@
         "name": "Własna cukiernia",
         "description": "Prowadzenie autorskiej cukierni"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "jedzenie",
+        "sztuka"
+      ],
+      "contact": "maly",
+      "physical": "duzy",
+      "places": [
+        "warsztat"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "technika",
+        "plastyka",
+        "chem"
+      ],
+      "keywords": "gotowanie jedzenie rysowanie projektowanie tworzenie sztuka"
+    }
   },
   {
     "id": "piekarz",
@@ -44080,7 +45220,24 @@
         "name": "Własna piekarnia",
         "description": "Prowadzenie autorskiej piekarni"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "jedzenie",
+        "budowanie"
+      ],
+      "contact": "maly",
+      "physical": "duzy",
+      "places": [
+        "warsztat"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "technika",
+        "chem"
+      ],
+      "keywords": "gotowanie jedzenie budowanie praca rękami majsterkowanie"
+    }
   },
   {
     "id": "barista",
@@ -44200,7 +45357,23 @@
         "name": "Szkolenia / warsztaty",
         "description": "Prowadzenie kursów baristycznych"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "jedzenie",
+        "ludzie"
+      ],
+      "contact": "duzy",
+      "physical": "sredni",
+      "places": [
+        "sklep"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "ang"
+      ],
+      "keywords": "gotowanie jedzenie ludzie rozmowy pomaganie"
+    }
   },
   {
     "id": "pilot-wycieczek",
@@ -44958,7 +46131,26 @@
         "name": "Freelance / przewodnik lokalny",
         "description": "Autorskie wycieczki po regionie"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "podroze",
+        "ludzie",
+        "jezyki"
+      ],
+      "contact": "duzy",
+      "physical": "sredni",
+      "places": [
+        "teren"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "ang",
+        "geo",
+        "hist"
+      ],
+      "keywords": "podróże turystyka ludzie rozmowy pomaganie języki obce"
+    }
   },
   {
     "id": "stolarz",
@@ -45078,7 +46270,25 @@
         "name": "Własny warsztat",
         "description": "Rzemiosło stolarskie na zlecenie"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "budowanie",
+        "technika"
+      ],
+      "contact": "maly",
+      "physical": "duzy",
+      "places": [
+        "warsztat"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "technika",
+        "mat",
+        "plastyka"
+      ],
+      "keywords": "budowanie praca rękami majsterkowanie maszyny elektronika urządzenia technika"
+    }
   },
   {
     "id": "inzynier-budownictwa",
@@ -45837,7 +47047,26 @@
         "name": "Firma infrastrukturalna",
         "description": "Budowa dróg, mostów i tuneli"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "budowanie",
+        "technika",
+        "liczby"
+      ],
+      "contact": "sredni",
+      "physical": "sredni",
+      "places": [
+        "biuro",
+        "teren"
+      ],
+      "path": "studia",
+      "subjects": [
+        "mat",
+        "fiz"
+      ],
+      "keywords": "budowanie praca rękami majsterkowanie maszyny elektronika urządzenia technika liczby analizy finanse matematyka"
+    }
   },
   {
     "id": "inzynier-mechanik",
@@ -47267,7 +48496,26 @@
         "name": "Firma konsultingowa",
         "description": "Doradztwo techniczne i inżynierskie"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "technika",
+        "liczby"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro",
+        "warsztat"
+      ],
+      "path": "studia",
+      "subjects": [
+        "mat",
+        "fiz",
+        "technika"
+      ],
+      "keywords": "maszyny elektronika urządzenia technika liczby analizy finanse matematyka"
+    }
   },
   {
     "id": "geodeta",
@@ -47916,7 +49164,26 @@
         "name": "Własna działalność",
         "description": "Usługi geodezyjne na zlecenie"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "liczby",
+        "technika"
+      ],
+      "contact": "maly",
+      "physical": "sredni",
+      "places": [
+        "teren",
+        "biuro"
+      ],
+      "path": "studia",
+      "subjects": [
+        "mat",
+        "geo",
+        "inf"
+      ],
+      "keywords": "liczby analizy finanse matematyka maszyny elektronika urządzenia technika"
+    }
   },
   {
     "id": "urbanista",
@@ -48643,7 +49910,25 @@
         "name": "Ministerstwo / urząd centralny",
         "description": "Polityka przestrzenna na poziomie krajowym"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "sztuka",
+        "budowanie"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "studia",
+      "subjects": [
+        "geo",
+        "mat",
+        "wos"
+      ],
+      "keywords": "rysowanie projektowanie tworzenie sztuka budowanie praca rękami majsterkowanie"
+    }
   },
   {
     "id": "mechanik-samochodowy",
@@ -48759,7 +50044,24 @@
         "name": "Własny warsztat",
         "description": "Prowadzenie warsztatu samochodowego"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "technika",
+        "budowanie"
+      ],
+      "contact": "sredni",
+      "physical": "duzy",
+      "places": [
+        "warsztat"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "technika",
+        "fiz"
+      ],
+      "keywords": "maszyny elektronika urządzenia technika budowanie praca rękami majsterkowanie"
+    }
   },
   {
     "id": "spawacz",
@@ -48892,7 +50194,25 @@
         "name": "Praca za granicą (UE/Norwegia)",
         "description": "Spawanie w projektach międzynarodowych"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "budowanie",
+        "technika"
+      ],
+      "contact": "maly",
+      "physical": "duzy",
+      "places": [
+        "warsztat",
+        "teren"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "technika",
+        "fiz"
+      ],
+      "keywords": "budowanie praca rękami majsterkowanie maszyny elektronika urządzenia technika"
+    }
   },
   {
     "id": "kartograf",
@@ -49693,7 +51013,25 @@
         "name": "Firma technologiczna",
         "description": "Mapy cyfrowe i nawigacja"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "komputery",
+        "sztuka"
+      ],
+      "contact": "maly",
+      "physical": "maly",
+      "places": [
+        "biuro"
+      ],
+      "path": "studia",
+      "subjects": [
+        "geo",
+        "inf",
+        "mat"
+      ],
+      "keywords": "komputery programowanie rysowanie projektowanie tworzenie sztuka"
+    }
   },
   {
     "id": "architekt-krajobrazu",
@@ -50213,7 +51551,26 @@
         "name": "Własna pracownia",
         "description": "Projektowanie ogrodów prywatnych"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "przyroda",
+        "sztuka"
+      ],
+      "contact": "sredni",
+      "physical": "sredni",
+      "places": [
+        "biuro",
+        "teren"
+      ],
+      "path": "studia",
+      "subjects": [
+        "bio",
+        "plastyka",
+        "geo"
+      ],
+      "keywords": "przyroda rośliny środowisko rysowanie projektowanie tworzenie sztuka"
+    }
   },
   {
     "id": "rolnik",
@@ -50905,7 +52262,27 @@
         "name": "Własne gospodarstwo",
         "description": "Prowadzenie rodzinnego gospodarstwa"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "przyroda",
+        "zwierzeta",
+        "technika",
+        "biznes"
+      ],
+      "contact": "maly",
+      "physical": "duzy",
+      "places": [
+        "teren"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "bio",
+        "chem",
+        "technika"
+      ],
+      "keywords": "przyroda rośliny środowisko zwierzęta maszyny elektronika urządzenia technika biznes sprzedaż organizowanie"
+    }
   },
   {
     "id": "lesnik",
@@ -51327,7 +52704,24 @@
         "name": "Instytut Badawczy Leśnictwa",
         "description": "Badania naukowe nad lasami"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "przyroda",
+        "zwierzeta"
+      ],
+      "contact": "maly",
+      "physical": "duzy",
+      "places": [
+        "teren"
+      ],
+      "path": "studia",
+      "subjects": [
+        "bio",
+        "geo"
+      ],
+      "keywords": "przyroda rośliny środowisko zwierzęta"
+    }
   },
   {
     "id": "ogrodnik",
@@ -51648,7 +53042,24 @@
         "name": "Własna firma",
         "description": "Usługi ogrodnicze na zlecenie"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "przyroda",
+        "budowanie"
+      ],
+      "contact": "sredni",
+      "physical": "duzy",
+      "places": [
+        "teren"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "bio",
+        "technika"
+      ],
+      "keywords": "przyroda rośliny środowisko budowanie praca rękami majsterkowanie"
+    }
   },
   {
     "id": "inzynier-srodowiska",
@@ -52811,7 +54222,27 @@
         "name": "Firma konsultingowa",
         "description": "Doradztwo ekologiczne dla inwestorów"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "przyroda",
+        "technika",
+        "nauka"
+      ],
+      "contact": "sredni",
+      "physical": "maly",
+      "places": [
+        "biuro",
+        "teren"
+      ],
+      "path": "studia",
+      "subjects": [
+        "chem",
+        "bio",
+        "mat"
+      ],
+      "keywords": "przyroda rośliny środowisko maszyny elektronika urządzenia technika nauka badania eksperymenty"
+    }
   },
   {
     "id": "technik-weterynarii",
@@ -52921,6 +54352,23 @@
         "name": "Sklep zoologiczny",
         "description": "Doradztwo i opieka nad zwierzętami"
       }
-    ]
+    ],
+    "quiz": {
+      "interests": [
+        "zwierzeta",
+        "zdrowie"
+      ],
+      "contact": "sredni",
+      "physical": "sredni",
+      "places": [
+        "szpital"
+      ],
+      "path": "krotka",
+      "subjects": [
+        "bio",
+        "chem"
+      ],
+      "keywords": "zwierzęta zdrowie ciało człowieka"
+    }
   }
 ]

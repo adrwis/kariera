@@ -34,6 +34,7 @@ const CareerSearch = (() => {
             { name: 'skills.soft', weight: 0.1 },
             { name: 'skills.technical', weight: 0.05 },
             { name: 'fullDescription', weight: 0.05 },
+            { name: 'quiz.keywords', weight: 0.15 },
           ],
           threshold: 0.35,
           ignoreLocation: true,
@@ -62,14 +63,54 @@ const CareerSearch = (() => {
   }
 
   // Search across both datasets
+  // Rdzenie słów opisujących zainteresowania (np. „coś z ludźmi”, „lubię rysować”) prowadzące do etykiet quizu
+  const INTEREST_STEMS = [
+    [/ludz|ludź|pomag|rozmow/, 'ludzie'], [/dzieci|dziec|dzieć|młodzie|przedszkol/, 'dzieci'], [/zwierz|psy\b|kot/, 'zwierzeta'],
+    [/przyrod|rośli|roslin|las\b|lasy|ogród|ogrod|środowisk/, 'przyroda'], [/zdrow|medyc|leczen/, 'zdrowie'],
+    [/komputer|programow|\bgry\b|\bit\b/, 'komputery'], [/maszyn|elektroni|urządze|samochod|auto\b|silnik/, 'technika'],
+    [/budow|majster|rękami|rekami|naprawia/, 'budowanie'], [/liczb|matema|finans|pieniąd|pieniad/, 'liczby'],
+    [/język|jezyk|angiels/, 'jezyki'], [/pisa|czyta|media|dziennikar/, 'pisanie'], [/rysow|malow|projektow|plasty|grafik/, 'sztuka'],
+    [/teatr|film|śpiew|spiew|muzyk/, 'scena'], [/sport|ruch\b|biega|trening/, 'sport'], [/prawo\b|przepis|sprawiedliw/, 'prawo'],
+    [/mundur|ratow|bezpiecz|służb|sluzb/, 'bezpieczenstwo'], [/biznes|sprzeda|handel|firm/, 'biznes'],
+    [/gotow|jedzen|kuchn|piecz/, 'jedzenie'], [/urod|\bmod[ay]\b|wygląd|wyglad|fryzur|makija/, 'wyglad'],
+    [/podróż|podroz|turyst|zwiedza/, 'podroze'], [/nauk|bada|eksperyment|laborator/, 'nauka'],
+  ];
+
+  function interestMatches(query) {
+    const q = query.toLowerCase();
+    const ids = INTEREST_STEMS.filter(([re]) => re.test(q)).map(([, id]) => id);
+    if (!ids.length) return [];
+    return careersData
+      .map(c => {
+        const list = (c.quiz && c.quiz.interests) || [];
+        const hits = ids.filter(i => list.includes(i));
+        // Wyżej zawody, w których zainteresowanie jest na pierwszym miejscu
+        const score = hits.reduce((a, i) => a + (list.indexOf(i) === 0 ? 3 : 2), 0);
+        return { c, score };
+      })
+      .filter(x => x.score > 0)
+      .sort((a, b) => b.score - a.score)
+      .map(x => ({ ...x.c, _score: 0 }));
+  }
+
   function search(query, limit = 30) {
     const results = { rich: [], simple: [] };
     if (!query || query.length < 2) return results;
 
-    // Search rich profiles
+    // Najpierw zawody pasujące do opisanych zainteresowań, potem dopasowania tekstowe
+    const byInterest = interestMatches(query);
     if (fuseMain) {
-      results.rich = fuseMain.search(query, { limit })
-        .map(r => ({ ...r.item, _score: r.score }));
+      const seen = new Set(byInterest.map(c => c.id));
+      const text = fuseMain.search(query, { limit })
+        .map(r => ({ ...r.item, _score: r.score }))
+        .filter(c => !seen.has(c.id));
+      // Przy zapytaniu o zainteresowanie dopasowania tekstowe dokładamy tylko te bardzo dobre
+      // Przy zapytaniu o zainteresowanie dokładamy tylko zawody, których nazwa zawiera słowo z zapytania
+      const words = query.toLowerCase().split(/\s+/).filter(w => w.length >= 4);
+      const byName = text.filter(c => words.some(w => (c.name + ' ' + (c.aliases || []).join(' ')).toLowerCase().includes(w)));
+      results.rich = byInterest.length ? [...byInterest, ...byName].slice(0, limit) : text;
+    } else {
+      results.rich = byInterest.slice(0, limit);
     }
 
     // Search KZiS index (exclude those already in rich results)

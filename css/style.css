@@ -3089,3 +3089,10 @@ p.school-popup__caption { margin: 0.25rem 0 0.4rem; }
 .kalk__group--miss .career-column__subtitle, .kalk__group--unfilled .career-column__subtitle { color: var(--kr-text-muted); }
 .szkoly__city-field { max-width: 22rem; margin: 0.75rem 0 0.25rem; }
 .career-secondary__cities .szkoly__city-field { margin-top: 0.25rem; }
+
+/* Quiz zainteresowań */
+.school-entry--quiz { border-left-color: var(--kr-accent-dark); }
+.quiz__results { list-style: none; padding: 0; margin: 0.75rem 0 1rem; display: flex; flex-direction: column; gap: 0.75rem; }
+.quiz__why { font-size: 0.88rem; color: var(--kr-text); margin-top: 0.25rem; }
+.quiz__path { margin-top: 0.25rem; }
+.quiz__reset { background: none; border: none; padding: 0; cursor: pointer; font: inherit; text-decoration: underline; }

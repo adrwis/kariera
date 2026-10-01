@@ -116,7 +116,7 @@
               <div class="search-box__query-row">
                 <label for="searchQuery" class="search-box__label">Kim chcesz zostać? Co Cię interesuje?</label>
                 <div class="search-box__input-wrapper">
-                  <input type="text" id="searchQuery" class="search-box__input search-box__input--query" placeholder="np. psycholog, programista, fryzjer" autocomplete="off" autocapitalize="off" autocorrect="off" aria-autocomplete="list" aria-controls="autocompleteList" aria-expanded="false" aria-activedescendant="">
+                  <input type="text" id="searchQuery" class="search-box__input search-box__input--query" placeholder="np. psycholog, zwierzęta, rysowanie" autocomplete="off" autocapitalize="off" autocorrect="off" aria-autocomplete="list" aria-controls="autocompleteList" aria-expanded="false" aria-activedescendant="">
                   <ul id="autocompleteList" class="autocomplete" role="listbox" aria-label="Podpowiedzi zawodów" hidden></ul>
                 </div>
               </div>
@@ -141,6 +141,10 @@
               </ul>
             </div>
 
+            <a href="/kariera/quiz" class="school-entry school-entry--quiz">
+              <span class="school-entry__title">Nie wiesz, kim chcesz być?</span>
+              <span class="school-entry__text">Zaznacz, co lubisz, i zobacz zawody, które warto sprawdzić. Sześć pytań, wyniki od razu.</span>
+            </a>
             <a href="/kariera/szkoly" class="school-entry">
               <span class="school-entry__title">Wybieram szkołę po 8 klasie</span>
               <span class="school-entry__text">Licea i technika w Trójmieście, Warszawie i dużych miastach: klasy, rozszerzenia, wyniki matur, a tam, gdzie są opublikowane, progi punktowe.</span>
@@ -307,6 +311,11 @@
       <div id="szkolyView"></div>
     </section>
 
+    <!-- ===== VIEW: QUIZ ===== -->
+    <section id="view-quiz" class="view view--quiz" role="region" aria-label="Quiz zainteresowań" hidden>
+      <div id="quizView"></div>
+    </section>
+
     <!-- ===== VIEW: KALKULATOR ===== -->
     <section id="view-kalkulator" class="view view--kalkulator" role="region" aria-label="Kalkulator punktów" hidden>
       <div id="kalkulatorView"></div>
@@ -341,6 +350,7 @@
   <script src="js/animations.min.js" defer></script>
   <script src="js/search.min.js" defer></script>
   <script src="js/szkoly.min.js" defer></script>
+  <script src="js/quiz.min.js" defer></script>
   <script src="js/app.min.js" defer></script>
 </body>
 </html>
