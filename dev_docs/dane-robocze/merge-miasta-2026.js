@@ -48,13 +48,13 @@ const DROP_PROFILES = new Set([485988]);           // InnEdu: „ścieżki” ed
 // Licea dla uczniów w edukacji domowej: decyzja Ady 2026-10-01, nie pokazujemy (II LO Moraczewskich, Amicus, InnEdu)
 const EXCLUDE = new Set([480767, 271713, 485988, 482086, 482133, 478552, 480243, 485231, 482226, 478779, 480942, 485517, 17801]); // edukacja domowa: Warszawa (II LO Moraczewskich, Amicus, InnEdu), Szczecin (WIR, Herberta), Katowice i Poznań (Szkoła w Chmurze, Poza Horyzontem), Lublin (Liceum w Chmurze, Ramus), Poznań InnEdu, Łódź Akademia LO
 // Oferta bez daty albo z rokiem 2025/26: profile usuwamy (decyzja Ady: tylko pewne dane)
-const UNDATED = new Set([89302, 89299, 87847, 90969, 82992, 89520, 119312, 4846, 91434]); // Lublin: Lider x2, Andersen, SOSW x3; Bydgoszcz: Technikum Kolejowe, Technikum SEI
+const UNDATED = new Set([89302, 89299, 87847, 90969, 82992, 89520, 119312, 4846, 91434, 481167, 478162]); // Lublin: Lider x2, Andersen, SOSW x3; Bydgoszcz: Technikum Kolejowe, Technikum SEI
 // Pojedyncze klasy, których opis nie pochodzi ze źródła: [rspo, wzór nazwy]
-const DROP_PROFILE = [[80262, /^Oa\b/], [478151, /krajobrazu/i]]; // + WTZ Poznań: zawód, którego od 1.09.2026 nie wolno zaczynać // Lublin PSBiG Oa: zawód wpisany przez agenta, nie przez nabór
+const DROP_PROFILE = [[80262, /^Oa\b/], [478151, /krajobrazu/i], [485690, /^Technik informatyk/]]; // + Infotech Wrocław: opis klasy nie pozwala ustalić zawodu // + WTZ Poznań: zawód, którego od 1.09.2026 nie wolno zaczynać // Lublin PSBiG Oa: zawód wpisany przez agenta, nie przez nabór
 // Strony z podejrzaną zawartością (np. linki do kasyn): nie linkujemy
 const UNSAFE_URL = /zssnr3krakow\.pl/;
 // Progi przypisane do klasy po profilu, a nie po nazwie (niepewne): [rspo, wzór nazwy klasy, rok]
-const DROP_THRESHOLDS = [[7000, /^1E\b/, 2026], [31605, /./, 2025]]; // + PLO UŁ: nie wiadomo, czy klasy 2025 miały te same rozszerzenia // V LO Szczecin: szkoła nazywa klasę mat-fiz „1D”, nabór „1E”
+const DROP_THRESHOLDS = [[7000, /^1E\b/, 2026], [31605, /./, 2025], [11476, /./, 2025]]; // + LO VI Wrocław: progi 2025 przypisane po profilu, bez nazwy klasy // + PLO UŁ: nie wiadomo, czy klasy 2025 miały te same rozszerzenia // V LO Szczecin: szkoła nazywa klasę mat-fiz „1D”, nabór „1E”
 
 const index = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/szkoly/index.json'), 'utf8'));
 for (const r of EXCLUDE) delete index.rspo[r];
@@ -72,6 +72,8 @@ for (const [slug, city] of REGIONS) {
     if (!r) return s;
     done++;
     let profiles = (DROP_PROFILES.has(s.rspo) || UNDATED.has(s.rspo)) ? [] : (r.profiles || []).filter(p => /^https?:\/\//.test(p.sourceUrl || '') && p.places !== 0).map(cleanProfile);
+    // Klasy, w których źródła podają sprzeczne rozszerzenia: [rspo, wzór nazwy]
+    profiles = profiles.map(p => [[11478, /^0 wstępna/]].some(([r, re]) => r === s.rspo && re.test(p.name)) ? { ...p, extended: [], extendedChoice: [] } : p);
     profiles = profiles.filter(p => !DROP_PROFILE.some(([r, re]) => r === s.rspo && re.test(p.name)));
     if (CLEAR_EXTENDED.has(s.rspo)) profiles = profiles.map(p => ({ ...p, extended: [], extendedChoice: [] }));
     // Kraków: system podaje „sugerowane” rozszerzenia; przy więcej niż trzech nie wiadomo, które są obowiązkowe
