@@ -891,16 +891,16 @@ const Szkoly = (function () {
       return known ? known[1].toLowerCase() : k;
     });
     const summary = rows.length
-      ? `Twój wynik: ${totals.length && Math.min(...totals) !== Math.max(...totals) ? `od ${fmtNum(Math.min(...totals))} do ${fmtNum(Math.max(...totals))} pkt, zależnie od przedmiotów punktowanych w klasie` : `${fmtNum(totals[0])} pkt`}. Porównano ${rows.length} klas ${esc(d.city.loc)}: powyżej progu ${safe.length}, blisko progu ${edge.length}.`
+      ? `Twój wynik: ${totals.length && Math.min(...totals) !== Math.max(...totals) ? `od ${fmtNum(Math.min(...totals))} do ${fmtNum(Math.max(...totals))} pkt, zależnie od przedmiotów punktowanych w klasie` : `${fmtNum(totals[0])} pkt`}. Porównano ${rows.length} ${plural(rows.length, 'klasę', 'klasy', 'klas')} ${esc(d.city.loc)}: powyżej progu ${safe.length}, blisko progu ${edge.length}.`
       : `Brak klas do porównania ${esc(d.city.loc)}.`;
     return `
       <p class="kalk__summary" id="kalkSummary">${summary}</p>
-      ${missingClasses ? `<p class="career-column__text">Uzupełnij oceny, żeby porównać jeszcze ${missingClasses} klas. Najczęściej brakuje: ${esc([...new Set(missingNames)].slice(0, 4).join(', '))}.</p>` : ''}
+      ${missingClasses ? `<p class="career-column__text">Uzupełnij oceny, żeby porównać jeszcze ${missingClasses} ${plural(missingClasses, 'klasę', 'klasy', 'klas')}. Najczęściej brakuje: ${esc([...new Set(missingNames)].slice(0, 4).join(', '))}.</p>` : ''}
       ${group('Blisko progu', edge, 'edge', `Różnica mniejsza niż ${MARGIN} pkt w jedną albo drugą stronę. Tu decyduje rok i liczba chętnych.`, 40)}
       ${group('Powyżej ostatniego progu', safe, 'safe', `Twój wynik jest co najmniej ${MARGIN} pkt wyższy od ostatniego progu. Jeśli w tym roku progi pójdą w górę, może nie wystarczyć.`, 40)}
       ${group('Brakuje kilku punktów', miss, 'miss', `Ostatni próg był wyższy o ${MARGIN} do ${CLOSE_MISS} pkt.`, 10, r => `brakuje ${fmtNum(Math.round(-r.diff * 100) / 100)} pkt`)}
       ${group('Klasy, które nie wypełniły limitu miejsc', unfilledBelow, 'unfilled', 'W ostatniej rekrutacji przyjęto tu wyraźnie mniej osób, niż było miejsc, więc niższy wynik też mógł wystarczyć.', 20, r => `przyjętych ${esc(r.t.qualified)} na ${esc(r.t.places)}`)}
-      ${far ? `<p class="career-column__text szkola__muted">W ${far} klasach ostatni próg był wyższy o ${CLOSE_MISS} pkt lub więcej.</p>` : ''}
+      ${far ? `<p class="career-column__text szkola__muted">W ${far} ${plural(far, 'klasie', 'klasach', 'klasach')} ostatni próg był wyższy o ${CLOSE_MISS} pkt lub więcej.</p>` : ''}
       ${otherScale ? `<p class="career-column__text szkola__muted">Pominięte klasy z inną skalą punktów: ${otherScale}. To klasy dwujęzyczne, artystyczne, sportowe i inne, które doliczają sprawdzian albo dodatkowe punkty.</p>` : ''}`;
   }
 
