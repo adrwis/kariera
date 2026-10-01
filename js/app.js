@@ -81,6 +81,9 @@
 
   const scrollPositions = {};
   let isPopstate = false;
+  let previousUrl = '';
+  let currentUrl = '';
+  let arrivedByLink = false;
 
   function showView(name) {
     // Save current view's scroll position
@@ -158,6 +161,8 @@
 
   function navigate() {
     const route = getRoute();
+    const here = window.location.pathname + window.location.search;
+    if (here !== currentUrl) { previousUrl = currentUrl; currentUrl = here; }
 
     switch (route.view) {
       case 'landing':
@@ -210,7 +215,13 @@
     }
   }
 
-  window.addEventListener('popstate', () => { isPopstate = true; navigate(); isPopstate = false; });
+  window.addEventListener('popstate', (e) => {
+    // Wstecz przy otwartym okienku uczelni zamyka okienko zamiast opuszczać stronę
+    if (document.getElementById('schoolPopupOverlay')) { closeSchoolPopup(true); return; }
+    if (e.state && e.state.popup) { history.back(); return; }
+    arrivedByLink = false;
+    isPopstate = true; navigate(); isPopstate = false;
+  });
   // Page restored from the back/forward cache: requests in flight were cancelled, so render again
   window.addEventListener('pageshow', (e) => { if (e.persisted) { Szkoly.resetPending(); navigate(); } });
 
@@ -649,10 +660,29 @@
     careerDetail.innerHTML = `
       <a href="${escapeAttr(getBackHref())}" class="results__back">&larr; Wróć</a>
       <div class="career-fallback">
-        <p class="career-fallback__text">Nie znaleziono zawodu o identyfikatorze "${escapeHtml(idOrCode)}".</p>
-        <a href="${BASE}/" class="career-fallback__link">Wróć do wyszukiwarki</a>
+        <h1 class="career-fallback__text">Nie mamy takiego zawodu</h1>
+        <p class="career-column__text">Adres mógł się zmienić. Poszukaj zawodu jeszcze raz albo zajrzyj do popularnych:</p>
+        <form class="results__search" id="notFoundSearch" role="search" aria-label="Szukaj zawodu">
+          <input type="text" class="results__search-input" name="q" placeholder="np. psycholog, zwierzęta" aria-label="Szukaj zawodu" autocomplete="off">
+          <button type="submit" class="results__search-btn" aria-label="Szukaj"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></button>
+        </form>
+        <ul class="popular__tags">
+          ${['psycholog', 'programista', 'lekarz', 'weterynarz', 'nauczyciel', 'fryzjer'].map(id => {
+            const c = CareerSearch.getCareerById ? CareerSearch.getCareerById(id) : null;
+            return c ? `<li><a href="${BASE}/zawod/${id}" class="popular__tag">${escapeHtml(c.name)}</a></li>` : '';
+          }).join('')}
+          <li><a href="${BASE}/quiz" class="popular__tag">Quiz zainteresowań</a></li>
+        </ul>
       </div>
     `;
+    const nf = careerDetail.querySelector('#notFoundSearch');
+    nf.addEventListener('submit', e => {
+      e.preventDefault();
+      const q = nf.q.value.trim();
+      if (!q) return;
+      history.pushState(null, '', `${BASE}/wyniki?q=${encodeURIComponent(q)}`);
+      navigate();
+    });
   }
 
   const DEMAND_LABELS = {
@@ -1313,7 +1343,8 @@
 
   // --- School popup ---
   function openSchoolPopup(school) {
-    closeSchoolPopup();
+    closeSchoolPopup(true);
+    history.pushState({ popup: 'uczelnia' }, '', window.location.href);
     popupTrigger = document.activeElement;
     document.body.style.overflow = 'hidden';
 
@@ -1448,7 +1479,7 @@
     closeBtn.focus();
     trapFocus(overlay.querySelector('.school-popup'));
 
-    closeBtn.addEventListener('click', closeSchoolPopup);
+    closeBtn.addEventListener('click', () => closeSchoolPopup());
     overlay.addEventListener('click', (e) => {
       if (e.target === overlay) closeSchoolPopup();
     });
@@ -1459,7 +1490,9 @@
     announce(`Szczegóły uczelni: ${school.name}`);
   }
 
-  function closeSchoolPopup() {
+  function closeSchoolPopup(fromHistory) {
+    // Zamknięcie przyciskiem albo Esc zdejmuje też wpis historii dodany przy otwarciu
+    if (!fromHistory && history.state && history.state.popup) { history.back(); return; }
     const overlay = document.getElementById('schoolPopupOverlay');
     if (overlay) overlay.remove();
     document.body.style.overflow = '';
@@ -1850,7 +1883,13 @@
     if (!href || !href.startsWith(BASE + '/') && !href.startsWith(BASE + '?')) return;
     if (a.target === '_blank' || e.ctrlKey || e.metaKey || e.shiftKey) return;
     e.preventDefault();
+    // Link „← …” prowadzący na poprzednią stronę działa jak Wstecz: wraca w to samo miejsce na stronie
+    if (a.classList.contains('results__back') && arrivedByLink && href === previousUrl) {
+      history.back();
+      return;
+    }
     history.pushState(null, '', href);
+    arrivedByLink = true;
     navigate();
   });
 

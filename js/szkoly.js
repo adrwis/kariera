@@ -102,6 +102,7 @@ const Szkoly = (function () {
   function init(context) { ctx = context; }
 
   function setBackContext(c) { backContext = c; }
+  let refocusId = null;
 
   function fetchJson(url) {
     return fetch(url).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
@@ -213,6 +214,9 @@ const Szkoly = (function () {
   }
 
   function focusHeading(container) {
+    const again = refocusId && container.querySelector('#' + refocusId);
+    refocusId = null;
+    if (again) { again.focus({ preventScroll: true }); return; }
     const h = container.querySelector('h1');
     if (h) { h.setAttribute('tabindex', '-1'); h.focus({ preventScroll: true }); }
   }
@@ -499,7 +503,7 @@ const Szkoly = (function () {
     const res = sortSchools(filterSchools(d.schools, f), f);
     const showCity = CITIES[d.slug].files.length > 1;
     const here = location.pathname + location.search;
-    backContext = { href: here, label: 'Wróć do listy szkół' };
+    backContext = { href: here, label: `Szkoły ${d.city.loc}` };
     if (res.length) {
       count.textContent = `Pasujące szkoły: ${res.length}`;
       // Liczba pokazanych kart zapamiętana dla adresu, żeby powrót ze strony szkoły trafił w to samo miejsce
@@ -913,7 +917,9 @@ const Szkoly = (function () {
     }
     const page = sel.id === 'kalkCity' ? 'kalkulator' : 'szkoly';
     setCity(slug);
-    history.pushState(null, '', `${ctx.BASE}/${page}?miasto=${slug}`);
+    // Zmiana miasta nie dokłada kroku do Wstecz, a po przerysowaniu fokus wraca na listę miast
+    refocusId = sel.id;
+    history.replaceState(null, '', `${ctx.BASE}/${page}?miasto=${slug}`);
     dispatchEvent(new PopStateEvent('popstate'));
   });
 
@@ -1075,6 +1081,9 @@ const Szkoly = (function () {
     const my = ++renderSeq;
     const citySlug = CITIES[params.get('miasto')] ? params.get('miasto') : hasCity() ? currentCity() : '';
     const saved = loadCalc();
+    // Powrót tam, skąd przyszedł użytkownik (lista szkół, zawód), a potem ze strony szkoły z powrotem do kalkulatora
+    const calcBack = backContext || { href: `${ctx.BASE}/`, label: 'Strona główna' };
+    backContext = { href: location.pathname + location.search, label: 'Kalkulator' };
     const savedRozsz = Array.isArray(saved.rozsz) ? saved.rozsz.filter(c => FILTER_SUBJECTS.includes(c)) : [];
     const typ = TYPES.includes(params.get('typ')) ? params.get('typ') : (TYPES.includes(saved.typ) ? saved.typ : '');
     setRobots('index, follow');
@@ -1092,7 +1101,7 @@ const Szkoly = (function () {
       </label>`;
     container.innerHTML = `
       <div class="results szkoly kalk">
-        <a href="${ctx.BASE}/szkoly?miasto=${citySlug}" class="results__back">&larr; Szkoły średnie</a>
+        <a href="${attr(calcBack.href)}" class="results__back">&larr; ${esc(calcBack.label)}</a>
         <h1 class="results__title">Kalkulator punktów ósmoklasisty</h1>
         <p class="results__query">Wpisz wyniki egzaminu i oceny ze świadectwa. Policzę punkty według rozporządzenia o rekrutacji i porównam je z ostatnimi progami klas.</p>
         <form class="kalk__form" id="kalkForm" novalidate>

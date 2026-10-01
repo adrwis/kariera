@@ -115,16 +115,16 @@
             </div>
 
             <form class="search-box" id="searchForm" role="search" aria-label="Szukaj zawodu">
-              <div class="search-box__name-row">
-                <label for="userName" class="search-box__label">Jak masz na imię? <span class="search-box__optional">(opcjonalne)</span></label>
-                <input type="text" id="userName" class="search-box__input search-box__input--name" placeholder="np. Anna" autocomplete="given-name">
-              </div>
               <div class="search-box__query-row">
                 <label for="searchQuery" class="search-box__label">Kim chcesz zostać? Co Cię interesuje?</label>
                 <div class="search-box__input-wrapper">
                   <input type="text" role="combobox" id="searchQuery" class="search-box__input search-box__input--query" placeholder="np. psycholog, zwierzęta, rysowanie" autocomplete="off" autocapitalize="off" autocorrect="off" aria-autocomplete="list" aria-controls="autocompleteList" aria-expanded="false" aria-activedescendant="">
                   <ul id="autocompleteList" class="autocomplete" role="listbox" aria-label="Podpowiedzi zawodów" hidden></ul>
                 </div>
+              </div>
+              <div class="search-box__name-row">
+                <label for="userName" class="search-box__label">Jak masz na imię? <span class="search-box__optional">(opcjonalne)</span></label>
+                <input type="text" id="userName" class="search-box__input search-box__input--name" placeholder="np. Anna" autocomplete="given-name">
               </div>
               <button type="submit" class="search-box__btn" id="searchBtn">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
