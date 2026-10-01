@@ -46,7 +46,9 @@ function cleanProfile(p) {
 const CLEAR_EXTENDED = new Set([478575, 79804]);  // TEB i ALO przy PJATK: rozszerzenia z niedatowanych podstron klas
 const DROP_PROFILES = new Set([485988]);           // InnEdu: „ścieżki” edukacji domowej, nie oddziały
 // Licea dla uczniów w edukacji domowej: decyzja Ady 2026-10-01, nie pokazujemy (II LO Moraczewskich, Amicus, InnEdu)
-const EXCLUDE = new Set([480767, 271713, 485988]);
+const EXCLUDE = new Set([480767, 271713, 485988, 482086, 482133]); // + Szczecin: Liceum WIR, Liceum Herberta
+// Progi przypisane do klasy po profilu, a nie po nazwie (niepewne): [rspo, wzór nazwy klasy, rok]
+const DROP_THRESHOLDS = [[7000, /^1E\b/, 2026]]; // V LO Szczecin: szkoła nazywa klasę mat-fiz „1D”, nabór „1E”
 
 const index = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/szkoly/index.json'), 'utf8'));
 for (const r of EXCLUDE) delete index.rspo[r];
@@ -65,6 +67,7 @@ for (const [slug, city] of REGIONS) {
     done++;
     let profiles = DROP_PROFILES.has(s.rspo) ? [] : (r.profiles || []).filter(p => /^https?:\/\//.test(p.sourceUrl || '') && p.places !== 0).map(cleanProfile);
     if (CLEAR_EXTENDED.has(s.rspo)) profiles = profiles.map(p => ({ ...p, extended: [], extendedChoice: [] }));
+    profiles = profiles.map(p => ({ ...p, thresholds: p.thresholds.filter(t => !DROP_THRESHOLDS.some(([r, re, y]) => r === s.rspo && re.test(p.name) && t.year === y)) }));
     if (profiles.length) withProfiles++;
     thresholds += profiles.reduce((a, p) => a + p.thresholds.length, 0);
     const out = { ...s, profiles };
