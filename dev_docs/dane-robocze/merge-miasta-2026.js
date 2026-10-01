@@ -46,7 +46,7 @@ function cleanProfile(p) {
 const CLEAR_EXTENDED = new Set([478575, 79804]);  // TEB i ALO przy PJATK: rozszerzenia z niedatowanych podstron klas
 const DROP_PROFILES = new Set([485988]);           // InnEdu: „ścieżki” edukacji domowej, nie oddziały
 // Licea dla uczniów w edukacji domowej: decyzja Ady 2026-10-01, nie pokazujemy (II LO Moraczewskich, Amicus, InnEdu)
-const EXCLUDE = new Set([480767, 271713, 485988, 482086, 482133, 478552, 480243, 485231, 482226, 478779, 480942, 485517, 17801]); // edukacja domowa: Warszawa (II LO Moraczewskich, Amicus, InnEdu), Szczecin (WIR, Herberta), Katowice i Poznań (Szkoła w Chmurze, Poza Horyzontem), Lublin (Liceum w Chmurze, Ramus), Poznań InnEdu, Łódź Akademia LO
+const EXCLUDE = new Set([480767, 271713, 485988, 482086, 482133, 478552, 480243, 485231, 482226, 478779, 480942, 485517, 17801, 483515]); // edukacja domowa: Warszawa (II LO Moraczewskich, Amicus, InnEdu), Szczecin (WIR, Herberta), Katowice i Poznań (Szkoła w Chmurze, Poza Horyzontem), Lublin (Liceum w Chmurze, Ramus), Poznań InnEdu, Łódź Akademia LO, Białystok InnEdu
 // Oferta bez daty albo z rokiem 2025/26: profile usuwamy (decyzja Ady: tylko pewne dane)
 const UNDATED = new Set([89302, 89299, 87847, 90969, 82992, 89520, 119312, 4846, 91434, 481167, 478162]); // Lublin: Lider x2, Andersen, SOSW x3; Bydgoszcz: Technikum Kolejowe, Technikum SEI
 // Pojedyncze klasy, których opis nie pochodzi ze źródła: [rspo, wzór nazwy]
