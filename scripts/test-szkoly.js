@@ -119,6 +119,23 @@ server.listen(0, async () => {
   check('przełączenie miasta zmienia sekcję', true);
   await page.evaluate(() => localStorage.setItem('kr-miasto', 'gdansk'));
 
+  console.log('\n=== Kalkulator ===');
+  await page.goto(base + '/kalkulator?miasto=trojmiasto');
+  await page.waitForSelector('#kalkForm');
+  await page.fill('[name=pol]', '80');
+  await page.fill('[name=mat]', '70');
+  await page.fill('[name=obcy]', '90');
+  for (const [n, v] of [['gPol', '5'], ['gMat', '5'], ['g1', '4'], ['g2', '5']]) await page.selectOption(`[name=${n}]`, v);
+  await page.check('[name=wyr]');
+  await page.check('[name=wol]');
+  await page.waitForFunction(() => /Z zapasem/.test(document.querySelector('#kalkResults').textContent));
+  const pts = await page.textContent('.kalk__points');
+  check('wynik liczony według rozporządzenia (154,5 pkt)', /154,5/.test(pts), pts);
+  await page.fill('[name=osi]', '40');
+  await page.waitForTimeout(400);
+  check('osiągnięcia ograniczone do 18 pkt', /172,5/.test(await page.textContent('.kalk__points')));
+  await page.evaluate(() => sessionStorage.clear());
+
   console.log('\n=== Telefon ===');
   const mobile = await browser.newPage({ viewport: { width: 390, height: 800 } });
   for (const u of ['/', '/zawod/lekarz', '/szkoly', '/szkola/7051']) {

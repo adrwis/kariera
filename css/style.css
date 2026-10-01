@@ -3065,3 +3065,18 @@ p.school-popup__caption { margin: 0.25rem 0 0.4rem; }
 .school-popup__round { display: block; font-size: 0.72rem; color: var(--kr-text-muted); font-weight: 400; text-transform: none; letter-spacing: 0; }
 @media (max-width: 600px) { .szkoly__city { min-height: 44px; } }
 .career-secondary { margin-top: 0; }
+
+/* Kalkulator punktów */
+.kalk__form { display: flex; flex-direction: column; gap: 1.25rem; margin-top: 1.25rem; }
+.kalk__field { flex: 1 1 10rem; }
+.kalk__field--small { flex: 0 1 14rem; }
+.kalk__total { margin: 1.5rem 0 1rem; padding: 1rem 1.25rem; border: 1px solid var(--kr-border); border-left: 4px solid var(--kr-primary-light); border-radius: 12px; background: var(--kr-card-bg); }
+.kalk__points { font-family: 'Space Grotesk', sans-serif; font-size: 1.4rem; color: var(--kr-primary); margin: 0 0 0.25rem; }
+.kalk__summary { font-size: 0.95rem; margin: 0 0 1rem; }
+.kalk__group { margin-bottom: 1.5rem; }
+.kalk__group--edge .career-column__subtitle { color: var(--kr-demand-surplus); }
+.kalk__group--safe .career-column__subtitle { color: var(--kr-demand-balanced); }
+.kalk__list li { margin: 0.35rem 0; }
+.kalk__thr { display: inline-block; margin-left: 0.35rem; font-size: 0.82rem; color: var(--kr-text-muted); }
+.school-entry--calc { margin-top: 0.75rem; border-left-color: var(--kr-primary-light); }
+.szkoly__calc-link { color: var(--kr-secondary); font-weight: 600; }

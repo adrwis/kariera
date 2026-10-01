@@ -354,6 +354,7 @@ const Szkoly = (function () {
           <a href="${ctx.BASE}/" class="results__back">&larr; Strona główna</a>
           <h1 class="results__title">Szkoły średnie ${esc(d.city.loc)}</h1>
           <p class="results__query">Licea i technika dla absolwentów podstawówki.${year ? ` Oferta klas na rok ${esc(year)}.` : ''}</p>
+          <p class="career-column__text"><a href="${ctx.BASE}/kalkulator?miasto=${d.slug}" class="szkoly__calc-link">Policz swoje punkty i sprawdź, gdzie masz szansę</a></p>
           <nav class="szkoly__cities" aria-label="Miasto">
             ${CITY_CHIPS.map(c => `<a href="${ctx.BASE}/szkoly?miasto=${c}" class="szkoly__city${c === d.slug ? ' szkoly__city--active' : ''}"${c === d.slug ? ' aria-current="page"' : ''}>${esc(CITIES[c].name)}</a>`).join('')}
           </nav>
@@ -762,7 +763,174 @@ const Szkoly = (function () {
     });
   });
 
-  return { init, load, renderList, renderDetail, careerSectionHtml, setBackContext, currentCity, resetPending, CAREER_PROFESSIONS };
+  // --- Kalkulator punktów ósmoklasisty ---
+  // Wzór: rozporządzenie Ministra Edukacji z 3 kwietnia 2025 r., Dz.U. 2025 poz. 464, § 3 do § 7.
+  const LAW_URL = 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20250000464';
+  const GRADES = [['', 'wybierz'], ['6', 'celujący (18 pkt)'], ['5', 'bardzo dobry (17 pkt)'], ['4', 'dobry (14 pkt)'], ['3', 'dostateczny (8 pkt)'], ['2', 'dopuszczający (2 pkt)']];
+  const GRADE_POINTS = { 6: 18, 5: 17, 4: 14, 3: 8, 2: 2 };
+  const MARGIN = 5; // pkt: granica „na styk”
+
+  function clampNum(v, min, max) {
+    const n = parseFloat(String(v).replace(',', '.'));
+    if (Number.isNaN(n)) return null;
+    return Math.min(max, Math.max(min, n));
+  }
+
+  function computePoints(f) {
+    const exam = [['pol', 0.35], ['mat', 0.35], ['obcy', 0.3]].map(([k, w]) => (clampNum(f[k], 0, 100) ?? 0) * w);
+    const grades = ['gPol', 'gMat', 'g1', 'g2'].map(k => GRADE_POINTS[f[k]] || 0);
+    const parts = {
+      exam: exam.reduce((a, b) => a + b, 0),
+      grades: grades.reduce((a, b) => a + b, 0),
+      honors: f.wyr ? 7 : 0,
+      achievements: clampNum(f.osi, 0, 18) ?? 0,
+      volunteering: f.wol ? 3 : 0,
+    };
+    const total = Math.round((parts.exam + parts.grades + parts.honors + parts.achievements + parts.volunteering) * 100) / 100;
+    return { parts, total };
+  }
+
+  function latestThreshold(p) {
+    return (p.thresholds || []).filter(t => typeof t.min === 'number' && t.scale === 200).sort((a, b) => b.year - a.year)[0] || null;
+  }
+
+  function readCalcForm(form) {
+    const fd = new FormData(form);
+    const o = {};
+    for (const [k, v] of fd.entries()) o[k] = v;
+    o.wyr = fd.get('wyr') === '1';
+    o.wol = fd.get('wol') === '1';
+    return o;
+  }
+
+  function saveCalc(o) {
+    try { sessionStorage.setItem('kr-kalkulator', JSON.stringify(o)); } catch (e) { /* ignoruj */ }
+  }
+  function loadCalc() {
+    try { return JSON.parse(sessionStorage.getItem('kr-kalkulator') || '{}'); } catch (e) { return {}; }
+  }
+
+  function calcResultsHtml(d, points, typ) {
+    const rows = [];
+    let otherScale = 0;
+    for (const s of d.schools) {
+      if (typ && s.type !== typ) continue;
+      for (const p of s.profiles || []) {
+        if ((p.thresholds || []).some(t => t.scale && t.scale !== 200) && !latestThreshold(p)) { otherScale++; continue; }
+        const t = latestThreshold(p);
+        if (!t) continue;
+        rows.push({ s, p, t, diff: Math.round((points - t.min) * 100) / 100 });
+      }
+    }
+    const safe = rows.filter(r => r.diff >= MARGIN).sort((a, b) => b.t.min - a.t.min);
+    const edge = rows.filter(r => r.diff > -MARGIN && r.diff < MARGIN).sort((a, b) => b.diff - a.diff);
+    const above = rows.filter(r => r.diff <= -MARGIN);
+    const multi = CITIES[d.slug].files.length > 1;
+    const item = r => `
+      <li>
+        <a href="${ctx.BASE}/szkola/${attr(r.s.rspo)}">${esc(r.s.shortName || r.s.name)}</a>${multi && r.s.city ? ` <span class="szkola__muted">(${esc(r.s.city)})</span>` : ''}:
+        ${esc(profileLabel(r.p))}
+        <span class="kalk__thr">próg ${esc(r.t.year)}: ${fmtNum(r.t.min)} pkt</span>
+      </li>`;
+    const group = (title, list, cls, note) => list.length ? `
+      <section class="kalk__group kalk__group--${cls}">
+        <h3 class="career-column__subtitle">${title} <span class="szkola__muted">(${list.length})</span></h3>
+        ${note ? `<p class="career-column__text szkola__muted">${note}</p>` : ''}
+        <ul class="szkoly__mini kalk__list">${list.slice(0, 40).map(item).join('')}</ul>
+        ${list.length > 40 ? `<p class="career-column__text szkola__muted">Pokazuję 40 klas z najwyższym progiem. Zawęź listę rodzajem szkoły albo miastem.</p>` : ''}
+      </section>` : '';
+    return `
+      <p class="kalk__summary" id="kalkSummary">Klasy z progiem w skali 200 pkt ${esc(d.city.loc)}: ${rows.length}. Z zapasem: ${safe.length}, na granicy: ${edge.length}, próg wyżej: ${above.length}.</p>
+      ${group('Na granicy', edge, 'edge', `Twój wynik jest najwyżej ${MARGIN} pkt nad albo pod ostatnim progiem. Tu decyduje rok i liczba chętnych.`)}
+      ${group('Z zapasem', safe, 'safe', `Twój wynik jest co najmniej ${MARGIN} pkt wyższy od ostatniego progu.`)}
+      ${!rows.length ? '<p class="career-column__empty">W tym mieście nie ma jeszcze klas z opublikowanym progiem w skali 200 pkt.</p>' : ''}
+      ${otherScale ? `<p class="career-column__text szkola__muted">Pominięte klasy z inną skalą punktów (sportowe, ze sprawdzianem): ${otherScale}.</p>` : ''}`;
+  }
+
+  async function renderCalculator(container, params) {
+    const my = ++renderSeq;
+    const citySlug = CITIES[params.get('miasto')] ? params.get('miasto') : currentCity();
+    const saved = loadCalc();
+    const typ = TYPES.includes(params.get('typ')) ? params.get('typ') : (saved.typ || '');
+    setRobots('index, follow');
+    ctx.updateMeta('Kalkulator punktów ósmoklasisty | NextMove', 'Policz punkty rekrutacyjne do szkoły średniej i zobacz, w których klasach Twój wynik przekraczał ostatnie progi.', ctx.BASE + '/kalkulator');
+    const gradeSelect = (name, label) => `
+      <label class="szkoly__field kalk__field">
+        <span class="szkoly__legend">${label}</span>
+        <select name="${name}" class="szkoly__select">${GRADES.map(([v, l]) => `<option value="${v}"${String(saved[name] || '') === v ? ' selected' : ''}>${l}</option>`).join('')}</select>
+      </label>`;
+    const examInput = (name, label) => `
+      <label class="szkoly__field kalk__field">
+        <span class="szkoly__legend">${label}</span>
+        <input type="number" inputmode="decimal" min="0" max="100" step="1" name="${name}" class="szkoly__select" value="${attr(saved[name] ?? '')}" placeholder="np. 80">
+      </label>`;
+    container.innerHTML = `
+      <div class="results szkoly kalk">
+        <a href="${ctx.BASE}/szkoly?miasto=${citySlug}" class="results__back">&larr; Szkoły średnie</a>
+        <h1 class="results__title">Kalkulator punktów ósmoklasisty</h1>
+        <p class="results__query">Wpisz wyniki egzaminu i oceny ze świadectwa. Policzę punkty tak, jak liczy je komisja rekrutacyjna, i porównam z ostatnimi progami klas.</p>
+        <form class="kalk__form" id="kalkForm">
+          <fieldset class="szkoly__fieldset">
+            <legend class="szkoly__legend">Egzamin ósmoklasisty (wynik w procentach)</legend>
+            <div class="szkoly__row">${examInput('pol', 'Język polski')}${examInput('mat', 'Matematyka')}${examInput('obcy', 'Język obcy')}</div>
+          </fieldset>
+          <fieldset class="szkoly__fieldset">
+            <legend class="szkoly__legend">Oceny na świadectwie</legend>
+            <div class="szkoly__row">${gradeSelect('gPol', 'Język polski')}${gradeSelect('gMat', 'Matematyka')}${gradeSelect('g1', 'Pierwszy przedmiot punktowany')}${gradeSelect('g2', 'Drugi przedmiot punktowany')}</div>
+            <p class="career-column__text szkola__muted">Dwa przedmioty punktowane wybiera szkoła, np. język obcy i biologię. Sprawdzisz je przy klasie na stronie szkoły, w polu „Oceny brane do punktacji”.</p>
+          </fieldset>
+          <fieldset class="szkoly__fieldset">
+            <legend class="szkoly__legend">Dodatkowe punkty</legend>
+            <div class="szkoly__row">
+              <label class="szkoly__chip szkoly__chip--solo"><input type="checkbox" name="wyr" value="1"${saved.wyr ? ' checked' : ''}> Świadectwo z wyróżnieniem (7 pkt)</label>
+              <label class="szkoly__chip szkoly__chip--solo"><input type="checkbox" name="wol" value="1"${saved.wol ? ' checked' : ''}> Wolontariat (3 pkt)</label>
+              <label class="szkoly__field kalk__field kalk__field--small">
+                <span class="szkoly__legend">Osiągnięcia w konkursach (0 do 18 pkt)</span>
+                <input type="number" inputmode="numeric" min="0" max="18" step="1" name="osi" class="szkoly__select" value="${attr(saved.osi ?? '')}" placeholder="0">
+              </label>
+            </div>
+          </fieldset>
+          <fieldset class="szkoly__fieldset">
+            <legend class="szkoly__legend">Gdzie szukać</legend>
+            <nav class="szkoly__cities" aria-label="Miasto">
+              ${CITY_CHIPS.map(c => `<a href="${ctx.BASE}/kalkulator?miasto=${c}" class="szkoly__city${c === citySlug ? ' szkoly__city--active' : ''}"${c === citySlug ? ' aria-current="page"' : ''}>${esc(CITIES[c].name)}</a>`).join('')}
+            </nav>
+            <div class="szkoly__chips">
+              ${[['', 'Licea i technika'], ['liceum', 'Licea'], ['technikum', 'Technika']].map(([v, l]) => `
+                <label class="szkoly__chip"><input type="radio" name="typ" value="${v}"${typ === v ? ' checked' : ''}> ${l}</label>`).join('')}
+            </div>
+          </fieldset>
+        </form>
+        <div class="kalk__total" aria-live="polite" id="kalkTotal"></div>
+        <div id="kalkResults"><p class="szkoly__loading">Wczytuję progi…</p></div>
+        <p class="szkoly__footnote">Punkty liczone według rozporządzenia Ministra Edukacji z 3 kwietnia 2025 r. (<a href="${LAW_URL}" target="_blank" rel="noopener">Dz.U. 2025 poz. 464</a>): polski i matematyka z egzaminu ×0,35, język obcy ×0,3, cztery oceny po 2 do 18 pkt, wyróżnienie 7 pkt, osiągnięcia do 18 pkt, wolontariat 3 pkt. Razem do 200 pkt. Progi zmieniają się co roku, więc wynik pokazuje szanse, a nie gwarancję przyjęcia. Klasy dwujęzyczne i sportowe mogą doliczać sprawdzian.</p>
+      </div>`;
+    const form = container.querySelector('#kalkForm');
+    const totalEl = container.querySelector('#kalkTotal');
+    const resultsEl = container.querySelector('#kalkResults');
+    let d = null;
+    const update = () => {
+      const f = readCalcForm(form);
+      saveCalc(f);
+      const { parts, total } = computePoints(f);
+      totalEl.innerHTML = `
+        <p class="kalk__points"><strong>${fmtNum(total)}</strong> z 200 pkt</p>
+        <p class="szkola__muted">Egzamin ${fmtNum(Math.round(parts.exam * 100) / 100)} · oceny ${esc(parts.grades)} · wyróżnienie ${esc(parts.honors)} · osiągnięcia ${esc(parts.achievements)} · wolontariat ${esc(parts.volunteering)}</p>`;
+      if (d) resultsEl.innerHTML = calcResultsHtml(d, total, f.typ || '');
+    };
+    let timer = null;
+    form.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(update, 200); });
+    form.addEventListener('change', update);
+    form.addEventListener('submit', e => { e.preventDefault(); update(); });
+    update();
+    focusHeading(container);
+    try { d = await load(citySlug); } catch (e) { if (my === renderSeq) resultsEl.innerHTML = '<p class="career-column__empty">Nie udało się wczytać progów. Sprawdź połączenie i odśwież stronę.</p>'; return; }
+    if (my !== renderSeq) return;
+    setCity(citySlug);
+    update();
+  }
+
+  return { init, load, renderList, renderDetail, renderCalculator, careerSectionHtml, setBackContext, currentCity, resetPending, CAREER_PROFESSIONS };
 })();
 
 window.Szkoly = Szkoly;

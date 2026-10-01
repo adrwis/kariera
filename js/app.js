@@ -75,6 +75,7 @@
     zawod: document.getElementById('view-zawod'),
     szkoly: document.getElementById('view-szkoly'),
     szkola: document.getElementById('view-szkola'),
+    kalkulator: document.getElementById('view-kalkulator'),
   };
 
   const scrollPositions = {};
@@ -103,7 +104,7 @@
     }
 
     // Focus management: move focus to heading of new view (skip views rendered async — handled by render functions)
-    if (name !== 'zawod' && name !== 'szkoly' && name !== 'szkola') {
+    if (name !== 'zawod' && name !== 'szkoly' && name !== 'szkola' && name !== 'kalkulator') {
       const heading = views[name].querySelector('h1, h2');
       if (heading) {
         heading.setAttribute('tabindex', '-1');
@@ -121,6 +122,7 @@
     if (path.startsWith('/wyniki')) return { view: 'wyniki', params: new URLSearchParams(search) };
     if (path.startsWith('/zawod/')) return { view: 'zawod', params: path.slice('/zawod/'.length).replace(/\/+$/, '') };
     if (path === '/szkoly' || path === '/szkoly/') return { view: 'szkoly', params: new URLSearchParams(search) };
+    if (path === '/kalkulator' || path === '/kalkulator/') return { view: 'kalkulator', params: new URLSearchParams(search) };
     if (path.startsWith('/szkola/')) return { view: 'szkola', params: path.slice('/szkola/'.length).replace(/\/+$/, '') };
     return { view: 'landing', params: null };
   }
@@ -182,6 +184,11 @@
       case 'szkola':
         showView('szkola');
         Szkoly.renderDetail(document.getElementById('szkolaView'), route.params);
+        break;
+
+      case 'kalkulator':
+        showView('kalkulator');
+        Szkoly.renderCalculator(document.getElementById('kalkulatorView'), route.params);
         break;
 
       default:
@@ -1803,7 +1810,7 @@
 
     // School pages do not need the career data up front: render them right away
     const firstView = getRoute().view;
-    if (firstView === 'szkoly' || firstView === 'szkola') navigate();
+    if (firstView === 'szkoly' || firstView === 'szkola' || firstView === 'kalkulator') navigate();
 
     // Load data
     await CareerSearch.loadData();
