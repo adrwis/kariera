@@ -159,7 +159,8 @@ server.listen(0, async () => {
   await page.waitForSelector('.quiz__result');
   const quizTop = await page.$$eval('.quiz__result .result-card__name', x => x.map(e => e.textContent));
   check('quiz: zwierzęta podpowiadają weterynarza', quizTop.includes('Weterynarz'), quizTop.join(', '));
-  for (const v of ['ludzie', 'dzieci', 'sztuka', 'komputery', 'liczby']) await page.check(`input[name=interests][value=${v}]`);
+  for (const v of ['ludzie', 'dzieci', 'sztuka', 'komputery']) await page.check(`input[name=interests][value=${v}]`);
+  await page.click('input[name=interests][value=liczby]');
   check('quiz: najwyżej 5 zainteresowań', (await page.$$('input[name=interests]:checked')).length === 5 && await page.isVisible('#quizMax'));
   await page.goto(base + '/wyniki?q=' + encodeURIComponent('coś z ludźmi'));
   await page.waitForSelector('.result-card__name');
