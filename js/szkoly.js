@@ -765,36 +765,53 @@ const Szkoly = (function () {
 
   // --- Kalkulator punktów ósmoklasisty ---
   // Wzór: rozporządzenie Ministra Edukacji z 3 kwietnia 2025 r., Dz.U. 2025 poz. 464, § 3 do § 7.
+  // Pierwszeństwo laureatów i finalistów: art. 132 ustawy Prawo oświatowe.
   const LAW_URL = 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20250000464';
-  const GRADES = [['', 'wybierz'], ['6', 'celujący (18 pkt)'], ['5', 'bardzo dobry (17 pkt)'], ['4', 'dobry (14 pkt)'], ['3', 'dostateczny (8 pkt)'], ['2', 'dopuszczający (2 pkt)']];
+  const GRADES = [['', 'wybierz'], ['6', 'celujący, 18'], ['5', 'bardzo dobry, 17'], ['4', 'dobry, 14'], ['3', 'dostateczny, 8'], ['2', 'dopuszczający, 2']];
   const GRADE_POINTS = { 6: 18, 5: 17, 4: 14, 3: 8, 2: 2 };
-  const MARGIN = 5; // pkt: granica „na styk”
+  // Oceny, o które pytamy; drugi język obcy obejmuje niemiecki, francuski, hiszpański, rosyjski, włoski
+  const CALC_SUBJECTS = [['pol', 'Język polski'], ['mat', 'Matematyka'], ['ang', 'Język angielski'], ['obcy2', 'Drugi język obcy'],
+    ['bio', 'Biologia'], ['chem', 'Chemia'], ['fiz', 'Fizyka'], ['geo', 'Geografia'], ['hist', 'Historia'], ['inf', 'Informatyka'], ['wos', 'WOS']];
+  const SECOND_LANG = ['niem', 'fr', 'hisz', 'ros', 'wlo'];
+  const MARGIN = 5;
+  const CLOSE_MISS = 15;
 
   function clampNum(v, min, max) {
     const n = parseFloat(String(v).replace(',', '.'));
-    if (Number.isNaN(n)) return null;
-    return Math.min(max, Math.max(min, n));
+    if (Number.isNaN(n) || n < min || n > max) return null;
+    return n;
   }
 
-  function computePoints(f) {
-    const exam = [['pol', 0.35], ['mat', 0.35], ['obcy', 0.3]].map(([k, w]) => (clampNum(f[k], 0, 100) ?? 0) * w);
-    const grades = ['gPol', 'gMat', 'g1', 'g2'].map(k => GRADE_POINTS[f[k]] || 0);
-    const parts = {
-      exam: exam.reduce((a, b) => a + b, 0),
-      grades: grades.reduce((a, b) => a + b, 0),
-      honors: f.wyr ? 7 : 0,
-      achievements: clampNum(f.osi, 0, 18) ?? 0,
-      volunteering: f.wol ? 3 : 0,
-    };
-    const total = Math.round((parts.exam + parts.grades + parts.honors + parts.achievements + parts.volunteering) * 100) / 100;
-    return { parts, total };
+  // Punkty za jeden wpis ze scoredSubjects; null = nie da się ustalić (brak oceny albo nieznany przedmiot)
+  function gradeFor(item, g) {
+    const raw = String(item).toLowerCase();
+    if (raw.includes('/')) {
+      const vals = raw.split('/').map(x => gradeFor(x.trim(), g));
+      return vals.some(v => v === null) ? null : Math.max(...vals);
+    }
+    if (/obcy|język obcy/.test(raw)) {
+      const vals = [g.ang, g.obcy2].filter(v => v != null);
+      return vals.length ? Math.max(...vals) : null;
+    }
+    const code = SECOND_LANG.includes(raw) ? 'obcy2' : raw;
+    return g[code] != null ? g[code] : null;
   }
 
-  function latestThreshold(p) {
-    return (p.thresholds || []).filter(t => typeof t.min === 'number' && t.scale === 200).sort((a, b) => b.year - a.year)[0] || null;
+  // Punkty z ocen dla klasy: według jej przedmiotów punktowanych albo ostrożnie, gdy ich nie znamy
+  function gradePointsFor(p, g) {
+    const scored = (p.scoredSubjects || []).filter(Boolean);
+    if (scored.length === 4) {
+      const vals = scored.map(x => gradeFor(x, g));
+      if (vals.every(v => v !== null)) return { points: vals.reduce((x, y) => x + y, 0), mode: 'exact' };
+      return { points: null, mode: 'missing', missing: scored.filter((x, i) => vals[i] === null) };
+    }
+    if (g.pol == null || g.mat == null) return { points: null, mode: 'missing', missing: ['pol', 'mat'].filter(k => g[k] == null) };
+    const others = Object.entries(g).filter(([k, v]) => k !== 'pol' && k !== 'mat' && v != null).map(([, v]) => v).sort((x, y) => x - y);
+    if (others.length < 2) return { points: null, mode: 'missing', missing: ['dwa inne przedmioty'] };
+    return { points: g.pol + g.mat + others[0] + others[1], mode: 'cautious' };
   }
 
-  function readCalcForm(form) {
+  function readCalc(form) {
     const fd = new FormData(form);
     const o = {};
     for (const [k, v] of fd.entries()) o[k] = v;
@@ -802,82 +819,124 @@ const Szkoly = (function () {
     o.wol = fd.get('wol') === '1';
     return o;
   }
+  function saveCalc(o) { try { sessionStorage.setItem('kr-kalkulator', JSON.stringify(o)); } catch (e) { /* ignoruj */ } }
+  function loadCalc() { try { return JSON.parse(sessionStorage.getItem('kr-kalkulator') || '{}'); } catch (e) { return {}; } }
 
-  function saveCalc(o) {
-    try { sessionStorage.setItem('kr-kalkulator', JSON.stringify(o)); } catch (e) { /* ignoruj */ }
-  }
-  function loadCalc() {
-    try { return JSON.parse(sessionStorage.getItem('kr-kalkulator') || '{}'); } catch (e) { return {}; }
+  function parseCalc(f) {
+    const exam = {};
+    const invalid = [];
+    for (const k of ['pol', 'mat', 'obcy']) {
+      if (f[k] === undefined || String(f[k]).trim() === '') { exam[k] = null; continue; }
+      exam[k] = clampNum(f[k], 0, 100);
+      if (exam[k] === null) invalid.push(k);
+    }
+    const osiRaw = String(f.osi ?? '').trim();
+    const osi = osiRaw === '' ? 0 : clampNum(osiRaw, 0, 18);
+    if (osi === null) invalid.push('osi');
+    const g = {};
+    for (const [k] of CALC_SUBJECTS) g[k] = f['g_' + k] ? GRADE_POINTS[f['g_' + k]] : null;
+    const examComplete = ['pol', 'mat', 'obcy'].every(k => exam[k] !== null);
+    const examPts = examComplete ? exam.pol * 0.35 + exam.mat * 0.35 + exam.obcy * 0.3 : null;
+    const extra = (f.wyr ? 7 : 0) + (f.wol ? 3 : 0) + (osi ? Math.round(osi) : 0);
+    return { exam, examPts, extra, g, invalid, osi: osi ? Math.round(osi) : 0 };
   }
 
-  function calcResultsHtml(d, points, typ) {
+  function latestThreshold(p) {
+    return (p.thresholds || []).filter(t => typeof t.min === 'number' && t.scale === 200).sort((a, b) => b.year - a.year)[0] || null;
+  }
+
+  function calcResultsHtml(d, c, typ) {
     const rows = [];
     let otherScale = 0;
+    const missingCount = {};
+    let missingClasses = 0;
     for (const s of d.schools) {
       if (typ && s.type !== typ) continue;
       for (const p of s.profiles || []) {
-        if ((p.thresholds || []).some(t => t.scale && t.scale !== 200) && !latestThreshold(p)) { otherScale++; continue; }
         const t = latestThreshold(p);
-        if (!t) continue;
-        rows.push({ s, p, t, diff: Math.round((points - t.min) * 100) / 100 });
+        if (!t) { if ((p.thresholds || []).length) otherScale++; continue; }
+        const gp = gradePointsFor(p, c.g);
+        if (gp.points === null) {
+          missingClasses++;
+          gp.missing.forEach(m => { missingCount[m] = (missingCount[m] || 0) + 1; });
+          continue;
+        }
+        const total = Math.round((c.examPts + gp.points + c.extra) * 100) / 100;
+        const unfilled = t.qualified != null && t.places && t.qualified < 0.75 * t.places;
+        rows.push({ s, p, t, total, mode: gp.mode, diff: Math.round((total - t.min) * 100) / 100, unfilled });
       }
     }
     const safe = rows.filter(r => r.diff >= MARGIN).sort((a, b) => b.t.min - a.t.min);
-    const edge = rows.filter(r => r.diff > -MARGIN && r.diff < MARGIN).sort((a, b) => b.diff - a.diff);
-    const above = rows.filter(r => r.diff <= -MARGIN);
+    const edge = rows.filter(r => r.diff > -MARGIN && r.diff < MARGIN).sort((a, b) => Math.abs(a.diff) - Math.abs(b.diff));
+    const unfilledBelow = rows.filter(r => r.diff <= -MARGIN && r.unfilled).sort((a, b) => b.diff - a.diff);
+    const miss = rows.filter(r => r.diff <= -MARGIN && r.diff > -CLOSE_MISS && !r.unfilled).sort((a, b) => b.diff - a.diff);
+    const far = rows.filter(r => r.diff <= -CLOSE_MISS && !r.unfilled).length;
     const multi = CITIES[d.slug].files.length > 1;
-    const item = r => `
+    const totals = rows.map(r => r.total);
+    const item = (r, extraNote) => `
       <li>
         <a href="${ctx.BASE}/szkola/${attr(r.s.rspo)}">${esc(r.s.shortName || r.s.name)}</a>${multi && r.s.city ? ` <span class="szkola__muted">(${esc(r.s.city)})</span>` : ''}:
         ${esc(profileLabel(r.p))}
-        <span class="kalk__thr">próg ${esc(r.t.year)}: ${fmtNum(r.t.min)} pkt</span>
+        <span class="kalk__thr">próg ${esc(r.t.year)}: ${fmtNum(r.t.min)} pkt · Ty: ${fmtNum(r.total)} pkt${r.mode === 'cautious' ? ' (przedmioty punktowane nieznane, liczę z dwóch najniższych ocen)' : ''}${extraNote ? ' · ' + extraNote(r) : ''}</span>
       </li>`;
-    const group = (title, list, cls, note) => list.length ? `
+    const group = (title, list, cls, note, limit, extraNote) => list.length ? `
       <section class="kalk__group kalk__group--${cls}">
         <h3 class="career-column__subtitle">${title} <span class="szkola__muted">(${list.length})</span></h3>
         ${note ? `<p class="career-column__text szkola__muted">${note}</p>` : ''}
-        <ul class="szkoly__mini kalk__list">${list.slice(0, 40).map(item).join('')}</ul>
-        ${list.length > 40 ? `<p class="career-column__text szkola__muted">Pokazuję 40 klas z najwyższym progiem. Zawęź listę rodzajem szkoły albo miastem.</p>` : ''}
+        <ul class="szkoly__mini kalk__list">${list.slice(0, limit).map(r => item(r, extraNote)).join('')}</ul>
+        ${list.length > limit ? `<p class="career-column__text szkola__muted">Pokazuję ${limit} z ${list.length}. Zawęź listę rodzajem szkoły.</p>` : ''}
       </section>` : '';
+    const missingNames = Object.entries(missingCount).sort((a, b) => b[1] - a[1]).map(([k]) => {
+      const known = CALC_SUBJECTS.find(([c]) => c === k) || (SECOND_LANG.includes(k) ? ['obcy2', 'drugi język obcy'] : null);
+      return known ? known[1].toLowerCase() : k;
+    });
+    const summary = rows.length
+      ? `Twój wynik: ${totals.length && Math.min(...totals) !== Math.max(...totals) ? `od ${fmtNum(Math.min(...totals))} do ${fmtNum(Math.max(...totals))} pkt, zależnie od przedmiotów punktowanych w klasie` : `${fmtNum(totals[0])} pkt`}. Porównano ${rows.length} klas ${esc(d.city.loc)}: powyżej progu ${safe.length}, blisko progu ${edge.length}.`
+      : `Brak klas do porównania ${esc(d.city.loc)}.`;
     return `
-      <p class="kalk__summary" id="kalkSummary">Klasy z progiem w skali 200 pkt ${esc(d.city.loc)}: ${rows.length}. Z zapasem: ${safe.length}, na granicy: ${edge.length}, próg wyżej: ${above.length}.</p>
-      ${group('Na granicy', edge, 'edge', `Twój wynik jest najwyżej ${MARGIN} pkt nad albo pod ostatnim progiem. Tu decyduje rok i liczba chętnych.`)}
-      ${group('Z zapasem', safe, 'safe', `Twój wynik jest co najmniej ${MARGIN} pkt wyższy od ostatniego progu.`)}
-      ${!rows.length ? '<p class="career-column__empty">W tym mieście nie ma jeszcze klas z opublikowanym progiem w skali 200 pkt.</p>' : ''}
-      ${otherScale ? `<p class="career-column__text szkola__muted">Pominięte klasy z inną skalą punktów (sportowe, ze sprawdzianem): ${otherScale}.</p>` : ''}`;
+      <p class="kalk__summary" id="kalkSummary">${summary}</p>
+      ${missingClasses ? `<p class="career-column__text">Uzupełnij oceny, żeby porównać jeszcze ${missingClasses} klas. Najczęściej brakuje: ${esc([...new Set(missingNames)].slice(0, 4).join(', '))}.</p>` : ''}
+      ${group('Blisko progu', edge, 'edge', `Różnica mniejsza niż ${MARGIN} pkt w jedną albo drugą stronę. Tu decyduje rok i liczba chętnych.`, 40)}
+      ${group('Powyżej ostatniego progu', safe, 'safe', `Twój wynik jest co najmniej ${MARGIN} pkt wyższy od ostatniego progu. Jeśli w tym roku progi pójdą w górę, może nie wystarczyć.`, 40)}
+      ${group('Brakuje kilku punktów', miss, 'miss', `Ostatni próg był wyższy o ${MARGIN} do ${CLOSE_MISS} pkt.`, 10, r => `brakuje ${fmtNum(Math.round(-r.diff * 100) / 100)} pkt`)}
+      ${group('Klasy, które nie wypełniły limitu miejsc', unfilledBelow, 'unfilled', 'W ostatniej rekrutacji przyjęto tu wyraźnie mniej osób, niż było miejsc, więc niższy wynik też mógł wystarczyć.', 20, r => `przyjętych ${esc(r.t.qualified)} na ${esc(r.t.places)}`)}
+      ${far ? `<p class="career-column__text szkola__muted">W ${far} klasach ostatni próg był wyższy o ${CLOSE_MISS} pkt lub więcej.</p>` : ''}
+      ${otherScale ? `<p class="career-column__text szkola__muted">Pominięte klasy z inną skalą punktów: ${otherScale}. To klasy dwujęzyczne, artystyczne, sportowe i inne, które doliczają sprawdzian albo dodatkowe punkty.</p>` : ''}`;
   }
 
   async function renderCalculator(container, params) {
     const my = ++renderSeq;
     const citySlug = CITIES[params.get('miasto')] ? params.get('miasto') : currentCity();
     const saved = loadCalc();
-    const typ = TYPES.includes(params.get('typ')) ? params.get('typ') : (saved.typ || '');
+    const typ = TYPES.includes(params.get('typ')) ? params.get('typ') : (TYPES.includes(saved.typ) ? saved.typ : '');
     setRobots('index, follow');
-    ctx.updateMeta('Kalkulator punktów ósmoklasisty | NextMove', 'Policz punkty rekrutacyjne do szkoły średniej i zobacz, w których klasach Twój wynik przekraczał ostatnie progi.', ctx.BASE + '/kalkulator');
-    const gradeSelect = (name, label) => `
+    ctx.updateMeta('Kalkulator punktów ósmoklasisty | NextMove', 'Policz punkty rekrutacyjne do szkoły średniej i porównaj je z ostatnimi progami klas.', ctx.BASE + '/kalkulator');
+    const gradeSelect = (k, label) => `
       <label class="szkoly__field kalk__field">
         <span class="szkoly__legend">${label}</span>
-        <select name="${name}" class="szkoly__select">${GRADES.map(([v, l]) => `<option value="${v}"${String(saved[name] || '') === v ? ' selected' : ''}>${l}</option>`).join('')}</select>
+        <select name="g_${k}" class="szkoly__select">${GRADES.map(([v, l]) => `<option value="${v}"${String(saved['g_' + k] || '') === v ? ' selected' : ''}>${l}</option>`).join('')}</select>
       </label>`;
     const examInput = (name, label) => `
       <label class="szkoly__field kalk__field">
         <span class="szkoly__legend">${label}</span>
-        <input type="number" inputmode="decimal" min="0" max="100" step="1" name="${name}" class="szkoly__select" value="${attr(saved[name] ?? '')}" placeholder="np. 80">
+        <input type="number" inputmode="decimal" min="0" max="100" step="1" name="${name}" class="szkoly__select" value="${attr(saved[name] ?? '')}" placeholder="np. 80" aria-describedby="err_${name}">
+        <span class="kalk__err" id="err_${name}" hidden>Wpisz wynik od 0 do 100%.</span>
       </label>`;
     container.innerHTML = `
       <div class="results szkoly kalk">
         <a href="${ctx.BASE}/szkoly?miasto=${citySlug}" class="results__back">&larr; Szkoły średnie</a>
         <h1 class="results__title">Kalkulator punktów ósmoklasisty</h1>
-        <p class="results__query">Wpisz wyniki egzaminu i oceny ze świadectwa. Policzę punkty tak, jak liczy je komisja rekrutacyjna, i porównam z ostatnimi progami klas.</p>
-        <form class="kalk__form" id="kalkForm">
+        <p class="results__query">Wpisz wyniki egzaminu i oceny ze świadectwa. Policzę punkty według rozporządzenia o rekrutacji i porównam je z ostatnimi progami klas.</p>
+        <form class="kalk__form" id="kalkForm" novalidate>
           <fieldset class="szkoly__fieldset">
             <legend class="szkoly__legend">Egzamin ósmoklasisty (wynik w procentach)</legend>
             <div class="szkoly__row">${examInput('pol', 'Język polski')}${examInput('mat', 'Matematyka')}${examInput('obcy', 'Język obcy')}</div>
+            <p class="career-column__text szkola__muted">Przed egzaminem wpisz wyniki, których się spodziewasz, np. z próbnego egzaminu.</p>
           </fieldset>
           <fieldset class="szkoly__fieldset">
             <legend class="szkoly__legend">Oceny na świadectwie</legend>
-            <div class="szkoly__row">${gradeSelect('gPol', 'Język polski')}${gradeSelect('gMat', 'Matematyka')}${gradeSelect('g1', 'Pierwszy przedmiot punktowany')}${gradeSelect('g2', 'Drugi przedmiot punktowany')}</div>
-            <p class="career-column__text szkola__muted">Dwa przedmioty punktowane wybiera szkoła, np. język obcy i biologię. Sprawdzisz je przy klasie na stronie szkoły, w polu „Oceny brane do punktacji”.</p>
+            <div class="kalk__grades">${CALC_SUBJECTS.map(([k, l]) => gradeSelect(k, l)).join('')}</div>
+            <p class="career-column__text szkola__muted">Każda klasa punktuje polski, matematykę i dwa inne przedmioty. Wpisz oceny ze wszystkich, a kalkulator weźmie te, które liczy dana klasa.</p>
           </fieldset>
           <fieldset class="szkoly__fieldset">
             <legend class="szkoly__legend">Dodatkowe punkty</legend>
@@ -885,10 +944,21 @@ const Szkoly = (function () {
               <label class="szkoly__chip szkoly__chip--solo"><input type="checkbox" name="wyr" value="1"${saved.wyr ? ' checked' : ''}> Świadectwo z wyróżnieniem (7 pkt)</label>
               <label class="szkoly__chip szkoly__chip--solo"><input type="checkbox" name="wol" value="1"${saved.wol ? ' checked' : ''}> Wolontariat (3 pkt)</label>
               <label class="szkoly__field kalk__field kalk__field--small">
-                <span class="szkoly__legend">Osiągnięcia w konkursach (0 do 18 pkt)</span>
-                <input type="number" inputmode="numeric" min="0" max="18" step="1" name="osi" class="szkoly__select" value="${attr(saved.osi ?? '')}" placeholder="0">
+                <span class="szkoly__legend">Osiągnięcia (0 do 18 pkt)</span>
+                <input type="number" inputmode="numeric" min="0" max="18" step="1" name="osi" class="szkoly__select" value="${attr(saved.osi ?? '')}" placeholder="0" aria-describedby="err_osi">
+                <span class="kalk__err" id="err_osi" hidden>Wpisz liczbę od 0 do 18.</span>
               </label>
             </div>
+            <details class="kalk__help">
+              <summary>Ile punktów za osiągnięcia?</summary>
+              <ul>
+                <li>Finalista konkursu przedmiotowego kuratorów o zasięgu ponadwojewódzkim albo ogólnopolskiego: 10 pkt.</li>
+                <li>Finalista wojewódzkiego konkursu przedmiotowego kuratora: 7 pkt, dwa lub więcej tytułów: 10 pkt.</li>
+                <li>Laureat konkursu tematycznego lub interdyscyplinarnego: 5 do 7 pkt, finalista: 3 do 5 pkt (zależnie od zasięgu).</li>
+                <li>Wysokie miejsce w innych zawodach wiedzy, artystycznych lub sportowych wpisanych na świadectwo: międzynarodowe 4 pkt, krajowe 3, wojewódzkie 2, powiatowe 1.</li>
+                <li>Razem najwyżej 18 pkt. Szczegóły w § 6 rozporządzenia.</li>
+              </ul>
+            </details>
           </fieldset>
           <fieldset class="szkoly__fieldset">
             <legend class="szkoly__legend">Gdzie szukać</legend>
@@ -901,25 +971,38 @@ const Szkoly = (function () {
             </div>
           </fieldset>
         </form>
-        <div class="kalk__total" aria-live="polite" id="kalkTotal"></div>
-        <div id="kalkResults"><p class="szkoly__loading">Wczytuję progi…</p></div>
-        <p class="szkoly__footnote">Punkty liczone według rozporządzenia Ministra Edukacji z 3 kwietnia 2025 r. (<a href="${LAW_URL}" target="_blank" rel="noopener">Dz.U. 2025 poz. 464</a>): polski i matematyka z egzaminu ×0,35, język obcy ×0,3, cztery oceny po 2 do 18 pkt, wyróżnienie 7 pkt, osiągnięcia do 18 pkt, wolontariat 3 pkt. Razem do 200 pkt. Progi zmieniają się co roku, więc wynik pokazuje szanse, a nie gwarancję przyjęcia. Klasy dwujęzyczne i sportowe mogą doliczać sprawdzian.</p>
+        <div class="kalk__total" id="kalkTotal"></div>
+        <div id="kalkResults" aria-live="polite"></div>
+        <p class="szkoly__footnote">Punkty liczone według rozporządzenia Ministra Edukacji z 3 kwietnia 2025 r. (<a href="${LAW_URL}" target="_blank" rel="noopener">Dz.U. 2025 poz. 464</a>): polski i matematyka z egzaminu ×0,35, język obcy ×0,3 (także na poziomie dwujęzycznym), cztery oceny po 2 do 18 pkt, wyróżnienie 7 pkt, osiągnięcia do 18 pkt, wolontariat 3 pkt. Razem do 200 pkt.
+        Osoby zwolnione z egzaminu albo z jednego przedmiotu dostają punkty z ocen na świadectwie według § 8 rozporządzenia; tego kalkulator nie liczy. Laureaci i finaliści olimpiad oraz laureaci konkursów przedmiotowych kuratora są przyjmowani w pierwszej kolejności (art. 132 Prawa oświatowego).
+        Progi zmieniają się co roku. Lista pokazuje, gdzie taki wynik wystarczał ostatnio, i nie gwarantuje przyjęcia.</p>
       </div>`;
     const form = container.querySelector('#kalkForm');
     const totalEl = container.querySelector('#kalkTotal');
     const resultsEl = container.querySelector('#kalkResults');
     let d = null;
     const update = () => {
-      const f = readCalcForm(form);
+      const f = readCalc(form);
       saveCalc(f);
-      const { parts, total } = computePoints(f);
+      const c = parseCalc(f);
+      for (const k of ['pol', 'mat', 'obcy', 'osi']) {
+        const bad = c.invalid.includes(k);
+        const input = form.querySelector(`[name="${k}"]`);
+        input.setAttribute('aria-invalid', bad ? 'true' : 'false');
+        form.querySelector('#err_' + k).hidden = !bad;
+      }
+      if (c.examPts === null || c.invalid.length) {
+        totalEl.innerHTML = `<p class="kalk__points">${c.invalid.length ? 'Popraw zaznaczone pola' : 'Uzupełnij wyniki egzaminu'}</p><p class="szkola__muted">Porównanie z progami pojawi się po wpisaniu wyników z polskiego, matematyki i języka obcego.</p>`;
+        resultsEl.innerHTML = '';
+        return;
+      }
       totalEl.innerHTML = `
-        <p class="kalk__points"><strong>${fmtNum(total)}</strong> z 200 pkt</p>
-        <p class="szkola__muted">Egzamin ${fmtNum(Math.round(parts.exam * 100) / 100)} · oceny ${esc(parts.grades)} · wyróżnienie ${esc(parts.honors)} · osiągnięcia ${esc(parts.achievements)} · wolontariat ${esc(parts.volunteering)}</p>`;
-      if (d) resultsEl.innerHTML = calcResultsHtml(d, total, f.typ || '');
+        <p class="kalk__points">Egzamin: <strong>${fmtNum(Math.round(c.examPts * 100) / 100)}</strong> z 100 pkt · dodatkowe: <strong>${esc(c.extra)}</strong> pkt</p>
+        <p class="szkola__muted">Do tego oceny ze świadectwa, do 72 pkt. Ich liczba zależy od klasy, dlatego wynik w każdej klasie jest policzony osobno.</p>`;
+      resultsEl.innerHTML = d ? calcResultsHtml(d, c, f.typ || '') : '<p class="szkoly__loading">Wczytuję progi…</p>';
     };
     let timer = null;
-    form.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(update, 200); });
+    form.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(update, 250); });
     form.addEventListener('change', update);
     form.addEventListener('submit', e => { e.preventDefault(); update(); });
     update();

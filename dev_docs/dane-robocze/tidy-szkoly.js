@@ -4,11 +4,13 @@ const fs = require('fs');
 const path = require('path');
 const DIR = path.resolve(__dirname, '../../data/szkoly');
 const ROMAN = /^[IVXLC]+$/;
+// Zwykła pisownia tylko dla słów od 5 liter; skróty (LO, TEB, ZSE, CKZiU) i liczby rzymskie zostają bez zmian
 function titleCase(str) {
-  return str.toLowerCase().split(/(\s+|-)/).map(w => {
-    if (ROMAN.test(w.toUpperCase()) && w.length > 0 && /^[ivxlc]+$/.test(w)) return w.toUpperCase();
-    if (['nr', 'im.', 'i', 'w', 'z', 'na', 'dla'].includes(w)) return w;
-    return w.charAt(0).toUpperCase() + w.slice(1);
+  return str.split(/(\s+|-|„|”|\(|\))/).map(w => {
+    if (!w || /^(\s+|-|„|”|\(|\))$/.test(w)) return w;
+    if (ROMAN.test(w) || w.length < 5 || /\d/.test(w)) return w;
+    const lower = w.toLowerCase();
+    return lower.charAt(0).toUpperCase() + lower.slice(1);
   }).join('');
 }
 function tidyName(name) {
@@ -21,7 +23,7 @@ for (const f of fs.readdirSync(DIR).filter(f => f.endsWith('.json') && f !== 'in
   const p = path.join(DIR, f);
   const d = JSON.parse(fs.readFileSync(p, 'utf8'));
   for (const s of d.schools) {
-    if (s.shortName && s.shortName.length > 6 && s.shortName === s.shortName.toUpperCase() && /[A-ZĄĆĘŁŃÓŚŹŻ]{4}/.test(s.shortName)) {
+    if (s.shortName && s.shortName === s.shortName.toUpperCase() && /[A-ZĄĆĘŁŃÓŚŹŻ]{5,}/.test(s.shortName.replace(/\b[IVXLC]+\b/g, ''))) {
       s.shortName = titleCase(s.shortName); changed++;
     }
     if (s.admission) s.admission = s.admission.replace('nie jest kluczowy', 'nie decyduje o przyjęciu');

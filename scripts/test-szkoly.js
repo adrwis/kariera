@@ -121,19 +121,24 @@ server.listen(0, async () => {
 
   console.log('\n=== Kalkulator ===');
   await page.goto(base + '/kalkulator?miasto=trojmiasto');
+  await page.evaluate(() => sessionStorage.clear());
+  await page.reload();
   await page.waitForSelector('#kalkForm');
+  check('bez egzaminu nie ma porównania z progami', /Uzupełnij wyniki egzaminu/.test(await page.textContent('#kalkTotal')));
   await page.fill('[name=pol]', '80');
   await page.fill('[name=mat]', '70');
   await page.fill('[name=obcy]', '90');
-  for (const [n, v] of [['gPol', '5'], ['gMat', '5'], ['g1', '4'], ['g2', '5']]) await page.selectOption(`[name=${n}]`, v);
+  for (const [n, v] of [['g_pol', '5'], ['g_mat', '5'], ['g_ang', '5'], ['g_obcy2', '4'], ['g_bio', '4'], ['g_chem', '4'], ['g_fiz', '4'], ['g_geo', '5'], ['g_hist', '5'], ['g_inf', '6'], ['g_wos', '5']]) await page.selectOption(`[name=${n}]`, v);
   await page.check('[name=wyr]');
   await page.check('[name=wol]');
-  await page.waitForFunction(() => /Z zapasem/.test(document.querySelector('#kalkResults').textContent));
-  const pts = await page.textContent('.kalk__points');
-  check('wynik liczony według rozporządzenia (154,5 pkt)', /154,5/.test(pts), pts);
+  await page.waitForFunction(() => /Porównano/.test(document.querySelector('#kalkResults').textContent));
+  const tot = await page.textContent('#kalkTotal');
+  check('egzamin 80/70/90 daje 79,5 pkt, dodatkowe 10 pkt', /79,5/.test(tot) && /dodatkowe: 10/.test(tot), tot.replace(/\s+/g, ' '));
+  const summary = await page.textContent('#kalkSummary');
+  check('wynik liczony osobno dla klas (zakres punktów)', /Twój wynik: od \d/.test(summary), summary);
   await page.fill('[name=osi]', '40');
-  await page.waitForTimeout(400);
-  check('osiągnięcia ograniczone do 18 pkt', /172,5/.test(await page.textContent('.kalk__points')));
+  await page.waitForTimeout(500);
+  check('liczba spoza zakresu daje komunikat', await page.isVisible('#err_osi'));
   await page.evaluate(() => sessionStorage.clear());
 
   console.log('\n=== Telefon ===');

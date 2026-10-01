@@ -90,4 +90,5 @@
   <url><loc>https://adrwis.github.io/kariera/zawod/ogrodnik</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://adrwis.github.io/kariera/zawod/inzynier-srodowiska</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://adrwis.github.io/kariera/zawod/technik-weterynarii</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://adrwis.github.io/kariera/kalkulator</loc></url>
 </urlset>
