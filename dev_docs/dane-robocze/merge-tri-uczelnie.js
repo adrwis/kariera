@@ -1,4 +1,4 @@
-// Dopisuje uczelnie trójmiejskie (wyniki/wynik-tri-uczelnie-*.json) do zawodów w data/careers.json.
+// Dopisuje uczelnie trójmiejskie i z pięciu dużych miast (wyniki/wynik-tri-uczelnie-*.json, wynik-uczelnie-miasta.json) do zawodów w data/careers.json.
 // Pomija wpisy już istniejące (ta sama nazwa szkoły w zawodzie) i dopasowania oznaczone przez agenta jako naciągane.
 const fs = require('fs');
 const path = require('path');
@@ -13,9 +13,11 @@ const SKIP = [
   ['projektant-ux', /^ASP/],            // grafika i wzornictwo: dopasowanie nieoczywiste
 ];
 // Tryb, w którym limit miejsc nie został wypełniony: najniższy wynik nie jest progiem
-const DROP_MODE = [[/^ASP/, 'architekt-wnetrz', 'niestacjonarne']];
+const DROP_MODE = [[/^ASP/, 'architekt-wnetrz', 'niestacjonarne'],
+  // CM UMK, kierunek lekarski: kolumnę „nwj” agent uznał za studia niestacjonarne tylko na podstawie tabeli czesnego
+  ...['lekarz', 'psychiatra', 'pediatra', 'chirurg', 'kardiolog'].map(c => [/^CM UMK, Wydział Lekarski/, c, 'niestacjonarne'])];
 
-const entries = [1, 2].map(n => path.join(W, `wynik-tri-uczelnie-${n}.json`)).filter(fs.existsSync)
+const entries = ['wynik-tri-uczelnie-1.json', 'wynik-tri-uczelnie-2.json', 'wynik-uczelnie-miasta.json'].map(f => path.join(W, f)).filter(fs.existsSync)
   .flatMap(f => JSON.parse(fs.readFileSync(f, 'utf8')));
 const data = JSON.parse(fs.readFileSync(DATA, 'utf8'));
 const byId = new Map(data.map(c => [c.id, c]));

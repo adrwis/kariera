@@ -24,7 +24,7 @@ const Szkoly = (function () {
     bydgoszcz: { name: 'Bydgoszcz', loc: 'w Bydgoszczy', files: ['bydgoszcz'], uni: ['Bydgoszcz'] },
     lublin: { name: 'Lublin', loc: 'w Lublinie', files: ['lublin'], uni: ['Lublin'] },
     bialystok: { name: 'Białystok', loc: 'w Białymstoku', files: ['bialystok'], uni: ['Białystok'] },
-    katowice: { name: 'Katowice', loc: 'w Katowicach', files: ['katowice'], uni: ['Katowice', 'Gliwice'] },
+    katowice: { name: 'Katowice', loc: 'w Katowicach', files: ['katowice'], uni: ['Katowice', 'Gliwice', 'Zabrze', 'Sosnowiec', 'Bytom'] },
   };
   const CITY_GROUPS = [
     ['Pomorze', ['trojmiasto', 'gdansk', 'gdynia', 'sopot', 'wejherowo']],
