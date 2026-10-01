@@ -76,6 +76,10 @@ for (const [slug, city] of REGIONS) {
     profiles = profiles.map(p => [[11478, /^0 wstępna/]].some(([r, re]) => r === s.rspo && re.test(p.name)) ? { ...p, extended: [], extendedChoice: [] } : p);
     profiles = profiles.filter(p => !DROP_PROFILE.some(([r, re]) => r === s.rspo && re.test(p.name)));
     if (CLEAR_EXTENDED.has(s.rspo)) profiles = profiles.map(p => ({ ...p, extended: [], extendedChoice: [] }));
+    // Lublin: statystyki nie podają skali; zostawiamy progi tylko oddziałów ogólnodostępnych [O] (skala 200 pewna)
+    if (slug === 'lublin') profiles = profiles.map(p => (/\[(?!O\])[^\]]+\]/.test(p.name) || !/\[O\]/.test(p.name)) ? { ...p, thresholds: [] } : p);
+    // Białystok INFOTECH: liczba miejsc ze strony, której nie podano jako źródła
+    if (s.rspo === 268517) profiles = profiles.map(p => ({ ...p, places: null }));
     // Kraków: system podaje „sugerowane” rozszerzenia; przy więcej niż trzech nie wiadomo, które są obowiązkowe
     if (slug === 'krakow') profiles = profiles.map(p => (p.extended || []).length > 3 ? { ...p, extended: [] } : p);
     profiles = profiles.map(p => ({ ...p, thresholds: p.thresholds.filter(t => !DROP_THRESHOLDS.some(([r, re, y]) => r === s.rspo && re.test(p.name) && t.year === y)) }));
@@ -87,6 +91,8 @@ for (const [slug, city] of REGIONS) {
     if (out.url && UNSAFE_URL.test(out.url)) out.url = null;
     if (r.district && !s.district) out.district = r.district;
     if (r.admission) out.admission = r.admission;
+    // Białystok: liczba miejsc pochodzi z miejskiego informatora 2026/27
+    if (slug === 'bialystok' && profiles.some(p => p.places)) out.sources = [...(out.sources || []), { name: 'Informator o ofercie edukacyjnej 2026/2027, Departament Edukacji UM Białystok (liczba miejsc)', url: 'https://www.10lo.pl/wp-content/uploads/2026/03/informator-2026-2027.pdf', retrieved: RET }];
     return out;
   });
   schools.forEach(s => { index.rspo[s.rspo] = slug; });

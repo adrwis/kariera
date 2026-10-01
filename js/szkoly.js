@@ -632,6 +632,8 @@ const Szkoly = (function () {
           ${maturaHtml(s.matura, (d.cityMeans || {})[s.matura ? s.matura.year : 0] || {}, d.city.name, d.city.loc)}
         </section>
 
+        ${isTech && profiles.some(p => (p.qualifications || []).length) ? `<p class="career-column__text szkola__muted">Kwalifikacje zawodowe według rozporządzenia w sprawie podstaw programowych kształcenia w zawodach (<a href="https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20240000611" target="_blank" rel="noopener">Dz.U. 2024 poz. 611</a> ze zmianami).</p>` : ''}
+
         ${relatedCareersHtml(s)}
 
         <section class="szkola__section career-sources career-sources--detail">
