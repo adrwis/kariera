@@ -1,0 +1,1252 @@
+[
+ {
+  "rspo": 22517,
+  "profileName": "IA (geografia, matematyka, j. angielski)",
+  "year": 2025,
+  "min": 139.4,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "I Liceum Ogólnokształcące",
+  "pdfClass": "1A_geo_ang_mat"
+ },
+ {
+  "rspo": 22517,
+  "profileName": "I B gr.2 (matematyka, fizyka, j. angielski)",
+  "year": 2025,
+  "min": 170.8,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "I Liceum Ogólnokształcące",
+  "pdfClass": "1B_GR2_mat_fiz_an g"
+ },
+ {
+  "rspo": 22517,
+  "profileName": "I B gr.1 (matematyka, fizyka, informatyka)",
+  "year": 2025,
+  "min": 168.45,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "I Liceum Ogólnokształcące",
+  "pdfClass": "1B_GR1_mat_fiz_inf"
+ },
+ {
+  "rspo": 22517,
+  "profileName": "I C (biologia, chemia, matematyka)",
+  "year": 2025,
+  "min": 171.8,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "I Liceum Ogólnokształcące",
+  "pdfClass": "1C_biol_chem_mat"
+ },
+ {
+  "rspo": 22517,
+  "profileName": "I D (biologia, chemia, matematyka)",
+  "year": 2025,
+  "min": 165.75,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "I Liceum Ogólnokształcące",
+  "pdfClass": "1D_biol_chem_mat"
+ },
+ {
+  "rspo": 22518,
+  "profileName": "I a gr. 1 Kultur Dalekiego Wschodu (j. angielski, wos, geografia)",
+  "year": 2025,
+  "min": 104.45,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "II Liceum Ogólnokształcące",
+  "pdfClass": "1A gr.1 Kultur Dalekiego Wschodu (ang/niem)"
+ },
+ {
+  "rspo": 22518,
+  "profileName": "I a gr. 2 Kultur Dalekiego Wschodu (j. angielski, wos, geografia)",
+  "year": 2025,
+  "min": 99.55,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "II Liceum Ogólnokształcące",
+  "pdfClass": "1A gr.2 Kultur Dalekiego Wschodu (ang/fr)"
+ },
+ {
+  "rspo": 22518,
+  "profileName": "I c gr 1 biologiczno-chemiczna (j. angielski, biologia, chemia)",
+  "year": 2025,
+  "min": 123.0,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "II Liceum Ogólnokształcące",
+  "pdfClass": "1C gr.1 Biologiczno-chemiczna (ang/niem)"
+ },
+ {
+  "rspo": 22518,
+  "profileName": "I c gr. 2 biologiczno-chemiczna (j. angielski, biologia, chemia)",
+  "year": 2025,
+  "min": 123.2,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "II Liceum Ogólnokształcące",
+  "pdfClass": "1C gr.2 Biologiczno-chemiczna (ang/fr)"
+ },
+ {
+  "rspo": 22518,
+  "profileName": "I d gr. 1 design Culture Create/ nowoczesnych technologii artystycznych (j. angielski, j. polski, historia sztuki)",
+  "year": 2025,
+  "min": 97.6,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "II Liceum Ogólnokształcące",
+  "pdfClass": "1D gr.1 Design Culture Create/ nowoczesnych technologii artystycznych (ang/niem)"
+ },
+ {
+  "rspo": 22518,
+  "profileName": "I d gr. 2 design Culture Create/ nowoczesnych technologii artystycznych (j. angielski, j. polski, historia sztuki)",
+  "year": 2025,
+  "min": 94.7,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "II Liceum Ogólnokształcące",
+  "pdfClass": "1D gr.2 Design Culture Create/nowoczesnyc h technologii artystycznych (ang/fr)"
+ },
+ {
+  "rspo": 22522,
+  "profileName": "I a turystyczna (j. angielski, geografia)",
+  "year": 2025,
+  "min": 113.15,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "VI Liceum Ogólnokształcące",
+  "pdfClass": "1a turystyczna"
+ },
+ {
+  "rspo": 22522,
+  "profileName": "1 b sztuk scenicznych (j. polski, historia)",
+  "year": 2025,
+  "min": 85.9,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "VI Liceum Ogólnokształcące",
+  "pdfClass": "1b sztuk scenicznych"
+ },
+ {
+  "rspo": 22522,
+  "profileName": "1 z prozdrowotna (biologia, j. angielski)",
+  "year": 2025,
+  "min": 118.25,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "VI Liceum Ogólnokształcące",
+  "pdfClass": "1z prozdrowotna z językiem łacińskim"
+ },
+ {
+  "rspo": 22523,
+  "profileName": "0w gr.1 (15 os.) wstępna (biologia, chemia)",
+  "year": 2025,
+  "min": 130.1,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "VIII Liceum Ogólnokształcące",
+  "pdfClass": "0 (wstępna) biol-chem"
+ },
+ {
+  "rspo": 22524,
+  "profileName": "1 A (matematyka, informatyka, j. angielski)",
+  "year": 2025,
+  "min": 80.95,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "IX Liceum Ogólnokształcące",
+  "pdfClass": "1a matematyczno - informatyczna"
+ },
+ {
+  "rspo": 22524,
+  "profileName": "1 B (biologia, chemia, j. angielski)",
+  "year": 2025,
+  "min": 121.2,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "IX Liceum Ogólnokształcące",
+  "pdfClass": "1b biologiczno - chemiczna"
+ },
+ {
+  "rspo": 267033,
+  "profileName": "I d gr. 1 humanistyczna (j. angielski, j. polski, historia)",
+  "year": 2025,
+  "min": 123.95,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XI Liceum Ogólnokształcące",
+  "pdfClass": "1D/1 humanistyczna"
+ },
+ {
+  "rspo": 267033,
+  "profileName": "I d gr. 2 humanistyczna (j. angielski, j. polski, historia)",
+  "year": 2025,
+  "min": 122.9,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XI Liceum Ogólnokształcące",
+  "pdfClass": "1D/2 humanistyczna"
+ },
+ {
+  "rspo": 22525,
+  "profileName": "I a matematyczno-fizyczno-angielska (eksperyment pedagogiczny w zakresie matematyki) (matematyka, fizyka, j. angielski)",
+  "year": 2025,
+  "min": 133.65,
+  "scale": 280,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XII Liceum Ogólnokształcące",
+  "pdfClass": "Klasa A - matematyczno-fizyczno-angielska"
+ },
+ {
+  "rspo": 22525,
+  "profileName": "I b matematyczno-fizyczna (matematyka, fizyka)",
+  "year": 2025,
+  "min": 113.65,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XII Liceum Ogólnokształcące",
+  "pdfClass": "Klasa B - matematyczno-fizyczna"
+ },
+ {
+  "rspo": 22525,
+  "profileName": "I c matematyczno-biologiczno-chemiczna (matematyka, biologia, chemia)",
+  "year": 2025,
+  "min": 155.4,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XII Liceum Ogólnokształcące",
+  "pdfClass": "Klasa C - matematyczno-biologiczno-chemiczna"
+ },
+ {
+  "rspo": 22525,
+  "profileName": "1 d matematyczno-geograficzno-angielska (matematyka, geografia, j. angielski)",
+  "year": 2025,
+  "min": 152.05,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XII Liceum Ogólnokształcące",
+  "pdfClass": "Klasa D - matematyczno-geograficzno-angielska"
+ },
+ {
+  "rspo": 25290,
+  "profileName": "I b medyczna biologiczno-chemiczna (biologia, chemia, matematyka)",
+  "year": 2025,
+  "min": 156.85,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XIII Liceum Ogólnokształcące",
+  "pdfClass": "1b medyczna_biologiczn o_chemiczna"
+ },
+ {
+  "rspo": 25290,
+  "profileName": "I c politechniczna matematyczno-fizyczna (matematyka, fizyka, j. angielski)",
+  "year": 2025,
+  "min": 152.1,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XIII Liceum Ogólnokształcące",
+  "pdfClass": "1c politechniczna_mate matyczno-fizyczna"
+ },
+ {
+  "rspo": 25290,
+  "profileName": "0 wd wstępna 1 grupa (j. polski, historia)",
+  "year": 2025,
+  "min": 127.6,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XIII Liceum Ogólnokształcące",
+  "pdfClass": "0wd_wstępna_human istyczna"
+ },
+ {
+  "rspo": 25290,
+  "profileName": "0 wd wstępna 2 grupa (biologia, chemia)",
+  "year": 2025,
+  "min": 120.3,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XIII Liceum Ogólnokształcące",
+  "pdfClass": "0wd_wstępna_biologi czno-chemiczna"
+ },
+ {
+  "rspo": 25445,
+  "profileName": "I a prawniczo-ekonomiczna (geografia, j. angielski, j. polski)",
+  "year": 2025,
+  "min": 93.25,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XX Liceum Ogólnokształcące",
+  "pdfClass": "1A PRAWNICZO-EKONOMICZNA"
+ },
+ {
+  "rspo": 25445,
+  "profileName": "I b medyczna (biologia, chemia, j. angielski)",
+  "year": 2025,
+  "min": 97.5,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XX Liceum Ogólnokształcące",
+  "pdfClass": "1B MEDYCZNA"
+ },
+ {
+  "rspo": 25445,
+  "profileName": "I c humanistyczno-dziennikarska (j. polski, historia, wos)",
+  "year": 2025,
+  "min": 92.4,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XX Liceum Ogólnokształcące",
+  "pdfClass": "1C HUMANISTYCZNO-DZIENNIKARSKA"
+ },
+ {
+  "rspo": 25350,
+  "profileName": "I d gr.1 politechniczna informatyczno-matematyczna (j. angielski, informatyka, matematyka)",
+  "year": 2025,
+  "min": 120.2,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXI Liceum Ogólnokształcące",
+  "pdfClass": "D (gr.1) politechniczna z j. francuskim"
+ },
+ {
+  "rspo": 25401,
+  "profileName": "1 b przyrodnicza (biologia, chemia)",
+  "year": 2025,
+  "min": 77.05,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXIII Liceum Ogólnokształcące",
+  "pdfClass": "1B - przyrodnicza"
+ },
+ {
+  "rspo": 25401,
+  "profileName": "1 f integracyjna (geografia, j. angielski)",
+  "year": 2025,
+  "min": 37.9,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXIII Liceum Ogólnokształcące",
+  "pdfClass": "1F oddział integracyjny"
+ },
+ {
+  "rspo": 25446,
+  "profileName": "1b (j. hiszpański, geografia, j. angielski)",
+  "year": 2025,
+  "min": 120.45,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXIV Liceum Ogólnokształcące",
+  "pdfClass": "Klasa 1B j.hiszpański, j.angielski, geografia (ang+hiszp)"
+ },
+ {
+  "rspo": 25360,
+  "profileName": "I a ekonomiczna (geografia, matematyka, j. angielski)",
+  "year": 2025,
+  "min": 152.85,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXV Liceum Ogólnokształcące",
+  "pdfClass": "1 A - Ekonomiczna (mat-geo-ang)"
+ },
+ {
+  "rspo": 25360,
+  "profileName": "I b politechniczna (matematyka, fizyka, j. angielski)",
+  "year": 2025,
+  "min": 156.1,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXV Liceum Ogólnokształcące",
+  "pdfClass": "1B-gr.1 - Politechniczna (mat-fiz-ang)"
+ },
+ {
+  "rspo": 25360,
+  "profileName": "I c medyczna (biologia, chemia, j. angielski)",
+  "year": 2025,
+  "min": 156.9,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXV Liceum Ogólnokształcące",
+  "pdfClass": "1C - Medyczna (biol-chem-ang)"
+ },
+ {
+  "rspo": 25360,
+  "profileName": "I d prawnicza (j. polski, historia, j. angielski)",
+  "year": 2025,
+  "min": 137.95,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXV Liceum Ogólnokształcące",
+  "pdfClass": "1 D - Prawnicza (pol-hist-ang)"
+ },
+ {
+  "rspo": 25385,
+  "profileName": "I b (matematyka, fizyka, informatyka)",
+  "year": 2025,
+  "min": 162.85,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXVI Liceum Ogólnokształcące",
+  "pdfClass": "1B (mat-fiz-inf)"
+ },
+ {
+  "rspo": 25385,
+  "profileName": "I c (biologia, chemia, matematyka)",
+  "year": 2025,
+  "min": 163.9,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXVI Liceum Ogólnokształcące",
+  "pdfClass": "1C (biol-chem-mat)"
+ },
+ {
+  "rspo": 25385,
+  "profileName": "I d (matematyka, geografia, j. angielski)",
+  "year": 2025,
+  "min": 152.7,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXVI Liceum Ogólnokształcące",
+  "pdfClass": "1D (mat-geo-ang)"
+ },
+ {
+  "rspo": 25385,
+  "profileName": "I e gr. 1 (biologia, chemia, j. angielski)",
+  "year": 2025,
+  "min": 164.15,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXVI Liceum Ogólnokształcące",
+  "pdfClass": "1E (biol-chem-ang) gr.1"
+ },
+ {
+  "rspo": 25385,
+  "profileName": "I a (j. polski, historia, j. angielski)",
+  "year": 2025,
+  "min": 151.3,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXVI Liceum Ogólnokształcące",
+  "pdfClass": "1A (pol-hist-ang)"
+ },
+ {
+  "rspo": 25385,
+  "profileName": "I e gr. 2 (biologia, chemia, j. angielski)",
+  "year": 2025,
+  "min": 169.75,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXVI Liceum Ogólnokształcące",
+  "pdfClass": "1E (biol-chem-ang) gr.2"
+ },
+ {
+  "rspo": 25438,
+  "profileName": "1 a matematyczno-projektowa (matematyka, j. angielski, geografia)",
+  "year": 2025,
+  "min": 143.45,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXIX Liceum Ogólnokształcące",
+  "pdfClass": "1a matematyczno - projektowa"
+ },
+ {
+  "rspo": 25438,
+  "profileName": "1 b społeczno-prawna (j. polski, j. angielski, historia)",
+  "year": 2025,
+  "min": 142.1,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXIX Liceum Ogólnokształcące",
+  "pdfClass": "1b humanistyczna (społeczno-prawna)"
+ },
+ {
+  "rspo": 25438,
+  "profileName": "1 c turystyczno-językowa (j. angielski, j. hiszpański, geografia)",
+  "year": 2025,
+  "min": 144.9,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXIX Liceum Ogólnokształcące",
+  "pdfClass": "1c turystyczno - językowa"
+ },
+ {
+  "rspo": 25438,
+  "profileName": "1 d biologiczno-chemiczna (j. angielski, biologia, chemia)",
+  "year": 2025,
+  "min": 156.95,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXIX Liceum Ogólnokształcące",
+  "pdfClass": "1d biologiczno - chemiczna'"
+ },
+ {
+  "rspo": 25439,
+  "profileName": "1h (j. polski, historia, j. angielski)",
+  "year": 2025,
+  "min": 90.75,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXX Liceum Ogólnokształcące",
+  "pdfClass": "1H Humanistyczno - Językowa"
+ },
+ {
+  "rspo": 25439,
+  "profileName": "1p (biologia, chemia, j. angielski)",
+  "year": 2025,
+  "min": 98.0,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXX Liceum Ogólnokształcące",
+  "pdfClass": "1P Przyrodnicza"
+ },
+ {
+  "rspo": 25439,
+  "profileName": "1g (geografia, wos, j. angielski)",
+  "year": 2025,
+  "min": 98.9,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXX Liceum Ogólnokształcące",
+  "pdfClass": "1G Geograficzno-Turystyczna"
+ },
+ {
+  "rspo": 27598,
+  "profileName": "I a informatyczna z robotyką (informatyka, j. angielski)",
+  "year": 2025,
+  "min": 40.3,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XLVII Liceum Ogólnokształcące",
+  "pdfClass": "1A - Informatyczna z robotyką"
+ },
+ {
+  "rspo": 27598,
+  "profileName": "I b sportowa piłka siatkowa (j. angielski, biologia, chemia lub geografia lub wos)",
+  "year": 2025,
+  "min": 110.0,
+  "scale": 150,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XLVII Liceum Ogólnokształcące",
+  "pdfClass": "1B - Sportowa - Piłka siatkowa z edukacją przyrodniczo-społeczną"
+ },
+ {
+  "rspo": 27598,
+  "profileName": "I c humanistyczna (j. polski, j. angielski, geografia)",
+  "year": 2025,
+  "min": 36.0,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XLVII Liceum Ogólnokształcące",
+  "pdfClass": "1C - Humanistyczna"
+ },
+ {
+  "rspo": 27598,
+  "profileName": "I d sportowa piłka nożna strzelectwo (j. angielski, biologia, chemia lub geografia lub wos)",
+  "year": 2025,
+  "min": 140.0,
+  "scale": 150,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XLVII Liceum Ogólnokształcące",
+  "pdfClass": "1D - Sportowa - Piłka nożna / Strzelectwo sportowe z edukacją przyrodniczo-społeczną"
+ },
+ {
+  "rspo": 27598,
+  "profileName": "I f biologiczna (j. angielski, biologia, chemia lub geografia lub wos)",
+  "year": 2025,
+  "min": 46.35,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XLVII Liceum Ogólnokształcące",
+  "pdfClass": "1F - Biologiczna z edukacją przyrodniczo--społeczną"
+ },
+ {
+  "rspo": 27323,
+  "profileName": "I a (matematyka, fizyka, j. angielski)",
+  "year": 2025,
+  "min": 73.5,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXXII Liceum Ogólnokształcące",
+  "pdfClass": "1A MATEMATYCZNO-FIZYCZNA"
+ },
+ {
+  "rspo": 27323,
+  "profileName": "I b (biologia, chemia, matematyka)",
+  "year": 2025,
+  "min": 143.4,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXXII Liceum Ogólnokształcące",
+  "pdfClass": "1B BIOLOGICZNO-CHEMICZNA"
+ },
+ {
+  "rspo": 27323,
+  "profileName": "I d (geografia, matematyka, j. angielski)",
+  "year": 2025,
+  "min": 104.05,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXXII Liceum Ogólnokształcące",
+  "pdfClass": "1D GEOGRAFICZNA"
+ },
+ {
+  "rspo": 27323,
+  "profileName": "0 h, klasa wstępna przygotowująca do kształcenia dwujęzycznego od klasy I (geografia, j. angielski)",
+  "year": 2025,
+  "min": 103.4,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXXII Liceum Ogólnokształcące",
+  "pdfClass": "OH wstępna z językiem hiszpańskim"
+ },
+ {
+  "rspo": 27323,
+  "profileName": "I c (j. polski, historia, wos)",
+  "year": 2025,
+  "min": 94.6,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "XXXII Liceum Ogólnokształcące",
+  "pdfClass": "1C HUMANISTYCZNA"
+ },
+ {
+  "rspo": 29037,
+  "profileName": "I a, technik ekonomista",
+  "year": 2025,
+  "min": 32.0,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 1",
+  "pdfClass": "1ATE- technik ekonomista"
+ },
+ {
+  "rspo": 29037,
+  "profileName": "I d, technik eksploatacji portów i terminali",
+  "year": 2025,
+  "min": 46.25,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 1",
+  "pdfClass": "1ATP- technik eksploatacji portów i terminali"
+ },
+ {
+  "rspo": 29037,
+  "profileName": "I b, technik organizacji turystyki",
+  "year": 2025,
+  "min": 47.9,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 1",
+  "pdfClass": "1ATT- technik organizacji turystyki"
+ },
+ {
+  "rspo": 29037,
+  "profileName": "I c, technik hotelarstwa",
+  "year": 2025,
+  "min": 38.7,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 1",
+  "pdfClass": "1ATH- technik hotelarstwa"
+ },
+ {
+  "rspo": 29039,
+  "profileName": "I aTE, technik ekonomista",
+  "year": 2025,
+  "min": 45.05,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 2",
+  "pdfClass": "I a TE- technik ekonomista"
+ },
+ {
+  "rspo": 29039,
+  "profileName": "I dTT, technik organizacji turystyki",
+  "year": 2025,
+  "min": 70.25,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 2",
+  "pdfClass": "I d TT - technik organizacji turystyki"
+ },
+ {
+  "rspo": 29039,
+  "profileName": "I bTL, technik logistyk",
+  "year": 2025,
+  "min": 83.3,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 2",
+  "pdfClass": "I b TL - technik logistyk"
+ },
+ {
+  "rspo": 29039,
+  "profileName": "I cTR, technik reklamy",
+  "year": 2025,
+  "min": 63.95,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 2",
+  "pdfClass": "I c TR - technik reklamy"
+ },
+ {
+  "rspo": 28713,
+  "profileName": "I a, technik logistyk",
+  "year": 2025,
+  "min": 72.6,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 3",
+  "pdfClass": "technik logistyk"
+ },
+ {
+  "rspo": 28713,
+  "profileName": "I b, technik urządzeń i systemów energetyki odnawialnej",
+  "year": 2025,
+  "min": 33.5,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 3",
+  "pdfClass": "technik urządzeń i systemów energetyki odnawialnej"
+ },
+ {
+  "rspo": 28713,
+  "profileName": "I e, technik gazownictwa",
+  "year": 2025,
+  "min": 39.9,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 3",
+  "pdfClass": "technik gazownictwa"
+ },
+ {
+  "rspo": 28713,
+  "profileName": "I c, technik inżynierii sanitarnej",
+  "year": 2025,
+  "min": 36.55,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 3",
+  "pdfClass": "technik inżynierii sanitarnej"
+ },
+ {
+  "rspo": 28713,
+  "profileName": "I d, technik chłodnictwa i klimatyzacji",
+  "year": 2025,
+  "min": 38.3,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 3",
+  "pdfClass": "technik chłodnictwa i klimatyzacji"
+ },
+ {
+  "rspo": 28714,
+  "profileName": "I a, technik żywienia i usług gastronomicznych",
+  "year": 2025,
+  "min": 63.3,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 4",
+  "pdfClass": "1A Technik żywienia i usług gastronomicznych"
+ },
+ {
+  "rspo": 28714,
+  "profileName": "I e, technik usług kelnerskich [oddział wielozawodowy: technik usług kelnerskich, technik żywienia i usług gastronomicznych]",
+  "year": 2025,
+  "min": 33.15,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 4",
+  "pdfClass": "1E Technik usług kelnerskich"
+ },
+ {
+  "rspo": 28714,
+  "profileName": "I b, technik żywienia i usług gastronomicznych",
+  "year": 2025,
+  "min": 34.05,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 4",
+  "pdfClass": "1B Technik żywienia i usług gastronomicznych"
+ },
+ {
+  "rspo": 28714,
+  "profileName": "I c, technik żywienia i usług gastronomicznych",
+  "year": 2025,
+  "min": 34.6,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 4",
+  "pdfClass": "1C Technik żywienia i usług gastronomicznych"
+ },
+ {
+  "rspo": 28714,
+  "profileName": "I d, technik żywienia i usług gastronomicznych",
+  "year": 2025,
+  "min": 33.75,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 4",
+  "pdfClass": "1D Technik żywienia i usług gastronomicznych"
+ },
+ {
+  "rspo": 29040,
+  "profileName": "I a, technik transportu kolejowego",
+  "year": 2025,
+  "min": 46.15,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 5",
+  "pdfClass": "1a_t - Technik transportu kolejowego"
+ },
+ {
+  "rspo": 29040,
+  "profileName": "I b, technik logistyk",
+  "year": 2025,
+  "min": 59.65,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 5",
+  "pdfClass": "1b_l - Technik logistyk"
+ },
+ {
+  "rspo": 29613,
+  "profileName": "I ta, technik technologii żywności (z kwalifikacją cukierniczą z elementami nowoczesnego dekoratorstwa)",
+  "year": 2025,
+  "min": 14.95,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 6",
+  "pdfClass": "1ta Technik technologii żywności z kwalifikacją cukierniczą z elementami nowoczesnego dekoratorstwa"
+ },
+ {
+  "rspo": 29613,
+  "profileName": "I tb, technik technologii żywności (z kwalifikacją cukierniczą z elementami dietetyki sportowej)",
+  "year": 2025,
+  "min": 35.4,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 6",
+  "pdfClass": "1tb Technik technologii żywności z kwalifikacją cukierniczą z elementami dietetyki sportowej"
+ },
+ {
+  "rspo": 38972,
+  "profileName": "I b, technik pojazdów samochodowych (specjalizacja elektryczna) [oddział wielozawodowy: technik pojazdów samochodowych specjalizacja elektryczna, technik elektromobilności]",
+  "year": 2025,
+  "min": 43.8,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 7",
+  "pdfClass": "Technik pojazdów samochodowych - specjalność elektryczna"
+ },
+ {
+  "rspo": 38972,
+  "profileName": "I a, technik pojazdów samochodowych (specjalizacja mechaniczna)",
+  "year": 2025,
+  "min": 69.4,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 7",
+  "pdfClass": "Technik pojazdów samochodowych - specjalność mechaniczna"
+ },
+ {
+  "rspo": 38972,
+  "profileName": "I c, technik mechatronik [oddział wielozawodowy: technik transportu drogowego, technik mechatronik]",
+  "year": 2025,
+  "min": 50.0,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 7",
+  "pdfClass": "Technik mechatronik"
+ },
+ {
+  "rspo": 38972,
+  "profileName": "I b, technik elektromobilności [oddział wielozawodowy: technik pojazdów samochodowych specjalizacja elektryczna, technik elektromobilności]",
+  "year": 2025,
+  "min": 30.05,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 7",
+  "pdfClass": "Technik elektromobilności"
+ },
+ {
+  "rspo": 38972,
+  "profileName": "I c, technik transportu drogowego [oddział wielozawodowy: technik transportu drogowego, technik mechatronik]",
+  "year": 2025,
+  "min": 69.4,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 7",
+  "pdfClass": "Technik transportu drogowego"
+ },
+ {
+  "rspo": 38979,
+  "profileName": "I b, technik automatyk [oddział wielozawodowy: technik mechatronik, technik automatyk]",
+  "year": 2025,
+  "min": 107.2,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 9",
+  "pdfClass": "1B - technik automatyk"
+ },
+ {
+  "rspo": 38979,
+  "profileName": "I b, technik mechatronik [oddział wielozawodowy: technik mechatronik, technik automatyk]",
+  "year": 2025,
+  "min": 153.65,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 9",
+  "pdfClass": "1B - technik mechatronik"
+ },
+ {
+  "rspo": 38979,
+  "profileName": "I a, technik elektryk [oddział wielozawodowy: technik elektronik, technik elektryk]",
+  "year": 2025,
+  "min": 124.45,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 9",
+  "pdfClass": "1A - technik elektryk"
+ },
+ {
+  "rspo": 38979,
+  "profileName": "I c, technik informatyk [oddział wielozawodowy: technik informatyk, technik programista]",
+  "year": 2025,
+  "min": 63.8,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 9",
+  "pdfClass": "1C - technik informatyk (w tym 1/2 oddziału Cyberbezpieczeństwo )"
+ },
+ {
+  "rspo": 38979,
+  "profileName": "I d, technik programista [oddział wielozawodowy: technik informatyk, technik programista]",
+  "year": 2025,
+  "min": 123.15,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 9",
+  "pdfClass": "1D - technik programista (w tym 1/2 oddziału Cyberbezpieczeństwo )"
+ },
+ {
+  "rspo": 38979,
+  "profileName": "I a, technik elektronik [oddział wielozawodowy: technik elektronik, technik elektryk]",
+  "year": 2025,
+  "min": 90.45,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 9",
+  "pdfClass": "1A - technik elektronik"
+ },
+ {
+  "rspo": 38979,
+  "profileName": "I f, technik realizacji nagrań [oddział wielozawodowy: technik elektryk, technik realizacji nagrań]",
+  "year": 2025,
+  "min": 59.0,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 9",
+  "pdfClass": "1F - technik realizacji nagrań"
+ },
+ {
+  "rspo": 38983,
+  "profileName": "I i, technik informatyk",
+  "year": 2025,
+  "min": 105.15,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 10",
+  "pdfClass": "1i - technik informatyk"
+ },
+ {
+  "rspo": 38983,
+  "profileName": "I p, technik programista",
+  "year": 2025,
+  "min": 109.8,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 10",
+  "pdfClass": "1p - technik programista"
+ },
+ {
+  "rspo": 38983,
+  "profileName": "I m, technik mechatronik",
+  "year": 2025,
+  "min": 113.25,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 10",
+  "pdfClass": "1m - technik mechatronik"
+ },
+ {
+  "rspo": 38994,
+  "profileName": "I a, technik przemysłu mody",
+  "year": 2025,
+  "min": 71.8,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 12",
+  "pdfClass": "1A - technik przemysłu mody"
+ },
+ {
+  "rspo": 38994,
+  "profileName": "I c, technik grafiki i poligrafii cyfrowej",
+  "year": 2025,
+  "min": 48.15,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 12",
+  "pdfClass": "1C - technik grafiki i poligrafii cyfrowej"
+ },
+ {
+  "rspo": 38994,
+  "profileName": "I f, technik fotografii i multimediów",
+  "year": 2025,
+  "min": 77.95,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 12",
+  "pdfClass": "1F - technik fotografii i multimediów"
+ },
+ {
+  "rspo": 38994,
+  "profileName": "I s, technik stylista",
+  "year": 2025,
+  "min": 50.05,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 12",
+  "pdfClass": "1S - technik stylista"
+ },
+ {
+  "rspo": 39003,
+  "profileName": "I a, technik geodeta",
+  "year": 2025,
+  "min": 93.1,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 13",
+  "pdfClass": "1a_technik geodeta"
+ },
+ {
+  "rspo": 39003,
+  "profileName": "I c, technik leśnik",
+  "year": 2025,
+  "min": 36.65,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 13",
+  "pdfClass": "1c_technik leśnik"
+ },
+ {
+  "rspo": 41425,
+  "profileName": "I b, technik budownictwa",
+  "year": 2025,
+  "min": 29.7,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 15",
+  "pdfClass": "technik budownictwa"
+ },
+ {
+  "rspo": 41425,
+  "profileName": "I a, technik aranżacji wnętrz",
+  "year": 2025,
+  "min": 35.65,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 15",
+  "pdfClass": "technik aranżacji wnętrz"
+ },
+ {
+  "rspo": 41425,
+  "profileName": "I c, technik technologii drewna [oddział wielozawodowy: technik technologii drewna, technik ochrony środowiska]",
+  "year": 2025,
+  "min": 63.6,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 15",
+  "pdfClass": "technik technologii drewna"
+ },
+ {
+  "rspo": 41431,
+  "profileName": "I ti, technik informatyk",
+  "year": 2025,
+  "min": 94.6,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 17",
+  "pdfClass": "Technik informatyk"
+ },
+ {
+  "rspo": 41431,
+  "profileName": "I tp, technik programista",
+  "year": 2025,
+  "min": 98.25,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 17",
+  "pdfClass": "Technik programista"
+ },
+ {
+  "rspo": 41431,
+  "profileName": "I ta, technik mechanik",
+  "year": 2025,
+  "min": 44.15,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 17",
+  "pdfClass": "Technik mechanik"
+ },
+ {
+  "rspo": 41438,
+  "profileName": "I r, technik reklamy",
+  "year": 2025,
+  "min": 75.7,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 18",
+  "pdfClass": "1r Technik reklamy"
+ },
+ {
+  "rspo": 118756,
+  "profileName": "I TL, technik logistyk",
+  "year": 2025,
+  "min": 48.7,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 19",
+  "pdfClass": "TL (Technik logistyk)"
+ },
+ {
+  "rspo": 118756,
+  "profileName": "I TW, technik weterynarii",
+  "year": 2025,
+  "min": 42.3,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 19",
+  "pdfClass": "TWe (Technik weterynarii)"
+ },
+ {
+  "rspo": 118756,
+  "profileName": "I TF, technik fotografii i multimediów",
+  "year": 2025,
+  "min": 90.6,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 19",
+  "pdfClass": "TF (Technik fotografii i multimediów)"
+ },
+ {
+  "rspo": 118756,
+  "profileName": "I TPT, technik projektant tekstyliów [oddział wielozawodowy: technik tekstronik, technik projektant tekstyliów]",
+  "year": 2025,
+  "min": 68.75,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 19",
+  "pdfClass": "TPT (Technik projektant tekstyliów)"
+ },
+ {
+  "rspo": 118756,
+  "profileName": "I TA, technik analityk",
+  "year": 2025,
+  "min": 33.8,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 19",
+  "pdfClass": "TA (Technik analityk)"
+ },
+ {
+  "rspo": 41450,
+  "profileName": "I mt, technik mechatronik",
+  "year": 2025,
+  "min": 69.8,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 20",
+  "pdfClass": "1 technik mechatronik"
+ },
+ {
+  "rspo": 41450,
+  "profileName": "I io, technik informatyk [oddział wielozawodowy: technik informatyk, technik urządzeń i systemów energetyki odnawialnej]",
+  "year": 2025,
+  "min": 61.2,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 20",
+  "pdfClass": "1 technik informatyk"
+ },
+ {
+  "rspo": 41450,
+  "profileName": "I md, technik mechanik [oddział wielozawodowy: technik mechanik, technik urządzeń dźwigowych]",
+  "year": 2025,
+  "min": 57.75,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 20",
+  "pdfClass": "1 technik mechanik"
+ },
+ {
+  "rspo": 41450,
+  "profileName": "I el, technik elektryk",
+  "year": 2025,
+  "min": 71.3,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 20",
+  "pdfClass": "1 technik elektryk"
+ },
+ {
+  "rspo": 41450,
+  "profileName": "I md, technik urządzeń dźwigowych [oddział wielozawodowy: technik mechanik, technik urządzeń dźwigowych]",
+  "year": 2025,
+  "min": 43.9,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 20",
+  "pdfClass": "1 technik urządzeń dźwigowych"
+ },
+ {
+  "rspo": 47279,
+  "profileName": "technik usług fryzjerskich",
+  "year": 2025,
+  "min": 18.4,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 21",
+  "pdfClass": "technik usług fryzjerskich"
+ },
+ {
+  "rspo": 47279,
+  "profileName": "technik hodowca koni [oddział wielozawodowy: technik hodowca koni, technik agroogrodnictwa, technik pszczelarz]",
+  "year": 2025,
+  "min": 43.75,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 21",
+  "pdfClass": "technik hodowca koni"
+ },
+ {
+  "rspo": 47289,
+  "profileName": "I tse, technik pojazdów samochodowych (specjalność elektryczna)",
+  "year": 2025,
+  "min": 40.35,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 22",
+  "pdfClass": "Technik pojazdów samochodowych o specjalności elektrycznej"
+ },
+ {
+  "rspo": 47289,
+  "profileName": "I tmm, technik mechatronik [oddział wielozawodowy: technik mechatronik, technik pojazdów samochodowych, specjalność mechaniczna]",
+  "year": 2025,
+  "min": 28.1,
+  "scale": 200,
+  "kind": "zakwalifikowani",
+  "pdfSchool": "Technikum nr 22",
+  "pdfClass": "Technik mechatronik"
+ }
+]

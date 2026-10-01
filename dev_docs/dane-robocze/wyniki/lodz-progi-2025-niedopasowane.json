@@ -1,0 +1,1154 @@
+[
+ {
+  "pdfSchool": "II Liceum Ogólnokształcące",
+  "pdfClass": "1B gr.1 Biznesu i Światowych Perspektyw (ang/niem)",
+  "min": null,
+  "scale": 200,
+  "status": "brak",
+  "suggestedProfileName": null,
+  "reason": "brak progu w pliku (pusta komórka)"
+ },
+ {
+  "pdfSchool": "II Liceum Ogólnokształcące",
+  "pdfClass": "1B gr.2 Biznesu i Światowych Perspektyw (ang/fr)",
+  "min": null,
+  "scale": 200,
+  "status": "brak",
+  "suggestedProfileName": null,
+  "reason": "brak progu w pliku (pusta komórka)"
+ },
+ {
+  "pdfSchool": "III Liceum Ogólnokształcące",
+  "pdfClass": "1b",
+  "min": 169.05,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "1 b (biologia, chemia, matematyka)",
+  "reason": "w pliku tylko symbol „1b”, bez opisu profilu (2026/27: bio-chem-mat)"
+ },
+ {
+  "pdfSchool": "III Liceum Ogólnokształcące",
+  "pdfClass": "1c",
+  "min": 155.0,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "1 c (matematyka, geografia, j. angielski)",
+  "reason": "w pliku tylko symbol „1c”, bez opisu profilu (2026/27: mat-geo-ang)"
+ },
+ {
+  "pdfSchool": "III Liceum Ogólnokształcące",
+  "pdfClass": "1d",
+  "min": 163.5,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "1 d (matematyka, fizyka, j. angielski)",
+  "reason": "w pliku tylko symbol „1d”, bez opisu profilu (2026/27: mat-fiz-ang)"
+ },
+ {
+  "pdfSchool": "III Liceum Ogólnokształcące",
+  "pdfClass": "1a",
+  "min": 137.05,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "1 a (j. polski, historia, geografia)",
+  "reason": "w pliku tylko symbol „1a”, bez opisu profilu (2026/27: pol-hist-geo)"
+ },
+ {
+  "pdfSchool": "IV Liceum Ogólnokształcące",
+  "pdfClass": "1B lingwistyczny ; dwujęzyczny z j. angielskim",
+  "min": 162.55,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "„lingwistyczny, dwujęzyczny” vs 2026/27 I b „pre-IB dwujęzyczna (pol, hisz, ang)”"
+ },
+ {
+  "pdfSchool": "IV Liceum Ogólnokształcące",
+  "pdfClass": "D gr. 1 biologiczno-chemiczny ; dwujęzyczny z j. angielskim",
+  "min": 158.95,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "D gr.1 bio-chem dwujęzyczny vs 2026/27 I d „pre-IB” bez grup"
+ },
+ {
+  "pdfSchool": "IV Liceum Ogólnokształcące",
+  "pdfClass": "D gr. 2 biologiczno-chemiczny; dwujęzyczny z j. angielskim",
+  "min": 161.85,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "D gr.2 bio-chem dwujęzyczny vs 2026/27 I d „pre-IB” bez grup"
+ },
+ {
+  "pdfSchool": "IV Liceum Ogólnokształcące",
+  "pdfClass": "1A gr. 1 matematyczno-chemiczny; ogólnodostępny",
+  "min": 149.25,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "1A gr.1 mat-chem; 2026/27 I a to mat-geo-ang"
+ },
+ {
+  "pdfSchool": "IV Liceum Ogólnokształcące",
+  "pdfClass": "1A gr. 2 matematyczno-chemiczny; ogólnodostępny",
+  "min": 117.65,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "1A gr.2 mat-chem; 2026/27 I a to mat-geo-ang"
+ },
+ {
+  "pdfSchool": "IV Liceum Ogólnokształcące",
+  "pdfClass": "1C gr. 1 humanistyczny, dwujęzyczny z j. angielskim",
+  "min": 135.5,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "1C gr.1 humanistyczny dwujęzyczny vs 2026/27 I c „pre-IB” bez grup"
+ },
+ {
+  "pdfSchool": "IV Liceum Ogólnokształcące",
+  "pdfClass": "1C gr. 2 humanistyczny, dwujęzyczny z j. angielskim",
+  "min": 135.1,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "1C gr.2 humanistyczny dwujęzyczny vs 2026/27 I c „pre-IB” bez grup"
+ },
+ {
+  "pdfSchool": "VI Liceum Ogólnokształcące",
+  "pdfClass": "1c grupa I dziennikarska",
+  "min": 110.15,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "1c gr. I dziennikarska; 2026/27 jedna pozycja „1 cf dziennikarsko-filmowa gr.1/gr.2”, dwa progi na jeden profil"
+ },
+ {
+  "pdfSchool": "VI Liceum Ogólnokształcące",
+  "pdfClass": "1c grupa II filmowa",
+  "min": 105.9,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "1c gr. II filmowa; 2026/27 jedna pozycja „1 cf dziennikarsko-filmowa gr.1/gr.2”, dwa progi na jeden profil"
+ },
+ {
+  "pdfSchool": "VIII Liceum Ogólnokształcące",
+  "pdfClass": "B gr. 1 ekonomiczna",
+  "min": 151.3,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I b matematyczno- geograficzno- angielska (j. angielski, matematyka, geografia)",
+  "reason": "„ekonomiczna” gr.1 vs 2026/27 „matematyczno-geograficzno-angielska” bez grup; nazwa inna"
+ },
+ {
+  "pdfSchool": "VIII Liceum Ogólnokształcące",
+  "pdfClass": "C humanistyczna",
+  "min": 141.0,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I c polonistyczno- historyczno- angielska (j. angielski, j. polski, historia)",
+  "reason": "„humanistyczna” vs 2026/27 „polonistyczno-historyczno-angielska”; nazwa inna"
+ },
+ {
+  "pdfSchool": "VIII Liceum Ogólnokształcące",
+  "pdfClass": "0 (wstępna) mat-geo",
+  "min": 105.65,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "0 wstępna mat-geo; 2026/27 0w gr.2 to pol-geo"
+ },
+ {
+  "pdfSchool": "VIII Liceum Ogólnokształcące",
+  "pdfClass": "B gr. 2 ekonomiczna",
+  "min": null,
+  "scale": 200,
+  "status": "brak",
+  "suggestedProfileName": null,
+  "reason": "brak progu w pliku (pusta komórka)"
+ },
+ {
+  "pdfSchool": "VIII Liceum Ogólnokształcące",
+  "pdfClass": "D przyrodnicza",
+  "min": 144.05,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "1d biologiczno- chemiczno- matematyczna (biologia, chemia, matematyka)",
+  "reason": "„przyrodnicza” vs 2026/27 „biologiczno-chemiczno-matematyczna”; nazwa inna"
+ },
+ {
+  "pdfSchool": "IX Liceum Ogólnokształcące",
+  "pdfClass": "1c geograficzno - matematyczna",
+  "min": 115.55,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "1c geograficzno-matematyczna; 2026/27 1 C to mat-fiz-ang"
+ },
+ {
+  "pdfSchool": "IX Liceum Ogólnokształcące",
+  "pdfClass": "1d historyczno językowa",
+  "min": 71.8,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "1d historyczno-językowa; 2026/27 1 D to mat-bio-ang"
+ },
+ {
+  "pdfSchool": "XI Liceum Ogólnokształcące",
+  "pdfClass": "1C/1 matematyczno - informatyczna",
+  "min": 129.0,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "1C/1 mat-inf; 2026/27 I c to mat-chem-ang"
+ },
+ {
+  "pdfSchool": "XI Liceum Ogólnokształcące",
+  "pdfClass": "1C/2 matematyczno - informatyczna",
+  "min": 100.35,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "1C/2 mat-inf; 2026/27 I c to mat-chem-ang"
+ },
+ {
+  "pdfSchool": "XI Liceum Ogólnokształcące",
+  "pdfClass": "0W/2 - wstępna z językiem francuskim grupa humanistyczna",
+  "min": null,
+  "scale": 200,
+  "status": "brak",
+  "suggestedProfileName": null,
+  "reason": "brak progu w pliku (pusta komórka)"
+ },
+ {
+  "pdfSchool": "XI Liceum Ogólnokształcące",
+  "pdfClass": "0W/1 - wstępna z językiem francuskim grupa przyrodnicza",
+  "min": null,
+  "scale": 200,
+  "status": "brak",
+  "suggestedProfileName": null,
+  "reason": "brak progu w pliku (pusta komórka)"
+ },
+ {
+  "pdfSchool": "XI Liceum Ogólnokształcące",
+  "pdfClass": "1A/1 dwujęzyczna z językiem angielskim",
+  "min": 128.95,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "1A/1 „dwujęzyczna z j. angielskim” bez profilu grupy; 2026/27 gr.1 hum. / gr.2 przyr."
+ },
+ {
+  "pdfSchool": "XI Liceum Ogólnokształcące",
+  "pdfClass": "1A/2 dwujęzyczna z językiem angielskim",
+  "min": 160.85,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "1A/2 „dwujęzyczna z j. angielskim” bez profilu grupy; 2026/27 gr.1 hum. / gr.2 przyr."
+ },
+ {
+  "pdfSchool": "XI Liceum Ogólnokształcące",
+  "pdfClass": "1B/1 dwujęzyczna z językiem francuskim",
+  "min": null,
+  "scale": 200,
+  "status": "brak",
+  "suggestedProfileName": null,
+  "reason": "brak progu w pliku (pusta komórka)"
+ },
+ {
+  "pdfSchool": "XI Liceum Ogólnokształcące",
+  "pdfClass": "1B/2 dwujęzyczna z językiem francuskim",
+  "min": null,
+  "scale": 200,
+  "status": "brak",
+  "suggestedProfileName": null,
+  "reason": "brak progu w pliku (pusta komórka)"
+ },
+ {
+  "pdfSchool": "XIII Liceum Ogólnokształcące",
+  "pdfClass": "1a medialna_humanistyc zna",
+  "min": 142.45,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I a humanistyczna z elementami geoinformacji (j. polski, historia, geografia)",
+  "reason": "„medialna_humanistyczna” vs 2026/27 „humanistyczna z elementami geoinformacji”"
+ },
+ {
+  "pdfSchool": "XV Liceum Ogólnokształcące",
+  "pdfClass": "1a",
+  "min": 112.5,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "1a (j. polski, historia, j. angielski)",
+  "reason": "w pliku tylko symbol „1a”, bez opisu profilu (2026/27: pol-hist-ang)"
+ },
+ {
+  "pdfSchool": "XV Liceum Ogólnokształcące",
+  "pdfClass": "1b",
+  "min": 146.85,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "1b (matematyka, geografia, j. angielski)",
+  "reason": "w pliku tylko symbol „1b”, bez opisu profilu (2026/27: mat-geo-ang)"
+ },
+ {
+  "pdfSchool": "XV Liceum Ogólnokształcące",
+  "pdfClass": "1c",
+  "min": 142.5,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "1c (biologia, chemia, j. angielski)",
+  "reason": "w pliku tylko symbol „1c”, bez opisu profilu (2026/27: bio-chem-ang)"
+ },
+ {
+  "pdfSchool": "XVIII Liceum Ogólnokształcące",
+  "pdfClass": "klasa 1a z elementami służby policyjnej i kryminalistyki",
+  "min": 79.3,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I a klasa mundurowa* (j. angielski, wos)",
+  "reason": "„z elementami służby policyjnej i kryminalistyki” vs 2026/27 „klasa mundurowa (ang, wos)”"
+ },
+ {
+  "pdfSchool": "XVIII Liceum Ogólnokształcące",
+  "pdfClass": "klasa 1b z elementami służby policyjnej i kryminalistyki",
+  "min": 39.65,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I b klasa mundurowa* (j. polski, wos)",
+  "reason": "„z elementami służby policyjnej i kryminalistyki” vs 2026/27 „klasa mundurowa (pol, wos)”"
+ },
+ {
+  "pdfSchool": "XVIII Liceum Ogólnokształcące",
+  "pdfClass": "klasa 1c z elementami służby wojskowej",
+  "min": 57.25,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I c klasa z programem wojskowym (j. angielski, geografia)",
+  "reason": "„z elementami służby wojskowej” vs 2026/27 „z programem wojskowym (ang, geo)”; temat ten sam, nazwa inna"
+ },
+ {
+  "pdfSchool": "XXI Liceum Ogólnokształcące",
+  "pdfClass": "A humanistyczna",
+  "min": 168.7,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "2025/26 jedna klasa A bez grup; 2026/27 1a gr.1 (niem) i gr.2 (hisz), jeden próg na dwie pozycje"
+ },
+ {
+  "pdfSchool": "XXI Liceum Ogólnokształcące",
+  "pdfClass": "B medyczna",
+  "min": 165.9,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "2025/26 jedna klasa B bez grup; 2026/27 I b gr.1 (hisz) i gr.2 (niem)"
+ },
+ {
+  "pdfSchool": "XXI Liceum Ogólnokształcące",
+  "pdfClass": "C ekonomiczna",
+  "min": 166.7,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "2025/26 jedna klasa C bez grup; 2026/27 I c gr.1 (hisz) i gr.2 (fr)"
+ },
+ {
+  "pdfSchool": "XXI Liceum Ogólnokształcące",
+  "pdfClass": "D (gr. 2) politechniczna z j. hiszpańskim",
+  "min": 144.55,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "D gr.2 politechniczna z j. hiszpańskim; 2026/27 I d gr.2 ma ang+niem"
+ },
+ {
+  "pdfSchool": "XXIII Liceum Ogólnokształcące",
+  "pdfClass": "1A -społeczno-prawna",
+  "min": 84.05,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "1 a humanistyczna (j. polski, historia)",
+  "reason": "„społeczno-prawna” vs 2026/27 „humanistyczna (pol, hist)”"
+ },
+ {
+  "pdfSchool": "XXIV Liceum Ogólnokształcące",
+  "pdfClass": "Klasa 1A/1 j.polski, historia, j.angielski (ang+niem)",
+  "min": 95.25,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "1a (j. polski, historia, j. angielski)",
+  "reason": "grupa 1A/1 (ang+niem); 2026/27 jedna klasa 1a bez grup (ang, niem, hisz)"
+ },
+ {
+  "pdfSchool": "XXIV Liceum Ogólnokształcące",
+  "pdfClass": "Klasa 1A/2 j.polski, historia, j.angielski (ang+hiszp)",
+  "min": 118.75,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "1a (j. polski, historia, j. angielski)",
+  "reason": "grupa 1A/2 (ang+hiszp); 2026/27 jedna klasa 1a bez grup"
+ },
+ {
+  "pdfSchool": "XXIV Liceum Ogólnokształcące",
+  "pdfClass": "Klasa 1C/1 matematyka, fizyka, j.angielski (ang+niem)",
+  "min": 73.5,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "1C/1 mat-fiz-ang; 2026/27 1c to bio-chem-mat"
+ },
+ {
+  "pdfSchool": "XXIV Liceum Ogólnokształcące",
+  "pdfClass": "Klasa 1C/2 matematyka, fizyka, j.angielski (ang+hiszp)",
+  "min": 78.9,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "1C/2 mat-fiz-ang; 2026/27 1c to bio-chem-mat"
+ },
+ {
+  "pdfSchool": "XXV Liceum Ogólnokształcące",
+  "pdfClass": "1B-gr.2 - Politechniczna (mat-fiz-inf)",
+  "min": 140.8,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "1B gr.2 mat-fiz-inf; w 2026/27 I b tylko mat-fiz-ang, bez grup"
+ },
+ {
+  "pdfSchool": "XXXI Liceum Ogólnokształcące",
+  "pdfClass": "1An",
+  "min": 101.85,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "w pliku tylko symbol z sufiksem języka (n/h, in/ih), bez profilu; w 2026/27 oddziały I a–I d bez podziału na grupy"
+ },
+ {
+  "pdfSchool": "XXXI Liceum Ogólnokształcące",
+  "pdfClass": "1Ah",
+  "min": 161.75,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "w pliku tylko symbol z sufiksem języka (n/h, in/ih), bez profilu; w 2026/27 oddziały I a–I d bez podziału na grupy"
+ },
+ {
+  "pdfSchool": "XXXI Liceum Ogólnokształcące",
+  "pdfClass": "1B",
+  "min": 148.0,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "w pliku tylko symbol z sufiksem języka (n/h, in/ih), bez profilu; w 2026/27 oddziały I a–I d bez podziału na grupy"
+ },
+ {
+  "pdfSchool": "XXXI Liceum Ogólnokształcące",
+  "pdfClass": "1Cn",
+  "min": 145.15,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "w pliku tylko symbol z sufiksem języka (n/h, in/ih), bez profilu; w 2026/27 oddziały I a–I d bez podziału na grupy"
+ },
+ {
+  "pdfSchool": "XXXI Liceum Ogólnokształcące",
+  "pdfClass": "1Dn",
+  "min": 100.55,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "w pliku tylko symbol z sufiksem języka (n/h, in/ih), bez profilu; w 2026/27 oddziały I a–I d bez podziału na grupy"
+ },
+ {
+  "pdfSchool": "XXXI Liceum Ogólnokształcące",
+  "pdfClass": "1Ain",
+  "min": 129.65,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "w pliku tylko symbol z sufiksem języka (n/h, in/ih), bez profilu; w 2026/27 oddziały I a–I d bez podziału na grupy"
+ },
+ {
+  "pdfSchool": "XXXI Liceum Ogólnokształcące",
+  "pdfClass": "1Aih",
+  "min": 141.75,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "w pliku tylko symbol z sufiksem języka (n/h, in/ih), bez profilu; w 2026/27 oddziały I a–I d bez podziału na grupy"
+ },
+ {
+  "pdfSchool": "XXXI Liceum Ogólnokształcące",
+  "pdfClass": "1Ch",
+  "min": 155.45,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "w pliku tylko symbol z sufiksem języka (n/h, in/ih), bez profilu; w 2026/27 oddziały I a–I d bez podziału na grupy"
+ },
+ {
+  "pdfSchool": "XXXI Liceum Ogólnokształcące",
+  "pdfClass": "1Dh",
+  "min": 127.45,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "w pliku tylko symbol z sufiksem języka (n/h, in/ih), bez profilu; w 2026/27 oddziały I a–I d bez podziału na grupy"
+ },
+ {
+  "pdfSchool": "XXXIII Liceum Ogólnokształcące",
+  "pdfClass": "1D1 (mat-geo-ang)+ niem( II język od podstaw)",
+  "min": 148.1,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "grupa językowa (1/niem, 2/hiszp); 2026/27 jedna klasa bez grup z obu językami. Uwaga: progi 2025 już w danych (ze strony szkoły) równe minimum grupy 1"
+ },
+ {
+  "pdfSchool": "XXXIII Liceum Ogólnokształcące",
+  "pdfClass": "1D2 (mat-geo-ang)+ hiszp ( II język od podstaw)",
+  "min": 156.95,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "grupa językowa (1/niem, 2/hiszp); 2026/27 jedna klasa bez grup z obu językami. Uwaga: progi 2025 już w danych (ze strony szkoły) równe minimum grupy 1"
+ },
+ {
+  "pdfSchool": "XXXIII Liceum Ogólnokształcące",
+  "pdfClass": "1E1 (biol-chem-ang)+ niem( II język od podstaw)",
+  "min": 142.9,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "grupa językowa (1/niem, 2/hiszp); 2026/27 jedna klasa bez grup z obu językami. Uwaga: progi 2025 już w danych (ze strony szkoły) równe minimum grupy 1"
+ },
+ {
+  "pdfSchool": "XXXIII Liceum Ogólnokształcące",
+  "pdfClass": "1E2 (biol-chem-ang)+hiszp(II język od podstaw)",
+  "min": 153.55,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "grupa językowa (1/niem, 2/hiszp); 2026/27 jedna klasa bez grup z obu językami. Uwaga: progi 2025 już w danych (ze strony szkoły) równe minimum grupy 1"
+ },
+ {
+  "pdfSchool": "XXXIII Liceum Ogólnokształcące",
+  "pdfClass": "1B1 (pol-bio-ang)+ niem( II język od podstaw) integracyjna",
+  "min": 106.5,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "grupa językowa (1/niem, 2/hiszp); 2026/27 jedna klasa bez grup z obu językami. Uwaga: progi 2025 już w danych (ze strony szkoły) równe minimum grupy 1"
+ },
+ {
+  "pdfSchool": "XXXIII Liceum Ogólnokształcące",
+  "pdfClass": "1B2 (pol-bio-ang)+ hiszp( II język od podstaw) integracyjna",
+  "min": 138.9,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "grupa językowa (1/niem, 2/hiszp); 2026/27 jedna klasa bez grup z obu językami. Uwaga: progi 2025 już w danych (ze strony szkoły) równe minimum grupy 1"
+ },
+ {
+  "pdfSchool": "XXXIII Liceum Ogólnokształcące",
+  "pdfClass": "1A2 (pol-his-ang)+ hiszp( II język od podstaw) humanistyczna",
+  "min": 143.9,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "grupa językowa (1/niem, 2/hiszp); 2026/27 jedna klasa bez grup z obu językami. Uwaga: progi 2025 już w danych (ze strony szkoły) równe minimum grupy 1"
+ },
+ {
+  "pdfSchool": "XXXIII Liceum Ogólnokształcące",
+  "pdfClass": "1A1 (pol-his-ang)+ niem( II język od podstaw) humanistyczna",
+  "min": 125.0,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "grupa językowa (1/niem, 2/hiszp); 2026/27 jedna klasa bez grup z obu językami. Uwaga: progi 2025 już w danych (ze strony szkoły) równe minimum grupy 1"
+ },
+ {
+  "pdfSchool": "XXXIII Liceum Ogólnokształcące",
+  "pdfClass": "1C1 (mat-chem-ang)+ niem( II język od podstaw)",
+  "min": 90.65,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "grupa językowa (1/niem, 2/hiszp); 2026/27 jedna klasa bez grup z obu językami. Uwaga: progi 2025 już w danych (ze strony szkoły) równe minimum grupy 1"
+ },
+ {
+  "pdfSchool": "XXXIII Liceum Ogólnokształcące",
+  "pdfClass": "1C2 (mat-chem-ang)+ hiszp( II język od podstaw)",
+  "min": 144.95,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "grupa językowa (1/niem, 2/hiszp); 2026/27 jedna klasa bez grup z obu językami. Uwaga: progi 2025 już w danych (ze strony szkoły) równe minimum grupy 1"
+ },
+ {
+  "pdfSchool": "XXXIV Liceum Ogólnokształcące",
+  "pdfClass": "I A językowa - grupa amerykańska",
+  "min": 73.65,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I a (j. polski, j. angielski)",
+  "reason": "„językowa - grupa amerykańska” vs 2026/27 „I a (pol, ang)” bez grup"
+ },
+ {
+  "pdfSchool": "XXXIV Liceum Ogólnokształcące",
+  "pdfClass": "I A językowa - grupa włoska",
+  "min": 55.75,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I a (j. polski, j. angielski)",
+  "reason": "„językowa - grupa włoska” vs 2026/27 „I a (pol, ang)” bez grup"
+ },
+ {
+  "pdfSchool": "XXXIV Liceum Ogólnokształcące",
+  "pdfClass": "I B językowo-przyrodnicza",
+  "min": 98.15,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I b (biologia, chemia, j. angielski)",
+  "reason": "„językowo-przyrodnicza” vs 2026/27 „I b (bio, chem, ang)”"
+ },
+ {
+  "pdfSchool": "XXXIV Liceum Ogólnokształcące",
+  "pdfClass": "I C językowo-historyczna",
+  "min": 62.2,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I c (historia, wos)",
+  "reason": "„językowo-historyczna” vs 2026/27 „I c (hist, wos)”"
+ },
+ {
+  "pdfSchool": "XLII Liceum Ogólnokształcące",
+  "pdfClass": "I a z elementami służby straży granicznej",
+  "min": 47.15,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I a klasa mundurowa pod patronatem MSWiA* (j. angielski, wos)",
+  "reason": "„z elementami służby straży granicznej” vs 2026/27 „mundurowa pod patronatem MSWiA”"
+ },
+ {
+  "pdfSchool": "XLII Liceum Ogólnokształcące",
+  "pdfClass": "I b z elementami służby policyjnej",
+  "min": 57.2,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I b klasa mundurowa pod patronatem MSWiA* (j. angielski, wos)",
+  "reason": "„z elementami służby policyjnej” vs 2026/27 „mundurowa pod patronatem MSWiA”"
+ },
+ {
+  "pdfSchool": "XLII Liceum Ogólnokształcące",
+  "pdfClass": "I c dziennikarsko-filmowa z elementami kreowania wizerunku",
+  "min": 60.2,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I d dziennikarsko- filmowa z elementami kreowania wizerunku (j. polski, j. angielski, informatyka)",
+  "reason": "ten sam profil, ale symbol zmieniony z I c na I d"
+ },
+ {
+  "pdfSchool": "XLIII Liceum Ogólnokształcące",
+  "pdfClass": "1A integracja z elementami edukacji medialnej",
+  "min": 57.65,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I A integracyjny (j. polski, geografia, j. angielski)",
+  "reason": "„integracja z elementami edukacji medialnej” vs 2026/27 „integracyjny (pol, geo, ang)”"
+ },
+ {
+  "pdfSchool": "XLIII Liceum Ogólnokształcące",
+  "pdfClass": "1B sportowa z elementami dietetyki",
+  "min": 100.0,
+  "scale": 150,
+  "status": "niepewne",
+  "suggestedProfileName": "I B sportowy piłka ręczna (biologia, matematyka, j. angielski)",
+  "reason": "„sportowa z elementami dietetyki” (skala 150) vs 2026/27 „sportowy piłka ręczna (bio, mat, ang)”"
+ },
+ {
+  "pdfSchool": "XLIII Liceum Ogólnokształcące",
+  "pdfClass": "IC ogólna z elementami turystyki",
+  "min": 49.85,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "IC ogólna z elementami turystyki; 2026/27 I C to sportowy lekkoatletyka"
+ },
+ {
+  "pdfSchool": "Technikum nr 4",
+  "pdfClass": "1E Technik żywienia i usług gastronomicznych",
+  "min": null,
+  "scale": 200,
+  "status": "brak",
+  "suggestedProfileName": null,
+  "reason": "brak progu w pliku (pusta komórka)"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 4",
+  "pdfClass": "1a kucharz",
+  "min": 23.55,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 4",
+  "pdfClass": "1b kucharz",
+  "min": 37.95,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Technikum nr 5",
+  "pdfClass": "1a_e - Technik ekonomista",
+  "min": 46.0,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I c, technik ekonomista [oddział wielozawodowy: technik ekonomista, technik rachunkowości]",
+  "reason": "symbol zmieniony: 1a_e (oddział z kolejowym) -> I c (oddział z rachunkowością)"
+ },
+ {
+  "pdfSchool": "Technikum nr 5",
+  "pdfClass": "1b_r - Technik rachunkowości",
+  "min": 106.85,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I c, technik rachunkowości [oddział wielozawodowy: technik ekonomista, technik rachunkowości]",
+  "reason": "symbol zmieniony: 1b_r (oddział z logistykiem) -> I c (oddział z ekonomistą)"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 5",
+  "pdfClass": "1c_s - Sprzedawca",
+  "min": 54.25,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 5",
+  "pdfClass": "1c_ml - Magazynier-logistyk",
+  "min": 38.65,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Technikum nr 6",
+  "pdfClass": "1tb Technik kontroli jakości i bezpieczeństwa żywności",
+  "min": null,
+  "scale": 200,
+  "status": "brak",
+  "suggestedProfileName": null,
+  "reason": "brak progu w pliku (pusta komórka)"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 6",
+  "pdfClass": "1a_1; 1b_1 cukiernik",
+  "min": 42.5,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 6",
+  "pdfClass": "1a_2 operator",
+  "min": null,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 6",
+  "pdfClass": "1b_2 piekarz",
+  "min": 62.9,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 6",
+  "pdfClass": "1b_3 przetwórca",
+  "min": null,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 7",
+  "pdfClass": "Mechanik",
+  "min": 73.85,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 7",
+  "pdfClass": "Elektromechanik",
+  "min": 22.9,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 7",
+  "pdfClass": "Lakiernik",
+  "min": 56.05,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 7",
+  "pdfClass": "Kierowca mechanik",
+  "min": 28.0,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Technikum nr 9",
+  "pdfClass": "1F - technik energetyk",
+  "min": 75.0,
+  "scale": 200,
+  "status": "zmiana",
+  "suggestedProfileName": null,
+  "reason": "technik energetyk nie występuje w ofercie 2026/27 (I f = elektryk + realizacja nagrań)"
+ },
+ {
+  "pdfSchool": "Technikum nr 10",
+  "pdfClass": "1t - technik teleinformatyk",
+  "min": null,
+  "scale": 200,
+  "status": "brak",
+  "suggestedProfileName": null,
+  "reason": "brak progu w pliku (pusta komórka)"
+ },
+ {
+  "pdfSchool": "Technikum nr 10",
+  "pdfClass": "1e - technik elektronik",
+  "min": 83.15,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I te-e I te-t, technik elektronik [oddział wielozawodowy: technik elektronik, technik teleinformatyk]",
+  "reason": "symbol zmieniony: 1e -> I te-e, oddział jednozawodowy stał się wielozawodowy (z teleinformatykiem)"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 12",
+  "pdfClass": "1K - krawiec_oddział integracyjny",
+  "min": null,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Technikum nr 13",
+  "pdfClass": "1b_technik informatyk",
+  "min": 84.3,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I d, technik informatyk",
+  "reason": "symbol zmieniony: 1b -> I d (I b w 2026/27 to geodeta)"
+ },
+ {
+  "pdfSchool": "Technikum nr 15",
+  "pdfClass": "technik urządzeń i systemów energetyki odnawialnej",
+  "min": null,
+  "scale": 200,
+  "status": "brak",
+  "suggestedProfileName": null,
+  "reason": "brak progu w pliku (pusta komórka)"
+ },
+ {
+  "pdfSchool": "Technikum nr 15",
+  "pdfClass": "technik ochrony środowiska",
+  "min": null,
+  "scale": 200,
+  "status": "brak",
+  "suggestedProfileName": null,
+  "reason": "brak progu w pliku (pusta komórka)"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 15",
+  "pdfClass": "monter zabudowy i robót wykończeniowych w budownictwie",
+  "min": 30.7,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 15",
+  "pdfClass": "monter sieci i instalacji sanitarnych",
+  "min": 31.95,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 15",
+  "pdfClass": "stolarz",
+  "min": null,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Technikum nr 17",
+  "pdfClass": "Technik mechatronik",
+  "min": 109.9,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "technik mechatronik: w 2026/27 dwa oddziały (I tma, I tmb), w pliku jeden wiersz bez symbolu"
+ },
+ {
+  "pdfSchool": "Technikum nr 18",
+  "pdfClass": "1g Technik grafiki i poligrafii cyfrowej",
+  "min": 44.6,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "1g -> w 2026/27 dwa oddziały grafiki (I ga, I gb)"
+ },
+ {
+  "pdfSchool": "Technikum nr 18",
+  "pdfClass": "1d Technik procesów drukowania",
+  "min": null,
+  "scale": 200,
+  "status": "brak",
+  "suggestedProfileName": null,
+  "reason": "brak progu w pliku (pusta komórka)"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 18",
+  "pdfClass": "1bd Drukarz offsetowy",
+  "min": null,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 18",
+  "pdfClass": "1bi Operator procesów introligatorskich.",
+  "min": null,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Technikum nr 19",
+  "pdfClass": "TP (Technik programista)",
+  "min": 106.25,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I TiP, technik programista [oddział wielozawodowy: technik informatyk, technik programista]",
+  "reason": "symbol zmieniony: TP -> I TiP (połączony z informatykiem)"
+ },
+ {
+  "pdfSchool": "Technikum nr 19",
+  "pdfClass": "Ti (Technik informatyk)",
+  "min": 90.35,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I TiP, technik informatyk [oddział wielozawodowy: technik informatyk, technik programista]",
+  "reason": "symbol zmieniony: Ti -> I TiP (połączony z programistą)"
+ },
+ {
+  "pdfSchool": "Technikum nr 19",
+  "pdfClass": "TS (Technik spedytor)",
+  "min": 42.0,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I TSL, technik spedytor [oddział wielozawodowy: technik spedytor, technik gospodarowania odpadami]",
+  "reason": "symbol zmieniony: TS -> I TSL (oddział wielozawodowy z gospodarką odpadami)"
+ },
+ {
+  "pdfSchool": "Technikum nr 19",
+  "pdfClass": "TT (technik tekstronik)",
+  "min": 58.8,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "I TPT, technik tekstronik [oddział wielozawodowy: technik tekstronik, technik projektant tekstyliów]",
+  "reason": "symbol zmieniony: TT -> I TPT (połączony z projektantem tekstyliów)"
+ },
+ {
+  "pdfSchool": "Technikum nr 19",
+  "pdfClass": "Ekotechnik",
+  "min": null,
+  "scale": 200,
+  "status": "brak",
+  "suggestedProfileName": null,
+  "reason": "brak progu w pliku (pusta komórka)"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 19",
+  "pdfClass": "BF (Fotograf)",
+  "min": 38.25,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 19",
+  "pdfClass": "BL (Logistyk-magazynier)",
+  "min": 46.5,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 19",
+  "pdfClass": "BS (Serwisant sprzętu komputerowego)",
+  "min": 28.0,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Technikum nr 21",
+  "pdfClass": "technik architektury krajobrazu",
+  "min": 16.75,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "technik architektury krajobrazu i arborystyki",
+  "reason": "nazwa zawodu inna: „architektury krajobrazu” vs „architektury krajobrazu i arborystyki”"
+ },
+ {
+  "pdfSchool": "Technikum nr 21",
+  "pdfClass": "technik optyk",
+  "min": 39.6,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": "technik optyki okularowej [oddział wielozawodowy: technik agrobiznesu, technik optyki okularowej]",
+  "reason": "nazwa zawodu inna: „technik optyk” vs „technik optyki okularowej” (oddział z agrobiznesem)"
+ },
+ {
+  "pdfSchool": "Technikum nr 21",
+  "pdfClass": "technik ogrodnik",
+  "min": null,
+  "scale": 200,
+  "status": "brak",
+  "suggestedProfileName": null,
+  "reason": "brak progu w pliku (pusta komórka)"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 21",
+  "pdfClass": "fryzjer",
+  "min": 35.05,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 21",
+  "pdfClass": "ogrodnik",
+  "min": null,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 21",
+  "pdfClass": "fryzjer",
+  "min": null,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Technikum nr 22",
+  "pdfClass": "Technik pojazdów samochodowych o specjalności mechanicznej",
+  "min": 65.35,
+  "scale": 200,
+  "status": "niepewne",
+  "suggestedProfileName": null,
+  "reason": "dwa wiersze „PSP specjalność mechaniczna” (jeden bez progu); w 2026/27 I tsm i I tmm; nie wiadomo, który to który"
+ },
+ {
+  "pdfSchool": "Technikum nr 22",
+  "pdfClass": "Technik pojazdów samochodowych o specjalności mechanicznej",
+  "min": null,
+  "scale": 200,
+  "status": "brak",
+  "suggestedProfileName": null,
+  "reason": "brak progu w pliku (pusta komórka)"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 22",
+  "pdfClass": "Lakiernik samochodowy",
+  "min": 43.15,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 22",
+  "pdfClass": "Blacharz samochodowy",
+  "min": 33.6,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 22",
+  "pdfClass": "Mechanik pojazdów samochodowych",
+  "min": 51.95,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 22",
+  "pdfClass": "Elektromechanik pojazdów samochodowych",
+  "min": 21.45,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ },
+ {
+  "pdfSchool": "Branżowa Szkoła I Stopnia nr 22",
+  "pdfClass": "Mechanik motocyklowy",
+  "min": 36.0,
+  "scale": 200,
+  "status": "branzowa",
+  "suggestedProfileName": null,
+  "reason": "szkoła branżowa, brak w lodz.json"
+ }
+]

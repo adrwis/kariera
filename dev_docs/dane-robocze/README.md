@@ -9,6 +9,7 @@ Zasada: na stronę trafia tylko to, co ma oficjalne źródło; niepewne rzeczy s
 2. `node dev_docs/dane-robocze/merge-miasta-2026.js`: Warszawa, Gdynia, Sopot; aktualizuje `data/szkoly/index.json`
 3. `node dev_docs/dane-robocze/tidy-szkoly.js`: nazwy klas, wielkie litery, drobne poprawki po audycie
 4. `node dev_docs/dane-robocze/merge-vulcan.js`: progi z serwisów statystyk naboru VULCAN
+   Potem `merge-lodz-uml.js`: progi 2025 Łodzi z pliku urzędu miasta (`zrodla/lodz/`)
 5. `node dev_docs/dane-robocze/patch-matura.js`: wyniki matur z `baza/cke_*.json`
 6. `node dev_docs/dane-robocze/merge-uczelnie-2026.js` i `merge-tri-uczelnie.js`: uczelnie w `data/careers.json`
 7. `node dev_docs/dane-robocze/normalize-dashes.js`: bez długich myślników i półpauz
