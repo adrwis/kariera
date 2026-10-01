@@ -8,14 +8,39 @@ const Szkoly = (function () {
   'use strict';
 
   const DATA_DIR = 'data/szkoly/';
+  // uni: nazwy miast uczelni, które idą na górę listy uczelni na profilu zawodu
   const CITIES = {
-    gdansk: { name: 'Gdańsk', loc: 'w Gdańsku', files: ['gdansk'] },
-    gdynia: { name: 'Gdynia', loc: 'w Gdyni', files: ['gdynia'] },
-    sopot: { name: 'Sopot', loc: 'w Sopocie', files: ['sopot'] },
-    trojmiasto: { name: 'Trójmiasto', loc: 'w Trójmieście', files: ['gdansk', 'gdynia', 'sopot'] },
-    warszawa: { name: 'Warszawa', loc: 'w Warszawie', files: ['warszawa'] },
+    trojmiasto: { name: 'Trójmiasto i okolice', loc: 'w Trójmieście i okolicy', files: ['gdansk', 'gdynia', 'sopot', 'wejherowo'], uni: ['Gdańsk', 'Gdynia', 'Sopot'] },
+    gdansk: { name: 'Gdańsk', loc: 'w Gdańsku', files: ['gdansk'], uni: ['Gdańsk', 'Gdynia', 'Sopot'] },
+    gdynia: { name: 'Gdynia', loc: 'w Gdyni', files: ['gdynia'], uni: ['Gdańsk', 'Gdynia', 'Sopot'] },
+    sopot: { name: 'Sopot', loc: 'w Sopocie', files: ['sopot'], uni: ['Gdańsk', 'Gdynia', 'Sopot'] },
+    wejherowo: { name: 'Powiat wejherowski', loc: 'w powiecie wejherowskim', files: ['wejherowo'], uni: ['Gdańsk', 'Gdynia', 'Sopot'] },
+    warszawa: { name: 'Warszawa', loc: 'w Warszawie', files: ['warszawa'], uni: ['Warszawa'] },
+    krakow: { name: 'Kraków', loc: 'w Krakowie', files: ['krakow'], uni: ['Kraków'] },
+    wroclaw: { name: 'Wrocław', loc: 'we Wrocławiu', files: ['wroclaw'], uni: ['Wrocław'] },
+    lodz: { name: 'Łódź', loc: 'w Łodzi', files: ['lodz'], uni: ['Łódź'] },
+    poznan: { name: 'Poznań', loc: 'w Poznaniu', files: ['poznan'], uni: ['Poznań'] },
+    szczecin: { name: 'Szczecin', loc: 'w Szczecinie', files: ['szczecin'], uni: ['Szczecin'] },
+    bydgoszcz: { name: 'Bydgoszcz', loc: 'w Bydgoszczy', files: ['bydgoszcz'], uni: ['Bydgoszcz'] },
+    lublin: { name: 'Lublin', loc: 'w Lublinie', files: ['lublin'], uni: ['Lublin'] },
+    bialystok: { name: 'Białystok', loc: 'w Białymstoku', files: ['bialystok'], uni: ['Białystok'] },
+    katowice: { name: 'Katowice', loc: 'w Katowicach', files: ['katowice'], uni: ['Katowice', 'Gliwice'] },
   };
-  const CITY_CHIPS = ['trojmiasto', 'gdansk', 'gdynia', 'sopot', 'warszawa'];
+  const CITY_GROUPS = [
+    ['Pomorze', ['trojmiasto', 'gdansk', 'gdynia', 'sopot', 'wejherowo']],
+    ['Duże miasta', ['warszawa', 'krakow', 'wroclaw', 'lodz', 'poznan', 'szczecin', 'bydgoszcz', 'lublin', 'bialystok', 'katowice']],
+  ];
+
+  // Lista rozwijana miast; zmiana wywołuje onChange(slug)
+  function citySelectHtml(current, id) {
+    return `
+      <label class="szkoly__field kalk__field szkoly__city-field">
+        <span class="szkoly__legend">Miasto</span>
+        <select class="szkoly__select szkoly__city-select" id="${id}" data-city-select>
+          ${CITY_GROUPS.map(([label, slugs]) => `<optgroup label="${attr(label)}">${slugs.map(c => `<option value="${c}"${c === current ? ' selected' : ''}>${esc(CITIES[c].name)}</option>`).join('')}</optgroup>`).join('')}
+        </select>
+      </label>`;
+  }
   const DEFAULT_CITY = 'gdansk';
 
   const SUBJECTS = {
@@ -355,9 +380,7 @@ const Szkoly = (function () {
           <h1 class="results__title">Szkoły średnie ${esc(d.city.loc)}</h1>
           <p class="results__query">Licea i technika dla absolwentów podstawówki.${year ? ` Oferta klas na rok ${esc(year)}.` : ''}</p>
           <p class="career-column__text"><a href="${ctx.BASE}/kalkulator?miasto=${d.slug}" class="szkoly__calc-link">Policz swoje punkty i sprawdź, gdzie masz szansę</a></p>
-          <nav class="szkoly__cities" aria-label="Miasto">
-            ${CITY_CHIPS.map(c => `<a href="${ctx.BASE}/szkoly?miasto=${c}" class="szkoly__city${c === d.slug ? ' szkoly__city--active' : ''}"${c === d.slug ? ' aria-current="page"' : ''}>${esc(CITIES[c].name)}</a>`).join('')}
-          </nav>
+          ${citySelectHtml(d.slug, 'szkolyCity')}
           <details class="szkoly__filters-wrap"${activeCount || window.innerWidth > 700 ? ' open' : ''}>
             <summary class="szkoly__filters-toggle">Filtry${activeCount ? ` (${activeCount})` : ''}</summary>
             <form class="szkoly__filters" id="szkolyFilters">
@@ -549,7 +572,7 @@ const Szkoly = (function () {
       <div class="results szkoly">
         <a href="${ctx.BASE}/szkoly" class="results__back">&larr; Wszystkie szkoły</a>
         <h1 class="results__title">Nie ma takiej szkoły w bazie</h1>
-        <p class="results__query">Na razie są tu licea i technika z Gdańska, Gdyni, Sopotu i Warszawy.</p>
+        <p class="results__query">Na razie są tu licea i technika z Trójmiasta, powiatu wejherowskiego, Warszawy i dziewięciu dużych miast.</p>
       </div>`;
     ctx.updateMeta('Nie znaleziono szkoły | NextMove', 'Tej szkoły nie ma w bazie NextMove.', location.pathname);
     setRobots('noindex');
@@ -692,9 +715,7 @@ const Szkoly = (function () {
         .sort((a, b) => (romanValue(a.s.shortName) - romanValue(b.s.shortName)) || (a.s.shortName || a.s.name).localeCompare(b.s.shortName || b.s.name, 'pl'))
       : [];
     const citySwitch = `
-      <p class="career-secondary__cities">Miasto:
-        ${CITY_CHIPS.map(c => `<button type="button" class="szkoly__city${c === d.slug ? ' szkoly__city--active' : ''}" data-city="${c}" aria-pressed="${c === d.slug}">${esc(CITIES[c].name)}</button>`).join('')}
-      </p>`;
+      <div class="career-secondary__cities">${citySelectHtml(d.slug, 'careerCity')}</div>`;
     if (!tech.length && !lo.length && !recommended.length) {
       return `
       <section class="career-secondary">
@@ -739,28 +760,38 @@ const Szkoly = (function () {
       </section>`;
   }
 
-  // Przełączanie miasta w sekcji na profilu zawodu
-  document.addEventListener('click', e => {
-    const btn = e.target.closest('.career-secondary [data-city]');
-    if (!btn || !lastCareer) return;
-    const section = btn.closest('.career-secondary');
-    const career = lastCareer;
-    const previous = currentCity();
-    const slug = btn.dataset.city;
-    load(slug).then(() => {
-      setCity(slug);
-      return careerSectionHtml(career);
-    }).catch(() => {
-      setCity(previous);
-      const msg = section.querySelector('.career-secondary__error') || section.appendChild(Object.assign(document.createElement('p'), { className: 'career-column__text career-secondary__error' }));
-      msg.textContent = 'Nie udało się wczytać szkół z tego miasta. Spróbuj ponownie.';
-      return '';
-    }).then(html => {
-      if (!html || !section.isConnected || lastCareer !== career) return;
-      section.outerHTML = html;
-      const again = document.querySelector(`.career-secondary [data-city="${btn.dataset.city}"]`);
-      if (again) again.focus();
-    });
+  // Zmiana miasta z listy rozwijanej: w sekcji na profilu zawodu na miejscu, na liście szkół i w kalkulatorze przez nowy adres
+  document.addEventListener('change', e => {
+    const sel = e.target.closest('[data-city-select]');
+    if (!sel) return;
+    const slug = sel.value;
+    if (!CITIES[slug]) return;
+    const section = sel.closest('.career-secondary');
+    if (section) {
+      if (!lastCareer) return;
+      const career = lastCareer;
+      const previous = currentCity();
+      load(slug).then(() => {
+        setCity(slug);
+        return careerSectionHtml(career);
+      }).catch(() => {
+        setCity(previous);
+        sel.value = previous;
+        const msg = section.querySelector('.career-secondary__error') || section.appendChild(Object.assign(document.createElement('p'), { className: 'career-column__text career-secondary__error' }));
+        msg.textContent = 'Nie udało się wczytać szkół z tego miasta. Spróbuj ponownie.';
+        return '';
+      }).then(html => {
+        if (!html || !section.isConnected || lastCareer !== career) return;
+        section.outerHTML = html;
+        const again = document.getElementById('careerCity');
+        if (again) again.focus();
+      });
+      return;
+    }
+    const page = sel.id === 'kalkCity' ? 'kalkulator' : 'szkoly';
+    setCity(slug);
+    history.pushState(null, '', `${ctx.BASE}/${page}?miasto=${slug}`);
+    dispatchEvent(new PopStateEvent('popstate'));
   });
 
   // --- Kalkulator punktów ósmoklasisty ---
@@ -962,9 +993,7 @@ const Szkoly = (function () {
           </fieldset>
           <fieldset class="szkoly__fieldset">
             <legend class="szkoly__legend">Gdzie szukać</legend>
-            <nav class="szkoly__cities" aria-label="Miasto">
-              ${CITY_CHIPS.map(c => `<a href="${ctx.BASE}/kalkulator?miasto=${c}" class="szkoly__city${c === citySlug ? ' szkoly__city--active' : ''}"${c === citySlug ? ' aria-current="page"' : ''}>${esc(CITIES[c].name)}</a>`).join('')}
-            </nav>
+            ${citySelectHtml(citySlug, 'kalkCity')}
             <div class="szkoly__chips">
               ${[['', 'Licea i technika'], ['liceum', 'Licea'], ['technikum', 'Technika']].map(([v, l]) => `
                 <label class="szkoly__chip"><input type="radio" name="typ" value="${v}"${typ === v ? ' checked' : ''}> ${l}</label>`).join('')}
@@ -1013,7 +1042,9 @@ const Szkoly = (function () {
     update();
   }
 
-  return { init, load, renderList, renderDetail, renderCalculator, careerSectionHtml, setBackContext, currentCity, resetPending, CAREER_PROFESSIONS };
+  const cityUniversities = slug => (CITIES[slug] || CITIES[DEFAULT_CITY]).uni;
+
+  return { init, load, renderList, renderDetail, renderCalculator, careerSectionHtml, cityUniversities, setBackContext, currentCity, resetPending, CAREER_PROFESSIONS };
 })();
 
 window.Szkoly = Szkoly;

@@ -9,7 +9,7 @@ const B = path.join(__dirname, 'baza');
 const RET = '2026-10-01';
 const CODES = new Set(['mat','pol','ang','niem','fr','hisz','ros','wlo','bio','chem','fiz','inf','geo','hist','wos','hsz','hmuz','fil','lac']);
 
-const resultFiles = fs.readdirSync(W).filter(f => /^wynik-(waw-|trojmiasto)/.test(f));
+const resultFiles = fs.readdirSync(W).filter(f => /^wynik-(waw-|trojmiasto|krakow|wroclaw|lodz|poznan|szczecin|bydgoszcz|lublin|bialystok|katowice|wejherowo)/.test(f));
 const results = new Map();
 for (const f of resultFiles) for (const r of JSON.parse(fs.readFileSync(path.join(W, f), 'utf8'))) results.set(r.rspo, r);
 
@@ -51,8 +51,13 @@ const EXCLUDE = new Set([480767, 271713, 485988]);
 const index = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/szkoly/index.json'), 'utf8'));
 for (const r of EXCLUDE) delete index.rspo[r];
 const log = [];
-for (const [slug, city] of [['warszawa', 'Warszawa'], ['gdynia', 'Gdynia'], ['sopot', 'Sopot']]) {
-  const base = JSON.parse(fs.readFileSync(path.join(B, `base_${city}.json`), 'utf8')).filter(s => s.students > 0 && !EXCLUDE.has(s.rspo));
+const REGIONS = [['warszawa', 'Warszawa'], ['gdynia', 'Gdynia'], ['sopot', 'Sopot'],
+  ['krakow', 'Kraków'], ['wroclaw', 'Wrocław'], ['lodz', 'Łódź'], ['poznan', 'Poznań'], ['szczecin', 'Szczecin'],
+  ['bydgoszcz', 'Bydgoszcz'], ['lublin', 'Lublin'], ['bialystok', 'Białystok'], ['katowice', 'Katowice'], ['wejherowo', 'Powiat wejherowski']];
+// Pliki bazowe: stare miasta mają nazwę z wielkiej litery (base_Warszawa.json), nowe slug (base_krakow.json)
+const baseFile = (slug, city) => fs.existsSync(path.join(B, `base_${city}.json`)) ? `base_${city}.json` : `base_${slug}.json`;
+for (const [slug, city] of REGIONS) {
+  const base = JSON.parse(fs.readFileSync(path.join(B, baseFile(slug, city)), 'utf8')).filter(s => s.students > 0 && !EXCLUDE.has(s.rspo));
   let withProfiles = 0, thresholds = 0, done = 0;
   const schools = base.map(({ professionsRspo, ...s }) => {
     const r = results.get(s.rspo);
@@ -70,7 +75,7 @@ for (const [slug, city] of [['warszawa', 'Warszawa'], ['gdynia', 'Gdynia'], ['so
     return out;
   });
   schools.forEach(s => { index.rspo[s.rspo] = slug; });
-  fs.writeFileSync(path.join(ROOT, `data/szkoly/${slug}.json`), JSON.stringify({ city, retrieved: RET, schools }));
+  fs.writeFileSync(path.join(ROOT, `data/szkoly/${slug}.json`), JSON.stringify({ city, retrieved: RET, schools: schools.map(s => ({ ...s, city: s.city || city })) }));
   log.push(`${city}: ${schools.length} szkół, z wynikiem agenta ${done}, z klasami ${withProfiles}, progów ${thresholds}`);
 }
 fs.writeFileSync(path.join(ROOT, 'data/szkoly/index.json'), JSON.stringify(index));

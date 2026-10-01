@@ -114,10 +114,19 @@ server.listen(0, async () => {
   await page.goto(base + '/zawod/technik-informatyk');
   await page.waitForSelector('.career-secondary');
   check('technik informatyk ma listę techników', (await page.$$('.career-secondary li')).length > 0);
-  await page.click('.career-secondary [data-city="warszawa"]');
+  await page.selectOption('#careerCity', 'warszawa');
   await page.waitForFunction(() => /Warszawie/.test(document.querySelector('.career-secondary h2').textContent));
   check('przełączenie miasta zmienia sekcję', true);
+  await page.selectOption('#careerCity', 'krakow');
+  await page.waitForFunction(() => /Krakowie/.test(document.querySelector('.career-secondary h2').textContent));
+  check('nowe miasto (Kraków) działa w sekcji zawodu', true);
   await page.evaluate(() => localStorage.setItem('kr-miasto', 'gdansk'));
+  await page.goto(base + '/szkoly?miasto=wejherowo');
+  await page.waitForSelector('#szkolyList li');
+  check('powiat wejherowski ma szkoły', /Pasujące szkoły: \d+/.test(await page.textContent('#szkolyCount')));
+  await page.selectOption('#szkolyCity', 'lublin');
+  await page.waitForFunction(() => /Lublinie/.test((document.querySelector('#szkolyView h1') || {}).textContent || ''));
+  check('zmiana miasta na liście szkół zmienia adres', /miasto=lublin/.test(page.url()));
 
   console.log('\n=== Kalkulator ===');
   await page.goto(base + '/kalkulator?miasto=trojmiasto');

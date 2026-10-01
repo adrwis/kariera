@@ -1,0 +1,3580 @@
+[
+ {
+  "rspo": 278772,
+  "type": "liceum",
+  "name": "AUTORSKA SZKOŁA PONADPODSTAWOWA-LICEUM SOWIZDRZAŁA",
+  "shortName": null,
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Tadeusza Boya Żeleńskiego 96, 40-750 Katowice",
+  "geo": {
+   "lat": 50.18073,
+   "lng": 19.00118
+  },
+  "url": "https://www.liceumsowizdrzala.pl",
+  "public": false,
+  "students": 37,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem",
+   "ros",
+   "wlo"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 40,
+   "examinees": 10,
+   "certificates": 4,
+   "extended": {
+    "bio": {
+     "n": 2,
+     "mean": null
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 9,
+     "mean": 69.2
+    },
+    "pol": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/278772",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 10699,
+  "type": "liceum",
+  "name": "I LICEUM OGÓLNOKSZTAŁCĄCE IM.MIKOŁAJA KOPERNIKA Z ODDZIAŁAMI DWUJĘZYCZNYMI W KATOWICACH",
+  "shortName": "I LO",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Henryka Sienkiewicza 74, 40-039 Katowice",
+  "geo": {
+   "lat": 50.24987,
+   "lng": 19.02212
+  },
+  "url": "https://kopernik.katowice.pl",
+  "public": true,
+  "students": 541,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 99.4,
+   "examinees": 177,
+   "certificates": 176,
+   "extended": {
+    "bio": {
+     "n": 50,
+     "mean": 53.1
+    },
+    "chem": {
+     "n": 35,
+     "mean": 46.5
+    },
+    "fiz": {
+     "n": 8,
+     "mean": 25.9
+    },
+    "geo": {
+     "n": 46,
+     "mean": 62
+    },
+    "hist": {
+     "n": 16,
+     "mean": 64.1
+    },
+    "hmuz": {
+     "n": 2,
+     "mean": null
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 149,
+     "mean": 80.8
+    },
+    "ang_dwj": {
+     "n": 12,
+     "mean": 71.5
+    },
+    "fr_dwj": {
+     "n": 50,
+     "mean": 41.7
+    },
+    "hisz_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 56,
+     "mean": 61.8
+    },
+    "ros_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 62,
+     "mean": 40.1
+    },
+    "wos": {
+     "n": 36,
+     "mean": 58
+    },
+    "ukr": {
+     "n": 3,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/10699",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 92352,
+  "type": "liceum",
+  "name": "I SPOŁECZNE LICEUM OGÓLNOKSZTAŁCĄCE IM. STANISŁAWA KONARSKIEGO SPOŁECZNEGO TOWARZYSTWA OŚWIATOWEGO W KATOWICACH",
+  "shortName": "I LO",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Mikołowska 26, 40-066 Katowice",
+  "geo": {
+   "lat": 50.25489,
+   "lng": 19.01122
+  },
+  "url": null,
+  "public": false,
+  "students": 74,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 97,
+   "examinees": 33,
+   "certificates": 32,
+   "extended": {
+    "bio": {
+     "n": 9,
+     "mean": 47
+    },
+    "chem": {
+     "n": 5,
+     "mean": 46.4
+    },
+    "fiz": {
+     "n": 4,
+     "mean": null
+    },
+    "geo": {
+     "n": 4,
+     "mean": null
+    },
+    "hist": {
+     "n": 3,
+     "mean": null
+    },
+    "hsz": {
+     "n": 3,
+     "mean": null
+    },
+    "inf": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 32,
+     "mean": 89
+    },
+    "pol": {
+     "n": 7,
+     "mean": 48.9
+    },
+    "mat": {
+     "n": 16,
+     "mean": 48.9
+    },
+    "wos": {
+     "n": 5,
+     "mean": 60.4
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/92352",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 5438,
+  "type": "liceum",
+  "name": "II LICEUM OGÓLNOKSZTAŁCĄCE IM. MARII KONOPNICKIEJ Z ODDZIAŁAMI DWUJĘZYCZNYMI W KATOWICACH",
+  "shortName": "II LO",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Bartosza Głowackiego 4-6, 40-052 Katowice",
+  "geo": {
+   "lat": 50.2524,
+   "lng": 19.01019
+  },
+  "url": "https://www.nasza-szkola.pl",
+  "public": true,
+  "students": 954,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "międzynarodowy",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 258,
+   "certificates": 258,
+   "extended": {
+    "bio": {
+     "n": 72,
+     "mean": 62.7
+    },
+    "chem": {
+     "n": 61,
+     "mean": 59.3
+    },
+    "fil": {
+     "n": 3,
+     "mean": null
+    },
+    "fiz": {
+     "n": 8,
+     "mean": 45.1
+    },
+    "geo": {
+     "n": 38,
+     "mean": 72.5
+    },
+    "hist": {
+     "n": 24,
+     "mean": 62.6
+    },
+    "hsz": {
+     "n": 6,
+     "mean": 49.8
+    },
+    "inf": {
+     "n": 7,
+     "mean": 45.1
+    },
+    "ang": {
+     "n": 235,
+     "mean": 87.6
+    },
+    "ang_dwj": {
+     "n": 8,
+     "mean": 79.5
+    },
+    "fr": {
+     "n": 1,
+     "mean": null
+    },
+    "hisz": {
+     "n": 6,
+     "mean": 69.8
+    },
+    "hisz_dwj": {
+     "n": 32,
+     "mean": 80.9
+    },
+    "pol": {
+     "n": 61,
+     "mean": 53.7
+    },
+    "wlo": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 103,
+     "mean": 58.5
+    },
+    "wos": {
+     "n": 7,
+     "mean": 57.1
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/5438",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 5449,
+  "type": "liceum",
+  "name": "III LICEUM OGÓLNOKSZTAŁCĄCE IM. ADAMA MICKIEWICZA",
+  "shortName": "III LO",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Adama Mickiewicza 11, 40-092 Katowice",
+  "geo": {
+   "lat": 50.26164,
+   "lng": 19.01762
+  },
+  "url": "https://www.mickiewicz.katowice.pl",
+  "public": true,
+  "students": 738,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem",
+   "wlo"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "międzynarodowy"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 138,
+   "certificates": 138,
+   "extended": {
+    "bio": {
+     "n": 82,
+     "mean": 80.3
+    },
+    "chem": {
+     "n": 78,
+     "mean": 75.3
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 11,
+     "mean": 61.5
+    },
+    "geo": {
+     "n": 13,
+     "mean": 80
+    },
+    "hist": {
+     "n": 18,
+     "mean": 80.1
+    },
+    "inf": {
+     "n": 9,
+     "mean": 60.4
+    },
+    "ang": {
+     "n": 90,
+     "mean": 91.3
+    },
+    "ang_dwj": {
+     "n": 12,
+     "mean": 79.2
+    },
+    "fr": {
+     "n": 1,
+     "mean": null
+    },
+    "hisz": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 16,
+     "mean": 63.2
+    },
+    "mat": {
+     "n": 54,
+     "mean": 63.1
+    },
+    "wos": {
+     "n": 16,
+     "mean": 81.2
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/5449",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 5668,
+  "type": "liceum",
+  "name": "IV LICEUM OGÓLNOKSZTAŁCĄCE IM. GENERAŁA STANISŁAWA MACZKA Z ODDZIAŁAMI DWUJĘZYCZNYMI W KATOWICACH",
+  "shortName": "IV LO",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Katowicka 54, 40-165 Katowice",
+  "geo": {
+   "lat": 50.26938,
+   "lng": 19.02951
+  },
+  "url": "https://maczek.edu.pl",
+  "public": true,
+  "students": 550,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem",
+   "wlo"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 139,
+   "certificates": 139,
+   "extended": {
+    "bio": {
+     "n": 41,
+     "mean": 67.6
+    },
+    "chem": {
+     "n": 32,
+     "mean": 53.5
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 16,
+     "mean": 65.9
+    },
+    "hist": {
+     "n": 10,
+     "mean": 69.8
+    },
+    "hsz": {
+     "n": 5,
+     "mean": 48.2
+    },
+    "inf": {
+     "n": 9,
+     "mean": 36.4
+    },
+    "ang": {
+     "n": 124,
+     "mean": 86.5
+    },
+    "ang_dwj": {
+     "n": 3,
+     "mean": null
+    },
+    "hisz": {
+     "n": 9,
+     "mean": 61.9
+    },
+    "pol": {
+     "n": 21,
+     "mean": 44
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "ros_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "wlo": {
+     "n": 14,
+     "mean": 85.1
+    },
+    "mat": {
+     "n": 54,
+     "mean": 42.5
+    },
+    "wos": {
+     "n": 9,
+     "mean": 62
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/5668",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 10803,
+  "type": "liceum",
+  "name": "IX LICEUM OGÓLNOKSZTAŁCĄCE IM.HENRYKA SIENKIEWICZA Z ODDZIAŁAMI INTEGRACYJNYMI W KATOWICACH",
+  "shortName": "IX LO",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Bolesława Chrobrego 4, 40-881 Katowice",
+  "geo": {
+   "lat": 50.27979,
+   "lng": 18.97235
+  },
+  "url": null,
+  "public": true,
+  "students": 66,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "integracyjny",
+   "specjalny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 33.3,
+   "examinees": 12,
+   "certificates": 4,
+   "extended": {
+    "bio": {
+     "n": 4,
+     "mean": null
+    },
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 7,
+     "mean": 56.1
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/10803",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 12925,
+  "type": "liceum",
+  "name": "KATOLICKIE LICEUM OGÓLNOKSZTAŁCĄCE IM. BŁ. KS. EMILA SZRAMKA",
+  "shortName": null,
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Stanisława Kobylińskiego 4, 40-026 Katowice",
+  "geo": {
+   "lat": 50.2553,
+   "lng": 19.02589
+  },
+  "url": "https://szkolakatolicka.edu.pl",
+  "public": false,
+  "students": 67,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 93.5,
+   "examinees": 46,
+   "certificates": 43,
+   "extended": {
+    "bio": {
+     "n": 18,
+     "mean": 31.6
+    },
+    "chem": {
+     "n": 7,
+     "mean": 25.3
+    },
+    "geo": {
+     "n": 5,
+     "mean": 54
+    },
+    "hist": {
+     "n": 8,
+     "mean": 67.1
+    },
+    "inf": {
+     "n": 2,
+     "mean": null
+    },
+    "ang": {
+     "n": 37,
+     "mean": 75.8
+    },
+    "hisz": {
+     "n": 4,
+     "mean": null
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 6,
+     "mean": 57.3
+    },
+    "mat": {
+     "n": 13,
+     "mean": 31.8
+    },
+    "wos": {
+     "n": 6,
+     "mean": 57.3
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/12925",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 478265,
+  "type": "liceum",
+  "name": "KORCZAKOWSKIE LICEUM OGÓLNOKSZTAŁCĄCE W KATOWICACH",
+  "shortName": null,
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Katowicka 27, 40-173 Katowice",
+  "geo": {
+   "lat": 50.26852,
+   "lng": 19.03225
+  },
+  "url": "https://katowice.korczakowskieliceum.pl",
+  "public": false,
+  "students": 52,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "wlo",
+   "japoński"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/478265",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 279092,
+  "type": "liceum",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE EMS",
+  "shortName": null,
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. J. Gallusa 10, 40-594 Katowice",
+  "geo": {
+   "lat": 50.24384,
+   "lng": 18.99396
+  },
+  "url": "https://www.englishmontessorischool.pl",
+  "public": false,
+  "students": 42,
+  "languages": [
+   "ang"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/279092",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 274123,
+  "type": "liceum",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE IN ALTUM",
+  "shortName": null,
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Oswobodzenia 47, 40-404 Katowice",
+  "geo": {
+   "lat": 50.24728,
+   "lng": 19.09011
+  },
+  "url": "http://www.inaltum.edu.pl/",
+  "public": false,
+  "students": 98,
+  "languages": [
+   "ang",
+   "hisz"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 95,
+   "examinees": 20,
+   "certificates": 19,
+   "extended": {
+    "fiz": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 1,
+     "mean": null
+    },
+    "hist": {
+     "n": 3,
+     "mean": null
+    },
+    "inf": {
+     "n": 5,
+     "mean": 74.8
+    },
+    "ang": {
+     "n": 20,
+     "mean": 84.8
+    },
+    "hisz": {
+     "n": 2,
+     "mean": null
+    },
+    "pol": {
+     "n": 12,
+     "mean": 43.9
+    },
+    "mat": {
+     "n": 8,
+     "mean": 70
+    },
+    "wos": {
+     "n": 2,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/274123",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 478552,
+  "type": "liceum",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE LICEUM W CHMURZE W KATOWICACH",
+  "shortName": null,
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. J. Gallusa 10, 40-594 Katowice",
+  "geo": {
+   "lat": 50.24377,
+   "lng": 18.99391
+  },
+  "url": "https://szkolawchmurze.org/",
+  "public": false,
+  "students": 1082,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem",
+   "ros",
+   "wlo"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/478552",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 122479,
+  "type": "liceum",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE MISTRZOSTWA SPORTOWEGO W KATOWICACH",
+  "shortName": null,
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Techników 7, 40-326 Katowice",
+  "geo": {
+   "lat": 50.27319,
+   "lng": 19.0598
+  },
+  "url": "http://sms.katowice.pl/",
+  "public": false,
+  "students": 243,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "mistrzostwa sportowego"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 70.1,
+   "examinees": 67,
+   "certificates": 47,
+   "extended": {
+    "bio": {
+     "n": 25,
+     "mean": 21.5
+    },
+    "chem": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 11,
+     "mean": 33.1
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 63,
+     "mean": 53.1
+    },
+    "pol": {
+     "n": 3,
+     "mean": null
+    },
+    "mat": {
+     "n": 15,
+     "mean": 20.4
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/122479",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 125300,
+  "type": "liceum",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE TEB EDUKACJA W KATOWICACH",
+  "shortName": null,
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. gen. Kazimierza Pułaskiego 25, 40-276 Katowice",
+  "geo": {
+   "lat": 50.25375,
+   "lng": 19.0408
+  },
+  "url": null,
+  "public": false,
+  "students": 191,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/125300",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 479003,
+  "type": "liceum",
+  "name": "NIEPUBLICZNE LICEUM OGÓLNOKSZTAŁCĄCE NASZA SZKOŁA",
+  "shortName": null,
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Harcerzy Września 1939 5, 40-659 Katowice",
+  "geo": {
+   "lat": 50.21266,
+   "lng": 18.97744
+  },
+  "url": "https://www.liceumnaszaszkola.pl",
+  "public": false,
+  "students": 30,
+  "languages": [
+   "ang"
+  ],
+  "specifics": [
+   "specjalny"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/479003",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 263703,
+  "type": "liceum",
+  "name": "NIEPUBLICZNE LICEUM OGÓLNOKSZTAŁCĄCE SZKOŁA MISTRZOSTWA SPORTOWEGO POLSKIEGO ZWIĄZKU HOKEJA NA LODZIE",
+  "shortName": null,
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Szopienicka 66, 40-431 Katowice",
+  "geo": {
+   "lat": 50.2519,
+   "lng": 19.08473
+  },
+  "url": null,
+  "public": false,
+  "students": 40,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "mistrzostwa sportowego"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 70,
+   "examinees": 10,
+   "certificates": 7,
+   "extended": {
+    "bio": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 4,
+     "mean": null
+    },
+    "hist": {
+     "n": 2,
+     "mean": null
+    },
+    "ang": {
+     "n": 10,
+     "mean": 50.8
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/263703",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 30409,
+  "type": "liceum",
+  "name": "PRYWATNE LICEUM OGÓLNOKSZTAŁCĄCE IM. MELCHIORA WAŃKOWICZA Z ODDZIAŁAMI MIĘDZYNARODOWYMI",
+  "shortName": null,
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Wincentego Witosa 18, 40-832 Katowice",
+  "geo": {
+   "lat": 50.25898,
+   "lng": 18.96986
+  },
+  "url": "https://www.wankowicz.edu.pl",
+  "public": false,
+  "students": 207,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "międzynarodowy"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 93.8,
+   "examinees": 32,
+   "certificates": 30,
+   "extended": {
+    "bio": {
+     "n": 10,
+     "mean": 61.3
+    },
+    "chem": {
+     "n": 8,
+     "mean": 61.7
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 2,
+     "mean": null
+    },
+    "hist": {
+     "n": 8,
+     "mean": 48.1
+    },
+    "hsz": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 23,
+     "mean": 77.5
+    },
+    "ang_dwj": {
+     "n": 2,
+     "mean": null
+    },
+    "pol": {
+     "n": 6,
+     "mean": 75.7
+    },
+    "mat": {
+     "n": 9,
+     "mean": 33.1
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/30409",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 12931,
+  "type": "liceum",
+  "name": "SPOŁECZNE LICEUM OGÓLNOKSZTAŁCĄCE IM.W.KORFANTEGO STOWARZYSZENIA RODZICÓW I NAUCZYCIELI",
+  "shortName": null,
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Francuska 80, 40-507 Katowice",
+  "geo": {
+   "lat": 50.24248,
+   "lng": 19.02561
+  },
+  "url": "https://korfanty.edu.pl",
+  "public": false,
+  "students": 68,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 90,
+   "examinees": 10,
+   "certificates": 9,
+   "extended": {
+    "bio": {
+     "n": 4,
+     "mean": null
+    },
+    "chem": {
+     "n": 2,
+     "mean": null
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 8,
+     "mean": 82.8
+    },
+    "ang_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/12931",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 5738,
+  "type": "liceum",
+  "name": "V LICEUM OGÓLNOKSZTAŁCĄCE IM. WŁADYSŁAWA BRONIEWSKIEGO",
+  "shortName": "V LO",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. gen. Zygmunta Waltera Jankego 65, 40-615 Katowice",
+  "geo": {
+   "lat": 50.21459,
+   "lng": 18.99015
+  },
+  "url": null,
+  "public": true,
+  "students": 164,
+  "languages": [
+   "ang",
+   "niem",
+   "wlo"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 87,
+   "examinees": 46,
+   "certificates": 40,
+   "extended": {
+    "bio": {
+     "n": 17,
+     "mean": 26.5
+    },
+    "chem": {
+     "n": 17,
+     "mean": 16.5
+    },
+    "geo": {
+     "n": 5,
+     "mean": 42
+    },
+    "hist": {
+     "n": 6,
+     "mean": 31.5
+    },
+    "ang": {
+     "n": 41,
+     "mean": 60.5
+    },
+    "pol": {
+     "n": 15,
+     "mean": 48.6
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/5738",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 10812,
+  "type": "liceum",
+  "name": "VI LICEUM OGÓLNOKSZTAŁCĄCE IM.JANA DŁUGOSZA",
+  "shortName": "VI LO",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Lwowska 2, 40-389 Katowice",
+  "geo": {
+   "lat": 50.26214,
+   "lng": 19.09476
+  },
+  "url": "https://dlugosz.katowice.pl",
+  "public": true,
+  "students": 293,
+  "languages": [
+   "ang",
+   "niem",
+   "wlo"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "integracyjny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 73.5,
+   "examinees": 113,
+   "certificates": 83,
+   "extended": {
+    "bio": {
+     "n": 16,
+     "mean": 25.4
+    },
+    "chem": {
+     "n": 5,
+     "mean": 9.2
+    },
+    "fil": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 3,
+     "mean": null
+    },
+    "geo": {
+     "n": 10,
+     "mean": 26.1
+    },
+    "hist": {
+     "n": 2,
+     "mean": null
+    },
+    "ang": {
+     "n": 94,
+     "mean": 60
+    },
+    "ang_dwj": {
+     "n": 4,
+     "mean": null
+    },
+    "hisz": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 53,
+     "mean": 19.3
+    },
+    "ros": {
+     "n": 5,
+     "mean": 84
+    },
+    "mat": {
+     "n": 17,
+     "mean": 14.6
+    },
+    "wos": {
+     "n": 14,
+     "mean": 26.7
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/10812",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 10830,
+  "type": "liceum",
+  "name": "VII LICEUM OGÓLNOKSZTAŁCĄCE IM.HARCERZY OBROŃCÓW KATOWICE Z ODDZIAŁAMI DWUJĘZYCZNYMI W KATOWICACH",
+  "shortName": "VII LO",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Panewnicka 13, 40-709 Katowice",
+  "geo": {
+   "lat": 50.22591,
+   "lng": 18.97128
+  },
+  "url": null,
+  "public": true,
+  "students": 509,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 87.2,
+   "examinees": 133,
+   "certificates": 116,
+   "extended": {
+    "bio": {
+     "n": 21,
+     "mean": 44.1
+    },
+    "chem": {
+     "n": 12,
+     "mean": 29.2
+    },
+    "geo": {
+     "n": 49,
+     "mean": 49.9
+    },
+    "hist": {
+     "n": 6,
+     "mean": 43.2
+    },
+    "hsz": {
+     "n": 2,
+     "mean": null
+    },
+    "ang": {
+     "n": 64,
+     "mean": 61.5
+    },
+    "ang_dwj": {
+     "n": 53,
+     "mean": 63.9
+    },
+    "niem": {
+     "n": 2,
+     "mean": null
+    },
+    "pol": {
+     "n": 40,
+     "mean": 41.4
+    },
+    "mat": {
+     "n": 17,
+     "mean": 16.4
+    },
+    "wos": {
+     "n": 32,
+     "mean": 31.5
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/10830",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 10840,
+  "type": "liceum",
+  "name": "VIII LICEUM OGÓLNOKSZTAŁCĄCE IM. MARII SKŁODOWSKIEJ-CURIE Z ODDZIAŁAMI DWUJĘZYCZNYMI W KATOWICACH",
+  "shortName": "VIII LO",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. 3 Maja 42, 40-097 Katowice",
+  "geo": {
+   "lat": 50.25962,
+   "lng": 19.01525
+  },
+  "url": "https://www.8lo.pl",
+  "public": true,
+  "students": 593,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem",
+   "ros"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 98.8,
+   "examinees": 168,
+   "certificates": 166,
+   "extended": {
+    "bio": {
+     "n": 13,
+     "mean": 61.3
+    },
+    "chem": {
+     "n": 3,
+     "mean": null
+    },
+    "fil": {
+     "n": 3,
+     "mean": null
+    },
+    "fiz": {
+     "n": 37,
+     "mean": 59
+    },
+    "geo": {
+     "n": 21,
+     "mean": 68.5
+    },
+    "hist": {
+     "n": 8,
+     "mean": 66.8
+    },
+    "hsz": {
+     "n": 4,
+     "mean": null
+    },
+    "inf": {
+     "n": 41,
+     "mean": 67.1
+    },
+    "ang": {
+     "n": 155,
+     "mean": 89.4
+    },
+    "ang_dwj": {
+     "n": 6,
+     "mean": 81.8
+    },
+    "hisz": {
+     "n": 1,
+     "mean": null
+    },
+    "hisz_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "lac": {
+     "n": 1,
+     "mean": null
+    },
+    "niem": {
+     "n": 3,
+     "mean": null
+    },
+    "niem_dwj": {
+     "n": 12,
+     "mean": 71.5
+    },
+    "pol": {
+     "n": 17,
+     "mean": 41.3
+    },
+    "mat": {
+     "n": 146,
+     "mean": 65.3
+    },
+    "wos": {
+     "n": 5,
+     "mean": 45.6
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/10840",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 10845,
+  "type": "liceum",
+  "name": "X LICEUM OGÓLNOKSZTAŁCĄCE IM.I.J.PADEREWSKIEGO AKADEMICKIE",
+  "shortName": "X LO",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Karola Miarki 6, 40-224 Katowice",
+  "geo": {
+   "lat": 50.25885,
+   "lng": 19.03988
+  },
+  "url": "https://www.xlo.pl",
+  "public": true,
+  "students": 381,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem",
+   "ros",
+   "chiński"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 96.2,
+   "examinees": 106,
+   "certificates": 102,
+   "extended": {
+    "bio": {
+     "n": 34,
+     "mean": 41.6
+    },
+    "chem": {
+     "n": 12,
+     "mean": 25.9
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 19,
+     "mean": 45.9
+    },
+    "hist": {
+     "n": 10,
+     "mean": 50.1
+    },
+    "hsz": {
+     "n": 4,
+     "mean": null
+    },
+    "inf": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 86,
+     "mean": 75.2
+    },
+    "ang_dwj": {
+     "n": 5,
+     "mean": 76.8
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 41,
+     "mean": 45.1
+    },
+    "ros": {
+     "n": 4,
+     "mean": null
+    },
+    "ros_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 22,
+     "mean": 26.8
+    },
+    "wos": {
+     "n": 13,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/10845",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 23747,
+  "type": "liceum",
+  "name": "XIV LICEUM OGÓLNOKSZTAŁCĄCE IM.MJR HENRYKA SUCHARSKIEGO",
+  "shortName": "XIV LO",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Józefowska 32, 40-144 Katowice",
+  "geo": {
+   "lat": 50.27819,
+   "lng": 19.0161
+  },
+  "url": "https://www.suchar.katowice.pl",
+  "public": true,
+  "students": 417,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem",
+   "japoński",
+   "koreański"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 62.1,
+   "examinees": 66,
+   "certificates": 41,
+   "extended": {
+    "bio": {
+     "n": 8,
+     "mean": 24.1
+    },
+    "chem": {
+     "n": 2,
+     "mean": null
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 14,
+     "mean": 27.3
+    },
+    "hist": {
+     "n": 10,
+     "mean": 26.6
+    },
+    "ang": {
+     "n": 45,
+     "mean": 55.9
+    },
+    "niem": {
+     "n": 2,
+     "mean": null
+    },
+    "pol": {
+     "n": 14,
+     "mean": 16.6
+    },
+    "mat": {
+     "n": 7,
+     "mean": 20.6
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/23747",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 3974,
+  "type": "liceum",
+  "name": "XV LICEUM OGÓLNOKSZTAŁCĄCE IM. RTM. WITOLDA PILECKIEGO",
+  "shortName": "XV LO",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Obroki 87, 40-833 Katowice",
+  "geo": {
+   "lat": 50.26654,
+   "lng": 18.96597
+  },
+  "url": "https://www.15lokatowice.edupage.org",
+  "public": true,
+  "students": 246,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "przygotowania wojskowego",
+   "profil mundurowy"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 54.2,
+   "examinees": 48,
+   "certificates": 26,
+   "extended": {
+    "bio": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 14,
+     "mean": 38.8
+    },
+    "hist": {
+     "n": 2,
+     "mean": null
+    },
+    "ang": {
+     "n": 31,
+     "mean": 52.1
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 5,
+     "mean": 0
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 4,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/3974",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 28520,
+  "type": "liceum",
+  "name": "XVI LICEUM OGÓLNOKSZTAŁCĄCE IM. DZIEWIĘCIU GÓRNIKÓW Z WUJKA W KATOWICACH",
+  "shortName": "XVI LO",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Mikołowska 131, 40-592 Katowice",
+  "geo": {
+   "lat": 50.24423,
+   "lng": 18.996
+  },
+  "url": "https://www.zstio2.katowice.pl",
+  "public": true,
+  "students": 171,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "sportowy"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 74.4,
+   "examinees": 43,
+   "certificates": 32,
+   "extended": {
+    "bio": {
+     "n": 11,
+     "mean": 19.5
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 10,
+     "mean": 28.7
+    },
+    "hist": {
+     "n": 2,
+     "mean": null
+    },
+    "ang": {
+     "n": 37,
+     "mean": 62.1
+    },
+    "pol": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 4,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/28520",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 10601,
+  "type": "liceum",
+  "name": "XX LICEUM OGÓLNOKSZTAŁCĄCE DLA NIESŁYSZĄCYCH I SŁABO SŁYSZĄCYCH W KATOWICACH",
+  "shortName": "XX LO",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Michała Grażyńskiego 17, 40-126 Katowice",
+  "geo": {
+   "lat": 50.26725,
+   "lng": 19.01728
+  },
+  "url": null,
+  "public": true,
+  "students": 54,
+  "languages": [
+   "ang"
+  ],
+  "specifics": [
+   "specjalny"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/10601",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 127791,
+  "type": "liceum",
+  "name": "XXI LICEUM OGÓLNOKSZTAŁCĄCE W KATOWICACH",
+  "shortName": "XXI LO",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Medyków 16, 40-752 Katowice",
+  "geo": {
+   "lat": 50.22377,
+   "lng": 18.95157
+  },
+  "url": null,
+  "public": true,
+  "students": 9,
+  "languages": [
+   "ang"
+  ],
+  "specifics": [
+   "specjalny"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/127791",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 278535,
+  "type": "technikum",
+  "name": "TECHNIKUM DLA MŁODZIEŻY COSINUS W KATOWICACH",
+  "shortName": null,
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Adama Mickiewicza 3, 40-092 Katowice",
+  "geo": {
+   "lat": 50.26034,
+   "lng": 19.02063
+  },
+  "url": "https://www.cosinus.pl",
+  "public": false,
+  "students": 741,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik informatyk",
+   "Technik architektury krajobrazu",
+   "Technik weterynarii",
+   "Technik ekonomista",
+   "Technik hotelarstwa",
+   "Technik spedytor",
+   "Technik usług fryzjerskich",
+   "Technik pojazdów samochodowych",
+   "Technik żywienia i usług gastronomicznych",
+   "Technik fotografii i multimediów",
+   "Technik organizacji turystyki",
+   "Technik reklamy",
+   "Technik programista"
+  ],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/278535",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 25379,
+  "type": "technikum",
+  "name": "TECHNIKUM LOTNICZE ZAKŁADU DOSKONALENIA ZAWODOWEGO W KATOWICACH",
+  "shortName": null,
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Zygmunta Krasińskiego 2, 40-019 Katowice",
+  "geo": {
+   "lat": 50.25565,
+   "lng": 19.03106
+  },
+  "url": "http://www.technikum.lotnicze.zdz.pl",
+  "public": false,
+  "students": 299,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [
+   "Technik mechatronik",
+   "Technik informatyk",
+   "Technik awionik",
+   "Technik eksploatacji portów i terminali",
+   "Technik lotniskowych służb operacyjnych",
+   "Technik robotyk",
+   "Technik cyberbezpieczeństwa"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 97.6,
+   "examinees": 41,
+   "certificates": 40,
+   "extended": {
+    "bio": {
+     "n": 1,
+     "mean": null
+    },
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 20,
+     "mean": 37.8
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "inf": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 28,
+     "mean": 77.9
+    },
+    "ang_dwj": {
+     "n": 10,
+     "mean": 62.2
+    },
+    "hisz": {
+     "n": 2,
+     "mean": null
+    },
+    "pol": {
+     "n": 3,
+     "mean": null
+    },
+    "mat": {
+     "n": 5,
+     "mean": 48.4
+    },
+    "wos": {
+     "n": 2,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/25379",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 28254,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 10",
+  "shortName": "Technikum nr 10",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. ks. bp. Herberta Bednorza 15, 40-364 Katowice",
+  "geo": {
+   "lat": 50.26322,
+   "lng": 19.09088
+  },
+  "url": null,
+  "public": true,
+  "students": 168,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik technologii żywności",
+   "Technik weterynarii"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 69.2,
+   "examinees": 26,
+   "certificates": 18,
+   "extended": {
+    "bio": {
+     "n": 19,
+     "mean": 33.7
+    },
+    "chem": {
+     "n": 10,
+     "mean": 19.3
+    },
+    "geo": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 13,
+     "mean": 68.9
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/28254",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 28720,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 12",
+  "shortName": "Technikum nr 12",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Harcerzy Września 1939 2, 40-659 Katowice",
+  "geo": {
+   "lat": 50.21217,
+   "lng": 18.97537
+  },
+  "url": null,
+  "public": true,
+  "students": 261,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [
+   "Technik elektronik",
+   "Technik szerokopasmowej komunikacji elektronicznej",
+   "Technik fotografii i multimediów",
+   "Technik cyberbezpieczeństwa"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 90.5,
+   "examinees": 42,
+   "certificates": 38,
+   "extended": {
+    "geo": {
+     "n": 2,
+     "mean": null
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 32,
+     "mean": 64.3
+    },
+    "pol": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 5,
+     "mean": 12.8
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/28720",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 29510,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 13",
+  "shortName": "Technikum nr 13",
+  "city": "Katowice",
+  "district": null,
+  "address": "al. Bolesława Krzywoustego 13, 40-870 Katowice",
+  "geo": {
+   "lat": 50.27486,
+   "lng": 18.97741
+  },
+  "url": "https://mielczarski.katowice.pl",
+  "public": true,
+  "students": 326,
+  "languages": [
+   "ang",
+   "niem",
+   "wlo"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik handlowiec",
+   "Technik logistyk",
+   "Technik reklamy"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 50,
+   "examinees": 24,
+   "certificates": 12,
+   "extended": {
+    "geo": {
+     "n": 2,
+     "mean": null
+    },
+    "hist": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 15,
+     "mean": 57.7
+    },
+    "pol": {
+     "n": 4,
+     "mean": null
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/29510",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 30152,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 14",
+  "shortName": "Technikum nr 14",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Szopienicka 66, 40-395 Katowice",
+  "geo": {
+   "lat": 50.2519,
+   "lng": 19.08473
+  },
+  "url": "https://www.zsz3.pl",
+  "public": true,
+  "students": 98,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik elektronik",
+   "Technik elektryk",
+   "Technik górnictwa podziemnego",
+   "Technik ekonomista",
+   "Technik urządzeń i systemów energetyki odnawialnej",
+   "Technik spawalnictwa"
+  ],
+  "matura": {
+   "year": 2025,
+   "passRate": 71.4,
+   "examinees": 7,
+   "certificates": 5,
+   "extended": {
+    "geo": {
+     "n": 2,
+     "mean": null
+    },
+    "ang": {
+     "n": 3,
+     "mean": null
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2025/EM2023_2025_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/30152",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2025",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2025/EM2023_2025_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 29508,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 15 IM. TOMASZA KLENCZARA",
+  "shortName": "Technikum nr 15",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Tadeusza Boya Żeleńskiego 96, 40-750 Katowice",
+  "geo": {
+   "lat": 50.18073,
+   "lng": 19.00118
+  },
+  "url": "https://www.klenczar.pl",
+  "public": true,
+  "students": 118,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "integracyjny",
+   "specjalny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik elektryk",
+   "Technik ekonomista",
+   "Technik spedytor",
+   "Technik przeróbki kopalin stałych",
+   "Technik chłodnictwa i klimatyzacji",
+   "Technik lotniskowych służb operacyjnych"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 62.5,
+   "examinees": 8,
+   "certificates": 5,
+   "extended": {
+    "geo": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 4,
+     "mean": null
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/29508",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 30354,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 16",
+  "shortName": "Technikum nr 16",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Walerego Goetla 2, 40-749 Katowice",
+  "geo": {
+   "lat": 50.20206,
+   "lng": 19.04333
+  },
+  "url": "https://zs2.katowice.pl",
+  "public": true,
+  "students": 264,
+  "languages": [
+   "ang",
+   "fr",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "specjalny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik elektryk",
+   "Technik górnictwa podziemnego",
+   "Technik mechanik lotniczy",
+   "Technik ogrodnik",
+   "Technik ekonomista",
+   "Technik spedytor",
+   "Technik eksploatacji portów i terminali",
+   "Technik urządzeń i systemów energetyki odnawialnej",
+   "Technik lotniskowych służb operacyjnych",
+   "Technik organizacji turystyki",
+   "Technik agroogrodnictwa"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 40,
+   "examinees": 25,
+   "certificates": 10,
+   "extended": {
+    "bio": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 19,
+     "mean": 53.5
+    },
+    "pol": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 3,
+     "mean": null
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/30354",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 55775,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 17",
+  "shortName": "Technikum nr 17",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Sokolska 26, 40-086 Katowice",
+  "geo": {
+   "lat": 50.26477,
+   "lng": 19.01539
+  },
+  "url": "http://www.sltzn.katowice.pl",
+  "public": true,
+  "students": 966,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik analityk",
+   "Technik elektronik",
+   "Technik elektryk",
+   "Technik mechanik",
+   "Technik ochrony środowiska",
+   "Technik mechatronik",
+   "Technik informatyk",
+   "Technik teleinformatyk",
+   "Technik energetyk"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 97,
+   "examinees": 134,
+   "certificates": 130,
+   "extended": {
+    "bio": {
+     "n": 7,
+     "mean": 44.1
+    },
+    "chem": {
+     "n": 12,
+     "mean": 31.8
+    },
+    "fiz": {
+     "n": 6,
+     "mean": 28.7
+    },
+    "geo": {
+     "n": 5,
+     "mean": 55.4
+    },
+    "hist": {
+     "n": 3,
+     "mean": null
+    },
+    "inf": {
+     "n": 9,
+     "mean": 42.9
+    },
+    "ang": {
+     "n": 108,
+     "mean": 77.1
+    },
+    "ang_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 3,
+     "mean": null
+    },
+    "mat": {
+     "n": 91,
+     "mean": 25.2
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/55775",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 25201,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 18",
+  "shortName": "Technikum nr 18",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Armii Krajowej 84, 40-671 Katowice",
+  "geo": {
+   "lat": 50.20908,
+   "lng": 18.97396
+  },
+  "url": null,
+  "public": true,
+  "students": 565,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik mechatronik",
+   "Technik informatyk",
+   "Technik procesów drukowania",
+   "Technik procesów introligatorskich",
+   "Technik grafiki i poligrafii cyfrowej",
+   "Technik reklamy"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 88.4,
+   "examinees": 86,
+   "certificates": 76,
+   "extended": {
+    "bio": {
+     "n": 2,
+     "mean": null
+    },
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 3,
+     "mean": null
+    },
+    "geo": {
+     "n": 2,
+     "mean": null
+    },
+    "hist": {
+     "n": 3,
+     "mean": null
+    },
+    "inf": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 73,
+     "mean": 66.8
+    },
+    "ang_dwj": {
+     "n": 2,
+     "mean": null
+    },
+    "lac": {
+     "n": 1,
+     "mean": null
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 1,
+     "mean": null
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 12,
+     "mean": 13.8
+    },
+    "wos": {
+     "n": 6,
+     "mean": 30.8
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/25201",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 23603,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 2",
+  "shortName": "Technikum nr 2",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Raciborska 3, 40-074 Katowice",
+  "geo": {
+   "lat": 50.25488,
+   "lng": 19.00835
+  },
+  "url": "https://www.zse-korfanty.katowice.pl",
+  "public": true,
+  "students": 499,
+  "languages": [
+   "ang",
+   "niem",
+   "wlo"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [
+   "Technik ekonomista",
+   "Technik handlowiec",
+   "Technik hotelarstwa",
+   "Technik rachunkowości",
+   "Technik księgarstwa",
+   "Technik gospodarki nieruchomościami"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 77,
+   "examinees": 61,
+   "certificates": 47,
+   "extended": {
+    "bio": {
+     "n": 5,
+     "mean": 30
+    },
+    "geo": {
+     "n": 38,
+     "mean": 38.5
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "inf": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 35,
+     "mean": 66.3
+    },
+    "ang_dwj": {
+     "n": 11,
+     "mean": 59.8
+    },
+    "pol": {
+     "n": 5,
+     "mean": 32
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "ros_dwj": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 5,
+     "mean": 13.2
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/23603",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 115674,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 20 Z ODDZIAŁAMI SPECJALNYMI DLA NIESŁYSZĄCYCH I SŁABO SŁYSZĄCYCH",
+  "shortName": "Technikum nr 20",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Stanisława Staszica 2, 40-230 Katowice",
+  "geo": {
+   "lat": 50.26035,
+   "lng": 19.05161
+  },
+  "url": null,
+  "public": true,
+  "students": 9,
+  "languages": [
+   "ang"
+  ],
+  "specifics": [
+   "specjalny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik ogrodnik",
+   "Technik architektury krajobrazu",
+   "Technik usług fryzjerskich",
+   "Technik agroogrodnictwa",
+   "Technik architektury krajobrazu i arborystyki"
+  ],
+  "matura": {
+   "year": 2025,
+   "passRate": null,
+   "examinees": 4,
+   "certificates": 0,
+   "extended": {
+    "ang": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2025/EM2023_2025_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/115674",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2025",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2025/EM2023_2025_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 16223,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 3",
+  "shortName": "Technikum nr 3",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Roździeńska 25, 40-382 Katowice",
+  "geo": {
+   "lat": 50.26279,
+   "lng": 19.07905
+  },
+  "url": null,
+  "public": true,
+  "students": 109,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "integracyjny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik eksploatacji portów i terminali",
+   "Technik żywienia i usług gastronomicznych",
+   "Technik usług kelnerskich"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 44.4,
+   "examinees": 9,
+   "certificates": 4,
+   "extended": {
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/16223",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 28555,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 4 IM. POWSTAŃCÓW ŚLĄSKICH W KATOWICACH",
+  "shortName": "Technikum nr 4",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Mikołowska 131, 40-592 Katowice",
+  "geo": {
+   "lat": 50.24423,
+   "lng": 18.996
+  },
+  "url": "https://www.zstio2.katowice.pl",
+  "public": true,
+  "students": 630,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik elektronik",
+   "Technik elektryk",
+   "Technik informatyk",
+   "Technik ekonomista",
+   "Technik rachunkowości",
+   "Technik energetyk",
+   "Technik automatyk",
+   "Technik programista",
+   "Technik robotyk"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 87.2,
+   "examinees": 125,
+   "certificates": 109,
+   "extended": {
+    "bio": {
+     "n": 2,
+     "mean": null
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 10,
+     "mean": 29.9
+    },
+    "hist": {
+     "n": 2,
+     "mean": null
+    },
+    "inf": {
+     "n": 11,
+     "mean": 29.5
+    },
+    "ang": {
+     "n": 69,
+     "mean": 75.7
+    },
+    "ang_dwj": {
+     "n": 8,
+     "mean": 69.4
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 4,
+     "mean": null
+    },
+    "mat": {
+     "n": 44,
+     "mean": 10.1
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/28555",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 13030,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 7",
+  "shortName": "Technikum nr 7",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Gliwicka 228, 40-861 Katowice",
+  "geo": {
+   "lat": 50.27067,
+   "lng": 18.97146
+  },
+  "url": "https://zs7.katowice.pl",
+  "public": true,
+  "students": 177,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik transportu kolejowego",
+   "Technik automatyk sterowania ruchem kolejowym",
+   "Technik ekonomista",
+   "Technik pojazdów samochodowych",
+   "Technik transportu drogowego",
+   "Technik pojazdów kolejowych",
+   "Technik elektromobilności"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 21.7,
+   "examinees": 23,
+   "certificates": 5,
+   "extended": {
+    "bio": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 7,
+     "mean": 43.4
+    },
+    "mat": {
+     "n": 2,
+     "mean": null
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/13030",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 24671,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 8 IM. OBROŃCÓW POCZTY POLSKIEJ W GDANSKU",
+  "shortName": "Technikum nr 8",
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. Adama Mickiewicza 16, 40-092 Katowice",
+  "geo": {
+   "lat": 50.26067,
+   "lng": 19.01926
+  },
+  "url": "https://www.tech8katowice.pl",
+  "public": true,
+  "students": 191,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik telekomunikacji",
+   "Technik urządzeń i systemów energetyki odnawialnej",
+   "Technik urządzeń dźwigowych",
+   "Technik chłodnictwa i klimatyzacji"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 74.5,
+   "examinees": 47,
+   "certificates": 35,
+   "extended": {
+    "bio": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 9,
+     "mean": 13.8
+    },
+    "hist": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 34,
+     "mean": 61.4
+    },
+    "ang_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 3,
+     "mean": null
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/24671",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 9975,
+  "type": "technikum",
+  "name": "TECHNIKUM TEB EDUKACJA W KATOWICACH",
+  "shortName": null,
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. gen. Kazimierza Pułaskiego 25, 40-276 Katowice",
+  "geo": {
+   "lat": 50.25375,
+   "lng": 19.0408
+  },
+  "url": "https://szkolasrednia.teb.pl/szkoly/d/technikum/katowice/",
+  "public": false,
+  "students": 292,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik informatyk",
+   "Technik weterynarii",
+   "Technik ekonomista",
+   "Technik handlowiec",
+   "Technik logistyk",
+   "Technik usług fryzjerskich",
+   "Technik fotografii i multimediów",
+   "Technik grafiki i poligrafii cyfrowej",
+   "Technik organizacji turystyki",
+   "Technik reklamy",
+   "Technik programista"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 51.2,
+   "examinees": 43,
+   "certificates": 22,
+   "extended": {
+    "bio": {
+     "n": 4,
+     "mean": null
+    },
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 3,
+     "mean": null
+    },
+    "inf": {
+     "n": 5,
+     "mean": 22.4
+    },
+    "ang": {
+     "n": 43,
+     "mean": 61.7
+    },
+    "pol": {
+     "n": 2,
+     "mean": null
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 4,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/9975",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 10821,
+  "type": "technikum",
+  "name": "TECHNIKUM ZAKŁADU DOSKONALENIA ZAWODOWEGO W KATOWICACH",
+  "shortName": null,
+  "city": "Katowice",
+  "district": null,
+  "address": "ul. św. Jacka 3, 40-019 Katowice",
+  "geo": {
+   "lat": 50.25583,
+   "lng": 19.03175
+  },
+  "url": null,
+  "public": false,
+  "students": 86,
+  "languages": [
+   "ang",
+   "hisz"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik technologii żywności",
+   "Technik hotelarstwa",
+   "Technik usług fryzjerskich",
+   "Technik fotografii i multimediów"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 50,
+   "examinees": 16,
+   "certificates": 8,
+   "extended": {
+    "geo": {
+     "n": 1,
+     "mean": null
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 11,
+     "mean": 53.9
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/10821",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ }
+]

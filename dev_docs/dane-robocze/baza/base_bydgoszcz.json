@@ -1,0 +1,4496 @@
+[
+ {
+  "rspo": 266625,
+  "type": "liceum",
+  "name": "AKADEMICKIE LICEUM OGÓLNOKSZTAŁCĄCE W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Fordońska 120, 85-739 Bydgoszcz",
+  "geo": {
+   "lat": 53.121,
+   "lng": 18.06462
+  },
+  "url": "https://www.skk.pl",
+  "public": false,
+  "students": 401,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "przygotowania wojskowego",
+   "profil mundurowy"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 48.2,
+   "examinees": 56,
+   "certificates": 27,
+   "extended": {
+    "bio": {
+     "n": 27,
+     "mean": 15.4
+    },
+    "chem": {
+     "n": 10,
+     "mean": 4.1
+    },
+    "geo": {
+     "n": 24,
+     "mean": 23.9
+    },
+    "hist": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 45,
+     "mean": 48.9
+    },
+    "pol": {
+     "n": 7,
+     "mean": 20.1
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 4,
+     "mean": null
+    },
+    "wos": {
+     "n": 7,
+     "mean": 9.1
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/266625",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 26980,
+  "type": "liceum",
+  "name": "I KATOLICKIE LICEUM OGÓLNOKSZTAŁCĄCE IM. KRÓLA JANA III SOBIESKIEGO",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Nowodworska 17, 85-120 Bydgoszcz",
+  "geo": {
+   "lat": 53.11818,
+   "lng": 17.99682
+  },
+  "url": "https://www.katolik.bydgoszcz.pl",
+  "public": false,
+  "students": 59,
+  "languages": [
+   "ang",
+   "fr",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 14,
+   "certificates": 14,
+   "extended": {
+    "bio": {
+     "n": 6,
+     "mean": 55.3
+    },
+    "chem": {
+     "n": 6,
+     "mean": 32.5
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 1,
+     "mean": null
+    },
+    "hist": {
+     "n": 2,
+     "mean": null
+    },
+    "inf": {
+     "n": 4,
+     "mean": null
+    },
+    "ang": {
+     "n": 11,
+     "mean": 91.3
+    },
+    "pol": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 6,
+     "mean": 48.7
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/26980",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 12494,
+  "type": "liceum",
+  "name": "I LICEUM OGÓLNOKSZTAŁCĄCE IM. CYPRIANA KAMILA NORWIDA Z ODDZIAŁAMI DWUJĘZYCZNYMI W BYDGOSZCZY",
+  "shortName": "I LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Plac Wolności 9, 85-004 Bydgoszcz",
+  "geo": {
+   "lat": 53.12686,
+   "lng": 18.00678
+  },
+  "url": "https://www.1lo.bydgoszcz.pl",
+  "public": true,
+  "students": 793,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 98.7,
+   "examinees": 224,
+   "certificates": 221,
+   "extended": {
+    "bio": {
+     "n": 67,
+     "mean": 64.9
+    },
+    "chem": {
+     "n": 51,
+     "mean": 57.2
+    },
+    "fil": {
+     "n": 3,
+     "mean": null
+    },
+    "fiz": {
+     "n": 27,
+     "mean": 60.9
+    },
+    "geo": {
+     "n": 56,
+     "mean": 66.4
+    },
+    "hist": {
+     "n": 23,
+     "mean": 63.9
+    },
+    "hsz": {
+     "n": 5,
+     "mean": 58.2
+    },
+    "inf": {
+     "n": 7,
+     "mean": 62
+    },
+    "ang": {
+     "n": 190,
+     "mean": 88.7
+    },
+    "ang_dwj": {
+     "n": 3,
+     "mean": null
+    },
+    "fr": {
+     "n": 1,
+     "mean": null
+    },
+    "hisz": {
+     "n": 4,
+     "mean": null
+    },
+    "lac": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 69,
+     "mean": 53.6
+    },
+    "mat": {
+     "n": 79,
+     "mean": 60.3
+    },
+    "wos": {
+     "n": 37,
+     "mean": 72.1
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/12494",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 9883,
+  "type": "liceum",
+  "name": "I PRYWATNE LICEUM OGÓLNOKSZTAŁCĄCE W BYDGOSZCZY",
+  "shortName": "I LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Jagiellońska 27, 85-087 Bydgoszcz",
+  "geo": {
+   "lat": 53.12363,
+   "lng": 18.01143
+  },
+  "url": "https://www.liceumwpalacu.pl",
+  "public": false,
+  "students": 16,
+  "languages": [
+   "ang",
+   "hisz"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 62.5,
+   "examinees": 8,
+   "certificates": 5,
+   "extended": {
+    "bio": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 2,
+     "mean": null
+    },
+    "ang": {
+     "n": 8,
+     "mean": 57.9
+    },
+    "pol": {
+     "n": 3,
+     "mean": null
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/9883",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 12525,
+  "type": "liceum",
+  "name": "II LICEUM OGÓLNOKSZTAŁCĄCE IM. MIKOŁAJA KOPERNIKA W BYDGOSZCZY",
+  "shortName": "II LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Nowodworska 13, 85-120 Bydgoszcz",
+  "geo": {
+   "lat": 53.1183,
+   "lng": 17.99511
+  },
+  "url": "https://www.lo02.edu.bydgoszcz.pl",
+  "public": true,
+  "students": 579,
+  "languages": [
+   "ang",
+   "fr",
+   "niem",
+   "ros"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 93.1,
+   "examinees": 204,
+   "certificates": 190,
+   "extended": {
+    "bio": {
+     "n": 65,
+     "mean": 53.6
+    },
+    "chem": {
+     "n": 49,
+     "mean": 42.3
+    },
+    "fil": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 37,
+     "mean": 51.2
+    },
+    "geo": {
+     "n": 38,
+     "mean": 51
+    },
+    "hist": {
+     "n": 36,
+     "mean": 45.3
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "inf": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 161,
+     "mean": 79.6
+    },
+    "ang_dwj": {
+     "n": 2,
+     "mean": null
+    },
+    "fr": {
+     "n": 2,
+     "mean": null
+    },
+    "lac": {
+     "n": 1,
+     "mean": null
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 61,
+     "mean": 47.2
+    },
+    "mat": {
+     "n": 82,
+     "mean": 44.6
+    },
+    "wos": {
+     "n": 9,
+     "mean": 50.4
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/12525",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 5503,
+  "type": "liceum",
+  "name": "II SPOŁECZNE LICEUM OGÓLNOKSZTAŁCĄCE",
+  "shortName": "II LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Wincentego Pola 19, 85-218 Bydgoszcz",
+  "geo": {
+   "lat": 53.12468,
+   "lng": 17.97623
+  },
+  "url": "https://2slo.bydgoszcz.pl",
+  "public": false,
+  "students": 38,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 62.5,
+   "examinees": 8,
+   "certificates": 5,
+   "extended": {
+    "bio": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 7,
+     "mean": 71.6
+    },
+    "pol": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/5503",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 12527,
+  "type": "liceum",
+  "name": "III LICEUM OGÓLNOKSZTAŁCĄCE IM. ADAMA MICKIEWICZA W BYDGOSZCZY",
+  "shortName": "III LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Nowogrodzka 3, 85-208 Bydgoszcz",
+  "geo": {
+   "lat": 53.12897,
+   "lng": 17.9762
+  },
+  "url": "https://www.3lo.bydgoszcz.pl",
+  "public": true,
+  "students": 611,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 99.6,
+   "examinees": 229,
+   "certificates": 228,
+   "extended": {
+    "bio": {
+     "n": 49,
+     "mean": 50.3
+    },
+    "chem": {
+     "n": 24,
+     "mean": 41.2
+    },
+    "fiz": {
+     "n": 15,
+     "mean": 60.9
+    },
+    "geo": {
+     "n": 64,
+     "mean": 52.7
+    },
+    "hist": {
+     "n": 26,
+     "mean": 64.3
+    },
+    "hsz": {
+     "n": 3,
+     "mean": null
+    },
+    "inf": {
+     "n": 11,
+     "mean": 41.1
+    },
+    "ang": {
+     "n": 183,
+     "mean": 82.5
+    },
+    "ang_dwj": {
+     "n": 7,
+     "mean": 84.9
+    },
+    "fr": {
+     "n": 3,
+     "mean": null
+    },
+    "hisz": {
+     "n": 7,
+     "mean": 52
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 55,
+     "mean": 45.3
+    },
+    "ros": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 54,
+     "mean": 32.9
+    },
+    "wos": {
+     "n": 19,
+     "mean": 68.1
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/12527",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 18457,
+  "type": "liceum",
+  "name": "IV LICEUM OGÓLNOKSZTAŁCĄCE IM. KAZIMIERZA WIELKIEGO W BYDGOSZCZY",
+  "shortName": "IV LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Stawowa 39, 85-323 Bydgoszcz",
+  "geo": {
+   "lat": 53.12065,
+   "lng": 17.96845
+  },
+  "url": "https://www.4lo.bydgoszcz.pl",
+  "public": true,
+  "students": 590,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 99,
+   "examinees": 199,
+   "certificates": 197,
+   "extended": {
+    "bio": {
+     "n": 90,
+     "mean": 52.9
+    },
+    "chem": {
+     "n": 49,
+     "mean": 48.5
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 32,
+     "mean": 37.1
+    },
+    "geo": {
+     "n": 49,
+     "mean": 65.1
+    },
+    "hist": {
+     "n": 15,
+     "mean": 59.8
+    },
+    "hsz": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 179,
+     "mean": 83.5
+    },
+    "ang_dwj": {
+     "n": 4,
+     "mean": null
+    },
+    "fr": {
+     "n": 2,
+     "mean": null
+    },
+    "niem_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 31,
+     "mean": 60
+    },
+    "mat": {
+     "n": 63,
+     "mean": 40.6
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/18457",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 17491,
+  "type": "liceum",
+  "name": "IX LICEUM OGÓLNOKSZTAŁCĄCE IM. TADEUSZA NOWAKOWSKIEGO Z ODDZIAŁAMI DWUJĘZYCZNYMI W BYDGOSZCZY",
+  "shortName": "IX LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Zofii Nałkowskiej 9, 85-866 Bydgoszcz",
+  "geo": {
+   "lat": 53.11073,
+   "lng": 18.04032
+  },
+  "url": "https://ixlo.edu.bydgoszcz.pl",
+  "public": true,
+  "students": 546,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "międzynarodowy",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 85.9,
+   "examinees": 128,
+   "certificates": 110,
+   "extended": {
+    "bio": {
+     "n": 45,
+     "mean": 34.3
+    },
+    "chem": {
+     "n": 16,
+     "mean": 23
+    },
+    "fiz": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 37,
+     "mean": 40.6
+    },
+    "hist": {
+     "n": 22,
+     "mean": 46.1
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "inf": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 61,
+     "mean": 84.5
+    },
+    "ang_dwj": {
+     "n": 63,
+     "mean": 69.8
+    },
+    "fr": {
+     "n": 1,
+     "mean": null
+    },
+    "hisz": {
+     "n": 1,
+     "mean": null
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 24,
+     "mean": 43.6
+    },
+    "ros_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 17,
+     "mean": 14.6
+    },
+    "wos": {
+     "n": 2,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/17491",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 482406,
+  "type": "liceum",
+  "name": "KLASYCZNE LICEUM OGÓLNOKSZTAŁCĄCE",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Kijowska 7, 85-703 Bydgoszcz",
+  "geo": {
+   "lat": 53.12234,
+   "lng": 18.05396
+  },
+  "url": null,
+  "public": false,
+  "students": 54,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "łacina",
+   "niem",
+   "wlo"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": null,
+   "examinees": 4,
+   "certificates": 2,
+   "extended": {
+    "bio": {
+     "n": 1,
+     "mean": null
+    },
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 1,
+     "mean": null
+    },
+    "fr": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/482406",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 484222,
+  "type": "liceum",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE \"AKAD\" W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Fordońska 74a, 85-719 Bydgoszcz",
+  "geo": {
+   "lat": 53.11993,
+   "lng": 18.05604
+  },
+  "url": null,
+  "public": false,
+  "students": 91,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/484222",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 4931,
+  "type": "liceum",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE EDUKACJI INNOWACYJNEJ W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Maksymiliana Piotrowskiego 12-14, 85-098 Bydgoszcz",
+  "geo": {
+   "lat": 53.12468,
+   "lng": 18.01633
+  },
+  "url": "https://www.innowacyjna.ipt.pl",
+  "public": false,
+  "students": 245,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 47.7,
+   "examinees": 44,
+   "certificates": 21,
+   "extended": {
+    "bio": {
+     "n": 10,
+     "mean": 21.7
+    },
+    "chem": {
+     "n": 7,
+     "mean": 6.7
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 7,
+     "mean": 28.1
+    },
+    "hist": {
+     "n": 4,
+     "mean": null
+    },
+    "ang": {
+     "n": 29,
+     "mean": 70.7
+    },
+    "pol": {
+     "n": 10,
+     "mean": 23.1
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 3,
+     "mean": null
+    },
+    "wos": {
+     "n": 6,
+     "mean": 22.7
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/4931",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 10426,
+  "type": "liceum",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE SPECJALNE DLA MŁODZIEZY SŁABO SŁYSZĄCEJ I NIESŁYSZĄCEJ",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Akademicka 3, 85-796 Bydgoszcz",
+  "geo": {
+   "lat": 53.14666,
+   "lng": 18.11652
+  },
+  "url": "https://www.oswnr2.bydgoszcz.pl",
+  "public": true,
+  "students": 16,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "specjalny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": null,
+   "examinees": 1,
+   "certificates": 0,
+   "extended": {
+    "ang": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/10426",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 478078,
+  "type": "liceum",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE TEB EDUKACJA W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Dworcowa 71, 85-009 Bydgoszcz",
+  "geo": {
+   "lat": 53.13197,
+   "lng": 17.99459
+  },
+  "url": "https://www.teb.pl",
+  "public": false,
+  "students": 139,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/478078",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 27051,
+  "type": "liceum",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE TOWARZYSTWA SALEZJAŃSKIEGO W BYDGOSZCZY IM. ŚW. JANA BOSKO",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Pod Reglami 1, 85-794 Bydgoszcz",
+  "geo": {
+   "lat": 53.1638,
+   "lng": 18.1555
+  },
+  "url": "https://www.salez.edu.pl",
+  "public": false,
+  "students": 101,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 33,
+   "certificates": 33,
+   "extended": {
+    "bio": {
+     "n": 10,
+     "mean": 53.2
+    },
+    "chem": {
+     "n": 5,
+     "mean": 46.8
+    },
+    "fiz": {
+     "n": 6,
+     "mean": 40.3
+    },
+    "geo": {
+     "n": 4,
+     "mean": null
+    },
+    "hist": {
+     "n": 5,
+     "mean": 69.4
+    },
+    "inf": {
+     "n": 5,
+     "mean": 37.2
+    },
+    "ang": {
+     "n": 29,
+     "mean": 86.3
+    },
+    "hisz": {
+     "n": 1,
+     "mean": null
+    },
+    "niem": {
+     "n": 2,
+     "mean": null
+    },
+    "pol": {
+     "n": 6,
+     "mean": 38.8
+    },
+    "mat": {
+     "n": 14,
+     "mean": 54
+    },
+    "wos": {
+     "n": 2,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/27051",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 131044,
+  "type": "liceum",
+  "name": "MIĘDZYNARODOWE LICEUM SOKRATES Z ODDZIAŁAMI MIĘDZYNARODOWYMI W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Toruńska 55-57, 85-023 Bydgoszcz",
+  "geo": {
+   "lat": 53.11907,
+   "lng": 18.02061
+  },
+  "url": "https://www.liceumsokrates.pl",
+  "public": false,
+  "students": 77,
+  "languages": [
+   "ang",
+   "hisz"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "międzynarodowy"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 41.2,
+   "examinees": 17,
+   "certificates": 7,
+   "extended": {
+    "bio": {
+     "n": 7,
+     "mean": 15.7
+    },
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 1,
+     "mean": null
+    },
+    "hist": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 15,
+     "mean": 68.3
+    },
+    "pol": {
+     "n": 4,
+     "mean": null
+    },
+    "ros": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 5,
+     "mean": 15.6
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/131044",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 32090,
+  "type": "liceum",
+  "name": "NIEPUBLICZNE LICEUM OGÓLNOKSZTAŁCĄCE INTERNATIONAL SCHOOL OF BYDGOSZCZ",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Bośniacka 3, 85-162 Bydgoszcz",
+  "geo": {
+   "lat": 53.11633,
+   "lng": 18.01799
+  },
+  "url": "https://www.isob.ukw.edu.pl",
+  "public": false,
+  "students": 103,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem",
+   "słowacki"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/32090",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 481973,
+  "type": "liceum",
+  "name": "NIEPUBLICZNE LICEUM PERPETUUM MOBILE FUNDACJI KREATYWNEJ EDUKACJI",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Mińska 15, 85-402 Bydgoszcz",
+  "geo": {
+   "lat": 53.13541,
+   "lng": 17.94857
+  },
+  "url": "https://www.perpetuummobile.edu.pl",
+  "public": false,
+  "students": 21,
+  "languages": [
+   "ang",
+   "hisz"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/481973",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 8874,
+  "type": "liceum",
+  "name": "PRYWATNE LICEUM OGÓLNOKSZTAŁCĄCE \"PRZYSZŁOŚĆ\" W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Wojska Polskiego 46A, 85-825 Bydgoszcz",
+  "geo": {
+   "lat": 53.10154,
+   "lng": 18.05919
+  },
+  "url": null,
+  "public": false,
+  "students": 116,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 51.9,
+   "examinees": 27,
+   "certificates": 14,
+   "extended": {
+    "bio": {
+     "n": 5,
+     "mean": 14
+    },
+    "chem": {
+     "n": 3,
+     "mean": null
+    },
+    "geo": {
+     "n": 1,
+     "mean": null
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 22,
+     "mean": 56.5
+    },
+    "ang_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 3,
+     "mean": null
+    },
+    "ros": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/8874",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 12666,
+  "type": "liceum",
+  "name": "V LICEUM OGÓLNOKSZTAŁCĄCE IM. IGNACEGO JANA PADEREWSKIEGO W BYDGOSZCZY",
+  "shortName": "V LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Szarych Szeregów 4a, 85-829 Bydgoszcz",
+  "geo": {
+   "lat": 53.11044,
+   "lng": 18.04834
+  },
+  "url": "https://lo05.edu.bydgoszcz.pl",
+  "public": true,
+  "students": 572,
+  "languages": [
+   "ang",
+   "niem",
+   "ros"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 93.2,
+   "examinees": 132,
+   "certificates": 123,
+   "extended": {
+    "bio": {
+     "n": 54,
+     "mean": 36.7
+    },
+    "chem": {
+     "n": 7,
+     "mean": 22.3
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 26,
+     "mean": 31.4
+    },
+    "hist": {
+     "n": 13,
+     "mean": 56.2
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 100,
+     "mean": 74
+    },
+    "niem": {
+     "n": 2,
+     "mean": null
+    },
+    "pol": {
+     "n": 30,
+     "mean": 50.4
+    },
+    "ros": {
+     "n": 3,
+     "mean": null
+    },
+    "mat": {
+     "n": 9,
+     "mean": 16.4
+    },
+    "wos": {
+     "n": 7,
+     "mean": 40.9
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/12666",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 12707,
+  "type": "liceum",
+  "name": "VI LICEUM OGÓLNOKSZTAŁCĄCE IM. JANA I JĘDRZEJA ŚNIADECKICH W BYDGOSZCZY",
+  "shortName": "VI LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Stanisława Staszica 4, 85-014 Bydgoszcz",
+  "geo": {
+   "lat": 53.12799,
+   "lng": 18.01176
+  },
+  "url": "https://www.vilo.bydgoszcz.pl",
+  "public": true,
+  "students": 762,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 98.5,
+   "examinees": 198,
+   "certificates": 195,
+   "extended": {
+    "bio": {
+     "n": 88,
+     "mean": 66.4
+    },
+    "chem": {
+     "n": 66,
+     "mean": 53.6
+    },
+    "fil": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 35,
+     "mean": 62.1
+    },
+    "geo": {
+     "n": 8,
+     "mean": 66
+    },
+    "hist": {
+     "n": 17,
+     "mean": 63.2
+    },
+    "hsz": {
+     "n": 4,
+     "mean": null
+    },
+    "inf": {
+     "n": 40,
+     "mean": 57.9
+    },
+    "ang": {
+     "n": 158,
+     "mean": 89.3
+    },
+    "ang_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "hisz": {
+     "n": 2,
+     "mean": null
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 31,
+     "mean": 67.1
+    },
+    "ros": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 109,
+     "mean": 61
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/12707",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 12719,
+  "type": "liceum",
+  "name": "VII LICEUM OGÓLNOKSZTAŁCĄCE IM. JANUSZA KUSOCIŃSKIEGO W BYDGOSZCZY",
+  "shortName": "VII LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. 11 Listopada 4, 85-643 Bydgoszcz",
+  "geo": {
+   "lat": 53.14221,
+   "lng": 18.02333
+  },
+  "url": "https://www.7lo.bydgoszcz.pl",
+  "public": true,
+  "students": 526,
+  "languages": [
+   "ang",
+   "fr",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 95.7,
+   "examinees": 139,
+   "certificates": 133,
+   "extended": {
+    "bio": {
+     "n": 53,
+     "mean": 46.9
+    },
+    "chem": {
+     "n": 20,
+     "mean": 23.6
+    },
+    "geo": {
+     "n": 12,
+     "mean": 52.8
+    },
+    "hist": {
+     "n": 17,
+     "mean": 47.8
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "inf": {
+     "n": 9,
+     "mean": 41.6
+    },
+    "ang": {
+     "n": 99,
+     "mean": 73.2
+    },
+    "ang_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 36,
+     "mean": 43.2
+    },
+    "mat": {
+     "n": 36,
+     "mean": 41.3
+    },
+    "wos": {
+     "n": 12,
+     "mean": 34.3
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/12719",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 13768,
+  "type": "liceum",
+  "name": "VIII LICEUM OGÓLNOKSZTAŁCĄCE IM. DRA EMILA WARMIŃSKIEGO W BYDGOSZCZY",
+  "shortName": "VIII LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Swarzewska 10, 85-731 Bydgoszcz",
+  "geo": {
+   "lat": 53.12204,
+   "lng": 18.04553
+  },
+  "url": "https://8lo.edu.bydgoszcz.pl",
+  "public": true,
+  "students": 686,
+  "languages": [
+   "ang",
+   "łacina",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "przygotowania wojskowego"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 91.7,
+   "examinees": 228,
+   "certificates": 209,
+   "extended": {
+    "bio": {
+     "n": 87,
+     "mean": 45.5
+    },
+    "chem": {
+     "n": 50,
+     "mean": 29.2
+    },
+    "fil": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 5,
+     "mean": 29.6
+    },
+    "geo": {
+     "n": 53,
+     "mean": 39.9
+    },
+    "hist": {
+     "n": 17,
+     "mean": 40.1
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "inf": {
+     "n": 9,
+     "mean": 46.2
+    },
+    "ang": {
+     "n": 193,
+     "mean": 78.7
+    },
+    "ang_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "niem": {
+     "n": 2,
+     "mean": null
+    },
+    "pol": {
+     "n": 36,
+     "mean": 40.5
+    },
+    "ros": {
+     "n": 2,
+     "mean": null
+    },
+    "ros_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 59,
+     "mean": 22.4
+    },
+    "wos": {
+     "n": 9,
+     "mean": 25.8
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/13768",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 11648,
+  "type": "liceum",
+  "name": "XI LICEUM OGÓLNOKSZTAŁCĄCE IM. BYDGOSKICH OLIMPIJCZYKÓW MISTRZOSTWA SPORTOWEGO W BYDGOSZCZY",
+  "shortName": "XI LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Cicha 59, 85-650 Bydgoszcz",
+  "geo": {
+   "lat": 53.13385,
+   "lng": 18.03422
+  },
+  "url": "https://www.11loms.bydgoszcz.pl",
+  "public": true,
+  "students": 459,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "mistrzostwa sportowego"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 96.1,
+   "examinees": 103,
+   "certificates": 99,
+   "extended": {
+    "bio": {
+     "n": 36,
+     "mean": 28
+    },
+    "chem": {
+     "n": 5,
+     "mean": 14.4
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 27,
+     "mean": 34.3
+    },
+    "hist": {
+     "n": 2,
+     "mean": null
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "inf": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 72,
+     "mean": 68.3
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 18,
+     "mean": 19.1
+    },
+    "mat": {
+     "n": 12,
+     "mean": 20
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/11648",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 12059,
+  "type": "liceum",
+  "name": "XII LICEUM OGÓLNOKSZTAŁCĄCE W BYDGOSZCZY",
+  "shortName": "XII LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Puszczykowa 11, 85-446 Bydgoszcz",
+  "geo": {
+   "lat": 53.14213,
+   "lng": 17.91801
+  },
+  "url": "https://www.zs24.bydgoszcz.pl",
+  "public": true,
+  "students": 171,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 87,
+   "examinees": 23,
+   "certificates": 20,
+   "extended": {
+    "geo": {
+     "n": 12,
+     "mean": 38.3
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 16,
+     "mean": 62.9
+    },
+    "pol": {
+     "n": 1,
+     "mean": null
+    },
+    "wos": {
+     "n": 2,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/12059",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 18408,
+  "type": "liceum",
+  "name": "XIII LICEUM OGÓLNOKSZTAŁCĄCE IM. GEN. JÓZEFA HALLERA W BYDGOSZCZY",
+  "shortName": "XIII LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Aleksandra Fredry 3, 85-057 Bydgoszcz",
+  "geo": {
+   "lat": 53.13332,
+   "lng": 17.99736
+  },
+  "url": "https://www.lo13.edu.bydgoszcz.pl",
+  "public": true,
+  "students": 186,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "integracyjny",
+   "terapeutyczny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 27.6,
+   "examinees": 29,
+   "certificates": 8,
+   "extended": {
+    "geo": {
+     "n": 3,
+     "mean": null
+    },
+    "hist": {
+     "n": 8,
+     "mean": 27
+    },
+    "inf": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 14,
+     "mean": 60.9
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 5,
+     "mean": 9.6
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    },
+    "wos": {
+     "n": 6,
+     "mean": 22.3
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/18408",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 11640,
+  "type": "liceum",
+  "name": "XV LICEUM OGÓLNOKSZTAŁCĄCE IM. JEREMIEGO PRZYBORY Z ODDZIAŁAMI MISTRZOSTWA SPORTOWEGO W BYDGOSZCZY",
+  "shortName": "XV LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. gen. Augusta Emila Fieldorfa \"Nila\" 13, 85-796 Bydgoszcz",
+  "geo": {
+   "lat": 53.15091,
+   "lng": 18.13206
+  },
+  "url": "https://www.liceumxv.edu.pl",
+  "public": true,
+  "students": 425,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "mistrzostwa sportowego"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 85.9,
+   "examinees": 128,
+   "certificates": 110,
+   "extended": {
+    "bio": {
+     "n": 51,
+     "mean": 25.2
+    },
+    "chem": {
+     "n": 8,
+     "mean": 7
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 38,
+     "mean": 32
+    },
+    "hist": {
+     "n": 16,
+     "mean": 29.4
+    },
+    "ang": {
+     "n": 87,
+     "mean": 71.8
+    },
+    "pol": {
+     "n": 29,
+     "mean": 31.9
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 9,
+     "mean": 19.3
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/11640",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 17493,
+  "type": "liceum",
+  "name": "XVII LICEUM OGÓLNOKSZTAŁCĄCE DLA SŁABO SŁYSZĄCYCH W BYDGOSZCZY",
+  "shortName": "XVII LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Ludwika Waryńskiego 1, 85-320 Bydgoszcz",
+  "geo": {
+   "lat": 53.12018,
+   "lng": 17.97433
+  },
+  "url": "https://www.zsnr7.net",
+  "public": true,
+  "students": 10,
+  "languages": [
+   "ang"
+  ],
+  "specifics": [
+   "specjalny"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/17493",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 57618,
+  "type": "liceum",
+  "name": "XVIII LICEUM OGÓLNOKSZTAŁCĄCE",
+  "shortName": "XVIII LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Zygmunta Krasińskiego 10, 85-008 Bydgoszcz",
+  "geo": {
+   "lat": 53.12695,
+   "lng": 18.00944
+  },
+  "url": "https://braille.bydgoszcz.pl",
+  "public": true,
+  "students": 36,
+  "languages": [
+   "ang",
+   "niem",
+   "ros"
+  ],
+  "specifics": [
+   "specjalny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2025,
+   "passRate": null,
+   "examinees": 1,
+   "certificates": 0,
+   "extended": {
+    "bio": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2025/EM2023_2025_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/57618",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2025",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2025/EM2023_2025_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 12941,
+  "type": "liceum",
+  "name": "XXI LICEUM OGÓLNOKSZTAŁCĄCE IM. SYNÓW PUŁKÓW INTEGRACYJNE W BYDGOSZCZY",
+  "shortName": "XXI LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Adama Grzymały Siedleckiego 11, 85-868 Bydgoszcz",
+  "geo": {
+   "lat": 53.11084,
+   "lng": 18.03394
+  },
+  "url": "https://www.zs19bydgoszcz.edupage.org",
+  "public": true,
+  "students": 111,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "integracyjny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 80,
+   "examinees": 20,
+   "certificates": 16,
+   "extended": {
+    "bio": {
+     "n": 4,
+     "mean": null
+    },
+    "geo": {
+     "n": 11,
+     "mean": 31.2
+    },
+    "inf": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 14,
+     "mean": 72.4
+    },
+    "pol": {
+     "n": 2,
+     "mean": null
+    },
+    "ros_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/12941",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 276177,
+  "type": "liceum",
+  "name": "XXII LICEUM OGÓLNOKSZTAŁCĄCE BYDGOSKIEGO ZAKŁADU DOSKONALENIA ZAWODOWEGO W BYDGOSZCZY",
+  "shortName": "XXII LO",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Fordońska 120, 85-739 Bydgoszcz",
+  "geo": {
+   "lat": 53.121,
+   "lng": 18.06462
+  },
+  "url": "https://www.lo22bydgoszcz.pl",
+  "public": false,
+  "students": 75,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 39.1,
+   "examinees": 23,
+   "certificates": 9,
+   "extended": {
+    "bio": {
+     "n": 3,
+     "mean": null
+    },
+    "geo": {
+     "n": 7,
+     "mean": 17.6
+    },
+    "ang": {
+     "n": 20,
+     "mean": 44.1
+    },
+    "pol": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/276177",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 8884,
+  "type": "technikum",
+  "name": "PRYWATNE TECHNIKUM INFORMATYCZNE \"PRZYSZŁOŚĆ\" W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Wojska Polskiego 46A, 85-825 Bydgoszcz",
+  "geo": {
+   "lat": 53.10154,
+   "lng": 18.05919
+  },
+  "url": null,
+  "public": false,
+  "students": 14,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [
+   "Technik informatyk"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": null,
+   "examinees": 1,
+   "certificates": 1,
+   "extended": {
+    "ang": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/8884",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 8629,
+  "type": "technikum",
+  "name": "PRYWATNE TECHNIKUM LOGISTYCZNE \"PRZYSZŁOŚĆ\" W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Wojska Polskiego 46A, 85-825 Bydgoszcz",
+  "geo": {
+   "lat": 53.10154,
+   "lng": 18.05919
+  },
+  "url": null,
+  "public": false,
+  "students": 66,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "przygotowania wojskowego",
+   "profil mundurowy"
+  ],
+  "professionsRspo": [
+   "Technik logistyk"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": null,
+   "examinees": 4,
+   "certificates": 4,
+   "extended": {
+    "bio": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 2,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/8629",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 272402,
+  "type": "technikum",
+  "name": "PRYWATNE TECHNIKUM PROGRAMISTYCZNE \"PRZYSZŁOŚĆ\" W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Wojska Polskiego 46A, 85-825 Bydgoszcz",
+  "geo": {
+   "lat": 53.10154,
+   "lng": 18.05919
+  },
+  "url": null,
+  "public": false,
+  "students": 32,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [
+   "Technik programista"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": null,
+   "examinees": 3,
+   "certificates": 2,
+   "extended": {
+    "inf": {
+     "n": 2,
+     "mean": null
+    },
+    "ang": {
+     "n": 2,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/272402",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 4100,
+  "type": "technikum",
+  "name": "SZKOŁA TECHNICZNA IM. 1 POMORSKIEJ BRYGADY LOGISTYCZNEJ BYDGOSKIEGO ZAKŁADU DOSKONALENIA ZAWODOWEGO W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Fordońska 120, 85-739 Bydgoszcz",
+  "geo": {
+   "lat": 53.121,
+   "lng": 18.06462
+  },
+  "url": "https://www.technikummundurowe.bydgoszcz.pl",
+  "public": false,
+  "students": 349,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy",
+   "przygotowania wojskowego"
+  ],
+  "professionsRspo": [
+   "Technik informatyk",
+   "Technik logistyk",
+   "Technik urządzeń i systemów energetyki odnawialnej",
+   "Technik żywienia i usług gastronomicznych"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 38.3,
+   "examinees": 81,
+   "certificates": 31,
+   "extended": {
+    "bio": {
+     "n": 12,
+     "mean": 18
+    },
+    "chem": {
+     "n": 2,
+     "mean": null
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 50,
+     "mean": 26.4
+    },
+    "hist": {
+     "n": 14,
+     "mean": 27.1
+    },
+    "ang": {
+     "n": 44,
+     "mean": 55.4
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 2,
+     "mean": null
+    },
+    "wos": {
+     "n": 9,
+     "mean": 11.4
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/4100",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 12972,
+  "type": "technikum",
+  "name": "TECHNIKUM BUDOWLANE NR 3 IM. JURIJA GAGARINA W BYDGOSZCZY",
+  "shortName": "Technikum nr 3",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Jana Pestalozziego 18, 85-095 Bydgoszcz",
+  "geo": {
+   "lat": 53.1249,
+   "lng": 18.03238
+  },
+  "url": "https://www.zsb.bydgoszcz.pl",
+  "public": true,
+  "students": 823,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik budownictwa",
+   "Technik geodeta",
+   "Technik renowacji elementów architektury",
+   "Technik robót wykończeniowych w budownictwie",
+   "Technik budowy dróg"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 92.7,
+   "examinees": 124,
+   "certificates": 115,
+   "extended": {
+    "bio": {
+     "n": 6,
+     "mean": 19.7
+    },
+    "fiz": {
+     "n": 15,
+     "mean": 8.5
+    },
+    "geo": {
+     "n": 19,
+     "mean": 25.3
+    },
+    "hist": {
+     "n": 2,
+     "mean": null
+    },
+    "hsz": {
+     "n": 21,
+     "mean": 21.9
+    },
+    "ang": {
+     "n": 79,
+     "mean": 67.2
+    },
+    "ang_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 12,
+     "mean": 15.3
+    },
+    "mat": {
+     "n": 75,
+     "mean": 15.1
+    },
+    "wos": {
+     "n": 2,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/12972",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 268436,
+  "type": "technikum",
+  "name": "TECHNIKUM DLA MŁODZIEŻY W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Fordońska 120, 85-739 Bydgoszcz",
+  "geo": {
+   "lat": 53.121,
+   "lng": 18.06462
+  },
+  "url": "https://www.skk.pl",
+  "public": false,
+  "students": 118,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy",
+   "przygotowania wojskowego"
+  ],
+  "professionsRspo": [
+   "Technik elektryk",
+   "Technik informatyk",
+   "Technik weterynarii",
+   "Technik spedytor",
+   "Technik logistyk",
+   "Technik usług fryzjerskich",
+   "Technik pojazdów samochodowych",
+   "Technik reklamy"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 45.5,
+   "examinees": 22,
+   "certificates": 10,
+   "extended": {
+    "bio": {
+     "n": 19,
+     "mean": 22.5
+    },
+    "chem": {
+     "n": 12,
+     "mean": 10.8
+    },
+    "geo": {
+     "n": 3,
+     "mean": null
+    },
+    "hist": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 10,
+     "mean": 79
+    },
+    "pol": {
+     "n": 3,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/268436",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 19101,
+  "type": "technikum",
+  "name": "TECHNIKUM EKONOMICZNE NR 6 W BYDGOSZCZY",
+  "shortName": "Technikum nr 6",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Gajowa 98, 85-717 Bydgoszcz",
+  "geo": {
+   "lat": 53.13239,
+   "lng": 18.04325
+  },
+  "url": "https://www.zsea.bydgoszcz.pl",
+  "public": true,
+  "students": 630,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [
+   "Technik ekonomista",
+   "Technik rachunkowości"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 90.6,
+   "examinees": 96,
+   "certificates": 87,
+   "extended": {
+    "bio": {
+     "n": 1,
+     "mean": null
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 47,
+     "mean": 35.3
+    },
+    "hist": {
+     "n": 6,
+     "mean": 43.3
+    },
+    "ang": {
+     "n": 81,
+     "mean": 69.9
+    },
+    "ang_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 4,
+     "mean": null
+    },
+    "mat": {
+     "n": 16,
+     "mean": 33
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/19101",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 14226,
+  "type": "technikum",
+  "name": "TECHNIKUM DRZEWNE NR 5 IM. STANISŁAWA STASZICA W BYDGOSZCZY",
+  "shortName": "Technikum nr 5",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Toruńska 44, 85-023 Bydgoszcz",
+  "geo": {
+   "lat": 53.11885,
+   "lng": 18.01407
+  },
+  "url": "https://www.zsd.bydgoszcz.pl",
+  "public": true,
+  "students": 132,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik technologii drewna",
+   "Technik hodowca koni"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 66.7,
+   "examinees": 15,
+   "certificates": 10,
+   "extended": {
+    "bio": {
+     "n": 3,
+     "mean": null
+    },
+    "fiz": {
+     "n": 2,
+     "mean": null
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 6,
+     "mean": 69.2
+    },
+    "pol": {
+     "n": 2,
+     "mean": null
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 2,
+     "mean": null
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/14226",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 14372,
+  "type": "technikum",
+  "name": "TECHNIKUM ELEKTRONICZNE NR 7 IM. WOJSKA POLSKIEGO W BYDGOSZCZY",
+  "shortName": "Technikum nr 7",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Mieczysława Karłowicza 20, 85-092 Bydgoszcz",
+  "geo": {
+   "lat": 53.12356,
+   "lng": 18.02611
+  },
+  "url": "https://www.zse.bydgoszcz.pl",
+  "public": true,
+  "students": 932,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [
+   "Technik elektronik",
+   "Technik informatyk",
+   "Technik teleinformatyk",
+   "Technik programista"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 98.9,
+   "examinees": 181,
+   "certificates": 179,
+   "extended": {
+    "bio": {
+     "n": 2,
+     "mean": null
+    },
+    "fil": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 48,
+     "mean": 29.9
+    },
+    "geo": {
+     "n": 2,
+     "mean": null
+    },
+    "hist": {
+     "n": 9,
+     "mean": 49.4
+    },
+    "hmuz": {
+     "n": 2,
+     "mean": null
+    },
+    "hsz": {
+     "n": 3,
+     "mean": null
+    },
+    "inf": {
+     "n": 64,
+     "mean": 51.8
+    },
+    "ang": {
+     "n": 164,
+     "mean": 85.2
+    },
+    "ang_dwj": {
+     "n": 5,
+     "mean": 83.2
+    },
+    "pol": {
+     "n": 3,
+     "mean": null
+    },
+    "ros_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 145,
+     "mean": 47.4
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/14372",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 11730,
+  "type": "technikum",
+  "name": "TECHNIKUM ELEKTRYCZNO-ENERGETYCZNE NR 2 IM. JANA III SOBIESKIEGO W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Stawowa 41, 85-323 Bydgoszcz",
+  "geo": {
+   "lat": 53.12009,
+   "lng": 17.96547
+  },
+  "url": "https://www.zselek.pl",
+  "public": true,
+  "students": 363,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik elektryk",
+   "Technik energetyk",
+   "Technik chłodnictwa i klimatyzacji"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 84.6,
+   "examinees": 39,
+   "certificates": 33,
+   "extended": {
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 5,
+     "mean": 10.8
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 31,
+     "mean": 51
+    },
+    "pol": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 22,
+     "mean": 11
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/11730",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 11222,
+  "type": "technikum",
+  "name": "TECHNIKUM FRYZJERSKO-KOSMETYCZNE NR 1 W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Nakielska 11, 85-219 Bydgoszcz",
+  "geo": {
+   "lat": 53.12563,
+   "lng": 17.98182
+  },
+  "url": "https://www.zsnr1.bydgoszcz.pl",
+  "public": true,
+  "students": 139,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [
+   "Technik usług fryzjerskich"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 50,
+   "examinees": 18,
+   "certificates": 9,
+   "extended": {
+    "bio": {
+     "n": 10,
+     "mean": 14.8
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 12,
+     "mean": 60.2
+    },
+    "pol": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/11222",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 14501,
+  "type": "technikum",
+  "name": "TECHNIKUM GASTRONOMICZNO-HOTELARSKIE NR 8 IM. JAROSŁAWA IWASZKIEWICZA W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Ks. Stanisława Konarskiego 5, 85-066 Bydgoszcz",
+  "geo": {
+   "lat": 53.1253,
+   "lng": 18.00642
+  },
+  "url": "https://zsgh.edu.bydgoszcz.pl",
+  "public": true,
+  "students": 634,
+  "languages": [
+   "ang",
+   "niem",
+   "ros"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik hotelarstwa",
+   "Technik żywienia i usług gastronomicznych",
+   "Technik usług kelnerskich"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 67.6,
+   "examinees": 71,
+   "certificates": 48,
+   "extended": {
+    "bio": {
+     "n": 8,
+     "mean": 31.1
+    },
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 7,
+     "mean": 23.7
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 50,
+     "mean": 56.8
+    },
+    "pol": {
+     "n": 5,
+     "mean": 1.8
+    },
+    "mat": {
+     "n": 4,
+     "mean": null
+    },
+    "wos": {
+     "n": 2,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/14501",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 109572,
+  "type": "technikum",
+  "name": "TECHNIKUM IM. SYBIRAKÓW W BYGDOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Filmowa 1, 85-836 Bydgoszcz",
+  "geo": {
+   "lat": 53.11577,
+   "lng": 18.05038
+  },
+  "url": "https://www.zsogrodniczych.edupage.org",
+  "public": true,
+  "students": 417,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik hodowca koni",
+   "Technik ogrodnik",
+   "Technik rolnik",
+   "Technik architektury krajobrazu",
+   "Technik weterynarii",
+   "Technik agrobiznesu",
+   "Technik architektury krajobrazu i arborystyki"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 73.2,
+   "examinees": 56,
+   "certificates": 41,
+   "extended": {
+    "bio": {
+     "n": 40,
+     "mean": 31.3
+    },
+    "chem": {
+     "n": 26,
+     "mean": 9.1
+    },
+    "geo": {
+     "n": 21,
+     "mean": 38.5
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 14,
+     "mean": 77.4
+    },
+    "pol": {
+     "n": 3,
+     "mean": null
+    },
+    "mat": {
+     "n": 2,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/109572",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 4846,
+  "type": "technikum",
+  "name": "TECHNIKUM INFORMATYKI EDUKACJI INNOWACYJNEJ W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Maksymiliana Piotrowskiego 12-14, 85-098 Bydgoszcz",
+  "geo": {
+   "lat": 53.12468,
+   "lng": 18.01633
+  },
+  "url": "https://sei.edu.pl/miasta/bydgoszcz/",
+  "public": false,
+  "students": 113,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [
+   "Technik informatyk",
+   "Technik logistyk"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 87.5,
+   "examinees": 16,
+   "certificates": 14,
+   "extended": {
+    "bio": {
+     "n": 1,
+     "mean": null
+    },
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 16,
+     "mean": 74.2
+    },
+    "mat": {
+     "n": 5,
+     "mean": 6.4
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/4846",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 119312,
+  "type": "technikum",
+  "name": "TECHNIKUM KOLEJOWE IM. MIKOŁAJA KOPERNIKA W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Unii Lubelskiej 4C, 85-059 Bydgoszcz",
+  "geo": {
+   "lat": 53.13265,
+   "lng": 17.99121
+  },
+  "url": "https://www.kolejowe.edu.pl",
+  "public": false,
+  "students": 429,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik transportu kolejowego",
+   "Technik automatyk sterowania ruchem kolejowym",
+   "Technik elektroenergetyk transportu szynowego",
+   "Technik budownictwa kolejowego",
+   "Technik pojazdów kolejowych"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 54.7,
+   "examinees": 53,
+   "certificates": 29,
+   "extended": {
+    "bio": {
+     "n": 2,
+     "mean": null
+    },
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 3,
+     "mean": null
+    },
+    "geo": {
+     "n": 19,
+     "mean": 37.2
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 21,
+     "mean": 60
+    },
+    "pol": {
+     "n": 6,
+     "mean": 1
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 7,
+     "mean": 20
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/119312",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 13830,
+  "type": "technikum",
+  "name": "TECHNIKUM LOGISTYCZNO-SPOŻYWCZE NR 13 W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Toruńska 174, 85-844 Bydgoszcz",
+  "geo": {
+   "lat": 53.11554,
+   "lng": 18.04242
+  },
+  "url": "https://zsspo.edu.bydgoszcz.pl",
+  "public": true,
+  "students": 345,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik technologii żywności",
+   "Technik spedytor",
+   "Technik logistyk"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 51.2,
+   "examinees": 43,
+   "certificates": 22,
+   "extended": {
+    "bio": {
+     "n": 10,
+     "mean": 20.5
+    },
+    "geo": {
+     "n": 10,
+     "mean": 31.9
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 21,
+     "mean": 56.4
+    },
+    "pol": {
+     "n": 3,
+     "mean": null
+    },
+    "mat": {
+     "n": 2,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/13830",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 14346,
+  "type": "technikum",
+  "name": "TECHNIKUM MECHANICZNE NR 10 IM. FRANCISZKA SIEMIRADZKIEGO Z ODDZIAŁAMI MISTRZOSTWA SPORTOWEGO W BYDGOSZCZY",
+  "shortName": "Technikum nr 10",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. św. Trójcy 37, 85-224 Bydgoszcz",
+  "geo": {
+   "lat": 53.12507,
+   "lng": 17.9874
+  },
+  "url": "https://zsm1.bydgoszcz.pl/",
+  "public": true,
+  "students": 907,
+  "languages": [
+   "ang",
+   "niem",
+   "ros"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "mistrzostwa sportowego",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik mechanik",
+   "Technik transportu kolejowego",
+   "Technik automatyk sterowania ruchem kolejowym",
+   "Technik mechatronik",
+   "Technik informatyk",
+   "Technik mechanik lotniczy",
+   "Technik awionik",
+   "Technik programista"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 87.9,
+   "examinees": 140,
+   "certificates": 123,
+   "extended": {
+    "bio": {
+     "n": 10,
+     "mean": 24.5
+    },
+    "chem": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 16,
+     "mean": 22.9
+    },
+    "geo": {
+     "n": 15,
+     "mean": 25.6
+    },
+    "hist": {
+     "n": 6,
+     "mean": 27.5
+    },
+    "hmuz": {
+     "n": 1,
+     "mean": null
+    },
+    "inf": {
+     "n": 18,
+     "mean": 15.6
+    },
+    "ang": {
+     "n": 112,
+     "mean": 69.3
+    },
+    "ang_dwj": {
+     "n": 3,
+     "mean": null
+    },
+    "pol": {
+     "n": 1,
+     "mean": null
+    },
+    "ros": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 80,
+     "mean": 14.2
+    },
+    "wos": {
+     "n": 6,
+     "mean": 31.2
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/14346",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 13661,
+  "type": "technikum",
+  "name": "TECHNIKUM MECHANICZNO-ELEKTRYCZNE NR 11 IM. TYTUSA MAKSYMILIANA HUBERA W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Słoneczna 19, 85-348 Bydgoszcz",
+  "geo": {
+   "lat": 53.12548,
+   "lng": 17.96204
+  },
+  "url": "https://www.zsmnr2.pl",
+  "public": true,
+  "students": 492,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik elektryk",
+   "Technik mechanik",
+   "Technik mechatronik",
+   "Technik urządzeń i systemów energetyki odnawialnej",
+   "Technik automatyk",
+   "Technik spawalnictwa",
+   "Technik robotyk"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 66.7,
+   "examinees": 54,
+   "certificates": 36,
+   "extended": {
+    "bio": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 5,
+     "mean": 28.2
+    },
+    "ang": {
+     "n": 42,
+     "mean": 58
+    },
+    "pol": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 23,
+     "mean": 6.3
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/13661",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 5012,
+  "type": "technikum",
+  "name": "TECHNIKUM MENEDŻERSKIE W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Toruńska 55-57, 85-023 Bydgoszcz",
+  "geo": {
+   "lat": 53.11911,
+   "lng": 18.02133
+  },
+  "url": null,
+  "public": false,
+  "students": 997,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik informatyk",
+   "Technik technologii żywności",
+   "Technik weterynarii",
+   "Technik ekonomista",
+   "Technik handlowiec",
+   "Technik hotelarstwa",
+   "Technik logistyk",
+   "Technik żywienia i usług gastronomicznych",
+   "Technik szerokopasmowej komunikacji elektronicznej",
+   "Technik automatyk",
+   "Technik organizacji turystyki",
+   "Technik programista"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 59.3,
+   "examinees": 91,
+   "certificates": 54,
+   "extended": {
+    "bio": {
+     "n": 9,
+     "mean": 19.2
+    },
+    "chem": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 3,
+     "mean": null
+    },
+    "geo": {
+     "n": 14,
+     "mean": 27.4
+    },
+    "hist": {
+     "n": 4,
+     "mean": null
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "inf": {
+     "n": 13,
+     "mean": 23.4
+    },
+    "ang": {
+     "n": 65,
+     "mean": 59.9
+    },
+    "ang_dwj": {
+     "n": 4,
+     "mean": null
+    },
+    "pol": {
+     "n": 2,
+     "mean": null
+    },
+    "ros_dwj": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 10,
+     "mean": 12.2
+    },
+    "wos": {
+     "n": 11,
+     "mean": 19.1
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/5012",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 13037,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 4 IM. IGNACEGO ŁUKASIEWICZA W BYDGOSZCZY",
+  "shortName": "Technikum nr 4",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Ignacego Łukasiewicza 3, 85-821 Bydgoszcz",
+  "geo": {
+   "lat": 53.10698,
+   "lng": 18.05672
+  },
+  "url": "https://www.zsc.edu.bydgoszcz.pl",
+  "public": true,
+  "students": 534,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik analityk",
+   "Technik ochrony środowiska",
+   "Technik procesów drukowania",
+   "Technik fotografii i multimediów",
+   "Technik grafiki i poligrafii cyfrowej",
+   "Technik organizacji turystyki"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 83.8,
+   "examinees": 99,
+   "certificates": 83,
+   "extended": {
+    "bio": {
+     "n": 7,
+     "mean": 33.7
+    },
+    "chem": {
+     "n": 16,
+     "mean": 28.4
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 12,
+     "mean": 48.1
+    },
+    "hist": {
+     "n": 2,
+     "mean": null
+    },
+    "hsz": {
+     "n": 24,
+     "mean": 42.8
+    },
+    "inf": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 64,
+     "mean": 74.7
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 8,
+     "mean": 32.5
+    },
+    "mat": {
+     "n": 2,
+     "mean": null
+    },
+    "wos": {
+     "n": 6,
+     "mean": 30.7
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/13037",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 22038,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 9 IM. MARII DĄBROWSKIEJ Z ODDZIAŁAMI SPORTOWYMI W BYDGOSZCZY",
+  "shortName": "Technikum nr 9",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Gajowa 94, 85-717 Bydgoszcz",
+  "geo": {
+   "lat": 53.13115,
+   "lng": 18.04304
+  },
+  "url": "https://www.zsh.bydgoszcz.pl",
+  "public": true,
+  "students": 685,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik handlowiec",
+   "Technik eksploatacji portów i terminali",
+   "Technik przemysłu mody",
+   "Technik lotniskowych służb operacyjnych",
+   "Technik realizacji nagrań",
+   "Technik reklamy",
+   "Technik stylista"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 71.6,
+   "examinees": 95,
+   "certificates": 68,
+   "extended": {
+    "bio": {
+     "n": 4,
+     "mean": null
+    },
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 27,
+     "mean": 27.3
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "hsz": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 68,
+     "mean": 65.2
+    },
+    "ang_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 3,
+     "mean": null
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 3,
+     "mean": null
+    },
+    "wos": {
+     "n": 10,
+     "mean": 29
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/22038",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 13860,
+  "type": "technikum",
+  "name": "TECHNIKUM SAMOCHODOWE NR 12 W BYDGOSZCZY",
+  "shortName": "Technikum nr 12",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Aleja Powstańców Wielkopolskich 63, 85-090 Bydgoszcz",
+  "geo": {
+   "lat": 53.13052,
+   "lng": 18.04149
+  },
+  "url": "https://www.zss.pl",
+  "public": true,
+  "students": 437,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik pojazdów samochodowych",
+   "Technik transportu drogowego"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 75,
+   "examinees": 40,
+   "certificates": 30,
+   "extended": {
+    "bio": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 4,
+     "mean": null
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 23,
+     "mean": 55.6
+    },
+    "mat": {
+     "n": 19,
+     "mean": 7.5
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/13860",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 10415,
+  "type": "technikum",
+  "name": "TECHNIKUM SPECJALNE DLA MŁODZIEZY SŁABO SŁYSZĄCEJ I NIESŁYSZĄCEJ",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Akademicka 3, 85-796 Bydgoszcz",
+  "geo": {
+   "lat": 53.14666,
+   "lng": 18.11652
+  },
+  "url": "https://www.oswnr2.bydgoszcz.pl/",
+  "public": true,
+  "students": 24,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "specjalny"
+  ],
+  "professionsRspo": [
+   "Technik elektronik",
+   "Technik informatyk",
+   "Technik ogrodnik",
+   "Technik masażysta",
+   "Technik żywienia i usług gastronomicznych"
+  ],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/10415",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 59093,
+  "type": "technikum",
+  "name": "TECHNIKUM SPECJALNE DLA MŁODZIEŻY SŁABO WIDZĄCEJ I NIEWIDOMEJ W BYDGOSZCZY WCHODZĄCE W SKŁAD KUJAWSKO-POMORSKIEGO SPECJALNEGO OŚRODKA SZKOLNO-WYCHOWAWCZEGO NR 1 DLA DZIECI I MŁODZIEŻY SŁABO WIDZĄCEJ I NIEWIDOMEJ IM. LOUISA BRAILL'EA W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Zygmunta Krasińskiego 10, 85-008 Bydgoszcz",
+  "geo": {
+   "lat": 53.12695,
+   "lng": 18.00944
+  },
+  "url": "https://braille.bydgoszcz.pl",
+  "public": true,
+  "students": 21,
+  "languages": [
+   "ang",
+   "niem",
+   "ros"
+  ],
+  "specifics": [
+   "specjalny"
+  ],
+  "professionsRspo": [
+   "Technik masażysta",
+   "Technik logistyk"
+  ],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/59093",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 18608,
+  "type": "technikum",
+  "name": "TECHNIKUM TEB EDUKACJA W BYDGOSZCZY",
+  "shortName": null,
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Dworcowa 71, 85-009 Bydgoszcz",
+  "geo": {
+   "lat": 53.13197,
+   "lng": 17.99459
+  },
+  "url": "https://www.teb.pl",
+  "public": false,
+  "students": 226,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik analityk",
+   "Technik mechatronik",
+   "Technik informatyk",
+   "Technik weterynarii",
+   "Technik optyk",
+   "Technik usług fryzjerskich",
+   "Technik lotniskowych służb operacyjnych",
+   "Technik fotografii i multimediów",
+   "Technik realizacji nagrań",
+   "Technik organizacji turystyki",
+   "Technik reklamy",
+   "Technik programista"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 60.7,
+   "examinees": 28,
+   "certificates": 17,
+   "extended": {
+    "bio": {
+     "n": 1,
+     "mean": null
+    },
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "hist": {
+     "n": 3,
+     "mean": null
+    },
+    "inf": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 20,
+     "mean": 57.4
+    },
+    "pol": {
+     "n": 4,
+     "mean": null
+    },
+    "mat": {
+     "n": 4,
+     "mean": null
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/18608",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ }
+]

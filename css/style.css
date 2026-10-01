@@ -3087,3 +3087,5 @@ p.school-popup__caption { margin: 0.25rem 0 0.4rem; }
 .kalk__help summary { cursor: pointer; color: var(--kr-secondary); font-weight: 600; min-height: 32px; }
 .kalk__help ul { padding-left: 1.1rem; margin: 0.5rem 0 0; }
 .kalk__group--miss .career-column__subtitle, .kalk__group--unfilled .career-column__subtitle { color: var(--kr-text-muted); }
+.szkoly__city-field { max-width: 22rem; margin: 0.75rem 0 0.25rem; }
+.career-secondary__cities .szkoly__city-field { margin-top: 0.25rem; }

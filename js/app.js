@@ -755,7 +755,7 @@
         eduHtml += '<h3 class="career-column__subtitle career-column__subtitle--spaced">Uczelnie</h3>';
         eduHtml += '<div class="school-cards">';
         // Uczelnie z miasta wybranego w części o szkołach średnich idą na górę (indeks zostaje oryginalny dla popupu)
-        const cityPref = Szkoly.currentCity() === 'warszawa' ? ['Warszawa'] : ['Gdańsk', 'Gdynia', 'Sopot'];
+        const cityPref = Szkoly.cityUniversities(Szkoly.currentCity());
         const order = c.education.schools.map((s, i) => i)
           .sort((a, b) => (cityPref.includes(c.education.schools[b].city) - cityPref.includes(c.education.schools[a].city)) || a - b);
         for (const si of order) {
