@@ -142,13 +142,30 @@ server.listen(0, async () => {
   await page.check('[name=wol]');
   await page.waitForFunction(() => /Porównano/.test(document.querySelector('#kalkResults').textContent));
   const tot = await page.textContent('#kalkTotal');
-  check('egzamin 80/70/90 daje 79,5 pkt, dodatkowe 10 pkt', /79,5/.test(tot) && /dodatkowe: 10/.test(tot), tot.replace(/\s+/g, ' '));
+  check('egzamin 80/70/90 daje 79,5 pkt, dodatkowe 10 pkt, wynik 151,5 do 158,5', /Egzamin 79,5/.test(tot) && /dodatkowe 10/.test(tot) && /151,5 do 158,5/.test(tot), tot.replace(/\s+/g, ' '));
   const summary = await page.textContent('#kalkSummary');
   check('wynik liczony osobno dla klas (zakres punktów)', /Twój wynik: od \d/.test(summary), summary);
   await page.fill('[name=osi]', '40');
   await page.waitForTimeout(500);
   check('liczba spoza zakresu daje komunikat', await page.isVisible('#err_osi'));
   await page.evaluate(() => sessionStorage.clear());
+
+  console.log('\n=== Przegląd UX: poważne ===');
+  const fresh = await browser.newPage();
+  fresh.on('pageerror', e => errors.push(e.message));
+  await fresh.goto(base + '/zawod/weterynarz');
+  await fresh.waitForSelector('#careerCity');
+  check('bez wybranego miasta profil pyta o miasto', /Gdzie chcesz iść do szkoły/.test(await fresh.textContent('.career-secondary')));
+  await fresh.selectOption('#careerCity', 'lodz');
+  await fresh.waitForFunction(() => /Łodzi/.test(document.querySelector('.career-secondary h2').textContent));
+  const vet = await fresh.textContent('.career-secondary');
+  check('weterynarz: biologia wymagana, chemia doliczana', /z biologii/.test(vet) && /z chemii/.test(vet) && !/nie wymagają/.test(vet));
+  await fresh.goto(base + '/kalkulator?miasto=krakow');
+  await fresh.waitForFunction(() => !document.querySelector('#kalkCityNote').hidden);
+  check('kalkulator uprzedza o mieście bez progów', /Nie mamy jeszcze progów/.test(await fresh.textContent('#kalkCityNote')));
+  await fresh.waitForFunction(() => /brak progów/.test(document.querySelector('#kalkCity option[value=krakow]').textContent));
+  check('lista miast w kalkulatorze pokazuje brak progów', true);
+  await fresh.close();
 
   console.log('\n=== Quiz i wyszukiwanie po zainteresowaniach ===');
   await page.goto(base + '/quiz');

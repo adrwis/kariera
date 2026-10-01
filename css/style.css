@@ -3096,3 +3096,5 @@ p.school-popup__caption { margin: 0.25rem 0 0.4rem; }
 .quiz__why { font-size: 0.88rem; color: var(--kr-text); margin-top: 0.25rem; }
 .quiz__path { margin-top: 0.25rem; }
 .quiz__reset { background: none; border: none; padding: 0; cursor: pointer; font: inherit; text-decoration: underline; }
+.kalk__more-filters { margin-top: 0.75rem; }
+.kalk__more-filters summary { cursor: pointer; font-weight: 600; margin-bottom: 0.5rem; }

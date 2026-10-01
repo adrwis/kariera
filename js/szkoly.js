@@ -32,11 +32,12 @@ const Szkoly = (function () {
   ];
 
   // Lista rozwijana miast; zmiana wywołuje onChange(slug)
-  function citySelectHtml(current, id) {
+  function citySelectHtml(current, id, label = 'Miasto') {
     return `
       <label class="szkoly__field kalk__field szkoly__city-field">
-        <span class="szkoly__legend">Miasto</span>
+        <span class="szkoly__legend">${esc(label)}</span>
         <select class="szkoly__select szkoly__city-select" id="${id}" data-city-select>
+          ${current ? '' : '<option value="" selected disabled>wybierz miasto</option>'}
           ${CITY_GROUPS.map(([label, slugs]) => `<optgroup label="${attr(label)}">${slugs.map(c => `<option value="${c}"${c === current ? ' selected' : ''}>${esc(CITIES[c].name)}</option>`).join('')}</optgroup>`).join('')}
         </select>
       </label>`;
@@ -149,6 +150,21 @@ const Szkoly = (function () {
       if (CITIES[c]) return c;
     } catch (e) { /* brak dostępu do localStorage */ }
     return DEFAULT_CITY;
+  }
+
+  // Czy użytkownik sam wybrał miasto (bez tego nie zakładamy Gdańska)
+  function hasCity() {
+    try { return !!CITIES[localStorage.getItem('kr-miasto')]; } catch (e) { return false; }
+  }
+
+  // Ile klas w mieście ma próg w skali 200 pkt (z index.json, pole stats)
+  function cityStats(index, slug) {
+    const st = index && index.stats;
+    if (!st || !CITIES[slug]) return null;
+    return CITIES[slug].files.reduce((a, f) => {
+      const x = st[f] || { classes: 0, withThresholds: 0 };
+      return { classes: a.classes + x.classes, withThresholds: a.withThresholds + x.withThresholds };
+    }, { classes: 0, withThresholds: 0 });
   }
 
   function setCity(slug) {
@@ -464,6 +480,19 @@ const Szkoly = (function () {
 
   async function renderList(container, params) {
     const my = ++renderSeq;
+    if (!CITIES[params.get('miasto')] && !hasCity()) {
+      setRobots('index, follow');
+      ctx.updateMeta('Szkoły średnie | NextMove', 'Licea i technika w 14 miejscach w Polsce: klasy, przedmioty rozszerzone, wyniki matur i progi punktowe.', `${ctx.BASE}/szkoly`);
+      container.innerHTML = `
+      <div class="results szkoly">
+        <a href="${ctx.BASE}/" class="results__back">&larr; Strona główna</a>
+        <h1 class="results__title">Szkoły średnie</h1>
+        <p class="results__query">Licea i technika dla absolwentów podstawówki. Wybierz miasto, a pokażę szkoły, klasy i progi punktowe.</p>
+        ${citySelectHtml('', 'szkolyCity', 'Gdzie chcesz iść do szkoły?')}
+      </div>`;
+      focusHeading(container);
+      return;
+    }
     const citySlug = CITIES[params.get('miasto')] ? params.get('miasto') : currentCity();
     if (params.get('miasto') && params.get('miasto') !== citySlug) {
       params.set('miasto', citySlug);
@@ -656,29 +685,44 @@ const Szkoly = (function () {
   function careerMaturaGroups(career) {
     if (groupsCache.has(career.id)) return groupsCache.get(career.id);
     const schools = ((career.education && career.education.schools) || []).filter(s => s.requirementsStructured && s.requirementsStructured.length);
-    const count = { R: new Map(), PR: new Map() };
+    // Dla każdej grupy przedmiotów: ile uczelni wymaga jej na poziomie R, a ile przyjmuje P lub R.
+    // Poziomy liczymy razem, bo przedmiot, który połowa uczelni chce rozszerzony, a połowa przyjmuje podstawowy, i tak jest potrzebny.
+    const groups = new Map();
+    const anywhere = new Map();
     for (const s of schools) {
       const seen = new Set();
+      const seenCode = new Set();
       for (const g of s.requirementsStructured) {
-        const codes = (g.anyOf || []).filter(c => SUBJECTS[c]);
-        if (!codes.length || codes.length !== (g.anyOf || []).length || codes.length > 3) continue;
-        const bucket = g.level === 'R' ? 'R' : g.level === 'P lub R' ? 'PR' : null;
-        if (!bucket) continue;
-        const key = bucket + ':' + [...codes].sort().join('|');
+        const all = g.anyOf || [];
+        const codes = all.filter(c => SUBJECTS[c]);
+        if ((g.level === 'R' || g.level === 'P lub R') && all.length <= 2) codes.forEach(c => seenCode.add(c));
+        if (!codes.length || codes.length !== all.length || codes.length > 3) continue;
+        if (g.level !== 'R' && g.level !== 'P lub R') continue;
+        const key = [...codes].sort().join('|');
         if (seen.has(key)) continue;
         seen.add(key);
-        count[bucket].set(key, (count[bucket].get(key) || 0) + 1);
+        const e = groups.get(key) || { R: 0, PR: 0 };
+        e[g.level === 'R' ? 'R' : 'PR']++;
+        groups.set(key, e);
       }
+      seenCode.forEach(c => anywhere.set(c, (anywhere.get(c) || 0) + 1));
     }
-    const pick = bucket => [...count[bucket].entries()]
-      .filter(([, n]) => schools.length && n / schools.length >= 0.5)
-      .map(([k]) => k.split(':')[1].split('|'));
-    let required = pick('R');
+    const half = n => schools.length && n / schools.length >= 0.5;
+    let required = [];
+    let recommended = [];
+    for (const [key, e] of groups) {
+      if (!half(e.R + e.PR)) continue;
+      (e.R >= e.PR ? required : recommended).push(key.split('|'));
+    }
     // Grupa „chemia lub fizyka” jest zbędna, jeśli chemia i tak jest wymagana osobno
     const singles = new Set(required.filter(g => g.length === 1).map(g => g[0]));
     required = required.filter(g => g.length === 1 || !g.some(c => singles.has(c)));
-    const requiredKeys = new Set(required.map(g => g.join('|')));
-    const recommended = pick('PR').filter(g => !requiredKeys.has(g.join('|')) && !g.some(c => singles.has(c)));
+    recommended = recommended.filter(g => !g.some(c => singles.has(c)));
+    // Przedmioty, które większość uczelni liczy w jakiejkolwiek formie, np. chemia u weterynarza („chemia lub matematyka”)
+    const covered = new Set([...required, ...recommended].filter(g => g.length === 1).map(g => g[0]));
+    for (const [c, n] of anywhere) {
+      if (half(n) && !covered.has(c) && !recommended.some(g => g.length > 1 && g.includes(c))) recommended.push([c]);
+    }
     const out = { required, recommended, schoolsCounted: schools.length };
     groupsCache.set(career.id, out);
     return out;
@@ -705,6 +749,14 @@ const Szkoly = (function () {
 
   async function careerSectionHtml(career) {
     lastCareer = career;
+    if (!hasCity()) {
+      return `
+      <section class="career-secondary">
+        <h2 class="career-column__title">Szkoła średnia</h2>
+        <p class="career-column__text">Gdzie chcesz iść do szkoły? Wybierz miasto, a pokażę licea i technika, które prowadzą do tego zawodu.</p>
+        <div class="career-secondary__cities">${citySelectHtml('', 'careerCity')}</div>
+      </section>`;
+    }
     let d;
     try { d = await load(currentCity()); } catch (e) { return ''; }
     const wanted = CAREER_PROFESSIONS[career.id];
@@ -740,7 +792,7 @@ const Szkoly = (function () {
     if (lo.length) {
       loHtml = `
       <h3 class="career-column__subtitle">Licea z pasującymi klasami</h3>
-      <p class="career-column__text szkola__muted">Uczelnie na tej stronie zwykle wymagają matury rozszerzonej ${esc(groupsSentence(required))}.</p>
+      <p class="career-column__text szkola__muted">Uczelnie na tej stronie zwykle liczą rozszerzoną maturę ${esc(groupsSentence(required))}.${recommended.length ? ` Część uczelni dolicza też punkty za rozszerzenie ${esc(groupsSentence(recommended))}.` : ''}</p>
       <ul class="szkoly__mini">
         ${lo.slice(0, MAX_LO).map(x => `<li><a href="${ctx.BASE}/szkola/${attr(x.s.rspo)}">${esc(x.s.shortName || x.s.name)}</a> <span class="szkola__muted">· ${CITIES[d.slug].files.length > 1 && x.s.city ? esc(x.s.city) + ', ' : ''}${x.ps.map(p => esc(profileLabel(p))).join('; ')}</span></li>`).join('')}
       </ul>
@@ -848,6 +900,7 @@ const Szkoly = (function () {
     const fd = new FormData(form);
     const o = {};
     for (const [k, v] of fd.entries()) o[k] = v;
+    o.rozsz = fd.getAll('rozsz').filter(c => FILTER_SUBJECTS.includes(c));
     o.wyr = fd.get('wyr') === '1';
     o.wol = fd.get('wol') === '1';
     return o;
@@ -878,14 +931,18 @@ const Szkoly = (function () {
     return (p.thresholds || []).filter(t => typeof t.min === 'number' && t.scale === 200).sort((a, b) => b.year - a.year)[0] || null;
   }
 
-  function calcResultsHtml(d, c, typ) {
+  function calcResultsHtml(d, c, f) {
     const rows = [];
     let otherScale = 0;
     const missingCount = {};
     let missingClasses = 0;
+    const rozsz = f.rozsz || [];
+    const inCity = d.schools.flatMap(s => (s.profiles || []).filter(p => latestThreshold(p))).length;
     for (const s of d.schools) {
-      if (typ && s.type !== typ) continue;
+      if (f.typ && s.type !== f.typ) continue;
+      if (f.dz && s.district !== f.dz) continue;
       for (const p of s.profiles || []) {
+        if (!profileMatches(p, rozsz)) continue;
         const t = latestThreshold(p);
         if (!t) { if ((p.thresholds || []).length) otherScale++; continue; }
         const gp = gradePointsFor(p, c.g);
@@ -906,18 +963,21 @@ const Szkoly = (function () {
     const far = rows.filter(r => r.diff <= -CLOSE_MISS && !r.unfilled).length;
     const multi = CITIES[d.slug].files.length > 1;
     const totals = rows.map(r => r.total);
+    const cautious = rows.filter(r => r.mode === 'cautious').length;
+    const mixed = cautious && cautious < rows.length;
+    const where = s => [multi ? s.city : '', s.district].filter(Boolean).join(', ');
     const item = (r, extraNote) => `
       <li>
-        <a href="${ctx.BASE}/szkola/${attr(r.s.rspo)}">${esc(r.s.shortName || r.s.name)}</a>${multi && r.s.city ? ` <span class="szkola__muted">(${esc(r.s.city)})</span>` : ''}:
+        <a href="${ctx.BASE}/szkola/${attr(r.s.rspo)}">${esc(r.s.shortName || r.s.name)}</a>${where(r.s) ? ` <span class="szkola__muted">(${esc(where(r.s))})</span>` : ''}:
         ${esc(profileLabel(r.p))}
-        <span class="kalk__thr">próg ${esc(r.t.year)}: ${fmtNum(r.t.min)} pkt · Ty: ${fmtNum(r.total)} pkt${r.mode === 'cautious' ? ' (przedmioty punktowane nieznane, liczę z dwóch najniższych ocen)' : ''}${extraNote ? ' · ' + extraNote(r) : ''}</span>
+        <span class="kalk__thr">próg ${esc(r.t.year)}: ${fmtNum(r.t.min)} pkt · Ty: ${fmtNum(r.total)} pkt${mixed && r.mode === 'cautious' ? ' (liczone ostrożnie)' : ''}${extraNote ? ' · ' + extraNote(r) : ''}</span>
       </li>`;
     const group = (title, list, cls, note, limit, extraNote) => list.length ? `
       <section class="kalk__group kalk__group--${cls}">
         <h3 class="career-column__subtitle">${title} <span class="szkola__muted">(${list.length})</span></h3>
         ${note ? `<p class="career-column__text szkola__muted">${note}</p>` : ''}
         <ul class="szkoly__mini kalk__list">${list.slice(0, limit).map(r => item(r, extraNote)).join('')}</ul>
-        ${list.length > limit ? `<p class="career-column__text szkola__muted">Pokazuję ${limit} z ${list.length}. Zawęź listę rodzajem szkoły.</p>` : ''}
+        ${list.length > limit ? `<p class="career-column__text szkola__muted">Pokazuję ${limit} z ${list.length}. Zawęź listę rodzajem szkoły, rozszerzeniami albo dzielnicą.</p>` : ''}
       </section>` : '';
     const missingNames = Object.entries(missingCount).sort((a, b) => b[1] - a[1]).map(([k]) => {
       const known = CALC_SUBJECTS.find(([c]) => c === k) || (SECOND_LANG.includes(k) ? ['obcy2', 'drugi język obcy'] : null);
@@ -925,9 +985,14 @@ const Szkoly = (function () {
     });
     const summary = rows.length
       ? `Twój wynik: ${totals.length && Math.min(...totals) !== Math.max(...totals) ? `od ${fmtNum(Math.min(...totals))} do ${fmtNum(Math.max(...totals))} pkt, zależnie od przedmiotów punktowanych w klasie` : `${fmtNum(totals[0])} pkt`}. Porównano ${rows.length} ${plural(rows.length, 'klasę', 'klasy', 'klas')} ${esc(d.city.loc)}: powyżej progu ${safe.length}, blisko progu ${edge.length}.`
-      : `Brak klas do porównania ${esc(d.city.loc)}.`;
+      : !inCity
+        ? `Nie mamy jeszcze progów punktowych szkół ${esc(d.city.loc)}, więc nie porównam wyniku z klasami. <a href="${ctx.BASE}/szkoly?miasto=${d.slug}">Zobacz listę szkół</a> i sprawdź progi na ich stronach.`
+        : missingClasses ? 'Uzupełnij oceny, żeby porównać wynik z klasami.'
+        : `Żadna klasa z progiem nie pasuje do wybranych filtrów. Spróbuj wybrać mniej rozszerzeń albo inną dzielnicę.`;
     return `
       <p class="kalk__summary" id="kalkSummary">${summary}</p>
+      ${cautious && !mixed ? `<p class="career-column__text szkola__muted">Nie wiemy, które przedmioty liczą te klasy, dlatego punkty z ocen liczę ostrożnie, z dwóch najniższych ocen poza polskim i matematyką.</p>` : ''}
+      ${mixed ? `<p class="career-column__text szkola__muted">Przy klasach oznaczonych „liczone ostrożnie” nie wiemy, które przedmioty są punktowane, więc biorę dwie najniższe oceny.</p>` : ''}
       ${missingClasses ? `<p class="career-column__text">Uzupełnij oceny, żeby porównać jeszcze ${missingClasses} ${plural(missingClasses, 'klasę', 'klasy', 'klas')}. Najczęściej brakuje: ${esc([...new Set(missingNames)].slice(0, 4).join(', '))}.</p>` : ''}
       ${group('Blisko progu', edge, 'edge', `Różnica mniejsza niż ${MARGIN} pkt w jedną albo drugą stronę. Tu decyduje rok i liczba chętnych.`, 40)}
       ${group('Powyżej ostatniego progu', safe, 'safe', `Twój wynik jest co najmniej ${MARGIN} pkt wyższy od ostatniego progu. Jeśli w tym roku progi pójdą w górę, może nie wystarczyć.`, 40)}
@@ -939,8 +1004,9 @@ const Szkoly = (function () {
 
   async function renderCalculator(container, params) {
     const my = ++renderSeq;
-    const citySlug = CITIES[params.get('miasto')] ? params.get('miasto') : currentCity();
+    const citySlug = CITIES[params.get('miasto')] ? params.get('miasto') : hasCity() ? currentCity() : '';
     const saved = loadCalc();
+    const savedRozsz = Array.isArray(saved.rozsz) ? saved.rozsz.filter(c => FILTER_SUBJECTS.includes(c)) : [];
     const typ = TYPES.includes(params.get('typ')) ? params.get('typ') : (TYPES.includes(saved.typ) ? saved.typ : '');
     setRobots('index, follow');
     ctx.updateMeta('Kalkulator punktów ósmoklasisty | NextMove', 'Policz punkty rekrutacyjne do szkoły średniej i porównaj je z ostatnimi progami klas.', ctx.BASE + '/kalkulator');
@@ -996,10 +1062,23 @@ const Szkoly = (function () {
           <fieldset class="szkoly__fieldset">
             <legend class="szkoly__legend">Gdzie szukać</legend>
             ${citySelectHtml(citySlug, 'kalkCity')}
+            <p class="career-column__text szkola__muted" id="kalkCityNote"${citySlug ? ' hidden' : ''}>${citySlug ? '' : 'Wybierz miasto, żeby porównać wynik z progami klas.'}</p>
             <div class="szkoly__chips">
               ${[['', 'Licea i technika'], ['liceum', 'Licea'], ['technikum', 'Technika']].map(([v, l]) => `
                 <label class="szkoly__chip"><input type="radio" name="typ" value="${v}"${typ === v ? ' checked' : ''}> ${l}</label>`).join('')}
             </div>
+            <details class="kalk__more-filters"${savedRozsz.length || saved.dz ? ' open' : ''}>
+              <summary>Rozszerzenia i dzielnica</summary>
+              <p class="szkoly__legend">Przedmioty rozszerzone w klasie</p>
+              <div class="szkoly__chips">
+                ${FILTER_SUBJECTS.map(c => `
+                  <label class="szkoly__chip"><input type="checkbox" name="rozsz" value="${c}"${savedRozsz.includes(c) ? ' checked' : ''}> ${esc(subjectName(c))}</label>`).join('')}
+              </div>
+              <label class="szkoly__field kalk__field">
+                <span class="szkoly__legend">Dzielnica</span>
+                <select name="dz" class="szkoly__select" id="kalkDz"><option value="">Wszystkie</option></select>
+              </label>
+            </details>
           </fieldset>
         </form>
         <div class="kalk__total" id="kalkTotal"></div>
@@ -1027,10 +1106,20 @@ const Szkoly = (function () {
         resultsEl.innerHTML = '';
         return;
       }
-      totalEl.innerHTML = `
-        <p class="kalk__points">Egzamin: <strong>${fmtNum(Math.round(c.examPts * 100) / 100)}</strong> z 100 pkt · dodatkowe: <strong>${esc(c.extra)}</strong> pkt</p>
-        <p class="szkola__muted">Do tego oceny ze świadectwa, do 72 pkt. Ich liczba zależy od klasy, dlatego wynik w każdej klasie jest policzony osobno.</p>`;
-      resultsEl.innerHTML = d ? calcResultsHtml(d, c, f.typ || '') : '<p class="szkoly__loading">Wczytuję progi…</p>';
+      const exam = Math.round(c.examPts * 100) / 100;
+      const others = Object.entries(c.g).filter(([k, v]) => k !== 'pol' && k !== 'mat' && v != null).map(([, v]) => v).sort((x, y) => x - y);
+      const gradesKnown = c.g.pol != null && c.g.mat != null && others.length >= 2;
+      const r2 = x => Math.round(x * 100) / 100;
+      const lo = gradesKnown ? r2(exam + c.g.pol + c.g.mat + others[0] + others[1] + c.extra) : null;
+      const hi = gradesKnown ? r2(exam + c.g.pol + c.g.mat + others[others.length - 1] + others[others.length - 2] + c.extra) : null;
+      totalEl.innerHTML = gradesKnown ? `
+        <p class="kalk__points">Twój wynik: <strong>${lo === hi ? fmtNum(lo) : `${fmtNum(lo)} do ${fmtNum(hi)}`}</strong> z 200 pkt</p>
+        <p class="szkola__muted">Egzamin ${fmtNum(exam)} pkt, oceny ${lo === hi ? fmtNum(r2(lo - exam - c.extra)) : `${fmtNum(r2(lo - exam - c.extra))} do ${fmtNum(r2(hi - exam - c.extra))}`} pkt, dodatkowe ${esc(c.extra)} pkt.${lo === hi ? '' : ' Punkty z ocen zależą od tego, które przedmioty liczy klasa.'}</p>` : `
+        <p class="kalk__points">Egzamin: <strong>${fmtNum(exam)}</strong> z 100 pkt · dodatkowe: <strong>${esc(c.extra)}</strong> pkt</p>
+        <p class="szkola__muted">Wpisz oceny ze świadectwa (polski, matematyka i co najmniej dwa inne przedmioty), żeby zobaczyć wynik do 200 pkt.</p>`;
+      resultsEl.innerHTML = !citySlug
+        ? '<p class="kalk__summary" id="kalkSummary">Wybierz miasto, żeby porównać wynik z progami klas.</p>'
+        : d ? calcResultsHtml(d, c, f) : '<p class="szkoly__loading">Wczytuję progi…</p>';
     };
     let timer = null;
     form.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(update, 250); });
@@ -1038,9 +1127,28 @@ const Szkoly = (function () {
     form.addEventListener('submit', e => { e.preventDefault(); update(); });
     update();
     focusHeading(container);
+    // Przy każdym mieście liczba klas z progami, żeby nie wypełniać formularza na próżno
+    loadIndex().then(index => {
+      if (my !== renderSeq) return;
+      for (const o of container.querySelectorAll('#kalkCity option[value]')) {
+        const st = cityStats(index, o.value);
+        if (!st) continue;
+        o.textContent = CITIES[o.value].name + (st.withThresholds === 0 ? ' (brak progów)' : st.withThresholds < st.classes / 2 ? ` (progi ${st.withThresholds} z ${st.classes} klas)` : '');
+      }
+    }).catch(() => {});
+    if (!citySlug) return;
     try { d = await load(citySlug); } catch (e) { if (my === renderSeq) resultsEl.innerHTML = '<p class="career-column__empty">Nie udało się wczytać progów. Sprawdź połączenie i odśwież stronę.</p>'; return; }
     if (my !== renderSeq) return;
     setCity(citySlug);
+    const all = d.schools.reduce((a, s) => a + (s.profiles || []).length, 0);
+    const withT = d.schools.reduce((a, s) => a + (s.profiles || []).filter(p => latestThreshold(p)).length, 0);
+    const note = container.querySelector('#kalkCityNote');
+    if (withT === 0) { note.textContent = `Nie mamy jeszcze progów punktowych szkół ${d.city.loc}. Kalkulator policzy punkty, ale nie porówna ich z klasami.`; note.hidden = false; }
+    else if (withT < all / 2) { note.textContent = `Progi mamy dla ${withT} z ${all} klas ${d.city.loc}, więc porównanie obejmie tylko część szkół.`; note.hidden = false; }
+    const dzSel = container.querySelector('#kalkDz');
+    const districts = [...new Set(d.schools.map(s => s.district).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'pl'));
+    dzSel.insertAdjacentHTML('beforeend', districts.map(x => `<option value="${attr(x)}"${saved.dz === x ? ' selected' : ''}>${esc(x)}</option>`).join(''));
+    dzSel.closest('label').hidden = !districts.length;
     update();
   }
 

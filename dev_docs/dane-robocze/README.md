@@ -13,6 +13,7 @@ Zasada: na stronę trafia tylko to, co ma oficjalne źródło; niepewne rzeczy s
 5. `node dev_docs/dane-robocze/patch-matura.js`: wyniki matur z `baza/cke_*.json`
 6. `node dev_docs/dane-robocze/merge-uczelnie-2026.js` i `merge-tri-uczelnie.js`: uczelnie w `data/careers.json`
 7. `node dev_docs/dane-robocze/normalize-dashes.js`: bez długich myślników i półpauz
+   Potem `stats-szkoly.js`: liczba klas z progami w każdym mieście (do kalkulatora)
 8. `npm run build && npm test`
 
 Instrukcje dla agentów zbierających dane: `INSTRUKCJA-*.md`, `baza/INSTRUKCJA-MIASTA.md`.
