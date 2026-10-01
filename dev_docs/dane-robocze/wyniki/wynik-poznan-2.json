@@ -1,0 +1,2531 @@
+[
+ {
+  "rspo": 79204,
+  "shortName": "I LO",
+  "url": null,
+  "profiles": [
+   {
+    "name": "Abakus n",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang",
+     "niem"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123113"
+   },
+   {
+    "name": "Abakus h",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang",
+     "hisz"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123114"
+   },
+   {
+    "name": "Columbus",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang",
+     "hisz"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123115"
+   },
+   {
+    "name": "Lex n",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang",
+     "niem"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123116"
+   },
+   {
+    "name": "Lex h",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang",
+     "hisz"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123119"
+   },
+   {
+    "name": "Medicus h",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123120"
+   },
+   {
+    "name": "Medicus n",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123121"
+   },
+   {
+    "name": "Sigma n",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "chem",
+     "ang",
+     "niem"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123122"
+   },
+   {
+    "name": "Sigma h",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "chem",
+     "ang",
+     "hisz"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123123"
+   },
+   {
+    "name": "Galia",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "fr"
+    ],
+    "extendedChoice": [],
+    "bilingual": "fr",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "fr",
+     "ang"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123124"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Klasa Galia: PCSS w polu „Przedmioty rozszerzone” podaje biologię i chemię, opis tej samej strony dodaje język francuski i nazywa ją klasą dwujęzyczną z francuskim; wpisano fr jako rozszerzenie. Sprawdzian predyspozycji językowych. Progów 2025/2026 nie znaleziono."
+  ],
+  "checkedUrls": [
+   "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Info/102493",
+   "https://www.marcinek.poznan.pl",
+   "https://www.marcinek.poznan.pl/pl_PL/rekrutacja/rekrutacja-2025-2026.html"
+  ]
+ },
+ {
+  "rspo": 29624,
+  "shortName": "V LO",
+  "url": null,
+  "profiles": [
+   {
+    "name": "1a medyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123264"
+   },
+   {
+    "name": "1b humanistyczno - społeczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "pol",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "wos"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123265"
+   },
+   {
+    "name": "1c biologiczno - chemiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123266"
+   },
+   {
+    "name": "1d dziennikarsko - prawna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "pol",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "wos"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123267"
+   },
+   {
+    "name": "1e politechniczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz",
+     "inf"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "inf"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123268"
+   },
+   {
+    "name": "1f inżynieryjna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "inf",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "inf"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123272"
+   },
+   {
+    "name": "1g turystyczno - ekonomiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "ros"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123277"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progów rekrutacji 2025 i 2026 na stronie szkoły nie znaleziono."
+  ],
+  "checkedUrls": [
+   "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Info/102497",
+   "https://lo5.poznan.pl/",
+   "https://lo5.poznan.pl/rekrutacja-2026-2027/"
+  ]
+ },
+ {
+  "rspo": 31841,
+  "shortName": "IV LO",
+  "url": null,
+  "profiles": [
+   {
+    "name": "1 A - Akademicki - Ekonomiczny",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "wos",
+     "geo"
+    ],
+    "places": null,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 166.35,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://go.lo4.poznan.pl/strona/wp-content/uploads/2026/09/Wyniki-rekrutacji.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123067"
+   },
+   {
+    "name": "1 B1 - Medyczny",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": null,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 171.35,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://go.lo4.poznan.pl/strona/wp-content/uploads/2026/09/Wyniki-rekrutacji.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123069"
+   },
+   {
+    "name": "1 B2 - Medyczny",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": null,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 167.05,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://go.lo4.poznan.pl/strona/wp-content/uploads/2026/09/Wyniki-rekrutacji.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123070"
+   },
+   {
+    "name": "1 D1 - Informatyczny",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf",
+     "mat",
+     "fiz"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "fiz"
+    ],
+    "places": null,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 162.0,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://go.lo4.poznan.pl/strona/wp-content/uploads/2026/09/Wyniki-rekrutacji.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123071"
+   },
+   {
+    "name": "1 D2 - Informatyczny",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "inf",
+     "mat",
+     "fiz"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "inf",
+     "fiz"
+    ],
+    "places": null,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 160.0,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://go.lo4.poznan.pl/strona/wp-content/uploads/2026/09/Wyniki-rekrutacji.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123072"
+   },
+   {
+    "name": "1 F1 - Akademicki - Dziennikarski",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "wos"
+    ],
+    "places": null,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 158.75,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://go.lo4.poznan.pl/strona/wp-content/uploads/2026/09/Wyniki-rekrutacji.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123073"
+   },
+   {
+    "name": "1 F2 - Akademicki - Dziennikarski",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "pol"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "wos"
+    ],
+    "places": null,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 154.9,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://go.lo4.poznan.pl/strona/wp-content/uploads/2026/09/Wyniki-rekrutacji.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123074"
+   },
+   {
+    "name": "1 G1 - Psychologiczno - Prawniczy",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "wos"
+    ],
+    "places": null,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 162.9,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://go.lo4.poznan.pl/strona/wp-content/uploads/2026/09/Wyniki-rekrutacji.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123075"
+   },
+   {
+    "name": "1 G2 - Psychologiczno - Prawniczy",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "wos"
+    ],
+    "places": null,
+    "thresholds": [
+     {
+      "year": 2026,
+      "min": 156.5,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://go.lo4.poznan.pl/strona/wp-content/uploads/2026/09/Wyniki-rekrutacji.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123094"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progi 2026 z PDF szkoły „Wyniki rekrutacji na rok szkolny 2026/27” (kolumna „oddział i język – punktacja minimalna”). W układzie PDF wiersz z liczbami dla B1, D1 i G1 stoi nad etykietą grupy; przypisanie potwierdza minimum całego oddziału równe wartości drugiej grupy. Progów z 2025 nie znaleziono."
+  ],
+  "checkedUrls": [
+   "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Info/102496",
+   "https://go.lo4.poznan.pl/strona/kategorie/rekrutacja-2026-27/",
+   "https://go.lo4.poznan.pl/strona/wp-content/uploads/2026/09/Wyniki-rekrutacji.pdf"
+  ]
+ },
+ {
+  "rspo": 29670,
+  "shortName": "IX LO",
+  "url": null,
+  "profiles": [
+   {
+    "name": "1A prozdrowotna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "bio"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123107"
+   },
+   {
+    "name": "1B inżynieryjna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123108"
+   },
+   {
+    "name": "1C biznesowa",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem",
+     "wlo"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123109"
+   },
+   {
+    "name": "1D1 europejska",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "niem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "niem",
+     "ang"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123110"
+   },
+   {
+    "name": "1D2 europejska",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "hisz"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "hisz",
+     "ang"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123111"
+   },
+   {
+    "name": "1E prawnicza",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123112"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progów rekrutacji 2025 i 2026 na stronie szkoły nie znaleziono."
+  ],
+  "checkedUrls": [
+   "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Info/102501",
+   "https://lo9.poznan.pl/rekrutacja-2026/"
+  ]
+ },
+ {
+  "rspo": 31832,
+  "shortName": "III LO",
+  "url": null,
+  "profiles": [
+   {
+    "name": "1a-PITAGORAS-AKAEDMICKA",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang",
+     "niem"
+    ],
+    "places": null,
+    "thresholds": [
+     {
+      "year": 2025,
+      "min": 165.4,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://lo3.home.pl/rekrutacja/progi.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123293"
+   },
+   {
+    "name": "1b-VESPUCCI-AKADEMICKA",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang",
+     "hisz"
+    ],
+    "places": null,
+    "thresholds": [
+     {
+      "year": 2025,
+      "min": 172.55,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://lo3.home.pl/rekrutacja/progi.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123294"
+   },
+   {
+    "name": "1c-LINUX-AKADEMICKA",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz",
+     "inf"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang",
+     "niem"
+    ],
+    "places": null,
+    "thresholds": [
+     {
+      "year": 2025,
+      "min": 163.5,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://lo3.home.pl/rekrutacja/progi.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123295"
+   },
+   {
+    "name": "1d-DA VINCI-AKADEMICKA",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang",
+     "hist"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang",
+     "hisz"
+    ],
+    "places": null,
+    "thresholds": [
+     {
+      "year": 2025,
+      "min": 166.25,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://lo3.home.pl/rekrutacja/progi.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123296"
+   },
+   {
+    "name": "1e-LINNEUSZ-AKADEMICKA",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [
+     {
+      "year": 2025,
+      "min": 172.9,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://lo3.home.pl/rekrutacja/progi.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123297"
+   },
+   {
+    "name": "1F-ARCHIMEDES-AKADEMICKA",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "chem",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "chem",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [
+     {
+      "year": 2025,
+      "min": 165.0,
+      "scale": 200,
+      "kind": null,
+      "sourceUrl": "https://lo3.home.pl/rekrutacja/progi.pdf"
+     }
+    ],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123298"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Plik szkoły progi.pdf podaje „dolne progi punktowe” tylko do 2025/2026 (rekrutacja 2025); progów z rekrutacji 2026 szkoła nie opublikowała. Nazwy i profile klas 2025 są takie same jak w ofercie 2026/27, więc progi 2025 wpisano. Klasa „1 Avicenna” (bio-chem) z lat wcześniejszych nie występuje w 2026."
+  ],
+  "checkedUrls": [
+   "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Info/102495",
+   "https://lo3.edu.pl",
+   "https://lo3.home.pl/rekrutacja/progi.pdf"
+  ]
+ },
+ {
+  "rspo": 86171,
+  "shortName": "VI LO",
+  "url": null,
+  "profiles": [
+   {
+    "name": "1A Humanistyczna 2026-2027",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "wlo"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "wos"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/122583"
+   },
+   {
+    "name": "1B Matematyczno-informatyczna 2026-2027",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "fiz",
+     "inf"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "inf"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/122584"
+   },
+   {
+    "name": "1C Matematyczno-geograficzna 2026-2027",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/122585"
+   },
+   {
+    "name": "1D Matematyczno-geograficzna 2026-2027",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/122586"
+   },
+   {
+    "name": "1E Biologiczno-chemiczna 2026-2027",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/122587"
+   },
+   {
+    "name": "1F Biologiczno-chemiczna 2026-2027",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/122588"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Strona rekrutacji odsyła do www.dopaderka.pl, która jest aplikacją JS bez treści w HTML; progów nie znaleziono."
+  ],
+  "checkedUrls": [
+   "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Info/102498",
+   "https://www.paderek.poznan.pl/pl/rekrutacja-2026-2027",
+   "https://www.dopaderka.pl/"
+  ]
+ },
+ {
+  "rspo": 86172,
+  "shortName": "VII LO",
+  "url": null,
+  "profiles": [
+   {
+    "name": "A-MEDIALNY 26/27",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "ros",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123125"
+   },
+   {
+    "name": "B-BIOLOGICZNO-CHEMICZNY 26/27",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "ros",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123126"
+   },
+   {
+    "name": "C-EKONOMICZNY 26/27",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "mat",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "ros",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123127"
+   },
+   {
+    "name": "D-POLITECHNICZNY 26/27",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "ros",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123128"
+   },
+   {
+    "name": "0-WSTĘPNY 26/27",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "hist",
+     "geo",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": "niem",
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "niem",
+     "ang"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "niem",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123129"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Klasa „0-WSTĘPNY” to klasa wstępna (rok intensywnego niemieckiego, potem 4 lata dwujęzyczne); PCSS podaje rozszerzenia historia, geografia, matematyka. Kandydaci zdają sprawdzian predyspozycji językowych (próg 40%). Progów 2025/2026 nie znaleziono."
+  ],
+  "checkedUrls": [
+   "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Info/102499",
+   "https://www.dabrowka.poznan.pl/index.php/liceum/rekrutacja",
+   "https://www.dabrowka.poznan.pl/images/2025_2026/Informacja2026.pdf"
+  ]
+ },
+ {
+  "rspo": 29625,
+  "shortName": "XXV LO",
+  "url": null,
+  "profiles": [
+   {
+    "name": "1A - teatralno-dziennikarska",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/122476"
+   },
+   {
+    "name": "1B - biologiczno-chemiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/122477"
+   },
+   {
+    "name": "1C - psychologiczno-językowa",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/122478"
+   },
+   {
+    "name": "1D - lingwistyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/122479"
+   },
+   {
+    "name": "1E - politologiczno-językowa",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "wos",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "wos",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/122786"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Strona rekrutacji: „Progi punktowe ... będą znane DOPIERO PO OGŁOSZENIU LISTY ZAKWALIFIKOWANYCH”; opublikowanych progów 2025/2026 nie znaleziono."
+  ],
+  "checkedUrls": [
+   "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Info/102507",
+   "https://www.lo25.pl/rekrutacja"
+  ]
+ },
+ {
+  "rspo": 79391,
+  "shortName": "XX LO",
+  "url": "https://lo20.poznan.pl",
+  "profiles": [
+   {
+    "name": "1A - teatralna z tańcem współczesnym",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "wos"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123317"
+   },
+   {
+    "name": "1B - kryminalistyczno - resocjalizacyjna z rozszerzeniem językowym",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "wos"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123318"
+   },
+   {
+    "name": "1C - psychologiczno - językowa",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "geo",
+     "bio"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "geo"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123319"
+   },
+   {
+    "name": "1D językowa z rozszerzonym językiem hiszpańskim i językiem angielskim",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "hisz"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "hisz",
+     "geo"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123353"
+   },
+   {
+    "name": "1E - sportowa (koszykówka / piłka nożna)",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "geo"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123320"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Adres z RSPO (xxlopoznan.edu.pl) to zaparkowana domena; PCSS Nabór podaje http://www.xxlopoznan.szkolnastrona.pl/, który nie odpowiada. Działająca strona szkoły: https://lo20.poznan.pl. Progów 2025/2026 na niej nie znaleziono."
+  ],
+  "checkedUrls": [
+   "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Info/64394",
+   "https://xxlopoznan.edu.pl",
+   "http://www.xxlopoznan.szkolnastrona.pl/",
+   "https://lo20.poznan.pl/",
+   "https://lo20.poznan.pl/rekrutacja/",
+   "https://lo20.poznan.pl/wp-content/uploads/2026/03/Ulotka-XXLO.pdf"
+  ]
+ },
+ {
+  "rspo": 29142,
+  "shortName": "XIV LO",
+  "url": null,
+  "profiles": [
+   {
+    "name": "1A artystyczno-psychologiczna z arteterapią ARTE",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hsz"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "hist"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123307"
+   },
+   {
+    "name": "1B1 mat - geo ekonomiczna BIZNES",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123309"
+   },
+   {
+    "name": "1B2 mat-geo ekonomiczna BIZNES",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "chiński"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123314"
+   },
+   {
+    "name": "1C biologiczno-chemiczna MEDYK",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "chem",
+     "bio"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "chem",
+     "bio"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123310"
+   },
+   {
+    "name": "1D1 prawniczo-językowa PRAWNIK",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "wos",
+     "hist"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123311"
+   },
+   {
+    "name": "1D2 prawniczo-językowa PRAWNIK",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang",
+     "wos"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "wos",
+     "hist"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123315"
+   },
+   {
+    "name": "1E psychologiczna SELF-CARE",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "bio"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "bio"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123312"
+   },
+   {
+    "name": "1F1 lingwistyczna angielsko-hiszpańska POLIGLOTA",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang",
+     "hisz"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123313"
+   },
+   {
+    "name": "1F2 lingwistyczna angielsko-niemiecka POLIGLOTA",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang",
+     "niem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123316"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Progów rekrutacji 2025 i 2026 na stronie szkoły nie znaleziono."
+  ],
+  "checkedUrls": [
+   "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Info/102504",
+   "https://lo14.poznan.pl/",
+   "https://lo14.poznan.pl/regulamin-rekrutacji/"
+  ]
+ },
+ {
+  "rspo": 43580,
+  "shortName": "LO św. Marii Magdaleny",
+  "url": null,
+  "profiles": [
+   {
+    "name": "1A - klasa humanistyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "hist",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "hist",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123196"
+   },
+   {
+    "name": "1C - klasa matematyczno-biologiczno-chemiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang",
+     "niem"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123197"
+   },
+   {
+    "name": "1D - klasa biologiczno-chemiczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123198"
+   },
+   {
+    "name": "1F - klasa matematyczno-fizyczna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "fiz",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "fiz",
+     "ang",
+     "niem"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123199"
+   },
+   {
+    "name": "1G - klasa matematyczno-geograficzna",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "geo",
+     "mat",
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "ang"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123200"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Strona „Progi punktowe do klas” (https://www.marynka.edu.pl/progi-punktowe, opublikowana 09-03-2025) ma grafikę progi2025.png: klasy proponowane w roku 2025-2026 i „progi punktowe w poprzednim roku” (czyli rekrutacja 2024): 1A hum. 166,80; 1C mat.-biol.-chem. 175,45; 1F mat-fiz. 164,00; 1D biol-chem. 170,45 i 1I mat-inf. 165,80 z naboru 2023. To nie jest rok 2025 ani 2026, więc nie wpisano. Źródło: https://www.marynka.edu.pl/images/images/podstrony/rekrutacja/progi2025.png"
+  ],
+  "checkedUrls": [
+   "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Info/64373",
+   "https://www.marynka.edu.pl",
+   "https://www.marynka.edu.pl/progi-punktowe",
+   "https://www.marynka.edu.pl/images/images/podstrony/rekrutacja/progi2025.png"
+  ]
+ },
+ {
+  "rspo": 82414,
+  "shortName": "II LO",
+  "url": null,
+  "profiles": [
+   {
+    "name": "1A1 + 1A2 pre-IB",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "ang"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr",
+     "niem",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "chem"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123210"
+   },
+   {
+    "name": "1B1 PRAWNICZA",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang",
+     "hist"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "fr"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "hist"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123205"
+   },
+   {
+    "name": "1B2 PRAWNICZA",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "pol",
+     "ang",
+     "hist"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "ang",
+     "hist"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123206"
+   },
+   {
+    "name": "1C1 POLITECHNICZNA AI",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "chem",
+     "mat"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "chem",
+     "inf"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123207"
+   },
+   {
+    "name": "1C2 EKONOMICZNA AI",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "mat",
+     "geo"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "hisz"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "geo",
+     "inf"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123208"
+   },
+   {
+    "name": "1D MEDYCZNA",
+    "schoolYear": "2026/2027",
+    "extended": [
+     "bio",
+     "chem"
+    ],
+    "extendedChoice": [],
+    "bilingual": null,
+    "extendedOther": [],
+    "profession": null,
+    "qualifications": [],
+    "qualificationsSource": null,
+    "languages": [
+     "ang",
+     "niem"
+    ],
+    "scoredSubjects": [
+     "pol",
+     "mat",
+     "bio",
+     "chem"
+    ],
+    "places": null,
+    "thresholds": [],
+    "sourceUrl": "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Informator/SchoolBranchDetails/123209"
+   }
+  ],
+  "admission": null,
+  "noOffer2026": false,
+  "doubts": [
+   "Klasa 1A1+1A2 pre-IB: zajęcia częściowo po angielsku, ale PCSS nie nazywa jej dwujęzyczną, więc bilingual = null. Progów 2025/2026 na stronie szkoły nie znaleziono."
+  ],
+  "checkedUrls": [
+   "https://nabor.pcss.pl/poznan/szkolaponadpodstawowa/Info/102494",
+   "https://lo2.poznan.pl/rekrutacja/",
+   "https://lo2.poznan.pl/wp-content/uploads/2026/03/ULOTKA-2026-wersja-ostateczna.pdf"
+  ]
+ }
+]
