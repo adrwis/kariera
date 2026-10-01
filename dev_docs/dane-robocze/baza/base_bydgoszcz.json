@@ -2902,6 +2902,88 @@
   ]
  },
  {
+  "rspo": 14226,
+  "type": "technikum",
+  "name": "TECHNIKUM DRZEWNE NR 5 IM. STANISŁAWA STASZICA W BYDGOSZCZY",
+  "shortName": "Technikum nr 5",
+  "city": "Bydgoszcz",
+  "district": null,
+  "address": "ul. Toruńska 44, 85-023 Bydgoszcz",
+  "geo": {
+   "lat": 53.11885,
+   "lng": 18.01407
+  },
+  "url": "https://www.zsd.bydgoszcz.pl",
+  "public": true,
+  "students": 132,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik technologii drewna",
+   "Technik hodowca koni"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 66.7,
+   "examinees": 15,
+   "certificates": 10,
+   "extended": {
+    "bio": {
+     "n": 3,
+     "mean": null
+    },
+    "fiz": {
+     "n": 2,
+     "mean": null
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 6,
+     "mean": 69.2
+    },
+    "pol": {
+     "n": 2,
+     "mean": null
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 2,
+     "mean": null
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/14226",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 19101,
   "type": "technikum",
   "name": "TECHNIKUM EKONOMICZNE NR 6 W BYDGOSZCZY",
@@ -2981,88 +3063,6 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/19101",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 14226,
-  "type": "technikum",
-  "name": "TECHNIKUM DRZEWNE NR 5 IM. STANISŁAWA STASZICA W BYDGOSZCZY",
-  "shortName": "Technikum nr 5",
-  "city": "Bydgoszcz",
-  "district": null,
-  "address": "ul. Toruńska 44, 85-023 Bydgoszcz",
-  "geo": {
-   "lat": 53.11885,
-   "lng": 18.01407
-  },
-  "url": "https://www.zsd.bydgoszcz.pl",
-  "public": true,
-  "students": 132,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "wielozawodowy"
-  ],
-  "professionsRspo": [
-   "Technik technologii drewna",
-   "Technik hodowca koni"
-  ],
-  "matura": {
-   "year": 2026,
-   "passRate": 66.7,
-   "examinees": 15,
-   "certificates": 10,
-   "extended": {
-    "bio": {
-     "n": 3,
-     "mean": null
-    },
-    "fiz": {
-     "n": 2,
-     "mean": null
-    },
-    "hist": {
-     "n": 1,
-     "mean": null
-    },
-    "ang": {
-     "n": 6,
-     "mean": 69.2
-    },
-    "pol": {
-     "n": 2,
-     "mean": null
-    },
-    "ros": {
-     "n": 1,
-     "mean": null
-    },
-    "mat": {
-     "n": 2,
-     "mean": null
-    },
-    "wos": {
-     "n": 1,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/14226",
     "retrieved": "2026-10-01"
    },
    {

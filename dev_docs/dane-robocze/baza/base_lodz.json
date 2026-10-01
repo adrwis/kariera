@@ -1,67 +1,5 @@
 [
  {
-  "rspo": 17801,
-  "type": "liceum",
-  "name": "AKADEMIA-LICEUM OGÓLNOKSZTAŁCĄCE DLA MŁODZIEŻY W ŁODZI",
-  "shortName": null,
-  "city": "Łódź",
-  "district": "Śródmieście",
-  "address": "ul. Jana Kilińskiego 21, 90-205 Łódź",
-  "geo": {
-   "lat": 51.77611,
-   "lng": 19.46202
-  },
-  "url": null,
-  "public": false,
-  "students": 193,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 10,
-   "examinees": 10,
-   "certificates": 1,
-   "extended": {
-    "bio": {
-     "n": 1,
-     "mean": null
-    },
-    "ang": {
-     "n": 10,
-     "mean": 39.9
-    },
-    "pol": {
-     "n": 1,
-     "mean": null
-    },
-    "mat": {
-     "n": 1,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/17801",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 277640,
   "type": "liceum",
   "name": "\"ALELICEUM\" LICEUM OGÓLNOKSZTAŁCĄCE W ŁODZI",
@@ -145,6 +83,68 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/277640",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 17801,
+  "type": "liceum",
+  "name": "AKADEMIA-LICEUM OGÓLNOKSZTAŁCĄCE DLA MŁODZIEŻY W ŁODZI",
+  "shortName": null,
+  "city": "Łódź",
+  "district": "Śródmieście",
+  "address": "ul. Jana Kilińskiego 21, 90-205 Łódź",
+  "geo": {
+   "lat": 51.77611,
+   "lng": 19.46202
+  },
+  "url": null,
+  "public": false,
+  "students": 193,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 10,
+   "examinees": 10,
+   "certificates": 1,
+   "extended": {
+    "bio": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 10,
+     "mean": 39.9
+    },
+    "pol": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/17801",
     "retrieved": "2026-10-01"
    },
    {
@@ -3329,103 +3329,6 @@
   ]
  },
  {
-  "rspo": 27378,
-  "type": "liceum",
-  "name": "XLIII LICEUM OGÓLNOKSZTAŁCĄCE IM. JULIANA TUWIMA",
-  "shortName": "XLIII LO",
-  "city": "Łódź",
-  "district": "Górna",
-  "address": "ul. Królewska 13/15, 93-319 Łódź",
-  "geo": {
-   "lat": 51.71488,
-   "lng": 19.48244
-  },
-  "url": "https://www.lo43lodz.wikom.pl",
-  "public": true,
-  "students": 355,
-  "languages": [
-   "ang",
-   "hisz",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "integracyjny",
-   "sportowy"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 52.9,
-   "examinees": 121,
-   "certificates": 64,
-   "extended": {
-    "bio": {
-     "n": 21,
-     "mean": 20.4
-    },
-    "chem": {
-     "n": 5,
-     "mean": 9
-    },
-    "fiz": {
-     "n": 1,
-     "mean": null
-    },
-    "geo": {
-     "n": 30,
-     "mean": 25.1
-    },
-    "hist": {
-     "n": 4,
-     "mean": null
-    },
-    "hsz": {
-     "n": 1,
-     "mean": null
-    },
-    "ang": {
-     "n": 76,
-     "mean": 53.7
-    },
-    "ang_dwj": {
-     "n": 2,
-     "mean": null
-    },
-    "pol": {
-     "n": 25,
-     "mean": 13
-    },
-    "ros": {
-     "n": 15,
-     "mean": 80.8
-    },
-    "mat": {
-     "n": 9,
-     "mean": 6.4
-    },
-    "wos": {
-     "n": 7,
-     "mean": 13.4
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/27378",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 27325,
   "type": "liceum",
   "name": "XLII LICEUM OGÓLNOKSZTAŁCĄCE IM. IRENY SENDLEROWEJ",
@@ -3542,6 +3445,205 @@
   ]
  },
  {
+  "rspo": 27378,
+  "type": "liceum",
+  "name": "XLIII LICEUM OGÓLNOKSZTAŁCĄCE IM. JULIANA TUWIMA",
+  "shortName": "XLIII LO",
+  "city": "Łódź",
+  "district": "Górna",
+  "address": "ul. Królewska 13/15, 93-319 Łódź",
+  "geo": {
+   "lat": 51.71488,
+   "lng": 19.48244
+  },
+  "url": "https://www.lo43lodz.wikom.pl",
+  "public": true,
+  "students": 355,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "integracyjny",
+   "sportowy"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 52.9,
+   "examinees": 121,
+   "certificates": 64,
+   "extended": {
+    "bio": {
+     "n": 21,
+     "mean": 20.4
+    },
+    "chem": {
+     "n": 5,
+     "mean": 9
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 30,
+     "mean": 25.1
+    },
+    "hist": {
+     "n": 4,
+     "mean": null
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 76,
+     "mean": 53.7
+    },
+    "ang_dwj": {
+     "n": 2,
+     "mean": null
+    },
+    "pol": {
+     "n": 25,
+     "mean": 13
+    },
+    "ros": {
+     "n": 15,
+     "mean": 80.8
+    },
+    "mat": {
+     "n": 9,
+     "mean": 6.4
+    },
+    "wos": {
+     "n": 7,
+     "mean": 13.4
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/27378",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 25629,
+  "type": "liceum",
+  "name": "XLIV LICEUM OGÓLNOKSZTAŁCĄCE",
+  "shortName": "XLIV LO",
+  "city": "Łódź",
+  "district": "Widzew",
+  "address": "ul. Wacława 22/24, 93-118 Łódź",
+  "geo": {
+   "lat": 51.74955,
+   "lng": 19.49468
+  },
+  "url": null,
+  "public": true,
+  "students": 343,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "terapeutyczny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 48.5,
+   "examinees": 68,
+   "certificates": 33,
+   "extended": {
+    "bio": {
+     "n": 12,
+     "mean": 17.6
+    },
+    "chem": {
+     "n": 2,
+     "mean": null
+    },
+    "fil": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 15,
+     "mean": 28.7
+    },
+    "hist": {
+     "n": 3,
+     "mean": null
+    },
+    "hmuz": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 53,
+     "mean": 64.3
+    },
+    "ang_dwj": {
+     "n": 5,
+     "mean": 72
+    },
+    "niem": {
+     "n": 3,
+     "mean": null
+    },
+    "pol": {
+     "n": 23,
+     "mean": 40.4
+    },
+    "ros_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 7,
+     "mean": 20
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/25629",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 27598,
   "type": "liceum",
   "name": "XLVII LICEUM OGÓLNOKSZTAŁCĄCE IM. STANISŁAWA STASZICA",
@@ -3645,108 +3747,6 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/27598",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 25629,
-  "type": "liceum",
-  "name": "XLIV LICEUM OGÓLNOKSZTAŁCĄCE",
-  "shortName": "XLIV LO",
-  "city": "Łódź",
-  "district": "Widzew",
-  "address": "ul. Wacława 22/24, 93-118 Łódź",
-  "geo": {
-   "lat": 51.74955,
-   "lng": 19.49468
-  },
-  "url": null,
-  "public": true,
-  "students": 343,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "terapeutyczny"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 48.5,
-   "examinees": 68,
-   "certificates": 33,
-   "extended": {
-    "bio": {
-     "n": 12,
-     "mean": 17.6
-    },
-    "chem": {
-     "n": 2,
-     "mean": null
-    },
-    "fil": {
-     "n": 2,
-     "mean": null
-    },
-    "fiz": {
-     "n": 2,
-     "mean": null
-    },
-    "geo": {
-     "n": 15,
-     "mean": 28.7
-    },
-    "hist": {
-     "n": 3,
-     "mean": null
-    },
-    "hmuz": {
-     "n": 1,
-     "mean": null
-    },
-    "ang": {
-     "n": 53,
-     "mean": 64.3
-    },
-    "ang_dwj": {
-     "n": 5,
-     "mean": 72
-    },
-    "niem": {
-     "n": 3,
-     "mean": null
-    },
-    "pol": {
-     "n": 23,
-     "mean": 40.4
-    },
-    "ros_dwj": {
-     "n": 1,
-     "mean": null
-    },
-    "mat": {
-     "n": 7,
-     "mean": 20
-    },
-    "wos": {
-     "n": 3,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/25629",
     "retrieved": "2026-10-01"
    },
    {
@@ -4908,6 +4908,111 @@
   ]
  },
  {
+  "rspo": 27323,
+  "type": "liceum",
+  "name": "XXXII LICEUM OGÓLNOKSZTAŁCĄCE IM. HALINY POŚWIATOWSKIEJ W ZESPOLE SZKÓŁ OGÓLNOKSZTAŁCĄCYCH NR 1",
+  "shortName": "XXXII LO",
+  "city": "Łódź",
+  "district": "Widzew",
+  "address": "ul. Piotra Czajkowskiego 14, 92-511 Łódź",
+  "geo": {
+   "lat": 51.75497,
+   "lng": 19.54074
+  },
+  "url": null,
+  "public": true,
+  "students": 662,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 98.7,
+   "examinees": 159,
+   "certificates": 157,
+   "extended": {
+    "bio": {
+     "n": 47,
+     "mean": 35.2
+    },
+    "chem": {
+     "n": 16,
+     "mean": 40.2
+    },
+    "fiz": {
+     "n": 12,
+     "mean": 27.8
+    },
+    "geo": {
+     "n": 51,
+     "mean": 46.9
+    },
+    "hist": {
+     "n": 16,
+     "mean": 48.1
+    },
+    "hsz": {
+     "n": 2,
+     "mean": null
+    },
+    "inf": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 127,
+     "mean": 70.6
+    },
+    "ang_dwj": {
+     "n": 7,
+     "mean": 84.1
+    },
+    "hisz_dwj": {
+     "n": 18,
+     "mean": 58.6
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 25,
+     "mean": 44.2
+    },
+    "mat": {
+     "n": 72,
+     "mean": 33.6
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/27323",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 25443,
   "type": "liceum",
   "name": "XXXIII LICEUM OGÓLNOKSZTAŁCĄCE IM. ARMII KRAJOWEJ",
@@ -5006,111 +5111,6 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/25443",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 27323,
-  "type": "liceum",
-  "name": "XXXII LICEUM OGÓLNOKSZTAŁCĄCE IM. HALINY POŚWIATOWSKIEJ W ZESPOLE SZKÓŁ OGÓLNOKSZTAŁCĄCYCH NR 1",
-  "shortName": "XXXII LO",
-  "city": "Łódź",
-  "district": "Widzew",
-  "address": "ul. Piotra Czajkowskiego 14, 92-511 Łódź",
-  "geo": {
-   "lat": 51.75497,
-   "lng": 19.54074
-  },
-  "url": null,
-  "public": true,
-  "students": 662,
-  "languages": [
-   "ang",
-   "fr",
-   "hisz",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "dwujęzyczny w szkole podstawowej, liceum i technikum"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 98.7,
-   "examinees": 159,
-   "certificates": 157,
-   "extended": {
-    "bio": {
-     "n": 47,
-     "mean": 35.2
-    },
-    "chem": {
-     "n": 16,
-     "mean": 40.2
-    },
-    "fiz": {
-     "n": 12,
-     "mean": 27.8
-    },
-    "geo": {
-     "n": 51,
-     "mean": 46.9
-    },
-    "hist": {
-     "n": 16,
-     "mean": 48.1
-    },
-    "hsz": {
-     "n": 2,
-     "mean": null
-    },
-    "inf": {
-     "n": 1,
-     "mean": null
-    },
-    "ang": {
-     "n": 127,
-     "mean": 70.6
-    },
-    "ang_dwj": {
-     "n": 7,
-     "mean": 84.1
-    },
-    "hisz_dwj": {
-     "n": 18,
-     "mean": 58.6
-    },
-    "niem": {
-     "n": 1,
-     "mean": null
-    },
-    "pol": {
-     "n": 25,
-     "mean": 44.2
-    },
-    "mat": {
-     "n": 72,
-     "mean": 33.6
-    },
-    "wos": {
-     "n": 4,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/27323",
     "retrieved": "2026-10-01"
    },
    {
@@ -6656,69 +6656,6 @@
   ]
  },
  {
-  "rspo": 47289,
-  "type": "technikum",
-  "name": "TECHNIKUM NR 22 IM. GEN. STANISŁAWA MACZKA W ZESPOLE SZKÓŁ SAMOCHODOWYCH I MECHATRONICZNYCH",
-  "shortName": "Technikum nr 22",
-  "city": "Łódź",
-  "district": "Górna",
-  "address": "ul. Stanisława Przybyszewskiego 73/75, 93-126 Łódź",
-  "geo": {
-   "lat": 51.74453,
-   "lng": 19.47512
-  },
-  "url": null,
-  "public": true,
-  "students": 288,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "wielozawodowy"
-  ],
-  "professionsRspo": [
-   "Technik mechatronik",
-   "Technik pojazdów samochodowych",
-   "Technik transportu drogowego"
-  ],
-  "matura": {
-   "year": 2026,
-   "passRate": 52.6,
-   "examinees": 19,
-   "certificates": 10,
-   "extended": {
-    "ang": {
-     "n": 13,
-     "mean": 39.3
-    },
-    "mat": {
-     "n": 2,
-     "mean": null
-    },
-    "wos": {
-     "n": 1,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/47289",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 47279,
   "type": "technikum",
   "name": "TECHNIKUM NR 21 W ZESPOLE SZKÓŁ RZEMIOSŁA IM. JANA KILIŃSKIEGO",
@@ -6802,6 +6739,69 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/47279",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 47289,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 22 IM. GEN. STANISŁAWA MACZKA W ZESPOLE SZKÓŁ SAMOCHODOWYCH I MECHATRONICZNYCH",
+  "shortName": "Technikum nr 22",
+  "city": "Łódź",
+  "district": "Górna",
+  "address": "ul. Stanisława Przybyszewskiego 73/75, 93-126 Łódź",
+  "geo": {
+   "lat": 51.74453,
+   "lng": 19.47512
+  },
+  "url": null,
+  "public": true,
+  "students": 288,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik mechatronik",
+   "Technik pojazdów samochodowych",
+   "Technik transportu drogowego"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 52.6,
+   "examinees": 19,
+   "certificates": 10,
+   "extended": {
+    "ang": {
+     "n": 13,
+     "mean": 39.3
+    },
+    "mat": {
+     "n": 2,
+     "mean": null
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/47289",
     "retrieved": "2026-10-01"
    },
    {
@@ -7485,43 +7485,6 @@
   ]
  },
  {
-  "rspo": 111319,
-  "type": "technikum",
-  "name": "TECHNIKUM SPECJALNE NR 24",
-  "shortName": "Technikum nr 24",
-  "city": "Łódź",
-  "district": "Górna",
-  "address": "ul. Siedlecka 7/21, 93-138 Łódź",
-  "geo": {
-   "lat": 51.74191,
-   "lng": 19.48449
-  },
-  "url": "https://sosw1szkoly.lodz.pl",
-  "public": true,
-  "students": 45,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "specjalny"
-  ],
-  "professionsRspo": [
-   "Technik informatyk",
-   "Technik żywienia i usług gastronomicznych",
-   "Technik grafiki i poligrafii cyfrowej"
-  ],
-  "matura": null,
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/111319",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 41192,
   "type": "technikum",
   "name": "TECHNIKUM SPECJALNE NR 23",
@@ -7555,6 +7518,43 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/41192",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 111319,
+  "type": "technikum",
+  "name": "TECHNIKUM SPECJALNE NR 24",
+  "shortName": "Technikum nr 24",
+  "city": "Łódź",
+  "district": "Górna",
+  "address": "ul. Siedlecka 7/21, 93-138 Łódź",
+  "geo": {
+   "lat": 51.74191,
+   "lng": 19.48449
+  },
+  "url": "https://sosw1szkoly.lodz.pl",
+  "public": true,
+  "students": 45,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "specjalny"
+  ],
+  "professionsRspo": [
+   "Technik informatyk",
+   "Technik żywienia i usług gastronomicznych",
+   "Technik grafiki i poligrafii cyfrowej"
+  ],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/111319",
     "retrieved": "2026-10-01"
    }
   ]

@@ -1,110 +1,5 @@
 [
  {
-  "rspo": 19202,
-  "type": "liceum",
-  "name": "I LICEUM OGÓLNOKSZTAŁCĄCE IM. KSIĄŻĄT POMORSKICH W RUMI",
-  "shortName": "I LO",
-  "city": "Rumia",
-  "district": null,
-  "address": "ul. Starowiejska 4, 84-230 Rumia",
-  "geo": {
-   "lat": 54.56881,
-   "lng": 18.39165
-  },
-  "url": "https://www.lo1.rumia.pl",
-  "public": true,
-  "students": 705,
-  "languages": [
-   "ang",
-   "hisz",
-   "niem",
-   "wlo"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "dwujęzyczny w szkole podstawowej, liceum i technikum"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 98.8,
-   "examinees": 242,
-   "certificates": 239,
-   "extended": {
-    "bio": {
-     "n": 45,
-     "mean": 42.6
-    },
-    "chem": {
-     "n": 22,
-     "mean": 36
-    },
-    "fil": {
-     "n": 1,
-     "mean": null
-    },
-    "fiz": {
-     "n": 27,
-     "mean": 41.9
-    },
-    "geo": {
-     "n": 52,
-     "mean": 49
-    },
-    "hist": {
-     "n": 26,
-     "mean": 50
-    },
-    "hsz": {
-     "n": 2,
-     "mean": null
-    },
-    "inf": {
-     "n": 10,
-     "mean": 52.6
-    },
-    "ang": {
-     "n": 193,
-     "mean": 79.2
-    },
-    "ang_dwj": {
-     "n": 31,
-     "mean": 79.7
-    },
-    "hisz": {
-     "n": 3,
-     "mean": null
-    },
-    "pol": {
-     "n": 65,
-     "mean": 58.6
-    },
-    "mat": {
-     "n": 78,
-     "mean": 40.3
-    },
-    "wos": {
-     "n": 4,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/19202",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 23579,
   "type": "liceum",
   "name": "I LICEUM OGÓLNOKSZTAŁCĄCE IM. KRÓLA JANA III SOBIESKIEGO W WEJHEROWIE",
@@ -203,6 +98,111 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/23579",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 19202,
+  "type": "liceum",
+  "name": "I LICEUM OGÓLNOKSZTAŁCĄCE IM. KSIĄŻĄT POMORSKICH W RUMI",
+  "shortName": "I LO",
+  "city": "Rumia",
+  "district": null,
+  "address": "ul. Starowiejska 4, 84-230 Rumia",
+  "geo": {
+   "lat": 54.56881,
+   "lng": 18.39165
+  },
+  "url": "https://www.lo1.rumia.pl",
+  "public": true,
+  "students": 705,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem",
+   "wlo"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 98.8,
+   "examinees": 242,
+   "certificates": 239,
+   "extended": {
+    "bio": {
+     "n": 45,
+     "mean": 42.6
+    },
+    "chem": {
+     "n": 22,
+     "mean": 36
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 27,
+     "mean": 41.9
+    },
+    "geo": {
+     "n": 52,
+     "mean": 49
+    },
+    "hist": {
+     "n": 26,
+     "mean": 50
+    },
+    "hsz": {
+     "n": 2,
+     "mean": null
+    },
+    "inf": {
+     "n": 10,
+     "mean": 52.6
+    },
+    "ang": {
+     "n": 193,
+     "mean": 79.2
+    },
+    "ang_dwj": {
+     "n": 31,
+     "mean": 79.7
+    },
+    "hisz": {
+     "n": 3,
+     "mean": null
+    },
+    "pol": {
+     "n": 65,
+     "mean": 58.6
+    },
+    "mat": {
+     "n": 78,
+     "mean": 40.3
+    },
+    "wos": {
+     "n": 4,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/19202",
     "retrieved": "2026-10-01"
    },
    {

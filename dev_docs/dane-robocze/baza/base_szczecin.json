@@ -1137,39 +1137,6 @@
   ]
  },
  {
-  "rspo": 486172,
-  "type": "liceum",
-  "name": "LICEUM OGÓLNOKSZTAŁCĄCE SENSE Z ODDZIAŁAMI INTEGRACYJNYMI I SPECJALNYMI",
-  "shortName": null,
-  "city": "Szczecin",
-  "district": null,
-  "address": "ul. Doktora Judyma 26, 71-466 Szczecin",
-  "geo": {
-   "lat": 53.45654,
-   "lng": 14.5286
-  },
-  "url": null,
-  "public": false,
-  "students": 3,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "integracyjny"
-  ],
-  "professionsRspo": [],
-  "matura": null,
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/486172",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 478743,
   "type": "liceum",
   "name": "LICEUM OGÓLNOKSZTAŁCĄCE SAIL INTERNATIONAL SCHOOL",
@@ -1216,6 +1183,39 @@
    {
     "name": "CKE Mapa Egzaminów, matura 2026",
     "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 486172,
+  "type": "liceum",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE SENSE Z ODDZIAŁAMI INTEGRACYJNYMI I SPECJALNYMI",
+  "shortName": null,
+  "city": "Szczecin",
+  "district": null,
+  "address": "ul. Doktora Judyma 26, 71-466 Szczecin",
+  "geo": {
+   "lat": 53.45654,
+   "lng": 14.5286
+  },
+  "url": null,
+  "public": false,
+  "students": 3,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "integracyjny"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/486172",
     "retrieved": "2026-10-01"
    }
   ]
@@ -1657,6 +1657,64 @@
   ]
  },
  {
+  "rspo": 482133,
+  "type": "liceum",
+  "name": "PRYWATNE LICEUM OGÓLNOKSZTAŁCĄCE IMIENIA ZBIGNIEWA HERBERTA W SZCZECINIE",
+  "shortName": null,
+  "city": "Szczecin",
+  "district": null,
+  "address": "ul. Klemensa Janickiego 31, 71-270 Szczecin",
+  "geo": {
+   "lat": 53.44698,
+   "lng": 14.49993
+  },
+  "url": "https://www.liceumherberta.pl",
+  "public": false,
+  "students": 110,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 88.9,
+   "examinees": 9,
+   "certificates": 8,
+   "extended": {
+    "bio": {
+     "n": 4,
+     "mean": null
+    },
+    "ang": {
+     "n": 9,
+     "mean": 70
+    },
+    "pol": {
+     "n": 2,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/482133",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 278754,
   "type": "liceum",
   "name": "PRYWATNE LICEUM OGÓLNOKSZTAŁCĄCE LEONARDO SVS",
@@ -1733,64 +1791,6 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/278754",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 482133,
-  "type": "liceum",
-  "name": "PRYWATNE LICEUM OGÓLNOKSZTAŁCĄCE IMIENIA ZBIGNIEWA HERBERTA W SZCZECINIE",
-  "shortName": null,
-  "city": "Szczecin",
-  "district": null,
-  "address": "ul. Klemensa Janickiego 31, 71-270 Szczecin",
-  "geo": {
-   "lat": 53.44698,
-   "lng": 14.49993
-  },
-  "url": "https://www.liceumherberta.pl",
-  "public": false,
-  "students": 110,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 88.9,
-   "examinees": 9,
-   "certificates": 8,
-   "extended": {
-    "bio": {
-     "n": 4,
-     "mean": null
-    },
-    "ang": {
-     "n": 9,
-     "mean": 70
-    },
-    "pol": {
-     "n": 2,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/482133",
     "retrieved": "2026-10-01"
    },
    {
@@ -2982,6 +2982,46 @@
   ]
  },
  {
+  "rspo": 481605,
+  "type": "technikum",
+  "name": "TECHNIKUM COSINUS W SZCZECINIE",
+  "shortName": null,
+  "city": "Szczecin",
+  "district": null,
+  "address": "ul. Andrzeja Antosiewicza 2, 71-642 Szczecin",
+  "geo": {
+   "lat": 53.44034,
+   "lng": 14.57646
+  },
+  "url": null,
+  "public": false,
+  "students": 164,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [
+   "Technik informatyk",
+   "Technik weterynarii",
+   "Technik logistyk",
+   "Technik usług fryzjerskich",
+   "Technik fotografii i multimediów",
+   "Technik programista"
+  ],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/481605",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 106758,
   "type": "technikum",
   "name": "TECHNIKUM DELTA",
@@ -3048,46 +3088,6 @@
    {
     "name": "CKE Mapa Egzaminów, matura 2026",
     "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 481605,
-  "type": "technikum",
-  "name": "TECHNIKUM COSINUS W SZCZECINIE",
-  "shortName": null,
-  "city": "Szczecin",
-  "district": null,
-  "address": "ul. Andrzeja Antosiewicza 2, 71-642 Szczecin",
-  "geo": {
-   "lat": 53.44034,
-   "lng": 14.57646
-  },
-  "url": null,
-  "public": false,
-  "students": 164,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny"
-  ],
-  "professionsRspo": [
-   "Technik informatyk",
-   "Technik weterynarii",
-   "Technik logistyk",
-   "Technik usług fryzjerskich",
-   "Technik fotografii i multimediów",
-   "Technik programista"
-  ],
-  "matura": null,
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/481605",
     "retrieved": "2026-10-01"
    }
   ]
@@ -3273,6 +3273,90 @@
   ]
  },
  {
+  "rspo": 11264,
+  "type": "technikum",
+  "name": "TECHNIKUM ENERGETYCZNO-TRANSPORTOWE",
+  "shortName": null,
+  "city": "Szczecin",
+  "district": null,
+  "address": "ul. Janusza Kusocińskiego 3, 70-237 Szczecin",
+  "geo": {
+   "lat": 53.42017,
+   "lng": 14.54065
+  },
+  "url": "https://www.zs4.szczecin.pl",
+  "public": true,
+  "students": 480,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik elektryk",
+   "Technik spedytor",
+   "Technik urządzeń i systemów energetyki odnawialnej",
+   "Technik automatyk"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 84,
+   "examinees": 50,
+   "certificates": 42,
+   "extended": {
+    "geo": {
+     "n": 6,
+     "mean": 47.3
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 30,
+     "mean": 64.4
+    },
+    "ang_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 24,
+     "mean": 11.8
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/11264",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 482017,
   "type": "technikum",
   "name": "TECHNIKUM EUROSPEC W SZCZECINIE",
@@ -3355,90 +3439,6 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/128100",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 11264,
-  "type": "technikum",
-  "name": "TECHNIKUM ENERGETYCZNO-TRANSPORTOWE",
-  "shortName": null,
-  "city": "Szczecin",
-  "district": null,
-  "address": "ul. Janusza Kusocińskiego 3, 70-237 Szczecin",
-  "geo": {
-   "lat": 53.42017,
-   "lng": 14.54065
-  },
-  "url": "https://www.zs4.szczecin.pl",
-  "public": true,
-  "students": 480,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "wielozawodowy"
-  ],
-  "professionsRspo": [
-   "Technik elektryk",
-   "Technik spedytor",
-   "Technik urządzeń i systemów energetyki odnawialnej",
-   "Technik automatyk"
-  ],
-  "matura": {
-   "year": 2026,
-   "passRate": 84,
-   "examinees": 50,
-   "certificates": 42,
-   "extended": {
-    "geo": {
-     "n": 6,
-     "mean": 47.3
-    },
-    "hist": {
-     "n": 1,
-     "mean": null
-    },
-    "ang": {
-     "n": 30,
-     "mean": 64.4
-    },
-    "ang_dwj": {
-     "n": 1,
-     "mean": null
-    },
-    "niem": {
-     "n": 1,
-     "mean": null
-    },
-    "pol": {
-     "n": 1,
-     "mean": null
-    },
-    "mat": {
-     "n": 24,
-     "mean": 11.8
-    },
-    "wos": {
-     "n": 1,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/11264",
     "retrieved": "2026-10-01"
    },
    {
@@ -4047,91 +4047,6 @@
   ]
  },
  {
-  "rspo": 262226,
-  "type": "technikum",
-  "name": "TECHNIKUM TECHNOLOGII CYFROWYCH IM. JACKA KARPIŃSKIEGO W SZCZECINIE",
-  "shortName": null,
-  "city": "Szczecin",
-  "district": null,
-  "address": "ul. Niemierzyńska 17, 71-441 Szczecin",
-  "geo": {
-   "lat": 53.4492,
-   "lng": 14.53616
-  },
-  "url": "http://technikumcyfrowe.pl",
-  "public": true,
-  "students": 440,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny"
-  ],
-  "professionsRspo": [
-   "Technik informatyk",
-   "Technik programista"
-  ],
-  "matura": {
-   "year": 2026,
-   "passRate": 93.5,
-   "examinees": 62,
-   "certificates": 58,
-   "extended": {
-    "bio": {
-     "n": 2,
-     "mean": null
-    },
-    "fiz": {
-     "n": 2,
-     "mean": null
-    },
-    "geo": {
-     "n": 5,
-     "mean": 37.6
-    },
-    "hist": {
-     "n": 1,
-     "mean": null
-    },
-    "inf": {
-     "n": 8,
-     "mean": 27.5
-    },
-    "ang": {
-     "n": 54,
-     "mean": 72.2
-    },
-    "pol": {
-     "n": 3,
-     "mean": null
-    },
-    "mat": {
-     "n": 17,
-     "mean": 14.6
-    },
-    "wos": {
-     "n": 1,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/262226",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 79963,
   "type": "technikum",
   "name": "TECHNIKUM TEB EDUKACJA W SZCZECINIE",
@@ -4213,6 +4128,91 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/79963",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 262226,
+  "type": "technikum",
+  "name": "TECHNIKUM TECHNOLOGII CYFROWYCH IM. JACKA KARPIŃSKIEGO W SZCZECINIE",
+  "shortName": null,
+  "city": "Szczecin",
+  "district": null,
+  "address": "ul. Niemierzyńska 17, 71-441 Szczecin",
+  "geo": {
+   "lat": 53.4492,
+   "lng": 14.53616
+  },
+  "url": "http://technikumcyfrowe.pl",
+  "public": true,
+  "students": 440,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [
+   "Technik informatyk",
+   "Technik programista"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 93.5,
+   "examinees": 62,
+   "certificates": 58,
+   "extended": {
+    "bio": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 5,
+     "mean": 37.6
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "inf": {
+     "n": 8,
+     "mean": 27.5
+    },
+    "ang": {
+     "n": 54,
+     "mean": 72.2
+    },
+    "pol": {
+     "n": 3,
+     "mean": null
+    },
+    "mat": {
+     "n": 17,
+     "mean": 14.6
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/262226",
     "retrieved": "2026-10-01"
    },
    {

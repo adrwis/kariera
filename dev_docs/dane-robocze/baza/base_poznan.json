@@ -776,42 +776,6 @@
   ]
  },
  {
-  "rspo": 30301,
-  "type": "liceum",
-  "name": "LICEUM DWUJĘZYCZNE Z ODDZIAŁAMI MIĘDZYNARODOWYMI INTERNATIONAL SCHOOL OF POZNAN",
-  "shortName": null,
-  "city": "Poznań",
-  "district": "Grunwald",
-  "address": "ul. Edmunda Taczanowskiego 18, 60-147 Poznań",
-  "geo": {
-   "lat": 52.39102,
-   "lng": 16.87013
-  },
-  "url": "https://www.isop.pl",
-  "public": false,
-  "students": 188,
-  "languages": [
-   "ang",
-   "hisz",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "międzynarodowy",
-   "dwujęzyczny w szkole podstawowej, liceum i technikum"
-  ],
-  "professionsRspo": [],
-  "matura": null,
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/30301",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 265545,
   "type": "liceum",
   "name": "LICEUM AKADEMICKIE LINDE.EDU.PL",
@@ -918,6 +882,42 @@
    {
     "name": "CKE Mapa Egzaminów, matura 2026",
     "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 30301,
+  "type": "liceum",
+  "name": "LICEUM DWUJĘZYCZNE Z ODDZIAŁAMI MIĘDZYNARODOWYMI INTERNATIONAL SCHOOL OF POZNAN",
+  "shortName": null,
+  "city": "Poznań",
+  "district": "Grunwald",
+  "address": "ul. Edmunda Taczanowskiego 18, 60-147 Poznań",
+  "geo": {
+   "lat": 52.39102,
+   "lng": 16.87013
+  },
+  "url": "https://www.isop.pl",
+  "public": false,
+  "students": 188,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "międzynarodowy",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/30301",
     "retrieved": "2026-10-01"
    }
   ]
@@ -1528,6 +1528,115 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/276473",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 79204,
+  "type": "liceum",
+  "name": "I LICEUM OGÓLNOKSZTAŁCĄCE IM. KAROLA MARCINKOWSKIEGO",
+  "shortName": "I LO",
+  "city": "Poznań",
+  "district": null,
+  "address": "ul. Bukowska 16, 60-809 Poznań-Grunwald",
+  "geo": {
+   "lat": 52.40722,
+   "lng": 16.90376
+  },
+  "url": "https://www.marcinek.poznan.pl",
+  "public": true,
+  "students": 823,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 204,
+   "certificates": 204,
+   "extended": {
+    "bio": {
+     "n": 77,
+     "mean": 69.7
+    },
+    "chem": {
+     "n": 96,
+     "mean": 66.1
+    },
+    "fiz": {
+     "n": 24,
+     "mean": 76.8
+    },
+    "geo": {
+     "n": 31,
+     "mean": 77.4
+    },
+    "hist": {
+     "n": 31,
+     "mean": 71.2
+    },
+    "hsz": {
+     "n": 2,
+     "mean": null
+    },
+    "inf": {
+     "n": 2,
+     "mean": null
+    },
+    "ang": {
+     "n": 171,
+     "mean": 91.4
+    },
+    "ang_dwj": {
+     "n": 7,
+     "mean": 82.7
+    },
+    "fr_dwj": {
+     "n": 31,
+     "mean": 43.1
+    },
+    "hisz": {
+     "n": 1,
+     "mean": null
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 41,
+     "mean": 83.9
+    },
+    "mat": {
+     "n": 95,
+     "mean": 61.9
+    },
+    "wos": {
+     "n": 9,
+     "mean": 73.8
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/79204",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
     "retrieved": "2026-10-01"
    }
   ]
@@ -2620,6 +2729,92 @@
   ]
  },
  {
+  "rspo": 271702,
+  "type": "liceum",
+  "name": "PUBLICZNE LICEUM OGÓLNOKSZTAŁCĄCE KATOLICKIEGO STOWARZYSZENIA WYCHOWAWCÓW IM. KARDYNAŁA AUGUSTA HLONDA W POZNANIU",
+  "shortName": null,
+  "city": "Poznań",
+  "district": "Nowe Miasto",
+  "address": "ul. Mińska 32, 61-049 Poznań",
+  "geo": {
+   "lat": 52.40614,
+   "lng": 16.98856
+  },
+  "url": "https://www.liceum.kard.hlonda.pl",
+  "public": true,
+  "students": 76,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 72,
+   "examinees": 25,
+   "certificates": 18,
+   "extended": {
+    "bio": {
+     "n": 3,
+     "mean": null
+    },
+    "chem": {
+     "n": 7,
+     "mean": 17
+    },
+    "geo": {
+     "n": 1,
+     "mean": null
+    },
+    "hist": {
+     "n": 4,
+     "mean": null
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 15,
+     "mean": 49.8
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 12,
+     "mean": 33.1
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/271702",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 85478,
   "type": "liceum",
   "name": "PUBLICZNE LICEUM OGÓLNOKSZTAŁCĄCE KSW IM. BŁ. NATALII TUŁASIEWICZ W POZNANIU",
@@ -2702,92 +2897,6 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/85478",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 271702,
-  "type": "liceum",
-  "name": "PUBLICZNE LICEUM OGÓLNOKSZTAŁCĄCE KATOLICKIEGO STOWARZYSZENIA WYCHOWAWCÓW IM. KARDYNAŁA AUGUSTA HLONDA W POZNANIU",
-  "shortName": null,
-  "city": "Poznań",
-  "district": "Nowe Miasto",
-  "address": "ul. Mińska 32, 61-049 Poznań",
-  "geo": {
-   "lat": 52.40614,
-   "lng": 16.98856
-  },
-  "url": "https://www.liceum.kard.hlonda.pl",
-  "public": true,
-  "students": 76,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 72,
-   "examinees": 25,
-   "certificates": 18,
-   "extended": {
-    "bio": {
-     "n": 3,
-     "mean": null
-    },
-    "chem": {
-     "n": 7,
-     "mean": 17
-    },
-    "geo": {
-     "n": 1,
-     "mean": null
-    },
-    "hist": {
-     "n": 4,
-     "mean": null
-    },
-    "hsz": {
-     "n": 1,
-     "mean": null
-    },
-    "ang": {
-     "n": 15,
-     "mean": 49.8
-    },
-    "niem": {
-     "n": 1,
-     "mean": null
-    },
-    "pol": {
-     "n": 12,
-     "mean": 33.1
-    },
-    "mat": {
-     "n": 1,
-     "mean": null
-    },
-    "wos": {
-     "n": 1,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/271702",
     "retrieved": "2026-10-01"
    },
    {
@@ -3075,6 +3184,90 @@
   ]
  },
  {
+  "rspo": 478100,
+  "type": "liceum",
+  "name": "SPOŁECZNE LICEUM OGÓLNOKSZTAŁCĄCE NR 1 IM. ŚW. URSZULI LEDÓCHOWSKIEJ W POZNANIU STO",
+  "shortName": null,
+  "city": "Poznań",
+  "district": "Grunwald",
+  "address": "ul. Grunwaldzka 154, 60-309 Poznań",
+  "geo": {
+   "lat": 52.39292,
+   "lng": 16.86026
+  },
+  "url": "https://liceum.spolecznajedynka.pl/",
+  "public": false,
+  "students": 94,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 88.9,
+   "examinees": 36,
+   "certificates": 32,
+   "extended": {
+    "bio": {
+     "n": 18,
+     "mean": 31.5
+    },
+    "chem": {
+     "n": 12,
+     "mean": 11
+    },
+    "geo": {
+     "n": 12,
+     "mean": 40.2
+    },
+    "hist": {
+     "n": 4,
+     "mean": null
+    },
+    "inf": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 34,
+     "mean": 66.4
+    },
+    "pol": {
+     "n": 11,
+     "mean": 64.8
+    },
+    "mat": {
+     "n": 5,
+     "mean": 16
+    },
+    "wos": {
+     "n": 5,
+     "mean": 34.8
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/478100",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 478149,
   "type": "liceum",
   "name": "SPOŁECZNE LICEUM OGÓLNOKSZTAŁCĄCE NR 4 STO W POZNANIU",
@@ -3167,90 +3360,6 @@
   ]
  },
  {
-  "rspo": 478100,
-  "type": "liceum",
-  "name": "SPOŁECZNE LICEUM OGÓLNOKSZTAŁCĄCE NR 1 IM. ŚW. URSZULI LEDÓCHOWSKIEJ W POZNANIU STO",
-  "shortName": null,
-  "city": "Poznań",
-  "district": "Grunwald",
-  "address": "ul. Grunwaldzka 154, 60-309 Poznań",
-  "geo": {
-   "lat": 52.39292,
-   "lng": 16.86026
-  },
-  "url": "https://liceum.spolecznajedynka.pl/",
-  "public": false,
-  "students": 94,
-  "languages": [
-   "ang",
-   "fr",
-   "hisz",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 88.9,
-   "examinees": 36,
-   "certificates": 32,
-   "extended": {
-    "bio": {
-     "n": 18,
-     "mean": 31.5
-    },
-    "chem": {
-     "n": 12,
-     "mean": 11
-    },
-    "geo": {
-     "n": 12,
-     "mean": 40.2
-    },
-    "hist": {
-     "n": 4,
-     "mean": null
-    },
-    "inf": {
-     "n": 1,
-     "mean": null
-    },
-    "ang": {
-     "n": 34,
-     "mean": 66.4
-    },
-    "pol": {
-     "n": 11,
-     "mean": 64.8
-    },
-    "mat": {
-     "n": 5,
-     "mean": 16
-    },
-    "wos": {
-     "n": 5,
-     "mean": 34.8
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/478100",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 272082,
   "type": "liceum",
   "name": "SPORTOWE LICEUM OGÓLNOKSZTAŁCĄCE IM. KAZIMIERZA NOWAKA",
@@ -3331,6 +3440,105 @@
   ]
  },
  {
+  "rspo": 29624,
+  "type": "liceum",
+  "name": "V LICEUM OGÓLNOKSZTAŁCĄCE IM. KLAUDYNY POTOCKIEJ",
+  "shortName": "V LO",
+  "city": "Poznań",
+  "district": null,
+  "address": "ul. Zmartwychwstańców 10, 61-501 Poznań-Wilda",
+  "geo": {
+   "lat": 52.38562,
+   "lng": 16.92071
+  },
+  "url": "https://www.lo5.poznan.pl",
+  "public": true,
+  "students": 976,
+  "languages": [
+   "ang",
+   "niem",
+   "ros"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 247,
+   "certificates": 247,
+   "extended": {
+    "bio": {
+     "n": 66,
+     "mean": 62.5
+    },
+    "chem": {
+     "n": 56,
+     "mean": 60.3
+    },
+    "fil": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 25,
+     "mean": 51.3
+    },
+    "geo": {
+     "n": 80,
+     "mean": 70.2
+    },
+    "hist": {
+     "n": 34,
+     "mean": 55.1
+    },
+    "inf": {
+     "n": 22,
+     "mean": 55
+    },
+    "ang": {
+     "n": 216,
+     "mean": 84.4
+    },
+    "ang_dwj": {
+     "n": 9,
+     "mean": 69.1
+    },
+    "niem": {
+     "n": 2,
+     "mean": null
+    },
+    "pol": {
+     "n": 84,
+     "mean": 56.2
+    },
+    "mat": {
+     "n": 102,
+     "mean": 53.5
+    },
+    "wos": {
+     "n": 19,
+     "mean": 63.2
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/29624",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 268822,
   "type": "liceum",
   "name": "V LICEUM OGÓLNOKSZTAŁCĄCE SPECJALNE",
@@ -3356,6 +3564,222 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/268822",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 31841,
+  "type": "liceum",
+  "name": "IV LICEUM OGÓLNOKSZTAŁCĄCE IM. KOMISJI EDUKACJI NARODOWEJ",
+  "shortName": "IV LO",
+  "city": "Poznań",
+  "district": "Jeżyce",
+  "address": "ul. Swojska 6, 60-592 Poznań-Jeżyce",
+  "geo": {
+   "lat": 52.41563,
+   "lng": 16.87323
+  },
+  "url": "https://www.lo4.poznan.pl",
+  "public": true,
+  "students": 685,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 153,
+   "certificates": 153,
+   "extended": {
+    "bio": {
+     "n": 38,
+     "mean": 59.2
+    },
+    "chem": {
+     "n": 32,
+     "mean": 50.1
+    },
+    "fiz": {
+     "n": 23,
+     "mean": 47.4
+    },
+    "geo": {
+     "n": 39,
+     "mean": 63
+    },
+    "hist": {
+     "n": 34,
+     "mean": 49.1
+    },
+    "hsz": {
+     "n": 2,
+     "mean": null
+    },
+    "inf": {
+     "n": 11,
+     "mean": 36.2
+    },
+    "ang": {
+     "n": 127,
+     "mean": 83.6
+    },
+    "ang_dwj": {
+     "n": 15,
+     "mean": 78.3
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 54,
+     "mean": 54.3
+    },
+    "ros": {
+     "n": 3,
+     "mean": null
+    },
+    "mat": {
+     "n": 65,
+     "mean": 43.6
+    },
+    "wos": {
+     "n": 7,
+     "mean": 48.6
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/31841",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 29670,
+  "type": "liceum",
+  "name": "IX LICEUM OGÓLNOKSZTAŁCĄCE IM. KAROLA LIBELTA",
+  "shortName": "IX LO",
+  "city": "Poznań",
+  "district": "Stare Miasto",
+  "address": "ul. Warzywna 24, 61-658 Poznań-Stare Miasto",
+  "geo": {
+   "lat": 52.4287,
+   "lng": 16.92903
+  },
+  "url": "https://www.9lopoznan.pl",
+  "public": true,
+  "students": 707,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem",
+   "wlo"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 98.7,
+   "examinees": 151,
+   "certificates": 149,
+   "extended": {
+    "bio": {
+     "n": 33,
+     "mean": 63.8
+    },
+    "chem": {
+     "n": 27,
+     "mean": 65.4
+    },
+    "fiz": {
+     "n": 21,
+     "mean": 60.4
+    },
+    "geo": {
+     "n": 68,
+     "mean": 66.5
+    },
+    "hist": {
+     "n": 17,
+     "mean": 56.8
+    },
+    "hsz": {
+     "n": 2,
+     "mean": null
+    },
+    "inf": {
+     "n": 5,
+     "mean": 49.2
+    },
+    "ang": {
+     "n": 137,
+     "mean": 88
+    },
+    "ang_dwj": {
+     "n": 2,
+     "mean": null
+    },
+    "hisz": {
+     "n": 13,
+     "mean": 62.9
+    },
+    "niem": {
+     "n": 18,
+     "mean": 79.3
+    },
+    "pol": {
+     "n": 28,
+     "mean": 58
+    },
+    "ros": {
+     "n": 2,
+     "mean": null
+    },
+    "mat": {
+     "n": 65,
+     "mean": 66.6
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/29670",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
     "retrieved": "2026-10-01"
    }
   ]
@@ -3773,84 +4197,95 @@
   ]
  },
  {
-  "rspo": 121386,
+  "rspo": 31832,
   "type": "liceum",
-  "name": "XVI LICEUM OGÓLNOKSZTA ŁCĄCE Z ODDZIAŁAMI DWUJĘZYCZNYMI IM. CHARLES DE GAULLE'A",
-  "shortName": "XVI LO",
+  "name": "III LICEUM OGÓLNOKSZTAŁCĄCE IM. ŚW. JANA KANTEGO",
+  "shortName": "III LO",
   "city": "Poznań",
-  "district": "Nowe Miasto",
-  "address": "ul. Tarnowska 27, 61-323 Poznań",
+  "district": null,
+  "address": "ul. Strzelecka 10, 61-845 Poznań-Stare Miasto",
   "geo": {
-   "lat": 52.34094,
-   "lng": 16.99227
+   "lat": 52.40443,
+   "lng": 16.93276
   },
-  "url": "https://www.zso2.pl",
+  "url": "https://lo3.edu.pl",
   "public": true,
-  "students": 405,
+  "students": 703,
   "languages": [
+   "ang",
    "fr",
    "hisz",
-   "niem",
-   "wlo",
-   "chiński"
+   "niem"
   ],
   "specifics": [
-   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+   "ogólnodostępny"
   ],
   "professionsRspo": [],
   "matura": {
    "year": 2026,
    "passRate": 100,
-   "examinees": 129,
-   "certificates": 129,
+   "examinees": 162,
+   "certificates": 162,
    "extended": {
     "bio": {
-     "n": 35,
-     "mean": 67.2
+     "n": 47,
+     "mean": 65.6
     },
     "chem": {
-     "n": 46,
-     "mean": 59.3
+     "n": 40,
+     "mean": 66
     },
     "fiz": {
-     "n": 8,
-     "mean": 63.8
+     "n": 26,
+     "mean": 76.2
     },
     "geo": {
-     "n": 42,
-     "mean": 66.6
+     "n": 34,
+     "mean": 71.2
     },
     "hist": {
-     "n": 11,
-     "mean": 60.1
+     "n": 22,
+     "mean": 55.2
     },
     "inf": {
-     "n": 10,
-     "mean": 62.6
+     "n": 16,
+     "mean": 69.6
+    },
+    "ang": {
+     "n": 156,
+     "mean": 88.9
     },
     "ang_dwj": {
-     "n": 129,
-     "mean": 78.9
-    },
-    "hisz_dwj": {
      "n": 2,
+     "mean": null
+    },
+    "hisz": {
+     "n": 1,
      "mean": null
     },
     "niem": {
-     "n": 2,
+     "n": 1,
      "mean": null
     },
     "pol": {
-     "n": 27,
-     "mean": 72.9
+     "n": 46,
+     "mean": 74.3
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
     },
     "mat": {
-     "n": 67,
-     "mean": 69.4
+     "n": 87,
+     "mean": 69.9
     },
     "wos": {
-     "n": 10,
-     "mean": 78.6
+     "n": 1,
+     "mean": null
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -3859,7 +4294,7 @@
   "sources": [
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/121386",
+    "url": "https://rspo.gov.pl/api/Institution/31832",
     "retrieved": "2026-10-01"
    },
    {
@@ -3955,6 +4390,103 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/88359",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 121386,
+  "type": "liceum",
+  "name": "XVI LICEUM OGÓLNOKSZTA ŁCĄCE Z ODDZIAŁAMI DWUJĘZYCZNYMI IM. CHARLES DE GAULLE'A",
+  "shortName": "XVI LO",
+  "city": "Poznań",
+  "district": "Nowe Miasto",
+  "address": "ul. Tarnowska 27, 61-323 Poznań",
+  "geo": {
+   "lat": 52.34094,
+   "lng": 16.99227
+  },
+  "url": "https://www.zso2.pl",
+  "public": true,
+  "students": 405,
+  "languages": [
+   "fr",
+   "hisz",
+   "niem",
+   "wlo",
+   "chiński"
+  ],
+  "specifics": [
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 129,
+   "certificates": 129,
+   "extended": {
+    "bio": {
+     "n": 35,
+     "mean": 67.2
+    },
+    "chem": {
+     "n": 46,
+     "mean": 59.3
+    },
+    "fiz": {
+     "n": 8,
+     "mean": 63.8
+    },
+    "geo": {
+     "n": 42,
+     "mean": 66.6
+    },
+    "hist": {
+     "n": 11,
+     "mean": 60.1
+    },
+    "inf": {
+     "n": 10,
+     "mean": 62.6
+    },
+    "ang_dwj": {
+     "n": 129,
+     "mean": 78.9
+    },
+    "hisz_dwj": {
+     "n": 2,
+     "mean": null
+    },
+    "niem": {
+     "n": 2,
+     "mean": null
+    },
+    "pol": {
+     "n": 27,
+     "mean": 72.9
+    },
+    "mat": {
+     "n": 67,
+     "mean": 69.4
+    },
+    "wos": {
+     "n": 10,
+     "mean": 78.6
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/121386",
     "retrieved": "2026-10-01"
    },
    {
@@ -4171,6 +4703,116 @@
   ]
  },
  {
+  "rspo": 86171,
+  "type": "liceum",
+  "name": "VI LICEUM OGÓLNOKSZTAŁCĄCE IM. IGNACEGO JANA PADEREWSKIEGO",
+  "shortName": "VI LO",
+  "city": "Poznań",
+  "district": null,
+  "address": "ul. Krakowska 17a, 61-889 Poznań-Stare Miasto",
+  "geo": {
+   "lat": 52.40012,
+   "lng": 16.93237
+  },
+  "url": "https://www.paderek.poznan.pl",
+  "public": true,
+  "students": 817,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem",
+   "ros",
+   "wlo"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 99.4,
+   "examinees": 171,
+   "certificates": 170,
+   "extended": {
+    "bio": {
+     "n": 57,
+     "mean": 62.7
+    },
+    "chem": {
+     "n": 44,
+     "mean": 56
+    },
+    "fiz": {
+     "n": 17,
+     "mean": 46.9
+    },
+    "geo": {
+     "n": 45,
+     "mean": 59.2
+    },
+    "hist": {
+     "n": 30,
+     "mean": 60.2
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 156,
+     "mean": 85.1
+    },
+    "ang_dwj": {
+     "n": 5,
+     "mean": 88.8
+    },
+    "fr": {
+     "n": 2,
+     "mean": null
+    },
+    "niem": {
+     "n": 2,
+     "mean": null
+    },
+    "pol": {
+     "n": 54,
+     "mean": 63.6
+    },
+    "ros": {
+     "n": 3,
+     "mean": null
+    },
+    "mat": {
+     "n": 74,
+     "mean": 55.5
+    },
+    "wos": {
+     "n": 11,
+     "mean": 59.3
+    },
+    "ukr": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/86171",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 79937,
   "type": "liceum",
   "name": "XXI LICEUM OGÓLNOKSZTAŁCĄCE IM. GEN. WŁADYSŁAWA ANDERSA",
@@ -4356,6 +4998,111 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/86679",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 86172,
+  "type": "liceum",
+  "name": "VII LICEUM OGÓLNOKSZTAŁCĄCE IM. DĄBRÓWKI",
+  "shortName": "VII LO",
+  "city": "Poznań",
+  "district": "Jeżyce",
+  "address": "ul. Stefana Żeromskiego 8/12, 60-544 Poznań-Jeżyce",
+  "geo": {
+   "lat": 52.41668,
+   "lng": 16.89283
+  },
+  "url": "https://www.dabrowka.poznan.pl",
+  "public": true,
+  "students": 706,
+  "languages": [
+   "ang",
+   "fr",
+   "niem",
+   "ros"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 149,
+   "certificates": 149,
+   "extended": {
+    "bio": {
+     "n": 41,
+     "mean": 60.5
+    },
+    "chem": {
+     "n": 30,
+     "mean": 53.1
+    },
+    "fiz": {
+     "n": 31,
+     "mean": 61.8
+    },
+    "geo": {
+     "n": 36,
+     "mean": 73.9
+    },
+    "hist": {
+     "n": 24,
+     "mean": 66.5
+    },
+    "hsz": {
+     "n": 3,
+     "mean": null
+    },
+    "inf": {
+     "n": 2,
+     "mean": null
+    },
+    "ang": {
+     "n": 123,
+     "mean": 89.8
+    },
+    "ang_dwj": {
+     "n": 8,
+     "mean": 84.2
+    },
+    "niem": {
+     "n": 6,
+     "mean": 91.5
+    },
+    "niem_dwj": {
+     "n": 26,
+     "mean": 79.6
+    },
+    "pol": {
+     "n": 28,
+     "mean": 83.6
+    },
+    "mat": {
+     "n": 65,
+     "mean": 63.6
+    },
+    "wos": {
+     "n": 2,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/86172",
     "retrieved": "2026-10-01"
    },
    {
@@ -5141,104 +5888,6 @@
   ]
  },
  {
-  "rspo": 82689,
-  "type": "technikum",
-  "name": "TECHNIKUM ELEKTRONICZNO-MECHANICZNE",
-  "shortName": null,
-  "city": "Poznań",
-  "district": "Grunwald",
-  "address": "ul. Jawornicka 1, 60-161 Poznań",
-  "geo": {
-   "lat": 52.3884,
-   "lng": 16.85703
-  },
-  "url": "https://www.ckziupoznan.pl",
-  "public": true,
-  "students": 539,
-  "languages": [
-   "ang",
-   "hisz",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "wielozawodowy"
-  ],
-  "professionsRspo": [
-   "Technik mechanik",
-   "Technik mechatronik",
-   "Technik mechanik lotniczy",
-   "Technik awionik",
-   "Technik urządzeń i systemów energetyki odnawialnej",
-   "Technik chłodnictwa i klimatyzacji",
-   "Technik automatyk",
-   "Technik spawalnictwa",
-   "Technik robotyk"
-  ],
-  "matura": {
-   "year": 2026,
-   "passRate": 76.7,
-   "examinees": 86,
-   "certificates": 66,
-   "extended": {
-    "bio": {
-     "n": 3,
-     "mean": null
-    },
-    "chem": {
-     "n": 1,
-     "mean": null
-    },
-    "fiz": {
-     "n": 2,
-     "mean": null
-    },
-    "geo": {
-     "n": 5,
-     "mean": 39.6
-    },
-    "hist": {
-     "n": 1,
-     "mean": null
-    },
-    "ang": {
-     "n": 64,
-     "mean": 63.8
-    },
-    "ang_dwj": {
-     "n": 1,
-     "mean": null
-    },
-    "pol": {
-     "n": 2,
-     "mean": null
-    },
-    "ros": {
-     "n": 1,
-     "mean": null
-    },
-    "mat": {
-     "n": 34,
-     "mean": 11.8
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/82689",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 88681,
   "type": "technikum",
   "name": "TECHNIKUM EKONOMICZNO-HANDLOWE",
@@ -5340,6 +5989,104 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/88681",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 82689,
+  "type": "technikum",
+  "name": "TECHNIKUM ELEKTRONICZNO-MECHANICZNE",
+  "shortName": null,
+  "city": "Poznań",
+  "district": "Grunwald",
+  "address": "ul. Jawornicka 1, 60-161 Poznań",
+  "geo": {
+   "lat": 52.3884,
+   "lng": 16.85703
+  },
+  "url": "https://www.ckziupoznan.pl",
+  "public": true,
+  "students": 539,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik mechanik",
+   "Technik mechatronik",
+   "Technik mechanik lotniczy",
+   "Technik awionik",
+   "Technik urządzeń i systemów energetyki odnawialnej",
+   "Technik chłodnictwa i klimatyzacji",
+   "Technik automatyk",
+   "Technik spawalnictwa",
+   "Technik robotyk"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 76.7,
+   "examinees": 86,
+   "certificates": 66,
+   "extended": {
+    "bio": {
+     "n": 3,
+     "mean": null
+    },
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 5,
+     "mean": 39.6
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 64,
+     "mean": 63.8
+    },
+    "ang_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 2,
+     "mean": null
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 34,
+     "mean": 11.8
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/82689",
     "retrieved": "2026-10-01"
    },
    {
@@ -6944,6 +7691,50 @@
   ]
  },
  {
+  "rspo": 478151,
+  "type": "technikum",
+  "name": "WIELKOPOLSKIE TECHNIKUM ZAWODOWE",
+  "shortName": null,
+  "city": "Poznań",
+  "district": "Nowe Miasto",
+  "address": "ul. Nieszawska 19, 61-022 Poznań",
+  "geo": {
+   "lat": 52.41533,
+   "lng": 16.98137
+  },
+  "url": "https://wtz.edu.pl",
+  "public": false,
+  "students": 422,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [
+   "Technik informatyk",
+   "Technik architektury krajobrazu",
+   "Technik logistyk",
+   "Technik rachunkowości",
+   "Technik urządzeń i systemów energetyki odnawialnej",
+   "Technik fotografii i multimediów",
+   "Technik reklamy",
+   "Technik programista",
+   "Technik aranżacji wnętrz"
+  ],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/478151",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 80335,
   "type": "technikum",
   "name": "ZESPÓŁ SZKÓŁ BUDOWLANYCH - TECHNIKUM IM. ROGERA SŁAWSKIEGO",
@@ -7038,45 +7829,533 @@
   ]
  },
  {
-  "rspo": 478151,
-  "type": "technikum",
-  "name": "WIELKOPOLSKIE TECHNIKUM ZAWODOWE",
-  "shortName": null,
+  "rspo": 29625,
+  "type": "liceum",
+  "name": "XXV LICEUM OGÓLNOKSZTAŁCĄCE IM. GENERAŁOWEJ JADWIGI ZAMOYSKIEJ",
+  "shortName": "XXV LO",
   "city": "Poznań",
-  "district": "Nowe Miasto",
-  "address": "ul. Nieszawska 19, 61-022 Poznań",
+  "district": "Jeżyce",
+  "address": "ul. Widna 1, 60-655 Poznań-Jeżyce",
   "geo": {
-   "lat": 52.41533,
-   "lng": 16.98137
+   "lat": 52.42968,
+   "lng": 16.90784
   },
-  "url": "https://wtz.edu.pl",
-  "public": false,
-  "students": 422,
+  "url": "https://www.lo25.pl",
+  "public": true,
+  "students": 601,
   "languages": [
    "ang",
    "hisz",
    "niem"
   ],
   "specifics": [
-   "ogólnodostępny"
+   "ogólnodostępny",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
   ],
-  "professionsRspo": [
-   "Technik informatyk",
-   "Technik architektury krajobrazu",
-   "Technik logistyk",
-   "Technik rachunkowości",
-   "Technik urządzeń i systemów energetyki odnawialnej",
-   "Technik fotografii i multimediów",
-   "Technik reklamy",
-   "Technik programista",
-   "Technik aranżacji wnętrz"
-  ],
-  "matura": null,
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 93.6,
+   "examinees": 172,
+   "certificates": 161,
+   "extended": {
+    "bio": {
+     "n": 74,
+     "mean": 54.2
+    },
+    "chem": {
+     "n": 41,
+     "mean": 47.1
+    },
+    "fil": {
+     "n": 3,
+     "mean": null
+    },
+    "fiz": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 63,
+     "mean": 57
+    },
+    "hist": {
+     "n": 13,
+     "mean": 41
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 126,
+     "mean": 78.5
+    },
+    "ang_dwj": {
+     "n": 28,
+     "mean": 76.2
+    },
+    "hisz": {
+     "n": 4,
+     "mean": null
+    },
+    "hisz_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 49,
+     "mean": 52.7
+    },
+    "mat": {
+     "n": 22,
+     "mean": 15.4
+    },
+    "wos": {
+     "n": 7,
+     "mean": 60.6
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
   "profiles": [],
   "sources": [
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/478151",
+    "url": "https://rspo.gov.pl/api/Institution/29625",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 79391,
+  "type": "liceum",
+  "name": "XX LICEUM OGÓLNOKSZTAŁCĄCE IM. KONSTANTEGO ILDEFONSA GAŁCZYŃSKIEGO.",
+  "shortName": "XX LO",
+  "city": "Poznań",
+  "district": "Stare Miasto",
+  "address": "os. Wichrowe Wzgórze 111, 61-699 Poznań-Stare Miasto",
+  "geo": {
+   "lat": 52.44077,
+   "lng": 16.93689
+  },
+  "url": "https://xxlopoznan.edu.pl",
+  "public": true,
+  "students": 865,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "sportowy"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 97.8,
+   "examinees": 186,
+   "certificates": 182,
+   "extended": {
+    "bio": {
+     "n": 51,
+     "mean": 28.2
+    },
+    "chem": {
+     "n": 3,
+     "mean": null
+    },
+    "fil": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 3,
+     "mean": null
+    },
+    "geo": {
+     "n": 63,
+     "mean": 38.5
+    },
+    "hist": {
+     "n": 9,
+     "mean": 45
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "inf": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 171,
+     "mean": 75.4
+    },
+    "fr": {
+     "n": 1,
+     "mean": null
+    },
+    "hisz": {
+     "n": 10,
+     "mean": 43.4
+    },
+    "pol": {
+     "n": 69,
+     "mean": 50.9
+    },
+    "ros": {
+     "n": 3,
+     "mean": null
+    },
+    "mat": {
+     "n": 14,
+     "mean": 27.4
+    },
+    "wos": {
+     "n": 34,
+     "mean": 42
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/79391",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 29142,
+  "type": "liceum",
+  "name": "XIV LICEUM OGÓLNOKSZTAŁCĄCE IM. KAZIMIERZA WIELKIEGO",
+  "shortName": "XIV LO",
+  "city": "Poznań",
+  "district": "Nowe Miasto",
+  "address": "os. Piastowskie 106, 61-164 Poznań-Nowe Miasto",
+  "geo": {
+   "lat": 52.38636,
+   "lng": 16.94121
+  },
+  "url": "https://www.lo14.poznan.pl",
+  "public": true,
+  "students": 786,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem",
+   "ros",
+   "wlo",
+   "chiński"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 98.4,
+   "examinees": 187,
+   "certificates": 184,
+   "extended": {
+    "bio": {
+     "n": 45,
+     "mean": 48.1
+    },
+    "chem": {
+     "n": 50,
+     "mean": 40.9
+    },
+    "fiz": {
+     "n": 4,
+     "mean": null
+    },
+    "geo": {
+     "n": 67,
+     "mean": 54
+    },
+    "hist": {
+     "n": 9,
+     "mean": 45.9
+    },
+    "hsz": {
+     "n": 12,
+     "mean": 41.6
+    },
+    "ang": {
+     "n": 163,
+     "mean": 80.5
+    },
+    "ang_dwj": {
+     "n": 2,
+     "mean": null
+    },
+    "hisz": {
+     "n": 3,
+     "mean": null
+    },
+    "pol": {
+     "n": 28,
+     "mean": 66.5
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "ros_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 61,
+     "mean": 41.1
+    },
+    "wos": {
+     "n": 33,
+     "mean": 50.6
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/29142",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 43580,
+  "type": "liceum",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE ŚW. MARII MAGDALENY",
+  "shortName": null,
+  "city": "Poznań",
+  "district": null,
+  "address": "ul. Garbary 24, 61-867 Poznań-Stare Miasto",
+  "geo": {
+   "lat": 52.40401,
+   "lng": 16.93835
+  },
+  "url": "https://www.marynka.edu.pl",
+  "public": true,
+  "students": 681,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 99.3,
+   "examinees": 141,
+   "certificates": 140,
+   "extended": {
+    "bio": {
+     "n": 32,
+     "mean": 72.2
+    },
+    "chem": {
+     "n": 24,
+     "mean": 68.2
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 31,
+     "mean": 77.3
+    },
+    "geo": {
+     "n": 32,
+     "mean": 79.6
+    },
+    "hist": {
+     "n": 31,
+     "mean": 70
+    },
+    "hmuz": {
+     "n": 1,
+     "mean": null
+    },
+    "hsz": {
+     "n": 3,
+     "mean": null
+    },
+    "inf": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 123,
+     "mean": 92.9
+    },
+    "ang_dwj": {
+     "n": 7,
+     "mean": 77.9
+    },
+    "hisz": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 53,
+     "mean": 82.2
+    },
+    "mat": {
+     "n": 90,
+     "mean": 70.8
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/43580",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 82414,
+  "type": "liceum",
+  "name": "II LICEUM OGÓLNOKSZTAŁCĄCE IM. GENERAŁOWEJ ZAMOYSKIEJ I HELENY MODRZEJEWSKIEJ",
+  "shortName": "II LO",
+  "city": "Poznań",
+  "district": "Grunwald",
+  "address": "ul. Jana Matejki 8/10, 60-766 Poznań-Grunwald",
+  "geo": {
+   "lat": 52.40365,
+   "lng": 16.9001
+  },
+  "url": "https://www.lo2.poznan.pl",
+  "public": true,
+  "students": 510,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "międzynarodowy"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 89,
+   "certificates": 89,
+   "extended": {
+    "bio": {
+     "n": 36,
+     "mean": 74
+    },
+    "chem": {
+     "n": 33,
+     "mean": 79.3
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 10,
+     "mean": 74.2
+    },
+    "hist": {
+     "n": 32,
+     "mean": 81.5
+    },
+    "inf": {
+     "n": 4,
+     "mean": null
+    },
+    "ang": {
+     "n": 78,
+     "mean": 91.4
+    },
+    "ang_dwj": {
+     "n": 4,
+     "mean": null
+    },
+    "fr": {
+     "n": 1,
+     "mean": null
+    },
+    "hisz": {
+     "n": 1,
+     "mean": null
+    },
+    "niem": {
+     "n": 8,
+     "mean": 91
+    },
+    "pol": {
+     "n": 39,
+     "mean": 72.2
+    },
+    "mat": {
+     "n": 15,
+     "mean": 69.2
+    },
+    "wos": {
+     "n": 7,
+     "mean": 68.9
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/82414",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
     "retrieved": "2026-10-01"
    }
   ]

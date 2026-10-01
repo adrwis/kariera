@@ -1939,6 +1939,99 @@
   ]
  },
  {
+  "rspo": 125126,
+  "type": "liceum",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE Z ODDZIAŁEM DWUJĘZYCZNYM IM. PIOTRA MICHAŁOWSKIEGO TSSP",
+  "shortName": null,
+  "city": "Kraków",
+  "district": "Śródmieście",
+  "address": "ul. Piotra Michałowskiego 4, 31-126 Kraków",
+  "geo": {
+   "lat": 50.06647,
+   "lng": 19.92876
+  },
+  "url": "https://tssp.krakow.pl",
+  "public": false,
+  "students": 69,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 34,
+   "certificates": 34,
+   "extended": {
+    "bio": {
+     "n": 12,
+     "mean": 41.5
+    },
+    "chem": {
+     "n": 7,
+     "mean": 39.4
+    },
+    "fiz": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 7,
+     "mean": 62.6
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 19,
+     "mean": 79.4
+    },
+    "ang_dwj": {
+     "n": 14,
+     "mean": 75
+    },
+    "lac": {
+     "n": 2,
+     "mean": null
+    },
+    "pol": {
+     "n": 8,
+     "mean": 71.9
+    },
+    "mat": {
+     "n": 8,
+     "mean": 35
+    },
+    "wos": {
+     "n": 2,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/125126",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 84658,
   "type": "liceum",
   "name": "LICEUM OGÓLNOKSZTAŁCĄCE ZAKONU PIJARÓW IM. KS. STANISŁAWA KONARSKIEGO",
@@ -2041,133 +2134,6 @@
   ]
  },
  {
-  "rspo": 125126,
-  "type": "liceum",
-  "name": "LICEUM OGÓLNOKSZTAŁCĄCE Z ODDZIAŁEM DWUJĘZYCZNYM IM. PIOTRA MICHAŁOWSKIEGO TSSP",
-  "shortName": null,
-  "city": "Kraków",
-  "district": "Śródmieście",
-  "address": "ul. Piotra Michałowskiego 4, 31-126 Kraków",
-  "geo": {
-   "lat": 50.06647,
-   "lng": 19.92876
-  },
-  "url": "https://tssp.krakow.pl",
-  "public": false,
-  "students": 69,
-  "languages": [
-   "ang",
-   "fr",
-   "hisz",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "dwujęzyczny w szkole podstawowej, liceum i technikum"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 100,
-   "examinees": 34,
-   "certificates": 34,
-   "extended": {
-    "bio": {
-     "n": 12,
-     "mean": 41.5
-    },
-    "chem": {
-     "n": 7,
-     "mean": 39.4
-    },
-    "fiz": {
-     "n": 2,
-     "mean": null
-    },
-    "geo": {
-     "n": 7,
-     "mean": 62.6
-    },
-    "hist": {
-     "n": 1,
-     "mean": null
-    },
-    "ang": {
-     "n": 19,
-     "mean": 79.4
-    },
-    "ang_dwj": {
-     "n": 14,
-     "mean": 75
-    },
-    "lac": {
-     "n": 2,
-     "mean": null
-    },
-    "pol": {
-     "n": 8,
-     "mean": 71.9
-    },
-    "mat": {
-     "n": 8,
-     "mean": 35
-    },
-    "wos": {
-     "n": 2,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/125126",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 271889,
-  "type": "liceum",
-  "name": "NIEPUBLICZNE DWUJĘZYCZNE LICEUM OGÓLNOKSZTAŁCĄCE DA VINCI'S INTERNATIONAL HIGH SCHOOL",
-  "shortName": null,
-  "city": "Kraków",
-  "district": "Śródmieście",
-  "address": "ul. Pilotów 4C, 31-462 Kraków",
-  "geo": {
-   "lat": 50.07838,
-   "lng": 19.97046
-  },
-  "url": "https://highschool.davincis.org",
-  "public": false,
-  "students": 24,
-  "languages": [
-   "ang",
-   "hisz",
-   "niem"
-  ],
-  "specifics": [
-   "międzynarodowy"
-  ],
-  "professionsRspo": [],
-  "matura": null,
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/271889",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 132462,
   "type": "liceum",
   "name": "NIEPUBLICZNE CHRZEŚCIJAŃSKIE LICEUM OGÓLNOKSZTAŁCĄCE \"UCZEŃ\"",
@@ -2246,6 +2212,40 @@
    {
     "name": "CKE Mapa Egzaminów, matura 2026",
     "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 271889,
+  "type": "liceum",
+  "name": "NIEPUBLICZNE DWUJĘZYCZNE LICEUM OGÓLNOKSZTAŁCĄCE DA VINCI'S INTERNATIONAL HIGH SCHOOL",
+  "shortName": null,
+  "city": "Kraków",
+  "district": "Śródmieście",
+  "address": "ul. Pilotów 4C, 31-462 Kraków",
+  "geo": {
+   "lat": 50.07838,
+   "lng": 19.97046
+  },
+  "url": "https://highschool.davincis.org",
+  "public": false,
+  "students": 24,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "międzynarodowy"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/271889",
     "retrieved": "2026-10-01"
    }
   ]
@@ -4025,6 +4025,107 @@
   ]
  },
  {
+  "rspo": 79902,
+  "type": "liceum",
+  "name": "VIII PRYWATNE AKADEMICKIE LICEUM OGÓLNOKSZTAŁCĄCE",
+  "shortName": null,
+  "city": "Kraków",
+  "district": "Śródmieście",
+  "address": "ul. Karmelicka 45, 31-128 Kraków",
+  "geo": {
+   "lat": 50.0678,
+   "lng": 19.92814
+  },
+  "url": "https://viiipalo.krakow.pl",
+  "public": false,
+  "students": 405,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "międzynarodowy"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 73,
+   "certificates": 73,
+   "extended": {
+    "bio": {
+     "n": 18,
+     "mean": 60.9
+    },
+    "chem": {
+     "n": 14,
+     "mean": 66.6
+    },
+    "fiz": {
+     "n": 7,
+     "mean": 66.6
+    },
+    "geo": {
+     "n": 17,
+     "mean": 74.6
+    },
+    "hist": {
+     "n": 7,
+     "mean": 82.8
+    },
+    "hsz": {
+     "n": 7,
+     "mean": 87.4
+    },
+    "inf": {
+     "n": 4,
+     "mean": null
+    },
+    "ang": {
+     "n": 58,
+     "mean": 87.3
+    },
+    "ang_dwj": {
+     "n": 13,
+     "mean": 80.3
+    },
+    "hisz": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 13,
+     "mean": 44.9
+    },
+    "mat": {
+     "n": 35,
+     "mean": 79.5
+    },
+    "wos": {
+     "n": 10,
+     "mean": 73.4
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/79902",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 4435,
   "type": "liceum",
   "name": "X LICEUM OGÓLNOKSZTAŁCĄCE IM. KOMISJI EDUKACJI NARODOWEJ W KRAKOWIE",
@@ -4124,107 +4225,6 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/4435",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 79902,
-  "type": "liceum",
-  "name": "VIII PRYWATNE AKADEMICKIE LICEUM OGÓLNOKSZTAŁCĄCE",
-  "shortName": null,
-  "city": "Kraków",
-  "district": "Śródmieście",
-  "address": "ul. Karmelicka 45, 31-128 Kraków",
-  "geo": {
-   "lat": 50.0678,
-   "lng": 19.92814
-  },
-  "url": "https://viiipalo.krakow.pl",
-  "public": false,
-  "students": 405,
-  "languages": [
-   "ang",
-   "fr",
-   "hisz",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "międzynarodowy"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 100,
-   "examinees": 73,
-   "certificates": 73,
-   "extended": {
-    "bio": {
-     "n": 18,
-     "mean": 60.9
-    },
-    "chem": {
-     "n": 14,
-     "mean": 66.6
-    },
-    "fiz": {
-     "n": 7,
-     "mean": 66.6
-    },
-    "geo": {
-     "n": 17,
-     "mean": 74.6
-    },
-    "hist": {
-     "n": 7,
-     "mean": 82.8
-    },
-    "hsz": {
-     "n": 7,
-     "mean": 87.4
-    },
-    "inf": {
-     "n": 4,
-     "mean": null
-    },
-    "ang": {
-     "n": 58,
-     "mean": 87.3
-    },
-    "ang_dwj": {
-     "n": 13,
-     "mean": 80.3
-    },
-    "hisz": {
-     "n": 1,
-     "mean": null
-    },
-    "pol": {
-     "n": 13,
-     "mean": 44.9
-    },
-    "mat": {
-     "n": 35,
-     "mean": 79.5
-    },
-    "wos": {
-     "n": 10,
-     "mean": 73.4
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/79902",
     "retrieved": "2026-10-01"
    },
    {
@@ -4748,106 +4748,6 @@
   ]
  },
  {
-  "rspo": 133500,
-  "type": "liceum",
-  "name": "XLII LICEUM OGÓLNOKSZTAŁCĄCE IM. ADAMA MICKIEWICZA W KRAKOWIE",
-  "shortName": "XLII LO",
-  "city": "Kraków",
-  "district": "Śródmieście",
-  "address": "ul. Studencka 13, 31-116 Kraków",
-  "geo": {
-   "lat": 50.06264,
-   "lng": 19.93003
-  },
-  "url": "https://lo42krakow.pl",
-  "public": true,
-  "students": 519,
-  "languages": [
-   "ang",
-   "fr",
-   "hisz",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 99.1,
-   "examinees": 110,
-   "certificates": 109,
-   "extended": {
-    "bio": {
-     "n": 9,
-     "mean": 53
-    },
-    "chem": {
-     "n": 3,
-     "mean": null
-    },
-    "fiz": {
-     "n": 30,
-     "mean": 54.5
-    },
-    "geo": {
-     "n": 17,
-     "mean": 66.4
-    },
-    "hist": {
-     "n": 3,
-     "mean": null
-    },
-    "hsz": {
-     "n": 2,
-     "mean": null
-    },
-    "inf": {
-     "n": 6,
-     "mean": 49.7
-    },
-    "ang": {
-     "n": 103,
-     "mean": 87.6
-    },
-    "ang_dwj": {
-     "n": 2,
-     "mean": null
-    },
-    "pol": {
-     "n": 17,
-     "mean": 58.6
-    },
-    "ros_dwj": {
-     "n": 1,
-     "mean": null
-    },
-    "mat": {
-     "n": 89,
-     "mean": 57.4
-    },
-    "wos": {
-     "n": 5,
-     "mean": 61.2
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/133500",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 133499,
   "type": "liceum",
   "name": "XLI LICEUM OGÓLNOKSZTAŁCĄCE IM. KSIĘDZA JANA TWARDOWSKIEGO W KRAKOWIE",
@@ -4938,6 +4838,106 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/133499",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 133500,
+  "type": "liceum",
+  "name": "XLII LICEUM OGÓLNOKSZTAŁCĄCE IM. ADAMA MICKIEWICZA W KRAKOWIE",
+  "shortName": "XLII LO",
+  "city": "Kraków",
+  "district": "Śródmieście",
+  "address": "ul. Studencka 13, 31-116 Kraków",
+  "geo": {
+   "lat": 50.06264,
+   "lng": 19.93003
+  },
+  "url": "https://lo42krakow.pl",
+  "public": true,
+  "students": 519,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 99.1,
+   "examinees": 110,
+   "certificates": 109,
+   "extended": {
+    "bio": {
+     "n": 9,
+     "mean": 53
+    },
+    "chem": {
+     "n": 3,
+     "mean": null
+    },
+    "fiz": {
+     "n": 30,
+     "mean": 54.5
+    },
+    "geo": {
+     "n": 17,
+     "mean": 66.4
+    },
+    "hist": {
+     "n": 3,
+     "mean": null
+    },
+    "hsz": {
+     "n": 2,
+     "mean": null
+    },
+    "inf": {
+     "n": 6,
+     "mean": 49.7
+    },
+    "ang": {
+     "n": 103,
+     "mean": 87.6
+    },
+    "ang_dwj": {
+     "n": 2,
+     "mean": null
+    },
+    "pol": {
+     "n": 17,
+     "mean": 58.6
+    },
+    "ros_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 89,
+     "mean": 57.4
+    },
+    "wos": {
+     "n": 5,
+     "mean": 61.2
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/133500",
     "retrieved": "2026-10-01"
    },
    {
@@ -5164,40 +5164,6 @@
   ]
  },
  {
-  "rspo": 479929,
-  "type": "liceum",
-  "name": "XLVI LICEUM OGÓLNOKSZTAŁCĄCE W KRAKOWIE",
-  "shortName": "XLVI LO",
-  "city": "Kraków",
-  "district": "Śródmieście",
-  "address": "ul. Józefa Dietla 70, 31-039 Kraków",
-  "geo": {
-   "lat": 50.05584,
-   "lng": 19.94438
-  },
-  "url": null,
-  "public": true,
-  "students": 297,
-  "languages": [
-   "ang",
-   "niem",
-   "wlo"
-  ],
-  "specifics": [
-   "ogólnodostępny"
-  ],
-  "professionsRspo": [],
-  "matura": null,
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/479929",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 479956,
   "type": "liceum",
   "name": "XLV LICEUM OGÓLNOKSZTAŁCĄCE IM. WISŁAWY SZYMBORSKIEJ W KRAKOWIE",
@@ -5227,6 +5193,40 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/479956",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 479929,
+  "type": "liceum",
+  "name": "XLVI LICEUM OGÓLNOKSZTAŁCĄCE W KRAKOWIE",
+  "shortName": "XLVI LO",
+  "city": "Kraków",
+  "district": "Śródmieście",
+  "address": "ul. Józefa Dietla 70, 31-039 Kraków",
+  "geo": {
+   "lat": 50.05584,
+   "lng": 19.94438
+  },
+  "url": null,
+  "public": true,
+  "students": 297,
+  "languages": [
+   "ang",
+   "niem",
+   "wlo"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/479929",
     "retrieved": "2026-10-01"
    }
   ]
@@ -5983,6 +5983,86 @@
   ]
  },
  {
+  "rspo": 20145,
+  "type": "liceum",
+  "name": "XXIII LICEUM OGÓLNOKSZTAŁCĄCE IM. PŁK. PILOTA STANISŁAWA SKARŻYŃSKIEGO W KRAKOWIE",
+  "shortName": "XXIII LO",
+  "city": "Kraków",
+  "district": "Śródmieście",
+  "address": "ul. Seniorów Lotnictwa 5, 31-455 Kraków",
+  "geo": {
+   "lat": 50.07944,
+   "lng": 19.9861
+  },
+  "url": "https://xxiiilo.krakow.pl",
+  "public": true,
+  "students": 249,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "integracyjny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 98,
+   "examinees": 50,
+   "certificates": 49,
+   "extended": {
+    "bio": {
+     "n": 7,
+     "mean": 24.5
+    },
+    "fiz": {
+     "n": 5,
+     "mean": 30.6
+    },
+    "geo": {
+     "n": 29,
+     "mean": 50.4
+    },
+    "hist": {
+     "n": 8,
+     "mean": 31.9
+    },
+    "ang": {
+     "n": 46,
+     "mean": 71.2
+    },
+    "pol": {
+     "n": 9,
+     "mean": 42.3
+    },
+    "mat": {
+     "n": 26,
+     "mean": 23.7
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/20145",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 19684,
   "type": "liceum",
   "name": "XXIV LICEUM OGÓLNOKSZTAŁCĄCE IM. JANA PAWŁA II W KRAKOWIE",
@@ -6080,86 +6160,6 @@
   ]
  },
  {
-  "rspo": 20145,
-  "type": "liceum",
-  "name": "XXIII LICEUM OGÓLNOKSZTAŁCĄCE IM. PŁK. PILOTA STANISŁAWA SKARŻYŃSKIEGO W KRAKOWIE",
-  "shortName": "XXIII LO",
-  "city": "Kraków",
-  "district": "Śródmieście",
-  "address": "ul. Seniorów Lotnictwa 5, 31-455 Kraków",
-  "geo": {
-   "lat": 50.07944,
-   "lng": 19.9861
-  },
-  "url": "https://xxiiilo.krakow.pl",
-  "public": true,
-  "students": 249,
-  "languages": [
-   "ang",
-   "hisz",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "integracyjny"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 98,
-   "examinees": 50,
-   "certificates": 49,
-   "extended": {
-    "bio": {
-     "n": 7,
-     "mean": 24.5
-    },
-    "fiz": {
-     "n": 5,
-     "mean": 30.6
-    },
-    "geo": {
-     "n": 29,
-     "mean": 50.4
-    },
-    "hist": {
-     "n": 8,
-     "mean": 31.9
-    },
-    "ang": {
-     "n": 46,
-     "mean": 71.2
-    },
-    "pol": {
-     "n": 9,
-     "mean": 42.3
-    },
-    "mat": {
-     "n": 26,
-     "mean": 23.7
-    },
-    "wos": {
-     "n": 1,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/20145",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 7710,
   "type": "liceum",
   "name": "XXIX LICEUM OGÓLNOKSZTAŁCĄCE IM. KRZYSZTOFA KIEŚLOWSKIEGO W KRAKOWIE",
@@ -6229,97 +6229,6 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/7710",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 29919,
-  "type": "liceum",
-  "name": "XXVI LICEUM OGÓLNOKSZTAŁCĄCE W KRAKOWIE",
-  "shortName": "XXVI LO",
-  "city": "Kraków",
-  "district": "Śródmieście",
-  "address": "ul. Krupnicza 44, 31-123 Kraków",
-  "geo": {
-   "lat": 50.06224,
-   "lng": 19.92423
-  },
-  "url": "https://zschkrakow.pl",
-  "public": true,
-  "students": 332,
-  "languages": [
-   "ang",
-   "hisz",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 100,
-   "examinees": 84,
-   "certificates": 84,
-   "extended": {
-    "bio": {
-     "n": 70,
-     "mean": 47.7
-    },
-    "chem": {
-     "n": 39,
-     "mean": 39.9
-    },
-    "geo": {
-     "n": 2,
-     "mean": null
-    },
-    "hist": {
-     "n": 3,
-     "mean": null
-    },
-    "ang": {
-     "n": 61,
-     "mean": 79.5
-    },
-    "ang_dwj": {
-     "n": 2,
-     "mean": null
-    },
-    "hisz": {
-     "n": 1,
-     "mean": null
-    },
-    "lac": {
-     "n": 1,
-     "mean": null
-    },
-    "pol": {
-     "n": 22,
-     "mean": 50.5
-    },
-    "mat": {
-     "n": 20,
-     "mean": 27.7
-    },
-    "wos": {
-     "n": 1,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/29919",
     "retrieved": "2026-10-01"
    },
    {
@@ -6425,6 +6334,97 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/20020",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 29919,
+  "type": "liceum",
+  "name": "XXVI LICEUM OGÓLNOKSZTAŁCĄCE W KRAKOWIE",
+  "shortName": "XXVI LO",
+  "city": "Kraków",
+  "district": "Śródmieście",
+  "address": "ul. Krupnicza 44, 31-123 Kraków",
+  "geo": {
+   "lat": 50.06224,
+   "lng": 19.92423
+  },
+  "url": "https://zschkrakow.pl",
+  "public": true,
+  "students": 332,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 84,
+   "certificates": 84,
+   "extended": {
+    "bio": {
+     "n": 70,
+     "mean": 47.7
+    },
+    "chem": {
+     "n": 39,
+     "mean": 39.9
+    },
+    "geo": {
+     "n": 2,
+     "mean": null
+    },
+    "hist": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 61,
+     "mean": 79.5
+    },
+    "ang_dwj": {
+     "n": 2,
+     "mean": null
+    },
+    "hisz": {
+     "n": 1,
+     "mean": null
+    },
+    "lac": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 22,
+     "mean": 50.5
+    },
+    "mat": {
+     "n": 20,
+     "mean": 27.7
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/29919",
     "retrieved": "2026-10-01"
    },
    {
@@ -6553,6 +6553,107 @@
   ]
  },
  {
+  "rspo": 7709,
+  "type": "liceum",
+  "name": "XXVIII LICEUM OGÓLNOKSZTAŁCĄCE IM. WOJCIECHA BEDNARSKIEGO W KRAKOWIE",
+  "shortName": "XXVIII LO",
+  "city": "Kraków",
+  "district": "Podgórze",
+  "address": "ul. Tadeusza Czackiego 11, 30-501 Kraków",
+  "geo": {
+   "lat": 50.04106,
+   "lng": 19.93689
+  },
+  "url": "https://www.28lo.pl",
+  "public": true,
+  "students": 414,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem",
+   "wlo"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 98.1,
+   "examinees": 106,
+   "certificates": 104,
+   "extended": {
+    "bio": {
+     "n": 23,
+     "mean": 34.7
+    },
+    "chem": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 3,
+     "mean": null
+    },
+    "geo": {
+     "n": 44,
+     "mean": 56.5
+    },
+    "hist": {
+     "n": 5,
+     "mean": 48.2
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "inf": {
+     "n": 5,
+     "mean": 42
+    },
+    "ang": {
+     "n": 84,
+     "mean": 72.9
+    },
+    "ang_dwj": {
+     "n": 18,
+     "mean": 72.6
+    },
+    "pol": {
+     "n": 28,
+     "mean": 67
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 39,
+     "mean": 42.3
+    },
+    "wos": {
+     "n": 3,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/7709",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 21210,
   "type": "liceum",
   "name": "XXX LICEUM OGÓLNOKSZTAŁCĄCE IM. ŚWIĘTEGO BRATA ALBERTA - ADAMA CHMIELOWSKIEGO W KRAKOWIE",
@@ -6656,107 +6757,6 @@
   ]
  },
  {
-  "rspo": 7709,
-  "type": "liceum",
-  "name": "XXVIII LICEUM OGÓLNOKSZTAŁCĄCE IM. WOJCIECHA BEDNARSKIEGO W KRAKOWIE",
-  "shortName": "XXVIII LO",
-  "city": "Kraków",
-  "district": "Podgórze",
-  "address": "ul. Tadeusza Czackiego 11, 30-501 Kraków",
-  "geo": {
-   "lat": 50.04106,
-   "lng": 19.93689
-  },
-  "url": "https://www.28lo.pl",
-  "public": true,
-  "students": 414,
-  "languages": [
-   "ang",
-   "fr",
-   "hisz",
-   "niem",
-   "wlo"
-  ],
-  "specifics": [
-   "ogólnodostępny"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 98.1,
-   "examinees": 106,
-   "certificates": 104,
-   "extended": {
-    "bio": {
-     "n": 23,
-     "mean": 34.7
-    },
-    "chem": {
-     "n": 2,
-     "mean": null
-    },
-    "fiz": {
-     "n": 3,
-     "mean": null
-    },
-    "geo": {
-     "n": 44,
-     "mean": 56.5
-    },
-    "hist": {
-     "n": 5,
-     "mean": 48.2
-    },
-    "hsz": {
-     "n": 1,
-     "mean": null
-    },
-    "inf": {
-     "n": 5,
-     "mean": 42
-    },
-    "ang": {
-     "n": 84,
-     "mean": 72.9
-    },
-    "ang_dwj": {
-     "n": 18,
-     "mean": 72.6
-    },
-    "pol": {
-     "n": 28,
-     "mean": 67
-    },
-    "ros": {
-     "n": 1,
-     "mean": null
-    },
-    "mat": {
-     "n": 39,
-     "mean": 42.3
-    },
-    "wos": {
-     "n": 3,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/7709",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 25507,
   "type": "liceum",
   "name": "XXXI LICEUM OGÓLNOKSZTAŁCĄCE IM. ROMANA INGARDENA W KRAKOWIE",
@@ -6847,39 +6847,6 @@
   ]
  },
  {
-  "rspo": 130968,
-  "type": "liceum",
-  "name": "XXXIX LICEUM OGÓLNOKSZTAŁCĄCE SPECJALNE W KRAKOWIE",
-  "shortName": "XXXIX LO",
-  "city": "Kraków",
-  "district": "Podgórze",
-  "address": "ul. Wielicka 265, 30-663 Kraków",
-  "geo": {
-   "lat": 50.01299,
-   "lng": 20.00044
-  },
-  "url": "https://zssnr3krakow.pl",
-  "public": true,
-  "students": 26,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "specjalny"
-  ],
-  "professionsRspo": [],
-  "matura": null,
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/130968",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 28061,
   "type": "liceum",
   "name": "XXXIV LICEUM OGÓLNOKSZTAŁCĄCE SPECJALNE IM. PROFESOR MARII ORWID W KRAKOWIE",
@@ -6908,6 +6875,39 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/28061",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 130968,
+  "type": "liceum",
+  "name": "XXXIX LICEUM OGÓLNOKSZTAŁCĄCE SPECJALNE W KRAKOWIE",
+  "shortName": "XXXIX LO",
+  "city": "Kraków",
+  "district": "Podgórze",
+  "address": "ul. Wielicka 265, 30-663 Kraków",
+  "geo": {
+   "lat": 50.01299,
+   "lng": 20.00044
+  },
+  "url": "https://zssnr3krakow.pl",
+  "public": true,
+  "students": 26,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "specjalny"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/130968",
     "retrieved": "2026-10-01"
    }
   ]
@@ -7300,6 +7300,113 @@
   ]
  },
  {
+  "rspo": 31454,
+  "type": "technikum",
+  "name": "TECHNIKUM EKONOMICZNO-HANDLOWE NR 5 W KRAKOWIE",
+  "shortName": null,
+  "city": "Kraków",
+  "district": "Nowa Huta",
+  "address": "os. Osiedle Spółdzielcze 6, 31-943 Kraków",
+  "geo": {
+   "lat": 50.07765,
+   "lng": 20.02523
+  },
+  "url": "https://zse-2.krakow.pl",
+  "public": true,
+  "students": 1019,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik ekonomista",
+   "Technik handlowiec",
+   "Technik hotelarstwa",
+   "Technik logistyk",
+   "Technik rachunkowości",
+   "Technik lotniskowych służb operacyjnych",
+   "Technik organizacji turystyki"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 66.8,
+   "examinees": 187,
+   "certificates": 125,
+   "extended": {
+    "bio": {
+     "n": 10,
+     "mean": 18.1
+    },
+    "chem": {
+     "n": 2,
+     "mean": null
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 22,
+     "mean": 28.4
+    },
+    "hist": {
+     "n": 5,
+     "mean": 42
+    },
+    "ang": {
+     "n": 133,
+     "mean": 52.8
+    },
+    "ang_dwj": {
+     "n": 7,
+     "mean": 75
+    },
+    "pol": {
+     "n": 16,
+     "mean": 28.9
+    },
+    "ros": {
+     "n": 6,
+     "mean": 92.7
+    },
+    "wlo": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 12,
+     "mean": 3.7
+    },
+    "wos": {
+     "n": 11,
+     "mean": 26
+    },
+    "ukr": {
+     "n": 7,
+     "mean": 80.1
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/31454",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 28077,
   "type": "technikum",
   "name": "TECHNIKUM EKONOMICZNO-HOTELARSKIE NR 4 IM. MIKOŁAJA KOPERNIKA W KRAKOWIE",
@@ -7402,113 +7509,6 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/28077",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 31454,
-  "type": "technikum",
-  "name": "TECHNIKUM EKONOMICZNO-HANDLOWE NR 5 W KRAKOWIE",
-  "shortName": null,
-  "city": "Kraków",
-  "district": "Nowa Huta",
-  "address": "os. Osiedle Spółdzielcze 6, 31-943 Kraków",
-  "geo": {
-   "lat": 50.07765,
-   "lng": 20.02523
-  },
-  "url": "https://zse-2.krakow.pl",
-  "public": true,
-  "students": 1019,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "wielozawodowy"
-  ],
-  "professionsRspo": [
-   "Technik ekonomista",
-   "Technik handlowiec",
-   "Technik hotelarstwa",
-   "Technik logistyk",
-   "Technik rachunkowości",
-   "Technik lotniskowych służb operacyjnych",
-   "Technik organizacji turystyki"
-  ],
-  "matura": {
-   "year": 2026,
-   "passRate": 66.8,
-   "examinees": 187,
-   "certificates": 125,
-   "extended": {
-    "bio": {
-     "n": 10,
-     "mean": 18.1
-    },
-    "chem": {
-     "n": 2,
-     "mean": null
-    },
-    "fil": {
-     "n": 1,
-     "mean": null
-    },
-    "geo": {
-     "n": 22,
-     "mean": 28.4
-    },
-    "hist": {
-     "n": 5,
-     "mean": 42
-    },
-    "ang": {
-     "n": 133,
-     "mean": 52.8
-    },
-    "ang_dwj": {
-     "n": 7,
-     "mean": 75
-    },
-    "pol": {
-     "n": 16,
-     "mean": 28.9
-    },
-    "ros": {
-     "n": 6,
-     "mean": 92.7
-    },
-    "wlo": {
-     "n": 1,
-     "mean": null
-    },
-    "mat": {
-     "n": 12,
-     "mean": 3.7
-    },
-    "wos": {
-     "n": 11,
-     "mean": 26
-    },
-    "ukr": {
-     "n": 7,
-     "mean": 80.1
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/31454",
     "retrieved": "2026-10-01"
    },
    {
@@ -7949,6 +7949,89 @@
   ]
  },
  {
+  "rspo": 58247,
+  "type": "technikum",
+  "name": "TECHNIKUM GEODEZJI I KSZTAŁTOWANIA ŚRODOWISKA NR 12 W KRAKOWIE",
+  "shortName": "Technikum nr 12",
+  "city": "Kraków",
+  "district": "Krowodrza",
+  "address": "ul. Juliusza Lea 235, 30-133 Kraków",
+  "geo": {
+   "lat": 50.07355,
+   "lng": 19.89088
+  },
+  "url": "https://szkolaimnarutowicza.krakow.pl",
+  "public": true,
+  "students": 571,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [
+   "Technik geodeta",
+   "Technik inżynierii środowiska i melioracji",
+   "Technik ochrony środowiska",
+   "Technik spedytor",
+   "Technik eksploatacji portów i terminali",
+   "Technik logistyk",
+   "Technik budowy dróg",
+   "Technik gospodarki odpadami"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 54.5,
+   "examinees": 66,
+   "certificates": 36,
+   "extended": {
+    "bio": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 30,
+     "mean": 33.3
+    },
+    "ang": {
+     "n": 42,
+     "mean": 63.1
+    },
+    "pol": {
+     "n": 6,
+     "mean": 17.7
+    },
+    "mat": {
+     "n": 13,
+     "mean": 8.6
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/58247",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 105237,
   "type": "technikum",
   "name": "TECHNIKUM HUTY IM. TADEUSZA SENDZIMIRA",
@@ -8027,89 +8110,6 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/105237",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 58247,
-  "type": "technikum",
-  "name": "TECHNIKUM GEODEZJI I KSZTAŁTOWANIA ŚRODOWISKA NR 12 W KRAKOWIE",
-  "shortName": "Technikum nr 12",
-  "city": "Kraków",
-  "district": "Krowodrza",
-  "address": "ul. Juliusza Lea 235, 30-133 Kraków",
-  "geo": {
-   "lat": 50.07355,
-   "lng": 19.89088
-  },
-  "url": "https://szkolaimnarutowicza.krakow.pl",
-  "public": true,
-  "students": 571,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny"
-  ],
-  "professionsRspo": [
-   "Technik geodeta",
-   "Technik inżynierii środowiska i melioracji",
-   "Technik ochrony środowiska",
-   "Technik spedytor",
-   "Technik eksploatacji portów i terminali",
-   "Technik logistyk",
-   "Technik budowy dróg",
-   "Technik gospodarki odpadami"
-  ],
-  "matura": {
-   "year": 2026,
-   "passRate": 54.5,
-   "examinees": 66,
-   "certificates": 36,
-   "extended": {
-    "bio": {
-     "n": 1,
-     "mean": null
-    },
-    "fiz": {
-     "n": 2,
-     "mean": null
-    },
-    "geo": {
-     "n": 30,
-     "mean": 33.3
-    },
-    "ang": {
-     "n": 42,
-     "mean": 63.1
-    },
-    "pol": {
-     "n": 6,
-     "mean": 17.7
-    },
-    "mat": {
-     "n": 13,
-     "mean": 8.6
-    },
-    "wos": {
-     "n": 1,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/58247",
     "retrieved": "2026-10-01"
    },
    {
@@ -8218,97 +8218,6 @@
   ]
  },
  {
-  "rspo": 31636,
-  "type": "technikum",
-  "name": "TECHNIKUM KSZTAŁTOWANIA ŚRODOWISKA NR 24 W KRAKOWIE",
-  "shortName": "Technikum nr 24",
-  "city": "Kraków",
-  "district": "Śródmieście",
-  "address": "ul. Brzozowa 5, 31-050 Kraków",
-  "geo": {
-   "lat": 50.05382,
-   "lng": 19.94473
-  },
-  "url": "https://brzozowa5.edu.pl",
-  "public": true,
-  "students": 414,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "wielozawodowy"
-  ],
-  "professionsRspo": [
-   "Technik geolog",
-   "Technik ochrony środowiska",
-   "Technik wiertnik",
-   "Technik informatyk",
-   "Technik inżynierii sanitarnej",
-   "Technik programista",
-   "Technik cyberbezpieczeństwa"
-  ],
-  "matura": {
-   "year": 2026,
-   "passRate": 85.7,
-   "examinees": 70,
-   "certificates": 60,
-   "extended": {
-    "bio": {
-     "n": 2,
-     "mean": null
-    },
-    "fiz": {
-     "n": 1,
-     "mean": null
-    },
-    "geo": {
-     "n": 1,
-     "mean": null
-    },
-    "hist": {
-     "n": 3,
-     "mean": null
-    },
-    "inf": {
-     "n": 6,
-     "mean": 11.3
-    },
-    "ang": {
-     "n": 68,
-     "mean": 63.8
-    },
-    "pol": {
-     "n": 1,
-     "mean": null
-    },
-    "mat": {
-     "n": 27,
-     "mean": 16.7
-    },
-    "wos": {
-     "n": 1,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/31636",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 31631,
   "type": "technikum",
   "name": "TECHNIKUM KOMUNIKACYJNE NR 25 W KRAKOWIE",
@@ -8403,6 +8312,97 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/31631",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 31636,
+  "type": "technikum",
+  "name": "TECHNIKUM KSZTAŁTOWANIA ŚRODOWISKA NR 24 W KRAKOWIE",
+  "shortName": "Technikum nr 24",
+  "city": "Kraków",
+  "district": "Śródmieście",
+  "address": "ul. Brzozowa 5, 31-050 Kraków",
+  "geo": {
+   "lat": 50.05382,
+   "lng": 19.94473
+  },
+  "url": "https://brzozowa5.edu.pl",
+  "public": true,
+  "students": 414,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik geolog",
+   "Technik ochrony środowiska",
+   "Technik wiertnik",
+   "Technik informatyk",
+   "Technik inżynierii sanitarnej",
+   "Technik programista",
+   "Technik cyberbezpieczeństwa"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 85.7,
+   "examinees": 70,
+   "certificates": 60,
+   "extended": {
+    "bio": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 1,
+     "mean": null
+    },
+    "hist": {
+     "n": 3,
+     "mean": null
+    },
+    "inf": {
+     "n": 6,
+     "mean": 11.3
+    },
+    "ang": {
+     "n": 68,
+     "mean": 63.8
+    },
+    "pol": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 27,
+     "mean": 16.7
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/31636",
     "retrieved": "2026-10-01"
    },
    {
@@ -9157,75 +9157,6 @@
   ]
  },
  {
-  "rspo": 48122,
-  "type": "technikum",
-  "name": "TECHNIKUM PRZEMYSŁU SPOŻYWCZEGO NR 22 IM. ŚW. MAKSYMILIANA MARII KOLBE W KRAKOWIE",
-  "shortName": "Technikum nr 22",
-  "city": "Kraków",
-  "district": "Śródmieście",
-  "address": "ul. Macieja Miechowity 6, 31-469 Kraków",
-  "geo": {
-   "lat": 50.08283,
-   "lng": 19.96598
-  },
-  "url": "https://zsps.krakow.pl",
-  "public": true,
-  "students": 277,
-  "languages": [
-   "ang",
-   "fr",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "integracyjny",
-   "wielozawodowy"
-  ],
-  "professionsRspo": [
-   "Technik technologii żywności",
-   "Technik żywienia i usług gastronomicznych",
-   "Technik usług kelnerskich"
-  ],
-  "matura": {
-   "year": 2026,
-   "passRate": 13.6,
-   "examinees": 22,
-   "certificates": 3,
-   "extended": {
-    "bio": {
-     "n": 5,
-     "mean": 11.8
-    },
-    "ang": {
-     "n": 9,
-     "mean": 51.6
-    },
-    "pol": {
-     "n": 5,
-     "mean": 41.2
-    },
-    "ros": {
-     "n": 3,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/48122",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 91300,
   "type": "technikum",
   "name": "TECHNIKUM PRZEDSIĘBIORSTWA BUDOWNICTWA PRZEMYSŁOWEGO \"CHEMOBUDOWA-KRAKÓW\" S.A.",
@@ -9301,6 +9232,75 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/91300",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 48122,
+  "type": "technikum",
+  "name": "TECHNIKUM PRZEMYSŁU SPOŻYWCZEGO NR 22 IM. ŚW. MAKSYMILIANA MARII KOLBE W KRAKOWIE",
+  "shortName": "Technikum nr 22",
+  "city": "Kraków",
+  "district": "Śródmieście",
+  "address": "ul. Macieja Miechowity 6, 31-469 Kraków",
+  "geo": {
+   "lat": 50.08283,
+   "lng": 19.96598
+  },
+  "url": "https://zsps.krakow.pl",
+  "public": true,
+  "students": 277,
+  "languages": [
+   "ang",
+   "fr",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "integracyjny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik technologii żywności",
+   "Technik żywienia i usług gastronomicznych",
+   "Technik usług kelnerskich"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 13.6,
+   "examinees": 22,
+   "certificates": 3,
+   "extended": {
+    "bio": {
+     "n": 5,
+     "mean": 11.8
+    },
+    "ang": {
+     "n": 9,
+     "mean": 51.6
+    },
+    "pol": {
+     "n": 5,
+     "mean": 41.2
+    },
+    "ros": {
+     "n": 3,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/48122",
     "retrieved": "2026-10-01"
    },
    {

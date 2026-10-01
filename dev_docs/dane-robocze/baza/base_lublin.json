@@ -1369,75 +1369,38 @@
   ]
  },
  {
-  "rspo": 104761,
+  "rspo": 485231,
   "type": "liceum",
-  "name": "NIEPUBLICZNE LICEUM OGÓLNOKSZTAŁCĄCE ARCHE W LUBLINIE",
+  "name": "NIEPUBLICZNE LICEUM OGÓLNOKSZTAŁCĄCE \"RAMUS\" W LUBLINIE",
   "shortName": null,
   "city": "Lublin",
   "district": null,
-  "address": "ul. Konrada Wallenroda 4a, 20-607 Lublin",
+  "address": "ul. Baltazara Paśnikowskiego 6, 20-707 Lublin",
   "geo": {
-   "lat": 51.24069,
-   "lng": 22.5246
+   "lat": 51.23985,
+   "lng": 22.49599
   },
-  "url": "https://www.zsarche.pl",
+  "url": "https://www.ramus.pl",
   "public": false,
-  "students": 49,
+  "students": 235,
   "languages": [
    "ang",
-   "niem"
+   "fr",
+   "hisz",
+   "niem",
+   "ros",
+   "wlo"
   ],
   "specifics": [
    "ogólnodostępny"
   ],
   "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 25,
-   "examinees": 12,
-   "certificates": 3,
-   "extended": {
-    "bio": {
-     "n": 4,
-     "mean": null
-    },
-    "chem": {
-     "n": 1,
-     "mean": null
-    },
-    "geo": {
-     "n": 4,
-     "mean": null
-    },
-    "hist": {
-     "n": 2,
-     "mean": null
-    },
-    "ang": {
-     "n": 8,
-     "mean": 48
-    },
-    "pol": {
-     "n": 2,
-     "mean": null
-    },
-    "wos": {
-     "n": 1,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
+  "matura": null,
   "profiles": [],
   "sources": [
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/104761",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "url": "https://rspo.gov.pl/api/Institution/485231",
     "retrieved": "2026-10-01"
    }
   ]
@@ -1523,38 +1486,75 @@
   ]
  },
  {
-  "rspo": 485231,
+  "rspo": 104761,
   "type": "liceum",
-  "name": "NIEPUBLICZNE LICEUM OGÓLNOKSZTAŁCĄCE \"RAMUS\" W LUBLINIE",
+  "name": "NIEPUBLICZNE LICEUM OGÓLNOKSZTAŁCĄCE ARCHE W LUBLINIE",
   "shortName": null,
   "city": "Lublin",
   "district": null,
-  "address": "ul. Baltazara Paśnikowskiego 6, 20-707 Lublin",
+  "address": "ul. Konrada Wallenroda 4a, 20-607 Lublin",
   "geo": {
-   "lat": 51.23985,
-   "lng": 22.49599
+   "lat": 51.24069,
+   "lng": 22.5246
   },
-  "url": "https://www.ramus.pl",
+  "url": "https://www.zsarche.pl",
   "public": false,
-  "students": 235,
+  "students": 49,
   "languages": [
    "ang",
-   "fr",
-   "hisz",
-   "niem",
-   "ros",
-   "wlo"
+   "niem"
   ],
   "specifics": [
    "ogólnodostępny"
   ],
   "professionsRspo": [],
-  "matura": null,
+  "matura": {
+   "year": 2026,
+   "passRate": 25,
+   "examinees": 12,
+   "certificates": 3,
+   "extended": {
+    "bio": {
+     "n": 4,
+     "mean": null
+    },
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 4,
+     "mean": null
+    },
+    "hist": {
+     "n": 2,
+     "mean": null
+    },
+    "ang": {
+     "n": 8,
+     "mean": 48
+    },
+    "pol": {
+     "n": 2,
+     "mean": null
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
   "profiles": [],
   "sources": [
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/485231",
+    "url": "https://rspo.gov.pl/api/Institution/104761",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
     "retrieved": "2026-10-01"
    }
   ]
@@ -2659,106 +2659,6 @@
   ]
  },
  {
-  "rspo": 79023,
-  "type": "liceum",
-  "name": "XIX LICEUM OGÓLNOKSZTAŁCĄCE IM. MARII I JERZEGO KUNCEWICZÓW W LUBLINIE",
-  "shortName": "XIX LO",
-  "city": "Lublin",
-  "district": null,
-  "address": "ul. Ignacego Rzeckiego 10, 20-637 Lublin",
-  "geo": {
-   "lat": 51.23471,
-   "lng": 22.53335
-  },
-  "url": "https://lo19.lublin.eu/",
-  "public": true,
-  "students": 425,
-  "languages": [
-   "ang",
-   "hisz",
-   "niem",
-   "ros"
-  ],
-  "specifics": [
-   "ogólnodostępny"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 70.1,
-   "examinees": 147,
-   "certificates": 103,
-   "extended": {
-    "bio": {
-     "n": 48,
-     "mean": 26
-    },
-    "chem": {
-     "n": 12,
-     "mean": 14.2
-    },
-    "fil": {
-     "n": 3,
-     "mean": null
-    },
-    "geo": {
-     "n": 26,
-     "mean": 27.8
-    },
-    "hist": {
-     "n": 12,
-     "mean": 24.7
-    },
-    "hsz": {
-     "n": 1,
-     "mean": null
-    },
-    "inf": {
-     "n": 5,
-     "mean": 24.4
-    },
-    "ang": {
-     "n": 111,
-     "mean": 62.9
-    },
-    "niem": {
-     "n": 1,
-     "mean": null
-    },
-    "pol": {
-     "n": 56,
-     "mean": 43.2
-    },
-    "ros": {
-     "n": 3,
-     "mean": null
-    },
-    "mat": {
-     "n": 11,
-     "mean": 29.1
-    },
-    "wos": {
-     "n": 11,
-     "mean": 20.5
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/79023",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 91549,
   "type": "liceum",
   "name": "XIV LICEUM OGÓLNOKSZTAŁCĄCE W LUBLINIE",
@@ -2855,6 +2755,106 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/91549",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 79023,
+  "type": "liceum",
+  "name": "XIX LICEUM OGÓLNOKSZTAŁCĄCE IM. MARII I JERZEGO KUNCEWICZÓW W LUBLINIE",
+  "shortName": "XIX LO",
+  "city": "Lublin",
+  "district": null,
+  "address": "ul. Ignacego Rzeckiego 10, 20-637 Lublin",
+  "geo": {
+   "lat": 51.23471,
+   "lng": 22.53335
+  },
+  "url": "https://lo19.lublin.eu/",
+  "public": true,
+  "students": 425,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem",
+   "ros"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 70.1,
+   "examinees": 147,
+   "certificates": 103,
+   "extended": {
+    "bio": {
+     "n": 48,
+     "mean": 26
+    },
+    "chem": {
+     "n": 12,
+     "mean": 14.2
+    },
+    "fil": {
+     "n": 3,
+     "mean": null
+    },
+    "geo": {
+     "n": 26,
+     "mean": 27.8
+    },
+    "hist": {
+     "n": 12,
+     "mean": 24.7
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "inf": {
+     "n": 5,
+     "mean": 24.4
+    },
+    "ang": {
+     "n": 111,
+     "mean": 62.9
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 56,
+     "mean": 43.2
+    },
+    "ros": {
+     "n": 3,
+     "mean": null
+    },
+    "mat": {
+     "n": 11,
+     "mean": 29.1
+    },
+    "wos": {
+     "n": 11,
+     "mean": 20.5
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/79023",
     "retrieved": "2026-10-01"
    },
    {
@@ -3610,6 +3610,180 @@
   ]
  },
  {
+  "rspo": 64353,
+  "type": "liceum",
+  "name": "ZESPÓŁ SZKÓŁ EKONOMICZNYCH IM. A. I J. VETTERÓW XVI LICEUM OGÓLNOKSZTAŁCĄCE W LUBLINIE",
+  "shortName": "XVI LO",
+  "city": "Lublin",
+  "district": null,
+  "address": "ul. Bernardyńska 14, 20-109 Lublin",
+  "geo": {
+   "lat": 51.24576,
+   "lng": 22.56614
+  },
+  "url": "https://zsek.lublin.eu",
+  "public": true,
+  "students": 150,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 83.3,
+   "examinees": 60,
+   "certificates": 50,
+   "extended": {
+    "bio": {
+     "n": 19,
+     "mean": 29.3
+    },
+    "chem": {
+     "n": 3,
+     "mean": null
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 7,
+     "mean": 22
+    },
+    "geo": {
+     "n": 8,
+     "mean": 27
+    },
+    "hist": {
+     "n": 2,
+     "mean": null
+    },
+    "ang": {
+     "n": 47,
+     "mean": 69.6
+    },
+    "hisz": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 39,
+     "mean": 43.9
+    },
+    "mat": {
+     "n": 5,
+     "mean": 11.6
+    },
+    "wos": {
+     "n": 10,
+     "mean": 25.4
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/64353",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 58362,
+  "type": "liceum",
+  "name": "ZESPÓŁ SZKÓŁ ELEKTRONICZNYCH X LICEUM OGÓLNOKSZTAŁCĄCE MISTRZOSTWA SPORTOWEGO W LUBLINIE",
+  "shortName": "X LO",
+  "city": "Lublin",
+  "district": null,
+  "address": "ul. Wojciechowska 38, 20-704 Lublin",
+  "geo": {
+   "lat": 51.2465,
+   "lng": 22.50815
+  },
+  "url": "https://www.zsel.lublin.eu",
+  "public": true,
+  "students": 124,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "mistrzostwa sportowego"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 78.6,
+   "examinees": 28,
+   "certificates": 22,
+   "extended": {
+    "bio": {
+     "n": 9,
+     "mean": 27.2
+    },
+    "chem": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 21,
+     "mean": 36.3
+    },
+    "hist": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 24,
+     "mean": 60.3
+    },
+    "pol": {
+     "n": 5,
+     "mean": 33.2
+    },
+    "mat": {
+     "n": 6,
+     "mean": 34
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/58362",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 73924,
   "type": "liceum",
   "name": "ZESPÓŁ SZKÓŁ NR 1 IM. WŁADYSŁAWA GRABSKIEGO XV LICEUM OGÓLNOKSZTAŁCĄCE W LUBLINIE",
@@ -3808,180 +3982,6 @@
   ]
  },
  {
-  "rspo": 58362,
-  "type": "liceum",
-  "name": "ZESPÓŁ SZKÓŁ ELEKTRONICZNYCH X LICEUM OGÓLNOKSZTAŁCĄCE MISTRZOSTWA SPORTOWEGO W LUBLINIE",
-  "shortName": "X LO",
-  "city": "Lublin",
-  "district": null,
-  "address": "ul. Wojciechowska 38, 20-704 Lublin",
-  "geo": {
-   "lat": 51.2465,
-   "lng": 22.50815
-  },
-  "url": "https://www.zsel.lublin.eu",
-  "public": true,
-  "students": 124,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "mistrzostwa sportowego"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 78.6,
-   "examinees": 28,
-   "certificates": 22,
-   "extended": {
-    "bio": {
-     "n": 9,
-     "mean": 27.2
-    },
-    "chem": {
-     "n": 1,
-     "mean": null
-    },
-    "fiz": {
-     "n": 1,
-     "mean": null
-    },
-    "geo": {
-     "n": 21,
-     "mean": 36.3
-    },
-    "hist": {
-     "n": 3,
-     "mean": null
-    },
-    "ang": {
-     "n": 24,
-     "mean": 60.3
-    },
-    "pol": {
-     "n": 5,
-     "mean": 33.2
-    },
-    "mat": {
-     "n": 6,
-     "mean": 34
-    },
-    "wos": {
-     "n": 1,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/58362",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 64353,
-  "type": "liceum",
-  "name": "ZESPÓŁ SZKÓŁ EKONOMICZNYCH IM. A. I J. VETTERÓW XVI LICEUM OGÓLNOKSZTAŁCĄCE W LUBLINIE",
-  "shortName": "XVI LO",
-  "city": "Lublin",
-  "district": null,
-  "address": "ul. Bernardyńska 14, 20-109 Lublin",
-  "geo": {
-   "lat": 51.24576,
-   "lng": 22.56614
-  },
-  "url": "https://zsek.lublin.eu",
-  "public": true,
-  "students": 150,
-  "languages": [
-   "ang",
-   "hisz",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 83.3,
-   "examinees": 60,
-   "certificates": 50,
-   "extended": {
-    "bio": {
-     "n": 19,
-     "mean": 29.3
-    },
-    "chem": {
-     "n": 3,
-     "mean": null
-    },
-    "fil": {
-     "n": 1,
-     "mean": null
-    },
-    "fiz": {
-     "n": 7,
-     "mean": 22
-    },
-    "geo": {
-     "n": 8,
-     "mean": 27
-    },
-    "hist": {
-     "n": 2,
-     "mean": null
-    },
-    "ang": {
-     "n": 47,
-     "mean": 69.6
-    },
-    "hisz": {
-     "n": 1,
-     "mean": null
-    },
-    "pol": {
-     "n": 39,
-     "mean": 43.9
-    },
-    "mat": {
-     "n": 5,
-     "mean": 11.6
-    },
-    "wos": {
-     "n": 10,
-     "mean": 25.4
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/64353",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 80219,
   "type": "technikum",
   "name": "LUBELSKIE CENTRUM KSZTAŁCENIA ZAWODOWEGO I USTAWICZNEGO IM. KRZYSZTOFA KAMILA BACZYŃSKIEGO TECHNIKUM MECHANICZNE W LUBLINIE",
@@ -4122,74 +4122,6 @@
   ]
  },
  {
-  "rspo": 80294,
-  "type": "technikum",
-  "name": "PAŃSTWOWE SZKOŁY BUDOWNICTWA I GEODEZJI W LUBLINIE TECHNIKUM TERENÓW ZIELENI",
-  "shortName": null,
-  "city": "Lublin",
-  "district": null,
-  "address": "ul. aleje Racławickie 5, 20-059 Lublin",
-  "geo": {
-   "lat": 51.24928,
-   "lng": 22.54116
-  },
-  "url": "https://www.psbig.lublin.eu",
-  "public": true,
-  "students": 53,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny"
-  ],
-  "professionsRspo": [
-   "Technik architektury krajobrazu"
-  ],
-  "matura": {
-   "year": 2026,
-   "passRate": 57.1,
-   "examinees": 28,
-   "certificates": 16,
-   "extended": {
-    "bio": {
-     "n": 18,
-     "mean": 28.7
-    },
-    "geo": {
-     "n": 1,
-     "mean": null
-    },
-    "ang": {
-     "n": 17,
-     "mean": 64.9
-    },
-    "pol": {
-     "n": 4,
-     "mean": null
-    },
-    "mat": {
-     "n": 1,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/80294",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 80262,
   "type": "technikum",
   "name": "PAŃSTWOWE SZKOŁY BUDOWNICTWA I GEODEZJI TECHNIKUM BUDOWLANO-GEODEZYJNE W LUBLINIE",
@@ -4288,6 +4220,74 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/80262",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 80294,
+  "type": "technikum",
+  "name": "PAŃSTWOWE SZKOŁY BUDOWNICTWA I GEODEZJI W LUBLINIE TECHNIKUM TERENÓW ZIELENI",
+  "shortName": null,
+  "city": "Lublin",
+  "district": null,
+  "address": "ul. aleje Racławickie 5, 20-059 Lublin",
+  "geo": {
+   "lat": 51.24928,
+   "lng": 22.54116
+  },
+  "url": "https://www.psbig.lublin.eu",
+  "public": true,
+  "students": 53,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [
+   "Technik architektury krajobrazu"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 57.1,
+   "examinees": 28,
+   "certificates": 16,
+   "extended": {
+    "bio": {
+     "n": 18,
+     "mean": 28.7
+    },
+    "geo": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 17,
+     "mean": 64.9
+    },
+    "pol": {
+     "n": 4,
+     "mean": null
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/80294",
     "retrieved": "2026-10-01"
    },
    {
@@ -4658,58 +4658,6 @@
   ]
  },
  {
-  "rspo": 31588,
-  "type": "technikum",
-  "name": "ZESPÓŁ SZKÓŁ BUDOWLANYCH IM. EUGENIUSZA KWIATKOWSKIEGO TECHNIKUM DRZEWNE",
-  "shortName": null,
-  "city": "Lublin",
-  "district": null,
-  "address": "ul. Słowicza 3, 20-336 Lublin",
-  "geo": {
-   "lat": 51.22996,
-   "lng": 22.60013
-  },
-  "url": "https://www.zsb.lublin.eu",
-  "public": true,
-  "students": 25,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny"
-  ],
-  "professionsRspo": [
-   "Technik technologii drewna"
-  ],
-  "matura": {
-   "year": 2025,
-   "passRate": null,
-   "examinees": 1,
-   "certificates": 0,
-   "extended": {
-    "geo": {
-     "n": 1,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2025/EM2023_2025_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/31588",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2025",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2025/EM2023_2025_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 31604,
   "type": "technikum",
   "name": "ZESPÓŁ SZKÓŁ BUDOWLANYCH IM. EUGENIUSZA KWIATKOWSKIEGO TECHNIKUM BUDOWLANE",
@@ -4787,115 +4735,20 @@
   ]
  },
  {
-  "rspo": 58299,
+  "rspo": 31588,
   "type": "technikum",
-  "name": "ZESPÓŁ SZKÓŁ ENERGETYCZNYCH IM.PROF.KAZIMIERZA DREWNOWSKIEGO TECHNIKUM ENERGETYCZNO-INFORMATYCZNE W LUBLINIE",
+  "name": "ZESPÓŁ SZKÓŁ BUDOWLANYCH IM. EUGENIUSZA KWIATKOWSKIEGO TECHNIKUM DRZEWNE",
   "shortName": null,
   "city": "Lublin",
   "district": null,
-  "address": "ul. Długa 6, 20-346 Lublin",
+  "address": "ul. Słowicza 3, 20-336 Lublin",
   "geo": {
-   "lat": 51.23372,
-   "lng": 22.57756
+   "lat": 51.22996,
+   "lng": 22.60013
   },
-  "url": "https://zsen.lublin.eu",
+  "url": "https://www.zsb.lublin.eu",
   "public": true,
-  "students": 512,
-  "languages": [
-   "ang",
-   "niem",
-   "ros"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "wielozawodowy"
-  ],
-  "professionsRspo": [
-   "Technik elektronik",
-   "Technik elektryk",
-   "Technik informatyk",
-   "Technik energetyk",
-   "Technik urządzeń i systemów energetyki odnawialnej",
-   "Technik programista"
-  ],
-  "matura": {
-   "year": 2026,
-   "passRate": 91.3,
-   "examinees": 92,
-   "certificates": 84,
-   "extended": {
-    "bio": {
-     "n": 3,
-     "mean": null
-    },
-    "fil": {
-     "n": 1,
-     "mean": null
-    },
-    "fiz": {
-     "n": 2,
-     "mean": null
-    },
-    "geo": {
-     "n": 9,
-     "mean": 27.2
-    },
-    "hist": {
-     "n": 8,
-     "mean": 31.9
-    },
-    "inf": {
-     "n": 14,
-     "mean": 29.7
-    },
-    "ang": {
-     "n": 71,
-     "mean": 70.2
-    },
-    "ang_dwj": {
-     "n": 1,
-     "mean": null
-    },
-    "mat": {
-     "n": 49,
-     "mean": 22
-    },
-    "wos": {
-     "n": 1,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/58299",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 64290,
-  "type": "technikum",
-  "name": "ZESPÓŁ SZKÓŁ CHEMICZNYCH I PRZEMYSŁU SPOŻYWCZEGO IM. GEN. FRANCISZKA KLEEBERGA TECHNIKUM PRZEMYSŁU SPOŻYWCZEGO W LUBLINIE",
-  "shortName": null,
-  "city": "Lublin",
-  "district": null,
-  "address": "ul. aleje Racławickie 7, 20-059 Lublin",
-  "geo": {
-   "lat": 51.24944,
-   "lng": 22.54001
-  },
-  "url": "https://www.zschips.lublin.eu",
-  "public": true,
-  "students": 80,
+  "students": 25,
   "languages": [
    "ang",
    "niem"
@@ -4904,135 +4757,31 @@
    "ogólnodostępny"
   ],
   "professionsRspo": [
-   "Technik technologii żywności"
+   "Technik technologii drewna"
   ],
   "matura": {
-   "year": 2026,
-   "passRate": 64.7,
-   "examinees": 17,
-   "certificates": 11,
+   "year": 2025,
+   "passRate": null,
+   "examinees": 1,
+   "certificates": 0,
    "extended": {
-    "bio": {
-     "n": 5,
-     "mean": 23.2
-    },
     "geo": {
-     "n": 3,
-     "mean": null
-    },
-    "ang": {
-     "n": 6,
-     "mean": 63.3
-    },
-    "pol": {
-     "n": 3,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/64290",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 58361,
-  "type": "technikum",
-  "name": "ZESPÓŁ SZKÓŁ ELEKTRONICZNYCH TECHNIKUM ELEKTRONICZNE W LUBLINIE",
-  "shortName": null,
-  "city": "Lublin",
-  "district": null,
-  "address": "ul. Wojciechowska 38, 20-704 Lublin",
-  "geo": {
-   "lat": 51.2465,
-   "lng": 22.50815
-  },
-  "url": "https://www.zsel.lublin.eu",
-  "public": true,
-  "students": 717,
-  "languages": [
-   "ang",
-   "niem",
-   "ros"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "wielozawodowy"
-  ],
-  "professionsRspo": [
-   "Technik elektronik",
-   "Technik teleinformatyk",
-   "Technik szerokopasmowej komunikacji elektronicznej"
-  ],
-  "matura": {
-   "year": 2026,
-   "passRate": 96.9,
-   "examinees": 131,
-   "certificates": 127,
-   "extended": {
-    "bio": {
-     "n": 4,
-     "mean": null
-    },
-    "fiz": {
-     "n": 50,
-     "mean": 40.5
-    },
-    "geo": {
-     "n": 6,
-     "mean": 57.3
-    },
-    "hist": {
-     "n": 2,
-     "mean": null
-    },
-    "inf": {
-     "n": 17,
-     "mean": 42.4
-    },
-    "ang": {
-     "n": 120,
-     "mean": 77.5
-    },
-    "pol": {
-     "n": 3,
-     "mean": null
-    },
-    "ros": {
      "n": 1,
      "mean": null
-    },
-    "mat": {
-     "n": 121,
-     "mean": 42.5
-    },
-    "wos": {
-     "n": 5,
-     "mean": 68
     }
    },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2025/EM2023_2025_szkoly_07.xlsx"
   },
   "profiles": [],
   "sources": [
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/58361",
+    "url": "https://rspo.gov.pl/api/Institution/31588",
     "retrieved": "2026-10-01"
    },
    {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "name": "CKE Mapa Egzaminów, matura 2025",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2025/EM2023_2025_szkoly_07.xlsx",
     "retrieved": "2026-10-01"
    }
   ]
@@ -5105,6 +4854,70 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/64291",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 64290,
+  "type": "technikum",
+  "name": "ZESPÓŁ SZKÓŁ CHEMICZNYCH I PRZEMYSŁU SPOŻYWCZEGO IM. GEN. FRANCISZKA KLEEBERGA TECHNIKUM PRZEMYSŁU SPOŻYWCZEGO W LUBLINIE",
+  "shortName": null,
+  "city": "Lublin",
+  "district": null,
+  "address": "ul. aleje Racławickie 7, 20-059 Lublin",
+  "geo": {
+   "lat": 51.24944,
+   "lng": 22.54001
+  },
+  "url": "https://www.zschips.lublin.eu",
+  "public": true,
+  "students": 80,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [
+   "Technik technologii żywności"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 64.7,
+   "examinees": 17,
+   "certificates": 11,
+   "extended": {
+    "bio": {
+     "n": 5,
+     "mean": 23.2
+    },
+    "geo": {
+     "n": 3,
+     "mean": null
+    },
+    "ang": {
+     "n": 6,
+     "mean": 63.3
+    },
+    "pol": {
+     "n": 3,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/64290",
     "retrieved": "2026-10-01"
    },
    {
@@ -5217,6 +5030,193 @@
   ]
  },
  {
+  "rspo": 58361,
+  "type": "technikum",
+  "name": "ZESPÓŁ SZKÓŁ ELEKTRONICZNYCH TECHNIKUM ELEKTRONICZNE W LUBLINIE",
+  "shortName": null,
+  "city": "Lublin",
+  "district": null,
+  "address": "ul. Wojciechowska 38, 20-704 Lublin",
+  "geo": {
+   "lat": 51.2465,
+   "lng": 22.50815
+  },
+  "url": "https://www.zsel.lublin.eu",
+  "public": true,
+  "students": 717,
+  "languages": [
+   "ang",
+   "niem",
+   "ros"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik elektronik",
+   "Technik teleinformatyk",
+   "Technik szerokopasmowej komunikacji elektronicznej"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 96.9,
+   "examinees": 131,
+   "certificates": 127,
+   "extended": {
+    "bio": {
+     "n": 4,
+     "mean": null
+    },
+    "fiz": {
+     "n": 50,
+     "mean": 40.5
+    },
+    "geo": {
+     "n": 6,
+     "mean": 57.3
+    },
+    "hist": {
+     "n": 2,
+     "mean": null
+    },
+    "inf": {
+     "n": 17,
+     "mean": 42.4
+    },
+    "ang": {
+     "n": 120,
+     "mean": 77.5
+    },
+    "pol": {
+     "n": 3,
+     "mean": null
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 121,
+     "mean": 42.5
+    },
+    "wos": {
+     "n": 5,
+     "mean": 68
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/58361",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 58299,
+  "type": "technikum",
+  "name": "ZESPÓŁ SZKÓŁ ENERGETYCZNYCH IM.PROF.KAZIMIERZA DREWNOWSKIEGO TECHNIKUM ENERGETYCZNO-INFORMATYCZNE W LUBLINIE",
+  "shortName": null,
+  "city": "Lublin",
+  "district": null,
+  "address": "ul. Długa 6, 20-346 Lublin",
+  "geo": {
+   "lat": 51.23372,
+   "lng": 22.57756
+  },
+  "url": "https://zsen.lublin.eu",
+  "public": true,
+  "students": 512,
+  "languages": [
+   "ang",
+   "niem",
+   "ros"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik elektronik",
+   "Technik elektryk",
+   "Technik informatyk",
+   "Technik energetyk",
+   "Technik urządzeń i systemów energetyki odnawialnej",
+   "Technik programista"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 91.3,
+   "examinees": 92,
+   "certificates": 84,
+   "extended": {
+    "bio": {
+     "n": 3,
+     "mean": null
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "fiz": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 9,
+     "mean": 27.2
+    },
+    "hist": {
+     "n": 8,
+     "mean": 31.9
+    },
+    "inf": {
+     "n": 14,
+     "mean": 29.7
+    },
+    "ang": {
+     "n": 71,
+     "mean": 70.2
+    },
+    "ang_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 49,
+     "mean": 22
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/58299",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 75312,
   "type": "technikum",
   "name": "ZESPÓŁ SZKÓŁ NR 1 IM. WŁADYSŁAWA GRABSKIEGO TECHNIKUM EKONOMICZNO-HANDLOWE W LUBLINIE",
@@ -5306,6 +5306,86 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/75312",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 70879,
+  "type": "technikum",
+  "name": "ZESPÓŁ SZKÓŁ NR 5 IM. JANA PAWŁA II TECHNIKUM GASTRONOMICZNO-HOTELARSKIE W LUBLINIE",
+  "shortName": null,
+  "city": "Lublin",
+  "district": null,
+  "address": "ul. Józefa Elsnera 5, 20-854 Lublin",
+  "geo": {
+   "lat": 51.26781,
+   "lng": 22.55328
+  },
+  "url": "https://www.zs5.lublin.eu",
+  "public": true,
+  "students": 384,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik hotelarstwa",
+   "Technik żywienia i usług gastronomicznych",
+   "Technik organizacji turystyki"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 67.9,
+   "examinees": 56,
+   "certificates": 38,
+   "extended": {
+    "bio": {
+     "n": 15,
+     "mean": 19.4
+    },
+    "fil": {
+     "n": 1,
+     "mean": null
+    },
+    "geo": {
+     "n": 18,
+     "mean": 38.6
+    },
+    "ang": {
+     "n": 26,
+     "mean": 66.6
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 1,
+     "mean": null
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/70879",
     "retrieved": "2026-10-01"
    },
    {
@@ -5417,23 +5497,22 @@
   ]
  },
  {
-  "rspo": 70879,
+  "rspo": 34455,
   "type": "technikum",
-  "name": "ZESPÓŁ SZKÓŁ NR 5 IM. JANA PAWŁA II TECHNIKUM GASTRONOMICZNO-HOTELARSKIE W LUBLINIE",
+  "name": "ZESPÓŁ SZKÓŁ SAMOCHODOWYCH IM. STANISŁAWA SYROCZYŃSKIEGO W LUBLINIE TECHNIKUM SAMOCHODOWE",
   "shortName": null,
   "city": "Lublin",
   "district": null,
-  "address": "ul. Józefa Elsnera 5, 20-854 Lublin",
+  "address": "ul. Aleja Jana Długosza 10a, 20-054 Lublin",
   "geo": {
-   "lat": 51.26781,
-   "lng": 22.55328
+   "lat": 51.25166,
+   "lng": 22.54287
   },
-  "url": "https://www.zs5.lublin.eu",
+  "url": "https://zss.lublin.eu",
   "public": true,
-  "students": 384,
+  "students": 351,
   "languages": [
    "ang",
-   "hisz",
    "niem"
   ],
   "specifics": [
@@ -5441,43 +5520,38 @@
    "wielozawodowy"
   ],
   "professionsRspo": [
-   "Technik hotelarstwa",
-   "Technik żywienia i usług gastronomicznych",
-   "Technik organizacji turystyki"
+   "Technik pojazdów samochodowych",
+   "Technik elektromobilności"
   ],
   "matura": {
    "year": 2026,
-   "passRate": 67.9,
-   "examinees": 56,
-   "certificates": 38,
+   "passRate": 67.5,
+   "examinees": 40,
+   "certificates": 27,
    "extended": {
     "bio": {
-     "n": 15,
-     "mean": 19.4
+     "n": 2,
+     "mean": null
     },
-    "fil": {
+    "chem": {
      "n": 1,
      "mean": null
     },
     "geo": {
-     "n": 18,
-     "mean": 38.6
+     "n": 3,
+     "mean": null
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
     },
     "ang": {
-     "n": 26,
-     "mean": 66.6
-    },
-    "niem": {
-     "n": 1,
-     "mean": null
-    },
-    "pol": {
-     "n": 1,
-     "mean": null
+     "n": 19,
+     "mean": 49.4
     },
     "mat": {
-     "n": 1,
-     "mean": null
+     "n": 7,
+     "mean": 16.6
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -5486,7 +5560,7 @@
   "sources": [
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/70879",
+    "url": "https://rspo.gov.pl/api/Institution/34455",
     "retrieved": "2026-10-01"
    },
    {
@@ -5574,80 +5648,6 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/70883",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 34455,
-  "type": "technikum",
-  "name": "ZESPÓŁ SZKÓŁ SAMOCHODOWYCH IM. STANISŁAWA SYROCZYŃSKIEGO W LUBLINIE TECHNIKUM SAMOCHODOWE",
-  "shortName": null,
-  "city": "Lublin",
-  "district": null,
-  "address": "ul. Aleja Jana Długosza 10a, 20-054 Lublin",
-  "geo": {
-   "lat": 51.25166,
-   "lng": 22.54287
-  },
-  "url": "https://zss.lublin.eu",
-  "public": true,
-  "students": 351,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "wielozawodowy"
-  ],
-  "professionsRspo": [
-   "Technik pojazdów samochodowych",
-   "Technik elektromobilności"
-  ],
-  "matura": {
-   "year": 2026,
-   "passRate": 67.5,
-   "examinees": 40,
-   "certificates": 27,
-   "extended": {
-    "bio": {
-     "n": 2,
-     "mean": null
-    },
-    "chem": {
-     "n": 1,
-     "mean": null
-    },
-    "geo": {
-     "n": 3,
-     "mean": null
-    },
-    "hist": {
-     "n": 1,
-     "mean": null
-    },
-    "ang": {
-     "n": 19,
-     "mean": 49.4
-    },
-    "mat": {
-     "n": 7,
-     "mean": 16.6
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/34455",
     "retrieved": "2026-10-01"
    },
    {

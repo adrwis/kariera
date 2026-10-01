@@ -338,6 +338,40 @@
   ]
  },
  {
+  "rspo": 265124,
+  "type": "liceum",
+  "name": "AUTORSKIE LICEUM OGÓLNOKSZTAŁCĄCE GALILEO",
+  "shortName": null,
+  "city": "Wrocław",
+  "district": "Stare Miasto",
+  "address": "ul. Inowrocławska 56, 53-648 Wrocław",
+  "geo": {
+   "lat": 51.11736,
+   "lng": 17.01462
+  },
+  "url": "https://galileo.edu.pl",
+  "public": false,
+  "students": 32,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/265124",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 478324,
   "type": "liceum",
   "name": "AUTORSKIE LICEUM PRZYSZŁOŚCI",
@@ -432,40 +466,6 @@
    {
     "name": "CKE Mapa Egzaminów, matura 2026",
     "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 265124,
-  "type": "liceum",
-  "name": "AUTORSKIE LICEUM OGÓLNOKSZTAŁCĄCE GALILEO",
-  "shortName": null,
-  "city": "Wrocław",
-  "district": "Stare Miasto",
-  "address": "ul. Inowrocławska 56, 53-648 Wrocław",
-  "geo": {
-   "lat": 51.11736,
-   "lng": 17.01462
-  },
-  "url": "https://galileo.edu.pl",
-  "public": false,
-  "students": 32,
-  "languages": [
-   "ang",
-   "hisz",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny"
-  ],
-  "professionsRspo": [],
-  "matura": null,
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/265124",
     "retrieved": "2026-10-01"
    }
   ]
@@ -698,43 +698,6 @@
   ]
  },
  {
-  "rspo": 482278,
-  "type": "liceum",
-  "name": "LICEUM OGÓLNOKSZTAŁCĄCE \"LICEUM W CHMURZE\" WE WROCŁAWIU",
-  "shortName": null,
-  "city": "Wrocław",
-  "district": "Fabryczna",
-  "address": "ul. Marszowicka 150, 54-078 Wrocław",
-  "geo": {
-   "lat": 51.14868,
-   "lng": 16.87078
-  },
-  "url": "https://szkolawchmurze.org",
-  "public": false,
-  "students": 218,
-  "languages": [
-   "ang",
-   "fr",
-   "hisz",
-   "niem",
-   "ros",
-   "wlo"
-  ],
-  "specifics": [
-   "ogólnodostępny"
-  ],
-  "professionsRspo": [],
-  "matura": null,
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/482278",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 269094,
   "type": "liceum",
   "name": "LICEUM OGÓLNOKSZTAŁCĄCE \"EDUKACJA\"",
@@ -842,6 +805,43 @@
    {
     "name": "CKE Mapa Egzaminów, matura 2026",
     "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 482278,
+  "type": "liceum",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE \"LICEUM W CHMURZE\" WE WROCŁAWIU",
+  "shortName": null,
+  "city": "Wrocław",
+  "district": "Fabryczna",
+  "address": "ul. Marszowicka 150, 54-078 Wrocław",
+  "geo": {
+   "lat": 51.14868,
+   "lng": 16.87078
+  },
+  "url": "https://szkolawchmurze.org",
+  "public": false,
+  "students": 218,
+  "languages": [
+   "ang",
+   "fr",
+   "hisz",
+   "niem",
+   "ros",
+   "wlo"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/482278",
     "retrieved": "2026-10-01"
    }
   ]
@@ -1507,6 +1507,108 @@
   ]
  },
  {
+  "rspo": 11474,
+  "type": "liceum",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE NR III IM. ADAMA MICKIEWICZA",
+  "shortName": null,
+  "city": "Wrocław",
+  "district": "Śródmieście",
+  "address": "ul. Składowa 5, 50-209 Wrocław",
+  "geo": {
+   "lat": 51.12029,
+   "lng": 17.027
+  },
+  "url": "https://www.lo3.wroc.pl",
+  "public": true,
+  "students": 606,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 100,
+   "examinees": 155,
+   "certificates": 155,
+   "extended": {
+    "bio": {
+     "n": 39,
+     "mean": 81.4
+    },
+    "chem": {
+     "n": 34,
+     "mean": 75.6
+    },
+    "fiz": {
+     "n": 78,
+     "mean": 67.9
+    },
+    "geo": {
+     "n": 7,
+     "mean": 87.4
+    },
+    "hist": {
+     "n": 3,
+     "mean": null
+    },
+    "hsz": {
+     "n": 2,
+     "mean": null
+    },
+    "inf": {
+     "n": 64,
+     "mean": 71.1
+    },
+    "ang": {
+     "n": 147,
+     "mean": 89.9
+    },
+    "ang_dwj": {
+     "n": 2,
+     "mean": null
+    },
+    "hisz": {
+     "n": 1,
+     "mean": null
+    },
+    "lac": {
+     "n": 2,
+     "mean": null
+    },
+    "niem": {
+     "n": 3,
+     "mean": null
+    },
+    "pol": {
+     "n": 19,
+     "mean": 61.8
+    },
+    "mat": {
+     "n": 149,
+     "mean": 70.1
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/11474",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 11475,
   "type": "liceum",
   "name": "LICEUM OGÓLNOKSZTAŁCĄCE NR IV IM. STEFANA ŻEROMSKIEGO",
@@ -1627,89 +1729,108 @@
   ]
  },
  {
-  "rspo": 11474,
+  "rspo": 68270,
   "type": "liceum",
-  "name": "LICEUM OGÓLNOKSZTAŁCĄCE NR III IM. ADAMA MICKIEWICZA",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE NR IX IM. JULIUSZA SŁOWACKIEGO",
   "shortName": null,
   "city": "Wrocław",
-  "district": "Śródmieście",
-  "address": "ul. Składowa 5, 50-209 Wrocław",
+  "district": "Stare Miasto",
+  "address": "ul. ks. Piotra Skargi 31, 50-082 Wrocław",
   "geo": {
-   "lat": 51.12029,
-   "lng": 17.027
+   "lat": 51.10719,
+   "lng": 17.03884
   },
-  "url": "https://www.lo3.wroc.pl",
+  "url": "https://www.lo9.wroc.pl",
   "public": true,
-  "students": 606,
+  "students": 1150,
   "languages": [
    "ang",
-   "niem"
+   "fr",
+   "hisz",
+   "łacina",
+   "niem",
+   "ros",
+   "wlo",
+   "czeski"
   ],
   "specifics": [
-   "ogólnodostępny"
+   "ogólnodostępny",
+   "dwujęzyczny w szkole podstawowej, liceum i technikum"
   ],
   "professionsRspo": [],
   "matura": {
    "year": 2026,
-   "passRate": 100,
-   "examinees": 155,
-   "certificates": 155,
+   "passRate": 99.7,
+   "examinees": 306,
+   "certificates": 305,
    "extended": {
     "bio": {
-     "n": 39,
-     "mean": 81.4
+     "n": 62,
+     "mean": 56.5
     },
     "chem": {
-     "n": 34,
-     "mean": 75.6
+     "n": 48,
+     "mean": 57.8
     },
     "fiz": {
-     "n": 78,
-     "mean": 67.9
+     "n": 52,
+     "mean": 47.3
     },
     "geo": {
-     "n": 7,
-     "mean": 87.4
+     "n": 68,
+     "mean": 65.5
     },
     "hist": {
-     "n": 3,
-     "mean": null
+     "n": 89,
+     "mean": 54.2
     },
     "hsz": {
      "n": 2,
      "mean": null
     },
     "inf": {
-     "n": 64,
-     "mean": 71.1
+     "n": 24,
+     "mean": 54.6
     },
     "ang": {
-     "n": 147,
-     "mean": 89.9
+     "n": 285,
+     "mean": 89.2
     },
     "ang_dwj": {
-     "n": 2,
-     "mean": null
+     "n": 8,
+     "mean": 83
     },
-    "hisz": {
+    "fr": {
      "n": 1,
      "mean": null
     },
-    "lac": {
+    "hisz": {
      "n": 2,
      "mean": null
     },
-    "niem": {
-     "n": 3,
-     "mean": null
+    "hisz_dwj": {
+     "n": 30,
+     "mean": 49.8
     },
     "pol": {
-     "n": 19,
-     "mean": 61.8
+     "n": 135,
+     "mean": 55.9
+    },
+    "ros": {
+     "n": 1,
+     "mean": null
+    },
+    "wlo": {
+     "n": 2,
+     "mean": null
     },
     "mat": {
-     "n": 149,
-     "mean": 70.1
+     "n": 134,
+     "mean": 55.5
+    },
+    "wos": {
+     "n": 25,
+     "mean": 49.8
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -1718,7 +1839,7 @@
   "sources": [
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/11474",
+    "url": "https://rspo.gov.pl/api/Institution/68270",
     "retrieved": "2026-10-01"
    },
    {
@@ -1855,108 +1976,90 @@
   ]
  },
  {
-  "rspo": 68270,
+  "rspo": 11476,
   "type": "liceum",
-  "name": "LICEUM OGÓLNOKSZTAŁCĄCE NR IX IM. JULIUSZA SŁOWACKIEGO",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE NR VI IM. BOLESŁAWA PRUSA",
   "shortName": null,
   "city": "Wrocław",
-  "district": "Stare Miasto",
-  "address": "ul. ks. Piotra Skargi 31, 50-082 Wrocław",
+  "district": "Fabryczna",
+  "address": "ul. Hutnicza 45, 54-139 Wrocław",
   "geo": {
-   "lat": 51.10719,
-   "lng": 17.03884
+   "lat": 51.136,
+   "lng": 16.96068
   },
-  "url": "https://www.lo9.wroc.pl",
+  "url": "https://www.lo6.wroc.pl",
   "public": true,
-  "students": 1150,
+  "students": 627,
   "languages": [
    "ang",
-   "fr",
-   "hisz",
-   "łacina",
-   "niem",
-   "ros",
-   "wlo",
-   "czeski"
+   "niem"
   ],
   "specifics": [
    "ogólnodostępny",
-   "dwujęzyczny w szkole podstawowej, liceum i technikum"
+   "sportowy"
   ],
   "professionsRspo": [],
   "matura": {
    "year": 2026,
-   "passRate": 99.7,
-   "examinees": 306,
-   "certificates": 305,
+   "passRate": 99.4,
+   "examinees": 159,
+   "certificates": 158,
    "extended": {
     "bio": {
-     "n": 62,
-     "mean": 56.5
+     "n": 48,
+     "mean": 52.3
     },
     "chem": {
-     "n": 48,
-     "mean": 57.8
+     "n": 25,
+     "mean": 47
     },
     "fiz": {
-     "n": 52,
-     "mean": 47.3
+     "n": 28,
+     "mean": 33.1
     },
     "geo": {
-     "n": 68,
-     "mean": 65.5
+     "n": 57,
+     "mean": 53.2
     },
     "hist": {
-     "n": 89,
-     "mean": 54.2
+     "n": 11,
+     "mean": 50.1
     },
     "hsz": {
-     "n": 2,
+     "n": 3,
      "mean": null
     },
     "inf": {
-     "n": 24,
-     "mean": 54.6
+     "n": 8,
+     "mean": 55.8
     },
     "ang": {
-     "n": 285,
-     "mean": 89.2
+     "n": 147,
+     "mean": 85.3
     },
     "ang_dwj": {
-     "n": 8,
-     "mean": 83
-    },
-    "fr": {
-     "n": 1,
-     "mean": null
-    },
-    "hisz": {
      "n": 2,
      "mean": null
     },
-    "hisz_dwj": {
-     "n": 30,
-     "mean": 49.8
+    "niem": {
+     "n": 2,
+     "mean": null
     },
     "pol": {
-     "n": 135,
-     "mean": 55.9
+     "n": 31,
+     "mean": 70.7
     },
     "ros": {
      "n": 1,
      "mean": null
     },
-    "wlo": {
-     "n": 2,
-     "mean": null
-    },
     "mat": {
-     "n": 134,
-     "mean": 55.5
+     "n": 90,
+     "mean": 39.2
     },
     "wos": {
-     "n": 25,
-     "mean": 49.8
+     "n": 11,
+     "mean": 46.8
     }
    },
    "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
@@ -1965,7 +2068,7 @@
   "sources": [
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/68270",
+    "url": "https://rspo.gov.pl/api/Institution/11476",
     "retrieved": "2026-10-01"
    },
    {
@@ -2083,109 +2186,6 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/11477",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 11476,
-  "type": "liceum",
-  "name": "LICEUM OGÓLNOKSZTAŁCĄCE NR VI IM. BOLESŁAWA PRUSA",
-  "shortName": null,
-  "city": "Wrocław",
-  "district": "Fabryczna",
-  "address": "ul. Hutnicza 45, 54-139 Wrocław",
-  "geo": {
-   "lat": 51.136,
-   "lng": 16.96068
-  },
-  "url": "https://www.lo6.wroc.pl",
-  "public": true,
-  "students": 627,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "sportowy"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 99.4,
-   "examinees": 159,
-   "certificates": 158,
-   "extended": {
-    "bio": {
-     "n": 48,
-     "mean": 52.3
-    },
-    "chem": {
-     "n": 25,
-     "mean": 47
-    },
-    "fiz": {
-     "n": 28,
-     "mean": 33.1
-    },
-    "geo": {
-     "n": 57,
-     "mean": 53.2
-    },
-    "hist": {
-     "n": 11,
-     "mean": 50.1
-    },
-    "hsz": {
-     "n": 3,
-     "mean": null
-    },
-    "inf": {
-     "n": 8,
-     "mean": 55.8
-    },
-    "ang": {
-     "n": 147,
-     "mean": 85.3
-    },
-    "ang_dwj": {
-     "n": 2,
-     "mean": null
-    },
-    "niem": {
-     "n": 2,
-     "mean": null
-    },
-    "pol": {
-     "n": 31,
-     "mean": 70.7
-    },
-    "ros": {
-     "n": 1,
-     "mean": null
-    },
-    "mat": {
-     "n": 90,
-     "mean": 39.2
-    },
-    "wos": {
-     "n": 11,
-     "mean": 46.8
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/11476",
     "retrieved": "2026-10-01"
    },
    {
@@ -2427,6 +2427,113 @@
   ]
  },
  {
+  "rspo": 106556,
+  "type": "liceum",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE NR XI IM. STANISŁAWA KONARSKIEGO",
+  "shortName": null,
+  "city": "Wrocław",
+  "district": "Śródmieście",
+  "address": "ul. Spółdzielcza 2A, 51-662 Wrocław",
+  "geo": {
+   "lat": 51.10602,
+   "lng": 17.10627
+  },
+  "url": "https://www.lo11.wroclaw.pl",
+  "public": true,
+  "students": 521,
+  "languages": [
+   "ang",
+   "hisz",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny"
+  ],
+  "professionsRspo": [],
+  "matura": {
+   "year": 2026,
+   "passRate": 98.4,
+   "examinees": 122,
+   "certificates": 120,
+   "extended": {
+    "bio": {
+     "n": 24,
+     "mean": 47.8
+    },
+    "chem": {
+     "n": 2,
+     "mean": null
+    },
+    "fil": {
+     "n": 2,
+     "mean": null
+    },
+    "fiz": {
+     "n": 3,
+     "mean": null
+    },
+    "geo": {
+     "n": 39,
+     "mean": 38.5
+    },
+    "hist": {
+     "n": 13,
+     "mean": 44.1
+    },
+    "ang": {
+     "n": 109,
+     "mean": 74.6
+    },
+    "ang_dwj": {
+     "n": 1,
+     "mean": null
+    },
+    "fr": {
+     "n": 1,
+     "mean": null
+    },
+    "hisz": {
+     "n": 9,
+     "mean": 31.8
+    },
+    "niem": {
+     "n": 1,
+     "mean": null
+    },
+    "pol": {
+     "n": 55,
+     "mean": 27.4
+    },
+    "ros": {
+     "n": 3,
+     "mean": null
+    },
+    "mat": {
+     "n": 22,
+     "mean": 20.9
+    },
+    "wos": {
+     "n": 16,
+     "mean": 33.1
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/106556",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 11473,
   "type": "liceum",
   "name": "LICEUM OGÓLNOKSZTAŁCĄCE NR XII IM. BOLESŁAWA CHROBREGO",
@@ -2642,113 +2749,6 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/42509",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 106556,
-  "type": "liceum",
-  "name": "LICEUM OGÓLNOKSZTAŁCĄCE NR XI IM. STANISŁAWA KONARSKIEGO",
-  "shortName": null,
-  "city": "Wrocław",
-  "district": "Śródmieście",
-  "address": "ul. Spółdzielcza 2A, 51-662 Wrocław",
-  "geo": {
-   "lat": 51.10602,
-   "lng": 17.10627
-  },
-  "url": "https://www.lo11.wroclaw.pl",
-  "public": true,
-  "students": 521,
-  "languages": [
-   "ang",
-   "hisz",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny"
-  ],
-  "professionsRspo": [],
-  "matura": {
-   "year": 2026,
-   "passRate": 98.4,
-   "examinees": 122,
-   "certificates": 120,
-   "extended": {
-    "bio": {
-     "n": 24,
-     "mean": 47.8
-    },
-    "chem": {
-     "n": 2,
-     "mean": null
-    },
-    "fil": {
-     "n": 2,
-     "mean": null
-    },
-    "fiz": {
-     "n": 3,
-     "mean": null
-    },
-    "geo": {
-     "n": 39,
-     "mean": 38.5
-    },
-    "hist": {
-     "n": 13,
-     "mean": 44.1
-    },
-    "ang": {
-     "n": 109,
-     "mean": 74.6
-    },
-    "ang_dwj": {
-     "n": 1,
-     "mean": null
-    },
-    "fr": {
-     "n": 1,
-     "mean": null
-    },
-    "hisz": {
-     "n": 9,
-     "mean": 31.8
-    },
-    "niem": {
-     "n": 1,
-     "mean": null
-    },
-    "pol": {
-     "n": 55,
-     "mean": 27.4
-    },
-    "ros": {
-     "n": 3,
-     "mean": null
-    },
-    "mat": {
-     "n": 22,
-     "mean": 20.9
-    },
-    "wos": {
-     "n": 16,
-     "mean": 33.1
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/106556",
     "retrieved": "2026-10-01"
    },
    {
@@ -3506,6 +3506,39 @@
   ]
  },
  {
+  "rspo": 92074,
+  "type": "liceum",
+  "name": "LICEUM OGÓLNOKSZTAŁCĄCE SPECJALNE NR XXXI",
+  "shortName": null,
+  "city": "Wrocław",
+  "district": "Psie Pole",
+  "address": "ul. Stanisława Przybyszewskiego 59, 51-151 Wrocław",
+  "geo": {
+   "lat": 51.13783,
+   "lng": 17.06089
+  },
+  "url": null,
+  "public": true,
+  "students": 32,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "specjalny"
+  ],
+  "professionsRspo": [],
+  "matura": null,
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/92074",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 81388,
   "type": "liceum",
   "name": "LICEUM OGÓLNOKSZTAŁCĄCE SPECJALNE NR XXXII",
@@ -3567,39 +3600,6 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/127156",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 92074,
-  "type": "liceum",
-  "name": "LICEUM OGÓLNOKSZTAŁCĄCE SPECJALNE NR XXXI",
-  "shortName": null,
-  "city": "Wrocław",
-  "district": "Psie Pole",
-  "address": "ul. Stanisława Przybyszewskiego 59, 51-151 Wrocław",
-  "geo": {
-   "lat": 51.13783,
-   "lng": 17.06089
-  },
-  "url": null,
-  "public": true,
-  "students": 32,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "specjalny"
-  ],
-  "professionsRspo": [],
-  "matura": null,
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/92074",
     "retrieved": "2026-10-01"
    }
   ]
@@ -5615,6 +5615,85 @@
   ]
  },
  {
+  "rspo": 90645,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 11 IM. GEN. JÓZEFA BEMA",
+  "shortName": "Technikum nr 11",
+  "city": "Wrocław",
+  "district": "Fabryczna",
+  "address": "ul. Grabiszyńska 236, 53-235 Wrocław",
+  "geo": {
+   "lat": 51.09474,
+   "lng": 16.98386
+  },
+  "url": "https://www.zsb-wroc.edupage.org",
+  "public": true,
+  "students": 441,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik budownictwa",
+   "Technik geodeta",
+   "Technik aranżacji wnętrz"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 90.5,
+   "examinees": 63,
+   "certificates": 57,
+   "extended": {
+    "bio": {
+     "n": 3,
+     "mean": null
+    },
+    "fiz": {
+     "n": 3,
+     "mean": null
+    },
+    "geo": {
+     "n": 28,
+     "mean": 30.1
+    },
+    "hist": {
+     "n": 4,
+     "mean": null
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 35,
+     "mean": 63.6
+    },
+    "mat": {
+     "n": 37,
+     "mean": 17.1
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/90645",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 90630,
   "type": "technikum",
   "name": "TECHNIKUM NR 12 IM. KS. STANISŁAWA STASZICA",
@@ -5703,85 +5782,6 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/90630",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 90645,
-  "type": "technikum",
-  "name": "TECHNIKUM NR 11 IM. GEN. JÓZEFA BEMA",
-  "shortName": "Technikum nr 11",
-  "city": "Wrocław",
-  "district": "Fabryczna",
-  "address": "ul. Grabiszyńska 236, 53-235 Wrocław",
-  "geo": {
-   "lat": 51.09474,
-   "lng": 16.98386
-  },
-  "url": "https://www.zsb-wroc.edupage.org",
-  "public": true,
-  "students": 441,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "wielozawodowy"
-  ],
-  "professionsRspo": [
-   "Technik budownictwa",
-   "Technik geodeta",
-   "Technik aranżacji wnętrz"
-  ],
-  "matura": {
-   "year": 2026,
-   "passRate": 90.5,
-   "examinees": 63,
-   "certificates": 57,
-   "extended": {
-    "bio": {
-     "n": 3,
-     "mean": null
-    },
-    "fiz": {
-     "n": 3,
-     "mean": null
-    },
-    "geo": {
-     "n": 28,
-     "mean": 30.1
-    },
-    "hist": {
-     "n": 4,
-     "mean": null
-    },
-    "hsz": {
-     "n": 1,
-     "mean": null
-    },
-    "ang": {
-     "n": 35,
-     "mean": 63.6
-    },
-    "mat": {
-     "n": 37,
-     "mean": 17.1
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/90645",
     "retrieved": "2026-10-01"
    },
    {
@@ -5912,6 +5912,83 @@
   ]
  },
  {
+  "rspo": 112323,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 14 Z ODDZIAŁAMI INTEGRACYJNYMI",
+  "shortName": "Technikum nr 14",
+  "city": "Wrocław",
+  "district": "Fabryczna",
+  "address": "ul. Nowodworska 70-82, 54-438 Wrocław",
+  "geo": {
+   "lat": 51.11558,
+   "lng": 16.95649
+  },
+  "url": "https://www.zs6.wroc.pl",
+  "public": true,
+  "students": 182,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "integracyjny"
+  ],
+  "professionsRspo": [
+   "Technik ekonomista",
+   "Technik reklamy"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 84.6,
+   "examinees": 13,
+   "certificates": 11,
+   "extended": {
+    "geo": {
+     "n": 2,
+     "mean": null
+    },
+    "hist": {
+     "n": 1,
+     "mean": null
+    },
+    "hsz": {
+     "n": 1,
+     "mean": null
+    },
+    "ang": {
+     "n": 11,
+     "mean": 71
+    },
+    "pol": {
+     "n": 5,
+     "mean": 25.6
+    },
+    "mat": {
+     "n": 1,
+     "mean": null
+    },
+    "wos": {
+     "n": 1,
+     "mean": null
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/112323",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
   "rspo": 90632,
   "type": "technikum",
   "name": "TECHNIKUM NR 15 IM. MARII SKŁODOWSKIEJ-CURIE",
@@ -6014,83 +6091,6 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/90632",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
-  "rspo": 112323,
-  "type": "technikum",
-  "name": "TECHNIKUM NR 14 Z ODDZIAŁAMI INTEGRACYJNYMI",
-  "shortName": "Technikum nr 14",
-  "city": "Wrocław",
-  "district": "Fabryczna",
-  "address": "ul. Nowodworska 70-82, 54-438 Wrocław",
-  "geo": {
-   "lat": 51.11558,
-   "lng": 16.95649
-  },
-  "url": "https://www.zs6.wroc.pl",
-  "public": true,
-  "students": 182,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "integracyjny"
-  ],
-  "professionsRspo": [
-   "Technik ekonomista",
-   "Technik reklamy"
-  ],
-  "matura": {
-   "year": 2026,
-   "passRate": 84.6,
-   "examinees": 13,
-   "certificates": 11,
-   "extended": {
-    "geo": {
-     "n": 2,
-     "mean": null
-    },
-    "hist": {
-     "n": 1,
-     "mean": null
-    },
-    "hsz": {
-     "n": 1,
-     "mean": null
-    },
-    "ang": {
-     "n": 11,
-     "mean": 71
-    },
-    "pol": {
-     "n": 5,
-     "mean": 25.6
-    },
-    "mat": {
-     "n": 1,
-     "mean": null
-    },
-    "wos": {
-     "n": 1,
-     "mean": null
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/112323",
     "retrieved": "2026-10-01"
    },
    {
@@ -6730,95 +6730,6 @@
   ]
  },
  {
-  "rspo": 90651,
-  "type": "technikum",
-  "name": "TECHNIKUM NR 8 IM. MIKOŁAJA KOPERNIKA",
-  "shortName": "Technikum nr 8",
-  "city": "Wrocław",
-  "district": "Krzyki",
-  "address": "ul. Drukarska 50, 53-312 Wrocław",
-  "geo": {
-   "lat": 51.08804,
-   "lng": 17.02033
-  },
-  "url": "https://www.drukarska.net",
-  "public": true,
-  "students": 554,
-  "languages": [
-   "ang",
-   "niem"
-  ],
-  "specifics": [
-   "ogólnodostępny",
-   "wielozawodowy"
-  ],
-  "professionsRspo": [
-   "Technik ekonomista",
-   "Technik handlowiec",
-   "Technik rachunkowości",
-   "Technik księgarstwa",
-   "Technik gospodarki nieruchomościami"
-  ],
-  "matura": {
-   "year": 2026,
-   "passRate": 50,
-   "examinees": 66,
-   "certificates": 33,
-   "extended": {
-    "bio": {
-     "n": 13,
-     "mean": 18.7
-    },
-    "chem": {
-     "n": 2,
-     "mean": null
-    },
-    "geo": {
-     "n": 9,
-     "mean": 19.6
-    },
-    "hist": {
-     "n": 2,
-     "mean": null
-    },
-    "ang": {
-     "n": 39,
-     "mean": 63
-    },
-    "pol": {
-     "n": 8,
-     "mean": 27.5
-    },
-    "ros": {
-     "n": 7,
-     "mean": 86.4
-    },
-    "mat": {
-     "n": 8,
-     "mean": 8.5
-    },
-    "wos": {
-     "n": 13,
-     "mean": 19.7
-    }
-   },
-   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
-  },
-  "profiles": [],
-  "sources": [
-   {
-    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
-    "url": "https://rspo.gov.pl/api/Institution/90651",
-    "retrieved": "2026-10-01"
-   },
-   {
-    "name": "CKE Mapa Egzaminów, matura 2026",
-    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
-    "retrieved": "2026-10-01"
-   }
-  ]
- },
- {
   "rspo": 91079,
   "type": "technikum",
   "name": "TECHNIKUM NR 7 IM. POLSKICH ZWYCIĘZCÓW ENIGMY",
@@ -6904,6 +6815,95 @@
    {
     "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
     "url": "https://rspo.gov.pl/api/Institution/91079",
+    "retrieved": "2026-10-01"
+   },
+   {
+    "name": "CKE Mapa Egzaminów, matura 2026",
+    "url": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx",
+    "retrieved": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "rspo": 90651,
+  "type": "technikum",
+  "name": "TECHNIKUM NR 8 IM. MIKOŁAJA KOPERNIKA",
+  "shortName": "Technikum nr 8",
+  "city": "Wrocław",
+  "district": "Krzyki",
+  "address": "ul. Drukarska 50, 53-312 Wrocław",
+  "geo": {
+   "lat": 51.08804,
+   "lng": 17.02033
+  },
+  "url": "https://www.drukarska.net",
+  "public": true,
+  "students": 554,
+  "languages": [
+   "ang",
+   "niem"
+  ],
+  "specifics": [
+   "ogólnodostępny",
+   "wielozawodowy"
+  ],
+  "professionsRspo": [
+   "Technik ekonomista",
+   "Technik handlowiec",
+   "Technik rachunkowości",
+   "Technik księgarstwa",
+   "Technik gospodarki nieruchomościami"
+  ],
+  "matura": {
+   "year": 2026,
+   "passRate": 50,
+   "examinees": 66,
+   "certificates": 33,
+   "extended": {
+    "bio": {
+     "n": 13,
+     "mean": 18.7
+    },
+    "chem": {
+     "n": 2,
+     "mean": null
+    },
+    "geo": {
+     "n": 9,
+     "mean": 19.6
+    },
+    "hist": {
+     "n": 2,
+     "mean": null
+    },
+    "ang": {
+     "n": 39,
+     "mean": 63
+    },
+    "pol": {
+     "n": 8,
+     "mean": 27.5
+    },
+    "ros": {
+     "n": 7,
+     "mean": 86.4
+    },
+    "mat": {
+     "n": 8,
+     "mean": 8.5
+    },
+    "wos": {
+     "n": 13,
+     "mean": 19.7
+    }
+   },
+   "sourceUrl": "https://mapa.wyniki.edu.pl/MapaEgzaminow/assets/data/CSV/EM2023/2026/EM2023_2026_szkoly_07.xlsx"
+  },
+  "profiles": [],
+  "sources": [
+   {
+    "name": "RSPO, Rejestr Szkół i Placówek Oświatowych",
+    "url": "https://rspo.gov.pl/api/Institution/90651",
     "retrieved": "2026-10-01"
    },
    {
