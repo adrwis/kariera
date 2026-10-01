@@ -46,7 +46,11 @@ function cleanProfile(p) {
 const CLEAR_EXTENDED = new Set([478575, 79804]);  // TEB i ALO przy PJATK: rozszerzenia z niedatowanych podstron klas
 const DROP_PROFILES = new Set([485988]);           // InnEdu: „ścieżki” edukacji domowej, nie oddziały
 // Licea dla uczniów w edukacji domowej: decyzja Ady 2026-10-01, nie pokazujemy (II LO Moraczewskich, Amicus, InnEdu)
-const EXCLUDE = new Set([480767, 271713, 485988, 482086, 482133, 478552]); // + Szczecin: Liceum WIR, Liceum Herberta; Katowice: Szkoła w Chmurze
+const EXCLUDE = new Set([480767, 271713, 485988, 482086, 482133, 478552, 480243, 485231]); // + Szczecin: WIR, Herberta; Katowice: Szkoła w Chmurze; Lublin: Liceum w Chmurze, Ramus
+// Oferta bez daty albo z rokiem 2025/26: profile usuwamy (decyzja Ady: tylko pewne dane)
+const UNDATED = new Set([89302, 89299, 87847, 90969, 82992, 89520, 119312, 4846]); // Lublin: Lider x2, Andersen, SOSW x3; Bydgoszcz: Technikum Kolejowe, Technikum SEI
+// Pojedyncze klasy, których opis nie pochodzi ze źródła: [rspo, wzór nazwy]
+const DROP_PROFILE = [[80262, /^Oa\b/]]; // Lublin PSBiG Oa: zawód wpisany przez agenta, nie przez nabór
 // Strony z podejrzaną zawartością (np. linki do kasyn): nie linkujemy
 const UNSAFE_URL = /zssnr3krakow\.pl/;
 // Progi przypisane do klasy po profilu, a nie po nazwie (niepewne): [rspo, wzór nazwy klasy, rok]
@@ -67,7 +71,8 @@ for (const [slug, city] of REGIONS) {
     const r = results.get(s.rspo);
     if (!r) return s;
     done++;
-    let profiles = DROP_PROFILES.has(s.rspo) ? [] : (r.profiles || []).filter(p => /^https?:\/\//.test(p.sourceUrl || '') && p.places !== 0).map(cleanProfile);
+    let profiles = (DROP_PROFILES.has(s.rspo) || UNDATED.has(s.rspo)) ? [] : (r.profiles || []).filter(p => /^https?:\/\//.test(p.sourceUrl || '') && p.places !== 0).map(cleanProfile);
+    profiles = profiles.filter(p => !DROP_PROFILE.some(([r, re]) => r === s.rspo && re.test(p.name)));
     if (CLEAR_EXTENDED.has(s.rspo)) profiles = profiles.map(p => ({ ...p, extended: [], extendedChoice: [] }));
     // Kraków: system podaje „sugerowane” rozszerzenia; przy więcej niż trzech nie wiadomo, które są obowiązkowe
     if (slug === 'krakow') profiles = profiles.map(p => (p.extended || []).length > 3 ? { ...p, extended: [] } : p);
