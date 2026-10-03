@@ -8,6 +8,7 @@ const CareerSearch = (() => {
   let careersData = [];
   let kzisData = [];
   let isLoaded = false;
+  let loadFailed = false;
 
   async function loadData() {
     if (isLoaded) return;
@@ -56,8 +57,10 @@ const CareerSearch = (() => {
         });
       }
 
-      isLoaded = true;
+      loadFailed = !careersData.length;
+      isLoaded = !loadFailed;
     } catch (err) {
+      loadFailed = true;
       console.error('Failed to load career data:', err);
     }
   }
@@ -253,6 +256,7 @@ const CareerSearch = (() => {
     getCareerById,
     getKzisByCode,
     get isReady() { return isLoaded; },
+    get loadFailed() { return loadFailed; },
     get careers() { return careersData; },
   };
 })();

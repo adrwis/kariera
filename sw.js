@@ -1,5 +1,5 @@
 /* NextMove — Service Worker */
-const CACHE_NAME = 'nextmove-v9';
+const CACHE_NAME = 'nextmove-v10';
 const APP_SHELL = [
   '/kariera/',
   '/kariera/index.html',
@@ -10,6 +10,7 @@ const APP_SHELL = [
   '/kariera/js/quiz.min.js',
   '/kariera/data/szkoly/index.json',
   '/kariera/js/animations.min.js',
+  '/kariera/js/vendor/fuse.min.js',
   '/kariera/data/careers.min.json',
   '/kariera/data/kzis-index.json',
   '/kariera/manifest.json',
@@ -38,14 +39,20 @@ self.addEventListener('activate', (e) => {
 
 // Fetch: network-first for same-origin files (always fresh and consistent after a deploy),
 // cached copy as offline fallback. Navigation always resolves to index.html (SPA).
+// Przy słabym zasięgu sieć dostaje 4 s, potem odpowiada kopia z pamięci podręcznej (jeśli jest)
+const NETWORK_TIMEOUT_MS = 4000;
 function networkFirst(request, cacheKey) {
-  return fetch(request, { cache: 'no-cache' }).then((response) => {
+  const network = fetch(request, { cache: 'no-cache' }).then((response) => {
     if (response.ok) {
       const clone = response.clone();
       caches.open(CACHE_NAME).then((cache) => cache.put(cacheKey || request, clone));
     }
     return response;
-  }).catch(() => caches.match(cacheKey || request));
+  });
+  const timeout = new Promise((resolve) => setTimeout(() => resolve(null), NETWORK_TIMEOUT_MS))
+    .then(() => caches.match(cacheKey || request))
+    .then((cached) => cached || new Promise(() => {}));
+  return Promise.race([network, timeout]).catch(() => caches.match(cacheKey || request));
 }
 
 self.addEventListener('fetch', (e) => {
@@ -55,7 +62,7 @@ self.addEventListener('fetch', (e) => {
   if (e.request.method !== 'GET') return;
 
   if (url.origin === self.location.origin) {
-    if (e.request.mode === 'navigate' && url.pathname.startsWith('/kariera/')) {
+    if (e.request.mode === 'navigate' && url.pathname.startsWith('/kariera/') && !/\.[a-z0-9]+$/i.test(url.pathname)) {
       e.respondWith(networkFirst('/kariera/index.html', '/kariera/index.html'));
       return;
     }

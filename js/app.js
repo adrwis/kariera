@@ -597,7 +597,6 @@
     const a = document.createElement('a');
     a.href = `${BASE}/zawod/${career.id}`;
     a.className = 'result-card';
-    a.setAttribute('role', 'listitem');
 
     const salaryText = career.salary
       ? `${career.salary.min.toLocaleString('pl-PL')} do ${career.salary.max.toLocaleString('pl-PL')} PLN`
@@ -620,7 +619,6 @@
     const a = document.createElement('a');
     a.href = `${BASE}/zawod/${entry.code}`;
     a.className = 'result-card result-card--simple';
-    a.setAttribute('role', 'listitem');
     a.innerHTML = `
       <div class="result-card__name">${escapeHtml(entry.name)}</div>
       <div class="result-card__code">KZiS: ${escapeHtml(entry.code)} · ${escapeHtml(entry.group || '')}</div>
@@ -1910,6 +1908,19 @@
   Szkoly.init({ BASE, escapeHtml, escapeAttr, isHttpUrl, updateMeta, announce });
   Quiz.init({ BASE, escapeHtml, escapeAttr, updateMeta });
 
+  // Gdy dane zawodów się nie wczytały, wyszukiwanie dawałoby „Nie znaleziono zawodów”, więc mówimy wprost, co się stało
+  function showLoadError() {
+    const main = document.getElementById('main');
+    if (!main || document.getElementById('loadError')) return;
+    const box = document.createElement('div');
+    box.id = 'loadError';
+    box.className = 'load-error';
+    box.setAttribute('role', 'alert');
+    box.innerHTML = '<span>Nie udało się wczytać danych o zawodach. Sprawdź połączenie.</span> <button type="button" class="load-error__btn">Spróbuj ponownie</button>';
+    box.querySelector('button').addEventListener('click', () => location.reload());
+    main.prepend(box);
+  }
+
   async function init() {
     // Show loading state
     const searchBtn = document.getElementById('searchBtn');
@@ -1925,6 +1936,8 @@
     // Load data
     await CareerSearch.loadData();
     allSchools = CareerSearch.getAllSchools();
+
+    if (CareerSearch.loadFailed) showLoadError();
 
     // Remove loading state
     if (searchBtn) searchBtn.disabled = false;

@@ -3137,3 +3137,6 @@ p.school-popup__caption { margin: 0.25rem 0 0.4rem; }
 .szkoly__more-btn { font: inherit; font-weight: 600; padding: 0.7rem 1.4rem; min-height: 44px; border-radius: 100px; border: 1px solid var(--kr-border); background: var(--kr-bg-alt); color: var(--kr-text); cursor: pointer; }
 .szkoly__more-btn:focus-visible { outline: 3px solid var(--kr-primary); outline-offset: 2px; }
 .szkoly__thr-inline { white-space: nowrap; color: var(--kr-text); }
+
+.load-error { margin: 0.75rem auto; max-width: 40rem; padding: 0.75rem 1rem; border: 1px solid var(--border, #c9ced6); border-left: 4px solid #b3261e; border-radius: 8px; background: var(--surface, #fff); color: var(--text, #1a1a2e); display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; align-items: center; }
+.load-error__btn { min-height: 44px; padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid currentColor; background: transparent; color: inherit; font: inherit; font-weight: 600; cursor: pointer; }

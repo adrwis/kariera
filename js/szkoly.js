@@ -1241,7 +1241,7 @@ const Szkoly = (function () {
           </fieldset>
         </form>
         <div class="kalk__total" id="kalkTotal"></div>
-        <div id="kalkResults" aria-live="polite"></div>
+        <div id="kalkResults"></div>
         <p class="szkoly__footnote">Punkty liczone według rozporządzenia Ministra Edukacji z 3 kwietnia 2025 r. (<a href="${LAW_URL}" target="_blank" rel="noopener">Dz.U. 2025 poz. 464</a>): polski i matematyka z egzaminu ×0,35, język obcy ×0,3 (także na poziomie dwujęzycznym), cztery oceny po 2 do 18 pkt, wyróżnienie 7 pkt, osiągnięcia do 18 pkt, wolontariat 3 pkt. Razem do 200 pkt.
         Osoby zwolnione z egzaminu albo z jednego przedmiotu dostają punkty z ocen na świadectwie według § 8 rozporządzenia; tego kalkulator nie liczy. Laureaci i finaliści olimpiad oraz laureaci konkursów przedmiotowych kuratora są przyjmowani w pierwszej kolejności (art. 132 Prawa oświatowego).
         Progi zmieniają się co roku. Lista pokazuje, gdzie taki wynik wystarczał ostatnio, i nie gwarantuje przyjęcia.</p>
@@ -1276,10 +1276,15 @@ const Szkoly = (function () {
         <p class="szkola__muted">Egzamin ${fmtNum(exam)} pkt, oceny ${lo === hi ? fmtNum(r2(lo - exam - c.extra)) : `${fmtNum(r2(lo - exam - c.extra))} do ${fmtNum(r2(hi - exam - c.extra))}`} pkt, dodatkowe ${esc(c.extra)} pkt.${lo === hi ? '' : ' Punkty z ocen zależą od tego, które przedmioty liczy klasa.'}</p>` : `
         <p class="kalk__points">Egzamin: <strong>${fmtNum(exam)}</strong> z 100 pkt · dodatkowe: <strong>${esc(c.extra)}</strong> pkt</p>
         <p class="szkola__muted">Wpisz oceny ze świadectwa (polski, matematyka i co najmniej dwa inne przedmioty), żeby zobaczyć wynik do 200 pkt.</p>`;
+      const wasEmpty = !resultsEl.firstElementChild;
       resultsEl.innerHTML = !citySlug
         ? '<p class="kalk__summary" id="kalkSummary">Wybierz miasto, żeby porównać wynik z progami klas.</p>'
         : d ? calcResultsHtml(d, c, f) : '<p class="szkoly__loading">Wczytuję progi…</p>';
+      // Czytnik ekranu dostaje tylko podsumowanie, a nie całą listę klas po każdej zmianie pola
+      const sum = resultsEl.querySelector('#kalkSummary');
+      if (sum && !wasEmpty) { clearTimeout(announceTimer); announceTimer = setTimeout(() => ctx.announce(sum.textContent.trim()), 600); }
     };
+    let announceTimer = null;
     let timer = null;
     form.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(update, 250); });
     form.addEventListener('change', update);
