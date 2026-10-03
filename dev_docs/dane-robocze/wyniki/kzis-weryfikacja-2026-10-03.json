@@ -1,0 +1,2119 @@
+{
+ "zrodla": {
+  "obowiazujacaKlasyfikacja": {
+   "opis": "Rozporządzenie Ministra Rodziny, Pracy i Polityki Społecznej z 21.10.2025 r. w sprawie klasyfikacji zawodów i specjalności na potrzeby rynku pracy, Dz.U. 2025 poz. 1534; weszło w życie 27.11.2025; uchyliło m.in. Dz.U. 2018 poz. 227 i 2024 poz. 1372; podstawa: art. 29 ust. 3 ustawy z 20.03.2025 o rynku pracy i służbach zatrudnienia (Dz.U. 2025 poz. 620). Klasyfikacja liczy 2583 zawody i specjalności. Status w API ELI: obowiązujący. Nie znaleziono aktu zmieniającego z 2026 r. (wyszukiwanie w API ELI po tytule, rok 2026: 0 wyników).",
+   "tekstPdf": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+   "metadaneJson": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534",
+   "isap": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20250001534 (nie sprawdzono treści, serwer przekierowuje; użyto API ELI Sejmu, tego samego rejestru)",
+   "format": "PDF z warstwą tekstową (tekst z dowodami pochodzi stąd); brak csv/xlsx"
+  },
+  "poprzednieEdycje": {
+   "tekstJednolity2018": "https://api.sejm.gov.pl/eli/acts/DU/2018/227/text.pdf (obwieszczenie z 28.12.2017, tekst jednolity rozporządzenia z 7.08.2014; uchylony 27.11.2025)",
+   "pierwotne2014": "https://api.sejm.gov.pl/eli/acts/DU/2014/1145/text.pdf",
+   "nowelizacje": [
+    "Dz.U. 2021 poz. 2285 (od 1.01.2022)",
+    "Dz.U. 2022 poz. 853 (od 1.01.2023)",
+    "Dz.U. 2024 poz. 1372 (od 1.01.2025)"
+   ],
+   "edycja2010": "https://api.sejm.gov.pl/eli/acts/DU/2010/537/text.pdf (załącznik tylko jako skan, bez OCR; sprawdzono wzrokowo 1 stronę)",
+   "rysHistoryczny": "https://turek.praca.gov.pl/documents/d/global/informacja-o-klasyfikacji-zawodow-i-specjalnosci-rys-historyczny-wg-stanu-na-dzien-27-listopada-2025-r-pdf (MRPiPS, 27.11.2025; lista zmian edycji); wersja z 2022: https://psz.praca.gov.pl/documents/10240/bdf5a9b3-b56c-467b-8ce3-4cd6831f353d"
+  },
+  "niedostepne": "klasyfikacjazawodow.praca.gov.pl zwrócił przekierowanie 302 z pustą treścią, nie obchodzono; psz.praca.gov.pl użyto tylko dla rysu historycznego.",
+  "gus": {
+   "raportPdf": "https://stat.gov.pl/download/gfx/portalinformacyjny/pl/defaultaktualnosci/5474/4/12/1/analizy_i_raporty_statystycznne_struktura_wynagrodzen_wedlug_zawodow.pdf",
+   "tabliceXlsx": "https://stat.gov.pl/download/gfx/portalinformacyjny/pl/defaultaktualnosci/5474/4/12/1/tablice_struktura_wynagrodzen_wedlug_zawodow_za_pazdziernik_2024_v01.xlsx"
+  }
+ },
+ "edycjaGus": {
+  "opis": "GUS (przypis metodologiczny w raporcie, s. 42) podaje KZiS wg rozporządzenia MPiPS z 7.08.2014 (Dz.U. 2018 poz. 227), czyli edycję obowiązującą w październiku 2024 r.: tekst jednolity 2018 ze zmianami z 2021 i 2022 (zmiana z 2024 poz. 1372 weszła dopiero 1.01.2025, a edycja 2025 poz. 1534 od 27.11.2025). Zestaw 134 grup 3-cyfrowych jest identyczny w 2018 i 2025; 126 grup GUS z tabel zgadza się z nazwami w klasyfikacji (rozbieżności tylko zawijanie wierszy/skrót w tabeli oraz 833 i 233, gdzie GUS ma starsze nazwy, zgodne z 2018).",
+  "edycjaObowiazujacaDzis": "Dz.U. 2025 poz. 1534 (27.11.2025)"
+ },
+ "hipoteza": {
+  "ocena": "Odrzucona. Nasze kody nie pochodzą z innej edycji o innych grupach: zestaw grup 3-cyfrowych jest taki sam w 2014, 2018 i 2025, a część naszych kodów nie istnieje w żadnej edycji lub oznacza inny zawód. Wiele kodów w careers.json wygląda na wymyślone lub przesunięte (np. 252902 Data scientist, 261301 Prokurator, 541001 Strażak). Zawód szkolny technik weterynarii ma 324002 także w edycji 2010 (sprawdzone wzrokowo), a ratownik medyczny 325601 także w 2010.",
+  "wniosek": "Nie ma różnicy edycji do wyjaśnienia; 6 z 7 zawodów z audytu ma po prostu zły kod, a ratownik medyczny ma kod dobry i błędne dopasowanie do GUS 224."
+ },
+ "podsumowanie": {
+  "razem": 79,
+  "ok": 21,
+  "poprawnyKodInny": 41,
+  "niejednoznaczny": 17,
+  "brakWKlasyfikacji": 0,
+  "uwaga": "Status „poprawny kod inny” obejmuje także zawody, których kod nie istnieje wcale (np. 541001); wtedy pole nazwaPodKodemObecnym jest puste. Znak S przy nazwie w klasyfikacji oznacza zawód szkolny i został usunięty z pól nazw.",
+  "siedemZAudytu": {
+   "farmaceuta": "228101, grupa GUS 228 (zgodna)",
+   "ratownik-medyczny": "325601 jest poprawny; grupa GUS to 325 Inny średni personel do spraw zdrowia, nie 224 (224 to Specjalista do spraw ratownictwa medycznego)",
+   "dietetyk": "322001, grupa GUS 322 (zgodna)",
+   "technik-informatyk": "351203, grupa GUS 351 (zgodna)",
+   "doradca-finansowy": "241202, grupa GUS 241 (zgodna)",
+   "mechanik-samochodowy": "723103, grupa GUS 723 (zgodna)",
+   "technik-weterynarii": "324002, grupa GUS 324 (zgodna)"
+  }
+ },
+ "zawody": [
+  {
+   "id": "psycholog",
+   "kodObecny": "263401",
+   "nazwaObecna": "Psycholog",
+   "status": "ok",
+   "kodPoprawny": "263401",
+   "nazwaWKlasyfikacji": "Psycholog",
+   "nazwaPodKodemObecnym": "Psycholog",
+   "nazwaPodKodemObecnym2018": "Psycholog",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "263401 Psycholog",
+    "strona": 27
+   },
+   "kandydaci": [],
+   "uwagi": "",
+   "grupaGus3": "263 Specjaliści z dziedzin społecznych i religijnych",
+   "nazwaKodPoprawny2018": "Psycholog"
+  },
+  {
+   "id": "programista",
+   "kodObecny": "251401",
+   "nazwaObecna": "Programista",
+   "status": "ok",
+   "kodPoprawny": "251401",
+   "nazwaWKlasyfikacji": "Programista aplikacji",
+   "nazwaPodKodemObecnym": "Programista aplikacji",
+   "nazwaPodKodemObecnym2018": "Programista aplikacji",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "251401 Programista aplikacji",
+    "strona": 24
+   },
+   "kandydaci": [],
+   "uwagi": "Nazwa w klasyfikacji „Programista aplikacji” (drobna różnica).",
+   "grupaGus3": "251 Analitycy systemów komputerowych i programiści",
+   "nazwaKodPoprawny2018": "Programista aplikacji"
+  },
+  {
+   "id": "lekarz",
+   "kodObecny": "221101",
+   "nazwaObecna": "Lekarz",
+   "status": "ok",
+   "kodPoprawny": "221101",
+   "nazwaWKlasyfikacji": "Lekarz",
+   "nazwaPodKodemObecnym": "Lekarz",
+   "nazwaPodKodemObecnym2018": "Lekarz",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "221101 Lekarz",
+    "strona": 14
+   },
+   "kandydaci": [],
+   "uwagi": "",
+   "grupaGus3": "221 Lekarze",
+   "nazwaKodPoprawny2018": "Lekarz"
+  },
+  {
+   "id": "architekt",
+   "kodObecny": "216101",
+   "nazwaObecna": "Architekt",
+   "status": "ok",
+   "kodPoprawny": "216101",
+   "nazwaWKlasyfikacji": "Architekt",
+   "nazwaPodKodemObecnym": "Architekt",
+   "nazwaPodKodemObecnym2018": "Architekt",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "216101 Architekt",
+    "strona": 13
+   },
+   "kandydaci": [],
+   "uwagi": "",
+   "grupaGus3": "216 Architekci, geodeci i projektanci",
+   "nazwaKodPoprawny2018": "Architekt"
+  },
+  {
+   "id": "nauczyciel",
+   "kodObecny": "233010",
+   "nazwaObecna": "Nauczyciel",
+   "status": "niejednoznaczny",
+   "kodPoprawny": null,
+   "nazwaWKlasyfikacji": null,
+   "nazwaPodKodemObecnym": null,
+   "nazwaPodKodemObecnym2018": null,
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": null,
+    "strona": null
+   },
+   "kandydaci": [
+    {
+     "kod": "233001",
+     "nazwa": "Nauczyciel przedmiotu w szkole ponadpodstawowej",
+     "strona": 19
+    },
+    {
+     "kod": "234102",
+     "nazwa": "Nauczyciel przedmiotu w szkole podstawowej",
+     "strona": 20
+    },
+    {
+     "kod": "234101",
+     "nazwa": "Nauczyciel edukacji wczesnoszkolnej",
+     "strona": 20
+    },
+    {
+     "kod": "234201",
+     "nazwa": "Nauczyciel przedszkola",
+     "strona": 20
+    },
+    {
+     "kod": "232003",
+     "nazwa": "Nauczyciel przedmiotów teoretycznych zawodowych",
+     "strona": 19
+    }
+   ],
+   "uwagi": "Kod 233010 nie istnieje. Klasyfikacja nie ma ogólnego „Nauczyciela”, tylko zawody według poziomu szkoły i przedmiotu."
+  },
+  {
+   "id": "grafik",
+   "kodObecny": "216602",
+   "nazwaObecna": "Grafik komputerowy",
+   "status": "ok",
+   "kodPoprawny": "216602",
+   "nazwaWKlasyfikacji": "Grafik komputerowy multimediów",
+   "nazwaPodKodemObecnym": "Grafik komputerowy multimediów",
+   "nazwaPodKodemObecnym2018": "Grafik komputerowy multimediów",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "216602 Grafik komputerowy multimediów",
+    "strona": 14
+   },
+   "kandydaci": [
+    {
+     "kod": "216601",
+     "nazwa": "Grafik komputerowy DTP",
+     "strona": 14
+    },
+    {
+     "kod": "216604",
+     "nazwa": "Projektant grafiki",
+     "strona": 14
+    }
+   ],
+   "uwagi": "Nazwa w klasyfikacji „Grafik komputerowy multimediów”; w tej samej grupie jest też 216601 Grafik komputerowy DTP.",
+   "grupaGus3": "216 Architekci, geodeci i projektanci",
+   "nazwaKodPoprawny2018": "Grafik komputerowy multimediów"
+  },
+  {
+   "id": "prawnik",
+   "kodObecny": "261101",
+   "nazwaObecna": "Prawnik",
+   "status": "niejednoznaczny",
+   "kodPoprawny": null,
+   "nazwaWKlasyfikacji": null,
+   "nazwaPodKodemObecnym": "Adwokat",
+   "nazwaPodKodemObecnym2018": "Adwokat",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": null,
+    "strona": null
+   },
+   "kandydaci": [
+    {
+     "kod": "261101",
+     "nazwa": "Adwokat",
+     "strona": 26
+    },
+    {
+     "kod": "261103",
+     "nazwa": "Radca prawny",
+     "strona": 26
+    },
+    {
+     "kod": "261901",
+     "nazwa": "Asystent prawny",
+     "strona": 26
+    },
+    {
+     "kod": "261990",
+     "nazwa": "Pozostali specjaliści z dziedziny prawa gdzie indziej niesklasyfikowani",
+     "strona": 26
+    }
+   ],
+   "uwagi": "Brak zawodu „Prawnik”. Pod naszym kodem 261101 jest Adwokat (którego mamy osobno jako adwokat)."
+  },
+  {
+   "id": "analityk-danych",
+   "kodObecny": "252101",
+   "nazwaObecna": "Analityk danych",
+   "status": "niejednoznaczny",
+   "kodPoprawny": null,
+   "nazwaWKlasyfikacji": null,
+   "nazwaPodKodemObecnym": "Administrator baz danych",
+   "nazwaPodKodemObecnym2018": "Administrator baz danych",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": null,
+    "strona": null
+   },
+   "kandydaci": [
+    {
+     "kod": "252102",
+     "nazwa": "Analityk baz danych (data scientist)",
+     "strona": 25
+    },
+    {
+     "kod": "251101",
+     "nazwa": "Analityk systemów teleinformatycznych",
+     "strona": 24
+    },
+    {
+     "kod": "331404",
+     "nazwa": "Asystent przetwarzania danych",
+     "strona": 38
+    }
+   ],
+   "uwagi": "Brak zawodu „Analityk danych”. Pod naszym kodem 252101 jest Administrator baz danych. Najbliższy literalnie: 252102 Analityk baz danych (data scientist)."
+  },
+  {
+   "id": "pielegniarka",
+   "kodObecny": "222101",
+   "nazwaObecna": "Pielęgniarka / Pielęgniarz",
+   "status": "ok",
+   "kodPoprawny": "222101",
+   "nazwaWKlasyfikacji": "Pielęgniarka",
+   "nazwaPodKodemObecnym": "Pielęgniarka",
+   "nazwaPodKodemObecnym2018": "Pielęgniarka",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "222101 Pielęgniarka",
+    "strona": 16
+   },
+   "kandydaci": [],
+   "uwagi": "Klasyfikacja podaje „Pielęgniarka”.",
+   "grupaGus3": "222 Pielęgniarki",
+   "nazwaKodPoprawny2018": "Pielęgniarka"
+  },
+  {
+   "id": "farmaceuta",
+   "kodObecny": "226201",
+   "nazwaObecna": "Farmaceuta",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "228101",
+   "nazwaWKlasyfikacji": "Farmaceuta",
+   "nazwaPodKodemObecnym": "Lekarz dentysta – specjalista chirurgii stomatologicznej",
+   "nazwaPodKodemObecnym2018": "Lekarz dentysta – specjalista chirurgii stomatologicznej",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "228101 Farmaceuta",
+    "strona": 18
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 226201 to w klasyfikacji lekarz dentysta specjalista chirurgii stomatologicznej. Grupa GUS 228 Farmaceuci jest zgodna z poprawnym kodem.",
+   "grupaGus3": "228 Farmaceuci",
+   "nazwaKodPoprawny2018": "Farmaceuta"
+  },
+  {
+   "id": "fizjoterapeuta",
+   "kodObecny": "229201",
+   "nazwaObecna": "Fizjoterapeuta",
+   "status": "ok",
+   "kodPoprawny": "229201",
+   "nazwaWKlasyfikacji": "Fizjoterapeuta",
+   "nazwaPodKodemObecnym": "Fizjoterapeuta",
+   "nazwaPodKodemObecnym2018": "Fizjoterapeuta",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "229201 Fizjoterapeuta",
+    "strona": 18
+   },
+   "kandydaci": [],
+   "uwagi": "",
+   "grupaGus3": "229 Inni specjaliści ochrony zdrowia",
+   "nazwaKodPoprawny2018": "Fizjoterapeuta"
+  },
+  {
+   "id": "ksiegowy",
+   "kodObecny": "331301",
+   "nazwaObecna": "Księgowy",
+   "status": "ok",
+   "kodPoprawny": "331301",
+   "nazwaWKlasyfikacji": "Księgowy",
+   "nazwaPodKodemObecnym": "Księgowy",
+   "nazwaPodKodemObecnym2018": "Księgowy",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "331301 Księgowy",
+    "strona": 38
+   },
+   "kandydaci": [],
+   "uwagi": "",
+   "grupaGus3": "331 Średni personel do spraw finansowych",
+   "nazwaKodPoprawny2018": "Księgowy"
+  },
+  {
+   "id": "kucharz",
+   "kodObecny": "512001",
+   "nazwaObecna": "Kucharz",
+   "status": "ok",
+   "kodPoprawny": "512001",
+   "nazwaWKlasyfikacji": "Kucharz",
+   "nazwaPodKodemObecnym": "Kucharz",
+   "nazwaPodKodemObecnym2018": "Kucharz",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "512001 Kucharz (w tekście z symbolem „s”: zawód szkolny)",
+    "strona": 48
+   },
+   "kandydaci": [],
+   "uwagi": "Znak S przy nazwie oznacza zawód szkolny.",
+   "grupaGus3": "512 Kucharze",
+   "nazwaKodPoprawny2018": "Kucharz"
+  },
+  {
+   "id": "tester",
+   "kodObecny": "251903",
+   "nazwaObecna": "Tester oprogramowania",
+   "status": "ok",
+   "kodPoprawny": "251903",
+   "nazwaWKlasyfikacji": "Tester oprogramowania komputerowego",
+   "nazwaPodKodemObecnym": "Tester oprogramowania komputerowego",
+   "nazwaPodKodemObecnym2018": "Tester oprogramowania komputerowego",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "251903 Tester oprogramowania komputerowego",
+    "strona": 24
+   },
+   "kandydaci": [
+    {
+     "kod": "251904",
+     "nazwa": "Tester systemów teleinformatycznych",
+     "strona": 24
+    }
+   ],
+   "uwagi": "Nazwa w klasyfikacji „Tester oprogramowania komputerowego” (drobna różnica).",
+   "grupaGus3": "251 Analitycy systemów komputerowych i programiści",
+   "nazwaKodPoprawny2018": "Tester oprogramowania komputerowego"
+  },
+  {
+   "id": "dentysta",
+   "kodObecny": "226101",
+   "nazwaObecna": "Dentysta",
+   "status": "ok",
+   "kodPoprawny": "226101",
+   "nazwaWKlasyfikacji": "Lekarz dentysta",
+   "nazwaPodKodemObecnym": "Lekarz dentysta",
+   "nazwaPodKodemObecnym2018": "Lekarz dentysta",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "226101 Lekarz dentysta",
+    "strona": 17
+   },
+   "kandydaci": [],
+   "uwagi": "Klasyfikacja podaje „Lekarz dentysta”.",
+   "grupaGus3": "226 Lekarze dentyści",
+   "nazwaKodPoprawny2018": "Lekarz dentysta"
+  },
+  {
+   "id": "fotograf",
+   "kodObecny": "343101",
+   "nazwaObecna": "Fotograf",
+   "status": "ok",
+   "kodPoprawny": "343101",
+   "nazwaWKlasyfikacji": "Fotograf",
+   "nazwaPodKodemObecnym": "Fotograf",
+   "nazwaPodKodemObecnym2018": "Fotograf",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "343101 Fotograf (w tekście z symbolem „s”: zawód szkolny)",
+    "strona": 42
+   },
+   "kandydaci": [],
+   "uwagi": "Znak S przy nazwie oznacza zawód szkolny.",
+   "grupaGus3": "343 Średni personel w zakresie działalności artystycznej, kulturalnej i kulinarnej",
+   "nazwaKodPoprawny2018": "Fotograf"
+  },
+  {
+   "id": "dziennikarz",
+   "kodObecny": "264201",
+   "nazwaObecna": "Dziennikarz",
+   "status": "ok",
+   "kodPoprawny": "264201",
+   "nazwaWKlasyfikacji": "Dziennikarz",
+   "nazwaPodKodemObecnym": "Dziennikarz",
+   "nazwaPodKodemObecnym2018": "Dziennikarz",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "264201 Dziennikarz",
+    "strona": 28
+   },
+   "kandydaci": [],
+   "uwagi": "",
+   "grupaGus3": "264 Literaci, dziennikarze i filolodzy",
+   "nazwaKodPoprawny2018": "Dziennikarz"
+  },
+  {
+   "id": "ratownik-medyczny",
+   "kodObecny": "325601",
+   "nazwaObecna": "Ratownik medyczny",
+   "status": "ok",
+   "kodPoprawny": "325601",
+   "nazwaWKlasyfikacji": "Ratownik medyczny",
+   "nazwaPodKodemObecnym": "Ratownik medyczny",
+   "nazwaPodKodemObecnym2018": "Ratownik medyczny",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "325601 Ratownik medyczny",
+    "strona": 37
+   },
+   "kandydaci": [],
+   "uwagi": "Kod jest poprawny. Wcześniejsze „GUS 224” było błędnym dopasowaniem: grupa 224 to „Specjaliści do spraw ratownictwa medycznego” (224001), inny zawód. Ratownik medyczny 325601 leży w grupie 3256 Ratownicy medyczni, czyli w grupie GUS 325 „Inny średni personel do spraw zdrowia” (grupa szeroka).",
+   "grupaGus3": "325 Inny średni personel do spraw zdrowia",
+   "nazwaKodPoprawny2018": "Ratownik medyczny"
+  },
+  {
+   "id": "projektant-ux",
+   "kodObecny": "251201",
+   "nazwaObecna": "Projektant UX/UI",
+   "status": "niejednoznaczny",
+   "kodPoprawny": null,
+   "nazwaWKlasyfikacji": null,
+   "nazwaPodKodemObecnym": "Specjalista do spraw doskonalenia i rozwoju aplikacji",
+   "nazwaPodKodemObecnym2018": "Specjalista do spraw doskonalenia i rozwoju aplikacji",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": null,
+    "strona": null
+   },
+   "kandydaci": [
+    {
+     "kod": "251403",
+     "nazwa": "Projektant interfejsu użytkownika",
+     "strona": 24
+    },
+    {
+     "kod": "251104",
+     "nazwa": "Analityk doświadczenia użytkowników (user experience analyst)",
+     "strona": 24
+    },
+    {
+     "kod": "251201",
+     "nazwa": "Specjalista do spraw doskonalenia i rozwoju aplikacji",
+     "strona": 24
+    }
+   ],
+   "uwagi": "Brak zawodu „Projektant UX/UI”. Pod naszym kodem 251201 jest Specjalista do spraw doskonalenia i rozwoju aplikacji. Najbliższe: 251403 Projektant interfejsu użytkownika, 251104 Analityk doświadczenia użytkowników (user experience analyst)."
+  },
+  {
+   "id": "elektryk",
+   "kodObecny": "741201",
+   "nazwaObecna": "Elektryk",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "741103",
+   "nazwaWKlasyfikacji": "Elektryk",
+   "nazwaPodKodemObecnym": "Elektromechanik",
+   "nazwaPodKodemObecnym2018": "Elektromechanik",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "741103 Elektryk (w tekście z symbolem „s”: zawód szkolny)",
+    "strona": 62
+   },
+   "kandydaci": [
+    {
+     "kod": "741104",
+     "nazwa": "Elektryk budowlany",
+     "strona": 62
+    }
+   ],
+   "uwagi": "Nasz 741201 to Elektromechanik. Zawód „Elektryk” (zawód szkolny) to 741103; jest też 741104 Elektryk budowlany.",
+   "grupaGus3": "741 Elektrycy budowlani, elektromechanicy i elektromonterzy",
+   "nazwaKodPoprawny2018": "Elektryk"
+  },
+  {
+   "id": "policjant",
+   "kodObecny": "335401",
+   "nazwaObecna": "Policjant",
+   "status": "niejednoznaczny",
+   "kodPoprawny": null,
+   "nazwaWKlasyfikacji": null,
+   "nazwaPodKodemObecnym": "Urzędnik do spraw licencji",
+   "nazwaPodKodemObecnym2018": "Urzędnik do spraw licencji",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": null,
+    "strona": null
+   },
+   "kandydaci": [
+    {
+     "kod": "335502",
+     "nazwa": "Policjant służby kryminalnej",
+     "strona": 40
+    },
+    {
+     "kod": "335504",
+     "nazwa": "Policjant służby prewencji",
+     "strona": 40
+    },
+    {
+     "kod": "335505",
+     "nazwa": "Policjant służby wspomagającej",
+     "strona": 40
+    },
+    {
+     "kod": "335506",
+     "nazwa": "Policjant służby kontrterrorystycznej",
+     "strona": 40
+    },
+    {
+     "kod": "335507",
+     "nazwa": "Policjant służby spraw wewnętrznych",
+     "strona": 40
+    },
+    {
+     "kod": "335508",
+     "nazwa": "Policjant służby śledczej",
+     "strona": 40
+    },
+    {
+     "kod": "335590",
+     "nazwa": "Pozostali policjanci",
+     "strona": 40
+    }
+   ],
+   "uwagi": "Brak zawodu „Policjant”; w grupie 3355 są policjanci według służby."
+  },
+  {
+   "id": "strazak",
+   "kodObecny": "541001",
+   "nazwaObecna": "Strażak",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "541101",
+   "nazwaWKlasyfikacji": "Strażak",
+   "nazwaPodKodemObecnym": null,
+   "nazwaPodKodemObecnym2018": null,
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "541101 Strażak",
+    "strona": 51
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 541001 nie istnieje; zawód Strażak ma kod 541101.",
+   "grupaGus3": "541 Pracownicy usług ochrony",
+   "nazwaKodPoprawny2018": "Strażak"
+  },
+  {
+   "id": "dietetyk",
+   "kodObecny": "229901",
+   "nazwaObecna": "Dietetyk",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "322001",
+   "nazwaWKlasyfikacji": "Dietetyk",
+   "nazwaPodKodemObecnym": "Epidemiolog",
+   "nazwaPodKodemObecnym2018": "Epidemiolog",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "322001 Dietetyk",
+    "strona": 36
+   },
+   "kandydaci": [
+    {
+     "kod": "229301",
+     "nazwa": "Specjalista do spraw dietetyki",
+     "strona": 18
+    }
+   ],
+   "uwagi": "Nasz 229901 to Epidemiolog. Dietetyk to 322001 (grupa GUS 322 Dietetycy i żywieniowcy). Alternatywa wyższego poziomu: 229301 Specjalista do spraw dietetyki (grupa 229).",
+   "grupaGus3": "322 Dietetycy i żywieniowcy",
+   "nazwaKodPoprawny2018": "Dietetyk"
+  },
+  {
+   "id": "tlumacz",
+   "kodObecny": "264301",
+   "nazwaObecna": "Tłumacz",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "264304",
+   "nazwaWKlasyfikacji": "Tłumacz",
+   "nazwaPodKodemObecnym": "Filolog klasyczny",
+   "nazwaPodKodemObecnym2018": "Filolog klasyczny",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "264304 Tłumacz",
+    "strona": 28
+   },
+   "kandydaci": [
+    {
+     "kod": "264305",
+     "nazwa": "Tłumacz przysięgły",
+     "strona": 28
+    },
+    {
+     "kod": "264310",
+     "nazwa": "Tłumacz języka migowego",
+     "strona": 28
+    }
+   ],
+   "uwagi": "Nasz 264301 to Filolog klasyczny. Są też 264305 Tłumacz przysięgły, 264310 Tłumacz języka migowego.",
+   "grupaGus3": "264 Literaci, dziennikarze i filolodzy",
+   "nazwaKodPoprawny2018": "Tłumacz"
+  },
+  {
+   "id": "weterynarz",
+   "kodObecny": "225101",
+   "nazwaObecna": "Weterynarz",
+   "status": "ok",
+   "kodPoprawny": "225101",
+   "nazwaWKlasyfikacji": "Lekarz weterynarii",
+   "nazwaPodKodemObecnym": "Lekarz weterynarii",
+   "nazwaPodKodemObecnym2018": "Lekarz weterynarii",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "225101 Lekarz weterynarii",
+    "strona": 16
+   },
+   "kandydaci": [],
+   "uwagi": "Klasyfikacja podaje „Lekarz weterynarii”.",
+   "grupaGus3": "225 Lekarze weterynarii",
+   "nazwaKodPoprawny2018": "Lekarz weterynarii"
+  },
+  {
+   "id": "specjalista-cyberbezpieczenstwa",
+   "kodObecny": "252901",
+   "nazwaObecna": "Specjalista ds. cyberbezpieczeństwa",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "252902",
+   "nazwaWKlasyfikacji": "Specjalista do spraw cyberbezpieczeństwa",
+   "nazwaPodKodemObecnym": "Specjalista bezpieczeństwa oprogramowania",
+   "nazwaPodKodemObecnym2018": "Specjalista bezpieczeństwa oprogramowania",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "252902 Specjalista do spraw cyberbezpieczeństwa",
+    "strona": 25
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 252901 to Specjalista bezpieczeństwa oprogramowania. W edycji 2018 pod 252902 była nazwa „Specjalista bezpieczeństwa systemów teleinformatycznych”, nazwę „Specjalista do spraw cyberbezpieczeństwa” ma edycja 2025 (kod ten sam).",
+   "grupaGus3": "252 Specjaliści do spraw baz danych i sieci komputerowych",
+   "nazwaKodPoprawny2018": "Specjalista bezpieczeństwa systemów teleinformatycznych"
+  },
+  {
+   "id": "data-scientist",
+   "kodObecny": "252902",
+   "nazwaObecna": "Data scientist",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "252102",
+   "nazwaWKlasyfikacji": "Analityk baz danych (data scientist)",
+   "nazwaPodKodemObecnym": "Specjalista do spraw cyberbezpieczeństwa",
+   "nazwaPodKodemObecnym2018": "Specjalista bezpieczeństwa systemów teleinformatycznych",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "252102 Analityk baz danych (data scientist)",
+    "strona": 25
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 252902 to Specjalista do spraw cyberbezpieczeństwa. Literalnie „(data scientist)” występuje w nazwie 252102 Analityk baz danych (data scientist). W edycji 2018 kod 252102 nazywał się „Analityk baz danych” (dopisek „(data scientist)” pojawił się w późniejszej edycji).",
+   "grupaGus3": "252 Specjaliści do spraw baz danych i sieci komputerowych",
+   "nazwaKodPoprawny2018": "Analityk baz danych"
+  },
+  {
+   "id": "devops-engineer",
+   "kodObecny": "252903",
+   "nazwaObecna": "DevOps engineer",
+   "status": "niejednoznaczny",
+   "kodPoprawny": null,
+   "nazwaWKlasyfikacji": null,
+   "nazwaPodKodemObecnym": "Specjalista do spraw systemów zarządzania bezpieczeństwem informacji",
+   "nazwaPodKodemObecnym2018": "Specjalista do spraw systemów zarządzania bezpieczeństwem informacji",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": null,
+    "strona": null
+   },
+   "kandydaci": [
+    {
+     "kod": "251907",
+     "nazwa": "Specjalista do spraw chmury obliczeniowej (cloud computing)",
+     "strona": 25
+    },
+    {
+     "kod": "252201",
+     "nazwa": "Administrator systemów komputerowych",
+     "strona": 25
+    },
+    {
+     "kod": "251106",
+     "nazwa": "Informatyk",
+     "strona": 24
+    },
+    {
+     "kod": "251990",
+     "nazwa": "Pozostali analitycy systemów komputerowych i programiści gdzie indziej niesklasyfikowani",
+     "strona": 25
+    },
+    {
+     "kod": "252990",
+     "nazwa": "Pozostali specjaliści do spraw baz danych i sieci komputerowych gdzie indziej niesklasyfikowani",
+     "strona": 25
+    }
+   ],
+   "uwagi": "Brak zawodu DevOps w klasyfikacji. Nasz 252903 to Specjalista do spraw systemów zarządzania bezpieczeństwem informacji. Kandydaci: 251907 Specjalista do spraw chmury obliczeniowej, 252201 Administrator systemów komputerowych, 251106 Informatyk, grupy resztowe 251990 / 252990."
+  },
+  {
+   "id": "administrator-systemow",
+   "kodObecny": "252201",
+   "nazwaObecna": "Administrator systemów komputerowych",
+   "status": "ok",
+   "kodPoprawny": "252201",
+   "nazwaWKlasyfikacji": "Administrator systemów komputerowych",
+   "nazwaPodKodemObecnym": "Administrator systemów komputerowych",
+   "nazwaPodKodemObecnym2018": "Administrator systemów komputerowych",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "252201 Administrator systemów komputerowych",
+    "strona": 25
+   },
+   "kandydaci": [],
+   "uwagi": "",
+   "grupaGus3": "252 Specjaliści do spraw baz danych i sieci komputerowych",
+   "nazwaKodPoprawny2018": "Administrator systemów komputerowych"
+  },
+  {
+   "id": "technik-informatyk",
+   "kodObecny": "352101",
+   "nazwaObecna": "Technik informatyk",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "351203",
+   "nazwaWKlasyfikacji": "Technik informatyk",
+   "nazwaPodKodemObecnym": "Asystent operatora dźwięku",
+   "nazwaPodKodemObecnym2018": "Asystent operatora dźwięku",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "351203 Technik informatyk (w tekście z symbolem „s”: zawód szkolny)",
+    "strona": 43
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 352101 to Asystent operatora dźwięku. Technik informatyk (zawód szkolny) to 351203, grupa GUS 351.",
+   "grupaGus3": "351 Technicy do spraw technologii teleinformatycznych i pomocy użytkownikom urządzeń teleinformatycznych",
+   "nazwaKodPoprawny2018": "Technik informatyk"
+  },
+  {
+   "id": "programista-gier",
+   "kodObecny": "251403",
+   "nazwaObecna": "Programista gier komputerowych",
+   "status": "niejednoznaczny",
+   "kodPoprawny": null,
+   "nazwaWKlasyfikacji": null,
+   "nazwaPodKodemObecnym": "Projektant interfejsu użytkownika",
+   "nazwaPodKodemObecnym2018": null,
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": null,
+    "strona": null
+   },
+   "kandydaci": [
+    {
+     "kod": "251302",
+     "nazwa": "Projektant aplikacji multimedialnych, animacji i gier komputerowych",
+     "strona": 24
+    },
+    {
+     "kod": "251401",
+     "nazwa": "Programista aplikacji",
+     "strona": 24
+    },
+    {
+     "kod": "251403",
+     "nazwa": "Projektant interfejsu użytkownika",
+     "strona": 24
+    }
+   ],
+   "uwagi": "Brak „Programisty gier”. Nasz 251403 to Projektant interfejsu użytkownika. Kandydaci: 251302 Projektant aplikacji multimedialnych, animacji i gier komputerowych, 251401 Programista aplikacji."
+  },
+  {
+   "id": "ekonomista",
+   "kodObecny": "241301",
+   "nazwaObecna": "Ekonomista",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "263102",
+   "nazwaWKlasyfikacji": "Ekonomista",
+   "nazwaPodKodemObecnym": "Analityk giełdowy",
+   "nazwaPodKodemObecnym2018": "Analityk giełdowy",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "263102 Ekonomista",
+    "strona": 26
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 241301 to Analityk giełdowy. Ekonomista to 263102 (grupa 263 Specjaliści z dziedzin społecznych i religijnych, nie 241).",
+   "grupaGus3": "263 Specjaliści z dziedzin społecznych i religijnych",
+   "nazwaKodPoprawny2018": "Ekonomista"
+  },
+  {
+   "id": "doradca-finansowy",
+   "kodObecny": "242101",
+   "nazwaObecna": "Doradca finansowy",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "241202",
+   "nazwaWKlasyfikacji": "Doradca finansowy",
+   "nazwaPodKodemObecnym": "Administrator produkcji filmowej",
+   "nazwaPodKodemObecnym2018": "Administrator produkcji filmowej",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "241202 Doradca finansowy",
+    "strona": 21
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 242101 to Administrator produkcji filmowej. Doradca finansowy to 241202 (grupa GUS 241).",
+   "grupaGus3": "241 Specjaliści do spraw finansowych",
+   "nazwaKodPoprawny2018": "Doradca finansowy"
+  },
+  {
+   "id": "specjalista-hr",
+   "kodObecny": "242201",
+   "nazwaObecna": "Specjalista ds. HR",
+   "status": "niejednoznaczny",
+   "kodPoprawny": null,
+   "nazwaWKlasyfikacji": null,
+   "nazwaPodKodemObecnym": "Animator gospodarczy do spraw przedsiębiorczości",
+   "nazwaPodKodemObecnym2018": "Animator gospodarczy do spraw przedsiębiorczości",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": null,
+    "strona": null
+   },
+   "kandydaci": [
+    {
+     "kod": "242307",
+     "nazwa": "Specjalista do spraw kadr",
+     "strona": 23
+    },
+    {
+     "kod": "242309",
+     "nazwa": "Specjalista do spraw rekrutacji pracowników",
+     "strona": 23
+    },
+    {
+     "kod": "242303",
+     "nazwa": "Doradca personalny",
+     "strona": 23
+    },
+    {
+     "kod": "242310",
+     "nazwa": "Specjalista do spraw wynagrodzeń",
+     "strona": 23
+    },
+    {
+     "kod": "242390",
+     "nazwa": "Pozostali specjaliści do spraw zarządzania zasobami ludzkimi",
+     "strona": 23
+    }
+   ],
+   "uwagi": "Brak zawodu „Specjalista ds. HR”. Nasz 242201 to Animator gospodarczy do spraw przedsiębiorczości. Grupa 2423 Specjaliści do spraw zarządzania zasobami ludzkimi zawiera kandydatów."
+  },
+  {
+   "id": "specjalista-marketingu",
+   "kodObecny": "243201",
+   "nazwaObecna": "Specjalista ds. marketingu",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "243106",
+   "nazwaWKlasyfikacji": "Specjalista do spraw marketingu i handlu",
+   "nazwaPodKodemObecnym": "Specjalista etyki biznesu",
+   "nazwaPodKodemObecnym2018": "Specjalista etyki biznesu",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "243106 Specjalista do spraw marketingu i handlu",
+    "strona": 23
+   },
+   "kandydaci": [
+    {
+     "kod": "243107",
+     "nazwa": "Specjalista do spraw reklamy",
+     "strona": 23
+    }
+   ],
+   "uwagi": "Nasz 243201 to Specjalista etyki biznesu. Najbliższa nazwa: 243106 Specjalista do spraw marketingu i handlu; alternatywa 243107 Specjalista do spraw reklamy.",
+   "grupaGus3": "243 Specjaliści do spraw sprzedaży, marketingu i public relations",
+   "nazwaKodPoprawny2018": "Specjalista do spraw marketingu i handlu"
+  },
+  {
+   "id": "specjalista-pr",
+   "kodObecny": "243301",
+   "nazwaObecna": "Specjalista ds. PR",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "243203",
+   "nazwaWKlasyfikacji": "Specjalista do spraw public relations",
+   "nazwaPodKodemObecnym": "Inżynier sprzedaży",
+   "nazwaPodKodemObecnym2018": "Inżynier sprzedaży",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "243203 Specjalista do spraw public relations",
+    "strona": 23
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 243301 to Inżynier sprzedaży. Specjalista do spraw public relations to 243203.",
+   "grupaGus3": "243 Specjaliści do spraw sprzedaży, marketingu i public relations",
+   "nazwaKodPoprawny2018": "Specjalista do spraw public relations"
+  },
+  {
+   "id": "doradca-podatkowy",
+   "kodObecny": "241201",
+   "nazwaObecna": "Doradca podatkowy",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "241204",
+   "nazwaWKlasyfikacji": "Doradca podatkowy",
+   "nazwaPodKodemObecnym": "Doradca emerytalny",
+   "nazwaPodKodemObecnym2018": "Doradca emerytalny",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "241204 Doradca podatkowy",
+    "strona": 21
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 241201 to Doradca emerytalny.",
+   "grupaGus3": "241 Specjaliści do spraw finansowych",
+   "nazwaKodPoprawny2018": "Doradca podatkowy"
+  },
+  {
+   "id": "biegly-rewident",
+   "kodObecny": "241101",
+   "nazwaObecna": "Biegły rewident",
+   "status": "ok",
+   "kodPoprawny": "241101",
+   "nazwaWKlasyfikacji": "Biegły rewident",
+   "nazwaPodKodemObecnym": "Biegły rewident",
+   "nazwaPodKodemObecnym2018": "Biegły rewident",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "241101 Biegły rewident",
+    "strona": 21
+   },
+   "kandydaci": [],
+   "uwagi": "",
+   "grupaGus3": "241 Specjaliści do spraw finansowych",
+   "nazwaKodPoprawny2018": "Biegły rewident"
+  },
+  {
+   "id": "psychoterapeuta",
+   "kodObecny": "229906",
+   "nazwaObecna": "Psychoterapeuta",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "229905",
+   "nazwaWKlasyfikacji": "Psychoterapeuta",
+   "nazwaPodKodemObecnym": "Specjalista psychoterapii uzależnień",
+   "nazwaPodKodemObecnym2018": "Specjalista psychoterapii uzależnień",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "229905 Psychoterapeuta",
+    "strona": 19
+   },
+   "kandydaci": [
+    {
+     "kod": "229906",
+     "nazwa": "Specjalista psychoterapii uzależnień",
+     "strona": 19
+    }
+   ],
+   "uwagi": "Nasz 229906 to Specjalista psychoterapii uzależnień. Psychoterapeuta to 229905.",
+   "grupaGus3": "229 Inni specjaliści ochrony zdrowia",
+   "nazwaKodPoprawny2018": "Psychoterapeuta"
+  },
+  {
+   "id": "psychiatra",
+   "kodObecny": "221206",
+   "nazwaObecna": "Lekarz psychiatra",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "221256",
+   "nazwaWKlasyfikacji": "Lekarz – specjalista psychiatrii",
+   "nazwaPodKodemObecnym": "Lekarz – specjalista chirurgii dziecięcej",
+   "nazwaPodKodemObecnym2018": "Lekarz – specjalista chirurgii dziecięcej",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "221256 Lekarz – specjalista psychiatrii",
+    "strona": 15
+   },
+   "kandydaci": [
+    {
+     "kod": "221257",
+     "nazwa": "Lekarz – specjalista psychiatrii dzieci i młodzieży",
+     "strona": 15
+    }
+   ],
+   "uwagi": "Nasz 221206 to Lekarz – specjalista chirurgii dziecięcej. Poprawnie: Lekarz – specjalista psychiatrii; jest też 221257 psychiatrii dzieci i młodzieży.",
+   "grupaGus3": "221 Lekarze",
+   "nazwaKodPoprawny2018": "Lekarz – specjalista psychiatrii"
+  },
+  {
+   "id": "pediatra",
+   "kodObecny": "221205",
+   "nazwaObecna": "Lekarz pediatra",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "221254",
+   "nazwaWKlasyfikacji": "Lekarz – specjalista pediatrii",
+   "nazwaPodKodemObecnym": "Lekarz – specjalista balneologii i medycyny fizykalnej",
+   "nazwaPodKodemObecnym2018": "Lekarz – specjalista balneologii i medycyny fizykalnej",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "221254 Lekarz – specjalista pediatrii",
+    "strona": 15
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 221205 to Lekarz – specjalista balneologii i medycyny fizykalnej. Poprawnie: Lekarz – specjalista pediatrii.",
+   "grupaGus3": "221 Lekarze",
+   "nazwaKodPoprawny2018": "Lekarz – specjalista pediatrii"
+  },
+  {
+   "id": "chirurg",
+   "kodObecny": "221201",
+   "nazwaObecna": "Lekarz chirurg",
+   "status": "niejednoznaczny",
+   "kodPoprawny": null,
+   "nazwaWKlasyfikacji": null,
+   "nazwaPodKodemObecnym": "Lekarz – specjalista alergologii",
+   "nazwaPodKodemObecnym2018": "Lekarz – specjalista alergologii",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": null,
+    "strona": null
+   },
+   "kandydaci": [
+    {
+     "kod": "221209",
+     "nazwa": "Lekarz – specjalista chirurgii ogólnej",
+     "strona": 14
+    },
+    {
+     "kod": "221206",
+     "nazwa": "Lekarz – specjalista chirurgii dziecięcej",
+     "strona": 14
+    },
+    {
+     "kod": "221207",
+     "nazwa": "Lekarz – specjalista chirurgii klatki piersiowej",
+     "strona": 14
+    },
+    {
+     "kod": "221208",
+     "nazwa": "Lekarz – specjalista chirurgii naczyniowej",
+     "strona": 14
+    },
+    {
+     "kod": "221210",
+     "nazwa": "Lekarz – specjalista chirurgii onkologicznej",
+     "strona": 14
+    },
+    {
+     "kod": "221211",
+     "nazwa": "Lekarz – specjalista chirurgii plastycznej",
+     "strona": 14
+    },
+    {
+     "kod": "221212",
+     "nazwa": "Lekarz – specjalista chirurgii szczękowo-twarzowej",
+     "strona": 14
+    },
+    {
+     "kod": "221229",
+     "nazwa": "Lekarz – specjalista kardiochirurgii",
+     "strona": 14
+    },
+    {
+     "kod": "221243",
+     "nazwa": "Lekarz – specjalista neurochirurgii",
+     "strona": 15
+    }
+   ],
+   "uwagi": "Nasz 221201 to Lekarz – specjalista alergologii. Chirurgia ma wiele specjalizacji w klasyfikacji; najbliższy ogólny: 221209 Lekarz – specjalista chirurgii ogólnej."
+  },
+  {
+   "id": "kardiolog",
+   "kodObecny": "221202",
+   "nazwaObecna": "Lekarz kardiolog",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "221230",
+   "nazwaWKlasyfikacji": "Lekarz – specjalista kardiologii",
+   "nazwaPodKodemObecnym": "Lekarz – specjalista anestezjologii i intensywnej terapii",
+   "nazwaPodKodemObecnym2018": "Lekarz – specjalista anestezjologii i intensywnej terapii",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "221230 Lekarz – specjalista kardiologii",
+    "strona": 14
+   },
+   "kandydaci": [
+    {
+     "kod": "221231",
+     "nazwa": "Lekarz – specjalista kardiologii dziecięcej",
+     "strona": 15
+    }
+   ],
+   "uwagi": "Nasz 221202 to Lekarz – specjalista anestezjologii i intensywnej terapii. Kardiolog: Lekarz – specjalista kardiologii.",
+   "grupaGus3": "221 Lekarze",
+   "nazwaKodPoprawny2018": "Lekarz – specjalista kardiologii"
+  },
+  {
+   "id": "sedzia",
+   "kodObecny": "261201",
+   "nazwaObecna": "Sędzia",
+   "status": "ok",
+   "kodPoprawny": "261201",
+   "nazwaWKlasyfikacji": "Sędzia",
+   "nazwaPodKodemObecnym": "Sędzia",
+   "nazwaPodKodemObecnym2018": "Sędzia",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "261201 Sędzia",
+    "strona": 26
+   },
+   "kandydaci": [],
+   "uwagi": "",
+   "grupaGus3": "261 Specjaliści z dziedziny prawa",
+   "nazwaKodPoprawny2018": "Sędzia"
+  },
+  {
+   "id": "prokurator",
+   "kodObecny": "261301",
+   "nazwaObecna": "Prokurator",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "261102",
+   "nazwaWKlasyfikacji": "Prokurator",
+   "nazwaPodKodemObecnym": null,
+   "nazwaPodKodemObecnym2018": null,
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "261102 Prokurator",
+    "strona": 26
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 261301 nie istnieje. Prokurator to 261102.",
+   "grupaGus3": "261 Specjaliści z dziedziny prawa",
+   "nazwaKodPoprawny2018": "Prokurator"
+  },
+  {
+   "id": "notariusz",
+   "kodObecny": "261401",
+   "nazwaObecna": "Notariusz",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "261905",
+   "nazwaWKlasyfikacji": "Notariusz",
+   "nazwaPodKodemObecnym": null,
+   "nazwaPodKodemObecnym2018": null,
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "261905 Notariusz",
+    "strona": 26
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 261401 nie istnieje. Notariusz to 261905 (grupa 2619 gdzie indziej niesklasyfikowani).",
+   "grupaGus3": "261 Specjaliści z dziedziny prawa",
+   "nazwaKodPoprawny2018": "Notariusz"
+  },
+  {
+   "id": "komornik",
+   "kodObecny": "261501",
+   "nazwaObecna": "Komornik sądowy",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "261904",
+   "nazwaWKlasyfikacji": "Komornik sądowy",
+   "nazwaPodKodemObecnym": null,
+   "nazwaPodKodemObecnym2018": null,
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "261904 Komornik sądowy",
+    "strona": 26
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 261501 nie istnieje. Komornik sądowy to 261904.",
+   "grupaGus3": "261 Specjaliści z dziedziny prawa",
+   "nazwaKodPoprawny2018": "Komornik sądowy"
+  },
+  {
+   "id": "adwokat",
+   "kodObecny": "261102",
+   "nazwaObecna": "Adwokat",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "261101",
+   "nazwaWKlasyfikacji": "Adwokat",
+   "nazwaPodKodemObecnym": "Prokurator",
+   "nazwaPodKodemObecnym2018": "Prokurator",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "261101 Adwokat",
+    "strona": 26
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 261102 to Prokurator; Adwokat to 261101 (w careers.json adwokat ma 261102, a prawnik 261101; to kody, pod którymi w klasyfikacji są Prokurator i Adwokat).",
+   "grupaGus3": "261 Specjaliści z dziedziny prawa",
+   "nazwaKodPoprawny2018": "Adwokat"
+  },
+  {
+   "id": "zolnierz-zawodowy",
+   "kodObecny": "031001",
+   "nazwaObecna": "Żołnierz zawodowy",
+   "status": "niejednoznaczny",
+   "kodPoprawny": null,
+   "nazwaWKlasyfikacji": null,
+   "nazwaPodKodemObecnym": "Szeregowy zawodowy Sił Zbrojnych",
+   "nazwaPodKodemObecnym2018": "Żołnierz szeregowy",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": null,
+    "strona": null
+   },
+   "kandydaci": [
+    {
+     "kod": "011001",
+     "nazwa": "Oficer zawodowych Sił Zbrojnych",
+     "strona": 80
+    },
+    {
+     "kod": "021001",
+     "nazwa": "Podoficer zawodowych Sił Zbrojnych",
+     "strona": 80
+    },
+    {
+     "kod": "031001",
+     "nazwa": "Szeregowy zawodowy Sił Zbrojnych",
+     "strona": 80
+    }
+   ],
+   "uwagi": "Nasz 031001 to Szeregowy zawodowy Sił Zbrojnych. Klasyfikacja dzieli żołnierzy na oficera, podoficera i szeregowego (grupy 011, 021, 031); nie ma ogólnego „Żołnierza zawodowego”."
+  },
+  {
+   "id": "pracownik-ochrony",
+   "kodObecny": "541301",
+   "nazwaObecna": "Pracownik ochrony",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "541307",
+   "nazwaWKlasyfikacji": "Pracownik ochrony fizycznej",
+   "nazwaPodKodemObecnym": "Funkcjonariusz Służby Ochrony Państwa",
+   "nazwaPodKodemObecnym2018": "Funkcjonariusz Biura Ochrony Rządu",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "541307 Pracownik ochrony fizycznej",
+    "strona": 52
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 541301 to Funkcjonariusz Służby Ochrony Państwa. Pracownik ochrony fizycznej to 541307.",
+   "grupaGus3": "541 Pracownicy usług ochrony",
+   "nazwaKodPoprawny2018": "Pracownik ochrony fizycznej"
+  },
+  {
+   "id": "funkcjonariusz-sg",
+   "kodObecny": "335501",
+   "nazwaObecna": "Funkcjonariusz Straży Granicznej",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "335102",
+   "nazwaWKlasyfikacji": "Funkcjonariusz Straży Granicznej",
+   "nazwaPodKodemObecnym": "Negocjator policyjny",
+   "nazwaPodKodemObecnym2018": "Negocjator policyjny",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "335102 Funkcjonariusz Straży Granicznej",
+    "strona": 40
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 335501 to Negocjator policyjny. Funkcjonariusz Straży Granicznej to 335102 (grupa 335 Średni personel w dziedzinie prawa i porządku publicznego).",
+   "grupaGus3": "335 Urzędnicy państwowi do spraw nadzoru",
+   "nazwaKodPoprawny2018": "Funkcjonariusz straży granicznej"
+  },
+  {
+   "id": "aktor",
+   "kodObecny": "265101",
+   "nazwaObecna": "Aktor",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "265501",
+   "nazwaWKlasyfikacji": "Aktor",
+   "nazwaPodKodemObecnym": "Artysta fotografik",
+   "nazwaPodKodemObecnym2018": "Artysta fotografik",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "265501 Aktor",
+    "strona": 29
+   },
+   "kandydaci": [
+    {
+     "kod": "265502",
+     "nazwa": "Aktor lalkarz",
+     "strona": 29
+    }
+   ],
+   "uwagi": "Nasz 265101 to Artysta fotografik. Aktor to 265501.",
+   "grupaGus3": "265 Twórcy i artyści",
+   "nazwaKodPoprawny2018": "Aktor"
+  },
+  {
+   "id": "muzyk",
+   "kodObecny": "265201",
+   "nazwaObecna": "Muzyk",
+   "status": "niejednoznaczny",
+   "kodPoprawny": null,
+   "nazwaWKlasyfikacji": null,
+   "nazwaPodKodemObecnym": "Instrumentalista",
+   "nazwaPodKodemObecnym2018": "Instrumentalista",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": null,
+    "strona": null
+   },
+   "kandydaci": [
+    {
+     "kod": "265201",
+     "nazwa": "Instrumentalista",
+     "strona": 28
+    },
+    {
+     "kod": "265202",
+     "nazwa": "Wokalista",
+     "strona": 28
+    }
+   ],
+   "uwagi": "Brak zawodu „Muzyk”. Nasz 265201 to Instrumentalista; jest też 265202 Wokalista (343602 Muzyk to zawód szkolny w grupie 343)."
+  },
+  {
+   "id": "rezyser-filmowy",
+   "kodObecny": "265401",
+   "nazwaObecna": "Reżyser filmowy",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "265407",
+   "nazwaWKlasyfikacji": "Reżyser filmowy",
+   "nazwaPodKodemObecnym": "Asystent reżysera filmowego",
+   "nazwaPodKodemObecnym2018": "Asystent reżysera filmowego",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "265407 Reżyser filmowy",
+    "strona": 28
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 265401 to Asystent reżysera filmowego. Reżyser filmowy to 265407.",
+   "grupaGus3": "265 Twórcy i artyści",
+   "nazwaKodPoprawny2018": "Reżyser filmowy"
+  },
+  {
+   "id": "architekt-wnetrz",
+   "kodObecny": "216102",
+   "nazwaObecna": "Architekt wnętrz",
+   "status": "ok",
+   "kodPoprawny": "216102",
+   "nazwaWKlasyfikacji": "Architekt wnętrz",
+   "nazwaPodKodemObecnym": "Architekt wnętrz",
+   "nazwaPodKodemObecnym2018": "Architekt wnętrz",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "216102 Architekt wnętrz",
+    "strona": 13
+   },
+   "kandydaci": [],
+   "uwagi": "",
+   "grupaGus3": "216 Architekci, geodeci i projektanci",
+   "nazwaKodPoprawny2018": "Architekt wnętrz"
+  },
+  {
+   "id": "projektant-mody",
+   "kodObecny": "216301",
+   "nazwaObecna": "Projektant mody",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "216303",
+   "nazwaWKlasyfikacji": "Projektant mody",
+   "nazwaPodKodemObecnym": "Projektant biżuterii",
+   "nazwaPodKodemObecnym2018": "Projektant biżuterii",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "216303 Projektant mody",
+    "strona": 13
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 216301 to Projektant biżuterii. Projektant mody to 216303.",
+   "grupaGus3": "216 Architekci, geodeci i projektanci",
+   "nazwaKodPoprawny2018": "Projektant mody"
+  },
+  {
+   "id": "pedagog",
+   "kodObecny": "235901",
+   "nazwaObecna": "Pedagog szkolny",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "235912",
+   "nazwaWKlasyfikacji": "Pedagog szkolny",
+   "nazwaPodKodemObecnym": "Dydaktyk multimedialny",
+   "nazwaPodKodemObecnym2018": "Dydaktyk multimedialny",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "235912 Pedagog szkolny",
+    "strona": 21
+   },
+   "kandydaci": [
+    {
+     "kod": "235921",
+     "nazwa": "Pedagog",
+     "strona": 21
+    },
+    {
+     "kod": "235919",
+     "nazwa": "Pedagog specjalny",
+     "strona": 21
+    }
+   ],
+   "uwagi": "Nasz 235901 to Dydaktyk multimedialny. Pedagog szkolny to 235912; jest też 235921 Pedagog i 235919 Pedagog specjalny.",
+   "grupaGus3": "235 Inni specjaliści nauczania i wychowania",
+   "nazwaKodPoprawny2018": "Pedagog szkolny"
+  },
+  {
+   "id": "logopeda",
+   "kodObecny": "235902",
+   "nazwaObecna": "Logopeda",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "229402",
+   "nazwaWKlasyfikacji": "Logopeda",
+   "nazwaPodKodemObecnym": "Egzaminator on-line",
+   "nazwaPodKodemObecnym2018": "Egzaminator on-line",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "229402 Logopeda",
+    "strona": 18
+   },
+   "kandydaci": [
+    {
+     "kod": "235906",
+     "nazwa": "Nauczyciel logopeda",
+     "strona": 20
+    }
+   ],
+   "uwagi": "Nasz 235902 to Egzaminator on-line. Logopeda to 229402 (grupa 229); jest też 235906 Nauczyciel logopeda.",
+   "grupaGus3": "229 Inni specjaliści ochrony zdrowia",
+   "nazwaKodPoprawny2018": "Logopeda"
+  },
+  {
+   "id": "nauczyciel-akademicki",
+   "kodObecny": "231001",
+   "nazwaObecna": "Nauczyciel akademicki",
+   "status": "niejednoznaczny",
+   "kodPoprawny": null,
+   "nazwaWKlasyfikacji": null,
+   "nazwaPodKodemObecnym": "Nauczyciel akademicki – nauki humanistyczne",
+   "nazwaPodKodemObecnym2018": "Nauczyciel akademicki – nauki biologiczne",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": null,
+    "strona": null
+   },
+   "kandydaci": [
+    {
+     "kod": "231001",
+     "nazwa": "Nauczyciel akademicki – nauki humanistyczne",
+     "strona": 19
+    },
+    {
+     "kod": "231002",
+     "nazwa": "Nauczyciel akademicki – nauki inżynieryjno-techniczne",
+     "strona": 19
+    },
+    {
+     "kod": "231003",
+     "nazwa": "Nauczyciel akademicki – nauki medyczne i nauki o zdrowiu",
+     "strona": 19
+    },
+    {
+     "kod": "231004",
+     "nazwa": "Nauczyciel akademicki – nauki rolnicze",
+     "strona": 19
+    },
+    {
+     "kod": "231005",
+     "nazwa": "Nauczyciel akademicki – nauki społeczne",
+     "strona": 19
+    },
+    {
+     "kod": "231006",
+     "nazwa": "Nauczyciel akademicki – nauki ścisłe i przyrodnicze",
+     "strona": 19
+    },
+    {
+     "kod": "231007",
+     "nazwa": "Nauczyciel akademicki – nauki teologiczne",
+     "strona": 19
+    },
+    {
+     "kod": "231008",
+     "nazwa": "Nauczyciel akademicki – sztuka",
+     "strona": 19
+    },
+    {
+     "kod": "231009",
+     "nazwa": "Nauczyciel akademicki – nauki o rodzinie",
+     "strona": 19
+    },
+    {
+     "kod": "231010",
+     "nazwa": "Nauczyciel akademicki – nauki weterynaryjne",
+     "strona": 19
+    }
+   ],
+   "uwagi": "Klasyfikacja ma tylko Nauczyciela akademickiego według dziedziny nauki. Nasz 231001 to „… nauki humanistyczne”. Grupa GUS 231 jest wspólna."
+  },
+  {
+   "id": "fryzjer",
+   "kodObecny": "514101",
+   "nazwaObecna": "Fryzjer",
+   "status": "ok",
+   "kodPoprawny": "514101",
+   "nazwaWKlasyfikacji": "Fryzjer",
+   "nazwaPodKodemObecnym": "Fryzjer",
+   "nazwaPodKodemObecnym2018": "Fryzjer",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "514101 Fryzjer (w tekście z symbolem „s”: zawód szkolny)",
+    "strona": 48
+   },
+   "kandydaci": [
+    {
+     "kod": "514102",
+     "nazwa": "Fryzjer damski",
+     "strona": 48
+    },
+    {
+     "kod": "514103",
+     "nazwa": "Fryzjer męski (barber)",
+     "strona": 48
+    }
+   ],
+   "uwagi": "Znak S przy nazwie oznacza zawód szkolny; są też 514102 Fryzjer damski i 514103 Fryzjer męski (barber).",
+   "grupaGus3": "514 Fryzjerzy, kosmetyczki i pokrewni",
+   "nazwaKodPoprawny2018": "Fryzjer"
+  },
+  {
+   "id": "kosmetyczka",
+   "kodObecny": "514201",
+   "nazwaObecna": "Kosmetyczka",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "514202",
+   "nazwaWKlasyfikacji": "Kosmetyczka",
+   "nazwaPodKodemObecnym": null,
+   "nazwaPodKodemObecnym2018": "Charakteryzator",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "514202 Kosmetyczka",
+    "strona": 48
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 514201 to Charakteryzator. Kosmetyczka to 514202.",
+   "grupaGus3": "514 Fryzjerzy, kosmetyczki i pokrewni",
+   "nazwaKodPoprawny2018": "Kosmetyczka"
+  },
+  {
+   "id": "cukiernik",
+   "kodObecny": "751201",
+   "nazwaObecna": "Cukiernik",
+   "status": "ok",
+   "kodPoprawny": "751201",
+   "nazwaWKlasyfikacji": "Cukiernik",
+   "nazwaPodKodemObecnym": "Cukiernik",
+   "nazwaPodKodemObecnym2018": "Cukiernik",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "751201 Cukiernik (w tekście z symbolem „s”: zawód szkolny)",
+    "strona": 63
+   },
+   "kandydaci": [],
+   "uwagi": "Znak S przy nazwie oznacza zawód szkolny.",
+   "grupaGus3": "751 Robotnicy w przetwórstwie spożywczym i pokrewni",
+   "nazwaKodPoprawny2018": "Cukiernik"
+  },
+  {
+   "id": "piekarz",
+   "kodObecny": "751202",
+   "nazwaObecna": "Piekarz",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "751204",
+   "nazwaWKlasyfikacji": "Piekarz",
+   "nazwaPodKodemObecnym": "Dekorator wyrobów cukierniczych",
+   "nazwaPodKodemObecnym2018": "Dekorator wyrobów cukierniczych",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "751204 Piekarz (w tekście z symbolem „s”: zawód szkolny)",
+    "strona": 63
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 751202 to Dekorator wyrobów cukierniczych. Piekarz (zawód szkolny) to 751204.",
+   "grupaGus3": "751 Robotnicy w przetwórstwie spożywczym i pokrewni",
+   "nazwaKodPoprawny2018": "Piekarz"
+  },
+  {
+   "id": "barista",
+   "kodObecny": "516501",
+   "nazwaObecna": "Barista",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "513201",
+   "nazwaWKlasyfikacji": "Barista",
+   "nazwaPodKodemObecnym": "Instruktor techniki jazdy",
+   "nazwaPodKodemObecnym2018": "Instruktor techniki jazdy",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "513201 Barista",
+    "strona": 48
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 516501 to Instruktor techniki jazdy. Barista to 513201.",
+   "grupaGus3": "513 Kelnerzy i barmani",
+   "nazwaKodPoprawny2018": "Barista"
+  },
+  {
+   "id": "pilot-wycieczek",
+   "kodObecny": "516401",
+   "nazwaObecna": "Pilot wycieczek",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "511301",
+   "nazwaWKlasyfikacji": "Pilot wycieczek",
+   "nazwaPodKodemObecnym": "Fryzjer zwierząt (groomer)",
+   "nazwaPodKodemObecnym2018": "Fryzjer zwierząt (groomer)",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "511301 Pilot wycieczek",
+    "strona": 48
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 516401 to Fryzjer zwierząt (groomer). Pilot wycieczek to 511301.",
+   "grupaGus3": "511 Stewardzi, konduktorzy i przewodnicy",
+   "nazwaKodPoprawny2018": "Pilot wycieczek"
+  },
+  {
+   "id": "stolarz",
+   "kodObecny": "711201",
+   "nazwaObecna": "Stolarz",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "752205",
+   "nazwaWKlasyfikacji": "Stolarz",
+   "nazwaPodKodemObecnym": "Monter kamiennych elementów budowlanych",
+   "nazwaPodKodemObecnym2018": "Monter kamiennych elementów budowlanych",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "752205 Stolarz (w tekście z symbolem „s”: zawód szkolny)",
+    "strona": 64
+   },
+   "kandydaci": [
+    {
+     "kod": "752208",
+     "nazwa": "Stolarz meblowy",
+     "strona": 64
+    },
+    {
+     "kod": "711503",
+     "nazwa": "Stolarz budowlany",
+     "strona": 55
+    }
+   ],
+   "uwagi": "Nasz 711201 to Monter kamiennych elementów budowlanych. Stolarz (zawód szkolny) to 752205; są też 752208 Stolarz meblowy i 711503 Stolarz budowlany.",
+   "grupaGus3": "752 Robotnicy obróbki drewna, stolarze meblowi i pokrewni",
+   "nazwaKodPoprawny2018": "Stolarz"
+  },
+  {
+   "id": "inzynier-budownictwa",
+   "kodObecny": "214201",
+   "nazwaObecna": "Inżynier budownictwa",
+   "status": "niejednoznaczny",
+   "kodPoprawny": null,
+   "nazwaWKlasyfikacji": null,
+   "nazwaPodKodemObecnym": "Inżynier budownictwa – budowle i drogi wodne",
+   "nazwaPodKodemObecnym2018": "Inżynier budownictwa – budowle i drogi wodne",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": null,
+    "strona": null
+   },
+   "kandydaci": [
+    {
+     "kod": "214201",
+     "nazwa": "Inżynier budownictwa – budowle i drogi wodne",
+     "strona": 11
+    },
+    {
+     "kod": "214202",
+     "nazwa": "Inżynier budownictwa – budownictwo ogólne",
+     "strona": 11
+    },
+    {
+     "kod": "214203",
+     "nazwa": "Inżynier budownictwa – budownictwo przemysłowe",
+     "strona": 11
+    },
+    {
+     "kod": "214204",
+     "nazwa": "Inżynier budownictwa – linie, węzły i stacje kolejowe",
+     "strona": 11
+    },
+    {
+     "kod": "214205",
+     "nazwa": "Inżynier budownictwa – urządzenia, instalacje i sieci energetyczne",
+     "strona": 11
+    },
+    {
+     "kod": "214206",
+     "nazwa": "Inżynier budownictwa – wyburzanie obiektów",
+     "strona": 11
+    },
+    {
+     "kod": "214207",
+     "nazwa": "Inżynier budowy dróg",
+     "strona": 11
+    },
+    {
+     "kod": "214208",
+     "nazwa": "Inżynier budowy mostów",
+     "strona": 11
+    }
+   ],
+   "uwagi": "Kod 214201 istnieje, ale to jedna z wielu specjalizacji („Inżynier budownictwa – budowle i drogi wodne”); brak ogólnego „Inżyniera budownictwa”."
+  },
+  {
+   "id": "inzynier-mechanik",
+   "kodObecny": "214301",
+   "nazwaObecna": "Inżynier mechanik",
+   "status": "niejednoznaczny",
+   "kodPoprawny": null,
+   "nazwaWKlasyfikacji": null,
+   "nazwaPodKodemObecnym": "Inżynier inżynierii środowiska – gazowe urządzenia, instalacje i sieci energetyczne",
+   "nazwaPodKodemObecnym2018": "Inżynier inżynierii środowiska – gazowe urządzenia, instalacje i sieci energetyczne",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": null,
+    "strona": null
+   },
+   "kandydaci": [
+    {
+     "kod": "214401",
+     "nazwa": "Inżynier mechanik – cieplno-mechaniczne urządzenia, instalacje i sieci energetyczne",
+     "strona": 11
+    },
+    {
+     "kod": "214402",
+     "nazwa": "Inżynier mechanik – maszyny i urządzenia do obróbki metali",
+     "strona": 11
+    },
+    {
+     "kod": "214403",
+     "nazwa": "Inżynier mechanik – maszyny i urządzenia energetyczne",
+     "strona": 11
+    },
+    {
+     "kod": "214404",
+     "nazwa": "Inżynier mechanik – maszyny i urządzenia przemysłowe",
+     "strona": 11
+    },
+    {
+     "kod": "214405",
+     "nazwa": "Inżynier mechanik – mechanika precyzyjna",
+     "strona": 11
+    },
+    {
+     "kod": "214406",
+     "nazwa": "Inżynier mechanik – środki transportu",
+     "strona": 11
+    },
+    {
+     "kod": "214407",
+     "nazwa": "Inżynier mechanik – technologia mechaniczna",
+     "strona": 11
+    }
+   ],
+   "uwagi": "Nasz 214301 to Inżynier inżynierii środowiska – gazowe urządzenia…. Zawody „Inżynier mechanik – …” mają kody 2144xx; brak ogólnego."
+  },
+  {
+   "id": "geodeta",
+   "kodObecny": "216401",
+   "nazwaObecna": "Geodeta",
+   "status": "niejednoznaczny",
+   "kodPoprawny": null,
+   "nazwaWKlasyfikacji": null,
+   "nazwaPodKodemObecnym": "Inżynier ruchu drogowego",
+   "nazwaPodKodemObecnym2018": "Inżynier ruchu drogowego",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": null,
+    "strona": null
+   },
+   "kandydaci": [
+    {
+     "kod": "216501",
+     "nazwa": "Inżynier geodeta – fotogrametria i teledetekcja",
+     "strona": 13
+    },
+    {
+     "kod": "216502",
+     "nazwa": "Inżynier geodeta – geodezja górnicza",
+     "strona": 13
+    },
+    {
+     "kod": "216503",
+     "nazwa": "Inżynier geodeta – geodezja inżynieryjno-przemysłowa",
+     "strona": 13
+    },
+    {
+     "kod": "216504",
+     "nazwa": "Inżynier geodeta – geodezja urządzania terenów rolnych i leśnych",
+     "strona": 13
+    },
+    {
+     "kod": "216505",
+     "nazwa": "Inżynier geodeta – geodezyjne pomiary podstawowe i satelitarne",
+     "strona": 13
+    },
+    {
+     "kod": "216506",
+     "nazwa": "Inżynier geodeta – geomatyka",
+     "strona": 14
+    },
+    {
+     "kod": "216507",
+     "nazwa": "Inżynier geodeta – kataster i gospodarka nieruchomościami",
+     "strona": 14
+    }
+   ],
+   "uwagi": "Nasz 216401 to Inżynier ruchu drogowego. Geodeci to „Inżynier geodeta – …” w grupie 2165; brak ogólnego „Geodety”."
+  },
+  {
+   "id": "urbanista",
+   "kodObecny": "216104",
+   "nazwaObecna": "Urbanista",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "216403",
+   "nazwaWKlasyfikacji": "Urbanista",
+   "nazwaPodKodemObecnym": null,
+   "nazwaPodKodemObecnym2018": null,
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "216403 Urbanista",
+    "strona": 13
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 216104 nie istnieje. Urbanista to 216403.",
+   "grupaGus3": "216 Architekci, geodeci i projektanci",
+   "nazwaKodPoprawny2018": "Urbanista"
+  },
+  {
+   "id": "mechanik-samochodowy",
+   "kodObecny": "721101",
+   "nazwaObecna": "Mechanik samochodowy",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "723103",
+   "nazwaWKlasyfikacji": "Mechanik pojazdów samochodowych",
+   "nazwaPodKodemObecnym": "Brązownik",
+   "nazwaPodKodemObecnym2018": "Brązownik",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "723103 Mechanik pojazdów samochodowych (w tekście z symbolem „s”: zawód szkolny)",
+    "strona": 58
+   },
+   "kandydaci": [
+    {
+     "kod": "723105",
+     "nazwa": "Mechanik samochodów osobowych",
+     "strona": 58
+    },
+    {
+     "kod": "723104",
+     "nazwa": "Mechanik samochodów ciężarowych",
+     "strona": 58
+    }
+   ],
+   "uwagi": "Nasz 721101 to Brązownik. Mechanik pojazdów samochodowych (zawód szkolny) to 723103; są też 723105 Mechanik samochodów osobowych i 723104 Mechanik samochodów ciężarowych. Grupa GUS 723.",
+   "grupaGus3": "723 Mechanicy maszyn i urządzeń",
+   "nazwaKodPoprawny2018": "Mechanik pojazdów samochodowych"
+  },
+  {
+   "id": "spawacz",
+   "kodObecny": "721201",
+   "nazwaObecna": "Spawacz",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "721204",
+   "nazwaWKlasyfikacji": "Spawacz",
+   "nazwaPodKodemObecnym": "Lutowacz",
+   "nazwaPodKodemObecnym2018": "Lutowacz",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "721204 Spawacz",
+    "strona": 57
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 721201 to Lutowacz. Spawacz to 721204.",
+   "grupaGus3": "721 Formierze odlewniczy, spawacze, blacharze, monterzy konstrukcji metalowych i pokrewni",
+   "nazwaKodPoprawny2018": "Spawacz"
+  },
+  {
+   "id": "kartograf",
+   "kodObecny": "216501",
+   "nazwaObecna": "Kartograf",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "216508",
+   "nazwaWKlasyfikacji": "Kartograf",
+   "nazwaPodKodemObecnym": "Inżynier geodeta – fotogrametria i teledetekcja",
+   "nazwaPodKodemObecnym2018": "Inżynier geodeta – fotogrametria i teledetekcja",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "216508 Kartograf",
+    "strona": 14
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 216501 to Inżynier geodeta – fotogrametria i teledetekcja. Kartograf to 216508.",
+   "grupaGus3": "216 Architekci, geodeci i projektanci",
+   "nazwaKodPoprawny2018": "Kartograf"
+  },
+  {
+   "id": "architekt-krajobrazu",
+   "kodObecny": "216103",
+   "nazwaObecna": "Architekt krajobrazu",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "216201",
+   "nazwaWKlasyfikacji": "Architekt krajobrazu",
+   "nazwaPodKodemObecnym": null,
+   "nazwaPodKodemObecnym2018": null,
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "216201 Architekt krajobrazu",
+    "strona": 13
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 216103 nie istnieje. Architekt krajobrazu to 216201.",
+   "grupaGus3": "216 Architekci, geodeci i projektanci",
+   "nazwaKodPoprawny2018": "Architekt krajobrazu"
+  },
+  {
+   "id": "rolnik",
+   "kodObecny": "611101",
+   "nazwaObecna": "Rolnik",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "613003",
+   "nazwaWKlasyfikacji": "Rolnik",
+   "nazwaPodKodemObecnym": "Kierownik gospodarstwa upraw polowych",
+   "nazwaPodKodemObecnym2018": "Kierownik gospodarstwa upraw polowych",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "613003 Rolnik (w tekście z symbolem „s”: zawód szkolny)",
+    "strona": 53
+   },
+   "kandydaci": [
+    {
+     "kod": "611104",
+     "nazwa": "Rolnik upraw polowych",
+     "strona": 52
+    }
+   ],
+   "uwagi": "Nasz 611101 to Kierownik gospodarstwa upraw polowych. „Rolnik” (zawód szkolny) to 613003; jest też 611104 Rolnik upraw polowych. Kod wpada w inną grupę GUS (613 zamiast 611).",
+   "grupaGus3": "613 Rolnicy produkcji roślinnej i zwierzęcej",
+   "nazwaKodPoprawny2018": "Rolnik"
+  },
+  {
+   "id": "lesnik",
+   "kodObecny": "621001",
+   "nazwaObecna": "Leśnik",
+   "status": "niejednoznaczny",
+   "kodPoprawny": null,
+   "nazwaWKlasyfikacji": null,
+   "nazwaPodKodemObecnym": "Drwal / pilarz drzew",
+   "nazwaPodKodemObecnym2018": "Drwal / pilarz drzew",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": null,
+    "strona": null
+   },
+   "kandydaci": [
+    {
+     "kod": "621002",
+     "nazwa": "Robotnik leśny",
+     "strona": 53
+    },
+    {
+     "kod": "213203",
+     "nazwa": "Inżynier leśnictwa",
+     "strona": 10
+    },
+    {
+     "kod": "314301",
+     "nazwa": "Technik leśnik",
+     "strona": 34
+    }
+   ],
+   "uwagi": "Brak zawodu „Leśnik”. Nasz 621001 to Drwal / pilarz drzew. Kandydaci: 213203 Inżynier leśnictwa, 314301 Technik leśnik (zawód szkolny), 621002 Robotnik leśny."
+  },
+  {
+   "id": "ogrodnik",
+   "kodObecny": "613101",
+   "nazwaObecna": "Ogrodnik",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "611303",
+   "nazwaWKlasyfikacji": "Ogrodnik",
+   "nazwaPodKodemObecnym": null,
+   "nazwaPodKodemObecnym2018": null,
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "611303 Ogrodnik (w tekście z symbolem „s”: zawód szkolny)",
+    "strona": 52
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 613101 nie istnieje. Ogrodnik (zawód szkolny) to 611303.",
+   "grupaGus3": "611 Rolnicy produkcji roślinnej",
+   "nazwaKodPoprawny2018": "Ogrodnik"
+  },
+  {
+   "id": "inzynier-srodowiska",
+   "kodObecny": "214601",
+   "nazwaObecna": "Inżynier środowiska",
+   "status": "niejednoznaczny",
+   "kodPoprawny": null,
+   "nazwaWKlasyfikacji": null,
+   "nazwaPodKodemObecnym": "Inżynier górnik – górnictwo otworowe",
+   "nazwaPodKodemObecnym2018": "Inżynier górnik – górnictwo otworowe",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": null,
+    "strona": null
+   },
+   "kandydaci": [
+    {
+     "kod": "214301",
+     "nazwa": "Inżynier inżynierii środowiska – gazowe urządzenia, instalacje i sieci energetyczne",
+     "strona": 11
+    },
+    {
+     "kod": "214302",
+     "nazwa": "Inżynier inżynierii środowiska – gospodarka wodna i hydrologia",
+     "strona": 11
+    },
+    {
+     "kod": "214303",
+     "nazwa": "Inżynier inżynierii środowiska – instalacje sanitarne",
+     "strona": 11
+    },
+    {
+     "kod": "214304",
+     "nazwa": "Inżynier inżynierii środowiska – melioracje",
+     "strona": 11
+    },
+    {
+     "kod": "214305",
+     "nazwa": "Inżynier inżynierii środowiska – oczyszczanie miast i gospodarka odpadami",
+     "strona": 11
+    },
+    {
+     "kod": "214306",
+     "nazwa": "Inżynier inżynierii środowiska – systemy wodociągowe i kanalizacyjne",
+     "strona": 11
+    },
+    {
+     "kod": "213303",
+     "nazwa": "Specjalista ochrony środowiska",
+     "strona": 10
+    }
+   ],
+   "uwagi": "Nasz 214601 to Inżynier górnik – górnictwo otworowe. Klasyfikacja ma „Inżynier inżynierii środowiska – …” (2143xx) oraz 213303 Specjalista ochrony środowiska; brak „Inżyniera środowiska”."
+  },
+  {
+   "id": "technik-weterynarii",
+   "kodObecny": "314101",
+   "nazwaObecna": "Technik weterynarii",
+   "status": "poprawny kod inny",
+   "kodPoprawny": "324002",
+   "nazwaWKlasyfikacji": "Technik weterynarii",
+   "nazwaPodKodemObecnym": "Laborant mikrobiologiczny",
+   "nazwaPodKodemObecnym2018": "Laborant mikrobiologiczny",
+   "dowod": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1534/text.pdf",
+    "cytat": "324002 Technik weterynarii (w tekście z symbolem „s”: zawód szkolny)",
+    "strona": 37
+   },
+   "kandydaci": [],
+   "uwagi": "Nasz 314101 to Laborant mikrobiologiczny. Technik weterynarii (zawód szkolny) to 324002, grupa GUS 324.",
+   "grupaGus3": "324 Technicy weterynarii",
+   "nazwaKodPoprawny2018": "Technik weterynarii"
+  }
+ ]
+}

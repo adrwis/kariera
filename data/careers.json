@@ -5000,7 +5000,8 @@
         "pol"
       ],
       "keywords": "dzieci młodzież ludzie rozmowy pomaganie"
-    }
+    },
+    "codeUnverified": true
   },
   {
     "id": "grafik",
@@ -6351,7 +6352,8 @@
         "hist"
       ],
       "keywords": "prawo zasady ludzie rozmowy pomaganie pisanie czytanie media"
-    }
+    },
+    "codeUnverified": true
   },
   {
     "id": "analityk-danych",
@@ -7758,7 +7760,8 @@
         "ang"
       ],
       "keywords": "liczby analizy finanse matematyka komputery programowanie biznes sprzedaż organizowanie"
-    }
+    },
+    "codeUnverified": true
   },
   {
     "id": "pielegniarka",
@@ -8421,7 +8424,7 @@
   },
   {
     "id": "farmaceuta",
-    "code": "226201",
+    "code": "228101",
     "name": "Farmaceuta",
     "aliases": [
       "aptekarz",
@@ -13884,19 +13887,6 @@
     ],
     "shortDescription": "Ratuje życie w karetce, na szpitalnym oddziale ratunkowym i na miejscu wypadków.",
     "fullDescription": "Ratownik medyczny pomaga ludziom, których życie jest nagle zagrożone. Jeździ karetką do wypadków i nagłych zachorowań, pracuje na szpitalnym oddziale ratunkowym, w straży pożarnej, w lotniczym pogotowiu albo zabezpiecza imprezy masowe. Do zawodu prowadzą 3-letnie studia licencjackie. Na miejscu wypadku trzeba szybko zdecydować, co robić, i działać mimo stresu, a sama praca jest też wymagająca fizycznie.",
-    "salary": {
-      "min": 6726,
-      "max": 16308,
-      "median": 12853,
-      "currency": "PLN",
-      "gross": true,
-      "period": "month",
-      "asOf": "2024-10",
-      "sourceName": "GUS, Struktura wynagrodzeń według zawodów za październik 2024 r.",
-      "sourceUrl": "https://stat.gov.pl/obszary-tematyczne/rynek-pracy/pracujacy-zatrudnieni-wynagrodzenia-koszty-pracy/struktura-wynagrodzen-wedlug-zawodow-za-pazdziernik-2024-r-,4,12.html",
-      "scope": "zawód",
-      "group": "Specjaliści do spraw ratownictwa medycznego"
-    },
     "demand": "deficytowy",
     "category": "medycyna",
     "skills": {
@@ -14449,7 +14439,8 @@
         "wf"
       ],
       "keywords": "zdrowie ciało człowieka bezpieczeństwo ratowanie mundur ludzie rozmowy pomaganie"
-    }
+    },
+    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
   },
   {
     "id": "projektant-ux",
@@ -14664,11 +14655,12 @@
       ],
       "keywords": "rysowanie projektowanie tworzenie sztuka komputery programowanie ludzie rozmowy pomaganie"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot.",
+    "codeUnverified": true
   },
   {
     "id": "elektryk",
-    "code": "741201",
+    "code": "741103",
     "name": "Elektryk",
     "aliases": [
       "instalator elektryczny",
@@ -15409,11 +15401,12 @@
       ],
       "keywords": "bezpieczeństwo ratowanie mundur prawo zasady ludzie rozmowy pomaganie sport ruch"
     },
-    "salaryNote": "Służby mundurowe nie wchodzą do badania GUS, więc nie podajemy kwot."
+    "salaryNote": "Służby mundurowe nie wchodzą do badania GUS, więc nie podajemy kwot.",
+    "codeUnverified": true
   },
   {
     "id": "strazak",
-    "code": "541001",
+    "code": "541101",
     "name": "Strażak",
     "aliases": [
       "firefighter",
@@ -15606,7 +15599,7 @@
   },
   {
     "id": "dietetyk",
-    "code": "229901",
+    "code": "322001",
     "name": "Dietetyk",
     "aliases": [
       "doradca żywieniowy",
@@ -16522,7 +16515,7 @@
   },
   {
     "id": "tlumacz",
-    "code": "264301",
+    "code": "264304",
     "name": "Tłumacz",
     "aliases": [
       "translator",
@@ -17950,7 +17943,7 @@
   },
   {
     "id": "specjalista-cyberbezpieczenstwa",
-    "code": "252901",
+    "code": "252902",
     "name": "Specjalista ds. cyberbezpieczeństwa",
     "aliases": [
       "cybersecurity specialist",
@@ -18572,7 +18565,7 @@
   },
   {
     "id": "data-scientist",
-    "code": "252902",
+    "code": "252102",
     "name": "Data scientist",
     "aliases": [
       "naukowiec danych",
@@ -20883,7 +20876,8 @@
       ],
       "keywords": "komputery programowanie maszyny elektronika urządzenia technika"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot.",
+    "codeUnverified": true
   },
   {
     "id": "administrator-systemow",
@@ -22141,7 +22135,7 @@
   },
   {
     "id": "technik-informatyk",
-    "code": "352101",
+    "code": "351203",
     "name": "Technik informatyk",
     "aliases": [
       "technik IT",
@@ -24390,11 +24384,12 @@
         "fiz"
       ],
       "keywords": "komputery programowanie rysowanie projektowanie tworzenie sztuka liczby analizy finanse matematyka"
-    }
+    },
+    "codeUnverified": true
   },
   {
     "id": "ekonomista",
-    "code": "241301",
+    "code": "263102",
     "name": "Ekonomista",
     "aliases": [
       "analityk ekonomiczny",
@@ -24404,9 +24399,9 @@
     "shortDescription": "Bada, co dzieje się w gospodarce, przygotowuje prognozy i doradza firmom oraz instytucjom państwowym.",
     "fullDescription": "Ekonomista bada, jak działa gospodarka, zarówno w pojedynczej firmie, jak i w całym kraju. Przygotowuje analizy rynku, prognozy i modele wzrostu oraz ocenia, jak nowe przepisy wpłyną na gospodarkę. Pracuje w banku, także w NBP, w ministerstwie, firmie konsultingowej, instytucie badawczym albo na uczelni. Prognoza nigdy nie jest pewna, a wyniki trzeba przedstawić tak, żeby ktoś mógł na ich podstawie podjąć decyzję.",
     "salary": {
-      "min": 6072,
-      "max": 17500,
-      "median": 9650,
+      "min": 6073,
+      "max": 12835,
+      "median": 8767,
       "currency": "PLN",
       "gross": true,
       "period": "month",
@@ -24414,7 +24409,7 @@
       "sourceName": "GUS, Struktura wynagrodzeń według zawodów za październik 2024 r.",
       "sourceUrl": "https://stat.gov.pl/obszary-tematyczne/rynek-pracy/pracujacy-zatrudnieni-wynagrodzenia-koszty-pracy/struktura-wynagrodzen-wedlug-zawodow-za-pazdziernik-2024-r-,4,12.html",
       "scope": "grupa",
-      "group": "Specjaliści do spraw finansowych"
+      "group": "Specjaliści z dziedzin społecznych i religijnych"
     },
     "demand": "zrównoważony",
     "category": "biznes",
@@ -25362,7 +25357,7 @@
   },
   {
     "id": "doradca-finansowy",
-    "code": "242101",
+    "code": "241202",
     "name": "Doradca finansowy",
     "aliases": [
       "planista finansowy",
@@ -27254,11 +27249,12 @@
         "wos"
       ],
       "keywords": "ludzie rozmowy pomaganie biznes sprzedaż organizowanie"
-    }
+    },
+    "codeUnverified": true
   },
   {
     "id": "specjalista-marketingu",
-    "code": "243201",
+    "code": "243106",
     "name": "Specjalista ds. marketingu",
     "aliases": [
       "marketer",
@@ -28137,7 +28133,7 @@
   },
   {
     "id": "specjalista-pr",
-    "code": "243301",
+    "code": "243203",
     "name": "Specjalista ds. PR",
     "aliases": [
       "PR-owiec",
@@ -28994,7 +28990,7 @@
   },
   {
     "id": "doradca-podatkowy",
-    "code": "241201",
+    "code": "241204",
     "name": "Doradca podatkowy",
     "aliases": [
       "konsultant podatkowy",
@@ -30733,7 +30729,7 @@
   },
   {
     "id": "psychoterapeuta",
-    "code": "229906",
+    "code": "229905",
     "name": "Psychoterapeuta",
     "aliases": [
       "terapeuta",
@@ -31644,7 +31640,7 @@
   },
   {
     "id": "psychiatra",
-    "code": "221206",
+    "code": "221256",
     "name": "Lekarz psychiatra",
     "aliases": [
       "psychiatra",
@@ -32476,7 +32472,7 @@
   },
   {
     "id": "pediatra",
-    "code": "221205",
+    "code": "221254",
     "name": "Lekarz pediatra",
     "aliases": [
       "pediatra",
@@ -34354,11 +34350,12 @@
       ],
       "keywords": "zdrowie ciało człowieka nauka badania eksperymenty"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot.",
+    "codeUnverified": true
   },
   {
     "id": "kardiolog",
-    "code": "221202",
+    "code": "221230",
     "name": "Lekarz kardiolog",
     "aliases": [
       "kardiolog",
@@ -36131,7 +36128,7 @@
   },
   {
     "id": "prokurator",
-    "code": "261301",
+    "code": "261102",
     "name": "Prokurator",
     "aliases": [
       "oskarżyciel publiczny",
@@ -36969,7 +36966,7 @@
   },
   {
     "id": "notariusz",
-    "code": "261401",
+    "code": "261905",
     "name": "Notariusz",
     "aliases": [
       "rejent",
@@ -37808,7 +37805,7 @@
   },
   {
     "id": "komornik",
-    "code": "261501",
+    "code": "261904",
     "name": "Komornik sądowy",
     "aliases": [
       "komornik",
@@ -38633,7 +38630,7 @@
   },
   {
     "id": "adwokat",
-    "code": "261102",
+    "code": "261101",
     "name": "Adwokat",
     "aliases": [
       "mecenas",
@@ -39762,11 +39759,12 @@
       ],
       "keywords": "bezpieczeństwo ratowanie mundur sport ruch maszyny elektronika urządzenia technika podróże turystyka"
     },
-    "salaryNote": "Służby mundurowe nie wchodzą do badania GUS, więc nie podajemy kwot."
+    "salaryNote": "Służby mundurowe nie wchodzą do badania GUS, więc nie podajemy kwot.",
+    "codeUnverified": true
   },
   {
     "id": "pracownik-ochrony",
-    "code": "541301",
+    "code": "541307",
     "name": "Pracownik ochrony",
     "aliases": [
       "ochroniarz",
@@ -39902,7 +39900,7 @@
   },
   {
     "id": "funkcjonariusz-sg",
-    "code": "335501",
+    "code": "335102",
     "name": "Funkcjonariusz Straży Granicznej",
     "aliases": [
       "strażnik graniczny",
@@ -40454,7 +40452,7 @@
   },
   {
     "id": "aktor",
-    "code": "265101",
+    "code": "265501",
     "name": "Aktor",
     "aliases": [
       "aktor teatralny",
@@ -41140,11 +41138,12 @@
       ],
       "keywords": "muzyka teatr film scena rysowanie projektowanie tworzenie sztuka"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot.",
+    "codeUnverified": true
   },
   {
     "id": "rezyser-filmowy",
-    "code": "265401",
+    "code": "265407",
     "name": "Reżyser filmowy",
     "aliases": [
       "reżyser",
@@ -41901,7 +41900,7 @@
   },
   {
     "id": "projektant-mody",
-    "code": "216301",
+    "code": "216303",
     "name": "Projektant mody",
     "aliases": [
       "fashion designer",
@@ -42127,7 +42126,7 @@
   },
   {
     "id": "pedagog",
-    "code": "235901",
+    "code": "235912",
     "name": "Pedagog szkolny",
     "aliases": [
       "pedagog",
@@ -43439,7 +43438,7 @@
   },
   {
     "id": "logopeda",
-    "code": "235902",
+    "code": "229402",
     "name": "Logopeda",
     "aliases": [
       "terapeuta mowy",
@@ -44281,7 +44280,8 @@
         "pol"
       ],
       "keywords": "nauka badania eksperymenty ludzie rozmowy pomaganie pisanie czytanie media"
-    }
+    },
+    "codeUnverified": true
   },
   {
     "id": "fryzjer",
@@ -44411,7 +44411,7 @@
   },
   {
     "id": "kosmetyczka",
-    "code": "514201",
+    "code": "514202",
     "name": "Kosmetyczka",
     "aliases": [
       "kosmetolog",
@@ -45147,7 +45147,7 @@
   },
   {
     "id": "piekarz",
-    "code": "751202",
+    "code": "751204",
     "name": "Piekarz",
     "aliases": [
       "baker",
@@ -45280,7 +45280,7 @@
   },
   {
     "id": "barista",
-    "code": "516501",
+    "code": "513201",
     "name": "Barista",
     "aliases": [
       "kawiarz",
@@ -45412,7 +45412,7 @@
   },
   {
     "id": "pilot-wycieczek",
-    "code": "516401",
+    "code": "511301",
     "name": "Pilot wycieczek",
     "aliases": [
       "przewodnik turystyczny",
@@ -46185,7 +46185,7 @@
   },
   {
     "id": "stolarz",
-    "code": "711201",
+    "code": "752205",
     "name": "Stolarz",
     "aliases": [
       "rzemieślnik meblowy",
@@ -47096,7 +47096,8 @@
         "fiz"
       ],
       "keywords": "budowanie praca rękami majsterkowanie maszyny elektronika urządzenia technika liczby analizy finanse matematyka"
-    }
+    },
+    "codeUnverified": true
   },
   {
     "id": "inzynier-mechanik",
@@ -48553,7 +48554,8 @@
         "technika"
       ],
       "keywords": "maszyny elektronika urządzenia technika liczby analizy finanse matematyka"
-    }
+    },
+    "codeUnverified": true
   },
   {
     "id": "geodeta",
@@ -49230,11 +49232,12 @@
         "inf"
       ],
       "keywords": "liczby analizy finanse matematyka maszyny elektronika urządzenia technika"
-    }
+    },
+    "codeUnverified": true
   },
   {
     "id": "urbanista",
-    "code": "216104",
+    "code": "216403",
     "name": "Urbanista",
     "aliases": [
       "planista przestrzenny",
@@ -49987,7 +49990,7 @@
   },
   {
     "id": "mechanik-samochodowy",
-    "code": "721101",
+    "code": "723103",
     "name": "Mechanik samochodowy",
     "aliases": [
       "mechanik pojazdowy",
@@ -50128,7 +50131,7 @@
   },
   {
     "id": "spawacz",
-    "code": "721201",
+    "code": "721204",
     "name": "Spawacz",
     "aliases": [
       "spawacz MIG/MAG",
@@ -50281,7 +50284,7 @@
   },
   {
     "id": "kartograf",
-    "code": "216501",
+    "code": "216508",
     "name": "Kartograf",
     "aliases": [
       "twórca map",
@@ -51109,7 +51112,7 @@
   },
   {
     "id": "architekt-krajobrazu",
-    "code": "216103",
+    "code": "216201",
     "name": "Architekt krajobrazu",
     "aliases": [
       "projektant ogrodów",
@@ -51656,7 +51659,7 @@
   },
   {
     "id": "rolnik",
-    "code": "611101",
+    "code": "613003",
     "name": "Rolnik",
     "aliases": [
       "farmer",
@@ -52789,11 +52792,12 @@
       ],
       "keywords": "przyroda rośliny środowisko zwierzęta"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot.",
+    "codeUnverified": true
   },
   {
     "id": "ogrodnik",
-    "code": "613101",
+    "code": "611303",
     "name": "Ogrodnik",
     "aliases": [
       "garden designer",
@@ -54308,11 +54312,12 @@
         "mat"
       ],
       "keywords": "przyroda rośliny środowisko maszyny elektronika urządzenia technika nauka badania eksperymenty"
-    }
+    },
+    "codeUnverified": true
   },
   {
     "id": "technik-weterynarii",
-    "code": "314101",
+    "code": "324002",
     "name": "Technik weterynarii",
     "aliases": [
       "asystent weterynaryjny",

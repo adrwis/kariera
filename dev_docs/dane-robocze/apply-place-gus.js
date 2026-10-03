@@ -10,7 +10,11 @@ const gus = JSON.parse(fs.readFileSync(path.join(__dirname, 'wyniki', 'gus-place
 const file = path.join(ROOT, 'data', 'careers.json');
 const careers = JSON.parse(fs.readFileSync(file, 'utf8'));
 const byId = new Map(gus.zawody.map(z => [z.id, z]));
-const missing = new Set(gus.brak.map(b => b.id));
+// Po weryfikacji kodów (wyniki/kzis-weryfikacja-2026-10-03.json): ekonomista (263102) leży w grupie GUS 263, tej samej co psycholog,
+// a ratownik medyczny (325601) w grupie 325 „Inny średni personel do spraw zdrowia”, której liczb nie mamy, więc bez kwot.
+byId.set('ekonomista', { ...byId.get('psycholog'), id: 'ekonomista', szerokoscGrupy: 'szeroka' });
+byId.delete('ratownik-medyczny');
+const missing = new Set([...gus.brak.map(b => b.id), 'ratownik-medyczny']);
 const r = n => Math.round(n);
 // Grupy GUS szersze niż sam zawód (np. programiści razem z analitykami, technicy ICT razem z helpdeskiem)
 const WIDE = new Set(['programista', 'programista-gier', 'technik-informatyk']);

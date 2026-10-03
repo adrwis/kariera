@@ -961,7 +961,7 @@
         ${categoryBadge}
         <h1 class="career-hero__name">${escapeHtml(c.name)}</h1>
         ${aliasesHtml}
-        <p class="career-hero__code">KZiS: ${escapeHtml(c.code)}</p>
+        ${c.codeUnverified ? '' : `<p class="career-hero__code">KZiS: ${escapeHtml(c.code)}</p>`}
         <div class="career-hero__badges">
           ${salaryText ? `<span class="result-card__badge result-card__badge--salary">${salaryText}</span>` : ''}
           ${c.demand ? `<span class="result-card__badge ${demandClass}"${demandTitle}>${escapeHtml(DEMAND_SHORT[c.demand] || c.demand)}</span>` : ''}
