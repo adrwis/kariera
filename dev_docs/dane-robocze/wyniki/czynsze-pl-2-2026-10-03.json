@@ -1,0 +1,189 @@
+{
+ "bialystok": [
+  {
+   "type": "mieszkanie (średni czynsz ofertowy w mieście, bez podziału na liczbę pokoi i metraż)",
+   "area": "Białystok",
+   "priceFrom": 2108,
+   "priceTo": 2108,
+   "currency": "PLN",
+   "period": "miesiąc",
+   "year": "2026",
+   "includesUtilities": "nie wiadomo",
+   "official": false,
+   "source": "Otodom, Raport z rynku najmu (dane nieoficjalne), czerwiec 2026",
+   "sourceUrl": "https://www.otodom.pl/wiadomosci/raport-z-rynku-najmu-czerwiec-2026-spadek-ofert-najmu-to-nie-wszystko/",
+   "quote": "Najniższe stawki notowane są w Kielcach (1 960 zł) i Białymstoku (2 108 zł).",
+   "notes": "Średnia cena ofertowa z ogłoszeń w serwisie Otodom, czerwiec 2026. Raport nie rozbija jej na pokój, kawalerkę i mieszkanie 2-pokojowe. Białystok należy do najtańszych miast wojewódzkich w zestawieniu Otodom."
+  },
+  {
+   "type": "pokój w mieszkaniu współdzielonym",
+   "area": "Białystok",
+   "priceFrom": 500,
+   "priceTo": 500,
+   "currency": "PLN",
+   "period": "miesiąc",
+   "year": "2021",
+   "includesUtilities": "nie wiadomo",
+   "official": false,
+   "source": "Morizon.pl, blog (dane nieoficjalne), listopad 2021",
+   "sourceUrl": "https://www.morizon.pl/blog/wynajem-pokoju-czy-kawalerki-co-wybrac/",
+   "quote": "Spośród pozostałych ośrodków akademickich najniższe stawki za pokoje do wynajęcia obowiązują w Białymstoku (500 zł/mies.) i Toruniu (600 zł/mies.). Podobnie jak w innych miastach najem kawalerki jest tam średnio dwa razy droższy.",
+   "notes": "Dane z listopada 2021, czyli sprzed kilku lat wzrostu czynszów, więc dziś ceny są wyższe. Tekst nie podaje kwoty kawalerki, pisze tylko, że jest średnio około dwa razy droższa niż pokój."
+  }
+ ],
+ "torun": [
+  {
+   "type": "pokój w mieszkaniu współdzielonym",
+   "area": "Toruń",
+   "priceFrom": 600,
+   "priceTo": 600,
+   "currency": "PLN",
+   "period": "miesiąc",
+   "year": "2021",
+   "includesUtilities": "nie wiadomo",
+   "official": false,
+   "source": "Morizon.pl, blog (dane nieoficjalne), listopad 2021",
+   "sourceUrl": "https://www.morizon.pl/blog/wynajem-pokoju-czy-kawalerki-co-wybrac/",
+   "quote": "Spośród pozostałych ośrodków akademickich najniższe stawki za pokoje do wynajęcia obowiązują w Białymstoku (500 zł/mies.) i Toruniu (600 zł/mies.). Podobnie jak w innych miastach najem kawalerki jest tam średnio dwa razy droższy.",
+   "notes": "Dane z listopada 2021, czyli sprzed kilku lat wzrostu czynszów, więc dziś ceny są wyższe. Tekst nie podaje kwoty kawalerki, pisze tylko, że jest średnio około dwa razy droższa niż pokój."
+  }
+ ],
+ "katowice": [
+  {
+   "type": "mieszkanie (średni czynsz ofertowy w mieście, bez podziału na liczbę pokoi i metraż)",
+   "area": "Katowice",
+   "priceFrom": 2400,
+   "priceTo": 2400,
+   "currency": "PLN",
+   "period": "miesiąc",
+   "year": "2024",
+   "includesUtilities": "nie wiadomo",
+   "official": false,
+   "source": "Otodom, Raport z rynku najmu (dane nieoficjalne), sierpień 2024",
+   "sourceUrl": "https://www.otodom.pl/wiadomosci/raport-z-rynku-najmu-sierpien-2024/",
+   "quote": "Ofertowe stawki najmu poniżej 3 000. zł można było znaleźć w Poznaniu, Katowicach i Łodzi, gdzie koszt wynajmu wyniósł odpowiednio blisko 2 600 zł, 2 400 zł i 2 100 zł.",
+   "notes": "Średnia cena ofertowa z ogłoszeń w serwisie Otodom, sierpień 2024 (w tekście „blisko 2 400 zł”). Raport nie rozbija jej na pokój, kawalerkę i mieszkanie 2-pokojowe."
+  },
+  {
+   "type": "kawalerka (mieszkanie 1-pokojowe)",
+   "area": "Katowice",
+   "priceFrom": 1200,
+   "priceTo": 1200,
+   "currency": "PLN",
+   "period": "miesiąc",
+   "year": "2021",
+   "includesUtilities": "nie wiadomo",
+   "official": false,
+   "source": "Morizon.pl, blog (dane nieoficjalne), analiza cen najmu, grudzień 2021",
+   "sourceUrl": "https://www.morizon.pl/blog/mieszkania-na-wynajem-ceny-2021/",
+   "quote": "Prawie dwa razy mniej niż w stolicy zapłacisz za wynajęcie 1-pokojowego M w Katowicach (1200 zł/mies.), Olsztynie (1300 zł/mies.) i Łodzi (1300 zł/mies.).",
+   "notes": "Średni miesięczny czynsz ofertowy z analizy Morizon.pl z końca 2021 roku, czyli sprzed kilku lat wzrostu czynszów, więc dziś ceny są wyższe. Tekst nie mówi, czy kwota obejmuje opłaty."
+  }
+ ],
+ "szczecin": [],
+ "rzeszow": [
+  {
+   "type": "mieszkanie (średni czynsz ofertowy w mieście, bez podziału na liczbę pokoi i metraż)",
+   "area": "Rzeszów",
+   "priceFrom": 2500,
+   "priceTo": 2600,
+   "currency": "PLN",
+   "period": "miesiąc",
+   "year": "2025",
+   "includesUtilities": "nie wiadomo",
+   "official": false,
+   "source": "Otodom, Raport z rynku najmu (dane nieoficjalne), wrzesień 2025",
+   "sourceUrl": "https://www.otodom.pl/wiadomosci/raport-z-rynku-najmu-wrzesien-2025-2/",
+   "quote": "W średnim segmencie cenowym znalazły się Rzeszów, Lublin i Poznań (2,5-2,6 tys. zł).",
+   "notes": "Przedział dotyczy trzech miast łącznie (Rzeszów, Lublin, Poznań), a nie samego Rzeszowa, więc dla Rzeszowa to wartość orientacyjna. Średnia cena ofertowa z ogłoszeń w serwisie Otodom, wrzesień 2025, bez podziału na pokój, kawalerkę i mieszkanie 2-pokojowe. Od połowy 2025 roku Otodom notuje w Rzeszowie spadek czynszów rok do roku (w marcu 2026 o 8% m/m)."
+  }
+ ],
+ "olsztyn": [
+  {
+   "type": "pokój w mieszkaniu współdzielonym",
+   "area": "Olsztyn",
+   "priceFrom": 600,
+   "priceTo": 800,
+   "currency": "PLN",
+   "period": "miesiąc",
+   "year": "2021",
+   "includesUtilities": "nie wiadomo",
+   "official": false,
+   "source": "Morizon.pl, blog (dane nieoficjalne), listopad 2021",
+   "sourceUrl": "https://www.morizon.pl/blog/wynajem-pokoju-czy-kawalerki-co-wybrac/",
+   "quote": "Stawka za pokój w Olsztynie i Łodzi to miesięczny wydatek 600-800 zł.",
+   "notes": "Dane z listopada 2021, sprzed kilku lat wzrostu czynszów, więc dziś ceny są wyższe. Przedział dotyczy łącznie Olsztyna i Łodzi."
+  },
+  {
+   "type": "kawalerka",
+   "area": "Olsztyn",
+   "priceFrom": 1500,
+   "priceTo": 1700,
+   "currency": "PLN",
+   "period": "miesiąc",
+   "year": "2021",
+   "includesUtilities": "nie wiadomo",
+   "official": false,
+   "source": "Morizon.pl, blog (dane nieoficjalne), listopad 2021",
+   "sourceUrl": "https://www.morizon.pl/blog/wynajem-pokoju-czy-kawalerki-co-wybrac/",
+   "quote": "Czynsz za najem przeciętnej kawalerki w tych miastach wyniósłby ok. 1500-1700 zł.",
+   "notes": "Dane z listopada 2021, przedział dotyczy łącznie Olsztyna i Łodzi. Inny tekst Morizon.pl z grudnia 2021 podaje dla Olsztyna niższą średnią dla mieszkania 1-pokojowego (1300 zł), więc kawalerka kosztuje od około 1300 do 1700 zł zależnie od ujęcia."
+  },
+  {
+   "type": "mieszkanie 1-pokojowe",
+   "area": "Olsztyn",
+   "priceFrom": 1300,
+   "priceTo": 1300,
+   "currency": "PLN",
+   "period": "miesiąc",
+   "year": "2021",
+   "includesUtilities": "nie wiadomo",
+   "official": false,
+   "source": "Morizon.pl, blog (dane nieoficjalne), analiza cen najmu, grudzień 2021",
+   "sourceUrl": "https://www.morizon.pl/blog/mieszkania-na-wynajem-ceny-2021/",
+   "quote": "Prawie dwa razy mniej niż w stolicy zapłacisz za wynajęcie 1-pokojowego M w Katowicach (1200 zł/mies.), Olsztynie (1300 zł/mies.) i Łodzi (1300 zł/mies.).",
+   "notes": "Średni miesięczny czynsz ofertowy z analizy Morizon.pl z końca 2021 roku, sprzed kilku lat wzrostu czynszów. Tekst nie mówi, czy kwota obejmuje opłaty."
+  },
+  {
+   "type": "mieszkanie 2-pokojowe",
+   "area": "Olsztyn",
+   "priceFrom": 1700,
+   "priceTo": 1700,
+   "currency": "PLN",
+   "period": "miesiąc",
+   "year": "2021",
+   "includesUtilities": "nie wiadomo",
+   "official": false,
+   "source": "Morizon.pl, blog (dane nieoficjalne), analiza cen najmu, grudzień 2021",
+   "sourceUrl": "https://www.morizon.pl/blog/mieszkania-na-wynajem-ceny-2021/",
+   "quote": "W gronie 10 analizowanych miast najtańszy jest Olsztyn – w stolicy Warmii mieszkania 2-pokojowe oferowane są do wynajęcia za kwotę o prawie połowę niższą niż w Warszawie – średnio 1700 zł/mies.",
+   "notes": "Średni miesięczny czynsz ofertowy z końca 2021 roku, sprzed kilku lat wzrostu czynszów. Według Otodom czynsze w Olsztynie rosły od tamtej pory szybciej niż w większości miast (około 8% r/r w 2026 roku)."
+  }
+ ],
+ "gaps": {
+  "katowice": [
+   "Nie udało się potwierdzić aktualnych cen pokoju w mieszkaniu współdzielonym ani mieszkania 2-pokojowego w Katowicach. Raport NBP o cenach i stawkach najmu jest chroniony ekranem weryfikacji, a Study in Poland podaje tylko widełki ogólnopolskie w EUR bez podziału na miasta.",
+   "Dostępne dane są starsze lub mniej szczegółowe: kawalerka z końca 2021 roku i średni czynsz ofertowy z Otodom z sierpnia 2024 roku. Raporty Otodom z 2026 roku opisują Katowice tylko zmianami procentowymi."
+  ],
+  "szczecin": [
+   "Nie znaleziono opublikowanej ceny pokoju, kawalerki ani mieszkania 2-pokojowego w Szczecinie z podaniem kwoty i roku. Raporty Otodom z 2026 roku zaliczają Szczecin do miast ze średnimi stawkami i podają tylko zmiany procentowe, a raport NBP jest niedostępny.",
+   "Raport Otodom z 30 września 2026 roku porównuje różnicę między Warszawą a Kielcami (2,8 tys. zł) do „mniej więcej” miesięcznego kosztu wynajmu lokalu w Szczecinie, bez podania dokładnej kwoty, więc nie wpisano jej jako ceny."
+  ],
+  "bialystok": [
+   "Nie znaleziono aktualnych cen kawalerki ani mieszkania 2-pokojowego w Białymstoku z podaniem kwoty. Cena pokoju pochodzi z roku 2021.",
+   "Strona Study in Białystok pod adresem studyinbialystok.pl nie zawiera treści o studiowaniu, więc nie posłużyła jako źródło. Raport NBP jest niedostępny."
+  ],
+  "torun": [
+   "Nie znaleziono cen kawalerki ani mieszkania 2-pokojowego w Toruniu z podaniem kwoty. Cena pokoju pochodzi z roku 2021, a Otodom nie obejmuje Torunia w swoich miesięcznych zestawieniach miast wojewódzkich.",
+   "Portal studyintorun.pl (UMK) podaje tylko ceny w domach studenckich i przekierowuje w sprawie prywatnych kwater do organizacji studenckich, bez cen. Raport NBP jest niedostępny."
+  ],
+  "rzeszow": [
+   "Nie znaleziono cen pokoju, kawalerki ani mieszkania 2-pokojowego w Rzeszowie z podaniem kwoty. Jedyna wartość to przedział wspólny dla Rzeszowa, Lublina i Poznania z raportu Otodom z września 2025 roku.",
+   "Przewodnik Welcome Centre Uniwersytetu Rzeszowskiego nie zawiera cen wynajmu prywatnych mieszkań. Raport NBP jest niedostępny."
+  ],
+  "olsztyn": [
+   "Wszystkie ceny dla Olsztyna pochodzą z roku 2021, więc nie odzwierciedlają obecnych stawek. Raporty Otodom z 2026 roku opisują Olsztyn tylko zmianami procentowymi (wzrost około 8% r/r) i zaliczają go do miast ze średnimi stawkami.",
+   "Nie znaleziono żadnej publikacji uczelni ani urzędu z cenami wynajmu pokoju lub mieszkania w Olsztynie. Raport NBP jest niedostępny."
+  ]
+ }
+}

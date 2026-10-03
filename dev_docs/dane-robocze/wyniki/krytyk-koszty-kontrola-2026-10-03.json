@@ -1,0 +1,155 @@
+[
+ {
+  "city": "wilno",
+  "item": "Akademiki Uniwersytetu Wileńskiego",
+  "field": "dorms[0].priceFrom/summary Akademiki",
+  "severity": "drobne",
+  "problem": "Zakres 90 do 130 EUR pomija najtańsze stawki dla studentów VU (70 i 85 EUR w starszych akademikach). Stawki 90 do 130 dotyczą budynków z pkt 5 cennika (m.in. Olandų 51, Saulėtekio 37 i 39), a nie ogólnie Saulėtekio, Olandų i Didlaukio. Luka jest opisana w gaps[4] i notes, ale nagłówek karty i podsumowanie sugerują, że 90 to minimum.",
+  "evidence": "bustas.vu.lt/en/prices: „3.1 double room two persons 85 EUR; 3.3 triple room three persons 70 EUR”; „5.1 double room two persons 130 EUR; 5.3 triple three persons 90 EUR” dla wymienionych budynków.",
+  "proposedFix": "Napisać w summary i w nazwie karty „od 70 do 130 EUR (zależnie od budynku)” albo dodać priceFrom 70 i wskazać budynki dla stawek 90 do 130."
+ },
+ {
+  "city": "wilno",
+  "item": "Akademiki",
+  "field": "summary[0].text",
+  "severity": "drobne",
+  "problem": "Niezgrabne zdanie: „miejsc jest ograniczona liczba, więc nie każdy student je dostanie”.",
+  "evidence": "Tekst summary[0].",
+  "proposedFix": "Zastąpić: „liczba miejsc jest ograniczona, więc nie każdy student je dostanie”."
+ },
+ {
+  "city": "wilno",
+  "item": "Wynajem: mieszkanie 1-pokojowe",
+  "field": "rent[0].notes",
+  "severity": "drobne",
+  "problem": "Konstrukcja „Kwota pochodzi od uczelni, nie z oficjalnej statystyki” to antyteza w formie „X, nie Y”.",
+  "evidence": "rent[0].notes.",
+  "proposedFix": "Zostawić samo: „Kwotę podaje uczelnia, bez daty i dzielnicy.”"
+ },
+ {
+  "city": "maastricht",
+  "item": "Budżet miesięczny",
+  "field": "summary[2].text, budget.text",
+  "severity": "drobne",
+  "problem": "Pozostały konstrukcje przeciwstawne: „tabela opisuje przeciętnego studenta w Holandii, nie wyłącznie studenta zagranicznego” oraz „i nie są oficjalnym szacunkiem UM”.",
+  "evidence": "summary[2].text; budget.text (końcówka).",
+  "proposedFix": "Zastąpić: „Tabela opisuje przeciętnego studenta w Holandii, także zagranicznego. Sumę policzyliśmy z jej wierszy.”"
+ },
+ {
+  "city": "maastricht",
+  "item": "Przedział 350 do 750 EUR (MyMaastricht)",
+  "field": "rent[1].includesUtilities",
+  "severity": "drobne",
+  "problem": "includesUtilities=„nie” dla przedziału ogólnego, choć źródło mówi „basic rent” tylko przy średniej 500 EUR; przy przedziale 350 do 750 nie precyzuje, czy to czynsz podstawowy.",
+  "evidence": "mymaastricht.nl: „average basic rent for a room ... around the €500 mark. A good range for housing ... student rooms to independent studios, is around €350-750.”",
+  "proposedFix": "Ustawić „nie wiadomo” dla rent[1] i usunąć „bez mediów” z notes."
+ },
+ {
+  "city": "maastricht",
+  "item": "Kamernet, średnia 482 EUR",
+  "field": "rent[2].type",
+  "severity": "drobne",
+  "problem": "Typ „pokój w mieszkaniu współdzielonym”, a Kamernet pisze „a single room”, bez rozróżnienia wspólne mieszkanie lub osobne.",
+  "evidence": "kamernet.nl: „a single room typically costs €482 per month”.",
+  "proposedFix": "Zmienić typ na „pokój (średnia z ofert Kamernet)”."
+ },
+ {
+  "city": "luksemburg",
+  "item": "Rezydencje Université du Luxembourg",
+  "field": "dorms[0].priceFrom=450; summary Akademiki i Budżet",
+  "severity": "ważne",
+  "problem": "Jedyna cena akademika (450 EUR „od”) pochodzi z zestawienia luxembourg.public.lu, które samo powołuje się na Expatistan i uni.lu. Plan zabrania Expatistan jako jedynego źródła, a karta akademika nie ma żadnej etykiety „dane nieoficjalne” poza tekstem w notes i summary. Poprawka ze źródła (sourceUrl, notes, summary) jest uczciwa i liczba jest dosłowna, ale pozycja nadal opiera się na danych pośrednich i jest eksponowana jako cena „od”. Te same składniki (telefon 40, internet 52, zakupy 150 do 220) powtórzone w summary „Budżet miesięczny”.",
+  "evidence": "luxembourg.public.lu/.../student-life-luxembourg.html: „gathered from information available on the Expatistan and uni.lu websites: Housing in university accommodation EUR 450 per month (minimum)”.",
+  "proposedFix": "Ustawić dorms[0].priceFrom na null i zostawić 450 EUR tylko w summary jako orientację z portalu, albo dodać w danych widoczną etykietę „dane pośrednie”. Rozważyć skrócenie summary „Budżet” do jednego zdania z zastrzeżeniem."
+ },
+ {
+  "city": "luksemburg",
+  "item": null,
+  "field": "summary Uwagi, gaps[0]",
+  "severity": "drobne",
+  "problem": "Pozostał lekki żargon zbierania danych: „nie potwierdzono w jego własnych źródłach”, „strona uni.lu o zakwaterowaniu była niedostępna”. Konstrukcja „opiera się ... a nie na cenniku uczelni” (summary[0]) i „to nie dane urzędowe” to antytezy.",
+  "evidence": "summary[3].text; gaps[0]; summary[0].text; summary[2].text.",
+  "proposedFix": "Przepisać: „Uczelnia nie publikuje cen rezydencji w sposób, który dałoby się tu podać; kwota 450 EUR pochodzi z portalu rządowego i jest orientacyjna.”"
+ },
+ {
+  "city": "madryt",
+  "item": null,
+  "field": "gaps[1], gaps[2], gaps[4], gaps[6]",
+  "severity": "ważne",
+  "problem": "W gaps zostały sformułowania zbierania danych: „jej wartości nie były dostępne w formie tekstu”, „portal idealista.com nie udostępnił raportu”, „dokumenty, które nie zostały sprawdzone”, „Dlatego UCM nie ma w zestawieniu cen”. To powrót uwagi „żargon” z pierwszego przeglądu w złagodzonej formie.",
+  "evidence": "data/koszty/madryt.json gaps[1], gaps[2].",
+  "proposedFix": "Przepisać jako zdania dla czytelnika: „Ministerstwo mieszkalnictwa prowadzi mapę czynszów SERPAVI, ale jej wartości nie są podane w treści strony. Ceny colegios mayores UCM są w osobnych dokumentach i nie są tu uwzględnione.”"
+ },
+ {
+  "city": "madryt",
+  "item": "Uwagi UPM o rezydencjach",
+  "field": "gaps[3]",
+  "severity": "drobne",
+  "problem": "Błąd opisu: „od 1 200 EUR za pokój dwuosobowy z VAT i pełnym wyżywieniem”. Źródło podaje cenę plus 10 procent VAT, czyli bez VAT.",
+  "evidence": "blogs.upm.es: „A twin room in a student residence from €1200 + 10% VAT per month (full board)”.",
+  "proposedFix": "Zmienić na „od 1 200 EUR plus 10 procent VAT”."
+ },
+ {
+  "city": "madryt",
+  "item": "Colegio Mayor Antonio Machado",
+  "field": "dorms[3].priceFrom/priceTo",
+  "severity": "drobne",
+  "problem": "Cena promocyjna 26 procent (662,30 i 817,70 EUR) jest w polu cen, a zwykła cena (895 i 1 105 EUR) tylko w notes. Karta może zaniżać koszt po zakończeniu promocji. Cena jest pełnym wyżywieniem, co jest w includes.",
+  "evidence": "colegiosmayores.fund.uc3m.es/en/residencia-antonio-machado-eng/: „26% Promotional Discount ... Before 895 € 662,30 €; Before 1.105 € 817,70 €”.",
+  "proposedFix": "Rozważyć wpisanie cen wyjściowych 895 do 1 105 EUR w polach cen i promocji w notes."
+ },
+ {
+  "city": "porto",
+  "item": null,
+  "field": "dorms[2].notes, sources[7].note",
+  "severity": "drobne",
+  "problem": "Żargon: „plik zawiera tabelę na rok 2026/27”, „(plik PDF)”.",
+  "evidence": "porto.json dorms[2].notes; sources[7].note.",
+  "proposedFix": "Zamienić na „dokument zawiera tabelę na rok 2026/27”."
+ },
+ {
+  "city": "porto",
+  "item": "Budżet U.Porto",
+  "field": "budget.from/to; official=true, kind=suma",
+  "severity": "drobne",
+  "problem": "Poprawne i dosłowne, ale suma 302,75 do 472,75 EUR zaniża realia: zakwaterowanie z grafiki (130 do 250) jest niższe niż rezydencje SASUP (183 do 283) i P.PORTO (159 do 205 per osoba), a grafika pomija media i inne koszty. Zastrzeżenie jest w budget.text i summary Uwagi.",
+  "evidence": "Grafika custodevida_PT: „ALOJAMENTO 130 - 250€ (mensal); REFEIÇÕES 150€ - 200€; TRANSPORTES 22,75€”.",
+  "proposedFix": "Opcjonalnie dodać do summary „Budżet” zdanie, że to dolna orientacja bez pełnych kosztów życia."
+ },
+ {
+  "city": "kopenhaga",
+  "item": "Study in Denmark",
+  "field": "rent[1].includesUtilities",
+  "severity": "drobne",
+  "problem": "includesUtilities=„tak”, a źródło pisze „utilities are usually included” (zwykle).",
+  "evidence": "studyindenmark.dk: „Rent Varies from 3000-6,500 DKK (utilities are usually included)”.",
+  "proposedFix": "Ustawić „nie wiadomo” i zachować „zwykle w cenie” w notes."
+ },
+ {
+  "city": "kopenhaga",
+  "item": "Budżet miesięczny",
+  "field": "budget (suma Study in Denmark) i summary[2]",
+  "severity": "drobne",
+  "problem": "Budżet 8 450 do 13 700 DKK jest teraz poprawnie oznaczony (kind=suma, official=false, wyliczenie dosłowne zweryfikowane), a sumy DTU w EUR są dopisane w tekście. Zostaje to, że budżet dla całej Danii jest podany w polu budżetu miasta, a oficjalna kwota dla okolic Kopenhagi (DTU w EUR) jest tylko w tekście.",
+  "evidence": "studyindenmark.dk/live-in-denmark/bank-budget; dtu.pdf: „TOTAL 1244-1840 EUR/month”, „TOTAL 1650-2800 EUR/month”.",
+  "proposedFix": "Akceptowalne. Opcjonalnie dodać do summary zdanie, że pole „budżet” dotyczy całej Danii."
+ },
+ {
+  "city": "kopenhaga",
+  "item": null,
+  "field": "gaps[2], gaps[6]",
+  "severity": "drobne",
+  "problem": "Wciąż półżargon: „bdtu.dk ładują cennik dynamicznie i nie udostępniają cen w treści stron”, „nie udostępnia treści w zwykłym kodzie strony”.",
+  "evidence": "kopenhaga.json gaps[2], gaps[6].",
+  "proposedFix": "Przepisać: „Cennik Boligfonden DTU jest dostępny tylko w systemie rezerwacji, więc podano kwoty z budżetu DTU.”"
+ },
+ {
+  "city": "wszystkie",
+  "item": null,
+  "field": "js/zagranica.js:352 (nagłówek budżetu)",
+  "severity": "drobne",
+  "problem": "Nagłówki dla kind=wymog i kind=suma zawierają antytezy: „(nie szacunek wydatków)” i „(nasze wyliczenie, nie oficjalny szacunek)”. Widoczne w Wilnie, Maastricht, Porto i Kopenhadze.",
+  "evidence": "js/zagranica.js linia 352.",
+  "proposedFix": "Zamienić na: „Środki wymagane przy rejestracji pobytu lub wizie” oraz „Orientacyjna suma pozycji, naszym wyliczeniem”."
+ }
+]

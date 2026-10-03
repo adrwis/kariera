@@ -349,7 +349,7 @@ const Zagranica = (function () {
   function kosztyCityHtml(c) {
     const budget = c.budget ? `
       <section class="zagr__uni koszty__budget">
-        <h3 class="career-column__subtitle">${c.budget.kind === 'wymog' ? 'Środki wymagane przy rejestracji pobytu lub wizie (nie szacunek wydatków)' : c.budget.kind === 'suma' ? 'Orientacyjna suma pozycji (nasze wyliczenie, nie oficjalny szacunek)' : 'Miesięczny budżet studenta'}</h3>
+        <h3 class="career-column__subtitle">${c.budget.kind === 'wymog' ? 'Środki wymagane przy rejestracji pobytu lub wizie (formalny wymóg)' : c.budget.kind === 'suma' ? 'Orientacyjna suma pozycji (nasze wyliczenie z tabeli źródła)' : 'Miesięczny budżet studenta'}</h3>
         <p class="koszty__line">${priceHtml(c.budget.from, c.budget.to, c.budget.currency, c.budget.period)}${c.budget.official === false ? ' <span class="szkoly__badge koszty__unofficial">dane nieoficjalne</span>' : ''}</p>
         ${c.budget.text ? `<p class="szkola__muted">${esc(c.budget.text)} ${link(c.budget.sourceUrl, 'Źródło')}</p>` : `<p class="szkola__muted">${link(c.budget.sourceUrl, 'Źródło')}</p>`}
       </section>` : '';

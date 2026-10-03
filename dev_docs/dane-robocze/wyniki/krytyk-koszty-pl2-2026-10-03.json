@@ -1,0 +1,452 @@
+[
+ {
+  "city": "trojmiasto",
+  "item": null,
+  "field": "wszystkie teksty (summary, dorms, gaps, sources)",
+  "severity": "ważne",
+  "problem": "Brak twardych spacji po jednoliterowych spójnikach (około 70 wystąpień ze zwykłą spacją), np. „w Gdańsku”, „i od 850”, „w pokoju”.",
+  "evidence": "Twarda spacja U+00A0 po jednoliterowych spójnikach (w, z, i, o, a, u) nie jest stosowana: w danych miast jest 70 (Trójmiasto), 81 (Łódź), 124 (Lublin) i 120 (Katowice) takich miejsc ze zwykłą spacją, a js/zagranica.js nie dokleja ich przy renderowaniu (NB jest używane tylko dla kwot).",
+  "proposedFix": "Dodać w builderze (lub w rendererze) zamianę /(?<![\\wąćęłńóśźż])([wziaouWZIAOU]) (?=\\S)/ na \"$1\\u00a0\" dla wszystkich pól tekstowych poza URL."
+ },
+ {
+  "city": "trojmiasto",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Zdanie „w naszych danych” to narracja w pierwszej osobie i odwołanie do wewnętrznego zbioru; czytelnik nie wie, o jakie dane chodzi.",
+  "evidence": "„Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł…”",
+  "proposedFix": "Zastąpić: „Ceny miejsc w domach studenckich na tej stronie są zwykle wyższe niż 400 do 600 zł z tabeli NAWA, więc przy droższym pokoju suma będzie większa.”"
+ },
+ {
+  "city": "trojmiasto",
+  "item": null,
+  "field": "budget",
+  "severity": "drobne",
+  "problem": "Szacunek NAWA 1 500 do 2 000 zł zakłada akademik za 400 do 600 zł. Źródło potwierdzone dosłownie (study.gov.pl: „Rent (student dormitory) 400 - 600 … Average total expenses 1500 - 2000”), jest opisane jako krajowe, ale przy cenach uczelni z tego samego miasta (700 do 1 100 zł) jest wyraźnie zaniżony i nie ma ostrzeżenia w summary „Budżet miesięczny” o sumie po zastąpieniu pozycji akademika.",
+  "evidence": "curl study.gov.pl/cost-living-poland: tabela składników jak w budget.text.",
+  "proposedFix": "Dodać do summary „Budżet miesięczny” jedno zdanie: z akademikiem za cenę lokalną całość wyniesie ok. X do Y zł (dopiero po wyliczeniu i oznaczeniu jako własne wyliczenie, kind „suma”) albo zostawić samo ostrzeżenie."
+ },
+ {
+  "city": "trojmiasto",
+  "item": null,
+  "field": "gaps[0] (NBP)",
+  "severity": "ważne",
+  "problem": "Żargon zbierania danych w lukach: „niedostępna bez weryfikacji przeglądarki”/„ekran weryfikacji”, „nie wykorzystano”, „nie opisano”, „nie potwierdzono”. Plan zabrania tej leksyki (odpowiednik „błąd 403”, „zablokował dostęp”).",
+  "evidence": "„jest niedostępna bez weryfikacji przeglądarki, więc nie wykorzystano oficjalnych danych NBP”",
+  "proposedFix": "Napisać dla czytelnika: „Oficjalne dane NBP o czynszach nie są tu uwzględnione, bo nie były dostępne do zacytowania. Podano jedną wartość nieoficjalną.” Analogicznie w pozostałych lukach."
+ },
+ {
+  "city": "lodz",
+  "item": null,
+  "field": "wszystkie teksty (summary, dorms, gaps, sources)",
+  "severity": "ważne",
+  "problem": "Brak twardych spacji po jednoliterowych spójnikach (około 81 wystąpień ze zwykłą spacją), np. „w Gdańsku”, „i od 850”, „w pokoju”.",
+  "evidence": "Twarda spacja U+00A0 po jednoliterowych spójnikach (w, z, i, o, a, u) nie jest stosowana: w danych miast jest 70 (Trójmiasto), 81 (Łódź), 124 (Lublin) i 120 (Katowice) takich miejsc ze zwykłą spacją, a js/zagranica.js nie dokleja ich przy renderowaniu (NB jest używane tylko dla kwot).",
+  "proposedFix": "Dodać w builderze (lub w rendererze) zamianę /(?<![\\wąćęłńóśźż])([wziaouWZIAOU]) (?=\\S)/ na \"$1\\u00a0\" dla wszystkich pól tekstowych poza URL."
+ },
+ {
+  "city": "lodz",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Zdanie „w naszych danych” to narracja w pierwszej osobie i odwołanie do wewnętrznego zbioru; czytelnik nie wie, o jakie dane chodzi.",
+  "evidence": "„Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł…”",
+  "proposedFix": "Zastąpić: „Ceny miejsc w domach studenckich na tej stronie są zwykle wyższe niż 400 do 600 zł z tabeli NAWA, więc przy droższym pokoju suma będzie większa.”"
+ },
+ {
+  "city": "lodz",
+  "item": null,
+  "field": "budget",
+  "severity": "drobne",
+  "problem": "Szacunek NAWA 1 500 do 2 000 zł zakłada akademik za 400 do 600 zł. Źródło potwierdzone dosłownie (study.gov.pl: „Rent (student dormitory) 400 - 600 … Average total expenses 1500 - 2000”), jest opisane jako krajowe, ale przy cenach uczelni z tego samego miasta (700 do 1 100 zł) jest wyraźnie zaniżony i nie ma ostrzeżenia w summary „Budżet miesięczny” o sumie po zastąpieniu pozycji akademika.",
+  "evidence": "curl study.gov.pl/cost-living-poland: tabela składników jak w budget.text.",
+  "proposedFix": "Dodać do summary „Budżet miesięczny” jedno zdanie: z akademikiem za cenę lokalną całość wyniesie ok. X do Y zł (dopiero po wyliczeniu i oznaczeniu jako własne wyliczenie, kind „suma”) albo zostawić samo ostrzeżenie."
+ },
+ {
+  "city": "lodz",
+  "item": null,
+  "field": "gaps[0] (NBP)",
+  "severity": "ważne",
+  "problem": "Żargon zbierania danych w lukach: „niedostępna bez weryfikacji przeglądarki”/„ekran weryfikacji”, „nie wykorzystano”, „nie opisano”, „nie potwierdzono”. Plan zabrania tej leksyki (odpowiednik „błąd 403”, „zablokował dostęp”).",
+  "evidence": "„jest niedostępna bez weryfikacji przeglądarki, więc nie wykorzystano…”",
+  "proposedFix": "Napisać dla czytelnika: „Oficjalne dane NBP o czynszach nie są tu uwzględnione, bo nie były dostępne do zacytowania. Podano jedną wartość nieoficjalną.” Analogicznie w pozostałych lukach."
+ },
+ {
+  "city": "lublin",
+  "item": null,
+  "field": "wszystkie teksty (summary, dorms, gaps, sources)",
+  "severity": "ważne",
+  "problem": "Brak twardych spacji po jednoliterowych spójnikach (około 124 wystąpień ze zwykłą spacją), np. „w Gdańsku”, „i od 850”, „w pokoju”.",
+  "evidence": "Twarda spacja U+00A0 po jednoliterowych spójnikach (w, z, i, o, a, u) nie jest stosowana: w danych miast jest 70 (Trójmiasto), 81 (Łódź), 124 (Lublin) i 120 (Katowice) takich miejsc ze zwykłą spacją, a js/zagranica.js nie dokleja ich przy renderowaniu (NB jest używane tylko dla kwot).",
+  "proposedFix": "Dodać w builderze (lub w rendererze) zamianę /(?<![\\wąćęłńóśźż])([wziaouWZIAOU]) (?=\\S)/ na \"$1\\u00a0\" dla wszystkich pól tekstowych poza URL."
+ },
+ {
+  "city": "lublin",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Zdanie „w naszych danych” to narracja w pierwszej osobie i odwołanie do wewnętrznego zbioru; czytelnik nie wie, o jakie dane chodzi.",
+  "evidence": "„Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł…”",
+  "proposedFix": "Zastąpić: „Ceny miejsc w domach studenckich na tej stronie są zwykle wyższe niż 400 do 600 zł z tabeli NAWA, więc przy droższym pokoju suma będzie większa.”"
+ },
+ {
+  "city": "lublin",
+  "item": null,
+  "field": "budget",
+  "severity": "drobne",
+  "problem": "Szacunek NAWA 1 500 do 2 000 zł zakłada akademik za 400 do 600 zł. Źródło potwierdzone dosłownie (study.gov.pl: „Rent (student dormitory) 400 - 600 … Average total expenses 1500 - 2000”), jest opisane jako krajowe, ale przy cenach uczelni z tego samego miasta (700 do 1 100 zł) jest wyraźnie zaniżony i nie ma ostrzeżenia w summary „Budżet miesięczny” o sumie po zastąpieniu pozycji akademika.",
+  "evidence": "curl study.gov.pl/cost-living-poland: tabela składników jak w budget.text.",
+  "proposedFix": "Dodać do summary „Budżet miesięczny” jedno zdanie: z akademikiem za cenę lokalną całość wyniesie ok. X do Y zł (dopiero po wyliczeniu i oznaczeniu jako własne wyliczenie, kind „suma”) albo zostawić samo ostrzeżenie."
+ },
+ {
+  "city": "lublin",
+  "item": null,
+  "field": "gaps[0] (NBP)",
+  "severity": "ważne",
+  "problem": "Żargon zbierania danych w lukach: „niedostępna bez weryfikacji przeglądarki”/„ekran weryfikacji”, „nie wykorzystano”, „nie opisano”, „nie potwierdzono”. Plan zabrania tej leksyki (odpowiednik „błąd 403”, „zablokował dostęp”).",
+  "evidence": "„był niedostępny (ekran weryfikacji)”; gaps[1] „strona uczelni wyświetliła ekran weryfikacji i nie była dostępna”; gaps[2] „na przeglądanych stronach”",
+  "proposedFix": "Napisać dla czytelnika: „Oficjalne dane NBP o czynszach nie są tu uwzględnione, bo nie były dostępne do zacytowania. Podano jedną wartość nieoficjalną.” Analogicznie w pozostałych lukach."
+ },
+ {
+  "city": "katowice",
+  "item": null,
+  "field": "wszystkie teksty (summary, dorms, gaps, sources)",
+  "severity": "ważne",
+  "problem": "Brak twardych spacji po jednoliterowych spójnikach (około 120 wystąpień ze zwykłą spacją), np. „w Gdańsku”, „i od 850”, „w pokoju”.",
+  "evidence": "Twarda spacja U+00A0 po jednoliterowych spójnikach (w, z, i, o, a, u) nie jest stosowana: w danych miast jest 70 (Trójmiasto), 81 (Łódź), 124 (Lublin) i 120 (Katowice) takich miejsc ze zwykłą spacją, a js/zagranica.js nie dokleja ich przy renderowaniu (NB jest używane tylko dla kwot).",
+  "proposedFix": "Dodać w builderze (lub w rendererze) zamianę /(?<![\\wąćęłńóśźż])([wziaouWZIAOU]) (?=\\S)/ na \"$1\\u00a0\" dla wszystkich pól tekstowych poza URL."
+ },
+ {
+  "city": "katowice",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Zdanie „w naszych danych” to narracja w pierwszej osobie i odwołanie do wewnętrznego zbioru; czytelnik nie wie, o jakie dane chodzi.",
+  "evidence": "„Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł…”",
+  "proposedFix": "Zastąpić: „Ceny miejsc w domach studenckich na tej stronie są zwykle wyższe niż 400 do 600 zł z tabeli NAWA, więc przy droższym pokoju suma będzie większa.”"
+ },
+ {
+  "city": "katowice",
+  "item": null,
+  "field": "budget",
+  "severity": "drobne",
+  "problem": "Szacunek NAWA 1 500 do 2 000 zł zakłada akademik za 400 do 600 zł. Źródło potwierdzone dosłownie (study.gov.pl: „Rent (student dormitory) 400 - 600 … Average total expenses 1500 - 2000”), jest opisane jako krajowe, ale przy cenach uczelni z tego samego miasta (700 do 1 100 zł) jest wyraźnie zaniżony i nie ma ostrzeżenia w summary „Budżet miesięczny” o sumie po zastąpieniu pozycji akademika.",
+  "evidence": "curl study.gov.pl/cost-living-poland: tabela składników jak w budget.text.",
+  "proposedFix": "Dodać do summary „Budżet miesięczny” jedno zdanie: z akademikiem za cenę lokalną całość wyniesie ok. X do Y zł (dopiero po wyliczeniu i oznaczeniu jako własne wyliczenie, kind „suma”) albo zostawić samo ostrzeżenie."
+ },
+ {
+  "city": "katowice",
+  "item": null,
+  "field": "gaps[0] (NBP)",
+  "severity": "ważne",
+  "problem": "Żargon zbierania danych w lukach: „niedostępna bez weryfikacji przeglądarki”/„ekran weryfikacji”, „nie wykorzystano”, „nie opisano”, „nie potwierdzono”. Plan zabrania tej leksyki (odpowiednik „błąd 403”, „zablokował dostęp”).",
+  "evidence": "„(strona wyświetliła ekran weryfikacji)”",
+  "proposedFix": "Napisać dla czytelnika: „Oficjalne dane NBP o czynszach nie są tu uwzględnione, bo nie były dostępne do zacytowania. Podano jedną wartość nieoficjalną.” Analogicznie w pozostałych lukach."
+ },
+ {
+  "city": "trojmiasto",
+  "item": "Domy studenckie UG",
+  "field": "summary[3].text, dorms[0].applicationInfo",
+  "severity": "ważne",
+  "problem": "Liczba i opis terminów UG jest błędny. Tekst mówi o „trzech terminach (dla nowo przyjętych w lipcu i sierpniu)”, a strona UG podaje pięć terminów na 2026/27. Dziś (3.10.2026) wszystkie pięć jest zamknięte, a poradnik radzi „najpierw złóż wniosek”.",
+  "evidence": "ug.edu.pl …/terminy-skladania-wnioskow: I 20.06-04.07, II 21.07-7.08, III 8.09-14.09, IV 24.08-4.09 (I roku II stopnia), V 16.09-25.09.2026.",
+  "proposedFix": "Wpisać wszystkie terminy z rokiem i dodać zdanie, że na rok 2026/27 nabory się zakończyły i trzeba pytać Dział Domów Studenckich o wolne miejsca."
+ },
+ {
+  "city": "trojmiasto",
+  "item": "Domy studenckie Politechniki Gdańskiej",
+  "field": "priceFrom/priceTo, summary[0]",
+  "severity": "ważne",
+  "problem": "Brak ceny dla drugiej największej uczelni, a w summary i notes sformułowania „nie udało się znaleźć”, „nie znaleziono”. Dodatkowo w notes podano dla porównania stawkę turystyczną 1 200 zł za miesiąc, która dotyczy pobytów letnich dla studentów innych uczelni i może zostać odczytana jako cena akademika.",
+  "evidence": "pg.edu.pl/…/zakwaterowanie: „stawek miesięcznych: 1200 zł dla studentów innych uczelni oraz 1500 zł dla pozostałych osób” (lato 2026, od 24 sierpnia jedna stawka 80 zł za dobę).",
+  "proposedFix": "Usunąć 1 200 zł z notes albo opisać wprost jako ceny letnie wyłącznie dla gości. W summary: „Cennik PG na rok 2026/27 nie jest tu podany; kaucja wynosi 700 zł.”"
+ },
+ {
+  "city": "trojmiasto",
+  "item": "Domy studenckie Politechniki Gdańskiej",
+  "field": "deposit / applicationInfo",
+  "severity": "drobne",
+  "problem": "Kaucja 700 zł i terminy (25.05-3.06, 27.07-7.08, wyniki 13.08, kaucja do 31.08 dla nowo przyjętych i do 31.07 dla wyższych lat) potwierdzone dosłownie. Podano tylko termin kaucji dla nowo przyjętych, brakuje 31.07.2026 dla studentów wyższych lat; wszystkie terminy minęły.",
+  "evidence": "pg.edu.pl …/miejsca-w-domach-studenckich-na-nowy-rok-akademicki: „Do 31.07.2026 r. należny opłacić kaucję gwarancyjną…” oraz „do 31 sierpnia 2026 r. … 700 zł”.",
+  "proposedFix": "Dopisać oba terminy kaucji i informację, że nabór na 2026/27 jest zamknięty."
+ },
+ {
+  "city": "trojmiasto",
+  "item": "Domy studenckie UG",
+  "field": "priceFrom/priceTo, eligibility",
+  "severity": "drobne",
+  "problem": "Ceny potwierdzone w PDF (DS 3 i 4 po 720 zł za miejsce w pokoju wieloosobowym; 850 zł DS 4 jednoosobowy do 1 050 zł). Zakres 720 do 1 050 zł łączy miejsce w pokoju wieloosobowym i miejsce w pokoju jednoosobowym (osobne rodzaje w jednej pozycji), choć notes je rozdziela. Plan wymaga rozdzielenia jednostek na osobne pozycje. Cena dotyczy kolumny A (zwolnienie z VAT dla studentów UG, doktorantów, Erasmus, MOST i „innych programów”); studenci innych uczelni płacą kolumnę B z 8% VAT (880 do 1 250 zł), co jest poprawnie opisane.",
+  "evidence": "ug.pdf: „DS 3* 720 zł 800 zł 880 zł”, „DS 4 * 850 zł 940 zł 1040 zł”, „DS 11*** 1050 zł 1150 zł 1250 zł”.",
+  "proposedFix": "Rozdzielić na dwie pozycje: pokój wieloosobowy 720 do 870 zł oraz pokój jednoosobowy 850 do 1 050 zł."
+ },
+ {
+  "city": "trojmiasto",
+  "item": "Domy studenckie UG",
+  "field": "summary[0]",
+  "severity": "drobne",
+  "problem": "Zdanie „Najwięcej miejsc mają domy studenckie w Gdańsku” nie ma pokrycia w zacytowanych źródłach (podana jest liczba miejsc tylko dla PG: 2 545). Wszystkie pozycje akademików są w Gdańsku, ale karta nie mówi tego wprost, a Gdynia i Sopot (Akademia Morska, Uniwersytet Morski) są pominięte.",
+  "evidence": "Brak cytatu o liczbie miejsc w UG; dorms ograniczone do UG i PG.",
+  "proposedFix": "Zamienić na: „Zebrane domy studenckie znajdują się w Gdańsku. Domów w Gdyni i Sopocie nie opisano.” (i zachować w gaps)."
+ },
+ {
+  "city": "trojmiasto",
+  "item": "Otodom raport lipiec 2026",
+  "field": "rent[0]",
+  "severity": "ważne",
+  "problem": "Wiersz „mieszkanie 2-pokojowe, Trójmiasto, 3 000 zł” opiera się na jednym zdaniu raportu o wspólnym obrazie trzech rynków (Kraków, Wrocław, Trójmiasto). Etykieta „dane nieoficjalne” i notka są uczciwe, ale obszar „Trójmiasto (…), łącznie” sugeruje wartość specyficzną dla Trójmiasta, a priceFrom=priceTo=3000 podaje „okolice” jako cenę dokładną. W notes jest antyteza „kwota to najczęstszy przedział…, nie średnia”.",
+  "evidence": "otodom.pl raport lipiec 2026: „w Krakowie, Wrocławiu czy Trójmieście rynek najmu mieszkań dwupokojowych jest bardzo jednorodny (prawie 40% ofert plasuje się w okolicach 3 000 zł miesięcznie)”.",
+  "proposedFix": "Zmienić area na „Kraków, Wrocław i Trójmiasto łącznie (raport nie rozdziela)”, priceFrom 3000, priceTo null z opisem „okolice”, a notes przepisać bez antytezy: „Kwota oznacza przedział, w którym mieści się prawie 40 procent ofert.”"
+ },
+ {
+  "city": "trojmiasto",
+  "item": "Rentier.io Gdańsk",
+  "field": "rent[1]",
+  "severity": "drobne",
+  "problem": "Wiersz „mieszkanie (przykład 50 m²)” z 3 500 zł jest oznaczony jako nieoficjalny i dotyczy całego mieszkania (potwierdzone: mediana 70 zł/m², wrzesień 2026, 3 077 ofert, przykład 50 m² na stronie). Wartość 3 500 zł nie występuje na stronie jako cena, to iloczyn 70×50 (cytat „Przykład: 50 m² — ok…” urwany). Typ „mieszkanie (przykład 50 m²)” różni się od typów w planie.",
+  "evidence": "rentier.io/…/gdansk: „mediana czynszu ofertowego 70 zł/m²/mies. (wrzesień 2026, 3 077 ofert)”; „Przykład: 50 m² — ok”.",
+  "proposedFix": "Zmienić typ na „mieszkanie około 50 m²” i w notes dopisać, że 3 500 zł to wyliczenie z mediany za m² (wartość potwierdzić z pełnego cytatu strony)."
+ },
+ {
+  "city": "trojmiasto",
+  "item": null,
+  "field": "summary[0..3], dorms[1].notes",
+  "severity": "ważne",
+  "problem": "Żargon i narracja zbierania danych w tekstach widocznych: „pełnego cennika … nie udało się znaleźć”, „Miesięcznej stawki dla mieszkańców nie znaleziono”, „Nie opisano domów…”, „Nie potwierdzono kaucji…”, „Źródła … nie rozdzielają… więc różnic między miastami nie podano”.",
+  "evidence": "summary[0]: „…nie udało się znaleźć, kaucja wynosi 700 zł”; dorms[1].notes: „…nie znaleziono”.",
+  "proposedFix": "Przeformułować na zdania opisujące stan wiedzy czytelnika: „Cennik PG na rok 2026/27 nie jest podany.”"
+ },
+ {
+  "city": "trojmiasto",
+  "item": null,
+  "field": "summary[2] (Budżet)",
+  "severity": "drobne",
+  "problem": "Zdanie „Trójmiasto należy do droższych rynków najmu” nie ma w cytowanych źródłach porównania miast; wynika z zestawienia własnych liczb (70 zł/m² w Gdańsku wobec 52 do 55 w innych miastach).",
+  "evidence": "Brak cytatu o rankingu cen w którymkolwiek źródle Trójmiasta.",
+  "proposedFix": "Usunąć lub dodać porównanie z podaniem źródła (np. „Rentier.io podaje 70 zł za m² w Gdańsku, 55 w Łodzi”)."
+ },
+ {
+  "city": "trojmiasto",
+  "item": null,
+  "field": "summary[3] (Jak szukać)",
+  "severity": "drobne",
+  "problem": "„oferta rośnie we wrześniu” to parafraza raportu sierpniowego, który mówi o przenoszeniu mieszkań z najmu krótkoterminowego na długoterminowy w sierpniu 2026 (Sopot +93 proc., Gdańsk +36 proc.), nie o wrześniu. Sam fakt jest potwierdzony.",
+  "evidence": "otodom.pl raport sierpień 2026: „Właściciele z Sopotu (wzrost ofert o 93%) czy Gdańska (wzrost o 36%) przenoszą obecnie swoje lokale z najmu krótkoterminowego na długoterminowy”.",
+  "proposedFix": "Napisać: „w sierpniu 2026 przybyło ofert w Gdańsku i Sopocie, bo część właścicieli przeszła z najmu krótkoterminowego na długoterminowy.”"
+ },
+ {
+  "city": "lodz",
+  "item": "Domy studenckie UŁ",
+  "field": "applicationInfo, gaps[3]",
+  "severity": "ważne",
+  "problem": "Brak terminów naboru UŁ i sprzeczność wewnątrz miasta: gaps[3] twierdzi, że „komunikat z terminarzem nie był dostępny”, a applicationInfo podaje, że komunikat ukazał się 5 maja 2026. Strona osiedla akademickiego UŁ ma pozycje „Terminarz aplikowania o miejsce w DS na rok akademicki 2026/2027” (5 maja 2026) i „Rekrutacja do akademików na rok akademicki 2026/2027” (20 sierpnia 2026), czyli terminy były do znalezienia.",
+  "evidence": "uni.lodz.pl/osiedle-akademickie, „Najnowsze informacje i komunikaty”: „20 sierpnia 2026 Rekrutacja do akademików na rok akademicki 2026/2027 … 05 maja 2026 Terminarz aplikowania o miejsce w DS…”.",
+  "proposedFix": "Otworzyć oba komunikaty i wpisać terminy z rokiem, albo usunąć zdanie o komunikacie z applicationInfo i opisać lukę bez sprzeczności."
+ },
+ {
+  "city": "lodz",
+  "item": "Domy studenckie UŁ",
+  "field": "priceFrom/priceTo, deposit",
+  "severity": "drobne",
+  "problem": "Ceny i kaucja potwierdzone w załączniku nr 2: 2026/27 pokój 1-os. od 710 (XIII) do 1 120 (V, VII, VIII, IX), 2-os. od 550 (XIII) do 850, 3-os. 640 (DS II), kaucja = dwie miesięczne stawki; stawki 2025/26 (500 do 990) też zgodne. Opłata jest za miejsce, dla studentów UŚ. Uwaga: pokój 1-osobowy kosztuje 710 do 1 120, a zakres 550 do 1 120 łączy trzy typy pokoi. Stwierdzenie „Studenci innych uczelni płacą dodatkowo VAT” zgodne ze źródłem (pkt 4f).",
+  "evidence": "ul.pdf: „XIII 710 zł 550 zł”, „V, VII, VIII, IX 1120 zł 850 zł”, „II … 640 zł”, „równowartość dwumiesięcznej stawki”.",
+  "proposedFix": "Bez zmian poza rozdzieleniem zakresu na typy pokoi (opcjonalnie)."
+ },
+ {
+  "city": "lodz",
+  "item": "Domy studenckie Politechniki Łódzkiej",
+  "field": "eligibility, notes",
+  "severity": "ważne",
+  "problem": "Cena „900 zł w pokoju 1-osobowym” dla osób spoza PŁ jest podana bez informacji o VAT. Cennik PŁ mówi, że zwolnienie z VAT dotyczy tylko studentów i doktorantów PŁ oraz studentów uczelni zagranicznych w wymianie, a w innych przypadkach doliczane jest 8 proc. VAT. Brak też informacji, że przy jednoosobowym zamieszkaniu w pokoju 2-osobowym opłata jest za dwa miejsca.",
+  "evidence": "pl3.doc: „W innych przypadkach dolicza się 8 % stawkę podatku VAT.” oraz „opłata miesięczna uiszczana jest za dwa miejsca noclegowe.”",
+  "proposedFix": "Dopisać: „osoby spoza PŁ płacą dodatkowo 8 proc. VAT” (lub zweryfikować, czy 900 zł jest już brutto) oraz zdanie o opłacie za dwa miejsca."
+ },
+ {
+  "city": "lodz",
+  "item": "Domy studenckie Politechniki Łódzkiej",
+  "field": "priceFrom/priceTo, deposit, applicationInfo",
+  "severity": "drobne",
+  "problem": "Potwierdzone dosłownie: DS III do IX 800/600, DS I (piętra V do VIII) 950/750, kaucja 1 000 zł dla zagranicznych, zadatek 400/300 zł do 31.08.2026, nabory 05.08-14.08 i 02.09-09.09.2026, zakwaterowanie 23-25.09, dyżury od 5.10 od 17:30 (C15, al. Politechniki 3a). Zakres 600 do 950 zł łączy miejsca w pokojach 1- i 2-osobowych bez rozdzielenia w polu cen. Zadatek opisany jako kaucja w deposit (zadatek zaliczany na czynsz to nie kaucja zwrotna).",
+  "evidence": "p.lodz.pl/studenci/wsparcie/zakwaterowanie oraz pl1.doc i pl3.doc.",
+  "proposedFix": "Rozdzielić zakres lub pozostawić z notes; w deposit nazwać zadatek zadatkiem (już tak jest) i dopisać, że kaucji dla polskich studentów cennik nie wymienia."
+ },
+ {
+  "city": "lodz",
+  "item": "Rentier.io Łódź",
+  "field": "rent[0]",
+  "severity": "drobne",
+  "problem": "Wartość 2 730 zł jest dosłownie ze strony Rentier (przykład 50 m², mediana 55 zł/m², 2 035 ofert), ale summary mówi „55 zł … czyli około 2 730 zł za mieszkanie 50 m²”, co czytelnik policzy jako 2 750 zł. Typ „mieszkanie (przykład 50 m²)” i cały wiersz uczciwie oznaczone jako dane nieoficjalne i cena całego mieszkania.",
+  "evidence": "rentier.io/…/lodz: „mediana czynszu ofertowego 55 zł/m²/mies. (wrzesień 2026, 2 035 ofert)”; „Przykład: 50 m² — ok. 2 730 zł czynszu miesięcznie”.",
+  "proposedFix": "Dopisać „mediana to zaokrąglone 55 zł (przykład portalu: 2 730 zł)”."
+ },
+ {
+  "city": "lodz",
+  "item": null,
+  "field": "summary[1] (Wynajem)",
+  "severity": "drobne",
+  "problem": "Zdanie „Oficjalnych cen najmu w Łodzi nie udało się potwierdzić” i „To jeden z tańszych rynków wśród największych miast” to żargon i niepodparty ranking (brak cytatu porównującego miasta).",
+  "evidence": "summary[1].text",
+  "proposedFix": "Przeformułować: „Oficjalnych cen najmu w Łodzi nie ma w użytych źródłach” i usunąć ranking albo go uzasadnić."
+ },
+ {
+  "city": "lublin",
+  "item": "Domy studenckie UMCS (dwuosobowe)",
+  "field": "priceFrom/priceTo",
+  "severity": "drobne",
+  "problem": "Potwierdzone w tabeli UMCS 2026/27: 2-os. 705 (Amor, Grześ) do 835 (Femina), nie licząc studia rodzinnego 1 050 zł i pokoi dla niepełnosprawnych od 700 zł (opisane w notes). Opłata za miejsce. Opłata za internet 25 zł jest fakultatywna.",
+  "evidence": "umcs.pl tabela: „AMOR … 2 - osobowy 705”, „FEMINA … 2 - osobowy 835”, „* dodatkowo fakultatywna opłata za Internet w wysokości 25 zł”.",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "lublin",
+  "item": "Domy studenckie UMCS (jednoosobowe)",
+  "field": "priceFrom/priceTo",
+  "severity": "ważne",
+  "problem": "Zakres 820 do 1 160 zł miesza dwie różne rzeczy: „1-osobowy**” to miejsce w pokoju 2-osobowym zajmowane przez jedną osobę (820 do 1 075 zł), a prawdziwe pokoje jednoosobowe to Kronos 1 160 zł, Zana cz. A 1 075 zł i Femina w segmencie 5-osobowym 990 zł. Notes wspomina o tym tylko częściowo; plan zabrania mieszania jednostek w jednym zakresie. Summary podaje „pokój jednoosobowy od 820 do 1 160 zł” bez zastrzeżenia.",
+  "evidence": "umcs.pl tabela: „1 - osobowy** 820 … KRONOS 1 - osobowy 1160 … ** opłata za miejsce w pokoju dwuosobowym w przypadku gdy w pokoju będzie mieszkać jedna osoba”.",
+  "proposedFix": "Rozdzielić na „pokój 2-osobowy zajęty przez jedną osobę: 820 do 1 075 zł” i „pokój jednoosobowy: 990 do 1 160 zł”; poprawić summary."
+ },
+ {
+  "city": "lublin",
+  "item": "Domy studenckie UMCS",
+  "field": "deposit / applicationInfo",
+  "severity": "drobne",
+  "problem": "Kaucja 400 zł i terminy IV tury (wnioski 24-29.09.2026, wyniki po 30.09, potwierdzenie i wpłata do 2.10.2026, przelew zagraniczny 100 EURO) potwierdzone dosłownie, ale dziś jest 3.10.2026, czyli termin minął wczoraj, a tekst „wpłacana do 2 października 2026” brzmi, jakby był bieżący. W tekście „euro” zamiast „EUR”. Nie podano, czy studenci spoza UMCS płacą VAT (cennik tego nie mówi) ani gdzie szukać kolejnych tur.",
+  "evidence": "umcs.pl/pl/wnioskowanie,12340.htm: „do 2 października 2026 r. – wnieś opłatę rezerwacyjną/kaucję (400 zł …)”; „kwota : 100 EURO”.",
+  "proposedFix": "Sformułować w czasie przeszłym i dopisać, że nabór na 2026/27 jest zamknięty, a wolne miejsca ogłasza komunikat rektora; „100 euro” zmienić na „100 EUR”."
+ },
+ {
+  "city": "lublin",
+  "item": "Dom Studenta nr 1 UM",
+  "field": "priceFrom/priceTo, notes",
+  "severity": "drobne",
+  "problem": "Potwierdzone w załączniku do zarządzenia 160/2026 (z 20.07.2026): DS 1 pokój 1-os. 1 005, 2-os. 785, łączone 950 zł (za miejsce), okres od 1.10.2026 do 30.06.2027 (czyli 9 miesięcy, nie rok), VAT 8% dla gości spoza lubelskich uczelni. Okres obowiązywania podany w applicationInfo, ale cena jest oznaczona period „miesiąc”, a okres do 30.06 nie występuje w polu includes.",
+  "evidence": "um.pdf: „w okresie od 1 października 2026 do 30 czerwca 2027*”; „pozostałym gościom doliczany będzie podatek VAT w wysokości 8%”.",
+  "proposedFix": "Zostawić, ewentualnie dopisać okres w notes."
+ },
+ {
+  "city": "lublin",
+  "item": "Domy Studenta nr 2 i 4 UM",
+  "field": "priceFrom/priceTo",
+  "severity": "ważne",
+  "problem": "Zakres 1 000 do 1 350 zł łączy ceny za miejsce w pokoju 2-osobowym (1 000/1 050 zł) z ceną pokoju indywidualnego z węzłem (1 350 zł), do tego dla osób z niepełnosprawnością (kolumna 1 350 zł) i dla segmentu 2-pokojowego. Summary podaje „od 785 do 1 350 zł” bez wyjaśnienia typów. Same liczby zgodne z PDF.",
+  "evidence": "um.pdf: „Nr 2 1 250 zł 1 050 zł 1 350 zł - 1 350 zł”, „Nr 4 1 250 zł 1 000 zł 1 350 zł - 1 350 zł”.",
+  "proposedFix": "Rozdzielić na pozycje (pokój 2-osobowy 1 000 do 1 050 zł; pokój 1-osobowy 1 250 zł; pokój indywidualny z węzłem 1 350 zł)."
+ },
+ {
+  "city": "lublin",
+  "item": "Domy studenckie UM",
+  "field": "roomType DS 2 i 4",
+  "severity": "drobne",
+  "problem": "Pole roomType brzmi jak lista kolumn tabeli („segment dwupokojowy z węzłem sanitarnym, pokój jednoosobowy, …”), niezrozumiałe dla nastolatka. Nazwa „Domy Studenta nr 2 i nr 4” w jednej pozycji.",
+  "evidence": "dorms[3].roomType",
+  "proposedFix": "Uprościć do „jednoosobowy, dwuosobowy, indywidualny z węzłem”."
+ },
+ {
+  "city": "lublin",
+  "item": "Rentier.io Lublin",
+  "field": "rent[0]",
+  "severity": "drobne",
+  "problem": "Wiersz poprawnie oznaczony jako dane nieoficjalne i cena całego mieszkania. Potwierdzono: mediana 55 zł/m², wrzesień 2026, 941 ofert; przykład 50 m² 2 770 zł (przy cenie zakupu ok. 505 000 zł). Notes ma żargon „portal podaje przykład”, a zdanie „Źródło nie podaje, czy kwota zawiera opłaty” jest poprawne.",
+  "evidence": "rentier.io/…/lublin: „mediana czynszu ofertowego 55 zł/m²/mies. (wrzesień 2026, 941 ofert)”; „Przykład: 50 m² — ok. 2 770 zł czynszu miesięcznie”.",
+  "proposedFix": "Bez zmian merytorycznych."
+ },
+ {
+  "city": "lublin",
+  "item": null,
+  "field": "summary[1] i summary[2]",
+  "severity": "ważne",
+  "problem": "Żargon „Cen pokoi i kawalerek nie udało się potwierdzić” i niegramatyczne „szacuje … na od 1 500 zł do 2 000 zł” (podwójny przyimek). Dodatkowo gaps[0] mówi „podano tylko jedną nieoficjalną wartość”.",
+  "evidence": "summary[1].text, summary[2].text",
+  "proposedFix": "Napisać: „Ceny pokoi i kawalerek nie są podane w użytych źródłach.” oraz „Study in Poland (NAWA) szacuje miesięczne wydatki studenta w Polsce na 1 500 do 2 000 zł.”"
+ },
+ {
+  "city": "lublin",
+  "item": null,
+  "field": "gaps[0..4]",
+  "severity": "ważne",
+  "problem": "Luki są opisane językiem zbierania danych: „strona uczelni wyświetliła ekran weryfikacji i nie była dostępna”, „nie podaje adresów domów na przeglądanych stronach”, „Nie opisano domów…”; ponadto Politechnika Lubelska i KUL pominięte, więc „Lublin” jest opisany tylko przez UMCS i UM.",
+  "evidence": "gaps[1], gaps[2]",
+  "proposedFix": "Przeformułować na zdania dla czytelnika i dopisać wprost: „Karta nie obejmuje domów studenckich Politechniki Lubelskiej, KUL i Uniwersytetu Przyrodniczego.”"
+ },
+ {
+  "city": "katowice",
+  "item": "Dom Studenta nr 1 (Ligota)",
+  "field": "priceFrom/priceTo, summary[0]",
+  "severity": "ważne",
+  "problem": "Zakres 741 do 981 zł łączy trzy różne jednostki: 741 zł to miejsce w pokoju 2-os., 804 zł pokój jednoosobowy (cały pokój), 981 zł studio dla 1 osoby (cała jednostka). Zasada planu zabrania mieszania jednostek w zakresie. Summary „pokój dwuosobowy od 741 do 1 071 zł” używa 1 071 zł z innego domu i innego typu (DS 5, studio).",
+  "evidence": "Skan tabeli UŚ od 1.09.2026, wiersz Ligota DS 1: A1 741,00 (za miejsce w pok. 2-os.), B1 804,00 (za pokój 1-osobowy), C1 981,00 (za pokój typu studio, 1-os.).",
+  "proposedFix": "Rozdzielić na pozycje: miejsce w pokoju 2-osobowym 741 zł, pokój jednoosobowy 804 zł, studio 981 zł; to samo w DS 2 (741/804/981)."
+ },
+ {
+  "city": "katowice",
+  "item": "Dom Studenta przy ul. Paderewskiego (DS 5)",
+  "field": "priceFrom/priceTo",
+  "severity": "ważne",
+  "problem": "Zakres 1 071 do 1 350 zł łączy cenę za miejsce w pokoju 2-osobowym (1 071 zł) z ceną całego pokoju dla jednej osoby (1 350 zł). Obie liczby potwierdzone (skan: C2 „miejsce w pokoju 2-os.” 1071,00; strona DS 5: „pokój 2-osoby (cały dla 1 osoby): 1 350,00 zł”), ale jednostki są różne.",
+  "evidence": "ds5 strona: „miejsce w pokoju 2-osobowym (typu studio): 1 071,00 zł … pokój 2-osoby (cały dla 1 osoby): 1 350,00 zł”.",
+  "proposedFix": "priceFrom 1071, priceTo null, a 1 350 zł tylko w notes (już jest)."
+ },
+ {
+  "city": "katowice",
+  "item": "Dom Studenta nr 7 (Ligota)",
+  "field": "priceFrom/priceTo",
+  "severity": "drobne",
+  "problem": "Potwierdzone w skanie: DS 7 A1 894,00 (miejsce w pokoju 2-os.), B1 963,00 (pokój 1-os.). Zakres 894 do 963 zł miesza miejsce i cały pokój, ale zakres jest wąski.",
+  "evidence": "Skan: „Ligota DS 7 … 894,00 … 963,00”.",
+  "proposedFix": "Rozdzielić jak w DS 1."
+ },
+ {
+  "city": "katowice",
+  "item": "Akademiki UŚ",
+  "field": "applicationInfo, summary[0]",
+  "severity": "ważne",
+  "problem": "Wniosek o akademik w Katowicach przedstawiono jako zakończony 24.09.2026 („od 23 lipca do 24 września”). W rzeczywistości zamknięto tylko pule wydziałowe; wnioski z puli rektorskiej są przyjmowane dalej i rozpatrywane na bieżąco w ramach wolnych miejsc (ważna informacja dla czytelnika w październiku). Data 23 lipca nie została odnaleziona na stronach komunikatów, które sprawdzono.",
+  "evidence": "us.edu.pl/…/zamkniecie-pul-wydzialowych: „wnioski … w „pulach wydziałowych” będzie można składać … do 24 września do godz. 23:59. Po tym terminie będzie można składać wnioski wyłącznie z „Puli rektorskiej” … Wnioski będą rozpatrywane na bieżąco, w ramach wolnych miejsc.”",
+  "proposedFix": "Dopisać zdanie o puli rektorskiej i przeformułować summary; zweryfikować 23 lipca u źródła."
+ },
+ {
+  "city": "katowice",
+  "item": "Akademiki UŚ",
+  "field": "deposit",
+  "severity": "drobne",
+  "problem": "Kaucja: cennik potwierdza tylko, że dotyczy DS 1 Ligota i DS 5 Sosnowiec; kwota „jedna miesięczna opłata” i zarządzenie 58/2026 z 27.04.2026 nie zostały potwierdzone na sprawdzonych stronach. W wierszach DS 2, 7 i „DS 5” z Katowic powtarza się zdanie o „DS 5 w Sosnowcu”, co przy domu „DS 5” przy Paderewskiego (Katowice) łatwo pomylić.",
+  "evidence": "us.edu.pl/…/cennik: „Wpłata kaucji (dotyczy DS1 Katowice-Ligota oraz DS5 Sosnowiec)”.",
+  "proposedFix": "Dla DS 5 Katowice napisać wprost: „Cennik nie wymienia kaucji dla tego domu (kaucja dotyczy DS 1 w Ligocie i DS 5 w Sosnowcu).”"
+ },
+ {
+  "city": "katowice",
+  "item": "Akademiki UŚ",
+  "field": "eligibility / Uwagi",
+  "severity": "drobne",
+  "problem": "„Osoby spoza UŚ płacą więcej” bez liczb, mimo że skan podaje kolumny dla innych osób (DS 1 i 2: 855 zł za miejsce, 921 zł pokój 1-os., 1 128 zł studio; DS 7: 1 029/1 107; DS 5: 1 233; w tym 8% VAT).",
+  "evidence": "Skan, kolumny A2, B2, C2.",
+  "proposedFix": "Dodać liczby do notes."
+ },
+ {
+  "city": "katowice",
+  "item": null,
+  "field": "summary[2] (Budżet)",
+  "severity": "ważne",
+  "problem": "Antyteza w tekście widocznym: „Jest to kwota dla całego kraju, a nie osobno dla Katowic.” Plus niegramatyczne „na od 1 500 zł do 2 000 zł”.",
+  "evidence": "summary[2].text",
+  "proposedFix": "„Study in Poland (NAWA) szacuje miesięczne wydatki studenta w Polsce na 1 500 do 2 000 zł. Kwota dotyczy całego kraju.”"
+ },
+ {
+  "city": "katowice",
+  "item": null,
+  "field": "summary[1] i gaps",
+  "severity": "ważne",
+  "problem": "Żargon: „źródła oficjalnego z cenami pokoi i kawalerek nie udało się potwierdzić”, „Nie sprawdzono ofert prywatnych akademików”, „Nie opisano też domów…”, „strona wyświetliła ekran weryfikacji”.",
+  "evidence": "summary[1].text, gaps[0], gaps[1]",
+  "proposedFix": "Przeformułować na zdania dla czytelnika."
+ },
+ {
+  "city": "katowice",
+  "item": "Rentier.io Katowice",
+  "field": "rent[0]",
+  "severity": "drobne",
+  "problem": "Wiersz oznaczony jako nieoficjalny i dotyczy całego mieszkania 50 m²; mediana 52 zł/m², 2 590 zł (≈ 52×50 = 2 600, źródło podaje przykład 2 590). Wartość nie była odczytana ponownie w tej recenzji (brak wywołań), więc oznaczona jako niezweryfikowana; format jak w pozostałych miastach.",
+  "evidence": "dev_docs/dane-robocze/wyniki/koszty-katowice-2026-10-03.json",
+  "proposedFix": "Zweryfikować przy następnej rundzie."
+ }
+]

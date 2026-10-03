@@ -1,0 +1,407 @@
+[
+ {
+  "city": "warszawa",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Żargon zbierania danych: „Aktualne ceny akademików w naszych danych”. Plan zabrania takich sformułowań.",
+  "evidence": "budget.text: „Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł”.",
+  "proposedFix": "Usunąć zdanie „w naszych danych” (np. „Ceny akademików z tego zestawienia często przekraczają 400 do 600 zł”). Kwotę opisać jako krajową, najlepiej z polem wskazującym zasięg ogólnopolski."
+ },
+ {
+  "city": "krakow",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Żargon zbierania danych: „Aktualne ceny akademików w naszych danych”. Plan zabrania takich sformułowań.",
+  "evidence": "budget.text: „Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł”.",
+  "proposedFix": "Usunąć zdanie „w naszych danych” (np. „Ceny akademików z tego zestawienia często przekraczają 400 do 600 zł”). Kwotę opisać jako krajową, najlepiej z polem wskazującym zasięg ogólnopolski."
+ },
+ {
+  "city": "wroclaw",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Żargon zbierania danych: „Aktualne ceny akademików w naszych danych”. Plan zabrania takich sformułowań.",
+  "evidence": "budget.text: „Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł”.",
+  "proposedFix": "Usunąć zdanie „w naszych danych” (np. „Ceny akademików z tego zestawienia często przekraczają 400 do 600 zł”). Kwotę opisać jako krajową, najlepiej z polem wskazującym zasięg ogólnopolski."
+ },
+ {
+  "city": "poznan",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Żargon zbierania danych: „Aktualne ceny akademików w naszych danych”. Plan zabrania takich sformułowań.",
+  "evidence": "budget.text: „Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł”.",
+  "proposedFix": "Usunąć zdanie „w naszych danych” (np. „Ceny akademików z tego zestawienia często przekraczają 400 do 600 zł”). Kwotę opisać jako krajową, najlepiej z polem wskazującym zasięg ogólnopolski."
+ },
+ {
+  "city": "warszawa",
+  "item": null,
+  "field": "tekst (summary, gaps, notes, applicationInfo)",
+  "severity": "ważne",
+  "problem": "Brak twardych spacji po jednoliterowych spójnikach (w, z, i, o, a, u); regułę spełniają tylko liczby i jednostki. Samo wyświetlanie ich nie naprawia (js/zagranica.js dodaje tylko twarde spacje w liczbach).",
+  "evidence": "Wyrażenie regularne (?<!\\w)[wziouaWZIOUA] (?=\\w) w data/koszty/warszawa.json: warszawa 103, krakow 72, wroclaw 75, poznan 99 trafień, a twardych spacji w pliku jest odpowiednio 61, 37, 26, 42.",
+  "proposedFix": "Wstawić U+00A0 po każdym jednoliterowym spójniku w tekstach (najlepiej w build-koszty.js, jednym przebiegiem)."
+ },
+ {
+  "city": "krakow",
+  "item": null,
+  "field": "tekst (summary, gaps, notes, applicationInfo)",
+  "severity": "ważne",
+  "problem": "Brak twardych spacji po jednoliterowych spójnikach (w, z, i, o, a, u); regułę spełniają tylko liczby i jednostki. Samo wyświetlanie ich nie naprawia (js/zagranica.js dodaje tylko twarde spacje w liczbach).",
+  "evidence": "Wyrażenie regularne (?<!\\w)[wziouaWZIOUA] (?=\\w) w data/koszty/krakow.json: warszawa 103, krakow 72, wroclaw 75, poznan 99 trafień, a twardych spacji w pliku jest odpowiednio 61, 37, 26, 42.",
+  "proposedFix": "Wstawić U+00A0 po każdym jednoliterowym spójniku w tekstach (najlepiej w build-koszty.js, jednym przebiegiem)."
+ },
+ {
+  "city": "wroclaw",
+  "item": null,
+  "field": "tekst (summary, gaps, notes, applicationInfo)",
+  "severity": "ważne",
+  "problem": "Brak twardych spacji po jednoliterowych spójnikach (w, z, i, o, a, u); regułę spełniają tylko liczby i jednostki. Samo wyświetlanie ich nie naprawia (js/zagranica.js dodaje tylko twarde spacje w liczbach).",
+  "evidence": "Wyrażenie regularne (?<!\\w)[wziouaWZIOUA] (?=\\w) w data/koszty/wroclaw.json: warszawa 103, krakow 72, wroclaw 75, poznan 99 trafień, a twardych spacji w pliku jest odpowiednio 61, 37, 26, 42.",
+  "proposedFix": "Wstawić U+00A0 po każdym jednoliterowym spójniku w tekstach (najlepiej w build-koszty.js, jednym przebiegiem)."
+ },
+ {
+  "city": "poznan",
+  "item": null,
+  "field": "tekst (summary, gaps, notes, applicationInfo)",
+  "severity": "ważne",
+  "problem": "Brak twardych spacji po jednoliterowych spójnikach (w, z, i, o, a, u); regułę spełniają tylko liczby i jednostki. Samo wyświetlanie ich nie naprawia (js/zagranica.js dodaje tylko twarde spacje w liczbach).",
+  "evidence": "Wyrażenie regularne (?<!\\w)[wziouaWZIOUA] (?=\\w) w data/koszty/poznan.json: warszawa 103, krakow 72, wroclaw 75, poznan 99 trafień, a twardych spacji w pliku jest odpowiednio 61, 37, 26, 42.",
+  "proposedFix": "Wstawić U+00A0 po każdym jednoliterowym spójniku w tekstach (najlepiej w build-koszty.js, jednym przebiegiem)."
+ },
+ {
+  "city": "warszawa",
+  "item": null,
+  "field": "summary[Budżet miesięczny].text",
+  "severity": "ważne",
+  "problem": "Sprzeczność wewnątrz miasta: podsumowanie mówi, że oficjalnego szacunku nie ma i „w danych nie ma kwoty”, a blok budget podaje 1 500 do 2 000 zł (NAWA, official true). Dodatkowo żargon („Nie znaleziono”, „w danych”).",
+  "evidence": "summary[2].text: „Nie znaleziono oficjalnego szacunku miesięcznego budżetu studenta w Warszawie. Dlatego w danych nie ma kwoty”; budget.from/to: 1500/2000.",
+  "proposedFix": "Przepisać: „Dla Warszawy nie ma osobnego oficjalnego szacunku. Portal Study in Poland (NAWA) podaje dla całej Polski 1 500 do 2 000 zł miesięcznie i zaznacza, że w stolicy jest drożej.”"
+ },
+ {
+  "city": "warszawa",
+  "item": null,
+  "field": "gaps[0]",
+  "severity": "drobne",
+  "problem": "Ta luka też twierdzi, że kwota budżetu jest pusta, choć jest wypełniona kwotą krajową.",
+  "evidence": "gaps[0]: „…więc kwota budżetu jest pusta.”",
+  "proposedFix": "Usunąć lub zmienić na „brak osobnego szacunku dla miasta”."
+ },
+ {
+  "city": "warszawa",
+  "item": "Domy studenta UW, miejsce w pokoju dwuosobowym",
+  "field": "eligibility",
+  "severity": "ważne",
+  "problem": "Sprzeczność z rokiem 2026/2027: wiersz mówi, że „w ramach wolnych miejsc także inne osoby”, a zdanie dalej, że zakwaterowanie nie dotyczy osób z innych uczelni. Strona UW: nie dotyczy, ewentualna informacja najwcześniej w połowie października 2026.",
+  "evidence": "bpm.uw.edu.pl (wszystko-co-musisz-wiedziec…): „Zakwaterowanie na nowy rok akademicki nie dotyczy osób z innych uczelni. Jeśli pojawi się taka możliwość, powiadomimy o tym – najwcześniej w połowie października 2026 roku.”",
+  "proposedFix": "Zostawić: „Studenci i doktoranci UW. Dla osób z innych uczelni na rok 2026/2027 miejsc na razie nie ma, ewentualna informacja najwcześniej w połowie października 2026.”"
+ },
+ {
+  "city": "warszawa",
+  "item": "Domy studenta UW, pokój jednoosobowy",
+  "field": "applicationInfo",
+  "severity": "drobne",
+  "problem": "„Po terminie wniosku nie da się złożyć” brzmi jak definitywne zamknięcie, a w tym samym wierszu jest lista oczekujących otwierana we wrześniu. Bieżące terminy (czerwiec, sierpień) już minęły, a tekst nie mówi czytelnikowi, co robić dziś.",
+  "evidence": "Strona UW: „Jeśli nie złożyłeś wniosku w terminie, skorzystaj z listy oczekujących, która zostanie otwarta we wrześniu.”",
+  "proposedFix": "Zastąpić: „Po zamknięciu tury wniosek można złożyć już tylko na listę oczekujących (otwierana we wrześniu).”"
+ },
+ {
+  "city": "warszawa",
+  "item": "Mieszkanie (średnia wszystkich ofert)",
+  "field": "notes / type",
+  "severity": "ważne",
+  "problem": "Wiersz 4 890 zł wygląda na sprzeczny z wierszami 3 262 zł (kawalerka) i 3 939 zł (2 pokoje): średnia wszystkich mieszkań jest wyższa od dwupokojowych bez wyjaśnienia. Źródło (raport za czerwiec, opublikowany 23 lipca) mówi o czerwcu, a notes wspomina „sierpień 2026” i 4,9 tys. z raportu, którego nie udało się znaleźć w tekście sierpniowego raportu.",
+  "evidence": "Raport czerwcowy: „Najwyższe czynsze … w Warszawie (4 890 zł)”. W raporcie sierpniowym nie ma „4,9”. Raport lipcowy: kawalerka 3262, dwa pokoje 3939.",
+  "proposedFix": "Usunąć wiersz albo oznaczyć: „średnia z czerwca 2026, obejmuje także duże mieszkania, dlatego jest wyższa niż dla kawalerek i dwupokojowych”; wyrzucić odwołanie do sierpnia."
+ },
+ {
+  "city": "warszawa",
+  "item": "Domy studenckie PW, miejsce w pokoju dwuosobowym",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "„Pokoje 3- i 4-osobowe są tańsze, od 450 zł”: cennik ma 4-osobowe od 420 zł.",
+  "evidence": "Decyzja 83/2026, Akademik: 4-os. 420 zł, 3-os. 450 zł.",
+  "proposedFix": "„Pokoje 3- i 4-osobowe od 420 zł.”"
+ },
+ {
+  "city": "warszawa",
+  "item": "Domy studenckie PW (oba wiersze)",
+  "field": "applicationInfo",
+  "severity": "drobne",
+  "problem": "Żargon: „Terminów naboru na rok 2026/2027 nie znaleziono na stronach uczelni”.",
+  "evidence": "applicationInfo pokój 1- i 2-osobowy.",
+  "proposedFix": "„Terminy naboru na rok 2026/2027 nie są podane na stronach uczelni.”"
+ },
+ {
+  "city": "warszawa",
+  "item": null,
+  "field": "summary[Wynajem], summary[Uwagi], gaps",
+  "severity": "ważne",
+  "problem": "Żargon zbierania danych i narracja o procesie: „nie udało się potwierdzić”, „Nie znaleziono”, „nie był dostępny”, „ekran weryfikacji”.",
+  "evidence": "summary[1], summary[4], gaps[0..4].",
+  "proposedFix": "Przepisać jako zdania o stanie rzeczy: „Cen pokoi w mieszkaniach współdzielonych brak w raportach Otodom”, „Cennik WUM na rok 2026/2027 nie jest opublikowany”, usunąć wzmiankę o ekranie weryfikacji NBP."
+ },
+ {
+  "city": "warszawa",
+  "item": "Dom Studenta nr 1 i nr 3 SGH",
+  "field": "waitlist",
+  "severity": "drobne",
+  "problem": "Szczegół o awarii formularza i anulowaniu zapisów („Nowa lista ruszyła 16 września…”) jest pamiętnikiem strony, nie informacją dla czytelnika.",
+  "evidence": "Strona SGH: „z powodu błędu formularza … anulować wszystkie zapisy … 15 września”.",
+  "proposedFix": "„Lista rezerwowa, zapisy przez cały rok akademicki, miejsce dostępne 48 godzin od powiadomienia.”"
+ },
+ {
+  "city": "krakow",
+  "item": null,
+  "field": "summary[Budżet miesięczny].text",
+  "severity": "ważne",
+  "problem": "Sprzeczność: „kwoty budżetu brak”, a blok budget ma 1 500 do 2 000 zł. Dodatkowo twierdzenie „nie znaleziono … na portalu Study in Poland” jest fałszywe, bo ten portal właśnie jest źródłem kwoty krajowej.",
+  "evidence": "summary[2].text vs budget.sourceUrl study.gov.pl.",
+  "proposedFix": "„Dla Krakowa nie ma osobnego oficjalnego szacunku. Study in Poland podaje dla całej Polski 1 500 do 2 000 zł miesięcznie.”"
+ },
+ {
+  "city": "krakow",
+  "item": null,
+  "field": "gaps[0]",
+  "severity": "drobne",
+  "problem": "Gap powtarza, że szacunku nie ma, choć jest krajowy.",
+  "evidence": "gaps[0].",
+  "proposedFix": "Zmienić na „brak szacunku dla samego Krakowa”."
+ },
+ {
+  "city": "krakow",
+  "item": "Domy studenckie UJ",
+  "field": "applicationInfo",
+  "severity": "ważne",
+  "problem": "Podano tylko terminy dla przyjętych na pierwszy rok z maturą od 2025 (lipiec, sierpień) i wspólną II turę. Strona UJ ma osobny harmonogram I naboru 18 maja do 15 czerwca 2026 (wyniki 30 czerwca) dla starszych lat, studiów II stopnia i matur sprzed 2025; w danych go brak, a to największa grupa. Bez tego tekst sugeruje, że wszyscy składali wnioski dopiero w lipcu.",
+  "evidence": "akademiki.uj.edu.pl/studenci/harmonogram: „Aplikowanie I nabór wniosków: 18 maja – 15 czerwca 2026 r.… ogłoszenie wyników: 30 czerwca”.",
+  "proposedFix": "Dopisać, dla kogo który termin; zaznaczyć, że obecnie otwarty jest nabór roczny od 15 września 2026."
+ },
+ {
+  "city": "krakow",
+  "item": "Mieszkanie (średnia wszystkich ofert)",
+  "field": "notes",
+  "severity": "ważne",
+  "problem": "Zdanie „w sierpniu 2026 Kraków był tańszy o 5,1% r/r” nie znajduje się w tekście cytowanego raportu sierpniowego (strona zawiera dla Krakowa tylko wzmianki o liczbie ofert).",
+  "evidence": "osie.html (Otodom, sierpień 2026): brak wyniku dla „5,1” i dla zmian cen Krakowa.",
+  "proposedFix": "Usunąć zdanie albo podać wartość z lipcowego raportu (r/r tańszy we wszystkich czterech miastach, bez kwoty)."
+ },
+ {
+  "city": "krakow",
+  "item": "Miasteczko Studenckie AGH",
+  "field": "deposit",
+  "severity": "drobne",
+  "problem": "Pole kaucji zawiera opłatę za zakwaterowanie i przekwaterowanie (25 zł netto, od 1 października 2026 30 zł netto), czyli nie kaucję.",
+  "evidence": "Cennik AGH: „Za każde zakwaterowanie oraz przekwaterowanie pobierana jest dodatkowa opłata 25 zł (netto) (od 1 października 2026: 30 zł netto)”.",
+  "proposedFix": "deposit: null, opłatę przenieść do notes."
+ },
+ {
+  "city": "krakow",
+  "item": "Miasteczko Studenckie AGH",
+  "field": "applicationInfo",
+  "severity": "drobne",
+  "problem": "Żargon: „Terminów składania wniosków … nie znaleziono na stronach uczelni”; dwa wiersze luk i podsumowanie powtarzają „Nie znaleziono”.",
+  "evidence": "applicationInfo, gaps[0], gaps[3], gaps[4], summary[2], summary[4].",
+  "proposedFix": "Przepisać na zdania o stanie rzeczy (np. „Terminy naboru nie są podane na stronach AGH”)."
+ },
+ {
+  "city": "krakow",
+  "item": "Domy studenckie UJ, pokój jednoosobowy",
+  "field": "priceTo",
+  "severity": "drobne",
+  "problem": "Zakres 870 do 1 200 zł łączy cenę miejsca w pokoju jednoosobowym z „jednoosobowym korzystaniem z pokoju dwuosobowego”; to dwa różne typy pokoju.",
+  "evidence": "Opłaty UJ: 870 zł pokój jednoosobowy, 1 200 zł jednoosobowe korzystanie z dwuosobowego.",
+  "proposedFix": "priceTo: 870, wyższą stawkę w notes (tak już opisano)."
+ },
+ {
+  "city": "wroclaw",
+  "item": null,
+  "field": "summary[Budżet miesięczny].text",
+  "severity": "ważne",
+  "problem": "Sprzeczność: summary mówi o braku kwoty, blok budget ma 1 500 do 2 000 zł.",
+  "evidence": "summary[2].text vs budget.",
+  "proposedFix": "Jak w Krakowie: opisać kwotę krajową zamiast zaprzeczać jej istnieniu."
+ },
+ {
+  "city": "wroclaw",
+  "item": null,
+  "field": "gaps[0]",
+  "severity": "drobne",
+  "problem": "Gap powtarza twierdzenie o braku szacunku.",
+  "evidence": "gaps[0].",
+  "proposedFix": "Zmienić na „brak szacunku dla samego Wrocławia”."
+ },
+ {
+  "city": "wroclaw",
+  "item": "wszystkie 4 wiersze UWr",
+  "field": "eligibility",
+  "severity": "ważne",
+  "problem": "Błąd skrótu: „Studenci i doktoranci UW” (UW to Uniwersytet Warszawski, na stronie Warszawy). Powinno być UWr.",
+  "evidence": "eligibility: „Studenci i doktoranci UW oraz innych uczelni krajowych z porozumieniem płacą bez VAT…”.",
+  "proposedFix": "Zamienić „UW” na „UWr”."
+ },
+ {
+  "city": "wroclaw",
+  "item": "wszystkie 4 wiersze UWr",
+  "field": "eligibility / summary[Akademiki]",
+  "severity": "ważne",
+  "problem": "Podsumowanie i eligibility mówią, że „inni studenci płacą dodatkowo 8% VAT”, co sugeruje, że mogą się ubiegać. Strona UWr: pierwszeństwo mają studenci UWr, a terminów dla studentów innych uczelni nie przewidziano.",
+  "evidence": "uwr.edu.pl/domy-studenckie-2/: „nie przewidziano jeszcze terminów składania wniosków … dla studentów z innych uczelni”.",
+  "proposedFix": "Dopisać: „Dla studentów innych uczelni terminów naboru na razie nie podano”; stawkę z VAT zostawić jako informację warunkową."
+ },
+ {
+  "city": "wroclaw",
+  "item": null,
+  "field": "gaps[4]",
+  "severity": "ważne",
+  "problem": "Zdanie niegramatyczne i ze żargonem: „terminy wcześniejszych tur nie był dostępny”; w gaps[3] też „Nie opisano stron”, „nie był osiągalny”.",
+  "evidence": "gaps[3], gaps[4].",
+  "proposedFix": "„Na stronie UWr widoczny jest tylko termin ostatniej tury, terminów wcześniejszych tur nie podano.”"
+ },
+ {
+  "city": "wroclaw",
+  "item": "wiersze UWr",
+  "field": "applicationInfo",
+  "severity": "drobne",
+  "problem": "Podany termin ostatniej tury (23 do 30 września 2026) już minął (dziś 3 października) i nie jest tak oznaczony; wynik dopiero 6 października, kaucja do 12 października.",
+  "evidence": "Strona UWr: „Termin składania wniosków: 23.09-30.09.2026 … informacji: 6.10.2026 … kaucji: 12.10.2026”.",
+  "proposedFix": "Dopisać „tura zamknięta, wyniki 6 października”."
+ },
+ {
+  "city": "wroclaw",
+  "item": "wiersze UWr",
+  "field": "deposit",
+  "severity": "drobne",
+  "problem": "Wiersze mówią „Wysokość kaucji nie jest podana”, więc kaucja istnieje, ale termin wpłaty dotyczy tylko ostatniej tury; sformułowanie nie wyjaśnia czytelnikowi, że kwoty brak.",
+  "evidence": "Strona UWr: tylko „Termin wpłaty kaucji: 12.10.2026”.",
+  "proposedFix": "„Kaucja obowiązuje, ale jej kwota nie jest podana. Termin wpłaty w ostatniej turze: 12 października 2026.”"
+ },
+ {
+  "city": "wroclaw",
+  "item": null,
+  "field": "summary[Wynajem], summary[Uwagi], gaps",
+  "severity": "drobne",
+  "problem": "Żargon: „Nie znaleziono”, „nie zostały potwierdzone”, „Strona NBP … niedostępna (ekran weryfikacji)”.",
+  "evidence": "summary[1], [2], [4], gaps[0..2].",
+  "proposedFix": "Przepisać na stan rzeczy, bez narracji o zbieraniu."
+ },
+ {
+  "city": "poznan",
+  "item": null,
+  "field": "summary[Akademiki].text",
+  "severity": "ważne",
+  "problem": "Podsumowanie podaje „Uniwersytet Ekonomiczny od 750 do 1 200 zł” obok Politechniki i UAM (stawki brutto) bez zaznaczenia, że UEP to kwoty netto dla studentów UEP (810 do 1 296 zł brutto dla pozostałych); do tego ze stron UEP nie wynika, że to cennik na rok 2026/27.",
+  "evidence": "Strony DS Dewizka/Feniks/Atol: „750 zł netto, 810 zł brutto*… studenci UEP płacą kwotę netto”; na stronach brak oznaczenia roku akademickiego.",
+  "proposedFix": "Dopisać „(kwoty netto dla studentów UEP, strona nie podaje roku akademickiego)” albo usunąć UEP z zdania o 2026/27."
+ },
+ {
+  "city": "poznan",
+  "item": "Domy studenckie UEP",
+  "field": "includes/priceFrom",
+  "severity": "ważne",
+  "problem": "Wiersz używa „Na rok 2026/27” w podsumowaniu, a notes i źródło nie podają roku. Regulaminowy brak daty powinien być widoczny w wierszu.",
+  "evidence": "uep.poznan.pl dom-studencki-dewizka/feniks/atol: brak „2026/2027” w tekście cennika.",
+  "proposedFix": "W notes: „Strona UEP nie podaje, na który rok akademicki obowiązują stawki.”"
+ },
+ {
+  "city": "poznan",
+  "item": "Domy studenckie UEP",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "Stawki Feniks (800) i Atol (850) pochodzą z innych stron niż sourceUrl wiersza (tylko Dewizka). Wartości potwierdzone, ale źródło niepełne.",
+  "evidence": "dom-studencki-feniks: 800 zł netto; dom-studencki-atol: 850 zł netto.",
+  "proposedFix": "Dodać obie strony jako sourceUrl lub w notes."
+ },
+ {
+  "city": "poznan",
+  "item": "Domy studenckie UEP",
+  "field": "applicationInfo",
+  "severity": "drobne",
+  "problem": "Zdanie z błędem gramatycznym: „Dokładnych terminów nie jest podane”.",
+  "evidence": "applicationInfo.",
+  "proposedFix": "„Dokładnych terminów nie podano.”"
+ },
+ {
+  "city": "poznan",
+  "item": "Domy studenckie Politechniki Poznańskiej",
+  "field": "deposit",
+  "severity": "ważne",
+  "problem": "Pominięto, że opłata rezerwacyjna 500 zł nie podlega zwrotowi przy rezygnacji; wiersz mówi tylko, że jest zaliczana na poczet opłaty.",
+  "evidence": "Zarządzenie nr 25 §4 ust. 2: „wpłacona opłata rezerwacyjna nie podlega zwrotowi i przechodzi na rzecz Politechniki Poznańskiej”.",
+  "proposedFix": "Dopisać: „Opłata rezerwacyjna nie jest zwracana przy rezygnacji.”"
+ },
+ {
+  "city": "poznan",
+  "item": "Domy studenckie Politechniki Poznańskiej",
+  "field": "eligibility",
+  "severity": "drobne",
+  "problem": "„Studenci innych uczelni … za wyższą stawkę”: według zarządzenia stawkę studencką płacą też studenci uczelni z podpisanym porozumieniem.",
+  "evidence": "Zarządzenie nr 25: kolumna „student/doktorant PP oraz uczelni z podpisanym porozumieniem”.",
+  "proposedFix": "„Studenci uczelni z porozumieniem płacą stawkę studencką, pozostałe osoby wyższą.”"
+ },
+ {
+  "city": "poznan",
+  "item": "Domy studenckie UAM",
+  "field": "includes / applicationInfo",
+  "severity": "drobne",
+  "problem": "Twierdzenia „Stawki są stałe przez cały rok akademicki” i „Opłaty obowiązują od 1 października 2026 do 30 września 2027” nie wynikają z tabeli w załączniku (tabela nie ma okresu). Mogą być w samym zarządzeniu, którego nie sprawdzono.",
+  "evidence": "ZR-206-2025-2026-Zal.pdf: tabela bez okresu obowiązywania.",
+  "proposedFix": "Zostawić tylko, jeśli potwierdza je główny tekst zarządzenia; inaczej usunąć."
+ },
+ {
+  "city": "poznan",
+  "item": null,
+  "field": "gaps[0], summary[Wynajem]",
+  "severity": "ważne",
+  "problem": "Żargon i narracja o procesie: „Oficjalnych cen najmu … nie udało się potwierdzić”, „niedostępna bez weryfikacji przeglądarki”, „nie wykorzystano”, „Nie potwierdzono”, „Nie opisano domów studenckich…”.",
+  "evidence": "summary[1], gaps[0..4].",
+  "proposedFix": "Przepisać na stan rzeczy: „Brak oficjalnych danych o czynszach w Poznaniu. Poniżej nieoficjalna mediana z serwisu Rentier.io”."
+ },
+ {
+  "city": "poznan",
+  "item": "mieszkanie (przykład 50 m²)",
+  "field": "type/notes",
+  "severity": "drobne",
+  "problem": "Etykieta jest uczciwa (dane nieoficjalne, cena całego mieszkania), ale „przykład 50 m²” z 3 020 zł to wyliczenie samego serwisu (60 zł/m² razy 50 m²), nie oferta; warto to nazwać.",
+  "evidence": "Rentier: „Przykład: 50 m² — ok. 3 020 zł czynszu miesięcznie”.",
+  "proposedFix": "Dopisać „obliczenie serwisu z mediany, nie konkretna oferta”."
+ },
+ {
+  "city": "warszawa",
+  "item": null,
+  "field": "budget.official / budget.kind",
+  "severity": "drobne",
+  "problem": "Kwota krajowa trafia do pola budget miasta z official true; tekst mówi „Ogólnopolski”, ale pola from/to nie niosą informacji o zasięgu, więc interfejs może pokazać je jak dane miasta.",
+  "evidence": "budget.sourceUrl study.gov.pl/cost-living-poland; strona NAWA: „prices depend on the city”.",
+  "proposedFix": "Dodać pole zasięgu (np. scope: kraj) lub upewnić się, że karta pokazuje „dla całej Polski” obok kwoty."
+ },
+ {
+  "city": "krakow",
+  "item": null,
+  "field": "budget.official / budget.kind",
+  "severity": "drobne",
+  "problem": "Kwota krajowa trafia do pola budget miasta z official true; tekst mówi „Ogólnopolski”, ale pola from/to nie niosą informacji o zasięgu, więc interfejs może pokazać je jak dane miasta.",
+  "evidence": "budget.sourceUrl study.gov.pl/cost-living-poland; strona NAWA: „prices depend on the city”.",
+  "proposedFix": "Dodać pole zasięgu (np. scope: kraj) lub upewnić się, że karta pokazuje „dla całej Polski” obok kwoty."
+ },
+ {
+  "city": "wroclaw",
+  "item": null,
+  "field": "budget.official / budget.kind",
+  "severity": "drobne",
+  "problem": "Kwota krajowa trafia do pola budget miasta z official true; tekst mówi „Ogólnopolski”, ale pola from/to nie niosą informacji o zasięgu, więc interfejs może pokazać je jak dane miasta.",
+  "evidence": "budget.sourceUrl study.gov.pl/cost-living-poland; strona NAWA: „prices depend on the city”.",
+  "proposedFix": "Dodać pole zasięgu (np. scope: kraj) lub upewnić się, że karta pokazuje „dla całej Polski” obok kwoty."
+ },
+ {
+  "city": "poznan",
+  "item": null,
+  "field": "budget.official / budget.kind",
+  "severity": "drobne",
+  "problem": "Kwota krajowa trafia do pola budget miasta z official true; tekst mówi „Ogólnopolski”, ale pola from/to nie niosą informacji o zasięgu, więc interfejs może pokazać je jak dane miasta.",
+  "evidence": "budget.sourceUrl study.gov.pl/cost-living-poland; strona NAWA: „prices depend on the city”.",
+  "proposedFix": "Dodać pole zasięgu (np. scope: kraj) lub upewnić się, że karta pokazuje „dla całej Polski” obok kwoty."
+ }
+]

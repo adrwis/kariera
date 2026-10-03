@@ -37,6 +37,8 @@ const REWRITES = [
   [/nie dały się odczytać/g, 'są niedostępne'],
   [/nie był dostępny do odczytania/g, 'nie był dostępny'],
   [/nie zostały? odczytan\w+/g, 'nie był dostępny'],
+  [/nie były dostępne w formie tekstu/g, 'są skanami obrazów'],
+  [/idealista nie udostępnił raportu/g, 'raport portalu idealista nie był dostępny'],
   [/Nie udało się odczytać stron/g, 'Nie opisano stron'],
   [/zablokowała dostęp ekranem weryfikacji/g, 'jest niedostępna bez weryfikacji przeglądarki'],
   [/w odczytanych źródłach/g, 'w źródłach'],
@@ -90,6 +92,8 @@ function fixText(s) {
   t = t.replace(/(?<![\d.,/])(\d{1,3}) (\d{3})(?!\d)/g, `$1${NB}$2`);
   t = t.replace(new RegExp(`(?<![\\d.,/:-])(\\d)(\\d{3})(?=[ \\u00a0]${CUR})`, 'g'), `$1${NB}$2`);
   t = t.replace(new RegExp(`(\\d) (?=${CUR}(?![A-Za-zĄ-ż]))`, 'g'), `$1${NB}`);
+  // Jednoliterowe spójniki i przyimki (w, z, i, o, a, u) łączymy z następnym wyrazem twardą spacją
+  t = t.replace(/(^|[\s(„"])([wzioauWZIOAU]) (?=[^\s])/g, '$1$2' + NB);
   // Powtórzone pod rząd to samo zdanie zostawiamy raz
   t = t.split(/(?<=[.;])\s+/).filter((x, i, a) => i === 0 || x !== a[i - 1]).join(' ');
   return t.replace(/ {2,}/g, ' ').trim();

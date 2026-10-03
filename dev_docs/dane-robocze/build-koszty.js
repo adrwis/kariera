@@ -68,7 +68,12 @@ for (const meta of METAS) {
     index.push({ slug: meta.slug, name: meta.name, country: meta.country, region: meta.region, status: 'w przygotowaniu', dorms: 0, rent: 0, budget: false });
     continue;
   }
-  if (meta.region === 'polska') data.budget = Object.assign({}, BUDGET_PL);
+  if (meta.region === 'polska') {
+    data.budget = Object.assign({}, BUDGET_PL);
+    // Podsumowania i luki o braku budżetu przeczyłyby ogólnopolskiemu szacunkowi pokazywanemu w bloku budżetu
+    data.summary = data.summary.filter(x => !/^Budżet/i.test(x.label));
+    data.gaps = data.gaps.filter(g => !/bud[żz]et|NAWA|Study in Poland/i.test(g));
+  }
   walk(data);
   fs.writeFileSync(path.join(OUT, meta.slug + '.json'), JSON.stringify(data));
   index.push({ slug: meta.slug, name: meta.name, country: meta.country, region: meta.region, status: 'dostępne', currency: data.currency, dorms: data.dorms.length, rent: data.rent.length, budget: !!data.budget });

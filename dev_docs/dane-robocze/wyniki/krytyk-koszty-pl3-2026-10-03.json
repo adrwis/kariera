@@ -1,0 +1,362 @@
+[
+ {
+  "city": "szczecin",
+  "item": null,
+  "field": "wszystkie pola tekstowe",
+  "severity": "ważne",
+  "problem": "Brak twardych spacji po jednoliterowych spójnikach (w, z, i, o, a, u). Liczba wystąpień ze zwykłą spacją w data/koszty/szczecin.json: 97. Liczby z \"zł\" mają U+00A0, spójniki nie.",
+  "evidence": "Skrypt regex po wszystkich polach tekstowych (bez URL): np. summary[0].text \"Kordecki i Portowiec. Miejsce w pokoju\", \"kosztuje 650 zł, w dwuosobowym\".",
+  "proposedFix": "Dodać krok normalizacji w builderze: po spójnikach [wziouaWZIOUA] zamieniać następną spację na U+00A0 we wszystkich stringach."
+ },
+ {
+  "city": "bialystok",
+  "item": null,
+  "field": "wszystkie pola tekstowe",
+  "severity": "ważne",
+  "problem": "Brak twardych spacji po jednoliterowych spójnikach (w, z, i, o, a, u). Liczba wystąpień ze zwykłą spacją w data/koszty/bialystok.json: 100. Liczby z \"zł\" mają U+00A0, spójniki nie.",
+  "evidence": "Skrypt regex po wszystkich polach tekstowych (bez URL): np. summary[0].text \"Kordecki i Portowiec. Miejsce w pokoju\", \"kosztuje 650 zł, w dwuosobowym\".",
+  "proposedFix": "Dodać krok normalizacji w builderze: po spójnikach [wziouaWZIOUA] zamieniać następną spację na U+00A0 we wszystkich stringach."
+ },
+ {
+  "city": "torun",
+  "item": null,
+  "field": "wszystkie pola tekstowe",
+  "severity": "ważne",
+  "problem": "Brak twardych spacji po jednoliterowych spójnikach (w, z, i, o, a, u). Liczba wystąpień ze zwykłą spacją w data/koszty/torun.json: 115. Liczby z \"zł\" mają U+00A0, spójniki nie.",
+  "evidence": "Skrypt regex po wszystkich polach tekstowych (bez URL): np. summary[0].text \"Kordecki i Portowiec. Miejsce w pokoju\", \"kosztuje 650 zł, w dwuosobowym\".",
+  "proposedFix": "Dodać krok normalizacji w builderze: po spójnikach [wziouaWZIOUA] zamieniać następną spację na U+00A0 we wszystkich stringach."
+ },
+ {
+  "city": "rzeszow",
+  "item": null,
+  "field": "wszystkie pola tekstowe",
+  "severity": "ważne",
+  "problem": "Brak twardych spacji po jednoliterowych spójnikach (w, z, i, o, a, u). Liczba wystąpień ze zwykłą spacją w data/koszty/rzeszow.json: 126. Liczby z \"zł\" mają U+00A0, spójniki nie.",
+  "evidence": "Skrypt regex po wszystkich polach tekstowych (bez URL): np. summary[0].text \"Kordecki i Portowiec. Miejsce w pokoju\", \"kosztuje 650 zł, w dwuosobowym\".",
+  "proposedFix": "Dodać krok normalizacji w builderze: po spójnikach [wziouaWZIOUA] zamieniać następną spację na U+00A0 we wszystkich stringach."
+ },
+ {
+  "city": "olsztyn",
+  "item": null,
+  "field": "wszystkie pola tekstowe",
+  "severity": "ważne",
+  "problem": "Brak twardych spacji po jednoliterowych spójnikach (w, z, i, o, a, u). Liczba wystąpień ze zwykłą spacją w data/koszty/olsztyn.json: 119. Liczby z \"zł\" mają U+00A0, spójniki nie.",
+  "evidence": "Skrypt regex po wszystkich polach tekstowych (bez URL): np. summary[0].text \"Kordecki i Portowiec. Miejsce w pokoju\", \"kosztuje 650 zł, w dwuosobowym\".",
+  "proposedFix": "Dodać krok normalizacji w builderze: po spójnikach [wziouaWZIOUA] zamieniać następną spację na U+00A0 we wszystkich stringach."
+ },
+ {
+  "city": "bialystok",
+  "item": null,
+  "field": "summary[Budżet miesięczny] / gaps / budget",
+  "severity": "ważne",
+  "problem": "Sprzeczność wewnątrz miasta. Podsumowanie i luki twierdzą, że oficjalnej kwoty budżetu brak, że Study in Poland podaje tylko niedatowane widełki w euro i że strona NAWA z kosztami życia nie była dostępna. Jednocześnie pole budget zawiera oficjalny szacunek 1 500 do 2 000 zł (kind: szacunek) z tej samej strony.",
+  "evidence": "curl https://study.gov.pl/cost-living-poland zwraca 200 i tabelę: \"Average total expenses 1500 - 2000 PLN, 330 - 430 EUR\", w tym \"Rent (student dormitory) 400 - 600\". Strona jest dostępna i podaje PLN, nie tylko EUR. Szczecin opisuje to samo spójnie.",
+  "proposedFix": "Przepisać summary[Budżet miesięczny] jak w Szczecinie (ogólnopolski szacunek NAWA 1 500 do 2 000 zł, nie dla miasta) i usunąć z gaps zdanie o niedostępnej stronie NAWA oraz o widełkach tylko w euro."
+ },
+ {
+  "city": "torun",
+  "item": null,
+  "field": "summary[Budżet miesięczny] / gaps / budget",
+  "severity": "ważne",
+  "problem": "Sprzeczność wewnątrz miasta. Podsumowanie i luki twierdzą, że oficjalnej kwoty budżetu brak, że Study in Poland podaje tylko niedatowane widełki w euro i że strona NAWA z kosztami życia nie była dostępna. Jednocześnie pole budget zawiera oficjalny szacunek 1 500 do 2 000 zł (kind: szacunek) z tej samej strony.",
+  "evidence": "curl https://study.gov.pl/cost-living-poland zwraca 200 i tabelę: \"Average total expenses 1500 - 2000 PLN, 330 - 430 EUR\", w tym \"Rent (student dormitory) 400 - 600\". Strona jest dostępna i podaje PLN, nie tylko EUR. Szczecin opisuje to samo spójnie.",
+  "proposedFix": "Przepisać summary[Budżet miesięczny] jak w Szczecinie (ogólnopolski szacunek NAWA 1 500 do 2 000 zł, nie dla miasta) i usunąć z gaps zdanie o niedostępnej stronie NAWA oraz o widełkach tylko w euro."
+ },
+ {
+  "city": "rzeszow",
+  "item": null,
+  "field": "summary[Budżet miesięczny] / gaps / budget",
+  "severity": "ważne",
+  "problem": "Sprzeczność wewnątrz miasta. Podsumowanie i luki twierdzą, że oficjalnej kwoty budżetu brak, że Study in Poland podaje tylko niedatowane widełki w euro i że strona NAWA z kosztami życia nie była dostępna. Jednocześnie pole budget zawiera oficjalny szacunek 1 500 do 2 000 zł (kind: szacunek) z tej samej strony.",
+  "evidence": "curl https://study.gov.pl/cost-living-poland zwraca 200 i tabelę: \"Average total expenses 1500 - 2000 PLN, 330 - 430 EUR\", w tym \"Rent (student dormitory) 400 - 600\". Strona jest dostępna i podaje PLN, nie tylko EUR. Szczecin opisuje to samo spójnie.",
+  "proposedFix": "Przepisać summary[Budżet miesięczny] jak w Szczecinie (ogólnopolski szacunek NAWA 1 500 do 2 000 zł, nie dla miasta) i usunąć z gaps zdanie o niedostępnej stronie NAWA oraz o widełkach tylko w euro."
+ },
+ {
+  "city": "olsztyn",
+  "item": null,
+  "field": "summary[Budżet miesięczny] / gaps / budget",
+  "severity": "ważne",
+  "problem": "Sprzeczność wewnątrz miasta. Podsumowanie i luki twierdzą, że oficjalnej kwoty budżetu brak, że Study in Poland podaje tylko niedatowane widełki w euro i że strona NAWA z kosztami życia nie była dostępna. Jednocześnie pole budget zawiera oficjalny szacunek 1 500 do 2 000 zł (kind: szacunek) z tej samej strony.",
+  "evidence": "curl https://study.gov.pl/cost-living-poland zwraca 200 i tabelę: \"Average total expenses 1500 - 2000 PLN, 330 - 430 EUR\", w tym \"Rent (student dormitory) 400 - 600\". Strona jest dostępna i podaje PLN, nie tylko EUR. Szczecin opisuje to samo spójnie.",
+  "proposedFix": "Przepisać summary[Budżet miesięczny] jak w Szczecinie (ogólnopolski szacunek NAWA 1 500 do 2 000 zł, nie dla miasta) i usunąć z gaps zdanie o niedostępnej stronie NAWA oraz o widełkach tylko w euro."
+ },
+ {
+  "city": "szczecin",
+  "item": null,
+  "field": "budget.text",
+  "severity": "drobne",
+  "problem": "Tekst budżetu zawiera narrację w pierwszej osobie liczby mnogiej: \"Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł\". Nagłówek bloku na stronie to ogólne \"Miesięczny budżet studenta\" przy kwocie krajowej; zastrzeżenie \"Ogólnopolski\" jest dopiero w treści.",
+  "evidence": "budget.text, js/zagranica.js linia 352 (tytuł zależy tylko od kind).",
+  "proposedFix": "Zamienić na: \"Ceny akademików w tym mieście często przekraczają 400 do 600 zł, więc suma będzie wyższa.\" Rozważyć tytuł \"Miesięczny budżet studenta (średnia dla Polski)\" dla miast PL."
+ },
+ {
+  "city": "bialystok",
+  "item": null,
+  "field": "budget.text",
+  "severity": "drobne",
+  "problem": "Tekst budżetu zawiera narrację w pierwszej osobie liczby mnogiej: \"Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł\". Nagłówek bloku na stronie to ogólne \"Miesięczny budżet studenta\" przy kwocie krajowej; zastrzeżenie \"Ogólnopolski\" jest dopiero w treści.",
+  "evidence": "budget.text, js/zagranica.js linia 352 (tytuł zależy tylko od kind).",
+  "proposedFix": "Zamienić na: \"Ceny akademików w tym mieście często przekraczają 400 do 600 zł, więc suma będzie wyższa.\" Rozważyć tytuł \"Miesięczny budżet studenta (średnia dla Polski)\" dla miast PL."
+ },
+ {
+  "city": "torun",
+  "item": null,
+  "field": "budget.text",
+  "severity": "drobne",
+  "problem": "Tekst budżetu zawiera narrację w pierwszej osobie liczby mnogiej: \"Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł\". Nagłówek bloku na stronie to ogólne \"Miesięczny budżet studenta\" przy kwocie krajowej; zastrzeżenie \"Ogólnopolski\" jest dopiero w treści.",
+  "evidence": "budget.text, js/zagranica.js linia 352 (tytuł zależy tylko od kind).",
+  "proposedFix": "Zamienić na: \"Ceny akademików w tym mieście często przekraczają 400 do 600 zł, więc suma będzie wyższa.\" Rozważyć tytuł \"Miesięczny budżet studenta (średnia dla Polski)\" dla miast PL."
+ },
+ {
+  "city": "rzeszow",
+  "item": null,
+  "field": "budget.text",
+  "severity": "drobne",
+  "problem": "Tekst budżetu zawiera narrację w pierwszej osobie liczby mnogiej: \"Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł\". Nagłówek bloku na stronie to ogólne \"Miesięczny budżet studenta\" przy kwocie krajowej; zastrzeżenie \"Ogólnopolski\" jest dopiero w treści.",
+  "evidence": "budget.text, js/zagranica.js linia 352 (tytuł zależy tylko od kind).",
+  "proposedFix": "Zamienić na: \"Ceny akademików w tym mieście często przekraczają 400 do 600 zł, więc suma będzie wyższa.\" Rozważyć tytuł \"Miesięczny budżet studenta (średnia dla Polski)\" dla miast PL."
+ },
+ {
+  "city": "olsztyn",
+  "item": null,
+  "field": "budget.text",
+  "severity": "drobne",
+  "problem": "Tekst budżetu zawiera narrację w pierwszej osobie liczby mnogiej: \"Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł\". Nagłówek bloku na stronie to ogólne \"Miesięczny budżet studenta\" przy kwocie krajowej; zastrzeżenie \"Ogólnopolski\" jest dopiero w treści.",
+  "evidence": "budget.text, js/zagranica.js linia 352 (tytuł zależy tylko od kind).",
+  "proposedFix": "Zamienić na: \"Ceny akademików w tym mieście często przekraczają 400 do 600 zł, więc suma będzie wyższa.\" Rozważyć tytuł \"Miesięczny budżet studenta (średnia dla Polski)\" dla miast PL."
+ },
+ {
+  "city": "szczecin",
+  "item": "rent[0] Rentier 50 m²",
+  "field": "notes",
+  "severity": "ważne",
+  "problem": "Zakres \"typowy od 49 do 73 zł za metr\" przypisany do września 2026, a w źródle dotyczy okresu 10.2016 do 09.2026. Wprowadza w błąd co do aktualnego rozrzutu cen.",
+  "evidence": "Rentier Szczecin: \"Typowy zakres cen oferty 10.2016–09.2026 49 – 73 zł/m²/mies.\" Mediana 60 zł/m² (wrzesień 2026, 1 079 ofert) i przykład \"50 m² — ok. 2 990 zł\" potwierdzone.",
+  "proposedFix": "Usunąć zakres 49 do 73 albo dopisać \"z lat 2016 do 2026\"."
+ },
+ {
+  "city": "szczecin",
+  "item": "Kordecki",
+  "field": "priceFrom/priceTo/notes",
+  "severity": "drobne",
+  "problem": "Wiersz łączy pokoje jedno- i dwuosobowe (820 do 950 zł), a notes pomija najtańszą pozycję 820 zł (pokój dwuosobowy ze wspólną łazienką w boksie), która wyznacza priceFrom. Podobnie Bakałarz 650 do 880 łączy pokój trzy- z jednoosobowym.",
+  "evidence": "Stawki PDF: Kordecki 2-os w boksie 820, 2-os dla par 900, 1-os do 10 m² 900, od 10 m² 950. Bakałarz 3-os 650, 1-os 850/880.",
+  "proposedFix": "Dopisać 820 zł do notes; rozważyć osobne wiersze per typ pokoju (jak w Toruniu i Olsztynie)."
+ },
+ {
+  "city": "szczecin",
+  "item": null,
+  "field": "summary[Jak szukać mieszkania]",
+  "severity": "drobne",
+  "problem": "Rada \"zacznij od wniosku w e-Akademiku lub OKPS\" bez zaznaczenia, że nabory na 2026/27 są zamknięte (tura II do 04.09.2026). Po 18.09 jest tylko zwracanie się do koordynatora, co tekst podaje dalej.",
+  "evidence": "Harmonogram PDF: Etap II tura II 26.08 do 04.09.2026; od 18.09.2026 koordynator Osiedla.",
+  "proposedFix": "Dodać zdanie, że nabór na 2026/27 się zakończył, a kolejny ruszy w 2027 roku."
+ },
+ {
+  "city": "szczecin",
+  "item": null,
+  "field": "gaps[0]",
+  "severity": "drobne",
+  "problem": "Żargon zbierania danych: \"(ekran weryfikacji)\", \"był niedostępny\".",
+  "evidence": "gaps[0].",
+  "proposedFix": "Zapisać dla czytelnika: \"Raport NBP o stawkach najmu nie był możliwy do sprawdzenia, więc podano tylko jedną nieoficjalną wartość.\""
+ },
+ {
+  "city": "bialystok",
+  "item": null,
+  "field": "summary[Uwagi] i gaps[2]",
+  "severity": "ważne",
+  "problem": "Żargon zbierania danych w widocznym podsumowaniu: \"zabezpieczona ekranem weryfikacji\", \"ekranem weryfikacji połączenia\", \"nie udało się potwierdzić\". Narracja o przeszkodzie technicznej zamiast informacji dla czytelnika.",
+  "evidence": "summary[4].text i gaps[2].",
+  "proposedFix": "Zamienić na: \"Domów studenckich Uniwersytetu w Białymstoku nie opisano.\" i usunąć wzmiankę o ekranie weryfikacji."
+ },
+ {
+  "city": "bialystok",
+  "item": "rent[1] Rentier dzielnice",
+  "field": "area/notes",
+  "severity": "drobne",
+  "problem": "Etykieta \"od Piasty I (najtaniej) do Przydworcowego (najdrożej)\" zaprzecza własnym notes, które podają tańsze Zielone Wzgórza 32 zł. Pełna lista Rentier: 32 (Zielone Wzgórza) do 52 (Przydworcowe), Leśna Dolina 37.",
+  "evidence": "Rentier Białystok, lista Dzielnice: Zielone Wzgórza 32, Leśna Dolina 37, Piasta I 38.",
+  "proposedFix": "Opisać wiersz jako \"dzielnice z wyróżnionego rankingu\" bez \"najtaniej/najdrożej\" albo podać 32 do 52."
+ },
+ {
+  "city": "bialystok",
+  "item": "dorms[0],[1] Politechnika",
+  "field": "roomType/includes/summary",
+  "severity": "drobne",
+  "problem": "Opis segmentów niezgodny z cennikiem: dwupokojowe segmenty są też w Alfie, Becie, Delcie i Gammie (de Lux), nie tylko w Delcie i Epsilonie. W summary \"mały pokój jednoosobowy od 580 do 900 zł\": 900 zł to pokój w Epsilonie (standard), nie mały pokój.",
+  "evidence": "Cennik PB: mały pokój 1 os. 580/610/660; Epsilon \"pokój studencki w segmencie standard zamieszkały przez 1 osobę 900\".",
+  "proposedFix": "Zmienić na \"w pokoju jednoosobowym od 580 do 900 zł (900 zł w Epsilonie)\"."
+ },
+ {
+  "city": "bialystok",
+  "item": null,
+  "field": "summary[Jak szukać mieszkania]",
+  "severity": "drobne",
+  "problem": "Akcja \"Akademiki za dobre wyniki\" opisana jako bieżąca opcja, a wnioski zamknięto 25.07.2026; nie podano warunku (co najmniej 80% punktów z matury), \"20 najlepszych kandydatów\" to uproszczenie.",
+  "evidence": "pb.edu.pl/2026/06/17/...: wnioski do 25 lipca 2026 w Centralnym Punkcie Rekrutacyjnym, wyniki do 7 sierpnia, 20 laureatów, miejsca w pokoju 2-os.",
+  "proposedFix": "Dopisać, że nabór na 2026/27 jest zamknięty i podać próg punktowy."
+ },
+ {
+  "city": "bialystok",
+  "item": "Politechnika Białostocka",
+  "field": "priceFrom/priceTo",
+  "severity": "drobne",
+  "problem": "Cena potwierdzona (450 do 630 za osobę w pokoju 2-os., 580 do 900 za 1-os., brutto). Cennik z 1.10.2025 oznaczony uczciwie w summary i notes. Pozostaje ryzyko, że nowy cennik na 2026/27 jeszcze nie opublikowano; strona kwaterowania 2026/27 odsyła do tego samego cennika.",
+  "evidence": "b_accommodation: \"Current price list: akademiki.bialystok.pl/dom-studenta-epsilon/cennik/\".",
+  "proposedFix": "Bez zmian; zachować etykietę z datą."
+ },
+ {
+  "city": "torun",
+  "item": null,
+  "field": "summary[Uwagi]",
+  "severity": "drobne",
+  "problem": "Starsze stawki (do 30.09.2026) w polu Uwagi mogą być pomylone z aktualnymi; zdanie \"którego tu nie opisano\" to narracja o pracy nad danymi. Stawki starego okresu nie dały się potwierdzić w zarządzeniu 154/2026 (tylko strona UMK).",
+  "evidence": "Zarządzenie 154/2026 podaje wyłącznie stawki od 1.10.2026 i od 1.03.2027.",
+  "proposedFix": "Usunąć zdanie o starszych stawkach albo zaznaczyć \"do 30 września 2026, już nieobowiązujące\". Zmienić \"którego tu nie opisano\" na \"nieobjętego tym zestawieniem\"."
+ },
+ {
+  "city": "torun",
+  "item": "dorms[0] jednoosobowy",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "\"Najtańsze miejsca (660 zł) to pokoje o małym metrażu\" pomija, że ta kolumna dotyczy też osób niepełnosprawnych; DS nr 7 ma miejsca \"gościnne\" 1000 zł pominięte. Przypisanie 660 zł do dwuosobowych \"o podwyższonym standardzie\" jest niepewne (sam wiersz gaps[3] to przyznaje).",
+  "evidence": "Załącznik 1: kolumna \"w pokoju 1-osobowym dla osoby niepełnosprawnej i w pokoju o małym metrażu\" 660.",
+  "proposedFix": "Dopisać \"oraz dla osób z niepełnosprawnością\"."
+ },
+ {
+  "city": "torun",
+  "item": null,
+  "field": "Potwierdzone",
+  "severity": "drobne",
+  "problem": "Potwierdzone dosłownie w PDF: 440 (3-os.), 530 do 660 (2-os.), 660 do 880 (1-os.) do 28.02.2027; od 1.03.2027: 480, 580 do 730, 730 do 970. Terminy IRK 5.08/31.08, kontynuacja 15 do 31.05, do 10.06, kwaterowanie 28.09 do 2.10 zgodne ze stroną. Okres obowiązywania opisany poprawnie. Kaucja: zarządzenie §7 odsyła do załączników 1, 1a, 2, 2a, które kwot kaucji nie zawierają, więc luka jest uczciwa.",
+  "evidence": "umk1.pdf, umk1a.pdf, umk0.pdf §7, strona jak-zamieszkac-w-ds.",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "rzeszow",
+  "item": "Osiedle Studenckie PRz (Akapit)",
+  "field": "includes",
+  "severity": "ważne",
+  "problem": "Pole mówi, że strona cennika nie opisuje, co obejmuje opłata. Cennik Akapit mówi wprost, że mieszkańcy ponoszą dodatkowo koszty mediów (woda, ścieki, ciepła woda, c.o., prąd). Użytkownik zobaczy cenę 630 zł jak za pokój z mediami.",
+  "evidence": "os.prz.edu.pl/.../akapit: \"Dodatkowo mieszkańcy będą ponosić koszty związane ze zużyciem mediów tj. zużycie wody i odprowadzanie ścieków, podgrzanie wody zimnej i zużycia C.O., zużycie energii elektrycznej.\"",
+  "proposedFix": "Dopisać do includes i summary: w Akapit media płatne dodatkowo; w pozostałych domach PRz brak informacji."
+ },
+ {
+  "city": "rzeszow",
+  "item": "Osiedle Studenckie PRz",
+  "field": "priceFrom/roomType",
+  "severity": "drobne",
+  "problem": "Wiersz opisany jako \"dwuosobowy\", priceFrom 630 (Akapit), ale summary mówi o 620 zł dla pokoju trzyosobowego, a pokoje jednoosobowe 730 do 750 poza zakresem roomType. Zakresy mieszają typy pokoi w jednym wierszu.",
+  "evidence": "Alchemik: 3-os 620, 2-os 700, 1-os 750; Akapit 1-os 730, 2-os 630; Ikar 2-os 700/800.",
+  "proposedFix": "Rozbić na wiersze per typ pokoju albo opisać zakres jako \"od 620 do 800 zł za miejsce\"."
+ },
+ {
+  "city": "rzeszow",
+  "item": "rent[1] Rentier dzielnice",
+  "field": "area/priceFrom/priceTo",
+  "severity": "ważne",
+  "problem": "Wiersz \"od Dąbrowskiego (najtaniej) do Staromieścia (najdrożej)\" 44 do 57 zł sugeruje pełny zakres miasta, a pełna lista Rentier ma 38 zł (Baranówka, Paderewskiego) do 71 zł (Bzianka). Etykiety \"najtaniej/najdrożej\" są nieprawdziwe.",
+  "evidence": "Rentier Rzeszów, lista Dzielnice: Baranówka 38, Paderewskiego 38, Bzianka 71, Staromieście 57, Dąbrowskiego 44. Mediana miasta 52 zł (wrzesień 2026, 868 ofert) potwierdzona.",
+  "proposedFix": "Usunąć wiersz zakresu dzielnic albo podać \"od 38 do 71 zł w zależności od dzielnicy\"."
+ },
+ {
+  "city": "rzeszow",
+  "item": null,
+  "field": "summary[Akademiki]",
+  "severity": "drobne",
+  "problem": "Ceny UR (540 do 675, 660 do 1 150) podane bez zaznaczenia, że to stawki dla studentów UR (inne osoby płacą wyższe, z 8% VAT, np. 680 do 780 zł/os. w Laurze).",
+  "evidence": "Załącznik 1a: wiersze \"inne osoby niż wymienione 680/780 zł/os\".",
+  "proposedFix": "Dopisać \"dla studentów i doktorantów UR\"."
+ },
+ {
+  "city": "rzeszow",
+  "item": null,
+  "field": "Potwierdzone",
+  "severity": "drobne",
+  "problem": "Potwierdzone dosłownie: UR Laura/Filon 560 i 675 za osobę (2-os.), 1-os. 660/880/1 150 za pokój, Merkury/Hilton 540 i 580, Olimp 653, VAT 8% w cenie, okres 01.10.2026 do 30.06.2027, kaucja równa miesięcznej opłacie, wniosek do 5 sierpnia (strona bez roku); PRz Alchemik 620/700/750, Ikar 700/800, Akapit 630/730, harmonogram 21 do 28 maja (skan PDF). Semantyka za osobę/za pokój opisana poprawnie.",
+  "evidence": "ur1/ur2/ur3.pdf, os.prz.edu.pl, harmonogram PRz.",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "olsztyn",
+  "item": "rent[1] Rentier dzielnice",
+  "field": "area/priceFrom/priceTo",
+  "severity": "ważne",
+  "problem": "Wiersz \"od Jarot (najtaniej) do Śródmieścia (najdrożej)\" 49 do 56 zł jest nieprawdziwy: pełna lista Rentier ma 43 zł (Brzeziny) do 82 zł (Osiedle Kętrzyńskiego), Dajtki 63, Likusy 65. Ranking \"najtańsze\" na stronie zawiera Podgrodzie 52, czyli drożej niż Generałów 52 i średnia, więc etykiety są wprowadzające w błąd.",
+  "evidence": "Rentier Olsztyn, lista Dzielnice: Brzeziny 43, Gutkowo 44, Kortowo 46, Dajtki 63, Likusy 65, Osiedle Kętrzyńskiego 82. Mediana 52 zł (wrzesień 2026, 229 ofert, +9,4% r/r) potwierdzona.",
+  "proposedFix": "Usunąć wiersz dzielnic albo opisać \"od około 43 do 65 zł w zależności od dzielnicy (pojedyncze osiedla powyżej)\". Zostawić medianę miasta."
+ },
+ {
+  "city": "olsztyn",
+  "item": null,
+  "field": "summary[Akademiki]",
+  "severity": "drobne",
+  "problem": "Podano kaucję 600 zł, ale pominięto równoległą opłatę rezerwacyjną 600 zł z tej samej tabeli (wspomnianą dopiero w deposit). Realny koszt wejścia to więc 600 plus 600 zł.",
+  "evidence": "Tabela UWM: \"Opłata rezerwacyjna 600,00\", \"Kaucja 600,00 / DS-10 1000,00\".",
+  "proposedFix": "Dopisać opłatę rezerwacyjną do summary."
+ },
+ {
+  "city": "olsztyn",
+  "item": null,
+  "field": "gaps[3]",
+  "severity": "drobne",
+  "problem": "Żargon: \"Przyjęto, że obowiązuje na rok 2026/2027\". Informacja o braku roku w tabeli jest uczciwa, ale sformułowana jak notatka robocza. Dodatkowo kwaterowanie opisane w czasie przeszłym (\"trwało\"), choć trwa do 5.10.2026.",
+  "evidence": "Tabela nr 72/2026 z 29.09.2026 bez roku akademickiego; strona: \"Kwaterowanie ... od 25 września do 5 października\".",
+  "proposedFix": "Zapisać: \"Tabela nie podaje roku akademickiego; pochodzi z decyzji rektora z 29 września 2026, więc dotyczy roku 2026/2027.\" Zmienić \"trwało\" na \"trwa do 5 października 2026\"."
+ },
+ {
+  "city": "olsztyn",
+  "item": null,
+  "field": "Potwierdzone",
+  "severity": "drobne",
+  "problem": "Potwierdzone dosłownie: 3-os. 550 do 630, 2-os. 620 do 700, 1-os. 700 do 1 250 (w tym przekształcone 950 do 1 230), kaucja 600 (DS-10 1 000), opłata rezerwacyjna 600, terminy USOSweb 8 do 30.06 i IRK 9.06 do 31.07, wyniki 10.07 i 10.08, kwaterowanie 25.09 do 5.10, media i Wi-Fi w cenie.",
+  "evidence": "uwm.pdf, uwm.edu.pl (3 strony).",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "bialystok",
+  "item": "rent Rentier",
+  "field": "official/source",
+  "severity": "drobne",
+  "problem": "Wiersze Rentier są poprawnie oznaczone: official:false, \"dane nieoficjalne\", wrzesień 2026, linki, jednostka \"za metr kwadratowy\" (Szczecin: całe mieszkanie 50 m² obliczone z mediany, opis tak mówi). Nie wyglądają na cenę pokoju. Mediany miast potwierdzone na stronach Rentier.",
+  "evidence": "Szczecin 60 zł/m² (+1,6%), Białystok 48 (+2,0%), Toruń 47 (+1,7%), Rzeszów 52 (+0,5%), Olsztyn 52 (+9,4%), Toruń Stare Miasto 51 i Bydgoskie Przedmieście 41 zgodne.",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "torun",
+  "item": "rent Rentier",
+  "field": "official/source",
+  "severity": "drobne",
+  "problem": "Wiersze Rentier są poprawnie oznaczone: official:false, \"dane nieoficjalne\", wrzesień 2026, linki, jednostka \"za metr kwadratowy\" (Szczecin: całe mieszkanie 50 m² obliczone z mediany, opis tak mówi). Nie wyglądają na cenę pokoju. Mediany miast potwierdzone na stronach Rentier.",
+  "evidence": "Szczecin 60 zł/m² (+1,6%), Białystok 48 (+2,0%), Toruń 47 (+1,7%), Rzeszów 52 (+0,5%), Olsztyn 52 (+9,4%), Toruń Stare Miasto 51 i Bydgoskie Przedmieście 41 zgodne.",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "rzeszow",
+  "item": "rent Rentier",
+  "field": "official/source",
+  "severity": "drobne",
+  "problem": "Wiersze Rentier są poprawnie oznaczone: official:false, \"dane nieoficjalne\", wrzesień 2026, linki, jednostka \"za metr kwadratowy\" (Szczecin: całe mieszkanie 50 m² obliczone z mediany, opis tak mówi). Nie wyglądają na cenę pokoju. Mediany miast potwierdzone na stronach Rentier.",
+  "evidence": "Szczecin 60 zł/m² (+1,6%), Białystok 48 (+2,0%), Toruń 47 (+1,7%), Rzeszów 52 (+0,5%), Olsztyn 52 (+9,4%), Toruń Stare Miasto 51 i Bydgoskie Przedmieście 41 zgodne.",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "olsztyn",
+  "item": "rent Rentier",
+  "field": "official/source",
+  "severity": "drobne",
+  "problem": "Wiersze Rentier są poprawnie oznaczone: official:false, \"dane nieoficjalne\", wrzesień 2026, linki, jednostka \"za metr kwadratowy\" (Szczecin: całe mieszkanie 50 m² obliczone z mediany, opis tak mówi). Nie wyglądają na cenę pokoju. Mediany miast potwierdzone na stronach Rentier.",
+  "evidence": "Szczecin 60 zł/m² (+1,6%), Białystok 48 (+2,0%), Toruń 47 (+1,7%), Rzeszów 52 (+0,5%), Olsztyn 52 (+9,4%), Toruń Stare Miasto 51 i Bydgoskie Przedmieście 41 zgodne.",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "szczecin",
+  "item": "rent Rentier",
+  "field": "official/source",
+  "severity": "drobne",
+  "problem": "Wiersze Rentier są poprawnie oznaczone: official:false, \"dane nieoficjalne\", wrzesień 2026, linki, jednostka \"za metr kwadratowy\" (Szczecin: całe mieszkanie 50 m² obliczone z mediany, opis tak mówi). Nie wyglądają na cenę pokoju. Mediany miast potwierdzone na stronach Rentier.",
+  "evidence": "Szczecin 60 zł/m² (+1,6%), Białystok 48 (+2,0%), Toruń 47 (+1,7%), Rzeszów 52 (+0,5%), Olsztyn 52 (+9,4%), Toruń Stare Miasto 51 i Bydgoskie Przedmieście 41 zgodne.",
+  "proposedFix": "Bez zmian."
+ }
+]
