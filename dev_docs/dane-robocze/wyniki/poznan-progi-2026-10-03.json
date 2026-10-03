@@ -1,0 +1,48 @@
+{
+ "progi": [],
+ "niedopasowane": [
+  {
+   "rspo": 43580,
+   "szkola": "LICEUM OGÓLNOKSZTAŁCĄCE ŚW. MARII MAGDALENY",
+   "rok": "2024/2025 (nabór poprzedzający ofertę 2025/26; 1D i 1I z naboru 2023)",
+   "powod": "Poza zakresem lat (priorytet 2026/27, potem 2025/26), obraz PNG odczytany wzrokowo, nie tekst",
+   "zrodloUrl": "https://www.marynka.edu.pl/images/images/podstrony/rekrutacja/progi2025.png",
+   "wartosci": {
+    "1A hum.": 166.8,
+    "1C mat.-biol-chem.": 175.45,
+    "1D biol-chem.": "170,45* (z naboru 2023)",
+    "1F mat-fiz.": 164.0,
+    "1I mat-inf.": "165,80* (z naboru 2023)"
+   },
+   "cytat": "Klasy pierwsze proponowane w roku szkolnym 2025-2026 i progi punktowe w poprzednim roku: 1A hum. 166,80 | 1C mat.-biol-chem. 175,45 | 1D biol-chem. 170,45* | 1F mat-fiz. 164.00 | 1I mat-inf. 165,80* ; * Uwaga! Progi punktowe do kl. 1D i 1 I pochodzą z naboru z 2023 r."
+  },
+  {
+   "rspo": 132412,
+   "szkola": "LICEUM OGÓLNOKSZTAŁCĄCE SZKOŁA MISTRZOSTWA SPORTOWEGO MARCINA GORTATA W POZNANIU",
+   "rok": "2026/2027",
+   "powod": "To wymagany minimalny próg wejścia, nie najniższy wynik przyjętych",
+   "zrodloUrl": "http://www.szkolagortata.pl/rekrutacja_poznan.html",
+   "cytat": "Wymagany minimalny próg przyjęcia do szkoły to 110 punktów wyliczany według Rozporządzenia Ministra Edukacji i Nauki z dnia 18.11.2022"
+  },
+  {
+   "rspo": 31832,
+   "szkola": "III LO",
+   "rok": "2025/2026",
+   "powod": "Już w danych (lo3.home.pl/rekrutacja/progi.pdf); strona szkoły nie ma jeszcze progów 2026/27 (plik zawiera kolumny do 2025/2026)",
+   "zrodloUrl": "https://lo3.home.pl/rekrutacja/progi.pdf",
+   "cytat": "Wyniki rekrutacji do klas pierwszych – dolne progi punktowe 2022/23 2023/2024 2024/2025 2025/2026"
+  }
+ ],
+ "sprawdzoneBezProgow": [
+  "https://lo25.pl/rekrutacja (progi 'będą znane dopiero po ogłoszeniu listy zakwalifikowanych', brak liczb)",
+  "https://www.dawid.edu.pl/rekrutacja-do-liceum/",
+  "https://liceum.eduges.pl/_files/ugd/ee999f_a0a455e7be8a409e914ea14f23804d88.pdf (lista przyjętych 2026/27 po inicjałach, bez punktów)",
+  "https://spolecznajedynka.pl/lo/dolacz-do-nas/rekrutacja-do-liceum-poznan/",
+  "http://zsepoznan.pl/wp-content/uploads/2026/05/Regulamin-przyjec-kandydatow-do-klas-pierwszych-26-27.pdf (tylko regulamin)",
+  "https://zsgd.poznan.pl/wp-content/uploads/2026/09/regulamin_rekrutacji.pdf",
+  "https://zsps.poznan.pl/wp-content/uploads/2026/05/regulamin-rekrutacji-2026.pdf",
+  "https://zsp13.poznan.pl/ (szkoła podstawowa; 'zestawienie wyników rekrutacji' dotyczy absolwentów, nie progów)",
+  "https://nabor.pcss.pl/poznan, poznan.pl (brak statystyk, wg zadania)"
+ ],
+ "uwagi": "Przeszukano wszerz (do 30 podstron, głębokość 2, w tym PDF-y) 73 strony szkół z pola url pod kątem fraz: najniższa liczba punktów, dolny próg, minimalny próg, progi punktowe. Jedyne progi to te już w danych: IV LO (2026), dobreliceum.pl (2026), XII LO i III LO (2025). Strony niedostępne: xlo.poznan.pl (self signed certificate, nie obchodzono), zsken.pl, lelewel.poznan.pl, www.zsrokietnica.edu.pl (brak połączenia; zsrokietnica.edu.pl bez www działa, brak progów)."
+}
