@@ -1,0 +1,268 @@
+{
+  "slug": "budapeszt",
+  "name": "Budapeszt",
+  "country": "Węgry",
+  "currency": "EUR",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Corvinus przyjmuje pierwszoroczniaków płacących za studia sam (obywatele UE/EEA) do akademików Ráday i Gellért za 150 do 200 EUR miesięcznie, a ELTE ma pokoje dwu- i trzyosobowe za 55 000 do 70 000 HUF miesięcznie. W obu uczelniach liczba miejsc jest ograniczona, a studenci bez stypendium mają niski priorytet. Semmelweis przydziela miejsca w sierpniu według sytuacji materialnej, więc student z wizą lub bez pewności zakwaterowania powinien mieć plan awaryjny."
+    },
+    {
+      "label": "Wynajem",
+      "text": "Uczelnie i rządowy portal Study in Hungary podają dla Budapesztu około 300 EUR za pokój i około 500 EUR za studio w centralnych dzielnicach (Semmelweis), 120 000 do 220 000 HUF za mieszkanie bez opłat eksploatacyjnych oraz od 300 EUR za osobę plus media w mieszkaniach studenckich i od 320 do 1 000 EUR w prywatnych akademikach poleconych przez Corvinus. Strony nie podają daty, więc ceny trzeba traktować jako orientacyjne."
+    },
+    {
+      "label": "Budżet miesięczny",
+      "text": "Corvinus podaje jako całość, że łączny miesięczny koszt życia w Budapeszcie to około 500 do 1 100 EUR. Składniki przykładowe: akademik 100 do 200 EUR albo wynajem 250 do 750 EUR oraz jedzenie i inne wydatki 250 do 350 EUR."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "Corvinus poleca sprawdzonych prywatnych operatorów, ale nie ręczy za umowy ani dostępność. ELTE prowadzi Housing Office (housing@elte.hu) i podstronę z ogłoszeniami zweryfikowanymi przez moderatora. Wynajmujący zwykle żądają kaucji w wysokości co najmniej dwóch miesięcznych czynszów, a uczelnie radzą rezerwować miejsce jak najwcześniej."
+    },
+    {
+      "label": "Uwagi",
+      "text": "Wszystkie dane pochodzą ze stron uczelni i rządowego portalu Study in Hungary, więc nie ma wierszy z danych nieoficjalnych. Opłaty w akademikach Corvinus dotyczą roku akademickiego 2026/27, a ELTE podaje stawki na 2026/27 w osobnym zestawieniu. Strona Corvinus o zakwaterowaniu pokazuje jeszcze starsze stawki, a aktualne są w dokumencie naboru na 2026/27."
+    }
+  ],
+  "budget": {
+    "from": 500,
+    "to": 1100,
+    "currency": "EUR",
+    "period": "miesiąc",
+    "text": "Kwota podana przez Corvinus jako całość: łączny miesięczny koszt życia studenta w Budapeszcie to około 500 do 1 100 EUR. Składniki są przykładowe i nie sumują się wprost do tego przedziału: akademik 100 do 200 EUR albo wynajem mieszkania 250 do 750 EUR oraz jedzenie i inne wydatki około 250 do 350 EUR. Strona nie podaje osobno ubezpieczenia, a bilet miesięczny dla studenta kosztuje według uczelni 945 HUF (2,5 EUR).",
+    "sourceUrl": "https://www.uni-corvinus.hu/post/landing-page/application/fees-and-costs/?lang=en",
+    "quote": "The total monthly cost of living is around €500-1100.",
+    "official": true,
+    "kind": "szacunek"
+  },
+  "dorms": [
+    {
+      "name": "Ráday Dormitory (Corvinus)",
+      "operator": "Corvinus University of Budapest",
+      "url": "https://www.uni-corvinus.hu/post/landing-page/accommodation/?lang=en",
+      "roomType": "dwuosobowy lub trzyosobowy",
+      "priceFrom": 150,
+      "priceTo": 170,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Podstawowe meble, internet, lodówka i wspólne kuchnie; pralnie w każdym akademiku. Uczelnia nie opisuje wprost mediów w czynszu.",
+      "deposit": "140 EUR dla obywateli UE/EEA (płatna przed dniem wprowadzenia, najpóźniej do 24 sierpnia 2026)",
+      "eligibility": "Pierwszoroczni studenci przyjęci w procedurze uczelnianej i płacący za studia sami; stawki dla obywateli UE/EEA są niższe niż dla spoza UE. Pokoi jednoosobowych nie ma.",
+      "applicationInfo": "Dla roku 2026/27 wniosek K112 w systemie Neptun ruszył 22 czerwca 2026 o 14:00, wyniki do 30 czerwca 2026; nabór trwa do wyczerpania puli miejsc. Terminy na rok 2027/28 nie zostały jeszcze opublikowane.",
+      "applyUrl": "https://www.uni-corvinus.hu/post/landing-page/accommodation/?lang=en",
+      "waitlist": "Po zapełnieniu puli wniosków nie przyjmuje się na listę oczekujących w procedurze wczesnej; uczelnia radzi szukać innego zakwaterowania.",
+      "sourceUrl": "https://www.uni-corvinus.hu/downloads/d8a5.lqqadc/en-dormitory-call-for-application-self-funded-international-2026-sept-intake-final06.pdf",
+      "quote": "Ráday Dormitory 2 I.-VI. EUR 170/month (850 EUR/semester) 3 EUR 150/month (750 EUR/semester)",
+      "notes": "Pokój dwuosobowy 170 EUR, trzyosobowy 150 EUR za osobę miesięcznie. Pierwszy semestr płaci się z góry. Ráday leży około 10 minut pieszo od głównego budynku uczelni. Strona Corvinus o zakwaterowaniu pokazuje starsze stawki (od 1 lutego 2025: Ráday 150 i 135 EUR, Gellért 200 i 180 EUR), a aktualne ceny na 2026/27 są w dokumencie naboru podlinkowanym jako źródło."
+    },
+    {
+      "name": "Gellért Campus Dormitory (Corvinus)",
+      "operator": "Corvinus University of Budapest",
+      "url": "https://www.uni-corvinus.hu/post/landing-page/accommodation/?lang=en",
+      "roomType": "trzyosobowy",
+      "priceFrom": 200,
+      "priceTo": 200,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Podstawowe meble, internet, lodówka i wspólne kuchnie; w kampusie działa kawiarnia Fresh Corner Café.",
+      "deposit": "200 EUR dla obywateli UE/EEA",
+      "eligibility": "Pierwszoroczni studenci płacący za studia sami, w programie wczesnego naboru dostępne są tylko pokoje trzyosobowe.",
+      "applicationInfo": "Ten sam wniosek K112 w Neptunie co dla Ráday: dla 2026/27 start 22 czerwca 2026, wyniki do 30 czerwca 2026, do wyczerpania miejsc.",
+      "applyUrl": "https://www.uni-corvinus.hu/post/landing-page/accommodation/?lang=en",
+      "waitlist": "Brak zapisu na listę oczekujących po wyczerpaniu miejsc w naborze wczesnym.",
+      "sourceUrl": "https://www.uni-corvinus.hu/downloads/d8a5.lqqadc/en-dormitory-call-for-application-self-funded-international-2026-sept-intake-final06.pdf",
+      "quote": "Gellért Campus Dormitory 3 IV. EUR 200/month (1000 EUR/semester)",
+      "notes": "Do głównego budynku jedzie się metrem M4. Wszystkie akademiki Corvinus są według uczelni w zasięgu komunikacji miejskiej do 40 minut. Strona Corvinus o zakwaterowaniu pokazuje starsze stawki (od 1 lutego 2025: Ráday 150 i 135 EUR, Gellért 200 i 180 EUR), a aktualne ceny na 2026/27 są w dokumencie naboru podlinkowanym jako źródło."
+    },
+    {
+      "name": "Erdős Pál Dormitory (ELTE)",
+      "operator": "ELTE Dormitory Centre",
+      "url": "https://www.elte.hu/en/dormitory-centre/erdospal",
+      "roomType": "dwuosobowy lub trzyosobowy",
+      "priceFrom": 55000,
+      "priceTo": 70000,
+      "currency": "HUF",
+      "period": "miesiąc",
+      "includes": "Czynsz obejmuje prąd, wodę, ogrzewanie i internet (zasada dla akademików ELTE). W pokoju prysznic i toaleta.",
+      "deposit": "Kaucja jest wymagana i zwracana po semestrze wyprowadzki. ELTE nie podaje jej wysokości.",
+      "eligibility": "O miejsce może ubiegać się każdy student i kandydat ELTE niezależnie od obywatelstwa; studenci bez stypendium (płacący sami) są w niskiej grupie priorytetu, przed nimi stypendyści i osoby z bilateralnych programów. Pokoi jednoosobowych nie ma.",
+      "applicationInfo": "Dla studentów ELTE w Budapeszcie formularz listy oczekującej i zakwaterowania na 2026/27 jest aktywny od 7 września 2026 do 15 czerwca 2027. Kandydaci bez Neptuna składają wniosek online, a wyniki zwykle około 10 lipca.",
+      "applyUrl": "https://www.elte.hu/en/dormitory-housing-26-27-waiting-list",
+      "waitlist": "Tak, lista oczekująca (wynik tylko wtedy, gdy zwolni się miejsce).",
+      "sourceUrl": "https://www.elte.hu/en/dormitory-centre/erdospal",
+      "quote": "Room with 2 beds: 70 000 Ft/month Room with 3 beds: 55 000 Ft/month",
+      "notes": "ELTE ma w sumie 146 miejsc międzynarodowych w tym akademiku. Inne akademiki ELTE w Budapeszcie kosztują według zestawienia 2026/27 od 50 000 do 70 000 HUF miesięcznie (Vezér, Damjanich, Kőrösi Csoma Sándor, Márton Áron)."
+    },
+    {
+      "name": "Akademiki Semmelweis University",
+      "operator": "Semmelweis University",
+      "url": "https://semmelweis.hu/admission/life-at/housing/",
+      "roomType": "brak informacji",
+      "priceFrom": null,
+      "priceTo": null,
+      "currency": "HUF",
+      "period": "miesiąc",
+      "includes": "Brak informacji.",
+      "deposit": null,
+      "eligibility": "Pięć akademików i dwa akademiki zawodowe, ponad 900 miejsc; miejsca przyznawane tylko według potrzeb społecznych i finansowych.",
+      "applicationInfo": "Nowo przyjęci składają wniosek w sierpniu, okno trwa zwykle 15 dni; komisja akademikowa decyduje dopiero w sierpniu (uczelnia sama zaznacza, że dla osób z obowiązkiem wizowym to może być za późno).",
+      "applyUrl": "https://semmelweis.hu/admission/life-at/housing/",
+      "waitlist": null,
+      "sourceUrl": "https://semmelweis.hu/admission/life-at/housing/",
+      "quote": "The dormitory spots are limited and only available on the basis of social and financial needs you have to apply for it.",
+      "notes": "Semmelweis nie podaje cen akademików na swojej stronie o zakwaterowaniu."
+    }
+  ],
+  "rent": [
+    {
+      "type": "pokój w mieszkaniu współdzielonym",
+      "area": "centralne dzielnice Budapesztu",
+      "priceFrom": 300,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": null,
+      "includesUtilities": "nie wiadomo",
+      "official": true,
+      "source": "Semmelweis University, strona o zakwaterowaniu",
+      "sourceUrl": "https://semmelweis.hu/admission/life-at/housing/",
+      "quote": "Prices range from about 300 Euro/room and about 500 Euros/studio in the central districts of Budapest.",
+      "notes": "Uczelnia podaje cenę od około 300 EUR, bez górnej granicy."
+    },
+    {
+      "type": "kawalerka (studio)",
+      "area": "centralne dzielnice Budapesztu",
+      "priceFrom": 500,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": null,
+      "includesUtilities": "nie wiadomo",
+      "official": true,
+      "source": "Semmelweis University, strona o zakwaterowaniu",
+      "sourceUrl": "https://semmelweis.hu/admission/life-at/housing/",
+      "quote": "Prices range from about 300 Euro/room and about 500 Euros/studio in the central districts of Budapest.",
+      "notes": "Cena od około 500 EUR."
+    },
+    {
+      "type": "mieszkanie (bez podziału na liczbę pokoi)",
+      "area": "Budapeszt",
+      "priceFrom": 120000,
+      "priceTo": 220000,
+      "currency": "HUF",
+      "period": "miesiąc",
+      "year": null,
+      "includesUtilities": "nie",
+      "official": true,
+      "source": "Study in Hungary (Tempus Public Foundation), strona o zakwaterowaniu",
+      "sourceUrl": "https://studyinhungary.hu/living-in-hungary/menu/accommodation.html",
+      "quote": "HUF 70,000-180,000 or HUF 120,000-220,000 in Budapest a month plus overheads.",
+      "notes": "Strona Study in Hungary podaje w jednym artykule dwa warianty: Budapeszt do 200 000 HUF (120 000 do 200 000) oraz do 220 000 HUF (120 000 do 220 000). W tabeli przyjęto szerszy przedział 120 000 do 220 000 HUF. Pierwsza kwota w zdaniu (70 000 do 150 000 lub 180 000 HUF) dotyczy według strony miejsc poza stolicą. Do czynszu dochodzą opłaty, a kaucja to co najmniej dwa miesięczne czynsze. Strona ma stopkę z 2019 roku, więc ceny mogą odbiegać od dzisiejszych."
+    },
+    {
+      "type": "pokój w mieszkaniu współdzielonym",
+      "area": "Budapeszt",
+      "priceFrom": 140000,
+      "priceTo": 140000,
+      "currency": "HUF",
+      "period": "miesiąc",
+      "year": null,
+      "includesUtilities": "tak",
+      "official": true,
+      "source": "Study in Hungary, kalkulator kosztów życia (średnie z ingatlan.com)",
+      "sourceUrl": "https://studyinhungary.hu/living-in-hungary/menu/your-costs-of-living.html",
+      "quote": "Shared flat Including utilities. 140 000 Ft",
+      "notes": "Jest to średnia, bez zakresu; pierwsza kolumna tabeli to Budapeszt. Kalkulator nie podaje daty, a przy mieszkaniu prywatnym podaje 225 000 HUF z mediami."
+    },
+    {
+      "type": "pokój w prywatnym akademiku (społeczność studencka)",
+      "area": "Budapeszt (operatorzy polecani przez Corvinus)",
+      "priceFrom": 320,
+      "priceTo": 1000,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": null,
+      "includesUtilities": "tak",
+      "official": true,
+      "source": "Corvinus University of Budapest, strona o zakwaterowaniu",
+      "sourceUrl": "https://www.uni-corvinus.hu/post/landing-page/accommodation/?lang=en",
+      "quote": "Monthly rates range from EUR 320 to 1000 per person, with mostly including utilities.",
+      "notes": "Prywatne społeczności studenckie polecane przez Corvinus: od 320 do 1 000 EUR za osobę miesięcznie, zwykle z mediami. Zakres jest szeroki, bo obejmuje pokoje z łazienką i apartamenty."
+    },
+    {
+      "type": "pokój w mieszkaniu studenckim (tylko dla studentów)",
+      "area": "Budapeszt (operatorzy polecani przez Corvinus)",
+      "priceFrom": 300,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": null,
+      "includesUtilities": "nie",
+      "official": true,
+      "source": "Corvinus University of Budapest, strona o zakwaterowaniu",
+      "sourceUrl": "https://www.uni-corvinus.hu/post/landing-page/accommodation/?lang=en",
+      "quote": "Monthly rates start from EUR 300 per person, plus utilities, varying based on room size, services, and occupancy.",
+      "notes": "Mieszkania wyłącznie dla studentów polecane przez Corvinus: od 300 EUR za osobę miesięcznie plus media, zależnie od wielkości pokoju, usług i obłożenia."
+    }
+  ],
+  "gaps": [
+    "Żadna z uczelni ani portali nie podaje daty cen wynajmu w Budapeszcie: Semmelweis, Study in Hungary i Corvinus publikują kwoty bez roku, więc przy tych wierszach rok jest oznaczony jako brak daty.",
+    "Brak oficjalnego, datowanego raportu czynszów dla Budapesztu (urząd statystyczny lub miasto), dlatego nie ma wierszy z danych nieoficjalnych.",
+    "Strona ELTE o kosztach życia pochodzi z 2016 roku (czynsz 220 000 do 250 000 HUF), więc nie służy jako źródło budżetu.",
+    "BME udostępnia bezpłatne akademiki tylko stypendystom programów rządowych, a studentów płacących za studia sami odsyła do prywatnych akademików, bez podanych cen.",
+    "Semmelweis nie podaje cen akademików, a ELTE nie podaje wysokości kaucji.",
+    "Terminy naboru do akademików na rok akademicki 2027/28 nie są jeszcze opublikowane. Podane daty dotyczą 2026/27."
+  ],
+  "sources": [
+    {
+      "url": "https://www.uni-corvinus.hu/post/landing-page/accommodation/?lang=en",
+      "note": "Corvinus: akademiki, prywatni operatorzy, zasady naboru"
+    },
+    {
+      "url": "https://www.uni-corvinus.hu/downloads/d8a5.lqqadc/en-dormitory-call-for-application-self-funded-international-2026-sept-intake-final06.pdf",
+      "note": "Corvinus: nabór do akademików 2026/27, stawki dla UE/EEA i kaucje"
+    },
+    {
+      "url": "https://www.uni-corvinus.hu/post/landing-page/application/fees-and-costs/?lang=en",
+      "note": "Corvinus: koszty życia w Budapeszcie"
+    },
+    {
+      "url": "https://www.elte.hu/en/dormitory-centre",
+      "note": "ELTE: zasady naboru, priorytety, wyposażenie"
+    },
+    {
+      "url": "https://www.elte.hu/en/dormitory-centre/erdospal",
+      "note": "ELTE: akademik Erdős Pál, cena"
+    },
+    {
+      "url": "https://www.elte.hu/en/dstore/document/330723/Comparison%20of%20the%20dormitory%20fees%20and%20international%20places_2026-27.pdf",
+      "note": "ELTE: zestawienie opłat w akademikach 2026/27"
+    },
+    {
+      "url": "https://www.elte.hu/en/dormitory-housing-26-27-waiting-list",
+      "note": "ELTE: nabór 2026/27 (lista oczekująca i zakwaterowanie)"
+    },
+    {
+      "url": "https://www.elte.hu/en/housing-office",
+      "note": "ELTE: Housing Office, kaucja, partnerzy"
+    },
+    {
+      "url": "https://semmelweis.hu/admission/life-at/housing/",
+      "note": "Semmelweis: akademiki i wynajem"
+    },
+    {
+      "url": "https://www.bme.hu/en/dormitories",
+      "note": "BME: akademiki dla stypendystów, prywatne akademiki"
+    },
+    {
+      "url": "https://studyinhungary.hu/living-in-hungary/menu/accommodation.html",
+      "note": "Study in Hungary: wynajem, kaucja"
+    },
+    {
+      "url": "https://studyinhungary.hu/living-in-hungary/menu/your-costs-of-living.html",
+      "note": "Study in Hungary: kalkulator kosztów życia"
+    }
+  ]
+}

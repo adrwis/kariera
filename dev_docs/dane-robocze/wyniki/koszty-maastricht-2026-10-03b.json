@@ -1,0 +1,230 @@
+{
+  "slug": "maastricht",
+  "name": "Maastricht",
+  "country": "Holandia",
+  "currency": "EUR",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Uniwersytet w Maastricht nie ma własnych akademików. Oficjalnym pośrednikiem jest platforma Maastricht Housing, która zbiera oferty UM Guesthouse (około 900 pokoi i studiów na pobyt krótkoterminowy), spółdzielni mieszkaniowych (Woonpunt, Maasvallei, Servatius, Wonen Limburg) i prywatnych wynajmujących. Rejestracja kosztuje jednorazowo 35 EUR. Cen pokoi nie podają strony opisowe, widać je dopiero po wyborze dat na platformie Maastricht Housing, dlatego sekcja Akademiki nie zawiera kwot."
+    },
+    {
+      "label": "Wynajem",
+      "text": "Portal MyMaastricht (dane nieoficjalne, UM tylko do niego odsyła) szacuje przeciętny czynsz podstawowy za pokój na około 500 EUR, a ogólny przedział dla pokojów i samodzielnych studiów na 350 do 750 EUR miesięcznie. Nieoficjalne średnie z platformy Kamernet wynoszą 482 EUR za pokój, 795 EUR za studio i 930 EUR za mieszkanie. Żadna z tych stron nie podaje daty publikacji."
+    },
+    {
+      "label": "Budżet miesięczny",
+      "text": "UM podaje tabelę kosztów studenta opartą na krajowym badaniu Nibud z 2024 roku, skorygowaną o inflację z lat 2022 i 2023. Po zsumowaniu pozycji (czynsz 561 EUR, jedzenie 272, książki 53, transport 67, rozrywka i sport 238, ubrania 60, ubezpieczenie zdrowotne 156, telefon i internet 55) wychodzi około 1 460 EUR miesięcznie. Uczelnia nie podaje tej sumy sama, a tabela opisuje przeciętnego studenta w Holandii, nie wyłącznie studenta zagranicznego."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "Szukanie warto zacząć już w kwietniu przed rokiem akademickim zaczynającym się we wrześniu, bo pokoi brakuje, a UM wprost odradza przyjazd bez zapewnionego zakwaterowania. Uniwersytet ostrzega przed oszustami (nielegalne opłaty pośrednicze i administracyjne) i poleca bezpłatne sprawdzenie umowy w Huurteam Zuid-Limburg przed jej podpisaniem."
+    },
+    {
+      "label": "Uwagi",
+      "text": "Spółdzielnie mieszkaniowe wynajmują tylko osobom do 27. roku życia, a UM Guesthouse osobom do 31. roku życia. Dane dotyczą Maastricht University i wszystkich jej wydziałów łącznie."
+    }
+  ],
+  "budget": {
+    "from": 1462,
+    "to": 1462,
+    "currency": "EUR",
+    "period": "miesiąc",
+    "text": "Suma pozycji z tabeli kosztów życia studenta na stronie UM: czynsz 561, zakupy spożywcze 272, książki i materiały 53, transport 67, rozrywka i sport 238, ubrania i obuwie 60, ubezpieczenie zdrowotne 156, telefon, telewizja i internet 55 (w EUR), razem 1 462 EUR miesięcznie. Tabela nie podaje własnej sumy, więc kwota jest wyliczeniem z jej wierszy. Liczby pochodzą z krajowego badania Nibud z 2024 roku, skorygowanego przez UM o inflację z lat 2022 i 2023. Dotyczą przeciętnego studenta w Holandii i nie są oficjalnym szacunkiem UM dla studentów zagranicznych.",
+    "sourceUrl": "https://www.maastrichtuniversity.nl/study/student-life/cost-studying-financial-assistance",
+    "quote": "The following table shows figures from the 2024 Nibud national student survey (in Dutch), which have been adjusted for general inflation rates in 2022 and 2023 (4.1%, 11.6%).",
+    "official": false,
+    "kind": "suma"
+  },
+  "dorms": [
+    {
+      "name": "UM Guesthouse",
+      "operator": "Maastricht University (rezerwacje przez Maastricht Housing)",
+      "url": "https://www.maastrichtuniversity.nl/study/student-life/woonruimte-maastricht/um-guesthouse",
+      "roomType": "pokój jednoosobowy lub dwuosobowy albo studio (zależnie od lokalizacji)",
+      "priceFrom": null,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Umeblowanie oraz gaz, woda, prąd i internet w czynszu.",
+      "deposit": "Zaliczka równa czynszowi za 30 dni (zaliczana na ostatnie 30 dni umowy) oraz jednorazowa obowiązkowa opłata za sprzątanie: 60, 75 lub 100 EUR zależnie od typu pokoju.",
+      "eligibility": "Studenci wymiany, licencjatu i magisterium UM, w tym zagraniczni; limit wieku 31 lat. Minimalny pobyt: wymiana 3 miesiące, studenci zaczynający w sierpniu lub wrześniu co najmniej 11 miesięcy, w styczniu lub lutym co najmniej 6 miesięcy; maksymalnie 12 miesięcy.",
+      "applicationInfo": "Rezerwacja online przez Maastricht Housing (filtr UM Guesthouse) z dużym wyprzedzeniem, po zapłaceniu jednorazowej opłaty rejestracyjnej 35 EUR i zaliczki. Strony nie podają stałego terminu składania wniosków, pokoje są rezerwowane według kolejności płatności.",
+      "applyUrl": "https://www.maastrichthousing.com/",
+      "waitlist": null,
+      "sourceUrl": "https://www.maastrichtuniversity.nl/study/student-life/woonruimte-maastricht/um-guesthouse",
+      "quote": "The UM Guesthouse offers around 900 rooms and studios, located across several locations in the city.",
+      "notes": "Aktualne ceny pokoi widać dopiero w wyszukiwarce platformy Maastricht Housing po wybraniu dat, a strony opisowe ich nie podają. Kaucję i opłatę za sprzątanie podaje strona https://maastrichthousing.com/Process_Student_GH.html, a rejestrację 35 EUR i limit wieku 31 lat strona https://maastrichthousing.com/Registration.html."
+    },
+    {
+      "name": "Spółdzielnie mieszkaniowe: Woonpunt, Maasvallei, Servatius, Wonen Limburg",
+      "operator": "Cztery spółdzielnie mieszkaniowe Maastricht (oferty przez Maastricht Housing)",
+      "url": "https://www.maastrichthousing.com/Process_Student_Housingcorp.html",
+      "roomType": "pokój, studio lub mieszkanie (często niemeblowane)",
+      "priceFrom": null,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Mieszkania są często oddawane bez podłóg, zasłon, lamp, a czasem bez sprzętu kuchennego.",
+      "deposit": "Kaucja w razie potrzeby, płatna bezpośrednio spółdzielni razem z pierwszym czynszem.",
+      "eligibility": "Student z potwierdzeniem zapisu (BvI), do 27. roku życia; doktoranci nie mogą wynajmować przez spółdzielnie. Strona nie wyłącza studentów zagranicznych.",
+      "applicationInfo": "Rezerwacja przyciskiem „Book now” w ofertach Maastricht Housing, po wpisaniu w koncie dokumentu BvI i danych bankowych; obejrzenie mieszkania możliwe w ciągu 48 godzin, decyzję podejmuje spółdzielnia. Stałego terminu brak.",
+      "applyUrl": "https://www.maastrichthousing.com/",
+      "waitlist": null,
+      "sourceUrl": "https://www.maastrichthousing.com/Process_Student_Housingcorp.html",
+      "quote": "Housing corporations apply a maximum age limit of up to 27 years!",
+      "notes": "Okres wypowiedzenia wynosi jeden miesiąc, bez maksymalnego okresu najmu (strona How it works). Ceny ofert nie są podane na stronach opisowych."
+    },
+    {
+      "name": "Hospi Housing (pokój u gospodarza)",
+      "operator": "Hospi Housing, współpracuje z UM i gminą Maastricht",
+      "url": "https://hospihousing.com/gb/",
+      "roomType": "pokój jednoosobowy w domu gospodarza",
+      "priceFrom": null,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Wspólna kuchnia i łazienka z gospodarzem.",
+      "deposit": null,
+      "eligibility": "Studenci UM; rejestracja i składanie wniosku są bezpłatne.",
+      "applicationInfo": "Rejestracja online w Hospi Housing, bez podanego terminu.",
+      "applyUrl": "https://hospihousing.com/gb/",
+      "waitlist": null,
+      "sourceUrl": "https://www.maastrichtuniversity.nl/study/student-life/housing-maastricht",
+      "quote": "With Hospi Housing, you stay in a local home, where you have your own private room and share facilities such as a kitchen and bathroom.",
+      "notes": "Cennik nie jest widoczny na stronie wejściowej Hospi Housing ani na stronie UM."
+    }
+  ],
+  "rent": [
+    {
+      "type": "pokój w mieszkaniu współdzielonym",
+      "area": "Maastricht",
+      "priceFrom": 500,
+      "priceTo": 500,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": null,
+      "includesUtilities": "nie",
+      "official": false,
+      "source": "MyMaastricht (portal informacyjny, do którego odsyła UM; dane nieoficjalne)",
+      "sourceUrl": "https://mymaastricht.nl/housing/housing-expenses/rental-prices/",
+      "quote": "We estimate that the average basic rent for a room in Maastricht should fall around the €500 mark.",
+      "notes": "Dane nieoficjalne. Czynsz podstawowy, bez mediów i opłat serwisowych. Autorzy podają, że listę aktualizują raz w roku. Strona nie podaje daty publikacji."
+    },
+    {
+      "type": "pokój lub studio (przedział ogólny)",
+      "area": "Maastricht",
+      "priceFrom": 350,
+      "priceTo": 750,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": null,
+      "includesUtilities": "nie",
+      "official": false,
+      "source": "MyMaastricht (portal informacyjny, do którego odsyła UM; dane nieoficjalne)",
+      "sourceUrl": "https://mymaastricht.nl/housing/housing-expenses/rental-prices/",
+      "quote": "A good range for housing in Maastricht, ranging from student rooms to independent studios, is around €350-750.",
+      "notes": "Dane nieoficjalne. Przedział obejmuje pokoje studenckie i samodzielne studia, a tańsze oferty bywają dalej od centrum lub niemeblowane. Strona nie podaje daty publikacji."
+    },
+    {
+      "type": "pokój w mieszkaniu współdzielonym",
+      "area": "Maastricht",
+      "priceFrom": 482,
+      "priceTo": 482,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": null,
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Kamernet, strona ofert w Maastricht (dane nieoficjalne)",
+      "sourceUrl": "https://kamernet.nl/en/for-rent/rooms-maastricht",
+      "quote": "a single room typically costs €482 per month",
+      "notes": "Dane nieoficjalne: średnia z ofert portalu Kamernet. Strona nie podaje daty publikacji ani sposobu liczenia średniej."
+    },
+    {
+      "type": "kawalerka (studio)",
+      "area": "Maastricht",
+      "priceFrom": 795,
+      "priceTo": 795,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": null,
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Kamernet, strona ofert w Maastricht (dane nieoficjalne)",
+      "sourceUrl": "https://kamernet.nl/en/for-rent/rooms-maastricht",
+      "quote": "studios cost an average of €795 per month",
+      "notes": "Dane nieoficjalne: średnia z ofert portalu Kamernet, bez daty publikacji."
+    },
+    {
+      "type": "mieszkanie (liczba pokoi nieokreślona)",
+      "area": "Maastricht",
+      "priceFrom": 930,
+      "priceTo": 930,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": null,
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Kamernet, strona ofert w Maastricht (dane nieoficjalne)",
+      "sourceUrl": "https://kamernet.nl/en/for-rent/rooms-maastricht",
+      "quote": "apartments cost an average of around €930 per month",
+      "notes": "Dane nieoficjalne. Portal nie rozdziela mieszkań według liczby pokoi i nie podaje daty publikacji."
+    }
+  ],
+  "gaps": [
+    "Ceny pokoi w UM Guesthouse, w ofertach spółdzielni mieszkaniowych i w Hospi Housing pojawiają się dopiero w wyszukiwarkach tych platform po wybraniu dat i typu studenta, więc nie można ich tu podać.",
+    "Strony UM i Maastricht Housing nie podają stałego terminu składania wniosków. UM radzi tylko zacząć szukanie już w kwietniu przed rokiem zaczynającym się we wrześniu.",
+    "Oficjalne źródła nie podają osobnych cen mieszkania jednopokojowego ani dwupokojowego. Ceny studia i mieszkania pochodzą wyłącznie z nieoficjalnej strony Kamernet, bez daty publikacji.",
+    "Kwota budżetu miesięcznego jest sumą pozycji z tabeli UM, którą uczelnia opiera na badaniu Nibud z 2024 roku z korektą o inflację. Uczelnia nie podaje własnej kwoty łącznej.",
+    "Wiersze o czynszach z portalu MyMaastricht mają status danych nieoficjalnych, bo to portal informacyjny, a nie strona uczelni ani urzędu.",
+    "Zakwaterowanie opisano zbiorczo dla Maastricht University i jej wydziałów."
+  ],
+  "sources": [
+    {
+      "url": "https://www.maastrichtuniversity.nl/study/student-life/housing-maastricht",
+      "note": "Zakwaterowanie w Maastricht, rola Maastricht Housing, Hospi Housing, opłata 35 EUR."
+    },
+    {
+      "url": "https://www.maastrichtuniversity.nl/study/student-life/woonruimte-maastricht/um-guesthouse",
+      "note": "UM Guesthouse: liczba pokoi, długość pobytu, media w czynszu."
+    },
+    {
+      "url": "https://www.maastrichtuniversity.nl/useful-tips-and-warnings",
+      "note": "Wskazówki i ostrzeżenia dotyczące szukania mieszkania."
+    },
+    {
+      "url": "https://www.maastrichtuniversity.nl/study/student-life/cost-studying-financial-assistance",
+      "note": "Tabela miesięcznych kosztów życia studenta."
+    },
+    {
+      "url": "https://www.maastrichthousing.com/",
+      "note": "Oficjalna platforma mieszkaniowa UM, Zuyd i Jan van Eyck Academy."
+    },
+    {
+      "url": "https://maastrichthousing.com/Process_Student_GH.html",
+      "note": "Rezerwacja UM Guesthouse, zaliczka i opłata za sprzątanie."
+    },
+    {
+      "url": "https://www.maastrichthousing.com/Process_Student_Housingcorp.html",
+      "note": "Zasady wynajmu przez spółdzielnie mieszkaniowe."
+    },
+    {
+      "url": "https://maastrichthousing.com/Registration.html",
+      "note": "Rejestracja, limity wieku 27 i 31 lat."
+    },
+    {
+      "url": "https://mymaastricht.nl/housing/housing-expenses/rental-prices/",
+      "note": "Szacunki czynszów w Maastricht."
+    },
+    {
+      "url": "https://mymaastricht.nl/finances/cost-of-living/living-expenses/",
+      "note": "Miesięczne wydatki poza czynszem."
+    },
+    {
+      "url": "https://kamernet.nl/en/for-rent/rooms-maastricht",
+      "note": "Dane nieoficjalne: średnie czynsze w ofertach Kamernet."
+    }
+  ]
+}

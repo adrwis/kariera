@@ -1,0 +1,183 @@
+{
+ "slug": "lublin",
+ "name": "Lublin",
+ "country": "Polska",
+ "currency": "PLN",
+ "retrieved": "2026-10-03",
+ "summary": [
+  {
+   "label": "Akademiki",
+   "text": "Domy studenckie prowadzą m.in. Uniwersytet Marii Curie-Skłodowskiej i Uniwersytet Medyczny w Lublinie. Miejsce w pokoju dwuosobowym w UMCS kosztuje od 705 zł do 835 zł miesięcznie, pokój jednoosobowy od 820 zł do 1 160 zł. W Uniwersytecie Medycznym ceny wynoszą od 785 zł do 1 350 zł, a kaucja równa się miesięcznej opłacie."
+  },
+  {
+   "label": "Wynajem",
+   "text": "Portal Rentier.io podaje medianę ofertową wynajmu 55 zł za metr kwadratowy miesięcznie we wrześniu 2026 roku, czyli około 2 770 zł za mieszkanie 50 m². To dane nieoficjalne. Cen pokoi i kawalerek nie udało się potwierdzić."
+  },
+  {
+   "label": "Budżet miesięczny",
+   "text": "Study in Poland (NAWA) szacuje miesięczne wydatki studenta w Polsce na od 1 500 zł do 2 000 zł. Jest to kwota dla całego kraju."
+  },
+  {
+   "label": "Jak szukać mieszkania",
+   "text": "Najtańszą opcją jest akademik, o który UMCS prosi przez USOSweb, a Uniwersytet Medyczny przez e-mail do komisji. Jeśli miejsca zabraknie, pokoje wynajmuje się prywatnie. Przed podpisaniem umowy warto sprawdzić wysokość kaucji, zasady rozliczania mediów i nie wpłacać pieniędzy bez umowy."
+  },
+  {
+   "label": "Uwagi",
+   "text": "Cennik UMCS i Uniwersytetu Medycznego dotyczy roku akademickiego 2026/2027. Uniwersytet Medyczny stosuje stawki dla studentów lubelskich uczelni, a pozostali goście płacą dodatkowo 8% VAT."
+  }
+ ],
+ "budget": {
+  "from": 1500,
+  "to": 2000,
+  "currency": "PLN",
+  "period": "miesiąc",
+  "text": "Ogólnopolski szacunek portalu Study in Poland (NAWA) dla studenta: czynsz w domu studenckim, transport miejski, ubezpieczenie zdrowotne, telefon i internet, jedzenie oraz rozrywka, łącznie od 1 500 zł do 2 000 zł miesięcznie. Portal nie podaje osobnej kwoty dla tego miasta, a pozycja o domu studenckim (od 400 zł do 600 zł) jest niższa od cen z obecnych cenników uczelni, więc rzeczywisty miesięczny koszt przy miejscu w akademiku może wyjść wyższy.",
+  "sourceUrl": "https://study.gov.pl/cost-living-poland",
+  "quote": "Average total expenses 1500 - 2000",
+  "official": true
+ },
+ "dorms": [
+  {
+   "deposit": "Kaucja (opłata rezerwacyjna) 400 zł, wpłacana do 2 października 2026 roku w IV turze. Dla przelewów zagranicznych uczelnia podaje kwotę 100 euro.",
+   "applyUrl": "https://www.umcs.pl/pl/wnioskowanie,12340.htm",
+   "waitlist": "Po zakończeniu IV tury o wolne miejsca można ubiegać się dalej, o ile jakieś zostaną. Strona nie opisuje listy rezerwowej.",
+   "notes": "Najtaniej w domach Amor i Grześ (705 zł), najdrożej w Feminie (835 zł). Domy: Amor, Babilon, Femina, Grześ, Helios, Ikar, Jowisz, Zana, Kronos. Ceny z tabeli opłat na rok akademicki 2026/27.",
+   "currency": "PLN",
+   "name": "Domy studenckie UMCS: miejsca w pokojach dwuosobowych",
+   "operator": "Uniwersytet Marii Curie-Skłodowskiej w Lublinie",
+   "url": "https://www.umcs.pl/pl/akademiki.htm",
+   "roomType": "dwuosobowy",
+   "priceFrom": 705,
+   "priceTo": 835,
+   "period": "miesiąc",
+   "includes": "Cennik wskazuje dodatkową, fakultatywną opłatę za internet w wysokości 25 zł miesięcznie. Zakres mediów w cenie miejsca nie jest opisany w cenniku.",
+   "eligibility": "Miejsce mogą dostać studenci i doktoranci UMCS, a inne osoby tylko przy wolnych miejscach. Pierwszeństwo mają m.in. osoby samotnie wychowujące dzieci, z niepełnosprawnością, z sieroctwem oraz mające trudny dojazd i trudną sytuację finansową. Cudzoziemiec okazuje paszport zamiast dowodu osobistego.",
+   "applicationInfo": "Wniosek składa się wyłącznie w USOSweb. W IV turze na rok 2026/2027 wnioski przyjmowano od 24 do 29 września 2026 roku, wyniki ogłoszono po 30 września, a potwierdzenie miejsca i wpłatę 400 zł należało zrealizować do 2 października 2026 roku. Wcześniejsze tury odbyły się w roku 2026, a terminy kolejnych podaje komunikat rektora.",
+   "sourceUrl": "https://www.umcs.pl/pl/tabela-oplat-miesiecznych-w-pokojach-ds-2026-27,34716.htm",
+   "quote": "GRZEŚ 2 - osobowy 705"
+  },
+  {
+   "deposit": "Kaucja (opłata rezerwacyjna) 400 zł, wpłacana do 2 października 2026 roku w IV turze. Dla przelewów zagranicznych uczelnia podaje kwotę 100 euro.",
+   "applyUrl": "https://www.umcs.pl/pl/wnioskowanie,12340.htm",
+   "waitlist": "Po zakończeniu IV tury o wolne miejsca można ubiegać się dalej, o ile jakieś zostaną. Strona nie opisuje listy rezerwowej.",
+   "notes": "Część pokoi jednoosobowych to pokoje dwuosobowe zajmowane przez jedną osobę (cena za miejsce w pokoju dwuosobowym przy jednym mieszkańcu). Najtaniej 820 zł (Amor, Grześ), najdrożej 1 160 zł (Kronos). Pokoje dla osób z niepełnosprawnościami kosztują od 700 zł i są poza tym zakresem.",
+   "currency": "PLN",
+   "name": "Domy studenckie UMCS: pokoje jednoosobowe",
+   "operator": "Uniwersytet Marii Curie-Skłodowskiej w Lublinie",
+   "url": "https://www.umcs.pl/pl/akademiki.htm",
+   "roomType": "jednoosobowy",
+   "priceFrom": 820,
+   "priceTo": 1160,
+   "period": "miesiąc",
+   "includes": "Cennik wskazuje dodatkową, fakultatywną opłatę za internet w wysokości 25 zł miesięcznie. Zakres mediów w cenie miejsca nie jest opisany w cenniku.",
+   "eligibility": "Miejsce mogą dostać studenci i doktoranci UMCS, a inne osoby tylko przy wolnych miejscach. Pierwszeństwo mają m.in. osoby samotnie wychowujące dzieci, z niepełnosprawnością, z sieroctwem oraz mające trudny dojazd i trudną sytuację finansową. Cudzoziemiec okazuje paszport zamiast dowodu osobistego.",
+   "applicationInfo": "Wniosek składa się wyłącznie w USOSweb. W IV turze na rok 2026/2027 wnioski przyjmowano od 24 do 29 września 2026 roku, wyniki ogłoszono po 30 września, a potwierdzenie miejsca i wpłatę 400 zł należało zrealizować do 2 października 2026 roku. Wcześniejsze tury odbyły się w roku 2026, a terminy kolejnych podaje komunikat rektora.",
+   "sourceUrl": "https://www.umcs.pl/pl/tabela-oplat-miesiecznych-w-pokojach-ds-2026-27,34716.htm",
+   "quote": "KRONOS 1 - osobowy 1160"
+  },
+  {
+   "deposit": "Kaucja zwrotna w wysokości jednej miesięcznej opłaty za przyznane miejsce, płatna przy zakwaterowaniu lub wcześniej. Pościel w pakiecie kosztuje 200 zł.",
+   "applyUrl": "http://akademiki.umlub.pl/pl/studenci-akademiki/rok-akademicki-20262027/",
+   "waitlist": "Strona publikuje listy przyznanych miejsc i decyzje w kolejnych terminach komisji. Listy rezerwowej nie opisano.",
+   "notes": "Pokój dwuosobowy 785 zł (cena za miejsce), pokój jednoosobowy 1 005 zł, pokoje jednoosobowe łączone 950 zł. Stawki z zarządzenia nr 160/2026 rektora z 20 lipca 2026 roku.",
+   "currency": "PLN",
+   "name": "Dom Studenta nr 1 Uniwersytetu Medycznego w Lublinie",
+   "operator": "Uniwersytet Medyczny w Lublinie",
+   "url": "https://akademiki.umlub.pl/",
+   "roomType": "jednoosobowy, dwuosobowy, pokoje łączone",
+   "priceFrom": 785,
+   "priceTo": 1005,
+   "period": "miesiąc",
+   "includes": "Zakres mediów nie jest opisany w tabeli opłat.",
+   "eligibility": "Miejsca przyznaje komisja głównie studentom i doktorantom Uniwersytetu Medycznego w Lublinie. Studenci innych lubelskich uczelni (m.in. UMCS, KUL, Politechnika Lubelska) mogą dostać miejsce przy wolnych miejscach. Cudzoziemcy muszą okazać ważną wizę lub kartę czasowego pobytu.",
+   "applicationInfo": "Wniosek wysyła się e-mailem na adres wkds@umlub.edu.pl w terminie z komunikatu, a o przyznaniu decyduje kolejność złożonych wniosków. Na rok 2026/2027 komisja pracowała w kilku terminach (czwarty 18 września 2026 roku), a lista studentów do zakwaterowania ukazała się 25 września 2026 roku. Stawki dotyczą okresu od 1 października 2026 do 30 czerwca 2027 roku.",
+   "sourceUrl": "http://akademiki.umlub.pl/download/gfx/akademiki/pl/defaultmultilistaplikow/14/19/1/zalacznik_do_zarzadzenia_nr_160_2026_rektora_uniwersytetu_medycznego_w_lublinie_z_dnia_20_lipca_2026_roku-1.pdf",
+   "quote": "Nr 1 1 005 zł 785 zł - 950 zł 1 350 zł"
+  },
+  {
+   "deposit": "Kaucja zwrotna w wysokości jednej miesięcznej opłaty za przyznane miejsce, płatna przy zakwaterowaniu lub wcześniej. Pościel w pakiecie kosztuje 200 zł.",
+   "applyUrl": "http://akademiki.umlub.pl/pl/studenci-akademiki/rok-akademicki-20262027/",
+   "waitlist": "Strona publikuje listy przyznanych miejsc i decyzje w kolejnych terminach komisji. Listy rezerwowej nie opisano.",
+   "notes": "DS 2: pokój jednoosobowy 1 250 zł, dwuosobowy 1 050 zł, pokój indywidualny z węzłem 1 350 zł. DS 4: jednoosobowy 1 250 zł, dwuosobowy 1 000 zł, pokój indywidualny z węzłem 1 350 zł (tabela: Nr 4 1 250 zł 1 000 zł 1 350 zł). Oba domy po modernizacji.",
+   "currency": "PLN",
+   "name": "Domy Studenta nr 2 i nr 4 Uniwersytetu Medycznego w Lublinie",
+   "operator": "Uniwersytet Medyczny w Lublinie",
+   "url": "https://akademiki.umlub.pl/",
+   "roomType": "segment dwupokojowy z węzłem sanitarnym, pokój jednoosobowy, pokój dwuosobowy, pokój indywidualny z węzłem",
+   "priceFrom": 1000,
+   "priceTo": 1350,
+   "period": "miesiąc",
+   "includes": "Zakres mediów nie jest opisany w tabeli opłat.",
+   "eligibility": "Miejsca przyznaje komisja głównie studentom i doktorantom Uniwersytetu Medycznego w Lublinie. Studenci innych lubelskich uczelni (m.in. UMCS, KUL, Politechnika Lubelska) mogą dostać miejsce przy wolnych miejscach. Cudzoziemcy muszą okazać ważną wizę lub kartę czasowego pobytu.",
+   "applicationInfo": "Wniosek wysyła się e-mailem na adres wkds@umlub.edu.pl w terminie z komunikatu, a o przyznaniu decyduje kolejność złożonych wniosków. Na rok 2026/2027 komisja pracowała w kilku terminach (czwarty 18 września 2026 roku), a lista studentów do zakwaterowania ukazała się 25 września 2026 roku. Stawki dotyczą okresu od 1 października 2026 do 30 czerwca 2027 roku.",
+   "sourceUrl": "http://akademiki.umlub.pl/download/gfx/akademiki/pl/defaultmultilistaplikow/14/19/1/zalacznik_do_zarzadzenia_nr_160_2026_rektora_uniwersytetu_medycznego_w_lublinie_z_dnia_20_lipca_2026_roku-1.pdf",
+   "quote": "Nr 2 1 250 zł 1 050 zł 1 350 zł - 1 350 zł"
+  }
+ ],
+ "rent": [
+  {
+   "type": "mieszkanie około 50 m²",
+   "area": "Lublin (całe miasto)",
+   "priceFrom": 2770,
+   "priceTo": 2770,
+   "currency": "PLN",
+   "period": "miesiąc",
+   "year": "2026",
+   "includesUtilities": "nie wiadomo",
+   "official": false,
+   "source": "Rentier.io, ceny najmu w Lublinie (dane nieoficjalne)",
+   "sourceUrl": "https://rentier.io/ceny-najmu/polska/lubelskie/powiat-lublin/lublin",
+   "quote": "ok. 2 770 zł czynszu miesięcznie",
+   "notes": "Dane nieoficjalne: portal podaje przykład dla mieszkania 50 m² na podstawie mediany ofertowej 55 zł za metr kwadratowy we wrześniu 2026 roku (typowy zakres od 43 do 66 zł za metr). Najtańsze dzielnice według portalu to Czuby Południowe i Czuby Północne, najdroższe Węglin Południowy, Wrotków i Śródmieście. Źródło nie podaje, czy kwota zawiera opłaty."
+  }
+ ],
+ "gaps": [
+  "Nie udało się potwierdzić cen wynajmu pokoju w mieszkaniu współdzielonym ani kawalerki w Lublinie. Oficjalny raport NBP o cenach i stawkach najmu był niedostępny (ekran weryfikacji), więc podano tylko jedną nieoficjalną wartość dla mieszkania 50 m².",
+  "Nie opisano domów studenckich Politechniki Lubelskiej (strona uczelni wyświetliła ekran weryfikacji i nie była dostępna), Uniwersytetu Przyrodniczego ani Katolickiego Uniwersytetu Lubelskiego.",
+  "Cenniki UMCS i Uniwersytetu Medycznego nie podają, co dokładnie obejmuje opłata za miejsce (media, internet poza fakultatywnym internetem w UMCS), a UM nie podaje adresów domów na przeglądanych stronach.",
+  "Strony obu uczelni nie opisują listy rezerwowej ani osobnych zasad dla obywateli Unii Europejskiej. Cudzoziemcy okazują paszport lub wizę albo kartę pobytu.",
+  "Oficjalny budżet miesięczny jest podany dla całej Polski, bez podziału na miasta. Pozycja o akademiku w tym szacunku jest niższa od aktualnych cen w Lublinie."
+ ],
+ "sources": [
+  {
+   "url": "https://www.umcs.pl/pl/tabela-oplat-miesiecznych-w-pokojach-ds-2026-27,34716.htm",
+   "note": "Tabela opłat miesięcznych w domach studenckich UMCS na rok 2026/27."
+  },
+  {
+   "url": "https://www.umcs.pl/pl/wnioskowanie,12340.htm",
+   "note": "Zasady, terminy i kaucja przy wnioskowaniu o miejsce w domu studenckim UMCS."
+  },
+  {
+   "url": "https://www.umcs.pl/pl/akademiki.htm",
+   "note": "Strona akademików UMCS."
+  },
+  {
+   "url": "http://akademiki.umlub.pl/pl/studenci-akademiki/cennik/",
+   "note": "Cennik domów studenckich Uniwersytetu Medycznego w Lublinie."
+  },
+  {
+   "url": "http://akademiki.umlub.pl/download/gfx/akademiki/pl/defaultmultilistaplikow/14/19/1/zalacznik_do_zarzadzenia_nr_160_2026_rektora_uniwersytetu_medycznego_w_lublinie_z_dnia_20_lipca_2026_roku-1.pdf",
+   "note": "Załącznik do zarządzenia nr 160/2026 rektora UM, tabela opłat 2026/2027."
+  },
+  {
+   "url": "http://akademiki.umlub.pl/download/gfx/akademiki/pl/defaultopisy/72/1/1/zalacznik_nr_8_2026_2027.pdf",
+   "note": "Regulamin zakwaterowania w domach studenckich UM w Lublinie."
+  },
+  {
+   "url": "https://akademiki.umlub.pl/",
+   "note": "Aktualności akademików Uniwersytetu Medycznego w Lublinie."
+  },
+  {
+   "url": "https://rentier.io/ceny-najmu/polska/lubelskie/powiat-lublin/lublin",
+   "note": "Dane nieoficjalne: mediana ofertowa wynajmu w Lublinie."
+  },
+  {
+   "url": "https://study.gov.pl/cost-living-poland",
+   "note": "Ogólnopolski miesięczny budżet studenta (NAWA, Study in Poland)."
+  },
+  {
+   "url": "https://study.gov.pl/accommodation",
+   "note": "Ogólne informacje NAWA o akademikach i wynajmie pokoju w Polsce."
+  }
+ ]
+}

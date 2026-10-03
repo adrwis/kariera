@@ -1,0 +1,290 @@
+[
+ {
+  "city": "amsterdam",
+  "item": "rent[0], rent[1], rent[2]",
+  "field": "rent[].year",
+  "severity": "drobne",
+  "problem": "Wiersze wynajmu mają year=2026, choć strony VU nie mają daty publikacji (sam wiersz VU przyznaje to w notes).",
+  "evidence": "notes: \"Strona podaje tylko dolną granicę i nie ma daty publikacji.\"",
+  "proposedFix": "Zostawić rok pobrania tylko w notes albo dopisać w etykiecie \"bez daty publikacji na stronie\"."
+ },
+ {
+  "city": "amsterdam",
+  "item": "dorms[3]",
+  "field": "applicationInfo",
+  "severity": "drobne",
+  "problem": "Terminy 15 maja i 15 listopada bez roku, a treść odwołuje się do jesieni 2025; czytelnik może wziąć je za aktualne.",
+  "evidence": "\"(strona nie podaje roku, a jej treść odwołuje się do jesieni 2025)\"",
+  "proposedFix": "Dopisać, że daty mogą być nieaktualne i trzeba sprawdzić termin na stronie VU."
+ },
+ {
+  "city": "amsterdam",
+  "item": "rent[3]",
+  "field": "official/type",
+  "severity": "drobne",
+  "problem": "Studio DUWO (cena akademika instytucjonalnego) jest w tabeli wynajmu jako official=true \"kawalerka (studio)\"; notes to wyjaśnia, ale konstrukcja \"a nie rynkowa\" to antyteza.",
+  "evidence": "notes: \"...to cena instytucjonalna, a nie rynkowa.\"",
+  "proposedFix": "Zmienić na \"to cena akademika instytucjonalnego\" bez antytezy; rozważyć usunięcie wiersza z tabeli wynajmu (jest już w dorms[3])."
+ },
+ {
+  "city": "amsterdam",
+  "item": "summary[1], gaps[0]",
+  "field": "text",
+  "severity": "drobne",
+  "problem": "Żargon zbierania danych: \"nie udało się potwierdzić\", \"zablokowały dostęp do swoich raportów\", \"Nie sprawdzono osobno\".",
+  "evidence": "summary[1]: \"Oficjalnych cen ... nie udało się potwierdzić.\"; gaps[0], gaps[3]",
+  "proposedFix": "Przeredagować na \"uczelnie nie podają cen mieszkań 1- i 2-pokojowych\"; usunąć wzmianki o blokadzie portali."
+ },
+ {
+  "city": "rotterdam",
+  "item": "summary[3]",
+  "field": "text",
+  "severity": "drobne",
+  "problem": "Okres oczekiwania \"ponad 15 miesięcy\" w źródle dotyczy Stadswonen/SSH ogólnie (\"often more than 15 months\"), a w zdaniu stoi jako cecha pokoi socjalnych SSH; skrót myślowy, ale kwota 25 euro jest potwierdzona (strona EUR private-market, tylko dla Stadswonen).",
+  "evidence": "EUR arranging-your-stay: \"The waiting time is often more than 15 months\"",
+  "proposedFix": "Napisać \"czas rejestracji w Stadswonen i SSH to często ponad 15 miesięcy\"."
+ },
+ {
+  "city": "rotterdam",
+  "item": "rent[0]",
+  "field": "includesUtilities",
+  "severity": "drobne",
+  "problem": "includesUtilities=nie wiadomo przy kwocie 700 do 1000, choć ta sama widełka na stronie kosztów życia dotyczy \"furnished, including utilities\", a na stronie arranging-your-stay mowa, że media nie zawsze są w czynszu. Źródła sobie przeczą i wiersz to opisuje, ale lepiej oznaczyć jako sprzeczne.",
+  "evidence": "costs-living: \"Accommodation (furnished, including (shared or individual) utilities) - on average €700 - €1000\"",
+  "proposedFix": "Dopisać w notes \"uczelnia podaje to z mediami i bez mediów w różnych miejscach\"."
+ },
+ {
+  "city": "rotterdam",
+  "item": "gaps[0], gaps[4]",
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Żargon: \"portale najmu zablokowały dostęp\", \"Nie sprawdzono osobno\".",
+  "evidence": "gaps[0], gaps[4]",
+  "proposedFix": "Przeformułować na opis tego, czego nie podają uczelnie."
+ },
+ {
+  "city": "groningen",
+  "item": "budget",
+  "field": "from/to vs text",
+  "severity": "ważne",
+  "problem": "Budżet 800 do 1000 euro to zdanie RUG, ale pozycje wymienione w tekście budżetu (czynsz 450-650, jedzenie 200-300, nauka 80, telefon 26, inne 157, ubezpieczenie 100-120 na stronie) sumują się do ok. 1000 do 1300 euro, więc tekst \"obejmuje...\" sugeruje rachunek, który się nie zgadza z kwotą. Brak informacji, że to RUG podaje średnią \"doświadczenia\", a nie sumę tabeli. W tekście brakuje też kwoty ubezpieczenia.",
+  "evidence": "RUG: \"students will spend on average €800-1.000 per month\"; tabela: Rent 450-650, Food 200-300, Study 80, Phone 26, Insurance 100-120, Additional 157",
+  "proposedFix": "Zostawić 800 do 1000 jako średnią RUG i dopisać, że szczegółowa tabela uczelni daje wyższą sumę (ok. 1000 do 1300 euro w zależności od czynszu)."
+ },
+ {
+  "city": "groningen",
+  "item": "dorms[0]",
+  "field": "applicationInfo",
+  "severity": "drobne",
+  "problem": "Daty 21 października i 11 listopada podane bez roku w polu danych (rok 2026 przyjęty z daty modyfikacji strony, co jest tylko w gaps).",
+  "evidence": "RUG: \"opens October 21 (10:00) ... booking starts November 11\"; \"Last modified: 16 September 2026\"",
+  "proposedFix": "Dopisać \"2026 (rok wnioskowany z daty ostatniej zmiany strony)\" albo zastąpić datą Hanze, która ma rok."
+ },
+ {
+  "city": "groningen",
+  "item": "summary[1], gaps[4]",
+  "field": "text",
+  "severity": "drobne",
+  "problem": "Żargon: \"nie udało się potwierdzić\", \"Nie sprawdzono osobno\", \"przyjęto 2026\".",
+  "evidence": "summary[1], gaps[2], gaps[4]",
+  "proposedFix": "Przeformułować."
+ },
+ {
+  "city": "maastricht",
+  "item": "budget",
+  "field": "official/from/to",
+  "severity": "ważne",
+  "problem": "Budżet 1462 euro to suma wierszy tabeli UM policzona przez zbieracza, a pole ma official=true i from=to=1462, jakby uczelnia podawała tę kwotę. Tabela UM zawiera pozycję rozrywki 238 i opiera się na badaniu Nibud 2024 z korektą inflacji o lata 2022 i 2023, czyli nie jest cennikiem na 2026/27. Fakt jest ujawniony w tekście i gaps, ale summary[2] pisze \"dają razem 1 462 euro\" bez zastrzeżenia.",
+  "evidence": "UM: \"figures from the 2024 Nibud national student survey ... adjusted for general inflation rates in 2022 and 2023\"; Rent 561, Groceries 272, Books 53, Transport 67, Leisure 238, Clothing 60, Health insurance 156, Phone 55 = 1462",
+  "proposedFix": "Podać budżet jako \"około 1460 euro (suma pozycji tabeli UM, dane Nibud 2024)\" z opisem, że to szacunek studenta krajowego, a nie oficjalna kwota dla zagranicznych; rozważyć official=false/uwaga."
+ },
+ {
+  "city": "maastricht",
+  "item": "rent[0], rent[1]",
+  "field": "official",
+  "severity": "ważne",
+  "problem": "MyMaastricht jest oznaczony official=true, ale jest to portal informacyjny, a nie strona uczelni ani urzędu (UM tylko do niego odsyła). Według zasad planu wynajem z innych niż oficjalne źródeł wymaga official=false i etykiety \"dane nieoficjalne\".",
+  "evidence": "source: \"MyMaastricht (portal informacyjny dla studentów, do którego odsyła UM)\"; mymaastricht.nl: \"We estimate that the average basic rent for a room in Maastricht should fall around the €500 mark.\"",
+  "proposedFix": "Zmienić na official=false z etykietą \"dane nieoficjalne\" albo wykazać, że portal prowadzi uczelnia lub miasto."
+ },
+ {
+  "city": "maastricht",
+  "item": "rent[2], rent[3], rent[4]",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "Dane nieoficjalne (Kamernet) mają link i oznaczenie, ale pochodzą ze strony ogłoszeń bez daty i bez metodyki (\"typically\", \"average\"), a sformułowanie notes \"sprawdzona 2026-10-03\" to żargon zbierania. Wiersz mieszkania nie podaje liczby pokoi.",
+  "evidence": "Kamernet: \"apartments cost an average of around €930 per month, studios ... €795 ..., a single room typically costs €482\"",
+  "proposedFix": "Usunąć \"sprawdzona 2026-10-03\", zostawić \"bez daty publikacji\"."
+ },
+ {
+  "city": "maastricht",
+  "item": "dorms[0]",
+  "field": "sourceUrl/quote",
+  "severity": "drobne",
+  "problem": "Kaucja (30 dni czynszu), opłata za sprzątanie 60/75/100 euro i rejestracja 35 euro pochodzą ze stron maastrichthousing.com (Process_Student_GH, strona główna), a sourceUrl i quote wskazują na stronę UM, która tych kwot nie zawiera (potwierdzone dosłownie na stronach Maastricht Housing). Limit wieku 31 lat nie znalazł się ani na stronie UM, ani na Process_Student_GH w tej kopii.",
+  "evidence": "UM guesthouse: brak \"cleaning\", \"35\"; maastrichthousing.com/Process_Student_GH.html: \"A one-time cleaning fee, €60,-, €75,- or €100,-\"",
+  "proposedFix": "Dodać drugi sourceUrl albo przenieść cytat; zweryfikować limit 31 lat i podać źródło."
+ },
+ {
+  "city": "maastricht",
+  "item": null,
+  "field": "dorms[].priceFrom/priceTo",
+  "severity": "ważne",
+  "problem": "Żaden z trzech wpisów akademików nie ma ceny (null), więc sekcja Akademiki nie podaje żadnej kwoty. Jest to uczciwe i opisane w gaps, ale summary[0] nie mówi wprost, że cen nie ma.",
+  "evidence": "dorms[0..2] priceFrom=null; summary[0] nie wspomina o braku cen",
+  "proposedFix": "W summary[0] dopisać \"ceny pokoi widać dopiero po wyborze dat na platformie Maastricht Housing\"."
+ },
+ {
+  "city": "maastricht",
+  "item": "summary",
+  "field": "text",
+  "severity": "drobne",
+  "problem": "Niespójny zapis waluty (\"EUR\" z liczbą, gdy w pozostałych miastach holenderskich \"euro\") i żargon w gaps (\"nie ma cen ... bo pojawiają się dopiero w wyszukiwarkach\", \"policzono\"). Antyteza w gaps[3]: \"a nie osobną kwotą podaną przez uczelnię\".",
+  "evidence": "gaps[3]",
+  "proposedFix": "Ujednolicić zapis waluty w całej zakładce; przeredagować gaps[3]."
+ },
+ {
+  "city": "bruksela",
+  "item": "dorms[0]",
+  "field": "priceTo",
+  "severity": "ważne",
+  "problem": "priceTo=674 to czynsz za mieszkanie dwuosobowe (cały lokal dla dwóch osób), a priceFrom=449,30 to cena za pokój jednoosobowy; zakres miesza ceny za miejsce i za lokal. includes mówi \"mieszkanie dwuosobowe 674 EUR\" bez wskazania, czy to za osobę czy za lokal. Studio 561,60 jest tylko dla osób z potrzebami medycznymi.",
+  "evidence": "VUB: \"€ 449,30 /month for a standard student room; € 561,60 /month for a single studio*; € 674,00 /month for a two-person flat**\"; * limited, reserved for students with a medical need",
+  "proposedFix": "Zmienić zakres na 449,30 (standardowy pokój) i opisać studio i mieszkanie dwuosobowe osobno z jednostką \"za lokal\"."
+ },
+ {
+  "city": "bruksela",
+  "item": "rent[2], rent[3]",
+  "field": "type/official",
+  "severity": "drobne",
+  "problem": "W tabeli \"Wynajem\" są ceny akademika ULB i SVKS (dla studentów o niskich dochodach) jako official=true \"kawalerka (studio)\"; notes to opisuje, ale tabela wynajmu rynkowego jest w praktyce pusta (jedyna rynkowa to nieoficjalne 1086 Spotahome). Summary[1] \"Wynajem\" wymienia ceny akademika VUB i ULB.",
+  "evidence": "notes: \"Czynsz w akademiku uczelni, nie rynkowy.\" (antyteza)",
+  "proposedFix": "Przenieść do dorms albo oznaczyć jako \"cena akademika\"; zmienić zdanie bez antytezy."
+ },
+ {
+  "city": "bruksela",
+  "item": "rent[0]",
+  "field": "type",
+  "severity": "drobne",
+  "problem": "Wiersz Brik ma typ \"pokój w mieszkaniu współdzielonym\", a źródło mówi tylko o pokoju w centrum od 350 euro bez mediów.",
+  "evidence": "VUB: \"The price for a room in the centre of Brussels starts at € 350, excluding utilities.\"",
+  "proposedFix": "Zmienić typ na \"pokój studencki (Brik)\"."
+ },
+ {
+  "city": "bruksela",
+  "item": "gaps[5]",
+  "field": "text",
+  "severity": "drobne",
+  "problem": "Żargon: \"w dniu odczytu\", \"Nie znaleziono\", \"ceny sprawdzono tylko dla rezydencji ...\".",
+  "evidence": "gaps[5]: \"była w dniu odczytu w przedłużonej przerwie technicznej.\"",
+  "proposedFix": "Usunąć lub zmienić na \"strona platformy PLE bywa niedostępna\"."
+ },
+ {
+  "city": "bruksela",
+  "item": "budget",
+  "field": "text",
+  "severity": "drobne",
+  "problem": "Tabela VUB sumuje się do ok. 940 do 1330 euro (mieszkanie 500-650, energia 100-130, jedzenie 300-400, ubezpieczenie 12-100, telefon 30-50) i zawiera jednorazową kaucję 1000 euro oraz tuition; \"około 1000\" to zdanie VUB, więc OK, ale pole from=to=1000 nie oddaje, że to średnia.",
+  "evidence": "VUB: \"Make sure to provide about € 1000 per month, excluding your tuition fee and course materials.\"",
+  "proposedFix": "Dopisać \"średnio około 1000 euro; tabela VUB daje 940 do 1330 euro\"."
+ },
+ {
+  "city": "lowanium",
+  "item": "rent[3]",
+  "field": "type",
+  "severity": "ważne",
+  "problem": "Typ \"mieszkanie 1-pokojowe lub większe\" nie ma pokrycia w źródle: KU Leuven opisuje \"apartment or house\" 40 do 300 m2 bez liczby pokoi i wprost pisze, że studenci rzadko wybierają ten typ. Etykieta sugeruje 1-pokojowe, a przedział 800-2000 dotyczy domów do 300 m2.",
+  "evidence": "KU Leuven: \"Apartment or house ... 40 m² - 300m² ... 800 - 2,000 per month (additional costs not included)\"",
+  "proposedFix": "Zmienić typ na \"mieszkanie lub dom (40 do 300 m2)\" i nie podpinać do kategorii 1-pokojowych."
+ },
+ {
+  "city": "lowanium",
+  "item": "dorms[3]",
+  "field": "applicationInfo",
+  "severity": "ważne",
+  "problem": "Pominięty aktualny termin: nowi studenci na semestr wiosenny mogą składać wniosek do Central Services od 21 marca do 8 listopada 2026, a to najbliższa data użyteczna dla czytelnika (dziś 3 października 2026). Pole mówi tylko o terminach 2026/27 i że terminów 2027/28 brak.",
+  "evidence": "KU Leuven Central Services: \"I am a new student, and I want to rent a room for the 2nd semester (spring): Submit your application between 21 March and 8 November 2026.\"",
+  "proposedFix": "Dopisać termin 8 listopada 2026 dla semestru wiosennego (zweryfikować pełne brzmienie)."
+ },
+ {
+  "city": "lowanium",
+  "item": "summary[0]",
+  "field": "text",
+  "severity": "drobne",
+  "problem": "Zdanie \"KU Leuven nie przydziela zakwaterowania automatycznie, ale ma własne akademiki\" jest zlepione i nie wynika ze źródła; źródło mówi o 20 procentach pokoi w akademikach i 80 procentach na rynku prywatnym.",
+  "evidence": "KU Leuven: \"About 80% of the available rooms are in private market rooms, 20% in one of the university residence halls.\"",
+  "proposedFix": "Przeredagować: \"W Leuven około 20 procent pokoi to akademiki uczelni, reszta to rynek prywatny.\""
+ },
+ {
+  "city": "lowanium",
+  "item": "rent[0], rent[2], rent[3]",
+  "field": "notes/year",
+  "severity": "drobne",
+  "problem": "Notes: \"Strona bez daty publikacji, sprawdzona 2026-10-03\" (żargon zbierania); w summary mieszają się widełki bez roku z średnią za rok 2025/2026.",
+  "evidence": "rent[0].notes",
+  "proposedFix": "Usunąć \"sprawdzona 2026-10-03\"; zostawić \"strona bez daty\"."
+ },
+ {
+  "city": "lowanium",
+  "item": "gaps",
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Żargon: \"Nie sprawdzono bieżących ofert\", \"przyjęto zapis z treści głównej\", \"w meta opisie\".",
+  "evidence": "gaps[2], gaps[3]",
+  "proposedFix": "Przeformułować lub usunąć."
+ },
+ {
+  "city": "berlin",
+  "item": "summary[0]",
+  "field": "text",
+  "severity": "ważne",
+  "problem": "Liczby \"32 do 33 akademikami\" i \"ok. 9 500 miejsc\" nie mają potwierdzenia na stronach studierendenWERK, które pobrałem (strona stw.berlin podaje \"32 halls of residence\" i \"175,000 students\"; liczby 9 500 i 33 nie znalazłem na żadnej ze stron z listy sources). Sformułowanie \"32 do 33\" jest nieprecyzyjne.",
+  "evidence": "stw.berlin: \"The 32 halls of residence of the studierendenWERK ...\"; \"does not have enough places for the 175,000 students\"; brak \"9,500\" w pobranych stronach",
+  "proposedFix": "Zostawić \"32 akademiki\" i usunąć 9 500 albo podać stronę i cytat źródła tej liczby."
+ },
+ {
+  "city": "berlin",
+  "item": "rent[0], rent[1], rent[2]",
+  "field": "year",
+  "severity": "ważne",
+  "problem": "Wszystkie wiersze wynajmu mają year=2026, choć strony HTW i FU nie podają roku (gaps[0] mówi o \"roku pobrania\", co jest żargonem i wprowadza w błąd: czytelnik widzi rok danych). Notes przyznają brak daty.",
+  "evidence": "HTW: \"Average room in a shared apartment: approx. 659 EUR\" (bez daty); FU: \"Shared room (WG): around €650; One-room apartment: around €1000\"",
+  "proposedFix": "Usunąć rok albo oznaczyć \"bez daty na stronie źródłowej (odczyt 2026)\" poza polem year."
+ },
+ {
+  "city": "berlin",
+  "item": "dorms[3]",
+  "field": "priceFrom/priceTo",
+  "severity": "ważne",
+  "problem": "Zakres 499 do 699 euro to trzy przykładowe oferty (\"Einrichtungsbeispiel\") z jednej strony głównej, a nie cennik operatora; pole sugeruje przedział cen. Notes to ujawnia, ale priceFrom/priceTo wyglądają jak widełki całej oferty.",
+  "evidence": "home-in-berlin.de: \"Einrichtungsbeispiel nur 699 € mtl.\", \"549 €\", \"499 €\"",
+  "proposedFix": "Podać jako \"przykłady 499, 549, 699 euro\" w tekście, a priceFrom/priceTo zostawić z dopiskiem w includes lub null."
+ },
+ {
+  "city": "berlin",
+  "item": "dorms[0..2]",
+  "field": "includes",
+  "severity": "drobne",
+  "problem": "Brak informacji, co obejmuje czynsz, we wszystkich trzech akademikach studierendenWERK (opisane uczciwie), ale summary[0] podaje ceny bez tego zastrzeżenia; czytelnik porówna je z cenami z mediami w innych miastach.",
+  "evidence": "includes: \"Strona akademika nie podaje wprost, co obejmuje czynsz.\"",
+  "proposedFix": "Dopisać w summary[0], że strony nie podają zakresu opłat."
+ },
+ {
+  "city": "berlin",
+  "item": "gaps[5], gaps[0], gaps[3]",
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Żargon zbierania danych: \"Portal DAAD ... odrzuca zapytania\", \"rok pobrania\", \"Nie znaleziono\".",
+  "evidence": "gaps[5]: \"Portal DAAD (Study in Germany) odrzuca zapytania\"",
+  "proposedFix": "Przeformułować lub usunąć."
+ },
+ {
+  "city": "berlin",
+  "item": "budget",
+  "field": "from/to",
+  "severity": "drobne",
+  "problem": "Budżet 700 do 1600 euro to szeroki przedział HTW, w którym dolna granica zakłada tanie mieszkanie i brak ubezpieczenia; nie jest to wymóg wizowy, więc nie ma błędu, ale rozpiętość mówi mało. Dodatkowe \"dwie opłaty semestralne rocznie\" bez kwoty.",
+  "evidence": "HTW: \"Total between 700 - 1,600 EUR ... In addition, per year: 2x semester fee incl. semester ticket\"",
+  "proposedFix": "Dopisać, że kwoty semestralnej HTW nie podaje na tej stronie."
+ }
+]

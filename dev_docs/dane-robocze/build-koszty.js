@@ -36,7 +36,7 @@ function normalize(raw, meta) {
   })).filter(r => r.type && (r.priceFrom != null || r.priceTo != null) && r.sourceUrl);
   const b = raw.budget || null;
   const budget = b && (num(b.from) != null || num(b.to) != null) && url(b.sourceUrl)
-    ? { from: num(b.from), to: num(b.to), currency: cur(b.currency, currency), period: txt(b.period) || 'miesiąc', text: txt(b.text), sourceUrl: url(b.sourceUrl), official: b.official !== false } : null;
+    ? { from: num(b.from), to: num(b.to), currency: cur(b.currency, currency), period: txt(b.period) || 'miesiąc', text: txt(b.text), sourceUrl: url(b.sourceUrl), official: b.official !== false, kind: ['wymog', 'suma', 'szacunek'].includes(b.kind) ? b.kind : 'szacunek' } : null;
   return {
     slug: meta.slug, name: meta.name, country: meta.country, region: meta.region, currency, retrieved: txt(raw.retrieved) || '',
     summary: (raw.summary || []).map(s => ({ label: txt(s.label), text: txt(s.text) })).filter(s => s.label && s.text),
@@ -46,6 +46,12 @@ function normalize(raw, meta) {
   };
 }
 
+// Ogólnopolski budżet miesięczny studenta (oficjalny portal Study in Poland, NAWA) dla wszystkich miast w Polsce
+const BUDGET_PL = {
+  from: 1500, to: 2000, currency: 'PLN', period: 'miesiąc', official: true, kind: 'szacunek',
+  sourceUrl: 'https://study.gov.pl/cost-living-poland',
+  text: 'Ogólnopolski szacunek oficjalnego portalu Study in Poland (NAWA): średnie miesięczne wydatki studenta to 1 500 do 2 000 zł (330 do 430 EUR). Składniki według źródła: akademik 400 do 600 zł, zakupy spożywcze 700 do 900 zł, rozrywka 150 do 200 zł, telefon i internet 80 do 100 zł, transport publiczny 50 do 60 zł, ubezpieczenie zdrowotne 40 do 60 zł. Portal zaznacza, że w stolicy i miastach turystycznych jest drożej. Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł, więc przy droższym pokoju suma będzie wyższa.',
+};
 const zIdx = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'zagranica', 'index.json'), 'utf8')).cities;
 const METAS = [
   ...zIdx.map(c => ({ slug: c.slug, name: c.name, country: c.country, region: 'zagranica', currency: 'EUR' })),
@@ -62,6 +68,7 @@ for (const meta of METAS) {
     index.push({ slug: meta.slug, name: meta.name, country: meta.country, region: meta.region, status: 'w przygotowaniu', dorms: 0, rent: 0, budget: false });
     continue;
   }
+  if (meta.region === 'polska') data.budget = Object.assign({}, BUDGET_PL);
   walk(data);
   fs.writeFileSync(path.join(OUT, meta.slug + '.json'), JSON.stringify(data));
   index.push({ slug: meta.slug, name: meta.name, country: meta.country, region: meta.region, status: 'dostępne', currency: data.currency, dorms: data.dorms.length, rent: data.rent.length, budget: !!data.budget });

@@ -1,0 +1,389 @@
+[
+ {
+  "city": "ryga",
+  "item": "Wynajem: kawalerka i pokój we wspólnym mieszkaniu",
+  "field": "rent[0..1].year",
+  "severity": "ważne",
+  "problem": "Pole „Rok danych” pokazuje 2026, choć notatka w tym samym wierszu mówi, że strona Study in Latvia nie podaje roku. Czytelnik zobaczy datę, której źródło nie potwierdza.",
+  "evidence": "rent[0].year=\"2026\" i notes: „Strona nie podaje roku, z którego pochodzą kwoty”; studyinlatvia.lv/latvia/live nie zawiera daty cennika.",
+  "proposedFix": "Ustawić year na „bez daty” (jak w Bukareszcie i Nikozji)."
+ },
+ {
+  "city": "ryga",
+  "item": null,
+  "field": "budget / dorms",
+  "severity": "ważne",
+  "problem": "Budżet 450 do 700 EUR (Study in Latvia) obejmuje akademik 70 do 120 EUR, który jest dwa do trzech razy niższy od cen uczelni (114 do 291 EUR). Ostrzeżenie jest tylko w summary, a budget.text mówi, że portal nie wyjaśnia składu kwoty. Dolna granica budżetu jest więc zaniżona.",
+  "evidence": "studyinlatvia.lv: „€70 - €120 dormitories or student hostel; €250 - €350 solo flat rent; €100 - €200 shared flat rent”; lu.lv: 114 do 291 EUR.",
+  "proposedFix": "Dopisać do budget.text jedno zdanie: dolna granica opiera się na cenach akademików niższych niż aktualny cennik uczelni."
+ },
+ {
+  "city": "ryga",
+  "item": null,
+  "field": "summary[0], gaps[0,1,4], sources[3]",
+  "severity": "ważne",
+  "problem": "Żargon zbierania danych widoczny dla czytelnika: „nie udało się otworzyć”, „błąd 403 (blokada)”, „nie odnaleziono”, „Raportów portali najmu nie użyto”, „odpowiedź 403”.",
+  "evidence": "summary[0]: „Strony Politechniki Ryskiej (RTU) nie udało się otworzyć, a Uniwersytetu Stradiņša nie odnaleziono.”",
+  "proposedFix": "Przepisać na „Dla Politechniki Ryskiej i Uniwersytetu Stradiņša brak oficjalnych cen na stronach dostępnych publicznie” i usunąć wzmiankę o kodzie 403 oraz zdanie o raportach portali."
+ },
+ {
+  "city": "ryga",
+  "item": "Hotel Valdemāra 161",
+  "field": "dorms[0].name / priceFrom/priceTo",
+  "severity": "drobne",
+  "problem": "Nazwa mówi „pokój dwuosobowy” i zakres 152 do 181 EUR, a summary zbiorczo podaje 114 do 291 EUR (wlicza pokoje czteroosobowe 114). Zakres w karcie i w streszczeniu nie jest spójny, ale oba są prawdziwe.",
+  "evidence": "lu.lv: Double 152-181, Triple 142-161, Quadruple 114 (od 1 lipca 2026).",
+  "proposedFix": "Opcjonalnie doprecyzować w streszczeniu: „od 114 euro za miejsce w pokoju czteroosobowym”."
+ },
+ {
+  "city": "ryga",
+  "item": null,
+  "field": "label twardej spacji",
+  "severity": "drobne",
+  "problem": "Przyimki jednoliterowe (w, z, i, a, o) są oddzielone zwykłą spacją, w całym pliku 40 miejsc, 0 spacji twardych.",
+  "evidence": "regex na ryga.json",
+  "proposedFix": "Wstawić U+00A0 po jednoliterowych przyimkach, jeśli projekt tego wymaga dla tekstów."
+ },
+ {
+  "city": "wilno",
+  "item": null,
+  "field": "budget (nagłówek „Miesięczny budżet studenta”)",
+  "severity": "ważne",
+  "problem": "Pod nagłówkiem „Miesięczny budżet studenta” strona pokazuje „od 221 EUR / miesiąc”. To formalne minimum środków przy rejestracji pobytu w Departamencie Migracji, kilkakrotnie niższe od realnych kosztów (sam akademik VILNIUS TECH 85 do 280 EUR, MRU do 550 EUR). Wyjaśnienie jest dopiero w drobnym tekście pod kwotą, a nagłówek i duża liczba sugerują szacunek wydatków; rodzic może uznać 221 EUR za koszt życia. Poprawne dane, mylące etykietowanie. (Treść bloku wyjaśnia, czym kwota jest, więc to wada etykiety, nie błąd danych.)",
+  "evidence": "vu.lt/en/admissions/visa-and-residence-permit: „Proofs of sufficient means of support (at least €221 per month)”; js/zagranica.js:352 nagłówek stały „Miesięczny budżet studenta”.",
+  "proposedFix": "Dodać do danych pole budget.kind=\"wymog\" i dla niego zmienić nagłówek na „Minimalne środki wymagane przy rejestracji pobytu (nie jest to szacunek wydatków)”, albo ukryć blok budżetu i zostawić informację w summary. Tekst zacząć od „Wymóg formalny:”."
+ },
+ {
+  "city": "wilno",
+  "item": "Wynajem: mieszkanie 1-pokojowe",
+  "field": "rent[0].year",
+  "severity": "ważne",
+  "problem": "Rok danych 2026, a notatka mówi, że strona nie podaje roku ani dzielnicy.",
+  "evidence": "rent[0].year=\"2026\"; vilniustech.lt/en/community/dormitories: „The price for a 1 bedroom flat in the city is around 200-400 EUR per month” bez daty.",
+  "proposedFix": "year: „bez daty”."
+ },
+ {
+  "city": "wilno",
+  "item": "Akademiki UW, VILNIUS TECH, MRU",
+  "field": "dorms[*]: cenniki bez roku",
+  "severity": "drobne",
+  "problem": "Cenniki VILNIUS TECH i MRU nie mają roku, i to jest opisane w „Uwagach” kart. Cennik UW z 1 sierpnia 2025 jest podpisany. Etykieta jest uczciwa, ale rok nie występuje w polu strukturalnym, więc w kartach nie ma go przy cenie.",
+  "evidence": "bustas.vu.lt/en/prices: „Price list from August 1st, 2025”; vilniustech i mruni bez daty.",
+  "proposedFix": "Dodać do nazwy lub includes „cennik bez daty” albo „cennik z 1 sierpnia 2025”, by informacja była przy cenie, nie tylko w Uwagach."
+ },
+ {
+  "city": "wilno",
+  "item": null,
+  "field": "summary[2], budget.text, gaps[0]",
+  "severity": "ważne",
+  "problem": "Antyteza „to X, a nie Y” trzykrotnie: „To dolna granica formalna, a nie typowy wydatek”, „To wymóg formalny, a nie szacunek typowych wydatków”, „formalne minimum ... a nie typowy wydatek”.",
+  "evidence": "summary[2].text, budget.text, gaps[0]",
+  "proposedFix": "Przepisać: „Jest to dolna granica formalna. Typowe wydatki są wyższe.”"
+ },
+ {
+  "city": "wilno",
+  "item": null,
+  "field": "summary[1], gaps[1,4], dorms[0].applicationInfo",
+  "severity": "drobne",
+  "problem": "Żargon zbierania: „znaleziono niewiele”, „raportów portali najmu nie użyto”, „w polu cen użyto stawek 90 do 130 euro”.",
+  "evidence": "gaps[1], gaps[4]",
+  "proposedFix": "Usunąć wzmianki o procesie zbierania, zostawić tylko to, czego brakuje dla czytelnika."
+ },
+ {
+  "city": "wilno",
+  "item": "Akademiki UW",
+  "field": "summary[0]",
+  "severity": "drobne",
+  "problem": "„miejsc jest bardzo mało” to przesada w stosunku do źródła („limited number of places”).",
+  "evidence": "bustas.vu.lt: „Due to the limited number of places...”",
+  "proposedFix": "„miejsc jest ograniczona liczba, więc nie każdy student je dostanie”."
+ },
+ {
+  "city": "wilno",
+  "item": "Akademik VILNIUS TECH",
+  "field": "applicationInfo",
+  "severity": "drobne",
+  "problem": "Termin 21 sierpnia podany bez roku, ale z adnotacją o braku roku. Poprawne.",
+  "evidence": "vilniustech.lt: „by August 21, 12:00 PM”",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "sofia",
+  "item": "Akademiki UW",
+  "field": "dorms[0..1]",
+  "severity": "drobne",
+  "problem": "Potwierdzone w zeskanowanym PDF (OCR): 40,40 EUR za pokój, 20,20 na osobę, 34,70 pokój jednoosobowy, depozyty 80 i 60, opłata semestralna 8, od 1.10.2026. PDF nie ma warstwy tekstowej, więc cytat nie jest weryfikowalny przez pdftotext.",
+  "evidence": "OCR: „Считано от 01.10.2026 г. ... цена 1,8 евро за кв. м.”; „40,40”; „34,70”; „80 (осемдесет) евро ... 60”",
+  "proposedFix": "Bez zmian w danych; w sources dopisać, że PDF to skan."
+ },
+ {
+  "city": "sofia",
+  "item": "Wynajem imot.bg (5 wierszy)",
+  "field": "rent[*]",
+  "severity": "drobne",
+  "problem": "Dane potwierdzone w tabeli imot.bg z 1.10.2026 (mediana ofert, EUR, kolumny Едностайни/Двустайни). Oznaczenie „dane nieoficjalne”, link i opis „ceny z ogłoszeń” są poprawne. Drobiazg: „kawalerka (studio)” to w źródle mieszkanie jednopokojowe (едностайни), co notatka wyjaśnia.",
+  "evidence": "imot.bg: Студентски град 480.61 / 651.38; Център 551.17 / 701.49; Младост 1 415.68; „определени чрез медиана стойност”",
+  "proposedFix": "Zmienić type na „mieszkanie 1-pokojowe (jedna izba)” dla spójności z innymi miastami."
+ },
+ {
+  "city": "sofia",
+  "item": null,
+  "field": "summary[2]",
+  "severity": "ważne",
+  "problem": "Zdanie „dlatego pole budżetu zostaje puste” to język struktury danych, nie tekst dla rodzica.",
+  "evidence": "summary[2].text",
+  "proposedFix": "„Nie ma oficjalnej szacunkowej kwoty miesięcznego budżetu studenta w Sofii.”"
+ },
+ {
+  "city": "sofia",
+  "item": null,
+  "field": "gaps[1], gaps[4], summary[1]",
+  "severity": "ważne",
+  "problem": "Żargon zbierania: „nie otwierał się w dniu zbierania danych”, „które udało się odnaleźć”, „nie znaleziono”.",
+  "evidence": "gaps[1], gaps[4]",
+  "proposedFix": "Usunąć odniesienia do dnia zbierania danych i do prób odnalezienia."
+ },
+ {
+  "city": "sofia",
+  "item": null,
+  "field": "summary[0]; dorms[0].eligibility",
+  "severity": "drobne",
+  "problem": "Cena 20 EUR miesięcznie za miejsce jest kilkanaście razy niższa niż w pozostałych stolicach i opisana poprawnie, ale brak jasnego sygnału, że to cena uczelni dla studentów Uniwersytetu Sofijskiego z rankingu komisji, a miejsc dla obcokrajowców nie potwierdzono (to jest w gaps).",
+  "evidence": "Zarządzenie RD-19-275; gaps[3]",
+  "proposedFix": "Dodać do summary[0]: „Zasady dla studentów zagranicznych nie zostały potwierdzone”."
+ },
+ {
+  "city": "bukareszt",
+  "item": "Akademik UB",
+  "field": "dorms[0].period / notes",
+  "severity": "ważne",
+  "problem": "Okres „miesiąc” jest przyjęty z układu tabeli, bo cennik UB (październik do grudnia 2025) nie podaje okresu rozliczeniowego. Cena wyświetla się jako „/ miesiąc” jak potwierdzona. Dodatkowo cennik dotyczy 2025, a strona w summary używa czasu przeszłego („wynosiły”), co jest uczciwe, ale karta tego nie powtarza przy cenie.",
+  "evidence": "Tarife-cazare-oct-dec-2025.pdf: „TARIFE CAZARE CĂMINE Octombrie-Decembrie 2025 ... -lei-” 250 do 315, bez słowa o miesiącu",
+  "proposedFix": "Dopisać w includes lub nazwie „cennik październik do grudnia 2025, okres rozliczenia nie jest podany w tabeli” albo zmienić period na „okres w cenniku”."
+ },
+ {
+  "city": "bukareszt",
+  "item": "Akademik C1 Tei UAUIM",
+  "field": "dorms[1].name / priceFrom/priceTo",
+  "severity": "ważne",
+  "problem": "Nazwa mówi „miejsce dotowane”, ale zakres 300 do 600 RON łączy stawkę dotowaną (300) z niedotowaną (600). Karta pokazuje „od 300 do 600 lei”, co dla czytelnika jest ceną miejsca dotowanego.",
+  "evidence": "dorms[1].name: „(miejsce dotowane)”, notes: „Wiersz pokazuje przedział od stawki dotowanej do niedotowanej”; uauim.ro decyzja 754",
+  "proposedFix": "Zmienić nazwę na „Akademik C1 Tei, UAUIM (miejsce dotowane 300 lei, niedotowane 600 lei)” bez słowa „dotowane” w tytule zakresu albo rozdzielić na dwa wiersze."
+ },
+ {
+  "city": "bukareszt",
+  "item": null,
+  "field": "rent[*].year",
+  "severity": "drobne",
+  "problem": "Cenniki bez roku są opisane („bez daty”, „stopka z 2021 roku”, widełki dla dużych miast, nie dla Bukaresztu). To jest uczciwe i potwierdzone. Zastrzeżenie: area „duże miasta, m.in. Bukareszt” sugeruje dane dla stolicy.",
+  "evidence": "studyinromania.gov.ro/accommodation: „If you live in big cities, some of the prices for rental are: studio 150 to 300; one bedroom 200 to 450; two bedroom 250 to 600”",
+  "proposedFix": "Bez zmian lub area „duże miasta Rumunii”."
+ },
+ {
+  "city": "bukareszt",
+  "item": null,
+  "field": "summary[4], gaps[3]",
+  "severity": "drobne",
+  "problem": "Żargon zbierania: „Z sześciu uczelni z danych miasta oficjalne informacje ... znaleziono dla trzech”, „nie znaleziono oficjalnych stron”.",
+  "evidence": "summary[4].text",
+  "proposedFix": "Przepisać na „Dla Politechniki, Uniwersytetu Budownictwa i Uniwersytetu Medycznego brak publicznych cenników akademików”."
+ },
+ {
+  "city": "bukareszt",
+  "item": null,
+  "field": "budget",
+  "severity": "drobne",
+  "problem": "Brak jednej kwoty jest opisany w summary składowymi (jedzenie 150 do 400 itd.), co jest zgodne ze źródłem. Brak bloku budżetu na stronie jest uzasadniony.",
+  "evidence": "studyinromania.gov.ro/living-cost",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "nikozja",
+  "item": null,
+  "field": "budget vs rent/dorms",
+  "severity": "ważne",
+  "problem": "Budżet EUC 500 do 550 EUR miesięcznie jest niższy niż przykładowy czynsz mieszkania 1-pokojowego (550 do 650) i niż rezydencje (600 do 850 miesięcznie, 150 do 350 tygodniowo, czyli około 650 do 1 500). Kwota wyraźnie nie obejmuje czynszu, ale tekst mówi tylko „nie wiadomo”. Czytelnik zobaczy sprzeczność w obrębie miasta.",
+  "evidence": "euc.ac.cy/en/campus-life/housing: „For the average student, it is calculated at between €500 and €550 per month” oraz „one-bedroom ... €550 to €650”",
+  "proposedFix": "Dopisać: „Kwota jest niższa niż typowy czynsz, więc najpewniej nie zawiera zakwaterowania; trzeba ją doliczyć do czynszu”, z zaznaczeniem, że to wniosek z porównania cen na tej samej stronie."
+ },
+ {
+  "city": "nikozja",
+  "item": null,
+  "field": "summary[4]",
+  "severity": "ważne",
+  "problem": "Zdanie jest niejasne i żargonowe: „Wszystkie cztery uczelnie z danych miasta oprócz Uniwersytetu Cypryjskiego są prywatne” (cztery oprócz jednej to trzy) oraz „UCY blokował dostęp do swoich stron, więc nie sprawdzono”.",
+  "evidence": "summary[4].text; gaps[0]: „zablokował dostęp (błąd 403)”",
+  "proposedFix": "„W Nikozji są cztery uczelnie. Trzy z nich są prywatne, a Uniwersytet Cypryjski jest publiczny; jego akademików nie opisano.” Usunąć „blokował” i „błąd 403”."
+ },
+ {
+  "city": "nikozja",
+  "item": "Platonos Residences, Unihalls Trinity, U-City",
+  "field": "dorms[0..2]",
+  "severity": "drobne",
+  "problem": "Ceny zweryfikowane dosłownie: 160 do 175 EUR tyg. i depozyt 1 000 EUR (Frederick), 166 do 202 (Unihalls Trinity), 180 do 195 (U-City). Tygodniowy okres jest widoczny przy cenie.",
+  "evidence": "residences.frederick.ac.cy/pricing; euc.ac.cy",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "nikozja",
+  "item": null,
+  "field": "rent[*].year",
+  "severity": "drobne",
+  "problem": "Rok „bez daty” jest uczciwy i zgodny ze źródłem. Brak oficjalnych danych statystycznych, ale ceny pochodzą od biura mieszkaniowego uczelni.",
+  "evidence": "euc.ac.cy",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "dublin",
+  "item": null,
+  "field": "budget (nagłówek „Miesięczny budżet studenta”)",
+  "severity": "ważne",
+  "problem": "Nagłówek jest „Miesięczny budżet studenta”, a wartość to „od 19 937 do 29 050 EUR / rok”. Okres jest podany przy kwocie, ale nagłówek się z nim kłóci. Kwota zawiera bilety lotnicze (2 000 EUR), opłaty imigracyjne i ubezpieczenie dla osób spoza UE, a tekst budżetu nie mówi, że dotyczy studenta spoza UE (zastrzeżenie jest tylko w gaps).",
+  "evidence": "tcd.ie/study/international/welcome/cost-of-living: „Undergraduate €19,937 – €29,050” (international students); „Airfares (variable) € 2,000”",
+  "proposedFix": "Zmienić nagłówek dla okresu „rok” na „Roczny koszt życia studenta”, dopisać do text „dla studenta spoza UE”. Ewentualnie pokazać też orientacyjny przelicznik miesięczny z wyraźną etykietą (np. około 1 650 do 2 400 EUR, podzielone przez 12)."
+ },
+ {
+  "city": "dublin",
+  "item": null,
+  "field": "summary[0], summary[1], dorms[1].notes, gaps[0,1,2]",
+  "severity": "ważne",
+  "problem": "Żargon zbierania: „do którego uczelnia nie udostępniła dostępu”, „który odrzucił połączenie (błąd 403)”, „raport Daft.ie ... odrzucił połączenie”, „Podstrony ... które sprawdzono, nie istnieją”, „Kaucji w Hampstead i Purcell House nie zweryfikowano”, „nie znaleziono”.",
+  "evidence": "summary[0].text; dorms[1].notes; gaps[0..2]; dorms[0].deposit",
+  "proposedFix": "Zastąpić zdaniem „Cennik pokoi UCD na 2026/27 jest w osobnym pliku na stronie uczelni, sprawdź go tam.” Usunąć kody błędów, „odrzucił połączenie”, „nie zweryfikowano” i „podstrony nie istnieją”."
+ },
+ {
+  "city": "dublin",
+  "item": "Trinity Hall",
+  "field": "dorms[2].roomType / priceFrom",
+  "severity": "drobne",
+  "problem": "roomType „pokój w mieszkaniu współdzielonym” nie jest potwierdzony na stronie (strona podaje m.in. „Ensuite Twin”, stawki od 178 EUR tyg.). Kwota 7 227 EUR to przybliżenie z tabeli kosztów, notatka to mówi, a przy 236 nocach stawka od 178 EUR tyg. daje ok. 6 000 EUR, więc 7 227 nie jest dolną granicą.",
+  "evidence": "tcd.ie/study/.../cost-of-living: „Trinity Hall ... Approx. annual cost €7,227”; tcd.ie/accommodation/1st-year-students: „Rates starting at €178 per week”",
+  "proposedFix": "roomType: „różne typy pokoi”; cenę opisać „około 7 227 EUR rocznie według tabeli kosztów Trinity”."
+ },
+ {
+  "city": "dublin",
+  "item": null,
+  "field": "summary[0]",
+  "severity": "drobne",
+  "problem": "„Dublin ma cztery uczelnie” bez źródła, a TU Dublin pominięty (gap to przyznaje).",
+  "evidence": "summary[0].text; gaps[2]",
+  "proposedFix": "Usunąć liczbę uczelni lub podać źródło."
+ },
+ {
+  "city": "dublin",
+  "item": "DCU, UCD, RTB",
+  "field": "dorms[0], dorms[1], rent[0..2]",
+  "severity": "drobne",
+  "problem": "Zweryfikowane dosłownie: DCU 6 666,24 do 7 442,48 EUR za 248 nocy, kaucje 847,50 do 900,30 EUR; UCD kaucja 750 EUR; RTB Q1 2026: 2 335, 1 951, 2 405, 2 301 EUR; TCD Cork Street 303 do 349,50 EUR tyg., Kavanagh 325 EUR tyg.",
+  "evidence": "dcuaccommodation.ie; ucd.ie/residences/feespayments; RTB-Rent-Index-Q1-2026.pdf; tcd.ie/accommodation",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "londyn",
+  "item": null,
+  "field": "budget (nagłówek „Miesięczny budżet studenta”)",
+  "severity": "ważne",
+  "problem": "Pod nagłówkiem „Miesięczny budżet studenta” strona pokazuje „1 529 GBP / miesiąc”. To wymóg środków przy wniosku o wizę studencką (do 9 miesięcy, kurs w Londynie), nie szacunek wydatków. Tekst bloku opisuje kwotę jako wymóg wizowy, ale nagłówek i brak słowa „minimum” przy kwocie (from=to, bez „od”) sugerują koszt życia. Dodatkowo kwota nie ma związku z cenami akademików (150 do 425 GBP tygodniowo, czyli około 650 do 1 840 GBP miesięcznie), więc rodzic nie zrozumie, że to nie jest suma wydatków. (Treść bloku wyjaśnia, czym kwota jest, więc to wada etykiety, nie błąd danych.)",
+  "evidence": "gov.uk/student-visa/money: „£1,529 per month (for up to 9 months) for courses in London”; js/zagranica.js:352 stały nagłówek",
+  "proposedFix": "Dla budżetu wizowego użyć nagłówka „Środki wymagane przy wizie studenckiej (nie szacunek wydatków)”, w pierwszym zdaniu tekstu: „To kwota, którą trzeba wykazać na koncie przy wniosku o wizę, a nie przewidywany koszt życia.” Ustawić from=1529,to=null, by wyświetlało „od”."
+ },
+ {
+  "city": "londyn",
+  "item": "Akademiki Imperial, Queen Mary, King's",
+  "field": "dorms[*].period",
+  "severity": "drobne",
+  "problem": "Ceny są tygodniowe i okres „/ tydzień” widnieje przy cenie; w summary i „Uwagach” jest też zdanie o tygodniach i 38 do 40 tygodniach. Etykieta uczciwa. Dla porównania z innymi miastami brakuje przeliczenia na miesiąc lub semestr.",
+  "evidence": "imperial fees; qmul: „£6,769.53 (£176.75 per week) to £12,603.38 (£329.07 per week) for a single room over 38.3 weeks”; kcl „Rooms from £169.00 per week”",
+  "proposedFix": "Opcjonalnie dodać do summary „około 650 do 1 800 GBP miesięcznie przy 4,3 tygodnia”."
+ },
+ {
+  "city": "londyn",
+  "item": "Imperial: najtańszy pokój",
+  "field": "dorms[0].notes",
+  "severity": "drobne",
+  "problem": "Notatka twierdzi, że najtańszy jest „dwuosobowy standardowy pokój w Southside za 150 GBP”. Na stronie Imperial 150 GBP to „Standard twin” w Wilson House (Southside ma twiny po 199 i 194 GBP).",
+  "evidence": "imperial.ac.uk/.../fees: „Wilson House ... Standard twin 36 £150 Total bed spaces: 382”",
+  "proposedFix": "Zastąpić „w Southside” przez „w Wilson House”."
+ },
+ {
+  "city": "londyn",
+  "item": "King's",
+  "field": "dorms[2].priceFrom/priceTo",
+  "severity": "drobne",
+  "problem": "169 do 414 GBP to ceny „od” w różnych rezydencjach (Vega, Battersea), a nie zakres pokoi; notatka to wyjaśnia. Pozostaje ryzyko, że „do 414” zostanie odczytane jako maksimum.",
+  "evidence": "kcl.ac.uk: „Vega ... Rooms from £169.00 per week”; „Battersea ... Rooms from £414.00 per week”",
+  "proposedFix": "priceTo ustawić na null, nazwę „od 169 GBP tyg.”, a 414 podać tylko w notatce."
+ },
+ {
+  "city": "londyn",
+  "item": "Wynajem ONS i HomeLet",
+  "field": "rent[0..1]",
+  "severity": "drobne",
+  "problem": "ONS 2 332 GBP (sierpień 2026) i HomeLet 2 272 GBP (wrzesień 2026) zweryfikowane. HomeLet ma „dane nieoficjalne”, link w polu Źródło. Obie liczby to średnia wszystkich lokali, nie pokój, co jest opisane. Wiersz ONS ma year „2026” poprawnie.",
+  "evidence": "ons.gov.uk: „Average rent was highest in London (£2,332) ... in August 2026”; homelet.co.uk: „Average rent in London £2,272 PCM”",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "londyn",
+  "item": null,
+  "field": "summary[1], gaps[0,1,4]",
+  "severity": "ważne",
+  "problem": "Żargon zbierania: „nie znaleziono”, „odrzucił połączenie” (Zoopla, PDF Queen Mary), „nie użyto”, „Sprawdzone strony uczelni nie podają”.",
+  "evidence": "gaps[0]: „raport portalu Zoopla odrzucił połączenie”; gaps[4]",
+  "proposedFix": "Usunąć zdania o odrzuconych połączeniach."
+ },
+ {
+  "city": "valletta",
+  "item": null,
+  "field": "budget.official / budget.text",
+  "severity": "ważne",
+  "problem": "Budżet 1 360 do 1 630 EUR to suma pozycji z tabeli uczelni policzona przez nas, ale ma official:true i nagłówek „Miesięczny budżet studenta”; zastrzeżenie jest w tekście („to nasze zsumowanie”). Plan zabrania wyprowadzania liczb. Suma jest arytmetycznie poprawna (550+450+30+80+50+200 = 1 360; 700+450+30+100+50+300 = 1 630).",
+  "evidence": "um.edu.mt/international/students/livingcosts: „Shared Accommodation: €550-700*; Food €450; Mobile/Wi-Fi €30; Laundry €80-100; Electricity/Water €50; Other €200-300”",
+  "proposedFix": "Oznaczyć jako „obliczone z pozycji uczelni” przy kwocie (osobna etykieta jak „dane nieoficjalne”) albo podać pozycje i usunąć sumę z pola budżetu."
+ },
+ {
+  "city": "valletta",
+  "item": "Wynajem University of Malta (3 wiersze)",
+  "field": "rent[*].year",
+  "severity": "ważne",
+  "problem": "Rok danych 2026, a notatki i gaps mówią, że strona UM nie podaje daty publikacji kwot.",
+  "evidence": "rent[0].notes: „Strona uczelni nie podaje daty publikacji kwot”; gaps[1]",
+  "proposedFix": "year: „bez daty”."
+ },
+ {
+  "city": "valletta",
+  "item": "Trzeci wiersz wynajmu",
+  "field": "rent[2]",
+  "severity": "drobne",
+  "problem": "To nie jest czynsz, tylko zalecany budżet na zakwaterowanie ze strony o wizie (EUR 550), zdublowany z wierszem pokoju. Notatka zawiera żargon: „W cytacie jest literówka w oryginale”.",
+  "evidence": "um.edu.mt/international/students/visa: „students budget some EUR 550 for accommodation, excluding utility bills”",
+  "proposedFix": "Usunąć wiersz (informacja jest w wierszu 1) lub przenieść do summary; usunąć zdanie o literówce."
+ },
+ {
+  "city": "valletta",
+  "item": null,
+  "field": "summary[0], summary[1], gaps[0,2], dorms[0].applicationInfo",
+  "severity": "ważne",
+  "problem": "Żargon zbierania: „jedyna uczelnia w tym mieście według naszych danych”, „nie udało się sprawdzić”, „odrzuciły połączenie”, „nie znaleziono”, „wyszukiwarka” (tu to wyszukiwarka pokoi, więc w porządku).",
+  "evidence": "summary[0].text; gaps[0]",
+  "proposedFix": "Usunąć „według naszych danych” i odniesienia do odrzuconych połączeń; napisać, że University of Malta ma kampus w Msidzie, a stolica to Valletta."
+ },
+ {
+  "city": "valletta",
+  "item": "Campus Hub UM, Msida Heights",
+  "field": "dorms[0..1]",
+  "severity": "drobne",
+  "problem": "Ceny zweryfikowane dosłownie: od 630 EUR mies., 21/23/43 EUR dziennie, kaucje 100/200/350 EUR, Msida Heights od 520 EUR mies. i 45 EUR dziennie. Prywatny operator jest opisany jako niezwiązany z uczelnią.",
+  "evidence": "campushubmalta.com/locations/campus-hub-um; .../campus-hub-plus-msida-heights",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "wszystkie",
+  "item": null,
+  "field": "twarde spacje / długie myślniki",
+  "severity": "drobne",
+  "problem": "Nie znaleziono długich myślników (U+2014, U+2013) w tekstach 8 miast. Kwoty z separatorem tysięcy mają U+00A0 tam, gdzie są (sofia, bukareszt, nikozja, dublin, londyn, valletta). Przyimki jednoliterowe mają zwykłą spację w całym korpusie; Ryga i Wilno nie mają żadnej twardej spacji, bo nie mają liczb czterocyfrowych w tekstach.",
+  "evidence": "regex na data/koszty/{ryga,wilno,sofia,bukareszt,nikozja,dublin,londyn,valletta}.json",
+  "proposedFix": "Opcjonalnie dodać post-processing: U+00A0 po jednoliterowych przyimkach w esc() renderera."
+ }
+]

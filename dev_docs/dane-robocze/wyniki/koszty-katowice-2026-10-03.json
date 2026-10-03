@@ -1,0 +1,194 @@
+{
+ "slug": "katowice",
+ "name": "Katowice",
+ "country": "Polska",
+ "currency": "PLN",
+ "retrieved": "2026-10-03",
+ "summary": [
+  {
+   "label": "Akademiki",
+   "text": "Największym operatorem jest Uniwersytet Śląski, który w Katowicach prowadzi Osiedle Akademickie w Ligocie i dom przy ul. Paderewskiego. Miejsce w pokoju dwuosobowym kosztuje od 741 zł do 1 071 zł miesięcznie, pokój jednoosobowy od 804 zł do 963 zł, a studio z łazienką 981 zł. Wnioski składa się w USOSweb, w roku 2026/2027 od 23 lipca do 24 września 2026 roku."
+  },
+  {
+   "label": "Wynajem",
+   "text": "Portal Rentier.io podaje, że mediana ofertowa wynajmu w Katowicach we wrześniu 2026 roku wynosiła 52 zł za metr kwadratowy miesięcznie, czyli około 2 590 zł za mieszkanie 50 m². To dane nieoficjalne, a źródła oficjalnego z cenami pokoi i kawalerek nie udało się potwierdzić."
+  },
+  {
+   "label": "Budżet miesięczny",
+   "text": "Study in Poland (NAWA) szacuje miesięczne wydatki studenta w Polsce na od 1 500 zł do 2 000 zł. Jest to kwota dla całego kraju, a nie osobno dla Katowic."
+  },
+  {
+   "label": "Jak szukać mieszkania",
+   "text": "Najpierw warto złożyć wniosek o akademik Uniwersytetu Śląskiego w USOSweb, bo to najtańsza opcja. Uniwersytet Ekonomiczny w Katowicach nie ma własnych akademików i na swojej stronie wskazuje partnerskie prywatne akademiki oraz agencje nieruchomości. Przy wynajmie prywatnym uczelnia radzi dokładnie przeczytać umowę przed podpisaniem i prosić o jej wersję w zrozumiałym języku."
+  },
+  {
+   "label": "Uwagi",
+   "text": "Ceny w akademikach UŚ są stawkami dla studentów tej uczelni na rok akademicki 2026/2027. Osoby spoza UŚ płacą więcej."
+  }
+ ],
+ "budget": {
+  "from": 1500,
+  "to": 2000,
+  "currency": "PLN",
+  "period": "miesiąc",
+  "text": "Ogólnopolski szacunek portalu Study in Poland (NAWA) dla studenta: czynsz w domu studenckim, transport miejski, ubezpieczenie zdrowotne, telefon i internet, jedzenie oraz rozrywka, łącznie od 1 500 zł do 2 000 zł miesięcznie. Portal nie podaje osobnej kwoty dla tego miasta, a pozycja o domu studenckim (od 400 zł do 600 zł) jest niższa od cen z obecnych cenników uczelni, więc rzeczywisty miesięczny koszt przy miejscu w akademiku może wyjść wyższy.",
+  "sourceUrl": "https://study.gov.pl/cost-living-poland",
+  "quote": "Average total expenses 1500 - 2000",
+  "official": true
+ },
+ "dorms": [
+  {
+   "deposit": "Zwrotna kaucja w wysokości jednej miesięcznej opłaty za miejsce (zarządzenie rektora nr 58/2026 z 27 kwietnia 2026 roku). Kaucja dotyczy DS 1 w Ligocie (ul. Studencka 15).",
+   "applyUrl": "https://us.edu.pl/student/komunikaty/akademiki-skladanie-podan-decyzje/",
+   "waitlist": null,
+   "notes": "Adres: ul. Studencka 15, 40-743 Katowice. Od 741 zł za miejsce w pokoju dwuosobowym, 804 zł za pokój jednoosobowy, 981 zł za studio z łazienką. Ceny dla studentów, doktorantów i pracowników UŚ, obowiązują od 1 września 2026 roku. Osoby spoza UŚ płacą więcej.",
+   "currency": "PLN",
+   "name": "Dom Studenta nr 1 (Osiedle Akademickie Katowice-Ligota)",
+   "operator": "Uniwersytet Śląski w Katowicach",
+   "url": "https://us.edu.pl/student/wsparcie-i-fundusze/akademiki-2/osiedle-akademickie-ligota/akademiki-katowice-ds-1/",
+   "roomType": "jednoosobowy, dwuosobowy, studio z łazienką",
+   "priceFrom": 741,
+   "priceTo": 981,
+   "period": "miesiąc",
+   "includes": "Bezpłatne Wi-Fi w całym budynku. Opłata dotyczy miejsca w pokoju lub całego pokoju, w zależności od typu.",
+   "eligibility": "Przyjmowani są studenci i doktoranci Uniwersytetu Śląskiego. Cudzoziemcy mogą dostać miejsce z puli rektorskiej, a osoby spoza uczelni płacą wyższe stawki. Pierwszeństwo mają osoby zamiejscowe w trudnej sytuacji materialnej.",
+   "applicationInfo": "Studenci UŚ składają wniosek elektronicznie w USOSweb, wybierając pulę swojego wydziału. Na rok 2026/2027 aplikowania ruszyły 23 lipca 2026 roku, a pule wydziałowe zamknięto 24 września 2026 roku o godzinie 23:59. Osoby spoza UŚ składają papierowy wniosek nr 7. Na kolejny rok akademicki warto sprawdzać stronę akademików już w lipcu.",
+   "sourceUrl": "https://us.edu.pl/student/wsparcie-i-fundusze/akademiki-2/osiedle-akademickie-ligota/akademiki-katowice-ds-1/",
+   "quote": "miejsce w pokoju 2-osobowym: 741,00 zł (doba: 24,70 zł)"
+  },
+  {
+   "deposit": "Kaucja według cennika dotyczy DS 1 w Katowicach-Ligocie i DS 5 w Sosnowcu. Dla pozostałych domów może być wymagana na podstawie regulaminu.",
+   "applyUrl": "https://us.edu.pl/student/komunikaty/akademiki-skladanie-podan-decyzje/",
+   "waitlist": null,
+   "notes": "Adres: ul. Studencka 17, Katowice. Pokój jednoosobowy 804 zł, studio z łazienką 981 zł. Ceny dla studentów, doktorantów i pracowników UŚ, obowiązują od 1 września 2026 roku. Osoby spoza UŚ płacą więcej.",
+   "currency": "PLN",
+   "name": "Dom Studenta nr 2 (Osiedle Akademickie Katowice-Ligota)",
+   "operator": "Uniwersytet Śląski w Katowicach",
+   "url": "https://us.edu.pl/student/wsparcie-i-fundusze/akademiki-2/osiedle-akademickie-ligota/akademiki-katowice-ds2/",
+   "roomType": "jednoosobowy, dwuosobowy, studio z łazienką",
+   "priceFrom": 741,
+   "priceTo": 981,
+   "period": "miesiąc",
+   "includes": "Bezpłatne Wi-Fi w całym budynku.",
+   "eligibility": "Przyjmowani są studenci i doktoranci Uniwersytetu Śląskiego. Cudzoziemcy mogą dostać miejsce z puli rektorskiej, a osoby spoza uczelni płacą wyższe stawki. Pierwszeństwo mają osoby zamiejscowe w trudnej sytuacji materialnej.",
+   "applicationInfo": "Studenci UŚ składają wniosek elektronicznie w USOSweb, wybierając pulę swojego wydziału. Na rok 2026/2027 aplikowania ruszyły 23 lipca 2026 roku, a pule wydziałowe zamknięto 24 września 2026 roku o godzinie 23:59. Osoby spoza UŚ składają papierowy wniosek nr 7. Na kolejny rok akademicki warto sprawdzać stronę akademików już w lipcu.",
+   "sourceUrl": "https://us.edu.pl/student/wsparcie-i-fundusze/akademiki-2/osiedle-akademickie-ligota/akademiki-katowice-ds2/",
+   "quote": "miejsce w pokoju 2-osobowym: 741,00 zł (doba: 24,70 zł)"
+  },
+  {
+   "deposit": "Kaucja według cennika dotyczy DS 1 w Katowicach-Ligocie i DS 5 w Sosnowcu. Dla pozostałych domów może być wymagana na podstawie regulaminu.",
+   "applyUrl": "https://us.edu.pl/student/komunikaty/akademiki-skladanie-podan-decyzje/",
+   "waitlist": null,
+   "notes": "Adres: ul. Studencka 16, 40-123 Katowice. Miejsce w pokoju dwuosobowym 894 zł, pokój jednoosobowy 963 zł. Ceny dla studentów, doktorantów i pracowników UŚ, obowiązują od 1 września 2026 roku. Osoby spoza UŚ płacą więcej.",
+   "currency": "PLN",
+   "name": "Dom Studenta nr 7 (Osiedle Akademickie Katowice-Ligota)",
+   "operator": "Uniwersytet Śląski w Katowicach",
+   "url": "https://us.edu.pl/student/wsparcie-i-fundusze/akademiki-2/osiedle-akademickie-ligota/akademiki-katowice-ds7/",
+   "roomType": "jednoosobowy i dwuosobowy w układzie segmentowym",
+   "priceFrom": 894,
+   "priceTo": 963,
+   "period": "miesiąc",
+   "includes": "Bezpłatne Wi-Fi w całym budynku. Dwa pokoje dzielą kuchnię i łazienkę.",
+   "eligibility": "Przyjmowani są studenci i doktoranci Uniwersytetu Śląskiego. Cudzoziemcy mogą dostać miejsce z puli rektorskiej, a osoby spoza uczelni płacą wyższe stawki. Pierwszeństwo mają osoby zamiejscowe w trudnej sytuacji materialnej.",
+   "applicationInfo": "Studenci UŚ składają wniosek elektronicznie w USOSweb, wybierając pulę swojego wydziału. Na rok 2026/2027 aplikowania ruszyły 23 lipca 2026 roku, a pule wydziałowe zamknięto 24 września 2026 roku o godzinie 23:59. Osoby spoza UŚ składają papierowy wniosek nr 7. Na kolejny rok akademicki warto sprawdzać stronę akademików już w lipcu.",
+   "sourceUrl": "https://us.edu.pl/student/wsparcie-i-fundusze/akademiki-2/osiedle-akademickie-ligota/akademiki-katowice-ds7/",
+   "quote": "pokój 1-osobowy: 963,00 zł (doba: 32,10 zł)"
+  },
+  {
+   "deposit": "Kaucja według cennika dotyczy DS 1 w Katowicach-Ligocie i DS 5 w Sosnowcu. Dla pozostałych domów może być wymagana na podstawie regulaminu.",
+   "applyUrl": "https://us.edu.pl/student/komunikaty/akademiki-skladanie-podan-decyzje/",
+   "waitlist": null,
+   "notes": "Adres: ul. Ignacego Paderewskiego 32, 40-282 Katowice, bliżej centrum miasta. Cała dwuosobowa kawalerka dla jednej osoby kosztuje 1 350 zł. Ceny dla studentów, doktorantów i pracowników UŚ, obowiązują od 1 września 2026 roku. Osoby spoza UŚ płacą więcej.",
+   "currency": "PLN",
+   "name": "Dom Studenta przy ul. Paderewskiego (DS 5, Katowice)",
+   "operator": "Uniwersytet Śląski w Katowicach",
+   "url": "https://us.edu.pl/student/wsparcie-i-fundusze/akademiki-2/osiedle-akademickie-ligota/akademiki-katowice-ds5/",
+   "roomType": "dwuosobowy typu studio",
+   "priceFrom": 1071,
+   "priceTo": 1350,
+   "period": "miesiąc",
+   "includes": "Wi-Fi Eduroam.",
+   "eligibility": "Przyjmowani są studenci i doktoranci Uniwersytetu Śląskiego. Cudzoziemcy mogą dostać miejsce z puli rektorskiej, a osoby spoza uczelni płacą wyższe stawki. Pierwszeństwo mają osoby zamiejscowe w trudnej sytuacji materialnej.",
+   "applicationInfo": "Studenci UŚ składają wniosek elektronicznie w USOSweb, wybierając pulę swojego wydziału. Na rok 2026/2027 aplikowania ruszyły 23 lipca 2026 roku, a pule wydziałowe zamknięto 24 września 2026 roku o godzinie 23:59. Osoby spoza UŚ składają papierowy wniosek nr 7. Na kolejny rok akademicki warto sprawdzać stronę akademików już w lipcu.",
+   "sourceUrl": "https://us.edu.pl/student/wsparcie-i-fundusze/akademiki-2/osiedle-akademickie-ligota/akademiki-katowice-ds5/",
+   "quote": "miejsce w pokoju 2-osobowym (typu studio): 1 071,00 zł (doba: 35,70 zł)"
+  }
+ ],
+ "rent": [
+  {
+   "type": "mieszkanie około 50 m²",
+   "area": "Katowice (całe miasto)",
+   "priceFrom": 2590,
+   "priceTo": 2590,
+   "currency": "PLN",
+   "period": "miesiąc",
+   "year": "2026",
+   "includesUtilities": "nie wiadomo",
+   "official": false,
+   "source": "Rentier.io, ceny najmu w Katowicach (dane nieoficjalne)",
+   "sourceUrl": "https://rentier.io/ceny-najmu/polska/slaskie/powiat-katowice/katowice",
+   "quote": "ok. 2 590 zł czynszu miesięcznie",
+   "notes": "Dane nieoficjalne: portal podaje przykład dla mieszkania 50 m² na podstawie mediany ofertowej 52 zł za metr kwadratowy we wrześniu 2026 roku (typowy zakres od 40 do 63 zł za metr). Najdroższe dzielnice według portalu to Bogucice, Brynów-Osiedle Zgrzebnioka i Dąb. Źródło nie podaje, czy kwota zawiera opłaty."
+  }
+ ],
+ "gaps": [
+  "Nie udało się potwierdzić cen wynajmu pokoju w mieszkaniu współdzielonym ani kawalerki w Katowicach. Oficjalny raport NBP o cenach i stawkach najmu był niedostępny (strona wyświetliła ekran weryfikacji), więc podano tylko jedną nieoficjalną wartość dla mieszkania 50 m².",
+  "Uniwersytet Ekonomiczny w Katowicach od roku 2019/2020 nie prowadzi własnych akademików i odsyła do prywatnych. Nie sprawdzono ofert prywatnych akademików (np. Basecamp by Xior), więc ich cen nie podano. Nie opisano też domów studenckich Śląskiego Uniwersytetu Medycznego ani innych uczelni.",
+  "Strony Uniwersytetu Śląskiego nie opisują listy rezerwowej, a regulamin nie rozróżnia obywateli Unii Europejskiej wśród cudzoziemców. Cudzoziemcy ubiegają się o miejsce z puli rektorskiej.",
+  "Oficjalny budżet miesięczny jest podany dla całej Polski, bez podziału na miasta. Pozycja o akademiku w tym szacunku jest niższa od aktualnych cen w Katowicach."
+ ],
+ "sources": [
+  {
+   "url": "https://us.edu.pl/student/wsparcie-i-fundusze/akademiki-2/",
+   "note": "Strona akademików Uniwersytetu Śląskiego i komunikaty o naborze."
+  },
+  {
+   "url": "https://us.edu.pl/student/wsparcie-i-fundusze/akademiki-2/cennik/",
+   "note": "Cennik i zasady kaucji w domach studenckich UŚ."
+  },
+  {
+   "url": "https://us.edu.pl/student/wp-content/uploads/sites/3/dokumenty/Tabela-oplat-DS-od-1-wrzesnia-2026.pdf",
+   "note": "Tabela opłat w domach studenckich UŚ od 1 września 2026 roku (skan, bez warstwy tekstowej)."
+  },
+  {
+   "url": "https://us.edu.pl/student/wsparcie-i-fundusze/akademiki-2/osiedle-akademickie-ligota/akademiki-katowice-ds-1/",
+   "note": "DS 1, adres, wyposażenie i ceny."
+  },
+  {
+   "url": "https://us.edu.pl/student/wsparcie-i-fundusze/akademiki-2/osiedle-akademickie-ligota/akademiki-katowice-ds2/",
+   "note": "DS 2, wyposażenie i ceny."
+  },
+  {
+   "url": "https://us.edu.pl/student/wsparcie-i-fundusze/akademiki-2/osiedle-akademickie-ligota/akademiki-katowice-ds7/",
+   "note": "DS 7, adres i ceny."
+  },
+  {
+   "url": "https://us.edu.pl/student/wsparcie-i-fundusze/akademiki-2/osiedle-akademickie-ligota/akademiki-katowice-ds5/",
+   "note": "Dom przy ul. Paderewskiego, adres i ceny."
+  },
+  {
+   "url": "https://us.edu.pl/student/komunikaty/akademiki-skladanie-podan-decyzje/",
+   "note": "Jak składać wnioski o akademik w USOSweb."
+  },
+  {
+   "url": "https://us.edu.pl/student/wp-content/uploads/sites/3/dokumenty/tekst-jednolity_zal-7-do-Regulaminu-swiadczen-dla-studentow_Zasady-przyznawania-miejsc-i-zamieszkiwania-w-DS.pdf",
+   "note": "Zasady przyznawania miejsc i zamieszkiwania w domach studenckich UŚ."
+  },
+  {
+   "url": "https://us.edu.pl/student/komunikaty/wnioski-o-akademik-na-rok-akademicki-2026-2027-zamkniecie-pul-wydzialowych/",
+   "note": "Zamknięcie pul wydziałowych 24 września 2026 roku."
+  },
+  {
+   "url": "https://www.ue.katowice.pl/studenci/kampus/zakwaterowanie.html",
+   "note": "Zakwaterowanie studentów Uniwersytetu Ekonomicznego, brak własnych akademików."
+  },
+  {
+   "url": "https://rentier.io/ceny-najmu/polska/slaskie/powiat-katowice/katowice",
+   "note": "Dane nieoficjalne: mediana ofertowa wynajmu w Katowicach."
+  },
+  {
+   "url": "https://study.gov.pl/cost-living-poland",
+   "note": "Ogólnopolski miesięczny budżet studenta (NAWA, Study in Poland)."
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+  "slug": "groningen",
+  "name": "Groningen",
+  "country": "Holandia",
+  "currency": "EUR",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Ani Rijksuniversiteit Groningen (RUG), ani Hanzehogeschool nie mają własnych akademików. Główną ofertą jest SSH, które rezerwuje ograniczoną liczbę umeblowanych pokoi i studiów dla nowych studentów zagranicznych. Czynsz w SSH wynosi od 700 do 900 EUR miesięcznie z mediami, a pokoje rozchodzą się w kilka dni. Hanze rezerwuje pokoje dla około 25 procent przyjmowanych studentów, w tym w budynku Proxima na kampusie Zernike."
+    },
+    {
+      "label": "Wynajem",
+      "text": "Platforma miasta i uczelni At Home in Groningen podaje cenę pokoju od 500 do 800 EUR miesięcznie, zwykle bez mediów. RUG szacuje czynsz pokoju z mediami na 450 do 650 EUR. Uczelnie i platforma nie podają cen kawalerek ani mieszkań, a ich strony nie mają daty publikacji."
+    },
+    {
+      "label": "Budżet miesięczny",
+      "text": "RUG podaje, że studenci wydają średnio od 800 do 1 000 EUR miesięcznie na życie, bez czesnego. Szczegółowa tabela kosztów na tej samej stronie po zsumowaniu daje więcej: około 1 080 do 1 410 EUR miesięcznie, zależnie od czynszu."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "RUG radzi zacząć szukanie około kwietnia przed wrześniowym startem i zdobyć pokój przed 1 sierpnia. Zacznij od At Home in Groningen, stworzonej przez miasto i uczelnie, i zapisz się do SSH od razu po ofercie z uczelni. Nie płać niczego, dopóki nie zobaczysz pokoju i nie dostaniesz kluczy. Hanze radzi też rozszerzyć poszukiwania na okoliczne miejscowości."
+    },
+    {
+      "label": "Uwagi",
+      "text": "Dane obejmują obie uczelnie z danych miasta. Strony RUG i Hanze podają różne daty naboru SSH na semestr wiosenny 2027, więc warto sprawdzić termin właściwy dla swojej uczelni."
+    }
+  ],
+  "budget": {
+    "from": 800,
+    "to": 1000,
+    "currency": "EUR",
+    "period": "miesiąc",
+    "text": "Średnia wydatków studentów podana przez RUG, bez czesnego i wydatków nieprzewidzianych. Szczegółowa tabela RUG daje wyższą sumę: czynsz z mediami 450 do 650 EUR, jedzenie i napoje 200 do 300, koszty nauki około 80, telefon około 26, transport 70 do 80 (bez karty OV), ubezpieczenia 100 do 120 i inne wydatki około 157 EUR miesięcznie. Po zsumowaniu tych pozycji wychodzi około 1 080 do 1 410 EUR. Uczelnia nie wyjaśnia różnicy między średnią a tabelą, więc kwotę 800 do 1 000 EUR warto traktować jako dolny szacunek.",
+    "sourceUrl": "https://www.rug.nl/education/bachelor/international-students/financial-matters/living-expenses?lang=en",
+    "quote": "Experience shows that students will spend on average €800-1.000 per month, not including tuition costs.",
+    "official": true,
+    "kind": "szacunek"
+  },
+  "dorms": [
+    {
+      "name": "SSH Groningen (pokoje zarezerwowane przez RUG dla nowych studentów zagranicznych)",
+      "operator": "SSH (Stichting Studenten Huisvesting)",
+      "url": "https://www.rug.nl/education/bachelor/international-students/study-in-the-netherlands-groningen/accommodation",
+      "roomType": "pokój jednoosobowy, dwuosobowy lub studio, umeblowane",
+      "priceFrom": 700,
+      "priceTo": 900,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Czynsz zawiera ogrzewanie, prąd, meble i internet.",
+      "deposit": "Przy rezerwacji płaci się opłatę rezerwacyjną 113 EUR oraz pierwszy i ostatni czynsz, w ciągu 24 godzin kartą Mastercard lub Visa.",
+      "eligibility": "Nowi studenci zagraniczni z ofertą (warunkową, wstępną lub bezwarunkową) z RUG. Pobyt do jednego roku. Studenci z UE mogą się ubiegać.",
+      "applicationInfo": "Dla studentów zaczynających w lutym 2027 rejestracja otwiera się 21 października (godz. 10:00), a rezerwacja rusza 11 listopada (godz. 10:00). Strona RUG nie podaje roku przy tych datach. Chodzi o rok 2026, bo strona była ostatnio zmieniana 16 września 2026 i dotyczy startu w lutym 2027. Na rok akademicki zapisy startują wiosną i pokoje znikają w kilka dni.",
+      "applyUrl": "https://www.sshxl.nl/en/groningen",
+      "waitlist": "Pokoje rezerwuje się w kolejności zgłoszeń. Strona RUG ostrzega, że rezerwacje są pełne w ciągu kilku dni.",
+      "sourceUrl": "https://www.rug.nl/education/bachelor/international-students/study-in-the-netherlands-groningen/accommodation",
+      "quote": "prices currently ranging from €700 to €900 a month, including all utilities",
+      "notes": "SSH ma w mieście kilka międzynarodowych domów studenckich. Od sierpnia 2024 część pokoi jest w budynku Proxima na kampusie Zernike."
+    },
+    {
+      "name": "SSH Groningen (pokoje zarezerwowane przez Hanzehogeschool, w tym budynek Proxima)",
+      "operator": "SSH (Stichting Studenten Huisvesting)",
+      "url": "https://www.hanze.nl/en/studychoice/living-in-the-netherlands-and-groningen/moving-to-the-netherlands/housing",
+      "roomType": "umeblowane pokoje, w większości ze wspólnymi udogodnieniami, oraz pokoje w budynku Proxima na kampusie Zernike",
+      "priceFrom": null,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Strona Hanze nie podaje, co obejmuje czynsz.",
+      "deposit": null,
+      "eligibility": "Nowi studenci Hanze (licencjat, magister, wymiana), przyjęci lub warunkowo przyjęci. Zatwierdza ich koordynator mieszkaniowy Hanze. Studenci z UE mogą się ubiegać.",
+      "applicationInfo": "Semestr wiosenny 2027: rejestracja w SSH od środy 28 października 2026 o 10:00, rezerwacja od środy 4 listopada 2026 o 10:00.",
+      "applyUrl": "https://www.sshxl.nl/en/groningen",
+      "waitlist": null,
+      "sourceUrl": "https://www.hanze.nl/en/studychoice/living-in-the-netherlands-and-groningen/moving-to-the-netherlands/housing",
+      "quote": "Hanze UAS reserves rooms for students at SSH, but the number of rooms available is limited.",
+      "notes": "Około 25 procent przyjmowanych studentów Hanze może zarezerwować pokój w SSH. Cen strona Hanze nie podaje, więc widełki z RUG nie są tu przenoszone. Pobyt do 12 miesięcy."
+    },
+    {
+      "name": "Mieszkania University College Groningen i University College Fryslân",
+      "operator": "Uczelnia (University College Groningen, University College Fryslân)",
+      "url": "https://www.rug.nl/education/bachelor/international-students/study-in-the-netherlands-groningen/accommodation",
+      "roomType": "prywatne studio z własną kuchnią, łazienką i częścią dzienną we wspólnocie rezydencjalnej",
+      "priceFrom": null,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Strona RUG nie podaje.",
+      "deposit": null,
+      "eligibility": "Studenci zapisani do University College Groningen lub University College Fryslân.",
+      "applicationInfo": "Zakwaterowanie organizuje uczelnia. Szczegóły podaje wydział.",
+      "waitlist": null,
+      "sourceUrl": "https://www.rug.nl/education/bachelor/international-students/study-in-the-netherlands-groningen/accommodation",
+      "quote": "If you’re enrolled in University College Groningen or University College Fryslân, housing is arranged for you.",
+      "notes": "Ceny i terminy nie są podane na stronie RUG.",
+      "applyUrl": null
+    }
+  ],
+  "rent": [
+    {
+      "type": "pokój w mieszkaniu współdzielonym",
+      "area": "Groningen",
+      "priceFrom": 500,
+      "priceTo": 800,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": null,
+      "includesUtilities": "nie",
+      "official": true,
+      "source": "At Home in Groningen (platforma miasta i uczelni)",
+      "sourceUrl": "https://www.athomeingroningen.com/housing-in-groningen/prices-of-rooms-and-housing/",
+      "quote": "The price for renting a room is between 500 and 800 euros a month.",
+      "notes": "Platforma podaje, że media zwykle nie są w czynszu (wyjątek to umowy short stay), a pokoje z własnymi udogodnieniami są droższe. Strona nie podaje daty publikacji danych."
+    },
+    {
+      "type": "pokój w mieszkaniu współdzielonym",
+      "area": "Groningen",
+      "priceFrom": 450,
+      "priceTo": 650,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": null,
+      "includesUtilities": "tak",
+      "official": true,
+      "source": "Rijksuniversiteit Groningen, koszty życia dla studentów zagranicznych",
+      "sourceUrl": "https://www.rug.nl/education/bachelor/international-students/financial-matters/living-expenses?lang=en",
+      "quote": "Rent (incl. energy and other costs, for example ISP bills, excl. administration costs and security deposit of approximately 1 month rent) € 450 to € 650 per month*",
+      "notes": "Bez opłat administracyjnych i kaucji w wysokości około jednego czynszu. Strona nie podaje daty publikacji danych."
+    }
+  ],
+  "gaps": [
+    "Uczelnie i At Home in Groningen nie podają cen kawalerek, mieszkań 1-pokojowych ani 2-pokojowych. Ceny podane są tylko dla pokoi.",
+    "Strona Hanze nie podaje cen pokoi SSH ani opłat rezerwacyjnych, a strona RUG nie podaje cen mieszkań University College.",
+    "Strony RUG i Hanze podają różne daty naboru do SSH na semestr wiosenny 2027 (21 października i 11 listopada dla RUG, 28 października i 4 listopada dla Hanze). Strona RUG nie podaje roku przy swoich datach.",
+    "W budżecie użyto międzynarodowej wersji strony RUG (czynsz 450 do 650 EUR). Wersja holenderska podaje czynsz od 250 do 650 EUR dla studentów krajowych.",
+    "Oferty Room.nl (Lefier) i Hospi Housing są na stronach uczelni opisane tylko ogólnie, bez cen."
+  ],
+  "sources": [
+    {
+      "url": "https://www.rug.nl/education/bachelor/international-students/study-in-the-netherlands-groningen/accommodation",
+      "note": "RUG: zakwaterowanie, SSH, prywatny rynek, wskazówki"
+    },
+    {
+      "url": "https://www.rug.nl/education/bachelor/international-students/financial-matters/living-expenses?lang=en",
+      "note": "RUG: koszty życia dla studentów zagranicznych"
+    },
+    {
+      "url": "https://www.hanze.nl/en/studychoice/living-in-the-netherlands-and-groningen/moving-to-the-netherlands/housing",
+      "note": "Hanze: zakwaterowanie, SSH, Proxima, wskazówki"
+    },
+    {
+      "url": "https://www.athomeingroningen.com/housing-in-groningen/prices-of-rooms-and-housing/",
+      "note": "At Home in Groningen: ceny pokoi"
+    },
+    {
+      "url": "https://www.athomeingroningen.com/housing-in-groningen/avoid-scamming/",
+      "note": "At Home in Groningen: oszustwa"
+    },
+    {
+      "url": "https://www.athomeingroningen.com",
+      "note": "At Home in Groningen: strona główna, odpowiedzi na częste pytania"
+    }
+  ]
+}

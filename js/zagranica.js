@@ -339,7 +339,7 @@ const Zagranica = (function () {
         <h3 class="szkola__profile-name">${esc(r.type)}${r.area ? ` <span class="szkola__muted">(${esc(r.area)})</span>` : ''}</h3>
         <p class="koszty__line">${priceHtml(r.priceFrom, r.priceTo, r.currency, r.period)}${r.official === false ? ' <span class="szkoly__badge koszty__unofficial" title="Dane z raportu rynkowego, nie ze źródła urzędowego">dane nieoficjalne</span>' : ''}</p>
         <dl class="szkola__dl">
-          ${r.year ? `<div><dt>Rok danych</dt><dd>${esc(r.year)}</dd></div>` : ''}
+          <div><dt>Rok danych</dt><dd>${r.year ? esc(r.year) : '<span class="zagr__missing">brak daty na stronie źródła</span>'}</dd></div>
           ${r.includesUtilities ? `<div><dt>Media w cenie</dt><dd>${esc(r.includesUtilities)}</dd></div>` : ''}
           ${r.source ? `<div><dt>Źródło</dt><dd>${isUrl(r.sourceUrl) ? link(r.sourceUrl, r.source) : esc(r.source)}</dd></div>` : ''}
           ${r.notes ? `<div><dt>Uwagi</dt><dd>${esc(r.notes)}</dd></div>` : ''}
@@ -349,7 +349,7 @@ const Zagranica = (function () {
   function kosztyCityHtml(c) {
     const budget = c.budget ? `
       <section class="zagr__uni koszty__budget">
-        <h3 class="career-column__subtitle">Miesięczny budżet studenta</h3>
+        <h3 class="career-column__subtitle">${c.budget.kind === 'wymog' ? 'Środki wymagane przy rejestracji pobytu lub wizie (nie szacunek wydatków)' : c.budget.kind === 'suma' ? 'Orientacyjna suma pozycji (nasze wyliczenie, nie oficjalny szacunek)' : 'Miesięczny budżet studenta'}</h3>
         <p class="koszty__line">${priceHtml(c.budget.from, c.budget.to, c.budget.currency, c.budget.period)}${c.budget.official === false ? ' <span class="szkoly__badge koszty__unofficial">dane nieoficjalne</span>' : ''}</p>
         ${c.budget.text ? `<p class="szkola__muted">${esc(c.budget.text)} ${link(c.budget.sourceUrl, 'Źródło')}</p>` : `<p class="szkola__muted">${link(c.budget.sourceUrl, 'Źródło')}</p>`}
       </section>` : '';

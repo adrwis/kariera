@@ -1,0 +1,335 @@
+[
+ {
+  "city": "zagrzeb",
+  "item": "Cennik z dopłatą",
+  "field": "dorms[0].priceFrom/priceTo; summary Akademiki",
+  "severity": "ważne",
+  "problem": "Brak informacji, że cena dotyczy miejsca (osoby), a nie całego pokoju. Cennik podaje „mjesečna cijena smještaja” dla kolumn 2/1 i 1/1 bez słowa „za osobę”, a strona pokazuje „pokój za 40 do 139 EUR”.",
+  "evidence": "Skan zg_sub.pdf: „dvokrevetne sobe (2/1)”, „jednokrevetne sobe (1/1)”, wartości 117/90/74/60/52/40 oraz 139/120/82/52/40, „bez PDV-a”. Wartości zgodne z obrazem.",
+  "proposedFix": "Dopisać „cena za miejsce w pokoju, miesięcznie, bez VAT (według cennika, zwykle za osobę)” albo zaznaczyć, że cennik nie precyzuje jednostki."
+ },
+ {
+  "city": "zagrzeb",
+  "item": "Wynajem ZŠEM",
+  "field": "rent[0]; summary Wynajem",
+  "severity": "drobne",
+  "problem": "Jedyny wiersz wynajmu pochodzi ze strony prywatnej szkoły biznesu (ZŠEM) i jest oznaczony official=true. To oferta marketingowa szkoły, bez daty i bez typu lokalu.",
+  "evidence": "zsem.hr/student-life: „Apartments for rent are usually available within the range of 320 to 700 EUR monthly… (Utility expenses are usually not included in the rent).” Zgodne.",
+  "proposedFix": "Zostawić liczby, ale w etykiecie napisać „orientacyjnie według szkoły ZŠEM, bez daty”; rozważyć official=false."
+ },
+ {
+  "city": "zagrzeb",
+  "item": "Budżet",
+  "field": "budget",
+  "severity": "drobne",
+  "problem": "Strona Study in Croatia to tekst z 2021 roku (schema: dateCreated 2021-04-30), a wiersz nie podaje roku i nie ostrzega, że kwota może być nieaktualna.",
+  "evidence": "Cytat zgodny: „Average monthly living expenses in Croatia are estimated between 500 and 800 EUR.”",
+  "proposedFix": "Dopisać „bez daty aktualizacji, strona z 2021 r.” albo zaznaczyć orientacyjność."
+ },
+ {
+  "city": "zagrzeb",
+  "item": null,
+  "field": "gaps; summary Uwagi",
+  "severity": "drobne",
+  "problem": "Zlepione i niezgrabne zdania oraz żargon zbierania danych: „datowanych raportów dużych portali najmu nie jest podane”, „Kwoty” wielką literą po średniku, „na przeczytanej stronie”, „Nie udało się potwierdzić”. Nieodmienione „Studentskiego centra”.",
+  "evidence": "gaps[0], gaps[1], gaps[3]; summary Uwagi: „Cenniki Studentskiego centra”.",
+  "proposedFix": "Przeredagować: „Nie mamy oficjalnych, datowanych cen…”, usunąć „przeczytanej”, ujednolicić nazwę „Studentski centar u Zagrebu”."
+ },
+ {
+  "city": "lublana",
+  "item": "Cennik z dopłatą",
+  "field": "summary Akademiki; dorms[0]",
+  "severity": "ważne",
+  "problem": "Nagłówek podsumowania wysuwa średnią 115,94 EUR z dopłatą, a Uniwersytet w Lublanie pisze wprost, że studenci zagraniczni płacą cenę ekonomiczną. Wiersz 79,37 do 186,14 EUR dotyczy niewielkiej grupy (CEEPUS, stypendyści, Słoweńcy bez obywatelstwa). Czytelnik może uznać, że takie ceny czekają na typowego studenta.",
+  "evidence": "uilj.html: „Foreign students pay the economic price. The average price is €197.44… plus additional expenses of approximately €30.00”. PDF OKTOBER_2026: „Povprečna cena 115,94” (subsydiowana) i 254,71 (rynkowa), 79,37 (GE59), 186,14 (Litostroj), 165,96, 429,30, Dom AK 168,40: liczby zgodne.",
+  "proposedFix": "W podsumowaniu zacząć od ceny rynkowej dla studentów zagranicznych (od 165,96 do 429,30 EUR, średnio 254,71 EUR) i dopiero potem opisać stawkę z dopłatą jako dostępną dla wąskiej grupy."
+ },
+ {
+  "city": "lublana",
+  "item": "Wynajem pokoju",
+  "field": "summary Wynajem",
+  "severity": "ważne",
+  "problem": "Fraza „(bez opłat)” czyta się jak „za darmo” lub „bez opłat dodatkowych w cenie”, a źródło mówi, że ceny nie zawierają kosztów (excluding expenses).",
+  "evidence": "si_col.html: „Private flats – double bed room (excluding expenses) €150 – €200”, „single bed room (excluding expenses) €200 – €350”.",
+  "proposedFix": "Zamienić na „bez rachunków i mediów (rachunki płaci się osobno)”."
+ },
+ {
+  "city": "lublana",
+  "item": "Wiersz „dwuosobowy”",
+  "field": "rent[1]",
+  "severity": "drobne",
+  "problem": "„Double bed room” przetłumaczono jako „pokój dzielony z drugą osobą”, bez wskazania, czy cena jest za osobę czy za pokój. Źródło tego nie rozstrzyga. Ceny to też średnie dla całego kraju według strony („average across the country”), a notatka pisze „średnie dla miasta”.",
+  "evidence": "si_col.html: „The prices are average across the country so they can be used as a rough guide”; tabela ma kolumnę Ljubljana.",
+  "proposedFix": "Dodać „brak informacji, czy cena jest za osobę” i poprawić notatkę na „orientacyjne ceny z tabeli portalu, kolumna Lublana”."
+ },
+ {
+  "city": "lublana",
+  "item": "Wynajem UL",
+  "field": "rent[2]",
+  "severity": "drobne",
+  "problem": "Wiersz ma year „2026”, a notatka przyznaje brak osobnej daty. Typ „pokój w mieszkaniu współdzielonym” nie wynika ze źródła, które mówi o „private accommodation” i możliwości dzielenia pokoju.",
+  "evidence": "uilj.html: „Prices range from €200 to €500, depending on the size, location, and whether you are sharing the room with another student.”",
+  "proposedFix": "Ustawić year na „brak daty (strona 2026/27)” i typ „prywatne zakwaterowanie (pokój lub mieszkanie)”."
+ },
+ {
+  "city": "lublana",
+  "item": null,
+  "field": "summary Uwagi; dorms[1].notes",
+  "severity": "ważne",
+  "problem": "Błędna atrybucja: różnicę 197,44 a 254,71 EUR przypisano „stronie uczelni i Study in Slovenia”, a starszą liczbę 197,44 podaje tylko strona Uniwersytetu w Lublanie. Study in Slovenia podaje 120 do 250 EUR.",
+  "evidence": "uilj.html: „The average price is €197.44, with the most expensive being €230.89 in Dom XIV and the cheapest being €119.28 in Dom AK”; si_col.html: „Student dormitories €120 – €250”.",
+  "proposedFix": "Napisać: „Strona Uniwersytetu w Lublanie podaje starsze liczby (średnio 197,44 EUR), dlatego użyto cennika ŠDL z października 2026”."
+ },
+ {
+  "city": "lublana",
+  "item": "Budżet",
+  "field": "summary Budżet",
+  "severity": "ważne",
+  "problem": "Zdanie „Obywatele UE na stacjonarnych studiach licencjackich w uczelni publicznej nie płacą czesnego” nie ma potwierdzenia na wskazanej stronie. Strona mówi tylko o 700 EUR „above the cost of your tuition”.",
+  "evidence": "uilj.html: „at least 700,00 € monthly for living costs, above the cost of your tuition”. Brak fragmentu o zwolnieniu z czesnego (wyszukano tuition/EU).",
+  "proposedFix": "Usunąć zdanie albo podać jego źródło (np. Study in Slovenia, Ministerstwo) z linkiem."
+ },
+ {
+  "city": "lublana",
+  "item": "Termin wniosku",
+  "field": "dorms[0].applicationInfo / sourceUrl",
+  "severity": "drobne",
+  "problem": "Data 16 maja 2026 pochodzi ze strony Uniwersytetu w Lublanie (wymiana), a sourceUrl wiersza wskazuje cennik ŠDL, który jej nie zawiera. Strona sdl.si dla zagranicznych podaje tylko termin 30 kwietnia dla CEEPUS.",
+  "evidence": "uilj.html: „For the academic year 2026-27 the housing application will open on 16th May 2026”; sdl_f.html: „Deadline: 30 April each year”.",
+  "proposedFix": "Dodać link do strony UL jako źródło terminu i wspomnieć o terminie 30 kwietnia dla CEEPUS."
+ },
+ {
+  "city": "lublana",
+  "item": "Internat Vič",
+  "field": "dorms[2]",
+  "severity": "drobne",
+  "problem": "Cena 80 do 160 EUR jest „za osobę” w pokoju dwuosobowym (według źródła), ale wiersz tego nie mówi. Liczba zgodna.",
+  "evidence": "si_acc: „The average price per person per month in a double room is 80 – 160 EUR”.",
+  "proposedFix": "Dopisać „za osobę”."
+ },
+ {
+  "city": "lublana",
+  "item": null,
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Żargon: „w pliku są tylko trzy wiersze”, „minimum i maksimum obejmują 70 pozycji cennika”, „Nie udało się potwierdzić”.",
+  "evidence": "gaps[1], gaps[4].",
+  "proposedFix": "Usunąć odniesienia do pliku, opisać po ludzku."
+ },
+ {
+  "city": "paryz",
+  "item": "CIUP",
+  "field": "dorms[1] priceFrom/priceTo; summary Akademiki",
+  "severity": "ważne",
+  "problem": "Widełki 710 do 810 EUR to czynsz miejsc, które Paris 1 przydziela wyłącznie studentom zagranicznym z wymiany na poziomie magisterskim. Wiersz jest nazwany „Cité internationale”, a w podsumowaniu zapisano je jak ogólną cenę CIUP. Notatka wspomina o różnicy, ale podsumowanie nie. Wiersz ma url CIUP, a sourceUrl uczelni.",
+  "evidence": "p1.html: „Rent is between €710-810/month… allocated exclusively to foreign students participating in a master’s level exchange programme.” CIUP: wymagany Bac+4.",
+  "proposedFix": "W podsumowaniu napisać „Paris 1 podaje 710 do 810 EUR dla swoich studentów magisterskich z wymiany; ogólny cennik CIUP nie został podany”."
+ },
+ {
+  "city": "paryz",
+  "item": "Crous de Paris",
+  "field": "dorms[0]; summary Akademiki",
+  "severity": "drobne",
+  "problem": "Widełki 300 do 650 EUR to ogólne dane Campus France dla Crous w Paryżu i Île-de-France, nie cennik Crous de Paris. Podsumowanie mówi „według Campus France”, więc jest uczciwe, ale nazwa wiersza sugeruje cennik operatora.",
+  "evidence": "Obraz Campus France: kolumna „Paris and Ile de France”, wiersz CROUS „300 € to 650 €”, aktualizacja maj 2026. Zgodne. Paris 1: „€350-550/month” zgodne.",
+  "proposedFix": "Dopisać w nazwie lub etykiecie „widełki Campus France”."
+ },
+ {
+  "city": "paryz",
+  "item": "Mon Logement Étudiant",
+  "field": "summary Akademiki",
+  "severity": "drobne",
+  "problem": "Zdanie „ceny zaczynają się od około 390 do 800 €” jest niezrozumiałe (sugeruje start w przedziale). Liczby to najniższa i najwyższa cena „od” z wyników, a nie zakres czynszów.",
+  "evidence": "mle_p: widoczne ceny od 392 do 796 € przy 16 rezydencjach (zgodne z notatką).",
+  "proposedFix": "Przeformułować: „ceny „od” wahają się od 392 do 796 € zależnie od rezydencji”."
+ },
+ {
+  "city": "paryz",
+  "item": null,
+  "field": "summary Akademiki",
+  "severity": "drobne",
+  "problem": "Niezgrabne „Zostają jeszcze rezydencje…”.",
+  "evidence": "summary[0].",
+  "proposedFix": "Zamienić na „Dostępne są też rezydencje…”."
+ },
+ {
+  "city": "paryz",
+  "item": null,
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Żargon zbierania danych w tekście dla czytelnika: „strona obserwatorium czynszów OLAP nie otworzyła się”, „Nie sprawdziliśmy”, „Podajemy więc”.",
+  "evidence": "gaps[0], gaps[2].",
+  "proposedFix": "Zastąpić: „Nie mamy urzędowych cen z obserwatorium OLAP”."
+ },
+ {
+  "city": "paryz",
+  "item": "Czynsz studio",
+  "field": "rent[0]",
+  "severity": "drobne",
+  "problem": "Wiersz Campus France poprawny (550 do 1 300 € Paris i IdF, 550 do 900 € rezydencja prywatna), ale year „2026” to aktualizacja z maja 2026 bez wskazania, kto płaci media („nie wiadomo” jest uczciwe).",
+  "evidence": "Obraz Campus France.",
+  "proposedFix": "Bez zmian poza dopiskiem „stan na maj 2026”."
+ },
+ {
+  "city": "lyon",
+  "item": "Crous de Lyon",
+  "field": "summary Akademiki; dorms[0] (nazwa, priceFrom/priceTo)",
+  "severity": "ważne",
+  "problem": "Widełki 250 do 500 € Campus France dotyczą Crous w regionach poza Île-de-France. W podsumowaniu zapisano je jako „rezydencje Crous de Lyon z czynszem według Campus France 250 do 500 €”, bez słowa, że to nie dane Lyonu. Wiersz nazwany „Rezydencje Crous de Lyon” ma te same widełki. Zastrzeżenie jest tylko w notes.",
+  "evidence": "Obraz Campus France: kolumna „Other regions”, wiersz CROUS „250 € to 500 €”; Crous Lyon nie podaje cen. W rent[2] i rent[3] opis jest uczciwy.",
+  "proposedFix": "W podsumowaniu: „Campus France podaje dla Crous poza regionem paryskim 250 do 500 € miesięcznie (nie ma osobnych danych dla Lyonu)”. W wierszu zmienić nazwę lub dodać etykietę „widełki ogólne”."
+ },
+ {
+  "city": "lyon",
+  "item": "Wynajem ACLEF",
+  "field": "summary Wynajem; rent[0], rent[1]",
+  "severity": "ważne",
+  "problem": "Pierwszymi przykładami wynajmu są oferty społeczne ACLEF (3 kolokacje i 4 mieszkania, tylko do 30. roku życia). W podsumowaniu nie ma informacji o skali, a to jedyne dane lokalne. Źródło nie rozstrzyga, czy 290 i 340 € to cena za pokój, czy całej kolokacji.",
+  "evidence": "lc.html: „3 colocations (340 et 290 € TTC) et 4 logements individuels (440 TTC)… parc social”.",
+  "proposedFix": "Dopisać „3 kolokacje i 4 mieszkania, bardzo mała pula, nie reprezentują rynku” oraz „źródło nie podaje, czy cena jest za pokój”. Rozważyć year bez „2026”, jeśli strona nie ma daty."
+ },
+ {
+  "city": "lyon",
+  "item": "Mon Logement Étudiant",
+  "field": "summary Akademiki",
+  "severity": "drobne",
+  "problem": "„Ceny „od” już od 192 €” pomija, że najniższa cena to kolokacja solidarna Kaps z obowiązkiem wolontariatu (tylko w notes). Zakres 192 do 571 € wyliczono z pierwszej strony wyników (12 z 39).",
+  "evidence": "mle_l: 39 résidences à Lyon, widoczne ceny od 192 do 571 €.",
+  "proposedFix": "Dopisać w podsumowaniu zastrzeżenie o kolokacji Kaps."
+ },
+ {
+  "city": "lyon",
+  "item": null,
+  "field": "summary Uwagi; gaps",
+  "severity": "ważne",
+  "problem": "Metatekst i żargon w treści dla czytelnika: „Strony uczelni Lyon 1 nie udało się znaleźć… o czym piszemy w lukach”, „Nie znaleźliśmy”, „wykorzystaliśmy widełki”.",
+  "evidence": "summary Uwagi, gaps[0], gaps[2], gaps[3].",
+  "proposedFix": "Usunąć zdanie o Lyon 1 z Uwag (zostawić w lukach w formie „Uniwersytet Lyon 1 nie opisuje mieszkań na swojej stronie”)."
+ },
+ {
+  "city": "lyon",
+  "item": "Crous: studenci zagraniczni",
+  "field": "summary Akademiki",
+  "severity": "drobne",
+  "problem": "Zdanie „mogą jednak dostać pokój tylko na poziomie magisterskim (Master 2)” jest nieprecyzyjne: dotyczy studentów spoza wymiany z akademii lyońskiej, na zasadzie dochodów i dostępności. Fakt zweryfikowany.",
+  "evidence": "cli.html: „les logements sont réservés aux étudiants inscrits en Master 2 sur conditions de ressources et selon les disponibilités”; „Les demandes sont ouvertes à partir du 7 juillet”; „Avant le 15 octobre”.",
+  "proposedFix": "Doprecyzować „tylko Master 2, z kryterium dochodowym”."
+ },
+ {
+  "city": "luksemburg",
+  "item": "Akademik",
+  "field": "dorms[0] sourceUrl/quote; summary Akademiki",
+  "severity": "ważne",
+  "problem": "Kwota 450 € nie występuje na wskazanej stronie (sourceUrl student-accommodation), a cytat dotyczy tylko liczby 36 rezydencji. Liczba pochodzi ze strony student-life i jest to „minimum” z zestawienia zebranego z Expatistan i uni.lu, a nie cennik uczelni. Podsumowanie pisze „minimalny czynsz w uczelnianym akademiku to 450 €” bez tego zastrzeżenia.",
+  "evidence": "sl.html: „EUR 450 per month (minimum)” w zestawieniu „gathered from information available on the Ex[patistan]…”. student-accommodation: brak 450, jest „36 residences”.",
+  "proposedFix": "Zmienić sourceUrl i cytat na stronę student-life, a w podsumowaniu napisać „portal rządowy podaje orientacyjnie co najmniej 450 € (zestawienie oparte m.in. na Expatistan)”."
+ },
+ {
+  "city": "luksemburg",
+  "item": "Budżet",
+  "field": "summary Budżet; budget.text",
+  "severity": "ważne",
+  "problem": "Składniki budżetu (zakupy, telefon, internet) pochodzą według portalu z Expatistan, a plan zabrania używania Expatistan jako jedynego źródła. Podsumowanie mówi o „orientacyjnych wydatkach” bez informacji o pochodzeniu. Zastrzeżenie jest tylko w budget.text i gaps.",
+  "evidence": "sl.html: „approximate estimation of average costs per person per month… gathered from information available on the Ex…”.",
+  "proposedFix": "Dopisać pochodzenie w podsumowaniu albo usunąć pozycje spoza uni.lu."
+ },
+ {
+  "city": "luksemburg",
+  "item": "Średnie z ogłoszeń",
+  "field": "summary Wynajem",
+  "severity": "ważne",
+  "problem": "Etykiety są poprawne (średnie z ogłoszeń, nie umów, bez podziału na wielkość). Sformułowanie „od 1 419 € w Bonnevoie do 2 689 € w dzielnicy Gare” sugeruje, że to skrajne wartości, a w danych są tańsze dzielnice (Hamm 1 254, Dommeldange 1 278, Eich 1 370) (tańsze dzielnice mają jednak mało ofert). Wiersz „Gare najdroższa dzielnica z dużą liczbą ogłoszeń” jest opinią, a nie źródłem. Dla studenta średnia całego mieszkania (ok. 2 000 €) wprowadza w błąd co do pokoju.",
+  "evidence": "ap.xlsx: Bonnevoie 542 ofert 1418,6; Gare 731 ofert 2689,1; Ville 5655 ofert 2032,4; Hamm 1254,3 (14 ofert); Dommeldange 1278,0; średnia krajowa 1842,6. Esch 1 088 (plik gmin) nie został przeze mnie zweryfikowany.",
+  "proposedFix": "Napisać „przykładowe dzielnice z największą liczbą ogłoszeń” i dopisać, że czynsz pokoju w mieszkaniu współdzielonym jest niższy, ale brak oficjalnych danych."
+ },
+ {
+  "city": "luksemburg",
+  "item": null,
+  "field": "summary Uwagi; gaps[0]",
+  "severity": "ważne",
+  "problem": "Żargon zbierania danych w treści: „Strona uni.lu zablokowała dostęp automatyczny, więc… bierzemy tylko z oficjalnego portalu”, „Nie udało się sprawdzić strony uni.lu”.",
+  "evidence": "summary[4].text; gaps[0].",
+  "proposedFix": "Zamienić na „Cen i terminów rezydencji uniwersytetu nie potwierdziliśmy w jego własnych źródłach; podajemy dane portalu rządowego”."
+ },
+ {
+  "city": "luksemburg",
+  "item": "Komunikacja",
+  "field": "summary Budżet",
+  "severity": "drobne",
+  "problem": "Zdanie o bezpłatnej komunikacji od 2020 jest poprawne i zweryfikowane. Brak uwagi o kosztach ubezpieczenia zdrowotnego i opłacie rejestracyjnej 400 € za semestr (jest tylko w budget.text, którego nie widać, bo budget=null).",
+  "evidence": "sl.html: „since 2020 all public transport is free in Luxembourg!”.",
+  "proposedFix": "Opcjonalnie dodać opłatę 400 € za semestr do podsumowania."
+ },
+ {
+  "city": "madryt",
+  "item": "Wynajem nieoficjalny",
+  "field": "summary Wynajem",
+  "severity": "krytyczne",
+  "problem": "Liczba 29,49 € za metr kwadratowy z „raportu z sierpnia 2026” występuje tylko w podsumowaniu. Nie ma wiersza, linku, cytatu ani nazwy raportu (wyszukano w danych roboczych i w pliku miasta). Jest to nieoficjalna, niepotwierdzona liczba podana jako fakt, wbrew zasadzie „każda liczba z sourceUrl i cytatem”.",
+  "evidence": "grep 29,49: tylko summary w data/koszty/madryt.json i w pliku roboczym, brak rent[] ani sources o tym raporcie.",
+  "proposedFix": "Usunąć zdanie albo dodać wiersz official=false z linkiem i cytatem."
+ },
+ {
+  "city": "madryt",
+  "item": "Wynajem UPM",
+  "field": "rent[0]; summary Wynajem",
+  "severity": "ważne",
+  "problem": "Wiersz ma includesUtilities „nie” i podsumowanie pisze „bez mediów”, a źródło mówi „self-catering” i „may not include bills”. To nie jest pewne wyłączenie mediów.",
+  "evidence": "upm.html: „A room in a shared apartment from €450 to 650 per month (self-catering)”; „your rent in a shared flat may not include bills… budget for an extra €50 per month”.",
+  "proposedFix": "Ustawić „nie wiadomo” i napisać „zwykle bez rachunków (około 50 € miesięcznie dodatkowo)”."
+ },
+ {
+  "city": "madryt",
+  "item": "Mieszkanie dla dwóch osób",
+  "field": "rent[1]",
+  "severity": "ważne",
+  "problem": "Typ „mieszkanie 2-pokojowe” to nadinterpretacja: źródło mówi „An apartment for two”. Year „2026” przy braku daty strony, includesUtilities „nie” bez podstawy.",
+  "evidence": "upm.html: „An apartment for two starting from €1500 per month (self-catering)”.",
+  "proposedFix": "Typ: „mieszkanie dla dwóch osób (liczba pokoi nieznana)”, includesUtilities „nie wiadomo”, year bez roku."
+ },
+ {
+  "city": "madryt",
+  "item": "Colegio Gregorio Peces-Barba",
+  "field": "dorms[0] priceFrom/priceTo; summary Akademiki",
+  "severity": "ważne",
+  "problem": "Jedne widełki 650 do 1 190 € łączą dwa warianty: sam pokój (650 do 830 €, z mediami) i pełne wyżywienie (1 010 do 1 190 €). Podsumowanie mówi „od 650 do 1 190 € za osobę, w większości z pełnym wyżywieniem”, a 650 € to pokój bez wyżywienia. Wartości zgodne ze stroną (745, 650, 830, 1.105, 1.010, 1.190, bez VAT).",
+  "evidence": "gpb.html: Accommodation only: Single 745, Two-bed per person 650, Apartment 830; Full board: Single 1.105, Two-bed 1.010, Apartment 1.190; „Price per person per month. VAT not included.”",
+  "proposedFix": "Rozbić na dwa wiersze (bez wyżywienia i z wyżywieniem) albo podać w podsumowaniu osobno oba przedziały. Ceny UC3M bez VAT warto oznaczyć w samym wierszu (21 lub 10 procent w zależności od usługi nie jest podane)."
+ },
+ {
+  "city": "madryt",
+  "item": "Antonio Machado",
+  "field": "dorms[2] priceFrom/priceTo",
+  "severity": "drobne",
+  "problem": "Ceny 662,30 i 817,70 € to cena po rabacie otwarcia (przekreślone 895 i 1.105 €), którego okres obowiązywania nie jest podany. Zapis „26-procentowa zniżka” jest wyliczeniem, a nie cytatem ze strony. Kaucja 1 400 € zgodna z regulaminem.",
+  "evidence": "am.html: „Before 895 €… 662,30 €… Before 1.105 € … 817,70 €”; at.txt: „payment of 1,400 € (800 € for the security deposit plus 600 € …)”, „before July 18th, 2026 at 09:00 am”.",
+  "proposedFix": "Podać cenę wyjściową obok promocyjnej i napisać, że rabat może być czasowy; usunąć „26-procentowa”."
+ },
+ {
+  "city": "madryt",
+  "item": "UAM Juan Luis Vives",
+  "field": "dorms[3]",
+  "severity": "drobne",
+  "problem": "Ceny 850, 888 i 926 € z 10% VAT zgodne ze skanem cennika. Zaliczka 600 € i okno składania dokumentów 1 lutego do 25 sierpnia nie zostały potwierdzone na stronie wskazanej w url (uam.es/uam/cmlv) ani w cenniku.",
+  "evidence": "uam.pdf: „P/C mensual habitación doble sin WC 850,00 €”, „individual sin WC 888,00 €”, „individual con WC 926,00 €”, „incluido el 10 % de IVA”.",
+  "proposedFix": "Zostawić ceny, a terminy i zaliczkę oprzeć na linku do właściwej strony lub oznaczyć jako niepotwierdzone."
+ },
+ {
+  "city": "madryt",
+  "item": "pisos.com",
+  "field": "rent[2]",
+  "severity": "drobne",
+  "problem": "Wiersz poprawnie oznaczony (official=false, link, „dane nieoficjalne”). Raport dotyczy stolic prowincji, a podsumowanie pisze „w stolicy” (Madryt jest też stolicą kraju, ale zakres to miasto-prowincja). Różnica niewielka.",
+  "evidence": "pisos.txt: „La capital de provincia en la que resulta más caro compartir piso es Palma (686,33), Barcelona (647), Madrid (636,10 €/mes)”.",
+  "proposedFix": "Zostawić, ewentualnie „stolica prowincji Madryt”."
+ },
+ {
+  "city": "madryt",
+  "item": null,
+  "field": "summary Akademiki; gaps",
+  "severity": "ważne",
+  "problem": "Żargon zbierania danych w treści: „Zebrano cztery oficjalne pozycje”, „nie sprawdzono”, „nie dało się przeczytać w formie tekstu”, „Nie znaleziono”.",
+  "evidence": "summary[0], gaps[1], gaps[2], gaps[4].",
+  "proposedFix": "Przeredagować na zdania dla czytelnika, np. „Podajemy cztery akademiki: …”."
+ }
+]

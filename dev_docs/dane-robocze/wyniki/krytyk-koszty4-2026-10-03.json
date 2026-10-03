@@ -1,0 +1,353 @@
+[
+ {
+  "city": "barcelona",
+  "item": "Vila Universitària UAB",
+  "field": "dorms[0].priceFrom/priceTo",
+  "severity": "ważne",
+  "problem": "Zakres 281 do 1013 EUR miesza trzy różne jednostki: cenę za osobę bez mediów (281), cenę za osobę z mediami (596,92) i cenę za całe studio (1013). Czytelnik widzi jeden przedział „za miesiąc” i może uznać, że pokój kosztuje do 1013 EUR.",
+  "evidence": "Strona habitacio-compartida: „Doble en pis de 5 281 €/mes … despeses no incloses”. Strona estudi-superior: „Individual 1.013 €/mes Lloguer mensual del pis sencer”. Strona habitacio-individual: „596,92 €/mes … consums inclosos”. Podsumowanie wprost pisze „za osobę … a mieszkania studio do 1 013 €”.",
+  "proposedFix": "Ustaw priceTo 596,92 (za osobę, z mediami). Cenę 1013 EUR za całe studio zostaw tylko w notes z etykietą „za cały lokal”. Rozdziel w tekście wersję bez mediów i z mediami."
+ },
+ {
+  "city": "barcelona",
+  "item": "RESA Torre Girona",
+  "field": "dorms[1].priceTo",
+  "severity": "drobne",
+  "problem": "1123 EUR to cena „od” najdroższego typu studia, a nie górna granica cen. Zakres 654 do 1123 to dwie ceny „od”.",
+  "evidence": "Strona RESA: „Superior double studio From 654,00 €/month”, „Superior Single Studio with Kitchen From 1.123,00 €/month”. Sekcja gaps przyznaje to.",
+  "proposedFix": "W summary i w wierszu napisz „ceny od 654 EUR (studio dwuosobowe) do 1 123 EUR (studio jednoosobowe z kuchnią), kwoty „od””. Dodaj informację, że woda i prąd są płatne dodatkowo (jest tylko w includes)."
+ },
+ {
+  "city": "barcelona",
+  "item": "pisos.com 647 EUR",
+  "field": "summary[1].text",
+  "severity": "drobne",
+  "problem": "W podsumowaniu „średnio 647 € za pokój w stolicy” nie ma słowa „z ogłoszeń”. Uczciwa etykieta („Średnia z ogłoszeń, nie z umów”) jest dopiero w notes. Dane są potwierdzone, ale to ceny ofertowe.",
+  "evidence": "PDF pisos.com „Piso compartido 2026”: Barcelona 647,00 €/mes, tabela „Oferta / Precio”, kategoria „capitales de provincia”.",
+  "proposedFix": "Zmień na „średnia cena z ogłoszeń pisos.com za pokój: 647 € miesięcznie (dane nieoficjalne)”."
+ },
+ {
+  "city": "barcelona",
+  "item": "Incasòl",
+  "field": "summary[1].text, rent[0]",
+  "severity": "drobne",
+  "problem": "Zgodne ze źródłem i uczciwie opisane jako średnia wszystkich typów. Uwaga stylistyczna: „więc jest rzetelna” w Uwagach to ocena własna, nie fakt ze źródła.",
+  "evidence": "API Incasòl qww9-bvhh: Barcelona 2026 gener-març, 8156 umów, renda 1137,35. 2025 gener-desembre 1134,61.",
+  "proposedFix": "Usuń słowo „rzetelna”, zostaw „obejmuje wszystkie zarejestrowane umowy, bez podziału na typy mieszkań”."
+ },
+ {
+  "city": "barcelona",
+  "item": null,
+  "field": "summary[0].text, dorms[1].notes, gaps[2]",
+  "severity": "drobne",
+  "problem": "Język zbierania danych w tekście widocznym dla użytkownika: „Zebrano dwie pozycje”, „Strony … były zablokowane”, „Strona XIOR zwróciła błąd 403, więc nie sprawdzono jej cen”, „nie sprawdzono ich cen”.",
+  "evidence": "Teksty w data/koszty/barcelona.json; plan zakazuje żargonu zbierania danych.",
+  "proposedFix": "Przeformułuj na treść dla ucznia: „UAB i UPC” bez opisu, czego nie udało się otworzyć. Wpisy o blokadzie stron przenieś do dziennika roboczego."
+ },
+ {
+  "city": "barcelona",
+  "item": null,
+  "field": "rent[2].notes, gaps[4], summary[4]",
+  "severity": "drobne",
+  "problem": "Antytezy „X, nie Y”: „Średnia z ogłoszeń portalu, nie z umów”, „a nie pełna lista cen”.",
+  "evidence": "Plan zakazuje konstrukcji „to X, nie Y”.",
+  "proposedFix": "„Średnia z ogłoszeń portalu” (bez dopowiedzenia). „Najniższe ceny trzech typów studiów.”"
+ },
+ {
+  "city": "barcelona",
+  "item": null,
+  "field": "summary[2].text, budget",
+  "severity": "drobne",
+  "problem": "Brak budżetu jest opisany słowami „pole budżetu jest puste” (język interfejsu, nie odbiorcy).",
+  "evidence": "summary[2] „dlatego pole budżetu jest puste”.",
+  "proposedFix": "„Uczelnie nie podają oficjalnej łącznej kwoty.”"
+ },
+ {
+  "city": "walencja",
+  "item": "UV pokój w mieszkaniu współdzielonym",
+  "field": "rent[0].year",
+  "severity": "ważne",
+  "problem": "Rok „2026” przypisany do ceny 350 do 450 EUR, a notes mówią, że strona nie podaje daty cen. Wiersz sam sobie zaprzecza i sugeruje aktualność, której źródło nie deklaruje.",
+  "evidence": "Strona UV (potwierdzona dosłownie): „Room in a shared flat (excluding bills): between 350 and 450 €/month”, bez roku. notes: „Strona nie podaje daty cen”.",
+  "proposedFix": "Ustaw year na null albo „bez daty na stronie, odczyt 2026” i pokaż to w tabeli. Wartość 350 do 450 EUR bez rachunków jest poprawna."
+ },
+ {
+  "city": "walencja",
+  "item": "Colegio Mayor Rector Peset",
+  "field": "dorms[2].priceFrom, summary[0].text",
+  "severity": "ważne",
+  "problem": "324 EUR pochodzi z nieopatrzonej datą listy UPV, bez okresu, typu pokoju i zakresu usług. W summary stoi jako zwykła cena („324 € według listy UPV”), a okres „miesiąc” jest tylko założeniem. Lista UPV zawiera też pozycje z otwarciem w sierpniu 2025, więc ma kilka miesięcy do roku.",
+  "evidence": "UPV lista: „RECTOR PESET … Price : 324 € PLACES: 149”. Brak słowa o okresie. Strona UV podaje pojemność 179 studentów i 70 nauczycieli, UPV 149 miejsc.",
+  "proposedFix": "Albo usuń cenę z tabeli do czasu potwierdzenia w UV, albo oznacz wprost „cena z listy UPV, okres i data niepotwierdzone”. W summary dopisz „cena orientacyjna”."
+ },
+ {
+  "city": "walencja",
+  "item": "RESA Damià Bonet",
+  "field": "dorms[0].priceFrom/priceTo, summary[0].text",
+  "severity": "drobne",
+  "problem": "497 i 722 EUR to ceny „od” dwóch typów (studio dwuosobowe, jednoosobowe), bez wody i prądu. Summary nie mówi, że media są dodatkowe, a przy Camplus pisze „z mediami”, więc zestawienie sugeruje porównywalność.",
+  "evidence": "Strona RESA: „Double studio From 497,00 €/month”, „Individual Studio From 722,00 €/month”. Camplus: „Todos los suministros están incluidos. ¡Desde 560€/mes!”.",
+  "proposedFix": "W summary dopisz: „RESA bez wody i prądu, Camplus z mediami”."
+ },
+ {
+  "city": "walencja",
+  "item": "Camplus Valencia Tower",
+  "field": "dorms[1]",
+  "severity": "drobne",
+  "problem": "Potwierdzone: 560/620/710/790 EUR „od”, kaucja 900 EUR, zwrot zaliczki przed 31 lipca. Zakres 560 do 790 to ceny „od” czterech typów, opisane w notes, ale nie w summary.",
+  "evidence": "Camplus: „La fianza tiene un coste total de 900 euros”, „antes del 31 de julio del año correspondiente”.",
+  "proposedFix": "W summary: „ceny od 560 EUR do 790 EUR, zależnie od typu pokoju („od”)”."
+ },
+ {
+  "city": "walencja",
+  "item": null,
+  "field": "summary[2].text, summary[3].text, gaps[0]",
+  "severity": "drobne",
+  "problem": "Antyteza „nie podaje jednej łącznej kwoty, tylko składniki” i sformułowanie „pole budżetu jest puste”. Budżet mógłby być podany jako suma składników z uczelni (250 + 50 + 45 EUR bez czynszu), ale nie jest.",
+  "evidence": "UV: „maintenance costs … approximately 250 €/month”, „electricity, water and gas … around 50 € monthly”, „Internet … approximately 45 € monthly”.",
+  "proposedFix": "Napisz pozytywnie: „UV podaje: jedzenie i drobne wydatki około 250 EUR, media około 50 EUR, internet około 45 EUR miesięcznie, czynsz osobno”. Usuń „pole budżetu jest puste”."
+ },
+ {
+  "city": "walencja",
+  "item": null,
+  "field": "dorms[2].applicationInfo, gaps[2]",
+  "severity": "drobne",
+  "problem": "Język zbierania danych w tekście widocznym dla użytkownika: „nie sprawdzono, bo strona uv.es/cmrpeset jest niedostępna publicznie”, powtórzone w gaps; do tego niespójna twarda spacja w numerze telefonu („963 166 000”).",
+  "evidence": "Teksty w walencja.json.",
+  "proposedFix": "Zastąp „Zasady naboru: kontakt cmrpeset@uv.es”. Telefon w jednej formie."
+ },
+ {
+  "city": "lizbona",
+  "item": "SASULisboa",
+  "field": "dorms[0].priceFrom/priceTo, summary[0].text",
+  "severity": "ważne",
+  "problem": "Zakres 175 do 280 EUR dotyczy wyłącznie studentów ULisboa. Studenci innych uczelni płacą 370 (łóżko) lub 440 EUR (pokój jednoosobowy), czyli ponad połowę więcej. Informacja jest w eligibility, ale nie w summary ani w cenie w tabeli, więc student innej uczelni (np. Erasmus z NOVA lub ISCTE) zobaczy zaniżoną cenę.",
+  "evidence": "PDF SASULisboa 2026/27: „Estudantes ULisboa 280,00€ / 175,00€ / 230,00€; Outros estudantes 440,00€ / 370,00€”, „entram em vigor a partir de 1 de outubro de 2026”. Ceny 175/230/280 potwierdzone.",
+  "proposedFix": "W summary dodaj: „dla studentów innych uczelni 370 do 440 EUR”. W wierszu oznacz kolumnę „dla studentów ULisboa”."
+ },
+ {
+  "city": "lizbona",
+  "item": "Fraústo da Silva (NOVA)",
+  "field": "dorms[1].priceFrom/priceTo, roomType",
+  "severity": "ważne",
+  "problem": "roomType wymienia apartamenty T1 i T2, ale zakres cen 225 do 400 EUR ich nie obejmuje (w cenniku 650 do 950 EUR). Zakres dotyczy tylko pokoi. Poza tym 400 EUR to pokój jednoosobowy z prywatną łazienką, a summary mówi „jednoosobowy od 300 EUR do 400 EUR” bez tej informacji.",
+  "evidence": "PDF NOVA 2026/27: „QUARTO DUPLO (WC Partilhado) 225 €”, „INDIVIDUAL (WC Privativo) 400 €”, „APT T1 1 pax 650 €”, „APT T2 … 950 €”. Wartości 225/275/300/400 potwierdzone.",
+  "proposedFix": "Usuń „apartamenty T1 i T2” z roomType albo dodaj ich cenę. W summary: „pokoje od 225 EUR (dwuosobowy, wspólna łazienka) do 400 EUR (jednoosobowy z własną łazienką)”."
+ },
+ {
+  "city": "lizbona",
+  "item": "Spotahome",
+  "field": "rent[0], summary[1].text",
+  "severity": "drobne",
+  "problem": "Etykieta jest uczciwa (official false, „dane nieoficjalne”, „to nie jest cena pokoju studenckiego”). Drobne: summary nazywa pojedynczą liczbę „przedziałem” i „znalezionym” (żargon), a type w tabeli wymienia „pokoje” w nawiasie, co przy cenie 1223 EUR może sugerować cenę pokoju.",
+  "evidence": "Spotahome Lizbona: „average total price for our properties in Lisbon … €1,223”, wrzesień 2026 €1,219, zakładki „All, Apartments, Studios, Rooms, Student residences”.",
+  "proposedFix": "Zmień „Jedyny znaleziony przedział to średnia” na „Dla orientacji: średnia z ogłoszeń Spotahome”. Type: „średnia z ogłoszeń wszystkich typów lokali”. Rozważ pobranie średniej z zakładki „Rooms”."
+ },
+ {
+  "city": "lizbona",
+  "item": "SASULisboa",
+  "field": "dorms[0].applicationInfo",
+  "severity": "drobne",
+  "problem": "Data „od 27 sierpnia 2026” i „15 dni roboczych” niepotwierdzone na pobranej stronie introducao-alojamento (tekst strony pobrany bez wzmianki o tej dacie).",
+  "evidence": "Strona zwraca tylko „… agosto de 2026” w aktualnościach, bez dnia naboru.",
+  "proposedFix": "Zweryfikować datę na stronie wniosku lub oznaczyć jako niepotwierdzoną."
+ },
+ {
+  "city": "lizbona",
+  "item": null,
+  "field": "gaps[0], gaps[1], gaps[2], gaps[4], summary[1].text",
+  "severity": "drobne",
+  "problem": "Język zbierania danych w tekście widocznym dla użytkownika: „Portal Study in Portugal nie otworzył się”, „nie zostały sprawdzone”, „nie użyto”, „co jest mniej niż trzy wymagane wiersze”, „nie znaleziono podstrony”.",
+  "evidence": "Teksty w lizbona.json; „trzy wymagane wiersze” to wprost reguła z plan-koszty.md.",
+  "proposedFix": "Usuń wszystkie odwołania do procesu zbierania. Zostaw komunikat dla użytkownika: „Oficjalnych cen pokoi na rynku prywatnym nie ma”."
+ },
+ {
+  "city": "porto",
+  "item": "SASUP dla zagranicznych magistrów i doktorantów",
+  "field": "dorms[1].priceTo",
+  "severity": "ważne",
+  "problem": "460,80 EUR to cena za całe studio lub apartament (za pokój/lokal), a 200,80 i 271,80 EUR za osobę. Zakres 200,80 do 460,80 miesza jednostki, a okres i rok (tabela 2025/26, wygasła 30 września 2026) są tylko w notes.",
+  "evidence": "up.pt: „Quarto Individual 271,80€ … Quarto Duplo (p/pessoa) 200,80€ … Quarto Casal (p/quarto) 366,40€ … Estúdio (p/pessoa) 283,10 € … Estúdio (p/quarto) 460,80 €”. Tabela (2025/2026).",
+  "proposedFix": "priceTo 283,10 (za osobę, studio) albo 271,80, a 460,80 tylko w notes jako „za cały lokal”. Dodaj rok 2025/26 do wiersza."
+ },
+ {
+  "city": "porto",
+  "item": "SASUP bez stypendium",
+  "field": "dorms[0].priceFrom/priceTo",
+  "severity": "ważne",
+  "problem": "183,20 EUR pochodzi z tabeli 2025/26, która wygasła 30 września 2026 (dziś 3 października 2026). W tabeli rok nie jest widoczny przy cenie, a w tym samym podsumowaniu obok stoi cena P.PORTO na 2026/27. Typ pokoju nie jest podany. Cena potwierdzona.",
+  "evidence": "up.pt/…/precos/: „Tabela de Preços (2025/2026) … Não Bolseiros … Alojamento 183,20€ 17,10€”; „Estudantes de Mobilidade … 183,20€”.",
+  "proposedFix": "Dodaj do nazwy wiersza „(tabela 2025/26, nowa niepublikowana)” i nie zestawiaj w summary bezpośrednio z ceną 2026/27."
+ },
+ {
+  "city": "porto",
+  "item": "P.PORTO",
+  "field": "dorms[2].priceFrom/priceTo, summary[0].text",
+  "severity": "drobne",
+  "problem": "Cena potwierdzona (159 do 205 EUR, kaucja 110 EUR, zatwierdzone 10 września 2026), ale summary pisze „za łóżko”, a 205 EUR to pokój jednoosobowy dla studentów spoza P.PORTO, 159 EUR to pokój trzyosobowy. sourceUrl kończy się na „tabela-de-precos-2025-2026”, a serwuje tabelę 2026/27.",
+  "evidence": "PDF P.PORTO: „Individual 190,00 € / Duplo 174,00 € / Triplo 159,00 €”; „NÃO BOLSEIROS DE OUTRAS IES: Individual 205,00 €”; „O valor da caução é fixado em 110€”; „Aprovado … 10 de setembro de 2026”.",
+  "proposedFix": "Napisz „za osobę, zależnie od typu pokoju (trzyosobowy 159 EUR, jednoosobowy 190 do 205 EUR)”. Link zachować, ale opisać w notes."
+ },
+ {
+  "city": "porto",
+  "item": "Budżet U.Porto",
+  "field": "summary[2].text, budget",
+  "severity": "drobne",
+  "problem": "Kwoty 130 do 250, 150 do 200 i 22,75 EUR pochodzą z grafiki (obraz) i nie dało się ich zweryfikować tekstowo. Zakwaterowanie 130 do 250 EUR leży poniżej cen akademików z tej samej strony (183 do 460 EUR), co należy zaznaczyć.",
+  "evidence": "gaps[0]: „Grafika jest obrazem na stronie.”",
+  "proposedFix": "Zweryfikować wizualnie albo dopisać „według grafiki uczelni”. Dodać datę grafiki."
+ },
+ {
+  "city": "porto",
+  "item": "Spotahome",
+  "field": "rent[0]",
+  "severity": "drobne",
+  "problem": "Etykieta uczciwa (nieoficjalne, za lokal, nie pokój studencki). Wartość 974 EUR potwierdzona (wrzesień 969).",
+  "evidence": "Spotahome Porto: „€974”, „Sep 26 €969”.",
+  "proposedFix": "Zamienić „Jedyny przedział” na „Dla orientacji”."
+ },
+ {
+  "city": "porto",
+  "item": null,
+  "field": "summary[1].text, summary[2].text, summary[4].text, gaps[1], gaps[2], dorms[2].applicationInfo",
+  "severity": "drobne",
+  "problem": "Język zbierania danych w tekście widocznym dla użytkownika: „nie znaleziono”, „nie otwarto”, „co jest mniej niż trzy wymagane wiersze”, „nie użyto”, „pola kwot budżetu są puste”. Antytezy: „Uczelnia nie podaje jednej sumy, więc…”.",
+  "evidence": "porto.json",
+  "proposedFix": "Przeformułować pod odbiorcę."
+ },
+ {
+  "city": "ateny",
+  "item": null,
+  "field": "summary[2].text",
+  "severity": "ważne",
+  "problem": "Dodatek mieszkaniowy 1500 i 2000 EUR pochodzi z okólnika na rok 2025/26, ale w tekście nie ma roku, więc wygląda na aktualny. W okólniku jest też stawka 2500 EUR dla innej grupy. Warunki (obywatel UE, rezydent podatkowy Grecji, dokumenty podatkowe za 2025) potwierdzone tylko częściowo w tekście.",
+  "evidence": "Okólnik uoa.gr 0107_Egkyklios_Stegastiko_20252026.pdf: „akademickiego roku 2025-2026 … od 30 czerwca do 31 lipca 2026”, „1.500 ευρώ … 2.000 ευρώ … 2.500 ευρώ”, „φορολογικός κάτοικος Ελλάδας”.",
+  "proposedFix": "Dopisz „za rok akademicki 2025/26, roczna kwota”, i że uczniowi z Polski bez greckiego rezydenta podatkowego dodatek nie przysługuje (jest, ale warto wyróżnić). Zmień etykietę, bo dodatek nie jest budżetem miesięcznym."
+ },
+ {
+  "city": "ateny",
+  "item": "Spotahome",
+  "field": "rent[0], summary[1].text",
+  "severity": "drobne",
+  "problem": "Etykieta uczciwa (nieoficjalne, mała próba, nie jest ceną pokoju studenckiego); 792 EUR i rozstęp 755 do 826 potwierdzone (kwiecień 767, maj 826, czerwiec 818, lipiec 760, sierpień 755, wrzesień 824). Ostrożnie: średnia 792 jest niższa niż wrzesień 824, co czytelnik może odebrać jako błąd.",
+  "evidence": "Spotahome Ateny: „€792”, „Aug 26 €755”, „May 26 €826”, „Sep 26 €824”.",
+  "proposedFix": "Dodać „(średnia z półrocza; we wrześniu 824 EUR)” już w summary."
+ },
+ {
+  "city": "ateny",
+  "item": "AUEB bezpłatne zakwaterowanie",
+  "field": "dorms[0]",
+  "severity": "drobne",
+  "problem": "Potwierdzone: nabór 1 września do 31 października 2026, próg 30 000 EUR (rok podatkowy 2025), zakwaterowanie bezpłatne. Wiersz podaje „0 do 0 EUR za rok”, co wygląda jak błąd. Uprawnieni to w praktyce studenci greckich uczelni i zagraniczni stypendyści ministerstwa, a summary mówi ogólnie „uprawnionym studentom”.",
+  "evidence": "lesxi.aueb.gr/el/node/949: „δωρεάν στέγαση … Καταληκτική ημερομηνία 31/10/2026”; PDF: „δεν υπερβαίνει τις τριάντα χιλιάδες (30.000) Ευρώ”.",
+  "proposedFix": "Wyświetlać „bezpłatnie dla uprawnionych” zamiast „0 EUR rocznie”. W summary dopisać „głównie dla obywateli Grecji i stypendystów”."
+ },
+ {
+  "city": "ateny",
+  "item": "NKUA i NTUA",
+  "field": "dorms[1], dorms[2]",
+  "severity": "drobne",
+  "problem": "NKUA: potwierdzone 1064 miejsc, nabór 1 do 30 września 2026. NTUA nie ma żadnej ceny ani terminu (pusty wiersz w tabeli). Dwa z trzech akademików nie mają ceny, ale mają okres „miesiąc”.",
+  "evidence": "uoa.gr: „συνολικά 1064 φοιτητές”; PDF: „από Τρίτη 1 Σεπτεμβρίου 2026 έως Τετάρτη 30 Σεπτεμβρίου 2026”.",
+  "proposedFix": "Ukryć okres przy braku ceny. NTUA przenieść do notatki zamiast osobnego wiersza."
+ },
+ {
+  "city": "ateny",
+  "item": null,
+  "field": "summary[1].text, dorms[1].notes, gaps[0], gaps[1], gaps[2], gaps[4]",
+  "severity": "drobne",
+  "problem": "Język zbierania danych w tekście widocznym dla użytkownika: „nie znaleziono”, „nie otwarto”, „nie został otwarty”, „były niedostępne”, „co jest mniej niż trzy wymagane wiersze”, „użyto strony greckiej”.",
+  "evidence": "ateny.json",
+  "proposedFix": "Usunąć."
+ },
+ {
+  "city": "rzym",
+  "item": "Rezydencje DiSCo",
+  "field": "dorms[0].period, summary[0].text, summary[4].text",
+  "severity": "ważne",
+  "problem": "Okres „miesiąc” i słowo „miesięcznie” w summary kłócą się z Uwagami w tym samym mieście: „nie podają okresu rozliczenia”, „Strony rezydencji nie podają, za jaki okres liczy się miesięczna opłata”. Wiersz podaje jako fakt to, co w notes jest założeniem.",
+  "evidence": "Strony DiSCo: Ruberti „Costi Stanza singola – € 298,00 Stanza doppia – € 253,00”, Livatino „€ 191,30 / € 157,67”, convenzionate „€ 264,00 / € 245,00”, bez słowa „al mese”. Regulamin według źródeł wspomina płatność rat do 5. dnia miesiąca.",
+  "proposedFix": "Zweryfikować w bando/regulaminie (rata miesięczna) i podać źródło okresu albo napisać „okres nie podany na stronach rezydencji, wg regulaminu raty miesięczne”. Ujednolicić summary i notes."
+ },
+ {
+  "city": "rzym",
+  "item": "DiSCo",
+  "field": "dorms[0], dorms[1], dorms[2]",
+  "severity": "drobne",
+  "problem": "Ceny potwierdzone: 191,30 i 157,67 (Livatino, Via Cesare De Lollis 24/b, Roma), 298 i 253 (Ruberti), 264 i 245 (konwencja). Zakres w wierszu „konwencja” (245 do 264) miesza pokój dwuosobowy i jednoosobowy w jednym przedziale. Terminy potwierdzone: bando do 22 lipca 2026 godz. 12:00, 25 września 2026 pierwsza lista zwycięzców.",
+  "evidence": "laziodisco.it/bando-diritto-allo-studio-2026-2027/: „entro le ore 12:00 del 22 luglio 2026”, aktualności „25/09/2026 Primo gruppo di studenti dichiarati vincitori di posto alloggio 2026/2027”.",
+  "proposedFix": "Rozdzielić w konwencji ceny 245 (dwuosobowy) i 264 (jednoosobowy) i nie podawać przedziału."
+ },
+ {
+  "city": "rzym",
+  "item": null,
+  "field": "summary[1].text, summary[2].text, summary[4].text, gaps[0]",
+  "severity": "ważne",
+  "problem": "Narrator w pierwszej osobie („Nie znaleźliśmy”, „nie podajemy”, „kaucji nie wpisujemy”), odwołania do tabeli („w tabeli nie ma wierszy z cenami”) i opis zbierania („duże portale najmu nie otwierają się bez weryfikacji”). Antyteza „To średnia za metr, a nie cena pokoju”.",
+  "evidence": "rzym.json. Plan: „bez żargonu zbierania danych … bez antytez”.",
+  "proposedFix": "„Oficjalnych widełek cen wynajmu w Rzymie uczelnie i DiSCo nie publikują.” „Idealista podaje średni czynsz ofertowy 19,2 EUR za metr kwadratowy miesięcznie (III kwartał 2026, dane nieoficjalne).” Usunąć pierwszą osobę."
+ },
+ {
+  "city": "rzym",
+  "item": "idealista",
+  "field": "summary[1].text",
+  "severity": "drobne",
+  "problem": "19,2 EUR za m2 potwierdzone („Roma (19,2)”), uczciwie nieoficjalne. Brak wiersza w rent, więc dana nie ma wyraźnej etykiety w tabeli.",
+  "evidence": "idealista.it, 1 października 2026: „Roma (19,2) e Bologna (16,6)”.",
+  "proposedFix": "Rozważyć wiersz rent z official false i jednostką „EUR za m2”."
+ },
+ {
+  "city": "barcelona",
+  "item": null,
+  "field": "wszystkie pola tekstowe",
+  "severity": "drobne",
+  "problem": "Brak twardej spacji po jednoliterowych spójnikach i przyimkach (i, w, z, a, o, u) i przed „procent” (np. „56 procent”, „20 procent”, „1 procent”). Kwoty z € i EUR mają twardą spację poprawnie. Plan wymaga twardej spacji tylko przy kwotach, więc to uwaga typograficzna.",
+  "evidence": "Zliczono 70 do 90 wystąpień w mieście (przykład: „w pokoju”, „z mediami”).",
+  "proposedFix": "Opcjonalnie: automatycznie wstawić U+00A0 po jednoliterowych słowach. Spacja przed „procent” na twardą."
+ },
+ {
+  "city": "walencja",
+  "item": null,
+  "field": "wszystkie pola tekstowe",
+  "severity": "drobne",
+  "problem": "Brak twardej spacji po jednoliterowych spójnikach i przyimkach (i, w, z, a, o, u) i przed „procent” (np. „56 procent”, „20 procent”, „1 procent”). Kwoty z € i EUR mają twardą spację poprawnie. Plan wymaga twardej spacji tylko przy kwotach, więc to uwaga typograficzna.",
+  "evidence": "Zliczono 70 do 90 wystąpień w mieście (przykład: „w pokoju”, „z mediami”).",
+  "proposedFix": "Opcjonalnie: automatycznie wstawić U+00A0 po jednoliterowych słowach. Spacja przed „procent” na twardą."
+ },
+ {
+  "city": "lizbona",
+  "item": null,
+  "field": "wszystkie pola tekstowe",
+  "severity": "drobne",
+  "problem": "Brak twardej spacji po jednoliterowych spójnikach i przyimkach (i, w, z, a, o, u) i przed „procent” (np. „56 procent”, „20 procent”, „1 procent”). Kwoty z € i EUR mają twardą spację poprawnie. Plan wymaga twardej spacji tylko przy kwotach, więc to uwaga typograficzna.",
+  "evidence": "Zliczono 70 do 90 wystąpień w mieście (przykład: „w pokoju”, „z mediami”).",
+  "proposedFix": "Opcjonalnie: automatycznie wstawić U+00A0 po jednoliterowych słowach. Spacja przed „procent” na twardą."
+ },
+ {
+  "city": "porto",
+  "item": null,
+  "field": "wszystkie pola tekstowe",
+  "severity": "drobne",
+  "problem": "Brak twardej spacji po jednoliterowych spójnikach i przyimkach (i, w, z, a, o, u) i przed „procent” (np. „56 procent”, „20 procent”, „1 procent”). Kwoty z € i EUR mają twardą spację poprawnie. Plan wymaga twardej spacji tylko przy kwotach, więc to uwaga typograficzna.",
+  "evidence": "Zliczono 70 do 90 wystąpień w mieście (przykład: „w pokoju”, „z mediami”).",
+  "proposedFix": "Opcjonalnie: automatycznie wstawić U+00A0 po jednoliterowych słowach. Spacja przed „procent” na twardą."
+ },
+ {
+  "city": "ateny",
+  "item": null,
+  "field": "wszystkie pola tekstowe",
+  "severity": "drobne",
+  "problem": "Brak twardej spacji po jednoliterowych spójnikach i przyimkach (i, w, z, a, o, u) i przed „procent” (np. „56 procent”, „20 procent”, „1 procent”). Kwoty z € i EUR mają twardą spację poprawnie. Plan wymaga twardej spacji tylko przy kwotach, więc to uwaga typograficzna.",
+  "evidence": "Zliczono 70 do 90 wystąpień w mieście (przykład: „w pokoju”, „z mediami”).",
+  "proposedFix": "Opcjonalnie: automatycznie wstawić U+00A0 po jednoliterowych słowach. Spacja przed „procent” na twardą."
+ },
+ {
+  "city": "rzym",
+  "item": null,
+  "field": "wszystkie pola tekstowe",
+  "severity": "drobne",
+  "problem": "Brak twardej spacji po jednoliterowych spójnikach i przyimkach (i, w, z, a, o, u) i przed „procent” (np. „56 procent”, „20 procent”, „1 procent”). Kwoty z € i EUR mają twardą spację poprawnie. Plan wymaga twardej spacji tylko przy kwotach, więc to uwaga typograficzna.",
+  "evidence": "Zliczono 70 do 90 wystąpień w mieście (przykład: „w pokoju”, „z mediami”).",
+  "proposedFix": "Opcjonalnie: automatycznie wstawić U+00A0 po jednoliterowych słowach. Spacja przed „procent” na twardą."
+ }
+]

@@ -1,0 +1,344 @@
+[
+ {
+  "city": "mediolan",
+  "item": "Rezydencja Cassinella (UniSR)",
+  "field": "dorms[4].deposit",
+  "severity": "ważne",
+  "problem": "Kaucja jest ustawiona na null, a źródło podaje 500 EUR.",
+  "evidence": "unisr.it/en/campus/cassinella: \"an interest-free deposit of € 500 must be paid through bank transfer ... DEPOSIT FOR CASSINELLA RESIDENCE A.Y. 2026/2027\".",
+  "proposedFix": "Wpisać deposit: \"500 EUR kaucji bez oprocentowania, płatna po formalnym przyjęciu pokoju\" i usunąć z gaps zdanie o braku kaucji dla UniSR."
+ },
+ {
+  "city": "mediolan",
+  "item": "Rezydencja Cassinella (UniSR)",
+  "field": "dorms[4].roomType",
+  "severity": "drobne",
+  "problem": "Typ pokoju \"jednoosobowy z łazienką\": strona Cassinella nie zawiera słowa o łazience, tylko \"single bedroom\".",
+  "evidence": "Tekst strony: \"fees are for the single bedroom occupied by the single student\"; brak wzmianki bathroom/private.",
+  "proposedFix": "Zmienić na \"pokój jednoosobowy\" albo potwierdzić łazienkę na stronie zasobów UniSR."
+ },
+ {
+  "city": "mediolan",
+  "item": "Rezydencje Bocconi",
+  "field": "summary[0].text; dorms[2].eligibility",
+  "severity": "ważne",
+  "problem": "Podsumowanie podaje 770 do 1 050 EUR jako cenę pokoju jednoosobowego i pomija, że te rezydencje nie są dla pierwszoroczniaków (osobna ścieżka Olympic Village) i wymagają dojazdu ponad 90 minut. Dla nastolatków rozpoczynających studia to kluczowa informacja. Górna granica 1 050 EUR to studio, nie pokój.",
+  "evidence": "PDF Housing fees 2026-27: pokój jednoosobowy 770 do 925 EUR (Castiglioni 2-room 925), Studio apartment 1050 EUR (Castiglioni), 990 EUR (Dubini, Spadolini). Pole eligibility w dorms[2] mówi o pierwszoroczniakach, ale summary tego nie powtarza.",
+  "proposedFix": "W summary: \"pokój jednoosobowy od 770 do 925 EUR, studio od 990 do 1 050 EUR miesięcznie; rezydencje dla studentów starszych lat, pierwszoroczniacy mieszkają w Olympic Village (ceny nieopisane)\"."
+ },
+ {
+  "city": "mediolan",
+  "item": null,
+  "field": "rent[*].year",
+  "severity": "drobne",
+  "problem": "Wszystkie wiersze YesMilano mają year: null (uczciwe), ale gaps podaje datę aktualizacji strony 27 lipca 2023, a summary mówi, że rok nieznany. Czynsze mogą być z 2023 roku, a czytelnik widzi je obok danych 2026/27.",
+  "evidence": "Gaps: \"strona o wynajmie ma datę aktualizacji 27 lipca 2023\". Strona kosztów życia nie pokazuje daty; zestawienie opisane \"*source: merge of data published by real estate agencies\".",
+  "proposedFix": "W summary Wynajem dodać zdanie: \"Dane pochodzą z zestawienia ofert agencji, strona o wynajmie była aktualizowana w lipcu 2023, więc ceny mogą być zaniżone\" oraz użyć słowa \"orientacyjnie\"."
+ },
+ {
+  "city": "mediolan",
+  "item": null,
+  "field": "summary[2],summary[4],gaps",
+  "severity": "drobne",
+  "problem": "Żargon zbierania danych skierowany do czytelnika: \"Nie sumujemy tych pozycji\", \"ich akademików nie opisujemy\", \"nie otwierają się bez weryfikacji (kod 403)\".",
+  "evidence": "mediolan.json summary[2], summary[4]; gaps[3]-gaps[5] (\"Nie znaleźliśmy\").",
+  "proposedFix": "Przeformułować: \"Miasto nie podaje jednej sumy\"; usunąć wzmianki o kodzie 403 i \"nie opisujemy\"; przenieść do uwagi \"Nie ma tu akademików Uniwersytetu Mediolańskiego (Unimi) i Bicocca\"."
+ },
+ {
+  "city": "mediolan",
+  "item": "Politecnico di Milano",
+  "field": "dorms[0..1]",
+  "severity": "drobne",
+  "problem": "Weryfikacja OK: 5 035 do 7 750 EUR/rok i 4 330 do 7 000 EUR/rok zgodne z tabelą 2025/26 (pole period: rok poprawne, semestr od 3 020 EUR poprawny). Zgodne też sześć rezydencji (Leonardo da Vinci, Newton, Pareto, Einstein, Marie Curie, Galileo Galilei) i Bocconi 7 rezydencji, kaucja 600 EUR, Cassinella 7 000 EUR.",
+  "evidence": "residenze.polimi.it/tariffe/, Bocconi PDF, unisr.it",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "bolonia",
+  "item": "Budżet miesięczny",
+  "field": "summary[2].text",
+  "severity": "drobne",
+  "problem": "Powtórzone słowo \"uczelni uczelni\" i żargon pierwszej osoby (\"Nie znaleźliśmy\").",
+  "evidence": "\"na stronach uczelni uczelni i ER.GO, dlatego nie podajemy liczby\"",
+  "proposedFix": "\"Uczelnia i ER.GO nie publikują oficjalnej szacunkowej kwoty miesięcznego budżetu studenta.\""
+ },
+ {
+  "city": "bolonia",
+  "item": null,
+  "field": "summary[1].text; gaps[3]",
+  "severity": "drobne",
+  "problem": "Sformułowania zbierania danych w tekście dla czytelnika: \"Nie znaleźliśmy oficjalnych widełek\", \"Nie sprawdziliśmy prywatnych operatorów\".",
+  "evidence": "bolonia.json summary[1], gaps[3]",
+  "proposedFix": "Przeformułować na stwierdzenia o stanie rzeczy (\"Uniwersytet i ER.GO nie publikują widełek czynszów\"; \"Oferta obejmuje tylko rezydencje ER.GO\")."
+ },
+ {
+  "city": "bolonia",
+  "item": "Stawka dla gości (Borsino Alloggi)",
+  "field": "dorms[2].priceFrom/priceTo, summary[0]",
+  "severity": "drobne",
+  "problem": "Widełki 259 do 456 EUR łączą najtańsze miejsce w pokoju trzyosobowym (Malpighi 259) z najdroższym monolocale singolo (Castellaccio 456), a etykieta \"miesiąc\" opisuje taryfę \"fino a 30 giorni\". Stawka dla gości jest wyższa o około 30 do 40 procent niż stawka z rankingu.",
+  "evidence": "ER.GO bando 2026/27, Tabella 2: Malpighi tripla 259,00, Castellaccio monolocale singolo 456,00 (Tariffa fino a 30 giorni).",
+  "proposedFix": "W notes rozbić: pokój jednoosobowy od 363 do 456 EUR, dwuosobowy od 322 do 409 EUR, trzyosobowy 259 do 264 EUR (taryfa do 30 dni)."
+ },
+ {
+  "city": "bolonia",
+  "item": "ER.GO",
+  "field": "dorms[0..1]",
+  "severity": "drobne",
+  "problem": "Weryfikacja OK: 247 do 322 EUR (jednoosobowy), 216 do 254 EUR (dwuosobowy), 193 EUR (trzyosobowy Malpighi), kaucja 250 EUR zwracana w 60 dni, termin 24 sierpnia 2026 do 16:00, okres 16.09.2026 do 15.09.2027, media w cenie. Idealista: Bolonia 16,6 EUR/m2 potwierdzone, 600 dopłat po 1 000 EUR (2025/26) potwierdzone.",
+  "evidence": "bando PDF art. 13, Tabella 1 i 2; idealista.it; unibo.it",
+  "proposedFix": "Bez zmian. Brak wierszy wynajmu uczciwie opisany."
+ },
+ {
+  "city": "sztokholm",
+  "item": "Budżet miesięczny (Karolinska Institutet)",
+  "field": "budget",
+  "severity": "ważne",
+  "problem": "Budżet KI jest opisany jako suma składników, ale składniki nie sumują się do podanej kwoty: 2 810 + 3 500 + 200 + 850 + 1 970 = 9 330 SEK, a nie 10 520 SEK; przy mieszkaniu 7 000 SEK suma to 13 830, a nie 14 020. Różnica to sprzeczność w źródle, czytelnik myśli, że kwoty są spójne. Brak też roku opracowania.",
+  "evidence": "education.ki.se: \"Food 2,810 Accommodation 3,500 - 7,000 Student Union fee, books 200 Local travel 850 Other 1,970 Total/Month (SEK) 10,520-14,020\".",
+  "proposedFix": "Dodać zdanie: \"Pozycje na stronie KI sumują się do 9 330 do 13 830 SEK, a uczelnia podaje łącznie 10 520 do 14 020 SEK; różnicy nie wyjaśnia.\" oraz zaznaczyć brak roku."
+ },
+ {
+  "city": "sztokholm",
+  "item": "Stockholm University: studia i mieszkania",
+  "field": "dorms[0].priceFrom/priceTo; summary[4]",
+  "severity": "ważne",
+  "problem": "Ceny 31 600 do 90 750 SEK pochodzą ze strony zbiorczej, która sama mówi, że czynsz dotyczy roku 2024/2025, a summary[4] twierdzi, że dane SU są z 2026/2027. Sprzeczność wewnątrz miasta; ceny z Lappis (2026/27) są nowsze od cen Albano/Remus/Solna z tego wiersza.",
+  "evidence": "su.se/.../housing-for-international-students: \"The rent applies to the academic year 2024/2025 ... Albano Rent per semester: SEK 46,250–90,750 ... Solna SEK 31,600\". Lappis: \"The listed rent applies to the academic year 2026/2027 and is per semester. SEK 28,000–32,500\".",
+  "proposedFix": "Poprawić summary[4]: \"dla Stockholms universitet ceny Lappis są z roku 2026/27, a Albano, Nora torg, Remus i Solna ze strony zbiorczej z roku 2024/25\". Wymusić etykietę roku w nazwie wiersza lub pobrać strony osiedli (Albano 2026/27)."
+ },
+ {
+  "city": "sztokholm",
+  "item": "Stockholm University: studia i mieszkania",
+  "field": "dorms[0].priceTo",
+  "severity": "drobne",
+  "problem": "90 750 SEK za semestr to najdroższe mieszkanie dwupokojowe (rodzinne) w Albano, a cały zakres obejmuje mieszkania rodzinne; nastolatek zobaczy 90 750 jako cenę akademika. Okres (semestr) jest podany poprawnie.",
+  "evidence": "su.se: Albano \"134 studio apartments, 12 one-bedroom apartments, 4 two-bedroom apartments Rent per semester: SEK 46,250–90,750\"; Remus \"Shared apartments, studios and family apartments\".",
+  "proposedFix": "W notes wskazać, że górna granica dotyczy mieszkań 1 i 2-pokojowych; dla studia podać dolny zakres (46 250 do 54 000 po sprawdzeniu strony Albano) lub rozbić wiersz."
+ },
+ {
+  "city": "sztokholm",
+  "item": "KTH Housing",
+  "field": "dorms[2].deposit",
+  "severity": "drobne",
+  "problem": "Kaucja 3 000 SEK jest potwierdzona tylko na stronie Malvinas väg (od jesieni 2025); strony Lappkärrsberget, Teknikringen i Hemmet nie wspominają kaucji, a wiersz sugeruje, że dotyczy całego KTH Housing.",
+  "evidence": "Malvinas väg: \"a security deposit equal to 3000 SEK must be paid ... starting from the Fall semester 2025\"; Lappkärrsberget, Hemmet: brak słowa deposit.",
+  "proposedFix": "Zmienić na \"Kaucja 3 000 SEK (strona Malvinas väg, od semestru jesiennego 2025); na pozostałych stronach osiedli brak informacji\"."
+ },
+ {
+  "city": "sztokholm",
+  "item": null,
+  "field": "summary[0].text",
+  "severity": "drobne",
+  "problem": "Błąd gramatyczny: \"Pokój z wspólną kuchnią\". Dodatkowo pokój na Lappkärrsbergecie ma własną łazienkę, co zmienia opis.",
+  "evidence": "\"Pokój z wspólną kuchnią na Lappkärrsbergecie (KTH) kosztuje 5 700 SEK\"; KTH: \"single corridor rooms with private bathroom and shared kitchen (5700 SEK/monthly)\".",
+  "proposedFix": "\"Pokój z własną łazienką i wspólną kuchnią na Lappkärrsbergecie (KTH) kosztuje 5 700 SEK miesięcznie.\""
+ },
+ {
+  "city": "sztokholm",
+  "item": "SCB",
+  "field": "rent[0..3]",
+  "severity": "drobne",
+  "problem": "Weryfikacja SCB OK przez API: mediana miesięcznego czynszu (Mh_lgh, \"New rent per dwelling\" to etykieta SCB dla miesięcznej stawki): gmina Sztokholm 1 pokój 6 686 (±397), 2 pokoje 8 381 (±302); Inner City 7 255 (±455) i 9 916 (±507). Opis \"mediana całego zasobu, nie oferty dla nowych najemców\" jest uczciwy. Brakuje uwagi, że to w większości czynsze regulowane (hyresrätt), niedostępne dla przyjezdnych bez kolejki.",
+  "evidence": "api.scb.se BO0406Tab03 POST: wartości 6686/8381/7255/9916 dla 2026, ContentsCode 00000126.",
+  "proposedFix": "Dodać do notes: \"Czynsze w większości z kolejek i rynku regulowanego; nowy najemca w podnajmie płaci zwykle więcej\"."
+ },
+ {
+  "city": "sztokholm",
+  "item": "KTH: pokój w mieszkaniu współdzielonym",
+  "field": "rent[4]",
+  "severity": "drobne",
+  "problem": "Pozycja \"pokój w mieszkaniu współdzielonym 4 350 SEK\" to jeden przykład osobisty (Alexandra), a w tabeli \"official: true\" i zakres from=to; informacja jest uczciwie opisana w notes, ale wiersz wygląda jak oficjalna stawka.",
+  "evidence": "kth.se cost-of-living: \"Housing 3 800 (Corridor room) 4 350 (Shared apartment) 8 200 (KTH Housing)\"; \"I share my apartment with someone else, saving me half the rent\".",
+  "proposedFix": "Ustawić official: false lub dopisać do kolumny \"typ\" \"przykład jednej studentki\"; rozważyć usunięcie."
+ },
+ {
+  "city": "sztokholm",
+  "item": null,
+  "field": "summary[*]",
+  "severity": "drobne",
+  "problem": "Zweryfikowano: KTH 5 700 SEK/miesiąc (Lappkärrsberget), 8 200 (Teknikringen studio), 8 400 do 10 000 (Malvinas), 8 900 do 10 500 (Hemmet), Lappis 28 000 do 32 500 SEK za semestr 2026/27, okno wniosku wymiana wiosna 2027 15 do 29 października 2026, Study in Sweden 10 656 SEK.",
+  "evidence": "strony kth.se, su.se, studyinsweden.se",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "kopenhaga",
+  "item": "Budżet miesięczny",
+  "field": "budget; summary[2].text",
+  "severity": "ważne",
+  "problem": "Budżet 8 450 do 13 700 DKK to suma pozycji z portalu Study in Denmark bez roku i dla całej Danii, sprowadzona do zakresu przez zsumowanie wszystkich minimów i wszystkich maksimów. Opis jest uczciwy (\"Portal sam nie podaje sumy\"), ale pole budget jest oznaczone official: true, a dolna granica jest nierealna dla Kopenhagi: czynsz 3 000 DKK jest niższy niż najtańszy akademik ITU (3 923 + 250) i niż dolna granica KU (4 000). Poza tym sumuje abonamenty streamingowe i telefon, których źródło nie nazywa budżetem.",
+  "evidence": "studyindenmark.dk/live-in-denmark/bank-budget: \"Rent Varies from 3000-6,500 DKK ... Insurance 300 ... Streamning 200 ... Books 400-650 ... Mobile 250 ... Food 2,000-3,500 ... Transport 300 ... Other 2,000\". Suma min 8 450, max 13 700 (zgodna z arytmetyką). KU: \"rent ranging from 4,000 to 10,000 DKK\".",
+  "proposedFix": "Ustawić official: false lub dodać w summary: \"To suma pozycji z przykładowego zestawienia dla całej Danii, nie oficjalny budżet; dla Kopenhagi realny czynsz jest wyższy (KU: od 4 000 DKK)\". Rozważyć from = 8 450 tylko jako dolną granicę poza Kopenhagą."
+ },
+ {
+  "city": "kopenhaga",
+  "item": "Budżet miesięczny / DTU",
+  "field": "budget; rent[2]",
+  "severity": "ważne",
+  "problem": "Pominięto oficjalne sumy DTU: w pliku PDF DTU są podane całkowite miesięczne koszty (na kampusie 1 244 do 1 840 EUR, poza kampusem 1 650 do 2 800 EUR). Są to jedyne oficjalne sumy dla okolic Kopenhagi, a plik ich nie używa, choć używa czynszów z tego samego PDF (800 do 900, 1 100 do 1 700 EUR). Rok niepodany.",
+  "evidence": "dtu.pdf: \"TOTAL 1244-1840 EUR/month\" (on campus) i \"TOTAL 1650-2800 EUR/month\" (outside campus, Ungdomskort, 4 takeouts, 8 lunch on campus, 8 beers).",
+  "proposedFix": "Dodać do summary Budżet jako drugie źródło lub zastąpić pole budget wartością DTU (EUR, bez roku, Lyngby/Kopenhaga, w tym piwo i jedzenie na wynos) z opisem, co obejmuje."
+ },
+ {
+  "city": "kopenhaga",
+  "item": "Rezydencje współpracujące z CBS",
+  "field": "summary[0].text; dorms[2],[3]",
+  "severity": "ważne",
+  "problem": "Podsumowanie podaje CBS \"od 5 311 do 9 029 DKK\" i ITU \"3 923 do 4 425 plus 250 DKK\", ale przy CBS pomija miesięczną opłatę serwisową (Kathrine 1 267 DKK, Nimbusparken 1 030 DKK), która podnosi realny koszt o 14 do 24 procent. Zakres 5 311 do 9 029 miesza też miejsce w pokoju dwuosobowym (5 311 do 6 639) z pokojem jednoosobowym (7 170 do 9 029). Ceny są za miesiąc, ale dotyczą semestru jesiennego 2026 (14.08 do 31.12), a nie roku.",
+  "evidence": "Kathrine PDF: \"Single ... En-suite 7435.00 7435.00 1267.00 8/14/2026 12/31/2026\"; Shared 5311.00 ... 1267.00. Nimbusparken: 6460.00 deposit/rent, 1030.00 services.",
+  "proposedFix": "W summary: \"Kathrine Kollegiet: miejsce w pokoju dzielonym od 5 311 do 6 639 DKK, pokój jednoosobowy od 7 170 do 9 029 DKK miesięcznie plus 1 267 DKK opłaty serwisowej (semestr jesienny 2026)\"."
+ },
+ {
+  "city": "kopenhaga",
+  "item": "Housing Foundation Copenhagen",
+  "field": "dorms[0].deposit; rent[0]",
+  "severity": "drobne",
+  "problem": "Pole deposit w wierszu fundacji opisuje ogólną praktykę duńską z KU (3 miesiące czynszu z góry plus kaucja równa 3 miesiącom), a nie warunki fundacji. Z kolei zakres 4 000 do 10 000 DKK w rent[0] jest opisany jako dotyczący studentów na wymianie, czego strona KU nie stwierdza.",
+  "evidence": "ku.dk/studies/student-life/housing: \"rent ranging from 4,000 to 10,000 DKK a month (and higher!). It is also common practice in Denmark to pay 3 months rent in advance ... as well as a deposit equal to 3 months rent.\"",
+  "proposedFix": "Dla fundacji ustawić deposit: null i przenieść praktykę do notes jako \"ogólna praktyka w Danii wg KU\"; w rent[0] usunąć \"dla studentów na wymianie\"."
+ },
+ {
+  "city": "kopenhaga",
+  "item": "ITU",
+  "field": "dorms[1].applicationInfo",
+  "severity": "drobne",
+  "problem": "Terminy 1 listopada i 1 czerwca bez roku, a strona jest przestarzała (nadal wspomina \"a few available rooms for Spring 2026\"). Na dzień 2026-10-03 termin 1 czerwca minął, a 1 listopada dotyczy semestru wiosennego 2027, czego strona nie potwierdza.",
+  "evidence": "itu.dk: \"full degree students apply on a first come, first serve basis within the following deadlines: The spring semester: 1 November. The autumn semester: 1 June. NB: We still have a few available rooms for Spring 2026.\"",
+  "proposedFix": "Napisać: \"Termin 1 listopada dotyczy semestru wiosennego; strona nie podaje roku, jest nieaktualna, sprawdź przed wnioskiem\"."
+ },
+ {
+  "city": "kopenhaga",
+  "item": null,
+  "field": "rent[*], budget",
+  "severity": "drobne",
+  "problem": "Wiersze wynajmu mieszają waluty (DKK i EUR z DTU) bez znacznika; DTU budget i Boligfonden w EUR obok DKK w tej samej tabeli może wprowadzić w błąd. Brak roku we wszystkich wierszach (uczciwie null).",
+  "evidence": "dorms[4] (EUR 800 do 900), rent[2] (EUR 1 100 do 1 700), reszta DKK.",
+  "proposedFix": "Dodać w summary zdanie, że dane DTU są w euro, a pozostałe w koronach."
+ },
+ {
+  "city": "kopenhaga",
+  "item": "ITU, Kathrine, Nimbusparken, DTU",
+  "field": "dorms",
+  "severity": "drobne",
+  "problem": "Weryfikacja OK: ITU Signalhuset 4 141 do 4 425 + 250 DKK, Øresund 3 923 do 3 973 (pokój) i 6 372 do 6 965 (pokój dla par), opłata 6 925 DKK; Kathrine 5 311 do 9 029; Nimbus 6 460 DKK plus kaucja 6 460; DTU 800 do 900 EUR (kampus, z mediami); KU 4 000 do 10 000; Study in Denmark 3 000 do 6 500.",
+  "evidence": "strony ITU, PDF CBS, PDF DTU, ku.dk, studyindenmark.dk",
+  "proposedFix": "Bez zmian poza powyższymi."
+ },
+ {
+  "city": "helsinki",
+  "item": null,
+  "field": "rent[0..1].year",
+  "severity": "drobne",
+  "problem": "Wiersze Hanken (400 do 500 EUR pokój, 600 do 900 EUR kawalerka) mają year: \"2026\", a notes i gaps mówią, że strona nie podaje roku. Pole roku sprzeczne z opisem.",
+  "evidence": "hanken.fi fees-and-living-costs: \"A room in a shared apartment is around 400–500 €/month and a one-room apartment may cost 600–900 €/month\" bez daty.",
+  "proposedFix": "Ustawić year: null dla obu wierszy Hanken."
+ },
+ {
+  "city": "helsinki",
+  "item": "Hoas",
+  "field": "summary[0].text; dorms[1].waitlist",
+  "severity": "drobne",
+  "problem": "Podsumowanie mówi \"bez zwykłej kolejki\" i o decyzji według pilności, a wiersz studio opisuje oczekiwanie \"kilka miesięcy, nawet rok\". Wrażenie sprzeczności.",
+  "evidence": "Hoas: brak zwykłej kolejki; studio waitlist: \"oczekiwanie może trwać kilka miesięcy, nawet rok\".",
+  "proposedFix": "W summary: \"nie ma zwykłej kolejki, ale na kawalerkę trzeba czekać nawet rok (dane Aalto)\"."
+ },
+ {
+  "city": "helsinki",
+  "item": "Hoas",
+  "field": "dorms[0].deposit",
+  "severity": "drobne",
+  "problem": "Kaucja: poprawnie 0 EUR od 1 czerwca 2023, ale pominięto, że kaucja jest zawsze wymagana przy wynajmie mieszkań dla studentów na wymianie (zapis \"m.in.\" jest zbyt ogólny).",
+  "evidence": "hoas.fi/en/applicants/tenancy-agreement/deposit/: \"We require deposit if: You have payment defaults. You rent an exchange student apartment. 260 euros in shared apartment, 500 euros in other apartment types\".",
+  "proposedFix": "Dopisać \"oraz dla mieszkań dla studentów na wymianie\"."
+ },
+ {
+  "city": "helsinki",
+  "item": "Statistics Finland",
+  "field": "rent[2..4]",
+  "severity": "drobne",
+  "problem": "Weryfikacja OK przez API (tabela 15fc, 2026Q2): 1 pokój Helsinki 680/730/810 (n 19 964), Espoo-Kauniainen 675/715/763 (n 5 599), 2 pokoje Helsinki 850/950/1 100 (n 16 762). Opis kwartyli w notes poprawny. W summary \"zwykle od 680 do 810\" opisuje środkowe 50 procent, ale bez słowa \"kwartyl\"; czynsze całkowite (total rents) nie mają deklaracji mediów.",
+  "evidence": "pxdata.stat.fi POST: wartości [19964,680,730,810,5599,675,715,763,16762,850,950,1100].",
+  "proposedFix": "W summary zamienić \"zwykle od 680 do 810\" na \"środkowa połowa ofert mieści się między 680 a 810 EUR (dolny i górny kwartyl)\"."
+ },
+ {
+  "city": "helsinki",
+  "item": "Hoas / Uniwersytet Helsiński",
+  "field": "dorms; budget",
+  "severity": "drobne",
+  "problem": "Weryfikacja OK: Hoas pokój 250 do 519, studio 500 do 747, studio ze wspólną kuchnią 560 do 574; UH 1 000 do 1 300 EUR (450 do 800 akademik, min 450 inne), 9 600 EUR/rok (od 1.11.2024), Hanken 400 do 500, 600 do 900, 20 procent taniej. Budżet UH opisany uczciwie, bez roku.",
+  "evidence": "hoas.fi, helsinki.fi, hanken.fi",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "tallinn",
+  "item": null,
+  "field": "rent[0..1].year",
+  "severity": "ważne",
+  "problem": "Oba wiersze mają year: \"2026\", a notes mówią \"Strona nie podaje roku\". Sprzeczność; wartość roku nieudokumentowana (strona TLU zawiera tylko ceny bez daty).",
+  "evidence": "tlu.ee/en/private-room-or-flat: \"The prices for private accommodation range from 350-550 EUR or more for an average private flat\" bez daty; studyinestonia.ee/living/accommodation: \"€350–750 in private flats\" bez daty.",
+  "proposedFix": "Ustawić year: null w obu wierszach."
+ },
+ {
+  "city": "tallinn",
+  "item": "Budżet miesięczny",
+  "field": "budget; summary[2].text",
+  "severity": "ważne",
+  "problem": "Budżet 300 do 500 EUR jest oznaczony official: true, lecz jest nierealny dla Tallinna i wewnętrznie sprzeczny: sama pozycja jedzenia to około 300 EUR, a akademik od 150 do 350 EUR, czyli suma pozycji to co najmniej 450 EUR. Strona opiera się na ankiecie iGraduate z 2019 roku (połowa studentów wydaje około 300 EUR). Gaps i summary to wspominają, ale pole budget i tak pokaże 300 do 500 jako szacunek roku 2026.",
+  "evidence": "studyinestonia.ee/living/living-costs: \"The monthly average living cost for students can be around 300-500 euros ... €150–350 in the dormitories ... around €300 per month for food ... 2019 results of the international student satisfaction survey iGraduate\". Realne akademiki TalTech: 161 do 440 EUR.",
+  "proposedFix": "Opisać w budget.text: \"Szacunek oparty częściowo na ankiecie z 2019 roku, niższy niż suma jedzenia i akademika; dla własnego mieszkania realnie więcej\" lub ustawić from/to na null i zostawić tylko opis. Nie prezentować jako budżet 2026."
+ },
+ {
+  "city": "tallinn",
+  "item": null,
+  "field": "summary; dorms[*].deposit/notes (format)",
+  "severity": "drobne",
+  "problem": "Niespójny format kwot w porównaniu z resztą miast: \"161 do 173 euro\", \"125 euro\", \"Akadeemia 5 296 euro\" z zwykłymi spacjami (nie U+00A0), podczas gdy pozostałe miasta używają EUR i twardej spacji. Plan wymaga twardej spacji przed jednostką.",
+  "evidence": "tallinn.json summary[0..2], budget.text, dorms[0].deposit \"125 euro\", dorms[1].notes \"Akadeemia 5 296 euro\".",
+  "proposedFix": "Zamienić zwykłe spacje przed \"euro\" i w liczbach tysięcznych na U+00A0 lub ujednolicić na \"EUR\"."
+ },
+ {
+  "city": "tallinn",
+  "item": "TalTech",
+  "field": "dorms[0].notes",
+  "severity": "drobne",
+  "problem": "Wiersz \"miejsce w pokoju dwuosobowym\" dla Siidisaba 7 i Raja 4D: ok, ale Akadeemia 5 i Siidisaba 7 (jednoosobowy 322) mają kaucje wyższe niż wynika z wiersza (200/250/440), a kaucja \"125 euro\" dotyczy tylko miejsca w pokoju dwuosobowym. Brak błędu, sprawdzone: 161/173, 296/322/440, 348/378, kaucje 125, 200, 250, 440.",
+  "evidence": "taltech.ee/en/student-housing/siidisaba7, akadeemia-5, akadeemia-11-2, raja4d; Dormitorium: 215/245/230/260, depozyty 470/520/490/550.",
+  "proposedFix": "Bez zmian. Dodać rok kontekstowy (\"ceny ze stron z października 2026\")."
+ },
+ {
+  "city": "tallinn",
+  "item": "Dormitorium (TLU)",
+  "field": "dorms[3].applicationInfo",
+  "severity": "drobne",
+  "problem": "\"Nabór na semestr jesienny 2026/2027 od 1 czerwca 2026\" już minął na dzień 2026-10-03, a nie ma informacji o naborze wiosennym poza terminem 1 listopada dla wymiany. Czytelnik nie dostaje aktualnego terminu.",
+  "evidence": "Wynik zawiera: \"Studenci na wymianie na cały rok ... do 1 listopada\".",
+  "proposedFix": "Dodać na początku: \"Nabór na jesień 2026 zakończony; na semestr wiosenny 2027 wymiana pisze do 1 listopada\"."
+ },
+ {
+  "city": "tallinn",
+  "item": null,
+  "field": "rent[1].notes; summary[1].text",
+  "severity": "drobne",
+  "problem": "Antyteza \"nie tylko Tallinna\" i różnica zakresów: dla Tallinna użyto zakresu krajowego 350 do 750 EUR (Study in Estonia) jako wiersza wynajmu, choć dotyczy \"private flats\" w całej Estonii; na stronie TLU 350 do 550 to \"average private flat\", bez liczby pokoi i bez podziału na pokój/kawalerkę.",
+  "evidence": "studyinestonia.ee: \"€350–750 in private flats\"; tlu.ee: \"350-550 EUR or more for an average private flat\".",
+  "proposedFix": "Usunąć wiersz krajowy z tabeli wynajmu Tallinna lub oznaczyć jako zakres dla całej Estonii; zmienić notes na \"Zakres dotyczy całej Estonii.\""
+ },
+ {
+  "city": "wszystkie (6 miast)",
+  "item": null,
+  "field": "summary, dorms, gaps (format)",
+  "severity": "drobne",
+  "problem": "Brak twardej spacji po jednoliterowych spójnikach i przyimkach (a, i, o, u, w, z) we wszystkich sześciu miastach (co najmniej 250 pól tekstowych). Kwoty i jednostki mają U+00A0 (poza Tallinnem), długich myślników w tekście nie wykryto.",
+  "evidence": "Wyszukiwanie regex po data/koszty/{mediolan,bolonia,sztokholm,kopenhaga,helsinki,tallinn}.json.",
+  "proposedFix": "Jeśli strona stosuje twardą spację po jednoliterówkach, uruchomić globalny replace po renderowaniu (nie w danych)."
+ },
+ {
+  "city": "wszystkie (6 miast)",
+  "item": null,
+  "field": "summary",
+  "severity": "drobne",
+  "problem": "Narracja zbierania danych w tekstach dla czytelnika: \"Nie znaleźliśmy\", \"nie opisujemy\", \"Nie sprawdziliśmy\" w Mediolanie i Bolonii (Kopenhaga, Sztokholm, Helsinki, Tallinn stosują lepszy styl).",
+  "evidence": "mediolan.json summary[2], summary[4], gaps[3]; bolonia.json summary[1], summary[2], gaps[3].",
+  "proposedFix": "Przeformułować na stwierdzenia o dostępności danych, bez pierwszej osoby."
+ }
+]

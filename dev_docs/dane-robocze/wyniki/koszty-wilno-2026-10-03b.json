@@ -1,0 +1,168 @@
+{
+  "slug": "wilno",
+  "name": "Wilno",
+  "country": "Litwa",
+  "currency": "EUR",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Uniwersytet Wileński ma akademiki przy Saulėtekio, Olandų i Didlaukio, gdzie miejsce w pokoju dwu- lub trzyosobowym kosztuje 90 do 130 EUR miesięcznie (cennik z 1 sierpnia 2025), ale miejsc jest ograniczona liczba, więc nie każdy student je dostanie. VILNIUS TECH ma sześć akademików w Wilnie z cenami od 85 EUR (miejsce w pokoju trzyosobowym) do 280 EUR (odnowiony pokój jednoosobowy), a Uniwersytet Mykolasa Romerisa dom studencki przy Didlaukio z cenami od 120 EUR do 550 EUR. Cenniki VILNIUS TECH i MRU nie mają daty na stronach uczelni."
+    },
+    {
+      "label": "Wynajem",
+      "text": "VILNIUS TECH podaje, że mieszkanie z jedną sypialnią w mieście kosztuje około 200 do 400 EUR miesięcznie, a lepiej wyposażone są droższe. Strona nie podaje roku tej informacji. Innych oficjalnych cen wynajmu w Wilnie brak."
+    },
+    {
+      "label": "Budżet miesięczny",
+      "text": "Dla Wilna brak oficjalnej szacunkowej kwoty miesięcznego budżetu studenta. Uniwersytet Wileński podaje minimalną kwotę środków na utrzymanie wymaganą przy rejestracji pobytu: co najmniej 221 EUR miesięcznie. Jest to dolna granica formalna. Typowe wydatki są wyższe."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "Uniwersytet Wileński zaleca akademiki, bo są najbliżej kampusów i tanie, a studenci bez przydziału szukają mieszkania sami lub przez inne instytucje. Oficjalny portal Study in Lithuania wskazuje serwisy Aruodas, Domoplius, Airbnb, Booking, Solo Society i Housing Target. Studentom VILNIUS TECH pomaga ESN VILNIUS TECH. Przed wpłatą kaucji należy sprawdzić umowę i wynajmującego."
+    }
+  ],
+  "budget": {
+    "from": 221,
+    "to": null,
+    "currency": "EUR",
+    "period": "miesiąc",
+    "text": "Wymóg formalny: minimalna miesięczna kwota środków na utrzymanie, którą trzeba udokumentować przy rejestracji pobytu w Departamencie Migracji (lista dokumentów na stronie Uniwersytetu Wileńskiego). Typowe wydatki studenta są wyższe, na przykład sam akademik kosztuje od 85 do 550 EUR miesięcznie.",
+    "sourceUrl": "https://www.vu.lt/en/admissions/visa-and-residence-permit",
+    "quote": "Proofs of sufficient means of support (at least €221 per month);",
+    "official": true,
+    "kind": "wymog"
+  },
+  "dorms": [
+    {
+      "name": "Akademiki Uniwersytetu Wileńskiego (Saulėtekio, Olandų, Didlaukio), cennik z 1 sierpnia 2025",
+      "operator": "Bendrabučių centras Uniwersytetu Wileńskiego",
+      "url": "https://www.bustas.vu.lt/en/accommodation/",
+      "roomType": "miejsce w pokoju dwuosobowym lub trzyosobowym",
+      "priceFrom": 90,
+      "priceTo": 130,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Pościel (zmieniana dwa razy w miesiącu) wliczona w cenę dla budynków z lepszymi warunkami. Internet uniwersytecki 5 EUR miesięcznie osobno.",
+      "deposit": "Co najmniej 150 EUR, a gdy miesięczna opłata jest wyższa, równa miesięcznej opłacie.",
+      "eligibility": "Tylko dla studentów Uniwersytetu Wileńskiego, w roku akademickim od 1 września do 30 czerwca. Z powodu ograniczonej liczby miejsc nie każdy student dostanie miejsce.",
+      "applicationInfo": "Wniosek składa się w procedurze rekrutacji (studia stopniowe) lub w procedurze zapisów (wymiana). Przeprowadzka na semestr jesienny od końca sierpnia do początku września, na wiosenny od 31 stycznia. Termin składania wniosków na stronie nie jest podany.",
+      "applyUrl": "https://apply.vu.lt/",
+      "waitlist": null,
+      "sourceUrl": "https://www.bustas.vu.lt/en/prices/",
+      "quote": "5.1. In a double room if living two persons – 130 EUR; 5.3. In a triple room if living three persons – 90 EUR",
+      "notes": "Cennik z 1 sierpnia 2025. Pokój dwuosobowy zajęty przez jedną osobę kosztuje 260 EUR. W akademikach ze starszym standardem opłata wynosi 85 EUR (dwuosobowy) i 70 EUR (trzyosobowy). Kontakt: accommodation@vub.lt."
+    },
+    {
+      "name": "VILNIUS TECH, akademiki nr 1 do 5 (Saulėtekio al., V. Grybo g.), cennik bez daty",
+      "operator": "Wileński Uniwersytet Techniczny im. Giedymina (VILNIUS TECH)",
+      "url": "https://vilniustech.lt/en/community/dormitories/",
+      "roomType": "trzyosobowy, dwuosobowy, jednoosobowy",
+      "priceFrom": 85,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Pościel, ręcznik i sprzątanie dwa razy w tygodniu. Pokoje umeblowane, kuchnia we wspólnym bloku. Posiłki nie są wliczone.",
+      "deposit": "600 EUR, zwracane po wyjeździe, jeśli nie było szkód",
+      "eligibility": "Studenci VILNIUS TECH. Nie zawsze można zaoferować pokój jednoosobowy.",
+      "applicationInfo": "Wniosek w systemie informacyjnym uczelni (mano.vilniustech.lt) z wpłatą kaucji. Przyjęci na studia pierwszego stopnia w głównej rekrutacji składają wniosek do 21 sierpnia do godz. 12:00, decyzja 21 i 22 sierpnia (strona nie podaje roku naboru; w opisie podpisywania umów pojawia się data 21 sierpnia 2025). Studenci wymiany rejestrują się od połowy czerwca i od połowy grudnia.",
+      "applyUrl": "https://mano.vilniustech.lt",
+      "waitlist": "Tak. Studenci wymiany: kto zarejestruje się pierwszy, ten dostaje miejsce, pozostali trafiają na listę oczekujących.",
+      "sourceUrl": "https://vilniustech.lt/en/community/dormitories/",
+      "quote": "Triple Room Standard 85,00 € Single Room Renovated 280,00 € Deposit: €600.",
+      "notes": "Ceny miesięczne zależą od budynku i typu pokoju: miejsce w pokoju trzyosobowym standardowym od 85 EUR, odnowiony pokój jednoosobowy do 280 EUR; np. nr 1 (Saulėtekio 25) 150 do 280 EUR, nr 5 85 do 200 EUR. Strona nie podaje roku cennika."
+    },
+    {
+      "name": "VILNIUS TECH, akademik nr 6 dla studentów wymiany (Saulėtekio al. 39A), cennik bez daty",
+      "operator": "VILNIUS TECH",
+      "url": "https://vilniustech.lt/en/community/dormitories/",
+      "roomType": "dwuosobowy",
+      "priceFrom": 240,
+      "priceTo": 280,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Pościel i sprzątanie jak w pozostałych akademikach VILNIUS TECH.",
+      "deposit": "600 EUR, zwracane po wyjeździe, jeśli nie było szkód",
+      "eligibility": "Akademik przeznaczony dla studentów wymiany.",
+      "applicationInfo": "Rejestracja od połowy czerwca i połowy grudnia, dane do rejestracji dostają tylko przyjęci studenci wymiany.",
+      "applyUrl": "https://mano.vilniustech.lt",
+      "waitlist": "Tak, lista oczekujących po wyczerpaniu miejsc.",
+      "sourceUrl": "https://vilniustech.lt/en/community/dormitories/",
+      "quote": "Dormitory nr. 6 (Exchange Student Dormitory) Saulėtekio al. 39A, Vilnius Double Room Standard 240,00 € Double Room Renovated 280,00 €",
+      "notes": "Strona nie podaje, czy kwota dotyczy miejsca, czy pokoju."
+    },
+    {
+      "name": "Uniwersytet Mykolasa Romerisa, dom studencki (Didlaukio 57 i 86), cennik bez daty",
+      "operator": "Uniwersytet Mykolasa Romerisa (MRU)",
+      "url": "https://www.mruni.eu/en/study-organization-and-environment/accommodation/",
+      "roomType": "trzyosobowy, dwuosobowy, jednoosobowy",
+      "priceFrom": 120,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Wi-Fi w Didlaukio 57, w Didlaukio 86 tylko internet kablowy. Strona nie podaje pozostałych mediów.",
+      "deposit": "Opłata rezerwacyjna 100 EUR zalicza się na poczet pierwszego miesiąca czynszu. Jest bezzwrotna, gdy rezygnacja następuje mniej niż dwa tygodnie przed zakwaterowaniem.",
+      "eligibility": "Studenci MRU rezerwują pokój przez logowanie uczelniane. Inne osoby i goście płacą wyższe stawki.",
+      "applicationInfo": "Rezerwacja online przez system domu studenckiego, miejsce jest trzymane miesiąc od wybranej daty przyjazdu. Czynsz płaci się do 15. dnia bieżącego miesiąca. Strona nie podaje stałego terminu naboru.",
+      "applyUrl": "https://studentunamai.mruni.eu/StudentuNamai/Rezervacija",
+      "waitlist": null,
+      "sourceUrl": "https://www.mruni.eu/en/study-organization-and-environment/accommodation/",
+      "quote": "Price of a place in a triple room (shower, toilet shared by two rooms) 120 ... Single renovated individual room (shower, toilet, kitchen for one room). 550",
+      "notes": "Ceny miesięczne dla studentów uczelni, zależnie od typu pokoju: miejsce w pokoju trzyosobowym od 120 EUR, dwuosobowym 130 do 175, odnowione dwuosobowe 260, pokój jednoosobowy 250 do 300, odnowiony jednoosobowy 380 do 550 EUR. Strona nie podaje roku cennika."
+    }
+  ],
+  "rent": [
+    {
+      "type": "mieszkanie 1-pokojowe",
+      "area": "Wilno",
+      "priceFrom": 200,
+      "priceTo": 400,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": null,
+      "includesUtilities": "nie wiadomo",
+      "official": true,
+      "source": "VILNIUS TECH, strona o akademikach",
+      "sourceUrl": "https://vilniustech.lt/en/community/dormitories/",
+      "quote": "The price for a 1 bedroom flat in the city is around 200-400 EUR per month though well furnished places tend to be more expensive.",
+      "notes": "Strona źródłowa nie podaje roku ani dzielnicy. Kwota pochodzi od uczelni, nie z oficjalnej statystyki."
+    }
+  ],
+  "gaps": [
+    "Dla Wilna brak oficjalnej szacunkowej kwoty miesięcznego budżetu studenta. Kwota 221 EUR to formalne minimum środków wymagane przy rejestracji pobytu.",
+    "Dla Wilna jest tylko jedna oficjalna informacja o wynajmie: mieszkanie z jedną sypialnią, bez roku i dzielnicy. Brak cen pokoju w mieszkaniu współdzielonym, kawalerki i mieszkania 2-pokojowego.",
+    "Uniwersytet Wileński nie podaje terminu składania wniosków o akademik, a jego cennik pochodzi z 1 sierpnia 2025. Strony VILNIUS TECH i MRU nie podają roku cennika.",
+    "Portal Study in Lithuania nie ma strony z kosztami życia, więc nie ma z niego kwoty budżetu.",
+    "W cenniku Uniwersytetu Wileńskiego stawki 85 i 70 EUR dotyczą starszych akademików, ale cennik nie wskazuje dokładnie, które budynki obejmuje. Zakres cen w karcie to stawki 90 do 130 EUR."
+  ],
+  "sources": [
+    {
+      "url": "https://www.vu.lt/en/students/services-for-students/accommodation",
+      "note": "Zakwaterowanie na Uniwersytecie Wileńskim"
+    },
+    {
+      "url": "https://www.bustas.vu.lt/en/accommodation/",
+      "note": "Akademiki UW w Wilnie, depozyt, terminy"
+    },
+    {
+      "url": "https://www.bustas.vu.lt/en/prices/",
+      "note": "Cennik akademików UW od 1 sierpnia 2025"
+    },
+    {
+      "url": "https://vilniustech.lt/en/community/dormitories/",
+      "note": "Akademiki VILNIUS TECH, ceny, kaucja, nabór, ceny najmu 1 sypialni"
+    },
+    {
+      "url": "https://www.mruni.eu/en/study-organization-and-environment/accommodation/",
+      "note": "Dom studencki MRU, cennik i rezerwacja"
+    },
+    {
+      "url": "https://www.vu.lt/en/admissions/visa-and-residence-permit",
+      "note": "Minimalne środki na utrzymanie 221 EUR"
+    },
+    {
+      "url": "https://studyin.lt/about-lithuania/useful-information/",
+      "note": "Portale najmu i zasady akademików"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "poznan",
+  "name": "Poznań",
+  "country": "Polska",
+  "currency": "PLN",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Największe uczelnie mają własne domy studenckie. Na rok 2026/27 Politechnika Poznańska pobiera od 550 do 1700 zł miesięcznie za miejsce (zależnie od domu i standardu), UAM od 680 do 1390 zł, a Uniwersytet Ekonomiczny od 750 do 1200 zł. Miejsca przyznaje się według dochodu w rodzinie, odległości od domu i sytuacji życiowej, a złożenie wniosku nie gwarantuje przydziału."
+    },
+    {
+      "label": "Wynajem",
+      "text": "Oficjalnych cen najmu w Poznaniu nie udało się potwierdzić. Serwis Rentier.io podaje (dane nieoficjalne) medianę ofertowego czynszu 60 zł za metr kwadratowy we wrześniu 2026, czyli około 3 020 zł miesięcznie za mieszkanie 50 m². Według Otodom dostępność mieszkań na wynajem w lipcu 2026 była w Poznaniu o 29 procent niższa niż rok wcześniej."
+    },
+    {
+      "label": "Budżet miesięczny",
+      "text": "Rządowy portal NAWA szacuje koszty życia studenta w Polsce na 1 500 do 2 000 zł miesięcznie, bez podziału na miasta. Kwota zakłada tani akademik, więc przy droższym domu studenckim lub wynajmie wydatki będą wyższe."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "Najpierw sprawdź wnioski o miejsce w domu studenckim swojej uczelni: Politechnika Poznańska używa systemu eAkademik, a UAM systemu USOSweb. Poza harmonogramem miejsca bywają dostępne dla studentów i doktorantów na zasadach wolnych miejsc. Najem prywatny warto zaczynać z zapasem czasu, bo oferta jest ograniczona, i nie wpłacać kaucji ani zaliczki przed obejrzeniem lokalu i podpisaniem umowy na piśmie."
+    }
+  ],
+  "budget": {
+    "from": 1500,
+    "to": 2000,
+    "currency": "PLN",
+    "period": "miesiąc",
+    "text": "Oficjalny szacunek rządowego portalu NAWA dla studentów w Polsce, wspólny dla całego kraju, bez podziału na miasta. Zestawienie obejmuje akademik (400 do 600 zł), komunikację miejską (50 do 60 zł), ubezpieczenie zdrowotne (40 do 60 zł), telefon i internet (80 do 100 zł), jedzenie (700 do 900 zł) i rozrywkę (150 do 200 zł). Kwota na akademik w tym zestawieniu jest niższa od stawek z cenników na rok 2026/27 opisanych niżej, więc przy miejscu w droższym domu studenckim albo przy wynajmie pokoju budżet będzie wyższy.",
+    "sourceUrl": "https://study.gov.pl/cost-living-poland",
+    "quote": "Average total expenses 1500 - 2000",
+    "official": true
+  },
+  "dorms": [
+    {
+      "name": "Domy studenckie Politechniki Poznańskiej (Osiedle Studenckie, DS 1 do 6)",
+      "operator": "Politechnika Poznańska",
+      "url": "https://put.poznan.pl/osiedle-studenckie",
+      "roomType": "jednoosobowy, dwuosobowy, trzyosobowy (z łazienką lub aneksem kuchennym zależnie od domu)",
+      "priceFrom": 550,
+      "priceTo": 1700,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "includes": "Według strony Osiedla w cenie są wszystkie media, szybki internet, dostęp do pralni, siłownia i grille. Ceny są brutto, za jedno miejsce, dla studentów i doktorantów PP.",
+      "deposit": "Opłata rezerwacyjna 500 zł (zaliczana na poczet opłaty za zakwaterowanie) oraz kaucja równa miesięcznej opłacie, wpłacana w ciągu 3 dni od zakwaterowania.",
+      "eligibility": "Studenci i doktoranci Politechniki Poznańskiej, także obcokrajowcy (jest dla nich osobny harmonogram i limit miejsc). Studenci innych uczelni i inne osoby mogą dostać wolne miejsca poza harmonogramem, za wyższą stawkę.",
+      "applicationInfo": "Wniosek przez system eAkademik. Na rok 2026/27 nowo przyjęci Polacy składali wnioski od 1 do 9 sierpnia 2026, nowo przyjęci obcokrajowcy od 2 do 21 września 2026, studenci wyższych lat od 1 do 9 czerwca 2026. Zameldowanie najpóźniej do 2 października 2026. Miejsca obowiązują od 1 października 2026 do 30 czerwca 2027.",
+      "applyUrl": "https://eakademik.put.poznan.pl/",
+      "waitlist": "Złożenie wniosku nie oznacza gwarancji przydziału. O wolne miejsca w trakcie roku można się ubiegać na podstawie oświadczenia kwaterującego.",
+      "sourceUrl": "https://put.poznan.pl/sites/default/files/2026-05/Zarz%C4%85dzenie%20nr%2025%20-%202026.pdf",
+      "quote": "Cena za 1 miejsce (w PLN brutto)",
+      "notes": "Cennik z zarządzenia nr 25 Rektora PP z 26 maja 2026. Najniższa stawka (550 zł) dotyczy miejsca w pokoju 3-osobowym w DS 2, najwyższa (1700 zł) pokoju 1-osobowego z łazienką i aneksem w DS 3. Osoby niebędące studentami PP płacą więcej."
+    },
+    {
+      "name": "Domy studenckie UAM w Poznaniu (Hanka, Babilon, Jagienka, Zbyszko, Meteor, Dom Akademicki przy ul. Nieszawskiej)",
+      "operator": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+      "url": "https://amu.edu.pl/studenci/przewodnik_studenta/pomoc-materialna-i-domy-studenckie/domy-studenckie",
+      "roomType": "jednoosobowy i dwuosobowy (z łazienką lub bez)",
+      "priceFrom": 680,
+      "priceTo": 1390,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "includes": "Zarządzenie nie wyszczególnia, co obejmuje opłata. Stawki są stałe przez cały rok akademicki.",
+      "deposit": "Kaucja zwrotna, nieoprocentowana, równa jednomiesięcznej opłacie za przyznany standard miejsca.",
+      "eligibility": "Studenci UAM. Zasady dla studentów zagranicznych i obywateli UE nie są podane osobno na tej stronie.",
+      "applicationInfo": "Wnioskowanie w systemie USOSweb. Na rok 2026/27: nr 1 od 25 maja do 8 czerwca 2026, nr 2 dla nowo przyjętych od 10 do 19 sierpnia 2026, nr 3 od 7 do 16 września 2026 (otwarte dla wszystkich studentów). Opłaty obowiązują od 1 października 2026 do 30 września 2027.",
+      "applyUrl": "https://amu.edu.pl/studenci/przewodnik_studenta/pomoc-materialna-i-domy-studenckie/domy-studenckie",
+      "waitlist": "Złożenie wniosku nie oznacza gwarancji przydziału. Uczelnia wskazuje bardzo duże zainteresowanie miejscami.",
+      "sourceUrl": "https://bip.amu.edu.pl/__data/assets/pdf_file/0026/663317/ZR-206-2025-2026-Zal.pdf",
+      "quote": "Wysokość opłat za miejsca w Domach Studenckich UAM na rok akademicki 2026/2027",
+      "notes": "Zakres 680 do 1390 zł obejmuje domy w Poznaniu (z pominięciem Gniezna, Kalisza i Słubic). Najtaniej jest w DS Babilon (miejsce w pokoju 2-osobowym od 680 zł), najdrożej w DS Hanka (do 1390 zł za pokój 1-osobowy z łazienką i aneksem). Kryteria przydziału: sytuacja materialna, zdrowotna, odległość od miejsca zamieszkania i sytuacja rodzinna."
+    },
+    {
+      "name": "Domy studenckie Uniwersytetu Ekonomicznego w Poznaniu (Atol, Dewizka, Feniks)",
+      "operator": "Uniwersytet Ekonomiczny w Poznaniu",
+      "url": "https://ue.poznan.pl/studenci/domy-studenckie/",
+      "roomType": "dwuosobowy, jednoosobowy z łazienką, jednoosobowy w segmencie",
+      "priceFrom": 750,
+      "priceTo": 1200,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "includes": "Strona domu Atol wskazuje pokoje 2-osobowe z łazienką i dostępem do internetu. Dla pozostałych domów zakres opłaty nie jest opisany.",
+      "deposit": null,
+      "eligibility": "Studenci UEP płacą kwotę netto, osoby, które utraciły status studenta, płacą stawkę brutto. Zasady dla studentów zagranicznych nie są podane na tych stronach.",
+      "applicationInfo": "Sposób ubiegania się o miejsce przez osoby przyjęte na pierwszy rok reguluje zarządzenie nr 67/2026 Rektora UEP. Dokładnych terminów nie udało się odczytać.",
+      "applyUrl": null,
+      "waitlist": null,
+      "sourceUrl": "https://ue.poznan.pl/studenci/domy-studenckie/dom-studencki-dewizka/",
+      "quote": "w pok. 2-os. – 750 zł netto, 810 zł brutto*;",
+      "notes": "Stawki netto za miejsce: Dewizka 750 zł (pokój 2-osobowy), Feniks 800 zł, Atol 850 zł; pokój 1-osobowy z łazienką 1200 zł, w segmencie 1100 zł (dla studentów UEP)."
+    }
+  ],
+  "rent": [
+    {
+      "type": "mieszkanie (przykład 50 m²)",
+      "area": "Poznań, średnia dla całego miasta",
+      "priceFrom": 3020,
+      "priceTo": 3020,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Rentier.io, ceny najmu mieszkań Poznań (dane nieoficjalne)",
+      "sourceUrl": "https://rentier.io/ceny-najmu/polska/wielkopolskie/powiat-poznan/poznan",
+      "quote": "Przykład: 50 m² — ok. 3 020 zł czynszu miesięcznie",
+      "notes": "Dane nieoficjalne z ofert aktywnych we wrześniu 2026. Mediana ofertowa 60 zł za m² miesięcznie, typowy zakres 49 do 71 zł za m². To cena całego mieszkania, przy dzieleniu go ze współlokatorami na osobę wychodzi mniej."
+    }
+  ],
+  "gaps": [
+    "Strona Narodowego Banku Polskiego z informacją o cenach mieszkań i stawkach najmu zablokowała dostęp ekranem weryfikacji, więc nie wykorzystano oficjalnych danych NBP o czynszach.",
+    "Nie udało się potwierdzić w oficjalnych źródłach cen pokoju w mieszkaniu współdzielonym ani kawalerki. Dostępne są tylko miejskie mediany czynszów za metr kwadratowy z serwisu Rentier.io, więc wynajem opisano wierszami z danymi nieoficjalnymi.",
+    "Oficjalny budżet miesięczny NAWA jest wspólny dla całej Polski i nie rozróżnia miast. Podany w nim koszt akademika (400 do 600 zł) jest niższy od tegorocznych cenników uczelni.",
+    "Nie potwierdzono terminów składania wniosków o akademik w Uniwersytecie Ekonomicznym ani kaucji w jego domach studenckich. Nie opisano domów studenckich Uniwersytetu Medycznego i Uniwersytetu Przyrodniczego.",
+    "Nie ma w źródłach informacji, czy opłata w domach UAM i UEP obejmuje media i internet."
+  ],
+  "sources": [
+    {
+      "url": "https://put.poznan.pl/osiedle-studenckie",
+      "note": "Opis Osiedla Studenckiego PP, w tym co obejmuje cena."
+    },
+    {
+      "url": "https://put.poznan.pl/sites/default/files/2026-05/Zarz%C4%85dzenie%20nr%2025%20-%202026.pdf",
+      "note": "Cennik domów studenckich PP na 2026/27, opłata rezerwacyjna i kaucja."
+    },
+    {
+      "url": "https://put.poznan.pl/sites/default/files/2026-05/Zarz%C4%85dzenie%20Rektora%20nr%2023_2026%20PL.pdf",
+      "note": "Zasady, kryteria i tryb wnioskowania o miejsce w domach PP w 2026/27."
+    },
+    {
+      "url": "https://put.poznan.pl/osiedle-studenckie-wnioski",
+      "note": "Harmonogram przyznawania miejsc w PP na 2026/27."
+    },
+    {
+      "url": "https://amu.edu.pl/studenci/przewodnik_studenta/pomoc-materialna-i-domy-studenckie/domy-studenckie",
+      "note": "Zasady i harmonogram wnioskowania o miejsce w domach UAM 2026/27."
+    },
+    {
+      "url": "https://bip.amu.edu.pl/__data/assets/pdf_file/0026/663317/ZR-206-2025-2026-Zal.pdf",
+      "note": "Stawki opłat w domach UAM 2026/27."
+    },
+    {
+      "url": "https://bip.amu.edu.pl/__data/assets/pdf_file/0024/663315/ZR-206-2025-2026.pdf",
+      "note": "Zarządzenie nr 206 Rektora UAM, w tym zasady kaucji."
+    },
+    {
+      "url": "https://ue.poznan.pl/studenci/domy-studenckie/",
+      "note": "Domy studenckie UEP."
+    },
+    {
+      "url": "https://ue.poznan.pl/studenci/domy-studenckie/dom-studencki-atol/",
+      "note": "Stawka w DS Atol."
+    },
+    {
+      "url": "https://ue.poznan.pl/studenci/domy-studenckie/dom-studencki-feniks/",
+      "note": "Stawka w DS Feniks."
+    },
+    {
+      "url": "https://study.gov.pl/cost-living-poland",
+      "note": "Oficjalny szacunek miesięcznych kosztów życia studenta w Polsce."
+    },
+    {
+      "url": "https://rentier.io/ceny-najmu/polska/wielkopolskie/powiat-poznan/poznan",
+      "note": "Dane nieoficjalne: mediana czynszów ofertowych w Poznaniu."
+    },
+    {
+      "url": "https://www.otodom.pl/wiadomosci/raport-z-rynku-najmu-lipiec-2026/",
+      "note": "Dane nieoficjalne: spadek liczby ofert najmu w Poznaniu o 29 procent rok do roku."
+    }
+  ]
+}

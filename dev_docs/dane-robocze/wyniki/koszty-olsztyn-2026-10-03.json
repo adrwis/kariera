@@ -1,0 +1,155 @@
+{
+ "slug": "olsztyn",
+ "name": "Olsztyn",
+ "country": "Polska",
+ "currency": "PLN",
+ "retrieved": "2026-10-03",
+ "summary": [
+  {
+   "label": "Akademiki",
+   "text": "Uniwersytet Warmińsko-Mazurski ma 10 domów studenckich w Kortowie z ponad 2000 miejsc w pokojach jedno-, dwu- i trzyosobowych. Według tabeli opłat z decyzji rektora z 29 września 2026 miejsce w pokoju trzyosobowym kosztuje od 550 do 630 zł miesięcznie, w dwuosobowym od 620 do 700 zł, a pokój jednoosobowy od 700 do 1 250 zł. W cenie są media i Wi-Fi, a kaucja wynosi 600 zł (w domu nr 10 1 000 zł)."
+  },
+  {
+   "label": "Wynajem",
+   "text": "Oficjalnych cen wynajmu dla Olsztyna nie udało się potwierdzić. Dane nieoficjalne z serwisu Rentier.io pokazują, że we wrześniu 2026 mediana stawki ofertowej za mieszkanie wynosiła 52 zł za metr kwadratowy miesięcznie (o 9,4% więcej niż rok wcześniej), a w dzielnicach z rankingu od 49 zł (Jaroty) do 56 zł (Śródmieście). Podane kwoty dotyczą metra kwadratowego, więc cenę konkretnego mieszkania trzeba policzyć według metrażu."
+  },
+  {
+   "label": "Budżet miesięczny",
+   "text": "Oficjalnej kwoty miesięcznego budżetu studenta dla tego miasta nie znaleziono. Portal Study in Poland podaje tylko ogólne, niedatowane widełki dla całej Polski w euro, bez rozbicia na miasta."
+  },
+  {
+   "label": "Jak szukać mieszkania",
+   "text": "Najtańsze zwykle jest miejsce w akademiku w Kortowie, a wniosek składa się wyłącznie przez USOSweb (studenci) lub IRK (kandydaci na pierwszy rok i cudzoziemcy), nigdy na papierze. Na stronie domów studenckich UWM są aktualności o naborze i zakwaterowaniu. Przy wynajmie prywatnym portal Study in Poland ostrzega, że wynajmujący mogą żądać kaucji w podobnej wysokości do czynszu, więc warto o nią zapytać przed podpisaniem umowy."
+  },
+  {
+   "label": "Uwagi",
+   "text": "W Olsztynie znaleziono tylko domy studenckie Uniwersytetu Warmińsko-Mazurskiego. Tabela opłat nie podaje roku akademickiego, ale pochodzi z decyzji rektora z 29 września 2026."
+  }
+ ],
+ "budget": null,
+ "dorms": [
+  {
+   "operator": "Uniwersytet Warmińsko-Mazurski w Olsztynie",
+   "url": "https://uwm.edu.pl/studenci/domy-studenckie",
+   "currency": "PLN",
+   "period": "miesiąc",
+   "includes": "W cenie są wszystkie podstawowe media (prąd, woda, ogrzewanie) i szybkie Wi-Fi, a także całodobowa recepcja i monitoring. Mieszkaniec przywozi własną pościel i naczynia.",
+   "deposit": "Kaucja 600 zł (w domu nr 10 1 000 zł), naliczana razem z pierwszą opłatą w dniu zakwaterowania, bez ponownej wpłaty dla osób z kaucją przeniesioną z poprzedniego roku. W tabeli jest też opłata rezerwacyjna 600 zł.",
+   "eligibility": "Studenci i doktoranci UWM, a przy wolnych miejscach inne osoby. Wnioski cudzoziemców, kandydatów na pierwszy rok i do szkoły doktorskiej idą przez system IRK.",
+   "applicationInfo": "Na rok 2026/2027 studenci i doktoranci składali wnioski przez USOSweb od 8 do 30 czerwca 2026 (wyniki 10 lipca 2026), a kandydaci na pierwszy rok, kandydaci do szkoły doktorskiej i studenci cudzoziemcy przez IRK od 9 czerwca do 31 lipca 2026 (wyniki 10 sierpnia 2026). Wniosków nie przyjmowano w formie papierowej. Kwaterowanie trwało codziennie od 25 września do 5 października 2026.",
+   "applyUrl": "https://uwm.edu.pl/domy-studenckie-aktualnosci/rusza-nabor-wnioskow-o-miejsce-w-akademiku-na-rok-akademicki-20262027",
+   "waitlist": null,
+   "sourceUrl": "https://uwm.edu.pl/sites/default/files/2026-09/Tabela-oplat-w-domach-studenckich.pdf",
+   "name": "Domy studenckie UWM w Olsztynie, pokój jednoosobowy",
+   "roomType": "jednoosobowy",
+   "priceFrom": 700,
+   "priceTo": 1250,
+   "quote": "1-osobowy w układzie segmentowym 840,00 700,00 840,00 700,00 1150,00; 1-osobowy 1250,00",
+   "notes": "Tabela z decyzji nr 72/2026 Rektora UWM z 29 września 2026. Pokoje jednoosobowe przekształcone z dwuosobowych kosztują 950 do 1 230 zł. Najdroższy jest dom nr 10 (1 250 zł)."
+  },
+  {
+   "operator": "Uniwersytet Warmińsko-Mazurski w Olsztynie",
+   "url": "https://uwm.edu.pl/studenci/domy-studenckie",
+   "currency": "PLN",
+   "period": "miesiąc",
+   "includes": "W cenie są wszystkie podstawowe media (prąd, woda, ogrzewanie) i szybkie Wi-Fi, a także całodobowa recepcja i monitoring. Mieszkaniec przywozi własną pościel i naczynia.",
+   "deposit": "Kaucja 600 zł (w domu nr 10 1 000 zł), naliczana razem z pierwszą opłatą w dniu zakwaterowania, bez ponownej wpłaty dla osób z kaucją przeniesioną z poprzedniego roku. W tabeli jest też opłata rezerwacyjna 600 zł.",
+   "eligibility": "Studenci i doktoranci UWM, a przy wolnych miejscach inne osoby. Wnioski cudzoziemców, kandydatów na pierwszy rok i do szkoły doktorskiej idą przez system IRK.",
+   "applicationInfo": "Na rok 2026/2027 studenci i doktoranci składali wnioski przez USOSweb od 8 do 30 czerwca 2026 (wyniki 10 lipca 2026), a kandydaci na pierwszy rok, kandydaci do szkoły doktorskiej i studenci cudzoziemcy przez IRK od 9 czerwca do 31 lipca 2026 (wyniki 10 sierpnia 2026). Wniosków nie przyjmowano w formie papierowej. Kwaterowanie trwało codziennie od 25 września do 5 października 2026.",
+   "applyUrl": "https://uwm.edu.pl/domy-studenckie-aktualnosci/rusza-nabor-wnioskow-o-miejsce-w-akademiku-na-rok-akademicki-20262027",
+   "waitlist": null,
+   "sourceUrl": "https://uwm.edu.pl/sites/default/files/2026-09/Tabela-oplat-w-domach-studenckich.pdf",
+   "name": "Domy studenckie UWM w Olsztynie, pokój dwuosobowy",
+   "roomType": "dwuosobowy (cena za osobę)",
+   "priceFrom": 620,
+   "priceTo": 700,
+   "quote": "2-osobowy 700,00 650,00 620,00 650,00 650,00 650,00",
+   "notes": "Tabela z decyzji nr 72/2026 Rektora UWM z 29 września 2026. Wartości dotyczą pokoju dwuosobowego standardowego i w układzie segmentowym, różnią się między domami."
+  },
+  {
+   "operator": "Uniwersytet Warmińsko-Mazurski w Olsztynie",
+   "url": "https://uwm.edu.pl/studenci/domy-studenckie",
+   "currency": "PLN",
+   "period": "miesiąc",
+   "includes": "W cenie są wszystkie podstawowe media (prąd, woda, ogrzewanie) i szybkie Wi-Fi, a także całodobowa recepcja i monitoring. Mieszkaniec przywozi własną pościel i naczynia.",
+   "deposit": "Kaucja 600 zł (w domu nr 10 1 000 zł), naliczana razem z pierwszą opłatą w dniu zakwaterowania, bez ponownej wpłaty dla osób z kaucją przeniesioną z poprzedniego roku. W tabeli jest też opłata rezerwacyjna 600 zł.",
+   "eligibility": "Studenci i doktoranci UWM, a przy wolnych miejscach inne osoby. Wnioski cudzoziemców, kandydatów na pierwszy rok i do szkoły doktorskiej idą przez system IRK.",
+   "applicationInfo": "Na rok 2026/2027 studenci i doktoranci składali wnioski przez USOSweb od 8 do 30 czerwca 2026 (wyniki 10 lipca 2026), a kandydaci na pierwszy rok, kandydaci do szkoły doktorskiej i studenci cudzoziemcy przez IRK od 9 czerwca do 31 lipca 2026 (wyniki 10 sierpnia 2026). Wniosków nie przyjmowano w formie papierowej. Kwaterowanie trwało codziennie od 25 września do 5 października 2026.",
+   "applyUrl": "https://uwm.edu.pl/domy-studenckie-aktualnosci/rusza-nabor-wnioskow-o-miejsce-w-akademiku-na-rok-akademicki-20262027",
+   "waitlist": null,
+   "sourceUrl": "https://uwm.edu.pl/sites/default/files/2026-09/Tabela-oplat-w-domach-studenckich.pdf",
+   "name": "Domy studenckie UWM w Olsztynie, pokój trzyosobowy",
+   "roomType": "trzyosobowy (cena za osobę)",
+   "priceFrom": 550,
+   "priceTo": 630,
+   "quote": "3-osobowy w układzie segmentowym 550,00 550,00 550,00; 3-osobowy 580,00 630,00",
+   "notes": "Tabela z decyzji nr 72/2026 Rektora UWM z 29 września 2026. Pokoje trzyosobowe są tylko w części domów."
+  }
+ ],
+ "rent": [
+  {
+   "type": "mieszkanie (stawka ofertowa za metr kwadratowy)",
+   "area": "cały Olsztyn",
+   "priceFrom": 52,
+   "priceTo": 52,
+   "currency": "PLN",
+   "period": "miesiąc za metr kwadratowy",
+   "year": "2026",
+   "includesUtilities": "nie wiadomo",
+   "official": false,
+   "source": "Rentier.io, ceny najmu mieszkań (dane nieoficjalne)",
+   "sourceUrl": "https://rentier.io/ceny-najmu/polska/warminsko-mazurskie/powiat-olsztyn/olsztyn",
+   "quote": "Mediana ofertowa wynosi 52 zł/m²/mies. (wrzesień 2026, 229 ofert).",
+   "notes": "Dane nieoficjalne: mediana czynszów z ogłoszeń aktywnych we wrześniu 2026, zmiana rok do roku +9,4%. Kwota dotyczy jednego metra kwadratowego, więc cenę mieszkania trzeba policzyć według jego metrażu."
+  },
+  {
+   "type": "mieszkanie (stawka ofertowa za metr kwadratowy)",
+   "area": "dzielnice z rankingu: od Jarot (najtaniej) do Śródmieścia (najdrożej)",
+   "priceFrom": 49,
+   "priceTo": 56,
+   "currency": "PLN",
+   "period": "miesiąc za metr kwadratowy",
+   "year": "2026",
+   "includesUtilities": "nie wiadomo",
+   "official": false,
+   "source": "Rentier.io, ceny najmu mieszkań (dane nieoficjalne)",
+   "sourceUrl": "https://rentier.io/ceny-najmu/polska/warminsko-mazurskie/powiat-olsztyn/olsztyn",
+   "quote": "Najdroższe dzielnice: Śródmieście (56 zł/m²/mies.), Generałów (52 zł/m²/mies.). Najtańsze: Jaroty (49 zł/m²/mies.), Podgrodzie (52 zł/m²/mies.).",
+   "notes": "Dane nieoficjalne: mediany z ostatnich 24 miesięcy, tylko lokalizacje z co najmniej 20 ogłoszeniami, więc ranking obejmuje niewiele dzielnic."
+  }
+ ],
+ "gaps": [
+  "Nie udało się potwierdzić oficjalnych cen wynajmu pokoju, kawalerki ani mieszkania dwupokojowego. Jedyne dostępne dane to nieoficjalne stawki za metr kwadratowy z serwisu Rentier.io, więc cenę konkretnego mieszkania trzeba policzyć według metrażu.",
+  "Nie znaleziono oficjalnego miesięcznego budżetu studenta dla tego miasta. Portal Study in Poland podaje tylko niedatowane kwoty w euro dla całej Polski, a strona NAWA z kosztami życia nie była dostępna.",
+  "Tabela opłat UWM zestawia ceny w kolumnach według numerów domów, a przypisanie kwot do konkretnych domów nie jest w pełni czytelne, dlatego podano zakresy dla typu pokoju.",
+  "Tabela opłat nie podaje roku akademickiego. Przyjęto, że obowiązuje na rok 2026/2027, bo pochodzi z decyzji rektora z 29 września 2026.",
+  "Nie znaleziono informacji o liście rezerwowej w domach studenckich UWM ani zasad punktacji przy przyznawaniu miejsc.",
+  "Terminy składania wniosków podano dla roku 2026. Terminy na rok 2027 nie są jeszcze opublikowane."
+ ],
+ "sources": [
+  {
+   "url": "https://uwm.edu.pl/studenci/domy-studenckie",
+   "note": "UWM: domy studenckie, wyposażenie i pliki do pobrania"
+  },
+  {
+   "url": "https://uwm.edu.pl/sites/default/files/2026-09/Tabela-oplat-w-domach-studenckich.pdf",
+   "note": "UWM: tabela opłat w domach studenckich (decyzja nr 72/2026 z 29 września 2026)"
+  },
+  {
+   "url": "https://uwm.edu.pl/domy-studenckie-aktualnosci/rusza-nabor-wnioskow-o-miejsce-w-akademiku-na-rok-akademicki-20262027",
+   "note": "UWM: terminy naboru wniosków na rok 2026/2027"
+  },
+  {
+   "url": "https://uwm.edu.pl/domy-studenckie-aktualnosci/akademik-co-powinniscie-wiedziec-na-start",
+   "note": "UWM: kwaterowanie, kaucja i płatności"
+  },
+  {
+   "url": "https://rentier.io/ceny-najmu/polska/warminsko-mazurskie/powiat-olsztyn/olsztyn",
+   "note": "Dane nieoficjalne: stawki ofertowe najmu za metr kwadratowy"
+  },
+  {
+   "url": "https://www.studyinpoland.pl/en/practical-information/35-accomodation",
+   "note": "Study in Poland: uwaga o kaucji przy wynajmie prywatnym"
+  }
+ ]
+}

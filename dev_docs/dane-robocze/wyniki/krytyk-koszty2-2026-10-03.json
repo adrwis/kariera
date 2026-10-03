@@ -1,0 +1,317 @@
+[
+ {
+  "city": "monachium",
+  "item": null,
+  "field": "summary[0].text",
+  "severity": "ważne",
+  "problem": "Zakres czasu oczekiwania „od 1 do 7 semestrów” jest błędny: w cenniku największa wartość to 6 semestrów.",
+  "evidence": "PDF Wartezeiten_Mietpreisliste_englisch.pdf: wartości od „1 semesters” do „5-6 semesters” i „6 semesters”, brak 7.",
+  "proposedFix": "Zmienić na „od 1 do 6 semestrów”."
+ },
+ {
+  "city": "monachium",
+  "item": "rent[0], rent[1]",
+  "field": "year",
+  "severity": "ważne",
+  "problem": "Wiersze mają year „2026”, a notes mówi, że strona LMU nie podaje roku danych (rent[0]). Etykieta roku nie ma pokrycia w źródle.",
+  "evidence": "Strona LMU living-costs i housing: brak daty; rent[0].notes: „Strona nie podaje roku danych.”",
+  "proposedFix": "Ustawić rok jako „brak daty na stronie” (jak w Budapeszcie) i pokazać to w UI."
+ },
+ {
+  "city": "monachium",
+  "item": "rent[1]",
+  "field": "type / priceFrom / priceTo",
+  "severity": "drobne",
+  "problem": "Zakres 600 do 1 100 EUR dotyczy łącznie „pokoi we wspólnych mieszkaniach i mieszkań jednoosobowych”, a includesUtilities=„nie wiadomo”. Wiersz mieszka dwa typy lokali i jest drugim, szerszym zakresem tej samej liczby co rent[0].",
+  "evidence": "LMU Housing: „Rooms in shared apartments and single apartments cost between 600 euros a...”",
+  "proposedFix": "Zostawić z opisem, że to mieszanka typów; rozważyć usunięcie jako dublującego."
+ },
+ {
+  "city": "monachium",
+  "item": null,
+  "field": "budget",
+  "severity": "drobne",
+  "problem": "Budżet 1 500 do 1 500 (from=to) to jedna kwota. Opis uczciwy („jedna wartość przybliżona”). Składniki z cytatu: 700 do 1 000 + 500 + 43 + 97 nie sumują się do 1 500 dla każdego wariantu, ale to cytat LMU, nie obliczenie agenta.",
+  "evidence": "LMU: „about 1,500 euros per month”; pokój 700-1 000, jedzenie ok. 500, Deutschlandticket 43, opłata 97.",
+  "proposedFix": "Bez zmian, ewentualnie pokazać jako „ok. 1 500 EUR”, nie jako zakres."
+ },
+ {
+  "city": "monachium",
+  "item": null,
+  "field": "gaps[2], gaps[3], summary[4]",
+  "severity": "drobne",
+  "problem": "Żargon zbierania danych: „ich cen nie sprawdzono”, „w tabeli jest tylko operator główny”, „Żaden z wierszy wynajmu nie pochodzi ze źródła nieoficjalnego”, „nie znaleziono osobnej strony”.",
+  "evidence": "Teksty w data/koszty/monachium.json.",
+  "proposedFix": "Przeformułować od strony czytelnika: np. „Akademiki prowadzone przez kościoły i fundacje są na liście Studierendenwerk, ale ich cen tu nie podajemy”."
+ },
+ {
+  "city": "monachium",
+  "item": "dorms[0..2]",
+  "field": "deposit",
+  "severity": "drobne",
+  "problem": "Kaucja null we wszystkich trzech akademikach, choć dla rodziców to jedna z najważniejszych liczb. Źródło angielskie wskazuje tylko, że 150 EUR zatrzymuje się do rozliczenia mediów. Informacja jest tylko w notes i gaps, uczciwie.",
+  "evidence": "FAQ Studierendenwerk: „you will receive the remaining 150.00 euros of your deposit after the final Betriebskostenabrechnung”.",
+  "proposedFix": "Opcjonalnie dopisać kwotę kaucji z niemieckiej wersji strony, jeśli dostępna."
+ },
+ {
+  "city": "hamburg",
+  "item": null,
+  "field": "budget (from 900, to 1400)",
+  "severity": "ważne",
+  "problem": "Budżet 900 do 1 400 EUR jest sumą dwóch zakresów (mieszkanie 400-700 + pozostałe 500-700) policzoną przez agenta. Tekst budżetu i gaps to ujawniają, ale w summary zdanie „czyli łącznie ok. 900 do 1 400 EUR” jest podane jak oficjalne, a pole official=true.",
+  "evidence": "Uni Hamburg Finanzen: „housing: ca. EUR 400–700 per month, living expenses: ca. EUR 500–700 Euro per month”; brak kwoty łącznej. budget.text: „Przedział łączny jest sumą tych dwóch oficjalnych zakresów”.",
+  "proposedFix": "Albo pokazać dwie osobne pozycje (mieszkanie 400-700, reszta 500-700), albo dopisać w UI „suma obliczona na podstawie dwóch kwot uczelni”."
+ },
+ {
+  "city": "hamburg",
+  "item": "rent[0]",
+  "field": "year",
+  "severity": "ważne",
+  "problem": "year=„2026”, a notes mówi: „strona nie podaje roku ani typu lokalu”. Etykieta roku bez pokrycia.",
+  "evidence": "Uni Hamburg Finanzen: brak daty przy „housing: ca. EUR 400–700”.",
+  "proposedFix": "Ustawić „brak daty na stronie”."
+ },
+ {
+  "city": "hamburg",
+  "item": "rent[0]",
+  "field": "priceFrom/priceTo",
+  "severity": "drobne",
+  "problem": "Zakres 400 do 700 EUR to wydatek na mieszkanie w budżecie uczelni, a nie ogłoszenie czynszu rynkowego. Tabela wynajmu ma jedną pozycję bez typu lokalu, co czytelnik może wziąć za cenę pokoju w WG.",
+  "evidence": "Uni Hamburg: „housing: ca. EUR 400–700 per month”.",
+  "proposedFix": "Zmienić type na „mieszkanie (szacunek uczelni, bez typu lokalu)”, co już częściowo jest; dodać etykietę „wydatek na mieszkanie według uczelni”."
+ },
+ {
+  "city": "hamburg",
+  "item": "dorms[0] Gustav-Radbruch",
+  "field": "deposit",
+  "severity": "drobne",
+  "problem": "Kaucja „wynosi 500 EUR” przy czynszu 310 do 400 EUR jest zgodna ze schodkami, ale tekst dołącza do każdego akademika cały cennik schodków, przez co pola są długie i powtarzalne.",
+  "evidence": "stwhh.de FAQ: „monthly rent up to 400 € = 500 € deposit (exception Rudolf-Laun-Haus: deposit 450 €)”. Wartości w danych zgodne (500 do 700 dla Grindelallee, Berliner Tor; 600 Hammerbrook; 700 HafenCity).",
+  "proposedFix": "Skrócić do jednej kwoty/przedziału plus link do schodków."
+ },
+ {
+  "city": "hamburg",
+  "item": null,
+  "field": "gaps[3], gaps[5], summary[4], gaps[0], gaps[1]",
+  "severity": "drobne",
+  "problem": "Żargon zbierania danych: „nie zostały sprawdzone”, „Nie znaleziono raportu rynkowego dużego portalu najmu dostępnego publicznie”, „w tabeli jest pięć wybranych pozycji”, „Tabela wynajmu ma tylko jeden wiersz”.",
+  "evidence": "Teksty w data/koszty/hamburg.json.",
+  "proposedFix": "Przeformułować na komunikat dla czytelnika (np. „Uczelnie nie podają cen wynajmu poza jednym zakresem”)."
+ },
+ {
+  "city": "wieden",
+  "item": null,
+  "field": "budget (from 1300, to 1400)",
+  "severity": "ważne",
+  "problem": "Przedział 1 300 do 1 400 EUR łączy dwie różne wartości: szacunek Uniwersytetu Wiedeńskiego dla Wiednia (1 400) i średnią krajową Study in Austria (1 300, cały kraj). Pole sugeruje jeden zakres dla Wiednia, a 1 300 nie dotyczy Wiednia.",
+  "evidence": "univie: „Monthly expenses in total: approx. € 1400”; studyinaustria: „approximately 1,300 euros” dla całej Austrii.",
+  "proposedFix": "Ustawić budget 1400 do 1400 (Wiedeń), a 1 300 zostawić tylko w tekście jako średnią krajową."
+ },
+ {
+  "city": "wieden",
+  "item": "rent[2]",
+  "field": "type / notes",
+  "severity": "ważne",
+  "problem": "Etykieta „mieszkanie na umowie krótszej niż 2 lata” jest myląca. Kolumna Statistik Austria „Mietvertragsdauer: bis unter 2 Jahre” oznacza, jak długo mieszkanie jest wynajmowane przez obecnego najemcę, a nie okres obowiązywania umowy. Umowy terminowe (befristet) mają osobny wiersz: 943,5 EUR.",
+  "evidence": "Tab1_22: „bis unter 2 Jahre | 150,3 | 844,9”; „befristet | 147,2 | 943,5”.",
+  "proposedFix": "Zmienić na „mieszkania, w których najemca mieszka krócej niż 2 lata (średni czynsz)”; summary: „umowy krótsze niż 2 lata” zmienić tak samo."
+ },
+ {
+  "city": "wieden",
+  "item": "rent[0..2]",
+  "field": "type / notes",
+  "severity": "drobne",
+  "problem": "Opis „średnia z istniejących umów” jest podany jawnie (dobrze). Kwoty zgodne z tabelą: 694,3; 595,3 (bis unter 30, jednoosobowe); 844,9, z kosztami eksploatacyjnymi. Zastrzeżenie, że średnie obejmują mieszkania komunalne i spółdzielcze, jest tylko w rent[1].notes.",
+  "evidence": "Tab1_22: Gemeindewohnung 496,4; Genossenschaft 642,5; andere Hauptmiete 846,0.",
+  "proposedFix": "Dopisać w rent[0] i rent[2], że średnia obejmuje też mieszkania komunalne i spółdzielcze (rynkowy wynajem ma ok. 846 EUR)."
+ },
+ {
+  "city": "wieden",
+  "item": "dorms[2] The Social Hub",
+  "field": "priceFrom/priceTo",
+  "severity": "drobne",
+  "problem": "Kwoty 718 do 740 EUR są cenami po zniżce 10 procent z kodem OeAD, dla pobytu 5 miesięcy i 5 do 10 miesięcy. Cena bazowa nie jest podana, a wiersz jest w polu priceFrom/priceTo bez etykiety „po zniżce”. sourceUrl to strona OeAD, nie operatora.",
+  "evidence": "OeAD news: „EUR 739.93 when staying for 5 months, EUR 718.27 when staying between 5-10 months” po 10% zniżce.",
+  "proposedFix": "W UI dodać „po zniżce 10 procent z kodem OeAD”."
+ },
+ {
+  "city": "wieden",
+  "item": null,
+  "field": "gaps[2], gaps[3], summary[0], summary[1]",
+  "severity": "drobne",
+  "problem": "Żargon: „nie odpowiedziały pod sprawdzanymi adresami”, „Nie sprawdzono kwot kaucji”, „nie udało się potwierdzić”.",
+  "evidence": "Teksty w data/koszty/wieden.json.",
+  "proposedFix": "Przeformułować od strony czytelnika."
+ },
+ {
+  "city": "praga",
+  "item": null,
+  "field": "summary[0].text",
+  "severity": "ważne",
+  "problem": "Przeliczenie doba razy 30 jest jawne (summary, notes, Uwagi, gaps) i arytmetycznie poprawne (92×30=2 760; 280×30=8 400; 148×30=4 440; 431×30=12 930; 89×30=2 670; 444×30=13 320). Ale zdanie „przy 30 dniach to od około 2 670 do 13 320 CZK” podaje rozstęp przez trzy uczelnie, czyli 5-krotną różnicę bez rozróżnienia, że 89 CZK to pokój czteroosobowy, a 444 jednoosobowy. Ponadto ČVUT/VŠE/KaM naliczają dni kalendarzowe (31 dni w październiku), więc kwota miesięczna bywa o 3 procent wyższa.",
+  "evidence": "ČVUT estimated cost: „SEPTEMBER (07.09.-30.09.2026) X number of days 23”, „OCTOBER (30.09.-31.10.2026) X number of days 31”. Cennik: „Price per bed and night in CZK incl. VAT”.",
+  "proposedFix": "W polach priceFrom/priceTo miesięcznych dodać w UI znacznik „przeliczone: cena za dobę × 30”; dopisać „w miesiącu 31-dniowym o ok. 3 procent więcej”; rozważyć pokazanie ceny za dobę jako pola głównego."
+ },
+ {
+  "city": "praga",
+  "item": "dorms[0] ČVUT",
+  "field": "includes / priceFrom",
+  "severity": "ważne",
+  "problem": "ČVUT: kwota miesięczna 2 760 do 8 400 CZK nie zawiera ubezpieczenia (290 CZK na rok) ani zaliczki na prąd (150 CZK miesięcznie), co jest w includes, ale nie w summary. Czytelnik porównujący z Karolem (gdzie media są w cenie) może się pomylić. Cena z cennika dotyczy łóżka w pokoju: „Price per bed” zakres obejmuje pokoje 1-4-osobowe.",
+  "evidence": "ČVUT price list: „Price per bed and night in CZK incl. VAT”; estimated cost: „Advance for electricity 150 CZK”, „Insurance 290 CZK”.",
+  "proposedFix": "W summary dopisać, że ČVUT liczy prąd i ubezpieczenie osobno."
+ },
+ {
+  "city": "praga",
+  "item": "rent[0..2]",
+  "field": "area / notes / year",
+  "severity": "ważne",
+  "problem": "Etykieta „górne kwoty typowe dla Pragi i Brna” nie występuje w źródle. Study in Czechia pisze tylko, że Praga i Brno są zwykle droższe niż mniejsze miasta. Widełki dotyczą całych Czech, a rok „2026” nie ma pokrycia (gaps mówi, że portal nie podaje roku).",
+  "evidence": "studyin.gov.cz: „room in a shared flat: around 250–500 EUR per person per month … Prague and Brno are usually more expensive than the smaller university cities”.",
+  "proposedFix": "Zmienić area na „Czechy (Praga i Brno zwykle drożej)”; summary: „portal zaznacza, że Praga i Brno są zwykle droższe”; year na „brak daty na stronie”."
+ },
+ {
+  "city": "praga",
+  "item": "rent[0..2]",
+  "field": "priceFrom/priceTo",
+  "severity": "drobne",
+  "problem": "Wiersze wynajmu to widełki dla całych Czech i dla Pragi nie ma żadnej liczby. Nie podano, że ten sam portal podaje ceny akademików w EUR (160-330 EUR miejsce we wspólnym pokoju, 250-450 EUR jednoosobowy), co przy ČVUT 2 760 CZK (ok. 110 EUR) mogłoby wyglądać na sprzeczność.",
+  "evidence": "studyin.gov.cz accommodation: „shared room in a student dormitory: around 160–330 EUR, single room … 250–450 EUR”.",
+  "proposedFix": "Dopisać w Uwagach, że ceny w akademikach publicznych są poniżej widełek portalu."
+ },
+ {
+  "city": "praga",
+  "item": null,
+  "field": "gaps[1], gaps[3], gaps[4], summary[1], summary[2]",
+  "severity": "drobne",
+  "problem": "Żargon: „Pole budżetu zostawiono puste”, „Nie sprawdzono, czy internet jest wliczony”, „Nie sprawdzono, czy rezerwacja na stronie rehos.cuni.cz/crpp jest otwarta”, „Nie znaleziono”.",
+  "evidence": "Teksty w data/koszty/praga.json.",
+  "proposedFix": "Przeformułować, np. „Oficjalnej łącznej kwoty budżetu dla Pragi nie ma. Portal podaje tylko składniki”."
+ },
+ {
+  "city": "praga",
+  "item": "dorms[1] VŠE",
+  "field": "applicationInfo",
+  "severity": "drobne",
+  "problem": "Termin 5 czerwca do 5 lipca 2026 dotyczy tylko nowo przyjętych zagranicznych studentów studiów dyplomowych; kaucja 8 000 CZK musi być zapłacona do 30 czerwca 2026 według instrukcji, co jest w innym terminie niż okno wniosku (do 5 lipca) i nie jest wspomniane.",
+  "evidence": "VŠE instruction: „The deposit of 8000 CZK must be paid by June 30, 2026”; schedule: „Payment of the reservation deposit June 5 – July 5, 2026”.",
+  "proposedFix": "Dodać, że wpłata kaucji ma osobne źródła terminu (30 czerwca vs 5 lipca) lub wskazać niespójność źródeł."
+ },
+ {
+  "city": "bratyslawa",
+  "item": "rent[0]",
+  "field": "year / notes",
+  "severity": "ważne",
+  "problem": "year=„2026” z uzasadnieniem w notes „Rok 2026 to data odczytu strony”. To żargon zbierania danych i etykieta roku bez pokrycia: strona STU nie podaje roku.",
+  "evidence": "stuba.sk accommodation: „Prices depend on the number of rooms: cca 300-800 EUR/month” bez daty; notes: „Rok 2026 to data odczytu strony”.",
+  "proposedFix": "Ustawić year „brak daty na stronie” i usunąć zdanie z notes."
+ },
+ {
+  "city": "bratyslawa",
+  "item": "dorms[3] EUBA",
+  "field": "priceFrom/priceTo, name",
+  "severity": "ważne",
+  "problem": "Zakres 85 do 137 EUR pomija Dolnozemską (dom EUBA w Bratysławie) z tego samego cennika: studenckie czynsze 145 do 160 EUR. Wiersz wymienia domy Starohájska, Vlčie hrdlo, Prokopa Veľkého, Ekonóm, ale nie Dolnozemską, a notes o pominięciach wymienia tylko Bellu (Koszyce) i blok G. Górna granica jest zaniżona (realnie do 160 EUR).",
+  "evidence": "Zarządzenie 1/2026: „DOLNOZEMSKÁ Bunka 1/2 2-posteľová izba 155,00; Bunka 2/2 posteľová – balkón 160,00; Bunka 2/2 posteľová 145,00”.",
+  "proposedFix": "Dodać Dolnozemską i priceTo=160 albo wpisać w notes, że pominięto Dolnozemską."
+ },
+ {
+  "city": "bratyslawa",
+  "item": "dorms[1] Mlyny UK, dorms[2] Družba UK",
+  "field": "priceFrom/priceTo, sourceUrl",
+  "severity": "ważne",
+  "problem": "Ceny z cennika od 1 stycznia 2024 są pokazane obok cen 2026 bez roku w polach. Rok jest tylko w notes i summary. Ponadto wiersz Mlyny pomija pokoje małżeńskie (do 174 EUR), a wiersz Družba pomija jedną osobę w pokoju dwuosobowym (227 EUR) i pokoje dla doktorantów (do 286 EUR), co notes tylko częściowo opisuje (Mlyny: „pomijając pokoje małżeńskie”).",
+  "evidence": "Cennik Mlyny: kolumna „od 1. 1. 2024”: min 72, max 123 (poza MI 151-174). Cennik Družba: 115 do 139; „jedna osoba v 2 lôžkovej izbe 227”.",
+  "proposedFix": "Dodać do period/includes znacznik „cennik 2024”; w UI pokazać „ceny z 2024, mogą być wyższe o inflację”."
+ },
+ {
+  "city": "bratyslawa",
+  "item": "dorms[0] STU",
+  "field": "priceFrom/priceTo",
+  "severity": "drobne",
+  "problem": "89 do 181 EUR zgodne z cennikiem 2/2026 (89 w pozycjach 4090, 181 w wielu pokojach). Dodatkowo kwota 181 to „jeden z pokoi w Akademiku” wg notes, ale cennik pokazuje 181 wielokrotnie.",
+  "evidence": "b_stu.pdf: pozycje „181,00” w wielu wierszach (np. 1506, 1519, 1524).",
+  "proposedFix": "Bez zmian lub uściślić w notes."
+ },
+ {
+  "city": "bratyslawa",
+  "item": "dorms[3] EUBA",
+  "field": "eligibility",
+  "severity": "drobne",
+  "problem": "Informacja „nie oferuje zakwaterowania studentom z UE” pochodzi ze strony dla studentów przyjeżdżających (mobilność) i jest zastosowana ostrożnie, ale w summary brzmi jak ogólna zasada dla wszystkich. Harmonogram EUBA przewiduje wniosek dla nowo przyjętych na programy w AJ.",
+  "evidence": "EUBA incoming: „Z kapacitných dôvodov bohužiaľ neponúkame ubytovanie pre študentov z EÚ na našich internátoch”; harmonogram: 14.4.2026 do 30.4.2026 dla nowo przyjętych na programy w AJ.",
+  "proposedFix": "W summary dopisać „studentom wymiany z UE”."
+ },
+ {
+  "city": "bratyslawa",
+  "item": null,
+  "field": "gaps[0], gaps[1], gaps[3], summary[1], summary[2], rent[0].notes",
+  "severity": "drobne",
+  "problem": "Żargon: „Nie znaleziono”, „pole budżetu zostawiono puste”, „odczytu strony”, „nie udało się potwierdzić”.",
+  "evidence": "Teksty w data/koszty/bratyslawa.json.",
+  "proposedFix": "Przeformułować od strony czytelnika."
+ },
+ {
+  "city": "budapeszt",
+  "item": "rent[2]",
+  "field": "priceFrom/priceTo, notes",
+  "severity": "ważne",
+  "problem": "Strona Study in Hungary zawiera w jednym artykule dwa sprzeczne zdania o czynszach: „HUF 70,000–150,000 or HUF 120,000–200,000 in Budapest” oraz „HUF 70,000–180,000 or HUF 120,000–220,000 in Budapest”. Dane biorą tylko 120 000 do 220 000 i nie wspominają o drugim wariancie (200 000). Dodatkowo strona ma stopkę z 2019 roku. Tekst „Pierwsza kwota to koszt poza stolicą” jest interpretacją, nie cytatem.",
+  "evidence": "studyinhungary.hu/accommodation: dwa wystąpienia zdania o kosztach (150/200 oraz 180/220).",
+  "proposedFix": "W notes napisać, że strona podaje dwa warianty (do 200 000 i do 220 000 HUF); rozważyć przedział 120 000 do 220 000 z tym zastrzeżeniem lub usunąć wiersz jako niedatowany."
+ },
+ {
+  "city": "budapeszt",
+  "item": "rent[0..4]",
+  "field": "year",
+  "severity": "drobne",
+  "problem": "Pole year zawiera tekst „brak daty na stronie” zamiast roku. Uczciwe, ale pole jest oznaczone jako rok; trzeba sprawdzić, czy UI nie wyświetli tego jako „Brak daty na stronie 2026” lub podobnie.",
+  "evidence": "rent[*].year w data/koszty/budapeszt.json.",
+  "proposedFix": "Sprawdzić renderowanie w UI."
+ },
+ {
+  "city": "budapeszt",
+  "item": "rent[4]",
+  "field": "priceFrom/priceTo, notes",
+  "severity": "drobne",
+  "problem": "Zakres 300 do 1 000 EUR łączy dwa różne zdania Corvinus: „Monthly rates range from EUR 320 to 1000 per person, mostly including utilities” (prywatne społeczności) i „od 300 EUR plus media” (mieszkania studenckie). Dolna granica 300 pochodzi z innego typu oferty niż górna.",
+  "evidence": "Corvinus accommodation: „Monthly rates range from EUR 320 to 1000 per person, with mostly including utilities”.",
+  "proposedFix": "Rozdzielić na dwa wiersze lub ustawić priceFrom=320 z notes o 300 plus media."
+ },
+ {
+  "city": "budapeszt",
+  "item": "dorms[0], dorms[1]",
+  "field": "applyUrl / applicationInfo",
+  "severity": "drobne",
+  "problem": "applyUrl i url wskazują stronę accommodation Corvinus, na której jest nieaktualna tabela z 01.02.2025 i nabór K110 na 2025/26. Ceny i terminy w danych pochodzą z PDF 2026/27 (poprawne), ale czytelnik klikający link zobaczy inne ceny (Ráday 150/135 EUR).",
+  "evidence": "uni-corvinus.hu/accommodation: „from 01.02.2025 … Ráday Dormitory … EUR 150/month … Complete the K110-Dormitory application 2025/26”.",
+  "proposedFix": "Dopisać w notes, że strona accommodation pokazuje starsze stawki, a aktualne są w PDF z 2026/27."
+ },
+ {
+  "city": "budapeszt",
+  "item": "dorms[2] Erdős Pál",
+  "field": "sourceUrl / quote",
+  "severity": "drobne",
+  "problem": "Ceny 55 000 do 70 000 HUF zgodne z stroną Erdős Pál („Room with 2 beds: 70 000 Ft/month, 3 beds: 55 000”) i PDF zestawienia. Zakres obejmuje dwa typy pokoju (2- i 3-osobowy) w jednym wierszu, OK. Kaucja bez kwoty.",
+  "evidence": "elte.hu/dormitory-centre/erdospal: „Dormitory fee: Room with 2 beds: 70 000 Ft/month Room with 3 beds: 55 000 Ft/month”; „Total number of international places: 146”.",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "budapeszt",
+  "item": null,
+  "field": "summary[4], dorms[2].deposit, dorms[3].notes, gaps[1], gaps[4], gaps[0]",
+  "severity": "drobne",
+  "problem": "Żargon: „Wszystkie dane w pliku”, „na przeczytanych stronach”, „na przeczytanej stronie”, „Nie udało się znaleźć”, „w tabeli rok oznaczono jako brak daty”.",
+  "evidence": "Teksty w data/koszty/budapeszt.json.",
+  "proposedFix": "Przeformułować, np. „Uczelnia nie podaje wysokości kaucji”."
+ },
+ {
+  "city": "budapeszt",
+  "item": null,
+  "field": "budget",
+  "severity": "drobne",
+  "problem": "Budżet 500 do 1 100 EUR to wartość Corvinus, ale składniki (akademik 100 do 200 albo wynajem 250 do 750, plus 250 do 350) dają dla akademika 350 do 550 EUR, więc dolna granica 500 odpowiada wynajmowi (250+250), a nie akademikowi. Tekst nie wyjaśnia, że 500 do 1 100 to oficjalna kwota całkowita, nie suma wariantów. Bilet: strona podaje „monthly city pass for 945 HUF (2.5 EUR)” (kwota z oryginału, może budzić wątpliwość).",
+  "evidence": "Corvinus fees-and-costs: „total monthly cost of living is around €500-1100”; Study in Hungary: „monthly city pass for 945 HUF”.",
+  "proposedFix": "Dopisać, że kwota 500-1100 EUR jest podana przez uczelnię jako całość, a składniki są przykładowe."
+ }
+]

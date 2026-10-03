@@ -1,0 +1,180 @@
+{
+  "slug": "walencja",
+  "name": "Walencja",
+  "country": "Hiszpania",
+  "currency": "EUR",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Trzy pozycje. RESA Damià Bonet przy kampusie Tarongers: ceny od 497 EUR (studio dwuosobowe), woda i prąd płatne dodatkowo. Camplus Valencia Tower w Burjassot: ceny od 560 EUR do 790 EUR zależnie od typu pokoju (kwoty „od”), z mediami. Colegio Mayor Rector Peset należące do Universitat de València: od 847,43 EUR do 1 073,16 EUR miesięcznie za osobę z pełnym wyżywieniem (stawki dla studentów UV na rok 2026/27, 8 miesięcy od października do maja). Politècnica de València (UPV) nie ma własnych akademików, ale publikuje listę kilkudziesięciu rezydencji i colegios mayores w regionie."
+    },
+    {
+      "label": "Wynajem",
+      "text": "Universitat de València podaje pokój w mieszkaniu współdzielonym za 350 EUR do 450 EUR miesięcznie bez rachunków (strona nie podaje daty cen). Dane nieoficjalne: raport pisos.com z 2026 roku wskazuje średnio 458,88 EUR za pokój w stolicy prowincji (średnia z ogłoszeń), a raport z sierpnia 2026 podaje 16,84 EUR za metr kwadratowy mieszkania miesięcznie."
+    },
+    {
+      "label": "Budżet miesięczny",
+      "text": "UV podaje składniki miesięcznych kosztów: jedzenie i drobne wydatki około 250 EUR, media około 50 EUR, internet około 45 EUR, czynsz osobno (pokój we wspólnym mieszkaniu od 350 EUR do 450 EUR). Suma tych pozycji to od 695 EUR do 795 EUR miesięcznie, bez transportu i ubezpieczenia."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "UPV prowadzi bezpłatną wyszukiwarkę mieszkań do wynajęcia i do dzielenia, ale występuje tylko jako pośrednik i nie odpowiada za ogłoszenia. Uczelnia radzi zawrzeć pisemną umowę z danymi stron, kwotą kaucji i czynszu, brać pokwitowanie przy każdej wpłacie i obejrzeć mieszkanie przed podpisaniem. Universitat de València nie ma biura mieszkaniowego."
+    },
+    {
+      "label": "Uwagi",
+      "text": "Ceny na liście UPV i na stronach operatorów różnią się, np. dla RESA Damià Bonet lista podaje od 440 EUR, a operator od 497 EUR. UPV prosi o potwierdzenie cen w samej rezydencji. Porównując oferty, trzeba pamiętać o różnym zakresie: RESA bez wody i prądu, Camplus z mediami, Rector Peset z pełnym wyżywieniem."
+    }
+  ],
+  "budget": {
+    "from": 695,
+    "to": 795,
+    "currency": "EUR",
+    "period": "miesiąc",
+    "kind": "suma",
+    "text": "Suma pozycji wymienionych przez Universitat de València dla studentów przyjeżdżających: jedzenie i drobne wydatki około 250 EUR, rachunki za prąd, wodę i gaz około 50 EUR, internet około 45 EUR oraz pokój w mieszkaniu współdzielonym od 350 EUR do 450 EUR bez rachunków. Dolna kwota to 250 + 50 + 45 + 350, górna to 250 + 50 + 45 + 450. Suma nie obejmuje transportu, ubezpieczenia ani posiłków w stołówce, a strona nie podaje daty cen.",
+    "sourceUrl": "https://www.uv.es/uvinternational/en/erasmus/studies/incoming/admitted-students.html",
+    "quote": "Maintenance costs (grocery shopping and small expenses) per person: approximately 250 €/month [...] Room in a shared flat (excluding bills): between 350 and 450 €/month",
+    "official": true
+  },
+  "dorms": [
+    {
+      "name": "RESA Damià Bonet",
+      "operator": "RESA",
+      "url": "https://resa.es/en/residences/valencia/damia-bonet/",
+      "roomType": "studio dwuosobowe, studio jednoosobowe",
+      "priceFrom": 497,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Studia z łazienką i kuchnią. W cenie: Wi-Fi (do 5 Mb), całodobowa opieka, sprzątanie pokoju, konserwacja, klimatyzacja. Woda i prąd są płatne dodatkowo, podobnie jak zmiana pościeli i ręczników, posiłki i pranie samoobsługowe.",
+      "deposit": null,
+      "eligibility": "Rezydencja współpracuje z UPV i UV. Strona nie opisuje osobno obywateli UE ani studentów zagranicznych.",
+      "applicationInfo": "Rezerwacja online: wybiera się rezydencję i okres, a RESA sprawdza każdy wniosek i informuje o przyjęciu. Termin naboru nie jest podany.",
+      "applyUrl": "https://resa.es/en/booking/long-stay/",
+      "waitlist": null,
+      "sourceUrl": "https://resa.es/en/residences/valencia/damia-bonet/",
+      "quote": "Double studio From 497,00 €/month [...] Individual Studio From 722,00 €/month",
+      "notes": "Ceny „od” za miesiąc: 497 EUR (studio dwuosobowe), 722 EUR (studio jednoosobowe, także ze wspólną kuchnią) i 994 EUR (studio jednoosobowe typu superior). Adres: C/ Serpis 27, 46022 Valencia. Lista UPV podaje cenę od 440 EUR. Strona operatora nie podaje roku cennika ani kaucji. UV wskazuje tę rezydencję jako akademik przy kampusie Tarongers."
+    },
+    {
+      "name": "Camplus Valencia Tower (Burjassot)",
+      "operator": "Camplus",
+      "url": "https://camplus.es/residencia-de-estudiantes-camplus-valencia-tower/",
+      "roomType": "studio jednoosobowe, studio premium, pokój z łazienką w module wspólnym (Twodio)",
+      "priceFrom": 560,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Wszystkie media (woda, prąd, gaz), klimatyzacja, szybkie Wi-Fi, sprzątanie co dwa tygodnie ze zmianą pościeli i ręczników, basen, siłownia. Posiłki płatne dodatkowo: pół wyżywienia od 215 EUR, pełne od 260 EUR miesięcznie (od poniedziałku do piątku).",
+      "deposit": "Kaucja wynosi 900 EUR i wraca po zakończeniu pobytu, jeśli nie ma zniszczeń i student nie wyprowadził się przed terminem z umowy.",
+      "eligibility": "Do rezerwacji potrzebna jest kopia dowodu lub paszportu (DNI lub paszport), zdjęcie i potwierdzenie przyjęcia na uczelnię. Strona nie opisuje osobno obywateli UE.",
+      "applicationInfo": "Rezerwacja przez formularz na stronie rezydencji. Zaliczka na miejsce wraca w całości, jeśli student zgłosi, że nie studiuje w Walencji, przed 31 lipca danego roku.",
+      "applyUrl": "https://camplus.es/residencia-de-estudiantes-camplus-valencia-tower/",
+      "waitlist": null,
+      "sourceUrl": "https://camplus.es/residencia-de-estudiantes-camplus-valencia-tower/",
+      "quote": "¡Desde 560€/mes! [...] ¡Desde 790€/mes! [...] La fianza tiene un coste total de 900 euros.",
+      "notes": "Kwoty „od” za miesiąc, zależnie od typu pokoju: 560, 620, 710 i 790 EUR. Konkretna cena danego typu może być wyższa niż kwota „od”. Adres: C/ Canaletas 1, 46100 Burjassot."
+    },
+    {
+      "name": "Colegio Mayor Rector Peset (Universitat de València)",
+      "operator": "Universitat de València",
+      "url": "https://www.uv.es/cmrpeset",
+      "roomType": "pokój dwuosobowy lub jednoosobowy, z łazienką zewnętrzną lub wewnętrzną",
+      "priceFrom": 847.43,
+      "priceTo": 1073.16,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Pełne wyżywienie od poniedziałku do niedzieli, klimatyzacja i ogrzewanie w pokoju, codzienne sprzątanie łazienki od poniedziałku do soboty, sprzątanie pokoju trzy razy w tygodniu, internet kablowy i Wi-Fi, woda, prąd i klimatyzacja. Mini-lodówka na prośbę: 11,77 EUR miesięcznie.",
+      "deposit": "Depozyt kolegialny 850 EUR, pobierany jako rezerwacja miejsca i na pokrycie ewentualnych szkód lub wcześniejszego wyjazdu. Po zakończeniu roku następuje rozliczenie i zwrot salda.",
+      "eligibility": "Akademik UV, według uczelni przeznaczony przede wszystkim dla członków Universitat de València. Studenci innych uczelni płacą wyższe stawki (od 941,59 EUR do 1 192,41 EUR miesięcznie). Strona nie opisuje osobno obywateli UE.",
+      "applicationInfo": "Wniosek o miejsce na rok 2026/27 składa się według informacji na stronie kolegium; terminy nie są tam podane. Stypendia rezydencyjne UV na rok 2026/27 miały nabór w czerwcu i lipcu 2026. Kontakt: cmrpeset@uv.es, tel. +34 963 166 000.",
+      "applyUrl": "https://www.uv.es/uvweb/colegi-major-rector-peset/ca/estudiantat/nou-ingres-beques/nou-ingres/informacio-general-1285915410557.html",
+      "waitlist": null,
+      "sourceUrl": "https://www.uv.es/uvweb/colegi-major-rector-peset/ca/estudiantat/viure-cmrpeset/preus-1285913462746.html",
+      "quote": "Preus Curs 2026-27 (IVA inclòs). El preu de mensualitat completa s'aplicarà 8 mesos, d'octubre 2026 a maig 2027. [...] Curs complet (8 mesos) habitació doble bany exterior 847,43 € MES [...] habitació individual bany interior 1.073,16 € MES",
+      "notes": "Stawki dla studentów UV na rok 2026/27 (z VAT), płatne przez 8 miesięcy od października 2026 do maja 2027; wrzesień, czerwiec i lipiec rozlicza się za dni: pokój dwuosobowy z łazienką zewnętrzną 847,43 EUR, z wewnętrzną 888,24 EUR, pokój jednoosobowy z łazienką zewnętrzną 1 030,24 EUR, z wewnętrzną 1 073,16 EUR. Lista UPV podaje przy tym kolegium kwotę 324 EUR bez okresu i zakresu, która nie zgadza się ze stawkami uczelni, dlatego nie jest tu użyta. Opis akademika: https://www.uv.es/uvweb/college/en/university/university-life/accommodation/uv-residence-halls-1285847621115.html. Pojemność: 179 miejsc dla studentów i 70 dla nauczycieli i badaczy."
+    }
+  ],
+  "rent": [
+    {
+      "type": "pokój w mieszkaniu współdzielonym",
+      "area": "Walencja",
+      "priceFrom": 350,
+      "priceTo": 450,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": null,
+      "includesUtilities": "nie",
+      "official": true,
+      "source": "Universitat de València, strona dla studentów przyjeżdżających",
+      "sourceUrl": "https://www.uv.es/uvinternational/en/erasmus/studies/incoming/admitted-students.html",
+      "quote": "Room in a shared flat (excluding bills): between 350 and 450 €/month",
+      "notes": "Uczelnia podaje osobno media: około 50 EUR miesięcznie na osobę (woda, prąd, gaz) i około 45 EUR za internet w domu. Strona źródłowa nie podaje daty cen."
+    },
+    {
+      "type": "pokój w mieszkaniu współdzielonym (średnia z ogłoszeń)",
+      "area": "Walencja (stolica prowincji)",
+      "priceFrom": 458.88,
+      "priceTo": 458.88,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "dane nieoficjalne: raport „Piso compartido 2026” portalu pisos.com",
+      "sourceUrl": "https://fotos.imghs.net/media/pisosblog/2026/09/informe-piso-compartido-2026.pdf",
+      "quote": "Barcelona (647 €/mes), Madrid (636,10 €/mes), Girona (490,31 €/mes) y Valencia (458,88 €/mes)",
+      "notes": "Średnia cena z ogłoszeń portalu pisos.com, dane nieoficjalne (raport wrześniowy 2026: https://www.pisos.com/aldia/informes/compartidos/septiembre-2026/1665852/)."
+    }
+  ],
+  "gaps": [
+    "Universitat de València nie publikuje jednej łącznej kwoty miesięcznego budżetu; podana kwota jest sumą pozycji z jej strony dla studentów przyjeżdżających. Oficjalnych cen kawalerek ani mieszkań 1-pokojowych w Walencji brak.",
+    "Colegio Mayor Rector Peset nie podaje na swojej stronie terminów naboru na rok 2026/27. Informacje daje cmrpeset@uv.es.",
+    "Lista akademików UPV zawiera kilkadziesiąt pozycji z cenami „od”, a szczegóły opisano tylko dla RESA Damià Bonet, Camplus Valencia Tower i Rector Peset. Ceny z listy UPV (np. Camplus od 560 EUR, RESA od 440 EUR) różnią się od cen na stronach operatorów, a lista prosi o potwierdzenie cen w rezydencjach.",
+    "Wyszukiwarka mieszkań UPV (Flat finder) generuje ogłoszenia dynamicznie, więc nie ma w niej stałych przykładowych cen. Strona UV o zakwaterowaniu nie zawiera kwot za akademiki poza kolegium Rector Peset.",
+    "Ani RESA Damià Bonet, ani Camplus nie opisują osobno zasad dla obywateli UE. Camplus podaje kaucję 900 EUR, a RESA nie podaje kaucji ani terminów naboru."
+  ],
+  "sources": [
+    {
+      "url": "https://www.upv.es/perfiles/estudiante/alojamientos/en/residencias-y-colegios-mayores-2/",
+      "note": "UPV, lista akademików i colegios mayores z cenami"
+    },
+    {
+      "url": "https://www.upv.es/perfiles/estudiante/alojamientos/en/consejos-y-recomendaciones/",
+      "note": "UPV, rady przy wynajmie i ostrzeżenia"
+    },
+    {
+      "url": "https://www.upv.es/perfiles/estudiante/alojamientos/en/flat-finder/",
+      "note": "UPV, bezpłatna wyszukiwarka mieszkań"
+    },
+    {
+      "url": "https://www.uv.es/uvinternational/en/erasmus/studies/incoming/admitted-students.html",
+      "note": "UV, koszty życia i zakwaterowanie dla studentów przyjeżdżających"
+    },
+    {
+      "url": "https://www.uv.es/uvweb/college/en/university/university-life/accommodation/uv-residence-halls-1285847621115.html",
+      "note": "UV, opis Colegio Mayor Rector Peset"
+    },
+    {
+      "url": "https://www.uv.es/uvweb/colegi-major-rector-peset/ca/estudiantat/viure-cmrpeset/preus-1285913462746.html",
+      "note": "UV, cennik Colegio Mayor Rector Peset na rok 2026/27"
+    },
+    {
+      "url": "https://resa.es/en/residences/valencia/damia-bonet/",
+      "note": "RESA, ceny i usługi rezydencji Damià Bonet"
+    },
+    {
+      "url": "https://camplus.es/residencia-de-estudiantes-camplus-valencia-tower/",
+      "note": "Camplus, ceny, kaucja i zasady rezerwacji"
+    },
+    {
+      "url": "https://fotos.imghs.net/media/pisosblog/2026/09/informe-piso-compartido-2026.pdf",
+      "note": "dane nieoficjalne: raport o pokojach we współdzielonych mieszkaniach, pisos.com 2026"
+    },
+    {
+      "url": "https://fotos.imghs.net/media/pisosblog/2026/09/informe-alquiler-agosto-2026.pdf",
+      "note": "dane nieoficjalne: raport o czynszach, pisos.com, sierpień 2026 (cena za metr kwadratowy)"
+    }
+  ]
+}

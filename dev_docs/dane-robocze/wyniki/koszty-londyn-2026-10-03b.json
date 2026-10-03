@@ -1,0 +1,188 @@
+{
+  "slug": "londyn",
+  "name": "Londyn",
+  "country": "Wielka Brytania",
+  "currency": "GBP",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Imperial College London, Queen Mary University of London i King's College London prowadzą własne rezydencje, a rynek w Londynie jest bardzo drogi. W roku 2026/27 tygodniowy czynsz w Imperial wynosi od 150 do 425 GBP, w Queen Mary od 176,75 do 329,07 GBP, a w King's pokoje zaczynają się od 169 GBP tygodniowo (w zależności od rezydencji najniższa stawka to od 169 do 414 GBP). We wszystkich trzech uczelniach czynsz obejmuje rachunki za media."
+    },
+    {
+      "label": "Wynajem",
+      "text": "Według brytyjskiego urzędu statystycznego ONS średni miesięczny czynsz w Londynie wynosił w sierpniu 2026 roku 2 332 GBP. Dane nieoficjalne z indeksu HomeLet dają dla września 2026 roku 2 272 GBP. Obie liczby dotyczą wszystkich rodzajów lokali. Oficjalnych cen pokoju, kawalerki i mieszkania 1-pokojowego brak."
+    },
+    {
+      "label": "Budżet miesięczny",
+      "text": "Wymóg formalny: rząd Wielkiej Brytanii wymaga od studenta z wizą studencką wykazania środków w wysokości co najmniej 1 529 GBP miesięcznie przez okres do 9 miesięcy przy studiach w Londynie. Kwotę trzeba udowodnić przy wniosku wizowym, bez czesnego. Przewidywane wydatki mogą być wyższe lub niższe."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "Najpierw warto złożyć wniosek do akademika uczelni, bo Imperial gwarantuje miejsce w pierwszym roku studentom licencjackim, którzy złożą wniosek do 17 lipca, a Queen Mary i King's również oferują gwarancje na określonych zasadach. Wynajmując prywatnie, trzeba czytać umowę przed podpisaniem. Kaucja powinna być zdeponowana w oficjalnym systemie ochrony kaucji w ciągu 30 dni od jej otrzymania."
+    },
+    {
+      "label": "Uwagi",
+      "text": "Terminy naboru na rok 2026/27 już minęły, a terminów na 2027/28 uczelnie jeszcze nie opublikowały. Czynsze w akademikach podano za tydzień, a umowy trwają zwykle od 38 do 40 tygodni."
+    }
+  ],
+  "budget": {
+    "from": 1529,
+    "to": null,
+    "currency": "GBP",
+    "period": "miesiąc",
+    "text": "Wymóg formalny: kwota środków na utrzymanie, które student musi wykazać przy wniosku o wizę studencką do Londynu, przez okres do 9 miesięcy. Przewidywane wydatki mogą być wyższe lub niższe. Kwota nie obejmuje czesnego, które trzeba wykazać osobno. Nie dotyczy osób, które przebywają w Wielkiej Brytanii z ważną wizą co najmniej 12 miesięcy. Rząd nie podaje, z jakich pozycji ta kwota się składa.",
+    "sourceUrl": "https://www.gov.uk/student-visa/money",
+    "quote": "£1,529 per month (for up to 9 months) for courses in London",
+    "official": true,
+    "kind": "wymog"
+  },
+  "dorms": [
+    {
+      "name": "Imperial College London, akademiki dla studentów licencjackich (Beit, Eastside, Kemp Porter, Southside, Wilson House, Woodward i inne)",
+      "operator": "Imperial College London",
+      "url": "https://www.imperial.ac.uk/students/accommodation/prospective/ug/",
+      "roomType": "jednoosobowy, jednoosobowy z łazienką, dwuosobowy (twin)",
+      "priceFrom": 150,
+      "priceTo": 425,
+      "currency": "GBP",
+      "period": "tydzień",
+      "includes": "Rachunki za media, internet, podstawowe ubezpieczenie mienia, konserwacja, sprzątanie części wspólnych i wkład w fundusz aktywności akademika.",
+      "deposit": null,
+      "eligibility": "Studenci licencjackich studiów pierwszego roku z potwierdzoną ofertą (firm choice) mają gwarancję miejsca przy spełnieniu warunków gwarancji. Strona nie ogranicza naboru do obywateli Wielkiej Brytanii.",
+      "applicationInfo": "Na rok 2026/27 wnioski przyjmowano od połowy maja, a termin gwarancji minął 17 lipca 2026. Wprowadzenie od 26 września 2026. Termin na 2027/28 nie został opublikowany.",
+      "applyUrl": "https://www.imperial.ac.uk/students/accommodation/prospective/ug/how-to-apply/",
+      "waitlist": null,
+      "sourceUrl": "https://www.imperial.ac.uk/students/accommodation/prospective/ug/fees/",
+      "quote": "Rent includes utility bills",
+      "notes": "Najtańszy jest dwuosobowy standardowy pokój (Standard twin) w Wilson House za 150 GBP tygodniowo, najdroższy pokój jednoosobowy premium z łazienką w Eastside i Southside za 425 GBP tygodniowo. Licencja trwa zwykle 39 tygodni. Kaucji strona nie podaje."
+    },
+    {
+      "name": "Queen Mary University of London, rezydencje uczelni",
+      "operator": "Queen Mary University of London (Housing Services)",
+      "url": "https://www.qmul.ac.uk/residences/",
+      "roomType": "pokój jednoosobowy (różne standardy)",
+      "priceFrom": 176.75,
+      "priceTo": 329.07,
+      "currency": "GBP",
+      "period": "tydzień",
+      "includes": "Cała energia i woda, sprzątanie części wspólnych (w tym kuchni i wspólnych łazienek), Wi-Fi i ubezpieczenie rzeczy osobistych.",
+      "deposit": null,
+      "eligibility": "Wszyscy nowi studenci licencjatu, podyplomowi i kursu przygotowawczego zaczynający w 2026 roku mają gwarancję miejsca w akademiku uczelni lub u partnera, jeśli spełnią kryteria kwalifikacji.",
+      "applicationInfo": "Portal wniosków otwiera się co roku w marcu, na 2026/27 nabór jest oznaczony jako otwarty. Terminy i gwarancje uczelnia przegląda co roku. Wniosek wymaga logowania danymi z procesu rekrutacji.",
+      "applyUrl": "https://www.qmul.ac.uk/residences/college/application/",
+      "waitlist": null,
+      "sourceUrl": "https://www.qmul.ac.uk/residences/college/fees/",
+      "quote": "Residential fees include all energy and water costs",
+      "notes": "Za cały pokój jednoosobowy na 38,3 tygodnia uczelnia podaje od 6 769,53 do 12 603,38 GBP. Dla studentów podyplomowych umowy trwają 51 tygodni. Nie wszystkie przedziały cen są wymienione na stronie. Kaucji strona nie podaje."
+    },
+    {
+      "name": "King's College London, rezydencje uczelni (stawki od 169 GBP tygodniowo)",
+      "operator": "King's College London (Accommodation)",
+      "url": "https://www.kcl.ac.uk/accommodation/residences",
+      "roomType": "różne typy pokoi w 14 rezydencjach",
+      "priceFrom": 169,
+      "priceTo": null,
+      "currency": "GBP",
+      "period": "tydzień",
+      "includes": "Wi-Fi i rachunki za media (strona oznacza rezydencje jako Bills included).",
+      "deposit": "Przedpłata 450 GBP przy rezerwacji, odliczana od pierwszej raty czynszu w październiku 2026. Osoby ze stypendium mieszkaniowego KAAS jej nie płacą.",
+      "eligibility": "Wniosek mogą złożyć osoby z potwierdzoną ofertą studiów (firm offer). Strona rezydencji mówi o gwarancji zakwaterowania, ale nie opisuje jej szczegółowych warunków.",
+      "applicationInfo": "Rejestracja w portalu, potem wybór pokoju w ciągu dwóch tygodni od rejestracji. Umowy na 40, 48 lub 51 tygodni, zwykle 40 tygodni w pierwszym roku. Terminu naboru na 2027/28 jeszcze nie opublikowano.",
+      "applyUrl": "https://accommodation.kcl.ac.uk/",
+      "waitlist": null,
+      "sourceUrl": "https://www.kcl.ac.uk/accommodation/residences",
+      "quote": "Rooms from £169.00 per week",
+      "notes": "Strona podaje dla każdej rezydencji najniższą stawkę („od”): od 169 GBP (Vega) do 414 GBP (Battersea) tygodniowo, zależnie od rezydencji. Pełnego cennika wszystkich pokoi strona nie podaje."
+    }
+  ],
+  "rent": [
+    {
+      "type": "średni czynsz wszystkich rodzajów lokali",
+      "area": "cały Londyn",
+      "priceFrom": 2332,
+      "priceTo": 2332,
+      "currency": "GBP",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": true,
+      "source": "ONS, Private rent and house prices, UK: September 2026 (sierpień 2026)",
+      "sourceUrl": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/privaterentandhousepricesuk/latest",
+      "quote": "Average rent was highest in London (£2,332) and lowest in the North East (£788) in August 2026.",
+      "notes": "Średnia dla wszystkich prywatnych najmów w Londynie, więc dla jednej osoby wynajmującej pokój lub kawalerkę rzeczywisty koszt będzie niższy. Najwyższy średni czynsz w Londynie to dzielnica Kensington i Chelsea, 3 690 GBP."
+    },
+    {
+      "type": "średni czynsz nowych umów, wszystkie rodzaje lokali",
+      "area": "cały Londyn",
+      "priceFrom": 2272,
+      "priceTo": 2272,
+      "currency": "GBP",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Dane nieoficjalne: HomeLet Rental Index, wrzesień 2026",
+      "sourceUrl": "https://www.homelet.co.uk/homelet-rental-index",
+      "quote": "Average rent in London £2,272 PCM",
+      "notes": "Dane nieoficjalne z indeksu firmy z branży najmu (HomeLet), oparte na nowych umowach. Są użyte do porównania z danymi ONS. Indeks nie rozdziela rodzajów lokali."
+    }
+  ],
+  "gaps": [
+    "Brak oficjalnych cen pokoju w mieszkaniu współdzielonym, kawalerki i mieszkania 1-pokojowego w Londynie. Dostępny podział ONS według liczby sypialni dotyczy okresu 2022 do 2023, więc go nie użyto. W tabeli są tylko średnie dla wszystkich lokali.",
+    "Kwota 1 529 GBP miesięcznie to wymóg wizowy rządu Wielkiej Brytanii. Imperial, Queen Mary i King's nie podają na swoich stronach własnej miesięcznej kwoty kosztów życia. Studenci z UE potrzebują obecnie wizy studenckiej.",
+    "Strony Imperial i Queen Mary nie podają kwoty kaucji w akademikach.",
+    "Ceny King's to stawki od danej kwoty w każdej rezydencji, bez pełnego cennika wszystkich typów pokoi.",
+    "Terminy naboru do akademików na rok 2027/28 nie zostały jeszcze opublikowane."
+  ],
+  "sources": [
+    {
+      "url": "https://www.imperial.ac.uk/students/accommodation/prospective/ug/fees/",
+      "note": "Czynsze akademików Imperial 2026/27"
+    },
+    {
+      "url": "https://www.imperial.ac.uk/students/accommodation/prospective/ug/how-to-apply/",
+      "note": "Terminy i gwarancja miejsca Imperial 2026/27"
+    },
+    {
+      "url": "https://www.imperial.ac.uk/students/accommodation/prospective/ug/accommodation-licence/",
+      "note": "Długość umów i prywatny wynajem, Imperial"
+    },
+    {
+      "url": "https://www.qmul.ac.uk/residences/college/fees/",
+      "note": "Czynsze rezydencji Queen Mary 2026/27"
+    },
+    {
+      "url": "https://www.qmul.ac.uk/residences/college/application/",
+      "note": "Nabór i gwarancja miejsca Queen Mary"
+    },
+    {
+      "url": "https://www.qmul.ac.uk/residences/alternative/privaterenting/",
+      "note": "Pomoc w prywatnym wynajmie, Queen Mary"
+    },
+    {
+      "url": "https://www.kcl.ac.uk/accommodation/residences",
+      "note": "Rezydencje King's, ceny od"
+    },
+    {
+      "url": "https://www.kcl.ac.uk/accommodation/undergraduate/how-to-apply",
+      "note": "Zasady rezerwacji i przedpłata King's"
+    },
+    {
+      "url": "https://www.gov.uk/student-visa/money",
+      "note": "Wymagane środki na utrzymanie, wiza studencka"
+    },
+    {
+      "url": "https://www.gov.uk/tenancy-deposit-protection",
+      "note": "Ochrona kaucji w Wielkiej Brytanii"
+    },
+    {
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/privaterentandhousepricesuk/latest",
+      "note": "Oficjalny średni czynsz w Londynie, sierpień 2026"
+    },
+    {
+      "url": "https://www.homelet.co.uk/homelet-rental-index",
+      "note": "Dane nieoficjalne, średni czynsz w Londynie, wrzesień 2026"
+    }
+  ]
+}

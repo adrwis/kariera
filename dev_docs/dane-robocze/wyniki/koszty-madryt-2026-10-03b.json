@@ -1,0 +1,255 @@
+{
+  "slug": "madryt",
+  "name": "Madryt",
+  "country": "Hiszpania",
+  "currency": "EUR",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Podano cztery oficjalne pozycje: trzy rezydencje Universidad Carlos III de Madrid (Getafe, Leganés i Colmenarejo) oraz Colegio Mayor Juan Luis Vives przy Universidad Autónoma de Madrid. Sam pokój bez wyżywienia kosztuje w Getafe od 650 do 830 EUR miesięcznie za osobę (z mediami), a z pełnym wyżywieniem ceny wynoszą od 662,30 do 1 190 EUR miesięcznie za osobę, zależnie od rezydencji. UC3M podaje ceny bez VAT, a UAM z VAT. Universidad Complutense ma pięć własnych colegios mayores (ponad 700 miejsc), ale na sprawdzonych stronach nie ma ich cen."
+    },
+    {
+      "label": "Wynajem",
+      "text": "Przewodnik Universidad Politécnica de Madrid podaje pokój w mieszkaniu współdzielonym za 450 do 650 EUR miesięcznie (zwykle bez rachunków, które według uczelni to około 50 EUR miesięcznie dodatkowo) oraz mieszkanie dla dwóch osób od 1 500 EUR. Dane nieoficjalne: raport portalu pisos.com z 2026 roku wskazuje średnio 636,10 EUR za pokój w mieszkaniu współdzielonym w stolicy prowincji Madryt."
+    },
+    {
+      "label": "Budżet miesięczny",
+      "text": "Żadna ze sprawdzonych uczelni nie podaje jednej łącznej kwoty. Przewodnik UPM wymienia składniki: bilet miesięczny od 20 do 82 EUR zależnie od strefy i wieku, obiad dnia około 13 EUR oraz akademik z pełnym wyżywieniem od 450 do 2 000 EUR miesięcznie."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "Universidad Complutense poleca platformę HousingAnywhere, a UPM wskazuje m.in. Aluni, Spotahome i Uniplaces, które pobierają opłatę rezerwacyjną, ale zapewniają wsparcie. UPM radzi uważać na podejrzanie niskie ceny, sprawdzić tożsamość właściciela i liczyć się z kaucją zwykle równą miesięcznemu czynszowi oraz z rachunkami około 50 EUR miesięcznie."
+    },
+    {
+      "label": "Uwagi",
+      "text": "UPM nie ma akademików przy kampusie, a UC3M i UAM prowadzą własne colegios mayores. W większości sprawdzonych ofert cena obejmuje pełne wyżywienie, więc nie należy jej porównywać wprost z samym czynszem za pokój."
+    }
+  ],
+  "budget": {
+    "from": null,
+    "to": null,
+    "currency": "EUR",
+    "period": "miesiąc",
+    "text": "Brak oficjalnej łącznej kwoty miesięcznego budżetu studenta. Przewodnik dla studentów zagranicznych Universidad Politécnica de Madrid podaje tylko składniki kosztów: akademik z pełnym wyżywieniem od 450 EUR do 2 000 EUR miesięcznie, bilet miesięczny od 20 EUR do 82 EUR, obiad dnia 13 EUR.",
+    "sourceUrl": "https://blogs.upm.es/guideforinternationalstudents/practical-information/",
+    "quote": "Full-board at student residence: €450 – €2000 per month (depending on accommodation choice) Transport: Single trip €1.50 to €2 depending on zone 10-trip pass: €12.20 Monthly pass: €20 to €82 depending on zone and age",
+    "official": true,
+    "kind": "szacunek"
+  },
+  "dorms": [
+    {
+      "name": "Colegio Mayor Gregorio Peces-Barba (Getafe): sam pokój, bez wyżywienia",
+      "operator": "Colegios Mayores UC3M (Fundación General de la Universidad Carlos III de Madrid)",
+      "url": "https://colegiosmayores.fund.uc3m.es/en/gregorio-peces-barba/",
+      "roomType": "dwuosobowy (cena za osobę), jednoosobowy, apartament",
+      "priceFrom": 650,
+      "priceTo": 830,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Zakwaterowanie, cotygodniowe sprzątanie pokoju, woda, gaz, prąd i internet. Bez wyżywienia. Cena za osobę i miesiąc, bez VAT (stawka VAT nie jest podana).",
+      "deposit": null,
+      "eligibility": "Strona rezerwacji dla roku 2026/2027 jest otwarta. Dokumenty tożsamości przyjmowane w procedurze UC3M to dowód osobisty, karta cudzoziemca lub paszport (według zasad przyjęć rezydencji w Colmenarejo).",
+      "applicationInfo": "Nabór na rok akademicki 2026/2027 jest otwarty (strona z października 2026). Wniosek składa się online w systemie rezerwacji UC3M.",
+      "applyUrl": "https://gcmuc3m.adisic.com/GSO/open?lang=en",
+      "waitlist": null,
+      "sourceUrl": "https://colegiosmayores.fund.uc3m.es/en/gregorio-peces-barba/",
+      "quote": "Prices Accommodation only Single room 745 € Two-bed room (per person) 650 € Apartment 830 € Includes: Accommodation Weekly room cleaning Consumption of water, gas and electricity [...] * Price per person per month. VAT not included.",
+      "notes": "Pokój dwuosobowy (cena za osobę) 650 EUR, jednoosobowy 745 EUR, apartament 830 EUR, wszystko bez VAT. Wariant z pełnym wyżywieniem jest w osobnym wierszu. Kaucja dla tej rezydencji nie jest podana na sprawdzonej stronie."
+    },
+    {
+      "name": "Colegio Mayor Gregorio Peces-Barba (Getafe): z pełnym wyżywieniem",
+      "operator": "Colegios Mayores UC3M (Fundación General de la Universidad Carlos III de Madrid)",
+      "url": "https://colegiosmayores.fund.uc3m.es/en/gregorio-peces-barba/",
+      "roomType": "dwuosobowy (cena za osobę), jednoosobowy, apartament",
+      "priceFrom": 1010,
+      "priceTo": 1190,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Zakwaterowanie z pełnym wyżywieniem 7 dni w tygodniu, cotygodniowe sprzątanie pokoju, woda, gaz i prąd. Cena za osobę i miesiąc, bez VAT (stawka VAT nie jest podana).",
+      "deposit": null,
+      "eligibility": "Strona rezerwacji dla roku 2026/2027 jest otwarta. Dokumenty tożsamości przyjmowane w procedurze UC3M to dowód osobisty, karta cudzoziemca lub paszport (według zasad przyjęć rezydencji w Colmenarejo).",
+      "applicationInfo": "Nabór na rok akademicki 2026/2027 jest otwarty (strona z października 2026). Wniosek składa się online w systemie rezerwacji UC3M.",
+      "applyUrl": "https://gcmuc3m.adisic.com/GSO/open?lang=en",
+      "waitlist": null,
+      "sourceUrl": "https://colegiosmayores.fund.uc3m.es/en/gregorio-peces-barba/",
+      "quote": "Full board Single room 1.105 € Two-bed room (price per person) 1.010 € Apartment 1.190 € [...] * Price per person per month. VAT not included.",
+      "notes": "Pokój dwuosobowy (cena za osobę) 1 010 EUR, jednoosobowy 1 105 EUR, apartament 1 190 EUR, wszystko bez VAT. Wariant bez wyżywienia jest w osobnym wierszu. Kaucja dla tej rezydencji nie jest podana na sprawdzonej stronie."
+    },
+    {
+      "name": "Colegio Mayor Fernando Abril Martorell (Leganés)",
+      "operator": "Colegios Mayores UC3M (Fundación General de la Universidad Carlos III de Madrid)",
+      "url": "https://colegiosmayores.fund.uc3m.es/en/fernando-abril-martorell/",
+      "roomType": "dwuosobowy, jednoosobowy",
+      "priceFrom": 872,
+      "priceTo": 1075,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Pełne wyżywienie, media (woda, gaz, prąd), cotygodniowe sprzątanie pokoju, internet i Wi-Fi, korzystanie z części wspólnych. Cena za osobę i miesiąc, bez VAT.",
+      "deposit": null,
+      "eligibility": "Rezydencja przy kampusie w Leganés, przeznaczona dla studentów UC3M. Wymagania szczegółowe są w regulaminie przyjęć na stronie rezydencji.",
+      "applicationInfo": "Nabór na rok akademicki 2026/2027 jest otwarty (strona z października 2026), wniosek online.",
+      "applyUrl": "https://gcmuc3m.adisic.com/GSO/open?lang=en",
+      "waitlist": null,
+      "sourceUrl": "https://colegiosmayores.fund.uc3m.es/en/fernando-abril-martorell/",
+      "quote": "Prices Full board Incluye: Double room 872 € Single room 1.075 € Includes: Accommodation Full board Consumption of water, gas and electricity [...] * Price per person per month. VAT not included.",
+      "notes": "Adres: Calle Palmera 12, 28918 Leganés, Madryt. Kaucja nie jest podana na sprawdzonej stronie."
+    },
+    {
+      "name": "Colegio Mayor Antonio Machado (Colmenarejo)",
+      "operator": "Colegios Mayores UC3M (Fundación General de la Universidad Carlos III de Madrid)",
+      "url": "https://colegiosmayores.fund.uc3m.es/en/residencia-antonio-machado-eng/",
+      "roomType": "dwuosobowy, jednoosobowy",
+      "priceFrom": 662.3,
+      "priceTo": 817.7,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Pełne wyżywienie, woda, gaz i prąd, cotygodniowe sprzątanie pokoju, internet, Wi-Fi i telewizja, korzystanie z części wspólnych. Cena za osobę i miesiąc, bez VAT.",
+      "deposit": "Rezerwacja miejsca to jednorazowo 1 400 EUR: 800 EUR kaucji oraz 600 EUR zaliczki na ostatni miesiąc. Jeśli student nie dostanie się na żaden kierunek UC3M i zrezygnuje przed 18 lipca 2026 godz. 9:00, cała kwota wraca pod koniec sierpnia. Przy rezygnacji przed tym terminem mimo przyjęcia na UC3M wraca tylko zaliczka za ostatni miesiąc.",
+      "eligibility": "Wniosek mogą złożyć także osoby, które nie będą studiować w UC3M, a o przyznaniu miejsca decyduje liczba zgłoszeń. Wymagany jest dowód osobisty, karta cudzoziemca lub paszport, a studenci zagraniczni dołączają poświadczony wykaz ocen z pierwszego roku liceum (Baccalaureate).",
+      "applicationInfo": "Nabór na rok 2026/2027 trwa do wyczerpania wolnych miejsc (wolne jest 79 miejsc: 33 jednoosobowych i 46 w 23 pokojach dwuosobowych).",
+      "applyUrl": "https://gcmuc3m.adisic.com/GSO/open?lang=en",
+      "waitlist": "Jest lista oczekująca. Osoby bez decyzji o przyjęciu trafiają na listę i są wybierane w kolejności, gdy miejsce się zwolni.",
+      "sourceUrl": "https://colegiosmayores.fund.uc3m.es/en/residencia-antonio-machado-eng/",
+      "quote": "Double room 26% Promotional Discount To celebrate the reopening for the 26-27 academic year Before 895 € 662,30 € Single room 26% Promotional Discount To celebrate the reopening for the 26-27 academic year Before 1.105 € 817,70 € [...] For 2026-2027 academic year, there are 79 spot available: 33 in single rooms (6 of them accessible for people with limited mobility) and 46 distributed among 23 double rooms.",
+      "notes": "Podane ceny to ceny promocyjne na otwarcie roku 2026/2027; ceny wyjściowe to 895 EUR (pokój dwuosobowy) i 1 105 EUR (jednoosobowy). Strona nie podaje, jak długo obowiązuje zniżka, więc po jej zakończeniu cena może być wyższa. Warunki rezerwacji i kaucji pochodzą z regulaminu przyjęć tej rezydencji: https://colegiosmayores.fund.uc3m.es/documentos/Admission_Terms_AM.pdf. Na tej samej podstronie jest też lista pytań: https://colegiosmayores.fund.uc3m.es/documentos/faq-admission-AM.pdf."
+    },
+    {
+      "name": "Colegio Mayor Universitario Juan Luis Vives (UAM)",
+      "operator": "Universidad Autónoma de Madrid",
+      "url": "https://www.uam.es/uam/cmlv",
+      "roomType": "jednoosobowy z łazienką, jednoosobowy bez łazienki, dwuosobowy bez łazienki",
+      "priceFrom": 850,
+      "priceTo": 926,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Pełne wyżywienie 7 dni w tygodniu, pranie raz w tygodniu, cotygodniowe sprzątanie i zmiana pościeli, internet kablowy i Wi-Fi, siłownia, sale do nauki. Ceny z 10-procentowym VAT, ważne od 1 września 2026 do 31 sierpnia 2027.",
+      "deposit": "Zaliczka potwierdzająca miejsce (fianza) wynosi 600 EUR, płatna przelewem w terminie podanym w decyzji o przyjęciu (według dokumentu o informacjach ekonomiczno-administracyjnych colegio).",
+      "eligibility": "Dokument tożsamości: DNI lub paszport. Strona nie opisuje osobno obywateli UE ani studentów zagranicznych.",
+      "applicationInfo": "Według strony o przyjęciu do colegio (https://www.uam.es/uam/en/colegio-mayor-juan-luis-vives/como-ser-colegial) składanie dokumentów trwa od 1 lutego do 25 sierpnia (strona nie podaje roku; cennik dotyczy roku 2026/2027). Pokoje jednoosobowe rozdziela się od 1 maja, a opłaty za 9 miesięcy pobiera się od września do maja.",
+      "applyUrl": "https://www.uam.es/uam/en/colegio-mayor-juan-luis-vives/como-ser-colegial",
+      "waitlist": "Jest lista oczekująca. Centrum kontaktuje się tylko z przyjętymi, a pozostali zostają na liście i mogą dostać miejsce w dowolnym momencie roku.",
+      "sourceUrl": "https://www.uam.es/uam/media/doc/1606854168034/tarifas-curso-2026-2027.pdf",
+      "quote": "P/C mensual habitación individual con WC 926,00 € [...] P/C mensual habitación doble sin WC 850,00 € [...] Estos precios estarán vigentes de 1 de septiembre de 2026 a 31 de agosto de 2027.",
+      "notes": "Pokój jednoosobowy bez łazienki kosztuje 888 EUR. Szczegóły zaliczki i listy oczekujących: https://www.uam.es/uam/media/doc/1606854167442/informacion-economico-administrativa-del-colegio.pdf. Uniwersytet wskazuje też zewnętrzną rezydencję Erasmo (RESA, 765 miejsc), której cen nie sprawdzono."
+    }
+  ],
+  "rent": [
+    {
+      "type": "pokój w mieszkaniu współdzielonym",
+      "area": "Madryt",
+      "priceFrom": 450,
+      "priceTo": 650,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": null,
+      "includesUtilities": "nie wiadomo",
+      "official": true,
+      "source": "Universidad Politécnica de Madrid, przewodnik dla studentów zagranicznych",
+      "sourceUrl": "https://blogs.upm.es/guideforinternationalstudents/practical-information/",
+      "quote": "A room in a shared apartment from €450 to 650 per month (self-catering)",
+      "notes": "Uczelnia pisze o pokoju w trybie self-catering i ostrzega, że czynsz w mieszkaniu współdzielonym może nie obejmować rachunków (należy doliczyć około 50 EUR miesięcznie), więc zwykle rachunki płaci się osobno. Kaucja jest zwykle równa jednemu czynszowi. Przewodnik nie podaje daty cen."
+    },
+    {
+      "type": "mieszkanie dla dwóch osób (liczba pokoi nieznana)",
+      "area": "Madryt",
+      "priceFrom": 1500,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": null,
+      "includesUtilities": "nie wiadomo",
+      "official": true,
+      "source": "Universidad Politécnica de Madrid, przewodnik dla studentów zagranicznych",
+      "sourceUrl": "https://blogs.upm.es/guideforinternationalstudents/practical-information/",
+      "quote": "An apartment for two starting from €1500 per month (self-catering)",
+      "notes": "Przewodnik pisze o mieszkaniu dla dwóch osób (self-catering) i nie podaje liczby pokoi, dzielnicy, daty ani tego, czy rachunki są wliczone. Cena jest dolną granicą."
+    },
+    {
+      "type": "pokój w mieszkaniu współdzielonym",
+      "area": "Madryt (stolica prowincji Madryt)",
+      "priceFrom": 636.1,
+      "priceTo": 636.1,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "dane nieoficjalne: raport „Piso compartido 2026” portalu pisos.com",
+      "sourceUrl": "https://fotos.imghs.net/media/pisosblog/2026/09/informe-piso-compartido-2026.pdf",
+      "quote": "Barcelona (647 €/mes), Madrid (636,10 €/mes), Girona (490,31 €/mes) y Valencia (458,88 €/mes)",
+      "notes": "Średnia z ogłoszeń portalu, nie z umów. Dla porównania: Barcelona 647 EUR, Walencja 458,88 EUR. Dane nieoficjalne (raport wrześniowy 2026 portalu pisos.com, strona raportu: https://www.pisos.com/aldia/informes/compartidos/septiembre-2026/1665852/)."
+    }
+  ],
+  "gaps": [
+    "Żadna ze sprawdzonych uczelni ani portal rządowy nie podaje jednej łącznej miesięcznej kwoty budżetu studenta w Madrycie, dlatego kwota budżetu jest pusta, a składniki kosztów opisano w tekście.",
+    "Brak oficjalnych cen kawalerek i mieszkań 1-pokojowych w Madrycie. Ministerstwo mieszkalnictwa prowadzi interaktywną mapę czynszów (SERPAVI), ale jej wartości nie były dostępne w formie tekstu, a portal idealista.com nie udostępnił raportu.",
+    "Universidad Complutense ma pięć własnych colegios mayores (ponad 700 miejsc) i 33 współpracujące, a strona Colegio Mayor Antonio de Nebrija (114 miejsc) odsyła do osobnych dokumentów z cenami i warunkami naboru, które nie zostały sprawdzone. Dlatego UCM nie ma w zestawieniu cen.",
+    "Universidad Politécnica de Madrid pisze w przewodniku, że nie ma akademików przy kampusie, choć jej strona wymienia dwie rezydencje (Lucas Olazábal i Gómez Pardo) bez cen. Przewodnik podaje też ceny rezydencji od 1 200 EUR za pokój dwuosobowy z VAT i pełnym wyżywieniem, znacznie wyższe niż w ofertach UC3M i UAM, więc przed porównaniem trzeba sprawdzić zakres usług.",
+    "Kaucja nie jest podana dla rezydencji UC3M w Getafe i Leganés (kwota 1 400 EUR pochodzi z regulaminu rezydencji w Colmenarejo). Żadna ze stron nie opisuje osobno zasad dla obywateli UE, poza listą przyjmowanych dokumentów tożsamości.",
+    "Termin naboru do Colegio Mayor Juan Luis Vives (od 1 lutego do 25 sierpnia) strona podaje bez roku, a ceny dotyczą roku 2026/2027.",
+    "Stawka VAT dla cen UC3M (bez VAT) nie jest podana na stronach rezydencji, więc ostateczna cena dla studenta będzie wyższa."
+  ],
+  "sources": [
+    {
+      "url": "https://colegiosmayores.fund.uc3m.es/en/gregorio-peces-barba/",
+      "note": "UC3M, ceny i wyposażenie rezydencji Gregorio Peces-Barba"
+    },
+    {
+      "url": "https://colegiosmayores.fund.uc3m.es/en/fernando-abril-martorell/",
+      "note": "UC3M, ceny rezydencji Fernando Abril Martorell"
+    },
+    {
+      "url": "https://colegiosmayores.fund.uc3m.es/en/residencia-antonio-machado-eng/",
+      "note": "UC3M, ceny i liczba wolnych miejsc w rezydencji Antonio Machado"
+    },
+    {
+      "url": "https://colegiosmayores.fund.uc3m.es/documentos/Admission_Terms_AM.pdf",
+      "note": "UC3M, warunki przyjęć, kaucja i terminy rezydencji Antonio Machado"
+    },
+    {
+      "url": "https://colegiosmayores.fund.uc3m.es/documentos/faq-admission-AM.pdf",
+      "note": "UC3M, pytania i odpowiedzi o dokumentach i zasadach przyjęć"
+    },
+    {
+      "url": "https://www.uam.es/uam/alojamientos",
+      "note": "UAM, lista akademików (Juan Luis Vives i rezydencja Erasmo)"
+    },
+    {
+      "url": "https://www.uam.es/uam/media/doc/1606854168034/tarifas-curso-2026-2027.pdf",
+      "note": "UAM, cennik Colegio Mayor Juan Luis Vives 2026/2027"
+    },
+    {
+      "url": "https://www.uam.es/uam/media/doc/1606854167442/informacion-economico-administrativa-del-colegio.pdf",
+      "note": "UAM, zaliczka, lista oczekujących i dokumenty"
+    },
+    {
+      "url": "https://www.uam.es/uam/en/colegio-mayor-juan-luis-vives/como-ser-colegial",
+      "note": "UAM, jak i kiedy składać wniosek"
+    },
+    {
+      "url": "https://venalacomplu.ucm.es/alojamiento",
+      "note": "UCM, liczba miejsc w colegios mayores"
+    },
+    {
+      "url": "https://www.ucm.es/colegio-mayor-antonio-de-nebrija",
+      "note": "UCM, Colegio Mayor Antonio de Nebrija"
+    },
+    {
+      "url": "https://www.ucm.es/iniciativas-privadas-de-alojamiento",
+      "note": "UCM, polecana platforma HousingAnywhere"
+    },
+    {
+      "url": "https://blogs.upm.es/guideforinternationalstudents/practical-information/",
+      "note": "UPM, przewodnik: czynsze, koszty życia, wskazówki"
+    },
+    {
+      "url": "https://www.upm.es/Estudiantes/Atencion/AlojamientoEstudiantes",
+      "note": "UPM, strona o zakwaterowaniu (część informacji nieaktualna)"
+    },
+    {
+      "url": "https://fotos.imghs.net/media/pisosblog/2026/09/informe-piso-compartido-2026.pdf",
+      "note": "dane nieoficjalne: raport o pokojach we współdzielonych mieszkaniach, pisos.com 2026"
+    }
+  ]
+}

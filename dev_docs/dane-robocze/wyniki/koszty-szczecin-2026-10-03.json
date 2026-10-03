@@ -1,0 +1,170 @@
+{
+ "slug": "szczecin",
+ "name": "Szczecin",
+ "country": "Polska",
+ "currency": "PLN",
+ "retrieved": "2026-10-03",
+ "summary": [
+  {
+   "label": "Akademiki",
+   "text": "Uniwersytet Szczeciński prowadzi cztery domy studenckie: Bakałarz, Belferek, Kordecki i Portowiec. Miejsce w pokoju trzyosobowym kosztuje 650 zł, w dwuosobowym od 680 zł do 900 zł, a w jednoosobowym od 850 zł do 950 zł miesięcznie. Kaucja wynosi 650 zł, a wnioski składa się przez platformę e-Akademik."
+  },
+  {
+   "label": "Wynajem",
+   "text": "Portal Rentier.io podaje medianę ofertową wynajmu 60 zł za metr kwadratowy miesięcznie we wrześniu 2026 roku, czyli około 2 990 zł za mieszkanie 50 m². To dane nieoficjalne. Cen pokoi i kawalerek nie udało się potwierdzić."
+  },
+  {
+   "label": "Budżet miesięczny",
+   "text": "Study in Poland (NAWA) szacuje miesięczne wydatki studenta w Polsce na od 1 500 zł do 2 000 zł. Jest to kwota dla całego kraju."
+  },
+  {
+   "label": "Jak szukać mieszkania",
+   "text": "Zacznij od wniosku o miejsce w domu studenckim Uniwersytetu Szczecińskiego w e-Akademiku lub w module OKPS, bo to najtańsza opcja. Osoby, które nie dostały miejsca, mogą zwrócić się o wolne miejsca do koordynatora osiedla od 18 września. Przy wynajmie prywatnym czytaj umowę, sprawdź kaucję i nie płać przed zobaczeniem mieszkania."
+  },
+  {
+   "label": "Uwagi",
+   "text": "Stawki dotyczą studentów US i obowiązują od 1 października 2026 roku. Studenci innych uczelni płacą o 150 zł więcej, a osoby spoza uczelni o 300 zł więcej."
+  }
+ ],
+ "budget": {
+  "from": 1500,
+  "to": 2000,
+  "currency": "PLN",
+  "period": "miesiąc",
+  "text": "Ogólnopolski szacunek portalu Study in Poland (NAWA) dla studenta: czynsz w domu studenckim, transport miejski, ubezpieczenie zdrowotne, telefon i internet, jedzenie oraz rozrywka, łącznie od 1 500 zł do 2 000 zł miesięcznie. Portal nie podaje osobnej kwoty dla tego miasta, a pozycja o domu studenckim (od 400 zł do 600 zł) jest niższa od cen z obecnych cenników uczelni, więc rzeczywisty miesięczny koszt przy miejscu w akademiku może wyjść wyższy.",
+  "sourceUrl": "https://study.gov.pl/cost-living-poland",
+  "quote": "Average total expenses 1500 - 2000",
+  "official": true
+ },
+ "dorms": [
+  {
+   "deposit": "Kaucja 650 zł za miejsce, wpłacana na konto danego domu po przyznaniu miejsca.",
+   "applyUrl": "https://studenci.usz.edu.pl/studenci/pomoc-i-wsparcie/akademiki/",
+   "waitlist": "Druga tura dla pierwszoroczniaków zależy od dostępności miejsc. Po zakończeniu etapu II o wolne miejsca ubiega się u koordynatora, a na stronie jest opublikowana lista rankingowa osób ubiegających się o miejsce.",
+   "notes": "Adres: al. Bohaterów Warszawy 75, 71-061 Szczecin. Miejsce w pokoju trzyosobowym 650 zł, dwuosobowym od 680 do 720 zł, jednoosobowym od 850 do 880 zł (zależnie od łazienki). Stawki dla studentów US od 1 października 2026 roku.",
+   "currency": "PLN",
+   "name": "Dom Studenta nr 1 „Bakałarz”",
+   "operator": "Uniwersytet Szczeciński",
+   "url": "https://studenci.usz.edu.pl/studenci/pomoc-i-wsparcie/akademiki/",
+   "roomType": "jednoosobowy, dwuosobowy, trzyosobowy",
+   "priceFrom": 650,
+   "priceTo": 880,
+   "period": "miesiąc",
+   "includes": "Tabela stawek nie opisuje, co obejmuje opłata.",
+   "eligibility": "Miejsce mogą dostać studenci US, osoby przyjęte na studia, cudzoziemcy przyjęci na studia i obywatele polscy z dokumentem uzyskanym za granicą. Pierwszeństwo ma student, któremu dojazd utrudnia studiowanie i który pobiera stypendium socjalne. Studenci innych uczelni płacą o 150 zł więcej, a osoby spoza uczelni o 300 zł więcej.",
+   "applicationInfo": "Wnioski składa się przez platformę e-Akademik, a pierwszoroczni przez moduł OKPS. Na rok 2026/2027 osoby przyjęte na studia składały wnioski od 17 lipca do 11 sierpnia 2026 roku (tura I) i od 26 sierpnia do 4 września 2026 roku (tura II, zależna od wolnych miejsc). Od 18 września 2026 roku o wolne miejsca zwraca się do koordynatora Osiedla Domów Studenckich US.",
+   "sourceUrl": "https://studenci.usz.edu.pl/wp-content/uploads/Stawki-oplat-za-zamieszkiwanie-w-DS-na-rok-akademicki-2026-2027.pdf",
+   "quote": "miejsce w pokoju jednoosobowym - pokój z łazienką na wyłączność 880,00 zł"
+  },
+  {
+   "deposit": "Kaucja 650 zł za miejsce, wpłacana na konto danego domu po przyznaniu miejsca.",
+   "applyUrl": "https://studenci.usz.edu.pl/studenci/pomoc-i-wsparcie/akademiki/",
+   "waitlist": "Druga tura dla pierwszoroczniaków zależy od dostępności miejsc. Po zakończeniu etapu II o wolne miejsca ubiega się u koordynatora, a na stronie jest opublikowana lista rankingowa osób ubiegających się o miejsce.",
+   "notes": "Adres: al. Bohaterów Warszawy 74, 71-061 Szczecin. Stawka dla studentów US od 1 października 2026 roku.",
+   "currency": "PLN",
+   "name": "Dom Studenta nr 2 „Belferek”",
+   "operator": "Uniwersytet Szczeciński",
+   "url": "https://studenci.usz.edu.pl/studenci/pomoc-i-wsparcie/akademiki/",
+   "roomType": "dwuosobowy",
+   "priceFrom": 720,
+   "priceTo": 720,
+   "period": "miesiąc",
+   "includes": "Tabela stawek nie opisuje, co obejmuje opłata.",
+   "eligibility": "Miejsce mogą dostać studenci US, osoby przyjęte na studia, cudzoziemcy przyjęci na studia i obywatele polscy z dokumentem uzyskanym za granicą. Pierwszeństwo ma student, któremu dojazd utrudnia studiowanie i który pobiera stypendium socjalne. Studenci innych uczelni płacą o 150 zł więcej, a osoby spoza uczelni o 300 zł więcej.",
+   "applicationInfo": "Wnioski składa się przez platformę e-Akademik, a pierwszoroczni przez moduł OKPS. Na rok 2026/2027 osoby przyjęte na studia składały wnioski od 17 lipca do 11 sierpnia 2026 roku (tura I) i od 26 sierpnia do 4 września 2026 roku (tura II, zależna od wolnych miejsc). Od 18 września 2026 roku o wolne miejsca zwraca się do koordynatora Osiedla Domów Studenckich US.",
+   "sourceUrl": "https://studenci.usz.edu.pl/wp-content/uploads/Stawki-oplat-za-zamieszkiwanie-w-DS-na-rok-akademicki-2026-2027.pdf",
+   "quote": "Dom Studenta nr 2 „Belferek” miejsce w pokoju dwuosobowym - pokój ze wspólną łazienką w boksie 720,00 zł"
+  },
+  {
+   "deposit": "Kaucja 650 zł za miejsce, wpłacana na konto danego domu po przyznaniu miejsca.",
+   "applyUrl": "https://studenci.usz.edu.pl/studenci/pomoc-i-wsparcie/akademiki/",
+   "waitlist": "Druga tura dla pierwszoroczniaków zależy od dostępności miejsc. Po zakończeniu etapu II o wolne miejsca ubiega się u koordynatora, a na stronie jest opublikowana lista rankingowa osób ubiegających się o miejsce.",
+   "notes": "Adres: ul. Kordeckiego 15, 71-066 Szczecin. Pokój jednoosobowy od 900 do 950 zł (zależnie od metrażu), pokój dwuosobowy dla par z łazienką 900 zł. Stawki dla studentów US od 1 października 2026 roku.",
+   "currency": "PLN",
+   "name": "Dom Studenta nr 3 „Kordecki”",
+   "operator": "Uniwersytet Szczeciński",
+   "url": "https://studenci.usz.edu.pl/studenci/pomoc-i-wsparcie/akademiki/",
+   "roomType": "jednoosobowy, dwuosobowy",
+   "priceFrom": 820,
+   "priceTo": 950,
+   "period": "miesiąc",
+   "includes": "Tabela stawek nie opisuje, co obejmuje opłata.",
+   "eligibility": "Miejsce mogą dostać studenci US, osoby przyjęte na studia, cudzoziemcy przyjęci na studia i obywatele polscy z dokumentem uzyskanym za granicą. Pierwszeństwo ma student, któremu dojazd utrudnia studiowanie i który pobiera stypendium socjalne. Studenci innych uczelni płacą o 150 zł więcej, a osoby spoza uczelni o 300 zł więcej.",
+   "applicationInfo": "Wnioski składa się przez platformę e-Akademik, a pierwszoroczni przez moduł OKPS. Na rok 2026/2027 osoby przyjęte na studia składały wnioski od 17 lipca do 11 sierpnia 2026 roku (tura I) i od 26 sierpnia do 4 września 2026 roku (tura II, zależna od wolnych miejsc). Od 18 września 2026 roku o wolne miejsca zwraca się do koordynatora Osiedla Domów Studenckich US.",
+   "sourceUrl": "https://studenci.usz.edu.pl/wp-content/uploads/Stawki-oplat-za-zamieszkiwanie-w-DS-na-rok-akademicki-2026-2027.pdf",
+   "quote": "miejsce w pokoju dwuosobowym - pokój ze wspólną łazienką w boksie 820,00 zł"
+  },
+  {
+   "deposit": "Kaucja 650 zł za miejsce, wpłacana na konto danego domu po przyznaniu miejsca.",
+   "applyUrl": "https://studenci.usz.edu.pl/studenci/pomoc-i-wsparcie/akademiki/",
+   "waitlist": "Druga tura dla pierwszoroczniaków zależy od dostępności miejsc. Po zakończeniu etapu II o wolne miejsca ubiega się u koordynatora, a na stronie jest opublikowana lista rankingowa osób ubiegających się o miejsce.",
+   "notes": "Adres: ul. Podgórna 26, 70-205 Szczecin. Pokój jednoosobowy z łazienką wspólną w boksie 850 zł, dwuosobowy z łazienką na wyłączność 800 zł. Stawki dla studentów US od 1 października 2026 roku.",
+   "currency": "PLN",
+   "name": "Dom Studenta nr 4 „Portowiec”",
+   "operator": "Uniwersytet Szczeciński",
+   "url": "https://studenci.usz.edu.pl/studenci/pomoc-i-wsparcie/akademiki/",
+   "roomType": "jednoosobowy, dwuosobowy",
+   "priceFrom": 800,
+   "priceTo": 900,
+   "period": "miesiąc",
+   "includes": "Tabela stawek nie opisuje, co obejmuje opłata.",
+   "eligibility": "Miejsce mogą dostać studenci US, osoby przyjęte na studia, cudzoziemcy przyjęci na studia i obywatele polscy z dokumentem uzyskanym za granicą. Pierwszeństwo ma student, któremu dojazd utrudnia studiowanie i który pobiera stypendium socjalne. Studenci innych uczelni płacą o 150 zł więcej, a osoby spoza uczelni o 300 zł więcej.",
+   "applicationInfo": "Wnioski składa się przez platformę e-Akademik, a pierwszoroczni przez moduł OKPS. Na rok 2026/2027 osoby przyjęte na studia składały wnioski od 17 lipca do 11 sierpnia 2026 roku (tura I) i od 26 sierpnia do 4 września 2026 roku (tura II, zależna od wolnych miejsc). Od 18 września 2026 roku o wolne miejsca zwraca się do koordynatora Osiedla Domów Studenckich US.",
+   "sourceUrl": "https://studenci.usz.edu.pl/wp-content/uploads/Stawki-oplat-za-zamieszkiwanie-w-DS-na-rok-akademicki-2026-2027.pdf",
+   "quote": "miejsce w pokoju jednoosobowym - pokój z łazienką na wyłączność 900,00 zł"
+  }
+ ],
+ "rent": [
+  {
+   "type": "mieszkanie około 50 m²",
+   "area": "Szczecin (całe miasto)",
+   "priceFrom": 2990,
+   "priceTo": 2990,
+   "currency": "PLN",
+   "period": "miesiąc",
+   "year": "2026",
+   "includesUtilities": "nie wiadomo",
+   "official": false,
+   "source": "Rentier.io, ceny najmu w Szczecinie (dane nieoficjalne)",
+   "sourceUrl": "https://rentier.io/ceny-najmu/polska/zachodniopomorskie/powiat-szczecin/szczecin",
+   "quote": "ok. 2 990 zł czynszu miesięcznie",
+   "notes": "Dane nieoficjalne: portal podaje przykład dla mieszkania 50 m² na podstawie mediany ofertowej 60 zł za metr kwadratowy we wrześniu 2026 roku (typowy zakres od 49 do 73 zł za metr). Według portalu najdroższe jest Śródmieście, a różnice między częściami miasta są niewielkie. Źródło nie podaje, czy kwota zawiera opłaty."
+  }
+ ],
+ "gaps": [
+  "Nie udało się potwierdzić cen wynajmu pokoju w mieszkaniu współdzielonym ani kawalerki w Szczecinie. Oficjalny raport NBP o cenach i stawkach najmu był niedostępny (ekran weryfikacji), więc podano tylko jedną nieoficjalną wartość dla mieszkania 50 m².",
+  "Nie znaleziono cennika domów studenckich Zachodniopomorskiego Uniwersytetu Technologicznego, Pomorskiego Uniwersytetu Medycznego ani Akademii Morskiej, więc opisano tylko akademiki Uniwersytetu Szczecińskiego.",
+  "Tabela stawek Uniwersytetu Szczecińskiego nie podaje, co obejmuje opłata (media, internet). Zasady przydziału nie opisują osobno obywateli Unii Europejskiej.",
+  "Oficjalny budżet miesięczny jest podany dla całej Polski, bez podziału na miasta. Pozycja o akademiku w tym szacunku jest niższa od aktualnych cen w Szczecinie."
+ ],
+ "sources": [
+  {
+   "url": "https://studenci.usz.edu.pl/studenci/pomoc-i-wsparcie/akademiki/",
+   "note": "Strona akademików Uniwersytetu Szczecińskiego, adresy domów i dokumenty."
+  },
+  {
+   "url": "https://studenci.usz.edu.pl/wp-content/uploads/Stawki-oplat-za-zamieszkiwanie-w-DS-na-rok-akademicki-2026-2027.pdf",
+   "note": "Stawki opłat w domach studenckich US na rok 2026/2027 i kaucja."
+  },
+  {
+   "url": "https://studenci.usz.edu.pl/wp-content/uploads/Harmonogram_domy-studenckie-US_-bez-podpisu_26.27.pdf",
+   "note": "Harmonogram przydziału miejsc w domach studenckich na rok 2026/2027."
+  },
+  {
+   "url": "https://studenci.usz.edu.pl/wp-content/uploads/Zarzadzenie-81.2026_podpis-EZD.pdf",
+   "note": "Zarządzenie nr 81/2026 rektora US w sprawie zasad przyznawania miejsc."
+  },
+  {
+   "url": "https://rentier.io/ceny-najmu/polska/zachodniopomorskie/powiat-szczecin/szczecin",
+   "note": "Dane nieoficjalne: mediana ofertowa wynajmu w Szczecinie."
+  },
+  {
+   "url": "https://study.gov.pl/cost-living-poland",
+   "note": "Ogólnopolski miesięczny budżet studenta (NAWA, Study in Poland)."
+  },
+  {
+   "url": "https://study.gov.pl/accommodation",
+   "note": "Ogólne informacje NAWA o akademikach i wynajmie pokoju w Polsce."
+  }
+ ]
+}

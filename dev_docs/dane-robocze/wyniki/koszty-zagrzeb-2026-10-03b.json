@@ -1,0 +1,144 @@
+{
+  "slug": "zagrzeb",
+  "name": "Zagrzeb",
+  "country": "Chorwacja",
+  "currency": "EUR",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Domami studenckimi zarządza Studentski centar u Zagrebu. Pełnoetatowi studenci będący obywatelami UE mogą wziąć udział w konkursie na dopłacane miejsce w pokoju za 40 do 139 EUR miesięcznie (ceny bez VAT; cennik nie precyzuje wprost, że kwota jest za osobę, ale podaje ją dla pokoju dwuosobowego i jednoosobowego, więc najpewniej dotyczy miejsca). Miejsca są przyznawane według rankingu punktowego i nie wystarczają dla wszystkich. Cennik bez dopłaty (71,85 do 170,85 EUR miesięcznie, także bez VAT) dotyczy studentów wymiany Erasmus, CEEPUS i programów bilateralnych."
+    },
+    {
+      "label": "Wynajem",
+      "text": "Szkoła ZŠEM orientacyjnie podaje mieszkania do wynajęcia w zakresie 320 do 700 EUR miesięcznie, zwykle bez opłat za media (dane szkoły, bez daty i bez podziału na wielkość mieszkania, dlatego oznaczone jako nieoficjalne). Oficjalnych, datowanych cen pokoju w mieszkaniu współdzielonym ani kawalerki dla Zagrzebia brak."
+    },
+    {
+      "label": "Budżet miesięczny",
+      "text": "Rządowy portal Study in Croatia szacuje średni miesięczny koszt życia w Chorwacji na 500 do 800 EUR, zależnie od stylu życia i wyboru akademik albo wynajem. W większych miastach jest drożej. Strona pochodzi z 2021 roku i nie podaje daty aktualizacji, więc kwota jest orientacyjna i może być nieaktualna."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "Study in Croatia radzi załatwić zakwaterowanie przed przyjazdem i skontaktować się z biurem współpracy międzynarodowej wybranej uczelni. Portal wymienia serwisy ogłoszeniowe (Njuškalo, Oglasnik) i agencje, ale zastrzega, że nie odpowiada za ich treść. Studenci bez miejsca w domu studenckim, którzy zakwalifikowali się do konkursu, mogą dostać dopłatę 152 EUR miesięcznie do wynajmu u prywatnych właścicieli (limit 906 osób w 2026/27)."
+    },
+    {
+      "label": "Uwagi",
+      "text": "Cenniki Studentski centar u Zagrebu są skanami tabel i podają ceny bez VAT. Zagrzebska Szkoła Ekonomii i Zarządzania (ZŠEM) nie ma akademików."
+    }
+  ],
+  "budget": {
+    "from": 500,
+    "to": 800,
+    "currency": "EUR",
+    "period": "miesiąc",
+    "text": "Szacunek rządowego portalu Study in Croatia dla studenta zagranicznego w Chorwacji (cały kraj, nie tylko Zagrzeb). Kwota zależy od stylu życia i wyboru akademik albo prywatne zakwaterowanie. Strona nie rozbija jej na czynsz, jedzenie, transport i ubezpieczenie. Tekst na stronie pochodzi z 2021 roku i nie ma daty aktualizacji, więc kwota może być nieaktualna.",
+    "sourceUrl": "https://www.studyincroatia.hr/live-and-work-in-croatia/finance-and-living-costs/",
+    "quote": "Average monthly living expenses in Croatia are estimated between 500 and 800 EUR.",
+    "official": true,
+    "kind": "szacunek"
+  },
+  "dorms": [
+    {
+      "name": "Domy studenckie Studentskog centra u Zagrebu: cennik z dopłatą, cena za miejsce w pokoju (Stjepan Radić, Cvjetno, Ante Starčević, Lašćina)",
+      "operator": "Studentski centar u Zagrebu (Sveučilište u Zagrebu)",
+      "url": "https://www.sczg.unizg.hr/smjestaj",
+      "roomType": "dwuosobowy (w części domów też jednoosobowy)",
+      "priceFrom": 40,
+      "priceTo": 139,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Cena miesięczna za zakwaterowanie w pokoju dwuosobowym (2/1) albo jednoosobowym (1/1), bez VAT. Cennik nie precyzuje wprost jednostki (miejsce czy cały pokój), ale kwoty dla pokoju dwuosobowego są niskie, więc najpewniej dotyczą miejsca (osoby). Cennik nie wymienia mediów. Według Study in Croatia domy mają stołówki, siłownie i inne udogodnienia, a pokoje są zwykle dwuosobowe ze wspólną łazienką.",
+      "deposit": null,
+      "eligibility": "Konkurs jest otwarty dla studentów studiów stacjonarnych będących obywatelami Chorwacji oraz obywatelami UE, EOG i Szwajcarii (nie mogą pracować na etacie ani prowadzić działalności). Miejsca nie wystarczają dla wszystkich.",
+      "applicationInfo": "Dla roku 2026/27 wniosek składało się online na natjecaj.sczg.hr od 8 do 24 lipca 2026, a wyniki ogłoszono do 17 sierpnia 2026. 1 października 2026 ogłoszono obniżenie progu punktowego do 1335 punktów; wnioski na kolejny rok nie są jeszcze ogłoszone. Opłata za obsługę dokumentacji w konkursie to 8 EUR.",
+      "applyUrl": "https://natjecaj.sczg.hr/student",
+      "waitlist": "Cennik i strona konkursu nie opisują listy oczekujących. Po obniżeniu progu punktowego kolejne osoby z rankingu dostają prawo do wprowadzenia się.",
+      "sourceUrl": "https://www.sczg.unizg.hr/wp-content/uploads/2026/08/Cjenik-subvencionirani-smjestaj-2026_27-novi-cjenik.pdf",
+      "quote": "Utvrđuje se mjesečna subvencionirana cijena smještaja u pojedinim studentskim domovima Studentskog centra u Zagrebu za akademsku godinu 2026./2027. godini kako slijedi:",
+      "notes": "Cennik jest skanem tabeli. Pokój dwuosobowy: kategoria I (Stjepan Radić, 11. i 12. paviljon) 117 EUR, II (Cvjetno) 90 EUR, III 74 EUR, IV (Ante Starčević) 60 EUR, VI (Lašćina, 1. paviljon) 52 EUR, VII (Lašćina) 40 EUR. Pokój jednoosobowy: 139 EUR (I), 120 EUR (II), 82 EUR (IV), 52 EUR (VI), 40 EUR (VII). Wszystkie ceny bez VAT. Źródło nie podaje wprost, że ceny są za osobę."
+    },
+    {
+      "name": "Domy studenckie Studentskog centra u Zagrebu: cennik bez dopłaty (wymiana międzynarodowa)",
+      "operator": "Studentski centar u Zagrebu (Sveučilište u Zagrebu)",
+      "url": "https://www.sczg.unizg.hr/informacije/general-information",
+      "roomType": "dwuosobowy lub jednoosobowy",
+      "priceFrom": 71.85,
+      "priceTo": 170.85,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Nie podano, co obejmuje cena. Cena miesięczna za pokój dwuosobowy lub jednoosobowy, bez VAT; cennik nie precyzuje wprost, czy dotyczy miejsca czy całego pokoju.",
+      "deposit": null,
+      "eligibility": "Cennik dla studentów, którzy nie mają dopłaty ministerstwa, na przykład przyjeżdżających w ramach Erasmus, CEEPUS lub wymiany bilateralnej. Według Studentskog centra tylko studenci wymiany oficjalnej mogą się ubiegać o miejsce w domu studenckim, a uczelnia musi ich zarekomendować w ramach limitu.",
+      "applicationInfo": "Miejsce załatwia biuro współpracy międzynarodowej uczelni, do której student jedzie; pierwsze zgłoszenie idzie od uczelni do Studentskog centra. Osoba kontaktowa: Petra Šarenić, petra.sarenic@sczg.hr.",
+      "applyUrl": null,
+      "waitlist": null,
+      "sourceUrl": "https://www.sczg.unizg.hr/wp-content/uploads/2026/08/Cjenik-nesubvencionirani-smjestaj-2026_27-novi-cjenik.pdf",
+      "quote": "Utvrđuje se mjesečna nesubvencionirana cijena smještaja u pojedinim studentskim domovima Studentskog centra u Zagrebu za akademsku godinu 2026./2027. godini kako slijedi:",
+      "notes": "Pokój dwuosobowy od 71,85 EUR (Lašćina) do 148,85 EUR (Stjepan Radić, 11. i 12. paviljon), jednoosobowy do 170,85 EUR. Krótki pobyt od 1 września do 15 lipca: 20 EUR za dobę (pokój dwuosobowy) lub 30 EUR (jednoosobowy). Ceny bez VAT; cennik nie precyzuje wprost, czy są za miejsce czy za pokój."
+    }
+  ],
+  "rent": [
+    {
+      "type": "mieszkanie (bez podziału na liczbę pokoi)",
+      "area": "Zagrzeb, okolice ZŠEM (Zagrzeb Zachód: Črnomerec, Kustošija, Trešnjevka, Centar, Donji grad, Tuškanac)",
+      "priceFrom": 320,
+      "priceTo": 700,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": null,
+      "includesUtilities": "nie",
+      "official": false,
+      "source": "dane nieoficjalne: Zagrebačka škola ekonomije i managementa (ZŠEM), prywatna szkoła, strona o życiu studenckim",
+      "sourceUrl": "https://zsem.hr/student-life",
+      "quote": "Apartments for rent are usually available within the range of 320 to 700 EUR monthly, depending on the conditions of the apartment, and location. (Utility expenses are usually not included in the rent).",
+      "notes": "Orientacyjne dane szkoły ZŠEM, bez daty i bez typu lokalu. Cena zależy od mieszkania i dzielnicy, a media zwykle nie są wliczone."
+    }
+  ],
+  "gaps": [
+    "Oficjalnych, datowanych cen pokoju w mieszkaniu współdzielonym ani kawalerki w Zagrzebiu brak. Jedyny wiersz wynajmu pochodzi ze strony prywatnej szkoły ZŠEM i nie ma daty, a datowane raporty dużych portali najmu nie były dostępne.",
+    "Uniwersytet w Zagrzebiu na stronie dla studentów zagranicznych nie opisuje zakwaterowania, więc informacje o domach studenckich pochodzą od Studentskog centra. ZŠEM informuje, że domów studenckich dla jej studentów nie ma.",
+    "Brak kwoty kaucji w domach studenckich oraz informacji, czy media są w czynszu.",
+    "Cenniki domów studenckich są skanami obrazów, a kwoty pochodzą z tabel, więc każdy wiersz warto sprawdzić w pliku PDF. Cenniki nie precyzują wprost, czy ceny dotyczą miejsca czy całego pokoju.",
+    "Nie jest jasne, jaka punktacja daje miejsce obywatelowi UE: znany jest tylko próg 1305 punktów w ostatecznym rankingu 2026/27 i 1335 punktów po obniżeniu 1 października 2026.",
+    "Study in Croatia podaje, że obywatele UE na pełnych studiach mogą korzystać z naborów zwykle w styczniu i czerwcu, a w 2026 roku konkurs trwał w lipcu, więc termin naboru na 2027/28 trzeba sprawdzić na stronie Studentskog centra.",
+    "Strona Study in Croatia z kwotą miesięcznych kosztów życia pochodzi z 2021 roku i nie podaje daty aktualizacji."
+  ],
+  "sources": [
+    {
+      "url": "https://www.sczg.unizg.hr/smjestaj",
+      "note": "Studentski centar u Zagrebu: aktualności o konkursie, progach punktowych, dopłacie 152 EUR"
+    },
+    {
+      "url": "https://www.sczg.unizg.hr/informacije/natjecaj-za-akademsku-godinu-2026-2027",
+      "note": "Konkurs 2026/27: kto może się ubiegać, terminy, adres wniosku"
+    },
+    {
+      "url": "https://www.sczg.unizg.hr/informacije/cjenik-2",
+      "note": "Cenniki z dopłatą i bez dopłaty"
+    },
+    {
+      "url": "https://www.sczg.unizg.hr/wp-content/uploads/2026/08/Cjenik-subvencionirani-smjestaj-2026_27-novi-cjenik.pdf",
+      "note": "Cennik z dopłatą 2026/27 (skan)"
+    },
+    {
+      "url": "https://www.sczg.unizg.hr/wp-content/uploads/2026/08/Cjenik-nesubvencionirani-smjestaj-2026_27-novi-cjenik.pdf",
+      "note": "Cennik bez dopłaty 2026/27 (skan)"
+    },
+    {
+      "url": "https://www.sczg.unizg.hr/informacije/general-information",
+      "note": "Studentski centar: informacje dla studentów zagranicznych"
+    },
+    {
+      "url": "https://www.studyincroatia.hr/live-and-work-in-croatia/finance-and-living-costs/",
+      "note": "Study in Croatia: budżet miesięczny"
+    },
+    {
+      "url": "https://www.studyincroatia.hr/live-and-work-in-croatia/accommodation-and-meals/",
+      "note": "Study in Croatia: akademiki i platformy ogłoszeniowe"
+    },
+    {
+      "url": "https://zsem.hr/student-life",
+      "note": "ZŠEM: zakwaterowanie i cena wynajmu"
+    }
+  ]
+}
