@@ -1138,6 +1138,7 @@ main {
 
 .results__search-input {
   flex: 1;
+  min-width: 0;
   padding: 0.55rem 1rem;
   border: 1.5px solid var(--kr-glass-border);
   border-radius: 12px;
@@ -1525,7 +1526,9 @@ main {
 
 .famous-card__info {
   min-width: 0;
+  flex: 1 1 0;
 }
+.famous-card { max-width: 100%; box-sizing: border-box; }
 
 .famous-card__name {
   font-weight: 600;
@@ -1535,6 +1538,7 @@ main {
 }
 
 .famous-card__desc {
+  display: block;
   font-size: 0.78rem;
   color: var(--kr-text-muted);
   line-height: 1.3;
