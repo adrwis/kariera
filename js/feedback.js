@@ -144,11 +144,11 @@ const Feedback = (function () {
     const fd = new FormData();
     const en = cfg.entries || {};
     const put = (k, v) => { if (en[k] && v) fd.append(en[k], v); };
-    put('typ', TYPES.find(([v]) => v === form.elements.typ.value)?.[1] || form.elements.typ.value);
-    put('opis', opis.slice(0, MAX_LEN));
+    // Formularz Google ma trzy pola, więc typ zgłoszenia dopisujemy na początku opisu, a stronę i kontekst do uwag
+    const typLabel = TYPES.find(([v]) => v === form.elements.typ.value)?.[1] || form.elements.typ.value;
+    put('opis', `[${typLabel}] ${opis.slice(0, MAX_LEN)}`);
     put('email', email);
-    put('strona', location.pathname + location.search);
-    put('kontekst', modal.dataset.context || '');
+    put('uwagi', `Strona: ${location.pathname}${location.search}${modal.dataset.context ? ` | Kontekst: ${modal.dataset.context}` : ''}`);
     const send = form.querySelector('.feedback-send');
     send.disabled = true;
     status.textContent = 'Wysyłam…';

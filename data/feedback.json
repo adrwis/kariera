@@ -1,5 +1,9 @@
 {
-  "enabled": false,
-  "formResponseUrl": "",
-  "entries": { "typ": "", "opis": "", "email": "", "strona": "", "kontekst": "" }
+  "enabled": true,
+  "formResponseUrl": "https://docs.google.com/forms/d/e/1FAIpQLSetY1szj28NPG9-bRPjs0gkD2PzWZkN8d9dMdOA9PaVEUr7Zw/formResponse",
+  "entries": {
+    "email": "entry.1934029650",
+    "opis": "entry.777268403",
+    "uwagi": "entry.1396445546"
+  }
 }

@@ -3219,32 +3219,48 @@ p.school-popup__caption { margin: 0.25rem 0 0.4rem; }
   .topbar__nav a { padding: 0.4rem 0.45rem; font-size: 0.82rem; }
 }
 
-/* „Czego brakuje?”: przyciski są ukryte, dopóki formularz nie jest podłączony (data/feedback.json) */
-.feedback-trigger { display: none; background: none; border: 0; padding: 0.5rem 0; font: inherit; color: var(--kr-secondary); text-decoration: underline; cursor: pointer; min-height: 44px; align-items: center; }
+/* „Czego brakuje?”: okienko w stylu okienek osób i szkół. Przyciski są ukryte, dopóki formularz nie jest podłączony (data/feedback.json) */
+.feedback-trigger { display: none; background: none; border: 0; padding: 0.5rem 0; font: inherit; color: var(--kr-secondary); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; min-height: 44px; align-items: center; }
+.feedback-trigger:hover { color: var(--kr-primary-light); }
+.feedback-trigger:focus-visible { outline: 3px solid var(--kr-focus-ring); outline-offset: 2px; border-radius: 4px; }
 body.feedback-on .feedback-trigger { display: inline-flex; }
-.footer__feedback { margin: 0; text-align: center; }
+.footer__feedback { margin: 0.5rem 0 0; text-align: center; }
+.footer__feedback .feedback-trigger { color: var(--kr-footer-text); }
 .zagr__ask { margin: 1rem 0; }
-.feedback-overlay { position: fixed; inset: 0; z-index: 300; background: rgba(0, 0, 0, 0.55); display: flex; align-items: flex-end; justify-content: center; padding: 0; overflow-y: auto; }
+
+.feedback-overlay { position: fixed; inset: 0; z-index: 500; background: var(--kr-modal-overlay); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); display: flex; align-items: center; justify-content: center; padding: 1.5rem; animation: popupFadeIn 0.2s ease; }
 .feedback-overlay[hidden] { display: none; }
-.feedback-dialog { position: relative; width: 100%; max-width: 34rem; max-height: 100vh; overflow-y: auto; background: var(--kr-card-bg); color: var(--kr-text); border-radius: 16px 16px 0 0; padding: 1.5rem 1.25rem 1.25rem; box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.3); outline: none; }
-@media (min-width: 600px) { .feedback-overlay { align-items: center; padding: 1rem; } .feedback-dialog { border-radius: 16px; } }
-.feedback-close { position: absolute; top: 0.5rem; right: 0.5rem; width: 44px; height: 44px; border: 0; background: none; font-size: 1.75rem; line-height: 1; color: var(--kr-text-muted); cursor: pointer; }
-.feedback-title { margin: 0 2.5rem 0.5rem 0; font-size: 1.25rem; }
-.feedback-lead, .feedback-small { color: var(--kr-text-muted); font-size: 0.9rem; margin: 0 0 0.75rem; }
-.feedback-small { font-size: 0.8rem; }
-.feedback-field { display: block; margin: 0 0 0.75rem; }
-.feedback-field > span { display: block; font-weight: 600; font-size: 0.9rem; margin-bottom: 0.25rem; }
-.feedback-field select, .feedback-field textarea, .feedback-field input { width: 100%; box-sizing: border-box; padding: 0.6rem 0.75rem; border: 1.5px solid var(--kr-border); border-radius: 10px; background: var(--kr-bg, transparent); color: inherit; font: inherit; }
+.feedback-dialog { position: relative; background: var(--kr-card-bg); border: 1px solid var(--kr-border); border-radius: 16px; padding: 2rem; max-width: 520px; width: 100%; box-shadow: var(--kr-popup-shadow); animation: popupSlideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1); max-height: calc(100vh - 3rem); max-height: calc(100dvh - 3rem); overflow-y: auto; -webkit-overflow-scrolling: touch; color: var(--kr-text); outline: none; }
+.feedback-close { position: absolute; top: 0.75rem; right: 0.75rem; width: 44px; height: 44px; border: 1px solid var(--kr-border); border-radius: 50%; background: var(--kr-bg-alt); color: var(--kr-text-muted); cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; line-height: 1; transition: background 0.2s, color 0.2s; }
+.feedback-close:hover { background: var(--kr-demand-deficit); color: #fff; border-color: transparent; }
+.feedback-close:focus-visible { outline: 3px solid var(--kr-focus-ring); outline-offset: 2px; }
+.feedback-title { margin: 0 3rem 0.5rem 0; font-family: 'Sora', sans-serif; font-size: 1.3rem; font-weight: 700; line-height: 1.25; color: var(--kr-primary); }
+[data-theme="dark"] .feedback-title { color: var(--kr-text); }
+.feedback-lead { color: var(--kr-text-muted); font-size: 0.95rem; margin: 0 0 1rem; }
+.feedback-small { color: var(--kr-text-muted); font-size: 0.8rem; margin: 0 0 1rem; line-height: 1.5; }
+.feedback-field { display: block; margin: 0 0 1rem; }
+.feedback-field > span { display: block; font-weight: 600; font-size: 0.88rem; margin-bottom: 0.3rem; }
+.feedback-field select, .feedback-field textarea, .feedback-field input { width: 100%; box-sizing: border-box; padding: 0.6rem 1rem; border: 1.5px solid var(--kr-input-border); border-radius: 12px; background: var(--kr-input-bg); color: var(--kr-text); font-family: inherit; font-size: 1rem; transition: border-color 0.25s ease, box-shadow 0.25s ease; }
+.feedback-field textarea { resize: vertical; min-height: 6rem; }
 .feedback-field select, .feedback-field input[type="email"] { min-height: 44px; }
+.feedback-field select:focus, .feedback-field textarea:focus, .feedback-field input:focus { outline: none; border-color: var(--kr-secondary); box-shadow: var(--kr-focus-glow); }
+.feedback-field ::placeholder { color: var(--kr-text-muted); opacity: 0.65; }
 .feedback-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
-.feedback-consent { display: flex; gap: 0.5rem; align-items: flex-start; font-size: 0.85rem; margin: 0 0 0.75rem; }
-.feedback-consent input { margin-top: 0.25rem; flex: none; width: 1.1rem; height: 1.1rem; }
-.feedback-err { color: var(--kr-demand-deficit); display: block; margin-top: 0.25rem; }
-.feedback-status { min-height: 1.25rem; margin: 0 0 0.5rem; font-size: 0.9rem; }
+.feedback-consent { display: flex; gap: 0.6rem; align-items: flex-start; font-size: 0.85rem; margin: 0 0 1rem; padding: 0.75rem; border-radius: 12px; background: var(--kr-tag-bg); }
+.feedback-consent input { margin-top: 0.2rem; flex: none; width: 1.15rem; height: 1.15rem; accent-color: var(--kr-secondary); }
+.feedback-err { color: var(--kr-demand-deficit); display: block; margin-top: 0.3rem; font-size: 0.85rem; }
+.feedback-status { min-height: 1.25rem; margin: 0 0 0.75rem; font-size: 0.9rem; color: var(--kr-text-muted); }
 .feedback-actions { display: flex; gap: 0.75rem; flex-wrap: wrap; }
-.feedback-send, .feedback-cancel { min-height: 44px; padding: 0.5rem 1.25rem; border-radius: 10px; font: inherit; font-weight: 600; cursor: pointer; border: 1.5px solid var(--kr-primary); }
-.feedback-send { background: var(--kr-primary); color: #fff; }
+.feedback-send, .feedback-cancel { min-height: 44px; padding: 0.7rem 1.5rem; border-radius: 12px; font-family: 'Sora', sans-serif; font-size: 0.9rem; font-weight: 600; letter-spacing: 0.02em; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s, background 0.2s; }
+.feedback-send { border: none; background: var(--kr-btn-bg); color: #fff; box-shadow: 0 4px 20px var(--kr-btn-shadow); }
+.feedback-send:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 6px 28px var(--kr-btn-shadow-hover); background: var(--kr-btn-hover); }
 .feedback-send:disabled { opacity: 0.6; cursor: default; }
-.feedback-cancel { background: transparent; color: var(--kr-primary); }
-.feedback-done .feedback-cancel { background: var(--kr-primary); color: #fff; }
+.feedback-cancel { border: 1.5px solid var(--kr-border); background: transparent; color: var(--kr-text-muted); }
+.feedback-cancel:hover { border-color: var(--kr-secondary); color: var(--kr-secondary); }
+.feedback-send:focus-visible, .feedback-cancel:focus-visible { outline: 3px solid var(--kr-focus-ring); outline-offset: 2px; }
+.feedback-done { text-align: center; padding: 1rem 0 0; }
+.feedback-done p { margin: 0 0 1.25rem; font-size: 1.05rem; }
+.feedback-done .feedback-cancel { background: var(--kr-btn-bg); color: #fff; border: none; }
 body.feedback-open { overflow: hidden; }
+@media (max-width: 480px) { .feedback-overlay { padding: 0.75rem; } .feedback-dialog { padding: 1.5rem 1.25rem; } .feedback-actions > button { flex: 1; } }
+@media (prefers-reduced-motion: reduce) { .feedback-overlay, .feedback-dialog { animation: none; } }

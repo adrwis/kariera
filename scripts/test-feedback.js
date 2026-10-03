@@ -22,8 +22,10 @@ const server = http.createServer((req, res) => {
   const browser = await chromium.launch();
   const errors = [];
   try {
-    console.log('\n=== Wyłączone (domyślna konfiguracja) ===');
-    let page = await browser.newPage();
+    console.log('\n=== Wyłączone w konfiguracji ===');
+    const off = await browser.newContext();
+    await off.route('**/data/feedback.json', r => r.fulfill({ contentType: 'application/json', body: JSON.stringify({ enabled: false }) }));
+    let page = await off.newPage();
     page.on('pageerror', e => errors.push(e.message));
     await page.goto(base);
     await page.waitForTimeout(800);
@@ -32,7 +34,7 @@ const server = http.createServer((req, res) => {
 
     console.log('\n=== Włączone ===');
     const ctx = await browser.newContext();
-    await ctx.route('**/data/feedback.json', r => r.fulfill({ contentType: 'application/json', body: JSON.stringify({ enabled: true, formResponseUrl: 'https://docs.google.com/forms/d/e/TEST/formResponse', entries: { typ: 'entry.1', opis: 'entry.2', email: 'entry.3', strona: 'entry.4', kontekst: 'entry.5' } }) }));
+    await ctx.route('**/data/feedback.json', r => r.fulfill({ contentType: 'application/json', body: JSON.stringify({ enabled: true, formResponseUrl: 'https://docs.google.com/forms/d/e/TEST/formResponse', entries: { opis: 'entry.2', email: 'entry.3', uwagi: 'entry.4' } }) }));
     const posts = [];
     await ctx.route('https://docs.google.com/forms/**', r => { posts.push(r.request().postData() || ''); r.fulfill({ status: 200, body: '' }); });
     page = await ctx.newPage();
@@ -58,7 +60,7 @@ const server = http.createServer((req, res) => {
     await page.check('input[name=zgoda]');
     await page.click('.feedback-send');
     await page.waitForSelector('.feedback-done');
-    check('wysłano jedno zgłoszenie z wartościami z formularza', posts.length === 1 && posts[0].includes('Oslo') && posts[0].includes('ktos@example.com'));
+    check('wysłano jedno zgłoszenie z wartościami z formularza', posts.length === 1 && posts[0].includes('Oslo') && posts[0].includes('entry.2') && posts[0].includes('ktos@example.com'));
     check('kontekst miasta i adres strony są w zgłoszeniu', posts[0].includes('Luksemburg') && posts[0].includes('zagranica'));
     check('wiadomość „Dziękujemy” po wysłaniu', /Dziękujemy/.test(await page.locator('.feedback-done').textContent()));
     await page.click('.feedback-done button');
