@@ -389,19 +389,30 @@
     return `typowo ${fmtZl(s.median || s.max)} brutto${s.scope === 'grupa' ? ' (grupa zawodów)' : ''}`;
   }
   // Opis płacy na profilu zawodu: skąd liczba, kogo dotyczy i czego nie obejmuje
+  // Drugie źródło obok GUS: oferty z rekrutacji dla osób z doświadczeniem (nie liczymy z nich mediany i nie mieszamy z GUS)
+  function salaryMarketHtml(c) {
+    const m = c.salaryMarket;
+    if (!m) return '';
+    const roles = (m.roles || []).length ? ` (np. ${m.roles.map(escapeHtml).join(', ')})` : '';
+    const src = isHttpUrl(m.sourceUrl) ? ` <a href="${escapeAttr(m.sourceUrl)}" target="_blank" rel="noopener">Źródło: Hays</a>` : '';
+    return `<p class="career-hero__note career-hero__note--market"><strong>Rynek ofert, ${escapeHtml(m.year)}:</strong> w rekrutacjach agencji Hays Poland dla średnich i dużych firm na role w tym zawodzie${roles} oferowano od ${fmtZl(m.min)} do ${fmtZl(m.max)} brutto miesięcznie, najczęściej około ${fmtZl(m.typical)}. ${c.salary ? 'To oferty dla osób z doświadczeniem, więc zwykle są wyższe niż typowe zarobki z GUS powyżej.' : 'To oferty dla osób z doświadczeniem, a nie średnia wszystkich pracowników.'}${src}</p>`;
+  }
   function salaryNoteHtml(c) {
-    if (!c.salary) return c.salaryNote ? `<p class="career-hero__note">${escapeHtml(c.salaryNote)}</p>` : '';
+    const market = salaryMarketHtml(c);
+    if (!c.salary) return (c.salaryNote ? `<p class="career-hero__note">${escapeHtml(c.salaryNote)}</p>` : '') + market;
     const s = c.salary;
     const src = isHttpUrl(s.sourceUrl) ? ` <a href="${escapeAttr(s.sourceUrl)}" target="_blank" rel="noopener" title="${escapeAttr(s.sourceName || '')}">Źródło: GUS</a>` : '';
-    const group = s.scope === 'grupa'
-      ? ` Liczba dotyczy całej grupy zawodów „${escapeHtml(s.group)}”, więc obejmuje też pokrewne zawody.`
-      : ` Dane GUS dla grupy zawodów „${escapeHtml(s.group)}”.`;
+    const group = s.caveat
+      ? ` ${escapeHtml(s.caveat)}`
+      : s.scope === 'grupa'
+        ? ` Liczba dotyczy całej grupy zawodów „${escapeHtml(s.group)}”, więc obejmuje też pokrewne zawody.`
+        : ` Dane GUS dla grupy zawodów „${escapeHtml(s.group)}”.`;
     // Gdy dolny przedział równa się medianie, większość pracowników dostaje tę samą kwotę (u nas to płaca minimalna z października 2024)
     const floor = s.min >= s.median;
     const spread = floor
       ? `Według GUS (październik 2024) co najmniej połowa pracowników zarabia ${fmtZl(s.median)} brutto, czyli tyle, ile wynosiła wtedy płaca minimalna. Tylko co dziesiąty dostaje więcej niż ${fmtZl(s.max)}.`
       : `Według GUS (październik 2024) połowa pracowników zarabia mniej niż ${fmtZl(s.median)}, a połowa więcej. Większość (80%) dostaje od ${fmtZl(s.min)} do ${fmtZl(s.max)}.`;
-    return `<p class="career-hero__note">${spread} To kwoty brutto, czyli przed odjęciem podatków i składek.${group} Dane dotyczą tylko etatów w firmach od 10 osób.${src}</p>`;
+    return `<p class="career-hero__note">${spread} To kwoty brutto, czyli przed odjęciem podatków i składek.${group} Dane dotyczą tylko etatów w firmach od 10 osób.${src}</p>${market}`;
   }
 
   function pluralZawod(n) {

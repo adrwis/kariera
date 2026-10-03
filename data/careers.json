@@ -2502,7 +2502,20 @@
       ],
       "keywords": "komputery programowanie liczby analizy finanse matematyka"
     },
-    "demandGroup": "Programiści"
+    "demandGroup": "Programiści",
+    "salaryMarket": {
+      "min": 12000,
+      "typical": 18500,
+      "max": 25000,
+      "roles": [
+        "Java Developer",
+        ".NET/ C# Developer",
+        "C/ C++ Developer"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl"
+    }
   },
   {
     "id": "lekarz",
@@ -4101,7 +4114,18 @@
       ],
       "keywords": "rysowanie projektowanie tworzenie sztuka budowanie praca rękami majsterkowanie liczby analizy finanse matematyka"
     },
-    "demandGroup": "Architekci i urbaniści"
+    "demandGroup": "Architekci i urbaniści",
+    "salaryMarket": {
+      "min": 7000,
+      "typical": 11000,
+      "max": 17000,
+      "roles": [
+        "Architekt"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl"
+    }
   },
   {
     "id": "nauczyciel",
@@ -6355,7 +6379,18 @@
       "keywords": "prawo zasady ludzie rozmowy pomaganie pisanie czytanie media"
     },
     "codeUnverified": true,
-    "demandGroup": "Prawnicy"
+    "demandGroup": "Prawnicy",
+    "salaryMarket": {
+      "min": 7500,
+      "typical": 14000,
+      "max": 43000,
+      "roles": [
+        "Prawnik Kancelarii"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl"
+    }
   },
   {
     "id": "analityk-danych",
@@ -10658,7 +10693,18 @@
       "keywords": "liczby analizy finanse matematyka biznes sprzedaż organizowanie prawo zasady"
     },
     "demandGroup": "Pracownicy ds. rachunkowości i księgowości",
-    "demandPomorskie": "deficytowy"
+    "demandPomorskie": "deficytowy",
+    "salaryMarket": {
+      "min": 6500,
+      "typical": 10000,
+      "max": 18000,
+      "roles": [
+        "Księgowy"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl"
+    }
   },
   {
     "id": "kucharz",
@@ -12025,7 +12071,19 @@
       "keywords": "komputery programowanie maszyny elektronika urządzenia technika"
     },
     "salaryNote": "GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot.",
-    "demandGroup": "Analitycy, testerzy i operatorzy systemów komputerowych"
+    "demandGroup": "Analitycy, testerzy i operatorzy systemów komputerowych",
+    "salaryMarket": {
+      "min": 9000,
+      "typical": 14500,
+      "max": 21000,
+      "roles": [
+        "Manual Tester",
+        "Automation Tester"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl"
+    }
   },
   {
     "id": "dentysta",
@@ -14646,7 +14704,18 @@
     },
     "salaryNote": "GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot.",
     "codeUnverified": true,
-    "demandGroup": "Graficy komputerowi"
+    "demandGroup": "Graficy komputerowi",
+    "salaryMarket": {
+      "min": 10000,
+      "typical": 13500,
+      "max": 16500,
+      "roles": [
+        "UX/ UI Designer"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl"
+    }
   },
   {
     "id": "elektryk",
@@ -18542,7 +18611,20 @@
       "keywords": "komputery programowanie bezpieczeństwo ratowanie mundur"
     },
     "salaryNote": "GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot.",
-    "demandGroup": "Specjaliści ds. baz danych i sieci komputerowych"
+    "demandGroup": "Specjaliści ds. baz danych i sieci komputerowych",
+    "salaryMarket": {
+      "min": 15000,
+      "typical": 22500,
+      "max": 34000,
+      "roles": [
+        "Infrastructure Security Specialist",
+        "Applications Security Specialist",
+        "Security Consultant"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl"
+    }
   },
   {
     "id": "data-scientist",
@@ -19531,7 +19613,19 @@
       "keywords": "liczby analizy finanse matematyka komputery programowanie nauka badania eksperymenty"
     },
     "salaryNote": "GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot.",
-    "demandGroup": "Specjaliści ds. badań społeczno-ekonomicznych i analizy danych"
+    "demandGroup": "Specjaliści ds. badań społeczno-ekonomicznych i analizy danych",
+    "salaryMarket": {
+      "min": 19000,
+      "typical": 23500,
+      "max": 27000,
+      "roles": [
+        "Data Scientist",
+        "Machine Learning Engineer"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl"
+    }
   },
   {
     "id": "devops-engineer",
@@ -20852,7 +20946,19 @@
     },
     "salaryNote": "GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot.",
     "codeUnverified": true,
-    "demandGroup": "Specjaliści ds. baz danych i sieci komputerowych"
+    "demandGroup": "Specjaliści ds. baz danych i sieci komputerowych",
+    "salaryMarket": {
+      "min": 18000,
+      "typical": 23500,
+      "max": 26000,
+      "roles": [
+        "DevOps Engineer",
+        "Cloud Engineer"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl"
+    }
   },
   {
     "id": "administrator-systemow",
@@ -22100,7 +22206,20 @@
       ],
       "keywords": "komputery programowanie maszyny elektronika urządzenia technika"
     },
-    "demandGroup": "Specjaliści ds. baz danych i sieci komputerowych"
+    "demandGroup": "Specjaliści ds. baz danych i sieci komputerowych",
+    "salaryMarket": {
+      "min": 14000,
+      "typical": 17000,
+      "max": 20000,
+      "roles": [
+        "Network Administrator",
+        "Unix/ Linux Admin (Redhat, AIX, Solaris)",
+        "Microsoft Windows Server Admin"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl"
+    }
   },
   {
     "id": "technik-informatyk",
@@ -24378,7 +24497,8 @@
       "sourceName": "GUS, Struktura wynagrodzeń według zawodów za październik 2024 r.",
       "sourceUrl": "https://stat.gov.pl/obszary-tematyczne/rynek-pracy/pracujacy-zatrudnieni-wynagrodzenia-koszty-pracy/struktura-wynagrodzen-wedlug-zawodow-za-pazdziernik-2024-r-,4,12.html",
       "scope": "grupa",
-      "group": "Specjaliści z dziedzin społecznych i religijnych"
+      "group": "Specjaliści z dziedzin społecznych i religijnych",
+      "caveat": "GUS zalicza ekonomistów do grupy, w której są też psycholodzy, socjologowie i pracownicy socjalni, więc ta kwota jest tylko orientacyjna."
     },
     "demand": "zrównoważony",
     "category": "biznes",
@@ -27213,7 +27333,20 @@
       "keywords": "ludzie rozmowy pomaganie biznes sprzedaż organizowanie"
     },
     "codeUnverified": true,
-    "demandGroup": "Specjaliści ds. zarządzania zasobami ludzkimi i rekrutacji"
+    "demandGroup": "Specjaliści ds. zarządzania zasobami ludzkimi i rekrutacji",
+    "salaryMarket": {
+      "min": 7500,
+      "typical": 10500,
+      "max": 14000,
+      "roles": [
+        "Specjalista ds. Zasobów Ludzkich",
+        "HR Generalist",
+        "Specjalista ds. Rekrutacji"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl"
+    }
   },
   {
     "id": "specjalista-marketingu",
@@ -28092,7 +28225,19 @@
       ],
       "keywords": "biznes sprzedaż organizowanie pisanie czytanie media rysowanie projektowanie tworzenie sztuka"
     },
-    "demandGroup": "Specjaliści ds. PR, reklamy, marketingu i sprzedaży"
+    "demandGroup": "Specjaliści ds. PR, reklamy, marketingu i sprzedaży",
+    "salaryMarket": {
+      "min": 9000,
+      "typical": 12000,
+      "max": 15000,
+      "roles": [
+        "Marketing Specialist",
+        "Digital Marketing Specialist"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl"
+    }
   },
   {
     "id": "specjalista-pr",
@@ -28973,7 +29118,8 @@
       "sourceName": "GUS, Struktura wynagrodzeń według zawodów za październik 2024 r.",
       "sourceUrl": "https://stat.gov.pl/obszary-tematyczne/rynek-pracy/pracujacy-zatrudnieni-wynagrodzenia-koszty-pracy/struktura-wynagrodzen-wedlug-zawodow-za-pazdziernik-2024-r-,4,12.html",
       "scope": "grupa",
-      "group": "Specjaliści do spraw finansowych"
+      "group": "Specjaliści do spraw finansowych",
+      "caveat": "GUS podaje płace wszystkich specjalistów od finansów, więc dla doradcy podatkowego ta kwota jest tylko orientacyjna."
     },
     "demand": "zrównoważony",
     "category": "biznes",
@@ -29900,7 +30046,18 @@
       ],
       "keywords": "prawo zasady liczby analizy finanse matematyka biznes sprzedaż organizowanie"
     },
-    "demandGroup": "Specjaliści ds. finansowych"
+    "demandGroup": "Specjaliści ds. finansowych",
+    "salaryMarket": {
+      "min": 10000,
+      "typical": 16000,
+      "max": 19000,
+      "roles": [
+        "Doradca Podatkowy"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl"
+    }
   },
   {
     "id": "biegly-rewident",
@@ -29924,7 +30081,8 @@
       "sourceName": "GUS, Struktura wynagrodzeń według zawodów za październik 2024 r.",
       "sourceUrl": "https://stat.gov.pl/obszary-tematyczne/rynek-pracy/pracujacy-zatrudnieni-wynagrodzenia-koszty-pracy/struktura-wynagrodzen-wedlug-zawodow-za-pazdziernik-2024-r-,4,12.html",
       "scope": "grupa",
-      "group": "Specjaliści do spraw finansowych"
+      "group": "Specjaliści do spraw finansowych",
+      "caveat": "GUS podaje płace wszystkich specjalistów od finansów, a biegli rewidenci w firmach audytorskich zwykle zarabiają wyraźnie więcej."
     },
     "demand": "zrównoważony",
     "category": "biznes",
@@ -46260,7 +46418,8 @@
       "sourceName": "GUS, Struktura wynagrodzeń według zawodów za październik 2024 r.",
       "sourceUrl": "https://stat.gov.pl/obszary-tematyczne/rynek-pracy/pracujacy-zatrudnieni-wynagrodzenia-koszty-pracy/struktura-wynagrodzen-wedlug-zawodow-za-pazdziernik-2024-r-,4,12.html",
       "scope": "grupa",
-      "group": "Inżynierowie (z wyłączeniem elektrotechnologii)"
+      "group": "Inżynierowie (z wyłączeniem elektrotechnologii)",
+      "caveat": "GUS podaje płace wszystkich inżynierów razem z kierownikami i doświadczonymi specjalistami, więc inżynier na początku kariery może zarabiać mniej."
     },
     "demand": "zrównoważony",
     "category": "inzynieria",
@@ -47019,7 +47178,18 @@
       "keywords": "budowanie praca rękami majsterkowanie maszyny elektronika urządzenia technika liczby analizy finanse matematyka"
     },
     "codeUnverified": true,
-    "demandGroup": "Inżynierowie budownictwa"
+    "demandGroup": "Inżynierowie budownictwa",
+    "salaryMarket": {
+      "min": 6000,
+      "typical": 10250,
+      "max": 20000,
+      "roles": [
+        "Inżynier Budowy"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl"
+    }
   },
   {
     "id": "inzynier-mechanik",

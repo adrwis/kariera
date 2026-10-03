@@ -23,3 +23,5 @@ Instrukcje dla agentów zbierających dane: `INSTRUKCJA-*.md`, `baza/INSTRUKCJA-
 Po kroku 6 jednorazowo: `apply-decyzje-2026-10-01.js` (decyzje Ady: przywrócone wartości odstające, TPWiG na AGH).
 
 Po audycie 2026-10-03 jednorazowo: `apply-poprawki-audyt-2026-10-03.js` (martwe linki osób, klasy 1C1 w CX LO, literówka w Poznaniu).
+
+Płace i fakty (2026-10-03): `apply-place-gus.js` (GUS), potem `apply-hays-2026-10-03.js` (rynek ofert Hays jako osobne pole `salaryMarket` i ostrzeżenia), `apply-barometr-2026-10-03.js` (zapotrzebowanie), `apply-kzis-2026-10-03.js` (kody), `apply-osoby-weryfikacja-2026-10-03.js` i `apply-poprawki-osoby*.js` (osoby), `apply-szkolenia-fakty-2026-10-03.js` (szkolenia), `apply-styl-2026-10-03.js` na końcu. Raporty płac w `zrodla/` (Hays, Sedlak, Antal) i wnioski w `wyniki/raporty-plac-wnioski.md`.
