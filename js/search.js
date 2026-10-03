@@ -101,7 +101,17 @@ const CareerSearch = (() => {
     const byInterest = interestMatches(query);
     if (fuseMain) {
       const seen = new Set(byInterest.map(c => c.id));
-      const text = fuseMain.search(query, { limit })
+      // Rozmyte dopasowanie ma szeroką tolerancję, więc zostawiamy dobre trafienia albo takie, w których
+      // słowo z zapytania (z odciętą końcówką fleksyjną) zaczyna słowo w nazwie, aliasie, opisie lub słowach quizu
+      const qWords = query.toLowerCase().split(/\s+/).filter(w => w.length >= 4);
+      const stems = qWords.map(w => w.slice(0, Math.max(5, w.length - 2)));
+      const strong = c => {
+        const hay = [c.name, ...(c.aliases || []), c.shortDescription, ...((c.quiz && c.quiz.keywords) || [])].join(' ').toLowerCase();
+        return stems.some(st => new RegExp('(^|[^a-ząćęłńóśźż])' + st.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).test(hay));
+      };
+      const text = fuseMain.search(query, { limit: limit * 2 })
+        .filter(r => r.score <= 0.2 || strong(r.item))
+        .slice(0, limit)
         .map(r => ({ ...r.item, _score: r.score }))
         .filter(c => !seen.has(c.id));
       // Przy zapytaniu o zainteresowanie dopasowania tekstowe dokładamy tylko te bardzo dobre
@@ -116,8 +126,11 @@ const CareerSearch = (() => {
     // Search KZiS index (exclude those already in rich results)
     if (fuseKzis) {
       const richIds = new Set(results.rich.map(r => r.code));
-      results.simple = fuseKzis.search(query, { limit: limit * 2 })
+      const qStems = query.toLowerCase().split(/\s+/).filter(w => w.length >= 4).map(w => w.slice(0, Math.max(5, w.length - 2)));
+      const nameHit = n => qStems.some(st => (' ' + n.toLowerCase()).includes(' ' + st));
+      results.simple = fuseKzis.search(query, { limit: limit * 4 })
         .filter(r => !richIds.has(r.item.code))
+        .filter(r => r.score <= 0.1 || nameHit(r.item.name))
         .slice(0, limit)
         .map(r => ({ ...r.item, _score: r.score }));
     }

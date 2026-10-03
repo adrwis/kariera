@@ -371,12 +371,46 @@ const Szkoly = (function () {
       .map(o => o.x);
   }
 
+  // Nazwy z naborów mają postać „1A1 [O] hist-ang-pol (ang-niem*,wlo)”: symbol, typ oddziału w nawiasie
+  // kwadratowym, skróty rozszerzeń i języki w okrągłym. Dla uczniów składamy z tego czytelną nazwę.
+  const TAG_LABELS = { D: 'dwujęzyczna', I: 'integracyjna', S: 'sportowa', PW: 'przygotowanie wojskowe' };
+  const ABBR = new Set(['mat', 'pol', 'ang', 'niem', 'fr', 'fra', 'hisz', 'hiszp', 'ros', 'wlo', 'bio', 'biol', 'chem', 'fiz', 'inf', 'geo', 'geogr', 'hist', 'his', 'wos', 'hsz', 'fil', 'lac']);
+  const isCodeList = t => t.split(/[-, ]+/).filter(Boolean).every(x => ABBR.has(x));
+  function parseClassName(p) {
+    const m = (p.name || '').trim().match(/^(.*?)\s*-?\s*\[([A-Za-z]+)\](?=\s|:|$)\s*:?\s*(.*)$/);
+    if (!m) return null;
+    let rest = m[3].replace(/\s*\(.*$/, '').trim();
+    const tag = TAG_LABELS[m[2].toUpperCase()];
+    let hasCodes = false;
+    const tail = rest.match(/^(.*?)\s+([a-ząćęłńóśźż]{2,8}(?:-[a-ząćęłńóśźż]{2,8})+)$/);
+    if (tail && isCodeList(tail[2])) { rest = tail[1].trim(); hasCodes = true; }
+    else if (rest && isCodeList(rest)) { rest = ''; hasCodes = true; }
+    if (tag && rest.toLowerCase().startsWith(tag.slice(0, 5))) rest = '';
+    return { sym: m[1].replace(/_/g, ' ').trim() + (tag ? ` (${tag})` : ''), rest, hasCodes: hasCodes || !rest };
+  }
+  const shortSubject = c => subjectName(c).replace(/^język /, '');
+  const noBrackets = n => (n || '').replace(/\[[A-Za-z]+\]/g, '');
+
   // Krótka etykieta klasy na liście: nazwa, a przy nazwach z samym symbolem także rozszerzenia
   function profileLabel(p) {
     const ext = (p.extended || []).map(subjectName);
-    const lower = (p.name || '').toLowerCase();
-    if (ext.length && (p.nameSource || !ext.some(e => lower.includes(e.split(' ').pop().slice(0, 4))))) return `${p.name}: ${ext.join(', ')}`;
-    return p.name;
+    const parsed = parseClassName(p);
+    if (parsed) {
+      const head = parsed.rest ? `${parsed.sym} ${parsed.rest}` : parsed.sym;
+      const subj = parsed.hasCodes ? (p.extended || []).map(shortSubject).join(', ') : '';
+      return subj ? `${head}: ${subj}` : head;
+    }
+    const name = noBrackets(p.name);
+    const lower = name.toLowerCase();
+    if (ext.length && (p.nameSource || !ext.some(e => lower.includes(e.split(' ').pop().slice(0, 4))))) return `${name}: ${ext.join(', ')}`;
+    return name;
+  }
+
+  // Nagłówek klasy na profilu szkoły: rozszerzenia są niżej w tabeli, więc tu tylko symbol, typ i opis
+  function profileTitle(p) {
+    const parsed = parseClassName(p);
+    if (!parsed) return noBrackets(p.name);
+    return parsed.rest ? `${parsed.sym} ${parsed.rest}` : parsed.sym;
   }
 
   function maturaBadge(m) {
@@ -595,7 +629,7 @@ const Szkoly = (function () {
     ].join('');
     return `
       <li class="szkola__profile">
-        <h3 class="szkola__profile-name">${esc(p.name)}</h3>
+        <h3 class="szkola__profile-name">${esc(profileTitle(p))}</h3>
         <dl class="szkola__dl">${rows}</dl>
         ${thresholdHtml(p)}
         <div class="szkola__profile-src">${sourceLink(p.sourceUrl, 'źródło oferty')}</div>
@@ -927,11 +961,15 @@ const Szkoly = (function () {
   // Wzór: rozporządzenie Ministra Edukacji z 3 kwietnia 2025 r., Dz.U. 2025 poz. 464, § 3 do § 7.
   // Pierwszeństwo laureatów i finalistów: art. 132 ustawy Prawo oświatowe.
   const LAW_URL = 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20250000464';
-  const GRADES = [['', 'wybierz'], ['6', 'celujący, 18'], ['5', 'bardzo dobry, 17'], ['4', 'dobry, 14'], ['3', 'dostateczny, 8'], ['2', 'dopuszczający, 2']];
+  const GRADES = [['', 'wybierz'], ['6', '6, celujący (18 pkt)'], ['5', '5, bardzo dobry (17 pkt)'], ['4', '4, dobry (14 pkt)'], ['3', '3, dostateczny (8 pkt)'], ['2', '2, dopuszczający (2 pkt)']];
   const GRADE_POINTS = { 6: 18, 5: 17, 4: 14, 3: 8, 2: 2 };
   // Oceny, o które pytamy; drugi język obcy obejmuje niemiecki, francuski, hiszpański, rosyjski, włoski
   const CALC_SUBJECTS = [['pol', 'Język polski'], ['mat', 'Matematyka'], ['ang', 'Język angielski'], ['obcy2', 'Drugi język obcy'],
-    ['bio', 'Biologia'], ['chem', 'Chemia'], ['fiz', 'Fizyka'], ['geo', 'Geografia'], ['hist', 'Historia'], ['inf', 'Informatyka'], ['wos', 'WOS']];
+    ['bio', 'Biologia'], ['chem', 'Chemia'], ['fiz', 'Fizyka'], ['geo', 'Geografia'], ['hist', 'Historia'], ['inf', 'Informatyka'], ['wos', 'WOS'],
+    ['tech', 'Technika'], ['plast', 'Plastyka'], ['wf', 'Wychowanie fizyczne']];
+  // Pola, które nie wchodzą do ostrożnego liczenia z dwóch najniższych ocen (liczą je tylko klasy, które ich wprost wymagają)
+  const RARE_SUBJECTS = ['tech', 'plast', 'wf'];
+  const SUBJECT_ALIASES = { technika: 'tech', plastyka: 'plast', 'wychowanie fizyczne': 'wf' };
   const SECOND_LANG = ['niem', 'fr', 'hisz', 'ros', 'wlo'];
   const MARGIN = 5;
   const CLOSE_MISS = 15;
@@ -942,19 +980,39 @@ const Szkoly = (function () {
     return n;
   }
 
-  // Punkty za jeden wpis ze scoredSubjects; null = nie da się ustalić (brak oceny albo nieznany przedmiot)
+  // Punkty za jeden wpis ze scoredSubjects; null = nie da się ustalić (brak oceny albo nieznany przedmiot).
+  // Wpisy bywają złożone: „bio / chem (najwyższa ocena)”, „ang lub hisz (wyższa ocena)”, „ang (gdy brak, najwyższa ocena z języka obcego)”.
+  function cleanItem(item) { return String(item).toLowerCase().replace(/\s*\([^)]*\)/g, '').trim(); }
   function gradeFor(item, g) {
-    const raw = String(item).toLowerCase();
-    if (raw.includes('/')) {
-      const vals = raw.split('/').map(x => gradeFor(x.trim(), g));
+    const full = String(item).toLowerCase();
+    const parts = cleanItem(item).split(/\s*(?:\/|\blub\b)\s*/).filter(Boolean);
+    if (parts.length > 1) {
+      const vals = parts.map(x => gradeFor(x, g));
       return vals.some(v => v === null) ? null : Math.max(...vals);
     }
-    if (/obcy|język obcy/.test(raw)) {
+    const raw = parts[0] || '';
+    const foreign = () => {
       const vals = [g.ang, g.obcy2].filter(v => v != null);
       return vals.length ? Math.max(...vals) : null;
-    }
-    const code = SECOND_LANG.includes(raw) ? 'obcy2' : raw;
-    return g[code] != null ? g[code] : null;
+    };
+    if (/drugi/.test(raw)) return g.obcy2 != null ? g.obcy2 : null;
+    if (/obcy/.test(raw)) return foreign();
+    const code = SECOND_LANG.includes(raw) ? 'obcy2' : (SUBJECT_ALIASES[raw] || raw);
+    if (g[code] != null) return g[code];
+    return /gdy brak/.test(full) ? foreign() : null;
+  }
+
+  // Czytelna nazwa przedmiotu z wpisu scoredSubjects, do komunikatu o brakujących ocenach
+  function itemLabel(item) {
+    const parts = cleanItem(item).split(/\s*(?:\/|\blub\b)\s*/).filter(Boolean).map(x => {
+      if (/drugi/.test(x)) return 'drugi język obcy';
+      if (/obcy/.test(x)) return 'język obcy';
+      if (SECOND_LANG.includes(x)) return 'drugi język obcy';
+      const code = SUBJECT_ALIASES[x] || x;
+      const known = CALC_SUBJECTS.find(([c]) => c === code);
+      return known ? known[1].toLowerCase() : x;
+    });
+    return [...new Set(parts)].join(' lub ');
   }
 
   // Punkty z ocen dla klasy: według jej przedmiotów punktowanych albo ostrożnie, gdy ich nie znamy
@@ -966,7 +1024,7 @@ const Szkoly = (function () {
       return { points: null, mode: 'missing', missing: scored.filter((x, i) => vals[i] === null) };
     }
     if (g.pol == null || g.mat == null) return { points: null, mode: 'missing', missing: ['pol', 'mat'].filter(k => g[k] == null) };
-    const others = Object.entries(g).filter(([k, v]) => k !== 'pol' && k !== 'mat' && v != null).map(([, v]) => v).sort((x, y) => x - y);
+    const others = Object.entries(g).filter(([k, v]) => k !== 'pol' && k !== 'mat' && !RARE_SUBJECTS.includes(k) && v != null).map(([, v]) => v).sort((x, y) => x - y);
     if (others.length < 2) return { points: null, mode: 'missing', missing: ['dwa inne przedmioty'] };
     return { points: g.pol + g.mat + others[0] + others[1], mode: 'cautious' };
   }
@@ -1054,10 +1112,7 @@ const Szkoly = (function () {
         <ul class="szkoly__mini kalk__list">${list.slice(0, limit).map(r => item(r, extraNote)).join('')}</ul>
         ${list.length > limit ? `<p class="career-column__text szkola__muted">Pokazuję ${limit} z ${list.length}. Zawęź listę rodzajem szkoły, rozszerzeniami albo dzielnicą.</p>` : ''}
       </section>` : '';
-    const missingNames = Object.entries(missingCount).sort((a, b) => b[1] - a[1]).map(([k]) => {
-      const known = CALC_SUBJECTS.find(([c]) => c === k) || (SECOND_LANG.includes(k) ? ['obcy2', 'drugi język obcy'] : null);
-      return known ? known[1].toLowerCase() : k;
-    });
+    const missingNames = Object.entries(missingCount).sort((a, b) => b[1] - a[1]).map(([k]) => itemLabel(k));
     const summary = rows.length
       ? `Twój wynik: ${totals.length && Math.min(...totals) !== Math.max(...totals) ? `od ${fmtNum(Math.min(...totals))} do ${fmtNum(Math.max(...totals))} pkt, zależnie od przedmiotów punktowanych w klasie` : `${fmtNum(totals[0])} pkt`}. Porównano ${rows.length} ${plural(rows.length, 'klasę', 'klasy', 'klas')} ${esc(d.city.loc)}: powyżej progu ${safe.length}, blisko progu ${edge.length}.`
       : !inCity
@@ -1113,7 +1168,7 @@ const Szkoly = (function () {
           <fieldset class="szkoly__fieldset">
             <legend class="szkoly__legend">Oceny na świadectwie</legend>
             <div class="kalk__grades">${CALC_SUBJECTS.map(([k, l]) => gradeSelect(k, l)).join('')}</div>
-            <p class="career-column__text szkola__muted">Każda klasa punktuje polski, matematykę i dwa inne przedmioty. Wpisz oceny ze wszystkich, a kalkulator weźmie te, które liczy dana klasa.</p>
+            <p class="career-column__text szkola__muted">Każda klasa punktuje polski, matematykę i dwa inne przedmioty. Wpisz oceny ze wszystkich, a kalkulator weźmie te, które liczy dana klasa. Technikę, plastykę i WF możesz zostawić puste, jeśli nie masz ich na świadectwie: pominie tylko klasy, które je punktują.</p>
           </fieldset>
           <fieldset class="szkoly__fieldset">
             <legend class="szkoly__legend">Dodatkowe punkty</legend>
