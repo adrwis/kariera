@@ -1322,7 +1322,9 @@ const Szkoly = (function () {
 
   const cityUniversities = slug => (CITIES[slug] || CITIES[DEFAULT_CITY]).uni;
 
-  return { init, load, renderList, renderDetail, renderCalculator, careerSectionHtml, cityUniversities, setBackContext, currentCity, resetPending, CAREER_PROFESSIONS };
+  // Czyste funkcje wystawione tylko do testów jednostkowych (scripts/test-unit.js)
+  const _test = { gradeFor, gradePointsFor, itemLabel, parseClassName, profileLabel, profileTitle, isUnfilled };
+  return { _test, init, load, renderList, renderDetail, renderCalculator, careerSectionHtml, cityUniversities, setBackContext, currentCity, resetPending, CAREER_PROFESSIONS };
 })();
 
 window.Szkoly = Szkoly;

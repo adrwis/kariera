@@ -14,9 +14,27 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # Pliki .min i statyczne strony budujemy w CI, żeby nie dało się wdrożyć nieświeżych kopii
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm test
+      # Publikujemy tylko to, czego potrzebuje strona (bez dev_docs, archiwum, scripts, danych źródłowych zawodów)
+      - name: Złóż katalog strony
+        run: |
+          mkdir _site
+          cp index.html 404.html sw.js manifest.json robots.txt sitemap.xml favicon.svg _site/
+          cp -r css js icons quiz kalkulator szkoly zawod _site/
+          mkdir -p _site/data
+          cp -r data/szkoly _site/data/
+          cp data/careers.min.json data/kzis-index.json _site/data/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
       - id: deployment
         uses: actions/deploy-pages@v4
