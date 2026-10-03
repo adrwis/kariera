@@ -11896,18 +11896,6 @@
         "description": "Współtwórca testowania eksploracyjnego",
         "bio": "Amerykański informatyk i prawnik (ur. 1948). Współautor klasycznej książki „Testing Computer Software\", twórca koncepcji testowania eksploracyjnego obok Jamesa Bacha. Profesor Florida Institute of Technology, specjalizujący się w jakości oprogramowania i prawie technologicznym.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Cem_Kaner"
-      },
-      {
-        "name": "Lisa Crispin",
-        "description": "Autorka „Agile Testing\", pionierka testowania zwinnego",
-        "bio": "Amerykańska specjalistka testowania oprogramowania. Współautorka bestsellerów „Agile Testing\" i „More Agile Testing\", które zdefiniowały rolę testera w metodykach zwinnych. Propagatorka współpracy testerów z programistami i automatyzacji testów w cyklu wytwarzania oprogramowania.",
-        "sourceUrl": "https://en.wikipedia.org/wiki/Lisa_Crispin"
-      },
-      {
-        "name": "Michael Bolton",
-        "description": "Ekspert testowania kontekstowego",
-        "bio": "Kanadyjski konsultant i szkoleniowiec w dziedzinie testowania oprogramowania. Współtwórca Rapid Software Testing razem z Jamesem Bachem. Znany z rozróżnienia między „checking\" a „testing\", automatyczne weryfikacje vs eksploracyjne badanie oprogramowania. Ceniony mówca na konferencjach IT.",
-        "sourceUrl": "https://en.wikipedia.org/wiki/Michael_Bolton_(software_testing)"
       }
     ],
     "relatedCareers": [
@@ -15448,10 +15436,10 @@
     },
     "famousPeople": [
       {
-        "name": "Florian Dąbrowski",
+        "name": "Święty Florian",
         "description": "Patron polskich strażaków",
         "bio": "Postać historyczna i patron strażaków w tradycji polskiej. Święty Florian (III/IV w.) jest patronem strażaków, hutników i kominiarzy. W Polsce Dzień Strażaka obchodzony 4 maja nawiązuje do jego wspomnienia. Jego wizerunek zdobi remizy strażackie w całym kraju.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Florian_(święty)"
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Florian_(męczennik)"
       },
       {
         "name": "Bolesław Chomicz",
@@ -17797,12 +17785,6 @@
         "description": "Odkrywca bakterii brucelozy",
         "bio": "Duński weterynarz i mikrobiolog (1848-1932). Odkrył bakterię Brucella abortus, wywołującą chorobę Banga (brucelozę) u bydła. Opracował program eradykacji gruźlicy bydlęcej, który uratował duńskie rolnictwo. Jego metody zwalczania chorób zwierząt przyjęto na całym świecie.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Bernhard_Bang"
-      },
-      {
-        "name": "Jan Gruby",
-        "description": "Polski lekarz, pionier mikologii medycznej",
-        "bio": "Polsko-francuski lekarz i weterynarz (1810-1898). Pionier mikologii medycznej, pierwszy zidentyfikował grzyby jako przyczynę chorób skóry u ludzi i zwierząt. Pracował w Paryżu, gdzie zyskał sławę dzięki odkryciu grzybiczych chorób zakaźnych. Leczył m.in. Fryderyka Chopina.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Jan_Gruby"
       }
     ],
     "relatedCareers": [
@@ -19398,7 +19380,7 @@
         "name": "Andrew Ng",
         "description": "Współtwórca Coursera, pionier deep learning",
         "bio": "Chińsko-amerykański informatyk (ur. 1976). Współtwórca Coursera i Google Brain, były szef AI w Baidu. Profesor Stanford University, jeden z najważniejszych naukowców w dziedzinie deep learning i AI. Jego kursy online ukończyły miliony osób na całym świecie, demokratyzując dostęp do wiedzy o sztucznej inteligencji.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Andrew_Ng"
+        "sourceUrl": "https://en.wikipedia.org/wiki/Andrew_Ng"
       },
       {
         "name": "Przemysław Biecek",
@@ -35976,12 +35958,6 @@
         "description": "Ikona amerykańskiego prawa, sędzia Sądu Najwyższego",
         "bio": "Amerykański prawnik (1841-1935). Sędzia Sądu Najwyższego USA przez 30 lat, znany z przełomowych zdań odrębnych (dissenty), które kształtowały prawo. Autor „The Common Law\", wprowadził pragmatyzm do myśli prawniczej. Weteran wojny secesyjnej, ikona amerykańskiej kultury prawnej.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Oliver_Wendell_Holmes_Jr."
-      },
-      {
-        "name": "Stanisław Dąbrowski",
-        "description": "Pierwszy Prezes Sądu Najwyższego po transformacji",
-        "bio": "Polski prawnik (1947-2014). Pierwszy Prezes Sądu Najwyższego RP w latach 2010 do 2014, sędzia o ogromnym autorytecie. Bronił niezawisłości sądownictwa, inicjator reform informatyzacji sądów. Profesor prawa cywilnego, specjalista prawa bankowego i ubezpieczeniowego.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Stanisław_Dąbrowski_(prawnik)"
       }
     ],
     "relatedCareers": [
@@ -38502,22 +38478,10 @@
     },
     "famousPeople": [
       {
-        "name": "Rafał Fronczek",
-        "description": "Były prezes Krajowej Rady Komorniczej",
-        "bio": "Polski prawnik i komornik sądowy. Prezes Krajowej Rady Komorniczej w latach 2006 do 2018, najdłużej urzędujący prezes w historii samorządu. Współtworzył reformy prawa egzekucyjnego i Kodeks Etyki Zawodowej Komorników. Działał na rzecz profesjonalizacji i poprawy wizerunku zawodu komornika w Polsce.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Rafał_Fronczek"
-      },
-      {
         "name": "Jacek Gołaczyński",
         "description": "Twórca elektronicznego postępowania komorniczego",
         "bio": "Polski profesor prawa cywilnego na Uniwersytecie Wrocławskim. Stworzył podwaliny elektronicznego postępowania egzekucyjnego i informatyzacji kancelarii komorniczych w Polsce. Autor licznych publikacji z zakresu postępowania egzekucyjnego i prawa nowych technologii.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Komornik_sądowy"
-      },
-      {
-        "name": "Stanisław Chmielewski",
-        "description": "Reformator polskiego prawa egzekucyjnego",
-        "bio": "Polski prawnik i samorządowiec komorniczy. Wieloletni prezes Krajowej Rady Komorniczej, działał na rzecz profesjonalizacji zawodu komornika i poprawy wizerunku samorządu komorniczego. Współtworzył reformy prawa egzekucyjnego dostosowujące polskie przepisy do standardów unijnych.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Krajowa_Rada_Komornicza"
       },
       {
         "name": "Matthew Hopkins",
@@ -39785,12 +39749,6 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Allan_Pinkerton"
       },
       {
-        "name": "Clive Fairweather",
-        "description": "Brytyjski ekspert bezpieczeństwa i ochrony VIP",
-        "bio": "Brytyjski oficer SAS i ekspert bezpieczeństwa (1944-2012). Po karierze wojskowej w Special Air Service stał się jednym z czołowych specjalistów ochrony osobistej VIP w Wielkiej Brytanii. Współtworzył nowoczesne standardy ochrony osób i obiektów w sektorze prywatnym.",
-        "sourceUrl": "https://en.wikipedia.org/wiki/Clive_Fairweather"
-      },
-      {
         "name": "Barry Lam",
         "description": "Pionier technologii w branży ochrony",
         "bio": "Założyciel i prezes Quanta Computer (ur. 1949). Choć znany głównie z branży IT, jego firma jest jednym z głównych producentów systemów monitoringu i technologii bezpieczeństwa. Zrewolucjonizował branżę ochrony, wprowadzając zaawansowane systemy kamer i czujników na rynek globalny.",
@@ -40354,12 +40312,6 @@
         "description": "Były dyrektor Frontexu",
         "bio": "Francuski urzędnik (ur. 1968). Dyrektor wykonawczy Europejskiej Agencji Straży Granicznej i Przybrzeżnej (Frontex) w latach 2015 do 2022. Kierował rozbudową agencji i wdrażaniem wspólnych operacji ochrony granic zewnętrznych Unii Europejskiej na bezprecedensową skalę.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Fabrice_Leggeri"
-      },
-      {
-        "name": "Dominik Tracz",
-        "description": "Komendant Główny SG w okresie kryzysu migracyjnego",
-        "bio": "Polski generał Straży Granicznej. Komendant Główny Straży Granicznej od 2022 roku, kierował operacjami ochrony granicy polsko-białoruskiej podczas kryzysu migracyjnego. Pod jego dowództwem Straż Graniczna znacząco rozbudowała infrastrukturę i zdolności operacyjne na wschodniej granicy UE.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Komendant_Główny_Straży_Granicznej"
       }
     ],
     "relatedCareers": [
@@ -44317,22 +44269,10 @@
         "sourceUrl": "https://pl.wikipedia.org/wiki/Vidal_Sassoon"
       },
       {
-        "name": "Tomasz Schmitt",
-        "description": "Polski mistrz fryzjerstwa, wielokrotny mistrz Polski",
-        "bio": "Polski fryzjer i stylista. Wielokrotny Mistrz Polski we fryzjerstwie, reprezentant kraju na międzynarodowych konkursach fryzjerskich. Właściciel renomowanego salonu w Warszawie, szkoleniowiec i juror konkursów fryzjerskich. Popularyzator nowoczesnych technik koloryzacji i strzyżenia w Polsce.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Fryzjerstwo"
-      },
-      {
         "name": "Marcel Grateau",
         "description": "Wynalazca ondulacji, fali marcelek",
         "bio": "Francuski fryzjer (1852-1936). Wynalazca ondulacji marcelek, techniki kręcenia włosów gorącymi szczypcami, która zrewolucjonizowała fryzjerstwo w XIX wieku. Jego salon w Paryżu był odwiedzany przez arystokratki z całej Europy. Uważany za ojca nowoczesnego stylingu.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Marcel_Grateau"
-      },
-      {
-        "name": "Oribe Canales",
-        "description": "Legendarny stylista gwiazd Hollywood",
-        "bio": "Kubańsko-amerykański fryzjer (1956-2018). Jeden z najsłynniejszych stylistów włosów na świecie, współpracował z Jennifer Lopez, Naomi Campbell i wieloma supermodelkami. Założyciel luksusowej marki kosmetyków Oribe. Zdefiniował styl fryzjerski lat 80. i 90. w amerykańskiej modzie.",
-        "sourceUrl": "https://en.wikipedia.org/wiki/Oribe_Canales"
       }
     ],
     "relatedCareers": [
@@ -44914,12 +44854,6 @@
         "description": "Pionierka kompleksowej pielęgnacji skóry",
         "bio": "Kanadyjsko-amerykańska przedsiębiorczyni (1878-1966). Założycielka marki Elizabeth Arden, stworzyła koncepcję kompleksowej pielęgnacji skóry i salonu kosmetycznego jako miejsca luksusowego relaksu. Jej Red Door Salon na Piątej Alei stał się ikoną nowojorskiego luksusu i nowoczesnej kosmetologii.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Elizabeth_Arden"
-      },
-      {
-        "name": "Joanna Czech",
-        "description": "Polska kosmetyczka gwiazd Hollywood",
-        "bio": "Polsko-amerykańska kosmetyczka i estetyk (ur. w Polsce). Jedna z najbardziej znanych kosmetyczek na świecie, pracuje z gwiazdami Hollywood, Kim Kardashian, Jennifer Aniston i wieloma innymi. Jej salon w Dallas i Nowym Jorku wyznacza trendy w profesjonalnej pielęgnacji skóry.",
-        "sourceUrl": "https://en.wikipedia.org/wiki/Joanna_Czech"
       }
     ],
     "relatedCareers": [
@@ -50973,7 +50907,7 @@
         "name": "Gerardus Mercator",
         "description": "Twórca odwzorowania Mercatora, ikona kartografii",
         "bio": "Flamandzki kartograf i geograf (1512-1594). Twórca odwzorowania walcowego równokątnego (projekcja Mercatora), które zrewolucjonizowało nawigację morską i jest używane do dziś w mapach internetowych. Uznawany za jedną z najważniejszych postaci kartografii, ukuł termin „atlas\" na zbiór map.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Gerardus_Mercator"
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Gerard_Merkator"
       },
       {
         "name": "Abraham Ortelius",
@@ -53014,7 +52948,7 @@
         "name": "Szymon Syreniusz",
         "description": "Autor pierwszego polskiego atlasu roślin",
         "bio": "Polski botanik i lekarz (ok. 1540 do 1611). Autor „Zielnika\", pierwszego polskiego atlasu roślin, zawierającego opisy 765 gatunków. Profesor Akademii Krakowskiej, zbierał rośliny w całej Polsce. Jego dzieło przez 200 lat było jedynym polskim podręcznikiem botaniki i ogrodnictwa.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Szymon_Syreniusz"
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Szymon_Syreński_(Syreniusz)"
       },
       {
         "name": "Vita Sackville-West",

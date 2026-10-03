@@ -57,6 +57,16 @@
     }
   }
   </script>
+  <!-- Motyw ustawiany od razu, żeby nie było błysku jasnego tła przy ciemnym motywie -->
+  <script>
+    (function() {
+      try {
+        var t = localStorage.getItem('kr-theme');
+        if (t !== 'dark' && t !== 'light') t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : null;
+        if (t) document.documentElement.setAttribute('data-theme', t);
+      } catch (e) { /* bez zapisanego motywu */ }
+    })();
+  </script>
   <!-- SPA redirect: restore path from 404.html -->
   <script>
     (function() {
@@ -293,7 +303,7 @@
             <button type="button" class="results__sort-btn" data-sort="salary" aria-pressed="false">Zarobki ↓</button>
           </div>
         </div>
-        <div class="results__list" id="resultsList" role="list"></div>
+        <div class="results__list" id="resultsList" ></div>
         <div class="results__empty" id="resultsEmpty" hidden>
           <svg class="results__empty-icon" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <circle cx="11" cy="11" r="8"/>
@@ -348,7 +358,7 @@
   </footer>
 
   <!-- Fuse.js CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
+  <script src="js/vendor/fuse.min.js" defer></script>
   <script src="js/animations.min.js" defer></script>
   <script src="js/search.min.js" defer></script>
   <script src="js/szkoly.min.js" defer></script>

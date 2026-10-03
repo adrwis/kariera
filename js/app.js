@@ -952,6 +952,7 @@
           ${salaryText ? `<span class="result-card__badge result-card__badge--salary">${salaryText}</span>` : ''}
           ${c.demand ? `<span class="result-card__badge ${demandClass}"${demandTitle}>${escapeHtml(DEMAND_SHORT[c.demand] || c.demand)}</span>` : ''}
         </div>
+        ${salaryText ? '<p class="career-hero__note">Widełki są orientacyjne: zależą od regionu, stażu i pracodawcy, a źródła płac nie mają podanej daty.</p>' : ''}
         ${c.fullDescription ? `<p class="career-hero__desc">${escapeHtml(c.fullDescription)}</p>` : (c.shortDescription ? `<p class="career-hero__desc">${escapeHtml(c.shortDescription)}</p>` : '')}
       </div>
 
