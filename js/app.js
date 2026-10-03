@@ -1287,8 +1287,10 @@
   }
 
   // --- Photo lightbox ---
+  let lightboxOpener = null;
   function openPhotoLightbox(url, altText) {
     closePhotoLightbox();
+    lightboxOpener = document.activeElement;
     const lb = document.createElement('div');
     lb.className = 'photo-lightbox';
     lb.id = 'photoLightbox';
@@ -1305,12 +1307,18 @@
     });
     lb.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') { e.stopPropagation(); closePhotoLightbox(); }
+      // Pułapka fokusu: w powiększeniu jest tylko przycisk zamknięcia
+      if (e.key === 'Tab') { e.preventDefault(); closeBtn.focus(); }
     });
   }
 
   function closePhotoLightbox() {
     const lb = document.getElementById('photoLightbox');
-    if (lb) lb.remove();
+    if (!lb) return;
+    lb.remove();
+    // Fokus wraca na element, który otworzył powiększenie (zwykle awatar w oknie osoby), żeby Escape zamykał dalej okno
+    if (lightboxOpener && lightboxOpener.isConnected) lightboxOpener.focus();
+    lightboxOpener = null;
   }
 
   // Delegate click on famous cards
