@@ -1162,14 +1162,14 @@
                   "points": 900,
                   "scaleMax": 1000,
                   "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
-                  "round": "Cykl 1 (kwalifikacja 16.07.2024)"
+                  "round": "Cykl 1 (kwalifikacja 16.07.2024); strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2025,
                   "points": 884,
                   "scaleMax": 1000,
                   "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
-                  "round": "Cykl 1 (kwalifikacja 15.07.2025)"
+                  "round": "Cykl 1 (kwalifikacja 15.07.2025); strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2026,
@@ -18177,14 +18177,14 @@
                   "points": 950,
                   "scaleMax": 1000,
                   "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
-                  "round": "Cykl 1 (kwalifikacja 16.07.2024)"
+                  "round": "Cykl 1 (kwalifikacja 16.07.2024); strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2025,
                   "points": 978,
                   "scaleMax": 1000,
                   "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
-                  "round": "Cykl 1 (kwalifikacja 15.07.2025)"
+                  "round": "Cykl 1 (kwalifikacja 15.07.2025); strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2026,
@@ -18816,14 +18816,14 @@
                   "points": 900,
                   "scaleMax": 1000,
                   "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
-                  "round": "Cykl 1 (kwalifikacja 16.07.2024)"
+                  "round": "Cykl 1 (kwalifikacja 16.07.2024); strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2025,
                   "points": 884,
                   "scaleMax": 1000,
                   "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
-                  "round": "Cykl 1 (kwalifikacja 15.07.2025)"
+                  "round": "Cykl 1 (kwalifikacja 15.07.2025); strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2026,
@@ -23524,7 +23524,7 @@
                   "points": 876,
                   "scaleMax": 1000,
                   "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
-                  "round": "Cykl 1"
+                  "round": "Cykl 1; strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2026,
@@ -47270,15 +47270,15 @@
                   "year": 2024,
                   "points": 400,
                   "scaleMax": 1000,
-                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
-                  "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 16.07.2024)"
+                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+                  "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 16.07.2024); strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2025,
                   "points": 450,
                   "scaleMax": 1000,
-                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
-                  "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 15.07.2025)"
+                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+                  "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 15.07.2025); strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2026,
@@ -47298,15 +47298,15 @@
                   "year": 2024,
                   "points": 120,
                   "scaleMax": 1000,
-                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
-                  "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 25.07.2024)"
+                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+                  "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 25.07.2024); strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2025,
                   "points": 120,
                   "scaleMax": 1000,
-                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
-                  "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 25.07.2025)"
+                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+                  "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 25.07.2025); strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2026,
@@ -48715,15 +48715,15 @@
                   "year": 2024,
                   "points": 700,
                   "scaleMax": 1000,
-                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
-                  "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 16.07.2024)"
+                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+                  "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 16.07.2024); strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2025,
                   "points": 600,
                   "scaleMax": 1000,
-                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
-                  "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 15.07.2025)"
+                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+                  "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 15.07.2025); strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2026,
@@ -48743,15 +48743,15 @@
                   "year": 2024,
                   "points": 170,
                   "scaleMax": 1000,
-                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
-                  "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 25.07.2024)"
+                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+                  "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 25.07.2024); strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2025,
                   "points": 134,
                   "scaleMax": 1000,
-                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
-                  "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 25.07.2025)"
+                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+                  "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 25.07.2025); strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2026,
@@ -50529,15 +50529,15 @@
                   "year": 2024,
                   "points": 700,
                   "scaleMax": 1000,
-                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
-                  "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 16.07.2024)"
+                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+                  "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 16.07.2024); strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2025,
                   "points": 600,
                   "scaleMax": 1000,
-                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
-                  "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 15.07.2025)"
+                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+                  "round": "cykl 1 rekrutacji letniej, studia stacjonarne (kwalifikacja 15.07.2025); strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2026,
@@ -50557,15 +50557,15 @@
                   "year": 2024,
                   "points": 170,
                   "scaleMax": 1000,
-                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
-                  "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 25.07.2024)"
+                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+                  "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 25.07.2024); strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2025,
                   "points": 134,
                   "scaleMax": 1000,
-                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/#progi-punktowe",
-                  "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 25.07.2025)"
+                  "sourceUrl": "https://rekrutacja.agh.edu.pl/kierunki-studiow/",
+                  "round": "cykl 1 rekrutacji letniej, studia niestacjonarne (kwalifikacja 25.07.2025); strona AGH, zakładka „Progi punktowe”"
                 },
                 {
                   "year": 2026,
