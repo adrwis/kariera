@@ -98,6 +98,7 @@ const Szkoly = (function () {
   let lastCareer = null;      // do przełączania miasta w sekcji na profilu zawodu
   let renderSeq = 0;          // chroni przed wstawieniem wyniku po zmianie widoku
   let backContext = null;     // {href, label} dla linku powrotu ze strony szkoły
+  let calcBackSaved = null;   // skąd przyszła osoba do kalkulatora
 
   function init(context) { ctx = context; }
 
@@ -1137,7 +1138,10 @@ const Szkoly = (function () {
     const citySlug = CITIES[params.get('miasto')] ? params.get('miasto') : hasCity() ? currentCity() : '';
     const saved = loadCalc();
     // Powrót tam, skąd przyszedł użytkownik (lista szkół, zawód), a potem ze strony szkoły z powrotem do kalkulatora
-    const calcBack = backContext || { href: `${ctx.BASE}/`, label: 'Strona główna' };
+    // Powrót prowadzi tam, skąd przyszła osoba. Własny wpis kalkulatora (ustawiany niżej dla stron szkół)
+    // nie może go nadpisać przy kolejnym renderze, bo link „← Kalkulator” wskazywałby ten sam widok.
+    if (!backContext || backContext.label !== 'Kalkulator') calcBackSaved = backContext || { href: `${ctx.BASE}/`, label: 'Strona główna' };
+    const calcBack = calcBackSaved;
     backContext = { href: location.pathname + location.search, label: 'Kalkulator' };
     const savedRozsz = Array.isArray(saved.rozsz) ? saved.rozsz.filter(c => FILTER_SUBJECTS.includes(c)) : [];
     const typ = TYPES.includes(params.get('typ')) ? params.get('typ') : (TYPES.includes(saved.typ) ? saved.typ : '');

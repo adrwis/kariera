@@ -42,7 +42,9 @@
 
   // --- Theme ---
   const themeToggle = document.getElementById('themeToggle');
-  const savedTheme = localStorage.getItem('kr-theme');
+  // localStorage bywa zablokowany (tryb prywatny, blokada ciasteczek), więc każdy dostęp w try/catch
+  const readTheme = () => { try { const t = localStorage.getItem('kr-theme'); return t === 'dark' || t === 'light' ? t : null; } catch (e) { return null; } };
+  const savedTheme = readTheme();
   if (savedTheme) {
     document.documentElement.setAttribute('data-theme', savedTheme);
   } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -51,7 +53,7 @@
 
   // Listen for OS theme changes (if user hasn't manually set theme)
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-    if (!localStorage.getItem('kr-theme')) {
+    if (!readTheme()) {
       document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
       const metaTheme = document.querySelector('meta[name="theme-color"]');
       if (metaTheme) metaTheme.setAttribute('content', e.matches ? '#0d1117' : '#1a237e');
@@ -62,10 +64,18 @@
     const current = document.documentElement.getAttribute('data-theme');
     const next = current === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem('kr-theme', next);
+    try { localStorage.setItem('kr-theme', next); } catch (err) { /* ignoruj */ }
     announce(next === 'dark' ? 'Ciemny motyw' : 'Jasny motyw');
     const metaTheme = document.querySelector('meta[name="theme-color"]');
     if (metaTheme) metaTheme.setAttribute('content', next === 'dark' ? '#0d1117' : '#1a237e');
+  });
+
+  // Link „Przejdź do treści”: przy <base href> samo #main przeładowałoby stronę główną
+  const skipLink = document.querySelector('.skip-link');
+  if (skipLink) skipLink.addEventListener('click', (e) => {
+    e.preventDefault();
+    const main = document.getElementById('main');
+    if (main) { main.setAttribute('tabindex', '-1'); main.focus(); }
   });
 
   // --- Views ---
@@ -1898,6 +1908,7 @@
     // School pages do not need the career data up front: render them right away
     const firstView = getRoute().view;
     if (firstView === 'szkoly' || firstView === 'szkola' || firstView === 'kalkulator') navigate();
+    const firstHref = location.pathname + location.search;
 
     // Load data
     await CareerSearch.loadData();
@@ -1911,8 +1922,10 @@
     Constellation.init();
     TypingEffect.init();
 
-    // Handle initial route
-    navigate();
+    // Handle initial route. Lista szkół i kalkulator nie potrzebują danych o zawodach, więc drugi render
+    // odebrałby tylko fokus i wpisane wartości (profil szkoły potrzebuje ich do sekcji „Dokąd prowadzi”).
+    const doneEarly = (firstView === 'szkoly' || firstView === 'kalkulator') && getRoute().view === firstView && location.pathname + location.search === firstHref;
+    if (!doneEarly) navigate();
   }
 
   // Start when DOM ready
