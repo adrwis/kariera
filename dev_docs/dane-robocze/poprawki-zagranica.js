@@ -49,7 +49,7 @@ function fixText(s) {
   t = t.replace(/(?<![\d.,/])(\d{1,3}) (\d{3})(?!\d)/g, `$1${NB}$2`);
   t = t.replace(new RegExp(`(?<![\\d.,/:-])(\\d)(\\d{3})(?=[ \\u00a0]${CUR})`, 'g'), `$1${NB}$2`);
   t = t.replace(new RegExp(`(\\d) (?=${CUR}(?![A-Za-zĄ-ż]))`, 'g'), `$1${NB}`);
-  return t.trim();
+  return t.replace(/ {2,}/g, ' ').trim();
 }
 function walk(v) {
   if (typeof v === 'string') return fixText(v);
