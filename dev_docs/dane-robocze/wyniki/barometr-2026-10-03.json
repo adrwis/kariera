@@ -1,0 +1,1161 @@
+{
+ "zrodlo": {
+  "edycja": "Barometr zawodów 2026 (XI edycja; prognoza na 2026 r., badanie ekspertów na przełomie III i IV kwartału 2025). Koordynacja krajowa: WUP w Krakowie na zlecenie MRPiPS. Dostępna i opublikowana (dziś 2026-10-03).",
+  "zakres": "Polska (168 grup zawodów: 17 deficyt, 151 równowaga, 0 nadwyżka) oraz województwo pomorskie (36 deficyt, 132 równowaga, 0 nadwyżka). Klasyfikacja jest nadana grupom zawodów (nie pojedynczym kodom KZiS), dla województwa 'wyniki uwzględniają zawody ocenione w co najmniej połowie powiatów'. Wyniki dla powiatów są w raporcie wojewódzkim (plakaty) i nie były używane.",
+  "stronaUrl": "https://barometrzawodow.pl/modul/publikacje?publication=national&year=2026 ; https://barometrzawodow.pl/modul/publikacje?publication=province&province=11&year=2026 ; lista zawodów: https://barometrzawodow.pl/modul/dane-o-zawodach ; strona główna https://barometrzawodow.pl",
+  "plikUrl": [
+   "https://barometrzawodow.pl/forecast-card-zip/2026/report_pl/raport_ogolnopolski_2026.pdf (raport krajowy, plakat Polska na s. 44-45, klucz zawodów do KZiS w rozdz. 5)",
+   "https://barometrzawodow.pl/forecast-card-zip/2026/poster_pl/BAROMETR_ZAWODOW_ogolnopolski_2026.pdf",
+   "https://barometrzawodow.pl/forecast-card-zip/2026/report_pl/raport_wojewodztwo_pomorskie_2026.pdf (plakat województwa na s. 34-35)",
+   "https://barometrzawodow.pl/forecast-card-zip/2026/poster_pl/BAROMETR_ZAWODOW_wojewodztwo_pomorskie_2026.pdf"
+  ],
+  "uwagi": [
+   "Strona publikacji ładuje domyślnie rok 2025 (pole year=2025), dlatego widać tam tylko edycję 2025; edycja 2026 jest dostępna po ustawieniu year=2026 w formularzu GET strony Publikacje (publiczny link, bez obchodzenia zabezpieczeń). Strona główna podawała 'Latest Edition: 2025'.",
+   "Pliki PDF pobrane curl-em do scratchpada (bz/nat2026.pdf, bz/pom2026.pdf), tekst wyciągnięty pdftotext. Nie ma xlsx/csv; wyszukiwarka zawodów i tabele prognoz to interaktywne moduły, nie używane.",
+   "Skala Barometru ma 3 klasy w skali kraju i województwa: deficyt, równowaga, nadwyżka. Nadwyżkowych w Polsce i pomorskim w 2026 jest 0 (piąty rok z rzędu w Polsce), dlatego KAŻDA nasza etykieta 'nadwyżkowy' jest niezgodna z Barometrem na poziomie krajowym i wojewódzkim; lokalnie (powiaty) nadwyżki występują, np. technicy ekonomiści 88 powiatów, technicy informatycy 64, pracownicy administracyjni i biurowi 48, fryzjerzy 25, mechanicy pojazdów 20.",
+   "Mapowanie: Barometr ocenia ~168 grup zawodów, nie 79 zawodów. Dopasowano po nazwie zawodu i kluczu KZiS z rozdz. 5 raportu krajowego; kody w careers.json bywają błędne (np. 214301 to w KZiS inżynierowie środowiska, nie mechanicy). Zgodność liczono: deficytowy=deficyt, zrównoważony=równowaga, nadwyżkowy=nadwyżka.",
+   "Wbrew założeniu zadania służby mundurowe SĄ w Barometrze jako grupa 'Pracownicy służb mundurowych' (policjanci, strażacy, żołnierze zawodowi, SG, służba więzienna; w Polsce i pomorskim deficyt, 260 powiatów). Nie ma natomiast w Barometrze aktorów, muzyków, reżyserów i nauczycieli akademickich. Sędziowie, prokuratorzy, adwokaci, notariusze, komornicy są w grupie zbiorczej 'Prawnicy' (równowaga w ok. 372 powiatach).",
+   "Pole zgodnosc dotyczy skali Polska (klucz zakres). Dodatkowo klasyfikacjaPomorskie i zgodnoscPomorskie dla województwa pomorskiego (podstawowy region strony).",
+   "Zmiany względem prognozy 2025 w Polsce (z deficytu do równowagi): nauczyciele przedszkoli, pracownicy ds. rachunkowości i księgowości, robotnicy budowlani, dekarze i blacharze budowlani, mechanicy pojazdów samochodowych, murarze i tynkarze. W pomorskim: z deficytu do równowagi fizjoterapeuci i masażyści oraz ślusarze; z równowagi do deficytu monterzy konstrukcji metalowych, nauczyciele nauczania wczesnoszkolnego, ratownicy medyczni.",
+   "Podsumowanie (skala Polska): zgodna 43, inna 32, brak w Barometrze 4. Skala pomorskie: zgodna 49, inna 26, brak 4."
+  ]
+ },
+ "zawody": [
+  {
+   "id": "psycholog",
+   "nazwaNaszaNazwa": "Psycholog",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Psycholodzy i terapeuci",
+   "klasyfikacja": "deficyt",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 263401 psycholog jest w tej grupie."
+  },
+  {
+   "id": "programista",
+   "nazwaNaszaNazwa": "Programista",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Programiści",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2514 programiści aplikacji."
+  },
+  {
+   "id": "lekarz",
+   "nazwaNaszaNazwa": "Lekarz",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Lekarze",
+   "klasyfikacja": "deficyt",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "Barometr ma jedną grupę Lekarze (2211 bez specjalizacji i 2212 specjaliści)."
+  },
+  {
+   "id": "architekt",
+   "nazwaNaszaNazwa": "Architekt",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Architekci i urbaniści",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 216101 architekt."
+  },
+  {
+   "id": "nauczyciel",
+   "nazwaNaszaNazwa": "Nauczyciel",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Nauczyciele przedmiotów ogólnokształcących i języków obcych",
+   "klasyfikacja": "deficyt",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [
+    {
+     "nazwa": "Nauczyciele nauczania wczesnoszkolnego",
+     "Polska": "równowaga",
+     "pomorskie": "deficyt"
+    },
+    {
+     "nazwa": "Nauczyciele przedszkoli",
+     "Polska": "równowaga",
+     "pomorskie": "deficyt"
+    },
+    {
+     "nazwa": "Nauczyciele przedmiotów zawodowych",
+     "Polska": "deficyt",
+     "pomorskie": "deficyt"
+    }
+   ],
+   "uwagi": "Nasz zawód opisuje nauczyciela szkoły ponadpodstawowej (grupa 2330 / szkoła podstawowa przedmiotowa); inne poziomy to osobne grupy. Wybór zależy od tego, jakiego nauczyciela strona ma na myśli, dla ogólnokształcących i języków obcych wynik to deficyt (Polska i pomorskie)."
+  },
+  {
+   "id": "grafik",
+   "nazwaNaszaNazwa": "Grafik komputerowy",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Graficy komputerowi",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 216602 grafik komputerowy multimediów."
+  },
+  {
+   "id": "prawnik",
+   "nazwaNaszaNazwa": "Prawnik",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Prawnicy",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2611 adwokaci, radcy prawni i prokuratorzy oraz 2612 sędziowie."
+  },
+  {
+   "id": "analityk-danych",
+   "nazwaNaszaNazwa": "Analityk danych",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Specjaliści ds. badań społeczno-ekonomicznych i analizy danych",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [
+    {
+     "nazwa": "Analitycy, testerzy i operatorzy systemów komputerowych",
+     "Polska": "równowaga",
+     "pomorskie": "równowaga"
+    },
+    {
+     "nazwa": "Specjaliści ds. baz danych i sieci komputerowych",
+     "Polska": "równowaga",
+     "pomorskie": "równowaga"
+    }
+   ],
+   "uwagi": "Kod 252101 nie występuje w kluczu Barometru. Po nazwie najbliższa grupa z frazą analiza danych (analityk biznesowy 242112, statystyk 212004). Wszystkie trzy kandydatki mają równowagę w Polsce i pomorskim."
+  },
+  {
+   "id": "pielegniarka",
+   "nazwaNaszaNazwa": "Pielęgniarka / Pielęgniarz",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Pielęgniarki i położne",
+   "klasyfikacja": "deficyt",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2221 pielęgniarki."
+  },
+  {
+   "id": "farmaceuta",
+   "nazwaNaszaNazwa": "Farmaceuta",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Farmaceuci",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2281 farmaceuci."
+  },
+  {
+   "id": "fizjoterapeuta",
+   "nazwaNaszaNazwa": "Fizjoterapeuta",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Fizjoterapeuci i masażyści",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2292 fizjoterapeuci. W pomorskim w 2025 był deficyt, w 2026 równowaga."
+  },
+  {
+   "id": "ksiegowy",
+   "nazwaNaszaNazwa": "Księgowy",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Pracownicy ds. rachunkowości i księgowości",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [
+    {
+     "nazwa": "Samodzielni księgowi",
+     "Polska": "deficyt",
+     "pomorskie": "deficyt"
+    }
+   ],
+   "uwagi": "KZiS 3313 księgowi (331301) należy do grupy Pracownicy ds. rachunkowości i księgowości, a nie do Samodzielnych księgowych (główni księgowi 121101, 241103). W 2026 ta grupa przeszła w Polsce z deficytu do równowagi; w pomorskim nadal deficyt. Gdyby chodziło o samodzielnego księgowego: Polska deficyt, pomorskie równowaga."
+  },
+  {
+   "id": "kucharz",
+   "nazwaNaszaNazwa": "Kucharz",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Kucharze",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [
+    {
+     "nazwa": "Szefowie kuchni",
+     "Polska": "równowaga",
+     "pomorskie": "równowaga"
+    }
+   ],
+   "uwagi": "KZiS 5120 kucharze."
+  },
+  {
+   "id": "tester",
+   "nazwaNaszaNazwa": "Tester oprogramowania",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Analitycy, testerzy i operatorzy systemów komputerowych",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2519 (analitycy systemów komputerowych i programiści gdzie indziej niesklasyfikowani) jest w tej grupie; nazwa grupy zawiera testerów."
+  },
+  {
+   "id": "dentysta",
+   "nazwaNaszaNazwa": "Dentysta",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Dentyści",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2261 lekarze dentyści."
+  },
+  {
+   "id": "fotograf",
+   "nazwaNaszaNazwa": "Fotograf",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Fotografowie",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 3431."
+  },
+  {
+   "id": "dziennikarz",
+   "nazwaNaszaNazwa": "Dziennikarz",
+   "demandObecny": "nadwyżkowy",
+   "nazwaWBarometrze": "Dziennikarze i redaktorzy",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2642 dziennikarze."
+  },
+  {
+   "id": "ratownik-medyczny",
+   "nazwaNaszaNazwa": "Ratownik medyczny",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Ratownicy medyczni",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 3256. W Polsce równowaga, w pomorskim 2026 deficyt (przeszedł z równowagi)."
+  },
+  {
+   "id": "projektant-ux",
+   "nazwaNaszaNazwa": "Projektant UX/UI",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Graficy komputerowi",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [
+    {
+     "nazwa": "Programiści",
+     "Polska": "równowaga",
+     "pomorskie": "równowaga"
+    }
+   ],
+   "uwagi": "Kod 251201 wskazuje grupę Programiści (2512), ale projektant UX/UI to po nazwie najbliżej projektant grafiki stron internetowych (216605) z grupy Graficy komputerowi. Obie grupy mają ten sam wynik (równowaga) w Polsce i w pomorskim."
+  },
+  {
+   "id": "elektryk",
+   "nazwaNaszaNazwa": "Elektryk",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Elektrycy i energetycy",
+   "klasyfikacja": "deficyt",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [
+    {
+     "nazwa": "Inżynierowie elektrycy i energetycy",
+     "Polska": "równowaga",
+     "pomorskie": "równowaga"
+    }
+   ],
+   "uwagi": "KZiS 7411 elektrycy budowlani i pokrewni; to grupa praktyków, a nie inżynierów (osobna grupa, w równowadze)."
+  },
+  {
+   "id": "policjant",
+   "nazwaNaszaNazwa": "Policjant",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Pracownicy służb mundurowych",
+   "klasyfikacja": "deficyt",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "Grupa zbiorcza obejmuje KZiS 3355 policjanci, 5411 strażacy, 0110/0210/0310 żołnierze zawodowi, 335102 Straż Graniczna. Zawód JEST w Barometrze, wbrew założeniu zadania."
+  },
+  {
+   "id": "strazak",
+   "nazwaNaszaNazwa": "Strażak",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Pracownicy służb mundurowych",
+   "klasyfikacja": "deficyt",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 5411 strażacy w grupie służb mundurowych."
+  },
+  {
+   "id": "dietetyk",
+   "nazwaNaszaNazwa": "Dietetyk",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Technolodzy żywności i żywienia",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 3220 dietetycy i żywieniowcy są w grupie Technolodzy żywności i żywienia."
+  },
+  {
+   "id": "tlumacz",
+   "nazwaNaszaNazwa": "Tłumacz",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Filolodzy i tłumacze",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2643."
+  },
+  {
+   "id": "weterynarz",
+   "nazwaNaszaNazwa": "Weterynarz",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Weterynarze",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2251/2252 lekarze weterynarii."
+  },
+  {
+   "id": "specjalista-cyberbezpieczenstwa",
+   "nazwaNaszaNazwa": "Specjalista ds. cyberbezpieczeństwa",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Specjaliści ds. baz danych i sieci komputerowych",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [
+    {
+     "nazwa": "Technicy informatycy",
+     "Polska": "równowaga",
+     "pomorskie": "równowaga"
+    },
+    {
+     "nazwa": "Programiści",
+     "Polska": "równowaga",
+     "pomorskie": "równowaga"
+    }
+   ],
+   "uwagi": "Kod 252902 niezweryfikowany; brak osobnej grupy ds. bezpieczeństwa IT. Najbliżej 2529 (specjaliści ds. baz danych i sieci komputerowych gdzie indziej niesklasyfikowani). Wszystkie kandydatki: równowaga."
+  },
+  {
+   "id": "data-scientist",
+   "nazwaNaszaNazwa": "Data scientist",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Specjaliści ds. badań społeczno-ekonomicznych i analizy danych",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [
+    {
+     "nazwa": "Programiści",
+     "Polska": "równowaga",
+     "pomorskie": "równowaga"
+    },
+    {
+     "nazwa": "Analitycy, testerzy i operatorzy systemów komputerowych",
+     "Polska": "równowaga",
+     "pomorskie": "równowaga"
+    }
+   ],
+   "uwagi": "Kod 252102 nie występuje w kluczu. Brak osobnej grupy; wybrano grupę z analizą danych. Kandydatki mają ten sam wynik (równowaga)."
+  },
+  {
+   "id": "devops-engineer",
+   "nazwaNaszaNazwa": "DevOps engineer",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Specjaliści ds. baz danych i sieci komputerowych",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [
+    {
+     "nazwa": "Programiści",
+     "Polska": "równowaga",
+     "pomorskie": "równowaga"
+    }
+   ],
+   "uwagi": "Kod 252903 niezweryfikowany; brak grupy DevOps. Najbliżej 2522/2529 (administratorzy systemów, specjaliści gdzie indziej niesklasyfikowani). Kandydatki: równowaga."
+  },
+  {
+   "id": "administrator-systemow",
+   "nazwaNaszaNazwa": "Administrator systemów komputerowych",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Specjaliści ds. baz danych i sieci komputerowych",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2522 administratorzy systemów komputerowych."
+  },
+  {
+   "id": "technik-informatyk",
+   "nazwaNaszaNazwa": "Technik informatyk",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Technicy informatycy",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 3512, 351103. W 2026 lokalna nadwyżka w 64 powiatach (nie w skali kraju ani województwa)."
+  },
+  {
+   "id": "programista-gier",
+   "nazwaNaszaNazwa": "Programista gier komputerowych",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Programiści",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "Kod 251403 niezweryfikowany; po nazwie najbliżej grupa Programiści (2514)."
+  },
+  {
+   "id": "ekonomista",
+   "nazwaNaszaNazwa": "Ekonomista",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Specjaliści ds. badań społeczno-ekonomicznych i analizy danych",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2631 ekonomiści jest w tej grupie. Osobna grupa Technicy ekonomiści to inny zawód."
+  },
+  {
+   "id": "doradca-finansowy",
+   "nazwaNaszaNazwa": "Doradca finansowy",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Specjaliści ds. finansowych",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2412 doradcy finansowi i inwestycyjni."
+  },
+  {
+   "id": "specjalista-hr",
+   "nazwaNaszaNazwa": "Specjalista ds. HR",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Specjaliści ds. zarządzania zasobami ludzkimi i rekrutacji",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [
+    {
+     "nazwa": "Specjaliści ds. zarządzania i konsultanci biznesu",
+     "Polska": "równowaga",
+     "pomorskie": "równowaga"
+    }
+   ],
+   "uwagi": "KZiS 2423 specjaliści ds. zarządzania zasobami ludzkimi."
+  },
+  {
+   "id": "specjalista-marketingu",
+   "nazwaNaszaNazwa": "Specjalista ds. marketingu",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Specjaliści ds. PR, reklamy, marketingu i sprzedaży",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 243106 jest w tej grupie."
+  },
+  {
+   "id": "specjalista-pr",
+   "nazwaNaszaNazwa": "Specjalista ds. PR",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Specjaliści ds. PR, reklamy, marketingu i sprzedaży",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2432 public relations."
+  },
+  {
+   "id": "doradca-podatkowy",
+   "nazwaNaszaNazwa": "Doradca podatkowy",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Specjaliści ds. finansowych",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [
+    {
+     "nazwa": "Prawnicy",
+     "Polska": "równowaga",
+     "pomorskie": "równowaga"
+    }
+   ],
+   "uwagi": "Kod 241204 nie występuje w kluczu; najbliżej 2412 (doradcy finansowi). Kandydatki: równowaga."
+  },
+  {
+   "id": "biegly-rewident",
+   "nazwaNaszaNazwa": "Biegły rewident",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Specjaliści ds. finansowych",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 241101 biegły rewident."
+  },
+  {
+   "id": "psychoterapeuta",
+   "nazwaNaszaNazwa": "Psychoterapeuta",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Psycholodzy i terapeuci",
+   "klasyfikacja": "deficyt",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 229905 psychoterapeuta jest w tej grupie."
+  },
+  {
+   "id": "psychiatra",
+   "nazwaNaszaNazwa": "Lekarz psychiatra",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Lekarze",
+   "klasyfikacja": "deficyt",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "Barometr nie rozróżnia specjalizacji lekarskich; grupa Lekarze obejmuje 2212 lekarzy specjalistów."
+  },
+  {
+   "id": "pediatra",
+   "nazwaNaszaNazwa": "Lekarz pediatra",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Lekarze",
+   "klasyfikacja": "deficyt",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "Jak wyżej."
+  },
+  {
+   "id": "chirurg",
+   "nazwaNaszaNazwa": "Lekarz chirurg",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Lekarze",
+   "klasyfikacja": "deficyt",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "Jak wyżej."
+  },
+  {
+   "id": "kardiolog",
+   "nazwaNaszaNazwa": "Lekarz kardiolog",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Lekarze",
+   "klasyfikacja": "deficyt",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "Jak wyżej."
+  },
+  {
+   "id": "sedzia",
+   "nazwaNaszaNazwa": "Sędzia",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Prawnicy",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2612 sędziowie są w grupie Prawnicy (zawód jest w Barometrze, w ramach grupy zbiorczej)."
+  },
+  {
+   "id": "prokurator",
+   "nazwaNaszaNazwa": "Prokurator",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Prawnicy",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2611 jest w grupie Prawnicy."
+  },
+  {
+   "id": "notariusz",
+   "nazwaNaszaNazwa": "Notariusz",
+   "demandObecny": "nadwyżkowy",
+   "nazwaWBarometrze": "Prawnicy",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 261905 notariusz jest w grupie Prawnicy."
+  },
+  {
+   "id": "komornik",
+   "nazwaNaszaNazwa": "Komornik sądowy",
+   "demandObecny": "nadwyżkowy",
+   "nazwaWBarometrze": "Prawnicy",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 261904 komornik sądowy jest w grupie Prawnicy."
+  },
+  {
+   "id": "adwokat",
+   "nazwaNaszaNazwa": "Adwokat",
+   "demandObecny": "nadwyżkowy",
+   "nazwaWBarometrze": "Prawnicy",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2611 jest w grupie Prawnicy."
+  },
+  {
+   "id": "zolnierz-zawodowy",
+   "nazwaNaszaNazwa": "Żołnierz zawodowy",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Pracownicy służb mundurowych",
+   "klasyfikacja": "deficyt",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 0110, 0210, 0310 (siły zbrojne) w grupie służb mundurowych."
+  },
+  {
+   "id": "pracownik-ochrony",
+   "nazwaNaszaNazwa": "Pracownik ochrony",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Pracownicy ochrony fizycznej",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 541307 pracownik ochrony fizycznej."
+  },
+  {
+   "id": "funkcjonariusz-sg",
+   "nazwaNaszaNazwa": "Funkcjonariusz Straży Granicznej",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Pracownicy służb mundurowych",
+   "klasyfikacja": "deficyt",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 335102 funkcjonariusz straży granicznej w grupie służb mundurowych."
+  },
+  {
+   "id": "aktor",
+   "nazwaNaszaNazwa": "Aktor",
+   "demandObecny": "nadwyżkowy",
+   "nazwaWBarometrze": null,
+   "klasyfikacja": "brak w Barometrze",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "brak w Barometrze",
+   "zgodnosc": "brak w Barometrze",
+   "zgodnoscPomorskie": "brak w Barometrze",
+   "kandydaci": [],
+   "uwagi": "KZiS 2655 (aktorzy), 2652 (muzycy), 2654 (reżyserzy) nie występują w kluczu 168 grup Barometru. Najbliższa grupa Personel związany z produkcją filmową, teatralną, telewizyjną i radiową obejmuje tylko personel pomocniczy i techniczny (np. 343xxx, 352xxx) oraz kierownika produkcji i scenografa; nie należy jej przypisywać aktorom."
+  },
+  {
+   "id": "muzyk",
+   "nazwaNaszaNazwa": "Muzyk",
+   "demandObecny": "nadwyżkowy",
+   "nazwaWBarometrze": null,
+   "klasyfikacja": "brak w Barometrze",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "brak w Barometrze",
+   "zgodnosc": "brak w Barometrze",
+   "zgodnoscPomorskie": "brak w Barometrze",
+   "kandydaci": [],
+   "uwagi": "Jak aktor: KZiS 2652 muzycy poza kluczem Barometru. Grupa Monterzy... instrumentów muzycznych to rzemiosło, nie wykonawcy."
+  },
+  {
+   "id": "rezyser-filmowy",
+   "nazwaNaszaNazwa": "Reżyser filmowy",
+   "demandObecny": "nadwyżkowy",
+   "nazwaWBarometrze": null,
+   "klasyfikacja": "brak w Barometrze",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "brak w Barometrze",
+   "zgodnosc": "brak w Barometrze",
+   "zgodnoscPomorskie": "brak w Barometrze",
+   "kandydaci": [],
+   "uwagi": "Jak aktor: KZiS 2654 reżyserzy poza kluczem Barometru (jest tylko kierownik produkcji filmowej 265410 w grupie zarządzania)."
+  },
+  {
+   "id": "architekt-wnetrz",
+   "nazwaNaszaNazwa": "Architekt wnętrz",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Plastycy, dekoratorzy wnętrz i konserwatorzy zabytków",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [
+    {
+     "nazwa": "Architekci i urbaniści",
+     "Polska": "równowaga",
+     "pomorskie": "równowaga"
+    }
+   ],
+   "uwagi": "KZiS 216102 architekt wnętrz jest w grupie Plastycy, dekoratorzy wnętrz... a nie w grupie Architekci i urbaniści. Obie: równowaga."
+  },
+  {
+   "id": "projektant-mody",
+   "nazwaNaszaNazwa": "Projektant mody",
+   "demandObecny": "nadwyżkowy",
+   "nazwaWBarometrze": "Projektanci wzornictwa przemysłowego i operatorzy CAD",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2163 projektanci wzornictwa przemysłowego i odzieży."
+  },
+  {
+   "id": "pedagog",
+   "nazwaNaszaNazwa": "Pedagog szkolny",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Pedagodzy i nauczyciele wspierający",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 235912 pedagog szkolny."
+  },
+  {
+   "id": "logopeda",
+   "nazwaNaszaNazwa": "Logopeda",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Logopedzi i audiofonolodzy",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2294."
+  },
+  {
+   "id": "nauczyciel-akademicki",
+   "nazwaNaszaNazwa": "Nauczyciel akademicki",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": null,
+   "klasyfikacja": "brak w Barometrze",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "brak w Barometrze",
+   "zgodnosc": "brak w Barometrze",
+   "zgodnoscPomorskie": "brak w Barometrze",
+   "kandydaci": [],
+   "uwagi": "KZiS 2310/231001 (nauczyciele akademiccy) nie występuje w kluczu Barometru; nauczyciele szkół wyższych nie są oceniani."
+  },
+  {
+   "id": "fryzjer",
+   "nazwaNaszaNazwa": "Fryzjer",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Fryzjerzy",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 5141. Lokalnie nadwyżka w 25 powiatach (nie w skali kraju)."
+  },
+  {
+   "id": "kosmetyczka",
+   "nazwaNaszaNazwa": "Kosmetyczka",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Pracownicy usług kosmetycznych",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 5142."
+  },
+  {
+   "id": "cukiernik",
+   "nazwaNaszaNazwa": "Cukiernik",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Cukiernicy",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 751201."
+  },
+  {
+   "id": "piekarz",
+   "nazwaNaszaNazwa": "Piekarz",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Piekarze",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 751204."
+  },
+  {
+   "id": "barista",
+   "nazwaNaszaNazwa": "Barista",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Kelnerzy i barmani",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 5132 barmani (kod 513201 niezweryfikowany)."
+  },
+  {
+   "id": "pilot-wycieczek",
+   "nazwaNaszaNazwa": "Pilot wycieczek",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Pracownicy biur podróży i obsługi turystycznej",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 5113 przewodnicy turystyczni i piloci są w tej grupie."
+  },
+  {
+   "id": "stolarz",
+   "nazwaNaszaNazwa": "Stolarz",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Robotnicy obróbki drewna i stolarze",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [
+    {
+     "nazwa": "Cieśle i stolarze budowlani",
+     "Polska": "równowaga",
+     "pomorskie": "deficyt"
+    }
+   ],
+   "uwagi": "KZiS 7522 stolarze meblowi. Dla stolarza budowlanego: Cieśle i stolarze budowlani (Polska równowaga, pomorskie deficyt, ten sam wynik)."
+  },
+  {
+   "id": "inzynier-budownictwa",
+   "nazwaNaszaNazwa": "Inżynier budownictwa",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Inżynierowie budownictwa",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2142."
+  },
+  {
+   "id": "inzynier-mechanik",
+   "nazwaNaszaNazwa": "Inżynier mechanik",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Specjaliści mechanicy",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "Nasz kod 214301 jest błędny (2143 to inżynierowie inżynierii środowiska). KZiS 2144 inżynierowie mechanicy jest w grupie Specjaliści mechanicy."
+  },
+  {
+   "id": "geodeta",
+   "nazwaNaszaNazwa": "Geodeta",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Geodeci i kartografowie",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "Po nazwie; KZiS 2165 kartografowie i geodeci."
+  },
+  {
+   "id": "urbanista",
+   "nazwaNaszaNazwa": "Urbanista",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Architekci i urbaniści",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 216403 urbanista."
+  },
+  {
+   "id": "mechanik-samochodowy",
+   "nazwaNaszaNazwa": "Mechanik samochodowy",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Mechanicy pojazdów samochodowych",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 7231. W 2026 w Polsce przeszli z deficytu do równowagi; w pomorskim nadal deficyt."
+  },
+  {
+   "id": "spawacz",
+   "nazwaNaszaNazwa": "Spawacz",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Spawacze",
+   "klasyfikacja": "deficyt",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "deficyt",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 7212."
+  },
+  {
+   "id": "kartograf",
+   "nazwaNaszaNazwa": "Kartograf",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Geodeci i kartografowie",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2165."
+  },
+  {
+   "id": "architekt-krajobrazu",
+   "nazwaNaszaNazwa": "Architekt krajobrazu",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Architekci krajobrazu",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2162."
+  },
+  {
+   "id": "rolnik",
+   "nazwaNaszaNazwa": "Rolnik",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Rolnicy i hodowcy",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 6130/613003."
+  },
+  {
+   "id": "lesnik",
+   "nazwaNaszaNazwa": "Leśnik",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Specjaliści rolnictwa i leśnictwa",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [
+    {
+     "nazwa": "Robotnicy leśni",
+     "Polska": "równowaga",
+     "pomorskie": "równowaga"
+    }
+   ],
+   "uwagi": "Leśnik (specjalista, 2132 leśnictwo) po nazwie to Specjaliści rolnictwa i leśnictwa; KZiS 6210 to robotnicy leśni (inna grupa). Obie: równowaga."
+  },
+  {
+   "id": "ogrodnik",
+   "nazwaNaszaNazwa": "Ogrodnik",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Ogrodnicy i sadownicy",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 6113."
+  },
+  {
+   "id": "inzynier-srodowiska",
+   "nazwaNaszaNazwa": "Inżynier środowiska",
+   "demandObecny": "deficytowy",
+   "nazwaWBarometrze": "Inżynierowie inżynierii środowiska",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "inna",
+   "zgodnoscPomorskie": "inna",
+   "kandydaci": [],
+   "uwagi": "KZiS 2143. Nasz kod 214601 niezweryfikowany."
+  },
+  {
+   "id": "technik-weterynarii",
+   "nazwaNaszaNazwa": "Technik weterynarii",
+   "demandObecny": "zrównoważony",
+   "nazwaWBarometrze": "Weterynarze",
+   "klasyfikacja": "równowaga",
+   "zakres": "Polska",
+   "klasyfikacjaPomorskie": "równowaga",
+   "zgodnosc": "zgodna",
+   "zgodnoscPomorskie": "zgodna",
+   "kandydaci": [],
+   "uwagi": "KZiS 324002 technik weterynarii jest w grupie Weterynarze."
+  }
+ ]
+}

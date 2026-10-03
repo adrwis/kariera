@@ -751,7 +751,7 @@
     const salaryText = c.salary ? `typowe zarobki: ${fmtZl(c.salary.median || c.salary.max)} brutto/mies.${c.salary.scope === 'grupa' ? ' (grupa zawodów)' : ''}` : '';
 
     const demandClass = c.demand ? `result-card__badge--demand-${c.demand}` : '';
-    const demandTitle = c.demand ? ` title="${escapeAttr(DEMAND_LABELS[c.demand] || c.demand)}"` : '';
+    const demandTitle = c.demand ? ` title="${escapeAttr((DEMAND_LABELS[c.demand] || c.demand) + `. Barometr Zawodów 2026, cała Polska${c.demandGroup ? `, grupa „${c.demandGroup}”` : ''}${c.demandPomorskie ? `. W województwie pomorskim: ${c.demandPomorskie}` : ''}.`)}"` : '';
 
     const catName = CATEGORY_NAMES[c.category] || '';
     // Kategoria jest już w ścieżce nawigacji nad nagłówkiem, więc nie powtarzamy jej plakietką

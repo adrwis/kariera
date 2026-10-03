@@ -23,7 +23,7 @@
       "scope": "grupa",
       "group": "Specjaliści z dziedzin społecznych i religijnych"
     },
-    "demand": "zrównoważony",
+    "demand": "deficytowy",
     "category": "medycyna",
     "skills": {
       "certifications": [
@@ -942,7 +942,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -990,7 +990,8 @@
         "wos"
       ],
       "keywords": "ludzie rozmowy pomaganie zdrowie ciało człowieka nauka badania eksperymenty"
-    }
+    },
+    "demandGroup": "Psycholodzy i terapeuci"
   },
   {
     "id": "programista",
@@ -1018,7 +1019,7 @@
       "scope": "grupa",
       "group": "Analitycy systemów komputerowych i programiści"
     },
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "it",
     "skills": {
       "certifications": [
@@ -2459,7 +2460,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025",
+      "Barometr Zawodów 2026",
       "No Fluff Jobs"
     ],
     "workplaces": [
@@ -2502,7 +2503,8 @@
         "ang"
       ],
       "keywords": "komputery programowanie liczby analizy finanse matematyka"
-    }
+    },
+    "demandGroup": "Programiści"
   },
   {
     "id": "lekarz",
@@ -3376,7 +3378,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025",
+      "Barometr Zawodów 2026",
       "NIL"
     ],
     "workplaces": [
@@ -3419,7 +3421,8 @@
         "fiz"
       ],
       "keywords": "zdrowie ciało człowieka ludzie rozmowy pomaganie nauka badania eksperymenty"
-    }
+    },
+    "demandGroup": "Lekarze"
   },
   {
     "id": "architekt",
@@ -4057,7 +4060,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -4100,7 +4103,8 @@
         "fiz"
       ],
       "keywords": "rysowanie projektowanie tworzenie sztuka budowanie praca rękami majsterkowanie liczby analizy finanse matematyka"
-    }
+    },
+    "demandGroup": "Architekci i urbaniści"
   },
   {
     "id": "nauczyciel",
@@ -4956,7 +4960,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025",
+      "Barometr Zawodów 2026",
       "MEN"
     ],
     "workplaces": [
@@ -5001,7 +5005,8 @@
       ],
       "keywords": "dzieci młodzież ludzie rozmowy pomaganie"
     },
-    "codeUnverified": true
+    "codeUnverified": true,
+    "demandGroup": "Nauczyciele przedmiotów ogólnokształcących i języków obcych"
   },
   {
     "id": "grafik",
@@ -5428,7 +5433,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -5473,7 +5478,8 @@
         "inf"
       ],
       "keywords": "rysowanie projektowanie tworzenie sztuka komputery programowanie"
-    }
+    },
+    "demandGroup": "Graficy komputerowi"
   },
   {
     "id": "prawnik",
@@ -6310,7 +6316,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -6353,7 +6359,8 @@
       ],
       "keywords": "prawo zasady ludzie rozmowy pomaganie pisanie czytanie media"
     },
-    "codeUnverified": true
+    "codeUnverified": true,
+    "demandGroup": "Prawnicy"
   },
   {
     "id": "analityk-danych",
@@ -6379,7 +6386,7 @@
       "scope": "grupa",
       "group": "Specjaliści do spraw baz danych i sieci komputerowych"
     },
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "biznes",
     "skills": {
       "certifications": [
@@ -7717,7 +7724,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025",
+      "Barometr Zawodów 2026",
       "No Fluff Jobs"
     ],
     "workplaces": [
@@ -7761,7 +7768,8 @@
       ],
       "keywords": "liczby analizy finanse matematyka komputery programowanie biznes sprzedaż organizowanie"
     },
-    "codeUnverified": true
+    "codeUnverified": true,
+    "demandGroup": "Specjaliści ds. badań społeczno-ekonomicznych i analizy danych"
   },
   {
     "id": "pielegniarka",
@@ -8376,7 +8384,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -8420,7 +8428,8 @@
         "chem"
       ],
       "keywords": "zdrowie ciało człowieka ludzie rozmowy pomaganie"
-    }
+    },
+    "demandGroup": "Pielęgniarki i położne"
   },
   {
     "id": "farmaceuta",
@@ -8445,7 +8454,7 @@
       "scope": "zawód",
       "group": "Farmaceuci"
     },
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "medycyna",
     "skills": {
       "certifications": [
@@ -9009,7 +9018,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -9051,7 +9060,8 @@
         "bio"
       ],
       "keywords": "zdrowie ciało człowieka nauka badania eksperymenty ludzie rozmowy pomaganie"
-    }
+    },
+    "demandGroup": "Farmaceuci"
   },
   {
     "id": "fizjoterapeuta",
@@ -9064,7 +9074,7 @@
     ],
     "shortDescription": "Ćwiczy z pacjentami po urazach i operacjach, żeby odzyskali sprawność, stosuje też masaż i zabiegi fizykalne.",
     "fullDescription": "Fizjoterapeuta pomaga pacjentom odzyskać sprawność po urazach, operacjach oraz chorobach neurologicznych i ortopedycznych. Układa plan rehabilitacji, ćwiczy z pacjentem, wykonuje masaż i zabiegi fizykalne, np. ultradźwiękami albo laserem. Pracuje w gabinecie fizjoterapii, na szpitalnym oddziale rehabilitacji, w klubie sportowym, sanatorium, domu opieki lub we własnej praktyce. Postępy bywają powolne, a fizjoterapeuta musi przekonać zmęczonego pacjenta, żeby ćwiczył dalej.",
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "medycyna",
     "skills": {
       "certifications": [
@@ -9768,7 +9778,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -9814,7 +9824,8 @@
       ],
       "keywords": "zdrowie ciało człowieka sport ruch ludzie rozmowy pomaganie"
     },
-    "salaryNote": "GUS nie wyodrębnia tego zawodu z szerszej grupy, dlatego nie ma osobnych kwot."
+    "salaryNote": "GUS nie wyodrębnia tego zawodu z szerszej grupy, dlatego nie ma osobnych kwot.",
+    "demandGroup": "Fizjoterapeuci i masażyści"
   },
   {
     "id": "ksiegowy",
@@ -9840,7 +9851,7 @@
       "scope": "grupa",
       "group": "Średni personel do spraw finansowych"
     },
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "biznes",
     "skills": {
       "certifications": [
@@ -10613,7 +10624,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -10654,7 +10665,9 @@
         "wos"
       ],
       "keywords": "liczby analizy finanse matematyka biznes sprzedaż organizowanie prawo zasady"
-    }
+    },
+    "demandGroup": "Pracownicy ds. rachunkowości i księgowości",
+    "demandPomorskie": "deficytowy"
   },
   {
     "id": "kucharz",
@@ -10681,7 +10694,7 @@
       "scope": "zawód",
       "group": "Kucharze"
     },
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "uslugi",
     "skills": {
       "certifications": [
@@ -10820,7 +10833,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -10860,7 +10873,9 @@
         "chem"
       ],
       "keywords": "gotowanie jedzenie budowanie praca rękami majsterkowanie"
-    }
+    },
+    "demandGroup": "Kucharze",
+    "demandPomorskie": "deficytowy"
   },
   {
     "id": "tester",
@@ -10873,7 +10888,7 @@
     ],
     "shortDescription": "Szuka błędów w aplikacjach i opisuje je programistom, żeby program działał tak, jak powinien.",
     "fullDescription": "Tester oprogramowania sprawdza, czy aplikacja działa zgodnie z wymaganiami. Wymyśla scenariusze testów, sprawdza je ręcznie albo pisze testy automatyczne i zgłasza znalezione błędy programistom. Pracuje w firmach technologicznych, software house'ach, bankach, sklepach internetowych, firmach telekomunikacyjnych lub zdalnie na zlecenie. Na start nie trzeba umieć programować, więc wiele osób w ten sposób wchodzi do branży IT, ale automatyzacja testów wymaga już pisania kodu.",
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "it",
     "skills": {
       "certifications": [
@@ -11977,7 +11992,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -12020,7 +12035,8 @@
       ],
       "keywords": "komputery programowanie maszyny elektronika urządzenia technika"
     },
-    "salaryNote": "GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot."
+    "salaryNote": "GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot.",
+    "demandGroup": "Analitycy, testerzy i operatorzy systemów komputerowych"
   },
   {
     "id": "dentysta",
@@ -12046,7 +12062,7 @@
       "scope": "zawód",
       "group": "Lekarze dentyści"
     },
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "medycyna",
     "skills": {
       "certifications": [
@@ -12861,7 +12877,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -12901,7 +12917,8 @@
         "chem"
       ],
       "keywords": "zdrowie ciało człowieka ludzie rozmowy pomaganie"
-    }
+    },
+    "demandGroup": "Dentyści"
   },
   {
     "id": "fotograf",
@@ -13129,7 +13146,8 @@
         "inf"
       ],
       "keywords": "rysowanie projektowanie tworzenie sztuka ludzie rozmowy pomaganie"
-    }
+    },
+    "demandGroup": "Fotografowie"
   },
   {
     "id": "dziennikarz",
@@ -13156,7 +13174,7 @@
       "scope": "grupa",
       "group": "Literaci, dziennikarze i filolodzy"
     },
-    "demand": "nadwyżkowy",
+    "demand": "zrównoważony",
     "category": "sztuka",
     "skills": {
       "certifications": [],
@@ -13863,7 +13881,8 @@
         "hist"
       ],
       "keywords": "pisanie czytanie media ludzie rozmowy pomaganie"
-    }
+    },
+    "demandGroup": "Dziennikarze i redaktorzy"
   },
   {
     "id": "ratownik-medyczny",
@@ -13875,7 +13894,7 @@
     ],
     "shortDescription": "Ratuje życie w karetce, na szpitalnym oddziale ratunkowym i na miejscu wypadków.",
     "fullDescription": "Ratownik medyczny pomaga ludziom, których życie jest nagle zagrożone. Jeździ karetką do wypadków i nagłych zachorowań, pracuje na szpitalnym oddziale ratunkowym, w straży pożarnej, w lotniczym pogotowiu albo zabezpiecza imprezy masowe. Do zawodu prowadzą 3-letnie studia licencjackie. Na miejscu wypadku trzeba szybko zdecydować, co robić, i działać mimo stresu, a sama praca jest też wymagająca fizycznie.",
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "medycyna",
     "skills": {
       "certifications": [],
@@ -14384,7 +14403,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -14428,7 +14447,9 @@
       ],
       "keywords": "zdrowie ciało człowieka bezpieczeństwo ratowanie mundur ludzie rozmowy pomaganie"
     },
-    "salaryNote": "GUS nie wyodrębnia tego zawodu z szerszej grupy, dlatego nie ma osobnych kwot."
+    "salaryNote": "GUS nie wyodrębnia tego zawodu z szerszej grupy, dlatego nie ma osobnych kwot.",
+    "demandGroup": "Ratownicy medyczni",
+    "demandPomorskie": "deficytowy"
   },
   {
     "id": "projektant-ux",
@@ -14441,7 +14462,7 @@
     ],
     "shortDescription": "Projektuje, jak wyglądają i działają aplikacje i strony internetowe, tak żeby łatwo się z nich korzystało.",
     "fullDescription": "Projektant UX/UI sprawdza, czego potrzebują użytkownicy, i na tej podstawie projektuje aplikacje oraz strony internetowe. Rozmawia z użytkownikami, rysuje szkice ekranów (wireframe'y), buduje klikalne prototypy i przygotowuje gotowy wygląd interfejsu. Pracuje w firmie technologicznej, agencji interaktywnej, software housie, banku, startupie albo jako freelancer, zawsze blisko programistów i analityków. Testy z użytkownikami często pokazują, że pomysł, który wydawał się dobry, trzeba przerobić, i trzeba to umieć przyjąć.",
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "it",
     "skills": {
       "certifications": [
@@ -14644,7 +14665,8 @@
       "keywords": "rysowanie projektowanie tworzenie sztuka komputery programowanie ludzie rozmowy pomaganie"
     },
     "salaryNote": "GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot.",
-    "codeUnverified": true
+    "codeUnverified": true,
+    "demandGroup": "Graficy komputerowi"
   },
   {
     "id": "elektryk",
@@ -15158,7 +15180,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -15200,7 +15222,8 @@
         "mat"
       ],
       "keywords": "maszyny elektronika urządzenia technika budowanie praca rękami majsterkowanie"
-    }
+    },
+    "demandGroup": "Elektrycy i energetycy"
   },
   {
     "id": "policjant",
@@ -15384,7 +15407,8 @@
       "keywords": "bezpieczeństwo ratowanie mundur prawo zasady ludzie rozmowy pomaganie sport ruch"
     },
     "salaryNote": "Służby mundurowe nie wchodzą do badania GUS, więc nie podajemy kwot.",
-    "codeUnverified": true
+    "codeUnverified": true,
+    "demandGroup": "Pracownicy służb mundurowych"
   },
   {
     "id": "strazak",
@@ -15397,7 +15421,7 @@
     ],
     "shortDescription": "Gasi pożary i ratuje ludzi przy wypadkach drogowych, powodziach i wyciekach niebezpiecznych substancji.",
     "fullDescription": "Strażak gasi pożary i ratuje ludzi przy wypadkach drogowych, klęskach żywiołowych i zagrożeniach chemicznych, a poszkodowanym udziela pierwszej pomocy. Zawodowo służy w Państwowej Straży Pożarnej, np. w jednostce ratowniczo-gaśniczej. Może też pracować w straży lotniskowej lub zakładowej albo kontrolować zabezpieczenia przeciwpożarowe w budynkach. Akcja wymaga dużej siły i kondycji, a w dymie i hałasie wszystko zależy od tego, czy cały zespół dobrze ze sobą współpracuje.",
-    "demand": "zrównoważony",
+    "demand": "deficytowy",
     "category": "bezpieczenstwo",
     "skills": {
       "certifications": [],
@@ -15577,7 +15601,8 @@
       ],
       "keywords": "bezpieczeństwo ratowanie mundur sport ruch maszyny elektronika urządzenia technika"
     },
-    "salaryNote": "Służby mundurowe nie wchodzą do badania GUS, więc nie podajemy kwot."
+    "salaryNote": "Służby mundurowe nie wchodzą do badania GUS, więc nie podajemy kwot.",
+    "demandGroup": "Pracownicy służb mundurowych"
   },
   {
     "id": "dietetyk",
@@ -16447,7 +16472,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -16493,7 +16518,8 @@
         "chem"
       ],
       "keywords": "zdrowie ciało człowieka gotowanie jedzenie ludzie rozmowy pomaganie"
-    }
+    },
+    "demandGroup": "Technolodzy żywności i żywienia"
   },
   {
     "id": "tlumacz",
@@ -17548,7 +17574,8 @@
         "pol"
       ],
       "keywords": "języki obce pisanie czytanie media"
-    }
+    },
+    "demandGroup": "Filolodzy i tłumacze"
   },
   {
     "id": "weterynarz",
@@ -17879,7 +17906,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -17921,7 +17948,8 @@
         "chem"
       ],
       "keywords": "zwierzęta zdrowie ciało człowieka nauka badania eksperymenty"
-    }
+    },
+    "demandGroup": "Weterynarze"
   },
   {
     "id": "specjalista-cyberbezpieczenstwa",
@@ -17934,7 +17962,7 @@
     ],
     "shortDescription": "Chroni systemy komputerowe firm i instytucji przed atakami hakerów i reaguje, gdy do ataku dojdzie.",
     "fullDescription": "Specjalista ds. cyberbezpieczeństwa chroni sieci, serwery i dane organizacji przed atakami. Sprawdza zabezpieczenia, próbując się do nich włamać w kontrolowany sposób (testy penetracyjne), monitoruje sieć, reaguje na incydenty i szkoli pracowników. Pracuje w firmie zajmującej się bezpieczeństwem IT, banku, dziale IT korporacji, w służbach specjalnych i wojsku albo jako niezależny audytor szukający luk na zlecenie. Atakujący ciągle wymyślają nowe metody, więc trzeba na bieżąco śledzić zagrożenia i uczyć się nowych technik.",
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "it",
     "skills": {
       "certifications": [
@@ -18495,7 +18523,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -18537,7 +18565,8 @@
       ],
       "keywords": "komputery programowanie bezpieczeństwo ratowanie mundur"
     },
-    "salaryNote": "GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot."
+    "salaryNote": "GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot.",
+    "demandGroup": "Specjaliści ds. baz danych i sieci komputerowych"
   },
   {
     "id": "data-scientist",
@@ -18550,7 +18579,7 @@
     ],
     "shortDescription": "Szuka prawidłowości w dużych zbiorach danych i buduje modele, które przewidują np. ryzyko albo zachowania klientów.",
     "fullDescription": "Data scientist analizuje duże zbiory danych i buduje modele uczenia maszynowego, łącząc statystykę, programowanie i wiedzę o danej branży. Pisze kod w Pythonie lub R, korzysta z SQL i narzędzi ML, a wyniki pokazuje na wykresach. W banku tworzy modele oceny ryzyka, w sklepie internetowym systemy rekomendacji, w firmie farmaceutycznej analizuje dane z badań klinicznych, pracuje też w startupach AI i instytutach badawczych. Najtrudniej bywa wytłumaczyć wynik modelu tak, żeby osoba bez wykształcenia technicznego zrozumiała, co z niego wynika.",
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "it",
     "skills": {
       "certifications": [
@@ -19479,7 +19508,7 @@
     "sources": [
       "INFOdoradca+",
       "No Fluff Jobs",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -19526,7 +19555,8 @@
       ],
       "keywords": "liczby analizy finanse matematyka komputery programowanie nauka badania eksperymenty"
     },
-    "salaryNote": "GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot."
+    "salaryNote": "GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot.",
+    "demandGroup": "Specjaliści ds. badań społeczno-ekonomicznych i analizy danych"
   },
   {
     "id": "devops-engineer",
@@ -19539,7 +19569,7 @@
     ],
     "shortDescription": "Automatyzuje wdrażanie oprogramowania i dba o to, żeby serwery i chmura działały bez przerw.",
     "fullDescription": "DevOps engineer łączy pracę programistów z utrzymaniem systemów, na których działa oprogramowanie. Buduje automatyczne procesy wdrażania kodu (CI/CD), zarządza kontenerami i chmurą AWS, Azure lub GCP, monitoruje systemy i automatyzuje powtarzalne zadania w narzędziach takich jak Terraform czy Ansible. Pracuje w firmach technologicznych, firmach chmurowych, bankach, software house'ach i startupach. Gdy system przestaje działać, przyczynę trzeba znaleźć szybko, a bez dobrej znajomości Linuxa jest to bardzo trudne.",
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "it",
     "skills": {
       "certifications": [
@@ -20847,7 +20877,8 @@
       "keywords": "komputery programowanie maszyny elektronika urządzenia technika"
     },
     "salaryNote": "GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot.",
-    "codeUnverified": true
+    "codeUnverified": true,
+    "demandGroup": "Specjaliści ds. baz danych i sieci komputerowych"
   },
   {
     "id": "administrator-systemow",
@@ -20873,7 +20904,7 @@
       "scope": "grupa",
       "group": "Specjaliści do spraw baz danych i sieci komputerowych"
     },
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "it",
     "skills": {
       "certifications": [
@@ -22055,7 +22086,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -22095,7 +22126,8 @@
         "ang"
       ],
       "keywords": "komputery programowanie maszyny elektronika urządzenia technika"
-    }
+    },
+    "demandGroup": "Specjaliści ds. baz danych i sieci komputerowych"
   },
   {
     "id": "technik-informatyk",
@@ -22121,7 +22153,7 @@
       "scope": "grupa",
       "group": "Technicy do spraw technologii teleinformatycznych i pomocy użytkownikom urządzeń teleinformatycznych"
     },
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "it",
     "skills": {
       "certifications": [
@@ -23236,7 +23268,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -23277,7 +23309,8 @@
         "fiz"
       ],
       "keywords": "komputery programowanie maszyny elektronika urządzenia technika"
-    }
+    },
+    "demandGroup": "Technicy informatycy"
   },
   {
     "id": "programista-gier",
@@ -24349,7 +24382,8 @@
       ],
       "keywords": "komputery programowanie rysowanie projektowanie tworzenie sztuka liczby analizy finanse matematyka"
     },
-    "codeUnverified": true
+    "codeUnverified": true,
+    "demandGroup": "Programiści"
   },
   {
     "id": "ekonomista",
@@ -25275,7 +25309,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -25317,7 +25351,8 @@
         "geo"
       ],
       "keywords": "liczby analizy finanse matematyka biznes sprzedaż organizowanie nauka badania eksperymenty"
-    }
+    },
+    "demandGroup": "Specjaliści ds. badań społeczno-ekonomicznych i analizy danych"
   },
   {
     "id": "doradca-finansowy",
@@ -26066,7 +26101,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -26107,7 +26142,8 @@
         "wos"
       ],
       "keywords": "liczby analizy finanse matematyka biznes sprzedaż organizowanie ludzie rozmowy pomaganie"
-    }
+    },
+    "demandGroup": "Specjaliści ds. finansowych"
   },
   {
     "id": "specjalista-hr",
@@ -27167,7 +27203,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -27208,7 +27244,8 @@
       ],
       "keywords": "ludzie rozmowy pomaganie biznes sprzedaż organizowanie"
     },
-    "codeUnverified": true
+    "codeUnverified": true,
+    "demandGroup": "Specjaliści ds. zarządzania zasobami ludzkimi i rekrutacji"
   },
   {
     "id": "specjalista-marketingu",
@@ -28041,7 +28078,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -28087,7 +28124,8 @@
         "inf"
       ],
       "keywords": "biznes sprzedaż organizowanie pisanie czytanie media rysowanie projektowanie tworzenie sztuka"
-    }
+    },
+    "demandGroup": "Specjaliści ds. PR, reklamy, marketingu i sprzedaży"
   },
   {
     "id": "specjalista-pr",
@@ -28902,7 +28940,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -28944,7 +28982,8 @@
         "ang"
       ],
       "keywords": "pisanie czytanie media ludzie rozmowy pomaganie biznes sprzedaż organizowanie"
-    }
+    },
+    "demandGroup": "Specjaliści ds. PR, reklamy, marketingu i sprzedaży"
   },
   {
     "id": "doradca-podatkowy",
@@ -29894,7 +29933,8 @@
         "wos"
       ],
       "keywords": "prawo zasady liczby analizy finanse matematyka biznes sprzedaż organizowanie"
-    }
+    },
+    "demandGroup": "Specjaliści ds. finansowych"
   },
   {
     "id": "biegly-rewident",
@@ -30677,7 +30717,8 @@
         "wos"
       ],
       "keywords": "liczby analizy finanse matematyka prawo zasady biznes sprzedaż organizowanie"
-    }
+    },
+    "demandGroup": "Specjaliści ds. finansowych"
   },
   {
     "id": "psychoterapeuta",
@@ -31588,7 +31629,8 @@
       ],
       "keywords": "ludzie rozmowy pomaganie zdrowie ciało człowieka"
     },
-    "salaryNote": "GUS nie wyodrębnia tego zawodu z szerszej grupy, dlatego nie ma osobnych kwot."
+    "salaryNote": "GUS nie wyodrębnia tego zawodu z szerszej grupy, dlatego nie ma osobnych kwot.",
+    "demandGroup": "Psycholodzy i terapeuci"
   },
   {
     "id": "psychiatra",
@@ -32378,7 +32420,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -32420,7 +32462,8 @@
       ],
       "keywords": "zdrowie ciało człowieka ludzie rozmowy pomaganie nauka badania eksperymenty"
     },
-    "salaryNote": "GUS podaje płace lekarzy łącznie, bez podziału na specjalizacje, dlatego nie ma osobnych kwot."
+    "salaryNote": "GUS podaje płace lekarzy łącznie, bez podziału na specjalizacje, dlatego nie ma osobnych kwot.",
+    "demandGroup": "Lekarze"
   },
   {
     "id": "pediatra",
@@ -33311,7 +33354,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -33353,7 +33396,8 @@
       ],
       "keywords": "zdrowie ciało człowieka dzieci młodzież ludzie rozmowy pomaganie"
     },
-    "salaryNote": "GUS podaje płace lekarzy łącznie, bez podziału na specjalizacje, dlatego nie ma osobnych kwot."
+    "salaryNote": "GUS podaje płace lekarzy łącznie, bez podziału na specjalizacje, dlatego nie ma osobnych kwot.",
+    "demandGroup": "Lekarze"
   },
   {
     "id": "chirurg",
@@ -34260,7 +34304,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -34303,7 +34347,8 @@
       "keywords": "zdrowie ciało człowieka nauka badania eksperymenty"
     },
     "salaryNote": "GUS podaje płace lekarzy łącznie, bez podziału na specjalizacje, dlatego nie ma osobnych kwot.",
-    "codeUnverified": true
+    "codeUnverified": true,
+    "demandGroup": "Lekarze"
   },
   {
     "id": "kardiolog",
@@ -35188,7 +35233,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -35231,7 +35276,8 @@
       ],
       "keywords": "zdrowie ciało człowieka nauka badania eksperymenty ludzie rozmowy pomaganie"
     },
-    "salaryNote": "GUS podaje płace lekarzy łącznie, bez podziału na specjalizacje, dlatego nie ma osobnych kwot."
+    "salaryNote": "GUS podaje płace lekarzy łącznie, bez podziału na specjalizacje, dlatego nie ma osobnych kwot.",
+    "demandGroup": "Lekarze"
   },
   {
     "id": "sedzia",
@@ -36076,7 +36122,8 @@
       ],
       "keywords": "prawo zasady pisanie czytanie media"
     },
-    "salaryNote": "GUS nie wyodrębnia sędziów i prokuratorów z grupy prawników, dlatego nie ma osobnych kwot."
+    "salaryNote": "GUS nie wyodrębnia sędziów i prokuratorów z grupy prawników, dlatego nie ma osobnych kwot.",
+    "demandGroup": "Prawnicy"
   },
   {
     "id": "prokurator",
@@ -36914,7 +36961,8 @@
       ],
       "keywords": "prawo zasady bezpieczeństwo ratowanie mundur"
     },
-    "salaryNote": "GUS nie wyodrębnia sędziów i prokuratorów z grupy prawników, dlatego nie ma osobnych kwot."
+    "salaryNote": "GUS nie wyodrębnia sędziów i prokuratorów z grupy prawników, dlatego nie ma osobnych kwot.",
+    "demandGroup": "Prawnicy"
   },
   {
     "id": "notariusz",
@@ -36926,7 +36974,7 @@
     ],
     "shortDescription": "Sporządza ważne dokumenty, np. umowy sprzedaży mieszkania, testamenty i umowy spółek, oraz poświadcza dokumenty.",
     "fullDescription": "Notariusz jest osobą zaufania publicznego, która przygotowuje dokumenty wymagające formy aktu notarialnego. Sporządza umowy sprzedaży nieruchomości, testamenty i akty założycielskie spółek, poświadcza dokumenty, przechowuje oryginały aktów i prowadzi rejestry. Pracuje w kancelarii notarialnej, a do zawodu prowadzi egzamin notarialny i powołanie przez Ministra Sprawiedliwości. Każdy akt musi być bezbłędny, a przed podpisaniem notariusz tłumaczy stronom, co dokładnie podpisują.",
-    "demand": "nadwyżkowy",
+    "demand": "zrównoważony",
     "category": "prawo",
     "skills": {
       "certifications": [
@@ -37747,7 +37795,8 @@
       ],
       "keywords": "prawo zasady pisanie czytanie media"
     },
-    "salaryNote": "Te zawody wykonuje się zwykle na własnej działalności, której badanie GUS nie obejmuje, dlatego nie ma kwot."
+    "salaryNote": "Te zawody wykonuje się zwykle na własnej działalności, której badanie GUS nie obejmuje, dlatego nie ma kwot.",
+    "demandGroup": "Prawnicy"
   },
   {
     "id": "komornik",
@@ -37759,7 +37808,7 @@
     ],
     "shortDescription": "Wykonuje wyroki sądów: ściąga długi z pensji, kont bankowych i majątku dłużników.",
     "fullDescription": "Komornik sądowy doprowadza do wykonania wyroków sądowych, gdy dłużnik nie płaci dobrowolnie. Zajmuje wynagrodzenie, konta bankowe, nieruchomości i rzeczy dłużnika, sporządza protokoły zajęcia i prowadzi licytacje. Pracuje we własnej kancelarii działającej przy sądzie rejonowym. Rozmowy z dłużnikami bywają bardzo nerwowe, a komornik musi zachować spokój i działać zgodnie z przepisami, także gdy widzi, że dłużnik jest w trudnej sytuacji.",
-    "demand": "nadwyżkowy",
+    "demand": "zrównoważony",
     "category": "prawo",
     "skills": {
       "certifications": [
@@ -38572,7 +38621,8 @@
       ],
       "keywords": "prawo zasady liczby analizy finanse matematyka"
     },
-    "salaryNote": "Te zawody wykonuje się zwykle na własnej działalności, której badanie GUS nie obejmuje, dlatego nie ma kwot."
+    "salaryNote": "Te zawody wykonuje się zwykle na własnej działalności, której badanie GUS nie obejmuje, dlatego nie ma kwot.",
+    "demandGroup": "Prawnicy"
   },
   {
     "id": "adwokat",
@@ -38585,7 +38635,7 @@
     ],
     "shortDescription": "Broni i reprezentuje klientów w sądzie, udziela porad prawnych i pisze pisma procesowe.",
     "fullDescription": "Adwokat pomaga klientom w sprawach karnych, cywilnych i administracyjnych. Udziela porad, przygotowuje umowy i pisma procesowe, reprezentuje klientów w sądzie, a w sprawach karnych broni oskarżonych. Pracuje w kancelarii adwokackiej, obsługuje firmy albo pomaga bezpłatnie w organizacjach pozarządowych, a zawód wykonuje po 3-letniej aplikacji i egzaminie adwokackim. Na sali sądowej trzeba przekonująco argumentować, a w rozmowach z drugą stroną negocjować, zawsze w interesie klienta i zgodnie z zasadami etyki zawodowej.",
-    "demand": "nadwyżkowy",
+    "demand": "zrównoważony",
     "category": "prawo",
     "skills": {
       "certifications": [
@@ -39423,7 +39473,8 @@
       ],
       "keywords": "prawo zasady ludzie rozmowy pomaganie"
     },
-    "salaryNote": "Te zawody wykonuje się zwykle na własnej działalności, której badanie GUS nie obejmuje, dlatego nie ma kwot."
+    "salaryNote": "Te zawody wykonuje się zwykle na własnej działalności, której badanie GUS nie obejmuje, dlatego nie ma kwot.",
+    "demandGroup": "Prawnicy"
   },
   {
     "id": "zolnierz-zawodowy",
@@ -39706,7 +39757,8 @@
       "keywords": "bezpieczeństwo ratowanie mundur sport ruch maszyny elektronika urządzenia technika podróże turystyka"
     },
     "salaryNote": "Służby mundurowe nie wchodzą do badania GUS, więc nie podajemy kwot.",
-    "codeUnverified": true
+    "codeUnverified": true,
+    "demandGroup": "Pracownicy służb mundurowych"
   },
   {
     "id": "pracownik-ochrony",
@@ -39801,7 +39853,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -39842,7 +39894,8 @@
         "wos"
       ],
       "keywords": "bezpieczeństwo ratowanie mundur ludzie rozmowy pomaganie"
-    }
+    },
+    "demandGroup": "Pracownicy ochrony fizycznej"
   },
   {
     "id": "funkcjonariusz-sg",
@@ -40394,7 +40447,8 @@
       ],
       "keywords": "bezpieczeństwo ratowanie mundur prawo zasady języki obce podróże turystyka"
     },
-    "salaryNote": "Służby mundurowe nie wchodzą do badania GUS, więc nie podajemy kwot."
+    "salaryNote": "Służby mundurowe nie wchodzą do badania GUS, więc nie podajemy kwot.",
+    "demandGroup": "Pracownicy służb mundurowych"
   },
   {
     "id": "aktor",
@@ -40407,7 +40461,6 @@
     ],
     "shortDescription": "Gra role w teatrze, filmie, serialach i reklamach, podkłada głos w dubbingu.",
     "fullDescription": "Aktor tworzy postaci w teatrze, filmie, serialach i reklamach albo podkłada głos w studiu dubbingowym. Uczy się tekstu na pamięć, pracuje z reżyserem na próbach, ćwiczy głos i ruch, a w teatrze muzycznym także śpiewa i tańczy. Część aktorów ma etat w teatrze, inni chodzą na castingi i pracują od projektu do projektu. Zarobki bywają nieregularne, więc trzeba poradzić sobie z okresami bez propozycji i z odmowami po kolejnych przesłuchaniach.",
-    "demand": "nadwyżkowy",
     "category": "sztuka",
     "skills": {
       "certifications": [
@@ -40664,7 +40717,6 @@
     ],
     "shortDescription": "Gra na instrumencie na koncertach i w nagraniach, komponuje i aranżuje utwory.",
     "fullDescription": "Muzyk wykonuje i tworzy muzykę klasyczną lub rozrywkową. Gra w orkiestrze lub zespole, występuje na koncertach, nagrywa w studiu, komponuje i aranżuje utwory. Może być solistą, muzykiem sesyjnym, nauczycielem w szkole muzycznej albo producentem. Do zawodu prowadzą lata regularnych ćwiczeń, a na koncercie trzeba zagrać dobrze niezależnie od tremy i zmęczenia.",
-    "demand": "nadwyżkowy",
     "category": "sztuka",
     "skills": {
       "certifications": [
@@ -41098,7 +41150,6 @@
     ],
     "shortDescription": "Kieruje pracą nad filmem lub serialem: decyduje, jak ma wyglądać, prowadzi aktorów i czuwa nad montażem.",
     "fullDescription": "Reżyser filmowy decyduje, jak będzie wyglądał film i o czym opowie. Pracuje z aktorami, ustala z operatorem kadry i oświetlenie, a ze scenografem i montażystą dba, żeby całość była spójna. Tworzy filmy fabularne i dokumentalne, seriale dla telewizji i platform streamingowych, reklamy, czasem spektakle teatralne, w studiu filmowym, domu produkcyjnym albo przy własnych projektach. Na planie kieruje pracą wielu osób, więc trzeba jasno mówić, czego się chce, i pilnować, żeby zdjęcia szły zgodnie z planem.",
-    "demand": "nadwyżkowy",
     "category": "sztuka",
     "skills": {
       "certifications": [
@@ -41842,7 +41893,8 @@
         "mat"
       ],
       "keywords": "rysowanie projektowanie tworzenie sztuka budowanie praca rękami majsterkowanie"
-    }
+    },
+    "demandGroup": "Plastycy, dekoratorzy wnętrz i konserwatorzy zabytków"
   },
   {
     "id": "projektant-mody",
@@ -41868,7 +41920,7 @@
       "scope": "grupa",
       "group": "Architekci, geodeci i projektanci"
     },
-    "demand": "nadwyżkowy",
+    "demand": "zrównoważony",
     "category": "sztuka",
     "skills": {
       "certifications": [
@@ -42068,7 +42120,8 @@
         "technika"
       ],
       "keywords": "uroda moda wygląd rysowanie projektowanie tworzenie sztuka"
-    }
+    },
+    "demandGroup": "Projektanci wzornictwa przemysłowego i operatorzy CAD"
   },
   {
     "id": "pedagog",
@@ -42081,7 +42134,7 @@
     ],
     "shortDescription": "Pomaga uczniom, którzy mają kłopoty w nauce lub z rówieśnikami, i prowadzi w szkole zajęcia profilaktyczne.",
     "fullDescription": "Pedagog szkolny wspiera uczniów, którzy mają kłopoty w nauce albo w relacjach z rówieśnikami. Rozpoznaje problemy, np. przemoc rówieśniczą, prowadzi zajęcia profilaktyczne, pomaga uczniom z niepełnosprawnościami i współpracuje z rodzicami oraz poradnią psychologiczno-pedagogiczną. Pracuje w szkole, poradni, świetlicy, ośrodku wychowawczym lub ośrodku pomocy społecznej, a czasem przygotowuje opinie dla sądu rodzinnego. Często trzeba pogodzić skłócone strony i zdobyć zaufanie ucznia, który nie chce z nikim rozmawiać.",
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "edukacja",
     "skills": {
       "certifications": [
@@ -43339,7 +43392,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -43380,7 +43433,9 @@
       ],
       "keywords": "dzieci młodzież ludzie rozmowy pomaganie"
     },
-    "salaryNote": "GUS nie wyodrębnia tego zawodu z szerszej grupy, dlatego nie ma osobnych kwot."
+    "salaryNote": "GUS nie wyodrębnia tego zawodu z szerszej grupy, dlatego nie ma osobnych kwot.",
+    "demandGroup": "Pedagodzy i nauczyciele wspierający",
+    "demandPomorskie": "deficytowy"
   },
   {
     "id": "logopeda",
@@ -43393,7 +43448,7 @@
     ],
     "shortDescription": "Uczy dzieci poprawnie wymawiać głoski, pomaga osobom, które się jąkają, i dorosłym po udarze odzyskać mowę.",
     "fullDescription": "Logopeda rozpoznaje i leczy zaburzenia mowy, głosu i komunikacji. Prowadzi terapię wad wymowy, jąkania i afazji, czyli zaburzeń mowy po uszkodzeniu mózgu, np. po udarze, a na zajęciach stosuje ćwiczenia artykulacyjne, oddechowe i gry logopedyczne. Pracuje z dziećmi i dorosłymi, także z osobami z wadami słuchu, w poradni, przedszkolu, szkole, szpitalu, centrum terapii autyzmu albo we własnym gabinecie. Efekty przychodzą powoli, więc zajęcia muszą być prowadzone tak, żeby dziecku chciało się ćwiczyć.",
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "edukacja",
     "skills": {
       "certifications": [
@@ -44044,7 +44099,8 @@
       ],
       "keywords": "dzieci młodzież zdrowie ciało człowieka ludzie rozmowy pomaganie"
     },
-    "salaryNote": "GUS nie wyodrębnia tego zawodu z szerszej grupy, dlatego nie ma osobnych kwot."
+    "salaryNote": "GUS nie wyodrębnia tego zawodu z szerszej grupy, dlatego nie ma osobnych kwot.",
+    "demandGroup": "Logopedzi i audiofonolodzy"
   },
   {
     "id": "nauczyciel-akademicki",
@@ -44070,7 +44126,6 @@
       "scope": "zawód",
       "group": "Nauczyciele akademiccy"
     },
-    "demand": "zrównoważony",
     "category": "edukacja",
     "skills": {
       "certifications": [
@@ -44313,7 +44368,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -44353,7 +44408,8 @@
         "chem"
       ],
       "keywords": "uroda moda wygląd ludzie rozmowy pomaganie"
-    }
+    },
+    "demandGroup": "Fryzjerzy"
   },
   {
     "id": "kosmetyczka",
@@ -44902,7 +44958,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -44943,7 +44999,8 @@
         "chem"
       ],
       "keywords": "uroda moda wygląd zdrowie ciało człowieka ludzie rozmowy pomaganie"
-    }
+    },
+    "demandGroup": "Pracownicy usług kosmetycznych"
   },
   {
     "id": "cukiernik",
@@ -44969,7 +45026,7 @@
       "scope": "grupa",
       "group": "Robotnicy w przetwórstwie spożywczym i pokrewni"
     },
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "uslugi",
     "skills": {
       "certifications": [
@@ -45048,7 +45105,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -45089,7 +45146,8 @@
         "chem"
       ],
       "keywords": "gotowanie jedzenie rysowanie projektowanie tworzenie sztuka"
-    }
+    },
+    "demandGroup": "Cukiernicy"
   },
   {
     "id": "piekarz",
@@ -45115,7 +45173,7 @@
       "scope": "grupa",
       "group": "Robotnicy w przetwórstwie spożywczym i pokrewni"
     },
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "uslugi",
     "skills": {
       "certifications": [
@@ -45176,7 +45234,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -45216,7 +45274,8 @@
         "chem"
       ],
       "keywords": "gotowanie jedzenie budowanie praca rękami majsterkowanie"
-    }
+    },
+    "demandGroup": "Piekarze"
   },
   {
     "id": "barista",
@@ -45348,7 +45407,8 @@
       ],
       "keywords": "gotowanie jedzenie ludzie rozmowy pomaganie"
     },
-    "salaryNote": "GUS nie przypisuje tego zawodu jednoznacznie do jednej grupy, dlatego nie ma kwot."
+    "salaryNote": "GUS nie przypisuje tego zawodu jednoznacznie do jednej grupy, dlatego nie ma kwot.",
+    "demandGroup": "Kelnerzy i barmani"
   },
   {
     "id": "pilot-wycieczek",
@@ -46121,7 +46181,8 @@
       ],
       "keywords": "podróże turystyka ludzie rozmowy pomaganie języki obce"
     },
-    "salaryNote": "GUS nie przypisuje tego zawodu jednoznacznie do jednej grupy, dlatego nie ma kwot."
+    "salaryNote": "GUS nie przypisuje tego zawodu jednoznacznie do jednej grupy, dlatego nie ma kwot.",
+    "demandGroup": "Pracownicy biur podróży i obsługi turystycznej"
   },
   {
     "id": "stolarz",
@@ -46134,7 +46195,7 @@
     ],
     "shortDescription": "Robi z drewna meble na wymiar, zabudowy, schody, okna i drzwi.",
     "fullDescription": "Stolarz obrabia drewno i płyty drewnopochodne i robi z nich meble na wymiar, zabudowy, schody, okna, drzwi i elementy wykończeniowe. Pracuje tradycyjnymi narzędziami i na maszynach CNC, a gotowe meble często montuje u klienta. Zatrudnia go zakład stolarski, fabryka mebli, firma budowlana albo pracownia odnawiająca zabytkowe meble, może też prowadzić własny warsztat. Pomyłki w drewnie nie da się cofnąć, więc każdy element dokładnie się mierzy i przemyśla, zanim trafi pod piłę.",
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "uslugi",
     "skills": {
       "certifications": [
@@ -46207,7 +46268,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -46249,7 +46310,9 @@
       ],
       "keywords": "budowanie praca rękami majsterkowanie maszyny elektronika urządzenia technika"
     },
-    "salaryNote": "GUS nie przypisuje tego zawodu jednoznacznie do jednej grupy, dlatego nie ma kwot."
+    "salaryNote": "GUS nie przypisuje tego zawodu jednoznacznie do jednej grupy, dlatego nie ma kwot.",
+    "demandGroup": "Robotnicy obróbki drewna i stolarze",
+    "demandPomorskie": "deficytowy"
   },
   {
     "id": "inzynier-budownictwa",
@@ -46275,7 +46338,7 @@
       "scope": "grupa",
       "group": "Inżynierowie (z wyłączeniem elektrotechnologii)"
     },
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "inzynieria",
     "skills": {
       "certifications": [
@@ -46988,7 +47051,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -47031,7 +47094,8 @@
       ],
       "keywords": "budowanie praca rękami majsterkowanie maszyny elektronika urządzenia technika liczby analizy finanse matematyka"
     },
-    "codeUnverified": true
+    "codeUnverified": true,
+    "demandGroup": "Inżynierowie budownictwa"
   },
   {
     "id": "inzynier-mechanik",
@@ -47057,7 +47121,7 @@
       "scope": "grupa",
       "group": "Inżynierowie (z wyłączeniem elektrotechnologii)"
     },
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "inzynieria",
     "skills": {
       "certifications": [
@@ -48446,7 +48510,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -48489,7 +48553,8 @@
       ],
       "keywords": "maszyny elektronika urządzenia technika liczby analizy finanse matematyka"
     },
-    "codeUnverified": true
+    "codeUnverified": true,
+    "demandGroup": "Specjaliści mechanicy"
   },
   {
     "id": "geodeta",
@@ -49124,7 +49189,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -49167,7 +49232,8 @@
       ],
       "keywords": "liczby analizy finanse matematyka maszyny elektronika urządzenia technika"
     },
-    "codeUnverified": true
+    "codeUnverified": true,
+    "demandGroup": "Geodeci i kartografowie"
   },
   {
     "id": "urbanista",
@@ -49920,7 +49986,8 @@
         "wos"
       ],
       "keywords": "rysowanie projektowanie tworzenie sztuka budowanie praca rękami majsterkowanie"
-    }
+    },
+    "demandGroup": "Architekci i urbaniści"
   },
   {
     "id": "mechanik-samochodowy",
@@ -49946,7 +50013,7 @@
       "scope": "grupa",
       "group": "Mechanicy maszyn i urządzeń"
     },
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "inzynieria",
     "skills": {
       "certifications": [
@@ -50021,7 +50088,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -50061,7 +50128,9 @@
         "fiz"
       ],
       "keywords": "maszyny elektronika urządzenia technika budowanie praca rękami majsterkowanie"
-    }
+    },
+    "demandGroup": "Mechanicy pojazdów samochodowych",
+    "demandPomorskie": "deficytowy"
   },
   {
     "id": "spawacz",
@@ -50173,7 +50242,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -50214,7 +50283,8 @@
         "fiz"
       ],
       "keywords": "budowanie praca rękami majsterkowanie maszyny elektronika urządzenia technika"
-    }
+    },
+    "demandGroup": "Spawacze"
   },
   {
     "id": "kartograf",
@@ -51042,7 +51112,8 @@
         "mat"
       ],
       "keywords": "komputery programowanie rysowanie projektowanie tworzenie sztuka"
-    }
+    },
+    "demandGroup": "Geodeci i kartografowie"
   },
   {
     "id": "architekt-krajobrazu",
@@ -51589,7 +51660,8 @@
         "geo"
       ],
       "keywords": "przyroda rośliny środowisko rysowanie projektowanie tworzenie sztuka"
-    }
+    },
+    "demandGroup": "Architekci krajobrazu"
   },
   {
     "id": "rolnik",
@@ -51602,7 +51674,7 @@
     ],
     "shortDescription": "Uprawia zboża, warzywa lub owoce albo hoduje zwierzęta i prowadzi gospodarstwo rolne.",
     "fullDescription": "Rolnik prowadzi gospodarstwo rolne i produkuje żywność. Uprawia zboża, warzywa lub owoce albo hoduje bydło, drób czy świnie, obsługuje maszyny rolnicze, decyduje o nawożeniu i ochronie roślin. Może prowadzić rodzinne lub ekologiczne gospodarstwo, działać w spółdzielni albo pracować w dużej firmie rolno-spożywczej. Plony zależą od pogody, a do prowadzenia gospodarstwa potrzebna jest wiedza o uprawach, ekonomii i nowych technologiach, np. dronach.",
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "przyroda",
     "skills": {
       "certifications": [
@@ -52291,7 +52363,8 @@
       ],
       "keywords": "przyroda rośliny środowisko zwierzęta maszyny elektronika urządzenia technika biznes sprzedaż organizowanie"
     },
-    "salaryNote": "Rolnicy pracują głównie na własny rachunek, a badanie GUS obejmuje tylko pracowników etatowych, dlatego nie ma kwot."
+    "salaryNote": "Rolnicy pracują głównie na własny rachunek, a badanie GUS obejmuje tylko pracowników etatowych, dlatego nie ma kwot.",
+    "demandGroup": "Rolnicy i hodowcy"
   },
   {
     "id": "lesnik",
@@ -52721,7 +52794,8 @@
       "keywords": "przyroda rośliny środowisko zwierzęta"
     },
     "salaryNote": "GUS nie przypisuje tego zawodu jednoznacznie do jednej grupy, dlatego nie ma kwot.",
-    "codeUnverified": true
+    "codeUnverified": true,
+    "demandGroup": "Specjaliści rolnictwa i leśnictwa"
   },
   {
     "id": "ogrodnik",
@@ -53014,7 +53088,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -53055,7 +53129,8 @@
       ],
       "keywords": "przyroda rośliny środowisko budowanie praca rękami majsterkowanie"
     },
-    "salaryNote": "GUS nie przypisuje tego zawodu jednoznacznie do jednej grupy, dlatego nie ma kwot."
+    "salaryNote": "GUS nie przypisuje tego zawodu jednoznacznie do jednej grupy, dlatego nie ma kwot.",
+    "demandGroup": "Ogrodnicy i sadownicy"
   },
   {
     "id": "inzynier-srodowiska",
@@ -53081,7 +53156,7 @@
       "scope": "grupa",
       "group": "Inżynierowie (z wyłączeniem elektrotechnologii)"
     },
-    "demand": "deficytowy",
+    "demand": "zrównoważony",
     "category": "przyroda",
     "skills": {
       "certifications": [
@@ -54197,7 +54272,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -54241,7 +54316,8 @@
       ],
       "keywords": "przyroda rośliny środowisko maszyny elektronika urządzenia technika nauka badania eksperymenty"
     },
-    "codeUnverified": true
+    "codeUnverified": true,
+    "demandGroup": "Inżynierowie inżynierii środowiska"
   },
   {
     "id": "technik-weterynarii",
@@ -54336,7 +54412,7 @@
     ],
     "sources": [
       "INFOdoradca+",
-      "Barometr Zawodów 2025"
+      "Barometr Zawodów 2026"
     ],
     "workplaces": [
       {
@@ -54376,6 +54452,7 @@
         "chem"
       ],
       "keywords": "zwierzęta zdrowie ciało człowieka"
-    }
+    },
+    "demandGroup": "Weterynarze"
   }
 ]
