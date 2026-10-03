@@ -17,7 +17,18 @@ byId.delete('ratownik-medyczny');
 const missing = new Set([...gus.brak.map(b => b.id), 'ratownik-medyczny']);
 const r = n => Math.round(n);
 // Grupy GUS szersze niż sam zawód (np. programiści razem z analitykami, technicy ICT razem z helpdeskiem)
-const WIDE = new Set(['programista', 'programista-gier', 'technik-informatyk']);
+const WIDE = new Set(['programista', 'programista-gier', 'technik-informatyk', 'specjalista-marketingu', 'specjalista-pr']);
+// Powody braku kwot per zawód (zamiast jednego zdania dla wszystkich)
+const REASON = {};
+const why = (ids, text) => ids.forEach(id => { REASON[id] = text; });
+why(['psychiatra', 'pediatra', 'chirurg', 'kardiolog'], 'GUS podaje płace lekarzy łącznie, bez podziału na specjalizacje, dlatego nie ma osobnych kwot.');
+why(['sedzia', 'prokurator'], 'GUS nie wyodrębnia sędziów i prokuratorów z grupy prawników, dlatego nie ma osobnych kwot.');
+why(['adwokat', 'notariusz', 'komornik'], 'Te zawody wykonuje się zwykle na własnej działalności, której badanie GUS nie obejmuje, dlatego nie ma kwot.');
+why(['aktor', 'muzyk', 'rezyser-filmowy'], 'Praca na umowach cywilnoprawnych i własnej działalności jest poza badaniem GUS, dlatego nie ma kwot.');
+why(['rolnik'], 'Rolnicy pracują głównie na własny rachunek, a badanie GUS obejmuje tylko pracowników etatowych, dlatego nie ma kwot.');
+why(['psychoterapeuta', 'fizjoterapeuta', 'pedagog', 'logopeda', 'ratownik-medyczny'], 'GUS nie wyodrębnia tego zawodu z szerszej grupy, dlatego nie ma osobnych kwot.');
+why(['projektant-ux', 'tester', 'specjalista-cyberbezpieczenstwa', 'data-scientist', 'devops-engineer'], 'GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot.');
+why(['barista', 'pilot-wycieczek', 'stolarz', 'lesnik', 'ogrodnik'], 'GUS nie przypisuje tego zawodu jednoznacznie do jednej grupy, dlatego nie ma kwot.');
 const UNIFORMED = new Set(['policjant', 'zolnierz-zawodowy', 'funkcjonariusz-sg', 'strazak']);
 
 let set = 0, cleared = 0;
@@ -36,7 +47,7 @@ for (const c of careers) {
     delete c.salary;
     c.salaryNote = UNIFORMED.has(c.id)
       ? 'Służby mundurowe nie wchodzą do badania GUS, więc nie podajemy kwot.'
-      : 'GUS nie podaje płac tego zawodu osobno, dlatego nie ma kwot.';
+      : (REASON[c.id] || 'GUS nie podaje płac tego zawodu osobno, dlatego nie ma kwot.');
     cleared++;
   }
 }

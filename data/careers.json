@@ -5412,7 +5412,7 @@
         "name": "Stefan Sagmeister",
         "description": "Światowej sławy grafik austriacki",
         "bio": "Austriacki grafik i typograf (ur. 1962). Światowej sławy projektant, zdobywca dwóch nagród Grammy za design okładek płyt. Współzałożyciel studia Sagmeister & Walsh w Nowym Jorku.",
-        "sourceUrl": "https://www.google.com/search?q=Stefan%20Sagmeister"
+        "sourceUrl": "https://en.wikipedia.org/wiki/Stefan_Sagmeister"
       },
       {
         "name": "Milton Glaser",
@@ -6293,7 +6293,7 @@
       {
         "name": "Eleanor Roosevelt",
         "description": "Współautorka Powszechnej Deklaracji Praw Człowieka",
-        "bio": "Amerykańska polityk i działaczka społeczna (1884 do 1962). Pierwsza Dama USA i prawniczka, przewodnicząca komisji ONZ, która opracowała Powszechną Deklarację Praw Człowieka w 1948 roku. Nazywana „Pierwszą Damą Świata\", jej praca prawnicza zmieniła oblicze praw człowieka na świecie.",
+        "bio": "Amerykańska polityk i działaczka społeczna (1884 do 1962). Pierwsza Dama USA, przewodnicząca komisji ONZ, która opracowała Powszechną Deklarację Praw Człowieka w 1948 roku.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Eleanor_Roosevelt"
       },
       {
@@ -7695,7 +7695,7 @@
         "name": "Nate Silver",
         "description": "Analityk danych, twórca FiveThirtyEight",
         "bio": "Amerykański statystyk i publicysta (ur. 1978). Twórca portalu FiveThirtyEight, znanego z trafnych prognoz wyborczych i sportowych. Autor książki „Sygnał i szum\" o sztuce prognozowania w erze big data. Zaczynał od analizy statystyk baseballowych, jego modele zrewolucjonizowały analitykę wyborczą.",
-        "sourceUrl": "https://www.google.com/search?q=Nate%20Silver"
+        "sourceUrl": "https://en.wikipedia.org/wiki/Nate_Silver"
       },
       {
         "name": "Florence Nightingale",
@@ -9743,12 +9743,6 @@
     },
     "famousPeople": [
       {
-        "name": "Robin McKenzie",
-        "description": "Twórca metody McKenzie (Nowa Zelandia)",
-        "bio": "Nowozelandzki fizjoterapeuta (1931 do 2013). Twórca metody McKenzie (Mechaniczna Diagnostyka i Terapia), jednej z najpopularniejszych metod leczenia bólów kręgosłupa na świecie. Jego podejście oparte na samodiagnozie i autokorekji pacjenta jest stosowane w ponad 30 krajach. Autor „Treat Your Own Back\".",
-        "sourceUrl": "https://www.google.com/search?q=Robin%20McKenzie"
-      },
-      {
         "name": "Wiktor Dega",
         "description": "Twórca polskiej szkoły ortopedii i rehabilitacji",
         "bio": "Polski lekarz ortopeda i rehabilitant (1896 do 1995). Profesor Akademii Medycznej w Poznaniu, twórca polskiej szkoły rehabilitacji. Opracował kompleksowy system rehabilitacji osób z wadami narządu ruchu. Jego klinika stała się wzorem dla ośrodków rehabilitacyjnych w całej Europie Środkowej.",
@@ -9820,7 +9814,7 @@
       ],
       "keywords": "zdrowie ciało człowieka sport ruch ludzie rozmowy pomaganie"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie wyodrębnia tego zawodu z szerszej grupy, dlatego nie ma osobnych kwot."
   },
   {
     "id": "ksiegowy",
@@ -10602,7 +10596,7 @@
       {
         "name": "Luca Pacioli",
         "description": "Ojciec księgowości, twórca podwójnego zapisu (XV w.)",
-        "bio": "Włoski matematyk i franciszkanin (ok. 1447 do 1517). Autor dzieła „Summa de arithmetica\", w którym opisał system podwójnego zapisu księgowego, fundament współczesnej rachunkowości. Przyjaciel Leonarda da Vinci, z którym współpracował przy „De divina proportione\". Uznawany za ojca nowoczesnej księgowości.",
+        "bio": "Włoski matematyk i franciszkanin (1445 do 1517). Autor dzieła „Summa de arithmetica\", w którym opisał system podwójnego zapisu księgowego, fundament współczesnej rachunkowości. Przyjaciel Leonarda da Vinci, z którym współpracował przy „De divina proportione\". Uznawany za ojca nowoczesnej księgowości.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Luca_Pacioli"
       },
       {
@@ -10610,12 +10604,6 @@
         "description": "Pierwsza kobieta biegły rewident w UK",
         "bio": "Brytyjska księgowa (1844 do 1934). Pierwsza kobieta przyjęta do Institute of Chartered Accountants w Anglii i Walii. Przełamała barierę płci w zawodzie księgowego, otwierając drogę kolejnym pokoleniom kobiet. Jej determinacja zmieniła oblicze profesji na całym świecie.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Mary_Harris_Smith"
-      },
-      {
-        "name": "Robert Half",
-        "description": "Pionier rekrutacji w branży finansowej",
-        "bio": "Amerykański przedsiębiorca i publicysta (1918 do 2001). Założyciel firmy Robert Half International, największej na świecie agencji rekrutacyjnej specjalizującej się w księgowości i finansach. Autor wielu książek o zarządzaniu karierą w branży finansowej i rachunkowości.",
-        "sourceUrl": "https://en.wikipedia.org/wiki/Robert_Half_International"
       }
     ],
     "relatedCareers": [
@@ -11973,7 +11961,7 @@
         "name": "James Bach",
         "description": "Guru testowania eksploracyjnego",
         "bio": "Amerykański ekspert testowania oprogramowania. Twórca Rapid Software Testing, metodyki testowania opartej na myśleniu kontekstowym i eksploracyjnym. Samouk bez dyplomu, który stał się jednym z najważniejszych głosów w branży QA. Autor „Lessons Learned in Software Testing\", ceniony mówca na konferencjach.",
-        "sourceUrl": "https://www.google.com/search?q=James%20Bach"
+        "sourceUrl": "https://en.wikipedia.org/wiki/James_Marcus_Bach"
       },
       {
         "name": "Cem Kaner",
@@ -12032,7 +12020,7 @@
       ],
       "keywords": "komputery programowanie maszyny elektronika urządzenia technika"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot."
   },
   {
     "id": "dentysta",
@@ -14440,7 +14428,7 @@
       ],
       "keywords": "zdrowie ciało człowieka bezpieczeństwo ratowanie mundur ludzie rozmowy pomaganie"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie wyodrębnia tego zawodu z szerszej grupy, dlatego nie ma osobnych kwot."
   },
   {
     "id": "projektant-ux",
@@ -14655,7 +14643,7 @@
       ],
       "keywords": "rysowanie projektowanie tworzenie sztuka komputery programowanie ludzie rozmowy pomaganie"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot.",
+    "salaryNote": "GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot.",
     "codeUnverified": true
   },
   {
@@ -15329,12 +15317,6 @@
         "description": "Komendant Główny Policji w latach 1997 do 1998",
         "bio": "Polski policjant, nadinspektor Policji (1959 do 1998). Komendant główny Policji w latach 1997 do 1998. Zginął w Warszawie w 1998 roku.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Marek_Papała"
-      },
-      {
-        "name": "Adam Rapacki",
-        "description": "Reformator polskiej policji",
-        "bio": "Polski generał policji i polityk (ur. 1959). Wiceminister spraw wewnętrznych i były Komendant Stołeczny Policji. Kierował wieloma operacjami antykryzysowymi i reformami organizacyjnymi. Specjalista ds. bezpieczeństwa publicznego i zwalczania przestępczości zorganizowanej w Polsce.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Adam_Rapacki_(polityk)"
       },
       {
         "name": "Robert Peel",
@@ -18488,12 +18470,6 @@
     },
     "famousPeople": [
       {
-        "name": "Adam Haertle",
-        "description": "Twórca serwisu Zaufana Trzecia Strona",
-        "bio": "Polski dziennikarz i ekspert cyberbezpieczeństwa. Twórca i redaktor naczelny serwisu Zaufana Trzecia Strona (z3s.pl), najpopularniejszego polskiego portalu o bezpieczeństwie IT. Prelegent na konferencjach bezpieczeństwa, popularyzator wiedzy o zagrożeniach cybernetycznych. Demaskator oszustw internetowych w Polsce.",
-        "sourceUrl": "https://www.google.com/search?q=Adam%20Haertle"
-      },
-      {
         "name": "Kevin Mitnick",
         "description": "Legendarny haker, później konsultant bezpieczeństwa",
         "bio": "Amerykański haker i konsultant bezpieczeństwa (1963 do 2023). Niegdyś najbardziej poszukiwany haker na świecie, po aresztowaniu stał się szanowanym konsultantem cyberbezpieczeństwa. Autor bestsellerów „The Art of Deception\" i „Ghost in the Wires\". Specjalista socjotechniki, udowodnił, że najsłabszym ogniwem jest człowiek.",
@@ -18561,7 +18537,7 @@
       ],
       "keywords": "komputery programowanie bezpieczeństwo ratowanie mundur"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot."
   },
   {
     "id": "data-scientist",
@@ -19550,7 +19526,7 @@
       ],
       "keywords": "liczby analizy finanse matematyka komputery programowanie nauka badania eksperymenty"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot."
   },
   {
     "id": "devops-engineer",
@@ -20810,14 +20786,8 @@
       {
         "name": "Kelsey Hightower",
         "description": "Ewangelista Kubernetes w Google",
-        "bio": "Amerykański inżynier i ewangelista (ur. ok. 1981). Jeden z najważniejszych głosów ruchu Kubernetes i cloud-native, developer advocate w Google Cloud. Autor „Kubernetes the Hard Way\", kultowego tutoriala. Samouk bez dyplomu uniwersyteckiego, inspiruje tysiące inżynierów DevOps na konferencjach na całym świecie.",
-        "sourceUrl": "https://www.google.com/search?q=Kelsey%20Hightower"
-      },
-      {
-        "name": "Patrick Debois",
-        "description": "Twórca ruchu DevOps",
-        "bio": "Belgijski inżynier IT i przedsiębiorca. Twórca terminu „DevOps\" i organizator pierwszej konferencji DevOpsDays w Gandawie w 2009 roku. Jego wizja integracji zespołów development i operations zapoczątkowała globalny ruch DevOps. Konsultant i prelegent, który zmienił sposób wytwarzania oprogramowania na świecie.",
-        "sourceUrl": "https://www.google.com/search?q=Patrick%20Debois"
+        "bio": "Amerykański inżynier i ewangelista (ur. 1981). Jeden z najważniejszych głosów ruchu Kubernetes i cloud-native, developer advocate w Google Cloud. Autor „Kubernetes the Hard Way\", kultowego tutoriala. Samouk bez dyplomu uniwersyteckiego, inspiruje tysiące inżynierów DevOps na konferencjach na całym świecie.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kelsey_Hightower"
       },
       {
         "name": "Nicole Forsgren",
@@ -20876,7 +20846,7 @@
       ],
       "keywords": "komputery programowanie maszyny elektronika urządzenia technika"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot.",
+    "salaryNote": "GUS nie wyodrębnia tego zawodu z grupy informatyków, dlatego nie ma osobnych kwot.",
     "codeUnverified": true
   },
   {
@@ -22059,12 +22029,6 @@
       ]
     },
     "famousPeople": [
-      {
-        "name": "Thomas Limoncelli",
-        "description": "Autor 'The Practice of System and Network Administration'",
-        "bio": "Amerykański administrator systemów i autor. Autor klasycznych podręczników „The Practice of System and Network Administration\" i „Time Management for System Administrators\". Pracował w Google i Stack Overflow. Jego książki są biblią administratorów systemowych, definiując najlepsze praktyki zarządzania infrastrukturą IT.",
-        "sourceUrl": "https://www.google.com/search?q=Thomas%20Limoncelli"
-      },
       {
         "name": "Linus Torvalds",
         "description": "Twórca jądra Linux",
@@ -24318,7 +24282,7 @@
       {
         "name": "Adrian Chmielarz",
         "description": "Twórca Painkiller i The Vanishing of Ethan Carter",
-        "bio": "Polski projektant gier (ur. 1973). Współzałożyciel studia People Can Fly (Painkiller, Bulletstorm) i The Astronauts (The Vanishing of Ethan Carter). Jeden z najbardziej uznanych polskich twórców gier wideo.",
+        "bio": "Polski projektant gier (ur. 1971). Współzałożyciel studia People Can Fly (Painkiller, Bulletstorm) i The Astronauts (The Vanishing of Ethan Carter). Jeden z najbardziej uznanych polskich twórców gier wideo.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Adrian_Chmielarz"
       },
       {
@@ -26078,15 +26042,9 @@
     "famousPeople": [
       {
         "name": "Warren Buffett",
-        "description": "Legendarny inwestor, prezes Berkshire Hathaway",
-        "bio": "Amerykański inwestor i filantrop (ur. 1930). Prezes Berkshire Hathaway, jeden z najbogatszych ludzi świata, nazywany „Wyrocznią z Omaha\". Zwolennik inwestowania długoterminowego w wartość (value investing). Zobowiązał się przekazać 99% majątku na cele charytatywne w ramach The Giving Pledge.",
+        "description": "Legendarny inwestor, wieloletni prezes Berkshire Hathaway",
+        "bio": "Amerykański inwestor i filantrop (ur. 1930). Wieloletni prezes Berkshire Hathaway, jeden z najbogatszych ludzi świata, nazywany „Wyrocznią z Omaha\". Zwolennik inwestowania długoterminowego w wartość (value investing). Zobowiązał się przekazać 99% majątku na cele charytatywne w ramach The Giving Pledge.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Warren_Buffett"
-      },
-      {
-        "name": "Marcin Iwuć",
-        "description": "Polski bloger finansowy, autor 'Finansowy Ninja'",
-        "bio": "Polski bloger finansowy i przedsiębiorca. Autor bestsellera „Finansowy Ninja\", najpopularniejszej polskiej książki o finansach osobistych, sprzedanej w ponad 100 000 egzemplarzy. Prowadzi blog „Finanse Bardzo Osobiste\", edukuje Polaków w zakresie oszczędzania, inwestowania i budowania wolności finansowej.",
-        "sourceUrl": "https://www.google.com/search?q=Marcin%20Iwu%C4%87"
       },
       {
         "name": "Benjamin Graham",
@@ -27181,13 +27139,13 @@
         "name": "Dave Ulrich",
         "description": "Twórca modelu ról HR",
         "bio": "Amerykański profesor i konsultant HR (ur. 1953). Twórca modelu ról HR (HR Business Partner, Centers of Excellence, Shared Services), stosowanego w korporacjach na całym świecie. Profesor University of Michigan, autor 30 książek o zarządzaniu zasobami ludzkimi. Nazywany ojcem nowoczesnego HR.",
-        "sourceUrl": "https://www.google.com/search?q=Dave%20Ulrich"
+        "sourceUrl": "https://en.wikipedia.org/wiki/Dave_Ulrich"
       },
       {
         "name": "Laszlo Bock",
         "description": "Były VP People Operations w Google",
         "bio": "Amerykański menedżer HR (ur. 1972). Były VP People Operations w Google (2006 do 2016), gdzie zrewolucjonizował rekrutację i zarządzanie talentami opierając decyzje HR na danych. Autor bestsellera „Work Rules!\" o kulturze organizacyjnej Google. CEO Humu, firmy łączącej AI z zarządzaniem ludźmi.",
-        "sourceUrl": "https://www.google.com/search?q=Laszlo%20Bock"
+        "sourceUrl": "https://en.wikipedia.org/wiki/Laszlo_Bock"
       },
       {
         "name": "Daniel Goleman",
@@ -27273,7 +27231,7 @@
       "asOf": "2024-10",
       "sourceName": "GUS, Struktura wynagrodzeń według zawodów za październik 2024 r.",
       "sourceUrl": "https://stat.gov.pl/obszary-tematyczne/rynek-pracy/pracujacy-zatrudnieni-wynagrodzenia-koszty-pracy/struktura-wynagrodzen-wedlug-zawodow-za-pazdziernik-2024-r-,4,12.html",
-      "scope": "zawód",
+      "scope": "grupa",
       "group": "Specjaliści do spraw sprzedaży, marketingu i public relations"
     },
     "demand": "zrównoważony",
@@ -28060,7 +28018,7 @@
       {
         "name": "Paweł Tkaczyk",
         "description": "Polski strateg marketingowy, autor 'Grywalizacja'",
-        "bio": "Polski strateg marketingowy i mówca (ur. 1979). Autor bestsellerów „Grywalizacja\" i „Narratologia\" o wykorzystaniu opowieści i gier w marketingu. Współzałożyciel agencji MIDEA, konsultant marek. Jeden z najpopularniejszych polskich prelegentów biznesowych, łączy marketing z psychologią i kulturą.",
+        "bio": "Polski strateg marketingowy i mówca (ur. 1978). Autor bestsellerów „Grywalizacja\" i „Narratologia\" o wykorzystaniu opowieści i gier w marketingu. Współzałożyciel agencji MIDEA, konsultant marek. Jeden z najpopularniejszych polskich prelegentów biznesowych, łączy marketing z psychologią i kulturą.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Paweł_Tkaczyk"
       },
       {
@@ -28152,7 +28110,7 @@
       "asOf": "2024-10",
       "sourceName": "GUS, Struktura wynagrodzeń według zawodów za październik 2024 r.",
       "sourceUrl": "https://stat.gov.pl/obszary-tematyczne/rynek-pracy/pracujacy-zatrudnieni-wynagrodzenia-koszty-pracy/struktura-wynagrodzen-wedlug-zawodow-za-pazdziernik-2024-r-,4,12.html",
-      "scope": "zawód",
+      "scope": "grupa",
       "group": "Specjaliści do spraw sprzedaży, marketingu i public relations"
     },
     "demand": "zrównoważony",
@@ -29871,8 +29829,8 @@
     "famousPeople": [
       {
         "name": "Witold Modzelewski",
-        "description": "Były wiceminister finansów, ekspert podatkowy",
-        "bio": "Polski prawnik i ekonomista (ur. 1949). Były wiceminister finansów, profesor Uniwersytetu Warszawskiego. Jeden z najczęściej cytowanych polskich ekspertów podatkowych, autor licznych komentarzy do ustaw o VAT i akcyzie. Prowadzi Instytut Studiów Podatkowych, kształci pokolenia doradców podatkowych.",
+        "description": "Profesor prawa, doradca podatkowy",
+        "bio": "Polski prawnik (ur. 1956), profesor nauk prawnych na Uniwersytecie Warszawskim, doradca podatkowy i prezes Instytutu Studiów Podatkowych.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Witold_Modzelewski"
       },
       {
@@ -30664,12 +30622,6 @@
       ]
     },
     "famousPeople": [
-      {
-        "name": "Arthur Andersen",
-        "description": "Założyciel jednej z największych firm audytorskich",
-        "bio": "Amerykański księgowy norweskiego pochodzenia (1885 do 1947). Założyciel Arthur Andersen & Co. w 1913 roku, firmy audytorskiej, która wyrosła na jedną z największych na świecie (Big Five). Pionier niezależnego audytu finansowego, stawiał rzetelność ponad zysk. Wprowadził standardy etyki w rewizji finansowej.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Arthur_Andersen"
-      },
       {
         "name": "William Welch Deloitte",
         "description": "Założyciel firmy Deloitte",
@@ -31636,7 +31588,7 @@
       ],
       "keywords": "ludzie rozmowy pomaganie zdrowie ciało człowieka"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie wyodrębnia tego zawodu z szerszej grupy, dlatego nie ma osobnych kwot."
   },
   {
     "id": "psychiatra",
@@ -32468,7 +32420,7 @@
       ],
       "keywords": "zdrowie ciało człowieka ludzie rozmowy pomaganie nauka badania eksperymenty"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS podaje płace lekarzy łącznie, bez podziału na specjalizacje, dlatego nie ma osobnych kwot."
   },
   {
     "id": "pediatra",
@@ -33401,7 +33353,7 @@
       ],
       "keywords": "zdrowie ciało człowieka dzieci młodzież ludzie rozmowy pomaganie"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS podaje płace lekarzy łącznie, bez podziału na specjalizacje, dlatego nie ma osobnych kwot."
   },
   {
     "id": "chirurg",
@@ -34350,7 +34302,7 @@
       ],
       "keywords": "zdrowie ciało człowieka nauka badania eksperymenty"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot.",
+    "salaryNote": "GUS podaje płace lekarzy łącznie, bez podziału na specjalizacje, dlatego nie ma osobnych kwot.",
     "codeUnverified": true
   },
   {
@@ -35213,7 +35165,7 @@
       {
         "name": "Marian Zembala",
         "description": "Kardiochirurg, były minister zdrowia",
-        "bio": "Polski kardiochirurg i polityk (1950 do 2016). Wybitny specjalista transplantologii, dyrektor Śląskiego Centrum Chorób Serca w Zabrzu. Wykonał setki przeszczepów serca i płuc. Był ministrem zdrowia w 2015 roku. Kontynuator dzieła Religi, rozwinął Zabrze w europejskie centrum kardiochirurgii.",
+        "bio": "Polski lekarz i kardiochirurg (1950 do 2022), profesor nauk medycznych. W 2015 roku minister zdrowia, poseł na Sejm VIII kadencji.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Marian_Zembala"
       },
       {
@@ -35279,7 +35231,7 @@
       ],
       "keywords": "zdrowie ciało człowieka nauka badania eksperymenty ludzie rozmowy pomaganie"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS podaje płace lekarzy łącznie, bez podziału na specjalizacje, dlatego nie ma osobnych kwot."
   },
   {
     "id": "sedzia",
@@ -36124,7 +36076,7 @@
       ],
       "keywords": "prawo zasady pisanie czytanie media"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie wyodrębnia sędziów i prokuratorów z grupy prawników, dlatego nie ma osobnych kwot."
   },
   {
     "id": "prokurator",
@@ -36962,7 +36914,7 @@
       ],
       "keywords": "prawo zasady bezpieczeństwo ratowanie mundur"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie wyodrębnia sędziów i prokuratorów z grupy prawników, dlatego nie ma osobnych kwot."
   },
   {
     "id": "notariusz",
@@ -37739,12 +37691,6 @@
     },
     "famousPeople": [
       {
-        "name": "Benoit Renaud",
-        "description": "Przewodniczący Międzynarodowej Unii Notariatu",
-        "bio": "Francuski notariusz, działacz samorządu międzynarodowego. Pełnił funkcję przewodniczącego Międzynarodowej Unii Notariatu (UINL), reprezentując środowisko notariuszy z ponad 90 krajów na arenie międzynarodowej. Działał na rzecz harmonizacji prawa notarialnego i wymiany doświadczeń między systemami prawnymi świata.",
-        "sourceUrl": "https://www.google.com/search?q=Benoit%20Renaud"
-      },
-      {
         "name": "Justynian I Wielki",
         "description": "Twórca prawa rzymskiego, fundamentu notariatu",
         "bio": "Cesarz bizantyjski (482 do 565). Zlecił kodyfikację prawa rzymskiego w Corpus Iuris Civilis, fundamencie europejskiego prawa cywilnego i notariatu. Ustanowił zasady sporządzania aktów urzędowych, które wpłynęły na kształt współczesnego notariatu w krajach tradycji kontynentalnej.",
@@ -37801,7 +37747,7 @@
       ],
       "keywords": "prawo zasady pisanie czytanie media"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "Te zawody wykonuje się zwykle na własnej działalności, której badanie GUS nie obejmuje, dlatego nie ma kwot."
   },
   {
     "id": "komornik",
@@ -38626,7 +38572,7 @@
       ],
       "keywords": "prawo zasady liczby analizy finanse matematyka"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "Te zawody wykonuje się zwykle na własnej działalności, której badanie GUS nie obejmuje, dlatego nie ma kwot."
   },
   {
     "id": "adwokat",
@@ -39477,7 +39423,7 @@
       ],
       "keywords": "prawo zasady ludzie rozmowy pomaganie"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "Te zawody wykonuje się zwykle na własnej działalności, której badanie GUS nie obejmuje, dlatego nie ma kwot."
   },
   {
     "id": "zolnierz-zawodowy",
@@ -40705,7 +40651,7 @@
       ],
       "keywords": "muzyka teatr film scena"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "Praca na umowach cywilnoprawnych i własnej działalności jest poza badaniem GUS, dlatego nie ma kwot."
   },
   {
     "id": "muzyk",
@@ -41138,7 +41084,7 @@
       ],
       "keywords": "muzyka teatr film scena rysowanie projektowanie tworzenie sztuka"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot.",
+    "salaryNote": "Praca na umowach cywilnoprawnych i własnej działalności jest poza badaniem GUS, dlatego nie ma kwot.",
     "codeUnverified": true
   },
   {
@@ -41358,7 +41304,7 @@
       ],
       "keywords": "muzyka teatr film scena rysowanie projektowanie tworzenie sztuka pisanie czytanie media"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "Praca na umowach cywilnoprawnych i własnej działalności jest poza badaniem GUS, dlatego nie ma kwot."
   },
   {
     "id": "architekt-wnetrz",
@@ -41826,14 +41772,14 @@
       {
         "name": "Dorota Szelągowska",
         "description": "Projektantka wnętrz, prowadząca programy telewizyjne",
-        "bio": "Polska projektantka wnętrz i prezenterka telewizyjna (ur. 1978). Prowadząca programy „Dorota inspiruje\" i „Totalne remonty Szelągowskiej\", najpopularniejsza polska projektantka wnętrz w mediach. Córka Katarzyny Grocholi. Jej programy zmieniły podejście Polaków do urządzania mieszkań.",
+        "bio": "Polska projektantka wnętrz i prezenterka telewizyjna (ur. 1980). Prowadząca programy „Dorota inspiruje\" i „Totalne remonty Szelągowskiej\", najpopularniejsza polska projektantka wnętrz w mediach. Córka Katarzyny Grocholi. Jej programy zmieniły podejście Polaków do urządzania mieszkań.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Dorota_Szelągowska"
       },
       {
         "name": "Kelly Wearstler",
         "description": "Amerykańska ikona designu wnętrz",
         "bio": "Amerykańska projektantka wnętrz (ur. 1967). Ikona designu wnętrz, znana z odważnych, eklektycznych projektów luksusowych hoteli i rezydencji. Projektantka wnętrz hoteli sieci Proper i Viceroy. Jej styl łączący glamour z artystyczną awangardą zdefiniował amerykański luksus XXI wieku.",
-        "sourceUrl": "https://www.google.com/search?q=Kelly%20Wearstler"
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kelly_Wearstler"
       },
       {
         "name": "Elsie de Wolfe",
@@ -42053,7 +41999,7 @@
       {
         "name": "Maciej Zień",
         "description": "Jeden z najsłynniejszych polskich projektantów mody",
-        "bio": "Polski projektant mody (ur. 1975). Jeden z najsłynniejszych polskich projektantów, znany z dramatycznych pokazów mody. Ubierał gwiazdy polskiego show-biznesu, współpracował z markami luksusowymi. Trzykrotny laureat nagrody Elle Style Awards, rozpoznawany na polskiej i międzynarodowej scenie modowej.",
+        "bio": "Polski projektant mody (ur. 1979). Jeden z najsłynniejszych polskich projektantów, znany z dramatycznych pokazów mody. Ubierał gwiazdy polskiego show-biznesu, współpracował z markami luksusowymi. Trzykrotny laureat nagrody Elle Style Awards, rozpoznawany na polskiej i międzynarodowej scenie modowej.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Maciej_Zień"
       },
       {
@@ -43434,7 +43380,7 @@
       ],
       "keywords": "dzieci młodzież ludzie rozmowy pomaganie"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie wyodrębnia tego zawodu z szerszej grupy, dlatego nie ma osobnych kwot."
   },
   {
     "id": "logopeda",
@@ -44098,7 +44044,7 @@
       ],
       "keywords": "dzieci młodzież zdrowie ciało człowieka ludzie rozmowy pomaganie"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie wyodrębnia tego zawodu z szerszej grupy, dlatego nie ma osobnych kwot."
   },
   {
     "id": "nauczyciel-akademicki",
@@ -45217,12 +45163,6 @@
     },
     "famousPeople": [
       {
-        "name": "Chad Robertson",
-        "description": "Założyciel Tartine Bakery, guru zakwasu",
-        "bio": "Amerykański piekarz (ur. ok. 1970). Założyciel legendarnej Tartine Bakery w San Francisco, jednej z najsłynniejszych piekarni na świecie. Jego „Tartine Bread\" stała się biblią piekarstwa na zakwasie. Uczył się piekarstwa we Francji, jego chleb country loaf jest kultowy wśród miłośników wypieków.",
-        "sourceUrl": "https://www.google.com/search?q=Chad%20Robertson"
-      },
-      {
         "name": "Apollonia Poilâne",
         "description": "Szefowa legendarnej piekarni Poilâne w Paryżu",
         "bio": "Francuska piekarka i przedsiębiorca (ur. 1984). W wieku 18 lat przejęła rodzinną piekarnię Poilâne w Paryżu po tragicznej śmierci rodziców. Jej chleb na zakwasie (pain Poilâne) jest eksportowany do 20 krajów. Studiowała na Harvardzie, łącząc tradycję piekarską z nowoczesnym biznesem.",
@@ -45339,13 +45279,13 @@
       {
         "name": "Agnieszka Rojewska",
         "description": "Polka, Mistrzyni Świata Baristów 2018",
-        "bio": "Polska baristka i trenerka (ur. ok. 1985). Mistrzyni Świata Baristów 2018, pierwsza kobieta i pierwsza Polka, która zdobyła ten tytuł. Współwłaścicielka palarni kawy Audun Coffee w Poznaniu. Sędzina i szkoleniowiec na międzynarodowych mistrzostwach, ambasadorka polskiej kultury kawy specialty.",
+        "bio": "Polska baristka i trenerka. Mistrzyni Świata Baristów 2018, pierwsza kobieta i pierwsza Polka, która zdobyła ten tytuł. Współwłaścicielka palarni kawy Audun Coffee w Poznaniu. Sędzina i szkoleniowiec na międzynarodowych mistrzostwach, ambasadorka polskiej kultury kawy specialty.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Agnieszka_Rojewska"
       },
       {
         "name": "James Hoffmann",
         "description": "Mistrz Świata Baristów, autor i youtuber",
-        "bio": "Brytyjski barista i przedsiębiorca (ur. 1981). Mistrz Świata Baristów 2007, założyciel palarni Square Mile Coffee Roasters w Londynie. Autor bestsellerowej „The World Atlas of Coffee\", prowadzi popularny kanał na YouTube o kawie z milionami subskrybentów. Ikona specialty coffee.",
+        "bio": "Brytyjski barista i przedsiębiorca. Mistrz Świata Baristów 2007, założyciel palarni Square Mile Coffee Roasters w Londynie. Autor bestsellerowej „The World Atlas of Coffee\", prowadzi popularny kanał na YouTube o kawie z milionami subskrybentów. Ikona specialty coffee.",
         "sourceUrl": "https://en.wikipedia.org/wiki/James_Hoffmann"
       },
       {
@@ -45408,7 +45348,7 @@
       ],
       "keywords": "gotowanie jedzenie ludzie rozmowy pomaganie"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie przypisuje tego zawodu jednoznacznie do jednej grupy, dlatego nie ma kwot."
   },
   {
     "id": "pilot-wycieczek",
@@ -46110,7 +46050,7 @@
         "name": "Rick Steves",
         "description": "Amerykański guru turystyki europejskiej",
         "bio": "Amerykański podróżnik, pisarz i prezenter telewizyjny (ur. 1955). Autor bestsellerowych przewodników „Rick Steves' Europe\" i prowadzący program PBS o podróżach po Europie. Propagator tanich, kulturowych podróży, „podróżuj jak miejscowy, nie jak turysta\". Jego przewodniki sprzedały się w milionach egzemplarzy.",
-        "sourceUrl": "https://www.google.com/search?q=Rick%20Steves"
+        "sourceUrl": "https://en.wikipedia.org/wiki/Rick_Steves"
       },
       {
         "name": "Thomas Cook",
@@ -46181,7 +46121,7 @@
       ],
       "keywords": "podróże turystyka ludzie rozmowy pomaganie języki obce"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie przypisuje tego zawodu jednoznacznie do jednej grupy, dlatego nie ma kwot."
   },
   {
     "id": "stolarz",
@@ -46245,19 +46185,13 @@
         "name": "Sam Maloof",
         "description": "Legendarny amerykański stolarz-artysta",
         "bio": "Amerykański stolarz i artysta (1916 do 2009). Twórca kultowych foteli bujanych rzeźbionych ręcznie z litego drewna, wystawianych w Smithsonian i Metropolitan Museum of Art. Laureat MacArthur Fellowship, „nagrody dla geniuszy\". Symbol amerykańskiego rzemiosła artystycznego, nie używał wzorników, każdy mebel był unikalny.",
-        "sourceUrl": "https://www.google.com/search?q=Sam%20Maloof"
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sam_Maloof"
       },
       {
         "name": "Thomas Chippendale",
         "description": "Najsłynniejszy mebel brytyjski, ikona stolarstwa",
         "bio": "Brytyjski stolarz i projektant mebli (1718 do 1779). Autor „The Gentleman and Cabinet-Maker's Director\", pierwszego katalogu wzorów mebli. Jego eleganckie meble w stylu rokoko i neogotyku definiowały gust epoki. Styl Chippendale do dziś jest synonimem najwyższej klasy meblarstwa.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Thomas_Chippendale"
-      },
-      {
-        "name": "Tadeusz Kantor",
-        "description": "Artysta totalny, twórca teatru przedmiotów",
-        "bio": "Polski artysta, reżyser teatralny i scenograf (1915 do 1990). Choć znany głównie z teatru, rozpoczynał karierę jako konstruktor scenografii i obiektów z drewna. Twórca „Teatru Śmierci\" i słynnej „Umarłej klasy\", w których rzemiosło stolarskie służyło wizji artystycznej.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Tadeusz_Kantor"
       },
       {
         "name": "Nakashima George",
@@ -46315,7 +46249,7 @@
       ],
       "keywords": "budowanie praca rękami majsterkowanie maszyny elektronika urządzenia technika"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie przypisuje tego zawodu jednoznacznie do jednej grupy, dlatego nie ma kwot."
   },
   {
     "id": "inzynier-budownictwa",
@@ -52288,12 +52222,6 @@
     },
     "famousPeople": [
       {
-        "name": "Jadwiga Łuszczewska",
-        "description": "Pionierka polskiego rolnictwa ekologicznego",
-        "bio": "Polska pionierka rolnictwa ekologicznego i działaczka społeczna. Propagatorka zrównoważonego rolnictwa i ochrony tradycyjnych odmian roślin w Polsce. Działała na rzecz ekologicznych metod uprawy i przetwórstwa żywności, inspirując ruch rolnictwa organicznego w Polsce. Łączyła wiedzę naukową z praktyką rolniczą.",
-        "sourceUrl": "https://www.google.com/search?q=Jadwiga%20%C5%81uszczewska"
-      },
-      {
         "name": "Norman Borlaug",
         "description": "Ojciec Zielonej Rewolucji, noblista",
         "bio": "Amerykański agronom (1914 do 2009). Laureat Pokojowej Nagrody Nobla za Zieloną Rewolucję, wyhodował wysokoplenne odmiany pszenicy, które uratowały od głodu ponad miliard ludzi w Azji i Ameryce Łacińskiej. Nazywany „człowiekiem, który nakarmił świat\".",
@@ -52363,7 +52291,7 @@
       ],
       "keywords": "przyroda rośliny środowisko zwierzęta maszyny elektronika urządzenia technika biznes sprzedaż organizowanie"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "Rolnicy pracują głównie na własny rachunek, a badanie GUS obejmuje tylko pracowników etatowych, dlatego nie ma kwot."
   },
   {
     "id": "lesnik",
@@ -52727,8 +52655,8 @@
     "famousPeople": [
       {
         "name": "Adam Loret",
-        "description": "Pierwszy dyrektor Lasów Państwowych",
-        "bio": "Polski leśnik i organizator (1884 do 1940). Pierwszy dyrektor naczelny Lasów Państwowych (1924 do 1939), twórca nowoczesnej organizacji leśnictwa w Polsce. Pod jego kierownictwem Lasy Państwowe stały się wzorową instytucją zarządzania zasobami leśnymi. Zginął w obozie Sachsenhausen podczas okupacji niemieckiej.",
+        "description": "Polski leśnik, ofiara sowieckich represji w 1939 roku",
+        "bio": "Polski leśnik (1884 do 1939), ofiara sowieckich represji w 1939 roku.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Adam_Loret"
       },
       {
@@ -52792,7 +52720,7 @@
       ],
       "keywords": "przyroda rośliny środowisko zwierzęta"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot.",
+    "salaryNote": "GUS nie przypisuje tego zawodu jednoznacznie do jednej grupy, dlatego nie ma kwot.",
     "codeUnverified": true
   },
   {
@@ -53058,7 +52986,7 @@
         "name": "Monty Don",
         "description": "Brytyjski ogrodnik, prezenter Gardeners' World",
         "bio": "Brytyjski ogrodnik, pisarz i prezenter telewizyjny (ur. 1955). Prowadzący kultowy program BBC „Gardeners' World\" od 2003 roku, najpopularniejszy ogrodnik w Wielkiej Brytanii. Autor licznych książek ogrodniczych, propagator ogrodnictwa organicznego. Jego ogrody w Longmeadow inspirują miliony widzów.",
-        "sourceUrl": "https://www.google.com/search?q=Monty%20Don"
+        "sourceUrl": "https://en.wikipedia.org/wiki/Monty_Don"
       },
       {
         "name": "Capability Brown",
@@ -53127,7 +53055,7 @@
       ],
       "keywords": "przyroda rośliny środowisko budowanie praca rękami majsterkowanie"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "GUS nie przypisuje tego zawodu jednoznacznie do jednej grupy, dlatego nie ma kwot."
   },
   {
     "id": "inzynier-srodowiska",

@@ -396,7 +396,12 @@
     const group = s.scope === 'grupa'
       ? ` Liczba dotyczy całej grupy zawodów „${escapeHtml(s.group)}”, więc obejmuje też pokrewne zawody.`
       : ` Dane GUS dla grupy zawodów „${escapeHtml(s.group)}”.`;
-    return `<p class="career-hero__note">Według GUS (październik 2024) połowa pracowników zarabia mniej niż ${fmtZl(s.median)}, a połowa więcej. Większość (80%) dostaje od ${fmtZl(s.min)} do ${fmtZl(s.max)}. To kwoty brutto, czyli przed odjęciem podatków i składek.${group} Dane dotyczą tylko etatów w firmach od 10 osób.${src}</p>`;
+    // Gdy dolny przedział równa się medianie, większość pracowników dostaje tę samą kwotę (u nas to płaca minimalna z października 2024)
+    const floor = s.min >= s.median;
+    const spread = floor
+      ? `Według GUS (październik 2024) co najmniej połowa pracowników zarabia ${fmtZl(s.median)} brutto, czyli tyle, ile wynosiła wtedy płaca minimalna. Tylko co dziesiąty dostaje więcej niż ${fmtZl(s.max)}.`
+      : `Według GUS (październik 2024) połowa pracowników zarabia mniej niż ${fmtZl(s.median)}, a połowa więcej. Większość (80%) dostaje od ${fmtZl(s.min)} do ${fmtZl(s.max)}.`;
+    return `<p class="career-hero__note">${spread} To kwoty brutto, czyli przed odjęciem podatków i składek.${group} Dane dotyczą tylko etatów w firmach od 10 osób.${src}</p>`;
   }
 
   function pluralZawod(n) {
@@ -642,7 +647,7 @@
     a.className = 'result-card result-card--simple';
     a.innerHTML = `
       <div class="result-card__name">${escapeHtml(entry.name)}</div>
-      <div class="result-card__code">KZiS: ${escapeHtml(entry.code)} · ${escapeHtml(entry.group || '')}</div>
+      <div class="result-card__code">${entry.codeUnverified ? escapeHtml(entry.group || '') : `KZiS: ${escapeHtml(entry.code)} · ${escapeHtml(entry.group || '')}`}</div>
     `;
     return a;
   }
@@ -1052,7 +1057,7 @@
       <div class="career-hero career-hero--detail">
         ${categoryBadge}
         <h1 class="career-hero__name">${escapeHtml(kzis.name)}</h1>
-        <p class="career-hero__code">KZiS: ${escapeHtml(kzis.code)}${kzis.group ? ` · ${escapeHtml(kzis.group)}` : ''}</p>
+        ${kzis.codeUnverified ? (kzis.group ? `<p class="career-hero__code">${escapeHtml(kzis.group)}</p>` : '') : `<p class="career-hero__code">KZiS: ${escapeHtml(kzis.code)}${kzis.group ? ` · ${escapeHtml(kzis.group)}` : ''}</p>`}
       </div>
 
       <div class="career-fallback">
@@ -1077,7 +1082,7 @@
     const heading = careerDetail.querySelector('.career-hero__name');
     if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true }); }
     announce(`Zawód: ${kzis.name}`);
-    updateMeta(`${kzis.name} | NextMove`, `Profil zawodu: ${kzis.name}`, `${BASE}/zawod/${kzis.id}`);
+    updateMeta(`${kzis.name} | NextMove`, `Profil zawodu: ${kzis.name}`, `${BASE}/zawod/${kzis.id || kzis.code}/`);
   }
 
   // --- Popup utilities (focus trap + focus return) ---

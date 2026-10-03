@@ -31,6 +31,9 @@ for (const c of careers) {
     delete c.codeUnverified;
   }
 }
+// Wpisy indeksu KZiS bez profilu mają kody z naszej własnej listy (co najmniej 36 z 38 niezgodnych z rozporządzeniem z 2025),
+// więc strona pokazuje przy nich tylko grupę, bez numeru, dopóki nie zostaną zweryfikowane.
+for (const k of kzis) if (!k.id) k.codeUnverified = true;
 // Wpisy KZiS bez profilu, które po zmianach dzielą kod z profilem, nie mogą go dublować
 const richCodes = new Set(careers.filter(c => !c.codeUnverified).map(c => c.code));
 const before = kzis.length;
