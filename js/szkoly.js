@@ -642,9 +642,9 @@ const Szkoly = (function () {
     const th = (p.thresholds || []).slice().sort((a, b) => b.year - a.year);
     if (!th.length) return '';
     return th.map(t => {
-      const who = t.kind === 'wstępna kwalifikacja' ? 'wstępna kwalifikacja' : t.kind ? 'ostatnia osoba zakwalifikowana' : 'ostatnia osoba przyjęta';
+      const who = t.kind === 'wstępna kwalifikacja' ? 'wstępna kwalifikacja' : t.kind ? 'ostatnia osoba zakwalifikowana' : 'rodzaj progu podaje źródło';
       const admitted = t.qualified != null && t.places
-        ? `<div class="szkola__muted">Przyjętych: ${esc(t.qualified)} na ${esc(t.places)} ${plural(t.places, 'miejsce', 'miejsca', 'miejsc')}.</div>`
+        ? `<div class="szkola__muted">${t.kind === 'zakwalifikowani' ? 'Zakwalifikowanych' : 'Przyjętych'}: ${esc(t.qualified)} na ${esc(t.places)} ${plural(t.places, 'miejsce', 'miejsca', 'miejsc')}.</div>`
         : '';
       const notes = [
         t.scale !== 200 ? 'Skala inna niż 200 pkt, więc ten próg nie jest porównywalny z wynikiem z kalkulatora.' : '',

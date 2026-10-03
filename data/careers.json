@@ -914,12 +914,12 @@
         "name": "Kazimierz Dąbrowski",
         "description": "Twórca teorii dezintegracji pozytywnej",
         "bio": "Polski psychiatra i psycholog (1902-1980). Stworzył teorię dezintegracji pozytywnej, opisującą rozwój osobowości przez kryzysy emocjonalne. Pracował na Uniwersytecie Alberta w Kanadzie oraz w Polsce. Jego teoria łączy psychologię z filozofią i jest stosowana w pracy z osobami zdolnymi na całym świecie.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Kazimierz_Dąbrowski"
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Kazimierz_Dąbrowski_(psycholog)"
       },
       {
         "name": "Jerzy Mellibruda",
-        "description": "Pionier terapii uzależnień w Polsce",
-        "bio": "Polski psycholog i psychoterapeuta (1939-2014). Pionier leczenia uzależnień w Polsce, współtwórca Państwowej Agencji Rozwiązywania Problemów Alkoholowych. Autor licznych publikacji z zakresu psychologii uzależnień i przemocy domowej, twórca programów terapeutycznych stosowanych w ośrodkach leczenia w całym kraju.",
+        "description": "Psycholog, specjalista od uzależnień",
+        "bio": "Polski psycholog i psychoterapeuta (1938-2020), profesor w Szkole Wyższej Psychologii Społecznej. Specjalizował się w problematyce uzależnień, autor prac z dziedziny psychologii, w tym o problemach alkoholowych.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Jerzy_Mellibruda"
       },
       {
@@ -1015,7 +1015,7 @@
       "asOf": "2024-10",
       "sourceName": "GUS, Struktura wynagrodzeń według zawodów za październik 2024 r.",
       "sourceUrl": "https://stat.gov.pl/obszary-tematyczne/rynek-pracy/pracujacy-zatrudnieni-wynagrodzenia-koszty-pracy/struktura-wynagrodzen-wedlug-zawodow-za-pazdziernik-2024-r-,4,12.html",
-      "scope": "zawód",
+      "scope": "grupa",
       "group": "Analitycy systemów komputerowych i programiści"
     },
     "demand": "deficytowy",
@@ -5399,7 +5399,7 @@
         "name": "Henryk Tomaszewski",
         "description": "Ikona polskiej szkoły plakatu",
         "bio": "Polski grafik i plakacista (1914-2005). Ikona polskiej szkoły plakatu, profesor Akademii Sztuk Pięknych w Warszawie. Jego prace wystawiano w najważniejszych muzeach świata, m.in. w MoMA w Nowym Jorku. Wychowawca pokoleń polskich grafików, laureat złotego medalu na Biennale w São Paulo.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Henryk_Tomaszewski"
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Henryk_Tomaszewski_(grafik)"
       },
       {
         "name": "Jan Lenica",
@@ -10603,12 +10603,6 @@
         "sourceUrl": "https://pl.wikipedia.org/wiki/Luca_Pacioli"
       },
       {
-        "name": "Witold Bień",
-        "description": "Nestror polskiej rachunkowości",
-        "bio": "Polski profesor nauk ekonomicznych, wybitny specjalista rachunkowości finansowej. Wieloletni wykładowca Szkoły Głównej Handlowej w Warszawie. Autor podręczników rachunkowości, z których kształciły się pokolenia polskich księgowych. Członek Rady Naukowej Stowarzyszenia Księgowych w Polsce.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Rachunkowość"
-      },
-      {
         "name": "Mary Harris Smith",
         "description": "Pierwsza kobieta biegły rewident w UK",
         "bio": "Brytyjska księgowa (1844-1934). Pierwsza kobieta przyjęta do Institute of Chartered Accountants w Anglii i Walii. Przełamała barierę płci w zawodzie księgowego, otwierając drogę kolejnym pokoleniom kobiet. Jej determinacja zmieniła oblicze profesji na całym świecie.",
@@ -14393,12 +14387,6 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Peter_Safar"
       },
       {
-        "name": "Wiesław Jedliczka",
-        "description": "Twórca polskiego systemu ratownictwa medycznego",
-        "bio": "Polski lekarz ratunkowy i organizator systemu ratownictwa. Jeden z pionierów budowy Państwowego Ratownictwa Medycznego w Polsce po 1999 roku. Działał na rzecz profesjonalizacji zawodu ratownika medycznego i wprowadzenia standardów szkolenia ratowników w całym kraju.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Ratownictwo_medyczne"
-      },
-      {
         "name": "Caroline Hampton",
         "description": "Pionierka sterylności w ratownictwie i chirurgii",
         "bio": "Amerykańska pielęgniarka chirurgiczna (1861-1922). Jej wrażliwość skóry na środki odkażające zainspirowała męża, chirurga Williama Halsteda, do wynalezienia gumowych rękawiczek operacyjnych. Ta innowacja zrewolucjonizowała higienę w chirurgii i ratownictwie medycznym na całym świecie.",
@@ -15346,8 +15334,8 @@
     "famousPeople": [
       {
         "name": "Marek Papała",
-        "description": "Komendant Główny Policji, ofiara niewyjaśnionej zbrodni",
-        "bio": "Polski policjant i generał (1952-1998). Komendant Główny Policji w latach 1994 do 1997, zginął w niewyjaśnionych okolicznościach. Za jego kadencji przeprowadzono reformę policji i walkę z przestępczością zorganizowaną. Jego śmierć pozostaje jedną z największych zagadek kryminalnych III RP.",
+        "description": "Komendant Główny Policji w latach 1997-1998",
+        "bio": "Polski policjant, nadinspektor Policji (1959-1998). Komendant główny Policji w latach 1997-1998. Zginął w Warszawie w 1998 roku.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Marek_Papała"
       },
       {
@@ -15567,12 +15555,6 @@
         "description": "Założyciel pierwszej ochotniczej straży pożarnej w USA",
         "bio": "Amerykański naukowiec, polityk i wynalazca (1706-1790). W 1736 roku założył Union Fire Company w Filadelfii, pierwszą zorganizowaną ochotniczą straż pożarną w Ameryce. Wprowadził też pierwsze ubezpieczenia przeciwpożarowe. Jeden z Ojców Założycieli Stanów Zjednoczonych.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Benjamin_Franklin"
-      },
-      {
-        "name": "Walenty Wasilewski",
-        "description": "Pierwszy Komendant Główny PSP",
-        "bio": "Polski strażak i generał brygadier. Pierwszy Komendant Główny Państwowej Straży Pożarnej po reformie z 1992 roku, kiedy pożarnictwo państwowe zostało przekształcone w profesjonalną formację. Kierował budową nowoczesnych struktur PSP i wdrożeniem systemu krajowego ratownictwa gaśniczego.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Państwowa_Straż_Pożarna"
       }
     ],
     "relatedCareers": [
@@ -16472,22 +16454,10 @@
     },
     "famousPeople": [
       {
-        "name": "Anna Lewandowska",
-        "description": "Dietetyk sportowy, trenerka, przedsiębiorca",
-        "bio": "Polska dietetyczka, trenerka i przedsiębiorca (ur. 1988). Mistrzyni karate (czarny pas 3 dan), twórczyni marki Healthy Center i aplikacji Diet & Training by Ann. Popularyzatorka zdrowego stylu życia w Polsce, autorka bestsellerowych książek kucharskich. Jedna z najchętniej obserwowanych Polek w mediach społecznościowych.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Anna_Lewandowska"
-      },
-      {
         "name": "Ancel Keys",
         "description": "Twórca diety śródziemnomorskiej",
         "bio": "Amerykański fizjolog i dietetyk (1904-2004). Autor przełomowego „Seven Countries Study\", który wykazał związek diety z chorobami serca. Twórca koncepcji diety śródziemnomorskiej i wynalazca racji żywnościowych K-ration dla armii USA. Dożył 100 lat, będąc żywym dowodem swoich teorii.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Ancel_Keys"
-      },
-      {
-        "name": "Jadwiga Biernat",
-        "description": "Nestorka polskiej nauki o żywieniu",
-        "bio": "Polska profesor nauk o żywieniu. Wieloletnia kierownik Katedry Żywienia Człowieka Uniwersytetu Przyrodniczego we Wrocławiu. Autorka podręczników i publikacji naukowych z zakresu dietetyki i bromatologii. Wychowała pokolenia polskich dietetyków i specjalistów żywienia klinicznego.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Dietetyka"
       },
       {
         "name": "Wilbur Atwater",
@@ -17533,8 +17503,8 @@
     "famousPeople": [
       {
         "name": "Irena Tuwim",
-        "description": "Tłumaczka literatury rosyjskiej",
-        "bio": "Polska tłumaczka (1900-1987). Wybitna tłumaczka literatury rosyjskiej na język polski, siostra poety Juliana Tuwima. Przełożyła dzieła m.in. Tołstoja, Czechowa i Bułhakowa.",
+        "description": "Tłumaczka literatury dla dzieci i młodzieży",
+        "bio": "Polska poetka, prozaiczka i tłumaczka (1898-1987), siostra Juliana Tuwima. Tłumaczyła literaturę dla dzieci i młodzieży.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Irena_Tuwim"
       },
       {
@@ -20857,12 +20827,6 @@
         "sourceUrl": "https://www.google.com/search?q=Patrick%20Debois"
       },
       {
-        "name": "Gene Kim",
-        "description": "Autor „The Phoenix Project\", ewangelista DevOps",
-        "bio": "Amerykański badacz i autor (ur. ok. 1970). Współautor „The Phoenix Project\" i „The DevOps Handbook\", biblii ruchu DevOps. Założyciel IT Revolution, organizator konferencji DevOps Enterprise Summit. Jego prace nad przepływem wartości w IT zdefiniowały kulturę DevOps na świecie.",
-        "sourceUrl": "https://en.wikipedia.org/wiki/Gene_Kim"
-      },
-      {
         "name": "Nicole Forsgren",
         "description": "Autorka badań DORA, współautorka „Accelerate\"",
         "bio": "Amerykańska badaczka i informatyczka. Współautorka raportu DORA (DevOps Research and Assessment) i książki „Accelerate\", opartych na wieloletnich badaniach tysięcy zespołów IT. Jej metryki (deployment frequency, lead time, MTTR, change failure rate) stały się standardem pomiaru DevOps.",
@@ -22196,7 +22160,7 @@
       "asOf": "2024-10",
       "sourceName": "GUS, Struktura wynagrodzeń według zawodów za październik 2024 r.",
       "sourceUrl": "https://stat.gov.pl/obszary-tematyczne/rynek-pracy/pracujacy-zatrudnieni-wynagrodzenia-koszty-pracy/struktura-wynagrodzen-wedlug-zawodow-za-pazdziernik-2024-r-,4,12.html",
-      "scope": "zawód",
+      "scope": "grupa",
       "group": "Technicy do spraw technologii teleinformatycznych i pomocy użytkownikom urządzeń teleinformatycznych"
     },
     "demand": "deficytowy",
@@ -23378,7 +23342,7 @@
       "asOf": "2024-10",
       "sourceName": "GUS, Struktura wynagrodzeń według zawodów za październik 2024 r.",
       "sourceUrl": "https://stat.gov.pl/obszary-tematyczne/rynek-pracy/pracujacy-zatrudnieni-wynagrodzenia-koszty-pracy/struktura-wynagrodzen-wedlug-zawodow-za-pazdziernik-2024-r-,4,12.html",
-      "scope": "zawód",
+      "scope": "grupa",
       "group": "Analitycy systemów komputerowych i programiści"
     },
     "demand": "zrównoważony",
@@ -26276,7 +26240,8 @@
               "tuition": "12500 PLN/semestr",
               "thresholds": [],
               "tuitionSource": "https://www.kozminski.edu.pl/pl/oferta-edukacyjna/studia-i-stopnia/zarzadzanie-i-psychologia-biznesu",
-              "tuitionYear": "2026/2027"
+              "tuitionYear": "2026/2027",
+              "tuitionNote": "12 500 zł na I roku, 13 500 zł na II roku i 14 200 zł na III roku (według źródła)."
             },
             {
               "type": "niestacjonarne",
@@ -28974,12 +28939,6 @@
         "description": "Pionier nowoczesnego PR korporacyjnego",
         "bio": "Amerykański specjalista PR (1877-1934). Uważany za ojca nowoczesnego PR korporacyjnego obok Bernaysa. Doradzał Rockefellerowi po masakrze w Ludlow, stworzył koncepcję otwartej komunikacji z mediami. Autor „Declaration of Principles\", pierwszego kodeksu etyki PR.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Ivy_Lee"
-      },
-      {
-        "name": "Jacek Kall",
-        "description": "Polski teoretyk public relations",
-        "bio": "Polski profesor nauk ekonomicznych, ekspert marketingu i PR. Autor podręczników „Public relations\" i „Reklama\", lektur obowiązkowych na polskich uczelniach. Wykładowca Uniwersytetu Łódzkiego, kształcił pokolenia polskich specjalistów komunikacji i public relations.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Public_relations"
       }
     ],
     "relatedCareers": [
@@ -29921,12 +29880,6 @@
         "sourceUrl": "https://pl.wikipedia.org/wiki/Witold_Modzelewski"
       },
       {
-        "name": "Hanna Litwińczuk",
-        "description": "Wybitna polska ekspertka prawa podatkowego",
-        "bio": "Polska profesor prawa podatkowego na Uniwersytecie Warszawskim. Autorka licznych publikacji i komentarzy do ustaw podatkowych, ekspertka doradztwa podatkowego. Członkini Państwowej Komisji Egzaminacyjnej ds. Doradztwa Podatkowego, współtworzyła standardy kształcenia doradców podatkowych w Polsce.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Doradca_podatkowy"
-      },
-      {
         "name": "Adam Smith",
         "description": "Ojciec ekonomii klasycznej i teorii podatków",
         "bio": "Szkocki filozof i ekonomista (1723-1790). Autor „Bogactwa narodów\", w którym sformułował cztery zasady dobrego systemu podatkowego: równość, pewność, wygoda i taniość poboru. Te „kanony Smitha\" do dziś stanowią fundament teorii opodatkowania na całym świecie.",
@@ -30720,18 +30673,6 @@
         "description": "Założyciel jednej z największych firm audytorskich",
         "bio": "Amerykański księgowy norweskiego pochodzenia (1885-1947). Założyciel Arthur Andersen & Co. w 1913 roku, firmy audytorskiej, która wyrosła na jedną z największych na świecie (Big Five). Pionier niezależnego audytu finansowego, stawiał rzetelność ponad zysk. Wprowadził standardy etyki w rewizji finansowej.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Arthur_Andersen"
-      },
-      {
-        "name": "Józef Wojciechowski",
-        "description": "Pionier audytu w Polsce",
-        "bio": "Polski ekonomista i biegły rewident. Jeden z twórców systemu rewizji finansowej w powojennej Polsce, działał na rzecz profesjonalizacji zawodu. Współorganizator Krajowej Izby Biegłych Rewidentów, przyczynił się do wprowadzenia międzynarodowych standardów audytu w polskiej praktyce rewizyjnej.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Biegły_rewident"
-      },
-      {
-        "name": "James Marwick",
-        "description": "Współzałożyciel firmy KPMG",
-        "bio": "Szkocko-amerykański księgowy (1860-1939). Współzałożyciel firmy Marwick, Mitchell & Company, która przekształciła się w KPMG, jedną z czterech największych firm audytorskich na świecie (Big Four). Pionier standaryzacji audytu finansowego w Stanach Zjednoczonych.",
-        "sourceUrl": "https://en.wikipedia.org/wiki/KPMG"
       },
       {
         "name": "William Welch Deloitte",
@@ -31629,8 +31570,8 @@
       },
       {
         "name": "Jerzy Mellibruda",
-        "description": "Pionier terapii uzależnień w Polsce",
-        "bio": "Polski psycholog i psychoterapeuta (1939-2014). Pionier leczenia uzależnień w Polsce, współtwórca Państwowej Agencji Rozwiązywania Problemów Alkoholowych. Autor licznych publikacji z zakresu psychologii uzależnień i przemocy domowej, twórca programów terapeutycznych stosowanych w ośrodkach leczenia w całym kraju.",
+        "description": "Psycholog, specjalista od uzależnień",
+        "bio": "Polski psycholog i psychoterapeuta (1938-2020), profesor w Szkole Wyższej Psychologii Społecznej. Specjalizował się w problematyce uzależnień, autor prac z dziedziny psychologii, w tym o problemach alkoholowych.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Jerzy_Mellibruda"
       },
       {
@@ -33413,12 +33354,6 @@
         "description": "Twórczyni skali Apgar dla noworodków",
         "bio": "Amerykańska lekarka i anestezjolożka (1909-1974). Stworzyła skalę Apgar, prosty system oceny stanu noworodka tuż po urodzeniu, stosowany dziś na całym świecie. Pierwsza kobieta-profesor na Columbia University. Jej skala uratowała miliony dzieci dzięki wczesnemu wykrywaniu problemów.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Virginia_Apgar"
-      },
-      {
-        "name": "Anna Paluch-Oleś",
-        "description": "Wybitna polska pediatra onkolog",
-        "bio": "Polska lekarka pediatra, specjalistka onkologii dziecięcej. Wieloletnia kierownik oddziału onkologii dziecięcej, tworzyła standardy leczenia nowotworów u dzieci w Polsce. Współpracowała z międzynarodowymi ośrodkami badawczymi, przyczyniając się do poprawy wyników leczenia raka u polskich dzieci.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Pediatria"
       }
     ],
     "relatedCareers": [
@@ -37819,12 +37754,6 @@
         "sourceUrl": "https://pl.wikipedia.org/wiki/Justynian_I_Wielki"
       },
       {
-        "name": "Aleksander Oleszko",
-        "description": "Wybitny polski prawnik prawa notarialnego",
-        "bio": "Polski profesor prawa cywilnego i notarialnego. Wieloletni wykładowca na Uniwersytecie Jagiellońskim, autor fundamentalnych komentarzy do Prawa o notariacie. Ekspert Krajowej Rady Notarialnej, współtworzył standardy wykonywania zawodu notariusza w III RP.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Notariusz"
-      },
-      {
         "name": "Marco Polo",
         "description": "Notariusz i podróżnik, autor opisu świata",
         "bio": "Wenecki podróżnik i kupiec (1254-1324). Syn notariusza weneckiego, sam kształcony w tradycji notarialnej. Jego „Opis świata\", dyktowany współwięźniowi, stał się jednym z najważniejszych dokumentów średniowiecznej Europy. Zainspirował Kolumba do poszukiwania drogi do Azji.",
@@ -38648,12 +38577,6 @@
       ]
     },
     "famousPeople": [
-      {
-        "name": "Jacek Gołaczyński",
-        "description": "Twórca elektronicznego postępowania komorniczego",
-        "bio": "Polski profesor prawa cywilnego na Uniwersytecie Wrocławskim. Stworzył podwaliny elektronicznego postępowania egzekucyjnego i informatyzacji kancelarii komorniczych w Polsce. Autor licznych publikacji z zakresu postępowania egzekucyjnego i prawa nowych technologii.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Komornik_sądowy"
-      },
       {
         "name": "Matthew Hopkins",
         "description": "Historyczny egzekutor prawa w XVII w. Anglii",
@@ -39503,8 +39426,8 @@
       },
       {
         "name": "Joanna Agacka-Indecka",
-        "description": "Prezes Naczelnej Rady Adwokackiej",
-        "bio": "Polska adwokatka (1962-2010). Pierwsza kobieta na stanowisku prezesa Naczelnej Rady Adwokackiej w Polsce (2007-2010). Walczyła o niezawisłość adwokatury i dostęp do pomocy prawnej. Zginęła w katastrofie smoleńskiej, symbolicznie reprezentując polską adwokaturę.",
+        "description": "Prezes Naczelnej Rady Adwokackiej w latach 2007-2010",
+        "bio": "Polska adwokatka (1964-2010). W latach 2007-2010 prezes Naczelnej Rady Adwokackiej. Zginęła 10 kwietnia 2010 roku w Smoleńsku.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Joanna_Agacka-Indecka"
       }
     ],
@@ -40467,12 +40390,6 @@
         "description": "Były Komendant Główny Straży Granicznej",
         "bio": "Polski generał Straży Granicznej. Pełnił funkcję Komendanta Głównego Straży Granicznej, odpowiadając za ochronę granic RP jako granic zewnętrznych UE i strefy Schengen. Kierował modernizacją formacji, wdrażając nowoczesne technologie nadzoru granicznego i zacieśniając współpracę z Frontexem.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Tomasz_Praga"
-      },
-      {
-        "name": "Leszek Elas",
-        "description": "Komendant Główny Straży Granicznej",
-        "bio": "Polski generał Straży Granicznej. Pełnił funkcję Komendanta Głównego Straży Granicznej, kierując ochroną granic państwowych RP. Pod jego dowództwem wdrożono nowoczesne systemy nadzoru granic i zacieśniono współpracę z Frontexem w ramach ochrony granic zewnętrznych UE.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Straż_Graniczna_(Polska)"
       },
       {
         "name": "Fabrice Leggeri",
@@ -41922,7 +41839,7 @@
       {
         "name": "Elsie de Wolfe",
         "description": "Pierwsza profesjonalna projektantka wnętrz",
-        "bio": "Amerykańska projektantka wnętrz (1865-1950). Uznawana za pierwszą profesjonalną projektantkę wnętrz na świecie, zerwała z ciężkim stylem wiktoriańskim na rzecz jasnych, eleganckich przestrzeni. Autorka „The House in Good Taste\" (1913), zdefiniowała projektowanie wnętrz jako odrębny zawód.",
+        "bio": "Amerykańska projektantka wnętrz (ur. ok. 1859, zm. 1950). Uznawana za jedną z pierwszych zawodowych projektantek wnętrz.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Elsie_de_Wolfe"
       },
       {
@@ -44115,15 +44032,9 @@
     "famousPeople": [
       {
         "name": "Leon Kaczmarek",
-        "description": "Twórca polskiej szkoły logopedycznej",
-        "bio": "Polski logopeda i językoznawca (1920-1999). Twórca polskiej szkoły logopedycznej, profesor UMCS w Lublinie. Autor fundamentalnych prac z zakresu rozwoju mowy dziecka i metodologii logopedii. Założyciel Polskiego Towarzystwa Logopedycznego i twórca kierunku logopedii na polskich uczelniach.",
+        "description": "Ojciec polskiej logopedii",
+        "bio": "Polski profesor, toponimista i logopeda (1911-1996), nazywany ojcem polskiej logopedii. Współtwórca Polskiego Towarzystwa Logopedycznego.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Leon_Kaczmarek"
-      },
-      {
-        "name": "Zbigniew Tarkowski",
-        "description": "Wybitny polski specjalista jąkania",
-        "bio": "Polski logopeda i psycholog (ur. 1952). Profesor UMCS w Lublinie, jeden z najwybitniejszych polskich specjalistów w zakresie terapii jąkania. Autor przełomowych metod diagnozy i terapii zaburzeń płynności mowy. Jego podejście integruje logopedię z psychoterapią.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Logopedia"
       },
       {
         "name": "Stanisław Grabias",
@@ -44447,12 +44358,6 @@
         "description": "Rewolucjonista fryzjerstwa, twórca geometrycznych cięć",
         "bio": "Brytyjski fryzjer i przedsiębiorca (1928-2012). Rewolucjonista fryzjerstwa, twórca geometrycznych cięć i asymetrycznego boba, które wyzwoliły kobiety od czasochłonnego układania włosów. Zbudował globalną markę produktów do pielęgnacji włosów. Jego motto: „Jeśli nie wyglądasz dobrze, my nie wyglądamy dobrze\".",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Vidal_Sassoon"
-      },
-      {
-        "name": "Marcel Grateau",
-        "description": "Wynalazca ondulacji, fali marcelek",
-        "bio": "Francuski fryzjer (1852-1936). Wynalazca ondulacji marcelek, techniki kręcenia włosów gorącymi szczypcami, która zrewolucjonizowała fryzjerstwo w XIX wieku. Jego salon w Paryżu był odwiedzany przez arystokratki z całej Europy. Uważany za ojca nowoczesnego stylingu.",
-        "sourceUrl": "https://en.wikipedia.org/wiki/Marcel_Grateau"
       }
     ],
     "relatedCareers": [
@@ -45040,7 +44945,7 @@
       {
         "name": "Elizabeth Arden",
         "description": "Pionierka kompleksowej pielęgnacji skóry",
-        "bio": "Kanadyjsko-amerykańska przedsiębiorczyni (1878-1966). Założycielka marki Elizabeth Arden, stworzyła koncepcję kompleksowej pielęgnacji skóry i salonu kosmetycznego jako miejsca luksusowego relaksu. Jej Red Door Salon na Piątej Alei stał się ikoną nowojorskiego luksusu i nowoczesnej kosmetologii.",
+        "bio": "Kanadyjsko-amerykańska przedsiębiorczyni (1881-1966). Założycielka marki kosmetycznej Elizabeth Arden.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Elizabeth_Arden"
       }
     ],
@@ -45184,10 +45089,10 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Pierre_Hermé"
       },
       {
-        "name": "Antoni Wedel",
-        "description": "Założyciel polskiego imperium czekoladowego",
-        "bio": "Polsko-niemiecki cukiernik i przedsiębiorca (1823-1898). Założyciel firmy E. Wedel, najsłynniejszej polskiej marki czekoladowej. Zbudował fabrykę na ul. Szpitalnej w Warszawie, wprowadzając nowoczesne metody produkcji czekolady. Jego ptasie mleczko i czekolada Wedel są ikonami polskiego cukiernictwa.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Jan_Wedel"
+        "name": "Karol Wedel",
+        "description": "Założyciel firmy E. Wedel",
+        "bio": "Niemiecki cukiernik (1813-1902), założyciel przedsiębiorstwa E. Wedel. Zmarł w Warszawie.",
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Karol_Wedel"
       }
     ],
     "relatedCareers": [
@@ -45322,18 +45227,6 @@
         "description": "Szefowa legendarnej piekarni Poilâne w Paryżu",
         "bio": "Francuska piekarka i przedsiębiorca (ur. 1984). W wieku 18 lat przejęła rodzinną piekarnię Poilâne w Paryżu po tragicznej śmierci rodziców. Jej chleb na zakwasie (pain Poilâne) jest eksportowany do 20 krajów. Studiowała na Harvardzie, łącząc tradycję piekarską z nowoczesnym biznesem.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Apollonia_Poilâne"
-      },
-      {
-        "name": "Łukasz Słoniewski",
-        "description": "Polski mistrz piekarstwa rzemieślniczego",
-        "bio": "Polski piekarz i popularyzator piekarstwa rzemieślniczego. Propagator pieczenia chleba na zakwasie i tradycyjnych polskich receptur piekarskich. Prowadzi warsztaty i szkolenia z piekarstwa artystycznego, przyczyniając się do odrodzenia rzemieślniczego podejścia do wypieku chleba w Polsce.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Piekarstwo"
-      },
-      {
-        "name": "Richard Bourdon",
-        "description": "Pionier piekarstwa na zakwasie w Ameryce",
-        "bio": "Amerykański piekarz i nauczyciel piekarstwa. Założyciel Berkshire Mountain Bakery w Massachusetts, jednej z pierwszych piekarni w USA wypiekających chleb wyłącznie na zakwasie. Jego podejście do naturalnej fermentacji zainspirował ruch „real bread\" w Stanach Zjednoczonych.",
-        "sourceUrl": "https://en.wikipedia.org/wiki/Sourdough"
       }
     ],
     "relatedCareers": [
@@ -47152,12 +47045,6 @@
         "description": "Genialny inżynier epoki wiktoriańskiej",
         "bio": "Brytyjski inżynier (1806-1859). Projektant Great Western Railway, tunelu pod Tamizą i rewolucyjnych statków parowych (SS Great Britain, SS Great Eastern). Uznawany za największego inżyniera epoki wiktoriańskiej, jego innowacje w budownictwie mostów, tuneli i kolei zmieniły oblicze Wielkiej Brytanii.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Isambard_Kingdom_Brunel"
-      },
-      {
-        "name": "Wacław Żenczykowski",
-        "description": "Polski inżynier, ekspert budownictwa powojennego",
-        "bio": "Polski inżynier budownictwa i profesor. Autor fundamentalnych podręczników budownictwa ogólnego, z których kształciły się pokolenia polskich inżynierów. Ekspert technologii betonowych i murowych, współtworzył standardy budownictwa w powojennej Polsce. Profesor Politechniki Warszawskiej.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Budownictwo"
       }
     ],
     "relatedCareers": [
@@ -50045,7 +49932,7 @@
         "name": "Tadeusz Tołwiński",
         "description": "Ojciec polskiej urbanistyki naukowej",
         "bio": "Polski architekt i urbanista (1887-1951). Profesor Politechniki Warszawskiej, autor monumentalnego „Urbanistyki\", pierwszego polskiego podręcznika tej dziedziny. Współtwórca planów odbudowy Warszawy po II wojnie światowej. Jego dzieło naukowe kształtowało polską urbanistykę przez dekady.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Tadeusz_Tołwiński"
+        "sourceUrl": "https://pl.wikipedia.org/wiki/Tadeusz_Tołwiński_(architekt)"
       }
     ],
     "relatedCareers": [
@@ -50340,12 +50227,6 @@
         "description": "Rodzina Lincolnów, twórcy przemysłu spawalniczego",
         "bio": "John C. Lincoln (1866-1959) i James F. Lincoln (1883-1965), amerykańscy wynalazcy i przedsiębiorcy. Założyciele Lincoln Electric, największej na świecie firmy produkującej sprzęt spawalniczy. Wprowadzili innowacyjny system zarządzania pracownikami, łączący wydajność z godnym traktowaniem spawaczy.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Lincoln_Electric"
-      },
-      {
-        "name": "Robert Gage",
-        "description": "Wynalazca spawania TIG",
-        "bio": "Amerykański inżynier (XX w.). Wynalazca metody spawania TIG (Tungsten Inert Gas) w 1941 roku, która umożliwiła precyzyjne łączenie aluminium i stali nierdzewnej. Technologia TIG jest dziś standardem w lotnictwie, kosmonautyce i wszędzie tam, gdzie wymagana jest najwyższa jakość spawów.",
-        "sourceUrl": "https://en.wikipedia.org/wiki/Gas_tungsten_arc_welding"
       }
     ],
     "relatedCareers": [
@@ -52848,12 +52729,6 @@
         "sourceUrl": "https://pl.wikipedia.org/wiki/Adam_Loret"
       },
       {
-        "name": "Jan Hausbrandt",
-        "description": "Twórca polskiej nauki leśnej",
-        "bio": "Polski leśnik i naukowiec (1867-1935). Profesor Szkoły Głównej Gospodarstwa Wiejskiego w Warszawie, twórca polskiej szkoły urządzania lasu. Opracował polskie metody taksacji leśnej i plany zagospodarowania lasów. Jego podręczniki kształciły pokolenia polskich leśników.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Lasy_Państwowe"
-      },
-      {
         "name": "Gifford Pinchot",
         "description": "Twórca amerykańskiej Służby Leśnej",
         "bio": "Amerykański leśnik i polityk (1865-1946). Pierwszy szef United States Forest Service, twórca koncepcji zrównoważonego zarządzania lasami w USA. Ukuł termin „conservation\" w odniesieniu do zasobów naturalnych. Gubernator Pensylwanii, walczył o ochronę lasów przed rabunkową eksploatacją.",
@@ -54381,12 +54256,6 @@
         "description": "Autorka „Milczącej wiosny\", ikona ekologii",
         "bio": "Amerykańska biologistka morska i pisarka (1907-1964). Autorka „Milczącej wiosny\" (1962), książki, która zapoczątkowała ruch ekologiczny i doprowadziła do zakazu DDT w USA. Jej praca zmieniła podejście do ochrony środowiska na całym świecie i zainspirowała powstanie agencji EPA.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Rachel_Carson"
-      },
-      {
-        "name": "Janusz Kindler",
-        "description": "Polski ekspert gospodarki wodnej",
-        "bio": "Polski profesor inżynierii środowiska, specjalista gospodarki wodnej. Wieloletni wykładowca Politechniki Warszawskiej, ekspert UNESCO ds. zasobów wodnych. Współtworzył polskie standardy ochrony wód i zarządzania zasobami wodnymi, uczestniczył w międzynarodowych projektach ochrony środowiska.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Inżynieria_środowiska"
       }
     ],
     "relatedCareers": [

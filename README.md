@@ -1,6 +1,6 @@
 # NextMove — Znajdź swój zawód
 
-Wyszukiwarka zawodów dla osób, które nie wiedzą, kim chcą zostać: 79 profili zawodów z zarobkami z GUS, uczelniami (progi, wymagania i czesne ze źródłami) oraz szkoły średnie w 14 miejscach (Trójmiasto, powiat wejherowski, Warszawa i inne duże miasta): klasy, rozszerzenia, progi, wyniki matur, kalkulator punktów ósmoklasisty i quiz zainteresowań.
+Wyszukiwarka zawodów dla osób, które nie wiedzą, kim chcą zostać: 79 profili zawodów (zarobki z GUS dla 48 z nich), uczelniami (progi, wymagania i czesne ze źródłami) oraz szkoły średnie w 14 miejscach (Trójmiasto, powiat wejherowski, Warszawa i inne duże miasta): klasy, rozszerzenia, progi, wyniki matur, kalkulator punktów ósmoklasisty i quiz zainteresowań.
 
 **Live:** [adrwis.github.io/kariera](https://adrwis.github.io/kariera/)
 

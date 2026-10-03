@@ -386,15 +386,17 @@
   const fmtZl = n => `${String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, '\u00A0')}\u00A0zł`;
   function salaryCardText(s) {
     if (!s) return '';
-    return `mediana ${fmtZl(s.median || s.max)}${s.scope === 'grupa' ? ' (grupa zawodów)' : ''}`;
+    return `mediana ${fmtZl(s.median || s.max)} brutto${s.scope === 'grupa' ? ' (grupa zawodów)' : ''}`;
   }
   // Opis płacy na profilu zawodu: skąd liczba, kogo dotyczy i czego nie obejmuje
   function salaryNoteHtml(c) {
     if (!c.salary) return c.salaryNote ? `<p class="career-hero__note">${escapeHtml(c.salaryNote)}</p>` : '';
     const s = c.salary;
     const src = isHttpUrl(s.sourceUrl) ? ` <a href="${escapeAttr(s.sourceUrl)}" target="_blank" rel="noopener" title="${escapeAttr(s.sourceName || '')}">Źródło: GUS</a>` : '';
-    const group = s.scope === 'grupa' ? ` Liczba dotyczy całej grupy zawodów „${escapeHtml(s.group)}”, więc obejmuje też pokrewne zawody.` : '';
-    return `<p class="career-hero__note">GUS, październik 2024: połowa pracowników zarabia mniej niż ${fmtZl(s.median)} brutto miesięcznie, a 80% od ${fmtZl(s.min)} do ${fmtZl(s.max)}.${group} Tylko etaty w firmach od 10 osób.${src}</p>`;
+    const group = s.scope === 'grupa'
+      ? ` Liczba dotyczy całej grupy zawodów „${escapeHtml(s.group)}”, więc obejmuje też pokrewne zawody.`
+      : ` Dane GUS dla grupy zawodów „${escapeHtml(s.group)}”.`;
+    return `<p class="career-hero__note">GUS, październik 2024: połowa pracowników zarabia nie więcej niż ${fmtZl(s.median)} brutto miesięcznie, a 80% od ${fmtZl(s.min)} do ${fmtZl(s.max)}.${group} Tylko etaty w firmach od 10 osób.${src}</p>`;
   }
 
   function pluralZawod(n) {
@@ -1227,7 +1229,7 @@
     const sourceHtml = person.sourceUrl
       ? `<a href="${escapeAttr(person.sourceUrl)}" target="_blank" rel="noopener" class="person-popup__source">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          Źródło
+          ${/google\./i.test(person.sourceUrl) ? 'Szukaj w Google' : 'Źródło'}
         </a>`
       : '';
 

@@ -12,6 +12,8 @@ const careers = JSON.parse(fs.readFileSync(file, 'utf8'));
 const byId = new Map(gus.zawody.map(z => [z.id, z]));
 const missing = new Set(gus.brak.map(b => b.id));
 const r = n => Math.round(n);
+// Grupy GUS szersze niż sam zawód (np. programiści razem z analitykami, technicy ICT razem z helpdeskiem)
+const WIDE = new Set(['programista', 'programista-gier', 'technik-informatyk']);
 const UNIFORMED = new Set(['policjant', 'zolnierz-zawodowy', 'funkcjonariusz-sg', 'strazak']);
 
 let set = 0, cleared = 0;
@@ -22,7 +24,7 @@ for (const c of careers) {
     c.salary = {
       min: r(z.d1), max: r(z.d9), median: r(z.mediana), currency: 'PLN', gross: true, period: 'month',
       asOf: gus.zrodlo.okres, sourceName: 'GUS, Struktura wynagrodzeń według zawodów za październik 2024 r.',
-      sourceUrl: gus.zrodlo.stronaUrl, scope: z.szerokoscGrupy === 'waska' ? 'zawód' : 'grupa', group,
+      sourceUrl: gus.zrodlo.stronaUrl, scope: z.szerokoscGrupy === 'waska' && !WIDE.has(c.id) ? 'zawód' : 'grupa', group,
     };
     delete c.salaryNote;
     set++;
