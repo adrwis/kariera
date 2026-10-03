@@ -1,0 +1,146 @@
+[
+ {
+  "city": "ateny",
+  "program": "15 z 16 programów",
+  "field": "admission.polishMatura",
+  "severity": "ważne",
+  "problem": "Prawie żadne pole matury nie zaczyna się od statusu ze słownika (poprawka objęła tylko UNIWA). Dla 10 programów greckich status brzmi „Polska matura jest uznawana tylko przez osobną ścieżkę…”, dla medycyny NKUA „brak potwierdzenia: …”, dla BAAG i AUEB IBT zdanie opisowe bez etykiety. Chip statusu na stronie nie ma na czym się oprzeć. Skrypt FINAL zmieniał tylko pola zaczynające się od „uznawana”, więc nic nie zmienił.",
+  "evidence": "Zliczenie: 15 z 16 pól matura nie zaczyna się od „uznawana”, „wymaga dodatkowego etapu” ani „wymaga potwierdzenia przez uczelnię”. Źródło (INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc, B.1): „Candidates take no entrance examinations”, jedno z rodziców nie jest pochodzenia greckiego, certyfikat greckiego przed zapisem.",
+  "proposedFix": "Greckie programy: „uznawana z warunkami: ścieżka B.1 dla obywateli UE (…)”. Medycyna, BAAG, AUEB IBT: „wymaga potwierdzenia przez uczelnię: …”."
+ },
+ {
+  "city": "ateny",
+  "program": "UNIWA Sztuczna Inteligencja i Nauka o Danych",
+  "field": "notes / academicYear",
+  "severity": "drobne",
+  "problem": "Pola uzupełniono tekstem „do potwierdzenia”, ale notes nadal mówi, że „pola są puste”. Zostały też żargon „@SiG” bez objaśnienia, „nie udało się potwierdzić” i błąd interpunkcji w academicYear („naboru ; 2027/28”).",
+  "evidence": "notes: „…więc pola są puste.” a requirements, languageProof, deadline i matura mają już tekst. academicYear: „2026/27 (@SiG: brak otwartego naboru ; 2027/28 nie ogłoszony)”.",
+  "proposedFix": "Usunąć zdanie o pustych polach, zastąpić „@SiG” nazwą „portal Study in Greece”, poprawić spację przed średnikiem."
+ },
+ {
+  "city": "ateny",
+  "program": "Programy greckie (14) i AUEB IBT",
+  "field": "notes / deadline / gaps / summary[Rekrutacja]",
+  "severity": "drobne",
+  "problem": "Żargon zbierania danych nadal obecny: „nie udało się ich potwierdzić”, „strona ministerstwa z tym komunikatem nie otwiera się”, „@SiG”. Zdanie o progach (βάσεις) powtarza się dwa razy w notes każdego programu greckiego, niemal słowo w słowo.",
+  "evidence": "Psychology notes: „Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie jest dostępny publicznie…” oraz „Progi przyjęcia (βάσεις) dla cudzoziemców z UE ministerstwo publikuje osobno; brak ich w sprawdzonych źródłach…”. AUEB IBT deadline: „Portal @SiG pokazuje brak otwartego naboru.”",
+  "proposedFix": "Zostawić jedno zdanie o progach. Zamienić na „ministerstwo nie podaje terminu na stronie, trzeba go sprawdzić w czerwcu” i rozwinąć @SiG."
+ },
+ {
+  "city": "ateny",
+  "program": null,
+  "field": "summary[Znajomość angielskiego]",
+  "severity": "drobne",
+  "problem": "Podsumowanie wylicza 6 programów angielskich w Atenach, w tym UNIWA Applied Philosophy in Business Decision Making i NKUA Pharmacy, ale w pliku ich nie ma i luki o tym nie mówią. Portal Study in Greece nazywa farmację NKUA „Master in Pharmacy”, a summary opisuje ją jako licencjat jednolity.",
+  "evidence": "sg: „Applied Philosophy in Business Decision Making University of West Attica”, „Master in Pharmacy National and Kapodistrian University of Athens”. W universities są 4 programy angielskie.",
+  "proposedFix": "Dopisać do gaps zdanie, że dwóch programów nie opisano, i poprawić nazwę farmacji."
+ },
+ {
+  "city": "ateny",
+  "program": "NKUA psychologia, informatyka, prawo, ekonomia, komunikacja; AUEB informatyka, ekonomia, zarządzanie",
+  "field": "durationYears",
+  "severity": "drobne",
+  "problem": "Wartość 4 lata pochodzi z ogólnej informacji portalu, ale w polu stoi jak potwierdzona. Ostrzeżenie jest tylko w notes i gaps, więc wartość jest uczciwie opisana, lecz jest nadal szacunkiem.",
+  "evidence": "sg: „The duration of undergraduate programs for most disciplines is 4 years but there are programs in engineering, dentistry…”.",
+  "proposedFix": "Ewentualnie null albo „około 4 lata” w academicYear."
+ },
+ {
+  "city": "nikozja",
+  "program": "EUC Doctor of Medicine",
+  "field": "admission.tuitionEu / tuitionNonEu",
+  "severity": "ważne",
+  "problem": "Sprzeczność w obrębie karty. Pole czesne podaje opłatę za wniosek 80 EUR i rejestracyjną 70 EUR za semestr, a requirements i notes mówią 200 EUR. Cennik EUC wprost wyłącza medycynę z opłaty rejestracyjnej i podaje dla medycyny wniosek 200 EUR. Opłaty z innych kierunków zostały skopiowane.",
+  "evidence": "Cennik EUC (euc-tuition-fees-i.pdf): „Application fee* €200 … Registration fee** €70 (per semester)”, przypisy: „* Application fee for Doctor of Medicine…”, „** Doctor of Medicine, Dental Surgery… are excluded.” Karta EUC MD: tuitionEu „wniosek 80 EUR… rejestracyjna 70 EUR za semestr” kontra requirements „Wniosek z opłatą 200 EUR”.",
+  "proposedFix": "tuitionEu dla MD: „wniosek 200 EUR jednorazowo, bez opłaty rejestracyjnej”. Zaliczka 3 000 EUR dla osób spoza UE w tuitionNonEu dla MD do ponownego sprawdzenia."
+ },
+ {
+  "city": "nikozja",
+  "program": "UNIC (10 programów), EUC (6 programów)",
+  "field": "notes / gaps (żargon)",
+  "severity": "ważne",
+  "problem": "Żargon zbierania danych w treści dla ucznia nie został usunięty, mimo że był w poprzednim raporcie jako ważny. Powtarza się w gaps[7] i w notes kilku kart.",
+  "evidence": "EUC CS notes: „ich stron nie sprawdzano osobno.” UNIC Digital Communication notes: „strony programu nie otwierano osobno.” UNIC (program 4) notes: „(nie sprawdzano)”. gaps[7]: „nie otwierano osobnych stron programów… stron programów nie sprawdzano.”",
+  "proposedFix": "Zastąpić jednym zdaniem „Język i czas trwania podano według cennika uczelni, do potwierdzenia na stronie programu.”"
+ },
+ {
+  "city": "nikozja",
+  "program": "EUC Doctor of Medicine, UNIC Medicine, UCY Computer Science",
+  "field": "admission.polishMatura",
+  "severity": "drobne",
+  "problem": "Status nie zaczyna się od etykiety słownika, mimo że tekst jest uczciwy. EUC MD i UNIC MD zaczynają się od „Wymagana średnia…”, „Wymagane 90%…”, UCY od „brak potwierdzenia:”. Poprawka nie objęła tych pól.",
+  "evidence": "Zliczenie: 3 z 23 pól matury bez etykiety. Źródła potwierdzają próg 90% (EUC i UNIC), ABB lub IB 32 (UNIC), a UCY pomija polską maturę.",
+  "proposedFix": "Dopisać „wymaga potwierdzenia przez uczelnię:” na początku tych trzech pól."
+ },
+ {
+  "city": "nikozja",
+  "program": "Frederick Architectural Engineering, Civil Engineering, Mechanical Engineering, Law, Journalism",
+  "field": "admission.requirements",
+  "severity": "drobne",
+  "problem": "Zdanie o obowiązkowym teście z matematyki i angielskiego na informatykę nadal jest skopiowane do wymagań kierunków niezwiązanych z informatyką. Błąd z poprzedniej kontroli nie został naprawiony.",
+  "evidence": "Architectural Engineering requirements: „…Na informatykę obowiązkowy test poziomujący z matematyki i angielskiego (niezaliczenie oznacza studia warunkowo).”",
+  "proposedFix": "Zostawić zdanie tylko przy Computer Science."
+ },
+ {
+  "city": "nikozja",
+  "program": "UNIC Medicine",
+  "field": "admission.deadline",
+  "severity": "drobne",
+  "problem": "Termin dla osób spoza UE jest identyczny jak dla pozostałych kierunków, choć w tej samej karcie napisano, że medycyna ma osobną procedurę przyjęć.",
+  "evidence": "deadline: „Studenci spoza UE: wniosek do końca czerwca (semestr jesienny) lub października…”; tuitionEu: „Medycyna ma osobną procedurę przyjęć.”",
+  "proposedFix": "Dopisać, że termin dla medycyny podaje strona programu medycyny."
+ },
+ {
+  "city": "nikozja",
+  "program": "EUC, UNIC, Frederick (21 programów)",
+  "field": "admission.selective",
+  "severity": "drobne",
+  "problem": "selective = false we wszystkich programach prywatnych uczelni wynika z braku wzmianki o limitach lub progach, a nie ze zdania źródła. Dodatek zakazuje ustawiania false z braku informacji. Wyjątek to kierunki z progiem lub testem (medycyna, architektura).",
+  "evidence": "EUC requirements: „Brak egzaminu wstępnego i brak progu procentowego w opisie.” To opis braku informacji, nie deklaracja otwartej rekrutacji.",
+  "proposedFix": "Ustawić null tam, gdzie źródło nie mówi wprost o rekrutacji bez limitów."
+ },
+ {
+  "city": "valletta",
+  "program": "Wszystkie 9 programów",
+  "field": "tuitionNonEu / tuitionUrl",
+  "severity": "ważne",
+  "problem": "tuitionUrl nadal wskazuje tylko um.edu.mt/study/feesfunding/, gdzie nie ma kwot 8 500, 10 800 i 26 000 EUR. Tekst w polu uczciwie mówi „według regulacji opłat”, a legislation.mt jest na liście ogólnych źródeł, ale kliknięcie „źródła” przy programie nie prowadzi do liczb. Poprawka z poprzedniej kontroli wykonana częściowo.",
+  "evidence": "legislation.mt/eli/sl/327.177/eng/pdf (potwierdzone): „Arts based and business related undergraduate programmes… 8,500”, „Science based… 10,800”, „Programmes leading to the Degree of Doctor of Medicine and Surgery 26,000”, oraz klauzula o utrzymaniu stawek przy braku nowych przepisów.",
+  "proposedFix": "Wstawić do tuitionUrl adres legislation.mt/eli/sl/327.177/eng/pdf."
+ },
+ {
+  "city": "valletta",
+  "program": "Wszystkie programy",
+  "field": "admission.tuitionEu",
+  "severity": "drobne",
+  "problem": "Ten sam akapit o około 700 znakach powtórzony w 9 kartach, bez kwoty. Treść zgodna ze źródłem, ale nieczytelna jako pole karty.",
+  "evidence": "tuitionEu identyczne w 9 programach; um.edu.mt/study/feesfunding/: „Tuition fees, where applicable, are available in the overview for each course…”.",
+  "proposedFix": "Skrócić do dwóch zdań, resztę zostawić w summary[Opłaty]."
+ },
+ {
+  "city": "valletta",
+  "program": "Bachelor of Laws (Honours)",
+  "field": "admission.polishMatura",
+  "severity": "drobne",
+  "problem": "Status „uznawana z warunkami” przy wymogu Advanced z maltańskiego, który według pliku nie ma potwierdzonego odpowiednika dla polskiej matury. Ostrzeżenie jest w nawiasie, ale status powinien być „wymaga potwierdzenia przez uczelnię”.",
+  "evidence": "matura: „uznawana z warunkami (…) (wymóg Advanced z maltańskiego nie ma oficjalnego odpowiednika dla polskiej matury, do wyjaśnienia)”. Prospekt UG: „two Advanced Level passes at Grade C or better in English and Maltese”.",
+  "proposedFix": "Zmienić na „wymaga potwierdzenia przez uczelnię: …”."
+ },
+ {
+  "city": "valletta",
+  "program": "Bachelor of Laws (Honours), Built Environment Studies, kontra pozostałe kursy",
+  "field": "admission.selective",
+  "severity": "drobne",
+  "problem": "Dwa kursy mają selective = true, a gaps[10] mówi, że prospekt nie podaje limitów poza kursami medycznymi i niektórymi zdrowotnymi. Notes dla prawa i Built Environment nie wskazują limitu. Pozostałe sześć kursów ma null przy takich samych progach przedmiotów, więc oznaczenia są niespójne.",
+  "evidence": "Prospekt, strona Bachelor of Laws: wymogi Advanced i Intermediate, brak wzmianki o limicie miejsc. gaps[10]: „Dla pozostałych wybranych tu kursów nie podano na stronie, czy mają limit.”",
+  "proposedFix": "Ujednolicić: null albo true z adnotacją „progi przedmiotów kursu” we wszystkich kursach z wymaganiami specjalnymi."
+ },
+ {
+  "city": "valletta",
+  "program": null,
+  "field": "gaps[0], gaps[3]",
+  "severity": "drobne",
+  "problem": "Luki brzmią nadal jak opis techniczny: „karty kursów są niedostępne bez uruchomienia wyszukiwarki kursów”, „nie udało się sprawdzić, bo strona ministerstwa edukacji jest niedostępna publicznie”.",
+  "evidence": "gaps[0], gaps[3].",
+  "proposedFix": "Przeformułować: „Karty kursów UM nie są zwykłymi stronami, więc kwot nie sprawdzono.”"
+ }
+]

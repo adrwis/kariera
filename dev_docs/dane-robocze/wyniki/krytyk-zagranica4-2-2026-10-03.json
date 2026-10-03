@@ -1,0 +1,92 @@
+[
+ {
+  "city": "Sztokholm",
+  "program": "KTH ICT, SU, KTH, KI (wszystkie programy z terminem rundy 2)",
+  "field": "deadline / summary[2] / gaps[2]",
+  "severity": "ważne",
+  "problem": "Poprawka zdania o terminie 15 kwietnia jest błędna i sprzeczna z danymi miasta. Pole twierdzi, że termin rundy 2 to „ten sam termin co w naborze 2026/27, na 2027/28 strona go jeszcze nie opublikowała”. Tymczasem universityadmissions.se publikuje już daty jesieni 2027 (otwarcie 15 marca 2027, termin 15 kwietnia, dokumenty do 21 czerwca, wyniki 9 lipca), a te same pola podają te daty z rokiem 2027. Wstawka została doklejona przez replaceAll i w summary[2] tworzy zagnieżdżony nawias „(… (ten sam termin …))”, a w programach drugi nawias „(druga runda …)” zaraz po pierwszym.",
+  "evidence": "universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/: „15 March 2027 Application round opens 15 April Application deadline … 21 June** Supporting documentation deadline 9 July Admissions results published”. summary[2] i deadline programów: „15 kwietnia (ten sam termin co w naborze 2026/27, na 2027/28 strona go jeszcze nie opublikowała) (druga runda …)”.",
+  "proposedFix": "Zastąpić wstawkę zdaniem zgodnym ze źródłem: „15 kwietnia 2027 (termin z ogólnej strony universityadmissions.se na jesień 2027; strony programów szwedzkojęzycznych podają na razie tylko nabór na jesień 2026)”. Usunąć zagnieżdżone nawiasy w summary[2] i gaps[2], przepisać na dwa zdania."
+ },
+ {
+  "city": "Sztokholm",
+  "program": null,
+  "field": "summary[4] (Zakres)",
+  "severity": "ważne",
+  "problem": "Błędna liczba: „Pozostałe jedenaście programów” po szwedzku. W pliku jest 10 programów (SU 3, KTH 5, KI 2), więc po szwedzku jest dziewięć.",
+  "evidence": "sztokholm.json: universities[].programs łącznie 10, z czego jeden po angielsku (KTH ICT).",
+  "proposedFix": "Zmienić na „Pozostałe dziewięć programów”."
+ },
+ {
+  "city": "Sztokholm",
+  "program": null,
+  "field": "summary[2] i summary[3]",
+  "severity": "drobne",
+  "problem": "Dwie sekcje summary mają ten sam label „Rekrutacja” (jedna z terminami, druga z systemami zgłoszeń), co wygląda na ślad scalenia i myli czytelnika.",
+  "evidence": "Etykiety summary: Polska matura, Opłaty, Rekrutacja, Rekrutacja, Zakres, Znajomość języka.",
+  "proposedFix": "Scalić w jedną sekcję „Rekrutacja” albo zmienić drugą na „Systemy zgłoszeń”."
+ },
+ {
+  "city": "Sztokholm",
+  "program": "KTH Datateknik, Maskinteknik, Samhällsbyggnad, Arkitektutbildning",
+  "field": "languages",
+  "severity": "ważne",
+  "problem": "Uwaga krytyka częściowo nadal otwarta: pole languages nadal ma „szwedzki”, a język wykładowy nie jest potwierdzony na stronach programów. Poprawka dopisała do notes zdanie „Język wykładowy do potwierdzenia…”, ale pole strukturalne (i filtr strony) pokazuje wartość jak potwierdzoną. Strona kth.se/utbildning/civilingenjor/datateknik jest po szwedzku i nie podaje języka wykładowego wprost.",
+  "evidence": "kth.se/utbildning/civilingenjor/datateknik: brak informacji o języku wykładowym w treści strony. gaps[3] sztokholm.json przyznaje to wprost.",
+  "proposedFix": "Ustawić languages na pustą listę lub wartość „do potwierdzenia”, jeśli strona to obsługuje; ewentualnie zostawić „szwedzki” i dodać do languageProof, że wniosek wynika ze szwedzkojęzycznej strony."
+ },
+ {
+  "city": "Sztokholm",
+  "program": "wszystkie programy szwedzkojęzyczne",
+  "field": "languageProof",
+  "severity": "ważne",
+  "problem": "Poziom szwedzkiego (Svenska 3 / TISUS) nadal nieznany; ostrzeżenie jest uczciwe i widoczne w summary, gaps[0] i programach. To nadal największa praktyczna luka miasta, ale nie błąd danych.",
+  "evidence": "SU Psykologprogrammet (en): „taught in Swedish only, so please refer to the Swedish version”; gaps[0] sztokholm.json.",
+  "proposedFix": "Bez zmiany, o ile nie da się sprawdzić szwedzkich stron antagning.se; w przeciwnym razie uzupełnić."
+ },
+ {
+  "city": "Sofia",
+  "program": null,
+  "field": "universities[0].programs[8].notes (SU Медицина)",
+  "severity": "drobne",
+  "problem": "Pozostał żargon zbierania danych: „Czas trwania nie został odczytany.” (durationYears null dla medycyny SU, mimo że to program jednolity; wymóg dodatku pkt 4 dopuszcza null tylko przy braku źródła).",
+  "evidence": "sofia.json: universities[0].programs[8].notes „Wydział Lekarski Uniwersytetu Sofijskiego. Czas trwania nie został odczytany.”",
+  "proposedFix": "Zastąpić: „Czas trwania nie jest podany na stronach uczelni.” albo dopisać źródłowe 6 lat, jeśli strona wydziału je podaje."
+ },
+ {
+  "city": "Sofia",
+  "program": "UACEG Архитектура",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "Pozostałe „Nie sprawdzono, czy istnieje wersja po angielsku.” (żargon zbierania danych, uwaga krytyka z raportu 5 usunięta tylko częściowo).",
+  "evidence": "sofia.json: universities[3].programs[0].notes.",
+  "proposedFix": "Zastąpić: „Strona uczelni nie wskazuje wersji po angielsku.”"
+ },
+ {
+  "city": "Sofia",
+  "program": "UNWE Икономика (обучение на английски език)",
+  "field": "matura / url",
+  "severity": "drobne",
+  "problem": "Status „uznawana z warunkami” jest uzasadniony wymogiem zaświadczenia o uznaniu (strona priem.unwe.bg), ale pole url wskazuje stronę dla cudzoziemców z 2024, która tych warunków nie zawiera; warunki pochodzą z admissionUrl. Źródło nie wymienia Polski.",
+  "evidence": "unwe.bg/en/.../bachelor-s-degree.html (zaktualizowana 6 czerwca 2024) nie ma „4,00”; priem.unwe.bg/bg/pages/17759: „минимален входящ бал „добър”… удостоверение за признато средно образование, издадено от НАЦИД, МОН или РУО”.",
+  "proposedFix": "W notes zaznaczyć, że warunki pochodzą ze strony priem.unwe.bg (admissionUrl). Wartość 4,00 jest wnioskiem z „добър” w skali 2 do 6, co jest poprawne."
+ },
+ {
+  "city": "Sofia",
+  "program": "SU (programy z wartościami tuitionEu)",
+  "field": "tuitionUrl",
+  "severity": "drobne",
+  "problem": "tuitionUrl wskazuje stronę HTML bez kwot; kwoty 310, 480, 2 070, 5 350 i 8 000 EUR są w PDF-ach podlinkowanych ze strony (czytelnik nie znajdzie ich bez szukania). Dane poprawne.",
+  "evidence": "Strona godishni_taksi…2026_2027_g nie zawiera kwot; PDF „Приложение-държавна поръчка” podaje 310 EUR (Психология) i 480 EUR (Медицина); PDF „ТАКСИ 2026-2027-платено”: 2 070 EUR i 8 000 EUR (Медицина на английски), 5 350 EUR (Медицина).",
+  "proposedFix": "Podać w tuitionUrl bezpośredni link do PDF z tabelą."
+ },
+ {
+  "city": "Lizbona",
+  "program": null,
+  "field": "gaps[9]; universities[0].programs[1].notes",
+  "severity": "drobne",
+  "problem": "Pozostał żargon zbierania danych: „Nie sprawdzono też zasad uznawania dyplomów…” oraz „(nie sprawdzano zasad uprawnień zawodowych)”. Także languageProof w programach używa bezosobowego „nie znaleziono wymogu”, co brzmi jak notatka z badań.",
+  "evidence": "lizbona.json: gaps[9]; universities[0].programs[1].notes; programs[].languageProof „W warunkach konkursu krajowego DGES nie znaleziono wymogu…”.",
+  "proposedFix": "Przepisać: „Zasady uznawania dyplomów do wykonywania zawodów po powrocie do Polski nie zostały tu opisane.” i „W warunkach konkursu krajowego DGES nie ma wymogu certyfikatu z portugalskiego dla obywateli UE.” (jeśli źródło tak mówi), albo „warunki konkursu nie podają wymogu”."
+ }
+]

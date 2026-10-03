@@ -1,0 +1,146 @@
+[
+ {
+  "city": "barcelona",
+  "program": "wszystkie 18 programów oraz summary[Polska matura]",
+  "field": "requirements / summary.text",
+  "severity": "ważne",
+  "problem": "Błąd scalania: po wstawce z poprawek brakuje spacji po kropce, więc czytelnik widzi sklejone zdanie „PAU.Według strony Generalitat…”. Występuje w summary i w requirements wszystkich 18 programów (19 miejsc).",
+  "evidence": "grep w data/zagranica/barcelona.json: „PAU.Według” x19. Źródło wstawki: replaceAllIn w sekcji FINAL, barcelona(d), bez spacji przed „Według”.",
+  "proposedFix": "Zamienić „PAU.Według” na „PAU. Według” w całym pliku i poprawić szablon w poprawki-zagranica.js."
+ },
+ {
+  "city": "barcelona",
+  "program": "UB (Psicologia, Medicina, Dret), UPF (Medicina, Periodisme)",
+  "field": "languages / durationYears / english",
+  "severity": "ważne",
+  "problem": "Uwaga krytyka nieusunięta: pięć programów nadal ma languages=[], durationYears=null i english=false. false wygląda jak „brak angielskiego”, choć to brak danych. Dodano tylko zdanie w notes. Czas trwania jest znany (Medicina 6 lat, pozostałe 4), a ten sam program UB/UPF jest łatwy do zweryfikowania.",
+  "evidence": "barcelona.json: 'durationYears': null, 'languages': [], 'english': false dla UB Psicologia/Medicina/Dret i UPF Medicina/Periodisme; notes: „Język wykładowy i czas trwania do potwierdzenia na stronie uczelni”.",
+  "proposedFix": "Wpisać durationYears (Medicina 6, reszta 4) z kodu Generalitat lub dopisać cytat; english ustawić na null (lub pominąć), a języki opisać jako „katalański, hiszpański (do potwierdzenia)”. Sprawdzić, czy strona obsługuje null w english."
+ },
+ {
+  "city": "barcelona",
+  "program": "UB, UPF",
+  "field": "tuitionEu / gaps[0] / gaps[6]",
+  "severity": "drobne",
+  "problem": "Żargon zbierania danych pozostał w tekstach dla czytelnika: „ich wysokości nie sprawdzono” (UB Psicologia tuitionEu), „bo strony tych uczelni nie otworzyły się do sprawdzenia” (gaps[0]), „nie zostały tu zestawione” (gaps[6]).",
+  "evidence": "barcelona.json gaps[0], gaps[6], UB Psicologia tuitionEu.",
+  "proposedFix": "Napisać: „Opłaty administracyjne podaje uczelnia.” oraz „Język wykładowy i czas trwania UB i UPF trzeba sprawdzić na stronach uczelni, bo nie ma ich w ofercie Generalitat.” oraz „Tabele wag PCE dla poszczególnych kierunków są w oficjalnej tabeli Generalitat.”"
+ },
+ {
+  "city": "barcelona",
+  "program": "UPC Grau en Enginyeria Civil (grupa po angielsku)",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "Antyteza w tekście: „liczba miejsc i kod programu dotyczą całego kierunku, a nie tylko grupy angielskiej”.",
+  "evidence": "barcelona.json, notes UPC Civil.",
+  "proposedFix": "Przepisać: „Liczba miejsc (120) i kod programu dotyczą całego kierunku, łącznie z grupą angielską.”"
+ },
+ {
+  "city": "barcelona",
+  "program": "UB, UPF (5 programów)",
+  "field": "admissionUrl / notes",
+  "severity": "drobne",
+  "problem": "Uwaga krytyka częściowo nieusunięta: noty odcięcia UB i UPF są poprawne (potwierdzone w Notes-tall PDF: UB Medicina 12,685, UPF Medicina 12,534, UPF Periodisme 10,800), ale przy programie nie ma linku do dokumentu z notami; w sources jest tylko adres ogólny.",
+  "evidence": "Notes-tall-1a-assignacio_juny_2026.pdf, kody 11043, 41058, 41025 potwierdzone; admissionUrl wskazuje Preins-2026-Juny_v4.pdf.",
+  "proposedFix": "Dopisać w notes: „(źródło not: Generalitat, tabela Notes de tall, 1. przydział z 10.07.2026)”."
+ },
+ {
+  "city": "barcelona",
+  "program": null,
+  "field": "summary[Polska matura] ostatnie zdanie",
+  "severity": "drobne",
+  "problem": "Ostatnie zdanie summary („trzeba więc w praktyce zdać PCE lub PAU”) wynika z zdania Generalitat o dwóch drogach podniesienia noty, więc jest sourced, ale stoi tuż po zdaniu z zastrzeżeniem o egzaminie zewnętrznym i sprawia wrażenie sprzecznego. Po usunięciu twierdzenia „nie da się” zostaje twarde „więc”.",
+  "evidence": "gen.html: dwie opcje (PAU w Hiszpanii albo PCE UNEDasiss), potem „No es té en compte cap matèria … reconeguda a l'acreditació UNEDasiss”; Generalitat nie wspomina o egzaminie z kraju pochodzenia.",
+  "proposedFix": "Zmiękczyć: „Według strony Generalitat na kierunkach z notą odcięcia powyżej 10 trzeba zdać PCE lub PAU; inną drogę (matura rozszerzona wpisana do akredytacji) trzeba potwierdzić w UNEDasiss.”"
+ },
+ {
+  "city": "walencja",
+  "program": "UV (wszystkie 8 programów)",
+  "field": "requirements",
+  "severity": "ważne",
+  "problem": "Błąd scalania: po wstawce brak spacji i zdania „decyduje nota.Liczba miejsc w naborze 2026/27…” w 8 programach UV (UPV ma spację).",
+  "evidence": "walencja.json: „nota.Liczba” x8 (UV Psicología, Informática, Ciencia de Datos, Medicina, Derecho, Economía, ADE, Periodismo).",
+  "proposedFix": "Zamienić „nota.Liczba” na „nota. Liczba”."
+ },
+ {
+  "city": "walencja",
+  "program": "UV Medicina, UV ADE oraz notes pozostałych UV",
+  "field": "notes",
+  "severity": "ważne",
+  "problem": "Po usunięciu not odcięcia UV (nieweryfikowalnych) zostały zdania do nich się odwołujące, bez żadnej liczby: UV ADE „Nota 8,99 dotyczy Walencji” (jedyne wystąpienie 8,99, bez kontekstu), UV Medicina „Nota odcięcia bliska maksimum (14), więc przyjęcie wymaga bardzo wysokiej noty” (twierdzenie bez źródła), a w każdym UV notes „Nota odcięcia dotyczy kwoty ogólnej i jest tylko orientacją na kolejny rok”, choć żadnej noty nie podano.",
+  "evidence": "walencja.json: grep „8,99” 1 trafienie w notes UV ADE; brak „10,949”, „13,171”; UV notes nadal zawierają zdanie o nocie odcięcia. UV_informeOfertaTitulacion podaje tylko miejsca (Psicologia 450, Medicina 336, Derecho 560, Economía 210, ADE 440, Informática 43, Periodismo 60, Ciencia de Datos 65; wszystko zgodne).",
+  "proposedFix": "Usunąć z notes UV zdania o nocie odcięcia i „Nota 8,99 dotyczy Walencji” (zostawić „440 miejsc w Walencji i 70 w Ontinyent”). W UV Medicina zastąpić sformułowanie o bliskiej maksimum zdaniem „Nota odcięcia w naborze 2026/27 nie jest dostępna w użytych źródłach” albo usunąć. Doprecyzować luki, że noty podano tylko dla UPV."
+ },
+ {
+  "city": "walencja",
+  "program": null,
+  "field": "gaps[5] (Noty odcięcia)",
+  "severity": "ważne",
+  "problem": "Luka mówi, że „Noty odcięcia pochodzą z oficjalnej tabeli przydziału z 10 lipca 2026 dla kwoty ogólnej”, ale w danych UV nie ma już żadnej noty, a noty UPV pochodzą ze stron programów UPV („według strony programu”, np. 9,67), nie z tabeli. Sprzeczność wewnątrz miasta; w sources nie ma też tabeli przydziału.",
+  "evidence": "walencja.json gaps[5] vs requirements UPV (GPA for admission 9,67 / 10,59 / 10,26 / 12,59 potwierdzone na upv.es/titulaciones/GII,GCD,GFA,GIM).",
+  "proposedFix": "Przepisać: „Noty odcięcia podano tylko dla UPV (ze stron programów, naborz 2026/27, skala do 14). Dla UV nie ma ich w użytych źródłach. Nie ma osobnych statystyk dla osób z akredytacją UNEDasiss.”"
+ },
+ {
+  "city": "walencja",
+  "program": "UPV Informática, Ciencia de Datos, Fundamentos, Civil, Mecánica, Tecn. Industriales, ADE",
+  "field": "english / languages",
+  "severity": "drobne",
+  "problem": "UPV Informática, Civil, Mecánica itd. mają english=false i języki [hiszpański, walencki], a UPV Ciencia de Datos english=true (część przedmiotów); w streszczeniu jest „UPV część przedmiotów po angielsku”. Niespójność poziomu szczegółowości, bez wyjaśnienia dla czytelnika, dlaczego tylko jeden program UPV ma angielski.",
+  "evidence": "walencja.json (UPV Ciencia de Datos: 'angielski (część przedmiotów)'; summary „UPV część przedmiotów po angielsku”).",
+  "proposedFix": "Dopisać w notes pozostałych UPV, czy strona programu wspomina o angielskim, albo zmienić summary na „UPV Ciencia de Datos ma część przedmiotów po angielsku”."
+ },
+ {
+  "city": "walencja",
+  "program": "UV Psicología, Informática, Ciencia de Datos",
+  "field": "requirements (Polska na liście)",
+  "severity": "drobne",
+  "problem": "Twierdzenie „Polska jest na tej liście” (droga egzaminu zewnętrznego) łączy GVA i BOE-A-2010-7253 i nie pochodzi ze strony UV; jest zastrzeżone zdaniem „trzeba potwierdzić w UNEDasiss”, więc tylko drobna uwaga, ale w BOE Polska jest wymieniona, więc fakt jest poprawny.",
+  "evidence": "Poprzedni raport krytyk-zagranica3-6; BOE wymienia „Polonia … Swiadectwo Dojrzalosci … Nowa Matura”.",
+  "proposedFix": "Brak pilnej zmiany; ewentualnie dopisać „(Orden EDU/1161/2010)” w jednym zdaniu summary."
+ },
+ {
+  "city": "helsinki",
+  "program": "Aalto Tietotekniikka, Kone- ja rakennustekniikka, Kansantaloustiede",
+  "field": "requirements / summary",
+  "severity": "drobne",
+  "problem": "Poprzednia uwaga o niepotwierdzonych progach SAT/ACT jest nieaktualna: FAQ Aalto podaje 1350/700 (nauki ścisłe, ACT 29/30) i 1200 (ekonomia, ACT 25) dla naboru na 2026. Pozostaje drobna niespójność: summary pisze w czasie teraźniejszym „Aalto wymaga minimum 1350…” bez zastrzeżenia, że to progi 2026; zastrzeżenie jest tylko w programach (a w Economics brak zdania „Progi są orientacyjne”).",
+  "evidence": "aalto.fi FAQ: „for the study options in the field of science and technology, a total score of 1350 and a Mathematics score of 700, and for … business and economics, a total score of 1200. In the admissions to studies starting in August/September 2026…”; ACT: „29 … 30 … 25”.",
+  "proposedFix": "W summary dopisać „w naborze 2026” i skopiować zdanie o orientacyjnych progach do Kansantaloustiede."
+ },
+ {
+  "city": "helsinki",
+  "program": "Hanken Bachelor Programme in English; summary Opłaty",
+  "field": "tuitionNonEu",
+  "severity": "ważne",
+  "problem": "Czesne Hanken 12 000 EUR rocznie (6 000 EUR za semestr, prawa do studiów od 1.08.2024) nadal nie występuje na żadnej z wymienionych stron (strona programu i strona krok po kroku mówią tylko, że osoby spoza UE/EOG płacą czesne i opłatę za zgłoszenie). Kwota jest podana jako fakt w programie i w summary, bez źródła w sources. Uwaga krytyka nie została usunięta ani opatrzona zastrzeżeniem. Metropolia 11 000 i 11 500 EUR potwierdzone dosłownie (IT: „11 000 € … after 31 July 2024, 11 500 € … after 31 July 2027”; Mechanical: po 31 lipca 2025).",
+  "evidence": "curl hanken.fi/en/apply/bachelors-degree-studies-english i …/application-step-step: brak „12 000/12000”; strony /tuition-fees zwracają 404. Haaga-Helia 11 000 EUR i UH 13 000 EUR potwierdzone.",
+  "proposedFix": "Dodać do sources właściwą stronę Hanken z opłatami albo zastąpić kwotę zdaniem „Czesne dla osób spoza UE/EOG podano na stronie Hanken; kwota do potwierdzenia na stronie uczelni.” w summary i programie."
+ },
+ {
+  "city": "helsinki",
+  "program": "UH Psykologian, Tietojenkäsittelytieteen, Lääketieteen kandiohjelma",
+  "field": "selective",
+  "severity": "drobne",
+  "problem": "selective=null dla trzech programów UH po fińsku (psychologia, informatyka, medycyna), mimo że notes mówią o limicie miejsc i ewentualnym egzaminie. Plan nakazuje true przy limitach i selekcji; Law i Applied Psychology mają true, więc spójność wymaga to samo dla pozostałych.",
+  "evidence": "helsinki.json: selective: null x3; notes „Limit miejsc i ewentualny egzamin wstępny do potwierdzenia”.",
+  "proposedFix": "Ustawić selective=true dla medycyny, psychologii i informatyki UH (UH Law ma 5 do 10 procent przyjętych)."
+ },
+ {
+  "city": "helsinki",
+  "program": "Haaga-Helia International Business",
+  "field": "deadline",
+  "severity": "drobne",
+  "problem": "Brakuje potwierdzonego, ale minionego naboru ciągłego na styczeń 2027 (12.08 do 30.09.2026) i wzmianki, że ścieżka dla polskiej matury to nabór ciągły (nie wspólny nabór styczniowy). Pole deadline wymienia „Wspólny nabór wiosenny 7 do 21 stycznia 2027”, który według requirements nie dotyczy polskiej matury, co może zmylić. Potwierdzone dosłownie: nabór ciągły sierpień 2027: 30.10.2026 do 12.05.2027.",
+  "evidence": "haaga-helia.fi: „January 2027 intake Rolling admission in autumn 2026 Application period: 12 August – 30 September 2026”; „August 2027 intake … 30 October 2026 to 12 May 2027”.",
+  "proposedFix": "W deadline zacząć od naboru ciągłego (30.10.2026 do 12.05.2027), dopisać, że nabór na styczeń 2027 (12.08 do 30.09.2026) już minął, a wspólny nabór styczniowy nie obejmuje polskiej matury."
+ },
+ {
+  "city": "helsinki",
+  "program": "Metropolia Rakennus- ja talotekniikka",
+  "field": "tuitionNonEu",
+  "severity": "drobne",
+  "problem": "Format opisu czesnego różni się między programami Metropolii (IT: dwie stawki z datami, Mechanical: dwie stawki, Civil: tylko 11 500 po 31.07.2027), przez co czytelnik nie widzi, co obowiązuje dla naboru 2027. Strona Civil rzeczywiście podaje tylko 11 500, więc dane są prawdziwe.",
+  "evidence": "metropolia.fi civil-engineering-and-building-services: „Annual tuition fee is 11 500 € for non-EU/EEA students, whose right of study starts after 31 July 2027”.",
+  "proposedFix": "Ujednolicić: „11 500 EUR rocznie dla rozpoczynających po 31 lipca 2027 (rok 2027/28)” w każdym programie Metropolii."
+ }
+]

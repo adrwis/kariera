@@ -1,0 +1,146 @@
+[
+ {
+  "city": "amsterdam",
+  "program": "VU Economics and Business Economics (Bachelor)",
+  "field": "admission.polishMatura",
+  "severity": "ważne",
+  "problem": "Status „wymaga dodatkowego etapu (numerus fixus i selekcja)” jest sprzeczny z resztą rekordu (selective=null, requirements: „Strona nie podaje numerus fixus”). Strona kierunku nie mówi o numerus fixus ani selekcji, wymaga matematyki na poziomie VWO A. Regresja po ujednolicaniu statusów.",
+  "evidence": "amsterdam.json VU Economics: matura „wymaga dodatkowego etapu (numerus fixus i selekcja)”, selective null, requirements „Strona nie podaje numerus fixus”. vu.nl/en/education/bachelor/economics-and-business-economics/admissions: brak słów „numerus fixus” i „selection”; jest tekst o dowodzie matematyki równoważnej VWO Mathematics A.",
+  "proposedFix": "Ustawić „uznawana z warunkami (matematyka na poziomie VWO A lub B)”, selective false (albo null z notatką), tak jak w VU Computer Science."
+ },
+ {
+  "city": "amsterdam",
+  "program": "VU Communicatiewetenschap (Bachelor)",
+  "field": "admission.polishMatura",
+  "severity": "ważne",
+  "problem": "Status „uznawana” mimo wymogu „wystarczającej matematyki” i oceny indywidualnej przez komisję. Uwaga z raportu 3 (VU CS, Economics i Communication powinny być „uznawana z warunkami”) naprawiona tylko dla Computer Science.",
+  "evidence": "amsterdam.json VU Communicatiewetenschap: matura „uznawana (VU wymienia polską maturę ... ocena indywidualna przez komisję)”, requirements „wystarczająca matematyka, dowód angielskiego”. Słownik: „uznawana” tylko bez dodatkowych warunków.",
+  "proposedFix": "Zmienić na „uznawana z warunkami (matematyka na poziomie VWO, dowód angielskiego; ocena indywidualna)”."
+ },
+ {
+  "city": "amsterdam",
+  "program": "UvA Rechtsgeleerdheid; VU Computer Science, Economics, Communicatiewetenschap, Geneeskunde",
+  "field": "academicYear",
+  "severity": "ważne",
+  "problem": "W polu academicYear nadal zastrzeżenia zamiast roku: „2027/28 (nie potwierdzono na stronie)” i „2027/28 (strona nie podaje roku wprost)”. Pole jest nieparsowalne, a formuła „nie potwierdzono” to żargon zbierania danych. Dla VU Geneeskunde i psychologii strona podaje rok wprost (zgłoszenie na 2027-2028, wrzesień 2027), więc zastrzeżenie jest tam zbędne.",
+  "evidence": "amsterdam.json universities[0].programs[4].academicYear „2027/28 (nie potwierdzono na stronie)”; universities[1].programs[0..2].academicYear „2027/28 (strona nie podaje roku wprost)”. vu.nl/nl/onderwijs/bachelor/geneeskunde/toelating: „studiejaar 2027-2028 is 15 januari 2027”.",
+  "proposedFix": "Ustawić academicYear „2027/28”, zastrzeżenie przenieść do notes („strona nie podaje roku przy terminie 1 maja, rok wynika z naboru na wrzesień 2027”)."
+ },
+ {
+  "city": "amsterdam",
+  "program": "UvA Business Analytics; UvA Informatica; HvA Built Environment i ICT; VU Computer Science; gaps",
+  "field": "notes / gaps",
+  "severity": "drobne",
+  "problem": "Pozostałości żargonu zbierania danych i niezręczne sformułowania: „nie badano”, „nie sprawdzono”, „sprawdzonych stron/źródłach”, „pojawia się w wynikach wyszukiwania”, „Termin składania wniosku nie wynika z sprawdzonych stron”, „Rodzaj kierunku jako ścieżka do analityka danych: ogólna”, „Czas trwania nie wystąpił na stronie programu”, „Strona VU Law nie była dostępna”. Dwa razy to samo zdanie „Strona programu nie podaje wymagań, do potwierdzenia w uczelni” w UvA Global Communication Science.",
+  "evidence": "Wyszukiwanie w amsterdam.json: universities[2].programs[1].notes („nie badano ... w wynikach wyszukiwania”), universities[0].programs[3].notes, universities[1].programs[0].notes, gaps[3], gaps[6], gaps[10].",
+  "proposedFix": "Przepisać na „nie podano na stronie programu” albo „do potwierdzenia na stronie uczelni”, usunąć odwołania do wyszukiwania i dublet zdania."
+ },
+ {
+  "city": "amsterdam",
+  "program": "UvA Global Communication Science; VU Communicatiewetenschap; HvA Communicatie; HvA Toegepaste Psychologie",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "Antytezy „X, nie Y” w notatkach: „Kierunek naukowy (komunikacja), nie szkoła dziennikarska”, „nie dziennikarstwo w wąskim sensie”, „nie jest uniwersytecki”. Notatki VU Psychologie i VU Communication kończą szablonem „Program po niderlandzku, wymagany poziom języka niepotwierdzony”, który przeczy polu languages (angielski) i ścieżce angielskiej.",
+  "evidence": "amsterdam.json universities[0].programs[2].notes; universities[1].programs[1].notes i [2].notes; universities[2].programs[3..4].notes.",
+  "proposedFix": "Przepisać na zdania oznajmujące („Kierunek obejmuje naukę o komunikacji; do zawodu dziennikarza pasuje luźno”) i usunąć szablon o niderlandzkim z programów angielskich."
+ },
+ {
+  "city": "amsterdam",
+  "program": null,
+  "field": "summary / sources",
+  "severity": "drobne",
+  "problem": "Podsumowanie „Opłaty” i pola tuitionEu w UvA/HvA używają stawki VU 2 771 EUR na rok 2027/28 jako stawki UvA i HvA z dopiskiem. Zdanie „a w danych programów podajemy 2 771 EUR jako stawkę na rok 2027/28 z adnotacją o 2026/27” opisuje sposób zbierania danych, nie fakt dla czytelnika.",
+  "evidence": "amsterdam.json summary[1].text.",
+  "proposedFix": "Zostawić fakty (2 694 EUR w 2026/27 według UvA i HvA, 2 771 EUR w 2027/28 według VU), usunąć zdanie o sposobie podawania danych."
+ },
+ {
+  "city": "dublin",
+  "program": "wszystkie programy (25 pozycji deadline) i summary",
+  "field": "deadline",
+  "severity": "ważne",
+  "problem": "Ślad błędu scalania: w każdym polu deadline zdanie kończy się „cao.ie).ie.” (zdublowane „.ie” po nawiasie). Występuje we wszystkich programach TCD, DCU, TU Dublin i UCD.",
+  "evidence": "dublin.json, pole deadline każdego programu: „(zwykle listopad, do potwierdzenia na cao.ie).ie.”. gaps[0] ma niedomknięty nawias i powtórzone zdanie: „... (CAO otworzyło nabór na rok 2026 dnia 5 listopada 2025; datę otwarcia naboru na 2027 CAO jeszcze nie opublikowało (zwykle listopad, do potwierdzenia na cao.ie).”.",
+  "proposedFix": "Zastąpić wzorzec „).ie.” przez „).” i przepisać gaps[0] w jedno zdanie."
+ },
+ {
+  "city": "dublin",
+  "program": null,
+  "field": "summary.Rekrutacja / deadline / gaps",
+  "severity": "ważne",
+  "problem": "Poprawka zastąpiła datę otwarcia naboru na 2027 stwierdzeniem, że CAO jej jeszcze nie opublikowało. Aktualna strona CAO podaje datę wprost, więc nowe zdanie jest nieprawdziwe. Pierwotna uwaga krytyka (data jako fakt bez źródła) była nietrafna wobec obecnej strony.",
+  "evidence": "cao.ie/index.php?page=timetableevents&bb=importantdates (curl 2026-10-03, HTTP 200): „5th November 2026 CAO application facility opens for 2027 applications”. W danych: „datę otwarcia naboru na 2027 CAO jeszcze nie opublikowało”. Termin zamknięcia na 2027 (1 lutego 2027) strona nadal pokazuje tylko jako „1st February (17:00)” w tabeli cyklu 2026.",
+  "proposedFix": "Wpisać: „CAO otworzy nabór na 2027 dnia 5 listopada 2026 (cao.ie); termin zamknięcia na 2027 CAO jeszcze nie opublikowało, w cyklu 2026 był to 1 lutego”. Poprawić summary, deadline i gaps."
+ },
+ {
+  "city": "dublin",
+  "program": "TCD Psychology (TR006)",
+  "field": "tuitionNonEu",
+  "severity": "drobne",
+  "problem": "Pole podaje, że 22 580 EUR dotyczy m.in. Computer Science, a Computer Science (TR033) ma w swoim rekordzie 29 570 EUR. Poprawka naprawiła kwotę w TR033, ale nie tekst w Psychology.",
+  "evidence": "dublin.json TR006 tuitionNonEu: „Spoza UE (2026/27): 22 580 EUR rocznie (Psychology, Law, Computer Science, wg strony opłat TCD).”. TR033: „29 570 EUR rocznie”. tcd.ie/courses/undergraduate/fees: Psychology UBPS-PSYC-2F €22,580, Computer Science (Year 5 is postgraduate) UICS-ICSC-2F €29,570.",
+  "proposedFix": "Usunąć „Computer Science” z nawiasu w TR006."
+ },
+ {
+  "city": "dublin",
+  "program": null,
+  "field": "summary.Rekrutacja; gaps; notes",
+  "severity": "drobne",
+  "problem": "Żargon zbierania danych: „tego warunku w dokumencie nie badano szerzej”, „nie sprawdzano” (gaps[8], notatki TU Dublin Architecture i Business & Law, TCD Law). Antyteza w TU Dublin CS: „Zakres punktów jest rozstrzałem według strony kursu, a nie średnią”, w TCD Law: „studia prawa irlandzkiego; nie kształcą do zawodu prawnika w Polsce”.",
+  "evidence": "dublin.json summary[3].text; gaps[8]; universities[2].programs[1].notes; universities[2].programs[3].notes; universities[3].programs[0].notes; universities[1].programs[3].notes.",
+  "proposedFix": "Przepisać na „nie podano na stronie” lub „do potwierdzenia”, antytezy zamienić na zdania oznajmujące."
+ },
+ {
+  "city": "berlin",
+  "program": null,
+  "field": "summary.Język",
+  "severity": "ważne",
+  "problem": "Urwane zdanie: kończy się średnikiem po otwartym nawiasie wyjaśnienia i nie ma dalszego ciągu.",
+  "evidence": "berlin.json summary[2].text: „Większość programów licencjackich po niemiecku (C1: TestDaF 4/4/4/4 albo DSH-2 przy zapisie);”.",
+  "proposedFix": "Dokończyć: „Większość programów licencjackich jest po niemiecku (C1: TestDaF 4/4/4/4 albo DSH-2 przy zapisie). Po angielsku jest HTW International Business (TOEFL iBT 95, IELTS 7,0 lub PTE 76).”."
+ },
+ {
+  "city": "berlin",
+  "program": "TU Berlin (5 programów), HTW Berlin (6 programów poza International Business), Charité",
+  "field": "tuitionEu / tuitionNonEu",
+  "severity": "ważne",
+  "problem": "Poprawka dopisała zastrzeżenie przed polem, ale zostawiła w tym samym polu twierdzenie „0 EUR czesnego (...brak czesnego)”, więc pole przeczy samo sobie: najpierw „brak opłaty trzeba potwierdzić”, zaraz potem „0 EUR czesnego”. W summary „Czesne na sprawdzonych uczelniach publicznych wynosi 0 EUR” nadal jest stwierdzone bez wyjątku. Dla TU w tuitionNonEu tekst „nie potwierdzono osobnym zdaniem na stronie TU” to żargon.",
+  "evidence": "berlin.json TU Informatik tuitionEu: „Czesne nie jest wymienione na stronie opłat uczelni, więc brak opłaty trzeba potwierdzić na stronie uczelni. 0 EUR czesnego (strona TU opisuje tylko opłaty semestralne, brak czesnego); opłata semestralna 379,06 EUR ...”. tu.berlin/en/studierendensekretariat/topics-a-z/semester-fees: tylko składniki opłaty (€379.06 z biletem, €149.56 bez), brak zdania o czesnym. Dosłownie potwierdzone tylko FU: „erhebt – außer für weiterbildende Studienangebote – keine Studiengebühren” oraz HTW International Business: „without tuition fees”.",
+  "proposedFix": "Dla TU i nie-IB HTW zapisać: „Czesne nie jest wymienione na stronie opłat; do potwierdzenia na stronie uczelni. Opłata semestralna 379,06 EUR (z biletem)”, bez „0 EUR czesnego”. W summary: „Czesne: FU i HTW International Business podają brak czesnego wprost; dla TU i pozostałych programów HTW do potwierdzenia”."
+ },
+ {
+  "city": "berlin",
+  "program": "HTW Angewandte Informatik, Bauingenieurwesen, Maschinenbau, Betriebswirtschaftslehre, International Business, Wirtschaftsingenieurwesen, Wirtschaftskommunikation",
+  "field": "tuitionNonEu",
+  "severity": "ważne",
+  "problem": "Sfabrykowany cytat z apostrofami „('Tuition free ... generally free of charge')” nadal jest we wszystkich 7 programach HTW (poprawka nie zadziałała, bo wyrażenie regularne ucinało zdanie na kropkach w wielokropku). Frazy nie ma na stronie. W programach innych niż International Business cytat dodatkowo odwołuje się do innego programu.",
+  "evidence": "berlin.json universities[3].programs[0..6].tuitionNonEu: „0 EUR czesnego wg strony programu International Business ('Tuition free ... generally free of charge'); te same opłaty semestralne”. international-business.htw-berlin.de/bachelor/for-applicants (curl): „degree, without tuition fees and fully taught in English” oraz „without paying any tuition”; frazy „generally free of charge” brak.",
+  "proposedFix": "IB: „0 EUR czesnego (strona programu: „without tuition fees”); opłata semestralna 375,30 EUR”. Pozostałe programy HTW: „do potwierdzenia na stronie uczelni”, bez cytatu."
+ },
+ {
+  "city": "berlin",
+  "program": "FU Betriebswirtschaftslehre, FU Publizistik; TU Informatik, Architektur, Bauingenieurwesen, Maschinenbau, Economics and Sustainability; HTW International Business i Wirtschaftskommunikation",
+  "field": "admission.requirements",
+  "severity": "ważne",
+  "problem": "Urwane, sklejone zdania bez kropki (poprawka naprawiła tylko FU Psychologie): „...po niemiecku lub angielsku Dodatkowo angielski B2”, „...po niemiecku lub angielsku Kombi-Bachelor: ...”, „...wg czasu oczekiwania Program przeprojektowany”, „...wg czasu oczekiwania Przed rozpoczęciem studiów”, „...wartości NC Nie wymaga niemieckiego”, „...wartości NC Wg HTW przydział”. Dodatkowo „Dobrowolny test uzdolnień” w FU Psychologie, końcówki bez kropki w kilku programach.",
+  "evidence": "berlin.json requirements: universities[0].programs[2], [4]; universities[1].programs[0..3]; universities[3].programs[4], [6]. Przykład TU Informatik: „...50 procent wg czasu oczekiwania Program przeprojektowany od WS 2026/27”.",
+  "proposedFix": "Wstawić kropkę przed każdym doklejonym zdaniem i na końcu pola (automatycznie: wzorzec małej lub dużej litery po zdaniu bez kropki)."
+ },
+ {
+  "city": "berlin",
+  "program": "FU Publizistik- und Kommunikationswissenschaft; TU Berlin Economics and Sustainability",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "Antytezy zostały: „Nie jest to kierunek dziennikarski w ścisłym sensie, tylko nauka o komunikacji i mediach” oraz „(strona: przydatna, nie warunek)”. Żargon „nie badano” (FU Rechtswissenschaft, TU Architektur), „sprawdzonych uczelniach”, „sprawdzonych stronach” w summary i gaps, „nie da się sprawdzić bez ręcznego wyszukiwania” w polu matura 10 rekordów (opis sposobu zbierania danych).",
+  "evidence": "berlin.json universities[0].programs[4].notes; universities[1].programs[4].notes; summary[0], summary[1]; matura pól FU i TU.",
+  "proposedFix": "Przepisać: „Kierunek obejmuje naukę o komunikacji i mediach; do zawodu dziennikarza pasuje luźno”; w matura zostawić „Wpisu dla polskiego świadectwa nie podano w bazie DAAD; ostateczną decyzję podejmuje uczelnia”."
+ },
+ {
+  "city": "berlin",
+  "program": "HTW Wirtschaftsingenieurwesen, Wirtschaftskommunikation",
+  "field": "languages",
+  "severity": "drobne",
+  "problem": "Puste languages (lista []), choć wymagany poziom niemieckiego jest podany w languageProof (DSH-2 itd.). Strona i filtr mogą pokazać program bez języka wykładowego.",
+  "evidence": "berlin.json universities[3].programs[5].languages i [6].languages: []; notes: „Język wykładowy nie jest podany na stronie programu”.",
+  "proposedFix": "Wpisać „niemiecki (do potwierdzenia)” albo oznaczyć w notes, że język wynika z wymaganego dowodu niemieckiego."
+ }
+]
