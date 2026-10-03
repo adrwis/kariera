@@ -1,0 +1,101 @@
+[
+ {
+  "city": "berlin",
+  "program": "HTW International Business",
+  "field": "tuitionNonEu",
+  "severity": "ważne",
+  "problem": "Wymyślony cytat w apostrofach nadal występuje, tylko już w jednym programie (w pozostałych usunięty). Frazy „Tuition free ... generally free of charge” nie ma na stronie, a pole przedstawia ją jako cytat strony programu.",
+  "evidence": "Pole: „0 EUR czesnego wg strony programu International Business ('Tuition free ... generally free of charge')”. Strona international-business.htw-berlin.de/bachelor/for-applicants (curl, 2026-10-03): zero trafień dla „generally free” i „tuition free”; faktyczne sformułowania: „without tuition fees and fully taught in English” oraz „all without paying any tuition”.",
+  "proposedFix": "Zastąpić cytatem „without tuition fees”: „0 EUR czesnego (strona programu: „without tuition fees”); opłata semestralna 375,30 EUR (WS 2026/27, w tym Semesterticket 226,80 EUR)”."
+ },
+ {
+  "city": "berlin",
+  "program": "FU Informatik; HTW International Business",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "Resztki żargonu zbierania danych i zdanie sprzeczne samo ze sobą.",
+  "evidence": "FU Informatik: „Brak osobnego licencjatu Data Science na FU w sprawdzonych źródłach”. HTW IB: „Czy polska matura zwalnia z dowodu angielskiego, nie potwierdzono (wg strony zwolnienie tylko dla HZB z anglojęzycznego kraju OECD, więc nie zwalnia)” (nie potwierdzono, a zaraz wniosek, że nie zwalnia).",
+  "proposedFix": "FU: „Osobnego licencjatu Data Science na FU nie podano; ścieżka dla analityka danych to informatyka.” HTW IB: „Zwolnienie z dowodu angielskiego dotyczy tylko świadectw z anglojęzycznego kraju OECD, więc polska matura nie zwalnia (wg strony programu).”"
+ },
+ {
+  "city": "dublin",
+  "program": "TCD, DCU, TU Dublin, UCD (wszystkie programy)",
+  "field": "academicYear",
+  "severity": "drobne",
+  "problem": "Pole academicYear jest zdaniem opisowym o trzech różnych latach zamiast jednego roku, więc trudno je sparsować i pokazać w filtrze.",
+  "evidence": "„Wejście we wrześniu 2027 (rok 2027/28). Opłaty pochodzą z 2026/27, terminy CAO z cyklu 2026, a wytyczne CAO dla Polski dotyczą naboru 2026.”",
+  "proposedFix": "academicYear: „2027/28”; resztę zdania przenieść do notes lub zostawić tylko w summary."
+ },
+ {
+  "city": "dublin",
+  "program": "TCD Computer Science (TR033)",
+  "field": "tuitionEu / tuitionNonEu",
+  "severity": "drobne",
+  "problem": "Uwaga informacyjna, nie błąd: stawka 4 832 EUR i 29 570 EUR pochodzi z wiersza UICS „Computer Science (Year 5 is postgraduate)”, a strona TCD ma też tańszy wiersz Economics and Computer Science (3 181 EUR). Rekord nie wyjaśnia, skąd wybór wiersza.",
+  "evidence": "tcd.ie/courses/undergraduate/fees/: UICS-ICSC-2F 4 832 / 29 570 EUR; UBJH-ECCS-1F 3 181 / 22 580 EUR. Strona kursu TR033: „4 Years Full-Time”, TR051: „5 Years Full-Time”, zgodne z rekordem.",
+  "proposedFix": "Dopisać w notes TR033: „stawka według wiersza Computer Science (z opcjonalnym piątym rokiem magisterskim)”."
+ },
+ {
+  "city": "amsterdam",
+  "program": "UvA Geneeskunde (Bachelor)",
+  "field": "admission.polishMatura",
+  "severity": "ważne",
+  "problem": "Status „wymaga dodatkowego etapu” nie pasuje do słownika: przyczyna podana w polu to ocena świadectwa i uzupełnienie przedmiotów, a notes mówi, że strona nie wymienia polskiej matury. Losowanie nie jest dodatkowym etapem uznania świadectwa. Według słownika to „uznawana z warunkami” (przedmioty wymagane) albo „wymaga potwierdzenia przez uczelnię”.",
+  "evidence": "Pole: „wymaga dodatkowego etapu (zagraniczne świadectwa ocenia UvA Credential Evaluation pod kątem przedmiotów i niderlandzkiego; braki przedmiotowe trzeba uzupełnić)”; notes: „Polska matura nie jest wymieniona, a wymagane przedmioty trzeba porównać...”.",
+  "proposedFix": "Ustawić „uznawana z warunkami (wymagany pakiet przedmiotów na poziomie VWO i niderlandzki; ocena przez UvA Credential Evaluation)”, a numerus fixus i losowanie zostawić w requirements."
+ },
+ {
+  "city": "amsterdam",
+  "program": "VU Geneeskunde (Bachelor)",
+  "field": "admission.polishMatura",
+  "severity": "drobne",
+  "problem": "Ten sam wzorzec: „wymaga dodatkowego etapu” dla sytuacji, gdy VU wymienia Polskę na liście dyplomów, a wymagane są przedmioty na poziomie VWO i ocena indywidualna.",
+  "evidence": "Pole: „wymaga dodatkowego etapu (zagraniczne dyplomy oceniane indywidualnie; wymagany pakiet przedmiotów na poziomie VWO)”; summary: „VU wymienia na swojej liście dyplomów Polskę”.",
+  "proposedFix": "„uznawana z warunkami (pakiet przedmiotów na poziomie VWO, niderlandzki NT2 II; ocena indywidualna)”."
+ },
+ {
+  "city": "amsterdam",
+  "program": null,
+  "field": "summary.Polska matura vs gaps",
+  "severity": "drobne",
+  "problem": "Sprzeczność wewnątrz miasta: summary mówi, że medycyna „wymaga niderlandzkiego (NT2)”, a luka mówi, że strona UvA medycyny nie podaje wymaganego poziomu niderlandzkiego (poza dyplomem NT2 przy IB). NT2 II jest potwierdzone tylko dla VU Geneeskunde.",
+  "evidence": "summary: „Medycyna jest w całości po niderlandzku i wymaga niderlandzkiego (NT2)”; gaps: „UvA medycyna: strona nie podaje wymaganego poziomu niderlandzkiego (poza dyplomem NT2 przy IB)”; VU Geneeskunde languageProof: NT2 II.",
+  "proposedFix": "„Medycyna jest w całości po niderlandzku; VU podaje wymóg co najmniej NT2 II, UvA poziomu nie podaje.”"
+ },
+ {
+  "city": "amsterdam",
+  "program": "UvA Informatica; HvA ICT",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "Powtórzone zdania o braku wymagań na stronie programu (dublet po poprawce).",
+  "evidence": "UvA Informatica: „Strona programu nie podaje wymagań wprost, bo wymagania są na stronie zapisów. Strona programu nie podaje wymagań, do potwierdzenia w uczelni.”; HvA ICT: „...do potwierdzenia na stronie uczelni. Strona programu nie podaje wymagań, do potwierdzenia w uczelni.”",
+  "proposedFix": "Zostawić jedno zdanie: „Wymagania są na osobnej stronie zapisów; do potwierdzenia na stronie uczelni.”"
+ },
+ {
+  "city": "berlin",
+  "program": null,
+  "field": "kontrola uwag krytyk-zagranica4",
+  "severity": "drobne",
+  "problem": "Usunięte: urwane summary.Język, sprzeczność tuition TU i HTW, zlepione zdania w requirements (0 trafień wzorca „kropka.Wielka litera”), puste languages HTW. Nieusunięte w pełni: wymyślony cytat HTW IB i dwa drobne ślady żargonu.",
+  "evidence": "Skan regex po berlin.json; porównanie z krytyk-zagranica4.",
+  "proposedFix": "Zob. pozostałe wpisy."
+ },
+ {
+  "city": "dublin",
+  "program": null,
+  "field": "kontrola uwag krytyk-zagranica4",
+  "severity": "drobne",
+  "problem": "Wszystkie otwarte uwagi usunięte: ślad „).ie.” (0 trafień), data otwarcia naboru 5 listopada 2026 wpisana wprost i potwierdzona na cao.ie, TR006 bez „Computer Science”, żargon i antytezy usunięte.",
+  "evidence": "Skan regex po dublin.json; cao.ie: „5th November 2026 CAO application facility opens for 2027 applications”.",
+  "proposedFix": "Brak."
+ },
+ {
+  "city": "amsterdam",
+  "program": null,
+  "field": "kontrola uwag krytyk-zagranica4",
+  "severity": "drobne",
+  "problem": "Usunięte: statusy VU Economics i Communicatiewetenschap (uznawana z warunkami), academicYear „2027/28” bez zastrzeżeń, żargon i antytezy, zdanie o sposobie podawania danych w summary. Nowe uwagi o statusie Geneeskunde zob. wyżej.",
+  "evidence": "Skan regex po amsterdam.json; porównanie z krytyk-zagranica4.",
+  "proposedFix": "Zob. pozostałe wpisy."
+ }
+]

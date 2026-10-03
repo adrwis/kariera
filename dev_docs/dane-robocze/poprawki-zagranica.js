@@ -468,6 +468,33 @@ function englishFlag(d) { for (const [, p] of progs(d)) if (!p.languages.length)
 function endPeriods(d) {
   for (const [, p] of progs(d)) for (const k of ['requirements', 'notes']) if (typeof p[k] === 'string' && p[k] && !/[.!?)”"]$/.test(p[k])) p[k] += '.';
 }
+// Trzecia runda: ostatnie uwagi z kontroli (raporty krytyk-zagranica5-*.json)
+const FINAL3 = {
+  berlin(d) {
+    setIf(d, /HTW/, /International Business/, p => { p.tuitionNonEu = (p.tuitionNonEu || '').replace(/\('Tuition free[^)]*\)/, '(strona programu: „without tuition fees”)'); }, 'Berlin HTW IB cytat');
+  },
+  amsterdam(d) {
+    setIf(d, /Amsterdam|UvA|Vrije|VU/, /Geneeskunde/, p => { if (/^wymaga dodatkowego etapu/.test(p.matura || '')) p.matura = p.matura.replace(/^wymaga dodatkowego etapu/, 'wymaga potwierdzenia przez uczelnię'); }, 'Amsterdam medycyna');
+  },
+  nikozja(d) {
+    setIf(d, /UNIC|University of Nicosia/, null, p => {
+      if (p.selective === false) p.selective = null;
+      p.requirements = (p.requirements || '').replace(/, bez odrzucenia\./, '.').replace(/ bez odrzucenia\./, '.');
+      if (p.requirements && !/wyższe wymagania/.test(p.requirements)) p.requirements += ' Niektóre programy mają wyższe wymagania wstępne, więc warunki konkretnego kierunku trzeba potwierdzić na stronie uczelni.';
+    }, 'Nikozja UNIC');
+  },
+  sztokholm(d) {
+    if (!d.gaps.some(g => /podział języków/i.test(g))) d.gaps.push('Podział języków w programach civilingenjör KTH (pierwsze trzy lata po szwedzku, dwa ostatnie po angielsku) pochodzi z katalogu programów KTH i nie został potwierdzony na stronach samych programów.');
+    replaceAllIn(d, /Fizyka 2/g, 'Fysik 2', 'Sztokholm Fysik');
+    replaceAllIn(d, /nabór otwarty od 2026-10-16/g, 'nabór rusza 16 października 2026', 'Sztokholm data');
+    replaceAllIn(d, /\bHT26\b/g, 'semestr jesienny 2026', 'Sztokholm HT26');
+    replaceAllIn(d, /\bVT27\b/g, 'semestr wiosenny 2027', 'Sztokholm VT27');
+  },
+  ateny(d) {
+    replaceAllIn(d, /Wszystkie (\d+) miejsc(?:a)? zostało zajętych/g, 'Zajęto wszystkie miejsca ($1)', 'Ateny miejsca');
+    for (const [, p] of progs(d)) if (p.notes) p.notes = dropS(p.notes, /^Kierunek należy do oferty NKUA\.?$/);
+  },
+};
 function apply(slug, data) {
   Object.assign(data, plain(data));
   fill(slug, data);
@@ -476,6 +503,7 @@ function apply(slug, data) {
   Object.assign(data, plain(data)); // teksty od agentów mają twarde spacje, a dopasowania poniżej działają na zwykłych
   if (FINAL[slug]) FINAL[slug](data);
   if (FINAL2[slug]) FINAL2[slug](data);
+  if (FINAL3[slug]) FINAL3[slug](data);
   endPeriods(data);
   englishFlag(data);
   // Opisy o sposobie badania zamiast o treści (np. „Nie badano osobno…”) nie są informacją dla ucznia

@@ -1,0 +1,83 @@
+[
+ {
+  "city": "Nikozja",
+  "program": "UNIC: Psychology, Computer Science, Data Science, Law, Civil and Environmental Engineering, Mechanical Engineering, Business Administration, Digital Communications (8 programów)",
+  "field": "admission.requirements / admission.selective",
+  "severity": "ważne",
+  "problem": "Zdanie „Poniżej 7,5/10 (15/20) pierwszy rok z dodatkowym wsparciem akademickim, bez odrzucenia” dodaje do źródła twierdzenie, którego tam nie ma, a pomija zdanie ze strony o tym, że część programów ma wyższe wymagania wstępne. Na tym opiera się selective=false i „Brak egzaminu wstępnego”.",
+  "evidence": "https://www.unic.ac.cy/nicosia/study-at-unic/admission-requirements/: „Students with a lower HSLC grade than 7.5/10 or 15/20 ... are provided with extra academic guidance and monitoring during the first year of their studies. Some programmes have higher entry requirements.” Nie ma słów o braku odrzucenia ani o braku egzaminu.",
+  "proposedFix": "Usunąć „bez odrzucenia”, dodać „Strona uczelni zaznacza, że część programów ma wyższe wymagania wstępne; dla tego kierunku trzeba je sprawdzić u uczelni”. selective ustawić na null zamiast false (zakaz ustawiania false z braku informacji)."
+ },
+ {
+  "city": "Nikozja",
+  "program": "UNIC (obywatele UE)",
+  "field": "summary[Opłaty]",
+  "severity": "drobne",
+  "problem": "Zdanie „cennik dla obywateli UE niższy o około 120 EUR rocznie” jest nieprecyzyjne: różnica to 120 EUR (psychologia, architektura), 60 EUR (informatyka) i 0 (medycyna).",
+  "evidence": "UNIC Cyprus-EU 2026-2027: CS 10 740, Psychology 10 200, Architecture 11 700, MD 24 000; NonEU: CS 10 800, Psychology 10 320, Architecture 11 820, MD 24 000.",
+  "proposedFix": "Napisać „niższy o 0 do 120 EUR rocznie zależnie od kierunku”."
+ },
+ {
+  "city": "Nikozja",
+  "program": null,
+  "field": "summary[Uwagi]",
+  "severity": "drobne",
+  "problem": "Podsumowanie mówi bez zastrzeżeń, że Uniwersytet Cypryjski jest bezpłatny dla studentów z UE, a w kartach ta sama informacja ma zastrzeżenie, że pochodzi z roku 2020/21 i wymaga potwierdzenia. Dwie pozycje summary mają ten sam label „Uwagi”.",
+  "evidence": "summary[Uwagi]: „jest publiczny i bezpłatny dla studentów z UE na pierwszym stopniu”; karty UCY: „informacja ... z roku akademickiego 2020/21; aktualną kwotę trzeba potwierdzić”.",
+  "proposedFix": "Dodać zastrzeżenie o danych z 2020/21 w summary i zmienić drugi label na „Instytucje”."
+ },
+ {
+  "city": "Nikozja",
+  "program": "University of Cyprus (9 kierunków z rejestru CYQAA)",
+  "field": "admission.requirements / matura",
+  "severity": "drobne",
+  "problem": "Zwrot „nie są podane w dostępnych źródłach” brzmi jak relacja ze zbierania danych, a nie informacja dla ucznia.",
+  "evidence": "requirements: „Szczegółowe kryteria ... nie są podane w dostępnych źródłach”.",
+  "proposedFix": "Zastąpić: „Uniwersytet nie publikuje tych kryteriów w sposób, który udało się sprawdzić; trzeba zapytać uczelnię”, albo „do potwierdzenia na stronie uczelni”."
+ },
+ {
+  "city": "Nikozja",
+  "program": "UNIC: Medicine, Law, EUC: Law i inne",
+  "field": "notes / durationYears",
+  "severity": "drobne",
+  "problem": "Karta Law UNIC ma język „angielski, grecki” i czesne dla grupy angielsko-greckiej, a zakres języka wykładowego nie jest opisany; w gaps zapisano, że język i czas trwania dla części kierunków pochodzą tylko z cennika. Ostrzeżenie jest uczciwe, ale część kart (EUC Economics, brak notes) nie ma go przy programie.",
+  "evidence": "gaps[7]; EUC Economics and Finance notes=null.",
+  "proposedFix": "Dodać krótką notatkę o źródle (cennik) przy kartach bez notes."
+ },
+ {
+  "city": "Ateny",
+  "program": "NKUA Psychologia, Informatyka, Prawo, Ekonomia; NTUA 4 kierunki; AUEB Informatyka, Ekonomia, Zarządzanie",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "Błąd gramatyczny w zdaniu o naborze: „Wszystkie 23 miejsc zostało zajętych” (także 24, 25, 21, 40, 17, 10 miejsc).",
+  "evidence": "np. AUEB Informatyka: „Wszystkie 23 miejsc zostało zajętych”.",
+  "proposedFix": "Zamienić na „Zajęto wszystkie 23 miejsca” (odmiana: 21 miejsc, 40 miejsc, 17 miejsc, 10 miejsc, 23 miejsca, 24 miejsca, 25 miejsc)."
+ },
+ {
+  "city": "Ateny",
+  "program": "NKUA Prawo",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "Zdanie „Kierunek należy do oferty NKUA” jest wypełniaczem bez treści.",
+  "evidence": "notes Νομική.",
+  "proposedFix": "Usunąć zdanie."
+ },
+ {
+  "city": "Ateny",
+  "program": "NKUA Farmacja",
+  "field": "tuitionEu",
+  "severity": "drobne",
+  "problem": "Zaliczka 3 000 EUR opisana jako „bezzwrotna” bez wyjątków, które podaje strona (zwrot, gdy kandydat warunkowo przyjęty nie osiągnie prognozowanych ocen albo gdy odmówiono wizy). Karta medycyny zawiera te wyjątki, karta farmacji nie.",
+  "evidence": "https://mpharmnkua.uoa.gr/tuition-fees/: „The deposit of 3,000 € is refundable only under the following circumstances ...”.",
+  "proposedFix": "Dopisać „poza wyjątkami (niespełnione prognozowane oceny, odmowa wizy)”."
+ },
+ {
+  "city": "Ateny",
+  "program": "NKUA Psychologia, Informatyka, Ekonomia, Prawo, Komunikacja; AUEB (3); NTUA (4)",
+  "field": "languages / matura",
+  "severity": "drobne",
+  "problem": "Status „uznawana z warunkami” dla ścieżki B.1 jest zgodny ze słownikiem, ale na ścieżkę wchodzi tylko kandydat z certyfikatem greckiego i przeliczeniem wyniku świadectwa na skalę 0 do 20 przez ministerstwo; progi z naboru 2026 odnoszą się do tej skali, a przelicznika polskiej matury nikt nie podaje. Ostrzeżenie jest w gaps, ale nie w polu notes przy progu.",
+  "evidence": "gaps[1]; notes: „Próg zmienia się co roku, więc jest tylko wskazówką”.",
+  "proposedFix": "Dopisać w notes: „Przelicznik polskiej matury na skalę 0 do 20 nie jest publikowany”."
+ }
+]

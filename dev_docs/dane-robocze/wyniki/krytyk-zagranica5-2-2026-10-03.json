@@ -1,0 +1,110 @@
+[
+ {
+  "city": "Sztokholm",
+  "program": "KTH Datateknik, Maskinteknik, Samhällsbyggnad, Arkitektutbildning",
+  "field": "languages / languageProof / notes",
+  "severity": "ważne",
+  "problem": "Twierdzenie „pierwsze trzy lata głównie po szwedzku, dwa ostatnie głównie po angielsku” (podstawa pola languages i wymogu Svenska 3 dla tych czterech programów) nie dało się potwierdzić dosłownie. Źródło wskazane w sources (kth.se/student/kurser/program/CDATE/20262 i ARKIT/20272) zwraca przez curl tylko szkielet strony (ok. 900 znaków tekstu, treść ładowana skryptem), a strony programów kth.se/utbildning/... nie zawierają zdania o językach wykładowych. Ostrzeżenie w gaps jest tylko o szwedzkim ogólnie, nie o tym podziale.",
+  "evidence": "curl z UA przeglądarki: CDATE/20262?l=en i ARKIT/20272 HTTP 200, po usunięciu skryptów 940 i 902 znaków, bez słów swedish/engelska. kth.se/utbildning/civilingenjor/datateknik: 9 934 znaków, brak słów engelska/språk w kontekście wykładowym.",
+  "proposedFix": "Dopisać do gaps zdanie, że podział języków (trzy lata po szwedzku, dwa po angielsku) pochodzi z katalogu programów KTH i nie został sprawdzony na stronie dostępnej bez skryptów, albo dodać cytat z kopps (api.kth.se). Do czasu potwierdzenia złagodzić notes („według katalogu KTH”)."
+ },
+ {
+  "city": "Sztokholm",
+  "program": null,
+  "field": "summary[2] i summary[3] (label)",
+  "severity": "drobne",
+  "problem": "Uwaga z krytyk-zagranica4 nadal otwarta: dwie sekcje summary mają ten sam label „Rekrutacja”.",
+  "evidence": "Etykiety: Polska matura, Opłaty, Rekrutacja, Rekrutacja, Zakres, Znajomość języka.",
+  "proposedFix": "Zmienić drugą na „Systemy zgłoszeń” albo scalić obie."
+ },
+ {
+  "city": "Sztokholm",
+  "program": "KTH ICT",
+  "field": "matura",
+  "severity": "drobne",
+  "problem": "Literówka i niespójność nazwy przedmiotu: „Matematik 4 i Fizyka 2”, w pozostałych miejscach „Fysik 2”.",
+  "evidence": "sztokholm.json, KTH ICT, pole matura: „matematyka i fizyka na poziomie Matematik 4 i Fizyka 2”.",
+  "proposedFix": "Zamienić na „Matematik 4 i Fysik 2”."
+ },
+ {
+  "city": "Sztokholm",
+  "program": "KTH ICT, KI Läkarprogrammet",
+  "field": "academicYear",
+  "severity": "drobne",
+  "problem": "„nabór otwarty od 2026-10-16” zdaniem w przyszłości brzmi, jakby nabór już trwał (dziś 2026-10-03); w KI występują skróty szwedzkie „HT26”, „VT27”, niezrozumiałe dla czytelnika, i format ISO daty.",
+  "evidence": "KTH ICT: „2027/28 (nabór otwarty od 2026-10-16)”; KI: „ostatni: HT26 160 miejsc, VT27 zgłoszenia do 2026-10-15”.",
+  "proposedFix": "„nabór rusza 16 października 2026”; „ostatni nabór: jesień 2026, 160 miejsc”."
+ },
+ {
+  "city": "Sztokholm",
+  "program": null,
+  "field": "poprzednie uwagi (krytyk-zagranica4)",
+  "severity": "drobne",
+  "problem": "Stan kontrolny: usunięte zostały poprawka terminu 15 kwietnia (daty 2027 zgodne z universityadmissions.se, brak zagnieżdżonych nawiasów), liczba „dziewięć programów”, poziom szwedzkiego (Svenska 3 / TISUS potwierdzony na antagning.se).",
+  "evidence": "universityadmissions.se autumn-semester-dates: „15 March 2027 Application round opens, 15 April Application deadline, 21 June Supporting documentation deadline, 9 July Admissions results”; „until 5 July” dla szkół z UE/EOG; antagning.se: „Svenska nivå 3 … Svenska som andraspråk nivå 3 … TISUS”.",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "Barcelona",
+  "program": null,
+  "field": "poprzednie uwagi (krytyk-zagranica4)",
+  "severity": "drobne",
+  "problem": "Stan kontrolny: wszystkie otwarte uwagi usunięte. Brak „PAU.Według”, pięć programów UB i UPF ma durationYears (UPF Periodisme 4 według RUCT), języki UB i UPF Medicina uzupełnione, UPF Periodisme english=null z uczciwą notą, żargon z gaps i tuitionEu zastąpiony pełnymi zdaniami, antyteza UPC Civil przepisana, zdanie o nocie z tabeli Generalitat dopisane w notes, ostatnie zdanie summary złagodzone.",
+  "evidence": "grep w barcelona.json: brak „PAU.Według”; UPC Civil: „łącznie z grupą angielską”; UB Psicologia notes: „Źródło not: Generalitat, tabela Notes de tall”.",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "Barcelona",
+  "program": "UPF Medicina",
+  "field": "languages / notes (RUCT)",
+  "severity": "drobne",
+  "problem": "Języki „hiszpański, katalański, angielski” pochodzą z listy języków całego centrum (Facultat de Medicina i Ciències de la Vida) w RUCT, a nie z wpisu dla samego stopnia; strona RUCT centrum wymienia INGLÉS, CASTELLANO i CATALÁN dla wszystkich tytułów centrum. Notes mówi „według RUCT… (Facultat de Medicina i Ciències de la Vida)”, więc jest uczciwie, ale english=true może wyglądać na pewne.",
+  "evidence": "RUCT datosCentro codCentro=08070362: „Lenguas en las que se imparte: CASTELLANO ×37, CATALÁN ×37, INGLÉS ×50”.",
+  "proposedFix": "Dopisać w notes „lista języków dotyczy całego centrum, udział angielskiego w Medicinie trzeba sprawdzić na stronie wydziału”."
+ },
+ {
+  "city": "Barcelona",
+  "program": "UAB Medicina, UAB Dret",
+  "field": "languages / english",
+  "severity": "drobne",
+  "problem": "Pole languages zawiera „angielski”, english=true, ale w tej rundzie nie widać cytatu potwierdzającego (nie sprawdzano; poza zakresem weryfikacji). Do sprawdzenia na stronie UAB.",
+  "evidence": "barcelona.json UAB Medicina i Dret: languages [katalański, hiszpański, angielski], english true; w notes brak wzmianki o angielskim.",
+  "proposedFix": "Dopisać w notes źródło angielskiego albo oznaczyć „część zajęć, do potwierdzenia”."
+ },
+ {
+  "city": "Walencja",
+  "program": null,
+  "field": "poprzednie uwagi (krytyk-zagranica4)",
+  "severity": "drobne",
+  "problem": "Stan kontrolny: otwarte uwagi usunięte. Brak „nota.Liczba”, noty UV są w danych z dokumentu Generalitat (10 lipca i 1 października 2026), gaps[5] opisuje je zgodnie z danymi, zdanie „Nota 8,99 dotyczy Walencji” ma kontekst (kod 157 i Ontinyent 163). UPV Ciencia de Datos nadal jedyny z english=true wśród UPV, ale notes każdego programu to wyjaśnia.",
+  "evidence": "Notas de corte (PDF z 08/07/2026 i 01/10/2026): UV Psicología 123: 10,949 i 10,325; Medicina 132: 13,171 i 12,796; Derecho 141: 8,54 (1.10); Periodismo 122: 10,514 i 9,963; Economía 145: 9,484 i 8,274; Ciencia de Datos 173: 9,577 i 8,733; UPV Informática 226: 9,673 i 9,054; Ciencia de Datos 248: 10,592 i 9,198; Mecánica 229: 12,586; Civil 212: 10,47.",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "Walencja",
+  "program": "UV ADE, UV Economía, UV Medicina",
+  "field": "languageProof (wymóg B2)",
+  "severity": "drobne",
+  "problem": "Wymóg B2 z hiszpańskiego dla UV ADE, Economía i Medicina jest odczytany z układu tabeli PDF (komórki bez nazwy uczelni obok wiersza). Medicina jest jednoznaczna (blok UV), a blok z Turisme/ADE/Economía leży na styku stron i przypisanie do UV wynika z położenia etykiety „UV” na stronie 3. Przypisanie jest prawdopodobne, ale mniej pewne niż reszta.",
+  "evidence": "GRAUS amb condicions especials en Preinscripció 2026.pdf: blok „Grau en Turisme, ADE, Economia, Finances i Comptabilitat…” z tekstem o B2 ACLES i walenckim B2 Universitat de València; etykieta UV p. 3 y=321.",
+  "proposedFix": "Zostawić, ewentualnie dopisać w gaps, że przypisanie wymogu do UV wynika z układu dokumentu Generalitat."
+ },
+ {
+  "city": "Walencja",
+  "program": null,
+  "field": "Rekrutacja (terminy)",
+  "severity": "drobne",
+  "problem": "Terminy 2026/27 potwierdzone, wszystkie z rokiem i z wyraźnym zastrzeżeniem o 2027/28.",
+  "evidence": "Calendari Preinscripció 2026: 15.06 do 14:00 7.07.2026 (zagranica), ogólny do 3.07, wyniki 10.07 od 11:00, dokumenty 13 do 31.07, wyniki dla tych osób od 4.09.2026. UNEDasiss fechas_clave: akredytacja 4 lutego do 1 grudnia, PCE 16.03 do 28.04.2026, termin uczelni 7.07.2026.",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "Barcelona",
+  "program": null,
+  "field": "weryfikacja liczb (noty UB, UAB, UPF, miejsca, cena)",
+  "severity": "drobne",
+  "problem": "Potwierdzone dosłownie w Notes-tall-1a-assignacio_juny_2026.pdf (kolumna PAU/CFGS, 10/07/26): UB Psicologia 9,660; UB Medicina Clínic 12,685; Bellvitge 12,500; UB Dret 9,736; UPF Medicina 12,534; UPF Periodisme 10,800; UAB Psicologia 9,766, Medicina 12,354, Dret 9,708, Economia 9,660, IA 10,497, Periodisme 9,864. Miejsca w Preins-2026-Juny_v4.pdf (UAB Medicina 385, UPF Medicina 64, UB Clínic 200, UPF Periodisme 80, UB Psicologia 432). Cena 17,69 EUR na stronie Generalitat. Polska na liście Generalitat. UB Psicologia 240 ECTS w przewodniku UB.",
+  "evidence": "Pliki PDF i strony Generalitat pobrane curl z UA przeglądarki.",
+  "proposedFix": "Bez zmian."
+ }
+]
