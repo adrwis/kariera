@@ -15259,7 +15259,7 @@
           ],
           "description": "Sześciomiesięczne szkolenie podstawowe dla nowo przyjętych policjantów. Obejmuje prawo karne, taktykę i techniki interwencji, musztrę, strzelectwo oraz wychowanie fizyczne. Realizowane w szkołach policyjnych.",
           "requirements": "Przyjęcie do służby w Policji (obywatelstwo PL, niekaralność, sprawność fizyczna)",
-          "price": "Bezpłatne (w ramach służby, z wynagrodzeniem ~3500 PLN/mies.)"
+          "price": "Bezpłatne (w ramach służby, z wynagrodzeniem)"
         }
       ],
       "soft": [
@@ -15421,7 +15421,7 @@
       ],
       "keywords": "bezpieczeństwo ratowanie mundur prawo zasady ludzie rozmowy pomaganie sport ruch"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "Służby mundurowe nie wchodzą do badania GUS, więc nie podajemy kwot."
   },
   {
     "id": "strazak",
@@ -15620,7 +15620,7 @@
       ],
       "keywords": "bezpieczeństwo ratowanie mundur sport ruch maszyny elektronika urządzenia technika"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "Służby mundurowe nie wchodzą do badania GUS, więc nie podajemy kwot."
   },
   {
     "id": "dietetyk",
@@ -39839,7 +39839,7 @@
       ],
       "keywords": "bezpieczeństwo ratowanie mundur sport ruch maszyny elektronika urządzenia technika podróże turystyka"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "Służby mundurowe nie wchodzą do badania GUS, więc nie podajemy kwot."
   },
   {
     "id": "pracownik-ochrony",
@@ -40533,7 +40533,7 @@
       ],
       "keywords": "bezpieczeństwo ratowanie mundur prawo zasady języki obce podróże turystyka"
     },
-    "salaryNote": "GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot."
+    "salaryNote": "Służby mundurowe nie wchodzą do badania GUS, więc nie podajemy kwot."
   },
   {
     "id": "aktor",

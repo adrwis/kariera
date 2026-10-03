@@ -68,13 +68,13 @@ const CareerSearch = (() => {
   // Search across both datasets
   // Rdzenie słów opisujących zainteresowania (np. „coś z ludźmi”, „lubię rysować”) prowadzące do etykiet quizu
   const INTEREST_STEMS = [
-    [/ludz|ludź|pomag|rozmow/, 'ludzie'], [/dzieci|dziec|dzieć|młodzie|przedszkol/, 'dzieci'], [/zwierz|psy\b|kot/, 'zwierzeta'],
+    [/ludz|ludź|pomag|rozmow/, 'ludzie'], [/dzieci|dziec|dzieć|młodzie|przedszkol/, 'dzieci'], [/zwierz|psy\b|\bkot(y|a|em|ów)?\b/, 'zwierzeta'],
     [/przyrod|rośli|roslin|las\b|lasy|ogród|ogrod|środowisk/, 'przyroda'], [/zdrow|medyc|leczen/, 'zdrowie'],
     [/komputer|programow|\bgry\b|\bit\b/, 'komputery'], [/maszyn|elektroni|urządze|samochod|auto\b|silnik/, 'technika'],
     [/budow|majster|rękami|rekami|naprawia/, 'budowanie'], [/liczb|matema|finans|pieniąd|pieniad/, 'liczby'],
     [/język|jezyk|angiels/, 'jezyki'], [/pisa|czyta|media|dziennikar/, 'pisanie'], [/rysow|malow|projektow|plasty|grafik/, 'sztuka'],
     [/teatr|film|śpiew|spiew|muzyk/, 'scena'], [/sport|ruch\b|biega|trening/, 'sport'], [/prawo\b|przepis|sprawiedliw/, 'prawo'],
-    [/mundur|ratow|bezpiecz|służb|sluzb/, 'bezpieczenstwo'], [/biznes|sprzeda|handel|firm/, 'biznes'],
+    [/mundur|ratow|bezpiecz|służb|sluzb/, 'bezpieczenstwo'], [/biznes|sprzeda|handel|\bfirm(a|y|ie|ę)?\b/, 'biznes'],
     [/gotow|jedzen|kuchn|piecz/, 'jedzenie'], [/urod|\bmod[ay]\b|wygląd|wyglad|fryzur|makija/, 'wyglad'],
     [/podróż|podroz|turyst|zwiedza/, 'podroze'], [/nauk|bada|eksperyment|laborator/, 'nauka'],
   ];
@@ -158,7 +158,9 @@ const CareerSearch = (() => {
     // First, rich profiles (prioritized)
     if (fuseMain) {
       // Tylko dobre dopasowania: słabsze to zwykle przypadkowe trafienia w opisie (np. „weteryn” → geodeta)
-      const mainResults = fuseMain.search(query, { limit }).filter(r => r.score <= 0.2);
+      const acStems = query.toLowerCase().split(/\s+/).filter(w => w.length >= 3).map(w => w.slice(0, Math.max(4, w.length - 2)));
+      const acHit = r => acStems.some(st => (' ' + [r.item.name, ...(r.item.aliases || [])].join(' ').toLowerCase()).includes(' ' + st));
+      const mainResults = fuseMain.search(query, { limit: limit * 2 }).filter(r => r.score <= 0.2 && (r.score <= 0.05 || acHit(r))).slice(0, limit);
       for (const r of mainResults) {
         results.push({
           id: r.item.id,
@@ -173,9 +175,11 @@ const CareerSearch = (() => {
     // Then, KZiS index
     if (fuseKzis && results.length < limit) {
       const richCodes = new Set(results.map(r => r.code));
-      const kzisResults = fuseKzis.search(query, { limit: limit * 2 });
+      const acStemsK = query.toLowerCase().split(/\s+/).filter(w => w.length >= 3).map(w => w.slice(0, Math.max(4, w.length - 2)));
+      const kzisResults = fuseKzis.search(query, { limit: limit * 4 });
       for (const r of kzisResults) {
         if (richCodes.has(r.item.code)) continue;
+        if (!(r.score <= 0.1 || acStemsK.some(st => (' ' + r.item.name.toLowerCase()).includes(' ' + st)))) continue;
         if (results.length >= limit) break;
         results.push({
           id: r.item.id || r.item.code,

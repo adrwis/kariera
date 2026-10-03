@@ -186,6 +186,8 @@
         showView('wyniki');
         lastResultsPath = window.location.pathname + window.location.search;
         handleResults(route.params);
+        // Jeden wynik przekierowuje na profil zawodu (navigate() ustawił już jego meta)
+        if (getRoute().view !== 'wyniki') break;
         { const q = route.params.get('q') || route.params.get('cat') || '';
           const title = q ? `${q} | wyniki | NextMove` : 'Wyniki | NextMove';
           const desc = q ? `Wyniki wyszukiwania: ${q}. Zawody, zarobki, uczelnie.` : 'Wyniki wyszukiwania zawodów.';
@@ -343,7 +345,6 @@
       li.setAttribute('aria-selected', 'false');
       li.innerHTML = `
         <span>${escapeHtml(r.name)}</span>
-        <span class="autocomplete__item-code">${escapeHtml(r.code)}</span>
       `;
       li.addEventListener('click', () => {
         go(`/zawod/${r.type === 'rich' ? r.id : r.code}`);
@@ -1706,6 +1707,8 @@
   // School autocomplete
   schoolFilterInput.addEventListener('input', () => {
     const q = schoolFilterInput.value.trim().toLowerCase();
+    schoolAcIndex = -1;
+    schoolFilterInput.removeAttribute('aria-activedescendant');
     if (q.length < 2) { schoolDropdown.hidden = true; return; }
 
     const matches = allSchools
@@ -1749,9 +1752,10 @@
       schoolAcIndex = Math.max(schoolAcIndex - 1, 0);
       items.forEach((it, i) => { it.classList.toggle('filters__dropdown-item--active', i === schoolAcIndex); it.setAttribute('aria-selected', String(i === schoolAcIndex)); });
       if (items[schoolAcIndex]) { items[schoolAcIndex].scrollIntoView({ block: 'nearest' }); schoolFilterInput.setAttribute('aria-activedescendant', items[schoolAcIndex].id); }
-    } else if (e.key === 'Enter' && schoolAcIndex >= 0) {
+    } else if (e.key === 'Enter' && schoolAcIndex >= 0 && items[schoolAcIndex]) {
       e.preventDefault();
       items[schoolAcIndex].click();
+      schoolFilterInput.removeAttribute('aria-activedescendant');
       schoolAcIndex = -1;
     } else if (e.key === 'Escape' || e.key === 'Tab') {
       schoolDropdown.hidden = true;

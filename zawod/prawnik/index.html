@@ -70,8 +70,13 @@
   <!-- SPA redirect: restore path from 404.html -->
   <script>
     (function() {
-      var r = sessionStorage.getItem('spa-redirect');
-      if (r) { sessionStorage.removeItem('spa-redirect'); history.replaceState(null, '', r); }
+      var r = null;
+      try { r = sessionStorage.getItem('spa-redirect'); if (r) sessionStorage.removeItem('spa-redirect'); } catch (e) { /* bez zapisu */ }
+      if (!r) {
+        var p = new URLSearchParams(location.search).get('p');
+        if (p && p.indexOf('/kariera/') === 0) r = p;
+      }
+      if (r) history.replaceState(null, '', r);
     })();
   </script>
 </head>
@@ -101,7 +106,7 @@
     </div>
   </header>
 
-  <main id="main"><noscript><h1>Prawnik</h1><p>Udziela porad prawnych, pisze umowy i reprezentuje klientów w sądach i urzędach.</p></noscript>
+  <main id="main"><noscript><p><strong>Prawnik</strong></p><p>Udziela porad prawnych, pisze umowy i reprezentuje klientów w sądach i urzędach.</p></noscript>
     <noscript>
       <div style="max-width:600px;margin:3rem auto;padding:2rem;text-align:center;font-family:Inter,sans-serif">
         <h1>NextMove, wyszukiwarka zawodów</h1>

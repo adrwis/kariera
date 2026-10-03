@@ -12,6 +12,7 @@ const careers = JSON.parse(fs.readFileSync(file, 'utf8'));
 const byId = new Map(gus.zawody.map(z => [z.id, z]));
 const missing = new Set(gus.brak.map(b => b.id));
 const r = n => Math.round(n);
+const UNIFORMED = new Set(['policjant', 'zolnierz-zawodowy', 'funkcjonariusz-sg', 'strazak']);
 
 let set = 0, cleared = 0;
 for (const c of careers) {
@@ -27,9 +28,13 @@ for (const c of careers) {
     set++;
   } else if (missing.has(c.id)) {
     delete c.salary;
-    c.salaryNote = 'GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot.';
+    c.salaryNote = UNIFORMED.has(c.id)
+      ? 'Służby mundurowe nie wchodzą do badania GUS, więc nie podajemy kwot.'
+      : 'GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot.';
     cleared++;
   }
 }
-fs.writeFileSync(file, JSON.stringify(careers, null, 2));
+// Kwota z cennika szkolenia nie może przeczyć brakowi kwot w profilu (np. „z wynagrodzeniem ~3500 PLN/mies.”)
+const txt = JSON.stringify(careers).replace(/, z wynagrodzeniem ~3500 PLN\/mies\./g, ', z wynagrodzeniem');
+fs.writeFileSync(file, JSON.stringify(JSON.parse(txt), null, 2));
 console.log('płace z GUS:', set, ', bez kwot:', cleared, ', razem zawodów:', careers.length);

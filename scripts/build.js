@@ -71,7 +71,7 @@ async function build() {
       .replace(/(<meta name="twitter:title" content=")[^"]*(")/, `$1${attrEsc(title)}$2`)
       .replace(/(<meta name="twitter:description" content=")[^"]*(")/, `$1${attrEsc(desc)}$2`)
       .replace(/(<link rel="canonical" href=")[^"]*(")/, `$1${SITE}/${rel}/$2`)
-      .replace('<main id="main">', `<main id="main"><noscript><h1>${textEsc(h1)}</h1><p>${textEsc(text)}</p></noscript>`);
+      .replace('<main id="main">', `<main id="main"><noscript><p><strong>${textEsc(h1)}</strong></p><p>${textEsc(text)}</p></noscript>`);
     const dir = path.join(ROOT, rel);
     fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(path.join(dir, 'index.html'), html);

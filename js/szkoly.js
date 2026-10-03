@@ -312,7 +312,11 @@ const Szkoly = (function () {
   const hasThresholds = d => d.schools.some(s => (s.profiles || []).some(p => latestThreshold(p)));
   function calcInviteHtml(d, cls) {
     const href = `${ctx.BASE}/kalkulator?miasto=${d.slug}`;
-    const text = hasThresholds(d) ? 'Policz swoje punkty i sprawdź, gdzie masz szansę' : 'Policz swoje punkty (bez porównania z progami, bo ich tu nie ma)';
+    const all = d.schools.flatMap(s => s.profiles || []);
+    const withThr = all.filter(p => latestThreshold(p)).length;
+    const text = !withThr ? 'Policz swoje punkty (bez porównania z progami, bo ich tu nie ma)'
+      : withThr < all.length / 2 ? `Policz swoje punkty (progi mamy dla ${withThr} z ${all.length} klas)`
+      : 'Policz swoje punkty i sprawdź, gdzie masz szansę';
     return `<a href="${href}"${cls ? ` class="${cls}"` : ''}>${text}</a>`;
   }
 
@@ -391,10 +395,11 @@ const Szkoly = (function () {
   const ABBR = new Set(['mat', 'pol', 'ang', 'niem', 'fr', 'fra', 'hisz', 'hiszp', 'ros', 'wlo', 'bio', 'biol', 'chem', 'fiz', 'inf', 'geo', 'geogr', 'hist', 'his', 'wos', 'hsz', 'fil', 'lac']);
   const isCodeList = t => t.split(/[-, ]+/).filter(Boolean).every(x => ABBR.has(x));
   function parseClassName(p) {
-    const m = (p.name || '').trim().match(/^(.*?)\s*-?\s*\[([A-Za-z]+)\](?=\s|:|$)\s*:?\s*(.*)$/);
+    const m = (p.name || '').trim().match(/^(.*?)\s*-?\s*\[([A-Za-z-]+)\](?=\s|:|$)\s*:?\s*(.*)$/);
     if (!m) return null;
     let rest = m[3].replace(/\s*\(.*$/, '').trim();
-    const tag = TAG_LABELS[m[2].toUpperCase()];
+    const tagKey = m[2].toUpperCase();
+    const tag = TAG_LABELS[tagKey] || (/^I(-|$)/.test(tagKey) ? TAG_LABELS.I : undefined);
     let hasCodes = false;
     const tail = rest.match(/^(.*?)\s+([a-ząćęłńóśźż]{2,8}(?:-[a-ząćęłńóśźż]{2,8})+)$/);
     if (tail && isCodeList(tail[2])) { rest = tail[1].trim(); hasCodes = true; }
@@ -403,7 +408,24 @@ const Szkoly = (function () {
     return { sym: m[1].replace(/_/g, ' ').trim() + (tag ? ` (${tag})` : ''), rest, hasCodes: hasCodes || !rest };
   }
   const shortSubject = c => subjectName(c).replace(/^język /, '');
-  const noBrackets = n => (n || '').replace(/\[[A-Za-z]+\]/g, '');
+  // Porządkuje nazwy z naborów bez znaczników: nawiasy kwadratowe, języki na końcu, „ogólny:”, „-ogólnodostępny”, rok naboru
+  function tidyName(n) {
+    let t = (n || '');
+    const integr = /\[I(?:-[A-Za-z]+)?\]/.test(t);
+    t = t.replace(/\s*\[[^\]]*\]/g, '')
+      .replace(/\s*\((?:ang|niem|hisz|fra|fran|ros|wlo)[^)]*\)/gi, '')
+      .replace(/:\s*j\.\s?(?:ang|niem|hisz|fra|fran|ros|wlo)[\w.,\s*-]*$/i, '')
+      .replace(/\s*-\s*ogólnodostępn\w*/gi, '')
+      .replace(/:\s*ogólnodostępn\w*(?=\s*:)/gi, '')
+      .replace(/(?:Oddział\s+)?ogólny\s*:\s*/gi, '')
+      .replace(/\s*\b(?:\d{2}\/\d{2}|20\d\d-20\d\d)\b/g, '')
+      .replace(/\s{2,}/g, ' ').replace(/\s+([,:])/g, '$1').trim();
+    // Dwukropek oddziela tylko symbol od opisu, dalsze człony łączymy przecinkami
+    const parts = t.split(/\s*:\s*/).filter(Boolean);
+    if (parts.length > 2) t = parts[0] + ': ' + parts.slice(1).join(', ');
+    return t + (integr ? ' (integracyjna)' : '');
+  }
+  const noBrackets = tidyName;
 
   // Krótka etykieta klasy na liście: nazwa, a przy nazwach z samym symbolem także rozszerzenia
   function profileLabel(p) {
@@ -475,7 +497,7 @@ const Szkoly = (function () {
           <h1 class="results__title">Szkoły średnie ${esc(d.city.loc)}</h1>
           <p class="results__query">Licea i technika dla absolwentów podstawówki.${year ? ` Oferta klas na rok ${esc(year)}.` : ''}</p>
           <p class="career-column__text">${calcInviteHtml(d, 'szkoly__calc-link')}</p>
-          ${hasThresholds(d) ? '' : `<p class="career-column__text szkola__muted">Szkoły ${esc(d.city.loc)} nie publikują progów punktowych w sieci, więc przy klasach ich nie zobaczysz.</p>`}
+          ${hasThresholds(d) ? '' : `<p class="career-column__text szkola__muted">Nie mamy jeszcze progów punktowych szkół ${esc(d.city.loc)}, więc przy klasach ich nie zobaczysz.</p>`}
           ${citySelectHtml(d.slug, 'szkolyCity')}
           <details class="szkoly__filters-wrap"${activeCount ? ' open' : ''}>
             <summary class="szkoly__filters-toggle">Filtry${activeCount ? ` (${activeCount})` : ''}</summary>
@@ -681,8 +703,8 @@ const Szkoly = (function () {
   function compareMark(mean, city, loc) {
     if (city == null || Math.abs(mean - city) < 3) return '';
     return mean > city
-      ? ' <span class="szkola__up" aria-hidden="true">▲</span><span class="sr-only">, powyżej średniej ${esc(loc)}</span>'
-      : ' <span class="szkola__down" aria-hidden="true">▼</span><span class="sr-only">, poniżej średniej ${esc(loc)}</span>';
+      ? ` <span class="szkola__up" aria-hidden="true">▲</span><span class="sr-only">, powyżej średniej ${esc(loc)}</span>`
+      : ` <span class="szkola__down" aria-hidden="true">▼</span><span class="sr-only">, poniżej średniej ${esc(loc)}</span>`;
   }
 
   function relatedCareersHtml(s) {

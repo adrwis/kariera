@@ -34,7 +34,7 @@
   --kr-footer-text: #a0a0c0;
   --kr-demand-deficit: #c62828;
   --kr-demand-balanced: #2a7430;
-  --kr-demand-surplus: #bf5b00;
+  --kr-demand-surplus: #a84d00;
   /* Glass */
   --kr-glass-bg: rgba(255, 255, 255, 0.55);
   --kr-glass-border: rgba(255, 255, 255, 0.4);
@@ -414,7 +414,6 @@ main {
   font-size: 1rem;
   color: var(--kr-text-muted);
   min-height: 1.6rem;
-  opacity: 0.75;
 }
 .landing__typing::after {
   content: '|';
@@ -1100,6 +1099,7 @@ main {
   background: var(--kr-badge-salary-bg);
   color: var(--kr-secondary);
 }
+:root:not([data-theme="dark"]) .result-card__badge--salary { color: #00675a; }
 .result-card__badge--demand-deficytowy {
   background: var(--kr-badge-balanced-bg);
   color: var(--kr-demand-balanced);
@@ -3160,6 +3160,18 @@ p.school-popup__caption { margin: 0.25rem 0 0.4rem; }
 @media (min-width: 1000px) {
   .kalk__layout { display: grid; grid-template-columns: minmax(18rem, 26rem) minmax(0, 1fr); gap: 2rem; align-items: start; }
   .kalk__side { display: block; min-width: 0; }
-  .kalk__total { position: sticky; top: 0.75rem; bottom: auto; margin-top: 1.25rem; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08); }
+  .kalk__total { position: sticky; top: 4.75rem; bottom: auto; margin-top: 1.25rem; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08); }
 }
 .career-hero__note a { color: var(--kr-secondary); }
+
+/* Przyklejony pasek wyniku nie może zasłaniać pól podczas nawigacji klawiaturą (telefon) */
+@media (max-width: 999px) {
+  .kalk__form { scroll-margin-bottom: 6rem; }
+  .kalk__form select, .kalk__form input { scroll-margin-bottom: 6rem; }
+}
+/* Wąski ekran: pasek górny mieści się obok przycisku motywu */
+@media (max-width: 360px) {
+  .topbar { padding-left: 0.75rem; padding-right: 0.75rem; }
+  .topbar__nav { gap: 0; }
+  .topbar__nav a { padding: 0.4rem 0.5rem; font-size: 0.85rem; }
+}

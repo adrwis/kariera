@@ -68,10 +68,14 @@ const Quiz = (function () {
     score += sharedSubjects.length * 1.5;
     if (sharedSubjects.length) reasons.push('przydadzą się: ' + sharedSubjects.map(s => label(SUBJECTS, s).toLowerCase()).join(', '));
     if (!sharedInterests.length && !sharedSubjects.length) return null;
-    for (const [key, text] of [['contact', 'kontakt z ludźmi'], ['physical', 'ruch']]) {
+    const LEVEL_TEXT = {
+      contact: { maly: 'mało kontaktu z ludźmi, tak jak wolisz', sredni: 'trochę kontaktu z ludźmi, tak jak wolisz', duzy: 'dużo kontaktu z ludźmi, tak jak lubisz' },
+      physical: { maly: 'spokojna praca, tak jak wolisz', sredni: 'umiarkowany ruch, tak jak wolisz', duzy: 'dużo ruchu, tak jak lubisz' },
+    };
+    for (const key of ['contact', 'physical']) {
       if (!a[key] || !q[key]) continue;
       const diff = Math.abs(LEVELS.indexOf(a[key]) - LEVELS.indexOf(q[key]));
-      if (diff === 0) { score += 2; reasons.push(`${text} w sam raz dla Ciebie`); }
+      if (diff === 0) { score += 2; reasons.push(LEVEL_TEXT[key][a[key]] || ''); }
       if (diff === 2) score -= 3;
     }
     const sharedPlaces = (q.places || []).filter(p => a.places.includes(p));
@@ -104,7 +108,7 @@ const Quiz = (function () {
             <a class="result-card" href="${ctx.BASE}/zawod/${ctx.escapeAttr(r.c.id)}">
               <div class="result-card__name">${esc(r.c.name)}</div>
               <div class="result-card__desc">${esc(r.c.shortDescription || '')}</div>
-              <div class="quiz__why">Pasuje, bo ${esc(r.reasons.join('; '))}.</div>
+              <div class="quiz__why">Pasuje, bo ${esc(r.reasons.filter(Boolean).join('; '))}.</div>
               ${r.c.quiz.path ? `<div class="szkola__muted quiz__path">Droga do zawodu: ${esc(PATH_LABEL[r.c.quiz.path])}</div>` : ''}
             </a>
           </li>`).join('')}
@@ -124,7 +128,7 @@ const Quiz = (function () {
       <div class="results szkoly quiz">
         <a href="${ctx.BASE}/" class="results__back">&larr; Strona główna</a>
         <h1 class="results__title">Jaki zawód do mnie pasuje?</h1>
-        <p class="results__query">Zaznacz, co lubisz. Wyniki pojawią się poniżej od razu, bez zakładania konta. Quiz podpowiada zawody do sprawdzenia i nie zastępuje rozmowy z doradcą zawodowym.</p>
+        <p class="results__query">Zaznacz, co lubisz: co najmniej jedno zainteresowanie albo ulubiony przedmiot. Wyniki pojawią się poniżej od razu, bez zakładania konta. Quiz podpowiada zawody do sprawdzenia i nie zastępuje rozmowy z doradcą zawodowym.</p>
         <form class="kalk__form" id="quizForm">
           <fieldset class="szkoly__fieldset">
             <legend class="szkoly__legend">1. Co Cię ciekawi? Wybierz do ${MAX_INTERESTS}.</legend>
