@@ -1,0 +1,3454 @@
+[
+ {
+  "zawodId": "psycholog",
+  "imie": "Kazimierz Dąbrowski",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Kazimierz_Dąbrowski_(psycholog)",
+  "status": "popraw",
+  "problemy": [
+   "Praca na Uniwersytecie Alberta w Kanadzie niepotwierdzona przez wstęp",
+   "Twierdzenie o stosowaniu teorii „na całym świecie\" przesadzone (wstęp mówi o popularności wśród psychologów w Ameryce Północnej)"
+  ],
+  "proponowanyBio": "Polski lekarz, psychiatra, psycholog i filozof (1902 do 1980). Założył Instytut Higieny Psychicznej, którym kierował w latach 1935 do 1949. Stworzył teorię dezintegracji pozytywnej. Interesował się uzdolnieniami intelektualnymi i artystycznymi dzieci. Jego teoria cieszy się popularnością wśród psychologów w Ameryce Północnej.",
+  "proponowanyOpis": null,
+  "uwagi": "Daty zgodne."
+ },
+ {
+  "zawodId": "psycholog",
+  "imie": "Jerzy Mellibruda",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Jerzy_Mellibruda",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne ze wstępem."
+ },
+ {
+  "zawodId": "psycholog",
+  "imie": "Carl Rogers",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Carl_Rogers",
+  "status": "popraw",
+  "problemy": [
+   "„Trzykrotnie nominowany do Pokojowej Nagrody Nobla\" niepotwierdzone przez wstęp",
+   "Zdania o „zrewolucjonizowaniu psychoterapii na całym świecie\" niepotwierdzone, brzmią reklamowo"
+  ],
+  "proponowanyBio": "Amerykański psycholog i psychoterapeuta (1902 do 1987). Jeden z głównych przedstawicieli psychologii humanistycznej, twórca psychoterapii zorientowanej na klienta oraz teorii organizmicznej.",
+  "proponowanyOpis": null,
+  "uwagi": "Daty zgodne."
+ },
+ {
+  "zawodId": "psycholog",
+  "imie": "Daniel Kahneman",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Daniel_Kahneman",
+  "status": "ok",
+  "problemy": [
+   "Polski tytuł książki („Pułapki myślenia\") nie występuje we wstępie angielskim; wstęp potwierdza bestseller „Thinking, Fast and Slow\""
+  ],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Nagroda Nobla 2002 i daty zgodne. Zdanie o nieracjonalnych decyzjach zgodne z duchem wstępu."
+ },
+ {
+  "zawodId": "programista",
+  "imie": "Linus Torvalds",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Linus_Torvalds",
+  "status": "popraw",
+  "problemy": [
+   "„Linux napędza 90% serwerów, wszystkie superkomputery i system Android\" niepotwierdzone przez wstęp",
+   "„Dwóch fundamentów współczesnej informatyki\" to ocena bez oparcia we wstępie"
+  ],
+  "proponowanyBio": "Fiński programista (ur. 1969 w Helsinkach), należący do szwedzkojęzycznej mniejszości Finlandii. Twórca jądra Linux oraz systemu kontroli wersji Git. Stworzenie jądra Linux dało impuls do szybkiego rozwoju wolnego oprogramowania.",
+  "proponowanyOpis": "Twórca jądra Linux i systemu Git",
+  "uwagi": "Wstęp pl nazywa go fińskim programistą; obywatelstwo amerykańskie niepotwierdzone przez wstęp."
+ },
+ {
+  "zawodId": "programista",
+  "imie": "Marcin Iwiński",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Marcin_Iwiński",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne ze wstępem (CD Projekt, Wiedźmin, Cyberpunk 2077)."
+ },
+ {
+  "zawodId": "programista",
+  "imie": "Guido van Rossum",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Guido_van_Rossum",
+  "status": "popraw",
+  "problemy": [
+   "Praca w Google, Dropbox i Microsoft niepotwierdzona przez wstęp (wstęp pl ma jedno zdanie)",
+   "Cytat o filozofii „czytelność kodu ma znaczenie\" niepotwierdzony",
+   "Zdanie o użyciu Pythona w AI i nauce o danych niepotwierdzone"
+  ],
+  "proponowanyBio": "Holenderski programista (ur. 1956 w Haarlemie). Twórca języka programowania Python.",
+  "proponowanyOpis": null,
+  "uwagi": "Wstęp pl bardzo krótki; bio po poprawce ograniczone do tego, co potwierdza."
+ },
+ {
+  "zawodId": "programista",
+  "imie": "Margaret Hamilton",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)",
+  "status": "popraw",
+  "problemy": [
+   "Wstęp mówi o programie Apollo, nie konkretnie o Apollo 11",
+   "„Jej kod uratował misję lądowania na Księżycu w 1969\" niepotwierdzone przez wstęp",
+   "Medal Presidential Medal of Freedom potwierdzony, ale rok 2016 pominięty"
+  ],
+  "proponowanyBio": "Amerykańska informatyczka (ur. 1936). Kierowała Software Engineering Division w MIT Instrumentation Laboratory, gdzie prowadziła prace nad oprogramowaniem pokładowym komputera naprowadzającego Apollo dla programu Apollo NASA. Później założyła firmy Higher Order Software (1976) i Hamilton Technologies (1986). Ukuła termin „software engineering\". W 2016 roku otrzymała Presidential Medal of Freedom.",
+  "proponowanyOpis": null,
+  "uwagi": "Wstęp mówi o programie Apollo, a nie konkretnie o Apollo 11."
+ },
+ {
+  "zawodId": "lekarz",
+  "imie": "Ludwik Hirszfeld",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Ludwik_Hirszfeld",
+  "status": "popraw",
+  "problemy": [
+   "„Współodkrywca grup krwi\", pionier serologii niedokładne względem wstępu (wprowadził oznaczenia grup krwi układu AB0)",
+   "Walka z epidemiami w getcie, Instytut Immunologii we Wrocławiu i „ponad 400 publikacji\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski lekarz, bakteriolog i immunolog (1884 do 1954). Twórca polskiej szkoły immunologicznej i seroantropologii, wprowadził oznaczenia grup krwi układu AB0. Urodził się w Warszawie, zmarł we Wrocławiu.",
+  "proponowanyOpis": null,
+  "uwagi": "Wstęp krótki."
+ },
+ {
+  "zawodId": "lekarz",
+  "imie": "Zbigniew Religa",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Zbigniew_Religa",
+  "status": "popraw",
+  "problemy": [
+   "Pierwszy udany przeszczep serca w Polsce (1985, Zabrze) niepotwierdzony przez wstęp",
+   "„23-godzinna operacja\" i „ikona medycyny\" niepotwierdzone",
+   "Walka o finansowanie medycyny niepotwierdzona"
+  ],
+  "proponowanyBio": "Polski kardiochirurg i polityk (1938 do 2009), profesor nauk medycznych. Był senatorem III i V kadencji, ministrem zdrowia w rządach Kazimierza Marcinkiewicza i Jarosława Kaczyńskiego (2005 do 2007), posłem na Sejm VI kadencji i kandydatem na prezydenta w 2005 roku. Kawaler Orderu Orła Białego.",
+  "proponowanyOpis": null,
+  "uwagi": "Pierwszy przeszczep serca w Polsce wymaga potwierdzenia w treści artykułu poza wstępem."
+ },
+ {
+  "zawodId": "lekarz",
+  "imie": "Janusz Korczak",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Janusz_Korczak",
+  "status": "popraw",
+  "problemy": [
+   "„Autor Króla Maciusia Pierwszego\" niepotwierdzone przez wstęp",
+   "Dobrowolne towarzyszenie wychowankom niepotwierdzone przez wstęp (wstęp podaje tylko śmierć w Treblince)",
+   "Wstęp podaje datę urodzenia jako 1878 lub 1879 i niepewną datę śmierci"
+  ],
+  "proponowanyBio": "Polsko-żydowski lekarz, pedagog, pisarz i działacz społeczny, właściwie Henryk Goldszmit (1878 lub 1879 do 1942). Twórca systemu pracy z dziećmi opartego na partnerstwie i samorządności, prekursor działań na rzecz praw dziecka. W 1926 roku zainicjował pismo „Mały Przegląd\" redagowane w większości przez dzieci. Zmarł w sierpniu 1942 roku, prawdopodobnie w Treblince. Pośmiertnie odznaczony Orderem Orła Białego.",
+  "proponowanyOpis": null,
+  "uwagi": "Ta sama osoba występuje w dwóch zawodach (#10 i #17); to samo bio."
+ },
+ {
+  "zawodId": "lekarz",
+  "imie": "Hipokrates",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Hipokrates",
+  "status": "popraw",
+  "problemy": [
+   "Daty: bio podaje ok. 460 do 370 p.n.e., wstęp ok. 460 do ok. 377 lub 375 p.n.e.",
+   "„Pierwszy oddzielił medycynę od religii\", przysięga Hipokratesa i opis padaczki niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Grecki lekarz (ok. 460 do ok. 377 p.n.e.), urodzony na wyspie Kos. Jeden z prekursorów współczesnej medycyny, nazywany „ojcem medycyny\".",
+  "proponowanyOpis": null,
+  "uwagi": "Wstęp pl: zm. ok. 377 lub 375 p.n.e. w Larysie."
+ },
+ {
+  "zawodId": "architekt",
+  "imie": "Stefan Kuryłowicz",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Stefan_Kuryłowicz",
+  "status": "popraw",
+  "problemy": [
+   "Terminal 2 na Okęciu i gmach Biblioteki UW niepotwierdzone przez wstęp",
+   "„Jeden z najwybitniejszych polskich architektów XX i XXI wieku\" to ocena bez oparcia we wstępie"
+  ],
+  "proponowanyBio": "Polski architekt (1949 do 2011), doktor habilitowany inżynier architektury, specjalizujący się w budynkach użyteczności publicznej. Wykładowca Politechniki Warszawskiej.",
+  "proponowanyOpis": null,
+  "uwagi": "Wstęp krótki."
+ },
+ {
+  "zawodId": "architekt",
+  "imie": "Zaha Hadid",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Zaha_Hadid",
+  "status": "popraw",
+  "problemy": [
+   "Centrum Hejdara Alijewa, MAXXI i stadion Al Janoub niepotwierdzone przez wstęp",
+   "Wstęp pl wskazuje dekonstruktywizm, nie „architekturę parametryczną\""
+  ],
+  "proponowanyBio": "Brytyjska architektka pochodząca z Iraku (1950 do 2016), przedstawicielka dekonstruktywizmu. Jako pierwsza kobieta zdobyła w 2004 roku Nagrodę Pritzkera. Wcześniej uhonorowano ją Nagrodą Miesa van der Rohego, a w latach 2010 i 2011 zdobyła nagrodę Stirlinga.",
+  "proponowanyOpis": null,
+  "uwagi": "Daty zgodne."
+ },
+ {
+  "zawodId": "architekt",
+  "imie": "Daniel Libeskind",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Daniel_Libeskind",
+  "status": "popraw",
+  "problemy": [
+   "Muzeum Żydowskie w Berlinie i plan odbudowy WTC niepotwierdzone przez wstęp",
+   "Wstęp pl nazywa go amerykańskim architektem polsko-żydowskiego pochodzenia"
+  ],
+  "proponowanyBio": "Amerykański architekt polsko-żydowskiego pochodzenia (ur. 1946 w Łodzi), teoretyk architektury i scenograf.",
+  "proponowanyOpis": null,
+  "uwagi": "Urodzony 12 maja 1946 w Łodzi, zgodne."
+ },
+ {
+  "zawodId": "architekt",
+  "imie": "Frank Lloyd Wright",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Frank_Lloyd_Wright",
+  "status": "popraw",
+  "problemy": [
+   "„Uznawany za największego amerykańskiego architekta XX wieku\": wstęp podaje opinię AIA z 1991 roku o „największym amerykańskim architekcie wszech czasów\"",
+   "„Osiem budynków na liście UNESCO\": wstęp mówi o wyborze jego prac wpisanym w 2019 roku, bez liczby",
+   "Muzeum Guggenheima niepotwierdzone przez wstęp (Fallingwater potwierdzone)"
+  ],
+  "proponowanyBio": "Amerykański architekt (1867 do 1959). Zaprojektował ponad 1000 obiektów w ciągu 70 lat twórczości. Rozwijał ideę architektury organicznej, której przykładem jest dom Fallingwater. W 1991 roku Amerykański Instytut Architektów uznał go za największego amerykańskiego architekta wszech czasów. W 2019 roku wybrane jego prace wpisano na Listę Światowego Dziedzictwa UNESCO.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "nauczyciel",
+  "imie": "Maria Montessori",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Maria_Montessori",
+  "status": "popraw",
+  "problemy": [
+   "„Pierwsza Włoszka z dyplomem lekarskim\" niepotwierdzone przez wstęp",
+   "„Ponad 22 000 szkół w 110 krajach\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Włoska lekarka i pedagożka (1870 do 1952). Twórczyni metody Montessori, która kładzie nacisk na swobodny rozwój dzieci i wspieranie ich spontaniczności. W 1907 roku otworzyła przedszkole Casa dei Bambini (Dom Dzieci).",
+  "proponowanyOpis": null,
+  "uwagi": "Daty zgodne."
+ },
+ {
+  "zawodId": "nauczyciel",
+  "imie": "Janusz Korczak",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Janusz_Korczak",
+  "status": "popraw",
+  "problemy": [
+   "Jak w #10: „Król Maciuś Pierwszy\" i dobrowolne towarzyszenie wychowankom niepotwierdzone przez wstęp",
+   "Niepewne daty urodzenia i śmierci"
+  ],
+  "proponowanyBio": "Polsko-żydowski lekarz, pedagog, pisarz i działacz społeczny, właściwie Henryk Goldszmit (1878 lub 1879 do 1942). Twórca systemu pracy z dziećmi opartego na partnerstwie i samorządności, prekursor działań na rzecz praw dziecka. W 1926 roku zainicjował pismo „Mały Przegląd\" redagowane w większości przez dzieci. Zmarł w sierpniu 1942 roku, prawdopodobnie w Treblince.",
+  "proponowanyOpis": null,
+  "uwagi": "Duplikat osoby z zawodu #10."
+ },
+ {
+  "zawodId": "nauczyciel",
+  "imie": "Celestyn Freinet",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Célestin_Freinet",
+  "status": "popraw",
+  "problemy": [
+   "„Ruch Freinetowski działa w ponad 40 krajach\" niepotwierdzone",
+   "Korespondencja międzyszkolna i swobodne teksty niepotwierdzone przez wstęp (drukarnia szkolna i gazetka potwierdzone)"
+  ],
+  "proponowanyBio": "Francuski pedagog (1896 do 1966), twórca „francuskiej szkoły nowoczesnej\". Proponował metody oparte na swobodnym poznawaniu świata przez dziecko, w tym drukarnię szkolną i gazetkę szkolną. W 1957 roku zainicjował powstanie FIMEM, Federacji Ruchów Szkoły Nowoczesnej.",
+  "proponowanyOpis": null,
+  "uwagi": "Wstęp pl jest obszerny; lata życia 1896 do 1966 zgodne."
+ },
+ {
+  "zawodId": "nauczyciel",
+  "imie": "John Dewey",
+  "sourceUrl": "https://en.wikipedia.org/wiki/John_Dewey",
+  "status": "popraw",
+  "problemy": [
+   "„Twórca progresywizmu edukacyjnego\" za mocne: wstęp mówi o jednym z głównych głosów edukacji progresywnej",
+   "„Democracy and Education\" niepotwierdzone przez wstęp",
+   "Opis „twórca pragmatyzmu edukacyjnego\" nieprecyzyjny"
+  ],
+  "proponowanyBio": "Amerykański filozof, psycholog i reformator edukacji (1859 do 1952). Jeden z głównych przedstawicieli pragmatyzmu i edukacji progresywnej. Na Uniwersytecie Chicagowskim założył szkoły laboratoryjne, w których sprawdzał swoje idee pedagogiczne. W latach 1904 do 1930 był profesorem filozofii w Teachers College Uniwersytetu Columbia.",
+  "proponowanyOpis": "Filozof i reformator edukacji, przedstawiciel pragmatyzmu",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "grafik",
+  "imie": "Henryk Tomaszewski",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Henryk_Tomaszewski_(grafik)",
+  "status": "popraw",
+  "problemy": [
+   "Prace w MoMA, złoty medal w São Paulo i profesura na ASP niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski grafik, rysownik i twórca plakatów (1914 do 2005), uznawany obok Józefa Mroszczaka za jednego z twórców polskiej szkoły plakatu.",
+  "proponowanyOpis": null,
+  "uwagi": "Urodzony i zmarł w Warszawie."
+ },
+ {
+  "zawodId": "grafik",
+  "imie": "Jan Lenica",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Jan_Lenica",
+  "status": "popraw",
+  "problemy": [
+   "Pobyt w Paryżu i animacja „Labirynt\" z 1962 niepotwierdzone przez wstęp",
+   "„Pionier animacji artystycznej\": wstęp mówi o pionierach surrealistycznego kina absurdu"
+  ],
+  "proponowanyBio": "Polski artysta plastyk, plakacista i reżyser filmów animowanych (1928 do 2001), jeden z przedstawicieli polskiej szkoły plakatu. W pierwszym okresie twórczości animowanej blisko współpracował z Walerianem Borowczykiem. Zmarł w Berlinie.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "grafik",
+  "imie": "Stefan Sagmeister",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Stefan_Sagmeister",
+  "status": "popraw",
+  "problemy": [
+   "„Dwie nagrody Grammy\" niepotwierdzone przez wstęp",
+   "Studio nazywało się Sagmeister Inc. (od 1993), a Sagmeister & Walsh od 2011 do 2019"
+  ],
+  "proponowanyBio": "Austriacki grafik i typograf (ur. 1962) mieszkający w Nowym Jorku. W 1993 roku założył firmę Sagmeister Inc., tworzącą projekty dla przemysłu muzycznego. Zaprojektował okładki płyt m.in. dla Lou Reeda, Rolling Stonesów i Davida Byrne'a. W latach 2011 do 2019 prowadził studio Sagmeister & Walsh razem z Jessicą Walsh.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "grafik",
+  "imie": "Milton Glaser",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Milton_Glaser",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne (National Medal of Arts 2009, pierwszy grafik; New York magazine; plakat Dylana). Szczegół o fryzurze nie jest we wstępie."
+ },
+ {
+  "zawodId": "prawnik",
+  "imie": "Rafał Lemkin",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Raphael_Lemkin",
+  "status": "popraw",
+  "problemy": [
+   "Miejsce pochodzenia: wstęp podaje Bezwodne, bio Wołkowysk na Podlasiu",
+   "49 członków rodziny straconych w Holokauście i nominacje do Pokojowej Nagrody Nobla niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski i amerykański prawnik karnista pochodzenia żydowskiego (1900 do 1959). Twórca pojęcia „ludobójstwo\" i projektu konwencji w sprawie zapobiegania i karania zbrodni ludobójstwa, podpisanej 9 grudnia 1948 roku. Urodził się w Bezwodnem, zmarł w Nowym Jorku.",
+  "proponowanyOpis": null,
+  "uwagi": "Wstęp pl: ur. 11 lub 24 czerwca 1900."
+ },
+ {
+  "zawodId": "prawnik",
+  "imie": "Adam Bodnar",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Adam_Bodnar",
+  "status": "popraw",
+  "problemy": [
+   "Funkcja ministra sprawiedliwości: wstęp podaje lata 2023 do 2025, bio „od 2023\" jest nieaktualne",
+   "Studia na CEU i sprawy przed TSUE niepotwierdzone przez wstęp",
+   "Opis „Minister Sprawiedliwości\" w czasie teraźniejszym nieaktualny"
+  ],
+  "proponowanyBio": "Polski prawnik, nauczyciel akademicki i polityk (ur. 1977 w Trzebiatowie), działacz na rzecz praw człowieka. W latach 2015 do 2021 był rzecznikiem praw obywatelskich, w latach 2023 do 2025 ministrem sprawiedliwości i prokuratorem generalnym. Od 2023 jest senatorem XI kadencji.",
+  "proponowanyOpis": "Były rzecznik praw obywatelskich i minister sprawiedliwości",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "prawnik",
+  "imie": "Eleanor Roosevelt",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Eleanor_Roosevelt",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne (pierwsza przewodnicząca Komisji Praw Człowieka ONZ, Powszechna Deklaracja Praw Człowieka 1948, pierwsza dama)."
+ },
+ {
+  "zawodId": "prawnik",
+  "imie": "Hugo Grotius",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Hugo_Grotius",
+  "status": "popraw",
+  "problemy": [
+   "„Sformułował zasady prawa naturalnego\" niepotwierdzone przez wstęp",
+   "„Jego idee kształtują prawo do dziś\" brzmi ogólnikowo"
+  ],
+  "proponowanyBio": "Holenderski humanista, prawnik, dyplomata, teolog i poeta (1583 do 1645). Autor dzieł „O prawie wojny i pokoju\" oraz „Mare Liberum\", za które nazywany bywa ojcem prawa międzynarodowego.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "analityk-danych",
+  "imie": "Hans Rosling",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Hans_Rosling",
+  "status": "popraw",
+  "problemy": [
+   "„Factfulness\" i „ponad 35 milionów odsłon TED\" niepotwierdzone przez wstęp",
+   "„Lekarz i statystyk\": wstęp mówi o profesorze zdrowia publicznego"
+  ],
+  "proponowanyBio": "Szwedzki lekarz i profesor zdrowia publicznego w Instytucie Karolinska (1948 do 2017), dyrektor Fundacji Gapminder, która stworzyła oprogramowanie Trendalyzer. Popularyzator edukacji opartej na faktach.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "analityk-danych",
+  "imie": "Nate Silver",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Nate_Silver",
+  "status": "popraw",
+  "problemy": [
+   "Tytuł książki „Sygnał i szum\" niepotwierdzony przez wstęp",
+   "Nie podano, że był redaktorem naczelnym FiveThirtyEight do 2023"
+  ],
+  "proponowanyBio": "Amerykański statystyk i analityk polityczny (ur. 1978). Założyciel serwisu FiveThirtyEight, analizuje wyniki baseballu, koszykówki, futbolu i wyborów. Jego model prognostyczny poprawnie przewidział wynik w 49 z 50 stanów w wyborach prezydenckich w USA w 2008 roku.",
+  "proponowanyOpis": null,
+  "uwagi": "Wstęp en: Time wymienił go w 2009 roku wśród 100 najbardziej wpływowych osób na świecie."
+ },
+ {
+  "zawodId": "analityk-danych",
+  "imie": "Florence Nightingale",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Florence_Nightingale",
+  "status": "popraw",
+  "problemy": [
+   "„Pierwsza kobieta wybrana do Royal Statistical Society\" niepotwierdzone przez wstęp",
+   "„Diagram polarny\" potwierdzony, „coxcomb\" to zwyczajowa nazwa"
+  ],
+  "proponowanyBio": "Angielska pielęgniarka, reformatorka społeczna i statystyczka (1820 do 1910), uznawana za twórczynię nowoczesnego pielęgniarstwa. Znana z diagramu polarnego (róży Nightingale), którym przedstawiała dane statystyczne.",
+  "proponowanyOpis": null,
+  "uwagi": "Duplikat osoby z zawodu #32."
+ },
+ {
+  "zawodId": "analityk-danych",
+  "imie": "Hadley Wickham",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Hadley_Wickham",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne ze wstępem."
+ },
+ {
+  "zawodId": "pielegniarka",
+  "imie": "Florence Nightingale",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Florence_Nightingale",
+  "status": "popraw",
+  "problemy": [
+   "Wstęp pl nie potwierdza założenia pierwszej świeckiej szkoły (jest we wstępie en: St Thomas' Hospital, 1860)"
+  ],
+  "proponowanyBio": "Angielska pielęgniarka, statystyczka i działaczka społeczna (1820 do 1910), nazywana „Damą z lampą\". W czasie wojny krymskiej organizowała opiekę nad rannymi żołnierzami. W 1860 roku założyła w Londynie szkołę pielęgniarską przy St Thomas' Hospital, pierwszą świecką szkołę pielęgniarstwa na świecie.",
+  "proponowanyOpis": null,
+  "uwagi": "Duplikat osoby z zawodu #30. Informacja o szkole pochodzi z wstępu en."
+ },
+ {
+  "zawodId": "pielegniarka",
+  "imie": "Hanna Chrzanowska",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Hanna_Chrzanowska",
+  "status": "popraw",
+  "problemy": [
+   "Beatyfikacja w 2018 roku i opieka paliatywna niepotwierdzone przez wstęp (potwierdzone jest tylko „błogosławiona\")",
+   "Organizowanie opieki w domach w Krakowie niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polska pielęgniarka i działaczka charytatywna (1902 do 1973), prekursorka pielęgniarstwa rodzinnego, domowego i parafialnego. Była wiceprzewodniczącą Polskiego Stowarzyszenia Pielęgniarek Zawodowych i naczelną redaktorką czasopisma „Pielęgniarka Polska\". Błogosławiona Kościoła katolickiego. Zmarła w Krakowie.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "pielegniarka",
+  "imie": "Dorothea Dix",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Dorothea_Dix",
+  "status": "popraw",
+  "problemy": [
+   "„32 szpitale psychiatryczne\" niepotwierdzone przez wstęp",
+   "„Pielęgniarka\": wstęp określa ją jako orędowniczkę chorych psychicznie ubogich"
+  ],
+  "proponowanyBio": "Amerykańska działaczka społeczna (1802 do 1887), orędowniczka ubogich chorych psychicznie. Dzięki wytrwałemu lobbingowi w parlamentach stanowych i Kongresie przyczyniła się do powstania pierwszych amerykańskich zakładów dla chorych psychicznie. W czasie wojny secesyjnej była nadzorczynią pielęgniarek armii.",
+  "proponowanyOpis": "Reformatorka opieki nad chorymi psychicznie w USA",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "pielegniarka",
+  "imie": "Virginia Henderson",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Virginia_Henderson",
+  "status": "popraw",
+  "problemy": [
+   "Definicja przyjęta przez Międzynarodową Radę Pielęgniarek i 14 potrzeb niepotwierdzone przez wstęp",
+   "„Naukowiec\" zamiast pielęgniarka, badaczka, teoretyczka"
+  ],
+  "proponowanyBio": "Amerykańska pielęgniarka, badaczka, teoretyczka i autorka (1897 do 1996). Znana z definicji pielęgniarstwa, według której zadaniem pielęgniarki jest pomaganie choremu lub zdrowemu w czynnościach służących zdrowiu, które wykonywałby samodzielnie, gdyby miał dość sił, woli lub wiedzy. Nazywana „pierwszą damą pielęgniarstwa\".",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "farmaceuta",
+  "imie": "Ignacy Łukasiewicz",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Ignacy_Łukasiewicz",
+  "status": "popraw",
+  "problemy": [
+   "Apteka we Lwowie i pierwsza destylacja niepotwierdzone przez wstęp",
+   "„Pierwsza na świecie rafineria\" niepotwierdzone; wstęp mówi o pionierze przemysłu naftowego w Europie",
+   "„Polska kolebką światowego przemysłu naftowego\" brzmi reklamowo"
+  ],
+  "proponowanyBio": "Polski farmaceuta i przedsiębiorca (1822 do 1882). Wynalazca lampy naftowej (1853) i założyciel pierwszej na świecie kopalni ropy naftowej w Bóbrce (1854). Pionier przemysłu naftowego w Europie, działacz demokratyczno-niepodległościowy i społecznik.",
+  "proponowanyOpis": null,
+  "uwagi": "Wstęp pl: ur. 8 lub 23 marca 1822."
+ },
+ {
+  "zawodId": "farmaceuta",
+  "imie": "Tadeusz Pankiewicz",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Tadeusz_Pankiewicz",
+  "status": "popraw",
+  "problemy": [
+   "Odmowa przeniesienia mimo nakazów oraz ukrywanie Żydów niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski farmaceuta (1908 do 1993), absolwent Uniwersytetu Jagiellońskiego, właściciel apteki „Pod Orłem\" w Krakowie, jedynej apteki działającej w krakowskim getcie. Za pomoc i ratowanie Żydów odznaczony w 1983 roku medalem Sprawiedliwy wśród Narodów Świata. Wspomnienia opisał w książce „Apteka w getcie krakowskim\" (pierwsze wydanie 1947).",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "farmaceuta",
+  "imie": "Alexander Fleming",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+  "status": "popraw",
+  "problemy": [
+   "„Farmakolog\": wstęp en nazywa go lekarzem i mikrobiologiem, wstęp pl bakteriologiem"
+  ],
+  "proponowanyBio": "Szkocki lekarz i mikrobiolog (1881 do 1955). W 1928 roku odkrył penicylinę, pierwszy odkryty antybiotyk. W 1945 roku razem z Howardem Floreyem i Ernstem Chainem otrzymał Nagrodę Nobla w dziedzinie fizjologii lub medycyny.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "farmaceuta",
+  "imie": "Maria Skłodowska-Curie",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Maria_Skłodowska-Curie",
+  "status": "popraw",
+  "problemy": [
+   "Pierwsza kobieta profesor na Sorbonie i mobilne stacje rentgenowskie niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polsko-francuska uczona (1867 do 1934), podwójna laureatka Nagrody Nobla z fizyki (1903) i chemii (1911). Odkryła pierwiastki rad i polon. Była prekursorką radiochemii i inicjowała badania nad leczeniem raka za pomocą promieniotwórczości.",
+  "proponowanyOpis": null,
+  "uwagi": "Fizyka 1903 razem z Pierre'em Curie i Henrim Becquerelem."
+ },
+ {
+  "zawodId": "fizjoterapeuta",
+  "imie": "Wiktor Dega",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Wiktor_Dega",
+  "status": "popraw",
+  "problemy": [
+   "Profesura w Akademii Medycznej w Poznaniu potwierdzona, ale „twórca polskiej szkoły rehabilitacji\", „kompleksowy system\" i „wzór dla Europy Środkowej\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski lekarz ortopeda (1896 do 1995), profesor Uniwersytetu Poznańskiego, a później Akademii Medycznej w Poznaniu, członek rzeczywisty PAN i współzałożyciel Polskiego Towarzystwa Ortopedycznego i Traumatologicznego. Pierwszy kawaler Orderu Uśmiechu.",
+  "proponowanyOpis": "Polski ortopeda, profesor w Poznaniu",
+  "uwagi": "Wstęp nie wymienia rehabilitacji."
+ },
+ {
+  "zawodId": "fizjoterapeuta",
+  "imie": "Per Henrik Ling",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Per_Henrik_Ling",
+  "status": "popraw",
+  "problemy": [
+   "Królewski Instytut Gimnastyczny z 1813 roku niepotwierdzony przez wstęp",
+   "„Nauczyciel i terapeuta\", „prekursor fizjoterapii\" niepotwierdzone: wstęp mówi o ojcu fizjoterapii w Szwecji i pionierze wychowania fizycznego"
+  ],
+  "proponowanyBio": "Szwedzki pionier nauczania wychowania fizycznego i gimnastyki (1776 do 1839), uważany za ojca fizjoterapii w Szwecji.",
+  "proponowanyOpis": "Pionier gimnastyki i wychowania fizycznego w Szwecji",
+  "uwagi": "Nazwisko w Wikipedii: Pehr Henrik Ling."
+ },
+ {
+  "zawodId": "fizjoterapeuta",
+  "imie": "Irena Hausmanowa-Petrusewicz",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Irena_Hausmanowa-Petrusewicz",
+  "status": "popraw",
+  "problemy": [
+   "Instytut Medycyny Doświadczalnej PAN, „ponad 400 publikacji\" i „rehabilitantka\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polska lekarka i neurolog (1917 do 2015), jedna z pionierek polskiej neurobiologii. Zmarła w Warszawie.",
+  "proponowanyOpis": "Polska neurolog, pionierka neurobiologii",
+  "uwagi": "Wstęp krótki."
+ },
+ {
+  "zawodId": "ksiegowy",
+  "imie": "Luca Pacioli",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Luca_Pacioli",
+  "status": "popraw",
+  "problemy": [
+   "„Summa de arithmetica\", podwójny zapis i współpraca z Leonardem niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Włoski duchowny katolicki i matematyk (1445 do 1517), franciszkanin i wędrowny nauczyciel, uważany za „ojca rachunkowości\".",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "ksiegowy",
+  "imie": "Mary Harris Smith",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Mary_Harris_Smith",
+  "status": "popraw",
+  "problemy": [
+   "Wstęp: pierwsza kobieta, która ukończyła kwalifikację ICAEW, ale odmówiono jej członkostwa, dopiero po ustawie z 1919 roku została pierwszą kobietą biegłym rewidentem",
+   "„Zmieniła oblicze profesji na całym świecie\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Brytyjska księgowa i przedsiębiorczyni (1844 do 1934). Jako pierwsza kobieta ukończyła kwalifikację Institute of Chartered Accountants in England and Wales, ale odmówiono jej członkostwa z powodu płci. Po uchwaleniu w 1919 roku ustawy o zniesieniu dyskwalifikacji ze względu na płeć została pierwszą na świecie kobietą biegłym rewidentem.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "kucharz",
+  "imie": "Robert Makłowicz",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Robert_Makłowicz",
+  "status": "popraw",
+  "problemy": [
+   "Studia filologii klasycznej na UJ niepotwierdzone przez wstęp",
+   "Kanał na YouTube z milionami subskrybentów niepotwierdzony przez wstęp",
+   "„Kultowe programy\" i „ikona polskiej gastronomii\" to oceny bez oparcia"
+  ],
+  "proponowanyBio": "Polski dziennikarz, krytyk kulinarny, pisarz, publicysta i podróżnik (ur. 1963 w Krakowie). Twórca i prowadzący cykl programów kulinarnych „Makłowicz w podróży\".",
+  "proponowanyOpis": null,
+  "uwagi": "Data urodzenia zgodna."
+ },
+ {
+  "zawodId": "kucharz",
+  "imie": "Wojciech Modest Amaro",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Wojciech_Modest_Amaro",
+  "status": "popraw",
+  "problemy": [
+   "Pierwszy Polak z gwiazdką Michelin, restauracja Atelier Amaro (2013), studia na ASP niepotwierdzone przez wstęp (wstęp ma jedno zdanie)"
+  ],
+  "proponowanyBio": "Polski kucharz i restaurator oraz osobowość telewizyjna (ur. 1972 w Sosnowcu).",
+  "proponowanyOpis": "Polski kucharz i restaurator",
+  "uwagi": "Twierdzenie o gwiazdce Michelin wymaga potwierdzenia w treści artykułu."
+ },
+ {
+  "zawodId": "kucharz",
+  "imie": "Auguste Escoffier",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Auguste_Escoffier",
+  "status": "popraw",
+  "problemy": [
+   "Deser Peach Melba i system brygadowy niepotwierdzone przez wstęp",
+   "Wstęp mówi o ujednoliceniu przepisów i wprowadzeniu porządku w kuchni (czystość, dyscyplina, cisza)"
+  ],
+  "proponowanyBio": "Francuski kucharz, restaurator i autor książek kulinarnych (1846 do 1935), który spopularyzował i unowocześnił tradycyjne metody francuskiej kuchni. Uporządkował przepisy na pięć podstawowych sosów. W kuchniach wprowadził czystość, dyscyplinę i ciszę. W latach 90. XIX wieku i na początku XX wieku był czołową postacią kulinarną Londynu i Paryża. Związany z hotelami Ritz i Savoy, autor „Le Guide Culinaire\".",
+  "proponowanyOpis": null,
+  "uwagi": "Daty zgodne."
+ },
+ {
+  "zawodId": "kucharz",
+  "imie": "Magda Gessler",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Magda_Gessler",
+  "status": "popraw",
+  "problemy": [
+   "Polsko-rosyjskie pochodzenie i określenie „krytyczka kulinarna\" niepotwierdzone przez wstęp (wstęp: restauratorka, z wykształcenia malarka)",
+   "„Uratowała setki restauracji\" i restauracja „U Fukiera\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Polska restauratorka (ur. 1953 w Komorowie), właścicielka lub współwłaścicielka kilkunastu restauracji, osobowość telewizyjna. Z wykształcenia malarka. Od 2010 roku prowadzi program „Kuchenne rewolucje\" w TVN.",
+  "proponowanyOpis": "Restauratorka i prowadząca „Kuchenne rewolucje\"",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "tester",
+  "imie": "James Bach",
+  "sourceUrl": "https://en.wikipedia.org/wiki/James_Marcus_Bach",
+  "status": "popraw",
+  "problemy": [
+   "Rapid Software Testing, „samouk bez dyplomu\" i książka „Lessons Learned in Software Testing\" niepotwierdzone przez wstęp",
+   "Wstęp podaje rok urodzenia jako „ok. 1966\""
+  ],
+  "proponowanyBio": "Amerykański tester oprogramowania, autor, trener i konsultant (ur. ok. 1966).",
+  "proponowanyOpis": "Amerykański tester oprogramowania i konsultant",
+  "uwagi": "Wstęp ma jedno zdanie."
+ },
+ {
+  "zawodId": "tester",
+  "imie": "Cem Kaner",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Cem_Kaner",
+  "status": "popraw",
+  "problemy": [
+   "Rok urodzenia 1948 i wykształcenie prawnicze niepotwierdzone przez wstęp",
+   "Twórca testowania eksploracyjnego obok Bacha niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Amerykański profesor inżynierii oprogramowania na Florida Institute of Technology, od 2004 roku dyrektor Center for Software Testing Education and Research. W 1988 roku wraz z Jackiem Falkiem i Hungiem Quocem Nguyenem opublikował książkę „Testing Computer Software\", która była wówczas najlepiej sprzedającą się książką o testowaniu oprogramowania. W 2004 roku współzałożył Association for Software Testing.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "dentysta",
+  "imie": "Pierre Fauchard",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Pierre_Fauchard",
+  "status": "popraw",
+  "problemy": [
+   "Daty niepewne: wstęp podaje ur. 1678 lub 1690, zm. 1761 lub 1763",
+   "„Pierwszy podręcznik stomatologiczny\" i „jako pierwszy opisał metody leczenia\" niepotwierdzone (wstęp: pierwszy stomatolog stosujący technikę ortodontyczną)"
+  ],
+  "proponowanyBio": "Francuski lekarz chirurg i stomatolog (ur. 1678 lub 1690, zm. 1761 lub 1763 w Paryżu), nazywany ojcem współczesnej stomatologii. W 1728 roku wydał pracę „Le chirurgien dentiste\", w której omówił choroby zębów i przyzębia, ortodoncję, protetykę i chirurgię jamy ustnej. Stworzył wiele narzędzi dentystycznych oraz prototyp fotela stomatologicznego.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "dentysta",
+  "imie": "Tadeusz Boy-Żeleński",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Tadeusz_Boy-Żeleński",
+  "status": "usun",
+  "problemy": [
+   "Opis „Lekarz dentysta\" jest nieprawdziwy: wstęp mówi o tłumaczu, krytyku literackim i poecie, z wykształcenia lekarzu, bez związku ze stomatologią",
+   "„Ginekolog i stomatolog\" oraz „ponad 100 dzieł\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski tłumacz, krytyk literacki i teatralny, poeta-satyryk i eseista (1874 do 1941), z wykształcenia lekarz. Przełożył na polski dzieła kanonu literatury francuskiej, m.in. wszystkie sztuki Molière'a. Zginął we Lwowie w 1941 roku.",
+  "proponowanyOpis": "Tłumacz, krytyk literacki i lekarz",
+  "uwagi": "Wikipedia nie wiąże go z zawodem dentysty (zawód: dentysta). Osoba odpowiednia raczej do zawodów literackich lub tłumacza; w zawodzie dentysta do usunięcia. Bio w propozycji jest poprawne po ewentualnym przeniesieniu."
+ },
+ {
+  "zawodId": "dentysta",
+  "imie": "Horace Wells",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Horace_Wells",
+  "status": "popraw",
+  "problemy": [
+   "Rok 1844 niepotwierdzony przez wstęp",
+   "„Za życia nie doczekał się pełnego uznania\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Amerykański dentysta (1815 do 1848), pionier stosowania znieczulenia w medycynie, w szczególności podtlenku azotu (gazu rozweselającego). Mimo namów nie opatentował swojego odkrycia, uważając, że wolność od bólu powinna być „tak darmowa jak powietrze\".",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "dentysta",
+  "imie": "Lucy Hobbs Taylor",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Lucy_Hobbs_Taylor",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne: pierwsza kobieta, która ukończyła szkołę dentystyczną (Ohio College of Dental Surgery, 1866). Końcowe zdanie o przełamywaniu barier ma charakter ogólny."
+ },
+ {
+  "zawodId": "fotograf",
+  "imie": "Adam Lach",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Adam_Lach",
+  "status": "popraw",
+  "problemy": [
+   "Nagroda World Press Photo za cykl „Stigma\" niepotwierdzona przez wstęp",
+   "Przynależność do kolektywu Sputnik Photos niepotwierdzona; wstęp wymienia Napo Images, Archiwum Protestów Publicznych i duet Dyba & Lach",
+   "Śląsk i Donbas niepotwierdzone"
+  ],
+  "proponowanyBio": "Polski dokumentalista, twórca wizualny i fotograf prasowy (ur. 1983 w Poznaniu), autor książek fotograficznych i filmów dokumentalnych. Współzałożyciel agencji Napo Images, członek kolektywu Archiwum Protestów Publicznych i duetu artystycznego Dyba & Lach.",
+  "proponowanyOpis": "Fotograf prasowy i dokumentalista",
+  "uwagi": "Opis „laureat World Press Photo\" wymaga potwierdzenia poza wstępem."
+ },
+ {
+  "zawodId": "fotograf",
+  "imie": "Chris Niedenthal",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Chris_Niedenthal",
+  "status": "popraw",
+  "problemy": [
+   "Kolejność narodowości: wstęp mówi „brytyjsko-polski\"",
+   "Zdjęcie czołgu przed kinem Moskwa niepotwierdzone przez wstęp",
+   "„Dokumentował Solidarność\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Brytyjsko-polski fotograf i fotoreporter (ur. 1950 w Londynie), członek rzeczywisty ZPAF. Laureat nagrody World Press Photo w 1986 roku.",
+  "proponowanyOpis": "Fotoreporter, laureat World Press Photo 1986",
+  "uwagi": "Zdjęcie z kinem Moskwa nie występuje we wstępie."
+ },
+ {
+  "zawodId": "fotograf",
+  "imie": "Ansel Adams",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Ansel_Adams",
+  "status": "popraw",
+  "problemy": [
+   "„Najsłynniejszy fotograf krajobrazowy w historii\" niepotwierdzone",
+   "„Zdefiniowały amerykańską fotografię artystyczną i ruch ekologiczny\" ocena bez oparcia",
+   "Wstęp mówi o obrazach amerykańskiego Zachodu, nie wyłącznie parkach narodowych"
+  ],
+  "proponowanyBio": "Amerykański fotograf krajobrazu i działacz na rzecz ochrony środowiska (1902 do 1984), znany z czarno-białych zdjęć amerykańskiego Zachodu. Współzałożył Group f/64, stowarzyszenie propagujące „czystą\" fotografię. Wspólnie z Fredem Archerem opracował system stref (Zone System). Pierwszy aparat dostał w wieku 14 lat podczas pierwszej wizyty w Parku Narodowym Yosemite.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "fotograf",
+  "imie": "Zofia Rydet",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Zofia_Rydet",
+  "status": "popraw",
+  "problemy": [
+   "„Zapis socjologiczny\" i „ponad 20 000 zdjęć\" niepotwierdzone przez wstęp",
+   "„Tworzyła przez pięć dekad\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Polska artystka fotograf (1911 do 1997), urodzona w Stanisławowie, zmarła w Gliwicach. Uhonorowana m.in. tytułami Artiste FIAP (1969) i Excellence FIAP (1976).",
+  "proponowanyOpis": "Polska fotografka",
+  "uwagi": "Wstęp krótki; „Zapis socjologiczny\" to znane dzieło, ale wymaga potwierdzenia."
+ },
+ {
+  "zawodId": "dziennikarz",
+  "imie": "Ryszard Kapuściński",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Ryszard_Kapuściński",
+  "status": "popraw",
+  "problemy": [
+   "Praca korespondenta PAP, „27 rewolucji\", tytuły „Imperium\" i „Heban\", nominacje do Nobla i „30 języków\" niepotwierdzone przez wstęp",
+   "„Reporter stulecia\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Polski reportażysta, publicysta, poeta i fotograf (1932 do 2007), zwany „cesarzem reportażu\". Należy do najczęściej tłumaczonych polskich autorów.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "dziennikarz",
+  "imie": "Hanna Krall",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Hanna_Krall",
+  "status": "popraw",
+  "problemy": [
+   "„Zdążyć przed Panem Bogiem\", Marek Edelman i nominacje do Nobla niepotwierdzone przez wstęp (wstęp ma jedno zdanie)"
+  ],
+  "proponowanyBio": "Polska pisarka, reporterka i dziennikarka (ur. 1935 w Warszawie).",
+  "proponowanyOpis": "Polska reportażystka i pisarka",
+  "uwagi": "Wstęp krótki."
+ },
+ {
+  "zawodId": "dziennikarz",
+  "imie": "Carl Bernstein",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Carl_Bernstein",
+  "status": "popraw",
+  "problemy": [
+   "Dymisja Nixona w 1974 roku niepotwierdzona co do daty przez wstęp",
+   "„Zdefiniowało standardy zawodu\" to ocena bez oparcia"
+  ],
+  "proponowanyBio": "Amerykański dziennikarz śledczy i autor (ur. 1944). W 1972 roku jako młody reporter „Washington Post\" razem z Bobem Woodwardem wykonał znaczną część pierwotnych doniesień o aferze Watergate, która doprowadziła do dymisji prezydenta Richarda Nixona. Współautor książek „Wszyscy ludzie prezydenta\" i „Ostatnie dni\".",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "dziennikarz",
+  "imie": "Mariusz Szczygieł",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Mariusz_Szczygieł",
+  "status": "popraw",
+  "problemy": [
+   "„Zrób sobie raj\", „Osobisty przewodnik po Pradze\" i Nagroda Kapuścińskiego niepotwierdzone przez wstęp",
+   "„Bestsellerowe\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Polski dziennikarz, reportażysta, pisarz i wykładowca akademicki (ur. 1966 w Złotoryi). Od 1990 roku związany z „Gazetą Wyborczą\". Laureat Europejskiej Nagrody Książkowej za „Gottland\" (2009), Grand Press (2013) i Nagrody Literackiej „Nike\" za tom „Nie ma\" (2019).",
+  "proponowanyOpis": null,
+  "uwagi": "Tytuł „Nie ma\" i inne nagrody pochodzą ze wstępu."
+ },
+ {
+  "zawodId": "ratownik-medyczny",
+  "imie": "Peter Safar",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Peter_Safar",
+  "status": "popraw",
+  "problemy": [
+   "Technika usta-usta, pierwszy system pogotowia w USA i nominacje do Nobla niepotwierdzone przez wstęp",
+   "„Austriacko-amerykański\": wstęp mówi „austriacki anestezjolog pochodzenia czesko-żydowskiego\""
+  ],
+  "proponowanyBio": "Austriacki anestezjolog pochodzenia czesko-żydowskiego (1924 do 2003), uznawany za pioniera resuscytacji krążeniowo-oddechowej (CPR).",
+  "proponowanyOpis": "Anestezjolog, pionier resuscytacji krążeniowo-oddechowej",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "ratownik-medyczny",
+  "imie": "Caroline Hampton",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Caroline_Hampton",
+  "status": "popraw",
+  "problemy": [
+   "Wynalezienie rękawiczek przez męża na skutek jej uczulenia niepotwierdzone przez wstęp (wstęp: pierwsza użyła rękawic medycznych na sali operacyjnej)",
+   "„Zrewolucjonizowała higienę na całym świecie\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Amerykańska pielęgniarka (1861 do 1922), pierwsza osoba, która używała rękawic medycznych na sali operacyjnej.",
+  "proponowanyOpis": "Pielęgniarka, która pierwsza użyła rękawic medycznych",
+  "uwagi": "Bio w obecnej postaci wymaga źródła w treści artykułu."
+ },
+ {
+  "zawodId": "ratownik-medyczny",
+  "imie": "Frank Pantridge",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Frank_Pantridge",
+  "status": "popraw",
+  "problemy": [
+   "„Irlandzki\": wstęp mówi „północnoirlandzki\"",
+   "Rok 1965, karetki w Belfaście, „miliony istnień\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Północnoirlandzki lekarz, kardiolog i profesor (1916 do 2004), który wynalazł przenośny defibrylator i w ten sposób przekształcił medycynę ratunkową oraz służby ratownicze.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "projektant-ux",
+  "imie": "Don Norman",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Donald_Norman",
+  "status": "popraw",
+  "problemy": [
+   "Praca w Apple, utworzenie terminu UX, profesura na UCSD, współzałożenie Nielsen Norman Group i książka niepotwierdzone przez wstęp (wstęp ma jedno zdanie)"
+  ],
+  "proponowanyBio": "Amerykański psycholog poznawczy i badacz (ur. 1935), specjalista w dziedzinie interakcji człowiek-komputer.",
+  "proponowanyOpis": "Psycholog poznawczy, badacz interakcji człowiek-komputer",
+  "uwagi": "Wymaga poszerzenia po sprawdzeniu pełnego artykułu."
+ },
+ {
+  "zawodId": "projektant-ux",
+  "imie": "Jony Ive",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Jony_Ive",
+  "status": "popraw",
+  "problemy": [
+   "Tytuł Sir i lata 1996 do 2019 niepotwierdzone przez wstęp (wstęp: odszedł z Apple w 2019)",
+   "Sprzedaż produktów i „zdefiniował estetykę\" to oceny bez oparcia"
+  ],
+  "proponowanyBio": "Brytyjski projektant (ur. 1967 w Londynie), były Główny Projektant (CDO) Apple. Odpowiadał za projektowanie produktów, takich jak iMac, iPod, iPhone i iPad. W 2019 roku odszedł z Apple, by prowadzić własne studio LoveFrom.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "projektant-ux",
+  "imie": "Jakob Nielsen",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)",
+  "status": "popraw",
+  "problemy": [
+   "Dziesięć heurystyk użyteczności i książka „Usability Engineering\" niepotwierdzone przez wstęp",
+   "„Duński informatyk\": wstęp mówi „duński konsultant ds. użyteczności stron internetowych i badacz interakcji człowiek-komputer\""
+  ],
+  "proponowanyBio": "Duński konsultant ds. użyteczności stron internetowych i badacz interakcji człowiek-komputer (ur. 1957), współzałożyciel Nielsen Norman Group. W 1998 roku „New York Times\" nazwał go „guru użyteczności stron WWW\", a „Internet Magazine\" „królem użyteczności\".",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "projektant-ux",
+  "imie": "Susan Kare",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Susan_Kare",
+  "status": "popraw",
+  "problemy": [
+   "Konkretne ikony (kosz, zegarek, bomba) i czcionki Chicago i Geneva niepotwierdzone przez wstęp (wstęp mówi ogólnie o elementach interfejsu i krojach pisma)"
+  ],
+  "proponowanyBio": "Amerykańska artystka i projektantka graficzna (ur. 1954), która w latach 1983 do 1986 współtworzyła elementy interfejsu i kroje pisma dla pierwszego komputera Apple Macintosh. Była pracownikiem nr 10 i dyrektorką kreatywną w firmie NeXT. Uważana za pionierkę pixel artu i graficznego interfejsu komputera.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "elektryk",
+  "imie": "Nikola Tesla",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Nikola_Tesla",
+  "status": "popraw",
+  "problemy": [
+   "„Ponad 300 patentów\": wstęp mówi „blisko 300 patentów\" (125 wynalazków)",
+   "Bezprzewodowa transmisja energii i śmierć w samotności niepotwierdzone przez wstęp",
+   "Silnik indukcyjny i cewka Tesli: wstęp wymienia silnik elektryczny, prądnicę prądu przemiennego i transformator Tesli",
+   "„Serbsko-amerykański\": wstęp mówi „serbski inżynier pochodzący z Chorwacji\""
+  ],
+  "proponowanyBio": "Serbski inżynier pochodzący z Chorwacji (1856 do 1943), elektrotechnik, radiotechnik i wynalazca. Konstruował urządzenia do wytwarzania i wykorzystania prądu przemiennego, konkurując z Thomasem Edisonem. Był autorem blisko 300 patentów chroniących 125 wynalazków, m.in. silnika elektrycznego i prądnicy prądu przemiennego oraz transformatora Tesli.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "elektryk",
+  "imie": "Thomas Edison",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Thomas_Edison",
+  "status": "ok",
+  "problemy": [
+   "Fraza „system dystrybucji prądu stałego\" nie występuje dosłownie we wstępie (jest pierwsza elektrownia publiczna 1881 do 1882)"
+  ],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Daty, 1093 patenty, Menlo Park, fonograf i żarówka zgodne ze wstępem. Opis „system dystrybucji prądu\" nieco uproszczony."
+ },
+ {
+  "zawodId": "elektryk",
+  "imie": "Michael Faraday",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Michael_Faraday",
+  "status": "popraw",
+  "problemy": [
+   "Konkretne „zasada działania generatorów i transformatorów\" niepotwierdzona (wstęp mówi o silniku elektrycznym)",
+   "„Samouk z biednej rodziny\": wstęp mówi o niewielkim formalnym wykształceniu, bez wzmianki o ubóstwie"
+  ],
+  "proponowanyBio": "Angielski chemik i fizyk (1791 do 1867), który wniósł ogromny wkład w badania nad elektrochemią i elektromagnetyzmem. Odkrył zasady indukcji elektromagnetycznej, diamagnetyzmu i elektrolizy. Jego wynalazki elektromagnetycznych urządzeń obrotowych stały się podstawą techniki silników elektrycznych. Mimo niewielkiego formalnego wykształcenia należy do najbardziej wpływowych uczonych w historii.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "elektryk",
+  "imie": "Werner von Siemens",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Werner_von_Siemens",
+  "status": "popraw",
+  "problemy": [
+   "Pierwsza linia telegraficzna w Europie niepotwierdzona przez wstęp",
+   "„Firma Siemens AG, dziś jedna z największych\" i „ojciec współczesnej elektrotechniki\" niepotwierdzone w tej formie"
+  ],
+  "proponowanyBio": "Niemiecki inżynier elektryk, wynalazca i przemysłowiec (1816 do 1892). Założył konglomerat elektryczny i telekomunikacyjny Siemens. Wynalazł m.in. tramwaj elektryczny, trolejbus, lokomotywę elektryczną i elektryczną windę. Jego dynamo położyło podwaliny pod epokę elektryczności. Jednostka przewodnictwa elektrycznego siemens nosi jego nazwisko.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "policjant",
+  "imie": "Marek Papała",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Marek_Papała",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne ze wstępem (ur. 1959 w Pruchniku, zm. 1998 w Warszawie, komendant główny Policji 1997 do 1998)."
+ },
+ {
+  "zawodId": "policjant",
+  "imie": "Robert Peel",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Robert_Peel",
+  "status": "popraw",
+  "problemy": [
+   "„Zasady policyjne obowiązują do dziś\" niepotwierdzone przez wstęp",
+   "Opis „twórca nowoczesnej policji w Londynie\" w porządku, ale bio pomija, że Metropolitan Police założył jako minister spraw wewnętrznych"
+  ],
+  "proponowanyBio": "Brytyjski polityk konserwatywny (1788 do 1850), dwukrotny premier Wielkiej Brytanii (1834 do 1835 i 1841 do 1846). Jako minister spraw wewnętrznych założył Metropolitan Police i jest uznawany za ojca nowoczesnej brytyjskiej policji. Od jego nazwiska policjantów nazywano „bobbies\" i „peelers\".",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "policjant",
+  "imie": "Eliot Ness",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Eliot_Ness",
+  "status": "popraw",
+  "problemy": [
+   "Stanowisko dyrektora bezpieczeństwa publicznego w Cleveland niepotwierdzone przez wstęp",
+   "„Rozbił imperium Ala Capone\" za mocne: wstęp mówi o staraniach zmierzających do jego obalenia"
+  ],
+  "proponowanyBio": "Amerykański agent do spraw prohibicji (1903 do 1957), znany z działań przeciwko Alowi Capone w Chicago w czasie prohibicji. Kierował zespołem funkcjonariuszy zwanych „Nietykalnymi\", dobranych ze względu na nieprzekupność. Jego wspomnienia „Nietykalni\" ukazały się po jego śmierci i dały początek filmowym wizerunkom.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "strazak",
+  "imie": "Święty Florian",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Florian_(męczennik)",
+  "status": "popraw",
+  "problemy": [
+   "Patronat nad hutnikami i kominiarzami, Dzień Strażaka i wizerunek na remizach niepotwierdzone przez wstęp",
+   "Bio nie podaje żadnych dat ani faktów biograficznych (wstęp: rzymski oficer, męczennik, zm. 4 maja 304)"
+  ],
+  "proponowanyBio": "Florian z Lauriacum, rzymski oficer i męczennik chrześcijański, święty katolicki i prawosławny. Urodził się w drugiej połowie III wieku w Ceti, zmarł 4 maja 304 roku.",
+  "proponowanyOpis": "Rzymski oficer, męczennik, patron strażaków w tradycji",
+  "uwagi": "Patronat nad strażakami jest powszechnie znany, ale wstęp go nie wymienia."
+ },
+ {
+  "zawodId": "strazak",
+  "imie": "Bolesław Chomicz",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Bolesław_Chomicz",
+  "status": "popraw",
+  "problemy": [
+   "Funkcja prezesa Głównego Związku Straży Pożarnych RP, system szkolenia strażaków i „jeden z najlepszych systemów OSP w Europie\" niepotwierdzone przez wstęp",
+   "Opis „Twórca Związku Ochotniczych Straży Pożarnych\" nieuzasadniony: wstęp mówi o jednym z organizatorów polskiej straży pożarnej"
+  ],
+  "proponowanyBio": "Polski działacz społeczny, adwokat i przedsiębiorca (1878 do 1959), jeden z organizatorów polskiej straży pożarnej. Urodził się w Jaroszówku koło Nowogródka, zmarł w Warszawie. Był stryjem grafika Witolda Chomicza.",
+  "proponowanyOpis": "Jeden z organizatorów polskiej straży pożarnej",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "strazak",
+  "imie": "Benjamin Franklin",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Benjamin_Franklin",
+  "status": "popraw",
+  "problemy": [
+   "Union Fire Company w 1736 roku i ubezpieczenia przeciwpożarowe niepotwierdzone przez wstęp (wstęp wspomina tylko o pierwszej straży pożarnej Filadelfii wśród organizacji, które współtworzył)",
+   "Opis „założyciel pierwszej ochotniczej straży pożarnej w USA\" nieprecyzyjny"
+  ],
+  "proponowanyBio": "Amerykański erudyta (1706 do 1790), fizyk, filozof, mąż stanu i wynalazca, jeden z Ojców Założycieli Stanów Zjednoczonych. Współtworzył m.in. Library Company, Uniwersytet Pensylwanii i pierwszą straż pożarną Filadelfii. Współautor Deklaracji niepodległości i pierwszy naczelny poczmistrz.",
+  "proponowanyOpis": "Jeden z Ojców Założycieli, współzałożyciel pierwszej straży pożarnej Filadelfii",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "dietetyk",
+  "imie": "Ancel Keys",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Ancel_Keys",
+  "status": "popraw",
+  "problemy": [
+   "„Seven Countries Study\" niepotwierdzone przez wstęp",
+   "Twórca diety śródziemnomorskiej: wstęp mówi, że spopularyzował ją wraz z żoną Margaret"
+  ],
+  "proponowanyBio": "Amerykański fizjolog (1904 do 2004), badacz wpływu diety na zdrowie. Postawił hipotezę, że zastąpienie tłuszczów nasyconych wielonienasyconymi zmniejsza ryzyko chorób układu krążenia. Opublikował „The Biology of Human Starvation\" (1950). Odpowiadał za dwie znane diety: racje żywnościowe K dla żołnierzy w czasie II wojny światowej oraz dietę śródziemnomorską, którą spopularyzował wraz z żoną Margaret.",
+  "proponowanyOpis": "Fizjolog badający wpływ diety na zdrowie",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "dietetyk",
+  "imie": "Wilbur Atwater",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Wilbur_Olin_Atwater",
+  "status": "popraw",
+  "problemy": [
+   "Kalorymetr, tabele wartości odżywczych i „pierwszy system obliczania kalorii\" niepotwierdzone przez wstęp",
+   "„Fizjolog\": wstęp mówi o chemiku"
+  ],
+  "proponowanyBio": "Amerykański chemik (1844 do 1907), znany z badań nad żywieniem i metabolizmem człowieka, uważany za ojca nowoczesnych badań nad żywieniem. Opracował system Atwatera, który położył podwaliny pod naukę o żywieniu w USA. Był dyrektorem pierwszej amerykańskiej stacji doświadczalnej rolnictwa przy Wesleyan University i pierwszym szefem badań nad żywieniem w Departamencie Rolnictwa USA.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "tlumacz",
+  "imie": "Irena Tuwim",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Irena_Tuwim",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne ze wstępem."
+ },
+ {
+  "zawodId": "tlumacz",
+  "imie": "Stanisław Barańczak",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Stanisław_Barańczak",
+  "status": "popraw",
+  "problemy": [
+   "Profesura na Harvardzie i „wybitny tłumacz Szekspira\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski poeta, eseista, krytyk literacki i tłumacz literatury angielskiej, amerykańskiej, rosyjskiej i niemieckiej (1946 do 2014). Jeden z najważniejszych twórców Nowej Fali, współzałożyciel Komitetu Obrony Robotników i niezależnego pisma „Zapis\".",
+  "proponowanyOpis": null,
+  "uwagi": "Urodzony w Poznaniu, zmarł w Newtonville."
+ },
+ {
+  "zawodId": "tlumacz",
+  "imie": "Czesław Miłosz",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Czesław_Miłosz",
+  "status": "popraw",
+  "problemy": [
+   "Przekłady Psalmów, Whitmana i Eliota niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski poeta, prozaik, eseista, historyk literatury, tłumacz i dyplomata (1911 do 2004). Laureat Nagrody Nobla w dziedzinie literatury (1980), profesor Uniwersytetu Kalifornijskiego w Berkeley, kawaler Orderu Orła Białego. W latach 1951 do 1993 przebywał na emigracji.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "tlumacz",
+  "imie": "Gregory Rabassa",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Gregory_Rabassa",
+  "status": "popraw",
+  "problemy": [
+   "Przekłady konkretnych autorów, cytat Garcíi Márqueza i National Book Award niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Amerykański tłumacz literacki z hiszpańskiego i portugalskiego na angielski (1922 do 2016). Przez wiele lat wykładał na Uniwersytecie Columbia i w Queens College.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "weterynarz",
+  "imie": "James Herriot",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/James_Herriot",
+  "status": "popraw",
+  "problemy": [
+   "„Ponad 60 milionów sprzedanych książek\" i serial BBC niepotwierdzone przez wstęp",
+   "Yorkshire niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Brytyjski lekarz weterynarii i pisarz, właściwie James Alfred „Alf\" Wight (1916 do 1995). Autor cyklu ośmiu powieści „Wszystkie stworzenia duże i małe\".",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "weterynarz",
+  "imie": "Claude Bourgelat",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Claude_Bourgelat",
+  "status": "popraw",
+  "problemy": [
+   "„Prawnik i hipolog\" niepotwierdzone: wstęp mówi o chirurgu weterynarii",
+   "Szkoła w Lyonie w 1762 roku niepotwierdzona przez wstęp (wstęp: stworzył dwie pierwsze na świecie szkoły weterynaryjne)"
+  ],
+  "proponowanyBio": "Francuski chirurg weterynarii (1712 do 1779), jeden z twórców naukowej medycyny weterynaryjnej. Założył dwie pierwsze na świecie szkoły kształcące zawodowo weterynarzy.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "weterynarz",
+  "imie": "Bernhard Lauritz Frederik Bang",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Bernhard_Bang",
+  "status": "popraw",
+  "problemy": [
+   "Program zwalczania gruźlicy bydlęcej i „mikrobiolog\" niepotwierdzone przez wstęp",
+   "„Metody przyjęto na całym świecie\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Duński lekarz weterynarii (1848 do 1932). W 1897 roku odkrył bakterię Brucella abortus, zwaną pałeczką Banga, wywołującą zaraźliwą chorobę Banga (brucelozę), która powoduje poronienia u krów, a u ludzi gorączkę maltańską.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "specjalista-cyberbezpieczenstwa",
+  "imie": "Kevin Mitnick",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Kevin_Mitnick",
+  "status": "popraw",
+  "problemy": [
+   "Książki „The Art of Deception\" i „Ghost in the Wires\" niepotwierdzone przez wstęp",
+   "Praca konsultanta bezpieczeństwa oraz „najbardziej poszukiwany haker\" niepotwierdzone przez wstęp",
+   "Wstęp mówi o skazaniu na karę pozbawienia wolności i zakazie używania internetu"
+  ],
+  "proponowanyBio": "Amerykański haker komputerowy (1963 do 2023), jeden z najbardziej znanych włamywaczy komputerowych. Aresztowany w 1995 roku przez agentów FBI, spędził w areszcie ponad cztery lata przed wydaniem wyroku. Odbywanie kary zakończył w styczniu 2000 roku. Był znany z wykorzystywania inżynierii społecznej.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "specjalista-cyberbezpieczenstwa",
+  "imie": "Bruce Schneier",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Bruce_Schneier",
+  "status": "popraw",
+  "problemy": [
+   "„Applied Cryptography\", algorytm Blowfish i blog „Schneier on Security\" niepotwierdzone przez wstęp",
+   "„Doradza rządom i korporacjom\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Amerykański kryptograf, specjalista od bezpieczeństwa komputerowego i prywatności oraz pisarz (ur. 1963). Wykłada politykę publiczną w Harvard Kennedy School i jest związany z Berkman Klein Center for Internet and Society. Należy do zarządów Electronic Frontier Foundation, Access Now i The Tor Project. Autor kilku książek o bezpieczeństwie, w tym o kryptografii.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "specjalista-cyberbezpieczenstwa",
+  "imie": "Marian Rejewski",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Marian_Rejewski",
+  "status": "popraw",
+  "problemy": [
+   "„Jako pierwszy na świecie\" i „wyprzedzając Brytyjczyków o siedem lat\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski matematyk i kryptolog (1905 do 1980), który w 1932 roku złamał szyfr Enigmy, najważniejszej maszyny szyfrującej hitlerowskich Niemiec. Pracował w Biurze Szyfrów razem z Henrykiem Zygalskim i Jerzym Różyckim. Ich sukces umożliwił Brytyjczykom odczytywanie zaszyfrowanej korespondencji niemieckiej w czasie II wojny światowej.",
+  "proponowanyOpis": null,
+  "uwagi": "Urodzony w Bydgoszczy, zmarł w Warszawie."
+ },
+ {
+  "zawodId": "data-scientist",
+  "imie": "Andrew Ng",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Andrew_Ng",
+  "status": "popraw",
+  "problemy": [
+   "Wstęp: brytyjsko-amerykański (nie chińsko-amerykański)",
+   "Stanowisko: wstęp mówi o adiunkcie na Stanfordzie (dawniej profesor nadzwyczajny), a w Baidu o głównym naukowcu (Chief Scientist), nie o „szefie AI\"",
+   "Współtwórca Google Brain: wstęp mówi o współzałożycielu i szefie Google Brain"
+  ],
+  "proponowanyBio": "Brytyjsko-amerykański informatyk i przedsiębiorca (ur. 1976), zajmujący się uczeniem maszynowym i sztuczną inteligencją. Współzałożyciel i szef Google Brain, były główny naukowiec w Baidu. Adiunkt na Uniwersytecie Stanforda. Współzałożył Coursera i DeepLearning.AI. Jego kursy online ukończyło ponad 8 milionów uczniów.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "data-scientist",
+  "imie": "Przemysław Biecek",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Przemysław_Biecek",
+  "status": "popraw",
+  "problemy": [
+   "Ekspert XAI, pakiety DALEX i modelStudio, książki i gremia europejskie niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski matematyk i informatyk (ur. 1979), profesor nauk inżynieryjno-technicznych o specjalności statystyka matematyczna. Profesor Politechniki Warszawskiej i Uniwersytetu Warszawskiego.",
+  "proponowanyOpis": "Matematyk i informatyk, profesor",
+  "uwagi": "Wstęp krótki."
+ },
+ {
+  "zawodId": "data-scientist",
+  "imie": "Geoffrey Hinton",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Geoffrey_Hinton",
+  "status": "popraw",
+  "problemy": [
+   "„Twórca algorytmu propagacji wstecznej\" za mocne: wstęp mówi, że upowszechnił algorytm (z Rumelhartem i Williamsem), choć nie był pierwszym autorem tego podejścia",
+   "Daty pracy w Google (2013 do 2023) pominięte"
+  ],
+  "proponowanyBio": "Brytyjsko-kanadyjski informatyk i kognitywista (ur. 1947), znany z prac nad sztucznymi sieciami neuronowymi, nazywany „ojcem chrzestnym AI\". W 1986 roku wraz z Davidem Rumelhartem i Ronaldem Williamsem współautorstwem artykułu upowszechnił algorytm propagacji wstecznej. W 2018 roku otrzymał Nagrodę Turinga razem z Yoshuą Bengiem i Yannem LeCunem, a w 2024 roku Nagrodę Nobla w dziedzinie fizyki razem z Johnem Hopfieldem. Od 2013 do 2023 roku pracował w Google Brain i na Uniwersytecie w Toronto. Z Google odszedł, aby swobodnie mówić o zagrożeniach związanych ze sztuczną inteligencją.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "data-scientist",
+  "imie": "Yann LeCun",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Yann_LeCun",
+  "status": "popraw",
+  "problemy": [
+   "Stanowisko w Meta nieaktualne: wstęp mówi, że był głównym naukowcem AI w Meta do założenia Advanced Machine Intelligence Labs w grudniu 2025",
+   "Rozpoznawanie pisma w bankach niepotwierdzone przez wstęp (wstęp: LeNet do optycznego rozpoznawania znaków w Bell Labs)",
+   "„Twórca CNN\": wstęp mówi o kierowaniu rozwojem sieci LeNet"
+  ],
+  "proponowanyBio": "Francusko-amerykański informatyk (ur. 1960), zajmujący się sztuczną inteligencją, uczeniem maszynowym i widzeniem komputerowym. Profesor informatyki na Uniwersytecie Nowojorskim. Od 1988 roku w Bell Labs kierował rozwojem splotowych sieci neuronowych LeNet do optycznego rozpoznawania znaków. Był głównym naukowcem AI w Meta Platforms. W 2018 roku otrzymał Nagrodę Turinga razem z Yoshuą Bengiem i Geoffreyem Hintonem.",
+  "proponowanyOpis": "Informatyk, współtwórca splotowych sieci neuronowych",
+  "uwagi": "Stan na grudzień 2025 według wstępu en: współzałożyciel Advanced Machine Intelligence Labs."
+ },
+ {
+  "zawodId": "devops-engineer",
+  "imie": "Kelsey Hightower",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Kelsey_Hightower",
+  "status": "popraw",
+  "problemy": [
+   "Praca w Google Cloud, „Kubernetes the Hard Way\" i brak dyplomu niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Amerykański inżynier oprogramowania, developer advocate i prelegent (ur. 1981), znany z pracy z Kubernetes, oprogramowaniem open source i chmurą obliczeniową.",
+  "proponowanyOpis": "Inżynier, popularyzator Kubernetes",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "devops-engineer",
+  "imie": "Nicole Forsgren",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Nicole_Forsgren",
+  "status": "popraw",
+  "problemy": [
+   "Raport DORA i metryki (deployment frequency, lead time, MTTR, change failure rate) niepotwierdzone przez wstęp",
+   "Wstęp potwierdza książkę „Accelerate\" (Shingo Research and Professional Publication Award 2019)"
+  ],
+  "proponowanyBio": "Amerykańska menedżerka technologiczna, ekspertka od oceny wpływu IT i autorka. W 2020 roku została wiceprezeską do spraw badań i strategii w GitHub (Microsoft), później partnerką w Microsoft Research. Współautorka książki „Accelerate: The Science of Lean Software and DevOps\", która w 2019 roku otrzymała nagrodę Shingo Research and Professional Publication Award.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "administrator-systemow",
+  "imie": "Linus Torvalds",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Linus_Torvalds",
+  "status": "popraw",
+  "problemy": [
+   "Linux napędza 90% serwerów, wszystkie superkomputery i Androida: niepotwierdzone przez wstęp",
+   "„Fundament informatyki\" brzmi ogólnikowo",
+   "Obywatelstwo amerykańskie niepotwierdzone (wstęp: fiński programista)"
+  ],
+  "proponowanyBio": "Fiński programista (ur. 1969 w Helsinkach), należący do szwedzkojęzycznej mniejszości Finlandii. Twórca jądra Linux oraz systemu kontroli wersji Git. Stworzenie jądra Linux dało impuls do szybkiego rozwoju wolnego oprogramowania.",
+  "proponowanyOpis": "Twórca jądra Linux i systemu Git",
+  "uwagi": "Duplikat osoby z zawodu #4."
+ },
+ {
+  "zawodId": "administrator-systemow",
+  "imie": "Dennis Ritchie",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Dennis_Ritchie",
+  "status": "popraw",
+  "problemy": [
+   "Nagroda Turinga 1983 niepotwierdzona przez wstęp",
+   "„Fundament większości systemów i infrastruktury IT\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Amerykański informatyk (1941 do 2011). Razem z wieloletnim współpracownikiem Kenem Thompsonem stworzył system operacyjny Unix oraz języki programowania C i B.",
+  "proponowanyOpis": null,
+  "uwagi": "Wstęp en: zm. ok. 12 października 2011."
+ },
+ {
+  "zawodId": "administrator-systemow",
+  "imie": "Brendan Gregg",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Brendan_Gregg",
+  "status": "popraw",
+  "problemy": [
+   "Stanowisko w Intel, narzędzia BPF, „Systems Performance\" i flame graphs niepotwierdzone przez wstęp",
+   "Bio podaje tylko Intel i Netflix, a wstęp wymienia też Sun Microsystems, Oracle i Joyent"
+  ],
+  "proponowanyBio": "Australijski inżynier komputerowy, znany z prac nad wydajnością systemów. Pracował w Intel, Netflix, Sun Microsystems, Oracle i Joyent. Urodził się w Newcastle w Nowej Południowej Walii. W 2013 roku otrzymał nagrodę LISA Outstanding Achievement Award od USENIX za wkład w analizę wydajności systemów.",
+  "proponowanyOpis": "Inżynier od wydajności systemów",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "technik-informatyk",
+  "imie": "Steve Wozniak",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Steve_Wozniak",
+  "status": "popraw",
+  "problemy": [
+   "Wstęp mówi o „jednych z najwcześniejszych komputerów osobistych\", nie o „pierwszych masowych\"",
+   "„Własnoręcznie zaprojektował hardware i software\" niepotwierdzone",
+   "„Ojciec rewolucji PC\", „geniusz\" to oceny bez oparcia"
+  ],
+  "proponowanyBio": "Amerykański inżynier i wynalazca (ur. 1950 w San Jose). Projektant i konstruktor komputerów Apple I i Apple II, uważanych za jedne z najwcześniejszych komputerów osobistych. Jeden z trzech założycieli firmy Apple Computer.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "technik-informatyk",
+  "imie": "Ada Lovelace",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+  "status": "popraw",
+  "problemy": [
+   "Patronka języka Ada i „napisała algorytm\" niepotwierdzone przez wstęp",
+   "Wstęp mówi „uznawana często za pierwszą programistkę\" i o możliwości kodowania muzyki"
+  ],
+  "proponowanyBio": "Angielska matematyczka i pisarka (1815 do 1852), znana z pracy nad maszyną analityczną Charlesa Babbage'a. Jako pierwsza dostrzegła, że maszyna może służyć nie tylko do obliczeń, m.in. do kodowania muzyki. Często uważana za pierwszą programistkę. Jedyne legalne dziecko poety Lorda Byrona.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "technik-informatyk",
+  "imie": "Andrew S. Tanenbaum",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum",
+  "status": "popraw",
+  "problemy": [
+   "Inspiracja dla Torvaldsa niepotwierdzona przez wstęp",
+   "Wstęp: amerykański z urodzenia informatyk holenderski, emerytowany profesor Vrije Universiteit"
+  ],
+  "proponowanyBio": "Amerykański z urodzenia, holenderski informatyk (ur. 1944), emerytowany profesor informatyki na Vrije Universiteit Amsterdam. Autor MINIX, wolnego systemu typu Unix do celów dydaktycznych, i kilku podręczników informatyki uważanych za standardowe. Od 2004 roku prowadzi serwis Electoral-vote.com.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "technik-informatyk",
+  "imie": "Grace Hopper",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Grace_Hopper",
+  "status": "popraw",
+  "problemy": [
+   "Pierwszy kompilator: wstęp mówi, że jej kompilator zamieniał angielskie terminy na kod maszynowy i że kierowała pracami nad jednym z pierwszych kompilatorów COBOL",
+   "Spopularyzowanie terminu „bug\" niepotwierdzone przez wstęp",
+   "Wstęp: Presidential Medal of Freedom przyznany pośmiertnie w 2016 roku"
+  ],
+  "proponowanyBio": "Amerykańska informatyczka, matematyczka i kontradmirał marynarki wojennej USA (1906 do 1992), pionierka programowania. Opracowała teorię języków programowania niezależnych od maszyny, na podstawie której powstały FLOW-MATIC i COBOL. Była jedną z pierwszych programistek komputera Harvard Mark I. W 2016 roku pośmiertnie otrzymała Presidential Medal of Freedom.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "programista-gier",
+  "imie": "Marcin Iwiński",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Marcin_Iwiński",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Duplikat osoby z zawodu #5. Zgodne ze wstępem."
+ },
+ {
+  "zawodId": "programista-gier",
+  "imie": "Adrian Chmielarz",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Adrian_Chmielarz",
+  "status": "popraw",
+  "problemy": [
+   "Studia People Can Fly (Painkiller, Bulletstorm) i The Astronauts (The Vanishing of Ethan Carter) niepotwierdzone przez wstęp",
+   "Opis „Twórca Painkiller i The Vanishing of Ethan Carter\" niepotwierdzony"
+  ],
+  "proponowanyBio": "Polski projektant, programista i producent gier komputerowych (ur. 1971). Brał udział w stworzeniu pierwszej polskiej gry przygodowej na komputery PC, „Tajemnica statuetki\".",
+  "proponowanyOpis": "Polski projektant i producent gier",
+  "uwagi": "Wstęp krótki; współzałożycielstwo studiów wymaga potwierdzenia."
+ },
+ {
+  "zawodId": "programista-gier",
+  "imie": "Hideo Kojima",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Hideo_Kojima",
+  "status": "ok",
+  "problemy": [
+   "Wstęp wymienia serię Metal Gear (nie „Metal Gear Solid\" osobno)"
+  ],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne: ur. 1963, Death Stranding, Kojima Productions."
+ },
+ {
+  "zawodId": "programista-gier",
+  "imie": "Hideo Kojima",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Hideo_Kojima",
+  "status": "popraw",
+  "problemy": [
+   "Przydomek „Hitchcock gier wideo\" niepotwierdzony przez wstęp (wstęp: filmowe podejście do narracji, pionier autorskich gier)",
+   "Wstęp: Metal Gear (1987) położył podwaliny pod gatunek gier stealth"
+  ],
+  "proponowanyBio": "Japoński projektant gier, scenarzysta, reżyser i producent (ur. 1963). Najbardziej znany z serii Metal Gear. Jego gry cechuje filmowość wynikająca z zamiłowania do filmu i literatury. W 1986 roku zaczął pracę w Konami, a w 2015 roku, po odejściu z firmy, ponownie utworzył niezależne studio Kojima Productions. Twórca gry Death Stranding (2019).",
+  "proponowanyOpis": null,
+  "uwagi": "Duplikat osoby z zawodu #107."
+ },
+ {
+  "zawodId": "ekonomista",
+  "imie": "Leszek Balcerowicz",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Leszek_Balcerowicz",
+  "status": "popraw",
+  "problemy": [
+   "Profesura w SGH niepotwierdzona (wstęp: nauczyciel akademicki, doktor habilitowany)",
+   "„Uczynił Polskę jedną z najszybciej rosnących gospodarek Europy\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Polski polityk i ekonomista (ur. 1947 w Lipnie), doktor habilitowany nauk ekonomicznych. Wicepremier i minister finansów w rządach Mazowieckiego, Bieleckiego i Buzka, prezes Narodowego Banku Polskiego w latach 2001 do 2007. Tak zwany plan Balcerowicza umożliwił rozpoczęcie w latach 1990 do 1991 szybkiego programu reform i przejście od gospodarki planowej do rynkowej. Kawaler Orderu Orła Białego.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "ekonomista",
+  "imie": "Marek Belka",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Marek_Belka",
+  "status": "popraw",
+  "problemy": [
+   "Profesura na Uniwersytecie Łódzkim niepotwierdzona (wstęp: profesor nauk ekonomicznych, nauczyciel akademicki)",
+   "Praca w MFW niepotwierdzona (wstęp: urzędnik międzynarodowych instytucji finansowych)"
+  ],
+  "proponowanyBio": "Polski ekonomista i polityk (ur. 1952 w Łodzi), profesor nauk ekonomicznych i urzędnik w międzynarodowych instytucjach finansowych. Prezes Rady Ministrów w latach 2004 do 2005, prezes Narodowego Banku Polskiego w latach 2010 do 2016, poseł do Parlamentu Europejskiego IX kadencji (2019 do 2024).",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "ekonomista",
+  "imie": "Adam Smith",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Adam_Smith",
+  "status": "popraw",
+  "problemy": [
+   "„Niewidzialna ręka\" i podział pracy niepotwierdzone przez wstęp",
+   "Wstęp: wykładał filozofię moralną przez 13 lat w Glasgow (nie tytuł profesora)",
+   "„Teorie wolnego rynku kształtują współczesną ekonomię\" ogólnikowe"
+  ],
+  "proponowanyBio": "Szkocki myśliciel i filozof (1723 do 1790), autor „Badań nad naturą i przyczynami bogactwa narodów\" (1776). Przez trzynaście lat wykładał filozofię moralną na University of Glasgow. Jego prace należą do najbardziej znanych opracowań o gospodarce rynkowej, kapitalizmie i liberalizmie.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "ekonomista",
+  "imie": "Milton Friedman",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Milton_Friedman",
+  "status": "popraw",
+  "problemy": [
+   "„Twórca monetaryzmu\": wstęp mówi, że szkoła chicagowska odrzuciła keynesizm na rzecz monetaryzmu, wraz z Georgem Stiglerem był jednym z jej liderów",
+   "„Wolny wybór\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Amerykański ekonomista i statystyk (1912 do 2006), laureat Nagrody Nobla w dziedzinie ekonomii w 1976 roku za badania nad analizą konsumpcji, historią i teorią pieniądza oraz złożonością polityki stabilizacyjnej. Razem z Georgem Stiglerem należał do intelektualnych liderów szkoły chicagowskiej. Doradzał prezydentowi Ronaldowi Reaganowi i brytyjskiej premier Margaret Thatcher.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "doradca-finansowy",
+  "imie": "Warren Buffett",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Warren_Buffett",
+  "status": "popraw",
+  "problemy": [
+   "„Wyrocznia z Omaha\", value investing i zobowiązanie The Giving Pledge (99%) niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Amerykański inwestor giełdowy, przedsiębiorca i filantrop (ur. 1930 w Omaha). Do 2025 roku dyrektor generalny holdingu Berkshire Hathaway, uważany za jednego z najlepszych inwestorów na świecie. Od lat znajduje się na liście najbogatszych ludzi świata magazynu „Forbes\".",
+  "proponowanyOpis": null,
+  "uwagi": "Wstęp pl; bio nie zawierało informacji o odejściu ze stanowiska w 2025 roku."
+ },
+ {
+  "zawodId": "doradca-finansowy",
+  "imie": "Benjamin Graham",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Benjamin_Graham",
+  "status": "popraw",
+  "problemy": [
+   "Wstęp: angielsko-amerykański analityk finansowy, ekonomista, księgowy, inwestor i wykładowca",
+   "„Analiza fundamentalna\" i „metody stosowane na całym świecie\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Angielsko-amerykański analityk finansowy, ekonomista, księgowy, inwestor i wykładowca (1894 do 1976), uznawany za „ojca inwestowania w wartość\". Wraz z Davidem Doddem napisał „Security Analysis\" (1934), a samodzielnie „Inteligentnego inwestora\" (1949). Przez wiele lat uczył inwestowania w Columbia Business School, gdzie jednym z jego studentów był Warren Buffett.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "doradca-finansowy",
+  "imie": "Suze Orman",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Suze_Orman",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne: The Suze Orman Show, dziesięć kolejnych bestsellerów NYT, dwie nagrody Emmy."
+ },
+ {
+  "zawodId": "specjalista-hr",
+  "imie": "Dave Ulrich",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Dave_Ulrich",
+  "status": "popraw",
+  "problemy": [
+   "Model ról HR (HR Business Partner, Centers of Excellence, Shared Services) niepotwierdzony przez wstęp",
+   "„Ojciec nowoczesnego HR\" niepotwierdzone (wstęp: książki, które ukształtowały zawód HR)"
+  ],
+  "proponowanyBio": "Amerykański profesor biznesu na Ross School of Business Uniwersytetu Michigan (ur. 1953), autor, mówca i konsultant, współzałożyciel The RBL Group. Napisał z współpracownikami ponad 30 książek, które wpłynęły na kształt zawodu HR. Przez 17 lat był członkiem zarządu Herman Miller.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "specjalista-hr",
+  "imie": "Laszlo Bock",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Laszlo_Bock",
+  "status": "popraw",
+  "problemy": [
+   "Stanowisko: wstęp mówi Senior Vice President of People Operations w Google, bez lat 2006 do 2016",
+   "„Work Rules!\" niepotwierdzone przez wstęp",
+   "Humu: wstęp mówi „współzałożyciel i były CEO\", bio podaje jako obecne stanowisko",
+   "Pochodzenie: wstęp mówi o amerykańskim biznesmenie urodzonym w Rumunii, pochodzenia węgierskiego"
+  ],
+  "proponowanyBio": "Amerykański biznesmen węgierskiego pochodzenia, urodzony w Rumunii (ur. 1972). Współzałożyciel i były dyrektor generalny Humu. Wcześniej starszy wiceprezes do spraw People Operations w Google.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "specjalista-hr",
+  "imie": "Daniel Goleman",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Daniel_Goleman",
+  "status": "popraw",
+  "problemy": [
+   "Teza, że EQ jest lepszym predyktorem sukcesu niż IQ, i rola konsultanta korporacji niepotwierdzone przez wstęp",
+   "„Zmienił podejście HR do rekrutacji\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Amerykański psycholog, autor i dziennikarz naukowy (ur. 1946). Przez dwanaście lat pisał dla „New York Timesa\" o mózgu i naukach behawioralnych. Jego książka „Inteligencja emocjonalna\" z 1995 roku przez półtora roku figurowała na liście bestsellerów „New York Timesa\" i ukazała się w 40 językach.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "specjalista-hr",
+  "imie": "Patty McCord",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Patty_McCord",
+  "status": "popraw",
+  "problemy": [
+   "„Netflix Culture Deck\" obejrzany przez 20 milionów osób niepotwierdzone przez wstęp",
+   "„Zrewolucjonizowała podejście do zarządzania talentami\" niepotwierdzone",
+   "Opis „twórczyni kultury organizacyjnej Netflix\" za mocny"
+  ],
+  "proponowanyBio": "Amerykańska konsultantka i menedżerka HR. Była głównym specjalistą ds. talentów (chief talent officer) w Netflix, do którego dołączyła w 1998 roku. W 2012 roku została zwolniona w związku z przejściem firmy od wysyłkowego wypożyczania płyt DVD do streamingu. W 2018 roku wydała książkę „Powerful: Building a Culture of Freedom and Responsibility\".",
+  "proponowanyOpis": "Była dyrektorka ds. talentów w Netflix",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "specjalista-marketingu",
+  "imie": "Seth Godin",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Seth_Godin",
+  "status": "popraw",
+  "problemy": [
+   "„Purple Cow\", „Tribes\" i „Linchpin\" niepotwierdzone przez wstęp",
+   "„Rock and Roll Hall of Fame for Marketing\" niepotwierdzone przez wstęp",
+   "„Jeden z najpopularniejszych blogów biznesowych\" niepotwierdzone (wstęp: blog wymieniony przez „Time\" wśród najlepszych blogów 2009)"
+  ],
+  "proponowanyBio": "Amerykański autor książek o marketingu, bloger i mówca (ur. 1960 w Mount Vernon), popularyzator pojęcia permission marketing. W 1998 roku sprzedał swoją firmę Yoyodyne, jedną z pierwszych firm marketingu internetowego, Yahoo!, gdzie został wiceprezesem do spraw marketingu bezpośredniego. Jego blog „Time\" w 2009 roku wymienił wśród najlepszych blogów roku.",
+  "proponowanyOpis": "Autor książek o marketingu i bloger",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "specjalista-marketingu",
+  "imie": "Paweł Tkaczyk",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Paweł_Tkaczyk",
+  "status": "popraw",
+  "problemy": [
+   "Wstęp: właściciel i założyciel firmy Midea (nie „współzałożyciel agencji MIDEA\")",
+   "„Łączy marketing z psychologią i kulturą\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Polski ekspert od marketingu i budowania marki (ur. 1978), głównie przez grywalizację i storytelling. Autor książek o marketingu, bloger i prelegent TEDx. Właściciel firmy Midea, którą założył w 2000 roku, jeszcze będąc na studiach. Jego pierwsza książka „Zakamarki marki\" (2011) została bestsellerem i zdobyła tytuł marketingowej książki roku.",
+  "proponowanyOpis": null,
+  "uwagi": "Wstęp potwierdza też książki o grywalizacji i narratologii."
+ },
+ {
+  "zawodId": "specjalista-marketingu",
+  "imie": "Philip Kotler",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Philip_Kotler",
+  "status": "popraw",
+  "problemy": [
+   "„Przetłumaczony na 25 języków\" niepotwierdzone przez wstęp",
+   "Wstęp: popularyzator pojęcia marketing mix; koncepcja „4P\" nie występuje jako taka",
+   "Wstęp: autor, konsultant i emerytowany profesor marketingu, nie „ekonomista\""
+  ],
+  "proponowanyBio": "Amerykański autor książek o marketingu, konsultant i emerytowany profesor (ur. 1931). W latach 1962 do 2018 był profesorem marketingu międzynarodowego w Kellogg School of Management na Northwestern University. Spopularyzował pojęcie marketing mix. Napisał ponad 80 książek, m.in. „Marketing Management\".",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "specjalista-marketingu",
+  "imie": "David Ogilvy",
+  "sourceUrl": "https://en.wikipedia.org/wiki/David_Ogilvy_(businessman)",
+  "status": "popraw",
+  "problemy": [
+   "Wstęp: brytyjski potentat reklamowy (obywatelstwo amerykańskie niepotwierdzone)",
+   "Książka „Ogilvy o reklamie\" i „zasady obowiązują do dziś\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Brytyjski potentat reklamowy (1911 do 1999), założyciel agencji Ogilvy and Mather. Wyszkolony w organizacji badawczej Gallupa, tworzył skuteczne kampanie reklamowe dla marek takich jak Rolls-Royce, mydło Dove i koszule Hathaway. Znany jako „ojciec reklamy\".",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "specjalista-pr",
+  "imie": "Edward Bernays",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Edward_Bernays",
+  "status": "popraw",
+  "problemy": [
+   "Błąd: bio nazywa go bratankiem Zygmunta Freuda, a wstęp mówi, że Freud był jego wujem",
+   "Kampania nakłaniająca kobiety do palenia i książka „Propaganda\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Austriacko-amerykański pionier public relations i propagandy (1891 do 1995), określony w nekrologu jako „ojciec public relations\". Połączył idee Gustave'a Le Bona i Wilfreda Trottera o psychologii tłumu z psychoanalitycznymi ideami swojego wuja, Zygmunta Freuda. W 2002 roku w dokumencie Adama Curtisa dla BBC „The Century of the Self\" wskazano go jako twórcę nowoczesnego public relations. Magazyn „Life\" uznał go za jednego ze 100 najbardziej wpływowych Amerykanów XX wieku.",
+  "proponowanyOpis": null,
+  "uwagi": "Wujem w sensie rodzinnym jest Freud (siostrzeniec); bratanek byłby błędem."
+ },
+ {
+  "zawodId": "specjalista-pr",
+  "imie": "Krystyna Janda",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Krystyna_Janda",
+  "status": "popraw",
+  "problemy": [
+   "Opis i bio: „mistrzowsko zarządza PR swoich teatrów\" niepotwierdzone przez wstęp",
+   "Wstęp: współzałożycielka i prezeska Fundacji Krystyny Jandy na rzecz Kultury oraz dyrektorka artystyczna teatrów Polonia i Och-Teatr",
+   "Rola w „Człowieku z marmuru\" i „Przesłuchaniu\" potwierdzona"
+  ],
+  "proponowanyBio": "Polska aktorka filmowa i teatralna, reżyserka, prozaiczka, felietonistka i piosenkarka (ur. 1952 w Starachowicach). Współzałożycielka i prezeska Fundacji Krystyny Jandy na rzecz Kultury, dyrektorka artystyczna teatrów Polonia i Och-Teatr w Warszawie. Rozgłos przyniosła jej główna rola w filmie Andrzeja Wajdy „Człowiek z marmuru\" (1976), a międzynarodowe uznanie rola w „Przesłuchaniu\" Ryszarda Bugajskiego (1982).",
+  "proponowanyOpis": "Aktorka i dyrektorka artystyczna teatrów Polonia i Och-Teatr",
+  "uwagi": "Powiązanie z zawodem (PR) opiera się na opisie niepotwierdzonym przez wstęp; rozważyć usunięcie z tego zawodu."
+ },
+ {
+  "zawodId": "specjalista-pr",
+  "imie": "Ivy Lee",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Ivy_Lee",
+  "status": "popraw",
+  "problemy": [
+   "Doradztwo Rockefellerowi „po masakrze w Ludlow\" i „Declaration of Principles\" niepotwierdzone przez wstęp",
+   "Wstęp: założyciel nowoczesnego PR, klienci: koleje, Rockefeller, IG Farben"
+  ],
+  "proponowanyBio": "Amerykański specjalista od public relations (1877 do 1934), jeden z założycieli nowoczesnego PR. Najbardziej znany z pracy dla rodziny Rockefellerów. Jego pierwszym dużym klientem była Pennsylvania Railroad. Był pionierem stosowania firmowych magazynów dla pracowników, biuletynów dla kadry zarządzającej, raportów dla akcjonariuszy i komunikatów prasowych. W czasie I wojny światowej był dyrektorem do spraw publicity w Czerwonym Krzyżu.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "doradca-podatkowy",
+  "imie": "Witold Modzelewski",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Witold_Modzelewski",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne ze wstępem (ur. 1956, profesor UW, doradca podatkowy, prezes Instytutu Studiów Podatkowych)."
+ },
+ {
+  "zawodId": "doradca-podatkowy",
+  "imie": "Adam Smith",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Adam_Smith",
+  "status": "popraw",
+  "problemy": [
+   "Cztery zasady dobrego systemu podatkowego (kanony Smitha) niepotwierdzone przez wstęp",
+   "Opis „teorii podatków\" niepotwierdzony"
+  ],
+  "proponowanyBio": "Szkocki myśliciel i filozof (1723 do 1790), autor „Badań nad naturą i przyczynami bogactwa narodów\" (1776). Przez trzynaście lat wykładał filozofię moralną na University of Glasgow.",
+  "proponowanyOpis": "Szkocki filozof, autor „Bogactwa narodów\"",
+  "uwagi": "Duplikat osoby z zawodu #111; kanony podatkowe Smitha wymagają potwierdzenia w treści artykułu."
+ },
+ {
+  "zawodId": "doradca-podatkowy",
+  "imie": "Arthur Laffer",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Laffer",
+  "status": "popraw",
+  "problemy": [
+   "Współtworzenie „reaganomiki\" niepotwierdzone (wstęp: członek Economic Policy Advisory Board Reagana 1981 do 1989)",
+   "„Wpłynął na politykę podatkową wielu krajów\" niepotwierdzone",
+   "Medal Presidential Medal of Freedom potwierdzony (2019, prezydent Trump)"
+  ],
+  "proponowanyBio": "Amerykański ekonomista i autor (ur. 1940), znany z krzywej Laffera, która ilustruje hipotezę o istnieniu stawki podatkowej, przy której wpływy budżetowe są największe. W latach 1981 do 1989 był członkiem Economic Policy Advisory Board prezydenta Ronalda Reagana. W 2019 roku prezydent Donald Trump przyznał mu Presidential Medal of Freedom.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "biegly-rewident",
+  "imie": "William Welch Deloitte",
+  "sourceUrl": "https://en.wikipedia.org/wiki/William_Welch_Deloitte",
+  "status": "popraw",
+  "problemy": [
+   "„Jeden z pierwszych niezależnych audytorów\" i standardy rewizji niepotwierdzone przez wstęp",
+   "„Dziś jedna z największych firm\" niepotwierdzone (wstęp: z firmy powstał Deloitte Touche Tohmatsu w USA)"
+  ],
+  "proponowanyBio": "Brytyjski księgowy (1818 do 1898), urodzony w Londynie, założyciel firmy usługowej, z której później powstał Deloitte Touche Tohmatsu w Stanach Zjednoczonych i Coopers and Lybrand Deloitte w Wielkiej Brytanii. Uważany za jednego z ojców zawodu księgowego.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "psychoterapeuta",
+  "imie": "Irvin Yalom",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Irvin_Yalom",
+  "status": "popraw",
+  "problemy": [
+   "Tytuły „Kat miłości\", „Kiedy Nietzsche szlochał\", „Patrząc w słońce\" niepotwierdzone przez wstęp",
+   "„Profesor emeritus\" niepotwierdzone (wstęp: profesor psychiatrii na Stanfordzie)"
+  ],
+  "proponowanyBio": "Amerykański lekarz psychiatra i psychoterapeuta (ur. 1931 w Waszyngtonie), profesor psychiatrii na Uniwersytecie Stanforda, jeden z głównych przedstawicieli terapii egzystencjalnej.",
+  "proponowanyOpis": "Psychiatra, przedstawiciel terapii egzystencjalnej",
+  "uwagi": "Wstęp pl krótki."
+ },
+ {
+  "zawodId": "psychoterapeuta",
+  "imie": "Jerzy Mellibruda",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Jerzy_Mellibruda",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Duplikat osoby z zawodu #1. Zgodne ze wstępem."
+ },
+ {
+  "zawodId": "psychoterapeuta",
+  "imie": "Carl Rogers",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Carl_Rogers",
+  "status": "popraw",
+  "problemy": [
+   "Trzykrotna nominacja do Pokojowej Nagrody Nobla niepotwierdzona przez wstęp",
+   "„Zrewolucjonizowało psychoterapię na całym świecie\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Amerykański psycholog (1902 do 1987), jeden z założycieli psychologii humanistycznej, znany szczególnie z psychoterapii skoncentrowanej na osobie. Uważany za jednego z ojców badań nad psychoterapią. W 1956 roku otrzymał nagrodę APA za wybitny wkład naukowy, a w 1972 roku nagrodę APA za wybitny wkład zawodowy.",
+  "proponowanyOpis": null,
+  "uwagi": "Duplikat osoby z zawodu #2."
+ },
+ {
+  "zawodId": "psychoterapeuta",
+  "imie": "Aaron Beck",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Aaron_T._Beck",
+  "status": "popraw",
+  "problemy": [
+   "„Najskuteczniejsza udokumentowana metoda psychoterapii\" niepotwierdzone przez wstęp",
+   "BDI jako „najczęściej stosowane narzędzie diagnostyczne na świecie\": wstęp mówi „jedno z najczęściej stosowanych narzędzi\""
+  ],
+  "proponowanyBio": "Amerykański psychiatra (1921 do 2021), profesor psychiatrii na University of Pennsylvania, uważany za ojca terapii poznawczej i terapii poznawczo-behawioralnej (CBT). Opracował m.in. Inwentarz Depresji Becka (BDI), jedno z najczęściej stosowanych narzędzi do pomiaru nasilenia depresji. W 1994 roku wraz z córką, psycholożką Judith S. Beck, założył Beck Institute for Cognitive Behavior Therapy.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "psychiatra",
+  "imie": "Antoni Kępiński",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Antoni_Kępiński",
+  "status": "popraw",
+  "problemy": [
+   "Wstęp mówi o koncepcji metabolizmu energetyczno-informacyjnego i psychiatrii aksjologicznej, bio o „metabolizmie informacyjnym\" i „psychiatrii humanistycznej\"",
+   "Tytuły „Psychopatologia nerwic\", „Melancholia\", „Lęk\" oraz pobyt w obozach (Miranda de Ebro, Sachsenhausen) niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski lekarz psychiatra, naukowiec, humanista i filozof (1918 do 1972), urodzony w Dolinie, zmarły w Krakowie. Jeden z najbardziej znanych polskich psychiatrów, twórca koncepcji metabolizmu energetyczno-informacyjnego i psychiatrii aksjologicznej.",
+  "proponowanyOpis": null,
+  "uwagi": "Informacja o Sachsenhausen może być błędna; wymaga sprawdzenia w pełnym artykule."
+ },
+ {
+  "zawodId": "psychiatra",
+  "imie": "Sigmund Freud",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Sigmund_Freud",
+  "status": "popraw",
+  "problemy": [
+   "„Psychiatra\" niepotwierdzone (wstęp: lekarz, neurolog)",
+   "Podświadomość, kompleks Edypa, wolne skojarzenia i „Objaśnianie marzeń sennych\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Austriacki lekarz żydowskiego pochodzenia i neurolog (1856 do 1939), twórca psychoanalizy. Jego koncepcje funkcjonowania umysłu, odrzucające racjonalność ludzkich wyborów na rzecz czynników irracjonalnych i emocjonalnych, wywarły duży wpływ na filozofów, uczonych i artystów przełomu XIX i XX wieku oraz na nauki o kulturze i religioznawstwo.",
+  "proponowanyOpis": null,
+  "uwagi": "Urodzony w Příborze, zmarł w Londynie."
+ },
+ {
+  "zawodId": "psychiatra",
+  "imie": "Carl Jung",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Carl_Jung",
+  "status": "popraw",
+  "problemy": [
+   "„Uczeń i rywal Freuda\" niepotwierdzone przez wstęp (wstęp: przyjaźń i korespondencja)",
+   "Nieświadomość zbiorowa niepotwierdzona (wstęp: archetypy; typy osobowości: introwersja wymieniona dalej w artykule)"
+  ],
+  "proponowanyBio": "Szwajcarski psychiatra, psychoterapeuta i psycholog (1875 do 1961), założyciel szkoły psychologii analitycznej, najbardziej znany z koncepcji archetypów. Autor ponad dwudziestu książek. Pracował w szpitalu psychiatrycznym Burghölzli w Zurychu pod kierunkiem Eugena Bleulera, a następnie przyjaźnił się z Sigmundem Freudem i prowadził z nim obszerną korespondencję.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "psychiatra",
+  "imie": "Kay Redfield Jamison",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Kay_Redfield_Jamison",
+  "status": "popraw",
+  "problemy": [
+   "Wstęp: psycholożka kliniczna i pisarka, nie psychiatra",
+   "„Niespokojny umysł\" i „zmieniła postrzeganie chorób psychicznych na świecie\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Amerykańska psycholożka kliniczna i pisarka (ur. 1946). Jej praca koncentruje się na chorobie afektywnej dwubiegunowej, na którą choruje od wczesnej dorosłości. Jest profesorką (Dalio Professor in Mood Disorders and Psychiatry) w Johns Hopkins University School of Medicine i honorową profesorką literatury angielskiej na Uniwersytecie St Andrews.",
+  "proponowanyOpis": "Psycholożka kliniczna, badaczka choroby dwubiegunowej",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "pediatra",
+  "imie": "Janusz Korczak",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Janusz_Korczak",
+  "status": "popraw",
+  "problemy": [
+   "„Król Maciuś Pierwszy\" i dobrowolne towarzyszenie wychowankom niepotwierdzone przez wstęp",
+   "Niepewne daty"
+  ],
+  "proponowanyBio": "Polsko-żydowski lekarz, pedagog, pisarz i działacz społeczny, właściwie Henryk Goldszmit (1878 lub 1879 do 1942). Twórca systemu pracy z dziećmi opartego na partnerstwie i samorządności, prekursor działań na rzecz praw dziecka. W 1926 roku zainicjował pismo „Mały Przegląd\". Zmarł w sierpniu 1942 roku, prawdopodobnie w Treblince. Pośmiertnie odznaczony Orderem Orła Białego.",
+  "proponowanyOpis": null,
+  "uwagi": "Duplikat osoby z zawodu #10."
+ },
+ {
+  "zawodId": "pediatra",
+  "imie": "Benjamin Spock",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Benjamin_Spock",
+  "status": "popraw",
+  "problemy": [
+   "„Dr. Spock's Baby and Child Care\" i „ponad 50 milionów egzemplarzy\" niepotwierdzone przez wstęp",
+   "Pominięty złoty medal olimpijski (Paryż 1924, wioślarstwo, ósemki)"
+  ],
+  "proponowanyBio": "Amerykański pediatra i autor podręczników wychowania dzieci (1903 do 1998), mistrz olimpijski w wioślarstwie (ósemka, Paryż 1924). W 1962 roku poparł pomysł rozbrojenia atomowego, a później był jednym z pierwszych krytyków zaangażowania USA w wojnę wietnamską. W 1972 roku kandydował na prezydenta z ramienia Partii Ludowej.",
+  "proponowanyOpis": "Pediatra i autor podręczników wychowania dzieci",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "pediatra",
+  "imie": "Virginia Apgar",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Virginia_Apgar",
+  "status": "popraw",
+  "problemy": [
+   "„Pierwsza kobieta profesor na Columbia University\" niepotwierdzone przez wstęp",
+   "„Uratowała miliony dzieci\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Amerykańska lekarka, anestezjolożka położnicza i badaczka (1909 do 1974), najbardziej znana jako wynalazczyni skali Apgar. W 1952 roku opracowała 10-punktową skalę oceny stanu noworodka, stosowaną po minucie i po pięciu minutach od urodzenia. Skala ocenia oddech, kolor skóry, odruchy, ruchy i tętno. Była liderką w dziedzinach anestezjologii i teratologii.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "chirurg",
+  "imie": "Zbigniew Religa",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Zbigniew_Religa",
+  "status": "popraw",
+  "problemy": [
+   "Pierwszy udany przeszczep serca w Polsce (1985, Zabrze) niepotwierdzony przez wstęp",
+   "„23-godzinna operacja\" i „ikona medycyny\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Polski kardiochirurg i polityk (1938 do 2009), profesor nauk medycznych. Był senatorem III i V kadencji, ministrem zdrowia w rządach Kazimierza Marcinkiewicza i Jarosława Kaczyńskiego, posłem na Sejm VI kadencji i kandydatem na prezydenta w 2005 roku. Kawaler Orderu Orła Białego.",
+  "proponowanyOpis": null,
+  "uwagi": "Duplikat osoby z zawodu #9."
+ },
+ {
+  "zawodId": "chirurg",
+  "imie": "Christiaan Barnard",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Christiaan_Barnard",
+  "status": "popraw",
+  "problemy": [
+   "Data 3 grudnia 1967, Louis Washkansky, 18 dni i „tysiące przeszczepów rocznie\" niepotwierdzone przez wstęp pl (potwierdza je wstęp en)"
+  ],
+  "proponowanyBio": "Południowoafrykański kardiochirurg (1922 do 2001), kierownik ośrodka badań i chirurgii serca na uniwersytecie w Kapsztadzie. Jako pierwszy na świecie przeprowadził transplantację ludzkiego serca.",
+  "proponowanyOpis": null,
+  "uwagi": "Duplikat osoby z zawodu #148; dla szczegółów można zmienić sourceUrl na wersję angielską."
+ },
+ {
+  "zawodId": "chirurg",
+  "imie": "Ludwik Rydygier",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Ludwik_Rydygier",
+  "status": "popraw",
+  "problemy": [
+   "Pierwsza na świecie resekcja żołądka w 1880 roku i wyprzedzenie Billrotha niepotwierdzone przez wstęp",
+   "Profesura UJ i Lwowska niepotwierdzona (wstęp: profesor, generał brygady WP)"
+  ],
+  "proponowanyBio": "Polski lekarz, chirurg i profesor doktor medycyny (1850 do 1920), generał brygady Wojska Polskiego. Urodził się w Dusocinie, zmarł we Lwowie.",
+  "proponowanyOpis": "Polski chirurg, profesor",
+  "uwagi": "Wstęp pl bardzo krótki."
+ },
+ {
+  "zawodId": "chirurg",
+  "imie": "Atul Gawande",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Atul_Gawande",
+  "status": "popraw",
+  "problemy": [
+   "„Zmniejszyła śmiertelność pooperacyjną o 47%\" i doradztwo WHO niepotwierdzone przez wstęp",
+   "„Bestsellerów\" niepotwierdzone",
+   "Pominięte funkcje: CEO Haven (2018 do 2020), USAID (2022 do 2025)"
+  ],
+  "proponowanyBio": "Amerykański chirurg, pisarz i badacz zdrowia publicznego (ur. 1965). Pracuje w Brigham and Women's Hospital w Bostonie, jest profesorem na Harvard T.H. Chan School of Public Health i Harvard Medical School. Autor książek „Complications\", „Better\", „The Checklist Manifesto\" i „Being Mortal\". W latach 2018 do 2020 był dyrektorem generalnym firmy Haven, a od 2022 do 2025 roku zastępcą administratora USAID.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "kardiolog",
+  "imie": "Zbigniew Religa",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Zbigniew_Religa",
+  "status": "popraw",
+  "problemy": [
+   "Pierwszy udany przeszczep serca w Polsce (1985, Zabrze) niepotwierdzony przez wstęp",
+   "„23-godzinna operacja\" i „ikona medycyny\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Polski kardiochirurg i polityk (1938 do 2009), profesor nauk medycznych. Był senatorem III i V kadencji, ministrem zdrowia w rządach Kazimierza Marcinkiewicza i Jarosława Kaczyńskiego, posłem na Sejm VI kadencji i kandydatem na prezydenta w 2005 roku. Kawaler Orderu Orła Białego.",
+  "proponowanyOpis": null,
+  "uwagi": "Duplikat osoby z zawodu #9."
+ },
+ {
+  "zawodId": "kardiolog",
+  "imie": "Marian Zembala",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Marian_Zembala",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne ze wstępem."
+ },
+ {
+  "zawodId": "kardiolog",
+  "imie": "Christiaan Barnard",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Christiaan_Barnard",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne ze wstępem en: pierwszy przeszczep serca człowiekowi 3 grudnia 1967, Louis Washkansky zmarł po 18 dniach. Duplikat osoby z zawodu #143. Fluff w ostatnim zdaniu."
+ },
+ {
+  "zawodId": "kardiolog",
+  "imie": "Helen Taussig",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Helen_B._Taussig",
+  "status": "popraw",
+  "problemy": [
+   "Wstęp: pomysł zabiegu u dzieci z tetralogią Fallota, wykonany jako shunt Blalocka-Thomas-Taussig, opracowany przez Blalocka i Vivien Thomasa, a nie „operacja Blalocka-Taussig opracowana przez nią\"",
+   "Dysleksja i profesura w Johns Hopkins niepotwierdzone przez wstęp (wstęp: głuchota)",
+   "„Uratowała życie tysięcy dzieci\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Amerykańska kardiolożka (1898 do 1986), pracowała w Baltimore i Bostonie, założycielka kardiologii dziecięcej. Wymyśliła koncepcję zabiegu wydłużającego życie dzieci z tetralogią Fallota, który zrealizowano jako shunt Blalocka-Thomas-Taussig. W dzieciństwie częściowo straciła słuch, a we wczesnej dorosłości ogłuchła całkowicie. Rozmawiała z pacjentami, odczytując z ust i używając aparatów słuchowych.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "sedzia",
+  "imie": "Małgorzata Gersdorf",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Małgorzata_Gersdorf",
+  "status": "popraw",
+  "problemy": [
+   "„Symbolicznie broniąca niezawisłości\" i „liczne publikacje\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polska prawniczka (ur. 1952 w Warszawie), profesor nauk prawnych, specjalistka prawa pracy i kierowniczka Katedry Prawa Pracy i Polityki Społecznej UW. W latach 2014 do 2020 Pierwsza Prezes Sądu Najwyższego i z urzędu przewodnicząca Trybunału Stanu. W 2018 roku przewodnicząca Krajowej Rady Sądownictwa.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "sedzia",
+  "imie": "Ruth Bader Ginsburg",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Ruth_Bader_Ginsburg",
+  "status": "popraw",
+  "problemy": [
+   "„Notorious RBG\", wygrane sprawy o dyskryminację i wpływ dissentów niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Amerykańska prawniczka (1933 do 2020), sędzia Sądu Najwyższego Stanów Zjednoczonych w latach 1993 do 2020. Była drugą kobietą w historii powołaną do tego urzędu, po Sandrze Day O'Connor. Znana z liberalnego podejścia do prawa, zwracała szczególną uwagę na sprawy dotyczące równouprawnienia płci oraz dyskryminacji ze względu na płeć, rasę i orientację seksualną.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "sedzia",
+  "imie": "Oliver Wendell Holmes Jr.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Oliver_Wendell_Holmes_Jr.",
+  "status": "popraw",
+  "problemy": [
+   "„The Common Law\" i wprowadzenie pragmatyzmu niepotwierdzone przez wstęp",
+   "Dissenty jako cecha niepotwierdzone (wstęp: zwięzłe opinie, szacunek dla decyzji ustawodawców)"
+  ],
+  "proponowanyBio": "Amerykański prawnik (1841 do 1935), sędzia Sądu Najwyższego USA w latach 1902 do 1932. Jeden z najczęściej cytowanych sędziów w historii USA, znany z długiej kadencji i zwięzłych opinii, zwłaszcza w sprawach wolności obywatelskich. Jako weteran wojny secesyjnej był trzykrotnie ranny. Wcześniej był sędzią Sądu Najwyższego stanu Massachusetts i profesorem prawa w Harvard Law School.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "prokurator",
+  "imie": "Stanisław Piotrowicz",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Stanisław_Piotrowicz",
+  "status": "popraw",
+  "problemy": [
+   "Funkcja przewodniczącego sejmowej komisji sprawiedliwości i „kontrowersyjna postać\" niepotwierdzone przez wstęp",
+   "Pominięte: senator VI i VII kadencji, sędzia TK od 5 grudnia 2019"
+  ],
+  "proponowanyBio": "Polski polityk i prokurator (ur. 1952 w Bochni), senator VI i VII kadencji, poseł na Sejm VII i VIII kadencji. W 2007 roku sekretarz stanu w Kancelarii Prezesa Rady Ministrów. Od 5 grudnia 2019 roku sędzia Trybunału Konstytucyjnego.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "prokurator",
+  "imie": "Robert H. Jackson",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Robert_H._Jackson",
+  "status": "popraw",
+  "problemy": [
+   "„Główny oskarżyciel USA\" i mowa otwarcia niepotwierdzone przez wstęp",
+   "Wstęp: unikat, jedyna osoba, która była Solicitor General, Attorney General i sędzią SN"
+  ],
+  "proponowanyBio": "Amerykański prawnik i polityk (1892 do 1954), sędzia Sądu Najwyższego USA od 1941 roku do śmierci. Wcześniej był Solicitor General i Attorney General, jako jedyny w historii pełnił wszystkie te trzy urzędy. Znany z udziału w procesach norymberskich, w których oskarżał nazistowskich zbrodniarzy wojennych.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "prokurator",
+  "imie": "Giovanni Falcone",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Giovanni_Falcone",
+  "status": "popraw",
+  "problemy": [
+   "„Skazano setki członków Cosa Nostry\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Włoski sędzia i prokurator (1939 do 1992). Z biura w Pałacu Sprawiedliwości w Palermo większość życia zawodowego poświęcił obaleniu władzy sycylijskiej mafii. Zwieńczeniem kariery był Maxiproces w latach 1986 do 1987. 23 maja 1992 roku zginął w zamachu bombowym mafii korleońskiej na autostradzie A29 koło Capaci.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "prokurator",
+  "imie": "Andrzej Seremet",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Andrzej_Seremet",
+  "status": "popraw",
+  "problemy": [
+   "Błąd daty: bio podaje rok urodzenia 1955, wstęp 10 listopada 1959",
+   "UJ, praca w prokuraturze od lat 80. i separacja prokuratury od MS niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski prawnik, sędzia i prokurator (ur. 1959 w Radłowie), prokurator generalny w latach 2010 do 2016.",
+  "proponowanyOpis": "Prokurator generalny w latach 2010 do 2016",
+  "uwagi": "Wstęp krótki."
+ },
+ {
+  "zawodId": "notariusz",
+  "imie": "Justynian I Wielki",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Justynian_I_Wielki",
+  "status": "popraw",
+  "problemy": [
+   "Corpus Iuris Civilis i wpływ na notariat niepotwierdzone przez wstęp",
+   "Opis „Twórca prawa rzymskiego\" nieprawdziwy: wstęp mówi o cesarzu bizantyńskim"
+  ],
+  "proponowanyBio": "Cesarz bizantyński (ok. 482 do 565), urodzony w Tauresium, zmarł w Konstantynopolu. Panował od 1 sierpnia 527 do 13 listopada 565 roku. Za jego czasów Cesarstwo Bizantyńskie osiągnęło największą świetność. Święty Cerkwi prawosławnej.",
+  "proponowanyOpis": "Cesarz bizantyński za którego rządów powstał zbiór prawa rzymskiego",
+  "uwagi": "Opis wymaga potwierdzenia; powiązanie z notariatem jest luźne."
+ },
+ {
+  "zawodId": "notariusz",
+  "imie": "Marco Polo",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Marco_Polo",
+  "status": "usun",
+  "problemy": [
+   "Opis „Notariusz i podróżnik\" nieprawdziwy: wstęp mówi o weneckim kupcu i podróżniku",
+   "„Syn notariusza weneckiego, kształcony w tradycji notarialnej\" niepotwierdzone przez wstęp",
+   "Zainspirowanie Kolumba niepotwierdzone"
+  ],
+  "proponowanyBio": "Wenecki kupiec i podróżnik (ok. 1254 do 1324). Wraz z ojcem i stryjem dotarł do Chin jedwabnym szlakiem. Jego podróże spisał Rustichello z Pizy w książce znanej jako „Opisanie świata\", gdy Marco Polo przebywał w niewoli w Genui.",
+  "proponowanyOpis": "Wenecki kupiec i podróżnik",
+  "uwagi": "Nie jest notariuszem według Wikipedii; brak powiązania z zawodem notariusza."
+ },
+ {
+  "zawodId": "komornik",
+  "imie": "Matthew Hopkins",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Matthew_Hopkins",
+  "status": "usun",
+  "problemy": [
+   "Opis i bio zmyślone: wstęp mówi o angielskim łowcy czarownic, który podawał się za „Witchfinder General\", nie o prawniku ani urzędniku sądowym",
+   "„Jeden z pierwszych zawodowych egzekutorów orzeczeń sądowych\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Angielski łowca czarownic (ok. 1620 do 1647), działający głównie w East Anglii w czasie angielskiej wojny domowej. Podawał się za „Generalnego Łowcę Czarownic\", choć parlament nigdy nie nadał mu takiego tytułu. Razem z Johnem Stearnem doprowadził do powieszenia większej liczby oskarżonych o czary niż wszyscy inni łowcy czarownic w Anglii z poprzednich 160 lat.",
+  "proponowanyOpis": "Angielski łowca czarownic",
+  "uwagi": "Postać nie nadaje się jako wzór zawodu prawnika; bio nie da się oprzeć na Wikipedii w obecnym sensie (wzmianka o roli komornika/egzekutora jest nieprawdziwa)."
+ },
+ {
+  "zawodId": "adwokat",
+  "imie": "Roman Giertych",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Roman_Giertych",
+  "status": "popraw",
+  "problemy": [
+   "„Jeden z najbardziej znanych adwokatów\" i „głośne sprawy\" niepotwierdzone przez wstęp",
+   "Bio: „były poseł... po odejściu z polityki\": wstęp pokazuje posła X kadencji od 2023 roku"
+  ],
+  "proponowanyBio": "Polski polityk i prawnik, adwokat (ur. 1971 w Śremie). Założyciel i w latach 1989 do 1994 prezes Młodzieży Wszechpolskiej, prezes Ligi Polskich Rodzin (2006 do 2007). Poseł na Sejm IV, V i X kadencji, wicepremier i minister edukacji narodowej w rządach Kazimierza Marcinkiewicza i Jarosława Kaczyńskiego (2006 do 2007).",
+  "proponowanyOpis": "Adwokat i polityk",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "adwokat",
+  "imie": "Thurgood Marshall",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Thurgood_Marshall",
+  "status": "popraw",
+  "problemy": [
+   "Sprawa Brown v. Board of Education i adwokat NAACP niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Amerykański prawnik (1908 do 1993), pierwszy czarnoskóry sędzia Sądu Najwyższego USA (1967 do 1991). Urodził się w Baltimore, zmarł w Bethesda. W 1930 roku ukończył studia na Uniwersytecie Lincolna w Chester.",
+  "proponowanyOpis": null,
+  "uwagi": "Wstęp pl krótki."
+ },
+ {
+  "zawodId": "adwokat",
+  "imie": "Nelson Mandela",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Nelson_Mandela",
+  "status": "popraw",
+  "problemy": [
+   "Pierwsza czarnoskóra kancelaria adwokacka w RPA niepotwierdzona przez wstęp"
+  ],
+  "proponowanyBio": "Południowoafrykański działacz przeciw apartheidowi, polityk i filantrop (1918 do 2013). Prezydent RPA w latach 1994 do 1999, pierwszy czarnoskóry głowa państwa i pierwszy wybrany w pełni demokratycznych wyborach. Studiował prawo na Uniwersytecie Fort Hare i Uniwersytecie Witwatersrand i pracował jako prawnik w Johannesburgu. Odsiedział 27 lat w więzieniu. Laureat Pokojowej Nagrody Nobla.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "adwokat",
+  "imie": "Joanna Agacka-Indecka",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Joanna_Agacka-Indecka",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne ze wstępem."
+ },
+ {
+  "zawodId": "zolnierz-zawodowy",
+  "imie": "Tadeusz Kościuszko",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Tadeusz_Kościuszko",
+  "status": "popraw",
+  "problemy": [
+   "Fortyfikacja West Point niepotwierdzona przez wstęp",
+   "Insurekcja 1794 oraz „bohater narodowy\" niepotwierdzone co do roku (wstęp: Najwyższy Naczelnik w czasie insurekcji kościuszkowskiej)"
+  ],
+  "proponowanyBio": "Polski inżynier wojskowy (1746 do 1817), Najwyższy Naczelnik Siły Zbrojnej Narodowej w czasie insurekcji kościuszkowskiej. Generał lejtnant wojska Rzeczypospolitej Obojga Narodów oraz brevet generał brygady Armii Kontynentalnej w czasie wojny o niepodległość Stanów Zjednoczonych. Kawaler Orderu Virtuti Militari.",
+  "proponowanyOpis": null,
+  "uwagi": "Urodzony w Mereczowszczyźnie, zmarł w Solurze."
+ },
+ {
+  "zawodId": "zolnierz-zawodowy",
+  "imie": "Władysław Anders",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Władysław_Anders",
+  "status": "popraw",
+  "problemy": [
+   "Zwycięstwo pod Monte Cassino 1944 i ewakuacja przez Iran niepotwierdzone przez wstęp",
+   "„Symbolicznie reprezentując wolną Polskę\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Polski wojskowy i polityk (1892 do 1970), generał dywizji Polskich Sił Zbrojnych, dowódca Armii Polskiej w ZSRR i 2 Korpusu Polskiego, Naczelny Wódz Polskich Sił Zbrojnych. Od 1954 roku członek Rady Trzech. Kawaler Orderu Orła Białego i Orderu Virtuti Militari.",
+  "proponowanyOpis": null,
+  "uwagi": "Zmarł w Londynie."
+ },
+ {
+  "zawodId": "zolnierz-zawodowy",
+  "imie": "Witold Pilecki",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Witold_Pilecki",
+  "status": "popraw",
+  "problemy": [
+   "„Jedyny człowiek, który dobrowolnie dostał się do Auschwitz\" niepotwierdzone przez wstęp",
+   "„Pierwszy dokument o Holokauście\" niepotwierdzone (wstęp: autor raportów o Holocauście)",
+   "Rehabilitacja: wstęp mówi o unieważnieniu wyroku w 1990"
+  ],
+  "proponowanyBio": "Polski rotmistrz kawalerii (1901 do 1948), współzałożyciel Tajnej Armii Polskiej, żołnierz Armii Krajowej, więzień i organizator ruchu oporu w KL Auschwitz. Autor raportów o Holokauście, tak zwanych Raportów Pileckiego. Skazany na śmierć przez władze komunistyczne i stracony w 1948 roku, wyrok unieważniono w 1990 roku. Pośmiertnie odznaczony Orderem Orła Białego i awansowany na pułkownika.",
+  "proponowanyOpis": null,
+  "uwagi": "Wstęp pl podaje dwie możliwe daty urodzenia 30 kwietnia lub 13 maja 1901."
+ },
+ {
+  "zawodId": "zolnierz-zawodowy",
+  "imie": "Sun Tzu",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Sun_Tzu",
+  "status": "popraw",
+  "problemy": [
+   "„Ok. 544 do 496\": wstęp podaje 544 do 496 p.n.e. bez „ok.\"",
+   "„Od 2500 lat\", cytat „poznaj wroga i siebie\" i zastosowania w sporcie niepotwierdzone w tej formie (wstęp wymienia zarządzanie, sport, karierę, marketing)"
+  ],
+  "proponowanyBio": "Chiński myśliciel starożytnego Dalekiego Wschodu (544 do 496 p.n.e.), właściwie Sun Wu, autor „Sztuki wojny\", uważanej za najstarszy na świecie podręcznik sztuki wojennej. Uważany za jednego z pierwszych realistów w teorii stosunków międzynarodowych. Jego książkę odnosi się współcześnie także do zarządzania, sportu, kariery i marketingu.",
+  "proponowanyOpis": null,
+  "uwagi": "Daty życia są w nauce niepewne."
+ },
+ {
+  "zawodId": "pracownik-ochrony",
+  "imie": "Kevin Costner",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Kevin_Costner",
+  "status": "popraw",
+  "problemy": [
+   "Rola ochroniarza w „Bodyguard\" (1992) i partnerstwo z Whitney Houston niepotwierdzone przez wstęp",
+   "Oskary: wstęp podaje dwa, ale nie film; „uczynił zawód ochroniarza rozpoznawalnym\" to ocena"
+  ],
+  "proponowanyBio": "Amerykański aktor, reżyser, producent filmowy i muzyk (ur. 1955 w Lynwood). Wielokrotny zdobywca ważnych nagród filmowych, w tym dwóch Oscarów, dwóch Złotych Globów i nagrody Emmy.",
+  "proponowanyOpis": "Amerykański aktor i reżyser",
+  "uwagi": "Rola w „Bodyguard\" jest powszechnie znana, ale wstęp jej nie wymienia."
+ },
+ {
+  "zawodId": "pracownik-ochrony",
+  "imie": "Allan Pinkerton",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Allan_Pinkerton",
+  "status": "popraw",
+  "problemy": [
+   "Pierwsza prywatna agencja na świecie, rozbijanie gangów i infiltrowanie szpiegów niepotwierdzone przez wstęp",
+   "Ochrona Lincolna: wstęp mówi o jego twierdzeniu, że udaremnił spisek w Baltimore w 1861 roku"
+  ],
+  "proponowanyBio": "Szkocko-amerykański detektyw, szpieg, abolicjonista i bednarz (1819 do 1884), najbardziej znany jako twórca Pinkerton National Detective Agency. Twierdził, że udaremnił spisek w Baltimore w 1861 roku, zapobiegając zamachowi na wybranego prezydenta Abrahama Lincolna. W czasie wojny secesyjnej dostarczał armii Unii informacji wywiadowczych.",
+  "proponowanyOpis": null,
+  "uwagi": "Wstęp wspomina też o roli agentów jako łamistrajków."
+ },
+ {
+  "zawodId": "pracownik-ochrony",
+  "imie": "Barry Lam",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Barry_Lam",
+  "status": "usun",
+  "problemy": [
+   "Bio zmyślone: Wikipedia opisuje go jako założyciela i prezesa Quanta Computer (producent komputerów), bez związku z systemami monitoringu i ochrony",
+   "„Zrewolucjonizował branżę ochrony, wprowadzając kamery i czujniki\" niepotwierdzone",
+   "Opis „Pionier technologii w branży ochrony\" nieprawdziwy"
+  ],
+  "proponowanyBio": "Tajwański miliarder i przedsiębiorca (ur. 1949), założyciel i prezes Quanta Computer.",
+  "proponowanyOpis": null,
+  "uwagi": "Nie pasuje do zawodu związanego z ochroną; bio nie da się oprzeć na Wikipedii."
+ },
+ {
+  "zawodId": "funkcjonariusz-sg",
+  "imie": "Tomasz Praga",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Tomasz_Praga",
+  "status": "popraw",
+  "problemy": [
+   "Modernizacja formacji, nowoczesne technologie nadzoru i współpraca z Frontexem niepotwierdzone przez wstęp",
+   "Brak dat: wstęp podaje ur. 1970, zastępca komendanta głównego 2016 do 2018, komendant główny 2018 do 2024"
+  ],
+  "proponowanyBio": "Polski generał dywizji Straży Granicznej (ur. 1970 w Przemyślu). W latach 2016 do 2018 zastępca komendanta głównego Straży Granicznej, a w latach 2018 do 2024 komendant główny Straży Granicznej.",
+  "proponowanyOpis": "Były Komendant Główny Straży Granicznej",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "funkcjonariusz-sg",
+  "imie": "Fabrice Leggeri",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Fabrice_Leggeri",
+  "status": "popraw",
+  "problemy": [
+   "„Bezprecedensowa skala\" i „rozbudowa agencji\" niepotwierdzone przez wstęp",
+   "Pominięta informacja o kandydowaniu do Parlamentu Europejskiego z listy Zjednoczenia Narodowego (2024)"
+  ],
+  "proponowanyBio": "Francuski wysoki urzędnik państwowy (ur. 1968), dyrektor Europejskiej Agencji Straży Granicznej i Przybrzeżnej (Frontex) w latach 2015 do 2022. W lutym 2024 roku ogłosił, że będzie trzecim kandydatem na liście Zjednoczenia Narodowego w wyborach do Parlamentu Europejskiego.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "aktor",
+  "imie": "Daniel Olbrychski",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Daniel_Olbrychski",
+  "status": "popraw",
+  "problemy": [
+   "Błąd liczby: „ponad 200 filmów\", wstęp podaje „blisko 180 filmów kinowych i telewizyjnych\"",
+   "Nagroda w Cannes i „muza Wajdy\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski aktor teatralny i filmowy (ur. 1945 w Łowiczu), uznawany za jednego z najwybitniejszych aktorów swojego pokolenia. Zagrał w blisko 180 filmach kinowych i telewizyjnych. Debiutował w 1963 roku w filmie Janusza Nasfetera „Ranny w lesie\". Występował w filmach m.in. Andrzeja Wajdy, Krzysztofa Zanussiego i Krzysztofa Kieślowskiego, a od 1970 roku także w produkcjach zagranicznych.",
+  "proponowanyOpis": "Polski aktor teatralny i filmowy",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "aktor",
+  "imie": "Joanna Kulig",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Joanna_Kulig",
+  "status": "popraw",
+  "problemy": [
+   "Błąd: wstęp mówi, że otrzymała Europejską Nagrodę Filmową za „Zimną wojnę\", a nie była tylko do niej nominowana",
+   "Studia w PWST w Krakowie niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polska aktorka filmowa, telewizyjna i teatralna oraz piosenkarka (ur. 1982 w Krynicy-Zdroju). Dwukrotna laureatka Orła, za drugoplanową rolę w filmie „Sponsoring\" i za pierwszoplanową rolę w filmie „Zimna wojna\", za który otrzymała także Europejską Nagrodę Filmową.",
+  "proponowanyOpis": "Aktorka, laureatka Europejskiej Nagrody Filmowej za „Zimną wojnę\"",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "aktor",
+  "imie": "Zbigniew Cybulski",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Zbigniew_Cybulski",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne (dyplom PWST, rola w „Popiele i diamencie\", porównanie do Jamesa Deana; wstęp wspomina o wypadku pod kołami pociągu na dworcu we Wrocławiu)."
+ },
+ {
+  "zawodId": "aktor",
+  "imie": "Gustaw Holoubek",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Gustaw_Holoubek",
+  "status": "popraw",
+  "problemy": [
+   "Dyrektor Teatru Dramatycznego, role Kordiana i Konrada oraz role u Wajdy i Hasa niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski aktor teatralny i filmowy, reżyser, dyrektor teatrów i pedagog (1923 do 2008). Prezes Stowarzyszenia Polskich Artystów Teatru i Filmu, członek Polskiej Akademii Umiejętności, poseł na Sejm PRL VII i VIII kadencji i senator I kadencji. Odznaczony Orderem Orła Białego.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "muzyk",
+  "imie": "Fryderyk Chopin",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Fryderyk_Chopin",
+  "status": "popraw",
+  "problemy": [
+   "Lista gatunków utworów i Międzynarodowy Konkurs Pianistyczny im. Chopina co pięć lat niepotwierdzone przez wstęp",
+   "„Zrewolucjonizowały muzykę fortepianową\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Polski kompozytor i pianista światowej sławy (1810 do 1849), urodzony w Żelazowej Woli, zmarł w Paryżu. Od października 1831 roku mieszkał we Francji. Jeden z najwybitniejszych kompozytorów romantycznych i najsłynniejszych pianistów swoich czasów, często nazywany „poetą fortepianu\". Jego utwory cechuje pogłębiona ekspresja i czerpanie ze stylistycznych wzorców polskiej muzyki ludowej.",
+  "proponowanyOpis": null,
+  "uwagi": "Data urodzenia: 22 lutego lub 1 marca 1810."
+ },
+ {
+  "zawodId": "muzyk",
+  "imie": "Krzysztof Penderecki",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Krzysztof_Penderecki",
+  "status": "popraw",
+  "problemy": [
+   "Cztery nagrody Grammy, muzyka w filmach Kubricka, Lyncha i Scorsese oraz dyrygowanie największymi orkiestrami niepotwierdzone przez wstęp",
+   "Opis „laureat Grammy\" niepotwierdzony"
+  ],
+  "proponowanyBio": "Polski kompozytor, dyrygent i pedagog muzyczny (1933 do 2020), przedstawiciel polskiej szkoły kompozytorskiej lat sześćdziesiątych XX wieku. Profesor i rektor Akademii Muzycznej w Krakowie. Skomponował cztery opery, osiem symfonii i wiele innych utworów, wśród najbardziej znanych „Ofiarom Hiroszimy. Tren\", „Pasję według św. Łukasza\" i „Polskie Requiem\".",
+  "proponowanyOpis": "Polski kompozytor i dyrygent",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "muzyk",
+  "imie": "Henryk Wieniawski",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Henryk_Wieniawski",
+  "status": "popraw",
+  "problemy": [
+   "Występy od 8. roku życia w Europie i USA, koncerty skrzypcowe, polonezy oraz konkurs w Poznaniu niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski kompozytor, skrzypek i pedagog (1835 do 1880), urodzony w Lublinie, zmarły w Moskwie. Jeden z najwybitniejszych polskich skrzypków i kompozytorów w historii.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "muzyk",
+  "imie": "Ludwig van Beethoven",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Ludwig_van_Beethoven",
+  "status": "popraw",
+  "problemy": [
+   "32 sonaty fortepianowe, opera „Fidelio\" i IX Symfonia jako hymn UE niepotwierdzone przez wstęp",
+   "„Pomost między klasycyzmem a romantyzmem\" potwierdzone w innej formie (ostatni z klasyków wiedeńskich i prekursor romantyzmu)"
+  ],
+  "proponowanyBio": "Niemiecki kompozytor i pianista (1770 do 1827), ostatni z tak zwanych klasyków wiedeńskich i zarazem prekursor romantyzmu. Urodził się w Bonn, a w młodości przeniósł się do Wiednia, gdzie zdobył sławę pianisty wirtuoza, a potem kompozytora. Około 25. roku życia zaczął tracić słuch, ale tworzył także w okresie całkowitej głuchoty. Światową popularność zawdzięcza przede wszystkim dziewięciu symfoniom.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "rezyser-filmowy",
+  "imie": "Andrzej Wajda",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Andrzej_Wajda",
+  "status": "popraw",
+  "problemy": [
+   "Błąd: bio podaje dwie nominacje do Oscara, wstęp mówi, że jego filmy czterokrotnie były nominowane do Oscara dla najlepszego filmu nieanglojęzycznego",
+   "Złota Palma: wstęp wiąże ją z filmem „Człowiek z żelaza\", nie z całokształtem"
+  ],
+  "proponowanyBio": "Polski reżyser filmowy i teatralny (1926 do 2016). Jego filmy „Kanał\" oraz „Popiół i diament\" zapoczątkowały polską szkołę filmową. Twórca kina moralnego niepokoju, w którego ramach powstały „Człowiek z marmuru\" i „Człowiek z żelaza\", nagrodzony Złotą Palmą na 34. MFF w Cannes. W 2000 roku otrzymał Oscara za całokształt twórczości, a cztery jego filmy były nominowane do Oscara dla najlepszego filmu nieanglojęzycznego. W latach 1989 do 1991 senator I kadencji.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "rezyser-filmowy",
+  "imie": "Paweł Pawlikowski",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Paweł_Pawlikowski",
+  "status": "popraw",
+  "problemy": [
+   "„Polsko-brytyjski\" niepotwierdzone przez wstęp (wstęp: polski reżyser)",
+   "Trzy nominacje do Oscara dla „Zimnej wojny\" niepotwierdzone przez wstęp",
+   "Minimalistyczny styl jako ocena bez oparcia"
+  ],
+  "proponowanyBio": "Polski reżyser, scenarzysta, producent filmowy i nauczyciel akademicki (ur. 1957 w Warszawie). W latach 90. zrealizował dla BBC kilka filmów dokumentalnych, a w Wielkiej Brytanii wyreżyserował filmy fabularne. Międzynarodowe uznanie przyniosły mu filmy „Ida\", „Zimna wojna\" i „Ojczyzna\". Za „Idę\" otrzymał Oscara dla najlepszego filmu nieanglojęzycznego, pierwszego w dziejach polskiej kinematografii, a za „Zimną wojnę\" i „Ojczyznę\" nagrodę za reżyserię na festiwalu w Cannes.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "rezyser-filmowy",
+  "imie": "Agnieszka Holland",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Agnieszka_Holland",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne: nominacje do Oscara dla „Gorzkich żniw\", „Europa, Europa\" (scenariusz) i „W ciemności\"; „Zielona granica\" potwierdzona. Zdanie o „jednej z najważniejszych postaci\" ocenne."
+ },
+ {
+  "zawodId": "rezyser-filmowy",
+  "imie": "Krzysztof Kieślowski",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Krzysztof_Kieślowski",
+  "status": "popraw",
+  "problemy": [
+   "Nominacje do Oscara niepotwierdzone przez wstęp",
+   "Uznanie krytyków „na całym świecie\" ogólnikowe"
+  ],
+  "proponowanyBio": "Polski reżyser, scenarzysta i wykładowca akademicki (1941 do 1996), przedstawiciel kina moralnego niepokoju. Karierę zaczynał jako dokumentalista, a później realizował filmy fabularne. Jego dorobek obejmuje telewizyjny cykl „Dekalog\", „Podwójne życie Weroniki\" i trylogię „Trzy kolory\".",
+  "proponowanyOpis": null,
+  "uwagi": "Urodzony i zmarły w Warszawie."
+ },
+ {
+  "zawodId": "architekt-wnetrz",
+  "imie": "Dorota Szelągowska",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Dorota_Szelągowska",
+  "status": "popraw",
+  "problemy": [
+   "Nazwy programów i pochodzenie od Katarzyny Grocholi niepotwierdzone przez wstęp",
+   "„Zmieniły podejście Polaków do urządzania mieszkań\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Polska prezenterka telewizyjna i projektantka wnętrz (ur. 1980 w Trypolisie).",
+  "proponowanyOpis": "Prezenterka telewizyjna i projektantka wnętrz",
+  "uwagi": "Wstęp krótki."
+ },
+ {
+  "zawodId": "architekt-wnetrz",
+  "imie": "Kelly Wearstler",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Kelly_Wearstler",
+  "status": "popraw",
+  "problemy": [
+   "Hotele Viceroy niepotwierdzone przez wstęp",
+   "„Zdefiniowała amerykański luksus XXI wieku\" ocena bez oparcia"
+  ],
+  "proponowanyBio": "Amerykańska projektantka wnętrz, autorka i przedsiębiorczyni (ur. 1967). W 1995 roku założyła w Los Angeles firmę Kelly Wearstler Interior Design. Jest główną projektantką marki Proper Hotels. W 2009 roku „The New Yorker\" nazwał ją „przewodzącą damą wnętrz Zachodniego Wybrzeża\". Napisała sześć książek.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "architekt-wnetrz",
+  "imie": "Elsie de Wolfe",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Elsie_de_Wolfe",
+  "status": "popraw",
+  "problemy": [
+   "Opis „Pierwsza profesjonalna projektantka wnętrz\" za mocny: wstęp mówi o jednej z pierwszych kobiet dekoratorek wnętrz",
+   "Format lat życia: „ur. ok. 1859, zm. 1950\"; wstęp podaje ur. 20 grudnia ok. 1859, zm. 12 lipca 1950"
+  ],
+  "proponowanyBio": "Amerykańska aktorka, która została wybitną projektantką wnętrz i autorką (ok. 1859 do 1950). Jedna z pierwszych kobiet w zawodzie dekoratora wnętrz, zastępowała ciemne, bogato zdobione wiktoriańskie wnętrza jaśniejszymi i prostszymi.",
+  "proponowanyOpis": "Jedna z pierwszych projektantek wnętrz",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "architekt-wnetrz",
+  "imie": "Karim Rashid",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Karim_Rashid",
+  "status": "popraw",
+  "problemy": [
+   "„Ponad 4000 produktów\", „ponad 300 nagród\" i „prace w 20 muzeach\" niepotwierdzone przez wstęp",
+   "Wstęp: urodzony w Egipcie, wychowany w Kanadzie amerykański projektant przemysłowy"
+  ],
+  "proponowanyBio": "Amerykański projektant przemysłowy urodzony w Egipcie i wychowany w Kanadzie (ur. 1960), mieszkający w Nowym Jorku. Projektuje m.in. meble, oświetlenie, wzory powierzchni, tożsamość marki i opakowania. „Toronto Star\" nazwał go jednym z najsłynniejszych projektantów przemysłowych na świecie, a „Time\" „księciem plastiku\".",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "projektant-mody",
+  "imie": "Maciej Zień",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Maciej_Zień",
+  "status": "popraw",
+  "problemy": [
+   "Nagrody Elle Style Awards i współpraca z markami luksusowymi niepotwierdzone przez wstęp",
+   "„Jeden z najsłynniejszych\" ocena bez oparcia"
+  ],
+  "proponowanyBio": "Polski projektant mody i wnętrz (ur. 1979 w Lublinie).",
+  "proponowanyOpis": "Polski projektant mody",
+  "uwagi": "Wstęp krótki."
+ },
+ {
+  "zawodId": "projektant-mody",
+  "imie": "Coco Chanel",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Coco_Chanel",
+  "status": "popraw",
+  "problemy": [
+   "Tweed i „wyzwolenie kobiet z gorsetów\" niepotwierdzone przez wstęp",
+   "Bio podaje wprowadzenie „małej czarnej\" i perfum Chanel N°5 w sposób zgodny; daty życia zgodne"
+  ],
+  "proponowanyBio": "Francuska projektantka (1883 do 1971), właściwie Gabrielle Bonheur Chanel. Od 1915 roku rewolucjonizowała modę damską, lansując ubrania o prostych, sportowych fasonach i krótkie suknie bez ozdób. W 1921 roku stworzyła perfumy Chanel No. 5. Jej pomysły, takie jak „mała czarna\", dzianinowe kostiumy, golfy i długie sznury pereł, uważane są za klasykę elegancji.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "projektant-mody",
+  "imie": "Yves Saint Laurent",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Yves_Saint_Laurent_(designer)",
+  "status": "popraw",
+  "problemy": [
+   "Le Smoking z 1966 roku i linia prêt-à-porter niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Francuski projektant mody (1936 do 2008), który w 1962 roku założył własny dom mody. Ostatni z wielkich krawców haute couture, uważany za jednego z najważniejszych projektantów XX wieku. W 1983 roku jako pierwszy żyjący projektant mody miał indywidualną wystawę w Metropolitan Museum of Art. W 2007 roku otrzymał stopień Grand officier Legii Honorowej.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "projektant-mody",
+  "imie": "Ewa Minge",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Ewa_Minge",
+  "status": "popraw",
+  "problemy": [
+   "Pokazy na Paris Fashion Week, Met Gala i współpraca z UNICEF niepotwierdzone przez wstęp",
+   "„Jedyna Polka\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Polska projektantka mody, autorka książek i osobowość medialna pochodzenia tatarskiego (ur. 1967 w Szczecinku).",
+  "proponowanyOpis": "Polska projektantka mody",
+  "uwagi": "Wstęp krótki."
+ },
+ {
+  "zawodId": "pedagog",
+  "imie": "Janusz Korczak",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Janusz_Korczak",
+  "status": "popraw",
+  "problemy": [
+   "„Król Maciuś Pierwszy\" i dobrowolne towarzyszenie wychowankom niepotwierdzone przez wstęp",
+   "Niepewne daty"
+  ],
+  "proponowanyBio": "Polsko-żydowski lekarz, pedagog, pisarz i działacz społeczny, właściwie Henryk Goldszmit (1878 lub 1879 do 1942). Twórca systemu pracy z dziećmi opartego na partnerstwie i samorządności, prekursor działań na rzecz praw dziecka. W 1926 roku zainicjował pismo „Mały Przegląd\". Zmarł w sierpniu 1942 roku, prawdopodobnie w Treblince.",
+  "proponowanyOpis": null,
+  "uwagi": "Duplikat osoby z zawodu #10."
+ },
+ {
+  "zawodId": "pedagog",
+  "imie": "Maria Montessori",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Maria_Montessori",
+  "status": "popraw",
+  "problemy": [
+   "„Pierwsza Włoszka z dyplomem lekarskim\" i „22 000 szkół w 110 krajach\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Włoska lekarka i pedagożka (1870 do 1952). Twórczyni metody Montessori, która kładzie nacisk na swobodny rozwój dzieci i wspieranie ich spontaniczności. W 1907 roku otworzyła przedszkole Casa dei Bambini (Dom Dzieci).",
+  "proponowanyOpis": null,
+  "uwagi": "Duplikat osoby z zawodu #16."
+ },
+ {
+  "zawodId": "pedagog",
+  "imie": "Paulo Freire",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Paulo_Freire",
+  "status": "popraw",
+  "problemy": [
+   "Walka z analfabetyzmem w Brazylii i Afryce niepotwierdzona przez wstęp",
+   "Wstęp: pedagog i marksistowski filozof, założyciel pedagogiki krytycznej"
+  ],
+  "proponowanyBio": "Brazylijski pedagog i marksistowski filozof (1921 do 1997), jeden z twórców pedagogiki krytycznej. Najbardziej znany z „Pedagogiki uciśnionych\", w której przedstawił nauczanie jako polityczny akt wyzwolenia. Jego wpływ obejmuje ruchy alfabetyzacyjne, teologię wyzwolenia i postkolonialną edukację.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "pedagog",
+  "imie": "Aleksander Kamiński",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Aleksander_Kamiński",
+  "status": "popraw",
+  "problemy": [
+   "„Twórca metody zuchowej\": wstęp mówi o współtwórcy metodyki zuchowej",
+   "Profesura na Uniwersytecie Łódzkim niepotwierdzona przez wstęp (wstęp: profesor nauk humanistycznych)"
+  ],
+  "proponowanyBio": "Polski pedagog, wychowawca i profesor nauk humanistycznych (1903 do 1978), współtwórca metodyki zuchowej, instruktor harcerski i harcmistrz, żołnierz Armii Krajowej i jeden z ideowych przywódców Szarych Szeregów. Przewodniczący Prezydium Rady Naczelnej Związku Harcerstwa Polskiego. Autor książki „Kamienie na szaniec\".",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "logopeda",
+  "imie": "Leon Kaczmarek",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Leon_Kaczmarek",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne ze wstępem."
+ },
+ {
+  "zawodId": "logopeda",
+  "imie": "Stanisław Grabias",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Stanisław_Grabias",
+  "status": "popraw",
+  "problemy": [
+   "Profesura w UMCS i „kompleksowy model diagnozy\" niepotwierdzone przez wstęp",
+   "Brak daty urodzenia (wstęp: ur. 1942 w Soli)"
+  ],
+  "proponowanyBio": "Polski logopeda i językoznawca (ur. 1942 w Soli), profesor nauk filologicznych, nauczyciel akademicki i były rektor Wyższej Szkoły Humanistyczno-Przyrodniczej w Sandomierzu.",
+  "proponowanyOpis": "Polski logopeda i językoznawca",
+  "uwagi": "Opis „twórca lingwistycznej koncepcji logopedii\" wymaga potwierdzenia poza wstępem."
+ },
+ {
+  "zawodId": "logopeda",
+  "imie": "Charles Van Riper",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Charles_Van_Riper",
+  "status": "popraw",
+  "problemy": [
+   "Western Michigan University, „The Nature of Stuttering\" i desensytyzacja niepotwierdzone przez wstęp",
+   "„Twórca nowoczesnych metod terapii jąkania\": wstęp mówi o pioniere patologii mowy o największym wpływie w dziedzinie jąkania"
+  ],
+  "proponowanyBio": "Amerykański logopeda (1905 do 1994), uznany na świecie pionier patologii mowy. Przez całą karierę poważnie się jąkał. Opisuje się go jako specjalistę, który miał największy wpływ na dziedzinę badań i terapii jąkania.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "nauczyciel-akademicki",
+  "imie": "Maria Skłodowska-Curie",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Maria_Skłodowska-Curie",
+  "status": "popraw",
+  "problemy": [
+   "Pierwsza kobieta profesor na Sorbonie i mobilne stacje rentgenowskie niepotwierdzone przez wstęp",
+   "„Fundamenty fizyki jądrowej\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Polsko-francuska uczona (1867 do 1934), podwójna laureatka Nagrody Nobla z fizyki (1903) i chemii (1911). Odkryła pierwiastki rad i polon. Była prekursorką radiochemii i inicjowała badania nad leczeniem raka za pomocą promieniotwórczości.",
+  "proponowanyOpis": null,
+  "uwagi": "Duplikat osoby z zawodu #39."
+ },
+ {
+  "zawodId": "nauczyciel-akademicki",
+  "imie": "Olga Tokarczuk",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Olga_Tokarczuk",
+  "status": "popraw",
+  "problemy": [
+   "„Prowadź swój pług przez kości umarłych\" niepotwierdzone przez wstęp",
+   "Wykładanie literatury i psychologii niepotwierdzone przez wstęp",
+   "Pominięta Międzynarodowa Nagroda Bookera (2018)"
+  ],
+  "proponowanyBio": "Polska pisarka, eseistka, scenarzystka i psycholożka (ur. 1962 w Sulechowie). Laureatka Nagrody Nobla w dziedzinie literatury za rok 2018 i Międzynarodowej Nagrody Bookera (2018) za powieść „Bieguni\". Dwukrotna laureatka Nagrody Literackiej Nike (2008 i 2015) za „Biegunów\" i „Księgi Jakubowe\".",
+  "proponowanyOpis": "Pisarka, laureatka literackiej Nagrody Nobla",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "nauczyciel-akademicki",
+  "imie": "Albert Einstein",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Albert_Einstein",
+  "status": "popraw",
+  "problemy": [
+   "„Niemiecko-amerykański\": wstęp mówi o obywatelu Szwajcarii i USA pochodzenia niemiecko-żydowskiego",
+   "Wspomnienia studentów o tłumaczeniu trudnych koncepcji niepotwierdzone przez wstęp",
+   "Nobel: wstęp podaje rok 1921 za opis efektu fotoelektrycznego"
+  ],
+  "proponowanyBio": "Fizyk teoretyk (1879 do 1955), obywatel Szwajcarii i USA pochodzenia niemiecko-żydowskiego. Laureat Nagrody Nobla w dziedzinie fizyki za rok 1921 za wkład do fizyki teoretycznej, zwłaszcza za opis prawa efektu fotoelektrycznego. Twórca szczególnej teorii względności i autor równoważności masy i energii. Był profesorem m.in. na Uniwersytecie w Zurychu, Uniwersytecie Karola w Pradze, Politechnice Federalnej w Zurychu i Uniwersytecie Berlińskim.",
+  "proponowanyOpis": null,
+  "uwagi": "Urodzony w Ulm, zmarł w Princeton."
+ },
+ {
+  "zawodId": "nauczyciel-akademicki",
+  "imie": "Karol Modzelewski",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Karol_Modzelewski",
+  "status": "popraw",
+  "problemy": [
+   "Błąd: „8 lat w więzieniu\", wstęp mówi o ośmiu i pół roku łącznie (kilkakrotne więzienie i internowanie)",
+   "Profesura: Uniwersytet Wrocławski (1992 do 1994) i Uniwersytet Warszawski (1994 do 2019), bio wymienia tylko Wrocław"
+  ],
+  "proponowanyBio": "Polski historyk mediewista, nauczyciel akademicki, polityk i związkowiec (1937 do 2019), dysydent i działacz opozycji demokratycznej w czasach PRL, senator I kadencji. W 1964 roku wraz z Jackiem Kuroniem napisał „List otwarty do partii\". Kilkakrotnie więziony i internowany, łącznie osiem i pół roku. Pierwszy rzecznik prasowy „Solidarności\" (1980 do 1981). Profesor Uniwersytetu Wrocławskiego i Uniwersytetu Warszawskiego, członek rzeczywisty PAN. Kawaler Orderu Orła Białego.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "fryzjer",
+  "imie": "Vidal Sassoon",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Vidal_Sassoon",
+  "status": "popraw",
+  "problemy": [
+   "Geometryczne cięcia, bob, marka kosmetyków i motto niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Brytyjski stylista i fryzjer (1928 do 2012), twórca nowoczesnych i rozpoznawalnych fryzur. Odznaczony Orderem Imperium Brytyjskiego.",
+  "proponowanyOpis": "Brytyjski fryzjer i stylista",
+  "uwagi": "Urodzony w Londynie."
+ },
+ {
+  "zawodId": "kosmetyczka",
+  "imie": "Helena Rubinstein",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Helena_Rubinstein",
+  "status": "popraw",
+  "problemy": [
+   "„Polsko-amerykańska\" niepotwierdzone przez wstęp",
+   "Filantropia i kolekcjonowanie sztuki: wstęp mówi o mecenasie sztuki",
+   "Urodzona w Podgórzu pod Krakowem, dziś dzielnicy Krakowa"
+  ],
+  "proponowanyBio": "Przedsiębiorczyni żydowskiego pochodzenia (1872 do 1965), właściwie Chaja Rubinstein, urodzona w Podgórzu pod Krakowem. Mecenas sztuki, twórczyni nowoczesnej kosmetologii, założycielka przedsiębiorstwa Helena Rubinstein Inc., jedna z najbogatszych kobiet swojej epoki. Zmarła w Nowym Jorku.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "kosmetyczka",
+  "imie": "Estée Lauder",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Estée_Lauder_(businesswoman)",
+  "status": "popraw",
+  "problemy": [
+   "Pionierka próbek gratisowych niepotwierdzone przez wstęp",
+   "Firmę współzałożyła z mężem Josephem Lauderem"
+  ],
+  "proponowanyBio": "Amerykańska bizneswoman (1908 do 2004), właściwie Josephine Esther Mentzer. Wraz z mężem założyła swoją firmę kosmetyczną. Jako jedyna kobieta znalazła się na liście 20 najbardziej wpływowych geniuszy biznesu XX wieku magazynu „Time\" z 1998 roku.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "kosmetyczka",
+  "imie": "Elizabeth Arden",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Elizabeth_Arden",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne ze wstępem (Elizabeth Arden, 1881 do 1966, kanadyjsko-amerykańska bizneswoman). Opis „pionierka kompleksowej pielęgnacji skóry\" niepotwierdzony przez wstęp."
+ },
+ {
+  "zawodId": "cukiernik",
+  "imie": "Paweł Małecki",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Paweł_Małecki_(cukiernik)",
+  "status": "popraw",
+  "problemy": [
+   "Mistrz tortów artystycznych, współpraca z mediami i warsztaty niepotwierdzone przez wstęp",
+   "Brak daty: wstęp podaje ur. 1976 w Kamieniu Pomorskim"
+  ],
+  "proponowanyBio": "Polski cukiernik i czekoladnik (ur. 1976 w Kamieniu Pomorskim), Mistrz Polski Cukierników, wykładowca Akademii Czekolady w Łodzi.",
+  "proponowanyOpis": "Polski cukiernik i czekoladnik, Mistrz Polski Cukierników",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "cukiernik",
+  "imie": "Marie-Antoine Carême",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Marie-Antoine_Carême",
+  "status": "popraw",
+  "problemy": [
+   "Daty: wstęp podaje urodzenie 8 czerwca 1783 lub 1784",
+   "Gotowanie dla Napoleona niepotwierdzone (wstęp: Talleyrand, car Aleksander I, książę regent), „pierwsze wielkie dzieła\" i „haute pâtisserie\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Francuski szef kuchni i autor (1783 lub 1784 do 1833), specjalizujący się w wielkiej kuchni dla elit. Urodził się w Paryżu w ubogiej rodzinie. Czeladnik wybitnego paryskiego cukiernika, zasłynął z cukierniczych „pièces montées\", cukrowych rzeźb przedstawiających klasyczne budowle. Był szefem kuchni m.in. Talleyranda, cara Aleksandra I i księcia regenta w Wielkiej Brytanii.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "cukiernik",
+  "imie": "Pierre Hermé",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Pierre_Hermé",
+  "status": "popraw",
+  "problemy": [
+   "Ispahan i makaroniki niepotwierdzone przez wstęp",
+   "„Pierwszy cukiernik na liście 50 Best\" niepotwierdzone: wstęp mówi o tytule Najlepszego Cukiernika Świata 2016 przyznanym przez The World's 50 Best Restaurants",
+   "Sieć cukierni: wstęp mówi o utworzeniu własnej marki z Charlesem Znatym w 1998 roku"
+  ],
+  "proponowanyBio": "Francuski cukiernik i czekoladnik (ur. 1961). Karierę zaczął w wieku 14 lat jako uczeń Gastona Lenôtre'a. Magazyn „Vogue\" nazwał go „Picassem cukiernictwa\", a w 2016 roku The World's 50 Best Restaurants przyznało mu tytuł Najlepszego Cukiernika Świata. W 1998 roku wraz z Charlesem Znatym stworzył własną markę. Napisał lub współnapisał ponad 40 książek.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "cukiernik",
+  "imie": "Karol Wedel",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Karol_Wedel",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne ze wstępem."
+ },
+ {
+  "zawodId": "piekarz",
+  "imie": "Apollonia Poilâne",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Apollonia_Poilâne",
+  "status": "popraw",
+  "problemy": [
+   "„Francuska\": wstęp mówi o amerykańskiej piekarce urodzonej w Nowym Jorku, mieszkającej w Paryżu",
+   "Przejęcie piekarni w wieku 18 lat po śmierci rodziców, 20 krajów eksportu i Harvard niepotwierdzone przez wstęp",
+   "Wstęp: w czerwcu 2025 roku zakład produkcyjny zamknięto z powodów sanitarnych"
+  ],
+  "proponowanyBio": "Amerykańska piekarka, dyrektorka generalna i galerzystka mieszkająca w Paryżu (ur. 1984 w Nowym Jorku), córka Lionela Poilâne'a. Razem z siostrą jest właścicielką piekarni Poilâne, która od 1932 roku działa przy rue du Cherche-Midi w Paryżu i słynie z chleba na zakwasie wypiekanego w piecach opalanych drewnem.",
+  "proponowanyOpis": null,
+  "uwagi": "Informacja o zamknięciu zakładu produkcyjnego w czerwcu 2025 roku jest we wstępie en; warto ocenić, czy zostawiać tę postać."
+ },
+ {
+  "zawodId": "barista",
+  "imie": "Agnieszka Rojewska",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Agnieszka_Rojewska",
+  "status": "popraw",
+  "problemy": [
+   "Tytuł Mistrzyni Świata Baristów 2018 i Audun Coffee niepotwierdzone przez wstęp",
+   "Wstęp: od 2012 roku prowadzi z Mateuszem Gacą kawiarnię Brisman Kawowy Bar w Poznaniu"
+  ],
+  "proponowanyBio": "Polska baristka, kawiarka i trenerka baristów. Od września 2012 roku prowadzi razem z Mateuszem Gacą kawiarnię Brisman Kawowy Bar w Poznaniu. Magister zarządzania i doktorantka na Uniwersytecie Ekonomicznym w Poznaniu.",
+  "proponowanyOpis": "Polska baristka i trenerka baristów",
+  "uwagi": "Tytuł mistrzyni świata wymaga potwierdzenia w treści artykułu."
+ },
+ {
+  "zawodId": "barista",
+  "imie": "James Hoffmann",
+  "sourceUrl": "https://en.wikipedia.org/wiki/James_Hoffmann",
+  "status": "popraw",
+  "problemy": [
+   "Kanał na YouTube „z milionami subskrybentów\" niepotwierdzone przez wstęp",
+   "„Bestsellerowa\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Angielski barista, youtuber, przedsiębiorca, konsultant kawowy i autor (ur. 1979 lub 1980). Rozgłos zdobył po wygraniu mistrzostw świata baristów w 2007 roku, uważany za pioniera brytyjskiej trzeciej fali kawy. Wydał trzy książki, w tym „The World Atlas of Coffee\", i założył m.in. palarnię Square Mile Coffee Roasters.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "barista",
+  "imie": "Luigi Bezzera",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Luigi_Bezzera",
+  "status": "popraw",
+  "problemy": [
+   "Daty życia 1868 do 1920 i patent z 1901 roku niepotwierdzone przez wstęp (wstęp: urodzony w XIX, zmarł w XX wieku)",
+   "Wstęp: pierwszy patent na ekspres do espresso należy do Angelo Moriondo, Bezzera wynalazł pierwszy ekspres z wyjmowanym portafiltrem",
+   "„Fundament kultury espresso\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Włoski mechanik i wynalazca (urodzony w XIX, zmarły w XX wieku), wynalazca pierwszego ekspresu do espresso z wyjmowanym portafiltrem. Pierwszy zapisany patent na ekspres do espresso należy do Angelo Moriondo.",
+  "proponowanyOpis": "Włoski wynalazca ekspresu z wyjmowanym portafiltrem",
+  "uwagi": "Daty podane w bio mogą być zmyślone."
+ },
+ {
+  "zawodId": "barista",
+  "imie": "Howard Schultz",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Howard_Schultz",
+  "status": "popraw",
+  "problemy": [
+   "„Ponad 35 000 lokali\" i koncept „trzeciego miejsca\" niepotwierdzone przez wstęp",
+   "Wstęp: prezes i dyrektor generalny Starbucksa w latach 1986 do 2000 i 2008 do 2017 oraz tymczasowy CEO 2022 do 2023"
+  ],
+  "proponowanyBio": "Amerykański biznesmen i autor (ur. 1953). Prezes i dyrektor generalny Starbucks w latach 1986 do 2000 i 2008 do 2017, a w latach 2022 do 2023 tymczasowy dyrektor generalny. Pracę w Starbucks zaczął w 1982 roku, później otworzył kawiarnię Il Giornale, która pod koniec lat 80. połączyła się ze Starbucksem. W 1992 roku wprowadził firmę na giełdę. W latach 2001 do 2006 był właścicielem drużyny koszykarskiej Seattle SuperSonics.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "pilot-wycieczek",
+  "imie": "Rick Steves",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Rick_Steves",
+  "status": "popraw",
+  "problemy": [
+   "Wstęp: „Rick Steves' Europe\" to serial telewizji publicznej (od 2000), nie przewodnik",
+   "„Podróżuj jak miejscowy, nie jak turysta\" (cytat i antyteza) niepotwierdzone",
+   "Sprzedaż w milionach niepotwierdzona"
+  ],
+  "proponowanyBio": "Amerykański autor przewodników turystycznych, aktywista i osobowość telewizyjna (ur. 1955). Jego filozofia podróżowania zachęca do odwiedzania mniej uczęszczanych miejsc i zanurzania się w życiu lokalnej społeczności. Od 2000 roku prowadzi serial „Rick Steves' Europe\" w telewizji publicznej, a od 2005 audycję radiową „Travel with Rick Steves\". Jego pierwszym przewodnikiem był „Europe Through the Back Door\".",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "pilot-wycieczek",
+  "imie": "Thomas Cook",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Thomas_Cook",
+  "status": "popraw",
+  "problemy": [
+   "Błąd: wstęp mówi o wycieczce kolejowej Leicester do Loughborough dla członków Leicester Temperance Society w 1841 roku, a nie o „pierwszej komercyjnej wycieczce\"",
+   "„Pierwsze biuro podróży na świecie\", voucher hotelowy i czek podróżny niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Brytyjski przedsiębiorca (1808 do 1892), założyciel biura podróży Thomas Cook and Son. Pochodził z ubogiej rodziny z Derbyshire. W 1841 roku zorganizował wycieczkę kolejową do Loughborough dla członków Leicester Temperance Society, a po jej sukcesie zaczął organizować dalsze wyjazdy po Wielkiej Brytanii, a potem do Stanów Zjednoczonych, Egiptu i Ziemi Świętej. W 1872 roku założył z synem firmę Thomas Cook and Son.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "pilot-wycieczek",
+  "imie": "Beata Pawlikowska",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Beata_Pawlikowska",
+  "status": "popraw",
+  "problemy": [
+   "„Ponad 100 krajów\", bestsellery, programy telewizyjne i blogi niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polska podróżniczka, pisarka, dziennikarka, tłumaczka, fotografka i ilustratorka książek (ur. 1965 w Koszalinie).",
+  "proponowanyOpis": "Polska podróżniczka i pisarka",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "pilot-wycieczek",
+  "imie": "Nellie Bly",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Nellie_Bly",
+  "status": "popraw",
+  "problemy": [
+   "Rok 1889 niepotwierdzony przez wstęp (wstęp: rekordowa podróż w 72 dni)",
+   "Błąd gramatyczny w bio: „zainspirował pokolenia\" (rodzaj męski)",
+   "„Pionierka dziennikarstwa śledczego\": wstęp mówi o dziennikarstwie sensacyjnym i immersyjnym"
+  ],
+  "proponowanyBio": "Amerykańska dziennikarka (1864 do 1922), właściwie Elizabeth Cochrane Seaman, znana z rekordowej podróży dookoła świata w 72 dni, którą odbyła na wzór fikcyjnego Phileasa Fogga Juliusza Verne'a. Ujawniła warunki w szpitalu psychiatrycznym, pracując tam incognito. Przyczyniła się do rozwoju dziennikarstwa immersyjnego.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "stolarz",
+  "imie": "Sam Maloof",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Sam_Maloof",
+  "status": "popraw",
+  "problemy": [
+   "Fotele bujane i brak wzorników niepotwierdzone przez wstęp",
+   "MacArthur Fellowship: wstęp mówi o pierwszym rzemieślniku, który ją otrzymał"
+  ],
+  "proponowanyBio": "Amerykański projektant mebli i stolarz (1916 do 2009). Jego prace znajdują się w zbiorach kilku dużych amerykańskich muzeów, m.in. Metropolitan Museum of Art, Smithsonian American Art Museum i Philadelphia Museum of Art. Jako pierwszy rzemieślnik otrzymał stypendium MacArthura. „New York Times\" opisał go jako „centralną postać powojennego amerykańskiego ruchu rzemieślniczego\".",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "stolarz",
+  "imie": "Thomas Chippendale",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Thomas_Chippendale",
+  "status": "popraw",
+  "problemy": [
+   "„Pierwszy katalog wzorów mebli\": wstęp mówi o najważniejszym zbiorze wzorów mebli opublikowanym dotąd w Anglii (1754)",
+   "Styl neogotycki niepotwierdzony (wstęp: rokoko i neoklasycyzm)"
+  ],
+  "proponowanyBio": "Angielski stolarz i projektant mebli (1718 do 1779), działający w Londynie, tworzący meble w stylu środkowego georgiańskiego, angielskiego rokoka i neoklasycyzmu. W 1754 roku opublikował katalog wzorów „The Gentleman and Cabinet Maker's Director\", najważniejszy do tamtej pory zbiór projektów mebli wydany w Anglii. Od jego nazwiska „Chippendale\" stało się określeniem mebli podobnych do jego wzorów.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "stolarz",
+  "imie": "Nakashima George",
+  "sourceUrl": "https://en.wikipedia.org/wiki/George_Nakashima",
+  "status": "popraw",
+  "problemy": [
+   "Meblarstwo organiczne, sęki i krawędzie, muzea i nauka u japońskich mistrzów niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Amerykański stolarz i architekt (1905 do 1990), właściwie George Katsutoshi Nakashima. W 1983 roku otrzymał od cesarza Japonii Order Świętego Skarbu.",
+  "proponowanyOpis": "Amerykański stolarz i architekt",
+  "uwagi": "Wstęp krótki; pochodzenie japońskie wymaga potwierdzenia w treści artykułu."
+ },
+ {
+  "zawodId": "inzynier-budownictwa",
+  "imie": "Stefan Bryła",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Stefan_Bryła",
+  "status": "popraw",
+  "problemy": [
+   "Pierwszy na świecie most spawany na Słudwi w 1929 roku i profesury niepotwierdzone przez wstęp",
+   "Zamordowanie przez Niemców niepotwierdzone przez wstęp (wstęp: zm. 1943 w Warszawie)"
+  ],
+  "proponowanyBio": "Polski inżynier budowlany (1886 do 1943), pionier praktycznego zastosowania spawalnictwa i konstrukcji spawanych, polityk lwowskiej chadecji i poseł na Sejm II RP oraz dyrektor Departamentu Robót Publicznych i Odbudowy Delegatury Rządu na Kraj. Urodził się w Krakowie, zmarł w Warszawie.",
+  "proponowanyOpis": "Inżynier, pionier konstrukcji spawanych",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "inzynier-budownictwa",
+  "imie": "Gustave Eiffel",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Gustave_Eiffel",
+  "status": "popraw",
+  "problemy": [
+   "Wieża Eiffla (Wystawa Światowa 1889) i Statua Wolności niepotwierdzone przez wstęp pl (wstęp mówi o konstruktorze mostów, wiaduktów, śluz i konstrukcji stalowych oraz żeliwnych)"
+  ],
+  "proponowanyBio": "Francuski inżynier i architekt (1832 do 1923), konstruktor mostów, wiaduktów, śluz i innych konstrukcji stalowych oraz żeliwnych. Urodził się w Dijon, zmarł w Paryżu.",
+  "proponowanyOpis": "Francuski inżynier, konstruktor mostów i konstrukcji stalowych",
+  "uwagi": "Wieża Eiffla jest powszechnie znanym dziełem jego firmy, ale wstęp pl jej nie wymienia."
+ },
+ {
+  "zawodId": "inzynier-budownictwa",
+  "imie": "Isambard Kingdom Brunel",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Isambard_Kingdom_Brunel",
+  "status": "popraw",
+  "problemy": [
+   "„Uznawany za największego inżyniera epoki wiktoriańskiej\": wstęp mówi „być może najwybitniejszy inżynier wiktoriański\"",
+   "Wstęp: pierwszy duży projekt, tunel pod Tamizą, został przerwany po wypadku i ukończony bez jego udziału",
+   "„Genialny\" w opisie ocena"
+  ],
+  "proponowanyBio": "Angielski inżynier lądowy i morski (1806 do 1859), uważany za „jedną z największych postaci rewolucji przemysłowej\". Pierwszy inżynier Great Western Railway, odpowiadał za projekt i budowę jej linii Londyn-Bristol. Zbudował największe wówczas parowce świata: SS Great Western, SS Great Britain i SS Great Eastern. Jego pierwszym dużym projektem był tunel pod Tamizą.",
+  "proponowanyOpis": "Inżynier epoki wiktoriańskiej, twórca kolei i statków parowych",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "inzynier-mechanik",
+  "imie": "Nikola Tesla",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Nikola_Tesla",
+  "status": "popraw",
+  "problemy": [
+   "„Ponad 300 patentów\": wstęp mówi „blisko 300 patentów\"",
+   "Przesyłanie energii bezprzewodowo, śmierć w samotności i silnik indukcyjny niepotwierdzone przez wstęp",
+   "„Serbsko-amerykański\": wstęp mówi „serbski inżynier pochodzący z Chorwacji\""
+  ],
+  "proponowanyBio": "Serbski inżynier pochodzący z Chorwacji (1856 do 1943), elektrotechnik, radiotechnik i wynalazca. Konstruował urządzenia do wytwarzania i wykorzystania prądu przemiennego. Był autorem blisko 300 patentów chroniących 125 wynalazków, m.in. silnika elektrycznego, prądnicy prądu przemiennego i transformatora Tesli.",
+  "proponowanyOpis": null,
+  "uwagi": "Duplikat osoby z zawodu #70."
+ },
+ {
+  "zawodId": "inzynier-mechanik",
+  "imie": "James Watt",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/James_Watt",
+  "status": "popraw",
+  "problemy": [
+   "Jednostka mocy wat niepotwierdzona przez wstęp"
+  ],
+  "proponowanyBio": "Szkocki inżynier i wynalazca (1736 do 1819), twórca kilku kluczowych ulepszeń konstrukcji maszyny parowej, dzięki którym maszyny te zapoczątkowały rewolucję przemysłową. Urodził się w Greenock.",
+  "proponowanyOpis": null,
+  "uwagi": "Wstęp pl podaje ur. 19 lub 30 stycznia 1736."
+ },
+ {
+  "zawodId": "inzynier-mechanik",
+  "imie": "Rudolf Diesel",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Rudolf_Diesel",
+  "status": "popraw",
+  "problemy": [
+   "„Niemiecko-francuski\": wstęp mówi o niemieckim wynalazcy i inżynierze mechaniku",
+   "Rok 1893, zastosowania silnika i zaginięcie na Morzu Północnym niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Niemiecki wynalazca i inżynier mechanik (1858 do 1913), najbardziej znany jako twórca silnika wysokoprężnego (Diesla), którego nazwa pochodzi od jego nazwiska.",
+  "proponowanyOpis": "Niemiecki wynalazca silnika Diesla",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "inzynier-mechanik",
+  "imie": "Tadeusz Tański",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Tadeusz_Tański",
+  "status": "popraw",
+  "problemy": [
+   "Błąd miejsca śmierci: bio podaje Sachsenhausen, wstęp podaje Auschwitz-Birkenau",
+   "Samochód CWS T-1, motocykl Sokół i profesura na PW niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski konstruktor samochodowy, inżynier mechanik i wynalazca (1892 do 1941), pseudonim Nałęcz. Urodził się w Moskwie, zmarł w Auschwitz-Birkenau.",
+  "proponowanyOpis": "Polski konstruktor samochodowy",
+  "uwagi": "Opis „twórca CWS T-1\" wymaga potwierdzenia poza wstępem."
+ },
+ {
+  "zawodId": "geodeta",
+  "imie": "Tadeusz Kościuszko",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Tadeusz_Kościuszko",
+  "status": "popraw",
+  "problemy": [
+   "Fortyfikowanie West Point niepotwierdzone przez wstęp",
+   "Rok insurekcji niepotwierdzony; „polski i amerykański bohater narodowy\" ogólnikowe"
+  ],
+  "proponowanyBio": "Polski inżynier wojskowy (1746 do 1817), Najwyższy Naczelnik Siły Zbrojnej Narodowej w czasie insurekcji kościuszkowskiej. Generał lejtnant wojska Rzeczypospolitej Obojga Narodów oraz brevet generał brygady Armii Kontynentalnej w czasie wojny o niepodległość Stanów Zjednoczonych. Kawaler Orderu Virtuti Militari.",
+  "proponowanyOpis": "Inżynier wojskowy i generał",
+  "uwagi": "Duplikat osoby z zawodu #164. Opis „geodeta\" niepotwierdzony przez wstęp."
+ },
+ {
+  "zawodId": "geodeta",
+  "imie": "Józef Chodźko",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Józef_Chodźko",
+  "status": "popraw",
+  "problemy": [
+   "Triangulacja Kaukazu, pomiar Elbrusa, członkostwo w Rosyjskim Towarzystwie Geograficznym i „pionier geodezji górskiej\" niepotwierdzone przez wstęp",
+   "„Generał armii rosyjskiej\": wstęp mówi o generale lejtnancie"
+  ],
+  "proponowanyBio": "Polski topograf i geodeta w służbie rosyjskiej, badacz Kaukazu, generał lejtnant armii Imperium Rosyjskiego (1800 do 1881). Urodził się w Krzywiczach, zmarł w Tyflisie. Syn Jana Chodźki, rodzony brat Aleksandra i Michała.",
+  "proponowanyOpis": "Polski geodeta i badacz Kaukazu",
+  "uwagi": "Wstęp pl podaje niepewne daty urodzenia i śmierci (grudzień 1800, luty lub marzec 1881)."
+ },
+ {
+  "zawodId": "geodeta",
+  "imie": "Eratostenes",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Eratostenes",
+  "status": "popraw",
+  "problemy": [
+   "„Dyrektor Biblioteki Aleksandryjskiej\" i „ojciec geodezji\" niepotwierdzone przez wstęp",
+   "Wstęp podaje wyznaczenie obwodu Ziemi jako jedno z osiągnięć, bez opisu metody kątów"
+  ],
+  "proponowanyBio": "Starogrecki uczony (276 do 194 p.n.e.), urodzony w Cyrenie, matematyk, astronom, geodeta i geograf. Jego najważniejsze osiągnięcia to sito Eratostenesa (sposób znajdowania liczb pierwszych), wyznaczenie obwodu Ziemi, oszacowanie odległości Ziemi od Słońca i Księżyca, katalog 675 gwiazd i konstrukcja mezolabium.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "geodeta",
+  "imie": "Friedrich Bessel",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Friedrich_Bessel",
+  "status": "popraw",
+  "problemy": [
+   "„Elipsoida Bessela\" i jej stosowanie przez ponad 100 lat niepotwierdzone przez wstęp",
+   "Wstęp: pierwszy astronom, który wyznaczył wiarygodne odległości gwiazdy metodą paralaksy"
+  ],
+  "proponowanyBio": "Niemiecki astronom, matematyk, fizyk i geodeta (1784 do 1846). Jako pierwszy astronom wyznaczył wiarygodną odległość Słońca od innej gwiazdy metodą paralaksy. Od jego nazwiska pochodzi nazwa funkcji Bessela.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "urbanista",
+  "imie": "Jan Gehl",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Jan_Gehl",
+  "status": "popraw",
+  "problemy": [
+   "Książki „Życie między budynkami\" i „Miasta dla ludzi\" oraz wpływ na Kopenhagę, Nowy Jork, Melbourne i Moskwę niepotwierdzone przez wstęp",
+   "Opis „twórca koncepcji miasta ludzkiego\" niepotwierdzony"
+  ],
+  "proponowanyBio": "Duński architekt i urbanista (ur. 1936 w Kopenhadze), profesor Szkoły Architektury Królewskiej Duńskiej Akademii Sztuk i założyciel przedsiębiorstwa Gehl Architects.",
+  "proponowanyOpis": "Duński architekt i urbanista",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "urbanista",
+  "imie": "Le Corbusier",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Le_Corbusier",
+  "status": "popraw",
+  "problemy": [
+   "„Pięć punktów nowej architektury\", Ville Radieuse, Chandigarh, Marsylia i „17 obiektów UNESCO\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Francuski architekt szwajcarskiego pochodzenia (1887 do 1965), właściwie Charles-Édouard Jeanneret-Gris, urbanista, malarz i rzeźbiarz, czołowy przedstawiciel modernistycznego stylu międzynarodowego. Urodził się w La Chaux-de-Fonds, zmarł w Roquebrune-Cap-Martin.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "urbanista",
+  "imie": "Jane Jacobs",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Jane_Jacobs",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne ze wstępem en (Jane Jacobs, „The Death and Life of Great American Cities\" 1961, sprzeciw wobec Lower Manhattan Expressway). Określenie „biblia urbanistyki\" ocenne."
+ },
+ {
+  "zawodId": "urbanista",
+  "imie": "Tadeusz Tołwiński",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Tadeusz_Tołwiński_(architekt)",
+  "status": "popraw",
+  "problemy": [
+   "„Urbanistyka\" jako pierwszy polski podręcznik i współtworzenie planów odbudowy Warszawy po II wojnie niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski architekt i urbanista (1887 do 1951), przedstawiciel neobaroku i modernizmu, historyk i teoretyk urbanistyki, profesor Politechniki Warszawskiej. Autor planów regulacyjnych Warszawy (1916), planu odbudowy Kalisza (1916) i projektu gmachu Muzeum Narodowego w Warszawie (1924).",
+  "proponowanyOpis": null,
+  "uwagi": "Urodzony w Odessie, zmarł w Warszawie."
+ },
+ {
+  "zawodId": "mechanik-samochodowy",
+  "imie": "Enzo Ferrari",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Enzo_Ferrari",
+  "status": "popraw",
+  "problemy": [
+   "Zaczynanie jako mechanik i Scuderia Ferrari w Formule 1 niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Włoski kierowca wyścigowy (1898 do 1988) i założyciel wytwórni samochodów wyścigowych i sportowych Ferrari. Urodził się i zmarł w Modenie.",
+  "proponowanyOpis": "Włoski kierowca wyścigowy i założyciel marki Ferrari",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "mechanik-samochodowy",
+  "imie": "Karl Benz",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Karl_Benz",
+  "status": "popraw",
+  "problemy": [
+   "Patent-Motorwagen z 1886 roku i współzałożenie Mercedes-Benz niepotwierdzone przez wstęp",
+   "„Pierwszy na świecie samochód\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Niemiecki inżynier i pionier motoryzacji (1844 do 1929). Urodził się w Mühlburgu, zmarł w Ladenburgu.",
+  "proponowanyOpis": "Niemiecki inżynier, pionier motoryzacji",
+  "uwagi": "Wstęp pl bardzo krótki; wynalezienie samochodu wymaga potwierdzenia w treści artykułu."
+ },
+ {
+  "zawodId": "mechanik-samochodowy",
+  "imie": "Soichiro Honda",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Soichiro_Honda",
+  "status": "popraw",
+  "problemy": [
+   "Praca jako mechanik samochodowy i motto o wyścigach niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Japoński inżynier i przemysłowiec (1906 do 1991). W 1948 roku założył Honda Motor Co. i nadzorował jej rozwój od drewnianego baraku produkującego silniki do rowerów do międzynarodowego producenta samochodów i motocykli.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "mechanik-samochodowy",
+  "imie": "Carroll Shelby",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Carroll_Shelby",
+  "status": "popraw",
+  "problemy": [
+   "Pilot wojskowy i hodowca drobiu niepotwierdzone przez wstęp",
+   "Ford GT40 „pokonał Ferrari w Le Mans 1966\": wstęp podaje wygrane w Le Mans w latach 1966 do 1969"
+  ],
+  "proponowanyBio": "Amerykański konstruktor samochodów, kierowca wyścigowy i przedsiębiorca (1923 do 2012). Był zaangażowany w tworzenie AC Cobra i Mustanga dla Ford Motor Company. Wraz z kierowcą Kenem Milesem opracował Forda GT40, który wygrał 24-godzinny wyścig Le Mans w latach 1966 do 1969. W 1959 roku wygrał Le Mans jako kierowca Aston Martin DBR1 razem z Royem Salvadorim.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "spawacz",
+  "imie": "Stefan Bryła",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Stefan_Bryła",
+  "status": "popraw",
+  "problemy": [
+   "Pierwszy na świecie most spawany na Słudwi w 1929 roku i profesury niepotwierdzone przez wstęp",
+   "Zamordowanie przez Niemców niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski inżynier budowlany (1886 do 1943), pionier praktycznego zastosowania spawalnictwa oraz konstrukcji spawanych, polityk lwowskiej chadecji i poseł na Sejm II RP. Urodził się w Krakowie, zmarł w Warszawie.",
+  "proponowanyOpis": "Inżynier, pionier konstrukcji spawanych",
+  "uwagi": "Duplikat osoby z zawodu #224."
+ },
+ {
+  "zawodId": "spawacz",
+  "imie": "Nikołaj Benardos",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Nikolay_Benardos",
+  "status": "popraw",
+  "problemy": [
+   "Błąd roku: bio podaje patent z 1885, wstęp mówi o wprowadzeniu spawania łukowego elektrodą węglową w 1881 roku",
+   "„Ojciec spawania elektrycznego\" niepotwierdzone"
+  ],
+  "proponowanyBio": "Rosyjski wynalazca pochodzenia greckiego (1842 do 1905), który w 1881 roku wprowadził spawanie łukowe elektrodą węglową, pierwszą praktyczną metodę spawania łukowego.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "spawacz",
+  "imie": "Lincoln Electric",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Lincoln_Electric",
+  "status": "usun",
+  "problemy": [
+   "Artykuł dotyczy firmy Lincoln Electric Holdings, nie osób",
+   "Daty życia Johna C. i Jamesa F. Lincolnów, „największa na świecie firma\" i system zarządzania niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Wpis nie dotyczy osoby. Jeśli ma zostać, należałoby zastąpić go artykułami o konkretnych osobach (John C. Lincoln, James F. Lincoln) po osobnej weryfikacji."
+ },
+ {
+  "zawodId": "kartograf",
+  "imie": "Gerardus Mercator",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Gerard_Merkator",
+  "status": "popraw",
+  "problemy": [
+   "Ukucie terminu „atlas\", użycie projekcji w mapach internetowych i „zrewolucjonizowała nawigację\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Flamandzki matematyk i geograf (1512 do 1594), właściwie Gerhard Kremer, prekursor współczesnej kartografii. Autor odwzorowania walcowego wiernokątnego, znanego jako odwzorowanie Merkatora. Urodził się w Rupelmonde, zmarł w Duisburgu.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "kartograf",
+  "imie": "Abraham Ortelius",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Abraham_Ortelius",
+  "status": "popraw",
+  "problemy": [
+   "Lista 70 map, „bestseller epoki\" i „300 lat przed Wegenerem\" niepotwierdzone przez wstęp (wstęp: jako pierwszy zaproponował, że kontynenty były połączone przed dryfem)",
+   "Daty urodzenia 4 lub 14 kwietnia 1527 niepewne"
+  ],
+  "proponowanyBio": "Kartograf, geograf i kosmograf z Antwerpii (1527 do 1598), uważany za twórcę pierwszego nowoczesnego atlasu, „Theatrum Orbis Terrarum\" (1570). Razem z Gemmą Frisiusem i Gerardusem Mercatorem uważany za jednego ze twórców niderlandzkiej szkoły kartografii i geografii. Jako pierwszy zaproponował, że kontynenty były niegdyś połączone, zanim dryfowały na obecne miejsca.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "kartograf",
+  "imie": "Eugeniusz Romer",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Eugeniusz_Romer",
+  "status": "popraw",
+  "problemy": [
+   "Atlas z 1916 roku i rola na konferencji wersalskiej niepotwierdzone przez wstęp",
+   "Wstęp: współzałożyciel (nie założyciel) Książnicy-Atlas",
+   "Opis „największy polski kartograf XX wieku\" niepotwierdzony; wstęp: twórca nowoczesnej kartografii polskiej"
+  ],
+  "proponowanyBio": "Polski geograf, kartograf i geopolityk (1871 do 1954), twórca nowoczesnej kartografii polskiej, współzałożyciel wydawnictwa Książnica-Atlas, encyklopedysta. Profesor Uniwersytetu we Lwowie (później Uniwersytetu Jana Kazimierza) i Uniwersytetu Jagiellońskiego w Krakowie, wiceprezes Międzynarodowej Unii Geograficznej.",
+  "proponowanyOpis": "Polski geograf i kartograf, twórca nowoczesnej kartografii polskiej",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "kartograf",
+  "imie": "Claudius Ptolemeusz",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Klaudiusz_Ptolemeusz",
+  "status": "popraw",
+  "problemy": [
+   "Daty: bio podaje ok. 100 do 170 n.e., wstęp ok. 100 do ok. 168",
+   "„Geografia\" z 8000 współrzędnymi, siatka kartograficzna i „1400 lat\" niepotwierdzone przez wstęp",
+   "Wstęp: astronom, matematyk i geograf; autor „Almagestu\""
+  ],
+  "proponowanyBio": "Astronom, matematyk i geograf pochodzenia greckiego (ok. 100 do ok. 168), urodzony w Tebaidzie, działający w Aleksandrii. Autor „Almagestu\", traktatu o astronomii i matematycznego wykładu teorii geocentrycznej, a także „Geografii\" i „Tetrabiblos\". Jego poglądy na budowę wszechświata obowiązywały przez kilkanaście stuleci, aż do Mikołaja Kopernika.",
+  "proponowanyOpis": "Starożytny astronom, matematyk i geograf",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "architekt-krajobrazu",
+  "imie": "Frederick Law Olmsted",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Frederick_Law_Olmsted",
+  "status": "popraw",
+  "problemy": [
+   "Central Park, Prospect Park i Emerald Necklace niepotwierdzone przez wstęp pl (wstęp: amerykański architekt krajobrazu)"
+  ],
+  "proponowanyBio": "Amerykański architekt krajobrazu (1822 do 1903), urodzony w Hartford, zmarły w Brookline w stanie Massachusetts.",
+  "proponowanyOpis": "Amerykański architekt krajobrazu",
+  "uwagi": "Wstęp pl jednozdaniowy; Central Park jest powszechnie znanym dziełem, wymaga potwierdzenia w treści artykułu."
+ },
+ {
+  "zawodId": "architekt-krajobrazu",
+  "imie": "Gertrude Jekyll",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Gertrude_Jekyll",
+  "status": "popraw",
+  "problemy": [
+   "Styl Arts and Crafts i współpraca z Lutyensem niepotwierdzone przez wstęp",
+   "Wstęp: ogrodniczka, projektantka ogrodów, rzemieślniczka, fotografka, pisarka i artystka"
+  ],
+  "proponowanyBio": "Brytyjska ogrodniczka, projektantka ogrodów, rzemieślniczka, fotografka, pisarka i artystka (1843 do 1932). Stworzyła ponad 400 ogrodów w Wielkiej Brytanii, Europie i Stanach Zjednoczonych i napisała ponad 1000 artykułów do czasopism, m.in. „Country Life\".",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "architekt-krajobrazu",
+  "imie": "Franciszek Szanior",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Franciszek_Szanior",
+  "status": "popraw",
+  "problemy": [
+   "Park Ujazdowski, Ogród Saski i „reformator polskiej sztuki ogrodniczej\" niepotwierdzone przez wstęp",
+   "„Architekt krajobrazu\": wstęp mówi o ogrodniku"
+  ],
+  "proponowanyBio": "Polski ogrodnik (1853 do 1945), działający głównie w Warszawie. Urodził się w Warszawie, zmarł w Kamieńsku.",
+  "proponowanyOpis": "Polski ogrodnik działający w Warszawie",
+  "uwagi": "Wstęp krótki."
+ },
+ {
+  "zawodId": "architekt-krajobrazu",
+  "imie": "Roberto Burle Marx",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Roberto_Burle_Marx",
+  "status": "popraw",
+  "problemy": [
+   "Promenada Copacabana niepotwierdzona przez wstęp",
+   "„Zredefiniował architekturę krajobrazu XX wieku\" i „ogrody dziełami sztuki\" ogólnikowe"
+  ],
+  "proponowanyBio": "Brazylijski architekt krajobrazu (1909 do 1994), a także malarz, grafik, ekolog i muzyk, którego projekty parków i ogrodów przyniosły mu światową sławę. Uważa się, że wprowadził modernistyczną architekturę krajobrazu do Brazylii. Jego prace wywarły duży wpływ na projektowanie ogrodów tropikalnych w XX wieku. Był jednym z pierwszych orędowników ochrony brazylijskich lasów deszczowych.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "rolnik",
+  "imie": "Norman Borlaug",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Norman_Borlaug",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne ze wstępem en (Nobel Peace Prize, Zielona Rewolucja, wysokoplenne odmiany pszenicy, „credited with saving over a billion people\"). Regiony (Azja, Ameryka Łacińska) są bardziej szczegółowe niż we wstępie."
+ },
+ {
+  "zawodId": "rolnik",
+  "imie": "Michał Oczapowski",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Michał_Oczapowski",
+  "status": "popraw",
+  "problemy": [
+   "Profesura i rektorat w Instytucie Gospodarstwa Wiejskiego w Marymoncie oraz 13-tomowe „Gospodarstwo wiejskie\" niepotwierdzone przez wstęp",
+   "Wstęp: profesor Cesarskiego Uniwersytetu Wileńskiego"
+  ],
+  "proponowanyBio": "Polski agronom (1788 do 1854), profesor Cesarskiego Uniwersytetu Wileńskiego, pionier doświadczalnictwa rolniczego i teoretyk rolnictwa. Urodził się w Pociejkach koło Nowogródka, zmarł w Warszawie.",
+  "proponowanyOpis": "Polski agronom, pionier doświadczalnictwa rolniczego",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "rolnik",
+  "imie": "Vandana Shiva",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Vandana_Shiva",
+  "status": "popraw",
+  "problemy": [
+   "„Fizyczka\", Navdanya, „Stolen Harvest\" i Right Livelihood Award niepotwierdzone przez wstęp",
+   "Wstęp: indyjska uczona, aktywistka ekologiczna, zwolenniczka suwerenności żywnościowej, ekofeministka"
+  ],
+  "proponowanyBio": "Indyjska uczona, aktywistka ekologiczna, zwolenniczka suwerenności żywnościowej, ekofeministka i autorka o poglądach antyglobalistycznych (ur. 1952), mieszkająca w Delhi. Napisała ponad 20 książek. Znana jako „Gandhi ziarna\" za działalność w ruchu przeciwko GMO.",
+  "proponowanyOpis": "Indyjska aktywistka ekologiczna i autorka",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "lesnik",
+  "imie": "Adam Loret",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Adam_Loret",
+  "status": "ok",
+  "problemy": [],
+  "proponowanyBio": null,
+  "proponowanyOpis": null,
+  "uwagi": "Zgodne ze wstępem (leśnik, ur. 1884 w Jaśle, zm. w listopadzie 1939 koło Wołożyna, ofiara sowieckich represji)."
+ },
+ {
+  "zawodId": "lesnik",
+  "imie": "Gifford Pinchot",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Gifford_Pinchot",
+  "status": "popraw",
+  "problemy": [
+   "Wprowadzenie terminu „conservation\" i autorstwo koncepcji zrównoważonego zarządzania lasami niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Amerykański leśnik i polityk (1865 do 1946), czwarty szef Division of Forestry, pierwszy szef United States Forest Service i 28. gubernator Pensylwanii. Po ukończeniu Yale w 1889 roku zajął się leśnictwem. Blisko współpracował z prezydentem Theodorem Rooseveltem, który podzielał jego poglądy na znaczenie ochrony przyrody.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "lesnik",
+  "imie": "Wangari Maathai",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Wangari_Maathai",
+  "status": "popraw",
+  "problemy": [
+   "„Pierwsza Afrykanka z doktoratem\": wstęp mówi o pierwszej kobiecie w Afryce Wschodniej i Środkowej z tytułem doktora",
+   "Ponad 51 milionów drzew niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Kenijska działaczka społeczna, ekologiczna i polityczna (1940 do 2011), założycielka Green Belt Movement, organizacji zajmującej się sadzeniem drzew, ochroną środowiska i prawami kobiet. W 2004 roku jako pierwsza Afrykanka otrzymała Pokojową Nagrodę Nobla. Jako pierwsza kobieta w Afryce Wschodniej i Środkowej uzyskała doktorat (Uniwersytet w Nairobi). W 1984 roku otrzymała Right Livelihood Award.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "ogrodnik",
+  "imie": "Monty Don",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Monty_Don",
+  "status": "popraw",
+  "problemy": [
+   "Longmeadow, „najpopularniejszy ogrodnik\" i ogrodnictwo organiczne niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Angielski ogrodnik, prezenter i pisarz (ur. 1955), najbardziej znany jako główny prowadzący programu BBC „Gardeners' World\", w którym w 2003 roku zastąpił Alana Titchmarsha. Opublikował ponad 25 książek. W latach 1994 do 2006 pisał cotygodniową kolumnę ogrodniczą w „The Observer\".",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "ogrodnik",
+  "imie": "Capability Brown",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Capability_Brown",
+  "status": "popraw",
+  "problemy": [
+   "Ponad 170 parków, pochodzenie przydomka „Capability\" i podbicie Europy niepotwierdzone przez wstęp",
+   "Wstęp: ur. ok. 1715 lub 1716, ochrzczony 30 sierpnia 1716"
+  ],
+  "proponowanyBio": "Angielski ogrodnik i architekt krajobrazu (ur. ok. 1715 lub 1716, zm. 1783), ważna postać angielskiego ogrodu krajobrazowego. Najbardziej znany z krajobrazowych parków angielskich rezydencji wiejskich. Jako praktyk oferował klientom pełny zakres usług, od projektu po wykonanie i pielęgnację.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "ogrodnik",
+  "imie": "Szymon Syreniusz",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Szymon_Syreński_(Syreniusz)",
+  "status": "popraw",
+  "problemy": [
+   "Liczba 765 gatunków, „pierwszy polski atlas roślin\" i „przez 200 lat jedyny podręcznik\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski profesor Akademii Krakowskiej, lekarz i botanik (ok. 1540 do 1611), badacz leczniczych właściwości ziół, jeden z najwybitniejszych polskich zielnikarzy, twórca ilustrowanego „Zielnika o roślinach użytkowych\". Urodził się w Oświęcimiu, zmarł w Krakowie.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "ogrodnik",
+  "imie": "Vita Sackville-West",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Vita_Sackville-West",
+  "status": "popraw",
+  "problemy": [
+   "„200 000 odwiedzających rocznie\" niepotwierdzone przez wstęp",
+   "Wstęp: ogród stworzyła razem z mężem, Haroldem Nicolsonem"
+  ],
+  "proponowanyBio": "Angielska pisarka i projektantka ogrodów (1892 do 1962), powieściopisarka, poetka i dziennikarka. Dwukrotnie otrzymała Hawthornden Prize. W latach 1946 do 1961 pisała kolumnę w „The Observer\". Znana ze słynnego ogrodu w Sissinghurst w hrabstwie Kent, który stworzyła z mężem, sir Haroldem Nicolsonem.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "inzynier-srodowiska",
+  "imie": "Greta Thunberg",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Greta_Thunberg",
+  "status": "popraw",
+  "problemy": [
+   "Przemówienia na szczycie ONZ i w Davos oraz „miliony protestujących\" niepotwierdzone przez wstęp",
+   "Nazwa ruchu: wstęp mówi o inicjatorce Młodzieżowego Strajku Klimatycznego"
+  ],
+  "proponowanyBio": "Szwedzka aktywistka klimatyczna i polityczna (ur. 2003 w Sztokholmie), Człowiek Roku tygodnika „Time\" za 2019 rok. W sierpniu 2018 roku rozpoczęła protest pod budynkiem szwedzkiego parlamentu przeciwko bierności władz wobec zmian klimatu. Inicjatorka Młodzieżowego Strajku Klimatycznego. Laureatka Right Livelihood Award.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "inzynier-srodowiska",
+  "imie": "Wangari Maathai",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Wangari_Maathai",
+  "status": "popraw",
+  "problemy": [
+   "Doktorat z biologii, ponad 51 milionów drzew i demokratyzacja Kenii niepotwierdzone przez wstęp pl"
+  ],
+  "proponowanyBio": "Kenijska działaczka feministyczna i ekologiczna (1940 do 2011), założycielka Partii Zielonych Kenii (Mazingira), laureatka Pokojowej Nagrody Nobla w 2004 roku. Pochodziła z plemienia Kikuju. Urodziła się w Ihithe w dystrykcie Nyeri, zmarła w Nairobi.",
+  "proponowanyOpis": null,
+  "uwagi": "Duplikat osoby z zawodu #259."
+ },
+ {
+  "zawodId": "inzynier-srodowiska",
+  "imie": "Rachel Carson",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Rachel_Carson",
+  "status": "popraw",
+  "problemy": [
+   "Zakaz DDT w USA i powstanie EPA jako skutki książki niepotwierdzone przez wstęp",
+   "„Zmieniła podejście na całym świecie\" ogólnikowe"
+  ],
+  "proponowanyBio": "Amerykańska biolożka morska, pisarka i działaczka na rzecz ochrony przyrody (1907 do 1964). Jej trylogia morska (1941 do 1955) i książka „Silent Spring\" (1962) przyczyniły się do rozwoju ochrony mórz i światowego ruchu ekologicznego. Za bestsellerową książkę „The Sea Around Us\" (1951) otrzymała National Book Award.",
+  "proponowanyOpis": null,
+  "uwagi": ""
+ },
+ {
+  "zawodId": "technik-weterynarii",
+  "imie": "James Herriot",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/James_Herriot",
+  "status": "popraw",
+  "problemy": [
+   "„Ponad 60 milionów sprzedanych książek\", serial BBC i Yorkshire niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Brytyjski lekarz weterynarii i pisarz, właściwie James Alfred „Alf\" Wight (1916 do 1995). Autor cyklu ośmiu powieści „Wszystkie stworzenia duże i małe\".",
+  "proponowanyOpis": null,
+  "uwagi": "Duplikat osoby z zawodu #86."
+ },
+ {
+  "zawodId": "technik-weterynarii",
+  "imie": "Bernhard Bang",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Bernhard_Bang",
+  "status": "popraw",
+  "problemy": [
+   "Program eradykacji gruźlicy bydlęcej i „metody przyjęte na całym świecie\" niepotwierdzone przez wstęp",
+   "„Mikrobiolog\": wstęp mówi o lekarzu weterynarii"
+  ],
+  "proponowanyBio": "Duński lekarz weterynarii (1848 do 1932). W 1897 roku odkrył bakterię Brucella abortus, zwaną pałeczką Banga, wywołującą zaraźliwą chorobę Banga (brucelozę), która powoduje poronienia u krów, a u ludzi gorączkę maltańską.",
+  "proponowanyOpis": null,
+  "uwagi": "Duplikat osoby z zawodu #88."
+ },
+ {
+  "zawodId": "technik-weterynarii",
+  "imie": "Daniel Elmer Salmon",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Daniel_Elmer_Salmon",
+  "status": "popraw",
+  "problemy": [
+   "„Epidemiolog\" i kierowanie programami zwalczania chorób niepotwierdzone przez wstęp",
+   "Wstęp: pierwszy dyplom DVM przyznany w USA; Salmonellę odkrył jego asystent Theobald Smith"
+  ],
+  "proponowanyBio": "Amerykański lekarz weterynarii (1850 do 1914). Uzyskał pierwszy w Stanach Zjednoczonych dyplom doktora medycyny weterynaryjnej (DVM) i całą karierę poświęcił badaniom chorób zwierząt w Departamencie Rolnictwa USA. Rodzaj bakterii Salmonella, odkryty przez jego asystenta Theobalda Smitha, nazwano na jego cześć.",
+  "proponowanyOpis": "Amerykański weterynarz, na którego cześć nazwano bakterie Salmonella",
+  "uwagi": ""
+ },
+ {
+  "zawodId": "technik-weterynarii",
+  "imie": "Ludwik Hirszfeld",
+  "sourceUrl": "https://pl.wikipedia.org/wiki/Ludwik_Hirszfeld",
+  "status": "usun",
+  "problemy": [
+   "Opis „pracował też z weterynarią\" niepotwierdzony i nie wynika ze wstępu (bakteriolog i immunolog, grupy krwi)",
+   "Walka z epidemiami w getcie, Instytut Immunologii we Wrocławiu i „400 publikacji\" niepotwierdzone przez wstęp"
+  ],
+  "proponowanyBio": "Polski lekarz, bakteriolog i immunolog (1884 do 1954), twórca polskiej szkoły immunologicznej i seroantropologii, wprowadził oznaczenia grup krwi układu AB0.",
+  "proponowanyOpis": null,
+  "uwagi": "Brak podstaw w Wikipedii, by wiązać go z weterynarią; do usunięcia z tego zawodu (w innym zawodzie bio z #8 po poprawce)."
+ }
+]
