@@ -475,7 +475,7 @@ const Szkoly = (function () {
           <p class="career-column__text">${calcInviteHtml(d, 'szkoly__calc-link')}</p>
           ${hasThresholds(d) ? '' : `<p class="career-column__text szkola__muted">Szkoły ${esc(d.city.loc)} nie publikują progów punktowych w sieci, więc przy klasach ich nie zobaczysz.</p>`}
           ${citySelectHtml(d.slug, 'szkolyCity')}
-          <details class="szkoly__filters-wrap"${activeCount || window.innerWidth > 700 ? ' open' : ''}>
+          <details class="szkoly__filters-wrap"${activeCount ? ' open' : ''}>
             <summary class="szkoly__filters-toggle">Filtry${activeCount ? ` (${activeCount})` : ''}</summary>
             <form class="szkoly__filters" id="szkolyFilters">
               <fieldset class="szkoly__fieldset">
@@ -984,7 +984,7 @@ const Szkoly = (function () {
   // Wzór: rozporządzenie Ministra Edukacji z 3 kwietnia 2025 r., Dz.U. 2025 poz. 464, § 3 do § 7.
   // Pierwszeństwo laureatów i finalistów: art. 132 ustawy Prawo oświatowe.
   const LAW_URL = 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20250000464';
-  const GRADES = [['', 'wybierz'], ['6', '6, celujący (18 pkt)'], ['5', '5, bardzo dobry (17 pkt)'], ['4', '4, dobry (14 pkt)'], ['3', '3, dostateczny (8 pkt)'], ['2', '2, dopuszczający (2 pkt)']];
+  const GRADES = [['', 'wybierz'], ['6', '6 celujący'], ['5', '5 bardzo dobry'], ['4', '4 dobry'], ['3', '3 dostateczny'], ['2', '2 dopuszczający']];
   const GRADE_POINTS = { 6: 18, 5: 17, 4: 14, 3: 8, 2: 2 };
   // Oceny, o które pytamy; drugi język obcy obejmuje niemiecki, francuski, hiszpański, rosyjski, włoski
   const CALC_SUBJECTS = [['pol', 'Język polski'], ['mat', 'Matematyka'], ['ang', 'Język angielski'], ['obcy2', 'Drugi język obcy'],
@@ -1185,6 +1185,7 @@ const Szkoly = (function () {
         <a href="${attr(calcBack.href)}" class="results__back">&larr; ${esc(calcBack.label)}</a>
         <h1 class="results__title">Kalkulator punktów ósmoklasisty</h1>
         <p class="results__query">Wpisz wyniki egzaminu i oceny ze świadectwa. Policzę punkty według rozporządzenia o rekrutacji i porównam je z ostatnimi progami klas.</p>
+        <div class="kalk__layout">
         <form class="kalk__form" id="kalkForm" novalidate>
           <fieldset class="szkoly__fieldset">
             <legend class="szkoly__legend">Egzamin ósmoklasisty (wynik w procentach)</legend>
@@ -1194,7 +1195,7 @@ const Szkoly = (function () {
           <fieldset class="szkoly__fieldset">
             <legend class="szkoly__legend">Oceny na świadectwie</legend>
             <div class="kalk__grades">${CALC_SUBJECTS.map(([k, l]) => gradeSelect(k, l)).join('')}</div>
-            <p class="career-column__text szkola__muted">Każda klasa punktuje polski, matematykę i dwa inne przedmioty. Wpisz oceny ze wszystkich, a kalkulator weźmie te, które liczy dana klasa. Technikę, plastykę i WF możesz zostawić puste, jeśli nie masz ich na świadectwie: pominie tylko klasy, które je punktują.</p>
+            <p class="career-column__text szkola__muted">Punkty za oceny: 6 to 18, 5 to 17, 4 to 14, 3 to 8, 2 to 2. Każda klasa punktuje polski, matematykę i dwa inne przedmioty. Wpisz oceny ze wszystkich, a kalkulator weźmie te, które liczy dana klasa. Technikę, plastykę i WF możesz zostawić puste, jeśli nie masz ich na świadectwie: pominie tylko klasy, które je punktują.</p>
           </fieldset>
           <fieldset class="szkoly__fieldset">
             <legend class="szkoly__legend">Dodatkowe punkty</legend>
@@ -1240,8 +1241,11 @@ const Szkoly = (function () {
             </details>
           </fieldset>
         </form>
+        <div class="kalk__side">
         <div class="kalk__total" id="kalkTotal"></div>
         <div id="kalkResults"></div>
+        </div>
+        </div>
         <p class="szkoly__footnote">Punkty liczone według rozporządzenia Ministra Edukacji z 3 kwietnia 2025 r. (<a href="${LAW_URL}" target="_blank" rel="noopener">Dz.U. 2025 poz. 464</a>): polski i matematyka z egzaminu ×0,35, język obcy ×0,3 (także na poziomie dwujęzycznym), cztery oceny po 2 do 18 pkt, wyróżnienie 7 pkt, osiągnięcia do 18 pkt, wolontariat 3 pkt. Razem do 200 pkt.
         Osoby zwolnione z egzaminu albo z jednego przedmiotu dostają punkty z ocen na świadectwie według § 8 rozporządzenia; tego kalkulator nie liczy. Laureaci i finaliści olimpiad oraz laureaci konkursów przedmiotowych kuratora są przyjmowani w pierwszej kolejności (art. 132 Prawa oświatowego).
         Progi zmieniają się co roku. Lista pokazuje, gdzie taki wynik wystarczał ostatnio, i nie gwarantuje przyjęcia.</p>
