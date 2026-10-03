@@ -1,0 +1,341 @@
+{
+  "slug": "krakow",
+  "name": "Kraków",
+  "country": "Polska",
+  "currency": "PLN",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Uniwersytet Jagielloński ma domy studenckie z opłatą od 670 zł za miejsce w pokoju wieloosobowym do 1 270 zł za studio w Bursie Racławickiej na rok 2026/2027. Miasteczko Studenckie AGH jest tańsze: od 550 do 690 zł miesięcznie za miejsce dla studenta AGH i nie ma pokoi jednoosobowych. Wnioski do UJ składa się w USOSweb według harmonogramów zależnych od roku studiów i obywatelstwa, a od 15 września 2026 trwa nabór roczny."
+    },
+    {
+      "label": "Wynajem",
+      "text": "Wszystkie podane stawki to dane nieoficjalne z raportów portali i firm najmu. Według Otodom (lipiec 2026) pokój w mieszkaniu współdzielonym kosztuje średnio 1 242 zł na osobę przy dwóch osobach, a według Nieruchomosci-online.pl około 1 200 zł. Firma Mzuri podaje średni czynsz pokoju 772 zł plus około 374 zł opłat. Kawalerka kosztuje średnio 2 294 zł (Nieruchomosci-online.pl), a średni ofertowy czynsz za mieszkanie wynosił w kwietniu 2026 około 3 127 zł."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "Wniosek o akademik składa się w USOSweb w terminie z harmonogramu uczelni, a po nim możliwe są kolejne tury i nabór roczny od 15 września. UJ przewiduje też giełdę zamiany miejsc przed kwaterowaniem. Przy najmie prywatnym nie wpłacaj kaucji bez obejrzenia mieszkania i pisemnej umowy."
+    },
+    {
+      "label": "Uwagi",
+      "text": "Harmonogramy UJ nie dotyczą Collegium Medicum. Cenniki domów studenckich Politechniki Krakowskiej i Uniwersytetu Ekonomicznego nie są w zestawieniu, bo ich stawek nie potwierdzają strony uczelni."
+    }
+  ],
+  "dorms": [
+    {
+      "name": "Domy studenckie UJ (Bursa Jagiellońska, Bydgoska C/D, Nawojka, Piast, Żaczek), miejsce w pokoju wieloosobowym",
+      "operator": "Uniwersytet Jagielloński",
+      "url": "https://akademiki.uj.edu.pl/",
+      "roomType": "wieloosobowy",
+      "priceFrom": 670,
+      "priceTo": 670,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "includes": "Cennik nie wyszczególnia, co obejmuje opłata.",
+      "deposit": "Opłata rezerwacyjna równa miesięcznej opłacie, zaliczana na poczet pierwszego miesiąca. Zwrot możliwy po rezygnacji w USOSweb do 2 września 2026.",
+      "eligibility": "Studenci i doktoranci UJ, w tym cudzoziemcy podejmujący pełne studia i uczestnicy Erasmus+. Harmonogram nie obejmuje Collegium Medicum.",
+      "applicationInfo": "Wniosek w USOSweb, rok 2026/2027. Studenci wyższych lat, studiów II stopnia i osoby z maturą sprzed 2025: I nabór 18 maja do 15 czerwca 2026 (wyniki 30 czerwca). Studenci pierwszego roku z polską maturą od 2025: I nabór 21 lipca do 3 sierpnia 2026. Cudzoziemcy rozpoczynający studia z maturą od 2025: I nabór 18 maja do 13 lipca 2026. Dla wszystkich II nabór 1 do 31 sierpnia 2026 (wyniki 4 września, opłata rezerwacyjna 5 do 8 września). Od 15 września 2026 trwa nabór roczny, a miejsca przyznawane są na bieżąco.",
+      "applyUrl": "https://akademiki.uj.edu.pl/studenci/harmonogram",
+      "waitlist": "Wnioski bez miejsca pozostają nierozpatrzone, a uczelnia przyznaje miejsca w miarę ich zwalniania się. Nabór roczny od 15 września 2026.",
+      "sourceUrl": "https://akademiki.uj.edu.pl/ds/oplaty",
+      "quote": "670 zł za miejsce w pokoju wieloosobowym",
+      "notes": "Rok akademicki 2026/2027. Pierwszeństwo wynika z kryteriów dochodowych i odległości miejsca zamieszkania od uczelni."
+    },
+    {
+      "name": "Domy studenckie UJ (Bursa Jagiellońska, Bydgoska C/D, Nawojka, Piast, Żaczek), pokój jednoosobowy",
+      "operator": "Uniwersytet Jagielloński",
+      "url": "https://akademiki.uj.edu.pl/",
+      "roomType": "jednoosobowy",
+      "priceFrom": 870,
+      "priceTo": 870,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "includes": "Cennik nie wyszczególnia, co obejmuje opłata.",
+      "deposit": "Opłata rezerwacyjna równa miesięcznej opłacie, zaliczana na poczet pierwszego miesiąca.",
+      "eligibility": "Studenci i doktoranci UJ.",
+      "applicationInfo": "Wniosek w USOSweb według harmonogramu UJ na rok 2026/2027, tak jak w wierszu o miejscu w pokoju wieloosobowym: I nabór (zależnie od roku studiów) w maju i czerwcu albo w lipcu, II nabór dla wszystkich od 1 do 31 sierpnia 2026, od 15 września 2026 nabór roczny.",
+      "applyUrl": "https://akademiki.uj.edu.pl/studenci/harmonogram",
+      "waitlist": "Miejsca przyznawane w miarę zwalniania się, nabór roczny od 15 września 2026.",
+      "sourceUrl": "https://akademiki.uj.edu.pl/ds/oplaty",
+      "quote": "870 zł za miejsce w pokoju jednoosobowym",
+      "notes": "Cena za miejsce w pokoju jednoosobowym. Jednoosobowe korzystanie z pokoju dwuosobowego kosztuje 1 200 zł."
+    },
+    {
+      "name": "Dom Studencki Bursa Racławicka, miejsce w pokoju wieloosobowym",
+      "operator": "Uniwersytet Jagielloński",
+      "url": "https://akademiki.uj.edu.pl/",
+      "roomType": "wieloosobowy",
+      "priceFrom": 850,
+      "priceTo": 850,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "includes": "Cennik nie wyszczególnia, co obejmuje opłata.",
+      "deposit": "Opłata rezerwacyjna równa miesięcznej opłacie, wpłacana na rachunek Bursy Racławickiej.",
+      "eligibility": "Studenci i doktoranci UJ.",
+      "applicationInfo": "Wniosek w USOSweb według harmonogramu UJ na rok 2026/2027 (I nabór zależnie od roku studiów, II nabór dla wszystkich od 1 do 31 sierpnia 2026, od 15 września 2026 nabór roczny).",
+      "applyUrl": "https://akademiki.uj.edu.pl/studenci/harmonogram",
+      "waitlist": "Miejsca przyznawane w miarę zwalniania się.",
+      "sourceUrl": "https://akademiki.uj.edu.pl/ds/oplaty",
+      "quote": "850 zł za miejsce w pokoju wieloosobowym",
+      "notes": "Jednoosobowe korzystanie z pokoju dwuosobowego kosztuje 1 225 zł."
+    },
+    {
+      "name": "Dom Studencki Bursa Racławicka, pokój jednoosobowy",
+      "operator": "Uniwersytet Jagielloński",
+      "url": "https://akademiki.uj.edu.pl/",
+      "roomType": "jednoosobowy",
+      "priceFrom": 1070,
+      "priceTo": 1070,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "includes": "Cennik nie wyszczególnia, co obejmuje opłata.",
+      "deposit": "Opłata rezerwacyjna równa miesięcznej opłacie, wpłacana na rachunek Bursy Racławickiej.",
+      "eligibility": "Studenci i doktoranci UJ.",
+      "applicationInfo": "Wniosek w USOSweb według harmonogramu UJ na rok 2026/2027 (I nabór zależnie od roku studiów, II nabór dla wszystkich od 1 do 31 sierpnia 2026, od 15 września 2026 nabór roczny).",
+      "applyUrl": "https://akademiki.uj.edu.pl/studenci/harmonogram",
+      "waitlist": "Miejsca przyznawane w miarę zwalniania się.",
+      "sourceUrl": "https://akademiki.uj.edu.pl/ds/oplaty",
+      "quote": "1070 zł za miejsce w pokoju jednoosobowym",
+      "notes": null
+    },
+    {
+      "name": "Dom Studencki Bursa Racławicka, studio",
+      "operator": "Uniwersytet Jagielloński",
+      "url": "https://akademiki.uj.edu.pl/",
+      "roomType": "studio",
+      "priceFrom": 1270,
+      "priceTo": 1270,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "includes": "Cennik nie wyszczególnia, co obejmuje opłata.",
+      "deposit": "Opłata rezerwacyjna równa miesięcznej opłacie, wpłacana na rachunek Bursy Racławickiej.",
+      "eligibility": "Studenci i doktoranci UJ.",
+      "applicationInfo": "Wniosek w USOSweb według harmonogramu UJ na rok 2026/2027 (I nabór zależnie od roku studiów, II nabór dla wszystkich od 1 do 31 sierpnia 2026, od 15 września 2026 nabór roczny).",
+      "applyUrl": "https://akademiki.uj.edu.pl/studenci/harmonogram",
+      "waitlist": "Miejsca przyznawane w miarę zwalniania się.",
+      "sourceUrl": "https://akademiki.uj.edu.pl/ds/oplaty",
+      "quote": "1270 zł za miejsce w pokoju jednoosobowym typu studio",
+      "notes": null
+    },
+    {
+      "name": "Miasteczko Studenckie AGH (DS ALFA, DS1 do DS19)",
+      "operator": "Akademia Górniczo-Hutnicza, Miasteczko Studenckie AGH",
+      "url": "https://www.miasteczko.agh.edu.pl/",
+      "roomType": "miejsce w pokoju dwu- lub trzyosobowym (bez jednoosobowych)",
+      "priceFrom": 550,
+      "priceTo": 690,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "includes": "Bezpłatny internet, pościel, lodówka i telewizja w pokoju. Cennik nie wymienia mediów w opłacie.",
+      "deposit": null,
+      "eligibility": "Stawki dla studentów i doktorantów AGH. Studenci uczelni z umową z AGH (np. UJ) płacą 685 do 765 zł. W cenniku jest też kolumna pełnej odpłatności, od 837 zł.",
+      "applicationInfo": "Terminy składania wniosków na rok 2026/2027 nie są podane na stronach AGH.",
+      "applyUrl": null,
+      "waitlist": null,
+      "sourceUrl": "https://www.miasteczko.agh.edu.pl/strefa-mieszkanca/cennik.html",
+      "quote": "Cennik obowiązujący od 1 października 2026 do 31 grudnia 2026",
+      "notes": "Studenci AGH: od 1 października do 31 grudnia 2026 standard Podstawowy 550 zł, Komfort i Komfort+ 650 zł. Od 1 stycznia 2027 odpowiednio 580 zł i 690 zł. Za każde zakwaterowanie i przekwaterowanie pobierana jest dodatkowa opłata 25 zł netto (od 1 października 2026 30 zł netto). Kaucji cennik nie wymienia."
+    }
+  ],
+  "rent": [
+    {
+      "type": "pokój w mieszkaniu współdzielonym (koszt na osobę przy dwóch osobach)",
+      "area": "Kraków (średnia dla miasta)",
+      "priceFrom": 1242,
+      "priceTo": 1242,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Otodom, dane z lipca 2026 podane przez Rzeczpospolitą (dane nieoficjalne)",
+      "sourceUrl": "https://www.rp.pl/nieruchomosci/art45013971-pokoj-albo-pol-kawalerki-dla-studenta-ile-to-kosztuje",
+      "quote": "Jeśli student zdecyduje się na wynajęcie pokoju, miesięczny koszt wynajmu (na osobę) wyniesie w Warszawie 1 306 zł; w Gdańsku – 1 241 zł; w Krakowie – 1 242 zł; we Wrocławiu – 1 198 zł; w Poznaniu – 1 054 zł; w Łodzi – 1 033 zł; w Katowicach – 920 zł.",
+      "notes": "Średnia ofertowa na osobę, wyliczona przez Otodom dla dwóch osób dzielących lokal. Źródło nie podaje, czy kwota obejmuje opłaty administracyjne i media."
+    },
+    {
+      "type": "kawalerka (studio) dzielona przez dwie osoby (koszt na osobę)",
+      "area": "Kraków (średnia dla miasta)",
+      "priceFrom": 1130,
+      "priceTo": 1130,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Otodom, dane z lipca 2026 podane przez Rzeczpospolitą (dane nieoficjalne)",
+      "sourceUrl": "https://www.rp.pl/nieruchomosci/art45013971-pokoj-albo-pol-kawalerki-dla-studenta-ile-to-kosztuje",
+      "quote": "Dwóch studentów decydujących się na współdzielenie kawalerki w Warszawie musi się liczyć ze średnim wydatkiem rzędu 1 361 zł (na osobę), w Gdańsku – 1 206 zł, w Krakowie – 1 130 zł, we Wrocławiu – 1 122 zł, w Poznaniu – 999 zł, w Łodzi – 861 zł, w Katowicach – 824 zł.",
+      "notes": "Średnia ofertowa na osobę, wyliczona przez Otodom dla dwóch osób dzielących lokal. Źródło nie podaje, czy kwota obejmuje opłaty administracyjne i media. Cała kawalerka kosztuje tyle, ile płacą razem dwie osoby."
+    },
+    {
+      "type": "mieszkanie 2-pokojowe dzielone przez dwie osoby (koszt na osobę)",
+      "area": "Kraków (średnia dla miasta)",
+      "priceFrom": 1466,
+      "priceTo": 1466,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Otodom, dane z lipca 2026 podane przez Rzeczpospolitą (dane nieoficjalne)",
+      "sourceUrl": "https://www.rp.pl/nieruchomosci/art45013971-pokoj-albo-pol-kawalerki-dla-studenta-ile-to-kosztuje",
+      "quote": "Jeśli dwóch studentów zdecyduje się na wynajęcie mieszkania dwupokojowego, miesięczny koszt wynajmu (na osobę) wyniesie w Warszawie – 1 945 zł; w Gdańsku – 1 513 zł; w Krakowie – 1 466 zł; we Wrocławiu – 1 437 zł; w Poznaniu – 1 309 zł; w Łodzi – 1 127 zł; w Katowicach – 1 133 zł.",
+      "notes": "Średnia ofertowa na osobę, wyliczona przez Otodom dla dwóch osób dzielących lokal. Źródło nie podaje, czy kwota obejmuje opłaty administracyjne i media. Całe mieszkanie kosztuje tyle, ile płacą razem dwie osoby."
+    },
+    {
+      "type": "kawalerka (studio)",
+      "area": "Kraków (średnia dla miasta)",
+      "priceFrom": 2294,
+      "priceTo": 2294,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Nieruchomosci-online.pl, lipiec 2026, za Gazetą Prawną i Business Insider Polska (dane nieoficjalne)",
+      "sourceUrl": "https://www.gazetaprawna.pl/biznes/nieruchomosci/artykuly/11290995,studenci-ile-kosztuje-wynajem-mieszkania-2026.html",
+      "quote": "Miasto Kawalerka – średnia ofertowa Pokój na rynku prywatnym Przykład akademika 2026/2027 Kraków 2294 zł ok. 1200 zł",
+      "notes": "Średnia stawka ofertowa z serwisu Nieruchomosci-online.pl, przekazana Business Insider Polska. Serwis zastrzega, że stawki mogą nie zawierać opłat administracyjnych i mediów rozliczanych według zużycia."
+    },
+    {
+      "type": "pokój w mieszkaniu współdzielonym",
+      "area": "Kraków (średnia dla miasta)",
+      "priceFrom": 1200,
+      "priceTo": 1200,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Nieruchomosci-online.pl, lipiec 2026, za Gazetą Prawną i Business Insider Polska (dane nieoficjalne)",
+      "sourceUrl": "https://www.gazetaprawna.pl/biznes/nieruchomosci/artykuly/11290995,studenci-ile-kosztuje-wynajem-mieszkania-2026.html",
+      "quote": "Miasto Kawalerka – średnia ofertowa Pokój na rynku prywatnym Przykład akademika 2026/2027 Kraków 2294 zł ok. 1200 zł",
+      "notes": "Średnia ofertowa z serwisu Nieruchomosci-online.pl (przybliżona, zaokrąglona w źródle). Stawki mogą nie zawierać opłat administracyjnych i mediów według zużycia."
+    },
+    {
+      "type": "mieszkanie do 40 m² (mała kawalerka lub 1-pokojowe)",
+      "area": "Kraków (średnia dla miasta)",
+      "priceFrom": 2437,
+      "priceTo": 2437,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Otodom Analytics, raport Bankier.pl (dane nieoficjalne)",
+      "sourceUrl": "https://www.bankier.pl/wiadomosc/Ceny-ofertowe-wynajmu-mieszkan-luty-2026-Raport-Bankier-pl-9082507.html",
+      "quote": "Średnie ceny ofertowe najmu w wybranych miastach w styczniu 2026 r. Miasto Metraż [w mkw.] Średnia cena [w zł/m-c] Zmiana m/m [w proc.] Zmiana r/r [w proc.] Kraków 0-40 2437 -0,2 -1,1 40-59 3082 -0,2 -2,0 60-89 4217 +0,1 -0,3",
+      "notes": "Średnia cena ofertowa za cały lokal o podanym metrażu według Otodom Analytics, zebrana przez Bankier.pl. Miesiąc danych: styczeń 2026. Przedział metrażu nie jest tożsamy z podziałem na kawalerkę i mieszkanie 2-pokojowe, ale zwykle odpowiada małym mieszkaniom. Nie wiadomo, czy kwota obejmuje opłaty."
+    },
+    {
+      "type": "mieszkanie 40 do 59 m² (zwykle 2-pokojowe)",
+      "area": "Kraków (średnia dla miasta)",
+      "priceFrom": 3082,
+      "priceTo": 3082,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Otodom Analytics, raport Bankier.pl (dane nieoficjalne)",
+      "sourceUrl": "https://www.bankier.pl/wiadomosc/Ceny-ofertowe-wynajmu-mieszkan-luty-2026-Raport-Bankier-pl-9082507.html",
+      "quote": "Średnie ceny ofertowe najmu w wybranych miastach w styczniu 2026 r. Miasto Metraż [w mkw.] Średnia cena [w zł/m-c] Zmiana m/m [w proc.] Zmiana r/r [w proc.] Kraków 0-40 2437 -0,2 -1,1 40-59 3082 -0,2 -2,0 60-89 4217 +0,1 -0,3",
+      "notes": "Średnia cena ofertowa za cały lokal o podanym metrażu według Otodom Analytics, zebrana przez Bankier.pl. Miesiąc danych: styczeń 2026. Przedział metrażu nie jest tożsamy z podziałem na kawalerkę i mieszkanie 2-pokojowe, ale zwykle odpowiada małym mieszkaniom. Nie wiadomo, czy kwota obejmuje opłaty."
+    },
+    {
+      "type": "pokój w mieszkaniu współdzielonym",
+      "area": "Kraków (średnia dla miasta)",
+      "priceFrom": 772,
+      "priceTo": 772,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie",
+      "official": false,
+      "source": "Mzuri, szacunki z zawartych umów, za Infor.pl (dane nieoficjalne)",
+      "sourceUrl": "https://www.infor.pl/twoje-pieniadze/koszty-utrzymania/7664406,wynajem-pokoju-dla-studenta-ceny-i-inne-koszty-pod-koniec-wrzesnia-2026-r.html",
+      "quote": "Miasto Czynsz najmu Opłaty* Kaucja Kraków 772 zł 374 zł 1 146 zł",
+      "notes": "Czynsz najmu to średnia z umów zawartych przez Mzuri. Do tego dochodzą opłaty administracyjne i media, średnio 374 zł miesięcznie (łącznie 1146 zł). Mzuri jest firmą zajmującą się najmem, a nie oficjalną statystyką."
+    },
+    {
+      "type": "mieszkanie (średnia wszystkich ofert)",
+      "area": "Kraków",
+      "priceFrom": 3127,
+      "priceTo": 3127,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Otodom, Raport z rynku najmu kwiecień 2026 (dane nieoficjalne)",
+      "sourceUrl": "https://www.otodom.pl/wiadomosci/raport-z-rynku-najmu-kwiecien-2026-psiecko-zamiast-zmywarki-rewolucja-na-rynku-najmu-i-pierwsza-w-tym-roku-wyrazna-korekta-2/",
+      "quote": "Powyżej 3 000 zł płacą najemcy w Trójmieście (3 164 zł), Krakowie (3 127 zł) i Wrocławiu (3 035 zł).",
+      "notes": "Dane nieoficjalne: średni ofertowy czynsz za mieszkanie w Krakowie, kwiecień 2026."
+    },
+    {
+      "type": "mieszkanie 2-pokojowe",
+      "area": "Kraków",
+      "priceFrom": 3000,
+      "priceTo": 3000,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Otodom, Raport z rynku najmu lipiec 2026 (dane nieoficjalne)",
+      "sourceUrl": "https://www.otodom.pl/wiadomosci/raport-z-rynku-najmu-lipiec-2026/",
+      "quote": "prawie 40% ofert plasuje się w okolicach 3 000 zł miesięcznie",
+      "notes": "Dane nieoficjalne: raport opisuje wspólnie Kraków, Wrocław i Trójmiasto. Wskazuje najczęstszy poziom stawek, bez wyliczenia średniej."
+    }
+  ],
+  "gaps": [
+    "Brak osobnego oficjalnego szacunku miesięcznego budżetu studenta dla samego Krakowa; ceny wynajmu pochodzą z raportów portali i firm najmu (dane nieoficjalne), bo oficjalne dane NBP o najmie są publikowane głównie na wykresach w złotych za m², bez cen za pokój, kawalerkę czy mieszkanie dwupokojowe.",
+    "Dwa wiersze wynajmu z raportów Otodom opisują Kraków wspólnie z Wrocławiem i Trójmiastem. Przy wynajmie całego mieszkania dwupokojowego Otodom podaje tylko koszt na osobę przy dwóch osobach, a Otodom Analytics przedział 40 do 59 m².",
+    "Terminy składania wniosków do domów studenckich AGH na rok 2026/2027 oraz zakres mediów w opłacie nie są podane na stronach AGH.",
+    "Cenniki domów studenckich Politechniki Krakowskiej i Uniwersytetu Ekonomicznego w Krakowie nie zostały potwierdzone. Cennik UJ nie podaje, co obejmuje opłata za miejsce."
+  ],
+  "sources": [
+    {
+      "url": "https://akademiki.uj.edu.pl/ds/oplaty",
+      "note": "UJ, opłaty za miejsce na rok 2026/2027"
+    },
+    {
+      "url": "https://akademiki.uj.edu.pl/studenci/harmonogram",
+      "note": "UJ, harmonogram naboru 2026/2027"
+    },
+    {
+      "url": "https://akademiki.uj.edu.pl/cudzoziemcy",
+      "note": "UJ, zasady dla cudzoziemców"
+    },
+    {
+      "url": "https://www.miasteczko.agh.edu.pl/strefa-mieszkanca/cennik.html",
+      "note": "AGH, cennik domów studenckich"
+    },
+    {
+      "url": "https://www.otodom.pl/wiadomosci/raport-z-rynku-najmu-lipiec-2026/",
+      "note": "Otodom, raport najmu lipiec 2026 (dane nieoficjalne)"
+    },
+    {
+      "url": "https://www.otodom.pl/wiadomosci/raport-z-rynku-najmu-kwiecien-2026-psiecko-zamiast-zmywarki-rewolucja-na-rynku-najmu-i-pierwsza-w-tym-roku-wyrazna-korekta-2/",
+      "note": "Otodom, raport najmu kwiecień 2026 (dane nieoficjalne)"
+    },
+    {
+      "url": "https://www.rp.pl/nieruchomosci/art45013971-pokoj-albo-pol-kawalerki-dla-studenta-ile-to-kosztuje",
+      "note": "Rzeczpospolita, dane Otodom z lipca 2026, koszt na osobę przy dwóch osobach (dane nieoficjalne)"
+    },
+    {
+      "url": "https://www.gazetaprawna.pl/biznes/nieruchomosci/artykuly/11290995,studenci-ile-kosztuje-wynajem-mieszkania-2026.html",
+      "note": "Gazeta Prawna, dane Nieruchomosci-online.pl z lipca 2026 (dane nieoficjalne)"
+    },
+    {
+      "url": "https://www.bankier.pl/wiadomosc/Ceny-ofertowe-wynajmu-mieszkan-luty-2026-Raport-Bankier-pl-9082507.html",
+      "note": "Bankier.pl, Otodom Analytics, styczeń 2026 (dane nieoficjalne)"
+    },
+    {
+      "url": "https://www.infor.pl/twoje-pieniadze/koszty-utrzymania/7664406,wynajem-pokoju-dla-studenta-ceny-i-inne-koszty-pod-koniec-wrzesnia-2026-r.html",
+      "note": "Infor.pl, dane firmy Mzuri, wrzesień 2026 (dane nieoficjalne)"
+    }
+  ]
+}

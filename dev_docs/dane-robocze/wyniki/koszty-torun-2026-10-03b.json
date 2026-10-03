@@ -1,0 +1,195 @@
+{
+  "slug": "torun",
+  "name": "Toruń",
+  "country": "Polska",
+  "currency": "PLN",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Uniwersytet Mikołaja Kopernika ma w toruńskiej części 11 domów studenckich na osiedlach Bielany i Centrum. Od 1 października 2026 do 28 lutego 2027 miejsce w pokoju trzyosobowym kosztuje 440 zł miesięcznie, w dwuosobowym od 530 do 660 zł, a w jednoosobowym od 660 do 880 zł. Od 1 marca 2027 stawki rosną (trzyosobowy 480 zł, dwuosobowy 580 do 730 zł, jednoosobowy 730 do 970 zł)."
+    },
+    {
+      "label": "Wynajem",
+      "text": "Brak oficjalnych cen wynajmu dla Torunia. Dane nieoficjalne: Rentier.io podaje medianę stawki ofertowej 47 zł za metr kwadratowy miesięcznie we wrześniu 2026 roku, na Starym Mieście 51 zł, a na Bydgoskim Przedmieściu 41 zł. Jedyna cena pokoju (600 zł) pochodzi z 2021 roku i jest dziś zaniżona."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "Najtańsze zwykle jest miejsce w domu studenckim UMK. Nabór na rok 2026/2027 się zakończył (studenci pierwszego roku składali wnioski w systemie IRK do 31 sierpnia 2026), a kolejny ruszy w 2027 roku. Strona uniwersytetu ma zakładkę z informacją o wolnych miejscach w poszczególnych domach. Przy wynajmie prywatnym portal Study in Poland ostrzega, że wynajmujący mogą żądać kaucji w podobnej wysokości do czynszu, więc warto o nią zapytać przed podpisaniem umowy."
+    },
+    {
+      "label": "Uwagi",
+      "text": "Collegium Medicum w Bydgoszczy ma osobne domy studenckie i osobny cennik, którego zestawienie nie obejmuje. Stawki UMK dotyczą części toruńskiej uniwersytetu."
+    }
+  ],
+  "dorms": [
+    {
+      "operator": "Uniwersytet Mikołaja Kopernika w Toruniu",
+      "url": "https://www.umk.pl/studia-i-ksztalcenie/informacje-dla-studentow/domy-studenckie/",
+      "currency": "PLN",
+      "period": "miesiąc",
+      "includes": "Cena za miejsce w pokoju. Na Osiedlu Bielany pokoje mają bezpłatny dostęp do internetu, w każdym domu jest sala do nauki, sala telewizyjna i pralnia z suszarnią (pranie płatne według cennika).",
+      "deposit": "Kaucja w wysokości podanej w załącznikach do zarządzenia, płatna w ciągu 7 dni od zakwaterowania i zwracana po wyprowadzce, pomniejszona o ewentualne szkody. Załączniki nie podają jej kwoty. Dodatkowo po przyznaniu miejsca wpłaca się przedpłatę w wysokości jednomiesięcznej opłaty w ciągu 7 dni.",
+      "eligibility": "Studenci i doktoranci UMK w części toruńskiej. Przy pierwszym roku liczy się dochód netto na członka rodziny (z PIT za poprzedni rok). Zasad dla cudzoziemców strona nie opisuje.",
+      "applicationInfo": "Wnioski studentów pierwszego roku przyjmowano po zakwalifikowaniu na studia w systemie IRK do 5 sierpnia 2026 (pierwsza tura) i do 31 sierpnia 2026 (druga tura), decyzja komisji zapadła około 7 do 8 sierpnia. Studenci mieszkający w DS składali wniosek o kontynuację od 15 do 31 maja, pozostali do 10 czerwca. Nabór na rok 2026/2027 jest zakończony, a kolejny ruszy w 2027 roku. Zakwaterowanie na rok 2026/2027 trwa od 28 września do 2 października 2026 roku.",
+      "applyUrl": "https://irk.umk.pl/",
+      "waitlist": null,
+      "sourceUrl": "https://www.umk.pl/uploads/1779181805749/ZR.154.2026---zal.-1.pdf",
+      "name": "Domy studenckie UMK w Toruniu, pokój jednoosobowy",
+      "roomType": "jednoosobowy",
+      "priceFrom": 660,
+      "priceTo": 880,
+      "quote": "DS nr 1 720/830* 530/610** 440; DS nr 7 880 660 1000",
+      "notes": "Stawki z zarządzenia nr 154 Rektora UMK z 29 lipca 2026 roku, obowiązują od 1 października 2026 do 28 lutego 2027, od 1 marca 2027 od 730 do 970 zł. Kwota 660 zł dotyczy pokoi o małym metrażu oraz pokoi jednoosobowych dla osób z niepełnosprawnością, standardowy pokój kosztuje 720 do 830 zł. Dom nr 7 ma też miejsca gościnne za 1 000 zł. Adresy na stronach osiedli Centrum (https://www.umk.pl/studia-i-ksztalcenie/informacje-dla-studentow/domy-studenckie/osiedle-centrum) i Bielany (https://www.umk.pl/studia-i-ksztalcenie/informacje-dla-studentow/domy-studenckie/osiedle-bielany)."
+    },
+    {
+      "operator": "Uniwersytet Mikołaja Kopernika w Toruniu",
+      "url": "https://www.umk.pl/studia-i-ksztalcenie/informacje-dla-studentow/domy-studenckie/",
+      "currency": "PLN",
+      "period": "miesiąc",
+      "includes": "Cena za miejsce w pokoju. Na Osiedlu Bielany pokoje mają bezpłatny dostęp do internetu, w każdym domu jest sala do nauki, sala telewizyjna i pralnia z suszarnią (pranie płatne według cennika).",
+      "deposit": "Kaucja w wysokości podanej w załącznikach do zarządzenia, płatna w ciągu 7 dni od zakwaterowania i zwracana po wyprowadzce, pomniejszona o ewentualne szkody. Załączniki nie podają jej kwoty. Dodatkowo po przyznaniu miejsca wpłaca się przedpłatę w wysokości jednomiesięcznej opłaty w ciągu 7 dni.",
+      "eligibility": "Studenci i doktoranci UMK w części toruńskiej. Przy pierwszym roku liczy się dochód netto na członka rodziny (z PIT za poprzedni rok). Zasad dla cudzoziemców strona nie opisuje.",
+      "applicationInfo": "Wnioski studentów pierwszego roku przyjmowano po zakwalifikowaniu na studia w systemie IRK do 5 sierpnia 2026 (pierwsza tura) i do 31 sierpnia 2026 (druga tura), decyzja komisji zapadła około 7 do 8 sierpnia. Studenci mieszkający w DS składali wniosek o kontynuację od 15 do 31 maja, pozostali do 10 czerwca. Nabór na rok 2026/2027 jest zakończony, a kolejny ruszy w 2027 roku. Zakwaterowanie na rok 2026/2027 trwa od 28 września do 2 października 2026 roku.",
+      "applyUrl": "https://irk.umk.pl/",
+      "waitlist": null,
+      "sourceUrl": "https://www.umk.pl/uploads/1779181805749/ZR.154.2026---zal.-1.pdf",
+      "name": "Domy studenckie UMK w Toruniu, pokój dwuosobowy",
+      "roomType": "dwuosobowy (cena za osobę)",
+      "priceFrom": 530,
+      "priceTo": 660,
+      "quote": "DS nr 1 720/830* 530/610** 440; DS nr 7 880 660 1000",
+      "notes": "Stawki z zarządzenia nr 154 Rektora UMK z 29 lipca 2026, obowiązują od 1 października 2026 do 28 lutego 2027, od 1 marca 2027 od 580 do 730 zł. Wyższe kwoty dotyczą pokoi o zwiększonym metrażu, z łazienką lub o podwyższonym standardzie."
+    },
+    {
+      "operator": "Uniwersytet Mikołaja Kopernika w Toruniu",
+      "url": "https://www.umk.pl/studia-i-ksztalcenie/informacje-dla-studentow/domy-studenckie/",
+      "currency": "PLN",
+      "period": "miesiąc",
+      "includes": "Cena za miejsce w pokoju. Na Osiedlu Bielany pokoje mają bezpłatny dostęp do internetu, w każdym domu jest sala do nauki, sala telewizyjna i pralnia z suszarnią (pranie płatne według cennika).",
+      "deposit": "Kaucja w wysokości podanej w załącznikach do zarządzenia, płatna w ciągu 7 dni od zakwaterowania i zwracana po wyprowadzce, pomniejszona o ewentualne szkody. Załączniki nie podają jej kwoty. Dodatkowo po przyznaniu miejsca wpłaca się przedpłatę w wysokości jednomiesięcznej opłaty w ciągu 7 dni.",
+      "eligibility": "Studenci i doktoranci UMK w części toruńskiej. Przy pierwszym roku liczy się dochód netto na członka rodziny (z PIT za poprzedni rok). Zasad dla cudzoziemców strona nie opisuje.",
+      "applicationInfo": "Wnioski studentów pierwszego roku przyjmowano po zakwalifikowaniu na studia w systemie IRK do 5 sierpnia 2026 (pierwsza tura) i do 31 sierpnia 2026 (druga tura), decyzja komisji zapadła około 7 do 8 sierpnia. Studenci mieszkający w DS składali wniosek o kontynuację od 15 do 31 maja, pozostali do 10 czerwca. Nabór na rok 2026/2027 jest zakończony, a kolejny ruszy w 2027 roku. Zakwaterowanie na rok 2026/2027 trwa od 28 września do 2 października 2026 roku.",
+      "applyUrl": "https://irk.umk.pl/",
+      "waitlist": null,
+      "sourceUrl": "https://www.umk.pl/uploads/1779181805749/ZR.154.2026---zal.-1.pdf",
+      "name": "Domy studenckie UMK w Toruniu, pokój trzyosobowy",
+      "roomType": "trzyosobowy (cena za osobę)",
+      "priceFrom": 440,
+      "priceTo": 440,
+      "quote": "DS nr 1 720/830* 530/610** 440; DS nr 7 880 660 1000",
+      "notes": "Stawka z zarządzenia nr 154 Rektora UMK z 29 lipca 2026, obowiązuje od 1 października 2026 do 28 lutego 2027, od 1 marca 2027 wynosi 480 zł. Pokoje trzyosobowe są w domach nr 1, 3, 8 i 12."
+    }
+  ],
+  "rent": [
+    {
+      "type": "mieszkanie (stawka ofertowa za metr kwadratowy)",
+      "area": "cały Toruń",
+      "priceFrom": 47,
+      "priceTo": 47,
+      "currency": "PLN",
+      "period": "miesiąc za metr kwadratowy",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Rentier.io, ceny najmu mieszkań (dane nieoficjalne)",
+      "sourceUrl": "https://rentier.io/ceny-najmu/polska/kujawsko-pomorskie/powiat-torun/torun",
+      "quote": "Mediana ofertowa wynosi 47 zł/m²/mies. (wrzesień 2026, 402 oferty).",
+      "notes": "Dane nieoficjalne: mediana czynszów z ogłoszeń aktywnych we wrześniu 2026, zmiana rok do roku +1,7%. Kwota dotyczy jednego metra kwadratowego, więc cenę mieszkania trzeba policzyć według jego metrażu."
+    },
+    {
+      "type": "mieszkanie (stawka ofertowa za metr kwadratowy)",
+      "area": "Stare Miasto",
+      "priceFrom": 51,
+      "priceTo": 51,
+      "currency": "PLN",
+      "period": "miesiąc za metr kwadratowy",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Rentier.io, ceny najmu mieszkań (dane nieoficjalne)",
+      "sourceUrl": "https://rentier.io/ceny-najmu/polska/kujawsko-pomorskie/powiat-torun/torun",
+      "quote": "Stare Miasto 51 zł/m²/mies.",
+      "notes": "Dane nieoficjalne: mediana czynszów ofertowych w dzielnicy z zestawienia serwisu. Kwota dotyczy jednego metra kwadratowego, więc cenę mieszkania trzeba policzyć według jego metrażu."
+    },
+    {
+      "type": "mieszkanie (stawka ofertowa za metr kwadratowy)",
+      "area": "Bydgoskie Przedmieście",
+      "priceFrom": 41,
+      "priceTo": 41,
+      "currency": "PLN",
+      "period": "miesiąc za metr kwadratowy",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Rentier.io, ceny najmu mieszkań (dane nieoficjalne)",
+      "sourceUrl": "https://rentier.io/ceny-najmu/polska/kujawsko-pomorskie/powiat-torun/torun",
+      "quote": "Bydgoskie Przedmieście 41 zł/m²/mies.",
+      "notes": "Dane nieoficjalne: mediana czynszów ofertowych w dzielnicy z zestawienia serwisu. Kwota dotyczy jednego metra kwadratowego, więc cenę mieszkania trzeba policzyć według jego metrażu."
+    },
+    {
+      "type": "pokój w mieszkaniu współdzielonym",
+      "area": "Toruń",
+      "priceFrom": 600,
+      "priceTo": 600,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2021",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Morizon.pl, blog (dane nieoficjalne), listopad 2021",
+      "sourceUrl": "https://www.morizon.pl/blog/wynajem-pokoju-czy-kawalerki-co-wybrac/",
+      "quote": "Spośród pozostałych ośrodków akademickich najniższe stawki za pokoje do wynajęcia obowiązują w Białymstoku (500 zł/mies.) i Toruniu (600 zł/mies.). Podobnie jak w innych miastach najem kawalerki jest tam średnio dwa razy droższy.",
+      "notes": "Dane z listopada 2021, czyli sprzed kilku lat wzrostu czynszów, więc dziś ceny są wyższe. Tekst nie podaje kwoty kawalerki, pisze tylko, że jest średnio około dwa razy droższa niż pokój."
+    }
+  ],
+  "gaps": [
+    "Brak oficjalnych cen wynajmu pokoju, kawalerki ani mieszkania dwupokojowego w Toruniu. Dostępne są nieoficjalne stawki za metr kwadratowy z Rentier.io (wrzesień 2026) i cena pokoju z 2021 roku, która jest dziś zaniżona.",
+    "Wysokość kaucji w domach studenckich UMK nie jest podana, bo zarządzenie odsyła do załączników bez kwot kaucji.",
+    "Tabela stawek UMK dzieli ceny według domów i standardu pokoju, a przypisanie kwot do konkretnych domów nie jest w pełni czytelne, dlatego podano zakresy dla typu pokoju.",
+    "Strona UMK nie opisuje zasad przyznawania miejsc cudzoziemcom ani obywatelom Unii Europejskiej. W zestawieniu nie ma akademików innych uczelni publicznych w Toruniu.",
+    "Terminy składania wniosków podano dla roku 2026. Terminy na rok 2027 nie są jeszcze opublikowane."
+  ],
+  "sources": [
+    {
+      "url": "https://www.umk.pl/studia-i-ksztalcenie/informacje-dla-studentow/domy-studenckie/",
+      "note": "UMK: domy studenckie, cennik i zasady"
+    },
+    {
+      "url": "https://www.umk.pl/studia-i-ksztalcenie/informacje-dla-studentow/domy-studenckie/jak-zamieszkac-w-ds/",
+      "note": "UMK: jak zamieszkać w domu studenckim, terminy wniosków 2026/2027"
+    },
+    {
+      "url": "https://www.umk.pl/uploads/1779181805749/ZR.154.2026.pdf",
+      "note": "UMK: zarządzenie nr 154 z 29 lipca 2026 o odpłatności za zakwaterowanie"
+    },
+    {
+      "url": "https://www.umk.pl/uploads/1779181805749/ZR.154.2026---zal.-1.pdf",
+      "note": "UMK: stawki od 1 października 2026 do 28 lutego 2027, część toruńska"
+    },
+    {
+      "url": "https://www.umk.pl/uploads/1779181805749/ZR.154.2026---zal.-1a.pdf",
+      "note": "UMK: stawki od 1 marca 2027, część toruńska"
+    },
+    {
+      "url": "https://www.umk.pl/studia-i-ksztalcenie/informacje-dla-studentow/domy-studenckie/osiedle-bielany",
+      "note": "UMK: osiedle Bielany"
+    },
+    {
+      "url": "https://www.umk.pl/studia-i-ksztalcenie/informacje-dla-studentow/domy-studenckie/osiedle-centrum",
+      "note": "UMK: osiedle Centrum"
+    },
+    {
+      "url": "https://rentier.io/ceny-najmu/polska/kujawsko-pomorskie/powiat-torun/torun",
+      "note": "Dane nieoficjalne: stawki ofertowe najmu za metr kwadratowy"
+    },
+    {
+      "url": "https://www.studyinpoland.pl/en/practical-information/35-accomodation",
+      "note": "Study in Poland: uwaga o kaucji przy wynajmie prywatnym"
+    },
+    {
+      "url": "https://www.morizon.pl/blog/wynajem-pokoju-czy-kawalerki-co-wybrac/",
+      "note": "Dane nieoficjalne: raport rynkowy o cenach najmu."
+    }
+  ]
+}

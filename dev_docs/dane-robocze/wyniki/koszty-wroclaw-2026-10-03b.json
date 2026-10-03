@@ -1,0 +1,338 @@
+{
+  "slug": "wroclaw",
+  "name": "Wrocław",
+  "country": "Polska",
+  "currency": "PLN",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Uniwersytet Wrocławski ma pięć domów studenckich. Na rok 2026/2027 miejsce w pokoju dwuosobowym kosztuje od 720 do 870 zł miesięcznie, a pokój jednoosobowy od 1 110 do 1 500 zł. Stawki podano bez VAT dla studentów UWr i uczelni z porozumieniem, a pozostali płacą dodatkowo 8% VAT. Pierwszeństwo mają studenci UWr, a terminów naboru dla studentów innych uczelni na razie nie podano. Wnioski składa się wyłącznie w systemie USOS."
+    },
+    {
+      "label": "Wynajem",
+      "text": "Wszystkie podane stawki to dane nieoficjalne z raportów portali i firm najmu. Według Otodom (lipiec 2026) pokój w mieszkaniu współdzielonym kosztuje średnio 1 198 zł na osobę przy dwóch osobach, a według Nieruchomosci-online.pl około 1 200 zł. Firma Mzuri podaje średni czynsz pokoju 805 zł plus około 478 zł opłat. Kawalerka kosztuje średnio 2 302 zł (Nieruchomosci-online.pl), a średni ofertowy czynsz za mieszkanie wynosił w kwietniu 2026 około 3 035 zł."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "Miejsca w akademikach UWr przyznaje się w turach według harmonogramu w USOS, a po nich w dodatkowej turze na wolne miejsca. Przy najmie prywatnym nie wpłacaj kaucji ani zaliczki przed obejrzeniem mieszkania i podpisaniem pisemnej umowy."
+    },
+    {
+      "label": "Uwagi",
+      "text": "Cenniki domów studenckich Politechniki Wrocławskiej, Uniwersytetu Ekonomicznego, Przyrodniczego i Medycznego nie są w zestawieniu, bo ich stawek nie potwierdzają strony uczelni. Zestawienie obejmuje tylko Uniwersytet Wrocławski."
+    }
+  ],
+  "dorms": [
+    {
+      "name": "Dom Studencki „Ołówek” i „Kredka”, miejsce w pokoju 2-osobowym",
+      "operator": "Uniwersytet Wrocławski",
+      "url": "https://uwr.edu.pl/domy-studenckie-2/",
+      "roomType": "dwuosobowy",
+      "priceFrom": 870,
+      "priceTo": 870,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "includes": "Cennik nie wyszczególnia, co obejmuje opłata.",
+      "deposit": "Kaucja obowiązuje, ale jej kwota nie jest podana na stronie UWr. Termin wpłaty w ostatniej turze to 12 października 2026.",
+      "eligibility": "Pierwszeństwo mają studenci i doktoranci UWr. Studenci i doktoranci UWr oraz innych uczelni krajowych z porozumieniem płacą bez VAT, pozostali dodatkowo 8% VAT (informacja warunkowa). Dla studentów innych uczelni terminów naboru na razie nie podano. Cudzoziemcy z pobytem stałym dołączają dane o dochodach rodziny. Osoby niepełnoletnie potrzebują zgody rodziców lub opiekunów.",
+      "applicationInfo": "Wniosek wyłącznie w systemie USOS (Dla wszystkich, Wnioski, Wniosek o akademik) według harmonogramu na rok 2026/2027. Ostatnia tura na wolne miejsca (23 do 30 września 2026) jest zamknięta, informacja o wyniku 6 października 2026. Terminy wcześniejszych tur nie są podane na stronie UWr.",
+      "applyUrl": "https://uwr.edu.pl/domy-studenckie-2/",
+      "waitlist": "Przy wolnych miejscach po zakwaterowaniu wszystkich studentów otwierana jest dodatkowa tura wniosków. Preferowany dom można wskazać we wniosku, ale nie ma gwarancji jego przyznania.",
+      "sourceUrl": "https://uwr.edu.pl/domy-studenckie-2/cennik/",
+      "quote": "miejsce w pokoju 2-osobowym 870 zł",
+      "notes": "Rok 2026/2027, opłaty od 1 października 2026 do 30 czerwca 2027."
+    },
+    {
+      "name": "Dom Studencki „Ołówek” i „Kredka”, pokój 1-osobowy",
+      "operator": "Uniwersytet Wrocławski",
+      "url": "https://uwr.edu.pl/domy-studenckie-2/",
+      "roomType": "jednoosobowy",
+      "priceFrom": 1500,
+      "priceTo": 1500,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "includes": "Cennik nie wyszczególnia, co obejmuje opłata.",
+      "deposit": "Kaucja obowiązuje, ale jej kwota nie jest podana na stronie UWr. Termin wpłaty w ostatniej turze to 12 października 2026.",
+      "eligibility": "Pierwszeństwo mają studenci i doktoranci UWr. Studenci i doktoranci UWr oraz innych uczelni krajowych z porozumieniem płacą bez VAT, pozostali dodatkowo 8% VAT (informacja warunkowa). Dla studentów innych uczelni terminów naboru na razie nie podano. Cudzoziemcy z pobytem stałym dołączają dane o dochodach rodziny. Osoby niepełnoletnie potrzebują zgody rodziców lub opiekunów.",
+      "applicationInfo": "Wniosek wyłącznie w systemie USOS (Dla wszystkich, Wnioski, Wniosek o akademik) według harmonogramu na rok 2026/2027. Ostatnia tura na wolne miejsca (23 do 30 września 2026) jest zamknięta, informacja o wyniku 6 października 2026. Terminy wcześniejszych tur nie są podane na stronie UWr.",
+      "applyUrl": "https://uwr.edu.pl/domy-studenckie-2/",
+      "waitlist": "Przy wolnych miejscach po zakwaterowaniu wszystkich studentów otwierana jest dodatkowa tura wniosków. Preferowany dom można wskazać we wniosku, ale nie ma gwarancji jego przyznania.",
+      "sourceUrl": "https://uwr.edu.pl/domy-studenckie-2/cennik/",
+      "quote": "pokój 1-osobowy* 1 500 zł",
+      "notes": "Cena obowiązuje w przypadku przyznania pokoju jednoosobowego."
+    },
+    {
+      "name": "Dom Studencki „Dwudziestolatka”, miejsce w pokoju 2-osobowym",
+      "operator": "Uniwersytet Wrocławski",
+      "url": "https://uwr.edu.pl/domy-studenckie-2/",
+      "roomType": "dwuosobowy",
+      "priceFrom": 780,
+      "priceTo": 810,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "includes": "Cennik nie wyszczególnia, co obejmuje opłata.",
+      "deposit": "Kaucja obowiązuje, ale jej kwota nie jest podana na stronie UWr. Termin wpłaty w ostatniej turze to 12 października 2026.",
+      "eligibility": "Pierwszeństwo mają studenci i doktoranci UWr. Studenci i doktoranci UWr oraz innych uczelni krajowych z porozumieniem płacą bez VAT, pozostali dodatkowo 8% VAT (informacja warunkowa). Dla studentów innych uczelni terminów naboru na razie nie podano. Cudzoziemcy z pobytem stałym dołączają dane o dochodach rodziny. Osoby niepełnoletnie potrzebują zgody rodziców lub opiekunów.",
+      "applicationInfo": "Wniosek wyłącznie w systemie USOS (Dla wszystkich, Wnioski, Wniosek o akademik) według harmonogramu na rok 2026/2027. Ostatnia tura na wolne miejsca (23 do 30 września 2026) jest zamknięta, informacja o wyniku 6 października 2026. Terminy wcześniejszych tur nie są podane na stronie UWr.",
+      "applyUrl": "https://uwr.edu.pl/domy-studenckie-2/",
+      "waitlist": "Przy wolnych miejscach po zakwaterowaniu wszystkich studentów otwierana jest dodatkowa tura wniosków. Preferowany dom można wskazać we wniosku, ale nie ma gwarancji jego przyznania.",
+      "sourceUrl": "https://uwr.edu.pl/domy-studenckie-2/cennik/",
+      "quote": "miejsce w pokoju 2-osobowym 780 zł",
+      "notes": "Miejsce w pokoju 2-osobowym 780 zł, w pokoju o większym metrażu 810 zł."
+    },
+    {
+      "name": "Dom Studencki „Dwudziestolatka”, pokój 1-osobowy",
+      "operator": "Uniwersytet Wrocławski",
+      "url": "https://uwr.edu.pl/domy-studenckie-2/",
+      "roomType": "jednoosobowy",
+      "priceFrom": 1170,
+      "priceTo": 1170,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "includes": "Cennik nie wyszczególnia, co obejmuje opłata.",
+      "deposit": "Kaucja obowiązuje, ale jej kwota nie jest podana na stronie UWr. Termin wpłaty w ostatniej turze to 12 października 2026.",
+      "eligibility": "Pierwszeństwo mają studenci i doktoranci UWr. Studenci i doktoranci UWr oraz innych uczelni krajowych z porozumieniem płacą bez VAT, pozostali dodatkowo 8% VAT (informacja warunkowa). Dla studentów innych uczelni terminów naboru na razie nie podano. Cudzoziemcy z pobytem stałym dołączają dane o dochodach rodziny. Osoby niepełnoletnie potrzebują zgody rodziców lub opiekunów.",
+      "applicationInfo": "Wniosek wyłącznie w systemie USOS (Dla wszystkich, Wnioski, Wniosek o akademik) według harmonogramu na rok 2026/2027. Ostatnia tura na wolne miejsca (23 do 30 września 2026) jest zamknięta, informacja o wyniku 6 października 2026. Terminy wcześniejszych tur nie są podane na stronie UWr.",
+      "applyUrl": "https://uwr.edu.pl/domy-studenckie-2/",
+      "waitlist": "Przy wolnych miejscach po zakwaterowaniu wszystkich studentów otwierana jest dodatkowa tura wniosków. Preferowany dom można wskazać we wniosku, ale nie ma gwarancji jego przyznania.",
+      "sourceUrl": "https://uwr.edu.pl/domy-studenckie-2/cennik/",
+      "quote": "pokój 1-osobowy* 1 170 zł",
+      "notes": "Cena obowiązuje w przypadku przyznania pokoju jednoosobowego."
+    },
+    {
+      "name": "Dom Studencki „Słowianka” i „Parawanowiec”, miejsce w pokoju 2-osobowym",
+      "operator": "Uniwersytet Wrocławski",
+      "url": "https://uwr.edu.pl/domy-studenckie-2/",
+      "roomType": "dwuosobowy",
+      "priceFrom": 720,
+      "priceTo": 720,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "includes": "Cennik nie wyszczególnia, co obejmuje opłata.",
+      "deposit": "Kaucja obowiązuje, ale jej kwota nie jest podana na stronie UWr. Termin wpłaty w ostatniej turze to 12 października 2026.",
+      "eligibility": "Pierwszeństwo mają studenci i doktoranci UWr. Studenci i doktoranci UWr oraz innych uczelni krajowych z porozumieniem płacą bez VAT, pozostali dodatkowo 8% VAT (informacja warunkowa). Dla studentów innych uczelni terminów naboru na razie nie podano. Cudzoziemcy z pobytem stałym dołączają dane o dochodach rodziny. Osoby niepełnoletnie potrzebują zgody rodziców lub opiekunów.",
+      "applicationInfo": "Wniosek wyłącznie w systemie USOS (Dla wszystkich, Wnioski, Wniosek o akademik) według harmonogramu na rok 2026/2027. Ostatnia tura na wolne miejsca (23 do 30 września 2026) jest zamknięta, informacja o wyniku 6 października 2026. Terminy wcześniejszych tur nie są podane na stronie UWr.",
+      "applyUrl": "https://uwr.edu.pl/domy-studenckie-2/",
+      "waitlist": "Przy wolnych miejscach po zakwaterowaniu wszystkich studentów otwierana jest dodatkowa tura wniosków. Preferowany dom można wskazać we wniosku, ale nie ma gwarancji jego przyznania.",
+      "sourceUrl": "https://uwr.edu.pl/domy-studenckie-2/cennik/",
+      "quote": "miejsce w pokoju 2-osobowym 720 zł",
+      "notes": null
+    },
+    {
+      "name": "Dom Studencki „Słowianka” i „Parawanowiec”, pokój 1-osobowy",
+      "operator": "Uniwersytet Wrocławski",
+      "url": "https://uwr.edu.pl/domy-studenckie-2/",
+      "roomType": "jednoosobowy",
+      "priceFrom": 1110,
+      "priceTo": 1110,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "includes": "Cennik nie wyszczególnia, co obejmuje opłata.",
+      "deposit": "Kaucja obowiązuje, ale jej kwota nie jest podana na stronie UWr. Termin wpłaty w ostatniej turze to 12 października 2026.",
+      "eligibility": "Pierwszeństwo mają studenci i doktoranci UWr. Studenci i doktoranci UWr oraz innych uczelni krajowych z porozumieniem płacą bez VAT, pozostali dodatkowo 8% VAT (informacja warunkowa). Dla studentów innych uczelni terminów naboru na razie nie podano. Cudzoziemcy z pobytem stałym dołączają dane o dochodach rodziny. Osoby niepełnoletnie potrzebują zgody rodziców lub opiekunów.",
+      "applicationInfo": "Wniosek wyłącznie w systemie USOS (Dla wszystkich, Wnioski, Wniosek o akademik) według harmonogramu na rok 2026/2027. Ostatnia tura na wolne miejsca (23 do 30 września 2026) jest zamknięta, informacja o wyniku 6 października 2026. Terminy wcześniejszych tur nie są podane na stronie UWr.",
+      "applyUrl": "https://uwr.edu.pl/domy-studenckie-2/",
+      "waitlist": "Przy wolnych miejscach po zakwaterowaniu wszystkich studentów otwierana jest dodatkowa tura wniosków. Preferowany dom można wskazać we wniosku, ale nie ma gwarancji jego przyznania.",
+      "sourceUrl": "https://uwr.edu.pl/domy-studenckie-2/cennik/",
+      "quote": "pokój 1-osobowy* 1 110 zł",
+      "notes": "Cena obowiązuje w przypadku przyznania pokoju jednoosobowego."
+    }
+  ],
+  "rent": [
+    {
+      "type": "pokój w mieszkaniu współdzielonym (koszt na osobę przy dwóch osobach)",
+      "area": "Wrocław (średnia dla miasta)",
+      "priceFrom": 1198,
+      "priceTo": 1198,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Otodom, dane z lipca 2026 podane przez Rzeczpospolitą (dane nieoficjalne)",
+      "sourceUrl": "https://www.rp.pl/nieruchomosci/art45013971-pokoj-albo-pol-kawalerki-dla-studenta-ile-to-kosztuje",
+      "quote": "Jeśli student zdecyduje się na wynajęcie pokoju, miesięczny koszt wynajmu (na osobę) wyniesie w Warszawie 1 306 zł; w Gdańsku – 1 241 zł; w Krakowie – 1 242 zł; we Wrocławiu – 1 198 zł; w Poznaniu – 1 054 zł; w Łodzi – 1 033 zł; w Katowicach – 920 zł.",
+      "notes": "Średnia ofertowa na osobę, wyliczona przez Otodom dla dwóch osób dzielących lokal. Źródło nie podaje, czy kwota obejmuje opłaty administracyjne i media."
+    },
+    {
+      "type": "kawalerka (studio) dzielona przez dwie osoby (koszt na osobę)",
+      "area": "Wrocław (średnia dla miasta)",
+      "priceFrom": 1122,
+      "priceTo": 1122,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Otodom, dane z lipca 2026 podane przez Rzeczpospolitą (dane nieoficjalne)",
+      "sourceUrl": "https://www.rp.pl/nieruchomosci/art45013971-pokoj-albo-pol-kawalerki-dla-studenta-ile-to-kosztuje",
+      "quote": "Dwóch studentów decydujących się na współdzielenie kawalerki w Warszawie musi się liczyć ze średnim wydatkiem rzędu 1 361 zł (na osobę), w Gdańsku – 1 206 zł, w Krakowie – 1 130 zł, we Wrocławiu – 1 122 zł, w Poznaniu – 999 zł, w Łodzi – 861 zł, w Katowicach – 824 zł.",
+      "notes": "Średnia ofertowa na osobę, wyliczona przez Otodom dla dwóch osób dzielących lokal. Źródło nie podaje, czy kwota obejmuje opłaty administracyjne i media. Cała kawalerka kosztuje tyle, ile płacą razem dwie osoby."
+    },
+    {
+      "type": "mieszkanie 2-pokojowe dzielone przez dwie osoby (koszt na osobę)",
+      "area": "Wrocław (średnia dla miasta)",
+      "priceFrom": 1437,
+      "priceTo": 1437,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Otodom, dane z lipca 2026 podane przez Rzeczpospolitą (dane nieoficjalne)",
+      "sourceUrl": "https://www.rp.pl/nieruchomosci/art45013971-pokoj-albo-pol-kawalerki-dla-studenta-ile-to-kosztuje",
+      "quote": "Jeśli dwóch studentów zdecyduje się na wynajęcie mieszkania dwupokojowego, miesięczny koszt wynajmu (na osobę) wyniesie w Warszawie – 1 945 zł; w Gdańsku – 1 513 zł; w Krakowie – 1 466 zł; we Wrocławiu – 1 437 zł; w Poznaniu – 1 309 zł; w Łodzi – 1 127 zł; w Katowicach – 1 133 zł.",
+      "notes": "Średnia ofertowa na osobę, wyliczona przez Otodom dla dwóch osób dzielących lokal. Źródło nie podaje, czy kwota obejmuje opłaty administracyjne i media. Całe mieszkanie kosztuje tyle, ile płacą razem dwie osoby."
+    },
+    {
+      "type": "kawalerka (studio)",
+      "area": "Wrocław (średnia dla miasta)",
+      "priceFrom": 2302,
+      "priceTo": 2302,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Nieruchomosci-online.pl, lipiec 2026, za Gazetą Prawną i Business Insider Polska (dane nieoficjalne)",
+      "sourceUrl": "https://www.gazetaprawna.pl/biznes/nieruchomosci/artykuly/11290995,studenci-ile-kosztuje-wynajem-mieszkania-2026.html",
+      "quote": "Miasto Kawalerka – średnia ofertowa Pokój na rynku prywatnym Przykład akademika 2026/2027 Wrocław 2302 zł ok. 1200 zł",
+      "notes": "Średnia stawka ofertowa z serwisu Nieruchomosci-online.pl, przekazana Business Insider Polska. Serwis zastrzega, że stawki mogą nie zawierać opłat administracyjnych i mediów rozliczanych według zużycia."
+    },
+    {
+      "type": "pokój w mieszkaniu współdzielonym",
+      "area": "Wrocław (średnia dla miasta)",
+      "priceFrom": 1200,
+      "priceTo": 1200,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Nieruchomosci-online.pl, lipiec 2026, za Gazetą Prawną i Business Insider Polska (dane nieoficjalne)",
+      "sourceUrl": "https://www.gazetaprawna.pl/biznes/nieruchomosci/artykuly/11290995,studenci-ile-kosztuje-wynajem-mieszkania-2026.html",
+      "quote": "Miasto Kawalerka – średnia ofertowa Pokój na rynku prywatnym Przykład akademika 2026/2027 Wrocław 2302 zł ok. 1200 zł",
+      "notes": "Średnia ofertowa z serwisu Nieruchomosci-online.pl (przybliżona, zaokrąglona w źródle). Stawki mogą nie zawierać opłat administracyjnych i mediów według zużycia."
+    },
+    {
+      "type": "mieszkanie do 40 m² (mała kawalerka lub 1-pokojowe)",
+      "area": "Wrocław (średnia dla miasta)",
+      "priceFrom": 2402,
+      "priceTo": 2402,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Otodom Analytics, raport Bankier.pl (dane nieoficjalne)",
+      "sourceUrl": "https://www.bankier.pl/wiadomosc/Ceny-ofertowe-wynajmu-mieszkan-luty-2026-Raport-Bankier-pl-9082507.html",
+      "quote": "Średnie ceny ofertowe najmu w wybranych miastach w styczniu 2026 r. Miasto Metraż [w mkw.] Średnia cena [w zł/m-c] Zmiana m/m [w proc.] Zmiana r/r [w proc.] Wrocław 0-40 2402 -0,5 -3,7 40-59 2990 +0,5 -1,8 60-89 3944 +0,3 -0,1",
+      "notes": "Średnia cena ofertowa za cały lokal o podanym metrażu według Otodom Analytics, zebrana przez Bankier.pl. Miesiąc danych: styczeń 2026. Przedział metrażu nie jest tożsamy z podziałem na kawalerkę i mieszkanie 2-pokojowe, ale zwykle odpowiada małym mieszkaniom. Nie wiadomo, czy kwota obejmuje opłaty."
+    },
+    {
+      "type": "mieszkanie 40 do 59 m² (zwykle 2-pokojowe)",
+      "area": "Wrocław (średnia dla miasta)",
+      "priceFrom": 2990,
+      "priceTo": 2990,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Otodom Analytics, raport Bankier.pl (dane nieoficjalne)",
+      "sourceUrl": "https://www.bankier.pl/wiadomosc/Ceny-ofertowe-wynajmu-mieszkan-luty-2026-Raport-Bankier-pl-9082507.html",
+      "quote": "Średnie ceny ofertowe najmu w wybranych miastach w styczniu 2026 r. Miasto Metraż [w mkw.] Średnia cena [w zł/m-c] Zmiana m/m [w proc.] Zmiana r/r [w proc.] Wrocław 0-40 2402 -0,5 -3,7 40-59 2990 +0,5 -1,8 60-89 3944 +0,3 -0,1",
+      "notes": "Średnia cena ofertowa za cały lokal o podanym metrażu według Otodom Analytics, zebrana przez Bankier.pl. Miesiąc danych: styczeń 2026. Przedział metrażu nie jest tożsamy z podziałem na kawalerkę i mieszkanie 2-pokojowe, ale zwykle odpowiada małym mieszkaniom. Nie wiadomo, czy kwota obejmuje opłaty."
+    },
+    {
+      "type": "pokój w mieszkaniu współdzielonym",
+      "area": "Wrocław (średnia dla miasta)",
+      "priceFrom": 805,
+      "priceTo": 805,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie",
+      "official": false,
+      "source": "Mzuri, szacunki z zawartych umów, za Infor.pl (dane nieoficjalne)",
+      "sourceUrl": "https://www.infor.pl/twoje-pieniadze/koszty-utrzymania/7664406,wynajem-pokoju-dla-studenta-ceny-i-inne-koszty-pod-koniec-wrzesnia-2026-r.html",
+      "quote": "Miasto Czynsz najmu Opłaty* Kaucja Wrocław 805 zł 478 zł 1 283 zł",
+      "notes": "Czynsz najmu to średnia z umów zawartych przez Mzuri. Do tego dochodzą opłaty administracyjne i media, średnio 478 zł miesięcznie (łącznie 1283 zł). Mzuri jest firmą zajmującą się najmem, a nie oficjalną statystyką."
+    },
+    {
+      "type": "mieszkanie (średnia wszystkich ofert)",
+      "area": "Wrocław",
+      "priceFrom": 3035,
+      "priceTo": 3035,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Otodom, Raport z rynku najmu kwiecień 2026 (dane nieoficjalne)",
+      "sourceUrl": "https://www.otodom.pl/wiadomosci/raport-z-rynku-najmu-kwiecien-2026-psiecko-zamiast-zmywarki-rewolucja-na-rynku-najmu-i-pierwsza-w-tym-roku-wyrazna-korekta-2/",
+      "quote": "Powyżej 3 000 zł płacą najemcy w Trójmieście (3 164 zł), Krakowie (3 127 zł) i Wrocławiu (3 035 zł).",
+      "notes": "Dane nieoficjalne: średni ofertowy czynsz za mieszkanie, kwiecień 2026. W sierpniu 2026 stawki we Wrocławiu wzrosły o 1,5% w porównaniu z lipcem."
+    },
+    {
+      "type": "mieszkanie 2-pokojowe",
+      "area": "Wrocław",
+      "priceFrom": 3000,
+      "priceTo": 3000,
+      "currency": "PLN",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Otodom, Raport z rynku najmu lipiec 2026 (dane nieoficjalne)",
+      "sourceUrl": "https://www.otodom.pl/wiadomosci/raport-z-rynku-najmu-lipiec-2026/",
+      "quote": "prawie 40% ofert plasuje się w okolicach 3 000 zł miesięcznie",
+      "notes": "Dane nieoficjalne: raport opisuje wspólnie Kraków, Wrocław i Trójmiasto. Wskazuje najczęstszy poziom stawek, bez wyliczenia średniej."
+    }
+  ],
+  "gaps": [
+    "Brak osobnego oficjalnego szacunku miesięcznego budżetu studenta dla samego Wrocławia; ceny wynajmu pochodzą z raportów portali i firm najmu (dane nieoficjalne), bo oficjalne dane NBP o najmie są publikowane głównie na wykresach w złotych za m², bez cen za pokój, kawalerkę czy mieszkanie dwupokojowe.",
+    "Dwa wiersze wynajmu z raportów Otodom opisują Wrocław wspólnie z Krakowem i Trójmiastem. Przy wynajmie całego mieszkania dwupokojowego Otodom podaje tylko koszt na osobę przy dwóch osobach, a Otodom Analytics przedział 40 do 59 m².",
+    "Cenniki domów studenckich Politechniki Wrocławskiej, Uniwersytetu Ekonomicznego, Przyrodniczego i Medycznego nie zostały potwierdzone na stronach uczelni.",
+    "Strony Uniwersytetu Wrocławskiego nie podają wysokości kaucji ani tego, co obejmuje opłata za miejsce.",
+    "Na stronie UWr widoczny jest tylko termin ostatniej tury (23 do 30 września 2026, już zamkniętej), terminów wcześniejszych tur nie podano."
+  ],
+  "sources": [
+    {
+      "url": "https://uwr.edu.pl/domy-studenckie-2/cennik/",
+      "note": "UWr, cennik domów studenckich 2026/2027"
+    },
+    {
+      "url": "https://uwr.edu.pl/domy-studenckie-2/",
+      "note": "UWr, zasady składania wniosków i harmonogram"
+    },
+    {
+      "url": "https://www.otodom.pl/wiadomosci/raport-z-rynku-najmu-kwiecien-2026-psiecko-zamiast-zmywarki-rewolucja-na-rynku-najmu-i-pierwsza-w-tym-roku-wyrazna-korekta-2/",
+      "note": "Otodom, raport najmu kwiecień 2026 (dane nieoficjalne)"
+    },
+    {
+      "url": "https://www.otodom.pl/wiadomosci/raport-z-rynku-najmu-lipiec-2026/",
+      "note": "Otodom, raport najmu lipiec 2026 (dane nieoficjalne)"
+    },
+    {
+      "url": "https://www.otodom.pl/wiadomosci/raport-z-rynku-najmu-sierpien-2026/",
+      "note": "Otodom, raport najmu sierpień 2026 (dane nieoficjalne)"
+    },
+    {
+      "url": "https://www.rp.pl/nieruchomosci/art45013971-pokoj-albo-pol-kawalerki-dla-studenta-ile-to-kosztuje",
+      "note": "Rzeczpospolita, dane Otodom z lipca 2026, koszt na osobę przy dwóch osobach (dane nieoficjalne)"
+    },
+    {
+      "url": "https://www.gazetaprawna.pl/biznes/nieruchomosci/artykuly/11290995,studenci-ile-kosztuje-wynajem-mieszkania-2026.html",
+      "note": "Gazeta Prawna, dane Nieruchomosci-online.pl z lipca 2026 (dane nieoficjalne)"
+    },
+    {
+      "url": "https://www.bankier.pl/wiadomosc/Ceny-ofertowe-wynajmu-mieszkan-luty-2026-Raport-Bankier-pl-9082507.html",
+      "note": "Bankier.pl, Otodom Analytics, styczeń 2026 (dane nieoficjalne)"
+    },
+    {
+      "url": "https://www.infor.pl/twoje-pieniadze/koszty-utrzymania/7664406,wynajem-pokoju-dla-studenta-ceny-i-inne-koszty-pod-koniec-wrzesnia-2026-r.html",
+      "note": "Infor.pl, dane firmy Mzuri, wrzesień 2026 (dane nieoficjalne)"
+    }
+  ]
+}
