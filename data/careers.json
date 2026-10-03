@@ -3358,7 +3358,7 @@
     "famousPeople": [
       {
         "name": "Ludwik Hirszfeld",
-        "description": "Odkrywca grup krwi, immunolog",
+        "description": "Współodkrywca dziedziczenia grup krwi, immunolog",
         "bio": "Polski lekarz, bakteriolog i immunolog (1884 do 1954). Twórca polskiej szkoły immunologicznej i seroantropologii, wprowadził oznaczenia grup krwi układu AB0. Urodził się w Warszawie, zmarł we Wrocławiu.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Ludwik_Hirszfeld"
       },
@@ -3376,7 +3376,7 @@
       },
       {
         "name": "Hipokrates",
-        "description": "Ojciec medycyny, twórca przysięgi lekarskiej",
+        "description": "Ojciec medycyny",
         "bio": "Grecki lekarz (ok. 460 do ok. 377 p.n.e.), urodzony na wyspie Kos. Jeden z prekursorów współczesnej medycyny, nazywany „ojcem medycyny\".",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Hipokrates"
       }
@@ -9031,12 +9031,6 @@
         "description": "Odkrywca penicyliny",
         "bio": "Szkocki lekarz i mikrobiolog (1881 do 1955). W 1928 roku odkrył penicylinę, pierwszy odkryty antybiotyk. W 1945 roku razem z Howardem Floreyem i Ernstem Chainem otrzymał Nagrodę Nobla w dziedzinie fizjologii lub medycyny.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Alexander_Fleming"
-      },
-      {
-        "name": "Maria Skłodowska-Curie",
-        "description": "Noblistka, odkrywczyni polonu i radu",
-        "bio": "Polsko-francuska uczona (1867 do 1934), podwójna laureatka Nagrody Nobla z fizyki (1903) i chemii (1911). Odkryła pierwiastki rad i polon. Była prekursorką radiochemii i inicjowała badania nad leczeniem raka za pomocą promieniotwórczości.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Maria_Skłodowska-Curie"
       }
     ],
     "relatedCareers": [
@@ -10729,7 +10723,8 @@
       "sourceName": "GUS, Struktura wynagrodzeń według zawodów za październik 2024 r.",
       "sourceUrl": "https://stat.gov.pl/obszary-tematyczne/rynek-pracy/pracujacy-zatrudnieni-wynagrodzenia-koszty-pracy/struktura-wynagrodzen-wedlug-zawodow-za-pazdziernik-2024-r-,4,12.html",
       "scope": "zawód",
-      "group": "Kucharze"
+      "group": "Kucharze",
+      "caveat": "GUS bada tylko firmy od 10 osób, a w małych lokalach gastronomicznych płace mogą być niższe."
     },
     "demand": "zrównoważony",
     "category": "uslugi",
@@ -15198,13 +15193,13 @@
     "famousPeople": [
       {
         "name": "Nikola Tesla",
-        "description": "Wynalazca prądu zmiennego",
+        "description": "Twórca silnika indukcyjnego i systemów prądu przemiennego",
         "bio": "Serbski inżynier pochodzący z Chorwacji (1856 do 1943), elektrotechnik, radiotechnik i wynalazca. Konstruował urządzenia do wytwarzania i wykorzystania prądu przemiennego, konkurując z Thomasem Edisonem. Był autorem blisko 300 patentów chroniących 125 wynalazków, m.in. silnika elektrycznego i prądnicy prądu przemiennego oraz transformatora Tesli.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Nikola_Tesla"
       },
       {
         "name": "Thomas Edison",
-        "description": "Wynalazca żarówki i systemu dystrybucji prądu",
+        "description": "Twórca praktycznej żarówki i systemu dystrybucji prądu",
         "bio": "Amerykański wynalazca i przedsiębiorca (1847 do 1931). Twórca żarówki, fonografu i systemu dystrybucji prądu stałego. Posiadał rekordowe 1093 patenty. Założył jedno z pierwszych laboratoriów badawczych w Menlo Park, nazywane „fabryką wynalazków\". Jego innowacje ukształtowały współczesny przemysł elektryczny.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Thomas_Edison"
       },
@@ -15397,7 +15392,7 @@
       },
       {
         "name": "Eliot Ness",
-        "description": "Agent federalny, pogromca Ala Capone",
+        "description": "Agent federalny z zespołu ścigającego Ala Capone",
         "bio": "Amerykański agent do spraw prohibicji (1903 do 1957), znany z działań przeciwko Alowi Capone w Chicago w czasie prohibicji. Kierował zespołem funkcjonariuszy zwanych „Nietykalnymi\", dobranych ze względu na nieprzekupność. Jego wspomnienia „Nietykalni\" ukazały się po jego śmierci i dały początek filmowym wizerunkom.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Eliot_Ness"
       }
@@ -22256,7 +22251,7 @@
       ],
       "training": [
         {
-          "name": "Kwalifikacyjne kursy zawodowe EE.08/EE.09",
+          "name": "Kwalifikacyjne kursy zawodowe INF.02 i INF.03",
           "providers": [
             {
               "name": "CKZ",
@@ -22267,8 +22262,8 @@
               "url": "https://www.gov.pl/web/edukacja"
             }
           ],
-          "description": "Kursy kwalifikacyjne w zakresie montażu i eksploatacji systemów komputerowych (EE.08) oraz programowania i tworzenia stron WWW (EE.09). Przygotowują do egzaminów potwierdzających kwalifikacje zawodowe w technikum informatycznym.",
-          "requirements": "Ukończona szkoła podstawowa (minimum 18 lat)"
+          "description": "Kursy kwalifikacyjne w zakresie administracji i eksploatacji systemów komputerowych, urządzeń peryferyjnych i lokalnych sieci komputerowych (INF.02) oraz tworzenia i administrowania stronami i aplikacjami internetowymi (INF.03). Przygotowują do egzaminów potwierdzających kwalifikacje zawodowe w technikum informatycznym.",
+          "requirements": "Ukończona szkoła podstawowa"
         }
       ],
       "soft": [
@@ -23335,7 +23330,7 @@
       },
       {
         "name": "Ada Lovelace",
-        "description": "Pierwsza programistka w historii",
+        "description": "Uważana za jedną z pierwszych programistek",
         "bio": "Angielska matematyczka i pisarka (1815 do 1852), znana z pracy nad maszyną analityczną Charlesa Babbage'a. Jako pierwsza dostrzegła, że maszyna może służyć nie tylko do obliczeń, m.in. do kodowania muzyki. Często uważana za pierwszą programistkę. Jedyne legalne dziecko poety Lorda Byrona.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Ada_Lovelace"
       },
@@ -29030,12 +29025,6 @@
         "description": "Ojciec public relations",
         "bio": "Austriacko-amerykański pionier public relations i propagandy (1891 do 1995), określony w nekrologu jako „ojciec public relations\". Połączył idee Gustave'a Le Bona i Wilfreda Trottera o psychologii tłumu z psychoanalitycznymi ideami swojego wuja, Zygmunta Freuda. W 2002 roku w dokumencie Adama Curtisa dla BBC „The Century of the Self\" wskazano go jako twórcę nowoczesnego public relations. Magazyn „Life\" uznał go za jednego ze 100 najbardziej wpływowych Amerykanów XX wieku.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Edward_Bernays"
-      },
-      {
-        "name": "Krystyna Janda",
-        "description": "Aktorka i dyrektorka artystyczna teatrów Polonia i Och-Teatr",
-        "bio": "Polska aktorka filmowa i teatralna, reżyserka, prozaiczka, felietonistka i piosenkarka (ur. 1952 w Starachowicach). Współzałożycielka i prezeska Fundacji Krystyny Jandy na rzecz Kultury, dyrektorka artystyczna teatrów Polonia i Och-Teatr w Warszawie. Rozgłos przyniosła jej główna rola w filmie Andrzeja Wajdy „Człowiek z marmuru\" (1976), a międzynarodowe uznanie rola w „Przesłuchaniu\" Ryszarda Bugajskiego (1982).",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Krystyna_Janda"
       },
       {
         "name": "Ivy Lee",
@@ -37859,14 +37848,7 @@
         }
       ]
     },
-    "famousPeople": [
-      {
-        "name": "Justynian I Wielki",
-        "description": "Cesarz bizantyński za którego rządów powstał zbiór prawa rzymskiego",
-        "bio": "Cesarz bizantyński (ok. 482 do 565), urodzony w Tauresium, zmarł w Konstantynopolu. Panował od 1 sierpnia 527 do 13 listopada 565 roku. Za jego czasów Cesarstwo Bizantyńskie osiągnęło największą świetność. Święty Cerkwi prawosławnej.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Justynian_I_Wielki"
-      }
-    ],
+    "famousPeople": [],
     "relatedCareers": [
       "prawnik",
       "sedzia",
@@ -39935,12 +39917,6 @@
       "schools": []
     },
     "famousPeople": [
-      {
-        "name": "Kevin Costner",
-        "description": "Amerykański aktor i reżyser",
-        "bio": "Amerykański aktor, reżyser, producent filmowy i muzyk (ur. 1955 w Lynwood). Wielokrotny zdobywca ważnych nagród filmowych, w tym dwóch Oscarów, dwóch Złotych Globów i nagrody Emmy.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Kevin_Costner"
-      },
       {
         "name": "Allan Pinkerton",
         "description": "Założyciel pierwszej agencji ochrony na świecie",
@@ -44400,7 +44376,8 @@
       "sourceName": "GUS, Struktura wynagrodzeń według zawodów za październik 2024 r.",
       "sourceUrl": "https://stat.gov.pl/obszary-tematyczne/rynek-pracy/pracujacy-zatrudnieni-wynagrodzenia-koszty-pracy/struktura-wynagrodzen-wedlug-zawodow-za-pazdziernik-2024-r-,4,12.html",
       "scope": "grupa",
-      "group": "Fryzjerzy, kosmetyczki i pokrewni"
+      "group": "Fryzjerzy, kosmetyczki i pokrewni",
+      "caveat": "Liczba dotyczy grupy zawodów razem z kosmetyczkami. GUS bada tylko firmy od 10 osób, a w tym zawodzie wiele osób pracuje w małych salonach, gdzie płace mogą być niższe."
     },
     "demand": "zrównoważony",
     "category": "uslugi",
@@ -44526,7 +44503,8 @@
       "sourceName": "GUS, Struktura wynagrodzeń według zawodów za październik 2024 r.",
       "sourceUrl": "https://stat.gov.pl/obszary-tematyczne/rynek-pracy/pracujacy-zatrudnieni-wynagrodzenia-koszty-pracy/struktura-wynagrodzen-wedlug-zawodow-za-pazdziernik-2024-r-,4,12.html",
       "scope": "grupa",
-      "group": "Fryzjerzy, kosmetyczki i pokrewni"
+      "group": "Fryzjerzy, kosmetyczki i pokrewni",
+      "caveat": "Liczba dotyczy grupy zawodów razem z fryzjerami. GUS bada tylko firmy od 10 osób, a w tym zawodzie wiele osób pracuje w małych gabinetach, gdzie płace mogą być niższe."
     },
     "demand": "zrównoważony",
     "category": "uslugi",
@@ -45116,7 +45094,8 @@
       "sourceName": "GUS, Struktura wynagrodzeń według zawodów za październik 2024 r.",
       "sourceUrl": "https://stat.gov.pl/obszary-tematyczne/rynek-pracy/pracujacy-zatrudnieni-wynagrodzenia-koszty-pracy/struktura-wynagrodzen-wedlug-zawodow-za-pazdziernik-2024-r-,4,12.html",
       "scope": "grupa",
-      "group": "Robotnicy w przetwórstwie spożywczym i pokrewni"
+      "group": "Robotnicy w przetwórstwie spożywczym i pokrewni",
+      "caveat": "Liczba dotyczy całej grupy robotników przetwórstwa spożywczego. GUS bada tylko firmy od 10 osób, a w małych cukierniach płace mogą być niższe."
     },
     "demand": "zrównoważony",
     "category": "uslugi",
@@ -45140,7 +45119,7 @@
               "url": "https://www.zrp.pl"
             }
           ],
-          "description": "Szkolenie zawodowe obejmujące techniki produkcji ciast, tortów, deserów i wyrobów cukierniczych. Uczniowie poznają technologię żywności, dekorowanie i zasady HACCP. Program zakończony egzaminem zawodowym z kwalifikacji TG.04.",
+          "description": "Szkolenie zawodowe obejmujące techniki produkcji ciast, tortów, deserów i wyrobów cukierniczych. Uczniowie poznają technologię żywności, dekorowanie i zasady HACCP. Program zakończony egzaminem zawodowym z kwalifikacji SPC.01.",
           "requirements": "Ukończona szkoła podstawowa"
         }
       ],
@@ -45262,7 +45241,8 @@
       "sourceName": "GUS, Struktura wynagrodzeń według zawodów za październik 2024 r.",
       "sourceUrl": "https://stat.gov.pl/obszary-tematyczne/rynek-pracy/pracujacy-zatrudnieni-wynagrodzenia-koszty-pracy/struktura-wynagrodzen-wedlug-zawodow-za-pazdziernik-2024-r-,4,12.html",
       "scope": "grupa",
-      "group": "Robotnicy w przetwórstwie spożywczym i pokrewni"
+      "group": "Robotnicy w przetwórstwie spożywczym i pokrewni",
+      "caveat": "Liczba dotyczy całej grupy robotników przetwórstwa spożywczego. GUS bada tylko firmy od 10 osób, a w małych piekarniach płace mogą być niższe."
     },
     "demand": "zrównoważony",
     "category": "uslugi",
@@ -45516,7 +45496,7 @@
       "certifications": [],
       "training": [
         {
-          "name": "Kurs pilota wycieczek (120h)",
+          "name": "Kurs pilota wycieczek (dobrowolny)",
           "providers": [
             {
               "name": "Biura podróży",
@@ -46332,12 +46312,12 @@
       },
       {
         "name": "Thomas Chippendale",
-        "description": "Najsłynniejszy mebel brytyjski, ikona stolarstwa",
+        "description": "Najsłynniejszy brytyjski projektant mebli",
         "bio": "Angielski stolarz i projektant mebli (1718 do 1779), działający w Londynie, tworzący meble w stylu środkowego georgiańskiego, angielskiego rokoka i neoklasycyzmu. W 1754 roku opublikował katalog wzorów „The Gentleman and Cabinet Maker's Director\", najważniejszy do tamtej pory zbiór projektów mebli wydany w Anglii. Od jego nazwiska „Chippendale\" stało się określeniem mebli podobnych do jego wzorów.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Thomas_Chippendale"
       },
       {
-        "name": "Nakashima George",
+        "name": "George Nakashima",
         "description": "Amerykański stolarz i architekt",
         "bio": "Amerykański stolarz i architekt (1905 do 1990), właściwie George Katsutoshi Nakashima. W 1983 roku otrzymał od cesarza Japonii Order Świętego Skarbu.",
         "sourceUrl": "https://en.wikipedia.org/wiki/George_Nakashima"
@@ -48573,7 +48553,7 @@
     "famousPeople": [
       {
         "name": "Nikola Tesla",
-        "description": "Wynalazca prądu zmiennego i wielu maszyn",
+        "description": "Twórca silnika indukcyjnego i systemów prądu przemiennego",
         "bio": "Serbski inżynier pochodzący z Chorwacji (1856 do 1943), elektrotechnik, radiotechnik i wynalazca. Konstruował urządzenia do wytwarzania i wykorzystania prądu przemiennego. Był autorem blisko 300 patentów chroniących 125 wynalazków, m.in. silnika elektrycznego, prądnicy prądu przemiennego i transformatora Tesli.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Nikola_Tesla"
       },
@@ -52384,12 +52364,6 @@
         "description": "Polski agronom, pionier doświadczalnictwa rolniczego",
         "bio": "Polski agronom (1788 do 1854), profesor Cesarskiego Uniwersytetu Wileńskiego, pionier doświadczalnictwa rolniczego i teoretyk rolnictwa. Urodził się w Pociejkach koło Nowogródka, zmarł w Warszawie.",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Michał_Oczapowski"
-      },
-      {
-        "name": "Vandana Shiva",
-        "description": "Indyjska aktywistka ekologiczna i autorka",
-        "bio": "Indyjska uczona, aktywistka ekologiczna, zwolenniczka suwerenności żywnościowej, ekofeministka i autorka o poglądach antyglobalistycznych (ur. 1952), mieszkająca w Delhi. Napisała ponad 20 książek. Znana jako „Gandhi ziarna\" za działalność w ruchu przeciwko GMO.",
-        "sourceUrl": "https://en.wikipedia.org/wiki/Vandana_Shiva"
       }
     ],
     "relatedCareers": [
@@ -52466,19 +52440,7 @@
           "url": "https://www.lasy.gov.pl"
         }
       ],
-      "training": [
-        {
-          "name": "Służba przygotowawcza w LP",
-          "providers": [
-            {
-              "name": "CILP Bedoń",
-              "url": "https://www.cilp.lasy.gov.pl"
-            }
-          ],
-          "description": "Roczna służba przygotowawcza w Lasach Państwowych obejmująca praktykę w nadleśnictwach z zakresu hodowli lasu, ochrony lasu, pozyskania drewna i edukacji leśnej. Kończy się egzaminem i stałym zatrudnieniem.",
-          "requirements": "Dyplom inżyniera leśnictwa, pozytywna rekrutacja do LP"
-        }
-      ],
+      "training": [],
       "soft": [
         "Praca w terenie"
       ],
@@ -54323,12 +54285,6 @@
       ]
     },
     "famousPeople": [
-      {
-        "name": "Greta Thunberg",
-        "description": "Aktywistka klimatyczna, symbol ruchu ekologicznego",
-        "bio": "Szwedzka aktywistka klimatyczna i polityczna (ur. 2003 w Sztokholmie), Człowiek Roku tygodnika „Time\" za 2019 rok. W sierpniu 2018 roku rozpoczęła protest pod budynkiem szwedzkiego parlamentu przeciwko bierności władz wobec zmian klimatu. Inicjatorka Młodzieżowego Strajku Klimatycznego. Laureatka Right Livelihood Award.",
-        "sourceUrl": "https://pl.wikipedia.org/wiki/Greta_Thunberg"
-      },
       {
         "name": "Wangari Maathai",
         "description": "Noblistka, założycielka Green Belt Movement",

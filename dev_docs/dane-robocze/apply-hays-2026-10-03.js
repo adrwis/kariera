@@ -16,6 +16,11 @@ const CAVEAT = {
   ekonomista: 'GUS zalicza ekonomistów do grupy, w której są też psycholodzy, socjologowie i pracownicy socjalni, więc ta kwota jest tylko orientacyjna.',
   'doradca-podatkowy': 'GUS podaje płace wszystkich specjalistów od finansów, więc dla doradcy podatkowego ta kwota jest tylko orientacyjna.',
   'biegly-rewident': 'GUS podaje płace wszystkich specjalistów od finansów, a biegli rewidenci w firmach audytorskich zwykle zarabiają wyraźnie więcej.',
+  fryzjer: 'Liczba dotyczy grupy zawodów razem z kosmetyczkami. GUS bada tylko firmy od 10 osób, a w tym zawodzie wiele osób pracuje w małych salonach, gdzie płace mogą być niższe.',
+  kosmetyczka: 'Liczba dotyczy grupy zawodów razem z fryzjerami. GUS bada tylko firmy od 10 osób, a w tym zawodzie wiele osób pracuje w małych gabinetach, gdzie płace mogą być niższe.',
+  piekarz: 'Liczba dotyczy całej grupy robotników przetwórstwa spożywczego. GUS bada tylko firmy od 10 osób, a w małych piekarniach płace mogą być niższe.',
+  cukiernik: 'Liczba dotyczy całej grupy robotników przetwórstwa spożywczego. GUS bada tylko firmy od 10 osób, a w małych cukierniach płace mogą być niższe.',
+  kucharz: 'GUS bada tylko firmy od 10 osób, a w małych lokalach gastronomicznych płace mogą być niższe.',
   'inzynier-budownictwa': 'GUS podaje płace wszystkich inżynierów razem z kierownikami i doświadczonymi specjalistami, więc inżynier na początku kariery może zarabiać mniej.',
 };
 let market = 0, caveats = 0;

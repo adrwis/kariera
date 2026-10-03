@@ -383,10 +383,12 @@
 
   // --- Polish declension helper ---
   // Kwoty zawsze w jednym zapisie: „8 767 zł” (twarda spacja w tysiącach)
+  // Kwoty GUS to mediana grupy: pokazujemy zaokrągloną do 100 zł, żeby nie sugerować dokładności co do złotówki
+  const fmtZl100 = n => fmtZl(Math.round(n / 100) * 100);
   const fmtZl = n => `${String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, '\u00A0')}\u00A0zł`;
   function salaryCardText(s) {
     if (!s) return '';
-    return `typowo ${fmtZl(s.median || s.max)} brutto${s.scope === 'grupa' ? ' (grupa zawodów)' : ''}`;
+    return `typowo ${fmtZl100(s.median || s.max)} brutto (GUS 2024${s.scope === 'grupa' ? ', grupa zawodów' : ''})`;
   }
   // Opis płacy na profilu zawodu: skąd liczba, kogo dotyczy i czego nie obejmuje
   // Drugie źródło obok GUS: oferty z rekrutacji dla osób z doświadczeniem (nie liczymy z nich mediany i nie mieszamy z GUS)
@@ -395,7 +397,12 @@
     if (!m) return '';
     const roles = (m.roles || []).length ? ` (np. ${m.roles.map(escapeHtml).join(', ')})` : '';
     const src = isHttpUrl(m.sourceUrl) ? ` <a href="${escapeAttr(m.sourceUrl)}" target="_blank" rel="noopener">Źródło: Hays</a>` : '';
-    return `<p class="career-hero__note career-hero__note--market"><strong>Rynek ofert, ${escapeHtml(m.year)}:</strong> w rekrutacjach agencji Hays Poland dla średnich i dużych firm na role w tym zawodzie${roles} oferowano od ${fmtZl(m.min)} do ${fmtZl(m.max)} brutto miesięcznie, najczęściej około ${fmtZl(m.typical)}. ${c.salary ? 'To oferty dla osób z doświadczeniem, więc zwykle są wyższe niż typowe zarobki z GUS powyżej.' : 'To oferty dla osób z doświadczeniem, a nie średnia wszystkich pracowników.'}${src}</p>`;
+    // Porównanie z GUS tylko, gdy liczby naprawdę się różnią (np. u prawnika oferty nie są wyższe niż mediana GUS)
+    const gus = c.salary ? c.salary.median : null;
+    const cmp = !gus ? 'To oferty dla osób z doświadczeniem, a nie średnia wszystkich pracowników.'
+      : m.typical > gus * 1.05 ? 'To oferty dla osób z doświadczeniem, więc zwykle są wyższe niż typowe zarobki z GUS powyżej.'
+      : 'To oferty, a nie wypłaty wszystkich pracowników, dlatego mogą się różnić od danych GUS powyżej.';
+    return `<p class="career-hero__note career-hero__note--market"><strong>Rynek ofert, ${escapeHtml(m.year)}:</strong> w rekrutacjach agencji Hays Poland dla średnich i dużych firm na role w tym zawodzie${roles} oferowano, zależnie od roli i doświadczenia (od juniora do seniora), od ${fmtZl100(m.min)} do ${fmtZl100(m.max)} brutto miesięcznie. ${cmp}${src}</p>`;
   }
   function salaryNoteHtml(c) {
     const market = salaryMarketHtml(c);
@@ -410,8 +417,8 @@
     // Gdy dolny przedział równa się medianie, większość pracowników dostaje tę samą kwotę (u nas to płaca minimalna z października 2024)
     const floor = s.min >= s.median;
     const spread = floor
-      ? `Według GUS (październik 2024) co najmniej połowa pracowników zarabia ${fmtZl(s.median)} brutto, czyli tyle, ile wynosiła wtedy płaca minimalna. Tylko co dziesiąty dostaje więcej niż ${fmtZl(s.max)}.`
-      : `Według GUS (październik 2024) połowa pracowników zarabia mniej niż ${fmtZl(s.median)}, a połowa więcej. Większość (80%) dostaje od ${fmtZl(s.min)} do ${fmtZl(s.max)}.`;
+      ? `Według GUS (październik 2024) co najmniej połowa pracowników zarabia ${fmtZl100(s.median)} brutto, czyli tyle, ile wynosiła wtedy płaca minimalna. Tylko co dziesiąty dostaje więcej niż ${fmtZl100(s.max)}.`
+      : `Według GUS (październik 2024) połowa pracowników zarabia mniej niż ${fmtZl100(s.median)}, a połowa więcej. Większość (80%) dostaje od ${fmtZl100(s.min)} do ${fmtZl100(s.max)}.`;
     return `<p class="career-hero__note">${spread} To kwoty brutto, czyli przed odjęciem podatków i składek.${group} Dane dotyczą tylko etatów w firmach od 10 osób.${src}</p>${market}`;
   }
 
@@ -759,7 +766,7 @@
   function renderRichDetail(c) {
     currentCareerData = c;
 
-    const salaryText = c.salary ? `typowe zarobki: ${fmtZl(c.salary.median || c.salary.max)} brutto/mies.${c.salary.scope === 'grupa' ? ' (grupa zawodów)' : ''}` : '';
+    const salaryText = c.salary ? `typowe zarobki: ${fmtZl100(c.salary.median || c.salary.max)} brutto/mies.${c.salary.scope === 'grupa' ? ' (grupa zawodów)' : ''}` : '';
 
     const demandClass = c.demand ? `result-card__badge--demand-${c.demand}` : '';
     const demandTitle = c.demand ? ` title="${escapeAttr((DEMAND_LABELS[c.demand] || c.demand) + `. Barometr Zawodów 2026, cała Polska${c.demandGroup ? `, grupa „${c.demandGroup}”` : ''}${c.demandPomorskie ? `. W województwie pomorskim: ${c.demandPomorskie}` : ''}.`)}"` : '';
