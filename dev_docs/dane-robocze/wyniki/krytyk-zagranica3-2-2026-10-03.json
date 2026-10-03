@@ -1,0 +1,209 @@
+[
+ {
+  "city": "Berlin",
+  "program": "TU Berlin (5 programów) i HTW Berlin (7 programów)",
+  "field": "tuitionEu / tuitionNonEu",
+  "severity": "ważne",
+  "problem": "Czesne 0 EUR wpisane dla TU i dla sześciu programów HTW poza International Business na podstawie braku wzmianki o czesnym. Dodatek do instrukcji (pkt 2) dopuszcza „brak czesnego” tylko wtedy, gdy źródło mówi to dosłownie. Pole samo przyznaje: „strona TU opisuje tylko opłaty semestralne”, „strona opłat HTW wymienia tylko opłaty semestralne”.",
+  "evidence": "tu.berlin/.../semester-fees: tylko tabela opłat semestralnych (379,06 EUR, 149,56 EUR), brak zdania o czesnym. htw-berlin.de/.../semesterbeitraege: tylko składniki 375,30 EUR. Zdanie o braku czesnego jest tylko na stronie International Business („without tuition fees”). Dla FU jest dosłowne: „erhebt ... keine Studiengebühren”.",
+  "proposedFix": "Dla TU i nie-IB programów HTW zapisać „czesne nie jest wymienione na stronie opłat; do potwierdzenia na stronie uczelni” albo znaleźć dosłowne zdanie (np. ustawa berlińska lub strona „Studiengebühren” TU/HTW). Opłatę semestralną zostawić."
+ },
+ {
+  "city": "Berlin",
+  "program": "HTW International Business (i pozostałe programy HTW)",
+  "field": "tuitionNonEu",
+  "severity": "ważne",
+  "problem": "Cytat „Tuition free ... generally free of charge” przypisany do strony programu International Business nie występuje na żadnej z podanych stron. Strona mówi tylko „without tuition fees and fully taught in English” i „without paying any tuition”. Cytat w apostrofach wygląda na dosłowny, a nie jest. Ten sam cytat jest skopiowany do pozostałych sześciu programów HTW.",
+  "evidence": "international-business.htw-berlin.de/bachelor/for-applicants: „offers you an internationally accredited degree, without tuition fees and fully taught in English”; frazy „generally free of charge” brak na stronie ani na /application.",
+  "proposedFix": "Zastąpić cytat faktycznym: „without tuition fees” (IB). Dla pozostałych programów HTW usunąć odwołanie do cytatu z innego programu."
+ },
+ {
+  "city": "Berlin",
+  "program": "FU Berlin: Psychologie i Recht (programy 0 i 3)",
+  "field": "admission.requirements",
+  "severity": "ważne",
+  "problem": "Urwane zdanie po poprawce: „tłumaczenia przysięgłe, jeśli świadectwo nie jest po niemiecku lub angielsku Nabór ograniczony (DoSV ...”. Brak kropki, zlepek dwóch zdań. W pozostałych programach FU zdanie kończy się bez kropki.",
+  "evidence": "data/zagranica/berlin.json, universities[0].programs[0] i [3], pole requirements: „...po niemiecku lub angielsku Nabór ograniczony (DoSV przez hochschulstart.de...”.",
+  "proposedFix": "Wstawić kropkę przed „Nabór ograniczony” (i na końcu zdania w programach 1, 2, 4)."
+ },
+ {
+  "city": "Berlin",
+  "program": "wszystkie programy",
+  "field": "admission.polishMatura",
+  "severity": "drobne",
+  "problem": "Status „uznawana z warunkami” nadal opiera się wyłącznie na ogólnej zasadzie DAAD, której nie dało się odczytać (strona DAAD zwraca 403, więc nie zweryfikowano cytatu). Ostrzeżenie w tekście jest uczciwe. Do tego tekst pola matura opisuje ograniczenia zbierania danych („nie da się sprawdzić bez ręcznego wyszukiwania”).",
+  "evidence": "https://www.daad.de/en/studying-in-germany/requirements/overview/ zwraca „403 Forbidden” przy curl z User-Agent przeglądarki. uni-assist (ua3) potwierdza tylko listę dokumentów z Polski: Świadectwo dojrzałości i Świadectwo ukończenia.",
+  "proposedFix": "Zostawić status, w polu matura skrócić do zdania dla ucznia: „Ostateczną decyzję o uznaniu świadectwa podejmuje uczelnia”. Wyrzucić sformułowania o wyszukiwarce."
+ },
+ {
+  "city": "Berlin",
+  "program": "TU Berlin: Economics and Sustainability; HTW Wirtschaftsingenieurwesen i Wirtschaftskommunikation",
+  "field": "notes",
+  "severity": "ważne",
+  "problem": "Żargon zbierania danych widoczny dla czytelnika: „pole name zawiera adnotację”, „wpisano pustą listę, nie zgaduję”, „w sprawdzonym zbiorze”, „na sprawdzonych uczelniach”. Antyteza „To komunikacja korporacyjna i reklama, nie dziennikarstwo” oraz „Nie jest to kierunek dziennikarski w ścisłym sensie, tylko nauka o komunikacji” (FU Publizistik). Zdanie o języku powtórzone w Wirtschaftsingenieurwesen (dwa razy to samo).",
+  "evidence": "berlin.json: universities[1].programs[4].notes; universities[3].programs[5].notes; universities[3].programs[6].notes; universities[0].programs[4].notes; summary[1] i [2].",
+  "proposedFix": "Przepisać na pełne zdania bez antytez, np. „Kierunek obejmuje komunikację korporacyjną i reklamę; do zawodu dziennikarza pasuje luźno”. Usunąć odwołania do pola name i listy pustej."
+ },
+ {
+  "city": "Berlin",
+  "program": "HTW Berlin (wszystkie programy)",
+  "field": "deadline",
+  "severity": "drobne",
+  "problem": "Okna naboru poprawnie opisane jako wzorzec bez roku, ale pominięto, że na stronie HTW są też okna dla kierunków z NC przez uni-assist (WS 01.05 do 30.06, SS 01.11 do 31.12). Dla UE nie dotyczy, więc to tylko niedopowiedzenie.",
+  "evidence": "htw-berlin.de/studium/bewerbung/bachelor-bewerbung/: „Studiengänge mit Zulassungsbeschränkung (über uni-assist) 01.05. - 30.06.”; potwierdzone też 15.05 do 15.07 i 15.05 do 30.09.",
+  "proposedFix": "Opcjonalnie dodać zdanie, że okna przez uni-assist dotyczą osób spoza UE."
+ },
+ {
+  "city": "Hamburg",
+  "program": "wszystkie uczelnie publiczne i Bucerius",
+  "field": "admission.polishMatura / summary",
+  "severity": "ważne",
+  "problem": "Sprzeczność wewnątrz miasta: podsumowanie „Polska matura” mówi, że strony uczelni nie wymieniają polskiej matury i status wymaga potwierdzenia w uczelni, a UHH, HAW i HCU mają w programach „uznawana z warunkami” (TUHH i Bucerius „wymaga potwierdzenia przez uczelnię”). Uczeń zobaczy dwa różne statusy dla tej samej sytuacji (świadectwo z UE, brak wzmianki o Polsce).",
+  "evidence": "hamburg.json: summary[0] kończy się „status wymaga potwierdzenia w uczelni”; universities[0].programs[0].matura, universities[2].programs[0].matura, universities[3].programs[0].matura = „uznawana z warunkami”. Gaps[0]: „Strony uczelni nie wymieniają polskiej matury”.",
+  "proposedFix": "Ujednolicić: albo dla UHH/HAW/HCU dopisać w polu matura, że „z warunkami” wynika z obowiązku VPD lub uznania świadectwa, a nie z potwierdzonej listy dla Polski, albo zmienić na „wymaga potwierdzenia przez uczelnię”."
+ },
+ {
+  "city": "Hamburg",
+  "program": "UHH (Psychologie, Informatik, BWL, Recht, Medizin)",
+  "field": "admissionUrl",
+  "severity": "drobne",
+  "problem": "Pole admissionUrl nadal wskazuje ogólną stronę „studium-mit-abschluss”, która nie zawiera terminów, NC, liczb miejsc ani wyniku BaPsy. Właściwe strony są teraz w liście sources i wszystkie potwierdzają dane, ale przy programie link prowadzi gdzie indziej.",
+  "evidence": "uni-hamburg.de/en/.../studium-mit-abschluss.html: brak „July/Juli”, „Dezember”, „DSH” w odczytanym tekście. Dane potwierdzone na uni-hamburg.de/campuscenter/bewerbung/fristen-termine.html (1.06 do 15.07; 1.12 do 15.01), psy.uni-hamburg.de (51 i 49 procent) i PDF Studienplätze (148/5030).",
+  "proposedFix": "Przypisać do pól deadline i requirements właściwe adresy (fristen-termine, informationen-nc, test BaPsy) albo dodać je jako dodatkowe pole źródła."
+ },
+ {
+  "city": "Hamburg",
+  "program": "HAW Hamburg: Mechanical Engineering",
+  "field": "deadline",
+  "severity": "drobne",
+  "problem": "Nabór na semestr letni (1.10 do 30.11) jest otwarty w dniu przeglądu i jest jedyną pilną datą w pliku. Jest uczciwie opisany w polu i w podsumowaniu, ale bez wyróżnienia, że trwa teraz.",
+  "evidence": "haw-hamburg.de/en/bachelor-mechanical-engineering/: „application period is October 1 – November 30 for starting in the subsequent summer semester (April)”; „well overbooked”.",
+  "proposedFix": "Dodać na początku pola deadline: „Nabór trwa teraz (stan na 3 października 2026), do 30 listopada”."
+ },
+ {
+  "city": "Hamburg",
+  "program": "UHH BWL, Recht, Medizin; Bucerius",
+  "field": "durationYears",
+  "severity": "drobne",
+  "problem": "durationYears = null dla BWL, prawa i medycyny na UHH mimo że UHH i UKE podają liczbę semestrów na stronach programów. Luka jest opisana, ale zostaje niewypełnione pole, którego brak ogranicza porównanie.",
+  "evidence": "hamburg.json: gaps[4] „Czas trwania studiów BWL, prawa i medycyny na Universität Hamburg nie jest podany na sprawdzonych stronach”.",
+  "proposedFix": "Sprawdzić strony przedmiotowe UHH (Regelstudienzeit) i uzupełnić z cytatem albo zostawić null."
+ },
+ {
+  "city": "Monachium",
+  "program": "TUM Informatics, Architecture, Civil, Mechanical, Management and Technology",
+  "field": "admission.polishMatura",
+  "severity": "drobne",
+  "problem": "Niespójność między uczelniami: dla TUM „uznawana z warunkami” (VPD z uni-assist), dla LMU i HM „wymaga potwierdzenia przez uczelnię”, choć w obu przypadkach strony nie wymieniają Polski. Wyjaśnienie jest w polu (VPD potwierdza dostęp ogólny lub kierunkowy), więc status jest obroniony słownikiem, ale uczeń widzi różne etykiety.",
+  "evidence": "monachium.json: TUM matura = „uznawana z warunkami (świadectwo wymaga wstępnej oceny VPD ... strony TUM nie wymieniają Polski wprost)”; LMU matura = „wymaga potwierdzenia przez uczelnię”.",
+  "proposedFix": "Zostawić, ewentualnie dopisać w podsumowaniu jedno zdanie, dlaczego etykiety różnią się (VPD na TUM jest formalną procedurą uznania)."
+ },
+ {
+  "city": "Monachium",
+  "program": "TUM Heilbronn (Management and Technology, Information Engineering)",
+  "field": "university / name",
+  "severity": "drobne",
+  "problem": "Heilbronn leży w innym mieście, ok. 200 km od Monachium. Dodatek do instrukcji pozwala wpisywać uczelnie tylko z tej samej aglomeracji. Jest to zaznaczone w nazwie i notatkach, ale programy trafiają do widoku Monachium. Podsumowanie zawiera też żargon: „w zebranych danych brak programów z tego kampusu”.",
+  "evidence": "monachium.json: universities[1].name „kampusy Monachium, Garching i Heilbronn”; summary[5].",
+  "proposedFix": "Rozważyć przeniesienie do osobnej pozycji lub wyraźnej etykiety „poza Monachium” w widoku. Zdanie o Straubing przepisać: „TUM ma też kampus w Straubing (biotechnologia); nie opisano z niego programów”."
+ },
+ {
+  "city": "Monachium",
+  "program": "LMU Informatik, Psychologie, BWL, Recht, Kommunikation",
+  "field": "admission.requirements",
+  "severity": "drobne",
+  "problem": "Wartości NC (1,54 / 1,56, 1,9, 2,7, 2,1 / 3,4, 4,0) są poprawne, ale pole admissionUrl wskazuje strony programów, na których ich nie ma. Źródło (Grenzwerte) jest wymienione dopiero w liście sources.",
+  "evidence": "lmu.de/.../auswahlkriterien-und-grenzwerte-bei-oertlicher-zulassungsbeschraenkung/: „Psychologie Bachelor HF* (180 ECTS) 1,54** 1,56**”, „Rechtswissenschaft (Jura) 2,7 2,7”, „Kommunikationswissenschaft Bachelor HF* (120 ECTS) 2,1 3,4”.",
+  "proposedFix": "Dopisać w requirements „(źródło: strona Grenzwerte LMU)” albo dodać pole z tym adresem."
+ },
+ {
+  "city": "Kopenhaga",
+  "program": "DTU General Engineering",
+  "field": "notes",
+  "severity": "ważne",
+  "problem": "Żargon wewnętrzny widoczny dla czytelnika: „careerIds puste, kandydaci do decyzji Ady” w notatce DTU General Engineering. Czytelnik strony nie wie, kim jest Ada ani czym jest careerIds. Notatka kończy się też surowym adresem URL (po słowach „Link do wniosku:”), co w tekście dla ucznia wygląda niedbale.",
+  "evidence": "kopenhaga.json: universities[1].programs[0].notes: „...więc careerIds puste, kandydaci do decyzji Ady. ... Link do wniosku: https://www.dtu.dk/.../how-to-apply”.",
+  "proposedFix": "Przepisać: „Program nie ma osobnej ścieżki budownictwa ani mechaniki, więc nie przypisano go do zawodów.” Link przenieść do applyUrl."
+ },
+ {
+  "city": "Kopenhaga",
+  "program": "podsumowanie „Zakres”",
+  "field": "summary",
+  "severity": "ważne",
+  "problem": "Błąd liczby: „Po angielsku dostępne są trzy licencjaty: DTU General Engineering, CBS International Business oraz Business Administration and Digital Management, a także ITU Data Science”. To cztery programy w danych miasta.",
+  "evidence": "kopenhaga.json: summary[3].text; programy z languages = ['angielski']: DTU GE, CBS IB, CBS BADM, ITU Data Science.",
+  "proposedFix": "Zmienić na „cztery licencjaty” albo przestawić zdanie."
+ },
+ {
+  "city": "Kopenhaga",
+  "program": "ITU Softwareudvikling",
+  "field": "admission.polishMatura / notes",
+  "severity": "ważne",
+  "problem": "Niepewność, czy w ogóle da się aplikować: notatka mówi, że strona przeglądu BSc sugeruje, iż program nie jest otwarty dla kandydatów międzynarodowych, a mimo to program ma wpis ze statusem i terminem 15 marca (przeniesionym z innego programu ITU). Czytelnik nie dostaje ostrzeżenia w polach wymagań, tylko w notatce.",
+  "evidence": "kopenhaga.json: universities[3].programs[1].notes: „Strona przeglądu BSc sugeruje, że program nie jest otwarty dla kandydatów międzynarodowych; niepotwierdzone...”.",
+  "proposedFix": "Dodać ostrzeżenie na początku requirements i w polu deadline albo usunąć program do czasu potwierdzenia."
+ },
+ {
+  "city": "Kopenhaga",
+  "program": "KADK architektura, ITU, KU (gaps)",
+  "field": "gaps / notes",
+  "severity": "drobne",
+  "problem": "Antyteza w luce: „...bo kształci inżynierów, a nie architektów z tytułem”. Konstrukcje „nie potwierdzono”, „nie znaleziono” w polach programów są poprawne, ale część brzmi jak notatki z zbierania danych („Oficjalnej tabeli odpowiedników dla matury nie znaleziono”).",
+  "evidence": "kopenhaga.json: gaps[9]; universities[1].programs[*].requirements.",
+  "proposedFix": "Przeformułować na „Oficjalna tabela odpowiedników polskiej matury nie jest publicznie dostępna na stronie DTU”."
+ },
+ {
+  "city": "Kopenhaga",
+  "program": "KU: wszystkie licencjaty",
+  "field": "admission.polishMatura",
+  "severity": "drobne",
+  "problem": "Status „wymaga dodatkowego etapu” dla programów KU wynika z duńskiego A, a nie z samej matury. W tekście pola wyjaśnione, ale etykieta dla psychologii, prawa i informatyki jest taka sama jak dla CBS z angielskim A, mimo że dla CBS jest to konkretny egzamin zewnętrzny, a dla KU dowolny dowód duńskiego (Studieprøven). Nie jest to błąd, raczej ryzyko niewłaściwego odczytania.",
+  "evidence": "ku.dk/studies/bachelor/admission-requirements/diplomas-from-eu-eea-countries: „Poland Swiadectwo Dojrzalosci / Matura” jest na liście; ku.dk/studier/bachelor/psykologi: „Dansk A, Engelsk B, Matematik B”.",
+  "proposedFix": "Dopisać w polu matura: „Matura jest uznawana, ale potrzebny jest duński A”."
+ },
+ {
+  "city": "Sztokholm",
+  "program": "KTH Datateknik, Maskinteknik, Samhällsbyggnad, Arkitektutbildning",
+  "field": "languages",
+  "severity": "ważne",
+  "problem": "Język wykładowy czterech programów KTH wpisany jako „szwedzki” bez potwierdzenia na stronach (wniosek z tytułu szwedzkiej strony i z faktu, że KTH ma jeden licencjat po angielsku). Luka jest opisana wprost, ale pole languages wygląda jak potwierdzone. Poprzednia uwaga krytyka (ważne) pozostaje częściowo otwarta.",
+  "evidence": "sztokholm.json: universities[1].programs[1..4].languageProof: „Strona programu jest po szwedzku i nie podaje wprost języka wykładowego”. Strona kth.se/en/studies/bachelor potwierdza jeden licencjat po angielsku (ICT).",
+  "proposedFix": "Sprawdzić na kth.se strony „Utbildningens språk” albo w languages wpisać „szwedzki (do potwierdzenia na stronie uczelni)”."
+ },
+ {
+  "city": "Sztokholm",
+  "program": "SU, KTH, KI programy po szwedzku (9 programów)",
+  "field": "deadline",
+  "severity": "ważne",
+  "problem": "Termin 15 kwietnia 2027 dla programów szwedzkojęzycznych pochodzi z ogólnej strony universityadmissions.se (rundy dla programów anglojęzycznych, 15 marca do 15 kwietnia 2027), a nie ze stron programów ani antagning.se. Strony programów podają dopiero jesień 2026. Pole mówi to częściowo, luka o tym wprost, ale termin stoi z rokiem 2027 jak potwierdzony. Wyprowadzanie roku z cyklu jest zakazane przez dodatek (pkt 3).",
+  "evidence": "universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/: „15 March 2027 Application round opens 15 April Application deadline”. Potwierdzone dla KTH ICT: runda 1 od 16 października 2026 do 15 stycznia 2027. Dla stron SU/KTH po szwedzku daty 2027 nie znaleziono.",
+  "proposedFix": "W polu deadline napisać wprost: „Termin z naboru 2026/27 jest taki sam co roku (15 kwietnia); na 2027/28 strona programu go jeszcze nie opublikowała”, bez podawania 2027 jako pewnika, albo potwierdzić na antagning.se."
+ },
+ {
+  "city": "Sztokholm",
+  "program": "wszystkie programy szwedzkojęzyczne",
+  "field": "languageProof",
+  "severity": "ważne",
+  "problem": "Poziom szwedzkiego (Svenska 3, TISUS) nadal nieznany dla 11 z 12 programów. Ostrzeżenie jest uczciwe i widoczne w podsumowaniu i w każdym programie, ale to największa praktyczna luka miasta: licencjat po szwedzku nie jest realną opcją bez tej informacji.",
+  "evidence": "sztokholm.json: summary „Znajomość języka”; gaps[0] „Nie udało się potwierdzić, jaki poziom szwedzkiego...”. Strona SU Psykologprogrammet (en): „taught in Swedish only, so please refer to the Swedish version”.",
+  "proposedFix": "Sprawdzić na universityadmissions.se lub stronach „Behörighet” po szwedzku wymóg „Svenska B/3” albo zostawić ostrzeżenie. Ewentualnie ograniczyć widok do programu po angielsku z wyraźną adnotacją."
+ },
+ {
+  "city": "Sztokholm",
+  "program": "SU Kandidatprogram i systemvetenskap",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "Antyteza i żargon: „To kierunek systemów informacyjnych, nie klasyczna informatyka; careerIds przypisane orientacyjnie. Obok jest drugi kandydat DSV (inne programy), nieprzebadane.”",
+  "evidence": "sztokholm.json: universities[0].programs[2].notes.",
+  "proposedFix": "Przepisać: „Kierunek obejmuje systemy informacyjne i ma mniej programowania niż klasyczna informatyka; dopasowanie do zawodu programisty jest przybliżone.”"
+ },
+ {
+  "city": "Sztokholm",
+  "program": "podsumowanie „Zakres” i „Rekrutacja”",
+  "field": "summary",
+  "severity": "drobne",
+  "problem": "Dwie osobne pozycje summary mają ten sam tytuł „Rekrutacja” (jedna o terminach, druga o portalach). Zdanie „w tym opracowaniu” to język zbierania danych.",
+  "evidence": "sztokholm.json: summary[2], summary[3], summary[4] (zawiera „w tym opracowaniu”).",
+  "proposedFix": "Połączyć dwie pozycje „Rekrutacja” lub zmienić drugą na „Portale rekrutacyjne”; „w tym opracowaniu” zastąpić „na tej liście”."
+ }
+]

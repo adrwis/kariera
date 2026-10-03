@@ -1,0 +1,236 @@
+[
+ {
+  "city": "ateny",
+  "program": "Ψυχολογία, Νομική, Οικονομικών, Πληροφορική, NTUA i inne greckojęzyczne (14 programów)",
+  "field": "admission.polishMatura",
+  "severity": "drobne",
+  "problem": "Status matury nie trzyma słownika. Zamiast „uznawana z warunkami” pole zaczyna się od „Polska matura jest uznawana tylko przez osobną ścieżkę…”, a w medycynie NKUA, BAAG, AUEB IBT i UNIWA jest „brak potwierdzenia” albo zdanie bez etykiety. Chip statusu na stronie może się nie wyrenderować lub pokazać domyślny.",
+  "evidence": "Przykład: universities[0].programs[0].matura = „brak potwierdzenia: polska matura nie występuje na liście akceptowanych kwalifikacji”; programs[1].matura zaczyna się od „Uczelnia wymaga świadectwa…”.",
+  "proposedFix": "Zacząć każde pole od jednego z czterech statusów słownika: „uznawana z warunkami” dla ścieżki B.1, „wymaga potwierdzenia przez uczelnię” dla medycyny, BAAG, IBT."
+ },
+ {
+  "city": "ateny",
+  "program": "UNIWA Sztuczna Inteligencja i Nauka o Danych",
+  "field": "matura / requirements / languageProof / deadline / selective",
+  "severity": "ważne",
+  "problem": "Jedyny program UNIWA ma puste pola matury, wymagań, dowodu angielskiego, terminu i selekcji. Zawartość to tylko czesne 6 000 EUR. Karta jest praktycznie bezużyteczna dla ucznia, choć uczciwie opisana w luce.",
+  "evidence": "universities[4].programs[0]: matura, requirements, languageProof, selective, deadline = null. Strona apply.studyingreece.edu.gr (sprawdzona) podaje opis programu, a nie warunki.",
+  "proposedFix": "Albo usunąć program do czasu potwierdzenia warunków, albo wpisać w pola zdanie „Warunki przyjęcia do potwierdzenia na stronie uczelni” zamiast null."
+ },
+ {
+  "city": "ateny",
+  "program": null,
+  "field": "summary[Znajomość angielskiego]",
+  "severity": "drobne",
+  "problem": "Podsumowanie wylicza 6 programów angielskich w Atenach (w tym UNIWA Applied Philosophy in Business Decision Making i NKUA Pharmacy), ale w pliku są tylko 4. Czytelnik szuka programów, których nie ma.",
+  "evidence": "Study in Greece (sprawdzone) wymienia Applied Philosophy in Business Decision Making (UNIWA) i Integrated Master in Pharmacy (NKUA). W universities nie ma ich wpisów.",
+  "proposedFix": "Dopisać dwa zdania „nie opisano w tym zestawieniu” albo dodać oba programy."
+ },
+ {
+  "city": "ateny",
+  "program": null,
+  "field": "notes / deadline / gaps (żargon)",
+  "severity": "drobne",
+  "problem": "Żargon zbierania danych: „nie udało się go pobrać”, „w dniu pobrania”, „na pobranych stronach programu”, „@SiG” bez objaśnienia. Zdanie o progach (βάσεις) jest w notes każdego z 14 programów greckich dwa razy, prawie słowo w słowo.",
+  "evidence": "Np. NKUA Ψυχολογία notes: „Progi przyjęć… nie udało się go pobrać… Progi przyjęcia (βάσεις)… brak ich w sprawdzonych źródłach”. deadline AUEB IBT: „Portal @SiG pokazuje w dniu pobrania brak otwartego naboru.”",
+  "proposedFix": "Zostawić jedno zdanie: „Progi przyjęcia dla cudzoziemców z UE ministerstwo publikuje osobno, tego pliku nie ma w sprawdzonych źródłach”. Zamienić „w dniu pobrania” na „według portalu Study in Greece z 3 października 2026”, rozwinąć @SiG."
+ },
+ {
+  "city": "ateny",
+  "program": "Greckojęzyczne programy (durationYears)",
+  "field": "durationYears",
+  "severity": "drobne",
+  "problem": "Poprzednio null w 8 programach, teraz 4 lata dla wszystkich, ale tylko z ogólnej informacji portalu (większość kierunków trwa 4 lata). Ostrzeżenie jest w notes i gaps, więc uczciwe, lecz wartość nadal jest szacunkiem.",
+  "evidence": "studyingreece.edu.gr/bachelors: „The duration of undergraduate programs for most disciplines is 4 years but there are programs in engineering, dentistry…”. Wartość 4 dla NKUA psychologia podana tak, jakby była potwierdzona.",
+  "proposedFix": "Przy kartach bez potwierdzenia na stronie wydziału oznaczyć w polu academicYear lub notes „około 4 lata”, albo zostawić null."
+ },
+ {
+  "city": "nikozja",
+  "program": null,
+  "field": "universities (zakres)",
+  "severity": "ważne",
+  "problem": "Uczelnia publiczna jest reprezentowana przez jeden kierunek po grecku (informatyka UCY). Reszta oferty to trzy uczelnie prywatne za 9 000 do 24 000 EUR rocznie. Poprawka tylko częściowa, lecz zakres jest teraz opisany uczciwie w summary[Zakres] i gaps.",
+  "evidence": "universities[3] = UCY, 1 program. summary[0]: „opisano trzy uczelnie prywatne i płatne… oraz jeden kierunek publicznego Uniwersytetu Cypryjskiego”.",
+  "proposedFix": "Zostawić jak jest albo dopisać kolejne kierunki UCY, gdy będą dostępne. Nie wymaga pilnej zmiany."
+ },
+ {
+  "city": "nikozja",
+  "program": "UNIC (9 programów) i EUC (4 programy), uwagi do programów",
+  "field": "notes / gaps (żargon)",
+  "severity": "ważne",
+  "problem": "Żargon zbierania danych w treści widocznej dla ucznia: „Strony programu nie otwierano osobno”, „ich stron nie sprawdzano osobno”, „tu jej nie uwzględniono”, w summary „Z obu stron zebrano tylko ogólną rolę KYSATS”. Powtarza się w około 10 kartach.",
+  "evidence": "UNIC Computer Science notes: „Brak podanego minimalnego wyniku z matematyki”; Data Science: „Strony programu nie otwierano osobno; czas trwania i język według tytułu strony i cennika.” EUC Computer Science: „ich stron nie sprawdzano osobno.”",
+  "proposedFix": "Zastąpić zdaniem w tonie czytelnika: „Język i czas trwania podano według cennika uczelni, do potwierdzenia na stronie programu.” Usunąć zdanie o KYSATS lub przeformułować."
+ },
+ {
+  "city": "nikozja",
+  "program": "Frederick: Architect Engineer, Civil Engineering, Mechanical Engineering, LLB, Journalism",
+  "field": "admission.requirements",
+  "severity": "drobne",
+  "problem": "W wymaganiach architektury, budownictwa i mechaniki jest zdanie „Na informatykę obowiązkowy test poziomujący z matematyki i angielskiego”, skopiowane z programu Computer Science. Dla ucznia budownictwa to mylące.",
+  "evidence": "universities[2].programs[1..3].requirements zawiera dokładnie to samo zdanie co programs[0].",
+  "proposedFix": "Wpisać to zdanie tylko przy Computer Science."
+ },
+ {
+  "city": "nikozja",
+  "program": "Doctor of Medicine EUC, Medicine UNIC, Computer Science UCY",
+  "field": "admission.polishMatura",
+  "severity": "drobne",
+  "problem": "Status matury nie zaczyna się od etykiety słownika. EUC MD: „Wymagana średnia co najmniej 90%…”, UNIC MD: „Wymagane 90% łącznie…”, UCY: „brak potwierdzenia: …”. Treść jest uczciwa, ale chip statusu nie ma na czym się oprzeć.",
+  "evidence": "programs: EUC MD matura = „Wymagana średnia co najmniej 90% (lub równoważna)…”; UCY matura = „brak potwierdzenia: strona wydziału wymienia egzaminy…”.",
+  "proposedFix": "Dopisać na początku „wymaga potwierdzenia przez uczelnię:” (dla EUC MD, UNIC MD, UCY)."
+ },
+ {
+  "city": "nikozja",
+  "program": "UNIC Medicine, Architecture i inne",
+  "field": "deadline",
+  "severity": "drobne",
+  "problem": "Termin „Studenci spoza UE: wniosek do końca czerwca…” jest wpisany identycznie przy medycynie, choć notes mówi, że medycyna ma osobną procedurę przyjęć. Termin dla UE uczciwie opisany jako niepodany, ale część o spoza UE może nie dotyczyć medycyny.",
+  "evidence": "UNIC Medicine: deadline identyczny z deadline Psychology; tuitionEu notes: „Medycyna ma osobną procedurę przyjęć.”",
+  "proposedFix": "Przy medycynie napisać, że termin dla tego kierunku podaje strona programu, lub potwierdzić na stronie medycyny."
+ },
+ {
+  "city": "zagrzeb",
+  "program": "Psihologija, Pravo, FSB, Građevinski, Arhitektura, FER po chorwacku, Novinarstvo, Medicina po chorwacku",
+  "field": "tuitionEu",
+  "severity": "ważne",
+  "problem": "Dziesięć programów po chorwacku ma w czesnym ten sam długi akapit „Do potwierdzenia na stronie uczelni…” zamiast informacji. Treść jest zgodna z natječajem (potwierdzone), ale dla ucznia i rodzica wynik to: nie wiadomo, czy studia po chorwacku są bezpłatne. Karta nie odpowiada na kluczowe pytanie.",
+  "evidence": "Natječaj 2026/27, punkt 10: pełna subwencja wg NN 78/2023 dla Ukraińców, Chorwatów z zagranicy i Macedończyków; obywatele UE nie są wymienieni. Pole tuitionNonEu = null w 8 z tych programów.",
+  "proposedFix": "Skrócić akapit do jednego zdania i dodać w summary[Opłaty] informację, że uczelnia publiczna ogłosi maksymalną wysokość czesnego uchwałą senatu. Rozważyć etykietę „czesne niepotwierdzone” zamiast długiego tekstu w polu."
+ },
+ {
+  "city": "zagrzeb",
+  "program": null,
+  "field": "notes / gaps (żargon)",
+  "severity": "ważne",
+  "problem": "Żargon i historia poprawek w treści dla ucznia: „została pobrana, ale nie zawiera”, „nie był dostępny do odczytania”, „nie została znaleziony w pobranych dokumentach”, „Strona fhs.unizg.hr nie była czytana”, „Poprzednia wersja opierała się na wagach z 2023/24… Zastąpiono je kryteriami z natječaju”. Do tego niewyjaśnione skróty NISpVU i słowo „natječaj” w deadline i gaps.",
+  "evidence": "Psihologija (Filozofski) notes: „Poprzednia wersja opierała się na wagach z 2023/24 ze strony katedry. Zastąpiono je…”. Novinarstvo notes: „Strona angielska wydziału… została pobrana, ale nie zawiera warunków…”. Pravo notes: „Limit miejsc… nie został znaleziony w pobranych dokumentach.”",
+  "proposedFix": "Usunąć zdanie o poprzedniej wersji. Zamienić „pobrana/pobranych” na „sprawdzona/sprawdzonych”. Przy pierwszym użyciu w summary wyjaśnić „natječaj (oficjalny konkurs na rok akademicki)” i „NISpVU (krajowy system zapisów Postani student)”."
+ },
+ {
+  "city": "zagrzeb",
+  "program": "Računarstvo (po chorwacku)",
+  "field": "admission.languageProof",
+  "severity": "drobne",
+  "problem": "Zdanie „FER wymaga od kandydatów z UE zaliczenia pierwszego języka z egzaminu końcowego zamiast chorwackiego, bez osobnego certyfikatu” jest niejasne: zalicza się język, a nie wymaga go się od kandydata. Może wprowadzić w błąd, że B2 z chorwackiego nie obowiązuje, podczas gdy zajęcia są po chorwacku.",
+  "evidence": "universities[0].programs[3].languageProof; natječaj pkt B2 NCVVO dotyczy tylko wybranych wydziałów.",
+  "proposedFix": "Przeformułować: „Zajęcia po chorwacku. Natječaj nie wymienia certyfikatu B2 dla FER, pierwszy język z egzaminu końcowego jest zaliczany zamiast chorwackiego.”"
+ },
+ {
+  "city": "ryga",
+  "program": "Building and Civil Engineering, Engineering Technology Mechanics, Computer Systems (RTU)",
+  "field": "notes / gaps (żargon)",
+  "severity": "ważne",
+  "problem": "Trzy karty RTU i luka zawierają zdanie „Główna strona rtu.lv jest zasłonięta ekranem weryfikacji”. To żargon pipeline i opis obejścia, który nic nie mówi uczniowi. Instrukcja zbierania wskazuje wzór „strona uczelni jest niedostępna publicznie”. Podobnie „nie pobierano” w kartach LU (Tiesības, Ekonomika).",
+  "evidence": "RTU notes: „Główna strona rtu.lv jest zasłonięta ekranem weryfikacji, dlatego dane pochodzą z oficjalnego systemu rekrutacji RTU (apply.rtu.lv).” LU Tiesības notes: „szczegółowych kryteriów dla prawa… nie pobierano.”",
+  "proposedFix": "Zastąpić: „Dane pochodzą z systemu rekrutacji RTU (apply.rtu.lv), bo główna strona uczelni jest niedostępna publicznie.” „nie pobierano” zmienić na „nie sprawdzono”."
+ },
+ {
+  "city": "ryga",
+  "program": null,
+  "field": "RTU: architekt",
+  "severity": "ważne",
+  "problem": "Zawód architekta nadal bez programu licencjackiego w Rydze. Poprawka dodała dwa z trzech brakujących zawodów (budownictwo, mechanika), architektura dalej tylko w gaps. Gap jest uczciwy.",
+  "evidence": "gaps[0]: „w tym systemie jest tylko magisterium po angielsku (MSc Architecture), a studiów licencjackich po łotewsku nie sprawdzono”.",
+  "proposedFix": "Zostawić jako uczciwe ograniczenie lub sprawdzić licencjat architektury po łotewsku na apply.rtu.lv."
+ },
+ {
+  "city": "ryga",
+  "program": "Medicine (RSU), Business (RSU)",
+  "field": "admission.polishMatura",
+  "severity": "drobne",
+  "problem": "Status oparty na załączniku 11 procedury przyjęć RSU na rok 2025/26 (minimum 70% z egzaminów). W polu nie ma roku procedury, a naborem jest 2027/28. Wymóg może się zmienić.",
+  "evidence": "admissions_procedure_2025_2026_eng.pdf, wiersz 64: „Poland, Semester 1-6, 4, Świadectwo Dojrzałości”; strona RSU podaje 70%+ dla medycyny.",
+  "proposedFix": "Dopisać „według procedury przyjęć RSU na 2025/26, na 2027/28 do potwierdzenia”."
+ },
+ {
+  "city": "ryga",
+  "program": "RTU (3 programy)",
+  "field": "tuitionEu",
+  "severity": "drobne",
+  "problem": "Czesne opisane jako „kwota widoczna… dla obywatela Polski”. Strony apply.rtu.lv pokazują kwotę, a komunikat o kategorii kandydata jest ogólny, więc słowa „dla obywatela Polski” nie da się dosłownie potwierdzić.",
+  "evidence": "apply.rtu.lv: „Tuition fee €3,720 per year”; tekst o kategorii: „deadlines and requirements that apply specifically to you”.",
+  "proposedFix": "Zamienić na „kwota podana na stronie programu w systemie rekrutacji RTU, rok 2026/27”."
+ },
+ {
+  "city": "valletta",
+  "program": "Wszystkie 9 programów University of Malta",
+  "field": "tuitionNonEu / tuitionUrl",
+  "severity": "ważne",
+  "problem": "Kwoty 8 500, 10 800 i 26 000 EUR są potwierdzone w rozporządzeniu S.L. 327.177 (tabela z kolumnami 2014/15 do 2016/17), ale tuitionUrl wskazuje stronę um.edu.mt/study/feesfunding/, na której tych kwot nie ma. Czytelnik klikający „źródło” nie znajdzie liczb. Dodatkowo zaliczenie kursu do kategorii „arts” lub „science” przyjęto z nazwy.",
+  "evidence": "um.edu.mt/study/feesfunding/ (sprawdzona): brak 8 500, 10 800 i 26 000; legislation.mt/eli/sl/327.177/eng/pdf: „Arts based and business related undergraduate programmes … 8,500 / Science based … 10,800 / Doctor of Medicine and Surgery 26,000”.",
+  "proposedFix": "Dodać w tuitionUrl drugi adres (legislation.mt PDF) i napisać w polu „rozporządzenie podaje kwoty z lat 2014 do 2017, aktualne podaje karta kursu”."
+ },
+ {
+  "city": "valletta",
+  "program": "Wszystkie programy",
+  "field": "tuitionEu",
+  "severity": "drobne",
+  "problem": "Pole czesne dla UE zawiera ten sam akapit (około 700 znaków) w 9 kartach i nie podaje żadnej kwoty. Treść jest uczciwa i zgodna ze stroną UM („Tuition fees, where applicable, are available in the overview for each course”), ale karta jest nieczytelna. Poprzednie „Brak czesnego” zostało poprawnie zastąpione ostrzeżeniem.",
+  "evidence": "um.edu.mt/study/feesfunding/: „Tuition fees, where applicable, are available in the overview for each course for both Non-EU/Non-EEA and EU/EEA citizens.”",
+  "proposedFix": "Skrócić do dwóch zdań i przenieść rozbudowane wyjaśnienie do summary[Opłaty]."
+ },
+ {
+  "city": "valletta",
+  "program": "Psychology, IT (AI), IT (Software), Commerce, Communications, Mechanical Engineering",
+  "field": "admission.selective",
+  "severity": "ważne",
+  "problem": "selective = false w 6 programach, choć notes mówi jedynie, że prospekt nie podaje limitu miejsc. Instrukcja zbierania zabrania ustawiania false z braku informacji. Wymagane są przedmioty rozszerzone z wynikiem co najmniej 65% i test SELT, czyli próg wejścia istnieje.",
+  "evidence": "Prospekt UG: brak informacji o limitach; notes Psychology: „Prospekt nie podaje limitu miejsc dla tego kursu.” Dodatek pkt 6: „Nie ustawiaj false »bo nie znaleziono«”.",
+  "proposedFix": "Ustawić null albo true z adnotacją „progi 65% i przedmioty kursu”."
+ },
+ {
+  "city": "valletta",
+  "program": "Bachelor of Laws (Honours)",
+  "field": "admission.polishMatura",
+  "severity": "drobne",
+  "problem": "Status „uznawana z warunkami” przy wymogu Advanced z maltańskiego, który według pliku nie ma odpowiednika dla polskiej matury. Ostrzeżenie jest dopisane w nawiasie, ale status powinien raczej brzmieć „wymaga potwierdzenia przez uczelnię”.",
+  "evidence": "matura: „…uznawana z warunkami (…) (wymóg Advanced z maltańskiego nie ma oficjalnego odpowiednika dla polskiej matury, do wyjaśnienia)”; gaps[6]: „Nie znaleziono oficjalnej informacji o zwolnieniu osób z polską maturą z maltańskiego”.",
+  "proposedFix": "Zmienić status na „wymaga potwierdzenia przez uczelnię: …”."
+ },
+ {
+  "city": "valletta",
+  "program": null,
+  "field": "gaps (żargon)",
+  "severity": "drobne",
+  "problem": "W luce „karty kursów są niedostępne bez uruchomienia wyszukiwarki kursów” brzmi jak opis techniczny, a „która nie jest dostępna publicznie” przy regulacji 13 jest zrozumiałe. Reszta tekstów czytelna.",
+  "evidence": "gaps[0], gaps[5].",
+  "proposedFix": "Przeformułować: „Karty kursów UM nie są dostępne jako zwykłe strony, więc kwot nie sprawdzono”."
+ },
+ {
+  "city": "tallinn",
+  "program": null,
+  "field": "summary[Rekrutacja]",
+  "severity": "drobne",
+  "problem": "Dwie pozycje summary mają tę samą etykietę „Rekrutacja”. Druga dotyczy systemów składania wniosków (DreamApply, SAIS).",
+  "evidence": "summary[3].label i summary[4].label = „Rekrutacja”.",
+  "proposedFix": "Zmienić drugą etykietę na „Składanie wniosków”."
+ },
+ {
+  "city": "tallinn",
+  "program": "Informaatika ja tehisintellekt; Ehitiste projekteerimine; Tootearendus ja robootika; Arhitektuur (TalTech)",
+  "field": "tuitionEu",
+  "severity": "drobne",
+  "problem": "Czesne dla programów estońskich jest teraz uczciwym ostrzeżeniem, ale to długie zdanie (około 300 znaków) powtórzone 4 razy zamiast kwoty. Strony programów nadal nie potwierdzają statusu miejsca dla obywatela UE.",
+  "evidence": "TalTech apply: „Students in tuition-free study places need to complete a nominal load”; strona programu nie podaje czesnego.",
+  "proposedFix": "Skrócić do „Czy miejsce jest bezpłatne dla obywatela UE, potwierdza strona programu lub SAIS (nominalne obciążenie 30 ECTS na semestr).”"
+ },
+ {
+  "city": "tallinn",
+  "program": "TalTech, programy estońskie",
+  "field": "admission.deadline",
+  "severity": "drobne",
+  "problem": "Potwierdzenie miejsca „do 14 lipca 2027” zgadza się z kalendarzem na stronie TalTech, ale ta sama strona w dalszej sekcji podaje „15. juulil” (inny wariant naboru). Termin w pliku jest poprawny dla głównego kalendarza, lecz bez zastrzeżenia.",
+  "evidence": "taltech.ee/sisseastuja/…: „14. juuli kell 23.59 – õppimatuleku kinnitamise tähtaeg” oraz „Õppima tuleku kinnitamine lõppeb 15. juulil”.",
+  "proposedFix": "Dopisać „do 14 lipca 2027 (w części naborów do 15 lipca)”."
+ },
+ {
+  "city": "tallinn",
+  "program": "Medicine (University of Tartu)",
+  "field": "city",
+  "severity": "drobne",
+  "problem": "Program z Tartu (około 190 km od Tallinna) nadal jest w pliku Tallinna. Adnotacja o mieście jest w notes, nie w nazwie programu lub uczelni. Uczelnia ma w nazwie „poza Tallinnem, tylko medycyna”, więc uczciwe.",
+  "evidence": "universities[3].name: „University of Tartu (poza Tallinnem, tylko medycyna)”.",
+  "proposedFix": "Zostawić."
+ }
+]

@@ -40,3 +40,10 @@ Do zrobienia (wymaga ponownego sprawdzenia stron):
 - Rotterdam i Groningen: lista z Polską (RUG, UM) ładowana dynamicznie, niepotwierdzona dosłownie; Econometrics i inne statusy matury do ujednolicenia między miastami holenderskimi.
 - Porto: uchwała CNAES z Polską i data 30 marca 2027 bez adresu źródłowego; poziom portugalskiego niewidoczny.
 - Wszystkie nowe miasta: puste notki w `sources`.
+
+## Poprawki po przeglądzie kontrolnym (2026-10-03, sześciu krytyków, raporty krytyk-zagranica3-*.json)
+Oceny kontrolne: Londyn 8, Paryż 8, Lyon 8, Wiedeń 8, Hamburg 8, Monachium 8, Kopenhaga 8, Bruksela 8, Rotterdam 8, Lowanium 8, Porto 8, Zagrzeb 8, Ryga 8, Tallinn 8, Praga 8,5, Bratysława 8,5, Bukareszt 8, Rzym 8, Mediolan 8; poniżej 8 przed tymi poprawkami: Dublin 7, Berlin 7, Sztokholm 7, Amsterdam 6, Lizbona 7, Ateny 7, Nikozja 7, Valletta 7, Sofia 6,5, Helsinki 7,5, Barcelona 7, Walencja 7.
+
+Poprawione po kontroli: kwota TCD Computer Science spoza UE (29 570 EUR), data otwarcia CAO, opłata ENSAL 391 EUR, wymogi TU Wien bez źródła, czesne TU i HTW wywnioskowane z braku wzmianki, statusy matury w Amsterdamie (numerus fixus i VU), puste rekordy UvA, 342 miejsca VU, cztery licencjaty po angielsku w Kopenhadze, ostrzeżenie przy ITU Software, termin 15 kwietnia w Sztokholmie, UNIWA w Atenach, UCY zakres, zbędny akapit czesnego w Zagrzebiu, selective w Vallettcie, Rzym L-20 i ARDI, Humanitas i Bicocca w Mediolanie, zbyt mocna teza o notach w Barcelonie, noty UV w Walencji, zdublowane zdania w Sofii, żargon zbierania danych we wszystkich miastach.
+
+Nadal otwarte (wymaga źródeł): progi SAT w Aalto (oznaczone jako orientacyjne), poziom szwedzkiego w Sztokholmie, kwoty płatnych miejsc SU w Sofii (dokumenty to skany), Unimi/Bicocca bez psychologii i medycyny, UB i UPF w Barcelonie bez języka, DAAD/anabin (Berlin), terminy 2027/28 we wszystkich miastach.

@@ -1,0 +1,155 @@
+[
+ {
+  "city": "Rzym",
+  "program": "Roma Tre, Scienze della Comunicazione (L-20)",
+  "field": "requirements / selective",
+  "severity": "ważne",
+  "problem": "Opis dostępu jest błędny i sprzeczny z resztą wpisu: requirements mówi o krajowym dostępie programowanym z testem ARCHED, a selective=false i termin 'immatrykulacja do 16 listopada 2026' pasują do dostępu wolnego. Wygląda na przeniesiony opis architektury.",
+  "evidence": "Bando accesso libero 26-27 (bando_accesso_libero_26-27_0704.pdf, pdftotext) wymienia 'Scienze della Comunicazione (L-20)' wśród kierunków z accesso libero (Dipartimento di Filosofia, Comunicazione e Spettacolo: 'corsi di laurea del Dipartimento con accesso libero: DAMS, Filosofia, Scienze della Comunicazione – L-20'), z płatnością pierwszej raty do 16 listopada 2026. Bando accesso programmato nazionale wymienia tylko Scienze dell'architettura (L-17).",
+  "proposedFix": "Zastąpić requirements opisem dostępu wolnego (test przygotowania początkowego obowiązkowy, bez rankingu, brak testu to OFA według bando L-20), usunąć wzmiankę o ARCHED i dopisać, że obowiązkowy jest angielski (bando: 'è obbligatoria la lingua inglese')."
+ },
+ {
+  "city": "Rzym",
+  "program": null,
+  "field": "summary[Polska matura] / matura Sapienza",
+  "severity": "ważne",
+  "problem": "Podsumowanie mówi 'Polska matura jest uznawana' i że Sapienza wymienia Polskę na liście ARDI, a programy mają 'uznawana z warunkami'. Twierdzenie o Polsce na liście ARDI nie ma źródła w sources ani w żadnym z sprawdzonych dokumentów Sapienzy (bando psychologii, informatyki, MoveIN), więc według słownika status 'uznawana' nie jest uzasadniony.",
+  "evidence": "grep 'Polonia|Poland|ARDI' w bando 05429, 14617 i academic_requirements_movein: brak trafień. Strona opłat Sapienzy wymienia Polskę tylko jako kraj pasma B opłat (700 EUR), nie jako listę ARDI. Odgórnie zadeklarowana strona z listą nie jest w sources.",
+  "proposedFix": "Dodać do sources oficjalną stronę Sapienzy o uznawaniu świadectw zagranicznych z cytatem o Polsce albo usunąć zdanie o ARDI; w summary ujednolicić do 'uznawana z warunkami' zgodnie z polami programów."
+ },
+ {
+  "city": "Rzym",
+  "program": "Roma Tre, Scienze dell'Architettura (L-17); gaps",
+  "field": "requirements / gaps[3]",
+  "severity": "drobne",
+  "problem": "Żargon zbierania danych: 'bando tego kierunku nie zostało odczytane', 'nie sprawdzono bando Economia (14613) ani Scienze della comunicazione (05423)', 'nie otwierają się publicznie'. Zdania opisują działanie zbierającego, nie sytuację czytelnika.",
+  "evidence": "requirements[Scienze dell'Architettura]: 'bando tego kierunku nie zostało odczytane'; gaps[3]; gaps[0]: 'tabela ministerialna i dekrety MUR nie otwierają się publicznie'.",
+  "proposedFix": "Przeformułować na 'liczba miejsc i terminy są w osobnym ogłoszeniu uczelni; do potwierdzenia na stronie Roma Tre'."
+ },
+ {
+  "city": "Rzym",
+  "program": "Roma Tre (6 programów)",
+  "field": "languageProof",
+  "severity": "drobne",
+  "problem": "Antyteza 'Wymóg dotyczy immatrykulacji, a nie samej rekrutacji' w sześciu programach.",
+  "evidence": "languageProof wszystkich programów Roma Tre.",
+  "proposedFix": "Zastąpić: 'Wymóg dotyczy immatrykulacji; do rekrutacji certyfikat nie jest potrzebny.'"
+ },
+ {
+  "city": "Rzym",
+  "program": null,
+  "field": "summary[Rekrutacja], gaps",
+  "severity": "drobne",
+  "problem": "Poprzednie błędy naprawione, ale wpis wciąż miesza czasy: 'Nabór 2026/27 jest w większości zamknięty' obok zdań o oknach do 16 listopada. Poprawne, lecz długie i gęste (jedno 'summary' ma 8 zdań).",
+  "evidence": "summary[Rekrutacja].",
+  "proposedFix": "Skrócić do 4 zdań."
+ },
+ {
+  "city": "Mediolan",
+  "program": "Humanitas, Medicine and Surgery",
+  "field": "requirements",
+  "severity": "ważne",
+  "problem": "Liczba '50 miejsc dla osób spoza UE niemieszkających we Włoszech (razem 200)' nie występuje w cytowanym bando (dotyczy tylko miejsc dla obywateli UE i równoważnych: 150 oraz 80 MEDTEC).",
+  "evidence": "2026_MEDEU_Bando-ENG.pdf, Art. 1: 'the number of places available for EU citizens and non-EU citizens treated as equivalent ... 150 for the Degree Course in Medicine and Surgery; 80 ... MEDTEC School'. Brak '50' i '200' (grep).",
+  "proposedFix": "Usunąć '50 spoza UE (razem 200)' albo dodać źródło (bando dla osób spoza UE)."
+ },
+ {
+  "city": "Mediolan",
+  "program": "Bicocca, Informatica (L-31)",
+  "field": "languages / academicYear / requirements",
+  "severity": "ważne",
+  "problem": "Wpis jest szkieletem bez potwierdzonych danych (brak opłat, miejsc, terminu), a język 'włoski' i english=false wywnioskowano z włoskiej nazwy kierunku ('w odróżnieniu od programów z angielskimi nazwami'), co jest zgadywaniem. Rok 2026/27 jest podany jako 'ostatni opublikowany nabór', choć żadnego bando nie odczytano (strona unimib.it zwraca 403).",
+  "evidence": "curl https://www.unimib.it/triennale/informatica: HTTP 403. languageProof w pliku: 'ten kierunek ma włoską nazwę; język wykładowy i poziom do potwierdzenia w bandzie'.",
+  "proposedFix": "Albo usunąć program do czasu potwierdzenia, albo ustawić languages=[] i english=null z notatką 'język wykładowy do potwierdzenia', a academicYear opisać jako 'nie podano'."
+ },
+ {
+  "city": "Mediolan",
+  "program": null,
+  "field": "universities (zakres)",
+  "severity": "drobne",
+  "problem": "Poprzednie uwagi o braku Unimi i Bicocca naprawione częściowo: dodano Unimi (prawo, informatyka) i Bicocca (informatyka). Nadal brak publicznej psychologii, publicznej medycyny po angielsku i dziennikarstwa/komunikacji, więc dla zawodów psycholog i lekarz w Mediolanie są tylko uczelnie prywatne (7 690 do 23 206 EUR). Luka opisana uczciwie w gaps i summary[Zakres].",
+  "evidence": "gaps[0], summary[Zakres].",
+  "proposedFix": "Dopisać psychologię Unimi/Bicocca, gdy strony będą dostępne."
+ },
+ {
+  "city": "Mediolan",
+  "program": "Bocconi (6 programów), UniSR, summary[Zakres], gaps",
+  "field": "languageProof / gaps",
+  "severity": "drobne",
+  "problem": "Żargon i nieeleganckie sformułowania: 'wymagany poziom nie został podany na przeczytanych stronach', 'strony ... są chronione i nie otwierają się publicznie', 'w bandzie na chronionej stronie'.",
+  "evidence": "languageProof Bocconi (6 programów); summary[Zakres]; gaps[0], gaps[1], gaps[5].",
+  "proposedFix": "Zastąpić: 'poziom nie jest podany na stronach rekrutacyjnych; do potwierdzenia na stronie uczelni' oraz 'strona uczelni jest niedostępna publicznie'."
+ },
+ {
+  "city": "Mediolan",
+  "program": "Politecnico, Ingegneria Informatica / Ingegneria Meccanica",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "Antytezy: 'który nie jest informatyką, ale daje szeroką podstawę', 'Matura sama nie wystarcza na żadnym z opisanych programów: wszędzie decyduje test'.",
+  "evidence": "notes (Ingegneria Informatica), summary[Polska matura].",
+  "proposedFix": "Zapisać wprost: 'Engineering Science to szeroka podstawa inżynierska'; 'Na wszystkich opisanych programach decyduje test i ranking.'"
+ },
+ {
+  "city": "Barcelona",
+  "program": "UB (Psicologia, Medicina, Dret), UPF (Medicina, Periodisme)",
+  "field": "languages / durationYears / english",
+  "severity": "ważne",
+  "problem": "Nieusunięta uwaga krytyka: pięć programów ma languages=[], durationYears=null i english=false. false wygląda jak 'brak angielskiego', choć to brak danych. Czas trwania jest znany (Medicina 6, pozostałe 4 lata), a gap przyznaje tylko, że strony nie otworzyły się.",
+  "evidence": "universities[UB/UPF].programs: 'languages': [], 'durationYears': null, 'english': false. Gaps[0]: 'strony tych uczelni nie otworzyły się do sprawdzenia'.",
+  "proposedFix": "Ustawić english=null (lub nie pokazywać znacznika), dla Medicina podać 6 lat z oficjalnej oferty Generalitat jeśli jest tam ECTS, w UI pokazywać 'język do potwierdzenia'."
+ },
+ {
+  "city": "Barcelona",
+  "program": null,
+  "field": "summary[Polska matura] + requirements (12 programów)",
+  "severity": "ważne",
+  "problem": "Twierdzenie podane jako fakt: 'Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów' i 'Inaczej niż w Walencji', więc 'podniesienie noty wymaga PCE albo PAU' oraz 'miejsca praktycznie nie da się zdobyć'. Źródło Generalitat mówi tylko o przedmiotach 'cursada a batxillerat i reconeguda a l'acreditació UNEDasiss'. Nie mówi nic o wynikach zewnętrznego egzaminu z kraju pochodzenia (droga, którą Generalitat Valenciana wprost opisuje dla krajów z Orden EDU/1161/2010, w tym Polski). Wniosek jest przesadzony i nie ma zastrzeżenia.",
+  "evidence": "universitats.gencat.cat/.../estudiant-sistema-educatiu-estranger/: 'No es té en compte cap matèria cursada a batxillerat i reconeguda a l'acreditació UNEDasiss.' (grep 'avaluació externa': brak). universitats.gva.es: 'Certificació de les qualificacions obtingudes en proves d'avaluació externa realitzades en el país d'origen ... països amb conveni (Orde EDU/1161/2010)'. BOE-A-2010-7253 wymienia Polskę (Swiadectwo Dojrzalosci / Nowa Matura).",
+  "proposedFix": "Zmienić na: 'Według strony Generalitat przedmioty ze świadectwa wpisane do akredytacji nie podnoszą noty. Czy wynik matury rozszerzonej może być wpisany jako egzamin zewnętrzny (jak w Walencji), trzeba potwierdzić w UNEDasiss i Generalitat.' Usunąć 'praktycznie nie da się'."
+ },
+ {
+  "city": "Barcelona",
+  "program": "UB i UPF (5 programów)",
+  "field": "notes / admissionUrl",
+  "severity": "drobne",
+  "problem": "Noty odcięcia UB i UPF są poprawne (potwierdzone w PDF Notes-tall-1a-assignacio_juny_2026), ale przy programie admissionUrl wskazuje Preins-2026-Juny_v4.pdf, który not nie zawiera. Źródło not jest tylko w sources miasta.",
+  "evidence": "UB Psicologia 9,660, UB Medicina 12,685, UPF Medicina 12,534 w Notes-tall PDF; admissionUrl = Preins-2026-Juny_v4.pdf.",
+  "proposedFix": "Dodać notesUrl z adresem PDF z notami."
+ },
+ {
+  "city": "Barcelona",
+  "program": "UB, UPF; gaps",
+  "field": "tuitionEu / gaps",
+  "severity": "drobne",
+  "problem": "Żargon: 'ich wysokości nie sprawdzono' (UB, UPF), 'strony tych uczelni nie otworzyły się do sprawdzenia', 'nie zostały tu zestawione'. Antyteza: 'liczba miejsc i kod programu dotyczą całego kierunku, a nie tylko grupy angielskiej' (UPC Civil).",
+  "evidence": "tuitionEu UB i UPF; gaps[0], gaps[6]; notes UPC Enginyeria Civil.",
+  "proposedFix": "Zastąpić: 'wysokość podaje uczelnia'; 'strony UB i UPF są niedostępne publicznie'; 'dotyczą całego kierunku, łącznie z grupą angielską'."
+ },
+ {
+  "city": "Walencja",
+  "program": "UV (8 programów)",
+  "field": "requirements (nota ostatniego przyjętego)",
+  "severity": "ważne",
+  "problem": "Noty 'ostatniego przyjętego w naborze 2026/27 (przydział z 10 lipca 2026)' dla UV (10,949; 9,398; 9,577; 13,171; 9,29; 9,484; 8,99; 10,514) nie występują w żadnym z 12 adresów w sources ani na stronie programu UV, więc nie da się ich sprawdzić. Dla UPV nota 9,67 (Informática) jest potwierdzona na stronie programu.",
+  "evidence": "Przeszukano s1 do s12 (dekret, UNEDasiss, BOE, PDF Generalitat, kalendarz, ponderacje 2026 i 2027, oferta miejsc UV i UPV) oraz stronę UV Psicología: brak '10,949' i pozostałych. Strona UV pokazuje tylko 'Places available: 450'. UPV GII: 'GPA for admission 9,67 (2026/2027)'.",
+  "proposedFix": "Dodać do sources oficjalny dokument Generalitat z notami odcięcia (notes de tall / notas de corte 2026) i wskazać go przy programach albo usunąć noty UV."
+ },
+ {
+  "city": "Walencja",
+  "program": "UV Psicología, UV Ingeniería Informática, UV Ciencia de Datos",
+  "field": "requirements",
+  "severity": "drobne",
+  "problem": "Mocne twierdzenie 'Polska jest na tej liście' (droga zewnętrznego egzaminu) pochodzi z połączenia dwóch dokumentów (GVA: kraje z Orden EDU/1161/2010; BOE: Polska w rozporządzeniu), nie ze strony UV. Jest uczciwie zastrzeżone zdaniem 'trzeba potwierdzić w UNEDasiss', więc to zgłoszenie drobne.",
+  "evidence": "GVA 'Accés i Admissió Estudiantat Sistemes Educatius Estrangers': 'països amb conveni d'accés (Orde EDU/1161/2010)'; BOE-A-2010-7253: 'Polonia. Título Swiadectwo Dojrzalosci ... Nowa Matura'.",
+  "proposedFix": "Dopisać w sources, że wniosek wynika z dwóch dokumentów."
+ },
+ {
+  "city": "Walencja",
+  "program": "UV Informática",
+  "field": "requirements (liczba miejsc)",
+  "severity": "drobne",
+  "problem": "Liczba miejsc 43 jest zgodna z ofertą Generalitat (kod 152), ale wygląda na niską dla informatyki UV. Nota o ETSE Burjassot jest, ale brak ostrzeżenia, że to oficjalna oferta i może się różnić od liczby na stronie wydziału.",
+  "evidence": "UV_informeOfertaTitulacion: 152 Grau en Enginyeria Informàtica, ETSE Burjassot, 43.",
+  "proposedFix": "Dopisać 'według oficjalnej oferty Generalitat'."
+ }
+]

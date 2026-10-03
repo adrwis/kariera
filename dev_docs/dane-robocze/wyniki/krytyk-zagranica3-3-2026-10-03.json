@@ -1,0 +1,272 @@
+[
+ {
+  "city": "Amsterdam",
+  "program": "UvA Psychologie, UvA Economics and Business Economics, VU Psychologie, HvA Toegepaste Psychologie",
+  "field": "admission.polishMatura",
+  "severity": "ważne",
+  "problem": "Niespójne statusy matury w obrębie miasta i względem pozostałych miast holenderskich. Cztery programy z numerus fixus i testem selekcyjnym mają „uznawana z warunkami” (UvA, HvA) albo „uznawana” (VU psychologia), a w Rotterdamie, Groningen i Maastricht wszystkie programy z fixusem lub testem mają „wymaga dodatkowego etapu”. Słownik z dodatku zalicza test selekcyjny do „wymaga dodatkowego etapu”.",
+  "evidence": "amsterdam.json: UvA Psychologie sel=true, matura „uznawana z warunkami”; VU Psychologie sel=true, matura „uznawana”; HvA Toegepaste Psychologie sel=true, „uznawana z warunkami”. rotterdam.json, groningen.json, maastricht.json: wszystkie selective=true (poza Maastricht European Law School) mają „wymaga dodatkowego etapu”. Strona UvA psychologia potwierdza test 6 lutego i 6 marca 2027.",
+  "proposedFix": "Ustawić „wymaga dodatkowego etapu” dla UvA Psychologie, UvA EBE, VU Psychologie i HvA Toegepaste Psychologie. Ewentualnie wyjaśnić w summary, że status zależy od selekcji."
+ },
+ {
+  "city": "Amsterdam",
+  "program": "VU Computer Science, VU Economics and Business Economics, VU Communicatiewetenschap",
+  "field": "admission.polishMatura",
+  "severity": "ważne",
+  "problem": "Status „uznawana” mimo wymaganych przedmiotów (Wiskunde B lub test OMPT-D w informatyce, Wiskunde A w ekonomii). Słownik: „uznawana” tylko bez dodatkowych warunków, przedmioty wymagane to „uznawana z warunkami”. VU wymienia Polskę na liście dyplomów (potwierdzone), ale sama lista nie znosi wymogów przedmiotowych.",
+  "evidence": "amsterdam.json VU CS: requirements „Wiskunde B lub odpowiednik; alternatywnie test OMPT-D min. 60%”, matura „uznawana”. Lista VU (vu.nl/en/education/more-about/list-of-diplomas-per-country) zawiera wpis „Poland Świadectwo Dojrzałości (maturity certificate) and Świadectwo Ukończenia Liceum Ogólnokształcących”.",
+  "proposedFix": "Zmienić na „uznawana z warunkami (matematyka na poziomie VWO A lub B)” dla VU CS, Economics i Communication."
+ },
+ {
+  "city": "Amsterdam",
+  "program": "UvA Global Communication Science, UvA Informatica, UvA Business Analytics (częściowo)",
+  "field": "admission / deadline",
+  "severity": "ważne",
+  "problem": "Wcześniejsza uwaga o prawie pustych rekordach nie została usunięta. Global Communication Science i Informatica nie mają statusu matury, dowodu języka ani selektywności, a Informatica i Business Analytics nie mają terminu. Czytelnik może odczytać pustkę jako brak wymagań.",
+  "evidence": "amsterdam.json: UvA Global Communication Science matura=\"\", languageProof=\"\", selective=null; UvA Informatica matura=\"\", deadline=\"\", languageProof=\"\", selective=null; Business Analytics deadline=\"\".",
+  "proposedFix": "Uzupełnić ze stron UvA albo dopisać w polu matura „wymaga potwierdzenia przez uczelnię” i w deadline „termin do potwierdzenia na stronie uczelni”, albo usunąć rekordy."
+ },
+ {
+  "city": "Amsterdam",
+  "program": "UvA Global Communication Science, UvA Business Analytics, UvA Informatica; VU Computer Science; HvA ICT",
+  "field": "academicYear / requirements / notes",
+  "severity": "ważne",
+  "problem": "Żargon zbierania danych nadal w tekście: „nie potwierdzono na stronie programu” wpisane w pole academicYear (pole nieparsowalne), „pobrano tylko stronę opisową”, „wyszukiwanie sugerowało selekcję”, „wyszukiwanie wskazało Wiskunde B lub D”, „strona nie była dostępna”.",
+  "evidence": "amsterdam.json: /universities[0]/programs[2]/academicYear = „2027/28 (nie potwierdzono na stronie programu)”; programs[2]/requirements „(pobrano tylko stronę opisową)”; VU CS requirements „(wyszukiwanie sugerowało selekcję, lecz strona kierunku jej nie zawiera)”; HvA ICT requirements „wyszukiwanie wskazało Wiskunde B lub D”.",
+  "proposedFix": "academicYear ustawić na „2027/28”, a zastrzeżenie przenieść do notes jako „strona programu nie podaje wymagań, do potwierdzenia w uczelni”. Usunąć odwołania do wyszukiwania i pobierania."
+ },
+ {
+  "city": "Amsterdam",
+  "program": "VU Geneeskunde",
+  "field": "requirements",
+  "severity": "ważne",
+  "problem": "„342 miejsca na rok 2027/28” przypisano VU, ale strona VU o przyjęciu na medycynę nie zawiera liczby 342 ani roku przy terminie 15 stycznia (strona mówi o selekcji na 2026-2027). Liczba 342 występuje na stronie UvA (ustawowy limit UvA).",
+  "evidence": "f/a6 (vu.nl/nl/onderwijs/bachelor/geneeskunde/toelating): brak „342”, tekst „Je kunt je tot 15 januari aanmelden via Studielink” bez roku; UvA (uva.nl/programmas/bachelors/geneeskunde/...): „wettelijk maximum aantal opleidingsplaatsen van 342* per jaar”.",
+  "proposedFix": "Usunąć liczbę 342 z VU albo podać ją z poprawnym źródłem. Termin zapisać „do 15 stycznia (rok nie podany na stronie, nabór 2027/28 do potwierdzenia)”."
+ },
+ {
+  "city": "Amsterdam",
+  "program": "UvA Psychologie (ścieżka angielska)",
+  "field": "admission.requirements",
+  "severity": "drobne",
+  "problem": "„270 miejsc w roku 2027/28”: strona UvA podaje 270 miejsc w kontekście rankingu 2026-2027 (1 934 zgłoszeń, wszystkie 270 miejsc zajęte), rok 2027/28 jest wnioskiem.",
+  "evidence": "uva.nl psychology selection page: „For the academic year 2026-2027 we have received 1934 applications ... All 270 places are offered”; „ranking number between 1 - 270 you are immediately placed”.",
+  "proposedFix": "Napisać „270 miejsc w naborze 2026/27, na 2027/28 do potwierdzenia”."
+ },
+ {
+  "city": "Amsterdam",
+  "program": "VU (wszystkie programy)",
+  "field": "matura (źródło)",
+  "severity": "drobne",
+  "problem": "Twierdzenie „VU wymienia Polskę na liście” jest prawdziwe, ale adres listy (vu.nl/en/education/more-about/list-of-diplomas-per-country) nie występuje w sources ani w żadnym polu sourceUrl. Wpis nie ma sourceUrl matury.",
+  "evidence": "amsterdam.json: 0 trafień „list-of-diplomas” (adres jest tylko w pliku roboczym zagranica-amsterdam-...json). Lista VU potwierdza wpis dla Polski.",
+  "proposedFix": "Dodać adres listy do sources i do admissionUrl lub notes programów VU."
+ },
+ {
+  "city": "Amsterdam",
+  "program": "HvA Engineering, Built Environment, ICT, Communicatie, International Business",
+  "field": "admission.polishMatura",
+  "severity": "drobne",
+  "problem": "HvA ma „uznawana z warunkami”, choć Polska nie jest wymieniona, a dyplom przechodzi diplomawaardering. W Rotterdamie dla analogicznego Hogeschool Rotterdam (Polski nie wymieniono) status to „wymaga potwierdzenia przez uczelnię”. Niespójność między miastami.",
+  "evidence": "amsterdam.json HvA matura: „polska matura nie j[est wymieniona]...”; rotterdam.json Hogeschool Rotterdam: „wymaga potwierdzenia przez uczelnię” dla wszystkich 6 programów.",
+  "proposedFix": "Ujednolicić do „wymaga potwierdzenia przez uczelnię” dla HvA."
+ },
+ {
+  "city": "Amsterdam",
+  "program": "UvA Communication/Informatica; HvA",
+  "field": "tuition.eu",
+  "severity": "drobne",
+  "problem": "Pole tuitionEu podaje jako główną kwotę 2 771 EUR „według VU” dla programów UvA i HvA, których własna stawka 2027/28 nie jest opublikowana (UvA i HvA: 2 694 EUR na 2026/27). Wyjaśnienie jest w tym samym polu, więc ostrzeżenie jest uczciwe, ale kwota 2 771 EUR jest wnioskiem z innej uczelni (stawka ustawowa jest jednak jedna dla kraju i potwierdza ją też TU Delft).",
+  "evidence": "VU: statutory 2027-2028 €2.771; UvA: statutory 2026-2027 €2,694; TU Delft: „Statutory rate 2026/2027 € 2.694, 2027/2028 € 2.771”.",
+  "proposedFix": "Zostawić, ewentualnie wskazać źródło ogólne (TU Delft lub DUO) przy kwocie."
+ },
+ {
+  "city": "Amsterdam",
+  "program": null,
+  "field": "summary/notes",
+  "severity": "drobne",
+  "problem": "Antyteza „X, nie Y” w tekstach.",
+  "evidence": "summary[0]: „o przyjęciu decyduje test online i/albo losowanie, nie wynik matury”; UvA Global Communication Science notes „Kierunek naukowy (komunikacja), nie szkoła dziennikarska”; deadline „a nie Communication Science”.",
+  "proposedFix": "Przeformułować na zdania twierdzące, np. „o przyjęciu decyduje test online i losowanie”."
+ },
+ {
+  "city": "Bruksela",
+  "program": "ULB (programy z konkursem lub egzaminem)",
+  "field": "notes / requirements",
+  "severity": "drobne",
+  "problem": "Szczegóły egzaminu Polytech (sesje 4 do 6 lipca i 28 do 31 sierpnia 2026, rejestracja, opłata 50 EUR, trzy testy z matematyki, brak numerus clausus) nie występują na stronie programu ba-ircib (potwierdza tylko, że egzamin specjalny jest warunkiem). Adres polytech.ulb.be, z którego pochodzą, zwraca 404 i nie ma go w sources. Daty dotyczą 2026, nie 2027/28.",
+  "evidence": "ulb.be/en/programme/ba-ircib: „students must have a certificate showing they have passed the special admission exam”; brak „50”, dat sesji. https://polytech.ulb.be/fr/les-etudes/bacheliers: HTTP 404.",
+  "proposedFix": "Skrócić do faktu potwierdzonego (egzamin specjalny jest warunkiem wejścia) i dopisać „daty i opłata do potwierdzenia na stronie Polytech”."
+ },
+ {
+  "city": "Bruksela",
+  "program": "VUB Bachelor in de Geneeskunde (a ULB Bachelier en médecine)",
+  "field": "level / durationYears",
+  "severity": "drobne",
+  "problem": "VUB Geneeskunde ma level „jednolite” i durationYears 6, a ULB médecine „licencjat” 3 (z dopiskiem o 6-letniej ścieżce); w Lowanium medycyna to „licencjat” 3. Niespójna konwencja w tym samym kraju. Wcześniejsza uwaga naprawiona tylko dla ULB.",
+  "evidence": "bruksela.json: VUB Geneeskunde level=jednolite, durationYears=6; ULB médecine level=licencjat, durationYears=3; lowanium.json Geneeskunde licencjat 3.",
+  "proposedFix": "Ujednolicić (licencjat 3 z notką „potem 3-letni magister”) albo wszędzie jednolite 6."
+ },
+ {
+  "city": "Bruksela",
+  "program": "ULB (programy)",
+  "field": "notes / gaps",
+  "severity": "drobne",
+  "problem": "Pozostałości żargonu zbierania danych: „w pobranym fragmencie”, „nie badano”, „nie sprawdzano” w notes oraz luki „nie sprawdzono”/„nie zostały sprawdzone”.",
+  "evidence": "bruksela.json: psychologia notes „nie podaje ECTS ani szczegółowych warunków w pobranym fragmencie”; programs[1] i [4] notes „nie sprawdzano”.",
+  "proposedFix": "Zastąpić formułą „strona nie podaje” albo „do potwierdzenia na stronie uczelni”."
+ },
+ {
+  "city": "Bruksela",
+  "program": "VUB Business Economics",
+  "field": "deadline",
+  "severity": "drobne",
+  "problem": "Pole terminu miesza rok 2027 z terminem „8 października” (podpisanie umowy, termin z 2026), co dla czytelnika planującego 2027/28 jest mylące.",
+  "evidence": "vub.be „wanneer kan ik inschrijven”: umowa „tot ten laatste 8 oktober 2026”; zgłoszenia na 2027/28 „vanaf 15 november 2026”.",
+  "proposedFix": "Usunąć wzmiankę o 8 października albo oznaczyć jako dotyczącą wyłącznie obecnego naboru."
+ },
+ {
+  "city": "Bruksela",
+  "program": "ULB (wszystkie)",
+  "field": "admission.polishMatura",
+  "severity": "drobne",
+  "problem": "Status „wymaga dodatkowego etapu” (równoważność FWB) jest zgodny z cytatem ULB („An equivalence ... is always mandatory ... whether your qualification is European or non-European”), ale strona ULB wymienia jako wyjątki także świadectwa uznane za równoważne na mocy przepisów UE. Twierdzenie, że polskie świadectwo „nie należy do wyjątków”, to wniosek, a nie zapis źródła. Luka to przyznaje, więc ostrzeżenie jest uczciwe.",
+  "evidence": "ulb.be/en/enrolment/information-for-foreign-students: „certificate recognised as equivalent ... pursuant to federal, community, or European regulations ... the European Baccalaureate ...; the International Baccalaureate ...; the baccalaureate delivered by the SHAPE school”.",
+  "proposedFix": "Złagodzić do „ULB wymaga równoważności każdego zagranicznego świadectwa; biuro równoważności FWB ocenia polskie świadectwo, szczegóły do potwierdzenia”."
+ },
+ {
+  "city": "Rotterdam",
+  "program": "International Bachelor Econometrics and Operations Research",
+  "field": "admission.polishMatura / selective",
+  "severity": "drobne",
+  "problem": "Program bez numerus fixus (rolling admission) ma selective=true i „wymaga dodatkowego etapu” z powodu obowiązkowego egzaminu z matematyki. Zgodne ze słownikiem, ale selekcja nie opiera się na limicie, co warto powiedzieć wprost.",
+  "evidence": "eur.nl econometrics admission: „Instead of a ranking, which is applicable to numerus-fixus, the Selection Committee applies rolling admission; each application is reviewed individually”.",
+  "proposedFix": "Dopisać w requirements „bez limitu miejsc, ocena indywidualna”."
+ },
+ {
+  "city": "Rotterdam",
+  "program": "Hogeschool Rotterdam (6 programów)",
+  "field": "admission.polishMatura",
+  "severity": "drobne",
+  "problem": "Wszystkie 6 programów ma identyczny status i identyczny tekst wymagań, w tym International Business bez podanego poziomu angielskiego. Brak ostrzeżenia o skali ryzyka dla programów po niderlandzku jest w languageProof (B2 z Onderzoek NT2, potwierdzone na stronie), więc stan akceptowalny.",
+  "evidence": "hogeschoolrotterdam.nl/.../toelating-met-een-buitenlands-diploma: „Voor een Nederlandstalige hbo-opleiding moet je de Nederlandse taal op niveau B2 ... beheersen”; „uiterlijk 1 mei 2027”.",
+  "proposedFix": "Bez zmian. Opcjonalnie dodać do statusu dopisek o B2 dla programów niderlandzkich."
+ },
+ {
+  "city": "Rotterdam",
+  "program": "TU Delft Bouwkunde, Civiele Techniek, Werktuigbouwkunde",
+  "field": "url / tuitionUrl",
+  "severity": "drobne",
+  "problem": "Poprzednia uwaga o linkach do strony Computer Science dla programów niderlandzkich: tuitionUrl wskazuje teraz ogólną stronę czesnego TU Delft (poprawne), ale applyUrl/url programów architektury i budownictwa nie były weryfikowane w tym przeglądzie.",
+  "evidence": "rotterdam.json: tuitionUrl TU Delft = tudelft.nl/en/education/study-programme-orientation/practical-matters/tuition-fee-finances (potwierdza 2 771, 19 906, 20 563 EUR).",
+  "proposedFix": "Sprawdzić url/applyUrl każdego programu Delft osobno."
+ },
+ {
+  "city": "Lowanium",
+  "program": null,
+  "field": "summary (Język vs Uwagi)",
+  "severity": "ważne",
+  "problem": "Sprzeczność wewnątrz podsumowania: sekcja „Język” mówi, że po angielsku w Leuven jest kilka licencjatów (Engineering Technology, filozofia, teologia, European Studies), a sekcja „Uwagi” twierdzi, że „po angielsku prowadzony jest tylko Bachelor of Engineering Technology”. W zestawieniu faktycznie jest tylko ET, więc „Uwagi” powinny to doprecyzować.",
+  "evidence": "lowanium.json summary[2] „Po angielsku w Leuven prowadzone są tylko nieliczne licencjaty (m.in. Engineering Technology, filozofia, teologia, European Studies)”; summary[5] „Po angielsku prowadzony jest tylko Bachelor of Engineering Technology”.",
+  "proposedFix": "W „Uwagi” napisać „Spośród ujętych programów po angielsku prowadzony jest tylko Bachelor of Engineering Technology”."
+ },
+ {
+  "city": "Lowanium",
+  "program": "KU Leuven programy niderlandzkie (psychologia, prawo, informatyka, ekonomia, komunikacja, matematyka)",
+  "field": "selective",
+  "severity": "drobne",
+  "problem": "selective=null dla sześciu programów to uczciwe (luka opisana), ale schemat przewiduje wartość logiczną, a medycyna i inżynieria mają true. Matematyka z obowiązkowym starttoets ma „wymaga dodatkowego etapu”, a selective null.",
+  "evidence": "lowanium.json: matematyka selective=null przy matura „wymaga dodatkowego etapu (obowiązkowy udział w teście starttoets)”; gaps[5] opisuje brak limitów.",
+  "proposedFix": "Zostawić null albo ustawić false z notką „strona nie podaje limitu miejsc”."
+ },
+ {
+  "city": "Lowanium",
+  "program": null,
+  "field": "summary (Znajomość języka)",
+  "severity": "drobne",
+  "problem": "Fraza „niektóre programy C1” dla niderlandzkiego nie jest potwierdzona na sprawdzonych stronach warunków przyjęcia (psychologia, medycyna, starttoets: wszędzie B2).",
+  "evidence": "onderwijsaanbod.kuleuven.be/.../toelatingsvoorwaarden: „De minimumvereiste voor Nederlandse taalvaardigheid is B2 van het ERK”; brak „C1”.",
+  "proposedFix": "Usunąć „niektóre programy C1” albo podać źródło."
+ },
+ {
+  "city": "Lowanium",
+  "program": "wszystkie programy KU Leuven",
+  "field": "academicYear",
+  "severity": "drobne",
+  "problem": "Wartość „2027/28 (warunki przyjęcia), czesne z 2026/27” w polu academicYear jest opisem, nie rokiem, a przy czesnym brakuje wyodrębnionego roku. Ostrzeżenie jest uczciwe.",
+  "evidence": "lowanium.json academicYear: „2027/28 (warunki przyjęcia), czesne z 2026/27”; strona opłat: „You will start your programme in the academic year 2026-2027”.",
+  "proposedFix": "Pole academicYear = „2027/28”, a informację o czesnym z 2026/27 zostawić w tuition.eu."
+ },
+ {
+  "city": "Porto",
+  "program": null,
+  "field": "summary",
+  "severity": "drobne",
+  "problem": "Dwa wpisy summary mają etykietę „Rekrutacja” (drugi to zasady świadectwa zagranicznego), a „Matemática A i Matemática” oraz „(16 Matemática)” w wymaganiach medycyny to kody DGES niezrozumiałe dla ucznia.",
+  "evidence": "porto.json summary[2] i summary[3] label „Rekrutacja”; FMUP requirements „Matemática (16 Matemática)”.",
+  "proposedFix": "Zmienić drugą etykietę na „Świadectwo zagraniczne”; „(16 Matemática)” zastąpić „Matemática (kod 16)” lub usunąć."
+ },
+ {
+  "city": "Porto",
+  "program": "Medicina ICBAS",
+  "field": "admission.requirements",
+  "severity": "drobne",
+  "problem": "Zdanie „strona kierunku podaje 178, prawdopodobnie razem z innymi kontyngentami” zawiera domysł. Guia 2026 potwierdza 155 miejsc (1110/9813).",
+  "evidence": "GuiaCandPub2026.pdf: „1110/9813 Medicina [Mest Integ] 155 vagas”.",
+  "proposedFix": "Usunąć „prawdopodobnie ...” i napisać „strona kierunku podaje 178; w Guia 2026 jest 155”."
+ },
+ {
+  "city": "Porto",
+  "program": "U.Porto (wszystkie)",
+  "field": "admission (nota ostatniego przyjętego)",
+  "severity": "drobne",
+  "problem": "Wcześniejsza drobna uwaga (brak noty ostatniego przyjętego, np. Psicologia 171,5 / 174,5, FEUP 161,8) nadal nieuwzględniona. Sama liczba minimów (95 do 140 pkt) może sugerować łatwy dostęp.",
+  "evidence": "up.pt psychology: „Mark of the last classified 1ª Phase 171.5 2ª Phase 174.5”; FEUP EIC: „161.8”.",
+  "proposedFix": "Dodać notę ostatniego przyjętego do requirements."
+ },
+ {
+  "city": "Lizbona",
+  "program": null,
+  "field": "summary / languageProof / notes",
+  "severity": "ważne",
+  "problem": "Zwrot „nie znaleźliśmy” (pierwsza osoba liczby mnogiej, język notatki z zbierania danych) powtarza się w 20 miejscach (summary i languageProof wszystkich programów). Dodatek (pkt 8, 9) zakazuje takiego żargonu, a czytelnik nie wie, kim jest „my”. Ponadto „nie sprawdzono”/„nie sprawdzano” w gaps[9] i notes.",
+  "evidence": "lizbona.json summary[2]: „W źródłach konkursu krajowego nie znaleźliśmy wymogu certyfikatu z portugalskiego”; programs[0]/languageProof: „W warunkach konkursu krajowego DGES nie znaleźliśmy wymogu ...”.",
+  "proposedFix": "Zastąpić: „Warunki konkursu krajowego nie wymieniają certyfikatu z portugalskiego dla obywateli UE; poziom do potwierdzenia na stronie uczelni”."
+ },
+ {
+  "city": "Lizbona",
+  "program": "NOVA SBE, NOVA FCT",
+  "field": "name / uniwersytet",
+  "severity": "drobne",
+  "problem": "NOVA SBE (Carcavelos) i NOVA FCT (Caparica) leżą poza Lizboną, w aglomeracji. Dodatek wymaga zaznaczenia tego w nazwie uczelni, a nazwy tego nie mają.",
+  "evidence": "lizbona.json: „Universidade Nova de Lisboa, Nova School of Business and Economics (Faculdade de Economia)”, „... Faculdade de Ciências e Tecnologia (NOVA FCT)” bez dopisku o aglomeracji.",
+  "proposedFix": "Dopisać „(Carcavelos, aglomeracja Lizbony)” i „(Caparica, aglomeracja Lizbony)”."
+ },
+ {
+  "city": "Lizbona",
+  "program": "Licenciatura em Engenharia Geral (GENI)",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "Adres URL wklejony w środek zdania w notes („Strona kierunku: https://geni.tecnico.ulisboa.pt/.”).",
+  "evidence": "lizbona.json IST GENI notes zawiera „https://geni.tecnico.ulisboa.pt/”.",
+  "proposedFix": "Przenieść adres do pola url."
+ },
+ {
+  "city": "Lizbona",
+  "program": null,
+  "field": "summary",
+  "severity": "drobne",
+  "problem": "Antyteza „X, nie Y”: „dotyczą 2025 i 2026, nie 2027/28”; „Dotyczy ścieżki konkursu specjalnego, nie obywateli UE.”",
+  "evidence": "lizbona.json summary[5]; NOVA SBE tuitionNonEu.",
+  "proposedFix": "Przeformułować twierdząco, np. „dotyczą naborów 2025 i 2026”."
+ },
+ {
+  "city": "Lizbona",
+  "program": "IST i pozostałe ULisboa",
+  "field": "tuition.eu",
+  "severity": "drobne",
+  "problem": "Czesne UE jest z 2025/26 (uchwała ULisboa), a program ma academicYear 2026/27. Ostrzeżenie „stawka na 2026/27 do potwierdzenia” jest obecne, więc uczciwe. NOVA SBE potwierdza 697 EUR na 2026/27, ULisboa PDF (wiersze 697) dotyczy 2025/26.",
+  "evidence": "ulisboa.pt deliberacaocgpropinas2025: „2025/2026 (estudantes nacionais ou equiparados) e 2026/2027 (estudantes internacionais)”; NOVA SBE: „tuition fees for 2026/2027 will be 697€/year”.",
+  "proposedFix": "Bez zmian."
+ }
+]

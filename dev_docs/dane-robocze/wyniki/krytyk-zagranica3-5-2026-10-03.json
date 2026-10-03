@@ -1,0 +1,200 @@
+[
+ {
+  "city": "Praga",
+  "program": "Všeobecné lékařství (1. LF, česky) vs General Medicine (1. LF, angličtina)",
+  "field": "admission.polishMatura",
+  "severity": "ważne",
+  "problem": "Ten sam wydział i to samo źródło dają dwa różne statusy matury: wersja czeska „uznawana”, angielska „uznawana z warunkami”, choć w notatce stoi, że polskie świadectwo jest równoważne bez nostryfikacji.",
+  "evidence": "lf1.cuni.cz/nostrifikace-stredoskolskeho-vzdelani: ekvivalent matury na Słowacji, w Polsce (swiadectwo dojrzałości), na Węgrzech i w Słowenii „rovnocenný bez dalšího úředního postupu”; dowód składa się przy zapisie.",
+  "proposedFix": "Ujednolicić do „uznawana” w obu wersjach 1. LF i podać stronę o nostryfikacji jako źródło (obecne sourceUrl to podstrona warunków, na której Polska nie pada)."
+ },
+ {
+  "city": "Praga",
+  "program": "Psychologie (UK FF, česky)",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "Pozostałość żargonu zbierania danych: „(nie sprawdzano oficjalnie)”.",
+  "evidence": "universities[0].programs[0].notes: „Do zawodu psychologa zwykle potrzebny jest też stopień magisterski (nie sprawdzano oficjalnie).”",
+  "proposedFix": "Zastąpić: „Do zawodu psychologa zwykle potrzebny jest też stopień magisterski; potwierdź to na stronie wydziału.”"
+ },
+ {
+  "city": "Praga",
+  "program": "Informatika / Informatics (FIT), Civil Engineering (FSv)",
+  "field": "academicYear/deadline",
+  "severity": "drobne",
+  "problem": "Terminy z naboru 2026/27 są minione (FIT do 31.03.2026, FSv runda dodatkowa lipiec 2026), ale oznaczone uczciwie jako 2026/27. Czytelnik nie dostaje żadnej orientacyjnej daty na 2027/28 poza FSv (zapowiedź 1.01 do 31.03.2027 potwierdzona na stronie).",
+  "evidence": "fsv.cvut.cz/uchazeci/.../prijimaci-rizeni: „Podávání přihlášek bude možné 1.1. - 31. 3. 2027”; fit.cvut.cz: „online od 1. 1. 2026 do 31. 3. 2026”.",
+  "proposedFix": "Bez zmian poza dopiskiem na karcie, że pierwszy nabór zwykle startuje 1 stycznia."
+ },
+ {
+  "city": "Praga",
+  "program": "Strojní inženýrství (FS ČVUT)",
+  "field": "tuitionEu",
+  "severity": "drobne",
+  "problem": "Poprawka uczciwa, ale opłata za zgłoszenie podana dwukrotnie różnie (900 i 950 CZK) w jednym polu; potwierdzone na stronie angielskiej 900 CZK, czeskiej brak weryfikacji w tym przeglądzie.",
+  "evidence": "fs.cvut.cz/en/.../basic-information/: „ADMISSION FEE 900 CZK”, „Bachelor Degree – TUITION FEE (PER YEAR) CZK 110 000”.",
+  "proposedFix": "Zostawić z ostrzeżeniem, które już jest."
+ },
+ {
+  "city": "Bratysława",
+  "program": "Sociálna a pracovná psychológia (UK FSES)",
+  "field": "tuitionUrl / tuitionEu",
+  "severity": "drobne",
+  "problem": "Kwota 3 000 € jest prawdziwa (strona uniba.sk/en/study: „Tuition fee: 3000€/academic year”), ale jako źródło podano stronę programu FSES, na której kwoty nie ma.",
+  "evidence": "br-fses.html nie zawiera żadnej kwoty; kwota stoi na https://uniba.sk/en/study/.",
+  "proposedFix": "Ustawić tuitionUrl na https://uniba.sk/en/study/ (jak przy Management, 1 990 €)."
+ },
+ {
+  "city": "Bratysława",
+  "program": "Informatika i Data Science (UK FMFI, po słowacku), Sociálna psychológia",
+  "field": "deadline / selective",
+  "severity": "drobne",
+  "problem": "Terminy null i selective null dla trzech programów; w treści jest uczciwa informacja, że warunków 2027/28 brak, ale karta nie mówi kandydatowi, kiedy sprawdzić.",
+  "evidence": "universities[0].programs[3..5]: deadline None, selective None.",
+  "proposedFix": "Wpisać „Termin na 2027/28 nie jest jeszcze opublikowany” zamiast null, aby widok nie wyglądał na pusty."
+ },
+ {
+  "city": "Bratysława",
+  "program": "Ekonomika a manažment podniku (EUBA)",
+  "field": "tuitionEu",
+  "severity": "drobne",
+  "problem": "Czesne za standardowy czas studiów po angielsku nieznane, ale zastrzeżenie jest uczciwe. Wcześniejsza uwaga o „pustej karcie” usunięta: są liczba miejsc, egzamin 23.03.2027, status matury z ostrzeżeniem.",
+  "evidence": "universities[2].programs[0].",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "Bratysława",
+  "program": null,
+  "field": "summary[Opłaty]",
+  "severity": "drobne",
+  "problem": "W summary 13 000 € i 3 999 € bez dopisku roku (2026/27) przy medycynie; rok jest tylko przy Management and Law.",
+  "evidence": "summary[1]: „13 000 € (medycyna po angielsku na UK)”.",
+  "proposedFix": "Dopisać „(2026/27)” przy medycynie."
+ },
+ {
+  "city": "Sofia",
+  "program": "Wszystkie programy SU, TU Sofia, UACEG, UNWE (ok. 25 pól)",
+  "field": "tuitionNonEu / notes / requirements",
+  "severity": "ważne",
+  "problem": "Żargon zbierania danych wrócił lub został: „kwoty nie zostały tu odczytane”, „kwoty nie odczytano”, „nie został odczytany ze strony wydziału”, „nie odczytano”, „Nie sprawdzono, czy istnieje wersja po angielsku”. Czytelnik nie wie, co to znaczy.",
+  "evidence": "np. universities[0].programs[0..9].tuitionNonEu: „…tabela w PDF na stronie opłat, kwoty nie zostały tu odczytane”; programs[4].notes; programs[8].notes „Czas trwania nie został odczytany”; universities[3].programs[0].notes; universities[4].programs[0].requirements „(nie odczytano)”; gaps[3] „nie udało się odczytać liczby miejsc”, „na odczytanych stronach”.",
+  "proposedFix": "Przepisać: „Kwoty dla osób spoza UE podaje osobny rozkaz rektora; sprawdź je na stronie uczelni.” oraz „Czas trwania nie jest podany na stronie wydziału.” Usunąć „odczytano/odczytane”."
+ },
+ {
+  "city": "Sofia",
+  "program": "SU: Psychologia, Informatyka, Inżynieria oprogramowania, Analiza danych (i pozostałe)",
+  "field": "notes",
+  "severity": "ważne",
+  "problem": "Zdanie „Czas trwania to cztery lata zgodnie z ogólną zasadą Uniwersytetu Sofijskiego dla licencjatu.” jest zdublowane (wklejone dwa razy pod rząd) w każdym programie SU z durationYears 4. To ślad po poprawce, a sama teza o czterech latach nie ma cytatu ze strony programu.",
+  "evidence": "universities[0].programs[0].notes: dwa identyczne zdania; to samo w programs[1], [2], [3].",
+  "proposedFix": "Usunąć duplikat. Czas trwania podać z cytatem (np. 240 ECTS) albo ustawić null z adnotacją „czas trwania do potwierdzenia na stronie wydziału”."
+ },
+ {
+  "city": "Sofia",
+  "program": "SU: Анализ на данни",
+  "field": "tuitionEu",
+  "severity": "drobne",
+  "problem": "Brak wprost podanej opłaty dla naboru płatnego: „tabela nie przewiduje nauki płatnej”. Wnioskowanie z braku wzmianki; wymóg słownika mówi, że „brak czesnego” wolno pisać tylko, gdy źródło mówi to dosłownie.",
+  "evidence": "universities[0].programs[3].tuitionEu: „Dla osób przyjętych w latach 2025/26 i 2026/27 tabela nie przewiduje nauki płatnej.” Tabela państwowa jest zeskanowanym obrazem, a nie tekstem, więc nie da się jej przeszukać automatycznie.",
+  "proposedFix": "Zaznaczyć, że to odczyt z tabeli uczelni i dodać „do potwierdzenia w biurze rekrutacji”."
+ },
+ {
+  "city": "Sofia",
+  "program": "SU: kwoty płatnych miejsc 2 070 i 4 020 EUR",
+  "field": "tuitionEu",
+  "severity": "drobne",
+  "problem": "Nie udało się zweryfikować kwot płatnych miejsc (2 070, 4 020 EUR): rozkaz rektora i tabele na stronie SU to skany obrazów bez warstwy tekstowej. Potwierdzono tylko miejsca dotowane 310 EUR dla Psychologii (tabela załącznika, wiersz „Психология, ФФ”).",
+  "evidence": "so-app.pdf wiersz 120: „Психология ФФ Психология 310 EUR …”; tabela płatna w osobnym skanie.",
+  "proposedFix": "Dodać do luk uczciwą uwagę, że kwoty płatne pochodzą z zeskanowanego dokumentu."
+ },
+ {
+  "city": "Sofia",
+  "program": "Medicine in English (MU Sofia)",
+  "field": "tuitionEu",
+  "severity": "drobne",
+  "problem": "Poprzednia uwaga (9 950 EUR podane jako dana UE) naprawiona: pole mówi wprost, że dla obywateli UE kwota jest niepotwierdzona. Daty 27.07 do 31.08.2026, egzamin 03.09.2026, wyniki 11.09.2026 potwierdzone, strona zawiera też stary blok z 2022.",
+  "evidence": "mu-sofia.bg/en/admission/admissions-of-foreign-citizen/: „Deadline for receipt of documents: 27.07.2026 to 31.08.2026 Entrance Exams … 03.09.2026”; „Training in Medicine in English – EUR 9950 per year”.",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "Sofia",
+  "program": null,
+  "field": "summary[Opłaty]",
+  "severity": "drobne",
+  "problem": "Summary podaje „SU medycyna 5 350 EUR” i „medycyna po angielsku w SU 8 000 EUR” bez roku w zdaniu (rok 2026/27 jest na początku summary tylko pośrednio).",
+  "evidence": "summary[2].text.",
+  "proposedFix": "Dopisać „w roku 2026/27”."
+ },
+ {
+  "city": "Bukareszt",
+  "program": null,
+  "field": "summary (etykiety)",
+  "severity": "drobne",
+  "problem": "Dwie sekcje summary mają tę samą etykietę „Rekrutacja”; druga dotyczy równego traktowania obywateli UE, pasuje bardziej do „Polska matura”.",
+  "evidence": "summary[3] i summary[4] oba label „Rekrutacja”.",
+  "proposedFix": "Zmienić etykietę drugiej na „Obywatele UE” lub scalić."
+ },
+ {
+  "city": "Bukareszt",
+  "program": "Informatică (UB, EN), Inginerie mecanică (UPB, RO), Inginerie civilă EN (UTCB)",
+  "field": "durationYears",
+  "severity": "drobne",
+  "problem": "Czas trwania nadal null w 3 z 21 programów (poprzednio 18 z 21), przyznane w gaps. Uwaga z poprzedniego przeglądu w praktyce naprawiona.",
+  "evidence": "programs[0.2], [1.3], [3.0] durationYears None.",
+  "proposedFix": "Uzupełnić po sprawdzeniu planów nauczania albo zostawić, bo luka jest opisana."
+ },
+ {
+  "city": "Bukareszt",
+  "program": "Wszystkie programy",
+  "field": "tuitionEu (przeliczenia na EUR)",
+  "severity": "drobne",
+  "problem": "Przeliczenia lei na EUR (kurs EBC z 2 października 2026, 5,3488) nie dały się zweryfikować w tym przeglądzie; są oznaczone jako orientacyjne, więc ryzyko niskie.",
+  "evidence": "Pola tuitionEu: „ok. 1 030 EUR … kurs EBC z 2 października 2026 (1 EUR = 5,3488 lei)”.",
+  "proposedFix": "Bez zmian; strona i tak przelicza po kursie NBP."
+ },
+ {
+  "city": "Bukareszt",
+  "program": "Arhitectură (UAUIM, EN i RO)",
+  "field": "admission.polishMatura",
+  "severity": "drobne",
+  "problem": "Status „wymaga potwierdzenia przez uczelnię” jest zgodny ze słownikiem, ale UAUIM wymaga matury rumuńskiej „lub równoważnej uznanej przez CNRED”, co jest bliższe „uznawana z warunkami”. Niespójność między UAUIM a UTCB i ASE (które mają „z warunkami” przy tym samym CNRED).",
+  "evidence": "universities[4].programs[0].matura: „kandydat musi mieć dyplom matury rumuńskiej lub równoważny uznany przez C…”.",
+  "proposedFix": "Ujednolicić z UTCB i ASE albo dopisać, czemu UAUIM różni się statusem."
+ },
+ {
+  "city": "Helsinki",
+  "program": "Aalto: Tietotekniikka, Kone- ja rakennustekniikka",
+  "field": "requirements",
+  "severity": "ważne",
+  "problem": "Progi SAT 1350 / 700 z matematyki (ACT 29/30) i 1200 (ekonomia, ACT 25) nie dały się potwierdzić na wskazanych stronach: strona programu S&T i FAQ Aalto potwierdzają tylko, że grupa I (świadectwo z zagranicy) jest oceniana wynikiem SAT lub ACT, ale nie podają liczb. Dane są też z naboru 2026, co karta mówi.",
+  "evidence": "aalto.fi/en/admission-services/bachelors-admissions-frequently-asked-questions: „you belong to group I where the admission is based on SAT or ACT test scores”; brak liczb 1350/700 w pobranym tekście.",
+  "proposedFix": "Podać źródło progów (konkretna strona naboru 2026) albo dopisać, że progi są orientacyjne i zmieniają się co roku."
+ },
+ {
+  "city": "Helsinki",
+  "program": "Hanken, Metropolia",
+  "field": "tuition nonEu (summary)",
+  "severity": "drobne",
+  "problem": "Czesne dla osób spoza UE: Hanken 12 000 EUR i Metropolia 11 000 do 11 500 EUR nie zostały potwierdzone na pobranych stronach (Hanken i Metropolia nie pokazują kwoty w pobranej wersji), potwierdzono UH 13 000 EUR i Aalto Economics 12 000 EUR.",
+  "evidence": "he-uh: „Tuition fee per year (only non-EU/EEA citizens): 13 000 EUR”; he-eco: „€12000/y (Bachelor’s studies)”.",
+  "proposedFix": "Dla Hanken i Metropolii podać wprost stronę z cennikiem w sources."
+ },
+ {
+  "city": "Helsinki",
+  "program": "Haaga-Helia International Business",
+  "field": "deadline",
+  "severity": "drobne",
+  "problem": "Podano tylko nabór ciągły na sierpień 2027 (30.10.2026 do 12.05.2027, potwierdzone). Strona podaje też nabór ciągły na styczeń 2027 (12.08 do 30.09.2026), minięty; brak wzmianki.",
+  "evidence": "haaga-helia.fi: „Full-time studies, January 2027 intake Rolling admission in autumn 2026 Application period: 12 August – 30 September 2026”.",
+  "proposedFix": "Dopisać, że nabór na styczeń 2027 już się zamknął."
+ },
+ {
+  "city": "Helsinki",
+  "program": "UH: Soveltavan psykologian kandiohjelma i inne programy po fińsku",
+  "field": "admission.languageProof",
+  "severity": "drobne",
+  "problem": "Poprzednia uwaga o null w matura/requirements naprawiona (status „wymaga potwierdzenia przez uczelnię”, jasne zdanie w requirements). Wymóg poziomu fińskiego nadal bez liczby, ale uczciwie opisany w gaps.",
+  "evidence": "gaps[1].",
+  "proposedFix": "Bez zmian."
+ }
+]

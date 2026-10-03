@@ -1,0 +1,173 @@
+[
+ {
+  "city": "Londyn",
+  "program": "Queen Mary University of London: Medicine MBBS",
+  "field": "matura",
+  "severity": "drobne",
+  "problem": "Status „nieuznawana” nie występuje w słowniku statusów (uznawana, uznawana z warunkami, wymaga dodatkowego etapu, wymaga potwierdzenia przez uczelnię). Treść jest zgodna ze źródłem, ale wartość statusu wychodzi poza słownik i może nie obsłużyć jej strona.",
+  "evidence": "Strona QMUL (international-students/.../poland): „the Polish Certificate of Maturity is not accepted for admission to either our MBBS or BDS programmes (but is accepted for all other undergraduate programmes)”.",
+  "proposedFix": "Zachować treść, ale ujednolicić wartość ze słownikiem (np. „wymaga dodatkowego etapu” z opisem, że Matura sama nie wystarcza) albo dopisać „nieuznawana” do słownika i do kodu strony."
+ },
+ {
+  "city": "Londyn",
+  "program": "Imperial: Computing, EFDS, Mechanical, Civil, Medicine",
+  "field": "requirements",
+  "severity": "drobne",
+  "problem": "Wymagania staninowe nadal są przypisane do polskiej Matury przez wnioskowanie (skala staninowa), a w tekście nie ma o tym zdania. Zniknęło sformułowanie „z kolejności listy”, ale strona Imperial nadal nie podpisuje tego ciągu wymagań nazwą kraju. Wnioskowanie jest rozsądne (stanin to polska skala), tylko niewidoczne dla czytelnika.",
+  "evidence": "Tekst strony Computing: lista „Poland: Matura” w akceptowanych kwalifikacjach, osobno anonimowy ciąg „Our minimum entry standard is the following subjects at advanced level - numerical grades refer to the required stanine: 9 in Mathematics 9 in a relevant subject”. Kraj nie jest podpisany.",
+  "proposedFix": "Dopisać w gaps jedno zdanie: „Imperial nie podpisuje krajem tego wymogu; przypisano go Polsce, bo podany jest w skali staninowej”."
+ },
+ {
+  "city": "Londyn",
+  "program": "Imperial: Mechanical Engineering, Civil Engineering",
+  "field": "tuitionUrl",
+  "severity": "drobne",
+  "problem": "tuitionUrl wskazuje stronę opłat 2026/27 wydziału inżynierii, a podana kwota 47 800 GBP dotyczy wejścia 2027 i pochodzi ze strony kursu. Link nie potwierdza kwoty z pola.",
+  "evidence": "Strona kursu Computing: „Overseas fee 2027 entry £47,800 per year”; tuitionUrl Mechanical/Civil: .../undergraduate-tuition-fees/2026-27/faculty-of-engineering/.",
+  "proposedFix": "Ustawić tuitionUrl na stronę kursu (jak w Computing)."
+ },
+ {
+  "city": "Londyn",
+  "program": null,
+  "field": "summary / gaps",
+  "severity": "drobne",
+  "problem": "Powtarzające się „w narzędziu wyboru kraju”, „nie badano” (medycyna: uznanie dyplomu) to sformułowania bliskie żargonowi zbierania danych; w gaps jest też „a nie podane osobno dla każdego kursu” (konstrukcja przeciwstawna).",
+  "evidence": "gaps[5]: „...przeliczone z tabeli ogólnej ..., a nie podane osobno dla każdego kursu.”; programs[4].notes: „tego nie badano”.",
+  "proposedFix": "Przeformułować: „uznania dyplomu nie opisujemy na tej stronie”; „podane jest tylko w tabeli ogólnej”."
+ },
+ {
+  "city": "Dublin",
+  "program": "Trinity College Dublin: Computer Science (TR033)",
+  "field": "tuitionNonEu",
+  "severity": "ważne",
+  "problem": "Czesne spoza UE dla Computer Science w TCD zapisane jako 22 580 EUR, a strona opłat TCD dla Computer Science (Year 5 is postgraduate, UICS-ICSC-2F) podaje 29 570 EUR. Pole tuitionEu (czesne 4 832 EUR) pochodzi z tego samego wiersza, więc para kwot w jednym rekordzie jest niespójna. Błąd zaniża koszt o 6 990 EUR rocznie.",
+  "evidence": "tcd.ie/courses/undergraduate/fees/, 2026/27: „Computer Science (Year 5 is postgraduate) UICS-ICSC-2F UF_000031 €4,832.00 €2,500.00 €7,332.00 €29,570.00”. W danych: „Spoza UE (2026/27): 22 580 EUR rocznie (Computer Science, wg strony opłat TCD)”. Psychology, Law, BESS: 22 580 potwierdzone; Engineering 29 570 potwierdzone.",
+  "proposedFix": "Ustawić tuitionNonEu TR033 na 29 570 EUR rocznie (2026/27) i poprawić zdanie w opisie opłat (zakres 22 580 do 29 570 zostaje poprawny)."
+ },
+ {
+  "city": "Dublin",
+  "program": null,
+  "field": "summary Rekrutacja / deadline",
+  "severity": "ważne",
+  "problem": "Zdanie „CAO otworzy przyjmowanie wniosków na 2027 dnia 5 listopada 2026” podaje datę z cyklu 2026 jako fakt dla cyklu 2027. Strona CAO pokazuje tylko harmonogram naboru 2026 (otwarcie 5 listopada 2025). Wyprowadzenie roku z cyklu jest zakazane przez dodatek do instrukcji.",
+  "evidence": "cao.ie, Timetable of Events: „5th November 2025 (12:00) CAO online application facility opens ... 1st February (17:00) Normal closing date”. Brak strony z datą 5 listopada 2026.",
+  "proposedFix": "Zastąpić: „CAO w cyklu 2026 otworzyło nabór 5 listopada 2025; datę otwarcia na 2027 CAO jeszcze nie opublikowało (zwykle listopad, do potwierdzenia na cao.ie)”. To samo w pozycjach deadline i gaps."
+ },
+ {
+  "city": "Dublin",
+  "program": "Wszystkie programy",
+  "field": "academicYear / deadline",
+  "severity": "drobne",
+  "problem": "Poprawka uczciwie opisuje, że terminy i opłaty są z cyklu 2026/27, ale rok akademicki w polu to nadal 2027/28, a wytyczne CAO dla Polski (wymagania matury, tabele przeliczeń) są dokumentem „for 2026 entry”. Ostrzeżenie o wytycznych na 2026 jest tylko w skrócie („wytyczne na 2026”).",
+  "evidence": "caog Guidelines-EU-EFTA-UK-2026.pdf, str. 67: „This document is for 2026 entry”.",
+  "proposedFix": "Dopisać w summary Polska matura: „wytyczne CAO dotyczą naboru 2026; na 2027 mogą się zmienić”."
+ },
+ {
+  "city": "Dublin",
+  "program": null,
+  "field": "summary Rekrutacja",
+  "severity": "drobne",
+  "problem": "Zdanie „tego warunku w dokumencie nie badano szerzej” to żargon zbierania danych i jest niejasne dla czytelnika.",
+  "evidence": "summary[3]: „CAO nie formułuje wymogu, by Matura dawała dostęp do uczelni w kraju wydania, ale tego warunku w dokumencie nie badano szerzej.”",
+  "proposedFix": "Usunąć zdanie albo zapisać: „Czy CAO wymaga dostępu do uczelni w kraju wydania, należy sprawdzić w wytycznych CAO”."
+ },
+ {
+  "city": "Dublin",
+  "program": "DCU: Computing, Data Science, Psychology, Journalism",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "„a nie średnią” (konstrukcja przeciwstawna) i „nie sprawdzano” w gaps.",
+  "evidence": "programs[0].notes: „Zakres punktów jest rozstrzałem według strony kursu, a nie średnią.”",
+  "proposedFix": "Zapisać: „Podany zakres punktów pochodzi ze strony kursu”."
+ },
+ {
+  "city": "Paryż",
+  "program": "Wszystkie licence z Parcoursup (Sorbonne, Paris Cité, Paris 1)",
+  "field": "requirements",
+  "severity": "drobne",
+  "problem": "W polu requirements w ok. 14 programach powtarza się zdanie „Dlatego w danych kierunek jest oznaczony jako selekcyjny w praktyce”. „W danych” to żargon zbierania danych, a zdanie jest identyczne w każdym rekordzie.",
+  "evidence": "requirements: „...więc komisja układa ranking dossier. Dlatego w danych kierunek jest oznaczony jako selekcyjny w praktyce.” (też summary Uwagi).",
+  "proposedFix": "Zamienić na: „W praktyce kierunek jest selekcyjny, bo komisja układa ranking”. Przy okazji skrócić powtarzany akapit do jednego miejsca w summary."
+ },
+ {
+  "city": "Paryż",
+  "program": null,
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Słowo „próbki” (dwa razy) i konstrukcja „ENSA, a nie uniwersytety z próbki” to żargon i antyteza.",
+  "evidence": "gaps[5]: „...(ENSA), a nie uniwersytety z próbki.”; gaps[6]: „na uczelniach z próbki”.",
+  "proposedFix": "Zapisać: „Architekturę prowadzą szkoły ENSA pod Ministerstwem Kultury; ich danych nie zebrano”; „na uczelniach opisanych na tej stronie”."
+ },
+ {
+  "city": "Paryż",
+  "program": "Parcours d'Accès Spécifique Santé (PASS), Sorbonne i Paris Cité",
+  "field": "level / durationYears",
+  "severity": "drobne",
+  "problem": "Rok PASS jest oznaczony jako „jednolite”, 1 rok. Notatka tłumaczy, że to tylko rok wstępny, ale filtr po poziomie i czasie pokaże 1 rok jako cały program.",
+  "evidence": "notes: „podany czas trwania (1 rok) dotyczy samego roku PASS”.",
+  "proposedFix": "Ustawić durationYears null albo oznaczyć poziom osobno (rok wstępny do medycyny)."
+ },
+ {
+  "city": "Lyon",
+  "program": "ENSAL: Licence d'architecture (DEEA)",
+  "field": "tuitionEu / tuitionNonEu",
+  "severity": "ważne",
+  "problem": "Zdanie „strona ENSAL podaje tylko rok 2025/26” jest nieprawdziwe. Ta sama strona podaje też stawkę 2026/27: 391 EUR rocznie na licence (537 EUR na master). Dane mają więc stawkę o rok starszą niż dostępna na wskazanym źródle i błędny opis źródła. Dla 2026/27 podaje też, że reforma opłat dla cudzoziemców nie dotyczy ENSA.",
+  "evidence": "lyon.archi.fr/admissions: „Les droits d'inscription 2026-2027 s'élèvent à 391€/an en licence et 537€/an en master” oraz „La réforme des droits d'inscription des étudiants étrangers n'est pas applicable aux ENSA”. W danych: „Stawka na 2027/28 nie jest znana, bo strona ENSAL podaje tylko rok 2025/26.”",
+  "proposedFix": "Wpisać „391 EUR rocznie (2026/27; 390 EUR w 2025/26)”, w tuitionNonEu: ta sama stawka, reforma opłat nie dotyczy ENSA. Poprawić też summary Opłaty i gaps."
+ },
+ {
+  "city": "Lyon",
+  "program": null,
+  "field": "summary / notes",
+  "severity": "drobne",
+  "problem": "„W próbce z Lyonu” (summary Znajomość angielskiego, notes BSc Data Science, gaps), „nie włączono do próbki” i „najtańsza sprawdzona opcja” to żargon zbierania danych.",
+  "evidence": "summary[2]: „Program po angielsku w próbce z Lyonu to IBMMAE...”; programs BSc notes: „w próbce z Lyonu”.",
+  "proposedFix": "Zamienić „w próbce z Lyonu” na „wśród opisanych tu programów”."
+ },
+ {
+  "city": "Lyon",
+  "program": "IBMMAE (INSA Lyon)",
+  "field": "deadline / academicYear",
+  "severity": "drobne",
+  "problem": "Termin 31 maja 2027 jest uczciwie opisany jako pochodzący z formularza oznaczonego 2026/27, a rok naboru jako do potwierdzenia. Formularz sam mówi o roku 2026/2027 i terminie 31 maja 2027, więc nadal niejasne, czy to nabór na wrzesień 2027. Czytelnik nie dostaje jednoznacznej odpowiedzi.",
+  "evidence": "Formularz IBMMAE: „the deadline for receiving applications is 31st May 2027”, obok „the year 2026/2027”.",
+  "proposedFix": "Zostawić ostrzeżenie, dodać „Zapytaj ibeng@insa-lyon.fr, na który rok dotyczy ten termin” w deadline (jest w gaps, brak w polu)."
+ },
+ {
+  "city": "Wiedeń",
+  "program": "TU Wien: Bauingenieurwesen, Maschinenbau, Architektur",
+  "field": "requirements",
+  "severity": "ważne",
+  "problem": "Wymóg „min. 4 godziny tygodniowo Darstellende Geometrie po 8. klasie, brak dowodu oznacza dodatkowy egzamin” nie występuje na podanych stronach programów TU Wien ani na liście równoważnych świadectw. Cytat podpisany „UBVO” nie jest w źródłach. Dla Architektury i Informatyki nie znalazłem też na stronie programu liczb 881 rejestracji (Architektur) ani 670 miejsc i 1 030 rejestracji (Informatik); 625 miejsc w Architekturze potwierdzone.",
+  "evidence": "Strony tuwien.at/.../bauingenieurwesen i /maschinenbau: brak słów „Darstellende Geometrie”; strona Architektur: „625 Studienplätze ... zweistufigen Aufnahmeverfahren”. Gaps wieden sam zapisuje, że kwestia geometrii wykreślnej jest tylko częściowo potwierdzona.",
+  "proposedFix": "Dodać do sources i sourceUrl konkretną stronę TU Wien z wymogiem (UBVO lub strona zasad uzupełniających) z cytatem albo usunąć zdanie z Bau i Maschinenbau; dla liczb rejestracji podać źródło lub je usunąć."
+ },
+ {
+  "city": "Wiedeń",
+  "program": "WU Wien: WiSo, Wirtschaftsrecht",
+  "field": "deadline",
+  "severity": "drobne",
+  "problem": "Dopisek „w praktyce od początku marca do połowy maja” nie ma źródła na stronach WU (strona podaje tylko „Bewerbungsfrist Frühjahr 2027”). To wyprowadzenie z poprzednich lat podane bez oznaczenia, że nieoficjalne.",
+  "evidence": "wu.ac.at/studium/bachelor/wirtschafts-und-sozialwissenschaften/ueberblick: „Nächster Studienstart 01. Oktober 2026 Bewerbungsfrist Frühjahr 2027 Tag der Offenen Tür 05. März 2027”; brak dat marzec do maj.",
+  "proposedFix": "Usunąć „w praktyce od początku marca do połowy maja” albo zapisać „w poprzednich latach przypadało to na wiosnę (nieoficjalnie)”."
+ },
+ {
+  "city": "Wiedeń",
+  "program": "Universität Wien: Statistik und Data Analytics",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "W polu notes pojawia się „(patrz sourceUrl dowodu językowego)” i „dlatego ... przyjęto” (żargon zbierania danych, odwołanie do pola technicznego, którego czytelnik nie widzi).",
+  "evidence": "notes: „...wymogi dowodu językowego tu przyjęto jak dla innych niemieckojęzycznych studiów Uniwersytetu Wien (patrz sourceUrl dowodu językowego) i oznaczono jako do potwierdzenia.”",
+  "proposedFix": "Zapisać: „Wymóg C1 podano według ogólnych zasad Uniwersytetu Wiedeńskiego; do potwierdzenia na stronie uczelni”."
+ },
+ {
+  "city": "Wiedeń",
+  "program": "Universität Wien: Informatik",
+  "field": "requirements",
+  "severity": "drobne",
+  "problem": "Zdanie „OSA obowiązkowe przed wnioskiem (dla studiów z OSA)” jest tautologią i nic nie mówi czytelnikowi, czy dla Informatyki jest OSA.",
+  "evidence": "requirements: „OSA obowiązkowe przed wnioskiem (dla studiów z OSA).”",
+  "proposedFix": "Podać wprost, czy kierunek ma OSA (strona aufnahmeverfahren.univie.ac.at/informatik) albo usunąć zdanie."
+ }
+]
