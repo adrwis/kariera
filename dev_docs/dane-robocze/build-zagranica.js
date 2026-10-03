@@ -21,6 +21,7 @@ const CITIES = [
   ['londyn', 'Londyn', 'Wielka Brytania', false],
 ];
 
+const poprawki = require('./poprawki-zagranica');
 const text = v => (v == null ? '' : String(v).trim());
 // Zdania o sposobie zbierania danych (narzędzia, limity zapytań, streszczenia stron) nie są informacją dla ucznia: usuwamy je,
 // a przy uwagach o niepewności zostawiamy jedno zdanie po ludzku.
@@ -91,8 +92,10 @@ for (const [slug, name, country, eu] of CITIES) {
   // Miasto bez żadnego programu z potwierdzonymi danymi (np. strony uczelni nie dały się odczytać) zostaje „w przygotowaniu”
   if (!universities.reduce((a, u) => a + u.programs.length, 0)) { index.push({ slug, name, country, eu, status: 'w przygotowaniu', universities: 0, programs: 0 }); continue; }
   const data = { slug, name, country, eu, retrieved: text(raw.retrieved), summary: sum.items, sources: sum.sources, gaps: (raw.luki || []).map(x => text(x)).filter(x => x && !/^[^.]*\b(nie użyłem|nie użyłam|nie sprawdzałem|nie sprawdzałam)\b[^.]*(limit|portal)/i.test(x)).map(clean).filter(Boolean), universities };
+  poprawki.apply(slug, data);
   fs.writeFileSync(path.join(OUT, slug + '.json'), JSON.stringify(data));
   index.push({ slug, name, country, eu, status: 'dostępne', retrieved: data.retrieved, universities: universities.length, programs: universities.reduce((a, u) => a + u.programs.length, 0) });
 }
 fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify({ cities: index }));
+if (poprawki.warnings.length) console.log('UWAGA, poprawki bez dopasowania:\n  ' + poprawki.warnings.join('\n  '));
 console.log('miasta:', index.filter(c => c.status === 'dostępne').map(c => `${c.name} (${c.programs})`).join(', ') || 'brak', '| w przygotowaniu:', index.filter(c => c.status !== 'dostępne').length);
