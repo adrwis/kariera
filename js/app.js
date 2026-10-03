@@ -228,21 +228,15 @@
   // --- Search form (landing) ---
   const searchForm = document.getElementById('searchForm');
   const searchInput = document.getElementById('searchQuery');
-  const nameInput = document.getElementById('userName');
   const autocompleteList = document.getElementById('autocompleteList');
 
-  // Restore name from localStorage
-  const savedName = localStorage.getItem('kr-name');
-  if (savedName) nameInput.value = savedName;
+  // Pole na imię usunięte: kasujemy imię zapisane przez starszą wersję strony
+  try { localStorage.removeItem('kr-name'); } catch (e) { /* ignoruj */ }
 
   searchForm.addEventListener('submit', (e) => {
     e.preventDefault();
     const query = searchInput.value.trim();
     if (!query) return;
-
-    // Save name
-    const name = nameInput.value.trim();
-    if (name) localStorage.setItem('kr-name', name);
 
     // Navigate to results
     go(`/wyniki?q=${encodeURIComponent(query)}`);
@@ -463,23 +457,14 @@
       if (schools.length) {
         parts.push(`uczelnia: ${schools.join(', ')}`);
       }
-      const name = localStorage.getItem('kr-name');
-      resultsQuery.textContent = name
-        ? `${name}, oto wyniki filtrowania: ${parts.join(' · ') || 'wszystkie zawody'}`
-        : `Filtrowanie: ${parts.join(' · ') || 'wszystkie zawody'}`;
+      resultsQuery.textContent = `Filtrowanie: ${parts.join(' · ') || 'wszystkie zawody'}`;
     } else if (cat) {
       results = CareerSearch.searchByCategory(cat);
       const catName = CATEGORY_NAMES[cat] || cat;
-      const name = localStorage.getItem('kr-name');
-      resultsQuery.textContent = name
-        ? `${name}, oto zawody z kategorii ${catName}`
-        : `Kategoria: ${catName}`;
+      resultsQuery.textContent = `Kategoria: ${catName}`;
     } else if (query) {
       results = CareerSearch.search(query);
-      const name = localStorage.getItem('kr-name');
-      resultsQuery.textContent = name
-        ? `${name}, oto wyniki dla: "${query}"`
-        : `Wyniki dla: "${query}"`;
+      resultsQuery.textContent = `Wyniki dla: "${query}"`;
     } else {
       results = { rich: [], simple: [] };
     }

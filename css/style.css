@@ -482,10 +482,6 @@ main {
   opacity: 0.65;
 }
 
-.search-box__name-row {
-  margin-bottom: 0.7rem;
-}
-
 .search-box__query-row {
   margin-bottom: 0.85rem;
 }
