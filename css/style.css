@@ -3187,3 +3187,5 @@ p.school-popup__caption { margin: 0.25rem 0 0.4rem; }
 }
 /* Okno osoby: przycisk zamknięcia nie nachodzi na imię */
 .person-popup__header { padding-right: 2.75rem; }
+
+.results__legend { margin: 1rem 0 0; font-size: 0.85rem; color: var(--kr-text-muted); }

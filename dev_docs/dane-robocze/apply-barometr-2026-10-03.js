@@ -9,18 +9,21 @@ const careers = JSON.parse(fs.readFileSync(file, 'utf8'));
 const bar = JSON.parse(fs.readFileSync(path.join(__dirname, 'wyniki', 'barometr-2026-10-03.json'), 'utf8'));
 const byId = new Map(bar.zawody.map(z => [z.id, z]));
 const MAP = { deficyt: 'deficytowy', 'równowaga': 'zrównoważony', 'nadwyżka': 'nadwyżkowy' };
+// Zawody, dla których grupa Barometru jest tylko zbliżona (Barometr ocenia grupy, nie zawody): na stronie mówimy to wprost
+const CLOSE = new Set(['technik-weterynarii', 'projektant-ux', 'specjalista-cyberbezpieczenstwa', 'devops-engineer', 'data-scientist', 'ksiegowy']);
 let changed = 0, removed = 0;
 for (const c of careers) {
   const z = byId.get(c.id);
   if (!z) continue;
   const nat = MAP[z.klasyfikacja];
   const pom = MAP[z.klasyfikacjaPomorskie];
-  delete c.demandPomorskie;
+  delete c.demandPomorskie; delete c.demandApprox;
   if (nat) {
     if (c.demand !== nat) changed++;
     c.demand = nat;
     c.demandGroup = z.nazwaWBarometrze;
     if (pom && pom !== nat) c.demandPomorskie = pom;
+    if (CLOSE.has(c.id)) c.demandApprox = true;
   } else {
     if (c.demand) removed++;
     delete c.demand; delete c.demandGroup;

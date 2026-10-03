@@ -404,6 +404,14 @@
       : 'To oferty, a nie wypłaty wszystkich pracowników, dlatego mogą się różnić od danych GUS powyżej.';
     return `<p class="career-hero__note career-hero__note--market"><strong>Rynek ofert, ${escapeHtml(m.year)}:</strong> w rekrutacjach agencji Hays Poland dla średnich i dużych firm na role w tym zawodzie${roles} oferowano, zależnie od roli i doświadczenia (od juniora do seniora), od ${fmtZl100(m.min)} do ${fmtZl100(m.max)} brutto miesięcznie. ${cmp}${src}</p>`;
   }
+  // Wyjaśnienie etykiety zapotrzebowania widoczne na stronie (dymek title nie działa na telefonie)
+  function demandNoteHtml(c) {
+    if (!c.demand) return '';
+    const group = c.demandGroup ? `, grupa „${escapeHtml(c.demandGroup)}”` : '';
+    const approx = c.demandApprox ? ' Barometr ocenia grupy zawodów, a ta grupa jest tylko zbliżona do tego zawodu.' : '';
+    const pom = c.demandPomorskie ? ` W województwie pomorskim: ${escapeHtml(c.demandPomorskie)}.` : '';
+    return `<p class="career-hero__note"><strong>${escapeHtml(DEMAND_SHORT[c.demand] || c.demand)}.</strong> ${escapeHtml(DEMAND_LABELS[c.demand] || '')}. Według Barometru Zawodów 2026 dla całej Polski${group}.${approx}${pom}</p>`;
+  }
   function salaryNoteHtml(c) {
     const market = salaryMarketHtml(c);
     if (!c.salary) return (c.salaryNote ? `<p class="career-hero__note">${escapeHtml(c.salaryNote)}</p>` : '') + market;
@@ -993,6 +1001,7 @@
           ${salaryText ? `<span class="result-card__badge result-card__badge--salary">${salaryText}</span>` : ''}
           ${c.demand ? `<span class="result-card__badge ${demandClass}"${demandTitle}>${escapeHtml(DEMAND_SHORT[c.demand] || c.demand)}</span>` : ''}
         </div>
+        ${demandNoteHtml(c)}
         ${salaryNoteHtml(c)}
         ${c.fullDescription ? `<p class="career-hero__desc">${escapeHtml(c.fullDescription)}</p>` : (c.shortDescription ? `<p class="career-hero__desc">${escapeHtml(c.shortDescription)}</p>` : '')}
       </div>
@@ -1256,7 +1265,7 @@
     const sourceHtml = person.sourceUrl
       ? `<a href="${escapeAttr(person.sourceUrl)}" target="_blank" rel="noopener" class="person-popup__source">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          ${/google\./i.test(person.sourceUrl) ? 'Szukaj w Google' : 'Źródło'}
+          ${/google\./i.test(person.sourceUrl) ? 'Szukaj w Google' : /\ben\.wikipedia\.org/i.test(person.sourceUrl) ? 'Źródło (Wikipedia, po angielsku)' : /\bpl\.wikipedia\.org/i.test(person.sourceUrl) ? 'Źródło (Wikipedia)' : 'Źródło'}
         </a>`
       : '';
 

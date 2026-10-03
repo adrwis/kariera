@@ -29,7 +29,7 @@ for (const c of careers) {
   const d = byId.get(c.id);
   if (MARKET.includes(c.id) && d && d.haysMin && d.haysMid && d.haysMax) {
     const roles = [...new Set((d.rolaRdzeniowa || []).map(r => r.replace(/\s*\(s\. \d+\)$/, '')))].slice(0, 3);
-    c.salaryMarket = { min: d.haysMin, typical: d.haysMid, max: d.haysMax, roles, year: 2025, sourceName: 'Hays Poland, Raport płacowy 2026', sourceUrl: 'https://www.hays.pl' };
+    c.salaryMarket = { min: d.haysMin, typical: d.haysMid, max: d.haysMax, roles, year: 2025, sourceName: 'Hays Poland, Raport płacowy 2026', sourceUrl: 'https://www.hays.pl/raport-placowy' };
     market++;
   }
   if (c.salary) { delete c.salary.caveat; if (CAVEAT[c.id]) { c.salary.caveat = CAVEAT[c.id]; caveats++; } }
