@@ -130,8 +130,10 @@ server.listen(0, async () => {
 
     console.log(`\n${passed} passed, ${failed} failed`);
     console.log('JS errors:', errors.length ? errors.join('; ') : 'NONE');
+    if (failed || errors.length) process.exitCode = 1;
   } catch (e) {
     console.error('FAIL:', e.message);
+    process.exitCode = 1;
     console.log('JS errors:', errors.length ? errors.join('; ') : 'NONE');
   }
 

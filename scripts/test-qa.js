@@ -93,9 +93,11 @@ server.listen(0, async () => {
     console.log('PASS: Manifest =', manifestLink);
 
     console.log('\nJS errors:', errors.length ? errors.join('; ') : 'NONE');
-    console.log('\n=== ALL TESTS PASSED ===');
+    if (errors.length) process.exitCode = 1;
+    else console.log('\n=== ALL TESTS PASSED ===');
   } catch (e) {
     console.error('FAIL:', e.message);
+    process.exitCode = 1;
   }
 
   await browser.close();
