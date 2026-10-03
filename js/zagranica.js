@@ -29,6 +29,8 @@ const Zagranica = (function () {
   async function loadCity(slug) { return cityCache[slug] || (cityCache[slug] = await getJson(`data/zagranica/${encodeURIComponent(slug)}.json`)); }
 
   let renderSeq = 0;
+
+  let pendingFocus = '';
   const isUrl = u => typeof u === 'string' && /^https?:\/\//i.test(u);
   const link = (u, label) => (isUrl(u) ? `<a href="${attr(u)}" target="_blank" rel="noopener">${esc(label)}</a>` : '');
 
@@ -74,7 +76,8 @@ const Zagranica = (function () {
       : (p.tuitionEu ? ['Opłaty dla obywateli UE', p.tuitionEu] : null);
     const rows = [
       fee ? `<div><dt>${esc(fee[0])}</dt><dd>${esc(fee[1])}${p.tuitionUrl ? ' ' + link(p.tuitionUrl, 'źródło') : ''}</dd></div>` : '',
-      p.deadline ? `<div><dt>Termin</dt><dd>${esc(p.deadline)}</dd></div>` : '',
+      fee ? '' : `<div><dt>${city.eu === false ? 'Opłaty dla zagranicznych' : 'Opłaty dla obywateli UE'}</dt><dd class="zagr__missing">Brak potwierdzonych danych, sprawdź na stronie uczelni.</dd></div>`,
+      `<div><dt>Termin</dt><dd${p.deadline ? '' : ' class="zagr__missing"'}>${p.deadline ? esc(p.deadline) : 'Brak potwierdzonego terminu, sprawdź na stronie uczelni.'}</dd></div>`,
     ].join('');
     const detailRows = [
       p.matura ? `<div><dt>Polska matura</dt><dd>${esc(p.matura)}</dd></div>` : '',
@@ -109,7 +112,6 @@ const Zagranica = (function () {
       <section class="zagr__city" aria-label="${attr(city.name)}">
         <h2 class="career-column__title">${esc(city.name)}, ${esc(city.country)}</h2>
         <p class="szkola__muted">Dane z oficjalnych stron uczelni i portali krajowych, pobrane ${esc(city.retrieved || '')}. Rok akademicki jest przy każdym programie. Zawsze sprawdź aktualne warunki na stronie uczelni, bo terminy i opłaty się zmieniają.</p>
-        ${summary}
         ${sources.length ? `<details class="zagr__details"><summary>Źródła ogólne</summary><ul class="szkoly__mini">${sources.map(s => `<li>${link(s.url, s.url.replace(/^https?:\/\/(www\.)?/, '').slice(0, 70))}${s.note ? ` <span class="szkola__muted">${esc(s.note)}</span>` : ''}</li>`).join('')}</ul></details>` : ''}
         <form class="zagr__filters" id="zagrFilters" novalidate>
           <label class="szkoly__field kalk__field"><span class="szkoly__legend">Zawód</span>
@@ -117,11 +119,12 @@ const Zagranica = (function () {
           <label class="szkoly__chip szkoly__chip--solo"><input type="checkbox" name="ang" value="1"${f.ang ? ' checked' : ''}> Tylko po angielsku</label>
         </form>
         <p class="results__count" id="zagrCount" aria-live="polite">Pokazano ${shown} z ${total} programów.</p>
+        ${summary ? `<details class="zagr__details zagr__overview"><summary>Matura, opłaty i terminy w skrócie (cały kraj lub miasto)</summary>${summary}</details>` : ''}
         ${unis.length ? unis.map(u => `
           <section class="zagr__uni">
             <h3 class="career-column__subtitle">${isUrl(u.url) ? link(u.url, u.name) : esc(u.name)}${u.type ? ` <span class="szkola__muted">(${esc(u.type)})</span>` : ''}</h3>
             <ul class="szkola__profiles">${u.programs.map(p => programHtml(p, city)).join('')}</ul>
-          </section>`).join('') : '<p class="career-column__empty">Żaden program w tym mieście nie pasuje do wybranych filtrów.</p>'}
+          </section>`).join('') : '<p class="career-column__empty">Żaden program w tym mieście nie pasuje do wybranych filtrów. <a href="' + ctx.BASE + '/zagranica?miasto=' + attr(city.slug) + '">Wyczyść filtry</a></p>'}
         <p class="zagr__ask">${ctx.feedbackButton('kierunek-zagranica', 'Brakuje kierunku albo uczelni w tym mieście? Daj znać', city.name)}</p>
         ${city.gaps.length ? `<details class="zagr__details zagr__gaps"><summary>Czego nie udało się potwierdzić (${city.gaps.length})</summary><ul>${city.gaps.map(g => `<li>${esc(g)}</li>`).join('')}</ul></details>` : ''}
       </section>`;
@@ -156,7 +159,8 @@ const Zagranica = (function () {
         ${tabs('studia')}
         <div id="zagrBody"><p class="szkoly__loading">Wczytuję miasta…</p></div>
       </div>`;
-    focusHeading(container);
+    const refocus = pendingFocus; pendingFocus = '';
+    if (!refocus) focusHeading(container);
     const body = container.querySelector('#zagrBody');
     let cities;
     try { cities = await loadIndex(); } catch (e) { if (my === renderSeq) body.innerHTML = '<p class="career-column__empty">Nie udało się wczytać listy miast. Sprawdź połączenie i odśwież stronę.</p>'; return; }
@@ -175,16 +179,17 @@ const Zagranica = (function () {
       body.innerHTML = html + cityHtml(city, f);
     }
     bind(container, f);
+    if (refocus) { const el = container.querySelector(refocus); if (el) el.focus({ preventScroll: true }); else focusHeading(container); }
   }
 
   // Zmiana miasta i filtrów przenosi na nowy adres (bez dokładania kroków do Wstecz)
   function bind(container, f) {
-    const go = p => { history.replaceState(null, '', `${ctx.BASE}/zagranica${queryFrom(p)}`); dispatchEvent(new PopStateEvent('popstate')); };
+    const go = (p, focusSel) => { pendingFocus = focusSel || ''; history.replaceState(null, '', `${ctx.BASE}/zagranica${queryFrom(p)}`); dispatchEvent(new PopStateEvent('popstate')); };
     const city = container.querySelector('#zagrCity');
-    if (city) city.addEventListener('change', () => go({ miasto: city.value }));
+    if (city) city.addEventListener('change', () => go({ miasto: city.value }, '#zagrCity'));
     const form = container.querySelector('#zagrFilters');
     if (form) form.addEventListener('change', () => {
-      go({ miasto: f.miasto, kierunek: form.elements.kierunek.value, ang: form.elements.ang.checked });
+      go({ miasto: f.miasto, kierunek: form.elements.kierunek.value, ang: form.elements.ang.checked }, '#' + (document.activeElement && document.activeElement.form === form ? 'zagrFilters [name="' + document.activeElement.name + '"]' : 'zagrFilters select'));
     });
   }
 

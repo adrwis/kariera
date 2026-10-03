@@ -62,14 +62,15 @@ const Feedback = (function () {
           <label class="feedback-field"><span>Czego dotyczy?</span>
             <select name="typ">${TYPES.map(([v, l]) => `<option value="${v}">${esc(l)}</option>`).join('')}</select></label>
           <label class="feedback-field"><span>Co mamy dodać albo poprawić?</span>
-            <textarea name="opis" rows="4" maxlength="${MAX_LEN}" required placeholder="np. studia w Oslo, zawód: weterynarz koni, Liceum nr 5 w Gdyni"></textarea>
+            <textarea name="opis" rows="4" maxlength="${MAX_LEN}" required aria-describedby="fbErr" placeholder="np. studia w Oslo, zawód: weterynarz koni, Liceum nr 5 w Gdyni"></textarea>
             <small class="feedback-err" id="fbErr" hidden></small></label>
           <div class="feedback-field feedback-hp" aria-hidden="true"><label>Nie wypełniaj tego pola<input type="text" name="www" tabindex="-1" autocomplete="off"></label></div>
           <label class="feedback-field"><span>Twój e-mail (nieobowiązkowy)</span>
             <input type="email" name="email" autocomplete="email" placeholder="np. imie@poczta.pl"></label>
           <label class="feedback-consent" id="fbConsentRow" hidden><input type="checkbox" name="zgoda">
-            <span>Zgadzam się, żeby autorka strony użyła mojego adresu e-mail tylko po to, by napisać mi, że dane zostały dodane. Po wysłaniu tej wiadomości adres zostanie usunięty.</span></label>
-          <p class="feedback-small">Nie wpisuj w treści imienia, nazwiska ani innych danych osobowych. E-mail jest dobrowolny: jeśli go zostawisz, dostaniesz wiadomość, gdy dodamy to, o co prosisz. Osoby poniżej 16 lat niech zostawią to pole puste albo poproszą o wpisanie e-maila rodzica lub opiekuna.</p>
+            <span>Mam co najmniej 16 lat i zgadzam się, żeby autorka strony użyła mojego adresu e-mail tylko po to, by napisać mi, że dane zostały dodane.</span></label>
+          <p class="feedback-small">Nie wpisuj w treści imienia, nazwiska ani innych danych osobowych. E-mail jest dobrowolny i służy tylko do jednej wiadomości, że dodaliśmy to, o co prosisz. Jeśli masz mniej niż 16 lat, zostaw to pole puste: zgłoszenie bez e-maila też do nas dotrze.</p>
+          <p class="feedback-small"><strong>Informacja o danych.</strong> Administratorką danych jest autorka strony NextMove. Treść zgłoszenia i adres strony zbieramy po to, żeby uzupełniać stronę. E-mail, jeśli go podasz, przetwarzamy na podstawie Twojej zgody (art. 6 ust. 1 lit. a RODO) wyłącznie w celu napisania do Ciebie i usuwamy go po wysłaniu tej wiadomości, a najpóźniej po 90 dniach. Zgodę możesz cofnąć w każdej chwili, odpisując na naszą wiadomość.</p>
           <p class="feedback-status" id="fbStatus" role="status" aria-live="polite"></p>
           <div class="feedback-actions"><button type="submit" class="feedback-send">Wyślij zgłoszenie</button>
             <button type="button" class="feedback-cancel">Anuluj</button></div>
@@ -77,6 +78,7 @@ const Feedback = (function () {
       </div>`;
     document.body.appendChild(el);
     el.addEventListener('click', e => { if (e.target === el || e.target.closest('.feedback-close, .feedback-cancel')) close(); });
+    window.addEventListener('popstate', () => { if (modal && !modal.hidden) close(); });
     el.addEventListener('keydown', e => {
       if (e.key === 'Escape') { e.stopPropagation(); close(); }
       if (e.key === 'Tab') trap(e, el);
@@ -86,6 +88,11 @@ const Feedback = (function () {
     email.addEventListener('input', () => { el.querySelector('#fbConsentRow').hidden = !email.value.trim(); });
     form.addEventListener('submit', e => { e.preventDefault(); submit(form); });
     return el;
+  }
+
+  // Tło jest nieaktywne dla czytników i klawiatury, dopóki okienko jest otwarte
+  function setBackgroundInert(on) {
+    [...document.body.children].forEach(el => { if (el !== modal && el.tagName !== 'SCRIPT') el.inert = on; });
   }
 
   function trap(e, root) {
@@ -110,6 +117,7 @@ const Feedback = (function () {
     if (TYPES.some(([v]) => v === type)) form.elements.typ.value = type;
     modal.dataset.context = context || '';
     modal.hidden = false;
+    setBackgroundInert(true);
     document.body.classList.add('feedback-open');
     modal.querySelector('.feedback-dialog').focus();
     form.elements.opis.focus();
@@ -118,6 +126,7 @@ const Feedback = (function () {
   function close() {
     if (!modal) return;
     modal.hidden = true;
+    setBackgroundInert(false);
     document.body.classList.remove('feedback-open');
     if (opener && opener.isConnected) opener.focus();
     opener = null;
@@ -126,11 +135,13 @@ const Feedback = (function () {
   function fail(msg) {
     const err = modal.querySelector('#fbErr');
     err.textContent = msg; err.hidden = false;
+    modal.querySelector('textarea[name=opis]').setAttribute('aria-invalid', 'true');
   }
 
   async function submit(form) {
     const status = modal.querySelector('#fbStatus');
     modal.querySelector('#fbErr').hidden = true;
+    form.elements.opis.removeAttribute('aria-invalid');
     if (form.elements.www.value) { close(); return; } // pole-pułapka dla botów
     const opis = form.elements.opis.value.trim();
     const email = form.elements.email.value.trim();
@@ -154,13 +165,15 @@ const Feedback = (function () {
     status.textContent = 'Wysyłam…';
     try {
       // Formularz Google nie zwraca odpowiedzi czytelnej dla przeglądarki (no-cors), więc sukcesem jest brak błędu sieci
-      await fetch(cfg.formResponseUrl, { method: 'POST', mode: 'no-cors', body: fd });
+      const ctl = new AbortController();
+      const timer = setTimeout(() => ctl.abort(), 10000);
+      try { await fetch(cfg.formResponseUrl, { method: 'POST', mode: 'no-cors', body: fd, signal: ctl.signal }); } finally { clearTimeout(timer); }
       try { localStorage.setItem('kr-feedback-last', String(Date.now())); } catch (e) { /* ignoruj */ }
       form.hidden = true;
       status.innerHTML = '';
       const done = document.createElement('div');
       done.className = 'feedback-done';
-      done.innerHTML = `<p><strong>Dziękujemy!</strong> Zgłoszenie dotarło.${email ? ' Napiszemy do Ciebie, gdy dodamy to, o co prosisz.' : ''}</p><button type="button" class="feedback-cancel feedback-send">Zamknij</button>`;
+      done.innerHTML = `<p><strong>Dziękujemy!</strong> Zgłoszenie zostało wysłane.${email ? ' Napiszemy do Ciebie, gdy dodamy to, o co prosisz.' : ''}</p><button type="button" class="feedback-cancel feedback-send">Zamknij</button>`;
       const old = modal.querySelector('.feedback-done'); if (old) old.remove();
       modal.querySelector('.feedback-dialog').appendChild(done);
       done.querySelector('button').addEventListener('click', () => { done.remove(); close(); });

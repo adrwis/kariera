@@ -3264,3 +3264,15 @@ body.feedback-on .feedback-trigger { display: inline-flex; }
 body.feedback-open { overflow: hidden; }
 @media (max-width: 480px) { .feedback-overlay { padding: 0.75rem; } .feedback-dialog { padding: 1.5rem 1.25rem; } .feedback-actions > button { flex: 1; } }
 @media (prefers-reduced-motion: reduce) { .feedback-overlay, .feedback-dialog { animation: none; } }
+
+/* Poprawki po przeglądzie: zawijanie długich terminów, cele dotykowe, brak danych, wygląd okienka na telefonie */
+.zagr .szkola__dl dd { overflow-wrap: anywhere; min-width: 0; }
+.zagr__missing { color: var(--kr-text-muted); font-style: italic; }
+.zagr__links a, .zagr__details > summary, .zagr__uni .career-column__subtitle a { min-height: 44px; display: inline-flex; align-items: center; }
+.zagr__links a { min-height: 44px; }
+.zagr__details > summary { display: flex; cursor: pointer; }
+.szkola__dl dd a[target="_blank"] { display: inline-block; padding: 0.7rem 0.4rem; margin: -0.7rem 0; }
+.zagr__overview { margin: 0.5rem 0 1rem; }
+.feedback-actions { position: sticky; bottom: -2rem; padding: 0.75rem 0 0; margin-top: 0.25rem; background: var(--kr-card-bg); }
+@media (max-width: 480px) { .feedback-actions { bottom: -1.5rem; } }
+.feedback-field textarea[aria-invalid="true"] { border-color: var(--kr-demand-deficit); }

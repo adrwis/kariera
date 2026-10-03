@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "node scripts/build.js",
-    "test": "node scripts/test-unit.js && node scripts/test-static.js && node scripts/test-qa.js && node scripts/test-history-api.js && node scripts/test-accordion.js && node scripts/test-szkoly.js && node scripts/test-feedback.js"
+    "test": "node scripts/test-unit.js && node scripts/test-static.js && node scripts/test-qa.js && node scripts/test-history-api.js && node scripts/test-accordion.js && node scripts/test-szkoly.js && node scripts/test-feedback.js && node scripts/test-zagranica.js"
   },
   "devDependencies": {
     "esbuild": "0.25.12",

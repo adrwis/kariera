@@ -1,0 +1,218 @@
+[
+  {
+    "area": "UX/dostępność",
+    "file": "js/zagranica.js",
+    "line": 182,
+    "severity": "ważne",
+    "problem": "Zmiana filtra lub miasta wywołuje pełny re-render, a focusHeading przerzuca fokus na h1 (sprawdzone Playwrightem: activeElement = H1 po wyborze zawodu). Użytkownik klawiatury i czytnika ekranu traci miejsce na liście filtrów, a select i checkbox znikają z DOM.",
+    "proposedFix": "Przy zmianie filtrów nie wołać focusHeading (parametr noFocus przy renderze wywołanym z bind) i podmieniać tylko listę uczelni oraz licznik; po renderze przywrócić fokus na element o tym samym name/id."
+  },
+  {
+    "area": "Layout/mobile",
+    "file": "css/style.css",
+    "line": 3007,
+    "severity": "ważne",
+    "problem": "Poziomy przewijalny overflow na telefonie dla Londynu: scrollWidth 534 przy szerokości 390 (na desktopie 1295 przy 1280). Elementy dd z terminami UCAS (np. \"Wniosek przez UCAS do środy 13 stycznia 2027...\") wychodzą poza kolumnę, bo .szkola__dl dd jest display:inline bez zawijania długich tokenów.",
+    "proposedFix": "Dodać `.zagr__prog .szkola__dl dd, .zagr__summary dd { overflow-wrap: anywhere; min-width: 0 }` i `.zagr__prog { min-width: 0 }`; dodać do testu sprawdzenie scrollWidth <= clientWidth dla wszystkich miast na 390 px."
+  },
+  {
+    "area": "UX/treść",
+    "file": "js/zagranica.js",
+    "line": 64,
+    "severity": "ważne",
+    "problem": "Karta programu na telefonie ma średnio 650 px (maks. 705 px) wysokości, strona Wiednia 12 800 px, a 16 kart mieści się bez żadnego wskazania, które są po angielsku. Nastolatek ma wall of text: terminy, opłaty i matura w pełnych zdaniach po 300-500 znaków, a ponad 479 pól ma ponad 300 znaków.",
+    "proposedFix": "Pokazywać na karcie 3 skrótowe wiersze (cena, termin, matura: tak/nie/z warunkami), resztę zwijać w details; dodać pole shortDeadline/shortFee w danych albo przycinać do pierwszego zdania z \"Pokaż więcej\"; rozważyć zwijanie uczelni (details per uczelnia)."
+  },
+  {
+    "area": "UX/treść",
+    "file": "js/zagranica.js",
+    "line": 98,
+    "severity": "ważne",
+    "problem": "Filtry (zawód, po angielsku) są poniżej akapitu o dacie pobrania, bloku summary (do 3 kB tekstu, 6 pozycji) i źródeł. Na 390 px pierwszy ekran po wyborze Wiednia to sam tekst o maturze, bez programów i bez filtrów. Najważniejsze (programy) jest daleko.",
+    "proposedFix": "Przenieść filtry i licznik pod nagłówek miasta, a summary i źródła ogólne zwinąć do details \"Ogólne zasady przyjęcia w Austrii\" po liście uczelni lub z jednozdaniowym skrótem na górze."
+  },
+  {
+    "area": "Dane/treść",
+    "file": "js/zagranica.js",
+    "line": 85,
+    "severity": "ważne",
+    "problem": "Do użytkownika trafia żargon pipeline danych w polu notes i gaps: \"patrz sourceUrl dowodu językowego\", \"kwoty nie pobrano\", \"nie została pobrana\", \"niepotwierdzony\" (6x). Dla 15-latka to niezrozumiałe i brzmi jak błąd. 267 pozycji gaps w \"Czego nie udało się potwierdzić\" jest na dole, a nie przy programie, którego dotyczą.",
+    "proposedFix": "Wyczyścić dane (test-static: zakaz słów sourceUrl, pobrano, pobrana, niepotwierdzon w notes/gaps); w UI dla brakującego pola pokazywać jawnie \"brak danych, sprawdź na stronie uczelni\" z linkiem, zamiast pomijać wiersz."
+  },
+  {
+    "area": "UX/komunikaty o brakach",
+    "file": "js/zagranica.js",
+    "line": 76,
+    "severity": "ważne",
+    "problem": "Brakujące dane są po prostu pomijane (deadline null w 40 z 399 programów, tuitionEu 19, matura 8, durationYears 44, selective 31): karta bez terminu wygląda jak karta bez terminu, a nie jak \"nie wiemy\". Komunikat \"sprawdź na stronie uczelni\" jest tylko jednym akapitem przy mieście i zniknie po przewinięciu.",
+    "proposedFix": "Dla pól kluczowych (opłaty, termin, matura) renderować \"Brak danych, sprawdź na stronie uczelni\" z linkiem; dodać przy każdej karcie stały jednowierszowy dopisek \"Dane z <data>, sprawdź na stronie uczelni\" przy linku \"Strona programu\"."
+  },
+  {
+    "area": "Dostępność",
+    "file": "css/style.css",
+    "line": 3211,
+    "severity": "ważne",
+    "problem": "Cele dotykowe poniżej 44 px: 87 elementów na widoku Wiednia (linki \"źródło\" 40x16, nazwy uczelni 16 px, summary 32 px, .zagr__links a 32 px, \"← Strona główna\" 24 px). Dotyczy użytkowników głównie na telefonach.",
+    "proposedFix": "Dla .zagr__links a, .zagr__details summary, linków w h3 uczelni i \"źródło\" dać `min-height:44px; display:inline-flex; align-items:center` lub padding 0.6rem 0; link \"źródło\" zamienić na osobny wiersz/przycisk."
+  },
+  {
+    "area": "Dostępność",
+    "file": "js/zagranica.js",
+    "line": 39,
+    "severity": "drobne",
+    "problem": "Zakładka \"Koszty życia i akademiki\" z plakietką \"wkrótce\" jest pełnoprawnym linkiem aria-current i ma własną stronę, indeksowaną w sitemap, z samym komunikatem \"pracujemy nad tą zakładką\". Pusta strona w indeksie Google (thin content) i martwy przycisk dla nastolatka na pierwszym ekranie.",
+    "proposedFix": "Albo ukryć zakładkę do czasu danych, albo dać noindex na zagranica/koszty/ i usunąć ją z sitemap; plakietkę \"wkrótce\" opisać też dla czytnika (aria-label \"wkrótce, w przygotowaniu\")."
+  },
+  {
+    "area": "Routing/history",
+    "file": "js/zagranica.js",
+    "line": 182,
+    "severity": "ważne",
+    "problem": "go() używa replaceState + sztuczny PopStateEvent, więc popstate-handler z app.js (m.in. zamykanie okienka uczelni, scroll restore z isPopstate=false) jest wykonywany bez prawdziwej zmiany historii. Zmiana miasta w select nie dodaje wpisu do historii, a kliknięcie karty dodaje (pushState), co jest niespójne: Wstecz z Berlina po zmianie w select wraca do /zagranica, a nie do poprzedniego miasta (sprawdzone). Sztuczny PopStateEvent ma state=null i przechodzi przez handler, który zamyka okienko uczelni, jeśli jest otwarte.",
+    "proposedFix": "Wyeksportować z app.js funkcję navigate (np. ctx.navigate) i wywoływać ją po history.replaceState/pushState zamiast dispatchEvent(new PopStateEvent). Zdecydować jedną politykę: pushState dla zmiany miasta, replaceState dla filtrów."
+  },
+  {
+    "area": "Logika",
+    "file": "js/zagranica.js",
+    "line": 149,
+    "severity": "drobne",
+    "problem": "Nieznany parametr kierunek (np. ?kierunek=nieistnieje) daje pusty select (value=\"\") i komunikat \"Żaden program nie pasuje do filtrów\" bez przycisku wyczyszczenia filtrów; użytkownik nie widzi, który filtr działa. To samo, gdy filtr dotyczy zawodu, którego nie ma w tym mieście (po zmianie miasta filtr kierunek jest gubiony, bo go() przekazuje tylko miasto: to poprawne, ale nieudokumentowane).",
+    "proposedFix": "Przy pustym wyniku dodać przycisk \"Wyczyść filtry\"; znormalizować f.kierunek do wartości z careerIds, odrzucając nieznane."
+  },
+  {
+    "area": "Sieć/błędy",
+    "file": "js/zagranica.js",
+    "line": 173,
+    "severity": "drobne",
+    "problem": "Komunikaty o błędzie sieci nie mają przycisku ponowienia (\"Spróbuj ponownie\" bez akcji), nie mają role=alert i po błędzie indeksu nie ma opcji bez odświeżania. Brak timeoutu na fetch (na słabym zasięgu wieczne \"Wczytuję…\"). Brak skeleton/loadera z aria-live.",
+    "proposedFix": "Dodać przycisk \"Spróbuj ponownie\" (wywołuje render), role=\"alert\" na komunikacie, AbortController z timeoutem 10-15 s."
+  },
+  {
+    "area": "Wydajność",
+    "file": "js/zagranica.js",
+    "line": 29,
+    "severity": "drobne",
+    "problem": "Każde miasto to plik 14-60 kB (razem 1,0 MB, 27 plików), ładowany bez prefetchu i bez minifikacji (JSON z wcięciami), brak kompresji w build.js (careers.min.json jest, dla zagranica nie ma). Zmiana filtra przebudowuje cały DOM (do 22 kart).",
+    "proposedFix": "W build.js generować zminifikowane data/zagranica/*.min.json (JSON.stringify bez wcięć, ok. -20 do -30%); filtrować przez toggle hidden zamiast re-renderu."
+  },
+  {
+    "area": "PWA/SW",
+    "file": "sw.js",
+    "line": 13,
+    "severity": "drobne",
+    "problem": "APP_SHELL zawiera data/szkoly/index.json, ale nie data/zagranica/index.json ani feedback.json; wizyta offline po pierwszym wejściu na /zagranica działa tylko dla miast już otwartych (network-first zapisuje dopiero po pobraniu). CACHE_NAME nextmove-v10 trzeba podbijać przy zmianie listy plików. Sam SW jest poprawny: zagranica.min.js i feedback.min.js są w shellu, a build zgadza się ze źródłem (min zgodne z esbuild).",
+    "proposedFix": "Dodać /kariera/data/zagranica/index.json do APP_SHELL i podbić CACHE_NAME; opcjonalnie lazy-precache miasta po pierwszym wejściu."
+  },
+  {
+    "area": "SEO",
+    "file": "scripts/build.js",
+    "line": 82,
+    "severity": "ważne",
+    "problem": "Treść miast jest renderowana tylko w JS (?miasto=...), a canonical zawsze wskazuje /zagranica/ (updateMeta w zagranica.js:150 nie zmienia title ani description per miasto). Brak indeksowalnych stron per miasto, mimo 27 stron z unikalną treścią (frazy \"studia w Wiedniu po polsku\"). Statyczny noscript ma tylko jedno zdanie.",
+    "proposedFix": "Generować w build.js statyczne strony zagranica/<slug>/ z własnym title/description/canonical i sitemap (zachować ?miasto jako przekierowanie klienckie); w updateMeta ustawiać title \"Studia w <miasto> | NextMove\" przy ?miasto=."
+  },
+  {
+    "area": "SEO",
+    "file": "scripts/build.js",
+    "line": 83,
+    "severity": "drobne",
+    "problem": "Strona koszty ma w sitemap priority 0.7 i opis \"zakładka w przygotowaniu\", czyli thin content w indeksie.",
+    "proposedFix": "Dać noindex albo wyłączyć z sitemap do czasu wypełnienia."
+  },
+  {
+    "area": "Okienko/RODO",
+    "file": "js/feedback.js",
+    "line": 71,
+    "severity": "krytyczne",
+    "problem": "Okienko zbiera e-mail osób, które wg tekstu mogą mieć poniżej 16 lat (docelowa grupa to nastolatki), bez podania administratora danych, podstawy prawnej, okresu przechowywania i linku do polityki prywatności (art. 13 RODO). Zdanie \"Po wysłaniu tej wiadomości adres zostanie usunięty\" to obietnica, której strona nie może sama wykonać: dane leżą w arkuszu Google, a usunięcie jest ręczne. W Polsce zgoda dziecka poniżej 16 lat wymaga zgody rodzica (art. 8 RODO), a feedback.js:72 zachęca do wpisania cudzego e-maila rodzica, czyli zbierania danych osoby trzeciej bez jej wiedzy.",
+    "proposedFix": "Domyślnie nie pytać o e-mail (to opcja \"chcę odpowiedź\"), dodać stałą klauzulę informacyjną z linkiem do polityki, usunąć sugestię e-maila rodzica (zamiast tego: \"jeśli masz mniej niż 16 lat, poproś rodzica o zgłoszenie\"), ustalić ręczną procedurę kasowania z terminem (np. 30 dni) i faktycznie ją wykonywać; wyłączyć w formularzu Google zbieranie adresów i włączyć powiadomienia tylko dla właścicielki."
+  },
+  {
+    "area": "Okienko/spam",
+    "file": "js/feedback.js",
+    "line": 24,
+    "severity": "ważne",
+    "problem": "Ochrona przed spamem jest tylko po stronie klienta: honeypot i limit 30 s w localStorage są obchodzone jednym curlem na publiczny formResponseUrl (adres jest w data/feedback.json w repo). Formularz Google nie ma limitu zgłoszeń ani CAPTCHA, więc arkusz może zostać zalany lub zapełniony linkami i danymi osobowymi (wektor ataku na skrzynkę autorki, jeśli powiadomienia są włączone).",
+    "proposedFix": "Wyłączyć powiadomienia e-mail dla każdej odpowiedzi (zbiorczy digest), zapisywać w arkuszu filtr/walidację (np. regex długości), rozważyć pośrednika (Cloudflare Worker + Turnstile albo Apps Script z limitem po IP/dniu), a w formularzu Google użyć krótkiej odpowiedzi z walidacją zamiast akapitu."
+  },
+  {
+    "area": "Okienko/logika",
+    "file": "js/feedback.js",
+    "line": 157,
+    "severity": "ważne",
+    "problem": "Sukces jest zgłaszany po braku błędu sieci (mode no-cors): jeśli entry.* jest błędne, formularz wymaga logowania albo jest zamknięty, Google zwraca 4xx/redirect, a użytkownik widzi \"Zgłoszenie dotarło\". Brak jakiejkolwiek weryfikacji, a email i opis giną po cichu. Brak timeoutu: przy zawieszonym połączeniu przycisk pozostaje disabled na \"Wysyłam…\" bez wyjścia.",
+    "proposedFix": "Dodać AbortController z timeoutem 15 s i w komunikacie sukcesu pisać \"Wysłano\" bez gwarancji; przetestować raz na prawdziwym formularzu (przez właścicielkę) pod kątem entry.*; dodać przycisk \"Zamknij\" w stanie błędu."
+  },
+  {
+    "area": "Okienko/mapowanie",
+    "file": "js/feedback.js",
+    "line": 148,
+    "severity": "drobne",
+    "problem": "Mapowanie: typ w nawiasie przed opisem, strona i kontekst w uwagach. Działa przy trzech polach, ale utrudnia filtrowanie arkusza (typ jest wklejony w tekst, a \"Strona: /kariera/zagranica?miasto=wieden&kierunek=...\" zawiera pełne query). Wartości typu pochodzą z etykiet, więc zmiana etykiety w TYPES zmienia dane historyczne. Tekst kontekstu przekazywany z atrybutu data-feedback-context jest wpisywany bez przycinania.",
+    "proposedFix": "Dodać czwarte pole formularza \"typ\" z wartością z klucza (miasto, kierunek-zagranica, ...), uwagi składać jako JSON/krótkie klucze, przyciąć kontekst do 200 znaków."
+  },
+  {
+    "area": "Okienko/dostępność",
+    "file": "js/feedback.js",
+    "line": 57,
+    "severity": "ważne",
+    "problem": "role=dialog z aria-modal, ale tło nie jest inert (czytnik ekranu i Tab przez trap działa, ale rozmowy z VoiceOver mogą wychodzić poza okno); okienko nie zamyka się przy Wstecz/zmianie widoku (otwarte okienko + Wstecz zmienia stronę pod spodem, overlay zostaje przy SPA-nawigacji); pole www ma label widoczny dla czytnika mimo aria-hidden na rodzicu (aria-hidden z focusowalnym potomkiem, tabindex=-1 nie rozwiązuje) i ma 41 px; checkbox zgody ma 18 px (cel dotykowy jest cały label, więc ok). Błąd walidacji #fbErr jest wewnątrz label, a pola nie mają aria-invalid/aria-describedby; komunikaty o e-mailu i zgodzie idą do status, ale nie do pól.",
+    "proposedFix": "Ustawić inert na #main/header/footer podczas otwarcia, zamykać okienko w popstate, zastąpić aria-hidden na honeypocie atrybutem hidden/inert + display:none przez clip, dodać aria-invalid i aria-describedby do opis i email, przenieść fokus na komunikat błędu."
+  },
+  {
+    "area": "Okienko/UX",
+    "file": "js/feedback.js",
+    "line": 61,
+    "severity": "drobne",
+    "problem": "Na 390 px po wpisaniu e-maila okienko ma 796 z 844 px i przycisk \"Wyślij zgłoszenie\" jest poniżej widocznego ekranu; trzeba przewinąć dialog (lead + długi tekst małą czcionką 0.8rem + zgoda). Etykieta \"Czego dotyczy?\" jest wypełniona automatycznie z kontekstu, co jest dobre, ale tekst RODO jest drobny i długi. Placeholder ma opacity 0.65 (kontrast na granicy).",
+    "proposedFix": "Skrócić lead i notkę, przenieść przyciski do sticky stopki dialogu, podnieść kontrast placeholdera (opacity 0.8)."
+  },
+  {
+    "area": "Okienko/XSS",
+    "file": "js/feedback.js",
+    "line": 163,
+    "severity": "drobne",
+    "problem": "Brak podatności: opis i email idą FormData, a komunikat sukcesu zawiera tylko stały tekst. innerHTML w stopce jest bezpieczny. Zaznaczenie: data-feedback-context jest escapeAttr (OK).",
+    "proposedFix": "Bez zmian; dodać test, że context ze znakami < > \" nie psuje DOM."
+  },
+  {
+    "area": "Kod/XSS",
+    "file": "js/zagranica.js",
+    "line": 33,
+    "severity": "drobne",
+    "problem": "Dane z JSON są escapowane (esc/attr), linki ograniczone do http(s) przez isUrl; testy z ?miasto=<img onerror> i ?kierunek=\"><script> nie wstrzyknęły elementów. Zostaje target=_blank bez noreferrer (rel=\"noopener\" wystarcza w nowych przeglądarkach), a dane z zewnątrz są zaufane tylko dzięki repo.",
+    "proposedFix": "Bez zmian krytycznych; dodać rel=\"noopener noreferrer\" dla spójności prywatności nieletnich."
+  },
+  {
+    "area": "Kod/logika",
+    "file": "js/zagranica.js",
+    "line": 68,
+    "severity": "drobne",
+    "problem": "Odmiana \"rok/lata/lat\" jest błędna dla 1 (ok), 2-4 (lata), 5+ (lat), ale ułamki i 22 (22 lata) nie są obsługiwane; \"po niemieckim, angielskim\" brzmi nieporadnie; p.languages bez weryfikacji null (dziś wszystkie klucze istnieją, ale schemat nie jest walidowany).",
+    "proposedFix": "Funkcja plural(n) z regułami 2-4 poza 12-14; test-static ma walidować schemat programu (wymagane klucze, typy)."
+  },
+  {
+    "area": "Testy",
+    "file": "scripts/test-static.js",
+    "line": 74,
+    "severity": "ważne",
+    "problem": "Brak testu renderowania widoków zagranica: nie ma żadnego testu Playwright dla /zagranica, ?miasto=, filtrów (kierunek, ang), liczników \"Pokazano x z y\", błędu sieci, routingu koszty, history (Wstecz po zmianie miasta), fokusu na h1, braku overflow poziomego (Londyn go ma), XSS w parametrach, meta title/canonical na stronach statycznych, zawartości sitemap (27 + koszty), SW (zagranica.min.js w APP_SHELL, zgodność .min z źródłem).",
+    "proposedFix": "Dodać scripts/test-zagranica.js (Playwright jak test-feedback.js): przejść przez 27 miast na 390 px, sprawdzić scrollWidth, brak pageerror, jeden h1, filtry, błąd sieci (route abort), ?kierunek=nieistnieje, XSS; test-static: sprawdzenie sitemap/canonical/noscript dla zagranica i zagranica/koszty, zgodność min z build; dodać do npm test."
+  },
+  {
+    "area": "Testy",
+    "file": "scripts/test-feedback.js",
+    "line": 72,
+    "severity": "drobne",
+    "problem": "Test okienka nie obejmuje: honeypot (pole www), niepoprawny e-mail, błąd sieci (abort), przycisk Anuluj/X/klik w tło, trap Tab/Shift+Tab, tryb ciemny, wartości TYPES z mapowania pól (typ w opisie, strona w uwagach), długie wejście (>1000 znaków), brak localStorage (try/catch), enabled:true bez poprawnego formResponseUrl (np. nie-Google).",
+    "proposedFix": "Dodać przypadki wymienione wyżej; dla honeypota sprawdzić posts.length===0, dla błędu sieci komunikat i odblokowany przycisk."
+  },
+  {
+    "area": "Testy",
+    "file": "scripts/test-unit.js",
+    "line": 1,
+    "severity": "drobne",
+    "problem": "Brak testów jednostkowych dla czystych funkcji maturaChip, queryFrom, programHtml, plural lat, isUrl (wystawić je w obiekcie Zagranica lub testować przez evaluate).",
+    "proposedFix": "Wyeksportować funkcje pomocnicze (Zagranica._test) i dodać do test-unit."
+  }
+]

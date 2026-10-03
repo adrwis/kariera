@@ -9,6 +9,7 @@ const APP_SHELL = [
   '/kariera/js/szkoly.min.js',
   '/kariera/js/quiz.min.js',
   '/kariera/js/zagranica.min.js',
+  '/kariera/data/zagranica/index.json',
   '/kariera/js/feedback.min.js',
   '/kariera/data/szkoly/index.json',
   '/kariera/js/animations.min.js',
