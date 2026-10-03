@@ -1,4 +1,4 @@
-// Testy statycznych stron i plików wdrożenia (wynik `npm run build`): meta każdej strony zawodu, sitemap, pliki z sw.js.
+// Testy statycznych stron i plików wdrożenia (wynik `npm run build`): meta każdej strony zawodu, ukrycie przed wyszukiwarkami, pliki z sw.js.
 const fs = require('fs');
 const path = require('path');
 
@@ -28,12 +28,14 @@ for (const c of careers) {
 check(`każdy z ${careers.length} zawodów ma stronę z własnym tytułem i canonical`, !bad.length, bad.slice(0, 3).join('; '));
 for (const p of ['quiz', 'kalkulator', 'szkoly']) check(`strona ${p}/ istnieje`, fs.existsSync(path.join(ROOT, p, 'index.html')));
 
-console.log('\n=== Sitemap ===');
-const sitemap = read('sitemap.xml');
-const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1].replace('https://adrwis.github.io/kariera/', ''));
-const missing = urls.filter(u => u && !fs.existsSync(path.join(ROOT, u, 'index.html')));
-check(`wszystkie ${urls.length} adresów z sitemap ma plik na dysku`, !missing.length, missing.slice(0, 3).join(', '));
-check('sitemap nie zawiera adresów z parametrami', !urls.some(u => u.includes('?')));
+console.log('\n=== Ukrycie strony (tylko dla osób z adresem) ===');
+check('brak sitemap.xml', !fs.existsSync(path.join(ROOT, 'sitemap.xml')));
+check('robots.txt nie wskazuje mapy strony', !/sitemap/i.test(read('robots.txt')));
+const staticHtml = ['index.html', '404.html', ...fs.readdirSync(ROOT).filter(d => fs.existsSync(path.join(ROOT, d, 'index.html')) && d !== 'node_modules').map(d => d + '/index.html')];
+const zawodDir = path.join(ROOT, 'zawod');
+if (fs.existsSync(zawodDir)) fs.readdirSync(zawodDir).forEach(d => staticHtml.push(`zawod/${d}/index.html`));
+const open = staticHtml.filter(f => fs.existsSync(path.join(ROOT, f)) && !/<meta name="robots" content="noindex, nofollow/.test(read(f)));
+check(`każda z ${staticHtml.length} stron ma noindex`, !open.length, open.slice(0, 3).join(', '));
 
 console.log('\n=== Service worker i wdrożenie ===');
 const sw = read('sw.js');

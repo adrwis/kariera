@@ -1,0 +1,371 @@
+[
+  {
+    "city": "Praga",
+    "program": "Architektura a urbanismus (FA ČVUT, bakalářský)",
+    "field": "admission.polishMatura (matura)",
+    "severity": "krytyczne",
+    "problem": "Etykieta „wymaga dodatkowego etapu (nostryfikacja albo uznanie przez Rektorat ČVUT)” jest sprzeczna z warunkami FA na 2027/28. Art. 8 wprost uznaje poświadczoną kopię polskiego świadectwa z tłumaczeniem urzędowym. Nostryfikacja jest tylko jedną z kilku opcji. Maturzysta mógłby zrezygnować z kierunku z powodu nieprawdziwej bariery.",
+    "evidence": "Art. 8 warunków FA 2027/28: „Ověřená kopie maturitního vysvědčení ze střední školy v Německu, Polsku, Slovinsku nebo Maďarsku spolu s úředním překladem vysvědčení do českého, slovenského nebo anglického jazyka.” (https://www.fa.cvut.cz/uchazeci/prijimaci-rizeni/prijimaci-rizeni/2027-28/fa_sd_2026_03_v01_vr.pdf)",
+    "proposedFix": "Zmienić na „uznawana (poświadczona kopia świadectwa z tłumaczeniem urzędowym, bez nostryfikacji)”. Wpisać źródło: art. 8 warunków FA 2027/28."
+  },
+  {
+    "city": "Praga",
+    "program": null,
+    "field": "summary[0] (Polska matura) i gaps[3]",
+    "severity": "krytyczne",
+    "problem": "Znana sprzeczność CVUT vs 1. LF UK jest wpisana jako „nie rozstrzygnięta, zweryfikować mailowo”, a da się ją rozstrzygnąć ze źródeł. Polskie świadectwo dojrzałości jest w Czechach z mocy umów międzynarodowych równoważne bez nostryfikacji (podaje to 1. LF, dotyczy to prawa krajowego, a nie tylko tego wydziału). FA ČVUT stosuje to samo w art. 8. Czeska wersja strony FIT mówi „maturitní vysvědčení nebo nostrifikaci”, czyli samo świadectwo wystarcza. Tylko angielskie warunki FIT (sekcja 6) przewidują nostryfikację albo weryfikację przez ČVUT (950 CZK) i pomijają Polskę. Streszczenie (summary) mówi też, że ČVUT „wymaga nostryfikacji”, co jest nieprawdą co najmniej dla FA.",
+    "evidence": "1. LF: „jedná se o doklady prokazující získání ekvivalentu české maturity na Slovensku, v Polsku (swiadectwo dojrzałośći), Maďarsku … a Slovinsku” (automaticky rovnocenný podle mezinárodních závazků). https://www.lf1.cuni.cz/nostrifikace-stredoskolskeho-vzdelani. FIT (cs): „Maturitní vysvědčení nebo nostrifikaci, pokud absolvujete středoškolské vzdělání v zahraničí (neplatí pro absolventy středních škol ze Slovenské republiky)”. https://fit.cvut.cz/cs/uchazeci/prijimaci-rizeni-2/bakalarsky-studijni-program. FIT (en, sekcja 6): „either … nostrification or … verification … through the CTU”. https://fit.cvut.cz/uchazeci/podminky-pririz/bie-admissions-conditions-2026.pdf",
+    "proposedFix": "Przepisać summary: „Polskie świadectwo dojrzałości jest w Czechach równoważne z czeską maturą z mocy umów, bez nostryfikacji (1. LF UK, FA ČVUT). Część wydziałów ČVUT w angielskich warunkach (FIT) opisuje ogólną procedurę nostryfikacji lub weryfikacji (950 CZK); jeśli chcesz mieć pewność, zapytaj wydział mailem.” Usunąć z gaps zdanie o nierozstrzygnięciu i zostawić tylko zalecenie maila do FIT."
+  },
+  {
+    "city": "Praga",
+    "program": "Informatika (FIT ČVUT, česky) / Informatics (FIT, angličtina) / Stavební inženýrství (FSv) / Civil Engineering (FSv)",
+    "field": "admission.polishMatura",
+    "severity": "ważne",
+    "problem": "Etykieta „wymaga dodatkowego etapu” dla FIT i FSv jest myląca. Czeska strona FIT wymaga „świadectwa lub nostryfikacji”, a Polska jest na liście dokumentów równoważnych z mocy umów. Angielskie warunki FIT mówią o nostryfikacji lub weryfikacji, więc źródła ČVUT są między sobą niespójne i to powinno być napisane jawnie.",
+    "evidence": "FIT cs: „Maturitní vysvědčení nebo nostrifikaci … Tento dokument lze případně nahradit dokumentem vydaným ČVUT k uznání zahraničního vzdělání”. https://fit.cvut.cz/cs/uchazeci/prijimaci-rizeni-2/bakalarsky-studijni-program",
+    "proposedFix": "Dla FIT i FSv ustawić „uznawana z warunkami (świadectwo; angielskie warunki FIT wspominają o weryfikacji przez ČVUT, 950 CZK, potwierdź mailem)”. Usunąć „wymaga dodatkowego etapu”."
+  },
+  {
+    "city": "Praga",
+    "program": "Strojní inženýrství (FS ČVUT, česky i angielski)",
+    "field": "tuition, matura, durationYears, deadline (wszystkie null)",
+    "severity": "ważne",
+    "problem": "Program ma puste pola czesnego (także wersji angielskiej, która jest płatna), uznawania matury, czasu trwania i terminu. Nastolatek zobaczy kierunek bez kosztu i warunków. Pole requirements zawiera zdanie o niedostępnych plikach SharePoint.",
+    "evidence": "Dane: tuitionEu null, tuitionNonEu null, matura null, durationYears null; requirements: „Pełne warunki są w plikach SharePoint niedostępnych publicznie (403)”. Strona FS: https://www.fs.cvut.cz/zajemci-o-studium/informace-o-prijimacim-rizeni/podminky-pro-prijeti-ke-studiu/",
+    "proposedFix": "Albo uzupełnić z publicznej strony FS (czesne EN, termin), albo ukryć program do czasu uzupełnienia. Nie pokazywać go w widoku z samymi pustymi polami."
+  },
+  {
+    "city": "Praga",
+    "program": null,
+    "field": "gaps[2], gaps[3], gaps[6] i ok. 11 pól z „nie pobrano”",
+    "severity": "ważne",
+    "problem": "Żargon procesu zbierania danych w tekście dla użytkownika: „HTTP 403, nie obchodzono”, „zapora WAF”, „pliki SharePoint”, „Strona MŠMT nie dała treści w pobraniu”, „nie pobrano”. Czytelnik strony nie wie, co to znaczy.",
+    "evidence": "gaps[3]: „pełne warunki w plikach SharePoint niedostępnych publicznie (HTTP 403, nie obchodzono)”; gaps[6]: „blokuje pobranie (zapora WAF), nie obchodzono”; gaps[2]: „Strona MŠMT nie dała treści w pobraniu”. Plik data/zagranica/praga.json",
+    "proposedFix": "Przepisać na język użytkownika: „Pełnych warunków wydziału nie ma publicznie na stronie. Sprawdź je u wydziału.” „Nie pobrano” zamienić na „nie podano na stronie programu”."
+  },
+  {
+    "city": "Praga",
+    "program": null,
+    "field": "tuitionEu/tuitionNonEu: „0 zł” (UK x7, ČVUT, VŠE)",
+    "severity": "drobne",
+    "problem": "Zero czesnego zapisane w złotych („0 zł”), a pozostałe kwoty w CZK i EUR (w innych miastach „0 EUR”). Dla nastolatka to niespójna waluta i sugestia, że kwoty są w PLN.",
+    "evidence": "praga.json: „0 zł za studia po czesku (dotyczy też obywateli spoza UE)”; w tym samym polu „opłata za zgłoszenie 1 000 CZK”.",
+    "proposedFix": "Zamienić na „0 CZK” lub „bez czesnego”. Przy kwotach w CZK dodać orientacyjny przelicznik na EUR lub PLN z datą kursu."
+  },
+  {
+    "city": "Praga",
+    "program": null,
+    "field": "summary[1], sources[0].note (kwoty)",
+    "severity": "drobne",
+    "problem": "Spacje w kwotach: „od 950 do 1 050 CZK”, „250 000 CZK”, „7 000 EUR”, „128 000 CZK” zapisane zwykłą spacją (8 pól z tym błędem); w sources[0].note „1000 CZK” bez separatora. Pozostałe pola mają twardą spację.",
+    "evidence": "praga.json summary[1].text: „od 950 do 1 050 CZK”; gaps[9]: „250 000 CZK (psychologia FF), 7 000 EUR (FSV)”.",
+    "proposedFix": "Zamienić spację tysięcy i spację przed walutą na U+00A0. W sources zapisać „1 000 CZK”."
+  },
+  {
+    "city": "Praga",
+    "program": "Psychology (angielski), General Medicine (angličtina), Economic Data Science, Informatics (FIT, angličtina)",
+    "field": "tuitionEu",
+    "severity": "drobne",
+    "problem": "Czesne dla programów po angielsku podano w CZK i EUR bez informacji, że jest takie samo dla obywateli UE (i że czeskie programy są bezpłatne). To jest zaznaczone („strona nie rozróżnia obywatelstwa”), ale czytelnik może uznać 24 250 EUR za stawkę „spoza UE”. Liczby potwierdzone, ryzyko tylko w opisie.",
+    "evidence": "SIS UK medycyna EN: „24250 EUR / year”, „285 EUR”, termin „30.04.2027”: https://is.cuni.cz/studium/eng/prijimacky/index.php?do=detail_obor&id_obor=37448. Psychologia EN: „250000 CZK / year”, „60 EUR”, „31.01.2027”: …id_obor=37295",
+    "proposedFix": "Dodać w nagłówku programu: „Czesne takie samo dla obywateli UE i spoza UE”."
+  },
+  {
+    "city": "Budapeszt",
+    "program": "Építészmérnöki egyetemes mesterképzés (OTM) (BME)",
+    "field": "tuitionEu / tuitionNonEu",
+    "severity": "ważne",
+    "problem": "Czesne UE (3 607 EUR na semestr) jest wyższe niż czesne spoza UE (3 200 EUR) w tej samej tabeli. Liczba zgodna ze źródłem, ale wygląda na błąd tabeli (kwota UE przeliczona z HUF). Plik tylko sygnalizuje „warto potwierdzić”. Nastolatek dostaje dziwną liczbę bez ostrzeżenia w polu czesnego.",
+    "evidence": "BME: „Faculty of Architecture (10 semesters) / EU citizens 3607 EUR (1 312 000 HUF) / semester” oraz „Non-EU citizens 3200 EUR/ semester”. https://xplore.bme.hu/tuition-fees/",
+    "proposedFix": "W polu czesnego dodać ostrzeżenie: „Tabela BME podaje dla UE kwotę wyższą niż dla spoza UE; potwierdź w BME”. Rozważyć pokazanie tylko kwoty w HUF z adnotacją."
+  },
+  {
+    "city": "Budapeszt",
+    "program": "Üzleti informatika; Adattudomány az üzleti életben; Gazdálkodási és menedzsment; Alkalmazott közgazdaságtan (Corvinus)",
+    "field": "admission.admissionUrl",
+    "severity": "ważne",
+    "problem": "Trzy z czterech adresów admissionUrl Corvinusa zwracają 404 (data science, business and management, applied economics). Użytkownik kliknie w źródło warunków i nie zobaczy nic.",
+    "evidence": "HTTP 404: https://www.uni-corvinus.hu/post/landing-page/application/admissions-requirements/bsc-data-science-in-business-admissions-requirements/?lang=en (analogicznie …/bsc-business-and-management-… i …/bsc-applied-economics-…). Działa …/bsc-in-business-informatics-admissions-requirements/ (z „in”).",
+    "proposedFix": "Poprawić slugi (prawdopodobnie z „bsc-in-…”) lub podać stronę ogólną …/admissions-requirements/."
+  },
+  {
+    "city": "Budapeszt",
+    "program": "Üzleti informatika BSc (Corvinus)",
+    "field": "admission.requirements",
+    "severity": "drobne",
+    "problem": "Pole requirements zaczyna się od urwanego fragmentu „dwa lata), paszport lub dowód, opłata aplikacyjna.”; początek zdania zgubiony.",
+    "evidence": "budapeszt.json, Corvinus, program 0: „requirements”: „dwa lata), paszport lub dowód, opłata aplikacyjna. Matematyka: …”",
+    "proposedFix": "Odtworzyć początek: „Świadectwo i wykaz ocen (z ostatnich dwóch lat), …”."
+  },
+  {
+    "city": "Budapeszt",
+    "program": null,
+    "field": "deadline (Corvinus x4), summary[1], programy",
+    "severity": "drobne",
+    "problem": "Kalki i błąd gramatyczny: „rekrutacja jest kroczące” (rodzaj i kalka z „rolling”), „opłaty aplikacyjne”, „aplikują bezpośrednio”, „samofinansujące się”. W summary antyteza „Decydują … własne egzaminy wstępne lub rozmowa, a nie wynik matury.”",
+    "evidence": "deadline: „Platforma na rok 2027/28 otwiera się w październiku 2026, rekrutacja jest kroczące.”; summary[0]: „… a nie wynik matury.”",
+    "proposedFix": "„rekrutacja trwa w sposób ciągły”, „opłata za zgłoszenie”, „składają wniosek bezpośrednio na uczelni”, „osoby płacące za studia same”. Przepisać zdanie o egzaminach bez antytezy: „O przyjęciu decydują własne egzaminy wstępne lub rozmowa.”"
+  },
+  {
+    "city": "Budapeszt",
+    "program": "Építőmérnöki BSc / Gépészmérnöki BSc / Mérnökinformatikus BSc (BME)",
+    "field": "tuitionEu",
+    "severity": "drobne",
+    "problem": "Czesne podane tylko z rokiem 2026/27 (tabela BME); termin i stawka na wrzesień 2027 nie są ogłoszone. Jest ostrzeżenie w academicYear, ale kwota „1 100 EUR (400 000 HUF)” w polu czesnego jest bez roku. Stawka BME dla studentów UE zmienia się rocznie.",
+    "evidence": "BME: „tuition fees for academic year 2026/27 … fees may vary from year to year”; „Faculty of Civil Engineering / EU citizens 1100 EUR (400 000 HUF) / semester”. https://xplore.bme.hu/tuition-fees/",
+    "proposedFix": "W tekście czesnego dopisać „(rok akademicki 2026/27)”."
+  },
+  {
+    "city": "Bratysława",
+    "program": "Manažment a právo (bakalársky, po angielsku) (UK, Wydział Prawa)",
+    "field": "tuitionEu / tuitionNonEu",
+    "severity": "ważne",
+    "problem": "Czesne 3 999 EUR jest podane jako stawka na 2026/27, a strona wskazana jako źródło przypisuje tę kwotę do roku 2021/2022 (zarządzenie rektora 17/2021). To nieaktualne źródło wzięte za bieżące. Dodatkowo plik nie ostrzega w polu czesnego.",
+    "evidence": "Strona programu: „2021/2022 Tuition fees 3 999 Eur / academic year … Directive of the rector of the Comenius University no. 17/2021”. https://www.flaw.uniba.sk/en/study/study-programmes/bachelors-programmes/management-and-law-in-english/",
+    "proposedFix": "Oznaczyć „3 999 EUR wg strony z 2021/22, potwierdź aktualną stawkę” albo znaleźć obecne zarządzenie rektora UK. Do czasu potwierdzenia nie podawać kwoty jako 2026/27."
+  },
+  {
+    "city": "Bratysława",
+    "program": "Ekonomika a manažment podniku (EUBA, po angielsku)",
+    "field": "tuition, requirements, matura (null)",
+    "severity": "ważne",
+    "problem": "Program bez czesna, warunków, uznawania matury i terminu (wszystko null, termin „dzień nieczytelny”). W praktyce pusta karta, a program jest płatny i selekcyjny.",
+    "evidence": "bratyslawa.json EUBA: tuitionEu null, requirements null, matura: „brak potwierdzenia na zebranych stronach”, deadline: „strona podaje termin w marcu 2027 (dzień nieczytelny w pobranym tekście)”.",
+    "proposedFix": "Uzupełnić z euba.sk albo usunąć program z widoku. Fraza „dzień nieczytelny w pobranym tekście” to żargon procesu."
+  },
+  {
+    "city": "Bratysława",
+    "program": "Informatika (UK FMFI, po słowacku); Data Science (UK FMFI); Informatika B-INFO (FIIT, po słowacku); Architektúra (po słowacku)",
+    "field": "admission.languageProof (null)",
+    "severity": "ważne",
+    "problem": "Programy po słowacku są bezpłatne, ale brak wymaganego poziomu słowackiego (languageProof null). Dla polskiego maturzysty to kluczowa informacja, a plik w summary przyznaje, że poziomu nie znaleziono. Ryzyko: „0 EUR” bez widocznego warunku językowego.",
+    "evidence": "summary[4]: „Na zebranych stronach nie podano oficjalnego poziomu (np. B2) dla cudzoziemców”; gaps[10]: „Poziom znajomości słowackiego … nie został znaleziony”.",
+    "proposedFix": "W karcie każdego programu po słowacku wstawić stałą adnotację: „Wykłady po słowacku, egzamin po słowacku; poziom języka sprawdź u wydziału”, obok zera czesnego."
+  },
+  {
+    "city": "Bratysława",
+    "program": "Civil Engineering / Architecture / Informatics (STU, po angielsku)",
+    "field": "tuitionEu",
+    "severity": "drobne",
+    "problem": "Kwoty 3 500 i 4 000 EUR to maksymalne stawki z dyrektywy rektora, nie ustalone czesne wydziału. Jest to napisane w notes, lecz summary mówi „od 1 990 do 13 000 €” bez tego zastrzeżenia. Stawki potwierdzone.",
+    "evidence": "Dyrektywa 6/2026 STU, tabela 3 (2027/28): SvF 3 500 €, FAD 3 500 €, FIIT 4 000 € (1. stopień). https://www.stuba.sk/buxus/docs/stu/pracoviska/rektorat/odd_pravne_organizacne/smernica%206_2026_skolne%20a%20poplatky_2027_2028_podpis.pdf",
+    "proposedFix": "Dopisać w polu czesnego „(stawka maksymalna z dyrektywy STU)”."
+  },
+  {
+    "city": "Bratysława",
+    "program": null,
+    "field": "kwoty w polach (14 pól)",
+    "severity": "drobne",
+    "problem": "Separator tysięcy zwykłą spacją przy twardej spacji przed walutą („13 000 €” = „13” + zwykła spacja + „000”).",
+    "evidence": "bratyslawa.json np. tuitionEu: „13 000 € rocznie”.",
+    "proposedFix": "Ujednolicić: wszystkie spacje w kwocie na U+00A0."
+  },
+  {
+    "city": "Bratysława",
+    "program": null,
+    "field": "gaps, requirements („w pobranych treściach”, „nie odczytano”, „zwijane sekcje”)",
+    "severity": "drobne",
+    "problem": "Żargon procesu: „w pobranych treściach”, „nie została pobrana”, „zwijanych sekcjach strony, których nie odczytano”. Dodatkowo antyteza w summary: „… przez egzamin wstępny prowadzony po słowacku, a nie przez certyfikat.” i w notes: „To trzyletnia licencjatura, nie jednolite studia prawnicze.”",
+    "evidence": "summary[4]; programs[2].notes; programs[4].requirements.",
+    "proposedFix": "Przepisać: „Strona programu nie podaje limitu miejsc ani progu.” i „Uczelnia sprawdza język egzaminem po słowacku, bez certyfikatu.”"
+  },
+  {
+    "city": "Lublana",
+    "program": "Data Science (magistrski, izvedba v angleščini)",
+    "field": "tuition.eu",
+    "severity": "drobne",
+    "problem": "Opis czesnego dla programu magisterskiego powiela regułę „pierwszego stopnia i jednolite magisterskie”, więc na jej podstawie czytelnik nie wie, że studia magisterskie też są bezpłatne. Źródło podaje zasadę dla studiów licencjackich i magisterskich. Wynik (0 EUR) jest prawidłowy, uzasadnienie złe.",
+    "evidence": "UL: „No tuition fees for full-time bachelor’s and master’s studies for: Slovenians … together with students from EU countries …”. https://www.uni-lj.si/en/study/tuition-fees-and-other-study-contributions",
+    "proposedFix": "Dla Data Science wpisać: „0 EUR: obywatele UE nie płacą za stacjonarne studia licencjackie i magisterskie na uczelni publicznej”. Przy okazji poprawić summary[1] na „licencjackie, jednolite magisterskie i magisterskie”."
+  },
+  {
+    "city": "Lublana",
+    "program": null,
+    "field": "summary (dwie sekcje o tej samej etykiecie „Uwagi”)",
+    "severity": "drobne",
+    "problem": "Dwa wpisy summary mają tę samą etykietę „Uwagi”; jeden z nich zawiera antytezę „wniosek składa się w krajowym systemie eVŠ …, a nie osobno na uczelni”. Kwoty w summary i gaps zapisane zwykłą spacją (15 pól: „3 400 EUR”).",
+    "evidence": "lublana.json summary[4].label i summary[5].label „Uwagi”; gaps[2]: „stawki 3 400 EUR”.",
+    "proposedFix": "Zmienić etykiety (np. „Gdzie złożyć wniosek” i „Progi punktowe”). Przepisać: „Wniosek składasz w krajowym systemie eVŠ, uczelnia nie przyjmuje go osobno.” Ujednolicić twarde spacje."
+  },
+  {
+    "city": "Wilno",
+    "program": "Medicine (VU)",
+    "field": "admission.polishMatura (matura)",
+    "severity": "ważne",
+    "problem": "Etykieta „uznawana” przy medycynie VU jest mylna: polska matura nie zwalnia z obowiązkowego egzaminu wstępnego (200 EUR). W ujednoliconym schemacie powinno być „wymaga dodatkowego etapu”. Samo requirements to mówi, ale wartość pola mówi co innego.",
+    "evidence": "Dane: matura „uznawana (Świadectwo Dojrzałości jest na liście dokumentów …)”, requirements: „Polska matura nie jest na liście zwolnień uczelni, więc egzamin obowiązuje”. Źródło: „The applicant must take an entrance examination … Examination fee €200” https://apply.vu.lt/courses/course/8",
+    "proposedFix": "Ustawić „wymaga dodatkowego etapu (egzamin wstępny online, 200 EUR)”."
+  },
+  {
+    "city": "Wilno",
+    "program": "Psichologija, Teisė, Informatika, Žurnalistika (VU, po litewsku)",
+    "field": "admission.polishMatura; antyteza",
+    "severity": "drobne",
+    "problem": "Antyteza w polu matura: „uznawana po uznaniu akademickim … w SKVC i przeliczeniu ocen na litewski system; to nie zastępuje konkursu”. Ten sam wzorzec w notes: „To komunikacja i przedsiębiorczość, nie klasyczne dziennikarstwo”.",
+    "evidence": "wilno.json programs[5], [6] matura; Innovative Communication … notes.",
+    "proposedFix": "Przepisać: „Świadectwo wymaga uznania w SKVC i przeliczenia ocen, a o przyjęciu decyduje konkurs.” i „Program obejmuje komunikację i przedsiębiorczość; dziennikarstwo VU prowadzi po litewsku.”"
+  },
+  {
+    "city": "Wilno",
+    "program": "Architektūra (VILNIUS TECH)",
+    "field": "tuitionEu (null)",
+    "severity": "drobne",
+    "problem": "Brak czesnego UE dla architektury, bo źródło ma oczywisty błąd (55676 EUR). Decyzja słuszna, ale w polu zostaje null. Strona uczelni faktycznie zawiera błędną kwotę.",
+    "evidence": "VILNIUS TECH: „Architecture (1-4th year) 55676 EUR” (tabela UE) i „Architecture 1st-4th year 6250 EUR” (spoza UE). https://vilniustech.lt/en/international-students/full-time-students/tuition-and-other-fees/",
+    "proposedFix": "W polu zapisać zamiast null: „Strona uczelni podaje błędną kwotę; zapytaj uczelnię. Dla spoza UE 6 250 EUR rocznie.”"
+  },
+  {
+    "city": "Wilno",
+    "program": "Central and East European Languages and Cultures (Polish Studies)",
+    "field": "languages, name",
+    "severity": "drobne",
+    "problem": "Wpis łączy wersję polską i angielską programu; na stronie VU to dwie osobne wersje językowe. Pole languages zawiera „polski, angielski”, a nazwa mówi „prowadzone po polsku”. Wymagane certyfikaty (polski B1 i angielski B2) dotyczą wersji po polsku. Brak careerIds, więc program nie jest powiązany z żadnym zawodem.",
+    "evidence": "https://apply.vu.lt/courses/course/239: „conducted in English … conducted in Polish … Polish proficiency Certificate not lower than B1 … English … B2”; „€4,437 per year”.",
+    "proposedFix": "Rozbić na dwa wpisy albo dopisać „wersja po polsku (osobna wersja po angielsku)”. Rozważyć usunięcie z listy jako niepowiązanego z zawodem."
+  },
+  {
+    "city": "Wilno",
+    "program": null,
+    "field": "summary[1], programy VU (kwoty), tekst",
+    "severity": "drobne",
+    "problem": "Kalka „opłata aplikacyjna” (kilka pól). Zwykłą spacją zapisano „3 660” i „3 250” w summary[1].",
+    "evidence": "summary[1]: „VU od 3 660 do 4 500 EUR rocznie”, „MRU od 3 250 do 4 200 EUR. Do tego opłata aplikacyjna 50 do 100 EUR”.",
+    "proposedFix": "„opłata za zgłoszenie”; twarde spacje w „3 660”, „3 250”."
+  },
+  {
+    "city": "Ryga",
+    "program": "Ārstniecība (angielski) (LU)",
+    "field": "level; tuitionEu; limit miejsc",
+    "severity": "ważne",
+    "problem": "Trzy sprawy w jednym programie. (1) level „licencjat” przy 6 latach i dyplomie lekarza, gdy RSU ma tę samą medycynę jako „jednolite”. (2) Brak limitu miejsc płatnych: 35 na 2026/27. (3) Schemat opłat 12 120 / 12 720 / 13 320 / 14 610 EUR i suma 77 340 EUR nie występuje na wskazanej stronie programu, która podaje 11 850 EUR rocznie.",
+    "evidence": "Strona LU: „Study places for tuition fee - 35 Tuition fee per year: 11 850 EUR for EU/EEA/Swiss citizens … 11 850 EUR for citizens of other countries”; „Programme level: second-cycle professional higher education … 12 semesters”. https://www.lu.lv/en/studies/study-programmes-1/bachelors-study-programmes/medicine-en/",
+    "proposedFix": "Ustawić level „jednolite”. Dopisać „35 miejsc płatnych (2026/27)”. Kwoty lat 2 do 6 potwierdzić na apply.lu.lv albo podać tylko 11 850 EUR w roku 1 z adnotacją, że rosną."
+  },
+  {
+    "city": "Ryga",
+    "program": null,
+    "field": "gaps[0] (RTU), careerIds architekt, inzynier-budownictwa, inzynier-mechanik",
+    "severity": "ważne",
+    "problem": "Trzy zawody (architekt, inżynier budownictwa, inżynier mechanik) bez żadnego programu w Rydze, bo strony RTU zwróciły 403. Uczciwie opisane w gaps, ale nie próbowano publicznych podstron (angielska oferta, tabela czesnego). Plik jest niekompletny dla tych zawodów.",
+    "evidence": "gaps[0]: „strony rtu.lv zwróciły błąd 403 (blokada dostępu), więc nie zebrano żadnych danych”.",
+    "proposedFix": "Spróbować innych oficjalnych adresów RTU (admission, study programmes po angielsku). Jeśli nadal blokada, zostawić gap i nie uzupełniać z innych źródeł."
+  },
+  {
+    "city": "Ryga",
+    "program": null,
+    "field": "kwoty bez separatora tysięcy",
+    "severity": "drobne",
+    "problem": "Kwoty „3100 EUR”, „11 850”, „13 500” zapisane niespójnie: 20 pól bez separatora tysięcy, część z (jak w summary). Mieszanie „13 500 EUR” i „3300 EUR” w jednym zdaniu.",
+    "evidence": "ryga.json summary[1]: „LU od 3100 EUR rocznie … do 11 850 EUR, RSU 13 500 EUR … 3300 EUR … SSE Riga 5950 EUR”.",
+    "proposedFix": "Ujednolicić: „3 100 EUR”, „5 950 EUR” z U+00A0."
+  },
+  {
+    "city": "Ryga",
+    "program": "Psiholoģija (LU); Tiesības (LU)",
+    "field": "tuitionEu; academicYear",
+    "severity": "drobne",
+    "problem": "Stawki prawa LU podano „z roku 2025/26” przy academicYear 2026/27; czesne psychologii LU w polu EU i spoza UE ma dwie wartości, a summary pisze o „miejscach budżetowych” bez wyjaśnienia, czy Polak ma do nich dostęp (jest zastrzeżenie). Obie rzeczy w notes, nie w polu czesnego.",
+    "evidence": "ryga.json Tiesības: „2850 EUR rocznie …; stawki z roku 2025/26 podane na stronie programu”; notes: „Stawki 2026/27 do potwierdzenia”. https://www.lu.lv/en/studies/study-programmes-1/bachelors-study-programmes/law-1/",
+    "proposedFix": "Przenieść ostrzeżenie o roku 2025/26 do tuitionEu. Uzupełnić academicYear „2026/27 (stawka 2025/26)”."
+  },
+  {
+    "city": "Ryga",
+    "program": "Psiholoģija, Tiesības, Žurnālistika (RSU)",
+    "field": "matura, requirements (null)",
+    "severity": "drobne",
+    "problem": "Trzy programy RSU z pustymi polami matura i requirements (null) i z sformułowaniem „zasady przyjęcia (wersja łotewska) nie były pobierane”, które jest żargonem procesu.",
+    "evidence": "ryga.json RSU: matura null, requirements null, languageProof: „zasady przyjęcia (wersja łotewska) nie były pobierane”.",
+    "proposedFix": "Zamienić na „Program tylko po łotewsku; zasady przyjęcia podaje strona łotewska uczelni.” i ukryć puste pola."
+  },
+  {
+    "city": "Ryga",
+    "program": null,
+    "field": "deadline (null) dla programów LU",
+    "severity": "ważne",
+    "problem": "Wszystkie programy LU mają deadline null, bo nabór 2027/28 jest nieogłoszony. Jest to uczciwe, ale czytelnik nie ma wskazówki, kiedy sprawdzać (dla 2026/27 nabór otwarto 1 grudnia 2025, medycynę 1 stycznia 2026). Ta wskazówka jest tylko w notes.",
+    "evidence": "ryga.json programs LU: deadline null; notes: „dla 2026/27 nabór ruszył 1 grudnia 2025”.",
+    "proposedFix": "Wpisać w deadline: „Nabór 2027/28 nieogłoszony. W poprzednim roku ruszył 1 grudnia, sprawdzaj od listopada.”"
+  },
+  {
+    "city": "Tallinn",
+    "program": "Medicine (Bachelor+Master, English group) (Uniwersytet w Tartu)",
+    "field": "city / type",
+    "severity": "drobne",
+    "problem": "Program w Tartu jest w pliku Tallinna. Wpis ma adnotację „UWAGA: … leży w Tartu”, ale wyświetlony pod Tallinnem może wprowadzić w błąd co do miejsca studiów (ok. 190 km). Liczby potwierdzone (opłata zgłoszeniowa 100 EUR, termin 15 kwietnia, 13 200 EUR).",
+    "evidence": "Strona Tartu: „All international applicants are required to pay the application fee of EUR 100”, „by the application deadline, 15 April”. https://ut.ee/en/curriculum/medicine",
+    "proposedFix": "W widoku wyraźnie oznaczyć „Tartu, nie Tallinn” przy nazwie programu, a nie tylko w notes."
+  },
+  {
+    "city": "Tallinn",
+    "program": "Informaatika ja tehisintellekt; Ehitiste projekteerimine; Tootearendus ja robootika; Arhitektuur (TalTech, po estońsku)",
+    "field": "tuitionUrl; tuitionEu",
+    "severity": "drobne",
+    "problem": "Czesne dla programów estońskich ma ogólny adres taltech.ee/en/apply zamiast strony programu, a tekst mówi „Potwierdzenie dla tego konkretnego kierunku: do sprawdzenia na stronie programu” (żargon procesu). Nastolatek czyta „bezpłatne miejsca”, ale wymóg estońskiego B2 lub C1 jest tylko w polu languageProof.",
+    "evidence": "tallinn.json programs[4..7] tuitionEu: „Nauka w ramach bezpłatnych miejsc … Potwierdzenie dla tego konkretnego kierunku: do sprawdzenia na stronie programu.”",
+    "proposedFix": "Podać adres strony programu na taltech.ee, usunąć zdanie o sprawdzaniu, dodać „wymagany estoński B2 lub C1”."
+  },
+  {
+    "city": "Tallinn",
+    "program": null,
+    "field": "kwoty bez separatora; summary",
+    "severity": "drobne",
+    "problem": "21 pól z kwotami bez separatora („5000 EUR”, „13200 EUR”, „7730 EUR”) obok zapisów z separatorem w innych miastach. Kalki: „opłata aplikacyjna” (19 pól). Antytezy: „prowadzony w Kohtla-Järve, a nie w Tallinnie”, „blisko komunikacji i mediów, nie klasycznego dziennikarstwa prasowego”.",
+    "evidence": "tallinn.json summary[1]: „Opłata aplikacyjna to 100 EUR w TalTech, TLU i Tartu”; tuitionEu: „7730 EUR rocznie”.",
+    "proposedFix": "„5 000 EUR” z U+00A0; „opłata za zgłoszenie”; zdania bez antytezy: „Kierunek jest w Kohtla-Järve.”, „Program obejmuje komunikację i media, nie jest klasycznym dziennikarstwem.” (lub bez drugiej części)."
+  },
+  {
+    "city": "Tallinn",
+    "program": "Politics and Governance (TLU)",
+    "field": "careerIds",
+    "severity": "drobne",
+    "problem": "Program bez powiązania z żadnym zawodem (careerIds pusty), dodany „jako kierunek pokrewny”. Plan ogranicza zakres do kierunków odpowiadających 11 zawodom.",
+    "evidence": "tallinn.json: careerIds [], notes: „nie odpowiada żadnemu z 11 zawodów na stronie, dodany jako kierunek pokrewny”.",
+    "proposedFix": "Usunąć z pliku albo oznaczyć jako poza zakresem."
+  },
+  {
+    "city": "Helsinki",
+    "program": "Bachelor's Programme in Science (UH); Aalto (S&T, Economics); Hanken",
+    "field": "admission.polishMatura",
+    "severity": "ważne",
+    "problem": "Etykieta „uznawana z warunkami” jest myląca: ze źródeł wynika, że przy polskiej maturze selekcja idzie wyłącznie po wyniku SAT lub ACT (matura nie daje punktów). To w schemacie „wymaga dodatkowego etapu”. Nastolatek musi wiedzieć, że bez SAT/ACT nie ma szans, a próg Aalto S&T to SAT 1350 i 700 z matematyki.",
+    "evidence": "Aalto FAQ: „minimum requirements are, for … science and technology, a total score of 1350 and a Mathematics score of 700, … business and economics, a total score of 1200”; wyniki do „29 January 2026”. https://www.aalto.fi/en/admission-services/bachelors-admissions-frequently-asked-questions. UH: „Admission is based on the scores of your SAT …” https://www.helsinki.fi/en/degree-programmes/science-bachelors-programme/admissions",
+    "proposedFix": "Ustawić „wymaga dodatkowego etapu (wynik SAT lub ACT)” i w requirements dopisać próg Aalto jako pierwszą informację."
+  },
+  {
+    "city": "Helsinki",
+    "program": "Metropolia, Haaga-Helia (AMK)",
+    "field": "tuitionEu: opłata samorządu studenckiego",
+    "severity": "drobne",
+    "problem": "Tekst „płaci się tylko roczną składkę samorządu studenckiego” dotyczy uniwersytetów. Na uczelniach zawodowych (AMK) członkostwo w samorządzie jest dobrowolne według Study in Finland.",
+    "evidence": "Study in Finland: „University students pay an annual student union fee of about €50–€70 … Student union membership at universities of applied sciences (UAS) is optional.” https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+    "proposedFix": "W polach Metropolia i Haaga-Helia: „składka samorządu dobrowolna (AMK)”."
+  },
+  {
+    "city": "Helsinki",
+    "program": null,
+    "field": "gaps, programs (żargon procesu)",
+    "severity": "ważne",
+    "problem": "Żargon w tekście: „strony nie pobrano (adresy 404)”, „zwróciły 403 lub nie zostały pobrane. Nie obchodzono zabezpieczeń”, „Nie wykorzystano opintopolku.fi (serwis dynamiczny)”, „nie pobrano konkretnego progu”. Plus antytezy: „Selekcja … nie na podstawie ocen, tylko wyniku SAT/ACT”, „To nie jest odpowiednik polskiej psychologii klinicznej”, „polska matura nie jest wymieniona z nazwy, a do selekcji liczą się wyłącznie SAT/ACT”.",
+    "evidence": "helsinki.json gaps[1], gaps[5], gaps[8]; summary[0]; Applied Psychology notes.",
+    "proposedFix": "Przepisać na język użytkownika: „Warunków tych kierunków nie podano na stronie w wersji angielskiej.” Przepisać antytezy w formie pozytywnej: „Przy polskiej maturze o przyjęciu decyduje wynik SAT lub ACT.”"
+  },
+  {
+    "city": "Helsinki",
+    "program": "Soveltavan psykologian kandiohjelma (UH)",
+    "field": "matura, requirements, languageProof (null)",
+    "severity": "drobne",
+    "problem": "Program ma null w polach matura, requirements i languageProof; licencjat nie daje zawodu psychologa (ostrzeżenie jest). Dla zawodów lekarz i prawnik w Helsinkach brak jakichkolwiek programów (404 na stronach UH).",
+    "evidence": "helsinki.json: Applied Psychology matura null; gaps[1]: „Medycyna (lekarz) i prawo (prawnik) na UH: kierunki po fińsku, strony nie pobrano (adresy 404)”.",
+    "proposedFix": "Spróbować aktualnych adresów UH. Jeśli się nie da, na profilu zawodu pokazać „brak programu w Helsinkach” zamiast pustych pól."
+  },
+  {
+    "city": "Helsinki",
+    "program": null,
+    "field": "kwoty zwykłą spacją (24 pól)",
+    "severity": "drobne",
+    "problem": "W całym pliku Helsinek separator tysięcy i spacja przed walutą to zwykła spacja (0 twardych spacji): „13 000 EUR”, „50 do 70 EUR”. Zdanie „Wniosek: 100 EUR tylko dla spoza UE/EOG.” jest urwane i jest kalką (application fee).",
+    "evidence": "helsinki.json summary[1]: „UH Science 13 000 EUR, Aalto 12 000 EUR … Wniosek: 100 EUR tylko dla spoza UE/EOG.”",
+    "proposedFix": "Zamienić spacje w kwotach na U+00A0. Przepisać: „Opłata za zgłoszenie 100 EUR dotyczy tylko osób spoza UE/EOG.”"
+  }
+]

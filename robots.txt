@@ -1,3 +1,4 @@
+# Strona jest dostępna tylko dla osób z adresem: bez mapy strony i z zakazem indeksowania (meta robots w każdej stronie).
+# Crawlery muszą móc wejść, żeby zobaczyć noindex i usunąć już zindeksowane adresy, dlatego tu nie ma Disallow.
 User-agent: *
 Allow: /
-Sitemap: https://adrwis.github.io/kariera/sitemap.xml

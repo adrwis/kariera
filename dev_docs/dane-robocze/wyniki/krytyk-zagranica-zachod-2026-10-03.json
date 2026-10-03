@@ -1,0 +1,578 @@
+[
+ {
+  "city": "Kopenhaga",
+  "program": "BSc in International Business (CBS)",
+  "field": "deadline / summary",
+  "severity": "krytyczne",
+  "problem": "Podsumowanie miasta twierdzi, że świadectwa zagraniczne mają termin 15 marca godz. 12:00 (kwota 2), a luka nr 14 powtarza to dla CBS. Strona CBS mówi, że 15 marca dotyczy tylko osób potrzebujących zezwolenia na pobyt, a obywatele UE dokumentują wymagania do 5 lipca. Pole deadline samego programu jest poprawne, więc dane w mieście są sprzeczne. Nastolatek może uznać, że termin minął 15 marca albo przeciwnie, że na CBS ma czas do lipca bez sprawdzenia kwoty 2.",
+  "evidence": "CBS: \"if you need a student residence permit to study in Denmark, the deadline is 15 March at 12.00\" oraz \"no later than 5 July at 12.00\" (https://www.cbs.dk/en/study-programmes/bachelor-programmes/application-and-admission). Summary: \"kwota 2 i świadectwa zagraniczne do 15 marca godz. 12:00\".",
+  "proposedFix": "Rozbić terminy po uczelniach: CBS 5 lipca dla UE, 15 marca tylko wiza; KU, DTU, ITU, KADK 15 marca dla kwoty 2 po potwierdzeniu. Poprawić summary i gaps[13]."
+ },
+ {
+  "city": "Kopenhaga",
+  "program": "DTU Softwareteknologi, KU, ITU, KADK",
+  "field": "deadline",
+  "severity": "ważne",
+  "problem": "Daty 2027 są \"wyprowadzone\" ze schematu stron (strony podają 15 marca i 5 lipca bez roku), a w polu deadline stoją jako 15 marca 2027. Dane inferowane wyglądają jak potwierdzone.",
+  "evidence": "Notes DTU: \"Rok 2027 wyprowadzony ze schematu stron DTU (podane daty bez roku)\"; strona DTU admission requirements nie zawiera \"15 March\" (zweryfikowano curl).",
+  "proposedFix": "W polu deadline pisać \"15 marca (rok niepodany na stronie, najpewniej 2027)\" albo pominąć rok; dodać znacznik \"niepotwierdzone\"."
+ },
+ {
+  "city": "Kopenhaga",
+  "program": "wszystkie programy KU, ITU, KADK",
+  "field": "tuition.eu",
+  "severity": "ważne",
+  "problem": "Czesne UE = 0 zapisane na podstawie braku wzmianki (\"obywatele UE nie są wymienieni jako płacący\"), a nie zdania wprost. Przy ITU strona wymienia grupy płacące, ale zdanie o zwolnieniu UE nie padło w pobranym tekście. Brak dosłownego pokrycia w źródle.",
+  "evidence": "Pole tuitionEu: \"0 (czesne płacą obywatele spoza UE/EOG; obywatele UE nie są wymienieni jako płacący)\". Dosłowne zdanie potwierdzone tylko dla DTU i CBS (https://www.dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/fees-funding-and-permits: \"EU/EEA citizens are not required to pay tuition fee\").",
+  "proposedFix": "Dla KU, ITU, KADK znaleźć cytat wprost (np. studyindenmark.dk) albo oznaczyć \"brak wzmianki, do potwierdzenia\"."
+ },
+ {
+  "city": "Kopenhaga",
+  "program": "Bachelor i psykologi, jura, medicin, økonomi (KU)",
+  "field": "languages / requirements",
+  "severity": "ważne",
+  "problem": "Wszystkie licencjaty KU są po duńsku i wymagają Dansk A, a matura nie ma tabeli odpowiedników poziomów A, B, C. Wpis \"uznawana z warunkami\" bez rozbicia przedmiotów daje fałszywe wrażenie dostępności dla maturzysty. Brak ostrzeżenia na poziomie programu, że bez duńskiego nie ma wstępu.",
+  "evidence": "languageProof: \"Studieprøven i dansk som andetsprog albo Dansk A\"; gaps: \"Brak oficjalnej tabeli odpowiedników polskiej matury ... Nie wiadomo, czy matura na poziomie rozszerzonym liczy się jako poziom A\".",
+  "proposedFix": "Dodać do każdego programu flagę \"wymaga duńskiego (poziom A)\" w polu wyświetlanym obok nazwy, nie tylko w notes."
+ },
+ {
+  "city": "Kopenhaga",
+  "program": "BSc IB (CBS) i BSc BA and Digital Management",
+  "field": "languageProof",
+  "severity": "ważne",
+  "problem": "Angielski A nie jest zaliczany z polskiej matury; test językowy wolno zdawać tylko po zdanym angielskim B, a B zaliczają wyłącznie obowiązkowy kurs 210 godz. albo Cambridge C1/C2. Dane to podają, ale podsumowanie miasta sugeruje, że program jest dostępny po angielsku bez dodatkowego etapu.",
+  "evidence": "CBS: \"You cannot fulfil English level B with a language test such as a TOEFL or an IELTS. We only accept the Cambridge exams C2 Proficiency and C1 Advanced.\"",
+  "proposedFix": "W summary dodać zdanie o wymogu angielskiego A (IELTS 7,0) dla CBS i o tym, że to dodatkowy etap."
+ },
+ {
+  "city": "Kopenhaga",
+  "program": null,
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Żargon techniczny w luce: \"Pola careerIdsKandydaci i note poza schematem planu; przy imporcie można je pominąć\". Pola spoza schematu (careerIdsKandydaci, note) są w danych.",
+  "evidence": "gaps[15] oraz klucze w JSON.",
+  "proposedFix": "Usunąć wpis z gaps, ujednolicić klucze do schematu (careerIds, notes)."
+ },
+ {
+  "city": "Kopenhaga",
+  "program": null,
+  "field": "schema",
+  "severity": "drobne",
+  "problem": "Struktura plików odbiega od schematu z planu: płaskie pola tuitionEu, tuitionNonEu, matura, requirements zamiast obiektów tuition i admission; pole \"url\" zamiast sourceUrl. Dotyczy wszystkich dziewięciu miast.",
+  "evidence": "plan-zagranica.md: \"tuition\": { \"eu\": ..., \"sourceUrl\": ... }, \"admission\": { \"polishMatura\": ... }.",
+  "proposedFix": "Zdecydować, że obowiązuje format płaski i zaktualizować plan, albo przemapować przed importem."
+ },
+ {
+  "city": "Berlin",
+  "program": "FU Berlin (Psychologie, Informatik, BWL, Recht, Publizistik)",
+  "field": "admission.requirements",
+  "severity": "ważne",
+  "problem": "Dane podają, że uni-assist przetwarza VPD zwykle 4 do 6 tygodni (zgodnie z TU). Strona FU mówi, że przetwarzanie może trwać do 8 tygodni i radzi składać wniosek jak najwcześniej. Nastolatek może spóźnić się z VPD przed 15 lipca.",
+  "evidence": "FU: \"processing by uni-assist can take up to 8 weeks. This applies in particular to the period up to 8 weeks BEFORE the application deadline on July 15\" (https://www.fu-berlin.de/en/studium/bewerbung/bachelor/ausl-hzb/index.html). Dane: \"uni-assist przetwarza VPD zwykle 4 do 6 tygodni\".",
+  "proposedFix": "Dla FU wpisać \"do 8 tygodni, składać z dużym wyprzedzeniem\"; 4 do 6 tygodni zostawić tylko przy TU."
+ },
+ {
+  "city": "Berlin",
+  "program": "wszystkie programy",
+  "field": "admission.polishMatura",
+  "severity": "ważne",
+  "problem": "Status \"uznawana z warunkami\" opiera się wyłącznie na ogólnej zasadzie DAAD dla świadectw UE. Wycena \"Polen, Świadectwo dojrzałości\" w anabin/bazie DAAD nie została zweryfikowana, a tekst pola zawiera zlepek \"Część danych do potwierdzenia na stronie uczelni.\" wstawiony w środku zdania.",
+  "evidence": "matura: \"uznawana z warunkami: ogólna zasada DAAD ... (patrz źródło); Część danych do potwierdzenia na stronie uczelni.\" Źródło DAAD potwierdzone: \"If you have a school-leaving certificate from an EU country ... and it allows you study in that country, then you are usually also eligible to study in Germany\" (https://www.daad.de/en/studying-in-germany/requirements/overview/).",
+  "proposedFix": "Sprawdzić wpis Polen w bazie DAAD/anabin (allowed: zugangsberechtigung) i podać wynik. Usunąć wklejoną frazę z pola."
+ },
+ {
+  "city": "Berlin",
+  "program": "TU Berlin (Informatik, Architektur, Bauingenieurwesen, Maschinenbau, Economics and Sustainability)",
+  "field": "deadline",
+  "severity": "krytyczne",
+  "problem": "Termin 1.12.2025 do 15.01.2026 (NC) i do 28.02.2026 (bez NC) to cykl już zamknięty, semestr nie ustalony, a wpis stoi w polu deadline pięć razy. Dla maturzysty z 2027 brak informacji o realnym terminie. Źródło terminów nie dało się potwierdzić: strona dat TU zwróciła 404 pod zgadywanym adresem.",
+  "evidence": "Dane: \"Programy z NC: 1.12.2025 do 15.01.2026 ... (semestr niepodany, prawdopodobnie cykl już zamknięty); terminu na kolejny nabór nie ma\". Strona admission-requirements TU nie zawiera dat.",
+  "proposedFix": "Zastąpić wpisem \"Termin na WS 2027/28 niepublikowany; w poprzednim cyklu rejestracja ok. 1 grudnia do 15 stycznia (NC)\" po potwierdzeniu na stronie TU \"Dates & Deadlines\". Do czasu potwierdzenia ukryć daty przeszłe."
+ },
+ {
+  "city": "Berlin",
+  "program": "HTW Berlin International Business",
+  "field": "languageProof",
+  "severity": "ważne",
+  "problem": "Wymóg IELTS 7,0 i zasada \"Tuition free ... generally free of charge\" nie są obecne na pobranej stronie programu; strona wskazuje tylko \"proof of English language proficiency\" i odsyła do PDF. Liczby bez pokrycia w podanym url.",
+  "evidence": "https://international-business.htw-berlin.de/bachelor: \"Admission requirements General university / university of applied sciences entry qualifications ... proof of English language proficiency\". Brak \"IELTS\", \"7.0\", \"tuition\".",
+  "proposedFix": "Podać url do PDF z tabelą języka i do strony z zapisem o braku czesnego albo usunąć liczby."
+ },
+ {
+  "city": "Berlin",
+  "program": "HTW Berlin (wszystkie)",
+  "field": "academicYear / deadline",
+  "severity": "ważne",
+  "problem": "Okna naboru podane bez roku (\"dokładny rok niepodany na stronie\") i oznaczone jako 2026/27 i SS 2027; w polu deadline stoją daty 15.05 do 15.07 jako gdyby aktualne. Strona HTW z listą NC nie zawiera tych dat.",
+  "evidence": "Dane: \"WS: 15.05 do 15.07 ... dokładny rok niepodany na stronie\". https://www.htw-berlin.de/studium/bewerbung/bachelor-bewerbung/bachelor-studiengaenge-mit-zulassungsbeschraenkung nie zawiera \"15.05\" ani \"17.11\".",
+  "proposedFix": "Oznaczyć jako wzorzec z cyklu 2026, podać url strony z terminami (Bewerbungszeiträume)."
+ },
+ {
+  "city": "Berlin",
+  "program": null,
+  "field": "summary",
+  "severity": "drobne",
+  "problem": "Brak Humboldt-Universität (blokada Anubis, słusznie niepominięta, ale to jedna z trzech głównych uczelni). Gaps zawiera \"Do zrobienia: ...\" jako notatkę roboczą.",
+  "evidence": "gaps[0]: \"Do zrobienia: dane HU z innego oficjalnego źródła lub ręcznie przez Adę.\"",
+  "proposedFix": "Przenieść do dziennika prac, w gaps zostawić \"Brak danych HU\"."
+ },
+ {
+  "city": "Berlin",
+  "program": "HTW Wirtschaftsingenieurwesen, Wirtschaftskommunikation",
+  "field": "languages",
+  "severity": "drobne",
+  "problem": "Pusta lista języków wykładowych; program trafił do danych z zaznaczeniem \"wymaga weryfikacji przed publikacją\".",
+  "evidence": "languages: [] oraz notes: \"Język wykładowy niepotwierdzony\".",
+  "proposedFix": "Wyłączyć z publikacji do czasu potwierdzenia."
+ },
+ {
+  "city": "Amsterdam",
+  "program": "HvA Toegepaste Psychologie",
+  "field": "admission.requirements",
+  "severity": "ważne",
+  "problem": "Liczba 140 miejsc z bezpośrednim przyjęciem pochodzi z wyniku wyszukiwania, nie ze strony uczelni (to wprost zapisano w notes). Zasada planu: tylko oficjalne źródła z url.",
+  "evidence": "notes: \"Liczba 140 pochodzi z wyniku wyszukiwania HvA.\"",
+  "proposedFix": "Usunąć liczbę albo potwierdzić na https://www.hva.nl/opleidingen/toegepaste-psychologie/schrijf-je-in."
+ },
+ {
+  "city": "Amsterdam",
+  "program": "UvA Psychologie, Economics and Business Economics",
+  "field": "admission.requirements",
+  "severity": "ważne",
+  "problem": "Szczegóły selekcji nieobecne na wskazanych stronach: daty testu 6 lutego i 6 marca 2027, statystyki rekrutacji (1 934 zgłoszeń, ostatni numer 482), czas testu ekonomii 2,5 godziny i próg 300 osób. Strona admissionUrl psychologii potwierdza tylko 270 miejsc i okno Studielink 1 października 2026 do 15 stycznia 2027.",
+  "evidence": "https://www.uva.nl/en/programmes/bachelors/psychology/application-and-admission/international-prior-education/application-and-admission.html: brak \"6 February\", \"1,934\", \"482\". Strona ekonomii: daty \"Saturday 20 February ... Wednesday 3 March\" bez roku i bez \"2.5 hours\".",
+  "proposedFix": "Dodać dodatkowy sourceUrl dla selekcji (strona \"selection\") albo usunąć liczby; daty testu oznaczyć \"bez roku na stronie\"."
+ },
+ {
+  "city": "Amsterdam",
+  "program": "UvA Geneeskunde",
+  "field": "languageProof",
+  "severity": "ważne",
+  "problem": "Wymóg \"dyplom NT2 albo staatsexamen\" nie występuje na pobranej stronie toelating; strona wspomina tylko ocenę przez Credential Evaluation i \"NT 2 diploma\" w liście. Poziom niderlandzkiego nie podany.",
+  "evidence": "https://www.uva.nl/programmas/bachelors/geneeskunde/toelatingseisen/toelating-en-inschrijven.html: brak \"NT2\" w tej pisowni i \"staatsexamen\"; jest \"NT 2 diploma\" i \"Credential Evaluation\".",
+  "proposedFix": "Dopisać dokładny cytat i poziom (NT2 II) z VU albo oznaczyć jako niepotwierdzony."
+ },
+ {
+  "city": "Amsterdam",
+  "program": "UvA, VU, HvA (wszystkie)",
+  "field": "academicYear / tuition.eu",
+  "severity": "ważne",
+  "problem": "Pole academicYear = 2027/28, ale czesne UvA i HvA dotyczy 2026/27 (2 694 EUR); VU podaje 2 771 EUR dla 2027/28. W jednym mieście są dwie stawki ustawowe, a nastolatek zacznie studia w 2027/28. Wyjaśnienie jest w tekście, lecz stawka 2 694 EUR jest podana jako główna.",
+  "evidence": "UvA: \"Statutory tuition fees 2026-2027 full-time students €2,694\". VU: \"Tuition fee rates academic year 2027-2028 ... Full-time ... €2.771\".",
+  "proposedFix": "Dla wszystkich programów podać \"2 771 EUR (2027/28, wg VU); 2 694 EUR w 2026/27\" jako jedną spójną wartość z adnotacją."
+ },
+ {
+  "city": "Amsterdam",
+  "program": null,
+  "field": "academicYear",
+  "severity": "drobne",
+  "problem": "Do pola academicYear dopisano adnotacje redakcyjne (\"nie potwierdzono na stronie programu\") i uwagę o lukach, zamiast trzymać je w notes. Pole nie jest parsowalne.",
+  "evidence": "academicYear: \"2027/28 (nie potwierdzono na stronie programu)\".",
+  "proposedFix": "academicYear: \"2027/28\", adnotację przenieść do notes."
+ },
+ {
+  "city": "Amsterdam",
+  "program": "UvA Global Communication Science, Business Analytics, Informatica; HvA ICT, Communicatie",
+  "field": "tuition / admission",
+  "severity": "drobne",
+  "problem": "Rekordy prawie puste (brak matury, selekcji, dowodu języka, terminu, czesnego non-EU), a admissionUrl pokazuje stronę opisową programu. Dane mają niewielką wartość, a mogą sugerować \"brak wymagań\".",
+  "evidence": "matura: None, languageProof: None, deadline: None.",
+  "proposedFix": "Dopisać wymagania z diploma finder albo oznaczyć rekord jako \"w trakcie uzupełniania\" i ukryć."
+ },
+ {
+  "city": "Amsterdam",
+  "program": null,
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Żargon narzędziowy i metadane roboczej sesji: \"strony VU Law nie udało się pobrać (404)\", \"nie pobrano rekordów DUO\", \"wyszukiwanie sugerowało selekcję\", \"przyjęto stronę, którą pobrano bezpośrednio\", \"Dane do potwierdzenia na stronie uczelni\" jako samodzielny wpis.",
+  "evidence": "gaps[3], gaps[8], gaps[9] i inne.",
+  "proposedFix": "Przepisać gaps na język użytkownika: \"Nie sprawdzono ...\", usunąć wpisy generyczne."
+ },
+ {
+  "city": "Amsterdam",
+  "program": "HvA Engineering, Built Environment, ICT",
+  "field": "languages",
+  "severity": "ważne",
+  "problem": "Programy HBO po niderlandzku z polską maturą \"uznawana z warunkami\", ale poziom niderlandzkiego niepodany (languageProof None). Nastolatek bez niderlandzkiego może uznać, że kierunek jest dostępny. Dodatkowo HBO 4 lata nie równa się licencjatowi uniwersyteckiemu w Polsce (tylko w notes przy psychologii).",
+  "evidence": "languageProof: None; languages: [\"niderlandzki\"].",
+  "proposedFix": "Dodać ostrzeżenie \"program po niderlandzku, poziom nieustalony\" w polu widocznym i w opisie karty."
+ },
+ {
+  "city": "Bruksela",
+  "program": "ULB (wszystkie programy)",
+  "field": "deadline",
+  "severity": "ważne",
+  "problem": "Termin 30 września 2026 oraz \"spóźnione wnioski do 15 lutego\" i \"równoważność do 15 lipca\" nie występują na pobranej stronie /en/enrolment. Dla nastolatka docelowo ważne są terminy 2027/28, a tych nie ma. Dane stoją jako fakt z adnotacją \"minął\".",
+  "evidence": "https://www.ulb.be/en/enrolment: brak \"30 September\", \"15 February\", \"15 July\", \"1 December\".",
+  "proposedFix": "Podać dokładną stronę z terminami i datą 2027/28 po publikacji; do tego czasu napisać \"termin na 2027/28 niepublikowany\"."
+ },
+ {
+  "city": "Bruksela",
+  "program": "ULB (wszystkie programy)",
+  "field": "admission.polishMatura",
+  "severity": "ważne",
+  "problem": "Status \"wymaga dodatkowego etapu: równoważność FWB\" oparty na braku wzmianki o Polsce na stronie ULB; przepisów FWB nie zbadano (gaps to przyznają). To twierdzenie negatywne (\"nie ma wyjątku dla polskiej matury\") bez pokrycia w źródle.",
+  "evidence": "Summary: \"strona ULB nie podaje wyjątku dla polskiej matury\"; gaps: \"Nie badano przepisów FWB o równoważności dla polskiej matury\".",
+  "proposedFix": "Sprawdzić enseignement.be lub ARES (równoważność dla świadectw UE) i zapisać wynik albo zmienić status na \"do potwierdzenia\"."
+ },
+ {
+  "city": "Bruksela",
+  "program": "ULB (wszystkie programy)",
+  "field": "admission.languageProof",
+  "severity": "ważne",
+  "problem": "Dla obywateli UE brak wymogu francuskiego w danych, B2 podano tylko dla spoza UE. Nastolatek może wywnioskować, że francuski nie jest wymagany. Programy ULB są po francusku (poza Solvay).",
+  "evidence": "languageProof: \"dla obywateli UE strona ULB nie podaje progu ani listy certyfikatów (DELF/DALF/TCF) ... Do potwierdzenia\".",
+  "proposedFix": "W polu widocznym dodać \"program po francusku; wymagany poziom niepotwierdzony, zakładać B2\"."
+ },
+ {
+  "city": "Bruksela",
+  "program": "Bachelier en médecine (ULB), Bachelor in de Geneeskunde (VUB)",
+  "field": "level / durationYears",
+  "severity": "ważne",
+  "problem": "ULB médecine: level \"jednolite\" przy durationYears 3 (to tylko bachelor, cała ścieżka 6 lat); VUB Geneeskunde: jednolite 6 z roku 2022/23 (starsza edycja katalogu). Niespójne etykiety poziomu i czasu.",
+  "evidence": "ULB: level jednolite, duration 3; notes: \"Licencjat trwa 3 lata, razem z magisterstwem ścieżka lekarska ma 6 lat (... wiedza ogólna do potwierdzenia)\". VUB: \"z roku 2022/23 (starsza edycja)\".",
+  "proposedFix": "ULB: level \"licencjat\", dodać pole \"ścieżka do zawodu 6 lat\"; VUB potwierdzić z aktualnej strony."
+ },
+ {
+  "city": "Bruksela",
+  "program": "ULB médecine",
+  "field": "applyUrl / deadline",
+  "severity": "ważne",
+  "problem": "Termin konkursu ARES (rejestracja 18 maja do 5 lipca 2026) i applyUrl concoursmd.be pochodzą z wyniku wyszukiwania (\"wg wyniku wyszukiwania\"), nie ze strony oficjalnej. Limit dla nierezydentów \"15 procent lub inna wartość\".",
+  "evidence": "applyUrl: \"https://www.concoursmd.be (rejestracja do konkursu, wg wyniku wyszukiwania ...)\"; notes: \"limit ... niewyraźne: 15 procent lub inna wartość\".",
+  "proposedFix": "Usunąć liczby i daty bez źródła do czasu pobrania ares-ac.be."
+ },
+ {
+  "city": "Bruksela",
+  "program": "VUB wszystkie",
+  "field": "tuition.nonEu",
+  "severity": "drobne",
+  "problem": "Stawki 1 280 + 52 EUR i 2 200 + 52 EUR za ECTS (non-EU) nie występują w pobranym PDF (zawiera tylko tabelę EEA 2026-27). Dla maturzysty z UE bez znaczenia, ale liczby są niepotwierdzone w podanym url.",
+  "evidence": "https://www.vub.be/sites/default/files/2026-05/2025_Studiegeld_tarieven_EER_2627_ENG.pdf: \"Tuition fees EEA students – Academic year 2026-2027\"; brak 1280, 2200, 52.",
+  "proposedFix": "Dodać sourceUrl do cennika non-EEA albo usunąć."
+ },
+ {
+  "city": "Bruksela",
+  "program": null,
+  "field": "gaps",
+  "severity": "ważne",
+  "problem": "Żargon sesji roboczej w lukach: \"nie ujęto trzeciej i czwartej uczelni ... nie sprawdzano, ograniczenie liczby wywołań\". To informacja o narzędziach, nie o danych. Dodatkowo \"wynik wyszukiwania\" i \"nie pobrano\" w kilku miejscach.",
+  "evidence": "gaps[0]: \"nie sprawdzano, ograniczenie liczby wywołań\".",
+  "proposedFix": "Zamienić na \"Nie uwzględniono KU Leuven (kampus Bruksela) i Erasmushogeschool Brussel.\""
+ },
+ {
+  "city": "Bruksela",
+  "program": "VUB Business Economics",
+  "field": "admission.requirements",
+  "severity": "drobne",
+  "problem": "Wymóg średniej 3,0/4,0 lub 70 procent jest potwierdzony, ale nie wyjaśniono, jak przeliczyć polską maturę lub średnią ocen. Nastolatek nie wie, czy spełnia próg.",
+  "evidence": "VUB: \"we only accept students with a GPA of 3.0 out of 4.0, or 70% average or higher for this programme.\"",
+  "proposedFix": "Dodać przypis \"przeliczenie skali ocen robi uczelnia, zapytać admissions\"."
+ },
+ {
+  "city": "Dublin",
+  "program": "TU Dublin (wszystkie programy)",
+  "field": "tuition.eu",
+  "severity": "ważne",
+  "problem": "Student Contribution 3 000 EUR (strona TU Dublin) kontra 2 500 EUR (HEA, TCD) i 2 543 EUR (DCU). Rozbieżność jest opisana, ale kwota 3 000 EUR zostaje w danych. Użytkownik dostaje trzy różne liczby za to samo świadczenie.",
+  "evidence": "https://www.tudublin.ie/study/undergraduate/courses/computer-science-tu856/: \"Fees (EU) €3,000 Per Year\"; HEA: \"student contribution charge of €2,500 per year (2025/26 academic year)\".",
+  "proposedFix": "Zapytać TU Dublin lub użyć stawki z oficjalnej tabeli opłat 2026/27; do czasu wyjaśnienia pisać \"2 500 do 3 000 EUR (zależnie od uczelni, do potwierdzenia)\"."
+ },
+ {
+  "city": "Dublin",
+  "program": "TCD, DCU, TU Dublin",
+  "field": "tuition.eu",
+  "severity": "ważne",
+  "problem": "Czesne UE jako \"3 181 EUR plus 2 500 EUR\" (TCD) może wprowadzić w błąd: tabela TCD pokazuje je jako EU tuition + contribution, a pokrycie czesnego przez Free Fees Initiative to wniosek z połączenia stron TCD i HEA, nie zdanie TCD. Dla DCU \"EU Status Fee 6 679 EUR\" nie dotyczy kandydata z 3 z 5 lat pobytu w UE, ale komunikat jest zawiły. Ryzyko: kwota 5 681 EUR może zostać uznana za koszt.",
+  "evidence": "TCD fees: \"€3,181.00 €2,500.00 €5,681.00 €22,580.00\" (https://www.tcd.ie/courses/undergraduate/fees/). Dane: \"wniosek z połączenia stron TCD i HEA, TCD nie opisuje tego na stronie opłat\".",
+  "proposedFix": "Na pierwszym miejscu podać \"płacisz 2 500 EUR (Student Contribution), czesne pokrywa państwo, jeśli mieszkałeś 3 z ostatnich 5 lat w UE/EOG/CH/UK\", resztę w przypisie."
+ },
+ {
+  "city": "Dublin",
+  "program": "wszystkie",
+  "field": "admission.requirements",
+  "severity": "ważne",
+  "problem": "W każdym programie ten sam, ponad 500-znakowy blok z tabelą przeliczników CAO (powtórzony ok. 20 razy), przez co pole requirements jest nieczytelne, a konkretne wymagania programu giną. Punkty ostatniego naboru (np. 577) to punkty Leaving Cert, nie matury, co jest zapisane, ale w środku bloku.",
+  "evidence": "requirements: \"Przelicznik CAO Matura na punkty ... Tabela równoważności ocen: H1 90 procent ...\" (powtórka). Potwierdzone w CAO: \"100% 600, 90% 553 ... Bonus points of 25 ... 40% at extended level Mathematics\" (https://www2.cao.ie/downloads/documents/2026/Guidelines-EU-EFTA-UK-2026.pdf).",
+  "proposedFix": "Przenieść tabelę do summary miasta (raz), w programach zostawić tylko wymagania przedmiotowe i punkty LC z adnotacją."
+ },
+ {
+  "city": "Dublin",
+  "program": "wszystkie",
+  "field": "deadline / academicYear",
+  "severity": "ważne",
+  "problem": "Wszystkie terminy CAO (1 lutego, 1 maja, HPAT 13 do 16 lutego) pochodzą z cyklu 2026, rok akademicki zapisany jako 2026/27, choć maturzysta zaczyna w 2027. Cykl 2027 niepotwierdzony, ale w polu deadline stoi \"cykl 2026\" i \"wzorzec 1 lutego\".",
+  "evidence": "deadline: \"CAO: wniosek do 1 lutego (cykl 2026 ...). Daty cyklu 2027 ... nie zostały znalezione; wzorzec 1 lutego, niepotwierdzony.\"",
+  "proposedFix": "Zmienić academicYear na \"2027/28 (warunki z cyklu 2026/27)\" i dodać ikonę ostrzeżenia przy terminie."
+ },
+ {
+  "city": "Dublin",
+  "program": "UCD Medicine DN400",
+  "field": "tuition",
+  "severity": "ważne",
+  "problem": "Rekord bez czesnego (UE i non-EU None), tuitionUrl wskazuje stronę opłat 2026/27 bez cyfr; w mieście brakuje UCD (największy uniwersytet) poza jednym wierszem z PDF CAO. Maturzysta może uznać, że to cała oferta UCD.",
+  "evidence": "tuitionEu: None, tuitionNonEu: None; gaps[0]: \"W pliku tylko Medicine DN400 z dokumentu CAO. Brak UCD: informatyka, psychologia, prawo ...\".",
+  "proposedFix": "Dołączyć kierunki UCD albo ukryć rekord UCD i dopisać w opisie miasta, że UCD nie opracowano."
+ },
+ {
+  "city": "Dublin",
+  "program": null,
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Żargon sesji roboczej: \"nie obchodzono blokady\", \"strona gov.ie zwróciła 403\", \"cytaty dosłowne ograniczone\", \"(wg odczytu)\", \"(wg wyszukiwania 2025)\". Informacja o obniżce kontrybucji o 500 EUR pochodzi z wyszukiwania i jest niepotwierdzona.",
+  "evidence": "gaps[0], gaps[3], gaps[7], gaps[17].",
+  "proposedFix": "Przepisać na komunikaty merytoryczne, usunąć niepotwierdzoną wzmiankę o obniżce."
+ },
+ {
+  "city": "Dublin",
+  "program": "DCU wszystkie",
+  "field": "languageProof",
+  "severity": "drobne",
+  "problem": "Komunikat \"Polska Matura nie jest wymieniona wśród akceptowanych egzaminów z angielskiego na stronie DCU\" kłóci się z CAO (angielski rozszerzony min. 60%, ustny min. 55%, wystarcza jako minimum). Maturzysta nie wie, czy IELTS jest konieczny.",
+  "evidence": "CAO: \"The minimum acceptable level of English is 60% @ Advanced level in the Świadectwo Dojrzałości with oral at least 55%\". DCU: brak wzmianki o Maturze.",
+  "proposedFix": "Dopisać \"zapytać ugadmissions@dcu.ie; do tego czasu przygotować IELTS 6,5\"."
+ },
+ {
+  "city": "Londyn",
+  "program": "Imperial Computing, Economics Finance and Data Science, Mechanical, Civil, Medicine",
+  "field": "admission.requirements",
+  "severity": "krytyczne",
+  "problem": "Wymagania dla Matury (stanine 9, 91 procent itd.) przypisano do Polski \"z kolejności listy\", ponieważ lista na stronie Imperial nie podpisuje krajów (jest tylko wykaz akceptowanych kwalifikacji, w tym \"Poland: Matura\", i osobny anonimowy ciąg wymagań). Dane przyznają: \"odczytano z kolejności listy\". Wiele wymagań (stanine 9 z matematyki i fizyki) może dotyczyć innego kraju. To zgadywanie, zakazane zasadami planu, a błędna progi mogą zniechęcić lub zmylić ucznia.",
+  "evidence": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/: \"Our minimum entry standard is: 91% in the State Exam including Mathematics Extensive 5 in five subjects\" oraz osobno \"...following subjects at advanced level - numerical grades refer to the required stanine: 9 in Mathematics 9 in a relevant subject\" bez nazwy kraju. Dane: \"tekst tabeli nie opisuje wprost, że to Polska, odczytano z kolejności listy\".",
+  "proposedFix": "Usunąć progi stanine z danych albo potwierdzić kraj (strona Imperial \"Poland\" lub Ecctis) i podać dosłowny cytat; do tego czasu wpisać \"wymagania dla Matury niepotwierdzone, sprawdź stronę uczelni\"."
+ },
+ {
+  "city": "Londyn",
+  "program": "Imperial Medicine MBBS/BSc",
+  "field": "deadline",
+  "severity": "ważne",
+  "problem": "W polu deadline zapisano czasowy komentarz \"Dzisiaj jest 3 października 2026, czyli zostało 12 dni, a okno UCAT już minęło\". Treść dezaktualizuje się następnego dnia. Termin UCAS 15 października 2026 dla wejścia 2027 jest poprawny.",
+  "evidence": "deadline: \"UCAS do czwartku 15 października 2026 ... Dzisiaj jest 3 października 2026, czyli zostało 12 dni\". Potwierdzone: \"15 October 2026 (18.00 UK time) – Deadline for MBBS Medicine\" (https://www.imperial.ac.uk/study/apply/undergraduate/process/deadlines/).",
+  "proposedFix": "Usunąć zdanie o liczbie dni; do ostrzeżeń dodać \"UCAT trzeba było zdać w 2026\"."
+ },
+ {
+  "city": "Londyn",
+  "program": "QMUL (wszystkie), KCL Psychology",
+  "field": "source",
+  "severity": "ważne",
+  "problem": "Strony QMUL zwracają teraz 403 i nie dało się zweryfikować czesnego 30 950 i 34 750 GBP, tabeli Matury (85/80/75/70 procent) ani zapisu o braku akceptacji Matury na medycynie (zapisany jako \"nieuznawana\"). Pominięto bez obchodzenia blokady.",
+  "evidence": "curl: https://www.qmul.ac.uk/international-students/regions/europe/entry-requirements/poland/ oraz /fmd/.../a100/entry-requirements/ HTTP 403.",
+  "proposedFix": "Powtórzyć kontrolę z przeglądarki Ady; do tego czasu oznaczyć jako niezweryfikowane."
+ },
+ {
+  "city": "Londyn",
+  "program": "QMUL Law, Psychology, CS, Economics, Mechanical",
+  "field": "selective",
+  "severity": "ważne",
+  "problem": "Pole selective = false dla kierunków z ofertą A*AA i AAA (prawo, ekonomia, informatyka), czyli bardzo konkurencyjnych. Nastolatek odczyta \"nie selektywny\". Dodatkowo oferta Matury jest \"wyprowadzona z tabeli ogólnej\", nie podana przez QMUL dla kursu.",
+  "evidence": "Law: requirements \"Typowa oferta A-level: A*AA ... 85%\"; selective: False. Notes: \"QMUL nie podaje osobnej oferty Matury dla tego kursu\".",
+  "proposedFix": "Ustawić selective=true dla ofert z A*; napisać \"oferta wyliczona z tabeli ogólnej, potwierdzić z uczelnią\"."
+ },
+ {
+  "city": "Londyn",
+  "program": "wszystkie",
+  "field": "tuition.eu / eu flag",
+  "severity": "drobne",
+  "problem": "Poprawnie zaznaczono eu=false i brak preferencji UE (czesne dla zagranicznych). Brak jednak widocznego ostrzeżenia na poziomie programu, że polski obywatel płaci stawkę międzynarodową (ok. 31 do 62 tys. GBP); ostrzeżenie tylko w summary. Dodatkowo summary zawiera kalkę \"Część danych do potwierdzenia\" i niezgrabne \"Cena obowiązuje za rok\".",
+  "evidence": "tuitionEu: None; summary[Opłaty]: \"Cena obowiązuje za rok, a QMUL zapowiada podwyżkę inflacyjną do 10 proc.\" (niepotwierdzone, QMUL 403).",
+  "proposedFix": "Dodać do każdego rekordu \"Polak płaci jak student spoza UE\"; zdanie o podwyżce usunąć albo potwierdzić."
+ },
+ {
+  "city": "Londyn",
+  "program": "Imperial Mechanical, Civil Engineering",
+  "field": "tuition.nonEu",
+  "severity": "drobne",
+  "problem": "Czesne 45 500 GBP to stawka 2026/27, a academicYear to 2027/28; Imperial dla 2027 podaje wyższe kwoty (Computing 47 800, medycyna 61 550 potwierdzone). Dane to odnotowują.",
+  "evidence": "tuitionNonEu: \"45 500 GBP rocznie (stawka 2026/27; 2027 niepotwierdzona)\".",
+  "proposedFix": "W polu widocznym dopisać \"w 2027/28 zapewne wyższa\"."
+ },
+ {
+  "city": "Londyn",
+  "program": null,
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Żargon sesji: \"strony UCAS nie udało się pobrać\", \"UCL zwraca 403\", \"Z wyniku wyszukiwania wiadomo\", \"dynamiczna część strony, nie pobrano\".",
+  "evidence": "gaps[0], gaps[1], summary[Rekrutacja]: \"strony UCAS nie udało się pobrać\".",
+  "proposedFix": "Przepisać na \"Nie uwzględniono UCL (strona niedostępna)\"."
+ },
+ {
+  "city": "Paryż",
+  "program": "wszystkie licence i PASS",
+  "field": "selective",
+  "severity": "ważne",
+  "problem": "Pole selective = false dla kierunków z kilkunasto do kilkudziesięciokrotnym nadmiarem zgłoszeń (np. Paris Cité Psychologie: 620 miejsc, 15 677 zgłoszeń; Paris 1 Droit: 745 miejsc, 19 404 zgłoszeń). Formalnie licence nie jest selektywna, ale komisja układa ranking, a flaga false wprowadza w błąd.",
+  "evidence": "requirements: \"Kierunek formalnie bez selekcji (formation non sélective), ale ma limit miejsc ... Sesja Parcoursup 2025: 620 miejsc, 15677 zgłoszeń, 618 przyjęć\"; selective: False.",
+  "proposedFix": "Zmienić selective na true (rankingowa) dla kierunków z dużym nadmiarem; w opisie wyjaśnić."
+ },
+ {
+  "city": "Paryż",
+  "program": "wszystkie",
+  "field": "academicYear / deadline",
+  "severity": "ważne",
+  "problem": "academicYear = 2026/27, a Parcoursup 2026/27 (19 stycznia do 12 marca 2026) już minął. Maturzysta z 2027 aplikuje na 2027/28; czesne 178 EUR i 2 902 EUR też dotyczy 2026/27. Wzorzec \"grudzień, połowa stycznia do połowy marca\" jest wspomniany, ale nieoficjalny dla 2027.",
+  "evidence": "Campus France (updated 25 June 2026): \"tuition fees for the 2026–2027 academic year are: €178 per year for a Bachelors degree program\". Euroguidance: \"du 19 janvier au 12 mars en 2026\".",
+  "proposedFix": "Zmienić academicYear na 2027/28 z adnotacją \"opłaty z 2026/27, terminy 2027 niepublikowane\" i dodać ostrzeżenie \"terminy z poprzedniego cyklu\"."
+ },
+ {
+  "city": "Paryż",
+  "program": "Licence Économie, parcours International Track (Paris 1)",
+  "field": "languageProof",
+  "severity": "ważne",
+  "problem": "Wymóg angielskiego B2 nie występuje na pobranej stronie programu (brak \"B2\", \"level\", \"English proficiency\"). Strona potwierdza 250 miejsc i opłaty krajowe.",
+  "evidence": "https://economie.pantheonsorbonne.fr/international/licence-economie-international-track: \"will admit 250 first-year undergraduate students ... tuition fees set at the national rate\"; brak \"B2\".",
+  "proposedFix": "Podać url z wymaganiem językowym albo napisać \"poziom niepotwierdzony\"."
+ },
+ {
+  "city": "Paryż",
+  "program": "wszystkie",
+  "field": "tuition.eu",
+  "severity": "drobne",
+  "problem": "Obowiązkowa CVEC 105 EUR nie występuje na stronie Campus France z opłatami (strona odsyła do osobnej podstrony CVEC). Kwota 105 EUR niepotwierdzona w podanym url.",
+  "evidence": "https://www.campusfrance.org/en/tuition-fees-france: potwierdzone 178, 255, 630, 2 902 EUR; brak \"105\".",
+  "proposedFix": "Dodać sourceUrl do strony CVEC (cvec.etudiant.gouv.fr)."
+ },
+ {
+  "city": "Paryż",
+  "program": null,
+  "field": "admission.sourceUrl",
+  "severity": "drobne",
+  "problem": "admissionUrl wszystkich programów wskazuje PDF z umową polsko-francuską (dekret 2009-652), a nie stronę uczelni czy Parcoursup. To poprawne źródło dla uznania matury (art. 4: prawo do podjęcia procedur przyjęcia na licence i CPGE), ale nie dla warunków kierunku.",
+  "evidence": "https://www.pologne.campusfrance.org/.../CONVENTION sur la reconnaissance des qualifications.pdf: \"donnent le droit dentreprendre les procédures dadmission aux études de licence ...\".",
+  "proposedFix": "Dodać drugi url: karta formacji w Parcoursup lub strona kierunku."
+ },
+ {
+  "city": "Paryż",
+  "program": null,
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Żargon sesji: \"Parcoursup zablokował pobranie stron\", \"nie pobrano dosłownie\" (powtórzone w wielu notes), \"Część danych do potwierdzenia na stronie uczelni.\" wklejone w zdanie.",
+  "evidence": "gaps[0], gaps[1], notes przy Droit, Économie, Gestion, MIASHS.",
+  "proposedFix": "Przepisać na \"Nie sprawdzono kart formacji w Parcoursup\"."
+ },
+ {
+  "city": "Wiedeń",
+  "program": "summary",
+  "field": "Polska matura",
+  "severity": "ważne",
+  "problem": "Pierwsze zdanie: \"Austria nie ma numerus clausus\", a dalej \"Na kierunkach z limitem (Psychologie, Informatik, Recht ...) decyduje test\". W praktyce Austria ma ograniczenia miejsc i testy (Aufnahmeverfahren, MedAT), więc zdanie otwierające jest mylące.",
+  "evidence": "Summary: \"Austria nie ma numerus clausus ani punktów za maturę ... Na kierunkach z limitem ... decyduje test wstępny\".",
+  "proposedFix": "Zmienić na \"Austria nie stosuje ogólnego numerus clausus, ale na wielu kierunkach są limity miejsc i testy wstępne\"."
+ },
+ {
+  "city": "Wiedeń",
+  "program": "WU Wien (WiSo, BBE, Wirtschaftsrecht)",
+  "field": "tuition.eu / deadline",
+  "severity": "ważne",
+  "problem": "Opłata 50 EUR za Aufnahmeverfahren i terminy pochodzą ze strony zawierającej dane z 2023, które gaps uznają za \"zignorowane\". Sprzeczność: dane ignorowane w gaps są użyte w tuitionEu. Strona WU potwierdza \"registration fee is 50 euros\" tylko w kontekście \"before May 22, 2023\".",
+  "evidence": "https://www.wu.ac.at/en/programs/application-and-admission/selection-and-application-procedures: \"The registration fee is 50 euros for each bachelors degree. WU must have received the fee prior to May 22, 2023.\"; gaps: \"angielskie FAQ zawierało nieaktualne dane z 2023, zignorowane\".",
+  "proposedFix": "Usunąć kwotę 50 EUR i daty \"wiosna 2027\" do czasu potwierdzenia na aktualnej stronie WU."
+ },
+ {
+  "city": "Wiedeń",
+  "program": "Universität Wien Psychologie, Informatik, Recht, VWL, BWL",
+  "field": "deadline",
+  "severity": "ważne",
+  "problem": "Daty (wniosek 2 marca do 4 maja 2026, testy 7, 8, 13, 14 lipca 2026) nie występują na stronie aufnahmeverfahren.univie.ac.at/psychologie (strona pokazuje 485 miejsc, 2,5 godziny, 50 EUR). Daty nieweryfikowalne w podanym url; to terminy z 2026, już przeszłe, a teraz brak terminu 2027.",
+  "evidence": "https://aufnahmeverfahren.univie.ac.at/psychologie: \"Studienplätze 485\", \"Testdauer 2,5 Stunden\", \"Kostenbeitrag 50 Euro\"; brak \"4 May\", \"14 July\".",
+  "proposedFix": "Dodać url do tabeli terminów (Anmeldung) lub ostrzec \"terminy z 2026, na 2027 poda uczelnia pod koniec 2026\"."
+ },
+ {
+  "city": "Wiedeń",
+  "program": "Universität Wien Publizistik",
+  "field": "requirements",
+  "severity": "drobne",
+  "problem": "Informacja \"w 2026 test się nie odbył\" bez wyjaśnienia powodu; może być mylące (brak limitu w tym roku nie gwarantuje przyszłości).",
+  "evidence": "requirements: \"W 2026 test się nie odbył: strona programu podaje Findet nicht statt. Bewerbung nicht mehr möglich.\".",
+  "proposedFix": "Dodać \"decyzja o teście zapada co roku, brak testu w 2026 nie jest gwarancją\"."
+ },
+ {
+  "city": "Wiedeń",
+  "program": null,
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Żargon sesji roboczej: \"Tekstu art. 64 UG ... nie pobrano z RIS\", \"nie otwierano\", \"kilka zgadywanych adresów zwróciło 404\", \"Cytaty są skrótami i tłumaczeniami\", \"Koszty życia ... poza zakresem\".",
+  "evidence": "gaps[7], gaps[10], gaps[11].",
+  "proposedFix": "Przepisać na komunikaty bez opisu narzędzi."
+ },
+ {
+  "city": "Wiedeń",
+  "program": "MedUni Wien Humanmedizin",
+  "field": "requirements",
+  "severity": "drobne",
+  "problem": "Rozbieżność liczby miejsc (692 na stronie programu vs 704 na stronie MedAT) jest tylko w gaps; w rekordzie liczby miejsc brak. Potwierdzono 704, kontyngent 75 procent austriacki i 95 procent austriacki plus UE, opłata MedAT 110 EUR i daty \"expected\" 1 do 31 marca 2027, test 9 lipca 2027.",
+  "evidence": "https://www.medizinstudieren.at/en/allgemeine-informationen/information-in-english/: \"Medical University of Vienna 704 80 784\"; \"MedAT Test expected 09.07.2027\".",
+  "proposedFix": "Dodać do rekordu liczbę 704 z tej strony i oznaczenie \"daty oczekiwane\"."
+ },
+ {
+  "city": "Sztokholm",
+  "program": "Stockholms universitet Psykologprogrammet",
+  "field": "deadline",
+  "severity": "ważne",
+  "problem": "Terminy 15 kwietnia i 15 października pochodzą z \"wyniku wyszukiwania ze strony su.se\", nie z pobranej strony. Dla programów szwedzkojęzycznych rok 2027 niepotwierdzony.",
+  "evidence": "deadline: \"Strona SU podaje terminy 15 kwietnia ... (źródło: wynik wyszukiwania ze strony su.se); ... oczekiwane 15 kwietnia 2027\".",
+  "proposedFix": "Usunąć albo potwierdzić na antagning.se / su.se (strona terminów)."
+ },
+ {
+  "city": "Sztokholm",
+  "program": "wszystkie programy po szwedzku (SU, KTH, KI)",
+  "field": "languages / languageProof",
+  "severity": "ważne",
+  "problem": "Poziom szwedzkiego (Svenska 3, TISUS) opisano jako \"zasadę ogólną, niepotwierdzoną na stronie uczelni\". 11 z 12 programów jest po szwedzku. Maturzysta może założyć, że wystarczy angielski, bo summary opisuje Engelska 6.",
+  "evidence": "languageProof: \"Dowód szwedzkiego (Svenska 3, TISUS): zasada ogólna, niepotwierdzona na stronie programu KI\"; KI: \"Programmet ges på svenska och ställer höga krav ...\" (https://utbildning.ki.se/bli-student/program-och-kurser/lakarprogrammet).",
+  "proposedFix": "Na początku opisu miasta: \"tylko jeden licencjat po angielsku (KTH ICT), reszta wymaga szwedzkiego\". Poziom szwedzkiego potwierdzić na uhr.se."
+ },
+ {
+  "city": "Sztokholm",
+  "program": "KTH Civilingenjör ICT",
+  "field": "deadline",
+  "severity": "ważne",
+  "problem": "Daty rundy 1 (otwarcie 16 października 2026, termin 15 stycznia 2027, wyniki 8 kwietnia) i rundy 2 nie zostały zweryfikowane: kontrolne adresy universityadmissions.se zwróciły 404, a strona KTH tych dat nie zawiera. Nastolatek, który ma plan na rok 2027, może polegać na niepotwierdzonych datach.",
+  "evidence": "Dane: \"Runda 1: otwarcie 16 października 2026, ostatni dzień 15 stycznia 2027 ...\". Próby weryfikacji: universityadmissions.se/en/application-dates/ HTTP 404.",
+  "proposedFix": "Dodać url do oficjalnej strony dat (universityadmissions.se, \"Important dates\") i dosłowny cytat."
+ },
+ {
+  "city": "Sztokholm",
+  "program": "KTH Arkitektutbildning, Datateknik, Maskinteknik, Samhällsbyggnad",
+  "field": "languages",
+  "severity": "ważne",
+  "problem": "Język programu niepotwierdzony na stronach (languages wpisane \"szwedzki\" na podstawie tytułu szwedzkiej strony). Rekordy łączą niepotwierdzony język z \"jednolite 5\" i typem selekcji.",
+  "evidence": "notes: \"Język programu: strona podaje tylko tytuł szwedzki; wymóg szwedzkiego nie został potwierdzony na stronie programu (luka)\".",
+  "proposedFix": "Oznaczyć jako \"język wykładowy do potwierdzenia\" i nie pokazywać w widoku zawodowym."
+ },
+ {
+  "city": "Sztokholm",
+  "program": null,
+  "field": "gaps",
+  "severity": "ważne",
+  "problem": "Urwane zdania w lukach: \"SU ma po angielsku tylko siedem programów licencjackich z innych dziedzin (m.in. Część danych do potwierdzenia na stronie uczelni.\" oraz \"(KI: requires knowledge of Swedish; Zweryfikować. Część danych ...\" Do tego żargon: \"limit narzędzi\", \"w tej sesji\", \"Plik Polska na universityadmissions\".",
+  "evidence": "gaps[0], gaps[2]; summary[Polska matura]: \"co nie zostało potwierdzone na stronach uczelni w tej sesji\".",
+  "proposedFix": "Przepisać luki w całych zdaniach; usunąć \"w tej sesji\" i \"limit narzędzi\"."
+ },
+ {
+  "city": "Sztokholm",
+  "program": "KI Läkarprogrammet",
+  "field": "deadline",
+  "severity": "drobne",
+  "problem": "Komentarz czasowy \"(otwarte, 12 dni)\" w polu deadline dezaktualizuje się po jednym dniu; termin VT27 (wiosna 2027) nie dotyczy maturzysty z 2027.",
+  "evidence": "deadline: \"Dla VT27: 15 października 2026 (otwarte, 12 dni)\". Potwierdzone: \"Sista anmälningsdag: 2026-10-15\", \"Antal platser: 160\" (https://utbildning.ki.se/bli-student/program-och-kurser/lakarprogrammet).",
+  "proposedFix": "Usunąć \"12 dni\" i pole VT27, zostawić HT27 jako \"oczekiwane 15 kwietnia 2027\"."
+ },
+ {
+  "city": "Sztokholm",
+  "program": "Södertörn / ekonomia",
+  "field": "coverage",
+  "severity": "drobne",
+  "problem": "Brak ekonomii i dziennikarstwa (Södertörn nieprzebadany), pominięty KI Biomedicine; zasięg miasta wąski (SU, KTH, KI). Przyznano w gaps.",
+  "evidence": "gaps: \"Brak ekonomii i zarządzania ... limit narzędzi\"; \"Södertörn Journalistik ... niepobrane\".",
+  "proposedFix": "Uzupełnić albo zaznaczyć na stronie \"kierunki ekonomiczne nieopracowane\"."
+ },
+ {
+  "city": "Amsterdam, Bruksela, Dublin, Londyn, Kopenhaga, Sztokholm",
+  "program": null,
+  "field": "tekst / typografia",
+  "severity": "ważne",
+  "problem": "Kwoty z tysiącami i walutą mają zwykłą spację (plan wymaga twardej spacji). Policzone przez grep: amsterdam 56, bruksela 51, dublin 73, londyn 17, kopenhaga 13, sztokholm 3 wystąpienia. Berlin i Paryż mają twarde spacje, Wiedeń nie ma takich kwot. Dodatkowo kalka \"Część danych do potwierdzenia na stronie uczelni.\" doklejana w środek zdań. Długich myślników nie znaleziono.",
+  "evidence": "grep w data/zagranica/*.json: wzorzec cyfra, spacja, trzy cyfry, waluta; U+00A0 w amsterdam.json: 0 wystąpień, berlin.json: 92, paryz.json: 65.",
+  "proposedFix": "Zamienić spację przed tysiącami i przed walutą na U+00A0, usunąć frazę zbiorczą \"Część danych do potwierdzenia ...\" i zastąpić konkretną adnotacją tam, gdzie brakuje potwierdzenia."
+ }
+]

@@ -90,11 +90,9 @@ async function build() {
   fs.rmSync(path.join(ROOT, 'zawod'), { recursive: true, force: true });
   for (const pg of pages) staticPage(...pg);
 
-  const today = new Date().toISOString().slice(0, 10);
-  const urls = [['', 1.0, 'weekly'], ...pages.filter(pg => pg[0] !== 'zagranica/koszty').map(pg => [pg[0] + '/', pg[0].startsWith('zawod/') ? 0.8 : 0.7, 'monthly'])];
-  fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
-    urls.map(([u, pr, fr]) => `  <url><loc>${SITE}/${u}</loc><priority>${pr.toFixed(1)}</priority><changefreq>${fr}</changefreq><lastmod>${today}</lastmod></url>`).join('\n') + '\n</urlset>\n');
-  console.log(`  statyczne strony: ${pages.length}, sitemap: ${urls.length} adresów`);
+  // Strona jest ukryta (noindex, bez mapy strony): dostęp mają tylko osoby z adresem
+  fs.rmSync(path.join(ROOT, 'sitemap.xml'), { force: true });
+  console.log(`  statyczne strony: ${pages.length}`);
 
   console.log(`\n  Total saved: ${(totalSaved / 1024).toFixed(1)} KB`);
 }

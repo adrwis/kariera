@@ -1,0 +1,515 @@
+[
+ {
+  "city": "Madryt",
+  "program": null,
+  "field": "summary[Znajomość angielskiego]",
+  "severity": "ważne",
+  "problem": "Etykieta \"Znajomość angielskiego\" opisuje wymóg hiszpańskiego B2 (programy po hiszpańsku). O angielskim jest jedno zdanie i brak progu. Nastolatek szukający angielskiego nie znajdzie odpowiedzi.",
+  "evidence": "Tekst pola: \"Programy po hiszpańsku wymagają poziomu B2 hiszpańskiego ...\"; ten sam błąd etykiety w Lizbonie i Atenach.",
+  "proposedFix": "Zmienić etykietę na \"Znajomość języka\" i dodać osobne zdanie o programach po angielsku (UCM ADE i Economía, UC3M Datos), z luką, że progu nie znaleziono."
+ },
+ {
+  "city": "Madryt",
+  "program": null,
+  "field": "summary[Znajomość angielskiego] / languageProof",
+  "severity": "ważne",
+  "problem": "Twierdzenie, że UPM, UAM i UC3M \"podają B2\", jest tylko częściowo pokryte. UC3M pisze, że B2 \"może być wymagany\" tylko dla kierunków wyłącznie po hiszpańsku lub dwujęzycznych. Cytowana strona UPM admision.upm.es/grado nie zawiera B2 ani UNEDasiss.",
+  "evidence": "UC3M: \"El nivel B2 de idioma español puede ser requerido si solicitas alguna titulación que se imparta sólo en español o bilingüe\" (https://www.uc3m.es/grado/admision/solicitud/estudiantes-internacionales/estudiantes-europeos). UPM https://admision.upm.es/grado: brak trafień B2/UNEDasiss.",
+  "proposedFix": "Dla UC3M zapisać \"może być wymagany\"; dla UPM podać źródło, w którym B2 faktycznie jest (strona UPM z id=CON09002/CON09026), albo usunąć UPM z listy."
+ },
+ {
+  "city": "Madryt",
+  "program": null,
+  "field": "summary[Rekrutacja] / deadline",
+  "severity": "ważne",
+  "problem": "Okno akredytacji UNEDasiss \"od 4 lutego do 1 grudnia\" i terminy preinscripción nie dały się zweryfikować dosłownie (strona UNEDasiss dynamiczna). Dane o dostępie do uczelni opierają się na akredytacji, więc to kluczowa liczba.",
+  "evidence": "curl https://unedasiss.uned.es/ zwraca 200, ale bez frazy \"4 de febrero\" i \"1 de diciembre\".",
+  "proposedFix": "Dodać adres dokumentu, z którego pochodzą daty, albo oznaczyć jako niepotwierdzone. Dodać ostrzeżenie, że akredytację trzeba złożyć z wyprzedzeniem (do 3 miesięcy rozpatrywania)."
+ },
+ {
+  "city": "Madryt",
+  "program": null,
+  "field": "tuitionEu / spacje",
+  "severity": "drobne",
+  "problem": "Brak twardej spacji w separatorze tysięcy w ok. 42 miejscach (np. \"1 015,20\", \"6 822,60\"). W summary spacje są twarde, w polach programów zwykłe, więc kwoty mogą się łamać w linii.",
+  "evidence": "Przykład: \"czyli 1 015,20 EUR za rok po 60 ECTS\" w UCM Psicología.",
+  "proposedFix": "Zamienić spację w liczbach i przed EUR na U+00A0 w całym pliku."
+ },
+ {
+  "city": "Madryt",
+  "program": "UCM, wszystkie programy",
+  "field": "tuitionEu / requirements",
+  "severity": "drobne",
+  "problem": "Kalka \"Poziom doświadczalności 3\" (nivel de experimentalidad) i \"konwokacja zwykła\", \"nota odcięcia\" bez objaśnienia. Dla maturzysty niezrozumiałe.",
+  "evidence": "Tekst: \"Pełny wymiar to co najmniej 48 ECTS na rok. Poziom doświadczalności 3.\"",
+  "proposedFix": "Usunąć poziom doświadczalności z opisu dla ucznia (zostawić w notes) i objaśnić \"nota odcięcia\" jako \"próg punktowy ostatniej przyjętej osoby\"."
+ },
+ {
+  "city": "Madryt",
+  "program": null,
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Pole gaps zawiera żargon zbierania danych i powtórzoną formułę \"Część danych do potwierdzenia na stronie uczelni.\" doklejoną do 3 różnych luk, także tam, gdzie nie ma sensu. Sformułowania \"nie zostały pobrane\", \"limit zbierania\", \"strona jest dynamiczna\".",
+  "evidence": "\"UAM: nie zebrano programu ... bo strony programów nie odpowiedziały lub wykraczały poza limit zbierania.\"",
+  "proposedFix": "Przepisać luki dla czytelnika (\"nie sprawdziliśmy, zapytaj uczelnię\") bez opisu procesu pobierania."
+ },
+ {
+  "city": "Madryt",
+  "program": null,
+  "field": "sources",
+  "severity": "drobne",
+  "problem": "Pole sources jest puste (0 wpisów), mimo że plan wymaga oficjalnych adresów. Adresy są tylko przy programach.",
+  "evidence": "\"sources\": []",
+  "proposedFix": "Dodać dekret 43/2022 (BOCM) i stronę UNEDasiss jako źródła miasta."
+ },
+ {
+  "city": "Rzym",
+  "program": null,
+  "field": "summary[Rekrutacja]",
+  "severity": "ważne",
+  "problem": "Sprzeczność wewnątrz miasta: \"Wszystkie okna 2026/27 już minęły\", a dane programów podają terminy przyszłe względem 2026-10-03: Roma Tre immatrykulacja do 16 listopada 2026, test Giurisprudenza 20 listopada 2026, Tor Vergata Business Administration zgłoszenia do 15 października 2026, Sapienza wolne miejsca 20 października. Nastolatek może uznać, że nabór się zakończył, albo nie zauważyć otwartego okna.",
+  "evidence": "Roma Tre bando: \"perfezionata ... con il pagamento della prima rata di tasse entro il 16 novembre 2026\" (https://www.uniroma3.it/wp-content/uploads/file_locked/2026/05/bando_accesso_libero_26-27_0704.pdf). Tor Vergata: \"THIRD SELECTION ROUND - DELPHI REGISTRATION DEADLINE: From August 10th, 2026 to October 15th, 2026\" (https://economia.uniroma2.it/ba/business-administration-economics/call-for-application/).",
+  "proposedFix": "Zastąpić zdanie: \"Część okien 2026/27 jest jeszcze otwarta (stan na 3 października 2026), ale dotyczy naboru na rok, który już trwa; maturzysta 2027 patrzy na nabór 2027/28\"."
+ },
+ {
+  "city": "Rzym",
+  "program": "Roma Tre, 6 programów",
+  "field": "tuitionEu",
+  "severity": "ważne",
+  "problem": "Kwota \"ok. 2 000 EUR w 4 ratach\" nie występuje na cytowanej stronie opłat. Strona podaje tylko zwolnienie do ISEE 23 000 EUR, częściowe do 30 000 EUR i zniżkę 20 procent. Kwota jest niepotwierdzona, a gap sam mówi \"ok. do potwierdzenia\".",
+  "evidence": "Strona: \"full exemption from tuition fees for students with an ISEE ... up to €23,000 and a partial exemption up to €30,000\" (https://orientamento.uniroma3.it/en/taxes-and-incentives/), brak 2 000 EUR i \"4 raty\".",
+  "proposedFix": "Usunąć kwotę albo dodać źródło (regulamin tasse Roma Tre). Dla osoby z dochodami za granicą opisać ISEE parificato."
+ },
+ {
+  "city": "Rzym",
+  "program": null,
+  "field": "summary[Opłaty]",
+  "severity": "ważne",
+  "problem": "Przestarzałe zdanie: \"Opłaty na 2026/27 Sapienza publikuje po 30 września 2026\". Dziś jest 3 października, a użyte kwoty 2 821 i 2 924 EUR pochodzą z 2025/26 (strona ma terminy płatności 6 listopada 2025). Ostrzeżenie jest, ale zdanie jest już nieaktualne.",
+  "evidence": "Sapienza: \"You can pay the enrolment fee ... by 6 November 2025\" (https://www.uniroma1.it/en/content/standard-registration-fee-amounts).",
+  "proposedFix": "Napisać: \"Kwoty z 2025/26; stawki 2026/27 powinny być już na stronie, sprawdź ponownie\". Ponownie pobrać stronę przed publikacją."
+ },
+ {
+  "city": "Rzym",
+  "program": "Sapienza Psicologia",
+  "field": "requirements",
+  "severity": "drobne",
+  "problem": "\"Miejsca dla obywateli UE: 275\" wprowadza w błąd. Pula 275 jest wspólna dla obywateli Włoch, innych krajów UE i osób spoza UE z zezwoleniem pobytowym w Włoszech.",
+  "evidence": "Bando: \"Nota 1 - Posti riservati a chi ha la cittadinanza italiana, in altro Paese UE e in un Paese non UE ma è titolare di un regolare permesso di soggiorno in Italia\" (https://www.uniroma1.it/sites/default/files/field_file_allegati/05429_i.pdf).",
+  "proposedFix": "Napisać: \"275 miejsc w puli dla Włochów i obywateli UE (wspólnie)\"."
+ },
+ {
+  "city": "Rzym",
+  "program": null,
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Urwane zdanie w gaps: \"Opłaty Roma Tre (ok. do potwierdzenia na portalestudente.uniroma3.it. Część danych do potwierdzenia na stronie uczelni.\" (niedomknięty nawias). Do tego żargon \"serwer MUR wyświetlał ekran ochronny i go nie obchodzono\" oraz \"nie odczytano\".",
+  "evidence": "Pole gaps, trzecia i czwarta pozycja.",
+  "proposedFix": "Przeredagować: \"Strona ministerstwa była niedostępna, liczb miejsc IMAT nie potwierdziliśmy\"."
+ },
+ {
+  "city": "Rzym",
+  "program": "Roma Tre, Economia/Giurisprudenza/Comunicazione",
+  "field": "languageProof",
+  "severity": "drobne",
+  "problem": "Wymaganie włoskiego B2 potwierdzone, ale brakuje wyjaśnienia dla nastolatka, że bez certyfikatu trzeba zdać test uczelni (70 EUR) przed immatrykulacją. Częściowo jest, ale w rubryce certyfikatu brak ostrzeżenia, że to wymóg do zapisu, nie do rekrutacji.",
+  "evidence": "Bando Roma Tre: \"certificazione ... B2, ovvero aver superato il test ... Il contributo di iscrizione al test è pari a euro 70,00\".",
+  "proposedFix": "Dodać zdanie z kosztem i terminem testu."
+ },
+ {
+  "city": "Lizbona",
+  "program": "wszystkie programy z Matemática A (m.in. IST, FCT, NOVA IMS, ISCTE)",
+  "field": "admission.polishMatura (matura)",
+  "severity": "krytyczne",
+  "problem": "Pole matura brzmi \"uznawana z warunkami\", a własne gaps mówią, że w tabeli odpowiedników CNAES nie znaleziono polskiego egzaminu z matematyki jako Matemática A, a polska matura z polskiego nie zastępuje Português. To znaczy, że dla większości kierunków (informatyka, inżynieria, medycyna, prawo, psychologia) dostęp nie jest potwierdzony. Etykieta jest zbyt optymistyczna.",
+  "evidence": "GAP: \"w tabeli odpowiedników egzaminów CNAES na 2026/27 (uchwała 619/2026) nie znaleziono polskiego egzaminu maturalnego z matematyki jako odpowiednika Matemática A\". DGES GENI: \"Provas de Ingresso 07 Física e Química 19 Matemática A\" (https://www.dges.gov.pt/guias/detcursopi.asp?codc=L343&code=1518).",
+  "proposedFix": "Zmienić wartość na \"wymaga dodatkowego etapu (egzaminy wstępne, uznanie egzaminów niepotwierdzone)\" albo \"nie potwierdzono\"; na pierwszym planie dać ostrzeżenie i prośbę o kontakt z DGES."
+ },
+ {
+  "city": "Lizbona",
+  "program": null,
+  "field": "summary[Polska matura]",
+  "severity": "ważne",
+  "problem": "Akapit o maturze zawiera kluczowe zastrzeżenie dopiero na końcu i długim wywodem prawnym (Decreto-Lei, art. 3 ust. 2 lit. a, CNAES 619/2026). Dla nastolatka nieczytelny. Dodatkowo niezweryfikowane tu liczby: numer uchwały i lista Anexo II (PDF z Diário da República nie był przeze mnie sprawdzany).",
+  "evidence": "Tekst: \"To główna luka: bez potwierdzenia w CNAES nie wiadomo, czy matura z matematyki wystarczy na większość kierunków.\"",
+  "proposedFix": "Przesunąć wniosek na początek, usunąć odwołania do numerów aktów z tekstu głównego (zostawić w źródłach)."
+ },
+ {
+  "city": "Lizbona",
+  "program": null,
+  "field": "summary[Opłaty]",
+  "severity": "drobne",
+  "problem": "Twierdzenie \"płatne w co najmniej siedmiu ratach\" bez pokrycia w sprawdzonych źródłach. NOVA SBE pisze, że czesne 697 EUR płaci się zwykle w dwóch ratach lub w dziesięciu.",
+  "evidence": "NOVA SBE: \"the tuition fees for 2026/2027 will be 697€/year. It is usually paid in two installments or, as an alternative, in ten installments.\" (https://www.novasbe.unl.pt/en/programs/apply/bachelors/national-call).",
+  "proposedFix": "Usunąć liczbę rat albo podać źródło ULisboa; napisać \"w ratach, liczba zależy od uczelni\"."
+ },
+ {
+  "city": "Lizbona",
+  "program": "Licenciatura em Engenharia Geral (GENI)",
+  "field": "careerIds",
+  "severity": "drobne",
+  "problem": "Pusta lista careerIds, więc program nie pojawi się przy żadnym zawodzie. Wpis jest merytorycznie poprawny (30 miejsc, Matemática A, 120 i 100 punktów potwierdzone w DGES).",
+  "evidence": "DGES: \"Vagas para 2026-2027: 30 ... Nota de candidatura: 120 pontos Provas de ingresso: 100 pontos\".",
+  "proposedFix": "Dodać \"inzynier-mechanik\" i \"inzynier-budownictwa\" albo zostawić pusty z notatką, że to kierunek ogólny."
+ },
+ {
+  "city": "Lizbona",
+  "program": null,
+  "field": "summary[Znajomość angielskiego] / languageProof",
+  "severity": "drobne",
+  "problem": "Etykieta \"Znajomość angielskiego\" obejmuje temat portugalskiego (CAPLE) i konstrukcję \"X, nie Y\" (\"CAPLE B2 to zalecenie, nie warunek znaleziony w źródłach\", 14 powtórzeń w plikach programów). Zdanie jest też logicznie niejasne: \"nie warunek znaleziony\" sugeruje inną rzecz, niż autor chciał.",
+  "evidence": "\"wymaga w praktyce swobodnej znajomości portugalskiego (CAPLE B2 to zalecenie, nie warunek znaleziony w źródłach)\".",
+  "proposedFix": "Przepisać: \"W źródłach konkursu krajowego nie znaleźliśmy wymogu certyfikatu z portugalskiego. Zajęcia są po portugalsku, więc B2 jest w praktyce potrzebne.\""
+ },
+ {
+  "city": "Lizbona",
+  "program": null,
+  "field": "tuitionEu",
+  "severity": "drobne",
+  "problem": "Czesne UE \"do potwierdzenia dla 2026/27\" w wielu programach, choć NOVA SBE potwierdza 697 EUR na 2026/27. Spójność roku akademickiego jest niepełna (część ULisboa 2025/26 vs NOVA 2026/27).",
+  "evidence": "NOVA SBE: \"tuition fees for 2026/2027 will be 697€/year\"; DGES/ULisboa: stawki 2025/26.",
+  "proposedFix": "Zapisać rok przy każdej kwocie; dla NOVA podać 2026/27."
+ },
+ {
+  "city": "Ateny",
+  "program": null,
+  "field": "deadline / summary[Rekrutacja]",
+  "severity": "ważne",
+  "problem": "Terminy ścieżki dla cudzoziemców z UE (wniosek 2 do 9 lipca 2026, kurier do 10 lipca, rejestracja 11 do 25 września) nie występują w cytowanym dokumencie ministerstwa. Dokument mówi, że terminy zostaną ogłoszone później.",
+  "evidence": "Dokument: \"CANDIDATES WILL BE NOTIFIED OF THE DATES FOR APPLYING BY A LATER ANNOUNCEMENT ON THE WEBSITE OF THE MINISTRY\" (https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc). Dokument zawiera też zdanie o kandydatach z roku 2025-2026, jest więc w części szablonem poprzedniego roku.",
+  "proposedFix": "Dodać źródło z datami (komunikat ministerstwa na minedu.gov.gr) albo oznaczyć daty jako niepotwierdzone i ostrzec, że terminu trzeba szukać co roku w czerwcu."
+ },
+ {
+  "city": "Ateny",
+  "program": "AUEB IBT; NKUA BAAG",
+  "field": "matura",
+  "severity": "ważne",
+  "problem": "Pole matura mówi \"uznawana\", choć źródło nie wymienia polskiej matury (\"nie wymienia z nazwy\"). Wg zasad projektu \"uznawana\" wymaga pokrycia w źródle. BAAG wymaga \"orientacyjnie średniej 70%\", nie wiadomo, jak to przeliczyć z matury.",
+  "evidence": "Dane: \"uznawana (strona wymaga świadectwa ukończenia liceum lub IB, orientacyjna średnia 70% lub równoważna; nie wymienia polskiej matury z nazwy)\".",
+  "proposedFix": "Zmienić na \"wymaga potwierdzenia przez uczelnię\" jak w Nikozji."
+ },
+ {
+  "city": "Ateny",
+  "program": "Ψυχολογία, Νομική, Οικονομικών, Πληροφορική i inne greckojęzyczne",
+  "field": "admission.polishMatura / summary",
+  "severity": "ważne",
+  "problem": "Ścieżka cudzoziemców jest wymieniona jako \"uznawana z warunkami\", ale wymaga certyfikatu greckiego (egzamin w maju i wrześniu w Atenach, \"Bez certyfikatu zapis możliwy dopiero w kolejnym roku\"), apostille, tłumaczenia przysięgłego i poświadczenia równoważności. To realne bariery, a przez strukturę pliku (osobne pole languageProof) łatwo je pominąć. Warunek rodzicielski w summary jest sformułowany niejasno (\"co najmniej jedno z rodziców bez greckiego pochodzenia\").",
+  "evidence": "Dokument ministerstwa: \"B.1. ... Candidates belong to this category on condition that: a) one of his/her parents is of non greek origin and b) the candidate has fully attended the last two classes of the lyceum ... in the country of his/her graduation\".",
+  "proposedFix": "Przepisać: \"Co najmniej jedno z rodziców nie ma greckiego pochodzenia.\" Dodać na górze ostrzeżenie: potrzebny certyfikat greckiego jeszcze przed zapisem."
+ },
+ {
+  "city": "Ateny",
+  "program": "8 z 16 programów",
+  "field": "durationYears",
+  "severity": "ważne",
+  "problem": "Pole durationYears jest null w 8 programach (wszystkie greckojęzyczne). Schemat tego wymaga, a czas studiów to podstawowa informacja dla rodzica.",
+  "evidence": "Programy NKUA Ψυχολογία, Πληροφορική και Τηλεπικοινωνίες, Νομική, Οικονομικών Επιστημών, Επικοινωνίας και ΜΜΕ, AUEB Πληροφορικής, Οικονομικών, Διοίκησης: durationYears null.",
+  "proposedFix": "Uzupełnić (zwykle 4 lata licencjat po 240 ECTS, jeśli strona wydziału tak mówi) albo ukryć pole w widoku z adnotacją \"nie sprawdzono\"."
+ },
+ {
+  "city": "Ateny",
+  "program": "NKUA Αρχαιολογία BAAG",
+  "field": "careerIds",
+  "severity": "drobne",
+  "problem": "careerIds puste; kierunek nie odpowiada żadnemu z 11 zawodów, ale zajmuje miejsce w pliku. Ponadto \"licencjat po angielsku z archeologii\" może sugerować ścieżkę do zawodu, której nie ma.",
+  "evidence": "careerIds: [].",
+  "proposedFix": "Rozważyć usunięcie z danych strony (poza zakresem zawodów) lub zostawić jako notatkę."
+ },
+ {
+  "city": "Ateny",
+  "program": null,
+  "field": "sources / gaps",
+  "severity": "drobne",
+  "problem": "Żargon w gaps: 13 wystąpień \"nie pobrano / nie ustalono / nie otwierała się\", np. \"plik ministerstwa nie był dostępny pod znanym adresem\". Źródła powielone (studyingreece.edu.gr/bachelors dwa razy).",
+  "evidence": "Pole gaps pozycja 1: \"plik ministerstwa nie był dostępny pod znanym adresem\".",
+  "proposedFix": "Zredagować dla czytelnika, zdeduplikować sources."
+ },
+ {
+  "city": "Ateny",
+  "program": "NKUA Ιατρική po angielsku",
+  "field": "deadline",
+  "severity": "drobne",
+  "problem": "Nabór 2026/27 zakończył się 30 kwietnia 2026, a na 2027/28 nie ma jeszcze terminu. Ostrzeżenie jest, ale brak informacji, że polska matura nie jest na liście (to jest w polu matura, dobrze). Czesne 17 000 EUR jest potwierdzone (5 000 EUR depozytu + 12 000 EUR w dwóch ratach).",
+  "evidence": "Strona: \"a deposit of €5,000 (non-refundable)\" i \"€12,000 should be deposited in two installments\" (https://medicen.uoa.gr/tuition-fees/).",
+  "proposedFix": "Bez zmian merytorycznych; dodać, że 17 000 EUR to łącznie depozyt i raty."
+ },
+ {
+  "city": "Valletta",
+  "program": null,
+  "field": "tuitionEu / summary[Opłaty]",
+  "severity": "ważne",
+  "problem": "\"Brak czesnego dla studiów dziennych I stopnia\" to wniosek z milczenia regulacji (wymienia opłaty UE tylko dla studiów wieczornych i podyplomowych), nie cytat. Strona UM mówi, że opłaty \"tam, gdzie obowiązują\" są w karcie każdego kursu dla UE i spoza UE. Dla nastolatka brak czesnego jest kluczową obietnicą, a nie jest potwierdzona dosłownie.",
+  "evidence": "UM: \"Tuition fees, where applicable, are available in the overview for each course for both Non-EU/Non-EEA and EU/EEA citizens.\" (https://www.um.edu.mt/study/feesfunding/).",
+  "proposedFix": "Zapisać: \"UM nie podaje kwoty na stronie ogólnej; sprawdź kartę kursu. Z regulacji wynika brak opłat dla studiów dziennych UE, ale nie potwierdziliśmy tego w karcie kursu.\""
+ },
+ {
+  "city": "Valletta",
+  "program": null,
+  "field": "tuitionNonEu / tuitionUrl",
+  "severity": "ważne",
+  "problem": "Kwoty dla spoza UE (8 500, 10 800, 26 000 EUR) nie występują na cytowanej stronie legislation.mt (strona ładuje treść dynamicznie, ok. 1,5 KB tekstu), a zaliczenie kursów do arts/business/science zrobiono \"z nazwy kursu\". Dane mają stan 2016/17.",
+  "evidence": "curl https://legislation.mt/eli/sl/327.177/eng: brak trafień \"8,500|10,800|26,000|EU|EEA\".",
+  "proposedFix": "Usunąć kwoty spoza UE (nie dotyczą polskiego maturzysty) albo zacytować dokument z liczbami."
+ },
+ {
+  "city": "Valletta",
+  "program": null,
+  "field": "languageProof",
+  "severity": "drobne",
+  "problem": "Próg SELT (IELTS 6,0, TOEFL iBT 80, \"4,0 od 2026\") nie został przeze mnie dosłownie potwierdzony w prospekcie; wyszukiwanie pokazuje tylko wartości dla Foundation Studies (IELTS 5,5, TOEFL 61, nowa skala 3,5). Zdanie o TOEFL jest nieczytelne (\"80 ... od stycznia 2026 skala 4,0\").",
+  "evidence": "Prospekt UG_Prospectus.pdf: tabela \"TOEFL iBT (Pre-January 2026) / (January 2026 Onwards) ... 5.5 overall ... 61 ... 3.5\" (https://www.um.edu.mt/media/um/docs/study/admissions/UG_Prospectus.pdf).",
+  "proposedFix": "Zweryfikować wiersz dla kursów licencjackich i przepisać: \"TOEFL iBT 80 (od stycznia 2026 w nowej skali: 4,0)\"."
+ },
+ {
+  "city": "Valletta",
+  "program": "wszystkie",
+  "field": "academicYear / deadline",
+  "severity": "drobne",
+  "problem": "Rok \"2027/28\" przy terminach naboru 2027 (21 lipca 2027, medycyna 15 stycznia 2027) jest spójny z prospektem, ale warunki wejścia dotyczą listy kursów z 2026. Prospekt jest jedynym źródłem. Terminy potwierdzone: 21 lipca 2027, 15 września 2027, 15 stycznia 2027.",
+  "evidence": "Prospekt: \"Applicants presenting overseas qualifications for courses other than the M.D. Course: 21 July 2027 at 14:00 (CEST)\"; \"15 January 2027\".",
+  "proposedFix": "Bez zmian; dodać przy 2027/28 zdanie, że lista kursów na 2027 nie jest jeszcze opublikowana (jest w gaps)."
+ },
+ {
+  "city": "Valletta",
+  "program": "Doctor of Medicine and Surgery",
+  "field": "matura / requirements",
+  "severity": "ważne",
+  "problem": "Matura \"uznawana z warunkami\" mimo że medycyna wymaga przedmiotów specjalnych z MATSEC lub porównywalnej komisji, a strona dla Polski stawia osobne wymogi, nie zbadane. Dodatkowo wymóg zdanego maltańskiego (SEC lub Medical Maltese Proficiency) i termin 15 stycznia 2027 dla maturzysty, który zdaje maturę w maju 2027, to bariera czasowa.",
+  "evidence": "Prospekt: termin MD dla kwalifikacji zagranicznych 15 stycznia 2027 (wcześniej niż matura w maju).",
+  "proposedFix": "Zmienić wartość na \"wymaga dodatkowego etapu\" i napisać, że termin MD przypada przed maturą."
+ },
+ {
+  "city": "Valletta",
+  "program": null,
+  "field": "summary[Język] / name",
+  "severity": "drobne",
+  "problem": "Miasto to Valletta, uczelnia ma siedzibę w Msidzie (jest w summary). Do tego sformułowanie \"Wszystkie kursy na UM są po angielsku\" jest zbyt ogólne: prawo wymaga Advanced z maltańskiego (jest w gaps).",
+  "evidence": "Gaps: \"Prawo: wymóg Advanced z maltańskiego i angielskiego.\"",
+  "proposedFix": "Zmienić na \"większość kursów po angielsku; prawo wymaga maltańskiego\"."
+ },
+ {
+  "city": "Nikozja",
+  "program": null,
+  "field": "summary[Opłaty]",
+  "severity": "ważne",
+  "problem": "Twierdzenie \"UNIC i EUC mają tę samą kwotę dla UE i spoza UE na większości kierunków\" jest nieprawdziwe dla UNIC: UNIC ma osobny cennik \"Cyprus-EU\" niższy niż \"NonEU\" (np. 10 200 vs 10 320 EUR, informatyka 10 740 EUR w tabeli UE). Przedział \"10 200 do 11 820 EUR\" miesza tabele (11 820 jest z tabeli spoza UE, maksimum UE to 11 700). Do tego zdanie zaczyna się od małej litery (\"strony UCY były zablokowane\") i powtarza stałą formułę.",
+  "evidence": "UNIC UE: \"Accounting English 240 10,200\"; Law 11,700; Architecture 11,700 (https://www.unic.ac.cy/wp-content/uploads/2026/09/UNIC-Nicosia-Tuition-Fees_Cyprus-EU_ENG_2026-2027.pdf). Spoza UE: \"Accounting 240 172 10,320 ... Architecture 197 11,820\" (https://www.unic.ac.cy/wp-content/uploads/2026/09/UNIC-Nicosia-Tuition-Fees_NonEU_EN_2026-2027.pdf).",
+  "proposedFix": "Napisać: \"UNIC ma osobny niższy cennik dla obywateli UE (różnica ok. 120 EUR rocznie na większości kierunków)\". Podawać przedział z tabeli UE: 10 200 do 11 700 EUR. Poprawić wielką literę."
+ },
+ {
+  "city": "Nikozja",
+  "program": null,
+  "field": "universities (struktura)",
+  "severity": "ważne",
+  "problem": "Zestaw ma wyłącznie uczelnie prywatne (EUC, UNIC, Frederick). Brak uczelni publicznej (University of Cyprus, strony zablokowane 403). Uczeń widzi tylko oferty od ok. 9 000 do 24 000 EUR rocznie. Plan zakłada 3 do 4 największe publiczne uczelnie. Brak przejrzystego ostrzeżenia na poziomie całego miasta, że opcja publiczna istnieje, ale nie została opisana.",
+  "evidence": "Gaps: \"University of Cyprus: wszystkie strony ... zwróciły blokadę 403, więc nie ma programów, progów ani terminów.\"; type: \"uniwersytet prywatny (płatny)\".",
+  "proposedFix": "Dodać na górze widoku miasta baner: \"W Nikozji dane obejmują tylko uczelnie prywatne płatne; uczelnia publiczna (Uniwersytet Cypryjski) nie została opisana\". Zmienić type na wartość z enum plus znacznik \"prywatna\"."
+ },
+ {
+  "city": "Nikozja",
+  "program": null,
+  "field": "summary[Polska matura] / matura",
+  "severity": "ważne",
+  "problem": "Brak pokrycia dla \"matura uznawana\": żadna z trzech uczelni nie wymienia Polski. Pole mówi \"wymaga potwierdzenia przez uczelnię\", co jest uczciwe, ale summary mówi \"Cypr nie ma ... punktów za maturę\", co brzmi jak uznanie. Dodatkowo UNIC medycyna wymaga 90% (18/20) z biologii i przedmiotu ścisłego, EUC medycyna 90% średniej, a polska matura nie ma progu, co gaps opisuje jako \"ocena całościowa bez progu\" (niepotwierdzone).",
+  "evidence": "EUC medycyna: \"average grade of 18 or above (90% percentage grade or its equivalent)\" (https://euc.ac.cy/en/admissions/how-to-apply/medical/); UNIC: \"High School Leaving Certificate with 90% overall score\" (https://www.unic.ac.cy/medicine-md-6-years-undergraduate-entry/).",
+  "proposedFix": "Dla medycyny napisać wprost: \"wymagane ok. 90% średniej; jak liczy się polska matura, nie wiemy\". Usunąć stwierdzenie o ocenie całościowej bez progu, jeśli nie ma źródła."
+ },
+ {
+  "city": "Nikozja",
+  "program": "EUC wszystkie",
+  "field": "languageProof / requirements",
+  "severity": "drobne",
+  "problem": "Wymóg \"lub 12 lat nauki\" dla EUC nie występuje na cytowanej stronie admission (brak trafień \"12 years\"). Pozostałe liczby EUC potwierdzone: wniosek 80 EUR, IELTS 6,5, TOEFL 79, czesne 9 240 i 23 000 EUR, najbliższy nabór luty 2027 i medycyna październik 2027.",
+  "evidence": "https://euc.ac.cy/en/admissions/how-to-apply/undergraduate/ (brak \"12 years\"); https://euc.ac.cy/en/programs/bachelor-psychology/: \"Next Intake February 2027\".",
+  "proposedFix": "Usunąć \"lub 12 lat nauki\" albo dodać źródło."
+ },
+ {
+  "city": "Nikozja",
+  "program": null,
+  "field": "sources / gaps / spacje",
+  "severity": "drobne",
+  "problem": "sources puste (0). Plain space w kwotach (15 miejsc, np. \"9 240 do 11 820 EUR\"), duplikat formuły \"Część danych do potwierdzenia na stronie uczelni.\" (2x), żargon \"strony zwróciły blokadę 403\".",
+  "evidence": "\"sources\": []; \"EUC 9 240 EUR, UNIC 10 200 do 11 820 EUR\".",
+  "proposedFix": "Dodać źródła (trzy cenniki), twarde spacje, przeredagować."
+ },
+ {
+  "city": "Nikozja",
+  "program": "Frederick BA in Journalism, LLB, Law EUC",
+  "field": "languages",
+  "severity": "drobne",
+  "problem": "Programy po grecku (prawo EUC, prawo i dziennikarstwo Frederick) są oznaczone językiem greckim, ale to uczelnie płatne ok. 9 000 EUR dla ucznia po polskiej maturze, który musi znać grecki. Brak ostrzeżenia na poziomie programu, że dla Polaka to praktycznie niedostępne.",
+  "evidence": "Frederick LLB: languages: [\"grecki\"], tuitionEu 8 970 EUR (https://www.frederick.ac.cy/en/tuition-and-other-fees).",
+  "proposedFix": "Dodać notatkę \"program po grecku, wymaga biegłej znajomości greckiego\"."
+ },
+ {
+  "city": "Sofia",
+  "program": "TU Sofia (wszystkie programy)",
+  "field": "tuitionEu",
+  "severity": "ważne",
+  "problem": "Pole tuitionEu zawiera tylko opłatę za egzamin (30 EUR), a nie czesne dla obywateli UE. Czesne za miejsca państwowe i płatne nieznane. Kwoty 3 000 do 4 000 EUR dotyczą osób spoza UE. Czytelnik może uznać, że studia kosztują 30 EUR.",
+  "evidence": "Dane: \"Opłata za egzamin: 30 EUR za jeden egzamin lub test, za maturę 30 EUR\". Gaps: \"Czesne dla obywateli UE nie jest podane, kwoty 3 000 do 4 000 EUR dotyczą osób spoza UE.\"",
+  "proposedFix": "Zapisać \"czesne UE: nie potwierdzono\" jako pierwsze zdanie pola, opłatę egzaminacyjną przenieść do osobnego pola."
+ },
+ {
+  "city": "Sofia",
+  "program": null,
+  "field": "summary[Polska matura]",
+  "severity": "ważne",
+  "problem": "Najważniejsza informacja (\"osoba z polską maturą zwykle zdaje egzamin konkursowy uczelni\", a czy polska matura zastępuje DZI, nie wiadomo) jest uczciwa, ale stoi pod etykietą \"uznawana z warunkami\" w każdym programie. Po bułgarsku egzaminy są po bułgarsku, co praktycznie wyklucza Polaka bez znajomości języka.",
+  "evidence": "SU: \"Citizens of EU member countries apply according the requirements for Bulgarians, NOT as foreign applicants.\" (https://www.uni-sofia.bg/index.php/eng/admission/international_students/application_procedure/applicants_from_eu_member_countries). Gaps: \"żadna z uczelni nie podaje wprost, czy wyniki polskiej matury ... zastępują bułgarski egzamin\".",
+  "proposedFix": "Zmienić wartość na \"wymaga dodatkowego etapu\" i wyraźnie napisać, że programy po bułgarsku wymagają egzaminu po bułgarsku."
+ },
+ {
+  "city": "Sofia",
+  "program": "Uniwersytet Medyczny, Medicine in English",
+  "field": "tuitionEu",
+  "severity": "ważne",
+  "problem": "Czesne 9 950 EUR podane jest w wykazie dla cudzoziemców; czy dotyczy obywateli UE, nie wynika ze strony. Wymieniono w gaps, ale w polu tuitionEu kwota stoi jako dana UE. Strona zawiera stare dane z 2022 (egzamin 17.09.2022, opłata 400 lei) obok danych 2026/27.",
+  "evidence": "MU Sofia: \"Training in 'Medicine' in English – EUR 9950 per year.\"; \"On 17.09.2022 will be held the Entrance exam\" (https://mu-sofia.bg/en/admission/admissions-of-foreign-citizen/). Terminy 27.07 do 31.08.2026 i egzamin 3.09.2026 potwierdzone.",
+  "proposedFix": "W tuitionEu napisać \"9 950 EUR (kwota z wykazu dla cudzoziemców; dla obywateli UE niepotwierdzona)\"."
+ },
+ {
+  "city": "Sofia",
+  "program": "7 z 19 programów",
+  "field": "durationYears",
+  "severity": "drobne",
+  "problem": "durationYears jest null w 7 programach (SU psychologia, informatyka, informatyka, analiza danych, dziennikarstwo, medycyna po bułgarsku i po angielsku).",
+  "evidence": "Gaps: \"czasu trwania psychologii, informatyki i dziennikarstwa nie potwierdzono\".",
+  "proposedFix": "Uzupełnić lub oznaczyć \"nie sprawdzono\"."
+ },
+ {
+  "city": "Sofia",
+  "program": "UACEG",
+  "field": "tuitionEu",
+  "severity": "drobne",
+  "problem": "Kwota 5 200 EUR w pierwszym roku dotyczy dwóch grup: nowo przyjętych na krótkie magisterskie po studiach oraz kandydatów po szkole średniej niezakwalifikowanych na miejsca państwowe. Opis jest poprawny, ale lepiej zaznaczyć, że to jest opcja \"nie zakwalifikowałeś się na miejsce państwowe\".",
+  "evidence": "UACEG: \"годишна такса в размер на 5200 евро ... новоприети студенти след завършено средно образование, участвали в кандидатстудентската кампания, но некласирани за местата по държавна поръчка\" (https://uacg.bg/page/taksi). Opłata państwowa 430 EUR potwierdzona.",
+  "proposedFix": "Dodać zdanie o dwóch ścieżkach."
+ },
+ {
+  "city": "Sofia",
+  "program": null,
+  "field": "spacje / gaps",
+  "severity": "drobne",
+  "problem": "Plain space w kwotach (25 miejsc, 9 razy przed EUR, np. \"SU psychologia 2 070 EUR\"), duplikat \"Część danych do potwierdzenia na stronie uczelni.\" (4x), żargon \"nie odczytano\", \"strony angielskie są ładowane dynamicznie\". Etykieta Znajomość angielskiego opisuje też bułgarski.",
+  "evidence": "\"SU psychologia 2 070 EUR, informatyka 4 020 EUR, medycyna 5 350 EUR\".",
+  "proposedFix": "Zamienić na twarde spacje i przeredagować gaps."
+ },
+ {
+  "city": "Bukareszt",
+  "program": null,
+  "field": "sources",
+  "severity": "drobne",
+  "problem": "sources puste (0 wpisów). Adresy są tylko w programach.",
+  "evidence": "\"sources\": []",
+  "proposedFix": "Dodać cenniki UB, UPB, ASE, UTCB, UAUIM, UMFCD."
+ },
+ {
+  "city": "Bukareszt",
+  "program": "18 z 21 programów",
+  "field": "durationYears",
+  "severity": "ważne",
+  "problem": "durationYears jest null w 18 z 21 programów (86 procent). Gaps przyznaje, że ustawiono tylko tam, gdzie dokument podaje. Brak podstawowej informacji dla rodzica.",
+  "evidence": "Gaps: \"Czas trwania licencjatów (durationYears) ustawiono tylko tam, gdzie dokument go podaje (architektura 6 lat, medycyna 6 lat)\".",
+  "proposedFix": "Uzupełnić (licencjat w Rumunii 3 lata, inżynierski 4 lata) po sprawdzeniu strony programu, albo oznaczyć \"nie sprawdzono\"."
+ },
+ {
+  "city": "Bukareszt",
+  "program": null,
+  "field": "summary[Opłaty] / tuitionEu",
+  "severity": "ważne",
+  "problem": "Waluty mieszane: czesne w lejach (5 500 do 10 000 lei) dla większości, w euro dla medycyny (10 000 EUR). Dla UMFCD obywatele UE płacą równowartość 10 000 EUR w lejach wg kursu BNR z dnia płatności, a summary zapisuje po prostu \"10 000 EUR\". Nastolatek nie zna wartości lei i nie ma żadnej konwersji ani daty kursu.",
+  "evidence": "UMFCD: \"Tuition fees ... (INTERNATIONAL STUDENTS – EU citizens) The equivalent in lei of 10.000 euro / study year according to BNR exchange rate on the day of payment\" (https://umfcd.ro/en/wp-content/uploads/2026/INTERNATIONAL_STUDENTS/ADMISSION_2026/DOCUMENTS/Taxe_UMFCD_2026-2027_studenti_internationali_EN.pdf).",
+  "proposedFix": "Przy każdej kwocie w lejach dodać przybliżony odpowiednik w EUR z datą kursu. W summary opisać UMFCD: \"równowartość 10 000 EUR w lejach\"."
+ },
+ {
+  "city": "Bukareszt",
+  "program": null,
+  "field": "summary[Opłaty]",
+  "severity": "drobne",
+  "problem": "\"Miejsca budżetowe są bezpłatne, także po angielsku\" jest ogólnikiem. Dla medycyny po angielsku w UMFCD nie ma miejsc bezpłatnych (czesne 10 000 EUR). Sformułowanie \"taksa nominalna\" to kalka z rumuńskiego.",
+  "evidence": "UB: \"taxa nominală 8000, efectivă 5500 ... reducere temporară a taxei nominale pentru studenții admiși în anul I începând cu anul universitar 2026–2027\" (https://unibuc.ro/wp-content/uploads/2026/03/Taxe-de-scolarizare-Studii-licenta-2026-2027.pdf). Czesne UB 5 500 i 8 800 lei potwierdzone.",
+  "proposedFix": "Dodać zastrzeżenie, że UB obniżyła czesne tymczasowo (nominalnie 8 000 lei); usunąć \"taksa nominalna\"."
+ },
+ {
+  "city": "Bukareszt",
+  "program": null,
+  "field": "summary[Polska matura]",
+  "severity": "ważne",
+  "problem": "Przeliczenie polskiej matury na rumuńską średnią opisano tylko w ASE. W UB, UPB, UTCB i UAUIM nie wiadomo, jak liczone są oceny, a to decyduje o szansach w konkursie opartym na średniej. Wszystkie programy mają jednak \"uznawana z warunkami\".",
+  "evidence": "Gaps: \"W UB, UPB, UTCB i UAUIM regulaminy tego nie opisują, trzeba zapytać uczelnię\".",
+  "proposedFix": "Dla tych uczelni zmienić na \"wymaga potwierdzenia przez uczelnię\"."
+ },
+ {
+  "city": "Bukareszt",
+  "program": null,
+  "field": "deadline / academicYear",
+  "severity": "drobne",
+  "problem": "Wszystkie terminy dotyczą naboru 2026/27 (lipiec i wrzesień 2026) i są minione; ostrzeżenie \"Terminy na 2027 nie są jeszcze opublikowane\" jest, ale część terminów (ASE sesja lipcowa) niepotwierdzona. Brak ostrzeżenia, że wniosek CNRED o uznanie matury trzeba złożyć wcześniej (jest w summary).",
+  "evidence": "UB: \"Wniosek o uznanie dyplomu przez CNRED UB składa do 31 lipca\".",
+  "proposedFix": "Bez zmian poza dodaniem ostrzeżenia do pola deadline."
+ },
+ {
+  "city": "Bukareszt",
+  "program": null,
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Żargon i sformułowania z procesu zbierania: \"nie została odczytana\", \"strony nie sprawdzono\", \"dane pochodzą głównie z regulaminów\". Brakuje przecinka i polskiej odmiany w paru miejscach.",
+  "evidence": "Gaps: \"Strona wydziału Inginerie în Limbi Străine (fils.upb.ro) nie została odczytana\".",
+  "proposedFix": "Przeredagować."
+ },
+ {
+  "city": "Zagrzeb",
+  "program": null,
+  "field": "zakres",
+  "severity": "ważne",
+  "problem": "Tylko 5 programów (medycyna po angielsku, EE i ITP FER po angielsku, psychologia, prawo) z 11 zawodów. Brak architektury, budownictwa, ekonomii, mechaniki (FSB), dziennikarstwa. Widok miasta wygląda na kompletny, a nie jest.",
+  "evidence": "Gaps: \"Brak potwierdzonych danych o Wydziale Architektury, Wydziale Budownictwa i kierunku dziennikarstwo\".",
+  "proposedFix": "Dodać baner o niepełnym zakresie lub uzupełnić dane z FSB, EFZG, Wydziału Budownictwa i Architektury."
+ },
+ {
+  "city": "Zagrzeb",
+  "program": "Psihologija, Pravo",
+  "field": "tuitionEu / deadline / languageProof",
+  "severity": "ważne",
+  "problem": "Dwa programy po chorwacku bez czesnego, terminu i dowodu języka (null). Psychologia ma warunki z 2023/24. Nie wiadomo, czy studia po chorwacku są dla obywateli UE bezpłatne, i nie wiadomo, jak Polak z maturą wchodzi do rankingu opartego na chorwackiej maturze państwowej.",
+  "evidence": "Psychologia: \"Uvjeti upisa preddiplomskog studija psihologije ... za 2023./2024. objavljeni su na portalu Postani student\" (https://psihologija.ffzg.unizg.hr/buduci-studenti/uvjeti-upisa-na-preddiplomski-studij/). Dane: matura \"wymaga dodatkowego etapu ... ranking opiera się na chorwackiej maturze państwowej\".",
+  "proposedFix": "Zapisać wprost \"nie wiemy, ile kosztuje i jak zapisać się z polską maturą; skontaktuj się z AZVO\". Nie pokazywać wag z 2023/24 jako obowiązujących."
+ },
+ {
+  "city": "Zagrzeb",
+  "program": "FER Electrical Engineering, Computing",
+  "field": "tuitionEu",
+  "severity": "ważne",
+  "problem": "Czesne 5 574 EUR jest potwierdzone na stronie FER, ale w pliku jest uczciwie opisane jako ścieżka dla kandydatów międzynarodowych (opłata aplikacyjna 230 EUR). Obywatele UE aplikują dodatkowo przez Postani student, a strona nie mówi wprost, czy mają inne czesne. Kwota może być zawyżona lub niezmienna dla UE; nie wiadomo.",
+  "evidence": "FER: \"The annual tuition fee for our bachelor study programmes is 5,574 EUR ... One ECTS credit amounts to 92.90 EUR\"; \"Candidates also need to apply through ... postani-student.hr\" (https://www.fer.unizg.hr/en/enrolment?redirect=1). Limity 30 UE i 20 spoza UE potwierdzone na https://www.fer.unizg.hr/en/studies/bachelor/admission_requirements.",
+  "proposedFix": "Dodać w polu tuitionEu: \"dla obywateli UE niepotwierdzone, zapytaj FER\"."
+ },
+ {
+  "city": "Zagrzeb",
+  "program": "FER",
+  "field": "deadline",
+  "severity": "drobne",
+  "problem": "Terminy 1 lipca 2026 i 22 maja 2026 potwierdzone. Sformułowanie w pliku, że obywatele UE aplikują \"wyłącznie przez Postani student\" jest niezgodne ze stroną: FER wymaga zgłoszenia przez FER online ORAZ przez Postani student.",
+  "evidence": "FER: \"Candidates need to apply via the FER online application ... Candidates also need to apply through the National IT System ... www.postani-student.hr\".",
+  "proposedFix": "Poprawić zdanie."
+ },
+ {
+  "city": "Zagrzeb",
+  "program": null,
+  "field": "summary[Polska matura] / etykiety",
+  "severity": "drobne",
+  "problem": "Etykieta \"Polska matura\" nie mówi nic o polskiej maturze, tylko o procedurze AZVO; summary i program FER mają \"uznawana z warunkami\", a źródło FER pisze, że polskiej matury nie ma na liście. Etykieta Znajomość angielskiego opisuje też brak chorwackiego. Dwie pozycje \"Rekrutacja\" z żargonem (NISpVU).",
+  "evidence": "Gaps: \"polska matura nie jest wymieniona na liście kwalifikacji FER\".",
+  "proposedFix": "Przemianować etykiety, dodać zdanie \"polska matura nie jest wymieniona na liście FER; uczelnia rozpatruje porównywalne wyniki na prośbę\"."
+ },
+ {
+  "city": "Zagrzeb",
+  "program": null,
+  "field": "sources / gaps",
+  "severity": "drobne",
+  "problem": "sources puste (0). Elektrotechnika FER ma careerIds []; durationYears 3 (potwierdzone). Żargon w gaps (\"portal ... jest budowany dynamicznie\", \"nie został odczytany\").",
+  "evidence": "\"sources\": []",
+  "proposedFix": "Dodać źródła FER, MEF, AZVO."
+ }
+]
