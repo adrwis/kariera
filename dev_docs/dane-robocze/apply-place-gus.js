@@ -36,7 +36,7 @@ for (const c of careers) {
     delete c.salary;
     c.salaryNote = UNIFORMED.has(c.id)
       ? 'Służby mundurowe nie wchodzą do badania GUS, więc nie podajemy kwot.'
-      : 'GUS nie podaje zarobków tego zawodu osobno: grupa zawodów łączy wiele różnych zawodów albo zawód wykonuje się głównie poza etatem. Dlatego nie podajemy kwot.';
+      : 'GUS nie podaje płac tego zawodu osobno, dlatego nie ma kwot.';
     cleared++;
   }
 }

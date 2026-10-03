@@ -386,7 +386,7 @@
   const fmtZl = n => `${String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, '\u00A0')}\u00A0zł`;
   function salaryCardText(s) {
     if (!s) return '';
-    return `mediana ${fmtZl(s.median || s.max)} brutto${s.scope === 'grupa' ? ' (grupa zawodów)' : ''}`;
+    return `typowo ${fmtZl(s.median || s.max)} brutto${s.scope === 'grupa' ? ' (grupa zawodów)' : ''}`;
   }
   // Opis płacy na profilu zawodu: skąd liczba, kogo dotyczy i czego nie obejmuje
   function salaryNoteHtml(c) {
@@ -396,7 +396,7 @@
     const group = s.scope === 'grupa'
       ? ` Liczba dotyczy całej grupy zawodów „${escapeHtml(s.group)}”, więc obejmuje też pokrewne zawody.`
       : ` Dane GUS dla grupy zawodów „${escapeHtml(s.group)}”.`;
-    return `<p class="career-hero__note">GUS, październik 2024: połowa pracowników zarabia nie więcej niż ${fmtZl(s.median)} brutto miesięcznie, a 80% od ${fmtZl(s.min)} do ${fmtZl(s.max)}.${group} Tylko etaty w firmach od 10 osób.${src}</p>`;
+    return `<p class="career-hero__note">Według GUS (październik 2024) połowa pracowników zarabia mniej niż ${fmtZl(s.median)}, a połowa więcej. Większość (80%) dostaje od ${fmtZl(s.min)} do ${fmtZl(s.max)}. To kwoty brutto, czyli przed odjęciem podatków i składek.${group} Dane dotyczą tylko etatów w firmach od 10 osób.${src}</p>`;
   }
 
   function pluralZawod(n) {
@@ -477,7 +477,7 @@
         parts.push(categories.map(c => CATEGORY_NAMES[c] || c).join(', '));
       }
       if (sMin || sMax) {
-        parts.push(`zarobki ${(sMin || 3000).toLocaleString('pl-PL')} do ${(sMax || 35000).toLocaleString('pl-PL')} PLN`);
+        parts.push(`typowe zarobki od ${fmtZl(sMin || 3000)} do ${fmtZl(sMax || 16000)}`);
       }
       if (demands.length && demands.length < 3) {
         parts.push(`zapotrzebowanie: ${demands.join(', ')}`);
@@ -492,7 +492,7 @@
       resultsQuery.textContent = `Kategoria: ${catName}`;
     } else if (query) {
       results = CareerSearch.search(query);
-      resultsQuery.textContent = `Wyniki dla: "${query}"`;
+      resultsQuery.textContent = `Wyniki dla: „${query}”`;
     } else {
       results = { rich: [], simple: [] };
     }
@@ -530,6 +530,11 @@
       resultsToolbar.hidden = true;
       resultsEmpty.hidden = false;
       announce('Nie znaleziono zawodów');
+      // Przy filtrach inny komunikat niż przy wpisanym słowie: zwykle wystarczy poluzować zakres
+      const emptyText = resultsEmpty.querySelector('.results__empty-text');
+      if (emptyText) emptyText.textContent = isFilter
+        ? 'Żaden zawód z danymi GUS nie spełnia wszystkich filtrów. Obniż minimum zarobków albo wybierz więcej kategorii. Zawody bez danych GUS są pomijane.'
+        : 'Spróbuj innego słowa lub przejrzyj kategorie:';
 
       // Populate empty state category suggestions
       resultsEmptyCats.innerHTML = '';
@@ -738,15 +743,14 @@
   function renderRichDetail(c) {
     currentCareerData = c;
 
-    const salaryText = c.salary ? `mediana ${fmtZl(c.salary.median || c.salary.max)} brutto/mies.` : '';
+    const salaryText = c.salary ? `typowe zarobki: ${fmtZl(c.salary.median || c.salary.max)} brutto/mies.${c.salary.scope === 'grupa' ? ' (grupa zawodów)' : ''}` : '';
 
     const demandClass = c.demand ? `result-card__badge--demand-${c.demand}` : '';
     const demandTitle = c.demand ? ` title="${escapeAttr(DEMAND_LABELS[c.demand] || c.demand)}"` : '';
 
     const catName = CATEGORY_NAMES[c.category] || '';
-    const categoryBadge = catName
-      ? `<a href="${BASE}/wyniki?cat=${escapeAttr(c.category)}" class="career-hero__category">${escapeHtml(catName)}</a>`
-      : '';
+    // Kategoria jest już w ścieżce nawigacji nad nagłówkiem, więc nie powtarzamy jej plakietką
+    const categoryBadge = '';
 
     const aliasesHtml = c.aliases && c.aliases.length
       ? `<p class="career-hero__aliases">Znany też jako: ${c.aliases.map(escapeHtml).join(', ')}</p>`
@@ -1702,7 +1706,7 @@
       salaryMaxInput.value = max;
     } else {
       let min = parseInt(salaryMinInput.value) || 3000;
-      let max = parseInt(salaryMaxInput.value) || 35000;
+      let max = parseInt(salaryMaxInput.value) || 16000;
       if (min > max) { const t = min; min = max; max = t; }
       salaryRangeMin.value = min;
       salaryRangeMax.value = max;
@@ -1809,9 +1813,9 @@
     if (selectedCategories.length) params.set('cats', selectedCategories.join(','));
 
     const sMin = parseInt(salaryMinInput.value) || 3000;
-    const sMax = parseInt(salaryMaxInput.value) || 35000;
+    const sMax = parseInt(salaryMaxInput.value) || 16000;
     if (sMin > 3000) params.set('smin', sMin);
-    if (sMax < 35000) params.set('smax', sMax);
+    if (sMax < 16000) params.set('smax', sMax);
 
     const activeDemands = [...demandChecks].filter(c => c.checked).map(c => c.value);
     if (activeDemands.length < 3) params.set('demand', activeDemands.join(','));
@@ -1823,7 +1827,7 @@
       sessionStorage.setItem('kr-filters', JSON.stringify({
         cats: selectedCategories,
         sMin: parseInt(salaryMinInput.value) || 3000,
-        sMax: parseInt(salaryMaxInput.value) || 35000,
+        sMax: parseInt(salaryMaxInput.value) || 16000,
         demands: [...demandChecks].filter(c => c.checked).map(c => c.value),
         schools: selectedSchools,
       }));
@@ -1835,9 +1839,9 @@
   // Reset button
   filterReset.addEventListener('click', () => {
     salaryMinInput.value = 3000;
-    salaryMaxInput.value = 35000;
+    salaryMaxInput.value = 16000;
     salaryRangeMin.value = 3000;
-    salaryRangeMax.value = 35000;
+    salaryRangeMax.value = 16000;
     demandChecks.forEach(c => { c.checked = true; });
     selectedSchools = [];
     selectedCategories = [];

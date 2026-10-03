@@ -9,6 +9,12 @@ const CareerSearch = (() => {
   let kzisData = [];
   let isLoaded = false;
   let loadFailed = false;
+  // Porównania bez polskich znaków: „ksiegowy” znajduje „księgowy”
+  const norm = s => String(s == null ? '' : s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ł/g, 'l');
+  const fuseGetFn = (obj, path) => {
+    const v = Fuse.config.getFn(obj, path);
+    return Array.isArray(v) ? v.map(norm) : (typeof v === 'string' ? norm(v) : v);
+  };
 
   async function loadData() {
     if (isLoaded) return;
@@ -38,6 +44,7 @@ const CareerSearch = (() => {
             { name: 'quiz.keywords', weight: 0.15 },
           ],
           threshold: 0.35,
+          getFn: fuseGetFn,
           ignoreLocation: true,
           includeScore: true,
           minMatchCharLength: 2,
@@ -52,6 +59,7 @@ const CareerSearch = (() => {
             { name: 'group', weight: 0.3 },
           ],
           threshold: 0.3,
+          getFn: fuseGetFn,
           includeScore: true,
           minMatchCharLength: 2,
         });
@@ -106,21 +114,21 @@ const CareerSearch = (() => {
       const seen = new Set(byInterest.map(c => c.id));
       // Rozmyte dopasowanie ma szeroką tolerancję, więc zostawiamy dobre trafienia albo takie, w których
       // słowo z zapytania (z odciętą końcówką fleksyjną) zaczyna słowo w nazwie, aliasie, opisie lub słowach quizu
-      const qWords = query.toLowerCase().split(/\s+/).filter(w => w.length >= 4);
+      const qWords = norm(query).split(/\s+/).filter(w => w.length >= 4);
       const stems = qWords.map(w => w.slice(0, Math.max(5, w.length - 2)));
       const strong = c => {
-        const hay = [c.name, ...(c.aliases || []), c.shortDescription, ...((c.quiz && c.quiz.keywords) || [])].join(' ').toLowerCase();
+        const hay = norm([c.name, ...(c.aliases || []), c.shortDescription, ...((c.quiz && c.quiz.keywords) || [])].join(' '));
         return stems.some(st => new RegExp('(^|[^a-ząćęłńóśźż])' + st.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).test(hay));
       };
-      const text = fuseMain.search(query, { limit: limit * 2 })
+      const text = fuseMain.search(norm(query), { limit: limit * 2 })
         .filter(r => r.score <= 0.2 || strong(r.item))
         .slice(0, limit)
         .map(r => ({ ...r.item, _score: r.score }))
         .filter(c => !seen.has(c.id));
       // Przy zapytaniu o zainteresowanie dopasowania tekstowe dokładamy tylko te bardzo dobre
       // Przy zapytaniu o zainteresowanie dokładamy tylko zawody, których nazwa zawiera słowo z zapytania
-      const words = query.toLowerCase().split(/\s+/).filter(w => w.length >= 4);
-      const byName = text.filter(c => words.some(w => (c.name + ' ' + (c.aliases || []).join(' ')).toLowerCase().includes(w)));
+      const words = norm(query).split(/\s+/).filter(w => w.length >= 4);
+      const byName = text.filter(c => words.some(w => norm(c.name + ' ' + (c.aliases || []).join(' ')).includes(w)));
       results.rich = byInterest.length ? [...byInterest, ...byName].slice(0, limit) : text;
     } else {
       results.rich = byInterest.slice(0, limit);
@@ -129,9 +137,9 @@ const CareerSearch = (() => {
     // Search KZiS index (exclude those already in rich results)
     if (fuseKzis) {
       const richIds = new Set(results.rich.map(r => r.code));
-      const qStems = query.toLowerCase().split(/\s+/).filter(w => w.length >= 4).map(w => w.slice(0, Math.max(5, w.length - 2)));
-      const nameHit = n => qStems.some(st => (' ' + n.toLowerCase()).includes(' ' + st));
-      results.simple = fuseKzis.search(query, { limit: limit * 4 })
+      const qStems = norm(query).split(/\s+/).filter(w => w.length >= 4).map(w => w.slice(0, Math.max(5, w.length - 2)));
+      const nameHit = n => qStems.some(st => (' ' + norm(n)).includes(' ' + st));
+      results.simple = fuseKzis.search(norm(query), { limit: limit * 4 })
         .filter(r => !richIds.has(r.item.code))
         .filter(r => r.score <= 0.1 || nameHit(r.item.name))
         .slice(0, limit)
@@ -158,9 +166,9 @@ const CareerSearch = (() => {
     // First, rich profiles (prioritized)
     if (fuseMain) {
       // Tylko dobre dopasowania: słabsze to zwykle przypadkowe trafienia w opisie (np. „weteryn” → geodeta)
-      const acStems = query.toLowerCase().split(/\s+/).filter(w => w.length >= 3).map(w => w.slice(0, Math.max(4, w.length - 2)));
-      const acHit = r => acStems.some(st => (' ' + [r.item.name, ...(r.item.aliases || [])].join(' ').toLowerCase()).includes(' ' + st));
-      const mainResults = fuseMain.search(query, { limit: limit * 2 }).filter(r => r.score <= 0.2 && (r.score <= 0.05 || acHit(r))).slice(0, limit);
+      const acStems = norm(query).split(/\s+/).filter(w => w.length >= 3).map(w => w.slice(0, Math.max(4, w.length - 2)));
+      const acHit = r => acStems.some(st => (' ' + norm([r.item.name, ...(r.item.aliases || [])].join(' '))).includes(' ' + st));
+      const mainResults = fuseMain.search(norm(query), { limit: limit * 2 }).filter(r => r.score <= 0.2 && (r.score <= 0.05 || acHit(r))).slice(0, limit);
       for (const r of mainResults) {
         results.push({
           id: r.item.id,
@@ -175,11 +183,11 @@ const CareerSearch = (() => {
     // Then, KZiS index
     if (fuseKzis && results.length < limit) {
       const richCodes = new Set(results.map(r => r.code));
-      const acStemsK = query.toLowerCase().split(/\s+/).filter(w => w.length >= 3).map(w => w.slice(0, Math.max(4, w.length - 2)));
-      const kzisResults = fuseKzis.search(query, { limit: limit * 4 });
+      const acStemsK = norm(query).split(/\s+/).filter(w => w.length >= 3).map(w => w.slice(0, Math.max(4, w.length - 2)));
+      const kzisResults = fuseKzis.search(norm(query), { limit: limit * 4 });
       for (const r of kzisResults) {
         if (richCodes.has(r.item.code)) continue;
-        if (!(r.score <= 0.1 || acStemsK.some(st => (' ' + r.item.name.toLowerCase()).includes(' ' + st)))) continue;
+        if (!(r.score <= 0.1 || acStemsK.some(st => (' ' + norm(r.item.name)).includes(' ' + st)))) continue;
         if (results.length >= limit) break;
         results.push({
           id: r.item.id || r.item.code,
@@ -217,8 +225,9 @@ const CareerSearch = (() => {
     if (salaryMin != null || salaryMax != null) {
       filtered = filtered.filter(c => {
         if (!c.salary) return false;
-        const min = salaryMin || 0;
-        const max = salaryMax || Infinity;
+        let min = salaryMin || 0;
+        let max = salaryMax || Infinity;
+        if (min > max) [min, max] = [max, min];
         // Przy płacach z GUS decyduje mediana, a dla starszych danych zakres min-max
         if (c.salary.median != null) return c.salary.median >= min && c.salary.median <= max;
         return c.salary.max >= min && c.salary.min <= max;

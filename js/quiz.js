@@ -26,7 +26,7 @@ const Quiz = (function () {
   const PLACES = [['biuro', 'Biuro'], ['teren', 'W terenie, na zewnątrz'], ['szpital', 'Szpital, przychodnia'], ['warsztat', 'Warsztat, pracownia'],
     ['szkola', 'Szkoła, przedszkole'], ['scena', 'Scena, studio'], ['sklep', 'Sklep, salon, lokal'], ['dom', 'Z domu']];
   const PATH = [['krotka', 'Chcę szybko zacząć pracować (technikum, szkoła branżowa, kurs)'], ['studia', 'Matura i studia, ale bez przesady'], ['dlugie', 'Długie studia mi nie straszne'], ['', 'Nie wiem']];
-  const PATH_LABEL = { krotka: 'krótka droga: technikum, szkoła branżowa albo kurs', studia: 'matura i studia', dlugie: 'długa nauka: jednolite studia albo specjalizacja' };
+  const PATH_LABEL = { krotka: 'krótka, przez technikum, szkołę branżową albo kurs', studia: 'matura i studia', dlugie: 'długa nauka, czyli jednolite studia albo specjalizacja' };
   const LEVELS = ['maly', 'sredni', 'duzy'];
   const MAX_INTERESTS = 5;
 
@@ -66,7 +66,7 @@ const Quiz = (function () {
     if (sharedInterests.length) reasons.push('lubisz: ' + sharedInterests.map(i => label(INTERESTS, i).toLowerCase()).join(', '));
     const sharedSubjects = (q.subjects || []).filter(s => a.subjects.includes(s));
     score += sharedSubjects.length * 1.5;
-    if (sharedSubjects.length) reasons.push('przydadzą się: ' + sharedSubjects.map(s => label(SUBJECTS, s).toLowerCase()).join(', '));
+    if (sharedSubjects.length) reasons.push((sharedSubjects.length === 1 ? 'przyda się: ' : 'przydadzą się: ') + sharedSubjects.map(s => label(SUBJECTS, s).toLowerCase()).join(', '));
     if (!sharedInterests.length && !sharedSubjects.length) return null;
     const LEVEL_TEXT = {
       contact: { maly: 'mało kontaktu z ludźmi, tak jak wolisz', sredni: 'trochę kontaktu z ludźmi, tak jak wolisz', duzy: 'dużo kontaktu z ludźmi, tak jak lubisz' },

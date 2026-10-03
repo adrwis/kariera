@@ -262,8 +262,11 @@ const Szkoly = (function () {
   }
 
   // Numer rzymski z początku nazwy („XIV LO”) do sortowania
+  // Szkoły specjalne i integracyjne idą na koniec listy (nie są ofertą dla większości uczniów)
+  const isSpecialSchool = s => (/specjaln|specjlan|integracyjn|DSOSW|SOSW/i.test(`${s.name} ${s.shortName || ''}`) ? 1 : 0);
+
   function romanValue(name) {
-    const m = /^([IVXLC]+)\s/.exec(name || '');
+    const m = /^(?:LO\s+)?([IVXLC]+)(?:\s|$)/.exec(name || '');
     if (!m) return Infinity;
     const val = { I: 1, V: 5, X: 10, L: 50, C: 100 };
     let total = 0;
@@ -370,6 +373,7 @@ const Szkoly = (function () {
       .filter(x => !f.rozsz.length || x.matching.length)
       .sort((a, b) => (a.score - b.score)
         || (a.school.type === b.school.type ? 0 : a.school.type === 'liceum' ? -1 : 1)
+        || (isSpecialSchool(a.school) - isSpecialSchool(b.school))
         || (b.school.public - a.school.public)
         || (romanValue(a.school.shortName) - romanValue(b.school.shortName))
         || (a.school.shortName || a.school.name).localeCompare(b.school.shortName || b.school.name, 'pl', { numeric: true }));
@@ -393,6 +397,7 @@ const Szkoly = (function () {
   // kwadratowym, skróty rozszerzeń i języki w okrągłym. Dla uczniów składamy z tego czytelną nazwę.
   const TAG_LABELS = { D: 'dwujęzyczna', I: 'integracyjna', S: 'sportowa', PW: 'przygotowanie wojskowe' };
   const ABBR = new Set(['mat', 'pol', 'ang', 'niem', 'fr', 'fra', 'hisz', 'hiszp', 'ros', 'wlo', 'bio', 'biol', 'chem', 'fiz', 'inf', 'geo', 'geogr', 'hist', 'his', 'wos', 'hsz', 'fil', 'lac']);
+  const ABBR_NAME = { mat: 'matematyka', fiz: 'fizyka', inf: 'informatyka', bio: 'biologia', biol: 'biologia', chem: 'chemia', geo: 'geografia', geogr: 'geografia', hist: 'historia', his: 'historia', pol: 'polski', ang: 'angielski', niem: 'niemiecki', hisz: 'hiszpański', hiszp: 'hiszpański', fra: 'francuski', fr: 'francuski', ros: 'rosyjski', wlo: 'włoski', wos: 'WOS', hsz: 'historia sztuki', fil: 'filozofia', lac: 'łacina' };
   const isCodeList = t => t.split(/[-, ]+/).filter(Boolean).every(x => ABBR.has(x));
   function parseClassName(p) {
     const m = (p.name || '').trim().match(/^(.*?)\s*-?\s*\[([A-Za-z-]+)\](?=\s|:|$)\s*:?\s*(.*)$/);
@@ -412,7 +417,11 @@ const Szkoly = (function () {
   function tidyName(n) {
     let t = (n || '');
     const integr = /\[I(?:-[A-Za-z]+)?\]/.test(t);
-    t = t.replace(/\s*\[[^\]]*\]/g, '')
+    t = t.replace(/\*+/g, '')
+      .replace(/^(\d*)([A-Za-z]{1,2})LO\b/, '$1$2')
+      .replace(/\b[A-Z]{3,}(?:-[A-Z]{2,})+\s*(?=\([a-ząćęłńóśźż-]+\))/g, '')
+      .replace(/\(([a-ząćęłńóśźż]{2,8}(?:-[a-ząćęłńóśźż]{2,8})+)\)/g, (m, codes) => isCodeList(codes) ? `(${codes.split('-').map(c => ABBR_NAME[c] || c).join(', ')})` : m)
+      .replace(/\s*\[[^\]]*\]/g, '')
       .replace(/\s*\((?:ang|niem|hisz|fra|fran|ros|wlo)[^)]*\)/gi, '')
       .replace(/:\s*j\.\s?(?:ang|niem|hisz|fra|fran|ros|wlo)[\w.,\s*-]*$/i, '')
       .replace(/\s*-\s*ogólnodostępn\w*/gi, '')
@@ -690,9 +699,9 @@ const Szkoly = (function () {
       <p class="career-column__text">${m.passRate != null ? `Zdawalność matury${m.year ? ` w ${esc(m.year)} roku` : ''}: <strong>${fmtNum(m.passRate)}%</strong>${n && m.certificates != null ? ` (zdało ${esc(m.certificates)} z ${esc(n)} ${plural(n, 'osoby', 'osób', 'osób')})` : ''}` : 'CKE nie podaje zdawalności (za mało zdających)'}${m.passRate == null && n ? `, zdawało ${esc(n)} ${plural(n, 'osoba', 'osoby', 'osób')}` : ''}. ${sourceLink(m.sourceUrl, 'dane CKE')}</p>
       ${rows ? `
       <div class="szkola__table-wrap">
+        <p class="school-popup__caption">Matura rozszerzona: ile osób zdawało i średni wynik. Ostatnia kolumna to średnia wszystkich szkół ${esc(cityLoc)} z tym przedmiotem, dla porównania.</p>
         <table class="school-popup__thresholds szkola__matura">
-          <caption class="school-popup__caption">Matura rozszerzona: ile osób zdawało i średni wynik. Ostatnia kolumna to średnia wszystkich szkół ${esc(cityLoc)} z tym przedmiotem, dla porównania.</caption>
-          <thead><tr><th>Przedmiot</th><th>Zdających</th><th>Średnia</th><th>${esc(cityName)}</th></tr></thead>
+          <thead><tr><th>Przedmiot</th><th>Zdających</th><th>Średnia</th><th>Wszystkie szkoły</th></tr></thead>
           <tbody>${rows}</tbody>
         </table>
       </div>

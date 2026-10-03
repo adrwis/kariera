@@ -86,7 +86,7 @@ server.listen(0, async () => {
     // Test 7: Category link in detail
     await page.goto(base + '/kariera/zawod/psycholog', { waitUntil: 'networkidle' });
     await page.waitForTimeout(2000);
-    const catLink = await page.locator('.career-hero__category').getAttribute('href').catch(() => '');
+    const catLink = await page.locator('.breadcrumb__item a[href*="cat="]').first().getAttribute('href').catch(() => '');
     check('Category link uses /kariera/', catLink.startsWith('/kariera/'));
 
     // Test 8: Browser back button works

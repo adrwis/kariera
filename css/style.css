@@ -3175,3 +3175,15 @@ p.school-popup__caption { margin: 0.25rem 0 0.4rem; }
   .topbar__nav { gap: 0; }
   .topbar__nav a { padding: 0.4rem 0.5rem; font-size: 0.85rem; }
 }
+
+/* Tabela matury na wąskim ekranie: ciaśniejsze komórki, wartości ze znaczkiem w jednej linii */
+.szkola__matura td:nth-child(3), .szkola__matura td:nth-child(4) { white-space: nowrap; }
+@media (max-width: 420px) {
+  .szkola__matura th, .szkola__matura td { padding: 0.35rem 0.4rem; font-size: 0.8rem; }
+}
+/* Przycisk „Na górę” nie zasłania przyklejonego paska wyniku ani przycisku quizu */
+@media (max-width: 899px) {
+  body:has(.quiz__jump:not([hidden])) .scroll-top, body:has(#kalkTotal) .scroll-top { bottom: 5.25rem; }
+}
+/* Okno osoby: przycisk zamknięcia nie nachodzi na imię */
+.person-popup__header { padding-right: 2.75rem; }

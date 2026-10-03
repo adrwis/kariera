@@ -133,7 +133,7 @@
               <div class="search-box__query-row">
                 <label for="searchQuery" class="search-box__label">Kim chcesz zostać? Co Cię interesuje?</label>
                 <div class="search-box__input-wrapper">
-                  <input type="text" role="combobox" id="searchQuery" class="search-box__input search-box__input--query" placeholder="np. psycholog, zwierzęta, rysowanie" autocomplete="off" autocapitalize="off" autocorrect="off" aria-autocomplete="list" aria-controls="autocompleteList" aria-expanded="false" aria-activedescendant="">
+                  <input type="text" role="combobox" id="searchQuery" class="search-box__input search-box__input--query" placeholder="np. psycholog, zwierzęta" autocomplete="off" autocapitalize="off" autocorrect="off" aria-autocomplete="list" aria-controls="autocompleteList" aria-expanded="false" aria-activedescendant="">
                   <ul id="autocompleteList" class="autocomplete" role="listbox" aria-label="Podpowiedzi zawodów" hidden></ul>
                 </div>
               </div>
@@ -230,16 +230,16 @@
 
               <!-- Salary -->
               <div class="filters__group">
-                <label class="filters__label">Zarobki: mediana GUS 2024 (PLN brutto/mies., tylko zawody z danymi GUS)</label>
+                <label class="filters__label">Typowe zarobki (GUS 2024, zł brutto/mies., tylko zawody z danymi GUS)</label>
                 <div class="filters__salary">
                   <div class="filters__salary-inputs">
-                    <input type="number" id="salaryMin" class="filters__input filters__input--num" min="3000" max="35000" step="500" value="3000" aria-label="Minimalne zarobki">
+                    <input type="number" id="salaryMin" class="filters__input filters__input--num" min="3000" max="16000" step="500" value="3000" aria-label="Minimalne zarobki">
                     <span class="filters__salary-sep">do</span>
-                    <input type="number" id="salaryMax" class="filters__input filters__input--num" min="3000" max="35000" step="500" value="35000" aria-label="Maksymalne zarobki">
+                    <input type="number" id="salaryMax" class="filters__input filters__input--num" min="3000" max="16000" step="500" value="16000" aria-label="Maksymalne zarobki">
                   </div>
                   <div class="filters__range-track" id="salaryTrack">
-                    <input type="range" id="salaryRangeMin" class="filters__range" min="3000" max="35000" step="500" value="3000" aria-label="Suwak minimum zarobków">
-                    <input type="range" id="salaryRangeMax" class="filters__range" min="3000" max="35000" step="500" value="35000" aria-label="Suwak maximum zarobków">
+                    <input type="range" id="salaryRangeMin" class="filters__range" min="3000" max="16000" step="500" value="3000" aria-label="Suwak minimum zarobków">
+                    <input type="range" id="salaryRangeMax" class="filters__range" min="3000" max="16000" step="500" value="16000" aria-label="Suwak maximum zarobków">
                   </div>
                 </div>
               </div>
