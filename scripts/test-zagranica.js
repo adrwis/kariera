@@ -55,6 +55,41 @@ const server = http.createServer((req, res) => {
     await page.waitForTimeout(800);
     check('złośliwe parametry nie wykonują kodu', !(await page.evaluate(() => window.__xss)));
 
+    // Przeliczanie walut: kursy NBP podstawione (EUR 4,00 zł, CZK 0,20 zł), więc wyniki są przewidywalne
+    const fx = await browser.newContext({ viewport: { width: 390, height: 800 } });
+    await fx.route('https://api.nbp.pl/**', r => r.fulfill({ contentType: 'application/json', headers: { 'Access-Control-Allow-Origin': '*' }, body: JSON.stringify([{ table: 'A', no: '999/A/NBP/2026', effectiveDate: '2026-10-05', rates: [{ code: 'EUR', mid: 4 }, { code: 'CZK', mid: 0.2 }, { code: 'RON', mid: 0.8 }, { code: 'GBP', mid: 5 }] }]) }));
+    const fp = await fx.newPage();
+    fp.on('pageerror', e => errors.push(e.message));
+    await fp.goto(base + 'zagranica?miasto=praga');
+    await fp.waitForSelector('.zagr__city');
+    check('kwoty w CZK mają odpowiednik w EUR po kursie NBP', (await fp.locator('.zagr__eur').count()) > 0);
+    check('podpowiedź kursu pokazuje datę tabeli NBP', /2026-10-05/.test(await fp.locator('.zagr__eur').first().getAttribute('title')));
+    check('informacja o kursie NBP przy filtrach', /2026-10-05/.test(await fp.locator('.zagr__rate-note').textContent()));
+    await fp.locator('.zagr__calc > summary').click();
+    await fp.fill('#zagrCalc input[name=kwota]', '1 000');
+    await fp.selectOption('#zagrCalc select[name=waluta]', 'CZK');
+    await fp.waitForFunction(() => /EUR/.test(document.querySelector('#zagrCalcOut').textContent));
+    const out = (await fp.locator('#zagrCalcOut').textContent()).replace(/\u00a0/g, ' ');
+    check('1 000 CZK = 50 EUR i 200 zł (kurs podstawiony)', /50 EUR/.test(out) && /200 zł/.test(out), out);
+    await fp.selectOption('#zagrCalc select[name=waluta]', 'RON');
+    await fp.waitForTimeout(150);
+    check('1 000 RON = 200 EUR', /200 EUR/.test((await fp.locator('#zagrCalcOut').textContent()).replace(/\u00a0/g, ' ')));
+    await fp.fill('#zagrCalc input[name=kwota]', 'abc');
+    await fp.waitForTimeout(150);
+    check('zła kwota: komunikat zamiast wyniku', /liczb/.test(await fp.locator('#zagrCalcOut').textContent()));
+    check('notatka podaje numer tabeli NBP', /999\/A\/NBP\/2026/.test(await fp.locator('#zagrCalcNote').textContent()));
+    await fx.close();
+
+    // NBP nie odpowiada: używana jest zapisana kopia kursów
+    const off = await browser.newContext({ viewport: { width: 390, height: 800 } });
+    await off.route('https://api.nbp.pl/**', r => r.abort());
+    const op = await off.newPage();
+    op.on('pageerror', e => errors.push(e.message));
+    await op.goto(base + 'zagranica?miasto=praga');
+    await op.waitForSelector('.zagr__city');
+    check('bez odpowiedzi NBP kwoty nadal mają przeliczenie (zapisana kopia kursów)', (await op.locator('.zagr__eur').count()) > 0);
+    await off.close();
+
     const missing = await page.evaluate(async () => {
       const idx = await (await fetch('data/zagranica/index.json')).json();
       return idx.cities.length;

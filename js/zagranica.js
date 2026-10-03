@@ -28,6 +28,97 @@ const Zagranica = (function () {
   async function loadIndex() { return indexCache || (indexCache = (await getJson('data/zagranica/index.json')).cities); }
   async function loadCity(slug) { return cityCache[slug] || (cityCache[slug] = await getJson(`data/zagranica/${encodeURIComponent(slug)}.json`)); }
 
+  // ---- Przeliczanie walut po średnim kursie NBP (tabela A): na żywo z api.nbp.pl, zapasem jest migawka z budowania strony ----
+  const CUR_ALIAS = { lei: 'RON', RON: 'RON', CZK: 'CZK', HUF: 'HUF', SEK: 'SEK', DKK: 'DKK', GBP: 'GBP', USD: 'USD', '£': 'GBP' };
+  const CALC_CURRENCIES = [['EUR', 'euro (EUR)'], ['PLN', 'złoty (PLN)'], ['CZK', 'korona czeska (CZK)'], ['HUF', 'forint (HUF)'], ['SEK', 'korona szwedzka (SEK)'], ['DKK', 'korona duńska (DKK)'], ['RON', 'lej rumuński (RON)'], ['GBP', 'funt (GBP)']];
+  let rates = null; // { date, table, mid: { EUR: zł za 1 EUR, ... } }
+  let ratesPromise = null;
+  async function fetchRates() {
+    try {
+      const ctl = new AbortController();
+      const timer = setTimeout(() => ctl.abort(), 3000);
+      try {
+        const r = await fetch('https://api.nbp.pl/api/exchangerates/tables/A/?format=json', { signal: ctl.signal, headers: { Accept: 'application/json' } });
+        if (r.ok) {
+          const t = (await r.json())[0];
+          const mid = {};
+          for (const x of t.rates) mid[x.code] = x.mid;
+          if (mid.EUR) return { date: t.effectiveDate, table: t.no, mid, live: true };
+        }
+      } finally { clearTimeout(timer); }
+    } catch (e) { /* zapas poniżej */ }
+    try {
+      const s = await getJson('data/zagranica/kursy.json');
+      if (s && s.rates && s.rates.EUR) return { date: s.effectiveDate, table: s.table, mid: s.rates, live: false };
+    } catch (e) { /* bez kursów strona działa bez przeliczeń */ }
+    return null;
+  }
+  function loadRates() { return ratesPromise || (ratesPromise = fetchRates().then(r => { rates = r; return r; })); }
+  const toEur = (amount, cur) => (!rates || !rates.mid[cur] ? null : cur === 'EUR' ? amount : (amount * rates.mid[cur]) / rates.mid.EUR);
+  const toPln = (amount, cur) => (!rates || (cur !== 'PLN' && !rates.mid[cur]) ? null : cur === 'PLN' ? amount : amount * rates.mid[cur]);
+  const fmtNum = n => {
+    const v = n >= 1000 ? Math.round(n / 10) * 10 : n >= 100 ? Math.round(n) : Math.round(n * 10) / 10;
+    return String(v).replace('.', ',').replace(/\B(?=(\d{3})+(?!\d))/g, '\u00a0');
+  };
+  const parseNum = s => {
+    let t = String(s).replace(/&nbsp;|[\u00a0\s]/g, '');
+    if (/,\d{1,2}$/.test(t)) t = t.replace(',', '.');
+    else t = t.replace(/[.,](?=\d{3}(\D|$))/g, '');
+    const n = parseFloat(t);
+    return Number.isFinite(n) ? n : null;
+  };
+  const SP = String.raw`(?:\u00a0|&nbsp;| )`; // escapeHtml zamienia twarde spacje na &nbsp;
+  const NUM = String.raw`\d{1,3}(?:${SP}\d{3})*(?:[.,]\d{1,2})?|\d+(?:[.,]\d{1,2})?`;
+  const AMOUNT_RE = new RegExp(`(?<![\\d.,])(?:(${NUM})(?:\\s*(?:do|-)\\s*(${NUM}))?${SP}?(lei|RON|CZK|HUF|SEK|DKK|GBP|USD)(?![A-Za-z])|£(${NUM}))`, 'g');
+  // Dodaje po kwotach w walutach innych niż euro orientacyjny odpowiednik w EUR (tekst musi być już zabezpieczony przez esc)
+  function withEur(html) {
+    if (!rates) return html;
+    return html.replace(AMOUNT_RE, (m, a, b, cur, pound) => {
+      const code = CUR_ALIAS[cur || '£'];
+      const x = parseNum(a || pound), y = b ? parseNum(b) : null;
+      const ex = x == null ? null : toEur(x, code);
+      if (ex == null) return m;
+      const ey = y == null ? null : toEur(y, code);
+      const txt = ey != null ? `${fmtNum(ex)} do ${fmtNum(ey)}` : fmtNum(ex);
+      return `${m} <span class="zagr__eur" title="Średni kurs NBP z ${esc(rates.date)}">(≈\u00a0${txt}\u00a0EUR)</span>`;
+    });
+  }
+  function calcHtml() {
+    return `
+      <details class="zagr__details zagr__calc">
+        <summary>Przelicznik walut na euro (średni kurs NBP)</summary>
+        <form id="zagrCalc" class="zagr__calc-form" novalidate>
+          <label class="szkoly__field kalk__field"><span class="szkoly__legend">Kwota</span>
+            <input type="text" name="kwota" inputmode="decimal" autocomplete="off" class="szkoly__select" placeholder="np. 150000"></label>
+          <label class="szkoly__field kalk__field"><span class="szkoly__legend">Waluta</span>
+            <select name="waluta" class="szkoly__select">${CALC_CURRENCIES.map(([c, l]) => `<option value="${c}"${c === 'CZK' ? ' selected' : ''}>${esc(l)}</option>`).join('')}</select></label>
+        </form>
+        <p class="zagr__calc-out" id="zagrCalcOut" role="status" aria-live="polite">Wpisz kwotę, np. czesne w koronach czy lejach.</p>
+        <p class="szkola__muted" id="zagrCalcNote">Kursy: tabela A NBP (kursy średnie). Wynik jest orientacyjny: banki i kantory stosują własne kursy i prowizje.</p>
+      </details>`;
+  }
+  function bindCalc(container) {
+    const form = container.querySelector('#zagrCalc');
+    if (!form) return;
+    const out = container.querySelector('#zagrCalcOut'), note = container.querySelector('#zagrCalcNote');
+    const run = async () => {
+      const raw = form.elements.kwota.value.trim();
+      if (!raw) { out.textContent = 'Wpisz kwotę, np. czesne w koronach czy lejach.'; return; }
+      const amount = parseNum(raw);
+      if (amount == null || amount < 0) { out.textContent = 'Wpisz kwotę jako liczbę, np. 150000.'; return; }
+      const r = await loadRates();
+      if (!r) { out.textContent = 'Nie udało się pobrać kursów NBP. Spróbuj za chwilę.'; return; }
+      const cur = form.elements.waluta.value;
+      const eur = toEur(amount, cur), pln = toPln(amount, cur);
+      out.innerHTML = `<strong>${esc(fmtNum(amount))}\u00a0${esc(cur)}</strong> to około <strong>${esc(fmtNum(eur))}\u00a0EUR</strong>${cur === 'PLN' ? '' : ` i około <strong>${esc(fmtNum(pln))}\u00a0zł</strong>`}.`;
+      note.innerHTML = `Kursy: ${esc(r.source || 'NBP, tabela A')} nr ${esc(r.table)} z dnia ${esc(r.date)}${r.live ? '' : ' (zapisana kopia, bo NBP nie odpowiedział)'}. Wynik jest orientacyjny: banki i kantory stosują własne kursy i prowizje. <a href="https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/" target="_blank" rel="noopener">Tabela A na stronie NBP</a>.`;
+    };
+    form.addEventListener('input', run);
+    form.addEventListener('change', run);
+    form.addEventListener('submit', e => { e.preventDefault(); run(); });
+    container.querySelector('.zagr__calc').addEventListener('toggle', e => { if (e.target.open) loadRates(); });
+  }
+
   let renderSeq = 0;
 
   let pendingFocus = '';
@@ -75,7 +166,7 @@ const Zagranica = (function () {
       ? (p.tuitionNonEu ? ['Opłaty dla zagranicznych (po Brexicie)', p.tuitionNonEu] : null)
       : (p.tuitionEu ? ['Opłaty dla obywateli UE', p.tuitionEu] : null);
     const rows = [
-      fee ? `<div><dt>${esc(fee[0])}</dt><dd>${esc(fee[1])}${p.tuitionUrl ? ' ' + link(p.tuitionUrl, 'źródło') : ''}</dd></div>` : '',
+      fee ? `<div><dt>${esc(fee[0])}</dt><dd>${withEur(esc(fee[1]))}${p.tuitionUrl ? ' ' + link(p.tuitionUrl, 'źródło') : ''}</dd></div>` : '',
       fee ? '' : `<div><dt>${city.eu === false ? 'Opłaty dla zagranicznych' : 'Opłaty dla obywateli UE'}</dt><dd class="zagr__missing">Brak potwierdzonych danych, sprawdź na stronie uczelni.</dd></div>`,
       `<div><dt>Termin</dt><dd${p.deadline ? '' : ' class="zagr__missing"'}>${p.deadline ? esc(p.deadline) : 'Brak potwierdzonego terminu, sprawdź na stronie uczelni.'}</dd></div>`,
     ].join('');
@@ -84,7 +175,7 @@ const Zagranica = (function () {
       p.requirements ? `<div><dt>Warunki przyjęcia</dt><dd>${esc(p.requirements)}${p.admissionUrl ? ' ' + link(p.admissionUrl, 'źródło') : ''}</dd></div>` : '',
       p.languageProof ? `<div><dt>Znajomość języka</dt><dd>${esc(p.languageProof)}</dd></div>` : '',
       p.selective != null ? `<div><dt>Selekcja</dt><dd>${p.selective ? 'tak, ograniczona liczba miejsc lub test' : 'brak selekcji w tym programie'}</dd></div>` : '',
-      city.eu === false && p.tuitionEu ? `<div><dt>Uwaga o opłatach</dt><dd>${esc(p.tuitionEu)}</dd></div>` : '',
+      city.eu === false && p.tuitionEu ? `<div><dt>Uwaga o opłatach</dt><dd>${withEur(esc(p.tuitionEu))}</dd></div>` : '',
       p.notes ? `<div><dt>Uwagi</dt><dd>${esc(p.notes)}</dd></div>` : '',
     ].join('');
     return `
@@ -105,7 +196,7 @@ const Zagranica = (function () {
     const unis = city.universities.map(u => ({ ...u, programs: u.programs.filter(keep) })).filter(u => u.programs.length);
     const shown = unis.reduce((a, u) => a + u.programs.length, 0);
     const summary = city.summary.length
-      ? `<dl class="szkola__dl zagr__summary">${city.summary.map(s => `<div><dt>${esc(s.label)}</dt><dd>${esc(s.text)}</dd></div>`).join('')}</dl>`
+      ? `<dl class="szkola__dl zagr__summary">${city.summary.map(s => `<div><dt>${esc(s.label)}</dt><dd>${withEur(esc(s.text))}</dd></div>`).join('')}</dl>`
       : '';
     const sources = city.sources.filter(s => isUrl(s.url));
     return `
@@ -118,6 +209,7 @@ const Zagranica = (function () {
             <select name="kierunek" class="szkoly__select"><option value="">Wszystkie</option>${careerIds.map(id => `<option value="${attr(id)}"${f.kierunek === id ? ' selected' : ''}>${esc(CAREERS[id])}</option>`).join('')}</select></label>
           <label class="szkoly__chip szkoly__chip--solo"><input type="checkbox" name="ang" value="1"${f.ang ? ' checked' : ''}> Tylko po angielsku</label>
         </form>
+        ${rates ? `<p class="szkola__muted zagr__rate-note">Kwoty w innych walutach przeliczamy orientacyjnie na euro po średnim kursie NBP z ${esc(rates.date)} (znak ≈).</p>` : ''}
         <p class="results__count" id="zagrCount" aria-live="polite">Pokazano ${shown} z ${total} programów.</p>
         ${summary ? `<details class="zagr__details zagr__overview"><summary>Matura, opłaty i terminy w skrócie (cały kraj lub miasto)</summary>${summary}</details>` : ''}
         ${unis.length ? unis.map(u => `
@@ -166,7 +258,7 @@ const Zagranica = (function () {
     try { cities = await loadIndex(); } catch (e) { if (my === renderSeq) body.innerHTML = '<p class="career-column__empty">Nie udało się wczytać listy miast. Sprawdź połączenie i odśwież stronę.</p>'; return; }
     if (my !== renderSeq) return;
     const meta = cities.find(c => c.slug === f.miasto);
-    let html = cityPickerHtml(cities, meta ? meta.slug : '');
+    let html = cityPickerHtml(cities, meta ? meta.slug : '') + calcHtml();
     if (!meta) {
       body.innerHTML = html + `<p class="zagr__ask">${ctx.feedbackButton('miasto', 'Nie ma Twojego miasta albo kierunku? Daj znać')}</p>` + overviewHtml(cities);
     } else if (meta.status !== 'dostępne') {
@@ -174,11 +266,12 @@ const Zagranica = (function () {
     } else {
       body.innerHTML = html + '<p class="szkoly__loading">Wczytuję programy…</p>';
       let city;
-      try { city = await loadCity(meta.slug); } catch (e) { if (my === renderSeq) body.innerHTML = html + '<p class="career-column__empty">Nie udało się wczytać danych tego miasta. Spróbuj ponownie.</p>'; bind(container, f); return; }
+      try { [city] = await Promise.all([loadCity(meta.slug), loadRates()]); } catch (e) { if (my === renderSeq) body.innerHTML = html + '<p class="career-column__empty">Nie udało się wczytać danych tego miasta. Spróbuj ponownie.</p>'; bind(container, f); return; }
       if (my !== renderSeq) return;
       body.innerHTML = html + cityHtml(city, f);
     }
     bind(container, f);
+    bindCalc(container);
     if (refocus) { const el = container.querySelector(refocus); if (el) el.focus({ preventScroll: true }); else focusHeading(container); }
   }
 

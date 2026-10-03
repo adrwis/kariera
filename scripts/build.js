@@ -8,6 +8,8 @@ const fs = require('fs');
 const ROOT = path.resolve(__dirname, '..');
 
 async function build() {
+  // Migawka średnich kursów NBP dla przelicznika walut (zapas, gdy NBP nie odpowiada w przeglądarce)
+  try { require('child_process').execFileSync(process.execPath, [path.join(__dirname, 'update-kursy.js')], { stdio: 'inherit', timeout: 30000 }); } catch (e) { console.log('  kursy NBP: pominięto'); }
   const jsFiles = ['app.js', 'search.js', 'szkoly.js', 'quiz.js', 'zagranica.js', 'feedback.js', 'animations.js'];
   let totalSaved = 0;
 

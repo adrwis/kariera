@@ -3276,3 +3276,11 @@ body.feedback-open { overflow: hidden; }
 .feedback-actions { position: sticky; bottom: -2rem; padding: 0.75rem 0 0; margin-top: 0.25rem; background: var(--kr-card-bg); }
 @media (max-width: 480px) { .feedback-actions { bottom: -1.5rem; } }
 .feedback-field textarea[aria-invalid="true"] { border-color: var(--kr-demand-deficit); }
+
+/* Przelicznik walut i przeliczone kwoty w zakładce Za granicą */
+.zagr__eur { color: var(--kr-secondary); font-weight: 600; white-space: nowrap; }
+.zagr__calc { margin: 0.75rem 0 1rem; }
+.zagr__calc-form { display: flex; flex-wrap: wrap; gap: 0.75rem 1rem; margin: 0.5rem 0; }
+.zagr__calc-form .szkoly__field { flex: 1 1 12rem; }
+.zagr__calc-out { font-size: 1.05rem; margin: 0.5rem 0; min-height: 1.5rem; }
+.zagr__rate-note { margin: 0.25rem 0 0.75rem; }
