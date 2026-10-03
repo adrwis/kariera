@@ -2510,7 +2510,7 @@
       ],
       "year": 2025,
       "sourceName": "Hays Poland, Raport płacowy 2026",
-      "sourceUrl": "https://www.hays.pl/raport-placowy"
+      "sourceUrl": "https://www.hays.pl/raport-placowy/technology"
     }
   },
   {
@@ -5494,7 +5494,18 @@
       ],
       "keywords": "rysowanie projektowanie tworzenie sztuka komputery programowanie"
     },
-    "demandGroup": "Graficy komputerowi"
+    "demandGroup": "Graficy komputerowi",
+    "salaryMarket": {
+      "min": 9500,
+      "typical": 10500,
+      "max": 12500,
+      "roles": [
+        "Graphic Designer"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl/raport-placowy"
+    }
   },
   {
     "id": "prawnik",
@@ -7794,7 +7805,18 @@
       "keywords": "liczby analizy finanse matematyka komputery programowanie biznes sprzedaż organizowanie"
     },
     "codeUnverified": true,
-    "demandGroup": "Specjaliści ds. badań społeczno-ekonomicznych i analizy danych"
+    "demandGroup": "Specjaliści ds. badań społeczno-ekonomicznych i analizy danych",
+    "salaryMarket": {
+      "min": 10000,
+      "typical": 13000,
+      "max": 15000,
+      "roles": [
+        "Analityk Danych"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl/raport-placowy/technology"
+    }
   },
   {
     "id": "pielegniarka",
@@ -12073,7 +12095,7 @@
       ],
       "year": 2025,
       "sourceName": "Hays Poland, Raport płacowy 2026",
-      "sourceUrl": "https://www.hays.pl/raport-placowy"
+      "sourceUrl": "https://www.hays.pl/raport-placowy/technology"
     }
   },
   {
@@ -14706,7 +14728,7 @@
       ],
       "year": 2025,
       "sourceName": "Hays Poland, Raport płacowy 2026",
-      "sourceUrl": "https://www.hays.pl/raport-placowy"
+      "sourceUrl": "https://www.hays.pl/raport-placowy/technology"
     }
   },
   {
@@ -18616,7 +18638,7 @@
       ],
       "year": 2025,
       "sourceName": "Hays Poland, Raport płacowy 2026",
-      "sourceUrl": "https://www.hays.pl/raport-placowy"
+      "sourceUrl": "https://www.hays.pl/raport-placowy/technology"
     }
   },
   {
@@ -19618,7 +19640,7 @@
       ],
       "year": 2025,
       "sourceName": "Hays Poland, Raport płacowy 2026",
-      "sourceUrl": "https://www.hays.pl/raport-placowy"
+      "sourceUrl": "https://www.hays.pl/raport-placowy/technology"
     }
   },
   {
@@ -20952,7 +20974,7 @@
       ],
       "year": 2025,
       "sourceName": "Hays Poland, Raport płacowy 2026",
-      "sourceUrl": "https://www.hays.pl/raport-placowy"
+      "sourceUrl": "https://www.hays.pl/raport-placowy/technology"
     }
   },
   {
@@ -22213,7 +22235,7 @@
       ],
       "year": 2025,
       "sourceName": "Hays Poland, Raport płacowy 2026",
-      "sourceUrl": "https://www.hays.pl/raport-placowy"
+      "sourceUrl": "https://www.hays.pl/raport-placowy/technology"
     }
   },
   {
@@ -23396,7 +23418,19 @@
       ],
       "keywords": "komputery programowanie maszyny elektronika urządzenia technika"
     },
-    "demandGroup": "Technicy informatycy"
+    "demandGroup": "Technicy informatycy",
+    "salaryMarket": {
+      "min": 9000,
+      "typical": 12000,
+      "max": 18000,
+      "roles": [
+        "2nd Line Support"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl/raport-placowy/technology",
+      "approx": true
+    }
   },
   {
     "id": "programista-gier",
@@ -25437,7 +25471,19 @@
       ],
       "keywords": "liczby analizy finanse matematyka biznes sprzedaż organizowanie nauka badania eksperymenty"
     },
-    "demandGroup": "Specjaliści ds. badań społeczno-ekonomicznych i analizy danych"
+    "demandGroup": "Specjaliści ds. badań społeczno-ekonomicznych i analizy danych",
+    "salaryMarket": {
+      "min": 9000,
+      "typical": 14000,
+      "max": 17000,
+      "roles": [
+        "Analityk Finansowy"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl/raport-placowy",
+      "approx": true
+    }
   },
   {
     "id": "doradca-finansowy",
@@ -26227,7 +26273,19 @@
       ],
       "keywords": "liczby analizy finanse matematyka biznes sprzedaż organizowanie ludzie rozmowy pomaganie"
     },
-    "demandGroup": "Specjaliści ds. finansowych"
+    "demandGroup": "Specjaliści ds. finansowych",
+    "salaryMarket": {
+      "min": 9000,
+      "typical": 14000,
+      "max": 19000,
+      "roles": [
+        "Doradca Klienta Bankowości Prywatnej"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl/raport-placowy",
+      "approx": true
+    }
   },
   {
     "id": "specjalista-hr",
@@ -29083,7 +29141,18 @@
       ],
       "keywords": "pisanie czytanie media ludzie rozmowy pomaganie biznes sprzedaż organizowanie"
     },
-    "demandGroup": "Specjaliści ds. PR, reklamy, marketingu i sprzedaży"
+    "demandGroup": "Specjaliści ds. PR, reklamy, marketingu i sprzedaży",
+    "salaryMarket": {
+      "min": 8500,
+      "typical": 9500,
+      "max": 13000,
+      "roles": [
+        "PR Specialist"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl/raport-placowy"
+    }
   },
   {
     "id": "doradca-podatkowy",
@@ -30830,7 +30899,19 @@
       ],
       "keywords": "liczby analizy finanse matematyka prawo zasady biznes sprzedaż organizowanie"
     },
-    "demandGroup": "Specjaliści ds. finansowych"
+    "demandGroup": "Specjaliści ds. finansowych",
+    "salaryMarket": {
+      "min": 14000,
+      "typical": 22000,
+      "max": 25000,
+      "roles": [
+        "Senior/ Audit Manager"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl/raport-placowy",
+      "approx": true
+    }
   },
   {
     "id": "psychoterapeuta",
@@ -39561,7 +39642,19 @@
       "keywords": "prawo zasady ludzie rozmowy pomaganie"
     },
     "salaryNote": "Te zawody wykonuje się zwykle na własnej działalności, której badanie GUS nie obejmuje, dlatego nie ma kwot.",
-    "demandGroup": "Prawnicy"
+    "demandGroup": "Prawnicy",
+    "salaryMarket": {
+      "min": 11000,
+      "typical": 14000,
+      "max": 43000,
+      "roles": [
+        "Prawnik Kancelarii"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl/raport-placowy",
+      "approx": true
+    }
   },
   {
     "id": "zolnierz-zawodowy",
@@ -48622,7 +48715,21 @@
       "keywords": "maszyny elektronika urządzenia technika liczby analizy finanse matematyka"
     },
     "codeUnverified": true,
-    "demandGroup": "Specjaliści mechanicy"
+    "demandGroup": "Specjaliści mechanicy",
+    "salaryMarket": {
+      "min": 8000,
+      "typical": 11000,
+      "max": 18000,
+      "roles": [
+        "Production/ Process Engineer",
+        "Design Engineer",
+        "Maintenance Engineer"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl/raport-placowy",
+      "approx": true
+    }
   },
   {
     "id": "geodeta",
@@ -54345,7 +54452,20 @@
       "keywords": "przyroda rośliny środowisko maszyny elektronika urządzenia technika nauka badania eksperymenty"
     },
     "codeUnverified": true,
-    "demandGroup": "Inżynierowie inżynierii środowiska"
+    "demandGroup": "Inżynierowie inżynierii środowiska",
+    "salaryMarket": {
+      "min": 8000,
+      "typical": 13000,
+      "max": 18000,
+      "roles": [
+        "Ekspert ds. Środowiska",
+        "EHS Specialist"
+      ],
+      "year": 2025,
+      "sourceName": "Hays Poland, Raport płacowy 2026",
+      "sourceUrl": "https://www.hays.pl/raport-placowy",
+      "approx": true
+    }
   },
   {
     "id": "technik-weterynarii",

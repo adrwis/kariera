@@ -10,8 +10,9 @@ const careers = JSON.parse(fs.readFileSync(file, 'utf8'));
 const hays = JSON.parse(fs.readFileSync(path.join(__dirname, 'wyniki', 'raporty-plac-hays-2026-10-03.json'), 'utf8'));
 const byId = new Map(hays.dopasowania.map(d => [d.zawodId, d]));
 
-const MARKET = ['programista', 'administrator-systemow', 'ksiegowy', 'doradca-podatkowy', 'specjalista-hr', 'specjalista-marketingu', 'prawnik',
-  'architekt', 'inzynier-budownictwa', 'tester', 'projektant-ux', 'specjalista-cyberbezpieczenstwa', 'data-scientist', 'devops-engineer'];
+// Wszystkie zawody dopasowane do ról z raportu (dobre i przybliżone; przy przybliżonych tekst na stronie mówi o rolach zbliżonych)
+const IT = new Set(['programista', 'administrator-systemow', 'tester', 'projektant-ux', 'specjalista-cyberbezpieczenstwa', 'data-scientist', 'devops-engineer', 'analityk-danych', 'technik-informatyk']);
+const MARKET = hays.dopasowania.filter(d => ['dobre', 'przybliżone'].includes(d.jakoscDopasowania) && d.haysMin).map(d => d.zawodId);
 const CAVEAT = {
   ekonomista: 'GUS zalicza ekonomistów do grupy, w której są też psycholodzy, socjologowie i pracownicy socjalni, więc ta kwota jest tylko orientacyjna.',
   'doradca-podatkowy': 'GUS podaje płace wszystkich specjalistów od finansów, więc dla doradcy podatkowego ta kwota jest tylko orientacyjna.',
@@ -28,8 +29,10 @@ for (const c of careers) {
   delete c.salaryMarket;
   const d = byId.get(c.id);
   if (MARKET.includes(c.id) && d && d.haysMin && d.haysMid && d.haysMax) {
+    const approx = d.jakoscDopasowania !== 'dobre';
     const roles = [...new Set((d.rolaRdzeniowa || []).map(r => r.replace(/\s*\(s\. \d+\)$/, '')))].slice(0, 3);
-    c.salaryMarket = { min: d.haysMin, typical: d.haysMid, max: d.haysMax, roles, year: 2025, sourceName: 'Hays Poland, Raport płacowy 2026', sourceUrl: 'https://www.hays.pl/raport-placowy' };
+    c.salaryMarket = { min: d.haysMin, typical: d.haysMid, max: d.haysMax, roles, year: 2025, sourceName: 'Hays Poland, Raport płacowy 2026', sourceUrl: IT.has(c.id) ? 'https://www.hays.pl/raport-placowy/technology' : 'https://www.hays.pl/raport-placowy' };
+    if (approx) c.salaryMarket.approx = true;
     market++;
   }
   if (c.salary) { delete c.salary.caveat; if (CAVEAT[c.id]) { c.salary.caveat = CAVEAT[c.id]; caveats++; } }

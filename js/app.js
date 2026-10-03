@@ -396,13 +396,13 @@
     const m = c.salaryMarket;
     if (!m) return '';
     const roles = (m.roles || []).length ? ` (np. ${m.roles.map(escapeHtml).join(', ')})` : '';
-    const src = isHttpUrl(m.sourceUrl) ? ` <a href="${escapeAttr(m.sourceUrl)}" target="_blank" rel="noopener">Źródło: Hays</a>` : '';
+    const src = isHttpUrl(m.sourceUrl) ? ` <a href="${escapeAttr(m.sourceUrl)}" target="_blank" rel="noopener">Źródło: Hays Poland, Raport płacowy 2026</a>` : '';
     // Porównanie z GUS tylko, gdy liczby naprawdę się różnią (np. u prawnika oferty nie są wyższe niż mediana GUS)
     const gus = c.salary ? c.salary.median : null;
     const cmp = !gus ? 'To oferty dla osób z doświadczeniem, a nie średnia wszystkich pracowników.'
       : m.typical > gus * 1.05 ? 'To oferty dla osób z doświadczeniem, więc zwykle są wyższe niż typowe zarobki z GUS powyżej.'
       : 'To oferty, a nie wypłaty wszystkich pracowników, dlatego mogą się różnić od danych GUS powyżej.';
-    return `<p class="career-hero__note career-hero__note--market"><strong>Rynek ofert, ${escapeHtml(m.year)}:</strong> w rekrutacjach agencji Hays Poland dla średnich i dużych firm na role w tym zawodzie${roles} oferowano, zależnie od roli i doświadczenia (od juniora do seniora), od ${fmtZl100(m.min)} do ${fmtZl100(m.max)} brutto miesięcznie. ${cmp}${src}</p>`;
+    return `<p class="career-hero__note career-hero__note--market"><strong>Rynek ofert, ${escapeHtml(m.year)}:</strong> w rekrutacjach agencji Hays Poland dla średnich i dużych firm na ${m.approx ? 'role zbliżone do tego zawodu' : 'role w tym zawodzie'}${roles} oferowano, zależnie od roli i doświadczenia (od juniora do seniora), od ${fmtZl100(m.min)} do ${fmtZl100(m.max)} brutto miesięcznie. ${cmp}${src}</p>`;
   }
   // Wyjaśnienie etykiety zapotrzebowania widoczne na stronie (dymek title nie działa na telefonie)
   function demandNoteHtml(c) {
