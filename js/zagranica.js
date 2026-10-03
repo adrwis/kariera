@@ -129,7 +129,7 @@ const Zagranica = (function () {
     return `
       <nav class="zagr__tabs" aria-label="Zakładki: studia za granicą">
         <a href="${ctx.BASE}/zagranica"${active === 'studia' ? ' aria-current="page"' : ''}>Studia</a>
-        <a href="${ctx.BASE}/zagranica/koszty"${active === 'koszty' ? ' aria-current="page"' : ''}>Koszty życia i akademiki <span class="zagr__soon">wkrótce</span></a>
+        <a href="${ctx.BASE}/zagranica/koszty"${active === 'koszty' ? ' aria-current="page"' : ''}>Koszty życia i akademiki</a>
       </nav>`;
   }
 
@@ -288,20 +288,136 @@ const Zagranica = (function () {
     });
   }
 
-  function renderCosts(container) {
-    ++renderSeq;
-    ctx.updateMeta('Koszty życia i akademiki | NextMove', 'Koszty życia i akademiki w miastach z zakładki Studia za granicą: zakładka w przygotowaniu.', `${ctx.BASE}/zagranica/koszty/`);
+  // ---- Koszty życia i akademiki ----
+  let kosztyIndex = null;
+  const kosztyCache = {};
+  async function loadKosztyIndex() { return kosztyIndex || (kosztyIndex = (await getJson('data/koszty/index.json')).cities); }
+  async function loadKoszty(slug) { return kosztyCache[slug] || (kosztyCache[slug] = await getJson(`data/koszty/${encodeURIComponent(slug)}.json`)); }
+  const NB = '\u00a0';
+  const fmtExact = n => {
+    const t = Number.isInteger(n) ? String(n) : n.toFixed(2).replace('.', ',');
+    return t.replace(/\B(?=(\d{3})+(?!\d)(?:,|$))/g, NB);
+  };
+  const CUR_LABEL = { PLN: 'zł', EUR: 'EUR' };
+  const curTxt = c => CUR_LABEL[c] || c;
+  function priceHtml(from, to, cur, period) {
+    if (from == null && to == null) return '';
+    const per = period ? ` / ${esc(period)}` : '';
+    const main = from != null && to != null && from !== to ? `od ${fmtExact(from)} do ${fmtExact(to)}${NB}${esc(curTxt(cur))}` : `${from != null && to != null ? '' : (from != null ? 'od ' : 'do ')}${fmtExact(from != null ? from : to)}${NB}${esc(curTxt(cur))}`;
+    const conv = [];
+    const range = (fn, unit) => {
+      const a = from != null ? fn(from, cur) : null, b = to != null ? fn(to, cur) : null;
+      if (a == null && b == null) return;
+      conv.push(from != null && to != null && from !== to && a != null && b != null ? `${fmtNum(a)} do ${fmtNum(b)}${NB}${unit}` : `${fmtNum(a != null ? a : b)}${NB}${unit}`);
+    };
+    if (rates && cur !== 'EUR') range(toEur, 'EUR');
+    if (rates && cur !== 'PLN') range(toPln, 'zł');
+    const per2 = period && /miesi/.test(period) ? ` / ${esc(period)}` : per;
+    return `<span class="koszty__price">${main}${per2}</span>${conv.length ? ` <span class="zagr__eur" title="Średni kurs NBP z ${esc(rates.date)}">(≈${NB}${conv.join(', ≈' + NB)})</span>` : ''}`;
+  }
+  function dormHtml(d) {
+    const rows = [
+      d.roomType ? `<div><dt>Pokój</dt><dd>${esc(d.roomType)}</dd></div>` : '',
+      d.includes ? `<div><dt>W cenie</dt><dd>${esc(d.includes)}</dd></div>` : '',
+      d.deposit ? `<div><dt>Kaucja</dt><dd>${esc(d.deposit)}</dd></div>` : '',
+      d.eligibility ? `<div><dt>Dla kogo</dt><dd>${esc(d.eligibility)}</dd></div>` : '',
+      d.applicationInfo ? `<div><dt>Zgłoszenia</dt><dd>${esc(d.applicationInfo)}</dd></div>` : '',
+      d.waitlist ? `<div><dt>Lista oczekujących</dt><dd>${esc(d.waitlist)}</dd></div>` : '',
+      d.notes ? `<div><dt>Uwagi</dt><dd>${esc(d.notes)}</dd></div>` : '',
+    ].join('');
+    return `
+      <li class="szkola__profile zagr__prog koszty__item">
+        <h3 class="szkola__profile-name">${isUrl(d.url) ? link(d.url, d.name) : esc(d.name)}${d.operator ? ` <span class="szkola__muted">(${esc(d.operator)})</span>` : ''}</h3>
+        ${priceHtml(d.priceFrom, d.priceTo, d.currency, d.period) ? `<p class="koszty__line">${priceHtml(d.priceFrom, d.priceTo, d.currency, d.period)}</p>` : ''}
+        ${rows ? `<dl class="szkola__dl">${rows}</dl>` : ''}
+        <div class="zagr__links">${link(d.applyUrl, 'Złóż wniosek')} ${link(d.sourceUrl, 'Źródło')}</div>
+      </li>`;
+  }
+  function rentHtml(r) {
+    return `
+      <li class="szkola__profile zagr__prog koszty__item">
+        <h3 class="szkola__profile-name">${esc(r.type)}${r.area ? ` <span class="szkola__muted">(${esc(r.area)})</span>` : ''}</h3>
+        <p class="koszty__line">${priceHtml(r.priceFrom, r.priceTo, r.currency, r.period)}${r.official === false ? ' <span class="szkoly__badge koszty__unofficial" title="Dane z raportu rynkowego, nie ze źródła urzędowego">dane nieoficjalne</span>' : ''}</p>
+        <dl class="szkola__dl">
+          ${r.year ? `<div><dt>Rok danych</dt><dd>${esc(r.year)}</dd></div>` : ''}
+          ${r.includesUtilities ? `<div><dt>Media w cenie</dt><dd>${esc(r.includesUtilities)}</dd></div>` : ''}
+          ${r.source ? `<div><dt>Źródło</dt><dd>${isUrl(r.sourceUrl) ? link(r.sourceUrl, r.source) : esc(r.source)}</dd></div>` : ''}
+          ${r.notes ? `<div><dt>Uwagi</dt><dd>${esc(r.notes)}</dd></div>` : ''}
+        </dl>
+      </li>`;
+  }
+  function kosztyCityHtml(c) {
+    const budget = c.budget ? `
+      <section class="zagr__uni koszty__budget">
+        <h3 class="career-column__subtitle">Miesięczny budżet studenta</h3>
+        <p class="koszty__line">${priceHtml(c.budget.from, c.budget.to, c.budget.currency, c.budget.period)}${c.budget.official === false ? ' <span class="szkoly__badge koszty__unofficial">dane nieoficjalne</span>' : ''}</p>
+        ${c.budget.text ? `<p class="szkola__muted">${esc(c.budget.text)} ${link(c.budget.sourceUrl, 'Źródło')}</p>` : `<p class="szkola__muted">${link(c.budget.sourceUrl, 'Źródło')}</p>`}
+      </section>` : '';
+    const summary = c.summary.length ? `<dl class="szkola__dl zagr__summary">${c.summary.map(s => `<div><dt>${esc(s.label)}</dt><dd>${esc(s.text)}</dd></div>`).join('')}</dl>` : '';
+    const sources = c.sources.filter(s => isUrl(s.url));
+    return `
+      <section class="zagr__city" aria-label="${attr(c.name)}">
+        <h2 class="career-column__title">${esc(c.name)}, ${esc(c.country)}</h2>
+        <p class="szkola__muted">Ceny są orientacyjne, pobrane ${esc(c.retrieved || '')} z oficjalnych stron uczelni, akademików i urzędów. Podajemy je w walucie lokalnej${rates ? `, a obok przeliczamy po średnim kursie NBP z ${esc(rates.date)} (znak ≈)` : ''}. Aktualne stawki zawsze sprawdź na stronie wskazanej przy cenie.</p>
+        ${summary}
+        ${budget}
+        ${c.dorms.length ? `<section class="zagr__uni"><h3 class="career-column__subtitle">Akademiki i rezydencje studenckie (${c.dorms.length})</h3><ul class="szkola__profiles">${c.dorms.map(dormHtml).join('')}</ul></section>` : ''}
+        ${c.rent.length ? `<section class="zagr__uni"><h3 class="career-column__subtitle">Przykładowe ceny wynajmu (${c.rent.length})</h3><ul class="szkola__profiles">${c.rent.map(rentHtml).join('')}</ul></section>` : ''}
+        <p class="zagr__ask">${ctx.feedbackButton('inne', 'Brakuje kosztów albo cena jest nieaktualna? Daj znać', c.name)}</p>
+        ${c.gaps.length ? `<details class="zagr__details zagr__gaps"><summary>Czego nie udało się potwierdzić (${c.gaps.length})</summary><ul>${c.gaps.map(g => `<li>${esc(g)}</li>`).join('')}</ul></details>` : ''}
+        ${sources.length ? `<details class="zagr__details"><summary>Źródła</summary><ul class="szkoly__mini">${sources.map(s => `<li>${link(s.url, s.url.replace(/^https?:\/\/(www\.)?/, '').slice(0, 70))}${s.note ? ` <span class="szkola__muted">${esc(s.note)}</span>` : ''}</li>`).join('')}</ul></details>` : ''}
+      </section>`;
+  }
+  function kosztyPickerHtml(cities, current) {
+    const opt = c => `<option value="${attr(c.slug)}"${c.slug === current ? ' selected' : ''}>${esc(c.name)}${c.region === 'zagranica' ? ` (${esc(c.country)})` : ''}${c.status === 'dostępne' ? '' : ': dane w przygotowaniu'}</option>`;
+    const grp = (label, region) => { const l = cities.filter(c => c.region === region); return l.length ? `<optgroup label="${attr(label)}">${l.map(opt).join('')}</optgroup>` : ''; };
+    return `
+      <label class="szkoly__field kalk__field zagr__city-field"><span class="szkoly__legend">Miasto</span>
+        <select id="kosztyCity" class="szkoly__select"><option value="">Wybierz miasto</option>${grp('Za granicą', 'zagranica')}${grp('W Polsce', 'polska')}</select></label>`;
+  }
+  function kosztyOverviewHtml(cities) {
+    const card = c => `<li><a class="zagr__card" href="${ctx.BASE}/zagranica/koszty?miasto=${attr(c.slug)}"><strong>${esc(c.name)}</strong><span class="szkola__muted">${esc(c.country)}</span><span class="szkoly__badge">${c.status === 'dostępne' ? `${c.dorms} akademik${c.dorms === 1 ? '' : 'ów'}, ${c.rent} wynajem` : 'w przygotowaniu'}</span></a></li>`;
+    const block = (title, region) => { const l = cities.filter(c => c.region === region); const ready = l.filter(c => c.status === 'dostępne'); const soon = l.filter(c => c.status !== 'dostępne'); return l.length ? `<h2 class="career-column__subtitle">${title} (${ready.length} z danymi)</h2><ul class="zagr__grid">${ready.concat(soon).map(card).join('')}</ul>` : ''; };
+    return block('Za granicą', 'zagranica') + block('W Polsce', 'polska');
+  }
+  async function renderCosts(container, params) {
+    const my = ++renderSeq;
+    const slug = (params && params.get('miasto')) || '';
+    ctx.updateMeta('Koszty życia i akademiki | NextMove', 'Akademiki i przykładowe ceny wynajmu w miastach akademickich za granicą i w Polsce, z miesięcznym budżetem studenta i przeliczeniem walut po kursie NBP.', `${ctx.BASE}/zagranica/koszty/`);
     container.innerHTML = `
       <div class="results szkoly zagr">
         <a href="${ctx.BASE}/" class="results__back">&larr; Strona główna</a>
         <h1 class="results__title">Koszty życia i akademiki</h1>
+        <p class="results__query">Akademiki, przykładowe ceny wynajmu i miesięczny budżet studenta w miastach z zakładki Studia za granicą oraz w dużych miastach akademickich w Polsce. Ceny przeliczamy po średnim kursie NBP.</p>
         ${tabs('koszty')}
-        <div class="zagr__notice" role="status">
-          <strong>Pracujemy nad tą zakładką.</strong>
-          <p class="career-column__text">Tu pojawią się koszty życia i akademiki w miastach z zakładki <a href="${ctx.BASE}/zagranica">Studia za granicą</a>, każda kwota z oficjalnym źródłem i datą. Na razie najlepsze informacje o mieszkaniu dla studentów znajdziesz na stronach uczelni, przy programie, który Cię interesuje.</p>
-        </div>
+        <div id="kosztyBody"><p class="szkoly__loading">Wczytuję miasta…</p></div>
       </div>`;
-    focusHeading(container);
+    const refocus = pendingFocus; pendingFocus = '';
+    if (!refocus) focusHeading(container);
+    const body = container.querySelector('#kosztyBody');
+    let cities;
+    try { cities = await loadKosztyIndex(); } catch (e) { if (my === renderSeq) body.innerHTML = '<p class="career-column__empty">Nie udało się wczytać listy miast. Sprawdź połączenie i odśwież stronę.</p>'; return; }
+    if (my !== renderSeq) return;
+    const meta = cities.find(c => c.slug === slug);
+    const picker = kosztyPickerHtml(cities, meta ? meta.slug : '') + calcHtml();
+    if (!meta) {
+      body.innerHTML = picker + `<p class="zagr__ask">${ctx.feedbackButton('inne', 'Brakuje Twojego miasta? Daj znać')}</p>` + kosztyOverviewHtml(cities);
+    } else if (meta.status !== 'dostępne') {
+      body.innerHTML = picker + `<div class="zagr__notice" role="status"><strong>${esc(meta.name)}: dane w przygotowaniu.</strong> Dla tego miasta zbieramy jeszcze akademiki i ceny wynajmu. ${ctx.feedbackButton('inne', 'Zależy Ci na tym mieście? Daj znać', meta.name)}</div>` + kosztyOverviewHtml(cities.filter(c => c.slug !== meta.slug));
+    } else {
+      body.innerHTML = picker + '<p class="szkoly__loading">Wczytuję koszty…</p>';
+      let city;
+      try { [city] = await Promise.all([loadKoszty(meta.slug), loadRates()]); } catch (e) { if (my === renderSeq) body.innerHTML = picker + '<p class="career-column__empty">Nie udało się wczytać danych tego miasta. Spróbuj ponownie.</p>'; bindCosts(container); return; }
+      if (my !== renderSeq) return;
+      body.innerHTML = picker + kosztyCityHtml(city);
+    }
+    bindCosts(container);
+    bindCalc(container);
+    if (refocus) { const el = container.querySelector(refocus); if (el) el.focus({ preventScroll: true }); else focusHeading(container); }
+  }
+  function bindCosts(container) {
+    const sel = container.querySelector('#kosztyCity');
+    if (sel) sel.addEventListener('change', () => { pendingFocus = '#kosztyCity'; history.replaceState(null, '', `${ctx.BASE}/zagranica/koszty${sel.value ? '?miasto=' + encodeURIComponent(sel.value) : ''}`); dispatchEvent(new PopStateEvent('popstate')); });
   }
 
   return { init, render, renderCosts };

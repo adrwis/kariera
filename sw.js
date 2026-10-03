@@ -10,6 +10,7 @@ const APP_SHELL = [
   '/kariera/js/quiz.min.js',
   '/kariera/js/zagranica.min.js',
   '/kariera/data/zagranica/index.json',
+  '/kariera/data/koszty/index.json',
   '/kariera/js/feedback.min.js',
   '/kariera/data/szkoly/index.json',
   '/kariera/js/animations.min.js',

@@ -73,6 +73,20 @@ for (const c of zIndex.filter(c => c.status === 'dostępne')) {
   if (c.programs !== d.universities.reduce((a, u) => a + u.programs.length, 0)) zBad.push(`${c.slug}: liczba programów w indeksie niezgodna`);
 }
 check(`dane miast: ${zPrograms} programów z linkiem, rokiem akademickim i bez żargonu`, !zBad.length, zBad.slice(0, 4).join('; '));
+// Koszty życia i akademiki: każda cena ma źródło, brak żargonu, indeks zgodny z plikami
+const kIdx = JSON.parse(read('data/koszty/index.json')).cities;
+const kBad = [];
+let kRows = 0;
+for (const c of kIdx.filter(c => c.status === 'dostępne')) {
+  const f = `data/koszty/${c.slug}.json`;
+  if (!fs.existsSync(path.join(ROOT, f))) { kBad.push(`${c.slug}: brak pliku`); continue; }
+  const d = JSON.parse(read(f));
+  const blob = JSON.stringify(d);
+  if (/WebFetch|scratchpad|nie pobrano|w tej sesji|HTTP 40\d|odczyta|[—–]/i.test(blob)) kBad.push(`${c.slug}: żargon lub długi myślnik`);
+  for (const x of [...d.dorms, ...d.rent]) { kRows++; if (!/^https?:\/\//.test(x.sourceUrl || '')) kBad.push(`${c.slug}: pozycja bez źródła`); if (x.priceFrom != null && x.priceTo != null && x.priceFrom > x.priceTo) kBad.push(`${c.slug}: odwrócony zakres ceny`); }
+  if (c.dorms !== d.dorms.length || c.rent !== d.rent.length) kBad.push(`${c.slug}: liczby w indeksie niezgodne`);
+}
+check(`dane kosztów: ${kRows} pozycji z adresem źródła, bez żargonu`, !kBad.length, kBad.slice(0, 4).join('; '));
 check('strony zagranica/ i zagranica/koszty/ istnieją', fs.existsSync(path.join(ROOT, 'zagranica', 'index.html')) && fs.existsSync(path.join(ROOT, 'zagranica', 'koszty', 'index.html')));
 
 console.log(`\n=== Results: ${passed} passed, ${failed} failed ===`);

@@ -145,7 +145,7 @@
     if (path.startsWith('/zawod/')) return { view: 'zawod', params: path.slice('/zawod/'.length).replace(/\/+$/, '') };
     if (path === '/szkoly' || path === '/szkoly/') return { view: 'szkoly', params: new URLSearchParams(search) };
     if (path === '/quiz' || path === '/quiz/') return { view: 'quiz', params: null };
-    if (path === '/zagranica/koszty' || path === '/zagranica/koszty/') return { view: 'koszty', params: null };
+    if (path === '/zagranica/koszty' || path === '/zagranica/koszty/') return { view: 'koszty', params: new URLSearchParams(search) };
     if (path === '/zagranica' || path === '/zagranica/') return { view: 'zagranica', params: new URLSearchParams(search) };
     if (path === '/kalkulator' || path === '/kalkulator/') return { view: 'kalkulator', params: new URLSearchParams(search) };
     if (path.startsWith('/szkola/')) return { view: 'szkola', params: path.slice('/szkola/'.length).replace(/\/+$/, '') };
@@ -222,7 +222,7 @@
 
       case 'koszty':
         showView('koszty');
-        Zagranica.renderCosts(document.getElementById('kosztyView'));
+        Zagranica.renderCosts(document.getElementById('kosztyView'), route.params);
         break;
 
       case 'quiz':

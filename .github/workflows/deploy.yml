@@ -30,7 +30,7 @@ jobs:
           cp index.html 404.html sw.js manifest.json robots.txt favicon.svg _site/
           cp -r css js icons quiz kalkulator szkoly zagranica zawod _site/
           mkdir -p _site/data
-          cp -r data/szkoly data/zagranica _site/data/
+          cp -r data/szkoly data/zagranica data/koszty _site/data/
           cp data/careers.min.json data/kzis-index.json data/feedback.json _site/data/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

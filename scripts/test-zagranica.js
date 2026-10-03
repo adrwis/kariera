@@ -80,6 +80,35 @@ const server = http.createServer((req, res) => {
     check('notatka podaje numer tabeli NBP', /999\/A\/NBP\/2026/.test(await fp.locator('#zagrCalcNote').textContent()));
     await fx.close();
 
+    // Koszty życia i akademiki: widok na danych testowych (podstawione), z przeliczeniem po kursie NBP
+    const kc = await browser.newContext({ viewport: { width: 390, height: 800 } });
+    await kc.route('https://api.nbp.pl/**', r => r.fulfill({ contentType: 'application/json', headers: { 'Access-Control-Allow-Origin': '*' }, body: JSON.stringify([{ table: 'A', no: '999/A/NBP/2026', effectiveDate: '2026-10-05', rates: [{ code: 'EUR', mid: 4 }, { code: 'CZK', mid: 0.2 }] }]) }));
+    await kc.route('**/data/koszty/index.json', r => r.fulfill({ contentType: 'application/json', body: JSON.stringify({ cities: [{ slug: 'testowo', name: 'Testowo', country: 'Czechy', region: 'zagranica', status: 'dostępne', dorms: 1, rent: 2, budget: true }, { slug: 'wpolsce', name: 'Polskowo', country: 'Polska', region: 'polska', status: 'w przygotowaniu', dorms: 0, rent: 0, budget: false }] }) }));
+    await kc.route('**/data/koszty/testowo.json', r => r.fulfill({ contentType: 'application/json', body: JSON.stringify({ slug: 'testowo', name: 'Testowo', country: 'Czechy', region: 'zagranica', currency: 'CZK', retrieved: '2026-10-03', summary: [{ label: 'Akademiki', text: 'Test <b>x</b>' }],
+      budget: { from: 15000, to: 20000, currency: 'CZK', period: 'miesiąc', text: 'Czynsz i jedzenie.', sourceUrl: 'https://example.com/b', official: true },
+      dorms: [{ name: 'Akademik A', operator: 'Operator', url: 'https://example.com/a', roomType: 'jednoosobowy', priceFrom: 5000, priceTo: 6000, currency: 'CZK', period: 'miesiąc', includes: 'media', applicationInfo: 'do 30 kwietnia 2027', applyUrl: 'https://example.com/apply', sourceUrl: 'https://example.com/a' }],
+      rent: [{ type: 'kawalerka (studio)', area: 'Centrum', priceFrom: 20000, priceTo: 25000, currency: 'CZK', period: 'miesiąc', year: '2026', official: false, source: 'Raport portalu', sourceUrl: 'https://example.com/r' }, { type: 'pokój w mieszkaniu współdzielonym', area: 'Miasto', priceFrom: 9000, priceTo: 12000, currency: 'CZK', period: 'miesiąc', year: '2026', official: true, source: 'Urząd', sourceUrl: 'https://example.com/u' }],
+      gaps: ['Brak danych o kaucji.'], sources: [{ url: 'https://example.com/a', note: 'Akademiki' }] }) }));
+    const kp = await kc.newPage();
+    kp.on('pageerror', e => errors.push(e.message));
+    await kp.goto(base + 'zagranica/koszty');
+    await kp.waitForSelector('.zagr__card');
+    check('koszty: przegląd pokazuje miasta z podziałem na region', (await kp.locator('.zagr__card').count()) === 2 && /W Polsce/.test(await kp.locator('#kosztyBody').textContent()));
+    await kp.goto(base + 'zagranica/koszty?miasto=testowo');
+    await kp.waitForSelector('.koszty__item');
+    check('koszty: karta akademika i dwa wiersze wynajmu', (await kp.locator('.koszty__item').count()) === 3);
+    const kText = (await kp.locator('.koszty__item').first().textContent()).replace(/\u00a0/g, ' ');
+    check('koszty: 5 000 do 6 000 CZK = 250 do 300 EUR i 1 000 do 1 200 zł (kurs podstawiony)', /≈\s*250 do 300 EUR/.test(kText) && /≈\s*1 000 do 1 200 zł/.test(kText), kText.slice(0, 160));
+    check('koszty: dane nieoficjalne są oznaczone', (await kp.locator('.koszty__unofficial').count()) === 1);
+    check('koszty: budżet miesięczny widoczny', /Miesięczny budżet studenta/.test(await kp.locator('.koszty__budget').textContent()));
+    check('koszty: HTML z danych jest zabezpieczony', (await kp.locator('#kosztyBody b').count()) === 0);
+    await kp.goto(base + 'zagranica/koszty?miasto=wpolsce');
+    await kp.waitForSelector('.zagr__notice');
+    check('koszty: miasto w przygotowaniu pokazuje komunikat', /dane w przygotowaniu/.test(await kp.locator('.zagr__notice').textContent()));
+    const kOverflow = await kp.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+    check('koszty: brak poziomego przewijania na 390 px', kOverflow <= 0, `nadmiar ${kOverflow}px`);
+    await kc.close();
+
     // NBP nie odpowiada: używana jest zapisana kopia kursów
     const off = await browser.newContext({ viewport: { width: 390, height: 800 } });
     await off.route('https://api.nbp.pl/**', r => r.abort());

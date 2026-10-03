@@ -511,4 +511,4 @@ function apply(slug, data) {
   walk(data);
   return data;
 }
-module.exports = { apply, warnings };
+module.exports = { apply, warnings, fixText, walk };
