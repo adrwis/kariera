@@ -13,6 +13,26 @@ const REWRITES = [
   [/nie zostały pobrane/gi, 'nie są dostępne publicznie'],
   [/\bnie pobrano\b/gi, 'nie podano na stronie'],
   [/plikach SharePoint niedostępnych publicznie/g, 'dokumentach niedostępnych publicznie'],
+  // Skrót uczelni EUR (Erasmus University Rotterdam) mylił się z walutą
+  [/\(EUR, StudyinNL\)/g, '(Erasmus University Rotterdam, StudyinNL)'],
+  [/według EUR i StudyinNL/g, 'według Erasmus University Rotterdam i StudyinNL'],
+  [/na większości programów EUR i 28 300 EUR/g, 'na większości programów Erasmus University Rotterdam i 28 300 EUR'],
+  [/większość wydziałów EUR\)/g, 'większość wydziałów Erasmus University Rotterdam)'],
+  [/rozpatrza każde zgłoszenie/g, 'rozpatruje każde zgłoszenie'],
+  // Język roboczy z zbierania danych
+  [/ \(bazy niedostępne podczas zbierania danych\)/g, ' (bazy były niedostępne)'],
+  [/ podczas zbierania danych/g, ''],
+  [/nie znaleziono na sprawdzonych stronach/g, 'nie znaleziono na stronach uczelni'],
+  [/niedostępne publicznie dla automatycznego pobierania/g, 'niedostępne publicznie'],
+  [/Żadna z odwiedzonych stron/g, 'Żadna ze stron uczelni'],
+  [/odwiedzonych stron/g, 'sprawdzonych stron uczelni'],
+  [/Terminy w pliku pochodzą/g, 'Podane terminy pochodzą'],
+  [/Nie zebrano programów/g, 'Nie opisano programów'],
+  [/Nie zebrano tabel/g, 'Nie opisano tabel'],
+  [/nie jest publicznie dostępna z automatycznego pobierania/g, 'nie jest publicznie dostępna bez logowania'],
+  [/ i nie było przedmiotem tego zbierania/g, ' i nie jest tu opisany'],
+  [/bo skupiono się/g, 'bo skupiliśmy się'],
+  [/podnosi się do 4 punktami/g, 'podnosi się o maksymalnie 4 punkty'],
 ];
 const CUR = '(?:EUR|GBP|CZK|HUF|SEK|DKK|RON|lei|zł|€|£)';
 function fixText(s) {
@@ -159,6 +179,72 @@ const BY_CITY = {
   },
   budapeszt(d) {
     for (const [, p] of progs(d)) if (/Építészmérnöki/.test(p.name) && p.tuitionEu && p.tuitionNonEu && !/potwierdź/.test(p.tuitionEu)) p.tuitionEu += ' (tabela BME podaje dla UE kwotę wyższą niż dla spoza UE, potwierdź w BME)';
+  },
+  hamburg(d) {
+    for (const [u, p] of progs(d)) {
+      if (/Bucerius/.test(u.name)) {
+        const rest = (p.tuitionEu || '').match(/Opłata za postępowanie rekrutacyjne[^]*$/);
+        p.tuitionEu = 'Studia płatne w modelu odroczonym: czesne płaci się dopiero po wejściu w życie zawodowe, a nie w trakcie studiów. Kwoty nie podano na stronie, zapytaj uczelnię. ' + (rest ? rest[0] : '');
+        if (p.deadline && !/^Termin z naboru/.test(p.deadline)) p.deadline = 'Termin z naboru 2026, nabór na 2027 jeszcze nieopublikowany. ' + p.deadline;
+      }
+      if (/HAW/.test(u.name) && /Mechanical|Maschinenbau/.test(p.name) && p.deadline && !/^UWAGA/.test(p.deadline)) p.deadline = 'UWAGA: nabór trwa teraz, na semestr letni od 1 października do 30 listopada. ' + p.deadline;
+    }
+  },
+  lyon(d) {
+    for (const [, p] of progs(d)) if (/Data Science for Responsible Business/.test(p.name) && p.tuitionEu && !/^Czesne dla obywateli UE niepotwierdzone/.test(p.tuitionEu)) p.tuitionEu = 'Czesne dla obywateli UE niepotwierdzone. ' + p.tuitionEu;
+  },
+  lowanium(d) {
+    for (const [, p] of progs(d)) {
+      if (/Engineering Technology/.test(p.name)) {
+        p.deadline = 'Nabór na 2027/28: do 15 czerwca 2027 dla obywateli UE i EOG, do 15 stycznia 2027 dla osób spoza EOG. Wyniki testów językowych i matematycznych powinny wpłynąć do 1 sierpnia (28 sierpnia dla obywateli EOG z belgijskim pozwoleniem na pobyt). Okres zapisów po przyjęciu w 2026/27 wynosił od 17 sierpnia do 16 września, a na 2027/28 nie został jeszcze opublikowany.';
+        p.academicYear = '2027/28';
+      }
+    }
+    const r = sumItem(d, 'Rekrutacja');
+    if (r) {
+      sub(r, 'text', /Bachelor of Engineering Technology do 1 czerwca \(nabór 2026\/27\)/, 'Bachelor of Engineering Technology do 15 czerwca 2027 dla obywateli UE i EOG (do 15 stycznia 2027 dla osób spoza EOG)', 'Lowanium rekrutacja');
+      sub(r, 'text', /ścisły termin 1 lutego dotyczy tylko osób spoza EOG/, 'termin 1 lutego dotyczy osób spoza EOG (do potwierdzenia na stronie KU Leuven)', 'Lowanium 1 lutego');
+    }
+    d.gaps = d.gaps.map(g => g.replace(/dla Bachelor of Engineering Technology podano termin z naboru 2026\/27 \(1 czerwca\), dla programów/, 'dla programów'));
+  },
+  porto(d) {
+    for (const [, p] of progs(d)) {
+      p.deadline = (p.deadline || '').replace(/od 20 do 27 lipca 2026/g, 'od 20 do 29 lipca 2026');
+      if (p.deadline && !/Kolejne fazy w 2026/.test(p.deadline)) p.deadline += ' Kolejne fazy w 2026: druga od 24 sierpnia do 20 września (wyniki 30 września), trzecia od 10 do 12 października (kalendarz DGES, Despacho 9359-A/2026).';
+      // Wszystkie programy idą tym samym konkursem krajowym i żaden polski egzamin nie ma potwierdzonego odpowiednika wszystkich egzaminów wstępnych
+      if (/^wymaga potwierdzenia przez uczelnię/.test(p.matura || '')) p.matura = p.matura.replace(/^wymaga potwierdzenia przez uczelnię/, 'wymaga dodatkowego etapu');
+    }
+    d.summary.forEach(x => { x.text = x.text.replace(/od 20 do 27 lipca/g, 'od 20 do 29 lipca'); });
+    d.gaps = d.gaps.filter(g => !/Kalendarz 2026 w Guia da Candidatura[^.]*różni się/.test(g));
+  },
+  rotterdam(d) {
+    for (const [u, p] of progs(d)) if (/Delft/.test(u.name) && !/Computer Science/.test(p.name) && /computer-science-and-engineering/.test(p.tuitionUrl || '')) p.tuitionUrl = null;
+  },
+  groningen(d) {
+    for (const [, p] of progs(d)) if (/^Psychology/.test(p.name) && /psychology\/\?lang=en/.test(p.url || '')) {
+      p.url = 'https://www.rug.nl/bachelors/psychology-en/';
+      if (/psychology\/\?lang=en/.test(p.tuitionUrl || '')) p.tuitionUrl = p.url;
+    }
+    const e = d.summary.find(x => /angielsk/i.test(x.label));
+    if (e) sub(e, 'text', /IELTS Academic 6,0 \(poziom 1, ekonomia, IB, psychologia\)/, 'IELTS Academic 6,0 (poziom 1, ekonomia, IB), a na psychologii angielskiej 6,5', 'Groningen IELTS');
+  },
+  barcelona(d) {
+    for (const [, p] of progs(d)) if (/^uznawana z warunkami/.test(p.matura || '') || !p.matura) p.matura = 'wymaga dodatkowego etapu (akredytacja świadectwa w UNEDasiss, która daje notę dostępu od 5 do 10; uczelnie nie opisują osobno ścieżki dla Polski, więc potwierdź zasady w UNEDasiss)';
+    for (const x of d.summary) x.text = x.text.replace(/Przedmioty z liceum widoczne w akredytacji nie liczą się do podniesienia noty\./, 'Czy przedmioty zdane na maturze mogą podnieść notę, zależy od zasad UNEDasiss (Universitat de València opisuje taką możliwość dla egzaminów zdanych w kraju pochodzenia), więc sprawdź to w UNEDasiss.');
+  },
+  walencja(d) {
+    for (const [, p] of progs(d)) if (/^uznawana z warunkami/.test(p.matura || '')) p.matura = p.matura.replace(/^uznawana z warunkami/, 'wymaga dodatkowego etapu');
+  },
+  mediolan(d) {
+    d.gaps = d.gaps.filter(g => !/nie ma w pliku/.test(g));
+    if (!d.summary.some(x => x.label === 'Zakres')) d.summary.unshift({ label: 'Zakres', text: 'Z uczelni publicznych opisana jest tylko Politechnika (Polimi). Strony Università degli Studi di Milano i Milano-Bicocca były niedostępne, więc psychologia, prawo i medycyna mają tu tylko uczelnie prywatne, za 7 690 do 20 690 EUR rocznie.' });
+    for (const [, p] of progs(d)) {
+      p.tuitionEu = (p.tuitionEu || '').replace(/Pełne albo częściowe zwolnienie ze składki przysługuje przy ISEE do 30[ \u00a0]000 EUR \(dla pierwszego roku\)\./, 'Wysokość składki zależy od ISEE, szczegóły na stronie Polimi.');
+    }
+    for (const x of d.summary) x.text = x.text.replace(/ Medycyna po włosku od roku 2025\/26 działa w systemie 'semestru filtrującego' \(dekret MUR nr 941 z 10 lipca 2026\) i nie jest objęta tym opisem\./, ' Medycyna po włosku ma osobny system selekcji (tzw. semestr filtrujący) i nie jest objęta tym opisem.');
+  },
+  monachium(d) {
+    for (const [u, p] of progs(d)) if (/LMU|Ludwig/.test(u.name) && /^uznawana z warunkami/.test(p.matura || '')) p.matura = p.matura.replace(/^uznawana z warunkami/, 'wymaga potwierdzenia przez uczelnię');
   },
   amsterdam(d) {
     for (const [, p] of progs(d)) if (p.languages.some(l => /niderland/i.test(l)) && !/niderlandzk/i.test(p.notes || '')) p.notes = ((p.notes || '') + ' Program po niderlandzku, wymagany poziom języka niepotwierdzony.').trim();

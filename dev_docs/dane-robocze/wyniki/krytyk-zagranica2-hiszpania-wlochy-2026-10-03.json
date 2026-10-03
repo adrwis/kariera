@@ -1,0 +1,245 @@
+[
+  {
+    "city": "Barcelona",
+    "program": null,
+    "field": "summary[Polska matura] / matura (wszystkie programy)",
+    "severity": "ważne",
+    "problem": "Status 'uznawana z warunkami' i zdanie 'Polska jest na oficjalnej liście systemów' nie mają pokrycia w żadnym ze wskazanych adresów. Strony UPC, UAB, Generalitat i PDF preinscripció nie wymieniają Polski, a `sources` miasta jest puste. Według słownika bez wzmianki o Polsce status powinien być 'wymaga potwierdzenia przez uczelnię' albo trzeba podać źródło (strona UNEDasiss), które wymienia Polskę.",
+    "evidence": "Grep 'Poland|Polonia' w https://upc.edu/en/bachelors/informatics-engineering-barcelona-fib i https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/medicina-1216708251447.html?param1=1263281708763 : brak trafień. Strony UNEDasiss (https://unedasiss.uned.es/fechas_clave) potwierdzają tylko ogólny mechanizm akredytacji. Lista 'Información país por país' nie była dostępna w odczytywalnej formie.",
+    "proposedFix": "Dodać do `sources` i do `admissionUrl` adres strony UNEDasiss, na której Polska figuruje na liście (jeśli da się to potwierdzić), albo zmienić status na 'wymaga potwierdzenia przez uczelnię' z dopiskiem, że akredytacja UNEDasiss jest wymagana."
+  },
+  {
+    "city": "Barcelona",
+    "program": null,
+    "field": "summary[Polska matura]",
+    "severity": "ważne",
+    "problem": "Zdanie 'Przedmioty z liceum widoczne w akredytacji nie liczą się do podniesienia noty' jest sprzeczne ze stroną Uniwersytetu w Walencji, która mówi, że przedmioty zdane na zewnętrznym egzaminie w kraju pochodzenia (polska matura jest egzaminem zewnętrznym) mogą zostać uznane przez UNEDasiss i liczone do 4 dodatkowych punktów. Walencja we wpisie o PCE pomija tę ścieżkę. Maturzysta może uznać, że bez PCE nie podniesie noty, a to wpływa na ocenę szans (np. medycyna, data science).",
+    "evidence": "https://www.uv.es/uvweb/college/en/undergraduate-studies/admission/eu-secondary-school-certificate-1285846510728.html : 'Students who have studied abroad can apply to UNEDasiss for recognition of the subjects taken as long as they can accredit that they have been examined in external assessment tests ... The subjects assessed in external tests and the grades obtained will be expressly stated in the accreditation' oraz 'two subjects recognised in external assessment tests. Maximum: up to 4 more points'.",
+    "proposedFix": "Usunąć to zdanie z Barcelony albo podać źródło. W Barcelonie i Walencji dopisać: 'UNEDasiss może uznać przedmioty z zewnętrznego egzaminu (np. matury); czy matura rozszerzona liczy się do 4 punktów, trzeba potwierdzić w UNEDasiss'. Poprawić też zdanie o PCE jako jedynej drodze."
+  },
+  {
+    "city": "Barcelona",
+    "program": "wszystkie (UPC, UAB, UB, UPF)",
+    "field": "requirements (nota odcięcia)",
+    "severity": "ważne",
+    "problem": "Noty odcięcia (np. 10,008; 12,354; 9,660) nie występują w dokumencie wskazanym jako źródło (`admissionUrl` UB i UPF: Preins-2026-Juny_v4.pdf zawiera tylko kody, miejsca i przypisy, bez not). Nie da się ich sprawdzić na podanym adresie. Dodatkowo UB Psicologia i UAB Economia mają identyczną notę 9,660, co wygląda na możliwy błąd przepisania. Noty dotyczą kwoty PAU/CFGS pierwszego przydziału, więc nie są notami dla maturzystów z UE (to jest zaznaczone, ale tylko w tekście).",
+    "evidence": "pdftotext https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/Preins-2026-Juny_v4.pdf : grep '9,660|10,008|12,354|12,685' = 0 trafień.",
+    "proposedFix": "Podać w `sourceUrl` właściwy dokument Generalitat z notami (Notes de tall 2026) albo usunąć noty. Zweryfikować parę UB Psicologia / UAB Economia (9,660)."
+  },
+  {
+    "city": "Barcelona",
+    "program": "UB i UPF (Psicologia, Medicina, Dret, Periodisme)",
+    "field": "languages, durationYears, english",
+    "severity": "ważne",
+    "problem": "Dla 5 programów UB i UPF `languages` jest puste, `durationYears` to null, a `english` ma wartość false. Dla czytelnika false wygląda jak 'brak angielskiego', choć to brak danych. Dane o liczbie miejsc i kodzie podano, ale uczelnia, której strona była niedostępna, ma w tej samej ofercie Medicina o jednolitym 6-letnim cyklu. Czas trwania da się wywnioskować z oficjalnej oferty (Medicina 360 ECTS = 6 lat, jak na UAB).",
+    "evidence": "Dane: UB 'Grado en Medicina' durationYears null, languages []. Strona UAB Medicina (https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/medicina-1216708251447.html?param1=1263281708763): '6 cursos - 360 crèdits', 'Idioma: català, castellà i anglès'.",
+    "proposedFix": "Ustawić `english` na null dla programów bez sprawdzonego języka, w `languages` wpisać 'do potwierdzenia na stronie uczelni' albo ukryć wiersz. Medicina UB i UPF: durationYears 6 z cytatem z oferty Generalitat, jeśli tam jest."
+  },
+  {
+    "city": "Barcelona",
+    "program": null,
+    "field": "sources",
+    "severity": "drobne",
+    "problem": "Pole `sources` jest puste, mimo że summary i gaps opierają się na UNEDasiss, Generalitat i UPC. Wymóg planu: lista ogólnych źródeł z notką.",
+    "evidence": "barcelona.json: \"sources\": []",
+    "proposedFix": "Dodać: https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/ (cena za kredyt 17,69 EUR, potwierdzona), https://unedasiss.uned.es/fechas_clave (terminy), PDF preinscripció 2026."
+  },
+  {
+    "city": "Barcelona",
+    "program": null,
+    "field": "summary, gaps, requirements, languageProof (jakość tekstu)",
+    "severity": "ważne",
+    "problem": "Żargon zbierania danych i niezgrabne sformułowania w ok. 25 miejscach: 'nie znaleziono na sprawdzonych stronach', 'na stronach, które sprawdzono', 'niedostępne publicznie dla automatycznego pobierania', 'której nie przeanalizowano', 'Nie sprawdzono opłat UNEDasiss', 'Opłat administracyjnych nie zsumowano'. Błąd gramatyczny: 'podnosi się do 4 punktami' (powinno być 'o maksymalnie 4 punkty'). Zdanie o notach 'nie ma osobnej dla matur z zagranicy' wymaga dopowiedzenia, co to znaczy dla ucznia.",
+    "evidence": "barcelona.json summary[0].text: 'Notę admisji (do 14 punktów) podnosi się do 4 punktami z dwóch najlepiej ważonych przedmiotów'; summary[2].text: 'nie znaleziono na sprawdzonych stronach'; gaps[0]: 'niedostępne publicznie dla automatycznego pobierania'.",
+    "proposedFix": "Zamienić na: 'Strona uczelni nie podaje wymaganego poziomu języka; do potwierdzenia w wydziale', 'Nota admisji (do 14 punktów) rośnie o maksymalnie 4 punkty za dwa najlepiej ważone przedmioty', 'Strony UB i UPF nie są dostępne publicznie, więc dla ich programów podano tylko dane z oferty Generalitat'."
+  },
+  {
+    "city": "Barcelona",
+    "program": "Grau en Enginyeria Civil (grupa po angielsku), Economia (UAB), Intel·ligència Artificial (UAB)",
+    "field": "languageProof / tuitionNonEu",
+    "severity": "drobne",
+    "problem": "Dla programów anglojęzycznych brak poziomu angielskiego jest uczciwie zaznaczony, ale w UAB tuitionNonEu mówi o cenie 'niedotowanej', bez kwoty, a w UPC podano 1 800 EUR. Obie wartości są poprawne, lecz różnica 'UPC: 1 800 EUR, UAB: brak kwoty' bez wyjaśnienia może mylić. Pozytyw: cena UE (17,69 EUR za ECTS, 1 061 EUR rocznie) i cena UPC dla spoza UE (1 800 EUR) potwierdzone dosłownie.",
+    "evidence": "https://upc.edu/en/bachelors/informatics-engineering-barcelona-fib : 'Approximate fees per academic year: €1,061 (€1,800 for non-EU residents)'; https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/ : 'el preu per crèdit és de 17,69 €'.",
+    "proposedFix": "Dopisać w UAB, że obywatele UE, w tym Polacy, płacą 17,69 EUR za ECTS, a cena niedotowana dotyczy tylko osób spoza UE."
+  },
+  {
+    "city": "Walencja",
+    "program": null,
+    "field": "summary[Polska matura] / matura (UV i UPV)",
+    "severity": "ważne",
+    "problem": "Zapis 'Polska jest wymieniona wśród systemów UE objętych tą ścieżką' i 'warunek, że spełniają w Polsce wymogi dostępu' nie mają pokrycia w cytowanych stronach. Strona UV mówi tylko o 'EU countries, international baccalaureate or countries with reciprocal agreement', bez Polski. Strona UPV tak samo nie wymienia Polski.",
+    "evidence": "https://www.uv.es/uvweb/college/en/undergraduate-studies/admission/eu-secondary-school-certificate-1285846510728.html : 'students who come from educational systems of European Union countries, international baccalaureate or countries with reciprocal agreement' (brak słowa Poland). https://www.upv.es/admision/internacional/grados-acceso-internacional/ : brak trafień 'Poland|Polonia'.",
+    "proposedFix": "Zmienić zdanie na 'Uczelnie wymieniają systemy UE ogólnie; Polski z nazwy nie wymieniają, a ocenę świadectwa robi UNEDasiss', albo podać źródło UNEDasiss z listą krajów. Status 'uznawana z warunkami' można zostawić po dodaniu takiego źródła."
+  },
+  {
+    "city": "Walencja",
+    "program": "UV i UPV (wszystkie)",
+    "field": "requirements, summary[Polska matura]",
+    "severity": "ważne",
+    "problem": "Opis podnoszenia noty wspomina tylko PCE. Strona UV podaje drugą drogę: uznanie przedmiotów z zewnętrznego egzaminu w kraju pochodzenia (do dwóch przedmiotów, do 4 punktów). Dla polskiego maturzysty to najważniejsza informacja praktyczna, bo może oznaczać, że rozszerzona matura zastępuje PCE. Gap o 'czy do noty wliczane są oceny maturalne z poszczególnych przedmiotów' mówi, że tego nie sprawdzono, a odpowiedź jest na tej samej stronie UV.",
+    "evidence": "https://www.uv.es/uvweb/college/en/undergraduate-studies/admission/eu-secondary-school-certificate-1285846510728.html : 'Subject and mark recognition from outside evaluation ... Only subjects passed with a mark equal to or higher than 5 points will be considered'.",
+    "proposedFix": "Dopisać do requirements i summary: 'Przedmioty zdane na zewnętrznym egzaminie w kraju pochodzenia (np. matura) UNEDasiss może uznać zamiast PCE; szczegóły dla Polski do potwierdzenia w UNEDasiss'. Usunąć lub zmienić gap."
+  },
+  {
+    "city": "Walencja",
+    "program": "UV (wszystkie)",
+    "field": "deadline",
+    "severity": "drobne",
+    "problem": "Dokładne daty 'preinscripción od 15 czerwca do 7 lipca 2026 do godz. 14:00' i 'dosłanie akredytacji od 13 do 31 lipca' nie są na cytowanej stronie UV, która mówi tylko 'od połowy czerwca do pierwszego tygodnia lipca'. Data 7 lipca 2026 i termin 31 lipca są potwierdzone na stronie UNEDasiss, pierwsza data 15 czerwca i godzina 14:00 nie.",
+    "evidence": "UV: 'Pre-registration deadline. It goes from middle of June to the first week of July.' UNEDasiss https://unedasiss.uned.es/fechas_clave : 'es el 7 de julio de 2026 ... aportar la documentación pendiente hasta el 31 de julio'.",
+    "proposedFix": "Dodać adres z dokładnymi datami (portal preinscripcion.gva.es lub instrukcja Generalitat) albo zapisać 'od połowy czerwca do 7 lipca 2026'."
+  },
+  {
+    "city": "Walencja",
+    "program": "Grado en Ingeniería Informática (UV)",
+    "field": "requirements (limit miejsc 43)",
+    "severity": "drobne",
+    "problem": "Wiersz 'Limit miejsc podany na stronie programu: 43' wygląda jak liczba dla całego kierunku, choć w notes jest zastrzeżenie, że chodzi zapewne o część oferty. Nastolatek czytający tylko requirements może uznać, że jest 43 miejsca, co zawyża selektywność.",
+    "evidence": "https://www.uv.es/uvweb/college/en/undergraduate-studies/undergraduate-studies-/degree-programmes-offered/degree-computer-engineering-1285846094474/Titulacio.html?id=1285847366789 : 'Places available: 43', 'Language teaching: English, Spanish, Valencian'.",
+    "proposedFix": "W requirements dopisać 'strona podaje 43 miejsca, prawdopodobnie dla grupy z angielskim; łączna liczba do potwierdzenia na stronie uczelni' albo usunąć liczbę."
+  },
+  {
+    "city": "Walencja",
+    "program": null,
+    "field": "sources / gaps / summary (jakość tekstu)",
+    "severity": "ważne",
+    "problem": "Żargon zbierania danych: 'Nie zebrano programów prywatnej uczelni CEU...', 'skupiono się na dwóch największych', 'w postaci, której tabeli nie udało się odczytać', 'Nie zebrano tabel ważenia', 'status to uznawana z warunkami' (summary mówi o statusie jak pole formularza). Antyteza w summary: 'Nota odcięcia zależy od kierunku i popytu, nie od narodowości'. `sources` ma jeden wpis z pustą notką.",
+    "evidence": "walencja.json summary[0].text: 'więc status to uznawana z warunkami'; summary[4].text: 'zależy od kierunku i popytu, nie od narodowości'; gaps[1]: 'tabeli nie udało się odczytać'.",
+    "proposedFix": "Przepisać: 'Cennik UNEDasiss nie jest podany w postaci tekstu na stronie; kwoty do sprawdzenia na unedasiss.uned.es', 'Nota odcięcia zależy od kierunku i popytu i jest taka sama dla wszystkich kandydatów', usunąć 'status to', dodać notkę do sources."
+  },
+  {
+    "city": "Walencja",
+    "program": "wszystkie",
+    "field": "tuitionEu / tuitionNonEu",
+    "severity": "drobne",
+    "problem": "Poprawne, ale warto zaznaczyć w tekście ograniczenie: stawki dotyczą pierwszej rejestracji przedmiotu (drugi raz tego samego przedmiotu kosztuje ok. 2 razy więcej wg dekretu). Dekret z 2024 roku jest źródłem tabeli, a ceny 2026/27 potwierdzają strony programów (UV 14,03 EUR i 28,06 EUR dla spoza UE; UPV 17,34 EUR; UV Medicina 18,00 EUR).",
+    "evidence": "https://www.uv.es/graus/normatives/autonomica/Decreto%20tasas.pdf : 'Nivel de experimentalidad A 12,79 25,51 54,11 72,14 / B 14,03 27,96 59,33 79,10 / C 17,34 ... / D 18,00 ...' (kolejne kolumny to kolejne zapisy). Dekret art. 6: 'se le aplicará el doble'.",
+    "proposedFix": "Dopisać zdanie: 'Przy powtarzaniu przedmiotu stawka jest wyższa (drugi zapis ok. 25 EUR za ECTS w grupie A do 36 EUR w grupie D)'. Uwaga: druga kolumna dekretu (np. 27,96) nie równa się podwójnej cenie pierwszej (28,06), więc nie należy upraszczać."
+  },
+  {
+    "city": "Mediolan",
+    "program": null,
+    "field": "gaps[0]",
+    "severity": "ważne",
+    "problem": "Pierwszy wpis `gaps` jest urwany w połowie zdania i zaczyna się od środka listy: 'psychologia, informatyka, data science, prawo, medycyna po angielsku z testem IMAT, komunikacja) nie ma w pliku.' Zawiera też żargon 'w pliku'. Czytelnik nie dowie się, czego brakuje (uczelnie publiczne Mediolanu: Unimi, Bicocca).",
+    "evidence": "mediolan.json gaps[0]: \"psychologia, informatyka, data science, prawo, medycyna po angielsku z testem IMAT, komunikacja) nie ma w pliku. Do sprawdzenia bezpośrednio na stronach uczelni.\"",
+    "proposedFix": "Przepisać: 'Brakuje publicznych uniwersytetów Mediolanu (Università degli Studi di Milano, Milano-Bicocca) i ich kierunków: psychologii, informatyki, data science, prawa, medycyny po angielsku z testem IMAT oraz komunikacji. Do sprawdzenia na stronach uczelni.'"
+  },
+  {
+    "city": "Mediolan",
+    "program": null,
+    "field": "universities (zakres)",
+    "severity": "ważne",
+    "problem": "Z publicznych uczelni opisano tylko Politechnikę. Największy uniwersytet publiczny Mediolanu (Unimi) i Bicocca nie są ujęte, więc dla zawodów psycholog, prawnik, dziennikarz, lekarz (ścieżka publiczna) są tylko uczelnie prywatne (czesne 7 690 do 20 690 EUR), a dla dziennikarza brak jakiejkolwiek pozycji. Uczeń może wnioskować, że studia w Mediolanie są głównie płatne. Zakres jest niezgodny z dodatkiem (3 do 4 największych uczelni publicznych).",
+    "evidence": "mediolan.json universities: Politecnico di Milano, Bocconi, UniSR, Humanitas; gaps[5]: 'do których nie było dostępu'.",
+    "proposedFix": "Uzupełnić Unimi i Bicocca (psychologia, informatyka, prawo, medycyna IMAT) albo dodać w summary wyraźne ostrzeżenie: 'W tym zestawieniu brakuje publicznych uniwersytetów Mediolanu, które mają znacznie niższe opłaty'."
+  },
+  {
+    "city": "Mediolan",
+    "program": "Politecnico di Milano (wszystkie)",
+    "field": "tuitionEu",
+    "severity": "ważne",
+    "problem": "Zdanie 'Pełne albo częściowe zwolnienie ze składki przysługuje przy ISEE do 30 000 EUR (dla pierwszego roku)' nie ma pokrycia na cytowanej stronie opłat; strona mówi tylko o zwolnieniu 'według ISEE' z ustawy budżetowej 2017, bez progu. Próg 30 000 EUR może nastolatka wprowadzić w błąd (ustawowy próg pełnego zwolnienia jest niższy, a Polak bez ISEE musi składać dokumenty zagraniczne). Brakuje też podsumowania, ile maksymalnie kosztuje rok: 880,04 EUR plus do 3 003 EUR składki, plus 16, 130 do 190, 3,78 i 7,26 EUR, czyli ok. 3 900 do 4 100 EUR.",
+    "evidence": "https://www.polimi.it/en/students/tuition-fees-scholarships-and-financial-aid/tuition-fees : 'a first instalment of €880.04 ...; and a second instalment (ranging from a minimum of €0 to a maximum of €3,003.00)'; 'Partial or total exemption according to ISEE ... For 1st year students, the exemption depends exclusively on the ISEE value' (grep '30,000' = 0 trafień).",
+    "proposedFix": "Usunąć 'do 30 000 EUR' albo podać źródło progu. Dopisać: 'Maksymalny koszt roku to około 4 000 EUR (opłata stała i składka najwyższa), dla niskich dochodów mniej'."
+  },
+  {
+    "city": "Mediolan",
+    "program": null,
+    "field": "summary[Uwagi] (medycyna po włosku)",
+    "severity": "ważne",
+    "problem": "Zdanie 'Medycyna po włosku od roku 2025/26 działa w systemie semestru filtrującego (dekret MUR nr 941 z 10 lipca 2026)' jest chronologicznie niespójne (dekret z lipca 2026 nie może wprowadzać systemu od 2025/26) i nie ma źródła w `sources`. Informacja dotyczy zasadniczej zmiany zasad przyjęcia na medycynę, więc błąd jest kosztowny.",
+    "evidence": "mediolan.json summary[4].text. Żadna z pobranych stron uczelni lub MUR nie jest podana jako źródło tego zdania.",
+    "proposedFix": "Zweryfikować w oficjalnym komunikacie MUR i podać adres albo usunąć numer dekretu i daty. Poprawna formuła: 'Na medycynę po włosku obowiązuje semestr filtrujący zamiast testu; szczegóły na stronie MUR (adres)'."
+  },
+  {
+    "city": "Mediolan",
+    "program": "Bocconi (wszystkie)",
+    "field": "academicYear / tuitionEu",
+    "severity": "drobne",
+    "problem": "`academicYear` to '2027/28', a kwota 17 000 EUR dotyczy roku 2026/27 (uczelnia: 'The amount for a.y. 2027-28 will be defined soon'). Jest to zaznaczone w tuitionEu, ale nagłówek z rokiem 2027/28 obok kwoty 2026/27 może mylić. Zwolnienia podano jako 'od 20% do 100%', a strona opłat wymienia 20, 40, 60 i 80% (100% nie ma na tej stronie). Pozostałe liczby potwierdzone: 55%/45%, daty sesji zimowej, 17 lat, 115 miejsc, 690 i 460.",
+    "evidence": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/fees : 'For 2026-27 a.y. ... € 17,000 per year. The amount for a.y. 2027-28 will be defined soon'; tabela 'Benefit: 20% / 40% / 60% / 80% Partial tuition waiver'.",
+    "proposedFix": "Zamienić 'od zwolnienia 20% do 100%' na 'częściowe zwolnienia od 20% do 80% oraz stypendia'. W academicYear dopisać '(czesne z roku 2026/27)'."
+  },
+  {
+    "city": "Mediolan",
+    "program": "Humanitas Medicine and Surgery",
+    "field": "requirements (limit miejsc)",
+    "severity": "drobne",
+    "problem": "'Miejsca na 2026/27: 200, w tym 150 dla obywateli UE i 50 dla spoza UE' nie występuje na stronie rekrutacji ani opłat. Czesne (10 206 do 23 206 EUR według ISEP), struktura HUMAT (60 pytań, 120 minut) i zalecany poziom B2 potwierdzone dosłownie.",
+    "evidence": "https://www.hunimed.eu/apply-med-schools/ : grep '150|200' trafia tylko w '€200' opłaty testowej. https://www.hunimed.eu/fees-scholarships-med-schools/ : tabela 10.206 / 15.206 / 19.206 / 23.206.",
+    "proposedFix": "Podać adres dokumentu (bando) z liczbą miejsc albo usunąć liczbę."
+  },
+  {
+    "city": "Mediolan",
+    "program": "Progettazione dell'Architettura (Polimi) vs Architettura (Unibo)",
+    "field": "deadline / requirements (data ARCHED)",
+    "severity": "drobne",
+    "problem": "Niespójność między miastami: Mediolan podaje test ARCHED po angielsku 23 lipca, po włosku 24 lipca 2026 (zgodnie ze stroną Polimi). Bolonia podaje test (po włosku) 23 lipca 2026, 9:00 (zgodnie z ogłoszeniem Unibo). Obie daty są w przeszłości, ale jedna z uczelni podaje inny dzień dla tej samej ogólnokrajowej próby, a brak wyjaśnienia.",
+    "evidence": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/architecture : 'ARCHED test in English will take place on 23 July 2026 ... in Italian is scheduled for 24 July 2026'. https://corsi.unibo.it/s/3424/p/it/iscriversi-nuovo/bando-architettura_2026-2027_prot.pdf : 'Data Test Arched 23 luglio 2026 ore 9:00'.",
+    "proposedFix": "Dopisać w obu miastach: 'Uczelnie podają różne dni testu (23 i 24 lipca 2026); data na kolejny rok będzie w ogłoszeniu uczelni'."
+  },
+  {
+    "city": "Mediolan",
+    "program": "Ingegneria Informatica (Polimi)",
+    "field": "name / nameEn",
+    "severity": "drobne",
+    "problem": "nameEn to 'Computer Science and Engineering', a strona Polimi podaje 'Engineering of Computing Systems'. Pole `name` łączy włoską nazwę z angielską, w innych programach tylko włoską. Wynik: niespójne nazewnictwo.",
+    "evidence": "https://www.polimi.it/en/education/laurea-programmes/programme-detail/engineering-of-computing-systems : 'Engineering of Computing Systems, Level Bachelor of Science, Duration 3 Years, Language Italian'.",
+    "proposedFix": "nameEn: 'Engineering of Computing Systems (Bachelor of Science)', name: 'Ingegneria Informatica (Laurea, L-8)'."
+  },
+  {
+    "city": "Mediolan",
+    "program": null,
+    "field": "summary / gaps / requirements (jakość tekstu)",
+    "severity": "drobne",
+    "problem": "Żargon: 'nie ma w pliku', 'Nie sprawdzono wprost, czy...', 'dlatego wszędzie wpisano', 'do których nie było dostępu', 'na przeczytanych stronach'. Brak przecinka w 'liczbę miejsc w danej rundzie a na programach angielskich' (wymaga przecinka przed 'a' lub przeredagowania). `sources` ma jeden wpis z pustą notką, a w summary użyto aż czterech uczelni z osobnymi źródłami.",
+    "evidence": "mediolan.json gaps[4]: 'dlatego wszędzie wpisano, że wymagany jest test'; gaps[5]: 'do których nie było dostępu'; Bocconi requirements: 'liczbę miejsc w danej rundzie a na programach angielskich'.",
+    "proposedFix": "Przepisać na pełne zdania dla czytelnika ('Strony uczelni nie wymieniają Polski z nazwy, więc ostateczną ocenę świadectwa robi uczelnia'), dodać notki i brakujące źródła (Bocconi, UniSR, Humanitas)."
+  },
+  {
+    "city": "Bolonia",
+    "program": null,
+    "field": "universities (zakres)",
+    "severity": "drobne",
+    "problem": "Opisano tylko Uniwersytet w Bolonii (wymagane było 3 do 4 uczelni). Gap tłumaczy to brakiem innych publicznych uczelni, co jest prawdopodobne, ale jest wpisane żargonem ('nie znaleziono publicznej uczelni z sensownym programem'). Kilka programów leży poza Bolonią (Cesena, Rimini, Ravenna, Forlì); w nazwach jest to oznaczone tylko częściowo (psychologia i architektura: Cesena tylko w notes).",
+    "evidence": "bolonia.json summary[5].text: 'nie znaleziono publicznej uczelni z sensownym programem I stopnia'. Psychologia: notes 'Kampus w Cesenie (nie w samej Bolonii)'.",
+    "proposedFix": "Zamienić na 'W samej Bolonii nie ma innej dużej uczelni publicznej z kierunkami z tej listy'. W nazwach psychologii i architektury dopisać '(Cesena)', jak przy Rimini i Rawennie."
+  },
+  {
+    "city": "Bolonia",
+    "program": "Scienze e tecniche psicologiche, Scienze della comunicazione, Giurisprudenza",
+    "field": "admissionUrl",
+    "severity": "drobne",
+    "problem": "Trzy adresy ogłoszeń mają w nazwie pliku rok 2025/26 (bando_tolc_stp_2025-26, bando-scienze-della-comunicazione-a-a-2025-2026, avviso-tolc-25-26). Po pobraniu: treść pliku jest ogłoszeniem 2026/27 (A.A. 2026/2027, daty od 3 marca 2026), więc dane są poprawne, ale nazwa pliku zniechęca czytelnika i może wyglądać na stary cykl.",
+    "evidence": "pdftotext https://corsi.unibo.it/s/3424/p/it/iscriversi-1/bando_tolc_stp_2025-26-con-prot.pdf : 'A.A. 2026/2027', 'Dal 03 marzo 2026 al 29 aprile 2026'. https://corsi.unibo.it/s/3394/p/it/iscriversi-nuova-4/avviso-tolc-25-26.pdf : 'A.A. 2026/2027', 'Senza mora: dal 22 luglio 2026 al 24 settembre 2026'.",
+    "proposedFix": "Dopisać w notes: 'Plik ogłoszenia ma w nazwie 2025/26, ale treść dotyczy naboru 2026/27'."
+  },
+  {
+    "city": "Bolonia",
+    "program": "Informatica, Ingegneria informatica, Ingegneria meccanica",
+    "field": "requirements (limit miejsc)",
+    "severity": "drobne",
+    "problem": "W requirements jest 'kierunek ma limit miejsc', ale bez liczby, choć ogłoszenie ją podaje (Informatica 150 miejsc, 75 w pierwszej selekcji; Ingegneria informatica 200 miejsc, 120 w pierwszej). Dla innych kierunków liczby są podane, więc zestaw jest niespójny.",
+    "evidence": "https://corsi.unibo.it/s/3386/p/it/https-corsi-unibo-it-laurea-informatica-iscriversi/bandotolc_ingegneria-e-scienze-area-informatica-_a-a-2026-2027.pdf : '6640 Informatica L-31 Bologna 150 75', '6671 L-8 Bologna 200 120'.",
+    "proposedFix": "Dopisać liczby miejsc z ogłoszenia dla Informatica (150), Ingegneria informatica (200), Ingegneria meccanica Bologna (z tabeli)."
+  },
+  {
+    "city": "Bolonia",
+    "program": null,
+    "field": "sources (notki) / gaps (jakość tekstu)",
+    "severity": "drobne",
+    "problem": "Wszystkie 9 wpisów `sources` ma pustą notkę (jeden adres powtórzony dwa razy). W gaps: 'Nie znaleziono w źródłach uczelni...', 'Nie znaleziono zasad przyjęcia...' (żargon zbierania). Zdanie 'pochodzą z naboru 2026/27, który już się zakończył (lub kończy się w październiku 2026)' jest nieprecyzyjne: Civil i Giurisprudenza mają jeszcze okno z karą do 19 listopada 2026, a nabór 2026/27 jest nieaktualny dla ucznia, który planuje studia od 2027/28.",
+    "evidence": "bolonia.json sources[0].note = ''; sources[0].url = sources[6].url (duplikat); gaps[0]: 'Nie znaleziono w źródłach uczelni informacji, że polska matura jest wprost uznawana'.",
+    "proposedFix": "Uzupełnić notki, usunąć duplikat, przeformułować gaps na 'Uczelnia nie wymienia polskiej matury z nazwy, więc ocena należy do International Desk'."
+  },
+  {
+    "city": "Bolonia",
+    "program": "wszystkie",
+    "field": "tuitionEu / matura / IMAT / TOLC (potwierdzenie)",
+    "severity": "drobne",
+    "problem": "Bez błędu merytorycznego. Potwierdzono dosłownie: część stała 157,04 EUR, maksima 2 040 / 2 244 / 3 315 EUR, próg ISEE 27 000 EUR, terminy ER.GO (30 października, 20 listopada 2026), IMAT (29 września, punkty 8 października, wynik osobisty 19 października, ranking 26 października 2026; próg 20 pkt; 60 pytań, 4/5/23/15/13; 1,5 i minus 0,4; 140 + 20 miejsc), daty selekcji TOLC (3 marca do 29 kwietnia, 30 kwietnia do 13 lipca, 9 do 18 września 2026), 12 lat nauki, zwolnienie z potwierdzenia autentyczności dla BE, DK, FR, IE, LV, EE, DE, AT bez Polski, brak dokumentu o wartości świadectwa dla UE, opłata 20 EUR i 50 EUR (ARCHED), 96 miejsc architektura, 300/150 psychologia, 600/350 komunikacja.",
+    "evidence": "https://www.unibo.it/en/attachments/Tabellaimportimassimi2627.pdf ; https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/translation-authenticity-and-value-of-foreign-qualifications : 'It is not necessary to submit confirmations regarding the authenticity ... Belgium, Denmark, France, Ireland, Latvia, Estonia, Germany, Austria'; 'no documents concerning the value of the qualification is required for ... the European Union'. Ogłoszenie IMAT: '8 ottobre 2026', '19 ottobre 2026', '26 ottobre 2026'.",
+    "proposedFix": "Brak. Opcjonalnie dopisać, że tłumaczenie świadectwa na włoski lub angielski musi być urzędowe (tłumaczenie przysięgłe, zasady MAECI), bo to koszt dla ucznia."
+  }
+]

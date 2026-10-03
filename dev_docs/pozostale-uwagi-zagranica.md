@@ -26,3 +26,17 @@ Poprawki zastosowane na danych: `dev_docs/dane-robocze/poprawki-zagranica.js` (u
 - Praga FS ČVUT, Bratysława EUBA: karty prawie puste (pokazują „brak potwierdzonych danych”).
 - Teksty: antytezy typu „a nie wynik matury” w kilku miastach (Budapeszt, Bratysława, Wilno, Lublana, Tallinn, Helsinki), kalki („opłata aplikacyjna”).
 - Dublin: tabela przeliczania CAO powtórzona w każdym programie (do przeniesienia do opisu miasta).
+
+## Partia 2 (miasta poza stolicami), przegląd 2026-10-03
+Raporty: `dev_docs/dane-robocze/wyniki/krytyk-zagranica2-*.json`. Oceny przed poprawkami: Groningen 8, Maastricht 8, Bolonia 8, Walencja 7, Monachium 7, Lyon 7, Rotterdam 6,5, Barcelona 6, Mediolan 6, Porto 5,5, Hamburg 5, Lowanium 5.
+
+Naprawione: termin KU Leuven Engineering Technology (15 czerwca 2027 UE/EOG), okno Porto 20 do 29 lipca i kolejne fazy, spójne statusy matury w Porto, Bucerius jako czesne odroczone, ostrzeżenie przy HAW Maschinenbau (nabór trwa teraz), czesne BSc Centrale/emlyon niepotwierdzone dla UE, link do psychologii angielskiej w Groningen, skrót uczelni EUR mylący z walutą (Rotterdam), statusy matury w Barcelonie, Walencji i LMU, zakres Mediolanu (tylko Polimi), żargon zbierania danych.
+
+Do zrobienia (wymaga ponownego sprawdzenia stron):
+- Hamburg UHH: liczby o selekcji (90/10 procent, 148 miejsc, BaPsy) podpięte pod stronę bez tych liczb; czesne 0 EUR bez dosłownego źródła przy UHH i LMU.
+- Monachium: uni-assist 75 i 30 EUR bez źródła (strony uni-assist dały 404), wartości NC LMU bez źródła.
+- Barcelona: noty odcięcia nie ma w PDF podanym jako źródło, UB Psicologia i UAB Economia mają identyczną notę 9,660; UB i UPF bez języka i czasu trwania.
+- Mediolan: brak Unimi i Bicocca (ekran weryfikacji), ARCHED daty niespójne między Bolonią a Mediolanem.
+- Rotterdam i Groningen: lista z Polską (RUG, UM) ładowana dynamicznie, niepotwierdzona dosłownie; Econometrics i inne statusy matury do ujednolicenia między miastami holenderskimi.
+- Porto: uchwała CNAES z Polską i data 30 marca 2027 bez adresu źródłowego; poziom portugalskiego niewidoczny.
+- Wszystkie nowe miasta: puste notki w `sources`.

@@ -1,0 +1,371 @@
+[
+ {
+  "city": "Lowanium",
+  "program": "Bachelor of Engineering Technology (Leuven)",
+  "field": "deadline",
+  "severity": "krytyczne",
+  "problem": "Termin na 2027/28 jest już opublikowany, a plik podaje stary termin 1 czerwca z naboru 2026/27 i twierdzi, że terminu na 2027/28 jeszcze nie ma. Dla obywateli UE właściwy termin to 15 czerwca 2027, osoby spoza EOG mają 15 stycznia 2027. To samo powtarza się w summary (Rekrutacja) i w gaps.",
+  "evidence": "\"Please note that the application deadlines for the 2027-2028 academic year have changed: 15 January 2027 for non-EEA applicants, 15 June 2027 for EEA applicants and non-EEA applicants with a valid residence permit residing in Belgium\" https://onderwijsaanbod.kuleuven.be/opleidingen/e/SC_55554488/toelatingsvoorwaarden",
+  "proposedFix": "Wpisać: wniosek do 15 czerwca 2027 (obywatele UE/EOG), 15 stycznia 2027 (spoza EOG); usunąć zdania o nieopublikowanym terminie i o 1 czerwca z summary i gaps; sprawdzić daty testów językowych i matematycznych (1 sierpnia) na 2027/28."
+ },
+ {
+  "city": "Lowanium",
+  "program": null,
+  "field": "summary/gaps (czesne)",
+  "severity": "ważne",
+  "problem": "Kwota 1 181,40 EUR jest podana jako stawka obywateli UE, ale strona opłat nie opisuje, która z czterech stawek dotyczy której grupy (plik sam to przyznaje w gaps). Kwota jest najniższą z czterech stawek 2026/27 i zgadza się z tabelą, ale przypisanie do obywateli UE to wnioskowanie. Poza tym czesne 2026/27 stoi przy programach oznaczonych rokiem 2027/28.",
+  "evidence": "\"2026-2027 ... Fixed cost Amount per credit € 1181,40 € 305,40 € 14,60 € 3093,12 € 1305,12 € 29,80 ...\" https://www.kuleuven.be/english/education/student/fees/tuition-fee-breakdown",
+  "proposedFix": "Dodać zdanie dla czytelnika: stawka standardowa 2026/27, wyższe stawki dotyczą innych grup, sprawdź w kalkulatorze opłat; w academicYear zostawić czytelne '2027/28 (warunki), czesne z 2026/27'."
+ },
+ {
+  "city": "Lowanium",
+  "program": "wszystkie programy po niderlandzku",
+  "field": "deadline",
+  "severity": "ważne",
+  "problem": "Okres zapisów 17 sierpnia do 16 września 2026 już minął (dziś 3 października 2026). Dla programów niderlandzkich nie ma w pliku żadnej daty, którą nastolatek mógłby wykorzystać. Zdanie 'obywatele EOG nie mają stałego terminu' jest wnioskiem, a nie cytatem ze strony.",
+  "evidence": "Plik: \"Okres zapisów na 2026/27 trwał od 17 sierpnia do 16 września 2026; okres zapisów na 2027/28 nie został jeszcze opublikowany.\" Strona eligibility-bachelor https://www.kuleuven.be/english/apply/requested-documents/eligibility-bachelor nie zawiera ani 1 lutego, ani okresu zapisów (0 trafień w tekście strony).",
+  "proposedFix": "Podać źródło dla reguły 'termin 1 lutego tylko spoza EOG' (osobna strona KU Leuven) albo napisać: 'Terminy dla obywateli UE na 2027/28 do potwierdzenia na stronie uczelni.'"
+ },
+ {
+  "city": "Lowanium",
+  "program": "Bachelor in de geneeskunde (Leuven)",
+  "field": "requirements",
+  "severity": "drobne",
+  "problem": "Szczegóły egzaminu na medycynę (opłata 65 EUR, zapisy 1 marca do 17 maja 2027, egzamin 2 lipca 2027) nie występują na cytowanej stronie warunków przyjęcia (0 trafień). Źródło tych liczb nie jest podane w sources ani w admissionUrl.",
+  "evidence": "Strona https://onderwijsaanbod.kuleuven.be/opleidingen/n/SC_57359677/toelatingsvoorwaarden: tylko ogólny wymóg 'toelatingsexamen arts ... gunstige rangschikking'.",
+  "proposedFix": "Dodać do sources adres toelatingsexamensvlaanderen.be z cytatem albo usunąć daty i opłatę."
+ },
+ {
+  "city": "Lowanium",
+  "program": null,
+  "field": "sources",
+  "severity": "drobne",
+  "problem": "Lista sources ma jeden wpis bez notki, a plik cytuje strony, których nie ma w sources (strona opłat, strony programów). Dodatkowo gaps zaczynają się od 'Nie sprawdzono' i 'Nie dołączono', co brzmi jak notatka robocza.",
+  "evidence": "sources: [{url: eligibility-bachelor, note: ''}]",
+  "proposedFix": "Uzupełnić notki; przeformułować luki na pełne zdania dla czytelnika (np. 'Nie podajemy limitów miejsc, bo strony KU Leuven ich nie publikują')."
+ },
+ {
+  "city": "Lowanium",
+  "program": "wszystkie programy po niderlandzku (7 z 8)",
+  "field": "languages/ryzyko",
+  "severity": "ważne",
+  "problem": "Siedem z ośmiu licencjatów jest po niderlandzku i wymaga B2, a status matury to 'uznawana z warunkami' bez ostrzeżenia, że bez certyfikatu B2 przyjęcie jest niemożliwe. Warunek językowy jest tylko w languageProof. Nastolatek czytający tylko status może pominąć barierę językową. Dotyczy też Porto, Groningen (Built Environment, Geneeskunde), Rotterdam (Rechtsgeleerdheid, Geneeskunde, Hogeschool, TU Delft BK/CT/WB) i Maastricht (Geneeskunde).",
+  "evidence": "Plik: languages ['niderlandzki'], languageProof 'Niderlandzki co najmniej B2 (ERK)' tylko w polu languageProof.",
+  "proposedFix": "Dodać na stronie widoczną etykietę języka wykładowego przy nazwie programu i wymagany poziom (B2, NT2-II, VWO) obok statusu matury."
+ },
+ {
+  "city": "Lowanium",
+  "program": "Bachelor in de psychologie (Leuven) i pozostałe niderlandzkie",
+  "field": "selective",
+  "severity": "drobne",
+  "problem": "selective=false dla psychologii, prawa, informatyki, ekonomii i komunikacji ustawiono, bo strona nie podaje limitu. Dodatkowo plik wprost mówi, że nie sprawdzono limitów. Zasada z dodatku zabrania ustawiania false 'bo nie znaleziono'. Pole selective=false z notką 'strona nie podaje testu' jest uczciwe, ale niezgodne z zasadą 6.",
+  "evidence": "Dodatek pkt 6: 'Nie ustawiaj false bo nie znaleziono'; gaps: 'Nie sprawdzono limitów miejsc'.",
+  "proposedFix": "Ustawić selective=null albo napisać w opisie 'Flandria nie stosuje limitów poza medycyną i stomatologią, potwierdzone na stronie X' z cytatem."
+ },
+ {
+  "city": "Porto",
+  "program": null,
+  "field": "summary Rekrutacja / gaps (kalendarz)",
+  "severity": "ważne",
+  "problem": "Plik podaje, że druga faza trwała do 2 września według Guia, a strona DGES podaje inaczej, 'kalendarz może się różnić'. Oficjalny kalendarz (Despacho 9359-A/2026 z 23 lipca) rozstrzyga sprawę: druga faza wniosków 24 sierpnia do 20 września, wyniki 30 września, zapisy 1 do 3 października 2026. Brakuje trzeciej fazy 10 do 12 października 2026 (wyniki 18 października), która jest jeszcze otwarta.",
+  "evidence": "\"6 Apresentação da candidatura à 2.ª fase ... 24 de agosto 20 de setembro ... 11 Divulgação dos resultados da 2.ª fase ... 30 de setembro ... 16 Apresentação da candidatura à 3.ª fase ... 10 de outubro 12 de outubro\" https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+  "proposedFix": "Zastąpić dane z Guia kalendarzem DGES, usunąć lukę o rozbieżności, dodać fazę 3; zaznaczyć, że to kalendarz 2026 i że na 2027/28 jeszcze nie ma."
+ },
+ {
+  "city": "Porto",
+  "program": null,
+  "field": "deadline (zastępowanie egzaminów)",
+  "severity": "ważne",
+  "problem": "Dla osób wnioskujących o zastąpienie egzaminów portugalskich egzaminami zagranicznymi (czyli dla polskiej matury) plik podaje okno 20 do 27 lipca 2026. Oficjalny kalendarz podaje 20 do 29 lipca 2026. To najważniejszy termin dla Polaka, a jest błędny o dwa dni we wszystkich 17 programach i w summary.",
+  "evidence": "\"candidatos com pedido de substituição de provas de ingresso por exames estrangeiros. 20 de julho 29 de julho\" https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+  "proposedFix": "Poprawić na 20 do 29 lipca 2026 we wszystkich programach (pole deadline) i w summary."
+ },
+ {
+  "city": "Porto",
+  "program": null,
+  "field": "summary Polska matura (uchwała CNAES)",
+  "severity": "ważne",
+  "problem": "Twierdzenia o tabeli CNAES na 2026/27 (Polska na liście dla biologii, fizyki i chemii, brak Matemática A, Português, Desenho, Filosofia, História), terminie 30 marca 2027 na wnioski i Deliberação 619/2026 nie mają żadnego adresu w sources (sources jest puste). Na stronach DGES pareceres-cnaes i substituição nie znalazłem Polski ani daty 30 marca. Potwierdziłem tylko: ważność egzaminów 5 lat i publikację listy do 31 maja.",
+  "evidence": "\"Os exames realizados desde 2022 são válidos por cinco anos ... A CNAES divulga, anualmente, até 31 maio do ano da candidatura, uma deliberação\" https://www.dges.gov.pt/pt/pagina/substituicao-de-provas-de-ingresso-por-exames-estrangeiros?plid=593",
+  "proposedFix": "Podać w sources adres tabeli homologii CNAES (dges.gov.pt, strona 'Deliberações ... provas de ingresso') z cytatem o Polsce albo usunąć szczegóły. Dodać źródło dla 30 marca."
+ },
+ {
+  "city": "Porto",
+  "program": null,
+  "field": "sources",
+  "severity": "ważne",
+  "problem": "Pole sources jest puste, choć dodatek (pkt 10) wymaga listy ogólnych źródeł. Kalendarz, Guia da Candidatura 2026, Lei 73-A/2025 art. 161 i Deliberação 619/2026 są wymienione tylko z nazwy, bez adresu.",
+  "evidence": "\"sources\": []",
+  "proposedFix": "Dodać: Guia da Candidatura 2026 (https://www.dges.gov.pt/guias/pdfs/GuiaCandPub2026.pdf), kalendarz DGES, tabelę homologii CNAES, ustawę o propinie."
+ },
+ {
+  "city": "Porto",
+  "program": "wszystkie 17 programów",
+  "field": "matura",
+  "severity": "ważne",
+  "problem": "Status matury jest niekonsekwentny. Psicologia, Direito, Arquitetura i Ciências da Comunicação mają 'wymaga dodatkowego etapu', a inżynierie, medycyna i ekonomia 'wymaga potwierdzenia przez uczelnię', choć wszystkie przechodzą ten sam konkurs krajowy, wymagają certyfikatu równoważności i egzaminów, dla których Polska według pliku nie ma homologii (Matemática A, Português, Filosofia, História, Desenho). Podział nie wynika z żadnego kryterium w słowniku.",
+  "evidence": "Plik: Psicologia 'wymaga dodatkowego etapu' (zestawy Filosofia/Português/Biologia i Geologia), Engenharia Informática 'wymaga potwierdzenia' (Matemática A + Português). summary: 'nie ma polskiego egzaminu przypisanego do Matemática A, Português, Desenho, Filosofii czy Historii'.",
+  "proposedFix": "Ustawić jedną wartość dla całego Porto z uzasadnieniem: dla programów z biologią, fizyką lub chemią 'uznawana z warunkami' (homologia istnieje), dla pozostałych 'wymaga dodatkowego etapu' (portugalskie egzaminy) albo wszędzie 'wymaga potwierdzenia przez uczelnię'."
+ },
+ {
+  "city": "Porto",
+  "program": "wszystkie programy U.Porto i ISEP",
+  "field": "languages/languageProof",
+  "severity": "ważne",
+  "problem": "Programy są po portugalsku (poza dwoma na FEP), ale wymaganego poziomu portugalskiego nie podano ('wymagany poziom nie jest podany'), a część egzaminów to Português. Dla nastolatka to najważniejsza informacja. Dodatkowo FEUP i FEUP Civil mają na stronie dopisek 'Suitable for English-speaking students', którego plik nie przenosi.",
+  "evidence": "\"Language Portuguese - Suitable for English - speaking students\" https://www.up.pt/portal/en/study/bachelors-and-integrated-masters-degrees/courses/feup/22841/",
+  "proposedFix": "Dodać ostrzeżenie 'studia po portugalsku, w konkursie krajowym zdaje się egzamin z portugalskiego, poziom języka do potwierdzenia w GAES-UP'; dopisać uwagę o oznaczeniu 'suitable for English-speaking' tam, gdzie występuje."
+ },
+ {
+  "city": "Porto",
+  "program": "Economia (ensino em Inglês) i Gestão (ensino em Inglês)",
+  "field": "admission",
+  "severity": "drobne",
+  "problem": "Programy angielskie mają 30 miejsc każdy i ten sam konkurs krajowy z Matemática A. Dla Polaka oznacza to egzaminy portugalskie lub wniosek o homologię mimo języka angielskiego, co jest w requirements, ale nie w nazwie ani statusie. Certyfikatu z angielskiego brak ('do potwierdzenia').",
+  "evidence": "Plik: 'Rekrutacja do programu angielskiego odbywa się tym samym krajowym konkursem'; FEP page: 'Language English ... Vacancies 30'.",
+  "proposedFix": "Dodać do notes jedno zdanie: 'Język wykładowy angielski, ale warunki przyjęcia jak na programie portugalskim.'"
+ },
+ {
+  "city": "Porto",
+  "program": "wszystkie U.Porto",
+  "field": "admission (nota ostatniego przyjętego)",
+  "severity": "drobne",
+  "problem": "Strony kierunków podają notę ostatniego przyjętego (np. Psicologia 171,5 i 174,5 w skali 0 do 200, Direito 173,5 i 175,8, Medicina FMUP 186,7). To najlepszy wskaźnik selektywności, a plik podaje tylko minima (95 do 140 pkt), które sugerują łatwy dostęp.",
+  "evidence": "\"Mark of the last classified* 1ª Phase 171.5 2ª Phase 174.5\" https://www.up.pt/portal/en/study/bachelors-and-integrated-masters-degrees/courses/fpceup/22381/",
+  "proposedFix": "Dodać do requirements notę ostatniego przyjętego 2026 (w skali 0 do 200) i uwagę, że minimum nie gwarantuje miejsca."
+ },
+ {
+  "city": "Porto",
+  "program": null,
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Luki zaczynają się od 'Nie sprawdzono' i 'Nie udało się potwierdzić', brzmią jak notatki robocze. Zdanie o ISCAP 'jego zestawy egzaminów w Guia nie są jednoznaczne' jest niezrozumiałe dla czytelnika. Luka o cenach 'Strona ogólna U.Porto podaje wartość 697 EUR dla 2023/24' to szczegół zbierania danych.",
+  "evidence": "gaps[5], gaps[7], gaps[8]",
+  "proposedFix": "Przepisać na pełne zdania z perspektywy czytelnika; usunąć szczegóły o poprzednim zbieraniu."
+ },
+ {
+  "city": "Porto",
+  "program": "ogólnie",
+  "field": "academicYear",
+  "severity": "ważne",
+  "problem": "Wszystkie programy mają academicYear '2026/27 (nabór 2026; ...)'. Nabór 2026/27 jest praktycznie zamknięty (trzecia faza kończy się 12 października 2026), więc dla maturzysty z 2027 r. dane o miejscach i minimach to historia. Czytelnik tego nie zobaczy, jeśli pole jest długim opisem.",
+  "evidence": "Plik: academicYear '2026/27 (nabór 2026; warunki i terminy na 2027/28 jeszcze nieopublikowane)'",
+  "proposedFix": "Skrócić pole do '2026/27 (dane poprzedniego naboru)' i na stronie pokazać komunikat 'dla naboru 2027/28 jeszcze brak danych'."
+ },
+ {
+  "city": "Rotterdam",
+  "program": "wszystkie 17 programów (statusy matury)",
+  "field": "matura",
+  "severity": "ważne",
+  "problem": "Niespójny podział statusów. Programy z numerus fixus i selekcją (Psychology, IBEB, IBA) mają 'uznawana z warunkami', a analogiczne Groningen i Maastricht oznaczają fixus jako 'wymaga dodatkowego etapu'. Econometrics (bez fixus, obowiązkowy egzamin z matematyki i test z angielskiego) ma 'wymaga dodatkowego etapu'. TU Delft CSE (fixus, selekcja) ma 'uznawana z warunkami', Delft Bouwkunde (fixus) też. Wewnątrz jednej uczelni (EUR) selekcja raz jest etapem, raz nie.",
+  "evidence": "Rotterdam: IBEB selective true, matura 'uznawana z warunkami'; EOR selective true, matura 'wymaga dodatkowego etapu'. Groningen International Business (fixus, selekcja): 'wymaga dodatkowego etapu'.",
+  "proposedFix": "Ujednolicić: kierunki z numerus fixus i testem lub rankingiem 'wymaga dodatkowego etapu' we wszystkich miastach Holandii, albo opisać w słowniku, że selekcja po VWO-equivalent nie jest 'etapem'."
+ },
+ {
+  "city": "Rotterdam",
+  "program": null,
+  "field": "summary (Opłaty, Rekrutacja)",
+  "severity": "ważne",
+  "problem": "W tekście są doklejone fragmenty cytowań: '(EUR, StudyinNL)', 'przy dyplomie spoza Holandii (EUR)', 'na większości programów EUR i 28 300 EUR'. Zdania są pozbawione sensu ('8 300 EUR ... na większości programów EUR i 28 300 EUR na medycynie'). Powtarza się 15 razy w pliku.",
+  "evidence": "\"2 694 EUR rocznie w 2026/27 (EUR, StudyinNL) i 2 771 EUR\"; \"Osoby, które mają już dyplom licencjacki z Holandii płacą wyższą opłatę instytucjonalną, np. 8 300 EUR w 2026/27 na większości programów EUR i 28 300 EUR na medycynie\"",
+  "proposedFix": "Usunąć skróty źródeł z treści zdań ('EUR', 'StudyinNL'), podać źródła w nawiasie z pełną nazwą uczelni albo tylko w sources."
+ },
+ {
+  "city": "Rotterdam",
+  "program": "Informatica, Civiele Techniek, Werktuigbouwkunde, Bouwkunde, Communicatie, International Business (Hogeschool Rotterdam)",
+  "field": "deadline",
+  "severity": "ważne",
+  "problem": "Plik mówi, że 'strona nie podaje roku' przy terminie 1 maja. Strona o przyjęciu z dyplomem zagranicznym (cytowana jako admissionUrl) podaje wprost 1 maja 2027. Czytelnik dostaje niepotrzebnie niepewność, a rok jest w źródle.",
+  "evidence": "\"We raden je dringend aan je uiterlijk 1 mei 2027* aan te melden als je per 1 september 2027 wilt starten\" https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/",
+  "proposedFix": "Wpisać 'do 1 maja 2027 (zalecany termin dla dyplomów zagranicznych)' i usunąć adnotację o braku roku; zachować zdanie o późniejszych zgłoszeniach do 31 lipca bez prawa do przyjęcia."
+ },
+ {
+  "city": "Rotterdam",
+  "program": "International Bachelor Econometrics and Operations Research",
+  "field": "deadline",
+  "severity": "ważne",
+  "problem": "'Zapisy od 1 listopada 2026' nie występuje na cytowanej stronie (0 trafień 'November'), a termin Studielink od 1 października dotyczy innych programów. Data otwarcia naboru jest nieudokumentowana. Termin 1 maja i brak fixus potwierdzone.",
+  "evidence": "Strona EOR: tylko 'This mathematics result should be available prior to 1 May' i 'rolling admission ... feedback within six weeks'. https://www.eur.nl/en/bachelor/international-bachelor-econometrics-and-operations-research/admission",
+  "proposedFix": "Usunąć 1 listopada albo podać źródło tej daty; podać 'wniosek do 1 maja 2027 (UE/EOG)'."
+ },
+ {
+  "city": "Rotterdam",
+  "program": "Bouwkunde, Civiele Techniek, Werktuigbouwkunde (TU Delft)",
+  "field": "tuitionUrl",
+  "severity": "ważne",
+  "problem": "Wszystkie programy TU Delft, także niderlandzkojęzyczne Bouwkunde, Civiele Techniek i Werktuigbouwkunde, mają tuitionUrl i url do strony Computer Science and Engineering. Link dla kandydata na architekturę prowadzi do informatyki. Programy niderlandzkie nie mają własnego linku do strony programu.",
+  "evidence": "tuitionUrl: https://www.tudelft.nl/en/onderwijs/opleidingen/bachelors/computer-science-and-engineering/.../tuition-and-fees (dla programów 15, 16, 17)",
+  "proposedFix": "Podać strony programów TU Delft (tudelft.nl/onderwijs/opleidingen/bachelors/bk, ct, wb) albo ogólną stronę czesnego TU Delft."
+ },
+ {
+  "city": "Rotterdam",
+  "program": "Computer Science and Engineering i programy TU Delft",
+  "field": "tuitionNonEu / academicYear",
+  "severity": "ważne",
+  "problem": "Czesne dla osób spoza UE (17 310 EUR) i dla UE (2 601 EUR) pochodzi z 2025/26, a program ma academicYear 2027/28. Plik słusznie oznacza to jako nieaktualne, ale kwota stoi w polu czesnego obok wiodącej kwoty. Czytelnik może wziąć 17 310 EUR za bieżącą cenę. Źródło potwierdza liczby 2025/26.",
+  "evidence": "\"Nationality EU/EFTA 2025-2026: €2.601 Nationality Non-EU/EFTA 2025-2026: € 17.310\" https://www.tudelft.nl/en/onderwijs/opleidingen/bachelors/computer-science-and-engineering/bachelor-of-computer-science-and-engineering/from-application-to-enrollment/tuition-and-fees",
+  "proposedFix": "Dla spoza UE nie podawać kwoty z 2025/26 w polu czesnego; napisać 'Kwota na 2027/28 jeszcze nie jest opublikowana, w 2025/26 wynosiła 17 310 EUR'."
+ },
+ {
+  "city": "Rotterdam",
+  "program": "Hogeschool Rotterdam (6 programów)",
+  "field": "matura/language",
+  "severity": "ważne",
+  "problem": "Programy po niderlandzku (Informatica, Civiele Techniek, Werktuigbouwkunde, Bouwkunde, Communicatie) wymagają B2, ale status to 'wymaga potwierdzenia przez uczelnię' dla wszystkich, w tym International Business po angielsku bez poziomu angielskiego. Czytelnik nie widzi różnicy w skali ryzyka. Informatica ma w languages 'angielski (część zajęć, zakres do potwierdzenia)', co jest niejasne.",
+  "evidence": "Plik: languages ['niderlandzki (wymagany poziom B2)', 'angielski (część zajęć, zakres do potwierdzenia)']",
+  "proposedFix": "Rozdzielić ostrzeżenie o niderlandzkim od statusu matury; sformułować: 'Studia po niderlandzku, wymagany B2, część zajęć po angielsku (zakres do potwierdzenia)'."
+ },
+ {
+  "city": "Rotterdam",
+  "program": "Rechtsgeleerdheid (Bachelor)",
+  "field": "matura/selective",
+  "severity": "drobne",
+  "problem": "Prawo po niderlandzku ma status 'uznawana z warunkami' i selective=false, choć poziom niderlandzkiego jest 'do potwierdzenia w Admissions Office'. Wymóg języka jest największą barierą, a w statusie go nie widać. Dodatkowo EUR podaje, że uczelnia 'może wymagać testu' bez konkretów.",
+  "evidence": "Plik: 'Poziom niderlandzkiego nie jest podany na stronie programu'.",
+  "proposedFix": "Zmienić status na 'wymaga potwierdzenia przez uczelnię' albo dodać widoczną etykietę języka."
+ },
+ {
+  "city": "Rotterdam",
+  "program": "International Bachelor Econometrics and Operations Research",
+  "field": "requirements (literówka)",
+  "severity": "drobne",
+  "problem": "Błąd językowy: 'komisja rozpatrza każde zgłoszenie' (powinno być 'rozpatrzy' lub 'rozpatruje'). W tym samym polu angielskie 'rolling admission' w nawiasie jako kalka.",
+  "evidence": "\"komisja rozpatrza każde zgłoszenie indywidualnie (rolling admission)\"",
+  "proposedFix": "Zapisać: 'komisja rozpatruje zgłoszenia na bieżąco i oddzielnie'."
+ },
+ {
+  "city": "Rotterdam",
+  "program": "Computer Science and Engineering (TU Delft)",
+  "field": "requirements (kalki)",
+  "severity": "drobne",
+  "problem": "Kalka 'Braki (deficiencies)' i 'Zagraniczny dyplom uprawnia tylko do ścieżki angielskiej, chyba że...' (zdanie urwane lub niejasne w skróconym polu); w notes nazwa 'aglomeracja Rotterdam i Haga' dla Delft jest poprawna, ale nazwa uczelni w tytule 'Delft (aglomeracja Rotterdam i Haga)' jest długa.",
+  "evidence": "Plik: \"Braki (deficiencies) trzeba uzupełnić egzaminami VWO (Boswell-Bèta, CCVX lub Staatsexamen) przed 1 września\"",
+  "proposedFix": "Użyć 'braki w przedmiotach' bez angielskiego nawiasu albo wyjaśnić raz w overview."
+ },
+ {
+  "city": "Groningen",
+  "program": "Psychology (BSc), ścieżka angielska",
+  "field": "url / tuitionUrl",
+  "severity": "ważne",
+  "problem": "Program angielskiej ścieżki ma url, tuitionUrl i applyUrl do strony /bachelors/psychology/ (po niderlandzku, 365 miejsc, losowanie). Strona angielskiej ścieżki to /bachelors/psychology-en/ (225 miejsc, test selekcyjny), na której liczba 225 jest potwierdzona. Link w pliku pokazuje nastolatkowi niderlandzką stronę z inną liczbą miejsc.",
+  "evidence": "\"The University of Groningen has a numerus fixus ... only a limited number of students (225) can be admitted\" https://www.rug.nl/bachelors/psychology-en/?lang=en ; strona /bachelors/psychology/ podaje \"maximum of 365 attendees\"",
+  "proposedFix": "Zmienić url, tuitionUrl na https://www.rug.nl/bachelors/psychology-en/?lang=en."
+ },
+ {
+  "city": "Groningen",
+  "program": null,
+  "field": "summary Polska matura",
+  "severity": "ważne",
+  "problem": "Zdanie, że RUG wymienia Polskę wprost jako 'Świadectwo Dojrzałości' (strona zmieniona 30 września 2026), nie ma adresu w sources ani w admissionUrl programów. Strona listy równoważności VWO pokazuje Polskę tylko w selektorze krajów (treść per kraj ładuje się dynamicznie), więc nie udało się potwierdzić dosłownego cytatu. Status 'uznawana z warunkami/uznawana' dla ośmiu programów opiera się na niepodanym adresie.",
+  "evidence": "https://www.rug.nl/education/application-enrolment-tuition-fees/admission/non-dutch-qualification/with-non-dutch-diploma/bachelor/bachelor-entry-requirements/vwo-equivalent-qualifications : lista krajów zawiera 'Poland', brak treści dla Polski w statycznym HTML.",
+  "proposedFix": "Dodać do sources adres strony RUG dla Polski i krótki cytat; do czasu potwierdzenia opisać jako 'RUG wymienia Polskę na liście krajów, szczegóły ocenia komisja'."
+ },
+ {
+  "city": "Groningen",
+  "program": null,
+  "field": "summary (Rekrutacja) / duplikat",
+  "severity": "drobne",
+  "problem": "Dwa osobne wpisy z etykietą 'Rekrutacja' dotyczą różnych rzeczy: drugi to reguła uznawania dyplomów, a nie rekrutacja. W polu 'sources' jest jedno źródło bez notki, a plik podaje kilkanaście adresów w programach.",
+  "evidence": "summary[3], summary[4]",
+  "proposedFix": "Zmienić etykietę drugiego wpisu na 'Uznawanie dyplomów'; uzupełnić notkę w sources."
+ },
+ {
+  "city": "Groningen",
+  "program": "Hanze (5 programów)",
+  "field": "deadline",
+  "severity": "ważne",
+  "problem": "Terminy Hanze 15 sierpnia (UE) i 1 czerwca (z wizą) podano bez roku i zgodnie z zasadą z adnotacją. Źródło tak samo podaje je bez roku, więc zapis jest uczciwy, ale zalecenie dla czytelnika jest zbyt łagodne: Hanze to HBO z niższym poziomem wejścia (HAVO), a w widoku strona może pokazać tylko datę. Dodatkowo dla Built Environment termin 15 sierpnia pojawia się jako 'przy dyplomie zagranicznym'.",
+  "evidence": "\"The general application deadline for EU students is 15 August for non-EU students is 1 June\" https://www.hanze.nl/en/programmes/full-time/bachelor/applied-computer-science",
+  "proposedFix": "Zachować adnotację o braku roku i pokazać ją na stronie przy dacie."
+ },
+ {
+  "city": "Groningen",
+  "program": "International and European Law (LLB) i Communication and Information Studies",
+  "field": "requirements (antyteza)",
+  "severity": "drobne",
+  "problem": "Antyteza i błąd składni: 'Jest to studia z prawa międzynarodowego i europejskiego, nie dają kwalifikacji do polskich zawodów prawniczych' (rzeczownik w liczbie mnogiej po 'jest to', antyteza). Podobnie: 'Kierunek komunikacji i informacji, nie jest to szkoła dziennikarska', 'Program z komunikacji międzynarodowej, nie szkoła dziennikarska' (Hanze), '(nie wynik matury)'.",
+  "evidence": "Plik: \"Jest to studia z prawa międzynarodowego i europejskiego, nie dają kwalifikacji do polskich zawodów prawniczych.\"",
+  "proposedFix": "Zapisać: 'Studia z prawa międzynarodowego i europejskiego nie dają uprawnień do polskich zawodów prawniczych.' oraz 'Program komunikacyjny, bez specjalizacji dziennikarskiej.'"
+ },
+ {
+  "city": "Groningen",
+  "program": "Psychology (BSc), ścieżka angielska",
+  "field": "languageProof",
+  "severity": "drobne",
+  "problem": "Wymaganie 'IELTS Academic 6,5 (min. 6,5 z mówienia i pisania)' dla psychologii nie ma pokrycia na stronie programu angielskiego (0 trafień IELTS na stronie /psychology-en/). Podsumowanie mówi, że psychologia to poziom 1 (IELTS 6,0), a program ma 6,5. Wewnętrzna sprzeczność.",
+  "evidence": "summary Znajomość angielskiego: 'IELTS Academic 6,0 (poziom 1, ekonomia, IB, psychologia)'; program: 'IELTS Academic 6,5'. Strona https://www.rug.nl/bachelors/psychology-en/?lang=en nie zawiera słowa IELTS.",
+  "proposedFix": "Sprawdzić stronę wymagań językowych GMW i ujednolicić summary z programem."
+ },
+ {
+  "city": "Groningen",
+  "program": null,
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Luki mówią 'pobranych źródłach', 'w pobranych stronach', 'nie została przeanalizowana' (żargon zbierania danych) i są długie.",
+  "evidence": "gaps[0], gaps[3], gaps[6], gaps[9]",
+  "proposedFix": "Przepisać: 'Strony uczelni nie podają X' zamiast 'w pobranych źródłach'."
+ },
+ {
+  "city": "Maastricht",
+  "program": null,
+  "field": "summary Polska matura",
+  "severity": "ważne",
+  "problem": "Twierdzenie, że lista UM na 2027/28 wymienia 'Poland, Świadectwo Dojrzałości Liceum Ogólnokształcącego', nie ma adresu w sources (sources jest puste) ani w programach. Cytowane strony programów i https://www.maastrichtuniversity.nl/admission-requirements nie zawierają słowa Poland ani Polish (kwestionariusz interaktywny). Status 'uznawana z warunkami' i 'uznawana' (European Law School) oparty jest na niecytowanym źródle.",
+  "evidence": "https://www.maastrichtuniversity.nl/education/bachelor/programmes/data-science-and-artificial-intelligence/admission-requirements: warunki dla dyplomów holenderskich i ogólnych, brak Polski w statycznym tekście.",
+  "proposedFix": "Dodać do sources adres interaktywnej listy UM z notką 'wybierz kraj Polska'; opisać, że ocena odbywa się po złożeniu wniosku."
+ },
+ {
+  "city": "Maastricht",
+  "program": null,
+  "field": "sources",
+  "severity": "ważne",
+  "problem": "Pole sources jest puste (wymóg z dodatku pkt 10: lista ogólnych źródeł). Strona 'free-selective-and-fixus-bachelors' potwierdza podział na bez selekcji, selektywne i fixus, więc mogłaby być cytowana.",
+  "evidence": "\"sources\": []; https://www.maastrichtuniversity.nl/study/admission-enrolment/applying-maastricht-university/free-selective-and-fixus-bachelors: \"The following bachelor's programmes have a fixus: Brain Science European Law School* Geneeskunde International Business Psychology\"",
+  "proposedFix": "Dodać sources: stronę podziału programów, stronę opłat UM, Studielink."
+ },
+ {
+  "city": "Maastricht",
+  "program": "European Law School (Bachelor)",
+  "field": "matura",
+  "severity": "drobne",
+  "problem": "Status 'uznawana' przy fixus z losowaniem, podczas gdy inne programy fixus (Psychology, Brain Science, IB, Geneeskunde) mają 'wymaga dodatkowego etapu'. Losowanie jest etapem selekcji, ale nie jest egzaminem, więc konsekwencja zależy od definicji. Dodatkowo selective=true przy 'uznawana' wygląda dla czytelnika na sprzeczność.",
+  "evidence": "Plik: matura 'uznawana', selective true, 'Numerus fixus z nieważonym losowaniem'.",
+  "proposedFix": "Opisać w notes: 'Wymagania spełnione, o miejscu decyduje losowanie' i zachować jedną zasadę dla wszystkich fixus."
+ },
+ {
+  "city": "Maastricht",
+  "program": "Economics and Business Economics (EBE)",
+  "field": "selective/requirements",
+  "severity": "drobne",
+  "problem": "Program ma selective=true i 'wymaga dodatkowego etapu' (esej), ale w requirements napisano 'selektywny (bez limitu miejsc)'. To zgodne ze źródłem (UM nazywa EBE selektywnym), ale czytelnik może pomylić z fixus. Termin 15 marca 2027 (ostateczny) potwierdzony.",
+  "evidence": "https://www.maastrichtuniversity.nl/study/admission-enrolment/applying-maastricht-university/free-selective-and-fixus-bachelors: 'The following bachelor's programmes are selective: Economics and Business Economics, Global Studies, Maastricht Science Programme, UCM, UVC'",
+  "proposedFix": "Dodać w notes zdanie: 'Bez limitu miejsc, ale trzeba zdać esej.'"
+ },
+ {
+  "city": "Maastricht",
+  "program": null,
+  "field": "academicYear",
+  "severity": "drobne",
+  "problem": "Pole academicYear to długie zdanie '2027/28 (warunki naboru opublikowane; opłaty podane także dla 2026/27)'. Zawiera żargon zbierania danych. Powtarza się w 11 programach.",
+  "evidence": "academicYear: '2027/28 (warunki naboru opublikowane; opłaty podane także dla 2026/27)'",
+  "proposedFix": "Skrócić do '2027/28' i przenieść informację o 2026/27 do czesnego."
+ },
+ {
+  "city": "Maastricht",
+  "program": "Computer Science, Data Science and AI, Business Analytics, EOR",
+  "field": "matura",
+  "severity": "drobne",
+  "problem": "Dla programów bez limitu status brzmi 'uznawana z warunkami', bo wymagana jest matematyka VWO B, ale plik sam mówi, że polska matura nie jest na liście przedmiotów dodatkowych i ocena jest indywidualna. To bliższe 'wymaga potwierdzenia przez uczelnię' wg słownika (źródło nie mówi nic o Polsce w kontekście przedmiotów).",
+  "evidence": "Plik: 'Polska matura nie jest wymieniona na liście przedmiotów dodatkowych UM; uczelnia ocenia ją indywidualnie'.",
+  "proposedFix": "Zmienić na 'wymaga potwierdzenia przez uczelnię' dla matematyki albo dodać zastrzeżenie o poziomie rozszerzonym."
+ },
+ {
+  "city": "Maastricht",
+  "program": null,
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Luki zawierają 'nie zbadano ich w tym przeglądzie', 'nie został tu przeanalizowany' (żargon zbierania danych). Pierwszy punkt luk zawiera informację ogólną, a nie lukę.",
+  "evidence": "gaps[0], gaps[4], gaps[5]",
+  "proposedFix": "Przepisać dla czytelnika; przenieść zdanie o rocznikach do overview."
+ }
+]

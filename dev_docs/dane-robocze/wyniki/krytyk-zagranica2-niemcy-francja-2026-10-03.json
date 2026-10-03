@@ -1,0 +1,353 @@
+[
+ {
+  "city": "Monachium",
+  "program": "LMU, wszystkie programy",
+  "field": "tuitionEu",
+  "severity": "ważne",
+  "problem": "Twierdzenie „0 EUR czesnego, od semestru zimowego 2013/14 nie pobiera się opłat studyjnych” jest przypisane do tuitionUrl, ale ta strona mówi wyłącznie o składce Studierendenwerk. Czesne 0 EUR nie ma dosłownego źródła pod podanym adresem.",
+  "evidence": "tuitionUrl lmu.de/.../studierendenwerksbeitraege/: „Sommersemester 2026: Grundbeitrag 97,00 €”; w tekście strony brak słów Studiengebühren, Studienbeiträge i roku 2013. Strona programu Psychologie też tego nie zawiera (https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/psychologie-bachelor-hauptfach-2991.html).",
+  "proposedFix": "Podać dosłowne źródło (np. strona LMU o opłatach lub statut) albo napisać, że strona uczelni opisuje tylko składkę 97 EUR, a brak czesnego dla obywateli UE wynika z przepisów Bawarii, do potwierdzenia."
+ },
+ {
+  "city": "Monachium",
+  "program": "LMU, programy z NC",
+  "field": "matura",
+  "severity": "ważne",
+  "problem": "Status „uznawana z warunkami” przy LMU nie ma pokrycia w słowniku: źródło nie mówi nic o Polsce ani o warunkach uznania, odsyła tylko do DAAD/anabin. Wg słownika właściwy jest „wymaga potwierdzenia przez uczelnię”. Rozbieżność z podsumowaniem, które samo przyznaje, że LMU nie opisuje procedury dla UE.",
+  "evidence": "summary „Polska matura”: „LMU nie opisuje uni-assist i rozstrzyga o dopuszczeniu we własnym International Office”; program: „LMU nie wymienia Polski wprost i odsyła do bazy DAAD lub anabin”; strona https://www.lmu.de/de/studium/internationale-vollzeit-studierende/studienbewerbung/ nie wymienia Polski.",
+  "proposedFix": "Zmienić na „wymaga potwierdzenia przez uczelnię” dla wszystkich programów LMU (Psychologie, Informatik, Statistik, Medizin, Recht, BWL, Kommunikationswissenschaft)."
+ },
+ {
+  "city": "Monachium",
+  "program": "TUM i Hochschule München",
+  "field": "matura",
+  "severity": "drobne",
+  "problem": "Status „uznawana z warunkami” dla TUM i HM opiera się na wymogu VPD z uni-assist. To warunek proceduralny, a TUM wprost nie wymienia Polski. Dla HM jest wzmianka o polskim świadectwie tylko w uni-assist, którego strony nie udało się pobrać (404), więc cytat o „Świadectwo dojrzałości” jest niezweryfikowany.",
+  "evidence": "Pobranie https://www.uni-assist.de/en/how-to-apply/fees/ i /documents/poland/ zwróciło 404; strona TUM uni-assist nie zawiera słów Poland ani Polish w treści; summary: „uni-assist wymienia polskie Świadectwo dojrzałości”.",
+  "proposedFix": "Dodać do sources dokładny adres uni-assist z listą dokumentów dla Polski albo usunąć twierdzenie o wymienieniu polskich dokumentów."
+ },
+ {
+  "city": "Monachium",
+  "program": null,
+  "field": "summary: Opłaty (uni-assist 75 EUR / 30 EUR)",
+  "severity": "ważne",
+  "problem": "Opłaty uni-assist 75 EUR za pierwszy kierunek i 30 EUR za kolejne nie mają źródła: na liście sources jest jedna pozycja (TUM, czesne spoza UE) z pustą notką, a stron uni-assist nie udało się potwierdzić.",
+  "evidence": "sources: [{\"url\":\"https://www.tum.de/en/studies/fees/tuition\",\"note\":\"\"}]; strona https://www.uni-assist.de/en/ nie zawiera kwot 75 ani 30 EUR.",
+  "proposedFix": "Dodać źródło z kwotami uni-assist (adres strony z opłatami) i uzupełnić notki w sources (wymóg dodatku, pkt 10)."
+ },
+ {
+  "city": "Monachium",
+  "program": "LMU, programy z NC",
+  "field": "requirements",
+  "severity": "ważne",
+  "problem": "Wartości NC (Psychologie 1,54; BWL 1,9; Recht 2,7; Kommunikation 2,1 i 3,4; Informatik 4,0) nie są na stronach programów wskazanych jako admissionUrl, które pokazują tylko „Örtliche Zulassungsbeschränkung” i odsyłają do podstrony z Grenzwerten. Liczby są prawdopodobnie z innej podstrony, bez podanego URL.",
+  "evidence": "admissionUrl BWL: „Zugangsdetails Auswahlkriterien bei örtlicher Zulassungsbeschränkung und Grenzwerte (\"NC\") aus früheren Semestern”, brak liczby 1,9 w tekście strony https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/betriebswirtschaftslehre-bachelor-hauptfach-2848.html.",
+  "proposedFix": "Podać adres podstrony z Grenzwerten przy każdej liczbie. Granica 4,0 dla Informatik oznacza praktycznie brak selekcji, więc selective:true wymaga zdania wyjaśnienia na stronie."
+ },
+ {
+  "city": "Monachium",
+  "program": "Informatik (LMU)",
+  "field": "selective",
+  "severity": "drobne",
+  "problem": "selective:true przy granicy NC 4,0 w WS 2025/26 (cały zakres ocen) i opisie „obejmowała wszystkich kandydatów”. Opis i flaga prowadzą do przeciwnych wniosków. Strona potwierdza formalny limit (Örtliche Zulassungsbeschränkung).",
+  "evidence": "„Granica w semestrze zimowym 2025/26 wyniosła 4,0, czyli praktycznie obejmowała wszystkich kandydatów”; strona: „Zulassungsmodus 1. Semester Örtliche Zulassungsbeschränkung”.",
+  "proposedFix": "Zostawić true (jest formalny limit), ale dodać do requirements zdanie: formalnie limit, w ostatnim naborze bez realnej selekcji."
+ },
+ {
+  "city": "Monachium",
+  "program": "TUM (Informatics, Architecture, Mechanical Engineering, Management and Technology, Information Engineering)",
+  "field": "requirements",
+  "severity": "drobne",
+  "problem": "Angielskie wtręty i żargon: „Aptitude assessment”, „aptitude assessment”, „Tuition nie dotyczy obywateli UE”. Nazwa procedury Eignungsfeststellungsverfahren jest podana tylko w jednym programie.",
+  "evidence": "Informatics: „Procedura Eignungsfeststellungsverfahren (aptitude assessment)”; notes: „Tuition nie dotyczy obywateli UE.”",
+  "proposedFix": "Zastąpić przez „procedura kwalifikacyjna (Eignungsfeststellungsverfahren)” i „Czesne nie dotyczy obywateli UE”."
+ },
+ {
+  "city": "Monachium",
+  "program": null,
+  "field": "summary / gaps",
+  "severity": "drobne",
+  "problem": "Żargon zbierania danych: „bazy niedostępne podczas zbierania danych”, „Nie udało się sprawdzić”, „Nie sprawdzono”, „nie udało się znaleźć”. Dodatek zakazuje takich fraz w tekście dla czytelnika.",
+  "evidence": "summary Polska matura: „(bazy niedostępne podczas zbierania danych)”; gaps: „Nie sprawdzono, jak LMU, TUM i HM przeliczają polskie oceny…”.",
+  "proposedFix": "Przeformułować na „Strony DAAD i anabin nie były publicznie dostępne. Sprawdź status świadectwa w DAAD lub u uczelni”."
+ },
+ {
+  "city": "Monachium",
+  "program": "Management and Technology (Monachium) i Information Engineering (Heilbronn)",
+  "field": "languages",
+  "severity": "ważne",
+  "problem": "Programy z angielskim w nazwie mają niemiecki jako wymóg częściowy (MT Monachium: certyfikaty niemieckie dla specjalizacji z modułami po niemiecku; IE Heilbronn: „wymagany certyfikat”). Poziom niemieckiego jest ucięty w polu languageProof i nastolatek może uznać, że angielski wystarcza. Dla MT Heilbronn tuitionNonEu to null bez wyjaśnienia w tym polu.",
+  "evidence": "Information Engineering: „Niemiecki: wymagany certyfikat, bo część modułów do wyboru jest po niemiecku; strona certyfikatów TUM dopuszcza … niższe poziomy (np. DSH-1, DSD I…” (zdanie urwane w eksporcie, do sprawdzenia w pliku).",
+  "proposedFix": "Wpisać wprost poziom niemieckiego (np. DSH-1, TestDaF 3x3) i oznaczyć w languages „angielski (wymagany też niemiecki)”."
+ },
+ {
+  "city": "Monachium",
+  "program": "Architecture (TUM)",
+  "field": "durationYears",
+  "severity": "drobne",
+  "problem": "Zgodne ze źródłem (8 semestrów, 240 ECTS), ale inne TUM i HM mają 6 semestrów; warto dodać w notes, że to 4 lata, bo uczniowie liczą 3 lata dla licencjatu. Brak błędu.",
+  "evidence": "tum.de architecture: „Standard Duration of Studies 8 semesters Credits 240 ECTS”.",
+  "proposedFix": "Bez zmiany, ewentualnie dodać notkę."
+ },
+ {
+  "city": "Monachium",
+  "program": "Hochschule München (Informatik, Maschinenbau, Bauingenieurwesen)",
+  "field": "deadline",
+  "severity": "drobne",
+  "problem": "Termin „2 maja do 15 lipca 2026” dla Informatik i Maschinenbau nie jest widoczny na stronach programów (Informatik: „Derzeit ist keine Bewerbung möglich”; Bau: „Eine Bewerbung ist bis zum 15.07. möglich”). Okno od 2 maja wynika z innego źródła bez URL. Potwierdzony jest tylko 15.07 i 15.06 dla architektury (portfolio od 02. Mai do 15. Juni).",
+  "evidence": "hm.edu Bau: „Das Studium beginnt jeweils zum Wintersemester. Eine Bewerbung ist bis zum 15.07. möglich.”; Architektur: „Bewerbungsfrist vom 02. Mai bis 15. Juni eines Jahres”.",
+  "proposedFix": "Dla Informatik i Maschinenbau podać tylko „do 15 lipca” albo dodać źródło z początkiem naboru."
+ },
+ {
+  "city": "Hamburg",
+  "program": "Universität Hamburg, wszystkie programy",
+  "field": "tuitionEu",
+  "severity": "ważne",
+  "problem": "Brak czesnego od WS 2012/13 jest przypisany do tuitionUrl (strona o semestralnej składce), która nie zawiera takiego zdania; opis „strona w języku niemieckim” wskazuje na inną stronę bez URL. Kwota 402 EUR i jej składniki są potwierdzone.",
+  "evidence": "https://www.uni-hamburg.de/en/campuscenter/studienorganisation/studienverlauf/beitraege-gebuehren/semesterbeitrag.html: „The semester contribution for the winter semester 2026/27 is €402”; brak słów tuition i 2012.",
+  "proposedFix": "Dodać adres niemieckiej strony UHH, na której jest informacja o braku czesnego."
+ },
+ {
+  "city": "Hamburg",
+  "program": "Universität Hamburg: Psychologie, Informatik, BWL, Recht, Medizin",
+  "field": "requirements / deadline",
+  "severity": "krytyczne",
+  "problem": "Dane o selekcji, limitach i terminach (90 procent ocena, 10 procent czas oczekiwania, 148 miejsc przy 5 030 wnioskach, test BaPsy 51/49 procent, nabór 1 czerwca do 15 lipca, certyfikaty DSH-2 i TestDaF) są przypisane do jednego ogólnego admissionUrl „studium-mit-abschluss”, który ich nie zawiera. Strona opisuje tylko grupy kandydatów i bezpłatne uznanie świadectwa. Czytelnik nie może sprawdzić żadnej z tych liczb pod linkiem.",
+  "evidence": "https://www.uni-hamburg.de/en/campuscenter/bewerbung/international/studium-mit-abschluss.html: w tekście brak „5030”, „BaPsy”, „90 %”, „DSH”, „TestDaF”, „June”, „July”; jest tylko „German equivalent status” i „recognized for free in the Universität Hamburg application portal”.",
+  "proposedFix": "Podać przy każdej liczbie właściwy adres (Merkblatt 11, strona terminów, strona programu) lub usunąć liczby bez źródła."
+ },
+ {
+  "city": "Hamburg",
+  "program": "Universität Hamburg: Psychologie",
+  "field": "languageProof",
+  "severity": "ważne",
+  "problem": "Sprzeczność wewnętrzna: summary mówi o „TestDaF 4x4 (jedna część 3)”, program o „TestDaF 15 punktów (trzy części 4, jedna 3)”, a w requirements o „dowodzie angielskiego B2” jako warunku. Nie wiadomo, czy angielski jest wymagany formalnie. Dodatkowo „DSH-2 lub DSH-3” w jednym zdaniu z DSH-2 jako minimum HCU.",
+  "evidence": "summary: „UHH DSH-2 lub TestDaF 4x4 (jedna część 3)”; program: „TestDaF z wynikiem łącznym 15 punktów (co najmniej trzy części na poziomie 4 i jedna na poziomie 3)”; requirements: „Dowód angielskiego B2 (profil studiów)”.",
+  "proposedFix": "Ujednolicić zapis TestDaF (15 punktów, trzy razy 4 i raz 3) i opisać angielski jako zalecenie albo warunek z cytatem."
+ },
+ {
+  "city": "Hamburg",
+  "program": "Universität Hamburg",
+  "field": "matura",
+  "severity": "ważne",
+  "problem": "Status „uznawana z warunkami” oparty na „German equivalent status” dla obywateli UE (potwierdzone), ale strona nie wymienia Polski ani nie opisuje uznania poszczególnych świadectw UE. Wg słownika „uznanie świadectwa” spełnia „z warunkami”, ale gaps przyznają, że sposób oceny polskiej matury nie jest znany. Ryzyko: czytelnik uzna, że matura jest bezwarunkowo wystarczająca.",
+  "evidence": "uhh: „Applicant group for international students with German equivalent status. This group includes all applicants who: 1. are citizens of another Member State of the European Union…”; „you need to have your foreign education certificates recognized”.",
+  "proposedFix": "W matura dopisać: „obywatele UE mają status równoważny kandydatom niemieckim; świadectwo wymaga uznania w portalu UHH, Polska nie jest wymieniona”."
+ },
+ {
+  "city": "Hamburg",
+  "program": "Bucerius Law School",
+  "field": "tuitionEu",
+  "severity": "krytyczne",
+  "problem": "Pole „Brak opłat w trakcie studiów” bez kwoty późniejszej płatności może wprowadzić w błąd: to uczelnia prywatna, a czesne jest tylko odroczone do wejścia w życie zawodowe. Kwota nie została podana, więc nastolatek może wyciągnąć wniosek, że studia są bezpłatne. Ryzyko jest tym większe, że Bucerius stoi obok darmowych uczelni publicznych.",
+  "evidence": "law-school.de/.../kosten-finanzierung-stipendien: „Deshalb fallen während des Studiums keine Studiengebühren an. Diese werden erst nach Eintritt in das Berufsleben fällig.”",
+  "proposedFix": "Zmienić na: „Brak płatności w trakcie studiów, ale czesne jest należne po rozpoczęciu pracy zawodowej (uczelnia prywatna). Kwota na stronie Umgekehrter Generationenvertrag”. Dodać kwotę ze strony uczelni."
+ },
+ {
+  "city": "Hamburg",
+  "program": "Bucerius Law School",
+  "field": "requirements / notes",
+  "severity": "drobne",
+  "problem": "Antyteza w notes: „Miejsca przyznawane po selekcji, nie według oceny z matury”. Dodatkowo pole matura „wymaga potwierdzenia przez uczelnię” jest zgodne z brakiem wzmianki o Polsce.",
+  "evidence": "notes: „Miejsca przyznawane po selekcji, nie według oceny z matury.”",
+  "proposedFix": "Przeformułować: „Miejsca przyznaje dwuetapowa selekcja (test pisemny i rozmowa); ocena z matury jest jednym z kryteriów”."
+ },
+ {
+  "city": "Hamburg",
+  "program": "Bucerius Law School",
+  "field": "deadline",
+  "severity": "ważne",
+  "problem": "Podane terminy dotyczą naboru 2026 (już zakończonego); oznaczone jako nabór 2026, a nabór 2027 „zaczyna się w grudniu”. Zgodnie z wymogiem terminy z rokiem są, ale pole nie zawiera ostrzeżenia, że wcześniejszy termin (1 marca) jest płatny niższą opłatą, a po 2026 jest nieaktualny. Terminy potwierdzone dosłownie.",
+  "evidence": "law-school.de/.../bewerbung-auswahl: „Early-Bird-Bewerbungsfrist (Gebühr 40 EUR) 1. März 2026 … Finale Bewerbungsfrist (Gebühr 80 EUR) 15. Mai 2026”.",
+  "proposedFix": "Dopisać na początku: „Terminy z naboru 2026 są nieaktualne; na 2027 jeszcze nieopublikowane”."
+ },
+ {
+  "city": "Hamburg",
+  "program": "HAW Hamburg: Maschinenbau (Mechanical Engineering)",
+  "field": "deadline",
+  "severity": "krytyczne",
+  "problem": "Nabór 1 października do 30 listopada (semestr letni) jest podany jako „1 października do 30 listopada (strona zmieniona 1 października 2026)”. Dziś 3 października 2026 nabór jest otwarty teraz i kończy się za 2 miesiące, co jest jedyną pilną datą w pliku, a nie jest wyróżniona. Termin nie występuje na wskazanym admissionUrl (ogólna strona HAW). Brak potwierdzenia dosłownego.",
+  "evidence": "https://www.haw-hamburg.de/en/international/international-students/applying-to-haw-hamburg/: w tekście brak „November”, „30 November”, „Mechanical Engineering” w kontekście terminu; jest tylko „NOTE: This point system does not apply to the Information Engineering B.Sc and Mechanical Engineering B.Sc.”.",
+  "proposedFix": "Podać adres strony programu z tym terminem i oznaczyć nabór jako aktualnie otwarty na semestr letni 2027 (start kwiecień 2027)."
+ },
+ {
+  "city": "Hamburg",
+  "program": "HAW Hamburg (wszystkie programy)",
+  "field": "languageProof / requirements",
+  "severity": "ważne",
+  "problem": "C1 z niemieckiego, NC „tylko dla kandydatów z UE” i zwolnienie z czesnego „We waive tuition for international students in most of our degree courses” są przypisane do ogólnej strony aplikacyjnej, która tych zdań nie zawiera (cytat o braku czesnego jest na stronie tuitionUrl: „Most degree courses at HAW Hamburg require students to pay a semester contribution but not tuition fees”). Brak czesnego nie jest potwierdzony dla każdego programu osobno („większość kierunków”).",
+  "evidence": "haw_fee: „Most degree courses at HAW Hamburg require students to pay a semester contribution but not tuition fees.”; haw_app: brak „waive”, „C1”, „deadline”.",
+  "proposedFix": "Zmienić tuitionEu na „większość kierunków bez czesnego; dla tego programu potwierdzić na stronie programu” albo podać stronę programu z informacją."
+ },
+ {
+  "city": "Hamburg",
+  "program": "TUHH i HCU",
+  "field": "tuitionEu",
+  "severity": "ważne",
+  "problem": "Niespójność z podsumowaniem: summary mówi, że uczelnie publiczne w Hamburgu nie pobierają czesnego, a pola TUHH i HCU mówią „czesne nie podano na odwiedzonych stronach”. Czytelnik dostaje dwie sprzeczne informacje. Dla HCU brak też kwoty opłaty semestralnej. Kwota 400 EUR dla TUHH potwierdzona, ale dla „studentów, którzy studiowali tam w poprzednim semestrze”; nowi dostają kwotę w portalu.",
+  "evidence": "summary: „Uczelnie publiczne w Hamburgu nie pobierają czesnego od studentów”; tuhh_fee: „The fee for the winter semester 2026/2027 is therefore € 400 in all, for students who have already studied at the TUHH in the last semester.”",
+  "proposedFix": "Usunąć uogólnienie z summary albo znaleźć dosłowne źródło braku czesnego dla TUHH i HCU. Sformułować: „opłata semestralna około 400 EUR”."
+ },
+ {
+  "city": "Hamburg",
+  "program": "TUHH Computer Science i Data Science",
+  "field": "languages",
+  "severity": "ważne",
+  "problem": "Programy oznaczone „niemiecki i angielski” z wymogiem niemieckiego B2.2 do aplikowania i TestDaF 16 do zapisu oraz angielskiego TOEFL 90. Dla nastolatka bez widocznego poziomu w nazwie programu to dwa certyfikaty naraz; strona TUHH „bachelor application” nie zawiera wymienionych poziomów (TestDaF, TOEFL), więc nie da się ich potwierdzić pod admissionUrl. Termin 1 czerwca do 15 lipca potwierdzony.",
+  "evidence": "https://www.tuhh.de/tuhh/en/studying/before-studying/application/bachelor: „For the winter semester starting in October, the application period is June 1 to July 15 of the same year.”; brak „TestDaF”, „TOEFL”, „IELTS”, „B2”.",
+  "proposedFix": "Dodać adres tabeli językowej TUHH i w notes zdanie: „wymagane oba języki: niemiecki B2.2 oraz angielski”."
+ },
+ {
+  "city": "Hamburg",
+  "program": "TUHH Engineering Science",
+  "field": "requirements",
+  "severity": "drobne",
+  "problem": "„Kryteria wyboru TUHH nie zostały odczytane w szczegółach” oraz „Nie ustalono, które specjalizacje…” to język zbierania danych; pole mechanik w careerIds może wprowadzić w błąd.",
+  "evidence": "requirements: „Kryteria wyboru TUHH nie zostały odczytane w szczegółach (do potwierdzenia na stronie uczelni).”; notes: „Nie ustalono, które specjalizacje odpowiadają zawodowi inżyniera mechanika”.",
+  "proposedFix": "Przeformułować: „Kryteria wyboru do potwierdzenia na stronie TUHH”; usunąć zdanie o ustalaniu specjalizacji."
+ },
+ {
+  "city": "Hamburg",
+  "program": null,
+  "field": "summary, gaps, wiele pól",
+  "severity": "drobne",
+  "problem": "Żargon zbierania danych powtarza się: „odwiedzone strony”, „Nie udało się sprawdzić”, „Nie znaleziono”, „Nie sprawdzono”, „nie zostały odczytane”. Antyteza: „decyduje przeliczona ocena świadectwa (NC), a nie punkty bonusowe”.",
+  "evidence": "summary Polska matura: „decyduje przeliczona ocena świadectwa (NC), a nie punkty bonusowe dla spoza UE… Żadna z odwiedzonych stron nie wymienia wprost polskiej matury.”",
+  "proposedFix": "Przeformułować na „Strony uczelni nie wymieniają polskiej matury” i usunąć konstrukcję „a nie”."
+ },
+ {
+  "city": "Hamburg",
+  "program": null,
+  "field": "sources",
+  "severity": "drobne",
+  "problem": "Wszystkie pozycje sources mają puste note (wymóg dodatku, pkt 10).",
+  "evidence": "sources: [{\"url\":\"…semesterbeitrag.html\",\"note\":\"\"}, …]",
+  "proposedFix": "Uzupełnić krótkie notki."
+ },
+ {
+  "city": "Lyon",
+  "program": "wszystkie programy uczelni publicznych",
+  "field": "tuitionEu",
+  "severity": "ważne",
+  "problem": "Czesne 178 EUR (licence) i 630 EUR (inżynier) jest dosłownie potwierdzone dla roku 2026/27, ale to opłata roku bieżącego, a kandydat z naboru Parcoursup 2027 zapłaci stawkę 2027/28. Brak ostrzeżenia, że kwota może się zmienić. CVEC 105 EUR potwierdzone na stronie IBMMAE, nie na stronie Campus France.",
+  "evidence": "https://www.campusfrance.org/en/tuition-fees-france: „tuition fees for the 2026–2027 academic year are: €178 per year for a Bachelor’s degree program; … €630 per year for an engineering degree program …”; INSA: „CVEC: Government annual mandatory contribution to student expenses: 105”.",
+  "proposedFix": "Dopisać: „stawka na rok 2026/27; na 2027/28 jeszcze nieogłoszona”."
+ },
+ {
+  "city": "Lyon",
+  "program": "wszystkie programy licence",
+  "field": "matura",
+  "severity": "ważne",
+  "problem": "Status „uznawana” opiera się na umowie polsko-francuskiej (potwierdzone: „le swiadectwo dojrzalosci … donnent le droit d’entreprendre les procédures d’admission aux études de licence”), ale to prawo do ubiegania się, a nie uznanie dla konkretnej oferty. Słownik dopuszcza „uznawana”, jeśli źródło wymienia polskie świadectwo, więc formalnie OK, lecz gaps słusznie ostrzega, że uczelnie nie deklarują nic o Polsce. W polu matura ostrzeżenie mieści się w nawiasie, ale ryzyko mylnego odczytania jest realne przy rankingu 11 419 wyborów na 1 205 miejsc.",
+  "evidence": "conv.pdf: „le swiadectwo dojrzalosci (« certificat de maturité »), délivré par la République de Pologne, donnent le droit d’entreprendre les procédures d’admission aux études de licence”.",
+  "proposedFix": "Zostawić „uznawana”, ale w pierwszym zdaniu pola dodać „prawo do ubiegania się, nie gwarancja miejsca”; rozważyć „uznawana z warunkami” dla ofert z selekcją (Business Management, ENSAL)."
+ },
+ {
+  "city": "Lyon",
+  "program": "wszystkie programy",
+  "field": "languages / languageProof",
+  "severity": "ważne",
+  "problem": "Programy po francusku mają język „francuski” bez poziomu w polu languages; poziom B2 jest ogólnym minimum z Euroguidance („maîtrise du français (niveau B2 ou plus)”) i „nie wskazano na stronie programu konkretnego certyfikatu”. Uczeń nie widzi w nagłówku programu, że potrzebuje francuskiego B2 jeszcze przed wnioskiem. INSA cursus ingénieur wymaga DALF C1 dla matury z zagranicy (potwierdzone), ale pole languages mówi tylko „francuski”.",
+  "evidence": "euroguidance: „L’accès à l’enseignement supérieur français est subordonné à la maîtrise du français (niveau B2 ou plus)”; insa bac: „il faut pouvoir justifier du DALF C1 en langue française avec un test officiel”.",
+  "proposedFix": "W languages wpisać „francuski (B2 minimum; INSA: DALF C1)”."
+ },
+ {
+  "city": "Lyon",
+  "program": "IBMMAE (INSA Lyon)",
+  "field": "deadline",
+  "severity": "ważne",
+  "problem": "Termin „31 maja 2027” nie występuje na stronie programu i jest opisany sprzecznie: „termin odbioru zgłoszeń według formularza IBMMAE na rok 2026/27, obejmującego nabór na rok akademicki 2027/28”. Dwa różne lata w jednym zdaniu. Strona nie podaje terminu w tekście, formularz PDF nie został pobrany.",
+  "evidence": "https://www.insa-lyon.fr/en/international-bachelor: „Please download the application form and send it by e-mail…”, w tekście brak „31 May”; jest „Application form 2026-2027”.",
+  "proposedFix": "Usunąć termin albo wpisać: „Termin wg formularza PDF, do potwierdzenia mailem ibeng@insa-lyon.fr”; ujednolicić rok."
+ },
+ {
+  "city": "Lyon",
+  "program": "IBMMAE (INSA Lyon)",
+  "field": "tuitionEu",
+  "severity": "drobne",
+  "problem": "Kwoty potwierdzone: 7 800 EUR rocznie, opłata aplikacyjna 96 EUR, bez zwolnień. Strona dla INSA grupy podaje opłatę aplikacyjną 105 EUR, IBMMAE 96 EUR; w pliku obie liczby są, ale warto oznaczyć, że dotyczą różnych ścieżek.",
+  "evidence": "ibm: „Application fee : 96 euros (non-refundable) Tuition fees: 7800 euros per year Tuition fees are the same for all students regardless of nationality.”; insa bac: „Droits de candidature : 105 Euros”.",
+  "proposedFix": "Bez zmiany, dopisać rozróżnienie."
+ },
+ {
+  "city": "Lyon",
+  "program": "BSc Data Science for Responsible Business (Centrale Lyon / emlyon)",
+  "field": "tuitionEu",
+  "severity": "krytyczne",
+  "problem": "Pole tuitionEu podaje 14 650 EUR jako czesne UE, ale tekst przyznaje, że strona nie rozstrzyga, czy dotyczy ono kandydatów z UE z Parcoursup. Kandydaci „francuscy” aplikują przez Parcoursup; kandydaci z UE według tekstu Euroguidance także. Możliwe, że kandydat z Polski zapłaci inną kwotę. Informacja jest podana jako pewna kwota przy niepewnym zakresie, więc może zniechęcić lub zmylić.",
+  "evidence": "ecl: „Tuition Fees: €14,650 per year.” w sekcji „International students”, a w części „French students: Apply through Parcoursup”.",
+  "proposedFix": "Zapisać: „14 650 EUR rocznie dla kandydatów rekrutowanych przez emlyon (ścieżka międzynarodowa); kwota dla naboru przez Parcoursup do potwierdzenia na stronie programu”."
+ },
+ {
+  "city": "Lyon",
+  "program": "BSc Data Science for Responsible Business",
+  "field": "matura",
+  "severity": "ważne",
+  "problem": "„uznawana z warunkami” przy braku wzmianki o Polsce; strona mówi „general high school diploma with a strong background in mathematics, or an equivalent foreign qualification”. Słownik: wymaga potwierdzenia przez uczelnię, bo źródło nie mówi o Polsce wprost. Ponadto pole podaje że „polskiej matury strona nie wymienia”, co potwierdza.",
+  "evidence": "ecl: „Hold a general high school diploma with a strong background in mathematics, or an equivalent foreign qualification.”",
+  "proposedFix": "Zmienić na „wymaga potwierdzenia przez uczelnię”."
+ },
+ {
+  "city": "Lyon",
+  "program": "INSA Lyon cursus ingénieur",
+  "field": "deadline",
+  "severity": "ważne",
+  "problem": "Terminy 22 kwietnia 2026 (dossier) i 4 maja 2026 (DALF C1) potwierdzone, ale dotyczą ścieżki „bac mathématiques délivré par un autre pays” i strona zapowiada aktualizację na listopad. Pole matura słusznie „wymaga potwierdzenia”, lecz summary podaje DALF C1 jako wymóg „od kandydatów z maturą matematyczną spoza Francji” sugerując, że dotyczy to Polaków; nie wiadomo, czy polska matura kwalifikuje się do tej ścieżki, a Parcoursup też jest możliwy (664 miejsca).",
+  "evidence": "insab: „Lundi 4 mai 2026 minuit : Date limite du chargement du DALF C1 en français”; summary: „Grupa INSA wymaga od kandydatów z maturą matematyczną spoza Francji certyfikatu DALF C1”.",
+  "proposedFix": "W summary dodać: „czy polska matura należy do tej ścieżki, trzeba potwierdzić u INSA”."
+ },
+ {
+  "city": "Lyon",
+  "program": "Lyon 1, Lyon 2, Lyon 3 (dane liczbowe Parcoursup)",
+  "field": "requirements",
+  "severity": "drobne",
+  "problem": "Podwójny prefiks w tekście: „Dane z Parcoursup za sesję 2025: Parcoursup 2025: ...”, „Parcoursup 2025 podaje cztery pozycje”. Dane za sesję 2025, choć mamy październik 2026 i dostępny jest nabór 2026. Liczby Parcoursup (315 miejsc, 11 419 wyborów) pochodzą z zestawu otwartych danych, którego nie sprawdzono dosłownie w tej recenzji (URL w sources ogólny).",
+  "evidence": "requirements: „Dane z Parcoursup za sesję 2025: Parcoursup 2025: 45 miejsc, 3 584 wybory, 44 przyjętych.”",
+  "proposedFix": "Usunąć powtórzenie i dopisać „sesja 2025 (ostatnie opublikowane dane)”."
+ },
+ {
+  "city": "Lyon",
+  "program": "Lyon 1 PCSI / MI",
+  "field": "notes",
+  "severity": "drobne",
+  "problem": "Strony programów Lyon 1 mają aktualizację z grudnia 2023 (gaps), co w polach programów nie jest widoczne. Strona MI nie podaje terminów („non précisée”).",
+  "evidence": "l1mi: „Date de dépot des candidatures : du non précisée au non précisée”.",
+  "proposedFix": "Dodać w notes ostrzeżenie o dacie aktualizacji katalogu."
+ },
+ {
+  "city": "Lyon",
+  "program": "PASS (Lyon 1)",
+  "field": "durationYears",
+  "severity": "drobne",
+  "problem": "durationYears null jest uczciwe, ale pole jest zaniżające: PASS to jeden rok, po nim selekcja; zawód lekarza to dłuższa droga niż wpisane „licence”. Zdanie o nieuznawaniu dyplomów medycznych „nie było przedmiotem tego zbierania” to żargon.",
+  "evidence": "notes: „uznanie dyplomu lekarza regulują osobne przepisy i nie było przedmiotem tego zbierania.”",
+  "proposedFix": "Zmienić na „uznanie dyplomu lekarza reguluje osobna procedura, do sprawdzenia przed decyzją”."
+ },
+ {
+  "city": "Lyon",
+  "program": "ENSAL (architektura)",
+  "field": "tuitionEu",
+  "severity": "ważne",
+  "problem": "Czesne 390 EUR dotyczy roku 2025/26, a plik jest dla naboru 2027/28; ostrzeżenie jest w tekście, ale pole tuitionNonEu null. Opłata aplikacyjna 39 EUR potwierdzona („Les frais de dossier de 39 euros ne sont pas remboursables”).",
+  "evidence": "ensal: „les droits d’inscription 2025-2026 s’élèvent à 390€/an en licence et 535€/an en master”.",
+  "proposedFix": "Zachować ostrzeżenie o roku 2025/26 i dopisać, że stawka na 2027/28 nie jest znana."
+ },
+ {
+  "city": "Lyon",
+  "program": "wszystkie",
+  "field": "summary / gaps",
+  "severity": "drobne",
+  "problem": "Żargon i kalki: „w sesji 2025” (kalka z fr. session), „nie było przedmiotem tego zbierania”, „Nie sprawdzono”, „Strona … nie jest publicznie dostępna z automatycznego pobierania”.",
+  "evidence": "gaps: „Strona Parcoursup … nie jest publicznie dostępna z automatycznego pobierania, więc nie sprawdzono dosłownie jej pytań i odpowiedzi”.",
+  "proposedFix": "Przeformułować na „Strona Parcoursup jest niedostępna publicznie, więc pytania i odpowiedzi dla kandydatów zagranicznych trzeba sprawdzić na parcoursup.gouv.fr”."
+ },
+ {
+  "city": "Lyon",
+  "program": null,
+  "field": "sources",
+  "severity": "drobne",
+  "problem": "Wszystkie notki w sources puste; w sources brak źródeł Parcoursup/Lyon 1–3 użytych w programach.",
+  "evidence": "sources: [{\"url\":\"…CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf\",\"note\":\"\"}, …]",
+  "proposedFix": "Uzupełnić notki."
+ }
+]
