@@ -35,6 +35,11 @@ const Quiz = (function () {
   const esc = s => ctx.escapeHtml(String(s ?? ''));
   const label = (list, id) => (list.find(([k]) => k === id) || [id, id])[1];
 
+  function plZawod(n) {
+    const m10 = n % 10, m100 = n % 100;
+    if (n === 1) return 'zawód';
+    return m10 >= 2 && m10 <= 4 && (m100 < 10 || m100 >= 20) ? 'zawody' : 'zawodów';
+  }
   function loadSaved() { try { return JSON.parse(sessionStorage.getItem('kr-quiz') || '{}'); } catch (e) { return {}; } }
   function save(a) { try { sessionStorage.setItem('kr-quiz', JSON.stringify(a)); } catch (e) { /* ignoruj */ } }
 
@@ -124,7 +129,7 @@ const Quiz = (function () {
           <fieldset class="szkoly__fieldset">
             <legend class="szkoly__legend">1. Co Cię ciekawi? Wybierz do ${MAX_INTERESTS}.</legend>
             ${chips('interests', INTERESTS, saved.interests, 'checkbox')}
-            <p class="kalk__err" id="quizMax" hidden>Wybrano już ${MAX_INTERESTS}. Odznacz coś, żeby dodać inne.</p>
+            <p class="kalk__err" id="quizMax" role="alert" hidden>Wybrano już ${MAX_INTERESTS}. Odznacz coś, żeby dodać inne.</p>
           </fieldset>
           <fieldset class="szkoly__fieldset">
             <legend class="szkoly__legend">2. Które przedmioty w szkole lubisz?</legend>
@@ -162,13 +167,13 @@ const Quiz = (function () {
     const syncJump = () => {
       const n = out.querySelectorAll('.quiz__result').length;
       jump.hidden = !n || resultsVisible;
-      if (n) jump.textContent = `Pasuje ${n} ${n === 1 ? 'zawód' : n < 5 ? 'zawody' : 'zawodów'} · Zobacz`;
+      if (n) jump.textContent = `Pasuje ${n} ${plZawod(n)} · Zobacz`;
     };
     if ('IntersectionObserver' in window) {
       new IntersectionObserver(([e]) => { resultsVisible = e.isIntersecting; syncJump(); }).observe(out);
     }
     jump.addEventListener('click', () => {
-      out.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      out.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
       const h = out.querySelector('h2');
       if (h) { h.setAttribute('tabindex', '-1'); h.focus({ preventScroll: true }); }
     });
@@ -185,7 +190,7 @@ const Quiz = (function () {
       out.innerHTML = resultsHtml(a);
       const names = [...out.querySelectorAll('.quiz__result .result-card__name')].map(x => x.textContent);
       // Czytnik ekranu słyszy krótkie podsumowanie, a nie całą listę po każdym kliknięciu
-      if (e) live.textContent = names.length ? `Pasuje ${names.length} zawodów, najwyżej: ${names[0]}.` : '';
+      if (e) live.textContent = names.length ? `Pasuje ${names.length} ${plZawod(names.length)}, najwyżej: ${names[0]}.` : '';
       syncJump();
     };
     form.addEventListener('change', update);

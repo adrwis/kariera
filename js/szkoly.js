@@ -659,11 +659,11 @@ const Szkoly = (function () {
       .filter(([, v]) => v && v.n)
       .sort((a, b) => b[1].n - a[1].n);
     const rows = ext.map(([code, v]) => `
-      <tr><td>${esc(subjectName(code))}</td><td>${esc(v.n)}</td><td>${v.mean != null ? fmtNum(v.mean) + '%' + compareMark(v.mean, cityMeans[code]) : '<span class="szkola__muted">brak*</span>'}</td><td>${cityMeans[code] != null ? fmtNum(cityMeans[code]) + '%' : ''}</td></tr>`).join('');
+      <tr><td>${esc(subjectName(code))}</td><td>${esc(v.n)}</td><td>${v.mean != null ? fmtNum(v.mean) + '%' + compareMark(v.mean, cityMeans[code], cityLoc) : '<span class="szkola__muted">brak*</span>'}</td><td>${cityMeans[code] != null ? fmtNum(cityMeans[code]) + '%' : ''}</td></tr>`).join('');
     const hidden = ext.some(([, v]) => v.mean == null);
     const n = m.examinees;
     return `
-      <p class="career-column__text">${m.passRate != null ? `Zdawalność: <strong>${fmtNum(m.passRate)}%</strong>` : 'CKE nie podaje zdawalności (za mało zdających)'}${n ? `, zdawało ${esc(n)} ${plural(n, 'osoba', 'osoby', 'osób')}` : ''}. ${sourceLink(m.sourceUrl, 'dane CKE')}</p>
+      <p class="career-column__text">${m.passRate != null ? `Zdawalność matury${m.year ? ` w ${esc(m.year)} roku` : ''}: <strong>${fmtNum(m.passRate)}%</strong>${n && m.certificates != null ? ` (zdało ${esc(m.certificates)} z ${esc(n)} ${plural(n, 'osoby', 'osób', 'osób')})` : ''}` : 'CKE nie podaje zdawalności (za mało zdających)'}${m.passRate == null && n ? `, zdawało ${esc(n)} ${plural(n, 'osoba', 'osoby', 'osób')}` : ''}. ${sourceLink(m.sourceUrl, 'dane CKE')}</p>
       ${rows ? `
       <div class="szkola__table-wrap">
         <table class="school-popup__thresholds szkola__matura">
@@ -676,11 +676,11 @@ const Szkoly = (function () {
   }
 
   // ▲ albo ▼, gdy średnia szkoły różni się od średniej miasta o co najmniej 3 punkty procentowe
-  function compareMark(mean, city) {
+  function compareMark(mean, city, loc) {
     if (city == null || Math.abs(mean - city) < 3) return '';
     return mean > city
-      ? ' <span class="szkola__up" aria-hidden="true">▲</span><span class="sr-only">, powyżej średniej miasta</span>'
-      : ' <span class="szkola__down" aria-hidden="true">▼</span><span class="sr-only">, poniżej średniej miasta</span>';
+      ? ' <span class="szkola__up" aria-hidden="true">▲</span><span class="sr-only">, powyżej średniej ${esc(loc)}</span>'
+      : ' <span class="szkola__down" aria-hidden="true">▼</span><span class="sr-only">, poniżej średniej ${esc(loc)}</span>';
   }
 
   function relatedCareersHtml(s) {
@@ -702,6 +702,14 @@ const Szkoly = (function () {
       intro = '<p class="career-column__text szkola__muted">Zawody, na które uczelnie wymagają konkretnej matury rozszerzonej, a ta szkoła ma klasę z takimi przedmiotami. Na pozostałe kierunki przyjmują absolwentów każdego liceum.</p>';
     }
     if (!careers.length) return '';
+    // Specjalizacje lekarskie to ta sama droga co medycyna, więc nie wyglądają jak osobne kierunki
+    const SPECIALTIES = ['psychiatra', 'pediatra', 'chirurg', 'kardiolog'];
+    const hasDoctor = careers.some(c => c.id === 'lekarz');
+    const hidden = hasDoctor ? careers.filter(c => SPECIALTIES.includes(c.id)) : [];
+    if (hidden.length) {
+      careers = careers.filter(c => !hidden.includes(c));
+      intro += `<p class="career-column__text szkola__muted">Po medycynie możliwe są specjalizacje: ${hidden.map(c => esc(c.name.toLowerCase())).join(', ')}.</p>`;
+    }
     return `
       <section class="szkola__section">
         <h2 class="career-column__title">Dokąd prowadzi ta szkoła</h2>

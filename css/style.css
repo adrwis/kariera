@@ -33,7 +33,7 @@
   --kr-footer-bg: #1a1a2e;
   --kr-footer-text: #a0a0c0;
   --kr-demand-deficit: #c62828;
-  --kr-demand-balanced: #2e7d32;
+  --kr-demand-balanced: #2a7430;
   --kr-demand-surplus: #bf5b00;
   /* Glass */
   --kr-glass-bg: rgba(255, 255, 255, 0.55);
@@ -2613,6 +2613,7 @@ main {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+  html { scroll-behavior: auto; }
   #constellation { display: none; }
   .landing__typing::after { animation: none; }
 }
@@ -2809,7 +2810,7 @@ main {
   .school-popup__link { min-height: 44px; display: inline-flex; align-items: center; }
   .training-popup__provider-link { min-height: 44px; display: inline-flex; align-items: center; padding: 0.4rem 0; }
   .career-fallback__link { min-height: 44px; display: inline-flex; align-items: center; }
-  .footer a { display: inline-block; padding: 0.5rem 0.25rem; min-height: 44px; line-height: 2; }
+  .footer a { padding: 0.5rem 0.1rem; line-height: 2; }
 
   /* L3: Salary slider thumbs bigger on mobile */
   .filters__range::-webkit-slider-thumb { width: 28px; height: 28px; }
@@ -3157,3 +3158,4 @@ p.school-popup__caption { margin: 0.25rem 0 0.4rem; }
   .kalk__side { display: block; min-width: 0; }
   .kalk__total { position: sticky; top: 0.75rem; bottom: auto; margin-top: 1.25rem; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08); }
 }
+.career-hero__note a { color: var(--kr-secondary); }

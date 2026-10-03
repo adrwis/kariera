@@ -215,6 +215,8 @@ const CareerSearch = (() => {
         if (!c.salary) return false;
         const min = salaryMin || 0;
         const max = salaryMax || Infinity;
+        // Przy płacach z GUS decyduje mediana, a dla starszych danych zakres min-max
+        if (c.salary.median != null) return c.salary.median >= min && c.salary.median <= max;
         return c.salary.max >= min && c.salary.min <= max;
       });
     }

@@ -323,7 +323,7 @@
     } else if (e.key === 'Enter' && acIndex >= 0) {
       e.preventDefault();
       items[acIndex].click();
-    } else if (e.key === 'Escape') {
+    } else if (e.key === 'Escape' || e.key === 'Tab') {
       closeAutocomplete();
     }
   });
@@ -381,6 +381,21 @@
   });
 
   // --- Polish declension helper ---
+  // Kwoty zawsze w jednym zapisie: „8 767 zł” (twarda spacja w tysiącach)
+  const fmtZl = n => `${String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, '\u00A0')}\u00A0zł`;
+  function salaryCardText(s) {
+    if (!s) return '';
+    return `mediana ${fmtZl(s.median || s.max)}${s.scope === 'grupa' ? ' (grupa zawodów)' : ''}`;
+  }
+  // Opis płacy na profilu zawodu: skąd liczba, kogo dotyczy i czego nie obejmuje
+  function salaryNoteHtml(c) {
+    if (!c.salary) return c.salaryNote ? `<p class="career-hero__note">${escapeHtml(c.salaryNote)}</p>` : '';
+    const s = c.salary;
+    const src = isHttpUrl(s.sourceUrl) ? ` <a href="${escapeAttr(s.sourceUrl)}" target="_blank" rel="noopener" title="${escapeAttr(s.sourceName || '')}">Źródło: GUS</a>` : '';
+    const group = s.scope === 'grupa' ? ` Liczba dotyczy całej grupy zawodów „${escapeHtml(s.group)}”, więc obejmuje też pokrewne zawody.` : '';
+    return `<p class="career-hero__note">GUS, październik 2024: połowa pracowników zarabia mniej niż ${fmtZl(s.median)} brutto miesięcznie, a 80% od ${fmtZl(s.min)} do ${fmtZl(s.max)}.${group} Tylko etaty w firmach od 10 osób.${src}</p>`;
+  }
+
   function pluralZawod(n) {
     if (n === 1) return 'zawód';
     const mod10 = n % 10;
@@ -561,10 +576,10 @@
     }
 
     if (sort === 'salary') {
-      // Rich cards sorted by salary.max desc, simple cards always at the bottom
+      // Rich cards sorted by median salary desc (zawody bez danych na końcu), simple cards always at the bottom
       const sortedRich = [...results.rich].sort((a, b) => {
-        const aMax = a.salary ? a.salary.max : 0;
-        const bMax = b.salary ? b.salary.max : 0;
+        const aMax = a.salary ? (a.salary.median || a.salary.max) : 0;
+        const bMax = b.salary ? (b.salary.median || b.salary.max) : 0;
         return bMax - aMax;
       });
       return { rich: sortedRich, simple: results.simple };
@@ -598,9 +613,7 @@
     a.href = `${BASE}/zawod/${career.id}`;
     a.className = 'result-card';
 
-    const salaryText = career.salary
-      ? `${career.salary.min.toLocaleString('pl-PL')} do ${career.salary.max.toLocaleString('pl-PL')} PLN`
-      : '';
+    const salaryText = salaryCardText(career.salary);
 
     const demandClass = career.demand ? `result-card__badge--demand-${career.demand}` : '';
 
@@ -722,9 +735,7 @@
   function renderRichDetail(c) {
     currentCareerData = c;
 
-    const salaryText = c.salary
-      ? `${c.salary.min.toLocaleString('pl-PL')} do ${c.salary.max.toLocaleString('pl-PL')} PLN brutto/mies.`
-      : '';
+    const salaryText = c.salary ? `mediana ${fmtZl(c.salary.median || c.salary.max)} brutto/mies.` : '';
 
     const demandClass = c.demand ? `result-card__badge--demand-${c.demand}` : '';
     const demandTitle = c.demand ? ` title="${escapeAttr(DEMAND_LABELS[c.demand] || c.demand)}"` : '';
@@ -952,7 +963,7 @@
           ${salaryText ? `<span class="result-card__badge result-card__badge--salary">${salaryText}</span>` : ''}
           ${c.demand ? `<span class="result-card__badge ${demandClass}"${demandTitle}>${escapeHtml(DEMAND_SHORT[c.demand] || c.demand)}</span>` : ''}
         </div>
-        ${salaryText ? '<p class="career-hero__note">Widełki są orientacyjne: zależą od regionu, stażu i pracodawcy, a źródła płac nie mają podanej daty.</p>' : ''}
+        ${salaryNoteHtml(c)}
         ${c.fullDescription ? `<p class="career-hero__desc">${escapeHtml(c.fullDescription)}</p>` : (c.shortDescription ? `<p class="career-hero__desc">${escapeHtml(c.shortDescription)}</p>` : '')}
       </div>
 
@@ -1740,7 +1751,7 @@
       e.preventDefault();
       items[schoolAcIndex].click();
       schoolAcIndex = -1;
-    } else if (e.key === 'Escape') {
+    } else if (e.key === 'Escape' || e.key === 'Tab') {
       schoolDropdown.hidden = true;
       schoolAcIndex = -1;
     }
@@ -1877,7 +1888,7 @@
   });
 
   scrollTopBtn.addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
   });
 
   // --- Intercept internal link clicks for pushState ---

@@ -265,8 +265,8 @@
               <div class="filters__group">
                 <label class="filters__label" for="schoolFilter">Uczelnia</label>
                 <div class="filters__school-wrapper">
-                  <input type="text" id="schoolFilter" class="filters__input" placeholder="Wpisz nazwę uczelni..." autocomplete="off" autocapitalize="off" autocorrect="off" aria-autocomplete="list" aria-controls="schoolDropdown">
-                  <ul id="schoolDropdown" class="filters__dropdown" role="listbox" hidden></ul>
+                  <input type="text" role="combobox" id="schoolFilter" class="filters__input" placeholder="Wpisz nazwę uczelni..." autocomplete="off" autocapitalize="off" autocorrect="off" aria-autocomplete="list" aria-controls="schoolDropdown" aria-expanded="false" aria-label="Uczelnia">
+                  <ul id="schoolDropdown" class="filters__dropdown" role="listbox" aria-label="Podpowiedzi uczelni" hidden></ul>
                 </div>
                 <div class="filters__school-selected" id="schoolSelected"></div>
               </div>
