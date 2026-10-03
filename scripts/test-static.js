@@ -55,7 +55,7 @@ check(`CI kopiuje każdy katalog ze stronami statycznymi (${staticDirs.join(', '
 
 console.log('\n=== Studia za granicą ===');
 const zIndex = JSON.parse(read('data/zagranica/index.json')).cities;
-check(`lista miast: ${zIndex.length} (26 stolic UE bez Warszawy i Londyn)`, zIndex.length === 27 && zIndex.some(c => c.slug === 'londyn'));
+check(`lista miast: ${zIndex.length} (27 stolic i Londyn plus inne miasta akademickie)`, zIndex.length >= 27 && zIndex.some(c => c.slug === 'londyn') && zIndex.filter(c => c.capital !== false).length === 27);
 const zBad = [];
 let zPrograms = 0;
 for (const c of zIndex.filter(c => c.status === 'dostępne')) {

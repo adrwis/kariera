@@ -1,0 +1,844 @@
+{
+  "city": "Rotterdam",
+  "country": "Holandia",
+  "retrieved": "2026-10-03",
+  "overview": {
+    "polishMatura": "Holandia nie stosuje punktów za maturę. Lista dyplomów Erasmus University Rotterdam na rok 2027/28 wymienia wprost polskie Świadectwo Dojrzałości razem ze Świadectwem Ukończenia Liceum Ogólnokształcącego, a Erasmus School of Economics przyjmuje tylko liceum ogólnokształcące i wymaga matematyki rozszerzonej (min. 70 procent) albo egzaminu uzupełniającego z matematyki. TU Delft wymienia polską maturę z matematyką (i zależnie od kierunku fizyką) na poziomie rozszerzonym, min. 30 procent z każdego przedmiotu. Hogeschool Rotterdam i medycyna Erasmus MC nie wymieniają Polski, więc status trzeba tam potwierdzić w uczelni.",
+    "tuition": "Obywatele UE/EOG płacą ustawowe czesne: 2 694 EUR rocznie w 2026/27 (EUR, StudyinNL) i 2 771 EUR rocznie w 2027/28 (podają to RSM i Hogeschool Rotterdam). Opłata aplikacyjna to 100 EUR przy dyplomie spoza Holandii (EUR). Osoby, które mają już dyplom licencjacki z Holandii, płacą wyższą opłatę instytucjonalną, np. 8 300 EUR w 2026/27 na większości programów EUR i 28 300 EUR na medycynie. Spoza UE: 13 500 EUR (większość wydziałów EUR), 14 000 EUR (RSM), 32 200 EUR (medycyna) w 2026/27.",
+    "tuitionSource": "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027",
+    "generalDeadlines": "Studielink otwiera się 1 października. Kierunki z numerus fixus (psychologia, IBEB, IBA, medycyna, TU Delft: informatyka i architektura): zgłoszenie do 15 stycznia 2027, numery rankingowe 15 kwietnia 2027. Econometrics: 1 maja 2027, IBCoM: 15 marca 2027. Programy bez limitu na EUR i Hogeschool Rotterdam: 1 maja (strony nie podają roku), TU Delft: 1 kwietnia.",
+    "equalAccess": "Nie badano osobno zasady równego dostępu. Dla medycyny EUR nie podaje wymogu polskiego egzaminu wstępnego, wymaga natomiast własnej selekcji dla wszystkich kandydatów i znajomości niderlandzkiego.",
+    "englishProof": "Programy po angielsku wymagają certyfikatu: IELTS 6,0 na ekonomii i econometrics, 6,5 na IBA i informatyce w Delft, 7,0 na psychologii i komunikacji (IBCoM). Programy po niderlandzku (prawo, medycyna, Hogeschool Rotterdam, architektura, budownictwo i mechanika w Delft) wymagają niderlandzkiego na poziomie B2 lub VWO, a medycyna NT2-II dla niektórych dyplomów.",
+    "sources": [
+      {
+        "url": "https://www.eur.nl/en/education/bachelor/overview",
+        "note": "Wykaz 28 programów licencjackich EUR, język i czas trwania"
+      },
+      {
+        "url": "https://www.eur.nl/en/education/practical-matters/admission/bachelor-admission-and-application/diploma-overview",
+        "note": "Lista dyplomów EUR na 2027/28, wymienia polskie świadectwa"
+      },
+      {
+        "url": "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027",
+        "note": "Czesne EUR 2026/27, ustawowe i instytucjonalne"
+      },
+      {
+        "url": "https://www.studyinnl.org/finances/tuition-fees",
+        "note": "Opłata ustawowa 2026/27 (2 694 EUR), oficjalny portal informacyjny"
+      },
+      {
+        "url": "https://www.rsm.nl/bachelor/international-business-administration/",
+        "note": "RSM: opłata ustawowa 2027/28 (2 771 EUR) i opłata instytucjonalna ok. 15 200 EUR"
+      },
+      {
+        "url": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/informatica/voltijd/studiekosten/",
+        "note": "Hogeschool Rotterdam: opłata ustawowa 2027/28 (2 771 EUR)"
+      },
+      {
+        "url": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/admission-requirements/country-specific-requirements",
+        "note": "TU Delft: wymagania dla polskiej matury"
+      }
+    ]
+  },
+  "universities": [
+    {
+      "name": "Erasmus University Rotterdam (EUR)",
+      "url": "https://www.eur.nl",
+      "type": "uniwersytet",
+      "programs": [
+        {
+          "name": "International Bachelor in Psychology",
+          "nameEn": "International Bachelor in Psychology (BSc)",
+          "careerIds": [
+            "psycholog"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "angielski (ścieżka międzynarodowa)",
+            "niderlandzki (osobna ścieżka Psychologie)"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27). Na 2027/28 opłata ustawowa wynosi 2 771 EUR rocznie (podaje to RSM i Hogeschool Rotterdam); strona EUR z opłatami podaje na razie tylko rok 2026/27.",
+            "nonEu": "13 500 EUR rocznie dla osób spoza UE/EOG w 2026/27 (opłata instytucjonalna; na 2027/28 EUR jeszcze jej nie opublikowała). Osoby z UE, które mają już dyplom licencjacki z Holandii, płacą 8 300 EUR rocznie.",
+            "sourceUrl": "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027",
+            "quote": "EUR: \"The statutory tuition fee for 2026-2027 is € 2.694,-\" (warunki: obywatelstwo EOG, Szwajcarii lub Surinamu oraz brak wcześniejszego równoważnego dyplomu w Holandii). RSM: \"statutory fee of € 2,771 per year for 2027-2028\".",
+            "academicYear": "2026/27 (opłata ustawowa 2027/28: 2 771 EUR)",
+            "sources": [
+              "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027",
+              "https://www.rsm.nl/bachelor/international-business-administration/"
+            ]
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Numerus fixus: łącznie 600 miejsc w 2027/28, w tym 120 w ścieżce angielskiej (480 w niderlandzkiej). Wymagany dyplom równoważny VWO (na liście EUR wymieniono polskie Świadectwo Dojrzałości razem ze Świadectwem Ukończenia Liceum Ogólnokształcącego). Strona programu nie podaje wymaganych przedmiotów maturalnych. Selekcja: internetowy test wiedzy z materiałów przesłanych 2 lutego oraz pytania o motywację i sposób uczenia się. Ranking powstaje z wyniku selekcji i średniej ocen, osobny dla ścieżki angielskiej. Wyniki 15 kwietnia. Można brać udział w selekcji maksymalnie trzy razy.",
+            "languageProof": "Angielski: IELTS Academic 7,0 (min. 6,0 w każdej części, bez IELTS Online), TOEFL iBT 5,0 w nowej skali (95 w starej), Cambridge C1 Advanced 180, LanguageCert 70, PTE Academic 70. Wynik nie starszy niż dwa lata. Matura z angielskiego nie jest na liście zwolnień od testu.",
+            "selective": true,
+            "studyPlaces": "120 miejsc w ścieżce angielskiej, 600 łącznie z niderlandzką (2027/28)",
+            "sourceUrl": "https://www.eur.nl/en/bachelor/international-bachelor-psychology/admission",
+            "quote": "EUR: \"For 2027-2028 the maximum total intake is 600 students, divided over the Dutch-language track Psychologie (480 places) and the English-language track International Bachelor in Psychology (120 places).\" IELTS: \"7.0, sub-scores 6.0\". Lista dyplomów: \"Poland: Świadectwo Dojrzałości plus Świadectwo Ukończenia Liceum Ogólnokształcącego\".",
+            "matura_note": "Lista dyplomów EUR na rok 2027/28 wymienia polskie świadectwa wprost. Czy matura spełnia wymagania programu, uczelnia ocenia po złożeniu kompletu dokumentów i nie potwierdza tego mailowo.",
+            "matura_source": "https://www.eur.nl/en/education/practical-matters/admission/bachelor-admission-and-application/diploma-overview"
+          },
+          "deadline": "Studielink od 1 października 2026 do 15 stycznia 2027 (godz. 23:59 CET), w tym komplet dokumentów w portalu EUR. Materiały do testu selekcyjnego dostępne od 2 lutego 2027, ranking od 15 kwietnia 2027. Oferty można dostać do 15 sierpnia. Opłata aplikacyjna 100 EUR dla dyplomów spoza Holandii.",
+          "applyUrl": "https://www.eur.nl/en/bachelor/international-bachelor-psychology/application",
+          "sourceUrl": "https://www.eur.nl/en/bachelor/international-bachelor-psychology",
+          "notes": "Program prowadzi Erasmus School of Social and Behavioural Sciences. Strona programu podaje 180 ECTS i 3 lata. Studia licencjackie są pierwszym etapem; do pracy jako psycholog kliniczny potrzebny jest zwykle dalszy magister.",
+          "sources": [
+            "https://www.eur.nl/en/bachelor/international-bachelor-psychology/admission",
+            "https://www.eur.nl/en/bachelor/international-bachelor-psychology/application",
+            "https://www.eur.nl/en/education/practical-matters/admission/bachelor-admission-and-application/diploma-overview"
+          ]
+        },
+        {
+          "name": "International Bachelor Economics and Business Economics (IBEB)",
+          "nameEn": "International Bachelor Economics and Business Economics (BSc)",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27). Na 2027/28 opłata ustawowa wynosi 2 771 EUR rocznie (podaje to RSM i Hogeschool Rotterdam); strona EUR z opłatami podaje na razie tylko rok 2026/27.",
+            "nonEu": "13 500 EUR rocznie dla osób spoza UE/EOG w 2026/27 (opłata instytucjonalna; na 2027/28 EUR jeszcze jej nie opublikowała). Osoby z UE, które mają już dyplom licencjacki z Holandii, płacą 8 300 EUR rocznie.",
+            "sourceUrl": "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027",
+            "quote": "EUR: \"The statutory tuition fee for 2026-2027 is € 2.694,-\" (warunki: obywatelstwo EOG, Szwajcarii lub Surinamu oraz brak wcześniejszego równoważnego dyplomu w Holandii). RSM: \"statutory fee of € 2,771 per year for 2027-2028\".",
+            "academicYear": "2026/27 (opłata ustawowa 2027/28: 2 771 EUR)",
+            "sources": [
+              "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027",
+              "https://www.rsm.nl/bachelor/international-business-administration/"
+            ]
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Numerus fixus: 500 miejsc w 2027/28. Dla Polski uczelnia wymienia wprost Świadectwo ukończenia liceum ogólnokształcącego wraz ze Świadectwem Dojrzałości, przy czym tylko liceum ogólnokształcące. Matematyka na poziomie rozszerzonym z oceną co najmniej 4 w skali 1 do 6 (a po maturze minimum 70 procent z egzaminu rozszerzonego). Uczelnia ocenia faktyczny dyplom, a homologacja lub uznanie świadectwa nie wystarczy. Wszyscy spełniający wymagania biorą udział w selekcji: internetowa aktywność oparta na programie nauczania (Canvas). Rangi 1 do 250 dostają osoby z najlepszymi ocenami, które zaliczyły aktywność, pozostałe losowanie ważone. Wyniki 15 kwietnia.",
+            "languageProof": "Angielski: dla polskiej matury obowiązkowy certyfikat. Akceptowane: IELTS Academic 6,0 (ogółem), TOEFL iBT 4,5 w nowej skali, Cambridge B2 First 170, C1 Advanced 170, LanguageCert 65, PTE Academic 61. Wynik nie starszy niż dwa lata, dostarczony przed 15 stycznia. Gdy matematyka nie spełnia wymagań, zamiast niej test OMPT-A (min. 70 procent) lub OMPT-B (min. 60 procent).",
+            "selective": true,
+            "studyPlaces": "500 miejsc (2027/28)",
+            "sourceUrl": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "quote": "ESE: \"Poland: Świadectwo ukończenia liceum ogólnokształcącego + Dojrzalosci Liceum Ogolnoksztalcacego. Only diplomas obtained at a general Lyceum are accepted. Mandatory to pass English language test. Mathematics studied at advanced/extended level with a minimum grade of 4/6 or 70%/100%\". Aplikacja: \"Numerus-fixus: only a limited number of students are admitted, 500 for 2027-2028.\"",
+            "matura_note": "Polska matura jest wymieniona wprost, ale z warunkiem matematyki rozszerzonej i obowiązkowego testu z angielskiego.",
+            "matura_source": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission"
+          },
+          "deadline": "Studielink od 1 października 2026 do 15 stycznia 2027 (godz. 23:59 CET) oraz komplet dokumentów w portalu EUR w tym samym terminie. Informacja o niespełnieniu wymagań do 6 lutego 2027, numery rankingowe 15 kwietnia 2027. Opłata aplikacyjna 100 EUR.",
+          "applyUrl": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/application",
+          "sourceUrl": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics",
+          "notes": "Program prowadzi Erasmus School of Economics. Wersja niderlandzka (Economie en Bedrijfseconomie) ma osobną stronę. Na stronie aplikacji opis procedury zawiera drobne niespójności dat z poprzedniego cyklu, dlatego terminy warto potwierdzić na stronie uczelni.",
+          "sources": [
+            "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+            "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/application"
+          ]
+        },
+        {
+          "name": "Bachelor International Business Administration (IBA)",
+          "nameEn": "BSc International Business Administration (RSM)",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 771 EUR rocznie (opłata ustawowa 2027/28, według RSM). W 2026/27 opłata ustawowa to 2 694 EUR.",
+            "nonEu": "Około 15 200 EUR rocznie w 2027/28 (według RSM, kwota przybliżona). W 2026/27 EUR podaje 14 000 EUR dla RSM. Osoby z UE z wcześniejszym dyplomem z Holandii płacą w 2026/27 8 300 EUR.",
+            "sourceUrl": "https://www.rsm.nl/bachelor/international-business-administration/",
+            "quote": "RSM: \"The 2027-2028 tuition fee for the BSc in International Business Administration programme is approximately € 15,200 ... These students therefore pay only the statutory fee of € 2,771 per year for 2027-2028.\"",
+            "academicYear": "2027/28",
+            "sources": [
+              "https://www.rsm.nl/bachelor/international-business-administration/",
+              "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027"
+            ]
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Numerus fixus: przyjmowanych jest 650 osób. Ranking: 75 procent to oceny (dla uczniów w ostatniej klasie liczą się oceny z przedostatniego roku), 25 procent to motywacja (dwa krótkie pytania w formularzu OLAF). Wymagany dyplom dający dostęp do uniwersytetu i równoważny VWO; polskie Świadectwo Dojrzałości razem ze Świadectwem Ukończenia LO jest na ogólnej liście EUR. Strona RSM nie pokazuje wymagań dla Polski w swojej liście, więc wymagania z matematyki i angielskiego dla polskiej matury należy potwierdzić na stronie RSM. Niespełnienie minimów z matematyki i angielskiego obniża pozycję w rankingu, a zależnie od dyplomu może być potrzebny test zamiast ocen.",
+            "languageProof": "Angielski: IELTS Academic 6,5 (min. 6,0 w każdej części), TOEFL iBT 80 w starej skali (18 do 21 w częściach). Wyniki do 15 marca. Zwolnienie od testu dotyczy m.in. dyplomów z angielskojęzycznych szkół w USA, Wielkiej Brytanii, Kanadzie, Irlandii, Australii, Nowej Zelandii i RPA.",
+            "selective": true,
+            "studyPlaces": "650 miejsc",
+            "sourceUrl": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/",
+            "quote": "RSM: \"IBA is a Numerus Fixus programme ... Only 650 students are admitted for the September intake.\" \"Grades count for 75% of your final ranking.\" \"Motivation ... 25%\". IELTS: \"minimum overall score of 6.5 and minimum sub-scores of 6.0\".",
+            "matura_note": "Na stronie RSM widać tylko część listy dyplomów, Polski tam nie ma. Lista ogólna EUR wymienia polską maturę.",
+            "matura_source": "https://www.eur.nl/en/education/practical-matters/admission/bachelor-admission-and-application/diploma-overview"
+          },
+          "deadline": "Studielink do 15 stycznia i formularz OLAF do 31 stycznia. Strona RSM pokazuje te daty z rokiem 2026 (cykl poprzedni), dla naboru 2027/28 rok nie jest podany, nabór otwiera się 1 października 2026. Dowody z matematyki i angielskiego do 15 marca. Wyniki 15 kwietnia.",
+          "applyUrl": "https://www.rsm.nl/education/deadlines/",
+          "sourceUrl": "https://www.eur.nl/en/bachelor/bachelor-international-business-administration",
+          "notes": "Program prowadzi Rotterdam School of Management. Niderlandzki odpowiednik to Bedrijfskunde. Termin 15 stycznia i 31 stycznia dla 2027/28 do potwierdzenia na stronie RSM.",
+          "sources": [
+            "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/",
+            "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/iba-english-requirements-and-tests/",
+            "https://www.rsm.nl/education/deadlines/",
+            "https://www.rsm.nl/bachelor/international-business-administration/"
+          ]
+        },
+        {
+          "name": "International Bachelor Econometrics and Operations Research",
+          "nameEn": "International Bachelor Econometrics and Operations Research (BSc)",
+          "careerIds": [
+            "ekonomista",
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27). Na 2027/28 opłata ustawowa wynosi 2 771 EUR rocznie (podaje to RSM i Hogeschool Rotterdam); strona EUR z opłatami podaje na razie tylko rok 2026/27.",
+            "nonEu": "13 500 EUR rocznie dla osób spoza UE/EOG w 2026/27 (opłata instytucjonalna; na 2027/28 EUR jeszcze jej nie opublikowała). Osoby z UE, które mają już dyplom licencjacki z Holandii, płacą 8 300 EUR rocznie.",
+            "sourceUrl": "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027",
+            "quote": "EUR: \"The statutory tuition fee for 2026-2027 is € 2.694,-\" (warunki: obywatelstwo EOG, Szwajcarii lub Surinamu oraz brak wcześniejszego równoważnego dyplomu w Holandii). RSM: \"statutory fee of € 2,771 per year for 2027-2028\".",
+            "academicYear": "2026/27 (opłata ustawowa 2027/28: 2 771 EUR)",
+            "sources": [
+              "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027",
+              "https://www.rsm.nl/bachelor/international-business-administration/"
+            ]
+          },
+          "admission": {
+            "polishMatura": "wymaga dodatkowego etapu",
+            "requirements": "Program nie ma numerus fixus, ale komisja rozpatrza każde zgłoszenie indywidualnie (rolling admission) i przyjęcie nie jest gwarantowane. Dla Polski: Świadectwo ukończenia i Świadectwo Dojrzałości liceum ogólnokształcącego (tylko liceum ogólnokształcące). Obowiązkowy egzamin uzupełniający z matematyki (OMPT-D powyżej 75 procent lub inne akceptowane certyfikaty z matematyki B) oraz test z angielskiego. Wynik z matematyki powinien być dostępny przed 1 maja, bo jest ważnym elementem selekcji.",
+            "languageProof": "Angielski: IELTS Academic 6,0, TOEFL iBT 4,5 w nowej skali, Cambridge B2 First 170, C1 Advanced 170, LanguageCert 65, PTE Academic 61. Wynik nie starszy niż dwa lata.",
+            "selective": true,
+            "studyPlaces": null,
+            "sourceUrl": "https://www.eur.nl/en/bachelor/international-bachelor-econometrics-and-operations-research/admission",
+            "quote": "ESE: \"it is not a numerus-fixus programme. Instead ... the Selection Committee applies rolling admission\". \"Poland: Swiadectwo Ukonczenia + Dojrzalosci Liceum Ogolnoksztalcacego ... Mandatory to pass English language test. Mandatory to pass mathematics deficiency exam.\" \"OMPT-D certificate >75%\".",
+            "matura_note": "Polska matura jest wymieniona wprost, ale zawsze z dodatkowym egzaminem z matematyki i testem z angielskiego.",
+            "matura_source": "https://www.eur.nl/en/bachelor/international-bachelor-econometrics-and-operations-research/admission"
+          },
+          "deadline": "Zapisy od 1 listopada 2026. Termin dla obywateli UE/EOG: 1 maja 2027 (dla osób spoza UE/EOG 1 kwietnia 2027). Decyzja w ciągu sześciu tygodni od złożenia wniosku. Opłata aplikacyjna 100 EUR.",
+          "applyUrl": "https://www.eur.nl/en/bachelor/international-bachelor-econometrics-and-operations-research/application",
+          "sourceUrl": "https://www.eur.nl/en/bachelor/international-bachelor-econometrics-and-operations-research",
+          "notes": "Najbliższy w Rotterdamie odpowiednik kierunku data science. Osobnego licencjatu z data science EUR nie ma.",
+          "sources": [
+            "https://www.eur.nl/en/bachelor/international-bachelor-econometrics-and-operations-research/admission",
+            "https://www.eur.nl/en/bachelor/international-bachelor-econometrics-and-operations-research/application"
+          ]
+        },
+        {
+          "name": "International Bachelor Communication and Media (IBCoM)",
+          "nameEn": "International Bachelor Communication and Media (BSc)",
+          "careerIds": [
+            "dziennikarz"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27). Na 2027/28 opłata ustawowa wynosi 2 771 EUR rocznie (podaje to RSM i Hogeschool Rotterdam); strona EUR z opłatami podaje na razie tylko rok 2026/27.",
+            "nonEu": "13 500 EUR rocznie dla osób spoza UE/EOG w 2026/27 (opłata instytucjonalna; na 2027/28 EUR jeszcze jej nie opublikowała). Osoby z UE, które mają już dyplom licencjacki z Holandii, płacą 8 300 EUR rocznie.",
+            "sourceUrl": "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027",
+            "quote": "EUR: \"The statutory tuition fee for 2026-2027 is € 2.694,-\" (warunki: obywatelstwo EOG, Szwajcarii lub Surinamu oraz brak wcześniejszego równoważnego dyplomu w Holandii). RSM: \"statutory fee of € 2,771 per year for 2027-2028\".",
+            "academicYear": "2026/27 (opłata ustawowa 2027/28: 2 771 EUR)",
+            "sources": [
+              "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027",
+              "https://www.rsm.nl/bachelor/international-business-administration/"
+            ]
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Wymagany dyplom równoważny VWO; na liście EUR jest polskie Świadectwo Dojrzałości razem ze Świadectwem Ukończenia LO. Uczelnia ocenia dyplom po otrzymaniu zgłoszenia. Komisja bierze pod uwagę list motywacyjny (do dwóch stron, według szablonu) oraz międzynarodową orientację kandydata. Strona nie podaje limitu miejsc. Wyniki najpóźniej 15 kwietnia, zgłoszenia rozpatrywane na bieżąco.",
+            "languageProof": "Angielski: IELTS Academic 7,0 (bez IELTS Online i One Skill Retake), TOEFL iBT 5,0 w nowej skali (94 w starej), Cambridge C1 Advanced lub C2 Proficiency 180, LanguageCert 75, PTE Academic 75. Polska matura nie jest na liście zwolnień. Wynik nie starszy niż dwa lata.",
+            "selective": true,
+            "studyPlaces": null,
+            "sourceUrl": "https://www.eur.nl/en/bachelor/international-bachelor-communication-and-media/admission",
+            "quote": "EUR: \"IELTS Academic with a minimum overall band score of 7\". \"the selection committee will therefore pay due attention to the motivation letter\". Lista dyplomów: \"Poland: Świadectwo Dojrzałości plus Świadectwo Ukończenia Liceum Ogólnokształcącego\".",
+            "matura_note": "Strona programu odsyła do ogólnej listy dyplomów EUR, która wymienia Polskę.",
+            "matura_source": "https://www.eur.nl/en/education/practical-matters/admission/bachelor-admission-and-application/diploma-overview"
+          },
+          "deadline": "Studielink od 1 października 2026, komplet dokumentów w portalu do 15 marca 2027 (godz. 23:59 CET). Dowód angielskiego dla obywateli UE/EOG do 1 sierpnia (strona nie podaje roku). Opłata aplikacyjna 100 EUR.",
+          "applyUrl": "https://www.eur.nl/en/bachelor/international-bachelor-communication-and-media/application",
+          "sourceUrl": "https://www.eur.nl/en/bachelor/international-bachelor-communication-and-media",
+          "notes": "Program prowadzi Erasmus School of History, Culture and Communication. Czesne podane na stronie programu jest tylko odesłaniem do strony EUR z opłatami.",
+          "sources": [
+            "https://www.eur.nl/en/bachelor/international-bachelor-communication-and-media/admission",
+            "https://www.eur.nl/en/bachelor/international-bachelor-communication-and-media/application",
+            "https://www.eur.nl/en/bachelor/international-bachelor-communication-and-media/fees-and-finances"
+          ]
+        },
+        {
+          "name": "Rechtsgeleerdheid (Bachelor)",
+          "nameEn": "Law (LLB, taught in Dutch)",
+          "careerIds": [
+            "prawnik"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "niderlandzki"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27); na 2027/28 opłata ustawowa wynosi 2 771 EUR rocznie (według RSM i Hogeschool Rotterdam). Strona programu wspomina o obniżeniu czesnego w pierwszym roku dla osób, które zaczynają pierwsze studia wyższe, ale strona opłat EUR na 2026/27 podaje pełną kwotę bez zniżki; zniżkę należy potwierdzić na stronie uczelni.",
+            "nonEu": "13 500 EUR rocznie w 2026/27 (opłata instytucjonalna dla Erasmus School of Law). Osoby z UE z wcześniejszym dyplomem licencjackim z Holandii płacą 8 300 EUR.",
+            "sourceUrl": "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027",
+            "quote": "EUR: \"The statutory tuition fee for 2026-2027 is € 2.694,-\" (warunki: obywatelstwo EOG, Szwajcarii lub Surinamu oraz brak wcześniejszego równoważnego dyplomu w Holandii). RSM: \"statutory fee of € 2,771 per year for 2027-2028\".",
+            "academicYear": "2026/27 (opłata ustawowa 2027/28: 2 771 EUR)",
+            "sources": [
+              "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027",
+              "https://www.eur.nl/bachelor/rechtsgeleerdheid/inschrijven"
+            ]
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Program w całości po niderlandzku. Dyplom VWO daje dostęp bez dodatkowych wymagań. Z dyplomem spoza Holandii uczelnia sprawdza dyplom i może wymagać testu z niderlandzkiego i (lub) angielskiego; polskie Świadectwo Dojrzałości razem ze Świadectwem Ukończenia LO jest na liście dyplomów EUR. Strona nie podaje wymaganych przedmiotów maturalnych ani limitu miejsc.",
+            "languageProof": "Poziom niderlandzkiego nie jest podany na stronie programu, uczelnia pisze tylko o możliwych testach z niderlandzkiego i (lub) angielskiego. Do potwierdzenia w Admissions Office.",
+            "selective": false,
+            "studyPlaces": null,
+            "sourceUrl": "https://www.eur.nl/bachelor/rechtsgeleerdheid/toelating",
+            "quote": "ESL: \"Als je je aanmeldt met een niet-Nederlands diploma moet je rekening houden met toelatingstoetsen. Dit kan een toets Nederlands en/of Engels zijn.\" Termin zgłoszeń 1 maja, czyli zwykły termin dla programów bez numerus fixus (EUR: numerus fixus ma termin 15 stycznia, \"eerder dan de reguliere deadline van 1 mei\").",
+            "matura_note": "Polska jest wymieniona na ogólnej liście dyplomów EUR, strona programu mówi o sprawdzeniu dyplomu przez Admissions Office.",
+            "matura_source": "https://www.eur.nl/en/education/practical-matters/admission/bachelor-admission-and-application/diploma-overview"
+          },
+          "deadline": "Studielink od 1 października do 1 maja (strona nie podaje roku, dotyczy naboru na 2027/28, do potwierdzenia na stronie uczelni). Opłata aplikacyjna 100 EUR dla dyplomów spoza Holandii.",
+          "applyUrl": "https://www.eur.nl/bachelor/rechtsgeleerdheid/inschrijven",
+          "sourceUrl": "https://www.eur.nl/bachelor/rechtsgeleerdheid",
+          "notes": "Erasmus School of Law nie ma licencjatu z prawa po angielsku w wykazie bachelorów EUR. Selekcji nie ustawiono jako true, bo strona programu nie wspomina o numerus fixus.",
+          "sources": [
+            "https://www.eur.nl/bachelor/rechtsgeleerdheid/toelating",
+            "https://www.eur.nl/bachelor/rechtsgeleerdheid/inschrijven"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Erasmus MC (Erasmus University Medical Center Rotterdam, wydział medyczny EUR)",
+      "url": "https://www.erasmusmc.nl",
+      "type": "medyczna",
+      "programs": [
+        {
+          "name": "Geneeskunde (Bachelor)",
+          "nameEn": "Medicine (BSc, taught in Dutch)",
+          "careerIds": [
+            "lekarz"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "niderlandzki"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27); na 2027/28 opłata ustawowa wynosi 2 771 EUR rocznie (według RSM i Hogeschool Rotterdam). Osoby z UE, które mają już inny dyplom licencjacki z Holandii, płacą opłatę instytucjonalną 28 300 EUR rocznie (2026/27); wyjątek dotyczy pierwszych studiów z zakresu ochrony zdrowia.",
+            "nonEu": "32 200 EUR rocznie w 2026/27 (opłata instytucjonalna Erasmus MC). Na 2027/28 EUR jeszcze jej nie opublikowała.",
+            "sourceUrl": "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027",
+            "quote": "EUR: \"The statutory tuition fee for 2026-2027 is € 2.694,-\" (warunki: obywatelstwo EOG, Szwajcarii lub Surinamu oraz brak wcześniejszego równoważnego dyplomu w Holandii). RSM: \"statutory fee of € 2,771 per year for 2027-2028\". EUR: \"Erasmus Medical Center EEA Students: €28.300 Non-EEA Students: €32.200\" (dotyczy opłaty instytucjonalnej).",
+            "academicYear": "2026/27 (opłata ustawowa 2027/28: 2 771 EUR)",
+            "sources": [
+              "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027"
+            ]
+          },
+          "admission": {
+            "polishMatura": "wymaga potwierdzenia przez uczelnię",
+            "requirements": "Numerus fixus: 400 miejsc. Decentralna selekcja: dwa e-moduły do 5 lutego 2027, dzień selekcji z trzema testami 6 marca 2027, numery 15 kwietnia 2027. Numery 1 do 200 dostają miejsce od razu, od 201 losowanie ważone (65 procent wynik selekcji, 35 procent los). Można wziąć udział w selekcji maksymalnie dwa razy. Strona programu wymienia przedmioty dla dyplomów zagranicznych (biologia, chemia, fizyka, matematyka, niderlandzki, angielski), ale nie wymienia polskiej matury; zagraniczne dyplomy ocenia Admissions Office EUR. Ogólna lista EUR zawiera polskie Świadectwo Dojrzałości, jednak wymagania przedmiotowe dla medycyny trzeba potwierdzić. Warunki z przedmiotów trzeba spełnić do 1 sierpnia 2027.",
+            "languageProof": "Program jest po niderlandzku. Dla niektórych dyplomów zagranicznych (np. niemieckiego Abitur) strona wymaga testu NT2-II lub CNaVT. Dla Polski poziom nie jest podany, do potwierdzenia w Admissions Office.",
+            "selective": true,
+            "studyPlaces": "400 miejsc",
+            "sourceUrl": "https://www.eur.nl/bachelor/geneeskunde/toelating",
+            "quote": "EUR: \"er zijn slechts 400 plekken beschikbaar door numerus fixus\"; \"Rangnummers 1 tot en met 200 worden direct geplaatst. Rangnummers 201 en hoger worden toegekend door middel van een expliciet gewogen loting.\"; \"Buitenlandse vooropleidingen worden beoordeeld door het Admissions Office van de Erasmus Universiteit.\"",
+            "matura_note": "Lista dyplomów na stronie medycyny nie zawiera Polski. Ogólna lista EUR wymienia polskie świadectwa.",
+            "matura_source": "https://www.eur.nl/en/education/practical-matters/admission/bachelor-admission-and-application/diploma-overview"
+          },
+          "deadline": "Studielink do 15 stycznia 2027. E-moduły do 5 lutego 2027, dzień selekcji 6 marca 2027, numery rankingowe 15 kwietnia 2027, przyjęcie oferty w ciągu dwóch tygodni. Opłata aplikacyjna 100 EUR dla dyplomów spoza Holandii.",
+          "applyUrl": "https://www.eur.nl/erasmusmc/onderwijs/decentrale-selectie/checklist-selectie-van-z",
+          "sourceUrl": "https://www.eur.nl/bachelor/geneeskunde",
+          "notes": "Trzyletni licencjat (180 EC). Do zawodu lekarza potrzebny jest jeszcze trzyletni magister. Zajęcia odbywają się po niderlandzku, więc program wymaga dobrej znajomości języka od pierwszego dnia. Angielskiej wersji programu nie ma.",
+          "sources": [
+            "https://www.eur.nl/bachelor/geneeskunde/toelating",
+            "https://www.eur.nl/erasmusmc/onderwijs/decentrale-selectie/checklist-selectie-van-z",
+            "https://www.eur.nl/erasmusmc/onderwijs/decentrale-selectie/numerus-fixus",
+            "https://www.eur.nl/erasmusmc/onderwijs/decentrale-selectie/uitslag-en-loting"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hogeschool Rotterdam",
+      "url": "https://www.hogeschoolrotterdam.nl",
+      "type": "uczelnia zawodowa (HBO)",
+      "programs": [
+        {
+          "name": "Informatica (voltijd)",
+          "nameEn": "Computer Science (HBO, full-time)",
+          "careerIds": [
+            "programista"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "niderlandzki (wymagany poziom B2)",
+            "angielski (część zajęć, zakres do potwierdzenia)"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27, według EUR i StudyinNL). 2 771 EUR rocznie w 2027/28 (według strony kosztów programu Hogeschool Rotterdam, opłata ustawowa dla studiów stacjonarnych).",
+            "nonEu": "Opłata instytucjonalna ustalana przez uczelnię, kwoty nie podano na stronie programu.",
+            "sourceUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/informatica/voltijd/studiekosten/",
+            "quote": "Hogeschool Rotterdam: \"In 2027-2028 bedraagt het wettelijk collegegeld voor een voltijdopleiding 2.771,-\"; \"Studenten uit niet-EER landen betalen instellingscollegegeld.\"",
+            "academicYear": "2027/28 (opłata ustawowa); 2026/27 według EUR",
+            "sources": [
+              "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/informatica/voltijd/studiekosten/",
+              "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027"
+            ]
+          },
+          "admission": {
+            "polishMatura": "wymaga potwierdzenia przez uczelnię",
+            "requirements": "Dyplom zagraniczny musi być równoważny holenderskiemu havo, vwo lub mbo poziomu 4. Polska matura nie jest wymieniona na stronie, o przyjęciu decyduje Studenten Service Center po zgłoszeniu w Studielink i wysłaniu dokumentów. Nie podano wymaganych przedmiotów maturalnych ani limitu miejsc, strona programu nie wspomina o numerus fixus.",
+            "languageProof": "Program po niderlandzku: wymagany poziom B2, który potwierdza się Onderzoek NT2 uczelni (koszt 135 EUR, egzaminy z czytania, pisania i rozmowa) lub państwowym egzaminem NT2 II.",
+            "selective": false,
+            "studyPlaces": null,
+            "sourceUrl": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/",
+            "quote": "Hogeschool Rotterdam: \"Het buitenlandse diploma moet dan wel vergelijkbaar zijn met het vereiste Nederlandse diploma. Daarnaast moet je nog slagen voor een toelatingsonderzoek 'Nederlands als tweede taal' als je een Nederlandstalige opleiding wilt volgen.\"",
+            "matura_note": "Strona uczelni mówi ogólnie o dyplomach zagranicznych, bez wymieniania Polski.",
+            "matura_source": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/"
+          },
+          "deadline": "Studielink od 1 października do 1 maja (strona nie podaje roku, dotyczy naboru na wrzesień 2027, do potwierdzenia na stronie uczelni). Po tym terminie zgłoszenia przyjmowane do 31 lipca, ale bez ustawowego prawa do przyjęcia.",
+          "applyUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/informatica/voltijd/aanmeldprocedure/",
+          "sourceUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/informatica/voltijd/",
+          "notes": "Studia hbo (uczelnia nauk stosowanych), cztery lata, profil praktyczny. Strona programu podaje język nauczania: niderlandzki i angielski, bez wskazania, które zajęcia są po angielsku, więc dla osoby bez niderlandzkiego możliwość nauki trzeba potwierdzić. Start we wrześniu i w lutym (na luty zgłoszenie do 15 stycznia). Od trzeciego roku specjalizacje m.in. cyberbezpieczeństwo i aplikacje dla danych.",
+          "sources": [
+            "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/informatica/voltijd/",
+            "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/informatica/voltijd/toelatingsvoorwaarden/",
+            "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/informatica/voltijd/studiekosten/",
+            "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/"
+          ]
+        },
+        {
+          "name": "Civiele Techniek (voltijd)",
+          "nameEn": "Civil Engineering (HBO, Dutch)",
+          "careerIds": [
+            "inzynier-budownictwa"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "niderlandzki (wymagany poziom B2)"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27, według EUR i StudyinNL). 2 771 EUR rocznie w 2027/28 (według strony kosztów programu Hogeschool Rotterdam, opłata ustawowa dla studiów stacjonarnych).",
+            "nonEu": "Opłata instytucjonalna ustalana przez uczelnię, kwoty nie podano na stronie programu.",
+            "sourceUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/civiele-techniek/voltijd/studiekosten/",
+            "quote": "Hogeschool Rotterdam: \"In 2027-2028 bedraagt het wettelijk collegegeld voor een voltijdopleiding 2.771,-\"; \"Studenten uit niet-EER landen betalen instellingscollegegeld.\"",
+            "academicYear": "2027/28 (opłata ustawowa); 2026/27 według EUR",
+            "sources": [
+              "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/civiele-techniek/voltijd/studiekosten/",
+              "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027"
+            ]
+          },
+          "admission": {
+            "polishMatura": "wymaga potwierdzenia przez uczelnię",
+            "requirements": "Dyplom zagraniczny musi być równoważny holenderskiemu havo, vwo lub mbo poziomu 4. Polska matura nie jest wymieniona na stronie, o przyjęciu decyduje Studenten Service Center po zgłoszeniu w Studielink i wysłaniu dokumentów. Nie podano wymaganych przedmiotów maturalnych ani limitu miejsc, strona programu nie wspomina o numerus fixus.",
+            "languageProof": "Program po niderlandzku: wymagany poziom B2, który potwierdza się Onderzoek NT2 uczelni (koszt 135 EUR, egzaminy z czytania, pisania i rozmowa) lub państwowym egzaminem NT2 II.",
+            "selective": false,
+            "studyPlaces": null,
+            "sourceUrl": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/",
+            "quote": "Hogeschool Rotterdam: \"Het buitenlandse diploma moet dan wel vergelijkbaar zijn met het vereiste Nederlandse diploma. Daarnaast moet je nog slagen voor een toelatingsonderzoek 'Nederlands als tweede taal' als je een Nederlandstalige opleiding wilt volgen.\"",
+            "matura_note": "Strona uczelni mówi ogólnie o dyplomach zagranicznych, bez wymieniania Polski.",
+            "matura_source": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/"
+          },
+          "deadline": "Studielink od 1 października do 1 maja (strona nie podaje roku, dotyczy naboru na wrzesień 2027, do potwierdzenia na stronie uczelni). Po tym terminie zgłoszenia przyjmowane do 31 lipca, ale bez ustawowego prawa do przyjęcia.",
+          "applyUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/civiele-techniek/voltijd/aanmeldprocedure/",
+          "sourceUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/civiele-techniek/voltijd/",
+          "notes": "Studia hbo (uczelnia nauk stosowanych), cztery lata, profil praktyczny. Program wyłącznie po niderlandzku.",
+          "sources": [
+            "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/civiele-techniek/voltijd/",
+            "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/civiele-techniek/voltijd/toelatingsvoorwaarden/",
+            "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/civiele-techniek/voltijd/studiekosten/",
+            "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/"
+          ]
+        },
+        {
+          "name": "Werktuigbouwkunde (voltijd)",
+          "nameEn": "Mechanical Engineering (HBO, Dutch)",
+          "careerIds": [
+            "inzynier-mechanik"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "niderlandzki (wymagany poziom B2)"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27, według EUR i StudyinNL). 2 771 EUR rocznie w 2027/28 (według strony kosztów programu Hogeschool Rotterdam, opłata ustawowa dla studiów stacjonarnych).",
+            "nonEu": "Opłata instytucjonalna ustalana przez uczelnię, kwoty nie podano na stronie programu.",
+            "sourceUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/werktuigbouwkunde/voltijd/studiekosten/",
+            "quote": "Hogeschool Rotterdam: \"In 2027-2028 bedraagt het wettelijk collegegeld voor een voltijdopleiding 2.771,-\"; \"Studenten uit niet-EER landen betalen instellingscollegegeld.\"",
+            "academicYear": "2027/28 (opłata ustawowa); 2026/27 według EUR",
+            "sources": [
+              "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/werktuigbouwkunde/voltijd/studiekosten/",
+              "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027"
+            ]
+          },
+          "admission": {
+            "polishMatura": "wymaga potwierdzenia przez uczelnię",
+            "requirements": "Dyplom zagraniczny musi być równoważny holenderskiemu havo, vwo lub mbo poziomu 4. Polska matura nie jest wymieniona na stronie, o przyjęciu decyduje Studenten Service Center po zgłoszeniu w Studielink i wysłaniu dokumentów. Nie podano wymaganych przedmiotów maturalnych ani limitu miejsc, strona programu nie wspomina o numerus fixus.",
+            "languageProof": "Program po niderlandzku: wymagany poziom B2, który potwierdza się Onderzoek NT2 uczelni (koszt 135 EUR, egzaminy z czytania, pisania i rozmowa) lub państwowym egzaminem NT2 II.",
+            "selective": false,
+            "studyPlaces": null,
+            "sourceUrl": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/",
+            "quote": "Hogeschool Rotterdam: \"Het buitenlandse diploma moet dan wel vergelijkbaar zijn met het vereiste Nederlandse diploma. Daarnaast moet je nog slagen voor een toelatingsonderzoek 'Nederlands als tweede taal' als je een Nederlandstalige opleiding wilt volgen.\"",
+            "matura_note": "Strona uczelni mówi ogólnie o dyplomach zagranicznych, bez wymieniania Polski.",
+            "matura_source": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/"
+          },
+          "deadline": "Studielink od 1 października do 1 maja (strona nie podaje roku, dotyczy naboru na wrzesień 2027, do potwierdzenia na stronie uczelni). Po tym terminie zgłoszenia przyjmowane do 31 lipca, ale bez ustawowego prawa do przyjęcia.",
+          "applyUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/werktuigbouwkunde/voltijd/aanmeldprocedure/",
+          "sourceUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/werktuigbouwkunde/voltijd/",
+          "notes": "Studia hbo (uczelnia nauk stosowanych), cztery lata, profil praktyczny. Program wyłącznie po niderlandzku, dostępny też w trybie dualnym.",
+          "sources": [
+            "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/werktuigbouwkunde/voltijd/",
+            "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/werktuigbouwkunde/voltijd/toelatingsvoorwaarden/",
+            "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/werktuigbouwkunde/voltijd/studiekosten/",
+            "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/"
+          ]
+        },
+        {
+          "name": "Bouwkunde (voltijd)",
+          "nameEn": "Architecture and Building (HBO, Dutch)",
+          "careerIds": [
+            "architekt",
+            "inzynier-budownictwa"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "niderlandzki (wymagany poziom B2)"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27, według EUR i StudyinNL). 2 771 EUR rocznie w 2027/28 (według strony kosztów programu Hogeschool Rotterdam, opłata ustawowa dla studiów stacjonarnych).",
+            "nonEu": "Opłata instytucjonalna ustalana przez uczelnię, kwoty nie podano na stronie programu.",
+            "sourceUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/bouwkunde/voltijd/studiekosten/",
+            "quote": "Hogeschool Rotterdam: \"In 2027-2028 bedraagt het wettelijk collegegeld voor een voltijdopleiding 2.771,-\"; \"Studenten uit niet-EER landen betalen instellingscollegegeld.\"",
+            "academicYear": "2027/28 (opłata ustawowa); 2026/27 według EUR",
+            "sources": [
+              "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/bouwkunde/voltijd/studiekosten/",
+              "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027"
+            ]
+          },
+          "admission": {
+            "polishMatura": "wymaga potwierdzenia przez uczelnię",
+            "requirements": "Dyplom zagraniczny musi być równoważny holenderskiemu havo, vwo lub mbo poziomu 4. Polska matura nie jest wymieniona na stronie, o przyjęciu decyduje Studenten Service Center po zgłoszeniu w Studielink i wysłaniu dokumentów. Nie podano wymaganych przedmiotów maturalnych ani limitu miejsc, strona programu nie wspomina o numerus fixus.",
+            "languageProof": "Program po niderlandzku: wymagany poziom B2, który potwierdza się Onderzoek NT2 uczelni (koszt 135 EUR, egzaminy z czytania, pisania i rozmowa) lub państwowym egzaminem NT2 II.",
+            "selective": false,
+            "studyPlaces": null,
+            "sourceUrl": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/",
+            "quote": "Hogeschool Rotterdam: \"Het buitenlandse diploma moet dan wel vergelijkbaar zijn met het vereiste Nederlandse diploma. Daarnaast moet je nog slagen voor een toelatingsonderzoek 'Nederlands als tweede taal' als je een Nederlandstalige opleiding wilt volgen.\"",
+            "matura_note": "Strona uczelni mówi ogólnie o dyplomach zagranicznych, bez wymieniania Polski.",
+            "matura_source": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/"
+          },
+          "deadline": "Studielink od 1 października do 1 maja (strona nie podaje roku, dotyczy naboru na wrzesień 2027, do potwierdzenia na stronie uczelni). Po tym terminie zgłoszenia przyjmowane do 31 lipca, ale bez ustawowego prawa do przyjęcia.",
+          "applyUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/bouwkunde/voltijd/aanmeldprocedure/",
+          "sourceUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/bouwkunde/voltijd/",
+          "notes": "Studia hbo (uczelnia nauk stosowanych), cztery lata, profil praktyczny. Program wyłącznie po niderlandzku. Hbo Bouwkunde nie jest tożsame z uniwersyteckim kierunkiem architektury, nie daje tytułu architekta w rozumieniu polskich uprawnień.",
+          "sources": [
+            "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/bouwkunde/voltijd/",
+            "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/bouwkunde/voltijd/toelatingsvoorwaarden/",
+            "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/bouwkunde/voltijd/studiekosten/",
+            "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/"
+          ]
+        },
+        {
+          "name": "Communicatie (voltijd)",
+          "nameEn": "Communication (HBO, Dutch)",
+          "careerIds": [
+            "dziennikarz"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "niderlandzki (wymagany poziom B2)"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27, według EUR i StudyinNL). 2 771 EUR rocznie w 2027/28 (według strony kosztów programu Hogeschool Rotterdam, opłata ustawowa dla studiów stacjonarnych).",
+            "nonEu": "Opłata instytucjonalna ustalana przez uczelnię, kwoty nie podano na stronie programu.",
+            "sourceUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/communicatie/voltijd/studiekosten/",
+            "quote": "Hogeschool Rotterdam: \"In 2027-2028 bedraagt het wettelijk collegegeld voor een voltijdopleiding 2.771,-\"; \"Studenten uit niet-EER landen betalen instellingscollegegeld.\"",
+            "academicYear": "2027/28 (opłata ustawowa); 2026/27 według EUR",
+            "sources": [
+              "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/communicatie/voltijd/studiekosten/",
+              "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027"
+            ]
+          },
+          "admission": {
+            "polishMatura": "wymaga potwierdzenia przez uczelnię",
+            "requirements": "Dyplom zagraniczny musi być równoważny holenderskiemu havo, vwo lub mbo poziomu 4. Polska matura nie jest wymieniona na stronie, o przyjęciu decyduje Studenten Service Center po zgłoszeniu w Studielink i wysłaniu dokumentów. Nie podano wymaganych przedmiotów maturalnych ani limitu miejsc, strona programu nie wspomina o numerus fixus.",
+            "languageProof": "Program po niderlandzku: wymagany poziom B2, który potwierdza się Onderzoek NT2 uczelni (koszt 135 EUR, egzaminy z czytania, pisania i rozmowa) lub państwowym egzaminem NT2 II.",
+            "selective": false,
+            "studyPlaces": null,
+            "sourceUrl": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/",
+            "quote": "Hogeschool Rotterdam: \"Het buitenlandse diploma moet dan wel vergelijkbaar zijn met het vereiste Nederlandse diploma. Daarnaast moet je nog slagen voor een toelatingsonderzoek 'Nederlands als tweede taal' als je een Nederlandstalige opleiding wilt volgen.\"",
+            "matura_note": "Strona uczelni mówi ogólnie o dyplomach zagranicznych, bez wymieniania Polski.",
+            "matura_source": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/"
+          },
+          "deadline": "Studielink od 1 października do 1 maja (strona nie podaje roku, dotyczy naboru na wrzesień 2027, do potwierdzenia na stronie uczelni). Po tym terminie zgłoszenia przyjmowane do 31 lipca, ale bez ustawowego prawa do przyjęcia.",
+          "applyUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/communicatie/voltijd/aanmeldprocedure/",
+          "sourceUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/communicatie/voltijd/",
+          "notes": "Studia hbo (uczelnia nauk stosowanych), cztery lata, profil praktyczny. Program kształci w komunikacji i mediach i nie jest klasycznym kursem dziennikarstwa. Wyłącznie po niderlandzku.",
+          "sources": [
+            "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/communicatie/voltijd/",
+            "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/communicatie/voltijd/toelatingsvoorwaarden/",
+            "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/communicatie/voltijd/studiekosten/",
+            "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/"
+          ]
+        },
+        {
+          "name": "International Business (voltijd)",
+          "nameEn": "International Business (HBO, English)",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27, według EUR i StudyinNL). 2 771 EUR rocznie w 2027/28 (według strony kosztów programu Hogeschool Rotterdam, opłata ustawowa dla studiów stacjonarnych).",
+            "nonEu": "Opłata instytucjonalna ustalana przez uczelnię, kwoty nie podano na stronie programu.",
+            "sourceUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/international-business/voltijd/studiekosten/",
+            "quote": "Hogeschool Rotterdam: \"In 2027-2028 bedraagt het wettelijk collegegeld voor een voltijdopleiding 2.771,-\"; \"Studenten uit niet-EER landen betalen instellingscollegegeld.\"",
+            "academicYear": "2027/28 (opłata ustawowa); 2026/27 według EUR",
+            "sources": [
+              "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/international-business/voltijd/studiekosten/",
+              "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027"
+            ]
+          },
+          "admission": {
+            "polishMatura": "wymaga potwierdzenia przez uczelnię",
+            "requirements": "Dyplom zagraniczny musi być równoważny holenderskiemu havo, vwo lub mbo poziomu 4. Polska matura nie jest wymieniona na stronie, o przyjęciu decyduje Studenten Service Center po zgłoszeniu w Studielink i wysłaniu dokumentów. Nie podano wymaganych przedmiotów maturalnych ani limitu miejsc, strona programu nie wspomina o numerus fixus.",
+            "languageProof": "Program po angielsku, dla niderlandzkiego NT2 nie jest wymagany. Poziom angielskiego nie jest podany na pobranych stronach, do potwierdzenia na stronie uczelni.",
+            "selective": false,
+            "studyPlaces": null,
+            "sourceUrl": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/",
+            "quote": "Hogeschool Rotterdam: \"Het buitenlandse diploma moet dan wel vergelijkbaar zijn met het vereiste Nederlandse diploma. Daarnaast moet je nog slagen voor een toelatingsonderzoek 'Nederlands als tweede taal' als je een Nederlandstalige opleiding wilt volgen.\"",
+            "matura_note": "Strona uczelni mówi ogólnie o dyplomach zagranicznych, bez wymieniania Polski.",
+            "matura_source": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/"
+          },
+          "deadline": "Studielink od 1 października do 1 maja (strona nie podaje roku, dotyczy naboru na wrzesień 2027, do potwierdzenia na stronie uczelni). Po tym terminie zgłoszenia przyjmowane do 31 lipca, ale bez ustawowego prawa do przyjęcia.",
+          "applyUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/international-business/voltijd/aanmeldprocedure/",
+          "sourceUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/international-business/voltijd/",
+          "notes": "Studia hbo (uczelnia nauk stosowanych), cztery lata, profil praktyczny. Strona podaje 3 lata dla osób z holenderskim dyplomem vwo i 4 lata w pozostałych przypadkach, czy polska matura uprawnia do ścieżki trzyletniej, rozstrzyga uczelnia. Zgłoszenie do 1 maja daje ustawowe prawo do przyjęcia, jeśli spełnia się wymagania.",
+          "sources": [
+            "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/international-business/voltijd/",
+            "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/international-business/voltijd/toelatingsvoorwaarden/",
+            "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/international-business/voltijd/studiekosten/",
+            "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technische Universiteit Delft (TU Delft), Delft (aglomeracja Rotterdam i Haga)",
+      "url": "https://www.tudelft.nl",
+      "type": "politechnika",
+      "programs": [
+        {
+          "name": "Computer Science and Engineering (BSc, English track)",
+          "nameEn": "Computer Science and Engineering (BSc, English track)",
+          "careerIds": [
+            "programista",
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "angielski (ścieżka angielska)",
+            "niderlandzki i angielski (ścieżka dwujęzyczna, dla osób znających niderlandzki)"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27, według EUR i StudyinNL). 2 771 EUR rocznie w 2027/28 (według RSM i Hogeschool Rotterdam). Strona programu TU Delft podaje tylko 2 601 EUR dla roku 2025/26, więc jest nieaktualna.",
+            "nonEu": "17 310 EUR rocznie, ale to kwota z roku 2025/26 ze strony programu (nieaktualna); kwoty na 2026/27 i 2027/28 do potwierdzenia na stronie TU Delft.",
+            "sourceUrl": "https://www.tudelft.nl/en/onderwijs/opleidingen/bachelors/computer-science-and-engineering/bachelor-of-computer-science-and-engineering/from-application-to-enrollment/tuition-and-fees",
+            "quote": "TU Delft: \"Nationality EU/EFTA 2025-2026: €2.601; Nationality Non-EU/EFTA 2025-2026: € 17.310\". EUR (2026/27): \"The statutory tuition fee for 2026-2027 is € 2.694,-\".",
+            "academicYear": "2026/27 (opłata ustawowa); 2027/28: 2 771 EUR",
+            "sources": [
+              "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027",
+              "https://www.rsm.nl/bachelor/international-business-administration/"
+            ]
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Dla Polski TU Delft wymienia wprost Świadectwo Dojrzałości: wymagana matura z matematyki na poziomie rozszerzonym, każdy egzamin zdany na minimum 30 procent. Braki (deficiencies) trzeba uzupełnić egzaminami VWO (Boswell-Bèta, CCVX lub Staatsexamen) przed 1 września. TU Delft co do zasady nie przyjmuje samych certyfikatów językowych ani pojedynczych certyfikatów przedmiotowych jako podstawy przyjęcia.  Zagraniczny dyplom uprawnia tylko do ścieżki angielskiej, chyba że kandydat spełni wymagania językowe ścieżki dwujęzycznej. Numerus fixus: Matching & Selection (testy z matematyki oraz rozumowania systematycznego i logicznego). Dla CSE wymagana jest tylko matematyka. Ranking: wynik testu i losowanie w trzech kategoriach, numery 15 kwietnia.",
+            "languageProof": "Angielski: IELTS Academic 6,5 (bez IELTS Online i Indicator), TOEFL iBT 5,0 w nowej skali (90 w starej), Cambridge C1 Advanced. Wynik nie starszy niż dwa lata, w jednym podejściu. Niderlandzki nie jest wymagany w ścieżce angielskiej.",
+            "selective": true,
+            "studyPlaces": "590 miejsc w 2027/28: 345 w ścieżce angielskiej i 245 w dwujęzycznej",
+            "sourceUrl": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/admission-requirements/country-specific-requirements",
+            "quote": "TU Delft: \"Poland Accepted diploma: Swiadectwo Dojrzalosci. You have successfully passed the Matura examination in Mathematics and depending on the BSc program of your choice Physics, Chemistry, Biology. All required subjects must be passed at Advanced Level and each Matura exam taken must be passed with a minimum score of 30%\".",
+            "matura_note": "Polska matura jest wymieniona wprost z warunkiem poziomu rozszerzonego i minimum 30 procent z każdego wymaganego przedmiotu.",
+            "matura_source": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/admission-requirements/country-specific-requirements"
+          },
+          "deadline": "Studielink do 15 stycznia 2027 (godz. 23:59 CET) oraz komplet dokumentów w systemie Osiaan w tym samym terminie. Pierwszy mail o selekcji najpóźniej 20 stycznia, numery rankingowe 15 kwietnia (strona nie podaje roku).",
+          "applyUrl": "https://www.tudelft.nl/en/onderwijs/opleidingen/bachelors/computer-science-and-engineering/bachelor-of-computer-science-and-engineering/from-application-to-enrollment/application-procedure",
+          "sourceUrl": "https://www.tudelft.nl/en/onderwijs/opleidingen/bachelors/computer-science-and-engineering/bachelor-of-computer-science-and-engineering",
+          "notes": "TU Delft leży w Delft, w aglomeracji Rotterdam i Haga, około 15 minut pociągiem od Rotterdamu. Strona programu podaje 180 EC (36 miesięcy). Najbliższy kierunek do data science w ofercie Delft po angielsku.",
+          "sources": [
+            "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/admission-requirements/country-specific-requirements",
+            "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/admission-requirements",
+            "https://www.tudelft.nl/en/onderwijs/opleidingen/bachelors/computer-science-and-engineering/bachelor-of-computer-science-and-engineering/from-application-to-enrollment/selection-procedure"
+          ]
+        },
+        {
+          "name": "Bouwkunde (BSc)",
+          "nameEn": "Architecture, Urbanism and Building Sciences (BSc, Dutch)",
+          "careerIds": [
+            "architekt"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "niderlandzki"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27, według EUR i StudyinNL). 2 771 EUR rocznie w 2027/28 (według RSM i Hogeschool Rotterdam). Strona programu TU Delft podaje tylko 2 601 EUR dla roku 2025/26, więc jest nieaktualna.",
+            "nonEu": "17 310 EUR rocznie, ale to kwota z roku 2025/26 ze strony programu (nieaktualna); kwoty na 2026/27 i 2027/28 do potwierdzenia na stronie TU Delft.",
+            "sourceUrl": "https://www.tudelft.nl/en/onderwijs/opleidingen/bachelors/computer-science-and-engineering/bachelor-of-computer-science-and-engineering/from-application-to-enrollment/tuition-and-fees",
+            "quote": "TU Delft: \"Nationality EU/EFTA 2025-2026: €2.601; Nationality Non-EU/EFTA 2025-2026: € 17.310\". EUR (2026/27): \"The statutory tuition fee for 2026-2027 is € 2.694,-\".",
+            "academicYear": "2026/27 (opłata ustawowa); 2027/28: 2 771 EUR",
+            "sources": [
+              "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027",
+              "https://www.rsm.nl/bachelor/international-business-administration/"
+            ]
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Dla Polski TU Delft wymienia wprost Świadectwo Dojrzałości: wymagana matura z matematyki i fizyki na poziomie rozszerzonym, każdy egzamin zdany na minimum 30 procent. Braki (deficiencies) trzeba uzupełnić egzaminami VWO (Boswell-Bèta, CCVX lub Staatsexamen) przed 1 września. TU Delft co do zasady nie przyjmuje samych certyfikatów językowych ani pojedynczych certyfikatów przedmiotowych jako podstawy przyjęcia.  Numerus fixus z decentralną selekcją: oceny z przedostatniej klasy i internetowe zadanie projektowe i pisemne. Szczegóły selekcji na 2027/28 mają być opublikowane na początku października 2026 i nie były jeszcze dostępne; w 2026/27 było 450 miejsc.",
+            "languageProof": "Program po niderlandzku: wymagany niderlandzki na poziomie przedakademickim (VWO). Bez znajomości języka trzeba zaliczyć roczny kurs przygotowawczy TU Delft (dopiero po warunkowej ofercie). Test poziomujący i rozmowa oceniająca są dostępne po otrzymaniu listu przyjęcia.",
+            "selective": true,
+            "studyPlaces": "450 miejsc w 2026/27, liczba na 2027/28 jeszcze nieogłoszona",
+            "sourceUrl": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/admission-requirements/country-specific-requirements",
+            "quote": "TU Delft: \"Poland Accepted diploma: Swiadectwo Dojrzalosci. You have successfully passed the Matura examination in Mathematics and depending on the BSc program of your choice Physics, Chemistry, Biology. All required subjects must be passed at Advanced Level and each Matura exam taken must be passed with a minimum score of 30%\".",
+            "matura_note": "Polska matura jest wymieniona wprost z warunkiem poziomu rozszerzonego i minimum 30 procent z każdego wymaganego przedmiotu.",
+            "matura_source": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/admission-requirements/country-specific-requirements"
+          },
+          "deadline": "Studielink do 15 stycznia (strona nie podaje roku; w poprzednim cyklu 15 stycznia 2026, dla naboru 2027/28 do potwierdzenia). Zadania selekcyjne w poprzednim cyklu do 2 lutego.",
+          "applyUrl": "https://www.tudelft.nl/onderwijs/opleidingen/bachelors/bk/bsc-bouwkunde/van-aanmelding-tot-inschrijving/aanmeldproces",
+          "sourceUrl": "https://www.tudelft.nl/onderwijs/opleidingen/bachelors/bk/bsc-bouwkunde",
+          "notes": "TU Delft leży w Delft, w aglomeracji Rotterdam i Haga. Strona programu po angielsku zawiera tylko odesłanie do wersji niderlandzkiej. Uczelnia podaje, że bachelor trwa 3 lata (180 punktów).",
+          "sources": [
+            "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/admission-requirements/country-specific-requirements",
+            "https://www.tudelft.nl/onderwijs/opleidingen/bachelors/bk/bsc-bouwkunde/van-aanmelding-tot-inschrijving/selectie-bouwkunde",
+            "https://www.tudelft.nl/onderwijs/opleidingen/bachelors/bk/bsc-bouwkunde/over-de-opleiding/wat-ga-ik-leren"
+          ]
+        },
+        {
+          "name": "Civiele Techniek (BSc)",
+          "nameEn": "Civil Engineering (BSc, Dutch)",
+          "careerIds": [
+            "inzynier-budownictwa"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "niderlandzki"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27, według EUR i StudyinNL). 2 771 EUR rocznie w 2027/28 (według RSM i Hogeschool Rotterdam). Strona programu TU Delft podaje tylko 2 601 EUR dla roku 2025/26, więc jest nieaktualna.",
+            "nonEu": "17 310 EUR rocznie, ale to kwota z roku 2025/26 ze strony programu (nieaktualna); kwoty na 2026/27 i 2027/28 do potwierdzenia na stronie TU Delft.",
+            "sourceUrl": "https://www.tudelft.nl/en/onderwijs/opleidingen/bachelors/computer-science-and-engineering/bachelor-of-computer-science-and-engineering/from-application-to-enrollment/tuition-and-fees",
+            "quote": "TU Delft: \"Nationality EU/EFTA 2025-2026: €2.601; Nationality Non-EU/EFTA 2025-2026: € 17.310\". EUR (2026/27): \"The statutory tuition fee for 2026-2027 is € 2.694,-\".",
+            "academicYear": "2026/27 (opłata ustawowa); 2027/28: 2 771 EUR",
+            "sources": [
+              "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027",
+              "https://www.rsm.nl/bachelor/international-business-administration/"
+            ]
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Dla Polski TU Delft wymienia wprost Świadectwo Dojrzałości: wymagana matura z matematyki i fizyki na poziomie rozszerzonym, każdy egzamin zdany na minimum 30 procent. Braki (deficiencies) trzeba uzupełnić egzaminami VWO (Boswell-Bèta, CCVX lub Staatsexamen) przed 1 września. TU Delft co do zasady nie przyjmuje samych certyfikatów językowych ani pojedynczych certyfikatów przedmiotowych jako podstawy przyjęcia.  Strona programu: numerus fixus nie obowiązuje (\"Geen selectie\").",
+            "languageProof": "Program po niderlandzku: wymagany niderlandzki na poziomie przedakademickim (VWO). Bez znajomości języka trzeba zaliczyć roczny kurs przygotowawczy TU Delft (dopiero po warunkowej ofercie). Test poziomujący i rozmowa oceniająca są dostępne po otrzymaniu listu przyjęcia.",
+            "selective": false,
+            "studyPlaces": null,
+            "sourceUrl": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/admission-requirements/country-specific-requirements",
+            "quote": "TU Delft: \"Poland Accepted diploma: Swiadectwo Dojrzalosci. You have successfully passed the Matura examination in Mathematics and depending on the BSc program of your choice Physics, Chemistry, Biology. All required subjects must be passed at Advanced Level and each Matura exam taken must be passed with a minimum score of 30%\".",
+            "matura_note": "Polska matura jest wymieniona wprost z warunkiem poziomu rozszerzonego i minimum 30 procent z każdego wymaganego przedmiotu.",
+            "matura_source": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/admission-requirements/country-specific-requirements"
+          },
+          "deadline": "Dla programów bez numerus fixus Studielink i Osiaan do 1 kwietnia (strona nie podaje roku, dotyczy naboru 2027/28, do potwierdzenia). Okres składania wniosków od 15 października.",
+          "applyUrl": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/application-procedure",
+          "sourceUrl": "https://www.tudelft.nl/onderwijs/opleidingen/bachelors/civiele-techniek/bsc-civiele-techniek",
+          "notes": "TU Delft leży w Delft, w aglomeracji Rotterdam i Haga. Strona po angielsku odsyła do wersji niderlandzkiej. Uczelnia podaje, że bachelor trwa trzy lata.",
+          "sources": [
+            "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/admission-requirements/country-specific-requirements",
+            "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/dates-deadlines",
+            "https://www.tudelft.nl/onderwijs/opleidingen/bachelors/civiele-techniek/bsc-civiele-techniek/over-de-opleiding/wat-ga-ik-leren"
+          ]
+        },
+        {
+          "name": "Werktuigbouwkunde (BSc)",
+          "nameEn": "Mechanical Engineering (BSc, Dutch)",
+          "careerIds": [
+            "inzynier-mechanik"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "niderlandzki"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27, według EUR i StudyinNL). 2 771 EUR rocznie w 2027/28 (według RSM i Hogeschool Rotterdam). Strona programu TU Delft podaje tylko 2 601 EUR dla roku 2025/26, więc jest nieaktualna.",
+            "nonEu": "17 310 EUR rocznie, ale to kwota z roku 2025/26 ze strony programu (nieaktualna); kwoty na 2026/27 i 2027/28 do potwierdzenia na stronie TU Delft.",
+            "sourceUrl": "https://www.tudelft.nl/en/onderwijs/opleidingen/bachelors/computer-science-and-engineering/bachelor-of-computer-science-and-engineering/from-application-to-enrollment/tuition-and-fees",
+            "quote": "TU Delft: \"Nationality EU/EFTA 2025-2026: €2.601; Nationality Non-EU/EFTA 2025-2026: € 17.310\". EUR (2026/27): \"The statutory tuition fee for 2026-2027 is € 2.694,-\".",
+            "academicYear": "2026/27 (opłata ustawowa); 2027/28: 2 771 EUR",
+            "sources": [
+              "https://www.eur.nl/en/education/practical-matters/registration/tuition-fee/tuition-fee-2026-2027",
+              "https://www.rsm.nl/bachelor/international-business-administration/"
+            ]
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Dla Polski TU Delft wymienia wprost Świadectwo Dojrzałości: wymagana matura z matematyki i fizyki na poziomie rozszerzonym, każdy egzamin zdany na minimum 30 procent. Braki (deficiencies) trzeba uzupełnić egzaminami VWO (Boswell-Bèta, CCVX lub Staatsexamen) przed 1 września. TU Delft co do zasady nie przyjmuje samych certyfikatów językowych ani pojedynczych certyfikatów przedmiotowych jako podstawy przyjęcia.  Strona programu: numerus fixus nie obowiązuje.",
+            "languageProof": "Program po niderlandzku: wymagany niderlandzki na poziomie przedakademickim (VWO). Bez znajomości języka trzeba zaliczyć roczny kurs przygotowawczy TU Delft (dopiero po warunkowej ofercie). Test poziomujący i rozmowa oceniająca są dostępne po otrzymaniu listu przyjęcia.",
+            "selective": false,
+            "studyPlaces": null,
+            "sourceUrl": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/admission-requirements/country-specific-requirements",
+            "quote": "TU Delft: \"Poland Accepted diploma: Swiadectwo Dojrzalosci. You have successfully passed the Matura examination in Mathematics and depending on the BSc program of your choice Physics, Chemistry, Biology. All required subjects must be passed at Advanced Level and each Matura exam taken must be passed with a minimum score of 30%\".",
+            "matura_note": "Polska matura jest wymieniona wprost z warunkiem poziomu rozszerzonego i minimum 30 procent z każdego wymaganego przedmiotu.",
+            "matura_source": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/admission-requirements/country-specific-requirements"
+          },
+          "deadline": "Dla programów bez numerus fixus Studielink i Osiaan do 1 kwietnia (strona nie podaje roku, dotyczy naboru 2027/28, do potwierdzenia). Okres składania wniosków od 15 października.",
+          "applyUrl": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/application-procedure",
+          "sourceUrl": "https://www.tudelft.nl/onderwijs/opleidingen/bachelors/wb/bsc-werktuigbouwkunde",
+          "notes": "TU Delft leży w Delft, w aglomeracji Rotterdam i Haga. Strona po angielsku odsyła do wersji niderlandzkiej. Uczelnia podaje, że bachelor trwa trzy lata.",
+          "sources": [
+            "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/admission-requirements/country-specific-requirements",
+            "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/dates-deadlines",
+            "https://www.tudelft.nl/onderwijs/opleidingen/bachelors/wb/bsc-werktuigbouwkunde/over-de-opleiding/wat-ga-ik-leren"
+          ]
+        }
+      ]
+    }
+  ],
+  "luki": [
+    "Nie udało się potwierdzić czesnego ustawowego na 2027/28 na stronie EUR z opłatami, bo uczelnia opublikowała tam tylko rok 2026/27. Kwota 2 771 EUR pochodzi ze stron RSM i Hogeschool Rotterdam, które podają ją jako obowiązującą w 2027/28.",
+    "Nie ma jeszcze opłat instytucjonalnych (dla osób spoza UE i drugiego dyplomu) na 2027/28 na stronach EUR i TU Delft. Strona programu TU Delft podaje tylko stawki z roku 2025/26.",
+    "Erasmus School of Law nie oferuje w wykazie licencjatów EUR programu prawa po angielsku, a program po niderlandzku nie podaje wymaganych przedmiotów maturalnych ani poziomu niderlandzkiego.",
+    "Medycyna Erasmus MC: strona programu nie wymienia polskiej matury ani wymaganego poziomu niderlandzkiego dla Polski. Wymagania przedmiotowe (biologia, chemia, fizyka, matematyka) i język trzeba potwierdzić w Admissions Office EUR.",
+    "Hogeschool Rotterdam: strony programów nie wymieniają Polski ani wymaganych przedmiotów maturalnych, a poziom angielskiego dla programu International Business nie jest podany na dostępnych stronach. Lista programów Hogeschool Rotterdam jest ładowana dynamicznie i nie udało się pobrać pełnego wykazu, dlatego wybrano kierunki odpowiadające zawodom ze strony.",
+    "Hogeschool Rotterdam i Erasmus School of Law podają termin 1 maja bez roku. Dla naboru 2027/28 trzeba go potwierdzić na stronie uczelni.",
+    "RSM podaje terminy IBA (Studielink 15 stycznia, OLAF 31 stycznia) z rokiem 2026, a nagłówek strony dotyczy 2027/28. Terminy dla naboru 2027/28 do potwierdzenia, najpewniej 15 i 31 stycznia 2027. Wymagania z matematyki i angielskiego dla polskiej matury nie widać na liście RSM.",
+    "TU Delft: selekcja na architekturę (Bouwkunde) na 2027/28 nie była jeszcze opublikowana (uczelnia zapowiada ją na początek października 2026), a limit miejsc podano tylko dla 2026/27 (450). Terminy 15 stycznia i 1 kwietnia na stronach dla studentów zagranicznych nie mają roku.",
+    "Programy Erasmus University Rotterdam o podobnej tematyce do architektury, budownictwa i mechaniki nie istnieją (EUR nie ma kierunków technicznych). Te zawody pokrywają tylko TU Delft w Delft i Hogeschool Rotterdam, w obu przypadkach głównie po niderlandzku.",
+    "Nie dodano programów z zakresu wspólnych dyplomów z TU Delft (Nanobiology, Clinical Technology) oraz Liberal Arts and Sciences, bo nie odpowiadają wprost zawodom ze strony. Osobnego licencjatu data science w Rotterdamie i Delft nie ma, najbliższe są Econometrics and Operations Research (EUR) i Computer Science and Engineering (Delft).",
+    "Daty testów selekcyjnych na psychologię i IBEB (luty i marzec 2027) oraz termin dla medycyny opisano według stron na rok 2027/28, ale kolejne szczegóły organizacyjne uczelnia może zmienić, więc warto je potwierdzić po otwarciu naboru 1 października."
+  ]
+}

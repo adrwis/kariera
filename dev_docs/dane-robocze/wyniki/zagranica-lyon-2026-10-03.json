@@ -1,0 +1,706 @@
+{
+ "city": "Lyon",
+ "country": "Francja",
+ "retrieved": "2026-10-03",
+ "overview": {
+  "polishMatura": "Umowa polsko-francuska z 2008 roku wprost wymienia 'swiadectwo dojrzalosci' jako dokument dający prawo do ubiegania się o miejsce na studiach licence we Francji; warunki i tryb rekrutacji ustala każda strona sama. Matura nie daje więc automatycznego miejsca ani punktacji, o przyjęciu decyduje ranking dossier w Parcoursup. Uczelnie z Lyonu opisują tylko ogólną regułę dla Unii: Lyon 3 pisze, że bac z kraju UE przechodzi przez Parcoursup, a Euroguidance France wskazuje tę platformę dla wszystkich obywateli UE i EOG. Szkoły inżynierskie i programy anglojęzyczne mają własne ścieżki i nie wymieniają Polski.",
+  "polishMaturaSource": "https://www.pologne.campusfrance.org/system/files/medias/documents/2018-07/CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf",
+  "tuition": "Obywatele UE, EOG i Szwajcarii płacą w roku akademickim 2026/27 178 EUR rocznie za licence, 255 EUR za master i 630 EUR za dyplom inżyniera w szkołach pod Ministerstwem Szkolnictwa Wyższego (Écoles Centrales: 2 620 EUR), plus obowiązkowa składka CVEC 105 EUR. Osoby spoza UE płacą za licence 2 902 EUR. Architektura (ENSAL, Ministerstwo Kultury) ma własną stawkę: 390 EUR rocznie w 2025/26. Programy współprowadzone z uczelniami prywatnymi i anglojęzyczne są droższe (7 800 EUR rocznie w IBMMAE na INSA Lyon, 14 650 EUR w BSc Data Science na Centrale Lyon z emlyon).",
+  "tuitionSource": "https://www.campusfrance.org/en/tuition-fees-france",
+  "generalDeadlines": "Parcoursup w cyklu 2026/27: katalog od 17 grudnia 2025, wybory od 19 stycznia do 12 marca 2026, odpowiedzi od 2 czerwca do 11 lipca 2026, faza uzupełniająca od 11 czerwca do 10 września 2026. Terminów na rok akademicki 2027/28 ministerstwo jeszcze nie opublikowało; ENSAL zapowiada otwarcie platformy 17 grudnia 2026. Wejście na wyższe lata (L2, L3) odbywa się przez eCandidat uczelni, z osobnym kalendarzem.",
+  "generalDeadlinesSource": "https://www.euroguidance-france.org/candidater-dans-le-superieur-en-france",
+  "englishProof": "Studia są domyślnie po francusku, a ogólne minimum to B2 (DELF B2, DALF, TCF, TEF), potwierdzane przy zapisie. Program po angielsku w próbce z Lyonu to IBMMAE na INSA Lyon (angielski C1, francuski niewymagany), BSc Data Science for Responsible Business (Centrale Lyon i emlyon) oraz częściowo po angielsku Licence Business Management na Lyon 3. Grupa INSA wymaga od kandydatów z maturą matematyczną spoza Francji certyfikatu DALF C1 z francuskiego w ścieżce na cykl inżynierski.",
+  "englishProofSource": "https://www.insa-lyon.fr/en/international-bachelor",
+  "selection": "Licence na uczelniach publicznych formalnie nie ma egzaminu wstępnego, ale każda oferta ma limit miejsc w Parcoursup, a przy nadmiarze zgłoszeń komisja układa ranking dossier (np. Lyon 3 Droit 11 419 wyborów na 1 205 miejsc w sesji 2025, Lyon 2 Psychologia kilka tysięcy wyborów na pozycję). Medycyna i farmacja wymagają roku PASS lub licence z opcją zdrowotną (LAS) i selekcji na II rok. ENSAL dodaje rozmowę kwalifikacyjną.",
+  "selectionSource": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-parcoursup/"
+ },
+ "sources": [
+  {
+   "url": "https://www.euroguidance-france.org/candidater-dans-le-superieur-en-france",
+   "note": "Euroguidance France: obywatele UE i EOG aplikują przez Parcoursup, wymóg B2 z francuskiego, kalendarz Parcoursup 2026."
+  },
+  {
+   "url": "https://www.pologne.campusfrance.org/system/files/medias/documents/2018-07/CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf",
+   "note": "Umowa polsko-francuska o uznawaniu kwalifikacji (dekret 2009-652), art. 4: świadectwo dojrzałości daje prawo do ubiegania się o licence."
+  },
+  {
+   "url": "https://www.campusfrance.org/en/tuition-fees-france",
+   "note": "Campus France: opłaty roczne 2026/27 dla UE i spoza UE."
+  },
+  {
+   "url": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-parcoursup/",
+   "note": "Dane otwarte ministerstwa (Parcoursup, sesja 2025): pojemność, liczba wyborów i przyjętych."
+  },
+  {
+   "url": "https://www.univ-lyon1.fr/etudiant-international/candidat-international-hors-echange",
+   "note": "Lyon 1: procedura dla kandydatów międzynarodowych zależy od narodowości i kraju matury."
+  },
+  {
+   "url": "https://www.groupe-insa.fr/preparer/comment-candidater/les-procedures/integrer-le-groupe-insa-en-1re-annee",
+   "note": "Grupa INSA: procedury wejścia na pierwszy rok dla świadectw spoza Francji."
+  }
+ ],
+ "universities": [
+  {
+   "name": "Université Claude Bernard Lyon 1",
+   "url": "https://www.univ-lyon1.fr",
+   "type": "uniwersytet",
+   "programs": [
+    {
+     "name": "Licence - Portail Mathématiques-Informatique (MI)",
+     "nameEn": "Bachelor in Mathematics and Computer Science (integration portal)",
+     "careerIds": [
+      "programista",
+      "analityk-danych"
+     ],
+     "level": "licencjat",
+     "durationYears": 3,
+     "durationSource": {
+      "sourceUrl": "https://www.pologne.campusfrance.org/system/files/medias/documents/2018-07/CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf",
+      "quote": "Umowa polsko-francuska: 'la licence, préparée en 6 semestres' (180 ECTS)."
+     },
+     "languages": [
+      "francuski"
+     ],
+     "academicYear": "2027/28 (terminy naboru jeszcze nieopublikowane; podano cykl 2026/27)",
+     "tuition": {
+      "eu": "178 EUR rocznie za licence (rok akademicki 2026/27) plus obowiązkowa składka CVEC 105 EUR rocznie. Obywatele Polski płacą stawkę dla UE.",
+      "nonEu": "2 902 EUR rocznie za licence (rok akademicki 2026/27) plus CVEC 105 EUR; część osób jest zwolniona z podwyższonej stawki.",
+      "sourceUrl": "https://www.campusfrance.org/en/tuition-fees-france",
+      "quote": "Campus France: 'tuition fees for the 2026-2027 academic year are: 178 euros per year for a Bachelor's degree program' (EU/EEA/Switzerland); '2,902 euros per year for a Bachelor's degree program' (spoza UE). CVEC 105 EUR w roku 2026 podaje strona INSA Lyon.",
+      "academicYear": "2026/27"
+     },
+     "admission": {
+      "polishMatura": "uznawana (świadectwo dojrzałości daje prawo do udziału w rekrutacji na licence na mocy umowy polsko-francuskiej; o przyjęciu decyduje ranking Parcoursup)",
+      "requirements": "Rekrutacja przez Parcoursup na podstawie dossier, bez egzaminu wstępnego. Zalecany mocny profil matematyczny (rozszerzona matematyka). Dane z Parcoursup za sesję 2025: 315 miejsc w głównej ofercie, 4 531 wyborów, 312 przyjętych; dodatkowo wariant z opcją zdrowotną (LAS) 35 miejsc.",
+      "languageProof": "Francuski na poziomie B2 jest ogólnym minimum dla studiów we Francji (Euroguidance France: 'maîtrise du français (niveau B2 ou plus)'). Dowód (DELF B2, DALF, TCF, TEF) uczelnia sprawdza przy zapisie; nie wskazano na stronie programu konkretnego certyfikatu.",
+      "selective": true,
+      "sourceUrl": "https://www.euroguidance-france.org/candidater-dans-le-superieur-en-france",
+      "quote": "Strona Lyon 1 dla kandydatów: 'La procédure à suivre dépend de votre nationalité, du pays d'obtention de votre baccalauréat ... ' oraz Euroguidance France: obywatele UE/EOG 'doivent s'inscrire sur la plateforme nationale Parcoursup'. Karta L1 MI: 'première année de licence permettant de s'orienter en L2 vers une licence de mathématiques ou vers une licence d'informatique'. Umowa polsko-francuska (art. 4): 'Le diplôme de baccalauréat ... et le swiadectwo dojrzalosci ... donnent le droit d'entreprendre les procédures d'admission aux études de licence ... dans les établissements en République française'.",
+      "capacitySourceUrl": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-parcoursup/",
+      "recognitionSourceUrl": "https://www.pologne.campusfrance.org/system/files/medias/documents/2018-07/CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf"
+     },
+     "deadline": "Parcoursup, cykl 2026/27 (miniony): wybory od 19 stycznia do 12 marca 2026, odpowiedzi od 2 czerwca do 11 lipca 2026, faza uzupełniająca od 11 czerwca do 10 września 2026. Terminy na rok akademicki 2027/28 nie zostały jeszcze opublikowane. Platforma zwykle otwiera katalog w drugiej połowie grudnia (w 2025 roku od 17 grudnia).",
+     "applyUrl": "https://www.parcoursup.gouv.fr",
+     "sourceUrl": "https://offre-de-formations.univ-lyon1.fr/mention-886/portail-mathematiques-informatique-mi.html",
+     "notes": "Pierwszy rok to wspólna matematyka i informatyka, specjalizację (informatyka albo matematyka) wybiera się w L2. Data science nie jest osobnym kierunkiem licence na tej uczelni; analitykowi danych odpowiada droga przez informatykę lub matematykę i dalej master."
+    },
+    {
+     "name": "Licence - Portail Physique-Chimie-Sciences de l'Ingénieur (PCSI), ścieżka do licence Mécanique",
+     "nameEn": "Bachelor in Physics, Chemistry and Engineering Sciences (integration portal), Mechanics degree",
+     "careerIds": [
+      "inzynier-mechanik"
+     ],
+     "level": "licencjat",
+     "durationYears": 3,
+     "durationSource": {
+      "sourceUrl": "https://www.pologne.campusfrance.org/system/files/medias/documents/2018-07/CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf",
+      "quote": "Umowa polsko-francuska: 'la licence, préparée en 6 semestres' (180 ECTS)."
+     },
+     "languages": [
+      "francuski"
+     ],
+     "academicYear": "2027/28 (terminy naboru jeszcze nieopublikowane; podano cykl 2026/27)",
+     "tuition": {
+      "eu": "178 EUR rocznie za licence (rok akademicki 2026/27) plus obowiązkowa składka CVEC 105 EUR rocznie. Obywatele Polski płacą stawkę dla UE.",
+      "nonEu": "2 902 EUR rocznie za licence (rok akademicki 2026/27) plus CVEC 105 EUR; część osób jest zwolniona z podwyższonej stawki.",
+      "sourceUrl": "https://www.campusfrance.org/en/tuition-fees-france",
+      "quote": "Campus France: 'tuition fees for the 2026-2027 academic year are: 178 euros per year for a Bachelor's degree program' (EU/EEA/Switzerland); '2,902 euros per year for a Bachelor's degree program' (spoza UE). CVEC 105 EUR w roku 2026 podaje strona INSA Lyon.",
+      "academicYear": "2026/27"
+     },
+     "admission": {
+      "polishMatura": "uznawana (świadectwo dojrzałości daje prawo do udziału w rekrutacji na licence na mocy umowy polsko-francuskiej; o przyjęciu decyduje ranking Parcoursup)",
+      "requirements": "Rekrutacja przez Parcoursup na podstawie dossier, bez egzaminu wstępnego. Zalecane silne przedmioty ścisłe. Dane z Parcoursup za sesję 2025: 480 miejsc w głównej ofercie, 5 914 wyborów, 467 przyjętych; wariant z opcją zdrowotną (LAS) 106 miejsc.",
+      "languageProof": "Francuski na poziomie B2 jest ogólnym minimum dla studiów we Francji (Euroguidance France: 'maîtrise du français (niveau B2 ou plus)'). Dowód (DELF B2, DALF, TCF, TEF) uczelnia sprawdza przy zapisie; nie wskazano na stronie programu konkretnego certyfikatu.",
+      "selective": true,
+      "sourceUrl": "https://www.euroguidance-france.org/candidater-dans-le-superieur-en-france",
+      "quote": "Euroguidance France: kandydaci z UE/EOG 'doivent s'inscrire sur la plateforme nationale Parcoursup'. Karta portalu PCSI: 'première année universitaire (L1) qui accueille les titulaires d'un niveau bac intéressé.es par les domaines de la chimie, de la physique et des sciences de l'ingénieur'. Umowa polsko-francuska (art. 4): 'Le diplôme de baccalauréat ... et le swiadectwo dojrzalosci ... donnent le droit d'entreprendre les procédures d'admission aux études de licence ... dans les établissements en République française'.",
+      "capacitySourceUrl": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-parcoursup/",
+      "recognitionSourceUrl": "https://www.pologne.campusfrance.org/system/files/medias/documents/2018-07/CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf"
+     },
+     "deadline": "Parcoursup, cykl 2026/27 (miniony): wybory od 19 stycznia do 12 marca 2026, odpowiedzi od 2 czerwca do 11 lipca 2026, faza uzupełniająca od 11 czerwca do 10 września 2026. Terminy na rok akademicki 2027/28 nie zostały jeszcze opublikowane. Platforma zwykle otwiera katalog w drugiej połowie grudnia (w 2025 roku od 17 grudnia).",
+     "applyUrl": "https://www.parcoursup.gouv.fr",
+     "sourceUrl": "https://offre-de-formations.univ-lyon1.fr/mention-7/mecanique.html",
+     "notes": "Pierwszy rok to wspólny portal PCSI (fizyka, chemia, nauki inżynierskie), a od L2 można wybrać licence Mécanique w dwóch ścieżkach: Mécanique (fundamentalna, pod master lub szkołę inżynierską) i Ingénierie Mécanique (bardziej technologiczna). Licence nie jest dyplomem inżyniera."
+    },
+    {
+     "name": "Licence - Parcours d'Accès Spécifique Santé (PASS)",
+     "nameEn": "Health Access Programme (PASS), first year of medicine, pharmacy, dentistry and midwifery",
+     "careerIds": [
+      "lekarz"
+     ],
+     "level": "jednolite",
+     "durationYears": null,
+     "durationSource": null,
+     "languages": [
+      "francuski"
+     ],
+     "academicYear": "2027/28 (terminy naboru jeszcze nieopublikowane; podano cykl 2026/27)",
+     "tuition": {
+      "eu": "178 EUR rocznie za licence (rok akademicki 2026/27) plus obowiązkowa składka CVEC 105 EUR rocznie. Obywatele Polski płacą stawkę dla UE.",
+      "nonEu": "2 902 EUR rocznie za licence (rok akademicki 2026/27) plus CVEC 105 EUR; część osób jest zwolniona z podwyższonej stawki.",
+      "sourceUrl": "https://www.campusfrance.org/en/tuition-fees-france",
+      "quote": "Campus France: 'tuition fees for the 2026-2027 academic year are: 178 euros per year for a Bachelor's degree program' (EU/EEA/Switzerland); '2,902 euros per year for a Bachelor's degree program' (spoza UE). CVEC 105 EUR w roku 2026 podaje strona INSA Lyon.",
+      "academicYear": "2026/27"
+     },
+     "admission": {
+      "polishMatura": "uznawana (świadectwo dojrzałości daje prawo do udziału w rekrutacji na licence na mocy umowy polsko-francuskiej; o przyjęciu decyduje ranking Parcoursup)",
+      "requirements": "Rekrutacja do PASS przez Parcoursup (sesja 2025: dziesięć pozycji PASS na Lyon 1, łącznie 1 610 miejsc, przy kilku do kilkunastu tysiącach wyborów na pozycję). Po roku PASS (albo po roku licence z opcją zdrowotną LAS) następuje selekcja na drugi rok medycyny, farmacji, stomatologii lub położnictwa; na tej stronie uczelnia nie podaje progów ani liczby miejsc na II rok. Po pozytywnej odpowiedzi w Parcoursup kandydat z zagranicznym świadectwem zapisuje się według osobnej procedury przydziału do ośrodka (Lyon-Est lub Lyon-Sud), której szczegóły uczelnia ma jeszcze opublikować.",
+      "languageProof": "Francuski na poziomie B2 jest ogólnym minimum dla studiów we Francji (Euroguidance France: 'maîtrise du français (niveau B2 ou plus)'). Dowód (DELF B2, DALF, TCF, TEF) uczelnia sprawdza przy zapisie; nie wskazano na stronie programu konkretnego certyfikatu.",
+      "selective": true,
+      "sourceUrl": "https://lyceens.univ-lyon1.fr/inscription",
+      "quote": "Lyon 1: 'Inscription des candidats internationaux ou titulaires d'un baccalauréat étranger - Affectation en PASS ... Lorsque vous recevez une réponse positive sur Parcoursup, vous devez valider cette proposition ... Procédure d'affectation à venir.' Strona o zdrowiu: 'L'accès aux formations est sélectif.' Umowa polsko-francuska (art. 4): 'Le diplôme de baccalauréat ... et le swiadectwo dojrzalosci ... donnent le droit d'entreprendre les procédures d'admission aux études de licence ... dans les établissements en République française'.",
+      "capacitySourceUrl": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-parcoursup/",
+      "recognitionSourceUrl": "https://www.pologne.campusfrance.org/system/files/medias/documents/2018-07/CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf"
+     },
+     "deadline": "Parcoursup, cykl 2026/27 (miniony): wybory od 19 stycznia do 12 marca 2026, odpowiedzi od 2 czerwca do 11 lipca 2026, faza uzupełniająca od 11 czerwca do 10 września 2026. Terminy na rok akademicki 2027/28 nie zostały jeszcze opublikowane. Platforma zwykle otwiera katalog w drugiej połowie grudnia (w 2025 roku od 17 grudnia).",
+     "applyUrl": "https://www.parcoursup.gouv.fr",
+     "sourceUrl": "https://www.univ-lyon1.fr/formation/offre-de-formation/formations-sante",
+     "notes": "Studia lekarskie we Francji prowadzi się po francusku; po PASS następują kolejne lata w Faculté de Médecine Lyon-Est lub Lyon-Sud (Oullins). Liczba lat całej ścieżki do dyplomu lekarza nie została podana na stronach Lyon 1 użytych tutaj, dlatego pole jest puste. Dyplomy medyczne nie są automatycznie uznawane w Polsce; uznanie dyplomu lekarza regulują osobne przepisy i nie było przedmiotem tego zbierania."
+    },
+    {
+     "name": "Licence z opcją zdrowotną (L.AS), portale Matematyka-Informatyka, Fizyka-Chemia-Nauki Inżynierskie, Biologia, Nauki o Zdrowiu, STAPS",
+     "nameEn": "Bachelor with a health minor (LAS), alternative route to medicine",
+     "careerIds": [
+      "lekarz"
+     ],
+     "level": "licencjat",
+     "durationYears": 3,
+     "durationSource": {
+      "sourceUrl": "https://www.pologne.campusfrance.org/system/files/medias/documents/2018-07/CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf",
+      "quote": "Umowa polsko-francuska: 'la licence, préparée en 6 semestres'. Lyon 1 opisuje opcję jako 'Mineure santé L1, L2, L3 LAS'."
+     },
+     "languages": [
+      "francuski"
+     ],
+     "academicYear": "2027/28 (terminy naboru jeszcze nieopublikowane; podano cykl 2026/27)",
+     "tuition": {
+      "eu": "178 EUR rocznie za licence (rok akademicki 2026/27) plus obowiązkowa składka CVEC 105 EUR rocznie. Obywatele Polski płacą stawkę dla UE.",
+      "nonEu": "2 902 EUR rocznie za licence (rok akademicki 2026/27) plus CVEC 105 EUR; część osób jest zwolniona z podwyższonej stawki.",
+      "sourceUrl": "https://www.campusfrance.org/en/tuition-fees-france",
+      "quote": "Campus France: 'tuition fees for the 2026-2027 academic year are: 178 euros per year for a Bachelor's degree program' (EU/EEA/Switzerland); '2,902 euros per year for a Bachelor's degree program' (spoza UE). CVEC 105 EUR w roku 2026 podaje strona INSA Lyon.",
+      "academicYear": "2026/27"
+     },
+     "admission": {
+      "polishMatura": "uznawana (świadectwo dojrzałości daje prawo do udziału w rekrutacji na licence na mocy umowy polsko-francuskiej; o przyjęciu decyduje ranking Parcoursup)",
+      "requirements": "Drugi tor wejścia do studiów zdrowotnych: zwykła licence z mineure santé, po której można ubiegać się o drugi rok medycyny, farmacji, stomatologii lub położnictwa. Rekrutacja przez Parcoursup; w sesji 2025 Lyon 1 miał pięć pozycji LAS (łącznie 391 miejsc: portal Biosciences 150, PCSI 106, Sciences pour la santé 70, Math-Info 35, STAPS 30). Liczba miejsc na II rok dla kandydatów z LAS nie została podana na używanych stronach.",
+      "languageProof": "Francuski na poziomie B2 jest ogólnym minimum dla studiów we Francji (Euroguidance France: 'maîtrise du français (niveau B2 ou plus)'). Dowód (DELF B2, DALF, TCF, TEF) uczelnia sprawdza przy zapisie; nie wskazano na stronie programu konkretnego certyfikatu.",
+      "selective": true,
+      "sourceUrl": "https://offre-de-formations.univ-lyon1.fr/mention-889/mineure-sante-las.html",
+      "quote": "Katalog Lyon 1: mention 'Mineure santé (LAS)' z parcours 'Mineure santé L1 LAS', 'L2 LAS', 'L3 LAS'. Umowa polsko-francuska (art. 4): 'Le diplôme de baccalauréat ... et le swiadectwo dojrzalosci ... donnent le droit d'entreprendre les procédures d'admission aux études de licence ... dans les établissements en République française'.",
+      "capacitySourceUrl": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-parcoursup/",
+      "recognitionSourceUrl": "https://www.pologne.campusfrance.org/system/files/medias/documents/2018-07/CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf"
+     },
+     "deadline": "Parcoursup, cykl 2026/27 (miniony): wybory od 19 stycznia do 12 marca 2026, odpowiedzi od 2 czerwca do 11 lipca 2026, faza uzupełniająca od 11 czerwca do 10 września 2026. Terminy na rok akademicki 2027/28 nie zostały jeszcze opublikowane. Platforma zwykle otwiera katalog w drugiej połowie grudnia (w 2025 roku od 17 grudnia).",
+     "applyUrl": "https://www.parcoursup.gouv.fr",
+     "sourceUrl": "https://www.univ-lyon1.fr/formation/offre-de-formation/formations-sante",
+     "notes": "Wariant do rozważenia obok PASS dla osób, które chcą zachować drogę awaryjną w nauce matematyki lub biologii."
+    }
+   ]
+  },
+  {
+   "name": "Université Lumière Lyon 2",
+   "url": "https://www.univ-lyon2.fr",
+   "type": "uniwersytet",
+   "programs": [
+    {
+     "name": "Licence Psychologie",
+     "nameEn": "Bachelor in Psychology",
+     "careerIds": [
+      "psycholog"
+     ],
+     "level": "licencjat",
+     "durationYears": 3,
+     "durationSource": {
+      "sourceUrl": "https://www.univ-lyon2.fr/catalogue-des-formations/licence-psychologie",
+      "quote": "Karta programu Lyon 2: '180 crédits ECTS, Licence, 3 ans' (aktualizacja 1 października 2026)."
+     },
+     "languages": [
+      "francuski"
+     ],
+     "academicYear": "2027/28 (terminy naboru jeszcze nieopublikowane; podano cykl 2026/27)",
+     "tuition": {
+      "eu": "178 EUR rocznie za licence (rok akademicki 2026/27) plus obowiązkowa składka CVEC 105 EUR rocznie. Obywatele Polski płacą stawkę dla UE.",
+      "nonEu": "2 902 EUR rocznie za licence (rok akademicki 2026/27) plus CVEC 105 EUR; część osób jest zwolniona z podwyższonej stawki.",
+      "sourceUrl": "https://www.campusfrance.org/en/tuition-fees-france",
+      "quote": "Campus France: 'tuition fees for the 2026-2027 academic year are: 178 euros per year for a Bachelor's degree program' (EU/EEA/Switzerland); '2,902 euros per year for a Bachelor's degree program' (spoza UE). CVEC 105 EUR w roku 2026 podaje strona INSA Lyon.",
+      "academicYear": "2026/27"
+     },
+     "admission": {
+      "polishMatura": "uznawana (świadectwo dojrzałości daje prawo do udziału w rekrutacji na licence na mocy umowy polsko-francuskiej; o przyjęciu decyduje ranking Parcoursup)",
+      "requirements": "Rekrutacja przez Parcoursup na podstawie dossier, bez egzaminu wstępnego. Strona programu opisuje oczekiwania (rygor metodologiczny, logiczne myślenie, swoboda wypowiedzi pisemnej i ustnej, dużo czytania). Dane z Parcoursup za sesję 2025: Parcoursup 2025 podaje cztery pozycje tej licence na Lyon 2, łącznie 430 miejsc, z kilkoma tysiącami wyborów na pozycję (np. 7 828 wyborów na 215 miejsc).",
+      "languageProof": "Francuski na poziomie B2 jest ogólnym minimum dla studiów we Francji (Euroguidance France: 'maîtrise du français (niveau B2 ou plus)'). Dowód (DELF B2, DALF, TCF, TEF) uczelnia sprawdza przy zapisie; nie wskazano na stronie programu konkretnego certyfikatu.",
+      "selective": true,
+      "sourceUrl": "https://www.univ-lyon2.fr/formation/candidatures",
+      "quote": "Strona kandydowania Lyon 2: 'Relèvent de la procédure Parcoursup les élèves actuellement en Terminale, les titulaires d'un baccalauréat ou équivalent ...'; strona programu: 'les candidatures s'effectuent via Parcoursup. Les candidates et candidats non européens peuvent relever d'une procédure spécifique, notamment la Demande d'admission préalable (DAP)'. Umowa polsko-francuska (art. 4): 'Le diplôme de baccalauréat ... et le swiadectwo dojrzalosci ... donnent le droit d'entreprendre les procédures d'admission aux études de licence ... dans les établissements en République française'.",
+      "capacitySourceUrl": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-parcoursup/",
+      "recognitionSourceUrl": "https://www.pologne.campusfrance.org/system/files/medias/documents/2018-07/CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf"
+     },
+     "deadline": "Parcoursup, cykl 2026/27 (miniony): wybory od 19 stycznia do 12 marca 2026, odpowiedzi od 2 czerwca do 11 lipca 2026, faza uzupełniająca od 11 czerwca do 10 września 2026. Terminy na rok akademicki 2027/28 nie zostały jeszcze opublikowane. Platforma zwykle otwiera katalog w drugiej połowie grudnia (w 2025 roku od 17 grudnia).",
+     "applyUrl": "https://www.parcoursup.gouv.fr",
+     "sourceUrl": "https://www.univ-lyon2.fr/catalogue-des-formations/licence-psychologie",
+     "notes": "Zajęcia na kampusie Porte des Alpes w Bron. Licence jest zgodna z krajowym programem psychologii (RNCP 39023). Zawód psychologa wymaga potem masteru."
+    },
+    {
+     "name": "Licence Informatique",
+     "nameEn": "Bachelor in Computer Science",
+     "careerIds": [
+      "programista",
+      "analityk-danych"
+     ],
+     "level": "licencjat",
+     "durationYears": 3,
+     "durationSource": {
+      "sourceUrl": "https://www.univ-lyon2.fr/catalogue-des-formations/licence-informatique",
+      "quote": "Karta programu Lyon 2: '180 crédits ECTS, Licence, 3 ans' (aktualizacja 1 października 2026)."
+     },
+     "languages": [
+      "francuski"
+     ],
+     "academicYear": "2027/28 (terminy naboru jeszcze nieopublikowane; podano cykl 2026/27)",
+     "tuition": {
+      "eu": "178 EUR rocznie za licence (rok akademicki 2026/27) plus obowiązkowa składka CVEC 105 EUR rocznie. Obywatele Polski płacą stawkę dla UE.",
+      "nonEu": "2 902 EUR rocznie za licence (rok akademicki 2026/27) plus CVEC 105 EUR; część osób jest zwolniona z podwyższonej stawki.",
+      "sourceUrl": "https://www.campusfrance.org/en/tuition-fees-france",
+      "quote": "Campus France: 'tuition fees for the 2026-2027 academic year are: 178 euros per year for a Bachelor's degree program' (EU/EEA/Switzerland); '2,902 euros per year for a Bachelor's degree program' (spoza UE). CVEC 105 EUR w roku 2026 podaje strona INSA Lyon.",
+      "academicYear": "2026/27"
+     },
+     "admission": {
+      "polishMatura": "uznawana (świadectwo dojrzałości daje prawo do udziału w rekrutacji na licence na mocy umowy polsko-francuskiej; o przyjęciu decyduje ranking Parcoursup)",
+      "requirements": "Rekrutacja przez Parcoursup na podstawie dossier, bez egzaminu wstępnego. Dane z Parcoursup za sesję 2025: Parcoursup 2025: dwie pozycje, łącznie 92 miejsca (60 i 32), 3 474 wybory łącznie.",
+      "languageProof": "Francuski na poziomie B2 jest ogólnym minimum dla studiów we Francji (Euroguidance France: 'maîtrise du français (niveau B2 ou plus)'). Dowód (DELF B2, DALF, TCF, TEF) uczelnia sprawdza przy zapisie; nie wskazano na stronie programu konkretnego certyfikatu.",
+      "selective": true,
+      "sourceUrl": "https://www.univ-lyon2.fr/formation/candidatures",
+      "quote": "Strona kandydowania Lyon 2: 'Relèvent de la procédure Parcoursup les élèves actuellement en Terminale, les titulaires d'un baccalauréat ou équivalent ...'; strona programu: 'les candidatures s'effectuent via Parcoursup. Les candidates et candidats non européens peuvent relever d'une procédure spécifique, notamment la Demande d'admission préalable (DAP)'. Umowa polsko-francuska (art. 4): 'Le diplôme de baccalauréat ... et le swiadectwo dojrzalosci ... donnent le droit d'entreprendre les procédures d'admission aux études de licence ... dans les établissements en République française'.",
+      "capacitySourceUrl": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-parcoursup/",
+      "recognitionSourceUrl": "https://www.pologne.campusfrance.org/system/files/medias/documents/2018-07/CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf"
+     },
+     "deadline": "Parcoursup, cykl 2026/27 (miniony): wybory od 19 stycznia do 12 marca 2026, odpowiedzi od 2 czerwca do 11 lipca 2026, faza uzupełniająca od 11 czerwca do 10 września 2026. Terminy na rok akademicki 2027/28 nie zostały jeszcze opublikowane. Platforma zwykle otwiera katalog w drugiej połowie grudnia (w 2025 roku od 17 grudnia).",
+     "applyUrl": "https://www.parcoursup.gouv.fr",
+     "sourceUrl": "https://www.univ-lyon2.fr/catalogue-des-formations/licence-informatique",
+     "notes": "Kampus Porte des Alpes w Bron. Od pierwszego roku dwie opcje przygotowują do ścieżek L3: Création numérique oraz Sciences des données, co jest najbliższą data science propozycją na Lyon 2. W 6. semestrze obowiązkowy staż."
+    },
+    {
+     "name": "Licence Mathématiques et informatique appliquées aux sciences humaines et sociales (MIASHS)",
+     "nameEn": "Bachelor in Applied Mathematics and Computer Science for Humanities and Social Sciences",
+     "careerIds": [
+      "analityk-danych"
+     ],
+     "level": "licencjat",
+     "durationYears": 3,
+     "durationSource": {
+      "sourceUrl": "https://www.univ-lyon2.fr/catalogue-des-formations/licence-mathematiques-et-informatique-appliquees-aux-sciences-humaines-et-sociales-miashs",
+      "quote": "Karta programu Lyon 2: '180 crédits ECTS, Licence, 3 ans' (aktualizacja 1 października 2026)."
+     },
+     "languages": [
+      "francuski"
+     ],
+     "academicYear": "2027/28 (terminy naboru jeszcze nieopublikowane; podano cykl 2026/27)",
+     "tuition": {
+      "eu": "178 EUR rocznie za licence (rok akademicki 2026/27) plus obowiązkowa składka CVEC 105 EUR rocznie. Obywatele Polski płacą stawkę dla UE.",
+      "nonEu": "2 902 EUR rocznie za licence (rok akademicki 2026/27) plus CVEC 105 EUR; część osób jest zwolniona z podwyższonej stawki.",
+      "sourceUrl": "https://www.campusfrance.org/en/tuition-fees-france",
+      "quote": "Campus France: 'tuition fees for the 2026-2027 academic year are: 178 euros per year for a Bachelor's degree program' (EU/EEA/Switzerland); '2,902 euros per year for a Bachelor's degree program' (spoza UE). CVEC 105 EUR w roku 2026 podaje strona INSA Lyon.",
+      "academicYear": "2026/27"
+     },
+     "admission": {
+      "polishMatura": "uznawana (świadectwo dojrzałości daje prawo do udziału w rekrutacji na licence na mocy umowy polsko-francuskiej; o przyjęciu decyduje ranking Parcoursup)",
+      "requirements": "Rekrutacja przez Parcoursup na podstawie dossier, bez egzaminu wstępnego. Dane z Parcoursup za sesję 2025: Parcoursup 2025: sześć pozycji (po jednej na ścieżkę dyscyplinarną), łącznie 126 miejsc.",
+      "languageProof": "Francuski na poziomie B2 jest ogólnym minimum dla studiów we Francji (Euroguidance France: 'maîtrise du français (niveau B2 ou plus)'). Dowód (DELF B2, DALF, TCF, TEF) uczelnia sprawdza przy zapisie; nie wskazano na stronie programu konkretnego certyfikatu.",
+      "selective": true,
+      "sourceUrl": "https://www.univ-lyon2.fr/formation/candidatures",
+      "quote": "Strona kandydowania Lyon 2: 'Relèvent de la procédure Parcoursup les élèves actuellement en Terminale, les titulaires d'un baccalauréat ou équivalent ...'; strona programu: 'les candidatures s'effectuent via Parcoursup. Les candidates et candidats non européens peuvent relever d'une procédure spécifique, notamment la Demande d'admission préalable (DAP)'. Umowa polsko-francuska (art. 4): 'Le diplôme de baccalauréat ... et le swiadectwo dojrzalosci ... donnent le droit d'entreprendre les procédures d'admission aux études de licence ... dans les établissements en République française'.",
+      "capacitySourceUrl": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-parcoursup/",
+      "recognitionSourceUrl": "https://www.pologne.campusfrance.org/system/files/medias/documents/2018-07/CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf"
+     },
+     "deadline": "Parcoursup, cykl 2026/27 (miniony): wybory od 19 stycznia do 12 marca 2026, odpowiedzi od 2 czerwca do 11 lipca 2026, faza uzupełniająca od 11 czerwca do 10 września 2026. Terminy na rok akademicki 2027/28 nie zostały jeszcze opublikowane. Platforma zwykle otwiera katalog w drugiej połowie grudnia (w 2025 roku od 17 grudnia).",
+     "applyUrl": "https://www.parcoursup.gouv.fr",
+     "sourceUrl": "https://www.univ-lyon2.fr/catalogue-des-formations/licence-mathematiques-et-informatique-appliquees-aux-sciences-humaines-et-sociales-miashs",
+     "notes": "Statystyka, matematyka i informatyka stosowane do jednej z sześciu nauk humanistycznych lub społecznych; dobra baza pod analizę danych. Kampus Porte des Alpes."
+    },
+    {
+     "name": "Licence Information-Communication",
+     "nameEn": "Bachelor in Information and Communication",
+     "careerIds": [
+      "dziennikarz"
+     ],
+     "level": "licencjat",
+     "durationYears": 3,
+     "durationSource": {
+      "sourceUrl": "https://www.univ-lyon2.fr/catalogue-des-formations/licence-information-communication",
+      "quote": "Karta programu Lyon 2: '180 crédits ECTS, Licence, 3 ans' (aktualizacja 1 października 2026)."
+     },
+     "languages": [
+      "francuski"
+     ],
+     "academicYear": "2027/28 (terminy naboru jeszcze nieopublikowane; podano cykl 2026/27)",
+     "tuition": {
+      "eu": "178 EUR rocznie za licence (rok akademicki 2026/27) plus obowiązkowa składka CVEC 105 EUR rocznie. Obywatele Polski płacą stawkę dla UE.",
+      "nonEu": "2 902 EUR rocznie za licence (rok akademicki 2026/27) plus CVEC 105 EUR; część osób jest zwolniona z podwyższonej stawki.",
+      "sourceUrl": "https://www.campusfrance.org/en/tuition-fees-france",
+      "quote": "Campus France: 'tuition fees for the 2026-2027 academic year are: 178 euros per year for a Bachelor's degree program' (EU/EEA/Switzerland); '2,902 euros per year for a Bachelor's degree program' (spoza UE). CVEC 105 EUR w roku 2026 podaje strona INSA Lyon.",
+      "academicYear": "2026/27"
+     },
+     "admission": {
+      "polishMatura": "uznawana (świadectwo dojrzałości daje prawo do udziału w rekrutacji na licence na mocy umowy polsko-francuskiej; o przyjęciu decyduje ranking Parcoursup)",
+      "requirements": "Rekrutacja przez Parcoursup na podstawie dossier, bez egzaminu wstępnego. Dane z Parcoursup za sesję 2025: Parcoursup 2025: pięć pozycji, łącznie 375 miejsc (m.in. 125 i 123), ponad tysiąc wyborów na większość pozycji.",
+      "languageProof": "Francuski na poziomie B2 jest ogólnym minimum dla studiów we Francji (Euroguidance France: 'maîtrise du français (niveau B2 ou plus)'). Dowód (DELF B2, DALF, TCF, TEF) uczelnia sprawdza przy zapisie; nie wskazano na stronie programu konkretnego certyfikatu.",
+      "selective": true,
+      "sourceUrl": "https://www.univ-lyon2.fr/formation/candidatures",
+      "quote": "Strona kandydowania Lyon 2: 'Relèvent de la procédure Parcoursup les élèves actuellement en Terminale, les titulaires d'un baccalauréat ou équivalent ...'; strona programu: 'les candidatures s'effectuent via Parcoursup. Les candidates et candidats non européens peuvent relever d'une procédure spécifique, notamment la Demande d'admission préalable (DAP)'. Umowa polsko-francuska (art. 4): 'Le diplôme de baccalauréat ... et le swiadectwo dojrzalosci ... donnent le droit d'entreprendre les procédures d'admission aux études de licence ... dans les établissements en République française'.",
+      "capacitySourceUrl": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-parcoursup/",
+      "recognitionSourceUrl": "https://www.pologne.campusfrance.org/system/files/medias/documents/2018-07/CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf"
+     },
+     "deadline": "Parcoursup, cykl 2026/27 (miniony): wybory od 19 stycznia do 12 marca 2026, odpowiedzi od 2 czerwca do 11 lipca 2026, faza uzupełniająca od 11 czerwca do 10 września 2026. Terminy na rok akademicki 2027/28 nie zostały jeszcze opublikowane. Platforma zwykle otwiera katalog w drugiej połowie grudnia (w 2025 roku od 17 grudnia).",
+     "applyUrl": "https://www.parcoursup.gouv.fr",
+     "sourceUrl": "https://www.univ-lyon2.fr/catalogue-des-formations/licence-information-communication",
+     "notes": "Licence ogólna o komunikacji, bez profilu stricte dziennikarskiego; dziennikarstwo wymaga zwykle dalszej specjalizacji na masterze lub w szkole dziennikarskiej. Kampus Porte des Alpes. Jest też wariant francusko-niemiecki 'Culture européenne des médias' (15 miejsc)."
+    },
+    {
+     "name": "Licence Économie et gestion",
+     "nameEn": "Bachelor in Economics and Management",
+     "careerIds": [
+      "ekonomista"
+     ],
+     "level": "licencjat",
+     "durationYears": 3,
+     "durationSource": {
+      "sourceUrl": "https://www.univ-lyon2.fr/catalogue-des-formations/licence-economie-et-gestion",
+      "quote": "Karta programu Lyon 2: '180 crédits ECTS, Licence, 3 ans' (aktualizacja 1 października 2026)."
+     },
+     "languages": [
+      "francuski"
+     ],
+     "academicYear": "2027/28 (terminy naboru jeszcze nieopublikowane; podano cykl 2026/27)",
+     "tuition": {
+      "eu": "178 EUR rocznie za licence (rok akademicki 2026/27) plus obowiązkowa składka CVEC 105 EUR rocznie. Obywatele Polski płacą stawkę dla UE.",
+      "nonEu": "2 902 EUR rocznie za licence (rok akademicki 2026/27) plus CVEC 105 EUR; część osób jest zwolniona z podwyższonej stawki.",
+      "sourceUrl": "https://www.campusfrance.org/en/tuition-fees-france",
+      "quote": "Campus France: 'tuition fees for the 2026-2027 academic year are: 178 euros per year for a Bachelor's degree program' (EU/EEA/Switzerland); '2,902 euros per year for a Bachelor's degree program' (spoza UE). CVEC 105 EUR w roku 2026 podaje strona INSA Lyon.",
+      "academicYear": "2026/27"
+     },
+     "admission": {
+      "polishMatura": "uznawana (świadectwo dojrzałości daje prawo do udziału w rekrutacji na licence na mocy umowy polsko-francuskiej; o przyjęciu decyduje ranking Parcoursup)",
+      "requirements": "Rekrutacja przez Parcoursup na podstawie dossier, bez egzaminu wstępnego. Zalecane: matematyka i nauki ekonomiczno-społeczne. Dane z Parcoursup za sesję 2025: Parcoursup 2025: pięć pozycji, łącznie 360 miejsc, od 2 827 do 5 145 wyborów na pozycję.",
+      "languageProof": "Francuski na poziomie B2 jest ogólnym minimum dla studiów we Francji (Euroguidance France: 'maîtrise du français (niveau B2 ou plus)'). Dowód (DELF B2, DALF, TCF, TEF) uczelnia sprawdza przy zapisie; nie wskazano na stronie programu konkretnego certyfikatu.",
+      "selective": true,
+      "sourceUrl": "https://www.univ-lyon2.fr/formation/candidatures",
+      "quote": "Strona kandydowania Lyon 2: 'Relèvent de la procédure Parcoursup les élèves actuellement en Terminale, les titulaires d'un baccalauréat ou équivalent ...'; strona programu: 'les candidatures s'effectuent via Parcoursup. Les candidates et candidats non européens peuvent relever d'une procédure spécifique, notamment la Demande d'admission préalable (DAP)'. Umowa polsko-francuska (art. 4): 'Le diplôme de baccalauréat ... et le swiadectwo dojrzalosci ... donnent le droit d'entreprendre les procédures d'admission aux études de licence ... dans les établissements en République française'.",
+      "capacitySourceUrl": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-parcoursup/",
+      "recognitionSourceUrl": "https://www.pologne.campusfrance.org/system/files/medias/documents/2018-07/CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf"
+     },
+     "deadline": "Parcoursup, cykl 2026/27 (miniony): wybory od 19 stycznia do 12 marca 2026, odpowiedzi od 2 czerwca do 11 lipca 2026, faza uzupełniająca od 11 czerwca do 10 września 2026. Terminy na rok akademicki 2027/28 nie zostały jeszcze opublikowane. Platforma zwykle otwiera katalog w drugiej połowie grudnia (w 2025 roku od 17 grudnia).",
+     "applyUrl": "https://www.parcoursup.gouv.fr",
+     "sourceUrl": "https://www.univ-lyon2.fr/catalogue-des-formations/licence-economie-et-gestion",
+     "notes": "Kampus Berges du Rhône (centrum Lyonu). Strona programu zaleca w liceum matematykę i nauki ekonomiczno-społeczne, a przy ich braku matematykę dodatkową."
+    },
+    {
+     "name": "Licence Droit",
+     "nameEn": "Bachelor in Law",
+     "careerIds": [
+      "prawnik"
+     ],
+     "level": "licencjat",
+     "durationYears": 3,
+     "durationSource": {
+      "sourceUrl": "https://www.univ-lyon2.fr/catalogue-des-formations/licence-droit",
+      "quote": "Karta programu Lyon 2: '180 crédits ECTS, Licence, 3 ans' (aktualizacja 1 października 2026)."
+     },
+     "languages": [
+      "francuski"
+     ],
+     "academicYear": "2027/28 (terminy naboru jeszcze nieopublikowane; podano cykl 2026/27)",
+     "tuition": {
+      "eu": "178 EUR rocznie za licence (rok akademicki 2026/27) plus obowiązkowa składka CVEC 105 EUR rocznie. Obywatele Polski płacą stawkę dla UE.",
+      "nonEu": "2 902 EUR rocznie za licence (rok akademicki 2026/27) plus CVEC 105 EUR; część osób jest zwolniona z podwyższonej stawki.",
+      "sourceUrl": "https://www.campusfrance.org/en/tuition-fees-france",
+      "quote": "Campus France: 'tuition fees for the 2026-2027 academic year are: 178 euros per year for a Bachelor's degree program' (EU/EEA/Switzerland); '2,902 euros per year for a Bachelor's degree program' (spoza UE). CVEC 105 EUR w roku 2026 podaje strona INSA Lyon.",
+      "academicYear": "2026/27"
+     },
+     "admission": {
+      "polishMatura": "uznawana (świadectwo dojrzałości daje prawo do udziału w rekrutacji na licence na mocy umowy polsko-francuskiej; o przyjęciu decyduje ranking Parcoursup)",
+      "requirements": "Rekrutacja przez Parcoursup na podstawie dossier, bez egzaminu wstępnego. Dane z Parcoursup za sesję 2025: Parcoursup 2025: pięć pozycji, łącznie 551 miejsc (m.in. 152, 115 i 113), od 1 980 do 6 433 wyborów na pozycję.",
+      "languageProof": "Francuski na poziomie B2 jest ogólnym minimum dla studiów we Francji (Euroguidance France: 'maîtrise du français (niveau B2 ou plus)'). Dowód (DELF B2, DALF, TCF, TEF) uczelnia sprawdza przy zapisie; nie wskazano na stronie programu konkretnego certyfikatu.",
+      "selective": true,
+      "sourceUrl": "https://www.univ-lyon2.fr/formation/candidatures",
+      "quote": "Strona kandydowania Lyon 2: 'Relèvent de la procédure Parcoursup les élèves actuellement en Terminale, les titulaires d'un baccalauréat ou équivalent ...'; strona programu: 'les candidatures s'effectuent via Parcoursup. Les candidates et candidats non européens peuvent relever d'une procédure spécifique, notamment la Demande d'admission préalable (DAP)'. Umowa polsko-francuska (art. 4): 'Le diplôme de baccalauréat ... et le swiadectwo dojrzalosci ... donnent le droit d'entreprendre les procédures d'admission aux études de licence ... dans les établissements en République française'.",
+      "capacitySourceUrl": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-parcoursup/",
+      "recognitionSourceUrl": "https://www.pologne.campusfrance.org/system/files/medias/documents/2018-07/CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf"
+     },
+     "deadline": "Parcoursup, cykl 2026/27 (miniony): wybory od 19 stycznia do 12 marca 2026, odpowiedzi od 2 czerwca do 11 lipca 2026, faza uzupełniająca od 11 czerwca do 10 września 2026. Terminy na rok akademicki 2027/28 nie zostały jeszcze opublikowane. Platforma zwykle otwiera katalog w drugiej połowie grudnia (w 2025 roku od 17 grudnia).",
+     "applyUrl": "https://www.parcoursup.gouv.fr",
+     "sourceUrl": "https://www.univ-lyon2.fr/catalogue-des-formations/licence-droit",
+     "notes": "Kampus Berges du Rhône, Faculté de Droit Julie-Victoire Daubié. Licence z prawa francuskiego, bez przygotowania do polskiego zawodu prawnika."
+    }
+   ]
+  },
+  {
+   "name": "Université Jean Moulin Lyon 3",
+   "url": "https://www.univ-lyon3.fr",
+   "type": "uniwersytet",
+   "programs": [
+    {
+     "name": "Licence Droit (portail Droit)",
+     "nameEn": "Bachelor in Law",
+     "careerIds": [
+      "prawnik"
+     ],
+     "level": "licencjat",
+     "durationYears": 3,
+     "durationSource": {
+      "sourceUrl": "https://facdedroit.univ-lyon3.fr/licence",
+      "quote": "Faculté de Droit Lyon 3: 'Le cursus Licence est une formation à Bac +3 sur six semestres où l'étudiant devra capitaliser 180 Crédits.'"
+     },
+     "languages": [
+      "francuski"
+     ],
+     "academicYear": "2027/28 (terminy naboru jeszcze nieopublikowane; podano cykl 2026/27)",
+     "tuition": {
+      "eu": "178 EUR rocznie za licence (rok akademicki 2026/27) plus obowiązkowa składka CVEC 105 EUR rocznie. Obywatele Polski płacą stawkę dla UE.",
+      "nonEu": "2 902 EUR rocznie za licence (rok akademicki 2026/27) plus CVEC 105 EUR; część osób jest zwolniona z podwyższonej stawki.",
+      "sourceUrl": "https://www.campusfrance.org/en/tuition-fees-france",
+      "quote": "Campus France: 'tuition fees for the 2026-2027 academic year are: 178 euros per year for a Bachelor's degree program' (EU/EEA/Switzerland); '2,902 euros per year for a Bachelor's degree program' (spoza UE). CVEC 105 EUR w roku 2026 podaje strona INSA Lyon.",
+      "academicYear": "2026/27"
+     },
+     "admission": {
+      "polishMatura": "uznawana (świadectwo dojrzałości daje prawo do udziału w rekrutacji na licence na mocy umowy polsko-francuskiej; o przyjęciu decyduje ranking Parcoursup)",
+      "requirements": "Rekrutacja przez Parcoursup na podstawie dossier, bez egzaminu wstępnego. Dane z Parcoursup za sesję 2025: Parcoursup 2025: portail Droit 1 205 miejsc przy 11 419 wyborach (1 233 przyjętych), plus wariant z opcją zdrowotną 60 miejsc.",
+      "languageProof": "Francuski na poziomie B2 jest ogólnym minimum dla studiów we Francji (Euroguidance France: 'maîtrise du français (niveau B2 ou plus)'). Dowód (DELF B2, DALF, TCF, TEF) uczelnia sprawdza przy zapisie; nie wskazano na stronie programu konkretnego certyfikatu.",
+      "selective": true,
+      "sourceUrl": "https://facdedroit.univ-lyon3.fr/admission",
+      "quote": "Faculté de Droit Lyon 3: 'Vous allez obtenir votre baccalauréat cette année en France ou dans l'un des pays membre de l'Union européenne ... vous relevez de la procédure Parcoursup.' Umowa polsko-francuska (art. 4): 'Le diplôme de baccalauréat ... et le swiadectwo dojrzalosci ... donnent le droit d'entreprendre les procédures d'admission aux études de licence ... dans les établissements en République française'.",
+      "capacitySourceUrl": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-parcoursup/",
+      "recognitionSourceUrl": "https://www.pologne.campusfrance.org/system/files/medias/documents/2018-07/CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf"
+     },
+     "deadline": "Parcoursup, cykl 2026/27 (miniony): wybory od 19 stycznia do 12 marca 2026, odpowiedzi od 2 czerwca do 11 lipca 2026, faza uzupełniająca od 11 czerwca do 10 września 2026. Terminy na rok akademicki 2027/28 nie zostały jeszcze opublikowane. Platforma zwykle otwiera katalog w drugiej połowie grudnia (w 2025 roku od 17 grudnia). Faculté podaje: wybory od 19 stycznia do 12 marca 2026 włącznie (cykl 2026/27).",
+     "applyUrl": "https://www.parcoursup.gouv.fr",
+     "sourceUrl": "https://facdedroit.univ-lyon3.fr/licence",
+     "notes": "Faculté de Droit Lyon 3 podaje licence o sześciu semestrach z profilami droit privé i droit public w semestrach 5 i 6. Licence z prawa francuskiego, bez przygotowania do polskiego zawodu prawnika."
+    },
+    {
+     "name": "Licence Gestion, parcours Business Management (iaelyon, częściowo po angielsku)",
+     "nameEn": "Bachelor in Business Management (about 50% of courses in English in years 1 and 2)",
+     "careerIds": [
+      "ekonomista"
+     ],
+     "level": "licencjat",
+     "durationYears": 3,
+     "durationSource": {
+      "sourceUrl": "https://iae.univ-lyon3.fr/licence-business-management-2",
+      "quote": "iaelyon: '3 ans (accès L1) ou 1 an (accès L3)'."
+     },
+     "languages": [
+      "francuski i angielski (około 50% zajęć po angielsku w latach 1 i 2)"
+     ],
+     "academicYear": "2027/28 (terminy naboru jeszcze nieopublikowane; podano cykl 2026/27)",
+     "tuition": {
+      "eu": "178 EUR rocznie za licence (rok akademicki 2026/27) plus obowiązkowa składka CVEC 105 EUR rocznie. Obywatele Polski płacą stawkę dla UE.",
+      "nonEu": "2 902 EUR rocznie za licence (rok akademicki 2026/27) plus CVEC 105 EUR; część osób jest zwolniona z podwyższonej stawki.",
+      "sourceUrl": "https://www.campusfrance.org/en/tuition-fees-france",
+      "quote": "Campus France: 'tuition fees for the 2026-2027 academic year are: 178 euros per year for a Bachelor's degree program' (EU/EEA/Switzerland); '2,902 euros per year for a Bachelor's degree program' (spoza UE). CVEC 105 EUR w roku 2026 podaje strona INSA Lyon.",
+      "academicYear": "2026/27"
+     },
+     "admission": {
+      "polishMatura": "uznawana (świadectwo dojrzałości daje prawo do udziału w rekrutacji na licence na mocy umowy polsko-francuskiej; o przyjęciu decyduje ranking Parcoursup)",
+      "requirements": "Rekrutacja przez Parcoursup: komisja ocenia wyniki, CV i list motywacyjny po angielsku oraz wynik testu z angielskiego, potem rozmowa po angielsku. Dane z Parcoursup za sesję 2025: Parcoursup 2025: 45 miejsc, 3 584 wybory, 44 przyjętych. Program liczy około 60 osób na rok razem ze studentami wymiany.",
+      "languageProof": "Angielski: dobry poziom, potwierdzony wynikiem TOEIC, TOEFL, IELTS lub Cambridge (strona nie podaje minimalnego wyniku); francuski ogólnie na poziomie B2 (Euroguidance France).",
+      "selective": true,
+      "sourceUrl": "https://facdedroit.univ-lyon3.fr/admission",
+      "quote": "Strona iaelyon: 'Nouveaux bacheliers ... La Licence Business Management sur ParcourSup. Etude du dossier par la commission d'admission : résultats académiques + CV et lettre de motivation en anglais + score TOEIC ou TOEFL ou IELTS ou Cambridge. Entretien de motivation en anglais pour les étudiants pré-sélectionnés.' Lyon 3 (wydział prawa): bac z kraju UE przechodzi przez Parcoursup. Umowa polsko-francuska (art. 4): 'Le diplôme de baccalauréat ... et le swiadectwo dojrzalosci ... donnent le droit d'entreprendre les procédures d'admission aux études de licence ... dans les établissements en République française'.",
+      "capacitySourceUrl": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-parcoursup/",
+      "recognitionSourceUrl": "https://www.pologne.campusfrance.org/system/files/medias/documents/2018-07/CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf"
+     },
+     "deadline": "Parcoursup, cykl 2026/27 (miniony): wybory od 19 stycznia do 12 marca 2026, odpowiedzi od 2 czerwca do 11 lipca 2026, faza uzupełniająca od 11 czerwca do 10 września 2026. Terminy na rok akademicki 2027/28 nie zostały jeszcze opublikowane. Platforma zwykle otwiera katalog w drugiej połowie grudnia (w 2025 roku od 17 grudnia).",
+     "applyUrl": "https://www.parcoursup.gouv.fr",
+     "sourceUrl": "https://iae.univ-lyon3.fr/licence-business-management-2",
+     "notes": "Połowa zajęć z zarządzania po angielsku w pierwszym i drugim roku, plus drugi język nowożytny do wyboru (niemiecki, hiszpański, włoski; kursy nie dla początkujących). Trzeci rok można spędzić na uczelni partnerskiej za granicą lub we Francji w programie w pełni po angielsku. Nie jest to program wyłącznie anglojęzyczny, więc francuski pozostaje potrzebny. Uczelnia wymaga CV i listu motywacyjnego po angielsku, wyniku TOEIC, TOEFL, IELTS lub Cambridge oraz rozmowy po angielsku z osobami wstępnie wybranymi. Kampus Manufacture des Tabacs."
+    }
+   ]
+  },
+  {
+   "name": "INSA Lyon",
+   "url": "https://www.insa-lyon.fr",
+   "type": "politechnika",
+   "programs": [
+    {
+     "name": "Cursus ingénieur INSA Lyon (5 lat po maturze, specjalności m.in. Informatique, Génie civil et urbanisme, Génie mécanique)",
+     "nameEn": "INSA Lyon engineering degree (5-year integrated programme after the baccalaureate)",
+     "careerIds": [
+      "programista",
+      "inzynier-budownictwa",
+      "inzynier-mechanik"
+     ],
+     "level": "jednolite",
+     "durationYears": 5,
+     "durationSource": {
+      "sourceUrl": "https://www.insa-lyon.fr/fr/admission",
+      "quote": "INSA Lyon: 'Les études d'ingénieur INSA, d'une durée de 5 années post-bac, sont accessibles à tous les niveaux.'"
+     },
+     "languages": [
+      "francuski"
+     ],
+     "academicYear": "2027/28 (terminy naboru jeszcze nieopublikowane; podano cykl 2026/27)",
+     "tuition": {
+      "eu": "Według stawki Campus France dla szkół inżynierskich pod nadzorem Ministerstwa Szkolnictwa Wyższego: 630 EUR rocznie (rok akademicki 2026/27) plus CVEC 105 EUR. Dokładna kwota INSA Lyon do potwierdzenia na stronie uczelni. Opłata aplikacyjna do grupy INSA: 105 EUR.",
+      "nonEu": null,
+      "sourceUrl": "https://www.campusfrance.org/en/tuition-fees-france",
+      "quote": "Campus France: '630 euros per year for an engineering degree program at an institution under the supervision of the French Ministry of Higher Education and Research'. Groupe INSA: 'Droits de candidature : 105 euros pour tous les candidats'.",
+      "academicYear": "2026/27"
+     },
+     "admission": {
+      "polishMatura": "wymaga potwierdzenia przez uczelnię",
+      "requirements": "INSA Lyon rekrutuje w ramach grupy INSA (7 szkół). Dla świadectw spoza Francji grupa INSA ma osobne ścieżki (m.in. 'bac mathématiques délivré par un autre pays', 'candidature spécifique en filière internationale', z osobną pulą 'Europe'); żadna ze stron nie wymienia Polski ani polskiej matury. Strona dla matury matematycznej spoza Francji wymaga dosłownie 'DALF C1 en langue française avec un test officiel'. We francuskim Parcoursup INSA Lyon miał w 2025 roku 664 miejsca w ścieżce dla ogólnego bac przy 16 884 wyborach. Strony grupy INSA zapowiadają aktualizację informacji na listopad.",
+      "languageProof": "Francuski: według grupy INSA DALF C1 dla kandydatów z maturą matematyczną spoza Francji (wyższy poziom niż ogólne B2).",
+      "selective": true,
+      "sourceUrl": "https://www.groupe-insa.fr/preparer/comment-candidater/les-procedures/integrer-le-groupe-insa-en-1re-annee/bac-mathematiques-delivre-par-un-autre-pays-que-la-france",
+      "quote": "Groupe INSA: 'il faut pouvoir justifier du DALF C1 en langue française avec un test officiel'; 'Date limite dépôt des candidatures ... Mercredi 22 avril 2026 minuit', 'Date limite du chargement du DALF C1 en français: Lundi 4 mai 2026 minuit' (cykl 2026/27).",
+      "capacitySourceUrl": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-parcoursup/"
+     },
+     "deadline": "Cykl 2026/27 (miniony): dossier do 22 kwietnia 2026, certyfikat DALF C1 do 4 maja 2026 (ścieżka dla matury matematycznej spoza Francji). Terminy na 2027/28 nie zostały jeszcze opublikowane.",
+     "applyUrl": "https://www.groupe-insa.fr/preparer/comment-candidater/les-procedures/integrer-le-groupe-insa-en-1re-annee",
+     "sourceUrl": "https://www.insa-lyon.fr/fr/admission",
+     "notes": "Pierwsze dwa lata to cykl wspólny (premier cycle), potem specjalność. Katalog INSA Lyon wymienia specjalności: Informatique, Génie civil et urbanisme, Génie mécanique, Génie industriel, Génie électrique, Télécommunications, Matériaux, Biotechnologies i inne. To jedyna z sprawdzonych dróg do budownictwa i mechaniki na poziomie inżynierskim w Lyonie. Czy polska matura kwalifikuje się do ścieżki dla dyplomów spoza Francji, trzeba potwierdzić u INSA (admiss@groupe-insa.fr)."
+    },
+    {
+     "name": "International Bachelor in Mechanical, Materials and Aerospace Engineering (IBMMAE)",
+     "nameEn": "International Bachelor in Mechanical, Materials and Aerospace Engineering (IBMMAE)",
+     "careerIds": [
+      "inzynier-mechanik"
+     ],
+     "level": "licencjat",
+     "durationYears": 3,
+     "durationSource": {
+      "sourceUrl": "https://www.insa-lyon.fr/en/international-bachelor",
+      "quote": "INSA Lyon: 'The course is a full-time 3-year programme divided into 6 semesters' i 'students will be awarded 180 ECTS'."
+     },
+     "languages": [
+      "angielski"
+     ],
+     "academicYear": "2027/28 (formularz zgłoszeniowy podaje termin w 2027 roku)",
+     "tuition": {
+      "eu": "7 800 EUR rocznie, taka sama stawka dla wszystkich narodowości, plus opłata aplikacyjna 96 EUR (bezzwrotna) i CVEC 105 EUR. Nie ma stypendiów ani zwolnień związanych z programem. (Kwoty ze strony programu, rok akademicki 2026/27.)",
+      "nonEu": "7 800 EUR rocznie, ta sama stawka niezależnie od narodowości.",
+      "sourceUrl": "https://www.insa-lyon.fr/en/international-bachelor",
+      "quote": "INSA Lyon: 'Tuition fees: 7800 euros per year. Tuition fees are the same for all students regardless of nationality.' 'Application fee: 96 euros (non-refundable)'.",
+      "academicYear": "2026/27"
+     },
+     "admission": {
+      "polishMatura": "wymaga potwierdzenia przez uczelnię",
+      "requirements": "Program przeznaczony dla osób anglojęzycznych ze świadectwem dającym dostęp do studiów ścisłych; wymagana dobra znajomość matematyki i fizyki. Strona wymienia wymagane oceny dla A-levels, IB, bac francuskiego, dyplomu USA i Indii; dla innych świadectw (w tym polskiej matury) należy napisać do uczelni (ibeng@insa-lyon.fr). Zgłoszenie mailem: formularz, paszport lub dowód, oceny z trzech lat, dwa listy polecające od nauczycieli matematyki lub fizyki, certyfikat językowy, dowód opłaty 96 EUR. Francuski nie jest wymagany.",
+      "languageProof": "Angielski na poziomie C1 (TOEFL, IELTS lub podobny test); osoby, których językiem ojczystym nie jest angielski, muszą go przedstawić. Francuski: brak minimalnego poziomu.",
+      "selective": true,
+      "sourceUrl": "https://www.insa-lyon.fr/en/international-bachelor",
+      "quote": "INSA Lyon: 'No minimum French level required. All students whose first language is not English must provide proof of English language proficiency at level C1'; 'For other qualifications or questions, please contact: IBEng@insa-lyon.fr'."
+     },
+     "deadline": "31 maja 2027 (termin odbioru zgłoszeń według formularza IBMMAE na rok 2026/27, obejmującego nabór na rok akademicki 2027/28).",
+     "applyUrl": "https://www.insa-lyon.fr/sites/www.insa-lyon.fr/files/bachelor-ibeng-application-form-2026-2027.pdf",
+     "sourceUrl": "https://www.insa-lyon.fr/en/international-bachelor",
+     "notes": "Program prowadzony wspólnie z ECAM Lyon, University of Strathclyde, University of Twente i Czech Technical University w Pradze, a studenci mogą część studiów spędzić w tych miastach. Strona podaje, że po 180 ECTS można iść na master lub do cyklu inżynierskiego INSA Lyon lub ECAM. Najtańsza sprawdzona opcja po angielsku w Lyonie, ale czesne jest znacznie wyższe niż na uniwersytetach publicznych."
+    }
+   ]
+  },
+  {
+   "name": "École Centrale de Lyon (program wspólny z emlyon business school)",
+   "url": "https://www.ec-lyon.fr",
+   "type": "politechnika",
+   "programs": [
+    {
+     "name": "Bachelor of Science in Data Science for Responsible Business (BSc wspólnie z emlyon business school)",
+     "nameEn": "Bachelor of Science in Data Science for Responsible Business",
+     "careerIds": [
+      "analityk-danych",
+      "programista"
+     ],
+     "level": "licencjat",
+     "durationYears": 4,
+     "durationSource": {
+      "sourceUrl": "https://www.ec-lyon.fr/en/academics/bachelor-science-data-science-responsible-business",
+      "quote": "Centrale Lyon: 'is a four-year' programme; 'Years 3 and 4: Specialization'. Strona w jednym miejscu mówi o wyborze ścieżki w trzecim roku."
+     },
+     "languages": [
+      "angielski"
+     ],
+     "academicYear": "2027/28 (nabór dla kandydatów zagranicznych prowadzi emlyon, terminy do sprawdzenia)",
+     "tuition": {
+      "eu": "14 650 EUR rocznie plus 60 EUR opłaty aplikacyjnej (według strony Centrale Lyon, w sekcji o rekrutacji międzynarodowej). Strona nie rozstrzyga, czy ta stawka obejmuje też kandydatów z UE przyjmowanych przez Parcoursup.",
+      "nonEu": "14 650 EUR rocznie plus 60 EUR opłaty aplikacyjnej (zwolnienie dla stypendystów).",
+      "sourceUrl": "https://www.ec-lyon.fr/en/academics/bachelor-science-data-science-responsible-business",
+      "quote": "Centrale Lyon: 'Application Fee: €60 (waived for scholarship holders). Tuition Fees: €14,650 per year.'",
+      "academicYear": "brak roku na stronie"
+     },
+     "admission": {
+      "polishMatura": "uznawana z warunkami (liceum ogólnokształcące z mocną matematyką lub 'równoważne zagraniczne kwalifikacje'; polskiej matury strona nie wymienia)",
+      "requirements": "Kandydaci francuscy aplikują przez Parcoursup (testy online i rozmowa motywacyjna). Kandydaci zagraniczni przechodzą konkurencyjną procedurę online prowadzoną przez emlyon. Wymagana jest mocna matematyka i dobry angielski. Program jest wspólny: zajęcia co tydzień na kampusach emlyon w Lyonie i Centrale Lyon w Écully; dyplom wspólny, uznany przez państwo.",
+      "languageProof": "Dobra znajomość angielskiego (strona nie podaje minimalnego poziomu ani certyfikatu).",
+      "selective": true,
+      "sourceUrl": "https://www.ec-lyon.fr/en/academics/bachelor-science-data-science-responsible-business",
+      "quote": "Centrale Lyon: 'Hold a general high school diploma with a strong background in mathematics, or an equivalent foreign qualification. Have a good command of English.' 'open to international students through a competitive selection process. Candidates are chosen by emlyon'."
+     },
+     "deadline": "Nie podano na stronie Centrale Lyon; terminy rekrutacji międzynarodowej publikuje emlyon (do potwierdzenia na stronie uczelni).",
+     "applyUrl": "https://www.ec-lyon.fr/en/academics/bachelor-science-data-science-responsible-business",
+     "sourceUrl": "https://www.ec-lyon.fr/en/academics/bachelor-science-data-science-responsible-business",
+     "notes": "Jedyny w pełni anglojęzyczny licencjat z data science w próbce z Lyonu. Ścieżki w latach 3 i 4: Data Science, ścieżka badawcza i Entrepreneurship. Prywatnie współprowadzony z emlyon, stąd wysokie czesne. Centrale Lyon ma też Bachelor Mutations Technologiques et Industrielles Génie civil et environnement, ale prowadzony na kampusie w Saint-Étienne, po francusku i w trybie praktyki zawodowej, więc nie włączono go do próbki."
+    }
+   ]
+  },
+  {
+   "name": "École nationale supérieure d'architecture de Lyon (ENSAL)",
+   "url": "https://www.lyon.archi.fr",
+   "type": "architektura (szkoła pod Ministerstwem Kultury)",
+   "programs": [
+    {
+     "name": "Licence d'architecture (Diplôme d'études en architecture, DEEA)",
+     "nameEn": "Bachelor in Architecture (first cycle, DEEA)",
+     "careerIds": [
+      "architekt"
+     ],
+     "level": "licencjat",
+     "durationYears": 3,
+     "durationSource": {
+      "sourceUrl": "https://www.lyon.archi.fr/formations/licence-darchitecture-fi",
+      "quote": "ENSAL: 'Les enseignements sont organisés sur 6 semestres valant au total 180 crédits européens (ECTS).'"
+     },
+     "languages": [
+      "francuski"
+     ],
+     "academicYear": "2027/28 (strona podaje procedurę 2026/27; otwarcie platformy Parcoursup 17 grudnia 2026)",
+     "tuition": {
+      "eu": "390 EUR rocznie za licence w roku akademickim 2025/26 (szkoły architektury podlegają Ministerstwu Kultury i mają własne stawki); kwota na 2026/27 nie została podana na stronie. Opłata aplikacyjna 39 EUR (stypendyści zwolnieni).",
+      "nonEu": null,
+      "sourceUrl": "https://www.lyon.archi.fr/admissions",
+      "quote": "ENSAL: 'les droits d'inscription 2025-2026 s'élèvent à 390€/an en licence et 535€/an en master.' 'Les frais de dossier de 39 euros ne sont pas remboursables.'",
+      "academicYear": "2025/26"
+     },
+     "admission": {
+      "polishMatura": "uznawana (rekrutacja przez Parcoursup i rozmowa; świadectwo dojrzałości daje prawo do udziału w rekrutacji na licence na mocy umowy polsko-francuskiej; o przyjęciu decyduje ranking Parcoursup)",
+      "requirements": "Wszyscy kandydaci przechodzą przez Parcoursup, z wyjątkiem osób spoza Europy bez francuskiego dyplomu (tryb DAP). Etap 1: ocena dossier (francuski i przedmioty specjalistyczne), etap 2: rozmowa o motywacjach (wokół 600 osób zapraszanych). Ocena końcowa: 50% dossier, 50% rozmowa. Od 2026/27 są dwa osobne kierunki w Parcoursup: Architecture oraz Double Cursus Architecte-Ingénieur (ten ostatni wymaga w terminie przedmiotów ścisłych). Parcoursup 2025: 100 miejsc, 3 571 wyborów, 97 przyjętych; ENSAL podaje 115 miejsc na pierwszym roku.",
+      "languageProof": "Francuski jest językiem zajęć; strona o licence nie podaje certyfikatu, a ogólne minimum to B2 (Euroguidance France). Angielski B2 jest wymagany na koniec licence.",
+      "selective": true,
+      "sourceUrl": "https://www.lyon.archi.fr/admissions",
+      "quote": "ENSAL: 'Tous les candidats sont soumis à la procédure PARCOURSUP sauf les candidats non européens sans diplôme français'. 'Les candidatures sont classées selon la répartition suivante : 50% dossier scolaire, 50% entretien oral.' Umowa polsko-francuska (art. 4): 'Le diplôme de baccalauréat ... et le swiadectwo dojrzalosci ... donnent le droit d'entreprendre les procédures d'admission aux études de licence ... dans les établissements en République française'.",
+      "capacitySourceUrl": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-parcoursup/",
+      "recognitionSourceUrl": "https://www.pologne.campusfrance.org/system/files/medias/documents/2018-07/CONVENTION%20sur%20la%20reconnaissance%20des%20qualifications.pdf"
+     },
+     "deadline": "Cykl 2026/27 (miniony): Parcoursup od 19 stycznia do 12 marca 2026, rozmowy 6, 7, 11, 12 i 13 maja 2026, wyniki 2 czerwca 2026. ENSAL zapowiada otwarcie platformy z opisem formacji na 17 grudnia 2026; terminy naboru na 2027/28 nie są jeszcze opublikowane.",
+     "applyUrl": "https://www.parcoursup.gouv.fr",
+     "sourceUrl": "https://www.lyon.archi.fr/formations/licence-darchitecture-fi",
+     "notes": "École nationale supérieure d'architecture de Lyon (Vaulx-en-Velin, pod Ministerstwem Kultury). Licence nie daje jeszcze prawa do wykonywania zawodu: potrzebny jest master i habilitation (HMONP). Wymagany francuski przy rozmowie i zajęciach."
+    }
+   ]
+  }
+ ],
+ "luki": [
+  "Strona Parcoursup (parcoursup.gouv.fr) nie jest publicznie dostępna z automatycznego pobierania, więc nie sprawdzono dosłownie jej pytań i odpowiedzi dla kandydatów zagranicznych (m.in. tłumaczenia świadectwa dojrzałości, sposobu wpisania wyniku matury). Procedurę opisują strony uczelni i Euroguidance France; szczegóły do potwierdzenia na Parcoursup.",
+  "Terminy Parcoursup na rok akademicki 2027/28 nie są jeszcze opublikowane. Podano cykl 2026/27 i zapowiedź ENSAL o otwarciu platformy 17 grudnia 2026.",
+  "Dane o miejscach, wyborach i przyjętych pochodzą z otwartych danych ministerstwa za sesję Parcoursup 2025. Liczby dla tej samej licence bywają rozbite na kilka pozycji (kampusy, ścieżki), więc podano sumy miejsc (sum wyborów nie podano, bo ci sami kandydaci składają wybory na kilka pozycji); wartości na 2027 mogą się zmienić.",
+  "Żadna ze stron uczelni nie wymienia polskiej matury z nazwy. Status 'uznawana' wynika z umowy polsko-francuskiej, która daje prawo do ubiegania się o miejsce; uczelnie nie składają własnej deklaracji w tej sprawie. Szczegółowe oczekiwania wobec kandydatów (przedmioty, profil) są na kartach formacji w Parcoursup, których nie udało się pobrać.",
+  "École Centrale de Lyon: dyplom inżyniera generalisty jest trzyletni po przygotowaniu do konkursu (poziom bac+2), więc nie jest studiami od matury i nie został uwzględniony. Bachelor Génie civil et environnement z Centrale Lyon jest prowadzony po francusku w Saint-Étienne w trybie praktyki zawodowej, poza aglomeracją Lyonu, więc też pominięty. Nie ma więc w próbce osobnej licence budowlanej poza cyklem inżynierskim INSA.",
+  "ENS Lyon: nie ma wejścia po maturze. Czteroletni dyplom ENS przyjmuje od trzeciego roku licence (nabór dla obywateli UE/EOG bezpośrednio lub przez konkurs), a master od 'Application for Master's degrees', więc nie włączono go jako programu licencjackiego.",
+  "INSA Lyon: strony grupy INSA zapowiadają aktualizację informacji o procedurach na listopad. Nie potwierdzono, czy polska matura kwalifikuje się do ścieżki 'bac mathématiques délivré par un autre pays', ani dokładnych opłat INSA Lyon w cyklu ingénieur (podano stawkę Campus France dla szkół pod Ministerstwem Szkolnictwa Wyższego).",
+  "Strony programów Lyon 1 (portale MI i PCSI) są w katalogu uczelni z aktualizacją z grudnia 2023; opis może się zmienić. Pełnych wymagań wstępnych (attendus) nie podano w użytym katalogu.",
+  "BSc Data Science for Responsible Business: strona Centrale Lyon nie podaje terminów rekrutacji międzynarodowej (prowadzi ją emlyon) ani tego, czy czesne 14 650 EUR dotyczy też kandydatów z UE; w jednym miejscu opis mówi o wyborze ścieżki w trzecim roku, w innym o specjalizacji w latach 3 i 4.",
+  "Medycyna: nie sprawdzono liczby miejsc na drugi rok po PASS lub LAS ani zasad dla osób z zagranicznym świadectwem. Całkowita liczba lat studiów medycznych nie jest podana na użytych stronach Lyon 1.",
+  "Dziennikarstwo: w Lyonie nie znaleziono licence typowo dziennikarskiej na uczelniach z próbki (Lyon 3 ma tylko BUT Information-communication); podano Licence Information-Communication z Lyon 2 jako najbliższą. Szkoły dziennikarskie i prywatne uczelnie nie były badane.",
+  "Nie sprawdzono licence Économie na Lyon 1 ani licence Gestion et management na Lyon 3 (iaelyon), które mają dużo miejsc w Parcoursup."
+ ]
+}

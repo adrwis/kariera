@@ -231,23 +231,25 @@ const Zagranica = (function () {
   }
 
   function overviewHtml(cities) {
-    const ready = cities.filter(c => c.status === 'dostępne');
+    const ready = cities.filter(c => c.status === 'dostępne' && c.capital !== false);
+    const other = cities.filter(c => c.status === 'dostępne' && c.capital === false);
     const soon = cities.filter(c => c.status !== 'dostępne');
     const card = c => `<li><a class="zagr__card" href="${ctx.BASE}/zagranica?miasto=${attr(c.slug)}"><strong>${esc(c.name)}</strong><span class="szkola__muted">${esc(c.country)}${c.eu === false ? ', poza UE' : ''}</span><span class="szkoly__badge">${c.status === 'dostępne' ? `${c.programs} ${c.programs === 1 ? 'program' : 'programów'}` : 'w przygotowaniu'}</span></a></li>`;
     return `
-      ${ready.length ? `<h2 class="career-column__subtitle">Dane gotowe (${ready.length})</h2><ul class="zagr__grid">${ready.map(card).join('')}</ul>` : ''}
+      ${ready.length ? `<h2 class="career-column__subtitle">Stolice i Londyn (${ready.length})</h2><ul class="zagr__grid">${ready.map(card).join('')}</ul>` : ''}
+      ${other.length ? `<h2 class="career-column__subtitle">Inne miasta akademickie (${other.length})</h2><ul class="zagr__grid">${other.map(card).join('')}</ul>` : ''}
       ${soon.length ? `<h2 class="career-column__subtitle">W przygotowaniu (${soon.length})</h2><ul class="zagr__grid">${soon.map(card).join('')}</ul>` : ''}`;
   }
 
   async function render(container, params) {
     const my = ++renderSeq;
     const f = { miasto: params.get('miasto') || '', kierunek: params.get('kierunek') || '', ang: params.get('ang') === '1' };
-    ctx.updateMeta('Studia za granicą | NextMove', 'Studia w stolicach krajów UE i w Londynie: kierunki, język, opłaty dla obywateli UE, warunki przyjęcia z polską maturą i terminy z oficjalnych źródeł.', `${ctx.BASE}/zagranica/`);
+    ctx.updateMeta('Studia za granicą | NextMove', 'Studia w stolicach krajów UE, w Londynie i w innych miastach akademickich: kierunki, język, opłaty dla obywateli UE, warunki przyjęcia z polską maturą i terminy z oficjalnych źródeł.', `${ctx.BASE}/zagranica/`);
     container.innerHTML = `
       <div class="results szkoly zagr">
         <a href="${ctx.BASE}/" class="results__back">&larr; Strona główna</a>
         <h1 class="results__title">Studia za granicą</h1>
-        <p class="results__query">Stolice krajów UE i Londyn: jakie kierunki, w jakim języku, za ile i co jest potrzebne z polską maturą. Zbieramy kolejne miasta, więc część jest jeszcze w przygotowaniu.</p>
+        <p class="results__query">Stolice krajów UE, Londyn i inne duże miasta akademickie: jakie kierunki, w jakim języku, za ile i co jest potrzebne z polską maturą. Zbieramy kolejne miasta, więc część jest jeszcze w przygotowaniu.</p>
         ${tabs('studia')}
         <div id="zagrBody"><p class="szkoly__loading">Wczytuję miasta…</p></div>
       </div>`;

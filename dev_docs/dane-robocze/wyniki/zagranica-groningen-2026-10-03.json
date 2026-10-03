@@ -1,0 +1,619 @@
+{
+  "city": "Groningen",
+  "country": "Holandia",
+  "retrieved": "2026-10-03",
+  "overview": {
+    "polishMatura": "Holandia nie stosuje punktów za maturę. RUG wymienia Polskę na liście kwalifikacji równoważnych VWO: wprost 'Świadectwo Dojrzałości' (strona zmieniona 30 września 2026). Faculty Science and Engineering i Economics and Business oceniają matematykę na podstawie opisów kursów, medycyna wymaga biologii, matematyki, fizyki i chemii. Na kierunkach z numerus fixus (psychologia, International Business, medycyna) decyduje selekcja, nie wynik matury. Hanze (HBO) wymaga poziomu HAVO lub VWO zależnie od programu, ocena dyplomu przez Nuffic lub Ecctis, Polska nie jest wymieniona na stronach programów.",
+    "tuition": "Obywatele UE/EOG płacą czesne ustawowe: 2 694 EUR rocznie w 2026/27 i 2 771 EUR rocznie w 2027/28 (RUG, strony programów). Czesne dla osób spoza UE zależy od programu, np. RUG 2027/28: 14 400 EUR (psychologia, ekonomia, prawo, komunikacja), 19 800 EUR (informatyka, AI, IEM), 32 000 EUR (medycyna). Do tego jednorazowa opłata aplikacyjna RUG 100 EUR dla dyplomów zagranicznych.",
+    "tuitionSource": "https://www.rug.nl/bachelors/computing-science/?lang=en",
+    "generalDeadlines": "Studielink. Kierunki z numerus fixus (psychologia, International Business, medycyna): zgłoszenie od 1 października 2026 do 15 stycznia 2027, selekcja i wyniki 15 kwietnia 2027, zapis do 31 sierpnia 2027 (nabór 2027/28). Pozostałe kierunki RUG: 1 maja 2027, z opcją Early Bird od 1 października do 28 lutego. Hanze: 15 sierpnia (UE) i 1 czerwca (z wizą), rok na stronie nie podany.",
+    "englishProof": "RUG: trzy poziomy angielskiego, np. IELTS Academic 6,0 (poziom 1, ekonomia, IB, psychologia), 6,5 (poziom 2, informatyka, AI, komunikacja), 7,0 (poziom 3, prawo). Lista zwolnień z testu dla dyplomów z UE obejmuje wiele krajów, ale nie Polskę. Hanze: IELTS Academic 6,0 (niektóre programy z minimum podwyników 5,5), wynik ważny 2 lata.",
+    "equalAccess": "RUG podaje regułę 'jeśli dyplom daje dostęp do uniwersytetów w kraju pochodzenia, daje też dostęp w Holandii' dla dyplomów z UE. Dla Polski jest osobna strona z wymaganymi przedmiotami."
+  },
+  "sources": [
+    {
+      "url": "https://www.rug.nl/education/application-enrolment-tuition-fees/admission/procedures/application-informatie/with-non-dutch-diploma/bachelor/bachelor-entry-requirements/bachelorlinkscountry/poland",
+      "note": "RUG, wymogi dla dyplomu z Polski: 'Swiadectwo Dojrzałości' jako odpowiednik VWO i wymagane przedmioty według kierunków."
+    },
+    {
+      "url": "https://www.rug.nl/education/application-enrolment-tuition-fees/admission/non-dutch-qualification/language-requirement",
+      "note": "RUG, wymagania z angielskiego na nabór 2027/28, poziomy 1 do 3, testy i zwolnienia."
+    },
+    {
+      "url": "https://www.rug.nl/education/application-enrolment-tuition-fees/admission/non-dutch-qualification/fixus-non-dutch-qualification",
+      "note": "RUG, procedura numerus fixus: terminy, liczba miejsc, opłata aplikacyjna 100 EUR."
+    },
+    {
+      "url": "https://www.hanze.nl/en/studychoice/application-and-entry-requirements/application-and-enrolment",
+      "note": "Hanze, terminy 15 sierpnia i 1 czerwca, Studielink."
+    },
+    {
+      "url": "https://www.hanze.nl/en/study/application-and-entry-requirements/language-requirements",
+      "note": "Hanze, wymagania z angielskiego i zwolnienia."
+    },
+    {
+      "url": "https://www.hanze.nl/en/studychoice/studying-at-hanze/tuition-fees",
+      "note": "Hanze, zasady czesnego ustawowego i instytucjonalnego."
+    }
+  ],
+  "universities": [
+    {
+      "name": "Rijksuniversiteit Groningen (University of Groningen)",
+      "url": "https://www.rug.nl",
+      "type": "uniwersytet",
+      "programs": [
+        {
+          "name": "Psychology (BSc), ścieżka angielska",
+          "nameEn": "Psychology (BSc), English track",
+          "careerIds": [
+            "psycholog"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "durationQuote": "Strona programu: 'Duration 36 months (180 EC)'; języki 'Dutch, English'.",
+          "languages": [
+            "angielski (ścieżka angielska), niderlandzki (osobna ścieżka)"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie w roku akademickim 2026/27 (czesne ustawowe); 2 771 EUR rocznie w roku 2027/28. Opłata aplikacyjna 100 EUR (jednorazowa, dla dyplomów zagranicznych).",
+            "nonEu": "14 000 EUR rocznie w 2026/27, 14 400 EUR rocznie w 2027/28 (opłata instytucjonalna, nie dotyczy obywateli UE).",
+            "sourceUrl": "https://www.rug.nl/bachelors/psychology/?lang=en",
+            "quote": "Collegegeld: EU/EER 2026-2027 € 2694, 2027-2028 € 2771; niet EU/EER € 14000 i € 14400.",
+            "academicYear": "2026/27 i 2027/28"
+          },
+          "admission": {
+            "polishMatura": "wymaga dodatkowego etapu",
+            "requirements": "Polskie świadectwo dojrzałości jest uznawane jako równoważne VWO i dla psychologii RUG nie podaje wymaganych przedmiotów. Kierunek ma numerus fixus: ścieżka angielska 225 miejsc, o przyjęciu decyduje selekcja oparta na teście selekcyjnym (nie wynik matury). Dla ścieżki niderlandzkiej jest 365 miejsc i losowanie, ale wymagany jest niderlandzki NT2-II.",
+            "languageProof": "IELTS Academic 6,5 (min. 6,5 z mówienia i pisania); Cambridge C1 Advanced lub C2 Proficiency 180; TOEFL iBT 90 (2026/27). Polska nie jest na liście zwolnień z testu angielskiego.",
+            "selective": true,
+            "studyPlaces": "225 (ścieżka angielska), 365 (niderlandzka)",
+            "sourceUrl": "https://www.rug.nl/education/application-enrolment-tuition-fees/admission/non-dutch-qualification/fixus-non-dutch-qualification",
+            "quote": "'Overzicht fixed-quota opleidingen: ... Psychologie (Nederlandse track) (365 plaatsen) Psychologie (Engelse track) (225 plaatsen)'; 'Psychologie Engelse track: De procedure bestaat uit het maken van een selectietoets.' Polska, Psychology: Subject-specific requirements 'none'.",
+            "matura_source": "https://www.rug.nl/education/application-enrolment-tuition-fees/admission/procedures/application-informatie/with-non-dutch-diploma/bachelor/bachelor-entry-requirements/bachelorlinkscountry/poland"
+          },
+          "deadline": "Studielink od 1 października 2026 do 15 stycznia 2027 (nabór na 2027/28, start 1 września 2027). Dane osobowe muszą być zweryfikowane do 15 lutego 2027, wyniki selekcji i numery rankingowe 15 kwietnia 2027, dowód spełnienia wymogów wykształcenia do 15 lipca 2027, opłata czesnego do 31 sierpnia 2027. Można zgłosić się najwyżej na dwa kierunki z numerus fixus w jednym roku.",
+          "applyUrl": "https://www.studielink.nl",
+          "sourceUrl": "https://www.rug.nl/bachelors/psychology/?lang=en",
+          "notes": "Strona programu zawiera też treść w języku niderlandzkim. Szczegóły terminu i formy testu selekcyjnego dla ścieżki angielskiej na 2027/28 do potwierdzenia na stronie programu."
+        },
+        {
+          "name": "Computing Science (BSc)",
+          "nameEn": "Computing Science (BSc)",
+          "careerIds": [
+            "programista",
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "durationQuote": "Strona programu: 'Duur 36 maanden (180 EC)', 'Voertaal Engels'.",
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie w roku akademickim 2026/27 (czesne ustawowe); 2 771 EUR rocznie w roku 2027/28. Opłata aplikacyjna 100 EUR (jednorazowa, dla dyplomów zagranicznych).",
+            "nonEu": "19 800 EUR rocznie w 2026/27, 19 800 EUR rocznie w 2027/28 (opłata instytucjonalna, nie dotyczy obywateli UE).",
+            "sourceUrl": "https://www.rug.nl/bachelors/computing-science/?lang=en",
+            "quote": "Strona programu, tabela Collegegeld/Tuition fees: EU/EER 2026-2027 € 2694 voltijd; EU/EER 2027-2028 € 2771 voltijd. Strona RUG o aplikacji: 'application fee van 100 euro voor kandidaten met een niet-Nederlands diploma'.",
+            "academicYear": "2026/27 i 2027/28"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Polskie świadectwo dojrzałości jest równoważne VWO. Wymagana matematyka na poziomie VWO A lub B, ocenianą przez komisję przyjęć (potrzebne opisy kursów). Kierunek bez numerus fixus (w Studielink wybrać opcję bez oznaczenia 'Numerus fixus').",
+            "languageProof": "Poziom 2 (CEFR B2 do C1): IELTS Academic 6,5 (min. 6,0 ze słuchania i czytania, 6,5 z mówienia i pisania); Cambridge C1 Advanced lub C2 Proficiency 180; TOEFL iBT 90 (2027/28).",
+            "selective": false,
+            "sourceUrl": "https://www.rug.nl/bachelors/computing-science/?lang=en",
+            "quote": "'Sufficient background knowledge in Mathematics is required. The Admissions Board will determine whether your background knowledge in this subject is sufficient'; Polska, Computing Science: Mathematics.",
+            "matura_source": "https://www.rug.nl/education/application-enrolment-tuition-fees/admission/procedures/application-informatie/with-non-dutch-diploma/bachelor/bachelor-entry-requirements/bachelorlinkscountry/poland"
+          },
+          "deadline": "Termin 1 maja 2027 dla wszystkich kandydatów, w tym obywateli UE (nabór na rok akademicki 2027/28, start 1 września 2027), wniosek w Studielink i dokumenty w Progress Portal. Early Bird: wniosek między 1 października a 28 lutego z kompletem dokumentów daje decyzję w ciągu miesiąca. Dowód angielskiego można złożyć do 20 sierpnia 2027 (UE/EOG).",
+          "applyUrl": "https://www.studielink.nl",
+          "sourceUrl": "https://www.rug.nl/bachelors/computing-science/?lang=en",
+          "notes": "Poziom języka według faculty Science and Engineering: poziom 2."
+        },
+        {
+          "name": "Artificial Intelligence (BSc)",
+          "nameEn": "Artificial Intelligence (BSc)",
+          "careerIds": [
+            "programista",
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "durationQuote": "Strona programu: 'Duration 36 months (180 EC)', 'Language of instruction English'.",
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie w roku akademickim 2026/27 (czesne ustawowe); 2 771 EUR rocznie w roku 2027/28. Opłata aplikacyjna 100 EUR (jednorazowa, dla dyplomów zagranicznych).",
+            "nonEu": "19 800 EUR rocznie w 2026/27, 19 800 EUR rocznie w 2027/28 (opłata instytucjonalna, nie dotyczy obywateli UE).",
+            "sourceUrl": "https://www.rug.nl/bachelors/artificial-intelligence/?lang=en",
+            "quote": "Strona programu, tabela Collegegeld/Tuition fees: EU/EER 2026-2027 € 2694 voltijd; EU/EER 2027-2028 € 2771 voltijd. Strona RUG o aplikacji: 'application fee van 100 euro voor kandidaten met een niet-Nederlands diploma'.",
+            "academicYear": "2026/27 i 2027/28"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Polskie świadectwo dojrzałości jest równoważne VWO. Dla Artificial Intelligence lista RUG dla Polski wymienia matematykę jako wymóg przedmiotowy, oceniany przez komisję przyjęć. Brak numerus fixus.",
+            "languageProof": "Poziom 2 (CEFR B2 do C1): IELTS Academic 6,5 (min. 6,0 ze słuchania i czytania, 6,5 z mówienia i pisania); Cambridge C1 Advanced lub C2 Proficiency 180; TOEFL iBT 90 (2027/28).",
+            "selective": false,
+            "sourceUrl": "https://www.rug.nl/bachelors/artificial-intelligence/?lang=en",
+            "quote": "Polska, Faculty of Science and Engineering: wymóg przedmiotowy Mathematics; 'Your transcripts will be used to assess whether you have the background required'.",
+            "matura_source": "https://www.rug.nl/education/application-enrolment-tuition-fees/admission/procedures/application-informatie/with-non-dutch-diploma/bachelor/bachelor-entry-requirements/bachelorlinkscountry/poland"
+          },
+          "deadline": "Termin 1 maja 2027 dla wszystkich kandydatów, w tym obywateli UE (nabór na rok akademicki 2027/28, start 1 września 2027), wniosek w Studielink i dokumenty w Progress Portal. Early Bird: wniosek między 1 października a 28 lutego z kompletem dokumentów daje decyzję w ciągu miesiąca. Dowód angielskiego można złożyć do 20 sierpnia 2027 (UE/EOG).",
+          "applyUrl": "https://www.studielink.nl",
+          "sourceUrl": "https://www.rug.nl/bachelors/artificial-intelligence/?lang=en",
+          "notes": "Najbliższy odpowiednik data science wśród programów RUG w Groningen (Data Science and Society jest w Leeuwarden, patrz luki)."
+        },
+        {
+          "name": "Econometrics and Operations Research (BSc)",
+          "nameEn": "Econometrics and Operations Research (BSc)",
+          "careerIds": [
+            "ekonomista",
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "durationQuote": "Strona programu: 'Duration 36 months (180 EC)', 'Language of instruction English'.",
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie w roku akademickim 2026/27 (czesne ustawowe); 2 771 EUR rocznie w roku 2027/28. Opłata aplikacyjna 100 EUR (jednorazowa, dla dyplomów zagranicznych).",
+            "nonEu": "14 000 EUR rocznie w 2026/27, 14 400 EUR rocznie w 2027/28 (opłata instytucjonalna, nie dotyczy obywateli UE).",
+            "sourceUrl": "https://www.rug.nl/bachelors/econometrics-and-operations-research/?lang=en",
+            "quote": "Strona programu, tabela Collegegeld/Tuition fees: EU/EER 2026-2027 € 2694 voltijd; EU/EER 2027-2028 € 2771 voltijd. Strona RUG o aplikacji: 'application fee van 100 euro voor kandidaten met een niet-Nederlands diploma'.",
+            "academicYear": "2026/27 i 2027/28"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Polskie świadectwo dojrzałości jest równoważne VWO. Wymagana matematyka na poziomie rozszerzonym (strona programu: 'higher level (advanced)'), poziom oceniany przez komisję przyjęć na podstawie opisów kursów. Brak numerus fixus.",
+            "languageProof": "Poziom 1 dla wydziału Economics and Business: IELTS Academic 6,0 (wydział dopuszcza niższe minimum 5,5 ze słuchania i czytania); Cambridge 169; TOEFL iBT 80 (2027/28).",
+            "selective": false,
+            "sourceUrl": "https://www.rug.nl/bachelors/econometrics-and-operations-research/?lang=en",
+            "quote": "'Mathematics should have been passed as a higher level (advanced) subject in your secondary school education. Please note that the level of mathematics will need to be assessed by the Admissions Board.'",
+            "matura_source": "https://www.rug.nl/education/application-enrolment-tuition-fees/admission/procedures/application-informatie/with-non-dutch-diploma/bachelor/bachelor-entry-requirements/bachelorlinkscountry/poland"
+          },
+          "deadline": "Termin 1 maja 2027 dla wszystkich kandydatów, w tym obywateli UE (nabór na rok akademicki 2027/28, start 1 września 2027), wniosek w Studielink i dokumenty w Progress Portal. Early Bird: wniosek między 1 października a 28 lutego z kompletem dokumentów daje decyzję w ciągu miesiąca. Dowód angielskiego można złożyć do 20 sierpnia 2027 (UE/EOG).",
+          "applyUrl": "https://www.studielink.nl",
+          "sourceUrl": "https://www.rug.nl/bachelors/econometrics-and-operations-research/?lang=en",
+          "notes": ""
+        },
+        {
+          "name": "Economics and Business Economics (BSc)",
+          "nameEn": "Economics and Business Economics (BSc)",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "durationQuote": "Strona programu: 'Duration 36 months (180 EC)', 'Language of instruction English'.",
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie w roku akademickim 2026/27 (czesne ustawowe); 2 771 EUR rocznie w roku 2027/28. Opłata aplikacyjna 100 EUR (jednorazowa, dla dyplomów zagranicznych).",
+            "nonEu": "14 000 EUR rocznie w 2026/27, 14 400 EUR rocznie w 2027/28 (opłata instytucjonalna, nie dotyczy obywateli UE).",
+            "sourceUrl": "https://www.rug.nl/bachelors/economics-and-business-economics/?lang=en",
+            "quote": "Strona programu, tabela Collegegeld/Tuition fees: EU/EER 2026-2027 € 2694 voltijd; EU/EER 2027-2028 € 2771 voltijd. Strona RUG o aplikacji: 'application fee van 100 euro voor kandidaten met een niet-Nederlands diploma'.",
+            "academicYear": "2026/27 i 2027/28"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Polskie świadectwo dojrzałości jest równoważne VWO. Wymagana matematyka na poziomie podstawowym lub 'standard/methods', oceniana przez komisję przyjęć; lista dla Polski wspomina matematykę we wszystkich latach liceum. Brak numerus fixus.",
+            "languageProof": "Poziom 1: IELTS Academic 6,0 (minimum 5,5 ze słuchania i czytania na wydziale Economics and Business); Cambridge 169; TOEFL iBT 80 (2027/28).",
+            "selective": false,
+            "sourceUrl": "https://www.rug.nl/bachelors/economics-and-business-economics/?lang=en",
+            "quote": "'Mathematics should have been passed as a standard/methods level subject in your secondary school education.' Polska: 'Mathematics within all years of Liceum Ogolnoksztalcacego programme'.",
+            "matura_source": "https://www.rug.nl/education/application-enrolment-tuition-fees/admission/procedures/application-informatie/with-non-dutch-diploma/bachelor/bachelor-entry-requirements/bachelorlinkscountry/poland"
+          },
+          "deadline": "Termin 1 maja 2027 dla wszystkich kandydatów, w tym obywateli UE (nabór na rok akademicki 2027/28, start 1 września 2027), wniosek w Studielink i dokumenty w Progress Portal. Early Bird: wniosek między 1 października a 28 lutego z kompletem dokumentów daje decyzję w ciągu miesiąca. Dowód angielskiego można złożyć do 20 sierpnia 2027 (UE/EOG).",
+          "applyUrl": "https://www.studielink.nl",
+          "sourceUrl": "https://www.rug.nl/bachelors/economics-and-business-economics/?lang=en",
+          "notes": ""
+        },
+        {
+          "name": "International Business (BSc)",
+          "nameEn": "International Business (BSc)",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "durationQuote": "Strona programu: 'Duration 36 months (180 EC)', 'Language of instruction English'.",
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie w roku akademickim 2026/27 (czesne ustawowe); 2 771 EUR rocznie w roku 2027/28. Opłata aplikacyjna 100 EUR (jednorazowa, dla dyplomów zagranicznych).",
+            "nonEu": "14 000 EUR rocznie w 2026/27, 14 400 EUR rocznie w 2027/28 (opłata instytucjonalna, nie dotyczy obywateli UE).",
+            "sourceUrl": "https://www.rug.nl/bachelors/international-business/?lang=en",
+            "quote": "Strona programu, tabela Collegegeld/Tuition fees: EU/EER 2026-2027 € 2694 voltijd; EU/EER 2027-2028 € 2771 voltijd. Strona RUG o aplikacji: 'application fee van 100 euro voor kandidaten met een niet-Nederlands diploma'.",
+            "academicYear": "2026/27 i 2027/28"
+          },
+          "admission": {
+            "polishMatura": "wymaga dodatkowego etapu",
+            "requirements": "Polskie świadectwo dojrzałości jest równoważne VWO, a matematyka na poziomie podstawowym (standard/methods) jest oceniana przez komisję przyjęć. Kierunek ma numerus fixus (400 miejsc rocznie), selekcja na podstawie wyników testów w ramach procedury Fit & Benchmark (wynik matury się nie liczy).",
+            "languageProof": "Poziom 1: IELTS Academic 6,0 (minimum 5,5 ze słuchania i czytania); Cambridge 169; TOEFL iBT 80 (2027/28).",
+            "selective": true,
+            "studyPlaces": "400",
+            "sourceUrl": "https://www.rug.nl/feb/education/study-programmes/numerus-fixus-bsc-ib/?lang=en",
+            "quote": "'This programme has a numerus fixus with a maximum of 400 attendees a year'; 'The selection is based on the outcome of the tests'.",
+            "matura_source": "https://www.rug.nl/education/application-enrolment-tuition-fees/admission/procedures/application-informatie/with-non-dutch-diploma/bachelor/bachelor-entry-requirements/bachelorlinkscountry/poland"
+          },
+          "deadline": "Studielink od 1 października 2026 do 15 stycznia 2027 (nabór na 2027/28, start 1 września 2027). Dane osobowe muszą być zweryfikowane do 15 lutego 2027, wyniki selekcji i numery rankingowe 15 kwietnia 2027, dowód spełnienia wymogów wykształcenia do 15 lipca 2027, opłata czesnego do 31 sierpnia 2027.",
+          "applyUrl": "https://www.studielink.nl",
+          "sourceUrl": "https://www.rug.nl/bachelors/international-business/?lang=en",
+          "notes": "Opis procedury Fit & Benchmark na stronie wydziału dotyczy jeszcze naboru 2026/27, szczegóły dla 2027/28 do potwierdzenia na stronie uczelni."
+        },
+        {
+          "name": "International and European Law (LLB)",
+          "nameEn": "International and European Law (LLB)",
+          "careerIds": [
+            "prawnik"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "durationQuote": "Strona programu: 'Duration 36 months (180 EC)', 'Language of instruction English'.",
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie w roku akademickim 2026/27 (czesne ustawowe); 2 771 EUR rocznie w roku 2027/28. Opłata aplikacyjna 100 EUR (jednorazowa, dla dyplomów zagranicznych).",
+            "nonEu": "14 000 EUR rocznie w 2026/27, 14 400 EUR rocznie w 2027/28 (opłata instytucjonalna, nie dotyczy obywateli UE).",
+            "sourceUrl": "https://www.rug.nl/bachelors/international-and-european-law/?lang=en",
+            "quote": "Strona programu, tabela Collegegeld/Tuition fees: EU/EER 2026-2027 € 2694 voltijd; EU/EER 2027-2028 € 2771 voltijd. Strona RUG o aplikacji: 'application fee van 100 euro voor kandidaten met een niet-Nederlands diploma'.",
+            "academicYear": "2026/27 i 2027/28"
+          },
+          "admission": {
+            "polishMatura": "uznawana",
+            "requirements": "Polskie świadectwo dojrzałości jest równoważne VWO, dla tego kierunku lista RUG dla Polski nie podaje wymogów przedmiotowych ('none'). Obowiązkowa aktywność dopasowująca (matching), której wynik nie jest wiążący. Brak numerus fixus. Jest to studia z prawa międzynarodowego i europejskiego, nie dają kwalifikacji do polskich zawodów prawniczych.",
+            "languageProof": "Poziom 3 (CEFR C1): IELTS Academic 7,0 (min. 6,0 ze słuchania i czytania, 6,5 z mówienia i pisania); Cambridge C1 Advanced lub C2 Proficiency 185; TOEFL iBT 100 (2026/27).",
+            "selective": false,
+            "sourceUrl": "https://www.rug.nl/bachelors/international-and-european-law/?lang=en",
+            "quote": "'The programme has a compulsory matching activity'; Polska, Faculty of Law, International and European Law: 'none'.",
+            "matura_source": "https://www.rug.nl/education/application-enrolment-tuition-fees/admission/procedures/application-informatie/with-non-dutch-diploma/bachelor/bachelor-entry-requirements/bachelorlinkscountry/poland"
+          },
+          "deadline": "Termin 1 maja 2027 dla wszystkich kandydatów, w tym obywateli UE (nabór na rok akademicki 2027/28, start 1 września 2027), wniosek w Studielink i dokumenty w Progress Portal. Early Bird: wniosek między 1 października a 28 lutego z kompletem dokumentów daje decyzję w ciągu miesiąca. Dokumenty trzeba wgrać przed 1 maja 2027.",
+          "applyUrl": "https://www.studielink.nl",
+          "sourceUrl": "https://www.rug.nl/bachelors/international-and-european-law/?lang=en",
+          "notes": "Dla niderlandzkiego prawa (Rechtsgeleerdheid, 3 lata, po niderlandzku) wymagany byłby niderlandzki, program pominięto."
+        },
+        {
+          "name": "Industrial Engineering and Management (BSc)",
+          "nameEn": "Industrial Engineering and Management (BSc)",
+          "careerIds": [
+            "inzynier-mechanik"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "durationQuote": "Strona programu: 'Duration 36 months (180 EC)', 'Language of instruction English'.",
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie w roku akademickim 2026/27 (czesne ustawowe); 2 771 EUR rocznie w roku 2027/28. Opłata aplikacyjna 100 EUR (jednorazowa, dla dyplomów zagranicznych).",
+            "nonEu": "19 800 EUR rocznie w 2026/27, 19 800 EUR rocznie w 2027/28 (opłata instytucjonalna, nie dotyczy obywateli UE).",
+            "sourceUrl": "https://www.rug.nl/bachelors/industrial-engineering-and-management/?lang=en",
+            "quote": "Strona programu, tabela Collegegeld/Tuition fees: EU/EER 2026-2027 € 2694 voltijd; EU/EER 2027-2028 € 2771 voltijd. Strona RUG o aplikacji: 'application fee van 100 euro voor kandidaten met een niet-Nederlands diploma'.",
+            "academicYear": "2026/27 i 2027/28"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Polskie świadectwo dojrzałości jest równoważne VWO. Formalnym wymogiem jest matematyka, ale strona programu podkreśla, że znajomość fizyki jest niezbędna do sukcesu (zalecany certyfikat z fizyki, także chemia). Brak numerus fixus.",
+            "languageProof": "Poziom 2 (CEFR B2 do C1): IELTS Academic 6,5 (min. 6,0 ze słuchania i czytania, 6,5 z mówienia i pisania); Cambridge C1 Advanced lub C2 Proficiency 180; TOEFL iBT 90 (2027/28).",
+            "selective": false,
+            "sourceUrl": "https://www.rug.nl/bachelors/industrial-engineering-and-management/?lang=en",
+            "quote": "'Even though only Mathematics is a formal entry requirement, knowledge of Physics is essential in order to be successful in this IEM programme.'",
+            "matura_source": "https://www.rug.nl/education/application-enrolment-tuition-fees/admission/procedures/application-informatie/with-non-dutch-diploma/bachelor/bachelor-entry-requirements/bachelorlinkscountry/poland"
+          },
+          "deadline": "Termin 1 maja 2027 dla wszystkich kandydatów, w tym obywateli UE (nabór na rok akademicki 2027/28, start 1 września 2027), wniosek w Studielink i dokumenty w Progress Portal. Early Bird: wniosek między 1 października a 28 lutego z kompletem dokumentów daje decyzję w ciągu miesiąca. Dowód angielskiego można złożyć do 20 sierpnia 2027 (UE/EOG).",
+          "applyUrl": "https://www.studielink.nl",
+          "sourceUrl": "https://www.rug.nl/bachelors/industrial-engineering-and-management/?lang=en",
+          "notes": "Najbliższy do mechaniki program na uniwersytecie. Studia mechaniczne (Mechanical Engineering) RUG prowadzi tylko jako magisterskie."
+        },
+        {
+          "name": "Communication and Information Studies (BA), ścieżka angielska",
+          "nameEn": "Communication and Information Studies (BA), English track",
+          "careerIds": [
+            "dziennikarz"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "durationQuote": "Strona programu: 'Duration 36 months (180 EC)', 'Language of instruction English'.",
+          "languages": [
+            "angielski (ścieżka angielska), niderlandzki (osobna ścieżka)"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie w roku akademickim 2026/27 (czesne ustawowe); 2 771 EUR rocznie w roku 2027/28. Opłata aplikacyjna 100 EUR (jednorazowa, dla dyplomów zagranicznych).",
+            "nonEu": "14 000 EUR rocznie w 2026/27, 14 400 EUR rocznie w 2027/28 (opłata instytucjonalna, nie dotyczy obywateli UE).",
+            "sourceUrl": "https://www.rug.nl/bachelors/communication-and-information-studies/?lang=en",
+            "quote": "Strona programu, tabela Collegegeld/Tuition fees: EU/EER 2026-2027 € 2694 voltijd; EU/EER 2027-2028 € 2771 voltijd. Strona RUG o aplikacji: 'application fee van 100 euro voor kandidaten met een niet-Nederlands diploma'.",
+            "academicYear": "2026/27 i 2027/28"
+          },
+          "admission": {
+            "polishMatura": "uznawana",
+            "requirements": "Polskie świadectwo dojrzałości jest równoważne VWO, dla tego kierunku lista RUG dla Polski nie podaje wymogów przedmiotowych. Angielski na poziomie VWO (ocena 6 lub wyżej) albo certyfikat. Brak numerus fixus.",
+            "languageProof": "Poziom 2 (CEFR B2 do C1): IELTS Academic 6,5 (min. 6,0 ze słuchania i czytania, 6,5 z mówienia i pisania); Cambridge C1 Advanced lub C2 Proficiency 180; TOEFL iBT 90 (2027/28). (strona programu: IELTS 6,5, min. 6,0 w każdej części).",
+            "selective": false,
+            "sourceUrl": "https://www.rug.nl/bachelors/communication-and-information-studies/?lang=en",
+            "quote": "'Language requirement for English: You must have completed this at VWO level (mark 6 or higher) or obtained ... IELTS (Academic): overall min. score 6.5 (min. 6.0 in every category)'.",
+            "matura_source": "https://www.rug.nl/education/application-enrolment-tuition-fees/admission/procedures/application-informatie/with-non-dutch-diploma/bachelor/bachelor-entry-requirements/bachelorlinkscountry/poland"
+          },
+          "deadline": "Termin 1 maja 2027 dla wszystkich kandydatów, w tym obywateli UE (nabór na rok akademicki 2027/28, start 1 września 2027), wniosek w Studielink i dokumenty w Progress Portal. Early Bird: wniosek między 1 października a 28 lutego z kompletem dokumentów daje decyzję w ciągu miesiąca. Dowód angielskiego można złożyć do 20 sierpnia 2027 (UE/EOG).",
+          "applyUrl": "https://www.studielink.nl",
+          "sourceUrl": "https://www.rug.nl/bachelors/communication-and-information-studies/?lang=en",
+          "notes": "Kierunek komunikacji i informacji, nie jest to szkoła dziennikarska (RUG nie ma osobnego licencjatu z dziennikarstwa w pobranych źródłach)."
+        },
+        {
+          "name": "Geneeskunde (BSc Medicine)",
+          "nameEn": "Medicine (BSc), Dutch-taught",
+          "careerIds": [
+            "lekarz"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "durationQuote": "Strona programu: 'Duur 36 maanden (180 EC)', 'Voertaal Nederlands'. Po licencjacie następuje trzyletnia magisterka (Master Geneeskunde), dopiero ona daje tytuł lekarza.",
+          "languages": [
+            "niderlandzki"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie w roku akademickim 2026/27 (czesne ustawowe); 2 771 EUR rocznie w roku 2027/28. Opłata aplikacyjna 100 EUR (jednorazowa, dla dyplomów zagranicznych).",
+            "nonEu": "32 000 EUR rocznie w 2026/27, 32 000 EUR rocznie w 2027/28 (opłata instytucjonalna, nie dotyczy obywateli UE).",
+            "sourceUrl": "https://www.rug.nl/bachelors/medicine/?lang=en",
+            "quote": "Strona programu, tabela Collegegeld/Tuition fees: EU/EER 2026-2027 € 2694 voltijd; EU/EER 2027-2028 € 2771 voltijd. Strona RUG o aplikacji: 'application fee van 100 euro voor kandidaten met een niet-Nederlands diploma'.",
+            "academicYear": "2026/27 i 2027/28"
+          },
+          "admission": {
+            "polishMatura": "wymaga dodatkowego etapu",
+            "requirements": "Polskie świadectwo dojrzałości jest równoważne VWO, a dla medycyny lista RUG dla Polski wymienia przedmioty: biologia, matematyka, fizyka i chemia. Numerus fixus: 400 miejsc rocznie, selekcja decentralna (kryteria na stronie wydziału). Studia po niderlandzku.",
+            "languageProof": "Niderlandzki NT2-II (państwowy egzamin) albo certyfikat CNaVT (STRT i EDUP, min. B2); zwolnienia m.in. dla dyplomu VWO z niderlandzkim.",
+            "selective": true,
+            "studyPlaces": "400",
+            "sourceUrl": "https://www.rug.nl/education/application-enrolment-tuition-fees/admission/non-dutch-qualification/fixus-non-dutch-qualification",
+            "quote": "'Overzicht fixed-quota opleidingen: Geneeskunde (400 plaatsen)'; Polska, Medicine (Dutch taught): 'Biology, Mathematics, Physics, Chemistry'; strona języka: 'NT2-II Diploma, Certificate CNaVT ... minimum B2-level'.",
+            "matura_source": "https://www.rug.nl/education/application-enrolment-tuition-fees/admission/procedures/application-informatie/with-non-dutch-diploma/bachelor/bachelor-entry-requirements/bachelorlinkscountry/poland"
+          },
+          "deadline": "Studielink od 1 października 2026 do 15 stycznia 2027 (nabór na 2027/28, start 1 września 2027). Dane osobowe muszą być zweryfikowane do 15 lutego 2027, wyniki selekcji i numery rankingowe 15 kwietnia 2027, dowód spełnienia wymogów wykształcenia do 15 lipca 2027, opłata czesnego do 31 sierpnia 2027. Na medycynę można złożyć jedną aplikację w kraju (niderlandzka Geneeskunde lub Tandheelkunde); liczba prób selekcji w RUG: 2.",
+          "applyUrl": "https://www.studielink.nl",
+          "sourceUrl": "https://www.rug.nl/bachelors/medicine/?lang=en",
+          "notes": "Strona programu odsyła osoby z dyplomem zagranicznym do formularza kontaktowego biura przyjęć w sprawie dyplomu i wymagań."
+        }
+      ]
+    },
+    {
+      "name": "Hanzehogeschool Groningen (Hanze University of Applied Sciences)",
+      "url": "https://www.hanze.nl",
+      "type": "uczelnia zawodowa (HBO)",
+      "programs": [
+        {
+          "name": "Applied Computer Science (BSc)",
+          "nameEn": "Applied Computer Science (BSc)",
+          "careerIds": [
+            "programista"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "durationQuote": "Strona programu: 'Duration 4 years ... Credits 240 ECTS', 'Language English'.",
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "Czesne ustawowe jest takie samo na wszystkich uczelniach (strona Hanze: 'The government determines the amount of statutory tuition fee ... same for all educational institutions'). Kwota ustawowa to 2 694 EUR rocznie w 2026/27 i 2 771 EUR rocznie w 2027/28 (według stron programów RUG). Hanze nie podaje kwoty na pobranych stronach, do potwierdzenia na stronie uczelni.",
+            "nonEu": "Opłata instytucjonalna zależna od programu, kwota nie podana na pobranych stronach Hanze.",
+            "sourceUrl": "https://www.hanze.nl/en/programmes/full-time/bachelor/applied-computer-science",
+            "quote": "Hanze: 'Depending on your personal situation, you pay either the statutory tuition fee or institutional tuition fees.' Kwoty liczbowe: strony RUG (collegegeld EU/EER 2026-2027 € 2694, 2027-2028 € 2771).",
+            "academicYear": "2026/27 i 2027/28"
+          },
+          "admission": {
+            "polishMatura": "wymaga potwierdzenia przez uczelnię",
+            "requirements": "Wymagany dyplom szkoły średniej porównywalny z niderlandzkim HAVO (poziom wyraźnie niższy niż VWO). Jeśli dyplom jest nieznany, Hanze zleca ocenę Nuffic lub Ecctis. Strona nie wymienia Polski ani przedmiotów obowiązkowych.",
+            "languageProof": "Test angielskiego (IELTS Academic 6,0 ogólnie wg strony Hanze; TOEFL, Cambridge, TOEIC), wynik nie starszy niż 2 lata. Strona uczelni nie wymienia Polski wśród krajów zwolnionych z testu (lista w osobnym dokumencie).",
+            "selective": false,
+            "sourceUrl": "https://www.hanze.nl/en/programmes/full-time/bachelor/applied-computer-science",
+            "quote": "'you will need a secondary school diploma comparable to a Dutch HAVO ... If we are not familiar with your foreign diploma, we will have it verified by our national agency, NUFFIC, or by ECCTIS.'",
+            "matura_source": "https://www.hanze.nl/en/programmes/full-time/bachelor/applied-computer-science"
+          },
+          "deadline": "Termin dla obywateli UE (bez wizy): 15 sierpnia; dla osób z wizą 1 czerwca. Strona Hanze nie podaje roku przy tych datach, program na start 1 września 2027 (wybrać w Studielink); aktualny rok terminu do potwierdzenia na stronie uczelni. Programy z decentralną selekcją mają termin wcześniejszy (zapis spełniony przed 1 lipca).",
+          "applyUrl": "https://www.studielink.nl",
+          "sourceUrl": "https://www.hanze.nl/en/programmes/full-time/bachelor/applied-computer-science",
+          "notes": "Studia zawodowe (HBO), 4 lata. W Studielink wybrać kierunek Information & Communication Technology, potem Applied Computer Science, start 1 września 2027."
+        },
+        {
+          "name": "Mechanical Engineering (BSc)",
+          "nameEn": "Mechanical Engineering (BSc)",
+          "careerIds": [
+            "inzynier-mechanik"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "durationQuote": "Strona programu: 'Duration 3 years ... Credits 180 ECTS', 'Language English'.",
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "Czesne ustawowe jest takie samo na wszystkich uczelniach (strona Hanze: 'The government determines the amount of statutory tuition fee ... same for all educational institutions'). Kwota ustawowa to 2 694 EUR rocznie w 2026/27 i 2 771 EUR rocznie w 2027/28 (według stron programów RUG). Hanze nie podaje kwoty na pobranych stronach, do potwierdzenia na stronie uczelni.",
+            "nonEu": "Opłata instytucjonalna zależna od programu, kwota nie podana na pobranych stronach Hanze.",
+            "sourceUrl": "https://www.hanze.nl/en/programmes/full-time/bachelor/mechanical-engineering",
+            "quote": "Hanze: 'Depending on your personal situation, you pay either the statutory tuition fee or institutional tuition fees.' Kwoty liczbowe: strony RUG (collegegeld EU/EER 2026-2027 € 2694, 2027-2028 € 2771).",
+            "academicYear": "2026/27 i 2027/28"
+          },
+          "admission": {
+            "polishMatura": "wymaga potwierdzenia przez uczelnię",
+            "requirements": "Wymagany odpowiednik niderlandzkiego VWO (NLQF 4+/EQF 4) z matematyką i fizyką na poziomie rozszerzonym, według strony Hanze ('mathematics and physics at advanced level'). Ocena dyplomu: Nuffic. Strona nie wymienia wprost Polski.",
+            "languageProof": "IELTS Academic (nie online) min. 6,0 bez podwyników poniżej 5,0 i nie więcej niż dwa podwyniki 5,5; TOEFL iBT 80 (przed 12 stycznia 2026) lub 4,5 (po); Pearson PTE 61; LanguageCert 65. Potrzebny poziom B2 (czytanie i pisanie).",
+            "selective": false,
+            "sourceUrl": "https://www.hanze.nl/en/programmes/full-time/bachelor/mechanical-engineering",
+            "quote": "'International students need to have obtained the equivalent of a Dutch VWO diploma (NLQF4+/EQF4), including mathematics and physics at advanced level.'",
+            "matura_source": "https://www.hanze.nl/en/programmes/full-time/bachelor/mechanical-engineering"
+          },
+          "deadline": "Termin dla obywateli UE (bez wizy): 15 sierpnia; dla osób z wizą 1 czerwca. Strona Hanze nie podaje roku przy tych datach, program na start 1 września 2027 (wybrać w Studielink); aktualny rok terminu do potwierdzenia na stronie uczelni. Programy z decentralną selekcją mają termin wcześniejszy (zapis spełniony przed 1 lipca).",
+          "applyUrl": "https://www.studielink.nl",
+          "sourceUrl": "https://www.hanze.nl/en/programmes/full-time/bachelor/mechanical-engineering",
+          "notes": "Studia zawodowe (HBO) trzyletnie, osobny program po angielsku. Wersja holenderska (Werktuigbouwkunde) trwa 4 lata."
+        },
+        {
+          "name": "International Business (3-year, BBA)",
+          "nameEn": "International Business (3-year, Bachelor of Business Administration)",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "durationQuote": "Strona programu: 'Duration 3 years ... Credits 180 ECTS', 'Language English'.",
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "Czesne ustawowe jest takie samo na wszystkich uczelniach (strona Hanze: 'The government determines the amount of statutory tuition fee ... same for all educational institutions'). Kwota ustawowa to 2 694 EUR rocznie w 2026/27 i 2 771 EUR rocznie w 2027/28 (według stron programów RUG). Hanze nie podaje kwoty na pobranych stronach, do potwierdzenia na stronie uczelni.",
+            "nonEu": "Opłata instytucjonalna zależna od programu, kwota nie podana na pobranych stronach Hanze.",
+            "sourceUrl": "https://www.hanze.nl/en/programmes/full-time/bachelor/international-business-3-year",
+            "quote": "Hanze: 'Depending on your personal situation, you pay either the statutory tuition fee or institutional tuition fees.' Kwoty liczbowe: strony RUG (collegegeld EU/EER 2026-2027 € 2694, 2027-2028 € 2771).",
+            "academicYear": "2026/27 i 2027/28"
+          },
+          "admission": {
+            "polishMatura": "wymaga potwierdzenia przez uczelnię",
+            "requirements": "Wymagany dyplom porównywalny z niderlandzkim VWO (NLQF/EQF 4+), ocena przez Nuffic lub Ecctis. Strona nie wymienia Polski. Osoby bez takiego poziomu mogą wybrać czteroletnią wersję International Business (poziom HAVO).",
+            "languageProof": "IELTS Academic średnio 6,0, żaden podwynik poniżej 5,5, wynik nie starszy niż 2 lata.",
+            "selective": false,
+            "sourceUrl": "https://www.hanze.nl/en/programmes/full-time/bachelor/international-business-3-year",
+            "quote": "'you will need a secondary school diploma comparable to a Dutch VWO (pre-university) diploma ... For the International Business bachelor's programme an average IELTS Academic score of 6.0 is required with no subscore below 5.5.'",
+            "matura_source": "https://www.hanze.nl/en/programmes/full-time/bachelor/international-business-3-year"
+          },
+          "deadline": "Termin dla obywateli UE (bez wizy): 15 sierpnia; dla osób z wizą 1 czerwca. Strona Hanze nie podaje roku przy tych datach, program na start 1 września 2027 (wybrać w Studielink); aktualny rok terminu do potwierdzenia na stronie uczelni. Programy z decentralną selekcją mają termin wcześniejszy (zapis spełniony przed 1 lipca).",
+          "applyUrl": "https://www.studielink.nl",
+          "sourceUrl": "https://www.hanze.nl/en/programmes/full-time/bachelor/international-business-3-year",
+          "notes": "W Studielink wybrać 'B INTERNATIONAL BUSINESS (IN ENGLISH)' lub wariant trzyletni 180 ECTS, start 1 września 2027."
+        },
+        {
+          "name": "International Finance and Control (BSc)",
+          "nameEn": "International Finance and Control (BSc)",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "durationQuote": "Strona programu: 'Duration 4 years ... Credits 240 ECTS', 'Language English'.",
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "Czesne ustawowe jest takie samo na wszystkich uczelniach (strona Hanze: 'The government determines the amount of statutory tuition fee ... same for all educational institutions'). Kwota ustawowa to 2 694 EUR rocznie w 2026/27 i 2 771 EUR rocznie w 2027/28 (według stron programów RUG). Hanze nie podaje kwoty na pobranych stronach, do potwierdzenia na stronie uczelni.",
+            "nonEu": "Opłata instytucjonalna zależna od programu, kwota nie podana na pobranych stronach Hanze.",
+            "sourceUrl": "https://www.hanze.nl/en/programmes/full-time/bachelor/international-finance-and-control",
+            "quote": "Hanze: 'Depending on your personal situation, you pay either the statutory tuition fee or institutional tuition fees.' Kwoty liczbowe: strony RUG (collegegeld EU/EER 2026-2027 € 2694, 2027-2028 € 2771).",
+            "academicYear": "2026/27 i 2027/28"
+          },
+          "admission": {
+            "polishMatura": "wymaga potwierdzenia przez uczelnię",
+            "requirements": "Wymagany krajowy dyplom szkoły średniej o poziomie podobnym lub równoważnym niderlandzkiemu HAVO. Strona nie wymienia Polski ani przedmiotów obowiązkowych.",
+            "languageProof": "IELTS średnio 6,0, żaden podwynik poniżej 5,5 (także TOEFL, Cambridge, TOEIC), wynik nie starszy niż 2 lata.",
+            "selective": false,
+            "sourceUrl": "https://www.hanze.nl/en/programmes/full-time/bachelor/international-finance-and-control",
+            "quote": "'must have a similar or equivalent level to the Dutch HAVO ... an average IELTS score of 6.0 is required with no subscore below 5.5.'",
+            "matura_source": "https://www.hanze.nl/en/programmes/full-time/bachelor/international-finance-and-control"
+          },
+          "deadline": "Termin dla obywateli UE (bez wizy): 15 sierpnia; dla osób z wizą 1 czerwca. Strona Hanze nie podaje roku przy tych datach, program na start 1 września 2027 (wybrać w Studielink); aktualny rok terminu do potwierdzenia na stronie uczelni. Programy z decentralną selekcją mają termin wcześniejszy (zapis spełniony przed 1 lipca).",
+          "applyUrl": "https://www.studielink.nl",
+          "sourceUrl": "https://www.hanze.nl/en/programmes/full-time/bachelor/international-finance-and-control",
+          "notes": ""
+        },
+        {
+          "name": "International Communication (BA)",
+          "nameEn": "International Communication (BA)",
+          "careerIds": [
+            "dziennikarz"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "durationQuote": "Strona programu: 'Duration 4 years ... Credits 240 ECTS', 'Language English'.",
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "Czesne ustawowe jest takie samo na wszystkich uczelniach (strona Hanze: 'The government determines the amount of statutory tuition fee ... same for all educational institutions'). Kwota ustawowa to 2 694 EUR rocznie w 2026/27 i 2 771 EUR rocznie w 2027/28 (według stron programów RUG). Hanze nie podaje kwoty na pobranych stronach, do potwierdzenia na stronie uczelni.",
+            "nonEu": "Opłata instytucjonalna zależna od programu, kwota nie podana na pobranych stronach Hanze.",
+            "sourceUrl": "https://www.hanze.nl/en/programmes/full-time/bachelor/international-communication",
+            "quote": "Hanze: 'Depending on your personal situation, you pay either the statutory tuition fee or institutional tuition fees.' Kwoty liczbowe: strony RUG (collegegeld EU/EER 2026-2027 € 2694, 2027-2028 € 2771).",
+            "academicYear": "2026/27 i 2027/28"
+          },
+          "admission": {
+            "polishMatura": "wymaga potwierdzenia przez uczelnię",
+            "requirements": "Wymagany dyplom szkoły średniej na poziomie niderlandzkiego HAVO lub mbo-4 albo wyższym, dyplomy zagraniczne weryfikuje Nuffic. Strona nie wymienia Polski. Program z komunikacji międzynarodowej, nie szkoła dziennikarska.",
+            "languageProof": "IELTS Academic z podwynikami: żaden poniżej 5,5 i najwyżej dwa na poziomie 5,5 (czyli ogólnie około 6,0); wynik nie starszy niż 2 lata. Uczelnia nie udziela dodatkowych zwolnień poza krajowymi.",
+            "selective": false,
+            "sourceUrl": "https://www.hanze.nl/en/programmes/full-time/bachelor/international-communication",
+            "quote": "'Upper Secondary School diploma, at equivalent level to Dutch havo or mbo-4 or higher. Non-Dutch diplomas are verified by the Nuffic organisation.'",
+            "matura_source": "https://www.hanze.nl/en/programmes/full-time/bachelor/international-communication"
+          },
+          "deadline": "Termin dla obywateli UE (bez wizy): 15 sierpnia; dla osób z wizą 1 czerwca. Strona Hanze nie podaje roku przy tych datach, program na start 1 września 2027 (wybrać w Studielink); aktualny rok terminu do potwierdzenia na stronie uczelni. Programy z decentralną selekcją mają termin wcześniejszy (zapis spełniony przed 1 lipca).",
+          "applyUrl": "https://www.studielink.nl",
+          "sourceUrl": "https://www.hanze.nl/en/programmes/full-time/bachelor/international-communication",
+          "notes": "Hanze nie ma w pobranych źródłach osobnego licencjatu z dziennikarstwa."
+        },
+        {
+          "name": "Built Environment (Gebouwde omgeving), BSc",
+          "nameEn": "Built Environment (Bachelor of Science), Dutch-taught",
+          "careerIds": [
+            "inzynier-budownictwa",
+            "architekt"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "durationQuote": "Strona programu: 'Duur 4 jaar ... Credits 240 ECTS', 'Taal Nederlands'.",
+          "languages": [
+            "niderlandzki"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "Czesne ustawowe jest takie samo na wszystkich uczelniach (strona Hanze: 'The government determines the amount of statutory tuition fee ... same for all educational institutions'). Kwota ustawowa to 2 694 EUR rocznie w 2026/27 i 2 771 EUR rocznie w 2027/28 (według stron programów RUG). Hanze nie podaje kwoty na pobranych stronach, do potwierdzenia na stronie uczelni.",
+            "nonEu": "Opłata instytucjonalna zależna od programu, kwota nie podana na pobranych stronach Hanze.",
+            "sourceUrl": "https://www.hanze.nl/nl/opleidingen/voltijd/bachelor/built-environment",
+            "quote": "Hanze: 'Depending on your personal situation, you pay either the statutory tuition fee or institutional tuition fees.' Kwoty liczbowe: strony RUG (collegegeld EU/EER 2026-2027 € 2694, 2027-2028 € 2771).",
+            "academicYear": "2026/27 i 2027/28"
+          },
+          "admission": {
+            "polishMatura": "wymaga potwierdzenia przez uczelnię",
+            "requirements": "Strona wymaga dyplomu z kraju pochodzenia gwarantującego poziom równoważny niderlandzkiemu havo, vwo lub mbo-4 (z odpowiednimi profilami). Polska nie jest wymieniona na stronie programu, poziom wymaganej znajomości niderlandzkiego nie jest tam podany.",
+            "languageProof": "Program po niderlandzku, poziom niderlandzkiego (zwykle NT2-II) do potwierdzenia na stronie uczelni.",
+            "selective": false,
+            "sourceUrl": "https://www.hanze.nl/nl/opleidingen/voltijd/bachelor/built-environment",
+            "quote": "'Je kunt worden toegelaten met een buitenlands diploma als je diploma uit het land van herkomst gelijkwaardig is aan een Nederlandse havo of vwo (met de gewenste profielen) of mbo niveau 4.'",
+            "matura_source": "https://www.hanze.nl/nl/opleidingen/voltijd/bachelor/built-environment"
+          },
+          "deadline": "Studielink: najlepiej do 1 maja (prawo do studiekeuzecheck), zgłoszenia do 31 sierpnia, przy dyplomie zagranicznym podana data 15 sierpnia (rok niepodany na stronie, program na start we wrześniu).",
+          "applyUrl": "https://www.studielink.nl",
+          "sourceUrl": "https://www.hanze.nl/nl/opleidingen/voltijd/bachelor/built-environment",
+          "notes": "Jedyny program HBO z obszaru budownictwa i architektury w Groningen w pobranych źródłach: obejmuje bouwkunde, civiele techniek i ruimtelijke ontwikkeling. Nie jest to akademicka architektura (TU Delft, Eindhoven poza miastem)."
+        }
+      ]
+    }
+  ],
+  "luki": [
+    "Politechniki w Groningen nie ma. Architektura akademicka i budownictwo na poziomie uniwersyteckim nie są oferowane na RUG, najbliższy odpowiednik to czteroletni program HBO Built Environment w Hanze, po niderlandzku.",
+    "Mechanical Engineering na RUG jest tylko magisterskie, na poziomie licencjatu uniwersytet oferuje Industrial Engineering and Management. Licencjat z mechaniki ma Hanze (3 lata, po angielsku).",
+    "Data Science and Society (Campus Fryslân) jest w Leeuwarden, a nie w Groningen, więc nie został wpisany. Strona programu podaje angielski, 3 lata, terminy 1 listopada 2026 i 1 maja 2027 dla UE.",
+    "Dziennikarstwo: ani RUG, ani Hanze nie mają w pobranych źródłach osobnego licencjatu z dziennikarstwa. Wpisano programy komunikacyjne po angielsku.",
+    "Prawo po niderlandzku (Rechtsgeleerdheid) pominięto. Wymagany byłby niderlandzki, a strona programu nie podaje poziomu dla kandydatów z zagranicznym dyplomem.",
+    "Hanze nie wymienia Polski na stronach programów ani na stronie z wymaganiami z angielskiego (lista zwolnień jest w osobnym dokumencie), więc status polskiej matury i zwolnienia z testu angielskiego trzeba potwierdzić na stronie uczelni.",
+    "Hanze nie podaje na pobranych stronach kwot czesnego. Czesne ustawowe jest jednakowe w całym kraju, ale kwotę dla Hanze na 2026/27 i 2027/28 warto potwierdzić w kalkulatorze czesnego uczelni.",
+    "Terminy Hanze (15 sierpnia i 1 czerwca) są podane bez roku, nie wiadomo więc, czy dotyczą naboru 2027/28.",
+    "Szczegóły testu selekcyjnego na psychologię (ścieżka angielska) oraz opis procedury Fit & Benchmark dla International Business na nabór 2027/28 nie są jeszcze opublikowane na stronach programów, strona IB opisuje nabór 2026/27.",
+    "Strona o dyplomach z Polski w serwisie Nuffic nie była dostępna w formie czytelnej, status matury oparto na liście RUG.",
+    "Wymagane przedmioty i poziomy matury (podstawowy czy rozszerzony) są oceniane indywidualnie przez komisję przyjęć na podstawie opisów kursów. Wyjątek: Econometrics and Operations Research wymaga matematyki na poziomie rozszerzonym, a Hanze Mechanical Engineering matematyki i fizyki na poziomie rozszerzonym."
+  ]
+}

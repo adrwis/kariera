@@ -1,0 +1,798 @@
+{
+  "city": "Barcelona",
+  "country": "Hiszpania",
+  "retrieved": "2026-10-03",
+  "overview": {
+    "polishMatura": "Obywatele UE z polską maturą nie zdają hiszpańskiej PAU. Polska jest na oficjalnej liście systemów, dla których wystarczy akredytacja UNEDasiss (UNED), przeliczająca oceny z liceum na notę dostępu w skali 5 do 10. Potem składa się zgłoszenie (preinscripció) przez katalońskie Portal d'Accés a la Universitat. Notę admisji (do 14 punktów) podnosi się do 4 punktami z dwóch najlepiej ważonych przedmiotów z PCE (UNED) lub z fazy dobrowolnej PAU. Przedmioty z liceum widoczne w akredytacji nie liczą się do podniesienia noty. Dla kierunków z notą odcięcia powyżej 10 (medycyna, data science) PCE lub PAU są w praktyce konieczne.",
+    "tuition": "Wszystkie publiczne uczelnie Katalonii (UB, UAB, UPC, UPF) pobierają tę samą opłatę za kredyt ECTS przy pierwszej rejestracji: 17,69 EUR w roku 2026/27, czyli około 1 061 EUR za 60 ECTS rocznie, bez względu na kierunek. Dla obywateli UE jest to ta sama stawka co dla Hiszpanów. UPC podaje około 1 800 EUR rocznie dla nierezydentów spoza UE. Opłat administracyjnych nie zsumowano.",
+    "generalDeadlines": "Nabór czerwcowy 2026/27: preinscripció od 2 do 26 czerwca 2026, pierwszy przydział miejsc 10 lipca, kolejne do połowy października. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026. UNEDasiss przyjmuje wnioski o akredytację od 4 lutego do 1 grudnia każdego roku i zaleca złożenie wniosku co najmniej 6 tygodni przed końcem preinscripció. PCE: wiosenna sesja w maju i czerwcu (wnioski od 16 marca do 28 kwietnia 2026) i wrześniowa (od 1 do 22 lipca 2026). Terminy na 2027/28 nie są jeszcze opublikowane.",
+    "englishProof": "Większość programów jest po katalońsku i hiszpańsku (z częścią zajęć po angielsku). Programy w pełni anglojęzyczne: UAB Economia, UAB Intel·ligència Artificial, UPC Enginyeria Civil (grupa po angielsku). Wymaganego certyfikatu z angielskiego ani poziomu hiszpańskiego lub katalońskiego nie znaleziono na sprawdzonych stronach; do potwierdzenia na stronach wydziałów.",
+    "catalanSystem": "Katalonia ma własny system przyjęć: UB, UAB, UPC i UPF należą do jednej wspólnej preinscripció, w której wpisuje się kolejne preferencje. Uczelnie nie prowadzą osobnej rekrutacji dla obywateli UE."
+  },
+  "sources": [
+    {
+      "url": "https://unedasiss.uned.es/publico_destino",
+      "note": "UNEDasiss: typy studentów, Polska na liście systemów UE, akredytacja i PCE."
+    },
+    {
+      "url": "https://unedasiss.uned.es/fechas_clave",
+      "note": "UNEDasiss: terminy akredytacji (4 lutego do 1 grudnia), PCE i preinscripció w 2026."
+    },
+    {
+      "url": "https://universitats.gencat.cat/ca/preinscripcions/acces-universitat-estudis-estrangers/",
+      "note": "Generalitat de Catalunya: dostęp z zagranicznymi studiami, nota dostępu i admisji, PCE."
+    },
+    {
+      "url": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+      "note": "Generalitat de Catalunya: cena za kredyt w roku 2026/27 (17,69 EUR)."
+    },
+    {
+      "url": "https://universitats.gencat.cat/ca/preinscripcions/calendari/",
+      "note": "Generalitat de Catalunya: kalendarz preinscripció 2026."
+    },
+    {
+      "url": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/Preins-2026-Juny_v4.pdf",
+      "note": "Generalitat de Catalunya: oferta miejsc, czerwiec 2026."
+    },
+    {
+      "url": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+      "note": "Generalitat de Catalunya: noty odcięcia, pierwszy przydział, czerwiec 2026."
+    }
+  ],
+  "universities": [
+    {
+      "name": "Universitat Politècnica de Catalunya (UPC)",
+      "url": "https://www.upc.edu",
+      "type": "politechnika",
+      "programs": [
+        {
+          "name": "Grau en Enginyeria Informàtica",
+          "nameEn": "Bachelor's degree in Informatics Engineering",
+          "careerIds": [
+            "programista",
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "durationQuote": "UPC: 'Duration 4 academic years, Study load 240 ECTS credits'",
+          "languages": [
+            "katalański",
+            "hiszpański",
+            "angielski (część przedmiotów)"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany nabór; warunki na 2027/28 jeszcze nie ogłoszone)",
+          "preEnrolmentCode": 31059,
+          "placesApprox": 360,
+          "cutoff2026FirstAssignment": "10,008",
+          "tuition": {
+            "eu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego opłata za prowadzenie akt studenta i inne opłaty ogólne, ich wysokości nie sprawdzono.",
+            "nonEu": "Około 1 800 EUR rocznie dla nierezydentów spoza UE (podane na stronie programu UPC, rok 2026/27).",
+            "sourceUrl": "https://upc.edu/en/bachelors/informatics-engineering-barcelona-fib",
+            "quote": "Generalitat: 'Si et matricules per primera vegada en un grau universitari en una universitat pública de Catalunya (UB, UAB, UPC, UPF, UdL, UdG, URV), el preu per crèdit és de 17,69 €' (curs 2026-2027). UPC: 'Approximate fees per academic year: €1,061 (€1,800 for non-EU residents)'.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Preinscripció przez portal Accés Universitat (kod programu 31059), orientacyjna liczba miejsc w naborze 2026/27: 360. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (UNED) lub z fazy dobrowolnej PAU. Nota odcięcia z pierwszego przydziału czerwca 2026 (kolumna PAU/CFGS, nie ma osobnej dla matur z zagranicy): 10,008.",
+            "languageProof": "Poziom języka hiszpańskiego lub katalońskiego wymagany do przyjęcia nie jest podany na stronach, które sprawdzono. Strony UPC i Generalitat mówią tylko, że kandydat musi mieć odpowiednią znajomość języka wykładowego. Do potwierdzenia na stronie uczelni.",
+            "selective": true,
+            "studyPlaces": "360",
+            "sourceUrl": "https://upc.edu/en/bachelors/informatics-engineering-barcelona-fib",
+            "quote": "UPC: 'New intake places 360', 'Pre-enrolment code 31059', 'Admission mark 2026-2027 academic year 10,008'; UPC (UE): 'may apply for admission directly, without the need to sit the PAU, provided they meet the academic requirements in force in their own education systems' (UNED weryfikuje).",
+            "matura_note": "Polska znajduje się na oficjalnej liście systemów UE objętych tą ścieżką. Bez hiszpańskiej PAU: trzeba mieć akredytację UNEDasiss, która przelicza oceny z liceum na notę dostępu w skali 5 do 10, oraz zgłosić się w preinscripció. Warunek: spełnianie wymogów wstępu na uczelnie w Polsce (zdana matura).",
+            "matura_source": "https://www.upc.edu/en/bachelors/access-and-admission/secondary-students-from-ue-and-countries-with-reciprocity-agreements"
+          },
+          "deadline": "Preinscripció (nabór czerwcowy) na rok 2026/27: od 2 do 26 czerwca 2026, minęło; pierwsze przydziały miejsc 10 lipca 2026. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026, minęło. Termin na rok 2027/28 nie został jeszcze opublikowany. Akredytacja UNEDasiss: wniosek można składać od 4 lutego do 1 grudnia każdego roku, najlepiej co najmniej 6 tygodni przed końcem preinscripció.",
+          "applyUrl": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+          "sourceUrl": "https://upc.edu/en/bachelors/informatics-engineering-barcelona-fib",
+          "notes": "Wydział FIB w Barcelonie. Język wykładowy podany w planie studiów dla każdego przedmiotu; strona UPC nie podaje jednego języka dla całego programu. Pięć specjalizacji (Computing, Computer Engineering, Software Engineering, Information Systems, Information Technologies)."
+        },
+        {
+          "name": "Grau en Intel·ligència Artificial",
+          "nameEn": "Bachelor's degree in Artificial Intelligence",
+          "careerIds": [
+            "programista",
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "durationQuote": "UPC: 'Duration 4 academic years, Study load 240 ECTS credits'",
+          "languages": [
+            "katalański",
+            "hiszpański",
+            "angielski (część przedmiotów)"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany nabór; warunki na 2027/28 jeszcze nie ogłoszone)",
+          "preEnrolmentCode": 31106,
+          "placesApprox": 50,
+          "cutoff2026FirstAssignment": "11,514",
+          "tuition": {
+            "eu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego opłata za prowadzenie akt studenta i inne opłaty ogólne, ich wysokości nie sprawdzono.",
+            "nonEu": "Około 1 800 EUR rocznie dla nierezydentów spoza UE (podane na stronie programu UPC, rok 2026/27).",
+            "sourceUrl": "https://upc.edu/en/bachelors/artificial-intelligence-barcelona-fib",
+            "quote": "Generalitat: 'Si et matricules per primera vegada en un grau universitari en una universitat pública de Catalunya (UB, UAB, UPC, UPF, UdL, UdG, URV), el preu per crèdit és de 17,69 €' (curs 2026-2027). UPC: 'Approximate fees per academic year: €1,061 (€1,800 for non-EU residents)'.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Preinscripció przez portal Accés Universitat (kod programu 31106), orientacyjna liczba miejsc w naborze 2026/27: 50. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (UNED) lub z fazy dobrowolnej PAU. Nota odcięcia z pierwszego przydziału czerwca 2026 (kolumna PAU/CFGS, nie ma osobnej dla matur z zagranicy): 11,514.",
+            "languageProof": "Poziom języka hiszpańskiego lub katalońskiego wymagany do przyjęcia nie jest podany na stronach, które sprawdzono. Strony UPC i Generalitat mówią tylko, że kandydat musi mieć odpowiednią znajomość języka wykładowego. Do potwierdzenia na stronie uczelni.",
+            "selective": true,
+            "studyPlaces": "50",
+            "sourceUrl": "https://upc.edu/en/bachelors/artificial-intelligence-barcelona-fib",
+            "quote": "UPC: 'New intake places 50', 'Pre-enrolment code 31106', 'Admission mark 2026-2027 academic year 11,514'; UPC (UE): 'may apply for admission directly, without the need to sit the PAU, provided they meet the academic requirements in force in their own education systems' (UNED weryfikuje).",
+            "matura_note": "Polska znajduje się na oficjalnej liście systemów UE objętych tą ścieżką. Bez hiszpańskiej PAU: trzeba mieć akredytację UNEDasiss, która przelicza oceny z liceum na notę dostępu w skali 5 do 10, oraz zgłosić się w preinscripció. Warunek: spełnianie wymogów wstępu na uczelnie w Polsce (zdana matura).",
+            "matura_source": "https://www.upc.edu/en/bachelors/access-and-admission/secondary-students-from-ue-and-countries-with-reciprocity-agreements"
+          },
+          "deadline": "Preinscripció (nabór czerwcowy) na rok 2026/27: od 2 do 26 czerwca 2026, minęło; pierwsze przydziały miejsc 10 lipca 2026. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026, minęło. Termin na rok 2027/28 nie został jeszcze opublikowany. Akredytacja UNEDasiss: wniosek można składać od 4 lutego do 1 grudnia każdego roku, najlepiej co najmniej 6 tygodni przed końcem preinscripció.",
+          "applyUrl": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+          "sourceUrl": "https://upc.edu/en/bachelors/artificial-intelligence-barcelona-fib",
+          "notes": "Wydział FIB. Język wykładowy podany w planie studiów dla każdego przedmiotu."
+        },
+        {
+          "name": "Grau en Ciència i Enginyeria de Dades",
+          "nameEn": "Bachelor's degree in Data Science and Engineering",
+          "careerIds": [
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "durationQuote": "UPC: 'Duration 4 academic years, Study load 240 ECTS credits'",
+          "languages": [
+            "katalański",
+            "hiszpański",
+            "angielski (część przedmiotów)"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany nabór; warunki na 2027/28 jeszcze nie ogłoszone)",
+          "preEnrolmentCode": 31089,
+          "placesApprox": 50,
+          "cutoff2026FirstAssignment": "12,006",
+          "tuition": {
+            "eu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego opłata za prowadzenie akt studenta i inne opłaty ogólne, ich wysokości nie sprawdzono.",
+            "nonEu": "Około 1 800 EUR rocznie dla nierezydentów spoza UE (podane na stronie programu UPC, rok 2026/27).",
+            "sourceUrl": "https://upc.edu/en/bachelors/data-science-and-engineering-barcelona-fib-etsetb-fme",
+            "quote": "Generalitat: 'Si et matricules per primera vegada en un grau universitari en una universitat pública de Catalunya (UB, UAB, UPC, UPF, UdL, UdG, URV), el preu per crèdit és de 17,69 €' (curs 2026-2027). UPC: 'Approximate fees per academic year: €1,061 (€1,800 for non-EU residents)'.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Preinscripció przez portal Accés Universitat (kod programu 31089), orientacyjna liczba miejsc w naborze 2026/27: 50. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (UNED) lub z fazy dobrowolnej PAU. Nota odcięcia z pierwszego przydziału czerwca 2026 (kolumna PAU/CFGS, nie ma osobnej dla matur z zagranicy): 12,006.",
+            "languageProof": "Poziom języka hiszpańskiego lub katalońskiego wymagany do przyjęcia nie jest podany na stronach, które sprawdzono. Strony UPC i Generalitat mówią tylko, że kandydat musi mieć odpowiednią znajomość języka wykładowego. Do potwierdzenia na stronie uczelni.",
+            "selective": true,
+            "studyPlaces": "50",
+            "sourceUrl": "https://upc.edu/en/bachelors/data-science-and-engineering-barcelona-fib-etsetb-fme",
+            "quote": "UPC: 'New intake places 50', 'Pre-enrolment code 31089', 'Admission mark 2026-2027 academic year 12,006'; UPC (UE): 'may apply for admission directly, without the need to sit the PAU, provided they meet the academic requirements in force in their own education systems' (UNED weryfikuje).",
+            "matura_note": "Polska znajduje się na oficjalnej liście systemów UE objętych tą ścieżką. Bez hiszpańskiej PAU: trzeba mieć akredytację UNEDasiss, która przelicza oceny z liceum na notę dostępu w skali 5 do 10, oraz zgłosić się w preinscripció. Warunek: spełnianie wymogów wstępu na uczelnie w Polsce (zdana matura).",
+            "matura_source": "https://www.upc.edu/en/bachelors/access-and-admission/secondary-students-from-ue-and-countries-with-reciprocity-agreements"
+          },
+          "deadline": "Preinscripció (nabór czerwcowy) na rok 2026/27: od 2 do 26 czerwca 2026, minęło; pierwsze przydziały miejsc 10 lipca 2026. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026, minęło. Termin na rok 2027/28 nie został jeszcze opublikowany. Akredytacja UNEDasiss: wniosek można składać od 4 lutego do 1 grudnia każdego roku, najlepiej co najmniej 6 tygodni przed końcem preinscripció.",
+          "applyUrl": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+          "sourceUrl": "https://upc.edu/en/bachelors/data-science-and-engineering-barcelona-fib-etsetb-fme",
+          "notes": "Wspólny program FIB, ETSETB i FME. Nota odcięcia 12,006 jest wyższa niż maksymalna nota dostępu z akredytacji (10), więc bez punktów z PCE lub PAU miejsca praktycznie nie da się zdobyć."
+        },
+        {
+          "name": "Grau en Estudis d'Arquitectura",
+          "nameEn": "Bachelor's degree in Architecture Studies",
+          "careerIds": [
+            "architekt"
+          ],
+          "level": "licencjat",
+          "durationYears": 5,
+          "durationQuote": "UPC: 'Duration 5 academic years, Study load 300 ECTS credits'",
+          "languages": [
+            "katalański",
+            "hiszpański"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany nabór; warunki na 2027/28 jeszcze nie ogłoszone)",
+          "preEnrolmentCode": 31078,
+          "placesApprox": 342,
+          "cutoff2026FirstAssignment": "9,838",
+          "tuition": {
+            "eu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego opłata za prowadzenie akt studenta i inne opłaty ogólne, ich wysokości nie sprawdzono.",
+            "nonEu": "Około 1 800 EUR rocznie dla nierezydentów spoza UE (podane na stronie programu UPC, rok 2026/27).",
+            "sourceUrl": "https://upc.edu/en/bachelors/architecture-studies-barcelona-etsab",
+            "quote": "Generalitat: 'Si et matricules per primera vegada en un grau universitari en una universitat pública de Catalunya (UB, UAB, UPC, UPF, UdL, UdG, URV), el preu per crèdit és de 17,69 €' (curs 2026-2027). UPC: 'Approximate fees per academic year: €1,061 (€1,800 for non-EU residents)'.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Preinscripció przez portal Accés Universitat (kod programu 31078), orientacyjna liczba miejsc w naborze 2026/27: 342. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (UNED) lub z fazy dobrowolnej PAU. Nota odcięcia z pierwszego przydziału czerwca 2026 (kolumna PAU/CFGS, nie ma osobnej dla matur z zagranicy): 9,838.",
+            "languageProof": "Poziom języka hiszpańskiego lub katalońskiego wymagany do przyjęcia nie jest podany na stronach, które sprawdzono. Strony UPC i Generalitat mówią tylko, że kandydat musi mieć odpowiednią znajomość języka wykładowego. Do potwierdzenia na stronie uczelni.",
+            "selective": true,
+            "studyPlaces": "342",
+            "sourceUrl": "https://upc.edu/en/bachelors/architecture-studies-barcelona-etsab",
+            "quote": "UPC: 'New intake places 342', 'Pre-enrolment code 31078', 'Admission mark 2026-2027 academic year 9,838'; UPC (UE): 'may apply for admission directly, without the need to sit the PAU, provided they meet the academic requirements in force in their own education systems' (UNED weryfikuje).",
+            "matura_note": "Polska znajduje się na oficjalnej liście systemów UE objętych tą ścieżką. Bez hiszpańskiej PAU: trzeba mieć akredytację UNEDasiss, która przelicza oceny z liceum na notę dostępu w skali 5 do 10, oraz zgłosić się w preinscripció. Warunek: spełnianie wymogów wstępu na uczelnie w Polsce (zdana matura).",
+            "matura_source": "https://www.upc.edu/en/bachelors/access-and-admission/secondary-students-from-ue-and-countries-with-reciprocity-agreements"
+          },
+          "deadline": "Preinscripció (nabór czerwcowy) na rok 2026/27: od 2 do 26 czerwca 2026, minęło; pierwsze przydziały miejsc 10 lipca 2026. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026, minęło. Termin na rok 2027/28 nie został jeszcze opublikowany. Akredytacja UNEDasiss: wniosek można składać od 4 lutego do 1 grudnia każdego roku, najlepiej co najmniej 6 tygodni przed końcem preinscripció.",
+          "applyUrl": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+          "sourceUrl": "https://upc.edu/en/bachelors/architecture-studies-barcelona-etsab",
+          "notes": "ETSAB w Barcelonie. Strona programu nie podaje języka wykładowego jednym zdaniem. Inna lokalizacja: Sant Cugat del Vallès (kod 31079, 110 miejsc)."
+        },
+        {
+          "name": "Grau en Enginyeria Civil (grupa po angielsku)",
+          "nameEn": "Bachelor's degree in Civil Engineering (group taught 100% in English)",
+          "careerIds": [
+            "inzynier-budownictwa"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "durationQuote": "UPC: 'Duration 4 academic years, Study load 240 ECTS credits'",
+          "languages": [
+            "angielski (grupa 100% po angielsku)"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany nabór; warunki na 2027/28 jeszcze nie ogłoszone)",
+          "preEnrolmentCode": 31103,
+          "placesApprox": 120,
+          "cutoff2026FirstAssignment": "9,846",
+          "tuition": {
+            "eu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego opłata za prowadzenie akt studenta i inne opłaty ogólne, ich wysokości nie sprawdzono.",
+            "nonEu": "Około 1 800 EUR rocznie dla nierezydentów spoza UE (podane na stronie programu UPC, rok 2026/27).",
+            "sourceUrl": "https://upc.edu/en/bachelors/civil-engineering-barcelona-etseccpb",
+            "quote": "Generalitat: 'Si et matricules per primera vegada en un grau universitari en una universitat pública de Catalunya (UB, UAB, UPC, UPF, UdL, UdG, URV), el preu per crèdit és de 17,69 €' (curs 2026-2027). UPC: 'Approximate fees per academic year: €1,061 (€1,800 for non-EU residents)'.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Preinscripció przez portal Accés Universitat (kod programu 31103), orientacyjna liczba miejsc w naborze 2026/27: 120. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (UNED) lub z fazy dobrowolnej PAU. Nota odcięcia z pierwszego przydziału czerwca 2026 (kolumna PAU/CFGS, nie ma osobnej dla matur z zagranicy): 9,846.",
+            "languageProof": "Poziom angielskiego wymagany do przyjęcia nie jest podany na sprawdzonych stronach; do potwierdzenia na stronie wydziału.",
+            "selective": true,
+            "studyPlaces": "120",
+            "sourceUrl": "https://upc.edu/en/bachelors/civil-engineering-barcelona-etseccpb",
+            "quote": "UPC: 'New intake places 120', 'Pre-enrolment code 31103', 'Admission mark 2026-2027 academic year 9,846'; UPC (UE): 'may apply for admission directly, without the need to sit the PAU, provided they meet the academic requirements in force in their own education systems' (UNED weryfikuje).",
+            "matura_note": "Polska znajduje się na oficjalnej liście systemów UE objętych tą ścieżką. Bez hiszpańskiej PAU: trzeba mieć akredytację UNEDasiss, która przelicza oceny z liceum na notę dostępu w skali 5 do 10, oraz zgłosić się w preinscripció. Warunek: spełnianie wymogów wstępu na uczelnie w Polsce (zdana matura).",
+            "matura_source": "https://www.upc.edu/en/bachelors/access-and-admission/secondary-students-from-ue-and-countries-with-reciprocity-agreements"
+          },
+          "deadline": "Preinscripció (nabór czerwcowy) na rok 2026/27: od 2 do 26 czerwca 2026, minęło; pierwsze przydziały miejsc 10 lipca 2026. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026, minęło. Termin na rok 2027/28 nie został jeszcze opublikowany. Akredytacja UNEDasiss: wniosek można składać od 4 lutego do 1 grudnia każdego roku, najlepiej co najmniej 6 tygodni przed końcem preinscripció.",
+          "applyUrl": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+          "sourceUrl": "https://upc.edu/en/bachelors/civil-engineering-barcelona-etseccpb",
+          "notes": "UPC pisze, że jest grupa prowadzona w 100% po angielsku; liczba miejsc i kod programu dotyczą całego kierunku, a nie tylko grupy angielskiej."
+        },
+        {
+          "name": "Grau en Arquitectura Tècnica i Edificació",
+          "nameEn": "Bachelor's degree in Architectural Technology and Building Construction",
+          "careerIds": [
+            "inzynier-budownictwa"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "durationQuote": "UPC: 'Duration 4 academic years, Study load 240 ECTS credits'",
+          "languages": [
+            "katalański",
+            "hiszpański"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany nabór; warunki na 2027/28 jeszcze nie ogłoszone)",
+          "preEnrolmentCode": 31016,
+          "placesApprox": 160,
+          "cutoff2026FirstAssignment": "8,856",
+          "tuition": {
+            "eu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego opłata za prowadzenie akt studenta i inne opłaty ogólne, ich wysokości nie sprawdzono.",
+            "nonEu": "Około 1 800 EUR rocznie dla nierezydentów spoza UE (podane na stronie programu UPC, rok 2026/27).",
+            "sourceUrl": "https://upc.edu/en/bachelors/architectural-technology-and-building-construction-barcelona-epseb",
+            "quote": "Generalitat: 'Si et matricules per primera vegada en un grau universitari en una universitat pública de Catalunya (UB, UAB, UPC, UPF, UdL, UdG, URV), el preu per crèdit és de 17,69 €' (curs 2026-2027). UPC: 'Approximate fees per academic year: €1,061 (€1,800 for non-EU residents)'.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Preinscripció przez portal Accés Universitat (kod programu 31016), orientacyjna liczba miejsc w naborze 2026/27: 160. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (UNED) lub z fazy dobrowolnej PAU. Nota odcięcia z pierwszego przydziału czerwca 2026 (kolumna PAU/CFGS, nie ma osobnej dla matur z zagranicy): 8,856.",
+            "languageProof": "Poziom języka hiszpańskiego lub katalońskiego wymagany do przyjęcia nie jest podany na stronach, które sprawdzono. Strony UPC i Generalitat mówią tylko, że kandydat musi mieć odpowiednią znajomość języka wykładowego. Do potwierdzenia na stronie uczelni.",
+            "selective": true,
+            "studyPlaces": "160",
+            "sourceUrl": "https://upc.edu/en/bachelors/architectural-technology-and-building-construction-barcelona-epseb",
+            "quote": "UPC: 'New intake places 160', 'Pre-enrolment code 31016', 'Admission mark 2026-2027 academic year 8,856'; UPC (UE): 'may apply for admission directly, without the need to sit the PAU, provided they meet the academic requirements in force in their own education systems' (UNED weryfikuje).",
+            "matura_note": "Polska znajduje się na oficjalnej liście systemów UE objętych tą ścieżką. Bez hiszpańskiej PAU: trzeba mieć akredytację UNEDasiss, która przelicza oceny z liceum na notę dostępu w skali 5 do 10, oraz zgłosić się w preinscripció. Warunek: spełnianie wymogów wstępu na uczelnie w Polsce (zdana matura).",
+            "matura_source": "https://www.upc.edu/en/bachelors/access-and-admission/secondary-students-from-ue-and-countries-with-reciprocity-agreements"
+          },
+          "deadline": "Preinscripció (nabór czerwcowy) na rok 2026/27: od 2 do 26 czerwca 2026, minęło; pierwsze przydziały miejsc 10 lipca 2026. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026, minęło. Termin na rok 2027/28 nie został jeszcze opublikowany. Akredytacja UNEDasiss: wniosek można składać od 4 lutego do 1 grudnia każdego roku, najlepiej co najmniej 6 tygodni przed końcem preinscripció.",
+          "applyUrl": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+          "sourceUrl": "https://upc.edu/en/bachelors/architectural-technology-and-building-construction-barcelona-epseb",
+          "notes": "EPSEB w Barcelonie. Zajęcia rano i po południu. Strona programu nie podaje jednego języka wykładowego."
+        },
+        {
+          "name": "Grau en Enginyeria Mecànica",
+          "nameEn": "Bachelor's degree in Mechanical Engineering",
+          "careerIds": [
+            "inzynier-mechanik"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "durationQuote": "UPC: 'Duration 4 academic years, Study load 240 ECTS credits'",
+          "languages": [
+            "katalański",
+            "hiszpański"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany nabór; warunki na 2027/28 jeszcze nie ogłoszone)",
+          "preEnrolmentCode": 31027,
+          "placesApprox": 235,
+          "cutoff2026FirstAssignment": "9,954",
+          "tuition": {
+            "eu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego opłata za prowadzenie akt studenta i inne opłaty ogólne, ich wysokości nie sprawdzono.",
+            "nonEu": "Około 1 800 EUR rocznie dla nierezydentów spoza UE (podane na stronie programu UPC, rok 2026/27).",
+            "sourceUrl": "https://upc.edu/en/bachelors/mechanical-engineering-barcelona-eebe",
+            "quote": "Generalitat: 'Si et matricules per primera vegada en un grau universitari en una universitat pública de Catalunya (UB, UAB, UPC, UPF, UdL, UdG, URV), el preu per crèdit és de 17,69 €' (curs 2026-2027). UPC: 'Approximate fees per academic year: €1,061 (€1,800 for non-EU residents)'.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Preinscripció przez portal Accés Universitat (kod programu 31027), orientacyjna liczba miejsc w naborze 2026/27: 235. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (UNED) lub z fazy dobrowolnej PAU. Nota odcięcia z pierwszego przydziału czerwca 2026 (kolumna PAU/CFGS, nie ma osobnej dla matur z zagranicy): 9,954.",
+            "languageProof": "Poziom języka hiszpańskiego lub katalońskiego wymagany do przyjęcia nie jest podany na stronach, które sprawdzono. Strony UPC i Generalitat mówią tylko, że kandydat musi mieć odpowiednią znajomość języka wykładowego. Do potwierdzenia na stronie uczelni.",
+            "selective": true,
+            "studyPlaces": "235",
+            "sourceUrl": "https://upc.edu/en/bachelors/mechanical-engineering-barcelona-eebe",
+            "quote": "UPC: 'New intake places 235', 'Pre-enrolment code 31027', 'Admission mark 2026-2027 academic year 9,954'; UPC (UE): 'may apply for admission directly, without the need to sit the PAU, provided they meet the academic requirements in force in their own education systems' (UNED weryfikuje).",
+            "matura_note": "Polska znajduje się na oficjalnej liście systemów UE objętych tą ścieżką. Bez hiszpańskiej PAU: trzeba mieć akredytację UNEDasiss, która przelicza oceny z liceum na notę dostępu w skali 5 do 10, oraz zgłosić się w preinscripció. Warunek: spełnianie wymogów wstępu na uczelnie w Polsce (zdana matura).",
+            "matura_source": "https://www.upc.edu/en/bachelors/access-and-admission/secondary-students-from-ue-and-countries-with-reciprocity-agreements"
+          },
+          "deadline": "Preinscripció (nabór czerwcowy) na rok 2026/27: od 2 do 26 czerwca 2026, minęło; pierwsze przydziały miejsc 10 lipca 2026. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026, minęło. Termin na rok 2027/28 nie został jeszcze opublikowany. Akredytacja UNEDasiss: wniosek można składać od 4 lutego do 1 grudnia każdego roku, najlepiej co najmniej 6 tygodni przed końcem preinscripció.",
+          "applyUrl": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+          "sourceUrl": "https://upc.edu/en/bachelors/mechanical-engineering-barcelona-eebe",
+          "notes": "EEBE (Besòs, Barcelona). Strona programu nie podaje języka wykładowego jednym zdaniem; przedmiot 'Communication in Technical English' w planie."
+        }
+      ]
+    },
+    {
+      "name": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+      "url": "https://www.uab.cat",
+      "type": "uniwersytet",
+      "programs": [
+        {
+          "name": "Grau en Psicologia",
+          "nameEn": "Bachelor's degree in Psychology",
+          "careerIds": [
+            "psycholog"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "durationQuote": "UAB: 'Durada: 4 cursos - 240 crèdits'",
+          "languages": [
+            "katalański",
+            "hiszpański"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany nabór; warunki na 2027/28 jeszcze nie ogłoszone)",
+          "preEnrolmentCode": 21081,
+          "placesApprox": 360,
+          "cutoff2026FirstAssignment": "9,766",
+          "tuition": {
+            "eu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego opłata za prowadzenie akt studenta i inne opłaty ogólne, ich wysokości nie sprawdzono.",
+            "nonEu": "Osoby spoza UE bez statusu wspólnotowego mogą płacić cenę niedotowaną ustaloną przez radę społeczną uczelni; kwota nie jest podana w oficjalnej ofercie (do sprawdzenia na stronie uczelni).",
+            "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+            "quote": "Generalitat: 'Si et matricules per primera vegada en un grau universitari en una universitat pública de Catalunya (UB, UAB, UPC, UPF, UdL, UdG, URV), el preu per crèdit és de 17,69 €' (curs 2026-2027).",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Preinscripció przez portal Accés Universitat (kod programu 21081), orientacyjna liczba miejsc w naborze 2026/27: 360. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (UNED) lub z fazy dobrowolnej PAU. Nota odcięcia z pierwszego przydziału czerwca 2026 (kolumna PAU/CFGS, nie ma osobnej dla matur z zagranicy): 9,766.",
+            "languageProof": "Poziom języka hiszpańskiego lub katalońskiego wymagany do przyjęcia nie jest podany na stronach, które sprawdzono. Strony UPC i Generalitat mówią tylko, że kandydat musi mieć odpowiednią znajomość języka wykładowego. Do potwierdzenia na stronie uczelni.",
+            "selective": true,
+            "studyPlaces": "360",
+            "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/psicologia-1216708251447.html?param1=1264404718805",
+            "quote": "UAB: 'Durada: 4 cursos - 240 crèdits Places: 360 Nota de tall Batxillerat / CFGS: 9,766 Preu per crèdit: 17,69 euros Idioma: català i castellà'",
+            "matura_note": "Polska znajduje się na oficjalnej liście systemów UE objętych tą ścieżką. Bez hiszpańskiej PAU: trzeba mieć akredytację UNEDasiss, która przelicza oceny z liceum na notę dostępu w skali 5 do 10, oraz zgłosić się w preinscripció. Warunek: spełnianie wymogów wstępu na uczelnie w Polsce (zdana matura).",
+            "matura_source": "https://universitats.gencat.cat/ca/preinscripcions/acces-universitat-estudis-estrangers/"
+          },
+          "deadline": "Preinscripció (nabór czerwcowy) na rok 2026/27: od 2 do 26 czerwca 2026, minęło; pierwsze przydziały miejsc 10 lipca 2026. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026, minęło. Termin na rok 2027/28 nie został jeszcze opublikowany. Akredytacja UNEDasiss: wniosek można składać od 4 lutego do 1 grudnia każdego roku, najlepiej co najmniej 6 tygodni przed końcem preinscripció.",
+          "applyUrl": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+          "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/psicologia-1216708251447.html?param1=1264404718805",
+          "notes": "Kampus Bellaterra (Cerdanyola del Vallès). Zajęcia po katalońsku i hiszpańsku.",
+          "url": null
+        },
+        {
+          "name": "Grau en Medicina",
+          "nameEn": "Degree in Medicine",
+          "careerIds": [
+            "lekarz"
+          ],
+          "level": "jednolite",
+          "durationYears": 6,
+          "durationQuote": "UAB: 'Durada: 6 cursos - 360 crèdits'",
+          "languages": [
+            "katalański",
+            "hiszpański",
+            "angielski"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany nabór; warunki na 2027/28 jeszcze nie ogłoszone)",
+          "preEnrolmentCode": 21079,
+          "placesApprox": 385,
+          "cutoff2026FirstAssignment": "12,354",
+          "tuition": {
+            "eu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego opłata za prowadzenie akt studenta i inne opłaty ogólne, ich wysokości nie sprawdzono.",
+            "nonEu": "Osoby spoza UE bez statusu wspólnotowego mogą płacić cenę niedotowaną ustaloną przez radę społeczną uczelni; kwota nie jest podana w oficjalnej ofercie (do sprawdzenia na stronie uczelni).",
+            "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+            "quote": "Generalitat: 'Si et matricules per primera vegada en un grau universitari en una universitat pública de Catalunya (UB, UAB, UPC, UPF, UdL, UdG, URV), el preu per crèdit és de 17,69 €' (curs 2026-2027).",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Preinscripció przez portal Accés Universitat (kod programu 21079), orientacyjna liczba miejsc w naborze 2026/27: 385. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (UNED) lub z fazy dobrowolnej PAU. Nota odcięcia z pierwszego przydziału czerwca 2026 (kolumna PAU/CFGS, nie ma osobnej dla matur z zagranicy): 12,354.",
+            "languageProof": "Poziom języka hiszpańskiego lub katalońskiego wymagany do przyjęcia nie jest podany na stronach, które sprawdzono. Strony UPC i Generalitat mówią tylko, że kandydat musi mieć odpowiednią znajomość języka wykładowego. Do potwierdzenia na stronie uczelni.",
+            "selective": true,
+            "studyPlaces": "385",
+            "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/medicina-1216708251447.html?param1=1263281708763",
+            "quote": "UAB: 'Durada: 6 cursos - 360 crèdits Places: 385 Nota de tall Batxillerat / CFGS: 12,354 Preu per crèdit: 17,69 euros Idioma: català, castellà i anglès'",
+            "matura_note": "Polska znajduje się na oficjalnej liście systemów UE objętych tą ścieżką. Bez hiszpańskiej PAU: trzeba mieć akredytację UNEDasiss, która przelicza oceny z liceum na notę dostępu w skali 5 do 10, oraz zgłosić się w preinscripció. Warunek: spełnianie wymogów wstępu na uczelnie w Polsce (zdana matura).",
+            "matura_source": "https://universitats.gencat.cat/ca/preinscripcions/acces-universitat-estudis-estrangers/"
+          },
+          "deadline": "Preinscripció (nabór czerwcowy) na rok 2026/27: od 2 do 26 czerwca 2026, minęło; pierwsze przydziały miejsc 10 lipca 2026. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026, minęło. Termin na rok 2027/28 nie został jeszcze opublikowany. Akredytacja UNEDasiss: wniosek można składać od 4 lutego do 1 grudnia każdego roku, najlepiej co najmniej 6 tygodni przed końcem preinscripció.",
+          "applyUrl": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+          "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/medicina-1216708251447.html?param1=1263281708763",
+          "notes": "Kierunek jednolity. Nota odcięcia 12,354 przekracza maksymalną notę dostępu z akredytacji (10), więc potrzebne są wysokie wyniki z PCE lub fazy dobrowolnej PAU (do 4 punktów).",
+          "url": null
+        },
+        {
+          "name": "Grau en Dret",
+          "nameEn": "Bachelor's degree in Law",
+          "careerIds": [
+            "prawnik"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "durationQuote": "UAB: 'Durada: 4 cursos - 240 crèdits'",
+          "languages": [
+            "katalański",
+            "hiszpański",
+            "angielski"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany nabór; warunki na 2027/28 jeszcze nie ogłoszone)",
+          "preEnrolmentCode": 21086,
+          "placesApprox": 200,
+          "cutoff2026FirstAssignment": "9,708",
+          "tuition": {
+            "eu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego opłata za prowadzenie akt studenta i inne opłaty ogólne, ich wysokości nie sprawdzono.",
+            "nonEu": "Osoby spoza UE bez statusu wspólnotowego mogą płacić cenę niedotowaną ustaloną przez radę społeczną uczelni; kwota nie jest podana w oficjalnej ofercie (do sprawdzenia na stronie uczelni).",
+            "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+            "quote": "Generalitat: 'Si et matricules per primera vegada en un grau universitari en una universitat pública de Catalunya (UB, UAB, UPC, UPF, UdL, UdG, URV), el preu per crèdit és de 17,69 €' (curs 2026-2027).",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Preinscripció przez portal Accés Universitat (kod programu 21086), orientacyjna liczba miejsc w naborze 2026/27: 200. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (UNED) lub z fazy dobrowolnej PAU. Nota odcięcia z pierwszego przydziału czerwca 2026 (kolumna PAU/CFGS, nie ma osobnej dla matur z zagranicy): 9,708.",
+            "languageProof": "Poziom języka hiszpańskiego lub katalońskiego wymagany do przyjęcia nie jest podany na stronach, które sprawdzono. Strony UPC i Generalitat mówią tylko, że kandydat musi mieć odpowiednią znajomość języka wykładowego. Do potwierdzenia na stronie uczelni.",
+            "selective": true,
+            "studyPlaces": "200",
+            "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/dret-1216708251447.html?param1=1258702368123",
+            "quote": "UAB: 'Durada: 4 cursos - 240 crèdits Places: 200 Nota de tall Batxillerat / CFGS: 9,708 Preu per crèdit: 17,69 euros Idioma: Català, castellà i anglès'",
+            "matura_note": "Polska znajduje się na oficjalnej liście systemów UE objętych tą ścieżką. Bez hiszpańskiej PAU: trzeba mieć akredytację UNEDasiss, która przelicza oceny z liceum na notę dostępu w skali 5 do 10, oraz zgłosić się w preinscripció. Warunek: spełnianie wymogów wstępu na uczelnie w Polsce (zdana matura).",
+            "matura_source": "https://universitats.gencat.cat/ca/preinscripcions/acces-universitat-estudis-estrangers/"
+          },
+          "deadline": "Preinscripció (nabór czerwcowy) na rok 2026/27: od 2 do 26 czerwca 2026, minęło; pierwsze przydziały miejsc 10 lipca 2026. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026, minęło. Termin na rok 2027/28 nie został jeszcze opublikowany. Akredytacja UNEDasiss: wniosek można składać od 4 lutego do 1 grudnia każdego roku, najlepiej co najmniej 6 tygodni przed końcem preinscripció.",
+          "applyUrl": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+          "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/dret-1216708251447.html?param1=1258702368123",
+          "notes": "Prawo katalońskie i hiszpańskie; kwalifikacje do wykonywania zawodu w Polsce wymagają osobnej ścieżki, której nie sprawdzano.",
+          "url": null
+        },
+        {
+          "name": "Grau en Economia (docència en anglès)",
+          "nameEn": "Bachelor's degree in Economics (taught in English)",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "durationQuote": "UAB: 'Durada: 4 cursos - 240 crèdits'",
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany nabór; warunki na 2027/28 jeszcze nie ogłoszone)",
+          "preEnrolmentCode": 21110,
+          "placesApprox": 40,
+          "cutoff2026FirstAssignment": "9,660",
+          "tuition": {
+            "eu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego opłata za prowadzenie akt studenta i inne opłaty ogólne, ich wysokości nie sprawdzono.",
+            "nonEu": "Osoby spoza UE bez statusu wspólnotowego mogą płacić cenę niedotowaną ustaloną przez radę społeczną uczelni; kwota nie jest podana w oficjalnej ofercie (do sprawdzenia na stronie uczelni).",
+            "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+            "quote": "Generalitat: 'Si et matricules per primera vegada en un grau universitari en una universitat pública de Catalunya (UB, UAB, UPC, UPF, UdL, UdG, URV), el preu per crèdit és de 17,69 €' (curs 2026-2027).",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Preinscripció przez portal Accés Universitat (kod programu 21110), orientacyjna liczba miejsc w naborze 2026/27: 40. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (UNED) lub z fazy dobrowolnej PAU. Nota odcięcia z pierwszego przydziału czerwca 2026 (kolumna PAU/CFGS, nie ma osobnej dla matur z zagranicy): 9,660.",
+            "languageProof": "Poziom angielskiego wymagany do przyjęcia nie jest podany na sprawdzonych stronach; do potwierdzenia na stronie wydziału.",
+            "selective": true,
+            "studyPlaces": "40",
+            "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/economia-angles-1216708251447.html?param1=1345667929027",
+            "quote": "UAB: 'Durada: 4 cursos - 240 crèdits Places: 40 Nota de tall Batxillerat / CFGS: 9,660 Preu per crèdit: 17,69 euros Idioma: Anglès'",
+            "matura_note": "Polska znajduje się na oficjalnej liście systemów UE objętych tą ścieżką. Bez hiszpańskiej PAU: trzeba mieć akredytację UNEDasiss, która przelicza oceny z liceum na notę dostępu w skali 5 do 10, oraz zgłosić się w preinscripció. Warunek: spełnianie wymogów wstępu na uczelnie w Polsce (zdana matura).",
+            "matura_source": "https://universitats.gencat.cat/ca/preinscripcions/acces-universitat-estudis-estrangers/"
+          },
+          "deadline": "Preinscripció (nabór czerwcowy) na rok 2026/27: od 2 do 26 czerwca 2026, minęło; pierwsze przydziały miejsc 10 lipca 2026. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026, minęło. Termin na rok 2027/28 nie został jeszcze opublikowany. Akredytacja UNEDasiss: wniosek można składać od 4 lutego do 1 grudnia każdego roku, najlepiej co najmniej 6 tygodni przed końcem preinscripció.",
+          "applyUrl": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+          "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/economia-angles-1216708251447.html?param1=1345667929027",
+          "notes": "Grupa anglojęzyczna.",
+          "url": null
+        },
+        {
+          "name": "Grau en Intel·ligència Artificial / Artificial Intelligence (docència en anglès)",
+          "nameEn": "Bachelor's degree in Artificial Intelligence (taught in English)",
+          "careerIds": [
+            "programista",
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "durationQuote": "UAB: 'Durada: 4 cursos - 240 crèdits'",
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany nabór; warunki na 2027/28 jeszcze nie ogłoszone)",
+          "preEnrolmentCode": 21139,
+          "placesApprox": 40,
+          "cutoff2026FirstAssignment": "10,497",
+          "tuition": {
+            "eu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego opłata za prowadzenie akt studenta i inne opłaty ogólne, ich wysokości nie sprawdzono.",
+            "nonEu": "Osoby spoza UE bez statusu wspólnotowego mogą płacić cenę niedotowaną ustaloną przez radę społeczną uczelni; kwota nie jest podana w oficjalnej ofercie (do sprawdzenia na stronie uczelni).",
+            "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+            "quote": "Generalitat: 'Si et matricules per primera vegada en un grau universitari en una universitat pública de Catalunya (UB, UAB, UPC, UPF, UdL, UdG, URV), el preu per crèdit és de 17,69 €' (curs 2026-2027).",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Preinscripció przez portal Accés Universitat (kod programu 21139), orientacyjna liczba miejsc w naborze 2026/27: 40. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (UNED) lub z fazy dobrowolnej PAU. Nota odcięcia z pierwszego przydziału czerwca 2026 (kolumna PAU/CFGS, nie ma osobnej dla matur z zagranicy): 10,497.",
+            "languageProof": "Poziom angielskiego wymagany do przyjęcia nie jest podany na sprawdzonych stronach; do potwierdzenia na stronie wydziału.",
+            "selective": true,
+            "studyPlaces": "40",
+            "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/intel-ligencia-artificial-/-artificial-intelligence-1216708251447.html?param1=1345834483501",
+            "quote": "UAB: 'Durada: 4 cursos - 240 crèdits Places: 40 Nota de tall Batxillerat / CFGS: 10,497 Preu per crèdit: 17,69 euros Idioma: Anglès'",
+            "matura_note": "Polska znajduje się na oficjalnej liście systemów UE objętych tą ścieżką. Bez hiszpańskiej PAU: trzeba mieć akredytację UNEDasiss, która przelicza oceny z liceum na notę dostępu w skali 5 do 10, oraz zgłosić się w preinscripció. Warunek: spełnianie wymogów wstępu na uczelnie w Polsce (zdana matura).",
+            "matura_source": "https://universitats.gencat.cat/ca/preinscripcions/acces-universitat-estudis-estrangers/"
+          },
+          "deadline": "Preinscripció (nabór czerwcowy) na rok 2026/27: od 2 do 26 czerwca 2026, minęło; pierwsze przydziały miejsc 10 lipca 2026. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026, minęło. Termin na rok 2027/28 nie został jeszcze opublikowany. Akredytacja UNEDasiss: wniosek można składać od 4 lutego do 1 grudnia każdego roku, najlepiej co najmniej 6 tygodni przed końcem preinscripció.",
+          "applyUrl": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+          "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/intel-ligencia-artificial-/-artificial-intelligence-1216708251447.html?param1=1345834483501",
+          "notes": "Program po angielsku, zajęcia popołudniowe.",
+          "url": null
+        },
+        {
+          "name": "Grau en Periodisme",
+          "nameEn": "Bachelor's degree in Journalism",
+          "careerIds": [
+            "dziennikarz"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "durationQuote": "UAB: 'Durada: 4 cursos - 240 crèdits'",
+          "languages": [
+            "katalański",
+            "hiszpański"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany nabór; warunki na 2027/28 jeszcze nie ogłoszone)",
+          "preEnrolmentCode": 21096,
+          "placesApprox": 160,
+          "cutoff2026FirstAssignment": "9,864",
+          "tuition": {
+            "eu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego opłata za prowadzenie akt studenta i inne opłaty ogólne, ich wysokości nie sprawdzono.",
+            "nonEu": "Osoby spoza UE bez statusu wspólnotowego mogą płacić cenę niedotowaną ustaloną przez radę społeczną uczelni; kwota nie jest podana w oficjalnej ofercie (do sprawdzenia na stronie uczelni).",
+            "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+            "quote": "Generalitat: 'Si et matricules per primera vegada en un grau universitari en una universitat pública de Catalunya (UB, UAB, UPC, UPF, UdL, UdG, URV), el preu per crèdit és de 17,69 €' (curs 2026-2027).",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Preinscripció przez portal Accés Universitat (kod programu 21096), orientacyjna liczba miejsc w naborze 2026/27: 160. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (UNED) lub z fazy dobrowolnej PAU. Nota odcięcia z pierwszego przydziału czerwca 2026 (kolumna PAU/CFGS, nie ma osobnej dla matur z zagranicy): 9,864.",
+            "languageProof": "Poziom języka hiszpańskiego lub katalońskiego wymagany do przyjęcia nie jest podany na stronach, które sprawdzono. Strony UPC i Generalitat mówią tylko, że kandydat musi mieć odpowiednią znajomość języka wykładowego. Do potwierdzenia na stronie uczelni.",
+            "selective": true,
+            "studyPlaces": "160",
+            "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/periodisme-1216708251447.html?param1=1265293768091",
+            "quote": "UAB: 'Durada: 4 cursos - 240 crèdits Places: 160 Nota de tall Batxillerat / CFGS: 9,864 Preu per crèdit: 17,69 euros Idioma: català i castellà'",
+            "matura_note": "Polska znajduje się na oficjalnej liście systemów UE objętych tą ścieżką. Bez hiszpańskiej PAU: trzeba mieć akredytację UNEDasiss, która przelicza oceny z liceum na notę dostępu w skali 5 do 10, oraz zgłosić się w preinscripció. Warunek: spełnianie wymogów wstępu na uczelnie w Polsce (zdana matura).",
+            "matura_source": "https://universitats.gencat.cat/ca/preinscripcions/acces-universitat-estudis-estrangers/"
+          },
+          "deadline": "Preinscripció (nabór czerwcowy) na rok 2026/27: od 2 do 26 czerwca 2026, minęło; pierwsze przydziały miejsc 10 lipca 2026. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026, minęło. Termin na rok 2027/28 nie został jeszcze opublikowany. Akredytacja UNEDasiss: wniosek można składać od 4 lutego do 1 grudnia każdego roku, najlepiej co najmniej 6 tygodni przed końcem preinscripció.",
+          "applyUrl": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+          "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/periodisme-1216708251447.html?param1=1265293768091",
+          "notes": "Kampus Bellaterra (Cerdanyola del Vallès).",
+          "url": null
+        }
+      ]
+    },
+    {
+      "name": "Universitat de Barcelona (UB)",
+      "url": "https://www.ub.edu",
+      "type": "uniwersytet",
+      "programs": [
+        {
+          "name": "Grau en Psicologia (UB)",
+          "nameEn": "Bachelor's degree in Psychology",
+          "careerIds": [
+            "psycholog"
+          ],
+          "level": "licencjat",
+          "durationYears": null,
+          "durationQuote": null,
+          "languages": null,
+          "academicYear": "2026/27 (ostatni opublikowany nabór; warunki na 2027/28 jeszcze nie ogłoszone)",
+          "preEnrolmentCode": 11047,
+          "placesApprox": 432,
+          "cutoff2026FirstAssignment": "9,660",
+          "tuition": {
+            "eu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego opłata za prowadzenie akt studenta i inne opłaty ogólne, ich wysokości nie sprawdzono.",
+            "nonEu": "Osoby spoza UE bez statusu wspólnotowego mogą płacić cenę niedotowaną ustaloną przez radę społeczną uczelni; kwota nie jest podana w oficjalnej ofercie (do sprawdzenia na stronie uczelni).",
+            "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+            "quote": "Generalitat: 'Si et matricules per primera vegada en un grau universitari en una universitat pública de Catalunya (UB, UAB, UPC, UPF, UdL, UdG, URV), el preu per crèdit és de 17,69 €' (curs 2026-2027).",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Preinscripció przez portal Accés Universitat (kod programu 11047), orientacyjna liczba miejsc w naborze 2026/27: 432. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (UNED) lub z fazy dobrowolnej PAU. Nota odcięcia z pierwszego przydziału czerwca 2026 (kolumna PAU/CFGS, nie ma osobnej dla matur z zagranicy): 9,660.",
+            "languageProof": "Poziom języka hiszpańskiego lub katalońskiego wymagany do przyjęcia nie jest podany na stronach, które sprawdzono. Strony UPC i Generalitat mówią tylko, że kandydat musi mieć odpowiednią znajomość języka wykładowego. Do potwierdzenia na stronie uczelni.",
+            "selective": true,
+            "studyPlaces": "432",
+            "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/Preins-2026-Juny_v4.pdf",
+            "quote": "Generalitat, oferta czerwiec 2026: kod 11047, 432 miejsc; nota odcięcia 1. przydziału 9,660.",
+            "matura_note": "Polska znajduje się na oficjalnej liście systemów UE objętych tą ścieżką. Bez hiszpańskiej PAU: trzeba mieć akredytację UNEDasiss, która przelicza oceny z liceum na notę dostępu w skali 5 do 10, oraz zgłosić się w preinscripció. Warunek: spełnianie wymogów wstępu na uczelnie w Polsce (zdana matura).",
+            "matura_source": "https://universitats.gencat.cat/ca/preinscripcions/acces-universitat-estudis-estrangers/"
+          },
+          "deadline": "Preinscripció (nabór czerwcowy) na rok 2026/27: od 2 do 26 czerwca 2026, minęło; pierwsze przydziały miejsc 10 lipca 2026. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026, minęło. Termin na rok 2027/28 nie został jeszcze opublikowany. Akredytacja UNEDasiss: wniosek można składać od 4 lutego do 1 grudnia każdego roku, najlepiej co najmniej 6 tygodni przed końcem preinscripció.",
+          "applyUrl": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+          "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/Preins-2026-Juny_v4.pdf",
+          "notes": "Strona programu UB jest niedostępna publicznie, więc język wykładowy i czas trwania nie zostały sprawdzone. Dane o miejscach i nocie odcięcia pochodzą z oficjalnej oferty Generalitat."
+        },
+        {
+          "name": "Grau en Medicina (Campus Clínic, UB)",
+          "nameEn": "Degree in Medicine",
+          "careerIds": [
+            "lekarz"
+          ],
+          "level": "jednolite",
+          "durationYears": null,
+          "durationQuote": null,
+          "languages": null,
+          "academicYear": "2026/27 (ostatni opublikowany nabór; warunki na 2027/28 jeszcze nie ogłoszone)",
+          "preEnrolmentCode": 11043,
+          "placesApprox": 200,
+          "cutoff2026FirstAssignment": "12,685",
+          "tuition": {
+            "eu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego opłata za prowadzenie akt studenta i inne opłaty ogólne, ich wysokości nie sprawdzono.",
+            "nonEu": "Osoby spoza UE bez statusu wspólnotowego mogą płacić cenę niedotowaną ustaloną przez radę społeczną uczelni; kwota nie jest podana w oficjalnej ofercie (do sprawdzenia na stronie uczelni).",
+            "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+            "quote": "Generalitat: 'Si et matricules per primera vegada en un grau universitari en una universitat pública de Catalunya (UB, UAB, UPC, UPF, UdL, UdG, URV), el preu per crèdit és de 17,69 €' (curs 2026-2027).",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Preinscripció przez portal Accés Universitat (kod programu 11043), orientacyjna liczba miejsc w naborze 2026/27: 200. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (UNED) lub z fazy dobrowolnej PAU. Nota odcięcia z pierwszego przydziału czerwca 2026 (kolumna PAU/CFGS, nie ma osobnej dla matur z zagranicy): 12,685.",
+            "languageProof": "Poziom języka hiszpańskiego lub katalońskiego wymagany do przyjęcia nie jest podany na stronach, które sprawdzono. Strony UPC i Generalitat mówią tylko, że kandydat musi mieć odpowiednią znajomość języka wykładowego. Do potwierdzenia na stronie uczelni.",
+            "selective": true,
+            "studyPlaces": "200",
+            "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/Preins-2026-Juny_v4.pdf",
+            "quote": "Generalitat, oferta czerwiec 2026: kod 11043, 200 miejsc; nota odcięcia 1. przydziału 12,685.",
+            "matura_note": "Polska znajduje się na oficjalnej liście systemów UE objętych tą ścieżką. Bez hiszpańskiej PAU: trzeba mieć akredytację UNEDasiss, która przelicza oceny z liceum na notę dostępu w skali 5 do 10, oraz zgłosić się w preinscripció. Warunek: spełnianie wymogów wstępu na uczelnie w Polsce (zdana matura).",
+            "matura_source": "https://universitats.gencat.cat/ca/preinscripcions/acces-universitat-estudis-estrangers/"
+          },
+          "deadline": "Preinscripció (nabór czerwcowy) na rok 2026/27: od 2 do 26 czerwca 2026, minęło; pierwsze przydziały miejsc 10 lipca 2026. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026, minęło. Termin na rok 2027/28 nie został jeszcze opublikowany. Akredytacja UNEDasiss: wniosek można składać od 4 lutego do 1 grudnia każdego roku, najlepiej co najmniej 6 tygodni przed końcem preinscripció.",
+          "applyUrl": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+          "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/Preins-2026-Juny_v4.pdf",
+          "notes": "Strona programu UB jest niedostępna publicznie; język i czas trwania nie sprawdzone. Nota odcięcia przekracza 10, więc potrzebne są wysokie punkty z PCE lub PAU. Drugi kampus: Bellvitge (kod 11083, 100 miejsc, nota 12,500)."
+        },
+        {
+          "name": "Grau en Dret (UB)",
+          "nameEn": "Bachelor's degree in Law",
+          "careerIds": [
+            "prawnik"
+          ],
+          "level": "licencjat",
+          "durationYears": null,
+          "durationQuote": null,
+          "languages": null,
+          "academicYear": "2026/27 (ostatni opublikowany nabór; warunki na 2027/28 jeszcze nie ogłoszone)",
+          "preEnrolmentCode": 11012,
+          "placesApprox": 430,
+          "cutoff2026FirstAssignment": "9,736",
+          "tuition": {
+            "eu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego opłata za prowadzenie akt studenta i inne opłaty ogólne, ich wysokości nie sprawdzono.",
+            "nonEu": "Osoby spoza UE bez statusu wspólnotowego mogą płacić cenę niedotowaną ustaloną przez radę społeczną uczelni; kwota nie jest podana w oficjalnej ofercie (do sprawdzenia na stronie uczelni).",
+            "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+            "quote": "Generalitat: 'Si et matricules per primera vegada en un grau universitari en una universitat pública de Catalunya (UB, UAB, UPC, UPF, UdL, UdG, URV), el preu per crèdit és de 17,69 €' (curs 2026-2027).",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Preinscripció przez portal Accés Universitat (kod programu 11012), orientacyjna liczba miejsc w naborze 2026/27: 430. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (UNED) lub z fazy dobrowolnej PAU. Nota odcięcia z pierwszego przydziału czerwca 2026 (kolumna PAU/CFGS, nie ma osobnej dla matur z zagranicy): 9,736.",
+            "languageProof": "Poziom języka hiszpańskiego lub katalońskiego wymagany do przyjęcia nie jest podany na stronach, które sprawdzono. Strony UPC i Generalitat mówią tylko, że kandydat musi mieć odpowiednią znajomość języka wykładowego. Do potwierdzenia na stronie uczelni.",
+            "selective": true,
+            "studyPlaces": "430",
+            "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/Preins-2026-Juny_v4.pdf",
+            "quote": "Generalitat, oferta czerwiec 2026: kod 11012, 430 miejsc; nota odcięcia 1. przydziału 9,736.",
+            "matura_note": "Polska znajduje się na oficjalnej liście systemów UE objętych tą ścieżką. Bez hiszpańskiej PAU: trzeba mieć akredytację UNEDasiss, która przelicza oceny z liceum na notę dostępu w skali 5 do 10, oraz zgłosić się w preinscripció. Warunek: spełnianie wymogów wstępu na uczelnie w Polsce (zdana matura).",
+            "matura_source": "https://universitats.gencat.cat/ca/preinscripcions/acces-universitat-estudis-estrangers/"
+          },
+          "deadline": "Preinscripció (nabór czerwcowy) na rok 2026/27: od 2 do 26 czerwca 2026, minęło; pierwsze przydziały miejsc 10 lipca 2026. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026, minęło. Termin na rok 2027/28 nie został jeszcze opublikowany. Akredytacja UNEDasiss: wniosek można składać od 4 lutego do 1 grudnia każdego roku, najlepiej co najmniej 6 tygodni przed końcem preinscripció.",
+          "applyUrl": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+          "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/Preins-2026-Juny_v4.pdf",
+          "notes": "Strona programu UB jest niedostępna publicznie; język i czas trwania nie sprawdzone."
+        }
+      ]
+    },
+    {
+      "name": "Universitat Pompeu Fabra (UPF)",
+      "url": "https://www.upf.edu",
+      "type": "uniwersytet",
+      "programs": [
+        {
+          "name": "Grau en Medicina (UPF)",
+          "nameEn": "Degree in Medicine",
+          "careerIds": [
+            "lekarz"
+          ],
+          "level": "jednolite",
+          "durationYears": null,
+          "durationQuote": null,
+          "languages": null,
+          "academicYear": "2026/27 (ostatni opublikowany nabór; warunki na 2027/28 jeszcze nie ogłoszone)",
+          "preEnrolmentCode": 41058,
+          "placesApprox": 64,
+          "cutoff2026FirstAssignment": "12,534",
+          "tuition": {
+            "eu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego opłata za prowadzenie akt studenta i inne opłaty ogólne, ich wysokości nie sprawdzono.",
+            "nonEu": "Osoby spoza UE bez statusu wspólnotowego mogą płacić cenę niedotowaną ustaloną przez radę społeczną uczelni; kwota nie jest podana w oficjalnej ofercie (do sprawdzenia na stronie uczelni).",
+            "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+            "quote": "Generalitat: 'Si et matricules per primera vegada en un grau universitari en una universitat pública de Catalunya (UB, UAB, UPC, UPF, UdL, UdG, URV), el preu per crèdit és de 17,69 €' (curs 2026-2027).",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Preinscripció przez portal Accés Universitat (kod programu 41058), orientacyjna liczba miejsc w naborze 2026/27: 64. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (UNED) lub z fazy dobrowolnej PAU. Nota odcięcia z pierwszego przydziału czerwca 2026 (kolumna PAU/CFGS, nie ma osobnej dla matur z zagranicy): 12,534.",
+            "languageProof": "Poziom języka hiszpańskiego lub katalońskiego wymagany do przyjęcia nie jest podany na stronach, które sprawdzono. Strony UPC i Generalitat mówią tylko, że kandydat musi mieć odpowiednią znajomość języka wykładowego. Do potwierdzenia na stronie uczelni.",
+            "selective": true,
+            "studyPlaces": "64",
+            "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/Preins-2026-Juny_v4.pdf",
+            "quote": "Generalitat, oferta czerwiec 2026: kod 41058, 64 miejsc; nota odcięcia 1. przydziału 12,534.",
+            "matura_note": "Polska znajduje się na oficjalnej liście systemów UE objętych tą ścieżką. Bez hiszpańskiej PAU: trzeba mieć akredytację UNEDasiss, która przelicza oceny z liceum na notę dostępu w skali 5 do 10, oraz zgłosić się w preinscripció. Warunek: spełnianie wymogów wstępu na uczelnie w Polsce (zdana matura).",
+            "matura_source": "https://universitats.gencat.cat/ca/preinscripcions/acces-universitat-estudis-estrangers/"
+          },
+          "deadline": "Preinscripció (nabór czerwcowy) na rok 2026/27: od 2 do 26 czerwca 2026, minęło; pierwsze przydziały miejsc 10 lipca 2026. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026, minęło. Termin na rok 2027/28 nie został jeszcze opublikowany. Akredytacja UNEDasiss: wniosek można składać od 4 lutego do 1 grudnia każdego roku, najlepiej co najmniej 6 tygodni przed końcem preinscripció.",
+          "applyUrl": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+          "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/Preins-2026-Juny_v4.pdf",
+          "notes": "Strona UPF jest niedostępna publicznie; język i czas trwania nie sprawdzone. Nota odcięcia przekracza 10, więc potrzebne są wysokie punkty z PCE lub PAU."
+        },
+        {
+          "name": "Grau en Periodisme (UPF)",
+          "nameEn": "Bachelor's degree in Journalism",
+          "careerIds": [
+            "dziennikarz"
+          ],
+          "level": "licencjat",
+          "durationYears": null,
+          "durationQuote": null,
+          "languages": null,
+          "academicYear": "2026/27 (ostatni opublikowany nabór; warunki na 2027/28 jeszcze nie ogłoszone)",
+          "preEnrolmentCode": 41025,
+          "placesApprox": 80,
+          "cutoff2026FirstAssignment": "10,800",
+          "tuition": {
+            "eu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego opłata za prowadzenie akt studenta i inne opłaty ogólne, ich wysokości nie sprawdzono.",
+            "nonEu": "Osoby spoza UE bez statusu wspólnotowego mogą płacić cenę niedotowaną ustaloną przez radę społeczną uczelni; kwota nie jest podana w oficjalnej ofercie (do sprawdzenia na stronie uczelni).",
+            "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+            "quote": "Generalitat: 'Si et matricules per primera vegada en un grau universitari en una universitat pública de Catalunya (UB, UAB, UPC, UPF, UdL, UdG, URV), el preu per crèdit és de 17,69 €' (curs 2026-2027).",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami",
+            "requirements": "Preinscripció przez portal Accés Universitat (kod programu 41025), orientacyjna liczba miejsc w naborze 2026/27: 80. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (UNED) lub z fazy dobrowolnej PAU. Nota odcięcia z pierwszego przydziału czerwca 2026 (kolumna PAU/CFGS, nie ma osobnej dla matur z zagranicy): 10,800.",
+            "languageProof": "Poziom języka hiszpańskiego lub katalońskiego wymagany do przyjęcia nie jest podany na stronach, które sprawdzono. Strony UPC i Generalitat mówią tylko, że kandydat musi mieć odpowiednią znajomość języka wykładowego. Do potwierdzenia na stronie uczelni.",
+            "selective": true,
+            "studyPlaces": "80",
+            "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/Preins-2026-Juny_v4.pdf",
+            "quote": "Generalitat, oferta czerwiec 2026: kod 41025, 80 miejsc; nota odcięcia 1. przydziału 10,800.",
+            "matura_note": "Polska znajduje się na oficjalnej liście systemów UE objętych tą ścieżką. Bez hiszpańskiej PAU: trzeba mieć akredytację UNEDasiss, która przelicza oceny z liceum na notę dostępu w skali 5 do 10, oraz zgłosić się w preinscripció. Warunek: spełnianie wymogów wstępu na uczelnie w Polsce (zdana matura).",
+            "matura_source": "https://universitats.gencat.cat/ca/preinscripcions/acces-universitat-estudis-estrangers/"
+          },
+          "deadline": "Preinscripció (nabór czerwcowy) na rok 2026/27: od 2 do 26 czerwca 2026, minęło; pierwsze przydziały miejsc 10 lipca 2026. Nabór wrześniowy tylko na wolne miejsca: 16 i 17 września 2026, minęło. Termin na rok 2027/28 nie został jeszcze opublikowany. Akredytacja UNEDasiss: wniosek można składać od 4 lutego do 1 grudnia każdego roku, najlepiej co najmniej 6 tygodni przed końcem preinscripció.",
+          "applyUrl": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+          "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/Preins-2026-Juny_v4.pdf",
+          "notes": "Strona UPF jest niedostępna publicznie; język i czas trwania nie sprawdzone."
+        }
+      ]
+    }
+  ],
+  "luki": [
+    "Strony Universitat de Barcelona i Universitat Pompeu Fabra są niedostępne publicznie dla automatycznego pobierania, więc dla ich programów podano tylko dane z oficjalnej oferty Generalitat (kod, miejsca, nota odcięcia), bez języka wykładowego i czasu trwania. Do uzupełnienia ze stron uczelni.",
+    "Nie znaleziono wymaganego poziomu hiszpańskiego lub katalońskiego ani certyfikatu z angielskiego dla programów anglojęzycznych. Strony mówią tylko o odpowiedniej znajomości języka wykładowego.",
+    "Nie sprawdzono opłat UNEDasiss za akredytację i za PCE ani tabeli przeliczania polskiej matury na skalę 5 do 10.",
+    "Nie ma osobnych not odcięcia dla maturzystów z zagranicy; podane noty dotyczą kolumny PAU/CFGS pierwszego przydziału z czerwca 2026 i służą jako orientacja. Dla maturzystów z UE wartość maksymalna noty dostępu z samej akredytacji to 10.",
+    "Terminy naboru na rok 2027/28 nie są opublikowane. Podane daty dotyczą naboru 2026/27. UNEDasiss podaje 7 lipca 2026 jako ostateczny termin zgłoszeń do uczelni publicznych w Hiszpanii, ale katalońska preinscripció zamknęła się 26 czerwca 2026, więc w Katalonii obowiązuje termin wcześniejszy.",
+    "Opłaty administracyjne (prowadzenie akt, ubezpieczenie) oraz cena dla osób spoza UE bez statusu wspólnotowego nie zostały zsumowane; UPC podaje około 1 800 EUR rocznie dla nierezydentów spoza UE.",
+    "Dla programów UAB nie podano certyfikowanych tabel ważenia przedmiotów PCE; ważenie jest w oficjalnej tabeli Generalitat (ponderacions), której nie przeanalizowano.",
+    "Medycyna i data science mają noty odcięcia powyżej 10; nie sprawdzono, ile punktów z PCE zwykle uzyskują maturzyści z Polski."
+  ]
+}

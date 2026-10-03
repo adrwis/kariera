@@ -19,6 +19,13 @@ const CITIES = [
   ['sofia', 'Sofia', 'Bułgaria', true], ['sztokholm', 'Sztokholm', 'Szwecja', true], ['tallinn', 'Tallinn', 'Estonia', true],
   ['valletta', 'Valletta', 'Malta', true], ['wieden', 'Wiedeń', 'Austria', true], ['wilno', 'Wilno', 'Litwa', true], ['zagrzeb', 'Zagrzeb', 'Chorwacja', true],
   ['londyn', 'Londyn', 'Wielka Brytania', false],
+  // Ośrodki akademickie poza stolicami (flaga capital: false), dane zbierane od 2026-10-03
+  ['barcelona', 'Barcelona', 'Hiszpania', true, false], ['walencja', 'Walencja', 'Hiszpania', true, false],
+  ['mediolan', 'Mediolan', 'Włochy', true, false], ['bolonia', 'Bolonia', 'Włochy', true, false],
+  ['monachium', 'Monachium', 'Niemcy', true, false], ['hamburg', 'Hamburg', 'Niemcy', true, false],
+  ['lyon', 'Lyon', 'Francja', true, false], ['groningen', 'Groningen', 'Holandia', true, false],
+  ['maastricht', 'Maastricht', 'Holandia', true, false], ['rotterdam', 'Rotterdam', 'Holandia', true, false],
+  ['porto', 'Porto', 'Portugalia', true, false], ['lowanium', 'Lowanium (Leuven)', 'Belgia', true, false],
 ];
 
 const poprawki = require('./poprawki-zagranica');
@@ -79,9 +86,9 @@ function programOf(p) {
 }
 
 const index = [];
-for (const [slug, name, country, eu] of CITIES) {
+for (const [slug, name, country, eu, capital = true] of CITIES) {
   const file = fs.readdirSync(SRC).filter(f => f.startsWith(`zagranica-${slug}-`)).sort().pop();
-  if (!file) { index.push({ slug, name, country, eu, status: 'w przygotowaniu', universities: 0, programs: 0 }); continue; }
+  if (!file) { index.push({ slug, name, country, eu, capital, status: 'w przygotowaniu', universities: 0, programs: 0 }); continue; }
   const raw = JSON.parse(fs.readFileSync(path.join(SRC, file), 'utf8'));
   const sum = summaryOf(raw);
   const universities = (raw.universities || []).map(u => ({
@@ -90,11 +97,11 @@ for (const [slug, name, country, eu] of CITIES) {
     programs: (u.programs || []).filter(p => !/wynik(ów|i) wyszukiwani|streszczeni\w* z wyszukiwar/i.test(`${p.notes || ''} ${JSON.stringify(p.sources || '')}`)).map(programOf).filter(p => p.name && (p.tuitionEu || p.tuitionNonEu || p.matura || p.requirements || p.deadline) && p.academicYear),  // puste programy (sam opis i czas trwania) nie trafiają na stronę
   })).filter(u => u.programs.length);
   // Miasto bez żadnego programu z potwierdzonymi danymi (np. strony uczelni nie dały się odczytać) zostaje „w przygotowaniu”
-  if (!universities.reduce((a, u) => a + u.programs.length, 0)) { index.push({ slug, name, country, eu, status: 'w przygotowaniu', universities: 0, programs: 0 }); continue; }
-  const data = { slug, name, country, eu, retrieved: text(raw.retrieved), summary: sum.items, sources: sum.sources, gaps: (raw.luki || []).map(x => text(x)).filter(x => x && !/^[^.]*\b(nie użyłem|nie użyłam|nie sprawdzałem|nie sprawdzałam)\b[^.]*(limit|portal)/i.test(x)).map(clean).filter(Boolean), universities };
+  if (!universities.reduce((a, u) => a + u.programs.length, 0)) { index.push({ slug, name, country, eu, capital, status: 'w przygotowaniu', universities: 0, programs: 0 }); continue; }
+  const data = { slug, name, country, eu, capital, retrieved: text(raw.retrieved), summary: sum.items, sources: sum.sources, gaps: (raw.luki || []).map(x => text(x)).filter(x => x && !/^[^.]*\b(nie użyłem|nie użyłam|nie sprawdzałem|nie sprawdzałam)\b[^.]*(limit|portal)/i.test(x)).map(clean).filter(Boolean), universities };
   poprawki.apply(slug, data);
   fs.writeFileSync(path.join(OUT, slug + '.json'), JSON.stringify(data));
-  index.push({ slug, name, country, eu, status: 'dostępne', retrieved: data.retrieved, universities: universities.length, programs: universities.reduce((a, u) => a + u.programs.length, 0) });
+  index.push({ slug, name, country, eu, capital, status: 'dostępne', retrieved: data.retrieved, universities: universities.length, programs: universities.reduce((a, u) => a + u.programs.length, 0) });
 }
 fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify({ cities: index }));
 if (poprawki.warnings.length) console.log('UWAGA, poprawki bez dopasowania:\n  ' + poprawki.warnings.join('\n  '));
