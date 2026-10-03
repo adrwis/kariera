@@ -1,0 +1,169 @@
+{
+ "slug": "walencja",
+ "programPatches": [
+  {
+   "university": "Universitat de València (Estudi General)",
+   "programName": "Grado en Psicología",
+   "set": {
+    "notes": "Wagi przedmiotów PCE dla tego kierunku w tabeli Generalitat na nabór 2026/27: 0,2 dla Biología, Ciencias Generales, Historia de la Filosofía, Diseño de Modelos de Negocio y Empresa, Matemáticas Aplicadas a las CCSS II, Matemáticas II; 0,1 dla Física, Química. Strona programu informuje, że można wejść do grupy z większością zajęć po angielsku (wpis w suplemencie do dyplomu); warunki wejścia do tej grupy do potwierdzenia na stronie wydziału. Nota odcięcia kwoty ogólnej (skala do 14): 10,949 w przydziale z 10 lipca 2026 i 10,325 w ostatnim opublikowanym przydziale z 1 października 2026 (kod programu 123, Facultad de Psicología y Logopedia). Dokument Generalitat nie zawiera osobnych statystyk dla osób z akredytacją UNEDasiss, więc nota jest tylko orientacją na kolejny rok."
+   },
+   "sourceUrl": "https://universitats.gva.es/documents/389338055/412490107/1_NOTAS+CORTE+2026-2027_Adjudicaci%C3%B3n+10+julio.pdf/f875cd03-84d7-c711-5cd0-3cf33da3f2b6?t=1783680415485",
+   "quote": "Grado en Psicología por la Universitat de València (Estudi General) , 123"
+  },
+  {
+   "university": "Universitat de València (Estudi General)",
+   "programName": "Grado en Ingeniería Informática",
+   "set": {
+    "notes": "Wagi przedmiotów PCE dla tego kierunku w tabeli Generalitat na nabór 2026/27: 0,2 dla Física, Matemáticas II, Tecnología e Ingeniería II; 0,1 dla Dibujo Técnico II, Diseño, Diseño de Modelos de Negocio y Empresa, Matemáticas Aplicadas a las CCSS II, Química. Zajęcia są po hiszpańsku, walencku i angielsku według strony programu. Nota odcięcia kwoty ogólnej (skala do 14): 9,398 w przydziale z 10 lipca 2026 i 8,89 w ostatnim opublikowanym przydziale z 1 października 2026 (kod programu 152, Escuela Técnica Superior de Ingeniería). Dokument Generalitat nie zawiera osobnych statystyk dla osób z akredytacją UNEDasiss, więc nota jest tylko orientacją na kolejny rok."
+   },
+   "sourceUrl": "https://universitats.gva.es/documents/389338055/412490107/1_NOTAS+CORTE+2026-2027_Adjudicaci%C3%B3n+10+julio.pdf/f875cd03-84d7-c711-5cd0-3cf33da3f2b6?t=1783680415485",
+   "quote": "Grado en Ingeniería Informática por la Universitat de València (Estudi General)"
+  },
+  {
+   "university": "Universitat de València (Estudi General)",
+   "programName": "Grado en Ciencia de Datos",
+   "set": {
+    "notes": "Wagi przedmiotów PCE dla tego kierunku w tabeli Generalitat na nabór 2026/27: 0,2 dla Física, Matemáticas II; 0,1 dla Dibujo Técnico II, Diseño, Diseño de Modelos de Negocio y Empresa, Matemáticas Aplicadas a las CCSS II, Química, Tecnología e Ingeniería II. Nota odcięcia kwoty ogólnej (skala do 14): 9,577 w przydziale z 10 lipca 2026 i 8,733 w ostatnim opublikowanym przydziale z 1 października 2026 (kod programu 173, Escuela Técnica Superior de Ingeniería). Dokument Generalitat nie zawiera osobnych statystyk dla osób z akredytacją UNEDasiss, więc nota jest tylko orientacją na kolejny rok."
+   },
+   "sourceUrl": "https://universitats.gva.es/documents/389338055/412490107/1_NOTAS+CORTE+2026-2027_Adjudicaci%C3%B3n+10+julio.pdf/f875cd03-84d7-c711-5cd0-3cf33da3f2b6?t=1783680415485",
+   "quote": "Grado en Ciencia de Datos por la Universitat de València (Estudi General) ,"
+  },
+  {
+   "university": "Universitat de València (Estudi General)",
+   "programName": "Grado en Medicina",
+   "set": {
+    "notes": "Wagi przedmiotów PCE dla tego kierunku w tabeli Generalitat na nabór 2026/27: 0,2 dla Biología, Física, Matemáticas II, Química. Nota odcięcia kwoty ogólnej (skala do 14): 13,171 w przydziale z 10 lipca 2026 i 12,796 w ostatnim opublikowanym przydziale z 1 października 2026 (kod programu 132, Facultad de Medicina y Odontología). Nota przekracza 10, czyli maksimum samej akredytacji, więc potrzebne są dodatkowe punkty z PCE albo, jeśli UNEDasiss to potwierdzi, z zewnętrznego egzaminu wpisanego do akredytacji. Dokument Generalitat nie zawiera osobnych statystyk dla osób z akredytacją UNEDasiss, więc nota jest tylko orientacją na kolejny rok."
+   },
+   "sourceUrl": "https://universitats.gva.es/documents/389338055/412490107/1_NOTAS+CORTE+2026-2027_Adjudicaci%C3%B3n+10+julio.pdf/f875cd03-84d7-c711-5cd0-3cf33da3f2b6?t=1783680415485",
+   "quote": "Grado en Medicina por la Universitat de València (Estudi General) , 132"
+  },
+  {
+   "university": "Universitat de València (Estudi General)",
+   "programName": "Grado en Derecho",
+   "set": {
+    "notes": "Wagi przedmiotów PCE dla tego kierunku w tabeli Generalitat na nabór 2026/27: 0,2 dla Diseño de Modelos de Negocio y Empresa, Geografía, Historia de España, Historia de la Filosofía, Latín II, Matemáticas Aplicadas a las CCSS II; 0,1 dla Biología, Griego II, Historia del Arte, Matemáticas II, Química. Program dotyczy prawa hiszpańskiego. Nota odcięcia kwoty ogólnej (skala do 14): 9,29 w przydziale z 10 lipca 2026 i 8,54 w ostatnim opublikowanym przydziale z 1 października 2026 (kod programu 141, Facultad de Derecho). Dokument Generalitat nie zawiera osobnych statystyk dla osób z akredytacją UNEDasiss, więc nota jest tylko orientacją na kolejny rok."
+   },
+   "sourceUrl": "https://universitats.gva.es/documents/389338055/412490107/1_NOTAS+CORTE+2026-2027_Adjudicaci%C3%B3n+10+julio.pdf/f875cd03-84d7-c711-5cd0-3cf33da3f2b6?t=1783680415485",
+   "quote": "Grado en Derecho por la Universitat de València (Estudi General) , 141"
+  },
+  {
+   "university": "Universitat de València (Estudi General)",
+   "programName": "Grado en Economía",
+   "set": {
+    "notes": "Wagi przedmiotów PCE dla tego kierunku w tabeli Generalitat na nabór 2026/27: 0,2 dla Diseño de Modelos de Negocio y Empresa, Física, Tecnología e Ingeniería II, Matemáticas Aplicadas a las CCSS II, Matemáticas II, Geografía, Geología y Ciencias Ambientales, Ciencias Generales; 0,1 dla Química, Biología. Nota odcięcia kwoty ogólnej (skala do 14): 9,484 w przydziale z 10 lipca 2026 i 8,274 w ostatnim opublikowanym przydziale z 1 października 2026 (kod programu 145, Facultad de Economía). Dokument Generalitat nie zawiera osobnych statystyk dla osób z akredytacją UNEDasiss, więc nota jest tylko orientacją na kolejny rok."
+   },
+   "sourceUrl": "https://universitats.gva.es/documents/389338055/412490107/1_NOTAS+CORTE+2026-2027_Adjudicaci%C3%B3n+10+julio.pdf/f875cd03-84d7-c711-5cd0-3cf33da3f2b6?t=1783680415485",
+   "quote": "Grado en Economía por la Universitat de València (Estudi General) , 145"
+  },
+  {
+   "university": "Universitat de València (Estudi General)",
+   "programName": "Grado en Administración y Dirección de Empresas",
+   "set": {
+    "notes": "Wagi przedmiotów PCE dla tego kierunku w tabeli Generalitat na nabór 2026/27: 0,2 dla Diseño de Modelos de Negocio y Empresa, Física, Tecnología e Ingeniería II, Matemáticas Aplicadas a las CCSS II, Matemáticas II, Geografía, Geología y Ciencias Ambientales, Ciencias Generales; 0,1 dla Química, Biología. Strona podaje 440 miejsc w Walencji i dodatkowo 70 w Ontinyent (inny kampus). Nota odcięcia kwoty ogólnej (skala do 14): 8,99 w przydziale z 10 lipca 2026 i 8,038 w ostatnim opublikowanym przydziale z 1 października 2026 (kod programu 157, Facultad de Economía w Walencji). Wersja w Ontinyent (kod 163) miała w przydziale z 10 lipca 2026 notę 6,898. Dokument Generalitat nie zawiera osobnych statystyk dla osób z akredytacją UNEDasiss, więc nota jest tylko orientacją na kolejny rok."
+   },
+   "sourceUrl": "https://universitats.gva.es/documents/389338055/412490107/1_NOTAS+CORTE+2026-2027_Adjudicaci%C3%B3n+10+julio.pdf/f875cd03-84d7-c711-5cd0-3cf33da3f2b6?t=1783680415485",
+   "quote": "Grado en Administración y Dirección de Empresas por la Universitat de"
+  },
+  {
+   "university": "Universitat de València (Estudi General)",
+   "programName": "Grado en Periodismo",
+   "set": {
+    "notes": "Wagi przedmiotów PCE dla tego kierunku w tabeli Generalitat na nabór 2026/27: 0,2 dla między innymi Lengua Castellana y Literatura II, Latín II, Geografía, Historia del Arte, Matemáticas Aplicadas a las CCSS II, Matemáticas II; pełna lista w tabeli Generalitat; 0,1 dla Biología, Física, Química, Artes Escénicas II, Dibujo Técnico Aplicado a las Artes Plásticas. Zajęcia prowadzone po hiszpańsku i walencku. Nota odcięcia kwoty ogólnej (skala do 14): 10,514 w przydziale z 10 lipca 2026 i 9,963 w ostatnim opublikowanym przydziale z 1 października 2026 (kod programu 122, Facultad de Filología, Traducción y Comunicación). Dokument Generalitat nie zawiera osobnych statystyk dla osób z akredytacją UNEDasiss, więc nota jest tylko orientacją na kolejny rok."
+   },
+   "sourceUrl": "https://universitats.gva.es/documents/389338055/412490107/1_NOTAS+CORTE+2026-2027_Adjudicaci%C3%B3n+10+julio.pdf/f875cd03-84d7-c711-5cd0-3cf33da3f2b6?t=1783680415485",
+   "quote": "Grado en Periodismo por la Universitat de València (Estudi General) , 122"
+  },
+  {
+   "university": "Universitat Politècnica de València",
+   "programName": "Grado en Ingeniería Informática",
+   "set": {
+    "notes": "Wagi przedmiotów PCE dla tego kierunku w tabeli Generalitat na nabór 2026/27: 0,2 dla Física, Matemáticas II, Tecnología e Ingeniería II; 0,1 dla Dibujo Técnico II, Diseño, Diseño de Modelos de Negocio y Empresa, Matemáticas Aplicadas a las CCSS II, Química. Kierunek ma certyfikat jakości EURO-INF. Dwie ścieżki: ETSINF w Walencji i Escuela Politécnica w Alcoi (inna miejscowość). Nota odcięcia kwoty ogólnej (skala do 14): 9,673 w przydziale z 10 lipca 2026 i 9,054 w ostatnim opublikowanym przydziale z 1 października 2026 (kod programu 226, ETS de Ingeniería Informática w Walencji). Wersja w Alcoi (kod 225) miała w przydziale z 10 lipca 2026 notę 8,28. Dokument Generalitat nie zawiera osobnych statystyk dla osób z akredytacją UNEDasiss, więc nota jest tylko orientacją na kolejny rok."
+   },
+   "sourceUrl": "https://universitats.gva.es/documents/389338055/412490107/1_NOTAS+CORTE+2026-2027_Adjudicaci%C3%B3n+10+julio.pdf/f875cd03-84d7-c711-5cd0-3cf33da3f2b6?t=1783680415485",
+   "quote": "Grado en Ingeniería Informática por la Universitat Politècnica de València , 226"
+  },
+  {
+   "university": "Universitat Politècnica de València",
+   "programName": "Grado en Ciencia de Datos",
+   "set": {
+    "notes": "Wagi przedmiotów PCE dla tego kierunku w tabeli Generalitat na nabór 2026/27: 0,2 dla Física, Matemáticas II; 0,1 dla Dibujo Técnico II, Diseño, Diseño de Modelos de Negocio y Empresa, Matemáticas Aplicadas a las CCSS II, Química, Tecnología e Ingeniería II. Strona programu: część przedmiotów obowiązkowych i wybieralnych prowadzona po angielsku. Nota odcięcia kwoty ogólnej (skala do 14): 10,592 w przydziale z 10 lipca 2026 i 9,198 w ostatnim opublikowanym przydziale z 1 października 2026 (kod programu 248, ETS de Ingeniería Informática). Dokument Generalitat nie zawiera osobnych statystyk dla osób z akredytacją UNEDasiss, więc nota jest tylko orientacją na kolejny rok."
+   },
+   "sourceUrl": "https://universitats.gva.es/documents/389338055/412490107/1_NOTAS+CORTE+2026-2027_Adjudicaci%C3%B3n+10+julio.pdf/f875cd03-84d7-c711-5cd0-3cf33da3f2b6?t=1783680415485",
+   "quote": "Grado en Ciencia de Datos por la Universitat Politècnica de València , 248"
+  },
+  {
+   "university": "Universitat Politècnica de València",
+   "programName": "Grado en Fundamentos de la Arquitectura",
+   "set": {
+    "notes": "Wagi przedmiotów PCE dla tego kierunku w tabeli Generalitat na nabór 2026/27: 0,2 dla Dibujo Técnico II, Física, Matemáticas II, Química, Geología y Ciencias Ambientales; 0,1 dla Diseño, Diseño de Modelos de Negocio y Empresa, Tecnología e Ingeniería II, Geografía. Dyplom licencjacki 300 ECTS (5 lat) razem z magisterium z architektury (Máster en Arquitectura) daje uprawnienia zawodowe architekta; samo grado ich nie daje. Nota odcięcia kwoty ogólnej (skala do 14): 10,262 w przydziale z 10 lipca 2026 i 9,239 w ostatnim opublikowanym przydziale z 1 października 2026 (kod programu 203, ETS de Arquitectura). Dokument Generalitat nie zawiera osobnych statystyk dla osób z akredytacją UNEDasiss, więc nota jest tylko orientacją na kolejny rok."
+   },
+   "sourceUrl": "https://universitats.gva.es/documents/389338055/412490107/1_NOTAS+CORTE+2026-2027_Adjudicaci%C3%B3n+10+julio.pdf/f875cd03-84d7-c711-5cd0-3cf33da3f2b6?t=1783680415485",
+   "quote": "Valencia , 203 (Escuela Tecnica Superior de Arquitectura)"
+  },
+  {
+   "university": "Universitat Politècnica de València",
+   "programName": "Grado en Ingeniería Civil",
+   "set": {
+    "notes": "Wagi przedmiotów PCE dla tego kierunku w tabeli Generalitat na nabór 2026/27: 0,2 dla Dibujo Técnico II, Física, Matemáticas II, Química, Tecnología e Ingeniería II; 0,1 dla Geología y Ciencias Ambientales. Program ma akredytację ABET i certyfikat EUR-ACE. Nota odcięcia kwoty ogólnej (skala do 14): 10,47 w przydziale z 10 lipca 2026 i 9,456 w ostatnim opublikowanym przydziale z 1 października 2026 (kod programu 212, ETS de Ingeniería de Caminos, Canales y Puertos). Dokument Generalitat nie zawiera osobnych statystyk dla osób z akredytacją UNEDasiss, więc nota jest tylko orientacją na kolejny rok."
+   },
+   "sourceUrl": "https://universitats.gva.es/documents/389338055/412490107/1_NOTAS+CORTE+2026-2027_Adjudicaci%C3%B3n+10+julio.pdf/f875cd03-84d7-c711-5cd0-3cf33da3f2b6?t=1783680415485",
+   "quote": "Grado en Ingeniería Civil por la Universitat Politècnica de València , 212"
+  },
+  {
+   "university": "Universitat Politècnica de València",
+   "programName": "Grado en Ingeniería Mecánica",
+   "set": {
+    "notes": "Wagi przedmiotów PCE dla tego kierunku w tabeli Generalitat na nabór 2026/27: 0,2 dla Dibujo Técnico II, Física, Matemáticas II, Química, Tecnología e Ingeniería II; 0,1 dla Diseño, Diseño de Modelos de Negocio y Empresa. Dwie ścieżki: Escuela Politécnica Superior de Alcoi i ETS Ingeniería Aeroespacial y Diseño Industrial w Walencji. Certyfikat EUR-ACE. Nota odcięcia kwoty ogólnej (skala do 14): 12,586 w przydziale z 10 lipca 2026 i 12,194 w ostatnim opublikowanym przydziale z 1 października 2026 (kod programu 229, ETS de Ingeniería Aeroespacial y Diseño Industrial w Walencji). Wersja w Alcoi (kod 228) miała w przydziale z 10 lipca 2026 notę 10,197. Dokument Generalitat nie zawiera osobnych statystyk dla osób z akredytacją UNEDasiss, więc nota jest tylko orientacją na kolejny rok."
+   },
+   "sourceUrl": "https://universitats.gva.es/documents/389338055/412490107/1_NOTAS+CORTE+2026-2027_Adjudicaci%C3%B3n+10+julio.pdf/f875cd03-84d7-c711-5cd0-3cf33da3f2b6?t=1783680415485",
+   "quote": "Grado en Ingeniería Mecánica por la Universitat Politècnica de València , 229"
+  },
+  {
+   "university": "Universitat Politècnica de València",
+   "programName": "Grado en Ingeniería en Tecnologías Industriales",
+   "set": {
+    "notes": "Wagi przedmiotów PCE dla tego kierunku w tabeli Generalitat na nabór 2026/27: 0,2 dla Dibujo Técnico II, Física, Matemáticas II, Química, Tecnología e Ingeniería II; 0,1 dla Diseño, Diseño de Modelos de Negocio y Empresa, Geología y Ciencias Ambientales. Szeroki kierunek przemysłowy, razem z magisterium z inżynierii przemysłowej odpowiada dawnemu pełnemu kierunkowi; akredytacja ABET i EUR-ACE. Nota odcięcia kwoty ogólnej (skala do 14): 11,511 w przydziale z 10 lipca 2026 i 11,23 w ostatnim opublikowanym przydziale z 1 października 2026 (kod programu 223, ETS de Ingeniería Industrial). Dokument Generalitat nie zawiera osobnych statystyk dla osób z akredytacją UNEDasiss, więc nota jest tylko orientacją na kolejny rok."
+   },
+   "sourceUrl": "https://universitats.gva.es/documents/389338055/412490107/1_NOTAS+CORTE+2026-2027_Adjudicaci%C3%B3n+10+julio.pdf/f875cd03-84d7-c711-5cd0-3cf33da3f2b6?t=1783680415485",
+   "quote": "Grado en Ingeniería en Tecnologías Industriales por la Universitat Politècnica de València , 223"
+  },
+  {
+   "university": "Universitat Politècnica de València",
+   "programName": "Grado en Administración y Dirección de Empresas",
+   "set": {
+    "notes": "Wagi przedmiotów PCE dla tego kierunku w tabeli Generalitat na nabór 2026/27: 0,2 dla Diseño de Modelos de Negocio y Empresa, Física, Tecnología e Ingeniería II, Matemáticas Aplicadas a las CCSS II, Matemáticas II, Geografía, Geología y Ciencias Ambientales, Ciencias Generales; 0,1 dla Química, Biología. Wydział FADE w Walencji, a wersja w Alcoi ma niższą notę odcięcia. Nota odcięcia kwoty ogólnej (skala do 14): 10,7 w przydziale z 10 lipca 2026 i 9,871 w ostatnim opublikowanym przydziale z 1 października 2026 (kod programu 202, Facultad de Administración y Dirección de Empresas w Walencji). Wersja w Alcoi (kod 201) miała w przydziale z 10 lipca 2026 notę 6,684. Dokument Generalitat nie zawiera osobnych statystyk dla osób z akredytacją UNEDasiss, więc nota jest tylko orientacją na kolejny rok."
+   },
+   "sourceUrl": "https://universitats.gva.es/documents/389338055/412490107/1_NOTAS+CORTE+2026-2027_Adjudicaci%C3%B3n+10+julio.pdf/f875cd03-84d7-c711-5cd0-3cf33da3f2b6?t=1783680415485",
+   "quote": "Grado en Administración y Dirección de Empresas por la Universitat Politècnica de València , 202"
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [],
+ "summaryPatches": [],
+ "gapsSet": [
+  "W zestawieniu są tylko dwie największe uczelnie publiczne z Walencji, UV i UPV. Prywatna uczelnia CEU Cardenal Herrera oraz publiczne UA, UJI i UMH, które działają w innych miastach Wspólnoty, nie są opisane; dla CEU warto sprawdzić medycynę, psychologię i prawo na stronie uczelni.",
+  "Opłaty UNEDasiss za akredytację i za egzaminy PCE nie są podane na stronie w postaci tekstu; kwoty są na unedasiss.uned.es w zakładce Precios y normas.",
+  "UNEDasiss nie podaje na stronie, czy polskie egzaminy maturalne z poszczególnych przedmiotów są wpisywane do akredytacji jako zewnętrzny egzamin i jak dokładnie przeliczana jest matura na notę od 5 do 10. Szczegóły dla Polski są w narzędziu Información país por país na stronie UNEDasiss.",
+  "Dla kierunków bez wymogu certyfikatu B2 strony uczelni nie podają wymaganego poziomu hiszpańskiego ani walenckiego. Tabela uznawanych certyfikatów hiszpańskiego jest na stronach uczelni (UPV i UV).",
+  "Terminy naboru na rok 2027/28 nie są opublikowane. Podane daty dotyczą naboru 2026/27.",
+  "Noty odcięcia pochodzą z oficjalnego dokumentu Generalitat Valenciana (Notas de corte por titulaciones y cupos 2026-2027) i dotyczą kwoty ogólnej. Przy każdym programie podano wynik pierwszego przydziału z 10 lipca 2026 i ostatniego opublikowanego z 1 października 2026; w kolejnych listach noty spadały. Dokument nie zawiera osobnych statystyk dla osób z akredytacją UNEDasiss.",
+  "Wagi przedmiotów PCE pochodzą z tabeli Generalitat na nabór 2026/27. Tabela na nabór 2027/28 jest już opublikowana (adres w źródłach) i warto ją sprawdzić przed wyborem przedmiotów.",
+  "Stawki za kredyt ECTS pochodzą z dekretu 101/2024 i ze stron programów na rok 2026/27. Nie wiadomo, czy dekret zostanie zmieniony na rok 2027/28.",
+  "Dobrowolne dodatkowe koszty (ubezpieczenie szkolne, opłaty za grupy anglojęzyczne) nie są podane w kwotach.",
+  "W tabeli not odcięcia Generalitat UV nie ma budownictwa i mechaniki, a UPV prawa, psychologii, medycyny i dziennikarstwa, więc te kierunki są w Walencji tylko na jednej z dwóch uczelni."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://universitats.gva.es/documents/389338055/412490107/1_NOTAS+CORTE+2026-2027_Adjudicaci%C3%B3n+10+julio.pdf/f875cd03-84d7-c711-5cd0-3cf33da3f2b6?t=1783680415485",
+   "note": "Generalitat Valenciana: noty odcięcia po przydziale z 10 lipca 2026, wszystkie uczelnie publiczne Wspólnoty"
+  },
+  {
+   "url": "https://universitats.gva.es/documents/389338055/412490107/8_NOTAS+CORTE+2026-2027_Adjudicaci%C3%B3n+1+octubre.pdf/1934d085-11f1-d782-c328-aefb27f79f3f?t=1790854662758",
+   "note": "Generalitat Valenciana: noty odcięcia po przydziale z 1 października 2026"
+  },
+  {
+   "url": "https://universitats.gva.es/va/informes-i-notes-de-corte",
+   "note": "Generalitat Valenciana: strona z informacjami i notami odcięcia, nabór 2026/27"
+  }
+ ]
+}

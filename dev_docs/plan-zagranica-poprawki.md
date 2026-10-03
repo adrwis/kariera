@@ -29,3 +29,10 @@ Niczego innego w projekcie nie zmieniaj (nie edytuj data/, kodu ani innych plik�
 
 ## Odpowiedź końcowa (krótko)
 Dla każdego miasta: co naprawiono, czego nie dało się potwierdzić (zostało w luki), szacunkowa ocena po poprawkach 1 do 10.
+
+## Runda 2 (po przeglądzie końcowym, 2026-10-03)
+Miasta poniżej 8 po przeglądzie końcowym dostają drugą rundę. Nowe zasady:
+- Aktualne dane `data/zagranica/<slug>.json` zawierają już WSZYSTKIE wcześniejsze poprawki (pliki `poprawki-agentow-<slug>-2026-10-03.json` i poprawki kodowe). Nie powtarzaj ich. Napraw tylko to, co nadal jest otwarte według raportów `wyniki/krytyk-zagranica4-*.json` (najnowsze), `krytyk-zagranica3-*.json` i `dev_docs/pozostale-uwagi-zagranica.md`.
+- Wynik zapisz jako NOWY plik `dev_docs/dane-robocze/wyniki/poprawki-agentow-<slug>-2026-10-03b.json` (sufiks `b`, format jak wyżej). Nakłada się on na poprzedni plik, więc podawaj tylko zmiany, które nadal są potrzebne.
+- Zamiast ogólnych zastrzeżeń („do potwierdzenia”) spróbuj naprawdę znaleźć brakującą informację (np. czas trwania, język wykładowy, poziom języka, termin z rokiem, status matury z cytatem) na stronach uczelni, krajowych portalach i w oficjalnych bazach; próbuj alternatywnych adresów (angielskie wersje, PDF-y, strony wydziałów, publiczne API otwartych danych). Zablokowanych stron (403, ekran weryfikacji) nie obchodź. Tylko jeśli naprawdę nic nie znajdziesz, zostaw uczciwą informację „do potwierdzenia na stronie uczelni” i wpisz to w `gapsSet`.
+- Nie używaj regexów do usuwania zdań z tekstów, nie sklejaj zdań bez spacji i kropki; podawaj pełne nowe wartości pól. Przed zapisem sprawdź, że w nowych tekstach nie ma żargonu zbierania danych („nie pobrano”, „odczytano”, „sprawdzonych stron”, „nie badano”, „wyszukiwanie”), antytez „to X, nie Y”, długich myślników i że kwoty mają twardą spację i separator tysięcy.

@@ -1,0 +1,271 @@
+{
+ "slug": "amsterdam",
+ "programPatches": [
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Psychologie (Bachelor, ścieżka angielska)",
+   "set": {
+    "requirements": "Numerus fixus: 270 miejsc w ścieżce angielskiej w naborze 2026/27 (liczba na 2027/28 do potwierdzenia na stronie uczelni). Matematyka w programie szkoły średniej do ostatniego roku i w egzaminach końcowych, co najmniej na poziomie VWO Wiskunde A (alternatywa: kursy z instytutu Korteweg-de Vries albo test OMPT-A z wynikiem co najmniej 70 procent, zaświadczenie do 1 kwietnia 2027). Selekcja: obejrzenie dwóch wykładów, tydzień nauki (około 24 godzin) i dwa testy online z nadzorem kamery. Tura I: test w sobotę 6 lutego 2027, tura II: test w sobotę 6 marca 2027; to jedyne terminy, bez wyjątków. Ranking powstaje z wyniku testu i losowania w trzech grupach, 90 najlepszych dostaje numery 1 do 90, numery 1 do 270 dostają miejsce od razu. Numery rankingowe przychodzą 15 kwietnia 2027. W naborze 2026/27 było 1 934 zgłoszeń, 1 320 osób przystąpiło do selekcji, a ostatni przyznany numer to 482 (stan z 18 sierpnia 2026). Dwie próby selekcji nie są możliwe, jest jedna próba."
+   },
+   "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/psychology/application-and-admission/selection-procedure/selection-procedure.html",
+   "quote": "For the academic year 2026-2027 we have received 1934 applications."
+  },
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Global Communication Science (Communicatiewetenschap)",
+   "set": {
+    "requirements": "Wymagania dla dyplomów zagranicznych do sprawdzenia w diploma finder UvA. Po warunkowym przyjęciu trzeba zaliczyć obowiązkowy Online Programme Fit (około 28 godzin pracy, sesje w 2027 roku: 2 do 10 marca, 6 do 14 kwietnia i 18 do 26 maja).",
+    "languageProof": "Program prowadzony po angielsku (strona programu: język wykładowy angielski). Wymagany poziom angielskiego i wyniki testów strona programu nie podaje, więc trzeba je potwierdzić w diploma finder UvA.",
+    "deadline": "Termin doradczy dla osób z zagranicznym wykształceniem to 1 kwietnia, a termin ostateczny to 1 maja (strona podaje te daty bez roku; sesje Online Programme Fit na tej samej stronie przypadają w 2027 roku). W Studielink trzeba wybrać pozycję o nazwie Global Communication Science.",
+    "notes": "Kierunek obejmuje naukę o komunikacji; do zawodu dziennikarza pasuje luźno. Strona programu nie podaje limitu miejsc ani czesnego instytucjonalnego; strona programu nie podaje wymagań dla dyplomów zagranicznych, więc te dane są do potwierdzenia w diploma finder UvA."
+   },
+   "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/communication-science/application-and-admission/matching-for-international-students.html",
+   "quote": "Online Programme Fit session 1: Tuesday 2 March until Wednesday 10 March"
+  },
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Business Analytics (Bachelor)",
+   "set": {
+    "deadline": "Studenci z UE/EOG i zagranicznym dyplomem: 1 kwietnia 2027 (przy ubieganiu się o mieszkanie UvA) albo 1 maja 2027 (bez mieszkania). Studenci spoza UE/EOG: 1 marca 2027 (przy ubieganiu się o stypendium) albo 1 kwietnia 2027 (przy wizie lub mieszkaniu UvA).",
+    "notes": "Najbliższy odpowiednik data science w UvA (programowanie, AI, analityka). Wymagania dla dyplomów zagranicznych są na osobnej stronie, bo strona programu nie podaje wymagań wprost."
+   },
+   "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/business-analytics/application-and-admission/application-and-admission.html",
+   "quote": "If you do not want to apply for UvA Housing"
+  },
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Informatica (Bachelor)",
+   "set": {
+    "requirements": "Program po niderlandzku. Dla zagranicznego dyplomu wymagane są przedmioty na poziomie VWO z certyfikatem: Wiskunde B, Engels i Nederlands. Obowiązkowy jest UvA Matching, który trzeba ukończyć do 15 czerwca 2027.",
+    "languageProof": "Program po niderlandzku (język wykładowy: Nederlands). Wymagany poziom niderlandzkiego i angielskiego strona zapisów podaje na osobnych stronach o wymaganiach językowych UvA, więc trzeba go potwierdzić na stronie uczelni.",
+    "deadline": "Zapisy w Studielink od 1 października do 1 maja (strona podaje te daty bez roku; UvA Matching trzeba ukończyć do 15 czerwca 2027).",
+    "notes": "UvA prowadzi informatykę po niderlandzku, a angielską informatykę oferuje VU. Strona programu nie podaje wymagań wprost, bo wymagania są na stronie zapisów."
+   },
+   "sourceUrl": "https://www.uva.nl/programmas/bachelors/informatica/toelating-en-inschrijven/toelating-en-inschrijven.html",
+   "quote": "Vanaf 1 oktober tot uiterlijk 1 mei kun je je inschrijven voor de bachelor Informatica via Studielink."
+  },
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Rechtsgeleerdheid (Bachelor)",
+   "set": {
+    "academicYear": "2027/28",
+    "deadline": "Zgłoszenie przez Studielink najpóźniej do 1 maja (strona podaje samą datę, a dołączone regulaminy przyjęć dotyczą roku 2027/28)."
+   },
+   "sourceUrl": "https://www.uva.nl/programmas/bachelors/rechtsgeleerdheid/toelating-en-inschrijven/toelating-en-inschrijven.html",
+   "quote": "Bekijk de regeling toelating studenten met hbo-propedeuse 2027-2028 (pdf)"
+  },
+  {
+   "university": "Vrije Universiteit Amsterdam (VU)",
+   "programName": "Computer Science (Bachelor)",
+   "set": {
+    "academicYear": "2027/28",
+    "languageProof": "Angielski: IELTS Academic 6,5 ogółem, TOEFL iBT 92 (skala sprzed 21 stycznia 2026) albo 4,5 (nowa skala od 21 stycznia 2026), Cambridge C1 Advanced lub C2 Proficiency co najmniej 180, PTE Academic 68, LanguageCert Academic 70. Test nie może być starszy niż 2 lata przed 1 września roku startu. Polska matura nie należy do kwalifikacji zwolnionych z testu angielskiego na liście VU.",
+    "notes": "Program po angielsku, 3 lata. Kierunek ogólnoinformatyczny (algorytmy, AI, cyberbezpieczeństwo), przydatny jako baza pod pracę z danymi. Strona kierunku nie wspomina o selekcji ani numerus fixus.",
+    "durationYears": 3,
+    "deadline": "Obywatele UE: 1 maja; spoza UE: 1 kwietnia (strona kierunku podaje te daty bez roku, a wymagania językowe VU na tej samej zasadzie opisują rok 2027/28). Opłata aplikacyjna 100 EUR dla dyplomów zagranicznych."
+   },
+   "sourceUrl": "https://vu.nl/en/education/more-about/meeting-language-proficiency-requirements",
+   "quote": "IELTS (academic): 6.5 overall"
+  },
+  {
+   "university": "Vrije Universiteit Amsterdam (VU)",
+   "programName": "Psychologie (Bachelor)",
+   "set": {
+    "academicYear": "2027/28",
+    "languageProof": "Angielski: IELTS Academic 6,5 ogółem, TOEFL iBT 92 (skala sprzed 21 stycznia 2026) albo 4,5 (nowa skala od 21 stycznia 2026), Cambridge C1 Advanced lub C2 Proficiency co najmniej 180, PTE Academic 68, LanguageCert Academic 70. Test nie może być starszy niż 2 lata przed 1 września roku startu. Polska matura nie należy do kwalifikacji zwolnionych z testu angielskiego na liście VU.",
+    "notes": "Przeliczenie polskich ocen na skalę 7,5 nie jest opisane na stronie programu. Program ma ścieżkę angielską i niderlandzką; test selekcyjny i materiały są po angielsku."
+   },
+   "sourceUrl": "https://vu.nl/en/education/more-about/meeting-language-proficiency-requirements",
+   "quote": "IELTS (academic): 6.5 overall"
+  },
+  {
+   "university": "Vrije Universiteit Amsterdam (VU)",
+   "programName": "Economics and Business Economics (Bachelor)",
+   "set": {
+    "academicYear": "2027/28",
+    "languageProof": "Angielski: IELTS Academic 6,5 ogółem, TOEFL iBT 92 (skala sprzed 21 stycznia 2026) albo 4,5 (nowa skala od 21 stycznia 2026), Cambridge C1 Advanced lub C2 Proficiency co najmniej 180, PTE Academic 68, LanguageCert Academic 70. Test nie może być starszy niż 2 lata przed 1 września roku startu. Polska matura nie należy do kwalifikacji zwolnionych z testu angielskiego na liście VU.",
+    "notes": "Program po angielsku, 3 lata. Strona podaje przykłady dyplomów uznawanych za dowód matematyki (IB Mathematics, A-level, AP Calculus) i nie wspomina o numerus fixus.",
+    "durationYears": 3,
+    "deadline": "Obywatele UE: 1 maja; spoza UE: 1 kwietnia (strona kierunku podaje te daty bez roku, a wymagania językowe VU na tej samej zasadzie opisują rok 2027/28)."
+   },
+   "sourceUrl": "https://vu.nl/en/education/more-about/meeting-language-proficiency-requirements",
+   "quote": "IELTS (academic): 6.5 overall"
+  },
+  {
+   "university": "Vrije Universiteit Amsterdam (VU)",
+   "programName": "Communicatiewetenschap (Bachelor)",
+   "set": {
+    "academicYear": "2027/28",
+    "languageProof": "Angielski: IELTS Academic 6,5 ogółem, TOEFL iBT 92 (skala sprzed 21 stycznia 2026) albo 4,5 (nowa skala od 21 stycznia 2026), Cambridge C1 Advanced lub C2 Proficiency co najmniej 180, PTE Academic 68, LanguageCert Academic 70. Test nie może być starszy niż 2 lata przed 1 września roku startu. Polska matura nie należy do kwalifikacji zwolnionych z testu angielskiego na liście VU.",
+    "notes": "Kierunek obejmuje naukę o komunikacji; do zawodu dziennikarza pasuje luźno. Program ma ścieżkę angielską (3 lata) i osobną niderlandzką.",
+    "durationYears": 3,
+    "deadline": "Obywatele UE: 1 maja 2027; spoza UE: 1 kwietnia 2027. Study Choice Check odbywa się na kampusie w czerwcu 2027. Dokończenie aplikacji w VU Dashboard najpóźniej tydzień po terminie."
+   },
+   "sourceUrl": "https://vu.nl/en/education/more-about/meeting-language-proficiency-requirements",
+   "quote": "IELTS (academic): 6.5 overall"
+  },
+  {
+   "university": "Vrije Universiteit Amsterdam (VU)",
+   "programName": "Geneeskunde (Bachelor)",
+   "set": {
+    "academicYear": "2027/28",
+    "durationYears": 3,
+    "requirements": "Numerus fixus: 342 miejsca według strony VU (strona nie podaje roku przy tej liczbie). Selekcja uwzględnia oceny i aktywność poza szkołą. Wymagane certyfikaty na poziomie VWO: fizyka (Natuurkunde), chemia, biologia, matematyka A lub B. Zaświadczenia do 15 lipca 2027.",
+    "deadline": "Studielink do 15 stycznia 2027 (strona podaje samą datę 15 stycznia; certyfikaty do 15 lipca 2027 wskazują na nabór 2027/28).",
+    "notes": "Wspólne studia z UvA w Amsterdam UMC, obie uczelnie podają limit 342 miejsc. Przeliczenie polskiej matury (biologia, chemia, fizyka, matematyka) na wymagane certyfikaty VWO należy potwierdzić z uczelnią. Program po niderlandzku, poziom niderlandzkiego (co najmniej NT2 II) podaje strona w polu wymagań językowych."
+   },
+   "sourceUrl": "https://vu.nl/nl/onderwijs/bachelor/geneeskunde/toelating",
+   "quote": "In totaal zijn er 342 opleidingsplaatsen voor de studie Geneeskunde bij de VU."
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "Engineering: Werktuigbouwkunde",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (HvA wymaga dyplomu równoważnego havo, vwo albo mbo 4; dyplom zagraniczny przechodzi ocenę diplomawaardering przed startem; polskiej matury strona kierunku nie wymienia, a Nuffic ocenia ją jako poziom VWO)",
+    "notes": "Studia stosowane (HBO), 4 lata, w języku niderlandzkim; poziom niderlandzkiego wymagany od kandydatów zagranicznych nie jest podany na stronie kierunku."
+   },
+   "sourceUrl": "https://www.hva.nl/opleidingen/engineering-werktuigbouwkunde/toelating",
+   "quote": "Dan beoordeelt de HvA of dit diploma voldoet aan de toelatingseisen van de opleiding van jouw keuze."
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "Built Environment (ścieżki m.in. Architectuur, Constructie, Water)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (HvA wymaga dyplomu równoważnego havo, vwo albo mbo 4; dyplom zagraniczny przechodzi ocenę diplomawaardering przed startem; polskiej matury strona kierunku nie wymienia, a Nuffic ocenia ją jako poziom VWO)",
+    "notes": "Jeden program HBO obejmuje architekturę i budownictwo (wybór ścieżki w trakcie studiów). Program po niderlandzku, poziom niderlandzkiego do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.hva.nl/opleidingen/built-environment/toelating",
+   "quote": "Dan beoordeelt de HvA of dit diploma voldoet aan de toelatingseisen van de opleiding van jouw keuze."
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "ICT (Technische Informatica, dawniej HBO-ICT)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (HvA wymaga dyplomu równoważnego havo, vwo albo mbo 4; dyplom zagraniczny przechodzi ocenę diplomawaardering przed startem; polskiej matury strona kierunku nie wymienia, a Nuffic ocenia ją jako poziom VWO)",
+    "notes": "Program HBO po niderlandzku; poziom niderlandzkiego do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.hva.nl/opleidingen/ict/toelating",
+   "quote": "Dan beoordeelt de HvA of dit diploma voldoet aan de toelatingseisen van de opleiding van jouw keuze."
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "Communicatie",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (HvA wymaga dyplomu równoważnego havo, vwo albo mbo 4; dyplom zagraniczny przechodzi ocenę diplomawaardering przed startem; polskiej matury strona kierunku nie wymienia, a Nuffic ocenia ją jako poziom VWO)",
+    "notes": "Kierunek komunikacji korporacyjnej i marketingowej z dostępem do studiów TV i radio; do zawodu dziennikarza pasuje luźno. Poziom niderlandzkiego do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.hva.nl/opleidingen/communicatie/toelating",
+   "quote": "Dan beoordeelt de HvA of dit diploma voldoet aan de toelatingseisen van de opleiding van jouw keuze."
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "International Business (AMSIB)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (HvA wymaga dyplomu równoważnego mbo 4, havo albo vwo; polskie dyplomy wymagają oceny względem systemu holenderskiego)",
+    "notes": "Czas trwania (4 lata) podaje ogólna strona HvA o licencjatach. Wymóg oceny polskiego dyplomu wynika z ogólnych zasad diplomawaardering HvA."
+   },
+   "sourceUrl": "https://www.amsterdamuas.com/programmes/international-business/admission",
+   "quote": "You will need a secondary school diploma comparable to a Dutch MBO level 4, HAVO (subject Mathematics or Economics required) or VWO diploma."
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "Toegepaste Psychologie",
+   "set": {
+    "notes": "Kierunek stosowany (HBO), 4 lata, w innej kategorii niż uniwersyteckie studia psychologiczne. Liczba miejsc (420) i próg 140 pochodzą ze strony selekcji HvA."
+   },
+   "sourceUrl": "https://www.hva.nl/opleidingen/toegepaste-psychologie/schrijf-je-in/selectie",
+   "quote": "De opleiding Toegepaste Psychologie heeft een beperkt aantal van 420 opleidingsplaatsen."
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [
+  {
+   "university": "Vrije Universiteit Amsterdam (VU)",
+   "universityUrl": "https://vu.nl",
+   "universityType": "uniwersytet",
+   "program": {
+    "name": "Rechtsgeleerdheid (Bachelor)",
+    "nameEn": "Law (Bachelor, w języku niderlandzkim)",
+    "careerIds": [
+     "prawnik"
+    ],
+    "level": "licencjat",
+    "durationYears": 3,
+    "languages": [
+     "niderlandzki"
+    ],
+    "academicYear": "2027/28",
+    "tuitionEu": "2 771 EUR rocznie (opłata ustawowa, rok 2027/28; 2 694 EUR w 2026/27)",
+    "tuitionNonEu": "14 800 EUR rocznie (według PDF VU, rok 2027/28)",
+    "tuitionUrl": "https://vu.nl/en/education/more-about/tuition-fee-rates-bachelor-s-programmes",
+    "matura": "uznawana z warunkami (VU wymienia polską maturę na liście dyplomów; zagraniczny dyplom nie zawsze daje bezpośrednie przyjęcie, a komisja może wymagać dodatkowych certyfikatów)",
+    "requirements": "Zagraniczny dyplom nie zawsze daje bezpośrednie przyjęcie. Dodatkowo mogą obowiązywać: certyfikat angielskiego na poziomie 6 VWO, certyfikat niderlandzkiego (egzamin państwowy VWO albo CNaVT EDUP C1) i certyfikat historii na poziomie 6 VWO. Ostateczne wymagania podaje komisja po ocenie zgłoszenia.",
+    "languageProof": "Program po niderlandzku. Dla zagranicznego dyplomu mogą obowiązywać: certyfikat niderlandzkiego (egzamin państwowy VWO albo CNaVT EDUP C1).",
+    "selective": null,
+    "admissionUrl": "https://vu.nl/nl/onderwijs/bachelor/rechtsgeleerdheid/toelating",
+    "deadline": "Termin zgłoszenia do potwierdzenia na stronie VU. Strona kierunku podaje tylko termin 15 grudnia dla egzaminu wstępnego dla osób powyżej 21 roku życia.",
+    "applyUrl": "https://vu.nl/en/education/more-about/apply-bachelors-programme",
+    "url": "https://vu.nl/nl/onderwijs/bachelor/rechtsgeleerdheid",
+    "notes": "Prawo holenderskie, 3 lata, wszystkie zajęcia po niderlandzku. Bez niderlandzkiego program nie jest dostępny."
+   },
+   "sourceUrl": "https://vu.nl/nl/onderwijs/bachelor/rechtsgeleerdheid/toelating",
+   "quote": "Behaald certificaat Nederlandse taal: het vwo staatsexamen óf CNaVT (EDUP C1)"
+  }
+ ],
+ "summaryPatches": [
+  {
+   "label": "Polska matura",
+   "text": "Holandia nie stosuje punktów za maturę. Nuffic ocenia Świadectwo dojrzałości jako poziom VWO (EQF 4+), czyli wystarczający do studiów uniwersyteckich (WO). UvA porównuje dyplom z listą kraju (diploma calculator) i dyplomy spoza listy ocenia indywidualnie. VU wymienia na swojej liście dyplomów Polskę: „Świadectwo Dojrzałości and Świadectwo Ukończenia Liceum Ogólnokształcącego”. Uczelnie sprawdzają matematykę (zwykle poziom VWO A lub B) i angielski. Na kierunkach z limitem (numerus fixus: psychologia, ścieżka angielska ekonomii na UvA, medycyna) o przyjęciu decyduje test online i losowanie. Medycyna jest w całości po niderlandzku i wymaga niderlandzkiego (NT2) oraz profilu przyrodniczego. Kierunki HBO (HvA) wymagają dyplomu równoważnego havo, vwo lub mbo 4 i oceny dyplomu (diplomawaardering).",
+   "sourceUrl": "https://vu.nl/en/education/more-about/list-of-diplomas-per-country",
+   "quote": "Świadectwo Dojrzałości (maturity certificate)"
+  },
+  {
+   "label": "Opłaty",
+   "text": "Obywatele UE: opłata ustawowa wynosi 2 694 EUR rocznie w 2026/27 (UvA, HvA) i 2 771 EUR rocznie w 2027/28 (według VU). UvA i HvA nie opublikowały jeszcze własnych stawek na 2027/28. Spoza UE: opłata instytucjonalna zależna od kierunku, np. UvA 2026/27: ekonomia 13 900 EUR, prawo 17 500 EUR, medycyna 34 700 EUR; VU 2027/28: psychologia, ekonomia, prawo i komunikacja 14 800 EUR, informatyka 20 330 EUR, medycyna 36 890 EUR; HvA 2026/27: 10 648 EUR.",
+   "sourceUrl": "https://vu.nl/en/education/more-about/tuition-fee-rates-bachelor-s-programmes",
+   "quote": "Statutory tuition fees 2027-2028"
+  }
+ ],
+ "gapsSet": [
+  "Architektura i budownictwo: UvA i VU nie mają takich kierunków, jedyna opcja w Amsterdamie to HvA Built Environment (HBO, po niderlandzku). Politechniki w Delft i Eindhoven leżą poza Amsterdamem.",
+  "Mechanika: tylko HvA Engineering, ścieżka Werktuigbouwkunde (HBO, po niderlandzku). Nie ma wersji angielskiej.",
+  "Data science: brak osobnego licencjatu. Najbliższe są UvA Business Analytics (po angielsku) i VU Computer Science. UvA Informatica jest po niderlandzku.",
+  "Prawo: UvA Rechtsgeleerdheid i VU Rechtsgeleerdheid są po niderlandzku. UvA wymaga przy zagranicznym dyplomie dyplomu NT2 II, a VU certyfikatu niderlandzkiego (egzamin państwowy VWO albo CNaVT EDUP C1). Brak angielskiego licencjatu z samego prawa (UvA PPLE jest interdyscyplinarny).",
+  "Czesne instytucjonalne UvA na 2026/27 dla Global Communication Science, Business Analytics i informatyki nie jest przypisane do konkretnych kierunków na stronach programów. UvA i HvA nie opublikowały czesnego na 2027/28, dlatego przy kwotach dla obywateli UE podano stawkę 2 771 EUR według VU.",
+  "UvA Global Communication Science i Business Analytics nie podają na stronach programów limitu miejsc. Dla Global Communication Science nie ma tam też wymaganego poziomu angielskiego, a termin 1 kwietnia i 1 maja jest bez roku.",
+  "VU: przeliczenie polskich ocen na skalę 7,5 wymaganą przez psychologię nie jest opisane.",
+  "UvA medycyna: strona nie podaje wymaganego poziomu niderlandzkiego (poza dyplomem NT2 przy IB) ani czasu trwania licencjatu. Poziom dla polskiej matury trzeba potwierdzić w UvA Credential Evaluation.",
+  "Daty testów selekcyjnych UvA ekonomii (20 lutego i 3 marca) strona podaje bez roku, w kontekście naboru na wrzesień 2027. Terminy 1 maja dla kierunków bez limitu (UvA, VU) i 15 stycznia dla VU medycyny też są podane bez roku.",
+  "Kierunki HBO w HvA po niderlandzku (Engineering, Built Environment, ICT, Communicatie, psychologia stosowana) są studiami stosowanymi, a HvA nie podaje na stronach kierunków wymaganego poziomu niderlandzkiego. Poziom niderlandzkiego dla UvA Informatica jest na osobnych stronach UvA i do potwierdzenia na stronie uczelni."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://vu.nl/en/education/more-about/list-of-diplomas-per-country",
+   "note": "VU: lista dyplomów według krajów, wpis dla Polski (Świadectwo Dojrzałości i Świadectwo Ukończenia Liceum Ogólnokształcącego)"
+  },
+  {
+   "url": "https://vu.nl/en/education/more-about/meeting-language-proficiency-requirements",
+   "note": "VU: wymagania z angielskiego i akceptowane testy na rok 2027/28"
+  },
+  {
+   "url": "https://vu.nl/nl/onderwijs/bachelor/rechtsgeleerdheid/toelating",
+   "note": "VU prawo: wymagane certyfikaty przy zagranicznym dyplomie"
+  },
+  {
+   "url": "https://www.uva.nl/en/programmes/bachelors/communication-science/application-and-admission/matching-for-international-students.html",
+   "note": "UvA Global Communication Science: Online Programme Fit w 2027 roku"
+  },
+  {
+   "url": "https://www.uva.nl/en/programmes/bachelors/business-analytics/application-and-admission/application-and-admission.html",
+   "note": "UvA Business Analytics: terminy zgłoszeń 2027 dla dyplomów zagranicznych"
+  },
+  {
+   "url": "https://www.uva.nl/programmas/bachelors/informatica/toelating-en-inschrijven/toelating-en-inschrijven.html",
+   "note": "UvA Informatica: termin zapisów, wymagane przedmioty i UvA Matching"
+  },
+  {
+   "url": "https://www.hva.nl/opleidingen/ict/toelating",
+   "note": "HvA: ocena zagranicznego dyplomu (diplomawaardering)"
+  }
+ ]
+}

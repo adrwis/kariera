@@ -1,0 +1,542 @@
+{
+ "slug": "berlin",
+ "programPatches": [
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Psychologie (Mono-Bachelor)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne: najpierw VPD (Vorprüfungsdokumentation) z uni-assist, wydana dla FU i ważna rok, potem wniosek w portalu FU z VPD. FU ostrzega, że uni-assist może przetwarzać VPD do 8 tygodni, więc o VPD trzeba wnioskować najpóźniej 8 tygodni przed terminem FU (15 lipca przy programach z ograniczeniem miejsc, 1 września bez ograniczeń). Za VPD jest opłata. Potrzebne są tłumaczenia przysięgłe, jeśli świadectwo nie jest po niemiecku lub angielsku. Nabór ograniczony (DoSV przez hochschulstart.de, najpierw rejestracja tam i numery BID i BAN). Dobrowolny test uzdolnień (tylko po niemiecku, płatny) dla obywateli UE i EOG, rejestracja do 15.02 na semestr zimowy.",
+    "matura": "uznawana z warunkami: świadectwo zagraniczne wymaga VPD z uni-assist, a uni-assist wymienia dla Polski świadectwo dojrzałości i świadectwo ukończenia szkoły jako dokumenty do przesłania. Ostateczną decyzję o uznaniu świadectwa podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bachelor/ausl-hzb/index.html",
+   "quote": "In general, prospective students with a foreign university entrance qualification must apply for a VPD"
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Informatik (Mono-Bachelor)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne: najpierw VPD (Vorprüfungsdokumentation) z uni-assist, wydana dla FU i ważna rok, potem wniosek w portalu FU z VPD. FU ostrzega, że uni-assist może przetwarzać VPD do 8 tygodni, więc o VPD trzeba wnioskować najpóźniej 8 tygodni przed terminem FU (15 lipca przy programach z ograniczeniem miejsc, 1 września bez ograniczeń). Za VPD jest opłata. Potrzebne są tłumaczenia przysięgłe, jeśli świadectwo nie jest po niemiecku lub angielsku.",
+    "matura": "uznawana z warunkami: świadectwo zagraniczne wymaga VPD z uni-assist, a uni-assist wymienia dla Polski świadectwo dojrzałości i świadectwo ukończenia szkoły jako dokumenty do przesłania. Ostateczną decyzję o uznaniu świadectwa podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bachelor/ausl-hzb/index.html",
+   "quote": "In general, prospective students with a foreign university entrance qualification must apply for a VPD"
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Betriebswirtschaftslehre (Mono-Bachelor)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne: najpierw VPD (Vorprüfungsdokumentation) z uni-assist, wydana dla FU i ważna rok, potem wniosek w portalu FU z VPD. FU ostrzega, że uni-assist może przetwarzać VPD do 8 tygodni, więc o VPD trzeba wnioskować najpóźniej 8 tygodni przed terminem FU (15 lipca przy programach z ograniczeniem miejsc, 1 września bez ograniczeń). Za VPD jest opłata. Potrzebne są tłumaczenia przysięgłe, jeśli świadectwo nie jest po niemiecku lub angielsku. Dodatkowo wymagany jest angielski na poziomie B2. Nabór przez DoSV albo uni-assist dla studentów międzynarodowych.",
+    "matura": "uznawana z warunkami: świadectwo zagraniczne wymaga VPD z uni-assist, a uni-assist wymienia dla Polski świadectwo dojrzałości i świadectwo ukończenia szkoły jako dokumenty do przesłania. Ostateczną decyzję o uznaniu świadectwa podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bachelor/ausl-hzb/index.html",
+   "quote": "In general, prospective students with a foreign university entrance qualification must apply for a VPD"
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Rechtswissenschaft (Erste juristische Prüfung)",
+   "set": {
+    "notes": "Studia prawa niemieckiego prowadzące do pierwszego egzaminu państwowego (10 semestrów). Uznanie uprawnień zawodowych w Polsce wymaga odrębnych procedur, o których strona uczelni nie informuje."
+   },
+   "sourceUrl": "https://www.fu-berlin.de/en/studium/studienangebot/grundstaendige/rechtswissenschaft_erste_juristische_Pruefung/index.html",
+   "quote": "Erste juristische Prüfung (first law examination)"
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Rechtswissenschaft (Erste juristische Prüfung)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne: najpierw VPD (Vorprüfungsdokumentation) z uni-assist, wydana dla FU i ważna rok, potem wniosek w portalu FU z VPD. FU ostrzega, że uni-assist może przetwarzać VPD do 8 tygodni, więc o VPD trzeba wnioskować najpóźniej 8 tygodni przed terminem FU (15 lipca przy programach z ograniczeniem miejsc, 1 września bez ograniczeń). Za VPD jest opłata. Potrzebne są tłumaczenia przysięgłe, jeśli świadectwo nie jest po niemiecku lub angielsku. Nabór ograniczony przez DoSV. Studia prowadzą do pierwszego egzaminu państwowego z prawa niemieckiego.",
+    "matura": "uznawana z warunkami: świadectwo zagraniczne wymaga VPD z uni-assist, a uni-assist wymienia dla Polski świadectwo dojrzałości i świadectwo ukończenia szkoły jako dokumenty do przesłania. Ostateczną decyzję o uznaniu świadectwa podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bachelor/ausl-hzb/index.html",
+   "quote": "In general, prospective students with a foreign university entrance qualification must apply for a VPD"
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Publizistik- und Kommunikationswissenschaft (Kombibachelor, Haupt- lub Nebenfach)",
+   "set": {
+    "notes": "Kierunek obejmuje naukę o komunikacji i mediach; do zawodu dziennikarza pasuje luźno."
+   },
+   "sourceUrl": "https://www.fu-berlin.de/en/studium/studienangebot/grundstaendige/publizistik_kommwiss_kombi/index.html",
+   "quote": "Major subject in a combi bachelor"
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Publizistik- und Kommunikationswissenschaft (Kombibachelor, Haupt- lub Nebenfach)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne: najpierw VPD (Vorprüfungsdokumentation) z uni-assist, wydana dla FU i ważna rok, potem wniosek w portalu FU z VPD. FU ostrzega, że uni-assist może przetwarzać VPD do 8 tygodni, więc o VPD trzeba wnioskować najpóźniej 8 tygodni przed terminem FU (15 lipca przy programach z ograniczeniem miejsc, 1 września bez ograniczeń). Za VPD jest opłata. Potrzebne są tłumaczenia przysięgłe, jeśli świadectwo nie jest po niemiecku lub angielsku. Kombi-Bachelor: kierunek główny 90 CP plus moduły z innego przedmiotu. Dodatkowo wymagany jest angielski na poziomie B1.",
+    "matura": "uznawana z warunkami: świadectwo zagraniczne wymaga VPD z uni-assist, a uni-assist wymienia dla Polski świadectwo dojrzałości i świadectwo ukończenia szkoły jako dokumenty do przesłania. Ostateczną decyzję o uznaniu świadectwa podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bachelor/ausl-hzb/index.html",
+   "quote": "In general, prospective students with a foreign university entrance qualification must apply for a VPD"
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Informatik (B.Sc.)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne wymaga VPD z uni-assist wydanej dla TU Berlin (ważna rok, przetwarzanie 4 do 6 tygodni według TU, a według uni-assist wniosek najlepiej złożyć co najmniej 8 tygodni przed terminem; opłata 75 EUR za pierwszy kierunek i 30 EUR za każdy kolejny w semestrze). Bez VPD wniosek nie jest możliwy, również na kierunki bez NC, a przyjęcie warunkowe nie jest dostępne. Certyfikat językowy składa się tylko przez portal TU, uni-assist go nie sprawdza. Obywatele UE są traktowani jak Niemcy, na wspólnej liście rankingowej; w głównej puli 50 procent miejsc wg średniej i 50 procent wg czasu oczekiwania. Program przeprojektowany od semestru zimowego 2026/27 (nacisk na AI, dane i algorytmy).",
+    "matura": "uznawana z warunkami: świadectwo zagraniczne wymaga VPD z uni-assist. TU odsyła do bazy anabin, w której sprawdza się, czy świadectwo uprawnia do studiów bezpośrednio, czy tylko do Studienkolleg. Ostateczną decyzję o uznaniu świadectwa podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.tu.berlin/en/studierendensekretariat/bachelors-application-enrollment/prospective-students-with-an-international-higher-education-entrance-qualification/admission-requirements",
+   "quote": "Apply for the VPD for TU Berlin at uni-assist as early as possible, because processing of your VPD application can take 4 to 6 weeks."
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Informatik (B.Sc.)",
+   "set": {
+    "tuitionEu": "0 EUR czesnego (TU Berlin: brak czesnego poza podyplomowymi programami magisterskimi); opłata semestralna 379,06 EUR z biletem (w tym 226,80 EUR Semesterticket i 2,70 EUR fundusz socjalny), 149,56 EUR bez biletu; strona opłat nie podaje, którego semestru dotyczy kwota.",
+    "tuitionNonEu": "0 EUR czesnego (TU Berlin: brak czesnego poza podyplomowymi programami magisterskimi; strona nie wprowadza odrębnej stawki dla osób spoza UE); opłata semestralna jak w polu dla UE.",
+    "tuitionUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies"
+   },
+   "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies",
+   "quote": "There are no tuition fees to pay at TU Berlin."
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Architektur (B.Sc.)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne wymaga VPD z uni-assist wydanej dla TU Berlin (ważna rok, przetwarzanie 4 do 6 tygodni według TU, a według uni-assist wniosek najlepiej złożyć co najmniej 8 tygodni przed terminem; opłata 75 EUR za pierwszy kierunek i 30 EUR za każdy kolejny w semestrze). Bez VPD wniosek nie jest możliwy, również na kierunki bez NC, a przyjęcie warunkowe nie jest dostępne. Certyfikat językowy składa się tylko przez portal TU, uni-assist go nie sprawdza. Obywatele UE są traktowani jak Niemcy, na wspólnej liście rankingowej; w głównej puli 50 procent miejsc wg średniej i 50 procent wg czasu oczekiwania. Przed rozpoczęciem studiów trzeba odbyć praktyki łącznie co najmniej 320 godzin (dowód najpóźniej przy zgłoszeniu pracy licencjackiej).",
+    "matura": "uznawana z warunkami: świadectwo zagraniczne wymaga VPD z uni-assist. TU odsyła do bazy anabin, w której sprawdza się, czy świadectwo uprawnia do studiów bezpośrednio, czy tylko do Studienkolleg. Ostateczną decyzję o uznaniu świadectwa podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.tu.berlin/en/studierendensekretariat/bachelors-application-enrollment/prospective-students-with-an-international-higher-education-entrance-qualification/admission-requirements",
+   "quote": "Apply for the VPD for TU Berlin at uni-assist as early as possible, because processing of your VPD application can take 4 to 6 weeks."
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Architektur (B.Sc.)",
+   "set": {
+    "tuitionEu": "0 EUR czesnego (TU Berlin: brak czesnego poza podyplomowymi programami magisterskimi); opłata semestralna 379,06 EUR z biletem (w tym 226,80 EUR Semesterticket i 2,70 EUR fundusz socjalny), 149,56 EUR bez biletu; strona opłat nie podaje, którego semestru dotyczy kwota.",
+    "tuitionNonEu": "0 EUR czesnego (TU Berlin: brak czesnego poza podyplomowymi programami magisterskimi; strona nie wprowadza odrębnej stawki dla osób spoza UE); opłata semestralna jak w polu dla UE.",
+    "tuitionUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies"
+   },
+   "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies",
+   "quote": "There are no tuition fees to pay at TU Berlin."
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Architektur (B.Sc.)",
+   "set": {
+    "notes": "Program oparty na semestralnych projektach projektowych, 180 ECTS. Do uprawnień architekta potrzebny jest zwykle magister; szczegóły uprawnień w Niemczech i w Polsce do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/architecture-b-sc",
+   "quote": "The degree program is based on semester-long design projects"
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Bauingenieurwesen (B.Sc.)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne wymaga VPD z uni-assist wydanej dla TU Berlin (ważna rok, przetwarzanie 4 do 6 tygodni według TU, a według uni-assist wniosek najlepiej złożyć co najmniej 8 tygodni przed terminem; opłata 75 EUR za pierwszy kierunek i 30 EUR za każdy kolejny w semestrze). Bez VPD wniosek nie jest możliwy, również na kierunki bez NC, a przyjęcie warunkowe nie jest dostępne. Certyfikat językowy składa się tylko przez portal TU, uni-assist go nie sprawdza. Obywatele UE są traktowani jak Niemcy, na wspólnej liście rankingowej; w głównej puli 50 procent miejsc wg średniej i 50 procent wg czasu oczekiwania. Praktyka 8 tygodni przed studiami lub w ich trakcie (dowód najpóźniej przy zgłoszeniu pracy licencjackiej).",
+    "matura": "uznawana z warunkami: świadectwo zagraniczne wymaga VPD z uni-assist. TU odsyła do bazy anabin, w której sprawdza się, czy świadectwo uprawnia do studiów bezpośrednio, czy tylko do Studienkolleg. Ostateczną decyzję o uznaniu świadectwa podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.tu.berlin/en/studierendensekretariat/bachelors-application-enrollment/prospective-students-with-an-international-higher-education-entrance-qualification/admission-requirements",
+   "quote": "Apply for the VPD for TU Berlin at uni-assist as early as possible, because processing of your VPD application can take 4 to 6 weeks."
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Bauingenieurwesen (B.Sc.)",
+   "set": {
+    "tuitionEu": "0 EUR czesnego (TU Berlin: brak czesnego poza podyplomowymi programami magisterskimi); opłata semestralna 379,06 EUR z biletem (w tym 226,80 EUR Semesterticket i 2,70 EUR fundusz socjalny), 149,56 EUR bez biletu; strona opłat nie podaje, którego semestru dotyczy kwota.",
+    "tuitionNonEu": "0 EUR czesnego (TU Berlin: brak czesnego poza podyplomowymi programami magisterskimi; strona nie wprowadza odrębnej stawki dla osób spoza UE); opłata semestralna jak w polu dla UE.",
+    "tuitionUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies"
+   },
+   "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies",
+   "quote": "There are no tuition fees to pay at TU Berlin."
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Maschinenbau (B.Sc.)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne wymaga VPD z uni-assist wydanej dla TU Berlin (ważna rok, przetwarzanie 4 do 6 tygodni według TU, a według uni-assist wniosek najlepiej złożyć co najmniej 8 tygodni przed terminem; opłata 75 EUR za pierwszy kierunek i 30 EUR za każdy kolejny w semestrze). Bez VPD wniosek nie jest możliwy, również na kierunki bez NC, a przyjęcie warunkowe nie jest dostępne. Certyfikat językowy składa się tylko przez portal TU, uni-assist go nie sprawdza. Obywatele UE są traktowani jak Niemcy, na wspólnej liście rankingowej; w głównej puli 50 procent miejsc wg średniej i 50 procent wg czasu oczekiwania. Dwie praktyki poza uczelnią: 6 tygodni przed studiami (zalecane) i 12 tygodni w trakcie.",
+    "matura": "uznawana z warunkami: świadectwo zagraniczne wymaga VPD z uni-assist. TU odsyła do bazy anabin, w której sprawdza się, czy świadectwo uprawnia do studiów bezpośrednio, czy tylko do Studienkolleg. Ostateczną decyzję o uznaniu świadectwa podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.tu.berlin/en/studierendensekretariat/bachelors-application-enrollment/prospective-students-with-an-international-higher-education-entrance-qualification/admission-requirements",
+   "quote": "Apply for the VPD for TU Berlin at uni-assist as early as possible, because processing of your VPD application can take 4 to 6 weeks."
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Maschinenbau (B.Sc.)",
+   "set": {
+    "tuitionEu": "0 EUR czesnego (TU Berlin: brak czesnego poza podyplomowymi programami magisterskimi); opłata semestralna 379,06 EUR z biletem (w tym 226,80 EUR Semesterticket i 2,70 EUR fundusz socjalny), 149,56 EUR bez biletu; strona opłat nie podaje, którego semestru dotyczy kwota.",
+    "tuitionNonEu": "0 EUR czesnego (TU Berlin: brak czesnego poza podyplomowymi programami magisterskimi; strona nie wprowadza odrębnej stawki dla osób spoza UE); opłata semestralna jak w polu dla UE.",
+    "tuitionUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies"
+   },
+   "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies",
+   "quote": "There are no tuition fees to pay at TU Berlin."
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Economics and Sustainability (niemiecka nazwa programu niepotwierdzona)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne wymaga VPD z uni-assist wydanej dla TU Berlin (ważna rok, przetwarzanie 4 do 6 tygodni według TU, a według uni-assist wniosek najlepiej złożyć co najmniej 8 tygodni przed terminem; opłata 75 EUR za pierwszy kierunek i 30 EUR za każdy kolejny w semestrze). Bez VPD wniosek nie jest możliwy, również na kierunki bez NC, a przyjęcie warunkowe nie jest dostępne. Certyfikat językowy składa się tylko przez portal TU, uni-assist go nie sprawdza. Obywatele UE są traktowani jak Niemcy, na wspólnej liście rankingowej; w głównej puli 50 procent miejsc wg średniej i 50 procent wg czasu oczekiwania.",
+    "matura": "uznawana z warunkami: świadectwo zagraniczne wymaga VPD z uni-assist. TU odsyła do bazy anabin, w której sprawdza się, czy świadectwo uprawnia do studiów bezpośrednio, czy tylko do Studienkolleg. Ostateczną decyzję o uznaniu świadectwa podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.tu.berlin/en/studierendensekretariat/bachelors-application-enrollment/prospective-students-with-an-international-higher-education-entrance-qualification/admission-requirements",
+   "quote": "Apply for the VPD for TU Berlin at uni-assist as early as possible, because processing of your VPD application can take 4 to 6 weeks."
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Economics and Sustainability (niemiecka nazwa programu niepotwierdzona)",
+   "set": {
+    "tuitionEu": "0 EUR czesnego (TU Berlin: brak czesnego poza podyplomowymi programami magisterskimi); opłata semestralna 379,06 EUR z biletem (w tym 226,80 EUR Semesterticket i 2,70 EUR fundusz socjalny), 149,56 EUR bez biletu; strona opłat nie podaje, którego semestru dotyczy kwota.",
+    "tuitionNonEu": "0 EUR czesnego (TU Berlin: brak czesnego poza podyplomowymi programami magisterskimi; strona nie wprowadza odrębnej stawki dla osób spoza UE); opłata semestralna jak w polu dla UE.",
+    "tuitionUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies"
+   },
+   "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies",
+   "quote": "There are no tuition fees to pay at TU Berlin."
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Economics and Sustainability (niemiecka nazwa programu niepotwierdzona)",
+   "set": {
+    "notes": "Część modułów jest po angielsku, więc znajomość angielskiego się przydaje; wymogiem przyjęcia nie jest. 180 ECTS."
+   },
+   "sourceUrl": "https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/economics-and-sustainability-b-sc",
+   "quote": "However, it is not a condition to being admitted for studies."
+  },
+  {
+   "university": "Charité - Universitätsmedizin Berlin (wspólny wydział medyczny HU i FU)",
+   "programName": "Medizin (Staatsexamen)",
+   "set": {
+    "matura": "uznawana z warunkami: obywatele UE składają wniosek przez hochschulstart.de tak samo jak osoby z niemieckim Abitur (kierunek z ogólnokrajowym NC). Sposób przeliczenia oceny z polskiej matury podaje hochschulstart.de; ostateczną decyzję podejmuje uczelnia.",
+    "tuitionEu": "0 EUR czesnego (Charité: brak czesnego, obowiązują opłaty za immatrykulację i rejestrację semestralną); kwota opłat semestralnych nie jest podana na stronie Charité.",
+    "tuitionNonEu": "0 EUR czesnego (Charité: brak czesnego, obowiązują opłaty za immatrykulację i rejestrację semestralną); rekrutacja osób spoza UE przez uni-assist."
+   },
+   "sourceUrl": "https://www.charite.de/en/teaching_learning/application_admission/medicine_dentistry_national/",
+   "quote": "Tuition fees: none, but enrollment and re-registration fees"
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Angewandte Informatik",
+   "set": {
+    "requirements": "Obywatele UE i EOG składają wniosek bezpośrednio w portalu HTW (bez uni-assist), a na kierunki z NC najpierw rejestrują się w hochschulstart.de (BID i BAN). Wymagana jest Hochschulzugangsberechtigung (Abitur lub równoważne); dowód niemieckiego jest potrzebny, jeśli HZB zdobyto poza obszarem niemieckojęzycznym. Przydział miejsc w kierunkach z NC: 20 procent wg oceny, 20 procent wg czasu oczekiwania, 60 procent wybór uczelni (50 procent ocena, 50 procent wykształcenie zawodowe). HTW nie publikuje wartości NC."
+   },
+   "sourceUrl": "https://international-business.htw-berlin.de/bachelor/for-applicants/application",
+   "quote": "You are a national of an EU or EEA country"
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Angewandte Informatik",
+   "set": {
+    "matura": "uznawana z warunkami: HTW wymaga Hochschulzugangsberechtigung (Allgemeine Hochschulreife, Fachhochschulreife lub fachgebundene Studienberechtigung) i dowodu niemieckiego, a ostateczną decyzję podejmuje uczelnia.",
+    "deadline": "Okna naboru HTW na stronie bez roku: semestr zimowy 15.05 do 15.07 (kierunki z NC, portal HTW) i 15.05 do 30.09 (bez NC); semestr letni 17.11 do 15.01 (NC) i 17.11 do 31.03 (bez NC). Daty to wzorzec cykliczny, bo strona nie podaje roku, więc dokładne terminy na 2027 sprawdź na stronie HTW. Osoby spoza UE i EOG składają wniosek przez uni-assist w oknach: semestr zimowy 1.05 do 30.06, semestr letni 1.11 do 31.12."
+   },
+   "sourceUrl": "https://international-business.htw-berlin.de/bachelor/for-applicants/application",
+   "quote": "Winter semester: 01.05. - 30.06."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Angewandte Informatik",
+   "set": {
+    "tuitionEu": "Czesne nie jest wymienione na stronie opłat HTW; do potwierdzenia na stronie uczelni. Opłata semestralna 375,30 EUR (WS 2026/27, w tym Semesterticket 226,80 EUR).",
+    "tuitionNonEu": "Czesne dla osób spoza UE nie jest wymienione na stronie opłat HTW; do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.htw-berlin.de/studium/studienorganisation/semesterbeitraege",
+   "quote": "Gesamtbetrag 375,30 €"
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Bauingenieurwesen",
+   "set": {
+    "requirements": "Obywatele UE i EOG składają wniosek bezpośrednio w portalu HTW (bez uni-assist), a na kierunki z NC najpierw rejestrują się w hochschulstart.de (BID i BAN). Wymagana jest Hochschulzugangsberechtigung (Abitur lub równoważne); dowód niemieckiego jest potrzebny, jeśli HZB zdobyto poza obszarem niemieckojęzycznym. Przydział miejsc w kierunkach z NC: 20 procent wg oceny, 20 procent wg czasu oczekiwania, 60 procent wybór uczelni (50 procent ocena, 50 procent wykształcenie zawodowe). HTW nie publikuje wartości NC."
+   },
+   "sourceUrl": "https://international-business.htw-berlin.de/bachelor/for-applicants/application",
+   "quote": "You are a national of an EU or EEA country"
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Bauingenieurwesen",
+   "set": {
+    "matura": "uznawana z warunkami: HTW wymaga Hochschulzugangsberechtigung (Allgemeine Hochschulreife, Fachhochschulreife lub fachgebundene Studienberechtigung) i dowodu niemieckiego, a ostateczną decyzję podejmuje uczelnia.",
+    "deadline": "Okna naboru HTW na stronie bez roku: semestr zimowy 15.05 do 15.07 (kierunki z NC, portal HTW) i 15.05 do 30.09 (bez NC); semestr letni 17.11 do 15.01 (NC) i 17.11 do 31.03 (bez NC). Daty to wzorzec cykliczny, bo strona nie podaje roku, więc dokładne terminy na 2027 sprawdź na stronie HTW. Osoby spoza UE i EOG składają wniosek przez uni-assist w oknach: semestr zimowy 1.05 do 30.06, semestr letni 1.11 do 31.12."
+   },
+   "sourceUrl": "https://international-business.htw-berlin.de/bachelor/for-applicants/application",
+   "quote": "Winter semester: 01.05. - 30.06."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Bauingenieurwesen",
+   "set": {
+    "tuitionEu": "Czesne nie jest wymienione na stronie opłat HTW; do potwierdzenia na stronie uczelni. Opłata semestralna 375,30 EUR (WS 2026/27, w tym Semesterticket 226,80 EUR).",
+    "tuitionNonEu": "Czesne dla osób spoza UE nie jest wymienione na stronie opłat HTW; do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.htw-berlin.de/studium/studienorganisation/semesterbeitraege",
+   "quote": "Gesamtbetrag 375,30 €"
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Maschinenbau",
+   "set": {
+    "requirements": "Obywatele UE i EOG składają wniosek bezpośrednio w portalu HTW (bez uni-assist), a na kierunki z NC najpierw rejestrują się w hochschulstart.de (BID i BAN). Wymagana jest Hochschulzugangsberechtigung (Abitur lub równoważne); dowód niemieckiego jest potrzebny, jeśli HZB zdobyto poza obszarem niemieckojęzycznym. Przydział miejsc w kierunkach z NC: 20 procent wg oceny, 20 procent wg czasu oczekiwania, 60 procent wybór uczelni (50 procent ocena, 50 procent wykształcenie zawodowe). HTW nie publikuje wartości NC."
+   },
+   "sourceUrl": "https://international-business.htw-berlin.de/bachelor/for-applicants/application",
+   "quote": "You are a national of an EU or EEA country"
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Maschinenbau",
+   "set": {
+    "matura": "uznawana z warunkami: HTW wymaga Hochschulzugangsberechtigung (Allgemeine Hochschulreife, Fachhochschulreife lub fachgebundene Studienberechtigung) i dowodu niemieckiego, a ostateczną decyzję podejmuje uczelnia.",
+    "deadline": "Okna naboru HTW na stronie bez roku: semestr zimowy 15.05 do 15.07 (kierunki z NC, portal HTW) i 15.05 do 30.09 (bez NC); semestr letni 17.11 do 15.01 (NC) i 17.11 do 31.03 (bez NC). Daty to wzorzec cykliczny, bo strona nie podaje roku, więc dokładne terminy na 2027 sprawdź na stronie HTW. Osoby spoza UE i EOG składają wniosek przez uni-assist w oknach: semestr zimowy 1.05 do 30.06, semestr letni 1.11 do 31.12."
+   },
+   "sourceUrl": "https://international-business.htw-berlin.de/bachelor/for-applicants/application",
+   "quote": "Winter semester: 01.05. - 30.06."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Maschinenbau",
+   "set": {
+    "tuitionEu": "Czesne nie jest wymienione na stronie opłat HTW; do potwierdzenia na stronie uczelni. Opłata semestralna 375,30 EUR (WS 2026/27, w tym Semesterticket 226,80 EUR).",
+    "tuitionNonEu": "Czesne dla osób spoza UE nie jest wymienione na stronie opłat HTW; do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.htw-berlin.de/studium/studienorganisation/semesterbeitraege",
+   "quote": "Gesamtbetrag 375,30 €"
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Betriebswirtschaftslehre",
+   "set": {
+    "requirements": "Obywatele UE i EOG składają wniosek bezpośrednio w portalu HTW (bez uni-assist), a na kierunki z NC najpierw rejestrują się w hochschulstart.de (BID i BAN). Wymagana jest Hochschulzugangsberechtigung (Abitur lub równoważne); dowód niemieckiego jest potrzebny, jeśli HZB zdobyto poza obszarem niemieckojęzycznym. Przydział miejsc w kierunkach z NC: 20 procent wg oceny, 20 procent wg czasu oczekiwania, 60 procent wybór uczelni (50 procent ocena, 50 procent wykształcenie zawodowe). HTW nie publikuje wartości NC."
+   },
+   "sourceUrl": "https://international-business.htw-berlin.de/bachelor/for-applicants/application",
+   "quote": "You are a national of an EU or EEA country"
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Betriebswirtschaftslehre",
+   "set": {
+    "matura": "uznawana z warunkami: HTW wymaga Hochschulzugangsberechtigung (Allgemeine Hochschulreife, Fachhochschulreife lub fachgebundene Studienberechtigung) i dowodu niemieckiego, a ostateczną decyzję podejmuje uczelnia.",
+    "deadline": "Okna naboru HTW na stronie bez roku: semestr zimowy 15.05 do 15.07 (kierunki z NC, portal HTW) i 15.05 do 30.09 (bez NC); semestr letni 17.11 do 15.01 (NC) i 17.11 do 31.03 (bez NC). Daty to wzorzec cykliczny, bo strona nie podaje roku, więc dokładne terminy na 2027 sprawdź na stronie HTW. Osoby spoza UE i EOG składają wniosek przez uni-assist w oknach: semestr zimowy 1.05 do 30.06, semestr letni 1.11 do 31.12."
+   },
+   "sourceUrl": "https://international-business.htw-berlin.de/bachelor/for-applicants/application",
+   "quote": "Winter semester: 01.05. - 30.06."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Betriebswirtschaftslehre",
+   "set": {
+    "tuitionEu": "Czesne nie jest wymienione na stronie opłat HTW; do potwierdzenia na stronie uczelni. Opłata semestralna 375,30 EUR (WS 2026/27, w tym Semesterticket 226,80 EUR).",
+    "tuitionNonEu": "Czesne dla osób spoza UE nie jest wymienione na stronie opłat HTW; do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.htw-berlin.de/studium/studienorganisation/semesterbeitraege",
+   "quote": "Gesamtbetrag 375,30 €"
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "International Business",
+   "set": {
+    "requirements": "Obywatele UE i EOG składają wniosek bezpośrednio w portalu HTW (bez uni-assist), a na kierunki z NC najpierw rejestrują się w hochschulstart.de (BID i BAN). Wymagana jest Hochschulzugangsberechtigung (Abitur lub równoważne); dowód niemieckiego jest potrzebny, jeśli HZB zdobyto poza obszarem niemieckojęzycznym. Przydział miejsc w kierunkach z NC: 20 procent wg oceny, 20 procent wg czasu oczekiwania, 60 procent wybór uczelni (50 procent ocena, 50 procent wykształcenie zawodowe). HTW nie publikuje wartości NC. Program nie wymaga niemieckiego; wymagany jest dowód angielskiego, jeśli HZB nie zdobyto w anglojęzycznym kraju OECD."
+   },
+   "sourceUrl": "https://international-business.htw-berlin.de/bachelor/for-applicants/application",
+   "quote": "You are a national of an EU or EEA country"
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "International Business",
+   "set": {
+    "matura": "uznawana z warunkami: HTW wymaga Hochschulzugangsberechtigung i dowodu angielskiego (polska matura nie jest wymieniona wśród zwolnień), a ostateczną decyzję podejmuje uczelnia.",
+    "deadline": "Okna naboru HTW na stronie bez roku: semestr zimowy 15.05 do 15.07 (kierunki z NC, portal HTW) i 15.05 do 30.09 (bez NC); semestr letni 17.11 do 15.01 (NC) i 17.11 do 31.03 (bez NC). Daty to wzorzec cykliczny, bo strona nie podaje roku, więc dokładne terminy na 2027 sprawdź na stronie HTW. Osoby spoza UE i EOG składają wniosek przez uni-assist w oknach: semestr zimowy 1.05 do 30.06, semestr letni 1.11 do 31.12."
+   },
+   "sourceUrl": "https://international-business.htw-berlin.de/bachelor/for-applicants/application",
+   "quote": "Winter semester: 01.05. - 30.06."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Wirtschaftsingenieurwesen",
+   "set": {
+    "requirements": "Obywatele UE i EOG składają wniosek bezpośrednio w portalu HTW (bez uni-assist), a na kierunki z NC najpierw rejestrują się w hochschulstart.de (BID i BAN). Wymagana jest Hochschulzugangsberechtigung (Abitur lub równoważne); dowód niemieckiego jest potrzebny, jeśli HZB zdobyto poza obszarem niemieckojęzycznym. Przydział miejsc w kierunkach z NC: 20 procent wg oceny, 20 procent wg czasu oczekiwania, 60 procent wybór uczelni (50 procent ocena, 50 procent wykształcenie zawodowe). HTW nie publikuje wartości NC."
+   },
+   "sourceUrl": "https://international-business.htw-berlin.de/bachelor/for-applicants/application",
+   "quote": "You are a national of an EU or EEA country"
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Wirtschaftsingenieurwesen",
+   "set": {
+    "matura": "uznawana z warunkami: HTW wymaga Hochschulzugangsberechtigung (Allgemeine Hochschulreife, Fachhochschulreife lub fachgebundene Studienberechtigung) i dowodu niemieckiego, a ostateczną decyzję podejmuje uczelnia.",
+    "deadline": "Okna naboru HTW na stronie bez roku: semestr zimowy 15.05 do 15.07 (kierunki z NC, portal HTW) i 15.05 do 30.09 (bez NC); semestr letni 17.11 do 15.01 (NC) i 17.11 do 31.03 (bez NC). Daty to wzorzec cykliczny, bo strona nie podaje roku, więc dokładne terminy na 2027 sprawdź na stronie HTW. Osoby spoza UE i EOG składają wniosek przez uni-assist w oknach: semestr zimowy 1.05 do 30.06, semestr letni 1.11 do 31.12."
+   },
+   "sourceUrl": "https://international-business.htw-berlin.de/bachelor/for-applicants/application",
+   "quote": "Winter semester: 01.05. - 30.06."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Wirtschaftsingenieurwesen",
+   "set": {
+    "tuitionEu": "Czesne nie jest wymienione na stronie opłat HTW; do potwierdzenia na stronie uczelni. Opłata semestralna 375,30 EUR (WS 2026/27, w tym Semesterticket 226,80 EUR).",
+    "tuitionNonEu": "Czesne dla osób spoza UE nie jest wymienione na stronie opłat HTW; do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.htw-berlin.de/studium/studienorganisation/semesterbeitraege",
+   "quote": "Gesamtbetrag 375,30 €"
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Wirtschaftskommunikation",
+   "set": {
+    "requirements": "Obywatele UE i EOG składają wniosek bezpośrednio w portalu HTW (bez uni-assist), a na kierunki z NC najpierw rejestrują się w hochschulstart.de (BID i BAN). Wymagana jest Hochschulzugangsberechtigung (Abitur lub równoważne); dowód niemieckiego jest potrzebny, jeśli HZB zdobyto poza obszarem niemieckojęzycznym. Przydział miejsc w kierunkach z NC: 20 procent wg oceny, 20 procent wg czasu oczekiwania, 60 procent wybór uczelni (50 procent ocena, 50 procent wykształcenie zawodowe). HTW nie publikuje wartości NC. Według HTW przydział miejsc w tym kierunku wygląda inaczej niż w pozostałych: 50 procent średnia ze świadectwa, 50 procent czas oczekiwania."
+   },
+   "sourceUrl": "https://international-business.htw-berlin.de/bachelor/for-applicants/application",
+   "quote": "You are a national of an EU or EEA country"
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Wirtschaftskommunikation",
+   "set": {
+    "matura": "uznawana z warunkami: HTW wymaga Hochschulzugangsberechtigung (Allgemeine Hochschulreife, Fachhochschulreife lub fachgebundene Studienberechtigung) i dowodu niemieckiego, a ostateczną decyzję podejmuje uczelnia.",
+    "deadline": "Okna naboru HTW na stronie bez roku: semestr zimowy 15.05 do 15.07 (kierunki z NC, portal HTW) i 15.05 do 30.09 (bez NC); semestr letni 17.11 do 15.01 (NC) i 17.11 do 31.03 (bez NC). Daty to wzorzec cykliczny, bo strona nie podaje roku, więc dokładne terminy na 2027 sprawdź na stronie HTW. Osoby spoza UE i EOG składają wniosek przez uni-assist w oknach: semestr zimowy 1.05 do 30.06, semestr letni 1.11 do 31.12."
+   },
+   "sourceUrl": "https://international-business.htw-berlin.de/bachelor/for-applicants/application",
+   "quote": "Winter semester: 01.05. - 30.06."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Wirtschaftskommunikation",
+   "set": {
+    "tuitionEu": "Czesne nie jest wymienione na stronie opłat HTW; do potwierdzenia na stronie uczelni. Opłata semestralna 375,30 EUR (WS 2026/27, w tym Semesterticket 226,80 EUR).",
+    "tuitionNonEu": "Czesne dla osób spoza UE nie jest wymienione na stronie opłat HTW; do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.htw-berlin.de/studium/studienorganisation/semesterbeitraege",
+   "quote": "Gesamtbetrag 375,30 €"
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Wirtschaftsingenieurwesen",
+   "set": {
+    "languages": [
+     "niemiecki"
+    ],
+    "notes": "Kierunek jest na liście HTW programów z ograniczeniem. Dopasowanie do zawodu inżyniera mechanika jest przybliżone. Strona programu podaje język wykładowy niemiecki, 7 semestrów i 210 ECTS."
+   },
+   "sourceUrl": "https://wirtschaftsingenieurwesen.htw-berlin.de/bachelor",
+   "quote": "Unterrichtssprache: Deutsch"
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Wirtschaftskommunikation",
+   "set": {
+    "languages": [
+     "niemiecki"
+    ],
+    "notes": "Kierunek obejmuje komunikację korporacyjną i reklamę; do zawodu dziennikarza pasuje luźno. Strona programu podaje język wykładowy niemiecki i 6 semestrów (180 ECTS). Nazwa angielska programu nie jest podana na stronie."
+   },
+   "sourceUrl": "https://wirtschaftskommunikation.htw-berlin.de/bachelor",
+   "quote": "Unterrichtssprache Deutsch"
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [
+  {
+   "university": "Berliner Hochschule für Technik (BHT)",
+   "universityUrl": "https://www.bht-berlin.de/en/",
+   "universityType": "politechnika",
+   "program": {
+    "name": "Architektur (B.Sc.)",
+    "nameEn": "Architecture (B.Sc.)",
+    "careerIds": [
+     "architekt"
+    ],
+    "level": "licencjat",
+    "durationYears": 3,
+    "languages": [
+     "niemiecki"
+    ],
+    "english": false,
+    "academicYear": "WS 2026/27 i SS 2027 (okna naboru z opublikowanymi datami; terminy na 2027/28 niepublikowane)",
+    "tuitionEu": "Czesne i opłata semestralna BHT dla studentów regularnych do potwierdzenia na stronie uczelni.",
+    "tuitionNonEu": null,
+    "tuitionUrl": "https://www.bht-berlin.de/en/b-arch",
+    "matura": "uznawana z warunkami: wnioski osób z zagranicznym świadectwem mogą przechodzić przez uni-assist (BHT podaje dla nich krótsze okna naboru); czy obywatele UE korzystają z uni-assist, do potwierdzenia na stronie BHT. Ostateczną decyzję podejmuje uczelnia.",
+    "requirements": "Kierunek z ograniczeniem miejsc (NC). Dowód niemieckiego trzeba przedstawić najpóźniej przy immatrykulacji. Wymagania co do świadectwa i ścieżki zgłoszenia dla obywateli UE do potwierdzenia na stronie BHT.",
+    "languageProof": "Niemiecki najpóźniej przy immatrykulacji: DSH-2, TestDaF z wynikiem TDN 4, część niemiecka Feststellungsprüfung, DSD II, Goethe C2 (GDS), ÖSD C2 lub telc Deutsch C1 Hochschule.",
+    "selective": true,
+    "admissionUrl": "https://www.bht-berlin.de/termine",
+    "deadline": "Semestr zimowy 2026/27: 04.05.2026 do 15.07.2026 (kierunki z NC; wnioski przez uni-assist tylko do 26.06.2026). Semestr letni 2027: 02.11.2026 do 15.01.2027 (NC; uni-assist do 26.12.2026). Terminy na semestr zimowy 2027/28 BHT nie opublikowała.",
+    "applyUrl": "https://www.bht-berlin.de/bewerbung",
+    "url": "https://www.bht-berlin.de/en/b-arch",
+    "notes": "Licencjat B.Sc., 6 semestrów, 180 ECTS, start w semestrze zimowym i letnim, język wykładowy niemiecki. BHT oferuje też magisterski kierunek Architecture (M.Sc.). Uprawnienia zawodowe architekta w Polsce do potwierdzenia."
+   },
+   "sourceUrl": "https://www.bht-berlin.de/en/b-arch",
+   "quote": "Architecture (B.Sc.)"
+  }
+ ],
+ "summaryPatches": [
+  {
+   "label": "Polska matura",
+   "text": "Świadectwo zagraniczne wymaga w FU i TU VPD z uni-assist, także od obywateli UE; uni-assist wymienia dla Polski świadectwo dojrzałości i świadectwo ukończenia szkoły jako dokumenty do przesłania. TU odsyła do bazy anabin, w której sprawdza się, czy świadectwo uprawnia do studiów bezpośrednio. HTW przyjmuje obywateli UE i EOG bez uni-assist, bezpośrednio w swoim portalu. Ostateczną decyzję podejmuje uczelnia.",
+   "sourceUrl": "https://www.tu.berlin/en/studierendensekretariat/bachelors-application-enrollment/prospective-students-with-an-international-higher-education-entrance-qualification/admission-requirements",
+   "quote": "Please check anabin whether your university entrance qualification certificate entitle you to study directly or only to attend a Preparatory School in Germany."
+  },
+  {
+   "label": "Opłaty",
+   "text": "Czesne: FU, TU i Charité podają brak czesnego wprost, HTW International Business także („without tuition fees”); dla pozostałych programów HTW do potwierdzenia na stronie uczelni. Opłata semestralna to około 375 do 379 EUR (FU 376,80 EUR, TU 379,06 EUR, HTW 375,30 EUR) i obejmuje bilet Deutschlandsemesterticket za 226,80 EUR. Za VPD z uni-assist płaci się 75 EUR za pierwszy kierunek i 30 EUR za każdy kolejny w semestrze.",
+   "sourceUrl": "https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies",
+   "quote": "There are no tuition fees to pay at TU Berlin."
+  },
+  {
+   "label": "Język",
+   "text": "Większość programów licencjackich jest po niemiecku (C1: TestDaF 4/4/4/4 albo DSH-2 przy zapisie). Po angielsku jest HTW International Business (TOEFL iBT 95, IELTS 7,0 lub PTE 76).",
+   "sourceUrl": "https://international-business.htw-berlin.de/bachelor/for-applicants/application",
+   "quote": "proof of English proficiency (if you did not acquire your higher education entrance qualification in an English-speaking OECD country)"
+  },
+  {
+   "label": "Rekrutacja",
+   "text": "VPD z uni-assist (FU, TU) plus wniosek w portalu uczelni. Uni-assist podaje obecny czas przetwarzania 3 do 4 tygodni dla Europy Środkowej i Wschodniej, ale FU ostrzega, że może to trwać do 8 tygodni, więc wniosek o VPD warto złożyć co najmniej 8 tygodni przed terminem. Terminy na semestr zimowy 2027/28 nie są opublikowane; ostatnie okna to 1.06 do 15.07 (FU i TU, programy z ograniczeniem miejsc), 15.05 do 15.07 (HTW, strona bez roku) oraz 04.05.2026 do 15.07.2026 (BHT, kierunki z NC). Kierunki z ogólnokrajowym NC (medycyna) i część programów FU i HTW przechodzą przez hochschulstart.de.",
+   "sourceUrl": "https://www.bht-berlin.de/termine",
+   "quote": "zulassungsbeschränkte Bachelorstudiengänge (mit NC)"
+  }
+ ],
+ "gapsSet": [
+  "Brak danych o Uniwersytecie Humboldtów (psychologia, prawo, informatyka, dziennikarstwo i inne), bo jego strona jest chroniona ekranem weryfikacji. Programy HU trzeba sprawdzić bezpośrednio na hu-berlin.de.",
+  "Wpis dla polskiego świadectwa dojrzałości w bazie DAAD i anabin wymaga ręcznego wybrania kraju w formularzu, a strona DAAD nie otwiera się bez weryfikacji. Status matury opiera się na tym, że uni-assist wymienia dla Polski świadectwo dojrzałości, a decyzję podejmuje uczelnia.",
+  "Uni-assist nie podaje publicznie, jak przelicza oceny z polskiej matury na skalę niemiecką.",
+  "Terminy naboru na rok akademicki 2027/28 nie są jeszcze opublikowane. FU zapowiada daty na marzec 2027, a okna HTW na stronie nie mają roku, więc podane daty HTW są wzorcem z poprzednich cykli.",
+  "Wartości NC i progi punktowe FU i TU nie są publiczne, HTW ich nie publikuje, a Charité podaje punktację w procedurze AdH, ale progi są w pliku do pobrania na hochschulstart.de.",
+  "Opłata semestralna Charité nie jest podana na stronie Charité, a strona TU nie wskazuje, którego semestru dotyczy kwota 379,06 EUR.",
+  "Czesne w HTW poza programem International Business nie jest wymienione na stronach HTW; brak opłaty trzeba potwierdzić na stronie uczelni. Dla BHT nie ma potwierdzonych kwot opłat.",
+  "Niemiecka nazwa programu TU Economics and Sustainability nie jest potwierdzona na stronie TU.",
+  "Szczegóły naboru HTW Wirtschaftsingenieurwesen i Wirtschaftskommunikation (poza oknami wspólnymi dla HTW) nie są podane na stronach programów. Dla FU Publizistik dopuszczalne kombinacje z drugim przedmiotem trzeba sprawdzić na stronie programu.",
+  "HTW i BHT to uczelnie nauk stosowanych, więc ścieżka do zawodów takich jak psycholog, prawnik czy lekarz tu nie istnieje. Dla BHT opisano tylko architekturę.",
+  "Brak danych o uznawaniu w Polsce niemieckich dyplomów uczelni nauk stosowanych i uprawnień zawodowych (architekt, prawnik, lekarz).",
+  "Data science: licencjatu o tej nazwie nie ma na FU, TU i HTW; specjalizacja jest w informatyce. Magisterskich kierunków Data Science (m.in. HU, TU) nie opisano."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://www.tu.berlin/en/studying/organizing-your-studies/financing-your-studies",
+   "note": "TU Berlin: brak czesnego poza podyplomowymi programami magisterskimi"
+  },
+  {
+   "url": "https://www.tu.berlin/en/studierendensekretariat/topics-a-z/semester-fees",
+   "note": "TU Berlin: składniki opłaty semestralnej"
+  },
+  {
+   "url": "https://international-business.htw-berlin.de/bachelor/for-applicants/application",
+   "note": "HTW: okna naboru dla obywateli UE (portal HTW) i dla osób spoza UE (uni-assist)"
+  },
+  {
+   "url": "https://wirtschaftsingenieurwesen.htw-berlin.de/bachelor",
+   "note": "HTW Wirtschaftsingenieurwesen: 7 semestrów, język niemiecki"
+  },
+  {
+   "url": "https://wirtschaftskommunikation.htw-berlin.de/bachelor",
+   "note": "HTW Wirtschaftskommunikation: 6 semestrów, język niemiecki"
+  },
+  {
+   "url": "https://www.bht-berlin.de/en/b-arch",
+   "note": "BHT Berlin: architektura B.Sc., 6 semestrów, język niemiecki, nabór z NC"
+  },
+  {
+   "url": "https://www.bht-berlin.de/termine",
+   "note": "BHT Berlin: terminy naboru na semestr zimowy 2026/27 i letni 2027"
+  },
+  {
+   "url": "https://www.bht-berlin.de/1530",
+   "note": "BHT Berlin: wymagane certyfikaty z niemieckiego"
+  },
+  {
+   "url": "https://www.charite.de/en/teaching_learning/application_admission/medicine_dentistry_national/",
+   "note": "Charité: brak czesnego, opłaty za immatrykulację i rejestrację semestralną"
+  },
+  {
+   "url": "https://www.uni-assist.de/en/tools/check-university-admission/",
+   "note": "uni-assist: narzędzie sprawdzania uprawnień do studiów (baza DAAD i anabin)"
+  }
+ ]
+}

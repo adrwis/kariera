@@ -1,0 +1,626 @@
+{
+ "slug": "ateny",
+ "programPatches": [
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Ψυχολογία",
+   "set": {
+    "matura": "uznawana z warunkami: polska matura wchodzi przez osobną ścieżkę dla obywateli UE (kategoria B.1 ministerstwa edukacji). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w Polsce, świadectwo uprawnia do studiów w Polsce. Bez egzaminów wstępnych, ale przed zapisem trzeba mieć certyfikat greckiego.",
+    "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; terminy na 2027/28 nie są jeszcze opublikowane)"
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Ψυχολογία",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026, wyniki 28 sierpnia 2026, zapis osobiście lub pocztą w sekretariacie wydziału od 11 do 25 września 2026. Terminy na 2027/28 nie są jeszcze ogłoszone; w 2025 roku wniosek również składano w lipcu."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/?view=article&id=70243:01-07-26-ypobole-elektronikes-aiteses-mechanographikou-deltiou-gia-ten-eisagoge-allodapon-allogenon-sten-tritobathmia-ekpaideuse-gia-to-akademaiko-etos-2026-2027&catid=1456",
+   "quote": "από την Πέμπτη 2 Ιουλίου μέχρι και την Πέμπτη 9 Ιουλίου 2026"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Ψυχολογία",
+   "set": {
+    "notes": "Nabór 2026 dla obywateli UE (ministerstwo, wyniki w skali 0 do 20): Wszystkie 17 miejsc zostało zajętych, a najniższy wynik przyjętego kandydata to 18,187. Próg zmienia się co roku, więc jest tylko wskazówką. Program wymaga 240 ECTS, w tym praktyk (12 ECTS), a minimalny czas studiów to 8 semestrów (4 lata). Język wykładowy nie jest wprost podany na angielskiej stronie wydziału."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/%CE%91%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF_%CF%84%CE%BF%CF%85_%CE%92%CE%91%CE%A3%CE%95%CE%99%CE%A3_%CE%95%CE%A0%CE%99%CE%9B%CE%9F%CE%93%CE%97_%CE%91%CE%9B%CE%9B%CE%9F%CE%94%CE%91%CE%A0%CE%A9%CE%9D_-_%CE%91%CE%9B%CE%9B%CE%9F%CE%93%CE%95%CE%9D%CE%A9%CE%9D_%CE%95%CE%A5%CE%A1%CE%A9%CE%A0.%CE%95%CE%9D%CE%A9%CE%A3%CE%97%CE%A3_%CE%A0%CE%91%CE%9D%CE%95%CE%9B.2026.xls",
+   "quote": "ΨΥΧΟΛΟΓΙΑΣ (ΑΘΗΝΑ) - ΕΚΠΑ"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Ψυχολογία",
+   "set": {
+    "durationYears": 4
+   },
+   "sourceUrl": "https://en.psych.uoa.gr/fileadmin/depts/psych.uoa.gr/www/uploads/study/undergraduate/student_handbook/EKPA_Psych_StudyGuide_En.pdf",
+   "quote": "The minimum study duration is 8 semesters (4 academic years)."
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Πληροφορική και Τηλεπικοινωνίες",
+   "set": {
+    "matura": "uznawana z warunkami: polska matura wchodzi przez osobną ścieżkę dla obywateli UE (kategoria B.1 ministerstwa edukacji). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w Polsce, świadectwo uprawnia do studiów w Polsce. Bez egzaminów wstępnych, ale przed zapisem trzeba mieć certyfikat greckiego.",
+    "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; terminy na 2027/28 nie są jeszcze opublikowane)"
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Πληροφορική και Τηλεπικοινωνίες",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026, wyniki 28 sierpnia 2026, zapis osobiście lub pocztą w sekretariacie wydziału od 11 do 25 września 2026. Terminy na 2027/28 nie są jeszcze ogłoszone; w 2025 roku wniosek również składano w lipcu."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/?view=article&id=70243:01-07-26-ypobole-elektronikes-aiteses-mechanographikou-deltiou-gia-ten-eisagoge-allodapon-allogenon-sten-tritobathmia-ekpaideuse-gia-to-akademaiko-etos-2026-2027&catid=1456",
+   "quote": "από την Πέμπτη 2 Ιουλίου μέχρι και την Πέμπτη 9 Ιουλίου 2026"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Πληροφορική και Τηλεπικοινωνίες",
+   "set": {
+    "notes": "Nabór 2026 dla obywateli UE (ministerstwo, wyniki w skali 0 do 20): Wszystkie 21 miejsc zostało zajętych, a najniższy wynik przyjętego kandydata to 17,972. Próg zmienia się co roku, więc jest tylko wskazówką. Program daje 240 ECTS w 8 semestrach. Wydział pisze, że studia licencjackie są prowadzone po grecku, a większość informacji jest tylko po grecku."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/%CE%91%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF_%CF%84%CE%BF%CF%85_%CE%92%CE%91%CE%A3%CE%95%CE%99%CE%A3_%CE%95%CE%A0%CE%99%CE%9B%CE%9F%CE%93%CE%97_%CE%91%CE%9B%CE%9B%CE%9F%CE%94%CE%91%CE%A0%CE%A9%CE%9D_-_%CE%91%CE%9B%CE%9B%CE%9F%CE%93%CE%95%CE%9D%CE%A9%CE%9D_%CE%95%CE%A5%CE%A1%CE%A9%CE%A0.%CE%95%CE%9D%CE%A9%CE%A3%CE%97%CE%A3_%CE%A0%CE%91%CE%9D%CE%95%CE%9B.2026.xls",
+   "quote": "ΠΛΗΡΟΦΟΡΙΚΗΣ ΚΑΙ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ (ΑΘΗΝΑ)"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Πληροφορική και Τηλεπικοινωνίες",
+   "set": {
+    "durationYears": 4
+   },
+   "sourceUrl": "https://www.di.uoa.gr/en/studies/undergraduate/study-guide",
+   "quote": "implemented in 8 semesters"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Νομική",
+   "set": {
+    "matura": "uznawana z warunkami: polska matura wchodzi przez osobną ścieżkę dla obywateli UE (kategoria B.1 ministerstwa edukacji). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w Polsce, świadectwo uprawnia do studiów w Polsce. Bez egzaminów wstępnych, ale przed zapisem trzeba mieć certyfikat greckiego.",
+    "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; terminy na 2027/28 nie są jeszcze opublikowane)"
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Νομική",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026, wyniki 28 sierpnia 2026, zapis osobiście lub pocztą w sekretariacie wydziału od 11 do 25 września 2026. Terminy na 2027/28 nie są jeszcze ogłoszone; w 2025 roku wniosek również składano w lipcu."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/?view=article&id=70243:01-07-26-ypobole-elektronikes-aiteses-mechanographikou-deltiou-gia-ten-eisagoge-allodapon-allogenon-sten-tritobathmia-ekpaideuse-gia-to-akademaiko-etos-2026-2027&catid=1456",
+   "quote": "από την Πέμπτη 2 Ιουλίου μέχρι και την Πέμπτη 9 Ιουλίου 2026"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Νομική",
+   "set": {
+    "notes": "Nabór 2026 dla obywateli UE (ministerstwo, wyniki w skali 0 do 20): Wszystkie 40 miejsc zostało zajętych, a najniższy wynik przyjętego kandydata to 16,013. Próg zmienia się co roku, więc jest tylko wskazówką. Kierunek należy do oferty NKUA. Angielska strona Wydziału Prawa podaje 41 kursów do zaliczenia (31 obowiązkowych i 10 wybieralnych), ale nie podaje liczby semestrów. Portal Study in Greece podaje ogólnie, że większość kierunków licencjackich trwa 4 lata."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/%CE%91%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF_%CF%84%CE%BF%CF%85_%CE%92%CE%91%CE%A3%CE%95%CE%99%CE%A3_%CE%95%CE%A0%CE%99%CE%9B%CE%9F%CE%93%CE%97_%CE%91%CE%9B%CE%9B%CE%9F%CE%94%CE%91%CE%A0%CE%A9%CE%9D_-_%CE%91%CE%9B%CE%9B%CE%9F%CE%93%CE%95%CE%9D%CE%A9%CE%9D_%CE%95%CE%A5%CE%A1%CE%A9%CE%A0.%CE%95%CE%9D%CE%A9%CE%A3%CE%97%CE%A3_%CE%A0%CE%91%CE%9D%CE%95%CE%9B.2026.xls",
+   "quote": "ΝΟΜΙΚΗΣ (ΑΘΗΝΑ)"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Νομική",
+   "set": {
+    "durationYears": null
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "The duration of undergraduate programs for most disciplines is 4 years"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Οικονομικών Επιστημών",
+   "set": {
+    "matura": "uznawana z warunkami: polska matura wchodzi przez osobną ścieżkę dla obywateli UE (kategoria B.1 ministerstwa edukacji). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w Polsce, świadectwo uprawnia do studiów w Polsce. Bez egzaminów wstępnych, ale przed zapisem trzeba mieć certyfikat greckiego.",
+    "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; terminy na 2027/28 nie są jeszcze opublikowane)"
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Οικονομικών Επιστημών",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026, wyniki 28 sierpnia 2026, zapis osobiście lub pocztą w sekretariacie wydziału od 11 do 25 września 2026. Terminy na 2027/28 nie są jeszcze ogłoszone; w 2025 roku wniosek również składano w lipcu."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/?view=article&id=70243:01-07-26-ypobole-elektronikes-aiteses-mechanographikou-deltiou-gia-ten-eisagoge-allodapon-allogenon-sten-tritobathmia-ekpaideuse-gia-to-akademaiko-etos-2026-2027&catid=1456",
+   "quote": "από την Πέμπτη 2 Ιουλίου μέχρι και την Πέμπτη 9 Ιουλίου 2026"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Οικονομικών Επιστημών",
+   "set": {
+    "notes": "Nabór 2026 dla obywateli UE (ministerstwo, wyniki w skali 0 do 20): Zajęto 13 z 37 miejsc, a najniższy wynik przyjętego kandydata to 9,399. Próg zmienia się co roku, więc jest tylko wskazówką. Minimalny czas studiów to 8 semestrów (4 lata) według strony wydziału."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/%CE%91%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF_%CF%84%CE%BF%CF%85_%CE%92%CE%91%CE%A3%CE%95%CE%99%CE%A3_%CE%95%CE%A0%CE%99%CE%9B%CE%9F%CE%93%CE%97_%CE%91%CE%9B%CE%9B%CE%9F%CE%94%CE%91%CE%A0%CE%A9%CE%9D_-_%CE%91%CE%9B%CE%9B%CE%9F%CE%93%CE%95%CE%9D%CE%A9%CE%9D_%CE%95%CE%A5%CE%A1%CE%A9%CE%A0.%CE%95%CE%9D%CE%A9%CE%A3%CE%97%CE%A3_%CE%A0%CE%91%CE%9D%CE%95%CE%9B.2026.xls",
+   "quote": "ΟΙΚΟΝΟΜΙΚΩΝ ΕΠΙΣΤΗΜΩΝ (ΑΘΗΝΑ)"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Οικονομικών Επιστημών",
+   "set": {
+    "durationYears": 4
+   },
+   "sourceUrl": "https://en.econ.uoa.gr/studies/undergraduate_studies/information_for_prospective_students",
+   "quote": "The minimum duration of the undergraduate studies at the Department is 8 semesters."
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Επικοινωνίας και ΜΜΕ",
+   "set": {
+    "matura": "uznawana z warunkami: polska matura wchodzi przez osobną ścieżkę dla obywateli UE (kategoria B.1 ministerstwa edukacji). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w Polsce, świadectwo uprawnia do studiów w Polsce. Bez egzaminów wstępnych, ale przed zapisem trzeba mieć certyfikat greckiego.",
+    "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; terminy na 2027/28 nie są jeszcze opublikowane)"
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Επικοινωνίας και ΜΜΕ",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026, wyniki 28 sierpnia 2026, zapis osobiście lub pocztą w sekretariacie wydziału od 11 do 25 września 2026. Terminy na 2027/28 nie są jeszcze ogłoszone; w 2025 roku wniosek również składano w lipcu."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/?view=article&id=70243:01-07-26-ypobole-elektronikes-aiteses-mechanographikou-deltiou-gia-ten-eisagoge-allodapon-allogenon-sten-tritobathmia-ekpaideuse-gia-to-akademaiko-etos-2026-2027&catid=1456",
+   "quote": "από την Πέμπτη 2 Ιουλίου μέχρι και την Πέμπτη 9 Ιουλίου 2026"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Επικοινωνίας και ΜΜΕ",
+   "set": {
+    "notes": "Nabór 2026 dla obywateli UE (ministerstwo, wyniki w skali 0 do 20): Zajęto 6 z 15 miejsc, a najniższy wynik przyjętego kandydata to 9,693. Próg zmienia się co roku, więc jest tylko wskazówką. Wydział pisze, że kursy są adresowane głównie do studentów lokalnych, a niektóre są oferowane po angielsku. Strona wydziału nie podaje liczby semestrów. Portal Study in Greece podaje ogólnie, że większość kierunków licencjackich trwa 4 lata."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/%CE%91%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF_%CF%84%CE%BF%CF%85_%CE%92%CE%91%CE%A3%CE%95%CE%99%CE%A3_%CE%95%CE%A0%CE%99%CE%9B%CE%9F%CE%93%CE%97_%CE%91%CE%9B%CE%9B%CE%9F%CE%94%CE%91%CE%A0%CE%A9%CE%9D_-_%CE%91%CE%9B%CE%9B%CE%9F%CE%93%CE%95%CE%9D%CE%A9%CE%9D_%CE%95%CE%A5%CE%A1%CE%A9%CE%A0.%CE%95%CE%9D%CE%A9%CE%A3%CE%97%CE%A3_%CE%A0%CE%91%CE%9D%CE%95%CE%9B.2026.xls",
+   "quote": "ΕΠΙΚΟΙΝΩΝΙΑΣ ΚΑΙ ΜΕΣΩΝ ΜΑΖΙΚΗΣ ΕΝΗΜΕΡΩΣΗΣ (ΑΘΗΝΑ)"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Επικοινωνίας και ΜΜΕ",
+   "set": {
+    "durationYears": null
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "The duration of undergraduate programs for most disciplines is 4 years"
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Αρχιτεκτόνων Μηχανικών",
+   "set": {
+    "matura": "uznawana z warunkami: polska matura wchodzi przez osobną ścieżkę dla obywateli UE (kategoria B.1 ministerstwa edukacji). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w Polsce, świadectwo uprawnia do studiów w Polsce. Bez egzaminów wstępnych, ale przed zapisem trzeba mieć certyfikat greckiego.",
+    "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; terminy na 2027/28 nie są jeszcze opublikowane)"
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Αρχιτεκτόνων Μηχανικών",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026, wyniki 28 sierpnia 2026, zapis osobiście lub pocztą w sekretariacie wydziału od 11 do 25 września 2026. Terminy na 2027/28 nie są jeszcze ogłoszone; w 2025 roku wniosek również składano w lipcu."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/?view=article&id=70243:01-07-26-ypobole-elektronikes-aiteses-mechanographikou-deltiou-gia-ten-eisagoge-allodapon-allogenon-sten-tritobathmia-ekpaideuse-gia-to-akademaiko-etos-2026-2027&catid=1456",
+   "quote": "από την Πέμπτη 2 Ιουλίου μέχρι και την Πέμπτη 9 Ιουλίου 2026"
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Αρχιτεκτόνων Μηχανικών",
+   "set": {
+    "notes": "Nabór 2026 dla obywateli UE (ministerstwo, wyniki w skali 0 do 20): Wszystkie 10 miejsc zostało zajętych, a najniższy wynik przyjętego kandydata to 19,167. Próg zmienia się co roku, więc jest tylko wskazówką. NTUA podaje, że studia we wszystkich szkołach trwają dziesięć semestrów (ostatni to praca dyplomowa), po pięciu latach dyplom jednolity. Uczelnia pisze też, że programy są publikowane po grecku i po angielsku, co dotyczy opisu programu, a nie języka zajęć."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/%CE%91%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF_%CF%84%CE%BF%CF%85_%CE%92%CE%91%CE%A3%CE%95%CE%99%CE%A3_%CE%95%CE%A0%CE%99%CE%9B%CE%9F%CE%93%CE%97_%CE%91%CE%9B%CE%9B%CE%9F%CE%94%CE%91%CE%A0%CE%A9%CE%9D_-_%CE%91%CE%9B%CE%9B%CE%9F%CE%93%CE%95%CE%9D%CE%A9%CE%9D_%CE%95%CE%A5%CE%A1%CE%A9%CE%A0.%CE%95%CE%9D%CE%A9%CE%A3%CE%97%CE%A3_%CE%A0%CE%91%CE%9D%CE%95%CE%9B.2026.xls",
+   "quote": "ΑΡΧΙΤΕΚΤΟΝΩΝ ΜΗΧΑΝΙΚΩΝ (ΑΘΗΝΑ)"
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Πολιτικών Μηχανικών",
+   "set": {
+    "matura": "uznawana z warunkami: polska matura wchodzi przez osobną ścieżkę dla obywateli UE (kategoria B.1 ministerstwa edukacji). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w Polsce, świadectwo uprawnia do studiów w Polsce. Bez egzaminów wstępnych, ale przed zapisem trzeba mieć certyfikat greckiego.",
+    "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; terminy na 2027/28 nie są jeszcze opublikowane)"
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Πολιτικών Μηχανικών",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026, wyniki 28 sierpnia 2026, zapis osobiście lub pocztą w sekretariacie wydziału od 11 do 25 września 2026. Terminy na 2027/28 nie są jeszcze ogłoszone; w 2025 roku wniosek również składano w lipcu."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/?view=article&id=70243:01-07-26-ypobole-elektronikes-aiteses-mechanographikou-deltiou-gia-ten-eisagoge-allodapon-allogenon-sten-tritobathmia-ekpaideuse-gia-to-akademaiko-etos-2026-2027&catid=1456",
+   "quote": "από την Πέμπτη 2 Ιουλίου μέχρι και την Πέμπτη 9 Ιουλίου 2026"
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Πολιτικών Μηχανικών",
+   "set": {
+    "notes": "Nabór 2026 dla obywateli UE (ministerstwo, wyniki w skali 0 do 20): Wszystkie 13 miejsc zostało zajętych, a najniższy wynik przyjętego kandydata to 18,838. Próg zmienia się co roku, więc jest tylko wskazówką. NTUA podaje, że studia we wszystkich szkołach trwają dziesięć semestrów (ostatni to praca dyplomowa), po pięciu latach dyplom jednolity. Uczelnia pisze też, że programy są publikowane po grecku i po angielsku, co dotyczy opisu programu, a nie języka zajęć."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/%CE%91%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF_%CF%84%CE%BF%CF%85_%CE%92%CE%91%CE%A3%CE%95%CE%99%CE%A3_%CE%95%CE%A0%CE%99%CE%9B%CE%9F%CE%93%CE%97_%CE%91%CE%9B%CE%9B%CE%9F%CE%94%CE%91%CE%A0%CE%A9%CE%9D_-_%CE%91%CE%9B%CE%9B%CE%9F%CE%93%CE%95%CE%9D%CE%A9%CE%9D_%CE%95%CE%A5%CE%A1%CE%A9%CE%A0.%CE%95%CE%9D%CE%A9%CE%A3%CE%97%CE%A3_%CE%A0%CE%91%CE%9D%CE%95%CE%9B.2026.xls",
+   "quote": "ΠΟΛΙΤΙΚΩΝ ΜΗΧΑΝΙΚΩΝ (ΑΘΗΝΑ)"
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Μηχανολόγων Μηχανικών",
+   "set": {
+    "matura": "uznawana z warunkami: polska matura wchodzi przez osobną ścieżkę dla obywateli UE (kategoria B.1 ministerstwa edukacji). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w Polsce, świadectwo uprawnia do studiów w Polsce. Bez egzaminów wstępnych, ale przed zapisem trzeba mieć certyfikat greckiego.",
+    "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; terminy na 2027/28 nie są jeszcze opublikowane)"
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Μηχανολόγων Μηχανικών",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026, wyniki 28 sierpnia 2026, zapis osobiście lub pocztą w sekretariacie wydziału od 11 do 25 września 2026. Terminy na 2027/28 nie są jeszcze ogłoszone; w 2025 roku wniosek również składano w lipcu."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/?view=article&id=70243:01-07-26-ypobole-elektronikes-aiteses-mechanographikou-deltiou-gia-ten-eisagoge-allodapon-allogenon-sten-tritobathmia-ekpaideuse-gia-to-akademaiko-etos-2026-2027&catid=1456",
+   "quote": "από την Πέμπτη 2 Ιουλίου μέχρι και την Πέμπτη 9 Ιουλίου 2026"
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Μηχανολόγων Μηχανικών",
+   "set": {
+    "notes": "Nabór 2026 dla obywateli UE (ministerstwo, wyniki w skali 0 do 20): Wszystkie 13 miejsc zostało zajętych, a najniższy wynik przyjętego kandydata to 19,238. Próg zmienia się co roku, więc jest tylko wskazówką. NTUA podaje, że studia we wszystkich szkołach trwają dziesięć semestrów (ostatni to praca dyplomowa), po pięciu latach dyplom jednolity. Uczelnia pisze też, że programy są publikowane po grecku i po angielsku, co dotyczy opisu programu, a nie języka zajęć."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/%CE%91%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF_%CF%84%CE%BF%CF%85_%CE%92%CE%91%CE%A3%CE%95%CE%99%CE%A3_%CE%95%CE%A0%CE%99%CE%9B%CE%9F%CE%93%CE%97_%CE%91%CE%9B%CE%9B%CE%9F%CE%94%CE%91%CE%A0%CE%A9%CE%9D_-_%CE%91%CE%9B%CE%9B%CE%9F%CE%93%CE%95%CE%9D%CE%A9%CE%9D_%CE%95%CE%A5%CE%A1%CE%A9%CE%A0.%CE%95%CE%9D%CE%A9%CE%A3%CE%97%CE%A3_%CE%A0%CE%91%CE%9D%CE%95%CE%9B.2026.xls",
+   "quote": "ΜΗΧΑΝΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ (ΑΘΗΝΑ)"
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών",
+   "set": {
+    "matura": "uznawana z warunkami: polska matura wchodzi przez osobną ścieżkę dla obywateli UE (kategoria B.1 ministerstwa edukacji). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w Polsce, świadectwo uprawnia do studiów w Polsce. Bez egzaminów wstępnych, ale przed zapisem trzeba mieć certyfikat greckiego.",
+    "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; terminy na 2027/28 nie są jeszcze opublikowane)"
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026, wyniki 28 sierpnia 2026, zapis osobiście lub pocztą w sekretariacie wydziału od 11 do 25 września 2026. Terminy na 2027/28 nie są jeszcze ogłoszone; w 2025 roku wniosek również składano w lipcu."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/?view=article&id=70243:01-07-26-ypobole-elektronikes-aiteses-mechanographikou-deltiou-gia-ten-eisagoge-allodapon-allogenon-sten-tritobathmia-ekpaideuse-gia-to-akademaiko-etos-2026-2027&catid=1456",
+   "quote": "από την Πέμπτη 2 Ιουλίου μέχρι και την Πέμπτη 9 Ιουλίου 2026"
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών",
+   "set": {
+    "notes": "Nabór 2026 dla obywateli UE (ministerstwo, wyniki w skali 0 do 20): Wszystkie 26 miejsc zostało zajętych, a najniższy wynik przyjętego kandydata to 19,220. Próg zmienia się co roku, więc jest tylko wskazówką. NTUA podaje, że studia we wszystkich szkołach trwają dziesięć semestrów (ostatni to praca dyplomowa), po pięciu latach dyplom jednolity. Uczelnia pisze też, że programy są publikowane po grecku i po angielsku, co dotyczy opisu programu, a nie języka zajęć."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/%CE%91%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF_%CF%84%CE%BF%CF%85_%CE%92%CE%91%CE%A3%CE%95%CE%99%CE%A3_%CE%95%CE%A0%CE%99%CE%9B%CE%9F%CE%93%CE%97_%CE%91%CE%9B%CE%9B%CE%9F%CE%94%CE%91%CE%A0%CE%A9%CE%9D_-_%CE%91%CE%9B%CE%9B%CE%9F%CE%93%CE%95%CE%9D%CE%A9%CE%9D_%CE%95%CE%A5%CE%A1%CE%A9%CE%A0.%CE%95%CE%9D%CE%A9%CE%A3%CE%97%CE%A3_%CE%A0%CE%91%CE%9D%CE%95%CE%9B.2026.xls",
+   "quote": "ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ ΜΗΧΑΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ (ΑΘΗΝΑ)"
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Πληροφορικής",
+   "set": {
+    "matura": "uznawana z warunkami: polska matura wchodzi przez osobną ścieżkę dla obywateli UE (kategoria B.1 ministerstwa edukacji). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w Polsce, świadectwo uprawnia do studiów w Polsce. Bez egzaminów wstępnych, ale przed zapisem trzeba mieć certyfikat greckiego.",
+    "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; terminy na 2027/28 nie są jeszcze opublikowane)"
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Πληροφορικής",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026, wyniki 28 sierpnia 2026, zapis osobiście lub pocztą w sekretariacie wydziału od 11 do 25 września 2026. Terminy na 2027/28 nie są jeszcze ogłoszone; w 2025 roku wniosek również składano w lipcu."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/?view=article&id=70243:01-07-26-ypobole-elektronikes-aiteses-mechanographikou-deltiou-gia-ten-eisagoge-allodapon-allogenon-sten-tritobathmia-ekpaideuse-gia-to-akademaiko-etos-2026-2027&catid=1456",
+   "quote": "από την Πέμπτη 2 Ιουλίου μέχρι και την Πέμπτη 9 Ιουλίου 2026"
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Πληροφορικής",
+   "set": {
+    "notes": "Nabór 2026 dla obywateli UE (ministerstwo, wyniki w skali 0 do 20): Wszystkie 23 miejsc zostało zajętych, a najniższy wynik przyjętego kandydata to 17,656. Próg zmienia się co roku, więc jest tylko wskazówką. Normalny czas studiów to 8 semestrów (4 lata) według strony Wydziału Informatyki AUEB."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/%CE%91%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF_%CF%84%CE%BF%CF%85_%CE%92%CE%91%CE%A3%CE%95%CE%99%CE%A3_%CE%95%CE%A0%CE%99%CE%9B%CE%9F%CE%93%CE%97_%CE%91%CE%9B%CE%9B%CE%9F%CE%94%CE%91%CE%A0%CE%A9%CE%9D_-_%CE%91%CE%9B%CE%9B%CE%9F%CE%93%CE%95%CE%9D%CE%A9%CE%9D_%CE%95%CE%A5%CE%A1%CE%A9%CE%A0.%CE%95%CE%9D%CE%A9%CE%A3%CE%97%CE%A3_%CE%A0%CE%91%CE%9D%CE%95%CE%9B.2026.xls",
+   "quote": "ΠΛΗΡΟΦΟΡΙΚΗΣ (ΑΘΗΝΑ)"
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Πληροφορικής",
+   "set": {
+    "durationYears": 4
+   },
+   "sourceUrl": "https://www.dept.aueb.gr/en/undergraduate-studies",
+   "quote": "The normal duration of studies is 8 semesters"
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Οικονομικών Επιστημών",
+   "set": {
+    "matura": "uznawana z warunkami: polska matura wchodzi przez osobną ścieżkę dla obywateli UE (kategoria B.1 ministerstwa edukacji). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w Polsce, świadectwo uprawnia do studiów w Polsce. Bez egzaminów wstępnych, ale przed zapisem trzeba mieć certyfikat greckiego.",
+    "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; terminy na 2027/28 nie są jeszcze opublikowane)"
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Οικονομικών Επιστημών",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026, wyniki 28 sierpnia 2026, zapis osobiście lub pocztą w sekretariacie wydziału od 11 do 25 września 2026. Terminy na 2027/28 nie są jeszcze ogłoszone; w 2025 roku wniosek również składano w lipcu."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/?view=article&id=70243:01-07-26-ypobole-elektronikes-aiteses-mechanographikou-deltiou-gia-ten-eisagoge-allodapon-allogenon-sten-tritobathmia-ekpaideuse-gia-to-akademaiko-etos-2026-2027&catid=1456",
+   "quote": "από την Πέμπτη 2 Ιουλίου μέχρι και την Πέμπτη 9 Ιουλίου 2026"
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Οικονομικών Επιστημών",
+   "set": {
+    "notes": "Nabór 2026 dla obywateli UE (ministerstwo, wyniki w skali 0 do 20): Wszystkie 24 miejsc zostało zajętych, a najniższy wynik przyjętego kandydata to 14,253. Próg zmienia się co roku, więc jest tylko wskazówką. Studia trwają cztery lata (osiem semestrów) i dają 240 ECTS według przewodnika studiów wydziału (edycja 2023/24)."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/%CE%91%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF_%CF%84%CE%BF%CF%85_%CE%92%CE%91%CE%A3%CE%95%CE%99%CE%A3_%CE%95%CE%A0%CE%99%CE%9B%CE%9F%CE%93%CE%97_%CE%91%CE%9B%CE%9B%CE%9F%CE%94%CE%91%CE%A0%CE%A9%CE%9D_-_%CE%91%CE%9B%CE%9B%CE%9F%CE%93%CE%95%CE%9D%CE%A9%CE%9D_%CE%95%CE%A5%CE%A1%CE%A9%CE%A0.%CE%95%CE%9D%CE%A9%CE%A3%CE%97%CE%A3_%CE%A0%CE%91%CE%9D%CE%95%CE%9B.2026.xls",
+   "quote": "ΟΙΚΟΝΟΜΙΚΗΣ ΕΠΙΣΤΗΜΗΣ (ΑΘΗΝΑ)"
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Οικονομικών Επιστημών",
+   "set": {
+    "durationYears": 4
+   },
+   "sourceUrl": "https://www.dept.aueb.gr/sites/default/files/econ/Study%20Guide%202023-24.pdf",
+   "quote": "The duration of undergraduate studies is four years (eight semesters)."
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Διοίκησης Επιχειρήσεων",
+   "set": {
+    "matura": "uznawana z warunkami: polska matura wchodzi przez osobną ścieżkę dla obywateli UE (kategoria B.1 ministerstwa edukacji). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w Polsce, świadectwo uprawnia do studiów w Polsce. Bez egzaminów wstępnych, ale przed zapisem trzeba mieć certyfikat greckiego.",
+    "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; terminy na 2027/28 nie są jeszcze opublikowane)"
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Διοίκησης Επιχειρήσεων",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026, wyniki 28 sierpnia 2026, zapis osobiście lub pocztą w sekretariacie wydziału od 11 do 25 września 2026. Terminy na 2027/28 nie są jeszcze ogłoszone; w 2025 roku wniosek również składano w lipcu."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/?view=article&id=70243:01-07-26-ypobole-elektronikes-aiteses-mechanographikou-deltiou-gia-ten-eisagoge-allodapon-allogenon-sten-tritobathmia-ekpaideuse-gia-to-akademaiko-etos-2026-2027&catid=1456",
+   "quote": "από την Πέμπτη 2 Ιουλίου μέχρι και την Πέμπτη 9 Ιουλίου 2026"
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Διοίκησης Επιχειρήσεων",
+   "set": {
+    "notes": "Nabór 2026 dla obywateli UE (ministerstwo, wyniki w skali 0 do 20): Wszystkie 25 miejsc zostało zajętych, a najniższy wynik przyjętego kandydata to 16,087. Próg zmienia się co roku, więc jest tylko wskazówką. W wykazie ministerstwa ten wydział występuje pod nazwą Organizacji i Zarządzania Przedsiębiorstwami. Strona wydziału nie podaje liczby semestrów. Portal Study in Greece podaje ogólnie, że większość kierunków licencjackich trwa 4 lata."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/%CE%91%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF_%CF%84%CE%BF%CF%85_%CE%92%CE%91%CE%A3%CE%95%CE%99%CE%A3_%CE%95%CE%A0%CE%99%CE%9B%CE%9F%CE%93%CE%97_%CE%91%CE%9B%CE%9B%CE%9F%CE%94%CE%91%CE%A0%CE%A9%CE%9D_-_%CE%91%CE%9B%CE%9B%CE%9F%CE%93%CE%95%CE%9D%CE%A9%CE%9D_%CE%95%CE%A5%CE%A1%CE%A9%CE%A0.%CE%95%CE%9D%CE%A9%CE%A3%CE%97%CE%A3_%CE%A0%CE%91%CE%9D%CE%95%CE%9B.2026.xls",
+   "quote": "ΟΡΓΑΝΩΣΗΣ ΚΑΙ ΔΙΟΙΚΗΣΗΣ ΕΠΙΧΕΙΡΗΣΕΩΝ (ΑΘΗΝΑ)"
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Διοίκησης Επιχειρήσεων",
+   "set": {
+    "durationYears": null
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "The duration of undergraduate programs for most disciplines is 4 years"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Αρχαιολογία, Ιστορία και Λογοτεχνία της Αρχαίας Ελλάδας (BAAG)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię: uczelnia wymaga świadectwa ukończenia liceum (Senior High School Graduation Certificate) lub IB, z orientacyjną średnią 70% lub równoważną. Polskiej matury z nazwy strona nie wymienia i nie podaje sposobu przeliczenia ocen, więc trzeba zapytać biuro przyjęć (admissions@baag.uoa.gr). Program jest otwarty dla kandydatów międzynarodowych i prowadzony w całości po angielsku.",
+    "notes": "Kierunek humanistyczny, niezwiązany z zawodami opisanymi na stronie NextMove, dodany informacyjnie. Komunikat uczelni z 2020 roku mówił, że program jest tylko dla kandydatów spoza UE. Obecna strona mówi o kandydatach międzynarodowych i wprost o paszportach krajów UE (bez wizy), więc obywatele UE są przyjmowani, ale limitu miejsc nie podano."
+   },
+   "sourceUrl": "https://baag.uoa.gr/admission-fees/",
+   "quote": "International Baccalaureate or Senior High School Graduation Certificate (indicative average grade: 70% or equivalent)"
+  },
+  {
+   "university": "Πανεπιστήμιο Δυτικής Αττικής (University of West Attica, UNIWA)",
+   "programName": "Τεχνητή Νοημοσύνη και Επιστήμη Δεδομένων",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię: przy rejestracji po przyjęciu trzeba złożyć dyplom ukończenia szkoły średniej (oryginał i tłumaczenie na angielski) oraz oceny ze wszystkich przedmiotów ostatniej klasy. Polska matura nie jest wymieniona z nazwy. Kandydaci są wybierani według kryteriów z protokołu współpracy programu, ich treści strona nie podaje.",
+    "requirements": "Dowód osobisty lub paszport, wiza studencka (jeśli wymagana dla kraju kandydata), dyplom ukończenia szkoły średniej i oceny z ostatniej klasy (oryginał i tłumaczenie na angielski), jedno zdjęcie. Dokumenty składa się w elektronicznej platformie uczelni po przyjęciu, a terminy ogłasza co roku sekretariat programu. Liczba miejsc nie jest podana."
+   },
+   "sourceUrl": "https://aidasc.uniwa.gr/admissions/",
+   "quote": "Secondary school (High-school) diploma (original and translation to English)"
+  },
+  {
+   "university": "Πανεπιστήμιο Δυτικής Αττικής (University of West Attica, UNIWA)",
+   "programName": "Τεχνητή Νοημοσύνη και Επιστήμη Δεδομένων",
+   "set": {
+    "languageProof": "Certyfikat angielskiego na poziomie B2 lub TOEFL z wynikiem co najmniej 79 z 120."
+   },
+   "sourceUrl": "https://aidasc.uniwa.gr/admissions/",
+   "quote": "Certificate of English Language Proficiency at B2 or TOEFL level (with a minimum score of 79/120)"
+  },
+  {
+   "university": "Πανεπιστήμιο Δυτικής Αττικής (University of West Attica, UNIWA)",
+   "programName": "Τεχνητή Νοημοσύνη και Επιστήμη Δεδομένων",
+   "set": {
+    "deadline": "Nabór ciągły, wnioski przyjmowane przez cały rok (strona programu). Portal Study in Greece pokazuje obecnie brak otwartego naboru, więc termin najbliższego startu trzeba potwierdzić mailem (aidasc@uniwa.gr).",
+    "academicYear": "2026/27 (nabór ciągły według strony programu; 2027/28 nie ogłoszony)",
+    "notes": "Program prowadzi Wydział Informatyki i Inżynierii Komputerowej Uniwersytetu Zachodniej Attyki: 4 lata (8 semestrów), 240 ECTS, stacjonarny, wykłady po angielsku. Czesne 6 000 EUR rocznie jest takie samo dla wszystkich kandydatów. Kontakt: aidasc@uniwa.gr."
+   },
+   "sourceUrl": "https://aidasc.uniwa.gr/",
+   "quote": "Admissions : Rolling admissions (applications accepted throughout the year)"
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Διεθνής Επιχειρηματικότητα και Τεχνολογία (IBT)",
+   "set": {
+    "deadline": "Strona programu i FAQ: nabór ciągły przez cały rok, zachęta do wczesnego składania wniosków (miejsca ograniczone). Portal Study in Greece pokazuje obecnie brak otwartego naboru, więc przed złożeniem wniosku trzeba potwierdzić termin mailem (ibt@aueb.gr).",
+    "notes": "Dwa źródła uczelni różnią się co do naboru: strona programu mówi o naborze ciągłym, a portal Study in Greece o braku otwartego naboru. Termin na 2027/28 trzeba potwierdzić mailem na ibt@aueb.gr. Liczba miejsc nie jest podana na stronach programu."
+   },
+   "sourceUrl": "https://ibt.aueb.gr/faq/",
+   "quote": "Applications are ongoing throughout the year."
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "universityUrl": "https://en.uoa.gr",
+   "universityType": "uniwersytet",
+   "program": {
+    "name": "Φαρμακευτική (Integrated Master in Pharmacy)",
+    "nameEn": "Integrated Master in Pharmacy",
+    "careerIds": [],
+    "level": "jednolite",
+    "durationYears": 5,
+    "languages": [
+     "angielski"
+    ],
+    "english": true,
+    "academicYear": "2026/27 (nabór ciągły; termin na 2027/28 nie ogłoszony)",
+    "tuitionEu": "9 000 EUR rocznie (rok akademicki 2026/27, tak samo dla obywateli UE i spoza UE). Po przyjęciu bezzwrotna zaliczka 3 000 EUR, odliczana od czesnego za pierwszy rok; reszta 6 000 EUR w dwóch ratach (początek września i połowa stycznia). W kolejnych latach dwie raty po 4 500 EUR.",
+    "tuitionNonEu": "9 000 EUR rocznie (strona podaje jedną kwotę dla obywateli UE i spoza UE)",
+    "tuitionUrl": "https://mpharmnkua.uoa.gr/tuition-fees/",
+    "matura": "wymaga potwierdzenia przez uczelnię: program jest przeznaczony wyłącznie dla cudzoziemców, którzy dwie ostatnie klasy liceum ukończyli za granicą i mają świadectwo uprawniające do studiów w kraju ukończenia szkoły. Polska matura nie jest wymieniona z nazwy; strona podaje oferty dla IB (co najmniej 36 punktów, w tym trzy przedmioty rozszerzone, dwa z fizyki, chemii i biologii), matury francuskiej (15 z 20), A-levels (AAB z chemii, biologii i fizyki), AP (wynik co najmniej 4 z biologii, chemii i fizyki) oraz licencjatu pokrewnego farmacji (65%).",
+    "requirements": "Świadectwo ukończenia liceum i wykazy ocen z dwóch ostatnich lat (oryginał i tłumaczenie na angielski), dokument tożsamości, krótkie CV, list motywacyjny; listy referencyjne opcjonalne. Dokumenty z apostille. Od kandydatów oczekuje się wysokich ocen na świadectwie.",
+    "languageProof": "TOEFL co najmniej 80 z 120, IELTS co najmniej 6,5 (nie mniej niż 5,5 w każdej części) lub FCE B2. Native speakerzy i absolwenci liceów z angielskim językiem wykładowym są zwolnieni.",
+    "selective": true,
+    "admissionUrl": "https://mpharmnkua.uoa.gr/admission-requirements/",
+    "deadline": "Przyjęcia trwają w trybie ciągłym (strona programu), z zachętą do jak najwcześniejszego złożenia wniosku. Termin na 2027/28 do potwierdzenia mailem (mpharm@pharm.uoa.gr).",
+    "applyUrl": "https://mpharmnkua.uoa.gr/application-process/",
+    "url": "https://mpharmnkua.uoa.gr/",
+    "notes": "Program Wydziału Farmacji NKUA, prowadzony w całości po angielsku: 10 semestrów, 300 ECTS (portal Study in Greece nazywa go Integrated Master in Pharmacy). Jest to program jednolity łączący studia licencjackie i magisterskie."
+   },
+   "sourceUrl": "https://mpharmnkua.uoa.gr/tuition-fees/",
+   "quote": "Tuition fees for the academic year 2026-2027 for EU and non-EU citizens are 9,000"
+  },
+  {
+   "university": "Πανεπιστήμιο Δυτικής Αττικής (University of West Attica, UNIWA)",
+   "universityUrl": "https://apply.studyingreece.edu.gr/en/universities/17/details/university-of-west-attica",
+   "universityType": "uniwersytet",
+   "program": {
+    "name": "BA in Applied Philosophy in Business Decision Making",
+    "nameEn": "BA in Applied Philosophy in Business Decision Making",
+    "careerIds": [],
+    "level": "licencjat",
+    "durationYears": 4,
+    "languages": [
+     "angielski"
+    ],
+    "english": true,
+    "academicYear": "2026/27 (strona programu informuje o otwartym naborze; termin na 2027/28 nie ogłoszony)",
+    "tuitionEu": "6 000 EUR rocznie, płatne w dwóch równych ratach w roku akademickim (obywatele UE i spoza UE tak samo).",
+    "tuitionNonEu": "6 000 EUR rocznie (strona podaje jedną kwotę dla wszystkich)",
+    "tuitionUrl": "https://philosophy-business.uniwa.gr/admissions/",
+    "matura": "wymaga potwierdzenia przez uczelnię: strona programu opisuje procedurę zgłoszenia w infografice i formularzu, bez listy akceptowanych świadectw. Polska matura nie jest wymieniona z nazwy, więc trzeba zapytać mailem (admissions-philosophy-business@uniwa.gr).",
+    "requirements": "Warunki przyjęcia i lista dokumentów są w infografice i formularzu na stronie programu; strona nie podaje liczby miejsc ani progów.",
+    "languageProof": "Wykłady po angielsku; wymagany poziom angielskiego nie jest podany na stronie programu. Strona wspomina o wsparciu w nauce angielskiego dla osób, które nie mówią płynnie.",
+    "selective": null,
+    "admissionUrl": "https://philosophy-business.uniwa.gr/admissions/",
+    "deadline": "Strona programu zawiera komunikat o otwartym naborze (Call for Applications Open) bez konkretnej daty. Termin na 2027/28 do potwierdzenia mailem (admissions-philosophy-business@uniwa.gr).",
+    "applyUrl": "https://philosophy-business.uniwa.gr/admissions/",
+    "url": "https://philosophy-business.uniwa.gr/",
+    "notes": "Program Wydziału Zarządzania Przedsiębiorstwami (Department of Business Administration) UNIWA: 4 lata (8 semestrów), 240 ECTS, stacjonarny, po angielsku. Łączy filozofię z naukami o zarządzaniu."
+   },
+   "sourceUrl": "https://philosophy-business.uniwa.gr/admissions/",
+   "quote": "All EU/non-EU students pay international tuition fees which are set at 6,000"
+  }
+ ],
+ "summaryPatches": [
+  {
+   "label": "Opłaty",
+   "text": "Studia licencjackie po grecku w publicznych uczelniach są bezpłatne (portal Study in Greece). Programy po angielsku są płatne tak samo dla obywateli UE i spoza UE: 6 000 EUR rocznie (AUEB IBT, NKUA BAAG, UNIWA sztuczna inteligencja i UNIWA filozofia stosowana), 9 000 EUR rocznie (farmacja w NKUA) i 17 000 EUR rocznie (medycyna po angielsku w NKUA). Strony uczelni nie podają dodatkowych opłat obowiązkowych poza czesnym.",
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "Greek-taught undergraduate programs are offered for free."
+  },
+  {
+   "label": "Znajomość języka",
+   "text": "Na studia po grecku potrzebny jest certyfikat greckiego jeszcze przed zapisem: egzamin Uniwersytetu Ateńskiego (w Atenach około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu zapis jest możliwy dopiero rok później i tylko pod warunkiem zdobycia certyfikatu do tego czasu. Programy po angielsku wymagają certyfikatu angielskiego: B2 w AUEB IBT, B2 lub TOEFL 79 w UNIWA sztucznej inteligencji, TOEFL 88 lub IELTS 6,5 w BAAG, TOEFL 80 lub IELTS 6,5 w farmacji i TOEFL 80 lub IELTS 7,5 w medycynie.",
+   "sourceUrl": "https://aidasc.uniwa.gr/admissions/",
+   "quote": "Certificate of English Language Proficiency at B2 or TOEFL level (with a minimum score of 79/120)"
+  },
+  {
+   "label": "Znajomość angielskiego",
+   "text": "Na portalu Study in Greece jest 16 licencjatów po angielsku w całej Grecji. W Atenach opisaliśmy sześć: AUEB International Business and Technology, NKUA BAAG, NKUA medycyna po angielsku, NKUA farmacja (Integrated Master in Pharmacy, program jednolity), UNIWA sztuczna inteligencja i nauka o danych oraz UNIWA filozofia stosowana w zarządzaniu (Applied Philosophy in Business Decision Making). NTUA nie ma licencjatu po angielsku na tej liście.",
+   "sourceUrl": "https://apply.studyingreece.edu.gr/en/universities/17/details/university-of-west-attica",
+   "quote": "BA in Applied Philosophy in Business Decision Making"
+  },
+  {
+   "label": "Rekrutacja",
+   "text": "Ścieżka dla cudzoziemców z UE, rekrutacja 2026/27: wniosek elektroniczny od 2 do 9 lipca 2026, wyniki 28 sierpnia 2026, zapis w sekretariacie wydziału od 11 do 25 września 2026. Terminów na 2027/28 jeszcze nie ogłoszono; w 2025 roku wniosek również składano w lipcu. Ministerstwo publikuje po naborze wyniki ostatnich przyjętych kandydatów w skali 0 do 20: w 2026 roku od 14,253 (AUEB ekonomia) do 19,238 (NTUA mechanika), a w NKUA 16,013 (prawo), 17,972 (informatyka) i 18,187 (psychologia). Na ekonomię w NKUA i komunikację zajęto tylko część miejsc. Programy po angielsku mają własne terminy: AUEB IBT, UNIWA sztuczna inteligencja i farmacja NKUA przyjmują kandydatów w trybie ciągłym, NKUA BAAG miała termin 1 sierpnia 2026, a medycyna po angielsku od 18 grudnia 2025 do 30 kwietnia 2026.",
+   "sourceUrl": "https://www.minedu.gov.gr/?view=article&id=70726:28-08-apotelesmata-eisagogis-allodapon-allogenon-stin-tritovathmia-ekpaidefsi-2026&catid=1183",
+   "quote": "Οι βάσεις εισαγωγής των"
+  }
+ ],
+ "gapsSet": [
+  "Terminy naboru na 2027/28 nie są jeszcze ogłoszone. Ministerstwo podaje je osobnym komunikatem na minedu.gov.gr, w 2025 i 2026 roku nabór przypadał na lipiec.",
+  "Podane wyniki ostatnich przyjętych kandydatów (ze skali 0 do 20) pochodzą z naboru 2026 i zmieniają się co roku. Greckie ministerstwo nie publikuje przelicznika polskiej matury na tę skalę; zaświadczenie o równoważności wystawia ministerstwo lub koordynator edukacji przy ambasadzie Grecji w Warszawie.",
+  "Liczby semestrów nie podano na stronach wydziałów prawa i komunikacji w NKUA, wydziału zarządzania w AUEB oraz w NTUA poza ogólną informacją o dziesięciu semestrach. Przy tych kierunkach czas trwania zostawiono pusty, a portal Study in Greece pisze ogólnie, że większość kierunków trwa 4 lata.",
+  "Medycyna po angielsku w NKUA: polska matura nie jest wymieniona wśród akceptowanych kwalifikacji, trzeba zapytać biuro przyjęć (md.admissions@uoa.gr), czy przyjmą maturę z wynikiem UCAT lub MCAT. Medycyna po grecku (17 miejsc, ostatni przyjęty w 2026 roku miał 19,575) nie jest opisana jako osobny kierunek. Nabór na 2027/28 nie jest opublikowany.",
+  "UNIWA sztuczna inteligencja i nauka o danych: strona programu nie podaje kryteriów wyboru kandydatów ani liczby miejsc. Portal Study in Greece pokazuje brak otwartego naboru. UNIWA filozofia stosowana w zarządzaniu: strona nie podaje wymaganego poziomu angielskiego ani listy akceptowanych świadectw.",
+  "AUEB IBT: strona programu mówi o naborze ciągłym, a portal Study in Greece o braku otwartego naboru. Termin i liczbę miejsc na 2027/28 trzeba potwierdzić mailem (ibt@aueb.gr). Polska matura nie jest wymieniona z nazwy w warunkach programu.",
+  "Architektura, budownictwo i mechanika są tylko po grecku, bo na portalu Study in Greece nie ma w Atenach licencjatów po angielsku z tych dziedzin. Uczelnie Panteion i Harokopio oraz studia magisterskie po angielsku nie zostały opisane.",
+  "Strony uczelni nie podają dodatkowych opłat obowiązkowych dla ścieżki dla cudzoziemców poza ogólną informacją portalu Study in Greece, że studia licencjackie po grecku są bezpłatne."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://www.minedu.gov.gr/?view=article&id=70726:28-08-apotelesmata-eisagogis-allodapon-allogenon-stin-tritovathmia-ekpaidefsi-2026&catid=1183",
+   "note": "Ministerstwo edukacji Grecji: wyniki naboru 2026 dla cudzoziemców i obywateli UE (z tabelą ostatnich przyjętych wyników)."
+  },
+  {
+   "url": "https://www.minedu.gov.gr/publications/docs2026/%CE%91%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF_%CF%84%CE%BF%CF%85_%CE%92%CE%91%CE%A3%CE%95%CE%99%CE%A3_%CE%95%CE%A0%CE%99%CE%9B%CE%9F%CE%93%CE%97_%CE%91%CE%9B%CE%9B%CE%9F%CE%94%CE%91%CE%A0%CE%A9%CE%9D_-_%CE%91%CE%9B%CE%9B%CE%9F%CE%93%CE%95%CE%9D%CE%A9%CE%9D_%CE%95%CE%A5%CE%A1%CE%A9%CE%A0.%CE%95%CE%9D%CE%A9%CE%A3%CE%97%CE%A3_%CE%A0%CE%91%CE%9D%CE%95%CE%9B.2026.xls",
+   "note": "Ministerstwo edukacji Grecji: tabela miejsc i wyników ostatnich przyjętych kandydatów z UE w 2026 roku."
+  },
+  {
+   "url": "https://www.minedu.gov.gr/?view=article&id=70243:01-07-26-ypobole-elektronikes-aiteses-mechanographikou-deltiou-gia-ten-eisagoge-allodapon-allogenon-sten-tritobathmia-ekpaideuse-gia-to-akademaiko-etos-2026-2027&catid=1456",
+   "note": "Ministerstwo edukacji Grecji: ogłoszenie o terminie wniosku 2 do 9 lipca 2026."
+  },
+  {
+   "url": "https://www.minedu.gov.gr/?view=article&id=70816:11-09-26-engraphes-epitychonton-allodapon-allogenon-sten-tritobathmia-ekpaideuse-etous-2026&catid=1183",
+   "note": "Ministerstwo edukacji Grecji: terminy zapisów przyjętych cudzoziemców, 11 do 25 września 2026."
+  },
+  {
+   "url": "https://studyingreece.edu.gr/bachelors/",
+   "note": "Portal Study in Greece: terminy wniosku elektronicznego 2026/27, bezpłatne studia po grecku, ogólny czas trwania studiów."
+  },
+  {
+   "url": "https://aidasc.uniwa.gr/admissions/",
+   "note": "UNIWA sztuczna inteligencja i nauka o danych: dokumenty i wymagany angielski."
+  },
+  {
+   "url": "https://mpharmnkua.uoa.gr/admission-requirements/",
+   "note": "NKUA farmacja po angielsku: warunki przyjęcia i wymagany angielski."
+  },
+  {
+   "url": "https://mpharmnkua.uoa.gr/tuition-fees/",
+   "note": "NKUA farmacja po angielsku: czesne 9 000 EUR i zaliczka."
+  },
+  {
+   "url": "https://philosophy-business.uniwa.gr/admissions/",
+   "note": "UNIWA filozofia stosowana w zarządzaniu: czesne i procedura zgłoszenia."
+  },
+  {
+   "url": "https://www.di.uoa.gr/en/studies/undergraduate/study-guide",
+   "note": "NKUA informatyka: przewodnik studiów (8 semestrów, 240 ECTS)."
+  },
+  {
+   "url": "https://en.econ.uoa.gr/studies/undergraduate_studies/information_for_prospective_students",
+   "note": "NKUA ekonomia: informacje dla kandydatów (minimum 8 semestrów)."
+  },
+  {
+   "url": "https://en.psych.uoa.gr/fileadmin/depts/psych.uoa.gr/www/uploads/study/undergraduate/student_handbook/EKPA_Psych_StudyGuide_En.pdf",
+   "note": "NKUA psychologia: przewodnik studiów (8 semestrów)."
+  },
+  {
+   "url": "https://www.dept.aueb.gr/en/undergraduate-studies",
+   "note": "AUEB informatyka: informacje o studiach (8 semestrów)."
+  },
+  {
+   "url": "https://www.dept.aueb.gr/sites/default/files/econ/Study%20Guide%202023-24.pdf",
+   "note": "AUEB ekonomia: przewodnik studiów 2023/24 (cztery lata)."
+  },
+  {
+   "url": "https://ibt.aueb.gr/faq/",
+   "note": "AUEB IBT: komu adresowany jest program, nabór ciągły."
+  }
+ ]
+}

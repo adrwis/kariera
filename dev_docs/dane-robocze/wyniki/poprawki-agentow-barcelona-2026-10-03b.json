@@ -1,0 +1,335 @@
+{
+ "slug": "barcelona",
+ "programPatches": [
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Psicologia (UB)",
+   "set": {
+    "durationYears": 4
+   },
+   "sourceUrl": "https://www.ub.edu/guiaacademica/rest/guiaacademica/getEnsGrau/TG1048/2025/CAT",
+   "quote": "\"creditsTotals\":240"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Psicologia (UB)",
+   "set": {
+    "languages": [
+     "katalański",
+     "hiszpański",
+     "angielski (część zajęć)"
+    ]
+   },
+   "sourceUrl": "https://www.ub.edu/guiaacademica/rest/guiaacademica/getPlanificacioAssignatura/361017/TG1048/2025/2/CAT",
+   "quote": "\"llengua\":\"Anglès\""
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Psicologia (UB)",
+   "set": {
+    "tuitionEu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego dochodzą opłata za prowadzenie akt studenta i inne opłaty ogólne, których wysokość podaje uczelnia."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+   "quote": "el preu per crèdit és de 17,69 €"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Psicologia (UB)",
+   "set": {
+    "admissionUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/"
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Psicologia (UB)",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 9,660. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Taką samą notę 9,660 ma UAB Economia (potwierdzone w tabeli Generalitat). Źródło not: Generalitat, tabela Notes de tall, pierwszy przydział z 10 lipca 2026. Czas trwania: 240 ECTS, czyli 4 lata. Języki według przewodnika akademickiego UB: katalański, hiszpański i część zajęć po angielsku, a podział zależy od przedmiotu."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "11047   Psicologia (Barcelona)"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Medicina (Campus Clínic, UB)",
+   "set": {
+    "durationYears": 6
+   },
+   "sourceUrl": "https://www.ub.edu/portal/web/medicina-ciencies-salut/estudis",
+   "quote": "Medicina, d'una durada de 6 anys"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Medicina (Campus Clínic, UB)",
+   "set": {
+    "languages": [
+     "katalański",
+     "hiszpański",
+     "angielski (część zajęć)"
+    ]
+   },
+   "sourceUrl": "https://www.ub.edu/guiaacademica/rest/guiaacademica/getPlanificacioAssignatura/361436/TG1046/2025/1/CAT",
+   "quote": "\"llengua\":\"Anglès\""
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Medicina (Campus Clínic, UB)",
+   "set": {
+    "tuitionEu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego dochodzą opłata za prowadzenie akt studenta i inne opłaty ogólne, których wysokość podaje uczelnia."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+   "quote": "el preu per crèdit és de 17,69 €"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Medicina (Campus Clínic, UB)",
+   "set": {
+    "admissionUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/"
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Medicina (Campus Clínic, UB)",
+   "set": {
+    "url": "https://www.ub.edu/portal/web/medicina-ciencies-salut/graus/-/ensenyaments/detall/4798347"
+   },
+   "sourceUrl": "https://www.ub.edu/portal/web/medicina-ciencies-salut/graus/-/ensenyaments/detall/4798347/13",
+   "quote": "Per obtenir el grau cal superar un total de 360 crèdits"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Medicina (Campus Clínic, UB)",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 12,685. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Nota odcięcia przekracza 10, więc potrzebne są wysokie punkty z PCE lub PAU. Drugi kampus: Bellvitge (kod 11083, 100 miejsc, nota 12,500). Źródło not: Generalitat, tabela Notes de tall, pierwszy przydział z 10 lipca 2026. Czas trwania: 360 ECTS, czyli 6 lat. Języki według przewodnika akademickiego UB: głównie katalański, także hiszpański i angielski."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "11043   Medicina (Campus Clínic) (Barcelona)"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Dret (UB)",
+   "set": {
+    "durationYears": 4
+   },
+   "sourceUrl": "https://www.ub.edu/guiaacademica/rest/guiaacademica/getEnsGrau/TG1055/2025/CAT",
+   "quote": "\"creditsTotals\":240"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Dret (UB)",
+   "set": {
+    "languages": [
+     "katalański",
+     "hiszpański",
+     "angielski (część zajęć)"
+    ]
+   },
+   "sourceUrl": "https://www.ub.edu/guiaacademica/rest/guiaacademica/getPlanificacioAssignatura/362451/TG1055/2025/1/CAT",
+   "quote": "\"llengua\":\"Anglès\""
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Dret (UB)",
+   "set": {
+    "tuitionEu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego dochodzą opłata za prowadzenie akt studenta i inne opłaty ogólne, których wysokość podaje uczelnia."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+   "quote": "el preu per crèdit és de 17,69 €"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Dret (UB)",
+   "set": {
+    "admissionUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/"
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Dret (UB)",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 9,736. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Źródło not: Generalitat, tabela Notes de tall, pierwszy przydział z 10 lipca 2026. Czas trwania: 240 ECTS, czyli 4 lata. Języki według przewodnika akademickiego UB: katalański, hiszpański i część zajęć po angielsku, a podział zależy od przedmiotu. Program dotyczy prawa hiszpańskiego i katalońskiego."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "11012   Dret (Barcelona)"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Medicina (UPF)",
+   "set": {
+    "durationYears": 6
+   },
+   "sourceUrl": "https://www.educacion.gob.es/ruct/estudio.action?codigoCiclo=SC&codigoTipo=G&CodigoEstudio=2504008&actual=estudios",
+   "quote": "Créditos Totales"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Medicina (UPF)",
+   "set": {
+    "languages": [
+     "hiszpański",
+     "katalański",
+     "angielski"
+    ]
+   },
+   "sourceUrl": "https://www.educacion.gob.es/ruct/solicitud/datosCentro!consulta.action?codUniversidad=039&codCentro=08070362&actual=menu.solicitud.datosCentro",
+   "quote": "Lenguas en las que se imparte"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Medicina (UPF)",
+   "set": {
+    "tuitionEu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego dochodzą opłata za prowadzenie akt studenta i inne opłaty ogólne, których wysokość podaje uczelnia."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+   "quote": "el preu per crèdit és de 17,69 €"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Medicina (UPF)",
+   "set": {
+    "admissionUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/"
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Medicina (UPF)",
+   "set": {
+    "url": "https://www.educacion.gob.es/ruct/estudio.action?codigoCiclo=SC&codigoTipo=G&CodigoEstudio=2504008&actual=estudios"
+   },
+   "sourceUrl": "https://www.educacion.gob.es/ruct/estudio.action?codigoCiclo=SC&codigoTipo=G&CodigoEstudio=2504008&actual=estudios",
+   "quote": "Graduado o Graduada en Medicina por la Universidad Pompeu Fabra"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Medicina (UPF)",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 12,534. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Nota odcięcia przekracza 10, więc potrzebne są wysokie punkty z PCE lub PAU. Źródło not: Generalitat, tabela Notes de tall, pierwszy przydział z 10 lipca 2026. Czas trwania według rejestru ministerialnego RUCT: 360 ECTS, czyli 6 lat. Języki wykładowe według RUCT: hiszpański, katalański i angielski (Facultat de Medicina i Ciències de la Vida)."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "41058   Medicina (Barcelona)"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Periodisme (UPF)",
+   "set": {
+    "durationYears": 4
+   },
+   "sourceUrl": "https://www.educacion.gob.es/ruct/estudio.action?codigoCiclo=SC&codigoTipo=G&CodigoEstudio=2500404&actual=estudios",
+   "quote": "Créditos Totales"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Periodisme (UPF)",
+   "set": {
+    "tuitionEu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego dochodzą opłata za prowadzenie akt studenta i inne opłaty ogólne, których wysokość podaje uczelnia."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+   "quote": "el preu per crèdit és de 17,69 €"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Periodisme (UPF)",
+   "set": {
+    "admissionUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/"
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Periodisme (UPF)",
+   "set": {
+    "url": "https://www.educacion.gob.es/ruct/estudio.action?codigoCiclo=SC&codigoTipo=G&CodigoEstudio=2500404&actual=estudios"
+   },
+   "sourceUrl": "https://www.educacion.gob.es/ruct/estudio.action?codigoCiclo=SC&codigoTipo=G&CodigoEstudio=2500404&actual=estudios",
+   "quote": "Graduado o Graduada en Periodismo por la Universidad Pompeu Fabra"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Periodisme (UPF)",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 10,800. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Źródło not: Generalitat, tabela Notes de tall, pierwszy przydział z 10 lipca 2026. Czas trwania według rejestru ministerialnego RUCT: 240 ECTS, czyli 4 lata (Facultat de Comunicació). Język wykładowy nie jest podany ani w rejestrze RUCT, ani w ofercie Generalitat, więc trzeba go sprawdzić na stronie wydziału UPF."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "41025   Periodisme (Barcelona)"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Enginyeria Civil (grupa po angielsku)",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 9,846. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. UPC podaje grupę prowadzoną w 100% po angielsku. Liczba miejsc (120) i kod programu 31103 dotyczą całego kierunku, łącznie z grupą angielską."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "31103   Enginyeria Civil (Barcelona)"
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [],
+ "summaryPatches": [
+  {
+   "label": "Polska matura",
+   "text": "Obywatele UE z polską maturą nie zdają hiszpańskiej PAU. Polska jest na liście systemów edukacyjnych, których absolwenci wchodzą na uczelnie hiszpańskie przez akredytację UNEDasiss (UNED), i tę samą listę podaje Generalitat Katalonii. Akredytacja przelicza oceny z polskiego świadectwa na notę dostępu w skali od 5 do 10. Potem składa się zgłoszenie (preinscripció) przez katalońskie Portal d'Accés a la Universitat. Notę admisji (do 14 punktów) podnosi się o maksymalnie 4 punkty za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) albo z fazy dobrowolnej PAU. Według strony Generalitat przedmioty wpisane do akredytacji nie podnoszą noty. Czy wynik matury rozszerzonej może być wpisany jako egzamin zewnętrzny (jak opisuje to Walencja), trzeba potwierdzić w UNEDasiss. Maksymalna nota dostępu z samej akredytacji wynosi 10, więc na kierunkach z notą odcięcia powyżej 10 (medycyna, data science) potrzebne są dodatkowe punkty z PCE lub PAU albo, jeśli UNEDasiss to potwierdzi, z matury rozszerzonej wpisanej do akredytacji.",
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  }
+ ],
+ "gapsSet": [
+  "Język wykładowy UPF Periodisme nie jest podany ani w rejestrze ministerialnym RUCT, ani w ofercie Generalitat, a strony UPF i części wydziałów UB są publicznie niedostępne. Język i czas trwania pozostałych czterech programów UB i UPF pochodzą z RUCT i z przewodnika akademickiego UB. Udział katalańskiego, hiszpańskiego i angielskiego zależy od przedmiotu i trzeba go sprawdzić na stronie wydziału.",
+  "Strony uczelni nie podają wymaganego poziomu hiszpańskiego lub katalońskiego ani certyfikatu z angielskiego dla programów anglojęzycznych.",
+  "Opłaty UNEDasiss za akredytację i za egzaminy PCE nie są podane na stronie w postaci tekstu; kwoty są na unedasiss.uned.es. Nie ma też tabeli przeliczania polskiej matury na skalę od 5 do 10.",
+  "Osobnych not odcięcia dla maturzystów z zagranicy nie ma. Podane noty dotyczą kolumny PAU/CFGS pierwszego przydziału z 10 lipca 2026 i służą jako orientacja. Maksymalna nota dostępu z samej akredytacji wynosi 10.",
+  "Terminy naboru na rok 2027/28 nie są opublikowane. Podane daty dotyczą naboru 2026/27. UNEDasiss podaje 7 lipca 2026 jako ostateczny termin zgłoszeń do uczelni publicznych w Hiszpanii, ale katalońska preinscripció zamknęła się 26 czerwca 2026, więc w Katalonii obowiązuje termin wcześniejszy.",
+  "Opłaty administracyjne (prowadzenie akt, ubezpieczenie) oraz cena niedotowana dla osób spoza UE bez statusu wspólnotowego nie są podane w kwotach. Uczelnie ustalają je same.",
+  "Tabele ważenia przedmiotów PCE dla poszczególnych kierunków są w oficjalnej tabeli Generalitat (ponderacions) i nie są tu powtórzone.",
+  "Nie wiadomo, ile punktów z PCE zwykle uzyskują maturzyści z Polski na kierunkach z notą odcięcia powyżej 10 (medycyna, data science)."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://www.educacion.gob.es/ruct/estudio.action?codigoCiclo=SC&codigoTipo=G&CodigoEstudio=2504008&actual=estudios",
+   "note": "Rejestr RUCT (Ministerstwo): UPF Medicina, 360 ECTS"
+  },
+  {
+   "url": "https://www.educacion.gob.es/ruct/solicitud/datosCentro!consulta.action?codUniversidad=039&codCentro=08070362&actual=menu.solicitud.datosCentro",
+   "note": "Rejestr RUCT: języki wykładowe UPF Medicina (hiszpański, katalański, angielski)"
+  },
+  {
+   "url": "https://www.educacion.gob.es/ruct/estudio.action?codigoCiclo=SC&codigoTipo=G&CodigoEstudio=2500404&actual=estudios",
+   "note": "Rejestr RUCT: UPF Periodismo, 240 ECTS"
+  },
+  {
+   "url": "https://www.ub.edu/guiaacademica/rest/guiaacademica/getEnsGrau/TG1048/2025/CAT",
+   "note": "Przewodnik akademicki UB: UB Psicologia, 240 ECTS"
+  },
+  {
+   "url": "https://www.ub.edu/guiaacademica/rest/guiaacademica/getEnsGrau/TG1055/2025/CAT",
+   "note": "Przewodnik akademicki UB: UB Dret, 240 ECTS"
+  },
+  {
+   "url": "https://www.ub.edu/portal/web/medicina-ciencies-salut/estudis",
+   "note": "Wydział Medycyny UB: Medicina trwa 6 lat"
+  },
+  {
+   "url": "https://www.ub.edu/portal/web/medicina-ciencies-salut/graus/-/ensenyaments/detall/4798347/13",
+   "note": "UB Medicina: organizacja studiów, 360 ECTS"
+  },
+  {
+   "url": "https://www.ub.edu/guiaacademica/rest/guiaacademica/getPlanificacioAssignatura/361017/TG1048/2025/2/CAT",
+   "note": "Przewodnik akademicki UB: grupy zajęć z językiem wykładowym, Psicologia"
+  },
+  {
+   "url": "https://www.ub.edu/guiaacademica/rest/guiaacademica/getPlanificacioAssignatura/362451/TG1055/2025/1/CAT",
+   "note": "Przewodnik akademicki UB: grupy zajęć z językiem wykładowym, Dret"
+  },
+  {
+   "url": "https://www.ub.edu/guiaacademica/rest/guiaacademica/getPlanificacioAssignatura/361436/TG1046/2025/1/CAT",
+   "note": "Przewodnik akademicki UB: grupy zajęć z językiem wykładowym, Medicina"
+  }
+ ]
+}

@@ -29,6 +29,13 @@ const REWRITES = [
   [/Terminy w pliku pochodzą/g, 'Podane terminy pochodzą'],
   [/Nie zebrano programów/g, 'Nie opisano programów'],
   [/Nie zebrano tabel/g, 'Nie opisano tabel'],
+  [/[,;]\s*(?:ich stron nie sprawdzano osobno|strony programu nie otwierano osobno)/g, ''],
+  [/\bnie badano\b/g, 'nie opisano'],
+  [/\bnie sprawdzano\b/g, 'nie opisano'],
+  [/na sprawdzonych stronach/g, 'na stronach uczelni'],
+  [/nie zostało odczytane/g, 'nie było dostępne'],
+  [/nie dały się odczytać/g, 'są niedostępne'],
+  [/nie był dostępny do odczytania/g, 'nie był dostępny'],
   [/nie zostały (?:tu )?odczytane/g, 'nie są podane na stronie'],
   [/na pobranej stronie/g, 'na stronie programu'],
   [/w pobranej wersji/g, 'w wersji na stronie'],
@@ -107,12 +114,6 @@ const BY_CITY = {
       ? g.replace(/ITU i KADK wskazują, że kandydaci ze świadectwem zagranicznym aplikują do 15 marca/, 'ITU i KADK wskazują, że kandydaci ze świadectwem zagranicznym aplikują do 15 marca (na CBS ten termin dotyczy tylko osób potrzebujących zezwolenia na pobyt, obywatele UE mają do 5 lipca)') : g);
     for (const [u, p] of progs(d)) {
       if (/DTU|ITU|KADK|Københavns|KU\b/.test(u.name) && p.deadline && !/CBS/.test(u.name) && !/niepotwierdzon|rok niepodany/.test(p.deadline)) p.deadline += ' (rok nie jest podany na stronie uczelni, termin z poprzedniego cyklu, sprawdź na 2027)';
-    }
-  },
-  berlin(d) {
-    // KRYTYCZNE: terminy TU Berlin z zamkniętego cyklu 2025/26
-    for (const [, p] of progs(d)) {
-      if (p.deadline && /1\.12\.2025/.test(p.deadline)) p.deadline = 'Termin na semestr zimowy 2027/28 nie został jeszcze opublikowany. W poprzednim cyklu rejestracja trwała od 1 grudnia do 15 stycznia (kierunki z numerus clausus) i do 28 lutego (bez numerus clausus). Sprawdź stronę TU Berlin.';
     }
   },
   londyn(d) {
@@ -254,9 +255,6 @@ const BY_CITY = {
     for (const [, p] of progs(d)) if (/^uznawana z warunkami/.test(p.matura || '') || !p.matura) p.matura = 'wymaga dodatkowego etapu (akredytacja świadectwa w UNEDasiss, która daje notę dostępu od 5 do 10; uczelnie nie opisują osobno ścieżki dla Polski, więc potwierdź zasady w UNEDasiss)';
     for (const x of d.summary) x.text = x.text.replace(/Przedmioty z liceum widoczne w akredytacji nie liczą się do podniesienia noty\./, 'Czy przedmioty zdane na maturze mogą podnieść notę, zależy od zasad UNEDasiss (Universitat de València opisuje taką możliwość dla egzaminów zdanych w kraju pochodzenia), więc sprawdź to w UNEDasiss.');
   },
-  walencja(d) {
-    for (const [, p] of progs(d)) if (/^uznawana z warunkami/.test(p.matura || '')) p.matura = p.matura.replace(/^uznawana z warunkami/, 'wymaga dodatkowego etapu');
-  },
   mediolan(d) {
     d.gaps = d.gaps.filter(g => !/nie ma w pliku/.test(g));
     if (!d.summary.some(x => x.label === 'Zakres')) d.summary.unshift({ label: 'Zakres', text: 'Z uczelni publicznych opisana jest tylko Politechnika (Polimi). Strony Università degli Studi di Milano i Milano-Bicocca były niedostępne, więc psychologia, prawo i medycyna mają tu tylko uczelnie prywatne, za 7 690 do 20 690 EUR rocznie.' });
@@ -305,7 +303,10 @@ function agentPatches(slug, data) {
   const dir = path.join(__dirname, 'wyniki');
   const files = fs.readdirSync(dir).filter(f => f.startsWith(`poprawki-agentow-${slug}-`)).sort();
   if (!files.length) return;
-  const P = JSON.parse(fs.readFileSync(path.join(dir, files.pop()), 'utf8'));
+  // wszystkie pliki poprawek miasta po kolei (starsze najpierw), każdy nakłada się na poprzednie
+  for (const file of files) applyPatchFile(slug, data, JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8')));
+}
+function applyPatchFile(slug, data, P) {
   const findUni = name => data.universities.find(u => u.name === name || (name && (u.name.includes(name) || name.includes(u.name))));
   for (const x of P.programPatches || []) {
     if (!okSrc(x)) { warnings.push(`poprawka bez źródła/cytatu: ${slug} / ${x.programName}`); continue; }
@@ -379,15 +380,6 @@ const FINAL = {
       p.requirements = dropS(p.requirements || '', /Darstellende Geometrie|UBVO|670 miejsc|1[  ]030 rejestracji|881 rejestracji/) || null;
     }, 'Wiedeń TU Wien');
   },
-  berlin(d) {
-    setIf(d, /Technische Universität|TU Berlin|HTW/i, null, (p, u) => {
-      const intBiz = /International Business/.test(p.name);
-      if (!intBiz && p.tuitionEu && !/^Czesne nie jest wymienione/.test(p.tuitionEu)) p.tuitionEu = 'Czesne nie jest wymienione na stronie opłat uczelni, więc brak opłaty trzeba potwierdzić na stronie uczelni. ' + p.tuitionEu.replace(/[^.]*(?:generally free of charge|Tuition free|bez czesnego|bez opłat za studia)[^.]*\.\s*/gi, '');
-      if (!intBiz && p.tuitionNonEu) p.tuitionNonEu = p.tuitionNonEu.replace(/[^.]*generally free of charge[^.]*\.\s*/gi, '').trim() || null;
-    }, 'Berlin czesne');
-    replaceAllIn(d, /([^.!?:\s])\s+(Nabór ograniczony)/g, '$1. $2', 'Berlin FU kropka');
-    replaceAllIn(d, /To komunikacja korporacyjna[^.]*\./g, 'Kierunek obejmuje komunikację korporacyjną i reklamę; do zawodu dziennikarza pasuje luźno.', 'Berlin TU Economics notes');
-  },
   hamburg(d) {
     const m = d.summary.find(x => x.label === 'Polska matura');
     if (m && !/Status „uznawana z warunkami”/.test(m.text)) m.text += ' Status „uznawana z warunkami” przy programach oznacza, że świadectwo trzeba uznać (VPD z uni-assist albo portal uczelni); żadna z uczelni nie wymienia Polski z nazwy.';
@@ -398,7 +390,6 @@ const FINAL = {
     setIf(d, /IT University|ITU/, /Softwareudvikling|Software/, p => { if (!/^UWAGA/.test(p.requirements || '')) p.requirements = 'UWAGA: nie potwierdzono, że program jest otwarty dla kandydatów międzynarodowych z polską maturą. ' + (p.requirements || ''); }, 'Kopenhaga ITU');
   },
   sztokholm(d) {
-    setIf(d, /KTH|Royal Institute/, /Datateknik|Maskinteknik|Samhällsbyggnad|Arkitektutbildning/, p => { p.languages = []; p.english = false; if (!/Język wykładowy do potwierdzenia/.test(p.notes || '')) p.notes = ('Język wykładowy do potwierdzenia na stronie uczelni (KTH prowadzi po angielsku tylko jeden licencjat). ' + (p.notes || '')).trim(); }, 'Sztokholm KTH język');
   },
   amsterdam(d) {
     const fixus = (p) => { p.matura = 'wymaga dodatkowego etapu (numerus fixus i selekcja)'; };
@@ -445,29 +436,10 @@ const FINAL = {
     replaceAllIn(d, /(^|\.\s+)[^.]*nie liczą się[^.]*\./g, '$1Według strony Generalitat przedmioty wpisane do akredytacji nie podnoszą noty. Czy wynik matury rozszerzonej może być wpisany jako egzamin zewnętrzny (jak opisuje to Walencja), trzeba potwierdzić w UNEDasiss.', 'Barcelona nie liczą się');
     setIf(d, /Barcelona|Pompeu|UB\b|UPF/, null, p => { if (!p.languages.length && p.durationYears == null && !/do potwierdzenia na stronie uczelni/.test(p.notes || '')) p.notes = ('Język wykładowy i czas trwania do potwierdzenia na stronie uczelni (jej strony są niedostępne bez weryfikacji przeglądarki). ' + (p.notes || '')).trim(); }, 'Barcelona UB UPF');
   },
-  walencja(d) {
-    setIf(d, /València|Valencia|UV\b/, null, p => {
-      for (const k of ['requirements', 'notes']) if (p[k]) p[k] = dropS(p[k], /ostatni\w* przyjęt|8,99|bliska maksimum|orientacyjn\w+ not|nota odcięcia/i) || null;
-    }, 'Walencja UV noty');
-  },
 };
 // Druga runda poprawek końcowych (przegląd końcowy 2026-10-03, raporty krytyk-zagranica4-*.json)
 const GREEK_LABELS = /^(uznawana|wymaga)/;
 const FINAL2 = {
-  berlin(d) {
-    setIf(d, /Technische Universität|TU Berlin|HTW/i, null, (p, u) => {
-      const intBiz = /International Business/.test(p.name);
-      if (intBiz) { p.tuitionNonEu = (p.tuitionNonEu || '').replace(/\('Tuition free[^)]*\)/, '(strona programu: „without tuition fees”)'); return; }
-      const fee = (p.tuitionEu || '').match(/opłata semestralna[^]*$/i);
-      p.tuitionEu = 'Czesne nie jest wymienione na stronie opłat uczelni, więc jego brak trzeba potwierdzić na stronie uczelni.' + (fee ? ' ' + fee[0].charAt(0).toUpperCase() + fee[0].slice(1) : '');
-      p.tuitionNonEu = 'Czesne dla osób spoza UE nie jest wymienione na stronie opłat uczelni; do potwierdzenia na stronie uczelni.';
-    }, 'Berlin czesne 2');
-    const o = d.summary.find(x => x.label === 'Opłaty');
-    if (o) sub(o, 'text', /Czesne na sprawdzonych uczelniach publicznych wynosi 0 EUR;/, 'Brak czesnego jest potwierdzony dosłownie dla FU i HTW International Business (dla TU i pozostałych programów HTW do potwierdzenia na stronie uczelni);', 'Berlin Opłaty');
-    const j = d.summary.find(x => x.label === 'Język');
-    if (j) j.text = j.text.replace(/albo DSH-2 przy zapisie\);\s*$/, 'albo DSH-2 przy zapisie).');
-    replaceAllIn(d, /(oczekiwania|\bNC)\s+(Program przeprojektowany|Nie wymaga niemieckiego)/g, '$1. $2', 'Berlin sklejone zdania');
-  },
   ateny(d) {
     for (const [, p] of progs(d)) {
       if (p.matura && !GREEK_LABELS.test(p.matura)) {
@@ -478,28 +450,21 @@ const FINAL2 = {
       }
       if (p.notes) {
         p.notes = dropS(p.notes, /pola są puste/);
-        let seen = false;
-        p.notes = p.notes.split(/(?<=[.;])\s+/).filter(x => { if (/βάσεις/.test(x)) { if (seen) return false; seen = true; } return true; }).join(' ');
       }
     }
   },
   nikozja(d) {
     for (const [u, p] of progs(d)) {
-      if (/European University/.test(u) && /Medicine|Medical/.test(p.name)) {
-        p.tuitionEu = dropS(p.tuitionEu || '', /Opłaty obowiązkowe: wniosek 80/) + ' Opłata za wniosek na medycynę: 200 EUR (cennik EUC).';
-      }
       if (p.matura && !GREEK_LABELS.test(p.matura)) p.matura = /^brak potwierdzenia/.test(p.matura) ? 'wymaga potwierdzenia przez uczelnię (' + p.matura.replace(/^brak potwierdzenia:?\s*/, '').replace(/\.$/, '') + ')' : 'wymaga potwierdzenia przez uczelnię. ' + p.matura;
-      for (const k of ['notes', 'requirements']) if (p[k]) p[k] = p[k].replace(/[^.]*nie (?:sprawdzano|otwierano) osobno[^.]*\.\s*/g, '').trim() || null;
     }
-    d.gaps = d.gaps.map(g => g.replace(/nie (?:sprawdzano|otwierano)[^.]*\./g, 'Szczegóły do potwierdzenia na stronie programu.'));
   },
   helsinki(d) {
     setIf(d, /Hanken/, null, p => { if (/12[  ]?000/.test(p.tuitionNonEu || '') && !/niepotwierdzona/.test(p.tuitionNonEu)) p.tuitionNonEu += ' (kwota niepotwierdzona na stronach programu, do sprawdzenia na stronie Hanken)'; }, 'Helsinki Hanken');
   },
   sofia(d) { replaceAllIn(d, /nie został(?:a)? odczytan\w+/g, 'nie jest podany na stronie', 'Sofia odczytan'); },
-  sztokholm(d) { replaceAllIn(d, /Pozostałe jedenaście programów/g, 'Pozostałe dziewięć programów', 'Sztokholm dziewięć'); },
 };
 // Zdania w polach wymagań i uwag kończymy kropką
+function englishFlag(d) { for (const [, p] of progs(d)) if (!p.languages.length) p.english = null; }
 function endPeriods(d) {
   for (const [, p] of progs(d)) for (const k of ['requirements', 'notes']) if (typeof p[k] === 'string' && p[k] && !/[.!?)”"]$/.test(p[k])) p[k] += '.';
 }
@@ -512,6 +477,7 @@ function apply(slug, data) {
   if (FINAL[slug]) FINAL[slug](data);
   if (FINAL2[slug]) FINAL2[slug](data);
   endPeriods(data);
+  englishFlag(data);
   // Opisy o sposobie badania zamiast o treści (np. „Nie badano osobno…”) nie są informacją dla ucznia
   data.summary = data.summary.filter(x => !/^Nie badano\b/.test(x.text));
   walk(data);
