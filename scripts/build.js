@@ -8,7 +8,7 @@ const fs = require('fs');
 const ROOT = path.resolve(__dirname, '..');
 
 async function build() {
-  const jsFiles = ['app.js', 'search.js', 'szkoly.js', 'quiz.js', 'zagranica.js', 'animations.js'];
+  const jsFiles = ['app.js', 'search.js', 'szkoly.js', 'quiz.js', 'zagranica.js', 'feedback.js', 'animations.js'];
   let totalSaved = 0;
 
   // Minify JS files

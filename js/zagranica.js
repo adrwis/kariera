@@ -122,6 +122,7 @@ const Zagranica = (function () {
             <h3 class="career-column__subtitle">${isUrl(u.url) ? link(u.url, u.name) : esc(u.name)}${u.type ? ` <span class="szkola__muted">(${esc(u.type)})</span>` : ''}</h3>
             <ul class="szkola__profiles">${u.programs.map(p => programHtml(p, city)).join('')}</ul>
           </section>`).join('') : '<p class="career-column__empty">Żaden program w tym mieście nie pasuje do wybranych filtrów.</p>'}
+        <p class="zagr__ask">${ctx.feedbackButton('kierunek-zagranica', 'Brakuje kierunku albo uczelni w tym mieście? Daj znać', city.name)}</p>
         ${city.gaps.length ? `<details class="zagr__details zagr__gaps"><summary>Czego nie udało się potwierdzić (${city.gaps.length})</summary><ul>${city.gaps.map(g => `<li>${esc(g)}</li>`).join('')}</ul></details>` : ''}
       </section>`;
   }
@@ -163,9 +164,9 @@ const Zagranica = (function () {
     const meta = cities.find(c => c.slug === f.miasto);
     let html = cityPickerHtml(cities, meta ? meta.slug : '');
     if (!meta) {
-      body.innerHTML = html + overviewHtml(cities);
+      body.innerHTML = html + `<p class="zagr__ask">${ctx.feedbackButton('miasto', 'Nie ma Twojego miasta albo kierunku? Daj znać')}</p>` + overviewHtml(cities);
     } else if (meta.status !== 'dostępne') {
-      body.innerHTML = html + `<div class="zagr__notice" role="status"><strong>${esc(meta.name)}: dane w przygotowaniu.</strong> Dla tego miasta zbieramy jeszcze kierunki, opłaty i warunki przyjęcia. Zajrzyj za jakiś czas albo wybierz miasto z gotowymi danymi.</div>` + overviewHtml(cities.filter(c => c.slug !== meta.slug));
+      body.innerHTML = html + `<div class="zagr__notice" role="status"><strong>${esc(meta.name)}: dane w przygotowaniu.</strong> Dla tego miasta zbieramy jeszcze kierunki, opłaty i warunki przyjęcia. Zajrzyj za jakiś czas albo wybierz miasto z gotowymi danymi. ${ctx.feedbackButton('kierunek-zagranica', 'Zależy Ci na tym mieście? Daj znać', meta.name)}</div>` + overviewHtml(cities.filter(c => c.slug !== meta.slug));
     } else {
       body.innerHTML = html + '<p class="szkoly__loading">Wczytuję programy…</p>';
       let city;

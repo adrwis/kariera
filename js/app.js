@@ -1985,7 +1985,8 @@
   // --- Init ---
   Szkoly.init({ BASE, escapeHtml, escapeAttr, isHttpUrl, updateMeta, announce });
   Quiz.init({ BASE, escapeHtml, escapeAttr, updateMeta });
-  Zagranica.init({ BASE, escapeHtml, escapeAttr, updateMeta });
+  Zagranica.init({ BASE, escapeHtml, escapeAttr, updateMeta, feedbackButton: (t, l, c) => Feedback.button(t, l, c) });
+  Feedback.init({ escapeHtml, escapeAttr });
 
   // Gdy dane zawodów się nie wczytały, wyszukiwanie dawałoby „Nie znaleziono zawodów”, więc mówimy wprost, co się stało
   function showLoadError() {

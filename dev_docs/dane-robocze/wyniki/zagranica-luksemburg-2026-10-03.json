@@ -1,0 +1,210 @@
+{
+  "city": "Luksemburg",
+  "country": "Luksemburg",
+  "retrieved": "2026-10-03",
+  "status": "niekompletne: strony uni.lu nie dały się odczytać",
+  "overview": {
+    "polishMatura": "Do wniosku na licencjat trzeba dołączyć urzędowe uznanie świadectwa (équivalence) z ministerstwa edukacji Luksemburga. Uznanie wymaga co najmniej 12 lat ciągłej nauki i dostępu do studiów wyższych w kraju wydania. Dla świadectw z państw UE opłata wynosi 75 EUR, a rozpatrzenie trwa od 2 do 10 tygodni, więc procedurę warto zacząć z dużym wyprzedzeniem.",
+    "tuition": "Według informacji z wyszukiwarki o stronach uczelni opłata rejestracyjna to około 200 EUR za semestr, a za samo złożenie wniosku pobierane jest 50 EUR. Obie kwoty do potwierdzenia na stronie uczelni; strona Guichet.lu podaje 200 EUR za semestr wyraźnie tylko dla doktorantów.",
+    "generalDeadlines": "Według Guichet.lu wnioski na licencjat przyjmowane są od końca kwietnia do połowy września. Terminy na rok akademicki 2027/28 jeszcze niepotwierdzone.",
+    "englishProof": "Brak potwierdzonych danych. Programy bywają trójjęzyczne (angielski, francuski, niemiecki), wymagany poziom i certyfikaty do potwierdzenia na stronie uczelni.",
+    "equalAccess": "Uznanie świadectwa zależy od tego, czy w kraju wydania daje ono dostęp do studiów wyższych; polska matura to spełnia, ale ostateczną decyzję podejmuje ministerstwo."
+  },
+  "universities": [
+    {
+      "name": "Université du Luxembourg (University of Luxembourg)",
+      "url": "https://www.uni.lu",
+      "type": "uniwersytet",
+      "campuses": "Belval i Limpertsberg (aglomeracja Luksemburga)",
+      "programs": [
+        {
+          "name": "Bachelor in Computer Science",
+          "nameEn": "Bachelor in Computer Science",
+          "careerIds": [
+            "programista",
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": null,
+          "academicYear": null,
+          "tuition": {
+            "eu": "około 200 EUR za semestr (opłata rejestracyjna), do potwierdzenia na stronie uczelni",
+            "nonEu": null,
+            "sourceUrl": "https://www.uni.lu/en/admissions/bachelor-master/"
+          },
+          "admission": {
+            "polishMatura": "uznawana po uzyskaniu urzędowego potwierdzenia równoważności świadectwa w luksemburskim ministerstwie edukacji (do wniosku)",
+            "requirements": null,
+            "languageProof": null,
+            "selective": null,
+            "sourceUrl": "https://guichet.public.lu/en/citoyens/famille-education/enseignement-secondaire/jeune-recemment-arrive-pays/reconnaissance-etudes/reconnaissance-bac-maturite.html"
+          },
+          "deadline": "licencjaty: wnioski mniej więcej od końca kwietnia do połowy września (ogólnie, wg Guichet.lu); termin dla tego kierunku do potwierdzenia na stronie uczelni",
+          "applyUrl": "https://www.uni.lu/en/admissions/bachelor-master/",
+          "sourceUrl": "https://www.uni.lu/en/admissions/bachelor-master/",
+          "notes": "Nazwa kierunku, czas trwania (3 lata, 180 ECTS), języki wykładowe i obowiązkowy semestr mobilności pochodzą z założeń zlecenia i nie zostały odczytane ze strony programu (strona uczelni nie dała się odczytać). Wszystko do potwierdzenia na stronie uczelni."
+        },
+        {
+          "name": "Bachelor en Droit",
+          "nameEn": "Bachelor in Law",
+          "careerIds": [
+            "prawnik"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": null,
+          "academicYear": null,
+          "tuition": {
+            "eu": "około 200 EUR za semestr (opłata rejestracyjna), do potwierdzenia na stronie uczelni",
+            "nonEu": null,
+            "sourceUrl": "https://www.uni.lu/en/admissions/bachelor-master/"
+          },
+          "admission": {
+            "polishMatura": "uznawana po uzyskaniu urzędowego potwierdzenia równoważności świadectwa w luksemburskim ministerstwie edukacji (do wniosku)",
+            "requirements": null,
+            "languageProof": null,
+            "selective": null,
+            "sourceUrl": "https://guichet.public.lu/en/citoyens/famille-education/enseignement-secondaire/jeune-recemment-arrive-pays/reconnaissance-etudes/reconnaissance-bac-maturite.html"
+          },
+          "deadline": "licencjaty: wnioski mniej więcej od końca kwietnia do połowy września (ogólnie, wg Guichet.lu); termin dla tego kierunku do potwierdzenia na stronie uczelni",
+          "applyUrl": "https://www.uni.lu/en/admissions/bachelor-master/",
+          "sourceUrl": "https://www.uni.lu/en/admissions/bachelor-master/",
+          "notes": "Nazwa kierunku, czas trwania (3 lata, 180 ECTS), języki wykładowe i obowiązkowy semestr mobilności pochodzą z założeń zlecenia i nie zostały odczytane ze strony programu (strona uczelni nie dała się odczytać). Wszystko do potwierdzenia na stronie uczelni."
+        },
+        {
+          "name": "Bachelor en Sciences économiques et de gestion",
+          "nameEn": "Bachelor in Economics and Management",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": null,
+          "academicYear": null,
+          "tuition": {
+            "eu": "około 200 EUR za semestr (opłata rejestracyjna), do potwierdzenia na stronie uczelni",
+            "nonEu": null,
+            "sourceUrl": "https://www.uni.lu/en/admissions/bachelor-master/"
+          },
+          "admission": {
+            "polishMatura": "uznawana po uzyskaniu urzędowego potwierdzenia równoważności świadectwa w luksemburskim ministerstwie edukacji (do wniosku)",
+            "requirements": null,
+            "languageProof": null,
+            "selective": null,
+            "sourceUrl": "https://guichet.public.lu/en/citoyens/famille-education/enseignement-secondaire/jeune-recemment-arrive-pays/reconnaissance-etudes/reconnaissance-bac-maturite.html"
+          },
+          "deadline": "licencjaty: wnioski mniej więcej od końca kwietnia do połowy września (ogólnie, wg Guichet.lu); termin dla tego kierunku do potwierdzenia na stronie uczelni",
+          "applyUrl": "https://www.uni.lu/en/admissions/bachelor-master/",
+          "sourceUrl": "https://www.uni.lu/en/admissions/bachelor-master/",
+          "notes": "Nazwa kierunku, czas trwania (3 lata, 180 ECTS), języki wykładowe i obowiązkowy semestr mobilności pochodzą z założeń zlecenia i nie zostały odczytane ze strony programu (strona uczelni nie dała się odczytać). Wszystko do potwierdzenia na stronie uczelni."
+        },
+        {
+          "name": "Bachelor en Psychologie",
+          "nameEn": "Bachelor in Psychology",
+          "careerIds": [
+            "psycholog"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": null,
+          "academicYear": null,
+          "tuition": {
+            "eu": "około 200 EUR za semestr (opłata rejestracyjna), do potwierdzenia na stronie uczelni",
+            "nonEu": null,
+            "sourceUrl": "https://www.uni.lu/en/admissions/bachelor-master/"
+          },
+          "admission": {
+            "polishMatura": "uznawana po uzyskaniu urzędowego potwierdzenia równoważności świadectwa w luksemburskim ministerstwie edukacji (do wniosku)",
+            "requirements": null,
+            "languageProof": null,
+            "selective": null,
+            "sourceUrl": "https://guichet.public.lu/en/citoyens/famille-education/enseignement-secondaire/jeune-recemment-arrive-pays/reconnaissance-etudes/reconnaissance-bac-maturite.html"
+          },
+          "deadline": "licencjaty: wnioski mniej więcej od końca kwietnia do połowy września (ogólnie, wg Guichet.lu); termin dla tego kierunku do potwierdzenia na stronie uczelni",
+          "applyUrl": "https://www.uni.lu/en/admissions/bachelor-master/",
+          "sourceUrl": "https://www.uni.lu/en/admissions/bachelor-master/",
+          "notes": "Nazwa kierunku, czas trwania (3 lata, 180 ECTS), języki wykładowe i obowiązkowy semestr mobilności pochodzą z założeń zlecenia i nie zostały odczytane ze strony programu (strona uczelni nie dała się odczytać). Wszystko do potwierdzenia na stronie uczelni."
+        },
+        {
+          "name": "Bachelor in Engineering",
+          "nameEn": "Bachelor in Engineering",
+          "careerIds": [
+            "inzynier-budownictwa",
+            "inzynier-mechanik"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": null,
+          "academicYear": null,
+          "tuition": {
+            "eu": "około 200 EUR za semestr (opłata rejestracyjna), do potwierdzenia na stronie uczelni",
+            "nonEu": null,
+            "sourceUrl": "https://www.uni.lu/en/admissions/bachelor-master/"
+          },
+          "admission": {
+            "polishMatura": "uznawana po uzyskaniu urzędowego potwierdzenia równoważności świadectwa w luksemburskim ministerstwie edukacji (do wniosku)",
+            "requirements": null,
+            "languageProof": null,
+            "selective": null,
+            "sourceUrl": "https://guichet.public.lu/en/citoyens/famille-education/enseignement-secondaire/jeune-recemment-arrive-pays/reconnaissance-etudes/reconnaissance-bac-maturite.html"
+          },
+          "deadline": "licencjaty: wnioski mniej więcej od końca kwietnia do połowy września (ogólnie, wg Guichet.lu); termin dla tego kierunku do potwierdzenia na stronie uczelni",
+          "applyUrl": "https://www.uni.lu/en/admissions/bachelor-master/",
+          "sourceUrl": "https://www.uni.lu/en/admissions/bachelor-master/",
+          "notes": "Nazwa kierunku, czas trwania (3 lata, 180 ECTS), języki wykładowe i obowiązkowy semestr mobilności pochodzą z założeń zlecenia i nie zostały odczytane ze strony programu (strona uczelni nie dała się odczytać). Wszystko do potwierdzenia na stronie uczelni."
+        },
+        {
+          "name": "Bachelor en Médecine (tylko pierwszy rok)",
+          "nameEn": "Bachelor in Medicine (first year only)",
+          "careerIds": [
+            "lekarz"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": null,
+          "academicYear": null,
+          "tuition": {
+            "eu": "około 200 EUR za semestr (opłata rejestracyjna), do potwierdzenia na stronie uczelni",
+            "nonEu": null,
+            "sourceUrl": "https://www.uni.lu/en/admissions/bachelor-master/"
+          },
+          "admission": {
+            "polishMatura": "uznawana po uzyskaniu urzędowego potwierdzenia równoważności świadectwa w luksemburskim ministerstwie edukacji (do wniosku)",
+            "requirements": null,
+            "languageProof": null,
+            "selective": null,
+            "sourceUrl": "https://guichet.public.lu/en/citoyens/famille-education/enseignement-secondaire/jeune-recemment-arrive-pays/reconnaissance-etudes/reconnaissance-bac-maturite.html"
+          },
+          "deadline": "licencjaty: wnioski mniej więcej od końca kwietnia do połowy września (ogólnie, wg Guichet.lu); termin dla tego kierunku do potwierdzenia na stronie uczelni",
+          "applyUrl": "https://www.uni.lu/en/admissions/bachelor-master/",
+          "sourceUrl": "https://www.uni.lu/en/admissions/bachelor-master/",
+          "notes": "Nazwa kierunku, czas trwania (3 lata, 180 ECTS), języki wykładowe i obowiązkowy semestr mobilności pochodzą z założeń zlecenia i nie zostały odczytane ze strony programu (strona uczelni nie dała się odczytać). Wszystko do potwierdzenia na stronie uczelni."
+        }
+      ]
+    }
+  ],
+  "luki": [
+    "Strony uni.lu (kierunki, kryteria przyjęcia, terminy, czesne, języki) nie dały się odczytać: serwer zwracał pustą odpowiedź, a streszczenia stron były puste. Nie obchodzono zabezpieczeń. Wszystkie dane o programach są więc do potwierdzenia na stronie uczelni.",
+    "Brak potwierdzonej listy kierunków licencjackich i ich dokładnych nazw; podane nazwy pochodzą z założeń zlecenia. Nie sprawdzono, które mają prawdziwe odpowiedniki w ofercie 2027/28.",
+    "Brak potwierdzonych języków wykładowych, wymaganego poziomu francuskiego i angielskiego oraz certyfikatów.",
+    "Brak potwierdzenia obowiązkowego semestru mobilności oraz zasad dla medycyny (tylko pierwszy rok, dalsze studia za granicą).",
+    "Opłata 200 EUR za semestr i 50 EUR za wniosek znane tylko z opisów wyników wyszukiwania, nie z odczytanej strony. Czesne spoza UE: brak danych.",
+    "Luxembourg School of Business nie została opisana (brak danych ze źródeł).",
+    "Nie sprawdzono, czy uczelnia wymaga dodatkowych egzaminów lub ma limit miejsc na poszczególnych kierunkach."
+  ],
+  "sources": [
+    {
+      "claim": "uznanie świadectwa: opłata 75 EUR (państwa UE), 2 do 10 tygodni, min. 12 lat nauki, dostęp do studiów w kraju wydania",
+      "url": "https://guichet.public.lu/en/citoyens/famille-education/enseignement-secondaire/jeune-recemment-arrive-pays/reconnaissance-etudes/reconnaissance-bac-maturite.html"
+    },
+    {
+      "claim": "wnioski na licencjat od końca kwietnia do połowy września; 200 EUR za semestr podane dla doktorantów; ścieżka rejestracji przez SEVE",
+      "url": "https://guichet.public.lu/en/citoyens/famille-education/etudes-superieures/inscription-etudes-superieures/inscription-uni-lux.html"
+    },
+    {
+      "claim": "kryteria, kierunki i opłaty (do odczytania ręcznie)",
+      "url": "https://www.uni.lu/en/admissions/bachelor-master/"
+    }
+  ]
+}

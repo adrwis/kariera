@@ -88,6 +88,8 @@ for (const [slug, name, country, eu] of CITIES) {
     // Programy oparte na streszczeniach z wyszukiwarki (agent zaznaczył to w uwagach) nie trafiają na stronę: tylko oficjalne źródła
     programs: (u.programs || []).filter(p => !/wynik(ów|i) wyszukiwani|streszczeni\w* z wyszukiwar/i.test(`${p.notes || ''} ${JSON.stringify(p.sources || '')}`)).map(programOf).filter(p => p.name && (p.tuitionEu || p.tuitionNonEu || p.matura || p.requirements || p.deadline) && p.academicYear),  // puste programy (sam opis i czas trwania) nie trafiają na stronę
   })).filter(u => u.programs.length);
+  // Miasto bez żadnego programu z potwierdzonymi danymi (np. strony uczelni nie dały się odczytać) zostaje „w przygotowaniu”
+  if (!universities.reduce((a, u) => a + u.programs.length, 0)) { index.push({ slug, name, country, eu, status: 'w przygotowaniu', universities: 0, programs: 0 }); continue; }
   const data = { slug, name, country, eu, retrieved: text(raw.retrieved), summary: sum.items, sources: sum.sources, gaps: (raw.luki || []).map(x => text(x)).filter(x => x && !/^[^.]*\b(nie użyłem|nie użyłam|nie sprawdzałem|nie sprawdzałam)\b[^.]*(limit|portal)/i.test(x)).map(clean).filter(Boolean), universities };
   fs.writeFileSync(path.join(OUT, slug + '.json'), JSON.stringify(data));
   index.push({ slug, name, country, eu, status: 'dostępne', retrieved: data.retrieved, universities: universities.length, programs: universities.reduce((a, u) => a + u.programs.length, 0) });

@@ -1,0 +1,634 @@
+{
+  "city": "Lublana",
+  "country": "Słowenia",
+  "retrieved": "2026-10-03",
+  "overview": {
+    "polishMatura": "Słowenia uznaje zagraniczne świadectwo w procedurze uznania wykształcenia na potrzeby kontynuacji nauki. Wniosek o przyjęcie w eVŠ jest zarazem wnioskiem o uznanie; decyzję wydaje uniwersytet (w Lublanie służba recognition@uni-lj.si) w ciągu dwóch miesięcy od kompletnego wniosku. Przy limicie miejsc wynik przelicza się na słoweńską skalę: do 34 punktów z trzech przedmiotów wspólnych (język ojczysty, język obcy, matematyka) i dwóch przedmiotów dodatkowych, z premią za poziom rozszerzony. Osobnej tabeli dla Polski w ogłoszeniu nie znaleziono.",
+    "tuition": "Obywatele UE płacą 0 EUR za stacjonarne studia pierwszego stopnia i jednolite magisterskie na uczelni publicznej, w tym w programach po angielsku, o ile nie mają już wykształcenia na tym poziomie ani nie zmieniali kierunku. Opłaty obowiązkowe to niewielkie składki studenckie (np. 61,60 EUR rocznie na Wydziale Ekonomii, 1 do 3 EUR składki samorządowej na innych wydziałach). Osoby spoza UE płacą od 3 400 do 15 000 EUR rocznie zależnie od kierunku (cenniki UL 2026/27).",
+    "tuitionSource": "https://www.uni-lj.si/en/study/tuition-fees-and-other-study-contributions",
+    "generalDeadlines": "Nabór 2026/27 dla obywateli UE: wniosek w eVŠ od 18 lutego do 18 marca 2026, drugi termin 20 do 27 sierpnia 2026, wolne miejsca 23 do 24 września 2026. Świadectwo zdobyte za granicą w 2026: skany do 31 lipca 2026. Terminy na 2027/28 jeszcze nieopublikowane; Wydział Ekonomii zapowiada nabór od połowy lutego 2027. Wyniki limitu i minimum punktów publikuje ministerstwo w lipcu.",
+    "englishProof": "Studia licencjackie na uczelniach publicznych w Lublanie są prawie wyłącznie po słoweńsku. Medycyna, prawo, psychologia i dziennikarstwo wymagają słoweńskiego na poziomie B2. Po angielsku jest wersja licencjatu na Wydziale Ekonomii (angielski B2), a na FRI magister Data Science.",
+    "portal": "Wniosek składa się w krajowym systemie eVŠ (portal.evs.gov.si), a nie osobno na uczelni; obsługę pierwszego terminu na UL prowadzi centralnie VPIS UL (admission@uni-lj.si).",
+    "limit": "Przy kierunkach z limitem decyduje suma punktów z matury i ocen z klas 3 i 4 (bez egzaminów wstępnych poza architekturą). Ministerstwo publikuje minima punktów po pierwszym terminie; w 2026/27 były to np. 91,2 dla psychologii, 83,9 dla medycyny, 76 dla prawa, 51,5 dla informatyki (skala do 100).",
+    "sourceUrls": [
+      "https://www.gov.si/zbirke/javne-objave/razpis-za-vpis-v-dodiplomske-in-enovite-magistrske-studijske-programe-v-studijskem-letu-2026-2027/",
+      "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+      "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Skupne-dolocbe/Uvodne-dolocbe-26_27.pdf",
+      "https://www.uni-lj.si/en/study/tuition-fees-and-other-study-contributions"
+    ]
+  },
+  "universities": [
+    {
+      "name": "Univerza v Ljubljani (University of Ljubljana)",
+      "url": "https://www.uni-lj.si",
+      "type": "uniwersytet",
+      "programs": [
+        {
+          "name": "Psihologija (univerzitetni študij prve stopnje)",
+          "nameEn": "Psychology (Bachelor)",
+          "careerIds": [
+            "psycholog"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "słoweński"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany; nabór 2027/28 jeszcze nie ogłoszony)",
+          "tuition": {
+            "eu": "0 EUR czesnego: obywatele UE nie płacą za studia stacjonarne pierwszego stopnia i jednolite magisterskie w uczelni publicznej (czesne płacą tylko osoby, które mają już wykształcenie na tym poziomie lub zmieniały kierunek albo powtarzały rok).",
+            "nonEu": "3 400 EUR rocznie (cennik UL 2026/27, Wydział Filozoficzny; liczba wskazuje opłatę dla osób płacących)",
+            "sourceUrl": "https://www.uni-lj.si/en/study/tuition-fees-and-other-study-contributions",
+            "nonEuSourceUrl": "https://www.uni-lj.si/assets/Sluzba-za-1-in-2-stopnjo/Cenik/2026-2027/Anglescina/University-of-Ljubljana-Faculty-of-Arts.pdf",
+            "quote": "UL: „No tuition fees for full-time bachelor's and master's studies for: Slovenians ... together with students from EU countries”; cennik UL 2026/27 podaje opłatę roczną dla osób płacących.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (świadectwo dojrzałości podlega procedurze uznania; do ostatecznej oceny przez Uniwersytet w Lublanie)",
+            "requirements": "Wymagana matura (splošna matura) lub równoważne uznane świadectwo. Bez egzaminu wstępnego. Przy limicie: 60 % punktów z wyniku matury, 40 % ze średniej ocen z klas 3 i 4. 90 miejsc stacjonarnych (2026/27). Przy limicie miejsc liczą się punkty z matury i ocen z klas 3 i 4 (przeliczone na skalę słoweńską); zasady przeliczania podaje załącznik do ogłoszenia naboru.",
+            "languageProof": "Słoweński B2 (CEFR): certyfikat egzaminu B2 lub równoważny albo inny dokument z listy w ogłoszeniu naboru. Wykłady po słoweńsku.",
+            "selective": true,
+            "sourceUrl": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+            "matura_note": "Każde zagraniczne świadectwo przechodzi procedurę uznania (wniosek w eVŠ jest zarazem wnioskiem o uznanie, decyzja najpóźniej w ciągu dwóch miesięcy od kompletnego wniosku). Przy limicie miejsc wynik matury przelicza się na słoweńską skalę ocen; osobnej tabeli dla Polski nie opublikowano.",
+            "matura_source": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Skupne-dolocbe/Uvodne-dolocbe-26_27.pdf"
+          },
+          "deadline": "Nabór 2026/27 (obywatele UE i Słoweńcy): wniosek w eVŠ od 18 lutego do 18 marca 2026, drugi termin 20 do 27 sierpnia 2026, termin uzupełnienia wolnych miejsc 23 do 24 września 2026 (wszystkie już minęły). Świadectwo ukończenia szkoły za granicą: skany razem z wnioskiem lub do 31 lipca 2026 (pierwszy termin). Terminy na 2027/28 nie są opublikowane; wydział ekonomii zapowiada otwarcie naboru w połowie lutego 2027.",
+          "applyUrl": "https://portal.evs.gov.si/prijava/?locale=en",
+          "sourceUrl": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+          "notes": "Pierwszy termin 2026/27: 164 wnioski z pierwszym wyborem na 90 miejsc, minimum punktów 91,2 (skala do 100) dla kandydatów słoweńskich i z UE. Program tylko po słoweńsku (cennik: „SLO required”). Przy tym kierunku limit faktycznie działa, więc wymagany jest bardzo dobry wynik matury i dobry słoweński.",
+          "sources": [
+            {
+              "claim": "warunki przyjęcia, kryteria, B2 słoweński",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+              "quote": "„V univerzitetni študijski program Psihologija se lahko vpiše, kdor je opravil splošno maturo ... znanje slovenskega jezika na ravni B2 ... 60 % točk ... 40 % točk”; miejsca: Psihologija 90"
+            },
+            {
+              "claim": "minimum punktów, miejsca, liczba wniosków (pierwszy termin 2026/27, dane z 23.07.2026)",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Ostalo/1_rok_slo_eu_prijave_omejitve_sprejeti_min_2026_2027_ZAOBJAVO-23.-7.-2026.xlsx",
+              "quote": "Psihologija, REDNI, razpisanih 90, prijav 164, sprejetih 93, minimum 91,2"
+            },
+            {
+              "claim": "czesne dla osób płacących",
+              "url": "https://www.uni-lj.si/assets/Sluzba-za-1-in-2-stopnjo/Cenik/2026-2027/Anglescina/University-of-Ljubljana-Faculty-of-Arts.pdf",
+              "quote": "Psychology AP 3 180 SLO required 3.400,00 EUR rocznie, 10.200,00 EUR za program"
+            }
+          ],
+          "faculty": "Filozofska fakulteta (Wydział Filozoficzny)",
+          "places": 90,
+          "minPointsFirstRound2026": 91.2
+        },
+        {
+          "name": "Računalništvo in informatika (univerzitetni študij prve stopnje)",
+          "nameEn": "Computer and Information Science (University Bachelor)",
+          "careerIds": [
+            "programista",
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "słoweński"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany; nabór 2027/28 jeszcze nie ogłoszony)",
+          "tuition": {
+            "eu": "0 EUR czesnego: obywatele UE nie płacą za studia stacjonarne pierwszego stopnia i jednolite magisterskie w uczelni publicznej (czesne płacą tylko osoby, które mają już wykształcenie na tym poziomie lub zmieniały kierunek albo powtarzały rok).",
+            "nonEu": "11 000 EUR rocznie (strona FRI i cennik UL 2026/27; 15 miejsc dla cudzoziemców spoza UE)",
+            "sourceUrl": "https://www.uni-lj.si/en/study/tuition-fees-and-other-study-contributions",
+            "nonEuSourceUrl": "https://www.uni-lj.si/assets/Sluzba-za-1-in-2-stopnjo/Cenik/2026-2027/Anglescina/University-of-Ljubljana-Faculty-of-Computer-and-Information-Science.pdf",
+            "quote": "UL: „No tuition fees for full-time bachelor's and master's studies for: Slovenians ... together with students from EU countries”; cennik UL 2026/27 podaje opłatę roczną dla osób płacących.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (świadectwo dojrzałości podlega procedurze uznania; do ostatecznej oceny przez Uniwersytet w Lublanie)",
+            "requirements": "Wymagana matura lub równoważne uznane świadectwo; bez egzaminu wstępnego. Przy limicie: 60 % punktów z matury, 35 % ze średniej z klas 3 i 4, 5 % z ocen z matematyki w klasach 3 i 4. 170 miejsc stacjonarnych (2026/27). Przy limicie miejsc liczą się punkty z matury i ocen z klas 3 i 4 (przeliczone na skalę słoweńską); zasady przeliczania podaje załącznik do ogłoszenia naboru.",
+            "languageProof": "W ogłoszeniu naboru brak wymogu certyfikatu językowego przy zapisie, ale wykłady są po słoweńsku (ocena poziomu językowego do potwierdzenia na wydziale).",
+            "selective": true,
+            "sourceUrl": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+            "matura_note": "Każde zagraniczne świadectwo przechodzi procedurę uznania (wniosek w eVŠ jest zarazem wnioskiem o uznanie, decyzja najpóźniej w ciągu dwóch miesięcy od kompletnego wniosku). Przy limicie miejsc wynik matury przelicza się na słoweńską skalę ocen; osobnej tabeli dla Polski nie opublikowano.",
+            "matura_source": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Skupne-dolocbe/Uvodne-dolocbe-26_27.pdf"
+          },
+          "deadline": "Nabór 2026/27 (obywatele UE i Słoweńcy): wniosek w eVŠ od 18 lutego do 18 marca 2026, drugi termin 20 do 27 sierpnia 2026, termin uzupełnienia wolnych miejsc 23 do 24 września 2026 (wszystkie już minęły). Świadectwo ukończenia szkoły za granicą: skany razem z wnioskiem lub do 31 lipca 2026 (pierwszy termin). Terminy na 2027/28 nie są opublikowane; wydział ekonomii zapowiada otwarcie naboru w połowie lutego 2027.",
+          "applyUrl": "https://portal.evs.gov.si/prijava/?locale=en",
+          "sourceUrl": "https://www.fri.uni-lj.si/en/study-programme/computer-and-information-science",
+          "notes": "Pierwszy termin 2026/27: 178 wniosków z pierwszym wyborem na 170 miejsc, minimum punktów 51,5. Kurs wyłącznie po słoweńsku; na poziomie licencjackim FRI nie ma programu po angielsku. Moduły w trzecim roku: Informatika, Programska oprema, Računalniški sistemi in omrežja, Umetna inteligenca, Medijske tehnologije. Istnieje też program zawodowy (visokošolski strokovni) i program interdyscyplinarny Računalništvo in matematika (po słoweńsku).",
+          "sources": [
+            {
+              "claim": "strona programu: język, terminy, czesne",
+              "url": "https://www.fri.uni-lj.si/en/study-programme/computer-and-information-science",
+              "quote": "„Courses will be taught in Slovene.” „For applicants from EU, Macedonia, Montenegro, Bosnia and Herzegovina and Serbia there is no tuition fee required.” „Tuition fee is 11,000€ per year.” „First application period: 18th March 2026”"
+            },
+            {
+              "claim": "warunki i kryteria",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+              "quote": "„V univerzitetni študijski program Računalništvo in informatika se lahko vpiše: a) kdor je opravil splošno maturo ... 60 % ... 35 % ... 5 %”; miejsca 170"
+            },
+            {
+              "claim": "minimum punktów, miejsca, liczba wniosków (pierwszy termin 2026/27, dane z 23.07.2026)",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Ostalo/1_rok_slo_eu_prijave_omejitve_sprejeti_min_2026_2027_ZAOBJAVO-23.-7.-2026.xlsx",
+              "quote": "Računalništvo in informatika, univerzitetni, REDNI, razpisanih 170, prijav 178, sprejetih 170, minimum 51,5"
+            }
+          ],
+          "faculty": "Fakulteta za računalništvo in informatiko (FRI)",
+          "places": 170,
+          "minPointsFirstRound2026": 51.5,
+          "programUrl": "https://www.fri.uni-lj.si/en/study-programme/computer-and-information-science"
+        },
+        {
+          "name": "Data Science (magistrski študij druge stopnje, izvedba v angleščini)",
+          "nameEn": "Data Science (Master, taught in English)",
+          "careerIds": [
+            "analityk-danych"
+          ],
+          "level": "magister",
+          "durationYears": 2,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany; nabór 2027/28 jeszcze nie ogłoszony)",
+          "tuition": {
+            "eu": "0 EUR czesnego: obywatele UE nie płacą za studia stacjonarne pierwszego stopnia i jednolite magisterskie w uczelni publicznej (czesne płacą tylko osoby, które mają już wykształcenie na tym poziomie lub zmieniały kierunek albo powtarzały rok).",
+            "nonEu": "14 700 EUR rocznie (strona FRI; 8 miejsc dla cudzoziemców spoza UE)",
+            "sourceUrl": "https://www.uni-lj.si/en/study/tuition-fees-and-other-study-contributions",
+            "nonEuSourceUrl": "https://fri.uni-lj.si/en/study-programme/data-science",
+            "quote": "UL: „No tuition fees for full-time bachelor's and master's studies for: Slovenians ... together with students from EU countries”; cennik UL 2026/27 podaje opłatę roczną dla osób płacących.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "nie dotyczy matury: wymagany dyplom licencjata (studia drugiego stopnia)",
+            "requirements": "Dyplom pierwszego stopnia, selekcja na podstawie średniej ze studiów i egzaminu wstępnego (matematyka 40 %, programowanie 40 %, algorytmy 10 %, systemy komputerowe 10 %). Termin w czerwcu 2026.",
+            "languageProof": "Wykłady w całości po angielsku; dokładny wymagany certyfikat nie został znaleziony na stronie programu.",
+            "selective": true,
+            "sourceUrl": "https://fri.uni-lj.si/en/study-programme/data-science",
+            "matura_note": "Każde zagraniczne świadectwo przechodzi procedurę uznania (wniosek w eVŠ jest zarazem wnioskiem o uznanie, decyzja najpóźniej w ciągu dwóch miesięcy od kompletnego wniosku). Przy limicie miejsc wynik matury przelicza się na słoweńską skalę ocen; osobnej tabeli dla Polski nie opublikowano.",
+            "matura_source": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Skupne-dolocbe/Uvodne-dolocbe-26_27.pdf"
+          },
+          "deadline": "Czerwiec 2026 (rok akademicki 2026/27, minął); termin na 2027/28 nieopublikowany. Wniosek przez eVŠ.",
+          "applyUrl": "https://portal.evs.gov.si/prijava/?locale=en",
+          "sourceUrl": "https://fri.uni-lj.si/en/study-programme/data-science",
+          "notes": "Jedyny program z listy w pełni po angielsku na FRI, ale to studia drugiego stopnia, więc nie jest drogą dla maturzysty. Dodany dla zawodu analityk danych, bo licencjat FRI jest po słoweńsku.",
+          "sources": [
+            {
+              "claim": "język, czesne, miejsca, egzamin",
+              "url": "https://fri.uni-lj.si/en/study-programme/data-science",
+              "quote": "„Courses will be taught in English.” „Tuition fee is 14.700€ per year. For applicants from EU ... there is no tuition fee required.” „There are 8 slots available for international students.” „Deadlines: June 2026”"
+            }
+          ],
+          "faculty": "Fakulteta za računalništvo in informatiko (FRI)",
+          "programUrl": "https://fri.uni-lj.si/en/study-programme/data-science"
+        },
+        {
+          "name": "Medicina (enoviti magistrski študij druge stopnje)",
+          "nameEn": "Medicine (single-cycle master)",
+          "careerIds": [
+            "lekarz"
+          ],
+          "level": "jednolite",
+          "durationYears": 6,
+          "languages": [
+            "słoweński"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany; nabór 2027/28 jeszcze nie ogłoszony)",
+          "tuition": {
+            "eu": "0 EUR czesnego: obywatele UE nie płacą za studia stacjonarne pierwszego stopnia i jednolite magisterskie w uczelni publicznej (czesne płacą tylko osoby, które mają już wykształcenie na tym poziomie lub zmieniały kierunek albo powtarzały rok).",
+            "nonEu": "15 000 EUR rocznie (cennik UL 2026/27, Wydział Lekarski; 90 000 EUR za cały program)",
+            "sourceUrl": "https://www.uni-lj.si/en/study/tuition-fees-and-other-study-contributions",
+            "nonEuSourceUrl": "https://www.uni-lj.si/assets/Sluzba-za-1-in-2-stopnjo/Cenik/2026-2027/Anglescina/University-of-Ljubljana-Faculty-of-Medicine.pdf",
+            "quote": "UL: „No tuition fees for full-time bachelor's and master's studies for: Slovenians ... together with students from EU countries”; cennik UL 2026/27 podaje opłatę roczną dla osób płacących.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (świadectwo dojrzałości podlega procedurze uznania; do ostatecznej oceny przez Uniwersytet w Lublanie)",
+            "requirements": "Wymagana matura lub równoważne uznane świadectwo. Bez egzaminu wstępnego. Przy limicie: 30 % punktów z wyniku matury, 10 % ze średniej z klas 3 i 4, 60 % z ocen z matematyki, języka obcego i jednego przedmiotu przyrodniczego (biologia, fizyka lub chemia). 240 miejsc stacjonarnych (2026/27). Przy limicie miejsc liczą się punkty z matury i ocen z klas 3 i 4 (przeliczone na skalę słoweńską); zasady przeliczania podaje załącznik do ogłoszenia naboru.",
+            "languageProof": "Słoweński B2 (CEFR) wymagany przy wniosku (certyfikat egzaminu B2 lub inny dokument z listy). Wykłady po słoweńsku.",
+            "selective": true,
+            "sourceUrl": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+            "matura_note": "Każde zagraniczne świadectwo przechodzi procedurę uznania (wniosek w eVŠ jest zarazem wnioskiem o uznanie, decyzja najpóźniej w ciągu dwóch miesięcy od kompletnego wniosku). Przy limicie miejsc wynik matury przelicza się na słoweńską skalę ocen; osobnej tabeli dla Polski nie opublikowano.",
+            "matura_source": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Skupne-dolocbe/Uvodne-dolocbe-26_27.pdf"
+          },
+          "deadline": "Nabór 2026/27 (obywatele UE i Słoweńcy): wniosek w eVŠ od 18 lutego do 18 marca 2026, drugi termin 20 do 27 sierpnia 2026, termin uzupełnienia wolnych miejsc 23 do 24 września 2026 (wszystkie już minęły). Świadectwo ukończenia szkoły za granicą: skany razem z wnioskiem lub do 31 lipca 2026 (pierwszy termin). Terminy na 2027/28 nie są opublikowane; wydział ekonomii zapowiada otwarcie naboru w połowie lutego 2027.",
+          "applyUrl": "https://portal.evs.gov.si/prijava/?locale=en",
+          "sourceUrl": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+          "notes": "Pierwszy termin 2026/27: 467 wniosków z pierwszym wyborem na 240 miejsc, minimum punktów 83,9. Cennik oznacza program „SLO required”. Brak wersji angielskiej.",
+          "sources": [
+            {
+              "claim": "warunki, kryteria, B2 słoweński",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+              "quote": "„Vsi kandidati morajo pri prijavi izkazati znanje slovenskega jezika na ravni B2 ... 30 % točk ... 10 % točk ... 60 % točk”; Medicina 240"
+            },
+            {
+              "claim": "minimum punktów, miejsca, liczba wniosków (pierwszy termin 2026/27, dane z 23.07.2026)",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Ostalo/1_rok_slo_eu_prijave_omejitve_sprejeti_min_2026_2027_ZAOBJAVO-23.-7.-2026.xlsx",
+              "quote": "Medicina, enovit magistrski, REDNI, razpisanih 240, prijav 467, sprejetih 250, minimum 83,9"
+            },
+            {
+              "claim": "czesne dla osób płacących",
+              "url": "https://www.uni-lj.si/assets/Sluzba-za-1-in-2-stopnjo/Cenik/2026-2027/Anglescina/University-of-Ljubljana-Faculty-of-Medicine.pdf",
+              "quote": "Medicine (SCM) (SLO required) 6 lat, 360 ECTS, 15.000,00 EUR rocznie"
+            }
+          ],
+          "faculty": "Medicinska fakulteta (Wydział Lekarski)",
+          "places": 240,
+          "minPointsFirstRound2026": 83.9
+        },
+        {
+          "name": "Pravo (enoviti magistrski študij druge stopnje)",
+          "nameEn": "Law (single-cycle master)",
+          "careerIds": [
+            "prawnik"
+          ],
+          "level": "jednolite",
+          "durationYears": 5,
+          "languages": [
+            "słoweński"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany; nabór 2027/28 jeszcze nie ogłoszony)",
+          "tuition": {
+            "eu": "0 EUR czesnego: obywatele UE nie płacą za studia stacjonarne pierwszego stopnia i jednolite magisterskie w uczelni publicznej (czesne płacą tylko osoby, które mają już wykształcenie na tym poziomie lub zmieniały kierunek albo powtarzały rok).",
+            "nonEu": "3 400 EUR rocznie (cennik UL 2026/27, Wydział Prawa; 17 000 EUR za cały program)",
+            "sourceUrl": "https://www.uni-lj.si/en/study/tuition-fees-and-other-study-contributions",
+            "nonEuSourceUrl": "https://www.uni-lj.si/assets/Sluzba-za-1-in-2-stopnjo/Cenik/2026-2027/Anglescina/University-of-Ljubljana-Faculty-of-Law.pdf",
+            "quote": "UL: „No tuition fees for full-time bachelor's and master's studies for: Slovenians ... together with students from EU countries”; cennik UL 2026/27 podaje opłatę roczną dla osób płacących.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (świadectwo dojrzałości podlega procedurze uznania; do ostatecznej oceny przez Uniwersytet w Lublanie)",
+            "requirements": "Wymagana matura lub równoważne uznane świadectwo. Bez egzaminu wstępnego. Przy limicie: 60 % punktów z wyniku matury, 40 % ze średniej z klas 3 i 4. 250 miejsc stacjonarnych i 100 zaocznych (2026/27). Przy limicie miejsc liczą się punkty z matury i ocen z klas 3 i 4 (przeliczone na skalę słoweńską); zasady przeliczania podaje załącznik do ogłoszenia naboru.",
+            "languageProof": "Słoweński B2 (CEFR): certyfikat egzaminu B2 lub równoważny albo inny dokument z listy w ogłoszeniu naboru. Wykłady po słoweńsku.",
+            "selective": true,
+            "sourceUrl": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+            "matura_note": "Każde zagraniczne świadectwo przechodzi procedurę uznania (wniosek w eVŠ jest zarazem wnioskiem o uznanie, decyzja najpóźniej w ciągu dwóch miesięcy od kompletnego wniosku). Przy limicie miejsc wynik matury przelicza się na słoweńską skalę ocen; osobnej tabeli dla Polski nie opublikowano.",
+            "matura_source": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Skupne-dolocbe/Uvodne-dolocbe-26_27.pdf"
+          },
+          "deadline": "Nabór 2026/27 (obywatele UE i Słoweńcy): wniosek w eVŠ od 18 lutego do 18 marca 2026, drugi termin 20 do 27 sierpnia 2026, termin uzupełnienia wolnych miejsc 23 do 24 września 2026 (wszystkie już minęły). Świadectwo ukończenia szkoły za granicą: skany razem z wnioskiem lub do 31 lipca 2026 (pierwszy termin). Terminy na 2027/28 nie są opublikowane; wydział ekonomii zapowiada otwarcie naboru w połowie lutego 2027.",
+          "applyUrl": "https://portal.evs.gov.si/prijava/?locale=en",
+          "sourceUrl": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+          "notes": "Pierwszy termin 2026/27: 330 wniosków z pierwszym wyborem na 250 miejsc, minimum punktów 76. Program tylko po słoweńsku, język prawniczy wymaga bardzo dobrego słoweńskiego mimo wymogu B2.",
+          "sources": [
+            {
+              "claim": "warunki, kryteria, B2 słoweński",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+              "quote": "„V enoviti magistrski študijski program Pravo se lahko vpiše, kdor je opravil splošno maturo ... znanje slovenskega jezika na ravni B2 ... 60 % točk ... 40 % točk”; Pravo 250 redni"
+            },
+            {
+              "claim": "minimum punktów, miejsca, liczba wniosków (pierwszy termin 2026/27, dane z 23.07.2026)",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Ostalo/1_rok_slo_eu_prijave_omejitve_sprejeti_min_2026_2027_ZAOBJAVO-23.-7.-2026.xlsx",
+              "quote": "Pravo, enovit magistrski, REDNI, razpisanih 250, prijav 330, sprejetih 250, minimum 76"
+            },
+            {
+              "claim": "czesne dla osób płacących",
+              "url": "https://www.uni-lj.si/assets/Sluzba-za-1-in-2-stopnjo/Cenik/2026-2027/Anglescina/University-of-Ljubljana-Faculty-of-Law.pdf",
+              "quote": "Law SCM 5 lat, 300 ECTS, SLO, 3.400,00 EUR rocznie"
+            }
+          ],
+          "faculty": "Pravna fakulteta (Wydział Prawa)",
+          "places": 250,
+          "minPointsFirstRound2026": 76
+        },
+        {
+          "name": "Arhitektura (enoviti magistrski študij druge stopnje)",
+          "nameEn": "Architecture (single-cycle master)",
+          "careerIds": [
+            "architekt"
+          ],
+          "level": "jednolite",
+          "durationYears": 5,
+          "languages": [
+            "słoweński"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany; nabór 2027/28 jeszcze nie ogłoszony)",
+          "tuition": {
+            "eu": "0 EUR czesnego: obywatele UE nie płacą za studia stacjonarne pierwszego stopnia i jednolite magisterskie w uczelni publicznej (czesne płacą tylko osoby, które mają już wykształcenie na tym poziomie lub zmieniały kierunek albo powtarzały rok).",
+            "nonEu": "4 700 EUR rocznie (cennik UL 2026/27, Wydział Architektury; 23 500 EUR za cały program)",
+            "sourceUrl": "https://www.uni-lj.si/en/study/tuition-fees-and-other-study-contributions",
+            "nonEuSourceUrl": "https://www.uni-lj.si/assets/Sluzba-za-1-in-2-stopnjo/Cenik/2026-2027/Anglescina/University-of-Ljubljana-Faculty-of-Architecture.pdf",
+            "quote": "UL: „No tuition fees for full-time bachelor's and master's studies for: Slovenians ... together with students from EU countries”; cennik UL 2026/27 podaje opłatę roczną dla osób płacących.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (świadectwo dojrzałości podlega procedurze uznania; do ostatecznej oceny przez Uniwersytet w Lublanie)",
+            "requirements": "Wymagana matura lub równoważne uznane świadectwo oraz obowiązkowy test zdolności (część plastyczno-przestrzenna 37,5 % i rozmowa 37,5 %). Przy limicie: 75 % punktów z testu, 12,5 % z wyniku matury, 12,5 % ze średniej z klas 3 i 4. Test w 2026: 2 i 3 lipca (pierwszy termin) oraz 8 i 9 września (drugi termin). 110 miejsc stacjonarnych, 10 zaocznych.",
+            "languageProof": "W ogłoszeniu naboru brak wymogu certyfikatu słoweńskiego, ale wykłady są po słoweńsku, a część testu to rozmowa (język rozmowy do potwierdzenia na wydziale).",
+            "selective": true,
+            "sourceUrl": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+            "matura_note": "Każde zagraniczne świadectwo przechodzi procedurę uznania (wniosek w eVŠ jest zarazem wnioskiem o uznanie, decyzja najpóźniej w ciągu dwóch miesięcy od kompletnego wniosku). Przy limicie miejsc wynik matury przelicza się na słoweńską skalę ocen; osobnej tabeli dla Polski nie opublikowano.",
+            "matura_source": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Skupne-dolocbe/Uvodne-dolocbe-26_27.pdf"
+          },
+          "deadline": "Nabór 2026/27 (obywatele UE i Słoweńcy): wniosek w eVŠ od 18 lutego do 18 marca 2026, drugi termin 20 do 27 sierpnia 2026, termin uzupełnienia wolnych miejsc 23 do 24 września 2026 (wszystkie już minęły). Świadectwo ukończenia szkoły za granicą: skany razem z wnioskiem lub do 31 lipca 2026 (pierwszy termin). Terminy na 2027/28 nie są opublikowane; wydział ekonomii zapowiada otwarcie naboru w połowie lutego 2027.",
+          "applyUrl": "https://portal.evs.gov.si/prijava/?locale=en",
+          "sourceUrl": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+          "notes": "Pierwszy termin 2026/27: 269 wniosków z pierwszym wyborem na 110 miejsc (87 przyjętych). Test odbywa się na miejscu w Lublanie, tylko raz w danym naborze i wynik ważny tylko w danym roku.",
+          "sources": [
+            {
+              "claim": "test zdolności, kryteria, miejsca",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+              "quote": "„Vsi kandidati morajo opraviti preizkus sposobnosti za študij arhitekture ... 75 % točk ... 12,5 % ... 2. in 3. julija 2026”; Arhitektura 110 redni, 10 izredni"
+            },
+            {
+              "claim": "minimum punktów, miejsca, liczba wniosków (pierwszy termin 2026/27, dane z 23.07.2026)",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Ostalo/1_rok_slo_eu_prijave_omejitve_sprejeti_min_2026_2027_ZAOBJAVO-23.-7.-2026.xlsx",
+              "quote": "Arhitektura, enovit magistrski, REDNI, razpisanih 110, prijav 269, sprejetih 87"
+            },
+            {
+              "claim": "czesne dla osób płacących",
+              "url": "https://www.uni-lj.si/assets/Sluzba-za-1-in-2-stopnjo/Cenik/2026-2027/Anglescina/University-of-Ljubljana-Faculty-of-Architecture.pdf",
+              "quote": "Architecture (SCM) 5 lat, 300 ECTS, SLO, 4.700,00 EUR rocznie"
+            }
+          ],
+          "faculty": "Fakulteta za arhitekturo (UL FA)",
+          "places": 110
+        },
+        {
+          "name": "Gradbeništvo (univerzitetni študij prve stopnje)",
+          "nameEn": "Civil Engineering (University Bachelor)",
+          "careerIds": [
+            "inzynier-budownictwa"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "słoweński"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany; nabór 2027/28 jeszcze nie ogłoszony)",
+          "tuition": {
+            "eu": "0 EUR czesnego: obywatele UE nie płacą za studia stacjonarne pierwszego stopnia i jednolite magisterskie w uczelni publicznej (czesne płacą tylko osoby, które mają już wykształcenie na tym poziomie lub zmieniały kierunek albo powtarzały rok).",
+            "nonEu": "13 100 EUR rocznie (cennik UL 2026/27, Wydział Budownictwa i Geodezji)",
+            "sourceUrl": "https://www.uni-lj.si/en/study/tuition-fees-and-other-study-contributions",
+            "nonEuSourceUrl": "https://www.uni-lj.si/assets/Sluzba-za-1-in-2-stopnjo/Cenik/2026-2027/Anglescina/University-of-Ljubljana-Faculty-of-Civil-and-Geodetic-Engineering.pdf",
+            "quote": "UL: „No tuition fees for full-time bachelor's and master's studies for: Slovenians ... together with students from EU countries”; cennik UL 2026/27 podaje opłatę roczną dla osób płacących.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (świadectwo dojrzałości podlega procedurze uznania; do ostatecznej oceny przez Uniwersytet w Lublanie)",
+            "requirements": "Wymagana matura lub równoważne uznane świadectwo; bez egzaminu wstępnego. Przy limicie: 60 % punktów z wyniku matury, 40 % ze średniej z klas 3 i 4. 110 miejsc stacjonarnych (2026/27). Przy limicie miejsc liczą się punkty z matury i ocen z klas 3 i 4 (przeliczone na skalę słoweńską); zasady przeliczania podaje załącznik do ogłoszenia naboru.",
+            "languageProof": "W ogłoszeniu naboru brak wymogu certyfikatu językowego przy zapisie, ale wykłady są po słoweńsku (ocena poziomu językowego do potwierdzenia na wydziale).",
+            "selective": true,
+            "sourceUrl": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+            "matura_note": "Każde zagraniczne świadectwo przechodzi procedurę uznania (wniosek w eVŠ jest zarazem wnioskiem o uznanie, decyzja najpóźniej w ciągu dwóch miesięcy od kompletnego wniosku). Przy limicie miejsc wynik matury przelicza się na słoweńską skalę ocen; osobnej tabeli dla Polski nie opublikowano.",
+            "matura_source": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Skupne-dolocbe/Uvodne-dolocbe-26_27.pdf"
+          },
+          "deadline": "Nabór 2026/27 (obywatele UE i Słoweńcy): wniosek w eVŠ od 18 lutego do 18 marca 2026, drugi termin 20 do 27 sierpnia 2026, termin uzupełnienia wolnych miejsc 23 do 24 września 2026 (wszystkie już minęły). Świadectwo ukończenia szkoły za granicą: skany razem z wnioskiem lub do 31 lipca 2026 (pierwszy termin). Terminy na 2027/28 nie są opublikowane; wydział ekonomii zapowiada otwarcie naboru w połowie lutego 2027.",
+          "applyUrl": "https://portal.evs.gov.si/prijava/?locale=en",
+          "sourceUrl": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+          "notes": "Pierwszy termin 2026/27: 129 wniosków z pierwszym wyborem na 110 miejsc, minimum punktów 63. Moduły w trzecim roku: Hidrotehnika, Komunala, Konstrukcije, Promet, Stavbarstvo.",
+          "sources": [
+            {
+              "claim": "warunki, kryteria",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+              "quote": "„V univerzitetni študijski program Gradbeništvo se lahko vpiše: a) kdor je opravil splošno maturo ... 60 % točk ... 40 % točk”; Gradbeništvo 110"
+            },
+            {
+              "claim": "minimum punktów, miejsca, liczba wniosków (pierwszy termin 2026/27, dane z 23.07.2026)",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Ostalo/1_rok_slo_eu_prijave_omejitve_sprejeti_min_2026_2027_ZAOBJAVO-23.-7.-2026.xlsx",
+              "quote": "Gradbeništvo, univerzitetni, REDNI, razpisanih 110, prijav 129, sprejetih 114, minimum 63"
+            },
+            {
+              "claim": "czesne dla osób płacących",
+              "url": "https://www.uni-lj.si/assets/Sluzba-za-1-in-2-stopnjo/Cenik/2026-2027/Anglescina/University-of-Ljubljana-Faculty-of-Civil-and-Geodetic-Engineering.pdf",
+              "quote": "Civil engineering AP 3 180 SLO 13.100,00 EUR rocznie"
+            }
+          ],
+          "faculty": "Fakulteta za gradbeništvo in geodezijo (UL FGG)",
+          "places": 110,
+          "minPointsFirstRound2026": 63
+        },
+        {
+          "name": "Strojništvo, razvojno raziskovalni program (univerzitetni študij prve stopnje)",
+          "nameEn": "Mechanical Engineering, Research and Development Programme (University Bachelor)",
+          "careerIds": [
+            "inzynier-mechanik"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "słoweński"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany; nabór 2027/28 jeszcze nie ogłoszony)",
+          "tuition": {
+            "eu": "0 EUR czesnego: obywatele UE nie płacą za studia stacjonarne pierwszego stopnia i jednolite magisterskie w uczelni publicznej (czesne płacą tylko osoby, które mają już wykształcenie na tym poziomie lub zmieniały kierunek albo powtarzały rok).",
+            "nonEu": "11 000 EUR rocznie (cennik UL 2026/27, Wydział Mechaniczny)",
+            "sourceUrl": "https://www.uni-lj.si/en/study/tuition-fees-and-other-study-contributions",
+            "nonEuSourceUrl": "https://www.uni-lj.si/assets/Sluzba-za-1-in-2-stopnjo/Cenik/2026-2027/Anglescina/University-of-Ljubljana-Faculty-of-Mechanical-Engineering.pdf",
+            "quote": "UL: „No tuition fees for full-time bachelor's and master's studies for: Slovenians ... together with students from EU countries”; cennik UL 2026/27 podaje opłatę roczną dla osób płacących.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (świadectwo dojrzałości podlega procedurze uznania; do ostatecznej oceny przez Uniwersytet w Lublanie)",
+            "requirements": "Wymagana matura lub równoważne uznane świadectwo; bez egzaminu wstępnego. Przy limicie: 30 % punktów z wyniku matury, 30 % ze średniej z klas 3 i 4, 20 % z matematyki na maturze, 20 % z fizyki lub mechaniki na maturze. 165 miejsc stacjonarnych (2026/27). Przy limicie miejsc liczą się punkty z matury i ocen z klas 3 i 4 (przeliczone na skalę słoweńską); zasady przeliczania podaje załącznik do ogłoszenia naboru.",
+            "languageProof": "W ogłoszeniu naboru brak wymogu certyfikatu językowego przy zapisie, ale wykłady są po słoweńsku (ocena poziomu językowego do potwierdzenia na wydziale).",
+            "selective": true,
+            "sourceUrl": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+            "matura_note": "Każde zagraniczne świadectwo przechodzi procedurę uznania (wniosek w eVŠ jest zarazem wnioskiem o uznanie, decyzja najpóźniej w ciągu dwóch miesięcy od kompletnego wniosku). Przy limicie miejsc wynik matury przelicza się na słoweńską skalę ocen; osobnej tabeli dla Polski nie opublikowano.",
+            "matura_source": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Skupne-dolocbe/Uvodne-dolocbe-26_27.pdf"
+          },
+          "deadline": "Nabór 2026/27 (obywatele UE i Słoweńcy): wniosek w eVŠ od 18 lutego do 18 marca 2026, drugi termin 20 do 27 sierpnia 2026, termin uzupełnienia wolnych miejsc 23 do 24 września 2026 (wszystkie już minęły). Świadectwo ukończenia szkoły za granicą: skany razem z wnioskiem lub do 31 lipca 2026 (pierwszy termin). Terminy na 2027/28 nie są opublikowane; wydział ekonomii zapowiada otwarcie naboru w połowie lutego 2027.",
+          "applyUrl": "https://portal.evs.gov.si/prijava/?locale=en",
+          "sourceUrl": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+          "notes": "Pierwszy termin 2026/27: 210 wniosków z pierwszym wyborem na 165 miejsc, minimum punktów 68,25. Brak wyboru kierunków, program daje podstawę do studiów drugiego stopnia. Obok istnieje zawodowy program Strojništvo - Projektno aplikativni program (minimum 69).",
+          "sources": [
+            {
+              "claim": "warunki, kryteria",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+              "quote": "„V prvostopenjski univerzitetni študijski program Strojništvo - Razvojno raziskovalni program se lahko vpiše: a) kdor je opravil splošno maturo ... 30 % ... 30 % ... 20 % ... 20 %”; miejsca 165"
+            },
+            {
+              "claim": "minimum punktów, miejsca, liczba wniosków (pierwszy termin 2026/27, dane z 23.07.2026)",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Ostalo/1_rok_slo_eu_prijave_omejitve_sprejeti_min_2026_2027_ZAOBJAVO-23.-7.-2026.xlsx",
+              "quote": "Strojništvo, razvojno raziskovalni program, REDNI, razpisanih 165, prijav 210, sprejetih 165, minimum 68,25"
+            },
+            {
+              "claim": "czesne dla osób płacących",
+              "url": "https://www.uni-lj.si/assets/Sluzba-za-1-in-2-stopnjo/Cenik/2026-2027/Anglescina/University-of-Ljubljana-Faculty-of-Mechanical-Engineering.pdf",
+              "quote": "Mechanical engineering - research and development programme AP 3 180 SLO 11.000,00 EUR rocznie"
+            }
+          ],
+          "faculty": "Fakulteta za strojništvo (UL FS)",
+          "places": 165,
+          "minPointsFirstRound2026": 68.25
+        },
+        {
+          "name": "Univerzitetna poslovna in ekonomska šola (univerzitetni študij prve stopnje), izvedba w języku angielskim i słoweńskim",
+          "nameEn": "University Degree Programme in Business and Economics (English and Slovene track)",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "angielski",
+            "słoweński"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany; nabór 2027/28 jeszcze nie ogłoszony)",
+          "tuition": {
+            "eu": "0 EUR czesnego: obywatele UE nie płacą za studia stacjonarne pierwszego stopnia i jednolite magisterskie w uczelni publicznej (czesne płacą tylko osoby, które mają już wykształcenie na tym poziomie lub zmieniały kierunek albo powtarzały rok).",
+            "nonEu": "3 400 EUR rocznie (strona Wydziału Ekonomii; dotyczy też wersji angielskiej)",
+            "sourceUrl": "https://www.uni-lj.si/en/study/tuition-fees-and-other-study-contributions",
+            "nonEuSourceUrl": "https://www.ef.uni-lj.si/en/study/bachelors-programmes/solnina-in-cenik",
+            "quote": "UL: „No tuition fees for full-time bachelor's and master's studies for: Slovenians ... together with students from EU countries”; cennik UL 2026/27 podaje opłatę roczną dla osób płacących.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (świadectwo dojrzałości podlega procedurze uznania; do ostatecznej oceny przez Uniwersytet w Lublanie)",
+            "requirements": "Wymagana matura lub równoważne uznane świadectwo; bez egzaminu wstępnego. Przy limicie: 60 % punktów z wyniku matury, 40 % ze średniej z klas 3 i 4. 480 miejsc stacjonarnych i 80 zaocznych (2026/27). Specjalizacje po angielsku (wybór w 2. roku): International Business, Marketing, Tourism; limit 120 miejsc w wersji angielskiej. Obowiązkowa składka studencka 61,60 EUR rocznie (2026/27).",
+            "languageProof": "Angielski B2 (CEFR) dla wersji angielskiej: certyfikat B2 (np. TOEFL iBT 72 do 93), świadectwo dojrzałości z angielskim, świadectwo ukończenia szkoły średniej z angielskim jako językiem nauczania lub równoważne.",
+            "selective": true,
+            "sourceUrl": "https://www.ef.uni-lj.si/en/study/bachelors-programmes/prijava-in-vpis",
+            "matura_note": "Każde zagraniczne świadectwo przechodzi procedurę uznania (wniosek w eVŠ jest zarazem wnioskiem o uznanie, decyzja najpóźniej w ciągu dwóch miesięcy od kompletnego wniosku). Przy limicie miejsc wynik matury przelicza się na słoweńską skalę ocen; osobnej tabeli dla Polski nie opublikowano.",
+            "matura_source": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Skupne-dolocbe/Uvodne-dolocbe-26_27.pdf"
+          },
+          "deadline": "Nabór 2026/27 (obywatele UE i Słoweńcy): wniosek w eVŠ od 18 lutego do 18 marca 2026, drugi termin 20 do 27 sierpnia 2026, termin uzupełnienia wolnych miejsc 23 do 24 września 2026 (wszystkie już minęły). Świadectwo ukończenia szkoły za granicą: skany razem z wnioskiem lub do 31 lipca 2026 (pierwszy termin). Terminy na 2027/28 nie są opublikowane; wydział ekonomii zapowiada otwarcie naboru w połowie lutego 2027.",
+          "applyUrl": "https://portal.evs.gov.si/prijava/?locale=en",
+          "sourceUrl": "https://www.ef.uni-lj.si/en/study/bachelors-programmes/university-degree-programme-in-business-and-economics",
+          "notes": "To jedyny licencjat w Lublanie po angielsku wśród uczelni publicznych, jaki znaleziono. Ogłoszenie naboru mówi, że w terminie dla obywateli UE w eVŠ można wybrać tylko wersję słoweńską, a wersję angielską wybiera się w terminie dla osób spoza UE; strona wydziału mówi, że osoby ze szkołą średnią za granicą mogą wybrać wersję angielską „bez ograniczeń” przy zapisie. Jak to działa dla obywatela UE z polską maturą, trzeba potwierdzić z wydziałem. Czesne UE: 0 EUR (strona Wydziału Ekonomii podaje 3 400 EUR dla cudzoziemców spoza UE i wspomina o tej stawce dla wersji angielskiej bez wskazania UE).",
+          "sources": [
+            {
+              "claim": "program, wersja angielska, limit 120 miejsc, kryteria",
+              "url": "https://www.ef.uni-lj.si/en/study/bachelors-programmes/university-degree-programme-in-business-and-economics",
+              "quote": "„The programme is also offered in English.” „Students who have completed their secondary education abroad ... can choose the English-language version of the program without restrictions when enrolling.” „limited to 120 places.”"
+            },
+            {
+              "claim": "wybór wersji w eVŠ, miejsca, angielski B2",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+              "quote": "„Na prijavnem roku za slovenske državljane in državljane držav članic EU bo ob prijavi na redni in izredni študij v eVŠ možno izbrati zgolj slovensko izvedbo študijskega programa.” Redni 480, izredni 80"
+            },
+            {
+              "claim": "czesne i składka",
+              "url": "https://www.ef.uni-lj.si/en/study/bachelors-programmes/solnina-in-cenik",
+              "quote": "„The Tuituon fee for Full-time study is €3,400 per year.” „Study contributions for the 2026/2027 academic year will be paid by each student in the amount of €61.60.” „If a student enrols to the implementation of the programme in the English language, then the tuition fee is €3,400”"
+            },
+            {
+              "claim": "angielski B2 i terminy",
+              "url": "https://www.ef.uni-lj.si/en/study/bachelors-programmes/prijava-in-vpis",
+              "quote": "„All candidates enrolling in a study programme conducted in English language must prove English language proficiency at B2 level”"
+            },
+            {
+              "claim": "minimum punktów, miejsca, liczba wniosków (pierwszy termin 2026/27, dane z 23.07.2026)",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Ostalo/1_rok_slo_eu_prijave_omejitve_sprejeti_min_2026_2027_ZAOBJAVO-23.-7.-2026.xlsx",
+              "quote": "Univerzitetna poslovna in ekonomska šola, REDNI, razpisanih 480, prijav 666, sprejetih 480, minimum 65 (runda słoweńska)"
+            }
+          ],
+          "faculty": "Ekonomska fakulteta (UL School of Economics and Business)",
+          "places": 480,
+          "minPointsFirstRound2026": 65,
+          "programUrl": "https://www.ef.uni-lj.si/en/study/bachelors-programmes/university-degree-programme-in-business-and-economics"
+        },
+        {
+          "name": "Novinarstvo (univerzitetni študij prve stopnje)",
+          "nameEn": "Journalism (University Bachelor)",
+          "careerIds": [
+            "dziennikarz"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "słoweński"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany; nabór 2027/28 jeszcze nie ogłoszony)",
+          "tuition": {
+            "eu": "0 EUR czesnego: obywatele UE nie płacą za studia stacjonarne pierwszego stopnia i jednolite magisterskie w uczelni publicznej (czesne płacą tylko osoby, które mają już wykształcenie na tym poziomie lub zmieniały kierunek albo powtarzały rok).",
+            "nonEu": "4 000 EUR rocznie (cennik UL 2026/27, Wydział Nauk Społecznych)",
+            "sourceUrl": "https://www.uni-lj.si/en/study/tuition-fees-and-other-study-contributions",
+            "nonEuSourceUrl": "https://www.uni-lj.si/assets/Sluzba-za-1-in-2-stopnjo/Cenik/2026-2027/Anglescina/University-of-Ljubljana-Faculty-of-Social-Sciences.pdf",
+            "quote": "UL: „No tuition fees for full-time bachelor's and master's studies for: Slovenians ... together with students from EU countries”; cennik UL 2026/27 podaje opłatę roczną dla osób płacących.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (świadectwo dojrzałości podlega procedurze uznania; do ostatecznej oceny przez Uniwersytet w Lublanie)",
+            "requirements": "Wymagana matura lub równoważne uznane świadectwo; bez egzaminu wstępnego. Przy limicie: 60 % punktów z wyniku matury, 40 % ze średniej z klas 3 i 4. 35 miejsc stacjonarnych (2026/27). Przy limicie miejsc liczą się punkty z matury i ocen z klas 3 i 4 (przeliczone na skalę słoweńską); zasady przeliczania podaje załącznik do ogłoszenia naboru.",
+            "languageProof": "Słoweński B2 (CEFR): certyfikat egzaminu B2 lub równoważny albo inny dokument z listy w ogłoszeniu naboru. Wykłady po słoweńsku.",
+            "selective": true,
+            "sourceUrl": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+            "matura_note": "Każde zagraniczne świadectwo przechodzi procedurę uznania (wniosek w eVŠ jest zarazem wnioskiem o uznanie, decyzja najpóźniej w ciągu dwóch miesięcy od kompletnego wniosku). Przy limicie miejsc wynik matury przelicza się na słoweńską skalę ocen; osobnej tabeli dla Polski nie opublikowano.",
+            "matura_source": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Skupne-dolocbe/Uvodne-dolocbe-26_27.pdf"
+          },
+          "deadline": "Nabór 2026/27 (obywatele UE i Słoweńcy): wniosek w eVŠ od 18 lutego do 18 marca 2026, drugi termin 20 do 27 sierpnia 2026, termin uzupełnienia wolnych miejsc 23 do 24 września 2026 (wszystkie już minęły). Świadectwo ukończenia szkoły za granicą: skany razem z wnioskiem lub do 31 lipca 2026 (pierwszy termin). Terminy na 2027/28 nie są opublikowane; wydział ekonomii zapowiada otwarcie naboru w połowie lutego 2027.",
+          "applyUrl": "https://portal.evs.gov.si/prijava/?locale=en",
+          "sourceUrl": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+          "notes": "Pierwszy termin 2026/27: 30 wniosków z pierwszym wyborem na 35 miejsc, limit nie zadziałał (w tabeli minimum 0; dla kandydatów z drugim i trzecim wyborem 54). Cennik: „SLO required”. Dziennikarstwo po słoweńsku wymaga bardzo dobrego języka.",
+          "sources": [
+            {
+              "claim": "warunki, B2 słoweński, kryteria",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+              "quote": "„V univerzitetni študijski program Novinarstvo se lahko vpiše, kdor je opravil splošno maturo ... znanje slovenskega jezika na ravni B2 ... 60 % točk ... 40 % točk”; Novinarstvo 35"
+            },
+            {
+              "claim": "minimum punktów, miejsca, liczba wniosków (pierwszy termin 2026/27, dane z 23.07.2026)",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Ostalo/1_rok_slo_eu_prijave_omejitve_sprejeti_min_2026_2027_ZAOBJAVO-23.-7.-2026.xlsx",
+              "quote": "Novinarstvo, univerzitetni, REDNI, razpisanih 35, prijav 30, lista omejena NE, sprejetih 35"
+            },
+            {
+              "claim": "czesne dla osób płacących",
+              "url": "https://www.uni-lj.si/assets/Sluzba-za-1-in-2-stopnjo/Cenik/2026-2027/Anglescina/University-of-Ljubljana-Faculty-of-Social-Sciences.pdf",
+              "quote": "Journalism (SLO required) AP 3 180 SLO 4.000,00 EUR rocznie"
+            }
+          ],
+          "faculty": "Fakulteta za družbene vede (UL FDV)",
+          "places": 35
+        },
+        {
+          "name": "Komunikologija, medijske in komunikacijske študije (univerzitetni študij prve stopnje)",
+          "nameEn": "Communication Studies, Media and Communication Studies (University Bachelor)",
+          "careerIds": [
+            "dziennikarz"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "słoweński"
+          ],
+          "academicYear": "2026/27 (ostatni opublikowany; nabór 2027/28 jeszcze nie ogłoszony)",
+          "tuition": {
+            "eu": "0 EUR czesnego: obywatele UE nie płacą za studia stacjonarne pierwszego stopnia i jednolite magisterskie w uczelni publicznej (czesne płacą tylko osoby, które mają już wykształcenie na tym poziomie lub zmieniały kierunek albo powtarzały rok).",
+            "nonEu": "4 000 EUR rocznie (cennik UL 2026/27, Wydział Nauk Społecznych)",
+            "sourceUrl": "https://www.uni-lj.si/en/study/tuition-fees-and-other-study-contributions",
+            "nonEuSourceUrl": "https://www.uni-lj.si/assets/Sluzba-za-1-in-2-stopnjo/Cenik/2026-2027/Anglescina/University-of-Ljubljana-Faculty-of-Social-Sciences.pdf",
+            "quote": "UL: „No tuition fees for full-time bachelor's and master's studies for: Slovenians ... together with students from EU countries”; cennik UL 2026/27 podaje opłatę roczną dla osób płacących.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (świadectwo dojrzałości podlega procedurze uznania; do ostatecznej oceny przez Uniwersytet w Lublanie)",
+            "requirements": "Wymagana matura lub równoważne uznane świadectwo; bez egzaminu wstępnego. Przy limicie: 50 % punktów z wyniku matury, 30 % ze średniej z klas 3 i 4, 10 % z języka obcego na maturze, 10 % z jednego przedmiotu społecznego lub humanistycznego. 30 miejsc stacjonarnych (2026/27). Przy limicie miejsc liczą się punkty z matury i ocen z klas 3 i 4 (przeliczone na skalę słoweńską); zasady przeliczania podaje załącznik do ogłoszenia naboru.",
+            "languageProof": "W ogłoszeniu naboru brak wymogu certyfikatu językowego przy zapisie, ale wykłady są po słoweńsku (ocena poziomu językowego do potwierdzenia na wydziale).",
+            "selective": true,
+            "sourceUrl": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+            "matura_note": "Każde zagraniczne świadectwo przechodzi procedurę uznania (wniosek w eVŠ jest zarazem wnioskiem o uznanie, decyzja najpóźniej w ciągu dwóch miesięcy od kompletnego wniosku). Przy limicie miejsc wynik matury przelicza się na słoweńską skalę ocen; osobnej tabeli dla Polski nie opublikowano.",
+            "matura_source": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Skupne-dolocbe/Uvodne-dolocbe-26_27.pdf"
+          },
+          "deadline": "Nabór 2026/27 (obywatele UE i Słoweńcy): wniosek w eVŠ od 18 lutego do 18 marca 2026, drugi termin 20 do 27 sierpnia 2026, termin uzupełnienia wolnych miejsc 23 do 24 września 2026 (wszystkie już minęły). Świadectwo ukończenia szkoły za granicą: skany razem z wnioskiem lub do 31 lipca 2026 (pierwszy termin). Terminy na 2027/28 nie są opublikowane; wydział ekonomii zapowiada otwarcie naboru w połowie lutego 2027.",
+          "applyUrl": "https://portal.evs.gov.si/prijava/?locale=en",
+          "sourceUrl": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+          "notes": "Pierwszy termin 2026/27: 46 wniosków z pierwszym wyborem na 30 miejsc, minimum punktów 65. Wykłady po słoweńsku (cennik: SLO). Alternatywa dla osób zainteresowanych mediami zamiast kierunku Novinarstvo.",
+          "sources": [
+            {
+              "claim": "warunki, kryteria",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Razpis-za-vpis_26_27/Razpis-za-vpis_26_27.pdf",
+              "quote": "Komunikologija - Medijske in komunikacijske študije: „kdor je opravil splošno maturo ... 50 % točk ... 30 % ... 10 % ... 10 %”; miejsca 30"
+            },
+            {
+              "claim": "minimum punktów, miejsca, liczba wniosków (pierwszy termin 2026/27, dane z 23.07.2026)",
+              "url": "https://www.gov.si/assets/ministrstva/MVZI/Visoko-solstvo/RAZPISI-2026_2027/Skupni-razpis/Ostalo/1_rok_slo_eu_prijave_omejitve_sprejeti_min_2026_2027_ZAOBJAVO-23.-7.-2026.xlsx",
+              "quote": "Komunikologija - medijske in komunikacijske študije, REDNI, razpisanih 30, prijav 46, sprejetih 31, minimum 65"
+            },
+            {
+              "claim": "czesne dla osób płacących",
+              "url": "https://www.uni-lj.si/assets/Sluzba-za-1-in-2-stopnjo/Cenik/2026-2027/Anglescina/University-of-Ljubljana-Faculty-of-Social-Sciences.pdf",
+              "quote": "Media and communication studies AP 3 180 SLO 4.000,00 EUR rocznie"
+            }
+          ],
+          "faculty": "Fakulteta za družbene vede (UL FDV)",
+          "places": 30,
+          "minPointsFirstRound2026": 65
+        }
+      ]
+    }
+  ],
+  "luki": [
+    "Uniwersytet w Lublanie (UL) jest jedyną dużą uczelnią publiczną w stolicy, więc w pliku jest jedna uczelnia z wydziałami. Uczelnie prywatne pominięto, bo programy po angielsku w ogłoszeniu 2026/27 w Lublanie to tylko kierunki zaoczne (płatne): Gea College (Podjetništvo) i Wydział Turystyki UM; nie sprawdzano ich warunków.",
+    "Czy obywatel UE z polską maturą może wybrać wersję angielską licencjatu na Wydziale Ekonomii: ogłoszenie naboru mówi, że w terminie dla UE w eVŠ wybiera się tylko wersję słoweńską, strona wydziału zapowiada swobodny wybór przy zapisie dla osób z zagraniczną szkołą średnią. Do potwierdzenia na wydziale (dodatkowo FAQ wydziału na stronie pochodzi z poprzedniego naboru 2025).",
+    "Czesne UE dla wersji angielskiej Wydziału Ekonomii: strona wydziału wspomina o stawce 3 400 EUR dla wersji angielskiej bez wskazania, czy dotyczy obywateli UE. Zgodnie z ogłoszeniem naboru i stroną UL obywatele UE nie płacą, ale zalecane jest potwierdzenie.",
+    "Tabela przeliczania polskiej matury na punkty słoweńskie: ogłoszenie opisuje tylko ogólne zasady (przedmioty wspólne, premia za poziom rozszerzony), osobnej tabeli dla Polski nie znaleziono. Wymagane świadectwa: czy dla Polski potrzebna jest apostille (Polska nie figuruje na liście państw zwolnionych z legalizacji w załączniku 4): do potwierdzenia w recognition@uni-lj.si.",
+    "Wymagany poziom słoweńskiego na FRI, Architekturze, Budownictwie i Mechanice: w ogłoszeniu naboru brak wymogu certyfikatu, ale wykłady są po słoweńsku. Ocena poziomu do potwierdzenia na wydziale.",
+    "Strona ENIC-NARIC Słowenii nie była czytana; opis uznania opiera się na ogłoszeniu naboru (rozdział 11) i stronach UL. Minima punktów dotyczą kandydatów słoweńskich i z UE w pierwszym terminie 2026/27 i nie muszą się powtórzyć w 2027/28.",
+    "Terminy i opłaty na rok 2027/28 nie zostały jeszcze opublikowane; plik zawiera dane 2026/27. Strona programu Computer Science and Mathematics na FRI podaje jeszcze terminy 2025, więc tego programu nie ujęto.",
+    "Nie znaleziono oficjalnego opisu programu Strojništvo, Gradbeništvo i Pravo po angielsku: według cenników UL 2026/27 wszystkie są prowadzone po słoweńsku."
+  ]
+}
