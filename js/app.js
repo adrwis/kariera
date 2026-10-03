@@ -1402,7 +1402,7 @@
               : first.scaleFormula ? `Punkty liczone wzorem uczelni: ${escapeHtml(first.scaleFormula)}.` : '';
           thresholdRows = `
             <table class="school-popup__thresholds">
-              <caption class="school-popup__caption">Punkty ostatniej przyjętej osoby. ${scaleNote}</caption>
+              <caption class="school-popup__caption">Punkty ostatniej osoby przyjętej albo zakwalifikowanej. Progi „I tura” i „rekrutacja podstawowa” są zwykle wyższe niż wynik po całej rekrutacji, więc uczelni z różnymi etykietami nie porównuj wprost. ${scaleNote}</caption>
               <thead><tr><th>Rok rekrutacji</th><th>Punkty</th><th>Źródło</th></tr></thead>
               <tbody>
                 ${mode.thresholds.map(t => {
@@ -1631,14 +1631,16 @@
   }
 
   // Short label of the recruitment round for the popup; the full description goes to the link title
+  // Rodzaj progu pokazywany obok roku. Progi z I tury i listy podstawowej są wyższe niż wynik po całej rekrutacji,
+  // więc każdy próg dostaje jedną z kilku czytelnych etykiet, a pełny opis zostaje w dymku przy linku do źródła.
   function shortRound(round) {
-    if (!round) return '';
+    if (!round) return 'tura nieokreślona';
     const r = round.toLowerCase();
     if (/nowy wzór/.test(r)) return 'I tura, nowy wzór punktacji';
-    if (/(^|\W)(i tura|tura 1|tura i|i etap|etap i|cykl 1|1 próg|pierwsz)/.test(r) || /realny próg/.test(r)) return 'I tura';
-    if (/lista podstawow/.test(r)) return 'lista podstawowa';
-    if (/zakwalifikowan/.test(r)) return 'ostatnia osoba zakwalifikowana';
-    return round.length <= 30 ? round : '';
+    if (/(^|\W)(i tura|tura 1|tura i|i etap|etap i|i nabór|cykl 1|1 próg|pierwsz|wstępnie zakwalifikowan)/.test(r) || /realny próg/.test(r)) return 'I tura';
+    if (/rekrutacja podstawowa|lista podstawow|zasadnicze postępowanie/.test(r)) return 'rekrutacja podstawowa';
+    if (/końcow|ostateczn|cały nabór|po wszystkich|po rekrutacji|osoby przyjętej|osoby ze statusem|przyjętego kandydata|na liście przyjętych|osób przyjętych|zakwalifikowan/.test(r)) return 'po całej rekrutacji';
+    return 'tura nieokreślona';
   }
 
   function isHttpUrl(str) {

@@ -321,8 +321,10 @@ const Szkoly = (function () {
   // Zakres ostatnich progów (skala 200) w klasach szkoły
   function thresholdRange(profiles) {
     // Klasy, które nie wypełniły limitu miejsc, mają próg niski z braku chętnych, więc nie wchodzą do zakresu
-    const mins = profiles.map(p => latestThreshold(p)).filter(t => t && !isUnfilled(t)).map(t => t.min);
-    return mins.length ? { lo: Math.min(...mins), hi: Math.max(...mins) } : null;
+    const ts = profiles.map(p => latestThreshold(p)).filter(t => t && !isUnfilled(t));
+    const mins = ts.map(t => t.min);
+    const years = [...new Set(ts.map(t => t.year))].sort();
+    return mins.length ? { lo: Math.min(...mins), hi: Math.max(...mins), year: years.length === 1 ? years[0] : null } : null;
   }
 
   function filtersToQuery(f, citySlug) {
@@ -445,7 +447,7 @@ const Szkoly = (function () {
       showCity && s.city ? `<span class="szkoly__badge">${esc(s.city)}</span>` : '',
       s.district ? `<span class="szkoly__badge">${esc(s.district)}</span>` : '',
       maturaBadge(s.matura),
-      range ? `<span class="szkoly__badge szkoly__badge--progi">${range.lo === range.hi ? `próg ${fmtNum(range.lo)} pkt` : `progi ${fmtNum(range.lo)} do ${fmtNum(range.hi)} pkt`}</span>`
+      range ? `<span class="szkoly__badge szkoly__badge--progi">${range.lo === range.hi ? `próg${range.year ? ` ${range.year}` : ''} ${fmtNum(range.lo)} pkt` : `progi${range.year ? ` ${range.year}` : ''} ${fmtNum(range.lo)} do ${fmtNum(range.hi)} pkt`}</span>`
         : hasThresholds ? '<span class="szkoly__badge szkoly__badge--progi">progi punktowe</span>' : '',
     ].join('');
     const profilesHtml = shown.length
@@ -772,7 +774,7 @@ const Szkoly = (function () {
 
         <section class="szkola__section">
           <h2 class="career-column__title">Klasy${year ? ` w roku ${esc(year)}` : ''}</h2>
-          ${anyThresholds ? '<p class="career-column__text szkola__muted">Próg to liczba punktów ostatniej osoby przyjętej albo zakwalifikowanej do klasy, tak jak podaje źródło. Zwykle skala wynosi od 0 do 200: połowa to egzamin ósmoklasisty, połowa oceny ze świadectwa i osiągnięcia. Klasy ze sprawdzianem (sportowe, dwujęzyczne) mogą mieć wyższą skalę, podaną przy progu.</p>' : ''}
+          ${anyThresholds ? '<p class="career-column__text szkola__muted">Oferta klas dotyczy rekrutacji na ten rok, a progi pochodzą z lat podanych przy każdej klasie. Próg to liczba punktów ostatniej osoby przyjętej albo zakwalifikowanej do klasy, tak jak podaje źródło. Zwykle skala wynosi od 0 do 200: połowa to egzamin ósmoklasisty, połowa oceny ze świadectwa i osiągnięcia. Klasy ze sprawdzianem (sportowe, dwujęzyczne) mogą mieć wyższą skalę, podaną przy progu.</p>' : ''}
           ${profiles.length
             ? `<ul class="szkola__profiles">${profiles.map(p => profileHtml(p, isTech)).join('')}</ul>`
             : '<p class="career-column__empty">Brak danych o klasach w NextMove. Ofertę sprawdzisz na stronie szkoły.</p>'}
