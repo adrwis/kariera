@@ -1,0 +1,672 @@
+{
+  "city": "Amsterdam",
+  "country": "Holandia",
+  "retrieved": "2026-10-03",
+  "overview": {
+    "polishMatura": "Holandia nie stosuje punktów za maturę. Nuffic ocenia Świadectwo dojrzałości jako poziom VWO (EQF 4+), czyli wystarczający do studiów uniwersyteckich (WO). UvA porównuje dyplom z listą kraju (diploma calculator) i dyplomy spoza listy ocenia indywidualnie; VU wymienia na swojej liście Polskę: 'Świadectwo Dojrzałości and Świadectwo Ukończenia Liceum Ogólnokształcącego'. Uczelnie sprawdzają matematykę (zwykle poziom VWO A lub B) i angielski. Na kierunkach z limitem (numerus fixus: psychologia, ścieżka angielska ekonomii na UvA, medycyna) o przyjęciu decyduje test online i/albo losowanie, nie wynik matury. Medycyna w całości po niderlandzku z wymogiem NT2 i profilu przyrodniczego. Kierunki HBO (HvA) wymagają dyplomu równoważnego havo, vwo lub mbo 4 i oceny dyplomu (diplomawaardering).",
+    "tuition": "Obywatele UE/EOG: opłata ustawowa 2 694 EUR rocznie w 2026/27 (UvA, VU, HvA), 2 771 EUR w 2027/28 (wg VU). Spoza UE: opłata instytucjonalna zależna od kierunku, np. UvA 2026/27: ekonomia 13 900 EUR, prawo 17 500 EUR, medycyna 34 700 EUR; VU 2027/28: psychologia, ekonomia, prawo i komunikacja 14 800 EUR, informatyka 20 330 EUR, medycyna 36 890 EUR; HvA 2026/27: 10 648 EUR.",
+    "tuitionSource": "https://www.uva.nl/en/education/fees-and-funding/tuition-fees/tuition-fees.html",
+    "generalDeadlines": "Kierunki z numerus fixus: Studielink od 1 października do 15 stycznia (dla 2027/28: 1 października 2026 do 15 stycznia 2027), wyniki selekcji 15 kwietnia 2027. VU kierunki bez limitu: 1 maja (UE) i 1 kwietnia (spoza UE). HvA kierunki bez limitu: do 31 sierpnia 2027, z wizą do 1 maja 2027. Opłata aplikacyjna 100 EUR dla dyplomów zagranicznych (UvA, VU, HvA).",
+    "equalAccess": "Nie badano osobno zasady równego dostępu. Dla kierunków z limitem w Polsce (np. medycyna) strony UvA i VU nie wymieniają wymogu polskiego egzaminu wstępnego; wymagają holenderskich profili przedmiotowych i NT2."
+  },
+  "universities": [
+    {
+      "name": "Universiteit van Amsterdam (UvA)",
+      "url": "https://www.uva.nl",
+      "type": "uniwersytet",
+      "programs": [
+        {
+          "name": "Psychologie (Bachelor, ścieżka angielska)",
+          "nameEn": "Psychology (Bachelor, English track)",
+          "careerIds": [
+            "psycholog"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "angielski",
+            "niderlandzki (osobna ścieżka)"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27). Stawki na 2027/28 strona UvA nie podaje; VU podaje dla 2027/28 ustawową opłatę 2 771 EUR (stawka krajowa).",
+            "nonEu": "16 670 EUR rocznie (kategoria 'Social & Behavioural Sciences' w tabeli UvA 2026/27; przypisanie Psychologii do tej kategorii wynika z nazwy, strona programu go nie potwierdza)",
+            "sourceUrl": "https://www.uva.nl/en/education/fees-and-funding/tuition-fees/tuition-fees.html",
+            "quote": "UvA: 'Statutory fee 2 694 EUR for full-time students'; 'The tuition fee rate is valid for a full academic year.' Instytucjonalne (spoza UE/EOG/Szwajcarii/Surinamu) według kategorii kierunku.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (dyplom porównywany z VWO przez diploma calculator; matematyka i angielski w egzaminach końcowych)",
+            "requirements": "Numerus fixus: 270 miejsc w ścieżce angielskiej (300 w niderlandzkiej). Wymagana matematyka co najmniej na poziomie VWO Wiskunde A w ostatnim roku i na egzaminach końcowych (alternatywa: kursy uzupełniające KdVI albo test OMPT-A, min. 70%, do 1 kwietnia 2027). Selekcja: test online z kamerą (tury 6 lutego i 6 marca 2027) i losowanie w grupach: 90 najlepszych dostaje numery 1 do 90, reszta losowana wg grup wyników. Wyniki 15 kwietnia 2027. W poprzedniej rekrutacji 1 934 zgłoszeń, 1 320 w selekcji, ostatni przyjęty miał numer 482.",
+            "languageProof": "Angielski C1: IELTS Academic 6,5 (min. 6,0 w każdej części), TOEFL iBT 92 (min. 22), Cambridge C1 Advanced/C2 180, PTE Academic 71 (min. 65). Wynik nie starszy niż 2 lata przed startem programu.",
+            "selective": true,
+            "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/psychology/application-and-admission/international-prior-education/application-and-admission.html",
+            "quote": "UvA: 'Polish qualifications ... compared with the list of country qualifications' (diploma calculator); 'Mathematics (minimum VWO Wiskunde A level), English'; 'With a ranking number between 1 - 270 you are immediately placed'.",
+            "matura_note": "UvA nie wymienia polskiej matury na stronach programów; odsyła do wyszukiwarki dyplomów (diploma finder) i pisze, że dyplomy spoza listy ocenia indywidualnie Central Admissions Office. Nuffic ocenia Świadectwo dojrzałości jako poziom VWO (EQF 4+).",
+            "matura_source": "https://www.nuffic.nl/en/education-systems/poland/level-of-diplomas"
+          },
+          "deadline": "Studielink od 1 października 2026 do 15 stycznia 2027 (rok 2027/28). Dowód angielskiego do 1 kwietnia 2027, dokumenty poświadczone do 31 sierpnia 2027. Opłata aplikacyjna 100 EUR dla dyplomów zagranicznych.",
+          "applyUrl": "https://www.uva.nl/en/programmes/bachelors/psychology/application-and-admission/international-prior-education/application-and-admission.html",
+          "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/psychology/psychology.html",
+          "notes": "Selekcja łączy test i losowanie (nie liczą się oceny z matury). Strona selekcji opisuje cykl z datami 2027, ale oznacza go jako 2026-2027; daty należy potwierdzić przy naborze 2027/28."
+        },
+        {
+          "name": "Economics and Business Economics (ścieżka angielska) / Economie en Bedrijfseconomie",
+          "nameEn": "Economics and Business Economics (English track)",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "angielski",
+            "niderlandzki (osobna ścieżka)"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27). Stawki na 2027/28 strona UvA nie podaje; VU podaje dla 2027/28 ustawową opłatę 2 771 EUR (stawka krajowa).",
+            "nonEu": "13 900 EUR rocznie (kategoria 'Economics & Business', UvA 2026/27)",
+            "sourceUrl": "https://www.uva.nl/en/education/fees-and-funding/tuition-fees/tuition-fees.html",
+            "quote": "UvA: 'Statutory fee 2 694 EUR for full-time students'; 'The tuition fee rate is valid for a full academic year.' Instytucjonalne (spoza UE/EOG/Szwajcarii/Surinamu) według kategorii kierunku.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (dyplom na poziomie VWO, matematyka w egzaminach końcowych; polska matura nie jest wymieniona wprost)",
+            "requirements": "Ścieżka angielska: numerus fixus, 550 miejsc. Dyplom równoważny VWO, matematyka (poziom VWO A lub B) w egzaminach końcowych, angielski C1. Selekcja: test online 2,5 godziny (matematyka, ekonomia, podstawy ekonomii i zarządzania) w terminach 20 lutego i 3 marca; 300 osób z najlepszymi wynikami dostaje numery wg testu, numer 1 do 550 oznacza natychmiastową ofertę. Ścieżka niderlandzka bez selekcji.",
+            "languageProof": "Angielski C1: IELTS Academic 6,5 (min. 6,0 w każdej części), TOEFL iBT 92 (min. 22), Cambridge C1 Advanced/C2 180, PTE Academic 71 (min. 65). Wynik nie starszy niż 2 lata przed startem programu.",
+            "selective": true,
+            "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/economics--business-economics/application-and-admission/international-prior-education/international-prior-education-english-track.html",
+            "quote": "UvA: 'The English track is a numerus fixus programme with only 550 spots'; 'language proficiency C1'; 'mathematics equivalent to Dutch VWO mathematics A or B'.",
+            "matura_note": "UvA nie wymienia polskiej matury na stronach programów; odsyła do wyszukiwarki dyplomów (diploma finder) i pisze, że dyplomy spoza listy ocenia indywidualnie Central Admissions Office. Nuffic ocenia Świadectwo dojrzałości jako poziom VWO (EQF 4+).",
+            "matura_source": "https://www.uva.nl/en/programmes/bachelors/economics--business-economics/application-and-admission/international-prior-education/entry-requirements.html"
+          },
+          "deadline": "Studielink od 1 października 2026 do 15 stycznia 2027 (rok 2027/28; dotyczy też stypendium). Wyniki rankingu 15 kwietnia. Czesne płatne do 31 sierpnia.",
+          "applyUrl": "https://www.uva.nl/en/programmes/bachelors/economics--business-economics/application-and-admission/international-prior-education/international-prior-education-english-track.html",
+          "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/economics--business-economics/economics--business-economics.html",
+          "notes": "Strona programu podaje daty testów bez pewnego roku (jedna wzmianka o 2028 wygląda na błąd strony); potwierdzić przed aplikacją. Dla kierunku zarządzanie w skrócie: ścieżka niderlandzka tej samej nazwy bez selekcji."
+        },
+        {
+          "name": "Global Communication Science (Communicatiewetenschap)",
+          "nameEn": "Global Communication Science (Bachelor)",
+          "careerIds": [
+            "dziennikarz"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28 (nie potwierdzono na stronie programu)",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27). Stawki na 2027/28 strona UvA nie podaje; VU podaje dla 2027/28 ustawową opłatę 2 771 EUR (stawka krajowa).",
+            "nonEu": null,
+            "sourceUrl": "https://www.uva.nl/en/education/fees-and-funding/tuition-fees/tuition-fees.html",
+            "quote": "UvA: 'Statutory fee 2 694 EUR for full-time students'; 'The tuition fee rate is valid for a full academic year.' Instytucjonalne (spoza UE/EOG/Szwajcarii/Surinamu) według kategorii kierunku. Dla Communication Science kategoria czesnego instytucjonalnego nie jest wskazana na stronie programu.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": null,
+            "requirements": "Strona programu nie podaje zasad przyjęcia ani limitu miejsc (pobrano tylko stronę opisową). Wymagania dla dyplomów zagranicznych do sprawdzenia w diploma finder UvA.",
+            "languageProof": null,
+            "selective": null,
+            "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/communication-science/communication-science.html",
+            "quote": "UvA: '36 months (180 ECTS)'; język angielski; kampus Roeterseiland; 'The internship is integrated within the programme'.",
+            "matura_note": "UvA nie wymienia polskiej matury na stronach programów; odsyła do wyszukiwarki dyplomów (diploma finder) i pisze, że dyplomy spoza listy ocenia indywidualnie Central Admissions Office. Nuffic ocenia Świadectwo dojrzałości jako poziom VWO (EQF 4+).",
+            "matura_source": "https://www.nuffic.nl/en/education-systems/poland/level-of-diplomas"
+          },
+          "deadline": null,
+          "applyUrl": "https://www.uva.nl/en/education/admissions/bachelors/entry-requirements-for-international-qualifications.html",
+          "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/communication-science/communication-science.html",
+          "notes": "Kierunek naukowy (komunikacja), nie szkoła dziennikarska. Brak potwierdzonych na stronie: terminu, selekcji, dowodu językowego i czesnego instytucjonalnego."
+        },
+        {
+          "name": "Business Analytics (Bachelor)",
+          "nameEn": "Business Analytics (Bachelor)",
+          "careerIds": [
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28 (nie potwierdzono na stronie)",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27). Stawki na 2027/28 strona UvA nie podaje; VU podaje dla 2027/28 ustawową opłatę 2 771 EUR (stawka krajowa).",
+            "nonEu": null,
+            "sourceUrl": "https://www.uva.nl/en/education/fees-and-funding/tuition-fees/tuition-fees.html",
+            "quote": "UvA: 'Statutory fee 2 694 EUR for full-time students'; 'The tuition fee rate is valid for a full academic year.' Instytucjonalne (spoza UE/EOG/Szwajcarii/Surinamu) według kategorii kierunku. Kategoria instytucjonalnego czesnego dla tego kierunku nie jest wskazana (w tabeli UvA występują m.in. 'Science' 21 800 EUR oraz 'Economics & Business' 13 900 EUR).",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (matematyka na poziomie VWO B lub odpowiednik; część osób musi zdać dodatkowy test OMPT-D)",
+            "requirements": "Dyplom z matematyką w egzaminach końcowych na poziomie 'Dutch vwo-B level of mathematics or a non-Dutch equivalent'; niektórzy kandydaci zdają dodatkowy test OMPT-D (min. 70%, dwie próby). Limit miejsc i selekcja: strona nie podaje.",
+            "languageProof": "Angielski: TOEFL iBT 92 (min. 22), IELTS Academic 6,5 (min. 6,0), Cambridge C1 Advanced 180, PTE Academic 71 (min. 65). Wynik nie starszy niż 2 lata.",
+            "selective": null,
+            "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/business-analytics/application-and-admission/international-prior-education/entry-requirements.html",
+            "quote": "UvA: 'a Dutch vwo-B level of mathematics or a non-Dutch equivalent'; 'Some students also need an additional mathematics test (OMPT-D test)'.",
+            "matura_note": "UvA nie wymienia polskiej matury na stronach programów; odsyła do wyszukiwarki dyplomów (diploma finder) i pisze, że dyplomy spoza listy ocenia indywidualnie Central Admissions Office. Nuffic ocenia Świadectwo dojrzałości jako poziom VWO (EQF 4+).",
+            "matura_source": "https://www.nuffic.nl/en/education-systems/poland/level-of-diplomas"
+          },
+          "deadline": null,
+          "applyUrl": "https://www.uva.nl/en/education/admissions/bachelors/entry-requirements-for-international-qualifications.html",
+          "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/business-analytics/business-analytics.html",
+          "notes": "Najbliższy odpowiednik data science w UvA (programowanie, AI, analityka). Termin składania wniosku nie wynika z pobranych stron."
+        },
+        {
+          "name": "Informatica (Bachelor)",
+          "nameEn": "Computer Science (Bachelor, w języku niderlandzkim)",
+          "careerIds": [
+            "programista",
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "niderlandzki"
+          ],
+          "academicYear": "2027/28 (nie potwierdzono na stronie)",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27). Stawki na 2027/28 strona UvA nie podaje; VU podaje dla 2027/28 ustawową opłatę 2 771 EUR (stawka krajowa).",
+            "nonEu": null,
+            "sourceUrl": "https://www.uva.nl/en/education/fees-and-funding/tuition-fees/tuition-fees.html",
+            "quote": "UvA: 'Statutory fee 2 694 EUR for full-time students'; 'The tuition fee rate is valid for a full academic year.' Instytucjonalne (spoza UE/EOG/Szwajcarii/Surinamu) według kategorii kierunku. Kategoria czesnego dla Informatyki nie jest wskazana na stronie programu.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": null,
+            "requirements": "Strona programu nie zawiera zasad przyjęcia (pobrano tylko stronę opisową). Program w języku niderlandzkim, więc wymaga znajomości niderlandzkiego; poziom i dowód niepotwierdzone.",
+            "languageProof": null,
+            "selective": null,
+            "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/computer-science/computer-science.html",
+            "quote": "UvA: 'In the Dutch Bachelor's programme in Computer Science, we dive deep into how computer systems work' (36 months, 180 ECTS, Science Park, RIO 56978).",
+            "matura_note": "UvA nie wymienia polskiej matury na stronach programów; odsyła do wyszukiwarki dyplomów (diploma finder) i pisze, że dyplomy spoza listy ocenia indywidualnie Central Admissions Office. Nuffic ocenia Świadectwo dojrzałości jako poziom VWO (EQF 4+).",
+            "matura_source": "https://www.nuffic.nl/en/education-systems/poland/level-of-diplomas"
+          },
+          "deadline": null,
+          "applyUrl": "https://www.uva.nl/en/education/admissions/bachelors/entry-requirements-for-international-qualifications.html",
+          "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/computer-science/computer-science.html",
+          "notes": "UvA nie ma angielskojęzycznego licencjatu z informatyki w pobranych źródłach (Kunstmatige Intelligentie też po niderlandzku). Angielską informatykę oferuje VU."
+        },
+        {
+          "name": "Rechtsgeleerdheid (Bachelor)",
+          "nameEn": "Law (Bachelor, w języku niderlandzkim)",
+          "careerIds": [
+            "prawnik"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "niderlandzki"
+          ],
+          "academicYear": "2027/28 (nie potwierdzono na stronie)",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27). Stawki na 2027/28 strona UvA nie podaje; VU podaje dla 2027/28 ustawową opłatę 2 771 EUR (stawka krajowa).",
+            "nonEu": "17 500 EUR rocznie (kategoria 'Law', UvA 2026/27)",
+            "sourceUrl": "https://www.uva.nl/en/education/fees-and-funding/tuition-fees/tuition-fees.html",
+            "quote": "UvA: 'Statutory fee 2 694 EUR for full-time students'; 'The tuition fee rate is valid for a full academic year.' Instytucjonalne (spoza UE/EOG/Szwajcarii/Surinamu) według kategorii kierunku.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (wymagany dyplom VWO dowolnego profilu lub propedeuse hbo-Rechten; polska matura oceniana jako poziom VWO)",
+            "requirements": "Strona: 'een vwo-diploma (ongeacht je profiel) of een propedeuse hbo-Rechten'. Brak numerus fixus na stronie. Wszystkie zajęcia po niderlandzku; wymagany poziom niderlandzkiego dla kandydatów zagranicznych nie podany na pobranej stronie.",
+            "languageProof": null,
+            "selective": false,
+            "sourceUrl": "https://www.uva.nl/programmas/bachelors/rechtsgeleerdheid/rechtsgeleerdheid.html",
+            "quote": "UvA: '36 maanden (180 EC)', 'volledig in het Nederlands', 'een vwo-diploma (ongeacht je profiel)'.",
+            "matura_note": "UvA nie wymienia polskiej matury na stronach programów; odsyła do wyszukiwarki dyplomów (diploma finder) i pisze, że dyplomy spoza listy ocenia indywidualnie Central Admissions Office. Nuffic ocenia Świadectwo dojrzałości jako poziom VWO (EQF 4+).",
+            "matura_source": "https://www.nuffic.nl/en/education-systems/poland/level-of-diplomas"
+          },
+          "deadline": null,
+          "applyUrl": "https://www.uva.nl/en/education/admissions/bachelors/entry-requirements-for-international-qualifications.html",
+          "sourceUrl": "https://www.uva.nl/programmas/bachelors/rechtsgeleerdheid/rechtsgeleerdheid.html",
+          "notes": "Prawo holenderskie po niderlandzku, kształci do zawodów prawniczych w Holandii. Angielskojęzyczny kierunek PPLE (Politics, Psychology, Law and Economics) nie jest czystym prawem i nie został tu opisany."
+        },
+        {
+          "name": "Geneeskunde (Bachelor)",
+          "nameEn": "Medicine (Bachelor, w języku niderlandzkim)",
+          "careerIds": [
+            "lekarz"
+          ],
+          "level": "licencjat",
+          "durationYears": null,
+          "languages": [
+            "niderlandzki"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27). Stawki na 2027/28 strona UvA nie podaje; VU podaje dla 2027/28 ustawową opłatę 2 771 EUR (stawka krajowa).",
+            "nonEu": "34 700 EUR rocznie (kategoria 'Medicine', UvA 2026/27)",
+            "sourceUrl": "https://www.uva.nl/en/education/fees-and-funding/tuition-fees/tuition-fees.html",
+            "quote": "UvA: 'Statutory fee 2 694 EUR for full-time students'; 'The tuition fee rate is valid for a full academic year.' Instytucjonalne (spoza UE/EOG/Szwajcarii/Surinamu) według kategorii kierunku.",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "wymaga dodatkowego etapu (zagraniczne świadectwa ocenia UvA Credential Evaluation pod kątem przedmiotów i niderlandzkiego; braki przedmiotowe trzeba uzupełnić)",
+            "requirements": "Numerus fixus: ustawowy limit 342 miejsc rocznie. Losowanie nieważone: wszyscy zarejestrowani biorą udział, bez dodatkowych kryteriów. Wymagane przedmioty na poziomie VWO: profil Natuur & Gezondheid z fizyką albo Natuur & Techniek z biologią (biologia, matematyka, fizyka, chemia). Niderlandzki: dyplom NT2 albo państwowy egzamin (staatsexamen). Uzupełnienie braków do 15 lipca 2027.",
+            "languageProof": "Niderlandzki: dyplom NT2 albo staatsexamen (poziom nie podany na pobranej stronie)",
+            "selective": true,
+            "sourceUrl": "https://www.uva.nl/programmas/bachelors/geneeskunde/toelatingseisen/toelating-en-inschrijven.html",
+            "quote": "UvA: 'ongewogen loting', 'een wettelijk maximum aantal opleidingsplaatsen van 342 per jaar', 'NT2-diploma of staatsexamen'.",
+            "matura_note": "UvA nie wymienia polskiej matury na stronach programów; odsyła do wyszukiwarki dyplomów (diploma finder) i pisze, że dyplomy spoza listy ocenia indywidualnie Central Admissions Office. Nuffic ocenia Świadectwo dojrzałości jako poziom VWO (EQF 4+).",
+            "matura_source": "https://www.nuffic.nl/en/education-systems/poland/level-of-diplomas"
+          },
+          "deadline": "Studielink od 1 października 2026 do 15 stycznia 2027. Wyniki losowania 15 kwietnia 2027, akceptacja miejsca do 29 kwietnia 2027, spełnienie wymagań do 15 lipca 2027.",
+          "applyUrl": "https://www.uva.nl/programmas/bachelors/geneeskunde/toelatingseisen/toelating-en-inschrijven.html",
+          "sourceUrl": "https://www.uva.nl/programmas/bachelors/geneeskunde/toelatingseisen/toelating-en-inschrijven.html",
+          "notes": "Studia medyczne są w Amsterdamie wspólne dla UvA i VU (Amsterdam UMC); limit 342 podają oba uniwersytety. Czas trwania licencjatu nie wystąpił na pobranej stronie. Polska matura nie jest wymieniona, a wymagany profil przedmiotowy trzeba porównać z przedmiotami zdawanymi na maturze."
+        }
+      ]
+    },
+    {
+      "name": "Vrije Universiteit Amsterdam (VU)",
+      "url": "https://vu.nl",
+      "type": "uniwersytet",
+      "programs": [
+        {
+          "name": "Computer Science (Bachelor)",
+          "nameEn": "Computer Science (Bachelor)",
+          "careerIds": [
+            "programista",
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": null,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28 (strona nie podaje roku wprost)",
+          "tuition": {
+            "eu": "2 771 EUR rocznie (opłata ustawowa, rok 2027/28; 2 694 EUR w 2026/27)",
+            "nonEu": "20 330 EUR rocznie (wg PDF VU, rok 2027/28)",
+            "sourceUrl": "https://vu.nl/en/education/more-about/tuition-fee-rates-bachelor-s-programmes",
+            "quote": "VU: 'Statutory tuition fees 2027-2028: Full-time, part-time or work-study degree 2.771'; instytucjonalne wg PDF 'Institutional tuition fees bachelor programmes 2027-2028' (kolumna NON-EEA).",
+            "nonEuSourceUrl": "https://assets-eu-01.kc-usercontent.com:443/ff31ad68-341e-015e-fb52-24df7a00ecea/65a2a571-e01b-4394-b07f-b5fb1b710bf0/2027_Instellingscollegegelden_Bachelor_EN.pdf",
+            "academicYear": "2027/28"
+          },
+          "admission": {
+            "polishMatura": "uznawana (VU wymienia polską maturę wraz ze świadectwem ukończenia liceum na liście dyplomów; ocena indywidualna przez komisję)",
+            "requirements": "Dyplom równoważny VWO, matematyka: Wiskunde B lub odpowiednik zagraniczny; alternatywnie test OMPT-D, min. 60%. Strona nie podaje numerus fixus ani limitu miejsc (wyszukiwanie sugerowało selekcję, lecz strona kierunku jej nie zawiera). Wymóg BSA: 42 EC po pierwszym roku.",
+            "languageProof": "Angielski wymagany; konkretne wyniki na osobnej stronie 'Language requirements' VU (nie pobrano)",
+            "selective": null,
+            "sourceUrl": "https://vu.nl/en/education/bachelor/computer-science/admissions",
+            "quote": "Wymagany dyplom równoważny VWO. Lista VU dla Polski: 'Świadectwo Dojrzałości (maturity certificate) and Świadectwo Ukończenia Liceum Ogólnokształcącego'. Ocena przez komisję przyjęć VU po złożeniu dokumentów. Strona: 'Proof of sufficient proficiency in English'; 'at least 60% in the OMPT-D'.",
+            "matura_note": "Wymagany dyplom równoważny VWO. Lista VU dla Polski: 'Świadectwo Dojrzałości (maturity certificate) and Świadectwo Ukończenia Liceum Ogólnokształcącego'. Ocena przez komisję przyjęć VU po złożeniu dokumentów.",
+            "matura_source": "https://vu.nl/en/education/more-about/list-of-diplomas-per-country"
+          },
+          "deadline": "Obywatele UE: 1 maja; spoza UE: 1 kwietnia (strona nie podaje roku, rok akademicki zaczyna się 1 września). Opłata aplikacyjna 100 EUR dla dyplomów zagranicznych.",
+          "applyUrl": "https://vu.nl/en/education/more-about/apply-bachelors-programme",
+          "sourceUrl": "https://vu.nl/en/education/bachelor/computer-science/admissions",
+          "notes": "Czas trwania nie wystąpił na pobranej stronie. Rodzaj kierunku jako ścieżka do analityka danych: ogólna."
+        },
+        {
+          "name": "Psychologie (Bachelor)",
+          "nameEn": "Psychology (Bachelor, ścieżka angielska i niderlandzka)",
+          "careerIds": [
+            "psycholog"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "angielski",
+            "niderlandzki"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 771 EUR rocznie (opłata ustawowa, rok 2027/28; 2 694 EUR w 2026/27)",
+            "nonEu": "14 800 EUR rocznie (wg PDF VU, rok 2027/28)",
+            "sourceUrl": "https://vu.nl/en/education/more-about/tuition-fee-rates-bachelor-s-programmes",
+            "quote": "VU: 'Statutory tuition fees 2027-2028: Full-time, part-time or work-study degree 2.771'; instytucjonalne wg PDF 'Institutional tuition fees bachelor programmes 2027-2028' (kolumna NON-EEA).",
+            "nonEuSourceUrl": "https://assets-eu-01.kc-usercontent.com:443/ff31ad68-341e-015e-fb52-24df7a00ecea/65a2a571-e01b-4394-b07f-b5fb1b710bf0/2027_Instellingscollegegelden_Bachelor_EN.pdf",
+            "academicYear": "2027/28"
+          },
+          "admission": {
+            "polishMatura": "uznawana (VU wymienia polską maturę wraz ze świadectwem ukończenia liceum na liście dyplomów; ocena indywidualna przez komisję)",
+            "requirements": "Numerus fixus: 600 miejsc łącznie (obie ścieżki). Selekcja: średnia z poprzedniej edukacji i test online (6 marca 2027). Grupa 1 (średnia równoważna co najmniej 7,5 i zaliczony test) dostaje bezpośrednie miejsce; grupy 2 i 3 wchodzą do losowania. Matematyka na poziomie VWO. Materiały i test po angielsku.",
+            "languageProof": "Angielski wymagany; wyniki na stronie 'Language requirements' VU (nie pobrano)",
+            "selective": true,
+            "sourceUrl": "https://vu.nl/en/education/bachelor/psychology/admissions",
+            "quote": "VU: '600 places (English and Dutch track)'; 'Studielink 1 October 2026 to 15 January 2027'; test 6 March 2027; wyniki 15 April 2027. Wymagany dyplom równoważny VWO. Lista VU dla Polski: 'Świadectwo Dojrzałości (maturity certificate) and Świadectwo Ukończenia Liceum Ogólnokształcącego'. Ocena przez komisję przyjęć VU po złożeniu dokumentów.",
+            "matura_note": "Wymagany dyplom równoważny VWO. Lista VU dla Polski: 'Świadectwo Dojrzałości (maturity certificate) and Świadectwo Ukończenia Liceum Ogólnokształcącego'. Ocena przez komisję przyjęć VU po złożeniu dokumentów.",
+            "matura_source": "https://vu.nl/en/education/more-about/list-of-diplomas-per-country"
+          },
+          "deadline": "Studielink od 1 października 2026 do 15 stycznia 2027 (23:59 CET); dokumenty do 31 stycznia 2027; test 6 marca 2027; wyniki 15 kwietnia 2027; uzupełnienie wymagań do 15 lipca 2027.",
+          "applyUrl": "https://vu.nl/en/education/more-about/apply-bachelors-programme",
+          "sourceUrl": "https://vu.nl/en/education/bachelor/psychology/admissions",
+          "notes": "Przeliczenie polskich ocen na skalę 7,5 nie zostało opisane na pobranej stronie."
+        },
+        {
+          "name": "Economics and Business Economics (Bachelor)",
+          "nameEn": "Economics and Business Economics (Bachelor)",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": null,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28 (strona nie podaje roku wprost)",
+          "tuition": {
+            "eu": "2 771 EUR rocznie (opłata ustawowa, rok 2027/28; 2 694 EUR w 2026/27)",
+            "nonEu": "14 800 EUR rocznie (wg PDF VU, rok 2027/28)",
+            "sourceUrl": "https://vu.nl/en/education/more-about/tuition-fee-rates-bachelor-s-programmes",
+            "quote": "VU: 'Statutory tuition fees 2027-2028: Full-time, part-time or work-study degree 2.771'; instytucjonalne wg PDF 'Institutional tuition fees bachelor programmes 2027-2028' (kolumna NON-EEA).",
+            "nonEuSourceUrl": "https://assets-eu-01.kc-usercontent.com:443/ff31ad68-341e-015e-fb52-24df7a00ecea/65a2a571-e01b-4394-b07f-b5fb1b710bf0/2027_Instellingscollegegelden_Bachelor_EN.pdf",
+            "academicYear": "2027/28"
+          },
+          "admission": {
+            "polishMatura": "uznawana (VU wymienia polską maturę wraz ze świadectwem ukończenia liceum na liście dyplomów; ocena indywidualna przez komisję)",
+            "requirements": "Dyplom równoważny VWO; matematyka na poziomie VWO A (przykłady uznawane: IB Math, A-level, AP Calculus). Strona nie podaje numerus fixus.",
+            "languageProof": "Angielski wymagany; wyniki na stronie 'Language requirements' VU (nie pobrano)",
+            "selective": null,
+            "sourceUrl": "https://vu.nl/en/education/bachelor/economics-and-business-economics/admissions",
+            "quote": "VU: 'Non-EU/EEA students 1 April; Dutch and EU students 1 May'; 'sufficient proficiency in Mathematics'. Wymagany dyplom równoważny VWO. Lista VU dla Polski: 'Świadectwo Dojrzałości (maturity certificate) and Świadectwo Ukończenia Liceum Ogólnokształcącego'. Ocena przez komisję przyjęć VU po złożeniu dokumentów.",
+            "matura_note": "Wymagany dyplom równoważny VWO. Lista VU dla Polski: 'Świadectwo Dojrzałości (maturity certificate) and Świadectwo Ukończenia Liceum Ogólnokształcącego'. Ocena przez komisję przyjęć VU po złożeniu dokumentów.",
+            "matura_source": "https://vu.nl/en/education/more-about/list-of-diplomas-per-country"
+          },
+          "deadline": "Obywatele UE: 1 maja; spoza UE: 1 kwietnia (rok nie podany wprost).",
+          "applyUrl": "https://vu.nl/en/education/more-about/apply-bachelors-programme",
+          "sourceUrl": "https://vu.nl/en/education/bachelor/economics-and-business-economics/admissions",
+          "notes": "Czas trwania nie wystąpił na pobranej stronie."
+        },
+        {
+          "name": "Communicatiewetenschap (Bachelor)",
+          "nameEn": "Communication Science (Bachelor, ścieżka angielska)",
+          "careerIds": [
+            "dziennikarz"
+          ],
+          "level": "licencjat",
+          "durationYears": null,
+          "languages": [
+            "angielski",
+            "niderlandzki (osobna ścieżka)"
+          ],
+          "academicYear": "2027/28 (strona nie podaje roku wprost)",
+          "tuition": {
+            "eu": "2 771 EUR rocznie (opłata ustawowa, rok 2027/28; 2 694 EUR w 2026/27)",
+            "nonEu": "14 800 EUR rocznie (wg PDF VU, rok 2027/28)",
+            "sourceUrl": "https://vu.nl/en/education/more-about/tuition-fee-rates-bachelor-s-programmes",
+            "quote": "VU: 'Statutory tuition fees 2027-2028: Full-time, part-time or work-study degree 2.771'; instytucjonalne wg PDF 'Institutional tuition fees bachelor programmes 2027-2028' (kolumna NON-EEA).",
+            "nonEuSourceUrl": "https://assets-eu-01.kc-usercontent.com:443/ff31ad68-341e-015e-fb52-24df7a00ecea/65a2a571-e01b-4394-b07f-b5fb1b710bf0/2027_Instellingscollegegelden_Bachelor_EN.pdf",
+            "academicYear": "2027/28"
+          },
+          "admission": {
+            "polishMatura": "uznawana (VU wymienia polską maturę wraz ze świadectwem ukończenia liceum na liście dyplomów; ocena indywidualna przez komisję)",
+            "requirements": "Dyplom równoważny VWO, wystarczająca matematyka, dowód angielskiego. Bez numerus fixus na stronie. Aktywność Study Choice Check w czerwcu 2027.",
+            "languageProof": "Angielski wymagany; wyniki na stronie 'Language requirements' VU (nie pobrano)",
+            "selective": false,
+            "sourceUrl": "https://vu.nl/en/education/bachelor/communication-science/admissions",
+            "quote": "VU: 'Non-EU/EEA students 1 April; Dutch and EU students 1 May'; 'Application fee of 100 euro'. Wymagany dyplom równoważny VWO. Lista VU dla Polski: 'Świadectwo Dojrzałości (maturity certificate) and Świadectwo Ukończenia Liceum Ogólnokształcącego'. Ocena przez komisję przyjęć VU po złożeniu dokumentów.",
+            "matura_note": "Wymagany dyplom równoważny VWO. Lista VU dla Polski: 'Świadectwo Dojrzałości (maturity certificate) and Świadectwo Ukończenia Liceum Ogólnokształcącego'. Ocena przez komisję przyjęć VU po złożeniu dokumentów.",
+            "matura_source": "https://vu.nl/en/education/more-about/list-of-diplomas-per-country"
+          },
+          "deadline": "Obywatele UE: 1 maja; spoza UE: 1 kwietnia (rok nie podany wprost). Dokończenie aplikacji w VU Dashboard do tygodnia po terminie.",
+          "applyUrl": "https://vu.nl/en/education/more-about/apply-bachelors-programme",
+          "sourceUrl": "https://vu.nl/en/education/bachelor/communication-science/admissions",
+          "notes": "Kierunek naukowy (komunikacja), nie szkoła dziennikarska. Czas trwania nie wystąpił na pobranej stronie."
+        },
+        {
+          "name": "Geneeskunde (Bachelor)",
+          "nameEn": "Medicine (Bachelor, w języku niderlandzkim)",
+          "careerIds": [
+            "lekarz"
+          ],
+          "level": "licencjat",
+          "durationYears": null,
+          "languages": [
+            "niderlandzki"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 771 EUR rocznie (opłata ustawowa, rok 2027/28; 2 694 EUR w 2026/27)",
+            "nonEu": "36 890 EUR rocznie (wg PDF VU, rok 2027/28)",
+            "sourceUrl": "https://vu.nl/en/education/more-about/tuition-fee-rates-bachelor-s-programmes",
+            "quote": "VU: 'Statutory tuition fees 2027-2028: Full-time, part-time or work-study degree 2.771'; instytucjonalne wg PDF 'Institutional tuition fees bachelor programmes 2027-2028' (kolumna NON-EEA).",
+            "nonEuSourceUrl": "https://assets-eu-01.kc-usercontent.com:443/ff31ad68-341e-015e-fb52-24df7a00ecea/65a2a571-e01b-4394-b07f-b5fb1b710bf0/2027_Instellingscollegegelden_Bachelor_EN.pdf",
+            "academicYear": "2027/28"
+          },
+          "admission": {
+            "polishMatura": "wymaga dodatkowego etapu (zagraniczne dyplomy oceniane indywidualnie; wymagany pakiet przedmiotów na poziomie VWO)",
+            "requirements": "Numerus fixus: 342 miejsca na rok 2027/28. Selekcja uwzględnia nie tylko oceny, ale też aktywność poza szkołą. Wymagane certyfikaty na poziomie VWO: fizyka (Natuurkunde), chemia, biologia, matematyka A lub B. Zaświadczenia do 15 lipca 2027.",
+            "languageProof": "Niderlandzki: 'minimaal NT2 II / CNaVT (STRT of EDUP)', chyba że ukończono hbo po niderlandzku lub zdano niderlandzki na poziomie havo",
+            "selective": true,
+            "sourceUrl": "https://vu.nl/nl/onderwijs/bachelor/geneeskunde/toelating",
+            "quote": "VU: '342 plaatsen', 'Nederlands: minimaal NT2 II / CNaVT (STRT of EDUP)', 'Buitenlandse diploma's worden individueel beoordeeld'.",
+            "matura_note": "Wymagany dyplom równoważny VWO. Lista VU dla Polski: 'Świadectwo Dojrzałości (maturity certificate) and Świadectwo Ukończenia Liceum Ogólnokształcącego'. Ocena przez komisję przyjęć VU po złożeniu dokumentów.",
+            "matura_source": "https://vu.nl/en/education/more-about/list-of-diplomas-per-country"
+          },
+          "deadline": "Studielink do 15 stycznia 2027 (rok 2027/28); certyfikaty do 15 lipca 2027.",
+          "applyUrl": "https://vu.nl/en/education/more-about/apply-bachelors-programme",
+          "sourceUrl": "https://vu.nl/nl/onderwijs/bachelor/geneeskunde/toelating",
+          "notes": "Wspólne studia z UvA w Amsterdam UMC. Czas trwania nie wystąpił na pobranej stronie. Przeliczenie polskiej matury (biologia, chemia, fizyka, matematyka) na wymagane certyfikaty VWO należy potwierdzić z uczelnią."
+        }
+      ]
+    },
+    {
+      "name": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+      "url": "https://www.amsterdamuas.com",
+      "type": "uczelnia zawodowa (HBO)",
+      "programs": [
+        {
+          "name": "Engineering: Werktuigbouwkunde",
+          "nameEn": "Engineering: Mechanical Engineering (Bachelor HBO, w języku niderlandzkim)",
+          "careerIds": [
+            "inzynier-mechanik"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "niderlandzki"
+          ],
+          "academicYear": "2027/28 (nie potwierdzono na stronie)",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27). Do tego ok. 200 do 400 EUR rocznie na materiały (zależnie od kierunku).",
+            "nonEu": "10 648 EUR rocznie (opłata instytucjonalna, rok 2026/27; strona nie podaje rozróżnienia na kierunki)",
+            "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/tuition-fees/tuition-fees",
+            "quote": "AUAS: '2026-2027 academic year ... Statutory tuition fees: 2,694; Institutional tuition fees: 10,648'",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (HvA wymaga dyplomu równoważnego havo, vwo albo mbo 4; dyplom zagraniczny przechodzi 'diplomawaardering' przed startem; polska matura nie jest wymieniona na stronie kierunku, a Nuffic ocenia ją jako poziom VWO)",
+            "requirements": "Havo lub vwo (profile N&T, N&G, E&M; vwo C&M z dodatkowymi wymaganiami), mbo 4 albo równoważny dyplom zagraniczny. Matematyka A lub B obowiązkowa (przy braku kursy uzupełniające). Numerus fixus: strona nie wspomina. Dyplom musi być oceniony przed startem; zapis w Studielink co najmniej 6 tygodni przed terminem.",
+            "languageProof": null,
+            "selective": false,
+            "sourceUrl": "https://www.hva.nl/opleidingen/engineering-werktuigbouwkunde/toelating",
+            "quote": "HvA: 'Je wordt tot deze opleiding toegelaten als je in het bezit bent van een havo- of vwo-diploma, een mbo-diploma op niveau 4 of een gelijkwaardig bevonden diploma.'; 'verplicht wiskunde A of Wiskunde B'.",
+            "matura_note": "Nuffic: Świadectwo dojrzałości odpowiada VWO (EQF 4+).",
+            "matura_source": "https://www.nuffic.nl/en/education-systems/poland/level-of-diplomas"
+          },
+          "deadline": "Rok 2027/28: kierunki bez limitu (stacjonarne) do 31 sierpnia 2027; osoby wymagające wizy do 1 maja 2027; kierunki z numerus fixus do 15 stycznia 2027. Opłata aplikacyjna 100 EUR dla dyplomów spoza NL. Ocena zagranicznego dyplomu trwa 2 do 6 tygodni (do 10 w trudnych przypadkach); zapisać się w Studielink co najmniej 6 tygodni przed terminem.",
+          "applyUrl": "https://www.amsterdamuas.com/study/international-admissions/how-to-apply/eu-and-international",
+          "sourceUrl": "https://www.hva.nl/opleidingen/engineering-werktuigbouwkunde",
+          "notes": "Studia stosowane (HBO), 4 lata, w języku niderlandzkim; wymóg poziomu niderlandzkiego dla kandydatów zagranicznych nie wystąpił na pobranych stronach. Termin 'po 1 października' to otwarcie zapisów, nie koniec."
+        },
+        {
+          "name": "Built Environment (ścieżki m.in. Architectuur, Constructie, Water)",
+          "nameEn": "Built Environment (Bachelor HBO, w języku niderlandzkim; w tym Architecture, Structural/Civil Engineering)",
+          "careerIds": [
+            "architekt",
+            "inzynier-budownictwa"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "niderlandzki"
+          ],
+          "academicYear": "2027/28 (nie potwierdzono na stronie)",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27). Do tego ok. 200 do 400 EUR rocznie na materiały (zależnie od kierunku).",
+            "nonEu": "10 648 EUR rocznie (opłata instytucjonalna, rok 2026/27; strona nie podaje rozróżnienia na kierunki)",
+            "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/tuition-fees/tuition-fees",
+            "quote": "AUAS: '2026-2027 academic year ... Statutory tuition fees: 2,694; Institutional tuition fees: 10,648'",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (HvA wymaga dyplomu równoważnego havo, vwo albo mbo 4; dyplom zagraniczny przechodzi 'diplomawaardering' przed startem; polska matura nie jest wymieniona na stronie kierunku, a Nuffic ocenia ją jako poziom VWO)",
+            "requirements": "Havo lub vwo (N&T, N&G, E&M bez dodatkowych wymagań; vwo C&M z Wiskunde A lub B), mbo 4. Tylko dyplom wydany przed 1 września. Numerus fixus: strona nie wspomina. Ścieżki: Architectuur, Architectonische Techniek, Assetmanagement, Constructie, Mobiliteit, Projectmanagement, Stedenbouw, Water.",
+            "languageProof": null,
+            "selective": false,
+            "sourceUrl": "https://www.hva.nl/opleidingen/built-environment/toelating",
+            "quote": "HvA: 'Je bent toelaatbaar met een havo-, vwo- of mbo-4 diploma' (profile i warunki wg strony toelating).",
+            "matura_note": "Nuffic: Świadectwo dojrzałości odpowiada VWO (EQF 4+).",
+            "matura_source": "https://www.nuffic.nl/en/education-systems/poland/level-of-diplomas"
+          },
+          "deadline": "Rok 2027/28: kierunki bez limitu (stacjonarne) do 31 sierpnia 2027; osoby wymagające wizy do 1 maja 2027; kierunki z numerus fixus do 15 stycznia 2027. Opłata aplikacyjna 100 EUR dla dyplomów spoza NL. Ocena zagranicznego dyplomu trwa 2 do 6 tygodni (do 10 w trudnych przypadkach); zapisać się w Studielink co najmniej 6 tygodni przed terminem.",
+          "applyUrl": "https://www.amsterdamuas.com/study/international-admissions/how-to-apply/eu-and-international",
+          "sourceUrl": "https://www.hva.nl/opleidingen/built-environment",
+          "notes": "Jeden program HBO obejmuje architekturę i budownictwo (wybór ścieżki w trakcie studiów). Do zawodu architekta zwykle potrzebny jest dalszy tytuł (nie badano). Dokładna nazwa ścieżki 'Civiele Techniek' pojawia się w wynikach wyszukiwania, ale nie na pobranej stronie głównej."
+        },
+        {
+          "name": "ICT (Technische Informatica, dawniej HBO-ICT)",
+          "nameEn": "ICT (Bachelor HBO, w języku niderlandzkim; ścieżka Technische Informatica)",
+          "careerIds": [
+            "programista"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "niderlandzki"
+          ],
+          "academicYear": "2027/28 (nie potwierdzono na stronie)",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27). Do tego ok. 200 do 400 EUR rocznie na materiały (zależnie od kierunku).",
+            "nonEu": "10 648 EUR rocznie (opłata instytucjonalna, rok 2026/27; strona nie podaje rozróżnienia na kierunki)",
+            "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/tuition-fees/tuition-fees",
+            "quote": "AUAS: '2026-2027 academic year ... Statutory tuition fees: 2,694; Institutional tuition fees: 10,648'",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (HvA wymaga dyplomu równoważnego havo, vwo albo mbo 4; dyplom zagraniczny przechodzi 'diplomawaardering' przed startem; polska matura nie jest wymieniona na stronie kierunku, a Nuffic ocenia ją jako poziom VWO)",
+            "requirements": "Havo, vwo lub mbo 4 albo równoważny dyplom. Matematyka nie jest ścisłym wymogiem, ale zalecana; dla Technische Informatica wyszukiwanie wskazało Wiskunde B lub D (nie potwierdzone na pobranej stronie). Numerus fixus: strona nie wspomina.",
+            "languageProof": null,
+            "selective": false,
+            "sourceUrl": "https://www.hva.nl/opleidingen/hbo-ict/toelating",
+            "quote": "HvA: 'You have a havo, vwo or mbo 4 diploma'; 'approximately 400 euro per year for books'.",
+            "matura_note": "Nuffic: Świadectwo dojrzałości odpowiada VWO (EQF 4+).",
+            "matura_source": "https://www.nuffic.nl/en/education-systems/poland/level-of-diplomas"
+          },
+          "deadline": "Rok 2027/28: kierunki bez limitu (stacjonarne) do 31 sierpnia 2027; osoby wymagające wizy do 1 maja 2027; kierunki z numerus fixus do 15 stycznia 2027. Opłata aplikacyjna 100 EUR dla dyplomów spoza NL. Ocena zagranicznego dyplomu trwa 2 do 6 tygodni (do 10 w trudnych przypadkach); zapisać się w Studielink co najmniej 6 tygodni przed terminem.",
+          "applyUrl": "https://www.amsterdamuas.com/study/international-admissions/how-to-apply/eu-and-international",
+          "sourceUrl": "https://www.hva.nl/opleidingen/hbo-ict",
+          "notes": "Strona wspomina o opcji angielskiej, której zakresu nie sprawdzono. Dowód niderlandzkiego niepotwierdzony."
+        },
+        {
+          "name": "Toegepaste Psychologie",
+          "nameEn": "Applied Psychology (Bachelor HBO, w języku niderlandzkim)",
+          "careerIds": [
+            "psycholog"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "niderlandzki"
+          ],
+          "academicYear": "2027/28",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27). Do tego ok. 200 do 400 EUR rocznie na materiały (zależnie od kierunku).",
+            "nonEu": "10 648 EUR rocznie (opłata instytucjonalna, rok 2026/27; strona nie podaje rozróżnienia na kierunki)",
+            "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/tuition-fees/tuition-fees",
+            "quote": "AUAS: '2026-2027 academic year ... Statutory tuition fees: 2,694; Institutional tuition fees: 10,648'",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (HvA wymaga dyplomu równoważnego havo, vwo albo mbo 4; dyplom zagraniczny przechodzi 'diplomawaardering' przed startem; polska matura nie jest wymieniona na stronie kierunku, a Nuffic ocenia ją jako poziom VWO)",
+            "requirements": "Numerus fixus: obowiązkowa selekcja między 15 stycznia a ok. 15 marca; 140 uczestników z najlepszymi wynikami testu dostaje bezpośrednie miejsce, pozostali losowanie niezależnie od wyniku. Wymagania dyplomowe (havo, vwo, mbo 4) wg strony toelating, której nie pobrano w całości.",
+            "languageProof": null,
+            "selective": true,
+            "sourceUrl": "https://www.hva.nl/opleidingen/toegepaste-psychologie/schrijf-je-in",
+            "quote": "HvA: 'Omdat er meer aanmeldingen dan plaatsen zijn, vindt er een selectie plaats'; 'Registration 1 October 2026 to 15 January 2027'.",
+            "matura_note": "Nuffic: Świadectwo dojrzałości odpowiada VWO (EQF 4+).",
+            "matura_source": "https://www.nuffic.nl/en/education-systems/poland/level-of-diplomas"
+          },
+          "deadline": "Studielink od 1 października 2026 do 15 stycznia 2027 (numerus fixus, rok 2027/28). Opłata aplikacyjna 100 EUR dla dyplomów spoza NL.",
+          "applyUrl": "https://www.amsterdamuas.com/study/international-admissions/how-to-apply/eu-and-international",
+          "sourceUrl": "https://www.hva.nl/opleidingen/toegepaste-psychologie",
+          "notes": "Kierunek stosowany (HBO), nie uniwersytecki; w Polsce nie równa się studiom psychologicznym kończącym się uprawnieniami psychologa. Liczba 140 pochodzi z wyniku wyszukiwania HvA."
+        },
+        {
+          "name": "Communicatie",
+          "nameEn": "Communication (Bachelor HBO, w języku niderlandzkim)",
+          "careerIds": [
+            "dziennikarz"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "niderlandzki"
+          ],
+          "academicYear": "2027/28 (nie potwierdzono na stronie)",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27). Do tego ok. 200 do 400 EUR rocznie na materiały (zależnie od kierunku).",
+            "nonEu": "10 648 EUR rocznie (opłata instytucjonalna, rok 2026/27; strona nie podaje rozróżnienia na kierunki)",
+            "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/tuition-fees/tuition-fees",
+            "quote": "AUAS: '2026-2027 academic year ... Statutory tuition fees: 2,694; Institutional tuition fees: 10,648'",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (HvA wymaga dyplomu równoważnego havo, vwo albo mbo 4; dyplom zagraniczny przechodzi 'diplomawaardering' przed startem; polska matura nie jest wymieniona na stronie kierunku, a Nuffic ocenia ją jako poziom VWO)",
+            "requirements": "Ukończone mbo 4, havo lub vwo. Numerus fixus: strona nie podaje. Dyplom zagraniczny podlega ocenie 'diplomawaardering'.",
+            "languageProof": null,
+            "selective": false,
+            "sourceUrl": "https://www.hva.nl/opleidingen/communicatie",
+            "quote": "HvA: 'Je beschikt over een afgeronde mbo 4-, havo- of vwo-opleiding'.",
+            "matura_note": "Nuffic: Świadectwo dojrzałości odpowiada VWO (EQF 4+).",
+            "matura_source": "https://www.nuffic.nl/en/education-systems/poland/level-of-diplomas"
+          },
+          "deadline": "Rok 2027/28: kierunki bez limitu (stacjonarne) do 31 sierpnia 2027; osoby wymagające wizy do 1 maja 2027; kierunki z numerus fixus do 15 stycznia 2027. Opłata aplikacyjna 100 EUR dla dyplomów spoza NL. Ocena zagranicznego dyplomu trwa 2 do 6 tygodni (do 10 w trudnych przypadkach); zapisać się w Studielink co najmniej 6 tygodni przed terminem.",
+          "applyUrl": "https://www.amsterdamuas.com/study/international-admissions/how-to-apply/eu-and-international",
+          "sourceUrl": "https://www.hva.nl/opleidingen/communicatie",
+          "notes": "Kierunek komunikacji korporacyjnej i marketingowej z dostępem do studiów TV i radio, nie dziennikarstwo w wąskim sensie. Wymóg niderlandzkiego niepotwierdzony."
+        },
+        {
+          "name": "International Business (AMSIB)",
+          "nameEn": "International Business (Bachelor HBO)",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2027/28 (nie potwierdzono na stronie)",
+          "tuition": {
+            "eu": "2 694 EUR rocznie (opłata ustawowa, rok 2026/27). Do tego ok. 200 do 400 EUR rocznie na materiały (zależnie od kierunku).",
+            "nonEu": "10 648 EUR rocznie (opłata instytucjonalna, rok 2026/27; strona nie podaje rozróżnienia na kierunki)",
+            "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/tuition-fees/tuition-fees",
+            "quote": "AUAS: '2026-2027 academic year ... Statutory tuition fees: 2,694; Institutional tuition fees: 10,648'",
+            "academicYear": "2026/27"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami (HvA wymaga dyplomu równoważnego havo, vwo albo mbo 4; dyplom zagraniczny przechodzi 'diplomawaardering' przed startem; polska matura nie jest wymieniona na stronie kierunku, a Nuffic ocenia ją jako poziom VWO)",
+            "requirements": "Dyplom równoważny mbo 4, havo lub vwo; polskie dyplomy wymagają oceny względem systemu holenderskiego (HvA odsyła do Nuffic). Matematyka wymagana dla większości dyplomów zagranicznych. Osoby spoza UE wypełniają kwestionariusz, możliwa rozmowa.",
+            "languageProof": "Angielski B2: IELTS Academic 6,0 (min. 5,5 w częściach), TOEFL iBT 80 (min. 20 w częściach). Ważność 2 lata.",
+            "selective": false,
+            "sourceUrl": "https://www.amsterdamuas.com/programmes/international-business/admission",
+            "quote": "AUAS (podsumowanie strony): polskie dyplomy do oceny względem systemu holenderskiego (Nuffic); angielski B2: IELTS Academic 6,0 (subscores 5,5), TOEFL iBT 80 (subscores 20).",
+            "matura_note": "Nuffic: Świadectwo dojrzałości odpowiada VWO (EQF 4+).",
+            "matura_source": "https://www.nuffic.nl/en/education-systems/poland/level-of-diplomas"
+          },
+          "deadline": "Rok 2027/28: kierunki bez limitu (stacjonarne) do 31 sierpnia 2027; osoby wymagające wizy do 1 maja 2027; kierunki z numerus fixus do 15 stycznia 2027. Opłata aplikacyjna 100 EUR dla dyplomów spoza NL. Ocena zagranicznego dyplomu trwa 2 do 6 tygodni (do 10 w trudnych przypadkach); zapisać się w Studielink co najmniej 6 tygodni przed terminem.",
+          "applyUrl": "https://www.amsterdamuas.com/study/international-admissions/how-to-apply/eu-and-international",
+          "sourceUrl": "https://www.amsterdamuas.com/programmes/international-business",
+          "notes": "Czas trwania 4 lata wynika ze strony ogólnej o licencjatach HvA (4 lata), nie ze strony kierunku. Opis polskiego dyplomu pochodzi z podsumowania strony, bez cytatu słowo w słowo."
+        }
+      ]
+    }
+  ],
+  "luki": [
+    "Architektura i budownictwo: UvA i VU nie mają takich kierunków; jedyna opcja to HvA Built Environment (HBO, niderlandzki). Politechnika Delft i Eindhoven są poza Amsterdamem.",
+    "Mechanika: tylko HvA Engineering: Werktuigbouwkunde (HBO, niderlandzki). Brak angielskiej wersji.",
+    "Data science: brak osobnego licencjatu w pobranych źródłach; UvA Business Analytics (angielski) i VU Computer Science jako najbliższe. UvA Informatica i Kunstmatige Intelligentie są po niderlandzku.",
+    "Prawo: tylko UvA Rechtsgeleerdheid (niderlandzki); strony VU Law nie udało się pobrać (404). Brak angielskiego licencjatu z samego prawa w źródłach (UvA PPLE jest interdyscyplinarny).",
+    "Czesne instytucjonalne UvA 2026/27 dla Communication Science, Business Analytics i Informatyki nie jest przypisane na stronach programów; w tabeli kategoria 'Science' to 21 800 EUR. UvA nie ogłosiła stawek na 2027/28 na pobranej stronie.",
+    "Strony UvA programów (Global Communication Science, Business Analytics, Informatica) nie podają terminu ani limitu miejsc w pobranej treści.",
+    "Czas trwania licencjatu medycyny i trzech programów VU (informatyka, ekonomia, komunikacja) nie wystąpił na pobranych stronach (durationYears: null).",
+    "Wyniki angielskiego dla VU i dokładny poziom niderlandzkiego (poza medycyną: NT2 II) nie zostały pobrane (osobne strony 'Language requirements').",
+    "Rozbieżność źródeł HvA: wyszukiwarka pokazała dla 2026/27 kwoty 1 571,50 EUR (ustawowa) i 6 211,33 EUR (instytucjonalna), natomiast strona opłat HvA podaje 2 694 EUR i 10 648 EUR; przyjęto stronę, którą pobrano bezpośrednio. Stawkę dla konkretnego kierunku potwierdzić.",
+    "Nie pobrano rekordów DUO, studielink.nl ani studyinnl.org z opłatą ustawową dla 2027/28; kwota 2 771 EUR pochodzi ze strony VU.",
+    "Rok akademicki 2027/28: terminy numerus fixus potwierdzone na stronach UvA, VU i HvA (1 października 2026 do 15 stycznia 2027); daty testów selekcyjnych UvA/VU opisane na stronach w cyklu oznaczonym jako 2026-2027, wymagają potwierdzenia."
+  ]
+}

@@ -3189,3 +3189,32 @@ p.school-popup__caption { margin: 0.25rem 0 0.4rem; }
 .person-popup__header { padding-right: 2.75rem; }
 
 .results__legend { margin: 1rem 0 0; font-size: 0.85rem; color: var(--kr-text-muted); }
+
+/* Studia za granicą */
+.zagr__tabs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0; }
+.zagr__tabs a { padding: 0.5rem 1rem; border-radius: 100px; border: 1px solid var(--kr-border); color: var(--kr-text-muted); text-decoration: none; font-weight: 600; min-height: 44px; display: inline-flex; align-items: center; gap: 0.5rem; }
+.zagr__tabs a[aria-current="page"] { background: var(--kr-tag-bg); color: var(--kr-primary); border-color: var(--kr-primary-light); }
+.zagr__soon { font-size: 0.72rem; font-weight: 600; padding: 0.1rem 0.5rem; border-radius: 100px; background: var(--kr-tag-bg); color: var(--kr-text-muted); }
+.zagr__notice { margin: 1rem 0; padding: 1rem 1.25rem; border: 1px solid var(--kr-border); border-left: 4px solid var(--kr-primary-light); border-radius: 12px; background: var(--kr-card-bg); }
+.zagr__grid { list-style: none; padding: 0; margin: 0.75rem 0 1.5rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr)); gap: 0.75rem; }
+.zagr__card { display: flex; flex-direction: column; gap: 0.25rem; padding: 0.85rem 1rem; border: 1px solid var(--kr-border); border-radius: 12px; background: var(--kr-card-bg); color: inherit; text-decoration: none; min-height: 44px; }
+.zagr__card:hover, .zagr__card:focus-visible { border-color: var(--kr-primary-light); }
+.zagr__city-field { max-width: 24rem; }
+.zagr__filters { display: flex; flex-wrap: wrap; gap: 1rem; align-items: end; margin: 1rem 0 0.5rem; }
+.zagr__summary dd { max-width: 60rem; }
+.zagr__uni { margin: 1.5rem 0; }
+.zagr__badges { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 0.5rem 0; }
+.zagr__careers { margin: 0.25rem 0 0.5rem; }
+.zagr__details { margin: 0.75rem 0; }
+.zagr__details summary { cursor: pointer; color: var(--kr-secondary); font-weight: 600; min-height: 32px; }
+.zagr__links { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 0.75rem; font-weight: 600; }
+.zagr__links a { min-height: 32px; display: inline-flex; align-items: center; }
+.zagr__gaps ul { padding-left: 1.1rem; }
+
+/* Pięć linków w pasku górnym mieści się na telefonie obok przycisku motywu */
+@media (max-width: 480px) {
+  .topbar { padding-left: 0.75rem; padding-right: 0.75rem; }
+  .topbar__nav { gap: 0; overflow-x: auto; scrollbar-width: none; }
+  .topbar__nav::-webkit-scrollbar { display: none; }
+  .topbar__nav a { padding: 0.4rem 0.45rem; font-size: 0.82rem; }
+}

@@ -87,6 +87,8 @@
     szkola: document.getElementById('view-szkola'),
     kalkulator: document.getElementById('view-kalkulator'),
     quiz: document.getElementById('view-quiz'),
+    zagranica: document.getElementById('view-zagranica'),
+    koszty: document.getElementById('view-koszty'),
   };
 
   const scrollPositions = {};
@@ -111,7 +113,7 @@
     }
 
     // Zaznaczenie bieżącej sekcji w górnym pasku
-    const navKey = { zawod: 'wyniki', szkola: 'szkoly' }[name] || name;
+    const navKey = { zawod: 'wyniki', szkola: 'szkoly', koszty: 'zagranica' }[name] || name;
     document.querySelectorAll('.topbar__nav [data-nav]').forEach(a => {
       if (a.dataset.nav === navKey) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
     });
@@ -124,7 +126,7 @@
     }
 
     // Focus management: move focus to heading of new view (skip views rendered async — handled by render functions)
-    if (name !== 'zawod' && name !== 'szkoly' && name !== 'szkola' && name !== 'kalkulator' && name !== 'quiz') {
+    if (name !== 'zawod' && name !== 'szkoly' && name !== 'szkola' && name !== 'kalkulator' && name !== 'quiz' && name !== 'zagranica' && name !== 'koszty') {
       const heading = views[name].querySelector('h1, h2');
       if (heading) {
         heading.setAttribute('tabindex', '-1');
@@ -143,6 +145,8 @@
     if (path.startsWith('/zawod/')) return { view: 'zawod', params: path.slice('/zawod/'.length).replace(/\/+$/, '') };
     if (path === '/szkoly' || path === '/szkoly/') return { view: 'szkoly', params: new URLSearchParams(search) };
     if (path === '/quiz' || path === '/quiz/') return { view: 'quiz', params: null };
+    if (path === '/zagranica/koszty' || path === '/zagranica/koszty/') return { view: 'koszty', params: null };
+    if (path === '/zagranica' || path === '/zagranica/') return { view: 'zagranica', params: new URLSearchParams(search) };
     if (path === '/kalkulator' || path === '/kalkulator/') return { view: 'kalkulator', params: new URLSearchParams(search) };
     if (path.startsWith('/szkola/')) return { view: 'szkola', params: path.slice('/szkola/'.length).replace(/\/+$/, '') };
     return { view: 'landing', params: null };
@@ -209,6 +213,16 @@
       case 'szkola':
         showView('szkola');
         Szkoly.renderDetail(document.getElementById('szkolaView'), route.params);
+        break;
+
+      case 'zagranica':
+        showView('zagranica');
+        Zagranica.render(document.getElementById('zagranicaView'), route.params);
+        break;
+
+      case 'koszty':
+        showView('koszty');
+        Zagranica.renderCosts(document.getElementById('kosztyView'));
         break;
 
       case 'quiz':
@@ -1971,6 +1985,7 @@
   // --- Init ---
   Szkoly.init({ BASE, escapeHtml, escapeAttr, isHttpUrl, updateMeta, announce });
   Quiz.init({ BASE, escapeHtml, escapeAttr, updateMeta });
+  Zagranica.init({ BASE, escapeHtml, escapeAttr, updateMeta });
 
   // Gdy dane zawodów się nie wczytały, wyszukiwanie dawałoby „Nie znaleziono zawodów”, więc mówimy wprost, co się stało
   function showLoadError() {

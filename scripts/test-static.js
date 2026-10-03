@@ -48,5 +48,27 @@ const wf = read('.github/workflows/deploy.yml');
 check('CI robi build i testy przed publikacją', wf.indexOf('npm run build') !== -1 && wf.indexOf('npm test') > wf.indexOf('npm run build'));
 check('CI nie publikuje dev_docs', !/cp[^\n]*dev_docs/.test(wf));
 
+console.log('\n=== Studia za granicą ===');
+const zIndex = JSON.parse(read('data/zagranica/index.json')).cities;
+check(`lista miast: ${zIndex.length} (26 stolic UE bez Warszawy i Londyn)`, zIndex.length === 27 && zIndex.some(c => c.slug === 'londyn'));
+const zBad = [];
+let zPrograms = 0;
+for (const c of zIndex.filter(c => c.status === 'dostępne')) {
+  const f = `data/zagranica/${c.slug}.json`;
+  if (!fs.existsSync(path.join(ROOT, f))) { zBad.push(`${c.slug}: brak pliku`); continue; }
+  const d = JSON.parse(read(f));
+  const blob = JSON.stringify(d);
+  if (/WebFetch|scratchpad|wyniki wyszukiwania/i.test(blob)) zBad.push(`${c.slug}: żargon narzędzi w danych`);
+  if (/[—–]/.test(blob)) zBad.push(`${c.slug}: długi myślnik`);
+  for (const u of d.universities) for (const p of u.programs) {
+    zPrograms++;
+    if (!/^https?:\/\//.test(p.url || p.applyUrl || '')) zBad.push(`${c.slug}: ${p.name} bez linku do programu`);
+    if (!p.academicYear) zBad.push(`${c.slug}: ${p.name} bez roku akademickiego`);
+  }
+  if (c.programs !== d.universities.reduce((a, u) => a + u.programs.length, 0)) zBad.push(`${c.slug}: liczba programów w indeksie niezgodna`);
+}
+check(`dane miast: ${zPrograms} programów z linkiem, rokiem akademickim i bez żargonu`, !zBad.length, zBad.slice(0, 4).join('; '));
+check('strony zagranica/ i zagranica/koszty/ istnieją', fs.existsSync(path.join(ROOT, 'zagranica', 'index.html')) && fs.existsSync(path.join(ROOT, 'zagranica', 'koszty', 'index.html')));
+
 console.log(`\n=== Results: ${passed} passed, ${failed} failed ===`);
 if (failed) process.exitCode = 1;

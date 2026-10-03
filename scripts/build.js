@@ -8,7 +8,7 @@ const fs = require('fs');
 const ROOT = path.resolve(__dirname, '..');
 
 async function build() {
-  const jsFiles = ['app.js', 'search.js', 'szkoly.js', 'quiz.js', 'animations.js'];
+  const jsFiles = ['app.js', 'search.js', 'szkoly.js', 'quiz.js', 'zagranica.js', 'animations.js'];
   let totalSaved = 0;
 
   // Minify JS files
@@ -79,6 +79,8 @@ async function build() {
   const pages = [
     ['quiz', 'Quiz zainteresowań | NextMove', 'Odpowiedz na kilka pytań o to, co lubisz, i zobacz zawody, które warto sprawdzić.', 'Quiz zainteresowań', 'Odpowiedz na kilka pytań o to, co lubisz, i zobacz zawody, które warto sprawdzić.'],
     ['kalkulator', 'Kalkulator punktów ósmoklasisty | NextMove', 'Policz punkty rekrutacyjne do szkoły średniej i porównaj je z ostatnimi progami klas.', 'Kalkulator punktów ósmoklasisty', 'Policz punkty rekrutacyjne do szkoły średniej i porównaj je z ostatnimi progami klas.'],
+    ['zagranica', 'Studia za granicą | NextMove', 'Studia w stolicach krajów UE i w Londynie: kierunki, język, opłaty dla obywateli UE, warunki przyjęcia z polską maturą i terminy z oficjalnych źródeł.', 'Studia za granicą', 'Studia w stolicach krajów UE i w Londynie: kierunki, język, opłaty dla obywateli UE, warunki przyjęcia z polską maturą i terminy.'],
+    ['zagranica/koszty', 'Koszty życia i akademiki | NextMove', 'Koszty życia i akademiki w miastach z zakładki Studia za granicą: zakładka w przygotowaniu.', 'Koszty życia i akademiki', 'Pracujemy nad tą zakładką. Pojawią się tu koszty życia i akademiki w miastach z zakładki Studia za granicą.'],
     ['szkoly', 'Szkoły średnie | NextMove', 'Licea i technika w 14 miejscach w Polsce: klasy, przedmioty rozszerzone, wyniki matur i progi punktowe.', 'Szkoły średnie', 'Licea i technika w 14 miejscach w Polsce: klasy, przedmioty rozszerzone, wyniki matur i progi punktowe.'],
   ];
   for (const c of careers) {
