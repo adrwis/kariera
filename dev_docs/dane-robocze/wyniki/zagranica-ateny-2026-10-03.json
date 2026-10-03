@@ -1,0 +1,523 @@
+{
+  "city": "Ateny",
+  "country": "Grecja",
+  "retrieved": "2026-10-03",
+  "overview": {
+    "polishMatura": "Greckie studia po grecku dla osoby z polską maturą idą ścieżką dla cudzoziemców z UE (kategoria B1 ministerstwa edukacji): bez egzaminów Panhellenic, bez egzaminów wstępnych. Warunki: co najmniej jedno z rodziców bez greckiego pochodzenia, pełna fizyczna nauka w dwóch ostatnich klasach w kraju ukończenia szkoły, świadectwo uprawniające do studiów w tym kraju. Przydział robi minister według ogólnego wyniku świadectwa przeliczonego na skalę 0 do 20 i według preferencji kandydata. Wymagany certyfikat greckiego, a świadectwo trzeba przejść przez apostille, tłumaczenie na grecki i poświadczenie równoważności greckiego ministerstwa lub koordynatora edukacji przy ambasadzie.",
+    "polishMaturaSource": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+    "tuition": "Studia licencjackie po grecku w publicznych uczelniach są bezpłatne (portal Study in Greece). Programy po angielsku są płatne: 6 000 EUR rocznie (AUEB IBT, NKUA BAAG, UNIWA AI i Data Science) i 17 000 EUR rocznie (medycyna po angielsku w NKUA), tak samo dla obywateli UE i spoza UE. Opłat obowiązkowych dodatkowych nie sprawdzono.",
+    "tuitionSource": "https://studyingreece.edu.gr/bachelors/",
+    "generalDeadlines": "Ścieżka dla cudzoziemców, rekrutacja 2026/27: wniosek elektroniczny od 2 do 9 lipca 2026, dokumenty kurierem do 10 lipca, zapis wyników i rejestracja od 11 do 25 września 2026. Terminy na 2027/28 jeszcze nie ogłoszone. Programy po angielsku mają własne terminy: AUEB IBT nabór ciągły, NKUA BAAG 1 sierpnia 2026, medycyna po angielsku 18 grudnia 2025 do 30 kwietnia 2026.",
+    "englishProof": "Programy po angielsku wymagają certyfikatu angielskiego: B2 w AUEB IBT, TOEFL 88 lub IELTS 6,5 w BAAG, TOEFL 80 lub IELTS 7,5 w medycynie. Na studia po grecku trzeba certyfikatu greckiego: egzamin Uniwersytetu Ateńskiego lub w Salonikach albo B2 Greek Language Centre. Jeśli brak certyfikatu, zapis możliwy dopiero rok później.",
+    "englishPrograms": "Na portalu Study in Greece jest 16 licencjatów po angielsku w całej Grecji. W Atenach: AUEB International Business and Technology, NKUA BAAG, NKUA medycyna po angielsku, UNIWA Artificial Intelligence and Data Science, UNIWA Applied Philosophy in Business Decision Making oraz NKUA Pharmacy (jednolite). NTUA nie ma licencjatu po angielsku na tej liście.",
+    "englishProgramsSource": "https://studyingreece.edu.gr/bachelors/"
+  },
+  "universities": [
+    {
+      "name": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+      "url": "https://en.uoa.gr",
+      "type": "uniwersytet",
+      "programs": [
+        {
+          "name": "Ιατρική (Medical Degree in English, MEDICEn)",
+          "nameEn": "Medical Degree English Program (MD)",
+          "careerIds": [
+            "lekarz"
+          ],
+          "level": "jednolite",
+          "durationYears": 6,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2026/27 (nabór zamknięty 30 kwietnia 2026; 2027/28 jeszcze nie ogłoszony)",
+          "tuition": {
+            "eu": "17 000 EUR rocznie (obywatele UE i spoza UE tak samo). Depozyt 5 000 EUR po przyjęciu (bezzwrotny, poza wyjątkami), reszta w dwóch ratach (początek września i połowa stycznia).",
+            "nonEu": "17 000 EUR rocznie",
+            "sourceUrl": "https://medicen.uoa.gr/tuition-fees/"
+          },
+          "admission": {
+            "polishMatura": "brak potwierdzenia: polska matura nie występuje na liście akceptowanych kwalifikacji",
+            "requirements": "Program dla cudzoziemców (UE i spoza UE), którzy ostatnie dwa lata liceum kończyli za granicą. Wymagane co najmniej jedno z: IB (min. 36 pkt, trzy przedmioty rozszerzone, w tym dwa z fizyki, chemii, biologii), francuska matura (16 z 20), European Baccalaureate (85%), A-levels (AAA), wynik UCAT (sesje 2024 i 2025), MCAT, AP z SAT, licencjat pokrewny medycynie (min. 65%) lub kurs pre-med. Dokumenty: świadectwo, wykazy ocen z dwóch ostatnich lat, CV, list motywacyjny.",
+            "languageProof": "TOEFL min. 80 z 120, IELTS min. 7,5 (co najmniej 6,5 w każdej części) lub FCE B2; nie dotyczy native speakerów i absolwentów szkół z angielskim językiem wykładowym.",
+            "selective": true,
+            "sourceUrl": "https://medicen.uoa.gr/admission-requirements/"
+          },
+          "deadline": "Rekrutacja 2026/27: platforma otwarta od 18 grudnia 2025 do 30 kwietnia 2026. Termin na 2027/28 nie opublikowany.",
+          "applyUrl": "https://cloud-solutions.anova.gr/MEDICEN/",
+          "sourceUrl": "https://medicen.uoa.gr/overview/",
+          "notes": "360 ECTS, 12 semestrów. Polska matura nie jest wymieniona wprost, więc realną drogą dla maturzysty może być wynik UCAT lub MCAT; czy strona uczelni zaakceptuje maturę z UCAT, trzeba potwierdzić z biurem przyjęć (md.admissions@uoa.gr). Liczba miejsc nie jest podana na stronie."
+        },
+        {
+          "name": "Αρχαιολογία, Ιστορία και Λογοτεχνία της Αρχαίας Ελλάδας (BAAG)",
+          "nameEn": "BA in the Archaeology, History and Literature of Ancient Greece",
+          "careerIds": [],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2026/27 (termin 1 sierpnia 2026 minął; 2027/28 nie ogłoszony)",
+          "tuition": {
+            "eu": "6 000 EUR rocznie, w dwóch ratach (do końca czerwca i do końca stycznia); może być wymagany depozyt",
+            "nonEu": "6 000 EUR rocznie (strona podaje jedną kwotę)",
+            "sourceUrl": "https://baag.uoa.gr/admission-fees/"
+          },
+          "admission": {
+            "polishMatura": "uznawana (strona wymaga świadectwa ukończenia liceum lub IB, orientacyjna średnia 70% lub równoważna; nie wymienia polskiej matury z nazwy)",
+            "requirements": "Świadectwo ukończenia liceum lub IB (orientacyjnie średnia 70%), wykaz ocen, CV, krótki list motywacyjny, paszport. Brak egzaminu wstępnego na stronie, ocena dokumentów przez uczelnię.",
+            "languageProof": "TOEFL min. 88, IELTS min. 6,5 (co najmniej 5,5 w każdej części) lub FCE B2; native speakerzy bez certyfikatu.",
+            "selective": null,
+            "sourceUrl": "https://baag.uoa.gr/admission-fees/"
+          },
+          "deadline": "2026/27: 1 sierpnia 2026 (zarówno dla osób wymagających wizy, jak i bez wizy). Kolejny termin nie ogłoszony.",
+          "applyUrl": "https://baag.uoa.gr/apply-now/",
+          "sourceUrl": "https://baag.uoa.gr/overview/",
+          "notes": "Brak kierunku w liście zawodów na stronie NextMove (archeologia), dodany informacyjnie. Komunikat uczelni z 2020 r. mówił, że program jest tylko dla kandydatów spoza UE; obecna strona mówi o kandydatach międzynarodowych i wprost o paszportach krajów UE (brak wizy), więc obywatele UE są przyjmowani, ale limitów miejsc nie podano."
+        },
+        {
+          "name": "Ψυχολογία",
+          "nameEn": "Psychology",
+          "careerIds": [
+            "psycholog"
+          ],
+          "level": "licencjat",
+          "durationYears": null,
+          "languages": [
+            "grecki (do potwierdzenia na stronie wydziału)"
+          ],
+          "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; warunki na 2027/28 jeszcze nie opublikowane)",
+          "tuition": {
+            "eu": "0 EUR (studia licencjackie po grecku w publicznych uczelniach są bezpłatne wg portalu Study in Greece)",
+            "nonEu": null,
+            "sourceUrl": "https://studyingreece.edu.gr/bachelors/"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami, przez osobną ścieżkę dla cudzoziemców (kategoria B1 ministerstwa: absolwenci liceów państw UE zagranicą). Warunki: co najmniej jedno z rodziców nie jest pochodzenia greckiego, pełna fizyczna nauka w dwóch ostatnich klasach w kraju ukończenia szkoły, świadectwo uprawnia do wstępu na uniwersytety w tym kraju.",
+            "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20 (przeliczenie i poświadczenie równoważności wydaje greckie ministerstwo, wydział ds. Greków zagranicą, lub koordynator edukacji przy greckiej ambasadzie). Kandydat zaznacza kolejność preferowanych wydziałów w elektronicznym formularzu, przydział robi minister według wyniku i miejsc. Dokumenty z apostille i tłumaczeniem na grecki.",
+            "languageProof": "Certyfikat znajomości greckiego do zapisu: egzamin Uniwersytetu Ateńskiego lub Uniwersytetu w Salonikach albo certyfikat B2 Greek Language Centre. Bez certyfikatu zapis możliwy dopiero w kolejnym roku akademickim, pod warunkiem uzyskania certyfikatu, inaczej utrata miejsca.",
+            "selective": true,
+            "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc"
+          },
+          "deadline": "Rekrutacja 2026/27: elektroniczny wniosek od 2 do 9 lipca 2026, wysyłka dokumentów kurierem do 10 lipca 2026, wyniki i zapis od 11 do 25 września 2026. Termin na rok 2027/28 nie został jeszcze ogłoszony (ministerstwo publikuje go w czerwcu lub lipcu).",
+          "applyUrl": "https://exams-foreigner.it.minedu.gov.gr",
+          "sourceUrl": "https://en.psych.uoa.gr/undergraduate",
+          "notes": "Program wymaga 240 ECTS, w tym praktyki (12 ECTS), co zwykle odpowiada czterem latom; liczba semestrów do potwierdzenia na stronie wydziału. Język wykładowy nie jest wprost podany na stronie angielskiej. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku."
+        },
+        {
+          "name": "Πληροφορική και Τηλεπικοινωνίες",
+          "nameEn": "Informatics and Telecommunications",
+          "careerIds": [
+            "programista",
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": null,
+          "languages": [
+            "grecki"
+          ],
+          "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; warunki na 2027/28 jeszcze nie opublikowane)",
+          "tuition": {
+            "eu": "0 EUR (studia licencjackie po grecku w publicznych uczelniach są bezpłatne wg portalu Study in Greece)",
+            "nonEu": null,
+            "sourceUrl": "https://studyingreece.edu.gr/bachelors/"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami, przez osobną ścieżkę dla cudzoziemców (kategoria B1 ministerstwa: absolwenci liceów państw UE zagranicą). Warunki: co najmniej jedno z rodziców nie jest pochodzenia greckiego, pełna fizyczna nauka w dwóch ostatnich klasach w kraju ukończenia szkoły, świadectwo uprawnia do wstępu na uniwersytety w tym kraju.",
+            "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20 (przeliczenie i poświadczenie równoważności wydaje greckie ministerstwo, wydział ds. Greków zagranicą, lub koordynator edukacji przy greckiej ambasadzie). Kandydat zaznacza kolejność preferowanych wydziałów w elektronicznym formularzu, przydział robi minister według wyniku i miejsc. Dokumenty z apostille i tłumaczeniem na grecki.",
+            "languageProof": "Certyfikat znajomości greckiego do zapisu: egzamin Uniwersytetu Ateńskiego lub Uniwersytetu w Salonikach albo certyfikat B2 Greek Language Centre. Bez certyfikatu zapis możliwy dopiero w kolejnym roku akademickim, pod warunkiem uzyskania certyfikatu, inaczej utrata miejsca.",
+            "selective": true,
+            "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc"
+          },
+          "deadline": "Rekrutacja 2026/27: elektroniczny wniosek od 2 do 9 lipca 2026, wysyłka dokumentów kurierem do 10 lipca 2026, wyniki i zapis od 11 do 25 września 2026. Termin na rok 2027/28 nie został jeszcze ogłoszony (ministerstwo publikuje go w czerwcu lub lipcu).",
+          "applyUrl": "https://exams-foreigner.it.minedu.gov.gr",
+          "sourceUrl": "https://www.di.uoa.gr/en/studies/undergraduate",
+          "notes": "Wydział wprost pisze, że program licencjacki jest prowadzony po grecku, a większość informacji jest tylko po grecku. Czas trwania nie sprawdzony. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku."
+        },
+        {
+          "name": "Νομική",
+          "nameEn": "Law",
+          "careerIds": [
+            "prawnik"
+          ],
+          "level": "jednolite",
+          "durationYears": null,
+          "languages": [
+            "grecki (do potwierdzenia na stronie wydziału)"
+          ],
+          "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; warunki na 2027/28 jeszcze nie opublikowane)",
+          "tuition": {
+            "eu": "0 EUR (studia licencjackie po grecku w publicznych uczelniach są bezpłatne wg portalu Study in Greece)",
+            "nonEu": null,
+            "sourceUrl": "https://studyingreece.edu.gr/bachelors/"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami, przez osobną ścieżkę dla cudzoziemców (kategoria B1 ministerstwa: absolwenci liceów państw UE zagranicą). Warunki: co najmniej jedno z rodziców nie jest pochodzenia greckiego, pełna fizyczna nauka w dwóch ostatnich klasach w kraju ukończenia szkoły, świadectwo uprawnia do wstępu na uniwersytety w tym kraju.",
+            "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20 (przeliczenie i poświadczenie równoważności wydaje greckie ministerstwo, wydział ds. Greków zagranicą, lub koordynator edukacji przy greckiej ambasadzie). Kandydat zaznacza kolejność preferowanych wydziałów w elektronicznym formularzu, przydział robi minister według wyniku i miejsc. Dokumenty z apostille i tłumaczeniem na grecki.",
+            "languageProof": "Certyfikat znajomości greckiego do zapisu: egzamin Uniwersytetu Ateńskiego lub Uniwersytetu w Salonikach albo certyfikat B2 Greek Language Centre. Bez certyfikatu zapis możliwy dopiero w kolejnym roku akademickim, pod warunkiem uzyskania certyfikatu, inaczej utrata miejsca.",
+            "selective": true,
+            "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc"
+          },
+          "deadline": "Rekrutacja 2026/27: elektroniczny wniosek od 2 do 9 lipca 2026, wysyłka dokumentów kurierem do 10 lipca 2026, wyniki i zapis od 11 do 25 września 2026. Termin na rok 2027/28 nie został jeszcze ogłoszony (ministerstwo publikuje go w czerwcu lub lipcu).",
+          "applyUrl": "https://exams-foreigner.it.minedu.gov.gr",
+          "sourceUrl": "https://en.uoa.gr/studies/undergraduate_programs",
+          "notes": "Kierunek istnieje w ofercie NKUA (lista programów licencjackich). Czas trwania i język wykładowy nie zostały potwierdzone na pobranej stronie. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku."
+        },
+        {
+          "name": "Οικονομικών Επιστημών",
+          "nameEn": "Economics",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": null,
+          "languages": [
+            "grecki (do potwierdzenia na stronie wydziału)"
+          ],
+          "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; warunki na 2027/28 jeszcze nie opublikowane)",
+          "tuition": {
+            "eu": "0 EUR (studia licencjackie po grecku w publicznych uczelniach są bezpłatne wg portalu Study in Greece)",
+            "nonEu": null,
+            "sourceUrl": "https://studyingreece.edu.gr/bachelors/"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami, przez osobną ścieżkę dla cudzoziemców (kategoria B1 ministerstwa: absolwenci liceów państw UE zagranicą). Warunki: co najmniej jedno z rodziców nie jest pochodzenia greckiego, pełna fizyczna nauka w dwóch ostatnich klasach w kraju ukończenia szkoły, świadectwo uprawnia do wstępu na uniwersytety w tym kraju.",
+            "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20 (przeliczenie i poświadczenie równoważności wydaje greckie ministerstwo, wydział ds. Greków zagranicą, lub koordynator edukacji przy greckiej ambasadzie). Kandydat zaznacza kolejność preferowanych wydziałów w elektronicznym formularzu, przydział robi minister według wyniku i miejsc. Dokumenty z apostille i tłumaczeniem na grecki.",
+            "languageProof": "Certyfikat znajomości greckiego do zapisu: egzamin Uniwersytetu Ateńskiego lub Uniwersytetu w Salonikach albo certyfikat B2 Greek Language Centre. Bez certyfikatu zapis możliwy dopiero w kolejnym roku akademickim, pod warunkiem uzyskania certyfikatu, inaczej utrata miejsca.",
+            "selective": true,
+            "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc"
+          },
+          "deadline": "Rekrutacja 2026/27: elektroniczny wniosek od 2 do 9 lipca 2026, wysyłka dokumentów kurierem do 10 lipca 2026, wyniki i zapis od 11 do 25 września 2026. Termin na rok 2027/28 nie został jeszcze ogłoszony (ministerstwo publikuje go w czerwcu lub lipcu).",
+          "applyUrl": "https://exams-foreigner.it.minedu.gov.gr",
+          "sourceUrl": "https://en.uoa.gr/studies/undergraduate_programs",
+          "notes": "Kierunek istnieje w ofercie NKUA. Czas trwania i język wykładowy nie zostały potwierdzone. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku."
+        },
+        {
+          "name": "Επικοινωνίας και ΜΜΕ",
+          "nameEn": "Communication and Media Studies",
+          "careerIds": [
+            "dziennikarz"
+          ],
+          "level": "licencjat",
+          "durationYears": null,
+          "languages": [
+            "grecki (część kursów po angielsku)"
+          ],
+          "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; warunki na 2027/28 jeszcze nie opublikowane)",
+          "tuition": {
+            "eu": "0 EUR (studia licencjackie po grecku w publicznych uczelniach są bezpłatne wg portalu Study in Greece)",
+            "nonEu": null,
+            "sourceUrl": "https://studyingreece.edu.gr/bachelors/"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami, przez osobną ścieżkę dla cudzoziemców (kategoria B1 ministerstwa: absolwenci liceów państw UE zagranicą). Warunki: co najmniej jedno z rodziców nie jest pochodzenia greckiego, pełna fizyczna nauka w dwóch ostatnich klasach w kraju ukończenia szkoły, świadectwo uprawnia do wstępu na uniwersytety w tym kraju.",
+            "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20 (przeliczenie i poświadczenie równoważności wydaje greckie ministerstwo, wydział ds. Greków zagranicą, lub koordynator edukacji przy greckiej ambasadzie). Kandydat zaznacza kolejność preferowanych wydziałów w elektronicznym formularzu, przydział robi minister według wyniku i miejsc. Dokumenty z apostille i tłumaczeniem na grecki.",
+            "languageProof": "Certyfikat znajomości greckiego do zapisu: egzamin Uniwersytetu Ateńskiego lub Uniwersytetu w Salonikach albo certyfikat B2 Greek Language Centre. Bez certyfikatu zapis możliwy dopiero w kolejnym roku akademickim, pod warunkiem uzyskania certyfikatu, inaczej utrata miejsca.",
+            "selective": true,
+            "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc"
+          },
+          "deadline": "Rekrutacja 2026/27: elektroniczny wniosek od 2 do 9 lipca 2026, wysyłka dokumentów kurierem do 10 lipca 2026, wyniki i zapis od 11 do 25 września 2026. Termin na rok 2027/28 nie został jeszcze ogłoszony (ministerstwo publikuje go w czerwcu lub lipcu).",
+          "applyUrl": "https://exams-foreigner.it.minedu.gov.gr",
+          "sourceUrl": "https://en.media.uoa.gr/studies/undergraduate_program",
+          "notes": "Wydział pisze, że kursy są adresowane głównie do studentów lokalnych, a niektóre są oferowane po angielsku. Czas trwania nie sprawdzony. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku."
+        }
+      ]
+    },
+    {
+      "name": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+      "url": "https://www.ntua.gr/en/",
+      "type": "politechnika",
+      "programs": [
+        {
+          "name": "Αρχιτεκτόνων Μηχανικών",
+          "nameEn": "School of Architecture (Diploma in Architecture)",
+          "careerIds": [
+            "architekt"
+          ],
+          "level": "jednolite",
+          "durationYears": 5,
+          "languages": [
+            "grecki (do potwierdzenia: strona nie podaje wprost języka wykładowego)"
+          ],
+          "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; warunki na 2027/28 jeszcze nie opublikowane)",
+          "tuition": {
+            "eu": "0 EUR (studia licencjackie po grecku w publicznych uczelniach są bezpłatne wg portalu Study in Greece)",
+            "nonEu": null,
+            "sourceUrl": "https://studyingreece.edu.gr/bachelors/"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami, przez osobną ścieżkę dla cudzoziemców (kategoria B1 ministerstwa: absolwenci liceów państw UE zagranicą). Warunki: co najmniej jedno z rodziców nie jest pochodzenia greckiego, pełna fizyczna nauka w dwóch ostatnich klasach w kraju ukończenia szkoły, świadectwo uprawnia do wstępu na uniwersytety w tym kraju.",
+            "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20 (przeliczenie i poświadczenie równoważności wydaje greckie ministerstwo, wydział ds. Greków zagranicą, lub koordynator edukacji przy greckiej ambasadzie). Kandydat zaznacza kolejność preferowanych wydziałów w elektronicznym formularzu, przydział robi minister według wyniku i miejsc. Dokumenty z apostille i tłumaczeniem na grecki.",
+            "languageProof": "Certyfikat znajomości greckiego do zapisu: egzamin Uniwersytetu Ateńskiego lub Uniwersytetu w Salonikach albo certyfikat B2 Greek Language Centre. Bez certyfikatu zapis możliwy dopiero w kolejnym roku akademickim, pod warunkiem uzyskania certyfikatu, inaczej utrata miejsca.",
+            "selective": true,
+            "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc"
+          },
+          "deadline": "Rekrutacja 2026/27: elektroniczny wniosek od 2 do 9 lipca 2026, wysyłka dokumentów kurierem do 10 lipca 2026, wyniki i zapis od 11 do 25 września 2026. Termin na rok 2027/28 nie został jeszcze ogłoszony (ministerstwo publikuje go w czerwcu lub lipcu).",
+          "applyUrl": "https://exams-foreigner.it.minedu.gov.gr",
+          "sourceUrl": "https://www.ntua.gr/en/school/studies-at-ntua",
+          "notes": "NTUA podaje, że studia we wszystkich szkołach trwają dziesięć semestrów (ostatni to praca dyplomowa), po pięciu latach dyplom jednolity. Uczelnia pisze też, że programy są publikowane po grecku i po angielsku, co dotyczy opisu programu, nie języka zajęć. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku."
+        },
+        {
+          "name": "Πολιτικών Μηχανικών",
+          "nameEn": "School of Civil Engineering",
+          "careerIds": [
+            "inzynier-budownictwa"
+          ],
+          "level": "jednolite",
+          "durationYears": 5,
+          "languages": [
+            "grecki (do potwierdzenia: strona nie podaje wprost języka wykładowego)"
+          ],
+          "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; warunki na 2027/28 jeszcze nie opublikowane)",
+          "tuition": {
+            "eu": "0 EUR (studia licencjackie po grecku w publicznych uczelniach są bezpłatne wg portalu Study in Greece)",
+            "nonEu": null,
+            "sourceUrl": "https://studyingreece.edu.gr/bachelors/"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami, przez osobną ścieżkę dla cudzoziemców (kategoria B1 ministerstwa: absolwenci liceów państw UE zagranicą). Warunki: co najmniej jedno z rodziców nie jest pochodzenia greckiego, pełna fizyczna nauka w dwóch ostatnich klasach w kraju ukończenia szkoły, świadectwo uprawnia do wstępu na uniwersytety w tym kraju.",
+            "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20 (przeliczenie i poświadczenie równoważności wydaje greckie ministerstwo, wydział ds. Greków zagranicą, lub koordynator edukacji przy greckiej ambasadzie). Kandydat zaznacza kolejność preferowanych wydziałów w elektronicznym formularzu, przydział robi minister według wyniku i miejsc. Dokumenty z apostille i tłumaczeniem na grecki.",
+            "languageProof": "Certyfikat znajomości greckiego do zapisu: egzamin Uniwersytetu Ateńskiego lub Uniwersytetu w Salonikach albo certyfikat B2 Greek Language Centre. Bez certyfikatu zapis możliwy dopiero w kolejnym roku akademickim, pod warunkiem uzyskania certyfikatu, inaczej utrata miejsca.",
+            "selective": true,
+            "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc"
+          },
+          "deadline": "Rekrutacja 2026/27: elektroniczny wniosek od 2 do 9 lipca 2026, wysyłka dokumentów kurierem do 10 lipca 2026, wyniki i zapis od 11 do 25 września 2026. Termin na rok 2027/28 nie został jeszcze ogłoszony (ministerstwo publikuje go w czerwcu lub lipcu).",
+          "applyUrl": "https://exams-foreigner.it.minedu.gov.gr",
+          "sourceUrl": "https://www.ntua.gr/en/school/studies-at-ntua",
+          "notes": "NTUA podaje, że studia we wszystkich szkołach trwają dziesięć semestrów (ostatni to praca dyplomowa), po pięciu latach dyplom jednolity. Uczelnia pisze też, że programy są publikowane po grecku i po angielsku, co dotyczy opisu programu, nie języka zajęć. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku."
+        },
+        {
+          "name": "Μηχανολόγων Μηχανικών",
+          "nameEn": "School of Mechanical Engineering",
+          "careerIds": [
+            "inzynier-mechanik"
+          ],
+          "level": "jednolite",
+          "durationYears": 5,
+          "languages": [
+            "grecki (do potwierdzenia: strona nie podaje wprost języka wykładowego)"
+          ],
+          "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; warunki na 2027/28 jeszcze nie opublikowane)",
+          "tuition": {
+            "eu": "0 EUR (studia licencjackie po grecku w publicznych uczelniach są bezpłatne wg portalu Study in Greece)",
+            "nonEu": null,
+            "sourceUrl": "https://studyingreece.edu.gr/bachelors/"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami, przez osobną ścieżkę dla cudzoziemców (kategoria B1 ministerstwa: absolwenci liceów państw UE zagranicą). Warunki: co najmniej jedno z rodziców nie jest pochodzenia greckiego, pełna fizyczna nauka w dwóch ostatnich klasach w kraju ukończenia szkoły, świadectwo uprawnia do wstępu na uniwersytety w tym kraju.",
+            "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20 (przeliczenie i poświadczenie równoważności wydaje greckie ministerstwo, wydział ds. Greków zagranicą, lub koordynator edukacji przy greckiej ambasadzie). Kandydat zaznacza kolejność preferowanych wydziałów w elektronicznym formularzu, przydział robi minister według wyniku i miejsc. Dokumenty z apostille i tłumaczeniem na grecki.",
+            "languageProof": "Certyfikat znajomości greckiego do zapisu: egzamin Uniwersytetu Ateńskiego lub Uniwersytetu w Salonikach albo certyfikat B2 Greek Language Centre. Bez certyfikatu zapis możliwy dopiero w kolejnym roku akademickim, pod warunkiem uzyskania certyfikatu, inaczej utrata miejsca.",
+            "selective": true,
+            "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc"
+          },
+          "deadline": "Rekrutacja 2026/27: elektroniczny wniosek od 2 do 9 lipca 2026, wysyłka dokumentów kurierem do 10 lipca 2026, wyniki i zapis od 11 do 25 września 2026. Termin na rok 2027/28 nie został jeszcze ogłoszony (ministerstwo publikuje go w czerwcu lub lipcu).",
+          "applyUrl": "https://exams-foreigner.it.minedu.gov.gr",
+          "sourceUrl": "https://www.ntua.gr/en/school/studies-at-ntua",
+          "notes": "NTUA podaje, że studia we wszystkich szkołach trwają dziesięć semestrów (ostatni to praca dyplomowa), po pięciu latach dyplom jednolity. Uczelnia pisze też, że programy są publikowane po grecku i po angielsku, co dotyczy opisu programu, nie języka zajęć. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku."
+        },
+        {
+          "name": "Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών",
+          "nameEn": "School of Electrical and Computer Engineering",
+          "careerIds": [
+            "programista",
+            "analityk-danych"
+          ],
+          "level": "jednolite",
+          "durationYears": 5,
+          "languages": [
+            "grecki (do potwierdzenia: strona nie podaje wprost języka wykładowego)"
+          ],
+          "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; warunki na 2027/28 jeszcze nie opublikowane)",
+          "tuition": {
+            "eu": "0 EUR (studia licencjackie po grecku w publicznych uczelniach są bezpłatne wg portalu Study in Greece)",
+            "nonEu": null,
+            "sourceUrl": "https://studyingreece.edu.gr/bachelors/"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami, przez osobną ścieżkę dla cudzoziemców (kategoria B1 ministerstwa: absolwenci liceów państw UE zagranicą). Warunki: co najmniej jedno z rodziców nie jest pochodzenia greckiego, pełna fizyczna nauka w dwóch ostatnich klasach w kraju ukończenia szkoły, świadectwo uprawnia do wstępu na uniwersytety w tym kraju.",
+            "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20 (przeliczenie i poświadczenie równoważności wydaje greckie ministerstwo, wydział ds. Greków zagranicą, lub koordynator edukacji przy greckiej ambasadzie). Kandydat zaznacza kolejność preferowanych wydziałów w elektronicznym formularzu, przydział robi minister według wyniku i miejsc. Dokumenty z apostille i tłumaczeniem na grecki.",
+            "languageProof": "Certyfikat znajomości greckiego do zapisu: egzamin Uniwersytetu Ateńskiego lub Uniwersytetu w Salonikach albo certyfikat B2 Greek Language Centre. Bez certyfikatu zapis możliwy dopiero w kolejnym roku akademickim, pod warunkiem uzyskania certyfikatu, inaczej utrata miejsca.",
+            "selective": true,
+            "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc"
+          },
+          "deadline": "Rekrutacja 2026/27: elektroniczny wniosek od 2 do 9 lipca 2026, wysyłka dokumentów kurierem do 10 lipca 2026, wyniki i zapis od 11 do 25 września 2026. Termin na rok 2027/28 nie został jeszcze ogłoszony (ministerstwo publikuje go w czerwcu lub lipcu).",
+          "applyUrl": "https://exams-foreigner.it.minedu.gov.gr",
+          "sourceUrl": "https://www.ntua.gr/en/school/studies-at-ntua",
+          "notes": "NTUA podaje, że studia we wszystkich szkołach trwają dziesięć semestrów (ostatni to praca dyplomowa), po pięciu latach dyplom jednolity. Uczelnia pisze też, że programy są publikowane po grecku i po angielsku, co dotyczy opisu programu, nie języka zajęć. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku."
+        }
+      ]
+    },
+    {
+      "name": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+      "url": "https://www.aueb.gr/en",
+      "type": "ekonomiczna",
+      "programs": [
+        {
+          "name": "Διεθνής Επιχειρηματικότητα και Τεχνολογία (IBT)",
+          "nameEn": "Bachelor in International Business and Technology",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2026/27 (strona programu: start we wrześniu 2026, nabór przez cały rok; 2027/28 nie ogłoszony)",
+          "tuition": {
+            "eu": "6 000 EUR rocznie (24 000 EUR za cztery lata). Pierwszy rok w trzech ratach po 2 000 EUR (pierwsza po otrzymaniu listu akceptacji, druga do 15 grudnia, trzecia do 30 marca), kolejne lata dwie raty po 3 000 EUR. Dostępne stypendia za wyniki.",
+            "nonEu": "6 000 EUR rocznie (strona podaje jedną kwotę dla wszystkich)",
+            "sourceUrl": "https://ibt.aueb.gr/faq/"
+          },
+          "admission": {
+            "polishMatura": "uznawana (program adresowany do cudzoziemców z UE i spoza UE, którzy mają świadectwo ukończenia szkoły średniej za granicą i ostatnie dwa lata uczyli się tam stacjonarnie; polska matura nie jest wymieniona z nazwy)",
+            "requirements": "Świadectwo i wykaz ocen, wniosek i CV, kopia dowodu lub paszportu, dane kontaktowe liceum; możliwa rozmowa kwalifikacyjna. Brak egzaminów wstępnych. Dokumenty z tłumaczeniem przysięgłym na angielski i apostille lub poświadczeniem.",
+            "languageProof": "Certyfikat angielskiego na poziomie co najmniej B2 (TOEFL, TOEIC lub IELTS). Znajomość greckiego nie jest wymagana.",
+            "selective": true,
+            "sourceUrl": "https://ibt.aueb.gr/program/"
+          },
+          "deadline": "Strona programu i FAQ: nabór ciągły przez cały rok, zachęta do wczesnego składania (miejsca ograniczone). Portal @SiG pokazuje w dniu pobrania brak otwartego naboru.",
+          "applyUrl": "https://ibt.aueb.gr/apply-now/",
+          "sourceUrl": "https://ibt.aueb.gr/program/",
+          "notes": "Dwa źródła uczelni różnią się co do naboru (nabór ciągły na ibt.aueb.gr, brak otwartego naboru w @SiG), więc terminu na 2027/28 trzeba potwierdzić mailem na ibt@aueb.gr. Liczba miejsc nie jest podana na pobranych stronach programu."
+        },
+        {
+          "name": "Πληροφορικής",
+          "nameEn": "Department of Informatics",
+          "careerIds": [
+            "programista",
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": null,
+          "languages": [
+            "grecki (do potwierdzenia na stronie wydziału)"
+          ],
+          "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; warunki na 2027/28 jeszcze nie opublikowane)",
+          "tuition": {
+            "eu": "0 EUR (studia licencjackie po grecku w publicznych uczelniach są bezpłatne wg portalu Study in Greece)",
+            "nonEu": null,
+            "sourceUrl": "https://studyingreece.edu.gr/bachelors/"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami, przez osobną ścieżkę dla cudzoziemców (kategoria B1 ministerstwa: absolwenci liceów państw UE zagranicą). Warunki: co najmniej jedno z rodziców nie jest pochodzenia greckiego, pełna fizyczna nauka w dwóch ostatnich klasach w kraju ukończenia szkoły, świadectwo uprawnia do wstępu na uniwersytety w tym kraju.",
+            "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20 (przeliczenie i poświadczenie równoważności wydaje greckie ministerstwo, wydział ds. Greków zagranicą, lub koordynator edukacji przy greckiej ambasadzie). Kandydat zaznacza kolejność preferowanych wydziałów w elektronicznym formularzu, przydział robi minister według wyniku i miejsc. Dokumenty z apostille i tłumaczeniem na grecki.",
+            "languageProof": "Certyfikat znajomości greckiego do zapisu: egzamin Uniwersytetu Ateńskiego lub Uniwersytetu w Salonikach albo certyfikat B2 Greek Language Centre. Bez certyfikatu zapis możliwy dopiero w kolejnym roku akademickim, pod warunkiem uzyskania certyfikatu, inaczej utrata miejsca.",
+            "selective": true,
+            "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc"
+          },
+          "deadline": "Rekrutacja 2026/27: elektroniczny wniosek od 2 do 9 lipca 2026, wysyłka dokumentów kurierem do 10 lipca 2026, wyniki i zapis od 11 do 25 września 2026. Termin na rok 2027/28 nie został jeszcze ogłoszony (ministerstwo publikuje go w czerwcu lub lipcu).",
+          "applyUrl": "https://exams-foreigner.it.minedu.gov.gr",
+          "sourceUrl": "https://www.aueb.gr/en",
+          "notes": "Wydział jest wymieniony na stronie głównej AUEB. Czas trwania i język wykładowy nie zostały potwierdzone. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku."
+        },
+        {
+          "name": "Οικονομικών Επιστημών",
+          "nameEn": "Department of Economics",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": null,
+          "languages": [
+            "grecki (do potwierdzenia na stronie wydziału)"
+          ],
+          "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; warunki na 2027/28 jeszcze nie opublikowane)",
+          "tuition": {
+            "eu": "0 EUR (studia licencjackie po grecku w publicznych uczelniach są bezpłatne wg portalu Study in Greece)",
+            "nonEu": null,
+            "sourceUrl": "https://studyingreece.edu.gr/bachelors/"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami, przez osobną ścieżkę dla cudzoziemców (kategoria B1 ministerstwa: absolwenci liceów państw UE zagranicą). Warunki: co najmniej jedno z rodziców nie jest pochodzenia greckiego, pełna fizyczna nauka w dwóch ostatnich klasach w kraju ukończenia szkoły, świadectwo uprawnia do wstępu na uniwersytety w tym kraju.",
+            "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20 (przeliczenie i poświadczenie równoważności wydaje greckie ministerstwo, wydział ds. Greków zagranicą, lub koordynator edukacji przy greckiej ambasadzie). Kandydat zaznacza kolejność preferowanych wydziałów w elektronicznym formularzu, przydział robi minister według wyniku i miejsc. Dokumenty z apostille i tłumaczeniem na grecki.",
+            "languageProof": "Certyfikat znajomości greckiego do zapisu: egzamin Uniwersytetu Ateńskiego lub Uniwersytetu w Salonikach albo certyfikat B2 Greek Language Centre. Bez certyfikatu zapis możliwy dopiero w kolejnym roku akademickim, pod warunkiem uzyskania certyfikatu, inaczej utrata miejsca.",
+            "selective": true,
+            "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc"
+          },
+          "deadline": "Rekrutacja 2026/27: elektroniczny wniosek od 2 do 9 lipca 2026, wysyłka dokumentów kurierem do 10 lipca 2026, wyniki i zapis od 11 do 25 września 2026. Termin na rok 2027/28 nie został jeszcze ogłoszony (ministerstwo publikuje go w czerwcu lub lipcu).",
+          "applyUrl": "https://exams-foreigner.it.minedu.gov.gr",
+          "sourceUrl": "https://www.aueb.gr/en",
+          "notes": "Wydział jest wymieniony na stronie głównej AUEB. Czas trwania i język wykładowy nie zostały potwierdzone. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku."
+        },
+        {
+          "name": "Διοίκησης Επιχειρήσεων",
+          "nameEn": "Department of Business Administration",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": null,
+          "languages": [
+            "grecki (do potwierdzenia na stronie wydziału)"
+          ],
+          "academicYear": "2026/27 (ostatnia ogłoszona rekrutacja cudzoziemców; warunki na 2027/28 jeszcze nie opublikowane)",
+          "tuition": {
+            "eu": "0 EUR (studia licencjackie po grecku w publicznych uczelniach są bezpłatne wg portalu Study in Greece)",
+            "nonEu": null,
+            "sourceUrl": "https://studyingreece.edu.gr/bachelors/"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami, przez osobną ścieżkę dla cudzoziemców (kategoria B1 ministerstwa: absolwenci liceów państw UE zagranicą). Warunki: co najmniej jedno z rodziców nie jest pochodzenia greckiego, pełna fizyczna nauka w dwóch ostatnich klasach w kraju ukończenia szkoły, świadectwo uprawnia do wstępu na uniwersytety w tym kraju.",
+            "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20 (przeliczenie i poświadczenie równoważności wydaje greckie ministerstwo, wydział ds. Greków zagranicą, lub koordynator edukacji przy greckiej ambasadzie). Kandydat zaznacza kolejność preferowanych wydziałów w elektronicznym formularzu, przydział robi minister według wyniku i miejsc. Dokumenty z apostille i tłumaczeniem na grecki.",
+            "languageProof": "Certyfikat znajomości greckiego do zapisu: egzamin Uniwersytetu Ateńskiego lub Uniwersytetu w Salonikach albo certyfikat B2 Greek Language Centre. Bez certyfikatu zapis możliwy dopiero w kolejnym roku akademickim, pod warunkiem uzyskania certyfikatu, inaczej utrata miejsca.",
+            "selective": true,
+            "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc"
+          },
+          "deadline": "Rekrutacja 2026/27: elektroniczny wniosek od 2 do 9 lipca 2026, wysyłka dokumentów kurierem do 10 lipca 2026, wyniki i zapis od 11 do 25 września 2026. Termin na rok 2027/28 nie został jeszcze ogłoszony (ministerstwo publikuje go w czerwcu lub lipcu).",
+          "applyUrl": "https://exams-foreigner.it.minedu.gov.gr",
+          "sourceUrl": "https://www.aueb.gr/en",
+          "notes": "Wydział jest wymieniony na stronie głównej AUEB. Czas trwania i język wykładowy nie zostały potwierdzone. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku."
+        }
+      ]
+    },
+    {
+      "name": "Πανεπιστήμιο Δυτικής Αττικής (University of West Attica, UNIWA)",
+      "url": "https://apply.studyingreece.edu.gr/en/universities/17/details/university-of-west-attica",
+      "type": "uniwersytet",
+      "programs": [
+        {
+          "name": "Τεχνητή Νοημοσύνη και Επιστήμη Δεδομένων",
+          "nameEn": "Artificial Intelligence and Data Science (BSc)",
+          "careerIds": [
+            "programista",
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2026/27 (@SiG: brak otwartego naboru w dniu pobrania; 2027/28 nie ogłoszony)",
+          "tuition": {
+            "eu": "6 000 EUR rocznie",
+            "nonEu": "6 000 EUR rocznie (portal podaje jedną kwotę)",
+            "sourceUrl": "https://apply.studyingreece.edu.gr/en/programmes/bsc/1724/details/artificial-intelligence-and-data-science"
+          },
+          "admission": {
+            "polishMatura": null,
+            "requirements": null,
+            "languageProof": null,
+            "selective": null,
+            "sourceUrl": "https://apply.studyingreece.edu.gr/en/programmes/bsc/1724/details/artificial-intelligence-and-data-science"
+          },
+          "deadline": null,
+          "applyUrl": "https://apply.studyingreece.edu.gr/en/programmes/bsc/1724/details/artificial-intelligence-and-data-science",
+          "sourceUrl": "https://apply.studyingreece.edu.gr/en/programmes/bsc/1724/details/artificial-intelligence-and-data-science",
+          "notes": "Program prowadzi Wydział Informatyki i Inżynierii Komputerowej Uniwersytetu Zachodniej Attyki, 8 semestrów, 240 ECTS, stacjonarny, kontakt aidasc@uniwa.gr. Warunków przyjęcia i terminów nie udało się potwierdzić na stronach uczelni (portal @SiG pokazuje tylko czesne i brak otwartego naboru), więc pola są puste."
+        }
+      ]
+    }
+  ],
+  "luki": [
+    "Nie pobrano progów przyjęcia (βάσεις) cudzoziemców z UE na 2026 ani liczby miejsc dla tej ścieżki; plik ministerstwa nie był dostępny pod znanym adresem. W starszych doniesieniach prasowych pojawia się procent miejsc ponad limit, ale nie potwierdzono go w dokumentach ministerstwa.",
+    "Nie ustalono, jak Grecy przeliczają polską maturę na skalę 0 do 20 (ogólny wynik matury nie jest pojedynczą liczbą); potwierdzenie wystawia greckie ministerstwo lub koordynator edukacji przy ambasadzie Grecji w Warszawie, procedurę trzeba sprawdzić u nich.",
+    "Nie potwierdzono roli DOATAP: w instrukcji ministerstwa na 2026 dla świadectwa szkoły średniej wymagane jest zaświadczenie o równoważności z ministerstwa edukacji, ambasady lub dyrekcji edukacji, a o DOATAP nie ma wzmianki. DOATAP dotyczy uznawania dyplomów szkół wyższych.",
+    "Dla programów po grecku (psychologia, informatyka, prawo, ekonomia, komunikacja w NKUA, szkoły NTUA, wydziały AUEB) potwierdzono tylko to, co podano w polach, a czas trwania i język wykładowy są podane tylko tam, gdzie strona uczelni to mówi. Medycyna po grecku w NKUA jest na liście programów, ale nie dodano jej jako osobnego wpisu, bo strona wydziału nie otworzyła się.",
+    "Medycyna po angielsku (NKUA): polska matura nie jest wymieniona wśród akceptowanych kwalifikacji, trzeba zapytać biuro przyjęć, czy matura z wynikiem UCAT lub MCAT jest przyjmowana. Nabór na 2027/28 jeszcze nie opublikowany.",
+    "UNIWA AI i Data Science: warunki przyjęcia, termin i język certyfikatu nie zostały potwierdzone na stronach uczelni. Portal @SiG wskazuje tylko czesne 6 000 EUR, 8 semestrów i 240 ECTS.",
+    "AUEB IBT: strona programu mówi o naborze ciągłym, portal @SiG o braku otwartego naboru; terminu i liczby miejsc na 2027/28 trzeba zapytać mailem (ibt@aueb.gr).",
+    "Architektura, budownictwo i mechanika: na portalu Study in Greece nie ma w Atenach licencjatów po angielsku w tych dziedzinach, więc te kierunki są tylko po grecku. Studia magisterskie po angielsku nie były przedmiotem zbierania.",
+    "Panteion i Harokopio nie zostały sprawdzone.",
+    "Dla ścieżki cudzoziemców nie ustalono, czy wymagane jest dodatkowo badanie lekarskie przed zapisem (instrukcja mówi o badaniu lekarskim według regulaminu wydziału), ani czy czesne dla tej ścieżki jest zerowe poza ogólnym stwierdzeniem Study in Greece."
+  ]
+}
