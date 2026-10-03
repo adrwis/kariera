@@ -1,0 +1,200 @@
+[
+ {
+  "city": "warszawa",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Uwaga z poprzedniego przeglądu NIE naprawiona: w tekście budżetu zostało „Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł”. To żargon zbierania danych i narracja o wewnętrznym zbiorze, zakazane w planie (sekcja zasad redakcji). Zdanie jest identyczne we wszystkich pięciu miastach.",
+  "evidence": "data/koszty/warszawa.json, budget.text: „...Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł...”. Kwota 1 500 do 2 000 zł jest dosłownie na https://study.gov.pl/cost-living-poland („Average total expenses 1500 - 2000 330 - 430”).",
+  "proposedFix": "Usunąć ostatnie zdanie albo zastąpić: „Ceny akademików w tym zestawieniu często przekraczają 400 do 600 zł, więc przy droższym pokoju suma będzie wyższa.”"
+ },
+ {
+  "city": "warszawa",
+  "item": "wiersze Otodom (rp.pl) „pokój w mieszkaniu współdzielonym (koszt na osobę przy dwóch osobach)”",
+  "field": "rent[].type, notes, year",
+  "severity": "drobne",
+  "problem": "Etykieta „przy dwóch osobach” dla pokoju nie wynika ze źródła: rp.pl pisze tylko „miesięczny koszt wynajmu (na osobę)”, a dwie osoby wymienia przy kawalerce i mieszkaniu 2-pokojowym. Dodatkowo „dane z lipca 2026” to wniosek: artykuł z 19.08.2026 mówi „Otodom podaje”, bez miesiąca danych.",
+  "evidence": "rp.pl (art45013971): „Jeśli student zdecyduje się na wynajęcie pokoju, miesięczny koszt wynajmu (na osobę) wyniesie w Warszawie 1 306 zł...”. Etykiety kawalerki i 2 pokoi „dzielona przez dwie osoby (koszt na osobę)” są jasne i zgodne ze źródłem.",
+  "proposedFix": "Dla pokoju zapisać „pokój w mieszkaniu współdzielonym (koszt na osobę)”, w source zmienić na „Otodom, podane przez Rzeczpospolitą (sierpień 2026)”."
+ },
+ {
+  "city": "krakow",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Uwaga z poprzedniego przeglądu NIE naprawiona: w tekście budżetu zostało „Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł”. To żargon zbierania danych i narracja o wewnętrznym zbiorze, zakazane w planie (sekcja zasad redakcji). Zdanie jest identyczne we wszystkich pięciu miastach.",
+  "evidence": "data/koszty/krakow.json, budget.text: „...Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł...”. Kwota 1 500 do 2 000 zł jest dosłownie na https://study.gov.pl/cost-living-poland („Average total expenses 1500 - 2000 330 - 430”).",
+  "proposedFix": "Usunąć ostatnie zdanie albo zastąpić: „Ceny akademików w tym zestawieniu często przekraczają 400 do 600 zł, więc przy droższym pokoju suma będzie wyższa.”"
+ },
+ {
+  "city": "krakow",
+  "item": "wiersze Otodom (rp.pl) „pokój w mieszkaniu współdzielonym (koszt na osobę przy dwóch osobach)”",
+  "field": "rent[].type, notes, year",
+  "severity": "drobne",
+  "problem": "Etykieta „przy dwóch osobach” dla pokoju nie wynika ze źródła: rp.pl pisze tylko „miesięczny koszt wynajmu (na osobę)”, a dwie osoby wymienia przy kawalerce i mieszkaniu 2-pokojowym. Dodatkowo „dane z lipca 2026” to wniosek: artykuł z 19.08.2026 mówi „Otodom podaje”, bez miesiąca danych.",
+  "evidence": "rp.pl (art45013971): „Jeśli student zdecyduje się na wynajęcie pokoju, miesięczny koszt wynajmu (na osobę) wyniesie w Warszawie 1 306 zł...”. Etykiety kawalerki i 2 pokoi „dzielona przez dwie osoby (koszt na osobę)” są jasne i zgodne ze źródłem.",
+  "proposedFix": "Dla pokoju zapisać „pokój w mieszkaniu współdzielonym (koszt na osobę)”, w source zmienić na „Otodom, podane przez Rzeczpospolitą (sierpień 2026)”."
+ },
+ {
+  "city": "wroclaw",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Uwaga z poprzedniego przeglądu NIE naprawiona: w tekście budżetu zostało „Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł”. To żargon zbierania danych i narracja o wewnętrznym zbiorze, zakazane w planie (sekcja zasad redakcji). Zdanie jest identyczne we wszystkich pięciu miastach.",
+  "evidence": "data/koszty/wroclaw.json, budget.text: „...Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł...”. Kwota 1 500 do 2 000 zł jest dosłownie na https://study.gov.pl/cost-living-poland („Average total expenses 1500 - 2000 330 - 430”).",
+  "proposedFix": "Usunąć ostatnie zdanie albo zastąpić: „Ceny akademików w tym zestawieniu często przekraczają 400 do 600 zł, więc przy droższym pokoju suma będzie wyższa.”"
+ },
+ {
+  "city": "wroclaw",
+  "item": "wiersze Otodom (rp.pl) „pokój w mieszkaniu współdzielonym (koszt na osobę przy dwóch osobach)”",
+  "field": "rent[].type, notes, year",
+  "severity": "drobne",
+  "problem": "Etykieta „przy dwóch osobach” dla pokoju nie wynika ze źródła: rp.pl pisze tylko „miesięczny koszt wynajmu (na osobę)”, a dwie osoby wymienia przy kawalerce i mieszkaniu 2-pokojowym. Dodatkowo „dane z lipca 2026” to wniosek: artykuł z 19.08.2026 mówi „Otodom podaje”, bez miesiąca danych.",
+  "evidence": "rp.pl (art45013971): „Jeśli student zdecyduje się na wynajęcie pokoju, miesięczny koszt wynajmu (na osobę) wyniesie w Warszawie 1 306 zł...”. Etykiety kawalerki i 2 pokoi „dzielona przez dwie osoby (koszt na osobę)” są jasne i zgodne ze źródłem.",
+  "proposedFix": "Dla pokoju zapisać „pokój w mieszkaniu współdzielonym (koszt na osobę)”, w source zmienić na „Otodom, podane przez Rzeczpospolitą (sierpień 2026)”."
+ },
+ {
+  "city": "poznan",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Uwaga z poprzedniego przeglądu NIE naprawiona: w tekście budżetu zostało „Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł”. To żargon zbierania danych i narracja o wewnętrznym zbiorze, zakazane w planie (sekcja zasad redakcji). Zdanie jest identyczne we wszystkich pięciu miastach.",
+  "evidence": "data/koszty/poznan.json, budget.text: „...Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł...”. Kwota 1 500 do 2 000 zł jest dosłownie na https://study.gov.pl/cost-living-poland („Average total expenses 1500 - 2000 330 - 430”).",
+  "proposedFix": "Usunąć ostatnie zdanie albo zastąpić: „Ceny akademików w tym zestawieniu często przekraczają 400 do 600 zł, więc przy droższym pokoju suma będzie wyższa.”"
+ },
+ {
+  "city": "poznan",
+  "item": "wiersze Otodom (rp.pl) „pokój w mieszkaniu współdzielonym (koszt na osobę przy dwóch osobach)”",
+  "field": "rent[].type, notes, year",
+  "severity": "drobne",
+  "problem": "Etykieta „przy dwóch osobach” dla pokoju nie wynika ze źródła: rp.pl pisze tylko „miesięczny koszt wynajmu (na osobę)”, a dwie osoby wymienia przy kawalerce i mieszkaniu 2-pokojowym. Dodatkowo „dane z lipca 2026” to wniosek: artykuł z 19.08.2026 mówi „Otodom podaje”, bez miesiąca danych.",
+  "evidence": "rp.pl (art45013971): „Jeśli student zdecyduje się na wynajęcie pokoju, miesięczny koszt wynajmu (na osobę) wyniesie w Warszawie 1 306 zł...”. Etykiety kawalerki i 2 pokoi „dzielona przez dwie osoby (koszt na osobę)” są jasne i zgodne ze źródłem.",
+  "proposedFix": "Dla pokoju zapisać „pokój w mieszkaniu współdzielonym (koszt na osobę)”, w source zmienić na „Otodom, podane przez Rzeczpospolitą (sierpień 2026)”."
+ },
+ {
+  "city": "trojmiasto",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Uwaga z poprzedniego przeglądu NIE naprawiona: w tekście budżetu zostało „Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł”. To żargon zbierania danych i narracja o wewnętrznym zbiorze, zakazane w planie (sekcja zasad redakcji). Zdanie jest identyczne we wszystkich pięciu miastach.",
+  "evidence": "data/koszty/trojmiasto.json, budget.text: „...Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł...”. Kwota 1 500 do 2 000 zł jest dosłownie na https://study.gov.pl/cost-living-poland („Average total expenses 1500 - 2000 330 - 430”).",
+  "proposedFix": "Usunąć ostatnie zdanie albo zastąpić: „Ceny akademików w tym zestawieniu często przekraczają 400 do 600 zł, więc przy droższym pokoju suma będzie wyższa.”"
+ },
+ {
+  "city": "trojmiasto",
+  "item": "wiersze Otodom (rp.pl) „pokój w mieszkaniu współdzielonym (koszt na osobę przy dwóch osobach)”",
+  "field": "rent[].type, notes, year",
+  "severity": "drobne",
+  "problem": "Etykieta „przy dwóch osobach” dla pokoju nie wynika ze źródła: rp.pl pisze tylko „miesięczny koszt wynajmu (na osobę)”, a dwie osoby wymienia przy kawalerce i mieszkaniu 2-pokojowym. Dodatkowo „dane z lipca 2026” to wniosek: artykuł z 19.08.2026 mówi „Otodom podaje”, bez miesiąca danych.",
+  "evidence": "rp.pl (art45013971): „Jeśli student zdecyduje się na wynajęcie pokoju, miesięczny koszt wynajmu (na osobę) wyniesie w Warszawie 1 306 zł...”. Etykiety kawalerki i 2 pokoi „dzielona przez dwie osoby (koszt na osobę)” są jasne i zgodne ze źródłem.",
+  "proposedFix": "Dla pokoju zapisać „pokój w mieszkaniu współdzielonym (koszt na osobę)”, w source zmienić na „Otodom, podane przez Rzeczpospolitą (sierpień 2026)”."
+ },
+ {
+  "city": "warszawa",
+  "item": null,
+  "field": "gaps[1]",
+  "severity": "drobne",
+  "problem": "Luka powołuje się na „Raport Otodom z sierpnia 2026”, który nie jest wiązany z żadnym wierszem; zdanie o „różnicach do około 2 000 zł” dla pokoi nie dało się znaleźć w tekście raportu sierpniowego (jest tylko „2,2 tys. takich ogłoszeń” i próg „do 2000 zł” dotyczący średnich cen miast).",
+  "evidence": "https://www.otodom.pl/wiadomosci/raport-z-rynku-najmu-sierpien-2026/: „w sierpniu dostępnych było 2,2 tys. takich ogłoszeń”; brak zdania o różnicach pokoi do 2 000 zł.",
+  "proposedFix": "Usunąć fragment o „różnicach do około 2 000 zł” albo podać dosłowny cytat."
+ },
+ {
+  "city": "warszawa",
+  "item": "Mzuri, Infor.pl",
+  "field": "rent[].notes (wszystkie miasta)",
+  "severity": "drobne",
+  "problem": "Zdanie „Mzuri jest firmą zajmującą się najmem, a nie oficjalną statystyką” ma budowę antytezy „X, a nie Y” (plan zakazuje antytez). Występuje w wierszach Mzuri w Warszawie, Krakowie, Wrocławiu i Poznaniu.",
+  "evidence": "Treść notes w wierszach Mzuri.",
+  "proposedFix": "Zamienić na „Mzuri jest firmą najmu, więc są to dane nieoficjalne.” (tak jak w Trójmieście)."
+ },
+ {
+  "city": "warszawa",
+  "item": "Mieszkanie (średnia wszystkich ofert, także duże lokale) 4 890 zł",
+  "field": "rent[]",
+  "severity": "drobne",
+  "problem": "Wiersz jest już wyjaśniony w notes (średnia obejmuje duże lokale), ale obok nowszych danych lipcowych (3 262 i 3 939 zł) i z raportu czerwcowego wygląda na nieaktualny. Liczba jest zgodna ze źródłem.",
+  "evidence": "Otodom, raport czerwiec 2026: „Najwyższe czynsze niezmiennie są w Warszawie (4 890 zł)”.",
+  "proposedFix": "Opcjonalnie usunąć wiersz albo dopisać w type „czerwiec 2026”."
+ },
+ {
+  "city": "krakow",
+  "item": "Domy studenckie UJ, cudzoziemcy",
+  "field": "dorms[0].applicationInfo",
+  "severity": "drobne",
+  "problem": "Opis terminu dla cudzoziemców jest zmieszany: „Cudzoziemcy rozpoczynający studia z maturą od 2025: I nabór 18 maja do 13 lipca 2026”. Strona UJ podaje ten termin dla cudzoziemców rozpoczynających studia w roku bieżącym lub poprzednim (2025 lub 2026), bez słowa „matura”. Pozostałe daty UJ (18 maja do 15 czerwca, 21 lipca do 3 sierpnia, II nabór sierpień, roczny od 15 września) zgodne ze stroną.",
+  "evidence": "https://akademiki.uj.edu.pl/studenci/harmonogram: „I nabór wniosków: 18 maja – 13 lipca 2026 r. ... w roku poprzednim (tj. 2025 lub 2026)”.",
+  "proposedFix": "Zapisać: „Cudzoziemcy rozpoczynający studia w 2025 lub 2026: I nabór 18 maja do 13 lipca 2026”."
+ },
+ {
+  "city": "krakow",
+  "item": "Otodom lipiec 2026, mieszkanie 2-pokojowe 3 000 zł (też Wrocław)",
+  "field": "rent[]",
+  "severity": "drobne",
+  "problem": "Kwota 3 000 zł to „okolice, w których plasuje się prawie 40% ofert”, a priceFrom=priceTo=3000 wygląda jak średnia. Notes to wyjaśnia, ale wiersz powtarza się w Krakowie i Wrocławiu z tą samą liczbą.",
+  "evidence": "Otodom lipiec 2026: „w Krakowie, Wrocławiu czy Trójmieście rynek najmu mieszkań dwupokojowych jest bardzo jednorodny (prawie 40% ofert plasuje się w okolicach 3 000 zł miesięcznie)”.",
+  "proposedFix": "Zapisać „około 3 000 zł (najczęstszy poziom ofert)” w type i oznaczyć wiersz jako wspólny dla trzech miast."
+ },
+ {
+  "city": "wroclaw",
+  "item": "Domy studenckie UWr (4 wiersze) i summary[Akademiki]",
+  "field": "summary[0].text",
+  "severity": "ważne",
+  "problem": "Uwaga częściowo naprawiona. Wiersze dorms mają już zastrzeżenie, ale podsumowanie nadal brzmi „pozostali płacą dodatkowo 8% VAT”, bez słowa, że studenci innych uczelni mogą składać wnioski tylko wtedy, gdy UWr taki nabór ogłosi. Strona UWr: terminów dla studentów innych uczelni „nie przewidziano jeszcze”. Zdanie o pierwszeństwie jest, ale VAT sugeruje otwarty dostęp. Ostatnia tura (23 do 30 września) jest zamknięta, a summary[Jak szukać] mówi o „dodatkowej turze” bez informacji, że aktualnie jej nie ma.",
+  "evidence": "https://uwr.edu.pl/domy-studenckie-2/: „nie przewidziano jeszcze terminów składania wniosków o przyznanie miejsca w domach studenckich dla studentów z innych uczelni”.",
+  "proposedFix": "Zmienić na: „Stawki podano bez VAT dla studentów UWr i uczelni z porozumieniem. Dla studentów innych uczelni terminów naboru nie ogłoszono, a przy przyznaniu miejsca doliczany byłby 8% VAT.” Dopisać, że ostatnia tura minęła 30 września 2026."
+ },
+ {
+  "city": "wroclaw",
+  "item": null,
+  "field": "summary[Uwagi] / dorms",
+  "severity": "drobne",
+  "problem": "Zestawienie Wrocławia zawiera tylko jedną uczelnię (UWr). To uczciwie opisane, ale dla największej uczelni technicznej i medycznej brak cen, więc budżet miasta zależy od jednego operatora.",
+  "evidence": "summary Uwagi: „Zestawienie obejmuje tylko Uniwersytet Wrocławski.”",
+  "proposedFix": "Bez zmian lub dopisać Politechnikę Wrocławską, jeśli cennik da się potwierdzić."
+ },
+ {
+  "city": "poznan",
+  "item": "Domy studenckie UEP, pokój 1-osobowy",
+  "field": "dorms[3].includes",
+  "severity": "drobne",
+  "problem": "Pole includes mówi o domu Atol („Strona domu Atol wskazuje pokoje 2-osobowe z łazienką”), a wiersz dotyczy Dewizki i Feniksa i pokoju 1-osobowego. Atol nie ma ceny 1-osobowej w wierszu.",
+  "evidence": "dorms[3].name: „(Dewizka, Feniks), pokój 1-osobowy”; includes: „Strona domu Atol wskazuje...”.",
+  "proposedFix": "Zastąpić tekstem: „Zakres opłaty nie jest opisany na stronach Dewizki i Feniksa.”"
+ },
+ {
+  "city": "poznan",
+  "item": null,
+  "field": "summary[Wynajem], rent[Rentier.io]",
+  "severity": "drobne",
+  "problem": "Rentier.io (mediana 60 zł/m², wrzesień 2026) jest zgodny ze źródłem (potwierdzone: „Oferty najmu wrzesień 2026 60 zł/m²/mies.”), ale kwota 3 020 zł to wyliczenie własne (50 m² razy 60 zł). Jest opisane w type i notes, więc to tylko uwaga.",
+  "evidence": "https://rentier.io/ceny-najmu/polska/wielkopolskie/powiat-poznan/poznan: „Przykład: 50 m² ...”",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "trojmiasto",
+  "item": "Otodom lipiec 2026, mieszkanie 2-pokojowe",
+  "field": "rent[0].priceFrom/priceTo, area",
+  "severity": "ważne",
+  "problem": "Uwaga częściowo naprawiona (etykieta i notes są uczciwe), ale wiersz ma priceFrom=3000, priceTo=null i obszar „Kraków, Wrocław i Trójmiasto łącznie”. Strona wyświetli to jako „od 3 000 zł”, czyli minimum, choć 3 000 zł to najczęstszy poziom ofert, a raport nie podaje wartości dla Trójmiasta osobno. Wiersz jest zdublowany w Krakowie i Wrocławiu.",
+  "evidence": "Otodom lipiec 2026: „w Krakowie, Wrocławiu czy Trójmieście rynek najmu mieszkań dwupokojowych jest bardzo jednorodny (prawie 40% ofert plasuje się w okolicach 3 000 zł miesięcznie)”.",
+  "proposedFix": "Usunąć wiersz z Trójmiasta (są wiersze Gdańsk 3 125 zł i Gdynia 2 869 zł) albo ustawić priceFrom=priceTo=3000 z opisem „około 3 000 zł, najczęstszy poziom”."
+ },
+ {
+  "city": "trojmiasto",
+  "item": "Politechnika Gdańska",
+  "field": "dorms[2].priceFrom/priceTo",
+  "severity": "drobne",
+  "problem": "Brak ceny dla drugiej największej uczelni pozostaje (uwaga z poprzedniego przeglądu uczciwie przeniesiona do tekstu bez żargonu). Nie jest to błąd, ale ogranicza użyteczność. Wzmianka o stawce turystycznej 1 200 zł została usunięta.",
+  "evidence": "dorms[2].notes: „Miesięczny cennik na rok 2026/27 nie jest opublikowany na stronach uczelni.”",
+  "proposedFix": "Bez zmian."
+ },
+ {
+  "city": "trojmiasto",
+  "item": null,
+  "field": "summary[Akademiki].text",
+  "severity": "drobne",
+  "problem": "Zdanie „Karta opisuje domy studenckie” i „Ceny z tej karty” odnosi się do interfejsu strony; akceptowalne, ale w summary[Uwagi] „Ceny z tej karty są wyższe” brzmi jak komentarz redakcji.",
+  "evidence": "summary[3].text.",
+  "proposedFix": "Zastąpić „W tym zestawieniu”."
+ }
+]

@@ -1,0 +1,164 @@
+[
+ {
+  "city": "lodz",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Fraza „w naszych danych” z poprzedniego przeglądu nadal jest w tekście widocznym (zdanie „Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł”). To odwołanie do wewnętrznego zbioru, zakazane jako żargon zbierania danych. Uwaga z poprzedniego przeglądu NIE została usunięta.",
+  "evidence": "data/koszty/lodz.json, budget.text, ostatnie zdanie.",
+  "proposedFix": "Zastąpić np.: „Ceny akademików w tym mieście są często wyższe niż 400 do 600 zł, więc przy droższym pokoju suma będzie wyższa.”"
+ },
+ {
+  "city": "lublin",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Fraza „w naszych danych” z poprzedniego przeglądu nadal jest w tekście widocznym (zdanie „Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł”). To odwołanie do wewnętrznego zbioru, zakazane jako żargon zbierania danych. Uwaga z poprzedniego przeglądu NIE została usunięta.",
+  "evidence": "data/koszty/lublin.json, budget.text, ostatnie zdanie.",
+  "proposedFix": "Zastąpić np.: „Ceny akademików w tym mieście są często wyższe niż 400 do 600 zł, więc przy droższym pokoju suma będzie wyższa.”"
+ },
+ {
+  "city": "katowice",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Fraza „w naszych danych” z poprzedniego przeglądu nadal jest w tekście widocznym (zdanie „Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł”). To odwołanie do wewnętrznego zbioru, zakazane jako żargon zbierania danych. Uwaga z poprzedniego przeglądu NIE została usunięta.",
+  "evidence": "data/koszty/katowice.json, budget.text, ostatnie zdanie.",
+  "proposedFix": "Zastąpić np.: „Ceny akademików w tym mieście są często wyższe niż 400 do 600 zł, więc przy droższym pokoju suma będzie wyższa.”"
+ },
+ {
+  "city": "szczecin",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Fraza „w naszych danych” z poprzedniego przeglądu nadal jest w tekście widocznym (zdanie „Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł”). To odwołanie do wewnętrznego zbioru, zakazane jako żargon zbierania danych. Uwaga z poprzedniego przeglądu NIE została usunięta.",
+  "evidence": "data/koszty/szczecin.json, budget.text, ostatnie zdanie.",
+  "proposedFix": "Zastąpić np.: „Ceny akademików w tym mieście są często wyższe niż 400 do 600 zł, więc przy droższym pokoju suma będzie wyższa.”"
+ },
+ {
+  "city": "bialystok",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Fraza „w naszych danych” z poprzedniego przeglądu nadal jest w tekście widocznym (zdanie „Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł”). To odwołanie do wewnętrznego zbioru, zakazane jako żargon zbierania danych. Uwaga z poprzedniego przeglądu NIE została usunięta.",
+  "evidence": "data/koszty/bialystok.json, budget.text, ostatnie zdanie.",
+  "proposedFix": "Zastąpić np.: „Ceny akademików w tym mieście są często wyższe niż 400 do 600 zł, więc przy droższym pokoju suma będzie wyższa.”"
+ },
+ {
+  "city": "torun",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Fraza „w naszych danych” z poprzedniego przeglądu nadal jest w tekście widocznym (zdanie „Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł”). To odwołanie do wewnętrznego zbioru, zakazane jako żargon zbierania danych. Uwaga z poprzedniego przeglądu NIE została usunięta.",
+  "evidence": "data/koszty/torun.json, budget.text, ostatnie zdanie.",
+  "proposedFix": "Zastąpić np.: „Ceny akademików w tym mieście są często wyższe niż 400 do 600 zł, więc przy droższym pokoju suma będzie wyższa.”"
+ },
+ {
+  "city": "rzeszow",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Fraza „w naszych danych” z poprzedniego przeglądu nadal jest w tekście widocznym (zdanie „Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł”). To odwołanie do wewnętrznego zbioru, zakazane jako żargon zbierania danych. Uwaga z poprzedniego przeglądu NIE została usunięta.",
+  "evidence": "data/koszty/rzeszow.json, budget.text, ostatnie zdanie.",
+  "proposedFix": "Zastąpić np.: „Ceny akademików w tym mieście są często wyższe niż 400 do 600 zł, więc przy droższym pokoju suma będzie wyższa.”"
+ },
+ {
+  "city": "olsztyn",
+  "item": null,
+  "field": "budget.text",
+  "severity": "ważne",
+  "problem": "Fraza „w naszych danych” z poprzedniego przeglądu nadal jest w tekście widocznym (zdanie „Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł”). To odwołanie do wewnętrznego zbioru, zakazane jako żargon zbierania danych. Uwaga z poprzedniego przeglądu NIE została usunięta.",
+  "evidence": "data/koszty/olsztyn.json, budget.text, ostatnie zdanie.",
+  "proposedFix": "Zastąpić np.: „Ceny akademików w tym mieście są często wyższe niż 400 do 600 zł, więc przy droższym pokoju suma będzie wyższa.”"
+ },
+ {
+  "city": "lodz",
+  "item": "Domy studenckie Politechniki Łódzkiej",
+  "field": "applicationInfo / sourceUrl",
+  "severity": "ważne",
+  "problem": "Terminy naboru „5 do 14 sierpnia 2026 (I tura)” i „2 do 9 września 2026 (II tura)” nie występują w tekście strony wskazanej w sourceUrl (p.lodz.pl/studenci/wsparcie/zakwaterowanie) ani na p.lodz.pl/studenci/osiedle-akademickie-pl. Strona zawiera tylko zakwaterowanie I roku 23 do 25 września i zadatki do 31 sierpnia. Mogły być w treści ładowanej skryptem lub w innym dokumencie, ale z podanego źródła nie da się ich sprawdzić. Ceny PŁ w tym samym wierszu pochodzą z plików .doc cenników, a nie ze strony w sourceUrl.",
+  "evidence": "curl strony: brak „5 do 14” i „2 do 9”; ceny 800 i 600 zł znalazłem tylko w pliku Cennik opłat ... od III do IX DS 1 10 2026.doc (textutil).",
+  "proposedFix": "Podać w sourceUrl link do cennika .doc (ceny) i do dokumentu z terminarzem rekrutacji; jeśli terminu nie da się wskazać, usunąć konkretne daty tur."
+ },
+ {
+  "city": "lodz",
+  "item": "Domy studenckie UŁ",
+  "field": "applicationInfo",
+  "severity": "drobne",
+  "problem": "Terminarz UŁ (5 maja 2026, pięć tur) nie dał się potwierdzić: strona osiedla akademickiego pod adresem, który sprawdziłem, nie zawiera słowa „Terminarz”. Ceny UŁ potwierdzone dosłownie, ale zakres 2-osobowych 550 do 850 pomija tabelę 3-osobowych (640, 660) i w poprzednim roku akademickim wiersz XIV miał inną kolumnę, więc warto sprawdzić przypisanie XIV 800 zł.",
+  "evidence": "ul.pdf 2026/2027: XIII 710/550, V,VII,VIII,IX 1120/850, XIV 800; komunikat terminarza nie znaleziony pod uni.lodz.pl/studenci/osiedle-akademickie.",
+  "proposedFix": "Dodać bezpośredni link do komunikatu z terminarzem i potwierdzić dosłownie daty tur."
+ },
+ {
+  "city": "lublin",
+  "item": "Domy studenckie UMCS",
+  "field": "includes / waitlist",
+  "severity": "drobne",
+  "problem": "Sformułowania „Zakres mediów w cenie miejsca nie jest opisany”, „Strona nie opisuje listy rezerwowej”, „Listy rezerwowej nie opisano” to język zbierania danych (poprzedni przegląd wskazywał „Nie opisano”).",
+  "evidence": "data/koszty/lublin.json: dorms[0..5].includes, waitlist; gaps[2], gaps[4].",
+  "proposedFix": "Zamienić na informację dla czytelnika, np. „Cennik nie podaje, co obejmuje opłata. Warto zapytać w administracji domu.” i „Lista rezerwowa: brak informacji, decyzje zapadają w kolejnych terminach komisji.”"
+ },
+ {
+  "city": "bialystok",
+  "item": null,
+  "field": "summary[3], gaps[1]",
+  "severity": "drobne",
+  "problem": "„Domów studenckich Uniwersytetu w Białymstoku nie opisano.” pozostaje w widocznym tekście. Poprzedni przegląd oceniał podobne sformułowania jako żargon.",
+  "evidence": "data/koszty/bialystok.json",
+  "proposedFix": "Napisać wprost, np. „Karta obejmuje domy Politechniki Białostockiej i Uniwersytetu Medycznego. Domy Uniwersytetu w Białymstoku: sprawdź cennik na stronie uczelni.”"
+ },
+ {
+  "city": "olsztyn",
+  "item": null,
+  "field": "summary[3]",
+  "severity": "drobne",
+  "problem": "„W Olsztynie opisano tylko domy studenckie UWM” to narracja o zakresie zbierania danych. Poprzedni przegląd oceniał podobne sformułowania jako żargon.",
+  "evidence": "data/koszty/olsztyn.json",
+  "proposedFix": "Napisać: „Karta zawiera ceny domów UWM. Inne uczelnie Olsztyna mają własne cenniki.”"
+ },
+ {
+  "city": "rzeszow",
+  "item": "Osiedle Studenckie PRz (Akapit)",
+  "field": "priceTo",
+  "severity": "ważne",
+  "problem": "Górna granica 800 zł nie jest widoczna na stronie wskazanej w sourceUrl (ds-alchemik/Akapit). Strona podaje dla studentów PRz 620/700/750 zł (pokój 3-/2-/1-osobowy), a dla osób spoza uczelni 820/900/950 zł plus 8% VAT. Uwaga o mediach w Akapit została poprawiona (OK).",
+  "evidence": "akapit.html: „Pokój 3-osobowy 620 zł; 2-osobowy 700 zł; 1-osobowy 750zł” oraz „820 zł + 8% Vat; 900 zł + 8% Vat; 950zł + 8% Vat”.",
+  "proposedFix": "Wskazać w quote i sourceUrl stronę, z której pochodzi 800 zł, albo ustawić priceTo 750 dla studentów PRz i opisać stawki dla osób spoza uczelni osobno."
+ },
+ {
+  "city": "torun",
+  "item": "Domy studenckie UMK",
+  "field": "priceFrom/priceTo",
+  "severity": "drobne",
+  "problem": "Przypisanie kwot w zarządzeniu UMK jest nieczytelne (kolumny typów pokoi): 660 zł występuje i w zakresie jednoosobowych, i w zakresie dwuosobowych (530 do 660), a kwota 1000 zł w DS 7 nie wchodzi do żadnego zakresu. Luka w gaps to sygnalizuje, więc to drobne.",
+  "evidence": "umk.txt: DS 6, 9, 11 = 660; DS 7 = 880, 660, 1000; 3-osobowy 440; 720/830 to pokoje 1-osobowe o zwiększonym metrażu.",
+  "proposedFix": "Dodać w notes, że 720/830 to jednoosobowe o zwiększonym metrażu i wyjaśnić, czemu 1000 zł jest pominięta; ewentualnie zawęzić zakresy do pozycji jednoznacznych."
+ },
+ {
+  "city": "bialystok",
+  "item": "Domy Studenta Politechniki Białostockiej, pokój jednoosobowy",
+  "field": "priceTo",
+  "severity": "drobne",
+  "problem": "Zakres 580 do 900 pomija pokój de Lux zajmowany przez 1 osobę (1060 zł) na tej samej stronie cennika.",
+  "evidence": "pb.html: „duży pokój de Lux zamieszkały przez 1 osobę 1060,00 ZŁ”; „mały pokój zamieszkały przez 1 osobę 580,00”; „standard zamieszkały przez 1 osobę 900,00”.",
+  "proposedFix": "Dodać w notes informację o pokoju de Lux (do 1060 zł) albo poszerzyć zakres."
+ },
+ {
+  "city": "katowice",
+  "item": "Akademiki UŚ",
+  "field": "summary / budget",
+  "severity": "drobne",
+  "problem": "Wiersz Budżet miesięczny nie występuje w summary dla żadnego z ośmiu miast, a pole budget (NAWA 1500 do 2000 zł) jest podpisane „Ogólnopolski szacunek”, więc nie wygląda na dane miasta. To zgodne z planem, ale karta nie pokazuje budżetu w summary.",
+  "evidence": "budget.text zaczyna się od „Ogólnopolski szacunek oficjalnego portalu Study in Poland (NAWA)” we wszystkich ośmiu plikach.",
+  "proposedFix": "Bez zmian; opcjonalnie dodać do summary jedno zdanie o budżecie z zaznaczeniem ogólnopolskim zasięgu."
+ },
+ {
+  "city": "szczecin",
+  "item": "gaps[0]",
+  "field": "gaps",
+  "severity": "drobne",
+  "problem": "Zdanie „Raport NBP o stawkach najmu nie był możliwy do sprawdzenia” i w Lublinie/Katowicach „strona nie opisuje” to nadal język o procesie zbierania. Wcześniejsze „ekran weryfikacji” zniknęło.",
+  "evidence": "data/koszty/szczecin.json gaps[0]",
+  "proposedFix": "Zastąpić: „Oficjalne stawki NBP dla Szczecina nie są tu uwzględnione, bo raport podaje je tylko na wykresach.”"
+ }
+]

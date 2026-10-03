@@ -50,7 +50,7 @@ function normalize(raw, meta) {
 const BUDGET_PL = {
   from: 1500, to: 2000, currency: 'PLN', period: 'miesiąc', official: true, kind: 'szacunek',
   sourceUrl: 'https://study.gov.pl/cost-living-poland',
-  text: 'Ogólnopolski szacunek oficjalnego portalu Study in Poland (NAWA): średnie miesięczne wydatki studenta to 1 500 do 2 000 zł (330 do 430 EUR). Składniki według źródła: akademik 400 do 600 zł, zakupy spożywcze 700 do 900 zł, rozrywka 150 do 200 zł, telefon i internet 80 do 100 zł, transport publiczny 50 do 60 zł, ubezpieczenie zdrowotne 40 do 60 zł. Portal zaznacza, że w stolicy i miastach turystycznych jest drożej. Aktualne ceny akademików w naszych danych często przekraczają 400 do 600 zł, więc przy droższym pokoju suma będzie wyższa.',
+  text: 'Ogólnopolski szacunek oficjalnego portalu Study in Poland (NAWA): średnie miesięczne wydatki studenta to 1 500 do 2 000 zł (330 do 430 EUR). Składniki według źródła: akademik 400 do 600 zł, zakupy spożywcze 700 do 900 zł, rozrywka 150 do 200 zł, telefon i internet 80 do 100 zł, transport publiczny 50 do 60 zł, ubezpieczenie zdrowotne 40 do 60 zł. Portal zaznacza, że w stolicy i miastach turystycznych jest drożej. Ceny akademików z kart miast często przekraczają 400 do 600 zł, więc przy droższym pokoju suma będzie wyższa.',
 };
 const zIdx = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'zagranica', 'index.json'), 'utf8')).cities;
 const METAS = [
@@ -73,6 +73,17 @@ for (const meta of METAS) {
     // Podsumowania i luki o braku budżetu przeczyłyby ogólnopolskiemu szacunkowi pokazywanemu w bloku budżetu
     data.summary = data.summary.filter(x => !/^Budżet/i.test(x.label));
     data.gaps = data.gaps.filter(g => !/bud[żz]et|NAWA|Study in Poland/i.test(g));
+    // Poprawki po kontroli: opis uprawnień i VAT we Wrocławiu, wiersze Otodomu w Trójmieście, sformułowania przy pokojach i Mzuri
+    if (meta.slug === 'wroclaw') data.summary.forEach(x => { x.text = x.text.replace(/a[\s\u00a0]pozostali płacą dodatkowo 8%[\s\u00a0]VAT\./, 'a inne osoby, jeśli otrzymają miejsce, płacą dodatkowo 8% VAT. Ostatnia tura naboru dla studentów UWr zakończyła się 30 września 2026.'); });
+    if (meta.slug === 'trojmiasto') data.rent.forEach(r => {
+      if (/^mieszkanie 2-pokojowe$/.test(r.type) && r.priceFrom === 3000 && r.priceTo == null) { r.priceTo = 3000; r.type = 'mieszkanie 2-pokojowe (około, najczęstszy poziom ofert)'; }
+      if (/^mieszkanie \(cały lokal/.test(r.type) && r.priceFrom === 2300 && r.priceTo == null) r.priceTo = 2500;
+    });
+    data.rent.forEach(r => {
+      if (/^pokój/.test(r.type)) r.type = r.type.replace(/ przy dwóch osobach/, '');
+      if (r.notes) r.notes = r.notes.replace(/, a nie oficjalna statystyka/g, ', a jej dane nie są statystyką urzędową');
+      if (r.source) r.source = r.source.replace(/, a nie oficjalna statystyka/g, ', a jej dane nie są statystyką urzędową');
+    });
   }
   walk(data);
   fs.writeFileSync(path.join(OUT, meta.slug + '.json'), JSON.stringify(data));
