@@ -308,9 +308,20 @@ const Szkoly = (function () {
   const SORTS = [['', 'Nazwa'], ['prog-nisko', 'Najniższy próg'], ['prog-wysoko', 'Najwyższy próg'], ['matura', 'Zdawalność matury']];
   const PAGE = 20;
 
+  // Czy miasto ma choć jeden próg w skali 200 (bez nich kalkulator tylko liczy punkty)
+  const hasThresholds = d => d.schools.some(s => (s.profiles || []).some(p => latestThreshold(p)));
+  function calcInviteHtml(d, cls) {
+    const href = `${ctx.BASE}/kalkulator?miasto=${d.slug}`;
+    const text = hasThresholds(d) ? 'Policz swoje punkty i sprawdź, gdzie masz szansę' : 'Policz swoje punkty (bez porównania z progami, bo ich tu nie ma)';
+    return `<a href="${href}"${cls ? ` class="${cls}"` : ''}>${text}</a>`;
+  }
+
+  const isUnfilled = t => t.qualified != null && t.places && t.qualified < 0.75 * t.places;
+
   // Zakres ostatnich progów (skala 200) w klasach szkoły
   function thresholdRange(profiles) {
-    const mins = profiles.map(p => latestThreshold(p)).filter(Boolean).map(t => t.min);
+    // Klasy, które nie wypełniły limitu miejsc, mają próg niski z braku chętnych, więc nie wchodzą do zakresu
+    const mins = profiles.map(p => latestThreshold(p)).filter(t => t && !isUnfilled(t)).map(t => t.min);
     return mins.length ? { lo: Math.min(...mins), hi: Math.max(...mins) } : null;
   }
 
@@ -461,7 +472,8 @@ const Szkoly = (function () {
           <a href="${ctx.BASE}/" class="results__back">&larr; Strona główna</a>
           <h1 class="results__title">Szkoły średnie ${esc(d.city.loc)}</h1>
           <p class="results__query">Licea i technika dla absolwentów podstawówki.${year ? ` Oferta klas na rok ${esc(year)}.` : ''}</p>
-          <p class="career-column__text"><a href="${ctx.BASE}/kalkulator?miasto=${d.slug}" class="szkoly__calc-link">Policz swoje punkty i sprawdź, gdzie masz szansę</a></p>
+          <p class="career-column__text">${calcInviteHtml(d, 'szkoly__calc-link')}</p>
+          ${hasThresholds(d) ? '' : `<p class="career-column__text szkola__muted">Szkoły ${esc(d.city.loc)} nie publikują progów punktowych w sieci, więc przy klasach ich nie zobaczysz.</p>`}
           ${citySelectHtml(d.slug, 'szkolyCity')}
           <details class="szkoly__filters-wrap"${activeCount || window.innerWidth > 700 ? ' open' : ''}>
             <summary class="szkoly__filters-toggle">Filtry${activeCount ? ` (${activeCount})` : ''}</summary>
@@ -610,7 +622,11 @@ const Szkoly = (function () {
       const admitted = t.qualified != null && t.places
         ? `<div class="szkola__muted">Przyjętych: ${esc(t.qualified)} na ${esc(t.places)} ${plural(t.places, 'miejsce', 'miejsca', 'miejsc')}.</div>`
         : '';
-      return `<div class="szkola__threshold">Próg ${esc(t.year)}: <strong>${fmtNum(t.min)} z ${esc(t.scale)} pkt</strong> <span class="szkola__muted">(${who})</span> ${sourceLink(t.sourceUrl)}${admitted}</div>`;
+      const notes = [
+        t.scale !== 200 ? 'Skala inna niż 200 pkt, więc ten próg nie jest porównywalny z wynikiem z kalkulatora.' : '',
+        isUnfilled(t) ? 'Klasa nie wypełniła limitu miejsc, dlatego próg jest niski.' : '',
+      ].filter(Boolean).map(n => `<div class="szkola__muted">${n}</div>`).join('');
+      return `<div class="szkola__threshold">Próg ${esc(t.year)}: <strong>${fmtNum(t.min)} z ${esc(t.scale)} pkt</strong> <span class="szkola__muted">(${who})</span> ${sourceLink(t.sourceUrl)}${admitted}${notes}</div>`;
     }).join('');
   }
 
@@ -907,7 +923,7 @@ const Szkoly = (function () {
     } else if (recommended.length) {
       loHtml = `
       <h3 class="career-column__subtitle">Liceum</h3>
-      <p class="career-column__text">Uczelnie przyjmują z maturą podstawową albo rozszerzoną, więc pasuje każde liceum. Więcej punktów da rozszerzenie ${esc(groupsSentence(recommended))}.</p>
+      <p class="career-column__text">Wymagania uczelni różnią się, a część kierunków liczy maturę rozszerzoną (sprawdzisz to w oknie uczelni). Więcej punktów da rozszerzenie ${esc(groupsSentence(recommended))}.</p>
       <p class="career-column__text"><a href="${attr(filterHref(recommended, d.slug))}">Licea z takimi klasami</a></p>`;
     }
 
@@ -917,7 +933,7 @@ const Szkoly = (function () {
         ${citySwitch}
         ${techHtml}
         ${loHtml}
-        <p class="career-column__text"><a href="${ctx.BASE}/kalkulator?miasto=${d.slug}">Policz swoje punkty i sprawdź szanse w kalkulatorze</a></p>
+        <p class="career-column__text">${calcInviteHtml(d, '')}</p>
         <a href="${ctx.BASE}/szkoly?miasto=${d.slug}" class="career-secondary__all">Wszystkie licea i technika ${esc(d.city.loc)}</a>
       </section>`;
   }
@@ -933,10 +949,15 @@ const Szkoly = (function () {
       if (!lastCareer) return;
       const career = lastCareer;
       const previous = currentCity();
+      // Przy kilku szybkich zmianach liczy się tylko ostatnia: starsze odpowiedzi nie zmieniają zapisanego miasta
+      const seq = sel._citySeq = (sel._citySeq || 0) + 1;
+      const latest = () => sel._citySeq === seq;
       load(slug).then(() => {
+        if (!latest()) return '';
         setCity(slug);
         return careerSectionHtml(career);
       }).catch(() => {
+        if (!latest()) return '';
         setCity(previous);
         sel.value = previous;
         const msg = section.querySelector('.career-secondary__error') || section.appendChild(Object.assign(document.createElement('p'), { className: 'career-column__text career-secondary__error' }));
@@ -947,6 +968,7 @@ const Szkoly = (function () {
         section.outerHTML = html;
         const again = document.getElementById('careerCity');
         if (again) again.focus();
+        document.dispatchEvent(new CustomEvent('kr-city-changed'));
       });
       return;
     }
@@ -1086,7 +1108,7 @@ const Szkoly = (function () {
           continue;
         }
         const total = Math.round((c.examPts + gp.points + c.extra) * 100) / 100;
-        const unfilled = t.qualified != null && t.places && t.qualified < 0.75 * t.places;
+        const unfilled = isUnfilled(t);
         rows.push({ s, p, t, total, mode: gp.mode, diff: Math.round((total - t.min) * 100) / 100, unfilled });
       }
     }

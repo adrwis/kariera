@@ -1180,6 +1180,18 @@
   // --- Famous people popup ---
   let currentCareerData = null;
 
+  // Po zmianie miasta w sekcji o szkołach uczelnie z tego miasta wracają na początek listy (przestawiamy karty, indeksy zostają)
+  document.addEventListener('kr-city-changed', () => {
+    const c = currentCareerData;
+    const box = document.querySelector('#view-zawod .school-cards');
+    if (!c || !box || !c.education || !c.education.schools) return;
+    const pref = Szkoly.cityUniversities(Szkoly.currentCity());
+    const cards = [...box.children];
+    const rank = el => pref.includes(c.education.schools[+el.dataset.schoolIdx].city) ? 0 : 1;
+    cards.map((el, i) => ({ el, i })).sort((a, b) => rank(a.el) - rank(b.el) || +a.el.dataset.schoolIdx - +b.el.dataset.schoolIdx)
+      .forEach(x => box.appendChild(x.el));
+  });
+
   function getInitials(name) {
     if (!name) return '?';
     const parts = name.trim().split(/\s+/);
