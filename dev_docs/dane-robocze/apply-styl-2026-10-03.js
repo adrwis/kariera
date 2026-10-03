@@ -14,8 +14,10 @@ const fix = (s) => {
   t = t.replace(/(\d)\s?PLN\b/g, (m, d) => { zl++; return `${d} zł`; }).replace(/\bPLN\b/g, () => { zl++; return 'zł'; });
   return t;
 };
+// Nazwy (szkoleń, certyfikatów) poprawiamy tylko dla zakresów z jednostką czasu, np. „(4-6 lat)”, żeby nie ruszać nazw własnych
+const fixName = (s) => s.replace(/(?<![\w\/.:#-])(\d{1,2}(?:,\d)?)\s?-\s?(\d{1,2}(?:,\d)?)(?=\s(?:lat|lata|roku|miesięcy|miesiące|godzin|dni|tygodni|semestrów|semestry)\b)/g, (m, a, b) => { ranges++; return `${a} do ${b}`; });
 const walk = (o, key) => {
-  if (typeof o === 'string') return /^https?:/.test(o) || SKIP_KEYS.has(key) ? o : fix(o);
+  if (typeof o === 'string') return /^https?:/.test(o) ? o : key === 'name' ? fixName(o) : SKIP_KEYS.has(key) ? o : fix(o);
   if (Array.isArray(o)) return o.map(v => walk(v, key));
   if (o && typeof o === 'object') { for (const [k, v] of Object.entries(o)) o[k] = walk(v, k); }
   return o;

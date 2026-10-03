@@ -1,0 +1,1592 @@
+[
+ {
+  "id": "architekt",
+  "pole": "skills.certifications[0].name",
+  "obecnaWartosc": "Uprawnienia budowlane (PIIB)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Uprawnienia budowlane w specjalności architektonicznej (Izba Architektów RP)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/1783/text.pdf",
+  "cytat": "Art. 5 ust. 1 pkt 1 ustawy o samorządach zawodowych architektów oraz inżynierów budownictwa: \"Izba architektów zrzesza osoby, które posiadają uprawnienia budowlane w specjalności architektonicznej, o której mowa w art. 14 ust. 1 pkt 1 [Prawa budowlanego]\". Art. 12 ust. 2 Pr. bud.: uprawnienia nadaje \"organ samorządu zawodowego\". PIIB zrzesza specjalności z art. 14 ust. 1 pkt 2-4 (art. 5 ust. 2 pkt 1 tej ustawy).",
+  "uwagi": "PIIB (Polska Izba Inżynierów Budownictwa) nie nadaje uprawnień architektonicznych. Kwalifikowanie i egzamin w specjalności architektonicznej prowadzi Izba Architektów RP. Zgłoszenie audytu potwierdzone."
+ },
+ {
+  "id": "architekt",
+  "pole": "skills.certifications[0].url",
+  "obecnaWartosc": "https://www.piib.org.pl",
+  "status": "do poprawy",
+  "proponowanaWartosc": "https://www.izbaarchitektow.pl",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/1783/text.pdf",
+  "cytat": "Jak wyżej (art. 5 ust. 1 pkt 1). Strona IARP z opłatami za postępowanie kwalifikacyjne w specjalności architektonicznej: https://www.izbaarchitektow.pl/pokaz/wysokosci_oplat_za_postepowanie_kwalifikacyjne__o_nadanie_uprawnien_budowlanych_w_specjalnosci_,2043/",
+  "uwagi": "Link piib.org.pl prowadzi do niewłaściwej izby."
+ },
+ {
+  "id": "architekt",
+  "pole": "skills.training[0].name",
+  "obecnaWartosc": "Praktyka zawodowa (1-1,5 roku)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Praktyka zawodowa (min. 2 lata: 1 rok przy projektowaniu + 1 rok na budowie)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/524/text.pdf",
+  "cytat": "Art. 14 ust. 3 pkt 1 Pr. bud. (projektowanie bez ograniczeń): \"ukończenia studiów drugiego stopnia na kierunku odpowiednim dla danej specjalności, odbycia rocznej praktyki przy sporządzaniu projektów, odbycia rocznej praktyki na budowie\". Pkt 5 (projektowanie i kierowanie robotami bez ograniczeń): \"roczna praktyka przy sporządzaniu projektów\" + \"półtorarocznej praktyki na budowie\".",
+  "uwagi": "\"1-1,5 roku\" jest błędne: wymagane są łącznie 2 lata (sam projekt) albo 2,5 roku (projektowanie plus kierowanie). Tekst jednolity Dz.U. 2026 poz. 524; ustawa z 31.07.2026 (Dz.U. 2026 poz. 1161) nie zmienia art. 14. Praktykę studencką po 3. roku studiów izba także uznaje (rozp. Dz.U. 2019 poz. 831 § 2 ust. 3)."
+ },
+ {
+  "id": "architekt",
+  "pole": "skills.training[0].description",
+  "obecnaWartosc": "Obowiązkowa praktyka zawodowa pod nadzorem uprawnionego architekta, wymagana do uzyskania uprawnień budowlanych. Obejmuje udział w projektowaniu i nadzorze budowlanym. Dokumentowana w książce praktyk zawodowych.",
+  "status": "do poprawy",
+  "proponowanaWartosc": "... Odbycie praktyki potwierdza oświadczenie osoby z uprawnieniami wpisanej na listę członków izby (wzór: załącznik nr 1 do rozporządzenia). Książka praktyki dotyczyła tylko praktyk do 25.09.2014.",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2019/831/text.pdf",
+  "cytat": "§ 2 ust. 7 pkt 1 rozp.: \"Dokumentem potwierdzającym odbycie praktyki zawodowej [...] jest oświadczenie, którego wzór określa załącznik nr 1\"; ust. 9: \"książka praktyki zawodowej\" dla okresu \"od dnia 1 stycznia 1995 r. do dnia 25 września 2014 r.\"",
+  "uwagi": "Rozporządzenie Ministra Inwestycji i Rozwoju z 29.04.2019 w sprawie przygotowania zawodowego do wykonywania samodzielnych funkcji technicznych w budownictwie (obowiązuje)."
+ },
+ {
+  "id": "architekt",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatna (realizowana w ramach zatrudnienia)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Dopisać koszt egzaminu: IARP, opłata za kwalifikowanie 1790 zł + egzamin 1790 zł (projektowanie albo kierowanie) lub po 2690 zł (łącznie), wg strony IARP z datą 18.02.2025; sprawdzić aktualność",
+  "zrodloUrl": "https://www.izbaarchitektow.pl/pokaz/wysokosci_oplat_za_postepowanie_kwalifikacyjne__o_nadanie_uprawnien_budowlanych_w_specjalnosci_,2043/",
+  "cytat": "\"Qualification assessment: 1790,00 złotych; Exam administration: 1790,00 złotych\"; łączne 2690/2690; strona z datą wejścia w życie 18.02.2025.",
+  "uwagi": "Sama praktyka jest w ramach zatrudnienia, ale pozycja pomija opłaty izby. Aktualność stawek na 2026 nie sprawdzona (PIIB zmieniła stawki od jesieni 2026)."
+ },
+ {
+  "id": "lekarz",
+  "pole": "skills.training[0].name",
+  "obecnaWartosc": "Staż podyplomowy (13 miesięcy)",
+  "status": "ok",
+  "proponowanaWartosc": "Staż podyplomowy (13 miesięcy)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2023/377/text.pdf",
+  "cytat": "§ 3 ust. 1 rozp. MZ z 24.02.2023 w sprawie stażu podyplomowego lekarza i lekarza dentysty: \"Staż podyplomowy lekarza trwa 13 miesięcy.\" Ust. 2: staż lekarza dentysty trwa 12 miesięcy. Ustawa (Dz.U. 2026 poz. 37) art. 15 ust. 7 wyznacza tylko minimum: \"nie może być krótszy niż 12 miesięcy\".",
+  "uwagi": "Hipoteza z audytu o zmianie czasu stażu nie potwierdzona: rozporządzenie obowiązuje, nowelizacji czasu trwania nie znaleziono."
+ },
+ {
+  "id": "lekarz",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Finansowany przez MZ (stypendium ~4000 zł/mies.)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Umowa o pracę na czas określony; zasadnicze wynagrodzenie miesięczne stażysty 8 458 zł brutto od 1.07.2026 (0,95 x 8 903,56 zł), finansowane z budżetu państwa przez marszałka województwa",
+  "zrodloUrl": "https://www.gov.pl/web/zdrowie/obwieszczenie-ministra-zdrowia-w-sprawie-wysokosci-zasadniczego-wynagrodzenia-miesiecznego-lekarza-stazysty-i-lekarza-dentysty-stazysty5",
+  "cytat": "\"od dnia 1 lipca 2026 r. wysokość zasadniczego wynagrodzenia miesięcznego dla lekarza stażysty i lekarza dentysty stażysty wynosi 8 458 zł\" (obwieszczenie MZ z 20.03.2026). Art. 15a ust. 1 ustawy: staż \"na podstawie umowy o pracę zawartej na czas określony\". Art. 15i ust. 4: wynagrodzenie wg ustawy z 8.06.2017, ogłaszane przez MZ w BIP do 30 marca każdego roku. Współczynnik 0,95: załącznik do ustawy z 8.06.2017 (Dz.U. 2022 poz. 2139), lp. 4 \"Stażysta\".",
+  "uwagi": "\"Stypendium ~4000 zł\" jest nieprawdziwe: stażysta jest pracownikiem, nie stypendystą. Kwota zmienia się co roku (1 lipca), więc podać z datą."
+ },
+ {
+  "id": "lekarz",
+  "pole": "skills.training[0].description",
+  "obecnaWartosc": "Obowiązkowy staż kliniczny po ukończeniu studiów medycznych, odbywany w szpitalach klinicznych. Obejmuje rotacje na oddziałach internistycznych, chirurgicznych, pediatrycznych i ginekologicznych. Kończy się egzaminem LEK.",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Usunąć zdanie \"Kończy się egzaminem LEK\". LEK zdaje się po 10 semestrach studiów, przed stażem; PWZ przyznaje okręgowa rada lekarska po stażu i pozytywnym LEK.",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/37/text.pdf",
+  "cytat": "Art. 14a ust. 3 ustawy: \"Do LEK może przystąpić lekarz albo osoba, która ukończyła 10 semestrów z sześcioletnich jednolitych studiów magisterskich\"; art. 6 ust. 1 pkt 1: do PWZ potrzebne dokumenty \"stwierdzające odbycie stażu podyplomowego [...] i złożenie Lekarskiego Egzaminu Końcowego\".",
+  "uwagi": "Kolejność etapów w opisie jest myląca. Częściowo niepotwierdzone, czy staż kończy dziś jakikolwiek egzamin (egzamin kończący staż jest tylko uznawany za równoważny z LEK w art. 5 ust. 5)."
+ },
+ {
+  "id": "lekarz",
+  "pole": "skills.training[1].price",
+  "obecnaWartosc": "Finansowany w trybie rezydenckim (wynagrodzenie ~6000 do 8000 zł/mies.)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Rezydentura: zatrudnienie z wynagrodzeniem zasadniczym wg dziedziny, od 1.07.2026 od 10 595,24 zł do 12 714,29 zł brutto (zależnie od dziedziny i stażu w rezydenturze)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/856/text.pdf",
+  "cytat": "Rozp. MZ z 25.06.2026 (Dz.U. 2026 poz. 856), obowiązuje od 1.07.2026: § 1 (m.in. chirurgia ogólna, choroby wewnętrzne, pediatria, psychiatria, kardiologia dziecięca): \"w pierwszych dwóch latach zatrudnienia w trybie rezydentury wynosi 11 654,76 zł, po dwóch latach zatrudnienia w tym trybie – 12 714,29 zł\"; § 2 (pozostałe dziedziny, w tym kardiologia): \"10 595,24 zł, po dwóch latach ... 10 913,10 zł\".",
+  "uwagi": "Obecne \"~6000 do 8000 zł\" jest o ok. 4-5 tys. zł za niskie względem tabeli MZ. Kwoty są ustalane rozporządzeniem co roku."
+ },
+ {
+  "id": "lekarz",
+  "pole": "skills.training[1].name",
+  "obecnaWartosc": "Specjalizacja lekarska (4-6 lat)",
+  "status": "ok",
+  "proponowanaWartosc": "Specjalizacja lekarska (4-6 lat)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2023/975/text.pdf",
+  "cytat": "Załącznik do rozp. MZ z 4.05.2023 w sprawie specjalizacji lekarzy i lekarzy dentystów: kolumna \"Łączny minimalny czas trwania szkolenia specjalizacyjnego\" przyjmuje wartości od 4 do 6 lat (np. alergologia 5 lat, chirurgia ogólna 6 lat, w innych dziedzinach 4 lata).",
+  "uwagi": "Zakres zgodny z wykazem."
+ },
+ {
+  "id": "lekarz",
+  "pole": "fullDescription",
+  "obecnaWartosc": "Droga do zawodu jest długa: 6 lat studiów, 13 miesięcy stażu, a potem 4 do 6 lat specjalizacji.",
+  "status": "ok",
+  "proponowanaWartosc": "Zdanie o 6 latach studiów, 13 miesiącach stażu i 4-6 latach specjalizacji można zostawić",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/37/text.pdf",
+  "cytat": "Art. 5 ust. 1 pkt 2 lit. a: \"co najmniej sześcioletnich jednolitych studiów magisterskich na kierunku lekarskim\"; staż 13 miesięcy wg rozp. z 2023.",
+  "uwagi": "Zgodne ze stanem na 2026-10-03."
+ },
+ {
+  "id": "psychiatra",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Finansowana (wynagrodzenie rezydenckie ~7000 do 9000 zł/mies.)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Rezydentura (psychiatria to dziedzina priorytetowa): zasadnicze wynagrodzenie 11 654,76 zł brutto w pierwszych 2 latach, 12 714,29 zł po 2 latach (od 1.07.2026)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/856/text.pdf",
+  "cytat": "Rozp. MZ z 25.06.2026 (Dz.U. 2026 poz. 856), obowiązuje od 1.07.2026: § 1 (m.in. chirurgia ogólna, choroby wewnętrzne, pediatria, psychiatria, kardiologia dziecięca): \"w pierwszych dwóch latach zatrudnienia w trybie rezydentury wynosi 11 654,76 zł, po dwóch latach zatrudnienia w tym trybie – 12 714,29 zł\"; § 2 (pozostałe dziedziny, w tym kardiologia): \"10 595,24 zł, po dwóch latach ... 10 913,10 zł\". Psychiatria jest na liście w § 1 (poz. 20).",
+  "uwagi": "Obecne \"~7000 do 9000\" zaniżone."
+ },
+ {
+  "id": "psychiatra",
+  "pole": "skills.training[0].name",
+  "obecnaWartosc": "Rezydencja psychiatryczna (4-5 lat)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Rezydentura psychiatryczna (5 lat)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2023/975/text.pdf",
+  "cytat": "Załącznik, poz. 65 psychiatria: \"Łączny minimalny czas trwania szkolenia specjalizacyjnego: 5 lat\" (moduł jednolity bez podziału).",
+  "uwagi": "Wykaz podaje 5 lat, nie \"4-5\"."
+ },
+ {
+  "id": "pediatra",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Finansowana (wynagrodzenie rezydenckie ~7000 do 9000 zł/mies.)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Rezydentura (pediatria to dziedzina priorytetowa): 11 654,76 zł brutto w pierwszych 2 latach, 12 714,29 zł po 2 latach (od 1.07.2026)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/856/text.pdf",
+  "cytat": "Rozp. MZ z 25.06.2026 (Dz.U. 2026 poz. 856), obowiązuje od 1.07.2026: § 1 (m.in. chirurgia ogólna, choroby wewnętrzne, pediatria, psychiatria, kardiologia dziecięca): \"w pierwszych dwóch latach zatrudnienia w trybie rezydentury wynosi 11 654,76 zł, po dwóch latach zatrudnienia w tym trybie – 12 714,29 zł\"; § 2 (pozostałe dziedziny, w tym kardiologia): \"10 595,24 zł, po dwóch latach ... 10 913,10 zł\". Pediatria w § 1 (poz. 19).",
+  "uwagi": "Obecne \"~7000 do 9000\" zaniżone."
+ },
+ {
+  "id": "pediatra",
+  "pole": "skills.training[0].name",
+  "obecnaWartosc": "Rezydencja pediatryczna (4 lata)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Rezydentura pediatryczna (5 lat)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2023/975/text.pdf",
+  "cytat": "Załącznik, poz. 61 pediatria: moduł podstawowy pediatria 3 lata + moduł specjalistyczny 2 lata = \"5 lat\".",
+  "uwagi": "Obecnie \"4 lata\"."
+ },
+ {
+  "id": "chirurg",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Finansowana (wynagrodzenie rezydenckie ~7000 do 9000 zł/mies.)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Rezydentura (chirurgia ogólna to dziedzina priorytetowa): 11 654,76 zł brutto w pierwszych 2 latach, 12 714,29 zł po 2 latach (od 1.07.2026)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/856/text.pdf",
+  "cytat": "Rozp. MZ z 25.06.2026 (Dz.U. 2026 poz. 856), obowiązuje od 1.07.2026: § 1 (m.in. chirurgia ogólna, choroby wewnętrzne, pediatria, psychiatria, kardiologia dziecięca): \"w pierwszych dwóch latach zatrudnienia w trybie rezydentury wynosi 11 654,76 zł, po dwóch latach zatrudnienia w tym trybie – 12 714,29 zł\"; § 2 (pozostałe dziedziny, w tym kardiologia): \"10 595,24 zł, po dwóch latach ... 10 913,10 zł\". Chirurgia ogólna w § 1 (poz. 3).",
+  "uwagi": "Obecne \"~7000 do 9000\" zaniżone."
+ },
+ {
+  "id": "chirurg",
+  "pole": "skills.training[0].name",
+  "obecnaWartosc": "Rezydencja chirurgiczna (5-6 lat)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Rezydentura chirurgiczna (6 lat)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2023/975/text.pdf",
+  "cytat": "Załącznik, poz. 9 chirurgia ogólna: moduł podstawowy 2 lata + specjalistyczny 4 lata = \"6 lat\".",
+  "uwagi": "Obecnie \"5-6 lat\"; dla chirurgii ogólnej minimum to 6 lat (inne chirurgie mają odrębne wpisy)."
+ },
+ {
+  "id": "kardiolog",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Finansowana (wynagrodzenie rezydenckie ~7000 do 9000 zł/mies.)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Rezydentura: 10 595,24 zł brutto w pierwszych 2 latach, 10 913,10 zł po 2 latach (od 1.07.2026); kardiologia nie jest na liście priorytetowej",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/856/text.pdf",
+  "cytat": "§ 1 rozp. wymienia \"kardiologia dziecięca\" (poz. 9), ale nie \"kardiologia\"; § 2: \"w dziedzinach medycyny innych niż wymienione w § 1 [...] wynosi 10 595,24 zł, po dwóch latach [...] 10 913,10 zł\".",
+  "uwagi": "Obecne \"~7000 do 9000\" zaniżone; przy pozostałych specjalizacjach z rezydentury kwoty różnią się, więc nie wolno kopiować jednej widełki."
+ },
+ {
+  "id": "kardiolog",
+  "pole": "skills.training[0].name",
+  "obecnaWartosc": "Rezydencja kardiologiczna (5 lat)",
+  "status": "ok",
+  "proponowanaWartosc": "Rezydencja kardiologiczna (5 lat)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2023/975/text.pdf",
+  "cytat": "Załącznik, poz. 35 kardiologia: choroby wewnętrzne 2 lata + kardiologia 3 lata = \"5 lat\".",
+  "uwagi": "Zgodne."
+ },
+ {
+  "id": "kardiolog",
+  "pole": "skills.training[0].requirements",
+  "obecnaWartosc": "Prawo wykonywania zawodu lekarza, zdany LEK, specjalizacja z chorób wewnętrznych",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Prawo wykonywania zawodu lekarza, zdany LEK; ukończony moduł podstawowy w chorobach wewnętrznych (2 lata) albo specjalizacja II stopnia/tytuł specjalisty z chorób wewnętrznych",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2023/975/text.pdf",
+  "cytat": "Załącznik, poz. 35: kolumna \"Moduł podstawowy i czas jego trwania lub wymagana specjalizacja II stopnia lub tytuł specjalisty\": \"choroby wewnętrzne – 2 lata\".",
+  "uwagi": "Obecnie \"specjalizacja z chorób wewnętrznych\" sugeruje pełną specjalizację; wystarczy moduł podstawowy."
+ },
+ {
+  "id": "notariusz",
+  "pole": "skills.training[0].name",
+  "obecnaWartosc": "Aplikacja notarialna (3,5 roku)",
+  "status": "ok",
+  "proponowanaWartosc": "Aplikacja notarialna (3,5 roku)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/614/text.pdf",
+  "cytat": "Art. 72 § 1 Prawa o notariacie (Dz.U. 2026 poz. 614): \"Aplikacja notarialna rozpoczyna się 1 stycznia każdego roku, trwa 3 lata i 6 miesięcy\".",
+  "uwagi": "Hipoteza audytu (\"ustawowe 3 lata\") odrzucona: ustawowo jest 3 lata i 6 miesięcy."
+ },
+ {
+  "id": "notariusz",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "5000 zł/rok (opłata za szkolenie izby notarialnej)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "6500 zł/rok (opłata roczna za aplikację notarialną od 1.01.2026)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/1596/text.pdf",
+  "cytat": "§ 1 rozp. MS z 18.11.2025 w sprawie wysokości opłaty rocznej za aplikację notarialną (Dz.U. 2025 poz. 1596): \"Opłata roczna za aplikację notarialną wynosi 6500 zł.\" Wchodzi w życie 1.01.2026. Art. 72a § 1 Prawa o notariacie: \"Aplikacja notarialna jest odpłatna.\"",
+  "uwagi": "Obecnie 5000 zł. Rada izby może zwolnić z opłaty, odroczyć ją lub rozłożyć na raty (art. 72a § 4); aplikant może być też zatrudniony przez notariusza (art. 71 § 5)."
+ },
+ {
+  "id": "notariusz",
+  "pole": "skills.training[0].requirements",
+  "obecnaWartosc": "Dyplom magistra prawa, zdany egzamin wstępny",
+  "status": "ok",
+  "proponowanaWartosc": "Dyplom magistra prawa, zdany egzamin wstępny",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/614/text.pdf",
+  "cytat": "Art. 71 § 1-2 i art. 11 pkt 3: aplikantem może być osoba po egzaminie wstępnym; notariuszem ten, kto \"ukończył wyższe studia prawnicze w Rzeczypospolitej Polskiej i uzyskał tytuł magistra\"; art. 11 pkt 7: \"ukończył 26 lat\".",
+  "uwagi": "Zgodne; można dodać wymóg 26 lat dla powołania."
+ },
+ {
+  "id": "komornik",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "4000 zł/rok (opłata za szkolenie izby komorniczej)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "6500 zł/rok (opłata roczna za aplikację komorniczą od 1.01.2026)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/1598/text.pdf",
+  "cytat": "§ 1 rozp. MS z 18.11.2025 (Dz.U. 2025 poz. 1598): \"Opłata roczna za aplikację komorniczą wynosi 6500 zł.\"",
+  "uwagi": "Obecnie 4000 zł."
+ },
+ {
+  "id": "komornik",
+  "pole": "skills.training[0].name",
+  "obecnaWartosc": "Aplikacja komornicza (2 lata)",
+  "status": "ok",
+  "proponowanaWartosc": "Aplikacja komornicza (2 lata)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/881/text.pdf",
+  "cytat": "Art. 93 ust. 1 ustawy o komornikach sądowych (Dz.U. 2026 poz. 881): \"Aplikacja rozpoczyna się 1 stycznia każdego roku, trwa 2 lata\".",
+  "uwagi": "Zgodne."
+ },
+ {
+  "id": "adwokat",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "5800 zł/rok (opłata za szkolenie ORA)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "6500 zł/rok (opłata roczna za aplikację adwokacką od 1.01.2026)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/1597/text.pdf",
+  "cytat": "§ 1 rozp. MS z 18.11.2025 (Dz.U. 2025 poz. 1597): \"Opłata roczna za aplikację adwokacką wynosi 6500 zł.\" Art. 76b ust. 1 Prawa o adwokaturze: \"Aplikacja adwokacka jest odpłatna.\"",
+  "uwagi": "Obecnie 5800 zł; wcześniejsze rozporządzenie z 2020 r. utraciło moc."
+ },
+ {
+  "id": "adwokat",
+  "pole": "skills.training[0].name",
+  "obecnaWartosc": "Aplikacja adwokacka (3 lata)",
+  "status": "ok",
+  "proponowanaWartosc": "Aplikacja adwokacka (3 lata)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2024/1564/text.pdf",
+  "cytat": "Art. 76 ust. 1 Prawa o adwokaturze: \"Aplikacja adwokacka rozpoczyna się dnia 1 stycznia każdego roku i trwa 3 lata.\"",
+  "uwagi": "Zgodne."
+ },
+ {
+  "id": "prawnik",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "5500 zł/rok (opłata za szkolenie ORA)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "6500 zł/rok (opłata roczna za aplikację adwokacką od 1.01.2026)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/1597/text.pdf",
+  "cytat": "Rozp. MS Dz.U. 2025 poz. 1597, § 1: \"Opłata roczna za aplikację adwokacką wynosi 6500 zł.\"",
+  "uwagi": "Obecnie 5500 zł; sprzeczne też z wpisem adwokat (5800 zł). Obie liczby nieaktualne."
+ },
+ {
+  "id": "prawnik",
+  "pole": "skills.training[1].price",
+  "obecnaWartosc": "5500 zł/rok (opłata za szkolenie OIRP)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "6500 zł/rok (opłata roczna za aplikację radcowską od 1.01.2026)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/1595/text.pdf",
+  "cytat": "§ 1 rozp. MS z 18.11.2025 (Dz.U. 2025 poz. 1595): \"Opłata roczna za aplikację radcowską wynosi 6500 zł.\"",
+  "uwagi": "Obecnie 5500 zł."
+ },
+ {
+  "id": "prawnik",
+  "pole": "skills.training[1].name",
+  "obecnaWartosc": "Aplikacja radcowska (3 lata)",
+  "status": "ok",
+  "proponowanaWartosc": "Aplikacja radcowska (3 lata)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2024/499/text.pdf",
+  "cytat": "Art. 32 ust. 2 ustawy o radcach prawnych: \"Aplikacja radcowska rozpoczyna się 1 stycznia każdego roku i trwa trzy lata.\"",
+  "uwagi": "Zgodne."
+ },
+ {
+  "id": "pilot-wycieczek",
+  "pole": "skills.certifications[0].name",
+  "obecnaWartosc": "Licencja pilota wycieczek",
+  "status": "do usunięcia",
+  "proponowanaWartosc": "Usunąć pozycję \"Licencja pilota wycieczek\". Zawód pilota nie wymaga dziś licencji, legitymacji ani egzaminu państwowego.",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2023/1944/text.pdf",
+  "cytat": "Art. 22 ustawy o usługach hotelarskich oraz usługach pilotów wycieczek i przewodników turystycznych (jt Dz.U. 2023 poz. 1944): \"Przewodnikiem miejskim lub terenowym lub pilotem wycieczek może być osoba, która: 1) ukończyła 18 lat; 2) nie była karana za przestępstwo umyślne [...]; 3) posiada wykształcenie średnie lub średnie branżowe.\" Uprawnienia ustawowe są dziś wymagane tylko od przewodników górskich (art. 21 ust. 1a). Art. 29 ust. 1 pkt 2: kontrola pilotów obejmuje \"spełnienie wymogów, o których mowa w art. 22\".",
+  "uwagi": "Od deregulacji nie ma państwowych uprawnień pilota. Ustawa nie była zmieniana po 2023 (brak nowelizacji w ELI w latach 2024-2026)."
+ },
+ {
+  "id": "pilot-wycieczek",
+  "pole": "skills.certifications[0].url",
+  "obecnaWartosc": "https://www.pit.org.pl",
+  "status": "do usunięcia",
+  "proponowanaWartosc": "Usunąć wraz z pozycją",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2023/1944/text.pdf",
+  "cytat": "Polska Izba Turystyki (pit.org.pl) nie jest organem nadającym uprawnienia pilota (art. 22 wymienia tylko warunki osobiste).",
+  "uwagi": "Link działa (200), ale nie dokumentuje żadnej licencji."
+ },
+ {
+  "id": "pilot-wycieczek",
+  "pole": "skills.training[0].description",
+  "obecnaWartosc": "Kurs przygotowujący do zawodu pilota wycieczek obejmujący 120 godzin szkolenia. Program zawiera geografię turystyczną, historię sztuki, obsługę klienta, pierwszą pomoc i prawo turystyczne. Kończy się egzaminem i uzyskaniem legitymacji pilota.",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Kurs dobrowolny (rynkowy); zakończenie kursu potwierdza zaświadczenie organizatora, nie ustawowa legitymacja ani egzamin państwowy.",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2023/1944/text.pdf",
+  "cytat": "Art. 22 ustawy o usługach hotelarskich oraz usługach pilotów wycieczek i przewodników turystycznych (jt Dz.U. 2023 poz. 1944): \"Przewodnikiem miejskim lub terenowym lub pilotem wycieczek może być osoba, która: 1) ukończyła 18 lat; 2) nie była karana za przestępstwo umyślne [...]; 3) posiada wykształcenie średnie lub średnie branżowe.\" Uprawnienia ustawowe są dziś wymagane tylko od przewodników górskich (art. 21 ust. 1a). Art. 29 ust. 1 pkt 2: kontrola pilotów obejmuje \"spełnienie wymogów, o których mowa w art. 22\".",
+  "uwagi": "Zdanie \"Kończy się egzaminem i uzyskaniem legitymacji pilota\" nie ma oparcia w przepisach."
+ },
+ {
+  "id": "pilot-wycieczek",
+  "pole": "skills.training[0].name",
+  "obecnaWartosc": "Kurs pilota wycieczek (120h)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Kurs pilota wycieczek (dobrowolny; liczba godzin zależy od organizatora)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2023/1944/text.pdf",
+  "cytat": "W ustawie brak przepisu o 120-godzinnym kursie pilota (art. 20 ust. 1, 4-6 oraz art. 23 uchylone).",
+  "uwagi": "120 h to wartość rynkowa organizatorów, brak potwierdzenia w źródle oficjalnym."
+ },
+ {
+  "id": "pilot-wycieczek",
+  "pole": "skills.training[0].requirements",
+  "obecnaWartosc": "Ukończone 18 lat, wykształcenie średnie, znajomość języka obcego",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Ukończone 18 lat, wykształcenie średnie lub średnie branżowe, niekaralność za przestępstwo umyślne; do wycieczek zagranicznych znajomość języka obcego (np. dyplom filologiczny lub B2)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2023/1944/text.pdf",
+  "cytat": "Art. 22 ustawy o usługach hotelarskich oraz usługach pilotów wycieczek i przewodników turystycznych (jt Dz.U. 2023 poz. 1944): \"Przewodnikiem miejskim lub terenowym lub pilotem wycieczek może być osoba, która: 1) ukończyła 18 lat; 2) nie była karana za przestępstwo umyślne [...]; 3) posiada wykształcenie średnie lub średnie branżowe.\" Uprawnienia ustawowe są dziś wymagane tylko od przewodników górskich (art. 21 ust. 1a). Art. 29 ust. 1 pkt 2: kontrola pilotów obejmuje \"spełnienie wymogów, o których mowa w art. 22\". Art. 32 ust. 1: znajomość języka dokumentuje m.in. \"dokument poświadczający znajomość języka obcego na poziomie biegłości B2\".",
+  "uwagi": "Obecny zapis jest zgodny co do wieku i wykształcenia, brakuje niekaralności i konkretu o języku."
+ },
+ {
+  "id": "pilot-wycieczek",
+  "pole": "education.level",
+  "obecnaWartosc": "średnie + kurs pilota wycieczek",
+  "status": "do poprawy",
+  "proponowanaWartosc": "średnie lub średnie branżowe; kurs dobrowolny",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2023/1944/text.pdf",
+  "cytat": "Art. 22 ustawy o usługach hotelarskich oraz usługach pilotów wycieczek i przewodników turystycznych (jt Dz.U. 2023 poz. 1944): \"Przewodnikiem miejskim lub terenowym lub pilotem wycieczek może być osoba, która: 1) ukończyła 18 lat; 2) nie była karana za przestępstwo umyślne [...]; 3) posiada wykształcenie średnie lub średnie branżowe.\" Uprawnienia ustawowe są dziś wymagane tylko od przewodników górskich (art. 21 ust. 1a). Art. 29 ust. 1 pkt 2: kontrola pilotów obejmuje \"spełnienie wymogów, o których mowa w art. 22\".",
+  "uwagi": "Poziom \"średnie + kurs pilota wycieczek\" sugeruje obowiązkowy kurs."
+ },
+ {
+  "id": "psychoterapeuta",
+  "pole": "fullDescription",
+  "obecnaWartosc": "Psychoterapeuta pomaga ludziom poradzić sobie z depresją, lękiem, traumą i kryzysami życiowymi. Prowadzi terapię indywidualną, par lub grupową w wybranym nurcie, np. poznawczo-behawioralnym albo psychodynamicznym. Pracuje w gabinecie, poradni zdrowia psychicznego, szpitalu psychiatrycznym, ośrodku leczenia uzależnień albo prowadzi terapię online, a po studiach musi ukończyć 4-letnie szkolenie psychoterapeutyczne. Pacjenci opowiadają o najtrudniejszych sprawach, więc trzeba słuchać bardzo uważnie i z empatią, sesja po sesji.",
+  "status": "do poprawy",
+  "proponowanaWartosc": "... a po studiach potrzebuje podyplomowego szkolenia psychoterapeutycznego (wymóg NFZ co najmniej 1200 godzin, zwykle 4 lata) i zwykle certyfikatu towarzystwa naukowego. Zawód nie jest regulowany ustawą.",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/383/text.pdf",
+  "cytat": "§ 2 pkt 5 rozp. MZ o świadczeniach gwarantowanych z zakresu opieki psychiatrycznej i leczenia uzależnień (jt Dz.U. 2026 poz. 383): osoba z certyfikatem psychoterapeuty to osoba, która \"ukończyła podyplomowe szkolenie w zakresie oddziaływań psychoterapeutycznych [...] w wymiarze co najmniej 1200 godzin\" i ma \"zaświadczenie [...] zakończone egzaminem przeprowadzonym przez komisję zewnętrzną\". Ustawa z 23.01.2026 o zawodzie psychologa (Dz.U. 2026 poz. 187), art. 3 ust. 4-5: \"Psycholog może prowadzić psychoterapię na zasadach określonych w odrębnych przepisach\"; prawo do psychoterapii \"nie ogranicza prawa do prowadzenia psychoterapii osobom, które spełniają wymagania niezbędne do prowadzenia psychoterapii na podstawie odrębnych przepisów\". Brak ustawy regulującej zawód psychoterapeuty (w ELI brak aktu o psychoterapeucie).",
+  "uwagi": "\"Musi ukończyć 4-letnie szkolenie\" to standard rynkowy/certyfikacyjny, nie wymóg ustawowy. Czas \"4 lata\" nie występuje w przepisach ani na stronie certyfikatów PTP (tam godziny: 1250 h + 5 lat praktyki). Jedna z hipotez audytu potwierdzona."
+ },
+ {
+  "id": "psychoterapeuta",
+  "pole": "skills.training[0].name",
+  "obecnaWartosc": "4-letnie szkolenie psychoterapeutyczne",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Szkolenie psychoterapeutyczne (min. 1200 godzin; zwykle ok. 4 lat)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/383/text.pdf",
+  "cytat": "§ 2 pkt 5 rozp. MZ o świadczeniach gwarantowanych z zakresu opieki psychiatrycznej i leczenia uzależnień (jt Dz.U. 2026 poz. 383): osoba z certyfikatem psychoterapeuty to osoba, która \"ukończyła podyplomowe szkolenie w zakresie oddziaływań psychoterapeutycznych [...] w wymiarze co najmniej 1200 godzin\" i ma \"zaświadczenie [...] zakończone egzaminem przeprowadzonym przez komisję zewnętrzną\".",
+  "uwagi": "Nazwa narzuca 4 lata; przepisy mówią o godzinach."
+ },
+ {
+  "id": "psychoterapeuta",
+  "pole": "skills.training[0].description",
+  "obecnaWartosc": "Czteroletni program szkoleniowy obejmujący teorię psychoterapii, psychopatologię, praktykę kliniczną pod superwizją oraz terapię własną. Uczestnicy specjalizują się w wybranym nurcie (poznawczo-behawioralnym, psychodynamicznym, humanistycznym). Program akredytowany przez PTP.",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć \"Program akredytowany przez PTP\" albo wskazać listę ośrodków rekomendowanych: https://psych.org.pl/certyfikaty-i-rekomendacje/rekomendowane-osrodki-szkolace-w-zakresie-psychoterapii",
+  "zrodloUrl": "https://psych.org.pl/certyfikaty-i-rekomendacje/certyfikaty-psychoterapeutyczne",
+  "cytat": "Strona PTP ma zakładkę \"Rekomendowane ośrodki szkolące w zakresie psychoterapii\", ale nie sprawdziłam, czy wymienione w opisie ośrodki (SWPS, KCP, Instytut Gestalt) tam są.",
+  "uwagi": "Brak potwierdzenia konkretnych ośrodków."
+ },
+ {
+  "id": "psychoterapeuta",
+  "pole": "skills.certifications[0].name",
+  "obecnaWartosc": "Certyfikat psychoterapeuty PTP",
+  "status": "ok",
+  "proponowanaWartosc": "Certyfikat psychoterapeuty PTP (Polskie Towarzystwo Psychologiczne)",
+  "zrodloUrl": "https://psych.org.pl/certyfikaty-i-rekomendacje/certyfikaty-psychoterapeutyczne",
+  "cytat": "Strona Polskiego Towarzystwa Psychologicznego: \"1250 godzin szkolenia teoretycznego i praktycznego w zakresie psychoterapii\", \"5 lat samodzielnej pracy psychoterapeutycznej [...] w tym co najmniej 300 godzin praktyki prowadzonej pod superwizją\", \"własna psychoterapia szkoleniowa [...] co najmniej 250 godzin\".",
+  "uwagi": "Nazwa i wydawca potwierdzeni. Uwaga na rozwinięcie skrótu: PTP to też Polskie Towarzystwo Psychiatryczne, które wydaje własny certyfikat; warto dopisać pełną nazwę."
+ },
+ {
+  "id": "psychoterapeuta",
+  "pole": "skills.certifications[1].name",
+  "obecnaWartosc": "Certyfikat EAPTI",
+  "status": "do poprawy",
+  "proponowanaWartosc": "European Certificate for Psychotherapy (ECP), wydawany przez European Association for Psychotherapy",
+  "zrodloUrl": "https://www.europsyche.org/ECP/Apply-for-ECP",
+  "cytat": "Strona EAP: \"There are two possible ways to apply for an ECP, one way is the Direct Award (DA) through one of the European Accredited Psychotherapy Training Institutes (EAPTIs)\".",
+  "uwagi": "EAPTI to akredytowane instytuty szkoleniowe, nie nazwa certyfikatu."
+ },
+ {
+  "id": "psychoterapeuta",
+  "pole": "skills.training[0].requirements",
+  "obecnaWartosc": "Dyplom magistra psychologii, medycyny lub pokrewnego kierunku",
+  "status": "ok",
+  "proponowanaWartosc": "Dyplom magistra psychologii, medycyny lub pokrewnego kierunku (wg NFZ: lekarz, mgr pielęgniarstwa, mgr psychologii, pedagogiki, resocjalizacji lub socjologii)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/383/text.pdf",
+  "cytat": "§ 2 pkt 5 lit. a: \"tytuł zawodowy lekarza lub tytuł zawodowy magistra pielęgniarstwa, lub magistra po ukończeniu studiów na kierunku psychologii, pedagogiki, resocjalizacji, socjologii\".",
+  "uwagi": "Zgodne z NFZ; PTP wymaga wykształcenia magisterskiego."
+ },
+ {
+  "id": "psycholog",
+  "pole": "skills.training[0].name",
+  "obecnaWartosc": "4-letnie szkolenie psychoterapeutyczne",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Szkolenie psychoterapeutyczne (dobrowolne, dla psychologów chcących prowadzić psychoterapię)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/383/text.pdf",
+  "cytat": "Ustawa z 23.01.2026 o zawodzie psychologa (Dz.U. 2026 poz. 187), art. 3 ust. 4-5: \"Psycholog może prowadzić psychoterapię na zasadach określonych w odrębnych przepisach\"; prawo do psychoterapii \"nie ogranicza prawa do prowadzenia psychoterapii osobom, które spełniają wymagania niezbędne do prowadzenia psychoterapii na podstawie odrębnych przepisów\". Brak ustawy regulującej zawód psychoterapeuty (w ELI brak aktu o psychoterapeucie). Art. 5 ust. 5: wpis do Rejestru Psychologów wymaga studiów psychologicznych (I+II stopnia albo jednolitych magisterskich), nie szkolenia psychoterapeutycznego.",
+  "uwagi": "Dla zawodu psychologa szkolenie nie jest wymagane ani w obecnym, ani w nowym stanie prawnym. Nowa ustawa wchodzi w życie po 2 latach i 3 miesiącach od ogłoszenia (ELI: 2028-05-19), do tego czasu obowiązuje ustawa z 2001 r."
+ },
+ {
+  "id": "psycholog",
+  "pole": "skills.training[0].description",
+  "obecnaWartosc": "Kompleksowe szkolenie obejmujące teorię i praktykę psychoterapii. Uczestnicy poznają główne nurty terapeutyczne, uczą się prowadzenia sesji indywidualnych i grupowych oraz superwizji klinicznej. Program zakończony certyfikatem uprawniającym do samodzielnej praktyki.",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Usunąć zdanie \"Program zakończony certyfikatem uprawniającym do samodzielnej praktyki\"; certyfikat towarzystwa naukowego nie jest warunkiem prowadzenia praktyki",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/383/text.pdf",
+  "cytat": "Ustawa z 23.01.2026 o zawodzie psychologa (Dz.U. 2026 poz. 187), art. 3 ust. 4-5: \"Psycholog może prowadzić psychoterapię na zasadach określonych w odrębnych przepisach\"; prawo do psychoterapii \"nie ogranicza prawa do prowadzenia psychoterapii osobom, które spełniają wymagania niezbędne do prowadzenia psychoterapii na podstawie odrębnych przepisów\". Brak ustawy regulującej zawód psychoterapeuty (w ELI brak aktu o psychoterapeucie). § 2 pkt 5 rozp. MZ o świadczeniach gwarantowanych z zakresu opieki psychiatrycznej i leczenia uzależnień (jt Dz.U. 2026 poz. 383): osoba z certyfikatem psychoterapeuty to osoba, która \"ukończyła podyplomowe szkolenie w zakresie oddziaływań psychoterapeutycznych [...] w wymiarze co najmniej 1200 godzin\" i ma \"zaświadczenie [...] zakończone egzaminem przeprowadzonym przez komisję zewnętrzną\".",
+  "uwagi": "Certyfikat jest wymagany przez NFZ przy kontraktach, nie przez prawo, i nie jest \"uprawnieniem do samodzielnej praktyki\"."
+ },
+ {
+  "id": "psycholog",
+  "pole": "skills.certifications[0].name",
+  "obecnaWartosc": "Certyfikat psychoterapeuty PTP",
+  "status": "ok",
+  "proponowanaWartosc": "Certyfikat psychoterapeuty PTP (opcjonalny)",
+  "zrodloUrl": "https://psych.org.pl/certyfikaty-i-rekomendacje/certyfikaty-psychoterapeutyczne",
+  "cytat": "Strona Polskiego Towarzystwa Psychologicznego: \"1250 godzin szkolenia teoretycznego i praktycznego w zakresie psychoterapii\", \"5 lat samodzielnej pracy psychoterapeutycznej [...] w tym co najmniej 300 godzin praktyki prowadzonej pod superwizją\", \"własna psychoterapia szkoleniowa [...] co najmniej 250 godzin\".",
+  "uwagi": "Dla psychologa certyfikat jest opcją, nie wymogiem; warto to zaznaczyć w opisie."
+ },
+ {
+  "id": "psycholog",
+  "pole": "education.level",
+  "obecnaWartosc": "magister",
+  "status": "ok",
+  "proponowanaWartosc": "magister",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/187/text.pdf",
+  "cytat": "Art. 5 ust. 5 pkt 1: \"studia pierwszego stopnia na kierunku psychologia i studia drugiego stopnia na kierunku psychologia oraz uzyskała tytuł zawodowy magistra [...] albo jednolite studia magisterskie na kierunku psychologia\".",
+  "uwagi": "Zgodne."
+ },
+ {
+  "id": "strazak",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatne (w ramach służby, z wynagrodzeniem ~3800 zł/mies.)",
+  "status": "do usunięcia",
+  "proponowanaWartosc": "Bezpłatne (w ramach służby, z uposażeniem); usunąć kwotę ~3800 zł albo zastąpić wzorem: uposażenie zasadnicze = mnożnik grupy x kwota bazowa 2 259,01 zł plus dodatek za stopień (np. \"strażak\" 1 632 zł)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/552/text.pdf",
+  "cytat": "Art. 9 ust. 1 pkt 2 lit. d ustawy budżetowej na 2026 (Dz.U. 2026 poz. 62): kwota bazowa dla \"żołnierzy zawodowych i funkcjonariuszy – w wysokości 2 259,01 zł\". Rozp. MSWiA w sprawie uposażenia strażaków PSP (Dz.U. 2021 poz. 1750 ze zm.), zał. nr 1: grupa 1 = mnożnik 1,577 (wg tekstu z 2021, późniejsze zmiany mnożników niezweryfikowane); zał. nr 3 w brzmieniu Dz.U. 2026 poz. 552: dodatek za stopień \"Strażak – 1632\" zł.",
+  "uwagi": "Kwota ~3800 zł nie wynika z żadnego dokumentu: sam mnożnik 1,577 x 2 259,01 daje ok. 3 560 zł zasadniczego, do tego dodatki. Przy braku pewności co do grupy i stopnia strażaka w trakcie szkolenia zalecam usunięcie kwoty (notatka \"nie podajemy kwot\" i tak obowiązuje dla służb mundurowych)."
+ },
+ {
+  "id": "funkcjonariusz-sg",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatne (w ramach służby, z wynagrodzeniem ~3800 zł/mies.)",
+  "status": "do usunięcia",
+  "proponowanaWartosc": "Bezpłatne (w ramach służby); usunąć kwotę ~3800 zł. Uposażenie wynika ze wzoru: mnożnik x kwota bazowa 2 259,01 zł; w służbie kandydackiej 13 % najniższej stawki.",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/1455/text.pdf",
+  "cytat": "§ 4 rozp. MSWiA z 20.10.2025 (Dz.U. 2025 poz. 1455): \"Funkcjonariuszom w służbie przygotowawczej i kontraktowej przyznaje się uposażenie zasadnicze w wysokości wynikającej z II kategorii grup uposażenia zasadniczego\"; ust. 3: \"Funkcjonariuszom w służbie kandydackiej przysługuje uposażenie zasadnicze w wysokości 13 % najniższej stawki uposażenia zasadniczego funkcjonariuszy Straży Granicznej\". Zał. 1: grupa 02, kat. II = 1,887; grupa 01 = 1,862. Kwota bazowa 2026: 2 259,01 zł (Dz.U. 2026 poz. 62).",
+  "uwagi": "Dla grupy 02 wychodzi ok. 4 260 zł zasadniczego (1,887 x 2 259,01), a w służbie kandydackiej ok. 550 zł. Żadna z tych liczb nie daje 3800 zł, więc kwota jest bezpodstawna. Rozporządzenie zmieniono 24.09.2026 (Dz.U. 2026 poz. 1264, od 1.10.2026) w zaszeregowaniu stanowisk."
+ },
+ {
+  "id": "sedzia",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatna (z wynagrodzeniem ~4500 zł/mies. dla aplikantów)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Bezpłatna; aplikant pobiera stypendium (nie wynagrodzenie): 5 766 zł miesięcznie w pierwszych 12 miesiącach i 6 366 zł później, podwyższane zależnie od miejsca zamieszkania",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/594/text.pdf",
+  "cytat": "§ 2 ust. 1 rozp. MS z 22.12.2017 w sprawie stypendium aplikantów KSSiP (jt Dz.U. 2026 poz. 594): \"w trakcie pierwszych dwunastu miesięcy szkolenia – 5766 zł; po ukończeniu dwunastu miesięcy szkolenia – 6366 zł.\" Art. 41a ust. 2 ustawy o KSSiP: stypendium nie może przekroczyć najniższego wynagrodzenia zasadniczego referendarza sądowego.",
+  "uwagi": "Obecne \"~4500 zł\" nieaktualne. Kwoty ustalone rozporządzeniem; aplikanci, którzy zaczęli wcześniej, mogą mieć stawki dotychczasowe (§ 2 rozp. zmieniającego Dz.U. 2026 poz. 53)."
+ },
+ {
+  "id": "prokurator",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatna (z wynagrodzeniem ~4500 zł/mies. dla aplikantów)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Bezpłatna; aplikant pobiera stypendium (nie wynagrodzenie): 5 766 zł miesięcznie w pierwszych 12 miesiącach i 6 366 zł później, podwyższane zależnie od miejsca zamieszkania",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/594/text.pdf",
+  "cytat": "§ 2 ust. 1 rozp. MS z 22.12.2017 w sprawie stypendium aplikantów KSSiP (jt Dz.U. 2026 poz. 594): \"w trakcie pierwszych dwunastu miesięcy szkolenia – 5766 zł; po ukończeniu dwunastu miesięcy szkolenia – 6366 zł.\" Art. 41a ust. 2 ustawy o KSSiP: stypendium nie może przekroczyć najniższego wynagrodzenia zasadniczego referendarza sądowego.",
+  "uwagi": "Obecne \"~4500 zł\" nieaktualne. Kwoty ustalone rozporządzeniem; aplikanci, którzy zaczęli wcześniej, mogą mieć stawki dotychczasowe (§ 2 rozp. zmieniającego Dz.U. 2026 poz. 53)."
+ },
+ {
+  "id": "sedzia",
+  "pole": "skills.training[0].description",
+  "obecnaWartosc": "Trzyletnia aplikacja sędziowska prowadzona przez KSSiP w Krakowie. Obejmuje zajęcia teoretyczne, praktyki w sądach różnych instancji i prokuraturach. Program zakończony egzaminem sędziowskim uprawniającym do ubiegania się o stanowisko sędziego.",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Trzyletnia aplikacja sędziowska prowadzona przez KSSiP w Krakowie i w Gdańsku (zjazdy)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/594/text.pdf",
+  "cytat": "§ 2 ust. 3a rozp.: \"Kwoty, o które podwyższa się stypendium aplikanta odbywającego zajęcia w Gdańsku [...] są określone w załączniku nr 2\"; art. 27 ust. 1 ustawy o KSSiP: aplikacja \"trwa 36 miesięcy\".",
+  "uwagi": "Opis wymienia tylko Kraków; rozporządzenie przewiduje zajęcia również w Gdańsku (dodane w 2026). Część o liczbie miejsc zajęć niepotwierdzona poza tym przepisem."
+ },
+ {
+  "id": "lesnik",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatna (z wynagrodzeniem w czasie służby ~4500 zł/mies.)",
+  "status": "do usunięcia",
+  "proponowanaWartosc": "Usunąć kwotę \"~4500 zł/mies.\"; brak publicznego źródła. Zasady wynagradzania w Służbie Leśnej określa rozporządzenie (stawka wyjściowa x współczynnik) i zakładowy układ zbiorowy.",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/200/text.pdf",
+  "cytat": "Rozp. MKiŚ w sprawie stanowisk, stopni służbowych oraz zasad wynagradzania w Służbie Leśnej (jt Dz.U. 2025 poz. 200): \"Wynagrodzenie zasadnicze ustala się mnożąc stawkę wyjściową przez współczynnik zaszeregowania\"; kwota nie odnosi się do żadnego etapu szkolenia.",
+  "uwagi": "Nie znaleziono dokumentu z kwotą dla odbywającego służbę przygotowawczą."
+ },
+ {
+  "id": "lesnik",
+  "pole": "skills.training[0].name",
+  "obecnaWartosc": "Służba przygotowawcza w LP",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Do weryfikacji w Lasach Państwowych (lasy.gov.pl): pojęcie \"służba przygotowawcza w LP\"",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/663/text.pdf",
+  "cytat": "W jednolitym tekście ustawy o lasach (Dz.U. 2026 poz. 663) fraza \"służba przygotowawcza\" nie występuje; rozp. o Służbie Leśnej (Dz.U. 2025 poz. 200) wymaga egzaminu do pierwszego stopnia służbowego (§ 6 ust. 1), bez pojęcia \"roczna służba przygotowawcza\".",
+  "uwagi": "Nie potwierdzono istnienia rocznej służby przygotowawczej z opisem z pola description; sprawdzić w dokumentach DGLP."
+ },
+ {
+  "id": "nauczyciel-akademicki",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatne (z stypendium doktoranckim ~3500 do 4500 zł/mies.)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Bezpłatne; stypendium doktoranckie wynosi co najmniej 37 % wynagrodzenia profesora do oceny śródokresowej i 57 % po niej; od 1.01.2026 to co najmniej 3 570,50 zł i 5 500,50 zł (przy minimalnym wynagrodzeniu profesora 9 650 zł)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/525/text.pdf",
+  "cytat": "Art. 209 ust. 4 Prawa o szkolnictwie wyższym i nauce (Dz.U. 2024 poz. 1571): \"Wysokość miesięcznego stypendium doktoranckiego wynosi co najmniej: 37 % wynagrodzenia profesora – do miesiąca, w którym została przeprowadzona ocena śródokresowa; 57 % wynagrodzenia profesora – po miesiącu [...]\". Rozp. MNiSW z 14.04.2026 (Dz.U. 2026 poz. 525): \"wyrazy 9370 zł zastępuje się wyrazami 9650 zł\", stosowane od 1.01.2026. Definicja w art. 22 ust. 4 PWSN: \"minimalnego miesięcznego wynagrodzenia zasadniczego dla profesora w uczelni publicznej określonego w przepisach wydanych na podstawie art. 137 ust. 2, zwanego dalej wynagrodzeniem profesora\".",
+  "uwagi": "Kwoty 3570,50 i 5500,50 to moje obliczenie z przepisów (37 % i 57 % z 9650 zł). Dotychczasowe \"3500 do 4500\" niezgodne: po ocenie śródokresowej minimum jest ok. 5500 zł. Dodatkowo +30 % dla doktorantów z orzeczeniem o niepełnosprawności (art. 209 ust. 7). Szkoła może płacić więcej; stypendium nie przysługuje, gdy doktorant jest zatrudniony na umowę o pracę z wynagrodzeniem powyżej wynagrodzenia profesora (ust. 1a)."
+ },
+ {
+  "id": "nauczyciel-akademicki",
+  "pole": "skills.certifications[0].url",
+  "obecnaWartosc": "https://www.gov.pl/web/edukacja",
+  "status": "do poprawy",
+  "proponowanaWartosc": "https://www.gov.pl/web/nauka",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/525/text.pdf",
+  "cytat": "Przypis 1 rozp.: \"Minister Nauki i Szkolnictwa Wyższego kieruje działem administracji rządowej – szkolnictwo wyższe i nauka\"; strona gov.pl/web/nauka: \"Ministerstwo Nauki i Szkolnictwa Wyższego\".",
+  "uwagi": "Obecny link gov.pl/web/edukacja prowadzi do MEN, które nie odpowiada za stopnie naukowe."
+ },
+ {
+  "id": "doradca-podatkowy",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "3000 do 6000 zł (kurs przygotowawczy) + 900 zł (opłata egzaminacyjna)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Egzamin: opłata wstępna (10 % minimalnego wynagrodzenia) + część pisemna (25 %) + część ustna (35 %); przy minimalnym wynagrodzeniu 4 806 zł to 480 zł + 1 201 zł + 1 682 zł = 3 363 zł (obliczone), plus kurs przygotowawczy wg oferty",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/750/text.pdf",
+  "cytat": "§ 2-3 rozp. MF z 3.06.2026 (Dz.U. 2026 poz. 750, od 1.07.2026): opłata wstępna \"równa 10 % minimalnego wynagrodzenia\"; opłata za część pisemną \"25 %\", za część ustną \"35 %\". Minimalne wynagrodzenie 2026: 4806 zł (rozp. RM, Dz.U. 2025 poz. 1242).",
+  "uwagi": "Obecne \"900 zł\" pochodzi z poprzedniego trybu (rozp. z 2023, uchylone z 1.07.2026). Od 1.07.2026 obowiązuje nowy egzamin (e-Doradca) i trzy osobne opłaty. Suma 3 363 zł to moje wyliczenie, oficjalne kwoty ogłasza Sekretarz Komisji w BIP MF (art. 25 ust. 7 ustawy)."
+ },
+ {
+  "id": "doradca-podatkowy",
+  "pole": "education.level",
+  "obecnaWartosc": "magister",
+  "status": "do poprawy",
+  "proponowanaWartosc": "wyższe wykształcenie (dowolny kierunek, także licencjat)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/1274/text.pdf",
+  "cytat": "Art. 6 ust. 1 pkt 5 ustawy o doradztwie podatkowym: warunkiem wpisu na listę jest, że osoba \"posiada wyższe wykształcenie\"; wpis: art. 9 \"Z dniem dokonania wpisu na listę osoba wpisana nabywa prawo wykonywania zawodu\".",
+  "uwagi": "Poziom \"magister\" zawyża wymóg."
+ },
+ {
+  "id": "biegly-rewident",
+  "pole": "skills.training[0].requirements",
+  "obecnaWartosc": "Wykształcenie wyższe, 3 lata praktyki w rachunkowości",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Dyplom ukończenia studiów (art. 4 ust. 2 pkt 4 ustawy), 3-letnia aplikacja w firmie audytorskiej albo roczna praktyka w rachunkowości plus min. 2-letnia aplikacja; pozytywne egzaminy przed Komisją",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/1891/text.pdf",
+  "cytat": "Art. 4 ust. 2 pkt 5 ustawy o biegłych rewidentach (jt Dz.U. 2025 poz. 1891): \"odbyła: a) roczną praktykę w zakresie rachunkowości [...] oraz co najmniej 2-letnią aplikację w firmie audytorskiej [...] albo b) 3-letnią aplikację w firmie audytorskiej\".",
+  "uwagi": "Zapis \"3 lata praktyki w rachunkowości\" nie odpowiada ustawie (jest aplikacja w firmie audytorskiej, praktyka tylko roczna w wariancie a)."
+ },
+ {
+  "id": "biegly-rewident",
+  "pole": "skills.training[0].description",
+  "obecnaWartosc": "Wieloetapowy proces kwalifikacyjny obejmujący 10 egzaminów z zakresu rachunkowości, rewizji finansowej, prawa i podatków. Obejmuje też praktyki i aplikacji rewizorskiej. Prowadzony przez Polską Izbę Biegłych Rewidentów.",
+  "status": "do poprawy",
+  "proponowanaWartosc": "... 10 tematów egzaminacyjnych (egzaminy z wiedzy) oraz egzamin dyplomowy",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/1891/text.pdf",
+  "cytat": "Art. 14 ust. 1: \"Egzaminy z wiedzy składają się z pytań testowych i zadań sytuacyjnych obejmujących 10 tematów egzaminacyjnych\"; art. 4 ust. 2 pkt 7: dodatkowo \"egzamin dyplomowy\".",
+  "uwagi": "Opis mówi o \"10 egzaminach\", ustawa o 10 tematach w egzaminach z wiedzy plus osobnym egzaminie dyplomowym."
+ },
+ {
+  "id": "biegly-rewident",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "8000 do 15000 zł (kursy przygotowawcze) + 4000 zł (opłaty egzaminacyjne)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć \"8000-15000 zł + 4000 zł\" albo podać źródło; ustawowo opłaty egzaminacyjne to max 20 % (30 % za niektóre egzaminy) przeciętnego wynagrodzenia z poprzedniego roku (2025: 8 903,56 zł)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/1891/text.pdf",
+  "cytat": "Art. 16 ust. 2 ustawy: opłata wstępna oraz za każdy egzamin z wiedzy \"w kwocie nieprzekraczającej równowartości 20 %\", egzamin dyplomowy i z prawa gospodarczego 30 % \"przeciętnego wynagrodzenia w gospodarce narodowej [...] za poprzedni rok\".",
+  "uwagi": "Faktyczne stawki ustala PIBR/rozporządzenie MF, nie sprawdzono. Kwota 4000 zł bez źródła."
+ },
+ {
+  "id": "inzynier-budownictwa",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "2000 do 4000 zł (kurs przygotowawczy) + 1600 zł (opłata egzaminacyjna)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Opłaty PIIB od jesiennej sesji 2026: kwalifikowanie 1 800 zł + egzamin 1 800 zł (projektowanie albo kierowanie) lub po 2 700 zł (projektowanie i kierowanie łącznie); poprawka części ustnej 1 150 zł lub 1 650 zł",
+  "zrodloUrl": "https://www.piib.org.pl/organy/krajowa-rada/ukr/uchwaly-krajowej-rady-piib-2026-r/5871-uchwala-nr-piib-kr-0049-2026-krajowej-rady-polskiej-izby-inzynierow-budownictwa-z-dnia-29-kwietnia-2026-r-w-sprawie-ustalenia-wysokosci-oplat-za-postepowanie-kwalifikacyjne",
+  "cytat": "Uchwała KR PIIB nr PIIB/KR/0049/2026 z 29.04.2026: \"z tytułu kwalifikowania – 1800,00 zł; z tytułu przeprowadzenia egzaminu – 1800,00 zł\"; \"[2700,00 zł] ... 2700,00 zł\"; \"Opłaty [...] stosuje się począwszy od jesiennej sesji egzaminacyjnej w roku 2026\".",
+  "uwagi": "Obecne \"1600 zł (opłata egzaminacyjna)\" nie odpowiada żadnej uchwale; stawki dotyczą kwalifikowania i egzaminu osobno (razem 3 600 zł lub 5 400 zł)."
+ },
+ {
+  "id": "inzynier-budownictwa",
+  "pole": "skills.training[0].requirements",
+  "obecnaWartosc": "Dyplom inżyniera budownictwa, odbycie praktyki zawodowej (1,5 do 3 lata)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Dyplom studiów odpowiednich dla specjalności (II stopnia do projektowania bez ograniczeń) oraz praktyka: projektowanie 1 rok przy projektach + 1 rok na budowie; kierowanie robotami 1,5 roku (studia II lub I stopnia: odpowiednio 1,5 albo 3 lata); projektowanie i kierowanie 1 rok + 1,5 roku",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/524/text.pdf",
+  "cytat": "Art. 14 ust. 3 pkt 1, 3 i 5 Pr. bud.: \"odbycia rocznej praktyki przy sporządzaniu projektów, odbycia rocznej praktyki na budowie\"; \"odbycia odpowiednio półtorarocznej lub trzyletniej praktyki na budowie\"; \"rocznej praktyki przy sporządzaniu projektów\" + \"półtorarocznej praktyki na budowie\".",
+  "uwagi": "Zakres \"1,5 do 3 lata\" opisuje tylko kierowanie robotami; brakuje wariantów projektowania. Wymóg dotyczy też specjalności z listy art. 14 ust. 1, nie tylko inżyniera budownictwa."
+ },
+ {
+  "id": "geodeta",
+  "pole": "skills.training[0].requirements",
+  "obecnaWartosc": "Dyplom inżyniera geodezji, praktyka zawodowa (2 do 6 lat zależnie od zakresu)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Wykształcenie geodezyjne (wyższe, średnie lub średnie branżowe) oraz praktyka: 1 rok po studiach II stopnia/jednolitych magisterskich, 2 lata po studiach I stopnia, 6 lat przy średnim wykształceniu geodezyjnym",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2024/1151/text.pdf",
+  "cytat": "Art. 44 ust. 1 pkt 4 Prawa geodezyjnego i kartograficznego (jt Dz.U. 2024 poz. 1151): \"rok praktyki zawodowej w przypadku ukończenia studiów wyższych drugiego stopnia lub jednolitych studiów magisterskich, 2 lata praktyki zawodowej w przypadku ukończenia studiów wyższych pierwszego stopnia albo 6 lat praktyki zawodowej w przypadku posiadania średniego lub średniego branżowego wykształcenia geodezyjnego\".",
+  "uwagi": "Obecne \"2 do 6 lat zależnie od zakresu\" myli kryterium: długość praktyki zależy od wykształcenia, nie od zakresu uprawnień; wymaganie \"Dyplom inżyniera\" pomija wariant magisterski i średnie. Dla zakresów 3, 6 i 7 obowiązuje art. 44a."
+ },
+ {
+  "id": "geodeta",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "1500 do 3000 zł (kurs przygotowawczy) + 960 zł (opłata egzaminacyjna)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć \"960 zł\" albo podać źródło; ustawowo opłata za postępowanie kwalifikacyjne ≤ połowa przeciętnego wynagrodzenia z poprzedniego roku",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2024/1151/text.pdf",
+  "cytat": "Art. 45d ust. 2: \"Wysokość opłaty za przeprowadzenie postępowania kwalifikacyjnego nie może być większa niż połowa wysokości kwoty przeciętnego miesięcznego wynagrodzenia w gospodarce narodowej w roku poprzedzającym\".",
+  "uwagi": "Przy 8 903,56 zł (2025) górny limit to ok. 4 451,78 zł; konkretna stawka 960 zł niepotwierdzona."
+ },
+ {
+  "id": "pracownik-ochrony",
+  "pole": "skills.certifications[0].name",
+  "obecnaWartosc": "Licencja kwalifikowanego pracownika ochrony",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Wpis na listę kwalifikowanych pracowników ochrony fizycznej (prowadzi Komendant Główny Policji, wpisów dokonują komendanci wojewódzcy)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/532/text.pdf",
+  "cytat": "Art. 28 ust. 1 ustawy o ochronie osób i mienia (Dz.U. 2025 poz. 532): \"Listę kwalifikowanych pracowników ochrony fizycznej [...] prowadzi Komendant Główny Policji w systemie teleinformatycznym. Wprowadzania danych [...] dokonują komendanci wojewódzcy Policji\". W ustawie nie występuje pojęcie \"licencja\".",
+  "uwagi": "Pojęcie \"licencja kwalifikowanego pracownika ochrony\" jest nieaktualne; opis kursu już mówi o wpisie na listę."
+ },
+ {
+  "id": "pracownik-ochrony",
+  "pole": "education.level",
+  "obecnaWartosc": "średnie (minimum)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "co najmniej gimnazjum lub ośmioletnia szkoła podstawowa (średnie nie jest wymagane)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/532/text.pdf",
+  "cytat": "Art. 26 ust. 3 pkt 2-3: \"ukończyła 21 lat\"; \"ukończyła co najmniej gimnazjum lub ośmioletnią szkołę podstawową\".",
+  "uwagi": "Poziom \"średnie (minimum)\" jest sprzeczny z wymaganiem z pola requirements w tej samej pozycji (\"co najmniej gimnazjalne/podstawowe\")."
+ },
+ {
+  "id": "pracownik-ochrony",
+  "pole": "skills.training[0].requirements",
+  "obecnaWartosc": "Ukończone 21 lat, wykształcenie co najmniej gimnazjalne/podstawowe, niekaralność",
+  "status": "ok",
+  "proponowanaWartosc": "Ukończone 21 lat, wykształcenie co najmniej gimnazjalne/podstawowe, niekaralność",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/532/text.pdf",
+  "cytat": "Art. 26 ust. 3 pkt 2, 3, 5: 21 lat, gimnazjum lub ośmioletnia szkoła podstawowa, brak prawomocnego skazania za przestępstwo umyślne.",
+  "uwagi": "Zgodne (brakuje: nienaganna opinia policji, orzeczenia lekarskie i psychologiczne, art. 26 ust. 3 pkt 6-7)."
+ },
+ {
+  "id": "pracownik-ochrony",
+  "pole": "skills.training[0].description",
+  "obecnaWartosc": "Szkolenie przygotowujące do uzyskania wpisu na listę kwalifikowanych pracowników ochrony. Obejmuje prawo, techniki interwencji, pierwszą pomoc, samoobrona i ochronę osób i mienia. Trwa ok. 245 godzin dydaktycznych.",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć \"ok. 245 godzin dydaktycznych\" albo podać źródło",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/532/text.pdf",
+  "cytat": "Art. 26 ust. 3 pkt 8 wymaga \"przygotowania teoretycznego i praktycznego w zakresie wyszkolenia strzeleckiego, samoobrony, technik interwencyjnych\", bez liczby godzin.",
+  "uwagi": "Liczby godzin nie znaleziono w ustawie; mogą wynikać z programu szkolenia."
+ },
+ {
+  "id": "tlumacz",
+  "pole": "education.level",
+  "obecnaWartosc": "magister",
+  "status": "do poprawy",
+  "proponowanaWartosc": "wyższe wykształcenie (nie musi być magisterskie) i egzamin na tłumacza przysięgłego",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2019/1326/text.pdf",
+  "cytat": "Art. 2 ust. 1 pkt 5-6 ustawy o zawodzie tłumacza przysięgłego: \"ukończyła studia wyższe\"; \"złożyła z wynikiem pozytywnym egzamin z umiejętności tłumaczenia z języka polskiego na język obcy oraz z języka obcego na język polski\".",
+  "uwagi": "Poziom \"magister\" zawyża wymóg."
+ },
+ {
+  "id": "policjant",
+  "pole": "education.level",
+  "obecnaWartosc": "średnie (minimum) + szkolenie policyjne",
+  "status": "ok",
+  "proponowanaWartosc": "średnie (minimum)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/636/text.pdf",
+  "cytat": "Art. 25 ust. 1 ustawy o Policji: \"posiadający co najmniej wykształcenie średnie lub średnie branżowe\".",
+  "uwagi": "Zgodne."
+ },
+ {
+  "id": "policjant",
+  "pole": "skills.training[0].name",
+  "obecnaWartosc": "Szkolenie zawodowe podstawowe (6 miesięcy)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Szkolenie zawodowe podstawowe (6 miesięcy)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/636/text.pdf",
+  "cytat": "Art. 34c ust. 1: policjanta po przyjęciu do służby \"kieruje się na szkolenie zawodowe podstawowe\"; czas trwania nie jest w ustawie.",
+  "uwagi": "Czas wynika z aktu wykonawczego, którego w ELI nie znalazłam; \"6 miesięcy\" nie potwierdzone."
+ },
+ {
+  "id": "pielegniarka",
+  "pole": "skills.training[0].requirements",
+  "obecnaWartosc": "Prawo wykonywania zawodu pielęgniarki, minimum 2 lata stażu pracy",
+  "status": "ok",
+  "proponowanaWartosc": "Prawo wykonywania zawodu pielęgniarki, praca w zawodzie co najmniej 2 lata w ostatnich 5 latach",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/15/text.pdf",
+  "cytat": "Art. 67 ust. 4 ustawy o zawodach pielęgniarki i położnej: do specjalizacji mogą przystąpić osoby, które \"posiadają prawo wykonywania zawodu; pracowały w zawodzie co najmniej przez 2 lata w okresie ostatnich 5 lat\".",
+  "uwagi": "Zgodne; \"minimum 2 lata stażu pracy\" warto uściślić o okno 5 lat."
+ },
+ {
+  "id": "fizjoterapeuta",
+  "pole": "education.level",
+  "obecnaWartosc": "magister (jednolite 5-letnie od 2019)",
+  "status": "do poprawy",
+  "proponowanaWartosc": "magister (jednolite 5-letnie dla rozpoczynających po 1.10.2017)",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2026/584/text.pdf",
+  "cytat": "Art. 3 ust. 3 pkt 1 ustawy o zawodzie fizjoterapeuty: \"rozpoczęła po dniu 1 października 2017 r. jednolite 5-letnie studia wyższe w zakresie fizjoterapii [...] w tym co najmniej 160 punktów ECTS [...] oraz odbyła 6-miesięczną praktykę zawodową\".",
+  "uwagi": "Data \"od 2019\" nie odpowiada ustawie (próg 1.10.2017; od roku 2018/2019 obowiązuje standard z art. 68 PWSN)."
+ },
+ {
+  "id": "farmaceuta",
+  "pole": "education.level",
+  "obecnaWartosc": "magister (jednolite 5,5-letnie)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Do sprawdzenia: \"jednolite 5,5-letnie\"",
+  "zrodloUrl": "https://api.sejm.gov.pl/eli/acts/DU/2025/608/text.pdf",
+  "cytat": "Art. 5 ust. 1 pkt 1 ustawy o zawodzie farmaceuty: studia \"obejmujące sześciomiesięczną praktykę zawodową w aptece\"; poprzednie wymogi: \"co najmniej pięcioletnie studia\".",
+  "uwagi": "Ustawa nie podaje łącznej długości 5,5 roku (5 lat studiów w programie + 6 miesięcy praktyki to dopuszczalne podejście), więc zapis niepotwierdzony wprost."
+ },
+ {
+  "id": "programista-gier",
+  "pole": "skills.certifications[0].name",
+  "obecnaWartosc": "Unity Certified Developer",
+  "status": "do poprawy",
+  "proponowanaWartosc": "Unity Certified Associate: Game Developer lub Unity Certified Professional: Programmer",
+  "zrodloUrl": "https://unity.com/products/unity-certifications",
+  "cytat": "Strona Unity: poziomy \"Certified User: Programmer\", \"Certified Associate: Game Developer\", \"Certified Associate: Programmer\", \"Certified Professional: Programmer\"; certyfikatu \"Unity Certified Developer\" nie ma na liście.",
+  "uwagi": "Nazwa certyfikatu nie istnieje w aktualnej ofercie Unity."
+ },
+ {
+  "id": "data-scientist",
+  "pole": "skills.certifications[1].name",
+  "obecnaWartosc": "AWS Machine Learning Specialty",
+  "status": "ok",
+  "proponowanaWartosc": "AWS Certified Machine Learning - Specialty",
+  "zrodloUrl": "https://aws.amazon.com/certification/",
+  "cytat": "Strona AWS Certification wymienia \"AWS Certified Machine Learning - Specialty\"; notatka o wycofaniu dotyczy tylko \"AWS Certified Advanced Networking - Specialty (retires December 31, 2026)\".",
+  "uwagi": "Zgodne na 2026-10-03."
+ },
+ {
+  "id": "psychoterapeuta",
+  "pole": "skills.certifications[0].url",
+  "obecnaWartosc": "https://psych.org.pl",
+  "status": "ok",
+  "proponowanaWartosc": "https://psych.org.pl",
+  "zrodloUrl": "https://psych.org.pl/certyfikaty-i-rekomendacje/certyfikaty-psychoterapeutyczne",
+  "cytat": "Strona Polskiego Towarzystwa Psychologicznego: \"1250 godzin szkolenia teoretycznego i praktycznego w zakresie psychoterapii\", \"5 lat samodzielnej pracy psychoterapeutycznej [...] w tym co najmniej 300 godzin praktyki prowadzonej pod superwizją\", \"własna psychoterapia szkoleniowa [...] co najmniej 250 godzin\".",
+  "uwagi": "Link prowadzi do Polskiego Towarzystwa Psychologicznego (200)."
+ },
+ {
+  "id": "psycholog",
+  "pole": "skills.training[0].providers[1].url",
+  "obecnaWartosc": "https://www.kcp.krakow.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.kcp.krakow.pl",
+  "cytat": "curl: (60) SSL: no alternative certificate subject name matches target host name (sprawdzone 2026-10-03; wersja bez \"www\" też nie odpowiada)",
+  "uwagi": "Przeglądarka pokaże ostrzeżenie o certyfikacie albo strona nie działa; nie obchodzono zabezpieczeń. Zweryfikować aktualny adres organizatora."
+ },
+ {
+  "id": "psychoterapeuta",
+  "pole": "skills.training[0].providers[1].url",
+  "obecnaWartosc": "https://www.kcp.krakow.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.kcp.krakow.pl",
+  "cytat": "curl: (60) SSL: no alternative certificate subject name matches target host name (sprawdzone 2026-10-03; wersja bez \"www\" też nie odpowiada)",
+  "uwagi": "Przeglądarka pokaże ostrzeżenie o certyfikacie albo strona nie działa; nie obchodzono zabezpieczeń. Zweryfikować aktualny adres organizatora."
+ },
+ {
+  "id": "kucharz",
+  "pole": "skills.training[0].providers[0].url",
+  "obecnaWartosc": "https://www.zsg.edu.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.zsg.edu.pl",
+  "cytat": "curl: (60) SSL: no alternative certificate subject name matches target host name (sprawdzone 2026-10-03; wersja bez \"www\" też nie odpowiada)",
+  "uwagi": "Przeglądarka pokaże ostrzeżenie o certyfikacie albo strona nie działa; nie obchodzono zabezpieczeń. Zweryfikować aktualny adres organizatora."
+ },
+ {
+  "id": "cukiernik",
+  "pole": "skills.training[0].providers[0].url",
+  "obecnaWartosc": "https://www.zsg.edu.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.zsg.edu.pl",
+  "cytat": "curl: (60) SSL: no alternative certificate subject name matches target host name (sprawdzone 2026-10-03; wersja bez \"www\" też nie odpowiada)",
+  "uwagi": "Przeglądarka pokaże ostrzeżenie o certyfikacie albo strona nie działa; nie obchodzono zabezpieczeń. Zweryfikować aktualny adres organizatora."
+ },
+ {
+  "id": "psychoterapeuta",
+  "pole": "skills.training[0].providers[2].url",
+  "obecnaWartosc": "https://www.gestalt.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.gestalt.pl",
+  "cytat": "curl: (60) SSL: no alternative certificate subject name matches target host name (sprawdzone 2026-10-03; wersja bez \"www\" też nie odpowiada)",
+  "uwagi": "Przeglądarka pokaże ostrzeżenie o certyfikacie albo strona nie działa; nie obchodzono zabezpieczeń. Zweryfikować aktualny adres organizatora."
+ },
+ {
+  "id": "fryzjer",
+  "pole": "skills.certifications[0].url",
+  "obecnaWartosc": "https://www.irp-fundacja.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.irp-fundacja.pl",
+  "cytat": "curl: (60) SSL: no alternative certificate subject name matches target host name (sprawdzone 2026-10-03; wersja bez \"www\" też nie odpowiada)",
+  "uwagi": "Przeglądarka pokaże ostrzeżenie o certyfikacie albo strona nie działa; nie obchodzono zabezpieczeń. Zweryfikować aktualny adres organizatora."
+ },
+ {
+  "id": "cukiernik",
+  "pole": "skills.certifications[0].url",
+  "obecnaWartosc": "https://www.irp-fundacja.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.irp-fundacja.pl",
+  "cytat": "curl: (60) SSL: no alternative certificate subject name matches target host name (sprawdzone 2026-10-03; wersja bez \"www\" też nie odpowiada)",
+  "uwagi": "Przeglądarka pokaże ostrzeżenie o certyfikacie albo strona nie działa; nie obchodzono zabezpieczeń. Zweryfikować aktualny adres organizatora."
+ },
+ {
+  "id": "piekarz",
+  "pole": "skills.certifications[0].url",
+  "obecnaWartosc": "https://www.irp-fundacja.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.irp-fundacja.pl",
+  "cytat": "curl: (60) SSL: no alternative certificate subject name matches target host name (sprawdzone 2026-10-03; wersja bez \"www\" też nie odpowiada)",
+  "uwagi": "Przeglądarka pokaże ostrzeżenie o certyfikacie albo strona nie działa; nie obchodzono zabezpieczeń. Zweryfikować aktualny adres organizatora."
+ },
+ {
+  "id": "stolarz",
+  "pole": "skills.certifications[0].url",
+  "obecnaWartosc": "https://www.irp-fundacja.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.irp-fundacja.pl",
+  "cytat": "curl: (60) SSL: no alternative certificate subject name matches target host name (sprawdzone 2026-10-03; wersja bez \"www\" też nie odpowiada)",
+  "uwagi": "Przeglądarka pokaże ostrzeżenie o certyfikacie albo strona nie działa; nie obchodzono zabezpieczeń. Zweryfikować aktualny adres organizatora."
+ },
+ {
+  "id": "mechanik-samochodowy",
+  "pole": "skills.certifications[0].url",
+  "obecnaWartosc": "https://www.irp-fundacja.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.irp-fundacja.pl",
+  "cytat": "curl: (60) SSL: no alternative certificate subject name matches target host name (sprawdzone 2026-10-03; wersja bez \"www\" też nie odpowiada)",
+  "uwagi": "Przeglądarka pokaże ostrzeżenie o certyfikacie albo strona nie działa; nie obchodzono zabezpieczeń. Zweryfikować aktualny adres organizatora."
+ },
+ {
+  "id": "architekt-krajobrazu",
+  "pole": "skills.certifications[0].url",
+  "obecnaWartosc": "https://www.sak.org.pl",
+  "status": "do poprawy",
+  "proponowanaWartosc": "https://sak.org.pl",
+  "zrodloUrl": "https://sak.org.pl",
+  "cytat": "www.sak.org.pl: błąd certyfikatu (nazwa hosta); sak.org.pl: HTTP 200, tytuł \"Strona główna\".",
+  "uwagi": "Adres z \"www\" nie ma poprawnego certyfikatu."
+ },
+ {
+  "id": "analityk-danych",
+  "pole": "skills.training[0].providers[2].url",
+  "obecnaWartosc": "https://community.alteryx.com/t5/Learning-Resources/ct-p/alteryx-academy",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://community.alteryx.com/t5/Learning-Resources/ct-p/alteryx-academy",
+  "cytat": "Odpowiedź serwera: 403 (curl, 2026-10-03)",
+  "uwagi": "Brak możliwości automatycznej weryfikacji (blokada botów lub błąd serwera); nie obchodzono zabezpieczeń. Sprawdzić ręcznie w przeglądarce."
+ },
+ {
+  "id": "analityk-danych",
+  "pole": "skills.training[0].providers[1].url",
+  "obecnaWartosc": "https://www.datacamp.com",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.datacamp.com",
+  "cytat": "Odpowiedź serwera: 403 (curl, 2026-10-03)",
+  "uwagi": "Brak możliwości automatycznej weryfikacji (blokada botów lub błąd serwera); nie obchodzono zabezpieczeń. Sprawdzić ręcznie w przeglądarce."
+ },
+ {
+  "id": "strazak",
+  "pole": "skills.training[0].providers[0].url",
+  "obecnaWartosc": "https://www.sapsp.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.sapsp.pl",
+  "cytat": "Odpowiedź serwera: 403 (curl, 2026-10-03)",
+  "uwagi": "Brak możliwości automatycznej weryfikacji (blokada botów lub błąd serwera); nie obchodzono zabezpieczeń. Sprawdzić ręcznie w przeglądarce."
+ },
+ {
+  "id": "sedzia",
+  "pole": "skills.certifications[0].url",
+  "obecnaWartosc": "https://www.kssip.gov.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.kssip.gov.pl",
+  "cytat": "Odpowiedź serwera: 403 (curl, 2026-10-03)",
+  "uwagi": "Brak możliwości automatycznej weryfikacji (blokada botów lub błąd serwera); nie obchodzono zabezpieczeń. Sprawdzić ręcznie w przeglądarce."
+ },
+ {
+  "id": "sedzia",
+  "pole": "skills.training[0].providers[0].url",
+  "obecnaWartosc": "https://www.kssip.gov.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.kssip.gov.pl",
+  "cytat": "Odpowiedź serwera: 403 (curl, 2026-10-03)",
+  "uwagi": "Brak możliwości automatycznej weryfikacji (blokada botów lub błąd serwera); nie obchodzono zabezpieczeń. Sprawdzić ręcznie w przeglądarce."
+ },
+ {
+  "id": "prokurator",
+  "pole": "skills.certifications[0].url",
+  "obecnaWartosc": "https://www.kssip.gov.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.kssip.gov.pl",
+  "cytat": "Odpowiedź serwera: 403 (curl, 2026-10-03)",
+  "uwagi": "Brak możliwości automatycznej weryfikacji (blokada botów lub błąd serwera); nie obchodzono zabezpieczeń. Sprawdzić ręcznie w przeglądarce."
+ },
+ {
+  "id": "prokurator",
+  "pole": "skills.training[0].providers[0].url",
+  "obecnaWartosc": "https://www.kssip.gov.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.kssip.gov.pl",
+  "cytat": "Odpowiedź serwera: 403 (curl, 2026-10-03)",
+  "uwagi": "Brak możliwości automatycznej weryfikacji (blokada botów lub błąd serwera); nie obchodzono zabezpieczeń. Sprawdzić ręcznie w przeglądarce."
+ },
+ {
+  "id": "architekt-krajobrazu",
+  "pole": "skills.training[0].providers[1].url",
+  "obecnaWartosc": "https://www.upwr.edu.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.upwr.edu.pl",
+  "cytat": "Odpowiedź serwera: 503/403 (curl, 2026-10-03)",
+  "uwagi": "Brak możliwości automatycznej weryfikacji (blokada botów lub błąd serwera); nie obchodzono zabezpieczeń. Sprawdzić ręcznie w przeglądarce."
+ },
+ {
+  "id": "inzynier-mechanik",
+  "pole": "skills.certifications[0].url",
+  "obecnaWartosc": "https://www.solidworks.com/solidworks-certification-program",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.solidworks.com/solidworks-certification-program",
+  "cytat": "Odpowiedź serwera: błąd HTTP/2 (INTERNAL_ERROR) (curl, 2026-10-03)",
+  "uwagi": "Brak możliwości automatycznej weryfikacji (blokada botów lub błąd serwera); nie obchodzono zabezpieczeń. Sprawdzić ręcznie w przeglądarce."
+ },
+ {
+  "id": "programista-gier",
+  "pole": "skills.training[0].providers[1].url",
+  "obecnaWartosc": "https://www.us.edu.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.us.edu.pl",
+  "cytat": "Odpowiedź serwera: timeout 20 s (curl, 2026-10-03)",
+  "uwagi": "Brak możliwości automatycznej weryfikacji (blokada botów lub błąd serwera); nie obchodzono zabezpieczeń. Sprawdzić ręcznie w przeglądarce."
+ },
+ {
+  "id": "logopeda",
+  "pole": "skills.training[0].providers[2].url",
+  "obecnaWartosc": "https://www.us.edu.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.us.edu.pl",
+  "cytat": "Odpowiedź serwera: timeout 20 s (curl, 2026-10-03)",
+  "uwagi": "Brak możliwości automatycznej weryfikacji (blokada botów lub błąd serwera); nie obchodzono zabezpieczeń. Sprawdzić ręcznie w przeglądarce."
+ },
+ {
+  "id": "geodeta",
+  "pole": "skills.certifications[0].url",
+  "obecnaWartosc": "https://www.gugik.gov.pl",
+  "status": "do poprawy",
+  "proponowanaWartosc": "https://www.gov.pl/web/gugik",
+  "zrodloUrl": "https://www.gugik.gov.pl",
+  "cytat": "HTTP 200 po przekierowaniu na https://www.gov.pl/web/gugik (curl -L, 2026-10-03)",
+  "uwagi": "Link działa przez przekierowanie na inną domenę lub ścieżkę; zaktualizować na adres docelowy."
+ },
+ {
+  "id": "geodeta",
+  "pole": "skills.training[0].providers[0].url",
+  "obecnaWartosc": "https://www.gugik.gov.pl",
+  "status": "do poprawy",
+  "proponowanaWartosc": "https://www.gov.pl/web/gugik",
+  "zrodloUrl": "https://www.gugik.gov.pl",
+  "cytat": "HTTP 200 po przekierowaniu na https://www.gov.pl/web/gugik (curl -L, 2026-10-03)",
+  "uwagi": "Link działa przez przekierowanie na inną domenę lub ścieżkę; zaktualizować na adres docelowy."
+ },
+ {
+  "id": "specjalista-marketingu",
+  "pole": "skills.training[0].providers[0].url",
+  "obecnaWartosc": "https://learndigital.withgoogle.com",
+  "status": "do poprawy",
+  "proponowanaWartosc": "https://grow.google/intl/pl/",
+  "zrodloUrl": "https://learndigital.withgoogle.com",
+  "cytat": "HTTP 200 po przekierowaniu na https://grow.google/intl/pl/ (curl -L, 2026-10-03)",
+  "uwagi": "Link działa przez przekierowanie na inną domenę lub ścieżkę; zaktualizować na adres docelowy."
+ },
+ {
+  "id": "programista",
+  "pole": "skills.certifications[1].url",
+  "obecnaWartosc": "https://education.oracle.com",
+  "status": "do poprawy",
+  "proponowanaWartosc": "https://www.oracle.com/pl/education/",
+  "zrodloUrl": "https://education.oracle.com",
+  "cytat": "HTTP 200 po przekierowaniu na https://www.oracle.com/pl/education/ (curl -L, 2026-10-03)",
+  "uwagi": "Link działa przez przekierowanie na inną domenę lub ścieżkę; zaktualizować na adres docelowy."
+ },
+ {
+  "id": "fotograf",
+  "pole": "skills.training[0].providers[0].url",
+  "obecnaWartosc": "https://www.leica-camera.com/pl-PL/Leica-Akademie",
+  "status": "do poprawy",
+  "proponowanaWartosc": "https://leica-camera.com/pl-PL/akademie",
+  "zrodloUrl": "https://www.leica-camera.com/pl-PL/Leica-Akademie",
+  "cytat": "HTTP 200 po przekierowaniu na https://leica-camera.com/pl-PL/akademie (curl -L, 2026-10-03)",
+  "uwagi": "Link działa przez przekierowanie na inną domenę lub ścieżkę; zaktualizować na adres docelowy."
+ },
+ {
+  "id": "aktor",
+  "pole": "skills.certifications[0].url",
+  "obecnaWartosc": "https://www.at.edu.pl",
+  "status": "do poprawy",
+  "proponowanaWartosc": "https://akademia.at.edu.pl/",
+  "zrodloUrl": "https://www.at.edu.pl",
+  "cytat": "HTTP 200 po przekierowaniu na https://akademia.at.edu.pl/ (curl -L, 2026-10-03)",
+  "uwagi": "Link działa przez przekierowanie na inną domenę lub ścieżkę; zaktualizować na adres docelowy."
+ },
+ {
+  "id": "aktor",
+  "pole": "skills.training[0].providers[0].url",
+  "obecnaWartosc": "https://www.at.edu.pl",
+  "status": "do poprawy",
+  "proponowanaWartosc": "https://akademia.at.edu.pl/",
+  "zrodloUrl": "https://www.at.edu.pl",
+  "cytat": "HTTP 200 po przekierowaniu na https://akademia.at.edu.pl/ (curl -L, 2026-10-03)",
+  "uwagi": "Link działa przez przekierowanie na inną domenę lub ścieżkę; zaktualizować na adres docelowy."
+ },
+ {
+  "id": "pracownik-ochrony",
+  "pole": "skills.training[0].providers[0].url",
+  "obecnaWartosc": "https://www.ochrona-szkolenia.pl",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": null,
+  "zrodloUrl": "https://www.ochrona-szkolenia.pl",
+  "cytat": "Przekierowanie na https://www.ochrona-szkolenia-lublin.pl/ (HTTP 200).",
+  "uwagi": "Domena ogólnopolska przekierowuje do lokalnego ośrodka z Lublina; do ręcznej weryfikacji, czy to właściwy dostawca."
+ },
+ {
+  "id": "psycholog",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "12000 do 16000 zł/rok",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "programista",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "8000 do 15000 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "nauczyciel",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "3500 do 6000 zł (całość)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "grafik",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "2000 do 5000 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "analityk-danych",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "3000 do 8000 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "pielegniarka",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Finansowane przez MZ lub 2000 do 4000 zł (odpłatne edycje)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "fizjoterapeuta",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "2000 do 6000 zł (za kurs)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "ksiegowy",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "1500 do 4000 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "kucharz",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatne (szkoła publiczna) lub 3000 do 8000 zł/rok (szkoły prywatne)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "tester",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "2500 do 6000 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "fotograf",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "1500 do 4000 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "ratownik-medyczny",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "1500 do 3500 zł (za kurs)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "projektant-ux",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "3000 do 8000 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "elektryk",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "500 do 1200 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "dietetyk",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "1500 do 4000 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "specjalista-cyberbezpieczenstwa",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "5000 do 12000 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "data-scientist",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "8000 do 18000 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "devops-engineer",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "4000 do 10000 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "administrator-systemow",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "3000 do 8000 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "technik-informatyk",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatne (szkoły publiczne) lub 2000 do 4000 zł (szkoły prywatne)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "programista-gier",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "6000 do 12000 zł (2 semestry)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "ekonomista",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "5000 do 9000 zł (2 semestry)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "doradca-finansowy",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "3000 do 7000 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "specjalista-hr",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "5000 do 8000 zł (2 semestry)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "specjalista-marketingu",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "2000 do 6000 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "specjalista-pr",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "2000 do 5000 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "psychoterapeuta",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "12000 do 18000 zł/rok",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "pracownik-ochrony",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "2000 do 3500 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "aktor",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "1000 do 3000 zł (za cykl warsztatów)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "muzyk",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatne (studia stacjonarne) lub 3000 do 6000 zł/semestr (niestacjonarne)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "rezyser-filmowy",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "2000 do 5000 zł (warsztaty) lub bezpłatne (studia stacjonarne)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "architekt-wnetrz",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "6000 do 10000 zł (2 semestry)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "projektant-mody",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "4000 do 8000 zł/semestr (uczelnie prywatne) lub bezpłatne (publiczne)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "pedagog",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "4000 do 7000 zł (3 semestry)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "logopeda",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatne (studia stacjonarne) lub 4000 do 6000 zł/semestr (podyplomowe)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "fryzjer",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatne (szkoła publiczna) lub 2000 do 5000 zł (kursy prywatne)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "kosmetyczka",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "1500 do 4000 zł (za szkolenie)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "cukiernik",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatne (szkoła publiczna) lub 3000 do 6000 zł/rok (szkoły prywatne)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "piekarz",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatne (szkoła publiczna) lub 2500 do 5000 zł/rok (szkoły prywatne)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "barista",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "800 do 2500 zł (za poziom)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "pilot-wycieczek",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "1500 do 3000 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "stolarz",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatne (szkoła publiczna) lub 3000 do 5000 zł/rok (szkoły prywatne)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "inzynier-mechanik",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "2500 do 6000 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "urbanista",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "5000 do 8000 zł (2 semestry)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "mechanik-samochodowy",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "1500 do 4000 zł (za szkolenie)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "spawacz",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "2000 do 4000 zł (za metodę)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "kartograf",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "2000 do 5000 zł",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "architekt-krajobrazu",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatne (studia stacjonarne) lub 3500 do 5000 zł/semestr (niestacjonarne)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "rolnik",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatne (kursy KCDR) lub 2000 do 4000 zł (szkolenia komercyjne)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "ogrodnik",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatne (szkoła publiczna) lub 1500 do 3000 zł (kursy prywatne)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "inzynier-srodowiska",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "5000 do 8000 zł (2 semestry)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ },
+ {
+  "id": "technik-weterynarii",
+  "pole": "skills.training[0].price",
+  "obecnaWartosc": "Bezpłatne (szkoła publiczna) lub 4000 do 6000 zł/rok (szkoły prywatne)",
+  "status": "niepotwierdzone",
+  "proponowanaWartosc": "Usunąć kwotę albo podać źródło i datę (np. oferta organizatora z datą odczytu)",
+  "zrodloUrl": null,
+  "cytat": null,
+  "uwagi": "Kwota rynkowa bez źródła i daty w danych; nie znaleziono oficjalnego źródła, które by ją potwierdzało (ceny zależą od dostawcy i roku)."
+ }
+]

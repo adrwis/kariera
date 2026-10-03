@@ -34,7 +34,7 @@
       ],
       "training": [
         {
-          "name": "4-letnie szkolenie psychoterapeutyczne",
+          "name": "Szkolenie psychoterapeutyczne (dobrowolne, dla psychologów chcących prowadzić psychoterapię)",
           "providers": [
             {
               "name": "Szkoła Psychoterapii przy SWPS",
@@ -45,9 +45,8 @@
               "url": "https://www.kcp.krakow.pl"
             }
           ],
-          "description": "Kompleksowe szkolenie obejmujące teorię i praktykę psychoterapii. Uczestnicy poznają główne nurty terapeutyczne, uczą się prowadzenia sesji indywidualnych i grupowych oraz superwizji klinicznej. Program zakończony certyfikatem uprawniającym do samodzielnej praktyki.",
-          "requirements": "Dyplom magistra psychologii lub medycyny",
-          "price": "12000 do 16000 zł/rok"
+          "description": "Kompleksowe szkolenie obejmujące teorię i praktykę psychoterapii. Uczestnicy poznają główne nurty terapeutyczne, uczą się prowadzenia sesji indywidualnych i grupowych oraz superwizji klinicznej. Certyfikat towarzystwa naukowego nie jest warunkiem prowadzenia praktyki.",
+          "requirements": "Dyplom magistra psychologii lub medycyny"
         }
       ],
       "soft": [
@@ -1029,12 +1028,12 @@
         },
         {
           "name": "Oracle Certified Professional Java",
-          "url": "https://education.oracle.com"
+          "url": "https://www.oracle.com/pl/education/"
         }
       ],
       "training": [
         {
-          "name": "Bootcampy programistyczne (3-6 miesięcy)",
+          "name": "Bootcampy programistyczne (3 do 6 miesięcy)",
           "providers": [
             {
               "name": "Kodilla",
@@ -1046,8 +1045,7 @@
             }
           ],
           "description": "Intensywne kursy programowania obejmujące naukę języków programowania, frameworków webowych i narzędzi deweloperskich. Uczestnicy realizują projekty praktyczne i budują portfolio. Program przygotowuje do podjęcia pierwszej pracy jako junior developer.",
-          "requirements": "Brak wymagań formalnych, podstawowa znajomość obsługi komputera",
-          "price": "8000 do 15000 zł"
+          "requirements": "Brak wymagań formalnych, podstawowa znajomość obsługi komputera"
         }
       ],
       "soft": [
@@ -2553,12 +2551,12 @@
               "url": "https://www.cmkp.edu.pl"
             }
           ],
-          "description": "Obowiązkowy staż kliniczny po ukończeniu studiów medycznych, odbywany w szpitalach klinicznych. Obejmuje rotacje na oddziałach internistycznych, chirurgicznych, pediatrycznych i ginekologicznych. Kończy się egzaminem LEK.",
+          "description": "Obowiązkowy staż kliniczny po ukończeniu studiów medycznych, odbywany w szpitalach klinicznych. Obejmuje rotacje na oddziałach internistycznych, chirurgicznych, pediatrycznych i ginekologicznych.",
           "requirements": "Dyplom lekarza (ukończone 6-letnie studia medyczne)",
-          "price": "Finansowany przez MZ (stypendium ~4000 zł/mies.)"
+          "price": "Umowa o pracę na czas określony, zasadnicze wynagrodzenie stażysty 8 458 zł brutto miesięcznie od 1.07.2026"
         },
         {
-          "name": "Specjalizacja lekarska (4-6 lat)",
+          "name": "Specjalizacja lekarska (4 do 6 lat)",
           "providers": [
             {
               "name": "CMKP",
@@ -2567,7 +2565,7 @@
           ],
           "description": "Wieloletni program szkolenia specjalizacyjnego w wybranej dziedzinie medycyny. Obejmuje pracę kliniczną pod nadzorem specjalistów, kursy specjalizacyjne oraz realizację programu naukowego. Kończy się Państwowym Egzaminem Specjalizacyjnym (PES).",
           "requirements": "Prawo wykonywania zawodu lekarza, zdany LEK",
-          "price": "Finansowany w trybie rezydenckim (wynagrodzenie ~6000 do 8000 zł/mies.)"
+          "price": "Rezydentura: wynagrodzenie zasadnicze od 10 595,24 zł do 12 714,29 zł brutto miesięcznie (od 1.07.2026, zależnie od dziedziny i etapu)"
         }
       ],
       "soft": [
@@ -3452,22 +3450,21 @@
     "skills": {
       "certifications": [
         {
-          "name": "Uprawnienia budowlane (PIIB)",
-          "url": "https://www.piib.org.pl"
+          "name": "Uprawnienia budowlane w specjalności architektonicznej (Izba Architektów RP)",
+          "url": "https://www.izbaarchitektow.pl"
         }
       ],
       "training": [
         {
-          "name": "Praktyka zawodowa (1-1,5 roku)",
+          "name": "Praktyka zawodowa (min. 2 lata: 1 rok przy projektowaniu i 1 rok na budowie)",
           "providers": [
             {
               "name": "Pracownie architektoniczne",
               "url": "https://www.izbaarchitektow.pl"
             }
           ],
-          "description": "Obowiązkowa praktyka zawodowa pod nadzorem uprawnionego architekta, wymagana do uzyskania uprawnień budowlanych. Obejmuje udział w projektowaniu i nadzorze budowlanym. Dokumentowana w książce praktyk zawodowych.",
-          "requirements": "Dyplom magistra inżyniera architektury",
-          "price": "Bezpłatna (realizowana w ramach zatrudnienia)"
+          "description": "Obowiązkowa praktyka zawodowa pod nadzorem uprawnionego architekta, wymagana do uzyskania uprawnień budowlanych. Obejmuje udział w projektowaniu i nadzorze budowlanym. Odbycie praktyki potwierdza oświadczenie osoby z uprawnieniami, wpisanej na listę członków izby.",
+          "requirements": "Dyplom magistra inżyniera architektury"
         }
       ],
       "soft": [
@@ -4150,8 +4147,7 @@
             }
           ],
           "description": "Studia przygotowujące do wykonywania zawodu nauczyciela, obejmujące pedagogikę, dydaktykę przedmiotową i psychologię rozwojową. Uczestnicy odbywają praktyki w szkołach i uczą się planowania zajęć. Program trwa zazwyczaj 3 semestry.",
-          "requirements": "Dyplom ukończenia studiów wyższych (dowolny kierunek)",
-          "price": "3500 do 6000 zł (całość)"
+          "requirements": "Dyplom ukończenia studiów wyższych (dowolny kierunek)"
         },
         {
           "name": "Awans zawodowy nauczyciela (Karta Nauczyciela)",
@@ -5051,8 +5047,7 @@
             }
           ],
           "description": "Szkolenia z obsługi profesjonalnych programów graficznych (Adobe Photoshop, Illustrator, InDesign). Uczestnicy uczą się projektowania materiałów drukowanych, identyfikacji wizualnej i grafiki cyfrowej. Kursy prowadzone są w formie stacjonarnej i online.",
-          "requirements": "Brak wymagań formalnych",
-          "price": "2000 do 5000 zł"
+          "requirements": "Brak wymagań formalnych"
         }
       ],
       "soft": [
@@ -5529,7 +5524,7 @@
           ],
           "description": "Trzyletnia aplikacja przygotowująca do wykonywania zawodu adwokata. Obejmuje zajęcia teoretyczne, praktykę w kancelariach i sądach oraz patronat doświadczonego adwokata. Kończy się egzaminem adwokackim.",
           "requirements": "Dyplom magistra prawa",
-          "price": "5500 zł/rok (opłata za szkolenie ORA)"
+          "price": "6500 zł/rok (opłata roczna za aplikację adwokacką od 1.01.2026)"
         },
         {
           "name": "Aplikacja radcowska (3 lata)",
@@ -5541,7 +5536,7 @@
           ],
           "description": "Trzyletnia aplikacja przygotowująca do zawodu radcy prawnego. Program obejmuje szkolenie teoretyczne i praktyczne z zakresu prawa cywilnego, karnego, administracyjnego i gospodarczego. Kończy się egzaminem radcowskim.",
           "requirements": "Dyplom magistra prawa",
-          "price": "5500 zł/rok (opłata za szkolenie OIRP)"
+          "price": "6500 zł/rok (opłata roczna za aplikację radcowską od 1.01.2026)"
         }
       ],
       "soft": [
@@ -6417,8 +6412,7 @@
             }
           ],
           "description": "Szkolenia z narzędzi analitycznych (Python, R, SQL, Power BI, Tableau) oraz metod statystycznych. Uczestnicy uczą się eksploracji danych, wizualizacji i tworzenia raportów biznesowych. Kursy obejmują projekty na rzeczywistych zbiorach danych.",
-          "requirements": "Brak wymagań formalnych, przydatna znajomość Excela",
-          "price": "3000 do 8000 zł"
+          "requirements": "Brak wymagań formalnych, przydatna znajomość Excela"
         }
       ],
       "soft": [
@@ -7814,8 +7808,7 @@
             }
           ],
           "description": "Specjalizacje pielęgniarskie w dziedzinach takich jak anestezjologia, chirurgia, pediatria czy psychiatria. Program obejmuje zajęcia teoretyczne i staże kliniczne. Ukończenie uprawnia do pracy na stanowisku pielęgniarki specjalisty.",
-          "requirements": "Prawo wykonywania zawodu pielęgniarki, minimum 2 lata stażu pracy",
-          "price": "Finansowane przez MZ lub 2000 do 4000 zł (odpłatne edycje)"
+          "requirements": "Prawo wykonywania zawodu pielęgniarki, minimum 2 lata stażu pracy"
         }
       ],
       "soft": [
@@ -9093,8 +9086,7 @@
             }
           ],
           "description": "Zaawansowane szkolenia z technik fizjoterapeutycznych: terapia manualna, metoda McKenzie, proprioceptywne nerwowo-mięśniowe torowanie (PNF). Kursy prowadzone przez certyfikowanych instruktorów z naciskiem na praktykę kliniczną.",
-          "requirements": "Dyplom magistra fizjoterapii, prawo wykonywania zawodu",
-          "price": "2000 do 6000 zł (za kurs)"
+          "requirements": "Dyplom magistra fizjoterapii, prawo wykonywania zawodu"
         }
       ],
       "soft": [
@@ -9109,7 +9101,7 @@
       ]
     },
     "education": {
-      "level": "magister (jednolite 5-letnie od 2019)",
+      "level": "magister (jednolite 5-letnie dla rozpoczynających po 1.10.2017)",
       "fields": [
         "Fizjoterapia"
       ],
@@ -9878,8 +9870,7 @@
             }
           ],
           "description": "Szkolenia z rachunkowości na różnych poziomach zaawansowania, od podstaw księgowości po pełną księgowość i bilansistę. Uczestnicy poznają zasady prowadzenia ksiąg rachunkowych, rozliczeń podatkowych i sporządzania sprawozdań finansowych.",
-          "requirements": "Brak wymagań formalnych (wykształcenie średnie zalecane)",
-          "price": "1500 do 4000 zł"
+          "requirements": "Brak wymagań formalnych (wykształcenie średnie zalecane)"
         }
       ],
       "soft": [
@@ -10713,8 +10704,7 @@
             }
           ],
           "description": "Szkolenie zawodowe obejmujące techniki gotowania, piekarnictwo, cukiernictwo oraz zasady HACCP. Uczniowie poznają kuchnie świata, planowanie menu i organizację pracy w kuchni. Program zakończony egzaminem zawodowym.",
-          "requirements": "Ukończona szkoła podstawowa",
-          "price": "Bezpłatne (szkoła publiczna) lub 3000 do 8000 zł/rok (szkoły prywatne)"
+          "requirements": "Ukończona szkoła podstawowa"
         }
       ],
       "soft": [
@@ -10911,8 +10901,7 @@
             }
           ],
           "description": "Szkolenia przygotowujące do pracy testera QA, obejmujące testowanie manualne i automatyczne, pisanie przypadków testowych oraz zarządzanie defektami. Program przygotowuje do egzaminu ISTQB Foundation Level.",
-          "requirements": "Brak wymagań formalnych",
-          "price": "2500 do 6000 zł"
+          "requirements": "Brak wymagań formalnych"
         }
       ],
       "soft": [
@@ -12948,12 +12937,11 @@
           "providers": [
             {
               "name": "Leica Academy",
-              "url": "https://www.leica-camera.com/pl-PL/Leica-Akademie"
+              "url": "https://leica-camera.com/pl-PL/akademie"
             }
           ],
           "description": "Szkolenia z technik fotograficznych: ekspozycja, kompozycja, oświetlenie studyjne i naturalne. Uczestnicy uczą się obróbki zdjęć w Lightroom i Photoshop oraz budowania portfolio. Kursy prowadzone stacjonarnie i online.",
-          "requirements": "Brak wymagań formalnych, własny aparat fotograficzny",
-          "price": "1500 do 4000 zł"
+          "requirements": "Brak wymagań formalnych, własny aparat fotograficzny"
         }
       ],
       "soft": [
@@ -13902,8 +13890,7 @@
             }
           ],
           "description": "Zaawansowane kursy ratownictwa medycznego: ALS (zaawansowane zabiegi resuscytacyjne), ITLS/PHTLS (opieka przedszpitalna w urazach). Szkolenia prowadzone na fantomach i w symulacjach klinicznych z certyfikacją międzynarodową.",
-          "requirements": "Dyplom ratownika medycznego lub lekarza",
-          "price": "1500 do 3500 zł (za kurs)"
+          "requirements": "Dyplom ratownika medycznego lub lekarza"
         }
       ],
       "soft": [
@@ -14479,8 +14466,7 @@
             }
           ],
           "description": "Szkolenia z projektowania interfejsów użytkownika i doświadczeń cyfrowych. Obejmują badania użytkowników, prototypowanie w Figma, design systemy i testowanie użyteczności. Program łączy teorię z realizacją projektów praktycznych.",
-          "requirements": "Brak wymagań formalnych",
-          "price": "3000 do 8000 zł"
+          "requirements": "Brak wymagań formalnych"
         }
       ],
       "soft": [
@@ -14705,8 +14691,7 @@
             }
           ],
           "description": "Szkolenie przygotowujące do egzaminu na uprawnienia SEP (Stowarzyszenie Elektryków Polskich) w zakresie eksploatacji i dozoru urządzeń elektrycznych. Obejmuje przepisy, zasady BHP oraz obsługę instalacji do 1 kV i powyżej.",
-          "requirements": "Ukończone 18 lat, podstawowa wiedza z elektrotechniki",
-          "price": "500 do 1200 zł"
+          "requirements": "Ukończone 18 lat, podstawowa wiedza z elektrotechniki"
         }
       ],
       "soft": [
@@ -15429,8 +15414,7 @@
             }
           ],
           "description": "Szkolenie podstawowe Państwowej Straży Pożarnej obejmujące taktykę gaszenia pożarów, ratownictwo techniczne i medyczne, obsługę sprzętu gaśniczego oraz kondycję fizyczną. Trwa około 6 miesięcy w szkołach PSP.",
-          "requirements": "Przyjęcie do służby w PSP (obywatelstwo PL, sprawność fizyczna, niekaralność)",
-          "price": "Bezpłatne (w ramach służby, z wynagrodzeniem ~3800 zł/mies.)"
+          "requirements": "Przyjęcie do służby w PSP (obywatelstwo PL, sprawność fizyczna, niekaralność)"
         }
       ],
       "soft": [
@@ -15635,8 +15619,7 @@
             }
           ],
           "description": "Szkolenia specjalizacyjne z dietetyki sportowej, klinicznej i pediatrycznej. Uczestnicy uczą się układania planów żywieniowych, suplementacji oraz pracy z pacjentami z chorobami metabolicznymi. Prowadzone przez dietetyków klinicznych i lekarzy.",
-          "requirements": "Dyplom dietetyka lub studenta ostatniego roku dietetyki",
-          "price": "1500 do 4000 zł"
+          "requirements": "Dyplom dietetyka lub studenta ostatniego roku dietetyki"
         }
       ],
       "soft": [
@@ -16562,7 +16545,7 @@
       ]
     },
     "education": {
-      "level": "magister",
+      "level": "wyższe wykształcenie (nie musi być magisterskie) i egzamin na tłumacza przysięgłego",
       "fields": [
         "Filologia",
         "Lingwistyka stosowana",
@@ -17983,8 +17966,7 @@
             }
           ],
           "description": "Zaawansowane szkolenia z bezpieczeństwa sieci, testów penetracyjnych, analizy malware i reagowania na incydenty. Przygotowują do certyfikacji CompTIA Security+, CEH i CISSP. Łączą teorię z laboratoriami praktycznymi.",
-          "requirements": "Podstawowa znajomość sieci komputerowych i systemów operacyjnych",
-          "price": "5000 do 12000 zł"
+          "requirements": "Podstawowa znajomość sieci komputerowych i systemów operacyjnych"
         }
       ],
       "soft": [
@@ -18596,8 +18578,7 @@
             }
           ],
           "description": "Intensywne programy szkoleniowe z zakresu uczenia maszynowego, statystyki, programowania w Python i R oraz wizualizacji danych. Uczestnicy realizują projekty end-to-end na rzeczywistych danych. Trwają zazwyczaj 3 do 6 miesięcy.",
-          "requirements": "Podstawowa znajomość programowania i matematyki",
-          "price": "8000 do 18000 zł"
+          "requirements": "Podstawowa znajomość programowania i matematyki"
         }
       ],
       "soft": [
@@ -19590,8 +19571,7 @@
             }
           ],
           "description": "Szkolenia z narzędzi i praktyk DevOps: Docker, Kubernetes, CI/CD, Terraform oraz platform chmurowych AWS/Azure/GCP. Uczestnicy uczą się automatyzacji infrastruktury i procesów wdrożeniowych. Przygotowują do certyfikacji chmurowych.",
-          "requirements": "Znajomość Linux, sieci i podstaw programowania",
-          "price": "4000 do 10000 zł"
+          "requirements": "Znajomość Linux, sieci i podstaw programowania"
         }
       ],
       "soft": [
@@ -20925,8 +20905,7 @@
             }
           ],
           "description": "Szkolenia z zarządzania serwerami Windows i Linux, wirtualizacją, sieciami i usługami katalogowymi. Obejmują konfigurację, monitoring, backup i bezpieczeństwo systemów. Przygotowują do certyfikacji MCSA, RHCSA, CompTIA Server+.",
-          "requirements": "Podstawowa znajomość systemów operacyjnych i sieci",
-          "price": "3000 do 8000 zł"
+          "requirements": "Podstawowa znajomość systemów operacyjnych i sieci"
         }
       ],
       "soft": [
@@ -22170,8 +22149,7 @@
             }
           ],
           "description": "Kursy kwalifikacyjne w zakresie montażu i eksploatacji systemów komputerowych (EE.08) oraz programowania i tworzenia stron WWW (EE.09). Przygotowują do egzaminów potwierdzających kwalifikacje zawodowe w technikum informatycznym.",
-          "requirements": "Ukończona szkoła podstawowa (minimum 18 lat)",
-          "price": "Bezpłatne (szkoły publiczne) lub 2000 do 4000 zł (szkoły prywatne)"
+          "requirements": "Ukończona szkoła podstawowa (minimum 18 lat)"
         }
       ],
       "soft": [
@@ -23335,7 +23313,7 @@
     "skills": {
       "certifications": [
         {
-          "name": "Unity Certified Developer",
+          "name": "Unity Certified Associate: Game Developer lub Unity Certified Professional: Programmer",
           "url": "https://unity.com/products/unity-certifications"
         }
       ],
@@ -23353,8 +23331,7 @@
             }
           ],
           "description": "Studia podyplomowe z tworzenia gier komputerowych obejmujące programowanie w Unity i Unreal Engine, projektowanie gameplayu, grafikę 3D i dźwięk w grach. Uczestnicy tworzą własne prototypy gier w zespołach projektowych.",
-          "requirements": "Dyplom ukończenia studiów wyższych (preferowane informatyka/grafika)",
-          "price": "6000 do 12000 zł (2 semestry)"
+          "requirements": "Dyplom ukończenia studiów wyższych (preferowane informatyka/grafika)"
         }
       ],
       "soft": [
@@ -24426,8 +24403,7 @@
             }
           ],
           "description": "Studia podyplomowe rozwijające kompetencje w zakresie analizy makroekonomicznej, prognozowania gospodarczego i modelowania ekonometrycznego. Uczestnicy poznają zaawansowane narzędzia analityczne i metody oceny polityki gospodarczej.",
-          "requirements": "Dyplom ukończenia studiów wyższych (preferowane ekonomia, finanse)",
-          "price": "5000 do 9000 zł (2 semestry)"
+          "requirements": "Dyplom ukończenia studiów wyższych (preferowane ekonomia, finanse)"
         }
       ],
       "soft": [
@@ -25395,8 +25371,7 @@
             }
           ],
           "description": "Szkolenia z planowania finansowego, zarządzania portfelem inwestycyjnym, ubezpieczeń i produktów bankowych. Przygotowują do egzaminów certyfikacyjnych EFP i EFA. Obejmują analizę rynków finansowych i etykę doradztwa.",
-          "requirements": "Wykształcenie wyższe (preferowane ekonomia, finanse)",
-          "price": "3000 do 7000 zł"
+          "requirements": "Wykształcenie wyższe (preferowane ekonomia, finanse)"
         }
       ],
       "soft": [
@@ -26186,8 +26161,7 @@
             }
           ],
           "description": "Studia podyplomowe z zarządzania zasobami ludzkimi obejmujące rekrutację, szkolenia, systemy motywacyjne, prawo pracy i HR analytics. Uczestnicy poznają nowoczesne narzędzia HR i strategie employer brandingu.",
-          "requirements": "Dyplom ukończenia studiów wyższych (dowolny kierunek)",
-          "price": "5000 do 8000 zł (2 semestry)"
+          "requirements": "Dyplom ukończenia studiów wyższych (dowolny kierunek)"
         }
       ],
       "soft": [
@@ -27284,7 +27258,7 @@
           "providers": [
             {
               "name": "Google Digital Garage",
-              "url": "https://learndigital.withgoogle.com"
+              "url": "https://grow.google/intl/pl/"
             },
             {
               "name": "Akademia SAR",
@@ -27292,8 +27266,7 @@
             }
           ],
           "description": "Szkolenia z marketingu cyfrowego obejmujące SEO, Google Ads, social media marketing, content marketing i email marketing. Uczestnicy uczą się planowania kampanii, analityki webowej i optymalizacji konwersji. Prowadzone przez praktyków branży.",
-          "requirements": "Brak wymagań formalnych",
-          "price": "2000 do 6000 zł"
+          "requirements": "Brak wymagań formalnych"
         }
       ],
       "soft": [
@@ -28164,8 +28137,7 @@
             }
           ],
           "description": "Szkolenia z public relations, komunikacji korporacyjnej i zarządzania kryzysowego. Uczestnicy uczą się tworzenia strategii komunikacyjnych, relacji z mediami, organizacji eventów i monitoringu wizerunku marki.",
-          "requirements": "Brak wymagań formalnych (przydatne wykształcenie humanistyczne)",
-          "price": "2000 do 5000 zł"
+          "requirements": "Brak wymagań formalnych (przydatne wykształcenie humanistyczne)"
         }
       ],
       "soft": [
@@ -29023,7 +28995,7 @@
           ],
           "description": "Przygotowanie do egzaminu państwowego przeprowadzanego przez Komisję Egzaminacyjną przy MF. Obejmuje prawo podatkowe, rachunkowość, postępowanie administracyjne i sądowoadministracyjne. Egzamin składa się z części pisemnej i ustnej.",
           "requirements": "Wykształcenie wyższe, pełna zdolność do czynności prawnych, niekaralność",
-          "price": "3000 do 6000 zł (kurs przygotowawczy) + 900 zł (opłata egzaminacyjna)"
+          "price": "Egzamin od 1.07.2026: ok. 3 363 zł łącznie (opłata wstępna 480 zł, część pisemna 1 201 zł, ustna 1 682 zł; wyliczenie z przepisów) plus kurs przygotowawczy według oferty"
         }
       ],
       "soft": [
@@ -29038,7 +29010,7 @@
       ]
     },
     "education": {
-      "level": "magister",
+      "level": "wyższe wykształcenie (dowolny kierunek, także licencjat)",
       "fields": [
         "Prawo",
         "Finanse i rachunkowość",
@@ -29980,9 +29952,8 @@
               "url": "https://www.pibr.org.pl/pl/egzaminy"
             }
           ],
-          "description": "Wieloetapowy proces kwalifikacyjny obejmujący 10 egzaminów z zakresu rachunkowości, rewizji finansowej, prawa i podatków. Obejmuje też praktyki i aplikacji rewizorskiej. Prowadzony przez Polską Izbę Biegłych Rewidentów.",
-          "requirements": "Wykształcenie wyższe, 3 lata praktyki w rachunkowości",
-          "price": "8000 do 15000 zł (kursy przygotowawcze) + 4000 zł (opłaty egzaminacyjne)"
+          "description": "Wieloetapowy proces kwalifikacyjny obejmujący egzaminy z 10 tematów (rachunkowość, rewizja finansowa, prawo, podatki) oraz egzamin dyplomowy. Obejmuje też praktyki i aplikacji rewizorskiej. Prowadzony przez Polską Izbę Biegłych Rewidentów.",
+          "requirements": "Dyplom ukończenia studiów (art. 4 ust. 2 pkt 4 ustawy), 3-letnia aplikacja w firmie audytorskiej albo roczna praktyka w rachunkowości plus min. 2-letnia aplikacja; pozytywne egzaminy przed Komisją"
         }
       ],
       "soft": [
@@ -30724,7 +30695,7 @@
       "psychoterapeuta humanistyczny"
     ],
     "shortDescription": "Prowadzi regularne spotkania terapeutyczne z osobami w depresji, lęku, po traumie lub w kryzysie.",
-    "fullDescription": "Psychoterapeuta pomaga ludziom poradzić sobie z depresją, lękiem, traumą i kryzysami życiowymi. Prowadzi terapię indywidualną, par lub grupową w wybranym nurcie, np. poznawczo-behawioralnym albo psychodynamicznym. Pracuje w gabinecie, poradni zdrowia psychicznego, szpitalu psychiatrycznym, ośrodku leczenia uzależnień albo prowadzi terapię online, a po studiach musi ukończyć 4-letnie szkolenie psychoterapeutyczne. Pacjenci opowiadają o najtrudniejszych sprawach, więc trzeba słuchać bardzo uważnie i z empatią, sesja po sesji.",
+    "fullDescription": "Psychoterapeuta pomaga ludziom poradzić sobie z depresją, lękiem, traumą i kryzysami życiowymi. Prowadzi terapię indywidualną, par lub grupową w wybranym nurcie, np. poznawczo-behawioralnym albo psychodynamicznym. Pracuje w gabinecie, poradni zdrowia psychicznego, szpitalu psychiatrycznym, ośrodku leczenia uzależnień albo prowadzi terapię online, a po studiach potrzebuje podyplomowego szkolenia psychoterapeutycznego (NFZ wymaga co najmniej 1200 godzin, zwykle trwa ono ok. 4 lat) i zwykle certyfikatu towarzystwa naukowego, choć sam zawód nie jest regulowany ustawą. Pacjenci opowiadają o najtrudniejszych sprawach, więc trzeba słuchać bardzo uważnie i z empatią, sesja po sesji.",
     "demand": "deficytowy",
     "category": "medycyna",
     "skills": {
@@ -30734,13 +30705,13 @@
           "url": "https://psych.org.pl"
         },
         {
-          "name": "Certyfikat EAPTI",
+          "name": "European Certificate for Psychotherapy (ECP), wydawany przez European Association for Psychotherapy",
           "url": "https://www.europsyche.org"
         }
       ],
       "training": [
         {
-          "name": "4-letnie szkolenie psychoterapeutyczne",
+          "name": "Szkolenie psychoterapeutyczne (min. 1200 godzin; zwykle ok. 4 lat)",
           "providers": [
             {
               "name": "SWPS",
@@ -30756,8 +30727,7 @@
             }
           ],
           "description": "Czteroletni program szkoleniowy obejmujący teorię psychoterapii, psychopatologię, praktykę kliniczną pod superwizją oraz terapię własną. Uczestnicy specjalizują się w wybranym nurcie (poznawczo-behawioralnym, psychodynamicznym, humanistycznym). Program akredytowany przez PTP.",
-          "requirements": "Dyplom magistra psychologii, medycyny lub pokrewnego kierunku",
-          "price": "12000 do 18000 zł/rok"
+          "requirements": "Dyplom magistra psychologii, medycyny lub pokrewnego kierunku"
         }
       ],
       "soft": [
@@ -31648,7 +31618,7 @@
       ],
       "training": [
         {
-          "name": "Rezydencja psychiatryczna (4-5 lat)",
+          "name": "Rezydentura psychiatryczna (5 lat)",
           "providers": [
             {
               "name": "IPiN Warszawa",
@@ -31661,7 +31631,7 @@
           ],
           "description": "Cztero-pięcioletni program specjalizacyjny z psychiatrii obejmujący diagnostykę zaburzeń psychicznych, farmakoterapię, psychoterapię i psychiatrię sądową. Rezydent pracuje na oddziałach stacjonarnych, w ambulatoriach i na dyżurach ostrej psychiatrii.",
           "requirements": "Prawo wykonywania zawodu lekarza, zdany LEK",
-          "price": "Finansowana (wynagrodzenie rezydenckie ~7000 do 9000 zł/mies.)"
+          "price": "Rezydentura (psychiatria to dziedzina priorytetowa): zasadnicze wynagrodzenie 11 654,76 zł brutto w pierwszych 2 latach, 12 714,29 zł po 2 latach (od 1.07.2026)"
         }
       ],
       "soft": [
@@ -32481,7 +32451,7 @@
       ],
       "training": [
         {
-          "name": "Rezydencja pediatryczna (4 lata)",
+          "name": "Rezydentura pediatryczna (5 lat)",
           "providers": [
             {
               "name": "WUM",
@@ -32498,7 +32468,7 @@
           ],
           "description": "Czteroletni program specjalizacyjny z pediatrii obejmujący diagnostykę i leczenie chorób dzieci i młodzieży. Obejmuje neonatologię, intensywną terapię dziecięcą, kardiologię i neurologię dziecięcą. Realizowany w klinikach dziecięcych.",
           "requirements": "Prawo wykonywania zawodu lekarza, zdany LEK",
-          "price": "Finansowana (wynagrodzenie rezydenckie ~7000 do 9000 zł/mies.)"
+          "price": "Rezydentura (pediatria to dziedzina priorytetowa): 11 654,76 zł brutto w pierwszych 2 latach, 12 714,29 zł po 2 latach (od 1.07.2026)"
         }
       ],
       "soft": [
@@ -33415,7 +33385,7 @@
       ],
       "training": [
         {
-          "name": "Rezydencja chirurgiczna (5-6 lat)",
+          "name": "Rezydentura chirurgiczna (6 lat)",
           "providers": [
             {
               "name": "WUM",
@@ -33432,7 +33402,7 @@
           ],
           "description": "Pięcio-sześcioletni program specjalizacyjny z chirurgii ogólnej. Obejmuje techniki operacyjne, chirurgię laparoskopową, urazową, onkologiczną i transplantacyjną. Rezydent asystuje i samodzielnie wykonuje zabiegi pod nadzorem specjalisty.",
           "requirements": "Prawo wykonywania zawodu lekarza, zdany LEK",
-          "price": "Finansowana (wynagrodzenie rezydenckie ~7000 do 9000 zł/mies.)"
+          "price": "Rezydentura (chirurgia ogólna to dziedzina priorytetowa): 11 654,76 zł brutto w pierwszych 2 latach, 12 714,29 zł po 2 latach (od 1.07.2026)"
         }
       ],
       "soft": [
@@ -34382,8 +34352,8 @@
             }
           ],
           "description": "Pięcioletni program specjalizacyjny z kardiologii obejmujący diagnostykę i leczenie chorób serca i naczyń. Obejmuje echokardiografię, koronarografię, elektrofizjologię i kardiochirurgię. Realizowany w ośrodkach referencyjnych.",
-          "requirements": "Prawo wykonywania zawodu lekarza, zdany LEK, specjalizacja z chorób wewnętrznych",
-          "price": "Finansowana (wynagrodzenie rezydenckie ~7000 do 9000 zł/mies.)"
+          "requirements": "Prawo wykonywania zawodu lekarza, zdany LEK; ukończony moduł podstawowy w chorobach wewnętrznych (2 lata) albo specjalizacja II stopnia/tytuł specjalisty z chorób wewnętrznych",
+          "price": "Rezydentura: 10 595,24 zł brutto w pierwszych 2 latach, 10 913,10 zł po 2 latach (od 1.07.2026); kardiologia nie jest na liście priorytetowej"
         }
       ],
       "soft": [
@@ -35302,9 +35272,9 @@
               "url": "https://www.kssip.gov.pl"
             }
           ],
-          "description": "Trzyletnia aplikacja sędziowska prowadzona przez KSSiP w Krakowie. Obejmuje zajęcia teoretyczne, praktyki w sądach różnych instancji i prokuraturach. Program zakończony egzaminem sędziowskim uprawniającym do ubiegania się o stanowisko sędziego.",
+          "description": "Trzyletnia aplikacja sędziowska prowadzona przez KSSiP w Krakowie i w Gdańsku (zjazdy)",
           "requirements": "Dyplom magistra prawa, zdany egzamin wstępny na aplikację",
-          "price": "Bezpłatna (z wynagrodzeniem ~4500 zł/mies. dla aplikantów)"
+          "price": "Bezpłatna; aplikant pobiera stypendium: 5 766 zł miesięcznie przez pierwsze 12 miesięcy i 6 366 zł później"
         }
       ],
       "soft": [
@@ -36150,7 +36120,7 @@
           ],
           "description": "Trzyletnia aplikacja prokuratorska prowadzona przez KSSiP. Obejmuje prawo karne materialne i procesowe, kryminalistykę, medycynę sądową oraz praktyki w prokuraturach. Kończy się egzaminem prokuratorskim.",
           "requirements": "Dyplom magistra prawa, zdany egzamin wstępny na aplikację",
-          "price": "Bezpłatna (z wynagrodzeniem ~4500 zł/mies. dla aplikantów)"
+          "price": "Bezpłatna; aplikant pobiera stypendium: 5 766 zł miesięcznie przez pierwsze 12 miesięcy i 6 366 zł później"
         }
       ],
       "soft": [
@@ -36988,7 +36958,7 @@
           ],
           "description": "Trzyipółletnia aplikacja notarialna obejmująca prawo cywilne, rodzinne, spadkowe, gospodarcze oraz technikę notarialną. Aplikant odbywa praktykę w kancelarii notarialnej pod patronatem notariusza. Kończy się egzaminem notarialnym.",
           "requirements": "Dyplom magistra prawa, zdany egzamin wstępny",
-          "price": "5000 zł/rok (opłata za szkolenie izby notarialnej)"
+          "price": "6500 zł/rok (opłata roczna za aplikację notarialną od 1.01.2026)"
         }
       ],
       "soft": [
@@ -37816,7 +37786,7 @@
           ],
           "description": "Dwuletnia aplikacja komornicza obejmująca prawo egzekucyjne, cywilne procesowe i ustrojowe. Aplikant odbywa praktykę w kancelarii komorniczej, uczestniczy w czynnościach egzekucyjnych. Kończy się egzaminem komorniczym.",
           "requirements": "Dyplom magistra prawa, zdany egzamin wstępny",
-          "price": "4000 zł/rok (opłata za szkolenie izby komorniczej)"
+          "price": "6500 zł/rok (opłata roczna za aplikację komorniczą od 1.01.2026)"
         }
       ],
       "soft": [
@@ -38636,7 +38606,7 @@
           ],
           "description": "Trzyletnia aplikacja adwokacka prowadzona przez Okręgową Radę Adwokacką. Obejmuje szkolenie z prawa cywilnego, karnego, administracyjnego, zasad etyki i prowadzenia kancelarii. Aplikant odbywa patronat u doświadczonego adwokata.",
           "requirements": "Dyplom magistra prawa, zdany egzamin wstępny na aplikację",
-          "price": "5800 zł/rok (opłata za szkolenie ORA)"
+          "price": "6500 zł/rok (opłata roczna za aplikację adwokacką od 1.01.2026)"
         }
       ],
       "soft": [
@@ -39770,7 +39740,7 @@
     "skills": {
       "certifications": [
         {
-          "name": "Licencja kwalifikowanego pracownika ochrony",
+          "name": "Wpis na listę kwalifikowanych pracowników ochrony fizycznej (prowadzi Komendant Główny Policji, wpisów dokonują komendanci wojewódzcy)",
           "url": "https://www.policja.pl"
         }
       ],
@@ -39784,8 +39754,7 @@
             }
           ],
           "description": "Szkolenie przygotowujące do uzyskania wpisu na listę kwalifikowanych pracowników ochrony. Obejmuje prawo, techniki interwencji, pierwszą pomoc, samoobrona i ochronę osób i mienia. Trwa ok. 245 godzin dydaktycznych.",
-          "requirements": "Ukończone 21 lat, wykształcenie co najmniej gimnazjalne/podstawowe, niekaralność",
-          "price": "2000 do 3500 zł"
+          "requirements": "Ukończone 21 lat, wykształcenie co najmniej gimnazjalne/podstawowe, niekaralność"
         }
       ],
       "soft": [
@@ -39800,7 +39769,7 @@
       ]
     },
     "education": {
-      "level": "średnie (minimum)",
+      "level": "co najmniej gimnazjum lub ośmioletnia szkoła podstawowa (średnie nie jest wymagane)",
       "fields": [
         "Bezpieczeństwo",
         "Kurs kwalifikacyjny"
@@ -39902,8 +39871,7 @@
             }
           ],
           "description": "Szkolenie podstawowe dla nowo przyjętych funkcjonariuszy Straży Granicznej. Obejmuje prawo graniczne, kontrolę dokumentów, języki obce, techniki interwencji i strzelectwo. Realizowane w Centrum Szkolenia SG w Kętrzynie.",
-          "requirements": "Przyjęcie do służby w SG (obywatelstwo PL, niekaralność, sprawność fizyczna)",
-          "price": "Bezpłatne (w ramach służby, z wynagrodzeniem ~3800 zł/mies.)"
+          "requirements": "Przyjęcie do służby w SG (obywatelstwo PL, niekaralność, sprawność fizyczna)"
         }
       ],
       "soft": [
@@ -40441,7 +40409,7 @@
       "certifications": [
         {
           "name": "Dyplom szkoły teatralnej",
-          "url": "https://www.at.edu.pl"
+          "url": "https://akademia.at.edu.pl/"
         }
       ],
       "training": [
@@ -40450,7 +40418,7 @@
           "providers": [
             {
               "name": "Akademia Teatralna Warszawa",
-              "url": "https://www.at.edu.pl"
+              "url": "https://akademia.at.edu.pl/"
             },
             {
               "name": "PWST Kraków",
@@ -40458,8 +40426,7 @@
             }
           ],
           "description": "Warsztaty rozwijające umiejętności sceniczne: techniki Stanisławskiego, Meisnera, improwizacja, praca z głosem i ciałem. Prowadzone przez profesjonalnych aktorów i reżyserów teatralnych. Dostępne dla amatorów i profesjonalistów.",
-          "requirements": "Brak wymagań formalnych",
-          "price": "1000 do 3000 zł (za cykl warsztatów)"
+          "requirements": "Brak wymagań formalnych"
         }
       ],
       "soft": [
@@ -40718,8 +40685,7 @@
             }
           ],
           "description": "Wyższe studia muzyczne na akademiach muzycznych obejmujące grę na instrumencie, teorię muzyki, harmonię, kontrapunkt, dyrygowanie i kameralistykę. Studenci regularnie występują na koncertach i konkursach. Studia trwają 5 lat (jednolite magisterskie).",
-          "requirements": "Zdany egzamin wstępny (przesłuchanie, sprawdzian z teorii muzyki)",
-          "price": "Bezpłatne (studia stacjonarne) lub 3000 do 6000 zł/semestr (niestacjonarne)"
+          "requirements": "Zdany egzamin wstępny (przesłuchanie, sprawdzian z teorii muzyki)"
         }
       ],
       "soft": [
@@ -41147,8 +41113,7 @@
             }
           ],
           "description": "Warsztaty i studia z zakresu reżyserii filmowej obejmujące dramaturgia filmową, praca z aktorem, montaż, zdjęcia i postprodukcja. Uczestnicy realizują etiudy i filmy krótkometrażowe. Prowadzone przez doświadczonych filmowców.",
-          "requirements": "Portfolio lub zdany egzamin wstępny (dla studiów)",
-          "price": "2000 do 5000 zł (warsztaty) lub bezpłatne (studia stacjonarne)"
+          "requirements": "Portfolio lub zdany egzamin wstępny (dla studiów)"
         }
       ],
       "soft": [
@@ -41379,8 +41344,7 @@
             }
           ],
           "description": "Studia podyplomowe rozwijające kompetencje w projektowaniu przestrzeni mieszkalnych i komercyjnych. Obejmują ergonomię, materiałoznawstwo, oświetlenie, programy CAD i wizualizację 3D. Program trwa 2 semestry.",
-          "requirements": "Dyplom ukończenia studiów wyższych (preferowane kierunki artystyczne/techniczne)",
-          "price": "6000 do 10000 zł (2 semestry)"
+          "requirements": "Dyplom ukończenia studiów wyższych (preferowane kierunki artystyczne/techniczne)"
         }
       ],
       "soft": [
@@ -41922,8 +41886,7 @@
             }
           ],
           "description": "Studia z projektowania mody obejmujące krój i szycie, historię mody, rysunek żurnalowy, materiałoznawstwo i marketing mody. Studenci przygotowują kolekcje i prezentują je na pokazach. Kształcenie łączy rzemiosło z kreatywnością.",
-          "requirements": "Zdany egzamin wstępny z rysunku i predyspozycji artystycznych",
-          "price": "4000 do 8000 zł/semestr (uczelnie prywatne) lub bezpłatne (publiczne)"
+          "requirements": "Zdany egzamin wstępny z rysunku i predyspozycji artystycznych"
         }
       ],
       "soft": [
@@ -42132,8 +42095,7 @@
             }
           ],
           "description": "Studia podyplomowe przygotowujące do pracy z uczniami ze specjalnymi potrzebami edukacyjnymi. Obejmują pedagogikę specjalną, psychologię rozwojową, diagnostykę pedagogiczną i terapię pedagogiczną. Trwają 3 semestry.",
-          "requirements": "Dyplom magistra pedagogiki lub psychologii",
-          "price": "4000 do 7000 zł (3 semestry)"
+          "requirements": "Dyplom magistra pedagogiki lub psychologii"
         }
       ],
       "soft": [
@@ -43450,8 +43412,7 @@
             }
           ],
           "description": "Studia z logopedii obejmujące fonetykę, fonologię, patologię mowy, diagnostykę i terapię zaburzeń mowy. Studenci odbywają praktyki kliniczne w poradniach logopedycznych i szpitalach. Program trwa 4 do 5 lat (jednolite magisterskie) lub 2 lata (podyplomowe).",
-          "requirements": "Brak wad wymowy, zdany egzamin wstępny (dla studiów I stopnia)",
-          "price": "Bezpłatne (studia stacjonarne) lub 4000 do 6000 zł/semestr (podyplomowe)"
+          "requirements": "Brak wad wymowy, zdany egzamin wstępny (dla studiów I stopnia)"
         }
       ],
       "soft": [
@@ -44106,7 +44067,7 @@
       "certifications": [
         {
           "name": "Stopień doktora",
-          "url": "https://www.gov.pl/web/edukacja"
+          "url": "https://www.gov.pl/web/nauka"
         }
       ],
       "training": [
@@ -44120,7 +44081,7 @@
           ],
           "description": "Czteroletni program kształcenia doktorantów obejmujący prowadzenie badań naukowych, publikowanie artykułów, udział w konferencjach i prowadzenie zajęć dydaktycznych. Kończy się obroną rozprawy doktorskiej i uzyskaniem stopnia doktora.",
           "requirements": "Dyplom magistra, pozytywna rekrutacja do szkoły doktorskiej",
-          "price": "Bezpłatne (z stypendium doktoranckim ~3500 do 4500 zł/mies.)"
+          "price": "Bezpłatne; stypendium doktoranckie wynosi od 1.01.2026 co najmniej 3 570,50 zł do oceny śródokresowej i 5 500,50 zł po niej"
         }
       ],
       "soft": [
@@ -44306,8 +44267,7 @@
             }
           ],
           "description": "Szkolenie zawodowe obejmujące techniki strzyżenia, koloryzacji, stylizacji i pielęgnacji włosów. Uczniowie pracują na modelkach pod nadzorem instruktora. Program zakończony egzaminem czeladniczym lub mistrzowskim w rzemiośle fryzjerskim.",
-          "requirements": "Ukończona szkoła podstawowa",
-          "price": "Bezpłatne (szkoła publiczna) lub 2000 do 5000 zł (kursy prywatne)"
+          "requirements": "Ukończona szkoła podstawowa"
         }
       ],
       "soft": [
@@ -44433,8 +44393,7 @@
             }
           ],
           "description": "Szkolenia z zaawansowanych zabiegów kosmetologicznych: mezoterapia, peelingi chemiczne, lasery, makijaż permanentny i stylizacja rzęs. Kursy prowadzone przez kosmetologów z certyfikacjami producentów. Obejmują część teoretyczną i praktyczną na modelkach.",
-          "requirements": "Ukończony kurs kosmetyczny lub szkoła branżowa kosmetyczna",
-          "price": "1500 do 4000 zł (za szkolenie)"
+          "requirements": "Ukończony kurs kosmetyczny lub szkoła branżowa kosmetyczna"
         }
       ],
       "soft": [
@@ -45024,8 +44983,7 @@
             }
           ],
           "description": "Szkolenie zawodowe obejmujące techniki produkcji ciast, tortów, deserów i wyrobów cukierniczych. Uczniowie poznają technologię żywności, dekorowanie i zasady HACCP. Program zakończony egzaminem zawodowym z kwalifikacji TG.04.",
-          "requirements": "Ukończona szkoła podstawowa",
-          "price": "Bezpłatne (szkoła publiczna) lub 3000 do 6000 zł/rok (szkoły prywatne)"
+          "requirements": "Ukończona szkoła podstawowa"
         }
       ],
       "soft": [
@@ -45171,8 +45129,7 @@
             }
           ],
           "description": "Szkolenie zawodowe obejmujące techniki wypieku chleba, bułek i wyrobów piekarskich. Uczniowie poznają surowce piekarskie, procesy fermentacji, obsługę pieców i zasady HACCP. Program zakończony egzaminem zawodowym.",
-          "requirements": "Ukończona szkoła podstawowa",
-          "price": "Bezpłatne (szkoła publiczna) lub 2500 do 5000 zł/rok (szkoły prywatne)"
+          "requirements": "Ukończona szkoła podstawowa"
         }
       ],
       "soft": [
@@ -45282,8 +45239,7 @@
             }
           ],
           "description": "Profesjonalne kursy baristyczne certyfikowane przez SCA (Specialty Coffee Association) na poziomach Foundation, Intermediate i Professional. Obejmują ekstrakcję espresso, latte art, alternatywne metody parzenia i sensorykę kawy.",
-          "requirements": "Brak wymagań formalnych",
-          "price": "800 do 2500 zł (za poziom)"
+          "requirements": "Brak wymagań formalnych"
         }
       ],
       "soft": [
@@ -45399,12 +45355,7 @@
     "demand": "zrównoważony",
     "category": "uslugi",
     "skills": {
-      "certifications": [
-        {
-          "name": "Licencja pilota wycieczek",
-          "url": "https://www.pit.org.pl"
-        }
-      ],
+      "certifications": [],
       "training": [
         {
           "name": "Kurs pilota wycieczek (120h)",
@@ -45418,9 +45369,8 @@
               "url": "https://www.akademiaturystyki.pl"
             }
           ],
-          "description": "Kurs przygotowujący do zawodu pilota wycieczek obejmujący 120 godzin szkolenia. Program zawiera geografię turystyczną, historię sztuki, obsługę klienta, pierwszą pomoc i prawo turystyczne. Kończy się egzaminem i uzyskaniem legitymacji pilota.",
-          "requirements": "Ukończone 18 lat, wykształcenie średnie, znajomość języka obcego",
-          "price": "1500 do 3000 zł"
+          "description": "Kurs dobrowolny (rynkowy); zakończenie kursu potwierdza zaświadczenie organizatora, nie ustawowa legitymacja ani egzamin państwowy.",
+          "requirements": "Ukończone 18 lat, wykształcenie średnie lub średnie branżowe, niekaralność za przestępstwo umyślne; do wycieczek zagranicznych znajomość języka obcego (np. dyplom filologiczny lub B2)"
         }
       ],
       "soft": [
@@ -45435,7 +45385,7 @@
       ]
     },
     "education": {
-      "level": "średnie + kurs pilota wycieczek",
+      "level": "średnie lub średnie branżowe; kurs dobrowolny",
       "fields": [
         "Turystyka",
         "Lingwistyka",
@@ -46193,8 +46143,7 @@
             }
           ],
           "description": "Szkolenie zawodowe obejmujące obróbkę drewna, techniki stolarskie, obsługę maszyn i narzędzi CNC, projektowanie mebli i wykończenie powierzchni. Uczniowie realizują projekty praktyczne. Program zakończony egzaminem zawodowym.",
-          "requirements": "Ukończona szkoła podstawowa",
-          "price": "Bezpłatne (szkoła publiczna) lub 3000 do 5000 zł/rok (szkoły prywatne)"
+          "requirements": "Ukończona szkoła podstawowa"
         }
       ],
       "soft": [
@@ -46332,8 +46281,8 @@
             }
           ],
           "description": "Egzamin przeprowadzany przez PIIB (Polską Izbę Inżynierów Budownictwa) uprawniający do projektowania i/lub kierowania robotami budowlanymi. Obejmuje część pisemną (test) i ustną z zakresu prawa budowlanego i wiedzy technicznej.",
-          "requirements": "Dyplom inżyniera budownictwa, odbycie praktyki zawodowej (1,5 do 3 lata)",
-          "price": "2000 do 4000 zł (kurs przygotowawczy) + 1600 zł (opłata egzaminacyjna)"
+          "requirements": "Dyplom studiów odpowiednich dla specjalności oraz praktyka: projektowanie 1 rok przy projektach i 1 rok na budowie, kierowanie robotami 1,5 roku (3 lata po studiach I stopnia), projektowanie i kierowanie razem 1 rok plus 1,5 roku",
+          "price": "Opłaty PIIB od jesieni 2026: kwalifikowanie 1 800 zł plus egzamin 1 800 zł (projektowanie albo kierowanie robotami) lub po 2 700 zł (oba zakresy łącznie)"
         }
       ],
       "soft": [
@@ -47119,8 +47068,7 @@
             }
           ],
           "description": "Szkolenia z projektowania komputerowego (AutoCAD, SolidWorks, CATIA), programowania obrabiarek CNC oraz automatyki przemysłowej. Uczestnicy uczą się tworzenia dokumentacji technicznej i symulacji inżynierskich.",
-          "requirements": "Wykształcenie wyższe techniczne (preferowane mechanika, mechatronika)",
-          "price": "2500 do 6000 zł"
+          "requirements": "Wykształcenie wyższe techniczne (preferowane mechanika, mechatronika)"
         }
       ],
       "soft": [
@@ -48561,7 +48509,7 @@
       "certifications": [
         {
           "name": "Uprawnienia geodezyjne (GGK)",
-          "url": "https://www.gugik.gov.pl"
+          "url": "https://www.gov.pl/web/gugik"
         }
       ],
       "training": [
@@ -48570,12 +48518,11 @@
           "providers": [
             {
               "name": "GGK",
-              "url": "https://www.gugik.gov.pl"
+              "url": "https://www.gov.pl/web/gugik"
             }
           ],
           "description": "Egzamin państwowy przeprowadzany przez Komisję Kwalifikacyjną ds. Uprawnień Zawodowych w Dziedzinie Geodezji i Kartografii. Obejmuje 7 zakresów uprawnień. Składa się z części pisemnej i ustnej z prawa geodezyjnego i praktyki pomiarowej.",
-          "requirements": "Dyplom inżyniera geodezji, praktyka zawodowa (2 do 6 lat zależnie od zakresu)",
-          "price": "1500 do 3000 zł (kurs przygotowawczy) + 960 zł (opłata egzaminacyjna)"
+          "requirements": "Wykształcenie geodezyjne (wyższe, średnie lub średnie branżowe) oraz praktyka: 1 rok po studiach II stopnia/jednolitych magisterskich, 2 lata po studiach I stopnia, 6 lat przy średnim wykształceniu geodezyjnym"
         }
       ],
       "soft": [
@@ -49257,8 +49204,7 @@
             }
           ],
           "description": "Studia podyplomowe z urbanistyki i planowania przestrzennego obejmujące prawo zagospodarowania, projektowanie urbanistyczne, GIS, transport i ekologię miast. Uczestnicy realizują projekty planistyczne dla realnych lokalizacji.",
-          "requirements": "Dyplom ukończenia studiów wyższych (preferowane architektura, budownictwo, geografia)",
-          "price": "5000 do 8000 zł (2 semestry)"
+          "requirements": "Dyplom ukończenia studiów wyższych (preferowane architektura, budownictwo, geografia)"
         }
       ],
       "soft": [
@@ -50007,8 +49953,7 @@
             }
           ],
           "description": "Szkolenia autoryzowane przez producentów samochodów (Toyota, VW, BMW, Mercedes). Obejmują diagnostykę komputerową, naprawę silników, skrzyń biegów i układów elektronicznych. Prowadzone w centrach szkoleniowych importerów.",
-          "requirements": "Wykształcenie zawodowe mechaniczne, doświadczenie w branży",
-          "price": "1500 do 4000 zł (za szkolenie)"
+          "requirements": "Wykształcenie zawodowe mechaniczne, doświadczenie w branży"
         }
       ],
       "soft": [
@@ -50150,8 +50095,7 @@
             }
           ],
           "description": "Szkolenia z metod spawania (MIG/MAG, TIG, MMA, spawanie gazowe) zakończone egzaminem i wydaniem certyfikatu wg normy EN ISO 9606. Obejmują teorię, BHP i intensywne ćwiczenia praktyczne na stanowiskach spawalniczych.",
-          "requirements": "Ukończone 18 lat, orzeczenie lekarskie o braku przeciwwskazań",
-          "price": "2000 do 4000 zł (za metodę)"
+          "requirements": "Ukończone 18 lat, orzeczenie lekarskie o braku przeciwwskazań"
         }
       ],
       "soft": [
@@ -50302,8 +50246,7 @@
             }
           ],
           "description": "Szkolenia z systemów informacji geograficznej (ArcGIS, QGIS), teledetekcji satelitarnej i przetwarzania danych przestrzennych. Uczestnicy uczą się tworzenia map cyfrowych, analiz przestrzennych i fotogrametrii.",
-          "requirements": "Wykształcenie wyższe (preferowane geodezja, geografia, kartografia)",
-          "price": "2000 do 5000 zł"
+          "requirements": "Wykształcenie wyższe (preferowane geodezja, geografia, kartografia)"
         }
       ],
       "soft": [
@@ -51114,7 +51057,7 @@
       "certifications": [
         {
           "name": "Członkostwo SAK (Stowarzyszenie Architektury Krajobrazu)",
-          "url": "https://www.sak.org.pl"
+          "url": "https://sak.org.pl"
         }
       ],
       "training": [
@@ -51131,8 +51074,7 @@
             }
           ],
           "description": "Studia z projektowania przestrzeni zieleni, parków, ogrodów i terenów rekreacyjnych. Obejmują dendrologie, gleboznawstwo, rysunek odręczny, CAD i projektowanie zrównoważone. Studenci realizują projekty w terenie.",
-          "requirements": "Zdany egzamin wstępny z rysunku (na niektórych uczelniach)",
-          "price": "Bezpłatne (studia stacjonarne) lub 3500 do 5000 zł/semestr (niestacjonarne)"
+          "requirements": "Zdany egzamin wstępny z rysunku (na niektórych uczelniach)"
         }
       ],
       "soft": [
@@ -51666,8 +51608,7 @@
             }
           ],
           "description": "Szkolenia z zakresu nowoczesnej produkcji rolnej, hodowli zwierząt, agrotechniki i zarządzania gospodarstwem rolnym. Kursy prowadzone przez Krajowe Centrum Doradztwa Rozwoju Rolnictwa i Obszarów Wiejskich. Obejmują obsługę maszyn rolniczych i dotacje UE.",
-          "requirements": "Brak wymagań formalnych (dla kursów KCDR)",
-          "price": "Bezpłatne (kursy KCDR) lub 2000 do 4000 zł (szkolenia komercyjne)"
+          "requirements": "Brak wymagań formalnych (dla kursów KCDR)"
         }
       ],
       "soft": [
@@ -52365,8 +52306,7 @@
             }
           ],
           "description": "Roczna służba przygotowawcza w Lasach Państwowych obejmująca praktykę w nadleśnictwach z zakresu hodowli lasu, ochrony lasu, pozyskania drewna i edukacji leśnej. Kończy się egzaminem i stałym zatrudnieniem.",
-          "requirements": "Dyplom inżyniera leśnictwa, pozytywna rekrutacja do LP",
-          "price": "Bezpłatna (z wynagrodzeniem w czasie służby ~4500 zł/mies.)"
+          "requirements": "Dyplom inżyniera leśnictwa, pozytywna rekrutacja do LP"
         }
       ],
       "soft": [
@@ -52800,8 +52740,7 @@
             }
           ],
           "description": "Szkolenie zawodowe obejmujące uprawę roślin ozdobnych, warzyw i owoców, pielęgnację terenów zieleni i florystykę. Uczniowie poznają botanikę, gleboznawstwo i ochronę roślin. Program zakończony egzaminem zawodowym.",
-          "requirements": "Ukończona szkoła podstawowa",
-          "price": "Bezpłatne (szkoła publiczna) lub 1500 do 3000 zł (kursy prywatne)"
+          "requirements": "Ukończona szkoła podstawowa"
         }
       ],
       "soft": [
@@ -53148,8 +53087,7 @@
             }
           ],
           "description": "Studia podyplomowe z zakresu ochrony środowiska, gospodarki odpadami, oczyszczania ścieków i ocen oddziaływania na środowisko. Uczestnicy poznają prawo ochrony środowiska, monitoring ekologiczny i technologie proekologiczne.",
-          "requirements": "Dyplom ukończenia studiów wyższych (preferowane kierunki techniczne/przyrodnicze)",
-          "price": "5000 do 8000 zł (2 semestry)"
+          "requirements": "Dyplom ukończenia studiów wyższych (preferowane kierunki techniczne/przyrodnicze)"
         }
       ],
       "soft": [
@@ -54325,8 +54263,7 @@
           "name": "Technikum weterynaryjne (4 lata)",
           "providers": [],
           "description": "Czteroletni program kształcenia w technikum weterynaryjnym obejmujący anatomię i fizjologię zwierząt, diagnostykę laboratoryjną, farmakologię weterynaryjną i asystowanie przy zabiegach. Uczniowie odbywają praktyki w lecznicach weterynaryjnych.",
-          "requirements": "Ukończona szkoła podstawowa",
-          "price": "Bezpłatne (szkoła publiczna) lub 4000 do 6000 zł/rok (szkoły prywatne)"
+          "requirements": "Ukończona szkoła podstawowa"
         }
       ],
       "soft": [
