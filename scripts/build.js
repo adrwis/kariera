@@ -54,6 +54,46 @@ async function build() {
   totalSaved += cSrc - cOut;
   console.log(`  data/careers.json → careers.min.json  (${cSrc} → ${cOut} bytes, -${Math.round((1 - cOut / cSrc) * 100)}%)`);
 
+  // Statyczne kopie index.html z własnym tytułem i opisem: GitHub Pages zwraca dla nich 200 (a nie 404 z 404.html),
+  // a boty podglądów linków i wyszukiwarki widzą właściwe meta. Aplikacja i tak odczytuje ścieżkę ze swojego routera.
+  const SITE = 'https://adrwis.github.io/kariera';
+  const attrEsc = v => String(v).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const textEsc = v => String(v).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const template = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf-8');
+  const cut = (txt, n) => (txt.length > n ? txt.slice(0, n - 1).replace(/\s+\S*$/, '') + '…' : txt);
+  function staticPage(rel, title, desc, h1, text) {
+    let html = template
+      .replace(/<title>[\s\S]*?<\/title>/, `<title>${textEsc(title)}</title>`)
+      .replace(/(<meta name="description" content=")[^"]*(")/, `$1${attrEsc(desc)}$2`)
+      .replace(/(<meta property="og:title" content=")[^"]*(")/, `$1${attrEsc(title)}$2`)
+      .replace(/(<meta property="og:description" content=")[^"]*(")/, `$1${attrEsc(desc)}$2`)
+      .replace(/(<meta property="og:url" content=")[^"]*(")/, `$1${SITE}/${rel}/$2`)
+      .replace(/(<meta name="twitter:title" content=")[^"]*(")/, `$1${attrEsc(title)}$2`)
+      .replace(/(<meta name="twitter:description" content=")[^"]*(")/, `$1${attrEsc(desc)}$2`)
+      .replace(/(<link rel="canonical" href=")[^"]*(")/, `$1${SITE}/${rel}/$2`)
+      .replace('<main id="main">', `<main id="main"><noscript><h1>${textEsc(h1)}</h1><p>${textEsc(text)}</p></noscript>`);
+    const dir = path.join(ROOT, rel);
+    fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(path.join(dir, 'index.html'), html);
+  }
+  const pages = [
+    ['quiz', 'Quiz zainteresowań | NextMove', 'Odpowiedz na kilka pytań o to, co lubisz, i zobacz zawody, które warto sprawdzić.', 'Quiz zainteresowań', 'Odpowiedz na kilka pytań o to, co lubisz, i zobacz zawody, które warto sprawdzić.'],
+    ['kalkulator', 'Kalkulator punktów ósmoklasisty | NextMove', 'Policz punkty rekrutacyjne do szkoły średniej i porównaj je z ostatnimi progami klas.', 'Kalkulator punktów ósmoklasisty', 'Policz punkty rekrutacyjne do szkoły średniej i porównaj je z ostatnimi progami klas.'],
+    ['szkoly', 'Szkoły średnie | NextMove', 'Licea i technika w 14 miejscach w Polsce: klasy, przedmioty rozszerzone, wyniki matur i progi punktowe.', 'Szkoły średnie', 'Licea i technika w 14 miejscach w Polsce: klasy, przedmioty rozszerzone, wyniki matur i progi punktowe.'],
+  ];
+  for (const c of careers) {
+    const desc = cut(c.shortDescription || c.fullDescription || '', 200);
+    pages.push([`zawod/${c.id}`, `${c.name} | zawód | NextMove`, desc, c.name, desc]);
+  }
+  fs.rmSync(path.join(ROOT, 'zawod'), { recursive: true, force: true });
+  for (const pg of pages) staticPage(...pg);
+
+  const today = new Date().toISOString().slice(0, 10);
+  const urls = [['', 1.0, 'weekly'], ...pages.map(pg => [pg[0] + '/', pg[0].startsWith('zawod/') ? 0.8 : 0.7, 'monthly'])];
+  fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+    urls.map(([u, pr, fr]) => `  <url><loc>${SITE}/${u}</loc><priority>${pr.toFixed(1)}</priority><changefreq>${fr}</changefreq><lastmod>${today}</lastmod></url>`).join('\n') + '\n</urlset>\n');
+  console.log(`  statyczne strony: ${pages.length}, sitemap: ${urls.length} adresów`);
+
   console.log(`\n  Total saved: ${(totalSaved / 1024).toFixed(1)} KB`);
 }
 

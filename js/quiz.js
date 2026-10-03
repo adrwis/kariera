@@ -114,7 +114,7 @@ const Quiz = (function () {
 
   function render(container) {
     const saved = Object.assign({ interests: [], subjects: [], places: [] }, loadSaved());
-    ctx.updateMeta('Quiz zainteresowań | NextMove', 'Odpowiedz na kilka pytań o to, co lubisz, i zobacz zawody, które warto sprawdzić.', ctx.BASE + '/quiz');
+    ctx.updateMeta('Quiz zainteresowań | NextMove', 'Odpowiedz na kilka pytań o to, co lubisz, i zobacz zawody, które warto sprawdzić.', ctx.BASE + '/quiz/');
     container.innerHTML = `
       <div class="results szkoly quiz">
         <a href="${ctx.BASE}/" class="results__back">&larr; Strona główna</a>

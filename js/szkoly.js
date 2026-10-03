@@ -584,7 +584,7 @@ const Szkoly = (function () {
     const my = ++renderSeq;
     if (!CITIES[params.get('miasto')] && !hasCity()) {
       setRobots('index, follow');
-      ctx.updateMeta('Szkoły średnie | NextMove', 'Licea i technika w 14 miejscach w Polsce: klasy, przedmioty rozszerzone, wyniki matur i progi punktowe.', `${ctx.BASE}/szkoly`);
+      ctx.updateMeta('Szkoły średnie | NextMove', 'Licea i technika w 14 miejscach w Polsce: klasy, przedmioty rozszerzone, wyniki matur i progi punktowe.', `${ctx.BASE}/szkoly/`);
       container.innerHTML = `
       <div class="results szkoly">
         <a href="${ctx.BASE}/" class="results__back">&larr; Strona główna</a>
@@ -1168,7 +1168,7 @@ const Szkoly = (function () {
     const savedRozsz = Array.isArray(saved.rozsz) ? saved.rozsz.filter(c => FILTER_SUBJECTS.includes(c)) : [];
     const typ = TYPES.includes(params.get('typ')) ? params.get('typ') : (TYPES.includes(saved.typ) ? saved.typ : '');
     setRobots('index, follow');
-    ctx.updateMeta('Kalkulator punktów ósmoklasisty | NextMove', 'Policz punkty rekrutacyjne do szkoły średniej i porównaj je z ostatnimi progami klas.', ctx.BASE + '/kalkulator');
+    ctx.updateMeta('Kalkulator punktów ósmoklasisty | NextMove', 'Policz punkty rekrutacyjne do szkoły średniej i porównaj je z ostatnimi progami klas.', ctx.BASE + '/kalkulator/');
     const gradeSelect = (k, label) => `
       <label class="szkoly__field kalk__field">
         <span class="szkoly__legend">${label}</span>

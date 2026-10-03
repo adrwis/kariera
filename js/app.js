@@ -983,7 +983,7 @@
     const heading = careerDetail.querySelector('.career-hero__name');
     if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true }); }
     announce(`Zawód: ${c.name}`);
-    updateMeta(`${c.name} | zawód | NextMove`, c.shortDescription || c.fullDescription || defaultDesc, `${BASE}/zawod/${c.id}`);
+    updateMeta(`${c.name} | zawód | NextMove`, c.shortDescription || c.fullDescription || defaultDesc, `${BASE}/zawod/${c.id}/`);
 
     // Load Wikipedia thumbnails for famous people
     loadFamousThumbs(c.famousPeople);
