@@ -1,0 +1,289 @@
+{
+ "slug": "nikozja",
+ "programPatches": [
+  {
+   "university": "European University Cyprus (EUC)",
+   "programName": "Psychology (BSc)",
+   "set": {
+    "tuitionEu": "9 240 EUR rocznie (60 ECTS), uczelnia prywatna, czesne płatne w całości przez studenta. Opłaty obowiązkowe: wniosek 80 EUR jednorazowo, opłata rejestracyjna 70 EUR za semestr. Uczelnia publikuje trzy cenniki (dla Cypryjczyków, Greków i studentów międzynarodowych) i nie podaje osobnej tabeli dla obywateli innych państw UE. Podana kwota pochodzi z cennika dla studentów międzynarodowych, a jej zastosowanie do obywateli UE potwierdza biuro przyjęć."
+   },
+   "sourceUrl": "https://euc.ac.cy/en/admissions/tuition-fees/",
+   "quote": "Tuition Fees for Cypriot Students Download PDF Tuition Fees for Greek Students Download PDF Tuition Fees for International Students"
+  },
+  {
+   "university": "European University Cyprus (EUC)",
+   "programName": "Psychology (BSc)",
+   "set": {
+    "requirements": "Ukończona szkoła średnia (liceum lub równoważna), oficjalna kopia świadectwa z wykazem ocen w języku angielskim, kopia dowodu osobistego lub paszportu, formularz wniosku z opłatą 80 EUR. Brak egzaminu wstępnego i brak progu procentowego w opisie."
+   },
+   "sourceUrl": "https://euc.ac.cy/en/admissions/how-to-apply/undergraduate/",
+   "quote": "applicants must have successfully completed their secondary education (high school or equivalent)"
+  },
+  {
+   "university": "European University Cyprus (EUC)",
+   "programName": "Computer Science (BSc)",
+   "set": {
+    "tuitionEu": "9 240 EUR rocznie (60 ECTS), uczelnia prywatna, czesne płatne w całości przez studenta. Opłaty obowiązkowe: wniosek 80 EUR jednorazowo, opłata rejestracyjna 70 EUR za semestr. Uczelnia publikuje trzy cenniki (dla Cypryjczyków, Greków i studentów międzynarodowych) i nie podaje osobnej tabeli dla obywateli innych państw UE. Podana kwota pochodzi z cennika dla studentów międzynarodowych, a jej zastosowanie do obywateli UE potwierdza biuro przyjęć."
+   },
+   "sourceUrl": "https://euc.ac.cy/en/admissions/tuition-fees/",
+   "quote": "Tuition Fees for Cypriot Students Download PDF Tuition Fees for Greek Students Download PDF Tuition Fees for International Students"
+  },
+  {
+   "university": "European University Cyprus (EUC)",
+   "programName": "Computer Science (BSc)",
+   "set": {
+    "requirements": "Ukończona szkoła średnia (liceum lub równoważna), oficjalna kopia świadectwa z wykazem ocen w języku angielskim, kopia dowodu osobistego lub paszportu, formularz wniosku z opłatą 80 EUR. Brak egzaminu wstępnego i brak progu procentowego w opisie."
+   },
+   "sourceUrl": "https://euc.ac.cy/en/admissions/how-to-apply/undergraduate/",
+   "quote": "applicants must have successfully completed their secondary education (high school or equivalent)"
+  },
+  {
+   "university": "European University Cyprus (EUC)",
+   "programName": "Business Studies (BSc)",
+   "set": {
+    "tuitionEu": "9 240 EUR rocznie (60 ECTS), uczelnia prywatna, czesne płatne w całości przez studenta. Opłaty obowiązkowe: wniosek 80 EUR jednorazowo, opłata rejestracyjna 70 EUR za semestr. Uczelnia publikuje trzy cenniki (dla Cypryjczyków, Greków i studentów międzynarodowych) i nie podaje osobnej tabeli dla obywateli innych państw UE. Podana kwota pochodzi z cennika dla studentów międzynarodowych, a jej zastosowanie do obywateli UE potwierdza biuro przyjęć."
+   },
+   "sourceUrl": "https://euc.ac.cy/en/admissions/tuition-fees/",
+   "quote": "Tuition Fees for Cypriot Students Download PDF Tuition Fees for Greek Students Download PDF Tuition Fees for International Students"
+  },
+  {
+   "university": "European University Cyprus (EUC)",
+   "programName": "Business Studies (BSc)",
+   "set": {
+    "requirements": "Ukończona szkoła średnia (liceum lub równoważna), oficjalna kopia świadectwa z wykazem ocen w języku angielskim, kopia dowodu osobistego lub paszportu, formularz wniosku z opłatą 80 EUR. Brak egzaminu wstępnego i brak progu procentowego w opisie."
+   },
+   "sourceUrl": "https://euc.ac.cy/en/admissions/how-to-apply/undergraduate/",
+   "quote": "applicants must have successfully completed their secondary education (high school or equivalent)"
+  },
+  {
+   "university": "European University Cyprus (EUC)",
+   "programName": "Economics and Finance (BSc)",
+   "set": {
+    "tuitionEu": "9 240 EUR rocznie (60 ECTS), uczelnia prywatna, czesne płatne w całości przez studenta. Opłaty obowiązkowe: wniosek 80 EUR jednorazowo, opłata rejestracyjna 70 EUR za semestr. Uczelnia publikuje trzy cenniki (dla Cypryjczyków, Greków i studentów międzynarodowych) i nie podaje osobnej tabeli dla obywateli innych państw UE. Podana kwota pochodzi z cennika dla studentów międzynarodowych, a jej zastosowanie do obywateli UE potwierdza biuro przyjęć."
+   },
+   "sourceUrl": "https://euc.ac.cy/en/admissions/tuition-fees/",
+   "quote": "Tuition Fees for Cypriot Students Download PDF Tuition Fees for Greek Students Download PDF Tuition Fees for International Students"
+  },
+  {
+   "university": "European University Cyprus (EUC)",
+   "programName": "Economics and Finance (BSc)",
+   "set": {
+    "requirements": "Ukończona szkoła średnia (liceum lub równoważna), oficjalna kopia świadectwa z wykazem ocen w języku angielskim, kopia dowodu osobistego lub paszportu, formularz wniosku z opłatą 80 EUR. Brak egzaminu wstępnego i brak progu procentowego w opisie."
+   },
+   "sourceUrl": "https://euc.ac.cy/en/admissions/how-to-apply/undergraduate/",
+   "quote": "applicants must have successfully completed their secondary education (high school or equivalent)"
+  },
+  {
+   "university": "European University Cyprus (EUC)",
+   "programName": "Νομική: Κυπριακό Δίκαιο (LLB)",
+   "set": {
+    "tuitionEu": "10 980 EUR rocznie (60 ECTS), uczelnia prywatna, czesne płatne w całości przez studenta. Opłaty obowiązkowe: wniosek 80 EUR jednorazowo, opłata rejestracyjna 70 EUR za semestr. Uczelnia publikuje trzy cenniki (dla Cypryjczyków, Greków i studentów międzynarodowych) i nie podaje osobnej tabeli dla obywateli innych państw UE. Podana kwota pochodzi z cennika dla studentów międzynarodowych, a jej zastosowanie do obywateli UE potwierdza biuro przyjęć."
+   },
+   "sourceUrl": "https://euc.ac.cy/en/admissions/tuition-fees/",
+   "quote": "Tuition Fees for Cypriot Students Download PDF Tuition Fees for Greek Students Download PDF Tuition Fees for International Students"
+  },
+  {
+   "university": "European University Cyprus (EUC)",
+   "programName": "Νομική: Κυπριακό Δίκαιο (LLB)",
+   "set": {
+    "requirements": "Ukończona szkoła średnia (liceum lub równoważna), oficjalna kopia świadectwa z wykazem ocen w języku angielskim, kopia dowodu osobistego lub paszportu, formularz wniosku z opłatą 80 EUR. Brak egzaminu wstępnego i brak progu procentowego w opisie."
+   },
+   "sourceUrl": "https://euc.ac.cy/en/admissions/how-to-apply/undergraduate/",
+   "quote": "applicants must have successfully completed their secondary education (high school or equivalent)"
+  },
+  {
+   "university": "European University Cyprus (EUC)",
+   "programName": "Νομική: Κυπριακό Δίκαιο (LLB)",
+   "set": {
+    "languageProof": "Program prowadzony po grecku. Uczelnia nie podaje progu ani certyfikatu znajomości greckiego, więc trzeba zapytać biuro przyjęć. Dla programów po angielsku obowiązuje certyfikat angielskiego.",
+    "notes": "Program po grecku (prawo cypryjskie i greckie), wymaga biegłej znajomości greckiego. Uczelnia prywatna, kampus Nicosia (Engomi)."
+   },
+   "sourceUrl": "https://syllabus.euc.ac.cy/tuitions/euc-tuition-fees-i.pdf",
+   "quote": "Law (Cypriot Law, Greek Law)"
+  },
+  {
+   "university": "European University Cyprus (EUC)",
+   "programName": "Doctor of Medicine (MD, 6 years)",
+   "set": {
+    "tuitionEu": "23 000 EUR rocznie (60 ECTS), uczelnia prywatna, czesne płatne w całości przez studenta. Opłaty obowiązkowe: wniosek 80 EUR jednorazowo, opłata rejestracyjna 70 EUR za semestr. Uczelnia publikuje trzy cenniki (dla Cypryjczyków, Greków i studentów międzynarodowych) i nie podaje osobnej tabeli dla obywateli innych państw UE. Podana kwota pochodzi z cennika dla studentów międzynarodowych, a jej zastosowanie do obywateli UE potwierdza biuro przyjęć."
+   },
+   "sourceUrl": "https://euc.ac.cy/en/admissions/tuition-fees/",
+   "quote": "Tuition Fees for Cypriot Students Download PDF Tuition Fees for Greek Students Download PDF Tuition Fees for International Students"
+  },
+  {
+   "university": "European University Cyprus (EUC)",
+   "programName": "Doctor of Medicine (MD, 6 years)",
+   "set": {
+    "matura": "Wymagana średnia co najmniej 90% (lub równoważna) ze świadectwa, a na krajowych egzaminach zdane biologia i jeden z przedmiotów chemia, matematyka lub fizyka. Uczelnia nie podaje, jak przeliczyć polską maturę na 90%, więc trzeba to ustalić z biurem przyjęć.",
+    "requirements": "Dla kandydatów z innych systemów niż cypryjski, grecki i niemiecki: średnia co najmniej 90% (lub równoważna) ze świadectwa, zdane na egzaminach krajowych biologia oraz jeden z przedmiotów chemia, matematyka lub fizyka. Wniosek z opłatą 200 EUR. Część kandydatów zaprasza się na rozmowę, także online."
+   },
+   "sourceUrl": "https://euc.ac.cy/en/admissions/how-to-apply/medical/",
+   "quote": "candidates must have an average grade corresponding to 90% or above or its equivalent on their high school leaving certificate"
+  },
+  {
+   "university": "University of Nicosia (UNIC)",
+   "programName": "Medicine (Doctor of Medicine, MD, 6 years, undergraduate entry)",
+   "set": {
+    "matura": "Wymagane 90% łącznie (18/20 w świadectwie cypryjskim lub greckim) z podobnymi ocenami z biologii i jednego z przedmiotów chemia, fizyka lub matematyka. Alternatywnie A-level z wynikiem ABB lub IB z 32 punktami. Polskiej matury uczelnia nie wymienia, a o innych kwalifikacjach pisze, by skontaktować się z nią w sprawie oceny. Nie wiadomo więc, jak liczy się polską maturę.",
+    "requirements": "Dla świadectwa cypryjskiego lub greckiego: 90% (18/20) łącznie, z podobnymi ocenami z biologii i jednego z przedmiotów chemia, fizyka lub matematyka; dla A-level ABB, dla IB 32 punkty. Inne systemy kształcenia uczelnia może rozpatrzyć po kontakcie. Kandydaci są oceniani całościowo, a spełnienie progów nie gwarantuje oferty. Obowiązkowa rozmowa online, mile widziane doświadczenie wolontariackie."
+   },
+   "sourceUrl": "https://www.unic.ac.cy/medicine-md-6-years-undergraduate-entry/",
+   "quote": "The Medical School may also consider applicants from other education systems. For any other qualifications please contact us so we can assess your eligibility."
+  },
+  {
+   "university": "Frederick University",
+   "programName": "BA in Journalism and Media Communication",
+   "set": {
+    "requirements": "Uczelnia rozpatruje kandydatów według kwalifikacji akademickich; niektóre wydziały mają własne wymogi, które trzeba sprawdzić na stronie programu.",
+    "languageProof": "Program prowadzony po grecku; uczelnia nie podaje progu ani certyfikatu znajomości greckiego, więc trzeba zapytać dział przyjęć (adminfo@frederick.ac.cy).",
+    "notes": "Program po grecku, wymaga biegłej znajomości greckiego. Kampus Nicosia."
+   },
+   "sourceUrl": "https://www.frederick.ac.cy/ba-in-journalism",
+   "quote": "The language of instruction is Greek"
+  },
+  {
+   "university": "Frederick University",
+   "programName": "LLB in Law",
+   "set": {
+    "requirements": "Uczelnia rozpatruje kandydatów według kwalifikacji akademickich; niektóre wydziały mają własne wymogi, które trzeba sprawdzić na stronie programu.",
+    "languageProof": "Program prowadzony po grecku; uczelnia nie podaje progu ani certyfikatu znajomości greckiego, więc trzeba zapytać dział przyjęć (adminfo@frederick.ac.cy).",
+    "notes": "Program po grecku, wymaga biegłej znajomości greckiego. Kampus Nicosia i Limassol."
+   },
+   "sourceUrl": "https://www.frederick.ac.cy/llb-in-law",
+   "quote": "Language Greek"
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [
+  {
+   "university": "University of Cyprus (Πανεπιστήμιο Κύπρου)",
+   "universityUrl": "https://www.cs.ucy.ac.cy/",
+   "universityType": "uniwersytet",
+   "program": {
+    "name": "Computer Science (BSc)",
+    "nameEn": "Computer Science (BSc), University of Cyprus",
+    "careerIds": [
+     "programista",
+     "analityk-danych"
+    ],
+    "level": "licencjat",
+    "durationYears": 4,
+    "languages": [
+     "grecki"
+    ],
+    "english": false,
+    "academicYear": "2025/26 (opis wydziału); warunki na 2027/28 nie są opublikowane na sprawdzonych stronach",
+    "tuitionEu": "0 EUR: obywatele Cypru i UE nie płacą czesnego na pierwszym stopniu na uczelniach publicznych Cypru, bo pokrywa je państwo (informacja Departamentu Szkolnictwa Wyższego, dane z roku akademickiego 2020/21; kwoty na 2026/27 nie sprawdzono).",
+    "tuitionNonEu": "6 834 EUR rocznie na pierwszym stopniu (Departament Szkolnictwa Wyższego, dane z roku akademickiego 2020/21)",
+    "tuitionUrl": "https://www.highereducation.ac.cy/en/spoudes-cyprus/oikonomikes-paroches",
+    "matura": "brak potwierdzenia: strona wydziału wymienia egzaminy Ministerstwa Edukacji Cypru, egzaminy greckie i kategorię kandydatów z zagranicy z wynikami GCE (A-level) i znajomością greckiego. Kandydatów z polską maturą nie wymienia, więc trzeba zapytać Academic Affairs and Student Welfare Services Uniwersytetu Cypryjskiego.",
+    "requirements": "Dla kandydatów z zagranicy strona wydziału podaje: ukończona szkoła średnia, dobra znajomość greckiego, wyniki GCE (grecki na poziomie O co najmniej C, matematyka i fizyka na poziomie A co najmniej B oraz jeden przedmiot z chemii, biologii, matematyki stosowanej, zaawansowanej matematyki lub informatyki co najmniej C). Wniosek to list do Academic Affairs and Student Welfare Services z datą urodzenia, listą wydziałów i kopiami wyników. Dla kandydatów z polską maturą warunków nie podano.",
+    "languageProof": "Znajomość greckiego jest wymagana (dla kandydatów z zagranicy: grecki GCE O-level co najmniej C). Zajęcia prowadzone są po grecku, niewielka liczba kursów po angielsku.",
+    "selective": null,
+    "admissionUrl": "https://www.cs.ucy.ac.cy/index.php/education/admissions/undergradadmiss",
+    "deadline": "Kandydaci z zagranicy zgłaszający wyniki GCE: wniosek do 30 kwietnia każdego roku. Dla kandydatów z polską maturą terminu nie podano.",
+    "applyUrl": null,
+    "url": "https://www.cs.ucy.ac.cy/index.php/education/undergrad/curriculum",
+    "notes": "Uczelnia publiczna w Nikozji. Program trwa osiem semestrów (240 ECTS), z możliwością wydłużenia do dwunastu. Zajęcia prowadzone są po grecku, więc kierunek wymaga znajomości greckiego. Opisano tylko ten jeden kierunek, bo pozostałe strony Uniwersytetu Cypryjskiego nie były dostępne."
+   },
+   "sourceUrl": "https://www.cs.ucy.ac.cy/docs/prospectus-en.pdf",
+   "quote": "The expected completion time of the Undergraduate Study Programme is eight semesters."
+  }
+ ],
+ "summaryPatches": [
+  {
+   "label": "Zakres",
+   "text": "W Nikozji opisano trzy uczelnie prywatne i płatne (EUC, UNIC, Frederick) oraz jeden kierunek publicznego Uniwersytetu Cypryjskiego, informatykę po grecku. Pozostałych kierunków Uniwersytetu Cypryjskiego nie opisano, bo główne strony uczelni nie były dostępne.",
+   "sourceUrl": "https://www.cs.ucy.ac.cy/index.php/education/admissions/undergradadmiss",
+   "quote": "Overseas students who are high-school graduates and possess a good knowledge of Greek can be admitted"
+  },
+  {
+   "label": "Polska matura",
+   "text": "Polska matura nie jest wymieniona z nazwy przez żadną z opisanych uczelni. Uczelnie prywatne wymagają ukończonej szkoły średniej i same oceniają świadectwo. W Uniwersytecie Cypryjskim strona wydziału informatyki wymienia egzaminy Ministerstwa Edukacji Cypru, egzaminy greckie i kategorię kandydatów z zagranicy z wynikami GCE i znajomością greckiego, a kandydatów z polską maturą pomija, więc trzeba zapytać uczelnię. Na medycynę EUC wymaga od kandydatów spoza Cypru, Grecji i Niemiec średniej co najmniej 90% (lub równoważnej) i zdanych biologii oraz jednego z przedmiotów chemia, matematyka, fizyka. UNIC wymaga 90% łącznie, z podobnymi ocenami z biologii i jednego z przedmiotów ścisłych, a inne kwalifikacje ocenia po kontakcie z kandydatem. Żadna z uczelni nie podaje, jak przeliczyć polską maturę na 90%, więc nie wiadomo, czy maturzysta ten próg osiągnie.",
+   "sourceUrl": "https://euc.ac.cy/en/admissions/how-to-apply/medical/",
+   "quote": "candidates must have an average grade corresponding to 90% or above or its equivalent on their high school leaving certificate"
+  },
+  {
+   "label": "Opłaty",
+   "text": "Uczelnie prywatne w Nikozji pobierają czesne od wszystkich: od 8 970 do 11 700 EUR rocznie na większości kierunków (EUC od 9 240 do 10 980 EUR, UNIC od 10 200 do 11 700 EUR dla obywateli UE, Frederick od 8 970 do 9 600 EUR). Medycyna kosztuje 23 000 EUR rocznie w EUC i 24 000 EUR w UNIC. UNIC ma osobny cennik dla obywateli UE, niższy o około 120 EUR rocznie od cennika dla osób spoza UE. EUC publikuje cenniki dla Cypryjczyków, Greków i studentów międzynarodowych, bez osobnej tabeli dla obywateli UE. Na publicznych uczelniach Cypru obywatele UE nie płacą czesnego na pierwszym stopniu, bo pokrywa je państwo (dane Departamentu Szkolnictwa Wyższego z roku akademickiego 2020/21, aktualnych kwot nie sprawdzono).",
+   "sourceUrl": "https://www.highereducation.ac.cy/en/spoudes-cyprus/oikonomikes-paroches",
+   "quote": "Cypriot and EU students do not pay tuition fees during their first cycle of studies if they study at the Public Universities and Institutions of Higher Education of Cyprus."
+  },
+  {
+   "label": "Uwagi",
+   "text": "UNIC, EUC i Frederick są uczelniami prywatnymi i płatnymi. Uniwersytet Cypryjski jest publiczny i bezpłatny dla studentów z UE na pierwszym stopniu, ale studia prowadzi po grecku i opisano tylko jego informatykę.",
+   "sourceUrl": "https://www.highereducation.ac.cy/en/spoudes-cyprus/kritiria-eisdochis-1",
+   "quote": "Students seeking admission to a Public University and/or Public Institution of Tertiary Education must have a Secondary School Leaving Certificate or other equivalent qualification and must have secured a place on the Program of Study of their choice."
+  }
+ ],
+ "gapsSet": [
+  "Uniwersytet Cypryjski: opisano tylko informatykę, na podstawie strony wydziału. Pozostałe kierunki, aktualne czesne i terminy dla obywateli UE nie są potwierdzone, bo główne strony uczelni nie były dostępne. Czesne 0 EUR dla obywateli UE pochodzi z informacji Departamentu Szkolnictwa Wyższego z roku akademickiego 2020/21.",
+  "Uniwersytet Cypryjski: strona wydziału informatyki nie podaje, jak kandydat z polską maturą może się dostać na studia. Podaje egzaminy cypryjskie, egzaminy greckie i kategorię kandydatów z wynikami GCE, więc procedurę dla maturzysty trzeba ustalić z Academic Affairs and Student Welfare Services uczelni.",
+  "Żadna z opisanych uczelni nie wymienia polskiej matury z nazwy. Warto zapytać dział rekrutacji o konkretny przypadek, najlepiej mailowo.",
+  "Medycyna w EUC i UNIC: obie uczelnie wymagają około 90%, ale nie podają, jak przeliczyć polską maturę, więc nie wiadomo, czy dany wynik ją spełni.",
+  "Terminy składania wniosków dla obywateli UE nie są podane na stronach EUC, UNIC (poza datami dla osób spoza UE) i Frederick. Znane są tylko najbliższe nabory EUC: luty 2027, a na medycynę październik 2027.",
+  "EUC nie podaje osobnego cennika dla obywateli UE spoza Cypru i Grecji. Kwoty pochodzą z cennika dla studentów międzynarodowych, a ich zastosowanie do obywateli Polski potwierdza biuro przyjęć.",
+  "Frederick University: czesne dla nowo przyjętych 2026/27 jest podane jako jedna obniżona stawka, bez podziału na UE i spoza UE. Progi z angielskiego i lista uznawanych świadectw nie są podane. Prawo i dziennikarstwo prowadzone są po grecku.",
+  "UNIC: dla informatyki danych, budownictwa, mechaniki, administracji biznesu i komunikacji cyfrowej nie otwierano osobnych stron programów, więc język i czas trwania pochodzą z cennika i tytułów stron. Dla EUC informatyki w systemach informacyjnych i inżynierii komputerowej stron programów nie sprawdzano.",
+  "Nie sprawdzono akredytacji CYQAA poszczególnych programów (poza architekturą UNIC) ani uznawania dyplomów cypryjskich w Polsce. Medycyna, prawo i architektura wymagają osobnych procedur.",
+  "Koszty życia i akademiki są poza zakresem, uczelnia UNIC szacuje koszt życia w Nikozji na co najmniej 12 000 EUR rocznie."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://www.unic.ac.cy/wp-content/uploads/2026/09/UNIC-Nicosia-Tuition-Fees_Cyprus-EU_ENG_2026-2027.pdf",
+   "note": "UNIC: cennik 2026/27 dla obywateli Cypru i UE."
+  },
+  {
+   "url": "https://www.unic.ac.cy/wp-content/uploads/2026/09/UNIC-Nicosia-Tuition-Fees_NonEU_EN_2026-2027.pdf",
+   "note": "UNIC: cennik 2026/27 dla osób spoza UE."
+  },
+  {
+   "url": "https://www.unic.ac.cy/nicosia/study-at-unic/admission-requirements/",
+   "note": "UNIC: wymagania przyjęcia na studia licencjackie."
+  },
+  {
+   "url": "https://www.unic.ac.cy/medicine-md-6-years-undergraduate-entry/",
+   "note": "UNIC: medycyna, warunki przyjęcia i rozmowa."
+  },
+  {
+   "url": "https://euc.ac.cy/en/admissions/tuition-fees/",
+   "note": "EUC: trzy cenniki (Cypryjczycy, Grecy, studenci międzynarodowi)."
+  },
+  {
+   "url": "https://syllabus.euc.ac.cy/tuitions/euc-tuition-fees-i.pdf",
+   "note": "EUC: cennik 2026/27 dla studentów międzynarodowych."
+  },
+  {
+   "url": "https://euc.ac.cy/en/admissions/how-to-apply/undergraduate/",
+   "note": "EUC: wymagania przyjęcia na studia licencjackie i angielski."
+  },
+  {
+   "url": "https://euc.ac.cy/en/admissions/how-to-apply/medical/",
+   "note": "EUC: medycyna, wymagany próg 90%."
+  },
+  {
+   "url": "https://www.frederick.ac.cy/en/tuition-and-other-fees",
+   "note": "Frederick: czesne i opłaty."
+  },
+  {
+   "url": "https://www.frederick.ac.cy/en/study-with-us/admission-process",
+   "note": "Frederick: proces przyjęć."
+  },
+  {
+   "url": "https://www.highereducation.ac.cy/en/spoudes-cyprus/oikonomikes-paroches",
+   "note": "Departament Szkolnictwa Wyższego Cypru: czesne na uczelniach publicznych."
+  },
+  {
+   "url": "https://www.highereducation.ac.cy/en/spoudes-cyprus/kritiria-eisdochis-1",
+   "note": "Departament Szkolnictwa Wyższego Cypru: kryteria przyjęć dla kandydatów z UE."
+  },
+  {
+   "url": "https://www.cs.ucy.ac.cy/index.php/education/admissions/undergradadmiss",
+   "note": "Uniwersytet Cypryjski, informatyka: kategorie kandydatów i terminy."
+  },
+  {
+   "url": "https://www.cs.ucy.ac.cy/docs/prospectus-en.pdf",
+   "note": "Uniwersytet Cypryjski, informatyka: prospekt (czas trwania, język, ECTS)."
+  }
+ ]
+}

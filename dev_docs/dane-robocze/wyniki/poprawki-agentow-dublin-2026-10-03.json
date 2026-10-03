@@ -1,0 +1,562 @@
+{
+ "slug": "dublin",
+ "programPatches": [
+  {
+   "university": "Trinity College Dublin (University of Dublin)",
+   "programName": "B.A. Honours Bachelor Degree in Psychology (TR006)",
+   "set": {
+    "tuitionEu": "Student Contribution 2 500 EUR rocznie (2026/27, TCD). Czesne programu (3 181 EUR rocznie) pokrywa państwo w ramach Free Fees Initiative, jeśli spełniasz warunek: obywatelstwo UE/EOG/Szwajcarii/Wielkiej Brytanii i co najmniej 3 z ostatnich 5 lat pobytu w tych krajach (HEA). Kto go nie spełnia, płaci pełne czesne, łącznie 5 681 EUR w pierwszym roku (wg TCD).",
+    "tuitionUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+   },
+   "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
+   "quote": "School of Psychology Psychology UBPS-PSYC-2F UF_000001 €3,181.00 €2,500.00 €5,681.00 €22,580.00"
+  },
+  {
+   "university": "Trinity College Dublin (University of Dublin)",
+   "programName": "B.A. (Moderatorship) Honours Bachelor Degree in Computer Science (TR033)",
+   "set": {
+    "tuitionEu": "Student Contribution 2 500 EUR rocznie (2026/27, TCD). Czesne programu (4 832 EUR rocznie) pokrywa państwo w ramach Free Fees Initiative, jeśli spełniasz warunek: obywatelstwo UE/EOG/Szwajcarii/Wielkiej Brytanii i co najmniej 3 z ostatnich 5 lat pobytu w tych krajach (HEA). Kto go nie spełnia, płaci pełne czesne, łącznie 7 332 EUR w pierwszym roku (wg TCD).",
+    "tuitionUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+   },
+   "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
+   "quote": "School of Computer Science & Statistics Computer Science (Year 5 is postgraduate) UICS-ICSC-2F UF_000031 €4,832.00 €2,500.00 €7,332.00 €29,570.00"
+  },
+  {
+   "university": "Trinity College Dublin (University of Dublin)",
+   "programName": "M.B., B.Ch., B.A.O. Medicine (TR051)",
+   "set": {
+    "tuitionEu": "Student Contribution 2 500 EUR rocznie (2026/27, TCD). Czesne programu (5 871 EUR rocznie) pokrywa państwo w ramach Free Fees Initiative, jeśli spełniasz warunek: obywatelstwo UE/EOG/Szwajcarii/Wielkiej Brytanii i co najmniej 3 z ostatnich 5 lat pobytu w tych krajach (HEA). Kto go nie spełnia, płaci pełne czesne, łącznie 8 371 EUR w pierwszym roku (wg TCD).",
+    "tuitionUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+   },
+   "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
+   "quote": "School of Medicine Medicine (Year 5 is undergraduate) UBMD-MEDI-3F UF_000020 €5,871.00 €2,500.00 €8,371.00 Max €60,000"
+  },
+  {
+   "university": "Trinity College Dublin (University of Dublin)",
+   "programName": "LL.B./B.A. Honours Bachelor Degree in Law (Single Honours) (TR004)",
+   "set": {
+    "tuitionEu": "Student Contribution 2 500 EUR rocznie (2026/27, TCD). Czesne programu (3 181 EUR rocznie) pokrywa państwo w ramach Free Fees Initiative, jeśli spełniasz warunek: obywatelstwo UE/EOG/Szwajcarii/Wielkiej Brytanii i co najmniej 3 z ostatnich 5 lat pobytu w tych krajach (HEA). Kto go nie spełnia, płaci pełne czesne, łącznie 5 681 EUR w pierwszym roku (wg TCD).",
+    "tuitionUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+   },
+   "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
+   "quote": "School of Law Law UBLW-LAWS-2F UF_000001 €3,181.00 €2,500.00 €5,681.00 €22,580.00"
+  },
+  {
+   "university": "Trinity College Dublin (University of Dublin)",
+   "programName": "B.A.I. Honours Degree / M.A.I. Engineering (TR032)",
+   "set": {
+    "tuitionEu": "Student Contribution 2 500 EUR rocznie (2026/27, TCD). Czesne programu (4 832 EUR rocznie) pokrywa państwo w ramach Free Fees Initiative, jeśli spełniasz warunek: obywatelstwo UE/EOG/Szwajcarii/Wielkiej Brytanii i co najmniej 3 z ostatnich 5 lat pobytu w tych krajach (HEA). Kto go nie spełnia, płaci pełne czesne, łącznie 7 332 EUR w pierwszym roku (wg TCD).",
+    "tuitionUrl": "https://www.tcd.ie/courses/undergraduate/fees/"
+   },
+   "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
+   "quote": "School of Engineering Engineering (Common entry - Year 5 is postgraduate), with specialisation in Civil, Structural and Environmental Engineering UIEG-ENGI-2F UF_000031 €4,832.00 €2,500.00 €7,332.00 €29,570.00"
+  },
+  {
+   "university": "Trinity College Dublin (University of Dublin)",
+   "programName": "Business, Economic and Social Studies (BESS) (TR081)",
+   "set": {
+    "tuitionEu": "Student Contribution 2 500 EUR rocznie (2026/27, TCD). Czesne programu (3 181 EUR rocznie) pokrywa państwo w ramach Free Fees Initiative, jeśli spełniasz warunek: obywatelstwo UE/EOG/Szwajcarii/Wielkiej Brytanii i co najmniej 3 z ostatnich 5 lat pobytu w tych krajach (HEA). Kto go nie spełnia, płaci pełne czesne, łącznie 5 681 EUR w pierwszym roku (wg TCD).",
+    "tuitionUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
+    "tuitionNonEu": "Spoza UE (2026/27): 22 580 EUR rocznie (wg strony opłat TCD)."
+   },
+   "sourceUrl": "https://www.tcd.ie/courses/undergraduate/fees/",
+   "quote": "Business, Economic and Social Studies (B.E.S.S.) UBBE-BESS-2F UF_000001 €3,181.00 €2,500.00 €5,681.00 €22,580.00"
+  },
+  {
+   "university": "Trinity College Dublin (University of Dublin)",
+   "programName": "B.A. Honours Bachelor Degree in Psychology (TR006)",
+   "set": {
+    "academicYear": "2027/28 (opłaty i terminy z cyklu 2026/27, bo cykl 2027/28 nie jest jeszcze opublikowany)",
+    "deadline": "Wniosek CAO do 1 lutego 2026, godz. 17:00 (termin z cyklu 2026/27, czyli wejście we wrześniu 2026). Wnioski spóźnione od 5 marca do 1 maja 2026, godz. 17:00, z dodatkową opłatą. CAO otworzy przyjmowanie wniosków na 2027 dnia 5 listopada 2026; termin zamknięcia na wejście we wrześniu 2027 nie jest jeszcze opublikowany, sprawdź cao.ie.",
+    "requirements": "Strona kursu nie podaje wymogu przedmiotowego; ogólne minimum TCD to zdane matematyka, angielski i język inny niż angielski. Miejsca: 45. Punkty ostatniego naboru: 577 (2025, w skali irlandzkiego Leaving Certificate, do porównania z przelicznikiem CAO). Przelicznik matury na punkty CAO i tabela ocen H1 do O6 są w opisie miasta (Polska matura).",
+    "notes": "Strona kursu nie podaje czesnego ani wymagań przedmiotowych dla tego kursu, dlatego użyto ogólnej strony opłat TCD."
+   },
+   "sourceUrl": "https://www.cao.ie/index.php?page=timetableevents&bb=importantdates",
+   "quote": "1st May (17:00) Closing date for late applications"
+  },
+  {
+   "university": "Trinity College Dublin (University of Dublin)",
+   "programName": "B.A. (Moderatorship) Honours Bachelor Degree in Computer Science (TR033)",
+   "set": {
+    "academicYear": "2027/28 (opłaty i terminy z cyklu 2026/27, bo cykl 2027/28 nie jest jeszcze opublikowany)",
+    "deadline": "Wniosek CAO do 1 lutego 2026, godz. 17:00 (termin z cyklu 2026/27, czyli wejście we wrześniu 2026). Wnioski spóźnione od 5 marca do 1 maja 2026, godz. 17:00, z dodatkową opłatą. CAO otworzy przyjmowanie wniosków na 2027 dnia 5 listopada 2026; termin zamknięcia na wejście we wrześniu 2027 nie jest jeszcze opublikowany, sprawdź cao.ie.",
+    "requirements": "Matematyka H4 w Leaving Cert, czyli według tabeli CAO 60 procent na poziomie rozszerzonym (przeliczone; TCD nie podaje wartości dla Matury). Miejsca: 100. Opcjonalnie M.C.S. (5 lat). Punkty ostatniego naboru: 533 (2025, skala Leaving Certificate). Przelicznik matury na punkty CAO i tabela ocen H1 do O6 są w opisie miasta (Polska matura).",
+    "notes": "Dla przyszłego analityka danych informatyka jest drogą ogólną; osobnego licencjatu Data Science w TCD nie uwzględniono."
+   },
+   "sourceUrl": "https://www.cao.ie/index.php?page=timetableevents&bb=importantdates",
+   "quote": "1st May (17:00) Closing date for late applications"
+  },
+  {
+   "university": "Trinity College Dublin (University of Dublin)",
+   "programName": "M.B., B.Ch., B.A.O. Medicine (TR051)",
+   "set": {
+    "academicYear": "2027/28 (opłaty i terminy z cyklu 2026/27, bo cykl 2027/28 nie jest jeszcze opublikowany)",
+    "deadline": "Wniosek CAO do 1 lutego 2026, godz. 17:00 (termin z cyklu 2026/27, czyli wejście we wrześniu 2026). Wnioski spóźnione od 5 marca do 1 maja 2026, godz. 17:00, z dodatkową opłatą. CAO otworzy przyjmowanie wniosków na 2027 dnia 5 listopada 2026; termin zamknięcia na wejście we wrześniu 2027 nie jest jeszcze opublikowany, sprawdź cao.ie.",
+    "requirements": "Obowiązkowy test HPAT-Ireland zdany w roku naboru (wynik z 2026 jest ważny tylko dla naboru 2026, CAO). Minimum 480 punktów z jednego podejścia do egzaminu dojrzałości lub równoważnego. Wymogi TCD (CAO): 1xH3, 1xH4, 1xH5 i 3xO6/H7; H3 i H4 z przedmiotów ścisłych (biologia, chemia, fizyka); język inny niż angielski; matematyka O4/H6, jeśli bez fizyki. Według tabeli CAO H3 to 70 procent, H4 to 60 procent. Garda vetting i ocena zdrowia. Punkty ostatniego naboru: 739 (2025, łącznie Leaving Certificate i HPAT). Przelicznik matury na punkty CAO i tabela ocen H1 do O6 są w opisie miasta (Polska matura).",
+    "notes": "Kandydat z Matury musi zdać HPAT-Ireland w roku naboru (w 2026: 13 do 16 lutego, opłata 164 EUR; test na 2027 nie ma jeszcze terminu). Wynik 739 to łączne minimum dla TR051 w 2025 (tabela 5 CAO). Rejestracja na test: hpat-ireland.acer.org."
+   },
+   "sourceUrl": "https://www.cao.ie/index.php?page=timetableevents&bb=importantdates",
+   "quote": "1st May (17:00) Closing date for late applications"
+  },
+  {
+   "university": "Trinity College Dublin (University of Dublin)",
+   "programName": "LL.B./B.A. Honours Bachelor Degree in Law (Single Honours) (TR004)",
+   "set": {
+    "academicYear": "2027/28 (opłaty i terminy z cyklu 2026/27, bo cykl 2027/28 nie jest jeszcze opublikowany)",
+    "deadline": "Wniosek CAO do 1 lutego 2026, godz. 17:00 (termin z cyklu 2026/27, czyli wejście we wrześniu 2026). Wnioski spóźnione od 5 marca do 1 maja 2026, godz. 17:00, z dodatkową opłatą. CAO otworzy przyjmowanie wniosków na 2027 dnia 5 listopada 2026; termin zamknięcia na wejście we wrześniu 2027 nie jest jeszcze opublikowany, sprawdź cao.ie.",
+    "requirements": "Strona kursu nie podaje wymogu przedmiotowego; wymagane oficjalne potwierdzenie angielskiego (Band B). Miejsca: 90. Punkty ostatniego naboru: 577 (2025, skala Leaving Certificate). Przelicznik matury na punkty CAO i tabela ocen H1 do O6 są w opisie miasta (Polska matura).",
+    "notes": "To studia prawa irlandzkiego (common law); nie kształcą do zawodu prawnika w Polsce."
+   },
+   "sourceUrl": "https://www.cao.ie/index.php?page=timetableevents&bb=importantdates",
+   "quote": "1st May (17:00) Closing date for late applications"
+  },
+  {
+   "university": "Trinity College Dublin (University of Dublin)",
+   "programName": "B.A.I. Honours Degree / M.A.I. Engineering (TR032)",
+   "set": {
+    "academicYear": "2027/28 (opłaty i terminy z cyklu 2026/27, bo cykl 2027/28 nie jest jeszcze opublikowany)",
+    "deadline": "Wniosek CAO do 1 lutego 2026, godz. 17:00 (termin z cyklu 2026/27, czyli wejście we wrześniu 2026). Wnioski spóźnione od 5 marca do 1 maja 2026, godz. 17:00, z dodatkową opłatą. CAO otworzy przyjmowanie wniosków na 2027 dnia 5 listopada 2026; termin zamknięcia na wejście we wrześniu 2027 nie jest jeszcze opublikowany, sprawdź cao.ie.",
+    "requirements": "Matematyka H4 w Leaving Cert (według tabeli CAO 60 procent na poziomie rozszerzonym). Dwa lata wspólnego programu, potem specjalizacje: Civil, Structural and Environmental Engineering, Mechanical and Manufacturing Engineering, Biomedical, Electronic, Computer, Electronic and Computer. Punkty ostatniego naboru: 577 (2025, skala Leaving Certificate). Przelicznik matury na punkty CAO i tabela ocen H1 do O6 są w opisie miasta (Polska matura).",
+    "notes": "Strona kursu podaje 5 lat (B.A.I. plus M.A.I.); czas samego B.A.I. na niej nie jest podany."
+   },
+   "sourceUrl": "https://www.cao.ie/index.php?page=timetableevents&bb=importantdates",
+   "quote": "1st May (17:00) Closing date for late applications"
+  },
+  {
+   "university": "Trinity College Dublin (University of Dublin)",
+   "programName": "Business, Economic and Social Studies (BESS) (TR081)",
+   "set": {
+    "academicYear": "2027/28 (opłaty i terminy z cyklu 2026/27, bo cykl 2027/28 nie jest jeszcze opublikowany)",
+    "deadline": "Wniosek CAO do 1 lutego 2026, godz. 17:00 (termin z cyklu 2026/27, czyli wejście we wrześniu 2026). Wnioski spóźnione od 5 marca do 1 maja 2026, godz. 17:00, z dodatkową opłatą. CAO otworzy przyjmowanie wniosków na 2027 dnia 5 listopada 2026; termin zamknięcia na wejście we wrześniu 2027 nie jest jeszcze opublikowany, sprawdź cao.ie.",
+    "requirements": "Matematyka H4 lub O2 w Leaving Cert (według tabeli CAO 60 procent rozszerzone albo 80 procent podstawowe). Ekonomia jest jedną z czterech ścieżek od 2. roku (Business, Economics, Political Science, Sociology). Punkty ostatniego naboru: 565 (2025, skala Leaving Certificate). Przelicznik matury na punkty CAO i tabela ocen H1 do O6 są w opisie miasta (Polska matura).",
+    "notes": "Wspólny program z wyborem ekonomii od 2. roku."
+   },
+   "sourceUrl": "https://www.cao.ie/index.php?page=timetableevents&bb=importantdates",
+   "quote": "1st May (17:00) Closing date for late applications"
+  },
+  {
+   "university": "Dublin City University",
+   "programName": "BSc in Computer Science (DC121)",
+   "set": {
+    "tuitionEu": "Student Contribution 2 543 EUR rocznie (2026/27, DCU), jeśli spełniasz warunek Free Fees Initiative: obywatelstwo UE/EOG/Szwajcarii/Wielkiej Brytanii i co najmniej 3 z ostatnich 5 lat pobytu w tych krajach (HEA). Kto go nie spełnia, płaci „EU Status Fee” 6 679 EUR rocznie.",
+    "tuitionUrl": "https://www.dcu.ie/fees/undergraduate-fees"
+   },
+   "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees",
+   "quote": "Computer Science All programme fees are per annum and subject to an annual increase. €2,543 €6,679 €17,900"
+  },
+  {
+   "university": "Dublin City University",
+   "programName": "BSc in Computer Science (DC121)",
+   "set": {
+    "languageProof": "DCU: IELTS Academic 6,5 ogółem i co najmniej 6,0 w każdej części, z jednego podejścia. Lista egzaminów szkolnych uznawanych przez DCU za dowód angielskiego wymienia Leaving Cert, A-level i GCSE, bez polskiej Matury. CAO uznaje Maturę rozszerzoną z angielskiego (co najmniej 60 procent, ustny co najmniej 55 procent) jako ogólne minimum. Napisz na ugadmissions@dcu.ie, a do czasu odpowiedzi przygotuj IELTS 6,5."
+   },
+   "sourceUrl": "http://www.dcu.ie/registry/english.shtml",
+   "quote": "Applicants whose first language is not English must provide evidence of equivalent competence in English Language, through their school leaving examination or in a recognised English language test."
+  },
+  {
+   "university": "Dublin City University",
+   "programName": "BSc in Computer Science (DC121)",
+   "set": {
+    "selective": true,
+    "requirements": "Leaving Cert: minimum O4 lub H6 z matematyki (według tabeli CAO 60 procent podstawowe albo 40 procent rozszerzone). Płatny 6-miesięczny staż INTRA w 3. roku. Minimum punktów według strony kursu DCU: 487 (skala Leaving Certificate). Przelicznik matury na punkty CAO i tabela ocen H1 do O6 są w opisie miasta (Polska matura).",
+    "notes": "Strona kursu DCU podaje minimum punktów bez roku naboru."
+   },
+   "sourceUrl": "https://www2.cao.ie/downloads/documents/2026/Guidelines-EU-EFTA-UK-2026.pdf",
+   "quote": "Admission to most courses is competitive and for these courses a standard in excess of the minimum is required."
+  },
+  {
+   "university": "Dublin City University",
+   "programName": "BSc in Computer Science (DC121)",
+   "set": {
+    "academicYear": "2027/28 (opłaty i terminy z cyklu 2026/27, bo cykl 2027/28 nie jest jeszcze opublikowany)",
+    "deadline": "Wniosek CAO do 1 lutego 2026, godz. 17:00 (termin z cyklu 2026/27, czyli wejście we wrześniu 2026). Wnioski spóźnione od 5 marca do 1 maja 2026, godz. 17:00, z dodatkową opłatą. CAO otworzy przyjmowanie wniosków na 2027 dnia 5 listopada 2026; termin zamknięcia na wejście we wrześniu 2027 nie jest jeszcze opublikowany, sprawdź cao.ie."
+   },
+   "sourceUrl": "https://www.cao.ie/index.php?page=timetableevents&bb=importantdates",
+   "quote": "1st May (17:00) Closing date for late applications"
+  },
+  {
+   "university": "Dublin City University",
+   "programName": "BSc in Data Science and Artificial Intelligence (DC123)",
+   "set": {
+    "tuitionEu": "Student Contribution 2 543 EUR rocznie (2026/27, DCU), jeśli spełniasz warunek Free Fees Initiative: obywatelstwo UE/EOG/Szwajcarii/Wielkiej Brytanii i co najmniej 3 z ostatnich 5 lat pobytu w tych krajach (HEA). Kto go nie spełnia, płaci „EU Status Fee” 6 679 EUR rocznie.",
+    "tuitionUrl": "https://www.dcu.ie/fees/undergraduate-fees"
+   },
+   "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees",
+   "quote": "Data Science and Artificial Intelligence All programme fees are per annum and subject to an annual increase. €2,543 €6,679 €17,900"
+  },
+  {
+   "university": "Dublin City University",
+   "programName": "BSc in Data Science and Artificial Intelligence (DC123)",
+   "set": {
+    "languageProof": "DCU: IELTS Academic 6,5 ogółem i co najmniej 6,0 w każdej części, z jednego podejścia. Lista egzaminów szkolnych uznawanych przez DCU za dowód angielskiego wymienia Leaving Cert, A-level i GCSE, bez polskiej Matury. CAO uznaje Maturę rozszerzoną z angielskiego (co najmniej 60 procent, ustny co najmniej 55 procent) jako ogólne minimum. Napisz na ugadmissions@dcu.ie, a do czasu odpowiedzi przygotuj IELTS 6,5."
+   },
+   "sourceUrl": "http://www.dcu.ie/registry/english.shtml",
+   "quote": "Applicants whose first language is not English must provide evidence of equivalent competence in English Language, through their school leaving examination or in a recognised English language test."
+  },
+  {
+   "university": "Dublin City University",
+   "programName": "BSc in Data Science and Artificial Intelligence (DC123)",
+   "set": {
+    "selective": true,
+    "requirements": "Leaving Cert: minimum H3 z matematyki (według tabeli CAO 70 procent na poziomie rozszerzonym). Płatny 9-miesięczny staż INTRA w 3. roku. Minimum punktów według strony kursu DCU: 500 (skala Leaving Certificate). Przelicznik matury na punkty CAO i tabela ocen H1 do O6 są w opisie miasta (Polska matura).",
+    "notes": "Strona kursu DCU podaje minimum punktów bez roku naboru."
+   },
+   "sourceUrl": "https://www2.cao.ie/downloads/documents/2026/Guidelines-EU-EFTA-UK-2026.pdf",
+   "quote": "Admission to most courses is competitive and for these courses a standard in excess of the minimum is required."
+  },
+  {
+   "university": "Dublin City University",
+   "programName": "BSc in Data Science and Artificial Intelligence (DC123)",
+   "set": {
+    "academicYear": "2027/28 (opłaty i terminy z cyklu 2026/27, bo cykl 2027/28 nie jest jeszcze opublikowany)",
+    "deadline": "Wniosek CAO do 1 lutego 2026, godz. 17:00 (termin z cyklu 2026/27, czyli wejście we wrześniu 2026). Wnioski spóźnione od 5 marca do 1 maja 2026, godz. 17:00, z dodatkową opłatą. CAO otworzy przyjmowanie wniosków na 2027 dnia 5 listopada 2026; termin zamknięcia na wejście we wrześniu 2027 nie jest jeszcze opublikowany, sprawdź cao.ie."
+   },
+   "sourceUrl": "https://www.cao.ie/index.php?page=timetableevents&bb=importantdates",
+   "quote": "1st May (17:00) Closing date for late applications"
+  },
+  {
+   "university": "Dublin City University",
+   "programName": "BSc in Psychology (DC208)",
+   "set": {
+    "tuitionEu": "Student Contribution 2 543 EUR rocznie (2026/27, DCU), jeśli spełniasz warunek Free Fees Initiative: obywatelstwo UE/EOG/Szwajcarii/Wielkiej Brytanii i co najmniej 3 z ostatnich 5 lat pobytu w tych krajach (HEA). Kto go nie spełnia, płaci „EU Status Fee” 7 295 EUR rocznie.",
+    "tuitionUrl": "https://www.dcu.ie/fees/undergraduate-fees"
+   },
+   "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees",
+   "quote": "Psychology All programme fees are per annum and subject to an annual increase. €2,543 €7,295 €16,900"
+  },
+  {
+   "university": "Dublin City University",
+   "programName": "BSc in Psychology (DC208)",
+   "set": {
+    "languageProof": "DCU: IELTS Academic 6,5 ogółem i co najmniej 6,0 w każdej części, z jednego podejścia. Lista egzaminów szkolnych uznawanych przez DCU za dowód angielskiego wymienia Leaving Cert, A-level i GCSE, bez polskiej Matury. CAO uznaje Maturę rozszerzoną z angielskiego (co najmniej 60 procent, ustny co najmniej 55 procent) jako ogólne minimum. Napisz na ugadmissions@dcu.ie, a do czasu odpowiedzi przygotuj IELTS 6,5."
+   },
+   "sourceUrl": "http://www.dcu.ie/registry/english.shtml",
+   "quote": "Applicants whose first language is not English must provide evidence of equivalent competence in English Language, through their school leaving examination or in a recognised English language test."
+  },
+  {
+   "university": "Dublin City University",
+   "programName": "BSc in Psychology (DC208)",
+   "set": {
+    "selective": true,
+    "requirements": "Leaving Cert: minimum O4 lub H6 z matematyki (według tabeli CAO 60 procent podstawowe albo 40 procent rozszerzone). Staż INTRA w 3. roku. Minimum punktów według strony kursu DCU: 533 (skala Leaving Certificate). Przelicznik matury na punkty CAO i tabela ocen H1 do O6 są w opisie miasta (Polska matura).",
+    "notes": "Strona kursu DCU podaje minimum punktów bez roku naboru."
+   },
+   "sourceUrl": "https://www2.cao.ie/downloads/documents/2026/Guidelines-EU-EFTA-UK-2026.pdf",
+   "quote": "Admission to most courses is competitive and for these courses a standard in excess of the minimum is required."
+  },
+  {
+   "university": "Dublin City University",
+   "programName": "BSc in Psychology (DC208)",
+   "set": {
+    "academicYear": "2027/28 (opłaty i terminy z cyklu 2026/27, bo cykl 2027/28 nie jest jeszcze opublikowany)",
+    "deadline": "Wniosek CAO do 1 lutego 2026, godz. 17:00 (termin z cyklu 2026/27, czyli wejście we wrześniu 2026). Wnioski spóźnione od 5 marca do 1 maja 2026, godz. 17:00, z dodatkową opłatą. CAO otworzy przyjmowanie wniosków na 2027 dnia 5 listopada 2026; termin zamknięcia na wejście we wrześniu 2027 nie jest jeszcze opublikowany, sprawdź cao.ie."
+   },
+   "sourceUrl": "https://www.cao.ie/index.php?page=timetableevents&bb=importantdates",
+   "quote": "1st May (17:00) Closing date for late applications"
+  },
+  {
+   "university": "Dublin City University",
+   "programName": "BA in Journalism (DC132)",
+   "set": {
+    "tuitionEu": "Student Contribution 2 543 EUR rocznie (2026/27, DCU), jeśli spełniasz warunek Free Fees Initiative: obywatelstwo UE/EOG/Szwajcarii/Wielkiej Brytanii i co najmniej 3 z ostatnich 5 lat pobytu w tych krajach (HEA). Kto go nie spełnia, płaci „EU Status Fee” 6 679 EUR rocznie.",
+    "tuitionUrl": "https://www.dcu.ie/fees/undergraduate-fees"
+   },
+   "sourceUrl": "https://www.dcu.ie/fees/undergraduate-fees",
+   "quote": "Journalism All programme fees are per annum and subject to an annual increase. €2,543 €6,679 €17,300"
+  },
+  {
+   "university": "Dublin City University",
+   "programName": "BA in Journalism (DC132)",
+   "set": {
+    "languageProof": "DCU: IELTS Academic 6,5 ogółem i co najmniej 6,0 w każdej części, z jednego podejścia. Lista egzaminów szkolnych uznawanych przez DCU za dowód angielskiego wymienia Leaving Cert, A-level i GCSE, bez polskiej Matury. CAO uznaje Maturę rozszerzoną z angielskiego (co najmniej 60 procent, ustny co najmniej 55 procent) jako ogólne minimum. Napisz na ugadmissions@dcu.ie, a do czasu odpowiedzi przygotuj IELTS 6,5."
+   },
+   "sourceUrl": "http://www.dcu.ie/registry/english.shtml",
+   "quote": "Applicants whose first language is not English must provide evidence of equivalent competence in English Language, through their school leaving examination or in a recognised English language test."
+  },
+  {
+   "university": "Dublin City University",
+   "programName": "BA in Journalism (DC132)",
+   "set": {
+    "selective": true,
+    "requirements": "Leaving Cert: minimum H4 z angielskiego (według tabeli CAO 60 procent na poziomie rozszerzonym); dla Matury wymóg z angielskiego dodatkowo ocenia DCU. Obowiązkowy 8-tygodniowy staż w mediach w ostatnim roku. Minimum punktów według strony kursu DCU: 409 (skala Leaving Certificate). Przelicznik matury na punkty CAO i tabela ocen H1 do O6 są w opisie miasta (Polska matura).",
+    "notes": "Strona kursu DCU podaje minimum punktów bez roku naboru."
+   },
+   "sourceUrl": "https://www2.cao.ie/downloads/documents/2026/Guidelines-EU-EFTA-UK-2026.pdf",
+   "quote": "Admission to most courses is competitive and for these courses a standard in excess of the minimum is required."
+  },
+  {
+   "university": "Dublin City University",
+   "programName": "BA in Journalism (DC132)",
+   "set": {
+    "academicYear": "2027/28 (opłaty i terminy z cyklu 2026/27, bo cykl 2027/28 nie jest jeszcze opublikowany)",
+    "deadline": "Wniosek CAO do 1 lutego 2026, godz. 17:00 (termin z cyklu 2026/27, czyli wejście we wrześniu 2026). Wnioski spóźnione od 5 marca do 1 maja 2026, godz. 17:00, z dodatkową opłatą. CAO otworzy przyjmowanie wniosków na 2027 dnia 5 listopada 2026; termin zamknięcia na wejście we wrześniu 2027 nie jest jeszcze opublikowany, sprawdź cao.ie."
+   },
+   "sourceUrl": "https://www.cao.ie/index.php?page=timetableevents&bb=importantdates",
+   "quote": "1st May (17:00) Closing date for late applications"
+  },
+  {
+   "university": "Technological University Dublin (TU Dublin)",
+   "programName": "Bachelor of Science (Honours) in Computer Science (TU856)",
+   "set": {
+    "tuitionEu": "Student Contribution 2 500 EUR rocznie (2026/27), jeśli spełniasz warunek Free Fees Initiative: obywatelstwo UE/EOG/Szwajcarii/Wielkiej Brytanii i co najmniej 3 z ostatnich 5 lat pobytu w tych krajach (HEA). TU Dublin podaje stawkę 3 000 EUR i obniżkę o 500 EUR dla osób objętych Free Fees Initiative (stąd na stronie kursu widnieje 3 000 EUR). Czesne programu (819 EUR rocznie) pokrywa wtedy państwo. Kto nie spełnia warunku, płaci Student Contribution i czesne (3 000 EUR plus 819 EUR rocznie).",
+    "tuitionUrl": "https://www.tudublin.ie/for-students/student-services-and-support/fees-grants/full-time-undergraduate-fees/"
+   },
+   "sourceUrl": "https://www.tudublin.ie/for-students/student-services-and-support/fees-grants/full-time-undergraduate-fees/",
+   "quote": "students who are eligible for the Free Fees Initiative are also eligible for a reduction of €500 on the student contribution rate"
+  },
+  {
+   "university": "Technological University Dublin (TU Dublin)",
+   "programName": "Bachelor of Science (Honours) in Computer Science (TU856)",
+   "set": {
+    "selective": true,
+    "requirements": "Leaving Cert: min. 6 przedmiotów na poziomie wyższym, dwa H5, matematyka O5 lub H6, angielski lub irlandzki O6/H6 (według tabeli CAO H5 to 50 procent, H6 to 40 procent na poziomie rozszerzonym). Zakres punktów w 2026: 423 do 613 (według strony kursu, skala Leaving Certificate). Przelicznik matury na punkty CAO i tabela ocen H1 do O6 są w opisie miasta (Polska matura).",
+    "notes": "Kampus Grangegorman. Zakres punktów jest rozstrzałem według strony kursu, a nie średnią.",
+    "languageProof": "CAO: IELTS Academic 6,5 ogółem i co najmniej 6,0 w każdej części albo Matura rozszerzona z angielskiego co najmniej 60 procent z ustnym co najmniej 55 procent. TU Dublin może wymagać więcej; listę akceptowanych dowodów sprawdź na stronie kursu."
+   },
+   "sourceUrl": "https://www2.cao.ie/downloads/documents/2026/Guidelines-EU-EFTA-UK-2026.pdf",
+   "quote": "Admission to most courses is competitive and for these courses a standard in excess of the minimum is required."
+  },
+  {
+   "university": "Technological University Dublin (TU Dublin)",
+   "programName": "Bachelor of Science (Honours) in Computer Science (TU856)",
+   "set": {
+    "academicYear": "2027/28 (opłaty i terminy z cyklu 2026/27, bo cykl 2027/28 nie jest jeszcze opublikowany)",
+    "deadline": "Wniosek CAO do 1 lutego 2026, godz. 17:00 (termin z cyklu 2026/27, czyli wejście we wrześniu 2026). Wnioski spóźnione od 5 marca do 1 maja 2026, godz. 17:00, z dodatkową opłatą. CAO otworzy przyjmowanie wniosków na 2027 dnia 5 listopada 2026; termin zamknięcia na wejście we wrześniu 2027 nie jest jeszcze opublikowany, sprawdź cao.ie. TU Dublin podaje te same daty (spóźnione wnioski od 5 marca do 1 maja)."
+   },
+   "sourceUrl": "https://www.cao.ie/index.php?page=timetableevents&bb=importantdates",
+   "quote": "1st May (17:00) Closing date for late applications"
+  },
+  {
+   "university": "Technological University Dublin (TU Dublin)",
+   "programName": "Bachelor of Architecture (Honours) in Architecture (TU832)",
+   "set": {
+    "tuitionEu": "Student Contribution 2 500 EUR rocznie (2026/27), jeśli spełniasz warunek Free Fees Initiative: obywatelstwo UE/EOG/Szwajcarii/Wielkiej Brytanii i co najmniej 3 z ostatnich 5 lat pobytu w tych krajach (HEA). TU Dublin podaje stawkę 3 000 EUR i obniżkę o 500 EUR dla osób objętych Free Fees Initiative (stąd na stronie kursu widnieje 3 000 EUR). Czesne programu (1 450 EUR rocznie) pokrywa wtedy państwo. Kto nie spełnia warunku, płaci Student Contribution i czesne (3 000 EUR plus 1 450 EUR rocznie).",
+    "tuitionUrl": "https://www.tudublin.ie/for-students/student-services-and-support/fees-grants/full-time-undergraduate-fees/"
+   },
+   "sourceUrl": "https://www.tudublin.ie/for-students/student-services-and-support/fees-grants/full-time-undergraduate-fees/",
+   "quote": "students who are eligible for the Free Fees Initiative are also eligible for a reduction of €500 on the student contribution rate"
+  },
+  {
+   "university": "Technological University Dublin (TU Dublin)",
+   "programName": "Bachelor of Architecture (Honours) in Architecture (TU832)",
+   "set": {
+    "selective": true,
+    "requirements": "Leaving Cert: min. 6 przedmiotów H, dwa H5, angielski lub irlandzki O6/H7, matematyka O6/H7. Wymagane portfolio i rozmowa. Zakres punktów w 2026: 635 do 786 (według strony kursu, skala Leaving Certificate). Przelicznik matury na punkty CAO i tabela ocen H1 do O6 są w opisie miasta (Polska matura).",
+    "notes": "Kampus Bolton Street. Szczegóły portfolio (termin, format) nie są podane publicznie. Czy 5 lat prowadzi do pełnych uprawnień zawodowych w Polsce, nie sprawdzano.",
+    "languageProof": "CAO: IELTS Academic 6,5 ogółem i co najmniej 6,0 w każdej części albo Matura rozszerzona z angielskiego co najmniej 60 procent z ustnym co najmniej 55 procent. TU Dublin może wymagać więcej; listę akceptowanych dowodów sprawdź na stronie kursu."
+   },
+   "sourceUrl": "https://www2.cao.ie/downloads/documents/2026/Guidelines-EU-EFTA-UK-2026.pdf",
+   "quote": "Admission to most courses is competitive and for these courses a standard in excess of the minimum is required."
+  },
+  {
+   "university": "Technological University Dublin (TU Dublin)",
+   "programName": "Bachelor of Architecture (Honours) in Architecture (TU832)",
+   "set": {
+    "academicYear": "2027/28 (opłaty i terminy z cyklu 2026/27, bo cykl 2027/28 nie jest jeszcze opublikowany)",
+    "deadline": "Wniosek CAO do 1 lutego 2026, godz. 17:00 (termin z cyklu 2026/27, czyli wejście we wrześniu 2026). Wnioski spóźnione od 5 marca do 1 maja 2026, godz. 17:00, z dodatkową opłatą. CAO otworzy przyjmowanie wniosków na 2027 dnia 5 listopada 2026; termin zamknięcia na wejście we wrześniu 2027 nie jest jeszcze opublikowany, sprawdź cao.ie. TU Dublin podaje te same daty (spóźnione wnioski od 5 marca do 1 maja)."
+   },
+   "sourceUrl": "https://www.cao.ie/index.php?page=timetableevents&bb=importantdates",
+   "quote": "1st May (17:00) Closing date for late applications"
+  },
+  {
+   "university": "Technological University Dublin (TU Dublin)",
+   "programName": "Bachelor of Engineering (Honours) in Engineering (General Entry) (TU805)",
+   "set": {
+    "tuitionEu": "Student Contribution 2 500 EUR rocznie (2026/27), jeśli spełniasz warunek Free Fees Initiative: obywatelstwo UE/EOG/Szwajcarii/Wielkiej Brytanii i co najmniej 3 z ostatnich 5 lat pobytu w tych krajach (HEA). TU Dublin podaje stawkę 3 000 EUR i obniżkę o 500 EUR dla osób objętych Free Fees Initiative (stąd na stronie kursu widnieje 3 000 EUR). Czesne programu (1 450 EUR rocznie) pokrywa wtedy państwo. Kto nie spełnia warunku, płaci Student Contribution i czesne (3 000 EUR plus 1 450 EUR rocznie).",
+    "tuitionUrl": "https://www.tudublin.ie/for-students/student-services-and-support/fees-grants/full-time-undergraduate-fees/"
+   },
+   "sourceUrl": "https://www.tudublin.ie/for-students/student-services-and-support/fees-grants/full-time-undergraduate-fees/",
+   "quote": "students who are eligible for the Free Fees Initiative are also eligible for a reduction of €500 on the student contribution rate"
+  },
+  {
+   "university": "Technological University Dublin (TU Dublin)",
+   "programName": "Bachelor of Engineering (Honours) in Engineering (General Entry) (TU805)",
+   "set": {
+    "selective": true,
+    "requirements": "Pierwszy rok wspólny (TU805), potem Year 2 Civil Engineering (TU826) lub Mechanical Engineering (TU822). Wymagania: min. 6 przedmiotów H, matematyka H4 (albo H4 Applied Mathematics plus H6 Mathematics), angielski lub irlandzki O6/H7. Według tabeli CAO H4 to 60 procent na poziomie rozszerzonym. Zakres punktów w 2026: 510 do 613 (według strony kursu, skala Leaving Certificate). Przelicznik matury na punkty CAO i tabela ocen H1 do O6 są w opisie miasta (Polska matura).",
+    "notes": "Strona TU805 podaje „Duration 1 year” jako rok wspólny; pełny stopień trwa 4 lata (strona TU826: 4 lata, 3 po TU805). TU822 i TU826 mają też wejście z poziomu 6 do 8, w 2026 nieprzyjmowane według strony TU822.",
+    "languageProof": "CAO: IELTS Academic 6,5 ogółem i co najmniej 6,0 w każdej części albo Matura rozszerzona z angielskiego co najmniej 60 procent z ustnym co najmniej 55 procent. TU Dublin może wymagać więcej; listę akceptowanych dowodów sprawdź na stronie kursu."
+   },
+   "sourceUrl": "https://www2.cao.ie/downloads/documents/2026/Guidelines-EU-EFTA-UK-2026.pdf",
+   "quote": "Admission to most courses is competitive and for these courses a standard in excess of the minimum is required."
+  },
+  {
+   "university": "Technological University Dublin (TU Dublin)",
+   "programName": "Bachelor of Engineering (Honours) in Engineering (General Entry) (TU805)",
+   "set": {
+    "academicYear": "2027/28 (opłaty i terminy z cyklu 2026/27, bo cykl 2027/28 nie jest jeszcze opublikowany)",
+    "deadline": "Wniosek CAO do 1 lutego 2026, godz. 17:00 (termin z cyklu 2026/27, czyli wejście we wrześniu 2026). Wnioski spóźnione od 5 marca do 1 maja 2026, godz. 17:00, z dodatkową opłatą. CAO otworzy przyjmowanie wniosków na 2027 dnia 5 listopada 2026; termin zamknięcia na wejście we wrześniu 2027 nie jest jeszcze opublikowany, sprawdź cao.ie. TU Dublin podaje te same daty (spóźnione wnioski od 5 marca do 1 maja)."
+   },
+   "sourceUrl": "https://www.cao.ie/index.php?page=timetableevents&bb=importantdates",
+   "quote": "1st May (17:00) Closing date for late applications"
+  },
+  {
+   "university": "Technological University Dublin (TU Dublin)",
+   "programName": "Bachelor of Science (Honours) in Business & Law (TU904)",
+   "set": {
+    "tuitionEu": "Student Contribution 2 500 EUR rocznie (2026/27), jeśli spełniasz warunek Free Fees Initiative: obywatelstwo UE/EOG/Szwajcarii/Wielkiej Brytanii i co najmniej 3 z ostatnich 5 lat pobytu w tych krajach (HEA). TU Dublin podaje stawkę 3 000 EUR i obniżkę o 500 EUR dla osób objętych Free Fees Initiative (stąd na stronie kursu widnieje 3 000 EUR). Czesne programu (819 EUR rocznie) pokrywa wtedy państwo. Kto nie spełnia warunku, płaci Student Contribution i czesne (3 000 EUR plus 819 EUR rocznie).",
+    "tuitionUrl": "https://www.tudublin.ie/for-students/student-services-and-support/fees-grants/full-time-undergraduate-fees/"
+   },
+   "sourceUrl": "https://www.tudublin.ie/for-students/student-services-and-support/fees-grants/full-time-undergraduate-fees/",
+   "quote": "students who are eligible for the Free Fees Initiative are also eligible for a reduction of €500 on the student contribution rate"
+  },
+  {
+   "university": "Technological University Dublin (TU Dublin)",
+   "programName": "Bachelor of Science (Honours) in Business & Law (TU904)",
+   "set": {
+    "selective": true,
+    "requirements": "Leaving Cert: min. 6 przedmiotów, trzy H5, matematyka O4/H7, angielski lub irlandzki O4/H7 (według tabeli CAO O4 to 60 procent na poziomie podstawowym). Według strony uznawany przez King's Inns za qualifying law degree dla barristerów. Zakres punktów w 2026: 455 do 566 (według strony kursu, skala Leaving Certificate). Przelicznik matury na punkty CAO i tabela ocen H1 do O6 są w opisie miasta (Polska matura).",
+    "notes": "Kampusy Aungier Street i Grangegorman. Czy to droga do zawodu prawnika w Polsce, nie sprawdzano.",
+    "languageProof": "CAO: IELTS Academic 6,5 ogółem i co najmniej 6,0 w każdej części albo Matura rozszerzona z angielskiego co najmniej 60 procent z ustnym co najmniej 55 procent. TU Dublin może wymagać więcej; listę akceptowanych dowodów sprawdź na stronie kursu."
+   },
+   "sourceUrl": "https://www2.cao.ie/downloads/documents/2026/Guidelines-EU-EFTA-UK-2026.pdf",
+   "quote": "Admission to most courses is competitive and for these courses a standard in excess of the minimum is required."
+  },
+  {
+   "university": "Technological University Dublin (TU Dublin)",
+   "programName": "Bachelor of Science (Honours) in Business & Law (TU904)",
+   "set": {
+    "academicYear": "2027/28 (opłaty i terminy z cyklu 2026/27, bo cykl 2027/28 nie jest jeszcze opublikowany)",
+    "deadline": "Wniosek CAO do 1 lutego 2026, godz. 17:00 (termin z cyklu 2026/27, czyli wejście we wrześniu 2026). Wnioski spóźnione od 5 marca do 1 maja 2026, godz. 17:00, z dodatkową opłatą. CAO otworzy przyjmowanie wniosków na 2027 dnia 5 listopada 2026; termin zamknięcia na wejście we wrześniu 2027 nie jest jeszcze opublikowany, sprawdź cao.ie. TU Dublin podaje te same daty (spóźnione wnioski od 5 marca do 1 maja)."
+   },
+   "sourceUrl": "https://www.cao.ie/index.php?page=timetableevents&bb=importantdates",
+   "quote": "1st May (17:00) Closing date for late applications"
+  },
+  {
+   "university": "University College Dublin (UCD)",
+   "programName": "Medicine (DN400)",
+   "set": {
+    "matura": "uznawana z warunkami (CAO: Matura przeliczana na punkty irlandzkie; minimum 480 punktów z jednego podejścia i obowiązkowy test HPAT-Ireland zdany w roku naboru)",
+    "requirements": "Wg CAO: DN400, 6 lat, minimum 2xH5 i 4xO6/H7; angielski, irlandzki, trzeci język, matematyka O6/H7 i jedna z nauk ścisłych O6/H7; minimum 480 punktów z jednego podejścia; HPAT-Ireland obowiązkowy w roku naboru; Garda vetting i ocena zdrowia. Minimum 2025: 738 (łącznie Leaving Certificate i HPAT). Przelicznik matury na punkty CAO i tabela ocen H1 do O6 są w opisie miasta (Polska matura).",
+    "tuitionEu": "Kwoty Student Contribution i czesnego dla medycyny UCD na 2026/27 nie są podane na stronie opłat uczelni; do potwierdzenia na stronie uczelni. Warunek Free Fees Initiative jak w pozostałych uczelniach (HEA).",
+    "notes": "W tym mieście UCD opisano tylko przez medycynę i informatykę. UCD ma wiele innych kierunków (np. DN500 Arts, DN200 Science), których tu nie uwzględniono. Wynik HPAT z 2026 jest ważny tylko dla naboru 2026, więc kandydat na 2027 musi zdawać test ponownie."
+   },
+   "sourceUrl": "https://www2.cao.ie/downloads/documents/2026/UGMedEntry2026.pdf",
+   "quote": "3.   complete the required admissions test (HPAT-Ireland) in 2026."
+  },
+  {
+   "university": "University College Dublin (UCD)",
+   "programName": "Medicine (DN400)",
+   "set": {
+    "academicYear": "2027/28 (opłaty i terminy z cyklu 2026/27, bo cykl 2027/28 nie jest jeszcze opublikowany)",
+    "deadline": "Wniosek CAO do 1 lutego 2026, godz. 17:00 (termin z cyklu 2026/27, czyli wejście we wrześniu 2026). Wnioski spóźnione od 5 marca do 1 maja 2026, godz. 17:00, z dodatkową opłatą. CAO otworzy przyjmowanie wniosków na 2027 dnia 5 listopada 2026; termin zamknięcia na wejście we wrześniu 2027 nie jest jeszcze opublikowany, sprawdź cao.ie. Medycyna: test HPAT-Ireland w 2026 odbył się 13 do 16 lutego, a termin testu na 2027 nie został jeszcze opublikowany."
+   },
+   "sourceUrl": "https://www.cao.ie/index.php?page=timetableevents&bb=importantdates",
+   "quote": "1st May (17:00) Closing date for late applications"
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [
+  {
+   "university": "University College Dublin (UCD)",
+   "universityUrl": "https://www.ucd.ie",
+   "universityType": "uniwersytet",
+   "program": {
+    "name": "Computer Science BSc (DN201)",
+    "nameEn": "Computer Science (BSc)",
+    "careerIds": [
+     "programista",
+     "analityk-danych"
+    ],
+    "level": "licencjat",
+    "durationYears": 4,
+    "languages": [
+     "angielski"
+    ],
+    "english": true,
+    "academicYear": "2027/28 (opłaty i terminy z cyklu 2026/27, bo cykl 2027/28 nie jest jeszcze opublikowany)",
+    "tuitionEu": "Kwoty Student Contribution i czesnego UCD na 2026/27 nie są podane na stronie kursu; do potwierdzenia na stronie opłat uczelni. Warunek Free Fees Initiative jak w pozostałych uczelniach (HEA).",
+    "tuitionNonEu": null,
+    "tuitionUrl": "https://www.ucd.ie/students/fees/eucoursefees/euundergraduatefees202627/",
+    "matura": "uznawana z warunkami (CAO: Matura przeliczana na punkty irlandzkie; UCD odsyła do strony z wymaganiami według krajów)",
+    "requirements": "Leaving Cert: O2/H6 z matematyki, O6/H7 z angielskiego, irlandzkiego i trzech innych przedmiotów. UCD zaleca co najmniej H4 z matematyki (według tabeli CAO 60 procent na poziomie rozszerzonym). Punkty CAO 2026: 540 (skala Leaving Certificate). 8-miesięczny staż w 3. roku jest opcjonalny. Przelicznik matury na punkty CAO i tabela ocen H1 do O6 są w opisie miasta (Polska matura).",
+    "languageProof": "UCD odsyła do strony z wymaganiami według krajów (UCD Global). CAO: IELTS Academic 6,5 ogółem i co najmniej 6,0 w każdej części albo Matura rozszerzona z angielskiego co najmniej 60 procent z ustnym co najmniej 55 procent.",
+    "selective": true,
+    "admissionUrl": "https://www.ucd.ie/admissions/",
+    "deadline": "Wniosek CAO do 1 lutego 2026, godz. 17:00 (termin z cyklu 2026/27, czyli wejście we wrześniu 2026). Wnioski spóźnione od 5 marca do 1 maja 2026, godz. 17:00, z dodatkową opłatą. CAO otworzy przyjmowanie wniosków na 2027 dnia 5 listopada 2026; termin zamknięcia na wejście we wrześniu 2027 nie jest jeszcze opublikowany, sprawdź cao.ie.",
+    "applyUrl": "https://www.cao.ie",
+    "url": "https://hub.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=COURSE&MAJR=CSSF",
+    "notes": "Wspólny wstęp na informatykę (DN201), z możliwością wyboru ścieżki Computer Science with Data Science and Artificial Intelligence. Kampus Belfield."
+   },
+   "sourceUrl": "https://hub.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=COURSE&MAJR=CSSF",
+   "quote": "CAO Points 2026 540 Leaving Cert Subject Entry Requirements O2/H6 in Mathematics, O6/H7 in English, Irish and three other recognised subjects."
+  }
+ ],
+ "summaryPatches": [
+  {
+   "label": "Rekrutacja",
+   "remove": true
+  },
+  {
+   "label": "Polska matura",
+   "text": "Irlandia nie ma ogólnego testu wstępnego; rekrutację prowadzi CAO (cao.ie). Polskie Świadectwo Dojrzałości jest uznawane według zasad CAO (rozdział Poland w wytycznych na 2026), a samo świadectwo ukończenia liceum liczy się do maksimum 525 punktów. Minimum na studia poziomu 8: 6 różnych przedmiotów w sumie z Matury i świadectwa, w tym 3 przedmioty z Matury; w wariancie 3xH5 trzy z nich na poziomie rozszerzonym co najmniej 30 procent (wariant 2xH5 wymaga dwóch). Za zdany przedmiot uznaje się 30 procent na poziomie rozszerzonym lub 40 procent na podstawowym. Przelicznik na punkty CAO (średnia z 4 najlepszych przedmiotów z jednego podejścia, podstawowy waży 60 procent rozszerzonego): 100 procent to 600, 90 procent 553, 80 procent 509, 70 procent 475, 60 procent 444, 50 procent 419, 40 procent 388, 30 procent 352, 25 procent 337; plus 25 punktów za matematykę rozszerzoną co najmniej 40 procent. Tabela ocen do porównania z wymaganiami przedmiotowymi uczelni (poziom rozszerzony): H1 90 procent, H2 80, H3 70, H4 60, H5 50, H6 40, H7 30; (podstawowy): O1 90, O2 80, O3 70, O4 60, O5 50, O6 30. Są to przeliczenia orientacyjne, uczelnie nie podają progów dla Matury. Wymagane są kopie wyników i świadectwa z tłumaczeniem, wysłane do CAO. Większość kierunków jest konkurencyjna, więc liczy się wynik wyraźnie ponad minimum. Medycyna wymaga dodatkowo HPAT-Ireland i co najmniej 480 punktów, architektura portfolio. Punkty ostatniego naboru podane przy programach są w skali irlandzkiego Leaving Certificate.",
+   "sourceUrl": "https://www2.cao.ie/downloads/documents/2026/Guidelines-EU-EFTA-UK-2026.pdf",
+   "quote": "Bonus points of 25 will be awarded for 40% at extended level Mathematics"
+  },
+  {
+   "label": "Opłaty",
+   "text": "Obywatele UE, którzy spełniają warunek Free Fees Initiative (obywatelstwo UE/EOG/Szwajcarii/Wielkiej Brytanii i co najmniej 3 z ostatnich 5 lat pobytu w tych krajach), płacą jedynie Student Contribution (czesne pokrywa państwo). W 2026/27 jest to 2 500 EUR rocznie w TCD i TU Dublin oraz 2 543 EUR w DCU. Kwota 3 000 EUR, którą TU Dublin pokazuje na stronach kursów, to stawka sprzed obniżki: uczelnia podaje obniżkę o 500 EUR z budżetu 2026 dla osób objętych Free Fees Initiative, więc realnie płaci się 2 500 EUR. Kto warunku pobytu nie spełnia, płaci pełne czesne, np. w TCD 3 181 do 5 871 EUR plus Student Contribution, a w DCU „EU Status Fee” 6 679 do 7 295 EUR rocznie. Studenci spoza UE płacą rocznie: DCU 16 900 do 17 900 EUR, TU Dublin 13 500 do 14 500 EUR, TCD 22 580 do 29 570 EUR, medycyna TCD do 60 000 EUR.",
+   "sourceUrl": "https://www.tudublin.ie/for-students/student-services-and-support/fees-grants/full-time-undergraduate-fees/",
+   "quote": "students who are eligible for the Free Fees Initiative are also eligible for a reduction of €500 on the student contribution rate"
+  },
+  {
+   "label": "Rekrutacja",
+   "text": "Wniosek CAO do 1 lutego 2026, godz. 17:00 (cykl 2026/27, wejście we wrześniu 2026); wnioski spóźnione od 5 marca do 1 maja 2026 z dodatkową opłatą. CAO otworzy przyjmowanie wniosków na 2027 dnia 5 listopada 2026, a terminy zamknięcia na wejście we wrześniu 2027 nie są jeszcze opublikowane, dlatego wszystkie daty w tym mieście pochodzą z cyklu 2026/27. Medycyna: test HPAT-Ireland trzeba zdać w roku naboru (w 2026: 13 do 16 lutego, opłata 164 EUR); wynik z jednego roku nie przechodzi na następny. CAO nie formułuje wymogu, by Matura dawała dostęp do uczelni w kraju wydania, ale tego warunku w dokumencie nie badano szerzej.",
+   "sourceUrl": "https://www.cao.ie/index.php?page=timetableevents&bb=importantdates",
+   "quote": "1st May (17:00) Closing date for late applications"
+  },
+  {
+   "label": "Zakres",
+   "text": "Z UCD opisano tylko medycynę i informatykę; pozostałe kierunki UCD (m.in. psychologia, prawo, inżynieria, ekonomia) nie zostały tu uwzględnione. Pominięto też RCSI (medycyna).",
+   "sourceUrl": "https://hub.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=COURSE&MAJR=CSSF",
+   "quote": "Entry via DN201 CSSA Computer Science Course (BSc) 4 Years"
+  }
+ ],
+ "gapsSet": [
+  "Terminy CAO na wejście we wrześniu 2027 nie są jeszcze opublikowane (CAO otwiera nabór 5 listopada 2026), więc wszystkie terminy w tym mieście pochodzą z cyklu 2026/27.",
+  "Termin testu HPAT-Ireland na rok 2027 nie jest jeszcze opublikowany; podane daty dotyczą testu z 2026.",
+  "UCD: opisano tylko medycynę i informatykę. Kwoty Student Contribution i czesnego UCD na 2026/27 nie są widoczne na stronie opłat uczelni. Brakuje m.in. psychologii, prawa, architektury, inżynierii i ekonomii UCD.",
+  "Punkty ostatniego naboru przy programach to punkty w skali irlandzkiego Leaving Certificate. Oficjalnych punktów dla kandydatów z Matury nie ma, a kandydaci porównują się z przelicznikiem CAO.",
+  "Wymagania przedmiotowe podane w skali Leaving Certificate (H4, O4, H6) przeliczono tabelą CAO; uczelnie nie podają progów dla Matury na stronach kursów.",
+  "DCU: lista egzaminów uznawanych za dowód angielskiego nie wymienia polskiej Matury, choć CAO traktuje ją jako ogólne minimum. Do potwierdzenia z ugadmissions@dcu.ie.",
+  "Student Contribution różni się między uczelniami (TCD i TU Dublin 2 500 EUR, DCU 2 543 EUR); powodu różnicy w DCU strona uczelni nie wyjaśnia.",
+  "RCSI (medycyna RC001) pominięto, bo opisano go tylko wierszem w tabeli CAO (6 lat, 2xH5).",
+  "Brak w TCD architektury i dziennikarstwa oraz osobnego licencjatu data science. DCU: nie sprawdzano architektury, prawa, medycyny, budownictwa i mechaniki. TU Dublin: nie sprawdzano dziennikarstwa i psychologii.",
+  "TCD Engineering (TR032): czas samego B.A.I. nie jest podany, strona kursu podaje 5 lat z M.A.I. TCD Psychology i Law nie podają wymogów przedmiotowych na stronie kursu.",
+  "Czy dyplomy z medycyny, prawa i architektury dają uprawnienia zawodowe w Polsce, nie było sprawdzane."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://www.cao.ie/index.php?page=timetableevents&bb=importantdates",
+   "note": "Terminarz CAO: zamknięcie wniosków, wnioski spóźnione, test HPAT-Ireland, otwarcie naboru na 2027."
+  },
+  {
+   "url": "https://www.tudublin.ie/for-students/student-services-and-support/fees-grants/full-time-undergraduate-fees/",
+   "note": "Opłaty TU Dublin 2026/27: Student Contribution 3 000 EUR i obniżka o 500 EUR dla osób objętych Free Fees Initiative."
+  },
+  {
+   "url": "https://www.tcd.ie/courses/undergraduate/fees/",
+   "note": "Opłaty TCD 2026/27 według kursów (czesne, Student Contribution, spoza UE)."
+  },
+  {
+   "url": "https://www.dcu.ie/fees/undergraduate-fees",
+   "note": "Opłaty DCU 2026/27: Student Contribution, EU Status Fee, opłata spoza UE."
+  },
+  {
+   "url": "http://www.dcu.ie/registry/english.shtml",
+   "note": "Wymagany poziom angielskiego i akceptowane egzaminy w DCU."
+  },
+  {
+   "url": "https://hub.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=COURSE&MAJR=CSSF",
+   "note": "Strona kursu Computer Science w katalogu UCD (DN201)."
+  },
+  {
+   "url": "https://www2.cao.ie/downloads/documents/2026/UGMedEntry2026.pdf",
+   "note": "Zasady CAO dla studiów medycznych 2026, w tym HPAT-Ireland i minimum 480 punktów."
+  },
+  {
+   "url": "https://www.tudublin.ie/study/undergraduate/cao/entry-routes/eu-applicants/",
+   "note": "Ścieżka rekrutacji kandydatów z UE w TU Dublin."
+  }
+ ]
+}

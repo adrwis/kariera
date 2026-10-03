@@ -1,0 +1,334 @@
+{
+ "slug": "valletta",
+ "programPatches": [
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Psychology (Honours)",
+   "set": {
+    "tuitionEu": "Strona UM o opłatach nie podaje kwoty czesnego dla studentów z UE. Pisze, że czesne „tam, gdzie obowiązuje” jest w karcie każdego kursu, osobno dla obywateli UE/EOG i spoza UE. Regulacja opłat wymienia opłaty dla studentów UE/EOG tylko przy studiach wieczornych i podyplomowych, z czego można wnioskować, że studia dzienne na I stopniu mogą być bez czesnego, ale żadne źródło nie mówi tego wprost. Kwotę trzeba sprawdzić w karcie kursu na stronie uczelni. Opłata za wniosek z zagranicznym świadectwem: 100 EUR (200 EUR po pierwszym terminie).",
+    "tuitionUrl": "https://www.um.edu.mt/study/feesfunding/"
+   },
+   "sourceUrl": "https://www.um.edu.mt/study/feesfunding/",
+   "quote": "Tuition fees, where applicable, are available in the"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Psychology (Honours)",
+   "set": {
+    "tuitionNonEu": "8 500 EUR rocznie według regulacji opłat (stan na rok akademicki 2016/17, z mocą na kolejne lata, jeśli nie wydano nowych przepisów). Kategorię (arts based lub business related) przyjęto z nazwy kursu, bo regulacja odsyła do klasyfikacji na stronie UM. Aktualną kwotę podaje karta kursu. Nie dotyczy obywateli UE."
+   },
+   "sourceUrl": "https://legislation.mt/eli/sl/327.177/eng/pdf",
+   "quote": "the fees prescribed for academic year 2016/2017 shall"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Psychology (Honours)",
+   "set": {
+    "languageProof": "Test SELT dla osób po szkole średniej za granicą. Na studia licencjackie: IELTS Academic 6,0 ogółem (min. 6,0 z pisania i 5,5 z pozostałych części) albo TOEFL iBT 80 (min. 20 z pisania; od stycznia 2026 w nowej skali ogółem 4,0, min. 4,5 z pisania). Wynik ważny 2 lata. Wynik trzeba mieć do 30 września (kursy z limitem miejsc do 31 sierpnia)."
+   },
+   "sourceUrl": "https://www.um.edu.mt/media/um/docs/study/admissions/UG_Prospectus.pdf",
+   "quote": "TOEFL and IELTS score reports will only be valid if issued within 2 years"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Science in Information Technology (Honours), Artificial Intelligence",
+   "set": {
+    "tuitionEu": "Strona UM o opłatach nie podaje kwoty czesnego dla studentów z UE. Pisze, że czesne „tam, gdzie obowiązuje” jest w karcie każdego kursu, osobno dla obywateli UE/EOG i spoza UE. Regulacja opłat wymienia opłaty dla studentów UE/EOG tylko przy studiach wieczornych i podyplomowych, z czego można wnioskować, że studia dzienne na I stopniu mogą być bez czesnego, ale żadne źródło nie mówi tego wprost. Kwotę trzeba sprawdzić w karcie kursu na stronie uczelni. Opłata za wniosek z zagranicznym świadectwem: 100 EUR (200 EUR po pierwszym terminie).",
+    "tuitionUrl": "https://www.um.edu.mt/study/feesfunding/"
+   },
+   "sourceUrl": "https://www.um.edu.mt/study/feesfunding/",
+   "quote": "Tuition fees, where applicable, are available in the"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Science in Information Technology (Honours), Artificial Intelligence",
+   "set": {
+    "tuitionNonEu": "10 800 EUR rocznie według regulacji opłat (stan na rok akademicki 2016/17, z mocą na kolejne lata, jeśli nie wydano nowych przepisów). Kategorię (science based) przyjęto z nazwy kursu, bo regulacja odsyła do klasyfikacji na stronie UM. Aktualną kwotę podaje karta kursu. Nie dotyczy obywateli UE."
+   },
+   "sourceUrl": "https://legislation.mt/eli/sl/327.177/eng/pdf",
+   "quote": "the fees prescribed for academic year 2016/2017 shall"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Science in Information Technology (Honours), Artificial Intelligence",
+   "set": {
+    "languageProof": "Test SELT dla osób po szkole średniej za granicą. Na studia licencjackie: IELTS Academic 6,0 ogółem (min. 6,0 z pisania i 5,5 z pozostałych części) albo TOEFL iBT 80 (min. 20 z pisania; od stycznia 2026 w nowej skali ogółem 4,0, min. 4,5 z pisania). Wynik ważny 2 lata. Wynik trzeba mieć do 30 września (kursy z limitem miejsc do 31 sierpnia)."
+   },
+   "sourceUrl": "https://www.um.edu.mt/media/um/docs/study/admissions/UG_Prospectus.pdf",
+   "quote": "TOEFL and IELTS score reports will only be valid if issued within 2 years"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Science in Information Technology (Honours), Software Development",
+   "set": {
+    "tuitionEu": "Strona UM o opłatach nie podaje kwoty czesnego dla studentów z UE. Pisze, że czesne „tam, gdzie obowiązuje” jest w karcie każdego kursu, osobno dla obywateli UE/EOG i spoza UE. Regulacja opłat wymienia opłaty dla studentów UE/EOG tylko przy studiach wieczornych i podyplomowych, z czego można wnioskować, że studia dzienne na I stopniu mogą być bez czesnego, ale żadne źródło nie mówi tego wprost. Kwotę trzeba sprawdzić w karcie kursu na stronie uczelni. Opłata za wniosek z zagranicznym świadectwem: 100 EUR (200 EUR po pierwszym terminie).",
+    "tuitionUrl": "https://www.um.edu.mt/study/feesfunding/"
+   },
+   "sourceUrl": "https://www.um.edu.mt/study/feesfunding/",
+   "quote": "Tuition fees, where applicable, are available in the"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Science in Information Technology (Honours), Software Development",
+   "set": {
+    "tuitionNonEu": "10 800 EUR rocznie według regulacji opłat (stan na rok akademicki 2016/17, z mocą na kolejne lata, jeśli nie wydano nowych przepisów). Kategorię (science based) przyjęto z nazwy kursu, bo regulacja odsyła do klasyfikacji na stronie UM. Aktualną kwotę podaje karta kursu. Nie dotyczy obywateli UE."
+   },
+   "sourceUrl": "https://legislation.mt/eli/sl/327.177/eng/pdf",
+   "quote": "the fees prescribed for academic year 2016/2017 shall"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Science in Information Technology (Honours), Software Development",
+   "set": {
+    "languageProof": "Test SELT dla osób po szkole średniej za granicą. Na studia licencjackie: IELTS Academic 6,0 ogółem (min. 6,0 z pisania i 5,5 z pozostałych części) albo TOEFL iBT 80 (min. 20 z pisania; od stycznia 2026 w nowej skali ogółem 4,0, min. 4,5 z pisania). Wynik ważny 2 lata. Wynik trzeba mieć do 30 września (kursy z limitem miejsc do 31 sierpnia)."
+   },
+   "sourceUrl": "https://www.um.edu.mt/media/um/docs/study/admissions/UG_Prospectus.pdf",
+   "quote": "TOEFL and IELTS score reports will only be valid if issued within 2 years"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Doctor of Medicine and Surgery",
+   "set": {
+    "tuitionEu": "Strona UM o opłatach nie podaje kwoty czesnego dla studentów z UE. Pisze, że czesne „tam, gdzie obowiązuje” jest w karcie każdego kursu, osobno dla obywateli UE/EOG i spoza UE. Regulacja opłat wymienia opłaty dla studentów UE/EOG tylko przy studiach wieczornych i podyplomowych, z czego można wnioskować, że studia dzienne na I stopniu mogą być bez czesnego, ale żadne źródło nie mówi tego wprost. Kwotę trzeba sprawdzić w karcie kursu na stronie uczelni. Opłata za wniosek z zagranicznym świadectwem: 100 EUR (200 EUR po pierwszym terminie).",
+    "tuitionUrl": "https://www.um.edu.mt/study/feesfunding/"
+   },
+   "sourceUrl": "https://www.um.edu.mt/study/feesfunding/",
+   "quote": "Tuition fees, where applicable, are available in the"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Doctor of Medicine and Surgery",
+   "set": {
+    "tuitionNonEu": "26 000 EUR rocznie według regulacji opłat (stan na rok akademicki 2016/17, z mocą na kolejne lata, jeśli nie wydano nowych przepisów). Kategorię (Doctor of Medicine and Surgery) przyjęto z nazwy kursu, bo regulacja odsyła do klasyfikacji na stronie UM. Aktualną kwotę podaje karta kursu. Nie dotyczy obywateli UE."
+   },
+   "sourceUrl": "https://legislation.mt/eli/sl/327.177/eng/pdf",
+   "quote": "the fees prescribed for academic year 2016/2017 shall"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Doctor of Medicine and Surgery",
+   "set": {
+    "languageProof": "Test SELT dla osób po szkole średniej za granicą. Na studia licencjackie: IELTS Academic 6,0 ogółem (min. 6,0 z pisania i 5,5 z pozostałych części) albo TOEFL iBT 80 (min. 20 z pisania; od stycznia 2026 w nowej skali ogółem 4,0, min. 4,5 z pisania). Wynik ważny 2 lata. Wynik trzeba mieć do 30 września (kursy z limitem miejsc do 31 sierpnia)."
+   },
+   "sourceUrl": "https://www.um.edu.mt/media/um/docs/study/admissions/UG_Prospectus.pdf",
+   "quote": "TOEFL and IELTS score reports will only be valid if issued within 2 years"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Laws (Honours)",
+   "set": {
+    "tuitionEu": "Strona UM o opłatach nie podaje kwoty czesnego dla studentów z UE. Pisze, że czesne „tam, gdzie obowiązuje” jest w karcie każdego kursu, osobno dla obywateli UE/EOG i spoza UE. Regulacja opłat wymienia opłaty dla studentów UE/EOG tylko przy studiach wieczornych i podyplomowych, z czego można wnioskować, że studia dzienne na I stopniu mogą być bez czesnego, ale żadne źródło nie mówi tego wprost. Kwotę trzeba sprawdzić w karcie kursu na stronie uczelni. Opłata za wniosek z zagranicznym świadectwem: 100 EUR (200 EUR po pierwszym terminie).",
+    "tuitionUrl": "https://www.um.edu.mt/study/feesfunding/"
+   },
+   "sourceUrl": "https://www.um.edu.mt/study/feesfunding/",
+   "quote": "Tuition fees, where applicable, are available in the"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Laws (Honours)",
+   "set": {
+    "tuitionNonEu": "8 500 EUR rocznie według regulacji opłat (stan na rok akademicki 2016/17, z mocą na kolejne lata, jeśli nie wydano nowych przepisów). Kategorię (arts based lub business related) przyjęto z nazwy kursu, bo regulacja odsyła do klasyfikacji na stronie UM. Aktualną kwotę podaje karta kursu. Nie dotyczy obywateli UE."
+   },
+   "sourceUrl": "https://legislation.mt/eli/sl/327.177/eng/pdf",
+   "quote": "the fees prescribed for academic year 2016/2017 shall"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Laws (Honours)",
+   "set": {
+    "languageProof": "Test SELT dla osób po szkole średniej za granicą. Na studia licencjackie: IELTS Academic 6,0 ogółem (min. 6,0 z pisania i 5,5 z pozostałych części) albo TOEFL iBT 80 (min. 20 z pisania; od stycznia 2026 w nowej skali ogółem 4,0, min. 4,5 z pisania). Wynik ważny 2 lata. Wynik trzeba mieć do 30 września (kursy z limitem miejsc do 31 sierpnia)."
+   },
+   "sourceUrl": "https://www.um.edu.mt/media/um/docs/study/admissions/UG_Prospectus.pdf",
+   "quote": "TOEFL and IELTS score reports will only be valid if issued within 2 years"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Commerce",
+   "set": {
+    "tuitionEu": "Strona UM o opłatach nie podaje kwoty czesnego dla studentów z UE. Pisze, że czesne „tam, gdzie obowiązuje” jest w karcie każdego kursu, osobno dla obywateli UE/EOG i spoza UE. Regulacja opłat wymienia opłaty dla studentów UE/EOG tylko przy studiach wieczornych i podyplomowych, z czego można wnioskować, że studia dzienne na I stopniu mogą być bez czesnego, ale żadne źródło nie mówi tego wprost. Kwotę trzeba sprawdzić w karcie kursu na stronie uczelni. Opłata za wniosek z zagranicznym świadectwem: 100 EUR (200 EUR po pierwszym terminie).",
+    "tuitionUrl": "https://www.um.edu.mt/study/feesfunding/"
+   },
+   "sourceUrl": "https://www.um.edu.mt/study/feesfunding/",
+   "quote": "Tuition fees, where applicable, are available in the"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Commerce",
+   "set": {
+    "tuitionNonEu": "8 500 EUR rocznie według regulacji opłat (stan na rok akademicki 2016/17, z mocą na kolejne lata, jeśli nie wydano nowych przepisów). Kategorię (arts based lub business related) przyjęto z nazwy kursu, bo regulacja odsyła do klasyfikacji na stronie UM. Aktualną kwotę podaje karta kursu. Nie dotyczy obywateli UE."
+   },
+   "sourceUrl": "https://legislation.mt/eli/sl/327.177/eng/pdf",
+   "quote": "the fees prescribed for academic year 2016/2017 shall"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Commerce",
+   "set": {
+    "languageProof": "Test SELT dla osób po szkole średniej za granicą. Na studia licencjackie: IELTS Academic 6,0 ogółem (min. 6,0 z pisania i 5,5 z pozostałych części) albo TOEFL iBT 80 (min. 20 z pisania; od stycznia 2026 w nowej skali ogółem 4,0, min. 4,5 z pisania). Wynik ważny 2 lata. Wynik trzeba mieć do 30 września (kursy z limitem miejsc do 31 sierpnia)."
+   },
+   "sourceUrl": "https://www.um.edu.mt/media/um/docs/study/admissions/UG_Prospectus.pdf",
+   "quote": "TOEFL and IELTS score reports will only be valid if issued within 2 years"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Communications (Honours)",
+   "set": {
+    "tuitionEu": "Strona UM o opłatach nie podaje kwoty czesnego dla studentów z UE. Pisze, że czesne „tam, gdzie obowiązuje” jest w karcie każdego kursu, osobno dla obywateli UE/EOG i spoza UE. Regulacja opłat wymienia opłaty dla studentów UE/EOG tylko przy studiach wieczornych i podyplomowych, z czego można wnioskować, że studia dzienne na I stopniu mogą być bez czesnego, ale żadne źródło nie mówi tego wprost. Kwotę trzeba sprawdzić w karcie kursu na stronie uczelni. Opłata za wniosek z zagranicznym świadectwem: 100 EUR (200 EUR po pierwszym terminie).",
+    "tuitionUrl": "https://www.um.edu.mt/study/feesfunding/"
+   },
+   "sourceUrl": "https://www.um.edu.mt/study/feesfunding/",
+   "quote": "Tuition fees, where applicable, are available in the"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Communications (Honours)",
+   "set": {
+    "tuitionNonEu": "8 500 EUR rocznie według regulacji opłat (stan na rok akademicki 2016/17, z mocą na kolejne lata, jeśli nie wydano nowych przepisów). Kategorię (arts based lub business related) przyjęto z nazwy kursu, bo regulacja odsyła do klasyfikacji na stronie UM. Aktualną kwotę podaje karta kursu. Nie dotyczy obywateli UE."
+   },
+   "sourceUrl": "https://legislation.mt/eli/sl/327.177/eng/pdf",
+   "quote": "the fees prescribed for academic year 2016/2017 shall"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Communications (Honours)",
+   "set": {
+    "languageProof": "Test SELT dla osób po szkole średniej za granicą. Na studia licencjackie: IELTS Academic 6,0 ogółem (min. 6,0 z pisania i 5,5 z pozostałych części) albo TOEFL iBT 80 (min. 20 z pisania; od stycznia 2026 w nowej skali ogółem 4,0, min. 4,5 z pisania). Wynik ważny 2 lata. Wynik trzeba mieć do 30 września (kursy z limitem miejsc do 31 sierpnia)."
+   },
+   "sourceUrl": "https://www.um.edu.mt/media/um/docs/study/admissions/UG_Prospectus.pdf",
+   "quote": "TOEFL and IELTS score reports will only be valid if issued within 2 years"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Engineering (Honours), Mechanical Engineering",
+   "set": {
+    "tuitionEu": "Strona UM o opłatach nie podaje kwoty czesnego dla studentów z UE. Pisze, że czesne „tam, gdzie obowiązuje” jest w karcie każdego kursu, osobno dla obywateli UE/EOG i spoza UE. Regulacja opłat wymienia opłaty dla studentów UE/EOG tylko przy studiach wieczornych i podyplomowych, z czego można wnioskować, że studia dzienne na I stopniu mogą być bez czesnego, ale żadne źródło nie mówi tego wprost. Kwotę trzeba sprawdzić w karcie kursu na stronie uczelni. Opłata za wniosek z zagranicznym świadectwem: 100 EUR (200 EUR po pierwszym terminie).",
+    "tuitionUrl": "https://www.um.edu.mt/study/feesfunding/"
+   },
+   "sourceUrl": "https://www.um.edu.mt/study/feesfunding/",
+   "quote": "Tuition fees, where applicable, are available in the"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Engineering (Honours), Mechanical Engineering",
+   "set": {
+    "tuitionNonEu": "10 800 EUR rocznie według regulacji opłat (stan na rok akademicki 2016/17, z mocą na kolejne lata, jeśli nie wydano nowych przepisów). Kategorię (science based) przyjęto z nazwy kursu, bo regulacja odsyła do klasyfikacji na stronie UM. Aktualną kwotę podaje karta kursu. Nie dotyczy obywateli UE."
+   },
+   "sourceUrl": "https://legislation.mt/eli/sl/327.177/eng/pdf",
+   "quote": "the fees prescribed for academic year 2016/2017 shall"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Engineering (Honours), Mechanical Engineering",
+   "set": {
+    "languageProof": "Test SELT dla osób po szkole średniej za granicą. Na studia licencjackie: IELTS Academic 6,0 ogółem (min. 6,0 z pisania i 5,5 z pozostałych części) albo TOEFL iBT 80 (min. 20 z pisania; od stycznia 2026 w nowej skali ogółem 4,0, min. 4,5 z pisania). Wynik ważny 2 lata. Wynik trzeba mieć do 30 września (kursy z limitem miejsc do 31 sierpnia)."
+   },
+   "sourceUrl": "https://www.um.edu.mt/media/um/docs/study/admissions/UG_Prospectus.pdf",
+   "quote": "TOEFL and IELTS score reports will only be valid if issued within 2 years"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Science (Honours) in Built Environment Studies",
+   "set": {
+    "tuitionEu": "Strona UM o opłatach nie podaje kwoty czesnego dla studentów z UE. Pisze, że czesne „tam, gdzie obowiązuje” jest w karcie każdego kursu, osobno dla obywateli UE/EOG i spoza UE. Regulacja opłat wymienia opłaty dla studentów UE/EOG tylko przy studiach wieczornych i podyplomowych, z czego można wnioskować, że studia dzienne na I stopniu mogą być bez czesnego, ale żadne źródło nie mówi tego wprost. Kwotę trzeba sprawdzić w karcie kursu na stronie uczelni. Opłata za wniosek z zagranicznym świadectwem: 100 EUR (200 EUR po pierwszym terminie).",
+    "tuitionUrl": "https://www.um.edu.mt/study/feesfunding/"
+   },
+   "sourceUrl": "https://www.um.edu.mt/study/feesfunding/",
+   "quote": "Tuition fees, where applicable, are available in the"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Science (Honours) in Built Environment Studies",
+   "set": {
+    "tuitionNonEu": "10 800 EUR rocznie według regulacji opłat (stan na rok akademicki 2016/17, z mocą na kolejne lata, jeśli nie wydano nowych przepisów). Kategorię (science based) przyjęto z nazwy kursu, bo regulacja odsyła do klasyfikacji na stronie UM. Aktualną kwotę podaje karta kursu. Nie dotyczy obywateli UE."
+   },
+   "sourceUrl": "https://legislation.mt/eli/sl/327.177/eng/pdf",
+   "quote": "the fees prescribed for academic year 2016/2017 shall"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Bachelor of Science (Honours) in Built Environment Studies",
+   "set": {
+    "languageProof": "Test SELT dla osób po szkole średniej za granicą. Na studia licencjackie: IELTS Academic 6,0 ogółem (min. 6,0 z pisania i 5,5 z pozostałych części) albo TOEFL iBT 80 (min. 20 z pisania; od stycznia 2026 w nowej skali ogółem 4,0, min. 4,5 z pisania). Wynik ważny 2 lata. Wynik trzeba mieć do 30 września (kursy z limitem miejsc do 31 sierpnia)."
+   },
+   "sourceUrl": "https://www.um.edu.mt/media/um/docs/study/admissions/UG_Prospectus.pdf",
+   "quote": "TOEFL and IELTS score reports will only be valid if issued within 2 years"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Doctor of Medicine and Surgery",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (przedmioty specjalne z MATSEC lub porównywalnej komisji egzaminacyjnej; polska matura rozszerzona może nie wystarczyć)",
+    "deadline": "Zagraniczne świadectwo, nabór 2027/28: wniosek do 15 stycznia 2027, godz. 14:00 CEST. Ten termin przypada przed maturą w maju 2027, więc kandydat z polską maturą nie ma wyników w chwili składania wniosku. Dla medycyny nie przyjmuje się wniosków spóźnionych. Wynik testu angielskiego trzeba mieć do 31 sierpnia 2027 (kursy z limitem miejsc).",
+    "notes": "Medycyna ma najwcześniejszy termin naboru, przypadający przed polską maturą. Prospekt wymaga też zdanego języka maltańskiego (SEC) albo kursu Medical Maltese Proficiency przed rozpoczęciem nauki. Zasady dla osób z zagranicznym świadectwem opisuje regulacja 13 Admissions Regulations, która nie jest dostępna publicznie. Oficjalna liczba miejsc w naborze: do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.um.edu.mt/media/um/docs/study/admissions/UG_Prospectus.pdf",
+   "quote": "Late applications will NOT be accepted for:"
+  },
+  {
+   "university": "University of Malta (L-Università ta' Malta)",
+   "programName": "Doctor of Medicine and Surgery",
+   "set": {
+    "admissionUrl": "https://www.um.edu.mt/study/admissionsadvice/international/country-specificqualifications/poland/"
+   },
+   "sourceUrl": "https://www.um.edu.mt/study/admissionsadvice/international/country-specificqualifications/poland/",
+   "quote": "separately present passes in the applicable Special Course Requirements from the Maltese examination board, MATSEC, or comparable examination boards"
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [],
+ "summaryPatches": [
+  {
+   "label": "Opłaty",
+   "text": "Strona UM o opłatach nie podaje czesnego dla studentów z UE. Czesne „tam, gdzie obowiązuje” jest w karcie każdego kursu, osobno dla UE/EOG i spoza UE. Regulacja opłat wymienia opłaty dla studentów UE/EOG tylko przy studiach wieczornych i podyplomowych, więc studia dzienne na I stopniu mogą być bez czesnego, ale tego nie potwierdza żadne źródło wprost. Przed złożeniem wniosku sprawdź kartę kursu. Dla osób spoza UE regulacja podaje (stan 2016/17, z mocą na kolejne lata) 8 500 EUR rocznie na kursach arts i business, 10 800 EUR na science i 26 000 EUR na medycynie. Opłata za wniosek z zagranicznym świadectwem to 100 EUR.",
+   "sourceUrl": "https://www.um.edu.mt/study/feesfunding/",
+   "quote": "Tuition fees, where applicable, are available in the"
+  },
+  {
+   "label": "Język",
+   "text": "Językiem nauczania i oceniania na UM jest angielski. Wyjątkiem jest prawo, które przy przyjęciu wymaga zaawansowanego poziomu z maltańskiego, a medycyna wymaga maltańskiego albo kursu Medical Maltese Proficiency. Uczelnia ma główny kampus w Msidzie, w aglomeracji Valletty.",
+   "sourceUrl": "https://www.um.edu.mt/media/um/docs/study/admissions/UG_Prospectus.pdf",
+   "quote": "The language of Instruction and assessment at the University of Malta is English."
+  },
+  {
+   "label": "Rekrutacja",
+   "text": "Nabór 2027/28 dla zagranicznych kwalifikacji: do 21 lipca 2027, godz. 14:00 CEST (spóźnione wnioski do 15 września 2027, z wyłączeniem medycyny i kursów z limitem miejsc). Medycyna (M.D.): do 15 stycznia 2027, czyli przed polską maturą w maju 2027, bez możliwości złożenia wniosku później. Dodatkowy mały nabór lutowy działa na wybranych kursach. Wynik testu angielskiego do 30 września (kursy z limitem do 31 sierpnia).",
+   "sourceUrl": "https://www.um.edu.mt/media/um/docs/study/admissions/UG_Prospectus.pdf",
+   "quote": "Applicants presenting overseas qualifications for courses other than the M.D. Course: 21 July 2027 at 14:00 (CEST)"
+  }
+ ],
+ "gapsSet": [
+  "Czesne dla obywateli UE: strona UM odsyła do karty każdego kursu, a karty kursów są niedostępne bez uruchomienia wyszukiwarki kursów na stronie uczelni. Brak czesnego na studiach dziennych I stopnia wynika tylko z regulacji opłat i nie jest potwierdzony dosłownie, więc kwotę trzeba sprawdzić w karcie kursu.",
+  "Czesne dla osób spoza UE: kwoty pochodzą z regulacji opłat (stan 2016/17, z mocą na kolejne lata), a zaliczenie kursu do kategorii arts, business lub science przyjęto z nazwy kursu. Aktualne kwoty podaje karta kursu.",
+  "Regulacja opłat uznaje za osoby płacące jak UE/EOG m.in. obywateli UE korzystających ze swobody przepływu pracowników. Warto zapytać uczelnię, czy dotyczy to także studenta z Polski, który nie pracuje w Malcie.",
+  "Stypendium Maltese Stipend (Student Maintenance Grant) dla studentów z UE: nie udało się sprawdzić, bo strona ministerstwa edukacji jest niedostępna publicznie. Zasady trzeba sprawdzić na stronie ministerstwa i UM.",
+  "Nabór 2027/28: prospekt podaje terminy 2027, ale lista kursów na październik 2027 nie jest jeszcze opublikowana (aktualna dotyczy października 2026), więc wymagania mogą się zmienić.",
+  "Medycyna: nie wiadomo, czy polska matura rozszerzona z biologii i chemii jest uznawana jako przedmioty specjalne, ani ile miejsc jest dla osób z UE. Zasady dla zagranicznych świadectw opisuje regulacja 13 Admissions Regulations, która nie jest dostępna publicznie.",
+  "Prawo: uczelnia wymaga zaawansowanego poziomu z maltańskiego i angielskiego. Nie znaleziono oficjalnej informacji o zwolnieniu osób z polską maturą z maltańskiego; trzeba zapytać Faculty of Laws.",
+  "Kursy z limitem miejsc: UM wskazuje limity głównie dla kursów medycznych, stomatologicznych i niektórych zdrowotnych. Dla pozostałych wybranych tu kursów nie podano na stronie, czy mają limit.",
+  "Architektura i budownictwo: UM nie ma licencjatu z tych kierunków. Wymagania Master of Architecture i magisterskich kursów inżynierii lądowej (portfolio, zasady dla kandydatów z zagranicy) nie zostały sprawdzone.",
+  "MCAST (Malta College of Arts, Science and Technology, kształcenie zawodowe): nie sprawdzono, bo to opcja dodatkowa. Strona wniosku MCAST nie była dostępna publicznie w formie tekstu.",
+  "Uznanie matury: wniosek rozpatruje indywidualnie Office of the Registrar i wydaje decyzję listem. Kwestie formalne, takie jak legalizacja, tłumaczenia i weryfikacja oryginałów, wymagają potwierdzenia na stronie uczelni."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://www.um.edu.mt/study/feesfunding/",
+   "note": "Strona UM o opłatach: czesne w karcie kursu, opłaty doktoranckie."
+  },
+  {
+   "url": "https://legislation.mt/eli/sl/327.177/eng/pdf",
+   "note": "Regulacja opłat uniwersyteckich (University Fees Regulations) w wersji PDF: kwoty dla osób spoza UE i zasady dla UE/EOG."
+  },
+  {
+   "url": "https://www.um.edu.mt/media/um/docs/study/admissions/UG_Prospectus.pdf",
+   "note": "Prospekt studiów licencjackich: terminy naboru 2027, test angielskiego, wymagania kursów."
+  },
+  {
+   "url": "https://www.um.edu.mt/study/admissionsadvice/international/country-specificqualifications/poland/",
+   "note": "Strona UM z wymaganiami dla kandydatów z Polski (Świadectwo Dojrzałości)."
+  },
+  {
+   "url": "https://www.um.edu.mt/apply",
+   "note": "Strona składania wniosków na University of Malta."
+  }
+ ]
+}

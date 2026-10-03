@@ -101,7 +101,7 @@ for (const [slug, name, country, eu, capital = true] of CITIES) {
   const data = { slug, name, country, eu, capital, retrieved: text(raw.retrieved), summary: sum.items, sources: sum.sources, gaps: (raw.luki || []).map(x => text(x)).filter(x => x && !/^[^.]*\b(nie użyłem|nie użyłam|nie sprawdzałem|nie sprawdzałam)\b[^.]*(limit|portal)/i.test(x)).map(clean).filter(Boolean), universities };
   poprawki.apply(slug, data);
   fs.writeFileSync(path.join(OUT, slug + '.json'), JSON.stringify(data));
-  index.push({ slug, name, country, eu, capital, status: 'dostępne', retrieved: data.retrieved, universities: universities.length, programs: universities.reduce((a, u) => a + u.programs.length, 0) });
+  index.push({ slug, name, country, eu, capital, status: 'dostępne', retrieved: data.retrieved, universities: data.universities.length, programs: data.universities.reduce((a, u) => a + u.programs.length, 0) });
 }
 fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify({ cities: index }));
 if (poprawki.warnings.length) console.log('UWAGA, poprawki bez dopasowania:\n  ' + poprawki.warnings.join('\n  '));

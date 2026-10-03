@@ -1,0 +1,742 @@
+{
+ "slug": "barcelona",
+ "programPatches": [
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Enginyeria Informàtica",
+   "set": {
+    "matura": "uznawana z warunkami (Polska jest na liście systemów UNEDasiss i Generalitat; wymagana akredytacja UNEDasiss z notą dostępu od 5 do 10, bez hiszpańskiej PAU)"
+   },
+   "sourceUrl": "https://unedasiss.uned.es/publico_destino",
+   "quote": "Noruega, Países Bajos, Polonia, Portugal, Reino Unido"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Enginyeria Informàtica",
+   "set": {
+    "requirements": "Preinscripció przez portal Accés Universitat (kod programu 31059), orientacyjna liczba miejsc w naborze 2026/27: 360. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) lub z fazy dobrowolnej PAU. Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów, więc podniesienie noty wymaga zdania PCE albo PAU."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Enginyeria Informàtica",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 10,008. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Wydział FIB w Barcelonie. Język wykładowy podany w planie studiów dla każdego przedmiotu; strona UPC nie podaje jednego języka dla całego programu. Pięć specjalizacji (Computing, Computer Engineering, Software Engineering, Information Systems, Information Technologies)."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "Notes de tall 1a assignació Juny 2026"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Enginyeria Informàtica",
+   "set": {
+    "languageProof": "Strona uczelni nie podaje poziomu hiszpańskiego ani katalońskiego wymaganego do przyjęcia; wiadomo tylko, że kandydat musi znać język wykładowy. Do potwierdzenia na stronie wydziału.",
+    "tuitionEu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego dochodzą opłaty administracyjne (prowadzenie akt studenta i inne), których wysokość podaje uczelnia."
+   },
+   "sourceUrl": "https://upc.edu/en/bachelors/informatics-engineering-barcelona-fib",
+   "quote": "Approximate fees per academic year: €1,061 (€1,800 for non-EU residents)"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Intel·ligència Artificial",
+   "set": {
+    "matura": "uznawana z warunkami (Polska jest na liście systemów UNEDasiss i Generalitat; wymagana akredytacja UNEDasiss z notą dostępu od 5 do 10, bez hiszpańskiej PAU)"
+   },
+   "sourceUrl": "https://unedasiss.uned.es/publico_destino",
+   "quote": "Noruega, Países Bajos, Polonia, Portugal, Reino Unido"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Intel·ligència Artificial",
+   "set": {
+    "requirements": "Preinscripció przez portal Accés Universitat (kod programu 31106), orientacyjna liczba miejsc w naborze 2026/27: 50. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) lub z fazy dobrowolnej PAU. Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów, więc podniesienie noty wymaga zdania PCE albo PAU."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Intel·ligència Artificial",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 11,514. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Wydział FIB. Język wykładowy podany w planie studiów dla każdego przedmiotu."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "Notes de tall 1a assignació Juny 2026"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Intel·ligència Artificial",
+   "set": {
+    "languageProof": "Strona uczelni nie podaje poziomu hiszpańskiego ani katalońskiego wymaganego do przyjęcia; wiadomo tylko, że kandydat musi znać język wykładowy. Do potwierdzenia na stronie wydziału.",
+    "tuitionEu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego dochodzą opłaty administracyjne (prowadzenie akt studenta i inne), których wysokość podaje uczelnia."
+   },
+   "sourceUrl": "https://upc.edu/en/bachelors/artificial-intelligence-barcelona-fib",
+   "quote": "Approximate fees per academic year: €1,061 (€1,800 for non-EU residents)"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Ciència i Enginyeria de Dades",
+   "set": {
+    "matura": "uznawana z warunkami (Polska jest na liście systemów UNEDasiss i Generalitat; wymagana akredytacja UNEDasiss z notą dostępu od 5 do 10, bez hiszpańskiej PAU)"
+   },
+   "sourceUrl": "https://unedasiss.uned.es/publico_destino",
+   "quote": "Noruega, Países Bajos, Polonia, Portugal, Reino Unido"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Ciència i Enginyeria de Dades",
+   "set": {
+    "requirements": "Preinscripció przez portal Accés Universitat (kod programu 31089), orientacyjna liczba miejsc w naborze 2026/27: 50. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) lub z fazy dobrowolnej PAU. Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów, więc podniesienie noty wymaga zdania PCE albo PAU."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Ciència i Enginyeria de Dades",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 12,006. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Wspólny program FIB, ETSETB i FME. Nota odcięcia 12,006 jest wyższa niż maksymalna nota dostępu z akredytacji (10), więc bez punktów z PCE lub PAU miejsca praktycznie nie da się zdobyć."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "Notes de tall 1a assignació Juny 2026"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Ciència i Enginyeria de Dades",
+   "set": {
+    "languageProof": "Strona uczelni nie podaje poziomu hiszpańskiego ani katalońskiego wymaganego do przyjęcia; wiadomo tylko, że kandydat musi znać język wykładowy. Do potwierdzenia na stronie wydziału.",
+    "tuitionEu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego dochodzą opłaty administracyjne (prowadzenie akt studenta i inne), których wysokość podaje uczelnia."
+   },
+   "sourceUrl": "https://upc.edu/en/bachelors/data-science-and-engineering-barcelona-fib-etsetb-fme",
+   "quote": "Approximate fees per academic year: €1,061 (€1,800 for non-EU residents)"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Estudis d'Arquitectura",
+   "set": {
+    "matura": "uznawana z warunkami (Polska jest na liście systemów UNEDasiss i Generalitat; wymagana akredytacja UNEDasiss z notą dostępu od 5 do 10, bez hiszpańskiej PAU)"
+   },
+   "sourceUrl": "https://unedasiss.uned.es/publico_destino",
+   "quote": "Noruega, Países Bajos, Polonia, Portugal, Reino Unido"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Estudis d'Arquitectura",
+   "set": {
+    "requirements": "Preinscripció przez portal Accés Universitat (kod programu 31078), orientacyjna liczba miejsc w naborze 2026/27: 342. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) lub z fazy dobrowolnej PAU. Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów, więc podniesienie noty wymaga zdania PCE albo PAU."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Estudis d'Arquitectura",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 9,838. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. ETSAB w Barcelonie. Strona programu nie podaje języka wykładowego jednym zdaniem. Inna lokalizacja: Sant Cugat del Vallès (kod 31079, 110 miejsc)."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "Notes de tall 1a assignació Juny 2026"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Estudis d'Arquitectura",
+   "set": {
+    "languageProof": "Strona uczelni nie podaje poziomu hiszpańskiego ani katalońskiego wymaganego do przyjęcia; wiadomo tylko, że kandydat musi znać język wykładowy. Do potwierdzenia na stronie wydziału.",
+    "tuitionEu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego dochodzą opłaty administracyjne (prowadzenie akt studenta i inne), których wysokość podaje uczelnia."
+   },
+   "sourceUrl": "https://upc.edu/en/bachelors/architecture-studies-barcelona-etsab",
+   "quote": "Approximate fees per academic year: €1,061 (€1,800 for non-EU residents)"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Enginyeria Civil (grupa po angielsku)",
+   "set": {
+    "matura": "uznawana z warunkami (Polska jest na liście systemów UNEDasiss i Generalitat; wymagana akredytacja UNEDasiss z notą dostępu od 5 do 10, bez hiszpańskiej PAU)"
+   },
+   "sourceUrl": "https://unedasiss.uned.es/publico_destino",
+   "quote": "Noruega, Países Bajos, Polonia, Portugal, Reino Unido"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Enginyeria Civil (grupa po angielsku)",
+   "set": {
+    "requirements": "Preinscripció przez portal Accés Universitat (kod programu 31103), orientacyjna liczba miejsc w naborze 2026/27: 120. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) lub z fazy dobrowolnej PAU. Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów, więc podniesienie noty wymaga zdania PCE albo PAU."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Enginyeria Civil (grupa po angielsku)",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 9,846. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. UPC pisze, że jest grupa prowadzona w 100% po angielsku; liczba miejsc i kod programu dotyczą całego kierunku, a nie tylko grupy angielskiej."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "Notes de tall 1a assignació Juny 2026"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Enginyeria Civil (grupa po angielsku)",
+   "set": {
+    "languageProof": "Strona wydziału nie podaje poziomu angielskiego wymaganego do przyjęcia. Do potwierdzenia na stronie wydziału.",
+    "tuitionEu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego dochodzą opłaty administracyjne (prowadzenie akt studenta i inne), których wysokość podaje uczelnia."
+   },
+   "sourceUrl": "https://upc.edu/en/bachelors/civil-engineering-barcelona-etseccpb",
+   "quote": "Approximate fees per academic year: €1,061 (€1,800 for non-EU residents)"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Arquitectura Tècnica i Edificació",
+   "set": {
+    "matura": "uznawana z warunkami (Polska jest na liście systemów UNEDasiss i Generalitat; wymagana akredytacja UNEDasiss z notą dostępu od 5 do 10, bez hiszpańskiej PAU)"
+   },
+   "sourceUrl": "https://unedasiss.uned.es/publico_destino",
+   "quote": "Noruega, Países Bajos, Polonia, Portugal, Reino Unido"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Arquitectura Tècnica i Edificació",
+   "set": {
+    "requirements": "Preinscripció przez portal Accés Universitat (kod programu 31016), orientacyjna liczba miejsc w naborze 2026/27: 160. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) lub z fazy dobrowolnej PAU. Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów, więc podniesienie noty wymaga zdania PCE albo PAU."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Arquitectura Tècnica i Edificació",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 8,856. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. EPSEB w Barcelonie. Zajęcia rano i po południu. Strona programu nie podaje jednego języka wykładowego."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "Notes de tall 1a assignació Juny 2026"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Arquitectura Tècnica i Edificació",
+   "set": {
+    "languageProof": "Strona uczelni nie podaje poziomu hiszpańskiego ani katalońskiego wymaganego do przyjęcia; wiadomo tylko, że kandydat musi znać język wykładowy. Do potwierdzenia na stronie wydziału.",
+    "tuitionEu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego dochodzą opłaty administracyjne (prowadzenie akt studenta i inne), których wysokość podaje uczelnia."
+   },
+   "sourceUrl": "https://upc.edu/en/bachelors/architectural-technology-and-building-construction-barcelona-epseb",
+   "quote": "Approximate fees per academic year: €1,061 (€1,800 for non-EU residents)"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Enginyeria Mecànica",
+   "set": {
+    "matura": "uznawana z warunkami (Polska jest na liście systemów UNEDasiss i Generalitat; wymagana akredytacja UNEDasiss z notą dostępu od 5 do 10, bez hiszpańskiej PAU)"
+   },
+   "sourceUrl": "https://unedasiss.uned.es/publico_destino",
+   "quote": "Noruega, Países Bajos, Polonia, Portugal, Reino Unido"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Enginyeria Mecànica",
+   "set": {
+    "requirements": "Preinscripció przez portal Accés Universitat (kod programu 31027), orientacyjna liczba miejsc w naborze 2026/27: 235. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) lub z fazy dobrowolnej PAU. Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów, więc podniesienie noty wymaga zdania PCE albo PAU."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Enginyeria Mecànica",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 9,954. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. EEBE (Besòs, Barcelona). Strona programu nie podaje języka wykładowego jednym zdaniem; przedmiot 'Communication in Technical English' w planie."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "Notes de tall 1a assignació Juny 2026"
+  },
+  {
+   "university": "Universitat Politècnica de Catalunya (UPC)",
+   "programName": "Grau en Enginyeria Mecànica",
+   "set": {
+    "languageProof": "Strona uczelni nie podaje poziomu hiszpańskiego ani katalońskiego wymaganego do przyjęcia; wiadomo tylko, że kandydat musi znać język wykładowy. Do potwierdzenia na stronie wydziału.",
+    "tuitionEu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego dochodzą opłaty administracyjne (prowadzenie akt studenta i inne), których wysokość podaje uczelnia."
+   },
+   "sourceUrl": "https://upc.edu/en/bachelors/mechanical-engineering-barcelona-eebe",
+   "quote": "Approximate fees per academic year: €1,061 (€1,800 for non-EU residents)"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Psicologia",
+   "set": {
+    "matura": "uznawana z warunkami (Polska jest na liście systemów UNEDasiss i Generalitat; wymagana akredytacja UNEDasiss z notą dostępu od 5 do 10, bez hiszpańskiej PAU)"
+   },
+   "sourceUrl": "https://unedasiss.uned.es/publico_destino",
+   "quote": "Noruega, Países Bajos, Polonia, Portugal, Reino Unido"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Psicologia",
+   "set": {
+    "requirements": "Preinscripció przez portal Accés Universitat (kod programu 21081), orientacyjna liczba miejsc w naborze 2026/27: 360. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) lub z fazy dobrowolnej PAU. Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów, więc podniesienie noty wymaga zdania PCE albo PAU."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Psicologia",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 9,766. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Kampus Bellaterra (Cerdanyola del Vallès). Zajęcia po katalońsku i hiszpańsku."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "Notes de tall 1a assignació Juny 2026"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Psicologia",
+   "set": {
+    "languageProof": "Strona uczelni nie podaje poziomu hiszpańskiego ani katalońskiego wymaganego do przyjęcia; wiadomo tylko, że kandydat musi znać język wykładowy. Do potwierdzenia na stronie wydziału.",
+    "tuitionEu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego dochodzą opłaty administracyjne (prowadzenie akt studenta i inne), których wysokość podaje uczelnia.",
+    "tuitionNonEu": "Obywatele UE, w tym Polacy, płacą tę samą stawkę 17,69 EUR za kredyt ECTS. Cena niedotowana, ustalana przez radę społeczną uczelni, dotyczy tylko osób spoza UE bez statusu wspólnotowego; kwota nie jest podana w oficjalnej ofercie."
+   },
+   "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/psicologia-1216708251447.html?param1=1264404718805",
+   "quote": "Preu per crèdit: 17,69 euros"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Medicina",
+   "set": {
+    "matura": "uznawana z warunkami (Polska jest na liście systemów UNEDasiss i Generalitat; wymagana akredytacja UNEDasiss z notą dostępu od 5 do 10, bez hiszpańskiej PAU)"
+   },
+   "sourceUrl": "https://unedasiss.uned.es/publico_destino",
+   "quote": "Noruega, Países Bajos, Polonia, Portugal, Reino Unido"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Medicina",
+   "set": {
+    "requirements": "Preinscripció przez portal Accés Universitat (kod programu 21079), orientacyjna liczba miejsc w naborze 2026/27: 385. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) lub z fazy dobrowolnej PAU. Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów, więc podniesienie noty wymaga zdania PCE albo PAU."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Medicina",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 12,354. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Kierunek jednolity. Nota odcięcia 12,354 przekracza maksymalną notę dostępu z akredytacji (10), więc potrzebne są wysokie wyniki z PCE lub fazy dobrowolnej PAU (do 4 punktów)."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "Notes de tall 1a assignació Juny 2026"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Medicina",
+   "set": {
+    "languageProof": "Strona uczelni nie podaje poziomu hiszpańskiego ani katalońskiego wymaganego do przyjęcia; wiadomo tylko, że kandydat musi znać język wykładowy. Do potwierdzenia na stronie wydziału.",
+    "tuitionEu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego dochodzą opłaty administracyjne (prowadzenie akt studenta i inne), których wysokość podaje uczelnia.",
+    "tuitionNonEu": "Obywatele UE, w tym Polacy, płacą tę samą stawkę 17,69 EUR za kredyt ECTS. Cena niedotowana, ustalana przez radę społeczną uczelni, dotyczy tylko osób spoza UE bez statusu wspólnotowego; kwota nie jest podana w oficjalnej ofercie."
+   },
+   "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/medicina-1216708251447.html?param1=1263281708763",
+   "quote": "Preu per crèdit: 17,69 euros"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Dret",
+   "set": {
+    "matura": "uznawana z warunkami (Polska jest na liście systemów UNEDasiss i Generalitat; wymagana akredytacja UNEDasiss z notą dostępu od 5 do 10, bez hiszpańskiej PAU)"
+   },
+   "sourceUrl": "https://unedasiss.uned.es/publico_destino",
+   "quote": "Noruega, Países Bajos, Polonia, Portugal, Reino Unido"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Dret",
+   "set": {
+    "requirements": "Preinscripció przez portal Accés Universitat (kod programu 21086), orientacyjna liczba miejsc w naborze 2026/27: 200. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) lub z fazy dobrowolnej PAU. Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów, więc podniesienie noty wymaga zdania PCE albo PAU."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Dret",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 9,708. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Program dotyczy prawa katalońskiego i hiszpańskiego. Możliwość wykonywania zawodu prawnika w Polsce po tym dyplomie trzeba sprawdzić osobno."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "Notes de tall 1a assignació Juny 2026"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Dret",
+   "set": {
+    "languageProof": "Strona uczelni nie podaje poziomu hiszpańskiego ani katalońskiego wymaganego do przyjęcia; wiadomo tylko, że kandydat musi znać język wykładowy. Do potwierdzenia na stronie wydziału.",
+    "tuitionEu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego dochodzą opłaty administracyjne (prowadzenie akt studenta i inne), których wysokość podaje uczelnia.",
+    "tuitionNonEu": "Obywatele UE, w tym Polacy, płacą tę samą stawkę 17,69 EUR za kredyt ECTS. Cena niedotowana, ustalana przez radę społeczną uczelni, dotyczy tylko osób spoza UE bez statusu wspólnotowego; kwota nie jest podana w oficjalnej ofercie."
+   },
+   "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/dret-1216708251447.html?param1=1258702368123",
+   "quote": "Preu per crèdit: 17,69 euros"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Economia (docència en anglès)",
+   "set": {
+    "matura": "uznawana z warunkami (Polska jest na liście systemów UNEDasiss i Generalitat; wymagana akredytacja UNEDasiss z notą dostępu od 5 do 10, bez hiszpańskiej PAU)"
+   },
+   "sourceUrl": "https://unedasiss.uned.es/publico_destino",
+   "quote": "Noruega, Países Bajos, Polonia, Portugal, Reino Unido"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Economia (docència en anglès)",
+   "set": {
+    "requirements": "Preinscripció przez portal Accés Universitat (kod programu 21110), orientacyjna liczba miejsc w naborze 2026/27: 40. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) lub z fazy dobrowolnej PAU. Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów, więc podniesienie noty wymaga zdania PCE albo PAU."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Economia (docència en anglès)",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 9,660. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Grupa anglojęzyczna. Notę 9,660 potwierdza strona UAB; taką samą notę ma UB Psicologia."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "Notes de tall 1a assignació Juny 2026"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Economia (docència en anglès)",
+   "set": {
+    "languageProof": "Strona wydziału nie podaje poziomu angielskiego wymaganego do przyjęcia. Do potwierdzenia na stronie wydziału.",
+    "tuitionEu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego dochodzą opłaty administracyjne (prowadzenie akt studenta i inne), których wysokość podaje uczelnia.",
+    "tuitionNonEu": "Obywatele UE, w tym Polacy, płacą tę samą stawkę 17,69 EUR za kredyt ECTS. Cena niedotowana, ustalana przez radę społeczną uczelni, dotyczy tylko osób spoza UE bez statusu wspólnotowego; kwota nie jest podana w oficjalnej ofercie."
+   },
+   "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/economia-angles-1216708251447.html?param1=1345667929027",
+   "quote": "Preu per crèdit: 17,69 euros"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Intel·ligència Artificial / Artificial Intelligence (docència en anglès)",
+   "set": {
+    "matura": "uznawana z warunkami (Polska jest na liście systemów UNEDasiss i Generalitat; wymagana akredytacja UNEDasiss z notą dostępu od 5 do 10, bez hiszpańskiej PAU)"
+   },
+   "sourceUrl": "https://unedasiss.uned.es/publico_destino",
+   "quote": "Noruega, Países Bajos, Polonia, Portugal, Reino Unido"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Intel·ligència Artificial / Artificial Intelligence (docència en anglès)",
+   "set": {
+    "requirements": "Preinscripció przez portal Accés Universitat (kod programu 21139), orientacyjna liczba miejsc w naborze 2026/27: 40. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) lub z fazy dobrowolnej PAU. Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów, więc podniesienie noty wymaga zdania PCE albo PAU."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Intel·ligència Artificial / Artificial Intelligence (docència en anglès)",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 10,497. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Program po angielsku, zajęcia popołudniowe."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "Notes de tall 1a assignació Juny 2026"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Intel·ligència Artificial / Artificial Intelligence (docència en anglès)",
+   "set": {
+    "languageProof": "Strona wydziału nie podaje poziomu angielskiego wymaganego do przyjęcia. Do potwierdzenia na stronie wydziału.",
+    "tuitionEu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego dochodzą opłaty administracyjne (prowadzenie akt studenta i inne), których wysokość podaje uczelnia.",
+    "tuitionNonEu": "Obywatele UE, w tym Polacy, płacą tę samą stawkę 17,69 EUR za kredyt ECTS. Cena niedotowana, ustalana przez radę społeczną uczelni, dotyczy tylko osób spoza UE bez statusu wspólnotowego; kwota nie jest podana w oficjalnej ofercie."
+   },
+   "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/intel-ligencia-artificial-/-artificial-intelligence-1216708251447.html?param1=1345834483501",
+   "quote": "Preu per crèdit: 17,69 euros"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Periodisme",
+   "set": {
+    "matura": "uznawana z warunkami (Polska jest na liście systemów UNEDasiss i Generalitat; wymagana akredytacja UNEDasiss z notą dostępu od 5 do 10, bez hiszpańskiej PAU)"
+   },
+   "sourceUrl": "https://unedasiss.uned.es/publico_destino",
+   "quote": "Noruega, Países Bajos, Polonia, Portugal, Reino Unido"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Periodisme",
+   "set": {
+    "requirements": "Preinscripció przez portal Accés Universitat (kod programu 21096), orientacyjna liczba miejsc w naborze 2026/27: 160. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) lub z fazy dobrowolnej PAU. Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów, więc podniesienie noty wymaga zdania PCE albo PAU."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Periodisme",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 9,864. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Kampus Bellaterra (Cerdanyola del Vallès)."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "Notes de tall 1a assignació Juny 2026"
+  },
+  {
+   "university": "Universitat Autònoma de Barcelona (UAB, kampus Bellaterra w Cerdanyola del Vallès, ta sama aglomeracja)",
+   "programName": "Grau en Periodisme",
+   "set": {
+    "languageProof": "Strona uczelni nie podaje poziomu hiszpańskiego ani katalońskiego wymaganego do przyjęcia; wiadomo tylko, że kandydat musi znać język wykładowy. Do potwierdzenia na stronie wydziału.",
+    "tuitionEu": "17,69 EUR za kredyt ECTS przy pierwszej rejestracji, rok akademicki 2026/27 (około 1 061 EUR za 60 ECTS rocznie). Do tego dochodzą opłaty administracyjne (prowadzenie akt studenta i inne), których wysokość podaje uczelnia.",
+    "tuitionNonEu": "Obywatele UE, w tym Polacy, płacą tę samą stawkę 17,69 EUR za kredyt ECTS. Cena niedotowana, ustalana przez radę społeczną uczelni, dotyczy tylko osób spoza UE bez statusu wspólnotowego; kwota nie jest podana w oficjalnej ofercie."
+   },
+   "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/periodisme-1216708251447.html?param1=1265293768091",
+   "quote": "Preu per crèdit: 17,69 euros"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Psicologia (UB)",
+   "set": {
+    "matura": "uznawana z warunkami (Polska jest na liście systemów UNEDasiss i Generalitat; wymagana akredytacja UNEDasiss z notą dostępu od 5 do 10, bez hiszpańskiej PAU)"
+   },
+   "sourceUrl": "https://unedasiss.uned.es/publico_destino",
+   "quote": "Noruega, Países Bajos, Polonia, Portugal, Reino Unido"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Psicologia (UB)",
+   "set": {
+    "requirements": "Preinscripció przez portal Accés Universitat (kod programu 11047), orientacyjna liczba miejsc w naborze 2026/27: 432. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) lub z fazy dobrowolnej PAU. Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów, więc podniesienie noty wymaga zdania PCE albo PAU."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Psicologia (UB)",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 9,660. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Język wykładowy i czas trwania do potwierdzenia na stronie uczelni. Taką samą notę 9,660 ma UAB Economia (potwierdzone w tabeli Generalitat)."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "Notes de tall 1a assignació Juny 2026"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Psicologia (UB)",
+   "set": {
+    "languageProof": "Oficjalna oferta Generalitat nie podaje poziomu hiszpańskiego ani katalońskiego wymaganego do przyjęcia. Do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/Preins-2026-Juny_v4.pdf",
+   "quote": "PREINSCRIPCIÓ UNIVERSITÀRIA 2026"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Medicina (Campus Clínic, UB)",
+   "set": {
+    "matura": "uznawana z warunkami (Polska jest na liście systemów UNEDasiss i Generalitat; wymagana akredytacja UNEDasiss z notą dostępu od 5 do 10, bez hiszpańskiej PAU)"
+   },
+   "sourceUrl": "https://unedasiss.uned.es/publico_destino",
+   "quote": "Noruega, Países Bajos, Polonia, Portugal, Reino Unido"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Medicina (Campus Clínic, UB)",
+   "set": {
+    "requirements": "Preinscripció przez portal Accés Universitat (kod programu 11043), orientacyjna liczba miejsc w naborze 2026/27: 200. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) lub z fazy dobrowolnej PAU. Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów, więc podniesienie noty wymaga zdania PCE albo PAU."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Medicina (Campus Clínic, UB)",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 12,685. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Nota odcięcia przekracza 10, więc potrzebne są wysokie punkty z PCE lub PAU. Drugi kampus: Bellvitge (kod 11083, 100 miejsc, nota 12,500). Język wykładowy i czas trwania do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "Notes de tall 1a assignació Juny 2026"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Medicina (Campus Clínic, UB)",
+   "set": {
+    "languageProof": "Oficjalna oferta Generalitat nie podaje poziomu hiszpańskiego ani katalońskiego wymaganego do przyjęcia. Do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/Preins-2026-Juny_v4.pdf",
+   "quote": "PREINSCRIPCIÓ UNIVERSITÀRIA 2026"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Dret (UB)",
+   "set": {
+    "matura": "uznawana z warunkami (Polska jest na liście systemów UNEDasiss i Generalitat; wymagana akredytacja UNEDasiss z notą dostępu od 5 do 10, bez hiszpańskiej PAU)"
+   },
+   "sourceUrl": "https://unedasiss.uned.es/publico_destino",
+   "quote": "Noruega, Países Bajos, Polonia, Portugal, Reino Unido"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Dret (UB)",
+   "set": {
+    "requirements": "Preinscripció przez portal Accés Universitat (kod programu 11012), orientacyjna liczba miejsc w naborze 2026/27: 430. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) lub z fazy dobrowolnej PAU. Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów, więc podniesienie noty wymaga zdania PCE albo PAU."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Dret (UB)",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 9,736. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Język wykładowy i czas trwania do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "Notes de tall 1a assignació Juny 2026"
+  },
+  {
+   "university": "Universitat de Barcelona (UB)",
+   "programName": "Grau en Dret (UB)",
+   "set": {
+    "languageProof": "Oficjalna oferta Generalitat nie podaje poziomu hiszpańskiego ani katalońskiego wymaganego do przyjęcia. Do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/Preins-2026-Juny_v4.pdf",
+   "quote": "PREINSCRIPCIÓ UNIVERSITÀRIA 2026"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Medicina (UPF)",
+   "set": {
+    "matura": "uznawana z warunkami (Polska jest na liście systemów UNEDasiss i Generalitat; wymagana akredytacja UNEDasiss z notą dostępu od 5 do 10, bez hiszpańskiej PAU)"
+   },
+   "sourceUrl": "https://unedasiss.uned.es/publico_destino",
+   "quote": "Noruega, Países Bajos, Polonia, Portugal, Reino Unido"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Medicina (UPF)",
+   "set": {
+    "requirements": "Preinscripció przez portal Accés Universitat (kod programu 41058), orientacyjna liczba miejsc w naborze 2026/27: 64. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) lub z fazy dobrowolnej PAU. Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów, więc podniesienie noty wymaga zdania PCE albo PAU."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Medicina (UPF)",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 12,534. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Nota odcięcia przekracza 10, więc potrzebne są wysokie punkty z PCE lub PAU. Język wykładowy i czas trwania do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "Notes de tall 1a assignació Juny 2026"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Medicina (UPF)",
+   "set": {
+    "languageProof": "Oficjalna oferta Generalitat nie podaje poziomu hiszpańskiego ani katalońskiego wymaganego do przyjęcia. Do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/Preins-2026-Juny_v4.pdf",
+   "quote": "PREINSCRIPCIÓ UNIVERSITÀRIA 2026"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Periodisme (UPF)",
+   "set": {
+    "matura": "uznawana z warunkami (Polska jest na liście systemów UNEDasiss i Generalitat; wymagana akredytacja UNEDasiss z notą dostępu od 5 do 10, bez hiszpańskiej PAU)"
+   },
+   "sourceUrl": "https://unedasiss.uned.es/publico_destino",
+   "quote": "Noruega, Países Bajos, Polonia, Portugal, Reino Unido"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Periodisme (UPF)",
+   "set": {
+    "requirements": "Preinscripció przez portal Accés Universitat (kod programu 41025), orientacyjna liczba miejsc w naborze 2026/27: 80. Nota admisji do 14 punktów: nota dostępu z akredytacji UNEDasiss (5 do 10) plus do 4 punktów za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) lub z fazy dobrowolnej PAU. Przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów, więc podniesienie noty wymaga zdania PCE albo PAU."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Periodisme (UPF)",
+   "set": {
+    "notes": "Nota odcięcia z pierwszego przydziału z 10 lipca 2026 (kolumna PAU/CFGS): 10,800. Osobnej noty dla matur z zagranicy nie ma, więc liczba jest tylko orientacją. Język wykładowy i czas trwania do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "quote": "Notes de tall 1a assignació Juny 2026"
+  },
+  {
+   "university": "Universitat Pompeu Fabra (UPF)",
+   "programName": "Grau en Periodisme (UPF)",
+   "set": {
+    "languageProof": "Oficjalna oferta Generalitat nie podaje poziomu hiszpańskiego ani katalońskiego wymaganego do przyjęcia. Do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/Preins-2026-Juny_v4.pdf",
+   "quote": "PREINSCRIPCIÓ UNIVERSITÀRIA 2026"
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [],
+ "summaryPatches": [
+  {
+   "label": "Polska matura",
+   "text": "Obywatele UE z polską maturą nie zdają hiszpańskiej PAU. Polska jest na liście systemów edukacyjnych, których absolwenci wchodzą na uczelnie hiszpańskie przez akredytację UNEDasiss (UNED), i tę samą listę podaje Generalitat Katalonii. Akredytacja przelicza oceny z polskiego świadectwa na notę dostępu w skali od 5 do 10. Potem składa się zgłoszenie (preinscripció) przez katalońskie Portal d'Accés a la Universitat. Notę admisji (do 14 punktów) podnosi się o maksymalnie 4 punkty za dwa najlepiej ważone przedmioty z PCE (egzaminy UNED dla cudzoziemców) albo z fazy dobrowolnej PAU. Inaczej niż w Walencji, w Katalonii przedmioty z polskiej matury wpisane do akredytacji UNEDasiss nie liczą się do tych punktów. Na kierunkach z notą odcięcia powyżej 10 (medycyna, data science) trzeba więc w praktyce zdać PCE lub PAU.",
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "quote": "No es té en compte cap matèria cursada a batxillerat i reconeguda a l’acreditació UNEDasiss"
+  },
+  {
+   "label": "Opłaty",
+   "text": "Wszystkie publiczne uczelnie Katalonii (UB, UAB, UPC, UPF) pobierają tę samą opłatę za kredyt ECTS przy pierwszej rejestracji: 17,69 EUR w roku 2026/27, czyli około 1 061 EUR za 60 ECTS rocznie, bez względu na kierunek. Obywatele UE, w tym Polacy, płacą tyle samo co Hiszpanie. UPC podaje około 1 800 EUR rocznie dla nierezydentów spoza UE, a UAB nie podaje kwoty ceny niedotowanej. Do tego dochodzą opłaty administracyjne i ubezpieczenie, których wysokość podaje uczelnia.",
+   "sourceUrl": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+   "quote": "el preu per crèdit és de 17,69 €"
+  },
+  {
+   "label": "Znajomość języka",
+   "text": "Większość programów jest po katalońsku i hiszpańsku, a część zajęć bywa po angielsku. W pełni po angielsku są UAB Economia, UAB Intel·ligència Artificial i grupa angielska UPC Enginyeria Civil. Strony uczelni nie podają wymaganego certyfikatu z angielskiego ani poziomu hiszpańskiego lub katalońskiego; poziom do potwierdzenia w wydziale.",
+   "sourceUrl": "https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/economia-angles-1216708251447.html?param1=1345667929027",
+   "quote": "Idioma: Anglès (la llengua d'impartició"
+  },
+  {
+   "label": "Znajomość angielskiego",
+   "remove": true
+  }
+ ],
+ "gapsSet": [
+  "Dla pięciu programów UB i UPF nie ma jeszcze języka wykładowego ani czasu trwania, bo strony tych uczelni nie otworzyły się do sprawdzenia. Dane te trzeba uzupełnić ze stron UB i UPF; w zestawieniu są tylko kod, liczba miejsc i nota odcięcia z oficjalnych dokumentów Generalitat.",
+  "Strony uczelni nie podają wymaganego poziomu hiszpańskiego lub katalońskiego ani certyfikatu z angielskiego dla programów anglojęzycznych.",
+  "Opłaty UNEDasiss za akredytację i za egzaminy PCE nie są podane na stronie w postaci tekstu; kwoty do sprawdzenia na unedasiss.uned.es. Nie ma też tabeli przeliczania polskiej matury na skalę od 5 do 10.",
+  "Osobnych not odcięcia dla maturzystów z zagranicy nie ma; podane noty dotyczą kolumny PAU/CFGS pierwszego przydziału z czerwca 2026 i służą jako orientacja. Maksymalna nota dostępu z samej akredytacji to 10.",
+  "Terminy naboru na rok 2027/28 nie są opublikowane. Podane daty dotyczą naboru 2026/27. UNEDasiss podaje 7 lipca 2026 jako ostateczny termin zgłoszeń do uczelni publicznych w Hiszpanii, ale katalońska preinscripció zamknęła się 26 czerwca 2026, więc w Katalonii obowiązuje termin wcześniejszy.",
+  "Opłaty administracyjne (prowadzenie akt, ubezpieczenie) oraz cena niedotowana dla osób spoza UE bez statusu wspólnotowego nie są podane w kwotach.",
+  "Tabele ważenia przedmiotów PCE dla poszczególnych kierunków są w oficjalnej tabeli Generalitat (ponderacions) i nie zostały tu zestawione.",
+  "Nie wiadomo, ile punktów z PCE zwykle uzyskują maturzyści z Polski na kierunkach z notą odcięcia powyżej 10 (medycyna, data science)."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://unedasiss.uned.es/publico_destino",
+   "note": "UNEDasiss: systemy edukacyjne objęte akredytacją, w tym Polska"
+  },
+  {
+   "url": "https://universitats.gencat.cat/ca/acces-universitat/acces-segons-perfils-estudiants/estudiant-sistema-educatiu-estranger/",
+   "note": "Generalitat Katalonii: dostęp dla absolwentów systemów zagranicznych, lista krajów z Polską, sposób podnoszenia noty"
+  },
+  {
+   "url": "https://unedasiss.uned.es/fechas_clave",
+   "note": "UNEDasiss: terminy akredytacji, egzaminów PCE i zgłoszeń do uczelni"
+  },
+  {
+   "url": "https://universitats.gencat.cat/ca/acces-universitat/sobre-preus-beques/preus-estudis-universitaris/",
+   "note": "Generalitat Katalonii: cena za kredyt ECTS w roku 2026/27"
+  },
+  {
+   "url": "https://universitats.gencat.cat/ca/preinscripcions/notes-tall/",
+   "note": "Generalitat Katalonii: noty odcięcia po przydziałach miejsc"
+  },
+  {
+   "url": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/notes-de-tall/Notes-tall-1a-assignacio_juny_2026.pdf",
+   "note": "Noty odcięcia, pierwszy przydział z 10 lipca 2026"
+  },
+  {
+   "url": "https://universitats.gencat.cat/web/.content/02_preinscripcio/enllac-documents/Preins-2026-Juny_v4.pdf",
+   "note": "Oferta preinscripció 2026: kody programów, miejsca, uczelnie"
+  },
+  {
+   "url": "https://universitats.gencat.cat/ca/preinscripcions/sobre-preinscripcio/ponderacions/",
+   "note": "Generalitat Katalonii: tabela ważenia przedmiotów PCE i PAU"
+  }
+ ]
+}

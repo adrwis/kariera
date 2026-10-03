@@ -1,0 +1,403 @@
+{
+ "slug": "amsterdam",
+ "programPatches": [
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Psychologie (Bachelor, ścieżka angielska)",
+   "set": {
+    "tuitionEu": "2 771 EUR rocznie w 2027/28 według VU (opłata ustawowa dla obywateli UE); UvA nie opublikowała jeszcze własnej tabeli na 2027/28 i podaje 2 694 EUR dla 2026/27."
+   },
+   "sourceUrl": "https://www.uva.nl/en/education/fees-and-funding/tuition-fees/tuition-fees.html",
+   "quote": "Statutory tuition fees 2026-2027 full-time students €2,694"
+  },
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Economics and Business Economics (ścieżka angielska) / Economie en Bedrijfseconomie",
+   "set": {
+    "tuitionEu": "2 771 EUR rocznie w 2027/28 według VU (opłata ustawowa dla obywateli UE); UvA nie opublikowała jeszcze własnej tabeli na 2027/28 i podaje 2 694 EUR dla 2026/27."
+   },
+   "sourceUrl": "https://www.uva.nl/en/education/fees-and-funding/tuition-fees/tuition-fees.html",
+   "quote": "Statutory tuition fees 2026-2027 full-time students €2,694"
+  },
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Global Communication Science (Communicatiewetenschap)",
+   "set": {
+    "tuitionEu": "2 771 EUR rocznie w 2027/28 według VU (opłata ustawowa dla obywateli UE); UvA nie opublikowała jeszcze własnej tabeli na 2027/28 i podaje 2 694 EUR dla 2026/27."
+   },
+   "sourceUrl": "https://www.uva.nl/en/education/fees-and-funding/tuition-fees/tuition-fees.html",
+   "quote": "Statutory tuition fees 2026-2027 full-time students €2,694"
+  },
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Business Analytics (Bachelor)",
+   "set": {
+    "tuitionEu": "2 771 EUR rocznie w 2027/28 według VU (opłata ustawowa dla obywateli UE); UvA nie opublikowała jeszcze własnej tabeli na 2027/28 i podaje 2 694 EUR dla 2026/27."
+   },
+   "sourceUrl": "https://www.uva.nl/en/education/fees-and-funding/tuition-fees/tuition-fees.html",
+   "quote": "Statutory tuition fees 2026-2027 full-time students €2,694"
+  },
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Informatica (Bachelor)",
+   "set": {
+    "tuitionEu": "2 771 EUR rocznie w 2027/28 według VU (opłata ustawowa dla obywateli UE); UvA nie opublikowała jeszcze własnej tabeli na 2027/28 i podaje 2 694 EUR dla 2026/27."
+   },
+   "sourceUrl": "https://www.uva.nl/en/education/fees-and-funding/tuition-fees/tuition-fees.html",
+   "quote": "Statutory tuition fees 2026-2027 full-time students €2,694"
+  },
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Rechtsgeleerdheid (Bachelor)",
+   "set": {
+    "tuitionEu": "2 771 EUR rocznie w 2027/28 według VU (opłata ustawowa dla obywateli UE); UvA nie opublikowała jeszcze własnej tabeli na 2027/28 i podaje 2 694 EUR dla 2026/27."
+   },
+   "sourceUrl": "https://www.uva.nl/en/education/fees-and-funding/tuition-fees/tuition-fees.html",
+   "quote": "Statutory tuition fees 2026-2027 full-time students €2,694"
+  },
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Geneeskunde (Bachelor)",
+   "set": {
+    "tuitionEu": "2 771 EUR rocznie w 2027/28 według VU (opłata ustawowa dla obywateli UE); UvA nie opublikowała jeszcze własnej tabeli na 2027/28 i podaje 2 694 EUR dla 2026/27."
+   },
+   "sourceUrl": "https://www.uva.nl/en/education/fees-and-funding/tuition-fees/tuition-fees.html",
+   "quote": "Statutory tuition fees 2026-2027 full-time students €2,694"
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "Engineering: Werktuigbouwkunde",
+   "set": {
+    "tuitionEu": "2 771 EUR rocznie w 2027/28 według VU (opłata ustawowa dla obywateli UE); HvA nie opublikowała jeszcze własnej stawki na 2027/28 i podaje 2 694 EUR dla 2026/27. Do tego około 200 do 400 EUR rocznie na materiały zależnie od kierunku."
+   },
+   "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/tuition-fees/tuition-fees",
+   "quote": "Statutory tuition fees: €2,694"
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "Engineering: Werktuigbouwkunde",
+   "set": {
+    "academicYear": "2027/28"
+   },
+   "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/how-to-apply/eu-and-international",
+   "quote": "application for the 2027-2028 academic year is possible until 15 January 2027"
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "Built Environment (ścieżki m.in. Architectuur, Constructie, Water)",
+   "set": {
+    "tuitionEu": "2 771 EUR rocznie w 2027/28 według VU (opłata ustawowa dla obywateli UE); HvA nie opublikowała jeszcze własnej stawki na 2027/28 i podaje 2 694 EUR dla 2026/27. Do tego około 200 do 400 EUR rocznie na materiały zależnie od kierunku."
+   },
+   "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/tuition-fees/tuition-fees",
+   "quote": "Statutory tuition fees: €2,694"
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "Built Environment (ścieżki m.in. Architectuur, Constructie, Water)",
+   "set": {
+    "academicYear": "2027/28"
+   },
+   "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/how-to-apply/eu-and-international",
+   "quote": "application for the 2027-2028 academic year is possible until 15 January 2027"
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "ICT (Technische Informatica, dawniej HBO-ICT)",
+   "set": {
+    "tuitionEu": "2 771 EUR rocznie w 2027/28 według VU (opłata ustawowa dla obywateli UE); HvA nie opublikowała jeszcze własnej stawki na 2027/28 i podaje 2 694 EUR dla 2026/27. Do tego około 200 do 400 EUR rocznie na materiały zależnie od kierunku."
+   },
+   "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/tuition-fees/tuition-fees",
+   "quote": "Statutory tuition fees: €2,694"
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "ICT (Technische Informatica, dawniej HBO-ICT)",
+   "set": {
+    "academicYear": "2027/28"
+   },
+   "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/how-to-apply/eu-and-international",
+   "quote": "application for the 2027-2028 academic year is possible until 15 January 2027"
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "Toegepaste Psychologie",
+   "set": {
+    "tuitionEu": "2 771 EUR rocznie w 2027/28 według VU (opłata ustawowa dla obywateli UE); HvA nie opublikowała jeszcze własnej stawki na 2027/28 i podaje 2 694 EUR dla 2026/27. Do tego około 200 do 400 EUR rocznie na materiały zależnie od kierunku."
+   },
+   "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/tuition-fees/tuition-fees",
+   "quote": "Statutory tuition fees: €2,694"
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "Toegepaste Psychologie",
+   "set": {
+    "academicYear": "2027/28"
+   },
+   "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/how-to-apply/eu-and-international",
+   "quote": "application for the 2027-2028 academic year is possible until 15 January 2027"
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "Communicatie",
+   "set": {
+    "tuitionEu": "2 771 EUR rocznie w 2027/28 według VU (opłata ustawowa dla obywateli UE); HvA nie opublikowała jeszcze własnej stawki na 2027/28 i podaje 2 694 EUR dla 2026/27. Do tego około 200 do 400 EUR rocznie na materiały zależnie od kierunku."
+   },
+   "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/tuition-fees/tuition-fees",
+   "quote": "Statutory tuition fees: €2,694"
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "Communicatie",
+   "set": {
+    "academicYear": "2027/28"
+   },
+   "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/how-to-apply/eu-and-international",
+   "quote": "application for the 2027-2028 academic year is possible until 15 January 2027"
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "International Business (AMSIB)",
+   "set": {
+    "tuitionEu": "2 771 EUR rocznie w 2027/28 według VU (opłata ustawowa dla obywateli UE); HvA nie opublikowała jeszcze własnej stawki na 2027/28 i podaje 2 694 EUR dla 2026/27. Do tego około 200 do 400 EUR rocznie na materiały zależnie od kierunku."
+   },
+   "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/tuition-fees/tuition-fees",
+   "quote": "Statutory tuition fees: €2,694"
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "International Business (AMSIB)",
+   "set": {
+    "academicYear": "2027/28"
+   },
+   "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/how-to-apply/eu-and-international",
+   "quote": "application for the 2027-2028 academic year is possible until 15 January 2027"
+  },
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Psychologie (Bachelor, ścieżka angielska)",
+   "set": {
+    "requirements": "Numerus fixus: 270 miejsc w ścieżce angielskiej w roku 2027/28. Matematyka w programie szkoły średniej do ostatniego roku i w egzaminach końcowych, co najmniej na poziomie VWO Wiskunde A (alternatywa: kursy z instytutu Korteweg-de Vries albo test OMPT-A z wynikiem co najmniej 70 procent, zaświadczenie do 1 kwietnia 2027). Selekcja: obejrzenie dwóch wykładów, tydzień nauki (około 24 godzin) i dwa testy online z nadzorem kamery. Tura I: test w sobotę 6 lutego 2027, tura II: test w sobotę 6 marca 2027; to jedyne terminy, bez wyjątków. Ranking powstaje z wyniku testu i losowania w trzech grupach, 90 najlepszych dostaje numery 1 do 90, numery 1 do 270 dostają miejsce od razu. Numery rankingowe przychodzą 15 kwietnia 2027. W naborze 2026/27 było 1 934 zgłoszeń, 1 320 osób przystąpiło do selekcji, a ostatni przyznany numer to 482 (stan z 18 sierpnia 2026). Dwie próby selekcji nie są możliwe, jest jedna próba.",
+    "admissionUrl": "https://www.uva.nl/en/programmes/bachelors/psychology/application-and-admission/selection-procedure/selection-procedure.html"
+   },
+   "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/psychology/application-and-admission/selection-procedure/selection-procedure.html",
+   "quote": "Test day: Saturday 6 February 2027"
+  },
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Psychologie (Bachelor, ścieżka angielska)",
+   "set": {
+    "notes": "Selekcja łączy test i losowanie, oceny z matury nie wchodzą do rankingu. Ścieżka angielska jest po angielsku (wymagany angielski C1), ścieżka niderlandzka jest osobna. Statystyki rekrutacji (1 934 zgłoszeń, ostatni numer 482) dotyczą poprzedniego naboru 2026/27 i są tylko orientacją.",
+    "deadline": "Studielink od 1 października 2026 do 15 stycznia 2027 (rok 2027/28). Selekcja: tura I z testem 6 lutego 2027 lub tura II z testem 6 marca 2027. Numer rankingowy 15 kwietnia 2027. Dowód angielskiego do 1 kwietnia 2027, dokumenty poświadczone do 31 sierpnia 2027. Opłata aplikacyjna 100 EUR dla dyplomów zagranicznych."
+   },
+   "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/psychology/application-and-admission/international-prior-education/application-and-admission.html",
+   "quote": "You can submit your enrolment application for the academic year 2027-2028 in Studielink from 1 October 2026 till 15 January 2027."
+  },
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Economics and Business Economics (ścieżka angielska) / Economie en Bedrijfseconomie",
+   "set": {
+    "requirements": "Ścieżka angielska: numerus fixus, 550 miejsc na pierwszym roku. Dyplom równoważny VWO, matematyka na poziomie VWO A lub B w egzaminach końcowych, angielski C1. Selekcja: obowiązkowy test online trwający 2,5 godziny (matematyka, ekonomia, podstawy ekonomii i zarządzania), do którego uczelnia udostępnia materiały po angielsku (20 do 25 godzin nauki). Ranking: 300 kandydatów z najlepszymi wynikami (grupa 1) dostaje numery wg testu, środkowa grupa jest losowana, a najsłabsza dostaje numery wg testu. Numery 1 do 550 dają miejsce od razu, numery od 551 czekają na zwolnione miejsca, co zwykle dzieje się między 15 kwietnia a 1 sierpnia 2027. Ścieżka niderlandzka jest bez selekcji.",
+    "admissionUrl": "https://www.uva.nl/en/programmes/bachelors/economics--business-economics/application-and-admission/selection-procedure/selection-procedure.html"
+   },
+   "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/economics--business-economics/application-and-admission/selection-procedure/selection-procedure.html",
+   "quote": "The selection test is online and lasts 2.5 hours."
+  },
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Economics and Business Economics (ścieżka angielska) / Economie en Bedrijfseconomie",
+   "set": {
+    "deadline": "Studielink i zapis na test do 15 stycznia 2027 (ścieżka angielska, także przy staraniu o stypendium). Daty testów: sobota 20 lutego i środa 3 marca; strona nie podaje roku przy tych datach, opisuje nabór na wrzesień 2027. Numer rankingowy 15 kwietnia 2027, czesne do 31 sierpnia.",
+    "notes": "Strona programu podaje daty testów bez roku. Ścieżka niderlandzka tej samej nazwy działa bez selekcji i ma osobny termin zgłoszenia 1 maja; wymaga niderlandzkiego."
+   },
+   "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/economics--business-economics/application-and-admission/selection-procedure/selection-procedure.html",
+   "quote": "Make sure you have enrolled in Studielink and signed up for the selection test by 15 January 2027, at the latest."
+  },
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Global Communication Science (Communicatiewetenschap)",
+   "set": {
+    "deadline": "Termin doradczy dla osób z zagranicznym wykształceniem to 1 kwietnia, a termin ostateczny to 1 maja (strona nie podaje roku). W Studielink trzeba wybrać Global Communication Science, a nie Communication Science.",
+    "notes": "Kierunek naukowy (komunikacja), nie szkoła dziennikarska. Strona programu nie podaje limitu miejsc, dowodu językowego ani czesnego instytucjonalnego, więc te dane są do potwierdzenia w diploma finder UvA."
+   },
+   "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/communication-science/application-and-admission/application-and-admission.html",
+   "quote": "The advisory deadline for all students with international prior education is 1 April"
+  },
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Rechtsgeleerdheid (Bachelor)",
+   "set": {
+    "languageProof": "Przy zagranicznym dyplomie dyplom NT2 II jest zawsze dodatkowym wymogiem. Prawo to kierunek językowy i według UvA wymaga bardzo dobrej znajomości niderlandzkiego, a przy wątpliwościach zaleca rozmowę z doradcą studiów.",
+    "deadline": "Zgłoszenie przez Studielink najpóźniej do 1 maja (strona nie podaje roku, dotyczy naboru na wrzesień).",
+    "notes": "Prawo holenderskie, wszystkie zajęcia po niderlandzku, kształci do zawodów prawniczych w Holandii. Program po niderlandzku z wymaganym dyplomem NT2 II, więc bez niderlandzkiego nie jest dostępny. Angielskojęzyczny kierunek PPLE (Politics, Psychology, Law and Economics) nie jest czystym prawem i nie został tu opisany."
+   },
+   "sourceUrl": "https://www.uva.nl/programmas/bachelors/rechtsgeleerdheid/toelating-en-inschrijven/toelating-en-inschrijven.html",
+   "quote": "Bij toelating op grond van een buitenlands diploma is een NT2-II-diploma altijd een aanvullende eis."
+  },
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Geneeskunde (Bachelor)",
+   "set": {
+    "languageProof": "Program po niderlandzku. UvA ocenia znajomość niderlandzkiego razem z zagranicznym wykształceniem (dział Credential Evaluation), a strona nie podaje wymaganego poziomu. Przy dyplomie IB wymagany jest Dutch A (HL lub SL), Dutch B (HL) albo dyplom NT2. Poziom dla polskiej matury do potwierdzenia na stronie uczelni (VU podaje dla medycyny minimum NT2 II)."
+   },
+   "sourceUrl": "https://www.uva.nl/programmas/bachelors/geneeskunde/toelatingseisen/toelating-en-inschrijven.html",
+   "quote": "HL/SL Dutch A of HL Dutch B of een NT 2 diploma"
+  },
+  {
+   "university": "Universiteit van Amsterdam (UvA)",
+   "programName": "Geneeskunde (Bachelor)",
+   "set": {
+    "requirements": "Numerus fixus: ustawowy limit 342 miejsc rocznie (liczba na 2027/28 może się jeszcze zmienić). Losowanie nieważone pod nadzorem notariusza, wszyscy zarejestrowani biorą udział, bez dodatkowych kryteriów, do 3 prób. Wymagane przedmioty na poziomie VWO z pozytywną oceną: biologia, matematyka A lub B, fizyka i chemia (profil Natuur & Gezondheid z fizyką albo Natuur & Techniek z biologią). Zagraniczny dyplom i przedmioty ocenia UvA Credential Evaluation, braki (deficiënties) trzeba uzupełnić.",
+    "deadline": "Studielink od 1 października 2026 do 15 stycznia 2027. Numery z losowania 15 kwietnia 2027, akceptacja miejsca do 29 kwietnia 2027 dla osób przyjętych od razu.",
+    "notes": "Studia medyczne w Amsterdamie są wspólne dla UvA i VU (Amsterdam UMC), obie uczelnie podają limit 342 miejsc. Czas trwania licencjatu nie jest podany na stronie. Polska matura nie jest wymieniona, a wymagane przedmioty trzeba porównać z przedmiotami zdawanymi na maturze. Program po niderlandzku."
+   },
+   "sourceUrl": "https://www.uva.nl/programmas/bachelors/geneeskunde/toelatingseisen/toelating-en-inschrijven.html",
+   "quote": "Als selectieprocedure hanteert de bachelor Geneeskunde UvA ongewogen loting."
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "Toegepaste Psychologie",
+   "set": {
+    "requirements": "Numerus fixus: 420 miejsc. Do przyjęcia obowiązuje selekcja po zgłoszeniu w Studielink: dwa testy (zamknięty i z pytaniami otwartymi) w Amsterdamie w dniu selekcji, 5 lub 12 lutego 2027. Kandydaci z najlepszymi wynikami (do kandydata numer 140 włącznie) dostają miejsce od razu, pozostali dostają numer z losowania, a numery do 420 dają miejsce od razu. Numery rankingowe przychodzą 15 kwietnia 2027, a miejsca można dostać w Studielink do 31 sierpnia 2027. Dyplom: havo (profile NT, NG, EM), vwo (wszystkie profile) albo mbo 4; zagraniczny dyplom przechodzi ocenę HvA (diplomawaardering) przed startem.",
+    "admissionUrl": "https://www.hva.nl/opleidingen/toegepaste-psychologie/schrijf-je-in/selectie"
+   },
+   "sourceUrl": "https://www.hva.nl/opleidingen/toegepaste-psychologie/schrijf-je-in/selectie",
+   "quote": "Het gemiddelde cijfer van kandidaat 140 is hierbij leidend."
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "Toegepaste Psychologie",
+   "set": {
+    "deadline": "Studielink od 1 października 2026 do 15 stycznia 2027 (nabór 2027/28, numerus fixus). Selekcja 5 lub 12 lutego 2027, numery rankingowe 15 kwietnia 2027. Opłata aplikacyjna 100 EUR dla dyplomów zagranicznych.",
+    "notes": "Kierunek stosowany (HBO), 4 lata, nie jest uniwersytecki i w Polsce nie równa się studiom psychologicznym kończącym się uprawnieniami psychologa. Liczba miejsc (420) i próg 140 pochodzą ze strony selekcji HvA."
+   },
+   "sourceUrl": "https://www.hva.nl/opleidingen/toegepaste-psychologie/schrijf-je-in",
+   "quote": "Voor studiejaar 2027-2028 kun je je inschrijven vanaf 1 oktober 2026 tot uiterlijk 15 januari 2027."
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "Engineering: Werktuigbouwkunde",
+   "set": {
+    "languageProof": "Program HBO po niderlandzku. HvA nie podaje na stronie kierunku wymaganego poziomu niderlandzkiego, więc trzeba go potwierdzić w uczelni przed zgłoszeniem, bo bez niderlandzkiego ten kierunek jest praktycznie niedostępny. Zagraniczny dyplom przechodzi ocenę HvA (diplomawaardering) przed startem."
+   },
+   "sourceUrl": "https://www.hva.nl/opleidingen/engineering-werktuigbouwkunde/toelating",
+   "quote": "Heb je een buitenlands diploma? Dan beoordeelt de HvA of dit diploma voldoet aan de toelatingseisen"
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "Built Environment (ścieżki m.in. Architectuur, Constructie, Water)",
+   "set": {
+    "languageProof": "Program HBO po niderlandzku. HvA nie podaje na stronie kierunku wymaganego poziomu niderlandzkiego, więc trzeba go potwierdzić w uczelni przed zgłoszeniem, bo bez niderlandzkiego ten kierunek jest praktycznie niedostępny. Zagraniczny dyplom przechodzi ocenę HvA (diplomawaardering) przed startem."
+   },
+   "sourceUrl": "https://www.hva.nl/opleidingen/built-environment/toelating",
+   "quote": "Heb je een buitenlands diploma? Dan beoordeelt de HvA of dit diploma voldoet aan de toelatingseisen"
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "ICT (Technische Informatica, dawniej HBO-ICT)",
+   "set": {
+    "languageProof": "Program HBO po niderlandzku. HvA nie podaje na stronie kierunku wymaganego poziomu niderlandzkiego, więc trzeba go potwierdzić w uczelni przed zgłoszeniem, bo bez niderlandzkiego ten kierunek jest praktycznie niedostępny. Zagraniczny dyplom przechodzi ocenę HvA (diplomawaardering) przed startem.",
+    "admissionUrl": "https://www.hva.nl/opleidingen/ict/toelating",
+    "url": "https://www.hva.nl/opleidingen/ict"
+   },
+   "sourceUrl": "https://www.hva.nl/opleidingen/ict/toelating",
+   "quote": "Heb je een buitenlands diploma? Dan beoordeelt de HvA of dit diploma voldoet aan de toelatingseisen"
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "Communicatie",
+   "set": {
+    "languageProof": "Program HBO po niderlandzku. HvA nie podaje na stronie kierunku wymaganego poziomu niderlandzkiego, więc trzeba go potwierdzić w uczelni przed zgłoszeniem, bo bez niderlandzkiego ten kierunek jest praktycznie niedostępny. Zagraniczny dyplom przechodzi ocenę HvA (diplomawaardering) przed startem."
+   },
+   "sourceUrl": "https://www.hva.nl/opleidingen/communicatie/toelating",
+   "quote": "Heb je een buitenlands diploma? Dan beoordeelt de HvA of dit diploma voldoet aan de toelatingseisen"
+  },
+  {
+   "university": "Hogeschool van Amsterdam (HvA, Amsterdam University of Applied Sciences)",
+   "programName": "Toegepaste Psychologie",
+   "set": {
+    "languageProof": "Program HBO po niderlandzku. HvA nie podaje na stronie kierunku wymaganego poziomu niderlandzkiego, więc trzeba go potwierdzić w uczelni przed zgłoszeniem, bo bez niderlandzkiego ten kierunek jest praktycznie niedostępny. Zagraniczny dyplom przechodzi ocenę HvA (diplomawaardering) przed startem."
+   },
+   "sourceUrl": "https://www.hva.nl/opleidingen/toegepaste-psychologie/toelating",
+   "quote": "Heb je een buitenlands diploma? Dan beoordeelt de HvA of dit diploma voldoet aan de toelatingseisen"
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [],
+ "summaryPatches": [
+  {
+   "label": "Opłaty",
+   "text": "Obywatele UE: opłata ustawowa wynosi 2 694 EUR rocznie w 2026/27 (UvA, HvA) i 2 771 EUR rocznie w 2027/28 według VU, a w danych programów podajemy 2 771 EUR jako stawkę na rok 2027/28 z adnotacją o 2026/27. UvA i HvA nie opublikowały jeszcze własnych stawek na 2027/28. Spoza UE: opłata instytucjonalna zależna od kierunku, np. UvA 2026/27: ekonomia 13 900 EUR, prawo 17 500 EUR, medycyna 34 700 EUR; VU 2027/28: psychologia, ekonomia, prawo i komunikacja 14 800 EUR, informatyka 20 330 EUR, medycyna 36 890 EUR; HvA 2026/27: 10 648 EUR.",
+   "sourceUrl": "https://vu.nl/en/education/more-about/tuition-fee-rates-bachelor-s-programmes",
+   "quote": "Full-time, part-time or work-study degree €2.771"
+  },
+  {
+   "label": "Rekrutacja",
+   "text": "Kierunki z numerus fixus (UvA psychologia i ekonomia po angielsku, medycyna, VU psychologia, HvA psychologia stosowana): Studielink od 1 października 2026 do 15 stycznia 2027 (nabór 2027/28), numery rankingowe 15 kwietnia 2027. Testy selekcyjne UvA: psychologia 6 lutego lub 6 marca 2027, ekonomia 20 lutego lub 3 marca (strona nie podaje roku); HvA psychologia stosowana 5 lub 12 lutego 2027. Kierunki bez limitu: UvA i VU do 1 maja (strona nie podaje roku), HvA do 31 sierpnia 2027, z wizą do 1 maja 2027. Opłata aplikacyjna 100 EUR dla dyplomów zagranicznych (UvA, VU, HvA). Medycyna po niderlandzku wymaga niderlandzkiego (VU: co najmniej NT2 II) i przedmiotów na poziomie VWO, a prawo na UvA dyplomu NT2 II przy zagranicznym dyplomie.",
+   "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/psychology/application-and-admission/selection-procedure/selection-procedure.html",
+   "quote": "Test day: Saturday 6 February 2027"
+  }
+ ],
+ "gapsSet": [
+  "Architektura i budownictwo: UvA i VU nie mają takich kierunków, jedyna opcja w Amsterdamie to HvA Built Environment (HBO, po niderlandzku). Politechniki w Delft i Eindhoven leżą poza Amsterdamem.",
+  "Mechanika: tylko HvA Engineering, ścieżka Werktuigbouwkunde (HBO, po niderlandzku). Nie ma wersji angielskiej.",
+  "Data science: brak osobnego licencjatu. Najbliższe są UvA Business Analytics (po angielsku) i VU Computer Science. UvA Informatica i Kunstmatige Intelligentie są po niderlandzku.",
+  "Prawo: tylko UvA Rechtsgeleerdheid po niderlandzku, z wymaganym dyplomem NT2 II przy zagranicznym dyplomie. Strona VU Law nie była dostępna, więc VU Law nie ma w zestawieniu. Brak angielskiego licencjatu z samego prawa (UvA PPLE jest interdyscyplinarny).",
+  "Czesne instytucjonalne UvA na 2026/27 dla Communication Science, Business Analytics i informatyki nie jest przypisane do konkretnych kierunków na stronach programów. UvA i HvA nie opublikowały czesnego na 2027/28, dlatego stawkę 2 771 EUR podano według VU.",
+  "Strony UvA programów Global Communication Science, Business Analytics i Informatica nie podają limitu miejsc ani pełnego terminu naboru, a dla Global Communication Science tylko termin doradczy 1 kwietnia i ostateczny 1 maja bez roku.",
+  "VU: wyniki z angielskiego i dokładny poziom niderlandzkiego (poza medycyną: NT2 II) są na osobnych stronach o wymaganiach językowych, które nie zostały sprawdzone.",
+  "UvA medycyna: strona nie podaje wymaganego poziomu niderlandzkiego (poza dyplomem NT2 przy IB), a czas trwania licencjatu nie jest na niej podany. Poziom dla polskiej matury trzeba potwierdzić w UvA Credential Evaluation.",
+  "Daty testów selekcyjnych UvA ekonomii (20 lutego i 3 marca) strona podaje bez roku, w kontekście naboru na wrzesień 2027. Terminy UvA i VU dla kierunków bez limitu (1 maja) też nie mają roku na stronach.",
+  "Kierunki HBO w HvA po niderlandzku (Engineering, Built Environment, ICT, Communicatie, psychologia stosowana): HvA nie podaje na stronach wymaganego poziomu niderlandzkiego, a HBO nie jest równoważne licencjatowi uniwersyteckiemu w Polsce.",
+  "Czas trwania licencjatu na VU (Computer Science, Economics, Communication, Medycyna) i UvA medycyna nie jest podany na sprawdzonych stronach. Przeliczenie polskich ocen na skalę 7,5 wymaganą przez VU psychologię nie jest opisane."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://www.uva.nl/en/programmes/bachelors/psychology/application-and-admission/selection-procedure/selection-procedure.html",
+   "note": "UvA psychologia: selekcja, daty testów 2027 i ranking"
+  },
+  {
+   "url": "https://www.uva.nl/en/programmes/bachelors/economics--business-economics/application-and-admission/selection-procedure/selection-procedure.html",
+   "note": "UvA ekonomia po angielsku: selekcja, test 2,5 godziny, grupy rankingowe"
+  },
+  {
+   "url": "https://www.uva.nl/en/programmes/bachelors/communication-science/application-and-admission/application-and-admission.html",
+   "note": "UvA Global Communication Science: terminy zgłoszeń"
+  },
+  {
+   "url": "https://www.uva.nl/programmas/bachelors/rechtsgeleerdheid/toelating-en-inschrijven/toelating-en-inschrijven.html",
+   "note": "UvA prawo: termin 1 maja i wymóg NT2 II dla zagranicznego dyplomu"
+  },
+  {
+   "url": "https://www.uva.nl/programmas/bachelors/geneeskunde/toelatingseisen/toelating-en-inschrijven.html",
+   "note": "UvA medycyna: losowanie, limit 342 miejsc, wymagane przedmioty"
+  },
+  {
+   "url": "https://www.uva.nl/en/education/fees-and-funding/tuition-fees/tuition-fees.html",
+   "note": "UvA: opłaty ustawowe i instytucjonalne 2026/27"
+  },
+  {
+   "url": "https://vu.nl/en/education/more-about/tuition-fee-rates-bachelor-s-programmes",
+   "note": "VU: opłata ustawowa 2027/28 i stawki instytucjonalne"
+  },
+  {
+   "url": "https://vu.nl/nl/onderwijs/bachelor/geneeskunde/toelating",
+   "note": "VU medycyna: wymagane certyfikaty, NT2 II, 342 miejsca"
+  },
+  {
+   "url": "https://www.hva.nl/opleidingen/toegepaste-psychologie/schrijf-je-in/selectie",
+   "note": "HvA psychologia stosowana: 420 miejsc, selekcja 5 i 12 lutego 2027, próg 140"
+  },
+  {
+   "url": "https://www.hva.nl/opleidingen/toegepaste-psychologie/toelating",
+   "note": "HvA psychologia stosowana: wymagane dyplomy i ocena zagranicznego dyplomu"
+  },
+  {
+   "url": "https://www.amsterdamuas.com/study/international-admissions/tuition-fees/tuition-fees",
+   "note": "HvA: opłata ustawowa 2026/27"
+  },
+  {
+   "url": "https://www.amsterdamuas.com/study/international-admissions/how-to-apply/eu-and-international",
+   "note": "HvA: terminy zgłoszeń 2027/28 i opłata aplikacyjna 100 EUR"
+  }
+ ]
+}

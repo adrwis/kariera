@@ -1,0 +1,510 @@
+{
+ "slug": "bukareszt",
+ "programPatches": [
+  {
+   "university": "Universitatea din București",
+   "programName": "Psihologie - Științe cognitive (în limba engleză)",
+   "set": {
+    "tuitionEu": "5 500 lei (ok. 1 030 EUR) rocznie w pierwszym roku (bez zniżki 8 000 lei (ok. 1 500 EUR); uczelnia tymczasowo obniżyła opłatę dla przyjętych na pierwszy rok w roku 2026/27). Obywatele UE płacą jak Rumuni. Dla miejsc budżetowych brak czesnego. Opłata za rejestrację na konkurs 350 lei. Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://unibuc.ro/wp-content/uploads/2026/03/Taxe-de-scolarizare-Studii-licenta-2026-2027.pdf",
+   "quote": "Administraţie şi Afaceri 8000 5500"
+  },
+  {
+   "university": "Universitatea din București",
+   "programName": "Psihologie",
+   "set": {
+    "tuitionEu": "Miejsca budżetowe bez czesnego; miejsca płatne 5 500 lei (ok. 1 030 EUR) rocznie w pierwszym roku (bez zniżki 8 000 lei (ok. 1 500 EUR), a uczelnia tymczasowo obniżyła opłatę dla przyjętych na pierwszy rok w roku 2026/27). Obywatele UE na tych samych zasadach co Rumuni. Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://unibuc.ro/wp-content/uploads/2026/03/Taxe-de-scolarizare-Studii-licenta-2026-2027.pdf",
+   "quote": "Administraţie şi Afaceri 8000 5500"
+  },
+  {
+   "university": "Universitatea din București",
+   "programName": "Informatică (în limba engleză)",
+   "set": {
+    "tuitionEu": "Miejsca budżetowe bez czesnego; miejsca płatne 5 500 lei (ok. 1 030 EUR) rocznie w pierwszym roku (bez zniżki 8 000 lei (ok. 1 500 EUR), a uczelnia tymczasowo obniżyła opłatę dla przyjętych na pierwszy rok w roku 2026/27; dla Calculatoare și TI 5 900 lei (ok. 1 100 EUR)). Opłata rejestracyjna na konkurs 450 lei (domeny Informatică, Matematică, CTI). Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://unibuc.ro/wp-content/uploads/2026/03/Taxe-de-scolarizare-Studii-licenta-2026-2027.pdf",
+   "quote": "Administraţie şi Afaceri 8000 5500"
+  },
+  {
+   "university": "Universitatea din București",
+   "programName": "Drept",
+   "set": {
+    "tuitionEu": "Miejsca budżetowe bez czesnego; miejsca płatne 8 800 lei (ok. 1 650 EUR) rocznie w pierwszym roku (bez zniżki). Opłata rejestracyjna 650 lei. Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://unibuc.ro/wp-content/uploads/2026/03/Taxe-de-scolarizare-Studii-licenta-2026-2027.pdf",
+   "quote": "Administraţie şi Afaceri 8000 5500"
+  },
+  {
+   "university": "Universitatea din București",
+   "programName": "Administrarea afacerilor (în limba Engleză)",
+   "set": {
+    "tuitionEu": "Miejsca budżetowe bez czesnego; miejsca płatne 5 500 lei (ok. 1 030 EUR) rocznie w pierwszym roku (bez zniżki 8 000 lei (ok. 1 500 EUR), a uczelnia tymczasowo obniżyła opłatę dla przyjętych na pierwszy rok w roku 2026/27). Opłata rejestracyjna 200 lei. Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://unibuc.ro/wp-content/uploads/2026/03/Taxe-de-scolarizare-Studii-licenta-2026-2027.pdf",
+   "quote": "Administraţie şi Afaceri 8000 5500"
+  },
+  {
+   "university": "Universitatea din București",
+   "programName": "Jurnalism",
+   "set": {
+    "tuitionEu": "Miejsca budżetowe bez czesnego; miejsca płatne 5 500 lei (ok. 1 030 EUR) rocznie w pierwszym roku (bez zniżki 8 000 lei (ok. 1 500 EUR), a uczelnia tymczasowo obniżyła opłatę dla przyjętych na pierwszy rok w roku 2026/27). Opłata rejestracyjna 300 lei za jedną specjalizację. Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://unibuc.ro/wp-content/uploads/2026/03/Taxe-de-scolarizare-Studii-licenta-2026-2027.pdf",
+   "quote": "Administraţie şi Afaceri 8000 5500"
+  },
+  {
+   "university": "Universitatea Națională de Știință și Tehnologie POLITEHNICA București (UPB, dawniej Universitatea Politehnica din București)",
+   "programName": "Calculatoare și Tehnologia Informației - engleză (Facultatea de Inginerie în Limbi Străine)",
+   "set": {
+    "tuitionEu": "Miejsca budżetowe bez czesnego; miejsca płatne w programach w języku obcym 7 500 lei (ok. 1 400 EUR) rocznie. Opłata za wpis na konkurs 125 lei. Obywatele UE na tych samych zasadach co Rumuni. Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://upb.ro/wp-content/uploads/2026/07/Sistem-de-taxe-2026-2027-02.pdf",
+   "quote": "Școlarizare anuală pentru studenții în regim cu taxă de studii de la învățământul universitar"
+  },
+  {
+   "university": "Universitatea Națională de Știință și Tehnologie POLITEHNICA București (UPB, dawniej Universitatea Politehnica din București)",
+   "programName": "Calculatoare și Tehnologia Informației (Facultatea de Automatică și Calculatoare)",
+   "set": {
+    "tuitionEu": "Miejsca budżetowe bez czesnego; miejsca płatne w Bukareszcie 6 200 lei (ok. 1 160 EUR) rocznie. Obywatele UE na tych samych zasadach co Rumuni. Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://upb.ro/wp-content/uploads/2026/07/Sistem-de-taxe-2026-2027-02.pdf",
+   "quote": "Școlarizare anuală pentru studenții în regim de taxă de studii (TS) de la învățământul"
+  },
+  {
+   "university": "Universitatea Națională de Știință și Tehnologie POLITEHNICA București (UPB, dawniej Universitatea Politehnica din București)",
+   "programName": "Inginerie mecanică - engleză (Facultatea de Inginerie în Limbi Străine)",
+   "set": {
+    "tuitionEu": "Miejsca budżetowe bez czesnego; miejsca płatne w programach w języku obcym 7 500 lei (ok. 1 400 EUR) rocznie. Opłata za wpis 125 lei. Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://upb.ro/wp-content/uploads/2026/07/Sistem-de-taxe-2026-2027-02.pdf",
+   "quote": "Școlarizare anuală pentru studenții în regim cu taxă de studii de la învățământul universitar"
+  },
+  {
+   "university": "Universitatea Națională de Știință și Tehnologie POLITEHNICA București (UPB, dawniej Universitatea Politehnica din București)",
+   "programName": "Inginerie mecanică (Facultatea de Inginerie Mecanică și Mecatronică)",
+   "set": {
+    "tuitionEu": "Miejsca budżetowe bez czesnego; miejsca płatne w Bukareszcie 6 200 lei (ok. 1 160 EUR) rocznie. Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://upb.ro/wp-content/uploads/2026/07/Sistem-de-taxe-2026-2027-02.pdf",
+   "quote": "Școlarizare anuală pentru studenții în regim de taxă de studii (TS) de la învățământul"
+  },
+  {
+   "university": "Academia de Studii Economice din București (ASE)",
+   "programName": "Administrarea afacerilor (în limba engleză)",
+   "set": {
+    "tuitionEu": "10 000 lei (ok. 1 870 EUR) rocznie na miejscu płatnym; miejsca budżetowe bez czesnego. Obywatele UE płacą taką samą taksę jak Rumuni (kolumna 'RO, UE, SEE, CE i UK'). Opłata za wpis 200 lei za pierwsze dwie opcje. Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://admitere.ase.ro/licenta-2026/pasii-candidatului-septembrie/12-taxe-inscriere-si-scolarizare.pdf",
+   "quote": "IF 10.000 lei 3.500 €"
+  },
+  {
+   "university": "Academia de Studii Economice din București (ASE)",
+   "programName": "Economie și afaceri internaționale (în limba engleză)",
+   "set": {
+    "tuitionEu": "7 500 lei (ok. 1 400 EUR) rocznie na miejscu płatnym; miejsca budżetowe bez czesnego. Obywatele UE płacą taką samą taksę jak Rumuni (kolumna 'RO, UE, SEE, CE i UK'). Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://admitere.ase.ro/licenta-2026/pasii-candidatului-septembrie/12-taxe-inscriere-si-scolarizare.pdf",
+   "quote": "IF 10.000 lei 3.500 €"
+  },
+  {
+   "university": "Academia de Studii Economice din București (ASE)",
+   "programName": "Management (în limba engleză)",
+   "set": {
+    "tuitionEu": "7 500 lei (ok. 1 400 EUR) rocznie na miejscu płatnym; miejsca budżetowe bez czesnego. Obywatele UE płacą taką samą taksę jak Rumuni (kolumna 'RO, UE, SEE, CE i UK'). Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://admitere.ase.ro/licenta-2026/pasii-candidatului-septembrie/12-taxe-inscriere-si-scolarizare.pdf",
+   "quote": "IF 10.000 lei 3.500 €"
+  },
+  {
+   "university": "Academia de Studii Economice din București (ASE)",
+   "programName": "Informatică economică (în limba engleză)",
+   "set": {
+    "tuitionEu": "10 000 lei (ok. 1 870 EUR) rocznie na miejscu płatnym; miejsca budżetowe bez czesnego. Obywatele UE płacą taką samą taksę jak Rumuni (kolumna 'RO, UE, SEE, CE i UK'). Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://admitere.ase.ro/licenta-2026/pasii-candidatului-septembrie/12-taxe-inscriere-si-scolarizare.pdf",
+   "quote": "IF 10.000 lei 3.500 €"
+  },
+  {
+   "university": "Academia de Studii Economice din București (ASE)",
+   "programName": "Statistică economică și data science (Facultatea CSIE)",
+   "set": {
+    "tuitionEu": "10 000 lei (ok. 1 870 EUR) rocznie na miejscu płatnym (w tabeli opłat program figuruje pod nazwą 'Statistică şi previziune economică'); miejsca budżetowe bez czesnego. Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://admitere.ase.ro/licenta-2026/pasii-candidatului-septembrie/12-taxe-inscriere-si-scolarizare.pdf",
+   "quote": "Statistică şi previziune economică IF 10.000 lei 3.500 €"
+  },
+  {
+   "university": "Academia de Studii Economice din București (ASE)",
+   "programName": "Drept",
+   "set": {
+    "tuitionEu": "8 000 lei (ok. 1 500 EUR) rocznie na miejscu płatnym; miejsca budżetowe bez czesnego. Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://admitere.ase.ro/licenta-2026/pasii-candidatului-septembrie/12-taxe-inscriere-si-scolarizare.pdf",
+   "quote": "Drept Drept IF 8.000 lei 3.500 €"
+  },
+  {
+   "university": "Universitatea Tehnică de Construcții București (UTCB)",
+   "programName": "Inginerie civilă în limba engleză (Facultatea de Inginerie în Limbi Străine)",
+   "set": {
+    "tuitionEu": "6 600 lei (ok. 1 230 EUR) rocznie na miejscu płatnym (programy inżynierskie w językach obcych); miejsca budżetowe bez czesnego. UTCB przyznaje 10 grantów instytucjonalnych pokrywających czesne na tym programie. Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://utcb.ro/wp-content/uploads/2026/02/20260212_anexa-1-la-hs-1487-regulamentul-taxelor-pentru-anul-universitar-2026-2027.pdf",
+   "quote": "de finanțare cu taxă domeniul științe inginerești cu predare în 6600 lei"
+  },
+  {
+   "university": "Universitatea Tehnică de Construcții București (UTCB)",
+   "programName": "Construcții civile, industriale și agricole",
+   "set": {
+    "tuitionEu": "5 400 lei (ok. 1 010 EUR) rocznie na miejscu płatnym (programy inżynierskie po rumuńsku); miejsca budżetowe bez czesnego. Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://utcb.ro/wp-content/uploads/2026/02/20260212_anexa-1-la-hs-1487-regulamentul-taxelor-pentru-anul-universitar-2026-2027.pdf",
+   "quote": "de finanțare cu taxă - domeniul științe inginerești, cu predare în 5400 lei"
+  },
+  {
+   "university": "Universitatea de Arhitectură și Urbanism „Ion Mincu” din București (UAUIM)",
+   "programName": "Arhitectură (în limba engleză), licență și master comasat",
+   "set": {
+    "tuitionEu": "10 000 lei (ok. 1 870 EUR) rocznie w latach I do IV (w dwóch ratach po 5 000 lei (ok. 930 EUR)), 8 700 lei (ok. 1 630 EUR) w latach V i VI; miejsca budżetowe bez czesnego. Opłata za wpis na konkurs 700 lei. Obywatele UE na tych samych zasadach co Rumuni. Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://www.uauim.ro/universitatea/2026-2027/Decizie%20taxe%202026-2027.pdf",
+   "quote": "Anul I 10000 lei"
+  },
+  {
+   "university": "Universitatea de Arhitectură și Urbanism „Ion Mincu” din București (UAUIM)",
+   "programName": "Arhitectură (în limba română), licență și master comasat",
+   "set": {
+    "tuitionEu": "10 000 lei (ok. 1 870 EUR) rocznie w roku I (w dwóch ratach po 5 000 lei (ok. 930 EUR)), 9 100 lei (ok. 1 700 EUR) w roku II, 8 600 lei (ok. 1 610 EUR) w latach III i IV, 7 400 lei (ok. 1 380 EUR) w latach V i VI; miejsca budżetowe bez czesnego. Przeliczenie według kursu EBC z 2 października 2026 (1 EUR = 5,3488 lei) jest orientacyjne, bo kurs się zmienia."
+   },
+   "sourceUrl": "https://www.uauim.ro/universitatea/2026-2027/Decizie%20taxe%202026-2027.pdf",
+   "quote": "Anul I 10000 lei"
+  },
+  {
+   "university": "Universitatea de Medicină și Farmacie „Carol Davila” din București (UMFCD)",
+   "programName": "Medicină (în limba engleză)",
+   "set": {
+    "tuitionEu": "Czesne dla obywateli UE wynosi równowartość 10 000 EUR rocznie, płatną w lejach według kursu NBR z dnia płatności (przy kursie EBC z 2 października 2026 to ok. 53 490 lei). Miejsc budżetowych (bezpłatnych) na medycynie po angielsku nie ma. Potwierdzenie miejsca: wpłata 50 proc. czesnego. Opłata za rejestrację na konkurs 2 500 lei (ok. 470 EUR); test językowy 500 EUR w tabeli opłat dla studentów zagranicznych."
+   },
+   "sourceUrl": "https://umfcd.ro/en/wp-content/uploads/2026/INTERNATIONAL_STUDENTS/ADMISSION_2026/DOCUMENTS/Taxe_UMFCD_2026-2027_studenti_internationali_EN.pdf",
+   "quote": "The equivalent in lei of 10.000 euro / study year according to BNR exchange"
+  },
+  {
+   "university": "Universitatea din București",
+   "programName": "Psihologie - Științe cognitive (în limba engleză)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (matura UE uznawana przez CNRED przy Ministerstwie Edukacji; uczelnia składa wniosek o uznanie do CNRED, bez uznania nie ma immatrykulacji; regulamin nie opisuje, jak oceny z polskiej matury i szkoły są przeliczane na rumuńską średnią, a to decyduje o szansach w konkursie opartym na średniej)"
+   },
+   "sourceUrl": "https://unibuc.ro/wp-content/uploads/2026/06/RECOGNITIONEQUIVALENCE-OF-BACCALAUREATE-BACHELORS-MASTERS-AND-DOCTORAL-DEGREES-ISSUED-BY-ACCREDITED-EDUCATIONAL-INSTITUTIONS-ABROAD.pdf",
+   "quote": "recognition and equivalence of pre-university studies"
+  },
+  {
+   "university": "Universitatea din București",
+   "programName": "Psihologie",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (matura UE uznawana przez CNRED przy Ministerstwie Edukacji; uczelnia składa wniosek o uznanie do CNRED, bez uznania nie ma immatrykulacji; regulamin nie opisuje, jak oceny z polskiej matury i szkoły są przeliczane na rumuńską średnią, a to decyduje o szansach w konkursie opartym na średniej)"
+   },
+   "sourceUrl": "https://unibuc.ro/wp-content/uploads/2026/06/RECOGNITIONEQUIVALENCE-OF-BACCALAUREATE-BACHELORS-MASTERS-AND-DOCTORAL-DEGREES-ISSUED-BY-ACCREDITED-EDUCATIONAL-INSTITUTIONS-ABROAD.pdf",
+   "quote": "recognition and equivalence of pre-university studies"
+  },
+  {
+   "university": "Universitatea din București",
+   "programName": "Informatică (în limba engleză)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (matura UE uznawana przez CNRED przy Ministerstwie Edukacji; uczelnia składa wniosek o uznanie do CNRED, bez uznania nie ma immatrykulacji; regulamin nie opisuje, jak oceny z polskiej matury i szkoły są przeliczane na rumuńską średnią, a to decyduje o szansach w konkursie opartym na średniej)"
+   },
+   "sourceUrl": "https://unibuc.ro/wp-content/uploads/2026/06/RECOGNITIONEQUIVALENCE-OF-BACCALAUREATE-BACHELORS-MASTERS-AND-DOCTORAL-DEGREES-ISSUED-BY-ACCREDITED-EDUCATIONAL-INSTITUTIONS-ABROAD.pdf",
+   "quote": "recognition and equivalence of pre-university studies"
+  },
+  {
+   "university": "Universitatea din București",
+   "programName": "Drept",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (matura UE uznawana przez CNRED przy Ministerstwie Edukacji; uczelnia składa wniosek o uznanie do CNRED, bez uznania nie ma immatrykulacji; regulamin nie opisuje, jak oceny z polskiej matury i szkoły są przeliczane na rumuńską średnią, a to decyduje o szansach w konkursie opartym na średniej)"
+   },
+   "sourceUrl": "https://unibuc.ro/wp-content/uploads/2026/06/RECOGNITIONEQUIVALENCE-OF-BACCALAUREATE-BACHELORS-MASTERS-AND-DOCTORAL-DEGREES-ISSUED-BY-ACCREDITED-EDUCATIONAL-INSTITUTIONS-ABROAD.pdf",
+   "quote": "recognition and equivalence of pre-university studies"
+  },
+  {
+   "university": "Universitatea din București",
+   "programName": "Administrarea afacerilor (în limba Engleză)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (matura UE uznawana przez CNRED przy Ministerstwie Edukacji; uczelnia składa wniosek o uznanie do CNRED, bez uznania nie ma immatrykulacji; regulamin nie opisuje, jak oceny z polskiej matury i szkoły są przeliczane na rumuńską średnią, a to decyduje o szansach w konkursie opartym na średniej)"
+   },
+   "sourceUrl": "https://unibuc.ro/wp-content/uploads/2026/06/RECOGNITIONEQUIVALENCE-OF-BACCALAUREATE-BACHELORS-MASTERS-AND-DOCTORAL-DEGREES-ISSUED-BY-ACCREDITED-EDUCATIONAL-INSTITUTIONS-ABROAD.pdf",
+   "quote": "recognition and equivalence of pre-university studies"
+  },
+  {
+   "university": "Universitatea din București",
+   "programName": "Jurnalism",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (matura UE uznawana przez CNRED przy Ministerstwie Edukacji; uczelnia składa wniosek o uznanie do CNRED, bez uznania nie ma immatrykulacji; regulamin nie opisuje, jak oceny z polskiej matury i szkoły są przeliczane na rumuńską średnią, a to decyduje o szansach w konkursie opartym na średniej)"
+   },
+   "sourceUrl": "https://unibuc.ro/wp-content/uploads/2026/06/RECOGNITIONEQUIVALENCE-OF-BACCALAUREATE-BACHELORS-MASTERS-AND-DOCTORAL-DEGREES-ISSUED-BY-ACCREDITED-EDUCATIONAL-INSTITUTIONS-ABROAD.pdf",
+   "quote": "recognition and equivalence of pre-university studies"
+  },
+  {
+   "university": "Universitatea Națională de Știință și Tehnologie POLITEHNICA București (UPB, dawniej Universitatea Politehnica din București)",
+   "programName": "Calculatoare și Tehnologia Informației - engleză (Facultatea de Inginerie în Limbi Străine)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (dyplom matury z UE uznawany przez uczelnię według listy i metodologii z rozporządzenia ministra; absolwenci szkół zagranicznych poza tą listą wchodzą na podstawie dyplomu uznanego w Rumunii; regulamin nie opisuje, jak oceny z polskiej matury i szkoły są przeliczane na rumuńską średnią, a to decyduje o szansach w konkursie opartym na średniej)"
+   },
+   "sourceUrl": "https://admitere.pub.ro/docs/Regulament_admitere_licenta_2026.pdf",
+   "quote": "recunoscute de instituțiile de învățământ superior, conform unei liste și metodologii aprobate prin ordin al ministrului"
+  },
+  {
+   "university": "Universitatea Națională de Știință și Tehnologie POLITEHNICA București (UPB, dawniej Universitatea Politehnica din București)",
+   "programName": "Calculatoare și Tehnologia Informației (Facultatea de Automatică și Calculatoare)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (dyplom matury z UE uznawany przez uczelnię według listy i metodologii z rozporządzenia ministra; absolwenci szkół zagranicznych poza tą listą wchodzą na podstawie dyplomu uznanego w Rumunii; regulamin nie opisuje, jak oceny z polskiej matury i szkoły są przeliczane na rumuńską średnią, a to decyduje o szansach w konkursie opartym na średniej)"
+   },
+   "sourceUrl": "https://admitere.pub.ro/docs/Regulament_admitere_licenta_2026.pdf",
+   "quote": "recunoscute de instituțiile de învățământ superior, conform unei liste și metodologii aprobate prin ordin al ministrului"
+  },
+  {
+   "university": "Universitatea Națională de Știință și Tehnologie POLITEHNICA București (UPB, dawniej Universitatea Politehnica din București)",
+   "programName": "Inginerie mecanică - engleză (Facultatea de Inginerie în Limbi Străine)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (dyplom matury z UE uznawany przez uczelnię według listy i metodologii z rozporządzenia ministra; absolwenci szkół zagranicznych poza tą listą wchodzą na podstawie dyplomu uznanego w Rumunii; regulamin nie opisuje, jak oceny z polskiej matury i szkoły są przeliczane na rumuńską średnią, a to decyduje o szansach w konkursie opartym na średniej)"
+   },
+   "sourceUrl": "https://admitere.pub.ro/docs/Regulament_admitere_licenta_2026.pdf",
+   "quote": "recunoscute de instituțiile de învățământ superior, conform unei liste și metodologii aprobate prin ordin al ministrului"
+  },
+  {
+   "university": "Universitatea Națională de Știință și Tehnologie POLITEHNICA București (UPB, dawniej Universitatea Politehnica din București)",
+   "programName": "Inginerie mecanică (Facultatea de Inginerie Mecanică și Mecatronică)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (dyplom matury z UE uznawany przez uczelnię według listy i metodologii z rozporządzenia ministra; absolwenci szkół zagranicznych poza tą listą wchodzą na podstawie dyplomu uznanego w Rumunii; regulamin nie opisuje, jak oceny z polskiej matury i szkoły są przeliczane na rumuńską średnią, a to decyduje o szansach w konkursie opartym na średniej)"
+   },
+   "sourceUrl": "https://admitere.pub.ro/docs/Regulament_admitere_licenta_2026.pdf",
+   "quote": "recunoscute de instituțiile de învățământ superior, conform unei liste și metodologii aprobate prin ordin al ministrului"
+  },
+  {
+   "university": "Universitatea Tehnică de Construcții București (UTCB)",
+   "programName": "Inginerie civilă în limba engleză (Facultatea de Inginerie în Limbi Străine)",
+   "set": {
+    "matura": "uznawana z warunkami (kandydat składa atest uznania wydany przez CNRED, a obywatele UE konkurują jak Rumuni; oceny z matury kandydatów bez rumuńskiego dyplomu przelicza komisja uczelni do przeliczania ocen, ale regulamin nie podaje siatki przeliczeń, więc wpływ polskich ocen na średnią trzeba potwierdzić w uczelni)"
+   },
+   "sourceUrl": "https://utcb.ro/wp-content/uploads/2026/02/20260130_anexa-1-la-hs-926-regulamentul-de-organizare-a-concursului-de-admitere-roca-%E2%80%93-studii-universitare-de-licenta.pdf",
+   "quote": "Comisia de echivalare a notelor are atribuții privind echivalarea notelor de la examenul de bacalaureat pentru candidații care nu au obținut diploma de bacalaureat în România"
+  },
+  {
+   "university": "Universitatea Tehnică de Construcții București (UTCB)",
+   "programName": "Construcții civile, industriale și agricole",
+   "set": {
+    "matura": "uznawana z warunkami (kandydat składa atest uznania wydany przez CNRED, a obywatele UE konkurują jak Rumuni; oceny z matury kandydatów bez rumuńskiego dyplomu przelicza komisja uczelni do przeliczania ocen, ale regulamin nie podaje siatki przeliczeń, więc wpływ polskich ocen na średnią trzeba potwierdzić w uczelni)"
+   },
+   "sourceUrl": "https://utcb.ro/wp-content/uploads/2026/02/20260130_anexa-1-la-hs-926-regulamentul-de-organizare-a-concursului-de-admitere-roca-%E2%80%93-studii-universitare-de-licenta.pdf",
+   "quote": "Comisia de echivalare a notelor are atribuții privind echivalarea notelor de la examenul de bacalaureat pentru candidații care nu au obținut diploma de bacalaureat în România"
+  },
+  {
+   "university": "Universitatea de Arhitectură și Urbanism „Ion Mincu” din București (UAUIM)",
+   "programName": "Arhitectură (în limba engleză), licență și master comasat",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (kandydat musi mieć dyplom matury rumuńskiej lub równoważny uznany przez CNRED; obywatele UE jak Rumuni; regulamin nie opisuje, jak oceny z polskiej matury i szkoły są przeliczane na rumuńską średnią, a to decyduje o szansach w konkursie opartym na średniej)"
+   },
+   "sourceUrl": "https://admitere.uauim.ro/f/2/Regulament%20admitere%20UAUIM%202026.pdf",
+   "quote": "diploma echivalentă de bacalaureat și documentul de echivalare emis de CNRED"
+  },
+  {
+   "university": "Universitatea de Arhitectură și Urbanism „Ion Mincu” din București (UAUIM)",
+   "programName": "Arhitectură (în limba română), licență și master comasat",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (kandydat musi mieć dyplom matury rumuńskiej lub równoważny uznany przez CNRED; obywatele UE jak Rumuni; regulamin nie opisuje, jak oceny z polskiej matury i szkoły są przeliczane na rumuńską średnią, a to decyduje o szansach w konkursie opartym na średniej)"
+   },
+   "sourceUrl": "https://admitere.uauim.ro/f/2/Regulament%20admitere%20UAUIM%202026.pdf",
+   "quote": "diploma echivalentă de bacalaureat și documentul de echivalare emis de CNRED"
+  },
+  {
+   "university": "Academia de Studii Economice din București (ASE)",
+   "programName": "Administrarea afacerilor (în limba engleză)",
+   "set": {
+    "durationYears": 3
+   },
+   "sourceUrl": "https://planinvatamant.ase.ro/SelectiePlan1.aspx?pp=24",
+   "quote": "AAF Licență Bachelor CU FRECVENŢĂ Full-time Administrarea afacerilor Business Administration 2026-2029 Anul I Anul II Anul III"
+  },
+  {
+   "university": "Academia de Studii Economice din București (ASE)",
+   "programName": "Informatică economică (în limba engleză)",
+   "set": {
+    "durationYears": 3
+   },
+   "sourceUrl": "https://planinvatamant.ase.ro/SelectiePlan1.aspx?pp=15",
+   "quote": "CSIE Licență Bachelor CU FRECVENŢĂ Full-time Informatică economică Economic Informatics 2026-2029 Anul I Anul II Anul III"
+  },
+  {
+   "university": "Academia de Studii Economice din București (ASE)",
+   "programName": "Statistică economică și data science (Facultatea CSIE)",
+   "set": {
+    "durationYears": 3
+   },
+   "sourceUrl": "https://planinvatamant.ase.ro/SelectiePlan1.aspx?pp=15",
+   "quote": "Statistică economică şi data science Economic statistics and data science 2026-2029 Anul I Anul II Anul III"
+  },
+  {
+   "university": "Academia de Studii Economice din București (ASE)",
+   "programName": "Economie și afaceri internaționale (în limba engleză)",
+   "set": {
+    "durationYears": 3
+   },
+   "sourceUrl": "https://planinvatamant.ase.ro/SelectiePlan1.aspx?pp=16",
+   "quote": "Economie şi afaceri internaţionale International Business and Economics 2026-2029 Anul I Anul II Anul III"
+  },
+  {
+   "university": "Academia de Studii Economice din București (ASE)",
+   "programName": "Management (în limba engleză)",
+   "set": {
+    "durationYears": 3
+   },
+   "sourceUrl": "https://planinvatamant.ase.ro/SelectiePlan1.aspx?pp=19",
+   "quote": "Management Management 2026-2029 Anul I Anul II Anul III"
+  },
+  {
+   "university": "Universitatea Națională de Știință și Tehnologie POLITEHNICA București (UPB, dawniej Universitatea Politehnica din București)",
+   "programName": "Calculatoare și Tehnologia Informației (Facultatea de Automatică și Calculatoare)",
+   "set": {
+    "durationYears": 4
+   },
+   "sourceUrl": "https://acs.pub.ro/educatie/licenta/",
+   "quote": "Durata 4 ani, Diplomă de inginer"
+  },
+  {
+   "university": "Universitatea Națională de Știință și Tehnologie POLITEHNICA București (UPB, dawniej Universitatea Politehnica din București)",
+   "programName": "Calculatoare și Tehnologia Informației - engleză (Facultatea de Inginerie în Limbi Străine)",
+   "set": {
+    "durationYears": 4
+   },
+   "sourceUrl": "https://fils.upb.ro/en/bachelors-degree/",
+   "quote": "Specialization: Information engineering Study plan 2026-2030"
+  },
+  {
+   "university": "Universitatea Națională de Știință și Tehnologie POLITEHNICA București (UPB, dawniej Universitatea Politehnica din București)",
+   "programName": "Inginerie mecanică - engleză (Facultatea de Inginerie în Limbi Străine)",
+   "set": {
+    "durationYears": 4
+   },
+   "sourceUrl": "https://fils.upb.ro/en/bachelors-degree/",
+   "quote": "Specialization: Mechanical engineering Study plan 2026-2030"
+  },
+  {
+   "university": "Universitatea Tehnică de Construcții București (UTCB)",
+   "programName": "Construcții civile, industriale și agricole",
+   "set": {
+    "durationYears": 4
+   },
+   "sourceUrl": "https://civile.utcb.ro/vreau-sa-devin-student/studii-de-licenta/constructii-civile-industriale-si-agricole/",
+   "quote": "organizate pe durata a patru ani universitari"
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [],
+ "summaryPatches": [
+  {
+   "label": "Polska matura",
+   "text": "Rumunia traktuje obywateli UE, EOG i Szwajcarii jak własnych obywateli: ta sama rekrutacja, te same miejsca budżetowe (bezpłatne) i płatne, te same opłaty. Dyplom matury z UE jest uznawany przez uczelnie na podstawie listy i metodologii z zarządzenia ministra, a oficjalne uznanie wydaje CNRED przy Ministerstwie Edukacji (do 30 dni roboczych); uczelnie składają wniosek w imieniu kandydata (UB do 31 lipca). Bez uznania nie ma immatrykulacji. Konkursy opierają się na rumuńskiej średniej z matury, a przeliczanie polskich ocen na tę średnią opisuje wprost tylko ASE (siatka z OMECTS 3223/2012). UTCB ma komisję do przeliczania ocen, ale nie podaje siatki. UB, UPB i UAUIM nie opisują przeliczenia w regulaminach, więc trzeba zapytać uczelnię przed złożeniem wniosku.",
+   "sourceUrl": "https://admitere.ase.ro/licenta-2026/info-admitere/Procedura_absolventi_invatamant_international.pdf",
+   "quote": "Grila de echivalare a notelor"
+  },
+  {
+   "label": "Opłaty",
+   "text": "Miejsca budżetowe są bezpłatne, także po rumuńsku i po angielsku, z wyjątkiem medycyny po angielsku w UMFCD, która jest płatna. Roczne czesne na miejscach płatnych w roku 2026/27 (w nawiasach orientacyjny odpowiednik według kursu EBC z 2 października 2026, 1 EUR = 5,3488 lei): UB 5 500 lei (ok. 1 030 EUR; Drept 8 800 lei, ok. 1 650 EUR; UB tymczasowo obniżył opłatę z 8 000 lei dla przyjętych na pierwszy rok), ASE 6 500 do 10 000 lei (ok. 1 220 do 1 870 EUR; programy po angielsku 7 500 do 10 000 lei), UPB 6 200 lei (ok. 1 160 EUR; programy w językach obcych 7 500 lei, ok. 1 400 EUR), UTCB 5 400 lei (ok. 1 010 EUR; po angielsku 6 600 lei, ok. 1 230 EUR), UAUIM 10 000 lei na architekturze (ok. 1 870 EUR). UMFCD pobiera od obywateli UE równowartość 10 000 EUR w lejach według kursu NBR z dnia płatności. Opłaty za wpis na konkurs wynoszą od 125 do 700 lei.",
+   "sourceUrl": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+   "quote": "Cube currency='RON' rate='5.3488'"
+  },
+  {
+   "label": "Znajomość języka",
+   "text": "Programy po angielsku wymagają dowodu znajomości języka: certyfikat co najmniej B2 (UMFCD i UPB), test uczelni z oceną admis/respins (ASE, UTCB, UAUIM) albo zwolnienie dla liceów w tym języku i dla części certyfikatów (Cambridge, IELTS, TOEFL). Programy po rumuńsku wymagają certyfikatu z rumuńskiego, testu uczelni (ASE, UTCB) albo roku przygotowawczego (UPB, 6 200 lei).",
+   "sourceUrl": "https://ase.ro/admitere/licenta/",
+   "quote": "Candidații care se înscriu la programe cu predare în limbi străine"
+  }
+ ],
+ "gapsSet": [
+  "Rok akademicki 2027/28: żadna z uczelni nie opublikowała jeszcze regulaminów, terminów ani opłat. Wszystkie daty, miejsca i czesne pochodzą z naboru 2026/27 i trzeba je traktować jako wzorzec, a nie potwierdzenie.",
+  "Przeliczanie ocen z polskiej matury i szkoły na rumuńską średnią: opisane wprost tylko w ASE (siatka z OMECTS 3223/2012). UTCB ma komisję do przeliczania ocen, ale nie publikuje siatki. UB, UPB i UAUIM nie opisują tego w regulaminach, więc trzeba zapytać uczelnię.",
+  "Oficjalna lista matur UE uznawanych przez uczelnie (zarządzenie ministra) i opłata CNRED za ocenę dokumentów nie są podane na stronach uczelni. Opis procedury jest tylko na stronach CNRED i UB.",
+  "Czas trwania studiów jest nadal niepotwierdzony dla: Informatică (po angielsku) na UB, Inginerie mecanică na UPB (wydział po rumuńsku) i Inginerie civilă po angielsku na UTCB. Pozostałe programy mają czas trwania ze stron uczelni (ASE: plany nauczania, UPB i UTCB: strony wydziałów).",
+  "UB: podział miejsc dla obywateli UE nie jest odrębny (ta sama pula co Rumuni). Formuła konkursu na Jurnalism IF nie jest jednoznaczna w tabeli i wymaga potwierdzenia. Brak informacji o czesnym dla osób spoza UE na licencjacie UB.",
+  "UPB: termin sesji II podano tylko dla wydziałów AC i ETTI, dla pozostałych wydziałów trzeba sprawdzić kalendarz na admitere.pub.ro. Szczegóły konkursu dla programów po angielsku na wydziale Inginerie în Limbi Străine do potwierdzenia na stronie wydziału.",
+  "ASE: terminy sesji lipcowej 2026 nie są dostępne publicznie (tylko wrześniowa), a miejsca budżetowe nie są rozdzielone od płatnych w tabeli oferty. Nazwa programu data science w ofercie różni się od nazwy w tabeli opłat („Statistică şi previziune economică”).",
+  "UTCB: liczby miejsc dotyczą tylko sesji wrześniowej 2026, bo sesja lipcowa miała większą pulę.",
+  "UMFCD: rumuńskojęzyczna medycyna dla obywateli UE (miejsca budżetowe i płatne w lejach) nie jest opisana. Niejasne jest, czy opłata 500 EUR za test językowy dotyczy obywateli UE. Stomatologia i farmacja są poza zakresem.",
+  "Psychologia: poza UB nie sprawdzono ofert innych uczelni publicznych w Bukareszcie. Dziennikarstwo po angielsku, informatyka na UTCB i budownictwo na UPB nie były weryfikowane.",
+  "Przeliczenia lei na euro są orientacyjne (kurs EBC z 2 października 2026, 1 EUR = 5,3488 lei). Uczelnie rozliczają opłaty w lejach, a UMFCD według kursu NBR z dnia płatności."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://unibuc.ro/wp-content/uploads/2026/03/Taxe-de-scolarizare-Studii-licenta-2026-2027.pdf",
+   "note": "Uniwersytet Bukareszteński: czesne na licencjacie 2026/27 (opłata nominalna i obniżona)"
+  },
+  {
+   "url": "https://admitere.unibuc.ro/licenta/",
+   "note": "Uniwersytet Bukareszteński: rekrutacja na licencjat"
+  },
+  {
+   "url": "https://upb.ro/wp-content/uploads/2026/07/Sistem-de-taxe-2026-2027-02.pdf",
+   "note": "Politechnika Bukareszteńska (UPB): system opłat 2026/27"
+  },
+  {
+   "url": "https://admitere.pub.ro/docs/Regulament_admitere_licenta_2026.pdf",
+   "note": "UPB: regulamin przyjęć na licencjat 2026"
+  },
+  {
+   "url": "https://fils.upb.ro/en/bachelors-degree/",
+   "note": "UPB, wydział w językach obcych: programy licencjackie i plany studiów"
+  },
+  {
+   "url": "https://acs.pub.ro/educatie/licenta/",
+   "note": "UPB, wydział Automatyki i Informatyki: licencjat, czas trwania 4 lata"
+  },
+  {
+   "url": "https://admitere.ase.ro/licenta-2026/pasii-candidatului-septembrie/12-taxe-inscriere-si-scolarizare.pdf",
+   "note": "ASE: opłaty za wpis i czesne 2026/27"
+  },
+  {
+   "url": "https://planinvatamant.ase.ro/SelectiePlan1.aspx?pp=15",
+   "note": "ASE: plany nauczania wydziału Cybernetyki, Statystyki i Informatyki Ekonomicznej (3 lata)"
+  },
+  {
+   "url": "https://admitere.ase.ro/licenta-2026/info-admitere/Procedura_absolventi_invatamant_international.pdf",
+   "note": "ASE: procedura dla absolwentów szkół zagranicznych, siatka przeliczania ocen"
+  },
+  {
+   "url": "https://utcb.ro/wp-content/uploads/2026/02/20260212_anexa-1-la-hs-1487-regulamentul-taxelor-pentru-anul-universitar-2026-2027.pdf",
+   "note": "UTCB: regulamin opłat 2026/27"
+  },
+  {
+   "url": "https://utcb.ro/wp-content/uploads/2026/02/20260130_anexa-1-la-hs-926-regulamentul-de-organizare-a-concursului-de-admitere-roca-%E2%80%93-studii-universitare-de-licenta.pdf",
+   "note": "UTCB: regulamin konkursu przyjęć na licencjat 2026"
+  },
+  {
+   "url": "https://civile.utcb.ro/vreau-sa-devin-student/studii-de-licenta/constructii-civile-industriale-si-agricole/",
+   "note": "UTCB, wydział Budownictwa: licencjat po rumuńsku (4 lata)"
+  },
+  {
+   "url": "https://www.uauim.ro/universitatea/2026-2027/Decizie%20taxe%202026-2027.pdf",
+   "note": "UAUIM: decyzja o opłatach 2026/27"
+  },
+  {
+   "url": "https://admitere.uauim.ro/f/2/Regulament%20admitere%20UAUIM%202026.pdf",
+   "note": "UAUIM: regulamin przyjęć 2026"
+  },
+  {
+   "url": "https://umfcd.ro/en/wp-content/uploads/2026/INTERNATIONAL_STUDENTS/ADMISSION_2026/DOCUMENTS/Taxe_UMFCD_2026-2027_studenti_internationali_EN.pdf",
+   "note": "UMFCD: opłaty dla studentów zagranicznych 2026/27 (UE: równowartość 10 000 EUR w lejach)"
+  },
+  {
+   "url": "https://umfcd.ro/en/international-students/admission-2026-2027-academic-year/",
+   "note": "UMFCD: rekrutacja na medycynę po angielsku 2026/27"
+  },
+  {
+   "url": "https://unibuc.ro/wp-content/uploads/2026/06/RECOGNITIONEQUIVALENCE-OF-BACCALAUREATE-BACHELORS-MASTERS-AND-DOCTORAL-DEGREES-ISSUED-BY-ACCREDITED-EDUCATIONAL-INSTITUTIONS-ABROAD.pdf",
+   "note": "Uniwersytet Bukareszteński: uznawanie zagranicznych dyplomów (CNRED)"
+  },
+  {
+   "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+   "note": "Kurs EBC z 2 października 2026 użyty do orientacyjnego przeliczenia lei na euro"
+  }
+ ]
+}

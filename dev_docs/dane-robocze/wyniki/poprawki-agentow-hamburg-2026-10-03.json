@@ -1,0 +1,642 @@
+{
+ "slug": "hamburg",
+ "programPatches": [
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Psychologie (Bachelor of Science)",
+   "set": {
+    "tuitionEu": "Brak czesnego: uczelnia podaje, że od semestru zimowego 2012/13 nie pobiera opłat za studia. Obowiązkowa opłata semestralna wynosi 402 EUR na semestr zimowy 2026/27 (352 EUR składki właściwej i 50 EUR opłaty administracyjnej; w tym bilet komunikacji miejskiej 226,80 EUR).",
+    "tuitionNonEu": "Brak czesnego: uczelnia podaje, że od semestru zimowego 2012/13 nie pobiera opłat za studia. Obowiązuje ta sama opłata semestralna 402 EUR (semestr zimowy 2026/27).",
+    "tuitionUrl": "https://www.uni-hamburg.de/campuscenter/studienorganisation/studienverlauf/beitraege-gebuehren.html"
+   },
+   "sourceUrl": "https://www.uni-hamburg.de/campuscenter/studienorganisation/studienverlauf/beitraege-gebuehren.html",
+   "quote": "Seit dem Wintersemester 2012/13 gibt es an der Universität Hamburg keine Studiengebühren mehr"
+  },
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Psychologie (Bachelor of Science)",
+   "set": {
+    "languageProof": "Niemiecki, dowód do złożenia w terminie zapisu na studia: DSH-2 lub DSH-3, TestDaF z wynikiem łącznym 15 punktów (co najmniej trzy części na poziomie 4 i jedna na poziomie 3), Sprachdiplom KMK II, Goethe-Zertifikat C1 lub C2, telc Deutsch C1 Hochschule i inne certyfikaty z listy uczelni. Certyfikat nie może być starszy niż trzy lata (termin graniczny 1 czerwca przy naborze na semestr zimowy)."
+   },
+   "sourceUrl": "https://www.uni-hamburg.de/en/campuscenter/bewerbung/international/studium-mit-abschluss/sprachkenntnisse/deutschkenntnisse.html",
+   "quote": "with a total result of TDN 15 from at least three parts passed at level 4"
+  },
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Informatik (Bachelor of Science)",
+   "set": {
+    "tuitionEu": "Brak czesnego: uczelnia podaje, że od semestru zimowego 2012/13 nie pobiera opłat za studia. Obowiązkowa opłata semestralna wynosi 402 EUR na semestr zimowy 2026/27 (352 EUR składki właściwej i 50 EUR opłaty administracyjnej; w tym bilet komunikacji miejskiej 226,80 EUR).",
+    "tuitionNonEu": "Brak czesnego: uczelnia podaje, że od semestru zimowego 2012/13 nie pobiera opłat za studia. Obowiązuje ta sama opłata semestralna 402 EUR (semestr zimowy 2026/27).",
+    "tuitionUrl": "https://www.uni-hamburg.de/campuscenter/studienorganisation/studienverlauf/beitraege-gebuehren.html"
+   },
+   "sourceUrl": "https://www.uni-hamburg.de/campuscenter/studienorganisation/studienverlauf/beitraege-gebuehren.html",
+   "quote": "Seit dem Wintersemester 2012/13 gibt es an der Universität Hamburg keine Studiengebühren mehr"
+  },
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Informatik (Bachelor of Science)",
+   "set": {
+    "languageProof": "Niemiecki, dowód do złożenia w terminie zapisu na studia: DSH-2 lub DSH-3, TestDaF z wynikiem łącznym 15 punktów (co najmniej trzy części na poziomie 4 i jedna na poziomie 3), Sprachdiplom KMK II, Goethe-Zertifikat C1 lub C2, telc Deutsch C1 Hochschule i inne certyfikaty z listy uczelni. Certyfikat nie może być starszy niż trzy lata (termin graniczny 1 czerwca przy naborze na semestr zimowy)."
+   },
+   "sourceUrl": "https://www.uni-hamburg.de/en/campuscenter/bewerbung/international/studium-mit-abschluss/sprachkenntnisse/deutschkenntnisse.html",
+   "quote": "with a total result of TDN 15 from at least three parts passed at level 4"
+  },
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Betriebswirtschaftslehre (Bachelor of Science)",
+   "set": {
+    "tuitionEu": "Brak czesnego: uczelnia podaje, że od semestru zimowego 2012/13 nie pobiera opłat za studia. Obowiązkowa opłata semestralna wynosi 402 EUR na semestr zimowy 2026/27 (352 EUR składki właściwej i 50 EUR opłaty administracyjnej; w tym bilet komunikacji miejskiej 226,80 EUR).",
+    "tuitionNonEu": "Brak czesnego: uczelnia podaje, że od semestru zimowego 2012/13 nie pobiera opłat za studia. Obowiązuje ta sama opłata semestralna 402 EUR (semestr zimowy 2026/27).",
+    "tuitionUrl": "https://www.uni-hamburg.de/campuscenter/studienorganisation/studienverlauf/beitraege-gebuehren.html"
+   },
+   "sourceUrl": "https://www.uni-hamburg.de/campuscenter/studienorganisation/studienverlauf/beitraege-gebuehren.html",
+   "quote": "Seit dem Wintersemester 2012/13 gibt es an der Universität Hamburg keine Studiengebühren mehr"
+  },
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Betriebswirtschaftslehre (Bachelor of Science)",
+   "set": {
+    "languageProof": "Niemiecki, dowód do złożenia w terminie zapisu na studia: DSH-2 lub DSH-3, TestDaF z wynikiem łącznym 15 punktów (co najmniej trzy części na poziomie 4 i jedna na poziomie 3), Sprachdiplom KMK II, Goethe-Zertifikat C1 lub C2, telc Deutsch C1 Hochschule i inne certyfikaty z listy uczelni. Certyfikat nie może być starszy niż trzy lata (termin graniczny 1 czerwca przy naborze na semestr zimowy)."
+   },
+   "sourceUrl": "https://www.uni-hamburg.de/en/campuscenter/bewerbung/international/studium-mit-abschluss/sprachkenntnisse/deutschkenntnisse.html",
+   "quote": "with a total result of TDN 15 from at least three parts passed at level 4"
+  },
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Rechtswissenschaft (Staatsexamen)",
+   "set": {
+    "tuitionEu": "Brak czesnego: uczelnia podaje, że od semestru zimowego 2012/13 nie pobiera opłat za studia. Obowiązkowa opłata semestralna wynosi 402 EUR na semestr zimowy 2026/27 (352 EUR składki właściwej i 50 EUR opłaty administracyjnej; w tym bilet komunikacji miejskiej 226,80 EUR).",
+    "tuitionNonEu": "Brak czesnego: uczelnia podaje, że od semestru zimowego 2012/13 nie pobiera opłat za studia. Obowiązuje ta sama opłata semestralna 402 EUR (semestr zimowy 2026/27).",
+    "tuitionUrl": "https://www.uni-hamburg.de/campuscenter/studienorganisation/studienverlauf/beitraege-gebuehren.html"
+   },
+   "sourceUrl": "https://www.uni-hamburg.de/campuscenter/studienorganisation/studienverlauf/beitraege-gebuehren.html",
+   "quote": "Seit dem Wintersemester 2012/13 gibt es an der Universität Hamburg keine Studiengebühren mehr"
+  },
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Rechtswissenschaft (Staatsexamen)",
+   "set": {
+    "languageProof": "Niemiecki, dowód do złożenia w terminie zapisu na studia: DSH-2 lub DSH-3, TestDaF z wynikiem łącznym 15 punktów (co najmniej trzy części na poziomie 4 i jedna na poziomie 3), Sprachdiplom KMK II, Goethe-Zertifikat C1 lub C2, telc Deutsch C1 Hochschule i inne certyfikaty z listy uczelni. Certyfikat nie może być starszy niż trzy lata (termin graniczny 1 czerwca przy naborze na semestr zimowy)."
+   },
+   "sourceUrl": "https://www.uni-hamburg.de/en/campuscenter/bewerbung/international/studium-mit-abschluss/sprachkenntnisse/deutschkenntnisse.html",
+   "quote": "with a total result of TDN 15 from at least three parts passed at level 4"
+  },
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Medizin (Staatsexamen), Medizinische Fakultät / UKE",
+   "set": {
+    "tuitionEu": "Brak czesnego: uczelnia podaje, że od semestru zimowego 2012/13 nie pobiera opłat za studia. Obowiązkowa opłata semestralna wynosi 402 EUR na semestr zimowy 2026/27 (352 EUR składki właściwej i 50 EUR opłaty administracyjnej; w tym bilet komunikacji miejskiej 226,80 EUR).",
+    "tuitionNonEu": "Brak czesnego: uczelnia podaje, że od semestru zimowego 2012/13 nie pobiera opłat za studia. Obowiązuje ta sama opłata semestralna 402 EUR (semestr zimowy 2026/27).",
+    "tuitionUrl": "https://www.uni-hamburg.de/campuscenter/studienorganisation/studienverlauf/beitraege-gebuehren.html"
+   },
+   "sourceUrl": "https://www.uni-hamburg.de/campuscenter/studienorganisation/studienverlauf/beitraege-gebuehren.html",
+   "quote": "Seit dem Wintersemester 2012/13 gibt es an der Universität Hamburg keine Studiengebühren mehr"
+  },
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Medizin (Staatsexamen), Medizinische Fakultät / UKE",
+   "set": {
+    "languageProof": "Niemiecki, dowód do złożenia w terminie zapisu na studia: DSH-2 lub DSH-3, TestDaF z wynikiem łącznym 15 punktów (co najmniej trzy części na poziomie 4 i jedna na poziomie 3), Sprachdiplom KMK II, Goethe-Zertifikat C1 lub C2, telc Deutsch C1 Hochschule i inne certyfikaty z listy uczelni. Certyfikat nie może być starszy niż trzy lata (termin graniczny 1 czerwca przy naborze na semestr zimowy)."
+   },
+   "sourceUrl": "https://www.uni-hamburg.de/en/campuscenter/bewerbung/international/studium-mit-abschluss/sprachkenntnisse/deutschkenntnisse.html",
+   "quote": "with a total result of TDN 15 from at least three parts passed at level 4"
+  },
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Psychologie (Bachelor of Science)",
+   "set": {
+    "deadline": "Na semestr zimowy: od 1 czerwca do 15 lipca (strona uczelni nie podaje roku). Warunki i terminy na semestr zimowy 2027/28 nie są jeszcze opublikowane. Na semestr letni: od 1 grudnia do 15 stycznia."
+   },
+   "sourceUrl": "https://www.uni-hamburg.de/campuscenter/bewerbung/fristen-termine.html",
+   "quote": "die Bewerbung zu einem Wintersemester vom 1. Juni bis zum 15. Juli"
+  },
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Informatik (Bachelor of Science)",
+   "set": {
+    "deadline": "Na semestr zimowy: od 1 czerwca do 15 lipca (strona uczelni nie podaje roku). Warunki i terminy na semestr zimowy 2027/28 nie są jeszcze opublikowane. Na semestr letni: od 1 grudnia do 15 stycznia."
+   },
+   "sourceUrl": "https://www.uni-hamburg.de/campuscenter/bewerbung/fristen-termine.html",
+   "quote": "die Bewerbung zu einem Wintersemester vom 1. Juni bis zum 15. Juli"
+  },
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Betriebswirtschaftslehre (Bachelor of Science)",
+   "set": {
+    "deadline": "Na semestr zimowy: od 1 czerwca do 15 lipca (strona uczelni nie podaje roku). Warunki i terminy na semestr zimowy 2027/28 nie są jeszcze opublikowane. Na semestr letni: od 1 grudnia do 15 stycznia."
+   },
+   "sourceUrl": "https://www.uni-hamburg.de/campuscenter/bewerbung/fristen-termine.html",
+   "quote": "die Bewerbung zu einem Wintersemester vom 1. Juni bis zum 15. Juli"
+  },
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Rechtswissenschaft (Staatsexamen)",
+   "set": {
+    "deadline": "Na semestr zimowy: od 1 czerwca do 15 lipca (strona uczelni nie podaje roku). Warunki i terminy na semestr zimowy 2027/28 nie są jeszcze opublikowane. Na semestr letni: od 1 grudnia do 15 stycznia."
+   },
+   "sourceUrl": "https://www.uni-hamburg.de/campuscenter/bewerbung/fristen-termine.html",
+   "quote": "die Bewerbung zu einem Wintersemester vom 1. Juni bis zum 15. Juli"
+  },
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Psychologie (Bachelor of Science)",
+   "set": {
+    "requirements": "Ograniczona liczba miejsc. Na semestr zimowy 2026/27 uczelnia przyznaje do 51 procent punktów za ocenę ze świadectwa i do 49 procent za wynik testu BaPsy-DGPs (test wyłącznie po niemiecku, dobrowolny, ale zalecany). Kandydaci bez statusu równoważnego niemieckiemu (German equivalent) nie zyskują na teście; obywatele UE mają taki status. Zasada ogólna UHH dla pozostałych miejsc: 90 procent według oceny, 10 procent według czasu oczekiwania."
+   },
+   "sourceUrl": "https://www.psy.uni-hamburg.de/en/studium-neu/studiengaenge/bsc-psychologie-ab-wise-20-21/studieneignungstest.html",
+   "quote": "a maximum of 51 percent can be achieved through the grade of the university entrance qualification"
+  },
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Psychologie (Bachelor of Science)",
+   "set": {
+    "notes": "Bardzo duża konkurencja: w semestrze zimowym 2025/26 było 148 miejsc i 5 030 wniosków (zestawienie UHH Studienplätze und Bewerbungen, kolumny miejsca i wnioski). Test BaPsy-DGPs odbywa się w 2026 roku 30 i 31 maja (nabór na semestr zimowy 2026/27)."
+   },
+   "sourceUrl": "https://www.uni-hamburg.de/campuscenter/studienorganisation/formulare-informationsmerkblaetter/studienplaetze-und-bewerbungen.pdf",
+   "quote": "Psychologie / B.Sc. 136 / 4.713 146 / 4488 146 / 5442 146 / 5549 148/ 5030"
+  },
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Informatik (Bachelor of Science)",
+   "set": {
+    "requirements": "Ograniczona liczba miejsc (NC). Zasada UHH: po odjęciu miejsc w kwotach wstępnych 90 procent miejsc przyznaje się według oceny ze świadectwa, a 10 procent według czasu oczekiwania.",
+    "notes": "W semestrze zimowym 2025/26 było 145 miejsc i 792 wnioski (zestawienie UHH Studienplätze und Bewerbungen). Pokrewny licencjat Wirtschaftsinformatik miał 61 miejsc i 966 wniosków."
+   },
+   "sourceUrl": "https://www.uni-hamburg.de/campuscenter/studienorganisation/formulare-informationsmerkblaetter/studienplaetze-und-bewerbungen.pdf",
+   "quote": "Informatik / B.Sc. 124 / 959 145 / 939 145 / 991 145 / 974 145/ 792"
+  },
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Betriebswirtschaftslehre (Bachelor of Science)",
+   "set": {
+    "requirements": "Ograniczona liczba miejsc (NC). Przy składaniu wniosku w formularzu online trzeba potwierdzić wystarczającą znajomość angielskiego; formalny dokument nie jest wymagany.",
+    "notes": "Wydział Betriebswirtschaft podaje, że nie prowadzi licencjatów po angielsku, a część zajęć jest po angielsku. W semestrze zimowym 2025/26 było 367 miejsc i 3 491 wniosków. Czas trwania licencjatu nie jest podany na stronach, które sprawdzono."
+   },
+   "sourceUrl": "https://www.uni-hamburg.de/campuscenter/studienorganisation/formulare-informationsmerkblaetter/studienplaetze-und-bewerbungen.pdf",
+   "quote": "Betriebswirtschaftslehre / B.Sc. 343 / 2.674 369 / 2385 368 / 2968 367 / 3144 367/ 3491"
+  },
+  {
+   "university": "Universität Hamburg (UHH)",
+   "programName": "Rechtswissenschaft (Staatsexamen)",
+   "set": {
+    "requirements": "Ograniczona liczba miejsc (NC). Zasada UHH: po odjęciu miejsc w kwotach wstępnych 90 procent miejsc przyznaje się według oceny, 10 procent według czasu oczekiwania.",
+    "notes": "Studia kończą się pierwszym egzaminem państwowym. W semestrze zimowym 2025/26 było 313 miejsc i 2 633 wnioski (zestawienie UHH Studienplätze und Bewerbungen). Czas trwania nie jest podany na stronach, które sprawdzono."
+   },
+   "sourceUrl": "https://www.uni-hamburg.de/campuscenter/studienorganisation/formulare-informationsmerkblaetter/studienplaetze-und-bewerbungen.pdf",
+   "quote": "Rechtswissenschaft / Staatsexamen 340 / 2.622 333 / 2381 321 / 2564 312 / 2586 313/ 2633"
+  },
+  {
+   "university": "Technische Universität Hamburg (TUHH)",
+   "programName": "Computer Science (Bachelor of Science)",
+   "set": {
+    "tuitionEu": "Strona TUHH o kosztach opisuje tylko opłatę semestralną: 400 EUR na semestr zimowy 2026/27 dla osób, które studiowały na TUHH w poprzednim semestrze (nowo przyjęci znajdą kwotę w portalu aplikacyjnym po zapisie). Informacji o czesnym strona nie podaje, więc brak czesnego wymaga potwierdzenia na stronie uczelni.",
+    "tuitionNonEu": "Strona TUHH nie podaje informacji o czesnym dla osób spoza UE; do potwierdzenia na stronie uczelni.",
+    "tuitionUrl": "https://www.tuhh.de/tuhh/en/education/students/organisational-details-about-your-studies/financing-your-studies/costs/semester-contribution"
+   },
+   "sourceUrl": "https://www.tuhh.de/tuhh/en/education/students/organisational-details-about-your-studies/financing-your-studies/costs/semester-contribution",
+   "quote": "€ 400"
+  },
+  {
+   "university": "Technische Universität Hamburg (TUHH)",
+   "programName": "Data Science (Bachelor of Science)",
+   "set": {
+    "tuitionEu": "Strona TUHH o kosztach opisuje tylko opłatę semestralną: 400 EUR na semestr zimowy 2026/27 dla osób, które studiowały na TUHH w poprzednim semestrze (nowo przyjęci znajdą kwotę w portalu aplikacyjnym po zapisie). Informacji o czesnym strona nie podaje, więc brak czesnego wymaga potwierdzenia na stronie uczelni.",
+    "tuitionNonEu": "Strona TUHH nie podaje informacji o czesnym dla osób spoza UE; do potwierdzenia na stronie uczelni.",
+    "tuitionUrl": "https://www.tuhh.de/tuhh/en/education/students/organisational-details-about-your-studies/financing-your-studies/costs/semester-contribution"
+   },
+   "sourceUrl": "https://www.tuhh.de/tuhh/en/education/students/organisational-details-about-your-studies/financing-your-studies/costs/semester-contribution",
+   "quote": "€ 400"
+  },
+  {
+   "university": "Technische Universität Hamburg (TUHH)",
+   "programName": "Engineering Science (Bachelor of Science)",
+   "set": {
+    "tuitionEu": "Strona TUHH o kosztach opisuje tylko opłatę semestralną: 400 EUR na semestr zimowy 2026/27 dla osób, które studiowały na TUHH w poprzednim semestrze (nowo przyjęci znajdą kwotę w portalu aplikacyjnym po zapisie). Informacji o czesnym strona nie podaje, więc brak czesnego wymaga potwierdzenia na stronie uczelni.",
+    "tuitionNonEu": "Strona TUHH nie podaje informacji o czesnym dla osób spoza UE; do potwierdzenia na stronie uczelni.",
+    "tuitionUrl": "https://www.tuhh.de/tuhh/en/education/students/organisational-details-about-your-studies/financing-your-studies/costs/semester-contribution"
+   },
+   "sourceUrl": "https://www.tuhh.de/tuhh/en/education/students/organisational-details-about-your-studies/financing-your-studies/costs/semester-contribution",
+   "quote": "€ 400"
+  },
+  {
+   "university": "Technische Universität Hamburg (TUHH)",
+   "programName": "Bau- und Umweltingenieurwesen (Bachelor of Science)",
+   "set": {
+    "tuitionEu": "Strona TUHH o kosztach opisuje tylko opłatę semestralną: 400 EUR na semestr zimowy 2026/27 dla osób, które studiowały na TUHH w poprzednim semestrze (nowo przyjęci znajdą kwotę w portalu aplikacyjnym po zapisie). Informacji o czesnym strona nie podaje, więc brak czesnego wymaga potwierdzenia na stronie uczelni.",
+    "tuitionNonEu": "Strona TUHH nie podaje informacji o czesnym dla osób spoza UE; do potwierdzenia na stronie uczelni.",
+    "tuitionUrl": "https://www.tuhh.de/tuhh/en/education/students/organisational-details-about-your-studies/financing-your-studies/costs/semester-contribution"
+   },
+   "sourceUrl": "https://www.tuhh.de/tuhh/en/education/students/organisational-details-about-your-studies/financing-your-studies/costs/semester-contribution",
+   "quote": "€ 400"
+  },
+  {
+   "university": "Technische Universität Hamburg (TUHH)",
+   "programName": "Maschinenbau (Bachelor of Science)",
+   "set": {
+    "tuitionEu": "Strona TUHH o kosztach opisuje tylko opłatę semestralną: 400 EUR na semestr zimowy 2026/27 dla osób, które studiowały na TUHH w poprzednim semestrze (nowo przyjęci znajdą kwotę w portalu aplikacyjnym po zapisie). Informacji o czesnym strona nie podaje, więc brak czesnego wymaga potwierdzenia na stronie uczelni.",
+    "tuitionNonEu": "Strona TUHH nie podaje informacji o czesnym dla osób spoza UE; do potwierdzenia na stronie uczelni.",
+    "tuitionUrl": "https://www.tuhh.de/tuhh/en/education/students/organisational-details-about-your-studies/financing-your-studies/costs/semester-contribution"
+   },
+   "sourceUrl": "https://www.tuhh.de/tuhh/en/education/students/organisational-details-about-your-studies/financing-your-studies/costs/semester-contribution",
+   "quote": "€ 400"
+  },
+  {
+   "university": "Technische Universität Hamburg (TUHH)",
+   "programName": "Computer Science (Bachelor of Science)",
+   "set": {
+    "languages": [
+     "niemiecki i angielski (wymagane oba języki)"
+    ],
+    "languageProof": "Wymagane oba języki. Niemiecki: do aplikowania poziom B2.2, do zapisu TestDaF co najmniej 16 punktów, telc Deutsch C1 Hochschule albo DSH-2 lub równoważny. Angielski: do zapisu TOEFL iBT 90, IELTS Academic 6,5, Cambridge Certificate in Advanced English lub Proficiency in English albo równoważny. Tabela wymagań językowych TUHH: https://www.tuhh.de/tuhh/en/studying/before-studying/application/bachelor/language-proficiency"
+   },
+   "sourceUrl": "https://www.tuhh.de/tuhh/en/studying/before-studying/application/bachelor/language-proficiency",
+   "quote": "TOEFL ibt score with 90 or 4.5 points, IELTS Academic score 6.5"
+  },
+  {
+   "university": "Technische Universität Hamburg (TUHH)",
+   "programName": "Data Science (Bachelor of Science)",
+   "set": {
+    "languages": [
+     "niemiecki i angielski (wymagane oba języki)"
+    ],
+    "languageProof": "Wymagane oba języki. Niemiecki: do aplikowania poziom B2.2, do zapisu TestDaF co najmniej 16 punktów, telc Deutsch C1 Hochschule albo DSH-2 lub równoważny. Angielski: do zapisu TOEFL iBT 90, IELTS Academic 6,5, Cambridge Certificate in Advanced English lub Proficiency in English albo równoważny. Tabela wymagań językowych TUHH: https://www.tuhh.de/tuhh/en/studying/before-studying/application/bachelor/language-proficiency"
+   },
+   "sourceUrl": "https://www.tuhh.de/tuhh/en/studying/before-studying/application/bachelor/language-proficiency",
+   "quote": "TOEFL ibt score with 90 or 4.5 points, IELTS Academic score 6.5"
+  },
+  {
+   "university": "Technische Universität Hamburg (TUHH)",
+   "programName": "Engineering Science (Bachelor of Science)",
+   "set": {
+    "languages": [
+     "angielski"
+    ],
+    "languageProof": "Angielski: do zapisu TOEFL iBT 90, IELTS Academic 6,5, Cambridge Certificate in Advanced English lub Proficiency in English albo równoważny. Dowód niemieckiego nie jest wymagany. Tabela wymagań językowych TUHH: https://www.tuhh.de/tuhh/en/studying/before-studying/application/bachelor/language-proficiency",
+    "requirements": "Program z ograniczoną liczbą miejsc. Kryteria wyboru do potwierdzenia na stronie TUHH.",
+    "notes": "Język wykładowy: angielski. Szczegóły specjalizacji i kryteriów wyboru do potwierdzenia na stronie programu."
+   },
+   "sourceUrl": "https://www.tuhh.de/tuhh/en/studying/before-studying/application/bachelor/language-proficiency",
+   "quote": "Bachelor Programme Engineering Science"
+  },
+  {
+   "university": "Technische Universität Hamburg (TUHH)",
+   "programName": "Bau- und Umweltingenieurwesen (Bachelor of Science)",
+   "set": {
+    "languageProof": "Niemiecki: do aplikowania poziom B2.2, do zapisu TestDaF co najmniej 16 punktów, telc Deutsch C1 Hochschule albo DSH-2 lub równoważny. Angielski nie wymaga dowodu. Tabela wymagań językowych TUHH: https://www.tuhh.de/tuhh/en/studying/before-studying/application/bachelor/language-proficiency"
+   },
+   "sourceUrl": "https://www.tuhh.de/tuhh/en/studying/before-studying/application/bachelor/language-proficiency",
+   "quote": "German language level B 2.2 according to the Common European Framework"
+  },
+  {
+   "university": "Technische Universität Hamburg (TUHH)",
+   "programName": "Maschinenbau (Bachelor of Science)",
+   "set": {
+    "languageProof": "Niemiecki: do aplikowania poziom B2.2, do zapisu TestDaF co najmniej 16 punktów, telc Deutsch C1 Hochschule albo DSH-2 lub równoważny. Angielski nie wymaga dowodu. Tabela wymagań językowych TUHH: https://www.tuhh.de/tuhh/en/studying/before-studying/application/bachelor/language-proficiency"
+   },
+   "sourceUrl": "https://www.tuhh.de/tuhh/en/studying/before-studying/application/bachelor/language-proficiency",
+   "quote": "German language level B 2.2 according to the Common European Framework"
+  },
+  {
+   "university": "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)",
+   "programName": "Angewandte Informatik (Bachelor of Science)",
+   "set": {
+    "tuitionEu": "Większość kierunków HAW nie wymaga czesnego, tylko opłaty semestralnej. Strona tego programu nie podaje osobnej informacji o czesnym, więc brak czesnego w tym programie wymaga potwierdzenia na stronie uczelni. Opłata semestralna wynosi 397 EUR na semestr zimowy 2026/27 (Studierendenwerk 101 EUR, AStA 19,10 EUR, bilet komunikacji miejskiej 226,80 EUR, fundusz 0,10 EUR, opłata administracyjna 50 EUR).",
+    "tuitionNonEu": "Strona HAW mówi o większości kierunków bez czesnego; dla tego programu czesne dla osób spoza UE do potwierdzenia na stronie uczelni. Opłata semestralna jest taka sama (397 EUR).",
+    "tuitionUrl": "https://www.haw-hamburg.de/en/study/tuition-fees-living-expenses-and-scholarships/"
+   },
+   "sourceUrl": "https://www.haw-hamburg.de/en/study/tuition-fees-living-expenses-and-scholarships/",
+   "quote": "Most degree courses at HAW Hamburg require students to pay a semester contribution but not tuition fees"
+  },
+  {
+   "university": "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)",
+   "programName": "Maschinenbau (Mechanical Engineering, Bachelor of Science)",
+   "set": {
+    "tuitionEu": "Większość kierunków HAW nie wymaga czesnego, tylko opłaty semestralnej. Strona tego programu nie podaje osobnej informacji o czesnym, więc brak czesnego w tym programie wymaga potwierdzenia na stronie uczelni. Opłata semestralna wynosi 397 EUR na semestr zimowy 2026/27 (Studierendenwerk 101 EUR, AStA 19,10 EUR, bilet komunikacji miejskiej 226,80 EUR, fundusz 0,10 EUR, opłata administracyjna 50 EUR).",
+    "tuitionNonEu": "Strona HAW mówi o większości kierunków bez czesnego; dla tego programu czesne dla osób spoza UE do potwierdzenia na stronie uczelni. Opłata semestralna jest taka sama (397 EUR).",
+    "tuitionUrl": "https://www.haw-hamburg.de/en/study/tuition-fees-living-expenses-and-scholarships/"
+   },
+   "sourceUrl": "https://www.haw-hamburg.de/en/study/tuition-fees-living-expenses-and-scholarships/",
+   "quote": "Most degree courses at HAW Hamburg require students to pay a semester contribution but not tuition fees"
+  },
+  {
+   "university": "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)",
+   "programName": "Media and Communications (Bachelor of Arts)",
+   "set": {
+    "tuitionEu": "Większość kierunków HAW nie wymaga czesnego, tylko opłaty semestralnej. Strona tego programu nie podaje osobnej informacji o czesnym, więc brak czesnego w tym programie wymaga potwierdzenia na stronie uczelni. Opłata semestralna wynosi 397 EUR na semestr zimowy 2026/27 (Studierendenwerk 101 EUR, AStA 19,10 EUR, bilet komunikacji miejskiej 226,80 EUR, fundusz 0,10 EUR, opłata administracyjna 50 EUR).",
+    "tuitionNonEu": "Strona HAW mówi o większości kierunków bez czesnego; dla tego programu czesne dla osób spoza UE do potwierdzenia na stronie uczelni. Opłata semestralna jest taka sama (397 EUR).",
+    "tuitionUrl": "https://www.haw-hamburg.de/en/study/tuition-fees-living-expenses-and-scholarships/"
+   },
+   "sourceUrl": "https://www.haw-hamburg.de/en/study/tuition-fees-living-expenses-and-scholarships/",
+   "quote": "Most degree courses at HAW Hamburg require students to pay a semester contribution but not tuition fees"
+  },
+  {
+   "university": "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)",
+   "programName": "International Business (Bachelor of Science)",
+   "set": {
+    "tuitionEu": "Większość kierunków HAW nie wymaga czesnego, tylko opłaty semestralnej. Strona tego programu nie podaje osobnej informacji o czesnym, więc brak czesnego w tym programie wymaga potwierdzenia na stronie uczelni. Opłata semestralna wynosi 397 EUR na semestr zimowy 2026/27 (Studierendenwerk 101 EUR, AStA 19,10 EUR, bilet komunikacji miejskiej 226,80 EUR, fundusz 0,10 EUR, opłata administracyjna 50 EUR).",
+    "tuitionNonEu": "Strona HAW mówi o większości kierunków bez czesnego; dla tego programu czesne dla osób spoza UE do potwierdzenia na stronie uczelni. Opłata semestralna jest taka sama (397 EUR).",
+    "tuitionUrl": "https://www.haw-hamburg.de/en/study/tuition-fees-living-expenses-and-scholarships/"
+   },
+   "sourceUrl": "https://www.haw-hamburg.de/en/study/tuition-fees-living-expenses-and-scholarships/",
+   "quote": "Most degree courses at HAW Hamburg require students to pay a semester contribution but not tuition fees"
+  },
+  {
+   "university": "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)",
+   "programName": "Maschinenbau (Mechanical Engineering, Bachelor of Science)",
+   "set": {
+    "deadline": "Pierwszy rok jest przyjmowany tylko na semestr letni (start w kwietniu). Nabór na najbliższy semestr letni trwa od 1 października do 30 listopada (strona programu nie podaje roku). Na semestr zimowy nie ma naboru na pierwszy rok.",
+    "url": "https://www.haw-hamburg.de/en/bachelor-mechanical-engineering/"
+   },
+   "sourceUrl": "https://www.haw-hamburg.de/en/bachelor-mechanical-engineering/",
+   "quote": "application period is October 1 – November 30"
+  },
+  {
+   "university": "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)",
+   "programName": "Maschinenbau (Mechanical Engineering, Bachelor of Science)",
+   "set": {
+    "requirements": "Ograniczona liczba miejsc, komisja ustala ranking. Wymagana VPD z uni-assist wystawiona wprost dla HAW Hamburg (VPD dla innej uczelni nie jest akceptowana) oraz dowód angielskiego na poziomie B2. Dodatkowe punkty dają praktyka i działania pozaszkolne w dziedzinie technicznej."
+   },
+   "sourceUrl": "https://www.haw-hamburg.de/en/bachelor-mechanical-engineering/",
+   "quote": "proof of proficiency in English at the B2 level"
+  },
+  {
+   "university": "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)",
+   "programName": "Angewandte Informatik (Bachelor of Science)",
+   "set": {
+    "deadline": "Semestr zimowy: od 1 czerwca do 15 lipca; semestr letni: od 1 grudnia do 15 stycznia (strona programu nie podaje roku). Terminy na semestr zimowy 2027/28 nie są jeszcze opublikowane."
+   },
+   "sourceUrl": "https://www.haw-hamburg.de/en/bachelor-applied-computer-science/",
+   "quote": "for the winter semester: 1 June–15 July"
+  },
+  {
+   "university": "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)",
+   "programName": "Media and Communications (Bachelor of Arts)",
+   "set": {
+    "deadline": "Semestr zimowy: od 1 czerwca do 15 lipca; semestr letni: od 1 grudnia do 15 stycznia (strona programu nie podaje roku). Terminy na semestr zimowy 2027/28 nie są jeszcze opublikowane."
+   },
+   "sourceUrl": "https://www.haw-hamburg.de/en/bachelor-media-and-communications/",
+   "quote": "for the winter semester: 1 June–15 July"
+  },
+  {
+   "university": "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)",
+   "programName": "International Business (Bachelor of Science)",
+   "set": {
+    "deadline": "Semestr zimowy: od 1 czerwca do 15 lipca; semestr letni: od 1 grudnia do 15 stycznia (strona programu nie podaje roku). Terminy na semestr zimowy 2027/28 nie są jeszcze opublikowane."
+   },
+   "sourceUrl": "https://www.haw-hamburg.de/en/bachelor-international-business/",
+   "quote": "for the winter semester: 1 June–15 July"
+  },
+  {
+   "university": "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)",
+   "programName": "Angewandte Informatik (Bachelor of Science)",
+   "set": {
+    "languageProof": "Niemiecki: poziom C1 (wymagany od osób z zagranicznym świadectwem)."
+   },
+   "sourceUrl": "https://www.haw-hamburg.de/en/bachelor-applied-computer-science/",
+   "quote": "proof of German language skills at C1 level"
+  },
+  {
+   "university": "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)",
+   "programName": "Media and Communications (Bachelor of Arts)",
+   "set": {
+    "languageProof": "Niemiecki: poziom C1 (wymagany od osób z zagranicznym świadectwem). Angielski: poziom B2."
+   },
+   "sourceUrl": "https://www.haw-hamburg.de/en/bachelor-media-and-communications/",
+   "quote": "proof of German language skills at C1 level"
+  },
+  {
+   "university": "Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)",
+   "programName": "Media and Communications (Bachelor of Arts)",
+   "set": {
+    "notes": "Strona programu wymienia pracę redakcyjną w dziennikarstwie, PR i social mediach. Limit miejsc (NC) dotyczy tylko kandydatów z UE. Wymagany niemiecki C1 i angielski B2."
+   },
+   "sourceUrl": "https://www.haw-hamburg.de/en/bachelor-media-and-communications/",
+   "quote": "proof of proficiency in English at the B2 level"
+  },
+  {
+   "university": "HafenCity Universität Hamburg (HCU)",
+   "programName": "Architektur (Bachelor)",
+   "set": {
+    "tuitionEu": "Strony HCU nie podają informacji o czesnym ani kwoty opłaty semestralnej (strona o zapisie mówi tylko, że opłatę semestralną trzeba wnieść w terminie podanym w liście o przyjęciu). Brak czesnego wymaga potwierdzenia na stronie uczelni.",
+    "tuitionNonEu": "Strony HCU nie podają informacji o czesnym dla osób spoza UE; do potwierdzenia na stronie uczelni.",
+    "tuitionUrl": "https://www.hcu-hamburg.de/en/student-services/for-prospective-students/admission-and-enrolment/enrolment"
+   },
+   "sourceUrl": "https://www.hcu-hamburg.de/en/student-services/for-prospective-students/admission-and-enrolment/enrolment",
+   "quote": "You must pay the semester contribution within the acceptance periode"
+  },
+  {
+   "university": "HafenCity Universität Hamburg (HCU)",
+   "programName": "Architektur (Bachelor)",
+   "set": {
+    "deadline": "Nabór tylko na semestr zimowy: wniosek w portalu ahoi od 1 czerwca do 15 lipca, a ocena zagranicznego świadectwa w uni-assist od 1 marca do 15 lipca (strona HCU nie podaje roku; na semestr zimowy 2027/28 terminy nie są jeszcze opublikowane)."
+   },
+   "sourceUrl": "https://www.hcu-hamburg.de/en/student-services/for-prospective-students/application-dates",
+   "quote": "Bachelor (first semester) 01.06. - 15.07."
+  },
+  {
+   "university": "HafenCity Universität Hamburg (HCU)",
+   "programName": "Architektur (Bachelor)",
+   "set": {
+    "requirements": "Świadectwo musi zostać ocenione przez uni-assist (VPD wystawiona dla HCU; VPD z innych uczelni nie jest przyjmowana). Trzeba zarejestrować się w hochschulstart.de i przejść obowiązkowy test online HCU przed złożeniem wniosku w portalu ahoi. Zasady przydziału miejsc do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.hcu-hamburg.de/en/student-services/for-prospective-students/international-prospective-students/application-bachelor-degree",
+   "quote": "Preliminary examination documentation from other universities will not be accepted at the HCU"
+  },
+  {
+   "university": "HafenCity Universität Hamburg (HCU)",
+   "programName": "Bauingenieurwesen (Bachelor of Engineering)",
+   "set": {
+    "tuitionEu": "Strony HCU nie podają informacji o czesnym ani kwoty opłaty semestralnej (strona o zapisie mówi tylko, że opłatę semestralną trzeba wnieść w terminie podanym w liście o przyjęciu). Brak czesnego wymaga potwierdzenia na stronie uczelni.",
+    "tuitionNonEu": "Strony HCU nie podają informacji o czesnym dla osób spoza UE; do potwierdzenia na stronie uczelni.",
+    "tuitionUrl": "https://www.hcu-hamburg.de/en/student-services/for-prospective-students/admission-and-enrolment/enrolment"
+   },
+   "sourceUrl": "https://www.hcu-hamburg.de/en/student-services/for-prospective-students/admission-and-enrolment/enrolment",
+   "quote": "You must pay the semester contribution within the acceptance periode"
+  },
+  {
+   "university": "HafenCity Universität Hamburg (HCU)",
+   "programName": "Bauingenieurwesen (Bachelor of Engineering)",
+   "set": {
+    "deadline": "Nabór tylko na semestr zimowy: wniosek w portalu ahoi od 1 czerwca do 15 lipca, a ocena zagranicznego świadectwa w uni-assist od 1 marca do 15 lipca (strona HCU nie podaje roku; na semestr zimowy 2027/28 terminy nie są jeszcze opublikowane)."
+   },
+   "sourceUrl": "https://www.hcu-hamburg.de/en/student-services/for-prospective-students/application-dates",
+   "quote": "Bachelor (first semester) 01.06. - 15.07."
+  },
+  {
+   "university": "HafenCity Universität Hamburg (HCU)",
+   "programName": "Bauingenieurwesen (Bachelor of Engineering)",
+   "set": {
+    "requirements": "Świadectwo musi zostać ocenione przez uni-assist (VPD wystawiona dla HCU; VPD z innych uczelni nie jest przyjmowana). Trzeba zarejestrować się w hochschulstart.de i przejść obowiązkowy test online HCU przed złożeniem wniosku w portalu ahoi. Zasady przydziału miejsc do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.hcu-hamburg.de/en/student-services/for-prospective-students/international-prospective-students/application-bachelor-degree",
+   "quote": "Preliminary examination documentation from other universities will not be accepted at the HCU"
+  },
+  {
+   "university": "Bucerius Law School (prywatna)",
+   "programName": "Jurastudium (Bachelor of Laws LL.B. i przygotowanie do pierwszego egzaminu państwowego)",
+   "set": {
+    "tuitionEu": "Uczelnia prywatna z czesnym odroczonym: w trakcie studiów nie płaci się nic, ale czesne wynosi 5 600 EUR za trymestr i student spłaca je dopiero po wejściu na rynek pracy. W modelu Umgekehrter Generationenvertrag spłata zaczyna się od dochodu 35 000 EUR brutto rocznie i wynosi 9 procent miesięcznego dochodu brutto przy pełnym finansowaniu. Opłata za postępowanie rekrutacyjne: 40 EUR (termin wczesny) lub 80 EUR (termin ostateczny).",
+    "tuitionNonEu": "Takie same zasady (strona nie rozróżnia obywatelstwa).",
+    "tuitionUrl": "https://www.law-school.de/studium/jurastudium/kosten-finanzierung-stipendien/umgekehrter-generationenvertrag"
+   },
+   "sourceUrl": "https://www.law-school.de/studium/jurastudium/kosten-finanzierung-stipendien/umgekehrter-generationenvertrag",
+   "quote": "übernimmt die Bucerius Studierendenfördergesellschaft mbH deine Studiengebühren in Höhe von 5.600 Euro pro Trimester"
+  },
+  {
+   "university": "Bucerius Law School (prywatna)",
+   "programName": "Jurastudium (Bachelor of Laws LL.B. i przygotowanie do pierwszego egzaminu państwowego)",
+   "set": {
+    "deadline": "Terminy z naboru 2026 są nieaktualne (wczesny termin 1 marca 2026, ostateczny 15 maja 2026, część pisemna 5 i 6 czerwca 2026, ustna 10 i 11 lipca 2026, start 7 września 2026). Terminy naboru 2027 nie są jeszcze opublikowane; uczelnia podaje, że nabór zaczyna się w grudniu, a wniosek trzeba złożyć najpóźniej w połowie maja."
+   },
+   "sourceUrl": "https://www.law-school.de/studium/jurastudium/bewerbung-auswahl",
+   "quote": "Finale Bewerbungsfrist (Gebühr 80 EUR) 15. Mai 2026"
+  },
+  {
+   "university": "Bucerius Law School (prywatna)",
+   "programName": "Jurastudium (Bachelor of Laws LL.B. i przygotowanie do pierwszego egzaminu państwowego)",
+   "set": {
+    "notes": "Uczelnia prywatna, więc nie obowiązują jej zasady uczelni publicznych (rekrutacja przez hochschulstart.de ani opłata semestralna). Miejsca przyznaje dwuetapowa selekcja (test pisemny online i rozmowa na miejscu), a ocena ze świadectw jest jednym z kryteriów. Studia: licencjat LL.B. po 3,5 roku, potem pierwszy egzamin państwowy."
+   },
+   "sourceUrl": "https://www.law-school.de/studium/jurastudium/bewerbung-auswahl",
+   "quote": "Das Auswahlverfahren findet jährlich statt"
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [],
+ "summaryPatches": [
+  {
+   "label": "Polska matura",
+   "text": "Obywatele UE, w tym Polacy, są w rekrutacji na Universität Hamburg zaliczani do grupy kandydatów ze statusem równoważnym niemieckiemu (German equivalent), więc o miejscu na kierunkach z limitem decyduje ocena ze świadectwa. Zagraniczne świadectwo trzeba jednak uznać. Universität Hamburg robi to bezpłatnie w swoim portalu aplikacyjnym. HAW Hamburg i HafenCity Universität wymagają dokumentu VPD z uni-assist wystawionego dla danej uczelni (HCU nie przyjmuje VPD z innych uczelni), a TUHH przyjmuje świadectwo przesłane razem z wnioskiem. Strony uczelni nie wymieniają polskiej matury, dlatego jej status wymaga potwierdzenia w uczelni.",
+   "sourceUrl": "https://www.uni-hamburg.de/en/campuscenter/bewerbung/international/studium-mit-abschluss.html",
+   "quote": "recognized for free in the Universität Hamburg application portal"
+  },
+  {
+   "label": "Opłaty",
+   "text": "Universität Hamburg nie pobiera czesnego od semestru zimowego 2012/13. HAW Hamburg podaje, że większość kierunków wymaga tylko opłaty semestralnej. Strony TUHH i HafenCity Universität nie podają informacji o czesnym, więc brak czesnego na tych dwóch uczelniach wymaga potwierdzenia. Opłata semestralna z biletem komunikacji miejskiej na semestr zimowy 2026/27: UHH 402 EUR, TUHH 400 EUR, HAW 397 EUR. Bucerius Law School jest prywatna: w trakcie studiów nic się nie płaci, ale czesne wynosi 5 600 EUR za trymestr i spłaca się je po wejściu na rynek pracy.",
+   "sourceUrl": "https://www.uni-hamburg.de/campuscenter/studienorganisation/studienverlauf/beitraege-gebuehren.html",
+   "quote": "Seit dem Wintersemester 2012/13 gibt es an der Universität Hamburg keine Studiengebühren mehr"
+  },
+  {
+   "label": "Znajomość angielskiego",
+   "text": "Po angielsku jest niewiele licencjatów: TUHH Engineering Science (do zapisu TOEFL iBT 90 lub IELTS Academic 6,5), HAW Mechanical Engineering (nabór tylko na semestr letni, angielski B2) i HAW International Business (angielski B2). TUHH Computer Science i Data Science wymagają obu języków: niemieckiego B2.2 do aplikowania (do zapisu TestDaF 16 punktów, telc C1 Hochschule lub DSH-2) oraz angielskiego na poziomie TOEFL iBT 90 lub IELTS 6,5. Pozostałe kierunki są po niemiecku: UHH wymaga DSH-2 lub DSH-3 albo TestDaF z wynikiem 15 punktów (trzy części na poziomie 4 i jedna na poziomie 3), TUHH TestDaF 16 punktów, telc C1 Hochschule lub DSH-2, HAW niemieckiego C1, a HCU co najmniej DSH-2 lub TestDaF 15 punktów.",
+   "sourceUrl": "https://www.tuhh.de/tuhh/en/studying/before-studying/application/bachelor/language-proficiency",
+   "quote": "TestDaF with a minimum of 16 points"
+  },
+  {
+   "label": "Rekrutacja",
+   "text": "Licencjaty na uczelniach publicznych w Hamburgu: wnioski na semestr zimowy od 1 czerwca do 15 lipca (strony uczelni nie podają roku, a terminy na semestr zimowy 2027/28 nie są jeszcze opublikowane). UHH przyjmuje wnioski na semestr letni od 1 grudnia do 15 stycznia. Ocena świadectwa w uni-assist dla HCU: od 1 marca do 15 lipca. HAW Mechanical Engineering przyjmuje pierwszy rok tylko na semestr letni, a nabór trwa od 1 października do 30 listopada. Bucerius Law School: nabór 2026 jest zamknięty (termin ostateczny 15 maja 2026), terminy na 2027 nie są jeszcze opublikowane.",
+   "sourceUrl": "https://www.uni-hamburg.de/campuscenter/bewerbung/fristen-termine.html",
+   "quote": "die Bewerbung zu einem Wintersemester vom 1. Juni bis zum 15. Juli"
+  },
+  {
+   "label": "Uwagi",
+   "text": "Na UHH większość licencjatów ma limit miejsc; zasada uczelni to 90 procent miejsc według oceny i 10 procent według czasu oczekiwania. Psychologia jest bardzo selektywna: w semestrze zimowym 2025/26 było 148 miejsc i 5 030 wniosków, a test BaPsy-DGPs (po niemiecku) jest dobrowolny. Medycyna idzie przez hochschulstart.de z testem HAM-Nat (od 2027 TMSnat). TUHH ma wolny dostęp na większości kierunków i limit na Engineering Science. HAW ma limit miejsc (NC dla kandydatów z UE), a HCU limit według uczelni (szczegóły do potwierdzenia).",
+   "sourceUrl": "https://www.uni-hamburg.de/campuscenter/bewerbung/informationen-nc.html",
+   "quote": "da 18 Plätze (90 %) nach Note vergeben werden"
+  }
+ ],
+ "gapsSet": [
+  "Strony uczelni nie wymieniają polskiej matury, a bazy DAAD i anabin nie były publicznie dostępne. Status polskiego świadectwa w Universität Hamburg, TUHH, HAW Hamburg i HafenCity Universität trzeba potwierdzić w bazie DAAD albo bezpośrednio w uczelni.",
+  "Terminy naboru na semestr zimowy 2027/28 nie są jeszcze opublikowane. Podane daty (na przykład od 1 czerwca do 15 lipca) strony uczelni podają bez roku.",
+  "Strony TUHH i HafenCity Universität nie podają informacji o czesnym, więc brak czesnego na tych uczelniach wymaga potwierdzenia na ich stronach. HAW pisze o braku czesnego na większości kierunków, bez rozstrzygnięcia dla każdego programu osobno. Nie znaleziono kwoty opłaty semestralnej HCU.",
+  "Strony Universität Hamburg dla Psychologie, Informatik, Rechtswissenschaft i Medizin nie podają wprost języka wykładowego, a lista kierunków jest ładowana dynamicznie. Według uczelni dla kandydatów z zagranicznym świadectwem obowiązuje dowód znajomości niemieckiego.",
+  "Czas trwania studiów BWL, prawa i medycyny na Universität Hamburg nie jest podany na sprawdzonych stronach.",
+  "Nie sprawdzono kryteriów wyboru na TUHH Engineering Science ani zasad przydziału miejsc w HafenCity Universität (podział na oceny, czas oczekiwania i kwotę dla cudzoziemców).",
+  "Nie sprawdzono, jak kwota najlepszych absolwentów (Abiturbestenquote) działa wobec osób z polskim świadectwem, co wpływa na szanse na kierunkach z limitem, na przykład na medycynie.",
+  "W Hamburgu nie znaleziono licencjatu z architektury poza HCU ani licencjatu z data science poza TUHH. Dziennikarstwo na Universität Hamburg (Medien- und Kommunikationswissenschaft, 34 miejsca, 956 wniosków w semestrze zimowym 2025/26) nie zostało opisane osobno; uwzględniono HAW Media and Communications."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://www.uni-hamburg.de/campuscenter/studienorganisation/studienverlauf/beitraege-gebuehren.html",
+   "note": "UHH: brak czesnego od semestru zimowego 2012/13 (strona po niemiecku)"
+  },
+  {
+   "url": "https://www.uni-hamburg.de/en/campuscenter/studienorganisation/studienverlauf/beitraege-gebuehren/semesterbeitrag.html",
+   "note": "UHH: opłata semestralna 402 EUR na semestr zimowy 2026/27"
+  },
+  {
+   "url": "https://www.uni-hamburg.de/en/campuscenter/bewerbung/international/studium-mit-abschluss.html",
+   "note": "UHH: rekrutacja kandydatów z zagranicznym świadectwem, bezpłatne uznanie świadectwa"
+  },
+  {
+   "url": "https://www.uni-hamburg.de/en/campuscenter/bewerbung/international/studium-mit-abschluss/sprachkenntnisse/deutschkenntnisse.html",
+   "note": "UHH: akceptowane certyfikaty z niemieckiego (DSH, TestDaF, Goethe, telc)"
+  },
+  {
+   "url": "https://www.uni-hamburg.de/campuscenter/bewerbung/fristen-termine.html",
+   "note": "UHH: terminy naboru na semestr zimowy i letni"
+  },
+  {
+   "url": "https://www.uni-hamburg.de/campuscenter/bewerbung/informationen-nc.html",
+   "note": "UHH: zasady NC, podział 90 procent według oceny i 10 procent według czasu oczekiwania"
+  },
+  {
+   "url": "https://www.uni-hamburg.de/campuscenter/studienorganisation/formulare-informationsmerkblaetter/studienplaetze-und-bewerbungen.pdf",
+   "note": "UHH: liczba miejsc i wniosków w semestrach zimowych 2021/22 do 2025/26"
+  },
+  {
+   "url": "https://www.uni-hamburg.de/campuscenter/bewerbung/bachelor-staatsexamen/fremdsprachenkenntnisse.html",
+   "note": "UHH: wymagania z angielskiego (BWL)"
+  },
+  {
+   "url": "https://www.psy.uni-hamburg.de/en/studium-neu/studiengaenge/bsc-psychologie-ab-wise-20-21/studieneignungstest.html",
+   "note": "UHH Psychologie: test BaPsy-DGPs i jego waga w selekcji"
+  },
+  {
+   "url": "https://www.tuhh.de/tuhh/en/education/students/organisational-details-about-your-studies/financing-your-studies/costs/semester-contribution",
+   "note": "TUHH: opłata semestralna 400 EUR na semestr zimowy 2026/27"
+  },
+  {
+   "url": "https://www.tuhh.de/tuhh/en/studying/before-studying/application/bachelor",
+   "note": "TUHH: aplikowanie na licencjat, terminy"
+  },
+  {
+   "url": "https://www.tuhh.de/tuhh/en/studying/before-studying/application/bachelor/language-proficiency",
+   "note": "TUHH: tabela wymagań z niemieckiego i angielskiego dla poszczególnych programów"
+  },
+  {
+   "url": "https://www.haw-hamburg.de/en/study/tuition-fees-living-expenses-and-scholarships/",
+   "note": "HAW: czesne i opłata semestralna 397 EUR na semestr zimowy 2026/27"
+  },
+  {
+   "url": "https://www.haw-hamburg.de/en/bachelor-mechanical-engineering/",
+   "note": "HAW Mechanical Engineering: nabór na semestr letni od 1 października do 30 listopada, wymagania"
+  },
+  {
+   "url": "https://www.haw-hamburg.de/en/bachelor-applied-computer-science/",
+   "note": "HAW Angewandte Informatik: terminy, niemiecki C1"
+  },
+  {
+   "url": "https://www.haw-hamburg.de/en/bachelor-media-and-communications/",
+   "note": "HAW Media and Communications: terminy, niemiecki C1, angielski B2"
+  },
+  {
+   "url": "https://www.haw-hamburg.de/en/bachelor-international-business/",
+   "note": "HAW International Business: terminy, angielski B2"
+  },
+  {
+   "url": "https://www.hcu-hamburg.de/en/student-services/for-prospective-students/application-dates",
+   "note": "HCU: terminy naboru i oceny świadectwa w uni-assist"
+  },
+  {
+   "url": "https://www.hcu-hamburg.de/en/student-services/for-prospective-students/international-prospective-students/application-bachelor-degree",
+   "note": "HCU: procedura aplikacji z zagranicznym świadectwem"
+  },
+  {
+   "url": "https://www.hcu-hamburg.de/en/student-services/for-prospective-students/language-skills/german-language-skills",
+   "note": "HCU: wymagany niemiecki (co najmniej DSH-2, TestDaF 15 punktów)"
+  },
+  {
+   "url": "https://www.hcu-hamburg.de/en/student-services/for-prospective-students/admission-and-enrolment/enrolment",
+   "note": "HCU: zapis na studia i opłata semestralna"
+  },
+  {
+   "url": "https://www.law-school.de/studium/jurastudium/bewerbung-auswahl",
+   "note": "Bucerius: selekcja i terminy naboru 2026"
+  },
+  {
+   "url": "https://www.law-school.de/studium/jurastudium/kosten-finanzierung-stipendien/umgekehrter-generationenvertrag",
+   "note": "Bucerius: czesne 5 600 EUR za trymestr, zasady spłaty po studiach"
+  }
+ ]
+}

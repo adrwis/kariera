@@ -1,0 +1,505 @@
+{
+ "slug": "helsinki",
+ "programPatches": [
+  {
+   "university": "University of Helsinki (Helsingin yliopisto)",
+   "programName": "Luonnontieteiden kandidaattiohjelma (Bachelor's Programme in Science)",
+   "set": {
+    "tuitionEu": "0 EUR czesnego dla obywateli UE/EOG i Szwajcarii. Uniwersytety pobierają obowiązkową roczną składkę samorządu studenckiego (około 50 do 70 EUR) i opłatę zdrowotną (około 70 EUR rocznie)."
+   },
+   "sourceUrl": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+   "quote": "University students pay an annual student union fee of about €50–€70"
+  },
+  {
+   "university": "University of Helsinki (Helsingin yliopisto)",
+   "programName": "Soveltavan psykologian kandiohjelma (Bachelor's Programme in Applied Psychology)",
+   "set": {
+    "tuitionEu": "0 EUR czesnego dla obywateli UE/EOG i Szwajcarii. Uniwersytety pobierają obowiązkową roczną składkę samorządu studenckiego (około 50 do 70 EUR) i opłatę zdrowotną (około 70 EUR rocznie)."
+   },
+   "sourceUrl": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+   "quote": "University students pay an annual student union fee of about €50–€70"
+  },
+  {
+   "university": "Aalto University (Aalto-yliopisto)",
+   "programName": "Tietotekniikka (Aalto Bachelor's Programme in Science and Technology, Computer Engineering)",
+   "set": {
+    "tuitionEu": "0 EUR czesnego dla obywateli UE/EOG i Szwajcarii. Uniwersytety pobierają obowiązkową roczną składkę samorządu studenckiego (około 50 do 70 EUR) i opłatę zdrowotną (około 70 EUR rocznie)."
+   },
+   "sourceUrl": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+   "quote": "University students pay an annual student union fee of about €50–€70"
+  },
+  {
+   "university": "Aalto University (Aalto-yliopisto)",
+   "programName": "Kone- ja rakennustekniikka (Aalto Bachelor's Programme in Science and Technology, Mechanical and Civil Engineering)",
+   "set": {
+    "tuitionEu": "0 EUR czesnego dla obywateli UE/EOG i Szwajcarii. Uniwersytety pobierają obowiązkową roczną składkę samorządu studenckiego (około 50 do 70 EUR) i opłatę zdrowotną (około 70 EUR rocznie)."
+   },
+   "sourceUrl": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+   "quote": "University students pay an annual student union fee of about €50–€70"
+  },
+  {
+   "university": "Aalto University (Aalto-yliopisto)",
+   "programName": "Kansantaloustiede (Bachelor's Programme in Economics)",
+   "set": {
+    "tuitionEu": "0 EUR czesnego dla obywateli UE/EOG i Szwajcarii. Uniwersytety pobierają obowiązkową roczną składkę samorządu studenckiego (około 50 do 70 EUR) i opłatę zdrowotną (około 70 EUR rocznie)."
+   },
+   "sourceUrl": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+   "quote": "University students pay an annual student union fee of about €50–€70"
+  },
+  {
+   "university": "Hanken School of Economics",
+   "programName": "Kauppatieteiden kandidaatti, englanninkielinen ohjelma (Bachelor Programme in English)",
+   "set": {
+    "tuitionEu": "0 EUR czesnego dla obywateli UE/EOG i Szwajcarii. Uniwersytety pobierają obowiązkową roczną składkę samorządu studenckiego (około 50 do 70 EUR) i opłatę zdrowotną (około 70 EUR rocznie)."
+   },
+   "sourceUrl": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+   "quote": "University students pay an annual student union fee of about €50–€70"
+  },
+  {
+   "university": "Metropolia University of Applied Sciences (Metropolia Ammattikorkeakoulu)",
+   "programName": "Tietotekniikka (Information Technology)",
+   "set": {
+    "tuitionEu": "0 EUR czesnego dla obywateli UE/EOG i Szwajcarii. Składka samorządu studenckiego w uczelni zawodowej (AMK) jest dobrowolna. Opłata zdrowotna wynosi około 70 EUR rocznie."
+   },
+   "sourceUrl": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+   "quote": "Student union membership at universities of applied sciences (UAS) is optional."
+  },
+  {
+   "university": "Metropolia University of Applied Sciences (Metropolia Ammattikorkeakoulu)",
+   "programName": "Konetekniikka (Mechanical Engineering)",
+   "set": {
+    "tuitionEu": "0 EUR czesnego dla obywateli UE/EOG i Szwajcarii. Składka samorządu studenckiego w uczelni zawodowej (AMK) jest dobrowolna. Opłata zdrowotna wynosi około 70 EUR rocznie."
+   },
+   "sourceUrl": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+   "quote": "Student union membership at universities of applied sciences (UAS) is optional."
+  },
+  {
+   "university": "Metropolia University of Applied Sciences (Metropolia Ammattikorkeakoulu)",
+   "programName": "Rakennus- ja talotekniikka (Civil Engineering and Building Services)",
+   "set": {
+    "tuitionEu": "0 EUR czesnego dla obywateli UE/EOG i Szwajcarii. Składka samorządu studenckiego w uczelni zawodowej (AMK) jest dobrowolna. Opłata zdrowotna wynosi około 70 EUR rocznie."
+   },
+   "sourceUrl": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+   "quote": "Student union membership at universities of applied sciences (UAS) is optional."
+  },
+  {
+   "university": "Haaga-Helia University of Applied Sciences",
+   "programName": "Kansainvälinen liiketoiminta (Degree Programme in International Business)",
+   "set": {
+    "tuitionEu": "0 EUR czesnego dla obywateli UE/EOG i Szwajcarii. Składka samorządu studenckiego w uczelni zawodowej (AMK) jest dobrowolna. Opłata zdrowotna wynosi około 70 EUR rocznie."
+   },
+   "sourceUrl": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+   "quote": "Student union membership at universities of applied sciences (UAS) is optional."
+  },
+  {
+   "university": "University of Helsinki (Helsingin yliopisto)",
+   "programName": "Luonnontieteiden kandidaattiohjelma (Bachelor's Programme in Science)",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (wynik SAT lub ACT)",
+    "requirements": "Osoby bez fińskiej matury, IB i EB należą do grupy przyjęć 1. O przyjęciu decyduje wyłącznie wynik SAT lub ACT, a oceny z polskiej matury nie są punktowane. Kryteria na 2027 uczelnia opublikuje w Studyinfo do końca października 2026. Opłata za zgłoszenie wynosi 100 EUR i dotyczy tylko osób spoza UE/EOG i Szwajcarii."
+   },
+   "sourceUrl": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/apply-bachelors-programmes",
+   "quote": "Admission is based on the scores of your SAT or ACT tests."
+  },
+  {
+   "university": "University of Helsinki (Helsingin yliopisto)",
+   "programName": "Luonnontieteiden kandidaattiohjelma (Bachelor's Programme in Science)",
+   "set": {
+    "notes": "To jedyny anglojęzyczny kierunek UH zbliżony do informatyki i nauki o danych. Drugi licencjat po angielsku to Liberal Arts and Sciences. Informatyka po fińsku jest dodana jako osobny program."
+   },
+   "sourceUrl": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/apply-bachelors-programmes",
+   "quote": "The University of Helsinki offers two interdisciplinary Bachelor"
+  },
+  {
+   "university": "Aalto University (Aalto-yliopisto)",
+   "programName": "Tietotekniikka (Aalto Bachelor's Programme in Science and Technology, Computer Engineering)",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (wynik SAT lub ACT)",
+    "requirements": "Minimalny wynik SAT to 1350 punktów łącznie i 700 z matematyki (ACT: 29 łącznie i 30 z matematyki). Osoby z polską maturą należą do grupy I, w której o przyjęciu decyduje wynik SAT lub ACT, a oceny z matury nie są brane pod uwagę. Progi i terminy pochodzą z naboru 2026 (wyniki do dostarczenia do 29 stycznia 2026). Dla naboru 2027 do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.aalto.fi/en/admission-services/bachelors-admissions-frequently-asked-questions",
+   "quote": "The minimum requirements are, for the study options in the field of science and technology, a total score of 1350 and a Mathematics score of 700"
+  },
+  {
+   "university": "Aalto University (Aalto-yliopisto)",
+   "programName": "Kone- ja rakennustekniikka (Aalto Bachelor's Programme in Science and Technology, Mechanical and Civil Engineering)",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (wynik SAT lub ACT)",
+    "requirements": "Minimalny wynik SAT to 1350 punktów łącznie i 700 z matematyki (ACT: 29 łącznie i 30 z matematyki). Osoby z polską maturą należą do grupy I, w której o przyjęciu decyduje wynik SAT lub ACT, a oceny z matury nie są brane pod uwagę. Progi i terminy pochodzą z naboru 2026 (wyniki do dostarczenia do 29 stycznia 2026). Dla naboru 2027 do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.aalto.fi/en/admission-services/bachelors-admissions-frequently-asked-questions",
+   "quote": "The minimum requirements are, for the study options in the field of science and technology, a total score of 1350 and a Mathematics score of 700"
+  },
+  {
+   "university": "Aalto University (Aalto-yliopisto)",
+   "programName": "Kansantaloustiede (Bachelor's Programme in Economics)",
+   "set": {
+    "deadline": "Nabór 7 do 22 stycznia 2027 (Studyinfo). Wyniki rundy A do marca 2027, rundy B do 28 maja 2027. Aalto poda szczegółowe harmonogramy i liczby miejsc do października 2026."
+   },
+   "sourceUrl": "https://www.aalto.fi/en/study-options/bachelors-programme-in-economics",
+   "quote": "7 Jan 2027 – 22 Jan 2027"
+  },
+  {
+   "university": "Aalto University (Aalto-yliopisto)",
+   "programName": "Kansantaloustiede (Bachelor's Programme in Economics)",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (wynik SAT lub ACT)",
+    "requirements": "Minimalny wynik SAT to 1200 punktów łącznie (ACT: 25 łącznie). Osoby z polską maturą należą do grupy I, w której o przyjęciu decyduje wynik SAT lub ACT, a oceny z matury nie są brane pod uwagę. Progi i terminy pochodzą z naboru 2026 (wyniki do dostarczenia do 29 stycznia 2026). Dla naboru 2027 do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.aalto.fi/en/admission-services/bachelors-admissions-frequently-asked-questions",
+   "quote": "and for the study options in the field of business and economics, a total score of 1200."
+  },
+  {
+   "university": "Aalto University (Aalto-yliopisto)",
+   "programName": "Kone- ja rakennustekniikka (Aalto Bachelor's Programme in Science and Technology, Mechanical and Civil Engineering)",
+   "set": {
+    "notes": "Program 3+2 lat (licencjat 180 ECTS plus magister 120 ECTS). Ścieżka łączy mechanikę i budownictwo. Aalto ma też programy po fińsku z architektury i budownictwa, a ich warunki przyjęcia są do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.aalto.fi/en/admission-services/bachelors-admissions-frequently-asked-questions",
+   "quote": "you belong to group I where the admission is based on SAT or ACT test scores"
+  },
+  {
+   "university": "Aalto University (Aalto-yliopisto)",
+   "programName": "Tietotekniikka (Aalto Bachelor's Programme in Science and Technology, Computer Engineering)",
+   "set": {
+    "deadline": "Nabór na 2027 w Studyinfo; dokładny okres do potwierdzenia na stronie programu (program ekonomii na Aalto podaje 7 do 22 stycznia 2027). Aalto poda harmonogramy i liczby miejsc do października 2026."
+   },
+   "sourceUrl": "https://www.aalto.fi/en/admission-services/bachelors-admissions-frequently-asked-questions",
+   "quote": "Admission to the English-taught bachelor's programmes is organised once a year."
+  },
+  {
+   "university": "Aalto University (Aalto-yliopisto)",
+   "programName": "Kone- ja rakennustekniikka (Aalto Bachelor's Programme in Science and Technology, Mechanical and Civil Engineering)",
+   "set": {
+    "deadline": "Nabór na 2027 w Studyinfo; dokładny okres do potwierdzenia na stronie programu (program ekonomii na Aalto podaje 7 do 22 stycznia 2027). Aalto poda harmonogramy i liczby miejsc do października 2026."
+   },
+   "sourceUrl": "https://www.aalto.fi/en/admission-services/bachelors-admissions-frequently-asked-questions",
+   "quote": "Admission to the English-taught bachelor's programmes is organised once a year."
+  },
+  {
+   "university": "Hanken School of Economics",
+   "programName": "Kauppatieteiden kandidaatti, englanninkielinen ohjelma (Bachelor Programme in English)",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (wynik SAT lub ACT albo test ITB-Business)",
+    "requirements": "Nabór dla osób ze świadectwem uprawniającym do studiów wyższych w kraju jego wydania. Wymagany jest wynik SAT lub ACT albo test ITB-Business wykonany przed końcem naboru. Ścieżka oparta na ocenach ze świadectwa dotyczy fińskiej matury, IB i EB. Załączniki do 28 stycznia 2027 godz. 15:00, wyniki 31 maja 2027, potwierdzenie miejsca do 13 lipca 2027."
+   },
+   "sourceUrl": "https://www.hanken.fi/en/apply/application/bachelors-degree-studies-english",
+   "quote": "SAT/ ACT or ITB test score (if applicable)"
+  },
+  {
+   "university": "Hanken School of Economics",
+   "programName": "Kauppatieteiden kandidaatti, englanninkielinen ohjelma (Bachelor Programme in English)",
+   "set": {
+    "languageProof": "Strona Hanken wymienia wymóg znajomości angielskiego w warunkach przyjęcia. Progi punktowe SAT, ACT i angielskiego do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.hanken.fi/en/apply/application/bachelors-degree-studies-english",
+   "quote": "English requirement"
+  },
+  {
+   "university": "Metropolia University of Applied Sciences (Metropolia Ammattikorkeakoulu)",
+   "programName": "Tietotekniikka (Information Technology)",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (egzamin International UAS Exam albo SAT/ACT, zależnie od naboru)",
+    "requirements": "Selekcja w naborze międzynarodowym opiera się na egzaminie International UAS Exam (cyfrowy egzamin po angielsku, wspólny dla fińskich uczelni zawodowych). Osobny nabór dla programów międzynarodowych przyjmuje też wyniki GMAT/GRE lub SAT/ACT. Oceny z polskiej matury nie są punktowane. Opłata za zgłoszenie 100 EUR dotyczy osób spoza UE/EOG.",
+    "languageProof": "Wymagania z angielskiego podano w kryteriach przyjęć na Studyinfo i na stronie uasinfo.fi. Konkretny próg IELTS do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.metropolia.fi/en/study-at-metropolia/bachelors-degrees/information-technology",
+   "quote": "The International UAS Exam is a joint digital entrance exam of the Finnish Universities of Applied Sciences"
+  },
+  {
+   "university": "Metropolia University of Applied Sciences (Metropolia Ammattikorkeakoulu)",
+   "programName": "Konetekniikka (Mechanical Engineering)",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (egzamin International UAS Exam albo SAT/ACT, zależnie od naboru)",
+    "requirements": "Selekcja w naborze międzynarodowym opiera się na egzaminie International UAS Exam (cyfrowy egzamin po angielsku, wspólny dla fińskich uczelni zawodowych). Osobny nabór dla programów międzynarodowych przyjmuje też wyniki GMAT/GRE lub SAT/ACT. Oceny z polskiej matury nie są punktowane. Opłata za zgłoszenie 100 EUR dotyczy osób spoza UE/EOG.",
+    "languageProof": "Wymagania z angielskiego podano w kryteriach przyjęć na Studyinfo i na stronie uasinfo.fi. Konkretny próg IELTS do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.metropolia.fi/en/study-at-metropolia/bachelors-degrees/mechanical-engineering",
+   "quote": "The International UAS Exam is a joint digital entrance exam of the Finnish Universities of Applied Sciences"
+  },
+  {
+   "university": "Metropolia University of Applied Sciences (Metropolia Ammattikorkeakoulu)",
+   "programName": "Rakennus- ja talotekniikka (Civil Engineering and Building Services)",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (egzamin International UAS Exam albo SAT/ACT, zależnie od naboru)",
+    "requirements": "Selekcja w naborze międzynarodowym opiera się na egzaminie International UAS Exam (cyfrowy egzamin po angielsku, wspólny dla fińskich uczelni zawodowych). Osobny nabór dla programów międzynarodowych przyjmuje też wyniki GMAT/GRE lub SAT/ACT. Oceny z polskiej matury nie są punktowane. Opłata za zgłoszenie 100 EUR dotyczy osób spoza UE/EOG.",
+    "languageProof": "Wymagania z angielskiego podano w kryteriach przyjęć na Studyinfo i na stronie uasinfo.fi. Konkretny próg IELTS do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.metropolia.fi/en/study-at-metropolia/bachelors-degrees/civil-engineering-and-building-services",
+   "quote": "The International UAS Exam is a joint digital entrance exam of the Finnish Universities of Applied Sciences"
+  },
+  {
+   "university": "Metropolia University of Applied Sciences (Metropolia Ammattikorkeakoulu)",
+   "programName": "Tietotekniikka (Information Technology)",
+   "set": {
+    "notes": "240 ECTS, ścieżki Software Engineering i Smart IoT Systems. Dyplom inżyniera uczelni zawodowej (Bachelor of Engineering). Do analizy danych przygotowuje tylko pośrednio, przez ścieżkę IT."
+   },
+   "sourceUrl": "https://www.metropolia.fi/en/study-at-metropolia/bachelors-degrees/information-technology",
+   "quote": "The International UAS Exam is a joint digital entrance exam of the Finnish Universities of Applied Sciences"
+  },
+  {
+   "university": "Haaga-Helia University of Applied Sciences",
+   "programName": "Kansainvälinen liiketoiminta (Degree Programme in International Business)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię",
+    "requirements": "Nabór wspólny (certificate-based selection) obejmuje fińską maturę, IB, EB, RP/DIA ukończone w Finlandii i fińskie kwalifikacje zawodowe. Polskiej matury na tej liście nie ma. Program nie prowadzi egzaminu wstępnego. Dla pozostałych kandydatów działa nabór ciągły (rolling admission) od 30 października 2026 do 12 maja 2027, a jego kryteria podano w Studyinfo.",
+    "languageProof": "Program w całości po angielsku. Konkretny próg znajomości angielskiego do potwierdzenia w kryteriach na Studyinfo."
+   },
+   "sourceUrl": "https://www.haaga-helia.fi/en/bachelor/degree-programme-international-business",
+   "quote": "this programme does not arrange entrance examination"
+  },
+  {
+   "university": "University of Helsinki (Helsingin yliopisto)",
+   "programName": "Soveltavan psykologian kandiohjelma (Bachelor's Programme in Applied Psychology)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię",
+    "requirements": "Strona programu nie podaje kryteriów przyjęcia dla osób z polską maturą. Kryteria uczelnia publikuje w Studyinfo przed naborem 9 do 23 marca 2027.",
+    "languageProof": "Program prowadzony po fińsku. Wymagany poziom i certyfikat z fińskiego do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.helsinki.fi/en/degree-programmes/bachelors-programme-applied-psychology",
+   "quote": "Language of instruction is Finnish."
+  },
+  {
+   "university": "University of Helsinki (Helsingin yliopisto)",
+   "programName": "Soveltavan psykologian kandiohjelma (Bachelor's Programme in Applied Psychology)",
+   "set": {
+    "tuitionNonEu": "0 EUR. Programy po fińsku i szwedzku nie pobierają czesnego od nikogo, także od osób spoza UE/EOG."
+   },
+   "sourceUrl": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+   "quote": "Degree programmes taught in Finnish or Swedish do not charge tuition fees."
+  },
+  {
+   "university": "University of Helsinki (Helsingin yliopisto)",
+   "programName": "Soveltavan psykologian kandiohjelma (Bachelor's Programme in Applied Psychology)",
+   "set": {
+    "notes": "Ten licencjat sam nie daje zawodu psychologa. UH pisze, że po nim i po magisterium z psychologii organizacji absolwenci są specjalistami w dziedzinie psychologii, ale nie pracownikami ochrony zdrowia. Klasyczny licencjat z psychologii (Psykologian kandiohjelma) jest dodany jako osobny program."
+   },
+   "sourceUrl": "https://www.helsinki.fi/en/degree-programmes/bachelors-programme-applied-psychology",
+   "quote": "will be specialists in psychology, but not healthcare professionals"
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [
+  {
+   "university": "University of Helsinki (Helsingin yliopisto)",
+   "universityUrl": "https://www.helsinki.fi",
+   "universityType": "uniwersytet",
+   "program": {
+    "name": "Psykologian kandiohjelma (Bachelor's Programme in Psychology)",
+    "nameEn": "Bachelor's Programme in Psychology",
+    "careerIds": [
+     "psycholog"
+    ],
+    "level": "licencjat",
+    "durationYears": 3,
+    "languages": [
+     "fiński"
+    ],
+    "english": false,
+    "academicYear": "2027/28 (start jesień 2027)",
+    "tuitionEu": "0 EUR czesnego. Programy po fińsku i szwedzku nie pobierają czesnego. Uniwersytety pobierają obowiązkową roczną składkę samorządu studenckiego (około 50 do 70 EUR) i opłatę zdrowotną (około 70 EUR rocznie).",
+    "tuitionNonEu": "0 EUR. Programy po fińsku i szwedzku nie pobierają czesnego od nikogo, także od osób spoza UE/EOG.",
+    "tuitionUrl": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+    "matura": "wymaga potwierdzenia przez uczelnię",
+    "requirements": "Strona programu nie podaje kryteriów przyjęcia dla osób z polską maturą. Kryteria uczelnia publikuje w Studyinfo przed naborem 9 do 23 marca 2027.",
+    "languageProof": "Program prowadzony po fińsku (lub szwedzku, jeśli podano). Wymagany poziom i certyfikat językowy do potwierdzenia na stronie uczelni.",
+    "selective": null,
+    "admissionUrl": "https://www.helsinki.fi/en/degree-programmes/psykologian-kandiohjelma",
+    "deadline": "9 do 23 marca 2027, do godz. 15:00 (Studyinfo)",
+    "applyUrl": "https://opintopolku.fi/konfo/en/",
+    "url": "https://www.helsinki.fi/en/degree-programmes/psykologian-kandiohjelma",
+    "notes": "Klasyczny licencjat z psychologii na UH, 180 ECTS. Limit miejsc i ewentualny egzamin wstępny do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.helsinki.fi/en/degree-programmes/psykologian-kandiohjelma",
+   "quote": "180 ECTS credits, 3 years"
+  },
+  {
+   "university": "University of Helsinki (Helsingin yliopisto)",
+   "universityUrl": "https://www.helsinki.fi",
+   "universityType": "uniwersytet",
+   "program": {
+    "name": "Tietojenkäsittelytieteen kandiohjelma (Bachelor's Programme in Computer Science)",
+    "nameEn": "Bachelor's Programme in Computer Science",
+    "careerIds": [
+     "programista",
+     "analityk-danych"
+    ],
+    "level": "licencjat",
+    "durationYears": 3,
+    "languages": [
+     "fiński"
+    ],
+    "english": false,
+    "academicYear": "2027/28 (start jesień 2027)",
+    "tuitionEu": "0 EUR czesnego. Programy po fińsku i szwedzku nie pobierają czesnego. Uniwersytety pobierają obowiązkową roczną składkę samorządu studenckiego (około 50 do 70 EUR) i opłatę zdrowotną (około 70 EUR rocznie).",
+    "tuitionNonEu": "0 EUR. Programy po fińsku i szwedzku nie pobierają czesnego od nikogo, także od osób spoza UE/EOG.",
+    "tuitionUrl": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+    "matura": "wymaga potwierdzenia przez uczelnię",
+    "requirements": "Strona programu nie podaje kryteriów przyjęcia dla osób z polską maturą. Kryteria uczelnia publikuje w Studyinfo przed naborem 9 do 23 marca 2027.",
+    "languageProof": "Program prowadzony po fińsku (lub szwedzku, jeśli podano). Wymagany poziom i certyfikat językowy do potwierdzenia na stronie uczelni.",
+    "selective": null,
+    "admissionUrl": "https://www.helsinki.fi/en/degree-programmes/tietojenkasittelytieteen-kandiohjelma",
+    "deadline": "9 do 23 marca 2027, do godz. 15:00 (Studyinfo)",
+    "applyUrl": "https://opintopolku.fi/konfo/en/",
+    "url": "https://www.helsinki.fi/en/degree-programmes/tietojenkasittelytieteen-kandiohjelma",
+    "notes": "Informatyka po fińsku na UH, 180 ECTS. Limit miejsc i ewentualny egzamin wstępny do potwierdzenia na stronie uczelni. Wersja po angielsku to Bachelor's Programme in Science."
+   },
+   "sourceUrl": "https://www.helsinki.fi/en/degree-programmes/tietojenkasittelytieteen-kandiohjelma",
+   "quote": "180 ECTS credits, 3 years"
+  },
+  {
+   "university": "University of Helsinki (Helsingin yliopisto)",
+   "universityUrl": "https://www.helsinki.fi",
+   "universityType": "uniwersytet",
+   "program": {
+    "name": "Oikeusnotaarin koulutusohjelma (Bachelor's Programme in Law)",
+    "nameEn": "Bachelor of Laws (oikeusnotaari)",
+    "careerIds": [
+     "prawnik"
+    ],
+    "level": "licencjat",
+    "durationYears": 3,
+    "languages": [
+     "fiński",
+     "szwedzki"
+    ],
+    "english": false,
+    "academicYear": "2027/28 (start jesień 2027)",
+    "tuitionEu": "0 EUR czesnego. Programy po fińsku i szwedzku nie pobierają czesnego. Uniwersytety pobierają obowiązkową roczną składkę samorządu studenckiego (około 50 do 70 EUR) i opłatę zdrowotną (około 70 EUR rocznie).",
+    "tuitionNonEu": "0 EUR. Programy po fińsku i szwedzku nie pobierają czesnego od nikogo, także od osób spoza UE/EOG.",
+    "tuitionUrl": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+    "matura": "wymaga potwierdzenia przez uczelnię",
+    "requirements": "Strona programu nie podaje kryteriów przyjęcia dla osób z polską maturą. Kryteria uczelnia publikuje w Studyinfo przed naborem 9 do 23 marca 2027.",
+    "languageProof": "Program prowadzony po fińsku (lub szwedzku, jeśli podano). Wymagany poziom i certyfikat językowy do potwierdzenia na stronie uczelni.",
+    "selective": true,
+    "admissionUrl": "https://www.helsinki.fi/en/faculty-law/education-and-studying/degree-programmes",
+    "deadline": "9 do 23 marca 2027, do godz. 15:00 (Studyinfo)",
+    "applyUrl": "https://opintopolku.fi/konfo/en/",
+    "url": "https://www.helsinki.fi/en/degree-programmes/oikeusnotaarin-koulutusohjelma",
+    "notes": "Licencjat prawa (oikeusnotaari), 180 ECTS. Wydział przyjmuje rocznie około 250 osób, czyli 5 do 10 procent kandydatów. Prawie wszyscy absolwenci kontynuują na dwuletnim magisterium z prawa."
+   },
+   "sourceUrl": "https://www.helsinki.fi/en/degree-programmes/oikeusnotaarin-koulutusohjelma",
+   "quote": "180 ECTS credits, 3 years"
+  },
+  {
+   "university": "University of Helsinki (Helsingin yliopisto)",
+   "universityUrl": "https://www.helsinki.fi",
+   "universityType": "uniwersytet",
+   "program": {
+    "name": "Lääketieteen koulutusohjelma (Degree Programme in Medicine)",
+    "nameEn": "Degree Programme in Medicine (Bachelor + Licentiate)",
+    "careerIds": [
+     "lekarz"
+    ],
+    "level": "jednolite",
+    "durationYears": 6,
+    "languages": [
+     "fiński",
+     "szwedzki"
+    ],
+    "english": false,
+    "academicYear": "2027/28 (start jesień 2027)",
+    "tuitionEu": "0 EUR czesnego. Programy po fińsku i szwedzku nie pobierają czesnego. Uniwersytety pobierają obowiązkową roczną składkę samorządu studenckiego (około 50 do 70 EUR) i opłatę zdrowotną (około 70 EUR rocznie).",
+    "tuitionNonEu": "0 EUR. Programy po fińsku i szwedzku nie pobierają czesnego od nikogo, także od osób spoza UE/EOG.",
+    "tuitionUrl": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+    "matura": "wymaga potwierdzenia przez uczelnię",
+    "requirements": "Strona programu nie podaje kryteriów przyjęcia dla osób z polską maturą. Kryteria uczelnia publikuje w Studyinfo przed naborem 9 do 23 marca 2027.",
+    "languageProof": "Program prowadzony po fińsku (lub szwedzku, jeśli podano). Wymagany poziom i certyfikat językowy do potwierdzenia na stronie uczelni.",
+    "selective": null,
+    "admissionUrl": "https://www.helsinki.fi/en/degree-programmes/laaketieteen-koulutusohjelma",
+    "deadline": "9 do 23 marca 2027, do godz. 15:00 (Studyinfo)",
+    "applyUrl": "https://opintopolku.fi/konfo/en/",
+    "url": "https://www.helsinki.fi/en/degree-programmes/laaketieteen-koulutusohjelma",
+    "notes": "Medycyna na UH: 360 ECTS, 6 lat, licencjat plus licencjat medycyny. Limit miejsc i egzamin wstępny do potwierdzenia na stronie uczelni. Anglojęzycznej wersji kierunku nie ma."
+   },
+   "sourceUrl": "https://www.helsinki.fi/en/degree-programmes/laaketieteen-koulutusohjelma",
+   "quote": "360 ECTS credits, 6 years"
+  }
+ ],
+ "summaryPatches": [
+  {
+   "label": "Polska matura",
+   "text": "Finlandia nie przelicza polskiej matury na punkty. Na angielskojęzyczne licencjaty uniwersyteckie osoby z polską maturą aplikują w grupie przyjęć 1 (University of Helsinki) albo w grupie I (Aalto). O przyjęciu decyduje tam wynik SAT lub ACT. Aalto wymaga minimum 1350 punktów SAT łącznie i 700 z matematyki w naukach ścisłych i technice albo 1200 punktów łącznie w ekonomii i biznesie (ACT: 29 łącznie i 30 z matematyki albo 25 łącznie). Hanken przyjmuje na podstawie SAT, ACT lub testu ITB-Business. Uczelnie zawodowe takie jak Metropolia stosują egzamin International UAS Exam, a w osobnym naborze wyniki SAT, ACT lub GMAT/GRE. Polska nie jest wymieniona z nazwy na stronach UH ani Aalto, więc ostateczną ocenę dokumentów wydaje uczelnia. Fińskojęzyczne kierunki UH (prawo, medycyna, psychologia, informatyka) wymagają fińskiego lub szwedzkiego, a ich warunków dla polskiej matury strony po angielsku nie podają.",
+   "sourceUrl": "https://www.aalto.fi/en/admission-services/bachelors-admissions-frequently-asked-questions",
+   "quote": "you belong to group I where the admission is based on SAT or ACT test scores"
+  },
+  {
+   "label": "Opłaty",
+   "text": "W programach po angielsku czesne płacą zwykle osoby spoza UE/EOG i Szwajcarii. Obywatele UE/EOG nie płacą czesnego. Studenci uniwersytetów płacą roczną składkę samorządu studenckiego (około 50 do 70 EUR), a w uczelniach zawodowych (AMK) członkostwo w samorządzie jest dobrowolne. Opłata zdrowotna wynosi około 70 EUR rocznie. Czesne dla osób spoza UE w programach po angielsku: UH Science 13 000 EUR, Aalto 12 000 EUR, Hanken 12 000 EUR, Metropolia 11 000 do 11 500 EUR, Haaga-Helia 11 000 EUR rocznie. Opłata za zgłoszenie wynosi 100 EUR i dotyczy tylko osób spoza UE/EOG i Szwajcarii. Programy po fińsku lub szwedzku nie pobierają czesnego od nikogo.",
+   "sourceUrl": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+   "quote": "Degree programmes taught in Finnish or Swedish do not charge tuition fees."
+  },
+  {
+   "label": "Rekrutacja",
+   "text": "Programy po angielsku: UH grupa 1 od 5 do 19 stycznia 2027, Aalto ekonomia od 7 do 22 stycznia 2027 (okres pozostałych programów Aalto do potwierdzenia na stronie programu), Hanken od 7 do 21 stycznia 2027, Haaga-Helia w naborze ciągłym od 30 października 2026 do 12 maja 2027. Programy UH po fińsku lub szwedzku (prawo, medycyna, psychologia, informatyka): od 9 do 23 marca 2027. Grupa 2 w programach UH po angielsku (też od 9 do 23 marca 2027) jest dla osób z fińską maturą, IB, EB lub DIA/RP, więc maturzystów z Polski nie obejmuje. Nabór odbywa się przez Studyinfo (opintopolku.fi). Kryteria na 2027 UH i Aalto opublikują do końca października 2026.",
+   "sourceUrl": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/apply-bachelors-programmes",
+   "quote": "If your answer is yes (you have completed one of the above-mentioned diplomas), you are in Admission Group 2"
+  }
+ ],
+ "gapsSet": [
+  "Strony UH i Aalto nie wymieniają Polski z nazwy, więc ostateczną ocenę polskiej matury wydaje uczelnia. Kryteria na 2027 UH i Aalto opublikują w Studyinfo do końca października 2026.",
+  "Medycyna, prawo, psychologia i informatyka na UH są prowadzone po fińsku lub szwedzku. Strony po angielsku nie podają wymaganego poziomu języka, egzaminów wstępnych ani liczby miejsc (poza prawem, gdzie wydział podaje około 250 miejsc rocznie). Warunki dla maturzystów z Polski do potwierdzenia na stronie uczelni.",
+  "Architektura na Aalto oraz dziennikarstwo i komunikacja na UH są dostępne po fińsku, a ich warunków przyjęcia nie opisano.",
+  "Progi SAT i ACT w Hanken, progi IELTS w Metropolii i Haaga-Helia oraz liczby miejsc w większości programów są do potwierdzenia na stronach uczelni.",
+  "Progi SAT i ACT Aalto pochodzą z naboru 2026. Okres naboru Aalto Science and Technology na 2027 jest do potwierdzenia na stronie programu (program ekonomii podaje 7 do 22 stycznia 2027).",
+  "Haaga-Helia: nabór wspólny obejmuje fińską maturę, IB, EB, RP/DIA i fińskie kwalifikacje zawodowe. Ścieżkę dla polskiej matury (nabór ciągły) trzeba potwierdzić w Studyinfo lub u uczelni."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+   "note": "Study in Finland: czesne, składka samorządu studenckiego (uniwersytety i AMK), opłata zdrowotna, opłata za zgłoszenie."
+  },
+  {
+   "url": "https://opintopolku.fi/konfo/en/",
+   "note": "Studyinfo: wspólny portal naborów, kryteria przyjęć publikowane przed naborem."
+  },
+  {
+   "url": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/apply-bachelors-programmes",
+   "note": "UH: grupy przyjęć 1 i 2, terminy naboru na 2027, SAT/ACT."
+  },
+  {
+   "url": "https://www.aalto.fi/en/admission-services/bachelors-admissions-frequently-asked-questions",
+   "note": "Aalto: progi SAT i ACT, grupa I dla osób bez fińskiej matury, IB i EB."
+  },
+  {
+   "url": "https://www.aalto.fi/en/study-options/bachelors-programme-in-economics",
+   "note": "Aalto: okres naboru na ekonomię 7 do 22 stycznia 2027."
+  },
+  {
+   "url": "https://www.hanken.fi/en/apply/application/bachelors-degree-studies-english",
+   "note": "Hanken: nabór na licencjat po angielsku, SAT/ACT lub test ITB-Business."
+  },
+  {
+   "url": "https://www.haaga-helia.fi/en/bachelor/degree-programme-international-business",
+   "note": "Haaga-Helia: International Business, nabór wspólny i nabór ciągły."
+  },
+  {
+   "url": "https://www.metropolia.fi/en/study-at-metropolia/bachelors-degrees/information-technology",
+   "note": "Metropolia: International UAS Exam i osobny nabór międzynarodowy."
+  },
+  {
+   "url": "https://www.helsinki.fi/en/degree-programmes/bachelors-programme-applied-psychology",
+   "note": "UH: licencjat z psychologii stosowanej po fińsku."
+  },
+  {
+   "url": "https://www.helsinki.fi/en/degree-programmes/psykologian-kandiohjelma",
+   "note": "UH: licencjat z psychologii po fińsku, 180 ECTS."
+  },
+  {
+   "url": "https://www.helsinki.fi/en/degree-programmes/tietojenkasittelytieteen-kandiohjelma",
+   "note": "UH: licencjat z informatyki po fińsku, 180 ECTS."
+  },
+  {
+   "url": "https://www.helsinki.fi/en/degree-programmes/oikeusnotaarin-koulutusohjelma",
+   "note": "UH: licencjat prawa (oikeusnotaari), 180 ECTS."
+  },
+  {
+   "url": "https://www.helsinki.fi/en/degree-programmes/laaketieteen-koulutusohjelma",
+   "note": "UH: medycyna, 360 ECTS, 6 lat."
+  },
+  {
+   "url": "https://www.helsinki.fi/en/faculty-law/education-and-studying/degree-programmes",
+   "note": "Wydział prawa UH: około 250 przyjęć rocznie, 5 do 10 procent kandydatów."
+  }
+ ]
+}

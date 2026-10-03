@@ -1,0 +1,400 @@
+{
+ "slug": "monachium",
+ "programPatches": [
+  {
+   "university": "Ludwig-Maximilians-Universität München (LMU)",
+   "programName": "Psychologie (Bachelor, B.Sc.)",
+   "set": {
+    "tuitionEu": "Brak czesnego: strona LMU o opłatach podaje, że od semestru zimowego 2013/14 nie pobiera się czesnego. Obowiązkowa jest składka na rzecz Studierendenwerk (podstawowa 97 EUR na semestr letni 2026; stawka na semestr zimowy 2027/28 nie jest jeszcze opublikowana).",
+    "tuitionNonEu": "Strona LMU o opłatach podaje, że od semestru zimowego 2013/14 nie pobiera się czesnego i nie rozróżnia obywatelstwa. Obowiązuje ta sama składka na rzecz Studierendenwerk.",
+    "tuitionUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/fees-and-tuition-fees/"
+   },
+   "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/fees-and-tuition-fees/",
+   "quote": "As of the winter semester 2013/14, no tuition fees are charged"
+  },
+  {
+   "university": "Ludwig-Maximilians-Universität München (LMU)",
+   "programName": "Informatik mit integriertem Anwendungsfach (Bachelor, B.Sc.)",
+   "set": {
+    "tuitionEu": "Brak czesnego: strona LMU o opłatach podaje, że od semestru zimowego 2013/14 nie pobiera się czesnego. Obowiązkowa jest składka na rzecz Studierendenwerk (podstawowa 97 EUR na semestr letni 2026; stawka na semestr zimowy 2027/28 nie jest jeszcze opublikowana).",
+    "tuitionNonEu": "Strona LMU o opłatach podaje, że od semestru zimowego 2013/14 nie pobiera się czesnego i nie rozróżnia obywatelstwa. Obowiązuje ta sama składka na rzecz Studierendenwerk.",
+    "tuitionUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/fees-and-tuition-fees/"
+   },
+   "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/fees-and-tuition-fees/",
+   "quote": "As of the winter semester 2013/14, no tuition fees are charged"
+  },
+  {
+   "university": "Ludwig-Maximilians-Universität München (LMU)",
+   "programName": "Statistik und Data Science (Bachelor, B.Sc.)",
+   "set": {
+    "tuitionEu": "Brak czesnego: strona LMU o opłatach podaje, że od semestru zimowego 2013/14 nie pobiera się czesnego. Obowiązkowa jest składka na rzecz Studierendenwerk (podstawowa 97 EUR na semestr letni 2026; stawka na semestr zimowy 2027/28 nie jest jeszcze opublikowana).",
+    "tuitionNonEu": "Strona LMU o opłatach podaje, że od semestru zimowego 2013/14 nie pobiera się czesnego i nie rozróżnia obywatelstwa. Obowiązuje ta sama składka na rzecz Studierendenwerk.",
+    "tuitionUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/fees-and-tuition-fees/"
+   },
+   "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/fees-and-tuition-fees/",
+   "quote": "As of the winter semester 2013/14, no tuition fees are charged"
+  },
+  {
+   "university": "Ludwig-Maximilians-Universität München (LMU)",
+   "programName": "Humanmedizin (Staatsexamen, 1. Studienabschnitt an der LMU)",
+   "set": {
+    "tuitionEu": "Brak czesnego: strona LMU o opłatach podaje, że od semestru zimowego 2013/14 nie pobiera się czesnego. Obowiązkowa jest składka na rzecz Studierendenwerk (podstawowa 97 EUR na semestr letni 2026; stawka na semestr zimowy 2027/28 nie jest jeszcze opublikowana).",
+    "tuitionNonEu": "Strona LMU o opłatach podaje, że od semestru zimowego 2013/14 nie pobiera się czesnego i nie rozróżnia obywatelstwa. Obowiązuje ta sama składka na rzecz Studierendenwerk.",
+    "tuitionUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/fees-and-tuition-fees/"
+   },
+   "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/fees-and-tuition-fees/",
+   "quote": "As of the winter semester 2013/14, no tuition fees are charged"
+  },
+  {
+   "university": "Ludwig-Maximilians-Universität München (LMU)",
+   "programName": "Rechtswissenschaft (Erste Juristische Prüfung)",
+   "set": {
+    "tuitionEu": "Brak czesnego: strona LMU o opłatach podaje, że od semestru zimowego 2013/14 nie pobiera się czesnego. Obowiązkowa jest składka na rzecz Studierendenwerk (podstawowa 97 EUR na semestr letni 2026; stawka na semestr zimowy 2027/28 nie jest jeszcze opublikowana).",
+    "tuitionNonEu": "Strona LMU o opłatach podaje, że od semestru zimowego 2013/14 nie pobiera się czesnego i nie rozróżnia obywatelstwa. Obowiązuje ta sama składka na rzecz Studierendenwerk.",
+    "tuitionUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/fees-and-tuition-fees/"
+   },
+   "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/fees-and-tuition-fees/",
+   "quote": "As of the winter semester 2013/14, no tuition fees are charged"
+  },
+  {
+   "university": "Ludwig-Maximilians-Universität München (LMU)",
+   "programName": "Betriebswirtschaftslehre (Bachelor, B.Sc.)",
+   "set": {
+    "tuitionEu": "Brak czesnego: strona LMU o opłatach podaje, że od semestru zimowego 2013/14 nie pobiera się czesnego. Obowiązkowa jest składka na rzecz Studierendenwerk (podstawowa 97 EUR na semestr letni 2026; stawka na semestr zimowy 2027/28 nie jest jeszcze opublikowana).",
+    "tuitionNonEu": "Strona LMU o opłatach podaje, że od semestru zimowego 2013/14 nie pobiera się czesnego i nie rozróżnia obywatelstwa. Obowiązuje ta sama składka na rzecz Studierendenwerk.",
+    "tuitionUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/fees-and-tuition-fees/"
+   },
+   "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/fees-and-tuition-fees/",
+   "quote": "As of the winter semester 2013/14, no tuition fees are charged"
+  },
+  {
+   "university": "Ludwig-Maximilians-Universität München (LMU)",
+   "programName": "Kommunikationswissenschaft (Bachelor, B.A.)",
+   "set": {
+    "tuitionEu": "Brak czesnego: strona LMU o opłatach podaje, że od semestru zimowego 2013/14 nie pobiera się czesnego. Obowiązkowa jest składka na rzecz Studierendenwerk (podstawowa 97 EUR na semestr letni 2026; stawka na semestr zimowy 2027/28 nie jest jeszcze opublikowana).",
+    "tuitionNonEu": "Strona LMU o opłatach podaje, że od semestru zimowego 2013/14 nie pobiera się czesnego i nie rozróżnia obywatelstwa. Obowiązuje ta sama składka na rzecz Studierendenwerk.",
+    "tuitionUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/fees-and-tuition-fees/"
+   },
+   "sourceUrl": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/fees-and-tuition-fees/",
+   "quote": "As of the winter semester 2013/14, no tuition fees are charged"
+  },
+  {
+   "university": "Ludwig-Maximilians-Universität München (LMU)",
+   "programName": "Psychologie (Bachelor, B.Sc.)",
+   "set": {
+    "requirements": "Kierunek z lokalnym limitem miejsc (NC). W semestrze zimowym 2025/26 granica wyniosła 1,54 w fazie koordynacyjnej i 1,56 w koordynowanym postępowaniu uzupełniającym; w puli 30 procent miejsc według samej średniej ze świadectwa granica wyniosła 1,0. W puli uzupełniającej liczy się średnia ze świadectwa (6 części z 10) i wynik testu BaPsy-DGPs (4 części z 10). Granice zawsze dotyczą skali niemieckiej (1,0 to najlepsza ocena) i mają niewielką wartość prognostyczną dla przyszłych naborów."
+   },
+   "sourceUrl": "https://www.lmu.de/de/studium/1x1-fuer-studieninteressierte/studiengaenge-nach-zulassungsbedingungen/auswahlkriterien-und-grenzwerte-bei-oertlicher-zulassungsbeschraenkung/index.html",
+   "quote": "Psychologie Bachelor HF* (180 ECTS) 1,54** 1,56**"
+  },
+  {
+   "university": "Ludwig-Maximilians-Universität München (LMU)",
+   "programName": "Informatik mit integriertem Anwendungsfach (Bachelor, B.Sc.)",
+   "set": {
+    "requirements": "Formalnie kierunek z lokalnym limitem miejsc (NC), ale w semestrze zimowym 2025/26 granica wyniosła 4,0 w obu fazach, czyli w praktyce nie było realnej selekcji. W kolejnych latach limit może być inny. Granice zawsze dotyczą skali niemieckiej (1,0 to najlepsza ocena) i mają niewielką wartość prognostyczną dla przyszłych naborów."
+   },
+   "sourceUrl": "https://www.lmu.de/de/studium/1x1-fuer-studieninteressierte/studiengaenge-nach-zulassungsbedingungen/auswahlkriterien-und-grenzwerte-bei-oertlicher-zulassungsbeschraenkung/index.html",
+   "quote": "Informatik mit integr. Anwendungsfach Bachelor HF* (180 ECTS) 4,0 4,0"
+  },
+  {
+   "university": "Ludwig-Maximilians-Universität München (LMU)",
+   "programName": "Betriebswirtschaftslehre (Bachelor, B.Sc.)",
+   "set": {
+    "requirements": "Kierunek z lokalnym limitem miejsc (NC). W semestrze zimowym 2025/26 granica wyniosła 1,9 w obu fazach (faza koordynacyjna i koordynowane postępowanie uzupełniające). Granice zawsze dotyczą skali niemieckiej (1,0 to najlepsza ocena) i mają niewielką wartość prognostyczną dla przyszłych naborów."
+   },
+   "sourceUrl": "https://www.lmu.de/de/studium/1x1-fuer-studieninteressierte/studiengaenge-nach-zulassungsbedingungen/auswahlkriterien-und-grenzwerte-bei-oertlicher-zulassungsbeschraenkung/index.html",
+   "quote": "BWL Bachelor HF (180 ECTS)* 1,9 1,9"
+  },
+  {
+   "university": "Ludwig-Maximilians-Universität München (LMU)",
+   "programName": "Rechtswissenschaft (Erste Juristische Prüfung)",
+   "set": {
+    "requirements": "Kierunek z lokalnym limitem miejsc (NC). W semestrze zimowym 2025/26 granica wyniosła 2,7 w obu fazach. Studia przygotowują do I egzaminu państwowego i odbywają się po niemiecku; do egzaminu potrzebne jest też zaliczenie zajęć z prawa w języku obcym. Granice zawsze dotyczą skali niemieckiej (1,0 to najlepsza ocena) i mają niewielką wartość prognostyczną dla przyszłych naborów."
+   },
+   "sourceUrl": "https://www.lmu.de/de/studium/1x1-fuer-studieninteressierte/studiengaenge-nach-zulassungsbedingungen/auswahlkriterien-und-grenzwerte-bei-oertlicher-zulassungsbeschraenkung/index.html",
+   "quote": "Rechtswissenschaft (Jura) 2,7 2,7"
+  },
+  {
+   "university": "Ludwig-Maximilians-Universität München (LMU)",
+   "programName": "Kommunikationswissenschaft (Bachelor, B.A.)",
+   "set": {
+    "requirements": "Kierunek z lokalnym limitem miejsc (NC). W semestrze zimowym 2025/26 granica wyniosła 2,1 w fazie koordynacyjnej i 3,4 w koordynowanym postępowaniu uzupełniającym. Przedmiot główny to 120 ECTS i trzeba go połączyć z przedmiotem dodatkowym (Nebenfach). Granice zawsze dotyczą skali niemieckiej (1,0 to najlepsza ocena) i mają niewielką wartość prognostyczną dla przyszłych naborów."
+   },
+   "sourceUrl": "https://www.lmu.de/de/studium/1x1-fuer-studieninteressierte/studiengaenge-nach-zulassungsbedingungen/auswahlkriterien-und-grenzwerte-bei-oertlicher-zulassungsbeschraenkung/index.html",
+   "quote": "Kommunikationswissenschaft Bachelor HF* (120 ECTS) 2,1 3,4"
+  },
+  {
+   "university": "Technische Universität München (TUM), kampusy Monachium, Garching i Heilbronn",
+   "programName": "Informatics (Bachelor of Science)",
+   "set": {
+    "requirements": "Procedura kwalifikacyjna (Eignungsfeststellungsverfahren): w pierwszym etapie punktowane są średnia ze świadectwa, oceny z przedmiotów kierunkowych i doświadczenia, potem kandydaci są przyjmowani od razu, odrzucani albo zapraszani na test pisemny. Liczba miejsc nie jest z góry ustalona; TUM przyjmuje wszystkich uznanych za odpowiednich. Wniosek składa się w TUMonline razem z VPD."
+   },
+   "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/informatics-bachelor-of-science-bsc",
+   "quote": "Selection takes place through an aptitude assessment procedure"
+  },
+  {
+   "university": "Technische Universität München (TUM), kampusy Monachium, Garching i Heilbronn",
+   "programName": "Architecture (Bachelor of Arts)",
+   "set": {
+    "requirements": "Procedura kwalifikacyjna (Eignungsfeststellungsverfahren): średnia ze świadectwa jest oceniana punktowo, a kandydaci są zapraszani na obowiązkowy test pisemny. Końcowa liczba punktów to 50% średniej ze świadectwa i 50% wyniku testu. Wniosek w TUMonline razem z VPD."
+   },
+   "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/architecture-bachelor-of-arts-ba",
+   "quote": "aptitude assessment"
+  },
+  {
+   "university": "Technische Universität München (TUM), kampusy Monachium, Garching i Heilbronn",
+   "programName": "Mechanical Engineering (Bachelor of Science)",
+   "set": {
+    "requirements": "Procedura kwalifikacyjna (Eignungsfeststellungsverfahren) w dwóch etapach (punkty ze świadectwa i przedmiotów kierunkowych, potem przyjęcie, odrzucenie lub rozmowa). Osoby, które zdały egzamin dojrzałości w szkole z językiem wykładowym innym niż niemiecki i nie mają niemieckiego jako języka ojczystego, muszą wziąć udział w rozmowie sprawdzającej język fachowy. Wniosek w TUMonline razem z VPD."
+   },
+   "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/mechanical-engineering-bachelor-of-science-bsc",
+   "quote": "aptitude assessment"
+  },
+  {
+   "university": "Technische Universität München (TUM), kampusy Monachium, Garching i Heilbronn",
+   "programName": "Management and Technology (Campus München, Bachelor of Science)",
+   "set": {
+    "requirements": "Procedura kwalifikacyjna (Eignungsfeststellungsverfahren) w dwóch etapach: punkty ze średniej i czterech ocen półrocznych (niemiecki lub angielski, matematyka, przedmiot przyrodniczy w tym informatyka), potem przyjęcie lub test wstępny. Osoby bez ocen półrocznych z angielskiego z dwóch ostatnich lat szkoły są zapraszane na rozmowę po angielsku."
+   },
+   "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/management-and-technology-bachelor-of-science-bsc",
+   "quote": "aptitude assessment"
+  },
+  {
+   "university": "Technische Universität München (TUM), kampusy Monachium, Garching i Heilbronn",
+   "programName": "Management and Technology (Campus Heilbronn, TUM-BWL, Bachelor of Science)",
+   "set": {
+    "requirements": "Procedura kwalifikacyjna (Eignungsfeststellungsverfahren) w dwóch etapach: punkty ze średniej, ocen półrocznych (angielski, matematyka, przedmiot przyrodniczy) i doświadczeń, potem przyjęcie lub rozmowa. Osoby bez ocen półrocznych z angielskiego są zapraszane na rozmowę po angielsku."
+   },
+   "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/management-and-technology-tum-bwl-bachelor-of-science-bsc",
+   "quote": "aptitude assessment"
+  },
+  {
+   "university": "Technische Universität München (TUM), kampusy Monachium, Garching i Heilbronn",
+   "programName": "Information Engineering (Campus Heilbronn, Bachelor of Science)",
+   "set": {
+    "requirements": "Procedura kwalifikacyjna (Eignungsfeststellungsverfahren) w dwóch etapach: punkty ze świadectwa, ocen przedmiotowych i doświadczeń, potem przyjęcie albo rozmowa. Wniosek w TUMonline razem z VPD."
+   },
+   "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/information-engineering-at-tum-campus-heilbronn-bachelor-of-science-bsc",
+   "quote": "aptitude assessment"
+  },
+  {
+   "university": "Technische Universität München (TUM), kampusy Monachium, Garching i Heilbronn",
+   "programName": "Informatics (Bachelor of Science)",
+   "set": {
+    "notes": "Kampus: Garching. Studia po niemiecku, część zajęć może być po angielsku. Czesne nie dotyczy obywateli UE/EOG."
+   },
+   "sourceUrl": "https://www.tum.de/en/studies/fees/tuition",
+   "quote": "are from an EU/EEA country or an equivalent state"
+  },
+  {
+   "university": "Technische Universität München (TUM), kampusy Monachium, Garching i Heilbronn",
+   "programName": "Information Engineering (Campus Heilbronn, Bachelor of Science)",
+   "set": {
+    "languages": [
+     "angielski (wymagany też certyfikat z niemieckiego)"
+    ],
+    "languageProof": "Angielski: certyfikat nie jest wymagany, znajomość sprawdza procedura kwalifikacyjna. Niemiecki: certyfikat jest wymagany, bo część modułów do wyboru jest po niemiecku, i trzeba go złożyć przed końcem terminu naboru. Dla tego programu TUM akceptuje niższe progi niż na kierunkach niemieckojęzycznych: DSH-1 lub wyższy, DSD I lub wyższy, TestDaF poziom 3 we wszystkich częściach lub wyższy. Akceptowane są też DSH-2, DSD II (B2 we wszystkich czterech częściach), telc Deutsch C1 Hochschule, TestDaF poziom 4 we wszystkich częściach, Goethe-Zertifikat C2 i ÖSD C2.",
+    "notes": "Kampus: Heilbronn (osobne miasto w Badenii-Wirtembergii, poza aglomeracją monachijską). Program po angielsku, ale część modułów do wyboru jest po niemiecku, więc potrzebny jest certyfikat z niemieckiego. Strona programu nie podaje kwoty czesnego dla osób spoza UE."
+   },
+   "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/information-engineering-at-tum-campus-heilbronn-bachelor-of-science-bsc",
+   "quote": "A German language certificate is required, as some elective modules are taught in German"
+  },
+  {
+   "university": "Technische Universität München (TUM), kampusy Monachium, Garching i Heilbronn",
+   "programName": "Information Engineering (Campus Heilbronn, Bachelor of Science)",
+   "set": {
+    "tuitionNonEu": "Strona programu nie podaje kwoty. Według strony TUM o opłatach czesne przy licencjatach wynosi zwykle 2 000 lub 3 000 EUR na semestr, zależnie od programu."
+   },
+   "sourceUrl": "https://www.tum.de/en/studies/fees/tuition",
+   "quote": "For bachelor’s degree programs, tuition fees are usually 2,000 or 3,000 euros per semester"
+  },
+  {
+   "university": "Technische Universität München (TUM), kampusy Monachium, Garching i Heilbronn",
+   "programName": "Management and Technology (Campus Heilbronn, TUM-BWL, Bachelor of Science)",
+   "set": {
+    "tuitionNonEu": "Strona programu nie podaje kwoty. Według strony TUM o opłatach czesne przy licencjatach wynosi zwykle 2 000 lub 3 000 EUR na semestr, zależnie od programu."
+   },
+   "sourceUrl": "https://www.tum.de/en/studies/fees/tuition",
+   "quote": "For bachelor’s degree programs, tuition fees are usually 2,000 or 3,000 euros per semester"
+  },
+  {
+   "university": "Technische Universität München (TUM), kampusy Monachium, Garching i Heilbronn",
+   "programName": "Management and Technology (Campus München, Bachelor of Science)",
+   "set": {
+    "languages": [
+     "angielski (część modułów po niemiecku)"
+    ],
+    "languageProof": "Angielski: certyfikat nie jest wymagany, znajomość sprawdza procedura kwalifikacyjna (oceny półroczne z angielskiego z dwóch ostatnich lat albo rozmowa po angielsku). Niemiecki: strona programu podaje, że do aplikowania potrzebna jest wystarczająca znajomość niemieckiego lub angielskiego, a jako dowód niemieckiego wymienia niemieckie Abitur. Poziom niemieckiego wymagany od osób z polskim świadectwem nie jest podany na stronie programu i wymaga potwierdzenia w TUM; część modułów jest po niemiecku, a tylko specjalizacja Computer Engineering jest wyłącznie po angielsku.",
+    "notes": "Kampus: Monachium (TUM School of Management). Zarządzanie (70 procent) z częścią technologiczną (30 procent). Język wykładowy angielski, ale część modułów jest po niemiecku; wyłącznie po angielsku można studiować tylko specjalizację Computer Engineering."
+   },
+   "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/management-and-technology-bachelor-of-science-bsc",
+   "quote": "You need sufficient German or English language skills"
+  },
+  {
+   "university": "Hochschule München (HM), uczelnia zawodowa",
+   "programName": "Informatik (Bachelor)",
+   "set": {
+    "deadline": "Semestr zimowy: od 2 maja do 15 lipca (strona programu nie podaje roku; nabór na semestr zimowy 2027/28 nie jest jeszcze opublikowany)."
+   },
+   "sourceUrl": "https://hm.edu/studiengange_de/studiengang_detail_93.de.html",
+   "quote": "Die Anmeldung erfolgt vom 2. Mai bis 15. Juli des laufenden Jahres"
+  },
+  {
+   "university": "Hochschule München (HM), uczelnia zawodowa",
+   "programName": "Maschinenbau (Bachelor, B.Sc.)",
+   "set": {
+    "deadline": "Semestr zimowy: od 2 maja do 15 lipca; semestr letni: od 15 listopada do 15 stycznia (strona programu nie podaje roku; nabór na semestr zimowy 2027/28 nie jest jeszcze opublikowany)."
+   },
+   "sourceUrl": "https://hm.edu/studiengange_de/studiengang_detail_64.de.html",
+   "quote": "Wintersemester: 02. Mai bis 15. Juli"
+  },
+  {
+   "university": "Hochschule München (HM), uczelnia zawodowa",
+   "programName": "Bauingenieurwesen (Bachelor)",
+   "set": {
+    "deadline": "Studia zaczynają się w semestrze zimowym; wniosek można złożyć do 15 lipca (strona programu nie podaje początku naboru ani roku; nabór na semestr zimowy 2027/28 nie jest jeszcze opublikowany)."
+   },
+   "sourceUrl": "https://hm.edu/studiengange_de/studiengang_detail_125.de.html",
+   "quote": "Eine Bewerbung ist bis zum 15.07. möglich"
+  },
+  {
+   "university": "Hochschule München (HM), uczelnia zawodowa",
+   "programName": "Architektur (Bachelor)",
+   "set": {
+    "deadline": "Portfolio trzeba wgrać w terminie od 2 maja do 15 czerwca (strona programu nie podaje roku; nabór na semestr zimowy 2027/28 nie jest jeszcze opublikowany)."
+   },
+   "sourceUrl": "https://hm.edu/studiengange_de/studiengang_detail_27.de.html",
+   "quote": "Bewerbungsfrist vom 02. Mai bis 15. Juni eines Jahres"
+  },
+  {
+   "university": "Hochschule München (HM), uczelnia zawodowa",
+   "programName": "Informatik (Bachelor)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (strona programu wymienia Allgemeine Hochschulreife, Fachhochschulreife lub Fachgebundene Hochschulreife i nie wspomina o Polsce; zasady uznania zagranicznych świadectw do potwierdzenia na stronach Hochschule München)"
+   },
+   "sourceUrl": "https://hm.edu/studiengange_de/studiengang_detail_93.de.html",
+   "quote": "Allgemeine Hochschulreife"
+  },
+  {
+   "university": "Hochschule München (HM), uczelnia zawodowa",
+   "programName": "Maschinenbau (Bachelor, B.Sc.)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (strona programu wymienia Allgemeine Hochschulreife, Fachhochschulreife lub Fachgebundene Hochschulreife i nie wspomina o Polsce; zasady uznania zagranicznych świadectw do potwierdzenia na stronach Hochschule München)"
+   },
+   "sourceUrl": "https://hm.edu/studiengange_de/studiengang_detail_64.de.html",
+   "quote": "Allgemeine Hochschulreife"
+  },
+  {
+   "university": "Hochschule München (HM), uczelnia zawodowa",
+   "programName": "Architektur (Bachelor)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (strona programu wymienia Allgemeine Hochschulreife, Fachhochschulreife lub Fachgebundene Hochschulreife i nie wspomina o Polsce; zasady uznania zagranicznych świadectw do potwierdzenia na stronach Hochschule München)"
+   },
+   "sourceUrl": "https://hm.edu/studiengange_de/studiengang_detail_27.de.html",
+   "quote": "Allgemeine Hochschulreife"
+  },
+  {
+   "university": "Hochschule München (HM), uczelnia zawodowa",
+   "programName": "Bauingenieurwesen (Bachelor)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (strona programu wymienia Allgemeine Hochschulreife, Fachhochschulreife lub Fachgebundene Hochschulreife i nie wspomina o Polsce; zasady uznania zagranicznych świadectw do potwierdzenia na stronach Hochschule München)"
+   },
+   "sourceUrl": "https://hm.edu/studiengange_de/studiengang_detail_125.de.html",
+   "quote": "Allgemeine Hochschulreife"
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [],
+ "summaryPatches": [
+  {
+   "label": "Polska matura",
+   "text": "Świadectwa z państw UE co do zasady uznaje się w Niemczech za równoważne z Abitur, ale strony uczelni nie wymieniają Polski wprost. TUM wymaga wstępnej oceny świadectwa (VPD) z uni-assist od wszystkich kandydatów na licencjat, którzy nie zdobyli kwalifikacji w Niemczech ani w szkole równoważnej niemieckiej, a więc także od obywateli UE. LMU rozstrzyga o dopuszczeniu we własnym International Office lub Studentenkanzlei i odsyła do baz DAAD i anabin. Strony programów Hochschule München nie opisują procedury uznania zagranicznych świadectw, więc ją trzeba potwierdzić w uczelni. Bazy DAAD i anabin nie były publicznie dostępne, dlatego status polskiej matury warto sprawdzić w DAAD lub bezpośrednio w uczelni.",
+   "sourceUrl": "https://www.tum.de/en/studies/application/application-info-portal/uni-assist",
+   "quote": "in Germany or from a school that offers the equivalent of the German Abitur exam"
+  },
+  {
+   "label": "Opłaty",
+   "text": "LMU nie pobiera czesnego od semestru zimowego 2013/14. TUM pobiera czesne tylko od nowo przyjętych osób spoza UE/EOG (przy licencjatach zwykle 2 000 lub 3 000 EUR na semestr), a obywatele UE/EOG go nie płacą. Hochschule München nie pobiera czesnego od obywateli innych państw UE/EOG (statut opłat § 8 ust. 2) i pobiera 500 EUR na semestr od osób spoza UE zapisanych od semestru zimowego 2026/27. Obowiązkowa opłata semestralna to 97 EUR na semestr w Monachium, Garching, Heilbronn i na HM (semestr letni 2026), a na kampusie TUM Straubing 82 EUR. Uni-assist pobiera za ocenę dokumentów 75 EUR za pierwszy wybrany kierunek i 30 EUR za każdy kolejny.",
+   "sourceUrl": "https://www.uni-assist.de/en/how-to-apply/pay-all-fees/handling-fees/",
+   "quote": "For each additional chosen course of study: EUR 30.00"
+  },
+  {
+   "label": "Znajomość angielskiego",
+   "text": "Większość licencjatów na LMU, TUM i HM jest po niemiecku i wymaga certyfikatu z niemieckiego (LMU i TUM zwykle DSH-2, TestDaF 4x4, telc C1 Hochschule, DSD II lub Goethe C2; HM B2 przy zapisie). Po angielsku są tylko programy TUM: Management and Technology (Monachium i Heilbronn) i Information Engineering (Heilbronn). TUM nie żąda przy nich certyfikatu z angielskiego, bo język sprawdza procedura kwalifikacyjna, ale niemiecki jest częściowo wymagany: Information Engineering wymaga certyfikatu z niemieckiego (niższe progi, na przykład DSH-1 lub TestDaF poziom 3), bo część modułów do wyboru jest po niemiecku, a Management and Technology w Monachium łączy moduły po angielsku i po niemiecku (tylko specjalizacja Computer Engineering jest wyłącznie po angielsku).",
+   "sourceUrl": "https://www.tum.de/en/studies/degree-programs/detail/information-engineering-at-tum-campus-heilbronn-bachelor-of-science-bsc",
+   "quote": "A German language certificate is required, as some elective modules are taught in German"
+  }
+ ],
+ "gapsSet": [
+  "Bazy DAAD i anabin nie były publicznie dostępne, a strony uczelni nie wymieniają Polski wprost. Status polskiej matury (czy daje dostęp ogólny, czy potrzebny jest Studienkolleg) trzeba potwierdzić w DAAD lub bezpośrednio w uczelni.",
+  "Żadna z trzech uczelni nie opublikowała jeszcze naboru na semestr zimowy 2027/28. Podane terminy są stałymi terminami z cyklu 2026/27 lub strony podają je bez roku, więc trzeba je potwierdzić na stronach uczelni.",
+  "Opłata semestralna 97 EUR dotyczy semestru letniego 2026. Stawka na semestr zimowy 2027/28 nie jest jeszcze znana.",
+  "Nie ma informacji, jak LMU, TUM i HM przeliczają polskie oceny na skalę niemiecką przy kierunkach z limitem, ani jakie średnie z polskiej matury dawały miejsce w poprzednich naborach. Granice z LMU dotyczą skali niemieckiej.",
+  "Strona programu Management and Technology w Monachium nie podaje, jaki poziom niemieckiego jest wymagany od osób z polskim świadectwem; trzeba to potwierdzić w TUM.",
+  "Hochschule München: strony programów nie opisują procedury uznania zagranicznych świadectw ani roli uni-assist dla obywateli UE. Nie opisano licencjatu Data Science & Scientific Computing ani programów anglojęzycznych (Engineering Physics and Data Science, International Management and Digital Engineering), bo ich stron programowych nie znaleziono. HM nie ma kierunków medycznych, prawniczych ani psychologii.",
+  "TUM nie ma licencjatu z psychologii ani z dziennikarstwa, a medycyna na TUM obejmuje tylko część kliniczną. LMU nie ma budownictwa, mechaniki ani architektury. Na LMU nie opisano kierunku Volkswirtschaftslehre (wymaga zgłoszenia wstępnego do 15 lipca).",
+  "Dla medycyny nie podano liczby miejsc ani granic w Hochschulstart; liczą się dane z centralnego naboru Stiftung für Hochschulzulassung na hochschulstart.de."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://www.uni-assist.de/en/how-to-apply/pay-all-fees/handling-fees/",
+   "note": "uni-assist: opłata 75 EUR za pierwszy kierunek i 30 EUR za każdy kolejny"
+  },
+  {
+   "url": "https://www.uni-assist.de/en/how-to-apply/pay-all-fees/",
+   "note": "uni-assist: strona o opłatach i płatnościach"
+  },
+  {
+   "url": "https://www.tum.de/en/studies/application/application-info-portal/uni-assist",
+   "note": "TUM: kto potrzebuje VPD z uni-assist"
+  },
+  {
+   "url": "https://www.tum.de/en/studies/application/application-info-portal/admission-requirements/language-certificates",
+   "note": "TUM: akceptowane certyfikaty z niemieckiego i progi dla Information Engineering"
+  },
+  {
+   "url": "https://www.tum.de/en/studies/fees/tuition",
+   "note": "TUM: czesne dla osób spoza UE/EOG i zwolnienie obywateli UE/EOG"
+  },
+  {
+   "url": "https://www.lmu.de/en/workspace-for-students/abc-study-guide/fees-and-tuition-fees/",
+   "note": "LMU: brak czesnego od semestru zimowego 2013/14"
+  },
+  {
+   "url": "https://www.lmu.de/de/workspace-fuer-studierende/1x1-des-studiums/studierendenwerksbeitraege/",
+   "note": "LMU: składka na rzecz Studierendenwerk 97 EUR"
+  },
+  {
+   "url": "https://www.lmu.de/de/studium/1x1-fuer-studieninteressierte/studiengaenge-nach-zulassungsbedingungen/auswahlkriterien-und-grenzwerte-bei-oertlicher-zulassungsbeschraenkung/index.html",
+   "note": "LMU: granice NC (Grenzwerte) w semestrze zimowym 2025/26"
+  },
+  {
+   "url": "https://www.lmu.de/de/studium/internationale-vollzeit-studierende/studienbewerbung/",
+   "note": "LMU: aplikowanie dla osób z zagranicznym świadectwem"
+  },
+  {
+   "url": "https://www.tum.de/en/studies/degree-programs/detail/management-and-technology-bachelor-of-science-bsc",
+   "note": "TUM Management and Technology (Monachium): język wykładowy i wymagania"
+  },
+  {
+   "url": "https://www.tum.de/en/studies/degree-programs/detail/information-engineering-at-tum-campus-heilbronn-bachelor-of-science-bsc",
+   "note": "TUM Information Engineering (Heilbronn): certyfikat z niemieckiego"
+  },
+  {
+   "url": "https://hm.edu/studiengange_de/studiengang_detail_93.de.html",
+   "note": "HM Informatik: termin naboru i warunki"
+  },
+  {
+   "url": "https://hm.edu/studiengange_de/studiengang_detail_64.de.html",
+   "note": "HM Maschinenbau: terminy naboru"
+  },
+  {
+   "url": "https://hm.edu/studiengange_de/studiengang_detail_125.de.html",
+   "note": "HM Bauingenieurwesen: termin naboru"
+  },
+  {
+   "url": "https://hm.edu/studiengange_de/studiengang_detail_27.de.html",
+   "note": "HM Architektur: termin złożenia portfolio"
+  }
+ ]
+}

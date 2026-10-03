@@ -1,0 +1,526 @@
+{
+ "slug": "ateny",
+ "programPatches": [
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Ψυχολογία",
+   "set": {
+    "matura": "Polska matura jest uznawana tylko przez osobną ścieżkę dla cudzoziemców z UE (kategoria B.1 ministerstwa). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w kraju ukończenia szkoły, świadectwo uprawnia do studiów w tym kraju. Przed zapisem trzeba mieć certyfikat greckiego.",
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem.",
+    "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20; zaświadczenie o równoważności i przeliczeniu wydaje greckie ministerstwo edukacji, lokalna dyrekcja edukacji lub koordynator edukacji przy ambasadzie Grecji. Kandydat wpisuje w formularzu kolejność preferowanych wydziałów, a przydziału dokonuje minister. Dokumenty z apostille i oficjalnym tłumaczeniem na grecki. Przed zapisem może być wymagane badanie lekarskie według regulaminu wydziału."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Ψυχολογία",
+   "set": {
+    "durationYears": 4,
+    "notes": "Program wymaga 240 ECTS, w tym praktyki (12 ECTS), co zwykle odpowiada czterem latom; liczba semestrów do potwierdzenia na stronie wydziału. Język wykładowy nie jest wprost podany na stronie angielskiej. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku. Progi przyjęcia (βάσεις) dla cudzoziemców z UE ministerstwo publikuje osobno; brak ich w sprawdzonych źródłach, więc progu dla tego kierunku nie podajemy. Czas trwania (4 lata) wynika z ogólnej informacji portalu Study in Greece dla większości kierunków, dokładną liczbę semestrów potwierdza wydział."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "The duration of undergraduate programs for most disciplines is 4 years but there are programs in engineering, dentistry, pharmacology, agronomics, forestry, and fine arts, with a duration of 5 years, and medicine with a duration of 6 years."
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Ψυχολογία",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026 (podaje portal Study in Greece). Terminy wysyłki dokumentów i zapisu ministerstwo ogłasza osobnym komunikatem, więc trzeba je sprawdzić na stronie minedu.gov.gr. Terminy na 2027/28 nie są jeszcze znane; wniosek składa się latem."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "Period of electronic submission of the application – entry form, for the academic year 2026-2027: Thursday , July 2nd, 2026 – Thursday, July 9th, 2026"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Πληροφορική και Τηλεπικοινωνίες",
+   "set": {
+    "matura": "Polska matura jest uznawana tylko przez osobną ścieżkę dla cudzoziemców z UE (kategoria B.1 ministerstwa). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w kraju ukończenia szkoły, świadectwo uprawnia do studiów w tym kraju. Przed zapisem trzeba mieć certyfikat greckiego.",
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem.",
+    "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20; zaświadczenie o równoważności i przeliczeniu wydaje greckie ministerstwo edukacji, lokalna dyrekcja edukacji lub koordynator edukacji przy ambasadzie Grecji. Kandydat wpisuje w formularzu kolejność preferowanych wydziałów, a przydziału dokonuje minister. Dokumenty z apostille i oficjalnym tłumaczeniem na grecki. Przed zapisem może być wymagane badanie lekarskie według regulaminu wydziału."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Πληροφορική και Τηλεπικοινωνίες",
+   "set": {
+    "durationYears": 4,
+    "notes": "Wydział wprost pisze, że program licencjacki jest prowadzony po grecku, a większość informacji jest tylko po grecku. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku. Progi przyjęcia (βάσεις) dla cudzoziemców z UE ministerstwo publikuje osobno; brak ich w sprawdzonych źródłach, więc progu dla tego kierunku nie podajemy. Czas trwania (4 lata) wynika z ogólnej informacji portalu Study in Greece dla większości kierunków, dokładną liczbę semestrów potwierdza wydział."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "The duration of undergraduate programs for most disciplines is 4 years but there are programs in engineering, dentistry, pharmacology, agronomics, forestry, and fine arts, with a duration of 5 years, and medicine with a duration of 6 years."
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Πληροφορική και Τηλεπικοινωνίες",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026 (podaje portal Study in Greece). Terminy wysyłki dokumentów i zapisu ministerstwo ogłasza osobnym komunikatem, więc trzeba je sprawdzić na stronie minedu.gov.gr. Terminy na 2027/28 nie są jeszcze znane; wniosek składa się latem."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "Period of electronic submission of the application – entry form, for the academic year 2026-2027: Thursday , July 2nd, 2026 – Thursday, July 9th, 2026"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Νομική",
+   "set": {
+    "matura": "Polska matura jest uznawana tylko przez osobną ścieżkę dla cudzoziemców z UE (kategoria B.1 ministerstwa). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w kraju ukończenia szkoły, świadectwo uprawnia do studiów w tym kraju. Przed zapisem trzeba mieć certyfikat greckiego.",
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem.",
+    "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20; zaświadczenie o równoważności i przeliczeniu wydaje greckie ministerstwo edukacji, lokalna dyrekcja edukacji lub koordynator edukacji przy ambasadzie Grecji. Kandydat wpisuje w formularzu kolejność preferowanych wydziałów, a przydziału dokonuje minister. Dokumenty z apostille i oficjalnym tłumaczeniem na grecki. Przed zapisem może być wymagane badanie lekarskie według regulaminu wydziału."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Νομική",
+   "set": {
+    "durationYears": 4,
+    "notes": "Kierunek istnieje w ofercie NKUA (lista programów licencjackich). Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku. Progi przyjęcia (βάσεις) dla cudzoziemców z UE ministerstwo publikuje osobno; brak ich w sprawdzonych źródłach, więc progu dla tego kierunku nie podajemy. Czas trwania (4 lata) wynika z ogólnej informacji portalu Study in Greece dla większości kierunków, dokładną liczbę semestrów potwierdza wydział."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "The duration of undergraduate programs for most disciplines is 4 years but there are programs in engineering, dentistry, pharmacology, agronomics, forestry, and fine arts, with a duration of 5 years, and medicine with a duration of 6 years."
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Νομική",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026 (podaje portal Study in Greece). Terminy wysyłki dokumentów i zapisu ministerstwo ogłasza osobnym komunikatem, więc trzeba je sprawdzić na stronie minedu.gov.gr. Terminy na 2027/28 nie są jeszcze znane; wniosek składa się latem."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "Period of electronic submission of the application – entry form, for the academic year 2026-2027: Thursday , July 2nd, 2026 – Thursday, July 9th, 2026"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Οικονομικών Επιστημών",
+   "set": {
+    "matura": "Polska matura jest uznawana tylko przez osobną ścieżkę dla cudzoziemców z UE (kategoria B.1 ministerstwa). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w kraju ukończenia szkoły, świadectwo uprawnia do studiów w tym kraju. Przed zapisem trzeba mieć certyfikat greckiego.",
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem.",
+    "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20; zaświadczenie o równoważności i przeliczeniu wydaje greckie ministerstwo edukacji, lokalna dyrekcja edukacji lub koordynator edukacji przy ambasadzie Grecji. Kandydat wpisuje w formularzu kolejność preferowanych wydziałów, a przydziału dokonuje minister. Dokumenty z apostille i oficjalnym tłumaczeniem na grecki. Przed zapisem może być wymagane badanie lekarskie według regulaminu wydziału."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Οικονομικών Επιστημών",
+   "set": {
+    "durationYears": 4,
+    "notes": "Kierunek istnieje w ofercie NKUA. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku. Progi przyjęcia (βάσεις) dla cudzoziemców z UE ministerstwo publikuje osobno; brak ich w sprawdzonych źródłach, więc progu dla tego kierunku nie podajemy. Czas trwania (4 lata) wynika z ogólnej informacji portalu Study in Greece dla większości kierunków, dokładną liczbę semestrów potwierdza wydział."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "The duration of undergraduate programs for most disciplines is 4 years but there are programs in engineering, dentistry, pharmacology, agronomics, forestry, and fine arts, with a duration of 5 years, and medicine with a duration of 6 years."
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Οικονομικών Επιστημών",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026 (podaje portal Study in Greece). Terminy wysyłki dokumentów i zapisu ministerstwo ogłasza osobnym komunikatem, więc trzeba je sprawdzić na stronie minedu.gov.gr. Terminy na 2027/28 nie są jeszcze znane; wniosek składa się latem."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "Period of electronic submission of the application – entry form, for the academic year 2026-2027: Thursday , July 2nd, 2026 – Thursday, July 9th, 2026"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Επικοινωνίας και ΜΜΕ",
+   "set": {
+    "matura": "Polska matura jest uznawana tylko przez osobną ścieżkę dla cudzoziemców z UE (kategoria B.1 ministerstwa). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w kraju ukończenia szkoły, świadectwo uprawnia do studiów w tym kraju. Przed zapisem trzeba mieć certyfikat greckiego.",
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem.",
+    "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20; zaświadczenie o równoważności i przeliczeniu wydaje greckie ministerstwo edukacji, lokalna dyrekcja edukacji lub koordynator edukacji przy ambasadzie Grecji. Kandydat wpisuje w formularzu kolejność preferowanych wydziałów, a przydziału dokonuje minister. Dokumenty z apostille i oficjalnym tłumaczeniem na grecki. Przed zapisem może być wymagane badanie lekarskie według regulaminu wydziału."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Επικοινωνίας και ΜΜΕ",
+   "set": {
+    "durationYears": 4,
+    "notes": "Wydział pisze, że kursy są adresowane głównie do studentów lokalnych, a niektóre są oferowane po angielsku. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku. Progi przyjęcia (βάσεις) dla cudzoziemców z UE ministerstwo publikuje osobno; brak ich w sprawdzonych źródłach, więc progu dla tego kierunku nie podajemy. Czas trwania (4 lata) wynika z ogólnej informacji portalu Study in Greece dla większości kierunków, dokładną liczbę semestrów potwierdza wydział."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "The duration of undergraduate programs for most disciplines is 4 years but there are programs in engineering, dentistry, pharmacology, agronomics, forestry, and fine arts, with a duration of 5 years, and medicine with a duration of 6 years."
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Επικοινωνίας και ΜΜΕ",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026 (podaje portal Study in Greece). Terminy wysyłki dokumentów i zapisu ministerstwo ogłasza osobnym komunikatem, więc trzeba je sprawdzić na stronie minedu.gov.gr. Terminy na 2027/28 nie są jeszcze znane; wniosek składa się latem."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "Period of electronic submission of the application – entry form, for the academic year 2026-2027: Thursday , July 2nd, 2026 – Thursday, July 9th, 2026"
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Αρχιτεκτόνων Μηχανικών",
+   "set": {
+    "matura": "Polska matura jest uznawana tylko przez osobną ścieżkę dla cudzoziemców z UE (kategoria B.1 ministerstwa). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w kraju ukończenia szkoły, świadectwo uprawnia do studiów w tym kraju. Przed zapisem trzeba mieć certyfikat greckiego.",
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem.",
+    "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20; zaświadczenie o równoważności i przeliczeniu wydaje greckie ministerstwo edukacji, lokalna dyrekcja edukacji lub koordynator edukacji przy ambasadzie Grecji. Kandydat wpisuje w formularzu kolejność preferowanych wydziałów, a przydziału dokonuje minister. Dokumenty z apostille i oficjalnym tłumaczeniem na grecki. Przed zapisem może być wymagane badanie lekarskie według regulaminu wydziału.",
+    "notes": "NTUA podaje, że studia we wszystkich szkołach trwają dziesięć semestrów (ostatni to praca dyplomowa), po pięciu latach dyplom jednolity. Uczelnia pisze też, że programy są publikowane po grecku i po angielsku, co dotyczy opisu programu, nie języka zajęć. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku. Progi przyjęcia (βάσεις) dla cudzoziemców z UE ministerstwo publikuje osobno; brak ich w sprawdzonych źródłach, więc progu dla tego kierunku nie podajemy."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Αρχιτεκτόνων Μηχανικών",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026 (podaje portal Study in Greece). Terminy wysyłki dokumentów i zapisu ministerstwo ogłasza osobnym komunikatem, więc trzeba je sprawdzić na stronie minedu.gov.gr. Terminy na 2027/28 nie są jeszcze znane; wniosek składa się latem."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "Period of electronic submission of the application – entry form, for the academic year 2026-2027: Thursday , July 2nd, 2026 – Thursday, July 9th, 2026"
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Πολιτικών Μηχανικών",
+   "set": {
+    "matura": "Polska matura jest uznawana tylko przez osobną ścieżkę dla cudzoziemców z UE (kategoria B.1 ministerstwa). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w kraju ukończenia szkoły, świadectwo uprawnia do studiów w tym kraju. Przed zapisem trzeba mieć certyfikat greckiego.",
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem.",
+    "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20; zaświadczenie o równoważności i przeliczeniu wydaje greckie ministerstwo edukacji, lokalna dyrekcja edukacji lub koordynator edukacji przy ambasadzie Grecji. Kandydat wpisuje w formularzu kolejność preferowanych wydziałów, a przydziału dokonuje minister. Dokumenty z apostille i oficjalnym tłumaczeniem na grecki. Przed zapisem może być wymagane badanie lekarskie według regulaminu wydziału.",
+    "notes": "NTUA podaje, że studia we wszystkich szkołach trwają dziesięć semestrów (ostatni to praca dyplomowa), po pięciu latach dyplom jednolity. Uczelnia pisze też, że programy są publikowane po grecku i po angielsku, co dotyczy opisu programu, nie języka zajęć. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku. Progi przyjęcia (βάσεις) dla cudzoziemców z UE ministerstwo publikuje osobno; brak ich w sprawdzonych źródłach, więc progu dla tego kierunku nie podajemy."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Πολιτικών Μηχανικών",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026 (podaje portal Study in Greece). Terminy wysyłki dokumentów i zapisu ministerstwo ogłasza osobnym komunikatem, więc trzeba je sprawdzić na stronie minedu.gov.gr. Terminy na 2027/28 nie są jeszcze znane; wniosek składa się latem."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "Period of electronic submission of the application – entry form, for the academic year 2026-2027: Thursday , July 2nd, 2026 – Thursday, July 9th, 2026"
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Μηχανολόγων Μηχανικών",
+   "set": {
+    "matura": "Polska matura jest uznawana tylko przez osobną ścieżkę dla cudzoziemców z UE (kategoria B.1 ministerstwa). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w kraju ukończenia szkoły, świadectwo uprawnia do studiów w tym kraju. Przed zapisem trzeba mieć certyfikat greckiego.",
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem.",
+    "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20; zaświadczenie o równoważności i przeliczeniu wydaje greckie ministerstwo edukacji, lokalna dyrekcja edukacji lub koordynator edukacji przy ambasadzie Grecji. Kandydat wpisuje w formularzu kolejność preferowanych wydziałów, a przydziału dokonuje minister. Dokumenty z apostille i oficjalnym tłumaczeniem na grecki. Przed zapisem może być wymagane badanie lekarskie według regulaminu wydziału.",
+    "notes": "NTUA podaje, że studia we wszystkich szkołach trwają dziesięć semestrów (ostatni to praca dyplomowa), po pięciu latach dyplom jednolity. Uczelnia pisze też, że programy są publikowane po grecku i po angielsku, co dotyczy opisu programu, nie języka zajęć. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku. Progi przyjęcia (βάσεις) dla cudzoziemców z UE ministerstwo publikuje osobno; brak ich w sprawdzonych źródłach, więc progu dla tego kierunku nie podajemy."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Μηχανολόγων Μηχανικών",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026 (podaje portal Study in Greece). Terminy wysyłki dokumentów i zapisu ministerstwo ogłasza osobnym komunikatem, więc trzeba je sprawdzić na stronie minedu.gov.gr. Terminy na 2027/28 nie są jeszcze znane; wniosek składa się latem."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "Period of electronic submission of the application – entry form, for the academic year 2026-2027: Thursday , July 2nd, 2026 – Thursday, July 9th, 2026"
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών",
+   "set": {
+    "matura": "Polska matura jest uznawana tylko przez osobną ścieżkę dla cudzoziemców z UE (kategoria B.1 ministerstwa). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w kraju ukończenia szkoły, świadectwo uprawnia do studiów w tym kraju. Przed zapisem trzeba mieć certyfikat greckiego.",
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem.",
+    "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20; zaświadczenie o równoważności i przeliczeniu wydaje greckie ministerstwo edukacji, lokalna dyrekcja edukacji lub koordynator edukacji przy ambasadzie Grecji. Kandydat wpisuje w formularzu kolejność preferowanych wydziałów, a przydziału dokonuje minister. Dokumenty z apostille i oficjalnym tłumaczeniem na grecki. Przed zapisem może być wymagane badanie lekarskie według regulaminu wydziału.",
+    "notes": "NTUA podaje, że studia we wszystkich szkołach trwają dziesięć semestrów (ostatni to praca dyplomowa), po pięciu latach dyplom jednolity. Uczelnia pisze też, że programy są publikowane po grecku i po angielsku, co dotyczy opisu programu, nie języka zajęć. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku. Progi przyjęcia (βάσεις) dla cudzoziemców z UE ministerstwo publikuje osobno; brak ich w sprawdzonych źródłach, więc progu dla tego kierunku nie podajemy."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026 (podaje portal Study in Greece). Terminy wysyłki dokumentów i zapisu ministerstwo ogłasza osobnym komunikatem, więc trzeba je sprawdzić na stronie minedu.gov.gr. Terminy na 2027/28 nie są jeszcze znane; wniosek składa się latem."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "Period of electronic submission of the application – entry form, for the academic year 2026-2027: Thursday , July 2nd, 2026 – Thursday, July 9th, 2026"
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Πληροφορικής",
+   "set": {
+    "matura": "Polska matura jest uznawana tylko przez osobną ścieżkę dla cudzoziemców z UE (kategoria B.1 ministerstwa). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w kraju ukończenia szkoły, świadectwo uprawnia do studiów w tym kraju. Przed zapisem trzeba mieć certyfikat greckiego.",
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem.",
+    "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20; zaświadczenie o równoważności i przeliczeniu wydaje greckie ministerstwo edukacji, lokalna dyrekcja edukacji lub koordynator edukacji przy ambasadzie Grecji. Kandydat wpisuje w formularzu kolejność preferowanych wydziałów, a przydziału dokonuje minister. Dokumenty z apostille i oficjalnym tłumaczeniem na grecki. Przed zapisem może być wymagane badanie lekarskie według regulaminu wydziału."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Πληροφορικής",
+   "set": {
+    "durationYears": 4,
+    "notes": "Wydział jest wymieniony na stronie głównej AUEB. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku. Progi przyjęcia (βάσεις) dla cudzoziemców z UE ministerstwo publikuje osobno; brak ich w sprawdzonych źródłach, więc progu dla tego kierunku nie podajemy. Czas trwania (4 lata) wynika z ogólnej informacji portalu Study in Greece dla większości kierunków, dokładną liczbę semestrów potwierdza wydział."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "The duration of undergraduate programs for most disciplines is 4 years but there are programs in engineering, dentistry, pharmacology, agronomics, forestry, and fine arts, with a duration of 5 years, and medicine with a duration of 6 years."
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Πληροφορικής",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026 (podaje portal Study in Greece). Terminy wysyłki dokumentów i zapisu ministerstwo ogłasza osobnym komunikatem, więc trzeba je sprawdzić na stronie minedu.gov.gr. Terminy na 2027/28 nie są jeszcze znane; wniosek składa się latem."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "Period of electronic submission of the application – entry form, for the academic year 2026-2027: Thursday , July 2nd, 2026 – Thursday, July 9th, 2026"
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Οικονομικών Επιστημών",
+   "set": {
+    "matura": "Polska matura jest uznawana tylko przez osobną ścieżkę dla cudzoziemców z UE (kategoria B.1 ministerstwa). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w kraju ukończenia szkoły, świadectwo uprawnia do studiów w tym kraju. Przed zapisem trzeba mieć certyfikat greckiego.",
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem.",
+    "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20; zaświadczenie o równoważności i przeliczeniu wydaje greckie ministerstwo edukacji, lokalna dyrekcja edukacji lub koordynator edukacji przy ambasadzie Grecji. Kandydat wpisuje w formularzu kolejność preferowanych wydziałów, a przydziału dokonuje minister. Dokumenty z apostille i oficjalnym tłumaczeniem na grecki. Przed zapisem może być wymagane badanie lekarskie według regulaminu wydziału."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Οικονομικών Επιστημών",
+   "set": {
+    "durationYears": 4,
+    "notes": "Wydział jest wymieniony na stronie głównej AUEB. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku. Progi przyjęcia (βάσεις) dla cudzoziemców z UE ministerstwo publikuje osobno; brak ich w sprawdzonych źródłach, więc progu dla tego kierunku nie podajemy. Czas trwania (4 lata) wynika z ogólnej informacji portalu Study in Greece dla większości kierunków, dokładną liczbę semestrów potwierdza wydział."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "The duration of undergraduate programs for most disciplines is 4 years but there are programs in engineering, dentistry, pharmacology, agronomics, forestry, and fine arts, with a duration of 5 years, and medicine with a duration of 6 years."
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Οικονομικών Επιστημών",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026 (podaje portal Study in Greece). Terminy wysyłki dokumentów i zapisu ministerstwo ogłasza osobnym komunikatem, więc trzeba je sprawdzić na stronie minedu.gov.gr. Terminy na 2027/28 nie są jeszcze znane; wniosek składa się latem."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "Period of electronic submission of the application – entry form, for the academic year 2026-2027: Thursday , July 2nd, 2026 – Thursday, July 9th, 2026"
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Διοίκησης Επιχειρήσεων",
+   "set": {
+    "matura": "Polska matura jest uznawana tylko przez osobną ścieżkę dla cudzoziemców z UE (kategoria B.1 ministerstwa). Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w kraju ukończenia szkoły, świadectwo uprawnia do studiów w tym kraju. Przed zapisem trzeba mieć certyfikat greckiego.",
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem.",
+    "requirements": "Bez egzaminów wstępnych. Kryterium to ogólny wynik świadectwa przeliczony na skalę 0 do 20; zaświadczenie o równoważności i przeliczeniu wydaje greckie ministerstwo edukacji, lokalna dyrekcja edukacji lub koordynator edukacji przy ambasadzie Grecji. Kandydat wpisuje w formularzu kolejność preferowanych wydziałów, a przydziału dokonuje minister. Dokumenty z apostille i oficjalnym tłumaczeniem na grecki. Przed zapisem może być wymagane badanie lekarskie według regulaminu wydziału."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Διοίκησης Επιχειρήσεων",
+   "set": {
+    "durationYears": 4,
+    "notes": "Wydział jest wymieniony na stronie głównej AUEB. Progi przyjęć dla cudzoziemców z UE (βάσεις) ministerstwo publikuje osobnym plikiem; nie udało się go pobrać, więc brak danych o progu dla tego kierunku. Progi przyjęcia (βάσεις) dla cudzoziemców z UE ministerstwo publikuje osobno; brak ich w sprawdzonych źródłach, więc progu dla tego kierunku nie podajemy. Czas trwania (4 lata) wynika z ogólnej informacji portalu Study in Greece dla większości kierunków, dokładną liczbę semestrów potwierdza wydział."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "The duration of undergraduate programs for most disciplines is 4 years but there are programs in engineering, dentistry, pharmacology, agronomics, forestry, and fine arts, with a duration of 5 years, and medicine with a duration of 6 years."
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Διοίκησης Επιχειρήσεων",
+   "set": {
+    "deadline": "Rekrutacja 2026/27 (ścieżka dla cudzoziemców z UE): wniosek elektroniczny od 2 do 9 lipca 2026 (podaje portal Study in Greece). Terminy wysyłki dokumentów i zapisu ministerstwo ogłasza osobnym komunikatem, więc trzeba je sprawdzić na stronie minedu.gov.gr. Terminy na 2027/28 nie są jeszcze znane; wniosek składa się latem."
+   },
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "Period of electronic submission of the application – entry form, for the academic year 2026-2027: Thursday , July 2nd, 2026 – Thursday, July 9th, 2026"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Ψυχολογία",
+   "set": {
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "the candidates are disqualified from enrolling"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Πληροφορική και Τηλεπικοινωνίες",
+   "set": {
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "the candidates are disqualified from enrolling"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Νομική",
+   "set": {
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "the candidates are disqualified from enrolling"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Οικονομικών Επιστημών",
+   "set": {
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "the candidates are disqualified from enrolling"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Επικοινωνίας και ΜΜΕ",
+   "set": {
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "the candidates are disqualified from enrolling"
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Αρχιτεκτόνων Μηχανικών",
+   "set": {
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "the candidates are disqualified from enrolling"
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Πολιτικών Μηχανικών",
+   "set": {
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "the candidates are disqualified from enrolling"
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Μηχανολόγων Μηχανικών",
+   "set": {
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "the candidates are disqualified from enrolling"
+  },
+  {
+   "university": "Εθνικό Μετσόβιο Πολυτεχνείο (NTUA)",
+   "programName": "Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών",
+   "set": {
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "the candidates are disqualified from enrolling"
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Πληροφορικής",
+   "set": {
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "the candidates are disqualified from enrolling"
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Οικονομικών Επιστημών",
+   "set": {
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "the candidates are disqualified from enrolling"
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Διοίκησης Επιχειρήσεων",
+   "set": {
+    "languageProof": "Przed zapisem na uczelnię potrzebny jest certyfikat greckiego: egzamin Uniwersytetu Ateńskiego (w Atenach dwa razy w roku, około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu można zapisać się dopiero w następnym roku akademickim, pod warunkiem że do tego czasu certyfikat zostanie zdobyty, inaczej miejsce przepada. Egzaminatorów trzeba zapytać o termin co najmniej miesiąc przed egzaminem."
+   },
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "the candidates are disqualified from enrolling"
+  },
+  {
+   "university": "Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (NKUA)",
+   "programName": "Αρχαιολογία, Ιστορία και Λογοτεχνία της Αρχαίας Ελλάδας (BAAG)",
+   "set": {
+    "matura": "Uczelnia wymaga świadectwa ukończenia liceum (Senior High School Graduation Certificate) lub IB, z orientacyjną średnią 70% lub równoważną. Polskiej matury z nazwy źródło nie wymienia, a sposobu przeliczenia ocen nie podaje, więc trzeba zapytać biuro przyjęć (admissions@baag.uoa.gr). Program jest otwarty dla kandydatów międzynarodowych."
+   },
+   "sourceUrl": "https://baag.uoa.gr/admission-fees/",
+   "quote": "International Baccalaureate or Senior High School Graduation Certificate (indicative average grade: 70% or equivalent). Open to international applicants"
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Διεθνής Επιχειρηματικότητα και Τεχνολογία (IBT)",
+   "set": {
+    "matura": "Program jest przeznaczony dla cudzoziemców z UE i spoza UE, którzy mają IB lub świadectwo ukończenia liceum w szkole za granicą i uczyli się stacjonarnie przez dwa ostatnie lata. Polska matura nie jest wymieniona z nazwy, więc trzeba potwierdzić jej uznanie mailem (ibt@aueb.gr). Znajomość greckiego nie jest wymagana."
+   },
+   "sourceUrl": "https://ibt.aueb.gr/faq/",
+   "quote": "Foreign citizens of countries in or outside the EU who hold International Baccalaureate or Senior High School Graduate Certificate of a school based abroad and have attended the last two years of their studies in full time status on site."
+  },
+  {
+   "university": "Οικονομικό Πανεπιστήμιο Αθηνών (AUEB)",
+   "programName": "Διεθνής Επιχειρηματικότητα και Τεχνολογία (IBT)",
+   "set": {
+    "durationYears": 4
+   },
+   "sourceUrl": "https://ibt.aueb.gr/program/",
+   "quote": "Duration / Mode : 4 years / full-time"
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [],
+ "summaryPatches": [
+  {
+   "label": "Polska matura",
+   "text": "Na greckie studia po grecku polska matura wchodzi tylko przez osobną ścieżkę dla cudzoziemców z UE (kategoria B.1 ministerstwa edukacji). Bez egzaminów wstępnych, ale z kilkoma barierami. Przed zapisem trzeba mieć certyfikat greckiego. Warunki: co najmniej jedno z rodziców nie ma greckiego pochodzenia, pełna nauka w dwóch ostatnich klasach liceum w kraju ukończenia szkoły, świadectwo uprawniające do studiów w tym kraju. Przydziału na wydział dokonuje minister według ogólnego wyniku świadectwa przeliczonego na skalę 0 do 20 i według kolejności preferencji kandydata. Świadectwo wymaga apostille, oficjalnego tłumaczenia na grecki i zaświadczenia o równoważności z greckiego ministerstwa lub od koordynatora edukacji przy ambasadzie.",
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "Candidates take no entrance examinations."
+  },
+  {
+   "label": "Znajomość języka",
+   "text": "Na studia po grecku potrzebny jest certyfikat greckiego jeszcze przed zapisem: egzamin Uniwersytetu Ateńskiego (w Atenach około maja i września) lub Uniwersytetu w Salonikach (czerwiec i październik) albo certyfikat B2 Greek Language Centre (egzamin w maju). Bez certyfikatu zapis jest możliwy dopiero rok później i tylko pod warunkiem zdobycia certyfikatu do tego czasu. Programy po angielsku wymagają certyfikatu angielskiego: B2 w AUEB IBT, TOEFL 88 lub IELTS 6,5 w BAAG, TOEFL 80 lub IELTS 7,5 w medycynie.",
+   "sourceUrl": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "quote": "the candidates are disqualified from enrolling"
+  },
+  {
+   "label": "Rekrutacja",
+   "text": "Ścieżka dla cudzoziemców z UE, rekrutacja 2026/27: wniosek elektroniczny od 2 do 9 lipca 2026 (portal Study in Greece), wyniki zwykle pod koniec sierpnia. Terminy wysyłki dokumentów i zapisu ogłasza ministerstwo osobnym komunikatem na minedu.gov.gr i nie udało się ich potwierdzić. Terminy na 2027/28 nie są jeszcze znane, trzeba ich szukać latem. Programy po angielsku mają własne terminy: AUEB IBT nabór ciągły, NKUA BAAG 1 sierpnia 2026, medycyna po angielsku od 18 grudnia 2025 do 30 kwietnia 2026.",
+   "sourceUrl": "https://studyingreece.edu.gr/bachelors/",
+   "quote": "Period of electronic submission of the application – entry form, for the academic year 2026-2027: Thursday , July 2nd, 2026 – Thursday, July 9th, 2026"
+  }
+ ],
+ "gapsSet": [
+  "Terminy wysyłki dokumentów i zapisu w ścieżce dla cudzoziemców z UE oraz terminy na 2027/28 są niepotwierdzone. Instrukcja ministerstwa mówi, że daty zostaną ogłoszone osobnym komunikatem, a strona ministerstwa z tym komunikatem nie otwiera się. Warto sprawdzać minedu.gov.gr w czerwcu.",
+  "Progi przyjęcia (βάσεις) dla cudzoziemców z UE na 2026 i liczba miejsc w tej ścieżce nie są znane. Nie wiadomo też, jak greckie ministerstwo przelicza polską maturę na skalę 0 do 20; to wystawia ministerstwo lub koordynator edukacji przy ambasadzie Grecji w Warszawie.",
+  "Czas trwania 4 lata dla ośmiu programów po grecku (NKUA: psychologia, informatyka, prawo, ekonomia, komunikacja; AUEB: informatyka, ekonomia, zarządzanie) pochodzi z ogólnej informacji portalu Study in Greece, bez potwierdzenia na stronach wydziałów. Język wykładowy tych kierunków wydziały potwierdzają różnie, w większości po grecku.",
+  "Medycyna po angielsku w NKUA: polska matura nie jest wymieniona wśród akceptowanych kwalifikacji, trzeba zapytać biuro przyjęć (md.admissions@uoa.gr), czy przyjmą maturę z wynikiem UCAT lub MCAT. Medycyna po grecku nie jest opisana jako osobny kierunek. Nabór na 2027/28 nie jest opublikowany.",
+  "UNIWA Sztuczna Inteligencja i Nauka o Danych: warunki przyjęcia, termin naboru i wymagany certyfikat angielskiego nie są potwierdzone na stronach uczelni, portal Study in Greece podaje tylko czesne 6 000 EUR, 8 semestrów i 240 ECTS.",
+  "AUEB IBT: strona programu mówi o naborze ciągłym, a portal Study in Greece o braku otwartego naboru. Termin i liczbę miejsc na 2027/28 trzeba potwierdzić mailem (ibt@aueb.gr). Polska matura nie jest wymieniona z nazwy w warunkach programu.",
+  "Architektura, budownictwo i mechanika są tylko po grecku, bo na portalu Study in Greece nie ma w Atenach licencjatów po angielsku z tych dziedzin. Uczelnie Panteion i Harokopio oraz studia magisterskie po angielsku nie zostały opisane.",
+  "Nie ustalono, czy dla tej ścieżki obowiązują jakiekolwiek opłaty poza ogólną informacją portalu Study in Greece, że studia licencjackie po grecku są bezpłatne."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://www.minedu.gov.gr/publications/docs2026/INSTRUCTIONS_FOR_FOREIGNERS_1-7-2026.doc",
+   "note": "Instrukcja ministerstwa edukacji dla kandydatów z UE i spoza UE (kategorie B.1, A.1), dokumenty, certyfikat greckiego."
+  },
+  {
+   "url": "https://studyingreece.edu.gr/bachelors/",
+   "note": "Portal Study in Greece: terminy wniosku elektronicznego 2026/27, bezpłatne studia po grecku, typowy czas trwania studiów."
+  },
+  {
+   "url": "https://ibt.aueb.gr/faq/",
+   "note": "AUEB IBT: komu adresowany jest program i jakie świadectwa przyjmuje."
+  },
+  {
+   "url": "https://ibt.aueb.gr/program/",
+   "note": "AUEB IBT: czas trwania, czesne, warunki przyjęcia."
+  },
+  {
+   "url": "https://baag.uoa.gr/admission-fees/",
+   "note": "NKUA BAAG: wymagania, terminy 2026/27, czesne, wiza."
+  },
+  {
+   "url": "https://medicen.uoa.gr/tuition-fees/",
+   "note": "NKUA medycyna po angielsku: czesne 17 000 EUR (depozyt i raty)."
+  },
+  {
+   "url": "https://en.psych.uoa.gr/undergraduate",
+   "note": "NKUA psychologia: wymagane 240 ECTS."
+  }
+ ]
+}

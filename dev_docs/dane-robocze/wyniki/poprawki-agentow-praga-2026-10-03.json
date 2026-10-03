@@ -1,0 +1,456 @@
+{
+ "slug": "praga",
+ "programPatches": [
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Strojní inženýrství (FS ČVUT, česky i angielski)",
+   "set": {
+    "tuitionEu": "Po czesku 0 CZK (studia bezpłatne także dla cudzoziemców). Po angielsku 110 000 CZK za rok na poziomie licencjatu (wg strony wydziału, bez podanego roku akademickiego). Opłata za zgłoszenie 950 CZK (angielska strona wydziału podaje 900 CZK).",
+    "tuitionNonEu": "Po czesku 0 CZK. Po angielsku 110 000 CZK za rok, taka sama stawka jak dla obywateli UE.",
+    "tuitionUrl": "https://www.fs.cvut.cz/en/prospective-students/application-process/basic-information/"
+   },
+   "sourceUrl": "https://www.fs.cvut.cz/en/prospective-students/application-process/basic-information/",
+   "quote": "Bachelor Degree – TUITION FEE (PER YEAR) CZK 110 000"
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Strojní inženýrství (FS ČVUT, česky i angielski)",
+   "set": {
+    "durationYears": 3
+   },
+   "sourceUrl": "https://www.fs.cvut.cz/en/prospective-students/application-process/conditions-for-admission/",
+   "quote": "The standard period of studies in bachelor programs is 6 semesters (3 years)."
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Strojní inženýrství (FS ČVUT, česky i angielski)",
+   "set": {
+    "matura": "uznawana (program po czesku: wydział wprost zwalnia kandydatów z Polski z nostryfikacji, wystarczy poświadczona kopia świadectwa z tłumaczeniem urzędowym; przy programie po angielsku angielska strona wydziału opisuje ogólną walidację zagranicznego świadectwa przed zapisem bez wyjątku dla Polski, więc potwierdź to z wydziałem)",
+    "admissionUrl": "https://www.fs.cvut.cz/zajemci-o-studium/informace-o-prijimacim-rizeni/podminky-pro-prijeti-ke-studiu/"
+   },
+   "sourceUrl": "https://www.fs.cvut.cz/zajemci-o-studium/informace-o-prijimacim-rizeni/",
+   "quote": "úředně ověřenou kopii maturitního vysvědčení ze střední školy akreditované v dané zemi (není zde třeba dokládat nostrifikaci tohoto vzdělání v ČR, ale je třeba dodat úřední překlad do českého, slovenského nebo anglického jazyka)"
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Strojní inženýrství (FS ČVUT, česky i angielski)",
+   "set": {
+    "requirements": "Podstawą jest pełne średnie z maturą, kompletne zgłoszenie w terminie i opłata za rekrutację. Test z matematyki na poziomie czeskiej matury: poniżej 9 punktów kandydat nie zostaje przyjęty, poniżej 12 punktów musi zaliczyć kurs wyrównawczy z matematyki. Od testu zwalnia m.in. matura z matematyki (CZ, SK) z lat 2024 do 2026, wynik testu Scio z matematyki od 50. percentyla albo udział w olimpiadzie matematycznej. Program po angielsku: test z matematyki SCIO (min. 50. percentyl) do 1.03.2026.",
+    "selective": true
+   },
+   "sourceUrl": "https://www.fs.cvut.cz/zajemci-o-studium/informace-o-prijimacim-rizeni/",
+   "quote": "Uchazeči, kteří splní test na méně než 9 bodů, nebudou ke studiu přijati."
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Strojní inženýrství (FS ČVUT, česky i angielski)",
+   "set": {
+    "languageProof": "Program po czesku: dla kandydatów z Polski wymagany dokument znajomości czeskiego na poziomie B2 (matura z czeskiego, państwowy egzamin z czeskiego albo certyfikat ČVUT lub Uniwersytetu Karola). Program po angielsku: zalecany poziom B2 (FCE, IELTS 5,5, TOEFL iBT 65); wydział może odrzucić kandydatów niedostatecznie przygotowanych."
+   },
+   "sourceUrl": "https://www.fs.cvut.cz/en/prospective-students/application-process/basic-information/",
+   "quote": "B2/FCE/IELTS5.5/TOEFL IB T 65/TOEFL CBT 185"
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Strojní inženýrství (FS ČVUT, česky i angielski)",
+   "set": {
+    "deadline": "Nabór 2026/27: dokumenty do 30.06.2026; runda dodatkowa: zgłoszenia od 8.06 do 3.08.2026, test z matematyki 2.09.2026. Warunki i terminy na 2027/28 nie są jeszcze opublikowane.",
+    "academicYear": "2026/27 (warunki na 2027/28 nie są jeszcze opublikowane)"
+   },
+   "sourceUrl": "https://www.fs.cvut.cz/zajemci-o-studium/informace-o-prijimacim-rizeni/",
+   "quote": "Přihláška pro mimořádné kolo přijímacího řízení bude otevřená od 8. 6. 2026 do 3. 8. 2026!"
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Strojní inženýrství (FS ČVUT, česky i angielski)",
+   "set": {
+    "notes": "Wydział prowadzi bakalaureat Strojní inženýrství po czesku (stacjonarny i kombinowany) i po angielsku (stacjonarny, Bachelor of Mechanical Engineering, 3 lata, tytuł B.Sc.). Pełne dokumenty z limitami miejsc i progami punktowymi nie są dostępne publicznie, więc dokładne wymagania sprawdź u wydziału."
+   },
+   "sourceUrl": "https://www.fs.cvut.cz/zajemci-o-studium/informace-o-prijimacim-rizeni/",
+   "quote": "STROJNÍ INŽENÝRSTVÍ v prezenční formě, v angličtině"
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Informatika (FIT ČVUT, česky)",
+   "set": {
+    "tuitionEu": "0 CZK (studia po czesku bezpłatne); opłata za zgłoszenie 950 CZK; ocena zagranicznego wykształcenia przez ČVUT 950 CZK",
+    "tuitionNonEu": "0 CZK (studia po czesku bezpłatne także dla obywateli spoza UE)",
+    "academicYear": "2026/27 (warunki na 2027/28 nie są jeszcze opublikowane)",
+    "deadline": "Nabór 2026/27: opłata i zgłoszenie do 31.03.2026. Terminy na 2027/28 nie są jeszcze opublikowane."
+   },
+   "sourceUrl": "https://fit.cvut.cz/cs/uchazeci/prijimaci-rizeni-2/bakalarsky-studijni-program",
+   "quote": "Poplatek za přijímací řízení je 950 Kč."
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Informatics (FIT ČVUT, angličtina)",
+   "set": {
+    "tuitionEu": "64 000 CZK za semestr (128 000 CZK za rok), takie samo czesne dla obywateli UE i spoza UE; opłata za zgłoszenie 950 CZK",
+    "tuitionNonEu": "64 000 CZK za semestr (128 000 CZK za rok), taka sama stawka jak dla obywateli UE",
+    "academicYear": "2026/27 (warunki na 2027/28 nie są jeszcze opublikowane)",
+    "deadline": "Nabór 2026/27: zgłoszenia od 1.01 do 31.03.2026. Terminy na 2027/28 nie są jeszcze opublikowane."
+   },
+   "sourceUrl": "https://fit.cvut.cz/en/studies/study-guide/bachelor-and-master-study-program/tuition-fee-payment",
+   "quote": "Students of bachelor’s and master’s degree programmes conducted in English must pay the tuition fee (CZK 64,000) before each semester starts."
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Architektura a urbanismus (FA ČVUT, bakalářský)",
+   "set": {
+    "tuitionEu": "0 CZK (studia po czesku bezpłatne); opłata za zgłoszenie 1 050 CZK za każde zgłoszenie",
+    "tuitionNonEu": "0 CZK (studia po czesku bezpłatne także dla obywateli spoza UE)"
+   },
+   "sourceUrl": "https://studyin.gov.cz/plan-your-studies/learn-czech-study-tuition-free/",
+   "quote": "Public and state higher education institutions in Czechia offer tuition-free degree programmes taught in Czech, regardless of nationality."
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Architektura a urbanismus (FA ČVUT, bakalářský)",
+   "set": {
+    "notes": "Do zawodu architekta potrzebny jest też magisterski Architektura a urbanismus (FA oferuje go również po angielsku; jego szczegółów nie opisano). Licencjatu z architektury po angielsku w FA nie znaleziono, więc listę programów obcojęzycznych sprawdź na stronie wydziału."
+   },
+   "sourceUrl": "https://www.fa.cvut.cz/uchazeci/prijimaci-rizeni/prijimaci-rizeni/2027-28/fa_sd_2026_03_v01_vr.pdf",
+   "quote": "1050 Kč za každou přihlášku"
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Stavební inženýrství (FSv ČVUT)",
+   "set": {
+    "tuitionEu": "0 CZK (studia po czesku bezpłatne); opłata za zgłoszenie 950 CZK",
+    "tuitionNonEu": "0 CZK (studia po czesku bezpłatne także dla obywateli spoza UE)"
+   },
+   "sourceUrl": "https://www.fsv.cvut.cz/prospective-students/before-arrival/tuition-fees/?lang=en",
+   "quote": "You need not pay tuition fee to study in Czech language in any level of your studies (Bachelor, Master, Ph.D.)."
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Stavební inženýrství (FSv ČVUT)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (wydział wymaga od absolwentów szkół zagranicznych, poza słowackimi, uznania równoważności świadectwa lub nostryfikacji, najprościej przez Rektorat ČVUT; strona nie wymienia Polski, a FA ČVUT i 1. LF UK uznają polskie świadectwo bez nostryfikacji, więc potwierdź to z wydziałem)",
+    "admissionUrl": "https://www.fsv.cvut.cz/uchazeci/bakalarske-studium/prijimaci-rizeni/"
+   },
+   "sourceUrl": "https://www.fsv.cvut.cz/uchazeci/bakalarske-studium/prijimaci-rizeni/",
+   "quote": "Pokud studujete, nebo jste studovali střední školu v zahraničí (kromě Slovenské republiky)"
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Stavební inženýrství (FSv ČVUT)",
+   "set": {
+    "languageProof": "Potwierdzenie zdanego egzaminu z czeskiego na poziomie co najmniej B2 (dotyczy cudzoziemców poza obywatelami Słowacji i absolwentami szkół średnich w Czechach)"
+   },
+   "sourceUrl": "https://www.fsv.cvut.cz/uchazeci/bakalarske-studium/prijimaci-rizeni/",
+   "quote": "potvrzení o vykonání zkoušky z českého jazyka minimálně úrovně B2"
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Stavební inženýrství (FSv ČVUT)",
+   "set": {
+    "deadline": "Zgłoszenia na 2027/28 wydział zapowiada od 1.01 do 31.03.2027, ale podaje to w tekście o starszym naborze; pewne terminy poda po publikacji warunków. Nabór 2026/27: zgłoszenia 1.01 do 31.03.2026 oraz runda dodatkowa od 1 do 31.07.2026.",
+    "academicYear": "2026/27 (dla 2027/28 wydział zapowiada zgłoszenia od 1.01 do 31.03.2027, warunki nie są jeszcze opublikowane)"
+   },
+   "sourceUrl": "https://www.fsv.cvut.cz/uchazeci/bakalarske-studium/prijimaci-rizeni/",
+   "quote": "Podávání přihlášek bude možné 1.1. - 31. 3. 2027"
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Stavební inženýrství (FSv ČVUT)",
+   "set": {
+    "requirements": "Podstawą jest pełne średnie z maturą i zdanie egzaminu z matematyki, wspólnego dla wszystkich programów wydziału. Zwolnienie z egzaminu z matematyki przewidziano tylko dla kandydatów z Czech i Słowacji.",
+    "notes": "Strona wydziału zawiera też nieaktualne wartości z dawnych lat (np. w angielskiej karcie programu termin 31.03.2021 i opłata 850 CZK), więc wszystkie terminy i opłaty sprawdź po publikacji warunków 2027/28."
+   },
+   "sourceUrl": "https://www.fsv.cvut.cz/prospective-students/bachelor-study/admissions-proceedings-to-bachelors-study-programmes/?lang=en",
+   "quote": "(see Article 5; it is only for Czech and Slovak)"
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Civil Engineering (FSv ČVUT, angličtina)",
+   "set": {
+    "tuitionEu": "55 000 CZK za semestr (110 000 CZK za rok), takie samo czesne dla obywateli UE i spoza UE; opłata za zgłoszenie 950 CZK",
+    "tuitionNonEu": "55 000 CZK za semestr (110 000 CZK za rok), taka sama stawka jak dla obywateli UE",
+    "tuitionUrl": "https://www.fsv.cvut.cz/prospective-students/before-arrival/tuition-fees/?lang=en"
+   },
+   "sourceUrl": "https://www.fsv.cvut.cz/prospective-students/before-arrival/tuition-fees/?lang=en",
+   "quote": "CZK 55 000 per semester"
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Civil Engineering (FSv ČVUT, angličtina)",
+   "set": {
+    "languageProof": "Angielski: matura z angielskiego albo certyfikat angielskiego na poziomie co najmniej B2 (CEFR), składany do 3.09.2026 w naborze 2026/27"
+   },
+   "sourceUrl": "https://www.fsv.cvut.cz/prospective-students/bachelor-study/admissions-proceedings-to-bachelors-study-programmes/?lang=en",
+   "quote": "certificate of passing an examination in English at min. a B2 level"
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Civil Engineering (FSv ČVUT, angličtina)",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (strona angielska programu wymaga walidacji zagranicznego świadectwa średniego do 3.09.2026 w naborze 2026/27 i nie opisuje, jak dotyczy to Polski; FA ČVUT i 1. LF UK uznają polskie świadectwo bez nostryfikacji, więc potwierdź to z wydziałem)",
+    "admissionUrl": "https://www.fsv.cvut.cz/prospective-students/bachelor-study/admissions-proceedings-to-bachelors-study-programmes/?lang=en"
+   },
+   "sourceUrl": "https://www.fsv.cvut.cz/prospective-students/bachelor-study/admissions-proceedings-to-bachelors-study-programmes/?lang=en",
+   "quote": "Validation of foreign secondary school education by 3. 9. 2026"
+  },
+  {
+   "university": "České vysoké učení technické v Praze",
+   "programName": "Civil Engineering (FSv ČVUT, angličtina)",
+   "set": {
+    "deadline": "Nabór 2026/27: runda dodatkowa, zgłoszenia od 1 do 31.07.2026, egzamin z matematyki 1.09.2026. Terminy na 2027/28 nie są jeszcze opublikowane.",
+    "academicYear": "2026/27 (warunki na 2027/28 nie są jeszcze opublikowane)",
+    "requirements": "Pełne średnie z maturą i egzamin z matematyki, wspólny dla wszystkich programów wydziału; wydział prowadzi po angielsku jeden program licencjacki Civil Engineering.",
+    "notes": "Czesne jest płatne za każdy semestr, a stypendium licencjackie może je obniżyć (szczegóły na stronie wydziału). Nie obejmuje zakwaterowania, ubezpieczenia ani wyżywienia."
+   },
+   "sourceUrl": "https://www.fsv.cvut.cz/prospective-students/bachelor-study/admissions-proceedings-to-bachelors-study-programmes/?lang=en",
+   "quote": "Applications can be submitted from 1 July to 31 July 2026."
+  },
+  {
+   "university": "Vysoká škola ekonomická v Praze",
+   "programName": "Bachelor of Economics (VŠE, NF)",
+   "set": {
+    "requirements": "Egzamin wstępny odbywa się zdalnie po angielsku i składa się z trzech części: CV (25 procent), esej na dwie strony standardowe (35 procent) i film motywacyjny do 2 minut (40 procent). Przyjęcie możliwe od 70 punktów ze 100.",
+    "selective": true,
+    "languageProof": "Zalecany poziom angielskiego co najmniej upper-intermediate (około B2); certyfikat nie jest wymagany, a egzamin odbywa się po angielsku"
+   },
+   "sourceUrl": "https://econ.vse.cz/wp-content/uploads/2025_09_Podminky-prijeti_Bc-AJ_FINAL.pdf",
+   "quote": "It is recommended that applicants possess at least an upper-intermediate level of English proficiency."
+  },
+  {
+   "university": "Vysoká škola ekonomická v Praze",
+   "programName": "Bachelor of Economics (VŠE, NF)",
+   "set": {
+    "academicYear": "2026/27 (warunki i terminy na 2027/28 nie są jeszcze opublikowane; nabór na 2027/28 rusza 1.11.2026)",
+    "deadline": "Terminy naboru 2026/27: do 28.02.2026 i do 30.04.2026 (ewentualnie trzecia runda do 15.06.2026). Terminy na 2027/28 uczelnia poda po rozpoczęciu naboru 1.11.2026."
+   },
+   "sourceUrl": "https://econ.vse.cz/wp-content/uploads/2025_09_Podminky-prijeti_Bc-AJ_FINAL.pdf",
+   "quote": "by February 28, 2026,"
+  },
+  {
+   "university": "Vysoká škola ekonomická v Praze",
+   "programName": "Bachelor of Economics (VŠE, NF)",
+   "set": {
+    "matura": "uznawana z warunkami (wymagane świadectwo ukończenia pełnego średniego; świadectwo zagraniczne uczelnia ocenia sama w ramach rekrutacji albo wymaga równoważności z umowy międzynarodowej; za ocenę jest opłata)",
+    "notes": "Program trwa 3 lata, tytuł Bc., czesne 6 000 EUR za rok. Opłata za zgłoszenie 100 EUR."
+   },
+   "sourceUrl": "https://econ.vse.cz/homepage/about-the-program/program-objectives-and-basic-information/",
+   "quote": "Standard length of study: 3 years"
+  },
+  {
+   "university": "Vysoká škola ekonomická v Praze",
+   "programName": "Data Analytics (VŠE, FIS, česky)",
+   "set": {
+    "tuitionEu": "0 CZK (studia po czesku bezpłatne); opłata za zgłoszenie 990 CZK",
+    "tuitionNonEu": "0 CZK (studia po czesku bezpłatne także dla obywateli spoza UE)",
+    "notes": "Strona wydziału nie podaje, jakiego dowodu znajomości czeskiego wymaga od cudzoziemców, więc zapytaj wydział. Program trwa 3 lata (wydział prowadzi pięć programów trzyletnich)."
+   },
+   "sourceUrl": "https://fis.vse.cz/bakalarske-studium/prijimaci-rizeni/",
+   "quote": "Poplatek za přihlášku, který činí 990 Kč"
+  },
+  {
+   "university": "Vysoká škola ekonomická v Praze",
+   "programName": "Economic Data Science (VŠE, FIS)",
+   "set": {
+    "deadline": "28.02.2027 (zalecany dla osób wymagających wizy) oraz 30.04.2027 (zalecany dla obywateli UE); nabór na 2027/28 zaczyna się 1.11.2026"
+   },
+   "sourceUrl": "https://fis.vse.cz/english/wp-content/uploads/sites/2/banner/17310/admission_exam_BC.pdf",
+   "quote": "Application deadline: 28 February 2027"
+  },
+  {
+   "university": "Univerzita Karlova",
+   "programName": "Psychologie",
+   "set": {
+    "tuitionEu": "0 CZK za studia po czesku (dotyczy też obywateli spoza UE). Opłata za zgłoszenie 1 000 CZK. Opłata za dłuższe studia (po przekroczeniu standardowego czasu o ponad rok) wg Załącznika 2 do Statutu UK; kwoty nie podano na stronie.",
+    "tuitionNonEu": "0 CZK (studia po czesku bezpłatne bez względu na obywatelstwo)"
+   },
+   "sourceUrl": "https://cuni.cz/UKEN-372.html",
+   "quote": "Studies in Czech are free of charge."
+  },
+  {
+   "university": "Univerzita Karlova",
+   "programName": "Všeobecné lékařství (1. lékařská fakulta, česky)",
+   "set": {
+    "tuitionEu": "0 CZK za studia po czesku (dotyczy też obywateli spoza UE). Opłata za zgłoszenie 1 000 CZK. Opłata za dłuższe studia (po przekroczeniu standardowego czasu o ponad rok) wg Załącznika 2 do Statutu UK; kwoty nie podano na stronie.",
+    "tuitionNonEu": "0 CZK (studia po czesku bezpłatne bez względu na obywatelstwo)"
+   },
+   "sourceUrl": "https://cuni.cz/UKEN-372.html",
+   "quote": "Studies in Czech are free of charge."
+  },
+  {
+   "university": "Univerzita Karlova",
+   "programName": "Právo a právní věda",
+   "set": {
+    "tuitionEu": "0 CZK za studia po czesku (dotyczy też obywateli spoza UE). Opłata za zgłoszenie 1 000 CZK. Opłata za dłuższe studia (po przekroczeniu standardowego czasu o ponad rok) wg Załącznika 2 do Statutu UK; kwoty nie podano na stronie.",
+    "tuitionNonEu": "0 CZK (studia po czesku bezpłatne bez względu na obywatelstwo)"
+   },
+   "sourceUrl": "https://cuni.cz/UKEN-372.html",
+   "quote": "Studies in Czech are free of charge."
+  },
+  {
+   "university": "Univerzita Karlova",
+   "programName": "Komunikační studia se specializací Žurnalistika",
+   "set": {
+    "tuitionEu": "0 CZK za studia po czesku (dotyczy też obywateli spoza UE). Opłata za zgłoszenie 1 000 CZK. Opłata za dłuższe studia (po przekroczeniu standardowego czasu o ponad rok) wg Załącznika 2 do Statutu UK; kwoty nie podano na stronie.",
+    "tuitionNonEu": "0 CZK (studia po czesku bezpłatne bez względu na obywatelstwo)"
+   },
+   "sourceUrl": "https://cuni.cz/UKEN-372.html",
+   "quote": "Studies in Czech are free of charge."
+  },
+  {
+   "university": "Univerzita Karlova",
+   "programName": "Ekonomie a finance (česky)",
+   "set": {
+    "tuitionEu": "0 CZK za studia po czesku (dotyczy też obywateli spoza UE). Opłata za zgłoszenie 1 000 CZK. Opłata za dłuższe studia (po przekroczeniu standardowego czasu o ponad rok) wg Załącznika 2 do Statutu UK; kwoty nie podano na stronie.",
+    "tuitionNonEu": "0 CZK (studia po czesku bezpłatne bez względu na obywatelstwo)"
+   },
+   "sourceUrl": "https://cuni.cz/UKEN-372.html",
+   "quote": "Studies in Czech are free of charge."
+  },
+  {
+   "university": "Univerzita Karlova",
+   "programName": "Informatika",
+   "set": {
+    "tuitionEu": "0 CZK za studia po czesku (dotyczy też obywateli spoza UE). Opłata za zgłoszenie 1 000 CZK. Opłata za dłuższe studia (po przekroczeniu standardowego czasu o ponad rok) wg Załącznika 2 do Statutu UK; kwoty nie podano na stronie.",
+    "tuitionNonEu": "0 CZK (studia po czesku bezpłatne bez względu na obywatelstwo)"
+   },
+   "sourceUrl": "https://cuni.cz/UKEN-372.html",
+   "quote": "Studies in Czech are free of charge."
+  },
+  {
+   "university": "Univerzita Karlova",
+   "programName": "Psychology (angielski)",
+   "set": {
+    "tuitionEu": "250 000 CZK za rok, takie samo czesne dla obywateli UE i spoza UE; opłata za zgłoszenie 60 EUR",
+    "tuitionNonEu": "250 000 CZK za rok, taka sama stawka jak dla obywateli UE"
+   },
+   "sourceUrl": "https://is.cuni.cz/studium/eng/prijimacky/index.php?do=detail_obor&id_obor=37295",
+   "quote": "250000 CZK / year"
+  },
+  {
+   "university": "Univerzita Karlova",
+   "programName": "General Medicine (1. lékařská fakulta, angličtina)",
+   "set": {
+    "tuitionEu": "24 250 EUR za rok, takie samo czesne dla obywateli UE i spoza UE; opłata za zgłoszenie 285 EUR",
+    "tuitionNonEu": "24 250 EUR za rok, taka sama stawka jak dla obywateli UE"
+   },
+   "sourceUrl": "https://is.cuni.cz/studium/eng/prijimacky/index.php?do=detail_obor&id_obor=37448",
+   "quote": "24250 EUR / year"
+  },
+  {
+   "university": "Univerzita Karlova",
+   "programName": "Economics and Finance (angličtina)",
+   "set": {
+    "tuitionEu": "7 000 EUR za rok, takie samo czesne dla obywateli UE i spoza UE; opłata za zgłoszenie 1 000 CZK",
+    "tuitionNonEu": "7 000 EUR za rok, taka sama stawka jak dla obywateli UE"
+   },
+   "sourceUrl": "https://is.cuni.cz/studium/eng/prijimacky/index.php?do=detail_obor&id_obor=36346",
+   "quote": "7000 EUR / year"
+  },
+  {
+   "university": "Univerzita Karlova",
+   "programName": "Computer Science - Artificial Intelligence",
+   "set": {
+    "tuitionEu": "4 200 EUR za rok dla obywateli UE, EOG i Ukrainy; opłata za zgłoszenie 1 500 CZK",
+    "tuitionNonEu": "7 100 EUR za rok"
+   },
+   "sourceUrl": "https://is.cuni.cz/studium/eng/prijimacky/index.php?do=detail_obor&id_obor=37135",
+   "quote": "The tuition fee for students from the EU/EEA/Ukraine is 4200 EUR per academic year."
+  },
+  {
+   "university": "Univerzita Karlova",
+   "programName": "Computer Science - Software and Data Engineering",
+   "set": {
+    "tuitionEu": "4 200 EUR za rok dla obywateli UE, EOG i Ukrainy; opłata za zgłoszenie 1 500 CZK",
+    "tuitionNonEu": "7 100 EUR za rok"
+   },
+   "sourceUrl": "https://is.cuni.cz/studium/eng/prijimacky/index.php?do=detail_obor&id_obor=37138",
+   "quote": "The tuition fee for students from the EU/EEA/Ukraine is 4200 EUR per academic year."
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [],
+ "summaryPatches": [
+  {
+   "label": "Opłaty",
+   "text": "Po czesku studia są bezpłatne także dla cudzoziemców; opłata dotyczy tylko studiów dłuższych o ponad rok od standardowego czasu. Opłata za zgłoszenie wynosi od 950 do 1 050 CZK (VŠE: 990 CZK albo 100 EUR dla programów po angielsku). Po angielsku studia są płatne i stawka zależy od programu: od 4 200 EUR dla obywateli UE na magisterskiej informatyce UK, przez 6 000 EUR rocznie na VŠE i 7 000 EUR na ekonomii UK, do 128 000 CZK rocznie na FIT ČVUT i 24 250 EUR na medycynie UK. Czesne po angielsku jest zwykle takie samo dla obywateli UE i spoza UE.",
+   "sourceUrl": "https://fit.cvut.cz/en/studies/study-guide/bachelor-and-master-study-program/tuition-fee-payment",
+   "quote": "Students of bachelor’s and master’s degree programmes conducted in English must pay the tuition fee (CZK 64,000) before each semester starts."
+  },
+  {
+   "label": "Znajomość języka",
+   "text": "Programy po czesku wymagają od cudzoziemców certyfikatu czeskiego na poziomie B2 (FA ČVUT: B2 z wynikiem min. 80 procent, FS ČVUT: dokument B2 także od kandydatów z Polski, 1. LF UK: C1 składane przy zapisie). Programy po angielsku wymagają zwykle poziomu B2 (FIT, FS, FSv ČVUT) albo wyższego, zależnie od programu UK (np. IELTS 6,5 na ekonomii). Na VŠE Bachelor of Economics zalecany jest poziom około B2 bez obowiązkowego certyfikatu.",
+   "sourceUrl": "https://www.fa.cvut.cz/uchazeci/prijimaci-rizeni/prijimaci-rizeni/2027-28/fa_sd_2026_03_v01_vr.pdf",
+   "quote": "znalost českého jazyka certifikátem na úrovni B2"
+  }
+ ],
+ "gapsSet": [
+  "Nie uwzględniono Czeskiego Uniwersytetu Rolniczego (ČZU), bo nie ma tam kierunków odpowiadających zawodom z listy.",
+  "Uniwersytet Karola nie podaje w kartach programów prawa, dziennikarstwa, ekonomii i informatyki po czesku, jakiego dokładnie dowodu znajomości czeskiego wymaga od cudzoziemców. Ogólna zasada to B1, B2 lub C1 albo własny test, zależnie od wydziału, więc zapytaj wydział.",
+  "Warunki naboru na 2027/28 na FIT, FSv i FS ČVUT nie są jeszcze opublikowane, dlatego podano dane z naboru 2026/27 z adnotacją. FA ČVUT ma już opublikowane warunki na 2027/28.",
+  "FSv ČVUT wymaga od absolwentów szkół zagranicznych (poza słowackimi) uznania równoważności świadectwa lub nostryfikacji i nie wymienia Polski, podczas gdy FA ČVUT i 1. LF UK uznają polskie świadectwo bez nostryfikacji. Angielskie warunki FIT ČVUT mówią o nostryfikacji lub weryfikacji przez ČVUT (950 CZK) i też nie wymieniają Polski. Przy FIT i FSv napisz do wydziału, żeby mieć pewność.",
+  "Angielska karta programu FSv zawiera nieaktualne dane z 2021 roku, a dowód znajomości angielskiego na FSv jest opisany tylko dla naboru 2026/27.",
+  "FS ČVUT nie publikuje otwarcie pełnych warunków (limity miejsc, progi punktowe, termin naboru na 2027/28), więc sprawdź je u wydziału. Czesne po angielsku (110 000 CZK rocznie) strona wydziału podaje bez roku akademickiego, a opłatę za zgłoszenie podaje różnie (900 CZK po angielsku, 950 CZK po czesku).",
+  "VŠE nie opublikowało jeszcze terminów naboru na 2027/28 dla Bachelor of Economics (NF); nabór rusza 1.11.2026, a ostatnie terminy dotyczą 2026/27. Czeskiego kierunku Ekonomie (NF) nie opisano, bo jego warunków nie ma na ogólnie dostępnej stronie.",
+  "VŠE nie podaje, jakiego dowodu znajomości czeskiego wymaga od cudzoziemców na kierunku Data Analytics po czesku.",
+  "Opłata za rozpatrzenie wniosku o nostryfikację w Czechach wynosi 3 000 CZK (urząd krajowy od 1.03.2025, wg 1. LF UK), a ČVUT pobiera za ocenę wykształcenia 950 CZK.",
+  "Nie opisano 2. i 3. Wydziału Lekarskiego UK, Wydziału Filozoficznego UK (poza psychologią) ani Wydziału Humanistyki.",
+  "Licencjat FA po czesku trwa 3 lata, ale do zawodu architekta potrzebny jest też magister, którego szczegółów nie opisano. Licencjatu z architektury po angielsku w FA nie znaleziono.",
+  "Egzaminy wstępne UK dla programów po angielsku wymagają przyjazdu do Czech albo egzaminu u partnera za granicą (medycyna); potwierdzono to tylko ogólnie."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://www.fs.cvut.cz/en/prospective-students/application-process/basic-information/",
+   "note": "FS ČVUT: czesne po angielsku (110 000 CZK rocznie), opłata za zgłoszenie, walidacja świadectwa"
+  },
+  {
+   "url": "https://www.fs.cvut.cz/zajemci-o-studium/informace-o-prijimacim-rizeni/",
+   "note": "FS ČVUT: warunki przyjęcia, dokumenty dla kandydatów z Polski, terminy"
+  },
+  {
+   "url": "https://www.fs.cvut.cz/en/prospective-students/application-process/conditions-for-admission/",
+   "note": "FS ČVUT: czas trwania i tryb egzaminu wstępnego (program po angielsku)"
+  },
+  {
+   "url": "https://www.fsv.cvut.cz/uchazeci/bakalarske-studium/prijimaci-rizeni/",
+   "note": "FSv ČVUT: przyjęcie na programy po czesku, nostryfikacja, terminy"
+  },
+  {
+   "url": "https://www.fsv.cvut.cz/prospective-students/before-arrival/tuition-fees/?lang=en",
+   "note": "FSv ČVUT: czesne (po czesku 0, po angielsku 55 000 CZK za semestr)"
+  },
+  {
+   "url": "https://www.fsv.cvut.cz/prospective-students/bachelor-study/admissions-proceedings-to-bachelors-study-programmes/?lang=en",
+   "note": "FSv ČVUT: przyjęcie na program po angielsku, dowód angielskiego"
+  },
+  {
+   "url": "https://econ.vse.cz/wp-content/uploads/2025_09_Podminky-prijeti_Bc-AJ_FINAL.pdf",
+   "note": "VŠE Bachelor of Economics: warunki przyjęcia 2026/27 po angielsku"
+  },
+  {
+   "url": "https://econ.vse.cz/homepage/about-the-program/program-objectives-and-basic-information/",
+   "note": "VŠE Bachelor of Economics: czas trwania, czesne 6 000 EUR"
+  },
+  {
+   "url": "https://fis.vse.cz/english/wp-content/uploads/sites/2/banner/17310/admission_exam_BC.pdf",
+   "note": "VŠE Economic Data Science: terminy naboru na 2027/28 i egzamin GAP"
+  },
+  {
+   "url": "https://fit.cvut.cz/en/studies/study-guide/bachelor-and-master-study-program/tuition-fee-payment",
+   "note": "FIT ČVUT: czesne po angielsku (64 000 CZK za semestr)"
+  },
+  {
+   "url": "https://www.fa.cvut.cz/uchazeci/prijimaci-rizeni/prijimaci-rizeni/2027-28/fa_sd_2026_03_v01_vr.pdf",
+   "note": "FA ČVUT: warunki przyjęcia na 2027/28, opłata 1 050 CZK, czeski B2"
+  },
+  {
+   "url": "https://is.cuni.cz/studium/eng/prijimacky/index.php?do=detail_obor&id_obor=37135",
+   "note": "UK: czesne magisterskiej informatyki po angielsku (4 200 EUR dla UE, EOG i Ukrainy)"
+  },
+  {
+   "url": "https://cuni.cz/UKEN-372.html",
+   "note": "UK: studia po czesku bezpłatne, zasady opłat za dłuższe studia"
+  },
+  {
+   "url": "https://studyin.gov.cz/plan-your-studies/learn-czech-study-tuition-free/",
+   "note": "Czechy: programy po czesku w uczelniach publicznych są bezpłatne bez względu na obywatelstwo"
+  }
+ ]
+}

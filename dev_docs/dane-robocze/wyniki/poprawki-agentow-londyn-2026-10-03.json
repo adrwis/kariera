@@ -1,0 +1,617 @@
+{
+ "slug": "londyn",
+ "programPatches": [
+  {
+   "university": "Imperial College London",
+   "programName": "Computing BEng",
+   "set": {
+    "requirements": "Dla polskiej Matury Imperial wymaga przedmiotów na poziomie rozszerzonym w skali staninowej, czyli stanin 9 z matematyki i 9 z przedmiotu pokrewnego. Minimum Imperial dla A-level: A*A*A lub A*AAA (41 punktów w IB). Imperial podaje wymóg w skali staninowej; sprawdź w informacji o wynikach z CKE, jak Twoje wyniki z Matury przeliczają się na stanin, albo zapytaj uczelnię.",
+    "matura": "uznawana z warunkami (Matura jest na liście kwalifikacji przyjmowanych przez Imperial; wymagany poziom rozszerzony i stanin 9 z matematyki i 9 z przedmiotu pokrewnego)"
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+   "quote": "numerical grades refer to the required stanine: 9 in Mathematics 9 in a relevant subject"
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Computing BEng",
+   "set": {
+    "tuitionNonEu": "47 800 GBP rocznie (wniosek 2027)",
+    "academicYear": "2027/28 (start październik 2027)"
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+   "quote": "Overseas fee 2027 entry £47,800 per year"
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Computing BEng",
+   "set": {
+    "deadline": "Wniosek przez UCAS do środy 13 stycznia 2027, godz. 18:00 czasu brytyjskiego (termin równego rozpatrzenia). Test TMUA w jednym z okien: 12 do 16 października 2026 (rejestracja na to okno zamknęła się 28 września 2026) lub 4 do 8 stycznia 2027 (rejestracja od 26 października do 21 grudnia 2026)."
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/apply/undergraduate/process/deadlines/",
+   "quote": "13 January 2027 (18.00 UK time) – Equal consideration deadline"
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Economics, Finance and Data Science BSc",
+   "set": {
+    "requirements": "Dla polskiej Matury Imperial wymaga przedmiotów na poziomie rozszerzonym w skali staninowej, czyli stanin 9 z matematyki i 8 z innego przedmiotu. Minimum Imperial dla A-level: A*AA (39 punktów w IB). Imperial podaje wymóg w skali staninowej; sprawdź w informacji o wynikach z CKE, jak Twoje wyniki z Matury przeliczają się na stanin, albo zapytaj uczelnię.",
+    "matura": "uznawana z warunkami (Matura jest na liście kwalifikacji przyjmowanych przez Imperial; wymagany poziom rozszerzony i stanin 9 z matematyki i 8 z innego przedmiotu)"
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/economics-finance-data-science/",
+   "quote": "numerical grades refer to the required stanine: 9 in Mathematics 8 in another subject"
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Economics, Finance and Data Science BSc",
+   "set": {
+    "tuitionNonEu": "44 800 GBP rocznie (wniosek 2027)",
+    "academicYear": "2027/28 (start październik 2027)"
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/economics-finance-data-science/",
+   "quote": "Overseas fee 2027 entry £44,800"
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Economics, Finance and Data Science BSc",
+   "set": {
+    "deadline": "Wniosek przez UCAS do środy 13 stycznia 2027, godz. 18:00 czasu brytyjskiego (termin równego rozpatrzenia). Test TMUA w jednym z okien: 12 do 16 października 2026 (rejestracja na to okno zamknęła się 28 września 2026) lub 4 do 8 stycznia 2027 (rejestracja od 26 października do 21 grudnia 2026)."
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/apply/undergraduate/process/deadlines/",
+   "quote": "13 January 2027 (18.00 UK time) – Equal consideration deadline"
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Mechanical Engineering MEng",
+   "set": {
+    "requirements": "Dla polskiej Matury Imperial wymaga przedmiotów na poziomie rozszerzonym w skali staninowej, czyli stanin 9 z matematyki i 9 z fizyki. Minimum Imperial dla A-level: A*A*A lub A*AAA (40 punktów w IB). Imperial podaje wymóg w skali staninowej; sprawdź w informacji o wynikach z CKE, jak Twoje wyniki z Matury przeliczają się na stanin, albo zapytaj uczelnię.",
+    "matura": "uznawana z warunkami (Matura jest na liście kwalifikacji przyjmowanych przez Imperial; wymagany poziom rozszerzony i stanin 9 z matematyki i 9 z fizyki)"
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/mechanical-engineering/",
+   "quote": "numerical grades refer to the required stanine: 9 in Mathematics 9 in Physics"
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Mechanical Engineering MEng",
+   "set": {
+    "tuitionNonEu": "47 800 GBP rocznie (wniosek 2027)",
+    "academicYear": "2027/28 (start październik 2027)"
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/mechanical-engineering/",
+   "quote": "Overseas fee 2027 entry £47,800 per year"
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Mechanical Engineering MEng",
+   "set": {
+    "deadline": "Wniosek przez UCAS do środy 13 stycznia 2027, godz. 18:00 czasu brytyjskiego (termin równego rozpatrzenia). Test ESAT w jednym z okien: 12 do 16 października 2026 (rejestracja na to okno zamknęła się 28 września 2026) lub 4 do 8 stycznia 2027 (rejestracja od 26 października do 21 grudnia 2026)."
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/apply/undergraduate/process/deadlines/",
+   "quote": "13 January 2027 (18.00 UK time) – Equal consideration deadline"
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Civil Engineering MEng",
+   "set": {
+    "requirements": "Dla polskiej Matury Imperial wymaga przedmiotów na poziomie rozszerzonym w skali staninowej, czyli stanin 9 z matematyki i 8 z fizyki. Minimum Imperial dla A-level: A*A*A lub A*AAA (40 punktów w IB). Wariant z rokiem za granicą (H202) wymaga ponadto stopnia 6 z odpowiedniego języka obcego. Imperial podaje wymóg w skali staninowej; sprawdź w informacji o wynikach z CKE, jak Twoje wyniki z Matury przeliczają się na stanin, albo zapytaj uczelnię.",
+    "matura": "uznawana z warunkami (Matura jest na liście kwalifikacji przyjmowanych przez Imperial; wymagany poziom rozszerzony i stanin 9 z matematyki i 8 z fizyki)"
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/civil-engineering/",
+   "quote": "numerical grades refer to the required stanine: 9 in Mathematics 8 in Physics"
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Civil Engineering MEng",
+   "set": {
+    "tuitionNonEu": "47 800 GBP rocznie (wniosek 2027)",
+    "academicYear": "2027/28 (start październik 2027)"
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/civil-engineering/",
+   "quote": "Overseas fee 2027 entry £47,800 per year"
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Civil Engineering MEng",
+   "set": {
+    "deadline": "Wniosek przez UCAS do środy 13 stycznia 2027, godz. 18:00 czasu brytyjskiego (termin równego rozpatrzenia). Test ESAT w jednym z okien: 12 do 16 października 2026 (rejestracja na to okno zamknęła się 28 września 2026) lub 4 do 8 stycznia 2027 (rejestracja od 26 października do 21 grudnia 2026)."
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/apply/undergraduate/process/deadlines/",
+   "quote": "13 January 2027 (18.00 UK time) – Equal consideration deadline"
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Medicine MBBS/BSc",
+   "set": {
+    "requirements": "Dla polskiej Matury Imperial wymaga przedmiotów na poziomie rozszerzonym w skali staninowej, czyli stanin 9 lub 8 z biologii i z chemii (w dowolnej kolejności). Minimum Imperial dla A-level: A*AA z chemią i biologią, z A* w jednym z tych przedmiotów (38 punktów w IB). Imperial podaje wymóg w skali staninowej; sprawdź w informacji o wynikach z CKE, jak Twoje wyniki z Matury przeliczają się na stanin, albo zapytaj uczelnię.",
+    "matura": "uznawana z warunkami (Matura jest na liście kwalifikacji przyjmowanych przez Imperial; wymagany poziom rozszerzony i stanin 9 lub 8 z biologii i z chemii (w dowolnej kolejności))"
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/medicine/",
+   "quote": "numerical grades refer to the required stanine: 9 / 8 in Biology and Chemistry (grades any order)"
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Medicine MBBS/BSc",
+   "set": {
+    "tuitionNonEu": "61 550 GBP rocznie (wniosek 2027)",
+    "academicYear": "2027/28 (start październik 2027)"
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/medicine/",
+   "quote": "Overseas fee 2027 entry £61,550 per year"
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Computing BEng",
+   "set": {
+    "notes": "Imperial nie ma kierunku data science na I stopniu poza Economics, Finance and Data Science i matematyką; Computing jest drogą ogólną do programisty i analityka danych. Stosunek zgłoszeń do miejsc 13:1 (2025). Obywatel Polski płaci stawkę dla studentów zagranicznych (Overseas fee), bez preferencji UE."
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+   "quote": "Applications: places 13 : 1 (2025)"
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Economics, Finance and Data Science BSc",
+   "set": {
+    "notes": "Stosunek zgłoszeń do miejsc 13:1 (2025). Obywatel Polski płaci stawkę dla studentów zagranicznych (Overseas fee), bez preferencji UE."
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/economics-finance-data-science/",
+   "quote": "Applications: places 13 : 1 (2025)"
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Mechanical Engineering MEng",
+   "set": {
+    "notes": "Zintegrowany magister 4 lata (MEng), droga do tytułu Chartered Engineer. Stawka 47 800 GBP dotyczy wejścia 2027 (strona kursu). Obywatel Polski płaci stawkę dla studentów zagranicznych (Overseas fee), bez preferencji UE.",
+    "languageProof": "Standardowy poziom uczelni: IELTS Academic 6,5 ogółem (min. 6,0 w każdej części). Imperial wskazuje dla tego kursu „standard university requirement”."
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/mechanical-engineering/",
+   "quote": "you must achieve the standard university requirement in the appropriate English language qualification"
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Civil Engineering MEng",
+   "set": {
+    "notes": "Opisano wariant H201; wariant z rokiem za granicą ma kod H202. Stawka 47 800 GBP dotyczy wejścia 2027 (strona kursu). Obywatel Polski płaci stawkę dla studentów zagranicznych (Overseas fee), bez preferencji UE.",
+    "languageProof": "Standardowy poziom uczelni: IELTS Academic 6,5 ogółem (min. 6,0 w każdej części). Imperial wskazuje dla tego kursu „standard university requirement”."
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/civil-engineering/",
+   "quote": "you must achieve the standard university requirement in the appropriate English language qualification"
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Medicine MBBS/BSc",
+   "set": {
+    "notes": "Imperial wymaga zdanego testu UCAT i rozmowy kwalifikacyjnej; bez rozmowy nie składa się ofert. UCAT na nabór 2027 trzeba było zdać w 2026 roku. Dyplom MBBS z Londynu wymaga osobnego uznania do praktyki w Polsce; tego nie badano. Obywatel Polski płaci stawkę dla studentów zagranicznych (Overseas fee), bez preferencji UE."
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/medicine/",
+   "quote": "You must meet the minimum academic requirements and have taken the UCAT admissions test."
+  },
+  {
+   "university": "Imperial College London",
+   "programName": "Medicine MBBS/BSc",
+   "set": {
+    "deadline": "Wniosek przez UCAS do czwartku 15 października 2026, godz. 18:00 czasu brytyjskiego (termin dla medycyny, stomatologii, weterynarii oraz Oxfordu i Cambridge)."
+   },
+   "sourceUrl": "https://www.imperial.ac.uk/study/apply/undergraduate/process/deadlines/",
+   "quote": "15 October 2026 (18.00 UK time) – Deadline for MBBS Medicine and Graduate Entry Medicine"
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Psychology BSc (Hons)",
+   "set": {
+    "requirements": "Typowa oferta A-level: AAB z co najmniej jednym przedmiotem ścisłym (biologia, chemia, matematyka, matematyka rozszerzona, fizyka lub psychologia). To odpowiada 75 procent w trzech przedmiotach rozszerzonych. Tabela QMUL dla Matury (trzy przedmioty na poziomie rozszerzonym): A*AA to 85 procent, AAA 80, AAB i ABB 75, BBB 70. QMUL zastrzega, że rzeczywiste oferty mogą się nieznacznie różnić. Oferta dla Matury jest przeliczona z tabeli ogólnej; QMUL nie podaje osobnej oferty Matury dla tego kursu, więc potwierdź ją z uczelnią.",
+    "selective": true,
+    "academicYear": "2027/28 (start wrzesień 2027)"
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/psychology/",
+   "quote": "Typical A-Level offer Grades AAB at A-Level."
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Psychology BSc (Hons)",
+   "set": {
+    "tuitionNonEu": "34 750 GBP rocznie (wniosek 2027)"
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/psychology/",
+   "quote": "Home fees £10,050 Overseas fees £34,750"
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Psychology BSc (Hons)",
+   "set": {
+    "matura": "uznawana z warunkami (QMUL przyjmuje polskie Świadectwo Dojrzałości do wszystkich programów licencjackich poza medycyną i stomatologią, według własnej tabeli ekwiwalentów A-level)"
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/international-students/regions/europe/entry-requirements/poland/",
+   "quote": "This is Queen Mary's equivalency table for GCE A-Levels and the Polish Certificate of Maturity"
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Psychology BSc (Hons)",
+   "set": {
+    "deadline": "Wniosek przez UCAS do 13 stycznia 2027 (termin równego rozpatrzenia dla większości kursów QMUL). Dla kandydatów zagranicznych terminy są bardziej elastyczne, ale na popularne kursy QMUL radzi składać wniosek wcześnie. Kod instytucji UCAS: Q50."
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/apply/how-to-apply/",
+   "quote": "The application deadline for equal consideration for the majority of Queen Mary courses is 13 January 2027."
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Psychology BSc (Hons)",
+   "set": {
+    "languageProof": "IELTS Academic 6,0 ogółem (min. 5,5 w każdej części), Band 3 wg QMUL."
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/international-students/englishlanguagerequirements/undergraduate-and-postgraduate-programmes/",
+   "quote": "Band 3: IELTS (Academic) minimum score 6.0 overall with 5.5 in each of Writing, Listening, Reading and Speaking"
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Psychology BSc (Hons)",
+   "set": {
+    "notes": "Warianty: z rokiem za granicą (C80Y, 4 lata) oraz Biological Sciences with Foundation (CCX2). Obywatel Polski płaci stawkę dla studentów zagranicznych (Overseas fee), bez preferencji UE."
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/psychology/",
+   "quote": "Typical A-Level offer Grades AAB at A-Level."
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Computer Science BSc (Hons)",
+   "set": {
+    "requirements": "Typowa oferta A-level: AAA z matematyką, informatyką lub fizyką. To odpowiada 80 procent w trzech przedmiotach rozszerzonych. Tabela QMUL dla Matury (trzy przedmioty na poziomie rozszerzonym): A*AA to 85 procent, AAA 80, AAB i ABB 75, BBB 70. QMUL zastrzega, że rzeczywiste oferty mogą się nieznacznie różnić. Oferta dla Matury jest przeliczona z tabeli ogólnej; QMUL nie podaje osobnej oferty Matury dla tego kursu, więc potwierdź ją z uczelnią.",
+    "selective": true,
+    "academicYear": "2027/28 (start wrzesień 2027)"
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/computer-science/",
+   "quote": "Typical A-Level offer Grades AAA at A-Level."
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Computer Science BSc (Hons)",
+   "set": {
+    "tuitionNonEu": "34 750 GBP rocznie (wniosek 2027)"
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/computer-science/",
+   "quote": "Home fees £10,050 Overseas fees £34,750"
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Computer Science BSc (Hons)",
+   "set": {
+    "matura": "uznawana z warunkami (QMUL przyjmuje polskie Świadectwo Dojrzałości do wszystkich programów licencjackich poza medycyną i stomatologią, według własnej tabeli ekwiwalentów A-level)"
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/international-students/regions/europe/entry-requirements/poland/",
+   "quote": "This is Queen Mary's equivalency table for GCE A-Levels and the Polish Certificate of Maturity"
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Computer Science BSc (Hons)",
+   "set": {
+    "deadline": "Wniosek przez UCAS do 13 stycznia 2027 (termin równego rozpatrzenia dla większości kursów QMUL). Dla kandydatów zagranicznych terminy są bardziej elastyczne, ale na popularne kursy QMUL radzi składać wniosek wcześnie. Kod instytucji UCAS: Q50."
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/apply/how-to-apply/",
+   "quote": "The application deadline for equal consideration for the majority of Queen Mary courses is 13 January 2027."
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Computer Science BSc (Hons)",
+   "set": {
+    "languageProof": "IELTS Academic 6,0 ogółem (min. 5,5 w każdej części), Band 3 wg QMUL."
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/international-students/englishlanguagerequirements/undergraduate-and-postgraduate-programmes/",
+   "quote": "Band 3: IELTS (Academic) minimum score 6.0 overall with 5.5 in each of Writing, Listening, Reading and Speaking"
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Computer Science BSc (Hons)",
+   "set": {
+    "notes": "Warianty: z rokiem fundamentowym (GGX5, 4 lata), przemysłowym (G402), za granicą (G40Y) oraz MSci (G401, 4 lata). Obywatel Polski płaci stawkę dla studentów zagranicznych (Overseas fee), bez preferencji UE."
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/computer-science/",
+   "quote": "Typical A-Level offer Grades AAA at A-Level."
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Law LLB",
+   "set": {
+    "requirements": "Typowa oferta A-level: A*AA. To odpowiada 85 procent w trzech przedmiotach rozszerzonych. Tabela QMUL dla Matury (trzy przedmioty na poziomie rozszerzonym): A*AA to 85 procent, AAA 80, AAB i ABB 75, BBB 70. QMUL zastrzega, że rzeczywiste oferty mogą się nieznacznie różnić. Oferta dla Matury jest przeliczona z tabeli ogólnej; QMUL nie podaje osobnej oferty Matury dla tego kursu, więc potwierdź ją z uczelnią.",
+    "selective": true,
+    "academicYear": "2027/28 (start wrzesień 2027)"
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/law/",
+   "quote": "Typical A-Level offer Grades A*AA at A-Level."
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Law LLB",
+   "set": {
+    "tuitionNonEu": "30 950 GBP rocznie (wniosek 2027)"
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/law/",
+   "quote": "Home fees £10,050 Overseas fees £30,950"
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Law LLB",
+   "set": {
+    "matura": "uznawana z warunkami (QMUL przyjmuje polskie Świadectwo Dojrzałości do wszystkich programów licencjackich poza medycyną i stomatologią, według własnej tabeli ekwiwalentów A-level)"
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/international-students/regions/europe/entry-requirements/poland/",
+   "quote": "This is Queen Mary's equivalency table for GCE A-Levels and the Polish Certificate of Maturity"
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Law LLB",
+   "set": {
+    "deadline": "Wniosek przez UCAS do 13 stycznia 2027 (termin równego rozpatrzenia dla większości kursów QMUL). Dla kandydatów zagranicznych terminy są bardziej elastyczne, ale na popularne kursy QMUL radzi składać wniosek wcześnie. Kod instytucji UCAS: Q50."
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/apply/how-to-apply/",
+   "quote": "The application deadline for equal consideration for the majority of Queen Mary courses is 13 January 2027."
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Law LLB",
+   "set": {
+    "languageProof": "Szkoła prawa ma podwyższone wymagania: IELTS Academic 7,0 ogółem, w tym 6,5 z pisania i 5,5 z pozostałych części (wszystkie programy licencjackie)."
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/international-students/englishlanguagerequirements/programmes-with-non-standard-requirements/",
+   "quote": "Non-standard requirements in the School of Law All programmes in this school have non-standard English language requirements."
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Law LLB",
+   "set": {
+    "notes": "Strona kursu nie wymienia testu LNAT. To prawo angielskie, nie kwalifikuje do zawodów prawniczych w Polsce. Obywatel Polski płaci stawkę dla studentów zagranicznych (Overseas fee), bez preferencji UE."
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/law/",
+   "quote": "Typical A-Level offer Grades A*AA at A-Level."
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Economics BSc (Econ) (Hons)",
+   "set": {
+    "requirements": "Typowa oferta A-level: AAA z matematyką. To odpowiada 80 procent w trzech przedmiotach rozszerzonych. Tabela QMUL dla Matury (trzy przedmioty na poziomie rozszerzonym): A*AA to 85 procent, AAA 80, AAB i ABB 75, BBB 70. QMUL zastrzega, że rzeczywiste oferty mogą się nieznacznie różnić. Oferta dla Matury jest przeliczona z tabeli ogólnej; QMUL nie podaje osobnej oferty Matury dla tego kursu, więc potwierdź ją z uczelnią.",
+    "selective": true,
+    "academicYear": "2027/28 (start wrzesień 2027)"
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/economics/",
+   "quote": "Typical A-Level offer This must include A-Level Mathematics. Grades AAA at A-Level."
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Economics BSc (Econ) (Hons)",
+   "set": {
+    "tuitionNonEu": "30 950 GBP rocznie (wniosek 2027)"
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/economics/",
+   "quote": "Home fees £10,050 Overseas fees £30,950"
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Economics BSc (Econ) (Hons)",
+   "set": {
+    "matura": "uznawana z warunkami (QMUL przyjmuje polskie Świadectwo Dojrzałości do wszystkich programów licencjackich poza medycyną i stomatologią, według własnej tabeli ekwiwalentów A-level)"
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/international-students/regions/europe/entry-requirements/poland/",
+   "quote": "This is Queen Mary's equivalency table for GCE A-Levels and the Polish Certificate of Maturity"
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Economics BSc (Econ) (Hons)",
+   "set": {
+    "deadline": "Wniosek przez UCAS do 13 stycznia 2027 (termin równego rozpatrzenia dla większości kursów QMUL). Dla kandydatów zagranicznych terminy są bardziej elastyczne, ale na popularne kursy QMUL radzi składać wniosek wcześnie. Kod instytucji UCAS: Q50."
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/apply/how-to-apply/",
+   "quote": "The application deadline for equal consideration for the majority of Queen Mary courses is 13 January 2027."
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Economics BSc (Econ) (Hons)",
+   "set": {
+    "languageProof": "IELTS Academic 6,5 ogółem (min. 6,0 w każdej części), Band 4 wg QMUL."
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/international-students/englishlanguagerequirements/undergraduate-and-postgraduate-programmes/",
+   "quote": "Band 4: IELTS (Academic) minimum score 6.5 overall with 6.0 in each of Writing, Listening, Reading and Speaking"
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Economics BSc (Econ) (Hons)",
+   "set": {
+    "notes": "Warianty: z rokiem fundamentowym (L10F), rokiem w przemyśle (L109) i rokiem za granicą (L10Y). Obywatel Polski płaci stawkę dla studentów zagranicznych (Overseas fee), bez preferencji UE."
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/economics/",
+   "quote": "Typical A-Level offer This must include A-Level Mathematics. Grades AAA at A-Level."
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Mechanical Engineering BEng (Hons)",
+   "set": {
+    "requirements": "Typowa oferta A-level: AAB z matematyką oraz fizyką lub chemią. To odpowiada 75 procent w trzech przedmiotach rozszerzonych. Tabela QMUL dla Matury (trzy przedmioty na poziomie rozszerzonym): A*AA to 85 procent, AAA 80, AAB i ABB 75, BBB 70. QMUL zastrzega, że rzeczywiste oferty mogą się nieznacznie różnić. Oferta dla Matury jest przeliczona z tabeli ogólnej; QMUL nie podaje osobnej oferty Matury dla tego kursu, więc potwierdź ją z uczelnią.",
+    "selective": true,
+    "academicYear": "2027/28 (start wrzesień 2027)"
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/mechanical-engineering/",
+   "quote": "Typical A-Level offer Grades AAB at A-Level. This must include A-Level Mathematics, and Physics or Chemistry."
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Mechanical Engineering BEng (Hons)",
+   "set": {
+    "tuitionNonEu": "34 750 GBP rocznie (wniosek 2027)"
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/mechanical-engineering/",
+   "quote": "Home fees £10,050 Overseas fees £34,750"
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Mechanical Engineering BEng (Hons)",
+   "set": {
+    "matura": "uznawana z warunkami (QMUL przyjmuje polskie Świadectwo Dojrzałości do wszystkich programów licencjackich poza medycyną i stomatologią, według własnej tabeli ekwiwalentów A-level)"
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/international-students/regions/europe/entry-requirements/poland/",
+   "quote": "This is Queen Mary's equivalency table for GCE A-Levels and the Polish Certificate of Maturity"
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Mechanical Engineering BEng (Hons)",
+   "set": {
+    "deadline": "Wniosek przez UCAS do 13 stycznia 2027 (termin równego rozpatrzenia dla większości kursów QMUL). Dla kandydatów zagranicznych terminy są bardziej elastyczne, ale na popularne kursy QMUL radzi składać wniosek wcześnie. Kod instytucji UCAS: Q50."
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/apply/how-to-apply/",
+   "quote": "The application deadline for equal consideration for the majority of Queen Mary courses is 13 January 2027."
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Mechanical Engineering BEng (Hons)",
+   "set": {
+    "languageProof": "IELTS Academic 6,0 ogółem (min. 5,5 w każdej części), Band 3 wg QMUL."
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/international-students/englishlanguagerequirements/undergraduate-and-postgraduate-programmes/",
+   "quote": "Band 3: IELTS (Academic) minimum score 6.0 overall with 5.5 in each of Writing, Listening, Reading and Speaking"
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Mechanical Engineering BEng (Hons)",
+   "set": {
+    "notes": "Warianty: MEng H301 (4 lata), z rokiem fundamentowym (HHX3, 4 lata). Obywatel Polski płaci stawkę dla studentów zagranicznych (Overseas fee), bez preferencji UE."
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2027/mechanical-engineering/",
+   "quote": "Typical A-Level offer Grades AAB at A-Level. This must include A-Level Mathematics, and Physics or Chemistry."
+  },
+  {
+   "university": "Queen Mary University of London",
+   "programName": "Medicine MBBS",
+   "set": {
+    "matura": "nieuznawana (QMUL: polskie Świadectwo Dojrzałości nie jest przyjmowane na programy MBBS i BDS w Londynie; jest przyjmowane na MBBS realizowany na Malcie)",
+    "notes": "Polski kandydat z samą Maturą nie może aplikować na medycynę QMUL w Londynie; potrzebne są inne kwalifikacje (np. IB albo A-level), albo program MBBS na Malcie. Obywatel Polski płaci stawkę dla studentów zagranicznych (Overseas fee), bez preferencji UE."
+   },
+   "sourceUrl": "https://www.qmul.ac.uk/international-students/regions/europe/entry-requirements/poland/",
+   "quote": "the Polish Certificate of Maturity is not accepted for admission to either our MBBS or BDS programmes (but is accepted for all other undergraduate programmes)"
+  },
+  {
+   "university": "King's College London",
+   "programName": "Psychology BSc",
+   "set": {
+    "matura": "wymaga potwierdzenia przez uczelnię (KCL pokazuje wymagania dla poszczególnych krajów w narzędziu wyboru kraju na stronie kursu; treść strony nie wymienia Polski)",
+    "requirements": "Wymagane A-levels: A*AA (oferta kontekstowa: IB 35 punktów lub 17 z trzech przedmiotów HL). Wymagania dla polskiej Matury KCL pokazuje w narzędziu wyboru kraju na stronie kursu (sekcja „International applicants”); nie ma ich w treści strony, więc sprawdź je tam albo zapytaj King's Advisors. Kursy bez Matury w katalogu mają opcję International Foundation Programme.",
+    "academicYear": "2027/28 (start wrzesień 2027)"
+   },
+   "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/courses/psychology-bsc/requirements",
+   "quote": "International applicants Equivalent International qualifications Select a country"
+  },
+  {
+   "university": "King's College London",
+   "programName": "Psychology BSc",
+   "set": {
+    "deadline": "Wniosek przez UCAS do 13 stycznia 2027, godz. 18:00 czasu brytyjskiego. KCL uznaje wnioski złożone po tym terminie za spóźnione, mimo bardziej elastycznych terminów UCAS dla kandydatów zagranicznych."
+   },
+   "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/how-to-apply",
+   "quote": "The standard deadline for applications is 13 January 2027 18:00 (UK time)"
+  },
+  {
+   "university": "King's College London",
+   "programName": "Psychology BSc",
+   "set": {
+    "tuitionNonEu": "Cena dla studentów zagranicznych jest podana tylko w katalogu kursów KCL (nie w treści strony); do potwierdzenia na stronie uczelni. Obywatele UE płacą stawkę międzynarodową.",
+    "notes": "Kody UCAS: C800, C801 (rok za granicą), C802 (rok praktyk). Kurs trwa 3 lata, a z rokiem za granicą lub praktyk 4 lata. Polak płaci stawkę dla studentów zagranicznych, bez preferencji UE."
+   },
+   "sourceUrl": "https://www.kcl.ac.uk/study/undergraduate/fees-and-funding/tuition-fees",
+   "quote": "All tuition fees can be found on each individual course page on the online course finder."
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [],
+ "summaryPatches": [
+  {
+   "label": "Polska matura",
+   "text": "Po Brexicie Polacy są studentami zagranicznymi (international students) bez przywilejów UE. Uczelnie oceniają Maturę własnymi tabelami ekwiwalentów A-level. QMUL (tabela dla Matury, trzy przedmioty na poziomie rozszerzonym): 85 procent to A*AA, 80 procent AAA, 75 procent AAB i ABB, 70 procent BBB; QMUL zastrzega, że rzeczywiste oferty mogą się nieco różnić. Matura nie jest przyjmowana na medycynę QMUL w Londynie. Imperial podaje wymagania dla Matury w skali staninowej, na poziomie rozszerzonym: informatyka 9 z matematyki i 9 z przedmiotu pokrewnego; ekonomia, finanse i data science 9 z matematyki i 8 z innego przedmiotu; mechanika 9 z matematyki i 9 z fizyki; budownictwo 9 z matematyki i 8 z fizyki; medycyna 9 lub 8 z biologii i chemii. KCL pokazuje wymagania dla Polski tylko w narzędziu wyboru kraju na stronie kursu, więc dla KCL status Matury wymaga potwierdzenia na stronie uczelni.",
+   "sourceUrl": "https://www.qmul.ac.uk/international-students/regions/europe/entry-requirements/poland/",
+   "quote": "This is Queen Mary's equivalency table for GCE A-Levels and the Polish Certificate of Maturity"
+  },
+  {
+   "label": "Opłaty",
+   "text": "Opłaty dla studentów zagranicznych (GBP rocznie, wniosek 2027): Imperial Computing 47 800, Mechanical i Civil Engineering 47 800, Economics, Finance and Data Science 44 800, medycyna 61 550; QMUL 30 950 (prawo, ekonomia) do 34 750 (psychologia, informatyka, inżynieria). QMUL zastrzega możliwość corocznej podwyżki dla studentów zagranicznych (w 2026/27 inflacyjna podwyżka nie przekroczy 10 procent). Cena dotyczy jednego roku. Brytyjczycy płacą 10 050 GBP (2027/28). Cen KCL dla studentów zagranicznych nie podano w treści stron uczelni.",
+   "sourceUrl": "https://www.qmul.ac.uk/undergraduate/feesandfunding/tuition-fees/",
+   "quote": "The inflationary increase for international university fees in 2026-27 will be no more than 10%."
+  },
+  {
+   "label": "Wiza i pobyt",
+   "text": "Potrzebna jest wiza Student: opłata 558 GBP przy składaniu wniosku spoza Wielkiej Brytanii, do tego opłata zdrowotna (Immigration Health Surcharge), której wysokość zależy od długości pobytu. Wniosek można złożyć najwcześniej 6 miesięcy przed startem kursu, a decyzja zapada zwykle w ciągu 3 tygodni. Wymagany jest dowód środków na utrzymanie i znajomości angielskiego. Kwoty środków dla Londynu, stawki IHS i lista kierunków wymagających zaświadczenia ATAS nie zostały tu sprawdzone.",
+   "sourceUrl": "https://www.gov.uk/student-visa",
+   "quote": "£558 to apply for a Student visa from outside the UK"
+  },
+  {
+   "label": "Znajomość angielskiego",
+   "text": "Wymagany jest IELTS Academic (UKVI) lub równoważny test, od 6,0 do 7,5 ogółem zależnie od uczelni i kierunku. Imperial: 6,5 (poziom standardowy, kierunki informatyka, mechanika, budownictwo) albo 7,0 (poziom wyższy, ekonomia, finanse i data science, medycyna). QMUL: 6,0 (Band 3, psychologia, informatyka, mechanika), 6,5 (Band 4, ekonomia), 7,0 z 6,5 z pisania (prawo). KCL (psychologia): Band B według strony kursu.",
+   "sourceUrl": "https://www.qmul.ac.uk/international-students/englishlanguagerequirements/undergraduate-and-postgraduate-programmes/",
+   "quote": "Band 4: IELTS (Academic) minimum score 6.5 overall with 6.0 in each of Writing, Listening, Reading and Speaking"
+  },
+  {
+   "label": "Rekrutacja",
+   "text": "UCAS: 15 października 2026 (godz. 18:00 czasu brytyjskiego) dla medycyny; 13 stycznia 2027 (godz. 18:00) termin równego rozpatrzenia dla pozostałych kierunków (potwierdzone na stronach Imperial, QMUL i KCL). Wnioski spóźnione KCL uznaje za późne, a kandydaci zagraniczni mają w UCAS bardziej elastyczne terminy. Testy: UCAT (medycyna; na nabór 2027 trzeba było zdać go w 2026 roku), TMUA (informatyka oraz ekonomia, finanse i data science na Imperial) i ESAT (mechanika i budownictwo na Imperial) w oknach 12 do 16 października 2026 i 4 do 8 stycznia 2027. Rejestracja na pierwsze okno zamknęła się 28 września 2026; na drugie trwa od 26 października do 21 grudnia 2026.",
+   "sourceUrl": "https://www.imperial.ac.uk/study/apply/undergraduate/process/deadlines/",
+   "quote": "13 January 2027 (18.00 UK time) – Equal consideration deadline"
+  }
+ ],
+ "gapsSet": [
+  "Nie uwzględniono UCL, bo jego strony kursów były niedostępne publicznie. Brak więc UCL w ofercie Londynu.",
+  "KCL: opisano tylko psychologię. Cena dla studentów zagranicznych i wymagania dla polskiej Matury są podane wyłącznie w dynamicznym narzędziu na stronie kursu. Brakuje informatyki, prawa, medycyny i inżynierii KCL.",
+  "Brak programów z dziennikarstwa i architektury.",
+  "QMUL: nie sprawdzono kursu Civil Engineering ani czasu trwania i ceny medycyny MBBS. Odrębny termin UCAS dla medycyny QMUL nie został sprawdzony.",
+  "QMUL Law: strona kursu nie wymienia testu LNAT; czy jest wymagany, należy potwierdzić z uczelnią.",
+  "Oferty QMUL dla Matury są przeliczone z tabeli ogólnej ekwiwalentów (rzeczywiste oferty mogą się nieznacznie różnić), a nie podane osobno dla każdego kursu.",
+  "Imperial podaje wymagania w skali staninowej. Jak przeliczyć wyniki z Matury na stanin, trzeba sprawdzić w informacji o wynikach z CKE albo zapytać uczelnię.",
+  "Brak kwoty środków na utrzymanie wymaganej do wizy dla Londynu, stawki Immigration Health Surcharge oraz listy kierunków wymagających zaświadczenia ATAS (gov.uk, UKCISA).",
+  "KCL: strona kursu podaje tylko Band B, a wymagany wynik w punktach IELTS trzeba sprawdzić na stronie uczelni.",
+  "Medycyna i prawo nie dają prawa wykonywania zawodu w Polsce bez uznania kwalifikacji; tego nie badano."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+   "note": "Strona kursu Computing (Imperial): wymagania dla Matury, opłata 2027, test TMUA."
+  },
+  {
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/economics-finance-data-science/",
+   "note": "Strona kursu Economics, Finance and Data Science (Imperial)."
+  },
+  {
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/mechanical-engineering/",
+   "note": "Strona kursu Mechanical Engineering (Imperial): wymagania dla Matury, opłata 2027, test ESAT."
+  },
+  {
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/civil-engineering/",
+   "note": "Strona kursu Civil Engineering (Imperial)."
+  },
+  {
+   "url": "https://www.imperial.ac.uk/study/courses/undergraduate/medicine/",
+   "note": "Strona kursu Medicine (Imperial): wymagania dla Matury, opłata 2027, UCAT."
+  },
+  {
+   "url": "https://www.imperial.ac.uk/study/apply/undergraduate/process/deadlines/",
+   "note": "Terminy UCAS i okna testów przyjęć Imperial (rejestracja na TMUA i ESAT)."
+  },
+  {
+   "url": "https://www.qmul.ac.uk/international-students/regions/europe/entry-requirements/poland/",
+   "note": "QMUL: tabela ekwiwalentów Matury i A-level, brak akceptacji Matury na medycynę."
+  },
+  {
+   "url": "https://www.qmul.ac.uk/international-students/englishlanguagerequirements/undergraduate-and-postgraduate-programmes/",
+   "note": "QMUL: wymagania z angielskiego według szkół (Band 3 i Band 4)."
+  },
+  {
+   "url": "https://www.qmul.ac.uk/international-students/englishlanguagerequirements/programmes-with-non-standard-requirements/",
+   "note": "QMUL: niestandardowe wymagania z angielskiego (szkoła prawa)."
+  },
+  {
+   "url": "https://www.qmul.ac.uk/undergraduate/apply/how-to-apply/",
+   "note": "QMUL: termin UCAS 13 stycznia 2027."
+  },
+  {
+   "url": "https://www.qmul.ac.uk/undergraduate/feesandfunding/tuition-fees/",
+   "note": "QMUL: opłaty dla studentów zagranicznych i podwyżka w 2026/27."
+  },
+  {
+   "url": "https://www.kcl.ac.uk/study/undergraduate/how-to-apply",
+   "note": "KCL: terminy UCAS na wejście 2027."
+  },
+  {
+   "url": "https://www.kcl.ac.uk/study/undergraduate/courses/psychology-bsc/requirements",
+   "note": "KCL Psychology: wymagania, narzędzie wyboru kraju dla kandydatów zagranicznych."
+  }
+ ]
+}

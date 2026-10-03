@@ -1,0 +1,311 @@
+{
+ "slug": "rotterdam",
+ "programPatches": [
+  {
+   "university": "Erasmus University Rotterdam (EUR)",
+   "programName": "International Bachelor in Psychology",
+   "set": {
+    "matura": "wymaga dodatkowego etapu"
+   },
+   "sourceUrl": "https://www.eur.nl/en/bachelor/international-bachelor-psychology/admission",
+   "quote": "The International Bachelor's in Psychology is a numerus fixus programme."
+  },
+  {
+   "university": "Erasmus University Rotterdam (EUR)",
+   "programName": "International Bachelor Economics and Business Economics (IBEB)",
+   "set": {
+    "matura": "wymaga dodatkowego etapu"
+   },
+   "sourceUrl": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+   "quote": "this study programme is a numerus-fixus programme"
+  },
+  {
+   "university": "Erasmus University Rotterdam (EUR)",
+   "programName": "Bachelor International Business Administration (IBA)",
+   "set": {
+    "matura": "wymaga dodatkowego etapu"
+   },
+   "sourceUrl": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/",
+   "quote": "Grades count for 75% of your final ranking"
+  },
+  {
+   "university": "Erasmus University Rotterdam (EUR)",
+   "programName": "International Bachelor Communication and Media (IBCoM)",
+   "set": {
+    "matura": "wymaga dodatkowego etapu"
+   },
+   "sourceUrl": "https://www.eur.nl/en/bachelor/international-bachelor-communication-and-media/admission",
+   "quote": "the selection committee will therefore pay due attention to the motivation letter in selecting students for the programme"
+  },
+  {
+   "university": "Erasmus University Rotterdam (EUR)",
+   "programName": "International Bachelor Econometrics and Operations Research",
+   "set": {
+    "deadline": "Zgłoszenia są przyjmowane od 1 listopada 2026. Termin dla obywateli UE/EOG: 1 maja 2027, dla osób spoza UE/EOG: 1 kwietnia 2027. Dokumenty (uwierzytelnione kopie dyplomu) trzeba dosłać najpóźniej do 1 sierpnia. Uczelnia odpowiada w ciągu sześciu tygodni od złożenia wniosku. Opłata aplikacyjna 100 EUR.",
+    "applyUrl": "https://www.eur.nl/en/bachelor/international-bachelor-econometrics-and-operations-research/application"
+   },
+   "sourceUrl": "https://www.eur.nl/en/bachelor/international-bachelor-econometrics-and-operations-research/application",
+   "quote": "We open for applications from 1 November 2026"
+  },
+  {
+   "university": "Erasmus University Rotterdam (EUR)",
+   "programName": "International Bachelor Econometrics and Operations Research",
+   "set": {
+    "requirements": "Program nie ma numerus fixus, ale komisja rekrutacyjna rozpatruje każde zgłoszenie osobno i na bieżąco, a przyjęcie nie jest gwarantowane. Dla Polski: Świadectwo ukończenia i Świadectwo Dojrzałości liceum ogólnokształcącego (tylko liceum ogólnokształcące). Obowiązkowy jest egzamin uzupełniający z matematyki (OMPT-D powyżej 75 procent lub inny akceptowany certyfikat z matematyki B) oraz test z angielskiego. Wynik z matematyki powinien być znany przed 1 maja, bo jest ważnym elementem selekcji. Z tego powodu status matury to „wymaga dodatkowego etapu”."
+   },
+   "sourceUrl": "https://www.eur.nl/en/bachelor/international-bachelor-econometrics-and-operations-research/admission",
+   "quote": "each application is reviewed individually"
+  },
+  {
+   "university": "Erasmus University Rotterdam (EUR)",
+   "programName": "Rechtsgeleerdheid (Bachelor)",
+   "set": {
+    "languages": [
+     "niderlandzki (poziom wymagany od kandydatów z Polski nie jest podany na stronie programu)"
+    ]
+   },
+   "sourceUrl": "https://www.eur.nl/bachelor/rechtsgeleerdheid",
+   "quote": "Voertaal Nederlands"
+  },
+  {
+   "university": "Erasmus MC (Erasmus University Medical Center Rotterdam, wydział medyczny EUR)",
+   "programName": "Geneeskunde (Bachelor)",
+   "set": {
+    "matura": "wymaga dodatkowego etapu",
+    "languages": [
+     "niderlandzki (poziom wymagany od kandydatów z Polski nie jest podany na stronie programu)"
+    ]
+   },
+   "sourceUrl": "https://www.eur.nl/bachelor/geneeskunde/toelating",
+   "quote": "Studenten worden geselecteerd via een decentrale selectie"
+  },
+  {
+   "university": "Hogeschool Rotterdam",
+   "programName": "Informatica (voltijd)",
+   "set": {
+    "deadline": "Zalecany termin zgłoszenia w Studielink i przesłania dokumentów dla dyplomów zagranicznych: do 1 maja 2027, przy starcie 1 września 2027. Po tym terminie zgłoszenia są przyjmowane do 31 lipca, ale bez ustawowego prawa do przyjęcia."
+   },
+   "sourceUrl": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/",
+   "quote": "We raden je dringend aan je uiterlijk 1 mei 2027* aan te melden als je per 1 september 2027 wilt starten met je opleiding."
+  },
+  {
+   "university": "Hogeschool Rotterdam",
+   "programName": "Civiele Techniek (voltijd)",
+   "set": {
+    "deadline": "Zalecany termin zgłoszenia w Studielink i przesłania dokumentów dla dyplomów zagranicznych: do 1 maja 2027, przy starcie 1 września 2027. Po tym terminie zgłoszenia są przyjmowane do 31 lipca, ale bez ustawowego prawa do przyjęcia."
+   },
+   "sourceUrl": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/",
+   "quote": "We raden je dringend aan je uiterlijk 1 mei 2027* aan te melden als je per 1 september 2027 wilt starten met je opleiding."
+  },
+  {
+   "university": "Hogeschool Rotterdam",
+   "programName": "Werktuigbouwkunde (voltijd)",
+   "set": {
+    "deadline": "Zalecany termin zgłoszenia w Studielink i przesłania dokumentów dla dyplomów zagranicznych: do 1 maja 2027, przy starcie 1 września 2027. Po tym terminie zgłoszenia są przyjmowane do 31 lipca, ale bez ustawowego prawa do przyjęcia."
+   },
+   "sourceUrl": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/",
+   "quote": "We raden je dringend aan je uiterlijk 1 mei 2027* aan te melden als je per 1 september 2027 wilt starten met je opleiding."
+  },
+  {
+   "university": "Hogeschool Rotterdam",
+   "programName": "Bouwkunde (voltijd)",
+   "set": {
+    "deadline": "Zalecany termin zgłoszenia w Studielink i przesłania dokumentów dla dyplomów zagranicznych: do 1 maja 2027, przy starcie 1 września 2027. Po tym terminie zgłoszenia są przyjmowane do 31 lipca, ale bez ustawowego prawa do przyjęcia."
+   },
+   "sourceUrl": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/",
+   "quote": "We raden je dringend aan je uiterlijk 1 mei 2027* aan te melden als je per 1 september 2027 wilt starten met je opleiding."
+  },
+  {
+   "university": "Hogeschool Rotterdam",
+   "programName": "Communicatie (voltijd)",
+   "set": {
+    "deadline": "Zalecany termin zgłoszenia w Studielink i przesłania dokumentów dla dyplomów zagranicznych: do 1 maja 2027, przy starcie 1 września 2027. Po tym terminie zgłoszenia są przyjmowane do 31 lipca, ale bez ustawowego prawa do przyjęcia."
+   },
+   "sourceUrl": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/",
+   "quote": "We raden je dringend aan je uiterlijk 1 mei 2027* aan te melden als je per 1 september 2027 wilt starten met je opleiding."
+  },
+  {
+   "university": "Hogeschool Rotterdam",
+   "programName": "International Business (voltijd)",
+   "set": {
+    "deadline": "Zalecany termin zgłoszenia w Studielink i przesłania dokumentów dla dyplomów zagranicznych: do 1 maja 2027, przy starcie 1 września 2027. Po tym terminie zgłoszenia są przyjmowane do 31 lipca, ale bez ustawowego prawa do przyjęcia."
+   },
+   "sourceUrl": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/",
+   "quote": "We raden je dringend aan je uiterlijk 1 mei 2027* aan te melden als je per 1 september 2027 wilt starten met je opleiding."
+  },
+  {
+   "university": "Hogeschool Rotterdam",
+   "programName": "Informatica (voltijd)",
+   "set": {
+    "languages": [
+     "niderlandzki (wymagany poziom B2)",
+     "angielski (strona programu podaje niderlandzki i angielski jako języki nauczania, zakres angielskiego do potwierdzenia na stronie uczelni)"
+    ]
+   },
+   "sourceUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/informatica/voltijd/",
+   "quote": "Taal Nederlands en Engels"
+  },
+  {
+   "university": "Hogeschool Rotterdam",
+   "programName": "International Business (voltijd)",
+   "set": {
+    "languageProof": "Program w całości po angielsku, znajomość niderlandzkiego nie jest wymagana. Wymagany poziom angielskiego i akceptowane certyfikaty nie są podane na stronach programu ani na stronie o dyplomach zagranicznych, więc trzeba je potwierdzić w uczelni."
+   },
+   "sourceUrl": "https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/international-business/voltijd/",
+   "quote": "Taal Geheel in het Engels"
+  },
+  {
+   "university": "Technische Universiteit Delft (TU Delft), Delft (aglomeracja Rotterdam i Haga)",
+   "programName": "Computer Science and Engineering (BSc, English track)",
+   "set": {
+    "tuitionEu": "2 694 EUR rocznie w 2026/27 i 2 771 EUR rocznie w 2027/28 (opłata ustawowa dla obywateli UE/EOG według strony czesnego TU Delft).",
+    "tuitionNonEu": "Opłata instytucjonalna TU Delft na licencjat dla osób bez prawa do stawki ustawowej: 19 906 EUR rocznie w 2026/27 i 20 563 EUR rocznie w 2027/28.",
+    "tuitionUrl": "https://www.tudelft.nl/en/education/study-programme-orientation/practical-matters/tuition-fee-finances"
+   },
+   "sourceUrl": "https://www.tudelft.nl/en/education/study-programme-orientation/practical-matters/tuition-fee-finances",
+   "quote": "Institutional rate BSc € 19.906 MSc € 25.633 BSc € 20.563 MSc € 26.479"
+  },
+  {
+   "university": "Technische Universiteit Delft (TU Delft), Delft (aglomeracja Rotterdam i Haga)",
+   "programName": "Bouwkunde (BSc)",
+   "set": {
+    "tuitionEu": "2 694 EUR rocznie w 2026/27 i 2 771 EUR rocznie w 2027/28 (opłata ustawowa dla obywateli UE/EOG według strony czesnego TU Delft).",
+    "tuitionNonEu": "Opłata instytucjonalna TU Delft na licencjat dla osób bez prawa do stawki ustawowej: 19 906 EUR rocznie w 2026/27 i 20 563 EUR rocznie w 2027/28.",
+    "tuitionUrl": "https://www.tudelft.nl/en/education/study-programme-orientation/practical-matters/tuition-fee-finances"
+   },
+   "sourceUrl": "https://www.tudelft.nl/en/education/study-programme-orientation/practical-matters/tuition-fee-finances",
+   "quote": "Institutional rate BSc € 19.906 MSc € 25.633 BSc € 20.563 MSc € 26.479"
+  },
+  {
+   "university": "Technische Universiteit Delft (TU Delft), Delft (aglomeracja Rotterdam i Haga)",
+   "programName": "Civiele Techniek (BSc)",
+   "set": {
+    "tuitionEu": "2 694 EUR rocznie w 2026/27 i 2 771 EUR rocznie w 2027/28 (opłata ustawowa dla obywateli UE/EOG według strony czesnego TU Delft).",
+    "tuitionNonEu": "Opłata instytucjonalna TU Delft na licencjat dla osób bez prawa do stawki ustawowej: 19 906 EUR rocznie w 2026/27 i 20 563 EUR rocznie w 2027/28.",
+    "tuitionUrl": "https://www.tudelft.nl/en/education/study-programme-orientation/practical-matters/tuition-fee-finances"
+   },
+   "sourceUrl": "https://www.tudelft.nl/en/education/study-programme-orientation/practical-matters/tuition-fee-finances",
+   "quote": "Institutional rate BSc € 19.906 MSc € 25.633 BSc € 20.563 MSc € 26.479"
+  },
+  {
+   "university": "Technische Universiteit Delft (TU Delft), Delft (aglomeracja Rotterdam i Haga)",
+   "programName": "Werktuigbouwkunde (BSc)",
+   "set": {
+    "tuitionEu": "2 694 EUR rocznie w 2026/27 i 2 771 EUR rocznie w 2027/28 (opłata ustawowa dla obywateli UE/EOG według strony czesnego TU Delft).",
+    "tuitionNonEu": "Opłata instytucjonalna TU Delft na licencjat dla osób bez prawa do stawki ustawowej: 19 906 EUR rocznie w 2026/27 i 20 563 EUR rocznie w 2027/28.",
+    "tuitionUrl": "https://www.tudelft.nl/en/education/study-programme-orientation/practical-matters/tuition-fee-finances"
+   },
+   "sourceUrl": "https://www.tudelft.nl/en/education/study-programme-orientation/practical-matters/tuition-fee-finances",
+   "quote": "Institutional rate BSc € 19.906 MSc € 25.633 BSc € 20.563 MSc € 26.479"
+  },
+  {
+   "university": "Technische Universiteit Delft (TU Delft), Delft (aglomeracja Rotterdam i Haga)",
+   "programName": "Computer Science and Engineering (BSc, English track)",
+   "set": {
+    "matura": "wymaga dodatkowego etapu",
+    "requirements": "Dla Polski TU Delft wymienia wprost Świadectwo Dojrzałości: wymagana matura z matematyki na poziomie rozszerzonym, każdy egzamin zdany na minimum 30 procent. Ewentualne braki w przedmiotach trzeba uzupełnić egzaminami VWO (Boswell-Bèta, CCVX lub Staatsexamen) przed 1 września. TU Delft co do zasady nie przyjmuje samych certyfikatów językowych ani pojedynczych certyfikatów przedmiotowych jako podstawy przyjęcia. Dyplom zagraniczny daje dostęp do ścieżki angielskiej; ścieżka dwujęzyczna (niderlandzko-angielska) jest dla osób, które spełniają dodatkowo wymagania z niderlandzkiego. Numerus fixus: Matching & Selection (testy z matematyki oraz rozumowania systematycznego i logicznego). W roku akademickim 2027/28 przyjmowanych jest 590 osób: 345 miejsc na ścieżce angielskiej i 245 na dwujęzycznej. Ranking: wynik testu i losowanie w trzech kategoriach, numery 15 kwietnia.",
+    "deadline": "Studielink od października 2026 do 15 stycznia 2027 (godz. 23:59 CET) oraz komplet dokumentów w systemie Osiaan w tym samym terminie. Pierwszy mail o selekcji najpóźniej 20 stycznia, numery rankingowe 15 kwietnia (strona nie podaje roku dla tych dwóch dat)."
+   },
+   "sourceUrl": "https://www.tudelft.nl/en/onderwijs/opleidingen/bachelors/computer-science-and-engineering/bachelor-of-computer-science-and-engineering/from-application-to-enrollment/selection-procedure",
+   "quote": "The application opens in October 2026 and closes on 15 January 2027."
+  },
+  {
+   "university": "Technische Universiteit Delft (TU Delft), Delft (aglomeracja Rotterdam i Haga)",
+   "programName": "Bouwkunde (BSc)",
+   "set": {
+    "matura": "wymaga dodatkowego etapu"
+   },
+   "sourceUrl": "https://www.tudelft.nl/onderwijs/opleidingen/bachelors/bk/bsc-bouwkunde",
+   "quote": "Numerus fixus: ja"
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [],
+ "summaryPatches": [
+  {
+   "remove": true,
+   "label": "Rekrutacja"
+  },
+  {
+   "label": "Rekrutacja",
+   "text": "Studielink otwiera się 1 października. Kierunki z numerus fixus (psychologia, IBEB, IBA, medycyna, a w TU Delft informatyka i architektura): zgłoszenie do 15 stycznia 2027, numery rankingowe 15 kwietnia 2027. Econometrics: zgłoszenia od 1 listopada 2026, termin 1 maja 2027 dla obywateli UE/EOG. IBCoM: komplet dokumentów do 15 marca 2027. Hogeschool Rotterdam zaleca zgłoszenie dla dyplomów zagranicznych do 1 maja 2027. Prawo w Erasmus University Rotterdam: Studielink do 1 maja (strona nie podaje roku). Programy bez limitu w TU Delft: 1 kwietnia (strona nie podaje roku). Dla medycyny Erasmus MC strona nie wymaga polskiego egzaminu wstępnego, ale wszystkich kandydatów obowiązuje własna selekcja i znajomość niderlandzkiego.",
+   "sourceUrl": "https://www.eur.nl/en/bachelor/international-bachelor-econometrics-and-operations-research/application",
+   "quote": "We open for applications from 1 November 2026"
+  },
+  {
+   "label": "Opłaty",
+   "text": "Obywatele UE/EOG płacą ustawowe czesne: 2 694 EUR rocznie w 2026/27 i 2 771 EUR rocznie w 2027/28 (obie kwoty podaje strona czesnego TU Delft, a Erasmus University Rotterdam publikuje na razie tylko rok 2026/27). Opłata aplikacyjna w Erasmus University Rotterdam wynosi 100 EUR przy dyplomie spoza Holandii. Osoby z dyplomem licencjackim z Holandii płacą wyższą opłatę instytucjonalną: w 2026/27 8 300 EUR na większości programów Erasmus University Rotterdam i 28 300 EUR na medycynie. Osoby spoza UE/EOG płacą w 2026/27 w Erasmus University Rotterdam 13 500 EUR (większość wydziałów), 14 000 EUR (Rotterdam School of Management) i 32 200 EUR (medycyna). W TU Delft licencjat dla osób spoza UE kosztuje 19 906 EUR w 2026/27 i 20 563 EUR w 2027/28. Opłat instytucjonalnych Erasmus University Rotterdam na 2027/28 uczelnia jeszcze nie opublikowała.",
+   "sourceUrl": "https://www.tudelft.nl/en/education/study-programme-orientation/practical-matters/tuition-fee-finances",
+   "quote": "Statutory rate € 2.694 € 2.771"
+  },
+  {
+   "label": "Polska matura",
+   "text": "Holandia nie stosuje punktów za maturę, a status w tabeli zależy od tego, czy program ma dodatkowy etap. Kierunki z numerus fixus, selekcją lub obowiązkowym testem mają status „wymaga dodatkowego etapu”: psychologia, IBEB, IBA, Econometrics, IBCoM i medycyna w Erasmus University Rotterdam oraz informatyka i architektura w TU Delft. Programy bez selekcji, dla których oficjalna lista wymienia Polskę, mają status „uznawana z warunkami”: prawo w Erasmus University Rotterdam (uczelnia może zażądać testu z niderlandzkiego i angielskiego) oraz budownictwo i mechanika w TU Delft (matura rozszerzona z matematyki i fizyki, min. 30 procent z każdego przedmiotu). Lista dyplomów Erasmus University Rotterdam na 2027/28 wymienia polskie Świadectwo Dojrzałości razem ze Świadectwem Ukończenia Liceum Ogólnokształcącego, a Erasmus School of Economics przyjmuje tylko liceum ogólnokształcące i wymaga matematyki rozszerzonej (min. 70 procent) albo egzaminu uzupełniającego. Hogeschool Rotterdam nie wymienia Polski, więc status „wymaga potwierdzenia przez uczelnię” oznacza tam brak informacji na stronie.",
+   "sourceUrl": "https://www.eur.nl/en/education/practical-matters/admission/bachelor-admission-and-application/diploma-overview",
+   "quote": "Poland Świadectwo Dojrzałości plus Świadectwo Ukończenia Liceum Ogólnokształcącego"
+  },
+  {
+   "label": "Uwagi",
+   "text": "Znajomość niderlandzkiego jest osobną barierą, niezależną od statusu matury. Po niderlandzku prowadzone są prawo i medycyna w Erasmus University Rotterdam, programy Hogeschool Rotterdam (poza International Business) oraz architektura, budownictwo i mechanika w TU Delft. Hogeschool Rotterdam wymaga poziomu B2 potwierdzonego własnym Onderzoek NT2 albo państwowym egzaminem NT2 II, a TU Delft poziomu przedakademickiego (VWO) lub rocznego kursu przygotowawczego. Wymagany poziom dla każdego programu jest opisany w polu o znajomości języka.",
+   "sourceUrl": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/",
+   "quote": "Voor een Nederlandstalige hbo-opleiding moet je de Nederlandse taal op niveau B2"
+  }
+ ],
+ "gapsSet": [
+  "Erasmus University Rotterdam opublikowała na stronie z opłatami tylko rok 2026/27. Ustawowe czesne na 2027/28 (2 771 EUR) potwierdza strona TU Delft, ale opłat instytucjonalnych Erasmus University Rotterdam na 2027/28 (dla osób spoza UE i z drugim dyplomem) jeszcze nie ma.",
+  "Erasmus School of Law nie ma w wykazie licencjatów programu prawa po angielsku. Strona programu po niderlandzku nie podaje wymaganych przedmiotów maturalnych ani poziomu niderlandzkiego, a termin 1 maja jest tam bez roku.",
+  "Medycyna Erasmus MC: strona programu nie wymienia polskiej matury ani poziomu niderlandzkiego dla Polski. Wymagania przedmiotowe (biologia, chemia, fizyka, matematyka) i język trzeba potwierdzić w Admissions Office uczelni.",
+  "Hogeschool Rotterdam: strony programów nie wymieniają Polski ani wymaganych przedmiotów maturalnych, a poziom angielskiego na International Business nie jest podany. Lista programów jest ładowana dynamicznie, więc wybrano kierunki odpowiadające zawodom ze strony. Opłaty instytucjonalne dla osób spoza UE nie są podane.",
+  "Rotterdam School of Management podaje terminy IBA (Studielink 15 stycznia, formularz OLAF 31 stycznia) z rokiem 2026, a nagłówek strony dotyczy 2027/28. Terminy dla naboru 2027/28 trzeba potwierdzić na stronie uczelni. Wymagań z matematyki i angielskiego dla polskiej matury nie widać na liście RSM.",
+  "TU Delft: szczegóły selekcji na architekturę (Bouwkunde) na 2027/28 miały zostać opublikowane na początku października 2026 i nie były jeszcze dostępne, a limit miejsc podano tylko dla 2026/27 (450). Terminy 15 stycznia (architektura) i 1 kwietnia (programy bez selekcji) nie mają roku na stronach programów.",
+  "Erasmus University Rotterdam nie ma kierunków technicznych, więc architekturę, budownictwo i mechanikę pokrywają tylko TU Delft i Hogeschool Rotterdam, w obu przypadkach głównie po niderlandzku.",
+  "Nie dodano programów wspólnych z TU Delft (Nanobiology, Clinical Technology) ani Liberal Arts and Sciences, bo nie odpowiadają wprost zawodom ze strony. Osobnego licencjatu z data science w Rotterdamie i Delft nie ma, najbliższe są Econometrics and Operations Research i Computer Science and Engineering.",
+  "Daty testów selekcyjnych na psychologię i IBEB (luty i marzec 2027) oraz harmonogram medycyny opisano według stron na 2027/28. Uczelnie mogą zmienić szczegóły organizacyjne po otwarciu naboru 1 października, więc warto je sprawdzić."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://www.eur.nl/en/bachelor/international-bachelor-econometrics-and-operations-research/application",
+   "note": "Econometrics: otwarcie zapisów 1 listopada 2026 i terminy dla UE/EOG i spoza UE"
+  },
+  {
+   "url": "https://www.eur.nl/en/bachelor/international-bachelor-econometrics-and-operations-research/admission",
+   "note": "Econometrics: wymagania, selekcja i lista dyplomów z Polską"
+  },
+  {
+   "url": "https://www.eur.nl/en/education/practical-matters/admission/bachelor-admission-and-application/diploma-overview",
+   "note": "Erasmus University Rotterdam: lista dyplomów przyznających dostęp, w tym polskie Świadectwo Dojrzałości"
+  },
+  {
+   "url": "https://www.hogeschoolrotterdam.nl/voorlichting/toelatingsvoorwaarden/toelating-met-een-buitenlands-diploma/",
+   "note": "Hogeschool Rotterdam: przyjęcie z dyplomem zagranicznym, termin 1 maja 2027 i wymóg niderlandzkiego B2"
+  },
+  {
+   "url": "https://www.tudelft.nl/en/education/study-programme-orientation/practical-matters/tuition-fee-finances",
+   "note": "TU Delft: czesne ustawowe i instytucjonalne na 2026/27 i 2027/28"
+  },
+  {
+   "url": "https://www.tudelft.nl/en/onderwijs/opleidingen/bachelors/computer-science-and-engineering/bachelor-of-computer-science-and-engineering/from-application-to-enrollment/selection-procedure",
+   "note": "TU Delft Computer Science and Engineering: selekcja, liczba miejsc i termin 15 stycznia 2027"
+  },
+  {
+   "url": "https://www.tudelft.nl/onderwijs/opleidingen/bachelors/bk/bsc-bouwkunde",
+   "note": "TU Delft Bouwkunde: numerus fixus i termin zgłoszenia"
+  },
+  {
+   "url": "https://www.eur.nl/en/bachelor/international-bachelor-communication-and-media/admission",
+   "note": "IBCoM: wymagania i rola listu motywacyjnego"
+  },
+  {
+   "url": "https://www.eur.nl/bachelor/geneeskunde/toelating",
+   "note": "Medycyna Erasmus MC: numerus fixus i decentralna selekcja"
+  },
+  {
+   "url": "https://www.eur.nl/bachelor/rechtsgeleerdheid/inschrijven",
+   "note": "Prawo w Erasmus University Rotterdam: zgłoszenie od 1 października do 1 maja"
+  },
+  {
+   "url": "https://www.rsm.nl/education/bachelor/bsc-international-business-administration-iba/admission-application/",
+   "note": "Rotterdam School of Management IBA: ranking i wymagania"
+  }
+ ]
+}

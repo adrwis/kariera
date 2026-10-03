@@ -1,0 +1,277 @@
+{
+ "slug": "tallinn",
+ "programPatches": [
+  {
+   "university": "Tallinn University of Technology (TalTech)",
+   "programName": "Informaatika ja tehisintellekt",
+   "set": {
+    "tuitionEu": "Strona programu nie podaje czesnego. Ogólne zasady TalTech mówią, że w miejscach bezpłatnych trzeba zaliczać nominalne obciążenie 30 ECTS na semestr, a brakujące punkty są płatne. Czy miejsce na tym kierunku jest bezpłatne dla obywatela UE, trzeba potwierdzić na stronie uczelni.",
+    "tuitionUrl": "https://taltech.ee/informaatika"
+   },
+   "sourceUrl": "https://taltech.ee/en/apply",
+   "quote": "Students in tuition-free study places need to complete a nominal load"
+  },
+  {
+   "university": "Tallinn University of Technology (TalTech)",
+   "programName": "Informaatika ja tehisintellekt",
+   "set": {
+    "languageProof": "Estoński na poziomie B2 lub C1: egzamin państwowy z estońskiego jako drugiego języka albo certyfikat estońskiego B2 lub C1 (wynik przelicza się na punkty egzaminu). Osoby po szkole średniej za granicą, które nie zdawały estońskich egzaminów państwowych, rywalizują wynikami egzaminów wstępnych TalTech z matematyki i estońskiego. Egzamin z matematyki jest tylko po estońsku."
+   },
+   "sourceUrl": "https://taltech.ee/sisseastuja/sisseastumine-ja-bakalaureuseoppe-vastuvott",
+   "quote": "Eesti keel teise keelena riigieksami võib asendada B2 või C1 eesti keele tasemetunnistusega"
+  },
+  {
+   "university": "Tallinn University of Technology (TalTech)",
+   "programName": "Ehitiste projekteerimine ja ehitusjuhtimine",
+   "set": {
+    "tuitionEu": "Strona programu nie podaje czesnego. Ogólne zasady TalTech mówią, że w miejscach bezpłatnych trzeba zaliczać nominalne obciążenie 30 ECTS na semestr, a brakujące punkty są płatne. Czy miejsce na tym kierunku jest bezpłatne dla obywatela UE, trzeba potwierdzić na stronie uczelni.",
+    "tuitionUrl": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/ehitiste-projekteerimine-ja-ehitusjuhtimine"
+   },
+   "sourceUrl": "https://taltech.ee/en/apply",
+   "quote": "Students in tuition-free study places need to complete a nominal load"
+  },
+  {
+   "university": "Tallinn University of Technology (TalTech)",
+   "programName": "Ehitiste projekteerimine ja ehitusjuhtimine",
+   "set": {
+    "languageProof": "Estoński na poziomie B2 lub C1: egzamin państwowy z estońskiego jako drugiego języka albo certyfikat estońskiego B2 lub C1 (wynik przelicza się na punkty egzaminu). Osoby po szkole średniej za granicą, które nie zdawały estońskich egzaminów państwowych, rywalizują wynikami egzaminów wstępnych TalTech z matematyki i estońskiego. Egzamin z matematyki jest tylko po estońsku."
+   },
+   "sourceUrl": "https://taltech.ee/sisseastuja/sisseastumine-ja-bakalaureuseoppe-vastuvott",
+   "quote": "Eesti keel teise keelena riigieksami võib asendada B2 või C1 eesti keele tasemetunnistusega"
+  },
+  {
+   "university": "Tallinn University of Technology (TalTech)",
+   "programName": "Tootearendus ja robootika",
+   "set": {
+    "tuitionEu": "Strona programu nie podaje czesnego. Ogólne zasady TalTech mówią, że w miejscach bezpłatnych trzeba zaliczać nominalne obciążenie 30 ECTS na semestr, a brakujące punkty są płatne. Czy miejsce na tym kierunku jest bezpłatne dla obywatela UE, trzeba potwierdzić na stronie uczelni.",
+    "tuitionUrl": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/tootearendus-ja-robootika"
+   },
+   "sourceUrl": "https://taltech.ee/en/apply",
+   "quote": "Students in tuition-free study places need to complete a nominal load"
+  },
+  {
+   "university": "Tallinn University of Technology (TalTech)",
+   "programName": "Tootearendus ja robootika",
+   "set": {
+    "languageProof": "Estoński na poziomie B2 lub C1: egzamin państwowy z estońskiego jako drugiego języka albo certyfikat estońskiego B2 lub C1 (wynik przelicza się na punkty egzaminu). Osoby po szkole średniej za granicą, które nie zdawały estońskich egzaminów państwowych, rywalizują wynikami egzaminów wstępnych TalTech z matematyki i estońskiego. Egzamin z matematyki jest tylko po estońsku."
+   },
+   "sourceUrl": "https://taltech.ee/sisseastuja/sisseastumine-ja-bakalaureuseoppe-vastuvott",
+   "quote": "Eesti keel teise keelena riigieksami võib asendada B2 või C1 eesti keele tasemetunnistusega"
+  },
+  {
+   "university": "Tallinn University of Technology (TalTech)",
+   "programName": "Arhitektuur",
+   "set": {
+    "tuitionEu": "Strona programu nie podaje czesnego. Ogólne zasady TalTech mówią, że w miejscach bezpłatnych trzeba zaliczać nominalne obciążenie 30 ECTS na semestr, a brakujące punkty są płatne. Czy miejsce na tym kierunku jest bezpłatne dla obywatela UE, trzeba potwierdzić na stronie uczelni.",
+    "tuitionUrl": "https://taltech.ee/sisseastuja/bakalaureuseoppe-erialad/arhitektuur"
+   },
+   "sourceUrl": "https://taltech.ee/en/apply",
+   "quote": "Students in tuition-free study places need to complete a nominal load"
+  },
+  {
+   "university": "Tallinn University of Technology (TalTech)",
+   "programName": "Arhitektuur",
+   "set": {
+    "languageProof": "Estoński na poziomie B2 lub C1: egzamin państwowy z estońskiego jako drugiego języka albo certyfikat estońskiego B2 lub C1 (wynik przelicza się na punkty egzaminu). Osoby po szkole średniej za granicą, które nie zdawały estońskich egzaminów państwowych, rywalizują wynikami egzaminów wstępnych TalTech z matematyki i estońskiego. Egzamin z matematyki jest tylko po estońsku."
+   },
+   "sourceUrl": "https://taltech.ee/sisseastuja/sisseastumine-ja-bakalaureuseoppe-vastuvott",
+   "quote": "Eesti keel teise keelena riigieksami võib asendada B2 või C1 eesti keele tasemetunnistusega"
+  },
+  {
+   "university": "Tallinn University of Technology (TalTech)",
+   "programName": "Informaatika ja tehisintellekt",
+   "set": {
+    "notes": "Kierunek informatyczny po estońsku, osobny od angielskiego Cyber Security Engineering. Program po estońsku, nabór przez SAIS (sais.ee). Dla osób ze świadectwem zagranicznym rekrutacja idzie z estońskich egzaminów państwowych albo własnych testów TalTech z matematyki i estońskiego. Progi punktowe i wymagane egzaminy dla tego kierunku podaje strona programu."
+   },
+   "sourceUrl": "https://taltech.ee/sisseastuja/sisseastumine-ja-bakalaureuseoppe-vastuvott",
+   "quote": "Välisriigis lõpetatud hariduse puhul tuleb taotleda ENIC/NARIC keskuse hinnang"
+  },
+  {
+   "university": "Tallinn University of Technology (TalTech)",
+   "programName": "Ehitiste projekteerimine ja ehitusjuhtimine",
+   "set": {
+    "notes": "Pięcioletnie studia integrowane (licencjat plus magister), kończą się tytułem magistra nauk technicznych i pierwszym zawodowym uprawnieniem inżyniera budownictwa poziomu 7. Brak odpowiednika po angielsku w TalTech. Program po estońsku, nabór przez SAIS (sais.ee). Dla osób ze świadectwem zagranicznym rekrutacja idzie z estońskich egzaminów państwowych albo własnych testów TalTech z matematyki i estońskiego. Progi punktowe i wymagane egzaminy dla tego kierunku podaje strona programu."
+   },
+   "sourceUrl": "https://taltech.ee/sisseastuja/sisseastumine-ja-bakalaureuseoppe-vastuvott",
+   "quote": "Välisriigis lõpetatud hariduse puhul tuleb taotleda ENIC/NARIC keskuse hinnang"
+  },
+  {
+   "university": "Tallinn University of Technology (TalTech)",
+   "programName": "Tootearendus ja robootika",
+   "set": {
+    "notes": "Trzyletni program z wyborem specjalizacji w trzecim roku (rozwój produktu i technika wytwarzania albo robotyka). Tytuł inżyniera mechanika w klasycznym sensie daje też kierunek Masinaehitus- ja energiatehnoloogia protsesside juhtimine, jest prowadzony w Kohtla-Järve. Program po estońsku, nabór przez SAIS (sais.ee). Dla osób ze świadectwem zagranicznym rekrutacja idzie z estońskich egzaminów państwowych albo własnych testów TalTech z matematyki i estońskiego. Progi punktowe i wymagane egzaminy dla tego kierunku podaje strona programu."
+   },
+   "sourceUrl": "https://taltech.ee/sisseastuja/sisseastumine-ja-bakalaureuseoppe-vastuvott",
+   "quote": "Välisriigis lõpetatud hariduse puhul tuleb taotleda ENIC/NARIC keskuse hinnang"
+  },
+  {
+   "university": "Tallinn University of Technology (TalTech)",
+   "programName": "Arhitektuur",
+   "set": {
+    "notes": "Pięcioletnie studia integrowane (licencjat plus magister) kończące się tytułem magistra architektury i dyplomem architekta poziomu 7. TalTech zaznacza, że wyjątkiem od przyjęcia na zasadach specjalnych jest właśnie architektura (olimpiady nie dają miejsca bez egzaminu). Egzamin kierunkowy opisuje strona programu. Program po estońsku, nabór przez SAIS (sais.ee). Dla osób ze świadectwem zagranicznym rekrutacja idzie z estońskich egzaminów państwowych albo własnych testów TalTech z matematyki i estońskiego. Progi punktowe i wymagane egzaminy dla tego kierunku podaje strona programu."
+   },
+   "sourceUrl": "https://taltech.ee/sisseastuja/sisseastumine-ja-bakalaureuseoppe-vastuvott",
+   "quote": "Välisriigis lõpetatud hariduse puhul tuleb taotleda ENIC/NARIC keskuse hinnang"
+  },
+  {
+   "university": "Tallinn University (TLU)",
+   "programName": "Law",
+   "set": {
+    "tuitionEu": "2 900 EUR za semestr, czyli 5 800 EUR rocznie w naborze na 2027/28, tyle samo dla obywateli UE i spoza UE; płatność jednorazowa za rok, za semestr lub w ratach",
+    "tuitionNonEu": "2 900 EUR za semestr (5 800 EUR rocznie) w naborze na 2027/28"
+   },
+   "sourceUrl": "https://www.tlu.ee/en/tuition-fees",
+   "quote": "Law 2900 5800"
+  },
+  {
+   "university": "Tallinn University (TLU)",
+   "programName": "Law",
+   "set": {
+    "notes": "Program prawa europejskiego i międzynarodowego (3 lata, bez wymogu wcześniejszych studiów prawniczych). Licencjat z prawa w Estonii zwykle nie wystarcza do zawodu prawnika bez magisterium; do potwierdzenia u uczelni. Czesne w bieżącym naborze na rok 2026/27 było niższe i wynosiło 2 700 EUR za semestr; stawki na 2027/28 podaje strona uczelni z opłatami."
+   },
+   "sourceUrl": "https://estonia.dreamapply.com/en_GB/courses/course/42-ba-law",
+   "quote": "Tuition fee €2,700 per semester"
+  },
+  {
+   "university": "Tallinn University (TLU)",
+   "programName": "Crossmedia",
+   "set": {
+    "tuitionEu": "2 500 EUR za semestr, czyli 5 000 EUR rocznie w naborze na 2027/28, tyle samo dla obywateli UE i spoza UE; płatność jednorazowa za rok, za semestr lub w ratach",
+    "tuitionNonEu": "2 500 EUR za semestr (5 000 EUR rocznie) w naborze na 2027/28"
+   },
+   "sourceUrl": "https://www.tlu.ee/en/tuition-fees",
+   "quote": "Crossmedia 2500 5000"
+  },
+  {
+   "university": "Tallinn University (TLU)",
+   "programName": "Crossmedia",
+   "set": {
+    "notes": "Program obejmuje narrację transmedialną, produkcję treści i marketing cyfrowy, więc jest bliżej komunikacji i mediów niż dziennikarstwa prasowego. Czesne w bieżącym naborze na rok 2026/27 było niższe i wynosiło 2 300 EUR za semestr; stawki na 2027/28 podaje strona uczelni z opłatami."
+   },
+   "sourceUrl": "https://estonia.dreamapply.com/en_GB/courses/course/261-ba-crossmedia",
+   "quote": "Tuition fee €2,300 per semester"
+  },
+  {
+   "university": "Tallinn University (TLU)",
+   "programName": "Audiovisual Media",
+   "set": {
+    "tuitionEu": "2 500 EUR za semestr, czyli 5 000 EUR rocznie w naborze na 2027/28, tyle samo dla obywateli UE i spoza UE; płatność jednorazowa za rok, za semestr lub w ratach",
+    "tuitionNonEu": "2 500 EUR za semestr (5 000 EUR rocznie) w naborze na 2027/28"
+   },
+   "sourceUrl": "https://www.tlu.ee/en/tuition-fees",
+   "quote": "Audiovisual Media 2500 5000"
+  },
+  {
+   "university": "Tallinn University (TLU)",
+   "programName": "Audiovisual Media",
+   "set": {
+    "notes": "Program filmowo-telewizyjny z wyborem modułu twórczego lub technicznego przy zgłoszeniu; przypisanie do zawodu dziennikarza jest luźne. Czesne w bieżącym naborze na rok 2026/27 było niższe i wynosiło 2 400 EUR za semestr; stawki na 2027/28 podaje strona uczelni z opłatami."
+   },
+   "sourceUrl": "https://estonia.dreamapply.com/en_GB/courses/course/41-ba-audiovisual-media",
+   "quote": "Tuition fee €2,400 per semester"
+  },
+  {
+   "university": "Estonian Business School (EBS)",
+   "programName": "International Business Administration (BA)",
+   "set": {
+    "deadline": "Nabór na semestr jesienny 2027/28: do 30 czerwca 2027, godz. 23:59 czasu wschodnioeuropejskiego; początek studiów 30 sierpnia 2027.",
+    "academicYear": "2027/28 (termin naboru i start studiów); czesne z roku akademickiego 2026/27",
+    "tuitionNonEu": "Strona programu nie podaje osobnej stawki dla osób spoza UE; czesne wynosi 7 730 EUR rocznie (rok akademicki 2026/27)."
+   },
+   "sourceUrl": "https://estonia.dreamapply.com/en_GB/courses/course/258-ba-international-business-administration",
+   "quote": "Application deadline 30 Jun 2027, 23:59:59 Eastern European Time"
+  },
+  {
+   "university": "Estonian Business School (EBS)",
+   "programName": "International Business Administration (BA)",
+   "set": {
+    "languageProof": "FCE lub CAE albo IELTS 6,0 (min. 5,5 w każdej części). Strona uczelni wymienia też TOEFL iBT, ale progi punktowe tego testu różnią się między stronami, więc trzeba je sprawdzić na stronie uczelni.",
+    "notes": "Uczelnia prywatna (Estonian Business School), alternatywa dla TalTech. Obywatele UE nie płacą opłaty za zgłoszenie."
+   },
+   "sourceUrl": "https://estonia.dreamapply.com/en_GB/courses/course/258-ba-international-business-administration",
+   "quote": "Accepted proof of proficiency: FCE or CAE, IELTS 6+ or TOEFL 79+"
+  },
+  {
+   "university": "University of Tartu (poza Tallinnem, tylko medycyna)",
+   "programName": "Medicine (Bachelor+Master, English group)",
+   "set": {
+    "tuitionEu": "13 200 EUR rocznie; wszystkie miejsca są płatne (24 miejsca); opłata za zgłoszenie 100 EUR",
+    "tuitionNonEu": "13 200 EUR rocznie; osoby spoza UE wpłacają połowę pierwszego semestru po ofercie"
+   },
+   "sourceUrl": "https://ut.ee/en/curriculum/medicine",
+   "quote": "Student places 24 Tuition fee €13,200 per year"
+  },
+  {
+   "university": "University of Tartu (poza Tallinnem, tylko medycyna)",
+   "programName": "Medicine (Bachelor+Master, English group)",
+   "set": {
+    "languageProof": "IELTS Academic 6,0 (min. 5,5 w każdej części) lub inne testy z listy Uniwersytetu w Tartu; test starszy niż 2 lata nie jest uznawany.",
+    "notes": "Ten program jest prowadzony w Tartu, czyli w innym mieście niż Tallinn. Dodano go, bo w Tallinnie nie ma medycyny po angielsku. W ostatnim opublikowanym cyklu o przyjęciu decydowały: list motywacyjny (20% punktów), internetowy egzamin z fizyki i chemii (60%) i rozmowa (20%); do rozmowy trzeba mieć co najmniej 51 z 100 punktów za list i za egzamin. W trakcie studiów trzeba uczyć się estońskiego, żeby pracować w szpitalach. Prawo na Uniwersytecie w Tartu nie ma wersji angielskiej, dlatego prawo ujęto w programach TalTech i TLU."
+   },
+   "sourceUrl": "https://ut.ee/en/curriculum/medicine",
+   "quote": "Online entrance exam in Physics and Chemistry (yields 60% of the final score)"
+  }
+ ],
+ "removePrograms": [
+  {
+   "university": "Tallinn University (TLU)",
+   "programName": "Politics and Governance",
+   "reason": "Program nie odpowiada żadnemu z zawodów opisanych na stronie, więc leży poza zakresem."
+  }
+ ],
+ "addPrograms": [],
+ "summaryPatches": [
+  {
+   "label": "Opłaty",
+   "text": "Obywatele UE: programy angielskie TalTech z informatyki (Cyber Security Engineering) i Integrated Engineering są bezpłatne przy nominalnym obciążeniu 30 ECTS na semestr; osoby spoza UE płacą odpowiednio 7 000 EUR i 6 000 EUR rocznie. Płatne także dla obywateli UE: TalTech Law i International Business Administration (po 5 000 EUR rocznie), programy TLU (od 5 000 EUR do 5 800 EUR rocznie w naborze na 2027/28), EBS (7 730 EUR rocznie w roku 2026/27) i medycyna w Tartu (13 200 EUR rocznie). Programy po estońsku w TalTech: strony programów nie podają czesnego, a ogólne zasady uczelni mówią o miejscach bezpłatnych przy obciążeniu 30 ECTS na semestr, więc status miejsca trzeba potwierdzić na stronie uczelni. Wymagany jest estoński na poziomie B2 lub C1. Opłata za zgłoszenie to 100 EUR w TalTech, TLU i Tartu.",
+   "sourceUrl": "https://taltech.ee/en/apply",
+   "quote": "Students in tuition-free study places need to complete a nominal load"
+  }
+ ],
+ "gapsSet": [
+  "Informatyka i data science: po angielsku w Tallinnie jest tylko Cyber Security Engineering (TalTech). Licencjatu z data science po angielsku nie znaleziono, a angielskie programy TalTech z informatyki sztucznej inteligencji są magisterskie.",
+  "Psychologia: w Tallinnie nie znaleziono licencjatu po angielsku (TLU ma psychologię po angielsku tylko na doktoracie, Uniwersytet w Tartu prowadzi ją po estońsku), więc nie wpisano jej jako programu.",
+  "Architektura: TalTech prowadzi 5-letni program tylko po estońsku, a Estonian Academy of Arts deklaruje, że wszystkie licencjaty są po estońsku (B2). Nie sprawdzono, czy EKA ma odrębny program architektury na tym poziomie, więc nie wpisano tam programów.",
+  "Programy TalTech po estońsku: strony programów nie podają czesnego ani progów punktowych. Czy miejsce jest bezpłatne dla obywatela UE, jakie są progi i jak przeliczane są wyniki polskiej matury, trzeba potwierdzić na stronach uczelni lub w SAIS.",
+  "Polska matura: nie znaleziono wskazówki, jak TalTech i TLU liczą 60% maksymalnej średniej dla polskich ocen i wyników maturalnych. Trzeba zapytać biura rekrutacji (admissions@tlu.ee, biuro TalTech).",
+  "Terminy 2027/28 dla programów angielskich TalTech i dla medycyny w Tartu nie są jeszcze ogłoszone; podane daty pochodzą z naboru 2026/27. Uniwersytet w Tartu poda warunki naboru 2027 do końca grudnia 2026.",
+  "Czesne TLU: strona uczelni z opłatami podaje stawki na 2027/28 (Law 2 900 EUR za semestr, Crossmedia 2 500 EUR, Audiovisual Media 2 500 EUR), a strony programów w bieżącym naborze 2026/27 niższe (2 700, 2 300 i 2 400 EUR). Stawki mogą jeszcze się zmienić.",
+  "EBS: pełna lista akceptowanych testów angielskiego i progi TOEFL nie są spójne między stronami uczelni. Czesne podano za rok 2026/27 (4 050 EUR jesienią i 3 680 EUR wiosną), stawek na 2027/28 jeszcze nie opublikowano.",
+  "Tartu: prawo i psychologia są po estońsku (osobny nabór SAIS), a ich warunki nie zostały sprawdzone.",
+  "Uznanie dyplomów przez estońskie ENIC/NARIC (Harno): strona instytucji podaje tylko zasady ogólne. Instrukcji dla polskiej matury i opłaty za ocenę nie znaleziono; trzeba je sprawdzić na stronie Harno."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://taltech.ee/en/apply",
+   "note": "Ogólne zasady rekrutacji i opłat na TalTech (DreamApply)."
+  },
+  {
+   "url": "https://taltech.ee/sisseastuja/sisseastumine-ja-bakalaureuseoppe-vastuvott",
+   "note": "TalTech: nabór na studia licencjackie po estońsku w SAIS, egzaminy wstępne, osoby po szkole za granicą."
+  },
+  {
+   "url": "https://taltech.ee/en/bachelors-programmes/cyber-security-engineering",
+   "note": "TalTech: Cyber Security Engineering, czesne i warunki."
+  },
+  {
+   "url": "https://www.tlu.ee/en/tuition-fees",
+   "note": "Tallinn University: czesne na rok 2027/28."
+  },
+  {
+   "url": "https://www.tlu.ee/en/application-deadlines",
+   "note": "Tallinn University: terminy naboru na studia licencjackie jesienią 2027."
+  },
+  {
+   "url": "https://www.tlu.ee/en/admission-bachelors-studies",
+   "note": "Tallinn University: dokumenty i egzaminy przy rekrutacji na licencjat."
+  },
+  {
+   "url": "https://estonia.dreamapply.com/en_GB/courses/course/258-ba-international-business-administration",
+   "note": "Estonian Business School: czesne, termin naboru i wymagania językowe."
+  },
+  {
+   "url": "https://ut.ee/en/curriculum/medicine",
+   "note": "Uniwersytet w Tartu: medycyna po angielsku, miejsca, czesne i zasady oceny kandydatów."
+  }
+ ]
+}

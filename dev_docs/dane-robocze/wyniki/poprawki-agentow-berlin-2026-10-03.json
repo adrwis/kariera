@@ -1,0 +1,548 @@
+{
+ "slug": "berlin",
+ "programPatches": [
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Psychologie (Mono-Bachelor)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne: najpierw VPD (Vorprüfungsdokumentation) z uni-assist, wydana dla FU i ważna rok, potem wniosek w portalu FU z VPD; FU ostrzega, że uni-assist może przetwarzać VPD do 8 tygodni, więc o VPD trzeba wnioskować najpóźniej 8 tygodni przed terminem FU (15 lipca przy programach z ograniczeniem miejsc, 1 września bez ograniczeń); za VPD jest opłata; tłumaczenia przysięgłe, jeśli świadectwo nie jest po niemiecku lub angielsku Nabór ograniczony (DoSV przez hochschulstart.de, najpierw rejestracja tam i numery BID/BAN). Dobrowolny test uzdolnień (tylko po niemiecku, płatny) dla obywateli UE/EOG, rejestracja do 15.02 na WS."
+   },
+   "sourceUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bachelor/ausl-hzb/index.html",
+   "quote": "processing by uni-assist can take up to 8 weeks. This applies in particular to the period up to 8 weeks BEFORE the application deadline on July 15"
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Psychologie (Mono-Bachelor)",
+   "set": {
+    "deadline": "Semestr zimowy: 1.06 do 15.07 (programy z ograniczoną liczbą miejsc, wniosek z VPD przez portal FU) i 1.06 do 1.09 (programy bez ograniczeń). Strona FU podaje te okna bez roku i zapowiada, że dokładne daty na dany rok publikuje co roku w marcu, więc daty na semestr zimowy 2027/28 poznasz dopiero w marcu 2027.",
+    "admissionUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bewerbungsfristen/index.html"
+   },
+   "sourceUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bewerbungsfristen/index.html",
+   "quote": "The exact dates can vary and will be published for the respective year on this website each March."
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Psychologie (Mono-Bachelor)",
+   "set": {
+    "matura": "uznawana z warunkami: według DAAD świadectwo z kraju UE, które uprawnia do studiów w kraju wydania, zwykle uprawnia też do studiów w Niemczech; wymagana jest jednak VPD z uni-assist. Wpisu dla polskiego świadectwa dojrzałości w bazie DAAD i anabin nie da się sprawdzić bez ręcznego wyszukiwania, więc ostateczną decyzję podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "quote": "If you have a school-leaving certificate from an EU country or the EEA (Iceland, Liechtenstein, Norway) or Switzerland and it allows you study in that country, then you are usually also eligible to study in Germany."
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Informatik (Mono-Bachelor)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne: najpierw VPD (Vorprüfungsdokumentation) z uni-assist, wydana dla FU i ważna rok, potem wniosek w portalu FU z VPD; FU ostrzega, że uni-assist może przetwarzać VPD do 8 tygodni, więc o VPD trzeba wnioskować najpóźniej 8 tygodni przed terminem FU (15 lipca przy programach z ograniczeniem miejsc, 1 września bez ograniczeń); za VPD jest opłata; tłumaczenia przysięgłe, jeśli świadectwo nie jest po niemiecku lub angielsku"
+   },
+   "sourceUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bachelor/ausl-hzb/index.html",
+   "quote": "processing by uni-assist can take up to 8 weeks. This applies in particular to the period up to 8 weeks BEFORE the application deadline on July 15"
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Informatik (Mono-Bachelor)",
+   "set": {
+    "deadline": "Semestr zimowy: 1.06 do 15.07 (programy z ograniczoną liczbą miejsc, wniosek z VPD przez portal FU) i 1.06 do 1.09 (programy bez ograniczeń). Strona FU podaje te okna bez roku i zapowiada, że dokładne daty na dany rok publikuje co roku w marcu, więc daty na semestr zimowy 2027/28 poznasz dopiero w marcu 2027.",
+    "admissionUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bewerbungsfristen/index.html"
+   },
+   "sourceUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bewerbungsfristen/index.html",
+   "quote": "The exact dates can vary and will be published for the respective year on this website each March."
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Informatik (Mono-Bachelor)",
+   "set": {
+    "matura": "uznawana z warunkami: według DAAD świadectwo z kraju UE, które uprawnia do studiów w kraju wydania, zwykle uprawnia też do studiów w Niemczech; wymagana jest jednak VPD z uni-assist. Wpisu dla polskiego świadectwa dojrzałości w bazie DAAD i anabin nie da się sprawdzić bez ręcznego wyszukiwania, więc ostateczną decyzję podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "quote": "If you have a school-leaving certificate from an EU country or the EEA (Iceland, Liechtenstein, Norway) or Switzerland and it allows you study in that country, then you are usually also eligible to study in Germany."
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Betriebswirtschaftslehre (Mono-Bachelor)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne: najpierw VPD (Vorprüfungsdokumentation) z uni-assist, wydana dla FU i ważna rok, potem wniosek w portalu FU z VPD; FU ostrzega, że uni-assist może przetwarzać VPD do 8 tygodni, więc o VPD trzeba wnioskować najpóźniej 8 tygodni przed terminem FU (15 lipca przy programach z ograniczeniem miejsc, 1 września bez ograniczeń); za VPD jest opłata; tłumaczenia przysięgłe, jeśli świadectwo nie jest po niemiecku lub angielsku Dodatkowo angielski na poziomie B2 (wymóg językowy programu). Nabór przez DoSV albo uni-assist dla studentów międzynarodowych."
+   },
+   "sourceUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bachelor/ausl-hzb/index.html",
+   "quote": "processing by uni-assist can take up to 8 weeks. This applies in particular to the period up to 8 weeks BEFORE the application deadline on July 15"
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Betriebswirtschaftslehre (Mono-Bachelor)",
+   "set": {
+    "deadline": "Semestr zimowy: 1.06 do 15.07 (programy z ograniczoną liczbą miejsc, wniosek z VPD przez portal FU) i 1.06 do 1.09 (programy bez ograniczeń). Strona FU podaje te okna bez roku i zapowiada, że dokładne daty na dany rok publikuje co roku w marcu, więc daty na semestr zimowy 2027/28 poznasz dopiero w marcu 2027.",
+    "admissionUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bewerbungsfristen/index.html"
+   },
+   "sourceUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bewerbungsfristen/index.html",
+   "quote": "The exact dates can vary and will be published for the respective year on this website each March."
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Betriebswirtschaftslehre (Mono-Bachelor)",
+   "set": {
+    "matura": "uznawana z warunkami: według DAAD świadectwo z kraju UE, które uprawnia do studiów w kraju wydania, zwykle uprawnia też do studiów w Niemczech; wymagana jest jednak VPD z uni-assist. Wpisu dla polskiego świadectwa dojrzałości w bazie DAAD i anabin nie da się sprawdzić bez ręcznego wyszukiwania, więc ostateczną decyzję podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "quote": "If you have a school-leaving certificate from an EU country or the EEA (Iceland, Liechtenstein, Norway) or Switzerland and it allows you study in that country, then you are usually also eligible to study in Germany."
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Rechtswissenschaft (Erste juristische Prüfung)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne: najpierw VPD (Vorprüfungsdokumentation) z uni-assist, wydana dla FU i ważna rok, potem wniosek w portalu FU z VPD; FU ostrzega, że uni-assist może przetwarzać VPD do 8 tygodni, więc o VPD trzeba wnioskować najpóźniej 8 tygodni przed terminem FU (15 lipca przy programach z ograniczeniem miejsc, 1 września bez ograniczeń); za VPD jest opłata; tłumaczenia przysięgłe, jeśli świadectwo nie jest po niemiecku lub angielsku Nabór ograniczony przez DoSV; ścieżka do pierwszego egzaminu państwowego z prawa niemieckiego."
+   },
+   "sourceUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bachelor/ausl-hzb/index.html",
+   "quote": "processing by uni-assist can take up to 8 weeks. This applies in particular to the period up to 8 weeks BEFORE the application deadline on July 15"
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Rechtswissenschaft (Erste juristische Prüfung)",
+   "set": {
+    "deadline": "Semestr zimowy: 1.06 do 15.07 (programy z ograniczoną liczbą miejsc, wniosek z VPD przez portal FU) i 1.06 do 1.09 (programy bez ograniczeń). Strona FU podaje te okna bez roku i zapowiada, że dokładne daty na dany rok publikuje co roku w marcu, więc daty na semestr zimowy 2027/28 poznasz dopiero w marcu 2027.",
+    "admissionUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bewerbungsfristen/index.html"
+   },
+   "sourceUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bewerbungsfristen/index.html",
+   "quote": "The exact dates can vary and will be published for the respective year on this website each March."
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Rechtswissenschaft (Erste juristische Prüfung)",
+   "set": {
+    "matura": "uznawana z warunkami: według DAAD świadectwo z kraju UE, które uprawnia do studiów w kraju wydania, zwykle uprawnia też do studiów w Niemczech; wymagana jest jednak VPD z uni-assist. Wpisu dla polskiego świadectwa dojrzałości w bazie DAAD i anabin nie da się sprawdzić bez ręcznego wyszukiwania, więc ostateczną decyzję podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "quote": "If you have a school-leaving certificate from an EU country or the EEA (Iceland, Liechtenstein, Norway) or Switzerland and it allows you study in that country, then you are usually also eligible to study in Germany."
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Publizistik- und Kommunikationswissenschaft (Kombibachelor, Haupt- lub Nebenfach)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne: najpierw VPD (Vorprüfungsdokumentation) z uni-assist, wydana dla FU i ważna rok, potem wniosek w portalu FU z VPD; FU ostrzega, że uni-assist może przetwarzać VPD do 8 tygodni, więc o VPD trzeba wnioskować najpóźniej 8 tygodni przed terminem FU (15 lipca przy programach z ograniczeniem miejsc, 1 września bez ograniczeń); za VPD jest opłata; tłumaczenia przysięgłe, jeśli świadectwo nie jest po niemiecku lub angielsku Kombi-Bachelor: kierunek główny 90 CP plus moduły z innego przedmiotu; dodatkowo angielski B1."
+   },
+   "sourceUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bachelor/ausl-hzb/index.html",
+   "quote": "processing by uni-assist can take up to 8 weeks. This applies in particular to the period up to 8 weeks BEFORE the application deadline on July 15"
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Publizistik- und Kommunikationswissenschaft (Kombibachelor, Haupt- lub Nebenfach)",
+   "set": {
+    "deadline": "Semestr zimowy: 1.06 do 15.07 (programy z ograniczoną liczbą miejsc, wniosek z VPD przez portal FU) i 1.06 do 1.09 (programy bez ograniczeń). Strona FU podaje te okna bez roku i zapowiada, że dokładne daty na dany rok publikuje co roku w marcu, więc daty na semestr zimowy 2027/28 poznasz dopiero w marcu 2027.",
+    "admissionUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bewerbungsfristen/index.html"
+   },
+   "sourceUrl": "https://www.fu-berlin.de/en/studium/bewerbung/bewerbungsfristen/index.html",
+   "quote": "The exact dates can vary and will be published for the respective year on this website each March."
+  },
+  {
+   "university": "Freie Universität Berlin",
+   "programName": "Publizistik- und Kommunikationswissenschaft (Kombibachelor, Haupt- lub Nebenfach)",
+   "set": {
+    "matura": "uznawana z warunkami: według DAAD świadectwo z kraju UE, które uprawnia do studiów w kraju wydania, zwykle uprawnia też do studiów w Niemczech; wymagana jest jednak VPD z uni-assist. Wpisu dla polskiego świadectwa dojrzałości w bazie DAAD i anabin nie da się sprawdzić bez ręcznego wyszukiwania, więc ostateczną decyzję podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "quote": "If you have a school-leaving certificate from an EU country or the EEA (Iceland, Liechtenstein, Norway) or Switzerland and it allows you study in that country, then you are usually also eligible to study in Germany."
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Informatik (B.Sc.)",
+   "set": {
+    "deadline": "Semestr zimowy 2026/27 (ostatni opublikowany, już zamknięty): 1.06.2026 do 15.07.2026 dla programów z NC i 1.06.2026 do 31.08.2026 dla programów bez NC, także dla świadectw zagranicznych. Semestr letni 2026: 1.12.2025 do 15.01.2026 (NC) i 1.12.2025 do 28.02.2026 (bez NC). Terminy na semestr zimowy 2027/28 TU nie opublikowała; uni-assist zaleca składać wniosek o VPD co najmniej 8 tygodni przed terminem.",
+    "academicYear": "2026/27 (ostatni opublikowany nabór, zamknięty; terminy na 2027/28 niepublikowane)"
+   },
+   "sourceUrl": "https://www.tu.berlin/en/studierendensekretariat/dates-deadlines-for-application-and-enrollment-at-tu-berlin",
+   "quote": "Application for bachelor’s programs with restricted admission (NC): 01.06.2026 until 15.07.2026 Application for bachelor’s programs with open admission (no NC): 01.06.2026 until 31.08.2026"
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Informatik (B.Sc.)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne wymaga VPD z uni-assist wydanej dla TU Berlin (ważna rok, przetwarzanie 4 do 6 tygodni według TU, a według uni-assist wniosek najlepiej złożyć co najmniej 8 tygodni przed terminem; opłata 75 EUR za pierwszy kierunek i 30 EUR za każdy kolejny w semestrze); bez VPD wniosek nie jest możliwy, również na kierunki bez NC; brak przyjęcia warunkowego; certyfikat językowy składa się tylko przez portal TU, uni-assist go nie sprawdza. Obywatele UE są traktowani jak Niemcy, na wspólnej liście rankingowej; w głównej puli 50 procent miejsc wg średniej, 50 procent wg czasu oczekiwania Program przeprojektowany od WS 2026/27 (nacisk na AI, dane, algorytmy)."
+   },
+   "sourceUrl": "https://www.uni-assist.de/en/how-to-apply/pay-all-fees/handling-fees/",
+   "quote": "Cost for the first chosen course of study: EUR 75.00 For each additional chosen course of study: EUR 30.00"
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Informatik (B.Sc.)",
+   "set": {
+    "matura": "uznawana z warunkami: według DAAD świadectwo z kraju UE, które uprawnia do studiów w kraju wydania, zwykle uprawnia też do studiów w Niemczech; wymagana jest jednak VPD z uni-assist. Wpisu dla polskiego świadectwa dojrzałości w bazie DAAD i anabin nie da się sprawdzić bez ręcznego wyszukiwania, więc ostateczną decyzję podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "quote": "If you have a school-leaving certificate from an EU country or the EEA (Iceland, Liechtenstein, Norway) or Switzerland and it allows you study in that country, then you are usually also eligible to study in Germany."
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Architektur (B.Sc.)",
+   "set": {
+    "deadline": "Semestr zimowy 2026/27 (ostatni opublikowany, już zamknięty): 1.06.2026 do 15.07.2026 dla programów z NC i 1.06.2026 do 31.08.2026 dla programów bez NC, także dla świadectw zagranicznych. Semestr letni 2026: 1.12.2025 do 15.01.2026 (NC) i 1.12.2025 do 28.02.2026 (bez NC). Terminy na semestr zimowy 2027/28 TU nie opublikowała; uni-assist zaleca składać wniosek o VPD co najmniej 8 tygodni przed terminem.",
+    "academicYear": "2026/27 (ostatni opublikowany nabór, zamknięty; terminy na 2027/28 niepublikowane)"
+   },
+   "sourceUrl": "https://www.tu.berlin/en/studierendensekretariat/dates-deadlines-for-application-and-enrollment-at-tu-berlin",
+   "quote": "Application for bachelor’s programs with restricted admission (NC): 01.06.2026 until 15.07.2026 Application for bachelor’s programs with open admission (no NC): 01.06.2026 until 31.08.2026"
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Architektur (B.Sc.)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne wymaga VPD z uni-assist wydanej dla TU Berlin (ważna rok, przetwarzanie 4 do 6 tygodni według TU, a według uni-assist wniosek najlepiej złożyć co najmniej 8 tygodni przed terminem; opłata 75 EUR za pierwszy kierunek i 30 EUR za każdy kolejny w semestrze); bez VPD wniosek nie jest możliwy, również na kierunki bez NC; brak przyjęcia warunkowego; certyfikat językowy składa się tylko przez portal TU, uni-assist go nie sprawdza. Obywatele UE są traktowani jak Niemcy, na wspólnej liście rankingowej; w głównej puli 50 procent miejsc wg średniej, 50 procent wg czasu oczekiwania Przed rozpoczęciem studiów praktyki łącznie co najmniej 320 godzin (dowód najpóźniej przy zgłoszeniu pracy licencjackiej)."
+   },
+   "sourceUrl": "https://www.uni-assist.de/en/how-to-apply/pay-all-fees/handling-fees/",
+   "quote": "Cost for the first chosen course of study: EUR 75.00 For each additional chosen course of study: EUR 30.00"
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Architektur (B.Sc.)",
+   "set": {
+    "matura": "uznawana z warunkami: według DAAD świadectwo z kraju UE, które uprawnia do studiów w kraju wydania, zwykle uprawnia też do studiów w Niemczech; wymagana jest jednak VPD z uni-assist. Wpisu dla polskiego świadectwa dojrzałości w bazie DAAD i anabin nie da się sprawdzić bez ręcznego wyszukiwania, więc ostateczną decyzję podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "quote": "If you have a school-leaving certificate from an EU country or the EEA (Iceland, Liechtenstein, Norway) or Switzerland and it allows you study in that country, then you are usually also eligible to study in Germany."
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Bauingenieurwesen (B.Sc.)",
+   "set": {
+    "deadline": "Semestr zimowy 2026/27 (ostatni opublikowany, już zamknięty): 1.06.2026 do 15.07.2026 dla programów z NC i 1.06.2026 do 31.08.2026 dla programów bez NC, także dla świadectw zagranicznych. Semestr letni 2026: 1.12.2025 do 15.01.2026 (NC) i 1.12.2025 do 28.02.2026 (bez NC). Terminy na semestr zimowy 2027/28 TU nie opublikowała; uni-assist zaleca składać wniosek o VPD co najmniej 8 tygodni przed terminem.",
+    "academicYear": "2026/27 (ostatni opublikowany nabór, zamknięty; terminy na 2027/28 niepublikowane)"
+   },
+   "sourceUrl": "https://www.tu.berlin/en/studierendensekretariat/dates-deadlines-for-application-and-enrollment-at-tu-berlin",
+   "quote": "Application for bachelor’s programs with restricted admission (NC): 01.06.2026 until 15.07.2026 Application for bachelor’s programs with open admission (no NC): 01.06.2026 until 31.08.2026"
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Bauingenieurwesen (B.Sc.)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne wymaga VPD z uni-assist wydanej dla TU Berlin (ważna rok, przetwarzanie 4 do 6 tygodni według TU, a według uni-assist wniosek najlepiej złożyć co najmniej 8 tygodni przed terminem; opłata 75 EUR za pierwszy kierunek i 30 EUR za każdy kolejny w semestrze); bez VPD wniosek nie jest możliwy, również na kierunki bez NC; brak przyjęcia warunkowego; certyfikat językowy składa się tylko przez portal TU, uni-assist go nie sprawdza. Obywatele UE są traktowani jak Niemcy, na wspólnej liście rankingowej; w głównej puli 50 procent miejsc wg średniej, 50 procent wg czasu oczekiwania Praktyka 8 tygodni przed lub w trakcie studiów (dowód najpóźniej przy zgłoszeniu pracy licencjackiej)."
+   },
+   "sourceUrl": "https://www.uni-assist.de/en/how-to-apply/pay-all-fees/handling-fees/",
+   "quote": "Cost for the first chosen course of study: EUR 75.00 For each additional chosen course of study: EUR 30.00"
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Bauingenieurwesen (B.Sc.)",
+   "set": {
+    "matura": "uznawana z warunkami: według DAAD świadectwo z kraju UE, które uprawnia do studiów w kraju wydania, zwykle uprawnia też do studiów w Niemczech; wymagana jest jednak VPD z uni-assist. Wpisu dla polskiego świadectwa dojrzałości w bazie DAAD i anabin nie da się sprawdzić bez ręcznego wyszukiwania, więc ostateczną decyzję podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "quote": "If you have a school-leaving certificate from an EU country or the EEA (Iceland, Liechtenstein, Norway) or Switzerland and it allows you study in that country, then you are usually also eligible to study in Germany."
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Maschinenbau (B.Sc.)",
+   "set": {
+    "deadline": "Semestr zimowy 2026/27 (ostatni opublikowany, już zamknięty): 1.06.2026 do 15.07.2026 dla programów z NC i 1.06.2026 do 31.08.2026 dla programów bez NC, także dla świadectw zagranicznych. Semestr letni 2026: 1.12.2025 do 15.01.2026 (NC) i 1.12.2025 do 28.02.2026 (bez NC). Terminy na semestr zimowy 2027/28 TU nie opublikowała; uni-assist zaleca składać wniosek o VPD co najmniej 8 tygodni przed terminem.",
+    "academicYear": "2026/27 (ostatni opublikowany nabór, zamknięty; terminy na 2027/28 niepublikowane)"
+   },
+   "sourceUrl": "https://www.tu.berlin/en/studierendensekretariat/dates-deadlines-for-application-and-enrollment-at-tu-berlin",
+   "quote": "Application for bachelor’s programs with restricted admission (NC): 01.06.2026 until 15.07.2026 Application for bachelor’s programs with open admission (no NC): 01.06.2026 until 31.08.2026"
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Maschinenbau (B.Sc.)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne wymaga VPD z uni-assist wydanej dla TU Berlin (ważna rok, przetwarzanie 4 do 6 tygodni według TU, a według uni-assist wniosek najlepiej złożyć co najmniej 8 tygodni przed terminem; opłata 75 EUR za pierwszy kierunek i 30 EUR za każdy kolejny w semestrze); bez VPD wniosek nie jest możliwy, również na kierunki bez NC; brak przyjęcia warunkowego; certyfikat językowy składa się tylko przez portal TU, uni-assist go nie sprawdza. Obywatele UE są traktowani jak Niemcy, na wspólnej liście rankingowej; w głównej puli 50 procent miejsc wg średniej, 50 procent wg czasu oczekiwania Dwie praktyki poza uczelnią: 6 tygodni przed studiami (zalecane) i 12 tygodni w trakcie."
+   },
+   "sourceUrl": "https://www.uni-assist.de/en/how-to-apply/pay-all-fees/handling-fees/",
+   "quote": "Cost for the first chosen course of study: EUR 75.00 For each additional chosen course of study: EUR 30.00"
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Maschinenbau (B.Sc.)",
+   "set": {
+    "matura": "uznawana z warunkami: według DAAD świadectwo z kraju UE, które uprawnia do studiów w kraju wydania, zwykle uprawnia też do studiów w Niemczech; wymagana jest jednak VPD z uni-assist. Wpisu dla polskiego świadectwa dojrzałości w bazie DAAD i anabin nie da się sprawdzić bez ręcznego wyszukiwania, więc ostateczną decyzję podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "quote": "If you have a school-leaving certificate from an EU country or the EEA (Iceland, Liechtenstein, Norway) or Switzerland and it allows you study in that country, then you are usually also eligible to study in Germany."
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Economics and Sustainability (niemiecka nazwa programu niepotwierdzona)",
+   "set": {
+    "deadline": "Semestr zimowy 2026/27 (ostatni opublikowany, już zamknięty): 1.06.2026 do 15.07.2026 dla programów z NC i 1.06.2026 do 31.08.2026 dla programów bez NC, także dla świadectw zagranicznych. Semestr letni 2026: 1.12.2025 do 15.01.2026 (NC) i 1.12.2025 do 28.02.2026 (bez NC). Terminy na semestr zimowy 2027/28 TU nie opublikowała; uni-assist zaleca składać wniosek o VPD co najmniej 8 tygodni przed terminem.",
+    "academicYear": "2026/27 (ostatni opublikowany nabór, zamknięty; terminy na 2027/28 niepublikowane)"
+   },
+   "sourceUrl": "https://www.tu.berlin/en/studierendensekretariat/dates-deadlines-for-application-and-enrollment-at-tu-berlin",
+   "quote": "Application for bachelor’s programs with restricted admission (NC): 01.06.2026 until 15.07.2026 Application for bachelor’s programs with open admission (no NC): 01.06.2026 until 31.08.2026"
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Economics and Sustainability (niemiecka nazwa programu niepotwierdzona)",
+   "set": {
+    "requirements": "Świadectwo zagraniczne wymaga VPD z uni-assist wydanej dla TU Berlin (ważna rok, przetwarzanie 4 do 6 tygodni według TU, a według uni-assist wniosek najlepiej złożyć co najmniej 8 tygodni przed terminem; opłata 75 EUR za pierwszy kierunek i 30 EUR za każdy kolejny w semestrze); bez VPD wniosek nie jest możliwy, również na kierunki bez NC; brak przyjęcia warunkowego; certyfikat językowy składa się tylko przez portal TU, uni-assist go nie sprawdza. Obywatele UE są traktowani jak Niemcy, na wspólnej liście rankingowej; w głównej puli 50 procent miejsc wg średniej, 50 procent wg czasu oczekiwania"
+   },
+   "sourceUrl": "https://www.uni-assist.de/en/how-to-apply/pay-all-fees/handling-fees/",
+   "quote": "Cost for the first chosen course of study: EUR 75.00 For each additional chosen course of study: EUR 30.00"
+  },
+  {
+   "university": "Technische Universität Berlin",
+   "programName": "Economics and Sustainability (niemiecka nazwa programu niepotwierdzona)",
+   "set": {
+    "matura": "uznawana z warunkami: według DAAD świadectwo z kraju UE, które uprawnia do studiów w kraju wydania, zwykle uprawnia też do studiów w Niemczech; wymagana jest jednak VPD z uni-assist. Wpisu dla polskiego świadectwa dojrzałości w bazie DAAD i anabin nie da się sprawdzić bez ręcznego wyszukiwania, więc ostateczną decyzję podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "quote": "If you have a school-leaving certificate from an EU country or the EEA (Iceland, Liechtenstein, Norway) or Switzerland and it allows you study in that country, then you are usually also eligible to study in Germany."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Angewandte Informatik",
+   "set": {
+    "deadline": "Okna naboru HTW na stronie bez roku: semestr zimowy 15.05 do 15.07 (kierunki z NC, portal HTW) i 15.05 do 30.09 (bez NC); semestr letni 17.11 do 15.01 (NC) i 17.11 do 31.03 (bez NC). Daty to wzorzec cykliczny, bo strona nie podaje roku, więc dokładne terminy na 2027 sprawdź na stronie HTW.",
+    "academicYear": "Nabór cykliczny: okna naboru podane na stronie bez roku; dokładne daty na semestr zimowy 2027/28 do potwierdzenia na stronie HTW",
+    "admissionUrl": "https://www.htw-berlin.de/studium/bewerbung/bachelor-bewerbung/"
+   },
+   "sourceUrl": "https://www.htw-berlin.de/studium/bewerbung/bachelor-bewerbung/",
+   "quote": "Studiengänge mit Zulassungsbeschränkung (über HTW-Portal) 15.05. - 15.07."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Angewandte Informatik",
+   "set": {
+    "matura": "uznawana z warunkami: według DAAD świadectwo z kraju UE, które uprawnia do studiów w kraju wydania, zwykle uprawnia też do studiów w Niemczech; HTW wymaga Hochschulzugangsberechtigung (Abitur lub równoważne) i dowodu niemieckiego, a ostateczną decyzję podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "quote": "If you have a school-leaving certificate from an EU country or the EEA (Iceland, Liechtenstein, Norway) or Switzerland and it allows you study in that country, then you are usually also eligible to study in Germany."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Bauingenieurwesen",
+   "set": {
+    "deadline": "Okna naboru HTW na stronie bez roku: semestr zimowy 15.05 do 15.07 (kierunki z NC, portal HTW) i 15.05 do 30.09 (bez NC); semestr letni 17.11 do 15.01 (NC) i 17.11 do 31.03 (bez NC). Daty to wzorzec cykliczny, bo strona nie podaje roku, więc dokładne terminy na 2027 sprawdź na stronie HTW.",
+    "academicYear": "Nabór cykliczny: okna naboru podane na stronie bez roku; dokładne daty na semestr zimowy 2027/28 do potwierdzenia na stronie HTW",
+    "admissionUrl": "https://www.htw-berlin.de/studium/bewerbung/bachelor-bewerbung/"
+   },
+   "sourceUrl": "https://www.htw-berlin.de/studium/bewerbung/bachelor-bewerbung/",
+   "quote": "Studiengänge mit Zulassungsbeschränkung (über HTW-Portal) 15.05. - 15.07."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Bauingenieurwesen",
+   "set": {
+    "matura": "uznawana z warunkami: według DAAD świadectwo z kraju UE, które uprawnia do studiów w kraju wydania, zwykle uprawnia też do studiów w Niemczech; HTW wymaga Hochschulzugangsberechtigung (Abitur lub równoważne) i dowodu niemieckiego, a ostateczną decyzję podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "quote": "If you have a school-leaving certificate from an EU country or the EEA (Iceland, Liechtenstein, Norway) or Switzerland and it allows you study in that country, then you are usually also eligible to study in Germany."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Maschinenbau",
+   "set": {
+    "deadline": "Okna naboru HTW na stronie bez roku: semestr zimowy 15.05 do 15.07 (kierunki z NC, portal HTW) i 15.05 do 30.09 (bez NC); semestr letni 17.11 do 15.01 (NC) i 17.11 do 31.03 (bez NC). Daty to wzorzec cykliczny, bo strona nie podaje roku, więc dokładne terminy na 2027 sprawdź na stronie HTW.",
+    "academicYear": "Nabór cykliczny: okna naboru podane na stronie bez roku; dokładne daty na semestr zimowy 2027/28 do potwierdzenia na stronie HTW",
+    "admissionUrl": "https://www.htw-berlin.de/studium/bewerbung/bachelor-bewerbung/"
+   },
+   "sourceUrl": "https://www.htw-berlin.de/studium/bewerbung/bachelor-bewerbung/",
+   "quote": "Studiengänge mit Zulassungsbeschränkung (über HTW-Portal) 15.05. - 15.07."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Maschinenbau",
+   "set": {
+    "matura": "uznawana z warunkami: według DAAD świadectwo z kraju UE, które uprawnia do studiów w kraju wydania, zwykle uprawnia też do studiów w Niemczech; HTW wymaga Hochschulzugangsberechtigung (Abitur lub równoważne) i dowodu niemieckiego, a ostateczną decyzję podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "quote": "If you have a school-leaving certificate from an EU country or the EEA (Iceland, Liechtenstein, Norway) or Switzerland and it allows you study in that country, then you are usually also eligible to study in Germany."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Betriebswirtschaftslehre",
+   "set": {
+    "deadline": "Okna naboru HTW na stronie bez roku: semestr zimowy 15.05 do 15.07 (kierunki z NC, portal HTW) i 15.05 do 30.09 (bez NC); semestr letni 17.11 do 15.01 (NC) i 17.11 do 31.03 (bez NC). Daty to wzorzec cykliczny, bo strona nie podaje roku, więc dokładne terminy na 2027 sprawdź na stronie HTW.",
+    "academicYear": "Nabór cykliczny: okna naboru podane na stronie bez roku; dokładne daty na semestr zimowy 2027/28 do potwierdzenia na stronie HTW",
+    "admissionUrl": "https://www.htw-berlin.de/studium/bewerbung/bachelor-bewerbung/"
+   },
+   "sourceUrl": "https://www.htw-berlin.de/studium/bewerbung/bachelor-bewerbung/",
+   "quote": "Studiengänge mit Zulassungsbeschränkung (über HTW-Portal) 15.05. - 15.07."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Betriebswirtschaftslehre",
+   "set": {
+    "matura": "uznawana z warunkami: według DAAD świadectwo z kraju UE, które uprawnia do studiów w kraju wydania, zwykle uprawnia też do studiów w Niemczech; HTW wymaga Hochschulzugangsberechtigung (Abitur lub równoważne) i dowodu niemieckiego, a ostateczną decyzję podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "quote": "If you have a school-leaving certificate from an EU country or the EEA (Iceland, Liechtenstein, Norway) or Switzerland and it allows you study in that country, then you are usually also eligible to study in Germany."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "International Business",
+   "set": {
+    "deadline": "Okna naboru HTW na stronie bez roku: semestr zimowy 15.05 do 15.07 (kierunki z NC, portal HTW) i 15.05 do 30.09 (bez NC); semestr letni 17.11 do 15.01 (NC) i 17.11 do 31.03 (bez NC). Daty to wzorzec cykliczny, bo strona nie podaje roku, więc dokładne terminy na 2027 sprawdź na stronie HTW.",
+    "academicYear": "Nabór cykliczny: okna naboru podane na stronie bez roku; dokładne daty na semestr zimowy 2027/28 do potwierdzenia na stronie HTW",
+    "admissionUrl": "https://www.htw-berlin.de/studium/bewerbung/bachelor-bewerbung/"
+   },
+   "sourceUrl": "https://international-business.htw-berlin.de/bachelor/for-applicants/application",
+   "quote": "Winter semester: 15.05. - 15.07. Summer semester: 17.11. - 15.01."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "International Business",
+   "set": {
+    "languageProof": "Angielski: TOEFL iBT co najmniej 95 pkt, IELTS Academic co najmniej 7,0, PTE Academic co najmniej 76 pkt albo porównywalny test na poziomie C1; dowód nie jest wymagany przy świadectwie z anglojęzycznego kraju OECD; Abitur nie jest uznawany jako dowód angielskiego"
+   },
+   "sourceUrl": "https://international-business.htw-berlin.de/fileadmin/HTW/Zentral/ZHV_IIIA_-_Studienberatung/Studieninfos/International_Business_BA.pdf",
+   "quote": "IELTS tests (Academic) with a level of at least 7.0 or"
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "International Business",
+   "set": {
+    "tuitionEu": "0 EUR czesnego (program opisany przez HTW jako bez opłat za studia); opłata semestralna 375,30 EUR (WS 2026/27, w tym Semesterticket 226,80 EUR)",
+    "tuitionUrl": "https://international-business.htw-berlin.de/bachelor/for-applicants"
+   },
+   "sourceUrl": "https://international-business.htw-berlin.de/bachelor/for-applicants",
+   "quote": "offers you an internationally accredited degree, without tuition fees and fully taught in English"
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "International Business",
+   "set": {
+    "matura": "uznawana z warunkami: według DAAD świadectwo z kraju UE, które uprawnia do studiów w kraju wydania, zwykle uprawnia też do studiów w Niemczech; HTW wymaga Hochschulzugangsberechtigung (Abitur lub równoważne) i dowodu niemieckiego, a ostateczną decyzję podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "quote": "If you have a school-leaving certificate from an EU country or the EEA (Iceland, Liechtenstein, Norway) or Switzerland and it allows you study in that country, then you are usually also eligible to study in Germany."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Wirtschaftsingenieurwesen",
+   "set": {
+    "deadline": "Okna naboru HTW na stronie bez roku: semestr zimowy 15.05 do 15.07 (kierunki z NC, portal HTW) i 15.05 do 30.09 (bez NC); semestr letni 17.11 do 15.01 (NC) i 17.11 do 31.03 (bez NC). Daty to wzorzec cykliczny, bo strona nie podaje roku, więc dokładne terminy na 2027 sprawdź na stronie HTW.",
+    "academicYear": "Nabór cykliczny: okna naboru podane na stronie bez roku; dokładne daty na semestr zimowy 2027/28 do potwierdzenia na stronie HTW",
+    "admissionUrl": "https://www.htw-berlin.de/studium/bewerbung/bachelor-bewerbung/"
+   },
+   "sourceUrl": "https://www.htw-berlin.de/studium/bewerbung/bachelor-bewerbung/",
+   "quote": "Studiengänge mit Zulassungsbeschränkung (über HTW-Portal) 15.05. - 15.07."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Wirtschaftsingenieurwesen",
+   "set": {
+    "notes": "Język wykładowy niepotwierdzony na sprawdzonej stronie (wpisano pustą listę, nie zgaduję). Kierunek jest na liście HTW programów z ograniczeniem. Dopasowanie do zawodu inżyniera mechanika jest przybliżone. Język wykładowy nie jest podany na stronie programu, do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.htw-berlin.de/studium/bewerbung/bachelor-bewerbung/",
+   "quote": "Studiengänge mit Zulassungsbeschränkung (über HTW-Portal) 15.05. - 15.07."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Wirtschaftsingenieurwesen",
+   "set": {
+    "matura": "uznawana z warunkami: według DAAD świadectwo z kraju UE, które uprawnia do studiów w kraju wydania, zwykle uprawnia też do studiów w Niemczech; HTW wymaga Hochschulzugangsberechtigung (Abitur lub równoważne) i dowodu niemieckiego, a ostateczną decyzję podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "quote": "If you have a school-leaving certificate from an EU country or the EEA (Iceland, Liechtenstein, Norway) or Switzerland and it allows you study in that country, then you are usually also eligible to study in Germany."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Wirtschaftskommunikation",
+   "set": {
+    "deadline": "Okna naboru HTW na stronie bez roku: semestr zimowy 15.05 do 15.07 (kierunki z NC, portal HTW) i 15.05 do 30.09 (bez NC); semestr letni 17.11 do 15.01 (NC) i 17.11 do 31.03 (bez NC). Daty to wzorzec cykliczny, bo strona nie podaje roku, więc dokładne terminy na 2027 sprawdź na stronie HTW.",
+    "academicYear": "Nabór cykliczny: okna naboru podane na stronie bez roku; dokładne daty na semestr zimowy 2027/28 do potwierdzenia na stronie HTW",
+    "admissionUrl": "https://www.htw-berlin.de/studium/bewerbung/bachelor-bewerbung/"
+   },
+   "sourceUrl": "https://www.htw-berlin.de/studium/bewerbung/bachelor-bewerbung/",
+   "quote": "Studiengänge mit Zulassungsbeschränkung (über HTW-Portal) 15.05. - 15.07."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Wirtschaftskommunikation",
+   "set": {
+    "notes": "To komunikacja korporacyjna i reklama, nie dziennikarstwo; dopasowanie do zawodu dziennikarza jest luźne. Nazwa angielska nie została potwierdzona na stronie. Język wykładowy nie jest podany na stronie programu, do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.htw-berlin.de/studium/bewerbung/bachelor-bewerbung/",
+   "quote": "Studiengänge mit Zulassungsbeschränkung (über HTW-Portal) 15.05. - 15.07."
+  },
+  {
+   "university": "Hochschule für Technik und Wirtschaft Berlin (HTW Berlin)",
+   "programName": "Wirtschaftskommunikation",
+   "set": {
+    "matura": "uznawana z warunkami: według DAAD świadectwo z kraju UE, które uprawnia do studiów w kraju wydania, zwykle uprawnia też do studiów w Niemczech; HTW wymaga Hochschulzugangsberechtigung (Abitur lub równoważne) i dowodu niemieckiego, a ostateczną decyzję podejmuje uczelnia."
+   },
+   "sourceUrl": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "quote": "If you have a school-leaving certificate from an EU country or the EEA (Iceland, Liechtenstein, Norway) or Switzerland and it allows you study in that country, then you are usually also eligible to study in Germany."
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [],
+ "summaryPatches": [
+  {
+   "label": "Polska matura",
+   "text": "Według DAAD świadectwo z kraju UE lub EOG, które uprawnia do studiów w kraju wydania, zwykle uprawnia też do studiów w Niemczech, bez Studienkolleg. Wpisu dla polskiego świadectwa dojrzałości w bazie DAAD i w anabin nie da się sprawdzić bez ręcznego wyszukiwania, więc status ma charakter ogólny. FU i TU wymagają VPD z uni-assist dla każdego świadectwa zagranicznego, także od obywateli UE; uni-assist wymienia dla Polski świadectwo dojrzałości i świadectwo ukończenia szkoły jako wymagane dokumenty. HTW przyjmuje obywateli UE i EOG bez uni-assist, bezpośrednio w swoim portalu. Ostateczną decyzję podejmuje uczelnia.",
+   "sourceUrl": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "quote": "If you have a school-leaving certificate from an EU country or the EEA (Iceland, Liechtenstein, Norway) or Switzerland and it allows you study in that country, then you are usually also eligible to study in Germany."
+  },
+  {
+   "label": "Opłaty",
+   "text": "Czesne na sprawdzonych uczelniach publicznych wynosi 0 EUR; opłata semestralna to około 375 do 379 EUR (FU 376,80 EUR, TU 379,06 EUR, HTW 375,30 EUR) i obejmuje bilet Deutschlandsemesterticket za 226,80 EUR. Za VPD z uni-assist płaci się 75 EUR za pierwszy kierunek i 30 EUR za każdy kolejny w semestrze.",
+   "sourceUrl": "https://www.uni-assist.de/en/how-to-apply/pay-all-fees/handling-fees/",
+   "quote": "Cost for the first chosen course of study: EUR 75.00 For each additional chosen course of study: EUR 30.00"
+  },
+  {
+   "label": "Rekrutacja",
+   "text": "VPD z uni-assist (FU, TU) plus wniosek w portalu uczelni. Uni-assist podaje obecny czas przetwarzania 3 do 4 tygodni dla Europy Środkowej i Wschodniej, ale FU ostrzega, że może to trwać do 8 tygodni, więc wniosek o VPD warto złożyć co najmniej 8 tygodni przed terminem. Terminy na semestr zimowy 2027/28 nie są opublikowane; ostatnie okna to 1.06 do 15.07 (FU i TU, programy z ograniczeniem miejsc) oraz 15.05 do 15.07 (HTW, strona bez roku). Kierunki z ogólnokrajowym NC (medycyna) i część programów FU i HTW przechodzą przez hochschulstart.de.",
+   "sourceUrl": "https://www.uni-assist.de/en/how-to-apply/plan-your-application/deadlines-processing-time/",
+   "quote": "Apply as early as possible, at least 8 weeks before the deadline expires"
+  }
+ ],
+ "gapsSet": [
+  "Nie ma danych o Uniwersytecie Humboldtów (psychologia, prawo, informatyka, dziennikarstwo i inne), bo jego strona jest zabezpieczona przed automatycznym odczytem.",
+  "Wpisu dla polskiego świadectwa dojrzałości w bazie DAAD i w anabin nie udało się sprawdzić, bo wyszukiwarka wymaga ręcznego wpisania kraju. Status matury opiera się na ogólnej zasadzie DAAD dla świadectw z krajów UE.",
+  "Nie podano, jak uni-assist przelicza oceny z polskiej matury na skalę niemiecką.",
+  "Terminy naboru na rok akademicki 2027/28 nie są jeszcze opublikowane. FU zapowiada daty na marzec 2027, a okna HTW na stronie nie mają roku, więc podane daty są wzorcem z poprzednich cykli.",
+  "Wartości NC i progi punktowe FU i TU nie są publiczne, HTW ich nie publikuje, a Charité podaje punktację w procedurze AdH, ale progi są w pliku do pobrania na hochschulstart.de.",
+  "Opłata semestralna Charité nie jest podana na sprawdzonych stronach, a strona TU nie podaje, którego semestru dotyczy kwota 379,06 EUR.",
+  "TU Berlin nie ma osobnego zdania o czesnym dla osób spoza UE na sprawdzonej stronie; niemiecka nazwa programu Economics and Sustainability nie jest potwierdzona.",
+  "Języki wykładowe i szczegóły naboru HTW Wirtschaftsingenieurwesen i Wirtschaftskommunikation nie są podane na stronach programów.",
+  "FU: wartości NC i szczegóły testu uzdolnień nie były sprawdzane poza stroną programu; dla Publizistik nie sprawdzono dopuszczalnych kombinacji z drugim przedmiotem.",
+  "HTW jest uczelnią nauk stosowanych, więc ścieżka do zawodów takich jak psycholog, prawnik czy lekarz tu nie istnieje. Berliner Hochschule für Technik (architektura) nie została sprawdzona.",
+  "Brak danych o uznawaniu w Polsce niemieckich dyplomów uczelni nauk stosowanych i uprawnień zawodowych (architekt, prawnik, lekarz).",
+  "Data science: nie znaleziono licencjatu o tej nazwie na FU, TU i HTW; specjalizacja jest w informatyce, a magisterskich Data Science (m.in. HU, TU) nie sprawdzano."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://www.daad.de/en/studying-in-germany/requirements/overview/",
+   "note": "Ogólne zasady DAAD dotyczące uznawania świadectw z krajów UE"
+  },
+  {
+   "url": "https://www.fu-berlin.de/en/studium/bewerbung/bachelor/ausl-hzb/index.html",
+   "note": "FU Berlin: wniosek z VPD dla świadectw zagranicznych, czas przetwarzania do 8 tygodni"
+  },
+  {
+   "url": "https://www.fu-berlin.de/en/studium/bewerbung/bewerbungsfristen/index.html",
+   "note": "FU Berlin: ogólne okna naboru na semestr zimowy, daty na dany rok publikowane w marcu"
+  },
+  {
+   "url": "https://www.tu.berlin/en/studierendensekretariat/dates-deadlines-for-application-and-enrollment-at-tu-berlin",
+   "note": "TU Berlin: terminy naboru na semestry 2026 i 2026/27"
+  },
+  {
+   "url": "https://www.tu.berlin/en/studierendensekretariat/bachelors-application-enrollment/prospective-students-with-an-international-higher-education-entrance-qualification/admission-requirements",
+   "note": "TU Berlin: warunki przyjęcia dla świadectw zagranicznych i VPD"
+  },
+  {
+   "url": "https://www.htw-berlin.de/studium/bewerbung/bachelor-bewerbung/",
+   "note": "HTW Berlin: okna naboru (bez roku) i lista kierunków z ograniczeniem"
+  },
+  {
+   "url": "https://international-business.htw-berlin.de/bachelor/for-applicants/application",
+   "note": "HTW International Business: portale aplikacyjne i okna naboru"
+  },
+  {
+   "url": "https://international-business.htw-berlin.de/fileadmin/HTW/Zentral/ZHV_IIIA_-_Studienberatung/Studieninfos/International_Business_BA.pdf",
+   "note": "HTW International Business: wymagany poziom angielskiego (TOEFL, IELTS, PTE)"
+  },
+  {
+   "url": "https://international-business.htw-berlin.de/bachelor/for-applicants",
+   "note": "HTW International Business: program bez opłat za studia, w całości po angielsku"
+  },
+  {
+   "url": "https://www.uni-assist.de/en/how-to-apply/plan-your-application/deadlines-processing-time/",
+   "note": "uni-assist: terminy i czas przetwarzania VPD"
+  },
+  {
+   "url": "https://www.uni-assist.de/en/how-to-apply/pay-all-fees/handling-fees/",
+   "note": "uni-assist: opłata 75 EUR i 30 EUR za wniosek"
+  },
+  {
+   "url": "https://www.uni-assist.de/en/tools/info-country-by-country/details-country/country/pl/",
+   "note": "uni-assist: dokumenty wymagane od osób ze świadectwem z Polski"
+  }
+ ]
+}

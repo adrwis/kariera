@@ -29,6 +29,7 @@ const REWRITES = [
   [/Terminy w pliku pochodzą/g, 'Podane terminy pochodzą'],
   [/Nie zebrano programów/g, 'Nie opisano programów'],
   [/Nie zebrano tabel/g, 'Nie opisano tabel'],
+  [/\(strona uczelni jest chroniona przed automatycznym pobieraniem\)/g, '(strona uczelni jest niedostępna bez weryfikacji przeglądarki)'],
   [/nie jest publicznie dostępna z automatycznego pobierania/g, 'nie jest publicznie dostępna bez logowania'],
   [/ i nie było przedmiotem tego zbierania/g, ' i nie jest tu opisany'],
   [/bo skupiono się/g, 'bo skupiliśmy się'],
@@ -275,10 +276,64 @@ function fill(slug, data) {
     }
   }
 }
+// Poprawki od agentów po ponownym sprawdzeniu źródeł: wyniki/poprawki-agentow-<slug>-*.json (najnowszy plik miasta).
+// Przyjmujemy tylko zmiany z adresem źródła i cytatem; format opisany w dev_docs/plan-zagranica-poprawki.md.
+const PATCH_FIELDS = ['tuitionEu', 'tuitionNonEu', 'tuitionUrl', 'matura', 'requirements', 'languageProof', 'admissionUrl', 'selective', 'deadline', 'applyUrl', 'url', 'notes', 'durationYears', 'level', 'languages', 'academicYear'];
+const okSrc = x => x && /^https?:\/\//.test(x.sourceUrl || '') && String(x.quote || '').length > 4;
+function agentPatches(slug, data) {
+  const dir = path.join(__dirname, 'wyniki');
+  const files = fs.readdirSync(dir).filter(f => f.startsWith(`poprawki-agentow-${slug}-`)).sort();
+  if (!files.length) return;
+  const P = JSON.parse(fs.readFileSync(path.join(dir, files.pop()), 'utf8'));
+  const findUni = name => data.universities.find(u => u.name === name || (name && (u.name.includes(name) || name.includes(u.name))));
+  for (const x of P.programPatches || []) {
+    if (!okSrc(x)) { warnings.push(`poprawka bez źródła/cytatu: ${slug} / ${x.programName}`); continue; }
+    const hit = progs(data).filter(([u, p]) => p.name === x.programName && (!x.university || u.name === x.university || u.name.includes(x.university) || x.university.includes(u.name)));
+    if (!hit.length) { warnings.push(`poprawka bez programu: ${slug} / ${x.programName}`); continue; }
+    for (const [, p] of hit) for (const [k, v] of Object.entries(x.set || {})) {
+      if (!PATCH_FIELDS.includes(k)) { warnings.push(`pole spoza listy: ${k}`); continue; }
+      p[k] = v;
+      if (k === 'languages') p.english = (v || []).some(l => /angiel|english/i.test(l));
+    }
+  }
+  for (const x of P.removePrograms || []) {
+    const u = findUni(x.university);
+    if (u) u.programs = u.programs.filter(p => p.name !== x.programName);
+  }
+  for (const x of P.addPrograms || []) {
+    if (!okSrc(x) || !x.program || !x.program.name) { warnings.push(`dodanie programu bez źródła: ${slug}`); continue; }
+    let u = findUni(x.university);
+    if (!u) { u = { name: x.university, nameEn: '', url: x.universityUrl || null, type: x.universityType || '', programs: [] }; data.universities.push(u); }
+    const p = Object.assign({ nameEn: '', careerIds: [], level: 'licencjat', durationYears: null, languages: [], english: false, academicYear: '', tuitionEu: null, tuitionNonEu: null, tuitionUrl: null, matura: null, requirements: null, languageProof: null, selective: null, admissionUrl: null, deadline: null, applyUrl: null, url: null, notes: null }, x.program);
+    p.english = (p.languages || []).some(l => /angiel|english/i.test(l));
+    u.programs.push(p);
+  }
+  data.universities = data.universities.filter(u => u.programs.length);
+  for (const x of P.summaryPatches || []) {
+    if (x.remove) { data.summary = data.summary.filter(s => s.label !== x.label); continue; }
+    if (!okSrc(x)) { warnings.push(`poprawka opisu bez źródła: ${slug} / ${x.label}`); continue; }
+    // Etykieta „Znajomość języka” zastępuje starą „Znajomość angielskiego”
+    if (x.label === 'Znajomość języka' && !data.summary.some(s => s.label === x.label)) { const old = data.summary.find(s => s.label === 'Znajomość angielskiego'); if (old) old.label = x.label; }
+    const it = data.summary.find(s => s.label === x.label);
+    if (it) it.text = x.text; else data.summary.push({ label: x.label, text: x.text });
+    // replaceAll: agent połączył kilka wpisów o tej etykiecie w jeden, więc pozostałe usuwamy
+    if (x.replaceAll) data.summary = data.summary.filter(s => s.label !== x.label || s === it || (!it && s.text === x.text));
+  }
+  if (Array.isArray(P.gapsSet)) data.gaps = P.gapsSet.map(String).filter(Boolean);
+  for (const x of P.sourcesAdd || []) {
+    if (!/^https?:\/\//.test(x.url || '')) continue;
+    const have = data.sources.find(s => s.url === x.url);
+    if (!have) data.sources.push({ url: x.url, note: x.note || '' });
+    else if (!have.note && x.note) have.note = x.note; // uzupełnienie pustej notki przy istniejącym źródle
+  }
+}
 function apply(slug, data) {
   Object.assign(data, plain(data));
   fill(slug, data);
   if (BY_CITY[slug]) BY_CITY[slug](data);
+  agentPatches(slug, data);
+  // Opisy o sposobie badania zamiast o treści (np. „Nie badano osobno…”) nie są informacją dla ucznia
+  data.summary = data.summary.filter(x => !/^Nie badano\b/.test(x.text));
   walk(data);
   return data;
 }

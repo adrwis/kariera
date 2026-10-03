@@ -1,0 +1,665 @@
+{
+ "slug": "kopenhaga",
+ "programPatches": [
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i psykologi",
+   "set": {
+    "tuitionEu": "0 EUR: obywatele UE/EOG i Szwajcarii studiują w Danii bez czesnego (strona nie podaje roku akademickiego). Czesne płacą osoby spoza UE/EOG.",
+    "tuitionUrl": "https://studyindenmark.dk/study-options/tuition-fees-and-scholarships"
+   },
+   "sourceUrl": "https://studyindenmark.dk/study-options/tuition-fees-and-scholarships",
+   "quote": "Higher education in Denmark is free for students from the EU/EEA and Switzerland"
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i psykologi",
+   "set": {
+    "deadline": "15 marca, godz. 12:00 dla osób ze świadectwem zagranicznym (strona KU nie podaje roku, termin na nabór 2027 do potwierdzenia na ku.dk). Dokumenty potwierdzające spełnienie wymagań do 5 lipca, godz. 12:00."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements",
+   "quote": "All applicants with foreign or international examinations and diplomas (regardless of nationality) must submit their online application along with necessary documentation before the application deadline on 15 March at 12:00."
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i psykologi",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (dowód znajomości duńskiego na poziomie A: Dansk A albo Studieprøven)",
+    "languageProof": "Wymagany duński na najwyższym poziomie (Dansk A) albo dokument potwierdzający akademicką znajomość duńskiego, np. Studieprøven i dansk som andetsprog. Bez duńskiego nie ma wstępu na żaden licencjat KU. Angielski B jest osobnym wymogiem przedmiotowym."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements/diplomas-from-eu-eea-countries",
+   "quote": "all bachelor programmes are taught in Danish and require the highest level in Danish or documentation for academic language skills in Danish."
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i psykologi",
+   "set": {
+    "notes": "Program wyłącznie po duńsku. Uczelnia wymaga duńskiego na poziomie A, a szczegółowe wymagania programu są na jego duńskiej stronie. Polskie Świadectwo Dojrzałości jest na liście kwalifikujących się świadectw UE/EOG, ale szczegółowego przeliczenia polskich przedmiotów na poziomy duńskie strona KU nie podaje."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements",
+   "quote": "The University of Copenhagen only offers bachelor programmes taught in Danish"
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i jura",
+   "set": {
+    "tuitionEu": "0 EUR: obywatele UE/EOG i Szwajcarii studiują w Danii bez czesnego (strona nie podaje roku akademickiego). Czesne płacą osoby spoza UE/EOG.",
+    "tuitionUrl": "https://studyindenmark.dk/study-options/tuition-fees-and-scholarships"
+   },
+   "sourceUrl": "https://studyindenmark.dk/study-options/tuition-fees-and-scholarships",
+   "quote": "Higher education in Denmark is free for students from the EU/EEA and Switzerland"
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i jura",
+   "set": {
+    "deadline": "15 marca, godz. 12:00 dla osób ze świadectwem zagranicznym (strona KU nie podaje roku, termin na nabór 2027 do potwierdzenia na ku.dk). Dokumenty potwierdzające spełnienie wymagań do 5 lipca, godz. 12:00."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements",
+   "quote": "All applicants with foreign or international examinations and diplomas (regardless of nationality) must submit their online application along with necessary documentation before the application deadline on 15 March at 12:00."
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i jura",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (dowód znajomości duńskiego na poziomie A: Dansk A albo Studieprøven)",
+    "languageProof": "Wymagany duński na najwyższym poziomie (Dansk A) albo dokument potwierdzający akademicką znajomość duńskiego, np. Studieprøven i dansk som andetsprog. Bez duńskiego nie ma wstępu na żaden licencjat KU. Angielski B jest osobnym wymogiem przedmiotowym."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements/diplomas-from-eu-eea-countries",
+   "quote": "all bachelor programmes are taught in Danish and require the highest level in Danish or documentation for academic language skills in Danish."
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i jura",
+   "set": {
+    "notes": "Program wyłącznie po duńsku. Uczelnia wymaga duńskiego na poziomie A, a szczegółowe wymagania programu są na jego duńskiej stronie. Polskie Świadectwo Dojrzałości jest na liście kwalifikujących się świadectw UE/EOG, ale szczegółowego przeliczenia polskich przedmiotów na poziomy duńskie strona KU nie podaje."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements",
+   "quote": "The University of Copenhagen only offers bachelor programmes taught in Danish"
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i medicin (København)",
+   "set": {
+    "tuitionEu": "0 EUR: obywatele UE/EOG i Szwajcarii studiują w Danii bez czesnego (strona nie podaje roku akademickiego). Czesne płacą osoby spoza UE/EOG.",
+    "tuitionUrl": "https://studyindenmark.dk/study-options/tuition-fees-and-scholarships"
+   },
+   "sourceUrl": "https://studyindenmark.dk/study-options/tuition-fees-and-scholarships",
+   "quote": "Higher education in Denmark is free for students from the EU/EEA and Switzerland"
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i medicin (København)",
+   "set": {
+    "deadline": "15 marca, godz. 12:00 dla osób ze świadectwem zagranicznym (strona KU nie podaje roku, termin na nabór 2027 do potwierdzenia na ku.dk). Dokumenty potwierdzające spełnienie wymagań do 5 lipca, godz. 12:00."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements",
+   "quote": "All applicants with foreign or international examinations and diplomas (regardless of nationality) must submit their online application along with necessary documentation before the application deadline on 15 March at 12:00."
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i medicin (København)",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (dowód znajomości duńskiego na poziomie A: Dansk A albo Studieprøven)",
+    "languageProof": "Wymagany duński na najwyższym poziomie (Dansk A) albo dokument potwierdzający akademicką znajomość duńskiego, np. Studieprøven i dansk som andetsprog. Bez duńskiego nie ma wstępu na żaden licencjat KU. Angielski B jest osobnym wymogiem przedmiotowym."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements/diplomas-from-eu-eea-countries",
+   "quote": "all bachelor programmes are taught in Danish and require the highest level in Danish or documentation for academic language skills in Danish."
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i medicin (København)",
+   "set": {
+    "notes": "Program wyłącznie po duńsku. Uczelnia wymaga duńskiego na poziomie A, a szczegółowe wymagania programu są na jego duńskiej stronie. Polskie Świadectwo Dojrzałości jest na liście kwalifikujących się świadectw UE/EOG, ale szczegółowego przeliczenia polskich przedmiotów na poziomy duńskie strona KU nie podaje."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements",
+   "quote": "The University of Copenhagen only offers bachelor programmes taught in Danish"
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i datalogi",
+   "set": {
+    "tuitionEu": "0 EUR: obywatele UE/EOG i Szwajcarii studiują w Danii bez czesnego (strona nie podaje roku akademickiego). Czesne płacą osoby spoza UE/EOG.",
+    "tuitionUrl": "https://studyindenmark.dk/study-options/tuition-fees-and-scholarships"
+   },
+   "sourceUrl": "https://studyindenmark.dk/study-options/tuition-fees-and-scholarships",
+   "quote": "Higher education in Denmark is free for students from the EU/EEA and Switzerland"
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i datalogi",
+   "set": {
+    "deadline": "15 marca, godz. 12:00 dla osób ze świadectwem zagranicznym (strona KU nie podaje roku, termin na nabór 2027 do potwierdzenia na ku.dk). Dokumenty potwierdzające spełnienie wymagań do 5 lipca, godz. 12:00."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements",
+   "quote": "All applicants with foreign or international examinations and diplomas (regardless of nationality) must submit their online application along with necessary documentation before the application deadline on 15 March at 12:00."
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i datalogi",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (dowód znajomości duńskiego na poziomie A: Dansk A albo Studieprøven)",
+    "languageProof": "Wymagany duński na najwyższym poziomie (Dansk A) albo dokument potwierdzający akademicką znajomość duńskiego, np. Studieprøven i dansk som andetsprog. Bez duńskiego nie ma wstępu na żaden licencjat KU. Angielski B jest osobnym wymogiem przedmiotowym."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements/diplomas-from-eu-eea-countries",
+   "quote": "all bachelor programmes are taught in Danish and require the highest level in Danish or documentation for academic language skills in Danish."
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i datalogi",
+   "set": {
+    "notes": "Program wyłącznie po duńsku. Uczelnia wymaga duńskiego na poziomie A, a szczegółowe wymagania programu są na jego duńskiej stronie. Polskie Świadectwo Dojrzałości jest na liście kwalifikujących się świadectw UE/EOG, ale szczegółowego przeliczenia polskich przedmiotów na poziomy duńskie strona KU nie podaje."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements",
+   "quote": "The University of Copenhagen only offers bachelor programmes taught in Danish"
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i machine learning og datavidenskab",
+   "set": {
+    "tuitionEu": "0 EUR: obywatele UE/EOG i Szwajcarii studiują w Danii bez czesnego (strona nie podaje roku akademickiego). Czesne płacą osoby spoza UE/EOG.",
+    "tuitionUrl": "https://studyindenmark.dk/study-options/tuition-fees-and-scholarships"
+   },
+   "sourceUrl": "https://studyindenmark.dk/study-options/tuition-fees-and-scholarships",
+   "quote": "Higher education in Denmark is free for students from the EU/EEA and Switzerland"
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i machine learning og datavidenskab",
+   "set": {
+    "deadline": "15 marca, godz. 12:00 dla osób ze świadectwem zagranicznym (strona KU nie podaje roku, termin na nabór 2027 do potwierdzenia na ku.dk). Dokumenty potwierdzające spełnienie wymagań do 5 lipca, godz. 12:00."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements",
+   "quote": "All applicants with foreign or international examinations and diplomas (regardless of nationality) must submit their online application along with necessary documentation before the application deadline on 15 March at 12:00."
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i machine learning og datavidenskab",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (dowód znajomości duńskiego na poziomie A: Dansk A albo Studieprøven)",
+    "languageProof": "Wymagany duński na najwyższym poziomie (Dansk A) albo dokument potwierdzający akademicką znajomość duńskiego, np. Studieprøven i dansk som andetsprog. Bez duńskiego nie ma wstępu na żaden licencjat KU. Angielski B jest osobnym wymogiem przedmiotowym."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements/diplomas-from-eu-eea-countries",
+   "quote": "all bachelor programmes are taught in Danish and require the highest level in Danish or documentation for academic language skills in Danish."
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i machine learning og datavidenskab",
+   "set": {
+    "notes": "Program wyłącznie po duńsku. Uczelnia wymaga duńskiego na poziomie A, a szczegółowe wymagania programu są na jego duńskiej stronie. Polskie Świadectwo Dojrzałości jest na liście kwalifikujących się świadectw UE/EOG, ale szczegółowego przeliczenia polskich przedmiotów na poziomy duńskie strona KU nie podaje."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements",
+   "quote": "The University of Copenhagen only offers bachelor programmes taught in Danish"
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i økonomi",
+   "set": {
+    "tuitionEu": "0 EUR: obywatele UE/EOG i Szwajcarii studiują w Danii bez czesnego (strona nie podaje roku akademickiego). Czesne płacą osoby spoza UE/EOG.",
+    "tuitionUrl": "https://studyindenmark.dk/study-options/tuition-fees-and-scholarships"
+   },
+   "sourceUrl": "https://studyindenmark.dk/study-options/tuition-fees-and-scholarships",
+   "quote": "Higher education in Denmark is free for students from the EU/EEA and Switzerland"
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i økonomi",
+   "set": {
+    "deadline": "15 marca, godz. 12:00 dla osób ze świadectwem zagranicznym (strona KU nie podaje roku, termin na nabór 2027 do potwierdzenia na ku.dk). Dokumenty potwierdzające spełnienie wymagań do 5 lipca, godz. 12:00."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements",
+   "quote": "All applicants with foreign or international examinations and diplomas (regardless of nationality) must submit their online application along with necessary documentation before the application deadline on 15 March at 12:00."
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i økonomi",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (dowód znajomości duńskiego na poziomie A: Dansk A albo Studieprøven)",
+    "languageProof": "Wymagany duński na najwyższym poziomie (Dansk A) albo dokument potwierdzający akademicką znajomość duńskiego, np. Studieprøven i dansk som andetsprog. Bez duńskiego nie ma wstępu na żaden licencjat KU. Angielski B jest osobnym wymogiem przedmiotowym."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements/diplomas-from-eu-eea-countries",
+   "quote": "all bachelor programmes are taught in Danish and require the highest level in Danish or documentation for academic language skills in Danish."
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i økonomi",
+   "set": {
+    "notes": "Program wyłącznie po duńsku. Uczelnia wymaga duńskiego na poziomie A, a szczegółowe wymagania programu są na jego duńskiej stronie. Polskie Świadectwo Dojrzałości jest na liście kwalifikujących się świadectw UE/EOG, ale szczegółowego przeliczenia polskich przedmiotów na poziomy duńskie strona KU nie podaje."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements",
+   "quote": "The University of Copenhagen only offers bachelor programmes taught in Danish"
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i kommunikation og it",
+   "set": {
+    "tuitionEu": "0 EUR: obywatele UE/EOG i Szwajcarii studiują w Danii bez czesnego (strona nie podaje roku akademickiego). Czesne płacą osoby spoza UE/EOG.",
+    "tuitionUrl": "https://studyindenmark.dk/study-options/tuition-fees-and-scholarships"
+   },
+   "sourceUrl": "https://studyindenmark.dk/study-options/tuition-fees-and-scholarships",
+   "quote": "Higher education in Denmark is free for students from the EU/EEA and Switzerland"
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i kommunikation og it",
+   "set": {
+    "deadline": "15 marca, godz. 12:00 dla osób ze świadectwem zagranicznym (strona KU nie podaje roku, termin na nabór 2027 do potwierdzenia na ku.dk). Dokumenty potwierdzające spełnienie wymagań do 5 lipca, godz. 12:00."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements",
+   "quote": "All applicants with foreign or international examinations and diplomas (regardless of nationality) must submit their online application along with necessary documentation before the application deadline on 15 March at 12:00."
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i kommunikation og it",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (dowód znajomości duńskiego na poziomie A: Dansk A albo Studieprøven)",
+    "languageProof": "Wymagany duński na najwyższym poziomie (Dansk A) albo dokument potwierdzający akademicką znajomość duńskiego, np. Studieprøven i dansk som andetsprog. Bez duńskiego nie ma wstępu na żaden licencjat KU. Angielski B jest osobnym wymogiem przedmiotowym."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements/diplomas-from-eu-eea-countries",
+   "quote": "all bachelor programmes are taught in Danish and require the highest level in Danish or documentation for academic language skills in Danish."
+  },
+  {
+   "university": "Københavns Universitet (University of Copenhagen, UCPH)",
+   "programName": "Bachelor i kommunikation og it",
+   "set": {
+    "notes": "Program wyłącznie po duńsku. Uczelnia wymaga duńskiego na poziomie A, a szczegółowe wymagania programu są na jego duńskiej stronie. Polskie Świadectwo Dojrzałości jest na liście kwalifikujących się świadectw UE/EOG, ale szczegółowego przeliczenia polskich przedmiotów na poziomy duńskie strona KU nie podaje."
+   },
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements",
+   "quote": "The University of Copenhagen only offers bachelor programmes taught in Danish"
+  },
+  {
+   "university": "Danmarks Tekniske Universitet (DTU)",
+   "programName": "Bachelor of Science in Engineering: General Engineering",
+   "set": {
+    "tuitionEu": "0 EUR: obywatele UE/EOG nie płacą czesnego, bo pokrywa je państwo duńskie (strona nie podaje roku akademickiego)."
+   },
+   "sourceUrl": "https://www.dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/fees-funding-and-permits",
+   "quote": "EU/EEA citizens are not required to pay tuition fee to enroll in degree programmes in Denmark as their tuition fee is covered by the Danish state."
+  },
+  {
+   "university": "Danmarks Tekniske Universitet (DTU)",
+   "programName": "Bachelor of Science in Engineering: General Engineering",
+   "set": {
+    "deadline": "15 marca, godz. 12:00: ostatni dzień na dostarczenie podpisanej strony wniosku (strona DTU nie podaje roku, termin na nabór 2027 do potwierdzenia na dtu.dk). Portal optagelse.dk otwiera się 1 lutego."
+   },
+   "sourceUrl": "https://www.dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/how-to-apply",
+   "quote": "We have to receive the signed signature page no later than 15 March, 12 noon."
+  },
+  {
+   "university": "Danmarks Tekniske Universitet (DTU)",
+   "programName": "Softwareteknologi",
+   "set": {
+    "tuitionEu": "0 EUR: obywatele UE/EOG nie płacą czesnego, bo pokrywa je państwo duńskie (strona nie podaje roku akademickiego)."
+   },
+   "sourceUrl": "https://www.dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/fees-funding-and-permits",
+   "quote": "EU/EEA citizens are not required to pay tuition fee to enroll in degree programmes in Denmark as their tuition fee is covered by the Danish state."
+  },
+  {
+   "university": "Danmarks Tekniske Universitet (DTU)",
+   "programName": "Softwareteknologi",
+   "set": {
+    "deadline": "15 marca, godz. 12:00: ostatni dzień na dostarczenie podpisanej strony wniosku (strona DTU nie podaje roku, termin na nabór 2027 do potwierdzenia na dtu.dk). Portal optagelse.dk otwiera się 1 lutego."
+   },
+   "sourceUrl": "https://www.dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/how-to-apply",
+   "quote": "We have to receive the signed signature page no later than 15 March, 12 noon."
+  },
+  {
+   "university": "Danmarks Tekniske Universitet (DTU)",
+   "programName": "Kunstig intelligens og data",
+   "set": {
+    "tuitionEu": "0 EUR: obywatele UE/EOG nie płacą czesnego, bo pokrywa je państwo duńskie (strona nie podaje roku akademickiego)."
+   },
+   "sourceUrl": "https://www.dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/fees-funding-and-permits",
+   "quote": "EU/EEA citizens are not required to pay tuition fee to enroll in degree programmes in Denmark as their tuition fee is covered by the Danish state."
+  },
+  {
+   "university": "Danmarks Tekniske Universitet (DTU)",
+   "programName": "Kunstig intelligens og data",
+   "set": {
+    "deadline": "15 marca, godz. 12:00: ostatni dzień na dostarczenie podpisanej strony wniosku (strona DTU nie podaje roku, termin na nabór 2027 do potwierdzenia na dtu.dk). Portal optagelse.dk otwiera się 1 lutego."
+   },
+   "sourceUrl": "https://www.dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/how-to-apply",
+   "quote": "We have to receive the signed signature page no later than 15 March, 12 noon."
+  },
+  {
+   "university": "Danmarks Tekniske Universitet (DTU)",
+   "programName": "Data Science og Management",
+   "set": {
+    "tuitionEu": "0 EUR: obywatele UE/EOG nie płacą czesnego, bo pokrywa je państwo duńskie (strona nie podaje roku akademickiego)."
+   },
+   "sourceUrl": "https://www.dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/fees-funding-and-permits",
+   "quote": "EU/EEA citizens are not required to pay tuition fee to enroll in degree programmes in Denmark as their tuition fee is covered by the Danish state."
+  },
+  {
+   "university": "Danmarks Tekniske Universitet (DTU)",
+   "programName": "Data Science og Management",
+   "set": {
+    "deadline": "15 marca, godz. 12:00: ostatni dzień na dostarczenie podpisanej strony wniosku (strona DTU nie podaje roku, termin na nabór 2027 do potwierdzenia na dtu.dk). Portal optagelse.dk otwiera się 1 lutego."
+   },
+   "sourceUrl": "https://www.dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/how-to-apply",
+   "quote": "We have to receive the signed signature page no later than 15 March, 12 noon."
+  },
+  {
+   "university": "Danmarks Tekniske Universitet (DTU)",
+   "programName": "Byggeteknologi",
+   "set": {
+    "tuitionEu": "0 EUR: obywatele UE/EOG nie płacą czesnego, bo pokrywa je państwo duńskie (strona nie podaje roku akademickiego)."
+   },
+   "sourceUrl": "https://www.dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/fees-funding-and-permits",
+   "quote": "EU/EEA citizens are not required to pay tuition fee to enroll in degree programmes in Denmark as their tuition fee is covered by the Danish state."
+  },
+  {
+   "university": "Danmarks Tekniske Universitet (DTU)",
+   "programName": "Byggeteknologi",
+   "set": {
+    "deadline": "15 marca, godz. 12:00: ostatni dzień na dostarczenie podpisanej strony wniosku (strona DTU nie podaje roku, termin na nabór 2027 do potwierdzenia na dtu.dk). Portal optagelse.dk otwiera się 1 lutego."
+   },
+   "sourceUrl": "https://www.dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/how-to-apply",
+   "quote": "We have to receive the signed signature page no later than 15 March, 12 noon."
+  },
+  {
+   "university": "Danmarks Tekniske Universitet (DTU)",
+   "programName": "Mekanisk design og teknologi",
+   "set": {
+    "tuitionEu": "0 EUR: obywatele UE/EOG nie płacą czesnego, bo pokrywa je państwo duńskie (strona nie podaje roku akademickiego)."
+   },
+   "sourceUrl": "https://www.dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/fees-funding-and-permits",
+   "quote": "EU/EEA citizens are not required to pay tuition fee to enroll in degree programmes in Denmark as their tuition fee is covered by the Danish state."
+  },
+  {
+   "university": "Danmarks Tekniske Universitet (DTU)",
+   "programName": "Mekanisk design og teknologi",
+   "set": {
+    "deadline": "15 marca, godz. 12:00: ostatni dzień na dostarczenie podpisanej strony wniosku (strona DTU nie podaje roku, termin na nabór 2027 do potwierdzenia na dtu.dk). Portal optagelse.dk otwiera się 1 lutego."
+   },
+   "sourceUrl": "https://www.dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/how-to-apply",
+   "quote": "We have to receive the signed signature page no later than 15 March, 12 noon."
+  },
+  {
+   "university": "Danmarks Tekniske Universitet (DTU)",
+   "programName": "Softwareteknologi",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (dowód znajomości duńskiego na poziomie A: Dansk A albo Studieprøven)"
+   },
+   "sourceUrl": "https://www.dtu.dk/en/uddannelse/bachelor/uddannelsesretninger/softwareteknologi",
+   "quote": "På alle dansksproget civil- og diplomingeniørretninger er det et krav, at dine danskkundskaber svarer til dansk på A-niveau"
+  },
+  {
+   "university": "Danmarks Tekniske Universitet (DTU)",
+   "programName": "Kunstig intelligens og data",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (dowód znajomości duńskiego na poziomie A: Dansk A albo Studieprøven)"
+   },
+   "sourceUrl": "https://www.dtu.dk/en/uddannelse/bachelor/uddannelsesretninger/softwareteknologi",
+   "quote": "På alle dansksproget civil- og diplomingeniørretninger er det et krav, at dine danskkundskaber svarer til dansk på A-niveau"
+  },
+  {
+   "university": "Danmarks Tekniske Universitet (DTU)",
+   "programName": "Data Science og Management",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (dowód znajomości duńskiego na poziomie A: Dansk A albo Studieprøven)"
+   },
+   "sourceUrl": "https://www.dtu.dk/en/uddannelse/bachelor/uddannelsesretninger/softwareteknologi",
+   "quote": "På alle dansksproget civil- og diplomingeniørretninger er det et krav, at dine danskkundskaber svarer til dansk på A-niveau"
+  },
+  {
+   "university": "Danmarks Tekniske Universitet (DTU)",
+   "programName": "Byggeteknologi",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (dowód znajomości duńskiego na poziomie A: Dansk A albo Studieprøven)"
+   },
+   "sourceUrl": "https://www.dtu.dk/en/uddannelse/bachelor/uddannelsesretninger/softwareteknologi",
+   "quote": "På alle dansksproget civil- og diplomingeniørretninger er det et krav, at dine danskkundskaber svarer til dansk på A-niveau"
+  },
+  {
+   "university": "Danmarks Tekniske Universitet (DTU)",
+   "programName": "Mekanisk design og teknologi",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (dowód znajomości duńskiego na poziomie A: Dansk A albo Studieprøven)"
+   },
+   "sourceUrl": "https://www.dtu.dk/en/uddannelse/bachelor/uddannelsesretninger/softwareteknologi",
+   "quote": "På alle dansksproget civil- og diplomingeniørretninger er det et krav, at dine danskkundskaber svarer til dansk på A-niveau"
+  },
+  {
+   "university": "Danmarks Tekniske Universitet (DTU)",
+   "programName": "Softwareteknologi",
+   "set": {
+    "durationYears": 3
+   },
+   "sourceUrl": "https://www.dtu.dk/en/uddannelse/bachelor/uddannelsesretninger/softwareteknologi",
+   "quote": "En bachelor i Softwareteknologi tager tre år og er sat sammen af kurser, der i alt svarer til 180 ECTS-point."
+  },
+  {
+   "university": "Copenhagen Business School (CBS)",
+   "programName": "BSc in International Business",
+   "set": {
+    "deadline": "Dokumenty i wyniki testów językowych do 5 lipca, godz. 12:00 (strona CBS nie podaje roku i dotyczy naboru 2026, aktualizacja pojawi się przed rundą 2027). Termin 15 marca, godz. 12:00 dotyczy tylko osób potrzebujących zezwolenia na pobyt, więc obywatele UE składają dokumenty do 5 lipca. Wniosek na optagelse.dk, portal otwiera się 1 lutego."
+   },
+   "sourceUrl": "https://www.cbs.dk/en/study-programmes/bachelor-programmes/application-and-admission",
+   "quote": "if you need a student residence permit to study in Denmark, the deadline is 15 March at 12.00"
+  },
+  {
+   "university": "Copenhagen Business School (CBS)",
+   "programName": "BSc in Business Administration and Digital Management",
+   "set": {
+    "deadline": "Dokumenty i wyniki testów językowych do 5 lipca, godz. 12:00 (strona CBS nie podaje roku i dotyczy naboru 2026, aktualizacja pojawi się przed rundą 2027). Termin 15 marca, godz. 12:00 dotyczy tylko osób potrzebujących zezwolenia na pobyt, więc obywatele UE składają dokumenty do 5 lipca. Wniosek na optagelse.dk, portal otwiera się 1 lutego."
+   },
+   "sourceUrl": "https://www.cbs.dk/en/study-programmes/bachelor-programmes/application-and-admission",
+   "quote": "if you need a student residence permit to study in Denmark, the deadline is 15 March at 12.00"
+  },
+  {
+   "university": "Copenhagen Business School (CBS)",
+   "programName": "HA i erhvervsøkonomi",
+   "set": {
+    "deadline": "Dokumenty i wyniki testów językowych do 5 lipca, godz. 12:00 (strona CBS nie podaje roku i dotyczy naboru 2026, aktualizacja pojawi się przed rundą 2027). Termin 15 marca, godz. 12:00 dotyczy tylko osób potrzebujących zezwolenia na pobyt, więc obywatele UE składają dokumenty do 5 lipca. Wniosek na optagelse.dk, portal otwiera się 1 lutego."
+   },
+   "sourceUrl": "https://www.cbs.dk/en/study-programmes/bachelor-programmes/application-and-admission",
+   "quote": "if you need a student residence permit to study in Denmark, the deadline is 15 March at 12.00"
+  },
+  {
+   "university": "Copenhagen Business School (CBS)",
+   "programName": "BSc in International Business",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (osobny dowód angielskiego na poziomie A: test IELTS lub TOEFL albo egzamin Cambridge)",
+    "languageProof": "Wymagany angielski na poziomie A (English level A), dodatkowo do angielskiego B z oceną min. 6,0. Polska matura nie zalicza poziomu A, więc potrzebny jest osobny etap. Test (IELTS Academic min. 7,0 ogółem i min. 6,0 w każdej części albo TOEFL iBT) wolno zdawać tylko po zaliczeniu angielskiego B z oceną min. 6,0. Z polskiej matury angielski B zalicza wyłącznie obowiązkowy kurs min. 210 godzin potwierdzony formularzem. Bez tego pozostają egzaminy Cambridge C1 Advanced lub C2 Proficiency (testy IELTS i TOEFL nie zastępują wtedy angielskiego B)."
+   },
+   "sourceUrl": "https://www.cbs.dk/en/study-programmes/bachelor-programmes/application-and-admission",
+   "quote": "You cannot fulfil the English A language requirement with your upper secondary qualifications."
+  },
+  {
+   "university": "Copenhagen Business School (CBS)",
+   "programName": "BSc in Business Administration and Digital Management",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (osobny dowód angielskiego na poziomie A: test IELTS lub TOEFL albo egzamin Cambridge)",
+    "languageProof": "Wymagany angielski na poziomie A (English level A), dodatkowo do angielskiego B z oceną min. 6,0. Polska matura nie zalicza poziomu A, więc potrzebny jest osobny etap. Test (IELTS Academic min. 7,0 ogółem i min. 6,0 w każdej części albo TOEFL iBT) wolno zdawać tylko po zaliczeniu angielskiego B z oceną min. 6,0. Z polskiej matury angielski B zalicza wyłącznie obowiązkowy kurs min. 210 godzin potwierdzony formularzem. Bez tego pozostają egzaminy Cambridge C1 Advanced lub C2 Proficiency (testy IELTS i TOEFL nie zastępują wtedy angielskiego B)."
+   },
+   "sourceUrl": "https://www.cbs.dk/en/study-programmes/bachelor-programmes/application-and-admission",
+   "quote": "You cannot fulfil the English A language requirement with your upper secondary qualifications."
+  },
+  {
+   "university": "Copenhagen Business School (CBS)",
+   "programName": "HA i erhvervsøkonomi",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (dowód znajomości duńskiego na poziomie A: Dansk A albo Studieprøven)",
+    "languageProof": "Wymagany duński na poziomie A (Danish level A) jako warunek przedmiotowy, razem z angielskim B z oceną min. 6,0. Polskie świadectwo nie zawiera odpowiednika duńskiego A, więc potrzebny jest osobny dowód (zasady na duńskiej stronie CBS Trin 1: Adgangskrav > Dansk A)."
+   },
+   "sourceUrl": "https://www.cbs.dk/en/study-programmes/bachelor-programmes/application-and-admission",
+   "quote": "Danish level A is a specific entry requirement for all the Danish-taught bachelor programmes."
+  },
+  {
+   "university": "IT-Universitetet i København (ITU)",
+   "programName": "Bacheloruddannelsen i Data Science",
+   "set": {
+    "tuitionEu": "0 EUR: obywatele UE/EOG i Szwajcarii nie płacą czesnego (strona nie podaje roku akademickiego).",
+    "tuitionUrl": "https://en.itu.dk/Programmes/BSc-Programmes/Applying-to-a-BSc-programme/Application-and-tuition-fees"
+   },
+   "sourceUrl": "https://en.itu.dk/Programmes/BSc-Programmes/Applying-to-a-BSc-programme/Application-and-tuition-fees",
+   "quote": "Citizens of EU / EEA / Switzerland do not have to pay the tuition fee."
+  },
+  {
+   "university": "IT-Universitetet i København (ITU)",
+   "programName": "Bacheloruddannelsen i Data Science",
+   "set": {
+    "deadline": "15 marca, godz. 12:00 CET dla osób ze świadectwem zagranicznym (strona ITU nie podaje roku, termin na nabór 2027 do potwierdzenia na itu.dk). Portal optagelse.dk otwiera się 1 lutego."
+   },
+   "sourceUrl": "https://en.itu.dk/Programmes/BSc-Programmes/Applying-to-a-BSc-programme",
+   "quote": "When you are applying with an international qualifying examination, the application deadline is 15 March at 12.00 noon CET."
+  },
+  {
+   "university": "IT-Universitetet i København (ITU)",
+   "programName": "Bacheloruddannelsen i Softwareudvikling",
+   "set": {
+    "tuitionEu": "0 EUR: obywatele UE/EOG i Szwajcarii nie płacą czesnego (strona nie podaje roku akademickiego).",
+    "tuitionUrl": "https://en.itu.dk/Programmes/BSc-Programmes/Applying-to-a-BSc-programme/Application-and-tuition-fees"
+   },
+   "sourceUrl": "https://en.itu.dk/Programmes/BSc-Programmes/Applying-to-a-BSc-programme/Application-and-tuition-fees",
+   "quote": "Citizens of EU / EEA / Switzerland do not have to pay the tuition fee."
+  },
+  {
+   "university": "IT-Universitetet i København (ITU)",
+   "programName": "Bacheloruddannelsen i Softwareudvikling",
+   "set": {
+    "deadline": "15 marca, godz. 12:00 CET dla osób ze świadectwem zagranicznym (strona ITU nie podaje roku, termin na nabór 2027 do potwierdzenia na itu.dk). Portal optagelse.dk otwiera się 1 lutego."
+   },
+   "sourceUrl": "https://en.itu.dk/Programmes/BSc-Programmes/Applying-to-a-BSc-programme",
+   "quote": "When you are applying with an international qualifying examination, the application deadline is 15 March at 12.00 noon CET."
+  },
+  {
+   "university": "IT-Universitetet i København (ITU)",
+   "programName": "Bacheloruddannelsen i Data Science",
+   "set": {
+    "durationYears": 3,
+    "languages": [
+     "angielski"
+    ]
+   },
+   "sourceUrl": "https://en.itu.dk/Programmes/BSc-Programmes/Data-Science",
+   "quote": "During the three-year programme, you will get extensive teaching"
+  },
+  {
+   "university": "IT-Universitetet i København (ITU)",
+   "programName": "Bacheloruddannelsen i Data Science",
+   "set": {
+    "notes": "Program po angielsku. Osoby ze świadectwem zagranicznym aplikują w terminie kwoty 2 (15 marca), a ITU zaleca dołączenie listu motywacyjnego."
+   },
+   "sourceUrl": "https://en.itu.dk/Programmes/BSc-Programmes/Applying-to-a-BSc-programme",
+   "quote": "we recommend you attach a motivational cover letter"
+  },
+  {
+   "university": "Det Kongelige Akademi, Arkitektur (Royal Danish Academy)",
+   "programName": "Bacheloruddannelsen i arkitektur",
+   "set": {
+    "tuitionEu": "0 EUR: obywatele UE/EOG i Szwajcarii nie płacą czesnego (strona nie podaje roku akademickiego)."
+   },
+   "sourceUrl": "https://royaldanishacademy.com/en/admission-bachelor",
+   "quote": "Applicants with EU, EEA (Norway, Iceland, Liechtenstein) or Swiss citizenship do not pay tuition fee"
+  },
+  {
+   "university": "Det Kongelige Akademi, Arkitektur (Royal Danish Academy)",
+   "programName": "Bacheloruddannelsen i arkitektur",
+   "set": {
+    "matura": "wymaga dodatkowego etapu (dowód znajomości duńskiego na poziomie A: Dansk A albo Studieprøven)",
+    "languageProof": "Wymagany duński na poziomie A: Dansk A albo Studieprøven. Uczelnia akceptuje też szwedzki test TISUS i norweski Norskprøven B2. Wszystkie licencjaty z architektury są wyłącznie po duńsku."
+   },
+   "sourceUrl": "https://royaldanishacademy.com/en/admission-bachelor",
+   "quote": "Bachelor programmes in architecture, design and conservation at the Royal Danish Academy are all taught in Danish and therefore Danish proficiency at the highest level is required."
+  },
+  {
+   "university": "Det Kongelige Akademi, Arkitektur (Royal Danish Academy)",
+   "programName": "Bacheloruddannelsen i arkitektur",
+   "set": {
+    "deadline": "15 marca dla osób ze świadectwem zagranicznym i kwotą 2 (strona KADK nie podaje roku ani godziny, termin na nabór 2027 do potwierdzenia na stronie uczelni). Kwota 1 z duńską maturą: do 5 lipca."
+   },
+   "sourceUrl": "https://royaldanishacademy.com/en/education-secretariat/optag-bachelor-i-arkitektur",
+   "quote": "Hvem skal ansøge inden 15. marts"
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [],
+ "summaryPatches": [
+  {
+   "label": "Zakres",
+   "text": "Po angielsku dostępne są trzy licencjaty: DTU General Engineering, CBS International Business oraz Business Administration and Digital Management, a także ITU Data Science. Wszystkie licencjaty KU, architektura w KADK, ITU Software Development, większość kierunków DTU i HA na CBS są wyłącznie po duńsku i wymagają duńskiego na poziomie A. Bez duńskiego nie ma tam wstępu.",
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements",
+   "quote": "The University of Copenhagen only offers bachelor programmes taught in Danish"
+  },
+  {
+   "label": "Polska matura",
+   "text": "Polskie Świadectwo Dojrzałości (matura) kwalifikuje do duńskich licencjatów: KU wymienia je wśród uznawanych świadectw, a CBS uznaje maturę z liceum ogólnokształcącego za świadectwo przeliczalne na skalę duńską. Uczelnie wymagają jednak konkretnych przedmiotów na poziomach A, B i C oraz średniej, a oficjalnej tabeli przeliczenia polskich przedmiotów na poziomy duńskie podaje tylko CBS (m.in. obowiązkowy kurs angielskiego min. 210 godzin odpowiada poziomowi B). Programy duńskojęzyczne wymagają dodatkowo dowodu duńskiego na poziomie A.",
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements/diplomas-from-eu-eea-countries",
+   "quote": "Poland Swiadectwo Dojrzalosci / Matura"
+  },
+  {
+   "label": "Opłaty",
+   "text": "Obywatele UE/EOG i Szwajcarii studiują w Danii bez czesnego i na CBS bez opłaty aplikacyjnej. Czesne płacą osoby spoza UE/EOG, np. DTU General Engineering 15 000 EUR rocznie, ITU 8 250 EUR rocznie dla przyjętych w 2026 roku. Strony uczelni nie podają roku akademickiego dla opłat dla obywateli UE.",
+   "sourceUrl": "https://studyindenmark.dk/study-options/tuition-fees-and-scholarships",
+   "quote": "Higher education in Denmark is free for students from the EU/EEA and Switzerland"
+  },
+  {
+   "label": "Rekrutacja",
+   "text": "Rekrutacja odbywa się przez optagelse.dk (do ośmiu kierunków), portal otwiera się 1 lutego. Na KU, DTU, ITU i KADK osoby ze świadectwem zagranicznym składają wniosek do 15 marca, godz. 12:00 (strony nie podają roku). Na CBS termin 15 marca dotyczy tylko osób potrzebujących zezwolenia na pobyt, a obywatele UE dokumentują wymagania do 5 lipca, godz. 12:00. Na KU do 5 lipca można uzupełnić dokumenty potwierdzające wymagania.",
+   "sourceUrl": "https://www.ku.dk/studies/bachelor/admission-requirements",
+   "quote": "All applicants with foreign or international examinations and diplomas (regardless of nationality) must submit their online application along with necessary documentation before the application deadline on 15 March at 12:00."
+  },
+  {
+   "label": "Znajomość języka",
+   "text": "Na CBS w programach po angielsku wymagany jest angielski na poziomie A, a polska matura go nie zalicza. Test IELTS lub TOEFL (IELTS min. 7,0) wolno zdawać tylko po zaliczeniu angielskiego B z oceną min. 6,0, w przeciwnym razie zostają egzaminy Cambridge C1 Advanced lub C2 Proficiency. To dodatkowy etap przed przyjęciem. DTU General Engineering wymaga testu z angielskiego (IELTS Academic min. 6,5), a programy duńskojęzyczne duńskiego na poziomie A.",
+   "sourceUrl": "https://www.cbs.dk/en/study-programmes/bachelor-programmes/application-and-admission",
+   "quote": "You cannot fulfil the English A language requirement with your upper secondary qualifications."
+  }
+ ],
+ "gapsSet": [
+  "Brak oficjalnej tabeli odpowiedników polskich przedmiotów dla duńskich poziomów A, B i C na stronach KU, DTU, ITU i KADK. Strony odsyłają do duńskiego podręcznika ministerstwa. Jedynie CBS podaje przeliczenie dla Polski. Nie wiadomo, czy matura na poziomie rozszerzonym liczy się jako poziom A.",
+  "Strony KU, DTU, ITU i KADK podają terminy 15 marca i 5 lipca bez roku, a strona CBS dotyczy naboru 2026. Terminy na nabór 2027 trzeba potwierdzić na stronach uczelni.",
+  "Czesne dla osób spoza UE nie jest podane dla licencjatów KU i CBS ani dla duńskojęzycznych kierunków DTU i ITU. Dla KADK znana jest tylko kwota z roku 2024/25.",
+  "Strony uczelni nie podają, od kiedy obowiązują opłaty ani zwolnienia dla obywateli UE (rok akademicki), poza ogólną informacją, że studia są bezpłatne dla obywateli UE/EOG.",
+  "Brak licencjatu z dziennikarstwa na KU. Kierunek Kommunikation og it jest tylko luźnym odpowiednikiem i jest po duńsku. Dziennikarstwo licencjackie w aglomeracji oferuje Danmarks Medie- og Journalisthøjskole (poza zakresem opracowania).",
+  "Roskilde Universitet nie został opracowany, więc nie ma jego anglojęzycznych programów międzynarodowych.",
+  "KADK: nie potwierdzono czasu trwania licencjatu, oficjalnej nazwy programu i wymagań przedmiotowych.",
+  "Medycyna, prawo i psychologia: duński licencjat to pierwszy etap, a czas i warunki studiów magisterskich nie są opisane na stronach licencjatów.",
+  "Nie sprawdzono, czy limity miejsc lub selekcja obowiązują w każdym programie DTU, CBS i ITU. Nie wiadomo też, czy osoba z polską maturą i duńskim A może aplikować na ITU Software Development, bo strona przeglądu sugeruje, że program nie jest otwarty dla kandydatów międzynarodowych.",
+  "DTU Bygningsdesign nie został dodany, bo kształci inżynierów, a nie architektów z tytułem."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://studyindenmark.dk/study-options/tuition-fees-and-scholarships",
+   "note": "Studia w Danii bezpłatne dla obywateli UE/EOG i Szwajcarii (Study in Denmark)"
+  },
+  {
+   "url": "https://www.ku.dk/studies/bachelor/admission-requirements",
+   "note": "KU: wymagania, język duński, termin 15 marca i 5 lipca"
+  },
+  {
+   "url": "https://www.ku.dk/studies/bachelor/admission-requirements/diplomas-from-eu-eea-countries",
+   "note": "KU: świadectwa z UE/EOG, polska matura na liście kwalifikujących"
+  },
+  {
+   "url": "https://www.cbs.dk/en/study-programmes/bachelor-programmes/application-and-admission",
+   "note": "CBS: wymagania, polskie świadectwo, angielski A i terminy"
+  },
+  {
+   "url": "https://www.dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/fees-funding-and-permits",
+   "note": "DTU: czesne i opłaty"
+  },
+  {
+   "url": "https://www.dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/how-to-apply",
+   "note": "DTU: jak złożyć wniosek, termin 15 marca"
+  },
+  {
+   "url": "https://en.itu.dk/Programmes/BSc-Programmes/Applying-to-a-BSc-programme",
+   "note": "ITU: terminy naboru na licencjaty"
+  },
+  {
+   "url": "https://en.itu.dk/Programmes/BSc-Programmes/Applying-to-a-BSc-programme/Application-and-tuition-fees",
+   "note": "ITU: czesne i opłaty"
+  },
+  {
+   "url": "https://royaldanishacademy.com/en/admission-bachelor",
+   "note": "KADK: język duński i wymagania wstępne na licencjaty"
+  },
+  {
+   "url": "https://royaldanishacademy.com/en/education-secretariat/optag-bachelor-i-arkitektur",
+   "note": "KADK: terminy kwoty 1 i 2"
+  }
+ ]
+}

@@ -1,0 +1,593 @@
+{
+ "slug": "porto",
+ "programPatches": [
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Psicologia",
+   "set": {
+    "matura": "wymaga dodatkowego etapu: Português trzeba zdać w Portugalii jako egzamin krajowy, bo każdy zestaw go zawiera i polska matura z polskiego go nie zastępuje. Polska matura z biologii może zastąpić tylko Biologia e Geologia. Do potwierdzenia w GAES-UP lub DGES."
+   },
+   "sourceUrl": "https://files.diariodarepublica.pt/2s/2026/05/103000000/0015000170.pdf",
+   "quote": "são os indicados no anexo II da"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Psicologia",
+   "set": {
+    "languageProof": "Zajęcia po portugalsku, więc potrzebna jest płynna znajomość tego języka. Strona kierunku nie podaje wymaganego poziomu ani certyfikatu z portugalskiego dla obywateli UE, poziom do potwierdzenia w GAES-UP (U.Porto).",
+    "notes": "Ostatnia przyjęta osoba w 1. fazie miała według strony kierunku 171,5 (2. faza 174,5) w skali 0 do 200. Wydział: Faculdade de Psicologia e de Ciências da Educação. Nota ostatniego przyjętego pokazuje, jak trudno się dostać, a minimum z wymagań nie gwarantuje miejsca.",
+    "academicYear": "2026/27 (nabór 2026, dane poprzedniego naboru; na 2027/28 brak danych)"
+   },
+   "sourceUrl": "https://www.up.pt/portal/en/study/bachelors-and-integrated-masters-degrees/courses/fpceup/22381/",
+   "quote": "Language Portuguese Annual Tuition Fee (Full Tuition Fee) National/EU:"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Psicologia",
+   "set": {
+    "deadline": "Termin na nabór 2027/28 jeszcze nieopublikowany. W naborze 2026/27: 1. faza od 20 lipca do 6 sierpnia 2026 (osoby wnioskujące o zastąpienie egzaminów portugalskich egzaminami zagranicznymi składały wniosek od 20 do 29 lipca 2026), wyniki 23 sierpnia 2026. 2. faza od 24 sierpnia do 20 września 2026, wyniki 30 września 2026. 3. faza od 10 do 12 października 2026, wyniki 18 października 2026 (kalendarz DGES, Despacho 9359-A/2026). Wniosek składa się co roku w każdej fazie, w której kandydat chce startować."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "quote": "Divulgação dos resultados da 3.ª fase do concurso nacional. - 18 de outubro"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Engenharia Informática e Computação",
+   "set": {
+    "matura": "wymaga dodatkowego etapu: Matemática A trzeba zdać w Portugalii jako egzamin krajowy, bo polskiej matury z matematyki nie ma na liście odpowiedników CNAES na 2026/27. Polska matura może zastąpić tylko egzaminy z biologii, fizyki i chemii. Do potwierdzenia w GAES-UP lub DGES."
+   },
+   "sourceUrl": "https://files.diariodarepublica.pt/2s/2026/05/103000000/0015000170.pdf",
+   "quote": "são os indicados no anexo II da"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Engenharia Informática e Computação",
+   "set": {
+    "languageProof": "Zajęcia po portugalsku, więc potrzebna jest płynna znajomość tego języka. Strona kierunku nie podaje wymaganego poziomu ani certyfikatu z portugalskiego dla obywateli UE, poziom do potwierdzenia w GAES-UP (U.Porto).",
+    "notes": "Ostatnia przyjęta osoba w obu fazach miała według strony kierunku 161,8 (skala 0 do 200). Kierunek prowadzony wspólnie z Wydziałem Nauk (FCUP). Wydział: FEUP. Strona kierunku ma dopisek „Suitable for English-speaking students”, ale językiem zajęć jest portugalski. Nota ostatniego przyjętego pokazuje, jak trudno się dostać, a minimum z wymagań nie gwarantuje miejsca.",
+    "academicYear": "2026/27 (nabór 2026, dane poprzedniego naboru; na 2027/28 brak danych)"
+   },
+   "sourceUrl": "https://www.up.pt/portal/en/study/bachelors-and-integrated-masters-degrees/courses/feup/22841/",
+   "quote": "Language Portuguese - Suitable for English - speaking students Annual "
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Engenharia Informática e Computação",
+   "set": {
+    "deadline": "Termin na nabór 2027/28 jeszcze nieopublikowany. W naborze 2026/27: 1. faza od 20 lipca do 6 sierpnia 2026 (osoby wnioskujące o zastąpienie egzaminów portugalskich egzaminami zagranicznymi składały wniosek od 20 do 29 lipca 2026), wyniki 23 sierpnia 2026. 2. faza od 24 sierpnia do 20 września 2026, wyniki 30 września 2026. 3. faza od 10 do 12 października 2026, wyniki 18 października 2026 (kalendarz DGES, Despacho 9359-A/2026). Wniosek składa się co roku w każdej fazie, w której kandydat chce startować."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "quote": "Divulgação dos resultados da 3.ª fase do concurso nacional. - 18 de outubro"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Ciência de Computadores",
+   "set": {
+    "matura": "wymaga dodatkowego etapu: Matemática A trzeba zdać w Portugalii jako egzamin krajowy, bo polskiej matury z matematyki nie ma na liście odpowiedników CNAES na 2026/27. Polska matura może zastąpić tylko egzaminy z biologii, fizyki i chemii. Do potwierdzenia w GAES-UP lub DGES."
+   },
+   "sourceUrl": "https://files.diariodarepublica.pt/2s/2026/05/103000000/0015000170.pdf",
+   "quote": "são os indicados no anexo II da"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Ciência de Computadores",
+   "set": {
+    "languageProof": "Zajęcia po portugalsku, więc potrzebna jest płynna znajomość tego języka. Strona kierunku nie podaje wymaganego poziomu ani certyfikatu z portugalskiego dla obywateli UE, poziom do potwierdzenia w GAES-UP (U.Porto).",
+    "notes": "Ostatnia przyjęta osoba: 138,8 w 1. fazie, 148 w 2. fazie (strona kierunku, skala 0 do 200). Wydział: Faculdade de Ciências (FCUP). Nota ostatniego przyjętego pokazuje, jak trudno się dostać, a minimum z wymagań nie gwarantuje miejsca.",
+    "academicYear": "2026/27 (nabór 2026, dane poprzedniego naboru; na 2027/28 brak danych)"
+   },
+   "sourceUrl": "https://www.up.pt/portal/en/study/bachelors-and-integrated-masters-degrees/courses/fcup/885/",
+   "quote": "Language Portuguese Annual Tuition Fee (Full Tuition Fee) National/EU:"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Ciência de Computadores",
+   "set": {
+    "deadline": "Termin na nabór 2027/28 jeszcze nieopublikowany. W naborze 2026/27: 1. faza od 20 lipca do 6 sierpnia 2026 (osoby wnioskujące o zastąpienie egzaminów portugalskich egzaminami zagranicznymi składały wniosek od 20 do 29 lipca 2026), wyniki 23 sierpnia 2026. 2. faza od 24 sierpnia do 20 września 2026, wyniki 30 września 2026. 3. faza od 10 do 12 października 2026, wyniki 18 października 2026 (kalendarz DGES, Despacho 9359-A/2026). Wniosek składa się co roku w każdej fazie, w której kandydat chce startować."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "quote": "Divulgação dos resultados da 3.ª fase do concurso nacional. - 18 de outubro"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Inteligência Artificial e Ciência de Dados",
+   "set": {
+    "matura": "wymaga dodatkowego etapu: Matemática A trzeba zdać w Portugalii jako egzamin krajowy, bo polskiej matury z matematyki nie ma na liście odpowiedników CNAES na 2026/27. Polska matura może zastąpić tylko egzaminy z biologii, fizyki i chemii. Do potwierdzenia w GAES-UP lub DGES."
+   },
+   "sourceUrl": "https://files.diariodarepublica.pt/2s/2026/05/103000000/0015000170.pdf",
+   "quote": "são os indicados no anexo II da"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Inteligência Artificial e Ciência de Dados",
+   "set": {
+    "languageProof": "Zajęcia po portugalsku, więc potrzebna jest płynna znajomość tego języka. Strona kierunku nie podaje wymaganego poziomu ani certyfikatu z portugalskiego dla obywateli UE, poziom do potwierdzenia w GAES-UP (U.Porto).",
+    "notes": "Ostatnia przyjęta osoba: 162,8 w 1. fazie, 159,8 w 2. fazie (strona kierunku). Kierunek prowadzony wspólnie z FEUP. Wydział: FCUP. Nota ostatniego przyjętego pokazuje, jak trudno się dostać, a minimum z wymagań nie gwarantuje miejsca.",
+    "academicYear": "2026/27 (nabór 2026, dane poprzedniego naboru; na 2027/28 brak danych)"
+   },
+   "sourceUrl": "https://www.up.pt/portal/en/study/bachelors-and-integrated-masters-degrees/courses/fcup/23521/",
+   "quote": "Language Portuguese Annual Tuition Fee (Full Tuition Fee) National/EU:"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Inteligência Artificial e Ciência de Dados",
+   "set": {
+    "deadline": "Termin na nabór 2027/28 jeszcze nieopublikowany. W naborze 2026/27: 1. faza od 20 lipca do 6 sierpnia 2026 (osoby wnioskujące o zastąpienie egzaminów portugalskich egzaminami zagranicznymi składały wniosek od 20 do 29 lipca 2026), wyniki 23 sierpnia 2026. 2. faza od 24 sierpnia do 20 września 2026, wyniki 30 września 2026. 3. faza od 10 do 12 października 2026, wyniki 18 października 2026 (kalendarz DGES, Despacho 9359-A/2026). Wniosek składa się co roku w każdej fazie, w której kandydat chce startować."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "quote": "Divulgação dos resultados da 3.ª fase do concurso nacional. - 18 de outubro"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Medicina (Mestrado Integrado) FMUP",
+   "set": {
+    "matura": "wymaga dodatkowego etapu: Matemática trzeba zdać w Portugalii jako egzamin krajowy, bo polskiej matury z matematyki nie ma na liście odpowiedników CNAES na 2026/27. Biologię, fizykę i chemię może zastąpić polska matura. Dodatkowo obowiązuje warunek komunikacji interpersonalnej. Do potwierdzenia w GAES-UP lub DGES."
+   },
+   "sourceUrl": "https://files.diariodarepublica.pt/2s/2026/05/103000000/0015000170.pdf",
+   "quote": "são os indicados no anexo II da"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Medicina (Mestrado Integrado) FMUP",
+   "set": {
+    "languageProof": "Zajęcia po portugalsku, więc potrzebna jest płynna znajomość tego języka. Strona kierunku nie podaje wymaganego poziomu ani certyfikatu z portugalskiego dla obywateli UE, poziom do potwierdzenia w GAES-UP (U.Porto).",
+    "notes": "Ostatnia przyjęta osoba w 1. fazie: 186,7 (strona kierunku, skala 0 do 200). Warunek 'komunikacja interpersonalna' sprawdza uczelnia; szczegóły w załączniku I Guia (do potwierdzenia na stronie uczelni). Medycyna jest jedynym kierunkiem tego zestawu z 12 semestrami (360 ECTS). Nota ostatniego przyjętego pokazuje, jak trudno się dostać, a minimum z wymagań nie gwarantuje miejsca.",
+    "academicYear": "2026/27 (nabór 2026, dane poprzedniego naboru; na 2027/28 brak danych)"
+   },
+   "sourceUrl": "https://www.up.pt/portal/en/study/bachelors-and-integrated-masters-degrees/courses/fmup/1201/",
+   "quote": "Language Portuguese Annual Tuition Fee (Full Tuition Fee) National/EU:"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Medicina (Mestrado Integrado) FMUP",
+   "set": {
+    "deadline": "Termin na nabór 2027/28 jeszcze nieopublikowany. W naborze 2026/27: 1. faza od 20 lipca do 6 sierpnia 2026 (osoby wnioskujące o zastąpienie egzaminów portugalskich egzaminami zagranicznymi składały wniosek od 20 do 29 lipca 2026), wyniki 23 sierpnia 2026. 2. faza od 24 sierpnia do 20 września 2026, wyniki 30 września 2026. 3. faza od 10 do 12 października 2026, wyniki 18 października 2026 (kalendarz DGES, Despacho 9359-A/2026). Wniosek składa się co roku w każdej fazie, w której kandydat chce startować."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "quote": "Divulgação dos resultados da 3.ª fase do concurso nacional. - 18 de outubro"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Medicina (Mestrado Integrado) ICBAS",
+   "set": {
+    "matura": "wymaga dodatkowego etapu: Matemática trzeba zdać w Portugalii jako egzamin krajowy, bo polskiej matury z matematyki nie ma na liście odpowiedników CNAES na 2026/27. Biologię, fizykę i chemię może zastąpić polska matura. Dodatkowo obowiązuje warunek komunikacji interpersonalnej. Do potwierdzenia w GAES-UP lub DGES."
+   },
+   "sourceUrl": "https://files.diariodarepublica.pt/2s/2026/05/103000000/0015000170.pdf",
+   "quote": "são os indicados no anexo II da"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Medicina (Mestrado Integrado) ICBAS",
+   "set": {
+    "languageProof": "Zajęcia po portugalsku, więc potrzebna jest płynna znajomość tego języka. Strona kierunku nie podaje wymaganego poziomu ani certyfikatu z portugalskiego dla obywateli UE, poziom do potwierdzenia w GAES-UP (U.Porto).",
+    "notes": "Ostatnia przyjęta osoba w 1. fazie: 185,7 (strona kierunku). Liczba miejsc różni się między Guia (155) a stroną kierunku (178), do potwierdzenia. Nota ostatniego przyjętego pokazuje, jak trudno się dostać, a minimum z wymagań nie gwarantuje miejsca.",
+    "academicYear": "2026/27 (nabór 2026, dane poprzedniego naboru; na 2027/28 brak danych)"
+   },
+   "sourceUrl": "https://www.up.pt/portal/en/study/bachelors-and-integrated-masters-degrees/courses/icbas/1289/",
+   "quote": "Language Portuguese Annual Tuition Fee (Full Tuition Fee) National/EU:"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Medicina (Mestrado Integrado) ICBAS",
+   "set": {
+    "deadline": "Termin na nabór 2027/28 jeszcze nieopublikowany. W naborze 2026/27: 1. faza od 20 lipca do 6 sierpnia 2026 (osoby wnioskujące o zastąpienie egzaminów portugalskich egzaminami zagranicznymi składały wniosek od 20 do 29 lipca 2026), wyniki 23 sierpnia 2026. 2. faza od 24 sierpnia do 20 września 2026, wyniki 30 września 2026. 3. faza od 10 do 12 października 2026, wyniki 18 października 2026 (kalendarz DGES, Despacho 9359-A/2026). Wniosek składa się co roku w każdej fazie, w której kandydat chce startować."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "quote": "Divulgação dos resultados da 3.ª fase do concurso nacional. - 18 de outubro"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Arquitetura (Mestrado Integrado)",
+   "set": {
+    "matura": "wymaga dodatkowego etapu: egzaminy z rysunku, geometrii wykreślnej, matematyki i portugalskiego trzeba zdać w Portugalii, bo polskich odpowiedników nie ma na liście CNAES na 2026/27. Do potwierdzenia w GAES-UP lub DGES."
+   },
+   "sourceUrl": "https://files.diariodarepublica.pt/2s/2026/05/103000000/0015000170.pdf",
+   "quote": "são os indicados no anexo II da"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Arquitetura (Mestrado Integrado)",
+   "set": {
+    "languageProof": "Zajęcia po portugalsku, więc potrzebna jest płynna znajomość tego języka. Strona kierunku nie podaje wymaganego poziomu ani certyfikatu z portugalskiego dla obywateli UE, poziom do potwierdzenia w GAES-UP (U.Porto).",
+    "notes": "Ostatnia przyjęta osoba: 177,3 w 1. fazie, 181,8 w 2. fazie (strona kierunku). Tytuł magistra po 5 latach (300 ECTS), pierwszy stopień (licenciado) po 3 latach. Wydział: Faculdade de Arquitetura (FAUP). Strona kierunku ma dopisek „Suitable for English-speaking students”, ale językiem zajęć jest portugalski. Nota ostatniego przyjętego pokazuje, jak trudno się dostać, a minimum z wymagań nie gwarantuje miejsca.",
+    "academicYear": "2026/27 (nabór 2026, dane poprzedniego naboru; na 2027/28 brak danych)"
+   },
+   "sourceUrl": "https://www.up.pt/portal/en/study/bachelors-and-integrated-masters-degrees/courses/faup/45/",
+   "quote": "Language Portuguese - Suitable for English - speaking students Annual "
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Arquitetura (Mestrado Integrado)",
+   "set": {
+    "deadline": "Termin na nabór 2027/28 jeszcze nieopublikowany. W naborze 2026/27: 1. faza od 20 lipca do 6 sierpnia 2026 (osoby wnioskujące o zastąpienie egzaminów portugalskich egzaminami zagranicznymi składały wniosek od 20 do 29 lipca 2026), wyniki 23 sierpnia 2026. 2. faza od 24 sierpnia do 20 września 2026, wyniki 30 września 2026. 3. faza od 10 do 12 października 2026, wyniki 18 października 2026 (kalendarz DGES, Despacho 9359-A/2026). Wniosek składa się co roku w każdej fazie, w której kandydat chce startować."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "quote": "Divulgação dos resultados da 3.ª fase do concurso nacional. - 18 de outubro"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Direito",
+   "set": {
+    "matura": "wymaga dodatkowego etapu: Português trzeba zdać w Portugalii jako egzamin krajowy, bo polska matura z języka polskiego go nie zastępuje. Pozostałych przedmiotów z zestawów (filozofia, historia, angielski, matematyka) też nie ma na liście CNAES dla Polski. Do potwierdzenia w GAES-UP lub DGES."
+   },
+   "sourceUrl": "https://files.diariodarepublica.pt/2s/2026/05/103000000/0015000170.pdf",
+   "quote": "são os indicados no anexo II da"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Direito",
+   "set": {
+    "languageProof": "Zajęcia po portugalsku, więc potrzebna jest płynna znajomość tego języka. Strona kierunku nie podaje wymaganego poziomu ani certyfikatu z portugalskiego dla obywateli UE, poziom do potwierdzenia w GAES-UP (U.Porto).",
+    "notes": "Ostatnia przyjęta osoba: 173,5 w 1. fazie, 175,8 w 2. fazie (strona kierunku). Nota ostatniego przyjętego pokazuje, jak trudno się dostać, a minimum z wymagań nie gwarantuje miejsca.",
+    "academicYear": "2026/27 (nabór 2026, dane poprzedniego naboru; na 2027/28 brak danych)"
+   },
+   "sourceUrl": "https://www.up.pt/portal/en/study/bachelors-and-integrated-masters-degrees/courses/fdup/593/",
+   "quote": "Language Portuguese Annual Tuition Fee (Full Tuition Fee) National/EU:"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Direito",
+   "set": {
+    "deadline": "Termin na nabór 2027/28 jeszcze nieopublikowany. W naborze 2026/27: 1. faza od 20 lipca do 6 sierpnia 2026 (osoby wnioskujące o zastąpienie egzaminów portugalskich egzaminami zagranicznymi składały wniosek od 20 do 29 lipca 2026), wyniki 23 sierpnia 2026. 2. faza od 24 sierpnia do 20 września 2026, wyniki 30 września 2026. 3. faza od 10 do 12 października 2026, wyniki 18 października 2026 (kalendarz DGES, Despacho 9359-A/2026). Wniosek składa się co roku w każdej fazie, w której kandydat chce startować."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "quote": "Divulgação dos resultados da 3.ª fase do concurso nacional. - 18 de outubro"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Economia",
+   "set": {
+    "matura": "wymaga dodatkowego etapu: Matemática A trzeba zdać w Portugalii jako egzamin krajowy, bo polskiej matury z matematyki nie ma na liście odpowiedników CNAES na 2026/27. Polska matura może zastąpić tylko egzaminy z biologii, fizyki i chemii. Do potwierdzenia w GAES-UP lub DGES."
+   },
+   "sourceUrl": "https://files.diariodarepublica.pt/2s/2026/05/103000000/0015000170.pdf",
+   "quote": "são os indicados no anexo II da"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Economia",
+   "set": {
+    "languageProof": "Zajęcia po portugalsku, więc potrzebna jest płynna znajomość tego języka. Strona kierunku nie podaje wymaganego poziomu ani certyfikatu z portugalskiego dla obywateli UE, poziom do potwierdzenia w GAES-UP (U.Porto).",
+    "notes": "Ostatnia przyjęta osoba według strony kierunku: 173,5 w 1. fazie, 180 w 2. fazie (skala 0 do 200). Wydział: FEP School of Economics and Management. Nota ostatniego przyjętego pokazuje, jak trudno się dostać, a minimum z wymagań nie gwarantuje miejsca.",
+    "academicYear": "2026/27 (nabór 2026, dane poprzedniego naboru; na 2027/28 brak danych)"
+   },
+   "sourceUrl": "https://www.up.pt/portal/en/study/bachelors-and-integrated-masters-degrees/courses/fep/1052/",
+   "quote": "Language Portuguese Annual Tuition Fee (Full Tuition Fee) National/EU:"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Economia",
+   "set": {
+    "deadline": "Termin na nabór 2027/28 jeszcze nieopublikowany. W naborze 2026/27: 1. faza od 20 lipca do 6 sierpnia 2026 (osoby wnioskujące o zastąpienie egzaminów portugalskich egzaminami zagranicznymi składały wniosek od 20 do 29 lipca 2026), wyniki 23 sierpnia 2026. 2. faza od 24 sierpnia do 20 września 2026, wyniki 30 września 2026. 3. faza od 10 do 12 października 2026, wyniki 18 października 2026 (kalendarz DGES, Despacho 9359-A/2026). Wniosek składa się co roku w każdej fazie, w której kandydat chce startować."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "quote": "Divulgação dos resultados da 3.ª fase do concurso nacional. - 18 de outubro"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Economia (ensino em Inglês)",
+   "set": {
+    "matura": "wymaga dodatkowego etapu: Matemática A trzeba zdać w Portugalii jako egzamin krajowy, bo polskiej matury z matematyki nie ma na liście odpowiedników CNAES na 2026/27. Polska matura może zastąpić tylko egzaminy z biologii, fizyki i chemii. Do potwierdzenia w GAES-UP lub DGES."
+   },
+   "sourceUrl": "https://files.diariodarepublica.pt/2s/2026/05/103000000/0015000170.pdf",
+   "quote": "são os indicados no anexo II da"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Economia (ensino em Inglês)",
+   "set": {
+    "languageProof": "Zajęcia po angielsku. Strona kierunku nie podaje wymaganego certyfikatu z angielskiego, do potwierdzenia w GAES-UP lub na stronie FEP.",
+    "notes": "Ostatnia przyjęta osoba według strony kierunku: 172,5 w 1. fazie, 182,5 w 2. fazie (skala 0 do 200). Program prowadzony po angielsku, 30 miejsc. Wydział: FEP School of Economics and Management. Język wykładowy angielski, ale warunki przyjęcia takie jak na programie portugalskim (ten sam konkurs krajowy i egzaminy wstępne). Nota ostatniego przyjętego pokazuje, jak trudno się dostać, a minimum z wymagań nie gwarantuje miejsca.",
+    "academicYear": "2026/27 (nabór 2026, dane poprzedniego naboru; na 2027/28 brak danych)"
+   },
+   "sourceUrl": "https://www.up.pt/portal/en/study/bachelors-and-integrated-masters-degrees/courses/fep/37902/",
+   "quote": "Language English Annual Tuition Fee (Full Tuition Fee) National/EU: 69"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Economia (ensino em Inglês)",
+   "set": {
+    "deadline": "Termin na nabór 2027/28 jeszcze nieopublikowany. W naborze 2026/27: 1. faza od 20 lipca do 6 sierpnia 2026 (osoby wnioskujące o zastąpienie egzaminów portugalskich egzaminami zagranicznymi składały wniosek od 20 do 29 lipca 2026), wyniki 23 sierpnia 2026. 2. faza od 24 sierpnia do 20 września 2026, wyniki 30 września 2026. 3. faza od 10 do 12 października 2026, wyniki 18 października 2026 (kalendarz DGES, Despacho 9359-A/2026). Wniosek składa się co roku w każdej fazie, w której kandydat chce startować."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "quote": "Divulgação dos resultados da 3.ª fase do concurso nacional. - 18 de outubro"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Gestão (ensino em Inglês)",
+   "set": {
+    "matura": "wymaga dodatkowego etapu: Matemática A trzeba zdać w Portugalii jako egzamin krajowy, bo polskiej matury z matematyki nie ma na liście odpowiedników CNAES na 2026/27. Polska matura może zastąpić tylko egzaminy z biologii, fizyki i chemii. Do potwierdzenia w GAES-UP lub DGES."
+   },
+   "sourceUrl": "https://files.diariodarepublica.pt/2s/2026/05/103000000/0015000170.pdf",
+   "quote": "são os indicados no anexo II da"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Gestão (ensino em Inglês)",
+   "set": {
+    "languageProof": "Zajęcia po angielsku. Strona kierunku nie podaje wymaganego certyfikatu z angielskiego, do potwierdzenia w GAES-UP lub na stronie FEP.",
+    "notes": "Ostatnia przyjęta osoba według strony kierunku: 176 w 1. fazie, 178,8 w 2. fazie (skala 0 do 200). Program prowadzony po angielsku, 30 miejsc. Wydział: FEP School of Economics and Management. Język wykładowy angielski, ale warunki przyjęcia takie jak na programie portugalskim (ten sam konkurs krajowy i egzaminy wstępne). Nota ostatniego przyjętego pokazuje, jak trudno się dostać, a minimum z wymagań nie gwarantuje miejsca.",
+    "academicYear": "2026/27 (nabór 2026, dane poprzedniego naboru; na 2027/28 brak danych)"
+   },
+   "sourceUrl": "https://www.up.pt/portal/en/study/bachelors-and-integrated-masters-degrees/courses/fep/37922/",
+   "quote": "Language English Annual Tuition Fee (Full Tuition Fee) National/EU: 69"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Gestão (ensino em Inglês)",
+   "set": {
+    "deadline": "Termin na nabór 2027/28 jeszcze nieopublikowany. W naborze 2026/27: 1. faza od 20 lipca do 6 sierpnia 2026 (osoby wnioskujące o zastąpienie egzaminów portugalskich egzaminami zagranicznymi składały wniosek od 20 do 29 lipca 2026), wyniki 23 sierpnia 2026. 2. faza od 24 sierpnia do 20 września 2026, wyniki 30 września 2026. 3. faza od 10 do 12 października 2026, wyniki 18 października 2026 (kalendarz DGES, Despacho 9359-A/2026). Wniosek składa się co roku w każdej fazie, w której kandydat chce startować."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "quote": "Divulgação dos resultados da 3.ª fase do concurso nacional. - 18 de outubro"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Engenharia Civil",
+   "set": {
+    "matura": "wymaga dodatkowego etapu: Matemática A trzeba zdać w Portugalii jako egzamin krajowy, bo polskiej matury z matematyki nie ma na liście odpowiedników CNAES na 2026/27. Polska matura może zastąpić tylko egzaminy z biologii, fizyki i chemii. Do potwierdzenia w GAES-UP lub DGES."
+   },
+   "sourceUrl": "https://files.diariodarepublica.pt/2s/2026/05/103000000/0015000170.pdf",
+   "quote": "são os indicados no anexo II da"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Engenharia Civil",
+   "set": {
+    "languageProof": "Zajęcia po portugalsku, więc potrzebna jest płynna znajomość tego języka. Strona kierunku nie podaje wymaganego poziomu ani certyfikatu z portugalskiego dla obywateli UE, poziom do potwierdzenia w GAES-UP (U.Porto).",
+    "notes": "Ostatnia przyjęta osoba: 158,8 w 1. fazie, 169 w 2. fazie. Liczba miejsc różni się między Guia (140) a stroną kierunku (121), do potwierdzenia na stronie uczelni. Strona kierunku ma dopisek „Suitable for English-speaking students”, ale językiem zajęć jest portugalski. Nota ostatniego przyjętego pokazuje, jak trudno się dostać, a minimum z wymagań nie gwarantuje miejsca.",
+    "academicYear": "2026/27 (nabór 2026, dane poprzedniego naboru; na 2027/28 brak danych)"
+   },
+   "sourceUrl": "https://www.up.pt/portal/en/study/bachelors-and-integrated-masters-degrees/courses/feup/22802/",
+   "quote": "Language Portuguese - Suitable for English - speaking students Annual "
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Engenharia Civil",
+   "set": {
+    "deadline": "Termin na nabór 2027/28 jeszcze nieopublikowany. W naborze 2026/27: 1. faza od 20 lipca do 6 sierpnia 2026 (osoby wnioskujące o zastąpienie egzaminów portugalskich egzaminami zagranicznymi składały wniosek od 20 do 29 lipca 2026), wyniki 23 sierpnia 2026. 2. faza od 24 sierpnia do 20 września 2026, wyniki 30 września 2026. 3. faza od 10 do 12 października 2026, wyniki 18 października 2026 (kalendarz DGES, Despacho 9359-A/2026). Wniosek składa się co roku w każdej fazie, w której kandydat chce startować."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "quote": "Divulgação dos resultados da 3.ª fase do concurso nacional. - 18 de outubro"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Engenharia Mecânica",
+   "set": {
+    "matura": "wymaga dodatkowego etapu: Matemática A trzeba zdać w Portugalii jako egzamin krajowy, bo polskiej matury z matematyki nie ma na liście odpowiedników CNAES na 2026/27. Polska matura może zastąpić tylko egzaminy z biologii, fizyki i chemii. Do potwierdzenia w GAES-UP lub DGES."
+   },
+   "sourceUrl": "https://files.diariodarepublica.pt/2s/2026/05/103000000/0015000170.pdf",
+   "quote": "são os indicados no anexo II da"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Engenharia Mecânica",
+   "set": {
+    "languageProof": "Zajęcia po portugalsku, więc potrzebna jest płynna znajomość tego języka. Strona kierunku nie podaje wymaganego poziomu ani certyfikatu z portugalskiego dla obywateli UE, poziom do potwierdzenia w GAES-UP (U.Porto).",
+    "notes": "Ostatnia przyjęta osoba: 181,8 w 1. fazie, 189,3 w 2. fazie (strona kierunku). Wysoki próg przyjęcia. Strona kierunku ma dopisek „Suitable for English-speaking students”, ale językiem zajęć jest portugalski. Nota ostatniego przyjętego pokazuje, jak trudno się dostać, a minimum z wymagań nie gwarantuje miejsca.",
+    "academicYear": "2026/27 (nabór 2026, dane poprzedniego naboru; na 2027/28 brak danych)"
+   },
+   "sourceUrl": "https://www.up.pt/portal/en/study/bachelors-and-integrated-masters-degrees/courses/feup/22882/",
+   "quote": "Language Portuguese - Suitable for English - speaking students Annual "
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Engenharia Mecânica",
+   "set": {
+    "deadline": "Termin na nabór 2027/28 jeszcze nieopublikowany. W naborze 2026/27: 1. faza od 20 lipca do 6 sierpnia 2026 (osoby wnioskujące o zastąpienie egzaminów portugalskich egzaminami zagranicznymi składały wniosek od 20 do 29 lipca 2026), wyniki 23 sierpnia 2026. 2. faza od 24 sierpnia do 20 września 2026, wyniki 30 września 2026. 3. faza od 10 do 12 października 2026, wyniki 18 października 2026 (kalendarz DGES, Despacho 9359-A/2026). Wniosek składa się co roku w każdej fazie, w której kandydat chce startować."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "quote": "Divulgação dos resultados da 3.ª fase do concurso nacional. - 18 de outubro"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Ciências da Comunicação",
+   "set": {
+    "matura": "wymaga dodatkowego etapu: Português trzeba zdać w Portugalii jako egzamin krajowy, bo polska matura z języka polskiego go nie zastępuje. Pozostałych przedmiotów z zestawów (filozofia, historia, angielski, matematyka) też nie ma na liście CNAES dla Polski. Do potwierdzenia w GAES-UP lub DGES."
+   },
+   "sourceUrl": "https://files.diariodarepublica.pt/2s/2026/05/103000000/0015000170.pdf",
+   "quote": "são os indicados no anexo II da"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Ciências da Comunicação",
+   "set": {
+    "languageProof": "Zajęcia po portugalsku, więc potrzebna jest płynna znajomość tego języka. Strona kierunku nie podaje wymaganego poziomu ani certyfikatu z portugalskiego dla obywateli UE, poziom do potwierdzenia w GAES-UP (U.Porto).",
+    "notes": "Ostatnia przyjęta osoba: 169,5 w 1. fazie, 176 w 2. fazie. Kierunek prowadzony z FEP, FBAUP i FEUP. Strona kierunku zawiera informację, że akredytacja A3ES jest ważna 1 rok (do potwierdzenia aktualnego statusu). Wydział: Faculdade de Letras (FLUP). Nota ostatniego przyjętego pokazuje, jak trudno się dostać, a minimum z wymagań nie gwarantuje miejsca.",
+    "academicYear": "2026/27 (nabór 2026, dane poprzedniego naboru; na 2027/28 brak danych)"
+   },
+   "sourceUrl": "https://www.up.pt/portal/en/study/bachelors-and-integrated-masters-degrees/courses/flup/455/",
+   "quote": "Language Portuguese Annual Tuition Fee (Full Tuition Fee) National/EU:"
+  },
+  {
+   "university": "Universidade do Porto (U.Porto)",
+   "programName": "Ciências da Comunicação",
+   "set": {
+    "deadline": "Termin na nabór 2027/28 jeszcze nieopublikowany. W naborze 2026/27: 1. faza od 20 lipca do 6 sierpnia 2026 (osoby wnioskujące o zastąpienie egzaminów portugalskich egzaminami zagranicznymi składały wniosek od 20 do 29 lipca 2026), wyniki 23 sierpnia 2026. 2. faza od 24 sierpnia do 20 września 2026, wyniki 30 września 2026. 3. faza od 10 do 12 października 2026, wyniki 18 października 2026 (kalendarz DGES, Despacho 9359-A/2026). Wniosek składa się co roku w każdej fazie, w której kandydat chce startować."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "quote": "Divulgação dos resultados da 3.ª fase do concurso nacional. - 18 de outubro"
+  },
+  {
+   "university": "Politécnico do Porto, Instituto Superior de Engenharia do Porto (ISEP)",
+   "programName": "Engenharia Informática",
+   "set": {
+    "matura": "wymaga dodatkowego etapu: Matemática A trzeba zdać w Portugalii jako egzamin krajowy, bo polskiej matury z matematyki nie ma na liście odpowiedników CNAES na 2026/27. Polska matura może zastąpić tylko egzaminy z biologii, fizyki i chemii. Do potwierdzenia w GAES-UP lub DGES."
+   },
+   "sourceUrl": "https://files.diariodarepublica.pt/2s/2026/05/103000000/0015000170.pdf",
+   "quote": "são os indicados no anexo II da"
+  },
+  {
+   "university": "Politécnico do Porto, Instituto Superior de Engenharia do Porto (ISEP)",
+   "programName": "Engenharia Informática",
+   "set": {
+    "languageProof": "Zajęcia po portugalsku, więc potrzebna jest płynna znajomość tego języka. Strona kierunku nie podaje wymaganego poziomu ani certyfikatu z portugalskiego dla obywateli UE, poziom do potwierdzenia w ISEP.",
+    "notes": "Średnia ostatnich przyjętych według ISEP: 150,0 (1. faza 2025), 166,0 (2. faza 2025), 166,5 (3. faza 2025). Wybór dziennego lub popołudniowo-wieczornego trybu, popołudniowy tylko przy minimalnej liczbie zapisanych. Część miejsc w 1. fazie jest zarezerwowana dla kandydatów z północnych regionów Portugalii (preferência regional), co zmniejsza pulę dla kandydatów z zagranicy.",
+    "academicYear": "2026/27 (nabór 2026, dane poprzedniego naboru; na 2027/28 brak danych)"
+   },
+   "sourceUrl": "https://www.isep.ipp.pt/Course/Course/26",
+   "quote": "Provas de Ingresso Um dos seguintes conjuntos: 19 Matemática A ou 07 Física e Química + 19 Matemática A ou 19 "
+  },
+  {
+   "university": "Politécnico do Porto, Instituto Superior de Engenharia do Porto (ISEP)",
+   "programName": "Engenharia Informática",
+   "set": {
+    "deadline": "Termin na nabór 2027/28 jeszcze nieopublikowany. W naborze 2026/27: 1. faza od 20 lipca do 6 sierpnia 2026 (osoby wnioskujące o zastąpienie egzaminów portugalskich egzaminami zagranicznymi składały wniosek od 20 do 29 lipca 2026), wyniki 23 sierpnia 2026. 2. faza od 24 sierpnia do 20 września 2026, wyniki 30 września 2026. 3. faza od 10 do 12 października 2026, wyniki 18 października 2026 (kalendarz DGES, Despacho 9359-A/2026). Wniosek składa się co roku w każdej fazie, w której kandydat chce startować."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "quote": "Divulgação dos resultados da 3.ª fase do concurso nacional. - 18 de outubro"
+  },
+  {
+   "university": "Politécnico do Porto, Instituto Superior de Engenharia do Porto (ISEP)",
+   "programName": "Engenharia Informática",
+   "set": {
+    "tuitionEu": "Ustawowe maksimum czesnego w uczelniach publicznych to 697 EUR rocznie (DGES, rok akademicki 2025/26). Stawka ISEP na 2026/27 do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/propinas?plid=593",
+   "quote": "o valor máximo da propina a fixar pelas instituições de ensino superior não pode ser superior ao valor fixado no anterior ano letivo, mantendo-se assim em 697€"
+  },
+  {
+   "university": "Politécnico do Porto, Instituto Superior de Engenharia do Porto (ISEP)",
+   "programName": "Engenharia Civil",
+   "set": {
+    "matura": "wymaga dodatkowego etapu: Matemática A trzeba zdać w Portugalii jako egzamin krajowy, bo polskiej matury z matematyki nie ma na liście odpowiedników CNAES na 2026/27. Polska matura może zastąpić tylko egzaminy z biologii, fizyki i chemii. Do potwierdzenia w GAES-UP lub DGES."
+   },
+   "sourceUrl": "https://files.diariodarepublica.pt/2s/2026/05/103000000/0015000170.pdf",
+   "quote": "são os indicados no anexo II da"
+  },
+  {
+   "university": "Politécnico do Porto, Instituto Superior de Engenharia do Porto (ISEP)",
+   "programName": "Engenharia Civil",
+   "set": {
+    "languageProof": "Zajęcia po portugalsku, więc potrzebna jest płynna znajomość tego języka. Strona kierunku nie podaje wymaganego poziomu ani certyfikatu z portugalskiego dla obywateli UE, poziom do potwierdzenia w ISEP.",
+    "notes": "Uczelnia: Instituto Superior de Engenharia do Porto (ISEP), część Politécnico do Porto (strona używa też nazwy UTP, Universidade Técnica do Porto). Część miejsc w 1. fazie jest zarezerwowana dla kandydatów z północnych regionów Portugalii (preferência regional), co zmniejsza pulę dla kandydatów z zagranicy.",
+    "academicYear": "2026/27 (nabór 2026, dane poprzedniego naboru; na 2027/28 brak danych)"
+   },
+   "sourceUrl": "https://www.isep.ipp.pt/Course/Course/35",
+   "quote": "Provas de Ingresso 07 Física e Química + 19 Matemática A Consulta o Guia da Candidatura de 2026 - Detalhe de C"
+  },
+  {
+   "university": "Politécnico do Porto, Instituto Superior de Engenharia do Porto (ISEP)",
+   "programName": "Engenharia Civil",
+   "set": {
+    "deadline": "Termin na nabór 2027/28 jeszcze nieopublikowany. W naborze 2026/27: 1. faza od 20 lipca do 6 sierpnia 2026 (osoby wnioskujące o zastąpienie egzaminów portugalskich egzaminami zagranicznymi składały wniosek od 20 do 29 lipca 2026), wyniki 23 sierpnia 2026. 2. faza od 24 sierpnia do 20 września 2026, wyniki 30 września 2026. 3. faza od 10 do 12 października 2026, wyniki 18 października 2026 (kalendarz DGES, Despacho 9359-A/2026). Wniosek składa się co roku w każdej fazie, w której kandydat chce startować."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "quote": "Divulgação dos resultados da 3.ª fase do concurso nacional. - 18 de outubro"
+  },
+  {
+   "university": "Politécnico do Porto, Instituto Superior de Engenharia do Porto (ISEP)",
+   "programName": "Engenharia Civil",
+   "set": {
+    "tuitionEu": "Ustawowe maksimum czesnego w uczelniach publicznych to 697 EUR rocznie (DGES, rok akademicki 2025/26). Stawka ISEP na 2026/27 do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/propinas?plid=593",
+   "quote": "o valor máximo da propina a fixar pelas instituições de ensino superior não pode ser superior ao valor fixado no anterior ano letivo, mantendo-se assim em 697€"
+  },
+  {
+   "university": "Politécnico do Porto, Instituto Superior de Engenharia do Porto (ISEP)",
+   "programName": "Engenharia Mecânica",
+   "set": {
+    "matura": "wymaga dodatkowego etapu: Matemática A trzeba zdać w Portugalii jako egzamin krajowy, bo polskiej matury z matematyki nie ma na liście odpowiedników CNAES na 2026/27. Polska matura może zastąpić tylko egzaminy z biologii, fizyki i chemii. Do potwierdzenia w GAES-UP lub DGES."
+   },
+   "sourceUrl": "https://files.diariodarepublica.pt/2s/2026/05/103000000/0015000170.pdf",
+   "quote": "são os indicados no anexo II da"
+  },
+  {
+   "university": "Politécnico do Porto, Instituto Superior de Engenharia do Porto (ISEP)",
+   "programName": "Engenharia Mecânica",
+   "set": {
+    "languageProof": "Zajęcia po portugalsku, więc potrzebna jest płynna znajomość tego języka. Strona kierunku nie podaje wymaganego poziomu ani certyfikatu z portugalskiego dla obywateli UE, poziom do potwierdzenia w ISEP.",
+    "notes": "Uczelnia: ISEP, Politécnico do Porto. Część miejsc w 1. fazie jest zarezerwowana dla kandydatów z północnych regionów Portugalii (preferência regional), co zmniejsza pulę dla kandydatów z zagranicy.",
+    "academicYear": "2026/27 (nabór 2026, dane poprzedniego naboru; na 2027/28 brak danych)"
+   },
+   "sourceUrl": "https://www.isep.ipp.pt/Course/Course/27",
+   "quote": "Provas de Ingresso 07 Física e Química + 19 Matemática A Consulta o Guia da Candidatura de 2026 - Detalhe de C"
+  },
+  {
+   "university": "Politécnico do Porto, Instituto Superior de Engenharia do Porto (ISEP)",
+   "programName": "Engenharia Mecânica",
+   "set": {
+    "deadline": "Termin na nabór 2027/28 jeszcze nieopublikowany. W naborze 2026/27: 1. faza od 20 lipca do 6 sierpnia 2026 (osoby wnioskujące o zastąpienie egzaminów portugalskich egzaminami zagranicznymi składały wniosek od 20 do 29 lipca 2026), wyniki 23 sierpnia 2026. 2. faza od 24 sierpnia do 20 września 2026, wyniki 30 września 2026. 3. faza od 10 do 12 października 2026, wyniki 18 października 2026 (kalendarz DGES, Despacho 9359-A/2026). Wniosek składa się co roku w każdej fazie, w której kandydat chce startować."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "quote": "Divulgação dos resultados da 3.ª fase do concurso nacional. - 18 de outubro"
+  },
+  {
+   "university": "Politécnico do Porto, Instituto Superior de Engenharia do Porto (ISEP)",
+   "programName": "Engenharia Mecânica",
+   "set": {
+    "tuitionEu": "Ustawowe maksimum czesnego w uczelniach publicznych to 697 EUR rocznie (DGES, rok akademicki 2025/26). Stawka ISEP na 2026/27 do potwierdzenia na stronie uczelni."
+   },
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/propinas?plid=593",
+   "quote": "o valor máximo da propina a fixar pelas instituições de ensino superior não pode ser superior ao valor fixado no anterior ano letivo, mantendo-se assim em 697€"
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [],
+ "summaryPatches": [
+  {
+   "label": "Polska matura",
+   "text": "Na większości kierunków w Porto sama polska matura nie wystarczy. Obywatele UE, w tym Polacy, startują w ogólnokrajowym konkursie Concurso Nacional de Acesso (DGES) na takich samych zasadach jak Portugalczycy, bez osobnego konkursu dla studentów międzynarodowych. Nota kandydata to w połowie średnia ze świadectwa, w połowie egzaminy wstępne. Polskie egzaminy mogą zastąpić portugalskie tylko tam, gdzie lista CNAES na 2026/27 uznaje je za odpowiedniki: dla Polski są to biologia, fizyka i chemia. Matematyki (Matemática A i Matemática), portugalskiego, rysunku, geometrii wykreślnej, filozofii i historii dla Polski na liście nie ma, więc te egzaminy trzeba zdać w Portugalii jako egzaminy krajowe, co DGES dopuszcza. Świadectwo wymaga certyfikatu równoważności z oceną w skali 0 do 200. Egzaminy z matury obowiązują 5 lat (rok zdania i 4 kolejne). Wnioski o ocenę innych egzaminów można składać do 30 marca 2027, a lista na 2027/28 ukaże się do 31 maja 2027.",
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/substituicao-de-provas-de-ingresso-por-exames-estrangeiros?plid=593",
+   "quote": "Os candidatos titulares de um curso de ensino secundário estrangeiro podem optar por pedir a substituição das provas de ingresso por exames finais estrangeiros ou por realizarem apenas os exames finais nacionais do ensino secundário português."
+  },
+  {
+   "label": "Opłaty",
+   "text": "Obywatele UE płacą propinę jak studenci krajowi. Na stronach kierunków U.Porto na 2026/27 widnieje „National/EU: 697.00€”, czyli 697 EUR rocznie, a DGES podaje 697 EUR jako ustawowe maksimum w uczelniach publicznych (rok 2025/26). Stawka w ISEP na 2026/27 do potwierdzenia na stronie uczelni. Studenci spoza UE płacą na U.Porto od 3 500 do 16 500 EUR rocznie, zależnie od kierunku.",
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/propinas?plid=593",
+   "quote": "o valor máximo da propina a fixar pelas instituições de ensino superior não pode ser superior ao valor fixado no anterior ano letivo, mantendo-se assim em 697€"
+  },
+  {
+   "remove": true,
+   "label": "Znajomość angielskiego"
+  },
+  {
+   "label": "Znajomość języka",
+   "text": "Prawie wszystkie studia licencjackie w Porto są po portugalsku i wymagają płynnego portugalskiego, a poziom nie jest podany na stronach kierunków (do potwierdzenia w GAES-UP lub w ISEP). Cztery kierunki FEUP i FAUP mają na stronie dopisek „Suitable for English-speaking students”, ale językiem zajęć jest portugalski. Po angielsku prowadzone są na FEP Economia i Gestão (po 30 miejsc), przez ten sam konkurs krajowy i z tymi samymi egzaminami wstępnymi. Certyfikat z angielskiego dla tych programów nie jest podany na stronach kierunków.",
+   "sourceUrl": "https://www.up.pt/portal/en/study/bachelors-and-integrated-masters-degrees/courses/feup/22841/",
+   "quote": "Language Portuguese - Suitable for English - speaking students"
+  },
+  {
+   "label": "Rekrutacja",
+   "text": "Konkurs krajowy ma trzy fazy. W 2026 pierwsza faza trwała od 20 lipca do 6 sierpnia (od 20 do 29 lipca dla osób wnioskujących o zastąpienie egzaminów zagranicznymi), wyniki 23 sierpnia. Druga faza trwała od 24 sierpnia do 20 września, wyniki 30 września, a trzecia trwa od 10 do 12 października 2026, wyniki 18 października. Terminy na nabór 2027/28 nie są jeszcze opublikowane.",
+   "sourceUrl": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "quote": "Divulgação dos resultados da 3.ª fase do concurso nacional. - 18 de outubro"
+  }
+ ],
+ "gapsSet": [
+  "Nie ma jeszcze oficjalnego kalendarza ani listy odpowiedników egzaminów na nabór 2027/28. Lista ukaże się do 31 maja 2027, a wnioski o ocenę nowych egzaminów przyjmowane są do 30 marca 2027.",
+  "Na liście CNAES na 2026/27 nie ma polskiego odpowiednika Matemática A ani Matemática. Czy Polak może zdawać portugalskie egzaminy krajowe z matematyki i gdzie, trzeba wyjaśnić w GAES-UP (Universidade do Porto) lub w DGES przed złożeniem wniosku.",
+  "Poziom portugalskiego oczekiwany przez wydziały od obywateli UE nie jest podany na stronach kierunków. W konkursie krajowym część zestawów egzaminów zawiera Português.",
+  "Liczba miejsc na stronach kierunków różni się od podanej w Guia da Candidatura w dwóch przypadkach (Engenharia Civil, Medicina ICBAS). W danych użyto liczb z Guia, do potwierdzenia na stronie uczelni.",
+  "Nie ujęto pozostałych publicznych uczelni w aglomeracji (np. ISCAP, ESMAD, uczelnie w Gaia i Matosinhos).",
+  "Dodatkowe opłaty (certyfikat równoważności, ubezpieczenie, opłaty w GAES-UP) nie są podane w sprawdzonych źródłach. Czesne w ISEP na 2026/27 do potwierdzenia na stronie uczelni.",
+  "Zasady dotyczące warunku komunikacji interpersonalnej na medycynie (FMUP i ICBAS) do potwierdzenia na stronie wydziału.",
+  "Plany studiów i opisy przedmiotów są w systemie SIGARRA, który nie jest publicznie dostępny. Warto sprawdzić je na stronie wydziału."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://www.dges.gov.pt/pt/pagina/calendario-concurso-nacional-de-acesso-0?plid=593",
+   "note": "Kalendarz konkursu krajowego 2026 z trzema fazami (DGES)"
+  },
+  {
+   "url": "https://www.dges.gov.pt/pt/pagina/substituicao-de-provas-de-ingresso-por-exames-estrangeiros?plid=593",
+   "note": "Zasady dla kandydatów z zagranicznym świadectwem, ważność egzaminów 5 lat (DGES)"
+  },
+  {
+   "url": "https://files.diariodarepublica.pt/2s/2026/05/103000000/0015000170.pdf",
+   "note": "Uchwała CNAES 619/2026: lista krajów (w tym Polska), odpowiedniki egzaminów i termin 30 marca 2027 (Diário da República)"
+  },
+  {
+   "url": "https://www.dges.gov.pt/pt/pagina/propinas?plid=593",
+   "note": "Maksymalne czesne w uczelniach publicznych (DGES)"
+  },
+  {
+   "url": "https://www.dges.gov.pt/guias/pdfs/GuiaCandPub2026.pdf",
+   "note": "Guia da Candidatura 2026 (DGES)"
+  },
+  {
+   "url": "https://www.up.pt/portal/en/study/bachelors-and-integrated-masters-degrees/courses/feup/22841/",
+   "note": "Przykładowa strona kierunku U.Porto (język, czesne, nota ostatniego przyjętego)"
+  }
+ ]
+}

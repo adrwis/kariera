@@ -1,0 +1,265 @@
+{
+ "slug": "ryga",
+ "programPatches": [
+  {
+   "university": "Latvijas Universitāte (University of Latvia)",
+   "programName": "Ārstniecība (angielski)",
+   "set": {
+    "tuitionEu": "11 850 EUR rocznie w 1. roku, potem stawka rośnie: 12 120 EUR (rok 2), 12 720 EUR (lata 3 i 4), 13 320 EUR (rok 5), 14 610 EUR (rok 6). Razem za 6 lat 77 340 EUR (rok akademicki 2026/27). Do tego opłata aplikacyjna 170 EUR.",
+    "tuitionUrl": "https://apply.lu.lv/courses/course/5-professional-medicine"
+   },
+   "sourceUrl": "https://apply.lu.lv/courses/course/5-professional-medicine",
+   "quote": "The total amount for all 6 years of the programme – €77,340.00"
+  },
+  {
+   "university": "Latvijas Universitāte (University of Latvia)",
+   "programName": "Ārstniecība (angielski)",
+   "set": {
+    "level": "jednolite"
+   },
+   "sourceUrl": "https://www.lu.lv/en/studies/study-programmes-1/bachelors-study-programmes/medicine-en/",
+   "quote": "Study places for tuition fee - 35 Tuition fee per year: 11 850 EUR for EU/EEA/Swiss citizens"
+  },
+  {
+   "university": "Latvijas Universitāte (University of Latvia)",
+   "programName": "Tiesības (bakalaura studiju programma)",
+   "set": {
+    "academicYear": "2026/27 (czesne z roku 2025/26, ostatnie podane na stronie programu; nabór na 2027/28 jeszcze nieogłoszony)",
+    "tuitionEu": "Stawka z roku akademickiego 2025/26, nowsza nie jest podana na stronie programu: 2 850 EUR rocznie (studia stacjonarne), 2 000 EUR (zaoczne). Stawka na 2026/27 do potwierdzenia na stronie uczelni.",
+    "tuitionNonEu": "Stawka z roku akademickiego 2025/26: 3 700 EUR rocznie (stacjonarne), 2 600 EUR (zaoczne)."
+   },
+   "sourceUrl": "https://www.lu.lv/en/studies/study-programmes-1/bachelors-study-programmes/law-1/",
+   "quote": "Tuition fee per year (ac. year 2025/26): Full time tuition fee per year - 2850 EUR for EU/EEA/Swiss citizens"
+  },
+  {
+   "university": "Rīgas Stradiņa universitāte (Riga Stradiņš University)",
+   "programName": "Psiholoģija",
+   "set": {
+    "matura": "uznawana z warunkami: do zgłoszenia dołącza się zaświadczenie Akademiskās informācijas centrs (AIC) o odpowiedniku zagranicznego świadectwa w Łotwie. Dla świadectw zagranicznych w konkursie zamiast wyniku łotewskiego egzaminu centralnego liczy się ocena końcowa z tego samego przedmiotu ze świadectwa. Przeliczenie polskich ocen na skalę 10-stopniową nie jest opublikowane.",
+    "requirements": "Wymagane świadectwo ukończenia szkoły średniej z wykazem ocen (co najmniej 4 punkty w skali 10-stopniowej z obowiązkowych przedmiotów podstawowych) oraz wyniki z matematyki, łotewskiego i języka obcego. Konkurs: matematyka 20%, łotewski 40%, język obcy 40%. Łączny wynik nie może być niższy niż 40 punktów. Zasady wg regulaminu przyjęć RSU na 2026/27.",
+    "languageProof": "Program prowadzony po łotewsku. Ocenę z łotewskiego ze świadectwa można zastąpić wynikiem testu RSU albo poświadczonym poziomem państwowego egzaminu z łotewskiego (wymagany poziom nie jest podany w regulaminie). Ocena z języka obcego lub certyfikat międzynarodowy są częścią konkursu.",
+    "selective": true,
+    "deadline": "Letni nabór na rok 2026/27 jest zamknięty (informacja ze strony uczelni). Terminy na 2027/28 nie są jeszcze opublikowane.",
+    "admissionUrl": "https://www.rsu.lv/studiju-iespejas/uznemsana/uznemsana-pamatstudiju-programmas",
+    "notes": "Program tylko po łotewsku. Kształci asystentów psychologa; tytuł psychologa wymaga magisterium. Zgłoszenie składa się w systemie RSU, do którego strona uczelni przewiduje logowanie przez portal Latvija.lv; czy cudzoziemiec bez łotewskich danych logowania może się zarejestrować, wymaga potwierdzenia w biurze rekrutacji RSU."
+   },
+   "sourceUrl": "https://www.rsu.lv/sites/default/files/imce/Dokumenti/noteikumi/uznemsanas_noteikumi_pamatstudijas_2026_2027_rev1.pdf",
+   "quote": "40% no kopējā vērtējuma veido CE vērtējums latviešu valodā,"
+  },
+  {
+   "university": "Rīgas Stradiņa universitāte (Riga Stradiņš University)",
+   "programName": "Tiesības",
+   "set": {
+    "matura": "uznawana z warunkami: do zgłoszenia dołącza się zaświadczenie Akademiskās informācijas centrs (AIC) o odpowiedniku zagranicznego świadectwa w Łotwie. Dla świadectw zagranicznych w konkursie zamiast wyniku łotewskiego egzaminu centralnego liczy się ocena końcowa z tego samego przedmiotu ze świadectwa. Przeliczenie polskich ocen na skalę 10-stopniową nie jest opublikowane.",
+    "requirements": "Wymagane świadectwo ukończenia szkoły średniej z wykazem ocen (co najmniej 4 punkty w skali 10-stopniowej z obowiązkowych przedmiotów podstawowych) oraz wyniki z matematyki, łotewskiego i języka obcego. Konkurs: matematyka 30%, łotewski 40%, język obcy 30%. Zasady wg regulaminu przyjęć RSU na 2026/27.",
+    "languageProof": "Program prowadzony po łotewsku. Ocenę z łotewskiego ze świadectwa można zastąpić wynikiem testu RSU albo poświadczonym poziomem państwowego egzaminu z łotewskiego (wymagany poziom nie jest podany w regulaminie). Ocena z języka obcego lub certyfikat międzynarodowy są częścią konkursu.",
+    "selective": true,
+    "deadline": "Letni nabór na rok 2026/27 jest zamknięty (informacja ze strony uczelni). Terminy na 2027/28 nie są jeszcze opublikowane.",
+    "admissionUrl": "https://www.rsu.lv/studiju-iespejas/uznemsana/uznemsana-pamatstudiju-programmas",
+    "notes": "Program tylko po łotewsku. Specjalizacja: prawo medyczne i kryminologia. Zgłoszenie składa się w systemie RSU, do którego strona uczelni przewiduje logowanie przez portal Latvija.lv; czy cudzoziemiec bez łotewskich danych logowania może się zarejestrować, wymaga potwierdzenia w biurze rekrutacji RSU."
+   },
+   "sourceUrl": "https://www.rsu.lv/sites/default/files/imce/Dokumenti/noteikumi/uznemsanas_noteikumi_pamatstudijas_2026_2027_rev1.pdf",
+   "quote": "30% no kopējā vērtējuma veido CE vērtējums matemātikā"
+  },
+  {
+   "university": "Rīgas Stradiņa universitāte (Riga Stradiņš University)",
+   "programName": "Žurnālistika",
+   "set": {
+    "matura": "uznawana z warunkami: do zgłoszenia dołącza się zaświadczenie Akademiskās informācijas centrs (AIC) o odpowiedniku zagranicznego świadectwa w Łotwie. Dla świadectw zagranicznych w konkursie zamiast wyniku łotewskiego egzaminu centralnego liczy się ocena końcowa z tego samego przedmiotu ze świadectwa. Przeliczenie polskich ocen na skalę 10-stopniową nie jest opublikowane.",
+    "requirements": "Wymagane świadectwo ukończenia szkoły średniej z wykazem ocen (co najmniej 4 punkty w skali 10-stopniowej z obowiązkowych przedmiotów podstawowych) oraz wyniki z matematyki, łotewskiego i języka obcego. Konkurs: matematyka 10%, łotewski 55%, język obcy 35%. Zasady wg regulaminu przyjęć RSU na 2026/27.",
+    "languageProof": "Program prowadzony po łotewsku. Ocenę z łotewskiego ze świadectwa można zastąpić wynikiem testu RSU albo poświadczonym poziomem państwowego egzaminu z łotewskiego (wymagany poziom nie jest podany w regulaminie). Ocena z języka obcego lub certyfikat międzynarodowy są częścią konkursu.",
+    "selective": true,
+    "deadline": "Letni nabór na rok 2026/27 jest zamknięty (informacja ze strony uczelni). Terminy na 2027/28 nie są jeszcze opublikowane.",
+    "admissionUrl": "https://www.rsu.lv/studiju-iespejas/uznemsana/uznemsana-pamatstudiju-programmas",
+    "notes": "Program tylko po łotewsku, z dużą wagą łotewskiego w konkursie. Zgłoszenie składa się w systemie RSU, do którego strona uczelni przewiduje logowanie przez portal Latvija.lv; czy cudzoziemiec bez łotewskich danych logowania może się zarejestrować, wymaga potwierdzenia w biurze rekrutacji RSU."
+   },
+   "sourceUrl": "https://www.rsu.lv/sites/default/files/imce/Dokumenti/noteikumi/uznemsanas_noteikumi_pamatstudijas_2026_2027_rev1.pdf",
+   "quote": "55% no kopējā vērtējuma veido CE vērtējums latviešu valodā,"
+  },
+  {
+   "university": "Rīgas Stradiņa universitāte (Riga Stradiņš University)",
+   "programName": "International Business and Start-up Entrepreneurship",
+   "set": {
+    "deadline": "Zgłoszenia obywateli UE i EOG do 1 lipca 2027 (nabór na wrzesień 2027). Strona uczelni podaje okres zapisów od 1 września 2025, co wygląda na pozostałość po poprzednim naborze; początek okresu do potwierdzenia na stronie uczelni.",
+    "academicYear": "2027/28 (wrzesień 2027)"
+   },
+   "sourceUrl": "https://www.rsu.lv/en/study-here/admissions/when-apply",
+   "quote": "International Business & Start-up Entrepreneurship 1 Sep 2025 – 1 Jul 2027"
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [
+  {
+   "university": "Rīgas Tehniskā universitāte (Riga Technical University, RTU)",
+   "universityUrl": "https://www.rtu.lv/en",
+   "universityType": "politechnika",
+   "program": {
+    "name": "Building and Civil Engineering (BSc)",
+    "nameEn": "BSc Civil Engineering",
+    "careerIds": [
+     "inzynier-budownictwa"
+    ],
+    "level": "licencjat",
+    "durationYears": 3,
+    "languages": [
+     "angielski"
+    ],
+    "english": true,
+    "academicYear": "2026/27 (nabór na 2027/28 jeszcze nieogłoszony)",
+    "tuitionEu": "3 720 EUR rocznie (kwota widoczna na stronie programu w systemie rekrutacji RTU dla obywatela Polski, rok 2026/27). Do tego jednorazowa opłata aplikacyjna 165 EUR i depozyt 250 EUR.",
+    "tuitionNonEu": null,
+    "tuitionUrl": "https://apply.rtu.lv/courses/course/12-bsc-civil-engineering",
+    "matura": "wymaga potwierdzenia przez uczelnię: strona programu wymaga świadectwa ukończenia szkoły średniej i wykazu ocen z dobrymi wynikami z matematyki i fizyki, bez osobnej wzmianki o polskiej maturze",
+    "requirements": "Świadectwo ukończenia szkoły średniej i wykaz ocen (szczególnie matematyka i fizyka), co najmniej jedna rekomendacja, list motywacyjny, rozmowa online (nagranie w ciągu 7 dni od zaproszenia) oraz internetowy egzamin z matematyki na poziomie szkoły średniej (10 pytań).",
+    "languageProof": "Angielski: IELTS co najmniej 5,5, TOEFL iBT co najmniej 72, TOEIC 780, Cambridge B2 First albo Pearson PTE 59. Certyfikat nie jest potrzebny, gdy cała dotychczasowa nauka była po angielsku.",
+    "selective": true,
+    "admissionUrl": "https://apply.rtu.lv/courses/course/12-bsc-civil-engineering",
+    "deadline": "Nabór na semestr jesienny 2026/27 jest zamknięty (studia od 1 września 2026). Termin na jesień 2027 nie jest jeszcze opublikowany.",
+    "applyUrl": "https://apply.rtu.lv/courses/course/12-bsc-civil-engineering",
+    "url": "https://apply.rtu.lv/courses/course/12-bsc-civil-engineering",
+    "notes": "Kod programu ABBB0, 180 ECTS. Wydział Budownictwa i Mechaniki. Główna strona rtu.lv jest zasłonięta ekranem weryfikacji, dlatego dane pochodzą z oficjalnego systemu rekrutacji RTU (apply.rtu.lv)."
+   },
+   "sourceUrl": "https://apply.rtu.lv/courses/course/12-bsc-civil-engineering",
+   "quote": "Tuition fee €3,720 per year"
+  },
+  {
+   "university": "Rīgas Tehniskā universitāte (Riga Technical University, RTU)",
+   "universityUrl": "https://www.rtu.lv/en",
+   "universityType": "politechnika",
+   "program": {
+    "name": "Engineering Technology, Mechanics and Mechanical Engineering (BSc)",
+    "nameEn": "BSc Engineering Technology, Mechanics and Mechanical Engineering",
+    "careerIds": [
+     "inzynier-mechanik"
+    ],
+    "level": "licencjat",
+    "durationYears": 3,
+    "languages": [
+     "angielski"
+    ],
+    "english": true,
+    "academicYear": "2026/27 (nabór na 2027/28 jeszcze nieogłoszony)",
+    "tuitionEu": "4 030 EUR rocznie (kwota widoczna na stronie programu w systemie rekrutacji RTU dla obywatela Polski, rok 2026/27). Do tego jednorazowa opłata aplikacyjna 165 EUR i depozyt 250 EUR.",
+    "tuitionNonEu": null,
+    "tuitionUrl": "https://apply.rtu.lv/courses/course/9-bsc-engineering-technology-mechanics-and-mechanical-engineering",
+    "matura": "wymaga potwierdzenia przez uczelnię: strona programu wymaga świadectwa ukończenia szkoły średniej i wykazu ocen z dobrymi wynikami z matematyki i fizyki, bez osobnej wzmianki o polskiej maturze",
+    "requirements": "Świadectwo ukończenia szkoły średniej i wykaz ocen (szczególnie matematyka i fizyka), co najmniej jedna rekomendacja, list motywacyjny, rozmowa online (nagranie w ciągu 7 dni od zaproszenia) oraz internetowy egzamin z matematyki na poziomie szkoły średniej (10 pytań).",
+    "languageProof": "Angielski: IELTS co najmniej 5,5, TOEFL iBT co najmniej 72, TOEIC 780, Cambridge B2 First albo Pearson PTE 59. Certyfikat nie jest potrzebny, gdy cała dotychczasowa nauka była po angielsku.",
+    "selective": true,
+    "admissionUrl": "https://apply.rtu.lv/courses/course/9-bsc-engineering-technology-mechanics-and-mechanical-engineering",
+    "deadline": "Nabór na semestr jesienny 2026/27 jest zamknięty (studia od 1 września 2026). Semestr wiosenny 2026/27: zgłoszenia do 1 grudnia 2026, początek zajęć 25 stycznia 2027. Termin na jesień 2027 nie jest jeszcze opublikowany.",
+    "applyUrl": "https://apply.rtu.lv/courses/course/9-bsc-engineering-technology-mechanics-and-mechanical-engineering",
+    "url": "https://apply.rtu.lv/courses/course/9-bsc-engineering-technology-mechanics-and-mechanical-engineering",
+    "notes": "Kod programu AMBM0, 181,5 ECTS. Program rozwijany we współpracy z ośmioma europejskimi uniwersytetami technicznymi. Główna strona rtu.lv jest zasłonięta ekranem weryfikacji, dlatego dane pochodzą z oficjalnego systemu rekrutacji RTU (apply.rtu.lv)."
+   },
+   "sourceUrl": "https://apply.rtu.lv/courses/course/9-bsc-engineering-technology-mechanics-and-mechanical-engineering",
+   "quote": "Tuition fee €4,030 per year"
+  },
+  {
+   "university": "Rīgas Tehniskā universitāte (Riga Technical University, RTU)",
+   "universityUrl": "https://www.rtu.lv/en",
+   "universityType": "politechnika",
+   "program": {
+    "name": "Computer Systems (BSc)",
+    "nameEn": "BSc Computer Systems",
+    "careerIds": [
+     "programista"
+    ],
+    "level": "licencjat",
+    "durationYears": 3,
+    "languages": [
+     "angielski"
+    ],
+    "english": true,
+    "academicYear": "2026/27 (nabór na 2027/28 jeszcze nieogłoszony)",
+    "tuitionEu": "4 570 EUR rocznie (kwota widoczna na stronie programu w systemie rekrutacji RTU dla obywatela Polski, rok 2026/27). Do tego jednorazowa opłata aplikacyjna 165 EUR i depozyt 250 EUR.",
+    "tuitionNonEu": null,
+    "tuitionUrl": "https://apply.rtu.lv/courses/course/4-bsc-computer-systems",
+    "matura": "wymaga potwierdzenia przez uczelnię: strona programu wymaga świadectwa ukończenia szkoły średniej i wykazu ocen z dobrymi wynikami z matematyki i fizyki, bez osobnej wzmianki o polskiej maturze",
+    "requirements": "Świadectwo ukończenia szkoły średniej i wykaz ocen (szczególnie matematyka i fizyka), co najmniej jedna rekomendacja, list motywacyjny, rozmowa online (nagranie w ciągu 7 dni od zaproszenia) oraz internetowy egzamin z matematyki na poziomie szkoły średniej (10 pytań).",
+    "languageProof": "Angielski: IELTS co najmniej 5,5, TOEFL iBT co najmniej 72, TOEIC 780, Cambridge B2 First albo Pearson PTE 59. Certyfikat nie jest potrzebny, gdy cała dotychczasowa nauka była po angielsku.",
+    "selective": true,
+    "admissionUrl": "https://apply.rtu.lv/courses/course/4-bsc-computer-systems",
+    "deadline": "Nabór na semestr jesienny 2026/27 jest zamknięty (studia od 1 września 2026). Semestr wiosenny 2026/27: zgłoszenia do 1 grudnia 2026, początek zajęć 25 stycznia 2027. Termin na jesień 2027 nie jest jeszcze opublikowany.",
+    "applyUrl": "https://apply.rtu.lv/courses/course/4-bsc-computer-systems",
+    "url": "https://apply.rtu.lv/courses/course/4-bsc-computer-systems",
+    "notes": "Kod programu ADBD0, 180 ECTS. Wydział Informatyki, Technologii Informacyjnych i Energetyki. Główna strona rtu.lv jest zasłonięta ekranem weryfikacji, dlatego dane pochodzą z oficjalnego systemu rekrutacji RTU (apply.rtu.lv)."
+   },
+   "sourceUrl": "https://apply.rtu.lv/courses/course/4-bsc-computer-systems",
+   "quote": "Tuition fee €4,570 per year"
+  }
+ ],
+ "summaryPatches": [
+  {
+   "label": "Opłaty",
+   "text": "Programy po angielsku są płatne, także dla obywateli UE. Uniwersytet Łotwy (LU): od 3 100 EUR rocznie (biznes) do 11 850 EUR w pierwszym roku medycyny (do 14 610 EUR w szóstym roku). RSU: 13 500 EUR (medycyna) i 3 300 EUR (biznes). Politechnika Ryska (RTU): 3 720 EUR (budownictwo), 4 030 EUR (mechanika), 4 570 EUR (informatyka). SSE Riga: 5 950 EUR po stypendium dla UE. Programy po łotewsku mają miejsca budżetowe i płatne (LU: psychologia 2 600 EUR, prawo 2 850 EUR według stawki z roku 2025/26, komunikacja 2 800 EUR). Z oficjalnych stron nie wynika, czy obywatele Polski mogą ubiegać się o miejsca budżetowe, dlatego tej informacji nie podajemy.",
+   "sourceUrl": "https://apply.rtu.lv/courses/course/4-bsc-computer-systems",
+   "quote": "Tuition fee €4,570 per year"
+  },
+  {
+   "label": "Rekrutacja",
+   "text": "LU: nabór na 2026/27 jest zamknięty, termin na 2027/28 nieogłoszony (dla 2026/27 programy angielskie otwierano 1 grudnia 2025, medycynę 1 stycznia 2026). RSU: medycyna wrzesień 2027 od 1 marca do 1 lipca 2027, luty 2027 do 1 grudnia 2026. RTU: nabór jesienny 2026/27 zamknięty, semestr wiosenny 2026/27 (informatyka i mechanika) do 1 grudnia 2026, termin na jesień 2027 nieopublikowany. SSE Riga: wniosek do 6 kwietnia 2027.",
+   "sourceUrl": "https://apply.rtu.lv/courses/course/9-bsc-engineering-technology-mechanics-and-mechanical-engineering",
+   "quote": "Spring semester 2026/27 Application deadline 1 Dec 2026"
+  },
+  {
+   "label": "Uwagi",
+   "text": "Programy po łotewsku w LU: ocenę z łotewskiego zastępuje test LU (co najmniej 4 na 10) albo ocena ze świadectwa. Programy po łotewsku w RSU (psychologia, prawo, dziennikarstwo) liczą konkurs z wyników z matematyki, łotewskiego i języka obcego, a dla świadectw zagranicznych z ocen końcowych ze świadectwa; zgłoszenie wymaga zaświadczenia AIC. Do programów angielskich łotewski nie jest wymagany (RSU: łotewski obowiązkowy tylko dla szkół z łotewskim dyplomem). RTU wymaga w programach angielskich internetowego egzaminu z matematyki i rozmowy online.",
+   "sourceUrl": "https://apply.rtu.lv/news/new/16-entrance-examinations",
+   "quote": "All bachelor students will need to complete an online math entrance exam."
+  }
+ ],
+ "gapsSet": [
+  "Politechnika Ryska (RTU): strona główna rtu.lv jest dla zwykłej przeglądarki zasłonięta ekranem weryfikacji, więc dane o jej programach pochodzą tylko z oficjalnego systemu rekrutacji apply.rtu.lv. Architektura na poziomie licencjackim: w tym systemie jest tylko magisterium po angielsku (MSc Architecture), a studiów licencjackich po łotewsku nie sprawdzono, więc zawód architekta nie ma w pliku programu licencjackiego.",
+  "Kwoty czesnego RTU są pokazane na stronach programów dla obywatela Polski; strona nie opisuje, czy dla innych obywatelstw są inne, a czesne na 2027/28 nie jest znane. Zasady uznania polskiego świadectwa na RTU nie są opisane na stronach programów.",
+  "Obywatele Polski a miejsca budżetowe w programach łotewskich (LU, RSU): strony uczelni podają liczby miejsc budżetowych, ale nie wskazują, kto może na nie aplikować. Do potwierdzenia u uczelni.",
+  "Przelicznik polskich ocen i wyników matury na 10-stopniową skalę łotewską (LU i RSU w programach łotewskich) nie jest opublikowany. RSU podaje dla programów angielskich minima dla Polski (semestr 4 na 6, egzaminy 70%); SSE wymaga 6 na 10 lub odpowiednika bez tabeli przeliczeń.",
+  "RSU, programy łotewskie: zgłoszenie odbywa się w systemie z logowaniem przez portal Latvija.lv; nie ustalono, czy cudzoziemiec bez łotewskich danych logowania może się zarejestrować. Wymagany poziom łotewskiego nie jest podany w regulaminie.",
+  "LU: terminy naboru i czesne na 2027/28 jeszcze nie opublikowane. Prawo LU ma na stronie czesne z roku 2025/26.",
+  "LU: szczegółowe kryteria konkursu dla programów łotewskich sprawdzono tylko dla psychologii; dla prawa, ekonomiki i komunikacji obowiązują ogólne zasady LU dla świadectwa zagranicznego, ale wag nie potwierdzono. Wagi kryteriów w programach angielskich LU (informatyka, biznes, ekonomia międzynarodowa) nie są podane procentowo.",
+  "RSU, International Business and Start-up Entrepreneurship: strona podaje okres zapisów od 1 września 2025 do 1 lipca 2027, co wygląda na pozostałość po poprzednim naborze; początek okresu do potwierdzenia na stronie uczelni.",
+  "Nie sprawdzano ofert Turība i Riga Graduate School of Law ani licencjatów z data science."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://aic.lv/en/recognition-of-foreign-diplomas/academic-recognition-of-foreign-credentials-in-latvia/",
+   "note": "Uznanie zagranicznych świadectw i dyplomów na Łotwie (AIC)."
+  },
+  {
+   "url": "https://apply.rtu.lv/courses",
+   "note": "Oferta i warunki programów Politechniki Ryskiej (RTU) w systemie rekrutacji."
+  },
+  {
+   "url": "https://apply.rtu.lv/news/new/16-entrance-examinations",
+   "note": "Egzamin z matematyki i rozmowa online na RTU."
+  },
+  {
+   "url": "https://apply.lu.lv/courses/course/5-professional-medicine",
+   "note": "Medycyna LU: czesne w kolejnych latach i warunki."
+  },
+  {
+   "url": "https://www.lu.lv/en/studies/study-programmes-1/bachelors-study-programmes/medicine-en/",
+   "note": "Medycyna LU: liczba miejsc płatnych i czesne w pierwszym roku."
+  },
+  {
+   "url": "https://www.rsu.lv/en/study-here/admissions/when-apply",
+   "note": "Terminy naboru RSU na wrzesień 2027 i luty 2027."
+  },
+  {
+   "url": "https://www.rsu.lv/en/study-here/admissions/tuition-fees-studies-english",
+   "note": "Czesne RSU w programach angielskich."
+  },
+  {
+   "url": "https://www.rsu.lv/sites/default/files/imce/Dokumenti/noteikumi/uznemsanas_noteikumi_pamatstudijas_2026_2027_rev1.pdf",
+   "note": "Regulamin przyjęć RSU na rok 2026/27 (programy łotewskie, wagi konkursu)."
+  },
+  {
+   "url": "https://www.rsu.lv/studiju-iespejas/uznemsana/uznemsana-pamatstudiju-programmas",
+   "note": "Zgłaszanie się do programów łotewskich RSU i wymagane dokumenty."
+  },
+  {
+   "url": "https://www.sseriga.edu/education/bachelor/admission",
+   "note": "Rekrutacja na licencjat SSE Riga."
+  }
+ ]
+}

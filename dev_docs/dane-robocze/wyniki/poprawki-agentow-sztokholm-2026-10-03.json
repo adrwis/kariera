@@ -1,0 +1,597 @@
+{
+ "slug": "sztokholm",
+ "programPatches": [
+  {
+   "university": "Stockholms universitet",
+   "programName": "Psykologprogrammet",
+   "set": {
+    "tuitionUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/"
+   },
+   "sourceUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/",
+   "quote": "All citizens of European Union (EU) and European Economic Area (EEA) countries, as well as citizens of Switzerland, are not required to pay an application fee or tuition fees."
+  },
+  {
+   "university": "Stockholms universitet",
+   "programName": "Psykologprogrammet",
+   "set": {
+    "deadline": "15 kwietnia 2027 (druga runda naboru, w której są dostępne programy po szwedzku; nabór otwiera się 15 marca 2027). Strona programu podaje na razie tylko daty naboru na jesień 2026."
+   },
+   "sourceUrl": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+   "quote": "All courses and programmes taught in Swedish are available in this round"
+  },
+  {
+   "university": "Stockholms universitet",
+   "programName": "Juristprogrammet",
+   "set": {
+    "tuitionUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/"
+   },
+   "sourceUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/",
+   "quote": "All citizens of European Union (EU) and European Economic Area (EEA) countries, as well as citizens of Switzerland, are not required to pay an application fee or tuition fees."
+  },
+  {
+   "university": "Stockholms universitet",
+   "programName": "Juristprogrammet",
+   "set": {
+    "deadline": "15 kwietnia 2027 (druga runda naboru, w której są dostępne programy po szwedzku; nabór otwiera się 15 marca 2027). Strona programu podaje na razie tylko daty naboru na jesień 2026."
+   },
+   "sourceUrl": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+   "quote": "All courses and programmes taught in Swedish are available in this round"
+  },
+  {
+   "university": "Stockholms universitet",
+   "programName": "Kandidatprogram i systemvetenskap (Data- och systemvetenskap)",
+   "set": {
+    "tuitionUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/"
+   },
+   "sourceUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/",
+   "quote": "All citizens of European Union (EU) and European Economic Area (EEA) countries, as well as citizens of Switzerland, are not required to pay an application fee or tuition fees."
+  },
+  {
+   "university": "Stockholms universitet",
+   "programName": "Kandidatprogram i systemvetenskap (Data- och systemvetenskap)",
+   "set": {
+    "deadline": "15 kwietnia 2027 (druga runda naboru, w której są dostępne programy po szwedzku; nabór otwiera się 15 marca 2027). Strona programu podaje na razie tylko daty naboru na jesień 2026."
+   },
+   "sourceUrl": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+   "quote": "All courses and programmes taught in Swedish are available in this round"
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Datateknik, civilingenjör, 300 hp",
+   "set": {
+    "tuitionUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/"
+   },
+   "sourceUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/",
+   "quote": "All citizens of European Union (EU) and European Economic Area (EEA) countries, as well as citizens of Switzerland, are not required to pay an application fee or tuition fees."
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Datateknik, civilingenjör, 300 hp",
+   "set": {
+    "deadline": "15 kwietnia 2027 (druga runda naboru, w której są dostępne programy po szwedzku; nabór otwiera się 15 marca 2027). Strona programu podaje na razie tylko daty naboru na jesień 2026."
+   },
+   "sourceUrl": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+   "quote": "All courses and programmes taught in Swedish are available in this round"
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Maskinteknik, civilingenjör, 300 hp",
+   "set": {
+    "tuitionUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/"
+   },
+   "sourceUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/",
+   "quote": "All citizens of European Union (EU) and European Economic Area (EEA) countries, as well as citizens of Switzerland, are not required to pay an application fee or tuition fees."
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Maskinteknik, civilingenjör, 300 hp",
+   "set": {
+    "deadline": "15 kwietnia 2027 (druga runda naboru, w której są dostępne programy po szwedzku; nabór otwiera się 15 marca 2027). Strona programu podaje na razie tylko daty naboru na jesień 2026."
+   },
+   "sourceUrl": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+   "quote": "All courses and programmes taught in Swedish are available in this round"
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Samhällsbyggnad, civilingenjör, 300 hp",
+   "set": {
+    "tuitionUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/"
+   },
+   "sourceUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/",
+   "quote": "All citizens of European Union (EU) and European Economic Area (EEA) countries, as well as citizens of Switzerland, are not required to pay an application fee or tuition fees."
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Samhällsbyggnad, civilingenjör, 300 hp",
+   "set": {
+    "deadline": "15 kwietnia 2027 (druga runda naboru, w której są dostępne programy po szwedzku; nabór otwiera się 15 marca 2027). Strona programu podaje na razie tylko daty naboru na jesień 2026."
+   },
+   "sourceUrl": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+   "quote": "All courses and programmes taught in Swedish are available in this round"
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Arkitektutbildning, arkitekt, 300 hp",
+   "set": {
+    "tuitionUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/"
+   },
+   "sourceUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/",
+   "quote": "All citizens of European Union (EU) and European Economic Area (EEA) countries, as well as citizens of Switzerland, are not required to pay an application fee or tuition fees."
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Arkitektutbildning, arkitekt, 300 hp",
+   "set": {
+    "deadline": "15 kwietnia 2027 (druga runda naboru, w której są dostępne programy po szwedzku; nabór otwiera się 15 marca 2027). Strona programu podaje na razie tylko daty naboru na jesień 2026."
+   },
+   "sourceUrl": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+   "quote": "All courses and programmes taught in Swedish are available in this round"
+  },
+  {
+   "university": "Karolinska Institutet",
+   "programName": "Läkarprogrammet",
+   "set": {
+    "tuitionUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/"
+   },
+   "sourceUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/",
+   "quote": "All citizens of European Union (EU) and European Economic Area (EEA) countries, as well as citizens of Switzerland, are not required to pay an application fee or tuition fees."
+  },
+  {
+   "university": "Karolinska Institutet",
+   "programName": "Läkarprogrammet",
+   "set": {
+    "deadline": "15 kwietnia 2027 (druga runda naboru, w której są dostępne programy po szwedzku; nabór otwiera się 15 marca 2027). Strona programu podaje na razie tylko daty naboru na jesień 2026."
+   },
+   "sourceUrl": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+   "quote": "All courses and programmes taught in Swedish are available in this round"
+  },
+  {
+   "university": "Karolinska Institutet",
+   "programName": "Psykologprogrammet (KI)",
+   "set": {
+    "tuitionUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/"
+   },
+   "sourceUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/",
+   "quote": "All citizens of European Union (EU) and European Economic Area (EEA) countries, as well as citizens of Switzerland, are not required to pay an application fee or tuition fees."
+  },
+  {
+   "university": "Karolinska Institutet",
+   "programName": "Psykologprogrammet (KI)",
+   "set": {
+    "deadline": "15 kwietnia 2027 (druga runda naboru, w której są dostępne programy po szwedzku; nabór otwiera się 15 marca 2027). Strona programu podaje na razie tylko daty naboru na jesień 2026."
+   },
+   "sourceUrl": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+   "quote": "All courses and programmes taught in Swedish are available in this round"
+  },
+  {
+   "university": "Stockholms universitet",
+   "programName": "Psykologprogrammet",
+   "set": {
+    "durationYears": 5
+   },
+   "sourceUrl": "https://www.su.se/english/education/course-catalogue/ps/pspro",
+   "quote": "The only way to study to become a licensed clinical psychologist here is through the full Psychologists programme (300 credits, equivalent to 5 years of study)."
+  },
+  {
+   "university": "Stockholms universitet",
+   "programName": "Psykologprogrammet",
+   "set": {
+    "languageProof": "Program prowadzony wyłącznie po szwedzku. Uczelnia wymaga spełnienia warunków znajomości szwedzkiego przed złożeniem wniosku; dokładny poziom (np. Svenska 3 lub test TISUS) nie jest podany na stronie programu i wymaga potwierdzenia na antagning.se.",
+    "languages": [
+     "szwedzki"
+    ]
+   },
+   "sourceUrl": "https://www.su.se/english/education/course-catalogue/ps/pspro",
+   "quote": "The programme is offered exclusively in Swedish and requires that you fulfill the requirements of language proficiency before applying."
+  },
+  {
+   "university": "Stockholms universitet",
+   "programName": "Psykologprogrammet",
+   "set": {
+    "requirements": "Wymagane: Matematik 2a, 2b lub 2c oraz Samhällskunskap 1b lub 1a1+1a2. Przyjęcia odbywają się wyłącznie według ocen ze szkoły średniej i wyniku Högskoleprovet (SweSAT). Zgodność polskich przedmiotów z poziomami szwedzkimi ocenia uczelnia.",
+    "selective": true
+   },
+   "sourceUrl": "https://www.su.se/english/education/course-catalogue/ps/pspro",
+   "quote": "all admissions to the programme are based solely on upper secondary school grades and results on the Swedish Scholastic Aptitude Test"
+  },
+  {
+   "university": "Stockholms universitet",
+   "programName": "Psykologprogrammet",
+   "set": {
+    "notes": "Program tylko po szwedzku. Nabór przez antagning.se. Uczelnia nie przyjmuje na podstawie wcześniejszych studiów wyższych."
+   },
+   "sourceUrl": "https://www.su.se/english/education/course-catalogue/ps/pspro",
+   "quote": "Can I be admitted based on earlier academic studies?"
+  },
+  {
+   "university": "Stockholms universitet",
+   "programName": "Juristprogrammet",
+   "set": {
+    "durationYears": 4.5
+   },
+   "sourceUrl": "https://www.su.se/english/education/course-catalogue/jj/jjupg",
+   "quote": "The standard law education in Sweden is a 4.5 year programme that leads to an LL.M."
+  },
+  {
+   "university": "Stockholms universitet",
+   "programName": "Juristprogrammet",
+   "set": {
+    "languageProof": "Program prowadzony wyłącznie po szwedzku i wymaga wysokiego poziomu szwedzkiego. Dokładny poziom i dowód (np. Svenska 3 lub test TISUS) nie są podane na stronie programu i wymagają potwierdzenia na antagning.se.",
+    "languages": [
+     "szwedzki"
+    ]
+   },
+   "sourceUrl": "https://www.su.se/english/education/course-catalogue/jj/jjupg",
+   "quote": "Both require a high level of proficiency in Swedish."
+  },
+  {
+   "university": "Stockholms universitet",
+   "programName": "Juristprogrammet",
+   "set": {
+    "requirements": "Wymagane: Historia 1b lub 1a1+1a2 oraz Samhällskunskap 1b lub 1a1+1a2. Zasady selekcji do potwierdzenia na stronie programu."
+   },
+   "sourceUrl": "https://www.su.se/english/education/course-catalogue/jj/jjupg",
+   "quote": "History course 1b or course 1a1+1a2, Social studies course 1b or course 1a1+1a2."
+  },
+  {
+   "university": "Stockholms universitet",
+   "programName": "Juristprogrammet",
+   "set": {
+    "notes": "Prawo szwedzkie po szwedzku, kształci do zawodów prawniczych w Szwecji. Program trwa 4,5 roku (270 punktów)."
+   },
+   "sourceUrl": "https://www.su.se/english/education/course-catalogue/jj/jjupg",
+   "quote": "This programme is only offered in Swedish."
+  },
+  {
+   "university": "Stockholms universitet",
+   "programName": "Kandidatprogram i systemvetenskap (Data- och systemvetenskap)",
+   "set": {
+    "languages": [
+     "szwedzki"
+    ],
+    "languageProof": "Program prowadzony po szwedzku. Dokładny poziom szwedzkiego (np. Svenska 3 lub test TISUS) nie jest podany na stronie programu i wymaga potwierdzenia na antagning.se."
+   },
+   "sourceUrl": "https://www.su.se/english/education/course-catalogue/sy/sysdk",
+   "quote": "This programme is taught in Swedish."
+  },
+  {
+   "university": "Stockholms universitet",
+   "programName": "Kandidatprogram i systemvetenskap (Data- och systemvetenskap)",
+   "set": {
+    "requirements": "Wymagane: Matematik 2a, 2b lub 2c oraz Samhällskunskap 1b lub 1a1+1a2. Miejsca rozdziela się według najwyższego meritvärde ze świadectwa szkolnego, świadectwa folkhögskola lub wyniku Högskoleprovet.",
+    "selective": true
+   },
+   "sourceUrl": "https://www.su.se/english/education/course-catalogue/sy/sysdk",
+   "quote": "Mathematics course 2a or 2b or 2c, Social studies course 1b or course 1a1+1a2."
+  },
+  {
+   "university": "Stockholms universitet",
+   "programName": "Kandidatprogram i systemvetenskap (Data- och systemvetenskap)",
+   "set": {
+    "deadline": "15 kwietnia 2027 (druga runda naboru, w której są dostępne programy po szwedzku; nabór otwiera się 15 marca 2027). Instytut podaje, że zgłoszenia przyjmuje się co roku od połowy marca do połowy kwietnia."
+   },
+   "sourceUrl": "https://www.su.se/enheter/institutionen-for-data--och-systemvetenskap/utbildning/vara-utbildningar/lasa-kandidatprogram-pa-dsv",
+   "quote": "De startar varje höst och är sökbara i mitten av mars till mitten av april."
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Civilingenjör: kandidatprogram Informations- och kommunikationsteknik",
+   "set": {
+    "deadline": "Runda 1: otwarcie 16 października 2026, termin 15 stycznia 2027, dokumenty i opłata do 1 lutego 2027, wyniki 8 kwietnia 2027. Osoby kończące szkołę średnią w roku składania wniosku nie mogą złożyć kompletnej aplikacji w rundzie 1, więc maturzysta z 2027 korzysta z rundy 2: 15 marca do 15 kwietnia 2027, dokumenty do 21 czerwca 2027 (do 5 lipca 2027 dla kończących szkołę w UE/EOG), wyniki 9 lipca 2027. Studia od sierpnia 2027."
+   },
+   "sourceUrl": "https://www.kth.se/en/studies/bachelor/information-communication-technology/bsc-information-and-communication-technology-1.437049",
+   "quote": "Students in the final year of upper secondary will not be able to submit a complete application in round 1."
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Civilingenjör: kandidatprogram Informations- och kommunikationsteknik",
+   "set": {
+    "durationYears": 3,
+    "languages": [
+     "angielski"
+    ]
+   },
+   "sourceUrl": "https://www.kth.se/en/studies/bachelor/information-communication-technology/bsc-information-and-communication-technology-1.437049",
+   "quote": "This is a three year programme (180 ECTS credits) given in English."
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Civilingenjör: kandidatprogram Informations- och kommunikationsteknik",
+   "set": {
+    "notes": "Jedyny licencjat po angielsku na KTH. Strona KTH nie wymienia Polski osobno w wymogach z matematyki i fizyki: uczelnia ocenia wnioski indywidualnie według kraju. Przyjęcie warunkowe dla osób w ostatnim roku szkoły średniej nie jest możliwe, a przewidywane oceny nie są akceptowane."
+   },
+   "sourceUrl": "https://www.kth.se/en/studies/bachelor/information-communication-technology/entry-requirements-for-information-and-communication-technology-1.450313",
+   "quote": "Conditional admission for applicants in their final year of upper secondary school is not possible and predicted grades are not accepted."
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Datateknik, civilingenjör, 300 hp",
+   "set": {
+    "durationYears": 5
+   },
+   "sourceUrl": "https://www.kth.se/utbildning/civilingenjor/datateknik",
+   "quote": "Längd: 5 år heltid, 300 högskolepoäng (hp)"
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Datateknik, civilingenjör, 300 hp",
+   "set": {
+    "languages": [
+     "szwedzki"
+    ],
+    "languageProof": "Strona programu jest po szwedzku i nie podaje wprost języka wykładowego ani poziomu szwedzkiego (np. Svenska 3 lub test TISUS). KTH informuje, że ma tylko jeden licencjat po angielsku (ICT). Język wykładowy i poziom szwedzkiego do potwierdzenia na stronie KTH lub antagning.se."
+   },
+   "sourceUrl": "https://www.kth.se/en/studies/bachelor",
+   "quote": "KTH offers one bachelor's degree programme taught in English attracting talent from all over the world."
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Datateknik, civilingenjör, 300 hp",
+   "set": {
+    "notes": "Program 300 punktów (5 lat), kampus KTH Stockholm. Język wykładowy do potwierdzenia na stronie KTH (patrz pole z językiem)."
+   },
+   "sourceUrl": "https://www.kth.se/utbildning/civilingenjor/datateknik",
+   "quote": "Längd: 5 år heltid, 300 högskolepoäng (hp)"
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Maskinteknik, civilingenjör, 300 hp",
+   "set": {
+    "durationYears": 5
+   },
+   "sourceUrl": "https://www.kth.se/utbildning/civilingenjor/maskinteknik",
+   "quote": "Längd: 5 år heltid, 300 högskolepoäng (hp)"
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Maskinteknik, civilingenjör, 300 hp",
+   "set": {
+    "languages": [
+     "szwedzki"
+    ],
+    "languageProof": "Strona programu jest po szwedzku i nie podaje wprost języka wykładowego ani poziomu szwedzkiego (np. Svenska 3 lub test TISUS). KTH informuje, że ma tylko jeden licencjat po angielsku (ICT). Język wykładowy i poziom szwedzkiego do potwierdzenia na stronie KTH lub antagning.se."
+   },
+   "sourceUrl": "https://www.kth.se/en/studies/bachelor",
+   "quote": "KTH offers one bachelor's degree programme taught in English attracting talent from all over the world."
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Maskinteknik, civilingenjör, 300 hp",
+   "set": {
+    "notes": "Program 300 punktów (5 lat), kampus KTH Stockholm. Język wykładowy do potwierdzenia na stronie KTH (patrz pole z językiem)."
+   },
+   "sourceUrl": "https://www.kth.se/utbildning/civilingenjor/maskinteknik",
+   "quote": "Längd: 5 år heltid, 300 högskolepoäng (hp)"
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Samhällsbyggnad, civilingenjör, 300 hp",
+   "set": {
+    "durationYears": 5
+   },
+   "sourceUrl": "https://www.kth.se/utbildning/civilingenjor/samhallsbyggnad",
+   "quote": "Längd: 5 år heltid, 300 högskolepoäng (hp)"
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Samhällsbyggnad, civilingenjör, 300 hp",
+   "set": {
+    "languages": [
+     "szwedzki"
+    ],
+    "languageProof": "Strona programu jest po szwedzku i nie podaje wprost języka wykładowego ani poziomu szwedzkiego (np. Svenska 3 lub test TISUS). KTH informuje, że ma tylko jeden licencjat po angielsku (ICT). Język wykładowy i poziom szwedzkiego do potwierdzenia na stronie KTH lub antagning.se."
+   },
+   "sourceUrl": "https://www.kth.se/en/studies/bachelor",
+   "quote": "KTH offers one bachelor's degree programme taught in English attracting talent from all over the world."
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Samhällsbyggnad, civilingenjör, 300 hp",
+   "set": {
+    "notes": "Program 300 punktów (5 lat), kampus KTH Stockholm. Język wykładowy do potwierdzenia na stronie KTH (patrz pole z językiem)."
+   },
+   "sourceUrl": "https://www.kth.se/utbildning/civilingenjor/samhallsbyggnad",
+   "quote": "Längd: 5 år heltid, 300 högskolepoäng (hp)"
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Arkitektutbildning, arkitekt, 300 hp",
+   "set": {
+    "durationYears": 5
+   },
+   "sourceUrl": "https://www.kth.se/utbildning/arkitekt/arkitektutbildning",
+   "quote": "Längd: 5 år heltid, 300 högskolepoäng (hp)"
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Arkitektutbildning, arkitekt, 300 hp",
+   "set": {
+    "languages": [
+     "szwedzki"
+    ],
+    "languageProof": "Strona programu jest po szwedzku i nie podaje wprost języka wykładowego ani poziomu szwedzkiego (np. Svenska 3 lub test TISUS). KTH informuje, że ma tylko jeden licencjat po angielsku (ICT). Język wykładowy i poziom szwedzkiego do potwierdzenia na stronie KTH lub antagning.se."
+   },
+   "sourceUrl": "https://www.kth.se/en/studies/bachelor",
+   "quote": "KTH offers one bachelor's degree programme taught in English attracting talent from all over the world."
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Arkitektutbildning, arkitekt, 300 hp",
+   "set": {
+    "notes": "Program 300 punktów (5 lat), kampus KTH Stockholm. Język wykładowy do potwierdzenia na stronie KTH (patrz pole z językiem)."
+   },
+   "sourceUrl": "https://www.kth.se/utbildning/arkitekt/arkitektutbildning",
+   "quote": "Längd: 5 år heltid, 300 högskolepoäng (hp)"
+  },
+  {
+   "university": "KTH Royal Institute of Technology (Kungliga Tekniska högskolan)",
+   "programName": "Arkitektutbildning, arkitekt, 300 hp",
+   "set": {
+    "requirements": "Wymagane: Matematik 3b lub 3c, Samhällskunskap 1b lub 1a1+1a2, Naturkunskap 2 (można zastąpić Kemi 1 oraz Fysik 1a lub 1b1+1b2). Ok. jednej trzeciej miejsc obsadza się według wyniku testu Arkitektprovet, resztę według ocen ze świadectwa i Högskoleprovet.",
+    "selective": true
+   },
+   "sourceUrl": "https://www.kth.se/utbildning/arkitekt/arkitektutbildning/behorighet-och-antagning-1.924345",
+   "quote": "Omkring en tredjedel av platserna till programmet tillsätts utifrån resultat på Arkitektprovet."
+  },
+  {
+   "university": "Karolinska Institutet",
+   "programName": "Läkarprogrammet",
+   "set": {
+    "durationYears": 6,
+    "languages": [
+     "szwedzki"
+    ]
+   },
+   "sourceUrl": "https://utbildning.ki.se/bli-student/program-och-kurser/lakarprogrammet",
+   "quote": "Högskolepoäng: 360 Hp"
+  },
+  {
+   "university": "Karolinska Institutet",
+   "programName": "Läkarprogrammet",
+   "set": {
+    "languageProof": "Program po szwedzku i wymaga wysokiej znajomości szwedzkiego w mowie i piśmie. Dokładny poziom i dowód (np. Svenska 3 lub test TISUS) nie są podane na stronie programu i wymagają potwierdzenia na antagning.se."
+   },
+   "sourceUrl": "https://utbildning.ki.se/bli-student/program-och-kurser/lakarprogrammet",
+   "quote": "Programmet ges på svenska och ställer höga krav på både muntlig och skriftlig språkförmåga."
+  },
+  {
+   "university": "Karolinska Institutet",
+   "programName": "Läkarprogrammet",
+   "set": {
+    "deadline": "15 kwietnia 2027 (druga runda naboru na jesień 2027, w której są dostępne programy po szwedzku; nabór otwiera się 15 marca 2027). Ostatni opublikowany nabór: jesień 2026, 160 miejsc, termin 15 kwietnia 2026."
+   },
+   "sourceUrl": "https://utbildning.ki.se/bli-student/program-och-kurser/lakarprogrammet",
+   "quote": "Sista anmälningsdag: 2026-04-15"
+  },
+  {
+   "university": "Karolinska Institutet",
+   "programName": "Läkarprogrammet",
+   "set": {
+    "notes": "Studia 360 punktów (6 lat), Solna, na kampusie. Wniosek przez antagning.se. Na jesień 2026 było 160 miejsc."
+   },
+   "sourceUrl": "https://utbildning.ki.se/bli-student/program-och-kurser/lakarprogrammet",
+   "quote": "Antal platser: 160"
+  },
+  {
+   "university": "Karolinska Institutet",
+   "programName": "Psykologprogrammet (KI)",
+   "set": {
+    "durationYears": 5,
+    "languages": [
+     "szwedzki"
+    ]
+   },
+   "sourceUrl": "https://education.ki.se/bachelors-masters-studies/programmes-and-courses/study-programme-in-psychology",
+   "quote": "Credits: 300 Credits"
+  },
+  {
+   "university": "Karolinska Institutet",
+   "programName": "Psykologprogrammet (KI)",
+   "set": {
+    "languageProof": "KI: program wymaga znajomości szwedzkiego, a językiem wykładowym jest szwedzki. Dokładny poziom i dowód (np. Svenska 3 lub test TISUS) nie są podane na stronie programu i wymagają potwierdzenia na antagning.se."
+   },
+   "sourceUrl": "https://education.ki.se/bachelors-masters-studies/programmes-and-courses/study-programme-in-psychology",
+   "quote": "This programme requires knowledge of Swedish. Swedish is the language of instruction."
+  },
+  {
+   "university": "Karolinska Institutet",
+   "programName": "Psykologprogrammet (KI)",
+   "set": {
+    "deadline": "15 kwietnia 2027 (druga runda naboru na jesień 2027, w której są dostępne programy po szwedzku; nabór otwiera się 15 marca 2027). Ostatni opublikowany nabór: jesień 2026, 70 miejsc, termin 15 kwietnia 2026."
+   },
+   "sourceUrl": "https://education.ki.se/bachelors-masters-studies/programmes-and-courses/study-programme-in-psychology",
+   "quote": "Application deadline: 2026-04-15"
+  },
+  {
+   "university": "Karolinska Institutet",
+   "programName": "Psykologprogrammet (KI)",
+   "set": {
+    "notes": "Program tylko po szwedzku, Solna, 70 miejsc w naborze na jesień 2026."
+   },
+   "sourceUrl": "https://education.ki.se/bachelors-masters-studies/programmes-and-courses/study-programme-in-psychology",
+   "quote": "Number of places: 70"
+  }
+ ],
+ "removePrograms": [],
+ "addPrograms": [],
+ "summaryPatches": [
+  {
+   "label": "Zakres",
+   "text": "W Sztokholmie tylko jeden licencjat jest po angielsku: BSc Information and Communication Technology na KTH. Pozostałe jedenaście programów w tym opracowaniu (psychologia, prawo, medycyna, architektura, informatyka, budownictwo, mechanika) jest po szwedzku i wymaga znajomości szwedzkiego.",
+   "sourceUrl": "https://www.kth.se/en/studies/bachelor",
+   "quote": "We offer one bachelor's programme taught in English."
+  },
+  {
+   "label": "Polska matura",
+   "text": "Polskie świadectwo spełnia ogólny warunek przyjęcia: trzeba złożyć Świadectwo Dojrzałości i Świadectwo Ukończenia (od 2005 roku). Warunek z angielskiego (Engelska 6) spełnia matura pisemna z angielskiego na poziomie rozszerzonym z wynikiem co najmniej 30%. Poszczególne kierunki wymagają dodatkowo konkretnych przedmiotów na szwedzkim poziomie (np. Matematik 4 i Fysik 2 na KTH), a zgodność polskich przedmiotów uczelnie oceniają indywidualnie. Selekcja odbywa się według ocen ze świadectwa albo wyniku Högskoleprovet (SweSAT); KTH Arkitektur ma dodatkowo test Arkitektprovet.",
+   "sourceUrl": "https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/poland/",
+   "quote": "A Secondary School Certificate meets the general criteria."
+  },
+  {
+   "label": "Opłaty",
+   "text": "Obywatele UE/EOG i Szwajcarii nie płacą ani opłaty aplikacyjnej, ani czesnego. Dla osób spoza UE opłata aplikacyjna wynosi 900 SEK, a czesne ustala uczelnia (KTH ICT: 423 000 SEK za cały program). Składki do samorządów studenckich nie zostały opisane.",
+   "sourceUrl": "https://www.universityadmissions.se/en/fees-scholarships-residence-permit/who-is-required-to-pay-fees/",
+   "quote": "All citizens of European Union (EU) and European Economic Area (EEA) countries, as well as citizens of Switzerland, are not required to pay an application fee or tuition fees."
+  },
+  {
+   "label": "Rekrutacja",
+   "text": "Programy po angielsku (KTH ICT): universityadmissions.se, runda 1 od 16 października 2026 do 15 stycznia 2027 oraz runda 2 od 15 marca do 15 kwietnia 2027. Maturzyści kończący szkołę w 2027 roku nie złożą kompletnego wniosku w rundzie 1, więc korzystają z rundy 2 (dokumenty do 21 czerwca 2027, a dla szkół z UE/EOG do 5 lipca 2027). Programy po szwedzku: antagning.se, tylko runda 2 (15 marca do 15 kwietnia 2027).",
+   "sourceUrl": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+   "quote": "The Second admissions round is actually the regular admissions round for students living in Sweden."
+  },
+  {
+   "label": "Znajomość języka",
+   "text": "Angielski (Engelska 6) potwierdza matura rozszerzona z angielskiego z wynikiem co najmniej 30% albo test, np. IELTS 6,5 (żadna część poniżej 5,5). Do programów po szwedzku potrzebny jest szwedzki, ale poziom (np. Svenska 3 lub test TISUS) nie jest podany na stronach programów i wymaga potwierdzenia na antagning.se.",
+   "sourceUrl": "https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/poland/",
+   "quote": "You can meet the requirement with your upper secondary studies with English at the advanced level (poziom rozszerzony) as part of your written Matura exam with a minimum grade of 30%"
+  }
+ ],
+ "gapsSet": [
+  "Nie udało się potwierdzić, jaki poziom szwedzkiego (np. Svenska 3 lub test TISUS) jest wymagany od osób z polską maturą. Strony programów mówią tylko, że program jest po szwedzku. Poziom trzeba sprawdzić na antagning.se.",
+  "Brak oficjalnej tabeli odpowiedników polskich przedmiotów dla szwedzkich poziomów (Matematik 4, Fysik 2, Biologi 2, Kemi 2). Uczelnie oceniają wnioski indywidualnie.",
+  "Strony programów po szwedzku podają na razie tylko terminy naboru na jesień 2026. Termin 15 kwietnia 2027 pochodzi z ogólnej strony universityadmissions.se o drugiej rundzie naboru.",
+  "Język wykładowy czterech programów KTH (informatyka, mechanika, budownictwo, architektura) nie jest podany wprost na ich stronach. Wiadomo tylko, że KTH ma jeden licencjat po angielsku (ICT).",
+  "Zasady selekcji na Juristprogrammet (SU) nie są opisane na stronie programu.",
+  "Czesne dla osób spoza UE jest podane tylko dla KTH ICT. Dla pozostałych programów należy je sprawdzić na stronach uczelni.",
+  "Brakuje kierunków ekonomicznych i dziennikarstwa (Södertörn nie został opracowany), data science oraz angielskojęzycznych programów SU i KI (np. KI Biomedicine).",
+  "Koszty życia, składki do samorządów studenckich i zakwaterowanie nie zostały opisane."
+ ],
+ "sourcesAdd": [
+  {
+   "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+   "note": "Terminy naboru na jesień 2027 (rundy 1 i 2) na universityadmissions.se"
+  },
+  {
+   "url": "https://www.universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/poland/",
+   "note": "Polskie świadectwo i warunek z angielskiego (Engelska 6) według universityadmissions.se"
+  },
+  {
+   "url": "https://www.universityadmissions.se/en/entry-requirements/bachelors-requirements/",
+   "note": "Ogólne i szczegółowe wymagania na studia licencjackie w Szwecji"
+  },
+  {
+   "url": "https://www.universityadmissions.se/en/entry-requirements/english-language-requirements/",
+   "note": "Wymagania z języka angielskiego i akceptowane testy"
+  },
+  {
+   "url": "https://www.kth.se/en/studies/bachelor",
+   "note": "Oferta licencjatów KTH, jedyny program po angielsku (ICT)"
+  },
+  {
+   "url": "https://www.kth.se/en/studies/bachelor/information-communication-technology/bsc-information-and-communication-technology-1.437049",
+   "note": "KTH ICT: czas trwania, język i terminy naboru na 2027"
+  },
+  {
+   "url": "https://www.su.se/english/education/course-catalogue/ps/pspro",
+   "note": "SU Psykologprogrammet: język, czas trwania, zasady przyjęcia"
+  },
+  {
+   "url": "https://utbildning.ki.se/bli-student/program-och-kurser/lakarprogrammet",
+   "note": "KI Läkarprogrammet: język, czas trwania, liczba miejsc"
+  },
+  {
+   "url": "https://education.ki.se/bachelors-masters-studies/programmes-and-courses/study-programme-in-psychology",
+   "note": "KI Psykologprogrammet: język, czas trwania, liczba miejsc"
+  }
+ ]
+}
