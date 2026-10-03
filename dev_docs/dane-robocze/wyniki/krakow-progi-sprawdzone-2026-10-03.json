@@ -1,0 +1,56 @@
+[
+ {
+  "rspo": null,
+  "shortName": "Omikron Kraków (serwis naboru)",
+  "issue": "Moduł 'Wyniki punktowe' (/minimalPoints) wyłączony po rekrutacji: menuData.options.showMinimalPoints=false, showStatistics=false; GET /api/minimalPoints zwraca 403 unauthorized. API oferty (schoolDetails, searchSubmit) zwraca 403 'Access denied' (strona ładuje zabezpieczenie CAP). Nie obchodzono.",
+  "url": "https://rekrutacje-krakow.pzo.edu.pl/omikron-public/api/minimalPoints"
+ },
+ {
+  "rspo": null,
+  "shortName": "krakow-stat.edu.com.pl",
+  "issue": "Nie istnieje (404). Kraków nie używa VULCAN, tylko PZO Omikron.",
+  "url": "https://krakow-stat.edu.com.pl/"
+ },
+ {
+  "rspo": null,
+  "shortName": "Archiwum Omikronu",
+  "issue": "Wayback Machine nie ma kopii strony minimalPoints (i to i tak nie jest źródło oficjalne).",
+  "url": "http://archive.org/wayback/available?url=rekrutacje-krakow.pzo.edu.pl/omikron-public/minimalPoints"
+ },
+ {
+  "rspo": null,
+  "shortName": "UM Kraków",
+  "issue": "Portal edukacyjny i Nasze Szkoły UM nie publikują progów; są tylko zasady rekrutacji i terminarz. Wyszukiwarka BIP renderuje wyniki skryptem, z curl brak wyników.",
+  "url": "http://portaledukacyjny.krakow.pl/start/249087,artykul,rekrutacja_do_szkol_ponadpodstawowych.html"
+ },
+ {
+  "rspo": 27081,
+  "shortName": "II LO",
+  "issue": "Szkoła publikuje progi, ale ostatnie są z rekrutacji 2022/2023 (np. 1a mat-fiz-inf 170,60). Brak 2025 i 2026, nie wpisano.",
+  "url": "https://www.sobieski.krakow.pl/rekrutacja/progi-punktowe-do-ii-liceum-w-krakowie/"
+ },
+ {
+  "rspo": 133512,
+  "shortName": "LO Pallotynów",
+  "issue": "HTTP 403 dla zapytania bez przeglądarki; nie obchodzono.",
+  "url": "https://liceum.pallotyni.edu.pl"
+ },
+ {
+  "rspo": 108754,
+  "shortName": "XI LO",
+  "issue": "HTTP 403; nie obchodzono.",
+  "url": "https://xilo.krakow.pl"
+ },
+ {
+  "rspo": 20852,
+  "shortName": "XVII LO",
+  "issue": "HTTP 403; nie obchodzono.",
+  "url": "http://liceum.zso7.pl"
+ },
+ {
+  "rspo": 25877,
+  "shortName": "XV LO",
+  "issue": "Strona 'Wyniki rekrutacji' mówi tylko, że listy wywiesza się na drzwiach szkoły.",
+  "url": "https://xvlo.pl/rekrutacja.html"
+ }
+]

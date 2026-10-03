@@ -1,0 +1,21 @@
+{
+  "progi": [],
+  "uwaga": "Nie znaleziono żadnego oficjalnego progu dla szkół powiatu wejherowskiego, więc nie ma też progów niedopasowanych.",
+  "sprawdzoneZrodla": [
+    {"url": "https://nabor-pomorze.edu.com.pl/kandydat/app/offer_group_details.xhtml?groupId=2684", "wynik": "Serwis naboru zamknięty po rekrutacji; strona odsyła do modułów statystyk: gdansk-, gdynia-, powiatkartuski-, powiatkoscierski-, powiatleborski-, sopot-stat.edu.com.pl. Powiatu wejherowskiego na tej liście nie ma."},
+    {"url": "https://powiatwejherowski-stat.edu.com.pl/", "wynik": "HTTP 404 (tak samo wejherowo-stat, powiat-wejherowski-stat, wejherowski-stat, pwejherowski-stat, rumia-stat, reda-stat, pomorskie-stat, pomorze-stat)"},
+    {"url": "https://gdansk-stat.edu.com.pl/api/turtle/school-offers?page=0&size=2000", "wynik": "Tenant gdansk: 40 szkół, wyłącznie Gdańsk. gdynia-stat: tylko Gdynia, sopot-stat: tylko Sopot."},
+    {"url": "https://www.powiatwejherowski.pl/pobierz/p0D11669c0I0z147U7Y3l6F6J9B7q797", "wynik": "Folder Edu Nawigator 2026/27: oferta i przedmioty punktowane, brak progów."},
+    {"url": "https://www.liceum1.pl/rekrutacja/informacje-o-rekrutacji", "wynik": "curl dostaje 403 (blokada botów, nie obchodzono). Przez WebFetch: brak progów; podstrony: zasady, terminarz, system naboru, dokumenty, podręczniki."},
+    {"url": "https://www.lo1.rumia.pl/rekrutacja", "wynik": "Brak progów; zasady rekrutacji tylko jako pliki na Google Drive."},
+    {"url": "https://www.wejherowo-elektryk.pl/SPIS_TRESCI", "wynik": "Brak progów (regulamin, harmonogram badań, folder)."},
+    {"url": "https://pzs3.info/rekrutacja-26-27/", "wynik": "Brak progów; wyszukiwarka WP (wp-json/wp/v2/search: progi, próg, punktacja) bez wyników o progach."},
+    {"url": "https://pzsreda.edu.pl/rekrutacja/rekrutacja/", "wynik": "Brak progów; wyszukiwarka WP bez wyników o progach."},
+    {"url": "https://www.pzs4-samochodowka.pl/rekrutacja-najczesciej-zadawane-pytania/", "wynik": "Tylko ogólnik, że progi ustala się po rekrutacji; brak liczb. Wyszukiwarka WP bez wyników o progach."},
+    {"url": "https://hipolit.info/a/rekrutacja", "wynik": "Brak progów."},
+    {"url": "https://www.liceum.salezjanskie.pl/rekrutacja.html", "wynik": "Brak progów."},
+    {"url": "https://www.dejacsb.com/rekrutacjadejacsb", "wynik": "Brak progów (strona Wix)."},
+    {"url": "https://www.szkolawgniewinie.com.pl/index.php?opcja=download&kat=Rekrutacja", "wynik": "Tylko rekrutacja do przedszkola i klas 1 SP, brak LMS."},
+    {"url": "https://www.osw2wejherowo.pl/edukacja/nabor", "wynik": "Nabór przez skierowanie (orzeczenie), progów nie ma i nie będzie."}
+  ]
+}
