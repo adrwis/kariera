@@ -39,17 +39,17 @@ const server = http.createServer((req, res) => {
     await ctx.route('https://docs.google.com/forms/**', r => { posts.push(r.request().postData() || ''); r.fulfill({ status: 200, body: '' }); });
     page = await ctx.newPage();
     page.on('pageerror', e => errors.push(e.message));
-    await page.goto(base + 'zagranica/?miasto=luksemburg');
-    await page.waitForSelector('.zagr__notice');
-    check('przycisk widoczny w miejscu „dane w przygotowaniu”', await page.locator('.zagr__notice .feedback-trigger').isVisible());
-    await page.locator('.zagr__notice .feedback-trigger').click();
+    await page.goto(base + 'zagranica/?miasto=wieden');
+    await page.waitForSelector('.zagr__city');
+    check('przycisk widoczny na stronie miasta', await page.locator('.zagr__city .feedback-trigger').isVisible());
+    await page.locator('.zagr__city .feedback-trigger').click();
     check('okienko się otwiera i fokus jest w polu opisu', await page.evaluate(() => document.activeElement && document.activeElement.name === 'opis'));
     check('okienko ma rolę dialogu', (await page.locator('.feedback-dialog').getAttribute('role')) === 'dialog');
     await page.keyboard.press('Escape');
     check('Esc zamyka okienko', !(await page.locator('.feedback-overlay').isVisible()));
     check('fokus wraca na przycisk, który otworzył okienko', await page.evaluate(() => document.activeElement && document.activeElement.classList.contains('feedback-trigger')));
 
-    await page.locator('.zagr__notice .feedback-trigger').click();
+    await page.locator('.zagr__city .feedback-trigger').click();
     await page.click('.feedback-send');
     check('pusta treść: komunikat błędu, brak wysyłki', (await page.locator('#fbErr').isVisible()) && posts.length === 0);
     await page.fill('textarea[name=opis]', 'Studia w Oslo');
@@ -61,10 +61,10 @@ const server = http.createServer((req, res) => {
     await page.click('.feedback-send');
     await page.waitForSelector('.feedback-done');
     check('wysłano jedno zgłoszenie z wartościami z formularza', posts.length === 1 && posts[0].includes('Oslo') && posts[0].includes('entry.2') && posts[0].includes('ktos@example.com'));
-    check('kontekst miasta i adres strony są w zgłoszeniu', posts[0].includes('Luksemburg') && posts[0].includes('zagranica'));
+    check('kontekst miasta i adres strony są w zgłoszeniu', posts[0].includes('Wiede') && posts[0].includes('zagranica'));
     check('wiadomość „Dziękujemy” po wysłaniu', /Dziękujemy/.test(await page.locator('.feedback-done').textContent()));
     await page.click('.feedback-done button');
-    await page.locator('.zagr__notice .feedback-trigger').click();
+    await page.locator('.zagr__city .feedback-trigger').click();
     await page.fill('textarea[name=opis]', 'Drugie zgłoszenie');
     await page.click('.feedback-send');
     check('limit: drugie zgłoszenie od razu jest wstrzymane', posts.length === 1 && /Poczekaj/.test(await page.locator('#fbStatus').textContent()));

@@ -14,11 +14,11 @@ Poprawki zastosowane na danych: `dev_docs/dane-robocze/poprawki-zagranica.js` (u
 
 ## Do zrobienia (wymaga ponownego sprawdzenia stron uczelni)
 - Londyn: QMUL i KCL niezweryfikowane (strony dały 403), dodano tylko ostrzeżenie przy programie.
-- Zagrzeb: tylko 5 programów. Brakuje architektury, budownictwa, ekonomii (EFZG), mechaniki (FSB), dziennikarstwa.
+- Zagrzeb: po uzupełnieniu 15 programów (architektura, budownictwo, dziennikarstwo, ZŠEM, FSB, EFZG). Czesne UE na programach po chorwacku niepotwierdzone (rozporządzenie NN 78/2023 nieodczytane), natječaj na 2027/28 jeszcze nie opublikowany, brak medycyny po chorwacku.
 - Nikozja: brak Uniwersytetu Cypryjskiego (blokada), medycyna ok. 90%: nie wiadomo, jak liczyć polską maturę.
 - Ryga: brak RTU (blokada), więc brak architekta, inżyniera budownictwa i mechanika.
-- Luksemburg: w przygotowaniu.
-- Czas trwania studiów (`durationYears`) brakuje w: Bukareszt 18 z 21, Ateny 8 z 16, Praga FS, Sofia.
+- Luksemburg: dodany (10 programów), ale uni.lu jest za ekranem weryfikacji, więc nazwy programów, języki i terminy pochodzą z ministerstwa i wymagają potwierdzenia na uni.lu. Czesne: 400 EUR za semestr wg ministerstwa, inna strona podaje 200 do 400 EUR. Brak psychologii, data science i architektury na licencjacie.
+- Czas trwania studiów (`durationYears`) nadal brakuje w: Bukareszt (UPB, UTCB, ASE poza Drept), Ateny (NKUA, AUEB), Sofia (UNI Sofia), Praga FSv. Uzupełniono 8 pól z cytatami (UB, ASE Drept, FS ČVUT).
 - Bukareszt: kwoty w lejach bez przeliczenia na EUR z datą kursu.
 - Daty naborów z cyklu 2026 bez roku w źródle (Amsterdam, Berlin HTW, Dublin, Paryż, Sztokholm, Madryt UNEDasiss, Ateny).
 - Budapeszt: 3 martwe adresy `admissionUrl` na Corvinus.

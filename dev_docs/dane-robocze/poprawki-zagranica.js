@@ -170,8 +170,28 @@ const BY_CITY = {
 
 // Dopasowania działają na zwykłych spacjach; twarde spacje wracają w walk() na końcu
 const plain = v => (typeof v === 'string' ? v.replace(/\u00a0/g, ' ') : Array.isArray(v) ? v.map(plain) : v && typeof v === 'object' ? Object.fromEntries(Object.entries(v).map(([k, x]) => [k, plain(x)])) : v);
+// Uzupełnienia pól (czas trwania, terminy) z cytatem i adresem źródła: wyniki/uzupelnienia-zagranica-*.json
+const fs = require('fs');
+const path = require('path');
+const FILL = (() => {
+  const dir = path.join(__dirname, 'wyniki');
+  return fs.readdirSync(dir).filter(f => f.startsWith('uzupelnienia-zagranica-')).sort()
+    .flatMap(f => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')))
+    .filter(x => x && x.slug && x.programName && x.field && x.value != null && /^https?:/.test(x.sourceUrl || '') && String(x.quote || '').length > 10);
+})();
+function fill(slug, data) {
+  for (const x of FILL.filter(x => x.slug === slug)) {
+    const hit = progs(data).filter(([, p]) => p.name === x.programName);
+    if (!hit.length) { warnings.push(`uzupełnienie bez programu: ${slug} / ${x.programName}`); continue; }
+    for (const [, p] of hit) {
+      if (x.field === 'durationYears' && Number.isFinite(+x.value) && p.durationYears == null) p.durationYears = +x.value;
+      else if (x.field === 'deadline' && (!p.deadline || /niepotwierdz|nie został|nie jest/.test(p.deadline))) p.deadline = String(x.value);
+    }
+  }
+}
 function apply(slug, data) {
   Object.assign(data, plain(data));
+  fill(slug, data);
   if (BY_CITY[slug]) BY_CITY[slug](data);
   walk(data);
   return data;

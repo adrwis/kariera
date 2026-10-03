@@ -1,0 +1,691 @@
+{
+  "city": "Zagrzeb",
+  "country": "Chorwacja",
+  "retrieved": "2026-10-04",
+  "overview": {
+    "polishMatura": "Świadectwo zagraniczne wymaga uznania przez AZVO w krajowym systemie Postani student (NISpVU), chyba że podlega automatycznemu uznaniu. Obywatele UE konkurują na tej samej liście rankingowej co Chorwaci, a osoby spoza UE na osobnej (studij.hr, pytanie 16). Wyniki z zagranicznego, zewnętrznie ocenianego egzaminu końcowego (np. polskiej matury) uznaje się jako odpowiedniki przedmiotów chorwackiej matury państwowej, a kandydatom z UE zalicza się pierwszy język z tego egzaminu zamiast chorwackiego (szczegóły zależą od wydziału). Wydziały wskazane w natječaju Uniwersytetu w Zagrzebiu (m.in. Arhitektonski, Pravni, Medicinski) wymagają od takich kandydatów egzaminu z chorwackiego na poziomie B2 w NCVVO. Odpowiedniki poziomu rozszerzonego polskiej matury dla wymogów 'viša razina' nie zostały nigdzie opisane i są luką.",
+    "tuition": "Programy po chorwacku: natječaj uczelni ma osobną pulę miejsc dla obywateli UE (np. FER 640, Građevinski 237), ale nigdzie nie podano wprost kwoty czesnego dla obywateli UE, więc w danych jest null. Dla cudzoziemców Arhitektonski podaje uczestnictwo w kosztach 2 232 EUR za pierwszy rok (Chorwaci spoza dotacji 1 116 EUR). Programy po angielsku: Ekonomski fakultet (BDiB, BDiE) 5 000 EUR rocznie, FER 5 574 EUR rocznie (strona skierowana do studentów międzynarodowych), medycyna 12 000 EUR rocznie. Prywatna Zagrebačka škola ekonomije i managementa (ZŠEM) 6 500 do 9 000 EUR rocznie dla obywateli UE zależnie od terminu zapisu, 8 000 do 9 200 EUR dla spoza UE. Oficjalny portal Study in Croatia podaje tylko widełki ogólne.",
+    "generalDeadlines": "Rok akademicki 2026/27 (ostatni opublikowany natječaj Uniwersytetu w Zagrzebiu z 30 kwietnia 2026): zgłoszenia w NISpVU w terminie lipcowym do 15 lipca 2026 do godz. 13:59, w terminie wrześniowym do 16 września 2026 (tylko na wolne miejsca). Na kierunkach z dodatkowym sprawdzianem zgłoszenia są wcześniej, np. Arhitektonski od 18 maja do 5 czerwca 2026 (sprawdzian 27 czerwca 2026), psychologia na Fakultet hrvatskih studija do 19 czerwca 2026 (test 29 czerwca 2026). Natječaj na 2027/28 nie był opublikowany w dniu pobrania, więc terminy trzeba będzie sprawdzić ponownie.",
+    "englishProof": "Programy po angielsku: Ekonomski fakultet wymaga certyfikatu minimum B2, FER IELTS Academic 5,5 (żadna część poniżej 5,0), TOEFL iBT 72 lub Cambridge B2 First, Wydział Medyczny IELTS 6, TOEFL iBT 60 albo Duolingo 105. ZŠEM wymaga egzaminu z angielskiego lub międzynarodowego certyfikatu. Programy po chorwacku: wydziały z listy w natječaju (m.in. Arhitektonski, Pravni, Medicinski) wymagają od kandydatów z UE egzaminu B2 z chorwackiego w NCVVO, Ekonomski fakultet dopuszcza też zaświadczenie Odsjeka za kroatistiku Filozofskiego fakulteta (B2). Na Fakultecie hrvatskih studija B2 jest warunkiem wpisu na drugi rok studiów.",
+    "system": "Rejestracja i rankingi odbywają się w jednym krajowym systemie NISpVU (portal Postani student, informacje na studij.hr). Publiczna część Postani student pokazuje ofertę, kwoty miejsc i warunki, ale lista programów jest ładowana przez formularze ASP.NET wymagające interakcji i nie została odczytana, dlatego warunki wzięto z natječaju uczelni i stron wydziałów. Kandydat po szkole za granicą przesyła dokumenty do Središnji prijavni ured przy AZVO.",
+    "sources": [
+      "https://azvo.hr/en/foreign-education-qualifications/recognition-of-foreign-secondary-education-qualification-for-continuation-of-education/",
+      "https://www.studij.hr/all-about-applications",
+      "https://www.studyincroatia.hr/study-in-croatia/tuition-fees-and-scholarships/",
+      "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+      "https://www.studij.hr/cesta-pitanja",
+      "https://www.postani-student.hr/",
+      "https://www.efzg.unizg.hr/default.aspx?id=35544",
+      "https://zsem.hr/upisi/prijediplomski-studij/cijene-skolarina/"
+    ]
+  },
+  "universities": [
+    {
+      "name": "Sveučilište u Zagrebu (University of Zagreb)",
+      "url": "https://www.unizg.hr",
+      "type": "uniwersytet",
+      "programs": [
+        {
+          "name": "Medicina na engleskom jeziku (Medical Studies in English)",
+          "nameEn": "Medical Studies in English (integrated undergraduate and graduate university study of medicine)",
+          "faculty": "Medicinski fakultet",
+          "careerIds": [
+            "lekarz"
+          ],
+          "level": "jednolite",
+          "durationYears": 6,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2026/27 (nabór na 2027/28 jeszcze nieogłoszony)",
+          "tuition": {
+            "eu": "12 000 EUR rocznie płatne jednorazowo albo 12 200 EUR w dwóch ratach po 6 100 EUR przed każdym semestrem. Pierwsza rata 2 500 EUR jest potwierdzeniem przyjęcia oferty miejsca.",
+            "nonEu": "Strona nie rozróżnia: ta sama kwota dla wszystkich przyjętych (12 000 EUR rocznie).",
+            "sourceUrl": "https://mse.mef.unizg.hr/admission/admission-requirements/",
+            "quote": "'Tuition fee is 12,000 Euro per year if paid at once, or 12,200 Euro if paid in two installments' ; 'confirmation of the first tuition fee instalment payment (2,500 Euro)'"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami: świadectwo zagraniczne musi przejść uznanie AZVO w Postani student (wniosek o uznanie po rejestracji); bez pozytywnego uznania kandydat nie trafia na wspólną listę i nie dostaje Letter of Acceptance",
+            "requirements": "Pisemny egzamin wstępny online z biologii, chemii i fizyki (120 pytań, po 40 z przedmiotu, poziom szkoły średniej). Zwolnienie z egzaminu dla osób po pre-medical college lub z MCAT min. 125 w każdej sekcji albo z licencjatem z nauk przyrodniczych. Wymagane zaświadczenie lekarskie o spełnieniu wymogów zdrowotnych. Limit 60 miejsc rocznie. Przyjęcie tylko na semestr zimowy (początek w październiku).",
+            "languageProof": "IELTS 6, TOEFL iBT 60, Duolingo English Test 105; także Cambridge lub Oxford C1. Nie dotyczy native speakerów lub absolwentów anglojęzycznej szkoły.",
+            "selective": true,
+            "studyPlaces": "60",
+            "sourceUrl": "https://mse.mef.unizg.hr/admission/admission-requirements/",
+            "matura_source": "https://mse.mef.unizg.hr/admission/high-secondary-school-diploma-recognition/"
+          },
+          "deadline": "Zgłoszenia na egzamin online (rok 2026/27): do 22 grudnia 2025 (egzamin 12 stycznia 2026), do 26 kwietnia 2026 (12 maja), do 25 maja 2026 (8 czerwca), do 20 czerwca 2026 (6 lipca), do 20 sierpnia 2026 (31 sierpnia; egzamin jesienny tylko przy wolnych miejscach). Dokumenty do uznania świadectwa: do 20 czerwca 2026, a dla świadectw sprzed 31 grudnia 2025 do 22 maja 2026. Lista w Postani student: 15 lipca 2026. Terminy na 2027/28 do sprawdzenia na stronie wydziału.",
+          "applyUrl": "https://mse.mef.unizg.hr/admission/application-procedure/",
+          "sourceUrl": "https://mse.mef.unizg.hr/",
+          "notes": "Program w całości po angielsku, ale dla studentów z UE obowiązuje ta sama procedura uznania świadectwa w Postani student. Adres kontaktowy podany przez wydział: mse@mef.hr.",
+          "sources": [
+            {
+              "claim": "czesne, limit 60, wymogi zdrowotne, egzamin, terminy 2026",
+              "url": "https://mse.mef.unizg.hr/admission/admission-requirements/",
+              "quote": "'The maximum number of admitted students per year will be 60'; 'Admission is possible into the winter semester only!'"
+            },
+            {
+              "claim": "uznanie świadectwa i lista 15 lipca 2026",
+              "url": "https://mse.mef.unizg.hr/admission/high-secondary-school-diploma-recognition/",
+              "quote": "'Applicants who obtained their high school education abroad must have their high school diploma recognized in Croatia in order to be eligible to enroll'"
+            }
+          ]
+        },
+        {
+          "name": "Elektrotehnika i informacijska tehnologija (preddiplomski, program na engleskom)",
+          "nameEn": "Electrical Engineering and Information Technology (Bachelor, in English)",
+          "faculty": "Fakultet elektrotehnike i računarstva (FER)",
+          "careerIds": [],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2026/27 (nabór na 2027/28 jeszcze nieogłoszony)",
+          "tuition": {
+            "eu": null,
+            "nonEu": "5 574 EUR rocznie (92,90 EUR za 1 ECTS); opłata aplikacyjna 230 EUR dla studentów międzynarodowych.",
+            "sourceUrl": "https://www.fer.unizg.hr/en/studies/bachelor/admission",
+            "quote": "'The annual tuition fee for our bachelor study programmes is 5,574 EUR'; 'One ECTS credit amounts to 92.90 EUR for bachelor study programmes'; application fee 230 EUR",
+            "euNote": "FER podaje 5 574 EUR rocznie jako czesne na studiach licencjackich po angielsku na stronie dla studentów międzynarodowych; kwota dla obywateli UE osobno nie została wskazana, a obywatele UE aplikują przez Postani student (do potwierdzenia na stronie uczelni)."
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami: obywatele UE przechodzą uznanie świadectwa przez AZVO (chyba że świadectwo podlega automatycznemu uznaniu) i rankingowanie w Postani student; wyniki zagranicznego egzaminu końcowego są uznawane jako odpowiedniki matury państwowej",
+            "requirements": "Warunki szczegółowe FER (lista kwalifikacji SAT, ACT, IB, A-level, rozmowa online) dotyczą kandydatów spoza UE. Obywatele UE aplikują wyłącznie przez Postani student, na tej samej zasadzie co Chorwaci: ranking opiera się na średniej ocen i wynikach z matematyki (poziom wyższy) i fizyki, a polskie wyniki są traktowane jako odpowiedniki przedmiotów matury państwowej (natječaj). Limit 30 miejsc dla obywateli UE i 20 dla spoza UE na każdy z programów po angielsku.",
+            "languageProof": "IELTS Academic 5,5 (żadna część poniżej 5,0); TOEFL iBT 72; Cambridge B2 First (ocena A, B lub C). Strona FER podaje to w części dla kandydatów spoza UE.",
+            "selective": true,
+            "studyPlaces": "30 (UE), 20 (spoza UE)",
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf"
+          },
+          "deadline": "Rok 2026/27: dla kandydatów spoza UE 1 lipca 2026 (wcześniejszy termin 22 maja 2026 dla kończących szkołę za granicą przed 31 grudnia 2025). Dla obywateli UE zgłoszenie w NISpVU do 15 lipca 2026 godz. 13:59 (natječaj Uniwersytetu w Zagrzebiu).",
+          "applyUrl": "https://www.postani-student.hr/",
+          "sourceUrl": "https://www.fer.unizg.hr/en/studies/bachelor/admission_requirements",
+          "notes": "Kierunek nie pasuje wprost do żadnego z 11 zawodów, ale jest najbliższy inżynierii. Na rok 2026/27 w profilu magisterskim po angielsku oferowano tylko Microgrids (informacja ze strony FER).",
+          "sources": [
+            {
+              "claim": "obywatele UE aplikują przez Postani student, informacje dla kandydatów spoza UE",
+              "url": "https://www.fer.unizg.hr/en/studies/bachelor/admission",
+              "quote": "applicants who have Croatian and EU citizenship apply through the National IT System ... and do not need to apply through this page; The information listed below is relevant only to NON-EU citizens"
+            },
+            {
+              "claim": "limity miejsc 30 UE i 20 spoza UE, termin do 15 lipca 2026",
+              "url": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+              "quote": "Electrical Engineering and Information Technology ... (30 upisnih mjesta za državljane država članica Europske unije, 20 upisnih mjesta za strane državljane)"
+            }
+          ]
+        },
+        {
+          "name": "Računarstvo (preddiplomski, program na engleskom)",
+          "nameEn": "Computing (Bachelor, in English)",
+          "faculty": "Fakultet elektrotehnike i računarstva (FER)",
+          "careerIds": [
+            "programista",
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2026/27 (nabór na 2027/28 jeszcze nieogłoszony)",
+          "tuition": {
+            "eu": null,
+            "nonEu": "5 574 EUR rocznie (92,90 EUR za 1 ECTS); opłata aplikacyjna 230 EUR dla studentów międzynarodowych.",
+            "sourceUrl": "https://www.fer.unizg.hr/en/studies/bachelor/admission",
+            "quote": "'The annual tuition fee for our bachelor study programmes is 5,574 EUR'",
+            "euNote": "FER podaje 5 574 EUR rocznie jako czesne na studiach licencjackich po angielsku na stronie dla studentów międzynarodowych; kwota dla obywateli UE osobno nie została wskazana, a obywatele UE aplikują przez Postani student (do potwierdzenia na stronie uczelni)."
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami: obywatele UE przechodzą uznanie świadectwa przez AZVO (chyba że świadectwo podlega automatycznemu uznaniu) i rankingowanie w Postani student; wyniki zagranicznego egzaminu końcowego są uznawane jako odpowiedniki matury państwowej",
+            "requirements": "Warunki szczegółowe FER (lista kwalifikacji SAT, ACT, IB, A-level, rozmowa online) dotyczą kandydatów spoza UE. Obywatele UE aplikują wyłącznie przez Postani student, na tej samej zasadzie co Chorwaci: ranking opiera się na średniej ocen i wynikach z matematyki (poziom wyższy) i fizyki, a polskie wyniki są traktowane jako odpowiedniki przedmiotów matury państwowej (natječaj). Limit 30 miejsc dla obywateli UE i 20 dla spoza UE na każdy z programów po angielsku.",
+            "languageProof": "IELTS Academic 5,5 (żadna część poniżej 5,0); TOEFL iBT 72; Cambridge B2 First (ocena A, B lub C). Strona FER podaje to w części dla kandydatów spoza UE.",
+            "selective": true,
+            "studyPlaces": "30 (UE), 20 (spoza UE)",
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf"
+          },
+          "deadline": "Rok 2026/27: dla kandydatów spoza UE 1 lipca 2026 (wcześniejszy termin 22 maja 2026 dla kończących szkołę za granicą przed 31 grudnia 2025). Dla obywateli UE zgłoszenie w NISpVU do 15 lipca 2026 godz. 13:59 (natječaj Uniwersytetu w Zagrzebiu).",
+          "applyUrl": "https://www.postani-student.hr/",
+          "sourceUrl": "https://www.fer.unizg.hr/en/enrolment?redirect=1",
+          "notes": "Tak samo jak EIT: program po angielsku, 180 ECTS. FER ma też magisterski program Computing, profil Data Science po angielsku (poziom magisterski, poza zakresem tego zbioru). Czesne magisterskie 5 970 EUR rocznie.",
+          "sources": [
+            {
+              "claim": "obywatele UE aplikują przez Postani student, informacje dla kandydatów spoza UE",
+              "url": "https://www.fer.unizg.hr/en/studies/bachelor/admission",
+              "quote": "applicants who have Croatian and EU citizenship apply through the National IT System ... and do not need to apply through this page; The information listed below is relevant only to NON-EU citizens"
+            },
+            {
+              "claim": "limity miejsc 30 UE i 20 spoza UE, termin do 15 lipca 2026",
+              "url": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+              "quote": "Electrical Engineering and Information Technology ... (30 upisnih mjesta za državljane država članica Europske unije, 20 upisnih mjesta za strane državljane)"
+            }
+          ]
+        },
+        {
+          "name": "Računarstvo (sveučilišni prijediplomski studij, po chorwacku)",
+          "nameEn": "Computing (BSc, in Croatian)",
+          "faculty": "Fakultet elektrotehnike i računarstva (FER)",
+          "careerIds": [
+            "programista",
+            "analityk-danych"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "chorwacki"
+          ],
+          "academicYear": "2026/27 (nabór na 2027/28 jeszcze nieogłoszony)",
+          "tuition": {
+            "eu": null,
+            "nonEu": null,
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+            "note": "Natječaj podaje dla programów po chorwacku 640 miejsc dla obywateli UE (wspólna pula z Elektrotechniką) i 20 dla cudzoziemców; czesne nie zostało podane, więc null. Opłata 5 574 EUR dotyczy programów po angielsku."
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami: uznanie świadectwa przez AZVO; obywatelom UE ze szkołą w UE zalicza się pierwszy język z egzaminu końcowego zamiast chorwackiego (FER nie wymaga B2); kandydaci po szkole poza Chorwacją, jeśli chcą punktów za przedmioty, muszą zdać fizykę i matematykę na poziomie wyższym",
+            "requirements": "Ranking 1 000 punktów: średnia ocen czterech klas do 80 punktów każda i średnia z obowiązkowych przedmiotów matury (chorwacki, matematyka, język obcy) do 80, łącznie do 400; matematyka (poziom wyższy) do 360; fizyka do 240. Wspólna pula 640 miejsc dla UE i 20 dla cudzoziemców na programy Elektrotechnika i Računarstvo. FER może nie uruchomić programu, jeśli zapisze się mniej niż 10 osób.",
+            "languageProof": "Zajęcia po chorwacku; w natječaju FER wymaga od kandydatów z UE zaliczenia pierwszego języka z egzaminu końcowego zamiast chorwackiego, bez osobnego certyfikatu.",
+            "selective": true,
+            "studyPlaces": "640 (UE, wspólna z Elektrotechniką), 20 (cudzoziemcy)",
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf"
+          },
+          "deadline": "Rok 2026/27: zgłoszenia w NISpVU do 15 lipca 2026 godz. 13:59; dokumenty kategorii szczególnych do 1 lipca 2026 (termin lipcowy) i 4 września 2026 (jesień). Terminy na 2027/28 nie były opublikowane.",
+          "applyUrl": "https://www.postani-student.hr/",
+          "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+          "notes": "To odpowiednik programu po angielsku Computing, ale po chorwacku i z szeroką pulą miejsc dla obywateli UE. Warunkiem jest dobra znajomość chorwackiego w praktyce, choć natječaj nie wymienia certyfikatu.",
+          "sources": [
+            {
+              "claim": "pule miejsc 640 UE i 20 cudzoziemcy, kryteria rankingu",
+              "url": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+              "quote": "'Elektrotehnika i informacijska tehnologija ... (640 upisnih mjesta za državljane država članica Europske unije, 20 upisnih mjesta za strane državljane ...'"
+            }
+          ]
+        },
+        {
+          "name": "Arhitektura i urbanizam (sveučilišni prijediplomski studij)",
+          "nameEn": "Architecture and Urbanism (BSc)",
+          "faculty": "Arhitektonski fakultet",
+          "careerIds": [
+            "architekt"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "chorwacki"
+          ],
+          "academicYear": "2026/27 (nabór na 2027/28 jeszcze nieogłoszony)",
+          "tuition": {
+            "eu": null,
+            "nonEu": "2 232 EUR za pierwszy rok jako uczestnictwo w kosztach dla obcokrajowców (dla obywateli Chorwacji tam, gdzie obowiązuje czesne, 1 116 EUR); wpisowe 50 EUR. Brak wyraźnej informacji, czy obywatele UE płacą kwotę obcokrajowców.",
+            "sourceUrl": "https://www.arhitekt.unizg.hr/hr/aktualnosti/u-p-u-t-e-za-upis-na-sveucilisni-prijediplomski-studij-arhitektura-i-urbanizam-u-i-semestar---ak-god-2026_2027,2842.html",
+            "quote": "'Participacija školarine za hrvatske državljane iznosi 1.116,00 eura. Participacija školarine za strane državljane iznosi 2.232,00 eura.'"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami: uznanie świadectwa przez AZVO; kandydaci z UE z zewnętrznym egzaminem końcowym mają zaliczony pierwszy język zamiast chorwackiego, ale muszą zdać B2 z chorwackiego w NCVVO; dodatkowy sprawdzian jest obowiązkowy dla wszystkich",
+            "requirements": "Ranking 1 000 punktów: średnia ocen do 150; matura: chorwacki (poziom wyższy) do 25, matematyka do 200, plastyka (dodatkowa) do 25; sprawdzian zdolności (rysunek i grafika, percepcja przestrzeni, wiedza ogólna) po 200 punktów, eliminacyjny: suma minimum 250 z trzech testów. Zgłoszenie na sprawdzian przez formularz wydziału i opłata 65 EUR.",
+            "languageProof": "Cudzoziemcy: egzamin z chorwackiego na poziomie B2 (informacje o egzaminie na stronie AZVO); kandydaci z UE: B2 w NCVVO (Arhitektonski jest na liście w natječaju).",
+            "selective": true,
+            "studyPlaces": null,
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf"
+          },
+          "deadline": "Rok 2026/27: zgłoszenie w NISpVU do 5 czerwca 2026; formularz wydziału i opłata 65 EUR od 18 maja do 5 czerwca 2026 godz. 23:59; sprawdzian 27 czerwca 2026; lista ostateczna 15 lipca 2026, zapisy 16 lipca 2026. Terminy na 2027/28 nie były opublikowane.",
+          "applyUrl": "https://www.postani-student.hr/",
+          "sourceUrl": "https://www.arhitekt.unizg.hr/hr/aktualnosti/prijava----dodatna-provjera-znanja-vjestina-i-sposobnosti-za-upis-na-sveucilisni-prijediplomski-studij-arhitekture-i-urbanizma-ak-god-2026_2027,2806.html",
+          "notes": "Angielska strona wydziału nazywa program 'BSc Architecture and Urbanism, 3 years, 180 ECTS', ale zajęcia są po chorwacku (ranking i egzamin B2 z chorwackiego). Wydział ma też program Dizajn (poza zakresem).",
+          "sources": [
+            {
+              "claim": "termin sprawdzianu, opłata 65 EUR, wymóg B2 dla cudzoziemców",
+              "url": "https://www.arhitekt.unizg.hr/hr/aktualnosti/prijava----dodatna-provjera-znanja-vjestina-i-sposobnosti-za-upis-na-sveucilisni-prijediplomski-studij-arhitekture-i-urbanizma-ak-god-2026_2027,2806.html",
+              "quote": "'Dodatna provjera znanja, vještina i sposobnosti održat će se ... u subotu, 27. lipnja 2026.'; 'Strani državljani moraju imati položen ispit iz hrvatskog jezika na B2 razini.'"
+            },
+            {
+              "claim": "kryteria rankingu i próg 250 punktów",
+              "url": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+              "quote": "'ELIMINATORNI UVJET ZA UPIS NA STUDIJ. Minimalan broj postignutih bodova na sva tri testa ... iznosi 250 (kumulativno).'"
+            },
+            {
+              "claim": "uczestnictwo w kosztach 2 232 EUR i wpisowe 50 EUR",
+              "url": "https://www.arhitekt.unizg.hr/hr/aktualnosti/u-p-u-t-e-za-upis-na-sveucilisni-prijediplomski-studij-arhitektura-i-urbanizam-u-i-semestar---ak-god-2026_2027,2842.html",
+              "quote": "'Dokaz o uplati upisnine u iznosu od 50,00 eura'; 'Participacija školarine za strane državljane iznosi 2.232,00 eura.'"
+            }
+          ]
+        },
+        {
+          "name": "Građevinarstvo (sveučilišni prijediplomski studij, redoviti)",
+          "nameEn": "Civil Engineering (BSc)",
+          "faculty": "Građevinski fakultet",
+          "careerIds": [
+            "inzynier-budownictwa"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "chorwacki"
+          ],
+          "academicYear": "2026/27 (nabór na 2027/28 jeszcze nieogłoszony)",
+          "tuition": {
+            "eu": null,
+            "nonEu": null,
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+            "note": "Natječaj podaje tylko koszt nieobjętej rekrutacji (400 EUR, gdy kandydat z prawem wpisu się nie zapisze); czesne dla obywateli UE i cudzoziemców nie zostało znalezione."
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami: uznanie świadectwa przez AZVO w Postani student; wszyscy kandydaci, także kończący szkołę za granicą, są obowiązani zdać egzaminy matury państwowej (natječaj), co obejmuje odpowiedniki zagranicznego egzaminu końcowego",
+            "requirements": "Ranking 1 000 punktów: średnia ocen do 350; matura: chorwacki do 50, matematyka (poziom wyższy) do 500, fizyka (nie jest warunkiem) do 100. Brak dodatkowego sprawdzianu. Pula miejsc 2026/27: 237 dla obywateli UE i 3 dla cudzoziemców (niewykorzystane przechodzą jesienią do puli UE).",
+            "languageProof": "Zajęcia po chorwacku; Građevinski fakultet nie występuje na liście wydziałów wymagających B2 z chorwackiego od kandydatów z UE w natječaju. Czy wydział wymaga dowodu chorwackiego od cudzoziemców, nie potwierdzono.",
+            "selective": true,
+            "studyPlaces": "237 (UE), 3 (cudzoziemcy)",
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf"
+          },
+          "deadline": "Rok 2026/27: zgłoszenia w NISpVU do 15 lipca 2026 godz. 13:59 (termin letni) i do 16 września 2026 jesienią, jeśli zostaną miejsca; zapisy według terminarza wydziału po liście tymczasowej. Terminy na 2027/28 nie były opublikowane.",
+          "applyUrl": "https://www.postani-student.hr/",
+          "sourceUrl": "https://www.grad.unizg.hr/en/Study_Programmes/Undergraduate_Programme",
+          "notes": "Angielska strona wydziału opisuje program licencjacki (3 lata) i efekty uczenia się, ale studia są prowadzone po chorwacku (natječaj ocenia chorwacki z matury). Brak oferty licencjackiej po angielsku.",
+          "sources": [
+            {
+              "claim": "pule miejsc 237 UE i 3 cudzoziemcy, kryteria",
+              "url": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+              "quote": "'upisna kvota za državljane EU: 237 - upisna kvota za strane državljane: 3'; 'Matematika (viša razina) do 500 bodova'"
+            },
+            {
+              "claim": "program, czas trwania",
+              "url": "https://www.grad.unizg.hr/en/Study_Programmes/Undergraduate_Programme",
+              "quote": "Undergraduate Programme, 3 years (strona wydziału)"
+            }
+          ]
+        },
+        {
+          "name": "Strojarstvo (preddiplomski sveučilišni studij, FSB)",
+          "nameEn": "Mechanical Engineering (Bachelor)",
+          "faculty": "Fakultet strojarstva i brodogradnje (FSB)",
+          "careerIds": [
+            "inzynier-mechanik"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "chorwacki"
+          ],
+          "academicYear": "2026/27 (nabór na 2027/28 jeszcze nieogłoszony)",
+          "tuition": {
+            "eu": null,
+            "nonEu": null,
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+            "note": "Natječaj nie podaje czesnego. Dla cudzoziemców jest osobna pula miejsc (studia po chorwacku), ale kwota nie została znaleziona."
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami: uznanie świadectwa przez AZVO w Postani student; kandydaci kończący szkołę za granicą są obowiązani zdać egzaminy matury państwowej (zgodnie z zapisem w natječaju), co obejmuje uznanie odpowiedników zagranicznego egzaminu końcowego",
+            "requirements": "Ranking 1 000 punktów: średnia ocen do 400; matematyka (poziom wyższy) do 400; fizyka lub chemia do 150 (nie jest warunkiem, ale daje punkty); osiągnięcia dodatkowe do 50 (olimpiady dają wstęp bezpośredni). Czterokierunkowe studia: strojarstvo, brodogradnja, zrakoplovno inženjerstvo, mehatronika i robotika. Nie wymaga się dodatkowego sprawdzianu.",
+            "languageProof": "Zajęcia po chorwacku; w natječaju brak osobnego certyfikatu z chorwackiego dla FSB (FSB nie występuje na liście wydziałów wymagających B2 od kandydatów z UE).",
+            "selective": true,
+            "studyPlaces": null,
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf"
+          },
+          "deadline": "Rok 2026/27: zgłoszenia w NISpVU do 15 lipca 2026 godz. 13:59, zapisy 16 do 17 lipca 2026, termin wrześniowy z zapisami 18 września 2026. Terminy na 2027/28 nie były opublikowane.",
+          "applyUrl": "https://www.postani-student.hr/",
+          "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+          "notes": "Dane z natječaju Uniwersytetu w Zagrzebiu na 2026/27 (3 lata, kierunek Strojarstvo). Strona FSB po angielsku podaje tylko ogólny opis. Wydział nie ma w natječaju oferty po angielsku na poziomie licencjatu.",
+          "sources": [
+            {
+              "claim": "kryteria rankingu, język, terminy",
+              "url": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+              "quote": "Strojarstvo, sveučilišni prijediplomski studij, trajanje 3 godine ... Matematika (viša razina) do 400 bodova ... studiji se izvode na hrvatskom jeziku"
+            }
+          ]
+        },
+        {
+          "name": "Psihologija (jednopredmetni), preddiplomski sveučilišni studij",
+          "nameEn": "Psychology (Bachelor)",
+          "faculty": "Filozofski fakultet, Odsjek za psihologiju",
+          "careerIds": [
+            "psycholog"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "chorwacki"
+          ],
+          "academicYear": "2026/27 (nabór na 2027/28 jeszcze nieogłoszony)",
+          "tuition": {
+            "eu": null,
+            "nonEu": null,
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+            "note": "Natječaj nie podaje czesnego ani dla obywateli UE, ani dla cudzoziemców na tym kierunku; kwota do potwierdzenia na stronie wydziału lub w Postani student."
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami: uznanie świadectwa przez AZVO w Postani student; wyniki zagranicznego zewnętrznego egzaminu końcowego są uznawane jako odpowiedniki przedmiotów matury państwowej; wydziału nie ma na liście wymagającej B2 z chorwackiego od kandydatów z UE, ale chorwacki (poziom wyższy) wchodzi do rankingu do 300 punktów, a dla kandydatów z UE zaliczany jest pierwszy język z ich egzaminu końcowego",
+            "requirements": "Ranking (natječaj 2026/27, maksimum 1 000 punktów): średnia ocen do 200; matura: chorwacki (poziom wyższy) do 300, matematyka (poziom wyższy) do 300, język obcy (poziom wyższy) do 120, jeden przedmiot do wyboru (psychologia, biologia, filozofia, fizyka, informatyka, chemia, logika lub socjologia) do 50, obowiązkowo zdany. Brak dodatkowego sprawdzianu. Maksymalny limit przyjęć 85 osób.",
+            "languageProof": "Zajęcia po chorwacku; osobny certyfikat z chorwackiego nie jest wymieniony w natječaju dla tego kierunku, a poziom chorwackiego wchodzi tylko przez ocenę z matury. Wymóg dla kandydatów z UE do potwierdzenia na stronie wydziału.",
+            "selective": true,
+            "studyPlaces": "do 85 (maksymalny kapitał przyjęć)",
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf"
+          },
+          "deadline": "Rok 2026/27: zgłoszenia w NISpVU do 15 lipca 2026 godz. 13:59 (termin lipcowy), listę ostateczną ogłoszono 15 lipca, zapisy 16 do 20 lipca 2026; termin wrześniowy do 16 września 2026 (jeśli zostaną miejsca). Terminy na 2027/28 nie były opublikowane.",
+          "applyUrl": "https://www.postani-student.hr/",
+          "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+          "notes": "Poprzednia wersja opierała się na wagach z 2023/24 ze strony katedry. Zastąpiono je kryteriami z natječaju na 2026/27. Wydział prowadzi studia po chorwacku (strona katedry: wszystkie zajęcia po chorwacku). W Zagrzebiu psychologię licencjacką prowadzi też Fakultet hrvatskih studija (osobny wpis).",
+          "sources": [
+            {
+              "claim": "kryteria rankingu i limit 85 miejsc",
+              "url": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+              "quote": "IV) Rang-lista ... za upis na studijski program 28. (Psihologija) ... maksimalni upisni kapacitet za ovaj studijski program ukupno 85 studenata"
+            },
+            {
+              "claim": "język zajęć",
+              "url": "https://psihologija.ffzg.unizg.hr/preddiplomski-studij/international-students/",
+              "quote": "'all the classes are held in Croatian'"
+            }
+          ]
+        },
+        {
+          "name": "Psihologija (jednopredmetni), sveučilišni prijediplomski studij",
+          "nameEn": "Psychology (single major, BA)",
+          "faculty": "Fakultet hrvatskih studija",
+          "careerIds": [
+            "psycholog"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "chorwacki"
+          ],
+          "academicYear": "2026/27 (nabór na 2027/28 jeszcze nieogłoszony)",
+          "tuition": {
+            "eu": null,
+            "nonEu": null,
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+            "note": "Natječaj podaje tylko opłatę 75 EUR za test psychologiczny; czesne nie zostało znalezione."
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami: uznanie świadectwa przez AZVO; wyniki zagranicznego egzaminu końcowego uznawane jako odpowiedniki matury; wymagany test psychologiczny dla wszystkich",
+            "requirements": "Ranking 1 000 punktów: średnia ocen do 200; matura do 600: chorwacki (poziom wyższy) do 250, matematyka do 150, język obcy (poziom wyższy) do 150, psychologia, biologia lub logika do 50; test psychologiczny do 150; osiągnięcia dodatkowe do 50. Progi: minimum 15 procent w teście psychologicznym oraz wynik z chorwackiego, matematyki i języka obcego w gronie 67 procent najlepszych maturzystów (33. percentyl).",
+            "languageProof": "Zajęcia po chorwacku; dla obywateli UE B2 z chorwackiego jest warunkiem wpisu na drugi rok studiów.",
+            "selective": true,
+            "studyPlaces": null,
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf"
+          },
+          "deadline": "Rok 2026/27: zgłoszenia w NISpVU do 19 czerwca 2026; opłata 75 EUR od 2 maja do 19 czerwca 2026; test psychologiczny 29 czerwca 2026 godz. 14:30 na kampusie Borongaj. Terminy na 2027/28 nie były opublikowane.",
+          "applyUrl": "https://www.postani-student.hr/",
+          "sourceUrl": "https://www.fhs.unizg.hr/studiji/upis_na_fhs/razredbeni_postupak",
+          "notes": "Druga ścieżka licencjatu z psychologii w Zagrzebiu obok Filozofskiego fakulteta. Program po chorwacku. Strona fhs.unizg.hr nie była czytana, dane pochodzą z natječaju uczelni.",
+          "sources": [
+            {
+              "claim": "kryteria, progi, test 29 czerwca 2026, opłata 75 EUR, B2 do drugiego roku",
+              "url": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+              "quote": "'Rang-lista ... za upis na studijski program 7. (Psihologija, jednopredmetni)'; 'Položena razina B2 hrvatskoga jezika za strance i nehrvatske državljane, koji su državljani EU, kao uvjet za upis u drugu godinu studija.'"
+            }
+          ]
+        },
+        {
+          "name": "Sveučilišni integrirani prijediplomski i diplomski studij Pravo",
+          "nameEn": "Integrated undergraduate and graduate university study of Law",
+          "faculty": "Pravni fakultet",
+          "careerIds": [
+            "prawnik"
+          ],
+          "level": "jednolite",
+          "durationYears": 5,
+          "languages": [
+            "chorwacki"
+          ],
+          "academicYear": "2026/27 (nabór na 2027/28 jeszcze nieogłoszony)",
+          "tuition": {
+            "eu": null,
+            "nonEu": null,
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+            "note": "Natječaj i strona wydziału nie podają czesnego dla obywateli UE ani cudzoziemców; kwota do potwierdzenia na stronie wydziału."
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami: uznanie świadectwa przez AZVO w Postani student; wyniki zagranicznego egzaminu końcowego są uznawane jako odpowiedniki przedmiotów matury; kandydaci z UE, którym zaliczono pierwszy język zamiast chorwackiego, muszą zdać egzamin B2 z chorwackiego w NCVVO",
+            "requirements": "Ranking (natječaj 2026/27): średnia ocen do 300 punktów (30 procent); matura: chorwacki (poziom wyższy) do 200, matematyka do 150, język obcy (poziom wyższy) do 200, przedmiot do wyboru (historia, filozofia, logika, socjologia lub polityka i gospodarka) do 100; osiągnięcia dodatkowe do 50. Do prawa wstępu trzeba zdać wszystkie egzaminy obowiązkowej części matury.",
+            "languageProof": "Egzamin z chorwackiego na poziomie B2 w NCVVO (dla kandydatów z UE, którym zaliczono pierwszy język zamiast chorwackiego na maturze).",
+            "selective": true,
+            "studyPlaces": null,
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf"
+          },
+          "deadline": "Rok 2026/27: zgłoszenia w NISpVU do 15 lipca 2026 godz. 13:59; termin wrześniowy do 16 września 2026 (jeśli zostaną miejsca). Terminy na 2027/28 nie były opublikowane.",
+          "applyUrl": "https://www.postani-student.hr/",
+          "sourceUrl": "https://www.pravo.unizg.hr/studiji/sveucilisni-integrirani-prijediplomski-i-diplomski-studij-pravo/",
+          "notes": "Studia po chorwacku, bez oficjalnej oferty po angielsku dla studentów pełnych (kursy po angielsku tylko dla studentów wymiany). Limit miejsc dla Pravo nie został znaleziony w pobranych dokumentach.",
+          "sources": [
+            {
+              "claim": "oferta po angielsku tylko dla wymiany",
+              "url": "https://www.pravo.unizg.hr/en/studies/university-integrated-undergraduate-and-graduate-study-of-law/",
+              "quote": "'These courses are for the Croatian students only, information for foreign students can be found' (Incoming Exchange Students)"
+            },
+            {
+              "claim": "kryteria rankingu i wymóg B2",
+              "url": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+              "quote": "Pravo, sveučilišni integrirani prijediplomski i diplomski studij, trajanje 5 godina ... Hrvatski jezik (viša razina) do 200 bodova (20%)"
+            }
+          ]
+        },
+        {
+          "name": "Poslovna ekonomija (Bachelor Degree in Business, BDiB)",
+          "nameEn": "Bachelor Degree in Business (BDiB)",
+          "faculty": "Ekonomski fakultet (EFZG, Faculty of Economics and Business)",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2026/27 (nabór na 2027/28 jeszcze nieogłoszony)",
+          "tuition": {
+            "eu": "5 000 EUR rocznie (osobna kwota dla obywateli UE nie jest wskazana, zapis dotyczy studentów pierwszego roku 2026/27) oraz opłata wpisowa 66,36 EUR (BDiB).",
+            "nonEu": "5 000 EUR rocznie (ta sama kwota, brak podziału).",
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+            "quote": "'Školarina za studente koji u ak. god. 2026./2027. prvi put upisuju ... Bachelor Degree in Business i Bachelor Degree in Economics plaćaju školarinu u iznosu od 5.000,00 eura'; strona programu BDiB: 'Tuition fee for one academic year is 5,000.00 Euros'"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami: kandydaci ze szkołą średnią za granicą przechodzą uznanie świadectwa (AZVO) i aplikują w Postani student na kierunek o nazwie angielskiej jako studia stacjonarne (redovni preddiplomski sveučilišni studij); wyniki zagranicznego egzaminu końcowego są uznawane jako odpowiedniki matury; B2 z chorwackiego nie jest wymagane na programach po angielsku",
+            "languageProof": "Zaświadczenie z angielskiego, minimum B2 (natječaj Uniwersytetu w Zagrzebiu).",
+            "selective": true,
+            "studyPlaces": null,
+            "requirements": "Ranking (natječaj 2026/27, wspólny dla programów EFZG): średnia ocen do 400 punktów; matura: chorwacki (poziom wyższy) do 100, matematyka do 100, język obcy do 100, polityka i gospodarka (niewymagana) do 200; dodatkowe osiągnięcia (drugi język obcy do 30, sport do 20, konkursy do 50). Przed zapisem trzeba wpłacić czesne i uzyskać numer OIB.",
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf"
+          },
+          "deadline": "Rok 2026/27: zgłoszenia w NISpVU do 15 lipca 2026 godz. 13:59 (strona programu podaje orientacyjnie około 10 lipca); zapisy około 20 lipca, termin jesienny około 20 września. Terminy na 2027/28 nie były opublikowane.",
+          "applyUrl": "https://www.postani-student.hr/",
+          "sourceUrl": "https://www.efzg.unizg.hr/study-programmes-and-enrolment/study-programmes-38329/english-taught-study-programmes/undergraduate-study-programmes/bachelor-degree-in-business-10661/10661",
+          "notes": "Program w całości po angielsku, 4 lata, 240 ECTS. Procedura zgłoszenia opisana przez wydział: kandydaci z zagranicy aplikują w Postani student, lista wyników zwykle po tygodniu od terminu, zapis osobiście na wydziale. Limit miejsc nie został znaleziony. Od kandydatów z UE spoza chorwackiego systemu wydział nie wymaga B2 z chorwackiego na tym programie (wymóg B2 dotyczy studiów po chorwacku).",
+          "sources": [
+            {
+              "claim": "czesne 5 000 EUR i procedura zgłoszenia",
+              "url": "https://www.efzg.unizg.hr/default.aspx?id=35544",
+              "quote": "'You need to pay the tuition fee before you register, which amounts to 5000,00 Euros'"
+            },
+            {
+              "claim": "kryteria rankingu, certyfikat B2",
+              "url": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+              "quote": "'Kandidati za upis na studijske programe 3. i 4. (studiji na engleskom jeziku) trebaju dostaviti i Potvrdu o poznavanju engleskog jezika - minimalna razina B2.'"
+            }
+          ]
+        },
+        {
+          "name": "Ekonomija (Bachelor Degree in Economics, BDiE)",
+          "nameEn": "Bachelor Degree in Economics (BDiE)",
+          "faculty": "Ekonomski fakultet (EFZG, Faculty of Economics and Business)",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2026/27 (nabór na 2027/28 jeszcze nieogłoszony)",
+          "tuition": {
+            "eu": "5 000 EUR rocznie (osobna kwota dla obywateli UE nie jest wskazana, zapis dotyczy studentów pierwszego roku 2026/27) oraz opłata wpisowa 66,36 EUR (BDiB).",
+            "nonEu": "5 000 EUR rocznie (ta sama kwota, brak podziału).",
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+            "quote": "'Školarina za studente koji u ak. god. 2026./2027. prvi put upisuju ... Bachelor Degree in Business i Bachelor Degree in Economics plaćaju školarinu u iznosu od 5.000,00 eura'; strona programu BDiB: 'Tuition fee for one academic year is 5,000.00 Euros'"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami: kandydaci ze szkołą średnią za granicą przechodzą uznanie świadectwa (AZVO) i aplikują w Postani student na kierunek o nazwie angielskiej jako studia stacjonarne (redovni preddiplomski sveučilišni studij); wyniki zagranicznego egzaminu końcowego są uznawane jako odpowiedniki matury; B2 z chorwackiego nie jest wymagane na programach po angielsku",
+            "languageProof": "Zaświadczenie z angielskiego, minimum B2 (natječaj Uniwersytetu w Zagrzebiu).",
+            "selective": true,
+            "studyPlaces": null,
+            "requirements": "Ranking (natječaj 2026/27, wspólny dla programów EFZG): średnia ocen do 400 punktów; matura: chorwacki (poziom wyższy) do 100, matematyka do 100, język obcy do 100, polityka i gospodarka (niewymagana) do 200; dodatkowe osiągnięcia (drugi język obcy do 30, sport do 20, konkursy do 50). Przed zapisem trzeba wpłacić czesne i uzyskać numer OIB.",
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf"
+          },
+          "deadline": "Rok 2026/27: zgłoszenia w NISpVU do 15 lipca 2026 godz. 13:59 (strona programu podaje orientacyjnie około 10 lipca); zapisy około 20 lipca, termin jesienny około 20 września. Terminy na 2027/28 nie były opublikowane.",
+          "applyUrl": "https://www.postani-student.hr/",
+          "sourceUrl": "https://www.efzg.unizg.hr/study-programmes-and-enrolment/study-programmes-38329/english-taught-study-programmes/undergraduate-study-programmes/bachelor-degree-in-economics/35520",
+          "notes": "Program w całości po angielsku, 4 lata, 240 ECTS. Procedura zgłoszenia opisana przez wydział: kandydaci z zagranicy aplikują w Postani student, lista wyników zwykle po tygodniu od terminu, zapis osobiście na wydziale. Limit miejsc nie został znaleziony. Od kandydatów z UE spoza chorwackiego systemu wydział nie wymaga B2 z chorwackiego na tym programie (wymóg B2 dotyczy studiów po chorwacku).",
+          "sources": [
+            {
+              "claim": "czesne 5 000 EUR i procedura zgłoszenia",
+              "url": "https://www.efzg.unizg.hr/default.aspx?id=35544",
+              "quote": "'You need to pay the tuition fee before you register, which amounts to 5000,00 Euros'"
+            },
+            {
+              "claim": "kryteria rankingu, certyfikat B2",
+              "url": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+              "quote": "'Kandidati za upis na studijske programe 3. i 4. (studiji na engleskom jeziku) trebaju dostaviti i Potvrdu o poznavanju engleskog jezika - minimalna razina B2.'"
+            }
+          ]
+        },
+        {
+          "name": "Novinarstvo (sveučilišni prijediplomski studij)",
+          "nameEn": "Journalism (BA)",
+          "faculty": "Fakultet političkih znanosti",
+          "careerIds": [
+            "dziennikarz"
+          ],
+          "level": "licencjat",
+          "durationYears": 3,
+          "languages": [
+            "chorwacki"
+          ],
+          "academicYear": "2026/27 (nabór na 2027/28 jeszcze nieogłoszony)",
+          "tuition": {
+            "eu": null,
+            "nonEu": null,
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+            "note": "Czesne dla obywateli UE i cudzoziemców nie zostało znalezione w natječaju."
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami: uznanie świadectwa przez AZVO w Postani student; wyniki zagranicznego egzaminu końcowego uznawane jako odpowiedniki matury; kandydatom z UE zalicza się pierwszy język zamiast chorwackiego",
+            "requirements": "Ranking 1 000 punktów: średnia ocen do 400; matura: chorwacki (poziom wyższy) do 200, matematyka do 50, język obcy (poziom wyższy) do 150, historia albo polityka i gospodarka do 150 (zdany co najmniej jeden z nich jest warunkiem); osiągnięcia dodatkowe (opublikowane prace dziennikarskie) do 50. Brak sprawdzianu zdolności.",
+            "languageProof": "Zajęcia po chorwacku. Fakultet političkih znanosti nie występuje na liście wydziałów wymagających B2 z chorwackiego od kandydatów z UE w natječaju; ewentualne inne wymogi do potwierdzenia na stronie wydziału.",
+            "selective": true,
+            "studyPlaces": null,
+            "sourceUrl": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf"
+          },
+          "deadline": "Rok 2026/27: zgłoszenia w NISpVU do 15 lipca 2026 godz. 13:59; dowody prac dziennikarskich od 8 do 19 czerwca 2026 (termin lipcowy) i od 24 do 31 sierpnia 2026 (termin wrześniowy, do 16 września w NISpVU). Terminy na 2027/28 nie były opublikowane.",
+          "applyUrl": "https://www.postani-student.hr/",
+          "sourceUrl": "https://www.fpzg.unizg.hr/en",
+          "notes": "Fakultet političkih znanosti prowadzi też Politologiju (4 lata). Strona angielska wydziału (fpzg.unizg.hr/en) została pobrana, ale nie zawiera warunków przyjęcia ani języka dla pełnych studiów licencjackich, dlatego dane pochodzą z natječaju uczelni.",
+          "sources": [
+            {
+              "claim": "kryteria rankingu, program 3 lata",
+              "url": "https://www.unizg.hr/fileadmin/rektorat/Studiji_studiranje/Upisi/Natjecaji_kvote/upisi/2026_2027/Natjec__aj_prijediplomski__integrirani_i_strucni_prijediplomski_studiji_2026_2027_Final.pdf",
+              "quote": "'Novinarstvo, sveučilišni prijediplomski studij, trajanje 3 godine' ... 'Hrvatski jezik (viša razina) do 200 bodova'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zagrebačka škola ekonomije i managementa (ZŠEM)",
+      "url": "https://zsem.hr",
+      "type": "ekonomiczna (prywatna)",
+      "programs": [
+        {
+          "name": "Ekonomija i management (prijediplomski studij, po chorwacku i angielsku)",
+          "nameEn": "Economics and Management (Bachelor, Croatian and English)",
+          "faculty": "Zagrebačka škola ekonomije i managementa (ZŠEM), uczelnia prywatna",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "chorwacki",
+            "angielski"
+          ],
+          "academicYear": "2026/27 (nabór na 2027/28 jeszcze nieogłoszony)",
+          "tuition": {
+            "eu": "6 500 do 8 000 EUR rocznie po chorwacku (6 500 EUR przy wpłacie do 8 maja 2026, 7 800 EUR po 24 lipca 2026 przy płatności jednorazowej; raty 6 700 do 8 000 EUR); po angielsku 7 500 do 9 000 EUR (7 500 EUR do 8 maja 2026, 8 800 EUR po 24 lipca 2026 przy płatności jednorazowej; raty 7 800 do 9 000 EUR)",
+            "nonEu": "8 000 do 9 200 EUR rocznie zależnie od terminu (8 000 EUR do 8 maja 2026, 9 200 EUR po 24 lipca 2026)",
+            "sourceUrl": "https://zsem.hr/wp-content/uploads/2021/02/EiM.docx.pdf",
+            "quote": "Tabele cen ZŠEM na rok akademicki 2026/27 (zależne od terminu zapisu: im wcześniej, tym taniej)"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami: wymagane świadectwa szkoły średniej, świadectwo maturalne i decyzja o uznaniu zagranicznej kwalifikacji; ostateczny zapis po ukończeniu szkoły i zdaniu matury, z dokumentami do 1 września; przyjęcie opiera się wyłącznie na egzaminie wstępnym",
+            "requirements": "Egzamin z matematyki, egzamin z angielskiego (lub certyfikat) i rozmowa z kandydatem. Studia 240 ECTS, tytuł bacc. oec.",
+            "languageProof": "Egzamin z angielskiego na uczelni albo międzynarodowy certyfikat z angielskiego.",
+            "selective": true,
+            "studyPlaces": null,
+            "sourceUrl": "https://zsem.hr/upisi/prijediplomski-studij/prijemni-ispit/"
+          },
+          "deadline": null,
+          "applyUrl": "https://zsem.hr/upisi/prijediplomski-studij/prijemni-ispit/",
+          "sourceUrl": "https://zsem.hr/programi/prijediplomski-studij/ekonomija-i-management/",
+          "notes": "Uczelnia prywatna, przyjęcie odbywa się na podstawie własnego egzaminu wstępnego, bez krajowego rankingu NISpVU. Opłata za egzamin wstępny 20 EUR (program po chorwacku) lub 25 EUR (po angielsku). Termin składania wniosków na 2027/28 nie został podany; ceny zależą od terminu zapisu (od 8 maja do po 24 lipca 2026).",
+          "sources": [
+            {
+              "claim": "egzamin wstępny, dokumenty, opłata egzaminu",
+              "url": "https://zsem.hr/upisi/prijediplomski-studij/dokumentacija/",
+              "quote": "'Potvrda o plaćanju troškova prijemnog ispita u iznosu od 20,00 EUR za studij na hrvatskom jeziku i 25,00 EUR za studij na engleskom jeziku'"
+            }
+          ]
+        },
+        {
+          "name": "Poslovna matematika i ekonomija (prijediplomski studij, po angielsku)",
+          "nameEn": "Business Mathematics and Economics (Bachelor, in English)",
+          "faculty": "Zagrebačka škola ekonomije i managementa (ZŠEM), uczelnia prywatna",
+          "careerIds": [
+            "ekonomista"
+          ],
+          "level": "licencjat",
+          "durationYears": 4,
+          "languages": [
+            "angielski"
+          ],
+          "academicYear": "2026/27 (nabór na 2027/28 jeszcze nieogłoszony)",
+          "tuition": {
+            "eu": "7 500 do 9 000 EUR rocznie (7 500 EUR przy wpłacie do 8 maja 2026, 8 800 EUR po 24 lipca 2026 przy płatności jednorazowej; raty 7 800 do 9 000 EUR)",
+            "nonEu": "8 000 do 9 200 EUR rocznie zależnie od terminu (8 000 EUR do 8 maja 2026, 9 200 EUR po 24 lipca 2026)",
+            "sourceUrl": "https://zsem.hr/wp-content/uploads/2021/02/PME.docx.pdf",
+            "quote": "Tabele cen ZŠEM na rok akademicki 2026/27 (zależne od terminu zapisu: im wcześniej, tym taniej)"
+          },
+          "admission": {
+            "polishMatura": "uznawana z warunkami: wymagane świadectwa szkoły średniej, świadectwo maturalne i decyzja o uznaniu zagranicznej kwalifikacji; ostateczny zapis po ukończeniu szkoły i zdaniu matury, z dokumentami do 1 września; przyjęcie opiera się wyłącznie na egzaminie wstępnym",
+            "requirements": "Egzamin z matematyki, egzamin z angielskiego (lub certyfikat), egzamin z wiedzy ogólnej i rozmowa z kandydatem.",
+            "languageProof": "Egzamin z angielskiego na uczelni albo międzynarodowy certyfikat z angielskiego.",
+            "selective": true,
+            "studyPlaces": null,
+            "sourceUrl": "https://zsem.hr/upisi/prijediplomski-studij/prijemni-ispit/"
+          },
+          "deadline": null,
+          "applyUrl": "https://zsem.hr/upisi/prijediplomski-studij/prijemni-ispit/",
+          "sourceUrl": "https://zsem.hr/programi/prijediplomski-studij/poslovna-matematika-i-ekonomija/",
+          "notes": "Uczelnia prywatna, przyjęcie odbywa się na podstawie własnego egzaminu wstępnego, bez krajowego rankingu NISpVU. Opłata za egzamin wstępny 20 EUR (program po chorwacku) lub 25 EUR (po angielsku). Termin składania wniosków na 2027/28 nie został podany; ceny zależą od terminu zapisu (od 8 maja do po 24 lipca 2026).",
+          "sources": [
+            {
+              "claim": "egzamin wstępny, dokumenty, opłata egzaminu",
+              "url": "https://zsem.hr/upisi/prijediplomski-studij/dokumentacija/",
+              "quote": "'Potvrda o plaćanju troškova prijemnog ispita u iznosu od 20,00 EUR za studij na hrvatskom jeziku i 25,00 EUR za studij na engleskom jeziku'"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "luki": [
+    "Czesne dla obywateli UE na programach po chorwacku (psychologia, prawo, FSB, Građevinski, Arhitektonski, FER po chorwacku, dziennikarstwo): natječaj Uniwersytetu w Zagrzebiu wyznacza dla nich osobne pule miejsc (np. FER 640, Građevinski 237), ale kwoty ani zasad dotacji nie podaje wprost. Zasady subwencji wskazuje odwołanie do rozporządzenia o finansowaniu programowym (NN 78/2023, art. 5 ust. 3), którego tekstu nie udało się odczytać. Arhitektonski podaje 2 232 EUR dla cudzoziemców bez rozstrzygnięcia, czy dotyczy to obywateli UE.",
+    "Czesne FER 5 574 EUR rocznie dla obywateli UE na programach po angielsku: strona FER podaje jedną kwotę na stronie dla studentów międzynarodowych i kieruje obywateli UE do Postani student bez osobnej kwoty.",
+    "Postani student: publiczna lista programów, kwot miejsc i warunków jest budowana formularzami ASP.NET wymagającymi interakcji, więc nie została odczytana. Zamiast niej użyto natječaju Uniwersytetu w Zagrzebiu na 2026/27 (z 30 kwietnia 2026) i stron wydziałów.",
+    "Rok 2027/28: natječaj i terminy nie były opublikowane w dniu pobrania, wszystkie terminy dotyczą 2026/27.",
+    "Odpowiednik poziomu rozszerzonego polskiej matury dla wymogów 'viša razina' (matematyka, język obcy, chorwacki) nie jest opisany w źródłach. Nie ustalono też, jak liczone są polskie wyniki procentowe w rankingu.",
+    "Limity miejsc nie zostały znalezione dla: prawa, psychologii (poza limitem 85 na Filozofskim), Arhitektonskiego, FSB, EFZG, Novinarstwa i Fakultetu hrvatskih studija. Potwierdzono pule dla FER (640 UE i 20 cudzoziemców po chorwacku; 30 i 20 po angielsku) i Građevinskiego (237 i 3).",
+    "Wymóg dowodu chorwackiego: dla Arhitektonskiego, Pravnego i Medicinskiego natječaj wymaga B2 z NCVVO od kandydatów z UE. Dla FSB, Građevinskiego, FER, Filozofskiego (psychologia) i Fakultetu političkih znanosti natječaj nie wymienia certyfikatu, ale nie potwierdzono, czy wydział nie żąda go w inny sposób.",
+    "Fakultet političkih znanosti: strona angielska nie zawiera warunków przyjęcia ani czesnego; Politologia i inne kierunki poza zakresem. Strona wydziału hrvatskih studija (fhs.unizg.hr) nie była czytana, dane z natječaju.",
+    "Programy po angielsku poza Ekonomskim fakultetem, FER i medycyną: nie znaleziono ofert licencjackich po angielsku na Arhitektonskim, Građevinskim, FSB, prawie ani psychologii. FSB ma tylko ogólny opis na stronie angielskiej.",
+    "ZŠEM: termin składania wniosków na 2027/28 niepodany; ceny dotyczą roku 2026/27 i zależą od terminu zapisu. Program Poslovna matematika i ekonomija nie pokrywa się ściśle z zawodem ekonomisty.",
+    "Algebra Bernays University i inne uczelnie stolicy nie zostały zebrane. Instrukcja NCVVO dla kandydatów z zagranicy pochodzi z 2021 roku i wymaga ponownego sprawdzenia na ncvvo.hr.",
+    "Wydział Medyczny podaje czesne identyczne dla wszystkich; terminy egzaminów 2026 minęły, terminy na 2027/28 nie były jeszcze opublikowane. Program medycyny po chorwacku nie został dodany."
+  ]
+}

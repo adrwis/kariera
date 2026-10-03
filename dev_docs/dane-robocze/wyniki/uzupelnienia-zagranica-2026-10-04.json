@@ -1,0 +1,92 @@
+[
+ {
+  "slug": "bukareszt",
+  "university": "Universitatea din București",
+  "programName": "Psihologie - Științe cognitive (în limba engleză)",
+  "field": "durationYears",
+  "value": 3,
+  "sourceUrl": "https://unibuc.ro/studii/licenta/",
+  "quote": "Tabela ofert UniBuc, wiersz programu: Psihologie - Științe cognitive (în limba engleză), forma IF (cu frecvență), numărul de credite de studii transferabile: 180 (180 ECTS = 3 lata)"
+ },
+ {
+  "slug": "bukareszt",
+  "university": "Universitatea din București",
+  "programName": "Psihologie",
+  "field": "durationYears",
+  "value": 3,
+  "sourceUrl": "https://unibuc.ro/studii/licenta/",
+  "quote": "Tabela ofert UniBuc, wiersz programu: Psihologie, forma IF (cu frecvență), numărul de credite de studii transferabile: 180 (180 ECTS = 3 lata)"
+ },
+ {
+  "slug": "bukareszt",
+  "university": "Academia de Studii Economice din București (ASE)",
+  "programName": "Drept",
+  "field": "durationYears",
+  "value": 4,
+  "sourceUrl": "https://unibuc.ro/studii/licenta/",
+  "quote": "Tabela ofert UniBuc, wiersz programu: Drept, forma IF (cu frecvență), numărul de credite de studii transferabile: 240 (240 ECTS = 4 lata)"
+ },
+ {
+  "slug": "bukareszt",
+  "university": "Universitatea din București",
+  "programName": "Jurnalism",
+  "field": "durationYears",
+  "value": 3,
+  "sourceUrl": "https://unibuc.ro/studii/licenta/",
+  "quote": "Tabela ofert UniBuc, wiersz programu: Jurnalism, forma IF (cu frecvență), numărul de credite de studii transferabile: 180 (180 ECTS = 3 lata)"
+ },
+ {
+  "slug": "bukareszt",
+  "university": "Universitatea din București",
+  "programName": "Administrarea afacerilor (în limba Engleză)",
+  "field": "durationYears",
+  "value": 3,
+  "sourceUrl": "https://unibuc.ro/studii/licenta/",
+  "quote": "Tabela ofert UniBuc, wiersz programu: Administrarea afacerilor (în limba engleză - Business administration), forma IF (cu frecvență), numărul de credite de studii transferabile: 180 (180 ECTS = 3 lata)"
+ },
+ {
+  "slug": "bukareszt",
+  "university": "Academia de Studii Economice din București (ASE)",
+  "programName": "Drept",
+  "field": "durationYears",
+  "value": 4,
+  "sourceUrl": "https://ase.ro/admitere/licenta/",
+  "quote": "Facultatea de Drept (licență), Programe de studii universitare de licență: „Drept (durata studiilor de 4 ani)”"
+ },
+ {
+  "slug": "praga",
+  "university": "České vysoké učení technické v Praze",
+  "programName": "Strojní inženýrství (FS ČVUT, česky i angielski)",
+  "field": "durationYears",
+  "value": 3,
+  "sourceUrl": "https://www.fs.cvut.cz/en/prospective-students/application-process/conditions-for-admission/",
+  "quote": "The standard period of studies in bachelor programs is 6 semesters (3 years). Successful graduates will be awarded Bachelor of Science (B.Sc.) degree."
+ },
+ {
+  "slug": "praga",
+  "university": "Vysoká škola ekonomická v Praze",
+  "programName": "Bachelor of Economics (VŠE, NF)",
+  "field": "deadline",
+  "value": "Ostatni opublikowany termin dotyczy naboru na 2026/27: do 28 lutego 2026 i do 30 kwietnia 2026. Nabór na 2027/28 rusza 1 listopada 2026, terminy zakończenia nie są jeszcze opublikowane.",
+  "sourceUrl": "https://econ.vse.cz/homepage/admission/admission-procedure-2/how-to-apply/",
+  "quote": "Application deadlines are February 28, 2026, and April 30, 2026. (admissions.vse.cz/admission-procedure/: The application process's starting date for the Academic year 2027/28 is 1st November 2026)"
+ },
+ {
+  "slug": "sztokholm",
+  "university": "Stockholms universitet",
+  "programName": "Juristprogrammet",
+  "field": "deadline",
+  "value": "15 kwietnia 2027 (druga runda naboru, w której są wszystkie programy po szwedzku; nabór na jesień 2027 otwiera się 15 marca 2027)",
+  "sourceUrl": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+  "quote": "Second admissions round: All courses and programmes taught in Swedish are available in this round. Key dates: 15 March 2027 Application round opens; 15 April Application deadline + last day to rank your courses"
+ },
+ {
+  "slug": "sztokholm",
+  "university": "Karolinska Institutet",
+  "programName": "Psykologprogrammet (KI)",
+  "field": "deadline",
+  "value": "15 kwietnia 2027 (druga runda naboru, w której są wszystkie programy po szwedzku; nabór na jesień 2027 otwiera się 15 marca 2027)",
+  "sourceUrl": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+  "quote": "Second admissions round: All courses and programmes taught in Swedish are available in this round. Key dates: 15 March 2027 Application round opens; 15 April Application deadline + last day to rank your courses"
+ }
+]
