@@ -1,0 +1,215 @@
+{
+  "slug": "hamburg",
+  "name": "Hamburg",
+  "country": "Niemcy",
+  "currency": "EUR",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Studierendenwerk Hamburg prowadzi 25 akademików na ok. 4 400 mieszkańców, a czynsz z mediami, internetem i telewizją kablową zaczyna się od ok. 310 EUR. Pokoje w akademikach kosztują od 310 do 475 EUR, a pokój we wspólnym mieszkaniu i mieszkanie jednopokojowe w HafenCity od 482,34 do 504,35 EUR miesięcznie. Studierendenwerk nie podaje dokładnego czasu oczekiwania, a dla jednopokojowych mieszkań jest on zwykle bardzo długi."
+    },
+    {
+      "label": "Wynajem",
+      "text": "Universität Hamburg podaje dla mieszkania ok. 400 do 700 EUR miesięcznie z opłatami (bez rozbicia na typy). Innych oficjalnych kwot dla pokoju we wspólnym mieszkaniu, kawalerki czy mieszkania dwupokojowego nie znaleziono."
+    },
+    {
+      "label": "Budżet miesięczny",
+      "text": "Universität Hamburg podaje, że poza opłatą semestralną trzeba liczyć ok. 400 do 700 EUR na mieszkanie i ok. 500 do 700 EUR na pozostałe wydatki, czyli łącznie ok. 900 do 1 400 EUR miesięcznie. Ubezpieczenie zdrowotne studenta w państwowej kasie to dodatkowo ok. 145 EUR miesięcznie."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "Universität Hamburg radzi składać wniosek o pokój w Studierendenwerk co najmniej 3 miesiące przed terminem wprowadzenia się i równolegle szukać na rynku prywatnym, bo wolne pokoje w akademikach znikają szybko. Warto rozważyć dzielnice poza centrum, ponieważ St. Pauli, Sternschanze, Eimsbüttel, Altona i Ottensen są bardzo obleganymi dzielnicami. Przed zameldowaniem trzeba mieć potwierdzenie od wynajmującego (Wohnungsgeberbestätigung)."
+    },
+    {
+      "label": "Uwagi",
+      "text": "Żaden z wierszy wynajmu nie pochodzi ze źródła nieoficjalnego. Tabela wynajmu ma tylko jeden wiersz, bo uczelnie nie podają innych kwot. Dla HAW Hamburg, TUHH, HafenCity Universität i Bucerius Law School nie znaleziono własnych cenników zakwaterowania."
+    }
+  ],
+  "budget": {
+    "from": 900,
+    "to": 1400,
+    "currency": "EUR",
+    "period": "miesiąc",
+    "text": "Orientacyjne miesięczne wydatki według Universität Hamburg, poza opłatą semestralną: mieszkanie ok. 400 do 700 EUR i pozostałe koszty życia (jedzenie, ubrania, rozrywka) ok. 500 do 700 EUR. Przedział łączny jest sumą tych dwóch oficjalnych zakresów. Bez dodatkowych ubezpieczeń i samochodu; ubezpieczenie zdrowotne ok. 145 EUR miesięcznie liczone osobno.",
+    "sourceUrl": "https://www.uni-hamburg.de/en/studium/campus-leben/finanzen.html",
+    "quote": "housing: ca. EUR 400–700 per month living expenses: ca. EUR 500–700 Euro per month",
+    "official": true
+  },
+  "dorms": [
+    {
+      "currency": "EUR",
+      "period": "miesiąc",
+      "deposit": "Kaucja zależy od czynszu i wynosi 500 EUR (400 EUR przy czynszu do 300 EUR, 500 EUR do 400 EUR, 600 EUR do 450 EUR, 700 EUR do 600 EUR, od 601 EUR 800 EUR).",
+      "waitlist": "Dokładnego czasu oczekiwania nie podano.",
+      "notes": "Pokoje stałych najemców w wieżowcu 370 EUR. Wspólna kuchnia i łazienki. Jedna z najtańszych pozycji w ofercie.",
+      "name": "Gustav-Radbruch-Haus (wieżowiec, pokoje)",
+      "operator": "Studierendenwerk Hamburg",
+      "url": "https://www.stwhh.de/en/accommodation-for-students-and-trainees/student-residences/hall-of-residence/gustav-radbruch-haus",
+      "roomType": "jednoosobowy",
+      "priceFrom": 310,
+      "priceTo": 400,
+      "includes": "Zryczałtowane opłaty (ogrzewanie, woda, prąd), internet i telewizja kablowa.",
+      "eligibility": "Studenci niemieccy i zagraniczni zapisani na uczelnię w Hamburgu, a także uczestnicy państwowego Studienkolleg i Hamburg Conservatory. Praktykanci i studenci Bundeswehrhochschule nie mogą mieszkać w akademikach. Studenci wymiany składają wniosek przez biuro międzynarodowe uczelni, nie bezpośrednio.",
+      "applicationInfo": "Wniosek składa się online, najwcześniej 3 miesiące przed planowanym terminem wprowadzenia się lub początkiem studiów. Można wybrać do 3 konkretnych akademików albo wszystkie, a wybór wszystkich skraca czekanie. Studierendenwerk regularnie wysyła e-mail z prośbą o potwierdzenie zainteresowania i usuwa z listy osoby, które nie odpowiedzą w terminie. Stały termin składania wniosków nie jest podany.",
+      "applyUrl": "https://www.stwhh.de/en/housing-for-students-and-trainees/online-application",
+      "sourceUrl": "https://www.stwhh.de/en/accommodation-for-students-and-trainees/student-residences/hall-of-residence/gustav-radbruch-haus",
+      "quote": "The monthly rent is between € 310 and € 400 incl."
+    },
+    {
+      "currency": "EUR",
+      "period": "miesiąc",
+      "deposit": "Kaucja zależy od czynszu i wynosi 500 EUR do 700 EUR (400 EUR przy czynszu do 300 EUR, 500 EUR do 400 EUR, 600 EUR do 450 EUR, 700 EUR do 600 EUR, od 601 EUR 800 EUR).",
+      "waitlist": "Dłuższa lista kandydatów; czasu oczekiwania nie podano.",
+      "notes": "41 umeblowanych pokoi, 5 do 10 osób na korytarzu dzieli łazienki i kuchnię. Uniwersytet Hamburg jest 1 minutę pieszo (stacja Dammtor).",
+      "name": "Grindelallee 76 (pokój)",
+      "operator": "Studierendenwerk Hamburg",
+      "url": "https://www.stwhh.de/en/accommodation-for-students-and-trainees/student-residences/hall-of-residence/grindelallee",
+      "roomType": "jednoosobowy",
+      "priceFrom": 361,
+      "priceTo": 475,
+      "includes": "Zryczałtowane opłaty (ogrzewanie, woda, prąd), internet i telewizja kablowa.",
+      "eligibility": "Studenci niemieccy i zagraniczni zapisani na uczelnię w Hamburgu, a także uczestnicy państwowego Studienkolleg i Hamburg Conservatory. Praktykanci i studenci Bundeswehrhochschule nie mogą mieszkać w akademikach. Studenci wymiany składają wniosek przez biuro międzynarodowe uczelni, nie bezpośrednio.",
+      "applicationInfo": "Wniosek składa się online, najwcześniej 3 miesiące przed planowanym terminem wprowadzenia się lub początkiem studiów. Można wybrać do 3 konkretnych akademików albo wszystkie, a wybór wszystkich skraca czekanie. Studierendenwerk regularnie wysyła e-mail z prośbą o potwierdzenie zainteresowania i usuwa z listy osoby, które nie odpowiedzą w terminie. Stały termin składania wniosków nie jest podany.",
+      "applyUrl": "https://www.stwhh.de/en/housing-for-students-and-trainees/online-application",
+      "sourceUrl": "https://www.stwhh.de/en/accommodation-for-students-and-trainees/student-residences/hall-of-residence/grindelallee",
+      "quote": "The monthly rent is between € 361 and € 475 including flat-rate utilities such as heating, water, electricity, etc., as well as the cost of Internet access and cable TV connection."
+    },
+    {
+      "currency": "EUR",
+      "period": "miesiąc",
+      "deposit": "Kaucja zależy od czynszu i wynosi 500 EUR do 700 EUR (400 EUR przy czynszu do 300 EUR, 500 EUR do 400 EUR, 600 EUR do 450 EUR, 700 EUR do 600 EUR, od 601 EUR 800 EUR).",
+      "waitlist": "Dokładnego czasu oczekiwania nie podano.",
+      "notes": "Blisko kampusu HAW Hamburg przy Berliner Tor, 12 minut pieszo od dworca głównego.",
+      "name": "Berliner Tor (pokój)",
+      "operator": "Studierendenwerk Hamburg",
+      "url": "https://www.stwhh.de/en/accommodation-for-students-and-trainees/student-residences/hall-of-residence/berliner-tor",
+      "roomType": "jednoosobowy",
+      "priceFrom": 380,
+      "priceTo": 460,
+      "includes": "Zryczałtowane opłaty (ogrzewanie, woda, prąd), internet i telewizja kablowa.",
+      "eligibility": "Studenci niemieccy i zagraniczni zapisani na uczelnię w Hamburgu, a także uczestnicy państwowego Studienkolleg i Hamburg Conservatory. Praktykanci i studenci Bundeswehrhochschule nie mogą mieszkać w akademikach. Studenci wymiany składają wniosek przez biuro międzynarodowe uczelni, nie bezpośrednio.",
+      "applicationInfo": "Wniosek składa się online, najwcześniej 3 miesiące przed planowanym terminem wprowadzenia się lub początkiem studiów. Można wybrać do 3 konkretnych akademików albo wszystkie, a wybór wszystkich skraca czekanie. Studierendenwerk regularnie wysyła e-mail z prośbą o potwierdzenie zainteresowania i usuwa z listy osoby, które nie odpowiedzą w terminie. Stały termin składania wniosków nie jest podany.",
+      "applyUrl": "https://www.stwhh.de/en/housing-for-students-and-trainees/online-application",
+      "sourceUrl": "https://www.stwhh.de/en/accommodation-for-students-and-trainees/student-residences/hall-of-residence/berliner-tor",
+      "quote": "The monthly rent is between € 380 and € 460 including flat-rate ancillary costs such as heating, water, electricity etc. as well as the costs for internet access and cable TV connection"
+    },
+    {
+      "currency": "EUR",
+      "period": "miesiąc",
+      "deposit": "Kaucja zależy od czynszu i wynosi 600 EUR (400 EUR przy czynszu do 300 EUR, 500 EUR do 400 EUR, 600 EUR do 450 EUR, 700 EUR do 600 EUR, od 601 EUR 800 EUR).",
+      "waitlist": "Dokładnego czasu oczekiwania nie podano.",
+      "notes": "Czynsz jest jednakowy dla pokoju i mieszkania jednoosobowego (Normal room/single apartment).",
+      "name": "Hammerbrook (pokój lub mieszkanie jednoosobowe)",
+      "operator": "Studierendenwerk Hamburg",
+      "url": "https://www.stwhh.de/en/accommodation-for-students-and-trainees/student-residences/hall-of-residence/hammerbrook",
+      "roomType": "jednoosobowy lub mieszkanie jednoosobowe",
+      "priceFrom": 450,
+      "priceTo": 450,
+      "includes": "Zryczałtowane opłaty (ogrzewanie, woda, prąd), internet i telewizja kablowa.",
+      "eligibility": "Studenci niemieccy i zagraniczni zapisani na uczelnię w Hamburgu, a także uczestnicy państwowego Studienkolleg i Hamburg Conservatory. Praktykanci i studenci Bundeswehrhochschule nie mogą mieszkać w akademikach. Studenci wymiany składają wniosek przez biuro międzynarodowe uczelni, nie bezpośrednio.",
+      "applicationInfo": "Wniosek składa się online, najwcześniej 3 miesiące przed planowanym terminem wprowadzenia się lub początkiem studiów. Można wybrać do 3 konkretnych akademików albo wszystkie, a wybór wszystkich skraca czekanie. Studierendenwerk regularnie wysyła e-mail z prośbą o potwierdzenie zainteresowania i usuwa z listy osoby, które nie odpowiedzą w terminie. Stały termin składania wniosków nie jest podany.",
+      "applyUrl": "https://www.stwhh.de/en/housing-for-students-and-trainees/online-application",
+      "sourceUrl": "https://www.stwhh.de/en/accommodation-for-students-and-trainees/student-residences/hall-of-residence/hammerbrook",
+      "quote": "The monthly rent is € 450 including flat-rate utilities such as heating, water, electricity, etc., as well as the cost of Internet access and cable TV connection."
+    },
+    {
+      "currency": "EUR",
+      "period": "miesiąc",
+      "deposit": "Kaucja zależy od czynszu i wynosi 700 EUR (400 EUR przy czynszu do 300 EUR, 500 EUR do 400 EUR, 600 EUR do 450 EUR, 700 EUR do 600 EUR, od 601 EUR 800 EUR).",
+      "waitlist": "Dokładnego czasu oczekiwania nie podano; Studierendenwerk zaznacza, że dla mieszkań jednopokojowych jest zwykle bardzo długi.",
+      "notes": "Pokój we wspólnym mieszkaniu 482,34 do 487,34 EUR, mieszkanie jednopokojowe 504,35 EUR.",
+      "name": "HafenCity (pokój we wspólnym mieszkaniu i mieszkanie jednopokojowe)",
+      "operator": "Studierendenwerk Hamburg",
+      "url": "https://www.stwhh.de/en/accommodation-for-students-and-trainees/student-residences/hall-of-residence/hafencity",
+      "roomType": "jednoosobowy we wspólnym mieszkaniu i mieszkanie jednopokojowe",
+      "priceFrom": 482.34,
+      "priceTo": 504.35,
+      "includes": "Zryczałtowana opłata obejmuje wodę, prąd, ogrzewanie, internet i regularne sprzątanie części wspólnych.",
+      "eligibility": "Studenci niemieccy i zagraniczni zapisani na uczelnię w Hamburgu, a także uczestnicy państwowego Studienkolleg i Hamburg Conservatory. Praktykanci i studenci Bundeswehrhochschule nie mogą mieszkać w akademikach. Studenci wymiany składają wniosek przez biuro międzynarodowe uczelni, nie bezpośrednio.",
+      "applicationInfo": "Wniosek składa się online, najwcześniej 3 miesiące przed planowanym terminem wprowadzenia się lub początkiem studiów. Można wybrać do 3 konkretnych akademików albo wszystkie, a wybór wszystkich skraca czekanie. Studierendenwerk regularnie wysyła e-mail z prośbą o potwierdzenie zainteresowania i usuwa z listy osoby, które nie odpowiedzą w terminie. Stały termin składania wniosków nie jest podany.",
+      "applyUrl": "https://www.stwhh.de/en/housing-for-students-and-trainees/online-application",
+      "sourceUrl": "https://www.stwhh.de/en/accommodation-for-students-and-trainees/student-residences/hall-of-residence/hafencity",
+      "quote": "Single room in a shared flat: €482.34 to €487.34, one-bedroom flat: €504.35."
+    }
+  ],
+  "rent": [
+    {
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "official": true,
+      "notes": "Kwota dotyczy mieszkania z opłatami (rent plus utilities); strona nie podaje roku ani typu lokalu.",
+      "type": "pokój lub mieszkanie (bez rozbicia na typy)",
+      "area": "Hamburg",
+      "priceFrom": 400,
+      "priceTo": 700,
+      "includesUtilities": "tak",
+      "source": "Universität Hamburg, Finances (Further costs)",
+      "sourceUrl": "https://www.uni-hamburg.de/en/studium/campus-leben/finanzen.html",
+      "quote": "housing: ca. EUR 400–700 per month"
+    }
+  ],
+  "gaps": [
+    "Nie znaleziono oficjalnych kwot wynajmu osobno dla pokoju we wspólnym mieszkaniu, kawalerki, mieszkania jednopokojowego i dwupokojowego w Hamburgu, dlatego w tabeli wynajmu jest tylko jeden zakres z Universität Hamburg bez rozbicia na typy i bez roku danych.",
+    "Nie znaleziono raportu rynkowego dużego portalu najmu dostępnego publicznie, więc w danych nie ma żadnego wiersza nieoficjalnego.",
+    "Studierendenwerk Hamburg nie podaje czasu oczekiwania na pokój, a tylko ogólnie, że dla mieszkań jednopokojowych jest on zwykle bardzo długi.",
+    "Strony HAW Hamburg, TUHH, HafenCity Universität i Bucerius Law School nie podają własnych kwot zakwaterowania. HAW ma stronę o opłacie semestralnej 397 EUR, a TUHH odsyła do Studierendenwerk Hamburg. Strony HafenCity Universität i Bucerius Law School nie zostały sprawdzone pod kątem zakwaterowania.",
+    "Łączny budżet 900 do 1 400 EUR jest sumą dwóch oficjalnych zakresów z Universität Hamburg. Strona nie podaje jednej łącznej kwoty.",
+    "Szczegóły niektórych pozostałych akademików (np. Allermöhe, Harburger Häuser) nie zostały sprawdzone, więc w tabeli jest pięć wybranych pozycji."
+  ],
+  "sources": [
+    {
+      "url": "https://www.stwhh.de/en/accommodation-for-students-and-trainees",
+      "note": "Przegląd oferty, wniosek, kaucja według czynszu"
+    },
+    {
+      "url": "https://www.stwhh.de/en/accommodation-for-students-and-trainees/application-information",
+      "note": "Zasady składania wniosków, kto może mieszkać, standardowy czas pobytu"
+    },
+    {
+      "url": "https://www.stwhh.de/en/accommodation-for-students-and-trainees/application-information/application-information-for-international-students",
+      "note": "Studenci wymiany składają wniosek przez uczelnię"
+    },
+    {
+      "url": "https://www.stwhh.de/en/accommodation-for-students-and-trainees/student-residences",
+      "note": "Lista akademików"
+    },
+    {
+      "url": "https://www.stwhh.de/en/accommodation-for-students-and-trainees/student-residences/hall-of-residence/gustav-radbruch-haus",
+      "note": "Czynsz 310 do 400 EUR"
+    },
+    {
+      "url": "https://www.stwhh.de/en/accommodation-for-students-and-trainees/student-residences/hall-of-residence/grindelallee",
+      "note": "Czynsz 361 do 475 EUR"
+    },
+    {
+      "url": "https://www.stwhh.de/en/accommodation-for-students-and-trainees/student-residences/hall-of-residence/berliner-tor",
+      "note": "Czynsz 380 do 460 EUR"
+    },
+    {
+      "url": "https://www.stwhh.de/en/accommodation-for-students-and-trainees/student-residences/hall-of-residence/hammerbrook",
+      "note": "Czynsz 450 EUR"
+    },
+    {
+      "url": "https://www.stwhh.de/en/accommodation-for-students-and-trainees/student-residences/hall-of-residence/hafencity",
+      "note": "Czynsz 482,34 do 504,35 EUR"
+    },
+    {
+      "url": "https://www.uni-hamburg.de/en/studium/campus-leben/wohnen.html",
+      "note": "Wskazówki szukania, 25 akademików, popularne dzielnice"
+    },
+    {
+      "url": "https://www.uni-hamburg.de/en/studium/campus-leben/finanzen.html",
+      "note": "Koszty mieszkania i życia, ubezpieczenie"
+    },
+    {
+      "url": "https://www.haw-hamburg.de/en/study/tuition-fees-living-expenses-and-scholarships/",
+      "note": "HAW: opłata semestralna 397 EUR (bez cen zakwaterowania)"
+    },
+    {
+      "url": "https://www.tuhh.de/tuhh/en/international/campus-international/info-guide",
+      "note": "TUHH odsyła do Studierendenwerk Hamburg"
+    }
+  ]
+}

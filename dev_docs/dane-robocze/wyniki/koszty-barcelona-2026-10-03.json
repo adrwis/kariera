@@ -1,0 +1,191 @@
+{
+  "slug": "barcelona",
+  "name": "Barcelona",
+  "country": "Hiszpania",
+  "currency": "EUR",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Zebrano dwie pozycje: Vila Universitària przy kampusie UAB w Bellaterra (od 281 € do 596,92 € za osobę miesięcznie w pokojach, a mieszkania studio do 1 013 €) oraz rezydencję RESA Torre Girona przy kampusie UPC (studia od 654 € do 1 123 €). UPC nie ma własnych pokoi i odsyła do usługi BCU Housing oraz do rezydencji RESA. Strony Universitat de Barcelona i Universitat Pompeu Fabra były zablokowane."
+    },
+    {
+      "label": "Wynajem",
+      "text": "Oficjalny rejestr kaucji Incasòl (Generalitat de Catalunya) podaje średni czynsz 1 137 € miesięcznie w Barcelonie w I kwartale 2026 roku, bez podziału na typy mieszkań. Dane nieoficjalne: raport pisos.com z 2026 roku wskazuje średnio 647 € za pokój w stolicy, a raport z sierpnia 2026 podaje 30,21 € za metr kwadratowy miesięcznie."
+    },
+    {
+      "label": "Budżet miesięczny",
+      "text": "Nie znaleziono oficjalnej łącznej kwoty miesięcznego budżetu studenta w Barcelonie, dlatego pole budżetu jest puste."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "Barcelona Centre Universitari (BCU), program działający od 1997 roku, prowadzi usługę BCU Housing i radzi nie płacić większych kwot bez umowy, faktury lub pokwitowania. Radzi też nie ufać ogłoszeniom z bardzo niską ceną i szukać także w gminach wokół miasta, gdzie mieszkania bywają tańsze. UPC ostrzega przed pośrednikami, którzy żądają zapłaty z góry za samą listę mieszkań."
+    },
+    {
+      "label": "Uwagi",
+      "text": "W Barcelonie umowy najmu zgłasza się do rejestru kaucji Incasòl, a statystyka obejmuje wszystkie zarejestrowane umowy, więc jest rzetelna, ale nie rozróżnia pokoi, kawalerek i dużych mieszkań."
+    }
+  ],
+  "budget": {
+    "from": null,
+    "to": null,
+    "currency": "EUR",
+    "period": "miesiąc",
+    "text": "Nie udało się potwierdzić oficjalnej miesięcznej kwoty budżetu studenta w Barcelonie na stronach uczelni, miasta ani rządu.",
+    "sourceUrl": null,
+    "quote": null,
+    "official": true
+  },
+  "dorms": [
+    {
+      "name": "Vila Universitària UAB (Bellaterra)",
+      "operator": "Vila Universitària, Universitat Autònoma de Barcelona",
+      "url": "https://vilauniversitaria.uab.cat/",
+      "roomType": "pokój jednoosobowy lub dwuosobowy w mieszkaniu współdzielonym, studio",
+      "priceFrom": 281,
+      "priceTo": 1013,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Cena za osobę i miesiąc w mieszkaniu współdzielonym. Wersja bez mediów (pobyt 10 miesięcy): np. 388 € za pokój jednoosobowy w mieszkaniu 5-osobowym. Wersja z mediami (pobyt krótszy niż 10 miesięcy): np. 531,94 € w mieszkaniu 5-osobowym i 596,92 € w mieszkaniu 3-osobowym. Pościel i naczynia można wynająć osobno.",
+      "deposit": "Przy rezerwacji płaci się pierwszą kaucję. Strona nie podaje kwoty na sprawdzonych podstronach. Jeśli student nie będzie studiował na UAB, kaucja wraca automatycznie.",
+      "eligibility": "Mieszkania są dla osób studiujących na UAB (studia licencjackie, magisterskie, doktoranckie, Erasmus). Ze strony głównej: dla Erasmusa i doktorantów miejsc brak, można zapisać się na listę oczekujących.",
+      "applicationInfo": "Dla studentów studiów I stopnia wnioski przyjmuje się od 1 do 24 lipca, a 1 sierpnia przychodzi potwierdzenie albo informacja o liście oczekujących (strona nie podaje roku). Ceny obowiązują od 1 września 2026.",
+      "applyUrl": "https://vilauniversitaria.uab.cat/Reserva",
+      "waitlist": "Jest lista oczekująca, otwierana w sierpniu. Uczelnia nie gwarantuje miejsca, ale pisze, że szanse są wysokie, i dzwoni, gdy miejsce się zwolni.",
+      "sourceUrl": "https://vilauniversitaria.uab.cat/tria-el-teu-pis/habitacio-individual/",
+      "quote": "Individual en pis de 5 388 €/mes Preu per persona i mes (consums no inclosos - estades 10 mesos) [...] Individual en pis de 3 450 €/mes Preu per persona i mes (consums no inclosos - estades de 10 mesos) RESERVA 596,92 €/mes Preu per persona i mes (consums inclosos - estades inferiors a 10 mesos)",
+      "notes": "Pokoje dwuosobowe (za osobę): od 281 € (bez mediów) do 533,94 € (z mediami), źródło: https://vilauniversitaria.uab.cat/tria-el-teu-pis/habitacio-compartida/. Studio (strona https://vilauniversitaria.uab.cat/tria-el-teu-pis/estudi-superior/): 523 € za osobę przy dzieleniu oraz 1 013 € za całe studio, z mediami, przy pobycie powyżej 4 miesięcy. Na stronie jest uwaga: „No queden places per als estudiants d’Erasmus i els doctorands.”"
+    },
+    {
+      "name": "RESA Torre Girona (Barcelona, Pedralbes)",
+      "operator": "RESA",
+      "url": "https://resa.es/en/residences/barcelona/torre-girona/",
+      "roomType": "studio dwuosobowe, studio jednoosobowe, studio jednoosobowe z kuchnią",
+      "priceFrom": 654,
+      "priceTo": 1123,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Wi-Fi, całodobowa opieka, parking rowerowy, sprzątanie pokoju co dwa tygodnie, konserwacja, klimatyzacja, wspólne kuchnie, sala do nauki, siłownia. Dodatkowo płatne: zużycie wody i prądu, pranie samoobsługowe, cotygodniowe sprzątanie i zmiana pościeli, posiłki (wg strony).",
+      "deposit": null,
+      "eligibility": "Rezydencja przyjmuje studentów różnych uczelni (UPC, UB, IESE, ESADE), w roku 25/26 56 procent mieszkańców to studenci zagraniczni. Strona nie opisuje osobno obywateli UE.",
+      "applicationInfo": "Rezerwacja online: wybiera się rezydencję i okres, a RESA sprawdza każdy wniosek i informuje o przyjęciu. Termin naboru nie jest podany.",
+      "applyUrl": "https://resa.es/en/booking/long-stay/",
+      "waitlist": null,
+      "sourceUrl": "https://resa.es/en/residences/barcelona/torre-girona/",
+      "quote": "Superior double studio From 654,00 €/month [...] Individual studio From 738,00 €/month [...] Superior Single Studio with Kitchen From 1.123,00 €/month",
+      "notes": "Ceny na stronie to kwoty „od” za miesiąc, strona nie podaje roku cennika. Zużycie wody i prądu wymieniono wśród usług dodatkowych. UPC wymienia też inne rezydencje (RESA Pere Felip Monlau, Lesseps, Barcelona Diagonal, XIOR Diagonal-Besòs), ale nie sprawdzono ich cen."
+    }
+  ],
+  "rent": [
+    {
+      "type": "mieszkanie (średnia ze wszystkich zarejestrowanych umów)",
+      "area": "Barcelona (miasto)",
+      "priceFrom": 1137,
+      "priceTo": 1137,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": true,
+      "source": "Incasòl (Generalitat de Catalunya), „Preu mitjà del lloguer d’habitatges per municipi”",
+      "sourceUrl": "https://analisi.transparenciacatalunya.cat/Habitatge/Preu-mitjà-del-lloguer-d-habitatges-per-municipi/qww9-bvhh",
+      "quote": "\"nom_territori\":\"Barcelona\",\"any\":\"2026\",\"periode\":\"gener-març\",\"habitatges\":\"8156\",\"renda\":\"1137.35376410005\"",
+      "notes": "Średni czynsz z 8 156 umów zarejestrowanych w I kwartale 2026. Za cały rok 2025 średnia wyniosła 1 135 € (1134,61). Statystyka obejmuje wszystkie typy mieszkań, nie podaje podziału na pokoje, kawalerki i duże mieszkania ani tego, czy czynsz zawiera media."
+    },
+    {
+      "type": "mieszkanie (średnia ze wszystkich zarejestrowanych umów)",
+      "area": "comarca Barcelonès (m.in. Barcelona, L’Hospitalet, Badalona)",
+      "priceFrom": 1086,
+      "priceTo": 1086,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": true,
+      "source": "Incasòl (Generalitat de Catalunya), „Preu mitjà del lloguer d’habitatges per àmbits supramunicipals”",
+      "sourceUrl": "https://analisi.transparenciacatalunya.cat/Habitatge/Preu-mitjà-del-lloguer-d-habitatges-per-àmbits-sup/hepw-33ik",
+      "quote": "\"nom_territori\":\"Barcelonès\",\"any\":\"2026\",\"periode\":\"gener-març\",\"habitatges\":\"9960\",\"renda\":\"1086.41181\"",
+      "notes": "Średnia z 9 960 umów w I kwartale 2026. Cena z całego regionu wokół stolicy jest niższa niż w samej Barcelonie, co potwierdza radę BCU, by szukać także w okolicznych gminach."
+    },
+    {
+      "type": "pokój w mieszkaniu współdzielonym",
+      "area": "Barcelona (stolica prowincji)",
+      "priceFrom": 647,
+      "priceTo": 647,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "dane nieoficjalne: raport „Piso compartido 2026” portalu pisos.com",
+      "sourceUrl": "https://fotos.imghs.net/media/pisosblog/2026/09/informe-piso-compartido-2026.pdf",
+      "quote": "Barcelona (647 €/mes), Madrid (636,10 €/mes), Girona (490,31 €/mes) y Valencia (458,88 €/mes)",
+      "notes": "Średnia z ogłoszeń portalu, nie z umów. Dane nieoficjalne (raport wrześniowy 2026 portalu pisos.com, strona raportu: https://www.pisos.com/aldia/informes/compartidos/septiembre-2026/1665852/)."
+    }
+  ],
+  "gaps": [
+    "Nie znaleziono oficjalnej łącznej kwoty miesięcznego budżetu studenta w Barcelonie. Strony Universitat de Barcelona i Universitat Pompeu Fabra pokazywały ekran weryfikacji, którego nie obchodzono, więc ich informacji o zakwaterowaniu i kosztach nie sprawdzono.",
+    "Oficjalna statystyka Incasòl podaje tylko średni czynsz wszystkich mieszkań, bez podziału na pokoje, kawalerki i mieszkania 1- lub 2-pokojowe. Oficjalnych cen kawalerek w Barcelonie nie znaleziono.",
+    "Universitat Politècnica de Catalunya (UPC) nie ma własnych pokoi, a strona o zakwaterowaniu odsyła do rezydencji RESA i XIOR. Strona XIOR zwróciła błąd 403, więc nie sprawdzono jej cen.",
+    "Vila Universitària UAB nie podaje na sprawdzonych podstronach kwoty kaucji ani roku, którego dotyczą daty naboru (1 do 24 lipca). Strona informuje, że miejsc dla Erasmusa i doktorantów już nie ma.",
+    "RESA Torre Girona podaje ceny „od” bez roku, kaucji i terminu naboru. Zakres od 654 € do 1 123 € to najniższe ceny trzech typów studiów, a nie pełna lista cen."
+  ],
+  "sources": [
+    {
+      "url": "https://vilauniversitaria.uab.cat/",
+      "note": "UAB, Vila Universitària, strona główna i informacja o liście oczekujących"
+    },
+    {
+      "url": "https://vilauniversitaria.uab.cat/tria-el-teu-pis/habitacio-individual/",
+      "note": "UAB, ceny pokoi jednoosobowych"
+    },
+    {
+      "url": "https://vilauniversitaria.uab.cat/tria-el-teu-pis/habitacio-compartida/",
+      "note": "UAB, ceny pokoi dwuosobowych"
+    },
+    {
+      "url": "https://vilauniversitaria.uab.cat/tria-el-teu-pis/estudi-superior/",
+      "note": "UAB, ceny studiów"
+    },
+    {
+      "url": "https://vilauniversitaria.uab.cat/tria-el-teu-pis/que-vens-a-fer-a-la-uab/grau-i-cfgs/",
+      "note": "UAB, terminy naboru i kaucja dla studentów I stopnia"
+    },
+    {
+      "url": "https://resa.es/en/residences/barcelona/torre-girona/",
+      "note": "RESA, ceny i usługi rezydencji Torre Girona"
+    },
+    {
+      "url": "https://www.upc.edu/en/university-life-and-services/accommodation",
+      "note": "UPC, lista rezydencji i zakwaterowania"
+    },
+    {
+      "url": "https://www.upc.edu/sri/en/mobility_office/students-mobility-office/incomings/prepare-your-trip/accommodation",
+      "note": "UPC, informacja, że uczelnia nie ma własnych pokoi, i ostrzeżenie przed pośrednikami"
+    },
+    {
+      "url": "https://bcu.cat/en/accommodation/",
+      "note": "BCU Housing, usługa zakwaterowania"
+    },
+    {
+      "url": "https://bcu.cat/wp-content/uploads/2025/10/Fulleto_Residencies_EN_V2_B2.pdf",
+      "note": "BCU, ulotka z wskazówkami szukania mieszkania"
+    },
+    {
+      "url": "https://analisi.transparenciacatalunya.cat/Habitatge/Preu-mitjà-del-lloguer-d-habitatges-per-municipi/qww9-bvhh",
+      "note": "Incasòl, średni czynsz w gminach"
+    },
+    {
+      "url": "https://analisi.transparenciacatalunya.cat/Habitatge/Preu-mitjà-del-lloguer-d-habitatges-per-àmbits-sup/hepw-33ik",
+      "note": "Incasòl, średni czynsz w comarkach"
+    },
+    {
+      "url": "https://fotos.imghs.net/media/pisosblog/2026/09/informe-piso-compartido-2026.pdf",
+      "note": "dane nieoficjalne: raport o pokojach we współdzielonych mieszkaniach, pisos.com 2026"
+    },
+    {
+      "url": "https://fotos.imghs.net/media/pisosblog/2026/09/informe-alquiler-agosto-2026.pdf",
+      "note": "dane nieoficjalne: raport o czynszach, pisos.com, sierpień 2026 (cena za metr kwadratowy)"
+    }
+  ]
+}

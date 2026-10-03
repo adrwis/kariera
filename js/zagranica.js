@@ -388,7 +388,7 @@ const Zagranica = (function () {
       <div class="results szkoly zagr">
         <a href="${ctx.BASE}/" class="results__back">&larr; Strona główna</a>
         <h1 class="results__title">Koszty życia i akademiki</h1>
-        <p class="results__query">Akademiki, przykładowe ceny wynajmu i miesięczny budżet studenta w miastach z zakładki Studia za granicą oraz w dużych miastach akademickich w Polsce. Ceny przeliczamy po średnim kursie NBP.</p>
+        <p class="results__query">Akademiki, przykładowe ceny wynajmu i miesięczny budżet studenta w miastach z zakładki Studia za granicą. Polskie miasta akademickie dodajemy w kolejnym kroku. Ceny przeliczamy po średnim kursie NBP.</p>
         ${tabs('koszty')}
         <div id="kosztyBody"><p class="szkoly__loading">Wczytuję miasta…</p></div>
       </div>`;

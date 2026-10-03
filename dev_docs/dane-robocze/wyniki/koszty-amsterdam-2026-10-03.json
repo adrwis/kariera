@@ -1,0 +1,244 @@
+{
+  "slug": "amsterdam",
+  "name": "Amsterdam",
+  "country": "Holandia",
+  "currency": "EUR",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Holenderskie uczelnie nie mają własnych akademików, bo zabrania tego prawo. UvA i Hogeschool van Amsterdam (HvA) rezerwują pokoje u partnerów (DUWO, De Key, Student Experience, The Social Hub) i przydzielają je w loterii, a Vrije Universiteit (VU) według kolejności wpłat. Czynsz w tych pokojach wynosi od 370 do 1 300 euro miesięcznie. Pokój dostaje tylko część chętnych: około 50 do 60 procent wnioskodawców w loterii UvA i HvA. Zakwaterowanie przysługuje wyłącznie pierwszoroczniakom z zagranicy, zwykle na jeden rok."
+    },
+    {
+      "label": "Wynajem",
+      "text": "Na rynku prywatnym uczelnie podają, że pokój w Amsterdamie zaczyna się od 750 do 900 euro miesięcznie, a HvA szacuje czynsz studenta na 600 do 1 200 euro. Oficjalnych cen mieszkań 1-pokojowych i 2-pokojowych nie udało się potwierdzić."
+    },
+    {
+      "label": "Budżet miesięczny",
+      "text": "HvA podaje, że od 1 200 do 1 800 euro miesięcznie wystarcza na podstawowe koszty życia w Amsterdamie, bez wydatków na rozrywkę. Ogólnokrajowa średnia z portalu Study in NL to 1 000 do 1 500 euro."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "Zacznij szukać jak najwcześniej i nie polegaj na jednej platformie ani na wyniku loterii. UvA wymienia Kamernet, Pararius i Huurwoningen oraz doradza rozszerzenie poszukiwań na Diemen, Haarlem, Zaandam, Amstelveen czy Almere. Nie przelewaj pieniędzy przed obejrzeniem pokoju i żądaj umowy, bo bez niej nie zameldujesz się w urzędzie miasta. Bezpłatną pomoc prawną daje !Woon, a gorącą linię dla najemców prowadzi związek studentów LSVb."
+    },
+    {
+      "label": "Uwagi",
+      "text": "Dane dotyczą trzech uczelni miasta: UvA, VU i HvA. Nabór na semestr wiosenny 2027 w UvA trwa od 2 do 9 listopada 2026, a na rok akademicki 2027/28 w HvA zaproszenia przyjdą pod koniec maja 2027."
+    }
+  ],
+  "budget": {
+    "from": 1200,
+    "to": 1800,
+    "currency": "EUR",
+    "period": "miesiąc",
+    "text": "Szacunek Hogeschool van Amsterdam dla studenta zagranicznego. Obejmuje czynsz, jedzenie, ubezpieczenie, transport, książki i inne drobne wydatki, ale nie rozrywkę. Rozbicie: czynsz 600 do 1 200 euro, jedzenie 350 do 400, ubezpieczenie 50 do 70, transport miejski 70 do 100, książki 50 do 70, inne 100 do 150 euro.",
+    "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/financial-matters/cost-of-living",
+    "quote": "Between €1,200 and €1,800 per month is usually enough to cover basic costs.",
+    "official": true
+  },
+  "dorms": [
+    {
+      "name": "UvA Student Housing (loteria dla pierwszoroczniaków z zagranicy)",
+      "operator": "Universiteit van Amsterdam z partnerami DUWO, De Key i Student Experience",
+      "url": "https://student.uva.nl/en/information/step-4-uva-student-housing-limited-availability",
+      "roomType": "pokoje i studia w ponad 20 budynkach poza kampusem (typ zależy od przydziału)",
+      "priceFrom": 370,
+      "priceTo": 1150,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Czynsz zawiera gaz, prąd, wodę i internet.",
+      "deposit": "Kaucja i wpłata początkowa na rzecz operatora są wymagane, ale strona UvA nie podaje kwot. Osobno płaci się niezwracalną opłatę UvA: 245 euro za semestr lub 485 euro za dwa semestry.",
+      "eligibility": "Pierwszy rok studiów na UvA (licencjat, magister, premagister lub wymiana), program po angielsku, całe wcześniejsze wykształcenie poza Holandią, brak wcześniejszego zamieszkania w Holandii i (warunkowe) przyjęcie na studia. Obywatelstwo nie jest w kryteriach wymienione, więc studenci z UE mogą się ubiegać.",
+      "applicationInfo": "Semestr wiosenny 2027: zaproszenie do loterii od 2 listopada 2026, wnioski do poniedziałku 9 listopada 2026 do 23:59 CET. Semestr jesienny 2026: nabór zamknięty 8 czerwca 2026. Terminu na jesień 2027 strona nie podaje.",
+      "waitlist": "Pokoje przydziela loteria bez kolejki. Pokój dostaje około 50 do 60 procent wnioskodawców, a wynik może być negatywny.",
+      "sourceUrl": "https://student.uva.nl/en/information/step-4-uva-student-housing-limited-availability",
+      "quote": "Rent for student housing varies between €370 and €1150 per month.",
+      "notes": "Pokój przydzielany jest losowo w ramach wybranej kategorii budżetu. Nie można wybrać lokalizacji, operatora ani typu pokoju. Maksymalny okres najmu to dwa semestry.",
+      "applyUrl": null
+    },
+    {
+      "name": "AUAS Housing (loteria Hogeschool van Amsterdam)",
+      "operator": "Hogeschool van Amsterdam z operatorami partnerskimi (m.in. The Social Hub w wyższej cenie)",
+      "url": "https://www.amsterdamuas.com/study/international-admissions/housing",
+      "roomType": "pokój dzielony, pokój jednoosobowy ze wspólną kuchnią i łazienką, pokój lub studio z własną łazienką i kuchnią",
+      "priceFrom": 370,
+      "priceTo": 1150,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Czynsz zawiera prąd, gaz, wodę i internet. Pokoje mają podstawowe umeblowanie.",
+      "deposit": "Przy rezerwacji u operatora trzeba zapłacić około trzymiesięcznego czynszu, opłatę administracyjną od 150 do 250 euro i kaucję (zwrotną). Dodatkowo HvA pobiera niezwracalną opłatę 245 euro za semestr lub 485 euro za rok.",
+      "eligibility": "Zagraniczni studenci pierwszego roku stacjonarnych programów licencjackich i magisterskich po angielsku, z wcześniejszym wykształceniem spoza Holandii, którzy nigdy nie mieszkali w Holandii. Pierwszeństwo mają studenci wymiany i spoza UE.",
+      "applicationInfo": "Nabór na rok 2026/27 jest zamknięty (termin minął 8 czerwca 2026). Na rok 2027/28 zaproszenia wyślą pod koniec maja 2027, dokładne daty mają być ogłoszone.",
+      "applyUrl": "https://www.amsterdamuas.com/study/international-admissions/housing/apply-for-housing-bachelor-master",
+      "waitlist": "Loteria. Pozytywny wynik dostaje około 50 do 60 procent studentów międzynarodowych na pełnych programach.",
+      "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/housing/costs-of-auas-student-housing",
+      "quote": "AUAS student housing rent varies between €370 to €1150 per month.",
+      "notes": "Kategorie budżetu: 370 do 620, 620 do 865 oraz 865 do 1 150 euro miesięcznie. Pokoje w The Social Hub kosztują więcej niż kategoria 3."
+    },
+    {
+      "name": "Mieszkania VU Amsterdam dla studentów zagranicznych",
+      "operator": "Vrije Universiteit Amsterdam z operatorami (DUWO, De Key, Student Experience, The Social Hub, StuNest i inni)",
+      "url": "https://vu.nl/en/education/more-about/looking-for-accommodation-in-amsterdam",
+      "roomType": "głównie umeblowane pokoje jednoosobowe z własnymi lub wspólnymi udogodnieniami, ograniczona liczba pokoi dla par",
+      "priceFrom": 560,
+      "priceTo": 1300,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Koszty usług (woda, prąd, internet) są wliczone w czynsz.",
+      "deposit": "Operator może pobrać opłatę administracyjną, kaucję lub kilka pierwszych czynszów z góry. Kwot strona nie podaje. Osobno VU pobiera opłatę 500 euro za obsługę (zwracana, jeśli VU nie zaproponuje pokoju).",
+      "eligibility": "Pierwszy rok studiów, program po angielsku, nieholenderskie obywatelstwo (podwójne z holenderskim wyklucza), przyjęcie na podstawie zagranicznego dyplomu i brak wcześniejszego zamieszkania w Holandii. Studenci z UE mogą się ubiegać.",
+      "applicationInfo": "Po potwierdzeniu udziału w VU Dashboard składa się wniosek i wpłaca 500 euro. O kolejności decyduje data wpłaty. Rezerwacja pokoju rusza w maju lub czerwcu. Termin anulowania ze zwrotem opłaty: 1 grudnia 2026 dla drugiego semestru 2026/27 i 1 lipca 2027 dla roku 2027/28.",
+      "applyUrl": "https://vu.nl/en/dashboard",
+      "waitlist": "Gdy pokoje się skończą, studenci trafiają na listę oczekujących bez gwarancji i bez informacji o pozycji.",
+      "sourceUrl": "https://vu.nl/en/education/more-about/looking-for-accommodation-in-amsterdam",
+      "quote": "Housing prices via VU Amsterdam vary from €560 to €1,300 per month, but the average rent for VU housing is €750 per month.",
+      "notes": "Średni czynsz to 750 euro miesięcznie. VU zapewnia mieszkanie tylko na pierwszy rok, nawet gdy program trwa dłużej. Umowa na 12 miesięcy bez przedłużenia."
+    },
+    {
+      "name": "DUWO Eerste Ringdijkstraat (studia dla studentów VU Semester in Amsterdam)",
+      "operator": "DUWO",
+      "url": "https://vu.nl/en/education/more-about/semester-housing",
+      "roomType": "studio z własną łazienką i kuchnią (od 25,3 do 29,2 m²)",
+      "priceFrom": 990,
+      "priceTo": 990,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Wszystkie miesięczne koszty najmu wliczone. Studio jest umeblowane, z pościelą i zestawem kuchennym.",
+      "deposit": "Operator lub VU mogą pobrać zwrotną kaucję. Kwoty strona nie podaje. VU pobiera opłatę 250 euro za semestr lub 500 euro za rok akademicki.",
+      "eligibility": "Studenci programu Semester in Amsterdam na VU. Dla pełnych programów licencjackich i magisterskich obowiązuje oddzielna oferta VU.",
+      "applicationInfo": "Wniosek składa się w VU Dashboard. Terminy to 15 maja dla semestru jesiennego i 15 listopada dla wiosennego (strona nie podaje roku, a jej treść odwołuje się do jesieni 2025).",
+      "applyUrl": "https://vu.nl/en/dashboard",
+      "waitlist": null,
+      "sourceUrl": "https://vu.nl/en/education/more-about/semester-housing",
+      "quote": "DUWO: Eerste Ringdijkstraat : €990.00 per month (all monthly rental costs included)",
+      "notes": "Pokoje przy Eerste Ringdijkstraat leżą blisko stacji Amstel, około 20 minut rowerem od kampusu VU. Strona zastrzega, że stawki są szacunkowe."
+    }
+  ],
+  "rent": [
+    {
+      "type": "pokój w Amsterdamie na rynku prywatnym",
+      "area": "Amsterdam",
+      "priceFrom": 750,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": true,
+      "source": "Vrije Universiteit Amsterdam, wskazówki dotyczące samodzielnego szukania pokoju",
+      "sourceUrl": "https://vu.nl/en/about-vu/more-about/tips-for-finding-a-room-independently",
+      "quote": "Affordable housing on the private market in Amsterdam is scarce and expensive it starts at €750 and up.",
+      "notes": "Strona podaje tylko dolną granicę i nie ma daty publikacji."
+    },
+    {
+      "type": "pokój lub mieszkanie dla studenta na rynku prywatnym",
+      "area": "Amsterdam",
+      "priceFrom": 900,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": true,
+      "source": "Vrije Universiteit Amsterdam, strona o zakwaterowaniu",
+      "sourceUrl": "https://vu.nl/en/education/more-about/looking-for-accommodation-in-amsterdam",
+      "quote": "rental prices on the private market are high, often starting at around €900 per month.",
+      "notes": "Uczelnia opisuje ceny jako wysokie i często zaczynające się od około 900 euro."
+    },
+    {
+      "type": "pokój lub mieszkanie dla studenta na rynku prywatnym",
+      "area": "Amsterdam (nieco taniej przez AUAS Housing)",
+      "priceFrom": 600,
+      "priceTo": 1200,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": true,
+      "source": "Hogeschool van Amsterdam, koszty życia",
+      "sourceUrl": "https://www.amsterdamuas.com/study/international-admissions/financial-matters/cost-of-living",
+      "quote": "Rent: €600 - €1,200 (private market, slightly lower when arranged via AUAS Housing)",
+      "notes": "Źródło nie rozróżnia typów lokali."
+    },
+    {
+      "type": "kawalerka (studio)",
+      "area": "Amsterdam Oost, okolice stacji Amstel (DUWO Eerste Ringdijkstraat)",
+      "priceFrom": 990,
+      "priceTo": 990,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "tak",
+      "official": true,
+      "source": "Vrije Universiteit Amsterdam, Semester in Amsterdam",
+      "sourceUrl": "https://vu.nl/en/education/more-about/semester-housing",
+      "quote": "DUWO: Eerste Ringdijkstraat : €990.00 per month (all monthly rental costs included)",
+      "notes": "Studio w akademiku DUWO przeznaczone dla studentów semestralnych, więc to cena instytucjonalna, a nie rynkowa."
+    }
+  ],
+  "gaps": [
+    "Nie udało się potwierdzić cen mieszkań 1-pokojowych ani 2-pokojowych w Amsterdamie. Portale najmu (Pararius, Huurwoningen) zablokowały dostęp do swoich raportów, a uczelnie podają ceny tylko dla pokoi i studiów.",
+    "UvA nie podaje terminu naboru na semestr jesienny 2027, a VU nie podaje terminu składania wniosków (tylko terminy anulowania i start rezerwacji w maju lub czerwcu).",
+    "Kwoty kaucji i opłat administracyjnych u operatorów (DUWO, De Key, Student Experience) różnią się i nie są podane na stronach uczelni. HvA podaje tylko widełki opłaty administracyjnej od 150 do 250 euro.",
+    "Nie sprawdzono osobno oferty i kolejki DUWO oraz De Key przez platformę ROOM dla osób spoza programów uczelnianych, bo ich strony wymagają logowania i nie pokazują cen.",
+    "Strona UvA o zakwaterowaniu nie podaje cen dla poszczególnych typów pokoi. Widełki 370 do 1 150 euro dotyczą całej puli, podobnie jak w HvA."
+  ],
+  "sources": [
+    {
+      "url": "https://student.uva.nl/en/information/step-4-uva-student-housing-limited-availability",
+      "note": "UvA Student Housing: terminy, kryteria, czynsz, opłata UvA"
+    },
+    {
+      "url": "https://student.uva.nl/en/information/step-3-how-and-where-to-search-for-a-room",
+      "note": "UvA: wskazówki szukania pokoju, platformy, oszustwa"
+    },
+    {
+      "url": "https://www.uva.nl/en/education/practical-information/housing/housing.html",
+      "note": "UvA: strona informacyjna o zakwaterowaniu"
+    },
+    {
+      "url": "https://www.amsterdamuas.com/study/international-admissions/housing",
+      "note": "HvA: zakwaterowanie dla studentów zagranicznych"
+    },
+    {
+      "url": "https://www.amsterdamuas.com/study/international-admissions/housing/costs-of-auas-student-housing",
+      "note": "HvA: czynsz, opłaty, kaucja"
+    },
+    {
+      "url": "https://www.amsterdamuas.com/study/international-admissions/housing/room-types-and-locations",
+      "note": "HvA: typy pokoi i kategorie budżetu"
+    },
+    {
+      "url": "https://www.amsterdamuas.com/study/international-admissions/housing/apply-for-housing-bachelor-master",
+      "note": "HvA: zasady i terminy aplikacji"
+    },
+    {
+      "url": "https://www.amsterdamuas.com/study/international-admissions/housing/finding-housing-on-your-own",
+      "note": "HvA: samodzielne szukanie, oszustwa, wsparcie"
+    },
+    {
+      "url": "https://www.amsterdamuas.com/study/international-admissions/financial-matters/cost-of-living",
+      "note": "HvA: miesięczny budżet studenta"
+    },
+    {
+      "url": "https://vu.nl/en/education/more-about/looking-for-accommodation-in-amsterdam",
+      "note": "VU: zakwaterowanie, czynsz, opłata 500 euro, lista oczekujących"
+    },
+    {
+      "url": "https://vu.nl/en/education/more-about/semester-housing",
+      "note": "VU: zakwaterowanie dla Semester in Amsterdam"
+    },
+    {
+      "url": "https://vu.nl/en/about-vu/more-about/tips-for-finding-a-room-independently",
+      "note": "VU: wskazówki szukania pokoju na rynku prywatnym"
+    },
+    {
+      "url": "https://www.studyinnl.org/finances/daily-student-expenses-and-cost-of-living-in-the-netherlands",
+      "note": "Study in NL: ogólnokrajowe wydatki studenta (Nibud 2024)"
+    },
+    {
+      "url": "https://www.studyinnl.org/life-in-nl/finding-a-place-to-live",
+      "note": "Study in NL: jak szukać pokoju, oszustwa"
+    }
+  ]
+}

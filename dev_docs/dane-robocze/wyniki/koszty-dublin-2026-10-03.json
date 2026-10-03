@@ -1,0 +1,245 @@
+{
+  "slug": "dublin",
+  "name": "Dublin",
+  "country": "Irlandia",
+  "currency": "EUR",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Dublin ma cztery uczelnie, a własne rezydencje prowadzą głównie DCU, Trinity i UCD. Na rok akademicki 2026/27 DCU podaje dla studentów zagranicznych od 6 666,24 do 7 442,48 EUR za pobyt od 30 sierpnia 2026 do 5 maja 2027, bez opłat za media. Trinity Hall kosztuje według uczelni około 7 227 EUR za rok, a prywatne akademiki partnerskie Trinity od 303 do 349,50 EUR tygodniowo. UCD ma kaucję 750 EUR, ale tabela cen jest w pliku PDF, do którego uczelnia nie udostępniła dostępu."
+    },
+    {
+      "label": "Wynajem",
+      "text": "Według oficjalnego indeksu czynszów RTB/ESRI za pierwszy kwartał 2026 roku średni czynsz w nowych umowach w hrabstwie Dublin wynosił 2 335 EUR miesięcznie, a za mieszkanie 1-pokojowe 1 951 EUR i 2-pokojowe 2 405 EUR. Oficjalnych danych o cenie pokoju w mieszkaniu współdzielonym nie znaleziono."
+    },
+    {
+      "label": "Budżet miesięczny",
+      "text": "Trinity College Dublin szacuje roczny budżet studenta z zagranicy (bez czesnego) na od 19 937 do 29 050 EUR dla studiów licencjackich. Kwota obejmuje zakwaterowanie, jedzenie, media, transport, ubezpieczenie zdrowotne i bilety lotnicze. Kwota jest roczna, bo uczelnia nie podaje wersji miesięcznej."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "Uczelnie radzą składać wnioski o miejsce w akademiku jak najwcześniej, bo na UCD wszystkie miejsca dla nowych studentów z naboru CAO na 2026/27 są już przydzielone, a chętni trafiają na listę oczekujących. Poza akademikiem warto zajrzeć na UCD Accommodation Pad i do bazy ogłoszeń związku studentów Trinity. Trinity ostrzega, żeby nie płacić kaucji za mieszkanie, którego nie widziało się osobiście, i sprawdzać, czy umowa jest zarejestrowana w Residential Tenancies Board."
+    },
+    {
+      "label": "Uwagi",
+      "text": "Terminy naboru do akademików na rok 2026/27 już minęły, a terminy na rok 2027/28 uczelnie nie opublikowały. Przy DCU do czynszu dochodzą osobno opłacane koszty usług, których wysokości strona nie podaje."
+    }
+  ],
+  "budget": {
+    "from": 19937,
+    "to": 29050,
+    "currency": "EUR",
+    "period": "rok",
+    "text": "Szacunkowy roczny koszt życia w Dublinie dla studenta licencjackiego z zagranicy, bez czesnego. Kwota obejmuje zakwaterowanie (Trinity Hall, Kavanagh Court lub inne mieszkanie w centrum), media, wyżywienie, komunikację miejską, opłaty imigracyjne, ubezpieczenie zdrowotne dla osób spoza UE, wydatki osobiste i bilety lotnicze (około 2 000 EUR). Sam koszt życia bez zakwaterowania uczelnia ocenia na od 11 750 do 15 750 EUR rocznie.",
+    "sourceUrl": "https://www.tcd.ie/study/international/welcome/cost-of-living/",
+    "quote": "The figures below give a typical annual budget range (not including tuition) for living in Dublin as an international student.",
+    "official": true
+  },
+  "dorms": [
+    {
+      "name": "DCU Student Accommodation, rezydencje dla studentów zagranicznych (College Park, Hampstead, Purcell House, O'Donnell House)",
+      "operator": "Campus Residences DAC (DCU Student Accommodation)",
+      "url": "https://www.dcuaccommodation.ie/accommodation/international-students",
+      "roomType": "jednoosobowy i dwuosobowy z pojedynczym zajęciem, część z łazienką przy pokoju",
+      "priceFrom": 6666.24,
+      "priceTo": 7442.48,
+      "currency": "EUR",
+      "period": "rok",
+      "includes": "Wi-Fi i wspólna kuchnia z częścią dzienną. Koszty usług nie są wliczone w czynsz i są doliczane osobno co miesiąc z góry.",
+      "deposit": "Od 847,50 do 900,30 EUR w College Park, zwrotna po wymeldowaniu po potrąceniu ewentualnych szkód. Kaucji w Hampstead i Purcell House nie zweryfikowano.",
+      "eligibility": "Pierwszoroczni studenci zagraniczni na studiach licencjackich mogą ubiegać się o pokoje na kampusach Glasnevin i All Hallows. Studenci z innych grup mają osobne strony i stawki.",
+      "applicationInfo": "Nabór na 2026/27 dla studentów zagranicznych i podyplomowych trwał od 1 kwietnia do 31 maja 2026. Studenci podyplomowi płacą dodatkowo 50 EUR opłaty administracyjnej. Terminu naboru na 2027/28 jeszcze nie opublikowano.",
+      "applyUrl": "https://www.dcuaccommodation.ie",
+      "waitlist": null,
+      "sourceUrl": "https://www.dcuaccommodation.ie/accommodation/international-students",
+      "quote": "Please note: Service costs are not included in rent rates and will be a separate cost charged monthly in advance",
+      "notes": "Podana cena dotyczy pełnego roku akademickiego (248 nocy, od 30 sierpnia 2026 do 5 maja 2027). Najtańszy wariant to Hampstead, pokój jednoosobowy za 6 666,24 EUR, najdroższy College Park Superior za 7 442,48 EUR."
+    },
+    {
+      "name": "UCD Residences (Belfield i Blackrock)",
+      "operator": "University College Dublin, UCD Residences",
+      "url": "https://www.ucd.ie/residences/",
+      "roomType": "apartamenty ze wspólną łazienką lub z łazienką przy pokoju, studia dwuosobowe, pokoje z wyżywieniem (Roebuck Castle)",
+      "priceFrom": null,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "rok",
+      "includes": "Całodobowa recepcja i ochrona, pralnia na miejscu, siłownia, przechowalnia rowerów. Zakres mediów w czynszu strona nie opisuje.",
+      "deposit": "750 EUR, jednakowa dla wszystkich rezydencji na 2026/27, zwracana w ciągu 28 dni roboczych od wyjazdu.",
+      "eligibility": "Nabór ma osobne ścieżki dla studentów z naboru CAO, studentów z UE na studiach podyplomowych i studentów spoza UE. Studenci spoza UE dostają instrukcję e-mailem przed otwarciem rezerwacji.",
+      "applicationInfo": "Oferty dla kandydatów z naboru CAO wysłano 6 kwietnia 2026. Wszystkie miejsca dla tej grupy są już przydzielone, a dalsze przydziały idą z listy oczekujących i zdarzają się bardzo rzadko. Terminu naboru na 2027/28 jeszcze nie opublikowano.",
+      "applyUrl": "https://www.ucd.ie/residences/bookinginfo/applications/",
+      "waitlist": "Tak. UCD skonsolidowało listę oczekujących 11 września 2026 i przydziela z niej miejsca w miarę rezygnacji.",
+      "sourceUrl": "https://www.ucd.ie/residences/feespayments/",
+      "quote": "For 26/27 the existing security/booking deposit amount has been amended to a standard uniform amount of €750 applicable to all residences",
+      "notes": "Cennik na 2026/27 jest w pliku PDF na stronie opłat uczelni, który odrzucił połączenie (błąd 403), więc cen nie podano."
+    },
+    {
+      "name": "Trinity Hall",
+      "operator": "Trinity College Dublin",
+      "url": "https://www.tcd.ie/accommodation/1st-year-students/",
+      "roomType": "pokój w mieszkaniu współdzielonym (rezydencja dla pierwszego roku)",
+      "priceFrom": 7227,
+      "priceTo": 7227,
+      "currency": "EUR",
+      "period": "rok",
+      "includes": "Strona uczelni nie opisuje zakresu mediów.",
+      "deposit": "Brak kaucji i opłaty za złożenie wniosku w Trinity Hall.",
+      "eligibility": "Kandydaci z naboru CAO z UE i EOG oraz studenci z odroczonym przyjęciem. Studenci spoza UE na pierwszym roku składają wniosek bezpośrednio i mogą wybrać też Kavanagh Court lub inne akademiki partnerskie.",
+      "applicationInfo": "Nabór na 2026/27: studenci spoza UE od 13 marca do 1 lipca 2026, kandydaci CAO od 1 lipca 2026, oferty wysyłane na bieżąco. Okres zamieszkania od 11 września 2026 do 5 maja 2027 (236 nocy). Terminów na 2027/28 jeszcze nie opublikowano.",
+      "applyUrl": "https://accommodation.tcd.ie/StudentBookings/",
+      "waitlist": "Wnioski złożone po starcie roku akademickiego trafiają na listę oczekujących, a uczelnia kontaktuje się tylko wtedy, gdy zwolni się miejsce (zapis dotyczy studentów wymiany i spoza UE).",
+      "sourceUrl": "https://www.tcd.ie/study/international/welcome/cost-of-living/",
+      "quote": "Trinity Hall (1 academic year - September-June)*",
+      "notes": "Kwota 7 227 EUR to przybliżony roczny koszt z tabeli kosztów Trinity. Strona zakwaterowania podaje stawki od 178 EUR tygodniowo, bez wskazania typu pokoju."
+    },
+    {
+      "name": "Kavanagh Court (akademik partnerski Trinity)",
+      "operator": "Yugo, na podstawie umowy partnerskiej z Trinity College Dublin",
+      "url": "https://www.tcd.ie/accommodation/1st-year-students/",
+      "roomType": "apartament ze wspólnymi pomieszczeniami",
+      "priceFrom": 325,
+      "priceTo": 325,
+      "currency": "EUR",
+      "period": "tydzień",
+      "includes": "Strona Trinity nie opisuje zakresu mediów.",
+      "deposit": "Prywatni operatorzy pobierają kaucję albo opłatę z góry. Kwoty nie podano.",
+      "eligibility": "Otwarty dla wszystkich studentów Trinity, a dla pierwszoroczniaków spoza UE jest podstawową opcją. Mieszkańcy muszą mieć co najmniej 18 lat w dniu zameldowania.",
+      "applicationInfo": "Okres 29 sierpnia 2026 do 22 maja 2027 (38 tygodni), kolejność zgłoszeń. Nabór partnerów na 2026/27 ruszył 3 lutego 2026. Terminów na 2027/28 jeszcze nie opublikowano.",
+      "applyUrl": "https://accommodation.tcd.ie/StudentBookings/",
+      "waitlist": null,
+      "sourceUrl": "https://www.tcd.ie/accommodation/1st-year-students/",
+      "quote": "Rooms are available for a 38 week occupancy and the weekly rate is €325 per week.",
+      "notes": "Za 38 tygodni daje to 12 350 EUR, tyle samo podaje tabela kosztów Trinity. Gdy miejsca się skończą, Trinity może skierować studenta do innego akademika partnerskiego."
+    },
+    {
+      "name": "Here! Cork Street (akademik partnerski Trinity)",
+      "operator": "Prywatny operator, na podstawie umowy partnerskiej z Trinity College Dublin",
+      "url": "https://www.tcd.ie/accommodation/1st-year-students/",
+      "roomType": "pokój z łazienką lub studio",
+      "priceFrom": 303,
+      "priceTo": 349.5,
+      "currency": "EUR",
+      "period": "tydzień",
+      "includes": "Czynsz obejmuje wszystkie opłaty, w tym Wi-Fi i media.",
+      "deposit": "Prywatni operatorzy pobierają kaucję albo opłatę z góry. Kwoty nie podano.",
+      "eligibility": "Akademik partnerski Trinity, około 2 km od kampusu.",
+      "applicationInfo": "Umowy na 41 i 51 tygodni, najkrótsza od 6 września 2026 do 19 czerwca 2027. Nabór partnerów na 2026/27 ruszył 3 lutego 2026. Terminów na 2027/28 jeszcze nie opublikowano.",
+      "applyUrl": "https://accommodation.tcd.ie/StudentBookings/",
+      "waitlist": null,
+      "sourceUrl": "https://www.tcd.ie/accommodation/1st-year-students/",
+      "quote": "Your rent covers all expenses, from Wi-Fi to utilities",
+      "notes": "Zakres 303 do 349,50 EUR tygodniowo to stawki zaczynające się od tych kwot według strony Trinity."
+    }
+  ],
+  "rent": [
+    {
+      "type": "mieszkanie 1-pokojowe",
+      "area": "hrabstwo Dublin",
+      "priceFrom": 1951,
+      "priceTo": 1951,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": true,
+      "source": "RTB/ESRI Rent Index, pierwszy kwartał 2026 (Residential Tenancies Board)",
+      "sourceUrl": "https://rtb.ie/wp-content/uploads/2026/09/RTB-Rent-Index-Q1-2026.pdf",
+      "quote": "Apartments - 1 Bedroom Dublin 1,951",
+      "notes": "Standaryzowany średni czynsz w nowych umowach, w umowach już trwających 1 689 EUR. Raport nie rozdziela czynszu i mediów."
+    },
+    {
+      "type": "mieszkanie 2-pokojowe",
+      "area": "hrabstwo Dublin",
+      "priceFrom": 2405,
+      "priceTo": 2405,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": true,
+      "source": "RTB/ESRI Rent Index, pierwszy kwartał 2026 (Residential Tenancies Board)",
+      "sourceUrl": "https://rtb.ie/wp-content/uploads/2026/09/RTB-Rent-Index-Q1-2026.pdf",
+      "quote": "Apartments - 2 Bedrooms Dublin 2,405",
+      "notes": "Standaryzowany średni czynsz w nowych umowach, w umowach już trwających 2 056 EUR."
+    },
+    {
+      "type": "średni czynsz nowej umowy, wszystkie rodzaje lokali",
+      "area": "hrabstwo Dublin",
+      "priceFrom": 2335,
+      "priceTo": 2335,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": true,
+      "source": "RTB/ESRI Rent Index, pierwszy kwartał 2026 (Residential Tenancies Board)",
+      "sourceUrl": "https://rtb.ie/wp-content/uploads/2026/09/RTB-Rent-Index-Q1-2026.pdf",
+      "quote": "The standardised average rent for new tenancies was highest in Dublin City at €2,301 in Q1",
+      "notes": "Dla samego miasta Dublin średnia nowych umów wynosi 2 301 EUR, dla całego hrabstwa 2 335 EUR. Średnia obejmuje mieszkania i domy różnej wielkości, więc dla jednej osoby jest zawyżona."
+    }
+  ],
+  "gaps": [
+    "Nie udało się potwierdzić oficjalnej ceny pokoju w mieszkaniu współdzielonym w Dublinie. Raport RTB nie wyodrębnia pokoi, a raport Daft.ie o czynszach odrzucił połączenie, więc w tabeli nie ma wiersza o pokoju.",
+    "Cennik UCD Residences na rok 2026/27 jest w pliku PDF, do którego strona uczelni odmówiła dostępu (błąd 403), więc ceny pokoi UCD pozostają nieznane. Znana jest tylko kaucja 750 EUR.",
+    "Nie znaleziono strony TU Dublin z akademikami ani cennikiem. Podstrony zakwaterowania, które sprawdzono, nie istnieją, więc tej uczelni nie opisano.",
+    "Budżet Trinity dotyczy studentów spoza UE (zawiera ubezpieczenie zdrowotne i bilety lotnicze). Uczelnia zaznacza, że ubezpieczenie zdrowotne jest wymagane od studentów spoza UE, więc dla studenta z UE tej pozycji można nie liczyć.",
+    "Zakres mediów w czynszu Trinity Hall i Kavanagh Court oraz kwoty kaucji akademików partnerskich Trinity nie są podane na stronach uczelni.",
+    "Terminy naboru do akademików na rok 2027/28 nie zostały jeszcze opublikowane przez żadną z uczelni."
+  ],
+  "sources": [
+    {
+      "url": "https://www.dcuaccommodation.ie/accommodation/international-students",
+      "note": "Ceny, kaucje i zasady DCU dla studentów zagranicznych 2026/27"
+    },
+    {
+      "url": "https://www.dcuaccommodation.ie",
+      "note": "Terminy naboru DCU 2026/27"
+    },
+    {
+      "url": "https://www.ucd.ie/residences/feespayments/",
+      "note": "Kaucja i okresy umów UCD Residences 2026/27"
+    },
+    {
+      "url": "https://www.ucd.ie/residences/bookinginfo/applications/",
+      "note": "Nabór i lista oczekujących UCD Residences"
+    },
+    {
+      "url": "https://www.ucd.ie/residences/bookinginfo/offcampus/",
+      "note": "UCD Accommodation Pad, mieszkania poza kampusem"
+    },
+    {
+      "url": "https://www.tcd.ie/accommodation/1st-year-students/",
+      "note": "Trinity Hall, Kavanagh Court, Here! Cork Street, stawki i okresy"
+    },
+    {
+      "url": "https://www.tcd.ie/accommodation/how-to-apply/",
+      "note": "Terminy naboru Trinity 2026/27"
+    },
+    {
+      "url": "https://www.tcd.ie/accommodation/visiting-students/",
+      "note": "Lista oczekujących Trinity"
+    },
+    {
+      "url": "https://www.tcd.ie/accommodation/faq/",
+      "note": "Kaucje w akademikach Trinity i partnerskich"
+    },
+    {
+      "url": "https://www.tcd.ie/study/international/welcome/cost-of-living/",
+      "note": "Roczny budżet studenta Trinity"
+    },
+    {
+      "url": "https://www.tcd.ie/students/living-dublin/",
+      "note": "Wskazówki szukania mieszkania Trinity"
+    },
+    {
+      "url": "https://rtb.ie/wp-content/uploads/2026/09/RTB-Rent-Index-Q1-2026.pdf",
+      "note": "Oficjalny indeks czynszów RTB/ESRI, pierwszy kwartał 2026"
+    },
+    {
+      "url": "https://www.educationinireland.com/en/plan-your-study-abroad/student-accommodation",
+      "note": "Rządowy portal Education in Ireland, opis opcji zakwaterowania"
+    }
+  ]
+}

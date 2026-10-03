@@ -1,0 +1,216 @@
+{
+  "slug": "sofia",
+  "name": "Sofia",
+  "country": "Bułgaria",
+  "currency": "EUR",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Sofia ma duże uczelniane akademiki w dzielnicy Studentski grad. Uniwersytet Sofijski (ponad 6 300 łóżek) od 1 października 2026 pobiera czynsz liczony po 1,80 EUR za metr kwadratowy, co daje około 20 EUR miesięcznie za miejsce w typowym pokoju dwuosobowym, plus opłaty za prąd. Politechnika Sofijska (ponad 5 000 łóżek) nie publikuje cennika na stronie angielskiej, a UNWE ma pustą stronę o akademikach."
+    },
+    {
+      "label": "Wynajem",
+      "text": "Oficjalnych cen wynajmu dla Sofii nie znaleziono. Dane nieoficjalne z portalu imot.bg z 1 października 2026 pokazują medianę ofert od 416 do 551 EUR miesięcznie za kawalerkę i od 651 do 701 EUR za mieszkanie dwupokojowe w wybranych dzielnicach."
+    },
+    {
+      "label": "Budżet miesięczny",
+      "text": "Nie znaleziono oficjalnej szacunkowej kwoty miesięcznego budżetu studenta w Sofii, dlatego pole budżetu zostaje puste."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "Student uczelni z Sofii składa wniosek o akademik elektronicznie w systemie uczelni (Uniwersytet Sofijski: psbo.uni-sofia.bg) i czeka na ranking komisji. Gdy nie dostanie miejsca, zostaje prywatny wynajem przez portale ogłoszeniowe. Przed przelewem kaucji warto obejrzeć mieszkanie i spisać umowę."
+    },
+    {
+      "label": "Uwagi",
+      "text": "Bułgaria używa euro od 2026 roku, więc ceny z uczelnianych zarządzeń są podane w euro. Stare informacje na stronie angielskiej Uniwersytetu Sofijskiego (50 do 70 BGN miesięcznie, strona z 2015 roku) są nieaktualne."
+    }
+  ],
+  "budget": {
+    "from": null,
+    "to": null,
+    "currency": "EUR",
+    "period": "miesiąc",
+    "text": "Nie znaleziono oficjalnej szacunkowej kwoty miesięcznego budżetu studenta w Sofii (uczelnie, rządowy portal Study in Bulgaria, urząd statystyczny).",
+    "sourceUrl": null,
+    "quote": null,
+    "official": null
+  },
+  "dorms": [
+    {
+      "name": "Studentski grad, akademiki Uniwersytetu Sofijskiego (pokój dwuosobowy, typowy)",
+      "operator": "Поделение „Социално-битово обслужване“ (ПСБО) przy Софийски университет „Св. Климент Охридски“",
+      "url": "https://uni-campus.net/",
+      "roomType": "dwuosobowy",
+      "priceFrom": 20.2,
+      "priceTo": 20.2,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Czynsz obejmuje normalne zużycie wody (średnio do 4 m3 miesięcznie na osobę) w okresie nauki. Prąd płaci się osobno według licznika pokoju, dzielony między mieszkańców.",
+      "deposit": "80 EUR w akademikach po remoncie, 60 EUR w pozostałych, plus opłata semestralna 8 EUR",
+      "eligibility": "Akademiki są dla studentów, doktorantów i specjalizantów studiów stacjonarnych Uniwersytetu Sofijskiego, których rodziny nie mają własnego mieszkania w Sofii. Czy obywatele UE i studenci zagraniczni mają te same zasady, nie zostało potwierdzone.",
+      "applicationInfo": "Wniosek elektroniczny w Systemie zarządzania akademikami (psbo.uni-sofia.bg) po zalogowaniu danymi z systemu uczelni, wraz ze zdjęciem, skanem aktu urodzenia i oświadczeniem o stanie zdrowia. Kampania na rok akademicki 2026/2027 odbywa się według zarządzenia rektora RD-19-313 z 28 lipca 2026. Dokładnych terminów nie potwierdzono.",
+      "applyUrl": "https://psbo.uni-sofia.bg",
+      "waitlist": "Miejsca przyznaje komisja na podstawie rankingu, a lista oczekujących nie jest opisana.",
+      "sourceUrl": "https://uni-campus.net/wp-content/uploads/2026/06/%D0%97%D0%B0%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4-%D0%BC%D0%B5%D1%81%D0%B5%D1%87%D0%BD%D0%B8-%D0%BD%D0%B0%D0%B5%D0%BC%D0%B8-2026-.pdf",
+      "quote": "считано от 01.10.2026 г. са определени следните месечни наеми за ползване на Студентските общежития на СУ от учащи се (студенти, докторанти и специализанти), като размерът им е определен на база ползваната полезна площ при цена 1,8 евро за кв. м.",
+      "notes": "Zarządzenie RD-19-275 z 15 czerwca 2026 podaje czynsz za cały pokój: typowy pokój dwuosobowy o powierzchni 22,44 m2 w bloku 8 kosztuje 40,40 EUR miesięcznie, a zgodnie z zarządzeniem czynsz indywidualny to kwota dzielona przez liczbę łóżek, czyli 20,20 EUR na osobę."
+    },
+    {
+      "name": "Studentski grad, akademiki Uniwersytetu Sofijskiego (pokój jednoosobowy)",
+      "operator": "Поделение „Социално-битово обслужване“ (ПСБО) przy Софийски университет „Св. Климент Охридски“",
+      "url": "https://uni-campus.net/",
+      "roomType": "jednoosobowy",
+      "priceFrom": 34.7,
+      "priceTo": 34.7,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Jak wyżej: woda w normie, prąd osobno.",
+      "deposit": "80 EUR po remoncie, 60 EUR bez remontu",
+      "eligibility": "Jak wyżej.",
+      "applicationInfo": "Jak wyżej.",
+      "applyUrl": "https://psbo.uni-sofia.bg",
+      "waitlist": null,
+      "sourceUrl": "https://uni-campus.net/wp-content/uploads/2026/06/%D0%97%D0%B0%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4-%D0%BC%D0%B5%D1%81%D0%B5%D1%87%D0%BD%D0%B8-%D0%BD%D0%B0%D0%B5%D0%BC%D0%B8-2026-.pdf",
+      "quote": "считано от 01.10.2026 г. са определени следните месечни наеми за ползване на Студентските общежития на СУ",
+      "notes": "Pokoje jednoosobowe (mały pokój z trójkątnym przedpokojem, 18,36 m2, 1 łóżko) występują w blokach 52, 55 i 57, które są częściowo przeznaczone dla rodzin."
+    },
+    {
+      "name": "Akademiki Politechniki Sofijskiej",
+      "operator": "Technical University of Sofia, Dział Akademików i Stołówek",
+      "url": "https://tu-sofia.bg/en/student-dormitories",
+      "roomType": "nie podano",
+      "priceFrom": null,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "W pokojach jest sieć kablowa z internetem i telewizją, monitoring i kontrola dostępu. Czynsz i media płaci się łącznie miesięcznie do 25. dnia miesiąca.",
+      "deposit": null,
+      "eligibility": "Dla studentów i doktorantów studiów stacjonarnych, których rodziny nie mają własnego mieszkania na terenie Gminy Stołecznej Sofia. Wniosek o akademik zaznacza się przy zapisie na uczelnię.",
+      "applicationInfo": "Przy zapisie należy zaznaczyć „TAK” w polu o ubieganiu się o akademik. Po połowie sierpnia 2026 student loguje się do systemu E-Student, potwierdza dane, podpisuje oświadczenie i elektroniczną umowę oraz wybiera datę zameldowania.",
+      "applyUrl": "https://tu-sofia.bg/en/student-dormitories?tab=Accommodation+for+1st+year+students",
+      "waitlist": null,
+      "sourceUrl": "https://tu-sofia.bg/en/student-dormitories",
+      "quote": "Technical University – Sofia manages and operates 10 blocks, in total 15 entrances, student dormitories with a bed capacity of over 5000 places.",
+      "notes": "Cennika nie ma na stronach angielskich; wysokość czynszu jest widoczna po zalogowaniu w systemie E-Student."
+    }
+  ],
+  "rent": [
+    {
+      "type": "kawalerka (studio)",
+      "area": "Studentski grad",
+      "priceFrom": 480.61,
+      "priceTo": 480.61,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "imot.bg, średnie ceny ofertowe wynajmu w Sofii (dane nieoficjalne)",
+      "sourceUrl": "https://www.imot.bg/sredni-ceni/naemi-sofiya",
+      "quote": "Средни цени на наем на имоти в София | Средни цени в EUR на ПРЕДЛАГАНЕ на жилищна площ в София на база на сайта imot.bg от 1.10.2026 г., определени чрез медиана стойност.",
+      "notes": "Dane nieoficjalne. Mediana cen z ofert na portalu imot.bg z 1 października 2026, czyli ceny z ogłoszeń, a nie faktycznie zawarte umowy. Pozycja „jednopokojowe” (едностайни) w dzielnicy Studentski grad."
+    },
+    {
+      "type": "kawalerka (studio)",
+      "area": "Centrum",
+      "priceFrom": 551.17,
+      "priceTo": 551.17,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "imot.bg, średnie ceny ofertowe wynajmu w Sofii (dane nieoficjalne)",
+      "sourceUrl": "https://www.imot.bg/sredni-ceni/naemi-sofiya",
+      "quote": "Средни цени на наем на имоти в София | Средни цени в EUR на ПРЕДЛАГАНЕ на жилищна площ в София на база на сайта imot.bg от 1.10.2026 г., определени чрез медиана стойност.",
+      "notes": "Dane nieoficjalne. Mediana cen z ofert na portalu imot.bg z 1 października 2026, czyli ceny z ogłoszeń, a nie faktycznie zawarte umowy. Pozycja „jednopokojowe” (едностайни) w dzielnicy Centrum."
+    },
+    {
+      "type": "kawalerka (studio)",
+      "area": "Mładost 1",
+      "priceFrom": 415.68,
+      "priceTo": 415.68,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "imot.bg, średnie ceny ofertowe wynajmu w Sofii (dane nieoficjalne)",
+      "sourceUrl": "https://www.imot.bg/sredni-ceni/naemi-sofiya",
+      "quote": "Средни цени на наем на имоти в София | Средни цени в EUR на ПРЕДЛАГАНЕ на жилищна площ в София на база на сайта imot.bg от 1.10.2026 г., определени чрез медиана стойност.",
+      "notes": "Dane nieoficjalne. Mediana cen z ofert na portalu imot.bg z 1 października 2026, czyli ceny z ogłoszeń, a nie faktycznie zawarte umowy. Pozycja „jednopokojowe” (едностайни) w dzielnicy Mładost 1."
+    },
+    {
+      "type": "mieszkanie 2-pokojowe",
+      "area": "Studentski grad",
+      "priceFrom": 651.38,
+      "priceTo": 651.38,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "imot.bg, średnie ceny ofertowe wynajmu w Sofii (dane nieoficjalne)",
+      "sourceUrl": "https://www.imot.bg/sredni-ceni/naemi-sofiya",
+      "quote": "Средни цени на наем на имоти в София | Средни цени в EUR на ПРЕДЛАГАНЕ на жилищна площ в София на база на сайта imot.bg от 1.10.2026 г., определени чрез медиана стойност.",
+      "notes": "Dane nieoficjalne. Mediana cen z ofert na portalu imot.bg z 1 października 2026, czyli ceny z ogłoszeń, a nie faktycznie zawarte umowy. Pozycja „dwupokojowe” (двустайни), czyli pokój z salonem, w dzielnicy Studentski grad."
+    },
+    {
+      "type": "mieszkanie 2-pokojowe",
+      "area": "Centrum",
+      "priceFrom": 701.49,
+      "priceTo": 701.49,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "imot.bg, średnie ceny ofertowe wynajmu w Sofii (dane nieoficjalne)",
+      "sourceUrl": "https://www.imot.bg/sredni-ceni/naemi-sofiya",
+      "quote": "Средни цени на наем на имоти в София | Средни цени в EUR на ПРЕДЛАГАНЕ на жилищна площ в София на база на сайта imot.bg от 1.10.2026 г., определени чрез медиана стойност.",
+      "notes": "Dane nieoficjalne. Mediana cen z ofert na portalu imot.bg z 1 października 2026, czyli ceny z ogłoszeń, a nie faktycznie zawarte umowy. Pozycja „dwupokojowe” (двустайни), czyli pokój z salonem, w dzielnicy Centrum."
+    }
+  ],
+  "gaps": [
+    "Nie znaleziono oficjalnych cen wynajmu w Sofii (uczelnie, urząd statystyczny, miasto), więc wszystkie wiersze wynajmu pochodzą z nieoficjalnego raportu portalu imot.bg i są medianami cen z ogłoszeń.",
+    "Nie znaleziono cen pokoju w mieszkaniu współdzielonym ani oficjalnego miesięcznego budżetu studenta w Sofii. Portal Study in Bulgaria nie otwierał się w dniu zbierania danych.",
+    "Nie potwierdzono terminów składania wniosków o akademik na rok 2026/2027 w Uniwersytecie Sofijskim. Zarządzenie RD-19-313 z 28 lipca 2026 jest zeskanowanym dokumentem na 15 stron.",
+    "Nie potwierdzono, czy studenci zagraniczni spoza Bułgarii mają takie same prawa do miejsca w akademiku w Uniwersytecie Sofijskim i na Politechnice Sofijskiej. Cennik akademików Politechniki Sofijskiej jest dostępny tylko po zalogowaniu.",
+    "Strona UNWE o akademikach (unwe.bg/en/pages/11885) nie zawiera treści, a Uniwersytet Medyczny (MU Sofia) i UACEG nie mają na stronach angielskich informacji o akademikach, które udało się odnaleźć."
+  ],
+  "sources": [
+    {
+      "url": "https://uni-campus.net/",
+      "note": "Strona akademików Uniwersytetu Sofijskiego (ПСБО), ponad 6 300 łóżek, 10 bloków."
+    },
+    {
+      "url": "https://uni-campus.net/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D0%B0%D0%BA%D1%82%D0%BE%D0%B2%D0%B5/",
+      "note": "Lista zarządzeń rektora o czynszach, depozytach i kampanii 2026/2027."
+    },
+    {
+      "url": "https://uni-campus.net/wp-content/uploads/2026/06/%D0%97%D0%B0%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4-%D0%BC%D0%B5%D1%81%D0%B5%D1%87%D0%BD%D0%B8-%D0%BD%D0%B0%D0%B5%D0%BC%D0%B8-2026-.pdf",
+      "note": "Zarządzenie RD-19-275 z 15.06.2026: czynsz od 1.10.2026, depozyty, opłata semestralna."
+    },
+    {
+      "url": "https://uni-campus.net/wp-content/uploads/2026/07/19313_28072026.pdf",
+      "note": "Zarządzenie RD-19-313 z 28.07.2026 o kampanii akademików 2026/2027, system psbo.uni-sofia.bg."
+    },
+    {
+      "url": "https://www.uni-sofia.bg/index.php/eng/admission/international_students/being_a_student_in_sofia",
+      "note": "Stara informacja o cenach akademików (50 do 70 BGN), z 2015 roku, nieaktualna."
+    },
+    {
+      "url": "https://tu-sofia.bg/en/student-dormitories",
+      "note": "Akademiki Politechniki Sofijskiej."
+    },
+    {
+      "url": "https://www.unwe.bg/en/pages/11885/students-dormitories.html",
+      "note": "Strona UNWE o akademikach, bez treści."
+    },
+    {
+      "url": "https://www.imot.bg/sredni-ceni/naemi-sofiya",
+      "note": "Średnie ceny ofertowe wynajmu w Sofii, portal imot.bg z 1.10.2026 (dane nieoficjalne)."
+    }
+  ]
+}

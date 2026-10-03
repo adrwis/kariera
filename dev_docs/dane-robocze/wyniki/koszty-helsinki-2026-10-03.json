@@ -1,0 +1,288 @@
+{
+ "slug": "helsinki",
+ "name": "Helsinki",
+ "country": "Finlandia",
+ "currency": "EUR",
+ "retrieved": "2026-10-03",
+ "summary": [
+  {
+   "label": "Akademiki",
+   "text": "Uczelnie w Helsinkach nie mają własnych akademików, a mieszkania dla studentów zapewnia głównie fundacja Hoas oraz, dla Aalto, samorząd AYY. Pokój w mieszkaniu współdzielonym w Hoas kosztuje od 250 EUR do 519 EUR miesięcznie z prądem i wodą w cenie, a kawalerka od 500 EUR do 747 EUR. Mogą się ubiegać studenci stacjonarni kierunków prowadzących do dyplomu, także obywatele UE, a o ofercie decydują pilność potrzeby i niski dochód, bez zwykłej kolejki."
+  },
+  {
+   "label": "Wynajem",
+   "text": "Według Statistics Finland w drugim kwartale 2026 roku mieszkanie jednopokojowe na rynku wolnym w Helsinkach kosztuje zwykle od 680 EUR do 810 EUR miesięcznie (mediana 730 EUR), a dwupokojowe od 850 EUR do 1 100 EUR. Hanken podaje dla pokoju w mieszkaniu współdzielonym około 400 EUR do 500 EUR miesięcznie, a dla kawalerki od 600 EUR do 900 EUR. Według Hanken czynsz w mieszkaniach studenckich jest o około 20 procent niższy niż w prywatnych."
+  },
+  {
+   "label": "Budżet miesięczny",
+   "text": "Uniwersytet Helsiński szacuje miesięczne koszty życia studenta w Helsinkach na 1 000 EUR do 1 300 EUR lub więcej, z czego mieszkanie w akademiku to zwykle od 450 EUR do 800 EUR, a na jedzenie, telefon i transport trzeba co najmniej 450 EUR. Portal Study in Finland podaje 900 EUR do 1 200 EUR miesięcznie, a urząd migracyjny Migri wymaga udowodnienia 800 EUR miesięcznie przy pozwoleniu na pobyt dla studentów spoza UE."
+  },
+  {
+   "label": "Jak szukać mieszkania",
+   "text": "Złóż wniosek do Hoas od razu po przyjęciu na studia i dodaj do preferencji pokój w mieszkaniu współdzielonym, bo te są najczęściej wolne, a wniosek trzeba odnawiać co trzy miesiące. Równolegle składaj wnioski w AYY (studenci Aalto) i szukaj na rynku prywatnym. Aalto radzi, by nie wysyłać pieniędzy ani danych osobowych przed obejrzeniem mieszkania i podpisaniem pisemnej umowy. Semestr jesienny jest najtrudniejszy, a wiosenny zwykle łatwiejszy."
+  },
+  {
+   "label": "Uwagi",
+   "text": "Wszystkie dane o czynszach w Hoas pochodzą z oficjalnych stron fundacji, a statystyki rynkowe z urzędu Statistics Finland. Strony Hoas podają ceny orientacyjne bez roku, więc mogą się zmienić. Dla studentów spoza UE obowiązują dodatkowe opłaty (czesne, opłata aplikacyjna 100 EUR)."
+  }
+ ],
+ "budget": {
+  "from": 1000,
+  "to": 1300,
+  "currency": "EUR",
+  "period": "miesiąc",
+  "text": "Szacunek Uniwersytetu Helsińskiego dla studenta w Helsinkach: czynsz w akademiku zwykle od 450 do 800 EUR, a na podstawowe wydatki (jedzenie, łączność, transport) co najmniej 450 EUR. Kwota może być wyższa zależnie od stylu życia. Uczelnia dodaje, że 9 600 EUR rocznie wymagane przez urząd migracyjny jest w Helsinkach bardzo napięte.",
+  "sourceUrl": "https://www.helsinki.fi/en/admissions-and-education/international-students/student-life-helsinki/cost-living-and-financial-matters",
+  "quote": "It means that the monthly living costs for a student in Helsinki are 1000-1300€ or even more , depending on your spending habits.",
+  "official": true
+ },
+ "dorms": [
+  {
+   "name": "Hoas: pokój w mieszkaniu współdzielonym",
+   "operator": "Hoas (Helsingin seudun opiskelija-asuntosäätiö, Foundation for Student Housing in the Helsinki Region)",
+   "url": "https://hoas.fi/en/applicants/apartment-types/room-in-a-shared-apartment/",
+   "roomType": "pokój w mieszkaniu współdzielonym (2 do 4 pokoi, wspólna kuchnia i łazienka)",
+   "priceFrom": 250,
+   "priceTo": 519,
+   "currency": "EUR",
+   "period": "miesiąc",
+   "includes": "Prąd i woda zawsze w czynszu; internet Hoas (HOASnet) bez opłaty, sauna i pralnia do rezerwacji. Pokój niewyposażony, o powierzchni od 10 do 20 m kw.",
+   "deposit": "W większości umów zawieranych od 1 czerwca 2023 roku kaucja wynosi 0 EUR. Kaucja 260 EUR w mieszkaniu współdzielonym jest wymagana m.in. przy zaległościach w płatnościach.",
+   "eligibility": "Studenci stacjonarni na kierunkach prowadzących do dyplomu, uprawnionych do pomocy studenckiej Kela (nawet jeśli osoba z zagranicy sama jej nie dostaje), w uczelniach w stolicy regionu. Obywatelstwo nie jest warunkiem. Potrzebny dokument tożsamości, a dla niepełnoletnich zgoda opiekuna.",
+   "applicationInfo": "Wniosek można złożyć zaraz po przyjęciu na studia. Wniosek jest ważny trzy miesiące i trzeba go odnawiać. Umowa może zacząć się po rozpoczęciu studiów, a dla przyjętych na jesień od czerwca. Strona nie podaje stałego terminu rocznego.",
+   "applyUrl": "https://hoas.fi/en/applicants/how-to-apply-for-a-hoas-apartment/",
+   "waitlist": "Hoas nie prowadzi zwykłej kolejki: oferty zależą głównie od bezdomności i niskich dochodów. Aalto podaje, że pokój w mieszkaniu współdzielonym czeka się średnio 1 do 2 miesięcy.",
+   "sourceUrl": "https://hoas.fi/en/applicants/apartment-types/room-in-a-shared-apartment/",
+   "quote": "Room rent: approx. 250 – 519 € Room size: approx. 10 – 20 m 2 Pets: Not allowed + Electricity and water included in rent",
+   "notes": "Aalto podaje dla pokoju w mieszkaniu współdzielonym widełki 250 do 500 EUR miesięcznie, a Haaga-Helia 270 do 430 EUR. Wszystkie lokatorki i lokatorzy muszą być studentami stacjonarnymi."
+  },
+  {
+   "name": "Hoas: kawalerki (studio)",
+   "operator": "Hoas",
+   "url": "https://hoas.fi/en/applicants/apartment-types/studio-apartments/",
+   "roomType": "studio (pokój, kuchnia, łazienka), także z wspólną kuchnią",
+   "priceFrom": 500,
+   "priceTo": 747,
+   "currency": "EUR",
+   "period": "miesiąc",
+   "includes": "Internet Hoas bez opłaty; prąd i woda w niektórych typach mieszkań. Studio bez mebli, z szafami i lodówką.",
+   "deposit": "W większości umów od 1 czerwca 2023 roku kaucja wynosi 0 EUR; gdy jest wymagana, kaucja w mieszkaniach innych niż współdzielone to 500 EUR.",
+   "eligibility": "Wszyscy studenci stacjonarni na kierunkach prowadzących do dyplomu i uprawnionych do pomocy Kela, w uczelniach w Helsinkach, Espoo, Vantaa i Kauniainen.",
+   "applicationInfo": "Wniosek można złożyć po przyjęciu na studia, jedną aplikacją na wszystkie typy mieszkań. Wniosek trzeba odnawiać co trzy miesiące.",
+   "applyUrl": "https://hoas.fi/en/applicants/how-to-apply-for-a-hoas-apartment/",
+   "waitlist": "Zapotrzebowanie jest bardzo duże, a oczekiwanie może trwać kilka miesięcy, nawet rok.",
+   "sourceUrl": "https://hoas.fi/en/applicants/apartment-types/studio-apartments/",
+   "quote": "Apartment rent: approx. 500 – 747 euros Apartment size: approx. 19 – 46 m2",
+   "notes": "Studio z wspólną kuchnią (dla 12 do 16 osób) kosztuje około 560 do 574 EUR miesięcznie. Aalto podaje czas oczekiwania na studio 6 do 8 miesięcy, a w najpopularniejszych lokalizacjach ponad rok. Mieszkania dwupokojowe kosztują według Hoas od 500 do 1 230 EUR."
+  },
+  {
+   "name": "AYY: mieszkania samorządu studentów Aalto",
+   "operator": "AYY (Aalto University Student Union), AYY asunnot",
+   "url": "https://ayyasunnot.fi/en/",
+   "roomType": "pokój w mieszkaniu współdzielonym, studio, mieszkania 2 do 4 pokoi",
+   "priceFrom": null,
+   "priceTo": null,
+   "currency": "EUR",
+   "period": "miesiąc",
+   "includes": "Czynsz obejmuje wodę i internet, zwykle także prąd; mieszkania niewyposażone.",
+   "deposit": "Zwykle równowartość jednego miesiąca czynszu dla osób z zagranicy bez fińskiego numeru ubezpieczenia społecznego (social security number) i dla studentów na wymianie; przy złej historii kredytowej od dwóch do trzech miesięcy.",
+   "eligibility": "Członkowie samorządu AYY studiujący na kierunkach prowadzących do dyplomu na Aalto, z ważnym okresem zakwaterowania (pięć lat dla licencjatu i magisterki, dwa lata dla samej magisterki).",
+   "applicationInfo": "Wniosek składa się w systemie Domo. Oferty przyznawane są według potrzeby i pilności, bez kolejki, więc AYY nie podaje terminów. Pierwsza runda dla nowego budynku Otakaari 15 trwała od 16 do 30 marca 2026 roku.",
+   "applyUrl": "https://ayyasunnot.fi/en/apply-for-housing/application-instructions/",
+   "waitlist": "Brak kolejki, decyduje pilność potrzeby.",
+   "sourceUrl": "https://www.aalto.fi/en/services/housing-for-students",
+   "quote": "AYY has some 2 500 apartments available for Aalto University students who have signed up as members of AYY and paid the membership fee.",
+   "notes": "Ceny są dostępne tylko w systemie Domo, więc pola cen są puste. Aalto podaje łączny przedział czynszów Hoas i AYY od 300 do 600 EUR miesięcznie. Większość mieszkań AYY jest na kampusie w Espoo i Helsinkach."
+  },
+  {
+   "name": "Hanken: Isabella (Jätkäsaari)",
+   "operator": "Hanken School of Economics (zarządzanie wnioskami: Arcada Nova)",
+   "url": "https://www.hanken.fi/en/students/student-housing",
+   "roomType": "studio z aneksem kuchennym, mieszkanie 1-sypialniowe",
+   "priceFrom": 599,
+   "priceTo": 1075,
+   "currency": "EUR",
+   "period": "miesiąc",
+   "includes": "Szczegółów mediów strona nie podaje.",
+   "deposit": null,
+   "eligibility": "Studenci stacjonarni Hanken w Helsinkach, zarejestrowani jako obecni. Umowy na jeden rok akademicki, odnawiane.",
+   "applicationInfo": "Formularz jest otwarty dla wszystkich studentów Hanken. Kolejność zależy od odległości miejscowości zamieszkania od miejsca studiów. Terminu strona nie podaje.",
+   "applyUrl": "https://www.hanken.fi/en/students/student-housing",
+   "waitlist": "Kolejka według odległości miejsca zamieszkania, szczegóły po złożeniu wniosku.",
+   "sourceUrl": "https://www.hanken.fi/en/students/student-housing",
+   "quote": "Studio with kitchenette 23- 26,5m² 599-735 €/month Studio with kitchenette 30m² 796 €/month 1bedroom apartment 51-52m² 1075 €/month",
+   "notes": "Isabella (budynek z 2021 roku) ma 78 kawalerek i dwa mieszkania jednosypialniowe. W Majsporten (Arabianranta) Hanken ma 40 procent z 103 mieszkań, a dla nowych studentów zagranicznych zarezerwowano 12 mieszkań: jednopokojowe od 561 do 688 EUR, z alkową od 753 do 803 EUR, dwupokojowe od 755 do 902 EUR i dwupokojowe dla dwóch osób od 965 do 1 013 EUR miesięcznie za całe mieszkanie."
+  }
+ ],
+ "rent": [
+  {
+   "type": "pokój w mieszkaniu współdzielonym",
+   "area": "Helsinki",
+   "priceFrom": 400,
+   "priceTo": 500,
+   "currency": "EUR",
+   "period": "miesiąc",
+   "year": "2026",
+   "includesUtilities": "nie wiadomo",
+   "official": true,
+   "source": "Hanken School of Economics, Fees and living costs",
+   "sourceUrl": "https://www.hanken.fi/en/apply/study-hanken/international-students/fees-and-living-costs",
+   "quote": "A room in a shared apartment is around 400–500 €/month and a one-room apartment may cost 600–900 €/month.",
+   "notes": "Uczelnia nie precyzuje, czy kwota dotyczy rynku prywatnego, czy studenckiego, i nie podaje roku. Podaje też, że czynsz w mieszkaniach studenckich jest około 20 procent niższy niż w prywatnych."
+  },
+  {
+   "type": "mieszkanie 1-pokojowe",
+   "area": "Helsinki",
+   "priceFrom": 600,
+   "priceTo": 900,
+   "currency": "EUR",
+   "period": "miesiąc",
+   "year": "2026",
+   "includesUtilities": "nie wiadomo",
+   "official": true,
+   "source": "Hanken School of Economics, Fees and living costs",
+   "sourceUrl": "https://www.hanken.fi/en/apply/study-hanken/international-students/fees-and-living-costs",
+   "quote": "A room in a shared apartment is around 400–500 €/month and a one-room apartment may cost 600–900 €/month.",
+   "notes": "Haaga-Helia podaje dla mieszkania prywatnego od 600 do 900 EUR miesięcznie, a Aalto że przeciętny czynsz prywatny zaczyna się od 600 EUR."
+  },
+  {
+   "type": "mieszkanie 1-pokojowe",
+   "area": "Helsinki",
+   "priceFrom": 680,
+   "priceTo": 810,
+   "currency": "EUR",
+   "period": "miesiąc",
+   "year": "2026",
+   "includesUtilities": "nie wiadomo",
+   "official": true,
+   "source": "Statistics Finland, Rents of dwellings (non-subsidised, drugi kwartał 2026)",
+   "sourceUrl": "https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__asvu/statfin_asvu_pxt_15fc.px/",
+   "quote": "One-room flat; Helsinki; 2026Q2; Lower quartile 680; Median 730; Upper quartile 810",
+   "notes": "Czynsze całkowite w mieszkaniach wolnorynkowych (bez dopłat państwa): dolny kwartyl 680 EUR, mediana 730 EUR, górny kwartyl 810 EUR; 19 964 obserwacji. Środkowa połowa mieszkań mieści się w zakresie."
+  },
+  {
+   "type": "mieszkanie 1-pokojowe",
+   "area": "Espoo i Kauniainen",
+   "priceFrom": 675,
+   "priceTo": 763,
+   "currency": "EUR",
+   "period": "miesiąc",
+   "year": "2026",
+   "includesUtilities": "nie wiadomo",
+   "official": true,
+   "source": "Statistics Finland, Rents of dwellings (non-subsidised, drugi kwartał 2026)",
+   "sourceUrl": "https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__asvu/statfin_asvu_pxt_15fc.px/",
+   "quote": "One-room flat; Espoo-Kauniainen; 2026Q2; Lower quartile 675; Median 715; Upper quartile 763",
+   "notes": "Dolny kwartyl 675 EUR, mediana 715 EUR, górny kwartyl 763 EUR; 5 599 obserwacji. Espoo to miasto z kampusem Aalto w Otaniemi."
+  },
+  {
+   "type": "mieszkanie 2-pokojowe",
+   "area": "Helsinki",
+   "priceFrom": 850,
+   "priceTo": 1100,
+   "currency": "EUR",
+   "period": "miesiąc",
+   "year": "2026",
+   "includesUtilities": "nie wiadomo",
+   "official": true,
+   "source": "Statistics Finland, Rents of dwellings (non-subsidised, drugi kwartał 2026)",
+   "sourceUrl": "https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__asvu/statfin_asvu_pxt_15fc.px/",
+   "quote": "Two-room flat; Helsinki; 2026Q2; Lower quartile 850; Median 950; Upper quartile 1100",
+   "notes": "Dolny kwartyl 850 EUR, mediana 950 EUR, górny kwartyl 1 100 EUR; 16 762 obserwacje."
+  }
+ ],
+ "gaps": [
+  "Hoas, AYY i Hanken podają ceny orientacyjne bez roku obowiązywania, więc mogą się zmieniać, a ceny w systemie Domo (AYY) są dostępne tylko po zalogowaniu, dlatego cena AYY jest pusta.",
+  "Strony Hoas nie podają stałego terminu składania wniosków na rok akademicki 2026/2027, bo wniosek można złożyć w każdej chwili po przyjęciu na studia i trzeba go odnawiać co trzy miesiące. Hoas nie podaje też szacowanego czasu oczekiwania, a dane o 1 do 2 miesiącach i 6 do 8 miesiącach pochodzą ze strony Aalto.",
+  "Na stronach University of Helsinki i Metropolia nie znaleziono osobnej strony o akademikach: Uniwersytet Helsiński pisze tylko, że nie zapewnia mieszkań i odsyła do Hoas, a dla Metropolia nie znaleziono oficjalnej informacji o zakwaterowaniu.",
+  "Nie potwierdzono oferty ani cen akademików Haaga Institute Foundation przy kampusie Haaga-Helia, o których wspomina strona Haaga-Helia.",
+  "Statystyki Statistics Finland podają czynsze całkowite w mieszkaniach wolnorynkowych, ale nie wskazują, czy zawierają media, więc zapisano „nie wiadomo”. Dla pokoju w mieszkaniu współdzielonym nie ma oficjalnych statystyk, a kwota Hanken nie ma roku i nie precyzuje rynku.",
+  "Żadne dane w pliku nie są nieoficjalne."
+ ],
+ "sources": [
+  {
+   "url": "https://hoas.fi/en/applicants/apartment-types/room-in-a-shared-apartment/",
+   "note": "Hoas: pokój w mieszkaniu współdzielonym, cena"
+  },
+  {
+   "url": "https://hoas.fi/en/applicants/apartment-types/studio-apartments/",
+   "note": "Hoas: kawalerki, cena"
+  },
+  {
+   "url": "https://hoas.fi/en/applicants/apartment-types/two-room-apartment/",
+   "note": "Hoas: mieszkanie dwupokojowe"
+  },
+  {
+   "url": "https://hoas.fi/en/applicants/applying-for-an-apartment/who-can-apply/",
+   "note": "Hoas: kto może aplikować"
+  },
+  {
+   "url": "https://hoas.fi/en/applicants/applying-for-an-apartment/when-can-i-apply/",
+   "note": "Hoas: kiedy i jak długo ważny wniosek, kryteria"
+  },
+  {
+   "url": "https://hoas.fi/en/applicants/tenancy-agreement/deposit/",
+   "note": "Hoas: kaucja"
+  },
+  {
+   "url": "https://ayyasunnot.fi/en/apply-for-housing/application-instructions/",
+   "note": "AYY: wniosek, kto może mieszkać"
+  },
+  {
+   "url": "https://ayyasunnot.fi/en/apply-for-housing/deposit/",
+   "note": "AYY: kaucja"
+  },
+  {
+   "url": "https://ayyasunnot.fi/en/apply-for-housing/apartment-types/",
+   "note": "AYY: typy mieszkań"
+  },
+  {
+   "url": "https://www.aalto.fi/en/services/housing-for-students",
+   "note": "Aalto: mieszkania, czasy oczekiwania, oszustwa"
+  },
+  {
+   "url": "https://www.aalto.fi/en/study-at-aalto/student-benefits-and-cost-of-living",
+   "note": "Aalto: czynsze 300 do 600 EUR"
+  },
+  {
+   "url": "https://www.helsinki.fi/en/admissions-and-education/international-students/student-life-helsinki/cost-living-and-financial-matters",
+   "note": "University of Helsinki: koszty życia"
+  },
+  {
+   "url": "https://www.helsinki.fi/en/admissions-and-education/international-students/student-life-helsinki/benefits-and-services-students",
+   "note": "University of Helsinki: uczelnia nie ma akademików, Hoas"
+  },
+  {
+   "url": "https://www.hanken.fi/en/students/student-housing",
+   "note": "Hanken: Isabella i Majsporten, ceny"
+  },
+  {
+   "url": "https://www.hanken.fi/en/students/new-student/housing",
+   "note": "Hanken: porady o szukaniu mieszkania"
+  },
+  {
+   "url": "https://www.hanken.fi/en/apply/study-hanken/international-students/fees-and-living-costs",
+   "note": "Hanken: koszty życia i czynsze"
+  },
+  {
+   "url": "https://www.haaga-helia.fi/en/guidance-wellbeing/student-housing",
+   "note": "Haaga-Helia: mieszkania studenckie"
+  },
+  {
+   "url": "https://www.haaga-helia.fi/en/living-costs-and-student-discounts",
+   "note": "Haaga-Helia: budżet i czynsze"
+  },
+  {
+   "url": "https://www.studyinfinland.fi/funding-your-studies/fees-and-cost-living",
+   "note": "Study in Finland: koszty życia 900 do 1 200 EUR"
+  },
+  {
+   "url": "https://www.studyinfinland.fi/life-in-finland/accommodation",
+   "note": "Study in Finland: mieszkania studenckie"
+  },
+  {
+   "url": "https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__asvu/statfin_asvu_pxt_15fc.px/",
+   "note": "Statistics Finland: rozkład czynszów 2026Q2"
+  }
+ ]
+}

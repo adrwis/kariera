@@ -1,0 +1,288 @@
+{
+ "slug": "sztokholm",
+ "name": "Sztokholm",
+ "country": "Szwecja",
+ "currency": "SEK",
+ "retrieved": "2026-10-03",
+ "summary": [
+  {
+   "label": "Akademiki",
+   "text": "Uczelniane akademiki w Sztokholmie są przeznaczone głównie dla studentów zagranicznych płacących czesne, stypendystów i osób na wymianie. Obywatele UE, którzy studiują na zwykłych zasadach bez czesnego, nie mają gwarancji zakwaterowania na KTH, Stockholms universitet ani Karolinska Institutet i muszą szukać mieszkania sami. Pokój z wspólną kuchnią na Lappkärrsbergecie (KTH) kosztuje 5 700 SEK miesięcznie, a kawalerki na kampusie KTH od 8 200 SEK do 10 500 SEK miesięcznie. Otwartą kolejkę do akademików ma SSSB, do którego warto zapisać się jeszcze przed wyjazdem."
+  },
+  {
+   "label": "Wynajem",
+   "text": "Według szwedzkiego urzędu statystycznego (SCB) mediana miesięcznego czynszu za mieszkanie jednopokojowe w gminie Sztokholm wynosi w 2026 roku 6 686 SEK, a za dwupokojowe 8 381 SEK. Są to czynsze całego zasobu najmu w gminie, więc ogłoszenia dla nowych najemców i podnajem zwykle kosztują więcej. Jako przykład pokoju w mieszkaniu współdzielonym służy budżet studenta KTH z 2026 roku: 4 350 SEK miesięcznie."
+  },
+  {
+   "label": "Budżet miesięczny",
+   "text": "Karolinska Institutet podaje przykładowy miesięczny budżet studenta od 10 520 SEK do 14 020 SEK. Obejmuje on jedzenie, mieszkanie (od 3 500 SEK do 7 000 SEK), składkę samorządu i książki, bilet komunikacji miejskiej oraz pozycję „inne” z ubezpieczeniem, telefonem i rozrywką. Portal Study in Sweden podaje dla całego kraju minimum około 10 656 SEK miesięcznie."
+  },
+  {
+   "label": "Jak szukać mieszkania",
+   "text": "Zapisz się do kolejki SSSB jak najwcześniej, bo do akademików trzeba mieć dni kolejkowe, a członkostwo w samorządzie studenckim jest warunkiem wynajmu. Równolegle szukaj podnajmu przez platformy, które weryfikują wynajmujących i prowadzą umowy (Blocket Bostad, Qasa, Samtrygg), oraz w grupach studenckich takich jak Akademisk kvart. Uczelnie ostrzegają przed oszustwami: nie wysyłaj pieniędzy, zanim zobaczysz mieszkanie i podpiszesz umowę, i sprawdź dane wynajmującego. Najłatwiej o mieszkanie między majem a lipcem, najtrudniej w sierpniu i wrześniu."
+  },
+  {
+   "label": "Uwagi",
+   "text": "Podane ceny akademików pochodzą ze stron uczelni (dla Stockholms universitet z roku akademickiego 2026/2027, dla KTH z bieżących stron osiedli) i mogą być corocznie waloryzowane. Dane o czynszach z SCB są oficjalne i opisują cały zasób najmu w gminie, bez ofert dla nowych najemców."
+  }
+ ],
+ "budget": {
+  "from": 10520,
+  "to": 14020,
+  "currency": "SEK",
+  "period": "miesiąc",
+  "text": "Przykładowy miesięczny budżet studenta Karolinska Institutet w Sztokholmie: jedzenie 2 810 SEK, mieszkanie od 3 500 do 7 000 SEK, składka samorządu i książki 200 SEK, komunikacja lokalna 850 SEK oraz inne wydatki (ubezpieczenie, telefon, ubrania, rozrywka) 1 970 SEK.",
+  "sourceUrl": "https://education.ki.se/bachelors-masters-studies/pre-arrival-guide/living-costs-and-funding",
+  "quote": "Total/Month (SEK) 10,520-14,020",
+  "official": true
+ },
+ "dorms": [
+  {
+   "name": "Stockholm University: studia i mieszkania (Albano, Nora torg, Remus, Solna)",
+   "operator": "Stockholms universitet, Housing Office",
+   "url": "https://www.su.se/english/education/student-life/housing-for-international-students",
+   "roomType": "studio, mieszkanie 1- i 2-pokojowe, mieszkanie współdzielone",
+   "priceFrom": 31600,
+   "priceTo": 90750,
+   "currency": "SEK",
+   "period": "semestr",
+   "includes": "Ogrzewanie, zimna i ciepła woda, internet i prąd w cenie; pokoje umeblowane.",
+   "deposit": "Pierwsza rata to 20 procent czynszu semestralnego i kaucja (kwoty kaucji strona zbiorcza nie podaje).",
+   "eligibility": "Tylko wybrani studenci zagraniczni: osoby na wymianie co najmniej na semestr, studenci płacący czesne co najmniej na semestr oraz stypendyści Stockholm University lub Swedish Institute. Obywatele UE studiujący bez czesnego nie są w tej grupie.",
+   "applicationInfo": "Semestr jesienny 2026: wniosek można było składać od 18 maja do 1 czerwca 2026. Semestr wiosenny 2027 dla osób płacących czesne: termin zostanie ogłoszony później. Dla osób na wymianie semestr wiosenny 2027: od 15 października, godz. 12:00, do 29 października 2026, godz. 12:00 (czas środkowoeuropejski). Złożenie wniosku wcześniej nie zwiększa szans.",
+   "applyUrl": "https://service4mobility.su.se/mobility/BewerbungServlet?identifier=STOCKHO01&kz_bew_pers=S&kz_bew_art=IN&aust_prog=ACC_FREE&sprache=en",
+   "waitlist": "Brak listy oczekujących. Oferty przydziela biuro, a o wyniku wnioskodawcy dowiadują się nawet po dwóch do trzech miesięcy.",
+   "sourceUrl": "https://www.su.se/english/education/student-life/housing-for-international-students",
+   "quote": "Rent per semester: SEK 46,250–90,750",
+   "notes": "Zakresy na stronie zbiorczej: Albano 46 250 do 90 750 SEK, Nora torg 43 000 do 45 000 SEK, Remus 36 500 do 83 000 SEK, Solna 31 600 SEK za semestr. Strona zbiorcza opisuje czynsz jako obowiązujący w roku 2024/2025, ale strony poszczególnych osiedli (np. Albano) podają rok akademicki 2026/2027. Cena jest za cały semestr; wynajem trwa semestr po semestrze ze stałymi datami wprowadzenia i wyprowadzenia."
+  },
+  {
+   "name": "Stockholm University: pokoje w korytarzu (Lappis, Kungshamra)",
+   "operator": "Stockholms universitet, Housing Office",
+   "url": "https://www.su.se/english/education/student-life/housing-for-international-students/lappis-lappkarrsberget",
+   "roomType": "jednoosobowy (pokój w korytarzu, wspólna kuchnia)",
+   "priceFrom": 24000,
+   "priceTo": 32500,
+   "currency": "SEK",
+   "period": "semestr",
+   "includes": "Czynsz obejmuje ogrzewanie, wodę, szerokopasmowy internet i prąd; pokoje są umeblowane. Lappis: własna łazienka w pokoju, kuchnia dzielona z 8 do 12 pokojami.",
+   "deposit": "Strona nie podaje kwoty kaucji.",
+   "eligibility": "Tylko dla studentów na wymianie. Mieszkańcy Lappis muszą należeć do samorządu studenckiego zrzeszonego w SSCO (można wstąpić po przyjeździe).",
+   "applicationInfo": "Semestr wiosenny 2027: od 15 października, godz. 12:00, do 29 października 2026, godz. 12:00 (czas środkowoeuropejski).",
+   "applyUrl": "https://www.su.se/english/education/student-life/housing-for-international-students/housing-application-exchange-students-1.445116",
+   "waitlist": null,
+   "sourceUrl": "https://www.su.se/english/education/student-life/housing-for-international-students/lappis-lappkarrsberget",
+   "quote": "The listed rent applies to the academic year 2026/2027 and is per semester. SEK 28,000–32,500",
+   "notes": "Lappis kosztuje od 28 000 do 32 500 SEK za semestr (około 300 pokoi o powierzchni od 17 do 23 m kw.), Kungshamra od 24 000 do 29 000 SEK za semestr (40 pokoi ze wspólną łazienką i kuchnią)."
+  },
+  {
+   "name": "KTH Housing (Malvinas väg, Teknikringen, Hemmet, Lappkärrsberget)",
+   "operator": "KTH Royal Institute of Technology, KTH Housing",
+   "url": "https://www.kth.se/en/student/studier/housing/locations",
+   "roomType": "pokój w korytarzu z łazienką, studio, mieszkanie współdzielone",
+   "priceFrom": 5700,
+   "priceTo": 10500,
+   "currency": "SEK",
+   "period": "miesiąc",
+   "includes": "Lappkärrsberget: woda, prąd i internet w cenie. Malvinas väg: woda, prąd i internet. Hemmet: woda, prąd i internet. Teknikringen: woda i prąd w cenie, internet we własnym zakresie. Meble podstawowe w cenie.",
+   "deposit": "3 000 SEK, płatne przy podpisaniu umowy, od semestru jesiennego 2025.",
+   "eligibility": "Gwarancja zakwaterowania na pierwszy rok dla studentów płacących czesne za pełny licencjat lub magisterkę (także stypendystów), a także dla wybranych studentów programów wspólnych i wymiany. Większość studentów niepłacących czesne, w tym obywatele UE, nie może się ubiegać.",
+   "applicationInfo": "Formularz rejestracyjny jest dostępny od 4 do 31 maja, a w tym terminie trzeba też wybrać cztery preferencje pokoju w systemie Mobility-Online. Oferty są wysyłane od 1 czerwca do pierwszego tygodnia lipca, a na odpowiedź jest 48 godzin. Strona nie podaje roku tego cyklu, więc przy planowaniu na rok 2027 trzeba sprawdzić aktualny termin.",
+   "applyUrl": "https://www.kth.se/en/student/studier/housing/eligibility-and-application-1.809659",
+   "waitlist": "Brak listy oczekujących. Uczelnia radzi zapisać się do kolejki SSSB na drugi rok.",
+   "sourceUrl": "https://www.kth.se/en/student/studier/housing/locations",
+   "quote": "Rent 5700 SEK/month. Rent includes water, electricity and internet.",
+   "notes": "Ceny miesięczne według stron osiedli: Lappkärrsberget 5 700 SEK (pokój w korytarzu), Teknikringen 8 200 SEK (studio) i 7 500 SEK od osoby w mieszkaniu dwupokojowym, Malvinas väg od 8 400 do 10 000 SEK, Hemmet od 8 900 do 10 500 SEK. Czynsze są co roku waloryzowane, a najemcy dostają informację co najmniej dwa miesiące wcześniej. Umowy na 1 do 2 semestrów."
+  },
+  {
+   "name": "SSSB (Stockholms studentbostäder)",
+   "operator": "Stiftelsen Stockholms studentbostäder (SSSB)",
+   "url": "https://www.sssb.se/en/",
+   "roomType": "kawalerka (studio) 18 do 30 m kw., mieszkania 2 do 4 pokoi",
+   "priceFrom": null,
+   "priceTo": null,
+   "currency": "SEK",
+   "period": "miesiąc",
+   "includes": "Ogrzewanie i woda w czynszu, opłata za szerokopasmowy internet dopisywana do faktury (dotyczy osiedli Lappkärrsberget i Kungshamra).",
+   "deposit": null,
+   "eligibility": "Trzeba studiować co najmniej w połowie wymiaru, zaliczać minimum 15 punktów ECTS na semestr w uczelni zrzeszonej w SSCO, być członkiem samorządu studenckiego, mieć od 17 do 50 lat w roku zapisu (umowę podpisują osoby od 18 lat) i być zameldowanym pod adresem akademika. Nie ma wymogu obywatelstwa szwedzkiego.",
+   "applicationInfo": "Bez terminu rocznego: trzeba założyć konto w kolejce i zbierać dni kolejkowe, a mieszkania przydzielane są osobom z największą liczbą dni. KTH podaje, że rejestracja jest możliwa na 90 dni przed wstąpieniem do samorządu.",
+   "applyUrl": "https://minasidor.sssb.se/en/available-apartments/",
+   "waitlist": "Tak, kolejka dni. KTH radzi liczyć się z kolejką co najmniej jednego semestru przed pierwszą ofertą.",
+   "sourceUrl": "https://www.sssb.se/en/study-requirements-student-union-membership/",
+   "quote": "To live with us, you need to study at least half-time and complete at least 15 ECTS credits or equivalent per semester at a higher education institution affiliated with SSCO.",
+   "notes": "Strony SSSB dostępne bez logowania nie podają cen czynszu, więc kwoty pozostają puste. Umowa standardowa trwa najwyżej sześć lat."
+  }
+ ],
+ "rent": [
+  {
+   "type": "mieszkanie 1-pokojowe",
+   "area": "gmina Sztokholm",
+   "priceFrom": 6686,
+   "priceTo": 6686,
+   "currency": "SEK",
+   "period": "miesiąc",
+   "year": "2026",
+   "includesUtilities": "nie wiadomo",
+   "official": true,
+   "source": "SCB (Statistiska centralbyrån), tabela Rent in rented dwellings",
+   "sourceUrl": "https://www.statistikdatabasen.scb.se/pxweb/en/ssd/START__BO__BO0406__BO0406E/BO0406Tab03/",
+   "quote": "Median rent in rented dwelling; Stockholm; Apartment 1 room; New rent per dwelling; 2026: 6686 (margin of error ± 397)",
+   "notes": "Mediana miesięcznego czynszu całego zasobu mieszkań najmu w gminie Sztokholm, bez ofert dla nowych najemców. Margines błędu wynosi 397 SEK."
+  },
+  {
+   "type": "mieszkanie 2-pokojowe",
+   "area": "gmina Sztokholm",
+   "priceFrom": 8381,
+   "priceTo": 8381,
+   "currency": "SEK",
+   "period": "miesiąc",
+   "year": "2026",
+   "includesUtilities": "nie wiadomo",
+   "official": true,
+   "source": "SCB (Statistiska centralbyrån), tabela Rent in rented dwellings",
+   "sourceUrl": "https://www.statistikdatabasen.scb.se/pxweb/en/ssd/START__BO__BO0406__BO0406E/BO0406Tab03/",
+   "quote": "Median rent in rented dwelling; Stockholm; Apartment 2 rooms; New rent per dwelling; 2026: 8381 (margin of error ± 302)",
+   "notes": "Mediana miesięcznego czynszu całego zasobu najmu w gminie Sztokholm, margines błędu 302 SEK."
+  },
+  {
+   "type": "mieszkanie 1-pokojowe",
+   "area": "śródmieście Sztokholmu (Inner City)",
+   "priceFrom": 7255,
+   "priceTo": 7255,
+   "currency": "SEK",
+   "period": "miesiąc",
+   "year": "2026",
+   "includesUtilities": "nie wiadomo",
+   "official": true,
+   "source": "SCB (Statistiska centralbyrån), tabela Rent in rented dwellings",
+   "sourceUrl": "https://www.statistikdatabasen.scb.se/pxweb/en/ssd/START__BO__BO0406__BO0406E/BO0406Tab03/",
+   "quote": "Median rent in rented dwelling; Inner City; Apartment 1 room; New rent per dwelling; 2026: 7255 (margin of error ± 455)",
+   "notes": "Mediana miesięcznego czynszu całego zasobu najmu w śródmieściu, margines błędu 455 SEK."
+  },
+  {
+   "type": "mieszkanie 2-pokojowe",
+   "area": "śródmieście Sztokholmu (Inner City)",
+   "priceFrom": 9916,
+   "priceTo": 9916,
+   "currency": "SEK",
+   "period": "miesiąc",
+   "year": "2026",
+   "includesUtilities": "nie wiadomo",
+   "official": true,
+   "source": "SCB (Statistiska centralbyrån), tabela Rent in rented dwellings",
+   "sourceUrl": "https://www.statistikdatabasen.scb.se/pxweb/en/ssd/START__BO__BO0406__BO0406E/BO0406Tab03/",
+   "quote": "Median rent in rented dwelling; Inner City; Apartment 2 rooms; New rent per dwelling; 2026: 9916 (margin of error ± 507)",
+   "notes": "Mediana miesięcznego czynszu całego zasobu najmu w śródmieściu, margines błędu 507 SEK."
+  },
+  {
+   "type": "pokój w mieszkaniu współdzielonym",
+   "area": "Sztokholm (przykład studenta KTH)",
+   "priceFrom": 4350,
+   "priceTo": 4350,
+   "currency": "SEK",
+   "period": "miesiąc",
+   "year": "2026",
+   "includesUtilities": "nie wiadomo",
+   "official": true,
+   "source": "KTH, Cost of living in Stockholm and student budget",
+   "sourceUrl": "https://www.kth.se/en/studies/student-life/cost-of-living-in-stockholm-and-student-budget-1.1341975",
+   "quote": "Housing 3 800 (Corridor room) 4 350 (Shared apartment) 8 200 (KTH Housing)",
+   "notes": "Osobisty przykład jednej studentki KTH, którą uczelnia opisuje jako dzielącą mieszkanie z drugą osobą i płacącą połowę czynszu. KTH zaznacza, że przykłady nie są reprezentatywne. Pokój w korytarzu w tym zestawieniu: 3 800 SEK miesięcznie."
+  }
+ ],
+ "gaps": [
+  "Strony SSSB dostępne bez logowania nie pokazują czynszów ani aktualnych czasów oczekiwania w kolejce, więc w wierszu SSSB ceny są puste.",
+  "Nie potwierdzono oferty KI Housing (akademiki Karolinska Institutet), bo strona uczelni opisuje ją tylko ogólnie i kieruje do osobnej witryny. Wiadomo jedynie, że dotyczy studentów płacących czesne spoza UE, a obywatele UE nie mają gwarancji mieszkania.",
+  "Nie znaleziono oficjalnego źródła cen ofert najmu dla nowych najemców. Największe portale (Qasa, Blocket Bostad) blokują automatyczny dostęp do stron, więc wiersze wynajmu pochodzą z oficjalnych statystyk SCB dla całego zasobu najmu oraz z jednego przykładu studenta KTH. Nie ma wiersza dla kawalerki ani wiarygodnego widełkowego zakresu cen pokoju w mieszkaniu współdzielonym.",
+  "Strona tabeli SCB nie podaje, czy czynsz obejmuje media, więc zapisano „nie wiadomo”.",
+  "Kwota kaucji w akademikach Stockholms universitet nie jest podana na stronach uczelni, a termin wniosku o semestr wiosenny 2027 dla osób płacących czesne zostanie ogłoszony później.",
+  "Dla obywatela UE studiującego bez czesnego akademiki uczelniane są w praktyce niedostępne, a o mieszkaniu decyduje kolejka SSSB i rynek podnajmu."
+ ],
+ "sources": [
+  {
+   "url": "https://www.su.se/english/education/student-life/housing-for-international-students",
+   "note": "Akademiki Stockholms universitet: zasady, ceny, terminy"
+  },
+  {
+   "url": "https://www.su.se/english/education/student-life/housing-for-international-students/albano",
+   "note": "Ceny w Albano na rok akademicki 2026/2027"
+  },
+  {
+   "url": "https://www.su.se/english/education/student-life/housing-for-international-students/lappis-lappkarrsberget",
+   "note": "Lappis: cena i warunki"
+  },
+  {
+   "url": "https://www.su.se/english/education/student-life/housing-for-international-students/housing-application---tuition-fee-paying-students",
+   "note": "Wniosek dla płacących czesne"
+  },
+  {
+   "url": "https://www.su.se/english/about-the-university/work-at-su/relocation/find-housing-in-stockholm-1.654076",
+   "note": "Jak szukać mieszkania w Sztokholmie, oszustwa"
+  },
+  {
+   "url": "https://www.kth.se/en/studies/student-life/accommodation-for-new-students-1.529520",
+   "note": "Zakwaterowanie KTH dla nowych studentów"
+  },
+  {
+   "url": "https://www.kth.se/en/student/studier/housing/eligibility-and-application-1.809659",
+   "note": "KTH Housing: kto może aplikować i termin"
+  },
+  {
+   "url": "https://www.kth.se/en/student/studier/housing/locations",
+   "note": "KTH Housing: osiedla"
+  },
+  {
+   "url": "https://www.kth.se/en/student/studier/housing/locations/accommodation-at-lappkarrsberget-1.946208",
+   "note": "Czynsz na Lappkärrsbergecie"
+  },
+  {
+   "url": "https://www.kth.se/en/student/studier/housing/locations/accommodation-at-malvinas-vag-1.946199",
+   "note": "Czynsz i kaucja, Malvinas väg"
+  },
+  {
+   "url": "https://www.kth.se/en/student/studier/housing/locations/accommodation-at-teknikringen-1.946203",
+   "note": "Czynsz, Teknikringen"
+  },
+  {
+   "url": "https://www.kth.se/en/student/studier/housing/locations/accommodation-at-hemmet-1.1433266",
+   "note": "Czynsz, Hemmet"
+  },
+  {
+   "url": "https://www.kth.se/en/student/studier/newatkth/degree-programme-stu/finding-housing-on-your-own-1.810578",
+   "note": "KTH: szukanie mieszkania na własną rękę"
+  },
+  {
+   "url": "https://www.kth.se/en/studies/student-life/cost-of-living-in-stockholm-and-student-budget-1.1341975",
+   "note": "Przykładowe budżety studentów KTH 2026"
+  },
+  {
+   "url": "https://education.ki.se/accommodation",
+   "note": "Karolinska Institutet: zakwaterowanie, obywatele UE"
+  },
+  {
+   "url": "https://education.ki.se/bachelors-masters-studies/pre-arrival-guide/living-costs-and-funding",
+   "note": "Budżet miesięczny KI"
+  },
+  {
+   "url": "https://studyinsweden.se/moving-to-sweden/accommodation-budget/",
+   "note": "Budżet krajowy 10 656 SEK, platformy, oszustwa"
+  },
+  {
+   "url": "https://www.sssb.se/en/study-requirements-student-union-membership/",
+   "note": "SSSB: wymogi studenckie"
+  },
+  {
+   "url": "https://www.sssb.se/en/housing-queue-rules/",
+   "note": "SSSB: zasady kolejki"
+  },
+  {
+   "url": "https://www.sssb.se/en/apartment/",
+   "note": "SSSB: typy mieszkań"
+  },
+  {
+   "url": "https://www.statistikdatabasen.scb.se/pxweb/en/ssd/START__BO__BO0406__BO0406E/BO0406Tab03/",
+   "note": "SCB: czynsze w mieszkaniach najmu 2026"
+  }
+ ]
+}

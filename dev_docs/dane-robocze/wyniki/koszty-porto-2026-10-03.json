@@ -1,0 +1,164 @@
+{
+  "slug": "porto",
+  "name": "Porto",
+  "country": "Portugalia",
+  "currency": "EUR",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Uniwersytet w Porto ma rezydencje SASUP, a Politechnika w Porto (P.PORTO, w tym ISEP) osiem rezydencji w dwóch kampusach. U.Porto podaje w tabeli na 2025/26 miesięczną opłatę 183,20 EUR dla studentów bez stypendium, a P.PORTO na 2026/27 od 159 EUR do 205 EUR za łóżko. Studenci zagraniczni na pierwszym stopniu nie mają w U.Porto pierwszeństwa, a na magisterce i doktoracie zgłoszenia trafiają na listę oczekujących."
+    },
+    {
+      "label": "Wynajem",
+      "text": "Oficjalnych cen pokoju lub kawalerki w Porto nie znaleziono. Jedyny przedział to nieoficjalna średnia z ogłoszeń platformy Spotahome, około 974 EUR miesięcznie za lokal dowolnego typu od kwietnia do września 2026."
+    },
+    {
+      "label": "Budżet miesięczny",
+      "text": "Uniwersytet w Porto publikuje grafikę z miesięcznymi wydatkami studenta: zakwaterowanie od 130 EUR do 250 EUR, posiłki od 150 EUR do 200 EUR i bilet miesięczny dla studentów 22,75 EUR. Uczelnia nie podaje jednej sumy, więc pola kwot budżetu są puste."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "Rezydencje U.Porto i P.PORTO mają wnioski online (portal SASUP dla U.Porto i platforma DOMUS dla P.PORTO). Studenci zagraniczni na magisterce i doktoracie wysyłają e-mailem potwierdzenie zapisu do biura zakwaterowania SASUP. Przy najmie prywatnym warto podpisać formalną umowę, bo według NOVA FCT jest ona potrzebna do rejestracji pobytu, numeru podatkowego i potwierdzenia adresu."
+    },
+    {
+      "label": "Uwagi",
+      "text": "Tabela cen U.Porto na stronie dotyczy roku od 1 października 2025 do 30 września 2026, a nowej tabeli 2026/27 nie znaleziono. Tabela P.PORTO jest już na rok 2026/27 i podaje kaucję 110 EUR."
+    }
+  ],
+  "budget": {
+    "from": null,
+    "to": null,
+    "currency": "EUR",
+    "period": "miesiąc",
+    "text": "Uniwersytet w Porto podaje składniki miesięcznych wydatków studenta w Porto na grafice: zakwaterowanie od 130 EUR do 250 EUR, posiłki od 150 EUR do 200 EUR oraz bilet miesięczny strefy Z2 dla studentów 22,75 EUR (pojedynczy przejazd autobusem lub metrem od 1,20 EUR do 1,55 EUR, obiad w stołówce 2,45 EUR). Uczelnia nie podaje łącznej sumy.",
+    "sourceUrl": "https://www.up.pt/portal/en/study/international-students/study-in-porto/",
+    "quote": "ALOJAMENTO 130 - 250€ (mensal) / REFEIÇÕES 150€ - 200€ (mensal) / TRANSPORTES 22,75€ (mensal Z2 estudantes)",
+    "official": true
+  },
+  "dorms": [
+    {
+      "name": "Residências Universitárias SASUP (U.Porto): studenci bez stypendium i studenci wymiany",
+      "operator": "SASUP, Serviços de Ação Social da Universidade do Porto",
+      "url": "https://www.up.pt/portal/pt/sasup/alojamento/residencias/",
+      "roomType": "typ pokoju nie jest podany w tabeli (rezydencje mają pokoje jedno- i dwuosobowe oraz apartamenty)",
+      "priceFrom": 183.2,
+      "priceTo": 183.2,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Rezydencje mają internet, pralnię i sprzątanie części wspólnych, a w części z nich także sprzątanie pokoi. Pełna lista usług zależy od rezydencji.",
+      "deposit": "Student bez stypendium płaci dwie pierwsze miesięczne opłaty przy przyjęciu do rezydencji.",
+      "eligibility": "Pierwszeństwo mają stypendyści DGES. Studenci zagraniczni na licencjacie są przyjmowani wyjątkowo, jako studenci bez stypendium, więc bez pierwszeństwa.",
+      "applicationInfo": "Studenci pierwszego roku składają wniosek online po zapisie na uczelnię, od ogłoszenia wyników krajowego konkursu do 31 października. Studenci wyższych lat składają wniosek od 1 do 31 maja poprzedzającego rok akademicki. Wyniki dla studentów już zapisanych przychodzą od końca czerwca do początku lipca.",
+      "applyUrl": "https://www.up.pt/portal/pt/sasup/alojamento/candidaturas/",
+      "waitlist": "Dla studentów zagranicznych drugiego stopnia, doktorantów i badaczy zgłoszenie trafia na listę oczekujących, a kontakt następuje, gdy pojawi się miejsce.",
+      "sourceUrl": "https://www.up.pt/portal/pt/sasup/alojamento/precos/",
+      "quote": "Não Bolseiros ... Alojamento 183,20€ 17,10€",
+      "notes": "Tabela jest oznaczona 2025/2026 i obowiązuje od 1 października 2025 do 30 września 2026. Stypendyści SASUP płacą w tej tabeli 91,44 EUR za zakwaterowanie od października do lipca. Studenci wymiany płacą 183,20 EUR. Messe Militar w Antas jest zawieszona z powodu remontu. Zasady przyjęć: https://www.up.pt/portal/pt/sasup/faq/alojamento/"
+    },
+    {
+      "name": "Residências SASUP: zagraniczni studenci magisterscy, doktoranci i badacze",
+      "operator": "SASUP, Serviços de Ação Social da Universidade do Porto",
+      "url": "https://www.up.pt/portal/pt/sasup/alojamento/residencias/",
+      "roomType": "jednoosobowy, dwuosobowy (cena za osobę), pokój dla pary, studio",
+      "priceFrom": 200.8,
+      "priceTo": 460.8,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Internet i część usług zależnie od rezydencji. Parking w niektórych rezydencjach kosztuje dodatkowo 21,40 EUR miesięcznie.",
+      "deposit": "Strona nie podaje osobnej kaucji. Student bez stypendium płaci dwie pierwsze miesięczne opłaty przy przyjęciu.",
+      "eligibility": "Zagraniczni studenci drugiego stopnia, doktoranci, postdoktoranci i badacze instytutów związanych z U.Porto.",
+      "applicationInfo": "Wysyłka e-mailem potwierdzenia zapisu do biura zakwaterowania. Prośby są rozpatrywane w kolejności zgłoszeń, z uwzględnieniem typu pokoju i okresu pobytu. Termin nie jest ustalony, trzeba zgłaszać się jak najwcześniej przed pobytem.",
+      "applyUrl": "https://www.up.pt/portal/pt/sasup/alojamento/candidaturas/",
+      "waitlist": "Tak, zgłoszenie trafia na listę oczekujących.",
+      "sourceUrl": "https://www.up.pt/portal/pt/sasup/alojamento/precos/",
+      "quote": "Quarto Individual 271,80€ 34,20€ / Quarto Duplo (p/pessoa) 200,80€ 21,40€",
+      "notes": "Ceny z tabeli 2025/26 w rezydencjach Alberto Amaral, Bandeirinha, Jayme Rios de Souza i Paranhos: pokój jednoosobowy 271,80 EUR, dwuosobowy 200,80 EUR za osobę, dla pary 366,40 EUR za pokój. Najwyższa kwota 460,80 EUR dotyczy całego studia lub apartamentu (studia Planetário, Ventura Terra, apartamenty Instituto Pernambuco)."
+    },
+    {
+      "name": "Residências do P.PORTO (ISEP, ISCAP, ESE i inne szkoły)",
+      "operator": "SAS do P.PORTO, Serviços de Ação Social do Politécnico do Porto",
+      "url": "https://www.sas.ipp.pt/alojamento/residencias",
+      "roomType": "jednoosobowy, dwuosobowy, trzyosobowy (cena za osobę)",
+      "priceFrom": 159,
+      "priceTo": 205,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Prąd, woda, gaz, internet i pralnia bez dodatkowych opłat.",
+      "deposit": "Kaucja wynosi 110 EUR.",
+      "eligibility": "Studenci szkół P.PORTO, którzy ze względów socjalno-ekonomicznych lub odległości nie mogą mieszkać z rodziną. Studenci spoza P.PORTO płacą stawki „innych uczelni”. Strona nie podaje ograniczenia obywatelstwa.",
+      "applicationInfo": "Wniosek składa się online na platformie DOMUS, w menu Residências de estudantes. Nabór ma dwie fazy, a po nich można składać wnioski o wolne miejsca do 31 maja 2027. Dokładne terminy faz dla 2026/27 znajdują się w osobnym dokumencie, którego nie otwarto.",
+      "applyUrl": "https://www.sas.ipp.pt/alojamento/candidatura",
+      "waitlist": null,
+      "sourceUrl": "https://www.sas.ipp.pt/alojamento/residencias/tabela-de-precos-2025-2026",
+      "quote": "Individual 190,00 € ... Duplo 174,00 € ... Triplo 159,00 € (ESTUDANTES NÃO BOLSEIROS) / Individual 205,00 € (NÃO BOLSEIROS DE OUTRAS IES)",
+      "notes": "Tabela na rok 2026/27 zatwierdzona 10 września 2026. Stypendyści płacą 161,14 EUR (pokój jednoosobowy z wyboru 193,37 EUR). Adres wniosku i opisu: https://www.sas.ipp.pt/alojamento/candidatura. Rezydencje: Azenha, Bento Carqueja, Gustavo Gonçalves e Sousa i Parada Leitão w Porto oraz José Régio i São Roque w okolicach Vila do Conde, razem 317 miejsc."
+    }
+  ],
+  "rent": [
+    {
+      "type": "średnia dla wszystkich typów lokali (pokoje, kawalerki, mieszkania)",
+      "area": "Porto, całe miasto",
+      "priceFrom": 974,
+      "priceTo": 974,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Spotahome, średnia z ogłoszeń opublikowanych w mieście (kwiecień do wrzesień 2026), dane nieoficjalne",
+      "sourceUrl": "https://www.spotahome.com/s/porto--portugal",
+      "quote": "In the last 6 months, the average rental price for our properties in Porto, Portugal, has been €974",
+      "notes": "Dane nieoficjalne. To średnia z ofert jednej platformy, liczona za lokal, i obejmuje także duże mieszkania. We wrześniu 2026 średnia wynosiła 969 EUR. To nie jest cena pokoju studenckiego."
+    }
+  ],
+  "gaps": [
+    "Uniwersytet w Porto nie podaje jednej oficjalnej sumy miesięcznego budżetu, tylko składniki na grafice, dlatego pola kwoty budżetu są puste. Grafika jest obrazem na stronie.",
+    "Oficjalnych cen pokoju w mieszkaniu współdzielonym ani kawalerki w Porto nie znaleziono. Dane portugalskiego urzędu statystycznego były dostępne najwyżej za pierwszy kwartał 2025 roku i tylko jako mediana za metr kwadratowy dla obszaru metropolitalnego (9,12 EUR za metr), więc ich nie użyto. W tabeli jest jedynie nieoficjalna średnia z jednej platformy, co jest mniej niż trzy wymagane wiersze.",
+    "Tabela cen SASUP na stronie dotyczy roku od 1 października 2025 do 30 września 2026, a tabeli na 2026/27 nie znaleziono. Tabela SASUP nie rozróżnia typu pokoju dla studentów bez stypendium.",
+    "Nie sprawdzono terminów obu faz naboru do rezydencji P.PORTO na 2026/27, bo znajdują się w osobnym dokumencie. Strona SASUP podaje, że terminy dla studentów zapisanych poprzednio to zwykle maj, a dla pierwszego roku do 31 października.",
+    "Na stronie głównej ISEP nie znaleziono podstrony o zakwaterowaniu. Zakwaterowanie dla ISEP prowadzi SAS P.PORTO, a U.Porto prowadzi SASUP."
+  ],
+  "sources": [
+    {
+      "url": "https://www.up.pt/portal/pt/sasup/alojamento/precos/",
+      "note": "Tabela cen SASUP (2025/2026)."
+    },
+    {
+      "url": "https://www.up.pt/portal/pt/sasup/alojamento/candidaturas/",
+      "note": "Zasady naboru do rezydencji U.Porto."
+    },
+    {
+      "url": "https://www.up.pt/portal/pt/sasup/faq/alojamento/",
+      "note": "Pytania i odpowiedzi o zakwaterowaniu, w tym dla studentów zagranicznych."
+    },
+    {
+      "url": "https://www.up.pt/portal/pt/sasup/alojamento/residencias/",
+      "note": "Opis rezydencji U.Porto, adresy i wyposażenie."
+    },
+    {
+      "url": "https://www.up.pt/portal/en/study/international-students/study-in-porto/",
+      "note": "Miesięczne wydatki studenta w Porto (grafika)."
+    },
+    {
+      "url": "https://www.up.pt/portal/media/images/custodevida_PT_1ucKpQL.original.png",
+      "note": "Grafika z kosztami życia w Porto."
+    },
+    {
+      "url": "https://www.sas.ipp.pt/alojamento/candidatura",
+      "note": "Nabór do rezydencji P.PORTO."
+    },
+    {
+      "url": "https://www.sas.ipp.pt/alojamento/residencias/tabela-de-precos-2025-2026",
+      "note": "Tabela cen P.PORTO na rok 2026/27 (plik PDF)."
+    },
+    {
+      "url": "https://www.sas.ipp.pt/alojamento/residencias",
+      "note": "Wykaz rezydencji P.PORTO."
+    },
+    {
+      "url": "https://www.spotahome.com/s/porto--portugal",
+      "note": "Średnia z ogłoszeń w Porto (dane nieoficjalne)."
+    }
+  ]
+}

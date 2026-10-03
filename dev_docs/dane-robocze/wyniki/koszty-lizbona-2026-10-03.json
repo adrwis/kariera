@@ -1,0 +1,172 @@
+{
+  "slug": "lizbona",
+  "name": "Lizbona",
+  "country": "Portugalia",
+  "currency": "EUR",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "Główny operator to SASULisboa, który prowadzi 15 rezydencji dla studentów Uniwersytetu Lizbońskiego. W roku 2026/27 miejsce w pokoju jednoosobowym kosztuje 280 EUR miesięcznie, a w pokoju wieloosobowym od 175 EUR do 230 EUR za łóżko, w zależności od dochodu rodziny (ceny obowiązują od 1 października 2026). Uniwersytet Nova de Lisboa ma własną rezydencję Fraústo da Silva, gdzie pokój dwuosobowy to 225 EUR, a jednoosobowy od 300 EUR do 400 EUR. ISCTE uruchamia trzy nowe rezydencje i nie podaje jeszcze cen."
+    },
+    {
+      "label": "Wynajem",
+      "text": "Oficjalne dane o czynszach w Lizbonie nie podają kwot miesięcznych dla pokoju czy kawalerki. Jedyny znaleziony przedział to średnia z ogłoszeń platformy Spotahome, czyli około 1 223 EUR miesięcznie za lokal dowolnego typu w okresie od kwietnia do września 2026. Te dane są nieoficjalne i obejmują także duże mieszkania."
+    },
+    {
+      "label": "Budżet miesięczny",
+      "text": "Nie znaleziono oficjalnej łącznej kwoty miesięcznego budżetu studenta w Lizbonie. Warto liczyć osobno koszt miejsca w rezydencji lub czynszu, wyżywienia i transportu."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "Zacznij od rezydencji SASULisboa i SASNOVA, bo mają najniższe ceny i pierwszeństwo dla stypendystów. Wniosek do SASULisboa składa się online, a po nim jest rozmowa w biurze zakwaterowania. Na prywatnym rynku zawsze podpisuj formalną umowę najmu, bo NOVA FCT przypomina, że jest ona potrzebna do rejestracji pobytu, numeru podatkowego (NIF) i potwierdzenia adresu."
+    },
+    {
+      "label": "Uwagi",
+      "text": "W rezydencjach ULisboa i NOVA pierwszeństwo mają stypendyści, a pozostali studenci dostają miejsce tylko przy wolnych łóżkach. ULisboa zapowiada w 2026/27 dodatkowe 1 018 łóżek."
+    }
+  ],
+  "budget": {
+    "from": null,
+    "to": null,
+    "currency": "EUR",
+    "period": "miesiąc",
+    "text": "Nie znaleziono oficjalnej łącznej kwoty miesięcznego budżetu studenta w Lizbonie na stronach uczelni ani portali rządowych, które dały się otworzyć. Jedyną oficjalną kwotą związaną z kosztami jest opłata za miejsce w rezydencji SASULisboa dla stypendystów DGES, czyli 161,14 EUR miesięcznie.",
+    "sourceUrl": "https://www.sas.ulisboa.pt/_archive/_sas_documento/9546ab0e32af1dca2.44718162.pdf",
+    "quote": "Estudantes Bolseiros - DGES 161,14€",
+    "official": true
+  },
+  "dorms": [
+    {
+      "name": "Residências Universitárias SASULisboa (15 rezydencji dla studentów)",
+      "operator": "SASULisboa, Serviços de Ação Social da Universidade de Lisboa",
+      "url": "https://www.sas.ulisboa.pt/introducao-ao-alojamento",
+      "roomType": "jednoosobowy i wieloosobowy (cena za łóżko)",
+      "priceFrom": 175,
+      "priceTo": 280,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Gaz, prąd, woda i Wi-Fi, cotygodniowe sprzątanie pokoju, pranie i wymiana pościeli, wyposażony pokój oraz dostęp do pralek i suszarek.",
+      "deposit": "Regulamin przewiduje dodatkową miesięczną opłatę jako gwarancję rezerwacji, ale SASULisboa w tej chwili jej nie pobiera. Przy pierwszej opłacie dochodzi 10 EUR za opłaty administracyjne, klucze i karty oraz 20 EUR za ręczniki, jeśli są potrzebne.",
+      "eligibility": "Studenci Uniwersytetu Lizbońskiego na studiach pierwszego, drugiego i trzeciego stopnia, mieszkający poza miejscem zamieszkania rodziny. Pierwszeństwo mają stypendyści DGES. Cena 175 EUR lub 230 EUR dotyczy łóżka w pokoju wieloosobowym (zależnie od dochodu na osobę w rodzinie), a 280 EUR pokoju jednoosobowego. Studenci innych uczelni płacą 370 EUR lub 440 EUR. Strona nie wprowadza ograniczenia obywatelstwa.",
+      "applicationInfo": "Wniosek składa się online przez stronę SASULisboa po rejestracji konta. Ogólny nabór na rok 2026/27 trwa od 27 sierpnia 2026 i nie ma ustalonego terminu końcowego, ale zależy od wolnych miejsc. Po złożeniu wniosku jest rozmowa w biurze zakwaterowania, a odpowiedź przychodzi średnio w ciągu 15 dni roboczych. Studenci niepełnoletni podpisują umowę z opiekunem.",
+      "applyUrl": "https://www.sas.ulisboa.pt/",
+      "waitlist": "Strona nie podaje listy oczekujących, ale zastrzega, że link do wniosku może zniknąć, gdy zabraknie wolnych miejsc.",
+      "sourceUrl": "https://www.sas.ulisboa.pt/_archive/_sas_documento/9546ab0e32af1dca2.44718162.pdf",
+      "quote": "Estudantes ULisboa 280,00€ 175,00€ 230,00€ / Outros estudantes 440,00€ 370,00€",
+      "notes": "Tabela obowiązuje od 1 października 2026 (informacja w stopce tabeli). Stypendyści DGES płacą 161,14 EUR. Zakres usług pochodzi z odpowiedzi na często zadawane pytania: „consumos de gás, eletricidade, água e Wi-Fi”. Rezydencje zamykają się 31 lipca i otwierają 1 września."
+    },
+    {
+      "name": "Residência Universitária Fraústo da Silva (Caparica)",
+      "operator": "SASNOVA, Serviços de Ação Social da Universidade NOVA de Lisboa",
+      "url": "https://sas.unl.pt/alojamento/residencia-frausto-da-silva/",
+      "roomType": "dwuosobowy lub jednoosobowy, z łazienką wspólną lub prywatną; apartamenty T1 i T2",
+      "priceFrom": 225,
+      "priceTo": 400,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Ogrzewanie centralne, bezprzewodowy internet, codzienne sprzątanie części wspólnych, ochrona całodobowa, wspólne kuchnie i pralnie. Lodówka do wynajęcia za 7,50 EUR miesięcznie.",
+      "deposit": null,
+      "eligibility": "Studenci Uniwersytetu NOVA. Pierwszeństwo mają stypendyści SASNOVA i studenci programów wymiany (Erasmus). Pozostali mogą składać wniosek tylko, gdy zostaną wolne miejsca.",
+      "applicationInfo": "Stypendyści składają wniosek o zakwaterowanie razem z wnioskiem o stypendium w DGES. Pozostali studenci mogą złożyć wniosek po ogłoszeniu naboru na stronie SASNOVA, według strony od 15 września (semestr zimowy) i od 15 stycznia (semestr letni), do wniosku dołącza się zaświadczenie o zapisie na uczelnię. Umowa trwa do 10 miesięcy i trzeba ją odnawiać co roku.",
+      "applyUrl": "https://sas.unl.pt/alojamento/candidaturas/",
+      "waitlist": null,
+      "sourceUrl": "https://sas.unl.pt/wp-content/uploads/2026/08/Precario-RFS-2026_2027_V2.pdf",
+      "quote": "QUARTO DUPLO (WC Partilhado) 225 € ... QUARTO INDIVIDUAL (WC Privativo) 400 €",
+      "notes": "Cennik na 2026/27 obowiązuje od 1 września do 30 czerwca. Pokój dwuosobowy z prywatną łazienką kosztuje 275 EUR, a jednoosobowy ze wspólną łazienką 300 EUR. Stypendyści DGES płacą 161,14 EUR. Rezydencja ma 210 łóżek i leży przy kampusie NOVA FCT w Caparica, poza Lizboną po drugiej stronie rzeki. SASNOVA prowadzi też rezydencje Alfredo de Sousa i do Lumiar; ich cenniki na 2026/27 nie zostały sprawdzone."
+    },
+    {
+      "name": "Residências Universitárias Iscte (Odivelas, Amadora, Sintra)",
+      "operator": "Iscte, Instituto Universitário de Lisboa",
+      "url": "https://www.iscte-iul.pt/estudar/residencia",
+      "roomType": "jednoosobowy i dwuosobowy z prywatną łazienką (Odivelas), jednoosobowy (Amadora), jednoosobowy z kuchnią dzieloną z sąsiadem (Sintra)",
+      "priceFrom": null,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Wspólne kuchnie, sale do nauki, pomieszczenia wspólne i pralnia. Zakres opłat nie jest podany.",
+      "deposit": null,
+      "eligibility": "Miejsca są przeznaczone przede wszystkim dla studentów mieszkających poza Lizboną, ze szczególną uwagą dla stypendystów. Mogą też aplikować studenci w programach wymiany i inni członkowie społeczności akademickiej, zgodnie z regulaminem.",
+      "applicationInfo": "Wnioski składa się wyłącznie online przez formularz na stronie rezydencji. Rezydencje w Sintrze i Amadorze są uruchamiane stopniowo do grudnia 2026, a pełne działanie przewidziano od drugiego semestru roku 2026/27. Termin naboru nie jest podany.",
+      "applyUrl": "https://www.iscte-iul.pt/estudar/residencia",
+      "waitlist": null,
+      "sourceUrl": "https://www.iscte-iul.pt/estudar/residencia",
+      "quote": "Podem igualmente candidatar-se estudantes em mobilidade e outros membros da comunidade académica, nos termos do regulamento em vigor.",
+      "notes": "Ceny nie są opublikowane na stronie. Odivelas ma 100 pokoi jednoosobowych i 52 dwuosobowe, Amadora 219 jednoosobowych, Sintra 197 jednoosobowych. Kontakt: residencia@iscte-iul.pt."
+    }
+  ],
+  "rent": [
+    {
+      "type": "średnia dla wszystkich typów lokali (pokoje, kawalerki, mieszkania)",
+      "area": "Lizbona, całe miasto",
+      "priceFrom": 1223,
+      "priceTo": 1223,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": false,
+      "source": "Spotahome, średnia z ogłoszeń opublikowanych w mieście (kwiecień do wrzesień 2026), dane nieoficjalne",
+      "sourceUrl": "https://www.spotahome.com/s/lisbon--portugal",
+      "quote": "In the last 6 months, the average rental price for our properties in Lisbon, Portugal, has been €1,223",
+      "notes": "Dane nieoficjalne. To średnia z ofert jednej platformy, liczona za lokal i obejmuje także duże mieszkania. We wrześniu 2026 średnia wynosiła 1 219 EUR. To nie jest cena pokoju studenckiego."
+    }
+  ],
+  "gaps": [
+    "Nie udało się potwierdzić oficjalnej łącznej kwoty miesięcznego budżetu studenta w Lizbonie. Portal Study in Portugal nie otworzył się, a strony uczelni dla cudzoziemców nie podają takiej kwoty.",
+    "Nie ma oficjalnych cen pokoju w mieszkaniu współdzielonym ani kawalerki w Lizbonie. Portugalski urząd statystyczny publikuje tylko medianę czynszu za metr kwadratowy dla większych regionów i dane te były dostępne najwyżej za pierwszy kwartał 2025 roku, więc ich nie użyto. W tabeli jest jedynie nieoficjalna średnia z jednej platformy, co jest mniej niż trzy wymagane wiersze.",
+    "Cennik rezydencji ISCTE nie jest opublikowany. Cenniki rezydencji SASNOVA Alfredo de Sousa i do Lumiar na rok 2026/27 nie zostały sprawdzone, a strona pokazuje dla nich cenniki 2025/26.",
+    "SASULisboa nie podaje, czy zagraniczny student pierwszego roku bez stypendium DGES dostanie miejsce. Pierwszeństwo mają stypendyści, a pozostali czekają na wolne miejsca.",
+    "Na stronach głównych Wydziału Prawa, Psychologii, Architektury i ISEG (Uniwersytet Lizboński) oraz NOVA SBE, NOVA IMS i NOVA FCSH nie znaleziono podstrony o zakwaterowaniu. Studenci tych wydziałów korzystają z rezydencji SASULisboa lub SASNOVA. Wydział Medycyny odsyła do rezydencji ULisboa, a NOVA FCT wskazuje rezydencję Fraústo da Silva i ostrzega, że studenci sami organizują sobie mieszkanie. Strona IST pokazuje rezydencje Duarte Pacheco i Ramôa Ribeiro bez cen."
+  ],
+  "sources": [
+    {
+      "url": "https://www.sas.ulisboa.pt/_archive/_sas_documento/9546ab0e32af1dca2.44718162.pdf",
+      "note": "Tabele cen SASULisboa na rok 2026/27 (obowiązują od 1 października 2026)."
+    },
+    {
+      "url": "https://www.sas.ulisboa.pt/perguntas-frequentes-sobre-alojamento",
+      "note": "Zasady zakwaterowania, zakres usług, kaucja i terminy w SASULisboa."
+    },
+    {
+      "url": "https://www.sas.ulisboa.pt/candidaturas-ao-alojamento",
+      "note": "Nabór do rezydencji ULisboa na rok 2026/27."
+    },
+    {
+      "url": "https://www.sas.ulisboa.pt/introducao-ao-alojamento",
+      "note": "Opis rezydencji ULisboa i wykaz dokumentów."
+    },
+    {
+      "url": "https://tecnico.ulisboa.pt/pt/noticias/campus-e-comunidade/ulisboa-reforca-oferta-de-alojamento-com-mais-1018-camas-em-2026-2027/",
+      "note": "Nowe łóżka w rezydencjach ULisboa w roku 2026/27 (Instituto Superior Técnico)."
+    },
+    {
+      "url": "https://sas.unl.pt/alojamento/",
+      "note": "Rezydencje SASNOVA."
+    },
+    {
+      "url": "https://sas.unl.pt/alojamento/candidaturas/",
+      "note": "Zasady składania wniosków w SASNOVA."
+    },
+    {
+      "url": "https://sas.unl.pt/wp-content/uploads/2026/08/Precario-RFS-2026_2027_V2.pdf",
+      "note": "Cennik rezydencji Fraústo da Silva na 2026/27."
+    },
+    {
+      "url": "https://www.fct.unl.pt/estudante/alojamento",
+      "note": "Strona NOVA FCT o zakwaterowaniu i ostrzeżenie o umowach najmu."
+    },
+    {
+      "url": "https://www.iscte-iul.pt/estudar/residencia",
+      "note": "Rezydencje ISCTE."
+    },
+    {
+      "url": "https://www.medicina.ulisboa.pt/alojamento",
+      "note": "Strona Wydziału Medycyny o zakwaterowaniu."
+    },
+    {
+      "url": "https://www.spotahome.com/s/lisbon--portugal",
+      "note": "Średnia z ogłoszeń w Lizbonie (dane nieoficjalne)."
+    }
+  ]
+}

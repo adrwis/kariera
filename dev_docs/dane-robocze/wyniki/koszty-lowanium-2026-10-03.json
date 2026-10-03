@@ -1,0 +1,220 @@
+{
+  "slug": "lowanium",
+  "name": "Lowanium (Leuven)",
+  "country": "Belgia",
+  "currency": "EUR",
+  "retrieved": "2026-10-03",
+  "summary": [
+    {
+      "label": "Akademiki",
+      "text": "KU Leuven nie przydziela zakwaterowania automatycznie, ale ma własne akademiki: około 20% pokoi w Leuven to domy studenckie (Stuvo, Central Services i prywatne w ramach umów współpracy), a 80% to prywatny rynek. Pokój w akademiku Stuvo kosztuje w roku 2026/2027 od 525 EUR do 553 EUR miesięcznie ze wszystkimi mediami i bez kaucji."
+    },
+    {
+      "label": "Wynajem",
+      "text": "KU Leuven podaje, że pokój studencki (kot) kosztuje 400 EUR do 750 EUR, studio 700 EUR do 1 200 EUR, a mieszkanie lub dom 800 EUR do 2 000 EUR miesięcznie. Średnio pokój na rynku prywatnym kosztuje 490 EUR do 800 EUR z kosztami (rok akademicki 2025/2026)."
+    },
+    {
+      "label": "Budżet miesięczny",
+      "text": "KU Leuven szacuje, że do pokrycia kosztów życia w Belgii potrzeba około 1 050 EUR do 1 400 EUR miesięcznie, wliczając materiały do nauki, mieszkanie z mediami, jedzenie, ubrania, ubezpieczenie i wydatki osobiste."
+    },
+    {
+      "label": "Jak szukać mieszkania",
+      "text": "Oficjalną bazą ofert jest Kotwijs, a rynek jest bardzo napięty: ponad 40 tysięcy studentów na około 100 tysięcy mieszkańców. Sezon ofert trwa od marca do maja i osiąga szczyt pod koniec kwietnia, a uczelnia radzi zapewnić mieszkanie przed przyjazdem do Belgii i uważać na oszustwa internetowe."
+    },
+    {
+      "label": "Uwagi",
+      "text": "W danych miasta jest jedna uczelnia, KU Leuven. Akademiki Stuvo obejmują około 3 000 pokoi i 250 studiów lub mieszkań, a Central Services ponad 2 200 pokoi i 90 studiów lub mieszkań."
+    }
+  ],
+  "budget": {
+    "from": 1050,
+    "to": 1400,
+    "currency": "EUR",
+    "period": "miesiąc",
+    "text": "Oficjalny szacunek KU Leuven obejmujący materiały do nauki, mieszkanie (czynsz, ogrzewanie, woda, prąd), jedzenie, ubrania, pranie, koszty medyczne i ubezpieczenie oraz inne wydatki, takie jak wolny czas, zakupy i transport. Uczelnia zastrzega, że w Belgii działa indeksacja cen, więc kwoty mogą rosnąć.",
+    "sourceUrl": "https://www.kuleuven.be/english/life-at-ku-leuven/money-matters/cost-of-living-in-belgium",
+    "quote": "To cover your living expenses in Belgium you will need around €1,050 to €1,400 per month. This estimate includes study materials, housing costs (rent, heating, water, electricity, etc.), food, clothing, laundry, medical & insurance costs, and other expenses — e.g. leisure, groceries, transport, etc.",
+    "official": true
+  },
+  "dorms": [
+    {
+      "name": "Akademiki KU Leuven Stuvo: pokoje",
+      "operator": "KU Leuven Stuvo (25 domów studenckich w Leuven i Heverlee)",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/residences/student-services-residence-halls",
+      "roomType": "pokój jednoosobowy z wspólną kuchnią i łazienką",
+      "priceFrom": 525,
+      "priceTo": 553,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Pokój z umeblowaniem, woda, prąd, ogrzewanie, internet, sprzątanie części wspólnych i drugi podatek od zamieszkania.",
+      "deposit": "Brak kaucji.",
+      "eligibility": "Student z kontraktem na stopień lub doktorant Stowarzyszenia KU Leuven, studiujący w Leuven, Heverlee lub Haasrode (kontrakt kredytowy nie wystarcza). Priorytet mają studenci pierwszego stopnia, w tym zagraniczni; około 600 pokoi jest zarezerwowanych dla studentów zagranicznych.",
+      "applicationInfo": "Termin wniosku na rok 2026/2027 już minął i pokoje rozdzielono; można zapisać się na listę oczekujących, a pokoje zwalniają się zwykle w tygodniach przed rozpoczęciem roku. Terminów na rok 2027/2028 strona nie podaje. Umowa standardowo na 10 miesięcy, z opcją przedłużenia latem.",
+      "applyUrl": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/residences/student-services-residence-halls/apply",
+      "waitlist": "Tak, lista oczekujących bez gwarancji oferty.",
+      "sourceUrl": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/residences/student-services-residence-halls/rooms",
+      "quote": "€525 or €553 (all-in), depending on the residence",
+      "notes": "Cena 525 EUR lub 553 EUR zależy od domu studenckiego. Dom Pius X jest zamknięty w roku 2026/2027, a Parkstraat 29 dostępny tylko w pierwszym semestrze, z powodu remontów."
+    },
+    {
+      "name": "Akademiki KU Leuven Stuvo: pokoje komfortowe",
+      "operator": "KU Leuven Stuvo",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/residences/student-services-residence-halls/rooms",
+      "roomType": "pokój komfortowy z własnym prysznicem",
+      "priceFrom": 648,
+      "priceTo": 668,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Pokój z umeblowaniem, woda, prąd, ogrzewanie, internet, sprzątanie części wspólnych i drugi podatek od zamieszkania.",
+      "deposit": "Brak kaucji.",
+      "eligibility": "Jak w pokojach Stuvo: student lub doktorant Stowarzyszenia KU Leuven studiujący w Leuven, Heverlee lub Haasrode.",
+      "applicationInfo": "Wolne pokoje komfortowe są publikowane na platformie Kotwijs (filtr „(KU Leuven) Residence”); jeśli nic nie ma, nie ma wolnych miejsc. Umowa standardowo na 10 miesięcy.",
+      "applyUrl": "https://kotwijs.be/en",
+      "waitlist": null,
+      "sourceUrl": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/residences/student-services-residence-halls/rooms",
+      "quote": "€648 or €668 (all-in), depending on the room size",
+      "notes": null
+    },
+    {
+      "name": "Akademiki KU Leuven Stuvo: studia i mieszkania",
+      "operator": "KU Leuven Stuvo",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/residences/student-services-residence-halls/rooms",
+      "roomType": "studio lub mieszkanie z własną kuchnią i łazienką",
+      "priceFrom": 718,
+      "priceTo": 1295,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Umeblowanie, woda, prąd, ogrzewanie, internet i sprzątanie części wspólnych; drugi podatek od zamieszkania nie jest wliczony. Studia 718 EUR do 854 EUR, mieszkania 854 EUR do 1 295 EUR.",
+      "deposit": "500 EUR za studio, 800 EUR za mieszkanie.",
+      "eligibility": "Jak w pozostałych akademikach Stuvo.",
+      "applicationInfo": "Bez stałego terminu: oferty pojawiają się na Kotwijs, gdy tylko się zwolnią. Umowa na 12 miesięcy, niekoniecznie zgodnie z rokiem akademickim.",
+      "applyUrl": "https://kotwijs.be/en",
+      "waitlist": null,
+      "sourceUrl": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/residences/student-services-residence-halls/rooms",
+      "quote": "Studios: €718 - €854 (all-in)",
+      "notes": "Zakres 718 EUR do 1 295 EUR łączy studia i mieszkania."
+    },
+    {
+      "name": "Domy studenckie Central Services KU Leuven (CERAB)",
+      "operator": "KU Leuven Central Services",
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/residences/central-services/index.html",
+      "roomType": "pokój, studio lub mieszkanie (zależnie od domu)",
+      "priceFrom": null,
+      "priceTo": null,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "includes": "Cena stała, zależna od typu pokoju i komfortu; podana na stronie każdego domu.",
+      "deposit": null,
+      "eligibility": "Trzeba spełnić warunki przyjęcia danego domu; 50% pokoi jest zarezerwowane dla studentów zagranicznych (ponad 2 200 pokoi i 90 studiów lub mieszkań). Mogą się ubiegać także studenci wymiany Erasmus.",
+      "applicationInfo": "Formularz na rok 2026/2027 był dostępny od 15 lutego dla obecnych najemców i od 21 marca dla nowych kandydatów; wyniki rozesłano między 23 kwietnia a 31 maja 2026. Wniosek można złożyć tylko jeden, z maksymalnie trzema wybranymi domami. Terminów na rok 2027/2028 strona nie podaje.",
+      "applyUrl": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/residences/central-services/AccommodationforInternationalstudents",
+      "waitlist": "Przydział przez losowanie ważone (m.in. różnorodność narodowości i płci, okres pobytu); jeśli zostają pokoje, następuje drugie losowanie.",
+      "sourceUrl": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/residences/central-services/AccommodationforInternationalstudents",
+      "quote": "Rooms are allocated through a weighted lottery system.",
+      "notes": "Pokój wynajmuje się na semestr lub 12 miesięcy; cen poszczególnych domów nie odczytano."
+    }
+  ],
+  "rent": [
+    {
+      "type": "pokój w mieszkaniu współdzielonym",
+      "area": "Leuven i okolice (kot, 12 do 18 m2)",
+      "priceFrom": 400,
+      "priceTo": 750,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": true,
+      "source": "KU Leuven, typy zakwaterowania",
+      "sourceUrl": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/types-of-accomodation",
+      "quote": "400 - 750 per month (also check the additional costs)",
+      "notes": "Strona bez daty publikacji, odczytana 2026-10-03. Uczelnia zaznacza, że koszty mediów nie zawsze są w czynszu."
+    },
+    {
+      "type": "pokój w mieszkaniu współdzielonym",
+      "area": "Leuven, rynek prywatny (średnia rok akademicki 2025/2026)",
+      "priceFrom": 490,
+      "priceTo": 800,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2025/2026",
+      "includesUtilities": "tak",
+      "official": true,
+      "source": "KU Leuven, zakwaterowanie studentów w Leuven",
+      "sourceUrl": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/find-housing/students/index.html",
+      "quote": "on average €490 - €800 per month (incl costs) (AY 25-26)",
+      "notes": "Średnie z rynku prywatnego podane przez uczelnię za rok akademicki 2025/2026, z kosztami."
+    },
+    {
+      "type": "kawalerka (studio)",
+      "area": "Leuven i okolice (studio 18 do 25 m2)",
+      "priceFrom": 700,
+      "priceTo": 1200,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie wiadomo",
+      "official": true,
+      "source": "KU Leuven, typy zakwaterowania",
+      "sourceUrl": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/types-of-accomodation",
+      "quote": "700 - 1,200 per month (also check the additional costs)",
+      "notes": "Studio z własną łazienką i kuchenką; w części studiów media są w cenie. Strona bez daty publikacji."
+    },
+    {
+      "type": "mieszkanie 1-pokojowe lub większe (mieszkanie albo dom)",
+      "area": "Leuven i okolice",
+      "priceFrom": 800,
+      "priceTo": 2000,
+      "currency": "EUR",
+      "period": "miesiąc",
+      "year": "2026",
+      "includesUtilities": "nie",
+      "official": true,
+      "source": "KU Leuven, typy zakwaterowania",
+      "sourceUrl": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/types-of-accomodation",
+      "quote": "800 - 2,000 per month (additional costs not included)",
+      "notes": "Przedział obejmuje mieszkania i domy od 40 do 300 m2, więc jest bardzo szeroki; studenci rzadko wybierają ten typ."
+    }
+  ],
+  "gaps": [
+    "Terminy wniosków do akademików Stuvo i Central Services na rok 2027/2028 nie były jeszcze opublikowane. Podane daty dotyczą roku 2026/2027 i już minęły; strona Stuvo nie podaje daty końcowej terminu na pokoje.",
+    "Nie odczytano cen w poszczególnych domach Central Services (podane są na stronach każdego domu) ani cen akademików prywatnych w ramach umów współpracy z KU Leuven (około 880 pokoi).",
+    "Nie sprawdzono bieżących ofert na platformie Kotwijs, bo ma charakter wyszukiwarki, więc dostępność pokoi w danym dniu jest nieznana.",
+    "Strona KU Leuven o kosztach życia zawiera w meta opisie przedział 1 000 do 1 350 EUR, a w treści głównej 1 050 do 1 400 EUR; przyjęto zapis z treści głównej.",
+    "Dla czynszów rynkowych nie ma niezależnych danych urzędu statystycznego ani raportu portalu najmu; wszystkie wiersze pochodzą od uczelni, a strona z typami zakwaterowania nie ma daty publikacji."
+  ],
+  "sources": [
+    {
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/find-housing/students/index.html",
+      "note": "Zakwaterowanie studentów w Leuven, rynek prywatny i akademiki, wskazówki."
+    },
+    {
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/types-of-accomodation",
+      "note": "Typy zakwaterowania i orientacyjne ceny."
+    },
+    {
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/residences/student-services-residence-halls/rooms",
+      "note": "Stawki czynszu w akademikach Stuvo na rok 2026/2027."
+    },
+    {
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/residences/student-services-residence-halls",
+      "note": "Domy Stuvo, warunki dla studentów zagranicznych."
+    },
+    {
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/residences/student-services-residence-halls/apply",
+      "note": "Jak i kiedy składać wnioski do Stuvo, lista oczekujących."
+    },
+    {
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/residences/central-services/index.html",
+      "note": "Domy studenckie Central Services."
+    },
+    {
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/housing/students/residences/central-services/AccommodationforInternationalstudents",
+      "note": "Wnioski i losowanie w Central Services na rok 2026/2027."
+    },
+    {
+      "url": "https://www.kuleuven.be/english/life-at-ku-leuven/money-matters/cost-of-living-in-belgium",
+      "note": "Oficjalny szacunek kosztów życia."
+    }
+  ]
+}
