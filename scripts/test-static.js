@@ -47,6 +47,9 @@ check(`zasoby z index.html istnieją (${assets.length})`, !lost.length, lost.joi
 const wf = read('.github/workflows/deploy.yml');
 check('CI robi build i testy przed publikacją', wf.indexOf('npm run build') !== -1 && wf.indexOf('npm test') > wf.indexOf('npm run build'));
 check('CI nie publikuje dev_docs', !/cp[^\n]*dev_docs/.test(wf));
+const staticDirs = fs.readdirSync(ROOT).filter(d => fs.existsSync(path.join(ROOT, d, 'index.html')) && d !== 'node_modules');
+const notCopied = staticDirs.filter(d => !new RegExp('cp -r[^\\n]*\\b' + d + '\\b').test(wf));
+check(`CI kopiuje każdy katalog ze stronami statycznymi (${staticDirs.join(', ')})`, !notCopied.length, notCopied.join(', '));
 
 console.log('\n=== Studia za granicą ===');
 const zIndex = JSON.parse(read('data/zagranica/index.json')).cities;
